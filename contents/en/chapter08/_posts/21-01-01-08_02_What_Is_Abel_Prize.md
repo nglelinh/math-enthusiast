@@ -38,6 +38,7 @@ Niels Henrik Abel is a fitting namesake. In a short life he transformed the theo
 
 Open any Abel citation at [abelprize.no](https://abelprize.no/) and you will usually see language about **bodies of work**, **methods that became tools**, and **bridges across fields**. The committee rarely stops at a single equation. Compare, for example, the following official short citations (paraphrased closely to official wording):
 
+- **Serre (2003):** key role in shaping the modern form of topology, algebraic geometry, and number theory (first Abel Prize).  
 - **Atiyah & Singer (2004):** discovery and proof of the index theorem, bringing together topology, geometry and analysis, and outstanding bridges to theoretical physics.  
 - **Wiles (2016):** stunning proof of Fermat’s Last Theorem *by way of* the modularity conjecture for semistable elliptic curves, opening a new era in number theory.  
 - **Uhlenbeck (2019):** pioneering achievements in geometric PDE, gauge theory, and integrable systems, and fundamental impact on analysis, geometry, and mathematical physics.  

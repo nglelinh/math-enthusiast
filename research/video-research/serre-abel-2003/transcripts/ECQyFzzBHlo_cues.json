@@ -1,0 +1,3132 @@
+[
+  {
+    "t_start": 5.829,
+    "t_end": 11.589,
+    "text": "something yeah I don't want to use this so uh so maybe I should explain before I"
+  },
+  {
+    "t_start": 11.589,
+    "t_end": 17.67,
+    "text": "so uh so maybe I should explain before I really start that uh I was asked to"
+  },
+  {
+    "t_start": 17.67,
+    "t_end": 22.83,
+    "text": "probably with the idea that I could explain how to write mathematics"
+  },
+  {
+    "t_start": 22.83,
+    "t_end": 24.55,
+    "text": "explain how to write mathematics well"
+  },
+  {
+    "t_start": 24.55,
+    "t_end": 30.669,
+    "text": "so I told the Taylor that that was a bit difficult and uh"
+  },
+  {
+    "t_start": 30.669,
+    "t_end": 35.31,
+    "text": "presumptuous too but on the other hand I feel I'm an expert in how to write"
+  },
+  {
+    "t_start": 35.31,
+    "t_end": 38.99,
+    "text": "feel I'm an expert in how to write mathematics badly so uh what I want to"
+  },
+  {
+    "t_start": 38.99,
+    "t_end": 40.709,
+    "text": "mathematics badly so uh what I want to describe today is how you write"
+  },
+  {
+    "t_start": 40.709,
+    "t_end": 42.75,
+    "text": "describe today is how you write mathematics"
+  },
+  {
+    "t_start": 42.75,
+    "t_end": 49.35,
+    "text": "badly so maybe by taking your you might manage to do better so let's imagine"
+  },
+  {
+    "t_start": 49.35,
+    "t_end": 51.229,
+    "text": "manage to do better so let's imagine somebody who really wants"
+  },
+  {
+    "t_start": 51.229,
+    "t_end": 57.11,
+    "text": "to to get rid of the theorem he has proved he wants to publish it he or"
+  },
+  {
+    "t_start": 57.11,
+    "t_end": 60.43,
+    "text": "proved he wants to publish it he or she the txts are different"
+  },
+  {
+    "t_start": 60.43,
+    "t_end": 65.189,
+    "text": "this uh he wants to publish it as soon as possible he doesn't care that he's"
+  },
+  {
+    "t_start": 65.189,
+    "t_end": 67.31,
+    "text": "as possible he doesn't care that he's not read or"
+  },
+  {
+    "t_start": 67.31,
+    "t_end": 73.03,
+    "text": "understood and he might prefer maybe not to be understood sometimes that's that's"
+  },
+  {
+    "t_start": 73.03,
+    "t_end": 78.19,
+    "text": "that's so what does he do well first he has to choose a title which doesn't give"
+  },
+  {
+    "t_start": 78.19,
+    "t_end": 80.23,
+    "text": "has to choose a title which doesn't give any information at all so for instance"
+  },
+  {
+    "t_start": 80.23,
+    "t_end": 84.03,
+    "text": "any information at all so for instance he can say"
+  },
+  {
+    "t_start": 85.83,
+    "t_end": 88.67,
+    "text": "prove of"
+  },
+  {
+    "t_start": 88.67,
+    "t_end": 94.03,
+    "text": "the of and then take either somebody [Music]"
+  },
+  {
+    "t_start": 94.03,
+    "t_end": 102.67,
+    "text": "absolutely un known so that you don't know what that is or else say a of"
+  },
+  {
+    "t_start": 104.87,
+    "t_end": 109.109,
+    "text": "mean the two things are essentially equivalent they"
+  },
+  {
+    "t_start": 109.109,
+    "t_end": 112.27,
+    "text": "equivalent they give no"
+  },
+  {
+    "t_start": 112.27,
+    "t_end": 116.83,
+    "text": "information then he has to start by stating his"
+  },
+  {
+    "t_start": 116.83,
+    "t_end": 121.789,
+    "text": "stating his theorem well he will call it his main"
+  },
+  {
+    "t_start": 121.789,
+    "t_end": 127.35,
+    "text": "nowadays the theems are indexed by things like two three four and so on so"
+  },
+  {
+    "t_start": 127.35,
+    "t_end": 129.43,
+    "text": "things like two three four and so on so nobody will check there is only one in"
+  },
+  {
+    "t_start": 129.43,
+    "t_end": 132.309,
+    "text": "nobody will check there is only one in the paper you can still call it the men"
+  },
+  {
+    "t_start": 132.309,
+    "t_end": 135.43,
+    "text": "the paper you can still call it the men so and what notation he takes well he"
+  },
+  {
+    "t_start": 135.43,
+    "t_end": 136.589,
+    "text": "so and what notation he takes well he takes a"
+  },
+  {
+    "t_start": 136.589,
+    "t_end": 141.71,
+    "text": "notation which are in his head and he believes that every reader will know his"
+  },
+  {
+    "t_start": 141.71,
+    "t_end": 148.509,
+    "text": "believes that every reader will know his notation so he will say by man is I"
+  },
+  {
+    "t_start": 148.509,
+    "t_end": 152.39,
+    "text": "don't know uh an F PP H"
+  },
+  {
+    "t_start": 152.39,
+    "t_end": 157.63,
+    "text": "F PP H H is"
+  },
+  {
+    "t_start": 160.07,
+    "t_end": 165.27,
+    "text": "mean and he believes that if you don't know what is"
+  },
+  {
+    "t_start": 168.79,
+    "t_end": 172.35,
+    "text": "h&amp;t and fpp of course he made a misprint you see he wanted to write fph but"
+  },
+  {
+    "t_start": 172.35,
+    "t_end": 176.39,
+    "text": "you see he wanted to write fph but putting a misprint in the makes it even"
+  },
+  {
+    "t_start": 176.39,
+    "t_end": 178.75,
+    "text": "putting a misprint in the makes it even harder to understand as for regular as"
+  },
+  {
+    "t_start": 178.75,
+    "t_end": 183.149,
+    "text": "for regular he has a good point regular is well defined in mathematics it's so"
+  },
+  {
+    "t_start": 183.149,
+    "t_end": 190.949,
+    "text": "well defined there are about two dozen different definition so that's okay so"
+  },
+  {
+    "t_start": 190.949,
+    "t_end": 192.789,
+    "text": "different definition so that's okay so he start with"
+  },
+  {
+    "t_start": 192.789,
+    "t_end": 199.27,
+    "text": "that he might be afraid of the referee might ask him a reference for"
+  },
+  {
+    "t_start": 199.27,
+    "t_end": 201.75,
+    "text": "referee might ask him a reference for AT&amp;T maybe also for"
+  },
+  {
+    "t_start": 201.75,
+    "t_end": 204.11,
+    "text": "AT&amp;T maybe also for regular in that"
+  },
+  {
+    "t_start": 204.11,
+    "t_end": 210.07,
+    "text": "case joural what whatever his name is wait for at least one or two pages to"
+  },
+  {
+    "t_start": 210.07,
+    "t_end": 215.91,
+    "text": "wait for at least one or two pages to give a reference for whatever h&amp;t or"
+  },
+  {
+    "t_start": 215.91,
+    "t_end": 221.07,
+    "text": "give a reference for whatever h&amp;t or fpf and the reference is careful I mean"
+  },
+  {
+    "t_start": 221.07,
+    "t_end": 225.67,
+    "text": "when you give reference and you and you don't want the reference to be"
+  },
+  {
+    "t_start": 225.67,
+    "t_end": 228.27,
+    "text": "checkable what you do is you do the following give a reference either to a"
+  },
+  {
+    "t_start": 228.27,
+    "t_end": 237.309,
+    "text": "long book when 600 pages is a good size without any more reference without"
+  },
+  {
+    "t_start": 237.309,
+    "t_end": 239.949,
+    "text": "size without any more reference without pages"
+  },
+  {
+    "t_start": 239.949,
+    "t_end": 244.03,
+    "text": "even if you write on a theem of Oiler you can refer to the complete work of"
+  },
+  {
+    "t_start": 244.03,
+    "t_end": 247.429,
+    "text": "you can refer to the complete work of Oiler"
+  },
+  {
+    "t_start": 249.949,
+    "t_end": 255.83,
+    "text": "since they have not been published yet entirely but if you refer to"
+  },
+  {
+    "t_start": 258.069,
+    "t_end": 264.749,
+    "text": "EG you have a good chance also uh but there is speaking of"
+  },
+  {
+    "t_start": 264.749,
+    "t_end": 266.59,
+    "text": "also uh but there is speaking of references there is something which you"
+  },
+  {
+    "t_start": 266.59,
+    "t_end": 271.23,
+    "text": "references there is something which you cannot beat which is better than this"
+  },
+  {
+    "t_start": 271.23,
+    "t_end": 277.71,
+    "text": "so that for the definition of h cfh and then you look in the biblography"
+  },
+  {
+    "t_start": 277.71,
+    "t_end": 288.25,
+    "text": "cfh and then you look in the biblography and you find H"
+  },
+  {
+    "t_start": 298.99,
+    "t_end": 301.95,
+    "text": "is but at the moment biographies are really full of references of that kind"
+  },
+  {
+    "t_start": 301.95,
+    "t_end": 303.71,
+    "text": "really full of references of that kind which cannot be checked by"
+  },
+  {
+    "t_start": 303.71,
+    "t_end": 308.189,
+    "text": "which cannot be checked by anybody well okay the name of H maybe is"
+  },
+  {
+    "t_start": 308.189,
+    "t_end": 315.029,
+    "text": "little but uh it's exactly the same if it is true and true it should be"
+  },
+  {
+    "t_start": 315.029,
+    "t_end": 319.39,
+    "text": "it is true and true it should be in so this is the way you start I mean"
+  },
+  {
+    "t_start": 319.39,
+    "t_end": 325.39,
+    "text": "with not explaining the notations and when you when you do explain them making"
+  },
+  {
+    "t_start": 325.39,
+    "t_end": 327.23,
+    "text": "when you when you do explain them making impossible"
+  },
+  {
+    "t_start": 327.23,
+    "t_end": 332.59,
+    "text": "references after that well you have to start giving the"
+  },
+  {
+    "t_start": 332.59,
+    "t_end": 335.71,
+    "text": "well you have to start giving the proof but you have many ways"
+  },
+  {
+    "t_start": 335.71,
+    "t_end": 348.87,
+    "text": "proof but you have many ways of making a proof difficult to to follow"
+  },
+  {
+    "t_start": 350.67,
+    "t_end": 357.99,
+    "text": "graphical things that you can do to make life a bit more difficult I like for"
+  },
+  {
+    "t_start": 357.99,
+    "t_end": 360.309,
+    "text": "life a bit more difficult I like for example let's say"
+  },
+  {
+    "t_start": 360.309,
+    "t_end": 361.67,
+    "text": "example let's say we"
+  },
+  {
+    "t_start": 361.67,
+    "t_end": 368.55,
+    "text": "ofx is sin x cosine"
+  },
+  {
+    "t_start": 368.55,
+    "t_end": 376.189,
+    "text": "x cosine x cosine X being"
+  },
+  {
+    "t_start": 380.95,
+    "t_end": 383.749,
+    "text": "continuous and so on so you have dot which plays the normal role of a DOT"
+  },
+  {
+    "t_start": 383.749,
+    "t_end": 386.71,
+    "text": "which plays the normal role of a DOT separating things and you have also that"
+  },
+  {
+    "t_start": 386.71,
+    "t_end": 387.87,
+    "text": "separating things and you have also that so"
+  },
+  {
+    "t_start": 387.87,
+    "t_end": 394.87,
+    "text": "really it's nice and confusing enough uh very easy to arrange because of course"
+  },
+  {
+    "t_start": 394.87,
+    "t_end": 400.309,
+    "text": "very easy to arrange because of course you could always insert the"
+  },
+  {
+    "t_start": 402.749,
+    "t_end": 404.99,
+    "text": "function and if you want you can put in your mind never to begin a sentence by a"
+  },
+  {
+    "t_start": 404.99,
+    "t_end": 407.51,
+    "text": "your mind never to begin a sentence by a symbol I mean I have I used to have a"
+  },
+  {
+    "t_start": 407.51,
+    "t_end": 409.589,
+    "text": "symbol I mean I have I used to have a typewriter which really refused to do"
+  },
+  {
+    "t_start": 409.589,
+    "t_end": 412.589,
+    "text": "typewriter which really refused to do that when I was typing something if I"
+  },
+  {
+    "t_start": 412.589,
+    "t_end": 416.309,
+    "text": "that when I was typing something if I type something starting with f I heard"
+  },
+  {
+    "t_start": 416.309,
+    "t_end": 423.35,
+    "text": "screaming so it's very easy to put this in your mind so that's one thing you"
+  },
+  {
+    "t_start": 423.35,
+    "t_end": 425.79,
+    "text": "in your mind so that's one thing you can you can"
+  },
+  {
+    "t_start": 425.79,
+    "t_end": 432.51,
+    "text": "can you can do what else can you do to to make to"
+  },
+  {
+    "t_start": 432.51,
+    "t_end": 438.39,
+    "text": "complicated well uh life complicated and also make life easier for you"
+  },
+  {
+    "t_start": 438.39,
+    "t_end": 440.79,
+    "text": "also make life easier for you complicated for the reader and the"
+  },
+  {
+    "t_start": 440.79,
+    "t_end": 448.79,
+    "text": "simpler for you this is B writing is really something which is easy as I said"
+  },
+  {
+    "t_start": 448.79,
+    "t_end": 450.99,
+    "text": "really something which is easy as I said for WR"
+  },
+  {
+    "t_start": 450.99,
+    "t_end": 459.189,
+    "text": "job is left for the reader so how do you manage"
+  },
+  {
+    "t_start": 459.189,
+    "t_end": 462.83,
+    "text": "reader so how do you manage that which is very close to"
+  },
+  {
+    "t_start": 462.83,
+    "t_end": 465.23,
+    "text": "that which is very close to what I would call cheating it's not"
+  },
+  {
+    "t_start": 465.23,
+    "t_end": 468.71,
+    "text": "what I would call cheating it's not really cheating in the sense that"
+  },
+  {
+    "t_start": 468.71,
+    "t_end": 472.27,
+    "text": "really cheating in the sense that the mathematician normally doesn't want"
+  },
+  {
+    "t_start": 472.27,
+    "t_end": 477.67,
+    "text": "the mathematician normally doesn't want to cheat but he wants to make life easy"
+  },
+  {
+    "t_start": 477.67,
+    "t_end": 484.95,
+    "text": "do well uh there are many one of them is rather serious it is"
+  },
+  {
+    "t_start": 484.95,
+    "t_end": 487.909,
+    "text": "many one of them is rather serious it is the foll you write your proof in you"
+  },
+  {
+    "t_start": 487.909,
+    "t_end": 490.07,
+    "text": "the foll you write your proof in you write LMA"
+  },
+  {
+    "t_start": 490.07,
+    "t_end": 498.67,
+    "text": "one or one or one point something and use system and then something rather"
+  },
+  {
+    "t_start": 498.67,
+    "t_end": 504.869,
+    "text": "use system and then something rather easy and you give a full"
+  },
+  {
+    "t_start": 508.029,
+    "t_end": 510.39,
+    "text": "proof then you do LMA two same side then you get to LMA 3"
+  },
+  {
+    "t_start": 510.39,
+    "t_end": 514.75,
+    "text": "and here you have put all the difficulties of the theem all the"
+  },
+  {
+    "t_start": 514.75,
+    "t_end": 520.029,
+    "text": "difficulties of the theem all the computation they all in L"
+  },
+  {
+    "t_start": 520.039,
+    "t_end": 526.47,
+    "text": "three you either say if you're mly"
+  },
+  {
+    "t_start": 526.47,
+    "t_end": 528.23,
+    "text": "say if you're mly honest it"
+  },
+  {
+    "t_start": 528.23,
+    "t_end": 533.47,
+    "text": "honest it is a"
+  },
+  {
+    "t_start": 536.19,
+    "t_end": 547.87,
+    "text": "computation but you have variant of that you could always say it follows from the"
+  },
+  {
+    "t_start": 551.35,
+    "t_end": 553.99,
+    "text": "V or any kind of thing but there is one thing that I really recommend if"
+  },
+  {
+    "t_start": 553.99,
+    "t_end": 556.15,
+    "text": "is one thing that I really recommend if you want to make life really hard for"
+  },
+  {
+    "t_start": 556.15,
+    "t_end": 558.949,
+    "text": "you want to make life really hard for the reader which is you state"
+  },
+  {
+    "t_start": 558.949,
+    "t_end": 563.35,
+    "text": "the reader which is you state your and then you do just"
+  },
+  {
+    "t_start": 565.47,
+    "t_end": 572.47,
+    "text": "see this was invented I mean I didn't know this symbol when I was a graduate"
+  },
+  {
+    "t_start": 572.47,
+    "t_end": 575.19,
+    "text": "student but it was invented about 20 years later extremely convenient for for"
+  },
+  {
+    "t_start": 575.19,
+    "t_end": 581.55,
+    "text": "years later extremely convenient for for cheating I mean because when you put"
+  },
+  {
+    "t_start": 581.55,
+    "t_end": 583.15,
+    "text": "it in the old days you had to write something like this or at least you had"
+  },
+  {
+    "t_start": 583.15,
+    "t_end": 589.35,
+    "text": "something like this or at least you had to give some idea why you were not put"
+  },
+  {
+    "t_start": 589.35,
+    "t_end": 593.35,
+    "text": "in the book but nowadays you just type this beautiful symbol and nobody can ask"
+  },
+  {
+    "t_start": 593.35,
+    "t_end": 595.31,
+    "text": "this beautiful symbol and nobody can ask anything so"
+  },
+  {
+    "t_start": 595.31,
+    "t_end": 600.79,
+    "text": "anything so that's we have"
+  },
+  {
+    "t_start": 600.79,
+    "t_end": 604.55,
+    "text": "but this is just on the style so to speak but you have"
+  },
+  {
+    "t_start": 604.55,
+    "t_end": 608.269,
+    "text": "speak but you have also more serious I"
+  },
+  {
+    "t_start": 608.269,
+    "t_end": 614.79,
+    "text": "also more serious I think thing of using grammar English"
+  },
+  {
+    "t_start": 614.79,
+    "t_end": 619.31,
+    "text": "think thing of using grammar English grammar in a not totally honest"
+  },
+  {
+    "t_start": 619.31,
+    "t_end": 621.23,
+    "text": "grammar in a not totally honest way"
+  },
+  {
+    "t_start": 621.23,
+    "t_end": 633.19,
+    "text": "typical so and this is very frequent in in papers you can find everywhere so"
+  },
+  {
+    "t_start": 648.43,
+    "t_end": 649.47,
+    "text": "F that be you do prove there is anoris or"
+  },
+  {
+    "t_start": 649.47,
+    "t_end": 655.069,
+    "text": "you make some kind of proof and immediately after that you"
+  },
+  {
+    "t_start": 655.069,
+    "t_end": 660.47,
+    "text": "proof and immediately after that you say that's Z and one Z and2"
+  },
+  {
+    "t_start": 668.23,
+    "t_end": 674.069,
+    "text": "whatever now what's wrong with that you see it is the fact that you're playing"
+  },
+  {
+    "t_start": 674.069,
+    "t_end": 680.03,
+    "text": "with an isomorph the indefinite article and here really if you want to write it"
+  },
+  {
+    "t_start": 680.03,
+    "t_end": 681.79,
+    "text": "and here really if you want to write it correctly because I started with the"
+  },
+  {
+    "t_start": 681.79,
+    "t_end": 686.43,
+    "text": "correctly because I started with the symbol my typ writer with script so I"
+  },
+  {
+    "t_start": 686.43,
+    "t_end": 692.11,
+    "text": "map and if you pretend to be precise you is the map of theorem"
+  },
+  {
+    "t_start": 692.11,
+    "t_end": 698.03,
+    "text": "one which is absolutely meaningless I mean you find that in many many papers"
+  },
+  {
+    "t_start": 698.03,
+    "t_end": 699.949,
+    "text": "mean you find that in many many papers it doesn't mean anything because the"
+  },
+  {
+    "t_start": 699.949,
+    "t_end": 705.15,
+    "text": "it doesn't mean anything because the first theor says that the set of"
+  },
+  {
+    "t_start": 705.15,
+    "t_end": 708.389,
+    "text": "isomorphism is not empty this is absolutely equivalent see"
+  },
+  {
+    "t_start": 708.389,
+    "t_end": 711.069,
+    "text": "absolutely equivalent see ISO"
+  },
+  {
+    "t_start": 711.069,
+    "t_end": 713.99,
+    "text": "ISO x²"
+  },
+  {
+    "t_start": 713.99,
+    "t_end": 720.55,
+    "text": "not and then you pretend that you have an that is that you have two so"
+  },
+  {
+    "t_start": 720.55,
+    "t_end": 722.67,
+    "text": "an that is that you have two so now most of the time it's not entirely"
+  },
+  {
+    "t_start": 722.67,
+    "t_end": 724.75,
+    "text": "now most of the time it's not entirely cheating in the sense that the proof of"
+  },
+  {
+    "t_start": 724.75,
+    "t_end": 726.509,
+    "text": "cheating in the sense that the proof of the"
+  },
+  {
+    "t_start": 726.509,
+    "t_end": 734.91,
+    "text": "the sometimes really give you an f and that's the one but then you should say"
+  },
+  {
+    "t_start": 734.91,
+    "t_end": 741.189,
+    "text": "quite often you don't even have that but because you have switched switched from"
+  },
+  {
+    "t_start": 741.189,
+    "t_end": 742.75,
+    "text": "because you have switched switched from the indefinite"
+  },
+  {
+    "t_start": 742.75,
+    "t_end": 747.949,
+    "text": "article is the definite one you're able to say things that you have really not"
+  },
+  {
+    "t_start": 747.949,
+    "t_end": 749.67,
+    "text": "to say things that you have really not Prov at all"
+  },
+  {
+    "t_start": 749.67,
+    "t_end": 756.949,
+    "text": "and even sometimes you can claim things which are really meaningless I mean"
+  },
+  {
+    "t_start": 763.269,
+    "t_end": 768.99,
+    "text": "instance the map F or"
+  },
+  {
+    "t_start": 768.99,
+    "t_end": 770.87,
+    "text": "one coincides"
+  },
+  {
+    "t_start": 770.87,
+    "t_end": 776.67,
+    "text": "coincides with the one"
+  },
+  {
+    "t_start": 776.67,
+    "t_end": 781.23,
+    "text": "defined by well let's chose the name at condom"
+  },
+  {
+    "t_start": 782.43,
+    "t_end": 790.949,
+    "text": "so and of course since we have not well this has occurred in many very"
+  },
+  {
+    "t_start": 790.949,
+    "t_end": 794.15,
+    "text": "not well this has occurred in many very interesting theories in fact sometimes"
+  },
+  {
+    "t_start": 794.15,
+    "t_end": 800.91,
+    "text": "you can hardly do something about that that is you can actually prove there is"
+  },
+  {
+    "t_start": 800.91,
+    "t_end": 803.67,
+    "text": "an isomorphism but you don't get a precise word or"
+  },
+  {
+    "t_start": 803.67,
+    "t_end": 810.11,
+    "text": "sometimes like in Lan's theory he wants to get a bje"
+  },
+  {
+    "t_start": 810.11,
+    "t_end": 812.79,
+    "text": "theory he wants to get a bje between representation of some type and"
+  },
+  {
+    "t_start": 812.79,
+    "t_end": 822.43,
+    "text": "between representation of some type and some other and I remember lectures where"
+  },
+  {
+    "t_start": 825.11,
+    "t_end": 829.829,
+    "text": "them you mean these two sets of the same Cardinal of course they didn't mean that"
+  },
+  {
+    "t_start": 829.829,
+    "t_end": 834.79,
+    "text": "Cardinal of course they didn't mean that at all but at the time they were not"
+  },
+  {
+    "t_start": 834.79,
+    "t_end": 837.35,
+    "text": "able to tell exactly what properties of bje but at least you should be aware"
+  },
+  {
+    "t_start": 837.35,
+    "t_end": 839.31,
+    "text": "bje but at least you should be aware that when you state something like this"
+  },
+  {
+    "t_start": 839.31,
+    "t_end": 841.67,
+    "text": "that when you state something like this you're saying nothing"
+  },
+  {
+    "t_start": 841.67,
+    "t_end": 844.67,
+    "text": "you're saying nothing more than"
+  },
+  {
+    "t_start": 844.67,
+    "t_end": 848.269,
+    "text": "this well worst case I mean that's something"
+  },
+  {
+    "t_start": 848.269,
+    "t_end": 860.269,
+    "text": "also I mean every day I receive pre prints where this type of thing occur"
+  },
+  {
+    "t_start": 866.629,
+    "t_end": 874.509,
+    "text": "f v f is something well if it is at the"
+  },
+  {
+    "t_start": 874.509,
+    "t_end": 878.069,
+    "text": "something well if it is at the Blackboard I usually interrupt the"
+  },
+  {
+    "t_start": 878.069,
+    "t_end": 885.189,
+    "text": "speaker I like to do that and ask him do you mean that you"
+  },
+  {
+    "t_start": 885.189,
+    "t_end": 891.79,
+    "text": "can choose F in a to have property b or do you mean that every F having property"
+  },
+  {
+    "t_start": 891.79,
+    "t_end": 895.389,
+    "text": "do you mean that every F having property a has property B and"
+  },
+  {
+    "t_start": 895.389,
+    "t_end": 900.35,
+    "text": "uh well most of the time they play safe and they say oh I I mean one can choose"
+  },
+  {
+    "t_start": 900.35,
+    "t_end": 912.59,
+    "text": "and they say oh I I mean one can choose F to properties A and B chcken"
+  },
+  {
+    "t_start": 915.629,
+    "t_end": 918.189,
+    "text": "out this is serious and"
+  },
+  {
+    "t_start": 918.189,
+    "t_end": 923.949,
+    "text": "actually not easy to arrange I mean if instead of speaking about bad writing I"
+  },
+  {
+    "t_start": 923.949,
+    "t_end": 926.069,
+    "text": "instead of speaking about bad writing I try to say something on good writing"
+  },
+  {
+    "t_start": 926.069,
+    "t_end": 927.829,
+    "text": "try to say something on good writing this is not a trivial"
+  },
+  {
+    "t_start": 927.829,
+    "t_end": 929.87,
+    "text": "this is not a trivial Point uh"
+  },
+  {
+    "t_start": 929.87,
+    "t_end": 937.71,
+    "text": "because usually you make a construction you get an f and you want to State the"
+  },
+  {
+    "t_start": 937.71,
+    "t_end": 940.749,
+    "text": "properties of F and you are in a hurry so you state immediately the exist"
+  },
+  {
+    "t_start": 940.749,
+    "t_end": 948.59,
+    "text": "so you state immediately the exist an after that you'll be lost what is"
+  },
+  {
+    "t_start": 948.59,
+    "t_end": 952.43,
+    "text": "probably better is to"
+  },
+  {
+    "t_start": 955.99,
+    "t_end": 960.629,
+    "text": "construct F first if possible then state"
+  },
+  {
+    "t_start": 962.189,
+    "t_end": 969.11,
+    "text": "an or whatever property you have in mind and that's okay but that needs a"
+  },
+  {
+    "t_start": 969.11,
+    "t_end": 971.11,
+    "text": "mind and that's okay but that needs a little patience but of course you could"
+  },
+  {
+    "t_start": 971.11,
+    "t_end": 975.829,
+    "text": "just announce it when you could make in the commentaries or in the introduction"
+  },
+  {
+    "t_start": 975.829,
+    "t_end": 978.949,
+    "text": "the commentaries or in the introduction you could say we"
+  },
+  {
+    "t_start": 978.949,
+    "t_end": 981.43,
+    "text": "you could say we construct in paragraph"
+  },
+  {
+    "t_start": 981.43,
+    "t_end": 983.47,
+    "text": "construct in paragraph two an"
+  },
+  {
+    "t_start": 983.47,
+    "t_end": 989.99,
+    "text": "F having this property but it's better to construct the animal first and then"
+  },
+  {
+    "t_start": 989.99,
+    "t_end": 993.79,
+    "text": "to construct the animal first and then give"
+  },
+  {
+    "t_start": 1002.79,
+    "t_end": 1009.03,
+    "text": "do all things we can do let's make life bit more amusing by"
+  },
+  {
+    "t_start": 1009.03,
+    "t_end": 1024.87,
+    "text": "do let's make life bit more amusing by uh can always do this spicing"
+  },
+  {
+    "t_start": 1028.11,
+    "t_end": 1034.87,
+    "text": "spelling what have just misspelling and as a good example of misspelling I think"
+  },
+  {
+    "t_start": 1038.029,
+    "t_end": 1040.11,
+    "text": "one this is a very good example of misp"
+  },
+  {
+    "t_start": 1040.11,
+    "t_end": 1046.47,
+    "text": "which so it's a self-describing word I mean it's perfect uh which comes from"
+  },
+  {
+    "t_start": 1046.47,
+    "t_end": 1047.27,
+    "text": "mean it's perfect uh which comes from the"
+  },
+  {
+    "t_start": 1047.27,
+    "t_end": 1053.549,
+    "text": "idea that it is half spelling which it which it is"
+  },
+  {
+    "t_start": 1053.549,
+    "t_end": 1059.47,
+    "text": "spelling which it which it is not no okay so let's I don't want to"
+  },
+  {
+    "t_start": 1059.47,
+    "t_end": 1064.549,
+    "text": "give you bad examples try toly so miss spings well some of them"
+  },
+  {
+    "t_start": 1064.549,
+    "t_end": 1070.63,
+    "text": "just entertaining I mean uh how often do you"
+  },
+  {
+    "t_start": 1070.63,
+    "t_end": 1075.95,
+    "text": "you find it's as an abbreviation"
+  },
+  {
+    "t_start": 1075.95,
+    "t_end": 1079.029,
+    "text": "find it's as an abbreviation abbreviation of sorts"
+  },
+  {
+    "t_start": 1079.029,
+    "t_end": 1085.59,
+    "text": "abbreviation of sorts for"
+  },
+  {
+    "t_start": 1088.63,
+    "t_end": 1091.19,
+    "text": "each I I have noticed that it is very often non- English or"
+  },
+  {
+    "t_start": 1091.19,
+    "t_end": 1095.95,
+    "text": "non-american uh people who do that mistake when you Foreigner and you learn"
+  },
+  {
+    "t_start": 1095.95,
+    "t_end": 1102.23,
+    "text": "mistake when you Foreigner and you learn English you have a tendency to learn"
+  },
+  {
+    "t_start": 1102.23,
+    "t_end": 1104.43,
+    "text": "first the bad habits of English and putting things like"
+  },
+  {
+    "t_start": 1104.43,
+    "t_end": 1110.909,
+    "text": "putting things like that not such a very good habit and here"
+  },
+  {
+    "t_start": 1110.909,
+    "t_end": 1114.71,
+    "text": "wrongly uh but by favorite misspelling is not that"
+  },
+  {
+    "t_start": 1114.71,
+    "t_end": 1126.43,
+    "text": "is not that one it it occurs in to"
+  },
+  {
+    "t_start": 1129.27,
+    "t_end": 1133.11,
+    "text": "principle but my favorite Miss spelling is not that"
+  },
+  {
+    "t_start": 1133.11,
+    "t_end": 1145.63,
+    "text": "is not that one it occurs in topology"
+  },
+  {
+    "t_start": 1148.11,
+    "t_end": 1153.27,
+    "text": "bundle pronunciation is perfect there is no problem and also a dictionary will"
+  },
+  {
+    "t_start": 1153.27,
+    "t_end": 1155.43,
+    "text": "no problem and also a dictionary will tell you that this makes"
+  },
+  {
+    "t_start": 1155.43,
+    "t_end": 1158.75,
+    "text": "tell you that this makes sense and in a sense well it's"
+  },
+  {
+    "t_start": 1158.75,
+    "t_end": 1162.31,
+    "text": "sense and in a sense well it's other poetic thing it"
+  },
+  {
+    "t_start": 1162.31,
+    "t_end": 1168.47,
+    "text": "it it it means a principle which varies with with the parameter so that so so"
+  },
+  {
+    "t_start": 1168.47,
+    "t_end": 1173.549,
+    "text": "with with the parameter so that so so that"
+  },
+  {
+    "t_start": 1176.47,
+    "t_end": 1180.789,
+    "text": "like a Muse band you see when you you start with a very strong principle you"
+  },
+  {
+    "t_start": 1180.789,
+    "t_end": 1184.11,
+    "text": "make a loop and you arrive with the opposite principle I"
+  },
+  {
+    "t_start": 1184.11,
+    "t_end": 1188.549,
+    "text": "opposite principle I say and don't believe it is rare I mean"
+  },
+  {
+    "t_start": 1188.549,
+    "t_end": 1194.43,
+    "text": "looked in the famous Google before I came and in"
+  },
+  {
+    "t_start": 1194.43,
+    "t_end": 1198.909,
+    "text": "famous Google before I came and in Google give 400"
+  },
+  {
+    "t_start": 1200.39,
+    "t_end": 1208.47,
+    "text": "that well to be true Google gives also about 4,000 correct principal bundle but"
+  },
+  {
+    "t_start": 1208.47,
+    "t_end": 1214.23,
+    "text": "about 4,000 correct principal bundle but maybe I still write the principal"
+  },
+  {
+    "t_start": 1217.35,
+    "t_end": 1219.23,
+    "text": "Bund uh and also one of them which gives the principal"
+  },
+  {
+    "t_start": 1219.23,
+    "t_end": 1224.549,
+    "text": "bundle U explained that that's wrong and it tells the guy because it's a"
+  },
+  {
+    "t_start": 1224.549,
+    "t_end": 1237.669,
+    "text": "conversation it tells the guy remember a principal bundle written that with"
+  },
+  {
+    "t_start": 1239.669,
+    "t_end": 1243.19,
+    "text": "I didn't do it I mean this I'm just copying copying what I"
+  },
+  {
+    "t_start": 1243.19,
+    "t_end": 1251.47,
+    "text": "found I just cop but unfortunately in in the uh sorry"
+  },
+  {
+    "t_start": 1251.47,
+    "t_end": 1257.51,
+    "text": "cop but unfortunately in in the uh sorry in in the examples given by Google uh"
+  },
+  {
+    "t_start": 1257.51,
+    "t_end": 1260.029,
+    "text": "some of them were books where the thing was def find"
+  },
+  {
+    "t_start": 1260.029,
+    "t_end": 1266.43,
+    "text": "was def find and uh will they"
+  },
+  {
+    "t_start": 1268.99,
+    "t_end": 1273.029,
+    "text": "complain oh there are many ways of of writing things badly uh the use of"
+  },
+  {
+    "t_start": 1273.029,
+    "t_end": 1274.669,
+    "text": "writing things badly uh the use of abbreviations"
+  },
+  {
+    "t_start": 1274.669,
+    "t_end": 1280.549,
+    "text": "also can make life complicated I remember"
+  },
+  {
+    "t_start": 1280.549,
+    "t_end": 1287.19,
+    "text": "complicated I remember one for which K was not very"
+  },
+  {
+    "t_start": 1299.39,
+    "t_end": 1305.149,
+    "text": "cm wecm and that's that happened in Princeton and I must admit I was the one"
+  },
+  {
+    "t_start": 1305.149,
+    "t_end": 1310.11,
+    "text": "Princeton and I must admit I was the one writing this on the Blackboard and uh CA"
+  },
+  {
+    "t_start": 1310.11,
+    "t_end": 1311.99,
+    "text": "told me what do you mean R complex multiplication I said no it's not R"
+  },
+  {
+    "t_start": 1311.99,
+    "t_end": 1316.39,
+    "text": "complex multiplication I put a dot see so the dot means it's an abbreviation"
+  },
+  {
+    "t_start": 1316.39,
+    "t_end": 1321.68,
+    "text": "so the dot means it's an abbreviation and of course an abbreviation cannot be"
+  },
+  {
+    "t_start": 1331.43,
+    "t_end": 1334.35,
+    "text": "onlyism so I remember not to do it again but uh except"
+  },
+  {
+    "t_start": 1334.35,
+    "t_end": 1339.669,
+    "text": "here so be careful about abbreviation people have a tendency to"
+  },
+  {
+    "t_start": 1339.669,
+    "t_end": 1341.95,
+    "text": "abbreviation people have a tendency to write everything with symbols like"
+  },
+  {
+    "t_start": 1341.95,
+    "t_end": 1349.71,
+    "text": "whatever they are used in fact in a way not compatible with the television but"
+  },
+  {
+    "t_start": 1349.71,
+    "t_end": 1356.43,
+    "text": "not compatible with the television but it's not doesn't take very long for"
+  },
+  {
+    "t_start": 1356.43,
+    "t_end": 1359.87,
+    "text": "replacing them by for all and exist another thing which is makes life"
+  },
+  {
+    "t_start": 1359.87,
+    "t_end": 1366.59,
+    "text": "exist another thing which is makes life difficult for the reader is the use of"
+  },
+  {
+    "t_start": 1369.95,
+    "t_end": 1379.99,
+    "text": "Comas very often you find a a statement of the for"
+  },
+  {
+    "t_start": 1384.269,
+    "t_end": 1390.39,
+    "text": "a and a being a complicated expression a being I don't"
+  },
+  {
+    "t_start": 1390.39,
+    "t_end": 1398.99,
+    "text": "know B B and C complicated expression and then the commas you see are used by"
+  },
+  {
+    "t_start": 1398.99,
+    "t_end": 1401.669,
+    "text": "and then the commas you see are used by the writer in two different meanings it"
+  },
+  {
+    "t_start": 1401.669,
+    "t_end": 1403.789,
+    "text": "the writer in two different meanings it means"
+  },
+  {
+    "t_start": 1403.789,
+    "t_end": 1411.39,
+    "text": "means here to SP completely if a and b"
+  },
+  {
+    "t_start": 1417.19,
+    "t_end": 1420.51,
+    "text": "R2 so is C so that is this comma is an end and this one is"
+  },
+  {
+    "t_start": 1420.51,
+    "t_end": 1427.07,
+    "text": "H and you have to be careful I mean it's really bad bad idea to make commas do a"
+  },
+  {
+    "t_start": 1427.07,
+    "t_end": 1433.669,
+    "text": "really bad bad idea to make commas do a work they are not paid to do they should"
+  },
+  {
+    "t_start": 1433.669,
+    "t_end": 1436.31,
+    "text": "not do that so if you want to say this because there is no way it might mean if"
+  },
+  {
+    "t_start": 1436.31,
+    "t_end": 1440.07,
+    "text": "because there is no way it might mean if a is true then B and C are"
+  },
+  {
+    "t_start": 1440.07,
+    "t_end": 1443.87,
+    "text": "a is true then B and C are and this is a standard"
+  },
+  {
+    "t_start": 1446.07,
+    "t_end": 1449.51,
+    "text": "construction do I have a complete use certainly not of the various things one"
+  },
+  {
+    "t_start": 1449.51,
+    "t_end": 1453.669,
+    "text": "certainly not of the various things one can do well"
+  },
+  {
+    "t_start": 1453.669,
+    "t_end": 1461.19,
+    "text": "sometimes symbols are used to replace verbs that's also very disagreeable I"
+  },
+  {
+    "t_start": 1461.19,
+    "t_end": 1464.549,
+    "text": "verbs that's also very disagreeable I remember a paper in"
+  },
+  {
+    "t_start": 1464.549,
+    "t_end": 1470.43,
+    "text": "invention at the time I was an editor uh where the practically the main"
+  },
+  {
+    "t_start": 1470.43,
+    "t_end": 1473.95,
+    "text": "editor uh where the practically the main theorem was something like this"
+  },
+  {
+    "t_start": 1477.149,
+    "t_end": 1484.389,
+    "text": "theorem no word in the theorem the was formula and the formula was a"
+  },
+  {
+    "t_start": 1487.11,
+    "t_end": 1489.389,
+    "text": "expression some value of an N function with some characters and"
+  },
+  {
+    "t_start": 1489.389,
+    "t_end": 1491.59,
+    "text": "with some characters and whatnot"
+  },
+  {
+    "t_start": 1491.59,
+    "t_end": 1501.23,
+    "text": "equals another equally complicated expression but different"
+  },
+  {
+    "t_start": 1506.51,
+    "t_end": 1508.909,
+    "text": "something with powers of of 2 i5 and and things and then"
+  },
+  {
+    "t_start": 1508.909,
+    "t_end": 1512.07,
+    "text": "things and then the"
+  },
+  {
+    "t_start": 1514.71,
+    "t_end": 1516.549,
+    "text": "this fortunately I looked at the paper and understood that what he meant was"
+  },
+  {
+    "t_start": 1516.549,
+    "t_end": 1521.789,
+    "text": "and understood that what he meant was the following he meant that this"
+  },
+  {
+    "t_start": 1521.789,
+    "t_end": 1527.149,
+    "text": "one this he knew already this had been proved in the paper before so the"
+  },
+  {
+    "t_start": 1527.149,
+    "t_end": 1531.07,
+    "text": "proved in the paper before so the statement was entirely"
+  },
+  {
+    "t_start": 1534.51,
+    "t_end": 1537.789,
+    "text": "here so it meant that some number is a rational number but you had to see in"
+  },
+  {
+    "t_start": 1537.789,
+    "t_end": 1540.669,
+    "text": "rational number but you had to see in the long list of symbols which one was a"
+  },
+  {
+    "t_start": 1540.669,
+    "t_end": 1545.99,
+    "text": "the long list of symbols which one was a verb so that's uh so please don't use"
+  },
+  {
+    "t_start": 1545.99,
+    "t_end": 1549.909,
+    "text": "verb so that's uh so please don't use possible symbols"
+  },
+  {
+    "t_start": 1552.63,
+    "t_end": 1559.23,
+    "text": "about all as the grammar of writing and what you can do with the grammar"
+  },
+  {
+    "t_start": 1559.23,
+    "t_end": 1562.269,
+    "text": "what you can do with the grammar uh there are more serious or more"
+  },
+  {
+    "t_start": 1562.269,
+    "t_end": 1570.909,
+    "text": "uh there are more serious or more different type of so different"
+  },
+  {
+    "t_start": 1573.87,
+    "t_end": 1576.83,
+    "text": "types well I hesitate to say cheating because it's a be strong uh when you"
+  },
+  {
+    "t_start": 1576.83,
+    "t_end": 1579.029,
+    "text": "because it's a be strong uh when you speak in a foreign language you have a"
+  },
+  {
+    "t_start": 1579.029,
+    "t_end": 1581.51,
+    "text": "speak in a foreign language you have a tendency to do the strong words not the"
+  },
+  {
+    "t_start": 1581.51,
+    "t_end": 1585.669,
+    "text": "tendency to do the strong words not the the weak words so you have to excuse me"
+  },
+  {
+    "t_start": 1585.669,
+    "t_end": 1594.789,
+    "text": "for that different types of qu"
+  },
+  {
+    "t_start": 1598.63,
+    "t_end": 1600.63,
+    "text": "now this these kinds come differently in the different branches of"
+  },
+  {
+    "t_start": 1600.63,
+    "t_end": 1603.029,
+    "text": "the different branches of mathematics so one has"
+  },
+  {
+    "t_start": 1603.029,
+    "t_end": 1618.59,
+    "text": "to look at different branches so while for instance chological algebra is e"
+  },
+  {
+    "t_start": 1620.99,
+    "t_end": 1623.669,
+    "text": "well here the usual cheating is that you claim all the diagrams of"
+  },
+  {
+    "t_start": 1623.669,
+    "t_end": 1631.95,
+    "text": "claim all the diagrams of communative which is sometimes the"
+  },
+  {
+    "t_start": 1634.87,
+    "t_end": 1637.07,
+    "text": "case and uh Whenever two people have constructed two arrows with the same"
+  },
+  {
+    "t_start": 1637.07,
+    "t_end": 1642.029,
+    "text": "constructed two arrows with the same origin in the same extremity they"
+  },
+  {
+    "t_start": 1642.029,
+    "t_end": 1654.23,
+    "text": "they're equal two naturally defined arrows"
+  },
+  {
+    "t_start": 1656.389,
+    "t_end": 1658.75,
+    "text": "so for instance you you prove an isomorphism between this Chic group and"
+  },
+  {
+    "t_start": 1658.75,
+    "t_end": 1662.269,
+    "text": "isomorphism between this Chic group and that one and then you say we recover the"
+  },
+  {
+    "t_start": 1662.269,
+    "t_end": 1664.19,
+    "text": "theorem of"
+  },
+  {
+    "t_start": 1664.19,
+    "t_end": 1671.83,
+    "text": "M and I remember telling that to isenberg and telling me well sir you"
+  },
+  {
+    "t_start": 1671.83,
+    "t_end": 1674.23,
+    "text": "have not proved it the same map still don't"
+  },
+  {
+    "t_start": 1674.23,
+    "t_end": 1679.23,
+    "text": "map still don't know might be but so"
+  },
+  {
+    "t_start": 1679.23,
+    "t_end": 1681.789,
+    "text": "know might be but so and as to prove actually the"
+  },
+  {
+    "t_start": 1681.789,
+    "t_end": 1687.029,
+    "text": "diagr this is a serious question I it's not really cheating there is no very"
+  },
+  {
+    "t_start": 1687.029,
+    "t_end": 1690.269,
+    "text": "not really cheating there is no very good way in mathematics to try to prove"
+  },
+  {
+    "t_start": 1690.269,
+    "t_end": 1692.149,
+    "text": "good way in mathematics to try to prove that the diagram is"
+  },
+  {
+    "t_start": 1692.149,
+    "t_end": 1697.87,
+    "text": "commutative theoretically you could say if it is a very simple diagram like that"
+  },
+  {
+    "t_start": 1697.87,
+    "t_end": 1699.47,
+    "text": "if it is a very simple diagram like that you could give a"
+  },
+  {
+    "t_start": 1699.47,
+    "t_end": 1705.19,
+    "text": "name to arrows that practically never known and then just"
+  },
+  {
+    "t_start": 1705.19,
+    "t_end": 1714.07,
+    "text": "write Bal DC or whatever it is and uh and prove it but usually diagrams"
+  },
+  {
+    "t_start": 1714.07,
+    "t_end": 1717.11,
+    "text": "and uh and prove it but usually diagrams have more symbol than"
+  },
+  {
+    "t_start": 1717.11,
+    "t_end": 1725.75,
+    "text": "that so I don't think the calculus of diagrams is a very solid basis I mean"
+  },
+  {
+    "t_start": 1725.75,
+    "t_end": 1729.35,
+    "text": "diagrams is a very solid basis I mean most of the things that people do is"
+  },
+  {
+    "t_start": 1729.35,
+    "t_end": 1732.19,
+    "text": "most of the things that people do is U just claiming they"
+  },
+  {
+    "t_start": 1732.19,
+    "t_end": 1738.11,
+    "text": "commutative well Baki has written some chapter on homological algebra where"
+  },
+  {
+    "t_start": 1738.11,
+    "t_end": 1743.11,
+    "text": "chapter on homological algebra where really there is no cheating but the it's"
+  },
+  {
+    "t_start": 1743.11,
+    "t_end": 1748.75,
+    "text": "read the trouble is that very often if you wanted to give a name you would end"
+  },
+  {
+    "t_start": 1748.75,
+    "t_end": 1751.35,
+    "text": "you wanted to give a name you would end up by a long string of letters equal"
+  },
+  {
+    "t_start": 1751.35,
+    "t_end": 1753.909,
+    "text": "up by a long string of letters equal another one and then your only solution"
+  },
+  {
+    "t_start": 1753.909,
+    "t_end": 1756.43,
+    "text": "another one and then your only solution would be this follows from the"
+  },
+  {
+    "t_start": 1756.43,
+    "t_end": 1758.23,
+    "text": "would be this follows from the definition"
+  },
+  {
+    "t_start": 1758.23,
+    "t_end": 1768.149,
+    "text": "that's but it is a that's really one of the tres ofic"
+  },
+  {
+    "t_start": 1771.59,
+    "t_end": 1773.669,
+    "text": "well you find also in the mical algebra uh something"
+  },
+  {
+    "t_start": 1773.669,
+    "t_end": 1780.59,
+    "text": "uh something about the spectral"
+  },
+  {
+    "t_start": 1787.87,
+    "t_end": 1793.269,
+    "text": "N you fing and this makes sense the of course the"
+  },
+  {
+    "t_start": 1793.269,
+    "t_end": 1798.549,
+    "text": "problem because that makes sense only if you refer to specific"
+  },
+  {
+    "t_start": 1798.549,
+    "t_end": 1800.23,
+    "text": "sense only if you refer to specific construction there are very various"
+  },
+  {
+    "t_start": 1800.23,
+    "t_end": 1802.23,
+    "text": "construction there are very various constructions in the literature and it's"
+  },
+  {
+    "t_start": 1802.23,
+    "t_end": 1807.63,
+    "text": "constructions in the literature and it's not clear they give the same"
+  },
+  {
+    "t_start": 1810.389,
+    "t_end": 1812.269,
+    "text": "answer you can do that you can see that there is a problem by asking yourself"
+  },
+  {
+    "t_start": 1812.269,
+    "t_end": 1817.31,
+    "text": "there is a problem by asking yourself the following suppose you take two"
+  },
+  {
+    "t_start": 1820.389,
+    "t_end": 1825.11,
+    "text": "manifolds you project them to compact oriented manif you choose"
+  },
+  {
+    "t_start": 1827.75,
+    "t_end": 1830.59,
+    "text": "orientation in that case on the E2 term you a well"
+  },
+  {
+    "t_start": 1834.149,
+    "t_end": 1839.31,
+    "text": "defined invariant class in top Dimension Tor product of here is this so you end"
+  },
+  {
+    "t_start": 1839.31,
+    "t_end": 1846.47,
+    "text": "u and v you end up with an orientation of U cross V but which one because there"
+  },
+  {
+    "t_start": 1846.47,
+    "t_end": 1849.43,
+    "text": "of U cross V but which one because there are two natural"
+  },
+  {
+    "t_start": 1849.43,
+    "t_end": 1855.789,
+    "text": "are two natural Cho so uh in for instance in L spectral"
+  },
+  {
+    "t_start": 1855.789,
+    "t_end": 1858.669,
+    "text": "Cho so uh in for instance in L spectral sequence the basis comes first so one"
+  },
+  {
+    "t_start": 1858.669,
+    "t_end": 1861.789,
+    "text": "sequence the basis comes first so one writes chology of the"
+  },
+  {
+    "t_start": 1861.789,
+    "t_end": 1867.389,
+    "text": "basis chology of the fiber and one multiplies when make up"
+  },
+  {
+    "t_start": 1867.389,
+    "t_end": 1870.669,
+    "text": "fiber and one multiplies when make up products according to that but quend"
+  },
+  {
+    "t_start": 1870.669,
+    "t_end": 1877.35,
+    "text": "products according to that but quend when he Define spectral sequences in to"
+  },
+  {
+    "t_start": 1877.35,
+    "t_end": 1881.269,
+    "text": "spectral you have to look at the proof and different people give different"
+  },
+  {
+    "t_start": 1881.269,
+    "t_end": 1885.31,
+    "text": "and different people give different proofs and I'm not at all sure that they"
+  },
+  {
+    "t_start": 1885.31,
+    "t_end": 1891.149,
+    "text": "opposite that they give the same answer they give isomorphic terms but not with"
+  },
+  {
+    "t_start": 1891.149,
+    "t_end": 1892.669,
+    "text": "they give isomorphic terms but not with the"
+  },
+  {
+    "t_start": 1892.669,
+    "t_end": 1900.47,
+    "text": "same not with an obvious Arrow uh so I must say that I don't have"
+  },
+  {
+    "t_start": 1900.47,
+    "t_end": 1902.99,
+    "text": "Arrow uh so I must say that I don't have much confidence in the"
+  },
+  {
+    "t_start": 1902.99,
+    "t_end": 1906.35,
+    "text": "much confidence in the science occurring in mological algebra"
+  },
+  {
+    "t_start": 1906.35,
+    "t_end": 1907.99,
+    "text": "at the moment"
+  },
+  {
+    "t_start": 1907.99,
+    "t_end": 1913.83,
+    "text": "that's okay so that's homological algebra topology what are the Troubles"
+  },
+  {
+    "t_start": 1913.83,
+    "t_end": 1915.87,
+    "text": "algebra topology what are the Troubles of"
+  },
+  {
+    "t_start": 1915.87,
+    "t_end": 1924.029,
+    "text": "topology well they essentially ofal algebra plus"
+  },
+  {
+    "t_start": 1925.83,
+    "t_end": 1931.269,
+    "text": "one plus"
+  },
+  {
+    "t_start": 1933.99,
+    "t_end": 1936.389,
+    "text": "pictures in the proof you say oh yes we have this see picture"
+  },
+  {
+    "t_start": 1936.389,
+    "t_end": 1942.389,
+    "text": "have this see picture two picture two you find something"
+  },
+  {
+    "t_start": 1942.389,
+    "t_end": 1948.75,
+    "text": "the if you ask the author was it important that it Reg three times or"
+  },
+  {
+    "t_start": 1948.75,
+    "t_end": 1953.35,
+    "text": "four times so no of course not was it important that don't touch oh it should"
+  },
+  {
+    "t_start": 1953.35,
+    "t_end": 1958.71,
+    "text": "important that don't touch oh it should touch and so on I"
+  },
+  {
+    "t_start": 1960.75,
+    "t_end": 1965.629,
+    "text": "a picture there is a saying which says that the picture is worth what is the"
+  },
+  {
+    "t_start": 1965.629,
+    "t_end": 1969.149,
+    "text": "that the picture is worth what is the standard a thousand or 20 or what"
+  },
+  {
+    "t_start": 1969.149,
+    "t_end": 1970.47,
+    "text": "standard a thousand or 20 or what thousand"
+  },
+  {
+    "t_start": 1970.47,
+    "t_end": 1975.99,
+    "text": "explanations yes it for the for the author usually the author of picture is"
+  },
+  {
+    "t_start": 1975.99,
+    "t_end": 1980.629,
+    "text": "author usually the author of picture is very happy with he say oh look I mean"
+  },
+  {
+    "t_start": 1980.629,
+    "t_end": 1994.71,
+    "text": "everything and for the reader it takes a explanation that's a that's"
+  },
+  {
+    "t_start": 1996.59,
+    "t_end": 2004.19,
+    "text": "analysis well the cheating and Analysis usually especially in analytic numbers Z"
+  },
+  {
+    "t_start": 2004.19,
+    "t_end": 2013.83,
+    "text": "usually especially in analytic numbers Z more let's see especially"
+  },
+  {
+    "t_start": 2018.269,
+    "t_end": 2022.789,
+    "text": "the first trouble I want to point it out is for all anales you have a theorem"
+  },
+  {
+    "t_start": 2022.789,
+    "t_end": 2026.87,
+    "text": "is for all anales you have a theorem saying let"
+  },
+  {
+    "t_start": 2030.11,
+    "t_end": 2039.11,
+    "text": "on some complicated operator depending on parameters and complicate"
+  },
+  {
+    "t_start": 2042.83,
+    "t_end": 2046.35,
+    "text": "and then the say that a f is smaller than"
+  },
+  {
+    "t_start": 2049.31,
+    "t_end": 2054.909,
+    "text": "where C is a constant beautiful word you"
+  },
+  {
+    "t_start": 2054.909,
+    "t_end": 2061.75,
+    "text": "see I don't think there is any place in mathematics be Baki or anything that a"
+  },
+  {
+    "t_start": 2061.75,
+    "t_end": 2065.27,
+    "text": "mathematics be Baki or anything that a constant is defined I mean"
+  },
+  {
+    "t_start": 2068.31,
+    "t_end": 2074.23,
+    "text": "real number strictly positive and you call it a constant because doesn't"
+  },
+  {
+    "t_start": 2074.23,
+    "t_end": 2080.669,
+    "text": "call it a constant because doesn't depend so it's a real number not"
+  },
+  {
+    "t_start": 2085.19,
+    "t_end": 2087.589,
+    "text": "data now in very often the is stated with let F now when you introduce"
+  },
+  {
+    "t_start": 2087.589,
+    "t_end": 2090.99,
+    "text": "with let F now when you introduce something by left by let is exactly as"
+  },
+  {
+    "t_start": 2090.99,
+    "t_end": 2093.149,
+    "text": "something by left by let is exactly as if you took"
+  },
+  {
+    "t_start": 2093.149,
+    "t_end": 2098.31,
+    "text": "it and you pin it to the Blackboard with a name see me let"
+  },
+  {
+    "t_start": 2098.31,
+    "t_end": 2104.109,
+    "text": "f is fixed so that a prior in no good mathematics the constant would depend on"
+  },
+  {
+    "t_start": 2104.109,
+    "t_end": 2111.27,
+    "text": "mathematics the constant would depend on F of course not also doesn't want that"
+  },
+  {
+    "t_start": 2111.27,
+    "t_end": 2114.47,
+    "text": "so but it doesn't say and the constant may"
+  },
+  {
+    "t_start": 2132.31,
+    "t_end": 2134.27,
+    "text": "another way of stating this which is more correct which in fact which is"
+  },
+  {
+    "t_start": 2134.27,
+    "t_end": 2136.51,
+    "text": "more correct which in fact which is correct and"
+  },
+  {
+    "t_start": 2136.51,
+    "t_end": 2145.67,
+    "text": "which specialist use is to use a vog of symbol that is to write"
+  },
+  {
+    "t_start": 2148.87,
+    "t_end": 2154.55,
+    "text": "AF the double than F and then to put an"
+  },
+  {
+    "t_start": 2154.55,
+    "t_end": 2160.349,
+    "text": "everything on which it depends on a or whatever or all parameters so"
+  },
+  {
+    "t_start": 2160.349,
+    "t_end": 2162.829,
+    "text": "on a or whatever or all parameters so that's correct on the other hand what"
+  },
+  {
+    "t_start": 2162.829,
+    "t_end": 2168.109,
+    "text": "that's correct on the other hand what they do very often is also to say there"
+  },
+  {
+    "t_start": 2168.109,
+    "t_end": 2170.43,
+    "text": "are two functions f of x g of"
+  },
+  {
+    "t_start": 2170.43,
+    "t_end": 2176.03,
+    "text": "x g of X Define let's say for X strictly"
+  },
+  {
+    "t_start": 2178.67,
+    "t_end": 2184.99,
+    "text": "positive and uh they will write f ofx is O of x"
+  },
+  {
+    "t_start": 2188.19,
+    "t_end": 2189.79,
+    "text": "g Well normally this would say but they"
+  },
+  {
+    "t_start": 2189.79,
+    "t_end": 2195.63,
+    "text": "don't for X going that direction but even that that's all right but"
+  },
+  {
+    "t_start": 2195.63,
+    "t_end": 2198.43,
+    "text": "even that that's all right but then what does it mean exactly it means"
+  },
+  {
+    "t_start": 2198.43,
+    "t_end": 2201.349,
+    "text": "then what does it mean exactly it means there exist there are two constants not"
+  },
+  {
+    "t_start": 2201.349,
+    "t_end": 2208.27,
+    "text": "there exist there are two constants not one there are two constants"
+  },
+  {
+    "t_start": 2208.27,
+    "t_end": 2210.829,
+    "text": "x0 and C such that f ofx is smaller than"
+  },
+  {
+    "t_start": 2210.829,
+    "t_end": 2213.43,
+    "text": "ofx is smaller than c g of"
+  },
+  {
+    "t_start": 2213.43,
+    "t_end": 2215.55,
+    "text": "c g of X so"
+  },
+  {
+    "t_start": 2215.55,
+    "t_end": 2221.23,
+    "text": "X than x but very often and then practically all"
+  },
+  {
+    "t_start": 2221.23,
+    "t_end": 2223.87,
+    "text": "but very often and then practically all the time they will speak of the"
+  },
+  {
+    "t_start": 2223.87,
+    "t_end": 2228.99,
+    "text": "constant implicit in the O notation that makes sense only if you have made it"
+  },
+  {
+    "t_start": 2228.99,
+    "t_end": 2232.069,
+    "text": "makes sense only if you have made it really clear what the x0 is and in many"
+  },
+  {
+    "t_start": 2232.069,
+    "t_end": 2234.91,
+    "text": "really clear what the x0 is and in many instances in antic number Theory it's"
+  },
+  {
+    "t_start": 2234.91,
+    "t_end": 2242.55,
+    "text": "not at all clear you Computing say Prime fun well okay you will assume something"
+  },
+  {
+    "t_start": 2242.55,
+    "t_end": 2246.27,
+    "text": "fun well okay you will assume something like that but in some theorems like the"
+  },
+  {
+    "t_start": 2246.27,
+    "t_end": 2249.67,
+    "text": "like that but in some theorems like the chot density theor when you try to write"
+  },
+  {
+    "t_start": 2249.67,
+    "t_end": 2255.79,
+    "text": "chot density theor when you try to write explicit bounds you find that the"
+  },
+  {
+    "t_start": 2259.99,
+    "t_end": 2262.27,
+    "text": "x0 is as difficult to choose as the C it's very important to find"
+  },
+  {
+    "t_start": 2262.27,
+    "t_end": 2270.309,
+    "text": "the so that's a typical way of cheating in ntic number Theory which I think"
+  },
+  {
+    "t_start": 2270.309,
+    "t_end": 2285.63,
+    "text": "in ntic number Theory which I think causes a lot lots of mistakes"
+  },
+  {
+    "t_start": 2287.829,
+    "t_end": 2290.63,
+    "text": "well maybe I should speak a little on the positive side how what can you do to"
+  },
+  {
+    "t_start": 2290.63,
+    "t_end": 2292.47,
+    "text": "the positive side how what can you do to escape those various things I must have"
+  },
+  {
+    "t_start": 2292.47,
+    "t_end": 2301.589,
+    "text": "escape those various things I must have forgotten a lot maybe I made a"
+  },
+  {
+    "t_start": 2305.23,
+    "t_end": 2308.71,
+    "text": "list oh yes oh well that's not very serious I mean it's about orthography I"
+  },
+  {
+    "t_start": 2308.71,
+    "t_end": 2313.23,
+    "text": "serious I mean it's about orthography I mean I wanted to comment a little bit on"
+  },
+  {
+    "t_start": 2313.23,
+    "t_end": 2314.87,
+    "text": "this but"
+  },
+  {
+    "t_start": 2314.87,
+    "t_end": 2320.589,
+    "text": "this is ugly English but good mathematics because it's absolutely"
+  },
+  {
+    "t_start": 2320.589,
+    "t_end": 2327.23,
+    "text": "mathematics because it's absolutely unambiguous it means if and"
+  },
+  {
+    "t_start": 2330.67,
+    "t_end": 2333.87,
+    "text": "on so I cannot say much against it except that you what you could do for"
+  },
+  {
+    "t_start": 2333.87,
+    "t_end": 2338.99,
+    "text": "except that you what you could do for yourself if you most of you work with a"
+  },
+  {
+    "t_start": 2338.99,
+    "t_end": 2342.87,
+    "text": "the computer comp to put on your computer an order saying every time I"
+  },
+  {
+    "t_start": 2342.87,
+    "t_end": 2344.39,
+    "text": "computer an order saying every time I type"
+  },
+  {
+    "t_start": 2344.39,
+    "t_end": 2352.309,
+    "text": "if you print this so this way you'll be happy and and I would be happy"
+  },
+  {
+    "t_start": 2352.309,
+    "t_end": 2358.19,
+    "text": "I I must say that the French are behaving as badly as the English C is"
+  },
+  {
+    "t_start": 2358.19,
+    "t_end": 2363.63,
+    "text": "behaving as badly as the English C is Solon"
+  },
+  {
+    "t_start": 2366.91,
+    "t_end": 2374.069,
+    "text": "doesn't said if you send a cont note uh you will replace it by C and I'm very"
+  },
+  {
+    "t_start": 2374.069,
+    "t_end": 2376.71,
+    "text": "you will replace it by C and I'm very glad to tell you that the Germans have"
+  },
+  {
+    "t_start": 2376.71,
+    "t_end": 2381.23,
+    "text": "glad to tell you that the Germans have never"
+  },
+  {
+    "t_start": 2382.49,
+    "t_end": 2383.829,
+    "text": "introduced [Music]"
+  },
+  {
+    "t_start": 2383.829,
+    "t_end": 2385.63,
+    "text": "[Music] down"
+  },
+  {
+    "t_start": 2385.63,
+    "t_end": 2390.23,
+    "text": "down that so that doesn't exist"
+  },
+  {
+    "t_start": 2392.75,
+    "t_end": 2394.03,
+    "text": "that's I don't know Russian so I cannot tell you whether the Russians have"
+  },
+  {
+    "t_start": 2394.03,
+    "t_end": 2396.79,
+    "text": "tell you whether the Russians have invented something so let's see this one"
+  },
+  {
+    "t_start": 2396.79,
+    "t_end": 2398.349,
+    "text": "invented something so let's see this one of the thing forg"
+  },
+  {
+    "t_start": 2398.349,
+    "t_end": 2399.91,
+    "text": "of the thing forg good"
+  },
+  {
+    "t_start": 2399.91,
+    "t_end": 2408.47,
+    "text": "uh ah yes ah yes I want to say something on Baki yes because we still have"
+  },
+  {
+    "t_start": 2408.47,
+    "t_end": 2412.63,
+    "text": "on Baki yes because we still have our John our author John who wants to C"
+  },
+  {
+    "t_start": 2412.63,
+    "t_end": 2415.67,
+    "text": "our John our author John who wants to C as quickly as possible and uh yeah I"
+  },
+  {
+    "t_start": 2415.67,
+    "t_end": 2422.71,
+    "text": "as quickly as possible and uh yeah I chose John"
+  },
+  {
+    "t_start": 2425.309,
+    "t_end": 2430.27,
+    "text": "because you could interpret it masculine or feminine that's that's"
+  },
+  {
+    "t_start": 2433.75,
+    "t_end": 2436.95,
+    "text": "but I was going to give an advice to John in case the referee says oh my God"
+  },
+  {
+    "t_start": 2436.95,
+    "t_end": 2439.99,
+    "text": "John in case the referee says oh my God your proof really good reason fact your"
+  },
+  {
+    "t_start": 2439.99,
+    "t_end": 2442.43,
+    "text": "your proof really good reason fact your proof is"
+  },
+  {
+    "t_start": 2442.43,
+    "t_end": 2449.51,
+    "text": "not not very good so Jan always said oh yes of course it's not a"
+  },
+  {
+    "t_start": 2449.51,
+    "t_end": 2459.069,
+    "text": "b and we see saying that it's not a Bak proof usually uh make make people"
+  },
+  {
+    "t_start": 2459.069,
+    "t_end": 2461.63,
+    "text": "proof usually uh make make people agree I"
+  },
+  {
+    "t_start": 2461.63,
+    "t_end": 2463.27,
+    "text": "agree I remember"
+  },
+  {
+    "t_start": 2463.27,
+    "t_end": 2472.03,
+    "text": "once but is not here no not so that was atber not not at bone at some"
+  },
+  {
+    "t_start": 2472.03,
+    "t_end": 2478.75,
+    "text": "AR and there was a lecture by an old friend of mine on the work of a"
+  },
+  {
+    "t_start": 2478.75,
+    "t_end": 2483.15,
+    "text": "physicist and at the end of the one hour it was not clear to me whether he had"
+  },
+  {
+    "t_start": 2483.15,
+    "t_end": 2488.91,
+    "text": "it was not clear to me whether he had proved something or not so I asked I"
+  },
+  {
+    "t_start": 2488.91,
+    "t_end": 2493.79,
+    "text": "proved something or not so I asked I dear is there a proof I me canot make"
+  },
+  {
+    "t_start": 2493.79,
+    "t_end": 2499.27,
+    "text": "proof told me oh of course not the and let"
+  },
+  {
+    "t_start": 2499.27,
+    "t_end": 2501.71,
+    "text": "the and let everybody so"
+  },
+  {
+    "t_start": 2501.71,
+    "t_end": 2507.309,
+    "text": "uh I was not very happy but it made me think about what is the difference"
+  },
+  {
+    "t_start": 2507.309,
+    "t_end": 2509.91,
+    "text": "think about what is the difference between a"
+  },
+  {
+    "t_start": 2518.349,
+    "t_end": 2522.51,
+    "text": "Pro so I can offer you the following that the prove is something which is"
+  },
+  {
+    "t_start": 2525.23,
+    "t_end": 2533.19,
+    "text": "accepted by experts and the Rob proof is accepted by"
+  },
+  {
+    "t_start": 2537.589,
+    "t_end": 2541.67,
+    "text": "nonex and of course I favor the second choice now uh to go back to how"
+  },
+  {
+    "t_start": 2541.67,
+    "t_end": 2546.71,
+    "text": "to try to write not too badly I mean there are some of the things I have said"
+  },
+  {
+    "t_start": 2546.71,
+    "t_end": 2549.63,
+    "text": "there are some of the things I have said some of the"
+  },
+  {
+    "t_start": 2552.99,
+    "t_end": 2553.67,
+    "text": "troubles which are easy to escape I mean you"
+  },
+  {
+    "t_start": 2553.67,
+    "t_end": 2559.75,
+    "text": "can Define your notation precisely you can give references to"
+  },
+  {
+    "t_start": 2559.75,
+    "t_end": 2564.069,
+    "text": "precisely you can give references to books by giving the page"
+  },
+  {
+    "t_start": 2564.069,
+    "t_end": 2569.39,
+    "text": "number uh I should still tell you something about references to books"
+  },
+  {
+    "t_start": 2569.39,
+    "t_end": 2574.71,
+    "text": "something about references to books without page I once refere also a paper"
+  },
+  {
+    "t_start": 2574.71,
+    "t_end": 2578.589,
+    "text": "without page I once refere also a paper on pic representation or something where"
+  },
+  {
+    "t_start": 2578.589,
+    "t_end": 2583.829,
+    "text": "on pic representation or something where also at a nice formula at one point and"
+  },
+  {
+    "t_start": 2583.829,
+    "t_end": 2586.349,
+    "text": "it said reference and I looked at the reference it was one one of my"
+  },
+  {
+    "t_start": 2586.349,
+    "t_end": 2589.75,
+    "text": "reference it was one one of my books uh but fortunately I know"
+  },
+  {
+    "t_start": 2589.75,
+    "t_end": 2595.589,
+    "text": "books uh but fortunately I know essentially the formula in my book so I"
+  },
+  {
+    "t_start": 2595.589,
+    "t_end": 2600.589,
+    "text": "knew it was not there so but but so I first thought I would"
+  },
+  {
+    "t_start": 2600.589,
+    "t_end": 2606.67,
+    "text": "so but but so I first thought I would hide and ask the proof and then I made"
+  },
+  {
+    "t_start": 2606.67,
+    "t_end": 2610.43,
+    "text": "the counter exam so that solv the question formula"
+  },
+  {
+    "t_start": 2614.069,
+    "t_end": 2618.309,
+    "text": "was so why I was thinking of that yes so some of the things I've said are easy to"
+  },
+  {
+    "t_start": 2618.309,
+    "t_end": 2624.23,
+    "text": "repair some are not uh those on diagrams commutative are"
+  },
+  {
+    "t_start": 2624.23,
+    "t_end": 2625.79,
+    "text": "not uh those on diagrams commutative are serious"
+  },
+  {
+    "t_start": 2625.79,
+    "t_end": 2631.15,
+    "text": "uh what I call cheating is practically impossible to escape I mean every proof"
+  },
+  {
+    "t_start": 2631.15,
+    "t_end": 2634.109,
+    "text": "impossible to escape I mean every proof has some kind of cheating inside inside"
+  },
+  {
+    "t_start": 2634.109,
+    "t_end": 2637.349,
+    "text": "has some kind of cheating inside inside it you cannot really give a totally"
+  },
+  {
+    "t_start": 2637.349,
+    "t_end": 2641.19,
+    "text": "it you cannot really give a totally explicit Pro so the question is what do"
+  },
+  {
+    "t_start": 2641.19,
+    "t_end": 2644.109,
+    "text": "explicit Pro so the question is what do you leave"
+  },
+  {
+    "t_start": 2644.109,
+    "t_end": 2649.829,
+    "text": "out and that's not really clear there are people who can do that and"
+  },
+  {
+    "t_start": 2649.829,
+    "t_end": 2653.19,
+    "text": "are people who can do that and other well have another"
+  },
+  {
+    "t_start": 2653.19,
+    "t_end": 2659.47,
+    "text": "other well have another friend fortunately I don't give names he"
+  },
+  {
+    "t_start": 2659.47,
+    "t_end": 2664.43,
+    "text": "ago proofy had made he had so some question and the two-page"
+  },
+  {
+    "t_start": 2664.43,
+    "t_end": 2671.79,
+    "text": "B I thought about it then I gave it back to him I said the proof is wrong but"
+  },
+  {
+    "t_start": 2671.79,
+    "t_end": 2674.75,
+    "text": "to him I said the proof is wrong but everything you have written is correct"
+  },
+  {
+    "t_start": 2674.75,
+    "t_end": 2677.19,
+    "text": "everything you have written is correct because that's very often the case"
+  },
+  {
+    "t_start": 2677.19,
+    "t_end": 2682.71,
+    "text": "because that's very often the case people want to PO one we have this then"
+  },
+  {
+    "t_start": 2682.71,
+    "t_end": 2688.069,
+    "text": "argument and then they stop and they stop and they believe that with what"
+  },
+  {
+    "t_start": 2688.069,
+    "t_end": 2693.349,
+    "text": "they have proved that implies the Ser but the implication they don't and that"
+  },
+  {
+    "t_start": 2693.349,
+    "t_end": 2695.23,
+    "text": "but the implication they don't and that was where the mistake was he had assume"
+  },
+  {
+    "t_start": 2695.23,
+    "t_end": 2698.43,
+    "text": "was where the mistake was he had assume something which is all so very often"
+  },
+  {
+    "t_start": 2698.43,
+    "t_end": 2700.67,
+    "text": "something which is all so very often mistakes in P are in the non-written"
+  },
+  {
+    "t_start": 2700.67,
+    "t_end": 2703.79,
+    "text": "mistakes in P are in the non-written part implicit"
+  },
+  {
+    "t_start": 2703.79,
+    "t_end": 2712.51,
+    "text": "part but uh writing completely explicitly is uh certainly not possible"
+  },
+  {
+    "t_start": 2712.51,
+    "t_end": 2714.829,
+    "text": "explicitly is uh certainly not possible for instance there is a very"
+  },
+  {
+    "t_start": 2714.829,
+    "t_end": 2724.19,
+    "text": "for instance there is a very disagreeable point of"
+  },
+  {
+    "t_start": 2727.27,
+    "t_end": 2733.75,
+    "text": "identifications we are all we have been said all the time that we identify Z"
+  },
+  {
+    "t_start": 2733.75,
+    "t_end": 2738.47,
+    "text": "with the subset of Q set R and so"
+  },
+  {
+    "t_start": 2740.91,
+    "t_end": 2744.47,
+    "text": "on but what does that mean I mean this is absolutely not true I mean n is not a"
+  },
+  {
+    "t_start": 2744.47,
+    "t_end": 2751.99,
+    "text": "this if you follow so take the following say everything is a set particularly in"
+  },
+  {
+    "t_start": 2751.99,
+    "t_end": 2757.03,
+    "text": "say everything is a set particularly in the Z rank system so three is a set uh"
+  },
+  {
+    "t_start": 2757.03,
+    "t_end": 2762.43,
+    "text": "the Z rank system so three is a set uh what is the cardinality of"
+  },
+  {
+    "t_start": 2765.67,
+    "t_end": 2770.069,
+    "text": "three uh I'm right I'm giving that in the Baki system n in Baki is the"
+  },
+  {
+    "t_start": 2770.069,
+    "t_end": 2773.309,
+    "text": "the Baki system n in Baki is the representative of the finite set and the"
+  },
+  {
+    "t_start": 2773.309,
+    "t_end": 2779.349,
+    "text": "representative of of the set with three elements is just three so in N cardal of"
+  },
+  {
+    "t_start": 2779.349,
+    "t_end": 2780.67,
+    "text": "elements is just three so in N cardal of three is"
+  },
+  {
+    "t_start": 2780.67,
+    "t_end": 2784.63,
+    "text": "three is three"
+  },
+  {
+    "t_start": 2788.03,
+    "t_end": 2793.549,
+    "text": "pairs of integers with the same difference so an element of Z has"
+  },
+  {
+    "t_start": 2793.549,
+    "t_end": 2799.51,
+    "text": "difference so an element of Z has cardinality Z so this is well I'm not"
+  },
+  {
+    "t_start": 2799.51,
+    "t_end": 2802.63,
+    "text": "cardinality Z so this is well I'm not very"
+  },
+  {
+    "t_start": 2808.549,
+    "t_end": 2811.03,
+    "text": "good is in z or q but here you"
+  },
+  {
+    "t_start": 2811.03,
+    "t_end": 2813.15,
+    "text": "q but here you have Co"
+  },
+  {
+    "t_start": 2813.15,
+    "t_end": 2820.67,
+    "text": "sequences and so that the cardinality is the power"
+  },
+  {
+    "t_start": 2821.79,
+    "t_end": 2823.47,
+    "text": "okay what does that mean I mean you should not ask the"
+  },
+  {
+    "t_start": 2823.47,
+    "t_end": 2828.15,
+    "text": "question yeah but on the other hand when we expain mathematics to other people I"
+  },
+  {
+    "t_start": 2828.15,
+    "t_end": 2831.27,
+    "text": "we expain mathematics to other people I mean it is not quite compatible with"
+  },
+  {
+    "t_start": 2831.27,
+    "t_end": 2834.069,
+    "text": "mean it is not quite compatible with what we said to tell them there are"
+  },
+  {
+    "t_start": 2834.069,
+    "t_end": 2836.15,
+    "text": "what we said to tell them there are questions you should not"
+  },
+  {
+    "t_start": 2836.15,
+    "t_end": 2839.99,
+    "text": "questions you should not ask so it's very"
+  },
+  {
+    "t_start": 2839.99,
+    "t_end": 2844.75,
+    "text": "disagreeable you have to know and I took a rather trivial example but there there"
+  },
+  {
+    "t_start": 2844.75,
+    "t_end": 2851.99,
+    "text": "a rather trivial example but there there are much more amusing ones if you take q"
+  },
+  {
+    "t_start": 2855.23,
+    "t_end": 2861.39,
+    "text": "in but also you have the padic fs which ined and you have also"
+  },
+  {
+    "t_start": 2861.39,
+    "t_end": 2866.75,
+    "text": "ineds so you have a whole collection of edics are not compatible with each other"
+  },
+  {
+    "t_start": 2866.75,
+    "t_end": 2868.91,
+    "text": "edics are not compatible with each other so you have to"
+  },
+  {
+    "t_start": 2868.91,
+    "t_end": 2875.349,
+    "text": "know which one you have in mind CH was a member"
+  },
+  {
+    "t_start": 2875.349,
+    "t_end": 2880.67,
+    "text": "mind CH was a member of would have favored never to make an"
+  },
+  {
+    "t_start": 2880.67,
+    "t_end": 2882.75,
+    "text": "of would have favored never to make an identification but this is absolutely"
+  },
+  {
+    "t_start": 2882.75,
+    "t_end": 2885.19,
+    "text": "identification but this is absolutely impossible the text would be unreadable"
+  },
+  {
+    "t_start": 2885.19,
+    "t_end": 2887.23,
+    "text": "impossible the text would be unreadable you had to give the name to the"
+  },
+  {
+    "t_start": 2887.23,
+    "t_end": 2894.95,
+    "text": "injection of n into Z and so on well here might be good to have some"
+  },
+  {
+    "t_start": 2894.95,
+    "t_end": 2897.79,
+    "text": "here might be good to have some name but in that case"
+  },
+  {
+    "t_start": 2897.79,
+    "t_end": 2903.95,
+    "text": "name but in that case no so uh so at the end we have to admit"
+  },
+  {
+    "t_start": 2903.95,
+    "t_end": 2907.79,
+    "text": "no so uh so at the end we have to admit that we canot write in very rigorously"
+  },
+  {
+    "t_start": 2907.79,
+    "t_end": 2915.47,
+    "text": "that we canot write in very rigorously that it is a matter of of an to know"
+  },
+  {
+    "t_start": 2915.47,
+    "t_end": 2917.589,
+    "text": "what to say and not and what not to say"
+  },
+  {
+    "t_start": 2917.589,
+    "t_end": 2929.63,
+    "text": "say uh okay"
+  },
+  {
+    "t_start": 2932.069,
+    "t_end": 2937.549,
+    "text": "uh I would be happy to have comments or questions because one may have very"
+  },
+  {
+    "t_start": 2937.549,
+    "t_end": 2941.23,
+    "text": "questions because one may have very different opinions on on those"
+  },
+  {
+    "t_start": 2941.23,
+    "t_end": 2945.789,
+    "text": "things well for instance there is a I didn't speak of that because it's bit"
+  },
+  {
+    "t_start": 2945.789,
+    "t_end": 2947.39,
+    "text": "didn't speak of that because it's bit too difficult"
+  },
+  {
+    "t_start": 2947.39,
+    "t_end": 2951.95,
+    "text": "too difficult but food one explain the ideas carefully"
+  },
+  {
+    "t_start": 2951.95,
+    "t_end": 2957.63,
+    "text": "ideas or give the or give the full details or"
+  },
+  {
+    "t_start": 2957.63,
+    "t_end": 2963.63,
+    "text": "both my own feeling is that if you give me a proof with all the details I can"
+  },
+  {
+    "t_start": 2963.63,
+    "t_end": 2965.91,
+    "text": "me a proof with all the details I can find the ideas behind that's not very"
+  },
+  {
+    "t_start": 2965.91,
+    "t_end": 2970.51,
+    "text": "find the ideas behind that's not very difficult if you give me the ideas and"
+  },
+  {
+    "t_start": 2970.51,
+    "t_end": 2973.47,
+    "text": "not the details I may get completely stuck on some details and"
+  },
+  {
+    "t_start": 2973.47,
+    "t_end": 2980.15,
+    "text": "then and also I would prefer more detailed to on paper because on paper"
+  },
+  {
+    "t_start": 2980.15,
+    "t_end": 2986.109,
+    "text": "well if you find it too long you just go to the next page but if it is too short"
+  },
+  {
+    "t_start": 2986.109,
+    "t_end": 2988.23,
+    "text": "to the next page but if it is too short and something is missing you may spend a"
+  },
+  {
+    "t_start": 2988.23,
+    "t_end": 2992.27,
+    "text": "and something is missing you may spend a lot of time trying to reconstr it okay"
+  },
+  {
+    "t_start": 2992.27,
+    "t_end": 2995.27,
+    "text": "lot of time trying to reconstr it okay but I wanted other question than the one"
+  },
+  {
+    "t_start": 2995.27,
+    "t_end": 2998.91,
+    "text": "but I wanted other question than the one I asked myself"
+  },
+  {
+    "t_start": 3000.47,
+    "t_end": 3006.03,
+    "text": "no oh come on you must know what is bading and"
+  },
+  {
+    "t_start": 3006.03,
+    "t_end": 3010.87,
+    "text": "just read any text in the"
+  },
+  {
+    "t_start": 3010.87,
+    "t_end": 3013.87,
+    "text": "text in the library"
+  },
+  {
+    "t_start": 3013.87,
+    "t_end": 3024.95,
+    "text": "library no"
+  },
+  {
+    "t_start": 3028.349,
+    "t_end": 3029.789,
+    "text": "yes uh I'm I'm sure that if this happen with Baki"
+  },
+  {
+    "t_start": 3029.789,
+    "t_end": 3034.19,
+    "text": "B some member of baki would tell the other one it's because you're stupid and"
+  },
+  {
+    "t_start": 3034.19,
+    "t_end": 3036.789,
+    "text": "other one it's because you're stupid and you have not found correct statement"
+  },
+  {
+    "t_start": 3036.789,
+    "t_end": 3039.47,
+    "text": "you have not found correct statement which should give both of them so"
+  },
+  {
+    "t_start": 3039.47,
+    "t_end": 3042.91,
+    "text": "which should give both of them so normally if that happens if that happens"
+  },
+  {
+    "t_start": 3042.91,
+    "t_end": 3049.109,
+    "text": "normally if that happens if that happens there really should be because that's"
+  },
+  {
+    "t_start": 3049.109,
+    "t_end": 3059.67,
+    "text": "that's I dislike that very much people would tell you oh yes I hope one the pro"
+  },
+  {
+    "t_start": 3063.23,
+    "t_end": 3068.15,
+    "text": "similar there an expression in Latin say that what you remember"
+  },
+  {
+    "t_start": 3071.39,
+    "t_end": 3080.55,
+    "text": "no changing the things which should be changed that"
+  },
+  {
+    "t_start": 3081.91,
+    "t_end": 3087.789,
+    "text": "is and this is that correct I'm not sure or the"
+  },
+  {
+    "t_start": 3087.789,
+    "t_end": 3096.91,
+    "text": "correct I'm not sure or the spelling no no they don't look"
+  },
+  {
+    "t_start": 3105.069,
+    "t_end": 3109.829,
+    "text": "no no no no okay but uh well in plain English it means changing what has to be"
+  },
+  {
+    "t_start": 3121.349,
+    "t_end": 3125.23,
+    "text": "paper yeah if you can do that it's always very useful it belongs to the"
+  },
+  {
+    "t_start": 3125.23,
+    "t_end": 3128.19,
+    "text": "always very useful it belongs to the introduction"
+  },
+  {
+    "t_start": 3128.19,
+    "t_end": 3132.87,
+    "text": "usually some people can do that very well I there is one word writing papers"
+  },
+  {
+    "t_start": 3132.87,
+    "t_end": 3134.75,
+    "text": "well I there is one word writing papers where you have a very long introduction"
+  },
+  {
+    "t_start": 3134.75,
+    "t_end": 3137.069,
+    "text": "where you have a very long introduction with all the statements and no proofs"
+  },
+  {
+    "t_start": 3137.069,
+    "t_end": 3143.71,
+    "text": "and then the rest you give the proofs that might be clearer except that the"
+  },
+  {
+    "t_start": 3143.71,
+    "t_end": 3148.109,
+    "text": "that might be clearer except that the notation should be clear for the in the"
+  },
+  {
+    "t_start": 3148.109,
+    "t_end": 3152.069,
+    "text": "introduction very often you find an introduction the 31 and so on and the"
+  },
+  {
+    "t_start": 3152.069,
+    "t_end": 3154.95,
+    "text": "introduction the 31 and so on and the notation has not been"
+  },
+  {
+    "t_start": 3154.95,
+    "t_end": 3168.95,
+    "text": "introduced so but you're asking about the serious question how F and con"
+  },
+  {
+    "t_start": 3171.87,
+    "t_end": 3178.43,
+    "text": "motivation have tendency to believe that the motivation is my own it that"
+  },
+  {
+    "t_start": 3178.43,
+    "t_end": 3187.03,
+    "text": "the motivation is my own it that is I just want to know how the things"
+  },
+  {
+    "t_start": 3191.349,
+    "t_end": 3191.82,
+    "text": "how or I tell myself how they were uh real"
+  },
+  {
+    "t_start": 3191.82,
+    "t_end": 3194.309,
+    "text": "real [Music]"
+  },
+  {
+    "t_start": 3194.309,
+    "t_end": 3198.39,
+    "text": "[Music] motivation"
+  },
+  {
+    "t_start": 3209.829,
+    "t_end": 3214.349,
+    "text": "something can look very strange at first and then make sense"
+  },
+  {
+    "t_start": 3217.47,
+    "t_end": 3219.829,
+    "text": "later there are people who know how to write a very good introduction since the"
+  },
+  {
+    "t_start": 3219.829,
+    "t_end": 3226.27,
+    "text": "write a very good introduction since the boat is not here I can tell his name the"
+  },
+  {
+    "t_start": 3226.27,
+    "t_end": 3229.63,
+    "text": "topologist of my generation were beautifully"
+  },
+  {
+    "t_start": 3229.63,
+    "t_end": 3233.75,
+    "text": "were beautifully in some topics are less"
+  },
+  {
+    "t_start": 3236.03,
+    "t_end": 3236.95,
+    "text": "easy I don't know how you can find the motivation"
+  },
+  {
+    "t_start": 3236.95,
+    "t_end": 3243.069,
+    "text": "motivation in the motivation it's beautiful"
+  },
+  {
+    "t_start": 3246.99,
+    "t_end": 3251.71,
+    "text": "of fin proof of OD order is solvable the proof is 250 pages long or"
+  },
+  {
+    "t_start": 3251.71,
+    "t_end": 3254.03,
+    "text": "proof is 250 pages long or 300 well the theem itself is the"
+  },
+  {
+    "t_start": 3254.03,
+    "t_end": 3259.67,
+    "text": "motivation but the ideas of the proof I mean to non specialist are absolutely"
+  },
+  {
+    "t_start": 3259.67,
+    "t_end": 3268.549,
+    "text": "mean to non specialist are absolutely invisible that's"
+  },
+  {
+    "t_start": 3269.91,
+    "t_end": 3276.349,
+    "text": "okay anything else"
+  },
+  {
+    "t_start": 3286.39,
+    "t_end": 3289.15,
+    "text": "what you think it was better when I was young I don't think"
+  },
+  {
+    "t_start": 3289.15,
+    "t_end": 3294.589,
+    "text": "so I remember papers in topology in the anals which were I was absolutely desing"
+  },
+  {
+    "t_start": 3294.589,
+    "t_end": 3296.39,
+    "text": "anals which were I was absolutely desing because they were not doing anything"
+  },
+  {
+    "t_start": 3296.39,
+    "t_end": 3300.589,
+    "text": "because they were not doing anything they were making exact sequences going"
+  },
+  {
+    "t_start": 3300.589,
+    "t_end": 3307.03,
+    "text": "all on groups on which they knew nothing no I don't think I don't want to"
+  },
+  {
+    "t_start": 3307.03,
+    "t_end": 3310.15,
+    "text": "nothing no I don't think I don't want to blame it on your"
+  },
+  {
+    "t_start": 3312.91,
+    "t_end": 3315.99,
+    "text": "generation but it's a natural tendency the less eort I think that's"
+  },
+  {
+    "t_start": 3315.99,
+    "t_end": 3321.589,
+    "text": "all maybe the computer is also for something because it's too easy now to"
+  },
+  {
+    "t_start": 3321.589,
+    "t_end": 3324.029,
+    "text": "something because it's too easy now to take a piece that you have written at"
+  },
+  {
+    "t_start": 3324.029,
+    "t_end": 3326.43,
+    "text": "take a piece that you have written at some point and put it at another one and"
+  },
+  {
+    "t_start": 3326.43,
+    "t_end": 3329.39,
+    "text": "some point and put it at another one and then the notations don't agree or you"
+  },
+  {
+    "t_start": 3329.39,
+    "t_end": 3335.349,
+    "text": "then the notations don't agree or you def you can do many more things when we"
+  },
+  {
+    "t_start": 3335.349,
+    "t_end": 3339.63,
+    "text": "had to to type on paper and thre and glue there was less"
+  },
+  {
+    "t_start": 3339.63,
+    "t_end": 3346.51,
+    "text": "glue there was less possibility no but I don't think the I"
+  },
+  {
+    "t_start": 3348.789,
+    "t_end": 3371.99,
+    "text": "oh quite okay again thank you [Applause]"
+  },
+  {
+    "t_start": 3375.47,
+    "t_end": 3378.19,
+    "text": "and no I'm so sorry that the first time I watch is is giving me that"
+  },
+  {
+    "t_start": 3378.19,
+    "t_end": 3381.51,
+    "text": "I watch is is giving me that trouble it allowed the audience to reach"
+  },
+  {
+    "t_start": 3381.51,
+    "t_end": 3385.96,
+    "text": "trouble it allowed the audience to reach maximum before you no not"
+  }
+]

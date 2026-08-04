@@ -298,6 +298,43 @@ You cannot pack unit segments in all three-dimensional directions into a genuine
 
 ---
 
+## Mode C — reconstructed notes from flagship videos
+
+*Reconstructed from pack captions (Quanta Kakeya; Mathologer needle; Hausdorff-dimension lectures; VI orientation). Not a substitute for the Wang–Zahl paper or IMU citation. Transcripts: `research/video-research/Wang_Harmonic_Analysis/transcripts/`.*
+
+### C1. Needle motion vs Kakeya *sets* (Mathologer / Numberphile culture)
+
+Popular “turn a needle 180° with small swept area” stories train continuous **motion**. The modern Kakeya **set** conjecture is about a static set that contains a unit segment in every direction. Both are about “all directions,” but they are not the same definition. Seminar rule: freeze which object you mean before comparing theorems.
+
+### C2. Measure zero is compatible with full directional content
+
+Besicovitch-type constructions (and Davies’s planar refinements with thin rectangles / tubes) show that “contains every direction” need not force positive area in the plane. That is why the deep conjecture in higher dimensions is about **dimension** (Hausdorff / Minkowski), not “must have positive volume.”
+
+### C3. Hausdorff dimension as a scale of size (supporting lectures)
+
+Hausdorff measure with gauge functions is a way to say “how big” when volume is zero. A set can have volume zero and still have Hausdorff dimension equal to the ambient dimension. **LO2 target:** measure zero does **not** imply “dimension zero,” and high dimension does **not** imply positive Lebesgue measure.
+
+### C4. What 3D Kakeya asserts (Quanta / popular science of Wang–Zahl)
+
+The three-dimensional Kakeya set conjecture (in the form popular expositions state) forces every Kakeya set in $$\mathbb{R}^3$$ to have full dimension three (Hausdorff and Minkowski, in the sense of the theorem). Wang–Zahl prove this; popular narratives emphasize multi-scale structure of δ-tubes and controlling “sticky” configurations as scale changes. For grades:
+
+| Must say | Must not say |
+|----------|--------------|
+| Joint work **Wang and Zahl** | “Wang alone solved Kakeya” |
+| About **dimension** in 3D | “Every Kakeya set has positive volume” |
+| $$n\ge 4$$ remains open | “Kakeya is finished forever” |
+| IMU citation is broader than Kakeya alone | “Fields Medal = only Kakeya” |
+
+### C5. VI orientation clips
+
+Vietnamese popular videos can help orientation; treat automatic captions and “Fields/Fibonacci” type slips as **LO6 practice**—verify names (Wang–Zahl), year, and theorem type against arXiv/IMU before quoting.
+
+### C6. Navigation
+
+See `TRANSCRIPT_STATUS.md` and `*_knowledge_units.json` for time chunks. Graded writing must restate claims in the lesson’s notation (δ-tubes, Hausdorff dimension, sticky), not paste caption noise.
+
+---
+
 ## Challenges and extensions
 
 1. Distinguish continuous **needle motion** from a **static Besicovitch set**.  

@@ -38,6 +38,7 @@ Abel là tên rất hợp: trong đời ngắn ông biến đổi hàm elliptic 
 
 Mở bất kỳ citation trên [abelprize.no](https://abelprize.no/) thường thấy ngôn ngữ về **thân sự nghiệp**, **phương pháp thành công cụ**, **cầu nối lĩnh vực**. Ủy ban hiếm khi dừng ở một phương trình. Ví dụ (gần nguyên văn chính thức):
 
+- **Serre (2003):** vai trò then chốt định hình dạng hiện đại của tôpô, hình học đại số và lý thuyết số (Abel đầu tiên).  
 - **Atiyah & Singer (2004):** khám phá và chứng minh định lý chỉ số, nối tôpô–hình học–giải tích, và xây cầu nổi bật sang theoretical physics.  
 - **Wiles (2016):** chứng minh lộng lẫy Định lý Cuối Fermat *thông qua* modularity cho elliptic semistable, mở kỷ nguyên mới trong lý thuyết số.  
 - **Uhlenbeck (2019):** thành tựu tiên phong PDE hình học, gauge theory, hệ khả tích; tác động nền tảng lên giải tích, hình học, vật lý toán.  

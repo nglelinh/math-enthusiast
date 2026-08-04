@@ -1,0 +1,37 @@
+{
+  "slug": "serre-abel-2003",
+  "videos": [
+    {
+      "id": "NTZh6cuezv4",
+      "title": "Jean-Pierre Serre - The Abel Prize interview 2003",
+      "has_transcript": true,
+      "chars": 33922,
+      "units": 23,
+      "url": "https://www.youtube.com/watch?v=NTZh6cuezv4"
+    },
+    {
+      "id": "hs0lRR99vPI",
+      "title": "Serre — 50 years ago: Number Theory",
+      "has_transcript": true,
+      "chars": 24762,
+      "units": 34,
+      "url": "https://www.youtube.com/watch?v=hs0lRR99vPI"
+    },
+    {
+      "id": "0KqVP9We2LQ",
+      "title": "Serre — Galois groups large",
+      "has_transcript": false,
+      "chars": 0,
+      "units": 0,
+      "url": "https://www.youtube.com/watch?v=0KqVP9We2LQ"
+    },
+    {
+      "id": "ECQyFzzBHlo",
+      "title": "Serre — How to write mathematics badly",
+      "has_transcript": true,
+      "chars": 39426,
+      "units": 36,
+      "url": "https://www.youtube.com/watch?v=ECQyFzzBHlo"
+    }
+  ]
+}

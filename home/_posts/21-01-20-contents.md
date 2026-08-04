@@ -68,6 +68,7 @@ Discover the mathematics behind the **Abel Prize**—lifetime-scale contribution
 
 Examples:
 
+- Jean-Pierre Serre — shaping modern topology, AG, and number theory (2003)
 - Atiyah & Singer — the index theorem bridging analysis and topology (2004)
 - Andrew Wiles — modularity and Fermat’s Last Theorem (2016)
 - Karen Uhlenbeck — geometric analysis and gauge theory (2019)

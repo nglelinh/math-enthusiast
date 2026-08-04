@@ -101,9 +101,46 @@ The pedagogical point is that Abel-scale work often means **opening a highway**:
 
 ---
 
+## 4b. Mode C — reconstructed notes from flagship videos
+
+*Reconstructed from Abel interview 2004, Freed CMSA overview, Raghunathan/ICTS overview, and Khalkhali index-theory lectures. Captions: `research/video-research/atiyah-singer-index/transcripts/`. Reconstruct; do not paste ASR.*
+
+### C1. “Gang of Four” culture (Freed)
+
+Index theory is often narrated through **Atiyah, Singer, Bott, and Hirzebruch**: analysis and topology meeting characteristic classes, genera of manifolds, and later K-theoretic packaging. For this course, keep two proof *cultures* distinct even if you never execute either:
+
+| Culture | Headline |
+|---------|----------|
+| K-theory / cobordism | Symbol class → topological index via algebraic topology |
+| Heat kernel / asymptotics | Supertraces of heat operators → local densities → characteristic classes |
+
+Both aim at the same slogan equality: analytic index = topological index.
+
+### C2. Why the index is “topological”
+
+Khalkhali-style foundations stress that the analytic index is an **integer constant on open sets of elliptic operators** (deformation stability). That stability is why one *expects* a topological formula: continuous deformation cannot change a discrete invariant unless a singularity of ellipticity appears.
+
+### C3. Special cases as instances
+
+Overview lectures recover classical theorems as index computations (Euler characteristic via de Rham-type complexes; Riemann–Roch / holomorphic Euler characteristics; signature and Dirac-type operators). Your takeaway is architectural: **one machine, many outputs**—not a list of unrelated named theorems.
+
+### C4. Abel interview culture (Atiyah & Singer)
+
+The 2004 interview is about discovery, collaboration, and dialogue with physics—not a board proof. Useful seminar extractions:
+
+- The prize text emphasizes **bridges** (geometry–analysis–topology–physics), matching this lesson’s §6 caution.  
+- Collaboration and shared language across pure math and physics appear as historical method, not as “physics proved the theorem.”  
+- String theory / QFT appear as *later conversation partners* (anomalies, Dirac operators), consistent with treating physics as muse and constraint, not as the original sole proof.
+
+### C5. Navigation
+
+Use `TRANSCRIPT_STATUS.md` for which videos captioned (all five primaries in the pack). Jump via `*_knowledge_units.json` (~90s). For A2/A6 writing, cite the **slogan equality** and one special case in your own words.
+
+---
+
 ## 5. Why this is Abel-scale (lifetime and climate)
 
-The first Abel Prize went to Serre (2003). The **second**, in 2004, went jointly to Atiyah and Singer. The citation names both the **discovery and proof of the index theorem** and their **role in building bridges** between topology, geometry, analysis, and theoretical physics.
+The first Abel Prize went to [Serre (2003)]({{ site.baseurl }}/contents/en/chapter08/08_12_Serre_Abel_2003/). The **second**, in 2004, went jointly to Atiyah and Singer. The citation names both the **discovery and proof of the index theorem** and their **role in building bridges** between topology, geometry, analysis, and theoretical physics.
 
 That second clause matters. Index theory did not stop in 1963. It became a language for:
 

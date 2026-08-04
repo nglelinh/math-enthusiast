@@ -72,3 +72,4 @@
 Topic lesson enrichment packs live under `research/video-research/<slug>/` (README, references, analysis, learning_path) for all Ch.3 and Ch.4 non-overview lessons (2026-08-04).
 
 - Ch.08 Atiyah–Singer index theorem (Abel 2004) deep-dive + pack `atiyah-singer-index` (2026-08-04).
+- Ch.08 Serre Abel 2003 deep-dive + Mode-C into RH/Wang/Atiyah (2026-08-04).

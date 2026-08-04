@@ -290,6 +290,36 @@ Các bài giảng phổ thông (Quanta/Kontorovich; Conrey; Vaaler) và survey (
 
 ---
 
+## Mode C — ghi chú tái dựng từ video flagship
+
+*Tái dựng tri thức (không dán transcript). Đối chiếu các mục trên và survey Clay/Bombieri. Caption: `research/video-research/Riemann_Hypothesis/transcripts/`.*
+
+### C1. Định hướng Quanta / Kontorovich
+
+Ba hình ảnh cần giữ tách:
+
+1. **Tích Euler** ($$\operatorname{Re}(s)>1$$) là lý do zero có thể điều khiển số nguyên tố.  
+2. **Thắc triển giải tích:** định nghĩa chuỗi không phải toàn bộ; cần hàm mở rộng trên dải tới hạn.  
+3. **Đường tới hạn là khẳng định:** hình ảnh nhiều zero trên đường là **bằng chứng hình**, không phải chứng minh. Kiểm số lớn (hàng tỷ/nghìn tỷ zero trong báo cáo tính toán) vẫn là **kiểm hữu hạn**.
+
+**Bẫy LO6:** “Máy tính kiểm nhiều zero ⇒ RH đúng.”
+
+### C2. Nền kiểu Vaaler (bài Millennium)
+
+Thứ tự: phân tích thừa số nguyên tố → tích Euler → $$\pi(x)$$ và sai số → zero. **Định lý số nguyên tố** là định lý; **RH** mạnh hơn và vẫn mở. Đừng để RH nuốt PNT như thể PNT còn là giả thuyết.
+
+### C3. Văn hóa “beyond RH” (clip frontier)
+
+Các kết quả “vượt RH” thường nghĩa: hệ quả số học mạnh hơn, hoặc chứng minh không điều kiện qua rào cũ—**không** nghĩa “RH sai.” “Kỷ lục thế giới” về số nguyên tố trong cấp số / cơ số không phải lời giải RH. Đọc tiêu đề bài báo trước khi trích 23%.
+
+**Nhắc:** RH cổ điển cho $$\zeta(s)$$ vẫn mở (2026).
+
+### C4. Điều hướng
+
+`TRANSCRIPT_STATUS.md` và `*_knowledge_units.json` (~90s). Bài viết chấm điểm phải **tái diễn đạt** bằng ký hiệu bài này.
+
+---
+
 ## Nguồn video (gói math-video-researcher)
 
 Dùng video cho **định hướng và văn hóa nghiên cứu**, không thay chứng minh (chưa có cho RH cổ điển). Xếp hạng đầy đủ: `research/video-research/Riemann_Hypothesis/`.

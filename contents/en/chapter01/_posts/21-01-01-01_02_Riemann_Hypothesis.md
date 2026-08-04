@@ -300,6 +300,46 @@ Popular lectures (Quanta/Kontorovich; Conrey; Vaaler) and surveys (Bombieri Clay
 
 ---
 
+## Mode C — reconstructed notes from flagship videos
+
+*Reconstructed knowledge units (not transcript dumps). Cross-check against the written sections above and against Clay/Bombieri-style surveys. Captions live under `research/video-research/Riemann_Hypothesis/transcripts/`.*
+
+### C1. Quanta / Kontorovich orientation (*The Riemann Hypothesis, Explained*)
+
+Orientation talks fix three student-facing images that must stay separate:
+
+1. **Euler product.** For $$\operatorname{Re}(s)>1$$, the identity connecting $$\zeta(s)$$ to primes is the reason zeros can control prime distribution—not a free bonus.  
+2. **Analytic continuation.** The series definition is not the whole story: Riemann needs a function that agrees with the series where both make sense and is meaningful on a larger domain (including the critical strip). Popular “two functions, one identity region” language is a slogan for continuation, not a full uniqueness course.  
+3. **The critical line as a claim.** RH asserts a location for non-trivial zeros. Visualizations of many zeros on the line are **evidence graphics**, not a proof. Large-scale numerical searches (billions or trillions of zeros on the line in computational reports) remain **finite checks**.
+
+**LO6 trap:** “A computer checked many zeros, so RH is true.” → Evidence for those zeros; the universal claim is open.
+
+### C2. Vaaler-style foundation (Millennium lectures)
+
+Longer survey lectures typically walk: unique factorization → Euler product → $$\pi(x)$$ vs smooth models of prime counting → error terms and zeros. Keep the hierarchy:
+
+- **Prime number theorem** is a theorem (equivalences involving no zeros on $$\operatorname{Re}(s)=1$$ in standard formulations).  
+- **RH** is a far stronger location statement that would sharpen error terms dramatically.  
+- Teaching order matters: do not let RH swallow PNT as if PNT were still a conjecture.
+
+### C3. “Beyond RH” culture (e.g. Lichtman / Numberphile frontier clips)
+
+Some modern results ask for arithmetic consequences that would *follow from* RH and then prove related statements **without assuming full RH**, or go past square-root barriers in special counting problems. For seminar purposes:
+
+| Phrase in a video | How to hear it |
+|-------------------|----------------|
+| “Beyond the Riemann Hypothesis” | Usually: stronger arithmetic conclusions, or unconditional results past former barriers—not “RH is false” |
+| “World records” | Computational or analytic records about primes in progressions / bases—**not** a resolution of RH |
+| “23% beyond…” | A quantitative slogan about a specific theorem’s strength relative to RH-conditional bounds—read the paper title before quoting |
+
+**Status reminder:** classical RH for $$\zeta(s)$$ remains open as of 2026.
+
+### C4. Pack timestamps for navigation
+
+Use `research/video-research/Riemann_Hypothesis/TRANSCRIPT_STATUS.md` and `*_knowledge_units.json` to jump by ~90s chunks. Prefer the **reconstructed** table above for graded writing; use raw captions only to locate a spoken claim you will then restate in your own words.
+
+---
+
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as a substitute for a proof (none is known for classical RH). Full ranking and Mode B notes: `research/video-research/Riemann_Hypothesis/`.

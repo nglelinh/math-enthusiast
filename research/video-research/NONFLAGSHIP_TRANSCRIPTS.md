@@ -17,6 +17,7 @@ Frames: `img/video_research/nonflagships/`.
 | Pack | Captions | Units | Frames |
 |------|----------|------:|--------|
 | `atiyah-singer-index` | 5/5 | 229 | 1 |
+| `serre-abel-2003` | 3/4 | 93 | 1 |
 | `Birch_Swinnerton_Dyer` | 4/4 | 101 | 1 |
 | `Birkar_Algebraic_Geometry` | 2/2 | 4 | 1 |
 | `Deng_PDE` | 0/0 | 0 | 0 |

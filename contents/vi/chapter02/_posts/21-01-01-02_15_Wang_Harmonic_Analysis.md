@@ -290,6 +290,43 @@ Bạn không thể nhét các đoạn đơn vị theo mọi hướng 3D vào fra
 
 ---
 
+## Mode C — ghi chú tái dựng từ video flagship
+
+*Tái dựng từ caption gói (Quanta Kakeya; Mathologer; Hausdorff; định hướng VI). Không thay arXiv Wang–Zahl hay citation IMU. Transcript: `research/video-research/Wang_Harmonic_Analysis/transcripts/`.*
+
+### C1. Chuyển động kim vs tập Kakeya
+
+Câu chuyện “quay kim 180° quét diện tích nhỏ” là **chuyển động liên tục**. Giả thuyết tập Kakeya hiện đại là về **tập tĩnh** chứa đoạn đơn vị mọi hướng. Cùng “mọi hướng,” **khác định nghĩa**—đóng băng đối tượng trước khi so sánh định lý.
+
+### C2. Measure zero vẫn chứa đủ hướng
+
+Besicovitch / Davies (hình chữ nhật/tube mỏng) cho thấy “mọi hướng” không buộc diện tích dương trên mặt phẳng. Vì vậy conjecture chiều cao nói về **dimension** (Hausdorff / Minkowski), không phải “phải có thể tích dương.”
+
+### C3. Hausdorff dimension (bài hỗ trợ)
+
+Độ đo Hausdorff với hàm gauge đo “lớn thế nào” khi thể tích bằng 0. Tập có thể có measure zero nhưng $$\dim_H$$ bằng chiều môi trường. **LO2:** measure zero **không** ⇒ dimension 0; dimension đầy **không** ⇒ Lebesgue dương.
+
+### C4. Kakeya 3D và Wang–Zahl (Quanta / phổ thông)
+
+Conjecture 3D (dạng phổ thông) buộc mọi tập Kakeya trong $$\mathbb{R}^3$$ có dimension đầy 3. Wang–Zahl chứng minh; tường thuật nhấn multi-scale δ-tube và cấu hình sticky. Bảng bắt buộc:
+
+| Phải nói | Không nói |
+|----------|-----------|
+| **Wang và Zahl** | “Wang một mình” |
+| Về **dimension** 3D | “Mọi tập Kakeya có thể tích dương” |
+| $$n\ge 4$$ còn mở | “Kakeya xong vĩnh viễn” |
+| IMU rộng hơn chỉ Kakeya | “Fields = chỉ Kakeya” |
+
+### C5. Clip VI
+
+Dùng để định hướng; phụ đề auto / nhầm tên-năm là **luyện LO6**—đối chiếu arXiv/IMU trước khi trích.
+
+### C6. Điều hướng
+
+`TRANSCRIPT_STATUS.md` + `*_knowledge_units.json`. Bài chấm điểm dùng ký hiệu bài (δ-tube, Hausdorff, sticky), không dán nhiễu caption.
+
+---
+
 ## Thách thức và mở rộng
 
 1. Phân biệt **chuyển động kim liên tục** và **tập Besicovitch tĩnh**.  

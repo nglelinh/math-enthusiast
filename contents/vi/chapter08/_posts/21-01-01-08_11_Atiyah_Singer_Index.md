@@ -101,9 +101,42 @@ Khóa học này không chứng minh Atiyah–Singer. Nó đánh dấu **văn h�
 
 ---
 
+## 4b. Mode C — ghi chú tái dựng từ video flagship
+
+*Tái dựng từ phỏng vấn Abel 2004, Freed CMSA, tổng quan Raghunathan/ICTS, và series Khalkhali. Caption: `research/video-research/atiyah-singer-index/transcripts/`.*
+
+### C1. Văn hóa “Gang of Four” (Freed)
+
+Lý thuyết chỉ số thường kể qua **Atiyah, Singer, Bott, Hirzebruch**. Giữ hai *văn hóa chứng minh* (dù không thực thi):
+
+| Văn hóa | Tiêu đề |
+|---------|---------|
+| K-theory / cobordism | Lớp symbol → chỉ số tôpô |
+| Hạt nhân nhiệt | Supertrace toán tử nhiệt → mật độ địa phương → lớp đặc trưng |
+
+Cùng slogan: chỉ số giải tích = chỉ số tôpô.
+
+### C2. Vì sao chỉ số “tôpô”
+
+Nền tảng kiểu Khalkhali: chỉ số giải tích là **số nguyên ổn định** trên các miền mở của toán tử elliptic (biến dạng liên tục không đổi chỉ số nếu vẫn elliptic). Ổn định đó khiến người ta *kỳ vọng* công thức tôpô.
+
+### C3. Trường hợp đặc biệt như thể hiện
+
+Bài tổng quan khôi phục Euler, Riemann–Roch, signature/Dirac như tính chỉ số. Kiến trúc: **một máy, nhiều output**.
+
+### C4. Phỏng vấn Abel (Atiyah & Singer)
+
+Về khám phá, hợp tác, đối thoại vật lý—không phải chứng minh bảng. Trích seminar hữu ích: citation **cầu nối**; vật lý là đối thoại sau, không phải “vật lý chứng minh định lý”; string/QFT là đối tác sau (anomaly, Dirac).
+
+### C5. Điều hướng
+
+`TRANSCRIPT_STATUS.md` (5/5 video chính). Nhảy bằng `*_knowledge_units.json`. Bài viết: slogan đẳng thức + một trường hợp đặc biệt bằng lời của bạn.
+
+---
+
 ## 5. Vì sao đây là quy mô Abel (trọn đời và khí hậu)
 
-Abel đầu tiên trao cho Serre (2003). **Thứ hai**, năm 2004, trao chung cho Atiyah và Singer. Citation nêu cả **khám phá và chứng minh định lý chỉ số** lẫn **vai trò xây cầu** giữa tôpô, hình học, giải tích và theoretical physics.
+Abel đầu tiên trao cho [Serre (2003)]({{ site.baseurl }}/contents/vi/chapter08/08_12_Serre_Abel_2003/). **Thứ hai**, năm 2004, trao chung cho Atiyah và Singer. Citation nêu cả **khám phá và chứng minh định lý chỉ số** lẫn **vai trò xây cầu** giữa tôpô, hình học, giải tích và theoretical physics.
 
 Mệnh đề thứ hai quan trọng. Lý thuyết chỉ số không dừng ở 1963. Nó trở thành ngôn ngữ cho:
 

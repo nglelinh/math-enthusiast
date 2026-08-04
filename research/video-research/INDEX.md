@@ -1,6 +1,6 @@
 # Video research packs — course index
 
-Total packs: **90** (one per topic lesson + collatz pipeline demo + Atiyah–Singer Abel 2004).
+Total packs: **91** (one per topic lesson + collatz pipeline demo + Atiyah–Singer Abel 2004 + Serre Abel 2003).
 
 Workflow: `WORKFLOW.md` · Skill: `math-video-researcher` §53
 
@@ -24,6 +24,7 @@ Transcript extracts: [FLAGSHIP_TRANSCRIPTS.md](FLAGSHIP_TRANSCRIPTS.md) · [NONF
 | `Pardon_Symplectic` | [references.md](Pardon_Symplectic/references.md) |
 | `Perelman_Poincare` | [references.md](Perelman_Poincare/references.md) |
 | `Riemann_Hypothesis` | [references.md](Riemann_Hypothesis/references.md) |
+| `serre-abel-2003` | [references.md](serre-abel-2003/references.md) |
 | `Scholze_Perfectoid` | [references.md](Scholze_Perfectoid/references.md) |
 | `Tsimerman_Arithmetic` | [references.md](Tsimerman_Arithmetic/references.md) |
 | `Twin_Prime_Conjecture` | [references.md](Twin_Prime_Conjecture/references.md) |
