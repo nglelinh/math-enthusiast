@@ -138,21 +138,21 @@ Non-disclosure where required is an academic integrity matter.
 
 ## Schedule
 
-Flagship links assume English paths on the published site (`baseurl` as configured).
+Flagship links use **published site paths** (prefix with your `baseurl`, e.g. `https://nglelinh.github.io/math-enthusiast`). Instructor week-1 pack: [`teaching/week01.md`](teaching/week01.md).
 
 | Week | Topic | Required flagship / focus | Due |
 |------|-------|---------------------------|-----|
-| W1 | Course map & how mathematicians talk | Intro + contents (site home) | — |
-| W2 | Great problems I | [Riemann Hypothesis](contents/en/chapter01/_posts/21-01-01-01_02_Riemann_Hypothesis.md) | A2 #1 |
+| W1 | Course map & how mathematicians talk | Site home + [week-1 teach pack](teaching/week01.md) | — |
+| W2 | Great problems I | [Riemann Hypothesis](https://nglelinh.github.io/math-enthusiast/contents/en/chapter01/01_02_Riemann_Hypothesis/) | A2 #1 |
 | W3 | Great problems II | RH review + 1–2 short ch.01 map entries | A2 #2 |
-| W4 | Fields & Kakeya | [Wang / Kakeya](contents/en/chapter02/_posts/21-01-01-02_15_Wang_Harmonic_Analysis.md) | A2 #3 |
+| W4 | Fields & Kakeya | [Wang / Kakeya](https://nglelinh.github.io/math-enthusiast/contents/en/chapter02/02_15_Wang_Harmonic_Analysis/) | A2 #3 |
 | W5 | Breakthroughs & public math writing | Workshop + A3 | **A3** |
-| W6 | Math that changed the world | [Number theory → cryptography](contents/en/chapter03/_posts/21-01-01-03_05_Number_Theory_Cryptography.md) | A2 #4 |
-| W7 | Beautiful mathematics | [Infinity](contents/en/chapter04/_posts/21-01-01-04_02_Infinity.md) | — |
-| W8 | Famous proof ideas | [Euclid & Cantor](contents/en/chapter05/_posts/21-01-01-05_02_Euclid_Infinite_Primes.md) | A2 #5 |
+| W6 | Math that changed the world | [Number theory → cryptography](https://nglelinh.github.io/math-enthusiast/contents/en/chapter03/03_05_Number_Theory_Cryptography/) | A2 #4 |
+| W7 | Beautiful mathematics | [Infinity](https://nglelinh.github.io/math-enthusiast/contents/en/chapter04/04_02_Infinity/) | — |
+| W8 | Famous proof ideas | [Euclid](https://nglelinh.github.io/math-enthusiast/contents/en/chapter05/05_02_Euclid_Infinite_Primes/) · [Cantor](https://nglelinh.github.io/math-enthusiast/contents/en/chapter05/05_03_Cantor_Diagonal/) | A2 #5 |
 | W9 | Proof narrative workshop | Peer review | **A4** |
-| W10 | Mathematics of the future | [Mathematics of AI](contents/en/chapter06/_posts/21-01-01-06_02_Mathematics_of_AI.md) | A2 #6 |
-| W11 | Explorations launch | [Collatz studio guide](contents/en/chapter07/_posts/21-01-01-07_09_Explore_Iteration.md) | **A5 proposal** |
+| W10 | Mathematics of the future | [Mathematics of AI](https://nglelinh.github.io/math-enthusiast/contents/en/chapter06/06_02_Mathematics_of_AI/) | A2 #6 |
+| W11 | Explorations launch | [Collatz studio](https://nglelinh.github.io/math-enthusiast/contents/en/chapter07/07_09_Explore_Iteration/) | **A5 proposal** |
 | W12 | Exploration studio | Experiments | — |
 | W13 | Exploration mid-share | Process shares | **A5 log** |
 | W14 | Synthesis seminar | Personal maps; A6 draft feedback | — |
@@ -169,6 +169,7 @@ Flagship links assume English paths on the published site (`baseurl` as configur
 | [`course_passport.yaml`](course_passport.yaml) | Outcomes, assessments, schedule, policies |
 | [`design_rationale.md`](design_rationale.md) | Why this design |
 | [`alignment_report.md`](alignment_report.md) | Alignment gate history |
+| [`teaching/week01.md`](teaching/week01.md) | Week-1 instructor agenda + flagship link check |
 
 ---
 
