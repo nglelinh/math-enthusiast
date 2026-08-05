@@ -13,7 +13,7 @@ categories:
 
 Đây là bài **flagship Phần 1** của seminar Math Enthusiast: không phải bài báo nghiên cứu, mà là bản đồ cẩn thận về **RH nói gì**, **vì sao số nguyên tố quan tâm**, **bằng chứng nào đã có**, và **toán học nào đã lớn lên quanh câu hỏi đó**.
 
-**Lộ trình:** số nguyên tố và đếm → tích Euler → zeta và thắc triển → không điểm không tầm thường → RH → định lý số nguyên tố và sai số → vì sao khó → kết quả từng phần và các analogue → phần mở.
+**Lộ trình:** số nguyên tố và đếm → tích Euler → zeta và thác triển → không điểm không tầm thường → RH → định lý số nguyên tố và sai số → vì sao khó → kết quả từng phần và các analogue → phần mở.
 
 ---
 
@@ -25,10 +25,10 @@ Sau bài học, bạn có thể:
 - Giải thích **tích Euler** nối $$\zeta(s)$$ với số nguyên tố (khi $$\operatorname{Re}(s)>1$$).
 - Phân biệt không điểm **tầm thường** và **không tầm thường**, và vì sao giả thuyết chỉ nói về loại sau.
 - Liên hệ RH với **định lý số nguyên tố** ở mức hạng chính so với hạng sai số (không cần chứng minh đầy đủ).
-- Nêu ít nhất hai dạng **tiến bộ từng phần** (kiểm tra số; vùng không-không-điểm / định lý mật độ; analogue trên trường hàm).
+- Nêu ít nhất hai dạng **tiến bộ từng phần** (kiểm tra số; vùng không zero / định lý mật độ; analogue trên trường hàm).
 - Tránh nhầm lẫn phổ biến (RH không phải “công thức cho số nguyên tố thứ $$n$$”; kiểm tra nhiều không điểm không phải chứng minh).
 
-**Kiến thức nền.** Số phức như điểm trên mặt phẳng; chuỗi và tích vô hạn như đối tượng hình thức; ý tưởng số nguyên tố thưa dần nhưng không hết. Không cần giáo trình giải tích phức—phần thắc triển mang tính khái niệm.
+**Kiến thức nền.** Số phức như điểm trên mặt phẳng; chuỗi và tích vô hạn như đối tượng hình thức; ý tưởng số nguyên tố thưa dần nhưng không hết. Không cần giáo trình giải tích phức—phần thác triển mang tính khái niệm.
 
 **Liên kết seminar.** Hỗ trợ **LO1** (giải thích bài toán mở lớn) và một phần **LO2** (các khái niệm “kích thước/đều đặn”). Ghép tự nhiên: sinh đôi nguyên tố; BSD; khám phá về dự đoán số nguyên tố.
 
@@ -161,7 +161,7 @@ $$
 \pi(x) = \operatorname{li}(x) + O\bigl(x^{1/2}\log x\bigr)
 $$
 
-(theo các phát biểu kỹ thuật chuẩn). Không có RH, vẫn có chặn sai số nhưng yếu hơn, đến từ **vùng không-không-điểm** gần $$\operatorname{Re}(s)=1$$—công cụ của chứng minh PNT cổ điển.
+(theo các phát biểu kỹ thuật chuẩn). Không có RH, vẫn có chặn sai số nhưng yếu hơn, đến từ **vùng không zero** gần $$\operatorname{Re}(s)=1$$—công cụ của chứng minh PNT cổ điển.
 
 Chuỗi logic:
 
@@ -246,7 +246,7 @@ Với seminar, RH là nguyên mẫu: **một phát biểu giải tích sạch, �
 1. **“Đã kiểm tra tỷ không điểm nên đúng.”** — Bằng chứng, không phải chứng minh.  
 2. **“RH cho công thức số nguyên tố thứ $$n$$.”** — Nó ràng buộc sai số hàm đếm; không phải công thức sơ cấp đóng cho $$p_n$$.  
 3. **“Không điểm tầm thường phá RH.”** — Không; RH chỉ về không điểm không tầm thường.  
-4. **“Zeta chỉ là chuỗi $$\sum n^{-s}$$. ”** — Chuỗi định nghĩa khi $$\operatorname{Re}(s)>1$$; RH sống trong thắc triển giải tích.  
+4. **“Zeta chỉ là chuỗi $$\sum n^{-s}$$. ”** — Chuỗi định nghĩa khi $$\operatorname{Re}(s)>1$$; RH sống trong thác triển giải tích.  
 5. **“Nếu RH sai, không còn định lý nào về nguyên tố.”** — PNT và nhiều kết quả là vô điều kiện.
 
 ---

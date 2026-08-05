@@ -9,7 +9,7 @@ categories:
 - chapter09
 ---
 
-**Giải A.M. Turing** (A.M. Turing Award) là vinh danh cao nhất của **Hiệp hội Máy tính ACM** (Association for Computing Machinery), thường được gọi là **Nobel của tin học**. Giải mang tên **Alan Mathison Turing** (1912–1954), người đã đặt nền khái niệm cho tính toán hiện đại qua bài “On Computable Numbers” (1936) và để lại dấu ấn sâu trong mật mã, triết học máy, và hình dung về máy thông minh. Tài liệu chính thức: [amturing.acm.org](https://amturing.acm.org/).
+**Giải A.M. Turing** (A.M. Turing Award) là vinh danh cao nhất của **Hiệp hội Máy tính ACM** (Association for Computing Machinery), thường được gọi là **Nobel của tin học**. Giải được trao từ năm **1966**, mang tên **Alan Mathison Turing** (1912–1954), người đã đặt nền khái niệm cho tính toán hiện đại qua bài “On Computable Numbers” (1936) và để lại dấu ấn sâu trong mật mã, triết học máy, và hình dung về máy thông minh. Turing **không** nhận giải mang tên mình (ông mất năm 1954; giải đầu tiên năm 1966). Tài liệu chính thức: [amturing.acm.org](https://amturing.acm.org/).
 
 Bài này **không** liệt kê toàn bộ danh sách người thắng. Đó là bản đồ **Giải Turing để làm gì**, nó bổ sung Fields và Abel thế nào trong khóa *Math Enthusiast*, và cách **đọc citation** như người học toán–tin học chứ không như khán giả danh vọng. Đèn spotlight thuộc về giải thưởng; **toán học của tính toán** mới là sân khấu.
 
@@ -104,6 +104,7 @@ Năm 1936, Turing định nghĩa **hàm tính được** qua máy băng–trạn
 
 | Khẳng định | Chỉnh |
 |------------|-------|
+| “Alan Turing nhận Giải Turing.” | **Sai.** Ông mất năm 1954; giải được trao từ **1966**. |
 | “Turing Award là Nobel tin học.” | Chỉ là ẩn dụ báo chí. Đó là giải của ACM, không phải hạng mục Nobel. |
 | “Turing Award chỉ cho lý thuyết.” | Nhiều năm vinh danh hệ thống, kiến trúc, mạng, đồ họa, học máy thực nghiệm. Chương này nhấn các năm giàu toán. |
 | “Fields hơn / Turing hạng hai.” | Tín hiệu và cộng đồng khác; không xếp hạng tuyệt đối. |

@@ -31,7 +31,7 @@ Sau bài học, bạn có thể:
 - Nêu **định lý Mordell–Weil**: $$E(\mathbb{Q})$$ hữu hạn sinh; tách hạng và torsion.
 - Giải thích **hạng** $$r$$ đo phần tự do của điểm hữu tỷ (bao nhiêu “điểm sinh vô hạn cấp” độc lập).
 - Phát biểu BSD phần hạng: $$r$$ bằng bậc triệt tiêu của $$L(E,s)$$ tại $$s=1$$; nêu công thức hệ số dẫn đạo ở mức khẩu hiệu (chu kỳ, regulator, torsion, Tamagawa, $$|Ш|$$).
-- Nêu vì sao **modularity** quan trọng để định nghĩa và thắc triển $$L(E,s)$$.
+- Nêu vì sao **modularity** quan trọng để định nghĩa và thác triển $$L(E,s)$$.
 - Kể ít nhất một kết quả từng phần: Coates–Wiles; Gross–Zagier / Kolyvagin; tiến bộ phân bố hạng (Bhargava và cộng sự—mức nhận biết).
 - Phân biệt ECC mật mã (dùng nhóm điểm hữu hạn trên trường hữu hạn) với BSD (số học trên $$\mathbb{Q}$$).
 
@@ -67,9 +67,9 @@ Ví dụ trực quan: đường $$y^2=x^3-2$$ có điểm hữu tỷ $$(x,y)=(3,
 
 ## 2. Hàm $$L$$ của đường cong elliptic
 
-Gắn với $$E/\mathbb{Q}$$ là một **hàm $$L$$** $$L(E,s)$$, xây từ dữ liệu địa phương tại mỗi nguyên tố (kiểu rút gọn của $$E$$ modulo $$p$$: tốt, nhân, cộng, …). Hệ số Euler tại $$p$$ đếm điểm trên trường hữu hạn theo cách chuẩn hóa; tích Euler hội tụ trên nửa mặt phẳng $$\operatorname{Re}(s)$$ đủ lớn, rồi cần thắc triển.
+Gắn với $$E/\mathbb{Q}$$ là một **hàm $$L$$** $$L(E,s)$$, xây từ dữ liệu địa phương tại mỗi nguyên tố (kiểu rút gọn của $$E$$ modulo $$p$$: tốt, nhân, cộng, …). Hệ số Euler tại $$p$$ đếm điểm trên trường hữu hạn theo cách chuẩn hóa; tích Euler hội tụ trên nửa mặt phẳng $$\operatorname{Re}(s)$$ đủ lớn, rồi cần thác triển.
 
-Nhờ **định lý modularity** (Wiles cho trường hợp then chốt của Fermat; Breuil–Conrad–Diamond–Taylor và hoàn thiện cho mọi đường cong elliptic trên $$\mathbb{Q}$$), $$L(E,s)$$ cũng là hàm $$L$$ của một **dạng modular**. Do đó $$L(E,s)$$ có **thắc triển giải tích** và **phương trình hàm**—trở thành đối tượng giải tích toàn cục, không chỉ tích hình thức.
+Nhờ **định lý modularity** (Wiles cho trường hợp then chốt của Fermat; Breuil–Conrad–Diamond–Taylor và hoàn thiện cho mọi đường cong elliptic trên $$\mathbb{Q}$$), $$L(E,s)$$ cũng là hàm $$L$$ của một **dạng modular**. Do đó $$L(E,s)$$ có **thác triển giải tích** và **phương trình hàm**—trở thành đối tượng giải tích toàn cục, không chỉ tích hình thức.
 
 Giá trị và các đạo hàm tại điểm trung tâm $$s=1$$ là “vàng” số học: chúng được tin là mang thông tin chính xác về hạng và kích thước số học của các điểm sinh.
 
@@ -98,7 +98,7 @@ Công thức tinh chỉnh quan trọng không kém đẳng thức hạng: nó kh
 - **Hạng** là bất biến Diophantine toàn cục; **hàm $$L$$** là đối tượng giải tích—cầu nối đòi hỏi công cụ sâu (dạng modular, hệ Euler, điểm Heegner, lý thuyết Iwasawa, …).
 - $$Ш$$ khó tính và khó kiểm soát; nó vừa là chướng ngại thuật toán vừa là nhân tố trong công thức tinh chỉnh.
 - Hạng cao tồn tại nhưng hiếm; **phân bố hạng** là ngành nghiên cứu hiện đại lớn (xác suất “hạng ngẫu nhiên”, tỷ lệ hạng 0 và 1).
-- Ngay việc định nghĩa sạch $$L$$ và thắc triển từng cần modularity—định lý chỉ hoàn thiện gần đây (thập niên 1990–2000) cho mọi $$E/\mathbb{Q}$$. BSD *giả sử* khung giải tích đó rồi hỏi sâu hơn về giá trị đặc biệt.
+- Ngay việc định nghĩa sạch $$L$$ và thác triển từng cần modularity—định lý chỉ hoàn thiện gần đây (thập niên 1990–2000) cho mọi $$E/\mathbb{Q}$$. BSD *giả sử* khung giải tích đó rồi hỏi sâu hơn về giá trị đặc biệt.
 
 Khó ở đây không phải “thiếu ví dụ số.” Khó là **đẳng thức chính xác giữa hai thế giới** cho mọi đường cong, không chỉ kiểm tra từng case.
 
@@ -145,7 +145,7 @@ Bạn có thể dùng ECC mỗi ngày mà không giải BSD. Ngược lại, BSD
 |------------|-----|
 | “Elliptic = ellipse.” | Khác đối tượng; “elliptic” là lịch sử (liên quan elliptic integrals). |
 | “BSD là về vẽ đường cong.” | Là về số học điểm hữu tỷ và giải tích hàm $$L$$. |
-| “Modularity xong là xong BSD.” | Modularity cho $$L$$ thắc triển; BSD về giá trị đặc biệt vẫn mở. |
+| “Modularity xong là xong BSD.” | Modularity cho $$L$$ thác triển; BSD về giá trị đặc biệt vẫn mở. |
 | “Hạng dễ: tìm điểm là xong.” | Tìm sinh có thể cực khó; thuật toán hạng tinh vi / có điều kiện. |
 | “BSD = RH cho elliptic.” | Họ hàng triết lý; phát biểu kỹ thuật khác (bậc tại $$s=1$$ vs mọi không điểm trên đường). |
 | “ECC dựa trên BSD.” | ECC dùng nhóm trên trường hữu hạn; không cần BSD. |
@@ -169,7 +169,7 @@ Bạn có thể dùng ECC mỗi ngày mà không giải BSD. Ngược lại, BSD
 
 Bhargava (Abel) và Mazur (Clay/CMSA 2026) nhấn mạnh tách lớp cho LO1:
 
-- **Dàn sân khấu (đã có cho mọi $$E/\mathbb{Q}$$):** modularity ⇒ $$L(E,s)$$ thắc triển giải tích, nên **hạng giải tích** $$\operatorname{ord}_{s=1}L(E,s)$$ được định nghĩa.  
+- **Dàn sân khấu (đã có cho mọi $$E/\mathbb{Q}$$):** modularity ⇒ $$L(E,s)$$ thác triển giải tích, nên **hạng giải tích** $$\operatorname{ord}_{s=1}L(E,s)$$ được định nghĩa.  
 - **Số học hạng thấp (lý thuyết lớn từng phần):** Gross–Zagier + Kolyvagin (và Coates–Wiles cho CM) cho kết luận kiểu BSD với nhiều đường cong hạng giải tích $$0$$ hoặc $$1$$.  
 - **Vẫn mở:** hạng tùy ý; công thức tinh chỉnh đầy đủ cho mọi $$E/\mathbb{Q}$$.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Đối số Đường chéo Cantor"
+title: "Lập luận Đường chéo Cantor"
 chapter: '05'
 order: 3
 owner: Nguyen Le Linh
@@ -20,7 +20,7 @@ Một câu để nhớ: *trước mọi danh sách số thực đề xuất là 
 Sau bài học, bạn có thể:
 
 - Phát biểu “đếm được” và “không đếm được” theo song ánh với $$\mathbb{N}$$.
-- Tái dựng đối số đường chéo cho $$(0,1)$$ ở mức ý tưởng và suy ra cho $$\mathbb{R}$$.
+- Tái dựng lập luận đường chéo cho $$(0,1)$$ ở mức ý tưởng và suy ra cho $$\mathbb{R}$$.
 - Mô tả vấn đề thập phân không duy nhất và ít nhất một cách tránh.
 - Tương phản tính đếm được của $$\mathbb{Q}$$ với tính không đếm được của $$\mathbb{R}$$.
 - Nhận ra đường chéo như mẫu ngoài số thực (tập lũy thừa, khẩu hiệu tính toán được).
@@ -150,7 +150,7 @@ $$D$$ khác $$f(x)$$ tại phần tử $$x$$, nên $$D$$ không nằm trong ản
 5. Vì sao lật $$0\leftrightarrow 9$$ có thể nguy hiểm về vệ sinh?  
 6. Ý tưởng: không có toàn ánh $$X\to\mathcal{P}(X)$$.  
 7. **Narrative (≤350 từ).** Giải thích đường chéo cho bạn học biết dãy nhưng chưa biết jargon tập hợp.  
-8. Tùy chọn: tìm một câu trong sách tính toán được được gọi là đối số đường chéo.
+8. Tùy chọn: tìm một câu trong sách tính toán được được gọi là lập luận đường chéo.
 
 ---
 

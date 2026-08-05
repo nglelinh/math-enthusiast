@@ -110,7 +110,7 @@ Tập số thực không đếm được: không có song ánh giữa $$\mathbb{
 
 ### Bối cảnh
 
-Đối số đường chéo của Georg Cantor (cuối thế kỷ XIX) buộc toán học chấp nhận **các cỡ vô hạn khác nhau**. Vô hạn đếm được—cỡ của số tự nhiên, số nguyên, thậm chí số hữu tỷ—không phải cardinality vô hạn duy nhất. Liên tục số thực lớn hơn nghiêm ngặt. Điều này gây sốc triết học và màu mỡ kỹ thuật: mở ra lý thuyết tập hợp hiện đại và gieo phương pháp đường chéo sang logic và khoa học máy tính.
+Lập luận đường chéo của Georg Cantor (cuối thế kỷ XIX) buộc toán học chấp nhận **các cỡ vô hạn khác nhau**. Vô hạn đếm được—cỡ của số tự nhiên, số nguyên, thậm chí số hữu tỷ—không phải cardinality vô hạn duy nhất. Liên tục số thực lớn hơn nghiêm ngặt. Điều này gây sốc triết học và màu mỡ kỹ thuật: mở ra lý thuyết tập hợp hiện đại và gieo phương pháp đường chéo sang logic và khoa học máy tính.
 
 ### Ý tưởng
 
@@ -143,7 +143,7 @@ liệt kê mọi số trong $$(0,1)$$ dưới dạng thập phân vô hạn. G�
 
 ### Hậu duệ
 
-Bất toàn Gödel, không quyết định được Turing, nhiều đối số đường chéo trong logic và CS—cùng động tác: *trước mọi liệt kê lời giải tổng thể, dựng phản ví dụ lật đường chéo.*
+Bất toàn Gödel, không quyết định được Turing, nhiều lập luận đường chéo trong logic và CS—cùng động tác: *trước mọi liệt kê lời giải tổng thể, dựng phản ví dụ lật đường chéo.*
 
 ---
 

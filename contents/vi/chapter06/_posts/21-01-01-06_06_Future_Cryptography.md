@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mật mã (Biên giới)"
+title: "Mật mã (Tiên phong)"
 chapter: '06'
 order: 6
 owner: Nguyen Le Linh

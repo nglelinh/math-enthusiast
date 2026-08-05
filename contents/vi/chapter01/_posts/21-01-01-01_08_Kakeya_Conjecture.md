@@ -209,30 +209,46 @@ Nguồn: [arXiv:2502.17655](https://arxiv.org/abs/2502.17655). Không khẳng đ
 
 ## 4. Vì sao 3D khó: δ-tube
 
+Phình mỗi đoạn thành **tube** bán kính $$\delta$$. Bài toán Kakeya thành: hợp của các tube đa hướng có thể **nhỏ đến mức nào**?
+
 ![δ-tube]({{ site.baseurl }}/img/chapter_img/kakeya_delta_tubes.svg)
 
-Sticky Kakeya (JAMS 2026) là bước đệm quan trọng.
+*Hình. Chồng lấp nặng là khó khăn giải tích.*
+
+Nếu các tube hầu như không chồng, thể tích hợp lớn (gần tổng thể tích từng tube). Chồng lấp **cực đoan** chỉ có thể khi có **cấu trúc hình học** giữa các hướng; các lập luận đa thang biến cấu trúc đó thành chặn thể tích tốt hơn (**self-improvement**). Paper Wang–Zahl khoảng **127 trang** hình học đó—không phải một mẹo ngắn.
+
+**Sticky Kakeya** (Wang–Zahl, *J. Amer. Math. Soc.* 2026; công trình trung gian 2022) là trường hợp có cấu trúc quan trọng: các tube “dính” theo cách kiểm soát được, làm bước đệm trước đẳng thức chiều đầy đủ ở 3D.
+
+**Khẩu hiệu seminar.** Đoạn tĩnh → tube mỏng → chặn hợp → cấu trúc đa thang → dimension. Mỗi mũi tên là chỗ chứng minh có thể hỏng nếu chồng lấp “hoang dã” không bị thuần hóa.
 
 ---
 
 ## 5. Vì sao harmonic analysis quan tâm
 
-Restriction, local smoothing, Falconer, Furstenberg—trích dẫn IMU Fields 2026 của Wang.
+Kakeya không phải câu đố hình học cô lập. Cấu hình tube theo hướng kiểm soát:
+
+- **Fourier restriction** và wave packet;  
+- **local smoothing** cho phương trình sóng;  
+- bài toán khoảng cách và kiểu Furstenberg trong geometric measure theory.
+
+Trích dẫn Fields của Wang liệt kê tường minh decoupling/multiscale trên local smoothing phẳng, restriction, Falconer, Furstenberg, và Kakeya 3D ([PDF IMU](https://www.mathunion.org/fileadmin/documents/2026-07/Hong_Wang_Citations.pdf)).
 
 ![Tới HA]({{ site.baseurl }}/img/chapter_img/kakeya_to_harmonic_analysis.svg)
 
+*Hình. Từ hình học tube tới chủ đề Fourier/PDE.*
+
 ### “Tháp” các giả thuyết (bản đồ phổ thông)
 
-Video [Quanta Magazine](https://www.youtube.com/watch?v=5J3tYU_-IZI) (phỏng vấn Tao, Hickman, Wang, Zahl) đặt Kakeya làm **đáy tháp**:
+Video [Quanta Magazine](https://www.youtube.com/watch?v=5J3tYU_-IZI) (phỏng vấn **Tao**, **Hickman**, **Wang**, **Zahl**) đặt Kakeya làm **đáy tháp** harmonic analysis hiện đại:
 
 1. **Giả thuyết Kakeya** (hình học hướng / tube).  
-2. **Fourier restriction** — Fourier trên mặt cong.  
-3. **Bochner–Riesz** — “làm mịn” biên tín hiệu.  
-4. **Local smoothing** — lan truyền sóng (PDE).
+2. **Fourier restriction** — Fourier trên mặt cong (ví dụ mặt cầu) hành xử thế nào.  
+3. **Bochner–Riesz** — “làm mịn” biên tín hiệu bằng phương pháp Fourier.  
+4. **Local smoothing** — kiểm soát định lượng **lan truyền sóng** (PDE).
 
-Nếu Kakeya sai, nhiều tầng trên sụp; nếu đúng, phương pháp có thể **leo tháp**. Kết quả Wang–Zahl 3D được gọi là đột phá HA thế hệ (≈ 20 năm).
+Nếu Kakeya sai ở một chiều, nhiều tầng trên sụp theo. Nếu phương pháp Kakeya chạy, chúng có thể giúp **leo tháp**. Định lý Wang–Zahl 3D vì vậy lớn hơn một tò mò hình học đơn lẻ: thường được mô tả là đột phá HA thế hệ (≈ hai thập niên).
 
-**Bản lề lịch sử (Fefferman):** Charles Fefferman (thập niên 1970) nối hình học Kakeya với Fourier — Kakeya không còn chỉ là “trò kim”.
+**Bản lề lịch sử (Fefferman).** Thập niên 1970, **Charles Fefferman** đưa hình học kiểu Kakeya vào trung tâm giải tích qua liên hệ Fourier đa điểm chiều cao—cầu cứng sớm giữa “tập kim” và biến đổi Fourier.
 
 ![Restriction]({{ site.baseurl }}/img/chapter_img/kakeya_tower_restriction_quanta.jpg)
 
@@ -272,23 +288,28 @@ Nếu Kakeya sai, nhiều tầng trên sụp; nếu đúng, phương pháp có t
 
 ## Nhầm lẫn phổ biến
 
-| Khẳng định | Sửa |
-|------------|-----|
-| Phải có thể tích dương | Sai — dimension mới là giả thuyết |
-| Wang một mình | Sai — Zahl đồng tác giả |
-| Xong mọi chiều | Sai — $$n\ge 4$$ mở |
+| Khẳng định | Kết luận | Sửa |
+|------------|----------|-----|
+| “Tập Kakeya phải có thể tích dương.” | Sai | Measure zero vẫn có thể; giả thuyết nói về **dimension**. |
+| “Wang một mình giải Kakeya 3D.” | Sai | Chung với **Joshua Zahl**. |
+| “Giả thuyết xong mọi chiều.” | Sai | $$n\ge 4$$ còn **mở**. |
+| “Chuyển động kim liên tục = tập Besicovitch.” | Sai | Liên quan, **không** đồng nhất. |
+| “Fields chỉ vì Kakeya.” | Sai | IMU còn nêu local smoothing, restriction, Falconer, Furstenberg. |
 
 ---
 
 ## Bài tập
 
-1. Định nghĩa tập Kakeya một câu.  
-2. Davies tương thích Besicovitch thế nào?  
-3. Vì sao dùng tube thay đoạn?  
-4. Viết bảng trạng thái từ trí nhớ.  
-5. Lấy khẩu hiệu self-improvement từ bài Wang Ch.2.  
-6. Đọc abstract arXiv:2502.17655.  
-7. Thử Ch.7 exploration 30 phút.
+1. Định nghĩa tập Kakeya trong $$\mathbb{R}^n$$ một câu.  
+2. Davies tương thích Besicovitch measure-zero thế nào?  
+3. Viết $$\dim_H(A)$$ như inf/sup trên $$\mathcal{H}^s$$; giải thích nhảy “$$\infty\to 0$$” với hình vuông đầy.  
+4. Nêu chặn trên bằng số mảnh phủ và Mass Distribution Principle (mỗi cái một câu).  
+5. Phác vì sao dùng tube thay đoạn trong giải tích.  
+6. Kể ba tầng tháp HA trên Kakeya (restriction / Bochner–Riesz / local smoothing).  
+7. Viết bảng trạng thái $$n=1,2,3,\ge 4$$ từ trí nhớ.  
+8. Mở bài Wang Ch.2 và trích khẩu hiệu self-improvement.  
+9. Literacy: đọc abstract arXiv:2502.17655; diễn đạt lại chặn thể tích bằng lời.  
+10. Exploration: thử prompt “tập Kakeya nhỏ nhất” Ch.7 trong 30 phút; ghi một bất ngờ.
 
 ---
 

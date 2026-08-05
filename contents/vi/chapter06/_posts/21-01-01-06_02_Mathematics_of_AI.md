@@ -32,41 +32,55 @@ Sau bài học, bạn có thể:
 
 ## 1. Dữ liệu sống trong không gian cao chiều
 
-Ảnh xám $$28\times 28$$ là vector trong $$\mathbb{R}^{784}$$. Tập dữ liệu là đám mây điểm. **Đại số tuyến tính** là ngôn ngữ: cơ sở, chiếu, SVD, hạng thấp. PCA/SVD tìm hướng phương sai lớn để nén hoặc khử nhiễu.
+Ảnh xám kích thước $$28\times 28$$ là một vector trong $$\mathbb{R}^{784}$$. Một khung video màu, một embedding token, hay một profile biểu hiện gen là vector trong không gian ambient cao hơn. Tập dữ liệu là đám mây điểm; một batch là ma trận. **Đại số tuyến tính** là ngôn ngữ bản địa: cơ sở, chiếu, singular value, cấu trúc hạng thấp, ánh xạ tuyến tính.
 
-Chiều cao đổi trực giác: tập trung độ đo, tập điển hình, góc giữa vector ngẫu nhiên gần trực giao. Những sự kiện này nuôi câu chuyện mô hình quá tham số (xem bài hình học cao chiều).
+**Cơ chế một bước.** Phân tích thành phần chính (PCA) và phân tích giá trị suy biến (SVD) tìm hướng phương sai lớn nhất để nén hoặc khử nhiễu bằng chiếu lên không gian con chính. Nếu $$X$$ là ma trận dữ liệu, các right singular vector hàng đầu của phiên bản đã center là các hướng chính.
+
+Chiều cao không chỉ là “thêm tọa độ giống hệt.” Tập trung độ đo, tập điển hình, và hình học mặt cầu chiều cao đổi trực giác khoảng cách và góc: phần lớn khối lượng quả cầu chiều cao nằm gần xích đạo của một vỏ mỏng; vector ngẫu nhiên gần như trực giao với xác suất cao. Những sự kiện nuôi câu chuyện mô hình quá tham số và vì sao nearest-neighbor ngây thơ dễ lệch. (Xem bài hình học cao chiều trong chương này để sắc hơn.)
 
 ---
 
 ## 2. Mô hình: hàm từ mảnh đơn giản
 
-Lớp fully connected:
+Một lớp fully connected là ánh xạ tuyến tính rồi phi tuyến theo tọa độ:
 
 $$
-x \mapsto \sigma(Wx + b).
+x \mapsto \sigma(Wx + b),
 $$
 
-Mạng sâu **ghép** nhiều lớp. CNN tái sử dụng bộ lọc địa phương; residual viết $$x\mapsto x+f_\theta(x)$$; transformer dùng **attention**—dạng song tuyến và softmax trộn token.
+với ma trận trọng số $$W$$, bias $$b$$, và activation $$\sigma$$ (ReLU, GELU, sigmoid, …). Mạng sâu **ghép** nhiều lớp như vậy. Mạng tích chập (CNN) tái sử dụng bộ lọc tuyến tính địa phương với cấu trúc tịnh tiến; residual viết lớp thành $$x \mapsto x + f_\theta(x)$$; transformer cài **attention** như ánh xạ có cấu trúc với query, key, value—dạng song tuyến và trọng số chuẩn hóa softmax trộn token thành tổ hợp tuyến tính phụ thuộc dữ liệu.
 
-**Xấp xỉ phổ quát (định lý vs thực hành).** Mạng nông đủ rộng có thể xấp xỉ lớp hàm liên tục rộng trên tập compact—đó là kết quả *tồn tại tham số*, không phải gradient descent tìm được chúng hiệu quả. Độ sâu đổi hiệu suất biểu diễn và inductive bias; lý thuyết “vì sao sâu thường thắng” vẫn đang mở.
+**Xấp xỉ phổ quát (định lý vs thực hành).** Dưới giả thiết nhẹ, mạng nông đủ rộng có thể xấp xỉ lớp hàm liên tục rộng trên tập compact (định lý universal approximation cổ điển). Đó là kết quả **biểu diễn**: nói *tồn tại* tham số xấp xỉ mục tiêu, **không** nói gradient descent tìm chúng hiệu quả. Độ sâu đổi *hiệu suất* biểu diễn và inductive bias. Lý thuyết *vì sao sâu thường thắng rộng trong thực hành* tinh tế hơn và vẫn đang phát triển—xấp xỉ, giải tích điều hòa của ghép, và scaling thực nghiệm đều góp mảnh.
+
+![Pipeline toán dưới ML]({{ site.baseurl }}/img/chapter_img/ai_math_pipeline.svg)
+
+*Hình. Chồng khái niệm từ hình học dữ liệu tới lý thuyết mở (nếu asset có trong khóa).*
 
 ---
 
 ## 3. Học như tối ưu
 
-Huấn luyện chọn $$\theta$$ giảm mất mát $$L(\theta)$$. Mẫu chuẩn là cực tiểu hóa rủi ro thực nghiệm:
+Huấn luyện chọn tham số $$\theta$$ để giảm **mất mát** $$L(\theta)$$ đo lỗi dự đoán trên dữ liệu (thường kèm regularizer hoặc ràng buộc kiến trúc). Mẫu chuẩn là cực tiểu hóa rủi ro thực nghiệm:
 
 $$
-\hat\theta \in \arg\min_\theta \frac{1}{n}\sum_{i=1}^n \ell\bigl(f_\theta(x_i), y_i\bigr).
+\hat\theta \in \arg\min_\theta \frac{1}{n}\sum_{i=1}^n \ell\bigl(f_\theta(x_i), y_i\bigr),
 $$
 
-Gradient descent (và biến thể ngẫu nhiên):
+với $$\ell$$ mất mát điểm (bình phương, cross-entropy, …) và $$f_\theta$$ là mô hình.
+
+**Gradient descent** và biến thể ngẫu nhiên đẩy tham số ngược hướng ước lượng gradient:
 
 $$
 \theta_{t+1} = \theta_t - \eta \widehat{\nabla L}(\theta_t).
 $$
 
-Cảnh quan học sâu **không lồi** và khổng lồ; bảo đảm lồi cổ điển ít áp dụng trực tiếp—song SGD vẫn thường tìm tham số hữu ích. Giải thích khoảng trống đó là **chương trình nghiên cứu**, không phải khẩu hiệu.
+Backpropagation là quy tắc chuỗi có tổ chức cho đồ thị tính toán: tự động vi phân cho gradient chính xác của map ghép theo từng trọng số (trừ sai số floating-point).
+
+![Cảnh quan mất mát (phác)]({{ site.baseurl }}/img/chapter_img/ai_loss_landscape.svg)
+
+*Hình. Cảnh quan không lồi: nhiều chậu; thực hành vẫn tìm được chậu hữu ích.*
+
+**Toán tối ưu hỏi gì.** Khi nào phương pháp hội tụ? Bước học, momentum, adaptive (Adam và họ hàng) hành xử ra sao? Batch size và nhiễu đóng vai trò gì? Trong học sâu, cảnh quan không lồi và khổng lồ; bảo đảm **lồi** cổ điển hiếm khi áp dụng trực tiếp—song thực nghiệm các phương pháp kiểu SGD thường tìm tham số **chạy được**. Giải thích khoảng trống đó là **chương trình nghiên cứu**, không phải khẩu hiệu. Giới hạn thời gian liên tục (gradient flow), chế độ mean-field/NTK, và hình học cảnh quan (điểm yên, chậu, implicit bias) là giao diện đang sống giữa giải tích, xác suất và thực hành.
 
 ---
 
@@ -92,8 +106,10 @@ Xác suất còn vào gradient ngẫu nhiên, quan điểm Bayes/PAC-Bayes, hi�
 | Lý thuyết trò chơi | Adversarial training; GAN như cân bằng lý tưởng hóa |
 | Suy diễn nhân quả | Vượt i.i.d.; chính sách và robust |
 | Logic / formal methods | Đặc tả, kiểm chứng (còn non trẻ so với quy mô) |
+| Vận chuyển tối ưu | Khoảng cách giữa phân phối; sinh và domain adaptation |
+| Hình học cao chiều | Tập trung, chiếu ngẫu nhiên, hình học embedding |
 
-AI là **người tiêu dùng nhiều lĩnh vực**, không thay thế chúng.
+Bạn không cần thành thạo tất cả. Hãy thấy AI là **người tiêu dùng nhiều lĩnh vực**, không thay thế chúng. Đại số tuyến tính và giải tích là công cụ hàng ngày; xác suất và tối ưu dựng câu chuyện huấn luyện; hình học và thống kê dựng câu chuyện tổng quát hóa.
 
 ---
 
@@ -117,7 +133,8 @@ AI là **người tiêu dùng nhiều lĩnh vực**, không thay thế chúng.
 | “Mạng nơ-ron như não.” | Ẩn dụ thô; kiến trúc và quy tắc học khác sâu. |
 | “Đã giải trí tuệ.” | Hiệu năng nhiệm vụ hẹp ≠ trí tuệ tổng quát. |
 | “Chỉ còn scale, hết toán.” | Scale quan trọng; lý thuyết tổng quát hóa/robust chưa xong. |
-| “Loss giảm = đã hiểu.” | Metric huấn luyện ≠ hiểu khái niệm hay an toàn. |
+| “Loss giảm = đã hiểu.” | Metric huấn luyện ≠ hiểu khái niệm, năng lực nhân quả, hay an toàn. |
+| “Attention *is* all you need như lý thuyết khoa học đầy đủ.” | Transformer là lớp kiến trúc thành công; khẩu hiệu **không** phải định lý đầy đủ về nhận thức. |
 
 Khi phê bài báo AI, đòi bốn câu: **đối tượng toán? đã chứng minh? đã đo? đang suy đoán?**
 
@@ -155,6 +172,7 @@ Accuracy trên test set là **ước lượng thực nghiệm**, không phải c
 | “Thêm tham số luôn overfit.” | Folklore | Chế độ quá tham số tinh tế hơn. |
 | “Universal approximation giải thích thành công DL.” | Thổi | Tồn tại ≠ tìm được hiệu quả. |
 | “Scaling law là định lý.” | Thường không | Fit thực nghiệm; lý thuyết từng phần. |
+| “Lý thuyết phải xong trước khi kỹ thuật hợp pháp.” | Sai lịch sử | Bay trước khi kiểm soát Navier–Stokes đầy đủ; lý thuyết vẫn giảm rủi ro và dẫn thiết kế. |
 
 ---
 
@@ -179,21 +197,21 @@ Tóm tắt cho seminar (đối chiếu nguồn viết; **không bịa transcript
 
 ### Trạng thái
 
-**Active research field.** Core engineering practice is mature; mathematical understanding of deep learning (generalization, optimization landscapes, feature learning) remains partial as of 2026.
+**Lĩnh vực nghiên cứu đang hoạt động.** Thực hành kỹ thuật cốt lõi đã chín; hiểu toán về học sâu (tổng quát hóa, cảnh quan tối ưu, học đặc trưng) vẫn **từng phần** tính đến 2026.
 
 ### Phát biểu / slogan cốt lõi
 
-Universal approximation (classical) is a *representation* theorem, not a training theorem. Training is empirical risk minimization via SGD on nonconvex $$L(\theta)$$. Generalization of overparameterized nets is not settled by classical VC alone.
+Xấp xỉ phổ quát cổ điển là định lý *biểu diễn*, không phải định lý huấn luyện. Huấn luyện là cực tiểu hóa rủi ro thực nghiệm bằng SGD trên $$L(\theta)$$ không lồi. Tổng quát hóa mạng quá tham số **chưa** được VC cổ điển kết thúc.
 
 ### Định nghĩa cần cố định
 
-- **Layer map.** $$x\mapsto \sigma(Wx+b)$$ with nonlinearity $$\sigma$$.
-- **Empirical risk.** $$\frac1n\sum_i \ell(f_\theta(x_i),y_i)$$ vs true risk $$\mathbb{E}\ell$$.
+- **Map lớp.** $$x\mapsto \sigma(Wx+b)$$ với phi tuyến $$\sigma$$.
+- **Rủi ro thực nghiệm.** $$\frac1n\sum_i \ell(f_\theta(x_i),y_i)$$ so với rủi ro thật $$\mathbb{E}\ell$$.
 
 ### Vệ sinh khái niệm
 
-- Universal approximation ⇒ training finds the approximator.
-- Equating product demos with mathematical theorems.
+- Xấp xỉ phổ quát **không** ⇒ bộ tối ưu tìm được bộ xấp xỉ.
+- Demo sản phẩm **không** đồng nhất định lý toán.
 
 
 ---

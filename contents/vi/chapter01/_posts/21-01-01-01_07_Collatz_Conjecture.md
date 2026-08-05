@@ -64,21 +64,43 @@ Các phát biểu tương đương nói về việc đạt 1, hoặc về việc
 **Thời gian dừng.** *Total stopping time* của $$n$$ thường hiểu là số bước tới khi chạm 1 (hoặc chạm chu trình tầm thường)—định nghĩa chính xác nên cố định một lần trong báo cáo A5 của bạn. *Stopping time* đôi khi chỉ số bước tới giá trị nhỏ hơn $$n$$. Hãy nhất quán thuật ngữ trong portfolio.
 
 **Hạt giống 27.** Quỹ đạo của 27 nổi tiếng đi lên cao trước khi về 1; đếm bước là bài tập chuẩn. Hiện tượng “nhỏ mà đi xa” là một lý do trực quan người ta không tin kiểm tra tay vài chục số là đủ.
+
 ---
 
-## 2. Vì sao người ta quan tâm
+## 2. Quỹ đạo, stopping time, và total stopping time
 
-- **Tiếp cận được:** ai cũng thử được bằng giấy hoặc vài dòng code.
-- **Độ sâu:** không có chứng minh dù nỗ lực khổng lồ; kết quả từng phần dùng ý tưởng ergodic, xác suất, và tính toán không tầm thường.
-- **Văn hóa bài toán mở:** cho thấy khó ≠ phát biểu phức tạp (tương phản ngôn ngữ [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/)).
-- **Toán thực nghiệm:** đồ thị thời gian dừng, thống kê thặng dư, cây ngược (inverse tree)—studio seminar lý tưởng.
-- **Rèn đạo đức bằng chứng:** cùng bài học với kiểm không điểm zeta trên đường tới hạn.
+Cố định hạt giống $$n$$. **Quỹ đạo** (trajectory) là dãy vô hạn $$n, T(n), T^2(n),\ldots$$. Nghiên cứu Collatz phần lớn là hiểu các quỹ đạo: leo cao bao nhiêu, lang thang bao lâu, có vào chu trình không, có phân kỳ không.
+
+Hai đại lượng sổ sách cổ điển:
+
+- **Stopping time** của $$n$$: bước đầu tiên iterate **rơi xuống dưới** giá trị khởi đầu $$n$$—bao lâu đến khi dãy “tiến bộ” so với chiều cao lúc sinh.
+- **Total stopping time** của $$n$$: bước đầu tiên đạt $$1$$ (hoặc vào chu trình $$4$$–$$2$$–$$1$$). Đo độ dài toàn hành trình tới attractor đã biết.
+
+Với hạt nhỏ, tính tay được; với hạt lớn, đây là thí nghiệm tính toán tự nhiên. Đồ thị total stopping time theo $$n$$ trông gồ ghề—gai, không trơn: quirk số học địa phương tạo chuyến đi dài dù hạt gần đó ổn nhanh.
+
+**Vì sao ngôn ngữ quan trọng.** “Cuối cùng chạm 1” là khẳng định định tính. Stopping times biến nó thành **dữ liệu định lượng** bạn có thể vẽ, so sánh, giả thuyết hóa. Trong studio Ch.7, khám phá tốt hầu như luôn bắt đầu bằng một thống kê đo được (chiều cao max, total stopping time, lớp thặng dư số lẻ, …) chứ không chỉ nhìn danh sách số thô.
+
+**Bài tập nhanh.** Với $$n=6$$ và $$n=7$$: tính total stopping time tới $$1$$ và stopping time (lần đầu $$T^k(n)<n$$). Ghi rõ định nghĩa.
+
+---
+
+## 3. Vì sao người ta quan tâm
+
+**Tiếp cận được.** Ai chia được 2 và nhân được 3 đều sinh dữ liệu—hàng rào thấp, trần cao: lý tưởng cho seminar.
+
+**Độ sâu không cần jargon.** Khác BSD hay harmonic analysis, Collatz không đòi một học kỳ tiên quyết để *phát biểu*. Nhưng kết quả từng phần tốt nhất dùng ergodic, xác suất, tổ hợp số học. Khó ở đây không phải “ngôn ngữ tối tăm”; là **kháng cự** của một hệ động lực sơ cấp trên số nguyên.
+
+**Văn hóa bài toán mở (LO6).** Độ tinh vi của phát biểu và độ khó giải quyết **không** cần cùng thang. Một recurrence một dòng có thể sống lâu hơn nhiều thế hệ kỹ thuật. Tương phản ngôn ngữ [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/).
+
+**Toán thực nghiệm.** Thống kê thặng dư, cây ngược, kỷ lục chiều cao, histogram thời gian dừng—đối tượng toán chính đáng khi giả thuyết đầy đủ còn mở. Bài toán thưởng nhật ký cẩn thận và kết quả âm trung thực không kém plot đẹp.
+
+**Rèn đạo đức bằng chứng.** Cùng bài học với kiểm không điểm zeta trên đường tới hạn trong [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/).
 
 Collatz là “bài toán cửa”—dễ vào, khó ra—và khóa học cố ý đặt nó cạnh các bài Thiên niên kỷ để bạn thấy phổ phát biểu.
 
 ---
 
-## 3. Kiểm chứng không phải chứng minh
+## 4. Kiểm chứng không phải chứng minh
 
 Giả thuyết đã được kiểm cho mọi giá trị khởi đầu tới biên **cực lớn**. Các dự án tính toán đã đẩy qua $$2^{68}$$, $$2^{70}$$, $$2^{71}$$, và các mốc liên quan; văn liệu tiến hóa—khi viết A3/A5 hãy trích một survey hoặc bài verification cập nhật (ví dụ dòng Barina và kế tiếp) thay vì nhớ một số magics.
 
@@ -94,31 +116,55 @@ Vẫn:
 
 Trong A5, bạn được khuyến khích kiểm và vẽ—nhưng câu kết luận phải phân biệt “trong mẫu của tôi” với “với mọi số nguyên dương.”
 
+Câu seminar đúng: *Collatz đã được kiểm tới biên hữu hạn khổng lồ; phát biểu phổ quát vẫn mở.* Cùng đạo đức numerics RH: **bằng chứng mạnh, không phải chứng minh.**
+
 ---
 
-## 4. Map tăng tốc và Syracuse
+## 5. Heuristic: kỳ vọng giảm
 
-Video phổ biến thường dùng $$T$$ đầy đủ. Bài giảng nghiên cứu (Tao, survey Lagarias, Chamberland) hay chuyển sang map trên số **lẻ**:
+Nếu giả thuyết đúng, map phải “kéo hầu hết quỹ đạo xuống trung bình,” dù một bước lẻ nhân 3 rồi cộng 1. Mô hình heuristic làm trực giác đó định lượng.
+
+**Khẩu hiệu chuẩn.** Khi áp $$3n+1$$ cho số lẻ, kết quả chẵn, nên ít nhất một lần chia 2 theo sau—thường nhiều hơn. Nếu mô hình số thừa số $$2$$ sau bước lẻ như gần geometric (mô hình ngẫu nhiên parity phổ biến), kỳ vọng biến thiên log mỗi “bước lấy tâm lẻ” là **âm**. Trong các mô hình xác suất kiểu này, hầu hết quỹ đạo được dự đoán đạt giá trị nhỏ—nên niềm tin rộng rãi rằng giả thuyết đúng.
+
+**Cảnh báo then chốt.**
+
+- Map **tất định**. Gọi thống kê là “ngẫu nhiên” là **lựa chọn mô hình**, không phải $$T$$ tung đồng xu.
+- Heuristic “hầu hết” **không** tự động kiểm soát **mọi** số nguyên. Tập thưa ngoại lệ vẫn có thể hư.
+- Các dạng map tăng tốc (gộp chuỗi chia 2) đổi hằng số heuristic nhưng **không** thay thế chứng minh thật.
+
+Dùng heuristic để định hướng thí nghiệm và giải thích vì sao không ngạc nhiên khi không có phản ví dụ nhỏ. **Đừng** nhầm dự đoán xác suất với chứng minh.
+
+Hằng số tới hạn lặp lại trong lý thuyết mật độ:
+
+$$
+\frac{\log 3}{\log 4}\approx 0.7925.
+$$
+
+Nó xuất hiện ở định lý almost-all kiểu Korec (quỹ đạo rơi dưới lũy thừa $$N^\theta$$ với hầu hết $$N$$ khi $$\theta$$ lớn hơn ngưỡng này) và heuristic cân bằng nhân $$3$$ với chia lũy thừa $$2$$ trung bình. Khóa học không đòi chứng minh hằng số—nhưng bạn phải **nhận ra** khi survey hay slide Tao viết nó.
+
+---
+
+## 6. Map tăng tốc và Syracuse
+
+Video phổ biến thường dùng $$T$$ đầy đủ. Bài giảng nghiên cứu (Tao, survey Lagarias, Chamberland) hay chuyển sang map trên số **lẻ** để mỗi bước đúng **một** phép nhân $$3$$.
+
+Định nghĩa **map Syracuse** trên số nguyên dương lẻ:
 
 $$
 \operatorname{Syr}(N)=\frac{3N+1}{2^{a(N)}},
 $$
 
-với $$2^{a(N)}$$ là lũy thừa cao nhất của $$2$$ chia hết $$3N+1$$ (kết quả lại lẻ). Mỗi bước đúng **một** phép nhân $$3$$—thuận cho thống kê 3-adic. **Cảnh báo seminar:** đếm bước theo $$T$$ và theo $$\operatorname{Syr}$$ khác nhau; cố định quy ước trước khi so sánh số.
+với $$2^{a(N)}$$ là lũy thừa cao nhất của $$2$$ chia hết $$3N+1$$ (kết quả lại lẻ). Lặp $$\operatorname{Syr}$$ theo dõi các số lẻ của quỹ đạo Collatz sau mọi chia 2 bắt buộc.
 
-Hằng số heuristic / mật độ hay gặp:
+**Vì sao nghiên cứu ưa dạng này.** Thống kê modulo lũy thừa $$3$$ sạch hơn; mô hình xác suất của 2-valuation $$a(N)$$ (thường geometric với kỳ vọng $$2$$ trong mô hình ngẫu nhiên) nằm trung tâm các chứng minh almost-all hiện đại. **Cảnh báo seminar:** quỹ đạo in dưới $$T$$ và dưới $$\operatorname{Syr}$$ trông khác—chỉ so sánh nguồn sau khi cố định quy ước.
 
-$$
-\frac{\log 3}{\log 4}\approx 0.7925
-$$
-
-(xuất hiện ở dòng Allouche–Korec và heuristic cân bằng nhân 3 với chia 2 trung bình).
+Dạng tăng tốc khác gộp “bước lẻ + ít nhất một chia 2” thành một công thức trong paper cũ; lại: khớp định nghĩa tác giả trước khi đếm bước.
 
 ---
 
-## 5. Toán từng phần (không đầy đủ)
+## 7. Toán từng phần (không đầy đủ)
 
-### 5.1 Dòng mật độ / almost-all (khẩu hiệu)
+### 7.1 Dòng mật độ / almost-all (khẩu hiệu)
 
 | Dòng | Khẩu hiệu | Loại mật độ |
 |------|-----------|-------------|
@@ -139,7 +185,7 @@ với hầu hết $$N$$ theo mật độ log. Ví dụ khẩu hiệu: hầu hế
 
 Nguồn chuẩn: [arXiv:1909.03562](https://arxiv.org/abs/1909.03562), [blog Tao](https://terrytao.wordpress.com/2019/09/10/almost-all-collatz-orbits-attain-almost-bounded-values/); định hướng phổ biến: [Quanta](https://www.quantamagazine.org/mathematician-proves-huge-result-on-dangerous-problem-20191211/).
 
-### 5.2 Kiến trúc chứng minh (slogan, không bắt chép)
+### 7.2 Kiến trúc chứng minh (slogan, không bắt chép)
 
 1. Chuyển **Syracuse** trên số lẻ.  
 2. Bất thường **3-adic** của lặp.  
@@ -150,7 +196,7 @@ Nguồn chuẩn: [arXiv:1909.03562](https://arxiv.org/abs/1909.03562), [blog Tao
 
 Essay LO chỉ cần kết luận Theorem 2 + giả thuyết vẫn mở.
 
-### 5.3 Chu trình, tổng quát, tính toán
+### 7.3 Chu trình, tổng quát, tính toán
 
 - **Chu trình:** trong số dương chỉ $$4\to 2\to 1$$ được biết; âm / map khác có thể khác.  
 - **Tổng quát $$mx+1$$:** một số biến thể liên quan undecidability—**không** đồng nhất “Collatz cổ điển đã chứng minh undecidable” (xem Easy Theory trong tài liệu video).  
@@ -161,7 +207,7 @@ Essay LO chỉ cần kết luận Theorem 2 + giả thuyết vẫn mở.
 
 ---
 
-## 6. Độ khó bằng lời
+## 8. Độ khó bằng lời
 
 Map trộn **nhân** ($$3n+1$$) và **chia 2**, phá nhiều bất biến đơn giản. Quỹ đạo đi lang thang không đều; thời gian dừng dao động mạnh theo hạt giống. Không có hàm Lyapunov hiển nhiên giảm *mọi* bước cho *mọi* $$n$$. Các kỹ thuật cho hệ động lực trơn không chuyển dễ sang hybrid nguyên này.
 
@@ -171,7 +217,7 @@ So với [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/): ở
 
 ---
 
-## 7. Vai trò trong khóa học: trang bài toán so với studio
+## 9. Vai trò trong khóa học: trang bài toán so với studio
 
 | Trang này (Ch.1) | Studio ([Ch.7]({{ site.baseurl }}/contents/vi/chapter07/07_09_Explore_Iteration/)) |
 |------------------|---------------|
@@ -184,7 +230,7 @@ So với [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/): ở
 
 ---
 
-## 8. Biến thể map và cạm bẫy định nghĩa
+## 10. Biến thể map và cạm bẫy định nghĩa
 
 Văn liệu dùng vài biến thể (xem thêm §4 Syracuse):
 

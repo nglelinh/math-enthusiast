@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chiều cao"
+title: "Chiều cao hơn"
 chapter: '04'
 order: 8
 owner: Nguyen Le Linh
@@ -9,7 +9,7 @@ categories:
 - chapter04
 ---
 
-**Chiều cao** mở rộng độ dài, diện tích, thể tích vượt ba tọa độ. Điểm trong $$\mathbb{R}^n$$ là bộ có thứ tự $$(x_1,\ldots,x_n)$$; khoảng cách, cầu, lập phương, đại số tuyến tính đều tổng quát hóa. Cú sốc: chiều không chỉ “thêm cùng một thứ”—**điều hiếm trong 3D có thể điển hình trong 300D**. Tập trung độ đo, lời nguyền chiều trong dữ liệu, hình học siêu cầu định hình lại trực giác cho giải tích, xác suất và học máy hiện đại.
+**Chiều cao hơn** (higher dimensions) mở rộng độ dài, diện tích, thể tích vượt ba tọa độ. Điểm trong $$\mathbb{R}^n$$ là bộ có thứ tự $$(x_1,\ldots,x_n)$$; khoảng cách, cầu, lập phương, đại số tuyến tính đều tổng quát hóa. Cú sốc: chiều không chỉ “thêm cùng một thứ”—**điều hiếm trong 3D có thể điển hình trong 300D**. Tập trung độ đo, lời nguyền chiều trong dữ liệu, hình học siêu cầu định hình lại trực giác cho giải tích, xác suất và học máy hiện đại.
 
 **Lộ trình:** tọa độ và khoảng cách → siêu lập phương và siêu cầu → lát cắt và chiếu → công thức thể tích và bất ngờ → tập trung độ đo → dữ liệu và thuật toán → nhầm lẫn, bài tập, hướng đi tiếp.
 
