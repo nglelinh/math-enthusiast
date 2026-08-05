@@ -15,15 +15,21 @@ categories:
 > **3. Then:** [Ch.7 Kakeya studio]({{ site.baseurl }}/contents/en/chapter07/07_02_Explore_Kakeya/) — draw / code / write  
 > *Time guide:* ~45 min map → ~2–3 h lecture → ~1–2 h studio.
 
-The **Kakeya set conjecture** asks how large a set in $$\mathbb{R}^n$$ must be if it contains a unit line segment in every direction. Sets of this type can have **Lebesgue measure zero** (Besicovitch), yet are conjectured to have full **Hausdorff dimension** $$n$$. In dimension 3 the conjecture was proved by **Hong Wang** and **Joshua Zahl** (2025); Wang received a **Fields Medal in 2026** for this and related harmonic analysis.
+Imagine you hold a **pencil**—or a unit needle of length 1. You want to turn it through **every direction**, while using **as little space as possible**. A large enough disk seems to settle the matter. Around **1917**, **Sōichi Kakeya** made the question geometrically sharp in the **plane**: *what is the smallest area of a region that can reverse (or host) a unit segment in every direction?*
 
-This is the **Chapter 1 problem map** for Kakeya. For the full lecture (needle problem → δ-tubes → self-improvement → Fields portfolio), go to step 2 of the path above.
+A few years later, **Abram Besicovitch** shocked the field: one can arrange unit segments in **every direction** inside a set of **arbitrarily small area**—in modern language, even of **Lebesgue measure zero**. A set that is “almost empty” in the sense of area can still contain a full set of directions. Everyday intuition about “thick” and “thin” fails.
+
+That surprise pushed mathematicians to finer notions of size—especially **Hausdorff** and **Minkowski dimension**. The **Kakeya set conjecture** guesses that, even if volume can vanish, a set in $$\mathbb{R}^n$$ that contains a unit segment in every direction must still be “thick enough” geometrically: $$\dim_H=\dim_M=n$$. Partial progress came from many hands—among them **Wolff**, **Bourgain**, **Terence Tao**, and others (lower bounds, structured cases). Only in **2025** did **Hong Wang** and **Joshua Zahl** prove the conjecture in **three dimensions**—a major breakthrough in geometric measure theory and modern harmonic analysis, and a central pillar of the body of work for which Wang received a **Fields Medal in 2026** (alongside related restriction, local smoothing, Falconer, and Furstenberg themes—see the IMU citation and the [Ch.2 Wang lecture]({{ site.baseurl }}/contents/en/chapter02/02_15_Wang_Harmonic_Analysis/)).
+
+This page is the **Chapter 1 problem map**: needle story → measure-zero paradox → dimension conjecture → status table (2 / 3 / $$\ge 4$$) → why harmonic analysis cares. Full lecture (δ-tubes, self-improvement, Fields portfolio): step 2 of the path above.
+
+**One formal line.** If $$K\subset\mathbb{R}^n$$ contains a unit segment in every direction, must $$\dim_H(K)=\dim_M(K)=n$$? Davies (1971): dimension 2 in the plane. Wang–Zahl (2025): dimension 3 in space. Higher dimensions remain **open**.
+
+**Early distinction (do not skip).** Continuous **needle motion** (turning one segment inside a region) and a static **Besicovitch set** (hosting a unit segment in every direction, not necessarily as one continuous path) are related but **not** the same object. Both feed the same theme of directional thickness; details sit in §1.
 
 **Path through this essay:** needle intuition → Besicovitch paradox → dimension vs measure → conjecture table → why harmonic analysis cares → Wang–Zahl → open dimensions → exercises.
 
-If $$K\subset\mathbb{R}^n$$ contains a unit segment in every direction, must
-$$\dim_H(K)=\dim_M(K)=n?$$
-Modern proofs replace segments by thin **δ-tubes** and estimate how small their union can be when directions vary. Extreme overlap forces geometric structure across scales (stickiness, graininess, planiness). Davies (1971): dimension 2 in the plane. Wang–Zahl (2025): dimension 3 in space. Higher dimensions remain open. Fields Medal 2026 for Wang (body of work including Kakeya 3D).
+Modern proofs replace segments by thin **δ-tubes** and estimate how small their union can be when directions vary. Extreme overlap forces geometric structure across scales (stickiness, graininess, planiness).
 
 ---
 
@@ -44,7 +50,7 @@ Modern proofs replace segments by thin **δ-tubes** and estimate how small their
 
 ## 1. From a spinning needle to a set of directions
 
-In 1917, **Sōichi Kakeya** asked how small a planar region can be if a unit needle can be reversed continuously inside it.
+Around **1917**, **Sōichi Kakeya** asked—now in formal language—how small a planar region can be if a unit needle can be reversed continuously inside it: the precise form of the “pencil / needle” thought experiment above.
 
 **First improvements before the paradox.**  
 - Fix the needle’s midpoint: it sweeps a disk of radius $$1/2$$ with area $$\pi/4$$.  
@@ -124,11 +130,71 @@ Besicovitch constructed planar Kakeya sets of Lebesgue measure zero by iterated 
 
 *Figure. Volume and dimension measure different kinds of size.*
 
+### What “dimension” means (before Hausdorff)
+
+**Number of dimensions** is a way to count how many **independent directions** of motion a space allows.
+
+- On a flat sheet of paper (**2D**), you can move left–right and forward–back—two independent directions.  
+- Inside a room (**3D**), you also move up–down—three independent directions.
+
+Each dimension is one independent way to move. In the Kakeya story, the ambient dimension controls how hard “hosting every direction” becomes: the plane already admits Besicovitch’s area-zero surprises; **3D** opened a deeper world of ideas that eventually led to the deep tube-and-multiscale proofs of **Wang–Zahl (2025)**.
+
+**Everyday sizes, then fractals.**
+
+- A thin wire: move along one path and you meet every point of the wire—**1-dimensional** intuition.  
+- A sheet of paper: you need two directions (horizontal and vertical) to reach every point—**2-dimensional**.  
+- A solid cube: add up–down—**3-dimensional**.  
+
+Now look at a coastline or a snowflake curve. From far away it may look like a simple curve (near 1D); zoom in and wiggles appear at every scale. **Hausdorff dimension** captures that by allowing **non-integer** values. The classical **Koch snowflake curve** has Hausdorff dimension about $$1.26$$: rougher than a line, yet not filling a whole plane.
+
+**Kakeya in 3D, in one sentence of intuition.** A Kakeya set in $$\mathbb{R}^3$$ may still have **volume zero**, but the conjecture (now a theorem of Wang–Zahl) says its Hausdorff dimension must still equal **3**. In other words: you cannot “thin it out” into something only as complex as a surface or a curve; geometrically it must remain **fully 3-dimensional** in the Hausdorff sense—even if Lebesgue volume vanishes.
+
+### Covering by small balls: the main idea behind “fractional” dimension
+
+Instead of asking only “how many integer dimensions does this object have?”, ask:
+
+> How many small balls of radius $$r$$ do I need to cover the set as $$r\to 0$$?
+
+Rough scaling (Minkowski / box-counting flavor):
+
+| Object | Cover scale $$r$$ | Number of pieces needed (order of) |
+|--------|-------------------|--------------------------------------|
+| Unit segment | length $$r$$ | $$\sim 1/r = 1/r^{1}$$ |
+| Unit square | side $$r$$ | $$\sim 1/r^{2}$$ |
+| Unit cube | side $$r$$ | $$\sim 1/r^{3}$$ |
+
+If a set needs about $$1/r^{d}$$ balls of radius $$r$$, then $$d$$ is its dimension. The miracle of fractal geometry is that $$d$$ need **not** be an integer: it can be $$1.26$$ or $$2.58$$.
+
+**Hausdorff measure** makes this precise (formal ladder in the next subsection). Roughly: sum the diameters of covering balls raised to a power $$s$$, take a limit as the covers get fine, and look for a **critical** $$s$$:
+
+- if $$s$$ is too small, that “$$s$$-content” is typically **infinite**;  
+- if $$s$$ is too large, it collapses to **0**.  
+
+The jump value is the **Hausdorff dimension**. In Kakeya, one therefore asks not only “is the set large in volume?” but “**at every fine scale**, how complex is it?” That multiscale question is why a theorem about full dimension 3 is deep—and why Wang–Zahl’s result is so striking.
+
+### Worked fractal: Koch curve (self-similar warm-up)
+
+The **Koch curve** is the classic classroom fractal. Start with a unit segment. At each step: divide every segment into three equal parts, remove the middle third, and replace it by the other two sides of an equilateral triangle. After step 1 you have **4** segments of length $$1/3$$; after step 2, **16** of length $$1/9$$; after step 3, **64** of length $$1/27$$; and so on.
+
+For a self-similar set made of $$N$$ copies scaled by factor $$r$$, the similarity dimension solves
+
+$$
+N = \Bigl(\frac{1}{r}\Bigr)^{d} \qquad\text{i.e.}\qquad d = \frac{\log N}{\log(1/r)}.
+$$
+
+Koch: $$N=4$$, $$r=1/3$$, so
+
+$$
+d = \frac{\log 4}{\log 3} \approx 1.26186.
+$$
+
+In plain language: rougher than a straight line, not filling the plane. For **Kakeya sets**, self-similarity of this clean type is usually unavailable—so one needs the general Hausdorff covering definition above, not only the log-ratio formula. That is one reason Kakeya is much harder than computing the dimension of a classical fractal.
+
 ### Hausdorff dimension more carefully (gauge functions)
 
 A short formal ladder (reconstructed from the CHALK lecture [What is Hausdorff Dimension?](https://www.youtube.com/watch?v=LJcWhcM4okQ); deep-link [`&t=19s`](https://www.youtube.com/watch?v=LJcWhcM4okQ&t=19s)):
 
-**1. Scaling intuition.** Stretch a set by factor $$2$$: a segment becomes $$2=2^1$$ copies (dim $$1$$); a filled square becomes $$4=2^2$$ copies (dim $$2$$); a Sierpiński gasket becomes $$3$$ copies, so dim $$=\log_2 3$$. Dimension is “how stuff scales.”
+**1. Scaling intuition.** Stretch a set by factor $$2$$: a segment becomes $$2=2^1$$ copies (dim $$1$$); a filled square becomes $$4=2^2$$ copies (dim $$2$$); a Sierpiński gasket becomes $$3$$ copies, so dim $$=\log_2 3$$. Dimension is “how stuff scales.” (Same idea as the covering table and Koch formula above, now in laboratory form.)
 
 ![Scaling intuition]({{ site.baseurl }}/img/chapter_img/hausdorff_scaling_intuition_chalk.jpg)
 

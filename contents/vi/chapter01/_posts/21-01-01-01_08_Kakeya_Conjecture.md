@@ -15,11 +15,17 @@ categories:
 > **3. Sau đó:** [Studio Kakeya Ch.7]({{ site.baseurl }}/contents/vi/chapter07/07_02_Explore_Kakeya/) — vẽ / code / viết  
 > *Thời gian gợi ý:* ~45 phút bản đồ → ~2–3 giờ bài giảng → ~1–2 giờ studio.
 
-**Giả thuyết tập Kakeya** hỏi một tập trong $$\mathbb{R}^n$$ phải “lớn” thế nào nếu chứa đoạn đơn vị theo mọi hướng. Các tập kiểu này có thể có **độ đo Lebesgue bằng 0** (Besicovitch), nhưng được phỏng đoán có **chiều Hausdorff** đầy đủ $$n$$. Ở chiều 3, giả thuyết đã được **Hong Wang** và **Joshua Zahl** (2025) chứng minh; Wang nhận **Fields Medal 2026** một phần nhờ công trình này và harmonic analysis liên quan.
+Hãy tưởng tượng bạn cầm một **cây bút chì** (hoặc một cây kim dài đúng 1 đơn vị). Bạn muốn xoay nó đủ **mọi hướng**—một vòng đầy đủ trên mặt phẳng, hay mọi hướng trong không gian—nhưng chiếm **ít không gian nhất có thể**. Nghe thì đơn giản: vẽ một đĩa đủ lớn là xong. **Sōichi Kakeya**, khoảng **1917**, đặt câu hỏi trong mặt phẳng **2D** với độ chính xác hình học: *diện tích nhỏ nhất của một miền chứa (hoặc cho phép đảo) một đoạn thẳng đơn vị theo mọi hướng là bao nhiêu?*
 
-Đây là **bản đồ bài toán Chương 1**. Bài giảng đầy đủ: bước 2 của lộ trình trên.
+Vài năm sau, **Abram Besicovitch** làm cả lĩnh vực sửng sốt: có thể sắp xếp đoạn thẳng đơn vị theo **mọi hướng** trong một tập có **diện tích tùy ý nhỏ**—gần như bằng không (và, ở dạng hiện đại, **độ đo Lebesgue bằng không**). Một tập “gần như không có diện tích” mà vẫn chứa đoạn thẳng theo mọi hướng: đó không phải trực giác đời thường về “đầy” và “rỗng.”
 
-Nếu $$K\subset\mathbb{R}^n$$ chứa đoạn đơn vị mọi hướng, có bắt buộc $$\dim_H(K)=\dim_M(K)=n$$? Chứng minh hiện đại thay đoạn bằng **δ-tube** mỏng và ước lượng hợp khi hướng thay đổi: chồng lấp cực đoan buộc cấu trúc đa thang. Davies (1971): chiều 2. Wang–Zahl (2025): chiều 3. $$n\ge 4$$ còn mở. Fields 2026 cho Wang.
+Từ cú sốc đó, người ta hỏi sâu hơn về **hình dạng** và các khái niệm **kích thước** tinh tế hơn thể tích—đặc biệt **chiều Hausdorff** và **chiều Minkowski**. **Giả thuyết tập Kakeya** đoán rằng, dù thể tích có thể bằng 0, một tập chứa đoạn đơn vị mọi hướng trong $$\mathbb{R}^n$$ vẫn phải “đủ dày” theo nghĩa hình học: $$\dim_H=\dim_M=n$$. Nhiều nhà toán học—gồm **Wolff**, **Bourgain**, **Terence Tao** và nhiều người khác—đã đóng góp **kết quả từng phần** (chặn dưới chiều, trường hợp có cấu trúc). Phải đến **2025**, **Hong Wang** cùng **Joshua Zahl** mới chứng minh được giả thuyết trong **không gian 3 chiều**—một đột phá lớn của geometric measure theory và harmonic analysis hiện đại, và là một trụ cột trong thân công trình giúp Wang nhận **Fields Medal 2026** (cùng các đóng góp liên quan restriction, local smoothing, Falconer, Furstenberg—xem trích dẫn IMU và [bài Wang Ch.2]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/)).
+
+Đây là **bản đồ bài toán Chương 1**: câu chuyện kim → nghịch lý measure zero → giả thuyết chiều → trạng thái 2 / 3 / $$\ge 4$$ → vì sao harmonic analysis quan tâm. Bài giảng đầy đủ (δ-tube, self-improvement, portfolio Fields): bước 2 của lộ trình trên.
+
+**Một dòng hình thức.** Nếu $$K\subset\mathbb{R}^n$$ chứa đoạn đơn vị mọi hướng, có bắt buộc $$\dim_H(K)=\dim_M(K)=n$$? Davies (1971): chiều 2. Wang–Zahl (2025): chiều 3. $$n\ge 4$$ còn **mở**.
+
+**Phân biệt sớm (đừng bỏ qua).** *Chuyển động kim liên tục* (xoay một đoạn trong miền) và *tập Besicovitch tĩnh* (chứa đoạn mọi hướng, không cần là quỹ đạo liên tục của một kim) là hai đối tượng liên quan nhưng **không** đồng nhất. Cả hai nuôi cùng chủ đề “độ dày theo hướng”; chi tiết ở §1.
 
 ---
 
@@ -38,7 +44,7 @@ Nếu $$K\subset\mathbb{R}^n$$ chứa đoạn đơn vị mọi hướng, có b�
 
 ## 1. Từ kim quay tới tập hướng
 
-Kakeya (1917): miền nhỏ thế nào để đảo kim dài 1.
+**Kakeya (khoảng 1917):** trong mặt phẳng, miền có diện tích nhỏ thế nào vẫn cho phép đảo (hoặc chứa) một đoạn đơn vị theo đủ hướng—hình thức hóa câu hỏi “cây bút chì / cây kim” ở đầu bài.
 
 **Cải tiến trước “nghịch lý”.**  
 - Giữ cố định tâm kim: quét đĩa bán kính $$1/2$$, diện tích $$\pi/4$$.  
@@ -110,11 +116,71 @@ Besicovitch: measure zero trên mặt phẳng. **Điểm và đường** đều 
 
 ![Measure vs dimension]({{ site.baseurl }}/img/chapter_img/measure_vs_dimension.svg)
 
+### “Số chiều” nghĩa là gì (trước Hausdorff)
+
+**Số chiều** là cách mô tả có bao nhiêu **hướng độc lập** để di chuyển trong một không gian.
+
+- Trên tờ giấy phẳng (**2D**): ngang và dọc—hai hướng độc lập.  
+- Trong căn phòng (**3D**): thêm lên–xuống—ba chiều.
+
+Mỗi chiều tương ứng một hướng độc lập. Trong Kakeya, số chiều của không gian nền quyết định mức độ phức tạp: **2D** đã có bất ngờ kiểu Besicovitch (diện tích gần 0); **3D** mở ra cả một thế giới ý tưởng tube–đa thang dẫn tới chứng minh sâu của **Wang–Zahl (2025)**.
+
+**Từ vật quen thuộc tới fractal.**
+
+- Sợi dây: đi dọc một đường là chạm hết điểm—trực giác **1 chiều**.  
+- Tờ giấy: cần hai hướng (ngang, dọc)—**2 chiều**.  
+- Khối lập phương: thêm lên–xuống—**3 chiều**.  
+
+Nhưng đường bờ biển hay đường cong bông tuyết: nhìn xa có thể giống 1 chiều; càng phóng to càng thấy ngoằn ngoèo ở mọi thang. **Chiều Hausdorff** nắm bắt điều đó bằng cách cho phép giá trị **không nhất thiết nguyên**. Ví dụ kinh điển: đường cong **Koch** có chiều Hausdorff khoảng $$1{,}26$$—phức tạp hơn đường thẳng, chưa lấp đầy mặt phẳng.
+
+**Kakeya 3D bằng một câu trực giác.** Tập Kakeya trong $$\mathbb{R}^3$$ **có thể** có **thể tích bằng 0**, nhưng giả thuyết (nay là định lý Wang–Zahl) nói chiều Hausdorff vẫn phải bằng **3**. Nói cách khác: bạn không thể “làm mỏng” tập đó thành chỉ phức tạp như một mặt hay một đường; theo nghĩa hình học Hausdorff, nó vẫn buộc **đủ phức tạp trong 3 chiều**—dù độ đo Lebesgue có thể triệt tiêu.
+
+### Phủ bằng quả cầu nhỏ: ý tưởng chính của “chiều phân số”
+
+Thay vì chỉ hỏi “vật này có bao nhiêu chiều nguyên?”, hỏi:
+
+> Cần bao nhiêu quả cầu nhỏ bán kính $$r$$ để phủ kín tập khi $$r\to 0$$?
+
+Bảng tỉ lệ (hương vị Minkowski / đếm hộp):
+
+| Vật | Thang $$r$$ | Số mảnh cần (cỡ) |
+|-----|-------------|------------------|
+| Đoạn dài 1 | đoạn dài $$r$$ | $$\sim 1/r = 1/r^{1}$$ |
+| Vuông cạnh 1 | ô cạnh $$r$$ | $$\sim 1/r^{2}$$ |
+| Lập phương cạnh 1 | khối cạnh $$r$$ | $$\sim 1/r^{3}$$ |
+
+Nếu tập cần khoảng $$1/r^{d}$$ quả cầu bán kính $$r$$ thì $$d$$ là chiều. Điều kỳ diệu: $$d$$ **không** bắt buộc nguyên—có thể $$1{,}26$$ hay $$2{,}58$$.
+
+**Độ đo Hausdorff** làm chặt ý này (thang formal ở mục sau). Đại ý: cộng các đường kính (hoặc bán kính) của mảnh phủ nâng lũy thừa $$s$$, lấy giới hạn khi phủ mịn dần, tìm **$$s$$ tới hạn**:
+
+- nếu $$s$$ quá nhỏ, “nội dung $$s$$-chiều” thường **vô hạn**;  
+- nếu $$s$$ quá lớn, tổng **tiến về 0**.  
+
+Điểm chuyển đó là **chiều Hausdorff**. Trong Kakeya, ta không chỉ hỏi “tập có lớn (về thể tích) không?” mà hỏi “**ở mọi thang đo**, nó phức tạp đến mức nào?”—đó là vì sao kết quả chiều đầy đủ 3 của Wang–Zahl sâu và đáng chú ý.
+
+### Ví dụ fractal: đường cong Koch (làm ấm)
+
+**Đường cong Koch** là fractal lớp học cổ điển. Bắt đầu từ một đoạn đơn vị. Mỗi bước: chia mỗi đoạn thành ba phần bằng nhau, bỏ phần giữa, thay bằng hai cạnh còn lại của một tam giác đều. Sau bước 1: **4** đoạn dài $$1/3$$; bước 2: **16** đoạn dài $$1/9$$; bước 3: **64** đoạn dài $$1/27$$; …
+
+Với tập tự đồng dạng gồm $$N$$ bản sao tỉ lệ $$r$$, chiều tương tự giải
+
+$$
+N = \Bigl(\frac{1}{r}\Bigr)^{d} \qquad\text{tức}\qquad d = \frac{\log N}{\log(1/r)}.
+$$
+
+Koch: $$N=4$$, $$r=1/3$$, nên
+
+$$
+d = \frac{\log 4}{\log 3} \approx 1{,}26186.
+$$
+
+Nôm na: gồ ghề hơn đường thẳng, chưa lấp kín mặt phẳng. Với **tập Kakeya**, tự đồng dạng sạch kiểu này thường không có—nên phải dùng định nghĩa phủ Hausdorff tổng quát, không chỉ công thức log. Đó là một lý do Kakeya khó và sâu hơn nhiều so với tính chiều fractal cổ điển.
+
 ### Chiều Hausdorff cẩn thận hơn (hàm gauge)
 
 Thang formal ngắn (tái dựng từ [CHALK — What is Hausdorff Dimension?](https://www.youtube.com/watch?v=LJcWhcM4okQ); deep-link [`&t=19s`](https://www.youtube.com/watch?v=LJcWhcM4okQ&t=19s)):
 
-**1. Trực giác scale.** Phóng to $$\times 2$$: đoạn → $$2=2^1$$ bản sao (dim $$1$$); hình vuông đầy → $$4=2^2$$ (dim $$2$$); Sierpiński → $$3$$ bản sao ⇒ dim $$=\log_2 3$$.
+**1. Trực giác scale.** Phóng to $$\times 2$$: đoạn → $$2=2^1$$ bản sao (dim $$1$$); hình vuông đầy → $$4=2^2$$ (dim $$2$$); Sierpiński → $$3$$ bản sao ⇒ dim $$=\log_2 3$$. (Cùng ý với bảng phủ và công thức Koch ở trên, nay ở dạng phòng thí nghiệm.)
 
 ![Scaling]({{ site.baseurl }}/img/chapter_img/hausdorff_scaling_intuition_chalk.jpg)
 
