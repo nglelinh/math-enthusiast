@@ -16,8 +16,8 @@
 
 | # | Role | Video / source | URL |
 |---|------|----------------|-----|
-| 1 | CORE | Juan Maldacena — AdS/CFT Correspondence, Part 1 | https://www.youtube.com/watch?v=sYqtGXN59uE |
-| 2 | FOUNDATION | João Penedones — Intro to AdS/CFT Lecture 1 | https://www.youtube.com/watch?v=8xwCcUu0OIM |
+| 1 | CORE + Mode C | Juan Maldacena — AdS/CFT Correspondence, Part 1 | https://www.youtube.com/watch?v=sYqtGXN59uE · **captions extracted** |
+| 2 | FOUNDATION (unavailable) | João Penedones — Intro to AdS/CFT Lecture 1 | https://www.youtube.com/watch?v=8xwCcUu0OIM · video not available |
 | 3 | RESEARCH | Daniel Harlow — Emergence of Bulk Physics (TASI) | search TASI 2017 Harlow AdS |
 | 4 | META | MIT OCW 8.821 String Theory and Holographic Duality | https://ocw.mit.edu/courses/8-821-string-theory-and-holographic-duality-fall-2014/ |
 | 5 | WRITTEN | Maldacena TASI 2003 | https://arxiv.org/abs/hep-th/0309246 |

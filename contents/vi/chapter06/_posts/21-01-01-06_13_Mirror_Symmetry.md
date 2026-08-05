@@ -137,16 +137,40 @@ $$
 
 ---
 
+## Mode C — ghi chú tái dựng từ video flagship
+
+*Tái dựng từ auto-caption Witten (Fields Medal Symposium 2012). Caption: `research/video-research/mirror-symmetry/transcripts/`. Units: `knowledge_units_mode_c.json`. Tái dựng; không dán ASR.*
+
+### C1. Vì sao geometric Langlands “muốn” chiều 4
+
+Witten nối ngôn ngữ **mirror symmetry** với **geometric Langlands**. QFT chiều $$d$$ gán **category điều kiện biên** cho đa tạp đóng chiều $$d-2$$. Geometric Langlands gán category cho **mặt Riemann** (2-đa tạp), nên $$d=4$$: bắt đầu từ lý thuyết bốn chiều.
+
+### C2. $$\mathcal N=4$$ SYM là lý thuyết tự nhiên
+
+Trong gauge 4d, lý thuyết supersymmetry tối đa—**$$\mathcal N=4$$ super Yang–Mills**—là ngôi nhà tự nhiên. Nhóm gauge $$G$$ và dual xuất hiện qua dualty; các “đối xứng lẻ” supersymmetric cung cấp vi phân đóng gói cấu trúc category.
+
+### C3. Văn hóa mirror + Hitchin (không phải chứng minh)
+
+Talk trộn **mirror symmetry** (brane, hình học dual) với dữ liệu **Hitchin / moduli bundle** nuôi geometric Langlands. Cho khóa này: **khí hậu nghiên cứu và dictionary**—không chứng minh bảng HMS/GLC đầy đủ. Ghép [Geometric Langlands & S-duality]({{ site.baseurl }}/contents/vi/chapter06/06_15_Geometric_Langlands_SDuality/) và [Witten mini]({{ site.baseurl }}/contents/vi/chapter06/06_17_Witten_Physics_Math/).
+
+### C4. Vệ sinh caption
+
+- **Witten `S02ghGCdNDo`:** đã extract EN auto-caption (2026-08-05).  
+- **Chan HMS/SYZ `Kz6Dj8KSFjM`:** không có subtitle—chỉ xem hình; không bịa Mode-C từ ASR thiếu.
+
+---
+
 ## Nguồn video (gói nghiên cứu)
 
 Hướng định hướng, không thay survey. Gói: `research/video-research/mirror-symmetry/`.
 
-1. **Định hướng** — Witten, Mirror & Geometric Langlands: [https://www.youtube.com/watch?v=S02ghGCdNDo](https://www.youtube.com/watch?v=S02ghGCdNDo)  
-2. **Core** — Chan, HMS via SYZ: [https://www.youtube.com/watch?v=Kz6Dj8KSFjM](https://www.youtube.com/watch?v=Kz6Dj8KSFjM)  
+1. **Định hướng / Mode C** — Witten: [https://www.youtube.com/watch?v=S02ghGCdNDo](https://www.youtube.com/watch?v=S02ghGCdNDo) · caption trong pack  
+2. **Core (không caption)** — Chan HMS via SYZ: [https://www.youtube.com/watch?v=Kz6Dj8KSFjM](https://www.youtube.com/watch?v=Kz6Dj8KSFjM)  
 3. **Research** — Zaslow: [https://www.youtube.com/watch?v=Y3-sw3tjZiU](https://www.youtube.com/watch?v=Y3-sw3tjZiU)  
 4. **Notes** — MIT OCW Mirror Symmetry: [https://ocw.mit.edu/courses/18-969-topics-in-geometry-mirror-symmetry-spring-2009/](https://ocw.mit.edu/courses/18-969-topics-in-geometry-mirror-symmetry-spring-2009/)  
 
-URL đầy đủ: `research/video-research/mirror-symmetry/references.md`.
+URL đầy đủ: `research/video-research/mirror-symmetry/references.md`.  
+Trạng thái transcript: `research/video-research/mirror-symmetry/TRANSCRIPT_STATUS.md`.
 
 ---
 

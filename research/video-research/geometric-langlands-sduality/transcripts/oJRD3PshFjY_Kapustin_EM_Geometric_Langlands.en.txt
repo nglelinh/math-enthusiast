@@ -1,0 +1,2495 @@
+oh welcome anton
+thanks very much
+let me make you a co-host i hope the
+mathematician from the math department
+will show up
+and i try to send out some emails
+hopefully they'll be able to come but
+anyway
+feel free to test screen if you want to
+thanks for watching
+um
+yes
+hmm
+going on
+problem here
+[Music]
+you're having a shoe
+[Music]
+wait a second
+foreign
+okay
+strange let's see
+again
+i just cannot connect my assets which is
+horrible
+there's another way you can use ipad to
+finance the wi-fi again
+and then you have a too long game that's
+totally fine
+as a separate device
+it also works pretty well
+and then i can make the ipad also almost
+[Music]
+okay
+so
+let's go
+the other device i don't also recommend
+login
+that there will be much
+probably you will see the screen on the
+other desktop or whatever and
+i i joined with another i joined in
+another
+account from john
+use the one that you you just speak
+earlier to speak but use the the one
+that you just log in right now
+try again
+so there's no urgency
+okay
+so so i recommend the ipad one uh this
+canelo audio and
+use the desktop to share the video
+muted
+myself i guess
+okay how about now all right
+um
+all right should we work now
+okay can you like allow me
+to share my screen
+you should look at it and the rest of
+the issue
+just just go ahead
+you will say that you need to run
+no but um
+your calls
+see
+okay
+so
+can you see my screen
+yes
+and also
+i think uh i think actually
+by the way five like
+if you want you can also use
+something i think i'm probably
+suggesting this just in case i think you
+can use desktop as the
+laptop for the the voice
+sorry i can understand what you're
+saying so i have
+audio proposing
+uh
+yes i say that uh maybe it will be ghost
+mode easier or smoother later if you use
+the voice you share by the
+laptop or desktop
+well the ipad is fairly screen
+well
+so i cannot share my screen with through
+my desktop so what is there
+yes but you can share screen to your
+ipad but the share voice and audio
+and also videos to the desktop and that
+will work for the event
+okay you just use another audio from
+ipad and then connect the audio from the
+laptop this connectors and connect
+later let's see so you can see the you
+can see uh the more mode there there's
+data down and then you can see
+disconnect audio whether
+the end of the option choice
+uh right hand top uh there's a
+upper right corner more
+a little bit destroyed
+and and did you disconnect the audio
+is
+yes
+i don't know why it's better but okay
+because this one i think it was stable
+because we use
+right so the voice from the other device
+will be
+so let me also do a recording
+okay so shall we start
+welcome everyone
+developer geology welcome to harvard
+quantum matting maths and physics
+seminar series today it's our great
+honor to have a professor anton
+kaperstein uh to herself to speak about
+his famous work drawing work with edward
+richard and also some introductory uh
+pedagogical kind of
+talk on his work on either from my
+individuality and geometry london
+duality
+so that's directly welcome until
+okay it's fashionable please take over
+thank you
+thank you so
+um i i i'm gonna you're not gonna hear
+anything
+new in this talk so i'm just a
+pedagogical review which uh
+uh so and i actually haven't worked on
+the subjects for a while so i could have
+given the same talk in
+2007 or 2008
+exactly the same talk
+as you also mentioned all right if uh
+audience should feel free to instagram
+and ask questions i hope it's okay
+yeah thank you
+so yes i'm not sure
+uh
+who is
+in the audience but uh
+yeah i'll assume since it's a quantum
+matter
+another stop seminar so
+i assume there are some people
+who are not uh experts here on uh super
+symmetric field theories and uh
+uh gauge theories so
+i i'll try to target it more towards
+maybe people toward from uh with some
+knowledge of condensed metaphysics
+and you'll see some ideas that were you
+know
+which were useful and kind of
+metaphysics also appear in some sort of
+a bit different form in this
+electromagnetic duality and its relation
+to geometrical language
+so in particular various defects um
+and tqft ideas are
+play an important role
+so anyway so
+so again so if you
+you're not going to hear anything new
+here if you heard any one of the talks
+by ed witton or
+myself on the on the subject so
+feel free to
+leave if you feel bored
+so i'll start with uh discussing the
+background uh in the physics background
+and then eventually i'm going to connect
+uh
+with math but i'll warn you that uh for
+me the physics and the physics much
+better than the mathematical aspects of
+it
+so you're not going to hear much about
+math here
+um
+so and the first thing you want to um
+now there's a further issue now
+great
+what's going on here i don't understand
+so why is it
+now
+okay
+okay finally
+it's kind of weird
+something doesn't work so first thing
+we're going to discuss is just electric
+magnetic duality
+and this is a very well known subject so
+just so in the classica
+in classical electromagnetism there's a
+well-known symmetry
+which
+maps
+if you just have no charges
+of any kind then you have a symmetry
+which maps magnetic field
+to minus electric field and electric
+field to
+magnetic fields
+this symmetry of maxwell equations
+in fact it's a bit more than this
+so
+in some sense e and b economic and
+canonically conjugate variables
+you can write positive brackets between
+them so it's a
+it's classical filthy after all and uh
+some brackets also invariant under this
+transformation
+so
+um now on the quantum level so on a
+situational symmetry um it's not a
+symmetry of the action by the way
+because the action
+so the action is
+[Music]
+something like this
+and actually changes sign
+under
+if you switch if you do this
+transformation
+um nevertheless it is a symmetry on the
+quantum level in the sense that the
+path integral
+is um
+there's some change of variables in the
+path integral which has this effect but
+actually it's a bit more complicated on
+the quantum level
+you also have
+crystal because you have an extra
+parameter
+and uh
+in the theory called the theta angle
+so theta angle
+is a real parameter but it has
+periodicity
+so this this is um so um strictly
+speaking it's true when
+the manifold for manifold in which
+everything is happening
+the spin for manifold
+uh so
+i guess i have to decide whether i'm
+working on euclidean signature or
+minkowski signature and let me choose
+the
+um
+uh let me choose
+euclidean signature because we're gonna
+once move on to topological field
+theories financially discuss it
+including ingredient signatures so
+anyway there's an obvious sort of
+obvious symmetry which shifts theta by
+two pi
+[Music]
+and
+this symmetry
+arises from the fact that integral of f
+which f
+divided by
+8 pi squared
+is actually an integer
+well spin condition is required because
+you know in general for manifold then
+this is a only
+it can be a half integer but not spin
+for manipulating integers so shifting
+theta by two pi shifts by s by two pi i
+times a times an integer and so
+exponential doesn't change
+now that's an obvious symmetry but also
+a different symmetry which is uh so this
+symmetry called t
+really i guess just a similar
+identification
+so that identification so it tells you
+the theories with the shifted theta
+actually identified
+and
+another symmetry that you have
+is actually this duality
+and
+it's um
+best of all explained if you define a
+new parameter which unifies well sort of
+combines both theta and g and e squared
+and if there's all certification like
+this
+so if theta is zero
+then this is um
+if it is 0
+this is just inverting essentially the
+coupling e to relate strong and weak
+coupling
+but you know this so-called strong
+coupling in this quadratic theory is
+actually not really that's not strong
+the theory is free anyway for any value
+so it's going to it's something that is
+a rather trivial duality and the
+duration of this duality is very similar
+to a famous another famous duality
+called the cramer's one-year duality
+so we can regard this for a higher
+dimensional version of conversation
+from to demand which commerce one is for
+usually stated for
+two-dimensional lattice model called the
+izing model and this is a
+first of all
+there are the fields of
+scalar fields here are the gauge fields
+so
+to replace two dimensions with four
+dimensions and replace
+um
+our
+scalars of the izing model with the
+gauge field you're going to get this
+get this duality
+now and um one thing you should note
+that um
+it's a little bit more interesting
+becomes more interesting if you look at
+what it actually does to observables
+so the observables
+here
+are
+well the two kinds these um
+well they're local observables
+but they really all um
+descend from some loop observables
+they're always localized loops so
+observables are just some gauging
+variant function of
+um
+the vector potential so i forgot to say
+of course that
+f it's better to write it in and then
+using form notation so f is related to
+form
+um and
+e and b
+together
+are the same as the components of this
+to form f
+so um
+in more detail you can also write it
+so f menu
+so the classical action is really in
+terms of e and b but really should i
+think of it as function of a
+observable is also functions of a and
+there are two kinds and these are the
+basic variables in english theory
+there's a wilson line so called wilson
+loop really
+which attached to
+a loop in our manifold manifold
+and also another parameter a discrete
+one
+and that's just
+this function
+so just the holonomy of the connection
+uh raised well a is really another in
+one form but the connection one form
+so
+the basic one is just uh hologram of
+this a but he also raised it to nth
+power and it's still a
+decent variant of course
+so physically this corresponds to
+asking what happens if you insert
+electric charge in the theorem which
+follows some word line described by
+gamma
+and
+so that the effect of this essentially
+infinitely massive electric charge can
+be represented by the inserting as
+another observer i'll call it
+hoofthough's observable
+also associated with a loop that's a bit
+difficult to explain so let me just say
+it's a
+insertion
+of a monopole
+along gamma
+and m here's magnetic charge of this
+monopole
+now at first this
+what does these words mean well
+usually we think about observables as
+just functions of the fields
+now a wilson loop observable is such an
+observable so
+so this is a wilson loop
+but this other adhoof loop
+is not like that it's rather
+prescription
+to perform an integral over a different
+class of fields
+so which kind of fields well suppose
+suppose you have this piece of this loop
+so here's a loop if you look in the
+microscope you just see
+a line says a magnetic monopole so what
+does this mean organic monopole to
+follow this line
+well it just means that um
+uh if you
+take a three-dimensional slice
+uh and
+intersect it with this uh line and look
+what happens there then in the
+three-dimensional space there is a
+singularity
+magnetic field
+so
+so the integral of
+p through the surface surrounding this
+charge is two pi m
+that's what it means
+for um
+for there to be monopole so it's
+basically you require this gauge to be
+single and prescribed away
+and you don't care what else it does
+now so the singularity is quantized
+so there's m as quantize it's an integer
+for the following reason
+uh because this integral measures the
+first term class
+of the connection uh for which the you
+know a is the gauge function class of
+the bundle for which a is a connection
+so fortune class is quantized so
+so then this well it's a quantization of
+m
+since something's a classical well uh
+there's a non-classical compensation but
+you can explain in classical terms
+simply by saying that a is a connection
+on maybe it's a non-trivial bundle but
+it should be a well-defined bundle
+so of course you know the fact that we
+do want a to be not uh but we do allow a
+to be a connection on a bundle
+um is itself explained usually using
+quantum mechanics
+that's how zero explained magnetic
+monopole
+but anyway so
+another hand quantization of this
+parameter n in here
+uh is it has total different explanation
+it comes from the fact that uh
+it's uh well it's what's electric charge
+well that's a charge uh it tells you how
+the
+wave function of some particle
+transforms under u1 transformations
+so uh it's
+basically
+labels well
+it's a wonderful assuming that the
+transformation
+property is described by some
+irreducible in there for one dimensional
+representation so basically and labels
+homomorphisms from our gauge group to u1
+so but anyway so they have these two
+integers and two kind of observables of
+very different nature and the
+interesting thing is that this s duality
+actually exchanges the two kind of
+observables
+it exchanges a wilson loop with
+uh electric charge n and that will put
+that magnetic charge m
+that's similar to the
+kramer's financiality which exchanges
+water and disorder operators
+so w is an analog of the order operator
+order observable and at age analog of
+disorder operator
+and actually the analogy is very close
+uh except there the sort of integers you
+have integers modular two
+so in the either model
+uh yes only have uh
+we only have a mod two
+label
+okay now okay this is uh okay this is
+that's more it makes it a little bit
+more interesting
+uh but still it's a fairly trivial
+statement so non-trivial things start to
+happen
+if you try to think about non-billion
+about daniel's theory
+now uh yangril's theory
+is based on some compact
+semi-simple lead group
+this isn't even too simple
+semi-simple it doesn't bring anything
+just makes it a bit more complicated but
+that doesn't really bring
+any new physics
+so um and then um the field
+so is a
+is a
+now uh well something which local looks
+like a one form
+with values in
+the algebra so this is a it's the basis
+in the lee algebra
+but in fact it's actually a connection
+so this is actually connection one form
+on some bundle someone's on a g bundle
+now the diagonal's action is well known
+and looks very similar
+to the maxwell action except that of
+course f is a matrix well it's also the
+algebra value then it's only non-linear
+it's quadratic function of a
+and trace just represents the invariant
+by linear form so in variant quadratic
+form on the
+uh on the
+the algebra
+so um so the action
+now unlike uh case of
+yango's theory unlike his uh maxwell
+here there's no duality there's no like
+symmetry in this theory on the classical
+level
+so
+however there are some hints that there
+might be something
+on the quantum level resembling the
+electric magnetic duality
+so this is a very weak hint hence but
+let me state what they are
+now both uh this hence the first rows in
+1976 some uh in two independent papers
+which actually
+uh at first seem rather about their
+other different subjects
+so
+one is by throught
+and then another one by goddard
+now it's olive
+so
+let me start with the adhoof
+so and hoof noticed the following thing
+you notice that um
+if you consider
+well first of all he observed uh that uh
+in some previous work that
+there is some analog of at hoofed
+operator
+well that time they were known in foot
+operator but
+there was some anago like of a truth
+operator
+theory but i'm not going to
+talk about for the same time being but
+in this 1976 paper he extended that
+and did something the following
+so
+he observed what in modern language
+[Music]
+iteration um
+[Music]
+dangle's theory
+may have
+on the quantum level
+may have
+one form symmetries
+so he didn't phrase it this way but
+that's how we would say
+and nowadays
+uh so what did this one form symmetry
+that took different kinds of quantum
+symmetries which may appear
+first one is magnet what's called
+magnetic symmetry magnetic one from
+symmetry
+um well what does it mean well this that
+well what does it mean by one form
+symmetry when you have like ordinary
+symmetry it means you can
+attach
+oops
+somebody oops uh somebody spotted an
+error
+thanks for mine
+physics do use watch star
+and i just has an error
+sorry
+yeah yeah hodge star was missing
+the faces are sloppy but not that slow
+so uh
+so this is a hard start here okay so um
+thanks for spotting this so magnetic one
+from symbols what's one from what
+actually what's a one-form symmetry well
+the usual for uh symmetry
+um
+is some way to attach a number to um
+to echo dimension one
+closed surface
+which does not change if we deform this
+surface
+usually we just describe this
+information as a time evolution so you
+form a surface using time evolution then
+you say well that the charge doesn't
+change
+now
+that was uh that so the important thing
+is here that
+the usual charge is defined for
+co-dimension one's first surface in uh
+uh space-time usually we think of the
+surface as a space
+now one form symmetry
+attaches something to the dimension two
+surface that's called sigma
+so in this number
+[Music]
+does not
+change
+if you vary this surf the surface
+say chain without changing its homology
+class
+hey there's some discussion going on
+still about the my my
+uh
+mistake
+no no worry and i think everyone
+understand your notation so feel free to
+keep going yeah keep going
+okay so coming firm so i get a number
+right so here um
+um
+we uh
+in case of a total symmetry this is
+numbers really in
+uh in
+uh as in the
+pi one
+of the group
+and let me um
+for simplicity let me look at the case
+of g g is equal to so3
+the simplest non-simplification group
+which is well simplest non-billions
+simplified compact
+uh lead group so then pi one of so3
+is gmo two
+and
+to a surface we can attach
+element
+of z2
+so what does it measure well
+if you restrict your
+a bundle on the surface you can ask well
+can you lift it to
+um
+an su-2 bundle and sometimes maybe it's
+not possible
+and
+it's not possible we have an abstraction
+and that's what this
+obstruction so this element of the two
+measures if it's zero you have no
+obstruction if it's there
+you have an obstruction
+so um it'll be a topological thing so it
+doesn't vary change if you deform your
+sigma slightly
+um
+so but then there is also an electric
+one from symmetry
+sometimes
+and this symmetry simply
+well if you think about your connection
+it really well if you look at the action
+depends on the curvature of the bundle
+so
+uh if you shift say
+well if the group has a center and if
+you shift connection by some flat
+connection in the center that doesn't
+affect anything here so
+you can
+shift a
+replace a by a plus alpha well this is a
+connection
+on
+z of g bundle
+so zero g is always discrete so
+um
+um well okay so for
+for simple league groups it is discrete
+for u1 it would be actually the whole
+group so there you would say i would say
+that l should be flat but here somehow
+flattening says
+if you have a discrete group then
+uh flatness is automatic so it's likely
+flat
+which is flat
+because then it's also troll string you
+one case
+so we have this um electric one form
+symmetry so so the first symmetry just
+saying well you have this number
+attached to your surface in second case
+you need to work a bit harder so
+uh first of all you notice this is
+symmetry and then you can sort of use a
+generalization of another theorem to
+figure out what the
+um well how did it actually number to
+the surface but it's still true that
+this is number
+so
+now
+for which group does it exist or this
+symmetry well for rather different cases
+you need a non-trivial center
+say
+if g is
+say so3 then we get nothing
+is awesome
+but if you take
+g2 base u2
+then
+[Music]
+center is not trivial it's simon ii
+so a center appears in one situation
+evolve
+should the magnetic
+so sometimes there is electric similar
+from this magnetic symmetry and this
+suggests then that maybe there could be
+maybe some symmetry
+which um
+now what carries these symmetries
+well uh
+loop loop operators can be charged under
+these symmetries
+and you have this at rooftop loops and
+uh which are charged
+um
+on their magnetic for unfortunately
+there are wilson loops which charge on
+the electric confirmed symmetry and
+if there's some duality should exchanges
+two loops two kind of loops and it makes
+more sense uh well it will make sense if
+magnetic one form symmetries would be
+exchanged with the electric one from
+symmetry
+so maybe there is some duality which
+exchanges say
+jungle steer with gauge group so3 and
+young mills in theory with gauge
+repressor t2 simultaneously also mapping
+recoupling to strong coupling
+well that's a
+possibility but not a very likely one in
+english theory because first of all what
+does strong coupling and wickupping even
+mean because
+in yangon's theory on the classical
+level there is a gauge coupling which is
+called e i guess
+and there is a theta angle and the theta
+angle is well defined in quantum theory
+but
+it's a physical parameter but the
+usual coupling e is normalized
+so it depends on its unphysical reaction
+the physical parameter is uh
+some is actually dimensional
+it's a scale where you know multi-angle
+series is particularly free so it's
+almost non-interacting at short
+distances but becomes very strongly
+interacting
+at long distances develops a mass gap
+and so the size of this mass gap is a
+parameter not the coupling
+physical
+so it doesn't make sense to say that e
+goes to one over e or something like
+that if it's not even truly a physical
+parameter
+so email's theory does not have um um
+a duality uh duality but nevertheless um
+something like well there's some
+uh interesting observation that there is
+this one from symmetries and then
+goddard newton olive observed another
+thing
+they observed that if
+you study
+electric charges and magnetic charges
+classically
+then there is a symmetry
+um when the classification
+is naturally symmetric
+and the symmetry actually does exchange
+so3 and sub 2.
+and more generally
+so
+close classification
+of a
+classical
+spherically symmetric
+configurations
+um
+is
+[Music]
+symmetric
+under
+exchange
+of electric and magnetic
+sources or configurations
+simultaneously
+um
+[Music]
+and replacement of so3
+with su 2
+and more generally
+replacement of a group by something
+called language dual group
+which
+would be called gl
+so um
+yes i have a question also i think uh
+just make sure in the earlier example
+the uh duality in the u1kg3 actually
+they are the same phase of the quantum
+matter
+so they are they share the same phase
+diagram they have the same
+global symmetry including one point
+symmetries and also central anomalies
+but here for the seo two so3 example
+that you may going to establish
+they are not the same
+quantum phase in a sense they may not
+have the same
+uh total anomalies right
+oh wait uh
+the phase well
+the phase that they're in the massive
+phase both right and they both have uh
+um well first of all
+i just want to clarify the notion of
+duality is that is that somehow
+different the duality concept is that
+is the duality here is not the
+description of the same theory but
+duality between different theories yeah
+that's true in general it's relate
+to different theories yeah and they are
+not even having the same
+phase or same or even connect by a phase
+diagram in the quantum phase sense they
+don't they may not in a multi-cypress
+world i think it's not a deformation
+clause of the same kind of uh same
+deformation clause or conveyor theory
+yeah they're not deformational
+in general
+but sometimes they are like in your one
+case they are right
+and uh
+you know they're also done a million
+examples where the dual group actually
+mainly are main examples where the deal
+group is exactly the same as the
+original one
+for example uh
+i don't know take uh say
+well not the simplest example but say e8
+each group is a self language dual right
+so in that case they are the same theory
+so it's very much like want kids
+so so is there a way to phrase this
+maybe this type of duality or juvenile
+duality in terms of some deformation
+class or common field theory in the
+sense of
+the
+just the class of the theory where where
+where we maybe classify them by
+global symmetries and topo anomalies or
+maybe some other things but
+are there some way to phrase them where
+where are we identifying
+exactly you're looking for but i'm just
+saying that sometimes uh this uh this
+duality conjecture duality
+because it is a
+relays different theory sometimes yes
+the you just map on the parameter space
+of one theory
+depends on yes
+yes
+okay but anyway but some of them are not
+deformable so they are not even sharing
+the same phase diagram in my opinion
+anyway
+thanks
+okay so um
+i'm trying to answer his question
+in many of these cases you can
+change so especially in the n equals
+four case they're clearly deformed to
+one another just by varying the value of
+power
+so you vary the value of tau and then
+you go from a description one of them is
+more natural to the description but the
+other one is more natural
+so they're clearly deformed to one
+another
+the non-trivial statement is that after
+the deformation there's another weekly
+couple descriptions so you start from
+one week a couple theory and after the
+deformation you end up with perhaps
+another
+couple theory yeah you can also phrase
+it this way yeah
+all i'm saying is that yeah so if you if
+you define your theory by lagrangian
+then you know
+so3 and c2 just different theories but
+if you define it yeah using just
+correlators
+then they're the same theory of the
+difference i'm not disputing what you
+said i'm trying to connect the correct
+statement you said to the valid question
+the juvenile race
+but is there really a deformation class
+in the same
+class exactly in the same group it's the
+same theory these are two different
+presentations of the same theory
+right so that's why in particular
+anomalies
+oh certain other moments the symmetries
+must match right
+okay so um
+now um
+let me just say that um
+okay so that's great but um it's a good
+evidence for duality okay actually not
+so good because nobody really believed
+in this duality
+for the reason that you know the gauge
+coupling flows so there's no nothing
+which should be you know it doesn't make
+much sense to say that uh
+coupling goes to one or itself
+um unlike the case of a billion case now
+two things which
+were realized uh
+here afterwards is that
+to make sense of this
+from this duality
+that is proposed to conjecturality
+need to
+add supersymmetry
+to add an absolute symmetry
+to
+make the beta function vanish identical
+and uh if you decided just to add the
+fields in the adjoint then there is no
+hn representation of the group not much
+choice you so you need your force to go
+to n equals force for symmetry
+and uh
+for anyone's force supersomatic theory
+there are lots of things you can compute
+exactly
+and in particular there's special states
+called the
+dps states whose mass you know exactly
+given their charges
+so
+so there you know in this theory so this
+theory actually is quite unusual from
+the point of condensed metaphysics
+so let me briefly state
+what it has
+so it has
+the same gauge field
+and has also scalar fields
+also in the adjacent representation so
+i'll don't indicate everything is an
+android here as far as the gauge group
+is concerned
+uh
+there are these um
+six of them scalars
+and then there are some fermions
+so the
+so
+that is wild formulas um
+in the four copies of them so this the
+so the the group actually the cinema
+tier actually has a symmetry
+in global symmetry
+uh so of course this is poncares
+symmetry but there's also
+um well let me least the one that's
+important here
+there is spin six symmetry
+uh spin 6 symmetry which acts on this uh
+sixth scalar as a vector and acts on
+this um
+of
+this says fermions as a spinner
+uh so anyway so the interesting thing
+about this theory is the potential for
+the scalars
+is proportional to a commutator
+like this
+so the theory classically has lots of
+vacuum
+so
+so now this thank you well of course you
+can identify it in variant
+configurations of scalars but enough to
+do that you still have um uh well it can
+sensible in vacuum all these guys should
+commute so you might as well rotate them
+to the same cartons of algebra
+but
+even after that you still still have
+six of these guys
+uh and when divided by the action of the
+while group
+so you have um uh this large um so this
+is carton symbology
+it's quite unusual situation from a
+point of view normal like a
+non-supersomatic field theory but it's a
+pretty common in super symmetric fuel
+theories so then another thing which is
+common is that
+we have enough super symmetry then
+there are no quantum effects which can
+leave this degeneracy so you do have you
+do have in this
+quantum field theory this
+large space of vacuum
+and at the generic point of this space
+you know your gauge group approach is
+broken down to an abelian subgroup
+because uh if you have some generic
+configuration with flies the only thing
+which is left invariant in the gauge
+group is some billion sub group which
+commutes all these phi's
+so you're reduced to electromagnetic
+electromagnetic duality
+uh to
+maximal theory or several copies of it
+plus some scalars plus some fermions
+which are all
+uh obedience and they live in this
+carton symbol so that's the law energy
+effective theory
+uh and then of course uh
+such a simple theory you can check
+explicitly that the duality uh acts
+uh
+incorrectly so there is that's the first
+check you can do but more interestingly
+you can also check that
+um so as far as so the massless mode
+gapless modes are all uh a beta duality
+but more importantly uh you can make a
+like stringent uh check by looking at
+the masses of um
+of um
+bps excitations nameless uh the one the
+one which minimize which are super
+symmetric in a section with a given
+electric and magnetic charges
+so if you're dealing with su-2 this
+group is um
+well you have um
+where is the 3 you have this
+[Music]
+one dimensional t is 1 dimensional but
+then we still have
+six dimensional space of vacuum and you
+can
+at any point in this boundary space you
+have just your one gauge theory so there
+are there are monopoles and the
+electrically charged thing uh so they're
+monopoles and ions and you can just ask
+how the spectrum for the debate duality
+and it does so that's
+well not very convincing but some piece
+of evidence which goes beyond this
+really rudimentary evidence that
+people
+discussed
+in the 70s
+now
+eventually though uh it became clear
+that this duality is not just some
+conjectural thing
+uh it has to be true
+uh for various reasons uh really mostly
+to string theory
+so
+basically string theory in some sense
+implies this non-abelian
+electromagnetic duality
+also known as montoyano
+so there are many way well that is thus
+oh there are many ways to when it's many
+string clear arguments you can give in
+favor of this but basically
+various string theory conjectures and
+the structure of string theory hangs
+together only
+uh if you assume uh this this duality
+holds without it just you know you
+cannot uh
+understand well various uh you know the
+theory string theory is supposed to make
+sense one perturbatively and if you
+assume that that implies monthly
+knowledge duality
+or n equals four super angles theory
+so as i said there are many ways to
+explain it but like one of the
+uh in some sense uh simplest
+explanation is that
+you can um
+there's an object in uh string theory
+called the five brain
+which is some
+which is whose language theory is
+described by some six dimensional
+uh chiral theory six meaning like five
+spatial five one time dimension
+so
+so this five brain
+well it has five spatial dimensions and
+one time
+some camera exists
+so then it's compactification
+so that if you compact competitive
+compactify
+of
+sort of stack of n
+five brains
+on t2
+gives you
+the n equals four super caramels in four
+dimensions in the remaining four
+dimensions
+and then uh the parameter
+uh parameters g well sorry the gauge
+coupling e and theta are determined by
+the geometry of the stores in which you
+can pectify things
+[Music]
+so in some formulation just the complex
+structure
+of the torus and
+that complex structure is described by a
+parameter in the upper half plane
+complex overhaul images
+but only up to
+you need to identify
+values of this complex structure related
+by
+the same transformation which i wrote in
+the very beginning
+this one
+so if if this picture makes sense at all
+you must have this identification this
+duality
+so
+um um
+okay so there is a there's extremely
+good reasons to believe that duality
+holds
+uh and um
+the question is more like becomes
+what are the consequences of this
+a lot of you know effort early on was uh
+spent on like verifying some predictions
+of duality but just to check it but once
+people got confused that it's true
+one could like boldly
+go and look at some more
+uh refined and
+non-trivial consequences of these jobs
+now um and um
+well in general it's kind of
+hard to uh deduce
+well check well or reduce some
+statements which you can actually
+make make sense of because you know if
+you have
+quantum field theory a tweak coupling
+will you know describe it perturbatively
+but the duality maps it to a quantum
+field theory it's strong coupling
+and about which you
+know very little
+so
+um
+so that we can not even make sense of it
+you cannot even formulate the prediction
+of the form which can say mathematically
+say addressed
+well the way out is
+to
+look at some subsector of this theory
+this procedure was invented by ed witten
+much earlier in the context of
+his
+work on donaldson invariants
+uh but it can also be applied to uh it
+can be applied to a variety of
+supersomatic theories
+uh so that the idea is to identify some
+sector of supersymmetric field theories
+which can be
+interpreted in terms of
+topological field theory so angle's
+theoretical is not topological but
+there's a sector in it which can be
+turned into biological theory
+[Music]
+so
+now actually there are many ways to do
+that
+um uh but anyway the point is that you
+can apply this uh to both theories uh
+related by this material duality
+and you get some topological filters you
+can probably analyze
+maybe and
+then whatever computation during one
+field theory should be
+in another filter you would you know map
+to some computational other field theory
+and they should give you duality it's
+predicted you're going to get the same
+thing
+so what sort of
+things you can actually do in
+topological fields
+well the basically the point is that the
+logical tool theory sounds
+it's clear what thing which things are
+well defined and what sort of
+mathematical structure they form
+so let me just briefly
+review
+sort of things which can be computed
+so tqft
+well in general
+so it's in four dimensions for different
+lessons our case of interest
+well it what what does it do well for
+you well
+the way i say it described qft
+originally was some way to assign
+uh we're going for dimensions
+some spatial slices are complex
+to close through manifold and attach to
+it some vector space
+hilbert space actually
+and if you have some borders in between
+three manifolds
+then should attach well if you first
+have a
+disconnected sum disconnected some of
+the
+of these um several manifolds and what
+supposedly what happens is that filter
+space just get tensor
+and then you have a borderism between
+one manifold and another one so you get
+uh supposed to get a linear map from one
+such
+[Music]
+guy to another
+say here we have say
+m3 and three
+q3 so it's supposed to get that supposed
+to get the linear map from
+h
+m three
+all right
+let's get a bunch of
+vector spaces
+um
+now that's the idea formulated but now
+we um
+by now like people realize that there's
+more information than is simply these
+maps in the silver spaces
+uh namely can attach things also to
+lower dimensional
+manifolds and this one is extended tqft
+so um
+what else can we say let's
+by the way then just as before one last
+so let me say that if m3
+is simply a three-dimensional sphere
+then corresponding um special case but
+the silver space actually has a
+it can be interpreted differently it's
+also a space
+of the local
+it's located a point
+point like
+observables
+so in this space has some extra
+structure from this
+just by virtual identification
+um
+namely it's a commutative algebra
+so um
+why in algebra well uh first of all
+that's another advantage of topological
+twisting in in
+the ordinary in qft when you have two
+local observables you cannot put one top
+of the other because you're going to get
+some divergence
+uh but you don't get the well-defined
+observable but in the biological field
+theory in that sector
+uh of original field theory there are
+divergences so you can't put the local
+observables on top of each other you get
+a new well-defined observable so these
+guys do form an algebra
+and actually for cumulative algebra
+for kind of topological reasons
+um and you can see from this definition
+simply because
+if you have a s3 and another copy of s3
+there is a
+natural borders and from s3 uh
+disjointedness another three with the
+third issue so
+it's actually a community voucher but we
+can sort of play this game with lower
+dimensional things too let's extend
+what's extended to qft about is um
+and now we can look at say
+some
+two-dimensional thing
+so and according to the rules of extent
+to kft that's attached to uh
+some sort of a
+linear category
+a linear over field so just like the
+category
+[Music]
+so physically what is that
+well the hill press was a bit easier to
+understand because hilbert space
+is a space of states of the theory but
+he also just say this way you can put it
+differently if you have a compact um
+closed manifold
+you can imagine sort of essentially
+compactifying a field theory four
+dimensions of this manifold so you
+basically get quantum mechanics
+we still have time left which is
+non-compact so you have quantum
+mechanics
+and the hilbert space of this quantum
+mechanics
+is this
+guy here
+if you think about this way then um
+we have a two manifold close to manifold
+then you can also compactify your
+field theory in four dimensional on this
+two manifold and end up with the
+field theory in four minus two there's
+two dimensions now
+what does uh two-dimensional appeals
+theory have well still topological tools
+theory
+so but what does why do you get a
+category out to it
+well uh you get a category because as
+well appreciated by now
+a topological boundary condition for
+topological field theory form a category
+so um
+why is that let me just remind you
+probably everybody knows but anyway so
+if you have say two-dimensional field
+theory it leaves a two-dimensional world
+shift or dimensional space time if you
+wish
+and boundary condition is some
+way to define the theory in a half space
+or half plane
+but there may be different ways to
+um do it
+and they have two such guys then you can
+ask what are the ways to
+glue them and these gluings
+form a vector space so they
+um as it turns out
+uh you can use uh
+argus of non rigorous or rigorously if
+you have a right x semantics
+so to any pair of boundary conditions or
+for a given topological field theory
+pair of topological boundary conditions
+you can attach a vector space
+and that's by definitely you have some
+boundary condition b1 and b2
+the space of morphisms between b1 and b2
+so i got this linear category where
+morphisms form
+well
+spatial set of morphemes has a
+structural vector space
+so that's the category and so basically
+again to recap between it closed to
+manifold
+you can attach a category of the
+two-dimensional kills here which then we
+can pack to find the original
+four-dimensional one on this
+two-dimensional guide
+okay so um
+and in particular again special case so
+[Music]
+special so
+so a little special case
+sphere
+[Music]
+so in this case
+this is the category
+of
+loop observables
+usually we'll say line observables now
+but with the closure
+of line
+observables
+or so it loop defects
+so these are you know the
+sort of defects or observables in the
+four-dimensional tqft which are
+localized on a concord dimension three
+so like those wilson loops
+and it's roofed loose we've seen
+originally except in yongnuos theory if
+you don't do anything to it these are
+not topological defects if you deform
+them this looks then expectation does
+change
+but in topological field theory you can
+consider topological defects
+um and
+it turns out that uh wilson you know
+this is a natural topological version of
+the wilson loop a natural topological
+version of the tooth loop
+so actually we do don't lose them even
+after going to the politically twisted
+version of the theory
+so this again these defects are also
+something which has been very popular in
+canada's metaphysics recently uh
+mainly
+due to
+a work of sheldon wayne and
+collaborators because he emphasized that
+the importance of non-invertible defects
+so so these defects don't have to be
+invertible they just uh well so
+so invertible in what sense well this
+category of line absorbable in general
+this category that they described as c
+uh
+just doesn't have any further structure
+not much further structure but in the
+case when the
+again the special case is interesting
+because in this case you get a much more
+strategic you get multiplication
+in this category so you get the monoidal
+category
+or cancer category
+i'm sorry i have a question just to
+clarify you're referring to the
+tqft get after combatification as a
+category or just the binary conditions
+they're in that theory as the category
+so they're two different interpretations
+mathematically extended to kft by
+definition attaches a category to
+closed
+to manifold right
+physically in an interpretation of this
+category there's a cat it's a it's
+objects or boundary conditions
+in the effective topological fields
+theory obtained the compactification
+uh i see and this category line
+observables in the case of s2 are are
+those lines the
+red and the green that you're referring
+to or well no these are okay yeah
+basically except uh it's a
+two-dimensional picture when i say the
+line the observables i again
+i interpret them in four dimensional
+terms again
+i see so in this picture you can only
+you only see two dimensions
+so in this you have two dimensions only
+uh shown right but there are two hidden
+uh these are hidden for uh two other
+dimensions right
+right i see well if you interpret the
+case of s2
+so
+this dimension i'm talking about now is
+to say dimension away from the boundary
+that's actually a radial direction in
+four dimensions
+so there's a sphere hanging two
+dimensional sphere hanging at every
+point in this picture
+so overall we get s2 times positive
+numbers so that's the basically
+uh r4 with the line well
+so you get them if you look at say this
+slice here
+it looks like it's a just a half line
+but in fact it's half line times s2
+so it's basically a
+r3 minus a line
+minus a pointer
+so that's a transfers to
+sort of transfer slice of your loop
+right
+the point here on the boundary actually
+maps to the point r equals zero in the
+on r3
+because we have the strongest two there
+too
+so yeah so this category yeah so this is
+this yeah so
+the line observable sits here but it
+also you know in some sense embedded
+into
+r4
+so so this picture
+in case of when the c this in case of
+sigma is just s2 this picture
+essentially gets interpreted as junction
+of two lines
+of two loops or two two lines or in uh
+four dimensions
+so nicely
+yeah so imagine the formation space have
+two lines
+um
+thank you
+yeah and then you have this space of
+junk uh observable so you get the yeah
+so you get a category still but now it's
+you have more structure because it can
+collide a lot at straight lines in r4
+and you're going to get then
+maneuverable structure your tensor
+product
+uh and moreover because there's enough
+space you can move them around you can
+see verify that this is actually a
+symmetric mono category
+so
+you should add here it's a symmetric
+monitor category
+in this particular case
+and um so okay so
+that seems like something we should be
+able to verify i have to say young
+mill's theory um with the
+gauge groups aso2
+su-2 and another igneous theory with
+so3 is supposed to be langlen's duel
+they generated this controlling of
+duality
+but
+that predicts that this category should
+actually be equivalent so what are these
+categories
+um
+so
+well then there is some further issue
+the point is that um
+so i suppress this point but basically
+um it's an important point
+to understand this
+um
+so i already said that in in um
+in an untwisted theory in the physical
+theory there are both
+wilson loops and hoof loops
+uh but somehow when you twist it only
+one of them survives
+why is that well which one first of all
+that's because results that there are
+sort of
+uh different twists uh for the same
+topological youngest theory
+and by choosing
+parameters of this twist you can either
+kill everything except the wilson loops
+or kill everything except the two blues
+so in reality there is some
+family
+of twists
+and
+promises by some primary verbal t
+in cp1
+um
+so you can and there's some special
+points there's some point plus i has a
+point one
+uh and
+if additionally choose theta angle to be
+zero
+then duality maps between these two guys
+uh but these are different twists uh
+right so reality here not not just maps
+the coupling costs but also maps one
+twist to another two so the different
+tqfts
+and one of these tqft is said here
+the only wilson lines
+another one here
+the only truth lines
+so um
+the prediction is is that the category
+formed by all loop observables
+in the theory is uh
+equivalent to the category of former old
+observables in a dual theory
+but the
+since they kind of twisted together it's
+different
+so this prediction is that actually not
+very easy to verify because category of
+this wilson loops on the other hand you
+have a category of
+loops
+in a dual theory
+now um
+the category of wilson looks like it's
+not that hard to compute
+um so i'm not going to stay where it is
+now but it's it's a trivial sort of
+computation codes
+but the category by the way so wilson
+loops without super symmetry are labeled
+by representations of the group so you
+might have guessed that the symmetric
+monolithical category we're talking
+about is just
+category representations
+[Music]
+of the group g
+that turns out to be not quite right
+but anyway so
+yeah it's not quite right but anyway
+it's possible to compute it
+but it hasn't been uh done for the at
+full as far as i know although there are
+some computations actually rather
+difficult to compute the full category
+okay so even the case of
+s2 if you're like after the full
+structure of this category it's like the
+symmetrical category it's not very easy
+to vary from
+anyway so um
+let me just move on to
+um
+uh so
+so what can we do well um
+in the paper actually with the ad we did
+discuss this uh
+wilson introduced loops
+um
+but um you know it's kind of difficult
+to determine this full structure the
+category we didn't even try that
+rather
+there's some um
+we decided to take a look at the other
+case when the
+you have a general
+um
+surface it's called it's called c now
+not sigma because that's what it's
+called in the paper
+uh and there are two different
+so
+so you have a identical surface in the
+two tqft say i don't know let's take g
+equals
+su two and here gonna have g equals so3
+um and then you can you do these twists
+which twists well as i said because of
+this picture
+if you want duality to map one decrypted
+to another include different twists
+so um
+so let me call it a twist and this is
+twist b
+um
+and then
+you get some category
+depends
+um
+on c
+and there again there are two different
+types of categories like a and b
+according to this two different
+perspective well in general actually
+there's a whole family of them you can
+vary they still over the whole sphere
+but let's just stick with these two two
+points
+uh so there all these labels there
+there's a
+first of all there's a choice of your
+two-dimensional um
+closed manifold c
+then there's a choice of the group let's
+take su 2.
+the choice of twist
+which i say a
+and here you're going to have jso3
+so in the claim there's some equivalence
+between this
+so that's what duality predicts
+and then one can try to unwind what this
+means and finally more precisely what
+this categories are so what i mentioned
+this categories for general uh um
+two-dimensional oriented manifold there
+are some
+continuous categories of
+boundary conditions in a two-dimensional
+tkft this two-dimensional topological
+filter leaves not on c but on the
+remaining two directions
+so
+now luckily uh the kind of topological
+fields well in there lots of
+two-dimensional topological tool
+theories you might think it's uh you
+know from granada's matter
+perspective you say wait a second there
+are no topological field theories no
+interesting topological tool theories in
+two dimensions
+but
+um
+this field series we're talking about
+they're not unitary so if you do not
+if you decide not to work with the
+unitary
+tqft then there are many more of them
+and
+in two dimensions there are quite a few
+interesting non-unitary dqfts and this
+um in particular this uh
+tqt you get them two dimensions on one
+unit
+well actually even you know the tqft is
+in four dimensions that you get by
+twisting and millster also non-unity
+so if you're compactifying them they
+don't become any more united
+so those are different so luckily this
+particular non-unitary 2d qfts that you
+get in this complication have been
+studied extensively
+so um
+uh there uh first there uh you start
+with gauge steering for dimensions but
+um
+the the
+so this is really a sigma model
+on some remaining two dimensions
+with target
+with a pretty complicated target
+so which is called the hitch and
+manifold
+and so is this guy
+so first of all so so what are this
+hitch and what is this target and what
+is this hitch in space attached to
+surface
+well uh there is some um
+uh
+well
+you can think of this as a space of
+solutions of some differential equations
+they're non-linear so difficult to solve
+but anyway so
+so this is a space
+of solutions
+of some
+non-linear
+pdes
+on the surface c
+so uh
+this so what are this pd is for well you
+have again a gauge field there on c
+and
+this is gauge field
+the same kind of gauge for the surface
+su 2 gauge group is going to be as you
+tube gauge gauge field
+and you also have a
+um
+some sort of
+one form
+on
+c
+well
+with events in the edge and
+representation some bundles
+and there are some equations on them
+which are
+you can
+like this
+and this equations have gauge and
+variance so you can quotient by gauge
+transformations so the result gives you
+some
+space
+quite complicated one
+so you can do it both for you can do it
+for any age group
+and the claim is that you get a sigma
+model with this target
+now um
+so
+so the signal elements your fields are
+just scalars uh which are
+just if you're basically there's a map
+from your two-dimensional
+um
+two-dimensional
+uh
+space sigma which is two-dimensional but
+can be non-compact
+to that complicated target
+plus other things which required because
+we have some fermions too because this
+is a together you know if you just take
+a sigma model
+uh typically it's
+not conformal much less topological but
+if you throw in some fermions gonna get
+topological
+that is you can you can truncate the
+sigma model again just the way truncate
+the gage theory to get some sort of
+topological sector
+so um
+where is information about the twist as
+i mentioned before the different twists
+you should be interested in different
+tqfts well information is exactly how
+you do this truncation so you just start
+with this hitchin
+the sigma model well it's a huge
+complicated field theory but we're going
+to truncate it into different ways
+and these are called a and b
+truncations or a and b type sigma models
+and these have been extended this
+particular kind of sigma models have
+been extensively studied
+and this is a really
+different signal models are very um
+uh these diff a and b type models are
+well understood
+and dualities of this kind have been
+studied before they don't go under the
+name of mirror symmetry
+so um it's natural guess then that
+the the reason these categories
+are
+equivalent categories of boundary
+conditions topological boundary
+conditions because the transporting
+signal models
+are
+related by this well-known developer
+known as mirror symmetry
+and you can interact verify it in the
+same following standard of course we
+don't know whether
+we don't know we can't prove this
+monotony knowledge duality but we can
+show that if duality holds then it must
+reduce precisely to a mirror symmetry
+between this
+sigma model with this h and target space
+of type a and another sigma model of
+type b
+with the different hitch and model
+target space
+which in modular space
+so um
+what did we end up well we did use some
+consequence
+um and
+now we can analyze it using our
+knowledge of
+um
+of mirror symmetry so namely uh
+we can first of all ask what is the
+what does it say well the b the b model
+the sigma of type b is much simpler than
+single model of type a
+so in that case we can completely
+describe this category in the simple
+terms well relatively simple
+so
+um this h and modulus space is a some
+manifold with some riemann metric or a
+very special kind on this hyperkalem
+metric
+in particular it has um it's also a
+complex manifold and in fact you can
+choose holomorphic coordinates in many
+many different ways
+so there's a whole
+sphere two dimensional sphere worth of
+sort of incredible inequivalent choices
+of homomorphic coordinates in this
+but the point is that
+um
+say for group g
+has a
+s2
+worth
+of
+complex structures
+uh and anyway so the beam uh it's called
+b model
+uh well it's a twisted version or sigma
+model single model itself depends on the
+um
+depends on the detailed geometry of the
+space but once you twist it that only
+depends on the complex structure of the
+space which might have less less
+information like the space of all
+metrics
+on this on the manifold is infinite
+dimensional space of conflict structure
+is finite dimensional
+and it's known that the kitchen motor is
+a hitch and
+well the twit the b model
+of this hitch in space will
+will depend on the complex structure
+usually that fixes your complex
+structure like up to a sine or something
+like that but
+not here here they said this whole
+sphere of worth of complex structures
+but luckily we can guess which one it is
+without doing any computations because
+most of these complex structures
+actually
+uh depend uh well
+depend on how you choose complex
+structure on c now however in our
+business
+c was just oriented two-dimensional
+manifold didn't have any complex
+structures so uh we only we need to on
+the sphere they're precisely like two
+points
+uh two complexes don't depend on the
+choice of a
+complex structure on the c so these are
+the one this is the b model you get here
+anyway so once you understand which
+complex structure you have you can
+identify this category of boundary
+conditions for this b model
+naive question
+since all this sigma model aod type uh
+uh the non-monetary theory
+uh
+because it makes sense to even ask
+whether they are capitalists or gap
+theory or maybe it doesn't make sense at
+all
+no i don't think it makes sense to us
+okay they just have uh their sort of
+zero energy sector if you wish
+so there's no non-zero energy
+you can
+the truncation kills everything
+uh except those of the zero energy
+sector
+okay
+and and let me make sure is there any
+connection as far as you know to some
+quantum mechanics system which is let's
+say unitary
+uh
+unitary system suppose suppose i do some
+truncation on hebrew space does he have
+any realization of application to
+quantum meta system just as far as you
+can
+so as i know i don't know any probably
+so in my mind at least this a models and
+b models are kind of disconnected from
+uranus qfts
+right okay thank you
+so anyway so
+so this category then
+type b
+turns out to be
+identified with the
+derived category
+of coherent shifts
+on
+this
+hitch and modulus space and some
+particular complex structure
+essentially uniquely defined
+from this consideration just mentioned
+that's good but as for this
+it's not so easy to identify the a type
+there
+the category attached of type a right so
+which we also need to compute
+so
+the objects of this category are known
+as a brain in the strength literature
+luckily oh well in general actually we
+don't understand this category very well
+but luckily the hitch and modular space
+is a has a particularly fairly nice
+structure
+so you can um
+argue not rigorously that uh this
+category should be also
+cannot can be identified with a
+uh direct category of modules or
+something uncommitted basically
+or quantization of this h modulus space
+so
+uh you can
+basically say that d-modules in some
+sense
+so in the end you get some statement uh
+that there's some mirror symmetry the
+witness of categories between
+this derived category of coherent
+shields on the hitch and moderate space
+of one group with some particular
+complex structure
+and
+the
+this category of a brands which in this
+particular case can be associated with
+can be interpreted as a category of d
+modules
+on on on a different space associated
+with the group language zoology
+so and this uh
+equivalence well you can specialize
+further
+you can uh
+um you can you can learn something about
+well it's not just the equivalent we
+know something about how this
+equivalence works like in particular we
+can
+figure out who is the dual or at least
+roughly who is the dual of the simplest
+object of this category here
+so the simplest one is just simply the
+point you can interpret the skyscraper
+shift
+take a point on this moderate space take
+a skyscraper shift and
+you can figure one can figure out
+roughly what the dual is under this
+mirror symmetry
+so and that gives rise to um it's a gem
+statement of geometric language
+you can describe
+some property of the dual
+um
+which
+mathematically corresponds to that
+object being a
+heck eigensheet
+oh and um the properties again uh it's
+best thought of in categorical terms
+namely um
+as already mentioned
+um
+you have this special
+case of this category when c is equal to
+uh s2
+so this this um
+um
+objects of this that category actually
+gives rise give rise to
+um
+defect lines in two-dimensional field
+theory that we're discussing
+so you have some element of the boundary
+of the some boundary condition for this
+uh sigma model we're talking about
+either of a or b type doesn't matter
+so
+so here's our boundary condition maybe
+and then you can ask okay so well it
+turns out that well
+so this is our world shift
+in two dimensions
+i call this the dimensional part of
+sigma
+now it turns out that every line
+observable topological and observable in
+four dimensions gives rise to
+a defect
+of dimension one in this two dimensions
+and um
+has now appreciated now very well if you
+have such a thing you can sort of
+collide the defect with the boundary get
+a new boundary condition
+so in other words um
+a category of boundary conditions forms
+a mod well it's a module category of the
+monolithical category of
+defects into dimension two-dimensional
+tqft
+so in particular you can collide uh you
+can pick any boundary and collide it
+with the defect corresponding to a loop
+observable one of this will not hoot
+well if you're in a situation
+it's going to be a truth observable
+you can in sort of test your elements or
+object of this category by colliding
+them with a tooth line here or
+with wilson loops here
+and turns out the sort of eigen objects
+or in some sense of this
+process so if you
+sometimes get item objects like if you
+take say that simplest uh object less
+derived category you're pointing to just
+a skyscraper sheet so that turns out to
+be an eigen object
+for all this wilson loops
+and therefore by equivalence it should
+also turn out the corresponding dual
+object should be an eigen object for all
+uh at hoof operators in this a twisted
+theory
+and that's the heca eigenshift property
+so
+[Music]
+i guess i'll stop here so i cannot
+really explain how this works
+yeah but
+you can like the detailed lecture in
+particular by
+ed and myself also which are available
+online
+so if you don't want to read the whole
+paper you can call these lectures
+thank you very
+much uh
+any question comments from the audience
+and also to antony if you still have an
+additional thing you want to say please
+feel free to take advantage it's not
+really a problem
+no i can yeah
+is long enough for me i'm not going to
+do this
+no problem so any question
+comments from the audience please
+i again have a knife question is is that
+uh
+i mean just for the maybe maybe more
+quantum matter perspective does it make
+sense if if you start from any sushi
+twist non-unitary theory does it make
+sense to
+maybe combine this with some additional
+new sectors
+make the whole theory unitary in some
+nice way so that the whole things
+together have some unitary
+uh quantum maybe some quantum field
+theory or quantum method description
+this this is basically one thing
+i want to ask not sure what is clear
+can what can one a something and make
+the two the two combine system is
+unitary in some way
+no
+maybe i i don't think that's possible
+because i forgot yeah so
+it's not just
+what is it
+additional equation for which you forgot
+to write down
+uh
+yeah so no i don't know any like
+relation unfortunately so
+if you want to deduce some consequence
+for condensed matter maybe you should
+just go back to the original untwisted
+that's a perfectly good physical you
+know unity kill theory
+so
+um
+so yeah you shouldn't twist it if you
+want to connect
+i'm not sure what will you do with it
+though
+if
+if there are no
+questions that are directly related
+maybe i could ask
+more philosophical questions but i would
+first like to wait
+make sure that there are no more
+sensible questions
+i think nothing should go ahead first
+you might inspire other people to ask so
+why does it work namely
+how come that
+mathematician studied one thing in
+physicists studied something else and it
+turned out to be the same
+there are many things that can be
+studied
+on
+which sides the probability that the
+coincide is quite small
+um
+yeah i mean
+i don't have any issue with the physics
+side it's quite well motivated my
+problem with mathematics i don't
+understand
+i don't understand how mathematicians
+think i guess
+so on the physical side the fact that
+you have this duality is a has a nice
+explanation in terms of string theory
+it's not like a freak
+thing the fact that non-priority string
+apparently exists implies that this this
+thing makes sense right
+so the question is really how how did
+mathematicians without the benefit of
+knowing about string theory managed to
+discover some bit of that picture right
+no i don't know well they've done and
+they did it earlier so it's not just
+that they did it without it also did it
+earlier yeah i did it much earlier and
+uh
+yeah so
+well if i understood the
+uh well first of all i think the most
+mostly interested in you know what they
+did was the
+non-geometric language like a number
+theory
+i wish i don't know anything about that
+so i don't understand how that is
+modulated
+uh
+the the yeah so the geometric language
+is some offshoot
+uh which are roles from like
+failed attempts to
+prove the original language during the
+conjecture
+uh so
+it looks i don't know to me it looks
+some sort of freak accident still
+that mathematicians managed to discover
+it could reinforce the possibility of
+the theory perhaps if mathematicians
+discovered it by accident or maybe
+they're regurgitating some natural law
+that already exists through the
+mathematical investigation
+like a natural coincidence that that
+reinforces the possibility that the
+theory is true
+well i don't know we have enough uh true
+in what sense like basically so first
+so we have a lots of evidence we don't
+need this so
+the early the characters where it has to
+conclude that uh string theory is uh
+well defined on perturbativeness
+like that would be a really freak
+accident if everything you know about uh
+string theory was right but it still
+would be not perfectly incomplete so
+that seems to be like
+ridiculous pretty absurd so
+string theory is uh
+at least some versions not particularly
+consistent and that's a massive evidence
+for that so i don't need the
+mathematical evidence
+uh from you know
+geometric language to like
+boost my confidence in that
+uh
+so i'm not very sure yeah so for me it's
+just it's a freaky thing i don't
+understand this
+but it's because i don't understand
+geometric duality
+i don't know anything about numbers here
+so
+what can i say maybe it's all very
+natural there
+but there's a maybe a point of view
+sorry for uh since maybe i'm not
+qualified but i think the thing is that
+because here it's about discovery
+it's not invention so you discover
+something people can discover from
+different angles
+yeah it's a discovery
+so that doesn't already exist we just
+discover it
+so you won't be surprising different
+people discover the same continents
+yeah i am surprised that people i agree
+that this discovery but why did
+two different completely different lines
+of investigation end up with the same
+discovery
+that's
+well you could
+like you could ask this question about
+some simpler cases
+which understand better like say
+john's polynomial and uh turn simon's
+theory
+so those occurred pretty much
+simultaneously but the line of thought
+was little totally independent
+well there i think it's closer than here
+well the connection is just easier to
+understand that's all
+but no but also the the manipulations
+that lead to that all these relations
+that you kind of
+forget what it's called when you cross
+the lines and
+and so forth that's essentially you
+compute it essentially in the end the
+same way
+yeah
+with churn simon's theory
+here it's a little bit more mysterious
+okay i say differently in the case of
+the trans simon's theory the theory
+manifestly exists you you analyze it
+with coupling there are no surprises
+here you need to use the surprises or
+strong coupling
+to
+to get your results
+yeah well i i guess
+i guess
+we can argue which one is more
+surprising that's that's not the
+question but why does it work at all
+does this give us any confidence that
+similar things are going to work in the
+future i guess if one was like
+optimistic one would say that well
+the fact that some number 30
+considerations lead to the same
+kind of prediction as string theory
+then maybe there is more overlap between
+these two subjects than we currently see
+so
+so when i ask my questions that's what i
+hoped you would say
+yeah but we we just mystified because we
+don't see the large overlap in this venn
+diagram but uh
+maybe there's
+if there's two subjects or have a huge
+overlap than that's surprising about it
+it seems more like a 2 or more different
+civilization discover the same continent
+thing
+i mean currently is that you said that
+they have this tiny overlap right
+in this very third corner these two two
+two totally different areas just touch
+right in a highly non-trivial way
+so well
+what is explanation i guess natural
+explanation that there is actually
+a big overlap so
+i don't think anybody seriously work on
+that by the way
+i guess natural thing would try to fit
+other number 30 conjecture the results
+which is some string three framework but
+i don't know
+any number two so i'm not the person to
+do that
+uh other audience please also feel free
+to ask questions
+now i think we should thank anton first
+thank you thank you anton thanks very
+much
+nice
+thank you
+thank you thanks
+pleasure special thanks

@@ -16,8 +16,8 @@
 
 | # | Role | Video / source | URL |
 |---|------|----------------|-----|
-| 1 | ORIENTATION | Edward Witten — Mirror Symmetry & Geometric Langlands (Fields Medal Symposium 2012) | https://www.youtube.com/watch?v=S02ghGCdNDo |
-| 2 | CORE | Kwokwai Chan — HMS for local CY via SYZ | https://www.youtube.com/watch?v=Kz6Dj8KSFjM |
+| 1 | ORIENTATION + Mode C | Edward Witten — Mirror Symmetry & Geometric Langlands (Fields Medal Symposium 2012) | https://www.youtube.com/watch?v=S02ghGCdNDo · **captions extracted** |
+| 2 | CORE (no captions) | Kwokwai Chan — HMS for local CY via SYZ | https://www.youtube.com/watch?v=Kz6Dj8KSFjM · no subs |
 | 3 | RESEARCH | Eric Zaslow — Lagrangian fillings (SYZ workshop) | https://www.youtube.com/watch?v=Y3-sw3tjZiU |
 | 4 | META | Simons / Harvard CMSA HMS seminar series | https://cmsa.fas.harvard.edu/event/homological-mirror-symmetry-seminar/ |
 | 5 | NOTES | MIT OCW 18.969 Mirror Symmetry (lecture notes) | https://ocw.mit.edu/courses/18-969-topics-in-geometry-mirror-symmetry-spring-2009/ |

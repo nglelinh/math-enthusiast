@@ -16,9 +16,9 @@
 
 | # | Role | Source | URL |
 |---|------|--------|-----|
-| 1 | CORE | Kapustin — EM duality and geometric Langlands (talk) | https://www.youtube.com/watch?v=oJRD3PshFjY |
-| 2 | CORE | Gukov — Geometric Langlands and S-duality in $$\mathcal N=4$$ SYM | https://www.youtube.com/watch?v=bCpVL6flCxo |
-| 3 | ORIENTATION | Frenkel — Gauge Theory, Geometric Langlands, and All That | https://www.youtube.com/watch?v=8Pkw25J-Bg0 |
+| 1 | CORE + Mode C | Kapustin — EM duality and geometric Langlands (talk) | https://www.youtube.com/watch?v=oJRD3PshFjY · **captions extracted** |
+| 2 | CORE + Mode C | Gukov — Geometric Langlands and S-duality in $$\mathcal N=4$$ SYM | https://www.youtube.com/watch?v=bCpVL6flCxo · **captions extracted** |
+| 3 | ORIENTATION + Mode C | Frenkel — Gauge Theory, Geometric Langlands, and All That | https://www.youtube.com/watch?v=8Pkw25J-Bg0 · **captions extracted** |
 | 4 | BRIDGE | Witten — Mirror Symmetry & Geometric Langlands | https://www.youtube.com/watch?v=S02ghGCdNDo |
 | 5 | WRITTEN | Kapustin–Witten hep-th/0604151 | https://arxiv.org/abs/hep-th/0604151 |
 | 6 | WRITTEN | Frenkel — Lectures on Langlands and CFT | https://arxiv.org/abs/hep-th/0512172 |

@@ -12,5 +12,5 @@ Generated: 2026-08-04 UTC
 ## Notes
 
 - Captions via yt-dlp; not human-verified.
-- **Caption gap (documented 2026-08-05):** `0KqVP9We2LQ` has no captions in pack. Lesson marks it optional orientation only—do not invent Mode-C from missing ASR.
+- **Caption gap (rechecked 2026-08-05 item B):** `0KqVP9We2LQ` still has **no subtitles** (`yt-dlp --list-subs`: no subtitles). Rate-limit 429 on some download attempts; list-subs confirms gap is real.
 - Primary Mode-C / culture sources: Abel interview + “write mathematics badly” + “50 years ago number theory.”

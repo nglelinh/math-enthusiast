@@ -1,0 +1,30 @@
+{
+  "pack": "mirror-symmetry",
+  "generated": "2026-08-05",
+  "policy": "Reconstruct; do not paste ASR",
+  "data": {
+    "video_id": "S02ghGCdNDo",
+    "title": "Witten \u2014 Mirror Symmetry & Geometric Langlands (2012)",
+    "role": "ORIENTATION/CORE culture",
+    "units": [
+      {
+        "id": "ku_witten_why_4d",
+        "title": "Why geometric Langlands wants 4d QFT",
+        "type": "intuition",
+        "summary": "Witten motivates attaching a category of boundary conditions on a closed surface (2-manifold) to a 4d quantum field theory: geometric Langlands assigns categories to a Riemann surface, matching the dimensional pattern of QFT boundary categories."
+      },
+      {
+        "id": "ku_witten_n4_sym",
+        "title": "N=4 SYM as the natural theory",
+        "type": "overview",
+        "summary": "The theory with maximal supersymmetry in 4d\u2014N=4 super Yang\u2013Mills\u2014is identified as the natural home: gauge group G (compact Lie), dual group G\u2228 appears via S-duality later in the story; differential from supersymmetry packages geometric Langlands structure."
+      },
+      {
+        "id": "ku_witten_mirror_hitchin",
+        "title": "Mirror symmetry meets Hitchin / Langlands",
+        "type": "connection",
+        "summary": "Talk bridges mirror symmetry language (branes, dual geometries) with geometric Langlands on moduli of bundles / Hitchin-type data; treat as culture and dictionary, not a board proof of HMS or GLC."
+      }
+    ]
+  }
+}

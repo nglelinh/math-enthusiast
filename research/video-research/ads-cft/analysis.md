@@ -21,3 +21,8 @@
 - “String theory proved quantum gravity” overclaim.
 - AdS ≠ de Sitter cosmology (our universe is closer to dS; dS/CFT harder).
 - Not every strongly coupled QFT has a known gravity dual.
+
+## Mode C extract (2026-08-05)
+
+- Primary captions: Maldacena `sYqtGXN59uE` → holography slogan, basics before SUSY, weak strings ↔ strong gauge.
+- Penedones `8xwCcUu0OIM`: **video unavailable** at extract time.

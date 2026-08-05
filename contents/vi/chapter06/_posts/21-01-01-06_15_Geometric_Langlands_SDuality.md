@@ -152,16 +152,43 @@ Sơ đồ đó là trái tim seminar của văn hóa Kapustin–Witten.
 
 ---
 
+## Mode C — ghi chú tái dựng từ video flagship
+
+*Tái dựng từ auto-caption Kapustin, Gukov, Frenkel. Caption: `research/video-research/geometric-langlands-sduality/transcripts/`. Units: `knowledge_units_mode_c.json`. Tái dựng; không dán ASR.*
+
+### C1. Kapustin — hạt giống điện–từ
+
+Maxwell cổ điển (không điện tích) có đối xứng gửi từ sang trừ điện và điện sang từ. Đó là **hạt giống S-duality**. Trong gauge không giao hoán / supersymmetric: nhóm dual $$G^\vee$$, toán tử đường dual, khớp quan sát.
+
+### C2. Wilson (điện) vs defect từ
+
+**Wilson loop/line** mã hóa chèn worldline điện tích. **Toán tử đường từ** dual (văn hóa ’t Hooft) là quan sát dual. Geometric Langlands, trong dictionary vật lý, tổ chức category từ dữ liệu dual sau compact hóa trên đường cong—**cầu, không chứng minh thuần**.
+
+### C3. Gukov — vì sao geometric Langlands, rồi vật lý
+
+Nửa đầu: geometric Langlands ở giao **số học** (Langlands cổ điển), **hình học**, và **lý thuyết biểu diễn**. Nửa sau: **tiếp cận vật lý** qua S-duality gauge kiểu $$\mathcal N=4$$—đóng gói khác toán thuần, cùng tinh thần nhóm dual.
+
+### C4. Frenkel — định hướng dự phòng
+
+Talk Frenkel nhẹ hơn khi Kapustin/Gukov quá đặc. Dùng cho khí hậu, không hoàn chỉnh kỹ thuật.
+
+### C5. Vệ sinh (chung Ch.2 §9b)
+
+Fundamental Lemma của Ngô là **endoscopy số học**, không phải “geometric Langlands xong.” Dictionary dualty vật lý định hình agenda; không thay chứng minh toán. Xem [Witten mini]({{ site.baseurl }}/contents/vi/chapter06/06_17_Witten_Physics_Math/).
+
+---
+
 ## Nguồn video
 
 Gói: `research/video-research/geometric-langlands-sduality/`.
 
-1. **Core** — Kapustin: [https://www.youtube.com/watch?v=oJRD3PshFjY](https://www.youtube.com/watch?v=oJRD3PshFjY)  
-2. **Core** — Gukov: [https://www.youtube.com/watch?v=bCpVL6flCxo](https://www.youtube.com/watch?v=bCpVL6flCxo)  
-3. **Orientation** — Frenkel: [https://www.youtube.com/watch?v=8Pkw25J-Bg0](https://www.youtube.com/watch?v=8Pkw25J-Bg0)  
-4. **Bridge** — Witten: [https://www.youtube.com/watch?v=S02ghGCdNDo](https://www.youtube.com/watch?v=S02ghGCdNDo)  
+1. **Core / Mode C** — Kapustin: [https://www.youtube.com/watch?v=oJRD3PshFjY](https://www.youtube.com/watch?v=oJRD3PshFjY) · caption trong pack  
+2. **Core / Mode C** — Gukov: [https://www.youtube.com/watch?v=bCpVL6flCxo](https://www.youtube.com/watch?v=bCpVL6flCxo) · caption trong pack  
+3. **Orientation / Mode C** — Frenkel: [https://www.youtube.com/watch?v=8Pkw25J-Bg0](https://www.youtube.com/watch?v=8Pkw25J-Bg0) · caption trong pack  
+4. **Bridge** — Witten: [https://www.youtube.com/watch?v=S02ghGCdNDo](https://www.youtube.com/watch?v=S02ghGCdNDo) · caption ở pack mirror  
 
-URL đầy đủ: `research/video-research/geometric-langlands-sduality/references.md`.
+URL đầy đủ: `research/video-research/geometric-langlands-sduality/references.md`.  
+Trạng thái transcript: `research/video-research/geometric-langlands-sduality/TRANSCRIPT_STATUS.md`.
 
 ---
 

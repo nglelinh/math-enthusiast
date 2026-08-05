@@ -1,0 +1,1600 @@
+right let's begin our afternoon session
+our next speaker needs no introduction
+for many years he has been dazzling us
+with beautiful ideas and insights coming
+from quantum field theory that have kept
+several generations of mathematicians
+busy and more recently with his coursers
+he found the links between the language
+program and dualities in quantum physics
+so it's a great pleasure to have ever
+waiting from instead of anesthetic we'll
+talk about mirror symmetry and geometric
+langlands thanks for the kind
+introduction and I guess I can thank the
+organizers for inviting me since I'm not
+one so I want to start by explaining why
+it's natural to associate geometric
+langlands to a quantum field theory
+specifically in four dimensions so also
+I want to say I know the audience is
+very diverse so there will be
+occasionally some big words thrown in
+that will make more sense to some than
+others you're supposed to ignore them
+when they come along so geometric
+langlands involve statements about a
+Riemann surface see which for us is
+simply a two manifold but the basic
+statements are not statements about
+numbers or vector spaces they're
+statements about something more abstract
+called categories and here we have to
+remember what quantum field theory does
+a d-dimensional quantum field theory
+associates to a closed D manifold M sub
+D a number the partition function it
+associates to a closed D minus 1
+manifold MD minus 1 a vector space which
+is the space of physical States and to a
+D minus 2 manifold it Associates a
+category which you can think of as a
+category of boundary conditions for
+practitioners of quantum field theory
+and for dimensions the first two steps
+in this hierarchy are familiar and the
+third one is slightly less familiar
+where physicists have used the third
+step in the hierarchy most is for D
+equals two where in string theory one
+has brain
+which arises boundary conditions in
+quantum theory and although this isn't
+the language physicists usually use
+mathematicians speak of a category of
+brains and that's a special case of the
+fact that in general and d dimensions
+quantum field theory attaches a category
+of boundary conditions to a closed d- 2
+manifold now in geometric langlands
+we're supposed to have a category 2 a 2
+manifold so we want the u minus 2 to be
+2 and a small amount of arithmetic
+reveals the d should be 4 so to make a
+statement with the general nature that
+we have in geometric Langlands we should
+start in four dimensions now what kind
+of quantum field theory are we going to
+do in four dimensions well all the
+particle physicists will tell you that
+the interesting ones are gauge threes
+those are roughly speaking the only
+quantum field theories that really work
+in four dimensions but there's another
+reason we should start with gauge
+theories well first of all another I'll
+give you another naive reason before I
+go to the reason in the next page which
+is more technical another naive reason
+is that geometric Langlands involve
+statements about groups and although
+it's not quite the only way the groups
+come into quantum field theory gauge
+groups are conspicuous a conspicuous way
+for groups to enter now if you want to
+say something more technical so
+geometric Langlands involve statements
+about roughly speaking the moduli space
+but really the stack of g bundles or the
+analogous type of flat bundles for the
+dual grip on the two manifold c since
+we'll be doing gauge Theory so here I
+differ from the notation most often used
+in geometric langlands G is a compact
+lee group which will be the gauge group
+of our theory and when I'm I'm
+interested in its complexification I say
+so so this symbol denotes the
+complexification of G so where would
+stacks come in to quantum field theory
+what do physicists know do which is all
+about stacks without saying so well as
+explained 30 years ago by TN bud in a
+paper that Nigel mentioned in last talk
+the natural field theory
+of the stack of old bundles it's just
+the space of all gauge fields active and
+by the gauge group in other words well
+to be technical you fix a G bundle over
+at C remembers our Riemann surface you
+fix the G bundle E over C of a fixed top
+of a given topological type and you
+consider all possible connections on
+that bundle so that's a model if the
+stack of GC bundles the reason is the
+following on a riemann surface as
+opposed to a variety of higher dimension
+every connection defines a whole morphic
+structure that's because we take any
+connection and just as in I think
+Nigel's talk we write it as the sum of
+parts of 0 1 and 1 0 but on a riemann
+surface the 0 1 part always squares to 0
+because there isn't any room for a 0 2
+part dimensionally so every connection
+in dallas are bundled with a holomorphic
+structure and having a homomorphic
+bundle of the given topological type
+arises this way so in fact the quotient
+of the space of connections by the group
+of complex valued gauge transformations
+is the set of ice and morphism classes
+of GC bundles and you can think of the
+pair the space of connections with an
+action of the gauge group as being a
+model for the stack bungee I should
+maybe just say one thing which is that
+even though our connections are unitary
+the complexified group acts on this base
+of connections that's because we
+transform novel 0 1 by a complex valued
+gauge transformation but the overall
+connection is supposed to be real
+but novel 1 0 is just the complex
+conjugate of novel 0 1 so we make the
+complex conjugate transformation of
+novel 1 0 so it's not a symmetry of
+gauge theory but it's a operation that
+makes sense on the space of connections
+so in a sense this is more natural than
+any customary model any customary
+description of the stack of G bundles
+there isn't any nice
+I don't know whether there's a finite
+dimensional model for the sack of G
+bungles but there is presumably not a
+canonical one year at the cost of going
+to infinite dimensions there's a
+completely canonical model for the sack
+of G bundles as the quotient of this
+infinite dimensional space by the
+infinite dimensional gauge group now in
+to do geometric Langlands we're supposed
+to well the point is there's going to be
+differential graded stuff so in
+particular there's a differential which
+for us is a symmetry or square zero but
+it's a fermionic symmetry it Maps even
+stuff to odd stuff and vice versa so a
+field theory that's going to have odd
+symmetries as a supersymmetric field
+theory so our four-dimensional theory
+which is going to be a gauge theory
+because that's what there is in four
+dimensions and also because it's
+supposed to involve gauge groups is
+going to be a supersymmetric one so
+being a supersymmetric one it has got a
+bunch of odd symmetries and one of these
+odd symmetries will be the differential
+of geometric Langlands so what super
+symmetric gauge Theory ever going to do
+well first question you might ask is
+what ones are there and physicists know
+about that because that's a decent chunk
+of what we study so one simple thing I
+can tell you is that for every G there's
+a maximal supersymmetric gauge Theory
+one that has the most possible symmetry
+and that turns out to be the right one
+for geometric Langlands so it's called N
+equals 4 super yang-mills theory so this
+theory is determined by the choice of a
+compact simple e group J as well as a
+complex parameter which is called the
+coupling parameter that takes values in
+the upper half plane so it's got all
+kinds of fascinating mathematical and
+physical properties this theory for
+example well ok I won't mention I'll
+limit myself to the examples that are on
+the slides so also it's determined by
+the choice of a gauge group and also a
+coupling parameter but there's a
+classical equivalence which is related
+to the integrality of the set
+turn class if I explain if I were to
+explain exactly how one constructs this
+theory forgiving towel then you'd see
+that because the second turn class is in
+integer class that results in a
+periodicity undertale' going to tell
+oppose one but there's something much
+more interesting which is a quantum
+equivalence that's Montone and olive
+duality orresto allottee or electric
+magnetic duality those are some of the
+names it goes by that exchanges G with
+jeetil where aji dolor G check is the
+Langlands or Godard noise Olive dual
+group in this audience most of you know
+how Langlands introduced the dual group
+and later on I'll recall how God anoints
+and olive did and n G is an integer
+that's the ratio of length squared of
+long and short roots so it's one two or
+three depending on G and finally so just
+like the G Theory has a tail parameter
+the G check theory has a tail check
+parameter so tail check is the coupling
+parameter of the N equals four theory
+with the dual gauge group and the theory
+with the dual gauge group also has an
+integer value and second turn class so
+it has a classical symmetry that shifts
+talib by one so there's an infinite
+discrete group that acts on the tail
+plane or the qaol dual plane now for us
+the real star of the show is the quantum
+duality symmetry that exchanges the
+group with the dual group and also
+exchanges the two coupling parameters so
+it's called electric mechanic duality it
+exchanges ordinary electrically charged
+particles with magnetic monopoles and
+it's extremely important in modern
+theoretical physics for example it's
+related to the mechanism for confinement
+of quarks in atomic nuclei and it's a
+prototype the existence of this duality
+symmetry in this gauge theory is a
+prototype for the modern understanding
+of the strong coupling pager of string
+theory
+now comparing to geometric Langlands
+there's a perfect symmetry between three
+descriptions one description uses J is
+constructed from J and the other
+description is constructed from G vowel
+and the two theories are constructed in
+exactly the same way so there's a
+perfect parallelism between the two
+sides people who work in Langlands
+correspondence will not by other methods
+will not expect this because the usual
+formulation is very asymmetrical between
+G and jiggle the correspondence is often
+called a duality but it's a duality
+between one construction from G and a
+quite different looking construction
+from G goal whereas here at the
+fundamental level we have a complete
+completely parallel construction and the
+fundamental duality symmetry merely
+exchanges the two groups and while
+inverting the coupling parameter there
+so question you might ask me is if this
+is the duality that underlies geometric
+langlands why does it look asymmetrical
+well I'll go in more detail later but
+the reason is that you ask a question
+that breaks the symmetry between the two
+sides but I thought I would tell you
+that it's not only in math that the
+symmetry sometimes lost it's also
+physics in practice not usually as
+perfect as the mathematical model on
+describing so perhaps the most important
+application of this general circle of
+ideas in physics is two quark
+confinement but that actually is an
+example somewhat like other approaches
+to Langlands there are two different
+dual descriptions one good for one class
+of questions and one better for
+different class of questions there but
+there's not a simple symmetry between
+the two descriptions so in that sense
+there will the real-world problem of
+quark confinement is much more similar
+to other approaches to the Langlands
+correspondence then the highly idealized
+mathematical model I'll be telling you
+about today
+well as I've already alerted you it's
+the electric magnetic duality symmetry
+that exchanges the two groups that leads
+to geometric Langlands duality so that's
+actually as a physicists I claim that
+that's geometric langlands duality while
+standing on one foot of course just the
+hard part is to spell it out and explain
+precisely what questions you ask where
+when you work out this duality in
+practice you arrive at the traditional
+statements such as we've heard in
+previous lectures now the usual
+geometric langlands correspondence
+actually involves questions that don't
+depend on towel or towel duel so in that
+context you can think of the duality as
+merely exchanging the two groups there
+is a generalization of geometric
+Langlands that people sometimes call
+quantum geometric langlands I'm not a
+fan of the name because to me the whole
+theory is best studied in the context of
+quantum field theory but anyway there's
+a generalization that people call
+quantum geometric langlands that does
+depend on the two taylor parameters and
+then the infinite discrete duality group
+is important but we won't be discussing
+this generalization today so as I said
+before from this point of view the basic
+formulation is completely symmetrical
+between the two groups
+but the symmetry will be broken by the
+choice of questions so I mean there are
+all kinds of things that I should tell
+you about N equals 4 super yang-mills
+theory and it really should follow a
+couple of courses on quantum field
+theory but one thing which is so basic I
+should have mentioned it is that this
+theory is conformally invariant so that
+means that to formulate it on a four
+manifold m4 we require only a conformal
+structure as well as a spin structure
+not a romanian metric now on four
+dimensional Minkowski space-time so that
+means that so any well the usual quantum
+field theory studied in particle physics
+are naturally formulated in Minkowski
+space-time and then they are invariant
+under the motions of Minkowski
+space-time that
+serve its pseudo-riemannian metric but
+here we thought a conformally invariant
+theory so it's invariant under a larger
+group of conformal motions in four
+dimensions the group of conformal
+motions is so2 4 but to allow for spin
+we take its double cover which is su 2 2
+however we're dealing with a super
+symmetric theory so it's a lot of
+morphisms will not just be su tu tu but
+a super group that extends this and for
+N equals 4 super yang-mills this super
+group is the simple super group PSU to
+2/4 so I mean roughly speaking that you
+could think low except for the P you
+could think of that as a a space of
+autumn matrices that act on a space of
+dimension 4 / 4 with 4 dimensional even
+rank in four-dimensional odd rank the
+off diagonal blocks are the odd
+generators of the super group so the
+diagonal box or the maximal bosonic
+super group which is su 2 comma 2 x su 4
+so su 2 2 is the conformal group of
+space-time but su 4 x trivially on
+space-time so what is su for what fizzes
+is called a group of our symmetries but
+that's just a name for mathematicians
+I'll give you an example of a group of
+our symmetries so when a Kahler manifold
+there's a su 2 symmetry of left shifts
+that acts on the ecology of a Kahler
+manifold well it's usually called SL 2
+if you think of the Kahler manifold as
+just a well in a world where you would
+deal with harmonic forms the group that
+acts naturally on the harmonic forms is
+su 2 the real compact real form of so2
+anyway in this line of work the theory
+of differential forms on the manifold is
+a one-dimensional quantum field theory
+where the one dimension is time usually
+suppressed in the mathematical treatment
+and the group of symmetries that acts
+trivially on the time is the left shits
+so2
+on a hyper counter manifold left shits
+sl2 is extended to an SP for that acts
+on the co homology of a hyper kellerman
+holder and that's still one dimensional
+quantum field theory here we're in four
+dimensional quantum field theory so
+things are a little bit richer and
+instead of being SL 2 or SP for the
+group of our symmetries is actually su 4
+now p su to 2/4 might seem like a rather
+big super group but it's just barely big
+enough that you can fit geometric
+langlands in there so I said at the
+beginning that we were discussing the
+essentially unique theory supersymmetric
+gauge 3 with gauge group G with the
+largest possible supersymmetry algebra
+we could use a smaller supersymmetry
+algebra for example if we wanted to head
+for Donaldson Theory instead of
+geometric Langlands but geometric
+langlands barely fits in this theory it
+doesn't fit in the smaller ones so so
+there's a procedure which I won't
+explain in detail of twisting a physical
+theory to make a topological field
+theory and we make use of some of the
+bosonic symmetries in the twisting but
+we're left over with something so one
+thing we're left over with is a
+particular odd generator and also a
+particularly even generator both the
+even generator as part of the our
+symmetry group so the odd generator
+becomes the differential of geometric
+langlands and the even generator gives
+us a Z graded Theory so actually the Z
+grading comes from a subgroup of the SU
+for our symmetry group that was also
+true for left shirts of course the left
+shits oh sorry it's not true for left
+shirts so I better not there's a YouTube
+that acts on the ecology of Kaling
+manifold perhaps if we go to the hyper
+killer case the assertion dice bonded
+into would be correct
+I think it's SP 4 rather than SP 4 times
+u1 that acts on the ecology and then the
+grading by degree is part of the our
+symmetry group so in general
+N equals 4 super yang-mills is
+definitely not a topological field
+theory I mean most physicists who study
+it are not thinking about topological
+field theory at all by far
+I mean well over 99% of the literature
+on this theory does not deal with
+topological field theory so it's a
+theory of physical propagating fields
+but you can get a topological field
+theory by picking an odd generator Q of
+P su to 2/4 chosen to the Q squared is 0
+after which roughly speaking you pass
+through the ecology of Q or more exactly
+you think of Q as a differential in
+constructing a differential graded
+Theory so they're in equivalent choices
+of Q and so there are several different
+topological field theories you can make
+so you have to pick Q so that the
+response of the theory to a change in
+the conformal structure is Q exact so I
+won't try to explain what that condition
+means in practice but there are three
+and equivalent ways to achieve it
+they're all interesting for example one
+was thought one of the three was studied
+by Vava and me and we showed that a
+generating function for oil are
+characteristics of instant-on moduli
+spaces was going to be a modular form
+and another of the three theories leads
+to geometric Langlands so it's the
+choice of q that broke the symmetry
+between G and the door group
+now I can't possibly explain everything
+today but I want to give a few hints and
+the best way to give ants I could think
+of was to tell you what are the fields
+on the theory and what is the condition
+for a set of fields to be Q invariant
+which is you should think of it as being
+a semi classical approximation to
+computing something like describing an
+object in a category calculating a space
+of morphisms or doing something for
+physicists finding a space of physical
+States the approximation is to find a
+classical state that's Q invariant so
+what are the relevant fields were in the
+description by the dual group the
+relevant fields are a complex value
+connection it's very important that this
+is complex we started with the compact
+gauge group but by the time we twist in
+the GEVO description we end up with a
+complex valued connection on a bundle
+whose structure group is the complex the
+gauge group and it comes together with
+an end a morphism I wrote endomorphism
+of am but that should have been
+endomorphism of the bundle II understood
+to be in coma magical degree - in other
+words under the C grading which came
+from a distinguished so2 in the R
+symmetry group it has degree 2 and for Q
+invariants they have to obey some
+equations which say that the curvature
+should vanish and the end of morphism
+which should have been Sigma V u is
+currently constant so the classical
+picture is a flat bundle together with
+the symmetry of it
+if the bundles irreducible then the
+endomorphism will have to be zero
+so that's a situation that's often
+considered roughly speaking on a
+sufficiently rich form a default of
+generic flat bundle will have no nonzero
+and morphisms so often in practice Sigma
+will be zero so this was the description
+in terms of the dual group in the
+description by J the fields are
+connection a on a G bundle here there's
+no complexification the structure group
+is the compact form and also a feel of
+Phi which is one form valued in the
+adjoint bundle it's actually the same
+structure that Hitchin talked about in
+his last lecture except that we're in
+four dimensions instead of two so we'll
+get a more complicated set of equations
+but they can be specialized to the
+equations Hitchin told you about so they
+buy a system of different lipsticks
+differential equations so what I'm
+writing down is the condition for Q
+invariants the condition for set of
+fields to be invariant under the
+differential that we use in different
+geometric Langlands is that the fields
+have to obey a set of elliptic
+differential equations elliptic means
+elliptic modular with the gauge group
+and star is the odd star operator in
+four dimensions so there's also an end
+of morphism sigma of degree two in this
+description that's now related to a
+quivering comala G so an approximation
+to what you do is that you study some
+kind of cone ology of the space of
+solutions of these equations except okay
+if the gauge group acts freely you could
+adorn Sigma but when there are solutions
+that don't completely break the gauge
+symmetry you should better do
+equivariance kamala g rather than
+ordinary comala G and then Sigma can
+come into play so one thing which
+actually it's a fun story but we don't
+have time to go in that direction today
+is that these same equations I'm talking
+about here are also important for a
+certain description of the Jones
+polynomial and covent ophthalmology
+using gauge theory in fact using
+basically the same gates three
+ingredients that lead to this story
+involving geometric Langlands
+so these equations are also closely
+related to Hitchens equations and Higgs
+bungles and that's how the IG's bundles
+will make an appearance so the quickest
+way to say that is that if you look for
+a solution of these equations those are
+equations let's say on our 4 you could
+pick a projection of our 4 to our 2 and
+ask for a solution that's a pullback and
+then you'll get Hitchens equations so
+Hitchens equations are the two
+dimensional specialization of those
+equations in that sense now as I've
+already remarked in geometric Langlands
+we're going to study the category of
+boundary conditions the boundary of the
+four manifold is going to be a three
+manifold what geometric langlands is
+usually formulated for a time
+independent situation which means that
+well one of our coordinates will be our
+space time will be the product of our
+parameterizing the time time something
+and in particular the boundary will be
+the product of the time our times of
+riemann surface c c is the riemann
+surface in which we do geometric
+langlands so i've drawn your a picture
+with the time suppressed this is a
+picture at fixed time i've simply tried
+to draw a three-month-old whose boundary
+is a given riemann surface so we're
+interested in the category of boundary
+conditions so let's discuss some
+boundary conditions well in the g dual
+description which deals with flat g dual
+bundles an obvious cycle boundary
+condition is to simply specify a flat G
+dual bundle on the boundary and require
+that the boundary values of the fields
+coincide with that flat bundle so an
+example of a boundary condition is to
+pick what people in geometric Langlands
+call a G dual local system a flat bundle
+on C whose structure group is G Bo
+subsea except people and geometric
+langlands would usually call it just G
+dual because they wouldn't have started
+with the compact group so these boundary
+can say traditional D rachet boundary
+conditions or at least the simplest ones
+would say that the fields are zero on
+the boundary here that would correspond
+to a boundary condition associated to
+the trivial local system instead of
+saying the flu so even in elementary
+textbooks on analysis instead of taking
+a bowl toss equation with zero boundary
+conditions you can take the Laplace
+equation with any specified function and
+look for solutions of La Paz equation
+with that function on the boundary so
+that's the kind of shifted or twisted
+version of d'Orsay boundary conditions
+here we twist by specifying a flat
+bundle on the boundary and asking that
+the fields coincide with that flat
+bundle it's less obvious what our
+natural boundary conditions in the G
+description or how to compute the dual
+of a given local system of the door
+group it's actually very powerful to
+first understand what happens if we
+split off not just one factor of R but
+two factors of R so we take our four
+manifold to be the riemann surface see
+that we're interested in times r2 so you
+can think of that as being merely that
+we take this picture but far away from
+the boundary
+I drew C times what might have been R
+plus 1/2 line if we're far away from the
+boundary it just looks like C times R
+but I've suppressed the time and drawing
+this picture so it would really be C
+times R 2 so C times R 2 just means
+we're trying to understand what happens
+far away from the boundary and then
+we'll come in toward the boundary so the
+sentence I just displayed is what I just
+said we first discuss what happens far
+away from the boundary and then we it'll
+be easier to understand held the duality
+acts on boundary conditions on R so I
+mean asking what happens on R 2 times C
+it's the typical kind of problem that
+physicists study actually so we
+compactify it
+well we compactify on CEO we turn on the
+magnetic field or we do something and
+then we ask what happens at long
+distances
+so on our two times see the theory is
+described at long distances that means
+on a length scale large compared to the
+size of C by a conformally invariant
+theory on the r2 lots of highly
+non-trivial statements because generic
+quantum field theories aren't
+conformally invariant conformally
+invariant ones are very special and
+often very important in this case we get
+conformal invariants back at long
+distances because there's still a lot of
+supersymmetry
+even after compacta fiying 1c so the
+theory is what physicists call a sigma
+model a supersymmetric theory of maps
+from r2 to what I'll call em s of H of C
+and G that's hitchens hyper killer
+modify space of G bundles on C so well
+okay this statement is true for both
+groups regardless of whether the group
+was G or G dual we get that appropriate
+Hitchin moduli space so the same and
+I've just made was first shown by
+physicists in the 90s and then the
+mirror symmetry that I'll mention in a
+second was first discussed by house'll
+and Thaddeus know among other things
+we're giving a very simple example of
+earlier ideas most Rominger yellen's a
+slow but the rough idea is that so if
+you're far from the boundary so I mean
+if you're physicists the one important
+question to ask is what happens all the
+length scale large compared to the size
+of C in geometric langlands there's no
+length scale so but what that means is
+that you're always a lengths large
+compared to the size of C but when you
+formulate it as a physicist starting
+from the physical problem you do have to
+explain that you're going to long
+distances and then at long distances you
+almost have a you basically have a
+solution that's almost a pullback from C
+and the solutions that are pullbacks
+from C are the solutions of hitchens
+equations as he described them in the
+last lecture before lunch
+so anyway that's an intuitive idea of
+this assertion that the longest since
+approximation is a signal model whose
+target is the Hitchin moduli space now
+the Hitchin moduli space for both jng
+duel both have Hitchin vibrations and
+the base of the h and vibration is the
+same for the group on the dual group
+according to Strom injury on Saslow
+mirror symmetry is t-duality on the
+fibers of a vibration a special
+Lagrangian vibration which usually is
+difficult to exhibit explicitly but the
+point of the paper of house'll and
+Thaddeus in part was that in this case
+well it has to do with what you also
+heard in the last lecture that there are
+many different complex structures going
+on at once the whole picture is a little
+bit too complicated to explain right now
+but the h n vibration which is a
+holomorphic vibration in one complex
+structure from a different point of view
+is a special lagrangian fibration so we
+can understand mirror symmetry much more
+explicitly than we usually do by
+t-duality on the fibers of the Hitchin
+vibration and i'm roughly speaking
+geometric Langlands duality is the
+mirror symmetry between the B model of
+one modify space and the a model for the
+dual group so the claim is that s tality
+in four dimensions simply reduces in two
+dimensions to the mirror symmetry
+between these two models the reason I
+said roughly speaking is that although
+this description captures a lot it
+doesn't it's not precise enough for all
+the delicate questions that are usually
+asked in geometric Langlands
+now there's another important part of
+the story that was which I won't explain
+today I'm just stating it on this page
+and edy Frankel stated it toward the end
+of his talk so so I gave a simple
+example of the Deedle boundary condition
+it corresponds to picking a local system
+but a local system is just a point in
+the h and moduli space so our simple
+example on the what's sometimes called
+the Galois side of the geometric
+langlands correspondence was to pick a
+GU local system which means a point in
+Hitchens moduli space when we make
+t-duality on the fibers of niche in
+vibration a point is mapped to off the
+whole fiber that contains it endowed
+with a flat line bundle that depends on
+which point you started with I showed
+him that a picture I should have made
+this into a slide that I didn't so here
+I'll just very briefly sketch the hitch
+in fibration
+and now we've picked a point of or over
+it in the G little description in the GE
+description we have an a different
+vibration over the same base but
+importantly it's over the same base so
+the tool of that point is the whole
+fiber here but which point it was goes
+into what flatline bundle this fiber is
+endowed with so we appoint is mapped to
+an a brain that's supported on a fiber
+of the engine vibration so at least at
+the simplest level that's the answer to
+the question what's the dual of a be
+brain supported at a point however I did
+not get the answer in the language that
+people like in usual approaches to
+geometric Langlands I expressed the
+answer as an a brain and instead we want
+a demodulate Frankl kind of loosely
+indicated because of the close relation
+of niche and modify space to the
+cotangent bundle of Bungie in this
+situation a brains have an alternative
+interpretation as d modules and
+that leads to the usual formulation of
+geometric Langlands well there's another
+thing which we really should try to say
+at least a few words about so the point
+of all story in blancmange
+correspondence is to show that the dual
+of a be brain supported at a point is a
+key eigen chief so I'll kind of tell you
+what that's true without quite telling
+you what it meant
+assuming that various bits of what I'll
+say will be understandable to different
+people so the key point is something
+that actually is quite important in
+physics the duality between Wilson the
+tough line operators or in other words
+between parallel transport in jiyul
+gauge theory and a singularity of a
+certain type in a G gauge field so all
+i've drawn in this picture is a curve it
+could be a closed curve or maybe it ends
+on the boundary we don't usually want it
+to end in the interior of the manifold
+but i've just found a piece of a curve
+in a four manifold without on this page
+telling you what we're going to do with
+it now on the next page i'll tell you
+two things that we could do I think it's
+the next page what you're going to be
+dual to each other we can do one of two
+things in the dual gauge Theory we pick
+a representation of the dual group and
+then well the way methergine say it is
+that we take the bundle associated to
+Edel in that representation and that
+gives us a jeetil bundle over m and then
+we perform parallel transport if we have
+if we have a section of that bundle
+restricted to the line and we can
+parallel transport using the connection
+restricted to L so when you do that in
+the context of quantum theory it's
+called a Wilson operator and the
+physical interpretation is that L is the
+world line the world line means the path
+in space-time followed by a point
+particle so a point particle is a point
+at a given time but in space-time its
+trajectory will be a van a curve
+the world line so the physical
+interpretation is that L is the world
+line of a charged particle in the
+representation in a chosen
+representation of the gauge group so we
+decided what was going to be the world
+line of this particle that means it's
+not one of the particle is described by
+the theory it's an extra particle that
+we added as an impurity so I claim that
+I claimed at the beginning that there's
+a complete estou ality between the g
+goal and g descriptions so anything that
+we can think of in one description has
+to have a dual in the other description
+so in this case the dual of parallel
+transport is known
+it's the enough to operator and it's
+definition is rather interesting in GE
+gauge theory well you have to remember
+that we're in four dimensions so if you
+have a in three dimensions if you think
+of this piece of chalk as a line it's
+linked with the a circle around it s1
+but in four dimensions the link of a
+curve would be a copy of the two sphere
+so we're going to specify a singularity
+that a GE gauge field should have along
+L and we'll specify it by saying that if
+you take a very small two sphere no
+matter how small I'm going to specify
+what the gauge shows look like 1s2 in in
+a moment and that will define a
+singularity because the choice I'll make
+will be one that won't extend over the
+interior
+if you remove L from space-time then
+I'll just explain what a gauge field
+should look like but it will be singular
+along L because it'll have a curvature
+integrated over s2 which doesn't go to
+zero when s to shrinks so well what are
+we going to do well s to first of all as
+a cop is there's a conformal structure
+on space-time so s2 has a conformal
+structure so it's actually a complex
+riemann surface CP 1 and as I told you
+before every gee bungle describes a g
+sub c bungle a whole morph abuse of c
+bungle and the adult operator is defined
+by specifying the holomorphic type of
+this bundle
+the physical interpretation is that the
+singularity represents a magnetic
+impurity of specified charge the charge
+is the Hall morphic type of the bundle
+so in the Langlands correspondence an
+important fact well an important fact is
+that representations of the dual group
+correspond in a natural way
+so I some morphism classes of G bundles
+over CP one it's not always stated that
+way but G bundles over CP one can be
+classified and if you use that
+classification you'll end up if you're
+not accustomed to stating the line ones
+correspondence this way you'll find that
+if you use the classification of bundles
+on CP one you'll probably end up with
+the version of the statement that you
+are accustomed to as a statements about
+electromagnetic charges in
+four-dimensional gauge theory the
+statement that the dual of a of parallel
+transport into giving representation is
+given by this other singularity goes
+back to Godard noise and olive although
+it was clarified much more recently by
+kapustin so now remember in geometric
+Langlands the dual of a local system is
+supposed to be a Hecky eigen chief and
+without explaining all that all the
+details I'll say the thank you and chief
+property comes from the duality between
+the two types of line operator in the
+situation depicted okay in the situation
+where L is near the boundary I've
+suppressed time in this picture so you
+imagine that I sketched a three manifold
+with a point in it you take the product
+of that times time so I've drawn a lousy
+points but it really is a line running
+in the time direction and see in the
+parallel transport description what we
+would have at this point L is just the
+fibre at that point of The Associated
+bundle to the to the given
+representation of the dual group what in
+the G representation
+we'd be insisting on a funny singularity
+and that funny singularity will cause
+the gauge field along C to undergo a key
+modification when you jump past the
+singularity so since I've lectured about
+this many times before and some of you
+have heard it and time is running short
+under there's a lot to do I won't
+explain details but you could take the
+gauge fields here they would jump so you
+could take a copy of C at the boundary
+but you can take a copy of C at some
+place else and as you move in toward the
+boundary when you cross the singularity
+the holomorphic there's a jumping of
+holomorphic structure which gives what
+people in geometric Langlands regard as
+the geometric analogs of Hecky
+modifications when I was interested in
+trying to interpret in terms of quantum
+field theory geometric langlands well
+there are plenty of things I've never
+managed to do and they're still
+completely unclear but among things that
+eventually became clear the hardest one
+for me to understand at least was the
+fact that geometric Hecky operators
+simply corresponds what physicists call
+atrophic operators so a be brain
+supported at a given local system is an
+eigen brain well I didn't know what the
+right word is here that's why their
+question marks they're not typos in
+geometric Langlands an eigen chief has
+an eigen value which is a vector space
+so here the eigen value eigen space is a
+vector space by which the brain will be
+10 surd if you introduce a charged
+particle at the point L and Uli the a
+brain will be a key eigen chief that's a
+general prediction of the duality and in
+terms of a brains you can verify it
+fairly explicitly using standard
+properties of the interent fibration
+rather than explaining all this in more
+detail I want to describe an approach in
+this framework to the universal kernel
+of geometric Langlands and here I'm
+following ideas explained in my paper of
+a few years ago with lava to Kyoto
+so we're going to divide so we're going
+to describe the universal kernel in a
+universal sense so what is the universal
+kernel as understood conventionally you
+fix the Riemann surface see and you want
+a procedure that will transform any
+shape in the dual gauge group into an
+object in the gauge group J so in our
+language of B brains and a brains you
+want the universal mapping from B brains
+to a brains but as usually formulated
+the notion of the universal kernel
+you're allowed to pick a Riemann surface
+C but we're actually going to be more
+Universal we won't pick C we just divide
+space-time into two halves so I'm not
+much of an artist but this picture
+represents our four old Minkowski space
+r31 but I've divided it on a co
+dimension one plane which you can think
+of as r2 1 and I do gauge 3 with gauge
+group G and uncoupling parameter tau I
+hope that looks like a towel but since
+there is a duality I could explicitly
+use a dual set of variables over here
+which are these the dual group and also
+the dual coupling parameter but if I
+literally do that would have trouble
+saying anything because you see remember
+the dual coupling parameter is minus 1
+over the dual parameter and together
+simple semi-classical description which
+one should aim for if one wants to be
+able to make concrete statements you
+want em tell an Intel dual to be large
+but they can't simultaneously be large
+if they obey that relationship so that's
+actually what makes geometric Langlands
+and the quantum field theory duality
+that we're talking about today both
+difficult and interesting however you
+can modify the problem you can verify
+tell and tell dual independently of the
+cost of reducing PSU to 2/4 to a sub
+group the largest sub group you can
+retain is actually I OSP 4/4
+a maximal bosonic subgroup of which is
+SP four times so4 where SP four is the
+group of conformal motions that fixes
+the plane if all we did was to make
+duality on half of the variables it's
+just a change of notation and we haven't
+broken any symmetries but when we vary
+the the parameter is independently on
+the two sides we're really changing the
+problem and we're only left with
+conformal motions that Li fix the plane
+in which the jump occurred so we only
+see three-dimensional conformal
+symmetries and a smaller are symmetry
+group so if we take the imaginary part
+of both talento tool very very large the
+gauge groups are weakly coupled and semi
+classical and the subtlety all resides
+at the interface supported at this
+interface is a three-dimensional super
+conformal field theory this is the
+second time third time I've told you
+about a super conformal field theory
+today we started with one in four
+dimensions we've reduced one a Riemann
+surface and got one in two dimensions
+and we now are putting in this domain
+wall between two different descriptions
+and finding a super conformal field
+theory now in three dimensions but this
+super conformal field theory has a
+symmetry which is the product of the
+symmetry of the dual group times the
+symmetry of G the way physicists would
+say it is that G fuel gauge fields on
+the left and G gauge fields on the right
+have been weakly coupled to a super
+conformal field theory of the interface
+between them so guy ought to and I
+called this theory T of J so you can
+object that our nation is slightly
+asymmetrical because we could have
+called a T of jeetil that's right it's
+something I think I'll second okay
+anyway since it'll be a while I'll just
+say now that there's a mirror symmetry
+between T of G and T of G tool so
+although my notation is asymmetrical
+there's actually a non-trivial
+automorphism that restores the symmetry
+now
+since I describe TFG in a slightly
+abstract way which might have sounded
+like all I was saying was that well if
+there is a duality we must be able to do
+something so abstract but you see there
+was a non-trivial statement which was
+that when both Tallinn tell duel went to
+the semi-classical region we were left
+with the superconn form will feel very
+own interface and that statement has a
+lot of information so I want to make you
+make it sounds a little bit more
+concrete so I'm going to tell you the
+most interesting things I could think of
+to tell you about TFG inside two minutes
+so one thing is that TFG for groups of
+type a can be constructed as a quiver
+gauge theory so I'm hoping a lot of you
+at least know what aquiver is so these
+are circles and this is a square sorry
+for the poor drawing this is a circle
+here so then that's a very particular
+linear quiver there and so in the math
+literature there's really a lot of work
+on hyper Kahler manifolds associated to
+quavers perhaps starting with chrono
+moreau Nakajima but for physicists you
+can construct from a quiver not just eye
+not just a hyper Keller manifold but a
+super conformal field theory in three
+dimensions which among many other things
+has got a second type of killer manifold
+associated to it and
+one of the important things to tell you
+about would be the moduli space and
+let's turn this off okay one of the
+important things to tell you about would
+be the moduli space vacuole of the
+theory but maybe first I'll tell you
+briefly about mirror symmetry in three
+dimensions which has been explored by
+both mathematicians and physicists and
+the papers I've indicated plus a lot
+more physics papers so in this case so
+to appreciate better what I'm going to
+say one should know something that not
+very many methods are familiar with
+about mirror symmetry in two dimensions
+which is its relation to an outer
+automorphism of the super conformal
+group I'm afraid there isn't really time
+to explain it but there's a similar
+story in three dimensions where the our
+symmetry group so4 has an outer
+automorphism that comes from a
+reflection of one of the four
+coordinates and this is actually an
+outer extends to an outer automorphism
+of OS p 4/4 so so4 is actually locally a
+product of two su two groups on the
+outer automorphism exchanges them so
+finally I'll say that in this context
+mirror symmetry exchanges gng dual while
+also exchanging the two su twos so in
+other words the mirror of T of G is T of
+jeetil and one of the su twos is going
+to be the RSL - although which it is
+depends on our choice of differential
+and the way we broke the symmetry
+between G and jiggle so the moduli space
+of a Q of the theory is going to be a
+conical hyper killer manifold with an
+action of a lot of stuff the group and
+the dual group act and so did the two su
+twos and unfortunately here it's
+important to know a bunch of things that
+we don't have much time for so many
+naturally occurring objects that are
+often regarded as complex symplectic
+manifolds with a seastar action that
+rescale the symplectic form
+are actually also naturally study does
+hyper killer manifolds in fact Nigel
+Hitchin when somebody done but the line
+toward explaining this in his last talk
+although we didn't go to precisely this
+so for the hyper killer manifold C star
+which is U 1 times the positive reals
+because is extended to su 2 times the
+positive reals where su 2 rotates the
+complex structures so if you pick a
+complex structure and you're only
+interested in that one rather than the
+hyper killer structure then you only
+would see the subgroup of su 2 that
+fixes a particular complex structure and
+that's u 1 so from a hyper killer point
+of view the group that acts is actually
+the quarter nians if you think about it
+su 2 times the positive reals is the
+group of nonzero quaternions but from a
+complex point of view the group that
+acts as the non zero complex numbers so
+there are a lot of examples of this but
+the example is important to us are do to
+cry no more then open and orbits in the
+layout of a complex simply group and
+also the corresponding slot away slices
+all have this kind of hyper colorimetric
+with an action of the invertible
+quaternions with this understood so now
+when i refer to an orbit I really mean
+an orbit in this hyper Kahler sense with
+the so the moduli space of vacuo ft of j
+is naturally embedded in the product of
+the two null two nilpotent cones of the
+two Leo Chavez where on the note put in
+cone of G dual there of course acts
+doodle and also an su 2 group that I'll
+call su 2 X and on an the Maps G
+together with the other as you do
+so and as many strata the top strata are
+what physicists call Coulomb and Higgs
+branches they are one cone times the
+origin and the other cone and vice versa
+flowers drought our products of orbits
+where the orbits are certain nil put in
+orbits in the tule Ottawa's so for
+simplicity I'll just draw the picture
+for a one for a one there are no lower
+strata and the moduli space of acura is
+just the union of two nilpotent cones
+intersecting at the origin so you can
+ask what this sort of description of the
+universal kernel of geometric Langlands
+is good for well I don't I certainly
+don't completely know but I'll just make
+a couple of remarks that I easily can
+make one is that if we add a description
+of T of J in which if we could calculate
+explicitly and see all the symmetries
+that would be an explicit answer for
+geometric Langlands duality that
+statement there probably means that what
+is asserted in that sentence is out of
+reach at any rate in the descriptions I
+know it's very hard to see explicitly
+the full G check times G symmetry you
+can see a symmetry of G times the
+maximal torus in T in G check in g2 or
+vice-versa and using this you can use
+the theory T of G to compute the dual of
+a local system whose structure group
+reduces to the torus you can do some
+more general things but that's an
+example of what you can do and you got
+something like the geometric Eisenstein
+series of baruman and gates gray so you
+could think of this as a quantum field
+theories way to motivate the
+construction of something like geometric
+eisenstein series I haven't thought
+about it carefully but it's plausible
+you could do the reverse use a knowledge
+of the G dual times T action to get the
+restriction to bunty of the D modular
+for bungie correspond to any local
+system of the dual group
+now taking the liberty to perhaps go
+over time just a few minutes I want to
+add a few to say a little about how
+Arthur's sl2 crimson so let's go back to
+the classical equations in terms of the
+dual group which were that we had a flat
+bungle with a covariantly constant
+endomorphism so far we discussed the
+obvious sort of boundary conditions in
+which we specified the boundary values
+of the fields but the equations actually
+admit solutions with a pole along the
+boundary and these solutions were
+important in my work with Gatto so but
+that's kind of why I thought that
+they're worth telling you about so well
+let Y be a real function that's positive
+way from the boundary and vanishes on
+the boundary so n is defined by Y being
+non negative and by a pole I mean that
+near y equals 0 Sigma looks like B over
+Y will be as a fixed element of valley
+algebra
+well if this is going to happen B has to
+be no Potence and the reason it does is
+that Sigma Sigma dual is currently
+constant so it's characteristic class is
+independent of Y but if B has a nonzero
+eigen value of that eigen value is
+scaled when we change Y and the
+characteristic class of Sigma would
+depends on Y so the only way for
+something a function like this to have a
+cut conjugacy class independent of Y is
+that B has to be no opponent and
+conversely one B is no opponent you can
+see that you can solve these equations
+with such a Sigma provided the
+connection based appropriately near the
+boundary so I think we can interpret B
+as being in some sense the open and
+raising operator of Arthur's sl2 but I
+don't know the most general statement so
+I'll tell you something I'm a little bit
+more sure of which is also closer to
+what Guyot so and I were doing so well
+specialize to the case where m is a 3
+amount of fall times R plus so at some
+points in lecture the 3 manifold was
+time times C
+but if we do that we do lose something
+we fail to see that the theory is a
+topological field 3 but factoring all
+Elfi r+ doesn't lose anything that I can
+see that that we need to understand to
+understand the category of brains and
+the usual story of geometric langlands
+of course we do lose the interpretation
+in four dimensional topological field 3
+1 we do specialize the Romani and
+Holland Rumi of M becomes smaller and
+therefore the twisting procedure which
+involved embedding the Romani Halle Nomi
+of em in the our symmetry group leaves a
+larger unbroken subgroup so so because
+one previously we embedded so4 in su for
+in such a way that the community was so2
+which led to the z grading of geometric
+Langlands but now we're only going to
+embed so3 and su for and the communists
+will be not so2 but su 2 so the so2 that
+gives the z grading of geometric
+Langlands is extended to su 2 and in
+fact this is the su 2 X or AZ u 2 y that
+we discussed before which it is depends
+on what we picked for the nilpotent
+generator kill that we use to make a
+topological field 3 now once you've
+split off a normal direction from the
+free manifold you can extend this
+complex endomorphism sigma to a triple
+of endomorphisms the transform of the
+adjoint representation of the combined
+group su 2 x times the dual gauge group
+and I claim that ask you to extra the
+identified as Oh Arthur as SL 2 in fact
+one can define a natural boundary
+condition in the doodle description for
+every time a morphism
+of Pi 1 of C times su 2 X to the dual
+group that's essentially what guy out to
+and I did accept that we took mammal
+more visit from poly one of C to be
+trivial but locally it's trivial anyway
+but
+global you can twist by the symmetries
+and do what I've just said the way su 2x
+comes in here is rather interesting
+something happens that at least to me
+was a surprise
+so Hitchin did not actually write down
+noms equations but he mentioned them
+when he talked about noms treatment of
+monocles so a surprise to me is that
+these equations have a specialization
+that gives noms equations and they have
+a polar solution that involves an
+arbitrary choice of homomorphism from su
+2 to the gauge group and that polar
+solution has had lots of applications
+and in different areas so to define a
+boundary condition on sigma 1s that it
+should have the polar behavior just
+described and this type of boundary
+condition is also important for Covino
+phonology the rest of the boundary
+condition is trivial the assembly
+extends the chosen homomorphism from su
+2 to the dual group to a homomorphism
+from PI 1 of C times SQ 2 to the
+complexification of the dual group by
+setting to 0 in the Boundary fields
+don't commute with the pole and ik
+waiting the other fields to any local
+system once a valued in the comm units
+of the image of su 2 I guess that's what
+I have to tell you today
+thank you very much for the beautiful
+talk are there any questions um I wanted
+to ask you about this SEO to action
+again so they said there are two
+different as you tools yes so one of
+them you're saying is when manifest self
+as a kind of art or circle yes and has
+to do so it's not really geometrical for
+example one of the generators say the
+kind of cart and generator response to
+the common logical grading yes what
+about the other suit is it one we could
+see geometrically while in a trance
+lecture we explained a section of the
+kitchen vibration which actually is an
+apron and one way to get that section
+here would have involved embedding the
+NAM Paul not an su 2x but in the future
+why so I don't claim this is a complete
+answer your question but that's an
+example of what you can do you
+interesting why using su 2 why right but
+saying in the context of this T of G
+theory that you talked about is it true
+that one of the issued tools is realized
+more geometrically than the other well
+it depends on the description there's a
+mirror symmetry between five
+descriptions
+I didn't have time to explain it
+properly let's go back to the quiver so
+but I'm going back to the quiz where I'm
+taking G to be of type a there actually
+are also Quivers of type B C and D but I
+think my circles and squares are a
+little bit better here so physicists
+associate to this quiver a three
+dimensional gauge theory which has both
+the Higgs and a Coulomb branch but the
+definition of the eggs branch is
+familiar to mathematicians which is why
+you say it's more geometrical and the
+description of the Coulomb branch is the
+kind of thing that people in my line of
+work have a lot of fun with because it
+involves the subtle quantum properties
+so in that sense your statement is right
+the mirrors there's a mirror symmetry
+that exchanges the two branches this
+particular Quivers actually
+self mirror so here t.t of a n minus one
+is completely symmetrical between su to
+accent ask you to why in the sense that
+it can be realized in two different ways
+from this quiver and the two
+descriptions are related by the exchange
+of the two su dues so for instance if we
+were to take a one the N one theory
+right so you mentioned that that if you
+look at the space of a cure it's going
+to have two copies of the new plant cone
+right yes
+so the a one example was actually the I
+think the very first example of
+inchaallah gator inside work it's
+described by that simple quiver which
+they argued to be self mirror and part
+of the argument was to precisely show
+that the moduli space was self mirror it
+was two intersecting a1 singularities
+but where do we expect to see the SU
+tools in this case say you have just two
+two important cones right and they are
+connected at the origin
+yes that's the method's precise
+description oh that's the description of
+the moduli space of course if you you
+have made the question can we declare
+but an example what you could be asking
+is is there something on which both as
+teachers act non-traveling that's right
+so for hot for groups of higher rank
+there's a simple-minded answer which is
+that there are lower straddle in which
+both groups act but I don't think that's
+the right way to go answering you the
+right answer is to tell you the
+following this isn't just a singular
+space it's a family of vacuum in a
+quantum field theory and there's a lot
+we should say about the quantum field
+theory at any points the most
+interesting point is the one at the
+origin and if you're living at the
+origin it's a super conformal field
+theory with all kinds of operators many
+of which will transform under both as
+u2's but anyway even the ones that
+transform under one ask you to or
+another their correlation functions will
+not factorize right so in other words
+the reaction of the groups is expected
+not on the space but on the principle in
+quantum field theory which is much more
+complex than just the moduli space
+within yes because you think Euler it's
+mostly but partly because of singularity
+the important the signal art is an
+important part is false in general if
+you're at a smooth part
+if you're an experimentalist you usually
+want to know what happens at long
+distances because that's what you can
+measure and also a lot of complications
+go away after all understanding what
+happens at short distances is usually
+described as trying to understand the
+laws of nature
+so at CERN they build an accelerator and
+try to make measurements at short
+distances but it's hard to get to
+shorter and shorter distances whether we
+like it or not anything we measure is
+usually a bigger distances than
+something else so that's why I said at
+the beginning that going to long
+distances is more or less the universal
+problem of physics but for
+mathematicians and geometric Langlands
+there's no distance but that actually
+means you're at long distances I know
+you don't think about if I worry but
+take it from me now at a smooth point
+going to long distances can be
+adequately described by the classical
+geometry but at a singular point it
+cannot be and the singular points are
+the most interesting ones as you might
+surmise
+for this class of examples orange and
+it's more in local I can't learn
+something I can understand instantly but
+there might well be a connection I think
+it's safe to say that this is a mirror
+symmetry bit it's at the Bristol - in
+some sense but yes if we push all the
+analogies all the way that that should
+be connected I didn't know what I don't
+actually know what's interesting to do
+with a second as you do the example I
+gave Edward when he asked in a few
+similar examples all I thought of that
+you can do that's interesting but maybe
+if I knew more about what you're saying
+one would think of something else and
+you have a questions yes well in general
+for any G the top strata I actually
+assumed by France because I was running
+all the time but in general for any je
+the top stratum the two tops tried are
+the two an opening cones
+I wrote it here so the top strata are
+one they'll put in comm times the apex
+in the other cone or the apex and the
+first times the second I'll put in
+counter those are top strata in the
+sense that but they're topped with
+business as you either sq to X or s qy
+excellent as much as possible and each
+of these strata are special because one
+of the SE two doesn't act on it then
+you've got lower strata which are
+products of orbits and except for a n by
+2 and I did not completely determine
+which pairs of orbits come in for a n
+there's a long on duality between orbits
+that exchanges flips a young tableau any
+so that duality comes in here but I
+don't really know what happens for other
+groups any other questions there isn't
+well they see I wrote this is a very
+long paper with Gratzer woman physics I
+refer to it before a strategy of
+boundary conditions in 2008 so it hasn't
+well there isn't any written reference
+where one tried to digest it for
+mathematicians a small part of West
+Plains is in the talk I gave which has
+the title the title I remember exactly
+but has Nam and Bogomolny in the title
+let's think

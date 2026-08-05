@@ -152,16 +152,43 @@ That diagram is the seminar heart of the Kapustin–Witten culture.
 
 ---
 
+## Mode C — reconstructed notes from flagship videos
+
+*Reconstructed from auto-captions of Kapustin, Gukov, and Frenkel. Captions: `research/video-research/geometric-langlands-sduality/transcripts/`. Units: `knowledge_units_mode_c.json`. Reconstruct; do not paste ASR.*
+
+### C1. Kapustin — electric–magnetic seed
+
+Classical Maxwell (no charges) has a symmetry sending magnetic field to minus electric field and electric to magnetic. That is the **seed of S-duality**. In nonabelian / supersymmetric gauge theory the story upgrades: dual group $$G^\vee$$, dual line operators, and matching of observables.
+
+### C2. Wilson (electric) vs magnetic defects
+
+**Wilson loops / lines** encode insertion of electric charge worldlines. Dual **magnetic line operators** (’t Hooft-type culture) are the dual observables. Geometric Langlands, in the physics dictionary, organizes categories built from such dual data after compactification on a curve—**bridge, not pure proof**.
+
+### C3. Gukov — why geometric Langlands, then physics
+
+First half: geometric Langlands sits at the meeting of **number theory** (classical Langlands), **geometry**, and **representation theory** (representations realized by geometric objects). Second half: a **physics approach** via S-duality of $$\mathcal N=4$$-type gauge theory—distinct packaging from pure mathematical formulations, same dual-group spirit.
+
+### C4. Frenkel — orientation backup
+
+Frenkel’s talk is a lighter **orientation** on gauge theory ↔ geometric Langlands when Kapustin/Gukov are too dense. Use for climate, not technical completeness.
+
+### C5. Hygiene (shared with Ch.2 §9b)
+
+Ngô’s Fundamental Lemma is **arithmetic endoscopy**, not “geometric Langlands finished.” Physics dualty dictionaries reshape agendas; they do not replace mathematical proofs. See [Witten mini]({{ site.baseurl }}/contents/en/chapter06/06_17_Witten_Physics_Math/).
+
+---
+
 ## Video sources (research pack)
 
 Pack: `research/video-research/geometric-langlands-sduality/`.
 
-1. **Core** — Kapustin, EM duality and geometric Langlands: [https://www.youtube.com/watch?v=oJRD3PshFjY](https://www.youtube.com/watch?v=oJRD3PshFjY)  
-2. **Core** — Gukov, Geometric Langlands and S-duality: [https://www.youtube.com/watch?v=bCpVL6flCxo](https://www.youtube.com/watch?v=bCpVL6flCxo)  
-3. **Orientation** — Frenkel, Gauge Theory, Geometric Langlands: [https://www.youtube.com/watch?v=8Pkw25J-Bg0](https://www.youtube.com/watch?v=8Pkw25J-Bg0)  
-4. **Bridge** — Witten, Mirror & Geometric Langlands: [https://www.youtube.com/watch?v=S02ghGCdNDo](https://www.youtube.com/watch?v=S02ghGCdNDo)  
+1. **Core / Mode C** — Kapustin, EM duality and geometric Langlands: [https://www.youtube.com/watch?v=oJRD3PshFjY](https://www.youtube.com/watch?v=oJRD3PshFjY) · captions in pack  
+2. **Core / Mode C** — Gukov, Geometric Langlands and S-duality: [https://www.youtube.com/watch?v=bCpVL6flCxo](https://www.youtube.com/watch?v=bCpVL6flCxo) · captions in pack  
+3. **Orientation / Mode C** — Frenkel, Gauge Theory, Geometric Langlands: [https://www.youtube.com/watch?v=8Pkw25J-Bg0](https://www.youtube.com/watch?v=8Pkw25J-Bg0) · captions in pack  
+4. **Bridge** — Witten, Mirror & Geometric Langlands: [https://www.youtube.com/watch?v=S02ghGCdNDo](https://www.youtube.com/watch?v=S02ghGCdNDo) · captions under mirror pack  
 
-Full URLs: `research/video-research/geometric-langlands-sduality/references.md`.
+Full URLs: `research/video-research/geometric-langlands-sduality/references.md`.  
+Transcript status: `research/video-research/geometric-langlands-sduality/TRANSCRIPT_STATUS.md`.
 
 ---
 

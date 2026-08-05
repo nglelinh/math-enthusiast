@@ -137,16 +137,40 @@ $$
 
 ---
 
+## Mode C — reconstructed notes from flagship video
+
+*Reconstructed from auto-captions of Witten (Fields Medal Symposium 2012). Captions: `research/video-research/mirror-symmetry/transcripts/`. Units: `knowledge_units_mode_c.json`. Reconstruct; do not paste ASR.*
+
+### C1. Why geometric Langlands “wants” four dimensions
+
+Witten’s orientation bridges **mirror symmetry** language with **geometric Langlands**. A QFT in dimension $$d$$ naturally assigns a **category of boundary conditions** to a closed $$(d-2)$$-manifold. Geometric Langlands assigns categories to a **Riemann surface** (2-manifold), so the matching dimension is $$d=4$$: start from a four-dimensional theory.
+
+### C2. $$\mathcal N=4$$ SYM as the natural theory
+
+Among 4d gauge theories, the one with maximal supersymmetry—**$$\mathcal N=4$$ super Yang–Mills**—is the natural host. The gauge group $$G$$ (compact Lie group in physics packaging) and its dual enter through dualities; supersymmetric “odd symmetries” supply differentials that package the categorical structures mathematicians study.
+
+### C3. Mirror + Hitchin culture (not a proof)
+
+The talk mixes **mirror symmetry** (branes, dual geometries) with **Hitchin / moduli of bundles** data that feed geometric Langlands. For this course: treat as **research climate and dictionary**—not a board proof of full HMS or full geometric Langlands. Pair with [Geometric Langlands & S-duality]({{ site.baseurl }}/contents/en/chapter06/06_15_Geometric_Langlands_SDuality/) and [Witten mini]({{ site.baseurl }}/contents/en/chapter06/06_17_Witten_Physics_Math/).
+
+### C4. Caption hygiene
+
+- **Witten `S02ghGCdNDo`:** EN auto-captions extracted (2026-08-05).  
+- **Chan HMS/SYZ `Kz6Dj8KSFjM`:** no subtitles available—watch for visuals only; do not invent Mode-C from missing ASR.
+
+---
+
 ## Video sources (research pack)
 
 Use for **orientation**, not as substitute for surveys. Pack: `research/video-research/mirror-symmetry/`.
 
-1. **Orientation** — Witten, Mirror Symmetry & Geometric Langlands: [https://www.youtube.com/watch?v=S02ghGCdNDo](https://www.youtube.com/watch?v=S02ghGCdNDo)  
-2. **Core research talk** — Chan, HMS via SYZ: [https://www.youtube.com/watch?v=Kz6Dj8KSFjM](https://www.youtube.com/watch?v=Kz6Dj8KSFjM)  
+1. **Orientation / Mode C** — Witten, Mirror Symmetry & Geometric Langlands: [https://www.youtube.com/watch?v=S02ghGCdNDo](https://www.youtube.com/watch?v=S02ghGCdNDo) · captions in pack  
+2. **Core research talk (no captions)** — Chan, HMS via SYZ: [https://www.youtube.com/watch?v=Kz6Dj8KSFjM](https://www.youtube.com/watch?v=Kz6Dj8KSFjM)  
 3. **Research** — Zaslow, Lagrangian fillings: [https://www.youtube.com/watch?v=Y3-sw3tjZiU](https://www.youtube.com/watch?v=Y3-sw3tjZiU)  
 4. **Notes** — MIT OCW Mirror Symmetry: [https://ocw.mit.edu/courses/18-969-topics-in-geometry-mirror-symmetry-spring-2009/](https://ocw.mit.edu/courses/18-969-topics-in-geometry-mirror-symmetry-spring-2009/)  
 
-Full URL list: `research/video-research/mirror-symmetry/references.md`.
+Full URL list: `research/video-research/mirror-symmetry/references.md`.  
+Transcript status: `research/video-research/mirror-symmetry/TRANSCRIPT_STATUS.md`.
 
 ---
 

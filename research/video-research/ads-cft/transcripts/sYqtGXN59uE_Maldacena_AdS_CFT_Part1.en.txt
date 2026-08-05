@@ -1,0 +1,1872 @@
+Thanks you for the kind introduction.
+Uh, unfortunately what he said is wrong.
+I'm not the best one to to explain it.
+Um, so
+again you chose wrong. Yeah, I'm sorry.
+So yeah,
+the I think Pedro will be the best one
+to explain it.
+Um anyway so we'll uh start today with
+the basics of adsft. So today there will
+be no super symmetry, no integ. So very
+simple I'll try to explain the basic
+idea uh behind
+ADCFT. Um and then um probably for the
+next two lectures if uh well there are
+many if you have many more questions
+about this I can try to answer them in
+the next lecture. So otherwise I'll go
+into describing more how to use
+integraability to analyze some problems
+in
+ADSCF and there we will definitely use
+super symmetry in the theme of this
+school. Um okay so ADSF is
+a is really I think a bad name. Uh so
+the this subject should be called
+quantum field theory slash quantum
+gravity duality. Um but sometimes it's
+also called the gauge gravity duality
+for reasons that will be clear in a
+second. And the basic idea is an
+equality between uh you take a spacetime
+um and you consider quantum gravity in
+this spaceime in the interior of this
+spaceime. So this whole
+interior and then this should be equal
+to a certain uh quantum field
+theory that is defined on the boundary
+of that spaceime. Okay. So that's the
+ads this uh quantum field theory
+uh slash quantum gravity
+uh
+duality is just this statement the
+statement that these two things are
+equal. Now um we have various examples
+where uh we'll give a specific uh space
+time here and a specific gravity theory
+and a specific uh quantum field here on
+the boundary and there are various
+examples of this. So many of the
+examples uh involve uh string theories.
+Uh so that's string theory is a is a way
+of um quantizing gravity.
+Um and uh when we have strings, so if we
+have strings here in the interior in
+particularly in particular if we have
+weakly coupled strings uh which is one
+regime of quantum gravity then typically
+the gauge theory that is dual to it uh
+will be um a un gauge theory.
+um you engage theory usually in the
+large hand limit. So and you need to be
+in the large and limit because um um
+here strings have a coupling and the
+coupling uh between uh between the
+strings turns out to be uh proportional
+to 1 / n^
+2. Now um the reason uh this is the
+coupling comes uh well it's due to an
+old argument uh of toft that if you have
+a un gauge theory you can um uh divide
+the diagrams the fineman diagrams of
+that gauge theory into planer diagrams
+and non-planer diagrams and non-planer
+diagrams um are suppressed by powers of
+1 / n^ squ and this amounts to and turns
+out to be exactly the same as the
+division we have here in string theory
+between string wall sheets which have
+the topology of the sphere or string
+wall sheets which have more complicated
+topologies which represent string
+interactions. Um okay that was a very
+quick um review of the to argument but
+uh basically since u since that argument
+it was expected that uh large gauge
+theories uh should be related to string
+theories of some kind and
+uh people thought well maybe those are
+string theories that somehow live in two
+in four dimensions the same number of
+for example if you started with a gauge
+theory in four dimensions people
+expected those strings to live in four
+dimensions but actually those strings
+should be thought of as living in some
+higher dimensional space. In fact, uh
+they they live in this the interior of
+this this other
+spacetime. Um now in gauge theories we
+usually have a a gauge coupling and um
+so there is the yaml's coupling and not
+to be confused with the string coupling.
+Um and the effective coupling in a large
+engage theory is G square N. And the
+reason for that is that
+um is that we can have n uh colored
+objects uh or n gluons propagating
+between
+uh that that can transmit the force and
+so interactions are n times bigger than
+you would otherwise expect.
+So
+um so in other words if uh you have the
+propagation for example of a gluon and
+uh you have this type of diagram um
+there is a color line here which can
+have n different colors and for that
+reason this diagram gets enhanced by a
+factor of n. So really the effective
+coupling of these theories is g square n
+and so if you have a large engage the
+theory this this will be the coupling.
+So whenever lambda and this is sometimes
+called the to coupling lambda and when
+lambda is small uh the gauge theory will
+be weakly coupled and it turns out that
+in uh this relationship the radius of
+the space here so some measure of the
+typical curvature radius I'll be more
+concrete in a second um the radius of
+curvature of the space that is somehow
+the size of the space uh in uh string
+units is typically a power of g square
+to some positive number
+here. Now the fact so string theory can
+be well approximated by gravity whenever
+this uh number is very big. So whenever
+the size of the space is uh much bigger
+than the string scale. So in other words
+the picture is something like this. So
+we have some very big space.
+Um and uh the graviton is a little
+string uh whose size is of order the
+length of the string. And in order for
+for you to be able to approximate the uh
+the string state by a pointlike particle
+such as the graviton of Einstein's
+theory, you need that the size of your
+space is much bigger than the string
+scale. Okay. So gravity will be a good
+approximation whenever this is much
+bigger than one. And I said before that
+um perturbative gauge theory so weakly
+coupled gauge theorist your usian
+intuition of gluons moving almost freely
+interacting now and then uh is good when
+this is very small. Okay. So um now the
+regime where these two theories these
+two approximations are easy is perfectly
+incompatible and that's uh good news
+because otherwise we would have ruled it
+out immediately because uh the theory
+here doesn't look any anything like uh
+perturbative gauge theory.
+um and that's also why it's called the
+duality. So that's where the word
+duality comes from is the fact that um
+the parameter space is is divided into
+two regions and in one region of
+parameter space one description is
+simple in the other region of parameter
+space the other description is simple.
+Okay. So here in one one regime
+perturvative gauge theory is simple when
+lambda is small when lambda is large the
+string theory description is correct.
+Okay, so that's uh the basic statement
+and we'll uh give more and more uh we'll
+specify it more and more. So that's uh
+somehow the basic
+story.
+Um
+now in order to understand this a little
+better, one needs to understand better
+what kinds of spaces we're going to be
+talking about here.
+And the spaces are
+um spaces which have something called
+the warp factor.
+Um war factor is just simply a
+gravitational potential.
+Um so there are spaces where for example
+if we start with a theory which is
+defined in R4 so we have the time this
+is R3 comma 1 uh and they have an extra
+dimension let's say C^²
+um and then we have here a gravitational
+potential which depends on the
+coordinate C this just some overall
+factor of the metric um when a factor
+multiplies uh the metric in this lorens
+in variant form is sometimes called warp
+factor. Uh you might be also used to red
+shift factors which are factors that
+just multiply the time direction.
+Um and so
+on. Um now what happens when you have a
+situation like this? Well
+uh just let
+me so the types of metrics we'll
+consider this factor will be such that
+it diverges for sequel to zero. So
+there's some region where it blows up.
+Um and then uh it uh in some examples
+the simplest examples like the ones that
+have more symmetry they just decrease
+continuously. But for the purposes of uh
+illustration let's imagine a situation
+where this war factor just goes up
+again. Okay. Now imagine you have a
+gravity in a situation like this. Um you
+have a war factor that has a minimum at
+some
+location. Okay. This is just simply
+gravity. This is a gravitational
+potential. Well, so if you have if you
+put in a particle somewhere, its energy,
+let's say you put it at rest at some
+position C, its energy would just simply
+be the rest mass of the particle times
+the local value of the war factor W of
+C, right? And the particle will want to
+go to the region where the war factor is
+minimized. So the particle will want to
+sit here at the bottom. Okay, that's a
+gravitational potential.
+Now uh imagine we have a situation like
+this and we concentrate on the lowest
+modes. So we concentrate on the uh modes
+um where the particle is just stuck here
+and moving purely in the uh
+fourdimensional directions. So then
+clearly the physics of this particle I
+mean this particle will behave as a
+fourdimensional particle right.
+Um now if we uh do quantum mechanics of
+course this particle will have some wave
+function and it will have a wave
+function localized near the minimum of
+the potential. Um and again from the
+five dimensional theory we go to a
+fourdimensional theory. Now this is
+nothing surprising. You of course know
+that in uh many situations let's say
+condensed matter for example you have
+electrons moving let's say in a two
+dimensional confined to a to a two
+dimensional layer. um by a potential in
+let's say the C direction and they
+behave as two dimensional particles. So
+that's uh that's fine nothing surprising
+here. Now imagine we start including the
+higher modes. So there is this wave
+function and then there are some other
+wave functions where it oscillates twice
+and so on. Right? So these are all the
+higher modes representing the radial
+oscillations of this particle. Right?
+This is more or less like a particle in
+a harmonic oscillator will have all
+these various modes. So then uh you
+would say well you have a certain
+four-dimensional field theory with um an
+infinite number of particles you would
+say because you have an infinite number
+of particles because you have all these
+various kalousa climb modes
+right
+okay now this is what you would naively
+say
+naively you have an infinite number
+of fourdimensional particles
+And now this fact that you have an
+infinite number is the reason why if you
+have a quantum field theory let's say on
+a box and you want to include um and you
+want to treat that's a field theory in
+one less dimensions well it's useful as
+long as you consider energy scales less
+than the box when you consider energy
+scales higher than the size of the box
+it's convenient to go to the higher
+dimensional field theory and it's not
+convenient to think of it as a field
+theory which includes all these infinite
+number of
+particles.
+Okay. Now, what happens um in a theory
+of gravity is that there is a kind of
+truncation um and I'll a kind of
+truncation that allows you to keep what
+essentially is a finite number of
+fields. So, you are able to describe
+this whole configuration, this whole set
+of uh states and so on, everything in it
+uh in terms of a finite number of
+fields.
+and well there are various qualitative
+reasons why this happens. Uh one is the
+so-called horroric principle that tells
+you you can describe the uh degrees of
+freedom in some region of space by um a
+number which goes like the area. Another
+more practical is that if you try to
+excite here very high kalousa climb
+modes you might end up forming a black
+hole um and that truncates them
+um so and in fact in this duality to the
+um this duality we're talking about this
+un gauge theory has large by finite 10
+so there's a finite number of degrees of
+freedom which is described in the
+fivedimensional uh
+spacetime okay And this finite number of
+fields uh this number of
+fields is uh turns out to be
+proportional. I I'll explain later why
+it is proportional to this. I'm now just
+giving results. It's proportional to the
+radius of curvature of this space.
+Uh well it's basically it's proportional
+to the inverse of the Newton constant
+the fivedimensional Newton constant uh
+in units of the radius of curvature of
+the space. So that's uh the number
+finite number of fields you need to
+include.
+Um now a very special case of this uh
+relationship. Now you shouldn't be
+confused by thinking perhaps my
+explanation was a little misleading in
+that you shouldn't think of these fields
+that will describe uh the field theory
+as being directly these kaloosa climb
+modes. We'll see that these koosa climb
+modes we're talking about here are
+really bound states of the fundamental
+fields. All that I wanted to illustrate
+here is just this truncation in the
+number of fields and why it's important
+to have gravity. Actually in one of the
+exercises I proposed that you
+demonstrate that if uh you have you have
+a here an ordinary quantum field theory
+then it cannot be dual to a quantum
+filter on the
+boundary. Okay. So it's crucial to have
+gravity in the bulk.
+Now, now let's consider a special case.
+Uh and a special case is a situation
+where
+um um this factor w is equal to 1 / c.
+Okay. So in this situation we have a
+gradational potential of this kind and
+uh the metric in this situation has uh
+an extra
+symmetry. Um so let me so we have all
+the four dimensional fourdimensional
+directions plus the extra direction
+divided by c ^
+2. Okay so that's um the metric and
+um this metric has a rescaling symmetry.
+So if x goes to lambda x
+um and c goes to lambda c um this metric
+remain I mean the the metric remains of
+the same form. So that's an isometry of
+the metric. Um and this um will
+translate into a symmetry of the
+boundary theory. So in this case uh the
+boundary corresponds to uh these
+directions um this the the four
+dimensional directions. So the boundary
+is whatever sits at C equal to zero. Um
+so in general the boundary occurs
+whenever the uh war factor diverges um
+and when it diverges in this particular
+way um the theory is conformal in the
+traviolet. So if it behaves like this in
+near the boundary uh you'll have a field
+theory which is scaling variant
+um because this bulk symmetry so the
+fact that we have this symmetry in the
+bulk theory translates into a symmetry
+of the field theory of the field theory
+and that symmetry is just symmetry under
+rescalings.
+Um
+okay now let let me uh continue talking
+about the physics of this work factor. I
+mean the most important thing to
+understand uh in the gauge gravity
+duality or one one very important thing
+to understand is uh the significance of
+this uh scale factor what it does to the
+physics and uh what what happens under
+this very big gravitational potential
+that we have.
+Um so uh let's try to understand what
+happens to a massive particle. So we
+discussed before uh the fact that if we
+put a massive particle here at some
+point on this potential we'll have uh it
+will have an energy measured with
+respect to that time. So here um so
+there is the time t um and we have time
+translation symmetry and under and uh
+translations of this time t. Um and if
+we measure energies conjugate to this uh
+time translation so the we have the
+operator that implements those
+translations in the H silver space blah
+blah blah. If we measure energies
+conjugate to this um uh we'll we'll find
+that the energy of a particle at
+position C is uh just given by well the
+same formula I d written before M R* um
+divided by C 0. Okay. So if this is a
+particle sitting at some position C
+0 that uh will be the energy uh at that
+position. Of course if we put a particle
+at this position C 0 it has a
+gravitational force and it will start
+moving in right. So a particle put at
+this position will start moving to the
+interior of ADS. And if a particle has
+this energy uh and it comes from the
+interior it will reach to this point and
+then bounce back. Okay. So a massive
+particle will never be able to get to C
+equal to zero. Okay. Um so it will
+always bounce back before it gets to uh
+this
+boundary. So we said that equal to 0 was
+a boundary. Notice that this is a place
+where you can't quite reach with massive
+particles. You try to send a particle
+higher and higher energies. You get
+closer and closer to C equal to zero but
+you b you bounce back before you get to
+equal to zero.
+with massless particles it's slightly
+different. Um so uh massless particle in
+principle can uh a massless jodisic can
+get to cel to zero and the easiest uh
+way to see that is uh to uh look again
+at this uh at this metric and notice
+that massless particle doesn't care that
+there is this factor 1 / c^ squ um and
+then uh you find that you have really
+half space I mean you have in the c
+direction uh you a light ray can come
+and then go back out.
+Okay, but really I mean they can do it
+but at the cost I mean when they get
+here they are really really uh very
+redshifted and uh by putting a simple
+boundary condition here and we'll we'll
+specify later the boundary conditions
+also massless particles uh go back in
+and in general we'll have to supply some
+extra boundary condition here at the
+boundary of ads to tell us how these
+massless particles are reflected.
+Okay.
+Um now notice that um as we uh as this
+particle has as we move this particle to
+smaller and smaller values of of uh of C
+not it will have higher and higher
+energies.
+And this is the first uh manifestation
+of uh of something which is uh we'll
+we'll see later in more detail which is
+the fact that
+um uh approaching the boundary of the uh
+of of ads corresponds to going to very
+high energies in the boundary especially
+very uh high energies offshell energies
+in the boundary
+theory.
+Um now this can also be seen by noticing
+that if you take the scaling symmetry
+and you perform perform rescalings that
+move you to smaller values of C that is
+you choose here lambdas which are
+smaller than one then you're also going
+to exits that are smaller than one. So
+in the boundary theory you are shrinking
+your distances you're examining the UV
+behavior of the theory.
+Um now in fact uh when it turns out that
+if you uh have a particle at some
+position C 0 so a massive particle at
+some position C 0 it corresponds in the
+boundary theory to some object some
+object some bound state some state in
+the field theory which has some
+characteristic size which is also
+proportional to C
+0 and again this is this is also due due
+to this just simply the application of
+the symmetry. So if C 0 corresponds to
+some object of some size then as we
+rescale it, it will rescale together
+with C0. So um sizes here on the
+boundary um on the boundary theory
+correspond to um to this distance from
+the boundary in the bulk. So a pointlike
+particle in the bulk corresponds to an
+object that has some non non-zero size
+in the boundary and as we approach uh as
+we approach the boundary this object
+shrinks and becomes smaller.
+Okay. Now this is also another one way
+to think about the merchants of the
+extra dimension. uh the fact that uh in
+a conformal in a scaling variant theory
+in order to specify the state of some
+object you need to give not only the
+center of mass position but also its
+size and so you need one more coordinate
+than you would na have expected and this
+one more coordinate is uh this extra
+position in the C
+direction.
+Okay.
+Um now uh let's talk a little more about
+uh this space. Um it's called this space
+it's uh called anti-seater space if I
+haven't I think I already said it. It's
+the simplest space with constant
+negative
+curvature and um it has it has more
+symmetries that are that than they are
+apparent in this
+uh in this way of writing the metric. So
+I've uh written the metric in such a way
+that you see the pankar symmetries plus
+the rescaling that I've just mentioned
+but it has a few other symmetries which
+are called special conformal
+transformations
+um and so on. So by writing the metric
+unfortunately there is no coordinate
+system that makes all the symmetries
+manifest. So you'll have different
+coordinate systems make different
+symmetries
+manifest.
+Um okay so but there is another set of
+coordinates that uh are particularly
+useful for thinking about antic space
+and these are coordinates uh where the
+metric takes uh the form uh d to square
+cosine hyperbolic of row plus d row 2
+plus sin hyperbolic of row 2 d omega 3^
+2. We are talking about the
+fivedimensional anti-sear space. Now
+um there is some overall factor which is
+telling us the um the radius of
+curvature of the space. Uh we have the
+metric of the sphere. This would be the
+radius of the sphere. This just setting
+us setting the scale of the space.
+Um and so in these coordinates the space
+can be actually in fact the pendros
+diagram of the space can be represented
+as a cylinder. uh with one time
+dimension and then this circle here is
+really uh the s3 and then we also have
+the radial direction that starts from
+the origin of the
+cylinder.
+Okay. Now imagine we uh consider a
+ukidian field theory for the time being.
+So ukidian field theory uh will be
+related to ukidian ads space and ukidian
+ads space also is known as hyperbolic
+space it's the same you can represent in
+the same way but with a plus sign here
+yes the term multiplying das is that ln
+what is that hyperbolic cosine I'm sorry
+I I learned with Russian books which
+write write this as uh
+yeah sorry sorry about that.
+Um, okay. So
+the so if you if you have the ukidian
+field theory um then uh you can map the
+ukidian field theory to a cylinder uh by
+considering something called radial
+quantization. So you start with some
+origin and you think of time not as
+slicing the theory in this way but
+slicing the theory at different uh radi.
+Okay. Now here the size of the sphere is
+changing but um we have of course the
+conformal symmetry that allows us to uh
+change uh the overall scale factor in
+the metric. So this is now the metric of
+the fourdimensional filter in uklidian
+space. We can multiply this metric
+divide this metric by R 2 and so we get
+here log of R 2. Now we have a cylinder
+uklidian
+cylinder.
+Okay. And then the theory on this
+uklidian cylinder is dual to the theory
+on the ukidian version of this space
+which we could also now we could
+analytically continue the time
+coordinate in this cylinder to Lorenian
+signature and we would have this
+Lorenzian signature space. Now the
+reason I mentioned this uh this
+relationship in detail between the plane
+and the cylinder uh is the fact that um
+if you start with the quantum field
+theory on the plane and do this mapping
+here you get um the the on the cylinder
+on its ground state. So you get the
+ground state on of the the cylinder the
+state with lowest possible energy. But
+by inserting local operators here of so
+you insert some operators at the origin
+and you do the same mapping then here
+you get some excited states uh on of the
+theory on the
+sphere.
+Um so you have this
+um this mapping between
+operators in
+R4 and uh
+states of the theory on well
+on S3 times time.
+Okay. So this is uh something that is
+true in any conformal field theory in
+four dimensions but it's actually true
+in any dimensions. You have to only
+change the dimensions here of the
+cylinder. Um and it follows just from
+the simple argument about the val
+rescaling symmetry of the theory. The
+rescaling of in a conformal field theory
+you can uh change the metric by any
+overall factor and the physics will be
+the same. Okay. Um up to something
+called the conformal anomaly which is
+not important for what I'm saying here.
+Um
+um okay so now we have this mapping
+between states uh operators and states
+uh of course uh here we have this ads
+space now we uh can view the filter as
+living on the boundary so this is just
+the boundary of the cylinder this is a
+cylinder with the interior and this is
+the cylinder without the interior that's
+where the filter lives and different
+states here correspond to different
+states uh here in uh in the bulk. So in
+particular uh imagine you have a
+particle here sitting at the the center
+of ads. So you have some particle and um
+we can compute the energy of this
+particle with respect to that time uh
+that time coordinate that appears in
+that metric and
+um so the energy of that particle will
+be uh m times the radius of ads if it's
+sitting at the
+origin now and that will be the energy
+of the corresponding uh state here on um
+on the boundary theory
+and such energies are related to uh the
+behavior of the state and their um
+translations in this direction which is
+the same as rescalings of this
+coordinate r and so uh that value is the
+same as the conformal dimension of these
+operators. Okay, so those energies are
+the same as the conformal dimension
+usually denoted by delta is the
+dimension of the operator. Well, it's
+how the operator scales and their
+rescalings of the coordinates. So we
+have this relationship between the
+operator dimensions and the energies of
+particles. Now of course when uh we did
+this we did this for a massive particle
+and I I've ignored quantum effects. So
+ignore the fact that this particle can
+move and has some wave function. Uh um
+so in other words
+uh notice here that uh this
+gravitational potential again is like a
+some harmonic oscillator potential.
+Well, it's not really harmonic,
+unharmonic, let's say. Um, but it's some
+potential and due to quantum effects,
+there will be some quantum uh
+contribution to the energy of the
+particle. And you can do that quantum
+mechanics and it just simply corresponds
+to solving the wave equation for a
+massive field on this curve space. And
+you can calculate that energy precisely
+and you you'll get the precise
+expression which for a scalar field uh
+has the form 2 + square root of m r 2 +
+4. So I'm not telling you how. So this
+is the full exact answer. So it's exact
+in the regime where you can
+calculate well it's not quite exact. I
+mean it's it's only exact in the
+approximation where you consider you
+take into account the quantum mechanical
+effects of the particles but you do not
+take into account the back reaction of
+the particle on the geometry.
+Um okay.
+Um
+good now this uh formula uh shows a
+couple of features
+that so first is uh consider a massless
+particle. So particle m equal to zero
+um that would correspond to uh an
+operator of dimension delta equal to 4.
+Um so first thing to notice is that a
+particle with zero mass does not lead to
+uh a state with zero energy because of
+the ground in that case the only
+contribution is just the ground state
+contribution from the harmonic
+oscillator potential. So there is that
+contribution to the energy and that
+contributes to a non-zero energy an
+energy equal to four in this units.
+Um not notice by the way that the spread
+of the wave function here
+um is if this has some curvature scale
+of order one um the spread of the wave
+function will be again of order the
+radius of the the radius of curvature
+right
+um just even in the original formula
+that we is some energy which uh goes
+like the gradient terms you need for
+curving so changing the wave function at
+scales of order the radius of curvature
+that contribute with a mass or energy of
+order one / r that give a contribution
+to the energy of order one. These are
+the corrections we have to take into
+account when we do the quantum
+mechanical
+calculations. Anyway, so mass equal to 0
+will still have non-zero energy delta
+equal to 4. Now delta equal to 4 in a
+fourdimensional field theory is a
+special uh dimension because this is a
+dimension of a so-called marginal
+operator. So we can um add this operator
+to the theory at at least to leading
+order the uh theory will remain
+conformal. So this is a perturbation
+which at least at first order in the
+strength of perturbation it does not
+change conformal
+symmetry. Now there are many situations
+where uh we have scalar fields with a
+completely flat potential in the bulk.
+The dilaton for example in some of the
+examples in strength theory will be an
+example of that. And in such situations
+where we have no potential for the
+diloton and the diloton have any value.
+So the scalar field can have any value.
+So the theory will be conformal for any
+value of the diloton. And uh changing
+the the value of the diloton would
+correspond to changing the constant
+value of that scalar field everywhere in
+space. Okay. That uh that's what uh that
+corresponds to.
+Yeah. How do you know that it's exactly
+marginal?
+Yeah, that requires more calculation.
+That's why I said if you have a
+potential which is exactly flat then it
+will be exactly marginal. Yeah, exactly.
+That would require more calculation.
+There are many situations where you have
+delta equal to four states but they are
+not all
+marginal not exactly
+marginal. Um now another interesting
+case is the case of uh the
+graviton. Um so the graviton again is a
+mass particle which in the bulk has mass
+equal to zero but now has spin two and
+it also leads to dimension four state
+which uh is just the stress tensor
+operator on the boundary
+theory. Um and that's the correct
+dimension of the stress tensor.
+Um okay so uh I mentioned a couple of
+states. So in any uh conformal field
+theory you will have you'll definitely
+have the stress tensor. So it will have
+the graviton in the bulk.
+Okay. Um so that's a state that we'll
+always have. Um and then different uh
+other uh quantum field theories could
+have other
+states. Now let's analyze what other
+states we get from the point of view of
+the bulk.
+Um well I mentioned that in many
+examples we have uh string theories. Um
+so string theories contain string states
+and among the string states there are
+the massless string states which uh
+about which we talked a bit here about.
+So we have those but in addition we have
+massive string states. we have a mass uh
+of the order of one over um over the
+string length. Remind you that the
+string length is so the tension of the
+string is one over ls^ squ. So that's
+the definition of ls. So we have a
+string of this tension will have such um
+such states and it will lead to
+operators of dimension um r / ls.
+Okay. So all the massive string states
+uh will have dimensions which K like R /
+LS and if you recall what we discussed
+here. So we discussed that the gravity
+approximation will be correct precisely
+when R ls is very big. So precisely when
+all these states have high
+dimensions. Now if you go to just the
+first massive string state um you'll
+find that among those massive string
+states there are there are states we
+have spin bigger than two. So we have
+for example states of spin four just the
+first massive string
+state. So
+um um now if this state was very light
+then gravity would not be a good
+approximation. You have sort of light
+states of spin 2 spin four you probably
+are forced to include all kinds of
+spins. Um so the approx the demand that
+delta over ls is very big is given a
+high mass to all the states we have h
+have a skyer spin spin bigger than two
+and make sure that uh what is remains is
+uh what remains is are all the states
+with spin two and therefore well and
+probably the well certainly in flat
+space the only consistent interactions
+of low energies of spin particles are
+those of gravity.
+So this leads to a natural idea that
+that if perhaps you have a conformal
+field theory where all particles of spin
+bigger than two have very high conformal
+dimensions, you probably rec discover
+gravity in the infrared. Though this is
+a conjecture hasn't been proven.
+Um anyway so
+um but this is something to to remember
+uh in particular is saying why um if you
+had a why qcd for example will not will
+not have a a nice gravity dual even for
+n equal to infinity because there we
+expect to have uh higher spin particles
+like the resonance resonances we see
+which have spin uh bigger than two and
+uh which are not much heavier than
+particles with spin less than less or
+equal to
+two anyway. So the gravity approximation
+will not be arbitrarily good in those
+cases. Um of course the string
+approximation will be
+correct. Now there is one important
+property of uh of the spectrum that I
+completely I
+didn't I didn't mention and is the fact
+that in in a weekly couple string theory
+or in a theory of gravity that for large
+radius you can separate the uh the
+states according to single particle
+states and multi multiparticle states.
+So in other words the states can be uh
+organized according to at least an
+approximate fox space where you have the
+state of one particle then you can add
+one
+particle will have some energy E let's
+say E for the one particle states and
+then you can have two particle
+states which will have energy while the
+energy of the first particle you put in
+the energy of the second particle plus
+some small corrections. So in a theory
+of gravity the small correction will be
+proportional to the Newton constant in
+uh the
+theory in these theories we're talking
+when the gauge theory will be
+proportional the correction will be
+proportional to 1 / n^² and this
+structure of large end gauge theories um
+arises when you consider the div the
+when you consider single trace
+operators. So operators which can be
+written in terms of uh many insertions
+of the field versus uh operators which
+are of this form for
+example. So you can consider an operator
+which contain two traces and versus
+these operators. Now if if if you're in
+the large limit in the regime where the
+to coupling is fixed uh you can uh
+compute the anomalous dimensions of
+these operators and that will be a
+typically hard calculation and my next
+two lectures will be about computing the
+dimensions of these operators. Um but
+then the dimensions of these operators
+will be just the sum of the dimension of
+this operator plus this operator plus
+some small correction.
+Okay. And again uh this is a structure
+uh which matches the uh the gravity
+structure and it essentially boils down
+to the same uh thing I mentioned here
+about planer diagrams. So that len
+theories uh in in the planer
+approximation correspond to uh string
+theories uh again in the approximation
+tree level approximation that we have
+this this expansion in terms of the
+genus of the diagrams translates into
+the statement that we have expansion in
+terms of the genus of the
+world. Okay.
+Now
+um now can a weekly coupled uh theory
+ever have a gravity dual?
+Well, a weekly couple theory always
+contains a weekly weekly couple gauge
+theory always always contains operators
+of this form d plus
+to to the s phi where let's say you have
+two uh operators five could be f five
+could be a scalar an an field in the
+adjint and so on and we act with
+derivatives on these two fields and we
+can make a a primary operator out of
+this thing. So something which it
+transforms in an irreducible
+representation of the conformal group
+and uh these operators will in a weekly
+couple theory will have a dimension
+which is typically small. So it will be
+of order s. So delta will be of order s
+and in and so this is not much bigger
+than well you could have let's say s
+equal to three for example and uh it
+will have a small dimension.
+Um so weakly coupled theories cannot uh
+have uh well cannot be well approximated
+by gravity. So you'll have really to go
+to strongly coupled theories where these
+corrections that we get so typically
+we'll get some corrections to the
+dimension which of course depend on the
+spin. Um and in theories that have
+gravity duals uh these corrections
+become very very big for all the
+operators that have spins bigger than
+two. So getting large anomalous
+dimensions is fundamental for getting uh
+a good gravity dwell that's what I'm
+trying to say.
+Um
+okay so now um now that we discussed uh
+all these operators we can uh start uh
+computing correlation
+functions. So in conformal field
+theories the natural observable are
+correlation functions of local operators
+of these operators we've been
+discussing and one of the main elements
+of uh ADSCF or an element that is is
+used all the time is the relationship
+between correlation functions of local
+operators and a certain calculation that
+we'll uh do in the boundary theory.
+So let's first start discussing an
+operator which has high anomalous
+dimension corresponds to a single
+particle of large mass.
+Um then in that case uh well anyway
+before we say that the object we are
+considering is this correlation
+functions of local operators in the
+conformal field theory. Um and now let's
+consider for example the twopoint
+function O of X1 O of
+X2. Um now by scaling symmetry or
+conformal symmetry this twopoint
+function goes like X12 to the^ 2 delta
+um times some coefficient which we can
+set to one by normalizing the operator
+appropriately. Okay. If delta is large
+then uh we have this equal to zero. We
+have let's say X and we separate two
+points by some distance in the X
+direction and we have a massive particle
+in the interior. Massive particle can be
+it's it's like it's well approximated by
+a geodisic. So we have a judic that uh
+goes between these two points on the
+boundary. Now this follows from what I
+said before though perhaps not uh very
+clearly. So I discussed before that we
+had this uh coordinates in ads space
+where ads space looked like a cylinder
+and there was a state that was a massive
+particle that was propagating along the
+time direction in the cylinder. Right?
+And we also had this
+uh uh state operator mapping in the
+boundary theory um where a point here um
+well where where we map the this whole
+cylinder to radial evolution around um
+around this object. So we can uh view
+let's say one of these points as uh the
+um this this point here and the second
+point we can view it as some point at
+infinity and then we have uh this
+particle that propagates along the
+cylinder the same particle that we
+discussed before all that I'm doing here
+is u making a coordinate transformation
+that maps those two points from zero and
+infinity to these two finite points here
+and then the trajectory of the particle
+corresponds to just this trajectory.
+This is a semicircle and these are the
+judics of anti-itter of anti-itter space
+or hyperbolic space. Here I'm taking
+this x to be spa in along a space-like
+direction. So everything I say here also
+will hold in hyperbolic
+space. Um okay and again that's the
+simplest way of getting the the the
+jistics in hyperbolic space is to do
+this mapping I just mentioned
+um okay good so that's
+um this is the picture now how do we get
+uh this result from this
+picture well um we need to consider the
+bul theory now in the bulk theory um if
+we have a particle will have um some
+contribution to the partition function
+that goes like the action of the
+particle
+right and this action will be equal to e
+the minus m * the length of the of that
+trajectory now you can come and evaluate
+this length and so that's simple to do
+um
+we as I said this this is just a
+semicircle so we have this semicircle we
+can have this angle theta um now the
+metric is uh the metric is over there.
+So it's whatever the metric is for a
+circle which is just the integral d
+theta divided by that factor of c since
+we have the square root of the metric we
+have a factor just of c of theta okay so
+that's the metric we need to evaluate
+that's the integral we need to evaluate
+the length is equal to this and we find
+that it's infinite okay okay well that's
+typical so you always get infinities in
+conformal field theories um but this uh
+infinity
+um is due to the fact that um well we're
+going all the way to the boundary the
+boundary is infinitely far away so this
+is just the same as the statement that's
+of saying that the boundary is
+infinitely far away so I didn't mention
+that but in proper distance the boundary
+is infinitely far away so in order to do
+any computation you really need to uh
+you will need to put some cutoff you
+need to put some cutoff at sequel to
+epsilon and uh really compute only up to
+sequel to epsilon and then learn to take
+the c the epsilon going to zero limit.
+Now this is uh in correspondence to the
+fact that in filter is we often well we
+have to put some ultraviolet cutff
+compute some quantities and then take
+the ultraviolet cutff to um to
+infinity. So what was um an ultraviolet
+diversions in the field theory
+translates here into sort of an infrared
+diversions because here this is due to
+the fact that the volume or the lengths
+in in ads are infinite. Um so it's an
+infrared story but it's an ultraviolet
+story in the bound in the boundary
+theory and this occurs over and over
+again. Uh this is just the simplest
+incarnation. Okay. So uh you can uh so
+we need to integrate only up from C
+bigger than epsilon and so if this has
+some let's say size x um we have to
+integrate up to a theta which is of
+order epsilon /x and so this thing will
+give a log of um epsilon / x okay where
+x is either this distance or half of the
+distance we don't care about these
+factors of two
+Um okay so what we get is for fixed
+epsilon we get e to the minus m I forgot
+the factor of r here which will give us
+the correct uh dimension um times a log
+of uh epsilon /x
+um and this log is negative so you would
+better get a positive sign here um get
+that
+um and so here you see a factor of
+epsilon which you get epsilon to some
+dimension and if we we were to keep
+track of all factors of two, we would
+get a two here. Um, and so we'll get up
+to an overall factor that depends on
+epsilon uh 1 /x to the two 1 /x to the 2
+delta which was what we wanted. So the x
+dependence is precisely the dependence
+we had there overall factor that depends
+on epsilon. So this epsilon to the power
+2 delta is something we need to absorb
+in the definition of the operator and
+it's what's given the operator its
+dimensions. Um okay very good.
+Yeah. Um that's an
+exercise.
+Um, so
+um, yeah, I didn't explain why it was a
+circle, but that is in the
+exercises. Um, yeah, I guess I didn't
+mention the exercises, but I prepared
+some list of exercises, and you should
+get them probably tomorrow or or today
+if I'll do it fast enough. But one of
+the exercises is to show that theics are
+a circle.
+Um now
+um now this derivation is perfectly
+correct when uh mr is much bigger than
+one. If mr is close to one again you
+have to do the quantum mechanical
+version of this. So you'll have to sum
+or all paths and so and so on do the
+path integral and that's just simply the
+same as solving the wave equation
+solving the classical wave equation in
+this space. And again that's another
+exercise. So um so the exercise consists
+of so let me well it will be printed. So
+exercise solve uh the wave
+equation for a scalar field fi uh is you
+might find it convenient to start first
+with massless fields.
+um uh it's a little simpler. Um and then
+uh put a regularizator at scale epsilon
+and you put some arbitrary boundary
+conditions. So
+um you'd say at uh c equal to
+epsilon you put some arbitrary boundary
+conditions 50 of
+x and then you can solve the wave
+equation.
+And what that is supposed to give
+you is the following.
+So I'm going here to state the final
+dictionary. So if you calculate in the
+uh quantum field theory
+you consider the generating function of
+correlation functions for the operator O
+that is associated to the scalar field
+phi. Um this is an integral in four
+dimensions on the boundary theory. Um
+that uh is supposed to well it's
+approximated u by e to the minus uh the
+classical action for the scalar field uh
+on the classical
+solution. Okay that you have found by uh
+solving the wave equation and setting
+those boundary conditions at the
+boundary.
+Okay let me be a little more explicit.
+So in the bulk we have
+um an action of the form uh gradi squ.
+Uh if we have a massive field we also of
+course have its mass. Um so this is the
+action. This is the bulk
+action. So we are supposed to do is find
+the equations of motion for this action.
+Solve with this boundary conditions.
+Replace it here back in the action. you
+will get some terms that diverge with
+epsilon blah blah blah and uh you get uh
+also some terms which correspond to the
+non-local part of the correlation
+function of this operator. So in other
+words uh when you do this the easiest
+way to do it is in fer space. So you fia
+transform this ph of p and so you'll get
+things well you could also do it in in
+position space but um five
+zero well anyway um you can do it in the
+exercises or or you can ask me questions
+if you want
+um now this is I put this here this
+approximate sign um but there is an
+exact version of this relationship
+um
+and The exact version of this
+relationship is uh given by computing
+the full partition function in the
+gravity theory with the corresponding
+boundary conditions.
+So the partition function um in the
+field
+theory as a function of the
+metric the fourdimensional
+metric or
+couplings and these couplings could
+depend on the position and the metric
+also could depend on the position is
+equal to the full partition function of
+gravity
+um
+with boundary conditions uh fixed by uh
+the metric or by by those four
+dimensional values of the metric. So
+there is for example a 5D metric and at
+the boundary at epsilon is equal to that
+fourdimensional metric that was
+appearing here. So here there is some G4
+the fourdimensional metric
+fivedimensional metric is set to this
+value.
+Okay. And so that's um that's the full
+dictionary and in the regime where uh we
+can neglect the gravitational back
+reaction and so on and interactions
+between these five particles. This is uh
+uh this is correct. If we had the more
+complicated action here which included
+for example some five cube terms um then
+uh we'll have also contributions to
+three point functions for example right
+and in general there will be a
+perturvative way to evaluate the right
+hand side here in terms of some diagrams
+some sort of fman diagrams where you
+start from some points in the boundary
+where the operators are inserted here at
+the boundary. These are also sometimes
+called witten diagrams um where you have
+some interaction f cube interaction in
+the bulk and this uh these lines uh just
+simply denote the propagators from the
+boundary to the
+bulk.
+Um
+okay
+now. Okay.
+Now it's very important in uh this story
+that uh there we are supposed to sum
+over all
+geometries and we can also include
+geometries which uh are different from
+the original geometry um different
+topology um but have the same boundary.
+And the nicest example is the example of
+a black
+hole. So a black hole is a geometry
+which is uh different than the geometry
+of the original ads space but has the
+same boundary condition. So you can
+consider a black hole inside anti-itter
+space. it um asymtotically you'll have
+the same anti-ter space you had without
+the black hole. Um but inside you'll
+have something with a different
+topology.
+Um now you can also have things uh which
+are called black brains. So in this
+situation where we have the C direction
+and we have let's say the x directions
+along here we could consider a black
+brain. So a black hole which is extended
+along the three spatial directions of
+the theory. So this is a state that uh
+is translation invariant in the three
+spatial
+dimensions. Um and uh there is such a
+solution uh it's uh given in the
+exercises. So that's some explicit
+geometry which uh here is very similar
+to ads space and it has a horizon here
+at the position at this
+position. So it has a horizon and
+subosition
+c0 and the position of the horizon is uh
+related to the temperature in the
+boundary theory. And now what could be
+the relation between the position of the
+horizon and the temperature? Do you need
+to work any do you need to do any work
+to find this relationship at least the
+scaling? What determines the
+relationship?
+Is it for example temperature to the
+three temperature to the two minus one
+mass right it's mass dimensions
+right it's determined by uh scaling
+right so we need to understand under
+deation symmetry d scales like mass c we
+set scales like length so with minus one
+okay okay no work that's nice okay there
+numerical coefficient which you cannot
+get through this argument
+unfortunately. Now then we have uh the
+free energy which
+uh which can well obviously now that you
+learn how to calculate this using
+scaling you also know how to calculate
+this guy and so what is how do you
+calculate this one?
+Well, first of all, you need to make an
+important assumption. Well, which is
+kind of obvious, which is the fact that
+it will be proportional to the volume in
+the three dimensions, right? So, it's
+infinite because we'll have infinite
+threedimensional volume. So, it's
+proportional to the volume in the three
+dimensions.
+Um,
+right.
+[Music]
+Um, and well, so this is the total free
+energy. So, this is the thing that
+appears in the action. is dimensionless
+and so the rest of course uh has to be
+beta to the minus 3 or t t cq.
+Okay. And then there is some coefficient
+here in front. Okay. Now what will the
+coefficient in front be
+um how much calculations do you need to
+determine this coefficient in front? So
+let's we would like to understand the
+dependence on the newton constant of the
+coefficient in front.
+So this is some calculation that will
+come from uh evaluating the action of
+some solution. The action is just the
+action of the uklidian version of this
+black hole that will give us the free
+energy and it is um well the action of
+gravity is 1 / gton times uh the action
+I mean the usual action square root of
+gr plus blah blah blah
+right. So one thing we see is that uh
+well it will involve one over gon. So
+because it's whatever action we had
+there um none of what we said so far
+depending on gon the black hole solution
+doesn't depend on gton we evaluate this
+we'll get something and uh we'll have
+some gton in front of course the
+something we get here is what's going to
+give us this part right that we already
+determined and all we are determining
+now is one over
+gton now but gton is an object which is
+dimensionless in the is dimensionful in
+the bulk theory and uh it should um
+become dimensionless by absorbing powers
+of r the radius of
+ads. Now dimensions in the bulk are not
+related to dimensions in the boundary
+theory. That's important. So we're not
+going to cancel the dimensions of gtonm
+by some power of t that that doesn't
+work because um recall that uh the be
+rescaling what it does is an isometry in
+ideas right um it acts as isometries in
+ideas they don't uh have any dimensions
+if you wish uh from the bul point of
+view so this dimensions of this guy have
+to be fixed by powers of r and in five
+dimensions just that are
+cubed anyway so this is a prefactor. And
+now if you compare this with a free
+field theory, so in a free field theory
+you get something similar to this. So
+beta f um is something similar to this
+except that you have the effective
+number of degrees of freedom.
+So
+right so I mentioned in the beginning of
+the lecture that the effective number of
+degrees of freedom is proportional to
+this number and if you wish this is the
+derivation of that fact. Okay. So when
+we consider the thermal
+uh partition function of this object
+which is computed the thermal partition
+function of the boundary theory is equal
+to uh the hawking gibbons hawking
+partition function for the gravity
+theory um corresponding to this black
+hole um and we get this answer
+and are there any questions?
+Now in theories that come from gauge
+theories uh this number is typically
+going like n squ
+um in the of course in the free theory
+we can calculate it but um in the bulk
+theory well we have this formula but we
+can't necessarily match the numerical
+coefficient. the numerical coefficient
+could be some function of the tooth
+coupling which in principle we have to
+compute.
+Um yeah maybe I guess maybe at this
+point we can make this plot that so as a
+function of lambda you can calculate
+that n effective over n^² and for one
+particular example of uh this duality
+which is the case of n equal to 4 supery
+which uh we'll discuss uh in detail uh
+tomorrow. Uh we find that uh if we call
+this one here um that's the value at
+weak coupling uh this uh is a function
+of the to coupling which goes
+between one and
+3/4 and we really only know uh these two
+parts of the function. Um so we know
+what it is at very strong coupling. We
+know the first stringy correction. we
+know what it is at very weak coupling
+and we know uh the first
+correction there at weak
+coupling. Now what I'll discuss tomorrow
+I'll discuss similar calculations but of
+anomalous dimensions of operators where
+we can actually compute the full
+function that interpolates between weak
+and strong
+coupling.
+Um okay so far uh we've been discussing
+um yeah one more thing to say about
+these black
+holes. Um let me can erase probably
+here.
+Um we can calculate correlation
+functions in the presence of a black
+hole. And so we have this black hole and
+we compute the correlation function. So
+as as we said the correlation function
+corresponds to the emission of a
+particle and then a reabsorption of the
+same particle. Um and now if you emit a
+particle and there is a black hole what
+will the particle want to do?
+Yeah it will want to fall into the black
+hole of course. So it's very unlikely
+that the particle would come back out
+right and the longer you wait. So if if
+you send it in and you would say oh wait
+I want to detect you back then probably
+the fact that you have the black hole
+doesn't matter too much. But uh if you
+wait for a long time then um it's very
+unlikely you'll see the
+particle. So in fact if you compute such
+two point functions uh you find that
+they will decay exponentially with time.
+So this is some time t
+um with some number that and to compute
+the number you really need to do some
+calculation. Well of course you can
+compute how it depends on the black hole
+temperature. That's not too complicated.
+same story that we discussed before. Uh
+but the precise numerical coefficient
+you have to do some calculation. Um okay
+it's some number actual number divided
+by beta. This is the same as what we
+discussed before and that's how they
+will decay. Um so they decay because the
+particle wants to fall into the black
+hole. And in the language of black
+holes, what happens is that um this long
+time tail, so this number here um is
+related to the so-called quasi normal
+frequencies of the black hole. So here
+you can consider excitations around the
+black hole and they're not quite energy
+states because they're falling to the
+black hole. So the frequencies of those
+states are have a real part and they
+also have an imaginary part and this
+imaginary part tells you about these
+long time tails.
+Okay,
+good. Now
+uh in the particular case that you
+choose this operator to be the stress
+tensor, this uh correlation function
+tells you something about uh how um how
+the black hole uh responds to small
+pushes. So you push the horizon a little
+bit in one direction and then the the
+fluid this thermal fluid in the boundary
+theory will respond in some way or the
+horizon itself will deform in some way
+and uh it will lead to different
+expectation values for the stress tensor
+at later times. So you can view these
+two insertions of stress tensor assigned
+well you deform the metric a little bit
+to give a little push to the fluid and
+with this one we just measure how the
+fluid um is moving
+um well I'm I guess I'm probably going a
+little fast but um I probably should
+have mentioned that uh of course this
+finite temperature configuration is
+breaking um the boost symmetry of the
+problem right so you're you have your
+fourdimensional conformal field theory.
+You raised it to finite temperature. Now
+it's filled with some thermal gas or
+fluid. Uh it's not really a weakly
+interacting gas. I mean it's something
+that where the particles are interacting
+very strongly. Um and now uh this fluid
+we have properties um will as any uh
+good fluid they will obey the Navier
+Stokes equations and so on. And um you
+can calculate the coefficients appear in
+these nav stocks equations like for
+example the viscosity by uh doing such
+calculations. So the viscosity tells you
+how you are dissipating energy and
+um these exponential tails are related
+to that. So they are related to how if
+you shake this a little bit how quickly
+that information about that shaking dies
+out. And that um that's related to
+dissipation. Now in general the the
+slogan is that
+um falling into a black hole is the same
+as dissipation in the in the boundary
+theories. In the boundary theory, you
+have this thermal gas and you start with
+some excitation localized excitation and
+this excitation low slowly thermalizes
+and becomes equilibrated with the rest
+of the gas and that process is described
+uh in the dual gravity theory by a
+particle falling into the black hole.
+Okay. So you can compute this viscosity
+um the sheer viscosity which is the only
+viscosity you have in a conformal field
+theory and it's related to the
+absorptions of gra absorption of
+gravitons and absorption of gravitons by
+a black hole are uh prop they are
+proportional to the
+area but now you uh remember that um the
+entrop is also related to the area. So
+you think that it might be a good idea
+to divide the um this um viscosity by
+the entropy and indeed you get some
+number which this turns out to be a pure
+number which is 1 over 4 pi and this is
+a general result in um in any theory
+that has a gravity dual and is correct
+only in the gravity approximation. So
+once you start including corrections
+higher derivative corrections to gravity
+this uh gets corrected and could get
+corrected with plus or
+minus.
+Um okay what time am I supposed to stop
+now
+or wish? Okay as I wish.
+Okay.
+Um well the one thing I I wanted to
+mention is go back to
+um to the original diagram for the war
+factor that I drew
+um
+and and try to say what it corresponds
+to.
+So in the beginning we uh drew a war
+factor which uh had some minimum here.
+Right now this is the typical situation
+you'll get when you consider confining
+theories. So some theories where there
+is no mask up. I mean such a war factor
+does not have the conformal symmetry
+anymore. Uh so these theories will have
+a mask up. Now here the war factor is
+not that it goes to infinity again but
+in uh the typical situations what
+happens is that the space ends here and
+there are different ways in which a
+space can end. Um typically in the
+examples there is some there are some
+extra dimensions let's say an extra
+circle which uh has some fixed size here
+and infinity and then when you come here
+it shrinks in a smooth way together with
+the radial direction uh in such a way
+that gives you smooth geometry. So
+that's one way it can work. I mean there
+um but basically the space ends here and
+then if you consider a a particle
+um the the minimum energy for a particle
+of mass m will be achieved here at the
+minimum and that minimum energy is non
+zero. So um and any excitation you
+typically want to put here even a
+massless particle like a massless
+graviton will be forced to have some
+wave function which is localized in this
+direction and for the same reasons that
+we saw in global ads. So this energy
+will be non zero and from the point of
+view of the fourdimensional theory
+you'll have a non-zero mass for the
+particle. So in this situation you
+typically have a mask up. Um
+um now sometimes in some very very
+specific examples there might be
+massless degrees of freedom that have to
+do with flat directions of the field
+theory and so on. Um but the typical
+situation without super symmetry and so
+on is to have a mask up.
+Um unless well typically if you don't
+have a mask up there is some good reason
+either super symmetry is protecting it
+or maybe there is some broken
+spontaneously broken symmetry or
+something like that.
+Um now I mentioned that um the a
+massless gradimensional graviton uh
+gives rise to a massive spin to particle
+in four
+dimensions and you can do the counting
+of degrees of freedom to check that uh
+indeed this is consistent. The numbers
+the numbers match between five and four
+dimensions.
+Um,
+now okay.
+So, what a few more words about the
+radial direction. Uh, I
+um I think I can't emphasize enough
+perhaps
+uh the importance of understanding this
+connection between uh positions in the
+radial direction and the sizes and so on
+and the boundary theory. So let me
+emphasize it once more. Um we mentioned
+that
+um we have this metric. This is the
+metric of
+ads. Um and all the computations that we
+do uh usually in um that we do when we
+match to filthy quantities we are
+typically looking at something and
+approaching the boundary at fixed uh
+distance x. So we will approach the
+boundary at fixed uh x
+distance. This is sometimes called co
+moving distance or and so on. I mean
+it's called like that if you think in
+terms of the sitter space. So this
+metric is very similar to the metric of
+the sitter space. So ds square this is
+ads. The sitter space is the same thing
+except that um there's a minus sign. So
+deta
+here. And so now we typically run like
+this. Uh ETA here is less than zero is
+conformal time again an infinite time to
+the boundary. The boundary here in the
+citrus is an infinite future. This is
+just describing an exponentially
+expanding universe. Um it's exponential
+once you here go to the log of eta. Um
+so it's exponential in the log of eta.
+It's a power here. And um we have this
+is the end of uh the sitter and here is
+the very far
+past. And again um this fixed uh fixed x
+coordinates correspond to what's called
+fixed moving distances. So you have two
+observers who are just following judics
+they would follow this fixed x
+distances. Okay. Now you are probably
+familiar with the fact that in the
+sitter uh this distance is go to
+infinity in the far future um and the
+proper distance goes to infinity and
+here again the proper distance is go to
+infinity.
+Now in the case of the sitter uh we know
+we have horizons and that um anything we
+um and this whole region becomes costly
+disconnected from the observer that is
+sitting here. Um and so any perturbation
+that we uh that we do here will not
+affect the observer that is over here.
+So these two universes will once they we
+reach a certain time they will evolve
+sort of uh separately. So this is this
+separate universe argument. Now here we
+have exactly the same story uh governing
+this uh behavior as a function of the
+cutoff. So we do some calculation at
+fixed x and then when we start moving
+out um the same mathemats that here lead
+to the two the separated universe blah
+blah blah imply that uh the evolution as
+we change epsilon is going to locally
+affect each of these two guys
+separately. Okay. And that's why uh we
+we can extract uh so if we are computing
+for example correlation functions we can
+absorb this whole evolution in epsilon
+as some local uh reormalization of the
+operator and so on. And it's also
+related to the fact that we get a local
+filter on the boundary. So we have the
+possibility of just changing arbitrarily
+the metric here. It will not affect how
+the metric is approached how the limit
+is approached here. I mean it will
+affect non-local correlations but not uh
+the local behavior of of the
+theory. So
+um now there are some sim so there are
+many similarities between the sitter and
+anti-deitter and many of the partative
+calculations you can do are identical
+and you can translate very simply
+between one and the other. Um now there
+are some differences um and the some
+some of the differences are that well we
+can choose examples where anti-deer is
+completely stable will not decay uh but
+the sitter in all the examples we know
+string theory will decay and there are
+good reasons for thinking it will always
+decay
+um and and well also in the case of anti
+there are examples where we know the
+dual conformal field theory in in in
+anti-citter we know that dual confform
+formal filter in the sitter we don't
+know whether any conformal filter really
+exists or not
+um but one thing I can't resist
+mentioning is the fact that um the
+quantity that appears there cg gravity
+with fixed boundary conditions is just
+nothing else than what you would call
+the wave function of the universe so if
+you let me draw this picture this way
+now um we have now a ukidian space let's
+say hyperbolic space some or or some a
+locally hyperbolic face. It could be
+globally different. Uh and uh or or we
+could have perturbations blah blah blah.
+Um and that quantity there should be
+viewed as the wave function with some
+fixed metric here on the boundary.
+Right? So that's uh another way of
+thinking about that object. C
+gravity of course is the wave function
+of the universe in some ukidian uh
+regime. uh the one that appears in the
+sitter is the wave function in the
+Lorenzian regime more well real time
+where things
+happen
+okay and so now um I'd like to mention
+one more thing one more general thing
+and
+um that's u about global symmetries so
+we often encounter um field theories is
+quantum field theories with uh global
+symmetries. Now imagine you have a
+quantum filter with a global symmetry
+then uh there is the corresponding
+current uh conserved current and it
+turns out that in the dual ads space
+you'll have the current is associated to
+uh gauge field a mu well this this amu
+now has five indices rather than four um
+and so we have corresponding gauge
+fields. So global symmetries on the
+boundary correspond to gauge symmetries
+in the interior and that's good because
+um global symmetries are exactly
+conserved right they cannot be violated
+in the boundary theory but we know that
+if we had a global just purely a simple
+global symmetry in the bulk we um black
+holes uh could violate this global
+symmetry formation and evaporation of a
+black hole could in principle violate
+these global symmetries but the
+formation and evaporation of black holes
+cannot violate gauge symmetries
+And so that's at least one necessary
+consistency condition for this to work
+is that these global symmetries are
+carried by gauge fields which uh black
+holes can also carry. So they can also
+carry global
+charges and well similarly if you have
+super symmetry you'll have super gravity
+and so on. Okay I think I'll stop here
+and continue with more details. So next
+uh the next two lectures will be about n
+equal to four super males and we'll
+discuss that case in great
+detail. Okay. Thank you.

@@ -1,0 +1,1492 @@
+hello yet before starting today's
+session let me make a small announcement
+so in the evening after the second talk
+let's say around 5:40 we will have a
+informal discussion session with today's
+speakers and last week speakers so let
+me start by introducing professor Sergey
+guca from El Tech and he will tell us
+about esto ality in geometric langlands
+well thank you very much for
+introduction and more importantly thank
+you to all of the organizers especially
+to Ashman for his very hard work to
+invite me here and I'm excited to learn
+many new things during this week so I
+have to start by surf apologizing right
+to pay that and I'm making it clear that
+today I'll focus on some physics
+introduction to geometric Langlands or
+physics approach or introduction to
+physics approach to geometric langlands
+and this will be different subject from
+other lectures that I'm going to give
+later
+so other lectures different subjects and
+also
+a different style today this is supposed
+to be a survey so my job is not to
+explain anything really and just to
+connect as many things as possible and
+here the goal will actually be to
+explain things so it will be much more
+pedagogical so the reason I mention it
+now is that if you feel completely lost
+or and interested in today's lecture it
+may not mean the same for tomorrow and
+vice-versa so before I get to physics
+interpretation of geometric langlands
+which roughly will be second half of the
+talk I thought it may make sense to to
+motivate why geometric langlands is
+interesting in the first place and it's
+not so much for specific form of the
+conjectures which I'll state at some
+point but rather for connections that it
+makes between different subjects which
+include number theory so that's one
+subject that's our goes into Langlands
+program in fact non-recurring grants
+program that's classical then there is
+geometry even different type of geometry
+that goes into geometric version of the
+program and representation theory
+so the usual leg length correspondence
+of number theorists takes different
+parts from from there's different
+subjects and blends them together in a
+rather surprising interesting way so the
+reason people are interested is
+precisely for this network of
+connections I'm not going to be able to
+explain many of them but I'll try to
+give you a hint of how each one of these
+arrows looks like so I'll give you
+examples from several connections and as
+you may notice physics is not part of it
+so then but two of the items from the
+title of this program are so namely it's
+called quantum field geometry and
+representation theory and geometry and
+representation we are on the board so
+physics will come later
+or quantum field theory will come later
+so first I'll try to focus let's say on
+on perhaps this connection between
+number theory and geometry and this will
+be topic number one so there are many
+subjects and number theory work geometry
+or you could say emergent geometry comes
+out out of the blue as a surprise and
+what them has to do with the theory of
+modular forms so modular forms are
+function which enjoy nice
+transformations with respect to SLG or
+various subgroups of else L to Z or
+whereas other analogous groups so it
+means that if you have some function of
+tau F of tau then F of a tau plus B
+divided by a plus D or C tau plus D is
+up to some pre factor
+is the same as f of tau and in number
+theory you get various interesting
+subfields of this area depending on what
+exactly you require here is a
+transformation the most classical
+example is that appears in most of the
+textbooks is where you have CTL + D to
+the power K and this power K
+is called eaters of the modular form and
+in particular it means if so notice that
+a and B do not appear here on the
+right-hand side which means that allowed
+to shift tell by any integer which means
+that such a function f of tau actually
+can be written as a power series in
+variable Q so sum over n say from 1 to
+infinity and Q to the N where Q is
+exponential of 2 pi I tell so writing it
+as such with integer values of n will
+essentially guarantee that such a
+function is invariant under T
+transformation with shifts now by plus 1
+but of course then you have to ask when
+does it will also enjoy transformation
+with respect to s element of SL to Z or
+corresponding subgroup so that's a
+non-trivial question it's interesting to
+study spaces of such modular forms of
+different weights and again it's a very
+typical subject in number theory and
+first I choose one and for experts that
+means I'm focusing on cost forms but at
+elf press again this is servi or I'll
+suppress the differences between bundles
+and sheaves cos forms and such so
+therefore I'll try to speak fluently
+sometimes really meaning what I say but
+suppressing the reason why so the
+statement I'm aiming for is better
+phrase with forecast forms right so and
+again note will approach many of these
+topics from vary so I'll try to
+emphasize the most essential ones and
+ask most kind of essential questions
+focusing on on big picture so the big
+picture is important that the way this
+modular forms are defined and that's why
+I decided to review for your definition
+makes it completely non-obvious
+that some of those coefficients am have
+to be integers so that of course comes
+out quite not always by the way but
+quite often and as both of our morning
+speakers already emphasized earlier
+today if you see some integers in
+expansion of a function you have to ask
+yourself what this integer is accounting
+so where are they coming from
+when they're counting so to answer this
+question in this set up it's convenient
+to take function and transform it a
+little bit so there is a so called
+Mellin transform now this is part of a
+much more general story which this is
+named usually used in number theory
+textbooks and textbooks on complex
+analysis or on analysis you see exactly
+the same transform under a different
+name it's called the real transforms and
+this connection or this interpretation
+actually makes nice contact with yet
+another subject which is so called
+resurgent analysis that's not
+but I mention it now because there will
+be couple of other places where
+analogous phenomena will appear and what
+is the melon transform so if you have a
+function f like ours then Mellin
+transform of that function is basically
+the integral from 0 to infinity of f of
+X X to the power s DX over X they serve
+integral so you can introduce
+logarithmic variable it log of X and
+rewrite it as exponential of s times
+that variable there are several
+different ways but you can try to apply
+this sort of transform to modular form
+to learn something interesting about it
+and what you learn is that the resulting
+function usually has nice interesting
+analytic properties on a complex plane
+as a function of complex valued argument
+s and this gives you the l series but to
+be a little bit more precise I'll be
+interested in so called your flare l
+Sirius attached to our function f of tau
+thinking that I'm mostly interested in
+modular forms and the definition you can
+also make the following definition that
+f of sorry L function of our F as a
+function of s is basically sum over n
+same from 1 to infinity of n over N to
+the power s thank you so
+this is essentially this closely-related
+causing of the melon transformed
+there are usually two versions of L
+functions one is usually called lambda
+that has nicer properties if you
+interested in behavior on complex plane
+the other is L which is closer to
+interpretation of integrality of the
+coefficients where I'm aiming at and
+then it turns out that if you repackage
+information about your original modular
+form of weight K what happens is that
+this can be written as a product and
+this is yet another connection to other
+lectures that you'll see over and over
+again in fact both of our morning
+speakers kind of used it then sometimes
+if you have a function it's convenient
+and it's complicated enough it's
+convenient to rewrite the sum which is
+how it's given to you in the form of the
+product and again though both speak this
+morning didn't really emphasize that
+that was and what was going on so this
+psalm which looks somewhat complicated
+constructed out of their original input
+can be written as a product and the
+product is over Prime's P of the form 1
+divided by 1 minus AP e to the power
+minus s plus e to the K minus 1 minus 2
+s and now you can ask does it bring us
+any closer to interpretation of this
+coefficients AP and the answer is yes
+that for K equals 2 so when when the
+weight is equal to 2 then 1 plus P minus
+the APS which appear here in
+denominators are precisely the numbers
+of points on elliptic curve defined over
+FP so here is an example
+rather famous example where geometry
+appears in a number theory problem kind
+of out of the blue and what I just
+reviewed so let's see is a statement of
+famous taniyama well conjectures it's
+yes I believe so yeah so here I'm
+suppressing primes of bed reduction and
+and all of that so I'm assuming that
+right so there is an interesting story
+what happened if your equation for
+elliptic curve and P have something in
+common mainly that's some kind of primal
+reduction occurs but if that doesn't
+happen so that kind of degenerate
+phenomenon then basically what this says
+is that all a ends can be expressed in
+terms of a PS and that's actually how
+this first appeared and the works of
+hacky and that gave rise to the hacky
+theory so that's that's actually what
+this formula is saying that there is a
+way to package information about and
+just in terms of ApS for crime and
+that's again the jr. phenomenon that
+this is trying to convey so a theorem
+which used to be in Yama very conjecture
+say it again yes well this is almost
+like this is essentially the zeta
+function right so that's why it's not
+identical to zeta function itself
+function but as a close cousin so indeed
+that's so yeah this is closely related
+to theory of Zeta functions and Way
+conjectures which you should tell you
+how to factor the denominator but that's
+a bit different so that's that's not
+identity also don't try to expect that
+this should be really cool okay so
+what's the statement of the conjecture
+is that for every elliptic curve e over
+Q there exists a cusp form so that's a
+precise statement but again I don't want
+to focus on all such details I want to
+convey the flavor because if I focus too
+much on details I'll never again
+anywhere off of way to for some conquer
+and subgroup office L to Z gamma 0 of n
+such that L function for this cost form
+for this modular form is the same as L
+function of elliptic curve essentially
+defined by the right hand side of that
+equation so it basically says that this
+phenomena should happen and there is a
+nice map between such modular forms and
+geometry or adult geometry over finite
+fields for elliptic curves
+[Music]
+so this is example of a connection
+between number theory and geometry where
+geometry pops out of the blue and this
+leads to an interesting connection you
+can naturally op how to generalize this
+to higher weight K so here I presented
+for you a little bit of the story for
+general K and only in the end
+specialized to case of way to yet if you
+ask this question that actually is the
+subject of active research so this is
+this sometimes goes by the name of
+modularity conjectures and requires a
+lot more technology the basic idea is
+that this weight is correlated with the
+dimension of algebraic you're writing so
+elliptic curves appear only because
+we're in a smallest interesting weight
+and if you ask for higher weights you'll
+be dealing with algebraic geometry over
+fields in variety of high dimension so
+let me give you another example of such
+connection between other topics involved
+here and what I'm aiming at is give you
+a flavor of what kind of subjects appear
+how they connect possibly other talks
+and so that then we can see later
+physics incarnation of some of this
+phenomena and their analogues so all of
+this language correspondence is really
+about analogies of various types so
+number
+- is got to be let's say between
+representation theory and geometry where
+the statement would be that geometry of
+various varieties or some geometric
+objects on various varieties have to do
+with representations if varieties have
+something to do with the group so
+suppose for example the G as will be in
+the rest of my talk compactly group if
+you're not a representation here is
+think of as you - that's good enough in
+fact that's that's going to reach enough
+story continue the discussion and then
+the usual Borel abode serine theorem
+said that finite dimensional
+representations of of gene can be
+identified with spaces of sections of
+one bundle or more Jerry
+bundles on gmod various subgroups gmod
+age and this kind of statement is baby
+version of a more general program which
+usually goes by the name of orbit method
+and more generally sometimes referred as
+one of the main problems in geometric
+representation theory that says roughly
+the following that if you have so
+geometry of orbit or conjugacy class G
+of the group G knows and there is a
+connection between representations of G
+so in fact here it's not necessarily if
+it is compact it basically boils down to
+a theorem so it is Borel well but serum
+but if G is non compact and later on I
+will use the following notations that G
+C will be the complexification of G and
+G sub R will be some real form of C then
+in those cases there is no
+all-encompassing theorem but there is an
+all-encompassing theory developed by
+David Ragan and many others that
+connects the geometry of some orbits or
+conjugacy classes or more precisely
+geometry of various bundles on those
+conjugacy classes and representations of
+of G
+so I'll give you an example in a second
+I'll go to the other part of the board
+but just to list one more item here of
+the same flavor these are all pretty
+much the same statements in increasing
+degree of complexity starting with the
+simplest which is the statement of Borel
+well pod theorem then this more general
+study if you try to make it a little bit
+more precise and I'll mention the reason
+why you need that you introduce your
+more sophisticated to object so here I
+try to phrase it in terms of something
+fairly familiar but then very quickly it
+leads you to notion of so-called sheets
+which are finite unions of orbits of
+conjugacy classes and also leads to
+statements such as what's known as
+geometric syntactic correspondence which
+is rather in evolved version of such
+statement that says if you're interested
+in representations of the group G then
+they have something to do with I'll say
+bundles that is of course not quite
+correct again I'm using
+oversimplification from my earlier
+disclaimer on what's called a finebros
+Manion of
+you can fit as a usual verse Mannion we
+are all familiar with usual verse
+Mannion which is basically space of say
+K dimensional planes in n-dimensional
+vector space but if you try to make
+analogous notion over function fields
+you naturally run to to the notion of a
+fine investment
+so one of the general themes in
+geometric representation theory is to
+connect representations of some group G
+it real compact or complex to typically
+bundles on some spaces so that's nice a
+very general form now I'll give you an
+example of which feeds in some sense to
+most of the period on the blackboard
+what is an orbit for a conjugacy class
+it basically means that you can pick an
+element X are they in Li algebra or from
+the group G and start acting on it with
+the group G by by usual a joint record
+joint action so this gives you an orbit
+or in the group Theory case and
+exponentiated version the conjugacy
+class and simple example is again if say
+G is asked you to you can pick any
+element in a skew and try to run this
+procedure say if you identity element if
+X happens to be identity then doesn't
+matter how you conjugate it gonna
+produce the same element so that's an
+example where this conjugacy class will
+orbit will be just a point because
+action will will keep the identity but
+if you pick generic element of su 2 what
+will happen that you can reach any other
+element of s you to by a joint action as
+long as elements of the group that you
+are using do not commute with a given
+element X and for generic X there is
+usually just you one subgroup of ask you
+to which commutes with it so you quickly
+learn that in this case always simply
+going to be
+I'm a genius pace as you tune what you
+want which is precisely the same thing
+as CP 1 and as a result and realize
+you're familiar representations of SU 2
+find a dimensional representation so
+fast you two sections of various bundles
+on CP 1 so that's that's a typical
+statement that you get on this way so in
+particular you can get representations
+such as trivial a joint of su 2 and so
+on and so forth the familiar sequence of
+representation now why do we need more
+sophisticated technology again I don't
+have a lot of time to explain it but
+there is an interesting phenomenon that
+happens here that suppose you have some
+representation V of su 2 and you know
+that a three dimensional representation
+is here inside okay then in case of
+finite dimensional representations of
+compact groups gee what happens is that
+there is no other choice for it to be a
+direct summoned in V but in general if
+we move away from finite dimensional
+representations of compact groups that's
+not the case so what may happen is that
+you have for example representation say
+two plus three or it's analog and it
+sits inside V in such a way that this
+exact sequence does not split so two and
+three and whatever else appears here are
+not necessarily direct summons okay so
+this is quite interesting phenomenon and
+it leads you to naturally leads you to
+notion of extensions extensions of
+representations and requires a little
+bit more sophisticated technology to
+describe because now you can ask well if
+you told me that representation can be
+realized as some sort of geometric
+object how do i form an extension what
+does it mean how does John
+or if like that and phenomena partial
+answers or maybe complete answers to
+this question you'll see in talks of
+citta Shinawatra and possibly
+duque who will discuss an obvious
+phenomena happen in geometry pitch and
+moduli space which will appear with a
+later in our discussion and it should be
+interpreted as bound States bound state
+formation of brains or EPS objects which
+so physicists probably can relate to
+this line mathematicians can certainly
+be more happy with the extensions of
+representations but they're actually
+similar phenomena if you use this
+context of geometric representation
+theory okay any any questions so these
+are different examples so twelve row
+here so they're roughly in what I
+mentioning is three types of statements
+and increasing degree of complexity one
+as a classical theorem and as well
+define it has very specific set of
+assumptions the other is more of a
+program again which goes under this
+world orbit method and which has the
+following that if you form such a card
+is a class or orbit it always happens to
+be nice phase space symplectic manifold
+that you can quantize so thinking about
+it as phase space in classical mechanics
+there in quantum mechanics and then you
+obtain the corresponding representation
+as a result of quantization so basically
+that's the philosophy here so then there
+are two actually different but related
+notions or I'm just throwing key words
+which are trying to make this program
+more systematic so that it could be is
+this as a theory
+as a general statement with specified
+assumptions in one form it requires you
+introducing this notion of sheets by
+borough which combines several conjugacy
+classes together sometimes so what I
+just said is a little bit oversimplified
+for general theorem and the other is a
+somewhat geometric statement of
+geometric saty correspondence is also an
+upgrade but in a slightly different
+direction that involve which is be kind
+of built in this extensions are in place
+right away and has to do with
+categorical structure namely there is a
+tensor product on representations and
+morphisms that it takes into account ok
+so again this is just a glimpse of what
+connecting between in this case geometry
+and representation theory typically
+looks like and it's somewhat surprising
+that there is such a nice marriage
+between two different subjects ok
+questions ok so now I proceed to number
+three and for number three I have
+nothing left but to talk about this
+relation which is religion between
+number three and representation theory
+and actually I'll just say the one of
+the statements of conjectures one of the
+conjectures in the language program but
+I want to emphasize is the difference
+between the classical case and geometric
+case so yeah geometry appearing in a
+priori they're very different that's
+that's a really good question
+so I just took two random examples which
+I try to cover as much territory as you
+can see and make as many connections
+as I can so unfortunately this geometry
+is not the same but we could have tried
+to relate geometry of those varieties
+which were just arrays to number theory
+that would still work I mean there would
+be still a night fine that's just a poor
+choice of example okay right so in
+the statement of some of the leg length
+conjecture is there are several
+different versions which work at
+different levels so first of all you can
+consider finite fields and make a set of
+statements so then you can consider a
+number fields such as say Q extended by
+square root of minus 2 that's an example
+so then you can go to function fields
+where things start becoming dimensional
+and finally reach geometric langlands
+and physics as the top of this program
+and again there are different levels the
+reason I mention this is that even the
+statement I'm going to phrase next and
+be formulated and each of these
+categories and this direction brings us
+closer to physics but this opposite
+direction if you go up is what's usually
+called classical so this is just help
+for the terminology classical version of
+length lens conjectures when you try to
+go away from function fields or anything
+infinite dimensional work ideally with
+either finite fields a number fields
+kind of like we saw in our questions a
+moment ago so and in each of this
+framework so I'm going to make a
+statement which can be equally phrased
+in all of these different versions
+first rather far from from the bottom
+and that's that's precisely the
+statement of one of the leg lengths
+conjectures which says that n
+dimensional representations which I am
+going to call Sigma of the Galois group
+of the closure of F over F correspond to
+irreducible of morphic representations
+which I'm going to call pi of GL n and
+over what field you define both sides is
+is again depends on where exactly you
+want to work with but this is kind of
+for for the survey is a type of question
+that usually is taking as formulation so
+again I'm not going to explain all this
+words but I'll explain some bits and
+pieces for example instead of telling
+you the precise definition of Auto
+morphic representation and suffices to
+say that it can be realized in a nice
+class of functions on a homogeneous
+space kind of like notions of bundles
+that we saw earlier and yeah this is
+obviously number theory side this is
+more representation here aside if you
+wish and that's the statement of the
+correspondence now by itself it wouldn't
+be as interesting if it didn't come with
+reach additional structure and in
+particular
+so Sigma helps to PI and that's what I
+want to record and in particular what
+happens is that on this set of auto
+morphic representations of GL n you have
+a nice action of algebra which is very
+large and interesting and it's called
+spherical check your algebra so in the
+setting spiracle Hecky algebra is
+nothing the algebra of symmetric
+polynomials so this is a statement of
+so-called Satake isomorphism which says
+that in case of GL m this is nothing but
+C of Z 1 plus minus 1 and so on up to Zn
+plus minus n symmetrized with respect to
+SN and and there is a corresponding so
+if you think of it as algebra that that
+act on on the subjects and in good
+situation which is called corresponds to
+2 underneath I'd choice of such a
+reducible representation PI it can be
+nicely matched to certain data on the
+left hand side so again I just without
+deep explanation I want to say that
+there are certain parameters or
+invariants that you're supposed to match
+across this correspondence so on this
+side these are called eigen values so
+set of strength parameters alcohol then
+z1 of PI and so on the end of pi
+or supposed to nicely match to analogous
+parameters z1 of Sigma up to Zn of Sigma
+which are defined completely differently
+on the left-hand side and these are
+called hekia heigen values and these are
+called
+for being as eigen values of course I
+realize that not giving you full
+definitions but the reason I mention
+this is because first of all I want to
+say that there are certain things that
+are supposed to match and actually there
+are physical counterparts I can explain
+this is a little bit sorry of my domain
+but another reason I mentioned this is
+that this is attached to name of
+Ramanujam and I thought that this would
+be a crime if I give lecture and missed
+opportunity to mention it in the context
+of geometric langlands correspondence
+and it also gives me an opportunity to
+illustrate this scenery between optical
+versus closer to physics or geometric
+version what because theorem which just
+like in case of 20ml conjectures used to
+be conjecture and in fact it's
+conjecture of Ramanujan Patterson but
+now it's a
+which has that absolute value of the
+sea-ice of pi is equal to 1 for 4
+underneath I'd or good choice of this
+automatic representation PI so again it
+mentioned this before it and explained
+an aside that it's it's something nice
+but that's one of the statements which
+carries the name of Ramanujan but it's
+actually so this I'm not going to
+explain but I'm going to explain its
+classical version of this conjecture
+which actually is very concrete and
+recognizable just like everything an
+usual standard number theory that so
+this is called just Ramanujan conjecture
+that's proved by the Ling and it's a
+statement about essentially discriminant
+function so if you take Q and product
+over m from 1 to infinity of 1 minus Q
+to the M to the 24th power and again use
+the same trick or same principle where
+it's often used useful ID or good idea
+to convert someone to a product on
+product into a sum so you can write this
+as a sum over and from 1 to infinity
+coefficients 12n due to the n then this
+conjecture states that tau of P absolute
+value is less than or equal to 2 times e
+to the 11 halves and sometimes is called
+11 house conjecture or prime P
+so this is something very concrete again
+now it's a theorem due to Deline and
+even though it does not look immediately
+exactly like this it's it's supposed to
+be a classical version of that statement
+so now I want to come to this statement
+of Langlands conjecture and rewrite that
+gradually transform it in the language
+that eventually brings us to physics so
+a first thing to do is to try to
+formulate it not for gln but for more
+general groups that's one of the first
+places for Langlands correspondence for
+lingua notion of language dual group my
+peers and are there any questions before
+I move on to the second part so I'm
+essentially done with brief overview of
+phenomena that Connect number theory
+geometry and representation theory and
+in the rest of the talk my goal is to
+take this phenomena and show you the
+geometric or if you wish physical
+counterpart
+I know but isn't it not the 24th power
+just not just this product itself yeah
+so it you'll be counting like partitions
+over I don't know that's a good question
+and yeah honestly I don't know some of
+this also connects to convene a tour X
+which I guess could be at another corner
+and okay so I'm going to take this
+statement and overlay it with couple of
+equivalent gents or slightly different
+versions but the reason I stated without
+deep explanation some of the classical
+story is I can make analogies and tell
+you what elements of the classical story
+what becomes of them in the geometric or
+perhaps even in the physical context so
+with a broad brush this aside is called
+go outside this side is called Auto
+morphic sides for hopefully for reasons
+which somewhat obvious even though I
+didn't explain those details and what
+the conjecture tries to do is to
+associate some presentation PI to
+representation Sigma in such a way that
+Stern invariants match with respect to
+spherical Hecky algebra action so all of
+the statements which I just recap have
+their analog and the geometric world and
+that's that's what we're going to
+discuss so first thing as I already
+alluded to is to try to take just this
+classical statement of Langlands
+conjectures and phrase it more for group
+G and this is already quite interesting
+where if I try to phrase it not for
+Curtin type a for GL n but for more
+general G things become quite reach so
+the corresponding statement would be
+that our goal or our presentation of
+some
+group gene or yeah correspond to
+something analogous to what we have seen
+before
+even though without deeper pursued we
+saw that in the case of representation
+sometimes conjugacy class is combined
+into packets called sheets of Beryl and
+Joseph Tony Joseph and here there is
+analogous notion of L packets of autumn
+Orphic representations for for a
+different group so previously it was
+n-dimensional versus GL n and now what's
+going to happen is that analogous
+statement involves different groups so
+usually there are not you know to Jeon
+ji Chang ji and LG and I'm going to put
+wranglin stool on this side since this
+is convention used most and most of the
+physics literature and this brings an
+obvious question what are G n LG and the
+answer is the following so you can make
+a table that for a group G there is a
+corresponding dual called Langlands dual
+group and if I'm again treating G
+compact group not the reductive as it's
+usually used in mathematical or
+literature but rather compactly group G
+which was my original notation then the
+case of GL n should be really cold UN
+and in this case the dual group is the
+same that's why we didn't need in ocean
+in the previous version in the previous
+discussion but if you consider already
+something more interesting such as as
+you
+or in mathematics literature you will
+see this as SLM case then the
+corresponding dual group will be Tsun
+which is the same as su n divided by its
+center Zn and this is actually the
+general property of this duality between
+group and its Langlands oh yeah well
+this was glory presentations we can
+think of it as representation from
+Galois group galuwa f bar over f into g
+ln so that's basically to say that we
+have a non dimensional representation so
+that could be in some sense another way
+to phrase it and that statement will
+have an obvious analogue now right so
+this is part of the general dictionary
+that for ad type
+so G and LG have same car Tantra if
+they're of curtain type a de for
+instance here we're talking about
+curtain type a and that doesn't really
+change but what changes is that the
+center which shall denote by Z of one
+group becomes the fundamental group of
+penguins dual and here you see for
+instance that su n is simply connected
+but has non-trivial Center is the N and
+this conversely because it's a quotient
+of something connected simply connected
+by Zn and has fundamental group but no
+longer the center so they exchange their
+role and that's a general feature so for
+example I can write the case of D so2 n
+this is curtain type DN and Langlands
+dual is also the same as so 2n and the
+same is going to be true for exceptional
+groups such as p8 for instance it's self
+dual but then once you go to curtain
+tribes B and C things again become a
+little bit more interesting so for
+example SP n is dual to so2 n plus one
+that's court untidy that's curtain type
+C outside of sync released and for
+instance if you take just maybe one more
+g2 is going to be fantastic so this is
+the notion Franklin's dual group and it
+already appears in a classical program
+but then that's that's going to be four
+and four for physics interpretation and
+now I want to kind of start switching
+gears even further that we already saw
+several spaces appearing in the context
+of geometric intention theory these are
+usually spaces which have nice sort of
+either G symmetry or where G X and in
+particular we saw various examples of
+sake or joint orbits or conjugacy
+classes and this conjugacy classes or
+spaces of solutions to some partial
+differential equations on Riemann
+surfaces so this is the space this is
+the place where a Riemann surfaces
+appear we already have a lot of groups
+erratic data but now I want to introduce
+real geometry in a sense of geometric
+Langlands of Riemann surfaces which I'm
+going to denote by C so C stands for for
+for a curve and first observation or
+stick notice that if you write kitchens
+equations which is a set of partial
+differential equations for G bundles and
+actions of canonical bundle on a riemann
+surface there the higgs field which have
+the following form curvature of the
+connection is moment map for some Higgs
+field Phi then DF Phi is 0 and quite the
+f-stop Phi is 0 and denote the moduli
+space of solutions to these equations by
+m sub h of v G&C so it depends on choice
+of group theoretic data group G and the
+Riemann surface C then what we saw
+before the remark is our orbits
+/ conjugacy classes that we already saw
+or examples of such moduli spaces where
+the Riemann surface is basically
+punctured discs so it's a disk with a
+puncture yeah specific prescription of
+boundary conditions or type of the
+puncture and therefore it suggests
+natural generalization to move away from
+puncture disk which is actually the
+statement of local geometric Langlands
+to more general Riemann surfaces and
+consider same statements as before but
+now thinking about such replacement
+where you replace a orbit or conjugacy
+class by entire hitch and moduli space
+force a closed riemann surface see so
+that's one way to if you wish enter the
+geometric Langlands and its physical
+interpretation another way is the
+following that the presentations that we
+had here are analogs for for if you ask
+what what is analog of the Gullah group
+for foreign purpose and it also has a
+natural counterpart namely in moving
+away from this classical case Gua group
+has to vary east or if you wish
+corresponds to fundamental group of a
+riemann surface see okay and if likewise
+you ask so previously we're asking what
+is the space of representations from
+Galois group to some group GE or its
+complex version so analogous question
+here will be what is the space of
+representations of by one of C because
+now this is the analog of the Gulag
+group into into something say language
+duo of C then this again turns well by
+definition this is nothing but the space
+of complex flat connections on a riemann
+surface but
+is well known that this is isomorphic in
+one of its complex structures to
+precisely that same space of solutions
+to each an equation for group G or other
+LG if I'm using it here on my Riemann
+surface II so that's yet another way to
+go from classical story to to to to
+geometric Langlands and now if you do
+that you can make yet another
+modification of the statement now in the
+context of geometric langlands I'll say
+that this is now geometric version that
+irreducible G local systems or if you
+wish points on this variety on this
+space of complex web connections LG in
+fact systems on C correspond to okay
+again shapes on Bunji
+okay so this is the statement of
+geometric Langlands and I am Hecky eigen
+she is an up your statement to what we
+had here and this irreducible G local LG
+local system is analog of the Gullah
+representation as you see it sounds
+horribly complicated but roughly
+speaking what it means is that points on
+this space here map into something which
+behaves nicely with respect to behavior
+with respect to analog of the spherical
+Hecky algebra which also exists in in
+the metric centre and now this brings me
+to my last point namely how all of this
+should be embedded and in physics we
+already got very close by talking about
+some gauge theory on a riemann surface
+and PDEs and basically we want to
+translate so i've been making a slow
+path from classical language to
+geometric Langlands and now to physics
+if you want to study physics approach to
+geometric Langlands you can work at
+different levels so you have a choice
+and and both are okay both are good
+possibilities so one level to understand
+what this for physicists very
+complicated looking statement and
+possibly mean is to work with work with
+signal model
+so there are two levels to understand
+the statement so one is signal model a
+target space which is each and moduli
+space or space of solutions to teach an
+equation and the remans you see here and
+its counterpart for for the language
+dual group so that's one level and the
+second option which is closely related
+is to work in four-dimensional so-called
+N equals 4 super yang-mills which is
+formulated for gauge group LG on one
+side and leaves on some four dimensional
+space which involves product of your
+image surface see there's something else
+so let's say our two for simply sitting
+and here it will be G and it leaves on
+same space C cross R 2 and the reason
+that such interpretation is even
+possible is that if you ask were in
+physics and math say this one dual group
+appears there are essentially three
+places and we have seen all three of
+them in this talk so one place is in leg
+length correspondence even in classical
+version but also in geometric version in
+other is in relation between moduli
+spaces of solutions to hitchens
+equations where this phenomenon is known
+as a famous mirror symmetry or example
+of famous mirror symmetry
+and could've and in fact it was
+discovered somewhat independently of any
+gauge theory or any other interpretation
+or application tool England's where each
+of these phases are a non compact local
+calabi-yau and you can ask as khalaby
+aus and I see the mirror of say this
+calabi-yau and what turns out is that
+the mirror is precisely the same type of
+space but for the dual group that's
+basically the key point of the signal
+model approach which rests on work of
+Thomas causal and Fidel's and in the
+context of gauge Theory this is the
+third place where England's dual groups
+appear namely this interesting theory
+for d n equals 4 super yang-mills has
+non-trivial duality called s duality
+which relates a theory on any four
+manifold with the gauge group g to
+another theory on the same four manifold
+with a Langlands dual group and
+basically these three places namely
+length length correspondence mirror
+symmetry for Hitchin logic spaces and N
+equals 4 super yang-mills or the only
+three places at least that I know were
+Langlands dual groups naturally appear
+so if you know yet another application
+or yet another aspect or branch of
+physics or math where black lines dual
+groups naturally come up let me know I
+think that's interesting to connect it
+but these are pretty much all the spaces
+or all the places I know now natural
+question then is how do we connect these
+three subjects namely Sigma mod of super
+meals and our initial starting point
+which will be item number three now the
+the geometric Langlands correspondence
+so these two are related by essentially
+compactification on riemann surface e so
+if you're physicists you know what I'm
+talking about if you're not a physicist
+whatever I'm going to say will not shed
+much light but this is a fairly standard
+separation of compactification or
+dimensional reduction on a riemann
+surface II and it's actually fun
+exercise which was done by your shots ki
+Johansen Sudduth and Rafa and then in a
+slightly different form by Harvey more
+instrument ER to try to spawn
+equations of motion or rather bps
+equations and n equals 4 super
+yang-mills and try to perform the skull
+of decline reduction and see what kind
+of signal model you get as a result and
+of course they find that from N equals 4
+super yang-mills you get precisely the
+signal model in the Hitchin moduli space
+and moreover they were the what who
+actually from physics point of view
+proposed that as duality becomes Chi
+duality or mirror symmetry in the signal
+model context so this two are related by
+fairly clear operation so then let's see
+how we can rephrase this geometric
+langlands in the language say of a sigma
+mod and there will be analogous
+formulation in terms of in terms of
+gauge Theory any any questions so
+this is the last point and we already
+very very close in fact I kind of gave
+you a hint of what's going to happen so
+this G local systems on C are basically
+point-like objects in our points on this
+hitch and modulate space so what we're
+trying to ask is what happens to a point
+under mirror symmetry that's that's the
+question where they really ask them so
+let's see what No
+not entirely so the way we're going to
+reformulate that still will be quite at
+the metric so in fact right as duality
+as symmetric is a symmetric but then
+question is what do we ask what what
+exact question we ask and the exact
+questions that we ask will actually be
+quite us in it maybe I'll try to
+summarize it now that was my plan and
+you'll see for yourself that it's not
+exactly the same so yeah I'm debating
+what to raise I guess where is this part
+so there are a couple of observations
+bank two to make a physics counterpart
+of that it's mental England's conjecture
+that's still on the board so first of
+all every point in each and moduli space
+mhm for a length lens dual group I just
+decided to name gallo aside with the LG
+so I hope it's a lot of problems in G
+has to come in somewhere Oh point I want
+to point up is object is fairly nice in
+fact it's a holomorphic in all complex
+structures of hitch and moduli space and
+it carries infinitely many so it's a
+pretty cool thing it's try holomorphic
+this terminology has to do with the fact
+that usually this infinite set of
+complex structures is expressed in terms
+of standard basis of Phi J and K and
+then that's that's what try refers to
+and this is can be also phrased by by
+saying that it's a certain object namely
+brain of type BBB okay
+because be brains in the story that's
+involves mirror symmetry and that you
+probably heard a lot more about
+from Rhonda Nagi or ya be brains or
+holomorphic and the corresponding
+complex structure so for the natural
+setting for this right hand side left
+hand side of the correspondence is is
+the set of this BB big brains on on MMH
+for Langlands dual group so let's take
+this as an approximation for our
+correspondence and ask what's going to
+be on the right hand side here we have
+to think a little bit because physical
+setup indeed is somewhat symmetric
+that's what you're pointing out and most
+moduli space on both sides but here we
+actually don't even see each and moduli
+space or anything similar so just like
+here we have to do some interpretation
+so it should be the fact that Bungie
+which we don't have to know what it is
+is half dimensional space in fact the
+most interesting part in some sense of
+kitchen space and you can say that M
+hitch and space for Group G on a riemann
+surface scene is roughly speaking but
+this is huge roughly so that's a big lie
+and I hope that Satoshi will tell us a
+lot more and you'll see actually very
+explicitly how much it is a lie cat
+engine bundle to Bungie total space of
+the cotangent bundle to Bungie
+so therefore already have some
+connection but in order to really bridge
+the gap between Bungie or other t-star
+Bungie and hitch and moduli space we
+have to say that such Hecky eigen
+sheaves or more precisely D modules in
+this setting actually can be realized as
+a brains on on the dual space and
+therefore the corresponding statement
+will be that here we're looking for
+brains of type
+let's see B
+a brains on mh4 the group G on the
+riemann surface see okay yeah yeah so
+the first one in the notations of
+Hitchin is actually fixed because in
+this complex structure this mirror
+symmetry is a free mo chi transform it's
+actually a holomorphic operation but
+it's honesty to ality and which in a
+sense of nourishing if you're it's a
+brain and brains and other complex
+structures so that's actually what we
+expect here because it's whatever this
+high key eigen she is are there supposed
+to be more like a brains or other the
+support of a gmod was basically there a
+brain so it is a symmetric already here
+that you should think of this side which
+was originally galore as b-model side
+where there is auto morphic side is
+supposed
+be a model and as you can guess a model
+is usually more complicated than B model
+and same as brewery number theory
+context what amorphic side is more
+complicated and Lois I know roughly
+speaking usually in addition it wouldn't
+be good enough if we didn't have this
+action of Hecky algebra so remember that
+algebra of symmetric functions metric
+polynomials so it's a commutative
+algebra and in physics it's realized as
+algebra fuels and lines algebra Wilson
+operators oh sorry approved operators
+I'm jumping ahead of myself and that
+were not signal model but rather gauge
+Theory comes handy because it
+immediately says that under this s
+duality truth decorators may happen to
+those operators and in fact it's a fun
+exercise to verify that is point like
+BBB brains are in fact eigen brains with
+respect to action of this algebra of
+Wilson operators and the two tats
+mapping to each other with respect to as
+duality or or or this near asymmetry so
+to summarize and sorry for or actually
+I'm pretty much on time to summarize
+what this physics interpretation of
+geometric Langlands does it basically is
+a package that really it's different
+types of brains a brains versus B brains
+on hitch and moduli spaces for the group
+GN language dual group and this map is
+consistent with an action of Hecky
+algebras of various types here we
+encountered so called spherical Hecky
+algebra which i mentioned before and
+again that was a commutative algebra
+the reason it is commutative is because
+from the physics point of view this may
+be helpful to physicists if you try to
+take PE of line operators in
+four-dimensional space it doesn't matter
+whether you approach line 1 and line 2
+in this water or this water you can move
+them around you have a lot of space
+around to move them so that's why
+corresponding Hecky algebra is spherical
+which means commutative but the moment
+you have something which favors a
+play-in on which this line operator is a
+stock and in the physics context this
+additional data usually comes in the
+form of Sur operator that will lead to
+generalization of this algebra and jolin
+ization of this story which will have
+non commutative fatty algebra namely
+various forms of a fine head culture so
+the last thing I want to make the last
+remark is that ramification which means
+that on a riemann surface scene you have
+our particular points where something
+that happens and in numb basically case
+from education is unavoidable so you
+have to consider such case in general
+this is realized in physics corresponds
+to surface operators which in our story
+or supported points on this riemann
+surface and span the other two
+dimensions which I called our 2d for so
+you have this kind of two-dimensional
+support of a surface operator and now if
+you try to ask for two line operators
+say line 1 and line 2 to a form or PE
+and we take a product and one order and
+compare it to the opposite order they
+don't necessarily have to agree and what
+this ope tells you is actually giving
+you various versions of non spherical
+Hecky algebra such as a fine and various
+other deformations
+and I promise you that you will you'll
+recognize some of the words and topics
+that were mention in various hot talks
+for example do pay will tell you a lot
+about map of a brains and B brains and
+that is geometric langlands duality so
+basically he'll zoom in on one
+particular aspect and in the lecture of
+Satoshi you'll see what spherical really
+means and why am kitchen is not quite
+the same as T store open G right thank
+you for your attention
+[Applause]
+so is there an intrinsic immortal
+interpretation of this hekia bruh terms
+of the foci category arson yes there is
+so in them in both a model and B model
+you can think of Hecky algebra as oh
+yeah there's corresponding operators as
+functors acting on fukaya category and
+derived category so the rough version of
+this question would be what are the auto
+equivalences of say foci category here
+in the right editor here that's not
+quite the question we really want to ask
+because we care about this particular
+brains so it's not the other equivalents
+of the entire category but rather this
+is a special class of brains so that's
+that's the question that you would
+consider on either a side and B side and
+you can realize some of them some of
+these functors as correspondences
+especially on ice so your original
+discussion or ''but method for various
+groups and in particular you have a
+version of all this story for for other
+types of groups when the base field is
+not algebraically closed and so we have
+geometric Langlands the geometric Satake
+for real groups and we understand very
+well how the geometry for those works is
+there a version of the supersymmetric h
+theory that would make sense for non
+CompactRIO forms is some oriented
+folding process that you can perform
+that
+correspond exactly say to the the
+geometrics attack you for real groups or
+the language for each other actually two
+questions that you package in one so one
+is how does do the highlights of
+geometric representation Theory embed
+into the story and I wouldn't mention
+them in the beginning if they didn't so
+they they they do and that's a beautiful
+rich story so you can embed relation to
+representations of say group G not
+meaning now compact understand II in
+fact in real group and geometric say
+taki correspondence and in both cases
+this additional gadgets or animals that
+live in the zoo of four-dimensional
+theory such as surface I territories and
+other defects come in so I didn't really
+have much time to explain it but they're
+still there and you mentioned also the
+second one more remark I want to make on
+your question related to oriented fold
+so that that's really in some sense yet
+another subject which one could have
+talked about how so here we I focused on
+two-dimensional story of a Sigma model
+and a four-dimensional story of a gauge
+theory but you could ask how does it
+Rico is it realized in string theory
+because you can realize this N equals 4
+super yang-mills on the world volume of
+the three brains and the natural
+question so that that would lead only to
+curtain type a by default so you can ask
+what do I do to get other curtain types
+and how do I relate SL to Z quality of N
+equals 4 super yang-mills to analogous
+duality of type to B string theory so
+that would indeed involve oriented folds
+and actually will be highly non-trivial
+so for a long time I thought that they
+just trivially coins for example type to
+be coupling constantly becomes coupling
+constant on on the three brains or
+something like that and they transform
+in a similar way but actually that's not
+true and unfortunately this is not
+the literature I want to advertise that
+for non simply laced types which you
+mentioned involving oranga Falls that's
+actually somewhat very subtle story I
+was thinking of whether I should mention
+it or not and the talk I'll be happy to
+discuss it privately but that's
+surprisingly so embedding this and 10
+dimensional type to be is yet another
+subject which currently in the
+literature even in the most reference
+papers is not quite quite well described
+I'm not quite correct well that's true
+and that's why I always thought that I
+understood and that embedding is very
+trivial but it's it's actually
+surprisingly is not so over the past
+year we had intense discussion with you
+did you G Tachikawa and in fact some of
+the questions that I emailed you
+occasionally are related to that
+discussion so that's why we were
+interested in or in default and this
+embedding is highly non-trivial so
+therefore I want to separate two parts
+of your question to one part the answer
+is that it has been studied and it's
+somewhat documented in literature but
+the other part surprisingly is something
+I didn't touch at all and actually there
+is a lot to say for non simple simply
+laced groups so I'm betting in time to
+be is highly non-trivial
+on the a model side so basically these
+conditions which are something like
+hurried use usually means that your
+brain has one component so that's that's
+typically what it means so an a model
+side it will mean that it's not direct
+some but some of these notions become
+blurry because you quickly pass from
+individual objects to from individual
+brains or some manifolds to objects on
+the theorized category so we actually
+have to consider not just say just joint
+union of two lagrangians but actually
+derived version of the foci category and
+therefore complexes and so on so that's
+again I didn't want to mention
+categories that much but usually it is
+this notion of irreducibility becomes
+either blurry or replaced by something
+else in a categorical world that's
+that's more precise yes yeah so in this
+case well anyway yeah in fact if I were
+to discuss or fully I would only have to
+go into stacks and that's a territory
+that's the best described and work of
+denying contest that would be actually
+that's more useful also related to
+answering question about non simply
+laced cases so that something I want to
+advertise
+well we didn't say it's really classical
+because if it was really classical you
+know the whole even even at the level of
+signal model the whole mirror symmetry
+program would be simple and classical
+but but it's not really so it is
+somewhat classical if you think about it
+in complex structure I where it's free a
+Mook I transform but even that now is
+applied who varieties with lots of
+singular fibers and you have to yeah
+it's not entirely classical yes no no
+that's that's precisely what we touched
+just a moment ago so in fact if you
+start asking again it depends I think
+that the honest answer is depends on how
+deep you look if you ask for say generic
+point here skyscraper shape this bpb
+brain at a very generic point things are
+relatively nice and you can limit
+yourself to that and the victory and
+then people of course want something
+interesting a peculiar so they tend to
+send these points into singular points
+on the hitch and modular space where
+there are singular fibers and again I'm
+sure you'll hear more about this it's
+not from citta Chien and then from do
+pay and then question becomes what do we
+do with the singular points so geometry
+of target becomes singular so something
+has to come to the rescue
+so engage there it comes to the rescue
+so that's where zooming on those
+questions and find transfer them will
+require on a mathematical side language
+of Stax or something else that can
+answer it and physics behind is really
+the gauge theory
+a gauge coupling enters questions which
+are usually referred as quanta metric
+Langlands and trying to make both sides
+indeed more on equal footing so in that
+case what happens is that it's not just
+B side and a side as cleanly as I
+described today both are kind of
+deformed so that completely different
+kind of form opens up related to and if
+noncommutative deformation of brains on
+the one hand and again in the math
+literature this is quantum geometric
+langlands and the gauge coupling or more
+precisely the parameter that Kapusta
+Newton called sigh enters the story in
+the crucial way but yeah that's another
+husband
+no it's yeah but don't underestimate
+Anning they decide and poof dr. Reiter
+is is highly non-trivial I think there
+is this a brains and and whose
+typewriters that's that's not classical
+its if you really want to answer it and
+full glory that's that's Esquire yet
+[Applause]

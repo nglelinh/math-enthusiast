@@ -1,0 +1,36 @@
+{
+  "pack": "ads-cft",
+  "generated": "2026-08-05",
+  "policy": "Reconstruct; do not paste ASR",
+  "data": {
+    "video_id": "sYqtGXN59uE",
+    "title": "Maldacena \u2014 AdS/CFT Correspondence, Part 1",
+    "role": "CORE",
+    "units": [
+      {
+        "id": "ku_mal_holography_slogan",
+        "title": "Quantum gravity in the interior = QFT on the boundary",
+        "type": "definition",
+        "summary": "Maldacena stresses the better name is holography / gauge\u2013gravity duality: a quantum gravity (often string) theory in a spacetime bulk equals a quantum field theory defined on the boundary of that spacetime."
+      },
+      {
+        "id": "ku_mal_no_susy_basics",
+        "title": "Basics without supersymmetry first",
+        "type": "overview",
+        "summary": "Part 1 aims at the basic idea without supersymmetry or integrability; later lectures add tools. Multiple concrete examples exist; many involve string theory as a UV completion of gravity."
+      },
+      {
+        "id": "ku_mal_weak_string_strong_gauge",
+        "title": "Weakly coupled strings vs strongly coupled gauge theory",
+        "type": "intuition",
+        "summary": "In a regime of weakly coupled strings in the bulk (semiclassical gravity), the dual gauge theory is typically strongly coupled\u2014computational leverage of the duality."
+      },
+      {
+        "id": "ku_mal_operators",
+        "title": "Operators and correlation functions",
+        "type": "connection",
+        "summary": "Dictionary culture: boundary operators and their correlators match bulk fields / bulk computations (to be expanded in later parts); large-N / classical bulk limits appear as standard controls."
+      }
+    ]
+  }
+}

@@ -28,3 +28,8 @@
 - Floer theory prerequisites for Fukaya categories.
 - Algebraic geometry prerequisites for derived categories.
 - Do not extract full proofs from popular videos.
+
+## Mode C extract (2026-08-05)
+
+- Primary captions: Witten `S02ghGCdNDo` → why 4d QFT, $$\mathcal N=4$$ SYM, mirror–Langlands climate.
+- Chan `Kz6Dj8KSFjM`: **no subtitles** — cannot Mode-C reconstruct from ASR.

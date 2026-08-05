@@ -1,0 +1,72 @@
+{
+  "pack": "geometric-langlands-sduality",
+  "generated": "2026-08-05",
+  "policy": "Reconstruct; do not paste ASR",
+  "data": {
+    "videos": [
+      {
+        "video_id": "oJRD3PshFjY",
+        "title": "Kapustin \u2014 EM duality and geometric Langlands",
+        "role": "CORE",
+        "units": [
+          {
+            "id": "ku_kap_em_maxwell",
+            "title": "Classical electric\u2013magnetic duality",
+            "type": "definition",
+            "summary": "Starts from Maxwell: in vacuum, symmetry mapping magnetic field to minus electric field and electric to magnetic; seed of S-duality."
+          },
+          {
+            "id": "ku_kap_wilson_thoof",
+            "title": "Wilson lines (electric) and dual magnetic defects",
+            "type": "overview",
+            "summary": "Wilson loops encode insertion of electric charge worldlines; dual magnetic line operators / Hooft-type defects are the dual observables\u2014central to matching dualities with Langlands dual group."
+          },
+          {
+            "id": "ku_kap_bridge",
+            "title": "EM duality related to geometric Langlands",
+            "type": "connection",
+            "summary": "Pedagogical bridge: electromagnetic duality and defects reappear in a form that organizes geometric Langlands (gauge theory on a surface / Hitchin-related geometry); physics dictionary, not a full math proof."
+          }
+        ]
+      },
+      {
+        "video_id": "bCpVL6flCxo",
+        "title": "Gukov \u2014 Geometric Langlands and S-duality",
+        "role": "CORE",
+        "units": [
+          {
+            "id": "ku_guk_why_gl",
+            "title": "Why geometric Langlands is interesting",
+            "type": "intuition",
+            "summary": "Motivates geometric Langlands as a meeting point of number theory (classical Langlands), geometry, and representation theory\u2014before physics half of the talk."
+          },
+          {
+            "id": "ku_guk_physics_half",
+            "title": "Physics approach to geometric Langlands",
+            "type": "overview",
+            "summary": "Second half: physics introduction / approach via S-duality of N=4-type gauge theory; dual group G\u2228; distinguishes physics interpretation from pure mathematical formulations."
+          },
+          {
+            "id": "ku_guk_geo_rep",
+            "title": "Geometry of varieties \u2194 representations",
+            "type": "connection",
+            "summary": "Theme of geometric representation theory: representations of G realized by geometric objects on varieties; geometric Langlands is a high-end instance of this philosophy."
+          }
+        ]
+      },
+      {
+        "video_id": "8Pkw25J-Bg0",
+        "title": "Frenkel \u2014 Gauge Theory, Geometric Langlands, and All That",
+        "role": "ORIENTATION backup",
+        "units": [
+          {
+            "id": "ku_frenkel_orientation",
+            "title": "Orientation on gauge theory \u2194 geometric Langlands",
+            "type": "overview",
+            "summary": "Expository orientation connecting gauge-theoretic dualities to geometric Langlands; use for culture when Kapustin/Gukov are heavy."
+          }
+        ]
+      }
+    ]
+  }
+}
