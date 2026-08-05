@@ -31,7 +31,6 @@ Từ cú sốc đó, người ta hỏi sâu hơn về **hình dạng** và các 
 
 ## Mục tiêu học tập
 
-- Định nghĩa tập Kakeya (Besicovitch).
 - Định nghĩa tập Kakeya (Besicovitch) trong $$\mathbb{R}^n$$.
 - Tách **measure zero** khỏi **chiều $$n$$** (Minkowski / Hausdorff).
 - Phát biểu giả thuyết và bảng trạng thái (2 / 3 / ≥4).

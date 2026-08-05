@@ -87,9 +87,21 @@ $$
 
 Nghĩa là: bậc không điểm của $$L(E,s)$$ tại $$s=1$$ bằng hạng Mordell–Weil. Nếu $$L(E,1)\ne 0$$ thì dự đoán hạng $$0$$ (chỉ torsion). Nếu $$L$$ triệt tiêu bậc đúng 1 thì dự đoán hạng 1, v.v.
 
-**BSD (phần tinh chỉnh).** Hệ số dẫn đạo trong khai triển Taylor của $$L(E,s)$$ tại $$s=1$$ cho bởi tích tường minh các bất biến số học: **chu kỳ thực**, **regulator** của một cơ sở điểm (thể tích lattice chiều hạng trong chiều cao Néron–Tate), cấp torsion, **số Tamagawa** tại các chỗ xấu, và cấp của $$Ш$$ (giả thuyết hữu hạn).
+**BSD (phần tinh chỉnh).** Viết khai triển Taylor
 
-Công thức tinh chỉnh quan trọng không kém đẳng thức hạng: nó không chỉ dự đoán *bao nhiêu* điểm độc lập tồn tại mà còn một **độ đo** kích thước số học của chúng. Đây là nơi BSD trở thành “công thức số lớp cho đường cong elliptic.”
+$$
+L(E,s) = c\, (s-1)^{r} + \text{các hạng bậc cao hơn},
+$$
+
+với hệ số dẫn đạo $$c \ne 0$$. BSD dự đoán công thức tường minh cho $$c$$ dưới dạng tích các bất biến số học (mức sơ đồ, chuẩn hóa theo sách giáo khoa):
+
+$$
+c = \frac{\Omega \cdot \operatorname{Reg} \cdot \#Ш \cdot \prod_p c_p}{(\# E(\mathbb{Q})_{\mathrm{tors}})^2}.
+$$
+
+Ở đây: $$\Omega$$ **chu kỳ thực**; $$\operatorname{Reg}$$ **regulator** (định thức pairing chiều cao Néron–Tate); $$\# E(\mathbb{Q})_{\mathrm{tors}}$$ cấp torsion; $$c_p$$ **số Tamagawa** (chỉ số địa phương tại chỗ xấu); $$\#Ш$$ cấp nhóm Tate–Shafarevich (giả thuyết hữu hạn).
+
+Công thức tinh chỉnh quan trọng không kém đẳng thức hạng: nó không chỉ dự đoán *bao nhiêu* điểm độc lập tồn tại mà còn một **độ đo** kích thước số học của chúng, và biến Sha thành số nguyên cụ thể chứ không chỉ chướng ngại. Đây là nơi BSD trở thành “công thức số lớp cho đường cong elliptic.”
 
 ---
 
@@ -141,7 +153,7 @@ Zeta Riemann mã hóa nguyên tố; $$L$$ elliptic mã hóa điểm hữu tỷ. 
 | Độ khó discrete log | Đẳng thức giải tích–đại số và công thức tinh chỉnh |
 | Tiêu chí chọn đường cong | Sha, regulator, số Tamagawa |
 
-**Dùng** elliptic curves và **giải** BSD là hai trò chơi khác. Ch.3 phát triển ECC; bài này chỉ khăng định ranh giới LO6. Đừng viết A3 “BSD quan trọng vì Bitcoin”—hãy nói: cùng *đối tượng hình học*, khác *câu hỏi số học*. Xem [mật mã]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/).
+**Dùng** elliptic curves và **giải** BSD là hai trò chơi khác. Ch.3 phát triển ECC; bài này chỉ **khẳng định** ranh giới LO6. Đừng viết A3 “BSD quan trọng vì Bitcoin”—hãy nói: cùng *đối tượng hình học*, khác *câu hỏi số học*. Xem [mật mã]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/).
 
 ---
 
@@ -151,10 +163,10 @@ Zeta Riemann mã hóa nguyên tố; $$L$$ elliptic mã hóa điểm hữu tỷ. 
 |------------|-----|
 | “Elliptic = ellipse.” | Khác đối tượng; “elliptic” là lịch sử (liên quan elliptic integrals). |
 | “BSD là về vẽ đường cong.” | Là về số học điểm hữu tỷ và giải tích hàm $$L$$. |
-| “Modularity xong là xong BSD.” | Modularity cho $$L$$ thác triển; BSD về giá trị đặc biệt vẫn mở. |
-| “Hạng dễ: tìm điểm là xong.” | Tìm sinh có thể cực khó; thuật toán hạng tinh vi / có điều kiện. |
-| “BSD = RH cho elliptic.” | Họ hàng triết lý; phát biểu kỹ thuật khác (bậc tại $$s=1$$ vs mọi không điểm trên đường). |
-| “ECC dựa trên BSD.” | ECC dùng nhóm trên trường hữu hạn; không cần BSD. |
+| “Modularity xong là xong BSD.” | Modularity cho $$L$$ thác triển; đẳng thức hạng vẫn mở. |
+| “Hạng dễ: tìm điểm là xong.” | Tìm và chứng minh bộ sinh đầy đủ có thể cực khó; Sha và chiều cao can thiệp. |
+| “ECC không an toàn cho đến khi BSD được chứng minh.” | ECC dùng nhóm trên trường hữu hạn; không phụ thuộc phát biểu Thiên niên kỷ trên $$\mathbb{Q}$$. |
+| “Hạng giải tích 0 nghĩa là không có điểm hữu tỷ.” | Dự đoán không có điểm hữu tỷ *cấp vô hạn*; torsion vẫn có thể tồn tại. |
 
 ---
 
