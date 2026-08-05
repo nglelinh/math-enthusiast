@@ -81,6 +81,19 @@ $$
 
 Mọi số nguyên có phân tích nguyên tố duy nhất; khai triển tích thu lại chuỗi. Vậy **$$\zeta(s)$$ là từ điển giữa “mọi số nguyên” và “mọi số nguyên tố.”**
 
+### Hộp cầu nối — vì sao số nguyên tố “nói chuyện” với không điểm (đọc chậm)
+
+Sinh viên thường gặp hai slogan trông rời: (A) “RH là về không điểm của zeta,” và (B) “RH là về số nguyên tố.” Đây là **mạch một chiều** nối chúng—không cần công thức explicit đầy đủ.
+
+1. **Nguyên tố dựng zeta (tích Euler).** Với $$\operatorname{Re}(s)>1$$, phân tích duy nhất biến chuỗi theo số nguyên thành tích theo nguyên tố. Đổi tập nguyên tố là đổi $$\zeta$$.  
+2. **Zeta thác triển ra ngoài vùng tích.** Thác triển giải tích + phương trình hàm định nghĩa $$\zeta(s)$$ trên cả mặt phẳng (cực tại $$s=1$$). Không điểm không tầm thường nằm trong dải tới hạn dù tích Euler không hội tụ ở đó.  
+3. **Công thức explicit (slogan).** Tổng có trọng trên nguyên tố (hoặc lũy thừa nguyên tố) viết lại được bằng tổng trên không điểm của $$\zeta$$. Mỗi không điểm góp một hạng dao động; phần thực $$\beta=\operatorname{Re}(\rho)$$ kiểm soát biên độ dao động.  
+4. **Sai số đếm nguyên tố.** Định lý số nguyên tố là hạng chính của $$\pi(x)$$ (hoặc $$\psi(x)$$). **Độ lớn phần dư** bị chi phối bởi không điểm cách đường $$\operatorname{Re}(s)=1/2$$ bao xa. RH là khẳng định đều mạnh nhất rằng mọi không điểm không tầm thường có $$\beta=1/2$$, từ đó cho biên sai số cổ điển sạch nhất (kèm nhân tử log trong các phát biểu chuẩn).
+
+**RH *không* là gì.** Không phải công thức “liệt kê nguyên tố tiếp theo.” Đó là **ràng buộc phổ** trên zeta, qua từ điển trên trở thành **ràng buộc mức độ bất quy tắc của việc đếm nguyên tố**.
+
+**Kiểm micro.** Với $$\operatorname{Re}(s)>1$$ tích hội tụ và $$\zeta(s)\neq 0$$—vậy các không điểm bí ẩn *không* đọc được bằng cách “cắm nguyên tố vào tích” trong dải tới hạn. Thác triển trước; không điểm sau; nguyên tố lại qua công thức explicit.
+
 ![Tích Euler]({{ site.baseurl }}/img/chapter_img/riemann_euler_product.svg)
 
 *Hình. Hai mặt của zeta khi $$\operatorname{Re}(s)>1$$: tổng theo $$n$$, tích theo $$p$$.*
@@ -93,7 +106,7 @@ Nếu chỉ có hữu hạn số nguyên tố, tích sẽ hữu hạn các nhân
 
 ---
 
-## 3. Thắc triển giải tích và phương trình hàm (chỉ ý tưởng)
+## 3. Thác triển giải tích và phương trình hàm (chỉ ý tưởng)
 
 Chuỗi $$\sum n^{-s}$$ chỉ hội tụ khi $$\operatorname{Re}(s)>1$$. Riemann chỉ ra $$\zeta(s)$$ mở rộng thành hàm **phân hình** trên cả mặt phẳng phức: chỉnh hình khắp nơi trừ **cực đơn tại $$s=1$$**.
 

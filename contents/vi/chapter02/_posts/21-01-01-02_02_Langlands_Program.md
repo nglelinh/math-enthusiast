@@ -184,6 +184,32 @@ Một đẳng thức **tích phân địa phương** chặn chương trình **to
 
 ---
 
+## 9b. Mode C — Langlands số học vs hình học (vệ sinh khái niệm)
+
+*Tái dựng từ văn hóa video khóa học (kiểu Frenkel, gói Langlands) và survey viết; không dán ASR. Deep dive: [Geometric Langlands & S-duality]({{ site.baseurl }}/contents/vi/chapter06/06_15_Geometric_Langlands_SDuality/).*
+
+### C1. Hai chương trình, một tinh thần nhóm dual
+
+| | **Langlands số học** (nhà của bài này) | **Langlands hình học** |
+|--|----------------------------------------|-------------------------|
+| Nền | Trường số / adele | Đường cong (thường trên $$\mathbb{C}$$) |
+| Đối tượng “automorphic” | Biểu diễn automorphic của $$G(\mathbb{A})$$ | Sheaf / D-module trên $$\mathrm{Bun}_G(C)$$ |
+| Đối tượng “Galois / spectral” | Biểu diễn Galois / motive | Local system / dữ liệu spectral cho $$G^\vee$$ |
+| Nhóm dual | $$G^\vee$$ | $$G^\vee$$ |
+| Bổ đề Ngô | Công cụ **endoscopy / công thức vết** | Không cùng một định lý |
+
+**Takeaway.** Nói “Langlands” không tính từ là mơ hồ. Fields của Ngô mở **đẳng thức so sánh** trong máy số học/trace formula. **Không** nghĩa “geometric Langlands xong,” và **không** nghĩa “cả chương trình Langlands đã chứng.”
+
+### C2. Cầu vật lý (trung thực trạng thái)
+
+Kapustin–Witten và liên quan diễn giải geometric Langlands như được tổ chức bởi **S-duality** của $$\mathcal N=4$$ SYM 4d (mirror Hitchin làm hình học). Đó là **dictionary và khí hậu nghiên cứu** mạnh, không thay chứng minh toán thuần. Xem thêm [mini Witten]({{ site.baseurl }}/contents/vi/chapter06/06_17_Witten_Physics_Math/).
+
+### C3. Câu thoát seminar
+
+Dùng mẫu: *“Ngô chứng minh Bổ đề Cơ bản cho so sánh endoscopic; Langlands vẫn là mạng giả thuyết; geometric Langlands là chương trình category song song chia sẻ nhóm dual $$G^\vee$$.”*
+
+---
+
 ## Nhầm lẫn phổ biến
 
 | Khẳng định | Kết luận | Sửa |
@@ -193,6 +219,8 @@ Một đẳng thức **tích phân địa phương** chặn chương trình **to
 | “Chứng minh thuần là biến đổi tích phân $$p$$-adic.” | **Sai** | Hình học then chốt. |
 | “Laumon–Ngô 2004 đã xong trường hợp tổng quát.” | **Sai** | 2004 là họ đặc biệt quan trọng; tổng quát sau đó. |
 | “Langlands đoạt Fields vì điều này.” | **Sai** | Langlands: Abel 2018; Ngô: Fields 2010. |
+| “Ngô chứng geometric Langlands / hết Langlands.” | **Sai** | Bổ đề Cơ bản cho endoscopy; xem §9b. |
+| “Langlands số học và hình học là cùng một định lý.” | **Sai** | Cùng tinh thần nhóm dual; đối tượng và nền khác. |
 
 ---
 

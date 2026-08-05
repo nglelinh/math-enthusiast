@@ -50,13 +50,49 @@ Continuum physics writes PDEs for fields $$u(x,t)$$: fluids (Navier–Stokes, Eu
 
 **Turbulence** sits nearby: statistical descriptions of high-Reynolds flows, energy cascades (Kolmogorov phenomenology), and rigorous results that capture pieces without a full closed theory. **Hyperbolic conservation laws** (shock waves) require weak solutions and entropy conditions—analysis invented because naive classical solutions break.
 
-Maxwell’s equations on spacetime have elegant differential-form formulations:
+### From Stokes to Maxwell: exterior calculus in one page
+
+Before the full gauge story of §5, continuum physics already uses a **dictionary between local derivatives and global integrals**. The classical **Stokes theorem** (vector calculus form) says that for a smooth vector field $$\mathbf F$$ and an oriented surface $$S$$ with boundary $$\partial S$$,
 
 $$
-dF=0,\qquad d\star F = J
+\oint_{\partial S} \mathbf F\cdot d\mathbf r
+=
+\iint_{S} (\nabla\times\mathbf F)\cdot d\mathbf S.
 $$
 
-(in suitable units and language), linking electromagnetism to exterior calculus—geometry clarifying physics.
+**Slogan:** *circulation of $$\mathbf F$$ on the boundary equals flux of the curl through the surface.* Any two surfaces with the same oriented boundary give the same flux of $$\nabla\times\mathbf F$$—that is why the identity is so powerful.
+
+**Micro-example (unit circle / cap).** Take $$\mathbf F=(-y,x,0)$$. Then $$\nabla\times\mathbf F=(0,0,2)$$. On the unit circle in the $$xy$$-plane one finds
+
+$$
+\oint_{\partial S}\mathbf F\cdot d\mathbf r = 2\pi,
+\qquad
+\iint_{S}(\nabla\times\mathbf F)\cdot d\mathbf S = 2\pi
+$$
+
+(e.g. flat unit disk: flux $$=2\cdot\mathrm{Area}=2\pi$$; a hemispherical cap with the same rim gives the same number by Stokes). Short popular animations often stop at this numerical match; the mathematical physics point is the **structure**.
+
+![Stokes: boundary circulation vs curl flux]({{ site.baseurl }}/img/chapter_img/stokes_theorem_cap_curl_universomatematico.jpg)
+
+*Figure. Visual check of Stokes: orange boundary circulation equals green curl flux through a spanning surface (example field $$\mathbf F=(-y,x,0)$$). Source: popular explainer reel (Universo Matematico).*
+
+**Green / Stokes / Gauss as one family.** In the language of **differential forms**, these theorems are instances of the **general Stokes theorem**
+
+$$
+\int_{M} d\omega = \int_{\partial M} \omega
+$$
+
+for a form $$\omega$$ on a suitable oriented manifold with boundary. The exterior derivative $$d$$ is the unified “local” operator; the boundary is the “global” partner. That is the same moral as many dualities in this chapter: local data constrain global integrals, and conversely.
+
+**Maxwell in forms.** The electromagnetic field is packaged as a 2-form $$F$$ (field strength). In suitable units and conventions on spacetime,
+
+$$
+dF=0,\qquad d\star F = J.
+$$
+
+Here $$dF=0$$ is the homogeneous pair (no magnetic monopoles / Faraday–induction structure, depending on dimension and signature packaging), while $$d\star F=J$$ couples to the current. Because $$d\circ d=0$$, one automatically gets charge conservation slogans from $$dJ=0$$ (when $$J=d\star F$$). Exterior calculus does not “solve Maxwell for free,” but it makes the geometric content transparent—and prepares the ground for **connections and curvature** in §5 (where $$F$$ becomes the curvature of a gauge connection).
+
+**Literacy.** Differential forms are a language upgrade, not a substitute for analysis of PDE well-posedness. Link: [Duality as a principle]({{ site.baseurl }}/contents/en/chapter06/06_12_Duality_Principle/) (pairing / dimension flip cousins); [Atiyah–Singer]({{ site.baseurl }}/contents/en/chapter08/08_11_Atiyah_Singer_Index/) (characteristic classes of curvature).
 
 ---
 
@@ -150,6 +186,8 @@ Textbook calculations often diagonalize finite matrices or ignore domains of unb
 | “Quantum mechanics is only matrices for qubits.” | Incomplete | Infinite-dimensional operators and domains matter for continuum systems. |
 | “A phase transition is when a simulation looks jumpy.” | Loose | Mathematical phase transitions concern thermodynamic limits and singularities. |
 | “Mathematical physics is just applied PDE.” | Too narrow | Geometry, probability, algebra are equal pillars. |
+| “$$dF=0$$ is just notation for fancy Maxwell.” | Incomplete | Exterior calculus unifies Stokes-type theorems and makes $$d^2=0$$ / conservation transparent. |
+| “Stokes equality on one example proves Maxwell.” | False | The example checks Stokes for a field; Maxwell is a system of field equations on spacetime. |
 
 ---
 
@@ -158,10 +196,12 @@ Textbook calculations often diagonalize finite matrices or ignore domains of unb
 1. **Well-posedness.** For the ODE $$\dot x = f(x)$$ with $$f$$ Lipschitz, state a basic existence/uniqueness theorem you know; contrast with NS openness.
 2. **Self-adjoint slogan.** Why do observables need real spectra in textbook QM, and how does self-adjointness secure that?
 3. **Partition function.** For a two-state system with energies $$0$$ and $$E$$, write $$Z$$ and mean energy as functions of $$\beta$$.
-4. **Gauge idea.** In one paragraph, connect “local phase redundancy” of a complex wavefunction to a connection/compensating field (heuristic OK).
-5. **Clay literacy.** Name two Clay problems with physics origin and state each in one careful sentence.
-6. **Interface.** Pick one topic from this chapter (OT, networks, quantum info) and write three sentences on a physics PDE/probability bridge.
-7. **Stretch.** Read a popular account of a recent black-hole stability result; list what is theorem vs analogy.
+4. **Stokes micro.** For $$\mathbf F=(-y,x,0)$$, compute $$\nabla\times\mathbf F$$ and explain in ≤80 words why the line integral around the unit circle equals the flux of the curl through the unit disk.
+5. **Forms slogan.** In one sentence each: what does $$dF=0$$ package, and what does $$d\star F=J$$ package (Maxwell in forms)?
+6. **Gauge idea.** In one paragraph, connect “local phase redundancy” of a complex wavefunction to a connection/compensating field (heuristic OK).
+7. **Clay literacy.** Name two Clay problems with physics origin and state each in one careful sentence.
+8. **Interface.** Pick one topic from this chapter (OT, networks, quantum info, dualities) and write three sentences on a physics PDE/probability/geometry bridge.
+9. **Stretch.** Read a popular account of a recent black-hole stability result; list what is theorem vs analogy.
 
 ---
 
@@ -184,6 +224,8 @@ Navier–Stokes (Clay): global existence and smoothness of smooth finite-energy 
 
 - **Mathematical physics.** Rigorous analysis of structures motivated by physics (not the same as theoretical physics practice).
 - **Weak solution.** Solution in a distributional / energy space sense, possibly singular.
+- **Stokes (vector form).** $$\oint_{\partial S}\mathbf F\cdot d\mathbf r=\iint_S(\nabla\times\mathbf F)\cdot d\mathbf S$$.
+- **Maxwell in forms (slogan).** $$dF=0$$, $$d\star F=J$$ — exterior calculus packaging of electromagnetism.
 
 ### Hygiene (from confusions log)
 

@@ -87,6 +87,19 @@ $$
 
 Every integer has a unique prime factorization; expanding the product recovers the series. So **$$\zeta(s)$$ is a dictionary between “all integers” and “all primes.”**
 
+### Bridge box — why primes talk to zeros (read slowly)
+
+Students often meet two slogans that feel disconnected: (A) “RH is about zeros of zeta,” and (B) “RH is about primes.” Here is the **one-way chain** that links them—no full explicit formula required.
+
+1. **Primes build zeta (Euler product).** For $$\operatorname{Re}(s)>1$$, unique factorization turns the series over integers into a product over primes. If you change the set of primes, you change $$\zeta$$.  
+2. **Zeta continues beyond the product region.** Analytic continuation + functional equation define $$\zeta(s)$$ on the whole plane (pole at $$s=1$$). Non-trivial zeros live in the critical strip even though the Euler product does not converge there.  
+3. **Explicit formulas (slogan).** Weighted sums over primes (or prime powers) can be rewritten using sums over zeros of $$\zeta$$. Each zero contributes an oscillatory term; the real part $$\beta=\operatorname{Re}(\rho)$$ controls how large those oscillations can be.  
+4. **Error terms in prime counting.** The Prime Number Theorem is the main term for $$\pi(x)$$ (or $$\psi(x)$$). The **size of the remainder** is governed by how far zeros sit from the line $$\operatorname{Re}(s)=1/2$$. RH is the strongest uniform claim that all non-trivial zeros have $$\beta=1/2$$, hence the cleanest classical bound on that error (up to logarithmic factors in standard formulations).
+
+**What RH is *not*.** It is not a formula that “lists the next prime.” It is a **spectral constraint** on zeta that, through the dictionary above, becomes a **constraint on how irregular prime counting can be**.
+
+**Micro-check.** For $$\operatorname{Re}(s)>1$$ the product converges and $$\zeta(s)\neq 0$$ there—so the mystery zeros are *not* read off by plugging primes into the product in the critical strip. Continuation first; zeros second; primes again via explicit formulas.
+
 ![Euler product]({{ site.baseurl }}/img/chapter_img/riemann_euler_product.svg)
 
 *Figure. Two faces of zeta for $$\operatorname{Re}(s)>1$$: sum over $$n$$, product over primes.*

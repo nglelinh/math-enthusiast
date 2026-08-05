@@ -172,6 +172,32 @@ $$
 
 ---
 
+## 9b. Mode C — arithmetic vs geometric Langlands (hygiene)
+
+*Reconstructed from course video culture (Frenkel-style overviews, Langlands pack) and written surveys; do not paste ASR. Deep dive: [Geometric Langlands & S-duality]({{ site.baseurl }}/contents/en/chapter06/06_15_Geometric_Langlands_SDuality/).*
+
+### C1. Two programs, one dual-group spirit
+
+| | **Arithmetic Langlands** (this essay’s home) | **Geometric Langlands** |
+|--|-----------------------------------------------|-------------------------|
+| Base | Number fields / adeles | Curves (often over $$\mathbb{C}$$) |
+| “Automorphic” objects | Automorphic representations of $$G(\mathbb{A})$$ | Sheaves / D-modules on $$\mathrm{Bun}_G(C)$$ |
+| “Galois / spectral” objects | Galois representations / motives | Local systems / spectral data for $$G^\vee$$ |
+| Dual group | $$G^\vee$$ | $$G^\vee$$ |
+| Ngô’s lemma | Tool for **endoscopy / trace formula** | Not the same theorem |
+
+**Takeaway.** Saying “Langlands” without adjective is ambiguous. Ngô’s Fields work unlocks a **comparison identity** inside the arithmetic/trace-formula machine. It does **not** mean “geometric Langlands is finished,” and it does **not** mean “the whole Langlands program is proved.”
+
+### C2. Physics bridge (status-honest)
+
+Kapustin–Witten and related work interpret geometric Langlands as organized by **S-duality** of 4d $$\mathcal N=4$$ SYM (with Hitchin mirrors as geometry). That is a powerful **dictionary and research climate**, not a substitute for pure mathematical proofs. See also [Witten mini-profile]({{ site.baseurl }}/contents/en/chapter06/06_17_Witten_Physics_Math/).
+
+### C3. Seminar exit sentence
+
+Use this template: *“Ngô proved the Fundamental Lemma for endoscopic comparison; Langlands remains a web of conjectures; geometric Langlands is a parallel categorical program sharing the dual group $$G^\vee$$.”*
+
+---
+
 ## Common misconceptions (fact-check)
 
 | Claim | Verdict | Correction |
@@ -181,6 +207,8 @@ $$
 | “The proof is pure formal manipulation of $$p$$-adic integrals.” | **Fail** | Geometry is essential. |
 | “Laumon–Ngô already finished the general case in 2004.” | **Fail** | 2004 is a major special family; Ngô’s general theorem came after. |
 | “Langlands won a Fields Medal for this.” | **Fail** | Langlands: Abel 2018; Ngô: Fields 2010. |
+| “Ngô proved geometric Langlands / all of Langlands.” | **Fail** | Fundamental Lemma for endoscopy; see §9b. |
+| “Arithmetic and geometric Langlands are the same theorem.” | **Fail** | Shared dual-group spirit; different objects and bases. |
 
 ---
 

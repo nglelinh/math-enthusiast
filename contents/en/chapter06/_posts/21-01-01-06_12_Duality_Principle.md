@@ -236,10 +236,12 @@ AdS/CFT                 bulk gravity ↔ boundary QFT
 
 ## Further directions
 
-- **Deep dives (now available):**  
+- **Deep dives:**  
   - [Mirror Symmetry]({{ site.baseurl }}/contents/en/chapter06/06_13_Mirror_Symmetry/) — A/B models, SYZ, HMS  
   - [AdS/CFT & holography]({{ site.baseurl }}/contents/en/chapter06/06_14_AdS_CFT/) — bulk ↔ boundary dictionary  
   - [Geometric Langlands & S-duality]({{ site.baseurl }}/contents/en/chapter06/06_15_Geometric_Langlands_SDuality/) — Kapustin–Witten bridge  
+- **Bridges / culture:** [Pontryagin & Fourier]({{ site.baseurl }}/contents/en/chapter06/06_16_Pontryagin_Fourier_Duality/), [Witten mini]({{ site.baseurl }}/contents/en/chapter06/06_17_Witten_Physics_Math/)  
+- **Studio:** [Draw a duality dictionary]({{ site.baseurl }}/contents/en/chapter07/07_10_Explore_Duality_Dictionary/)  
 - **Research packs:** `research/video-research/mirror-symmetry/`, `ads-cft/`, `geometric-langlands-sduality/`.  
 - **Practice habit:** keep a three-column note—*dual pair / what is swapped / theorem vs conjecture*.  
 - **Seminar question:** Is index theory a duality? (Analytic index ↔ topological index is an *equality of invariants*, dual-adjacent but not the same as theory equivalence.)

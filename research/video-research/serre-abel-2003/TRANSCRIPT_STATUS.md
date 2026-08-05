@@ -12,3 +12,5 @@ Generated: 2026-08-04 UTC
 ## Notes
 
 - Captions via yt-dlp; not human-verified.
+- **Caption gap (documented 2026-08-05):** `0KqVP9We2LQ` has no captions in pack. Lesson marks it optional orientation only—do not invent Mode-C from missing ASR.
+- Primary Mode-C / culture sources: Abel interview + “write mathematics badly” + “50 years ago number theory.”

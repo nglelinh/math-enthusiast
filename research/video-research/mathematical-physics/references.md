@@ -27,7 +27,14 @@ All URLs discovered or used during `math-video-researcher` discovery (2026-08-04
 
 ---
 
-## C. Expository web pages
+## C. Stokes / forms (popular visual + classic)
+
+| # | Source | URL |
+|---|--------|-----|
+| S1 | Facebook reel — Teorema de Stokes (Universo Matematico) | https://www.facebook.com/reel/890118957077860 |
+| S2 | Course image | `img/chapter_img/stokes_theorem_cap_curl_universomatematico.jpg` |
+
+## D. Expository web pages
 
 | # | Source | URL |
 |---|--------|-----|
@@ -36,13 +43,14 @@ All URLs discovered or used during `math-video-researcher` discovery (2026-08-04
 
 ---
 
-## D. Course-internal paths (not HTTP)
+## E. Course-internal paths (not HTTP)
 
 - `research/video-research/mathematical-physics/README.md`
 - `research/video-research/mathematical-physics/analysis.md`
 - `research/video-research/mathematical-physics/learning_path.md`
 - `contents/en/chapter06/_posts/21-01-01-06_11_Mathematical_Physics.md`
 - `contents/vi/chapter06/_posts/21-01-01-06_11_Mathematical_Physics.md`
+- `img/chapter_img/stokes_theorem_cap_curl_universomatematico.jpg`
 
 ---
 
@@ -59,4 +67,5 @@ https://en.wikipedia.org/wiki/Mathematical_physics
 https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_existence_and_smoothness
 https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_existence_and_mass_gap
 https://en.wikipedia.org/wiki/Spectral_theorem
+https://www.facebook.com/reel/890118957077860
 ```

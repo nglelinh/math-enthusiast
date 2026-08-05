@@ -236,10 +236,12 @@ AdS/CFT                 hấp dẫn bulk ↔ QFT biên
 
 ## Hướng tiếp
 
-- **Deep dive (đã có):**  
+- **Deep dive:**  
   - [Mirror Symmetry]({{ site.baseurl }}/contents/vi/chapter06/06_13_Mirror_Symmetry/) — A/B, SYZ, HMS  
   - [AdS/CFT & holography]({{ site.baseurl }}/contents/vi/chapter06/06_14_AdS_CFT/) — dictionary bulk ↔ biên  
   - [Geometric Langlands & S-duality]({{ site.baseurl }}/contents/vi/chapter06/06_15_Geometric_Langlands_SDuality/) — cầu Kapustin–Witten  
+- **Cầu / văn hóa:** [Pontryagin & Fourier]({{ site.baseurl }}/contents/vi/chapter06/06_16_Pontryagin_Fourier_Duality/), [Witten mini]({{ site.baseurl }}/contents/vi/chapter06/06_17_Witten_Physics_Math/)  
+- **Studio:** [Vẽ từ điển đối ngẫu]({{ site.baseurl }}/contents/vi/chapter07/07_10_Explore_Duality_Dictionary/)  
 - **Gói nghiên cứu:** `research/video-research/mirror-symmetry/`, `ads-cft/`, `geometric-langlands-sduality/`.  
 - **Thói quen:** ghi ba cột—*cặp dual / đổi gì / định lý vs giả thuyết*.  
 - **Câu seminar:** Lý thuyết chỉ số có phải dualty không? (Chỉ số giải tích ↔ chỉ số tôpô là *đẳng thức bất biến*, gần dual nhưng không cùng tương đương lý thuyết.)

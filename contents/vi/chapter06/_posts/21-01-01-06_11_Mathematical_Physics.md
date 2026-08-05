@@ -50,13 +50,49 @@ PDE cho trường $$u(x,t)$$: chất lỏng (Navier–Stokes, Euler), đàn hồ
 
 **Turbulence:** mô tả thống kê Reynolds cao, cascade năng lượng Kolmogorov—mảnh định lý, chưa lý thuyết đóng. Bảo toàn hyperbolic (sóng xung kích) cần nghiệm yếu và điều kiện entropy—giải tích sinh ra vì nghiệm classical vỡ.
 
-Maxwell dạng vi phân ngoài:
+### Từ Stokes đến Maxwell: exterior calculus trong một trang
+
+Trước câu chuyện gauge đầy đủ ở §5, vật lý continuum đã dùng **từ điển giữa đạo hàm cục bộ và tích phân toàn cục**. **Định lý Stokes** cổ điển (dạng calculus vector): với trường vector trơn $$\mathbf F$$ và bề mặt định hướng $$S$$ có biên $$\partial S$$,
 
 $$
-dF=0,\qquad d\star F=J
+\oint_{\partial S} \mathbf F\cdot d\mathbf r
+=
+\iint_{S} (\nabla\times\mathbf F)\cdot d\mathbf S.
 $$
 
-(trong ngôn ngữ/đơn vị phù hợp)—hình học làm sáng điện từ, exterior calculus nối Maxwell với hình học vi phân.
+**Slogan:** *lưu thông của $$\mathbf F$$ trên biên bằng thông lượng của curl qua bề mặt.* Mọi bề mặt có cùng biên định hướng cho cùng thông lượng của $$\nabla\times\mathbf F$$—đó là sức mạnh của đẳng thức.
+
+**Ví dụ micro (đường tròn đơn vị / chỏm).** Lấy $$\mathbf F=(-y,x,0)$$. Khi đó $$\nabla\times\mathbf F=(0,0,2)$$. Trên đường tròn đơn vị trong mặt phẳng $$xy$$:
+
+$$
+\oint_{\partial S}\mathbf F\cdot d\mathbf r = 2\pi,
+\qquad
+\iint_{S}(\nabla\times\mathbf F)\cdot d\mathbf S = 2\pi
+$$
+
+(ví dụ đĩa phẳng bán kính 1: thông lượng $$=2\cdot\mathrm{Area}=2\pi$$; chỏm cầu cùng vành cho cùng số nhờ Stokes). Animation phổ biến thường dừng ở khớp số; điểm vật lý toán là **cấu trúc**.
+
+![Stokes: lưu thông biên vs thông lượng curl]({{ site.baseurl }}/img/chapter_img/stokes_theorem_cap_curl_universomatematico.jpg)
+
+*Hình. Kiểm trực quan Stokes: lưu thông biên (cam) bằng thông lượng curl (xanh) qua bề mặt căng. Trường mẫu $$\mathbf F=(-y,x,0)$$. Nguồn: reel phổ biến (Universo Matematico).*
+
+**Green / Stokes / Gauss cùng một họ.** Bằng ngôn ngữ **dạng vi phân**, các định lý này là thể hiện của **định lý Stokes tổng quát**
+
+$$
+\int_{M} d\omega = \int_{\partial M} \omega
+$$
+
+với dạng $$\omega$$ trên đa tạp định hướng có biên (phù hợp). Đạo hàm ngoài $$d$$ là toán tử “cục bộ” thống nhất; biên là đối tác “toàn cục.” Cùng moral với nhiều dualty trong chương: dữ liệu cục bộ ràng buộc tích phân toàn cục và ngược lại.
+
+**Maxwell bằng dạng.** Trường điện từ được đóng gói thành 2-form $$F$$ (cường độ trường). Trong đơn vị và quy ước spacetime phù hợp,
+
+$$
+dF=0,\qquad d\star F = J.
+$$
+
+Ở đây $$dF=0$$ là cặp thuần nhất (không monopole từ / cấu trúc cảm ứng Faraday, tùy đóng gói chiều và signature), còn $$d\star F=J$$ nối với dòng. Vì $$d\circ d=0$$, ta có slogan bảo toàn điện tích từ $$dJ=0$$ (khi $$J=d\star F$$). Exterior calculus không “giải Maxwell miễn phí,” nhưng làm trong suốt nội dung hình học—và chuẩn bị **connection và curvature** ở §5 (nơi $$F$$ trở thành curvature của connection gauge).
+
+**Biết đọc.** Dạng vi phân là nâng cấp ngôn ngữ, không thay phân tích well-posedness PDE. Liên kết: [Đối ngẫu như một nguyên lý]({{ site.baseurl }}/contents/vi/chapter06/06_12_Duality_Principle/); [Atiyah–Singer]({{ site.baseurl }}/contents/vi/chapter08/08_11_Atiyah_Singer_Index/).
 
 ---
 
@@ -152,6 +188,8 @@ Textbook chéo hóa ma trận hữu hạn, bỏ domain. Công việc chặt: Ham
 | “QM chỉ ma trận qubit.” | Toán tử vô hạn chiều quan trọng continuum. |
 | “Chuyển pha = simulation nhảy.” | Chuyển pha toán: giới hạn nhiệt động và kỳ dị. |
 | “Vật lý toán = chỉ PDE ứng dụng.” | Hình học, xác suất, đại số ngang hàng. |
+| “$$dF=0$$ chỉ là ký hiệu Maxwell hoa mỹ.” | Exterior calculus thống nhất định lý kiểu Stokes và làm trong suốt $$d^2=0$$ / bảo toàn. |
+| “Khớp số Stokes trên một ví dụ chứng minh Maxwell.” | Ví dụ kiểm Stokes cho một trường; Maxwell là hệ phương trình trường trên spacetime. |
 
 ---
 
@@ -160,10 +198,12 @@ Textbook chéo hóa ma trận hữu hạn, bỏ domain. Công việc chặt: Ham
 1. ODE Lipschitz: tồn tại/duy nhất cơ bản; đối chiếu độ mở NS.
 2. Vì sao quan sát cần phổ thực; self-adjointness bảo đảm thế nào (slogan).
 3. Hệ hai trạng thái năng lượng $$0,E$$: $$Z$$ và năng lượng trung bình theo $$\beta$$.
-4. Một đoạn: dư thừa pha địa phương ↔ connection (heuristic).
-5. Hai bài Clay gốc vật lý; mỗi bài một câu cẩn thận.
-6. Chọn OT/mạng/QI: ba câu cầu PDE/xác suất vật lý.
-7. Đọc phổ thông ổn định hố đen; liệt kê định lý vs ẩn dụ.
+4. **Stokes micro.** Với $$\mathbf F=(-y,x,0)$$, tính $$\nabla\times\mathbf F$$ và giải thích ≤80 từ vì sao tích phân đường quanh đường tròn đơn vị bằng thông lượng curl qua đĩa đơn vị.
+5. **Slogan dạng.** Mỗi ý một câu: $$dF=0$$ đóng gói gì, $$d\star F=J$$ đóng gói gì (Maxwell bằng form)?
+6. Một đoạn: dư thừa pha địa phương ↔ connection (heuristic).
+7. Hai bài Clay gốc vật lý; mỗi bài một câu cẩn thận.
+8. Chọn OT/mạng/QI/dualty: ba câu cầu PDE/xác suất/hình học vật lý.
+9. Đọc phổ thông ổn định hố đen; liệt kê định lý vs ẩn dụ.
 
 ---
 
