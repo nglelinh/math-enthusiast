@@ -134,6 +134,7 @@ Textbook chéo hóa ma trận hữu hạn, bỏ domain. Công việc chặt: Ham
 | Gradient flow continuum | Vận chuyển tối ưu |
 | Surrogate dữ liệu | Toán AI / ML theory |
 | Mạng tương tác | Khoa học mạng / sinh học toán |
+| Đối ngẫu (EM, S/T, holography, cầu Langlands) | [Đối ngẫu như một nguyên lý]({{ site.baseurl }}/contents/vi/chapter06/06_12_Duality_Principle/) |
 
 ### Studio seminar
 
@@ -253,8 +254,9 @@ Danh mục URL đầy đủ: `research/video-research/mathematical-physics/refer
 
 ## Hướng đi tiếp
 
+- **Bản đồ đối ngẫu (toán + vật lý):** [Đối ngẫu như một nguyên lý]({{ site.baseurl }}/contents/vi/chapter06/06_12_Duality_Principle/).
 - [Thông tin lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/); [Độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/).
 - [Vận chuyển tối ưu]({{ site.baseurl }}/contents/vi/chapter06/06_09_Optimal_Transport/) cho gradient flow continuum.
 - Thực hành: không thứ nguyên hóa NS hoặc heat; Reynolds/Fourier; “tồn tại chặt” thêm gì cho simulation.
-- Đọc: một chương well-posedness PDE → một chương toán tử QM → phát biểu Clay.
+- Đọc: một chương well-posedness PDE → một chương toán tử QM → phát biểu Clay → bản đồ dualty.
 - Nhật ký ba cột: *mô hình vật lý / định lý toán / khoảng trống mở*.

@@ -55,7 +55,7 @@ Special cases and nearby mountains include:
 
 - abelian class field theory (a classical ancestor);
 - modularity phenomena for elliptic curves (Wiles et al.—a different, equally famous face of the Langlands world);
-- the **geometric Langlands** program (a parallel universe over curves).
+- the **geometric Langlands** program (a parallel universe over curves)—see the deep dive [Geometric Langlands & S-duality]({{ site.baseurl }}/contents/en/chapter06/06_15_Geometric_Langlands_SDuality/) for the Kapustin–Witten / Hitchin bridge.
 
 Ngô’s Fields work is about a precise analytic–geometric identity needed for **endoscopic comparison**, not about rewriting the whole program.
 

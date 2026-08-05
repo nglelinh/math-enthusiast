@@ -136,6 +136,7 @@ Textbook calculations often diagonalize finite matrices or ignore domains of unb
 | Continuum limits / gradient flows | Optimal transport |
 | Data-driven surrogate models | Mathematics of AI / ML theory |
 | Interaction networks | Network science / mathematical biology |
+| Dualities (EM, S/T, holography, Langlands bridges) | [Duality as a principle]({{ site.baseurl }}/contents/en/chapter06/06_12_Duality_Principle/) |
 
 ---
 
@@ -252,9 +253,10 @@ Full URL bibliography from video research: `research/video-research/mathematical
 
 ## Further directions
 
+- **Duality map (math + physics under one roof):** [Duality as a principle]({{ site.baseurl }}/contents/en/chapter06/06_12_Duality_Principle/).
 - **Quantum side:** [Quantum information]({{ site.baseurl }}/contents/en/chapter06/06_03_Quantum_Information/).
 - **Hardness and models of computation:** [Complexity theory]({{ site.baseurl }}/contents/en/chapter06/06_07_Complexity_Theory/).
 - **Gradient flows and continuum limits:** [Optimal transport]({{ site.baseurl }}/contents/en/chapter06/06_09_Optimal_Transport/).
 - **Practice:** nondimensionalize Navier–Stokes or heat equation; identify Reynolds or Fourier numbers; discuss what “rigorous existence” would add to a simulation.
-- **Reading path:** one PDE well-posedness chapter → one QM operator chapter → Clay problem statements.
+- **Reading path:** one PDE well-posedness chapter → one QM operator chapter → Clay problem statements → duality map.
 - Maintain a three-column journal: *physical model / mathematical theorem / open gap*.

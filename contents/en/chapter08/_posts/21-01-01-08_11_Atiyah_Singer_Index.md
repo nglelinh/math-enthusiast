@@ -211,6 +211,7 @@ The modern shift of mind is deep: often the smart question is not “solve the P
 | [Uhlenbeck]({{ site.baseurl }}/contents/en/chapter08/08_04_Uhlenbeck_Gauge/) | Analytic control of gauge moduli (sibling infrastructure) |
 | [Sullivan]({{ site.baseurl }}/contents/en/chapter08/08_07_Sullivan_Topology/) | Topology in the broad sense; different tools |
 | [Mathematical physics]({{ site.baseurl }}/contents/en/chapter06/06_11_Mathematical_Physics/) | Where Dirac operators re-enter as physics |
+| [Duality as a principle]({{ site.baseurl }}/contents/en/chapter06/06_12_Duality_Principle/) | Poincaré / EM / S-duality / Langlands duals under one roof |
 | [Kashiwara / $$D$$-modules]({{ site.baseurl }}/contents/en/chapter08/08_10_Kashiwara_DModules/) | Another algebraic language for linear PDE (different era, related spirit) |
 
 A seminar comparison that always pays: **index theory computes dimensions topologically; geometric analysis controls compactness and regularity.** Both are needed before moduli spaces become theorems rather than dreams.

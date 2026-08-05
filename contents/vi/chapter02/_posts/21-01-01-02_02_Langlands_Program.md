@@ -51,7 +51,7 @@ Các trường hợp đặc biệt và “núi lân cận” gồm:
 
 - lý thuyết trường lớp abel (tổ tiên cổ điển);
 - hiện tượng modularity của đường cong elliptic (Wiles và cộng sự—một mặt khác, cũng nổi tiếng, của vũ trụ Langlands);
-- chương trình **Langlands hình học** (vũ trụ song song trên đường cong).
+- chương trình **Langlands hình học** (vũ trụ song song trên đường cong)—xem deep dive [Geometric Langlands & S-duality]({{ site.baseurl }}/contents/vi/chapter06/06_15_Geometric_Langlands_SDuality/) cho cầu Kapustin–Witten / Hitchin.
 
 Công trình Fields của Ngô là về một đồng nhất thức giải tích–hình học chính xác cần cho **so sánh endoscopic**, không phải viết lại toàn bộ chương trình. Khi đọc trích dẫn huy chương, hãy giữ hai lớp: **tầm nhìn** (Langlands) và **nút kỹ thuật** (Bổ đề Cơ bản).
 

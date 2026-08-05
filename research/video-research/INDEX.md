@@ -99,3 +99,9 @@ Transcript extracts: [FLAGSHIP_TRANSCRIPTS.md](FLAGSHIP_TRANSCRIPTS.md) · [NONF
 | `wigderson-complexity` | [references.md](wigderson-complexity/references.md) |
 | `wiles-fermat` | [references.md](wiles-fermat/references.md) |
 | `yao-complexity` | [references.md](yao-complexity/references.md) |
+
+## Duality deep-dives (2026-08-05)
+- mirror-symmetry
+- ads-cft
+- geometric-langlands-sduality
+

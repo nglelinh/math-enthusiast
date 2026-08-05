@@ -207,6 +207,7 @@ Sự chuyển tư duy hiện đại rất sâu: câu hỏi thông minh thường
 | [Uhlenbeck]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/) | Kiểm soát giải tích moduli gauge (hạ tầng anh em) |
 | [Sullivan]({{ site.baseurl }}/contents/vi/chapter08/08_07_Sullivan_Topology/) | Tôpô theo nghĩa rộng; công cụ khác |
 | [Toán lý]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/) | Nơi Dirac trở lại như vật lý |
+| [Đối ngẫu như một nguyên lý]({{ site.baseurl }}/contents/vi/chapter06/06_12_Duality_Principle/) | Poincaré / EM / S-duality / dual Langlands dưới một mái |
 | [Kashiwara / $$D$$-module]({{ site.baseurl }}/contents/vi/chapter08/08_10_Kashiwara_DModules/) | Ngôn ngữ đại số khác cho PDE tuyến tính |
 
 So sánh seminar luôn đáng giá: **lý thuyết chỉ số tính chiều bằng tôpô; phân tích hình học kiểm soát compactness và chính quy.** Cả hai cần trước khi moduli trở thành định lý thay vì giấc mơ.
