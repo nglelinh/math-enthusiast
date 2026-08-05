@@ -76,6 +76,8 @@ Thì $$d\in(0,1)$$ và $$d\neq r_n$$ mọi $$n$$ vì khác ở chữ số thứ 
 
 $$d$$ **phụ thuộc danh sách**. Đó là ưu điểm: kẻ hoài nghi đưa liệt kê nào, đường chéo trả lời *đúng* liệt kê đó. Không có một số thực “vắng mặt tuyệt đối” chống mọi danh sách; đúng ra: *với mọi danh sách, tồn tại* số thực vắng trong danh sách đó. Thứ tự lượng từ là then chốt.
 
+Cùng moral với Euclid: $$N=P+1$$ phụ thuộc danh sách nguyên tố giả định; chứng nhân thoát *khỏi* danh sách đó. Họ xây dựng thoát—không phải “số đặc biệt cố định từ trước.”
+
 ---
 
 ## 5. Vệ sinh: khai triển không duy nhất
@@ -83,16 +85,16 @@ $$d$$ **phụ thuộc danh sách**. Đó là ưu điểm: kẻ hoài nghi đưa 
 Một số số thực có hai khai triển thập phân, ví dụ $$0.1999\ldots=0.2000\ldots$$. Lật chữ số bất cẩn có thể tạo xâu khác nhưng cùng giá trị thực với một $$r_n$$. Cách xử lý:
 
 - cấm đuôi 9 vô hạn (hoặc đuôi 0) để chuẩn hóa; hoặc  
-- dùng chữ số trong $$\{4,5\}$$ cho số thoát; hoặc  
-- làm việc trước với $$\{0,1\}^{\mathbb{N}}$$ rồi chuyển sang số thực.
+- dùng chữ số trong $$\{4,5\}$$ cho số thoát (như quy tắc ở §3); hoặc  
+- làm việc trước với $$\{0,1\}^{\mathbb{N}}$$ rồi map sang số thực cẩn thận.
 
-Ở mức ý tưởng, chiến lược đường chéo ổn định dưới mọi sửa chữa. Gọi tên vấn đề là một phần trưởng thành toán học.
+Khai triển nhị phân gặp vấn đề tương tự (đuôi 1). Ở mức ý tưởng, chiến lược đường chéo ổn định dưới mọi sửa chữa. Gọi tên vấn đề là một phần trưởng thành toán học—đừng giả vờ nó không tồn tại khi viết “ý tưởng chứng minh.”
 
 ---
 
 ## 6. $$\mathbb{Q}$$ đếm được, $$\mathbb{R}$$ thì không
 
-Đường chéo không chứng minh $$\mathbb{Q}$$ không đếm được. Số hữu tỷ *đếm được*. Đối số chống danh sách *mọi số thực* dựa vào việc mọi xâu thập phân (hạn chế nhẹ) đều đặt tên một số thực. Chứng nhân đường chéo không cần hữu tỷ—và điều đó không đe dọa “mọi hữu tỷ đã xuất hiện.”
+Đường chéo **không** chứng minh $$\mathbb{Q}$$ không đếm được. Số hữu tỷ *đếm được* (liệt kê đan xen theo mẫu chuẩn). Đối số chống danh sách *mọi số thực* dựa vào việc (hầu hết) xâu thập phân đặt tên một số thực. Chứng nhân đường chéo không cần hữu tỷ—và điều đó không đe dọa “mọi hữu tỷ đã xuất hiện trong một liệt kê khác.”
 
 | Tập | Cỡ | Ý tưởng chứng minh điển hình |
 |-----|-----|------------------------------|
@@ -104,30 +106,32 @@ Một số số thực có hai khai triển thập phân, ví dụ $$0.1999\ldot
 
 ## 7. Đường chéo thứ hai: tập lũy thừa
 
-Cantor cũng chứng minh: với mọi tập $$X$$, không có toàn ánh từ $$X$$ lên $$\mathcal{P}(X)$$. Ý tưởng: nếu $$f:X\to\mathcal{P}(X)$$, đặt
+Cantor cũng chứng minh: với mọi tập $$X$$, không có toàn ánh từ $$X$$ lên $$\mathcal{P}(X)$$ (tập lũy thừa). Ý tưởng: nếu $$f:X\to\mathcal{P}(X)$$, đặt
 
 $$
 D=\{x\in X:x\notin f(x)\}.
 $$
 
-$$D$$ khác $$f(x)$$ tại phần tử $$x$$, nên $$D$$ không nằm trong ảnh của $$f$$. Khi $$X=\mathbb{N}$$, đây là đường chéo trên dãy bit—cùng hình học với lật đường chéo.
+$$D$$ khác $$f(x)$$ tại phần tử $$x$$ (thuộc về $$D$$ xor thuộc $$f(x)$$), nên $$D$$ không nằm trong ảnh của $$f$$. Khi $$X=\mathbb{N}$$, đây là đường chéo trên dãy bit—cùng hình học với lật đường chéo thập phân. Hệ quả: không có “tập lớn nhất”; chuỗi cardinality tăng vô hạn.
 
 ---
 
 ## 8. Vì sao quan trọng ngoài lý thuyết tập hợp
 
-- Các **cỡ vô hạn khác nhau** — cuộc cách mạng Cantor.  
-- **Không quyết định được** — bài toán dừng Turing lật máy thứ $$e$$ trên đầu vào $$e$$.  
-- **Bất toàn** — câu Gödel khẳng định tính không chứng minh được của chính nó.  
-- **Khoa học máy tính** — nhiều “không có thuật toán phổ quát” là đường chéo ngụy trang.
+- **Các cỡ vô hạn khác nhau** — cuộc cách mạng Cantor: “vô hạn” không phải một kích cỡ.  
+- **Không quyết định được** — bài toán dừng Turing: lật hành vi máy thứ $$e$$ trên đầu vào $$e$$ (đường chéo trên máy + input).  
+- **Bất toàn** — câu Gödel mã hóa “tôi không chứng minh được” và lật theo diagonal tinh thần.  
+- **Khoa học máy tính** — nhiều “không có thuật toán phổ quát” là đường chéo ngụy trang.  
+- **Seminar khóa này** — cùng skeleton “liệt kê-và-thoát” với Euclid ([bài Euclid+Cantor]({{ site.baseurl }}/contents/vi/chapter05/05_02_Euclid_Infinite_Primes/)).
 
 ---
 
 ## 9. Định lý *không* nói gì
 
-- Không tự nó quyết định có bao nhiêu cardinality nằm giữa $$\lvert\mathbb{N}\rvert$$ và $$\lvert\mathbb{R}\rvert$$ (giả thuyết continuum).  
-- Không phải “số thực lớn vì liên tục” theo nghĩa hình học mơ hồ; chứng minh về liệt kê và chữ số.  
-- Không đòi hỏi tiên đề chọn ở các dạng sơ cấp dùng ở đây.
+- Không tự quyết định có bao nhiêu cardinality nằm giữa $$\lvert\mathbb{N}\rvert$$ và $$\lvert\mathbb{R}\rvert$$ (**giả thuyết continuum**—độc lập ZFC theo nghĩa kỹ thuật).  
+- Không phải “số thực lớn vì liên tục” theo nghĩa hình học mơ hồ; chứng minh về **liệt kê và chữ số**.  
+- Không đòi tiên đề chọn ở các dạng sơ cấp dùng ở đây.  
+- Không khẳng định bạn “không đếm được xa” theo nghĩa kiên nhẫn con người—$$\mathbb{N}$$ đã vô hạn; không đếm được mạnh hơn.
 
 ---
 

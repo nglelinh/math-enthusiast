@@ -89,8 +89,10 @@ Nhiều vật lý continuum theo một khuôn:
 
 1. Chọn đại lượng (khối lượng, năng lượng, động lượng, điện tích).  
 2. Viết **luật cân bằng**: tốc độ đổi trong miền = thông lượng qua biên + nguồn.  
-3. Đưa dạng tích phân thành PDE nhờ định lý divergence.  
-4. Đóng hệ bằng **luật cấu thành** (Fourier cho nhiệt, Hooke cho đàn hồi, Ohm, …).
+3. Đưa dạng tích phân thành PDE nhờ **định lý divergence** (Green/Stokes/Gauss là họ hàng—xem [Vật lý toán / Stokes→Maxwell]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/)).  
+4. Đóng hệ bằng **luật cấu thành** (Fourier: thông lượng nhiệt $$\propto -\nabla u$$; Hooke: ứng suất–biến dạng; Ohm; …).
+
+Với nhiệt: luật Fourier + cân bằng năng lượng → phương trình nhiệt. Toán không trang trí: định lý divergence là lý do “kế toán” tích phân thành PDE.
 
 **Cơ chế.** *Bảo toàn + đáp ứng cấu thành → PDE; hình học miền và điều kiện biên chọn nghiệm vật lý.*
 
@@ -176,59 +178,65 @@ Curl là **tích có hướng** $$\nabla\times\mathbf{v}$$ (vector). Đặt bán
 
 ## 6. Nguyên lý biến phân
 
-Nhiều bài cân bằng là **biến phân**: cấu hình vật lý làm cực tiểu (hoặc dừng) một năng lượng. Nguyên lý Dirichlet: trong các hàm có biên cố định, hàm cực tiểu
+Nhiều bài cân bằng là **biến phân**: cấu hình vật lý làm cực tiểu (hoặc dừng) một năng lượng / action. Nguyên lý Dirichlet: trong các hàm có biên cố định, hàm cực tiểu
 
 $$
 E[u]=\frac12\int_\Omega\lvert\nabla u\rvert^2\,dx
 $$
 
-giải Laplace (dưới giả thiết phù hợp). Đàn hồi, mặt cực tiểu, và nhiều FEM sống trong thế giới này: xấp xỉ năng lượng trên không gian hữu hạn chiều rồi tối thiểu—giải tích biến phân → ma trận thưa → bộ giải.
+giải Laplace (dưới giả thiết phù hợp)—hàm “phẳng nhất” khớp biên. Đàn hồi tuyến tính, mặt cực tiểu, và nhiều FEM sống trong thế giới này: xấp xỉ năng lượng trên không gian hữu hạn chiều rồi tối thiểu hóa—giải tích biến phân → ma trận thưa → bộ giải.
+
+**Cơ chế.** *Cân bằng = điểm dừng của năng lượng; FEM xấp xỉ không gian hàm rồi tối thiểu (hoặc giải dạng yếu tương đương).*
 
 ---
 
 ## 7. Phần tử hữu hạn: giải tích công nghiệp hóa
 
-1. Chia miền thành phần tử.  
-2. Hạn chế ẩn số trên không gian đa thức từng mảnh.  
-3. Ép dạng yếu (tích phân/biến phân) của PDE.  
-4. Lắp hệ $$KU=F$$ (hoặc tương tự phi tuyến/phụ thuộc thời gian) và giải.
+Quy trình skeleton:
 
-**Dạng yếu một dòng.** Nhân PDE với hàm thử, tích phân từng phần, chuyển đạo hàm sang hàm thử—bước làm cho xấp xỉ tuyến tính từng mảnh hợp lệ.
+1. Chia miền thành phần tử (tam giác, tứ diện, …).  
+2. Hạn chế ẩn số trên không gian đa thức từng mảnh (liên tục hoặc discontinuous theo họ phương pháp).  
+3. Ép **dạng yếu** (tích phân / biến phân) của PDE.  
+4. Lắp hệ $$KU=F$$ (hoặc phi tuyến / phụ thuộc thời gian) và giải.
+
+**Dạng yếu một dòng.** Nhân PDE với hàm thử, tích phân từng phần, chuyển đạo hàm sang hàm thử—bước làm cho xấp xỉ tuyến tính từng mảnh hợp lệ (yếu hơn điểm từng điểm).
 
 **Cơ chế.** *FEM không bỏ toán liên tục; nó chiếu bài giải tích vô hạn chiều xuống đại số tuyến tính cao chiều mà máy tính tấn công được.*
 
-Họ hàng: sai phân hữu hạn, thể tích hữu hạn, phổ.
+Họ hàng: sai phân hữu hạn (lưới đều, trực quan), thể tích hữu hạn (bảo toàn rời rạc—CFD), phổ (chuỗi Fourier / hàm riêng).
 
 ---
 
-## 8. Các lĩnh vực kỹ thuật
+## 8. Các lĩnh vực kỹ thuật nói “giải tích”
 
 | Lĩnh vực | Giải tích làm gì |
 |----------|------------------|
-| Cơ khí | Ứng suất, dao động, đàn hồi |
-| Điện | ODE mạch; PDE Maxwell |
+| Cơ khí | Ứng suất, dao động, đàn hồi, tiếp xúc |
+| Điện | ODE mạch; PDE Maxwell / tĩnh điện |
 | Xây dựng | Dầm, đường tải, FEM công trình |
-| Hàng không | Động lực bay; CFD |
+| Hàng không | Động lực bay; CFD (liên kết [NS]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/)) |
 | Nhiệt–hóa | Truyền nhiệt/khối; phản ứng–khuếch tán |
-| Điều khiển | Tuyến tính hóa; ổn định; Laplace |
+| Điều khiển | Tuyến tính hóa; ổn định; biến đổi Laplace |
 
-**Điều khiển:** tuyến tính hóa $$\dot{x}=f(x,u)$$ cho $$\dot{\xi}=A\xi+B\mu$$. Giá trị riêng của $$A$$ và tính điều khiển được quyết định phản hồi có ổn định được hệ hay không.
+**Điều khiển:** tuyến tính hóa $$\dot{x}=f(x,u)$$ quanh điểm làm việc cho $$\dot{\xi}=A\xi+B\mu$$. Giá trị riêng của $$A$$ và tính điều khiển được quyết định phản hồi có ổn định được hệ hay không—đại số tuyến tính + ODE, vẫn là giải tích.
 
 ---
 
 ## 9. Mô hình liên tục và “digital twin”
 
-Kỹ thuật hiện đại ghép cảm biến, mô hình và tối ưu: mô hình ODE/PDE → ước lượng từ đo → tối ưu đầu vào. Digital twin của turbine hay cầu là giải tích hiệu chỉnh bằng dữ liệu—không phải ma thuật. Giới hạn: rối loạn, tiếp xúc, nứt, đa pha làm căng cả phân tích lẫn số trị. Tính đặt đúng (well-posedness) là tính chất toán có hệ quả kỹ thuật.
+Kỹ thuật hiện đại ghép cảm biến, mô hình và tối ưu theo vòng: mô hình ODE/PDE → ước lượng trạng thái từ đo → tối ưu đầu vào / bảo trì dự đoán. **Digital twin** của turbine hay cầu thường là giải tích (hoặc surrogate) hiệu chỉnh bằng dữ liệu—không phải ma thuật riêng biệt với PDE.
+
+Giới hạn: rối loạn, tiếp xúc, nứt, đa pha, đa thang làm căng cả phân tích lẫn số trị. **Well-posedness** (tồn tại, duy nhất, phụ thuộc liên tục) là tính chất toán có hệ quả kỹ thuật: bài ill-posed không “cứ mesh mịn hơn là xong.”
 
 ---
 
 ## 10. Vì sao vẫn cần hiểu khi phần mềm “tự giải”
 
-1. Sai mô hình thường lớn hơn sai rời rạc hóa.  
-2. Điều kiện biên mã hóa vật lý bạn chọn.  
-3. Không thứ nguyên hóa lộ hạng tử quan trọng.  
-4. Ổn định/cứng của tích phân thời gian là khái niệm giải tích.  
-5. Xác minh–xác thực đòi hỏi biết bài liên tục *nên* làm gì.
+1. Sai **mô hình** thường lớn hơn sai rời rạc hóa.  
+2. **Điều kiện biên** mã hóa vật lý bạn chọn—phần mềm không chọn hộ triết lý.  
+3. **Không thứ nguyên hóa** lộ hạng tử quan trọng (Reynolds, Fourier, …).  
+4. Ổn định / cứng của tích phân thời gian là khái niệm giải tích (bước thời gian, implicit/explicit).  
+5. Xác minh–xác thực đòi hỏi biết bài liên tục *nên* làm gì trước khi tin màu sắc trên màn hình.
 
 Chuỗi cơ chế: **cân bằng vật lý → phương trình vi phân → phân tích/số trị → quyết định thiết kế.**
 

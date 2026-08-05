@@ -88,22 +88,30 @@ $$
 
 Nghĩa là: một khoảng chẵn bị chặn bởi 70 triệu xuất hiện vô hạn lần giữa các nguyên tố *liên tiếp*. Con số lớn—nhưng **hữu hạn**. Đó là định lý dạng này đầu tiên: không còn chỉ “khoảng cách trung bình tăng như $$\log n$$,” mà có **cụm chặt vô hạn lần** với chặn tuyệt đối.
 
+Năm **2013**, **Yitang Zhang** chứng minh
+
+$$
+\liminf_{n\to\infty}(p_{n+1}-p_n) < 70{,}000{,}000.
+$$
+
+Tức: trong các gap giữa nguyên tố liên tiếp, một gap nhỏ hơn bảy mươi triệu xuất hiện **vô hạn lần**. Số lớn nhưng **hữu hạn**—định lý đầu tiên kiểu này. Trước Zhang, người ta không biết liminf gap liên tiếp có hữu hạn; nguyên tố có thể bị buộc cách nhau ngày càng xa theo nghĩa liminf.
+
+Phương pháp xây trên ý **Goldston–Pintz–Yıldırım (GPY)** về phát hiện nguyên tố trong tuple admissible các dạng tuyến tính, kết hợp ước lượng phân bố nguyên tố trong cấp số cộng dạng trung bình tinh tế. Đột phá Zhang: đủ phân bố mà không cần giả thuyết mạnh nhất.
+
 Cải tiến nhanh theo sau:
 
-- Các dự án **Polymath** tối ưu phương pháp kiểu GPY của Zhang, thu nhỏ bound mạnh.
-- **James Maynard** (và vòng ý tưởng độc lập quanh Tao) đưa trọng số sàng đa chiều linh hoạt hơn, cho bound mạnh và mẫu nhiều nguyên tố.
+- **Polymath** (Polymath8) tối ưu cách tiếp cận Zhang, thu nhỏ bound admissible mạnh qua cộng tác cộng đồng.  
+- **James Maynard** (và ý tưởng liên quan độc lập quanh Tao) đưa **trọng số sàng đa chiều** linh hoạt hơn—nhiều dạng tuyến tính được trọng số cùng lúc hiệu quả hơn. Khung Maynard thường đơn giản hóa và mạnh hóa kết quả gap, mở rộng sang mẫu nguyên tố phong phú hơn.
 
-Sau tối ưu, bound vô điều kiện chuẩn dạng
+Sau tối ưu, bound vô điều kiện chuẩn
 
 $$
-\liminf (p_{n+1}-p_n) \le H
+\liminf_{n\to\infty}(p_{n+1}-p_n)\le H
 $$
 
-đứng ở **$$H=246$$** trong các tường thuật chuẩn Maynard–Polymath (điểm tham chiếu seminar; văn liệu kỹ thuật có thể tinh chỉnh—trích survey khi viết A3).
+đứng ở **$$H=246$$** trong tường thuật chuẩn Maynard–Polymath (điểm tham chiếu seminar; văn liệu kỹ thuật có thể tinh chỉnh—trích survey khi viết A3). Dưới giả thuyết mạnh kiểu **Elliott–Halberstam** về phân bố nguyên tố trong cấp số cộng, phương pháp có thể đẩy về gap chẵn một chữ số (ví dụ 6), nhưng **đạt $$H=2$$**—sinh đôi thật—dường như cần ý tưởng vượt mô hình sàng hiện tại. **Parity barrier** là slogan thường dùng vì sao 2 đặc biệt.
 
-Dưới giả thuyết mạnh kiểu **Elliott–Halberstam** về phân bố nguyên tố trong cấp số cộng, các phương pháp có thể đẩy về gap chẵn một chữ số (ví dụ 6), nhưng **đạt 2**—sinh đôi thật—dường như cần ý tưởng mới vượt sàng hiện tại.
-
-Công trình của Maynard là một phần được cộng đồng ghi nhận trong **Fields Medal 2022**. Xem essay [Maynard]({{ site.baseurl }}/contents/vi/chapter02/02_09_Maynard_Primes/).
+Công trình Maynard về gap nhỏ, gap lớn và sàng là một phần **Fields Medal 2022**. Xem [Maynard]({{ site.baseurl }}/contents/vi/chapter02/02_09_Maynard_Primes/).
 
 ---
 
@@ -111,38 +119,45 @@ Công trình của Maynard là một phần được cộng đồng ghi nhận t
 
 | Phát biểu | Tình trạng |
 |-----------|------------|
+| Vô hạn nguyên tố | **Đã chứng** (Euclid, …) |
 | Vô hạn cặp sinh đôi (gap = 2) | **Mở** |
-| Một gap chẵn bị chặn xuất hiện vô hạn lần | **Đã chứng minh** (Zhang / Maynard / Polymath) |
-| Gap $$\le 246$$ vô hạn lần | **Đã chứng minh** (bound tối ưu hóa tham chiếu) |
+| Một gap chẵn bị chặn xuất hiện vô hạn lần | **Đã chứng** (Zhang / Maynard / Polymath) |
+| $$\liminf(p_{n+1}-p_n)\le 246$$ | **Đã chứng** (bound tham chiếu) |
 | Gap = 2 vô hạn lần | **Mở** |
-| Định lý Chen ($$p+2$$ nguyên tố hoặc bán nguyên tố) | **Đã chứng minh** |
-| Polignac mọi $$2k$$ | **Mở** (sinh đôi là case $$k=1$$) |
+| Định lý Chen ($$p+2$$ nguyên tố hoặc bán nguyên tố) | **Đã chứng** |
+| Asymptotic Hardy–Littlewood cho twins | **Mở** (giả thuyết) |
+| Polignac mọi $$2k$$ | **Mở** (sinh đôi là $$k=1$$) |
 
-**Khoảng cách bị chặn** chứng tỏ số nguyên tố tạo cụm chặt vô hạn lần. **Sinh đôi** đòi hỏi cụm chẵn chặt nhất. Đừng gộp hai hàng trong bảng khi nói chuyện hay viết A3.
-
----
-
-## 6. Toán học quanh bài toán
-
-- Lý thuyết sàng (Selberg, sàng tổ hợp, phương pháp GPY).
-- Phân bố nguyên tố trong cấp số cộng (Bombieri–Vinogradov; giả thuyết Elliott–Halberstam).
-- Trọng số Maynard và sàng đa chiều.
-- Liên hệ bộ nguyên tố (prime tuples) và heuristic vòng Hardy–Littlewood.
-- Bối cảnh rộng: mẫu tinh nguyên tố cũng là linh hồn [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/)—RH kiểm soát sai số đếm; sinh đôi hỏi cấu trúc cặp ở khoảng cố định.
-
-Bạn có thể làm toán “xung quanh” sinh đôi cả đời (sàng, phân bố, pattern) mà chưa chạm gap 2. Đó là đặc trưng lành mạnh của bài mở lớn.
+**Khoảng cách bị chặn** chứng tỏ nguyên tố tạo cụm chặt vô hạn lần. **Sinh đôi** đòi cụm chẵn chặt nhất. Khoảng từ 246 đến 2 nhỏ như tỷ số số nguyên và khổng lồ như rào cản phương pháp. Đừng gộp hai hàng khi nói chuyện hay viết A3.
 
 ---
 
-## 7. Studio và dữ liệu
+## 6. Toán học quanh bài toán (bản đồ toolkit)
 
-Một studio nhẹ (không bắt buộc trên trang này): đếm số cặp sinh đôi tới $$N$$ và so với tích phân heuristic
+- **Lý thuyết sàng:** sàng Selberg, sàng tổ hợp, GPY, trọng số Maynard.  
+- **Nguyên tố trong cấp số cộng:** Bombieri–Vinogradov (trung bình sức GRH); giả thuyết Elliott–Halberstam (phân bố mạnh hơn).  
+- **Tuple admissible** và tối ưu đường kính (tuple hẹp đến đâu vẫn admissible?).  
+- **Lý thuyết số tính toán:** tìm twin lớn; so heuristic với data.
+
+Không cần master các công cụ để phát biểu conjecture đúng—nhưng nêu tên chúng tránh ảo tưởng “chỉ thử chia đến $$N$$ lớn.”
+
+Bạn có thể làm toán “xung quanh” sinh đôi cả đời (sàng, phân bố, pattern) mà chưa chạm gap 2. Đó là đặc trưng lành mạnh của bài mở lớn. RH ([Ch.1]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/)) kiểm soát sai số đếm; sinh đôi hỏi cấu trúc cặp ở khoảng cố định—công cụ khác, cùng thế giới “nguyên tố sắp xếp thế nào.”
+
+---
+
+## 7. Polignac, prime tuples, và studio dữ liệu
+
+**Giả thuyết de Polignac:** mọi chẵn dương $$2k$$ xuất hiện vô hạn lần như hiệu hai nguyên tố. Sinh đôi là $$k=1$$. Định lý gap bị chặn cho thấy *ít nhất một* hiệu chẵn trong một tập admissible hữu hạn xuất hiện vô hạn lần; chúng chưa ghim hiệu đó bằng 2.
+
+**Prime tuples.** Tổng quát hơn: mẫu $$n+h_1,\ldots,n+h_m$$ đồng thời nguyên tố với shift admissible $$h_i$$ (admissible: không bị buộc phủ hết thặng dư mod $$p$$ nhỏ). Hardy–Littlewood dự đoán asymptotic. Green–Tao (cấp số cộng nguyên tố dài tùy ý) là chiến thắng khác—tổ hợp cộng tính hơn sàng gap thuần—nhưng cùng thế giới “nguyên tố chứa mẫu phong phú.”
+
+**Studio nhẹ (không bắt buộc):** đếm số cặp sinh đôi tới $$N$$ và so với
 
 $$
-c \int_2^N \frac{dx}{(\log x)^2}
+c\int_2^N\frac{dx}{(\log x)^2}
 $$
 
-với hằng số twin prime (hoặc chỉ so tỷ lệ thô). Mục tiêu là **kỷ luật bằng chứng**, không “chứng minh bằng đồ thị.” Cùng tinh thần verification vs proof như [Collatz]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/).
+(với hằng số twin prime, hoặc chỉ tỷ lệ thô). Mục tiêu **kỷ luật bằng chứng**, không “chứng minh bằng đồ thị.” Cùng tinh thần verification vs proof như [Collatz]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/).
 
 ---
 

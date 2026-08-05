@@ -23,77 +23,105 @@ Mục tiêu không phải tái tạo toàn bộ luận án hay các bài *Annals
 
 Sau bài học, bạn có thể:
 
-- Định nghĩa ở mức trực giác mặt Riemann, không gian Teichmüller và không gian mô-đun.
-- Phát biểu một bài toán đếm trắc địa đơn đóng mà Mirzakhani giải, kèm ý nghĩa tiệm cận.
-- Giải thích moduli như “không gian các hình dạng”, phân biệt điểm moduli với một mặt cụ thể.
-- Mô tả earthquake flow và ý nghĩa ergodicity ở mức khẩu hiệu.
-- Ghi nhận sự kiện lịch sử medalist nữ đầu tiên (2014) và bối cảnh cộng tác (đặc biệt Eskin).
-- Đặt công trình trong mạng liên kết với mặt phẳng, billiard và orbit closure.
+- Định nghĩa không chính thức **mặt Riemann** giống $$g\ge 2$$, **metric hyperbolic**, **không gian Teichmüller**, và **không gian moduli**.
+- Giải thích vì sao moduli là “không gian các hình dạng,” không phải một mặt vẽ trong không gian.
+- Phát biểu bài toán đếm **trắc địa đơn đóng** và tăng trưởng tiệm cận Mirzakhani kiểm soát (bậc $$6g-6$$).
+- Mô tả thể tích **Weil–Petersson** như độ đo hình học trên không gian hình dạng.
+- Phác **earthquake flow** và **ergodicity** mức slogan (với Eskin).
+- Nối mặt phẳng / billiard đa giác với cùng vòng ý tưởng.
+- Ghi nhận chính xác Mirzakhani là **nữ Fields medalist đầu tiên** (2014), và luyện **LO6**: medal trích dẫn thân công trình, không một công thức tweet.
 
-**Kiến thức nền.** Mặt, giống $$g$$, metric Riemann / hyperbolic ở mức khẩu hiệu. Giải tích trên đa tạp và lý thuyết đo hữu ích nhưng không bắt buộc chi tiết.
+**Kiến thức nền.** Mặt giống $$g$$ (cầu, torus, …); metric Riemann và độ dài trắc địa; asymptotic $$f(L)\sim c L^k$$. Không cần Teichmüller theory trước.
+
+**Liên kết seminar.** **LO1**, **LO6**. Họ hàng: [Perelman]({{ site.baseurl }}/contents/vi/chapter02/02_03_Perelman_Poincare/), [vô hạn / hình dạng]({{ site.baseurl }}/contents/vi/chapter04/04_02_Infinity/), [Furstenberg–Margulis]({{ site.baseurl }}/contents/vi/chapter08/08_05_Furstenberg_Margulis/).
 
 ---
 
-## 1. Mặt hyperbolic và “hình dạng”
+## 1. Mặt Riemann, metric hyperbolic, và “hình dạng”
 
-Mặt Riemann đóng giống $$g\ge 2$$ mang, theo định lý uniformization, một **metric hyperbolic** (độ cong $$−1$$) duy nhất trong lớp conformal. Hình học hyperbolic trên mặt cung cấp:
+**Mặt Riemann đóng** là mặt compact định hướng không biên với cấu trúc phức (cục bộ như miền mở trong $$\mathbb{C}$$, transition chỉnh hình). Tôpô: với mỗi $$g\ge 0$$ có một mặt định hướng đóng giống $$g$$—cầu ($$g=0$$), torus ($$g=1$$), double torus ($$g=2$$), … Đặc trưng Euler:
 
-- **trắc địa** (đường ngắn nhất), đặc biệt trắc địa **đóng**;
-- độ dài đường cong;  
-- phân rã pants, tọa độ Fenchel–Nielsen;  
-- liên hệ tôpô (lớp đồng luân) với hình học (độ dài).
+$$
+\chi=2-2g.
+$$
 
-Một “hình dạng” hyperbolic không chỉ là tôpô của mặt: hai metric hyperbolic có thể không isometry dù cùng giống. Câu hỏi tự nhiên: **không gian tất cả các hình dạng đó** trông ra sao?
+Với $$g\ge 2$$, $$\chi<0$$. Theo **uniformization**, mỗi mặt như vậy nhận **metric hyperbolic** độ cong hằng $$-1$$, duy nhất trong lớp conformal sai isometry. Trắc địa là đường “thẳng nhất”; **trắc địa đóng** là đường đóng cực tiểu độ dài cục bộ.
+
+Trắc địa đóng **đơn** không tự cắt. Trên mặt hyperbolic chúng cứng: mỗi lớp đồng luân tự do của đường cong đơn thiết yếu chứa đúng một đại diện trắc địa; độ dài là bất biến hình học của mặt được đánh dấu.
+
+Vì sao quan tâm? Phổ độ dài mã hóa hình dạng. Đếm trắc địa độ dài bị chặn là họ hàng hình học của đếm nguyên tố cỡ bị chặn: cả hai hỏi bất biến rời rạc phân bố thế nào khi tham số liên tục tăng.
 
 ---
 
 ## 2. Teichmüller và moduli: không gian các hình dạng
 
-**Không gian Teichmüller** $$\mathcal{T}_g$$ tham số hóa các cấu trúc hyperbolic (hoặc phức) trên mặt giống $$g$$ *cùng với* một “đánh dấu” tôpô (lớp đồng luân của homeomorphism về mặt tham chiếu). Nó là không gian phủ của moduli, co giãn như “tọa độ đã bung”.
+Hai lớp “không gian mặt” phải tách cẩn thận.
 
-**Không gian mô-đun** $$\mathcal{M}_g$$ tham số hóa các mặt sai khác đẳng cấu—điểm là **hình dạng**, không phải ảnh nhúng trong không gian ambient. Mapping class group tác động trên Teichmüller; thương số (thích hợp) cho moduli.
+**Không gian Teichmüller** $$\mathcal{T}_g$$ tham số hóa cấu trúc hyperbolic (hoặc phức) trên mặt tôpô cố định giống $$g$$, sai isotopy—tương đương mặt Riemann *được đánh dấu*. Đánh dấu nhớ cách đồng nhất với mặt tham chiếu, nên $$\mathcal{T}_g$$ simply connected trong tranh cổ điển; nó là đa tạp thực chiều
+
+$$
+\dim_{\mathbb{R}}\mathcal{T}_g=6g-6\qquad(g\ge 2).
+$$
+
+**Không gian mô-đun** $$\mathcal{M}_g$$ là không gian lớp đẳng cấu không đánh dấu: mặt sai biholomorphism (hoặc isometry metric hyperbolic). Hình thức:
+
+$$
+\mathcal{M}_g\simeq\mathcal{T}_g/\mathrm{Mod}_g,
+$$
+
+với $$\mathrm{Mod}_g$$ **mapping class group** các lớp isotopy homeomorphism bảo toàn định hướng. Điểm $$\mathcal{M}_g$$ là hình dạng thuần; điểm $$\mathcal{T}_g$$ là hình dạng kèm nhãn đường cong và lịch sử biến dạng.
 
 ![Moduli như không gian hình dạng]({{ site.baseurl }}/img/chapter_img/mirzakhani_moduli_shapes.svg)
 
-*Hình (khái niệm). Mỗi điểm của moduli là một lớp hình dạng mặt; đường cong trên moduli là biến dạng hình dạng.*
+*Hình (khái niệm). Mỗi điểm moduli là lớp hình dạng mặt; đường cong trên moduli là biến dạng hình dạng.*
 
-Trực giác giống thấp: với torus (giống 1), moduli liên quan nửa mặt phẳng trên modulo $$\mathrm{SL}_2(\mathbb{Z})$$—đã là “không gian hình dạng” cổ điển. Với $$g\ge 2$$, chiều và hình học phong phú hơn nhiều; Weil–Petersson metric, compactification, và động lực trở thành chủ đề trung tâm hình học hiện đại.
+**Cẩn trọng LO6.** Bài phổ thông đôi khi nói “moduli space là mặt.” Không. Một mặt là một điểm; moduli là vũ trụ hình học chiều cao hơn các điểm đó. Nhầm hai cái là lỗi seminar phổ biến nhất.
 
-**Phân biệt quan trọng.** Moduli **không** phải bản thân một mặt; nó là **không gian các mặt**. Nhầm lẫn này thường xuyên trong bài giảng phổ thông.
-
----
-
-## 3. Thể tích Weil–Petersson và công thức đệ quy
-
-Không gian mô-đun (và không gian moduli của mặt với biên geodesics có độ dài cố định) mang **dạng thể tích Weil–Petersson**. Mirzakhani phát triển **công thức đệ quy** tính các thể tích này: thể tích ở giống $$g$$ liên hệ với thể tích ở giống thấp hơn và mặt có biên, qua phân rã hình học (cắt dọc đường cong).
-
-Hệ quả:
-
-- thể tích trở nên **tính toán được** theo quy nạp;  
-- các đa thức thể tích mang hệ số tổ hợp–hình học có ý nghĩa;  
-- cầu nối sang đếm đường cong, vì nhiều bài toán đếm là tích phân hàm độ dài trên moduli.
-
-Đây không chỉ là “công thức đẹp”: nó biến moduli từ đối tượng trừu tượng thành máy tính hình học.
+Trực giác giống thấp: torus ($$g=1$$) liên quan nửa mặt phẳng trên modulo $$\mathrm{SL}_2(\mathbb{Z})$$. Với $$g\ge 2$$, Weil–Petersson, compactification, và động lực trở thành chủ đề trung tâm.
 
 ---
 
-## 4. Đếm trắc địa đơn đóng
+## 3. Đếm trắc địa đơn đóng
 
-**Trắc địa đơn đóng** là đường trắc địa đóng không tự cắt. Trên mặt hyperbolic, mỗi lớp đồng luân tự do “đủ tốt” chứa một trắc địa đóng duy nhất; độ dài của nó đo “độ chặt” của vòng.
+Cố định mặt hyperbolic $$X$$ giống $$g\ge 2$$. Gọi $$N_X(L)$$ là số trắc địa đơn đóng độ dài $$\le L$$. (Có vô hạn trắc địa đóng nếu cho phép tự cắt; tính đơn làm đếm hữu hạn với mỗi $$L$$ và cứng hình học hơn.)
 
-**Bài toán đếm.** Cho mặt hyperbolic $$X$$, có bao nhiêu trắc địa đơn đóng độ dài $$\le L$$ khi $$L\to\infty$$?
+Mirzakhani chứng minh asymptotic dạng
 
-Mirzakhani chứng minh tiệm cận chính xác: số lượng tăng như đa thức theo $$L$$ với bậc phụ thuộc tôpô, và hệ số liên quan thể tích / đo trên không gian moduli liên quan. Đếm **trên một mặt cố định** kết nối với **hình học toàn cục của moduli**.
+$$
+N_X(L)\sim c_X\, L^{6g-6}\qquad(L\to\infty),
+$$
+
+với số mũ $$6g-6$$ đúng bằng chiều thực Teichmüller/moduli, và hằng số $$c_X$$ biểu diễn qua dữ liệu hình học của $$X$$. Đếm tinh hơn phân biệt loại tôpô đường cong (tách / không tách, pants decomposition cố định, …).
+
+Phương pháp không phải “vẽ mặt và liệt kê đường.” Nó tích phân độ đo hình học trên moduli, dùng cấu trúc đệ quy mặt cắt dọc đường cong đơn (pants), và khai thác quan hệ hàm độ dài với hình học symplectic Weil–Petersson.
+
+**Moral seminar.** Bài đếm trên *một* mặt được giải bằng cách hiểu độ đo trên *không gian mọi mặt*. Bước nhảy object → moduli là phong cách Mirzakhani.
 
 Khẩu hiệu:
 
 $$
 \text{đếm đường cong trên }X
 \;\longleftrightarrow\;
-\text{tích phân / thể tích trên không gian moduli}.
+\text{tích phân / thể tích trên moduli}.
 $$
 
-Đó là bước nhảy triết lý: bài toán “một mặt” trở thành bài toán “cả họ mặt”.
+---
+
+## 4. Thể tích Weil–Petersson của không gian moduli
+
+Dạng symplectic **Weil–Petersson** (WP) trang bị cho moduli (và Teichmüller) phần tử thể tích tự nhiên từ hình học hyperbolic / giải tích phức. Gọi $$V_{g,n}(L_1,\ldots,L_n)$$ là thể tích WP của moduli mặt giống $$g$$ với $$n$$ thành phần biên trắc địa độ dài cho trước $$L_i$$.
+
+Mirzakhani thiết lập **công thức đệ quy** cho các thể tích này, nối $$V_{g,n}$$ với thể tích mặt đơn giản hơn sau khi cắt dọc đường cong đơn. Đệ quy đủ tường minh để tính nhiều $$(g,n)$$ và chứng minh tính đa thức theo biến độ dài. Thể tích bước vào định lý đếm vì tích phân “có bao nhiêu đường cong độ dài $$\le L$$” theo độ đo trên moduli dual với “tập mặt nhận đường cong ngắn loại cho trước lớn cỡ nào.”
+
+Sơ đồ triết lý (không phải định lý đầy đủ):
+
+$$
+\text{đếm đường cong trên }X\text{ điển hình}
+\quad\longleftrightarrow\quad
+\text{hình học thể tích WP trên }\mathcal{M}_g.
+$$
+
+Liên hệ vật lý / mặt ngẫu nhiên: thể tích WP xuất hiện trong gravity 2D và matrix model; đệ quy Mirzakhani làm sắc phía toán của dictionary đó. Cho seminar: thể tích không trang trí—chúng là **động cơ tích phân** của đếm.
 
 ---
 

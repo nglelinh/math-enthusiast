@@ -49,89 +49,116 @@ $$
 \end{aligned}
 $$
 
-với độ nhớt $$\nu>0$$ và lực ngoài tùy chọn $$f$$. Hạng phi tuyến $$(u\cdot\nabla)u$$ **vận chuyển** động lượng theo dòng; hạng nhớt $$\nu\Delta u$$ **làm trơn**; áp suất $$-\nabla p$$ **ép** ràng buộc không nén $$\nabla\cdot u=0$$ (chất lỏng không “nén cục bộ” trong mô hình này).
+với độ nhớt $$\nu>0$$ và lực ngoài tùy chọn $$f$$. Trên $$\mathbb{R}^3$$ hoặc xuyến $$\mathbb{T}^3$$, thường cho dữ liệu ban đầu trơn, divergence-free, năng lượng hữu hạn.
 
-Trên $$\mathbb{R}^3$$ hoặc xuyến (torus), với dữ liệu ban đầu trơn, không nén, suy giảm/tăng trưởng hợp lý, người ta hỏi liệu nghiệm trơn duy nhất có tồn tại cho mọi thời gian dương hay không.
+**Hạng từng cái:**
 
-**Đọc vật lý ngắn.** Số Reynolds lớn tương ứng nhớt tương đối nhỏ: quán tính và vận chuyển thắng khuếch tán—chế độ rối, nhiều thang không gian-thời gian. Clay không hỏi “rối trông như thế nào trên máy,” mà hỏi liệu mô hình continuum có thể tự tạo singularity toán học.
+- $$\partial_t u$$ — gia tốc cục bộ của vận tốc.  
+- $$(u\cdot\nabla)u$$ — **advection phi tuyến**: chất lỏng mang động lượng theo streamline—nguồn toán học của nhiều khó khăn.  
+- $$\nu\Delta u$$ — **khuếch tán nhớt**: nhớt làm trơn gradient vận tốc; $$\nu$$ lớn → “dính” hơn (mật ong vs nước, ẩn dụ thô).  
+- $$-\nabla p$$ — gradient áp suất; áp suất điều chỉnh tức thì để giữ ràng buộc.  
+- $$\nabla\cdot u=0$$ — **không nén**: dòng bảo toàn thể tích (mật độ hằng trong mô hình đơn giản).  
+- $$f$$ — lực khối (trọng lực, khuấy, …), thường =0 trong bài toán Clay thuần.
+
+Áp suất không phải trường tự do độc lập như $$u$$: lấy divergence phương trình động lượng, $$p$$ được khôi phục (sai hằng số) qua phương trình kiểu Poisson. Không nén là ràng buộc; áp suất là nhân tử Lagrange giữ nó.
+
+**Đọc vật lý ngắn.** Số Reynolds lớn ≈ nhớt tương đối nhỏ: quán tính/vận chuyển thắng khuếch tán—chế độ rối, nhiều thang. Clay không hỏi “rối trông như thế nào trên máy,” mà hỏi liệu mô hình continuum có thể tự tạo singularity toán học.
+
+**Năng lượng.** Nhân trong phương trình động lượng với $$u$$ và tích phân (biên/suy giảm phù hợp) cho **bất đẳng thức năng lượng**: động năng $$E(t)=\frac12\int|u|^2\,dx$$ bị kiểm soát bởi dữ liệu ban đầu và công của lực, trong khi nhớt tiêu tán đại lượng kiểu enstrophy. Kiểm soát năng lượng đủ để xây nghiệm yếu—và **không** đủ, một mình, để ngăn tập trung gradient trong 3D.
 
 ---
 
 ## 2. Bài toán Thiên niên kỷ hỏi gì
 
-Đại ý (xem mô tả chính thức của Fefferman / Clay cho wording và không gian hàm chính xác):
+Đại ý (xem Fefferman / Clay cho wording và không gian hàm chính xác) trên $$\mathbb{R}^3$$ (hoặc torus):
 
 Chứng minh một trong hai hướng:
 
-- **Chính quy toàn cục:** dữ liệu trơn năng lượng hữu hạn cho nghiệm trơn mọi $$t>0$$, với kiểm soát tăng trưởng phù hợp; hoặc  
-- **Blow-up:** tồn tại dữ liệu trơn sao cho nghiệm không thể tiếp tục trơn sau một thời gian hữu hạn.
+- **Chính quy toàn cục:** dữ liệu trơn, divergence-free, năng lượng hữu hạn (và lực phù hợp) cho nghiệm trơn duy nhất $$u,p$$ mọi $$t>0$$, không blow-up hữu hạn thời gian của các chuẩn tự nhiên; hoặc  
+- **Blow-up:** tồn tại dữ liệu trơn năng lượng hữu hạn sao cho nghiệm trơn không tiếp tục sau thời gian hữu hạn $$T_*$$—một chuẩn vận tốc hoặc vorticity unbounded khi $$t\to T_*^-$$.
 
-Các vấn đề mở liên quan gồm duy nhất của nghiệm yếu và bản chất có thể có của singularity (tập kỳ dị “mỏng” cỡ nào, đại lượng nào thổi phồng).
+Liên quan: **duy nhất** nghiệm yếu Leray–Hopf; bản chất hình học tập kỳ dị khả dĩ. Giải thưởng cho định lý continuum PDE, không cho thí nghiệm số “trông kỳ dị” trên lưới.
 
-**Tình trạng khoảng 2026:** **mở**. Một trong sáu bài Thiên niên kỷ chưa giải. Poincaré là bài Thiên niên kỷ duy nhất đã giải (Perelman).
+**Tình trạng (2026):** **mở**. Một trong sáu bài Thiên niên kỷ chưa giải. Poincaré là bài duy nhất đã giải (Perelman).
 
-Nhấn mạnh: “mở” ở đây là **định lý tồn tại/chính quy continuum**, không phải “chưa ai mô phỏng được nước.”
-
----
-
-## 3. Điều *đã* biết
-
-Lý thuyết không trống rỗng—đó là điểm quan trọng cho tóm tắt A3:
-
-- **Hai chiều (2D):** chính quy toàn cục là cổ điển. Vorticity bị kiểm soát tốt hơn vì không có cơ chế **vortex stretching** theo cùng cách 3D.
-- **3D thời gian ngắn:** dữ liệu trơn cho nghiệm trơn duy nhất trên một khoảng thời gian dương phụ thuộc dữ liệu. Vấn đề là *kéo dài đến vô hạn* hay *gặp singularity*.
-- **Leray (1934):** tồn tại nghiệm **yếu** toàn cục trong 3D thỏa bất đẳng thức năng lượng—nhưng **duy nhất** và **chính quy đầy đủ** vẫn mở. Nghiệm yếu “tồn tại theo nghĩa tích phân / phân bố,” không tự động là trường trơn cổ điển.
-- **Tiêu chí chính quy:** nếu một số chuẩn giữ hữu hạn—ví dụ tiêu chí **Beale–Kato–Majda** trên tích phân vorticity—thì nghiệm vẫn trơn. Khẩu hiệu: singularity, nếu có, phải “nhìn thấy” ở đại lượng xoáy/gradient đủ mạnh.
-- **Dữ liệu nhỏ / mild solutions:** chính quy toàn cục khi dữ liệu ban đầu nhỏ trong không gian hàm thích hợp (nhớt thắng phi tuyến).
-- **Partial regularity:** các lược đồ kiểm soát kích thước tập kỳ dị cho nghiệm yếu “phù hợp” (Caffarelli–Kohn–Nirenberg và công trình sau)—singularity không thể “quá dày” nếu xảy ra.
-
-Vậy ta có bản đồ phong phú về *khi nào* nghiệm trơn và *singularity phải trông như thế nào*—nhưng thiếu định lý đóng cho mọi dữ liệu trơn 3D.
+“Mở” = **định lý tồn tại/chính quy continuum**, không phải “chưa ai mô phỏng được nước.”
 
 ---
 
-## 4. Vì sao khó
+## 3. Điều *đã* biết: thời gian ngắn, 2D, nghiệm yếu
 
-Kẻ thù trung tâm là **hạng phi tuyến trong 3D**, có thể tập trung năng lượng vào thang nhỏ qua **vortex stretching**. Ước lượng năng lượng kiểm soát chuẩn $$L^2$$ (và họ hàng) nhưng không tự động kiểm soát mọi đạo hàm cao. Singularity khả dĩ sẽ liên quan vorticity hoặc gradient vận tốc vô hạn—liệu mô hình continuum của “thiên nhiên lý tưởng” có cho phép điều đó là câu hỏi toán học.
+**Tồn tại thời gian ngắn.** Dữ liệu trơn divergence-free cho nghiệm trơn duy nhất trên $$[0,T)$$ với $$T$$ phụ thuộc cỡ dữ liệu (Sobolev/Hölder phù hợp). Câu hỏi: $$T=\infty$$ luôn, hay $$T$$ hữu hạn với một số dữ liệu?
 
-**Numerics** cho thấy rối dữ dội nhưng **không** cấu thành chứng minh blow-up của PDE continuum: rời rạc hóa, dưới-độ-phân-giải, điều kiện biên, và giới hạn mô hình can thiệp. Một mô phỏng “nổ” có thể là artifact lưới. Ngược lại, mô phỏng êm cũng không chứng minh chính quy mọi dữ liệu.
+**Hai chiều.** Chính quy toàn cục 2D là cổ điển. Lý do cấu trúc: **vortex stretching** vắng hoặc dễ kiểm soát hơn. Vorticity $$\omega=\nabla\times u$$ thỏa transport-diffusion không có hạng stretching đầy đủ $$(\omega\cdot\nabla)u$$ của 3D. “NS 2D chưa giải” là sai; độ khó Millennium là **ba chiều**.
 
-So với [Collatz]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/): ở đó kiểm máy hữu hạn không kết thúc phát biểu vô hạn; ở đây kiểm số trên PDE rời rạc không kết thúc phát biểu continuum. Cùng đạo đức **evidence ≠ proof**, khác đối tượng.
+**Leray (1934).** Jean Leray dựng nghiệm **yếu** toàn cục 3D: trường thỏa phương trình theo nghĩa phân bố, bất đẳng thức năng lượng, khớp dữ liệu ban đầu trong topology phù hợp. Tồn tại không phải phần trống. Còn mở: nghiệm yếu có trơn với dữ liệu trơn không; có duy nhất không; mọi nghiệm yếu có cổ điển khi dữ liệu đẹp không.
 
----
-
-## 5. Quan hệ lý thuyết động học và công trình Deng
-
-Công trình được cộng đồng ghi nhận của **Yu Deng** xây cầu chặt từ **hệ hạt** tới **Boltzmann** tới **phương trình chất lưu** trong một số chế độ. Điều đó hỗ trợ *suy dẫn* mô hình continuum—vì sao PDE chất lưu xuất hiện như giới hạn—**không** tự chứng minh chính quy Navier–Stokes 3D theo nghĩa phát biểu Millennium.
-
-Dùng essay Deng để hiểu **vì sao phương trình chất lưu tồn tại như giới hạn**; dùng bài này để hiểu **liệu những PDE continuum đó có giữ trơn**. Hai câu hỏi xếp tầng: derivation ≠ regularity.
-
-Xem [Yu Deng]({{ site.baseurl }}/contents/vi/chapter02/02_12_Deng_PDE/).
+Cảnh quan: “tồn tại yếu toàn cục đã biết; well-posedness trơn toàn cục thì chưa.”
 
 ---
 
-## 6. Kỹ thuật so với Millennium
+## 4. Vì sao chính quy 3D khó
 
-| Thực tiễn kỹ thuật | Bài toán Clay |
-|--------------------|---------------|
-| Mô phỏng DNS / LES / RANS | Lý thuyết trơn toàn cục cho NS lý tưởng |
+Kẻ thù là **hạng phi tuyến** cùng **vortex stretching** 3D. Ước lượng năng lượng kiểm soát $$L^2$$ của vận tốc nhưng không tự đóng ước lượng đạo hàm cao. Cascade năng lượng xuống thang nhỏ—bóng toán của turbulence—có thể, trong kịch bản continuum xấu nhất, đẩy gradient ra vô hạn trong thời gian hữu hạn.
+
+Hai slogan đối nghịch:
+
+- Nhớt *làm trơn*, nên singularity có lẽ không thể.  
+- Phi tuyến *tập trung*, nên nhớt có thể thua với một số dữ liệu.
+
+Không slogan nào là chứng minh. Numerics rối dữ dội nhưng rời rạc hóa / dưới-độ-phân-giải / mô hình đóng nghĩa “nổ trên máy” ≠ chứng minh Clay—và mô phỏng êm ≠ định lý chính quy toàn cục.
+
+So [Collatz]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/): kiểm hữu hạn không kết thúc phát biểu vô hạn; ở đây kiểm số PDE rời rạc không kết thúc phát biểu continuum. **Evidence ≠ proof.**
+
+---
+
+## 5. Tiêu chí chính quy, dữ liệu nhỏ, partial regularity
+
+**Chính quy điều kiện.** Nếu một số chuẩn giữ hữu hạn trên $$[0,T]$$ thì nghiệm trơn đến $$T$$. Ví dụ nổi: **Beale–Kato–Majda**—tích phân thời gian của $$\|\omega(\cdot,t)\|_{L^\infty}$$ hữu hạn ngăn blow-up đến $$T$$. Nhiều biến thể (Prodi–Serrin; Escauriaza–Seregin–Šverák endpoint). Chúng rút Millennium về: *chứng minh các chuẩn đó không nổ*—hoặc *dựng dữ liệu làm chúng nổ*.
+
+**Dữ liệu nhỏ.** Dữ liệu đủ nhỏ trong không gian tới hạn phù hợp ⇒ nghiệm trơn toàn cục. Dữ liệu lớn là chiến trường: phi tuyến có thể, về nguyên tắc, tập trung năng lượng vào thang nhỏ.
+
+**Partial regularity.** Với nghiệm yếu phù hợp, **Caffarelli–Kohn–Nirenberg** (trên Scheffer) cho thấy tập kỳ dị không–thời gian có **chiều Hausdorff parabolic** ≤1—singularity, nếu có, “nhỏ” theo nghĩa geometric measure. Đó là định lý chính quy sâu; **không** phải chính quy đầy đủ. Họ hàng free-boundary / minimal surface: kiểm soát cỡ tập xấu khi chưa chứng minh tập rỗng.
+
+**Mốc khác** (biết tên, không catalog đủ): Ladyzhenskaya, Prodi, Serrin; nghiệm mild Kato; convex integration / non-uniqueness cho nghiệm *yếu hơn* (văn hóa Onsager)—khu vực nhanh, đọc phổ thông cẩn thận.
+
+---
+
+## 6. Kinetic foundations, Hilbert thứ sáu, và Deng
+
+Câu hỏi thứ hai về chất lưu: không chỉ “PDE continuum có trơn?” mà “PDE continuum có đúng là giới hạn của hệ hạt?”—tinh thần **bài toán thứ sáu Hilbert** (từ cơ học nguyên tử qua thống kê tới continuum).
+
+Chương trình Fields-recognized của **Yu Deng** (cùng cộng sự, gồm Hani và Ma) xây cầu chặt từ hard-sphere tới Boltzmann và, trong chế độ phù hợp, tới phương trình chất lưu. Điều đó hỗ trợ *suy dẫn* mô hình continuum dưới giả thiết nêu. **Không** tự chứng minh chính quy NS 3D cho phát biểu Millennium continuum.
+
+Dùng [Deng]({{ site.baseurl }}/contents/vi/chapter02/02_12_Deng_PDE/) để hiểu **vì sao PDE chất lưu tồn tại như giới hạn**. Dùng *bài này* để hiểu **liệu PDE continuum đó có giữ trơn**. Derivation và regularity là chương kề, không cùng định lý.
+
+Văn hóa chính quy Abel-era của Caffarelli (free boundary, PDE phi tuyến) là cầu khác: partial regularity NS là họ hàng geometric measure—phân tích kiểm soát singularity mà không luôn xóa hết.
+
+---
+
+## 7. CFD kỹ thuật không phải bài Millennium (LO6)
+
+| Thực tiễn | Bài toán Clay |
+|-----------|---------------|
+| DNS / LES / RANS | Lý thuyết trơn toàn cục cho NS không nén lý tưởng |
 | Lưới, bước thời gian, mô hình rối | Định lý tồn tại / duy nhất / chính quy |
-| Chi phí số Reynolds | Ước lượng giải tích và blow-up khả dĩ |
-| So khớp thí nghiệm / thiết kế | Chứng minh trong không gian hàm chuẩn |
+| Chi phí Reynolds khi resolve eddy | Ước lượng giải tích và blow-up khả dĩ |
+| Validation thí nghiệm | Chứng minh trong không gian hàm |
 
-Cả hai quan tâm **cascade năng lượng đa thang**; chỉ một cái là bài Thiên niên kỷ. Khi viết A3, một đoạn tách bảng trên thường cứu bạn khỏi LO6.
+Cả hai quan tâm cascade đa thang. Chỉ một cái là Clay. “NS đã giải vì ANSYS chạy” fail LO6; “máy bay không được bay vì Clay mở” fail common sense và LO6 ngang nhau.
 
-**DNS** (Direct Numerical Simulation) cố gắng giải NS “trung thực” xuống thang nhớt—chi phí tăng nhanh với Reynolds. **LES/RANS** mô hình hóa thang nhỏ. Thành công kỹ thuật không trả lời Clay; thất bại tính toán cũng không.
+**DNS** cố gắng giải NS xuống thang nhớt—chi phí tăng nhanh với Reynolds. **LES/RANS** mô hình thang nhỏ. Thành công kỹ thuật không trả lời Clay.
 
 ---
 
-## 7. Văn hóa toán học quanh NS
+## 8. Văn hóa toán học quanh NS
 
-- **Tiêu chí chính quy** cho phép chứng minh “nếu singularity thì …” — dạng định lý điều kiện.
-- **Nghiệm yếu** cho phép tồn tại toàn cục với ít chính quy hơn—rồi hỏi nâng cấp.
-- **Dữ liệu nhỏ** cho thấy phi tuyến không phải lúc nào cũng thắng.
-- **Partial regularity** gợi ý singularity, nếu có, “hiếm” theo nghĩa độ đo.
+- **Tiêu chí chính quy:** “nếu singularity thì …” — định lý điều kiện.  
+- **Nghiệm yếu:** tồn tại toàn cục với ít chính quy—rồi hỏi nâng cấp.  
+- **Dữ liệu nhỏ:** phi tuyến không luôn thắng.  
+- **Partial regularity:** singularity, nếu có, “hiếm” theo độ đo.
 
-Đây là mẫu “toán học quanh bài toán mở” giống [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) hay [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/): câu hỏi gốc kháng cự, ngành thì đầy định lý.
+Mẫu “toán quanh bài mở” giống [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) hay [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/): câu hỏi gốc kháng cự, ngành đầy định lý.
 
 ---
 
