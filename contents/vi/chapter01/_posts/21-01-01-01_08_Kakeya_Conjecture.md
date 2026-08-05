@@ -32,13 +32,16 @@ Từ cú sốc đó, người ta hỏi sâu hơn về **hình dạng** và các 
 ## Mục tiêu học tập
 
 - Định nghĩa tập Kakeya (Besicovitch).
-- Tách measure zero và dimension $$n$$.
-- Phát biểu giả thuyết và bảng trạng thái.
-- Mô tả δ-tube ở mức khẩu hiệu.
-- Gán công **Wang–Zahl**; liên kết Ch.2 và Ch.7.
-- Không nhầm chuyển động kim với tập tĩnh.
+- Định nghĩa tập Kakeya (Besicovitch) trong $$\mathbb{R}^n$$.
+- Tách **measure zero** khỏi **chiều $$n$$** (Minkowski / Hausdorff).
+- Phát biểu giả thuyết và bảng trạng thái (2 / 3 / ≥4).
+- Mô tả hình ảnh **δ-tube** ở mức khẩu hiệu.
+- Gán công **Wang–Zahl** chung; liên kết essay Ch.2 và studio Ch.7.
+- Không nhầm **chuyển động kim liên tục** với tập Besicovitch tĩnh.
 
-**Liên kết seminar.** LO1. Cặp: Twin primes; Four Color; Exploration Kakeya.
+**Tiên quyết.** Không gian Euclid, diện tích/thể tích, chiều fractal mức slogan. Ghép Ch.2 Wang cho phát triển đầy đủ.
+
+**Liên kết seminar.** LO1 (bản đồ bài toán lớn). Cặp: Twin primes (cấu trúc trong tập thưa); Four Color (đã giải vs mở); Explorations — tập Kakeya nhỏ nhất.
 
 ---
 
@@ -60,7 +63,7 @@ Từ cú sốc đó, người ta hỏi sâu hơn về **hình dạng** và các 
 
 *Hình. Bước chồng lấn kiểu Perron tree (nguồn video).*
 
-**Tập Kakeya** hiện đại: chứa đoạn đơn vị **mọi** hướng (không bắt buộc là chuyển động liên tục của một kim).
+**Tập Kakeya** (cũng gọi **tập Besicovitch**) hiện đại trong $$\mathbb{R}^n$$: bất kỳ tập nào chứa đoạn đơn vị theo **mọi** hướng. Các đoạn **không** bắt buộc là vị trí liên tiếp của một chuyển động liên tục: với mỗi hướng, phải có *một* đoạn đơn vị hướng đó nằm trong tập.
 
 ![Hướng]({{ site.baseurl }}/img/chapter_img/kakeya_needle_directions.svg)
 
@@ -70,7 +73,11 @@ Từ cú sốc đó, người ta hỏi sâu hơn về **hình dạng** và các 
 
 *Hình. Nhiều đoạn đơn vị theo hướng khác nhau trong một vùng (nguồn video).*
 
-Phân biệt **chuyển động kim** vs **tập Besicovitch tĩnh**.
+**Phân biệt (quan trọng).**  
+- **Chuyển động kim:** quay liên tục một đoạn (tập kim Kakeya).  
+- **Tập Besicovitch:** tập tĩnh chứa mọi hướng cùng lúc.  
+
+Cả hai nuôi cùng chủ đề: độ dày theo hướng.
 
 ### Chuyển động liên tục: “squeegee” (Mathologer)
 
@@ -256,20 +263,23 @@ Phác thảo: $$\mathcal{H}^{\delta_k}_s(A)\le N_k\delta_k^s$$; nếu $$s$$ lớ
 
 ## 3. Giả thuyết
 
-**Giả thuyết.** Mọi tập Kakeya trong $$\mathbb{R}^n$$ có $$\dim_H=\dim_M=n$$.
+**Giả thuyết (tập Kakeya).** Mọi tập Kakeya $$K\subset\mathbb{R}^n$$ thỏa $$\dim_H(K)=\dim_M(K)=n$$.
 
 | $$n$$ | Trạng thái |
 |-------|------------|
-| 1 | Tầm thường |
-| 2 | Davies 1971 |
-| 3 | **Wang–Zahl 2025** |
-| $$\ge 4$$ | Mở |
+| 1 | Tầm thường (tập chứa đoạn đơn vị đã là 1 chiều) |
+| 2 | Chứng minh (Davies, 1971) |
+| 3 | Chứng minh (**Wang–Zahl**, 2025) |
+| $$\ge 4$$ | Mở (có chặn dưới từng phần) |
 
-Nguồn: [arXiv:2502.17655](https://arxiv.org/abs/2502.17655). Không khẳng định thể tích dương.
+**Định lý (Wang–Zahl, 2025).** Mọi tập Kakeya trong $$\mathbb{R}^3$$ có chiều Hausdorff và Minkowski bằng 3.  
+Nguồn: [arXiv:2502.17655](https://arxiv.org/abs/2502.17655) (*Volume estimates for unions of convex sets…*).
+
+Họ **không** khẳng định thể tích dương. Measure zero vẫn tương thích với dimension 3—đó là điểm sư phạm cốt lõi của cả trang.
 
 ![Wang–Zahl 2025]({{ site.baseurl }}/img/chapter_img/kakeya_wang_zahl_2025_pmt.jpg)
 
-*Hình. Thẻ video: $$\dim_H=\dim_M=3$$ trong $$\mathbb{R}^3$$ (nguồn video; nguồn sơ cấp là arXiv).*
+*Hình. Thẻ video phổ thông: $$\dim_H(K)=\dim_M(K)=3$$ trong $$\mathbb{R}^3$$ (nguồn Pham Manh Tuyen; nguồn sơ cấp là arXiv).*
 
 ---
 
@@ -346,9 +356,12 @@ Nếu Kakeya sai ở một chiều, nhiều tầng trên sụp theo. Nếu phư�
 
 | Vị trí | Vai trò |
 |--------|---------|
-| Ch.1 (trang này) | Bản đồ bài toán |
-| Ch.2 Wang | Bài giảng đầy đủ |
-| Ch.7 Exploration | Thử nghiệm “nhỏ thế nào?” |
+| **Ch.1 (trang này)** | Bản đồ bài toán: phát biểu, trạng thái, vì sao khó, liên kết |
+| **Ch.2 essay Wang** | Bài giảng đầy đủ: lịch sử, tube, phác chiến lược, portfolio, bài tập |
+| **Ch.7 Exploration Kakeya** | Prompt thực hành: vẽ, code, định nghĩa lại “nhỏ” |
+| **Ch.2 survey (tổ hợp)** | Họ hàng hình học incidence |
+
+Gợi ý thứ tự đọc: bản đồ này → flagship Wang → studio exploration.
 
 ---
 

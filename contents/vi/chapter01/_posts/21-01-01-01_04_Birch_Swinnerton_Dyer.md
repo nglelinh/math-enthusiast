@@ -108,34 +108,40 @@ Khó ở đây không phải “thiếu ví dụ số.” Khó là **đẳng th�
 
 BSD **chưa** được chứng minh đầy đủ. Nhưng “mở” không có nghĩa “trống”:
 
-- **Kiểm tra số** rộng trên bảng đường cong (Cremona, LMFDB): hạng quan sát khớp bậc triệt tiêu quan sát trong phạm vi tính được; công thức tinh chỉnh được thử trên nhiều ví dụ.
-- **Coates–Wiles** và các kết quả liên quan cho một số đường cong **CM** / bối cảnh hạng 0: khi $$L(E,1)\ne 0$$, trong các lớp đó người ta kiểm soát được điểm hữu tỷ theo hướng BSD.
-- **Công thức Gross–Zagier** nối điểm **Heegner** với $$L'(E,1)$$; **Kolyvagin** dùng **hệ Euler** kiểm soát nhóm Selmer—cho BSD với nhiều đường cong hạng 0 và 1.
-- Tiến bộ về **hạng trung bình** và tỷ lệ đường cong hạng 0/1 (Bhargava và cộng sự; Skinner–Urban; Zhang và người khác—các phát biểu sắc nét tiến hóa; trích survey khi viết A3).
+- **Kiểm tra số.** Bảng Cremona và LMFDB ghi hạng, torsion, và giá trị đặc biệt của $$L$$. Với số lượng khổng lồ đường cong, hạng giải tích và đại số khớp, và công thức tinh chỉnh khớp đến độ chính xác cao khi Sha được kiểm soát. Bằng chứng mạnh—không phải chứng minh phổ quát.  
+- **Coates–Wiles.** Với một số đường cong **complex multiplication (CM)**, Coates–Wiles và công trình liên quan chứng minh kết quả kiểu BSD ở bối cảnh hạng 0: triệt tiêu $$L(E,1)$$ liên hệ với không có điểm cấp vô hạn trong các case được phủ.  
+- **Gross–Zagier và điểm Heegner.** Gross–Zagier nối $$L'(E,1)$$ với chiều cao Néron–Tate của **điểm Heegner** từ trường quadratic ảo. Khi $$L(E,1)=0$$ nhưng $$L'(E,1)\ne 0$$, ta thu được điểm hữu tỷ cấp vô hạn.  
+- **Hệ Euler Kolyvagin.** Hệ Euler dựng từ điểm Heegner kiểm soát nhóm Selmer và cho BSD với nhiều đường cong hạng giải tích 0 và 1: dưới giả thiết của phương pháp, hạng đại số bằng hạng giải tích và Sha hữu hạn đúng cấp dự đoán khi hạng giải tích ≤1.  
 
-**Tình trạng khoảng 2026:** vẫn **mở** trong toàn bộ tổng quát; một trong sáu bài Thiên niên kỷ chưa giải. Poincaré là bài Thiên niên kỷ duy nhất đã giải (Perelman).
+Cùng nhau, Gross–Zagier + Kolyvagin cho lý thuyết **hạng ≤1** đáng kể. Hạng giải tích cao hơn khó hơn nhiều.
 
-Khi bạn đọc “BSD đã biết cho hạng $$\le 1$$ trong nhiều trường hợp,” hãy hiểu: đó là **lớp lớn quan trọng**, không phải mọi đường cong mọi hạng.
+- **Trung bình.** Bhargava, Shankar và cộng sự về hạng trung bình (và Selmer trung bình), cùng Skinner–Urban, Zhang, … định hình “hạng điển hình”: hầu hết đường cong được kỳ vọng hạng 0 hoặc 1, với khi BSD hạng cao cá thể vẫn mở.
+
+**Tình trạng (2026).** BSD vẫn **mở** ở dạng tổng quát—một trong sáu bài Thiên niên kỷ chưa giải (chỉ Poincaré đã giải, Perelman).
+
+Khi đọc “BSD đã biết cho hạng ≤1 trong nhiều trường hợp,” hãy hiểu: **lớp lớn quan trọng**, không phải mọi đường cong mọi hạng.
 
 ---
 
 ## 6. Triết lý chị em: giá trị đặc biệt mã hóa số học
 
-BSD là nguyên mẫu của một mạng lưới rộng hơn:
+BSD nằm trong mạng với **công thức số lớp**, giả thuyết **Bloch–Kato**, và văn hóa “hàm $$L$$ biết số học.” [RH]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) là mặt phân bố nguyên tố; BSD là mặt đường cong elliptic. Nếu RH hỏi *không điểm nằm đâu*, BSD hỏi *zero trung tâm sâu cỡ nào*—và độ sâu đó nghĩa gì cho điểm hữu tỷ.
 
-- công thức số lớp (class number formulas),
-- giả thuyết Bloch–Kato,
-- giá trị đặc biệt của hàm $$L$$ motivic.
-
-Zeta Riemann mã hóa nguyên tố; BSD nói hàm $$L$$ của elliptic mã hóa điểm hữu tỷ. Cùng nhạc, khác nhạc cụ. Trong seminar, bạn có thể dùng BSD để *mở rộng* bài Riemann: không chỉ “không điểm nằm đâu,” mà “bậc triệt tiêu và hệ số dẫn đạo nói gì về số học.”
+Zeta Riemann mã hóa nguyên tố; $$L$$ elliptic mã hóa điểm hữu tỷ. Cùng nhạc, khác nhạc cụ. Seminar có thể *mở rộng* bài Riemann: không chỉ “zero ở đâu,” mà “bậc triệt tiêu và hệ số dẫn đạo nói gì.”
 
 ---
 
-## 7. Mật mã đường cong elliptic không cần BSD
+## 7. Mật mã đường cong elliptic không cần BSD (LO6)
 
-**ECC** (Elliptic Curve Cryptography) dùng nhóm điểm trên trường hữu hạn $$\mathbb{F}_q$$, nơi bài log rời rạc elliptic được tin là cứng. Đó là số học **hữu hạn**, kỹ thuật khóa và chữ ký—không phải hạng Mordell–Weil trên $$\mathbb{Q}$$.
+**ECC** dùng $$E(\mathbb{F}_q)$$ trên **trường hữu hạn**, không chủ yếu $$E(\mathbb{Q})$$. An ninh dựa trên độ khó log rời rạc trong nhóm chọn kỹ. Người triển khai cần đường cong nonsingular, nhóm con cấp nguyên tố lớn, kháng tấn công—không cần chứng minh hạng đại số = hạng giải tích trên $$\mathbb{Q}$$.
 
-Bạn có thể dùng ECC mỗi ngày mà không giải BSD. Ngược lại, BSD là câu hỏi thuần túy sâu về $$E/\mathbb{Q}$$. Đừng viết trong A3 rằng “BSD quan trọng vì Bitcoin”—hãy nói đúng: cùng *đối tượng hình học* (đường cong elliptic), khác *câu hỏi số học*. Xem [bài mật mã]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/).
+| Thực tiễn (ECC) | BSD Thiên niên kỷ |
+|-----------------|-------------------|
+| Luật nhóm trên trường hữu hạn | Hạng $$E(\mathbb{Q})$$ vs $$\operatorname{ord}_{s=1}L(E,s)$$ |
+| Độ khó discrete log | Đẳng thức giải tích–đại số và công thức tinh chỉnh |
+| Tiêu chí chọn đường cong | Sha, regulator, số Tamagawa |
+
+**Dùng** elliptic curves và **giải** BSD là hai trò chơi khác. Ch.3 phát triển ECC; bài này chỉ khăng định ranh giới LO6. Đừng viết A3 “BSD quan trọng vì Bitcoin”—hãy nói: cùng *đối tượng hình học*, khác *câu hỏi số học*. Xem [mật mã]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/).
 
 ---
 
@@ -154,14 +160,14 @@ Bạn có thể dùng ECC mỗi ngày mà không giải BSD. Ngược lại, BSD
 
 ## Bài tập
 
-1. Với $$y^2=x^3-2$$, tìm ít nhất một điểm hữu tỷ (nếu được) và giải thích “hạng $$\ge 1$$” nghĩa là gì.  
-2. Phát biểu lại Mordell–Weil **không** dùng ký hiệu đẳng cấu: nhóm điểm hữu tỷ sinh bởi hữu hạn điểm.  
-3. $$\operatorname{ord}_{s=1}L(E,s)=0$$ dự đoán gì về điểm cấp vô hạn?  
-4. **LO1 (≤350 từ):** phát biểu BSD, vì sao khó, toán xung quanh (modularity, Heegner/Kolyvagin hoặc phân bố hạng).  
-5. Một câu nối BSD với tư duy zero/bậc của $$L$$ kiểu [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/).  
-6. **LO6:** sửa câu “Wiles chứng minh BSD khi ông chứng minh Fermat.”  
-7. LMFDB (hoặc bảng Cremona): chọn một đường cong, ghi hạng và dữ liệu $$L$$ được liệt kê; một câu về khớp BSD quan sát.  
-8. Stretch: phân biệt trong một đoạn “tính $$L(E,1)$$ số” và “chứng minh $$\operatorname{ord}=r$$ cho mọi $$E$$.”
+1. Với $$y^2=x^3-2$$, kiểm $$(3,5)$$ là điểm hữu tỷ. Một câu: “hạng ít nhất 1” nghĩa gì nếu $$(3,5)$$ cấp vô hạn.  
+2. Phát biểu Mordell–Weil bằng lời không ký hiệu, rồi viết lại $$E(\mathbb{Q})\cong\mathbb{Z}^r\oplus E(\mathbb{Q})_{\mathrm{tors}}$$.  
+3. $$\operatorname{ord}_{s=1}L(E,s)=0$$ dự đoán gì về điểm cấp vô hạn theo BSD?  
+4. Vì sao $$\Delta\neq 0$$ quan trọng cho câu chuyện luật nhóm?  
+5. **LO1 (≤350 từ):** phát biểu BSD (phần hạng), vì sao khó, hai công cụ xung quanh (modularity; Heegner / Kolyvagin).  
+6. **Ranh giới LO6.** Ba câu tách “elliptic curves trong crypto” khỏi “BSD như bài Thiên niên kỷ.”  
+7. Một câu nối BSD với tư duy zero/bậc $$L$$ kiểu [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/).  
+8. Stretch: mở LMFDB hoặc bảng Cremona, chọn một đường cong, ghi hạng, torsion, và $$L(E,1)$$ zero hay khác zero.
 
 ---
 
