@@ -20,3 +20,9 @@
 - Geometric ≠ arithmetic Langlands (same dual-group spirit, different categories of objects).
 - Ngô Fundamental Lemma is endoscopy for number fields / trace formula—not the same theorem as geometric correspondence.
 - “Physics proves Langlands” overclaim.
+
+## Mode C extract (2026-08-05)
+
+- Kapustin `oJRD3PshFjY`: Maxwell EM duality seed; Wilson vs magnetic defects.
+- Gukov `bCpVL6flCxo`: motivation (NT + geometry + rep theory) then physics S-duality approach.
+- Frenkel `8Pkw25J-Bg0`: orientation backup (captions extracted).
