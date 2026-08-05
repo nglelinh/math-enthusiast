@@ -130,20 +130,41 @@ liệt kê mọi số trong $$(0,1)$$ dưới dạng thập phân vô hạn. G�
 
 *Hình. Lật chữ số đường chéo; số mới thoát mọi hàng.*
 
-### Vệ sinh kỹ thuật
+### Vệ sinh kỹ thuật (chứng minh bóng loáng theo dõi gì)
 
-- Thập phân không duy nhất: $$0.1999\ldots=0.2000\ldots$$. Chứng minh cẩn thận hạn chế khai triển cho phép, hoặc dùng quy tắc chữ số tránh biểu diễn kép.  
-- Ý tưởng đường chéo sư phạm vẫn đúng; khóa học đầy đủ vá biểu diễn mà không đổi chiến lược thoát.
+- **Thập phân không duy nhất.** Đồng nhất kiểu $$0.1999\ldots=0.2000\ldots$$ nghĩa là khác chữ số không luôn khác số thực. Chứng minh cẩn thận hạn chế khai triển cho phép (ví dụ cấm đuôi 9 vô hạn), chọn quy tắc lật chữ số tránh biểu diễn kép, hoặc làm việc ở cơ số/mã hóa kiểm soát được mơ hồ.  
+- **Khai triển nhị phân** gặp vấn đề biểu diễn kép tương tự (đuôi 1).  
+- Đường chéo sư phạm vẫn nắm **ý tưởng**; khóa đầy đủ vá biểu diễn mà không đổi chiến lược thoát.
 
 ### Ý tưởng *là* gì
 
-- **Liệt kê-và-thoát.**  
-- **Bất đồng đường chéo.**  
-- **Khe cardinality:** $$\lvert\mathbb{R}\rvert > \lvert\mathbb{N}\rvert$$ theo nghĩa không có song ánh.
+- **Liệt kê-và-thoát:** trước mọi dãy “đầy đủ” đề xuất, dựng phần tử thiếu.  
+- **Bất đồng đường chéo:** tọa độ thứ $$n$$ của chứng nhân được chọn khác với đối tượng thứ $$n$$ trong danh sách.  
+- **Khe cardinality:** $$\lvert\mathbb{R}\rvert > \lvert\mathbb{N}\rvert$$ theo nghĩa **không có song ánh**.
 
-### Hậu duệ
+### Ý tưởng *không* là gì
 
-Bất toàn Gödel, không quyết định được Turing, nhiều lập luận đường chéo trong logic và CS—cùng động tác: *trước mọi liệt kê lời giải tổng thể, dựng phản ví dụ lật đường chéo.*
+- Không khẳng định “bạn không đếm được xa.” Không đếm được nghĩa là *không tồn tại song ánh với $$\mathbb{N}$$*, không phải con người hết kiên nhẫn.  
+- Không chứng minh continuum là “vô hạn kế tiếp sau đếm được.” Có cardinality trung gian hay không là **giả thuyết continuum**, độc lập với lý thuyết tập hợp chuẩn theo nghĩa kỹ thuật.  
+- Không đòi dựng $$d$$ bằng công thức “tự nhiên” độc lập danh sách; xây dựng *phụ thuộc danh sách đề xuất*—đúng là điểm mấu chốt.
+
+### Cartoon số nhỏ
+
+Giả sử ai đó chỉ liệt kê ba “số thực” trong $$(0,1)$$ để minh họa:
+
+$$
+\begin{align*}
+r_1 &= 0.31415\ldots,\\
+r_2 &= 0.27182\ldots,\\
+r_3 &= 0.16180\ldots.
+\end{align*}
+$$
+
+Chữ số đường chéo là $$3,7,1$$. Chọn $$e_1=4$$, $$e_2=4$$, $$e_3=4$$ cho $$d=0.444\ldots$$, khác mỗi hàng ở vị trí tương ứng. Trường hợp vô hạn: cùng động tác chạy mãi.
+
+### Hậu duệ của ý tưởng
+
+Mã hóa bất toàn Gödel, không quyết định được bài toán dừng của Turing, và nhiều lập luận đường chéo trong logic và CS chia sẻ động tác: *trước mọi liệt kê lời giải tổng thể giả định, dựng phản ví dụ lật đường chéo.* Khi thấy Euclid và Cantor cùng nhau, bạn bắt đầu nhận “xây dựng thoát” như một họ chứ không phải mẹo rời rạc.
 
 ---
 

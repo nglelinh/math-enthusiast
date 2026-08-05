@@ -23,14 +23,17 @@ Mục tiêu không phải xây dựng adic space từ đầu, mà hiểu **vấn
 
 Sau bài học, bạn có thể:
 
-- Nêu khó khăn mixed characteristic trong một đoạn mạch lạc.
-- Giải thích **tilting** như từ điển giữa thế giới mixed characteristic và characteristic $$p$$.
-- Kể ít nhất hai miền bài toán chịu ảnh hưởng phương pháp perfectoid.
-- Nhìn công trình Scholze như **viết lại nền**, không chỉ một định lý cô lập.
-- Phân biệt trọng tâm Fields 2018 (perfectoid / $$p$$-adic) với chương trình sau (condensed mathematics).
-- So sánh medal “nền tảng mới” với medal “giải một bài toán tối ưu cụ thể”.
+- Giải thích khó khăn **mixed characteristic** trong một đoạn mạch lạc (sợi generic char 0 ↔ sợi đặc trưng thặng dư char $$p$$).
+- Phát biểu slogan **tilting**: từ điển giữa một số đối tượng mixed characteristic và đối tượng characteristic $$p$$ có Frobenius song ánh.
+- Mô tả vành/không gian **perfectoid** như lớp phân nhánh mạnh được thiết kế để tilting hoạt động (mục tiêu thiết kế > danh sách tiên đề đầy đủ).
+- Nêu ít nhất hai vùng ứng dụng (ví dụ kết quả kiểu weight-monodromy, đối đồng điều $$p$$-adic / period rings).
+- So sánh narrative medal Scholze với các giải “hạ tầng / nền tảng” (Langlands foundations, viết lại representation-theoretic) chứ không chỉ medal “một conjecture.”
+- Nhắc **condensed mathematics** (với Clausen) như tầng nền tảng sau—biết có, không master.
+- Luyện **LO6**: tách citation IMU và survey kỹ thuật khỏi slogan phổ thông “thiên tài trẻ viết lại toán.”
 
-**Kiến thức nền.** Vành, ideal, trường; ý tưởng scheme ở mức slogan. Định giá $$p$$-adic và phân nhánh được giới thiệu dần; chi tiết kỹ thuật tùy chọn.
+**Kiến thức nền.** Vành và trường; ý tưởng completion (số nguyên $$p$$-adic $$\mathbb{Z}_p$$ và trường $$\mathbb{Q}_p$$); Frobenius $$x\mapsto x^p$$ trên vành characteristic $$p$$. Scheme hữu ích nhưng không bắt buộc—nghĩ “không gian hình học dán từ spectrum của vành.”
+
+**Liên kết seminar.** **LO1** (chương trình sâu), **LO6** (phê hype medal). Láng giềng hình học số: [Langlands / Ngô]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/), [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/), [Wiles / Fermat]({{ site.baseurl }}/contents/vi/chapter08/08_03_Wiles_Fermat/), [mật mã / lý thuyết số]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/) (động lực $$p$$-adic, không claim perfectoid “ứng dụng crypto”). Song song nền tảng trọn đời: [Giải Abel là gì?]({{ site.baseurl }}/contents/vi/chapter08/08_02_Giai_Abel_la_gi/).
 
 ---
 
@@ -56,13 +59,17 @@ Nhiều định lý sâu muốn thông tin ở characteristic $$p$$ (nơi Froben
 
 ---
 
-## 2. Không gian perfectoid: lớp đối tượng “đủ phân nhánh”
+## 2. Perfectoid: Frobenius trở thành đẳng cấu (gần như)
 
-Scholze cô lập một lớp đại số và không gian—**perfectoid**—đặc trưng bởi mức phân nhánh rất mạnh và các điều kiện hoàn thiện / topo liên quan định giá. Trực giác thô: sau khi “lấy căn bậc $$p$$ vô hạn lần” theo hướng phù hợp, đối tượng trở nên đồng nhất hơn dưới Frobenius.
+Trong characteristic $$p$$, mọi vành $$R$$ có endomorphism Frobenius $$\varphi:R\to R$$, $$x\mapsto x^p$$. Nếu $$\varphi$$ là **đẳng cấu**, $$R$$ được gọi **perfect** (với vành reduced characteristic $$p$$, khớp khái niệm cổ điển). Vành perfect thường dễ hơn: có thể lấy căn bậc $$p$$ tự do, và một số lý thuyết đối đồng điều đơn giản hóa.
 
-**Không gian perfectoid** (trong khuôn khổ adic spaces / hình học Huber–Scholze) cho phép nói về “điểm”, “phủ”, và đối đồng điều trong thế giới $$p$$-adic hiện đại, vượt xa affine thô.
+Scholze cô lập các đại số **perfectoid**—vành tôpô complete phân nhánh mạnh (tôpô nonarchimedean chính xác) nhận ánh xạ “kiểu Frobenius” surjective với kernel được kiểm soát, sao cho sau xây dựng tilting ta rơi vào thế giới perfect. Định nghĩa đại số đầy đủ liên quan almost mathematics, period rings Fontaine, và completed perfections; fluency seminar cần **mục tiêu thiết kế** hơn danh sách tiên đề:
 
-Điểm then chốt sư phạm: perfectoid **không** thay thế mọi scheme. Chúng là lớp **mạnh và linh hoạt** nơi nhiều phép so sánh trở nên trong suốt—giống như “tọa độ tốt” cho một vùng khó của bản đồ.
+> Đối tượng perfectoid là những đối tượng mà căn bậc $$p$$ vô hạn tồn tại một cách nhất quán, khiến chúng “perfect đến mức mixed characteristic cho phép.”
+
+**Không gian perfectoid** là đối tượng hình học dán từ spectrum của đại số perfectoid theo phong cách adic spaces (khung Huber), không phải variety cổ điển trên một trường. Chúng đủ giàu để mang đối đồng điều và tác động Galois, nhưng đủ cứng cho tilting.
+
+Điểm sư phạm: perfectoid **không** thay thế mọi scheme. Chúng là lớp **mạnh và linh hoạt** nơi nhiều phép so sánh trở nên trong suốt—như “tọa độ tốt” cho vùng khó của bản đồ.
 
 ---
 

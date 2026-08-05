@@ -111,50 +111,65 @@ Nếu chỉ ra một **tập không tránh được** $$\mathcal{U}$$ các cấu
 
 ---
 
-## 5. “Hỗ trợ máy tính” nghĩa là gì ở đây
+## 5. Tinh giản, vẫn kiểm bằng máy
 
-**Không** phải Monte Carlo, không phải “máy đoán định lý,” không phải thống kê bản đồ ngẫu nhiên.
+Công trình sau cải thiện vệ sinh chứng minh mà không trở lại chứng minh tay ngắn. **Robertson, Sanders, Seymour và Thomas (1997)** cho lập luận đơn giản hơn với tập không tránh được nhỏ hơn nhiều và cấu trúc logic rõ hơn, vẫn dựa trên kiểm reducibility bằng máy. Các trình bày và kiểm độc lập khác theo sau. Formalization trong proof assistant (đặc biệt phát triển Coq của **Gonthier** cho 4CT) trả lời lo ngại khác: không chỉ “chương trình có chạy?” mà “mỗi case đã được formal hóa đúng và kernel tin cậy kiểm?”
 
-Mà là:
-
-- một **checklist tổ hợp hữu hạn** xuất phát từ phương pháp discharging do người thiết kế;  
-- mỗi case là bài toán mở rộng tô màu đồ thị hữu hạn;  
-- máy liệt kê và kiểm các case quá nhiều để tính tay tin cậy.
-
-Câu hỏi triết học vẫn phổ biến—và hữu ích trong seminar:
-
-- Chứng minh có **bắt buộc** surveyable bởi một tâm trí người không?  
-- Formal verification (Coq, Lean, …) đổi địa vị ra sao?  
-- Ta có hài lòng với *sự tồn tại* của kiểm hữu hạn so với *lý do khái niệm ngắn*?
-
-Về mặt toán học, 4CT được cộng đồng chấp nhận là đã chứng minh. Về mặt khái niệm, nó là cột mốc **công nghệ chứng minh**. So với [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/): ở đó máy tính là *đối tượng* của câu hỏi (thuật toán tồn tại?); ở 4CT máy tính là *công cụ kiểm* trong chứng minh hữu hạn.
+Trạng thái cộng đồng đã ổn: **4CT là định lý**. Phần còn sôi là phương pháp—thiết kế discharging, thu nhỏ danh sách case, formal hóa lập luận tổ hợp—không phải câu hỏi bốn màu có đủ cho bản đồ phẳng hay không.
 
 ---
 
-## 6. Vượt mặt phẳng: định lý tô màu Heawood
+## 6. “Hỗ trợ máy tính” nghĩa là gì ở đây
 
-Trên mặt giống $$g\ge 1$$, có thể cần nhiều màu hơn. **Số Heawood**
+Quan trọng là tách khỏi Monte Carlo hay “máy đoán định lý.”
+
+Trong truyền thống Appel–Haken / RSST:
+
+- một **checklist tổ hợp hữu hạn** xuất phát từ phương pháp discharging do **người** thiết kế;  
+- mỗi case là bài toán mở rộng tô màu / reducibility đồ thị hữu hạn;  
+- máy liệt kê và kiểm các case quá nhiều để tính tay tin cậy;  
+- logic tổng thể (vì sao danh sách không tránh được; vì sao reducibility cho mâu thuẫn) là lập luận toán học của người.
+
+Câu hỏi triết học vẫn phổ biến trong seminar:
+
+- Chứng minh có **bắt buộc** surveyable bởi một tâm trí người trong thời gian hợp lý không?  
+- Nếu proof assistant xác minh formalization, có khôi phục dạng surveyability ở mức kernel và văn bản formal không?  
+- Ta hài lòng với *sự tồn tại* của kiểm hữu hạn, hay vẫn tìm lý do khái niệm ngắn khiến 4CT “hiển nhiên” nhìn lại?
+
+Các nhà toán học trả lời khác nhau. Về mặt toán, 4CT được chấp nhận đã chứng minh. Về mặt khái niệm, nó là cột mốc **công nghệ chứng minh**—tiền thân của formal verification và case analysis lớn ở lĩnh vực khác. So với [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/): ở đó máy tính là *đối tượng* của câu hỏi; ở 4CT máy tính là *công cụ kiểm* trong chứng minh hữu hạn.
+
+---
+
+## 7. Vượt mặt phẳng: định lý tô màu Heawood
+
+Mặt phẳng đặc biệt. Trên mặt giống $$g\ge 1$$, có thể cần nhiều màu hơn. **Số Heawood**
 
 $$
 H(g)=\left\lfloor\frac{7+\sqrt{1+48g}}{2}\right\rfloor
 $$
 
-cho chặn (và, trong câu chuyện hoàn chỉnh, đúng số màu tối đa) cho đồ thị nhúng được trên mặt đó—với lưu ý lịch sử rằng $$g=0$$ (mặt cầu/phẳng) chỉ thu được 4 sau 4CT; chặn gốc của Heawood cho mặt phẳng là 5. Với **xuyến** ($$g=1$$), bảy màu là chặt.
+cho (trong câu chuyện cổ điển hoàn chỉnh) số chromatic tối đa cho đồ thị nhúng được trên mặt đó. Với **xuyến** ($$g=1$$), bảy màu là chặt: một số bản đồ torus cần bảy, và bảy luôn đủ. Trường hợp $$g=0$$ cắm vào công thức cho 4, nhưng lịch sử Heawood cho mặt phẳng là 5; bốn sắc nét đòi hỏi 4CT đầy đủ.
 
 ![Heawood]({{ site.baseurl }}/img/chapter_img/fourcolor_heawood.svg)
 
 *Hình. Nhu cầu màu tăng theo giống mặt.*
 
-Studio Ch.7 khuyến khích chơi với dual và công thức torus—nơi trực giác “bốn là đủ” **sai**.
+Tương phản sư phạm: **tính phẳng** là ràng buộc hình học mạnh kéo chặn màu xuống bốn, trong khi một “quai” (torus) nhảy chặn chặt lên bảy. Studio Ch.7 khuyến khích chơi dual, bản đồ nhỏ ép ba/bốn màu, và công thức Heawood trên mặt đồ chơi.
+
+**Vùng không liên thông.** Nếu một “quốc gia” có nhiều thành phần liên thông phải cùng màu, bài toán đổi: có thể dựng bản đồ cần tùy ý nhiều màu. 4CT chuẩn giả định vùng liên thông (hoặc xử lý thành phần cẩn thận). Luôn nêu mô hình khi tô màu.
 
 ---
 
-## 7. Vì sao 4CT quan trọng với toán học
+## 8. Vì sao 4CT quan trọng với toán học
 
-- Thúc đẩy **phương pháp discharging** và lý thuyết cấu trúc đồ thị phẳng.  
-- Động lực nghiên cứu sâu cấu trúc đồ thị phẳng (chương trình graph minors Robertson–Seymour là dãy núi khác, nhưng chia tinh thần “cấu trúc đồ thị lớn”).  
-- Buộc cộng đồng articulating chuẩn mực cho **toán học kiểm bằng máy**.  
-- Vẫn là tương phản sư phạm hoàn hảo với bài mở giải tích (RH, Kakeya chiều cao): ở đây câu trả lời “có,” tranh luận là về *hình thức chứng minh*.
+Ngoài việc đóng một conjecture nổi tiếng, 4CT:
+
+- thúc đẩy **phương pháp discharging** và tư duy cấu trúc về đồ thị phẳng;  
+- buộc cộng đồng articulating chuẩn mực cho **toán học kiểm bằng máy**;  
+- cung cấp phòng thí nghiệm trăm năm cho recoloring, reducibility, và tập không tránh được;  
+- vẫn là tương phản sư phạm hoàn hảo với bài **mở** giải tích và số học (RH, Kakeya chiều cao, Collatz).
+
+Nó cũng nằm gần graph minors, giả thuyết Hadwiger (vẫn mở), và câu hỏi rộng hơn về cấu trúc và số chromatic.
 
 ---
 

@@ -41,86 +41,150 @@ Sau bài học, bạn có thể:
 
 ## 1. Số học modulo: đại số phần dư
 
+Cố định số nguyên dương $$n$$ (**modulo**). Ta viết
+
 $$
-a\equiv b\pmod n
+a \equiv b \pmod{n}
 $$
 
-khi $$n$$ chia hết $$a-b$$. Cộng nhân đồng dư nhất quán. Khi $$n=p$$ nguyên tố, $$\mathbb{Z}/p\mathbb{Z}$$ là trường—mọi phần tử khác 0 có nghịch đảo.
+khi $$n$$ chia hết $$a-b$$—tương đương $$a$$ và $$b$$ cùng số dư khi chia cho $$n$$.
 
-**Lũy thừa nhanh** $$a^e\bmod n$$ bằng bình phương lặp $$O(\log e)$$. Tìm căn hoặc log rời rạc được tin là khó trong thiết lập chọn kỹ—quặng thô của mật mã khóa công khai.
+Làm việc **mod $$n$$** giống đồng hồ $$n$$ giờ: sau $$n-1$$ quay về $$0$$. Cộng và nhân đồng dư nhất quán:
 
-Fermat/Euler: nếu $$p\nmid a$$ thì $$a^{p-1}\equiv 1\pmod p$$. Tính đúng của RSA dựa trên triệt tiêu số mũ modulo—không dựa trên giấu thuật toán. **Euclid** tính $$\gcd$$ và nghịch đảo modulo: lý thuyết số thế kỷ XIX thành subroutine thế kỷ XXI.
+$$
+a\equiv a',\quad b\equiv b' \pmod{n} \implies a+b\equiv a'+b',\quad ab\equiv a'b' \pmod{n}.
+$$
+
+Vành $$\mathbb{Z}/n\mathbb{Z}$$ là ngôi nhà đại số của crypto textbook. Khi $$n=p$$ nguyên tố, mọi phần dư khác 0 có nghịch đảo nhân—$$\mathbb{Z}/p\mathbb{Z}$$ là **trường**—nên phép chia và đại số tuyến tính trên trường hữu hạn khả dụng (AES dùng số học trường hữu hạn; đường cong elliptic trên $$\mathbb{F}_p$$).
+
+**Lũy thừa nhanh.** Tính $$a^e\bmod n$$ với $$e$$ khổng lồ khả thi bằng **bình phương lặp** trong $$O(\log e)$$ phép nhân. Tính *căn bậc $$e$$* hoặc *log rời rạc* được tin là khó trong thiết lập chọn kỹ. Bất đối xứng đó—lũy thừa dễ, đảo khó—là quặng thô của mật mã khóa công khai.
+
+**Hương vị Fermat / Euler.** Nếu $$p$$ nguyên tố và $$p\nmid a$$ thì $$a^{p-1}\equiv 1\pmod p$$ (Fermat). Tổng quát hơn, định lý Euler dùng $$\varphi(n)$$—số phần dư nguyên tố cùng nhau với $$n$$. Tính đúng của RSA dựa trên triệt tiêu số mũ modulo kiểu đó—**không** dựa trên giấu thuật toán (thuật toán là công khai).
+
+**Thuật toán Euclid** tính $$\gcd$$ và nghịch đảo modulo trong thời gian log—lý thuyết số thế kỷ XIX thành subroutine thế kỷ XXI.
 
 ---
 
 ## 2. Đối xứng vs khóa công khai
 
-**Đối xứng** (AES, …): chung một bí mật; tuyệt cho dữ liệu khối; tệ cho “chưa từng gặp nhau mà muốn nói an toàn.”
+**Mật mã đối xứng:** Alice và Bob chia sẻ trước một khóa bí mật; mã hóa và giải mã dùng cùng bí mật (AES-GCM, ChaCha20-Poly1305, …). Tuyệt cho dữ liệu khối tốc độ đường truyền; tệ với câu hỏi khởi động: *làm sao bắt đầu nói chuyện an toàn nếu chưa từng gặp nhau và mạng đầy kẻ nghe lén?*
 
-**Khóa công khai** (DH 1976; RSA 1978; ECC sau đó): công khai một khóa, giữ bí mật một khóa. Bất kỳ ai mã hóa tới bạn; chỉ bạn giải. Chữ ký đảo trực giác: chỉ bạn ký; ai cũng kiểm.
+**Mật mã khóa công khai** (Diffie–Hellman 1976; RSA 1978; biến thể elliptic sau đó): mỗi bên công bố khóa **công khai** và giữ khóa **bí mật**. Ai cũng mã hóa tới bạn bằng khóa công khai; chỉ bạn giải được. Chữ ký số đảo trực giác: chỉ bạn ký; ai cũng kiểm bằng khóa công khai của bạn.
 
-**Hàm một chiều có cửa sập:** dễ tính, khó đảo không có cấu trúc bí mật, dễ đảo với cửa sập. **Kerckhoffs:** an ninh dựa trên bí mật khóa, không giấu thuật toán.
+Phép màu toán học là **hàm một chiều có cửa sập**: dễ tính, khó đảo khi không có cấu trúc bí mật, dễ đảo khi có cửa sập.
+
+**Nguyên lý Kerckhoffs.** An ninh dựa trên bí mật khóa, không dựa trên giấu thuật toán. Crypto hiện đại giả định thuật toán công khai và bị chuyên gia tấn công.
 
 ---
 
 ## 3. RSA: phân tích thừa số như cửa sập
 
-1. Chọn nguyên tố bí mật $$p,q$$; công bố $$n=pq$$.  
-2. $$\varphi(n)=(p-1)(q-1)$$ bí mật.  
-3. Chọn $$e$$ nguyên tố cùng nhau với $$\varphi(n)$$.  
-4. $$d$$ với $$ed\equiv 1\pmod{\varphi(n)}$$.  
-5. Mã: $$c\equiv m^e\pmod n$$; giải: $$m\equiv c^d\pmod n$$.
+**Thiết lập (RSA textbook đơn giản hóa).**
+
+1. Chọn nguyên tố bí mật lớn $$p,q$$; công bố $$n=pq$$ (không công bố $$p,q$$).  
+2. Tính $$\varphi(n)=(p-1)(q-1)$$ (bí mật).  
+3. Chọn số mũ công khai $$e$$ nguyên tố cùng nhau với $$\varphi(n)$$ (thực tế hay $$e=65537$$).  
+4. Tính $$d$$ bí mật với $$ed\equiv 1\pmod{\varphi(n)}$$ (nghịch đảo modulo).  
+5. Mã hóa đại diện tin $$m$$: $$c\equiv m^e\pmod n$$.  
+6. Giải: $$m\equiv c^d\pmod n$$.
 
 **Cơ chế một câu.**  
 *Mã hóa là lũy thừa modulo với số mũ công khai; giải mã cần số mũ nghịch đảo—dễ nếu biết $$\varphi(n)$$ (nên biết $$p,q$$), được tin là khó nếu chỉ biết $$n$$.*
 
-**Giả định (không chính thức).** Phân tích semiprime lớn bất khả thi ở cỡ khuyến nghị. **Padding** (OAEP, PSS) bắt buộc—RSA textbook thô không triển khai được. Vệ sinh tham số, side channel, RNG xấu đã phá RSA “đúng toán” ngoài đời.
+**Giả định độ khó (không chính thức).** Phân tích semiprime lớn bất khả thi ở cỡ khuyến nghị (hàng nghìn bit). Nếu phân tích thừa số dễ, cửa sập RSA sụp. Sắc thái: các reduction an ninh chỉ liên hệ đảo RSA với factoring từng phần; **padding** (OAEP, PSS) bắt buộc—RSA textbook thô dễ bị malleable, không triển khai được.
+
+**Lý thuyết số thuần đóng góp gì.** Euclid, nghịch đảo modulo, $$\varphi$$ Euler, sinh nguyên tố (kể cả kiểm tra nguyên tố xác suất), và độ phức tạp tính toán của factoring—lịch sử Gauss-to-Gentry nén vào bắt tay khóa.
+
+**Vệ sinh tham số.** $$e$$ nhỏ + padding xấu, chia sẻ nguyên tố giữa các moduli, RNG thiên vị, side channel—đều đã phá RSA “đúng toán” ngoài đời. Lý thuyết số cho cửa sập; kỹ thuật cho phần còn lại của bề mặt tấn công.
 
 ---
 
 ## 4. Diffie–Hellman và log rời rạc
 
-- Alice bí mật $$a$$, gửi $$A=g^a$$.  
-- Bob bí mật $$b$$, gửi $$B=g^b$$.  
-- Bí mật chung $$g^{ab}$$.
+Tham số công khai: một nhóm (cổ điển: nhóm nhân modulo nguyên tố, hoặc nhóm đường cong elliptic) và generator $$g$$ của một nhóm con lớn cấp nguyên tố.
 
-**DLP:** từ $$g,g^a$$ khôi phục $$a$$. Nếu DLP khó, kẻ nghe lén không tính được $$g^{ab}$$ chỉ từ bản công khai (dưới giả định CDH/DDH được phát biểu cẩn thận).
+- Alice chọn bí mật $$a$$, gửi $$A=g^a$$.  
+- Bob chọn bí mật $$b$$, gửi $$B=g^b$$.  
+- Bí mật chung: $$A^b=B^a=g^{ab}$$.
 
-**Cơ chế.** *Truyền công khai là lũy thừa nhóm; bí mật chung là tổ hợp song tuyến trong số mũ—chỉ bên biết ít nhất một số mũ thấy được.*
+**Bài toán log rời rạc (DLP):** cho $$g$$ và $$g^a$$, khôi phục $$a$$. Nếu DLP khó, kẻ nghe lén không nên tính được $$g^{ab}$$ chỉ từ các giá trị công khai (dưới giả định kiểu CDH/DDH, phát biểu cẩn thận).
+
+**Cơ chế.**  
+*Truyền công khai là lũy thừa nhóm; bí mật chung là tổ hợp song tuyến các bí mật trong số mũ—chỉ bên biết ít nhất một số mũ thấy được.*
+
+**DH trường hữu hạn** cần nguyên tố lớn và tham số an toàn chống index-calculus. Áp lực đó góp phần thúc đẩy elliptic curves.
 
 ---
 
 ## 5. Mật mã đường cong elliptic (ECC)
 
-Đường cong elliptic trên trường hữu hạn (dạng Weierstrass đơn giản $$y^2=x^3+Ax+B$$) mang cấu trúc **nhóm** điểm với phép dây–tiếp tuyến. Nhân vô hướng $$P\mapsto aP$$ dễ; đảo (ECDLP) được tin khó trên đường cong chọn tốt. Cùng mẫu DH, khóa nhỏ hơn cho an ninh cổ điển tương đương khuyến nghị. TLS điện thoại gần như chắc dùng ECDHE.
+Một **đường cong elliptic** trên trường (ở đây trường hữu hạn $$\mathbb{F}_q$$) có thể viết, dạng Weierstrass đơn giản, là
 
-**Cơ chế.** *ECC chuyển DH từ nhóm nhân của trường hữu hạn sang nhóm điểm trên đường cong—cùng hình cửa sập, mật độ an ninh theo bit cao hơn.*
+$$
+y^2 = x^3 + Ax + B
+$$
+
+với discriminant khác 0. Tập điểm cộng điểm vô cực tạo thành **nhóm** abelian dưới luật dây–tiếp tuyến hình học. Nhân vô hướng $$P\mapsto aP$$ (cộng $$P$$ với chính nó $$a$$ lần) dễ; đảo lại (log rời rạc elliptic) được tin khó trên đường cong chọn tốt.
+
+**Cùng mẫu giao thức DH**, khóa nhỏ hơn cho an ninh cổ điển tương đương khuyến nghị (ví dụ đường cong 256 bit so với modulus RSA 3072 bit—số cụ thể thay đổi theo hướng dẫn). Stack TLS điện thoại gần như chắc đàm phán ECDHE.
+
+**Cơ chế.**  
+*ECC chuyển Diffie–Hellman từ nhóm nhân của trường hữu hạn sang nhóm điểm trên đường cong chọn kỹ—cùng hình cửa sập, mật độ an ninh theo bit cao hơn.*
+
+Hình học số học sâu lặng lẽ bước vào an ninh hàng hóa—một chiến thắng chủ đề chương cho toán “thuần.”
 
 ---
 
-## 6. Chữ ký, chứng chỉ, mã hóa lai
+## 6. Chữ ký, chứng chỉ, và mã hóa lai
 
-Chữ ký (RSA-PSS, ECDSA, EdDSA, …); PKI gắn khóa với danh tính; **hybrid**: khóa công khai thiết lập khóa phiên đối xứng, rồi AES cho bulk; authenticated encryption chống sửa lặng. Lý thuyết số ở bắt tay; kỹ thuật–kinh tế–luật ở mô hình tin cậy. Cả hai có thể hỏng mà giả định độ khó vẫn “đúng.”
+Mã hóa khóa công khai một mình không dựng được web. Còn cần:
+
+- **Chữ ký** (RSA-PSS, ECDSA, EdDSA, …) để cập nhật phần mềm và tài liệu chứng minh nguồn gốc và toàn vẹn.  
+- **Chứng chỉ** (PKI / X.509) gắn khóa với danh tính qua cơ quan tin cậy hoặc mô hình tin cậy khác.  
+- **Mã hóa lai (hybrid):** dùng khóa công khai (hoặc KEM) thiết lập khóa phiên đối xứng, rồi AES (hoặc tương tự) cho bulk.  
+- **Authenticated encryption** để ciphertext không bị sửa lặng.
+
+Lý thuyết số ngồi ở bắt tay; kỹ thuật, kinh tế và luật ngồi ở mô hình tin cậy. Cả hai có thể hỏng—RNG xấu (thảm họa Debian OpenSSL), CA bị xâm nhập, tấn công hạ cấp giao thức—mà giả định độ khó nền vẫn chưa “sai.”
 
 ---
 
 ## 7. Văn hóa độ khó: mật mã gặp độ phức tạp
 
-Cần bài toán: dễ sinh instance, dễ giải với cửa sập, khó cho đối thủ trên instance **điển hình** (trung bình, không chỉ worst-case). Họ hàng nhưng không trùng [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/): NP-đầy đủ là worst-case; crypto muốn độ khó trung bình dùng được.
+Mật mã cần bài toán:
+
+1. Dễ sinh instance,  
+2. Dễ giải với cửa sập / bí mật,  
+3. Khó cho đối thủ trên instance **điển hình** (trung bình, không chỉ worst-case).
+
+Họ hàng nhưng không trùng **P vs NP**. NP-đầy đủ là về độ khó worst-case của bài quyết định; crypto muốn độ khó trung bình *dùng được* có cấu trúc (xem [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/)). Dù vậy cả hai cùng nằm trong văn hóa **bất khả thi tính toán như tài nguyên**.
+
+Hàm một chiều, bộ tạo giả ngẫu nhiên, và zero-knowledge tinh chỉnh văn hóa này xa hơn RSA—nhưng câu chuyện undergrad vẫn bắt đầu từ số học modulo.
 
 ---
 
 ## 8. Bóng lượng tử và mật mã hậu lượng tử
 
-**Shor** (lượng tử) phân tích thừa số và log rời rạc đa thức—đe dọa RSA/DH/ECC nếu máy lượng tử lớn tin cậy ra đời. **PQC** chuyển giả định sang bài không biết sụp vì Shor: **lưới** (LWE), **mã**, **chữ ký hash**, đa thức/isogeny (luôn bị cryptanalysis—một số isogeny đã đổ). Chuẩn hóa NIST (ML-KEM, ML-DSA, …) là mặt thể chế. Xem [Mật mã tương lai]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/).
+**Thuật toán Shor** (lượng tử) phân tích thừa số và tính log rời rạc đa thức—đe dọa RSA và DH/ECC cổ điển nếu máy lượng tử lớn, tin cậy ra đời. Grover cho tăng tốc bình phương tìm kiếm không cấu trúc, thúc kích cỡ khóa đối xứng nhưng không “phá” AES ở độ dài nhân đôi theo cách Shor phá RSA.
 
-**Cơ chế chuyển.** *Khóa công khai cổ điển khai thác one-way số học trên nhóm nhân và elliptic; PQC khai thác độ khó lưới cao chiều—vẫn toán thuần nuôi hạ tầng.*
+**Mật mã hậu lượng tử (PQC)** chuyển giả định độ khó sang các bài chưa biết sụp vì Shor, đặc biệt:
+
+- **Lưới** (Learning With Errors và họ hàng)—hình học số như crypto,  
+- **Mã** (kiểu McEliece),  
+- **Chữ ký dựa hash** (thận trọng, stateful hoặc SPHINCS-like stateless),  
+- Ý tưởng đa thức và isogeny—luôn dưới cryptanalysis (một số hệ isogeny đã đổ).
+
+Quá trình chuẩn hóa NIST PQC (Kyber/ML-KEM, Dilithium/ML-DSA, … với tên và tham số tiến hóa) là mặt thể chế của chuyển đổi này. Xem [Mật mã tương lai]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/).
+
+**Cơ chế chuyển.**  
+*Khóa công khai cổ điển khai thác one-way số học trên nhóm nhân và elliptic; PQC khai thác độ khó lưới cao chiều và cấu trúc liên quan—vẫn toán thuần nuôi hạ tầng.*
 
 ---
 
 ## 9. Vì sao lý thuyết số “sẵn sàng”
 
-Tính nguyên tố, nghịch đảo modulo, cấu trúc nhóm và ám ảnh số nguyên tố có trước thương mại điện tử. Khi cần cửa sập, hộp dụng cụ đã trên kệ. Di cư pure→applied không đòi đổi tên môn; đòi nhận ra **độ khó tính toán giả định** cũng quý như công thức đóng.
+Tính nguyên tố, nghịch đảo modulo, cấu trúc nhóm, và ám ảnh số nguyên tố có trước thương mại điện tử. Khi Diffie, Hellman, Rivest, Shamir và Adleman cần cửa sập, hộp dụng cụ đã trên kệ. Di cư pure→applied không đòi đổi tên môn; đòi nhận ra **độ khó tính toán giả định** cũng quý như công thức đóng.
+
+Giả thuyết Riemann ([Ch.1]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/)) vẫn là ngọn hải đăng thuần về nguyên tố; mật mã là cách dùng số học khác—nhưng cả hai chứng tỏ cấu trúc số nguyên không cạn.
 
 ---
 

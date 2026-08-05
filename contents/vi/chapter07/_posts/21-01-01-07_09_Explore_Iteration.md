@@ -133,32 +133,57 @@ Thất bại được tính. Bug off-by-one là sự kiện log, không sửa th
 
 ## 5. Thí nghiệm
 
-Làm **≥2** trong A–G; sinh viên cờ đầu nên nhắm 3.
+Làm **ít nhất hai** trong A–G; sinh viên cờ đầu (flagship) nên nhắm ba.
 
-### A — Quỹ đạo tay (20–40′)
-$$n=1..20$$; bảng bước đến 1. Giả thuyết trước: “lẻ luôn lâu hơn chẵn lân cận.”
+### Thí nghiệm A — Quỹ đạo tay (20–40 phút)
 
-### B — Plot stopping time (45–120′)
-$$N=200$$ rồi $$10^4$$–$$10^5$$; đánh dấu kỷ lục.
+Tính quỹ đạo $$n=1,2,\ldots,20$$ bằng tay hoặc chương trình nhỏ. Ghi số bước đến 1.
+
+**Giả thuyết trước khi tính:** “Số lẻ luôn mất nhiều bước hơn số chẵn lân cận.” Rồi kiểm.
+
+**Tiêu chí thành công:** bảng đầy đủ + phán quyết giả thuyết (sống / chết / không kết luận).
+
+### Thí nghiệm B — Plot stopping time (45–120 phút)
+
+Với $$n=1$$ đến $$N$$ (bắt đầu $$N=200$$, rồi $$10^4$$ hoặc $$10^5$$), vẽ tổng stopping time theo $$n$$. Đánh dấu kỷ lục.
 
 ![Phác stopping time]({{ site.baseurl }}/img/chapter_img/collatz_stopping_time.svg)
 
 *Hình. Cartoon stopping time không đều—hãy làm plot thật trong log.*
 
-### C — Mẫu modulo (40–90′)
-$$n\bmod 8$$ hoặc $$16$$; so TB stopping time / max. Cẩn correlation ≠ luật; bias nhiều modulo.
+**Tiêu chí thành công:** plot + top 5 $$n$$ kỷ lục trong phạm vi + caption tách quan sát khỏi “luật.”
 
-### D — Cây ngược (mở rộng, 60–120′)
-Số về 1 đúng $$k$$ bước, $$k\le K$$; đếm theo $$k$$; bất ngờ modulo.
+### Thí nghiệm C — Mẫu modulo (40–90 phút)
 
-### E — Literacy verification (30–45′)
-Nguồn tin cậy: Collatz kiểm đến đâu; 3 câu verification vs proof + RH.
+Điều kiện hóa theo $$n\bmod 8$$ hoặc $$n\bmod 16$$. So sánh stopping time trung bình và max trung bình.
 
-### F — Micro-model heuristic (45–90′)
-Cartoon: lẻ → $$3n+1$$ rồi chia 2 đến lẻ; ước log-change kỳ vọng; so order-of-magnitude với data; banner “không phải chứng minh”.
+**Cẩn trọng:** tương quan ≠ luật; modulo nhỏ dễ lừa; bias kiểm nhiều modulo (multiple testing).
 
-### G — Lặp thay thế (nếu đổi đề)
-Logistic $$r=4$$; Newton phức—chỉ với OK GV. Cùng chất lượng portfolio.
+**Tiêu chí thành công:** bảng trung bình theo phần dư + đoạn diễn giải hoài nghi.
+
+### Thí nghiệm D — Cây ngược (mở rộng, 60–120 phút)
+
+Dựng mọi số về 1 đúng $$k$$ bước với $$k\le K$$ (chọn $$K$$ khả thi). Vẽ số lượng theo $$k$$. Lớp modulo nào chiếm các tầng đầu?
+
+**Tiêu chí thành công:** mô tả thuật toán + bảng đếm + một bất ngờ.
+
+### Thí nghiệm E — Literacy verification (30–45 phút)
+
+Tìm nguồn tin cậy về Collatz đã được kiểm tính toán đến đâu. Trích dẫn. Viết ba câu verification vs proof, nối bài RH.
+
+**Tiêu chí thành công:** trích dẫn + suy ngẫm (không chỉ blog không rõ nguồn).
+
+### Thí nghiệm F — Micro-model heuristic (45–90 phút)
+
+Viết cartoon xác suất: số lẻ map sang $$3n+1$$ rồi chia 2 đến khi lẻ lại; ước thay đổi log kỳ vọng. So order-of-magnitude với trung bình thực nghiệm.
+
+**Tiêu chí thành công:** dẫn xuất cartoon + so sánh thực nghiệm + banner “không phải chứng minh.”
+
+### Thí nghiệm G — Lặp thay thế (nếu đổi đề)
+
+Logistic $$r=4$$: histogram iterate; demo phụ thuộc nhạy. Hoặc Newton trên $$z^2-1$$ phức (miền hút)—chỉ khi GV OK. Tái dùng cấu trúc đề xuất/log/báo cáo.
+
+**Tiêu chí thành công:** cùng chất lượng portfolio như Collatz.
 
 ---
 

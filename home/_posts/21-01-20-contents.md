@@ -158,6 +158,7 @@ Areas where mathematics is developing rapidly.
 - Network science and cryptography
 - Complexity theory and high-dimensional geometry
 - Optimal transport and mathematical physics
+- **Duality track:** duality as a principle; mirror symmetry; AdS/CFT; geometric Langlands & S-duality; Pontryagin/Fourier bridge; Witten physics→geometry
 
 ---
 
@@ -169,6 +170,7 @@ Open-ended investigations where there may be no immediate answer.
 - Predictability of primes and order from randomness
 - Visualizing a fourth dimension
 - Map coloring, infinity, and iterated dynamical rules
+- **Duality dictionary studio** (draw one dual pair; label theorem vs program)
 
 This section encourages you to **experiment, conjecture, visualize, and reason**.
 
