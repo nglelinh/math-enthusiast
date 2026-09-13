@@ -48,7 +48,7 @@ Themes include number theory, algebraic geometry, topology, differential geometr
 
 Examples:
 
-- The Langlands Program
+- The Langlands Program / Ngô’s Fundamental Lemma
 - Perelman’s work on the Poincaré Conjecture
 - Green–Tao theorem on arithmetic progressions
 - Mirzakhani’s work on geometry and moduli spaces
@@ -57,7 +57,8 @@ Examples:
 - Viazovska’s sphere-packing breakthrough
 - Maynard’s work on prime numbers
 - Birkar’s work in algebraic geometry
-- Recent developments in combinatorics and geometry
+- Dedicated portraits across older and recent medals (Avila, Bhargava, Deligne, Donaldson, Figalli, Hairer, Kontsevich, Lindenstrauss, Lions, McMullen, Mori, Okounkov, Smirnov, Villani, Werner, Zelmanov, Duminil-Copin, and others)
+- June Huh inside the combinatorics–geometry survey
 - 2026 Fields portraits (e.g. Wang, Deng)
 
 ---

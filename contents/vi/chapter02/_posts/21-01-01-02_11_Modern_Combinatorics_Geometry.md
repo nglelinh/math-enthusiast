@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tổ hợp và Hình học Hiện đại"
+title: "June Huh và Tổ hợp–Hình học Hiện đại (Huy chương Fields 2022)"
 chapter: '02'
 order: 15
 owner: Nguyen Le Linh
@@ -9,9 +9,9 @@ categories:
 - chapter02
 ---
 
-Bài khảo sát này gom các **chủ đề tổ hợp và hình học** xuyên nhiều câu chuyện Fields của Chương 2—không gắn một năm huy chương duy nhất. Đây là **bản đồ phương pháp** hơn là tiểu sử: cách các ý tưởng rời rạc (đồ thị, incidence, expansion, đa thức) giao thoa với hình học, giải tích và lý thuyết số để tạo toolkit chung của toán học thế kỷ XXI.
+Bài khảo sát này có hai việc. Thứ nhất, nó là **bản đồ phương pháp**: cách các ý tưởng rời rạc (đồ thị, incidence, expansion, đa thức) giao thoa với hình học, giải tích và lý thuyết số. Thứ hai, nó là chỗ Chương 2 đặt **June Huh** và **Huy chương Fields 2022**—citation đưa ngôn ngữ Hodge vào tổ hợp (log-concave cho matroid, Dowling–Wilson, Heron–Rota–Welsh, đa thức Lorentz, giả thuyết Mason mạnh)—mà không giả vờ cả dãy núi chỉ là một tiểu sử.
 
-Nếu các bài Maynard, Green–Tao, Viazovska, Wang trông như các đỉnh núi riêng, tổ hợp–hình học hiện đại là **dãy núi nối chúng**. Mục tiêu của bạn không phải học hết mọi định lý, mà nhận ra *cùng một họ câu hỏi*: cấu hình rời rạc tương tác thế nào với không gian liên tục, và chứng minh thuộc “thế giới nào” (tổ hợp, Fourier, đa thức, phổ).
+Nếu các bài Maynard, Green–Tao, Viazovska, Wang trông như các đỉnh núi riêng, tổ hợp–hình học hiện đại là **dãy núi nối chúng**. Công trình của Huh là đỉnh đại số–hình học trên cùng dãy: matroid bắt đầu như tiên đề độc lập rời rạc, rồi bỗng có “gói Hodge.” Mục tiêu của bạn không phải học hết mọi định lý, mà nhận ra *cùng một họ câu hỏi*: cấu hình rời rạc tương tác thế nào với không gian liên tục, và chứng minh thuộc “thế giới nào” (tổ hợp, Fourier, đa thức, phổ, positivity).
 
 ---
 
@@ -24,6 +24,7 @@ Sau bài học, bạn có thể:
 - Nhìn hình học incidence như họ hàng của restriction / [Kakeya–Wang]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/).
 - Giải thích khẩu hiệu **structure versus randomness** trong tổ hợp cộng tính.
 - Dùng trang này như **mục lục** sang chương Khám phá và các bài Fields lân cận.
+- Đặt **June Huh** (Fields 2022) trên bản đồ: positivity kiểu Hodge cho matroid, cùng Adiprasito, Katz, và các cộng sự đa thức Lorentz.
 - Đưa một ví dụ “phát biểu tổ hợp, chứng minh hình học” và ngược lại.
 
 **Kiến thức nền.** Đồ thị cơ bản; tập hợp và đếm; trực giác không gian Euclidean; Fourier ở mức “tần số”.
@@ -149,7 +150,15 @@ Expander là cách rời rạc hóa ý “cong âm” / “trộn nhanh”. Nhi�
 
 Đây là “cầu bất ngờ” đúng tinh thần Chương 2: công cụ tưởng thuộc silo khác giải bài toán ở silo này.
 
-### 5.3. Xếp cầu như cực trị hình học–giải tích
+### 5.3. June Huh: lý thuyết Hodge khi chưa có đa tạp (Fields 2022)
+
+**June Huh** nhận **Huy chương Fields 2022** vì đưa ý tưởng **Hodge** vào tổ hợp: giả thuyết **Dowling–Wilson** cho lattice hình học, **Heron–Rota–Welsh** cho matroid, lý thuyết **đa thức Lorentz**, và giả thuyết **Mason mạnh**. Đây không phải “mẹo đếm khéo.” Đây là chuyển *ngôn ngữ positivity*—hard Lefschetz, quan hệ Hodge–Riemann, dãy log-concave—từ đối đồng điều của đa tạp đại số sang đối tượng không nhất thiết đến từ hình học.
+
+Một **matroid** ghi lại tiên đề độc lập (ý độc lập tuyến tính, bỏ cụ thể không gian vector). Các bất biến số—nhất là hệ số đa thức đặc trưng—đã lâu được đoán là **log-concave**, như thể chúng là số giao của một lớp Kähler. **Adiprasito–Huh–Katz** chứng minh Heron–Rota–Welsh bằng cách xây “gói Hodge” tổ hợp trên vành Chow của matroid. Công trình sau (Huh với Brändén và những người khác) phát triển **đa thức Lorentz** như máy giải tích sinh log-concavity mà không luôn phải dựng một đa tạp trước.
+
+**Định lý sắp xếp lại điều gì.** Nhà tổ hợp không còn phải coi log-concavity của hệ số đặc trưng như phép màu từng trường hợp. Khẩu hiệu trở thành hợp pháp: *nếu đối tượng có bóng Hodge, những bất đẳng thức trông như hình học có thể là định lý*. Bài **không** phân loại mọi matroid, không chứng minh giả thuyết Hodge, và không thay phần còn lại của hub. Công lao là cộng tác: Adiprasito, Katz, Brändén, cùng truyền thống Rota–Welsh–Stanley–Mason ngồi cùng câu với Huh.
+
+### 5.4. Xếp cầu như cực trị hình học–giải tích
 
 [Viazovska]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/) tối ưu xếp cầu bằng Fourier và dạng modular—không phải tổ hợp thuần, nhưng cùng họ **cực trị hình học**. Bản đồ tổ hợp–hình học nên có nút “packing / energy minimization” cạnh incidence.
 
@@ -171,6 +180,7 @@ Với người học data / mạng: regularity là tổ tiên tư duy *community
 | Sàng / gaps nguyên tố | [Maynard]({{ site.baseurl }}/contents/vi/chapter02/02_09_Maynard_Primes/) |
 | Incidence / ống / Kakeya | [Wang]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/) |
 | Packing / Fourier cực trị | [Viazovska]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/) |
+| Hodge / matroid / log-concave | **June Huh (Fields 2022)** — mục 5.3 ở trên |
 | Dynamics trên moduli | [Mirzakhani]({{ site.baseurl }}/contents/vi/chapter02/02_05_Mirzakhani_Moduli/) (họ hàng “hình học đo được”) |
 | PDE / kinetic | [Deng]({{ site.baseurl }}/contents/vi/chapter02/02_12_Deng_PDE/) (thống kê từ tương tác nhiều thành phần—loại suy, không đồng nhất) |
 
@@ -199,6 +209,7 @@ Tránh học song song cả năm nhánh trong một tuần seminar.
 | “Expander chỉ là CS.” | Sai | Xây dựng số học và ứng dụng toán thuần sâu. |
 | “Polynomial method thay mọi thứ.” | Sai | Mạnh trên trường / với cấu trúc đại số; không phải búa vạn năng. |
 | “Hub này là danh sách định lý cần thuộc.” | Sai | Là bản đồ định hướng đọc. |
+| “Huh phân loại mọi matroid.” | Sai | Ông (cùng cộng sự) chứng minh các phát biểu positivity kiểu Hodge; phân loại không phải nội dung huy chương. |
 
 ---
 

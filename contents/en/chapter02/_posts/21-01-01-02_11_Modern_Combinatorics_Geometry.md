@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Modern Combinatorics and Geometry"
+title: "June Huh and Modern Combinatorics–Geometry (Fields Medal 2022)"
 chapter: '02'
 order: 15
 owner: Nguyen Le Linh
@@ -9,9 +9,9 @@ categories:
 - chapter02
 ---
 
-This closing survey of Chapter 2 gathers **combinatorial and geometric themes** that cross many Fields-era stories—without tying to a single medal year or a single biography. Think of it as a **method map**: a chart of bridges between discrete configurations (graphs, incidences, packings, expansions, sumsets) and continuous or algebraic geometry (Fourier analysis, spectral gaps, algebraic varieties over finite fields, curvature-free “positivity”).
+This survey of Chapter 2 has two jobs. First it is a **method map**: bridges between discrete configurations (graphs, incidences, packings, expansions, sumsets) and continuous or algebraic geometry (Fourier analysis, spectral gaps, algebraic varieties over finite fields, curvature-free “positivity”). Second it is the chapter’s home for **June Huh** and the **Fields Medal 2022** citation that imported Hodge-theoretic ideas into combinatorics—log-concavity for matroids, Dowling–Wilson for geometric lattices, Heron–Rota–Welsh, Lorentzian polynomials, and the strong Mason conjecture—without pretending the whole mountain range is a single biography.
 
-Fields narratives often look like isolated peaks. Combinatorial geometry is one of the **mountain ranges** connecting them: packing meets modular forms ([Viazovska]({{ site.baseurl }}/contents/en/chapter02/02_08_Viazovska_Sphere_Packing/)); primes meet additive structure ([Green–Tao]({{ site.baseurl }}/contents/en/chapter02/02_04_Green_Tao/), [Maynard]({{ site.baseurl }}/contents/en/chapter02/02_09_Maynard_Primes/)); directional geometry meets harmonic analysis ([Wang / Kakeya]({{ site.baseurl }}/contents/en/chapter02/02_15_Wang_Harmonic_Analysis/)); and classical topology meets graph theory in the four color theorem. The last decades produced a shared toolkit—regularity and density theorems, incidence bounds, spectral expansion, the polynomial method, high-dimensional expanders—each appearing in multiple award-level programs.
+Fields narratives often look like isolated peaks. Combinatorial geometry is one of the **mountain ranges** connecting them: packing meets modular forms ([Viazovska]({{ site.baseurl }}/contents/en/chapter02/02_08_Viazovska_Sphere_Packing/)); primes meet additive structure ([Green–Tao]({{ site.baseurl }}/contents/en/chapter02/02_04_Green_Tao/), [Maynard]({{ site.baseurl }}/contents/en/chapter02/02_09_Maynard_Primes/)); directional geometry meets harmonic analysis ([Wang / Kakeya]({{ site.baseurl }}/contents/en/chapter02/02_15_Wang_Harmonic_Analysis/)); and classical topology meets graph theory in the four color theorem. Huh’s work is the algebraic-geometric peak on the same range: a matroid begins as a discrete independence axiom, then suddenly has a “Hodge package.” The last decades produced a shared toolkit—regularity and density theorems, incidence bounds, spectral expansion, the polynomial method, high-dimensional expanders—each appearing in multiple award-level programs.
 
 ---
 
@@ -24,6 +24,7 @@ After this lecture you should be able to:
 - Describe **incidence geometry** (Szemerédi–Trotter) as a cousin of tube-overlap / Kakeya-type thinking.
 - Explain **spectral expansion** as a geometric invariant of a graph (or complex) in disguise.
 - State what the **polynomial method** buys in discrete geometry, at slogan level.
+- Locate **June Huh** (Fields 2022) on the map: Hodge-theoretic positivity for matroids, with Adiprasito, Katz, and later Lorentzian-polynomial collaborators.
 - Use this page as an **index** into other essays in the course, not as a substitute for them.
 
 **Prerequisites.** Graphs, elementary counting, vectors in the plane, and the idea of eigenvalues of a symmetric matrix. No prior additive combinatorics required.
@@ -103,7 +104,19 @@ The method is a cousin of classical algebraic geometry—but often over finite f
 
 ---
 
-## 5. Packing, coloring, and other geometric peaks on the map
+## 5. June Huh: Hodge theory without a variety (Fields 2022)
+
+**June Huh** received the **Fields Medal 2022** for, in the IMU’s words, bringing the ideas of **Hodge theory** to combinatorics: the **Dowling–Wilson** conjecture for geometric lattices, the **Heron–Rota–Welsh** conjecture for matroids, the theory of **Lorentzian polynomials**, and the **strong Mason** conjecture. This is not “a clever counting trick.” It is a transfer of *positivity language*—hard Lefschetz, Hodge–Riemann relations, log-concave sequences—from the cohomology of algebraic varieties to objects that need not come from geometry at all.
+
+A **matroid** records an independence axiom (the linear-algebra idea of independent sets, stripped of a particular vector space). Numerical invariants of a matroid—especially the coefficients of its characteristic polynomial—had long been conjectured to form **log-concave** sequences, as if they were intersection numbers of a Kähler class. **Adiprasito–Huh–Katz** proved the Heron–Rota–Welsh log-concavity conjecture by constructing a combinatorial “Hodge package” on the Chow ring of a matroid. Later work (Huh with Brändén and others) developed **Lorentzian polynomials** as an analytic engine that produces log-concavity without always building a variety first.
+
+**What the theorem rearranges.** Combinatorialists no longer have to treat log-concavity of characteristic coefficients as a case-by-case miracle. A slogan becomes legal: *if an object has a Hodge-theoretic shadow, inequalities that look geometric may be theorems*. What it does **not** do is classify all matroids, prove the Hodge conjecture, or replace the rest of this survey. Credit is collaborative: Adiprasito, Katz, Brändén, Wang, and a longer combinatorial tradition (Rota, Welsh, Stanley, Mason) sit in the same sentence as Huh.
+
+**Read this section as a portrait hook**, then return to the method map. Huh is why this page carries a Fields year in its title; the surrounding sections explain the mountain range his peak belongs to.
+
+---
+
+## 6. Packing, coloring, and other geometric peaks on the map
 
 Several Chapter 2 portraits sit on this combinatorial–geometric range:
 
@@ -113,6 +126,7 @@ Several Chapter 2 portraits sit on this combinatorial–geometric range:
 | [Green–Tao]({{ site.baseurl }}/contents/en/chapter02/02_04_Green_Tao/) | APs in sparse sets | Pseudorandomness, transference, ergodic ideas |
 | [Maynard primes]({{ site.baseurl }}/contents/en/chapter02/02_09_Maynard_Primes/) | Bounded gaps patterns | Multidimensional sieve weights |
 | [Wang / Kakeya]({{ site.baseurl }}/contents/en/chapter02/02_15_Wang_Harmonic_Analysis/) | Directional configurations | Restriction, decoupling, measure vs dimension |
+| **June Huh (Fields 2022)** | Characteristic polynomials of matroids; Mason-type counts | Hodge–Riemann / Lorentzian positivity |
 | Four color theorem | Planar graph coloring | Topology of the plane; computer-assisted proof culture |
 
 The **four color theorem**—every planar map is 4-colorable—is older than most Fields stories in this chapter, but it remains a pedagogical landmark: a discrete statement forced by planar geometry, with a proof history that reshaped standards of verification. Place it on the map as “topology constrains coloring,” parallel to how expansion constrains cuts and how incidences constrain alignments.
@@ -121,7 +135,7 @@ The **four color theorem**—every planar map is 4-colorable—is older than mos
 
 ---
 
-## 6. How to read this map (and how not to)
+## 7. How to read this map (and how not to)
 
 **Do** use this essay as:
 
@@ -149,6 +163,7 @@ Modern combinatorics is a **trading zone**. Analysts import extremal examples; c
 | “The polynomial method needs schemes.” | Many core applications use elementary vanishing and degree bounds over fields. |
 | “This survey replaces the packing / Kakeya lectures.” | It indexes them; it does not prove them. |
 | “Four color is unrelated to modern combinatorial geometry.” | It is a classical peak on the same map: topology constraining discrete structure. |
+| “Huh classified all matroids.” | He (with collaborators) proved Hodge-theoretic positivity statements; classification is not the medal. |
 
 ---
 
