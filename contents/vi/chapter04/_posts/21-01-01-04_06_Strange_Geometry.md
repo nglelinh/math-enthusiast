@@ -2,7 +2,7 @@
 layout: post
 title: "Đối tượng hình học lạ"
 chapter: '04'
-order: 6
+order: 7
 owner: Nguyen Le Linh
 lang: vi
 categories:

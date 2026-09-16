@@ -128,6 +128,7 @@ Mathematical ideas that became foundations for modern technology and science.
 
 Mathematics that is fascinating simply because of the ideas themselves.
 
+- **Six Math Essentials (after Terence Tao)** — course hub: numbers, algebra, geometry, probability, analysis, dynamics ([Big Think](https://www.youtube.com/watch?v=OOMx2BHHWtE))
 - Infinity, fractals, symmetry, chaos
 - Strange geometric objects, paradoxes, higher dimensions
 - Minimal surfaces, tilings, impossible shapes, emergence

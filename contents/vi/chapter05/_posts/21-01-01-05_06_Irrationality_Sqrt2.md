@@ -132,6 +132,8 @@ Với nguyên tố $$p$$ tổng quát, cùng lập luận cho $$\sqrt{p}$$ vô t
 - **Văn hóa chứng minh.** Chuẩn hóa (tối giản), bổ đề parity, descent là công cụ tái sử dụng.  
 - **Ý thức lịch sử.** Không thông ước buộc toán Hy Lạp vượt thước đo thuần hữu tỷ.
 
+Terence Tao, trong [cuộc trò chuyện Big Think](https://www.youtube.com/watch?v=OOMx2BHHWtE) cho *Six Math Essentials* sắp ra, đặt cú sốc ấy vào câu chuyện **mở rộng hệ thống số** dài hơn. Đếm gợi cộng và trừ; phép trừ phát minh số âm và số không để $$(A-B)+B=A$$ vẫn đúng khi $$B>A$$. Phép chia phát minh phân số. Rồi xuất hiện độ dài nằm giữa mọi phân số: $$\sqrt{2}$$ không thể là tỉ số, và từ Latin *irrational* ghi lại cảm giác vô lý. Về sau, căn bậc hai không chịu ở lại số thực sinh số phức, rồi số phức trở thành ngôn ngữ tự nhiên cho điện từ và cơ học lượng tử. Đạo lý không phải “thập phân kéo dài mãi.” Đạo lý là số mới thường được bịa để các luật đại số cũ khép lại—rồi hóa ra mô tả được thế giới. Hub: [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/).
+
 ---
 
 ## 9. Phác thảo chứng minh thứ hai (phân tích thừa số nhẹ)
@@ -220,7 +222,8 @@ Transcript caption và unit theo thời gian: `research/video-research/irrationa
 1. Truyền thống Hy Lạp về không thông ước (sử phụ).  
 2. Sách nhập môn chứng minh: chương phản chứng và số nguyên.  
 3. Hardy & Wright — *An Introduction to the Theory of Numbers*.  
-4. Khóa học: [Euclid vô hạn nguyên tố]({{ site.baseurl }}/contents/vi/chapter05/05_02_Euclid_Infinite_Primes/).
+4. Khóa học: [Euclid vô hạn nguyên tố]({{ site.baseurl }}/contents/vi/chapter05/05_02_Euclid_Infinite_Primes/); [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/) cho khung hệ thống số của Tao.
+5. Terence Tao — Big Think OOMx2BHHWtE: https://www.youtube.com/watch?v=OOMx2BHHWtE
 
 ---
 

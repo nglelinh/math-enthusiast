@@ -2,7 +2,7 @@
 layout: post
 title: "Strange Geometric Objects"
 chapter: '04'
-order: 6
+order: 7
 owner: Nguyen Le Linh
 lang: en
 categories:

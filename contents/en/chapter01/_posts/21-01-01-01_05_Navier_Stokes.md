@@ -168,6 +168,8 @@ Numberphile (Crawford), Caffarelli’s Clay Millennium lecture, and Tao’s Eins
 - **Tao lineage:** finite-time blow-up for *averaged* or *toy* 3D models highlights **supercriticality**—energy estimates sit at the wrong scaling to close a bootstrap for large smooth data. A blow-up theorem for a modified equation is **not** a Clay solution for true NS, and neither is a numerical “looks singular” experiment.
 - **Engineering coexistence:** DNS/LES/RANS and successful CFD live in a discretized, modeled world; Clay asks continuum theorems.
 
+The same Tao, in a later [Big Think conversation](https://www.youtube.com/watch?v=OOMx2BHHWtE) for *Six Math Essentials*, gives a lighter dynamics neighbor: Newton’s **two-body** problem is exactly solvable; the **three-body** problem is already a headache of simple rules and long-time surprise, after which honest forecasts blur into probability. Navier–Stokes is not “the three-body problem for water.” It is another place where the dynamics and analysis pillars still owe a global regularity theorem. Hub: [Six Math Essentials]({{ site.baseurl }}/contents/en/chapter04/04_01_Six_Math_Essentials/). [Chaos]({{ site.baseurl }}/contents/en/chapter04/04_05_Chaos/).
+
 **Status (as of 2026):** 3D incompressible global regularity / blow-up remains **open** (Millennium).
 
 ---
@@ -240,6 +242,7 @@ Full bibliography: `research/video-research/Navier_Stokes/references.md`.
 6. vcubingx: https://www.youtube.com/watch?v=Ra7aQlenTb8  
 7. Caffarelli Clay lecture: https://www.youtube.com/watch?v=ta6Q70y6YVU  
 8. Tao Einstein lecture: https://www.youtube.com/watch?v=DgmuGqeRTto  
+8b. Tao Big Think (six essentials; 2-body vs 3-body): https://www.youtube.com/watch?v=OOMx2BHHWtE  
 
 ### Course
 

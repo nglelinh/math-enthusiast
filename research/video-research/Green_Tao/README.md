@@ -44,3 +44,11 @@ Primes contain arbitrarily long arithmetic progressions (relative Szemerédi + p
 ## Secondary additions
 
 See `references.md` §F for extra videos/web found in the enrichment pass.
+
+## Six Essentials / Big Think (2026-09-16)
+
+Tao’s public six-pillar map and first-person compressed-sensing MRI story: https://www.youtube.com/watch?v=OOMx2BHHWtE  
+
+Course hub: `contents/{en,vi}/chapter04/_posts/21-01-01-04_01_Six_Math_Essentials.md`  
+Pack: `research/video-research/tao-six-essentials/`  
+Lesson vignette: Green–Tao EN/VI § compressed sensing (not a substitute for Candès–Tao–Donoho papers).

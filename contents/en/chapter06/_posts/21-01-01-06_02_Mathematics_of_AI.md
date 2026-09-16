@@ -25,6 +25,7 @@ After this lecture you should be able to:
 - Name at least four mathematical areas feeding ML (linear algebra, probability/statistics, optimization, high-dimensional geometry or approximation theory)—with one sentence each on *how*.
 - List three **open mathematical questions** about deep learning that are not product features.
 - Critique a popular AI claim using a precision-vs-hype restatement (theorem vs measurement vs speculation).
+- Paraphrase Tao’s Big Think cautions: successive **modes of science**, helicopter-vs-hike pedagogy, human **depth** versus model **breadth**, and **proof indigestion**—without treating them as theorems.
 
 **Prerequisites.** Vectors and matrices at a conceptual level; derivatives as local rates of change; basic probability language (expectation, sampling). No production ML engineering experience is required.
 
@@ -125,6 +126,16 @@ Formulations evolve; the list below is literacy, not a complete research agenda.
 6. **Foundation-model behavior.** In-context learning, long-context reasoning, and “emergence” claims mix measurement, definitional ambiguity, and marketing—separate carefully.
 
 A seminar-ready stance: **empirical regularity ≠ theorem ≠ product claim.**
+
+### Modes of science, helicopters, and proof indigestion (after Tao)
+
+Terence Tao, in a [Big Think conversation](https://www.youtube.com/watch?v=OOMx2BHHWtE) for the forthcoming *Six Math Essentials*, sketches science as a sequence of modes: theory and experiment first, then simulation, then big data, and now automated assistance. Each mode can run faster. That is not automatically the same as science *advancing* in the sense that human researchers still understand, teach, and want the results.
+
+His hiking metaphor is pedagogical, not a ban on tools. You hear there is a waterfall, you get a little lost, you notice another fall in the distance that a later hiker might reach. A helicopter can drop you on the original waterfall and fly you home. You have the photograph and none of the map. Efficiency toward a pre-stated goal can skip the side canyons—the accidental connections that become the next theory.
+
+On large language models he is deliberately unromantic: they are next-word engines trained at enormous scale, complementary to human **depth** because they have **breadth**. Point them at a thousand problems of mixed difficulty and they may solve a fraction that no single expert had time to match to an obscure 1970 paper. Point them at a problem where no standard method applies and they are still, in his picture, guessing. The professional task is to mesh that breadth with the slow, deep problems humans still choose on purpose.
+
+Proofs, in the same talk, have a life cycle: generate, verify, write so a human can see where the difficulty lived, accept as interesting, digest into textbooks. Tao’s worry is that generation and verification are accelerating while digestion is not. The community then faces **proof indigestion**—too many correct-looking solutions to triage, and a risk of optimizing the wrong scientific scoreboard. He still argues for curiosity-driven research and for outreach that shows the *process*, not only the gadget. None of this is a course endorsement of a product; it is a literacy frame. Hub: [Six Math Essentials]({{ site.baseurl }}/contents/en/chapter04/04_01_Six_Math_Essentials/).
 
 ---
 
@@ -287,6 +298,8 @@ Full URL bibliography from video research: `research/video-research/mathematics-
 ### Course
 
 - Research pack: `research/video-research/mathematics-of-ai/` (especially `references.md`, `learning_path.md`).
+- Terence Tao — Big Think OOMx2BHHWtE (science modes, helicopter/hike, proof indigestion): https://www.youtube.com/watch?v=OOMx2BHHWtE
+- Course hub: [Six Math Essentials]({{ site.baseurl }}/contents/en/chapter04/04_01_Six_Math_Essentials/).
 
 ## Further directions
 

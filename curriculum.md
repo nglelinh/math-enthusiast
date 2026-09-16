@@ -3,18 +3,18 @@
 ## Chapter 01 — Great Problems in Mathematics
 - Overview
 - Riemann Hypothesis (flagship) *(enriched with Quanta RH explainer 2026-08-03)*
-- P vs NP *(enriched with Quanta P vs NP video 2026-08-03)*; BSD; Navier–Stokes; Twin primes; Collatz
+- P vs NP *(enriched with Quanta P vs NP video 2026-08-03)*; BSD; Navier–Stokes *(2-body vs 3-body pointer)*; Twin primes; Collatz
 - Kakeya Conjecture *(path A → Ch.2 Wang → Ch.7 studio)*
 - Four Color Theorem *(path B → Ch.7 studio)*
 - Collatz *(video research pack: `research/video-research/collatz/`; Tao 2019 almost-all ≠ full solution)*
 
 ## Chapter 02 — Fields Medal & Modern Mathematics
 - Overview (ordered by medal year)
-- 2006: Perelman; Green–Tao
+- 2006: Perelman; Green–Tao *(enriched 2026-09-16: compressed-sensing vignette + Six Essentials hub/video)*
 - 2010: Ngô Bảo Châu (Fundamental Lemma)
 - 2014: Mirzakhani
 - 2018: Birkar; Scholze; Venkatesh
-- 2022: Maynard; Viazovska
+- 2022: Maynard; Viazovska *(enriched: Kepler → high-dim discrete packing → wireless codes, after Tao/Big Think)*
 - 2026: Deng; **Pardon** *(enriched with ICM 2026 log derived regularity reel)*; Tsimerman; Wang
 - Survey: Modern combinatorics & geometry
 
@@ -41,12 +41,17 @@
 ## Chapter 07 — Mathematical Explorations
 - Studios linked to Ch.1–2 theory (Kakeya, map colors, packing, primes, …)
 
+## Chapter 04 — Beautiful Mathematics
+- Overview; **Six Math Essentials (after Terence Tao)** hub (EN+VI, 2026-09-16) — Big Think OOMx2BHHWtE; six pillars with cross-links
+- Infinity *(enriched: infinite monkeys, almost-sure vs waiting time, doubling-bet caution)*; fractals; symmetry; chaos *(2-body vs 3-body)*; strange geometry; paradoxes; higher dimensions; minimal surfaces; tilings; impossible shapes; emergence
+- Pack: `research/video-research/tao-six-essentials/`
+
 ## Chapter 05 — Mathematics Through Famous Proofs
-- Overview; **Euclid+Cantor flagship**; Cantor diagonal; Gödel; Euler–Königsberg; √2; Four Color; FLT (Wiles); Poincaré (Perelman)
+- Overview; **Euclid+Cantor flagship**; Cantor diagonal; Gödel; Euler–Königsberg; √2 *(number-system extension story after Tao)*; Four Color; FLT (Wiles); Poincaré (Perelman)
 - Video research packs (2026-08-04): `euclid-infinite-primes`, `cantor-diagonal`, `godel-incompleteness`, `euler-konigsberg`, `irrationality-sqrt2`, `four-color-proof`, `fermat-last-theorem`, `poincare-proof` — EN+VI Video sources + extracted knowledge + full References
 
 ## Chapter 06 — Mathematics of the Future
-- Overview; **Mathematics of AI** flagship; Quantum information; Math biology; Network science; Future cryptography; Complexity; High-d geometry; Optimal transport; ML theory; Mathematical physics
+- Overview; **Mathematics of AI** flagship *(enriched: science modes, helicopter vs hike, depth/breadth, proof indigestion)*; Quantum information; Math biology; Network science; Future cryptography; Complexity; High-d geometry; Optimal transport; ML theory; Mathematical physics
 - Video research packs (2026-08-04): `mathematics-of-ai`, `quantum-information`, `mathematical-biology`, `network-science`, `future-cryptography`, `complexity-theory`, `high-dimensional-geometry`, `optimal-transport`, `ml-theory`, `mathematical-physics` — EN+VI enriched
 
 ## Video sources absorbed
@@ -70,6 +75,8 @@
 ## Video research packs (Ch.3–4 topics)
 
 Topic lesson enrichment packs live under `research/video-research/<slug>/` (README, references, analysis, learning_path) for all Ch.3 and Ch.4 non-overview lessons (2026-08-04).
+
+- **Tao six essentials (2026-09-16):** `research/video-research/tao-six-essentials/` — Big Think https://www.youtube.com/watch?v=OOMx2BHHWtE ; hub Ch.4 EN+VI.
 
 - Ch.08 Atiyah–Singer index theorem (Abel 2004) deep-dive + pack `atiyah-singer-index` (2026-08-04).
 - Ch.08 Serre Abel 2003 deep-dive + Mode-C into RH/Wang/Atiyah (2026-08-04).

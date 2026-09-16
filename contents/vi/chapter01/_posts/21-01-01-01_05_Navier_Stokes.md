@@ -160,6 +160,8 @@ Cả hai quan tâm cascade đa thang. Chỉ một cái là Clay. “NS đã gi�
 
 Mẫu “toán quanh bài mở” giống [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) hay [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/): câu hỏi gốc kháng cự, ngành đầy định lý.
 
+Cùng Tao ấy, trong [cuộc trò chuyện Big Think](https://www.youtube.com/watch?v=OOMx2BHHWtE) cho *Six Math Essentials*, cho một người hàng xóm động lực nhẹ hơn: bài **hai vật** của Newton giải được đúng; bài **ba vật** đã là nhức đầu của quy tắc đơn và bất ngờ dài hạn, sau đó dự báo trung thực nhoè sang xác suất. Navier–Stokes không phải “bài ba vật cho nước.” Đó là chỗ khác mà trụ động lực và trụ giải tích vẫn còn nợ một định lý chính quy toàn cục. Hub: [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/). [Hỗn độn]({{ site.baseurl }}/contents/vi/chapter04/04_05_Chaos/).
+
 ---
 
 ## Nhầm lẫn thường gặp
@@ -236,6 +238,7 @@ Thư mục URL: `research/video-research/Navier_Stokes/references.md`.
 5. vcubingx: https://www.youtube.com/watch?v=Ra7aQlenTb8  
 6. Caffarelli: https://www.youtube.com/watch?v=ta6Q70y6YVU  
 7. Tao: https://www.youtube.com/watch?v=DgmuGqeRTto  
+7b. Tao Big Think (sáu trụ; hai vật vs ba vật): https://www.youtube.com/watch?v=OOMx2BHHWtE  
 8. [Yu Deng]({{ site.baseurl }}/contents/vi/chapter02/02_12_Deng_PDE/). Gói: `research/video-research/Navier_Stokes/`.
 
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Minimal Surfaces"
 chapter: '04'
-order: 9
+order: 10
 owner: Nguyen Le Linh
 lang: en
 categories:

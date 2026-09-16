@@ -33,6 +33,7 @@ After this lecture you should be able to:
 - Describe the Cohn–Elkies bound as an optimization problem over radial functions.
 - Separate Viazovska’s solo $$E_8$$ theorem from the collaborative Leech theorem.
 - Avoid claiming that packing is solved in all dimensions.
+- Retell, in outline, the Kepler-cannonball → high-dimensional discrete packing → wireless-code pipeline from Tao’s Big Think conversation, without treating coding theory as Viazovska’s Fields citation.
 
 **Prerequisites.** Volumes of balls, lattices as discrete subgroups of $$\mathbb{R}^n$$, and the idea of the Fourier transform of a radial function (details optional).
 
@@ -68,6 +69,14 @@ Equivalently (for lattice packings), one studies the volume of a fundamental dom
 | generic $$n$$ | Mostly open; asymptotic bounds exist |
 
 Most dimensions remain unsolved exactly. Dimensions 8 and 24 are miracles of symmetry.
+
+### From cannonballs to bit-strings (after Tao)
+
+Terence Tao, in a [Big Think conversation](https://www.youtube.com/watch?v=OOMx2BHHWtE) for the forthcoming *Six Math Essentials*, retells the packing story as a curiosity-to-technology pipeline. A sailor wants the most cannonballs in a hold; wasted space around spheres is the cost. Kepler proposes the grocer’s hexagonal stacking—about 74% in three dimensions—and cannot prove it is best. That **Kepler conjecture** becomes a centuries-long geometry problem. The plane (discs) is settled around 1900; three dimensions wait for Hales’s computer-assisted proof (published 1998) and, later, a formal verification that removes the lingering referee doubt Tao recalls. Mathematicians then ask the “useless” questions: four dimensions? a *discrete* space of bit-strings?
+
+Once cell phones send digital signals, each message is a string of bits. You want distinct signals far apart in that high-dimensional cube so interference does not confuse one for another. Tao’s slogan is that this is still sphere packing—high-dimensional and discrete—and that packing mathematics supplies both constructions and **theoretical limits** on bits per second through a slice of spectrum (hence, in the economic layer, how one might price that spectrum). The wireless industry, in that telling, is in the business of packing oranges in very high dimensions.
+
+Two literacy guards. First, Viazovska’s Fields work is about **continuous** Euclidean packing in dimensions 8 and 24, not a theorem that she designed 5G. Second, the historical compression in a popular talk (dates, “British sailor,” exact efficiencies) should be checked against the dedicated packing literature when you need a citation. The course hub is [Six Math Essentials]({{ site.baseurl }}/contents/en/chapter04/04_01_Six_Math_Essentials/); the studio is [Explore sphere packing]({{ site.baseurl }}/contents/en/chapter07/07_03_Explore_Sphere_Packing/).
 
 ---
 
@@ -255,6 +264,7 @@ Full URL bibliography from video research (including secondary finds): `research
 11. https://www.math.inc/sphere-packing  
 12. https://en.wikipedia.org/wiki/E8_lattice  
 13. https://en.wikipedia.org/wiki/Leech_lattice  
+14. https://www.youtube.com/watch?v=OOMx2BHHWtE  
 
 ### Research pack
 

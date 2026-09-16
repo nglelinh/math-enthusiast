@@ -34,6 +34,12 @@ All URLs discovered or used during math-video-researcher discovery (2026-08-04).
 - `research/video-research/Green_Tao/`
 - `contents/en/chapter02/_posts/21-01-01-02_04_Green_Tao.md`
 - `contents/vi/chapter02/_posts/21-01-01-02_04_Green_Tao.md`
+- Hub: `contents/{en,vi}/chapter04/_posts/21-01-01-04_01_Six_Math_Essentials.md`
+- Pack: `research/video-research/tao-six-essentials/`
+
+| # | Role | Title | URL |
+|---|------|-------|-----|
+| V3 | PORTRAIT | Tao — Six essential concepts of math (Big Think; compressed sensing story) | https://www.youtube.com/watch?v=OOMx2BHHWtE |
 
 ---
 
@@ -50,6 +56,7 @@ https://arxiv.org/abs/1403.2957
 https://en.wikipedia.org/wiki/Green%E2%80%93Tao_theorem
 https://www.ias.edu/sites/default/files/video/zhao.pdf
 https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2006
+https://www.youtube.com/watch?v=OOMx2BHHWtE
 ```
 
 ## F. Secondary additions (2026-08-04 enrichment pass)
