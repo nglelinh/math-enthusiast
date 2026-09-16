@@ -12,7 +12,8 @@ categories:
 > **Lộ trình xếp cầu**  
 > **Đọc sâu:** [Viazovska Ch.2]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/)  
 > **Bạn đang ở đây:** Studio Ch.7 (thí nghiệm + log)  
-> *Tùy chọn:* kissing number, lattice vs nonlattice, kỳ lạ chiều cao.
+> *Tùy chọn:* kissing number, lattice vs nonlattice, kỳ lạ chiều cao.  
+> **Khung Tao / Big Think:** đạn đại bác → Kepler → xếp rời rạc cao chiều như mã vô tuyến — [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/) · [essay Viazovska]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/) · [video](https://www.youtube.com/watch?v=OOMx2BHHWtE).
 
 Studio hỏi câu mang vẻ vật lý: cách xếp các quả cầu bằng nhau không chồng lấn trong $$\mathbb{R}^n$$ dày đặc nhất là gì? Mặt phẳng có thể quyết bằng đồng xu. Ba chiều: giả thuyết Kepler chờ hàng thế kỷ. Chiều 8 và 24: modular forms và Fourier quyết định tối ưu. Hầu hết chiều vẫn mở.
 

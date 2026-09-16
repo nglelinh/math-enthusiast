@@ -138,6 +138,8 @@ For general prime $$p$$, the same argument shows $$\sqrt{p}$$ is irrational. For
 - **Proof culture.** Normalization (lowest terms), lemmas about parity, and descent are reusable tools.  
 - **Historical consciousness.** Incommensurability forced Greek mathematics beyond pure rational measure—an early lesson that intuition about “all magnitudes are ratios” can fail.
 
+Terence Tao, in a [Big Think conversation](https://www.youtube.com/watch?v=OOMx2BHHWtE) for the forthcoming *Six Math Essentials*, places that shock inside a longer **number-system extension** story. Counting suggests addition and subtraction; subtraction invents the negatives and zero so that $$(A-B)+B=A$$ still holds when $$B>A$$. Division invents fractions. Then lengths appear that sit between all the fractions: $$\sqrt{2}$$ cannot be a ratio, and the Latin *irrational* records how unreasonable that felt. Later, square roots that refuse to stay real produce the complex numbers, which become a natural language for electromagnetism and quantum mechanics. The moral is not “decimals go on forever.” It is that new numbers are often invented so the old algebraic laws close—and then turn out to describe the world. Hub: [Six Math Essentials]({{ site.baseurl }}/contents/en/chapter04/04_01_Six_Math_Essentials/).
+
 In a seminar on *ideas of proof*, $$\sqrt{2}$$ earns its place beside Euclid and Cantor not because the result is exotic, but because the skeleton is teachable and the mistakes are diagnostic. When a student forgets lowest terms, they reveal that they do not yet see where the contradiction lives. When they appeal to “the decimal never ends,” they reveal a confusion between representation and rationality. Correcting those errors is part of training mathematical taste.
 
 The same divisibility engine reappears in proving that $$\sqrt[3]{2}$$ is irrational, that certain Diophantine equations have no solutions, and—far downstream—in local-to-global principles where prime-by-prime constraints assemble into global impossibilities. Learning to hear “even square, hence even base” as a modular fact is small; learning to *look for* such transfer of divisibility is large.
@@ -230,7 +232,8 @@ Caption transcripts and time-chunk units for pack videos: `research/video-resear
 1. Classical Greek tradition on incommensurability (secondary historical sources).  
 2. Any introduction to proofs textbook: chapter on contradiction and integers.  
 3. Hardy & Wright — *An Introduction to the Theory of Numbers* (context for related irrationalities).  
-4. Course: [Euclid infinitude]({{ site.baseurl }}/contents/en/chapter05/05_02_Euclid_Infinite_Primes/) for another classical number-theory proof idea.
+4. Course: [Euclid infinitude]({{ site.baseurl }}/contents/en/chapter05/05_02_Euclid_Infinite_Primes/) for another classical number-theory proof idea; [Six Math Essentials]({{ site.baseurl }}/contents/en/chapter04/04_01_Six_Math_Essentials/) for Tao’s number-system framing.
+5. Terence Tao — Big Think OOMx2BHHWtE: https://www.youtube.com/watch?v=OOMx2BHHWtE
 
 ---
 

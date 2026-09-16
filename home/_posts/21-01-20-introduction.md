@@ -37,7 +37,7 @@ This site is both a **public map** of modern mathematics and the reading base fo
 - **Abel Prize mathematics** — lifetime contributions that reshaped probability, PDE, topology, dynamics, discrete math, and representation theory (no age limit; “Nobel-like” scale).
 - **Turing Award mathematics** — computational ideas honored by ACM’s highest award: complexity, algorithms, cryptography, learning, causality, and the theory of computation.
 - **Mathematics that changed the world** — calculus, linear algebra, probability, cryptography, networks, optimization, Fourier analysis, and differential equations as foundations of science and technology.
-- **Beautiful mathematics** — infinity, fractals, symmetry, chaos, higher dimensions, paradoxes, and other ideas that are rewarding for their own sake.
+- **Beautiful mathematics** — a [six-pillar map after Terence Tao]({{ site.baseurl }}/contents/en/chapter04/04_01_Six_Math_Essentials/), then infinity, fractals, symmetry, chaos, higher dimensions, paradoxes, and other ideas that are rewarding for their own sake.
 - **Famous proofs** — Euclid, Cantor, Gödel, Euler, Fermat’s Last Theorem, the Poincaré Conjecture, and more, with emphasis on the *idea* of the proof.
 - **Mathematics of the future** — AI, quantum information, networks, optimal transport, complexity, and mathematical physics.
 - **Open explorations** — investigations where you experiment, conjecture, and reason, rather than only complete predefined exercises.

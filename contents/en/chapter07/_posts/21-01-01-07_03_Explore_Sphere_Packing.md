@@ -12,7 +12,8 @@ categories:
 > **Context path — packing**  
 > **Deep read:** [Ch.2 Viazovska]({{ site.baseurl }}/contents/en/chapter02/02_08_Viazovska_Sphere_Packing/)  
 > **You are here:** Ch.7 packing studio (experiments + log)  
-> *Optional:* kissing numbers, lattice vs nonlattice, high-dimensional weirdness.
+> *Optional:* kissing numbers, lattice vs nonlattice, high-dimensional weirdness.  
+> **Tao / Big Think frame:** cannonballs → Kepler → discrete high-dimensional packing as wireless codes — [Six Math Essentials]({{ site.baseurl }}/contents/en/chapter04/04_01_Six_Math_Essentials/) · [Viazovska essay]({{ site.baseurl }}/contents/en/chapter02/02_08_Viazovska_Sphere_Packing/) · [video](https://www.youtube.com/watch?v=OOMx2BHHWtE).
 
 This studio asks a deceptively physical question: what is the densest way to pack equal non-overlapping balls in $$\mathbb{R}^n$$? In the plane you can settle the dispute with coins. In three dimensions Kepler’s conjecture waited centuries. In dimensions 8 and 24, modular forms and Fourier analysis decide optimality. Most dimensions remain open.
 

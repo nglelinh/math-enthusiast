@@ -29,6 +29,7 @@ Sau bài học, bạn có thể:
 - Mô tả chặn Cohn–Elkies như bài toán tối ưu trên hàm xuyên tâm.
 - Tách định lý $$E_8$$ (Viazovska đơn) và Leech (cộng tác CKMRV).
 - Không khẳng định xếp cầu đã xong mọi chiều.
+- Kể lại, ở mức phác, đường ống đạn đại bác Kepler → xếp rời rạc cao chiều → mã vô tuyến từ cuộc trò chuyện Big Think của Tao, mà không biến lý thuyết mã thành citation Fields của Viazovska.
 
 **Kiến thức nền.** Thể tích quả cầu, lattice như nhóm con rời rạc của $$\mathbb{R}^n$$, và ý tưởng biến đổi Fourier của hàm xuyên tâm (chi tiết tùy chọn).
 
@@ -66,6 +67,14 @@ Bài toán vừa trực quan vừa cứng: tăng chiều làm “chỗ trống�
 | $$n$$ tổng quát | Phần lớn mở; có chặn tiệm cận |
 
 Hầu hết chiều chưa có tối ưu chính xác. Chiều 8 và 24 là phép màu đối xứng.
+
+### Từ đạn đại bác tới chuỗi bit (theo Tao)
+
+Terence Tao, trong [cuộc trò chuyện Big Think](https://www.youtube.com/watch?v=OOMx2BHHWtE) cho *Six Math Essentials* sắp ra, kể lại xếp cầu như đường ống tò mò-đến-công nghệ. Một thủy thủ muốn nhiều đạn đại bác nhất trong hầm tàu; khoảng trống quanh quả cầu là cái giá. Kepler đề xuất xếp lục giác kiểu người bán cam—khoảng 74% ở ba chiều—và không chứng minh được đó là tốt nhất. **Giả thuyết Kepler** ấy thành bài hình học dài thế kỷ. Mặt phẳng (đĩa) xong khoảng 1900; ba chiều chờ chứng minh có máy tính hỗ trợ của Hales (công bố 1998) và, sau đó, kiểm chứng hình thức gỡ nghi ngờ trọng tài mà Tao nhớ. Nhà toán học rồi hỏi những câu “vô dụng”: bốn chiều? một không gian *rời rạc* các chuỗi bit?
+
+Khi điện thoại gửi tín hiệu số, mỗi thông điệp là một chuỗi bit. Bạn muốn các tín hiệu khác nhau nằm xa nhau trong khối lập phương cao chiều ấy để nhiễu không nhầm cái này với cái kia. Khẩu hiệu của Tao là đây vẫn là xếp cầu—cao chiều và rời rạc—và toán xếp cung cấp cả xây dựng lẫn **giới hạn lý thuyết** về số bit mỗi giây qua một lát phổ (nên, ở lớp kinh tế, người ta có thể định giá lát phổ ấy thế nào). Ngành viễn thông vô tuyến, trong lời kể ấy, đang xếp cam ở chiều rất cao.
+
+Hai hàng rào biết đọc. Thứ nhất, công trình Fields của Viazovska là xếp Euclid **liên tục** ở chiều 8 và 24, không phải định lý rằng bà thiết kế 5G. Thứ hai, sự nén sử trong buổi nói chuyện phổ thông (năm tháng, “thủy thủ Anh,” hiệu suất đúng) nên đối chiếu tài liệu xếp chuyên khi bạn cần trích dẫn. Hub khóa học: [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/); studio: [Khám phá xếp cầu]({{ site.baseurl }}/contents/vi/chapter07/07_03_Explore_Sphere_Packing/).
 
 ---
 
@@ -246,6 +255,7 @@ Danh mục URL đầy đủ (mọi link khi nghiên cứu video): `research/vide
 11. https://www.math.inc/sphere-packing  
 12. https://en.wikipedia.org/wiki/E8_lattice  
 13. https://en.wikipedia.org/wiki/Leech_lattice  
+14. https://www.youtube.com/watch?v=OOMx2BHHWtE  
 
 ### Gói nghiên cứu
 

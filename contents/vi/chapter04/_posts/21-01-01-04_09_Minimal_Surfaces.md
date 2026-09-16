@@ -2,7 +2,7 @@
 layout: post
 title: "Mặt tối thiểu"
 chapter: '04'
-order: 9
+order: 10
 owner: Nguyen Le Linh
 lang: vi
 categories:

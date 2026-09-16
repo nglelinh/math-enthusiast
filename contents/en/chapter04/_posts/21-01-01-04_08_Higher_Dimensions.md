@@ -2,7 +2,7 @@
 layout: post
 title: "Higher Dimensions"
 chapter: '04'
-order: 8
+order: 9
 owner: Nguyen Le Linh
 lang: en
 categories:
