@@ -153,3 +153,9 @@ Các đồng giải 1998 gồm **Borcherds**, **Gowers**, và **Kontsevich**—n
 - Đọc chân dung ICM ngắn của Smale trước các cuốn 1994/1996.
 - So sánh biên Bers với biên tập Mandelbrot: cả hai được phỏng đoán tổ chức bởi phân thớ (Thurston; Douady–Hubbard); mật độ cusp của McMullen chống đỡ một phía của ẩn dụ đó.
 - Seminar A3: một trang “từ điển” ba cặp từ song song (ánh xạ hữu tỷ / nhóm Kleinian; tập Julia / tập giới hạn; tái chuẩn hóa / hyperbolization phân thớ)—không tuyên bố từ điển là tương đương phạm trù.
+
+## Video tham khảo
+
+- **xem trước** — [Curtis McMullen: Manifolds, topology and dynamics](https://www.youtube.com/watch?v=g0fQDrV-UuE) — The Abel Prize, tiếng Anh. Xem trước. “Curtis McMullen: Manifolds, topology and dynamics” định hướng cho mục tiêu của bài: Phát biểu citation chính thức 1998 và gọi tên hai định lý được nêu tường minh (mật độ cusp của Bers; giả thuyết theta của Kra).
+- [Planes in number theory, geometry and dynamics: C. McMullen](https://www.youtube.com/watch?v=hlDDHnk5aRU) — Fields Institute, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu citation chính thức 1998 và gọi tên hai định lý được nêu tường minh (mật độ cusp của Bers; giả thuyết theta của Kra).
+- [Dynamics on K3 Surfaces - Curtis McMullen](https://www.youtube.com/watch?v=gWTi1xvGMb8) — Stony Brook Mathematics, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu citation chính thức 1998 và gọi tên hai định lý được nêu tường minh (mật độ cusp của Bers; giả thuyết theta của Kra).

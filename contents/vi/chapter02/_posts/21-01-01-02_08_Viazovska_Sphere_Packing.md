@@ -277,3 +277,9 @@ Danh mục URL đầy đủ (mọi link khi nghiên cứu video): `research/vide
 - So với Maynard và Green–Tao: cấu trúc đặc biệt + giải tích cứng.  
 - Ghi một câu hỏi chính xác bạn vẫn còn—ví dụ “vì sao modular form sinh đúng zero của $$f$$?”  
 - Đọc song song bài [Mirzakhani]({{ site.baseurl }}/contents/vi/chapter02/) về medalist nữ và bài [Green–Tao]({{ site.baseurl }}/contents/vi/chapter02/) về cấu trúc trong không gian thưa/rời rạc.
+
+## Video tham khảo
+
+- **xem trước** — [Einstein Lectures: Maryna Viazovska - The sphere packing problem](https://www.youtube.com/watch?v=fH6KNlUJux0) — Universität Bern, tiếng Anh. Xem trước. “Einstein Lectures: Maryna Viazovska - The sphere packing problem” định hướng cho mục tiêu của bài: Định nghĩa mật độ xếp cẩn thận (phần thể tích bị phủ).
+- [Maryna Viazovska: 2018 Breakthrough Prize Symposium](https://www.youtube.com/watch?v=VCZeVsTb7DU) — Breakthrough, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Định nghĩa mật độ xếp cẩn thận (phần thể tích bị phủ).
+- [What is...sphere packing?](https://www.youtube.com/watch?v=qr6ZbYancMY) — VisualMath, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Định nghĩa mật độ xếp cẩn thận (phần thể tích bị phủ).

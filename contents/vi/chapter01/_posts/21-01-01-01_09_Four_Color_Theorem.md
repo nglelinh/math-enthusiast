@@ -263,3 +263,9 @@ Thư mục URL: `research/video-research/Four_Color_Theorem/references.md`.
 - Essay về chuẩn mực computer-assisted proof.  
 - Nâng cao: Hadwiger (vẫn mở).  
 - Đối chiếu [Kakeya]({{ site.baseurl }}/contents/vi/chapter01/01_08_Kakeya_Conjecture/).
+
+## Video tham khảo
+
+- **xem trước** — [The Four Color Map Theorem - Numberphile](https://www.youtube.com/watch?v=NgbK43jB4rQ) — Numberphile, tiếng Anh. Xem trước. “The Four Color Map Theorem - Numberphile” định hướng cho mục tiêu của bài: Phát biểu 4CT bằng ngôn ngữ bản đồ và ngôn ngữ đồ thị (số màu tô đỉnh \chi(G)\le 4 cho G phẳng hữu hạn).
+- [The Map Coloring Puzzle That Changed Mathematics](https://www.youtube.com/watch?v=h7kqlYUV1l8) — Quanta Magazine, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu 4CT bằng ngôn ngữ bản đồ và ngôn ngữ đồ thị (số màu tô đỉnh \chi(G)\le 4 cho G phẳng hữu hạn).
+- [John Conway - Four Color Theorem and Computer Proofs](https://www.youtube.com/watch?v=fPVXBurxfU8) — Simons Foundation, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu 4CT bằng ngôn ngữ bản đồ và ngôn ngữ đồ thị (số màu tô đỉnh \chi(G)\le 4 cho G phẳng hữu hạn).

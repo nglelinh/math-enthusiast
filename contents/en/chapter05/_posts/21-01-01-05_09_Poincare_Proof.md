@@ -244,3 +244,9 @@ Full URL bibliography from video research: `research/video-research/poincare-pro
 - Read a first introduction to curvature and geodesics before deeper geometric analysis.  
 - Explore what “eight geometries” means in Thurston’s list at slogan level.  
 - Note one precise question you still have—good questions are part of mathematical practice.
+
+## Video tham khảo
+
+- **xem trước** — [Poincaré Conjecture - Numberphile](https://www.youtube.com/watch?v=GItmC9lxeco) — Numberphile, English. Watch first. “Poincaré Conjecture - Numberphile” orients the lesson’s aim: State the 3-dimensional Poincaré conjecture in plain language and in standard mathematical phrasing.
+- [Ricci Flow - Numberphile](https://www.youtube.com/watch?v=hwOCqA9Xw6A) — Numberphile, English. A second pass once the main claim is in view: State the 3-dimensional Poincaré conjecture in plain language and in standard mathematical phrasing.
+- [Poincare Conjecture and Ricci Flow | A Million Dollar Problem in Topology](https://www.youtube.com/watch?v=PwRl5W-whTs) — Aleph 0, English. Further depth after the first two, still tied to this lesson: State the 3-dimensional Poincaré conjecture in plain language and in standard mathematical phrasing.

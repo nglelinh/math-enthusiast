@@ -222,3 +222,9 @@ Ergodic theory nói về trung bình theo thời gian/không gian của hệ đ�
 
 Viết 200 từ phân biệt: (a) dãy ngẫu nhiên thuật toán, (b) quỹ đạo ergodic, (c) định lý mật độ kiểu Szemerédi (nếu đã học Green–Tao). Nêu một chỗ dễ nhầm thuật ngữ giữa ba thế giới.
 
+
+## Video tham khảo
+
+- **xem trước** — [The Abel lectures: Hillel Furstenberg and Gregory Margulis](https://www.youtube.com/watch?v=2i5UJwKN7os) — The Abel Prize, tiếng Anh. Xem trước. “The Abel lectures: Hillel Furstenberg and Gregory Margulis” định hướng cho mục tiêu của bài: Định nghĩa ergodic theory như trung bình theo quỹ đạo và độ đo bất biến; nêu một chủ đề Furstenberg (multiple recurrence / cấu trúc tập số nguyên dày); nêu một chủ đề Margulis (sup…
+- [Hillel Furstenberg - The Abel Prize interview 2020](https://www.youtube.com/watch?v=01IdfSRYawE) — The Abel Prize, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Định nghĩa ergodic theory như trung bình theo quỹ đạo và độ đo bất biến; nêu một chủ đề Furstenberg (multiple recurrence / cấu trúc tập số nguyên dày); nêu một chủ đề Margulis (sup…
+- [Gregory Margulis - The Abel Prize interview 2020](https://www.youtube.com/watch?v=FInTu9-MHHU) — The Abel Prize, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Định nghĩa ergodic theory như trung bình theo quỹ đạo và độ đo bất biến; nêu một chủ đề Furstenberg (multiple recurrence / cấu trúc tập số nguyên dày); nêu một chủ đề Margulis (sup…

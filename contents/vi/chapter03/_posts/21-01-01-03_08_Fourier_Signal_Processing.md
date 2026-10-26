@@ -227,3 +227,9 @@ Danh mục URL đầy đủ (mọi link tìm được khi nghiên cứu video): 
 - [PTVP → Ứng dụng]({{ site.baseurl }}/contents/vi/chapter03/03_09_Differential_Equations_Applications/).  
 - Biên thuần: [Wang]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/), [Kakeya]({{ site.baseurl }}/contents/vi/chapter01/01_08_Kakeya_Conjecture/).  
 - Viết lại cơ chế cốt lõi một đoạn; ghi một câu hỏi còn mở.
+
+## Video tham khảo
+
+- **xem trước** — [But what is a Fourier series? From heat flow to drawing with circles | DE4](https://www.youtube.com/watch?v=r6sGWTCMz2k) — 3Blue1Brown, tiếng Anh. Xem trước. “But what is a Fourier series? From heat flow to drawing with circles | DE4” định hướng cho mục tiêu của bài: Giải thích tín hiệu như chồng các mode dao động (sin/cos hoặc mũ phức).
+- [But what is the Fourier Transform? A visual introduction.](https://www.youtube.com/watch?v=spUNpyF58BY) — 3Blue1Brown, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Giải thích tín hiệu như chồng các mode dao động (sin/cos hoặc mũ phức).
+- [The Most Underrated Algorithm](https://www.youtube.com/watch?v=nmgFG7PUHfo) — Veritasium, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Giải thích tín hiệu như chồng các mode dao động (sin/cos hoặc mũ phức).

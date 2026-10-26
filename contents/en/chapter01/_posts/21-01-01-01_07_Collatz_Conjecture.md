@@ -370,3 +370,9 @@ Full URL bibliography from video research (including secondary finds): `research
 ## Further directions
 
 Default **A5** topic for the seminar: build a small computational laboratory around orbits and stopping times, keep a research log, and write up what remains open. Optional alternatives in the same studio family include logistic-map iteration as a chaos-lite comparison (different mathematics, similar discipline of experiment). For a solved-but-deep contrast after this open problem, visit the [Four Color Theorem]({{ site.baseurl }}/contents/en/chapter01/01_09_Four_Color_Theorem/).
+
+## Video tham khảo
+
+- **xem trước** — [The Simplest Math Problem No One Can Solve - Collatz Conjecture](https://www.youtube.com/watch?v=094y1Z2wpJg) — Veritasium, English. Watch first. “The Simplest Math Problem No One Can Solve - Collatz Conjecture” orients the lesson’s aim: State the Collatz map T and the conjecture that every positive integer eventually reaches the cycle 4\to 2\to 1.
+- [UNCRACKABLE? The Collatz Conjecture - Numberphile](https://www.youtube.com/watch?v=5mFpVDpKX70) — Numberphile, English. A second pass once the main claim is in view: State the Collatz map T and the conjecture that every positive integer eventually reaches the cycle 4\to 2\to 1.
+- [The 3x+1 Problem: Status and Recent Work Part 1](https://www.youtube.com/watch?v=t1I9uHF9X5Y) — Experimental mathematics, English. Further depth after the first two, still tied to this lesson: State the Collatz map T and the conjecture that every positive integer eventually reaches the cycle 4\to 2\to 1.

@@ -188,3 +188,8 @@ For this course, Lindenstrauss is the Fields-scale counterpart of the Abel story
 
 - Read a short exposition of Ratner’s theorem before EKL, so the missing diagonal classification is felt as a gap rather than as a synonym.
 - Seminar option: a one-page status sheet “Littlewood after EKL” that lists what a full proof would still need—without inventing one.
+
+## Video tham khảo
+
+- **xem trước** — [Conferências Magnas: Elon Lindenstrauss - Homogeneous dynamics and diagonalizable actions (2013)](https://www.youtube.com/watch?v=e9Gj1yohLCw) — Instituto de Matemática Pura e Aplicada, English. Watch first. “Conferências Magnas: Elon Lindenstrauss - Homogeneous dynamics and diagonalizable actio…” orients the lesson’s aim: Define measure rigidity as “scarce invariant measures, typically algebraic,” and contrast it with the abundance of measures for a single hyperbolic toral automorphism.
+- [Elon Lindenstrauss - An effective proof of the Oppenheim Conjecture](https://www.youtube.com/watch?v=_hOglF2XvQ8) — International Centre for Theoretical Sciences, English. A second pass once the main claim is in view: Define measure rigidity as “scarce invariant measures, typically algebraic,” and contrast it with the abundance of measures for a single hyperbolic toral automorphism.

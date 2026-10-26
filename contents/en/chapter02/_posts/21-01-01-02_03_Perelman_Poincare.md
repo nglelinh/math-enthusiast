@@ -345,3 +345,9 @@ Full URL bibliography from video research (including secondary finds): `research
 - Compare this analytic–geometric resolution with **computer-assisted** classification stories (e.g. four color) and with **exact formulas** stories (e.g. Viazovska packing).  
 - Next technical step for the ambitious reader: Hamilton’s maximum principle for tensors, then Perelman’s entropy formula.  
 - Note one precise question you still have—good questions are part of mathematical practice.
+
+## Video tham khảo
+
+- **xem trước** — [Poincaré Conjecture - Numberphile](https://www.youtube.com/watch?v=GItmC9lxeco) — Numberphile, English. Watch first. “Poincaré Conjecture - Numberphile” orients the lesson’s aim: State Poincaré’s conjecture and Thurston’s geometrization conjecture in plain language and with basic topology vocabulary.
+- [Ricci Flow - Numberphile](https://www.youtube.com/watch?v=hwOCqA9Xw6A) — Numberphile, English. A second pass once the main claim is in view: State Poincaré’s conjecture and Thurston’s geometrization conjecture in plain language and with basic topology vocabulary.
+- [Poincare Conjecture and Ricci Flow | A Million Dollar Problem in Topology](https://www.youtube.com/watch?v=PwRl5W-whTs) — Aleph 0, English. Further depth after the first two, still tied to this lesson: State Poincaré’s conjecture and Thurston’s geometrization conjecture in plain language and with basic topology vocabulary.

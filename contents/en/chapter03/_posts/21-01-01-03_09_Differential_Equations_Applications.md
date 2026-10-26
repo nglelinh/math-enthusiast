@@ -270,3 +270,9 @@ Full URL bibliography from video research (including secondary finds): `research
 - Pure open problem: [Navier–Stokes]({{ site.baseurl }}/contents/en/chapter01/01_05_Navier_Stokes/).  
 - Signal side: [Fourier]({{ site.baseurl }}/contents/en/chapter03/03_08_Fourier_Signal_Processing/).  
 - Restate the core mechanism of this essay in one paragraph; note one precise question you still have.
+
+## Video tham khảo
+
+- **xem trước** — [Differential equations, a tourist's guide | DE1](https://www.youtube.com/watch?v=p_di4Zn4wz4) — 3Blue1Brown, English. Watch first. “Differential equations, a tourist's guide | DE1” orients the lesson’s aim: Distinguish ODEs from PDEs and autonomous from non-autonomous systems at a glance.
+- [2. First-Order Equations](https://www.youtube.com/watch?v=4X0SGGrXDiI) — MIT OpenCourseWare, English. A second pass once the main claim is in view: Distinguish ODEs from PDEs and autonomous from non-autonomous systems at a glance.
+- [Logistic Map Explained (Strogatz Ch. 10): Period-Doubling Route to Chaos | Part 1](https://www.youtube.com/watch?v=PVo1mHnU7WU) — Dr. Shane Ross, English. Further depth after the first two, still tied to this lesson: Distinguish ODEs from PDEs and autonomous from non-autonomous systems at a glance.

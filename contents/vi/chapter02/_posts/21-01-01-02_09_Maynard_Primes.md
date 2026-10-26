@@ -248,3 +248,9 @@ Danh mục URL đầy đủ (mọi link khi nghiên cứu video): `research/vide
 - Khám phá **Polymath** như mô hình hợp tác lý thuyết số giải tích.
 - So “cấu trúc vs ngẫu nhiên” với [Tổ hợp và Hình học Hiện đại]({{ site.baseurl }}/contents/vi/chapter02/02_11_Modern_Combinatorics_Geometry/).
 - Diophantine approximation trong portfolio Maynard: survey riêng, đừng gộp nhầm với chỉ một định lý gap.
+
+## Video tham khảo
+
+- **xem trước** — [Twin Prime Conjecture - Numberphile](https://www.youtube.com/watch?v=QKHKD8bRAro) — Numberphile, tiếng Anh. Xem trước. “Twin Prime Conjecture - Numberphile” định hướng cho mục tiêu của bài: Phát biểu định lý khoảng cách bị chặn kiểu Zhang–Maynard bằng ngôn ngữ \liminf, và nêu ý nghĩa chặn tường minh.
+- [Gaps between Primes - Numberphile](https://www.youtube.com/watch?v=vkMXdShDdtY) — Numberphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu định lý khoảng cách bị chặn kiểu Zhang–Maynard bằng ngôn ngữ \liminf, và nêu ý nghĩa chặn tường minh.
+- [James Maynard - Patterns in prime numbers](https://www.youtube.com/watch?v=ey_57qWhGEM) — G-Research, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu định lý khoảng cách bị chặn kiểu Zhang–Maynard bằng ngôn ngữ \liminf, và nêu ý nghĩa chặn tường minh.

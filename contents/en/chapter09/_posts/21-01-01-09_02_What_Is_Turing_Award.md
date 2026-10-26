@@ -201,3 +201,9 @@ Complete list: `research/video-research/what-is-turing-award/references.md`.
 - Browse one full Turing Award lecture video or transcript and extract a single definition the laureate treats as central.  
 - Note one open mathematical question still living next to any Turing theme in this chapter (P vs NP; discrete log / factoring vs quantum algorithms; average-case vs worst-case hardness).  
 - Next: [Turing, Computability, and Undecidability]({{ site.baseurl }}/contents/en/chapter09/09_03_Turing_Computability/).
+
+## Video tham khảo
+
+- **xem trước** — [Celebrating 50 Years of the ACM A.M. Turing Award and Computing's Greatest Achievements](https://www.youtube.com/watch?v=MuTGa_xvCgc) — Association for Computing Machinery (ACM), English. Watch first. “Celebrating 50 Years of the ACM A.M. Turing Award and Computing's Greatest Achievements” orients the lesson’s aim: State what the ACM A.M. Turing Award is, when it began, and where to find official materials.
+- [“Computer Science as a Major Body of Accumulated Knowledge,” at ACM Turing 50 Celebration](https://www.youtube.com/watch?v=ACsQ4ixtqTc) — Association for Computing Machinery (ACM), English. A second pass once the main claim is in view: State what the ACM A.M. Turing Award is, when it began, and where to find official materials.
+- [Turing the Man](https://www.youtube.com/watch?v=nvwK-11uxSo) — Association for Computing Machinery (ACM), English. Further depth after the first two, still tied to this lesson: State what the ACM A.M. Turing Award is, when it began, and where to find official materials.

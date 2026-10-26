@@ -166,3 +166,7 @@ Lớp 1994 còn có Bourgain, Lions, và Yoccoz. Chân dung Zelmanov là mặt �
 
 - Đọc một trang survey về vì sao số mũ lẻ lớn làm $$B(d,n)$$ vô hạn (small cancellation), rồi trở lại máy vành Lie; lưu ý $$B(2,5)$$ vẫn là trường hợp bị chặn mở nổi tiếng.
 - Gợi ý seminar: nếu các chặn hiệu quả cực lớn, định lý *để làm gì*?
+
+## Video tham khảo
+
+- **xem trước** — [Why Do People Hate Mathematics? Efim Zelmanov (Fields Medal 1994)](https://www.youtube.com/watch?v=Nz3_RzZzuO8) — Tom Rocks Maths, tiếng Anh. Xem trước để nghe Zelmanov nói về khẩu vị toán học quanh huy chương 1994. Đây là phỏng vấn, không phải chứng minh bài toán Burnside hạn chế trong bài.

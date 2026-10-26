@@ -261,3 +261,9 @@ Full URL bibliography from video research: `research/video-research/euler-konigs
 - Explore the Chinese Postman Problem as the natural optimization sequel.  
 - Contrast edge-cover tours with vertex-cover tours (Hamilton) to feel complexity’s jump.  
 - Note one precise question you still have—good questions are part of mathematical practice.
+
+## Video tham khảo
+
+- **xem trước** — [The Seven Bridges of Königsberg - Numberphile](https://www.youtube.com/watch?v=W18FDEA1jRQ) — Numberphile, English. Watch first. “The Seven Bridges of Königsberg - Numberphile” orients the lesson’s aim: Model a bridge (or road) system as a multigraph with vertices for regions and edges for crossings.
+- [How the Königsberg bridge problem changed mathematics - Dan Van der Vieren](https://www.youtube.com/watch?v=nZwSo4vfw6c) — TED-Ed, English. A second pass once the main claim is in view: Model a bridge (or road) system as a multigraph with vertices for regions and edges for crossings.
+- [Graph Theory: 01. Seven Bridges of Konigsberg](https://www.youtube.com/watch?v=eIb1cz06UwI) — Sarada Herke, English. Further depth after the first two, still tied to this lesson: Model a bridge (or road) system as a multigraph with vertices for regions and edges for crossings.

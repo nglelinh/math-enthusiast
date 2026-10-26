@@ -186,3 +186,8 @@ Với khóa học này, Figalli là chân dung **chính quy như hạ tầng**: 
 
 - Đọc ước lượng trong của Caffarelli cạnh chính quy từng phần De Philippis–Figalli: những giả thuyết hình học nào chuyển từ “được giả sử” sang “không cần cho tính trơn hầu khắp nơi”?
 - So OT tính toán (Sinkhorn, Chương 6) với lý thuyết giải tích: số học regularize; lý thuyết chính quy giải thích khi nào map chưa regularize đã gần như trơn.
+
+## Video tham khảo
+
+- **xem trước** — [Alessio Figalli (2018 Fields Medal) explains Optimal Transport](https://www.youtube.com/watch?v=jyL6ZECM7oM) — Tom Rocks Maths, tiếng Anh. Xem trước. “Alessio Figalli (2018 Fields Medal) explains Optimal Transport” định hướng cho mục tiêu của bài: Đặt citation 2018 của Figalli vào lịch sử OT dài hơn (Monge, Kantorovich, Brenier, Caffarelli, Ambrosio, Villani) mà không gom lịch sử ấy thành một tên.
+- [Alessio Figalli at GYSS 2022 – Recent Developments in Optimal Transport Theory](https://www.youtube.com/watch?v=pu_WHpRDmKE) — National Research Foundation Singapore, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Đặt citation 2018 của Figalli vào lịch sử OT dài hơn (Monge, Kantorovich, Brenier, Caffarelli, Ambrosio, Villani) mà không gom lịch sử ấy thành một tên.

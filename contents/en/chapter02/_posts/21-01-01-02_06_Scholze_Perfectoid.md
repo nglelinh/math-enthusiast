@@ -225,3 +225,8 @@ Full URL bibliography from video research (including secondary finds): `research
 - Explore how local Langlands and Shimura varieties interact with modern $$p$$-adic geometry—gateway into research seminars.
 - If you enjoy foundations, sample one expository talk on condensed mathematics after you can state tilting correctly.
 - Contrast with [Venkatesh]({{ site.baseurl }}/contents/en/chapter02/02_07_Venkatesh_Number_Theory/): analytic/dynamical synthesis versus geometric/foundational rebuild—two different 2018 Fields styles.
+
+## Video tham khảo
+
+- **xem trước** — [Fields Medal Winner 2018 Peter Scholze](https://www.youtube.com/watch?v=jGHyAqztdLY) — International Mathematical Union, English. Watch first. “Fields Medal Winner 2018 Peter Scholze” orients the lesson’s aim: Explain the mixed-characteristic difficulty in one clear paragraph.
+- [Fields Medal Symposium 2021: Jared Weinstein introduces Perfectoid Spaces](https://www.youtube.com/watch?v=RApkRqoiZ1I) — Fields Institute, English. A second pass once the main claim is in view: Explain the mixed-characteristic difficulty in one clear paragraph.

@@ -288,3 +288,9 @@ Caption transcripts and time-chunk units for pack videos: `research/video-resear
 
 *Figure. Sample still from a pack primary video (see pack for timestamps).*
 
+
+## Video tham khảo
+
+- **xem trước** — [Einstein Lectures: Maryna Viazovska - The sphere packing problem](https://www.youtube.com/watch?v=fH6KNlUJux0) — Universität Bern, English. Watch first. “Einstein Lectures: Maryna Viazovska - The sphere packing problem” orients the lesson’s aim: Define packing density as a limit of covered volume fraction, and compute it exactly for the square and hexagonal lattice packings in 2D.
+- [Introduction to the sphere packing problem, Maryna Viazovska, 1/4.](https://www.youtube.com/watch?v=VR3Ezxo5wo8) — ICMU, English. A second pass once the main claim is in view: Define packing density as a limit of covered volume fraction, and compute it exactly for the square and hexagonal lattice packings in 2D.
+- [Maryna Viazovska - The Sphere Packing Problem, Simons Lecture Day 1](https://www.youtube.com/watch?v=mf_XOB7594c) — MIT Department of Mathematics, English. Further depth after the first two, still tied to this lesson: Define packing density as a limit of covered volume fraction, and compute it exactly for the square and hexagonal lattice packings in 2D.

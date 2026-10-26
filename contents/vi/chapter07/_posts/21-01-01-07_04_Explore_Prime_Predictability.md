@@ -285,3 +285,8 @@ Transcript caption và unit theo thời gian: `research/video-research/explore-p
 
 *Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
 
+
+## Video tham khảo
+
+- **xem trước** — [The Riemann Hypothesis, Explained](https://www.youtube.com/watch?v=zlm1aajH6gY) — Quanta Magazine, tiếng Anh. Xem trước. “The Riemann Hypothesis, Explained” định hướng cho mục tiêu của bài: Nêu PNT: \pi(x)\sim x/\log x; tính \pi(x) cho x vừa phải.
+- [Twin Prime Conjecture - Numberphile](https://www.youtube.com/watch?v=QKHKD8bRAro) — Numberphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Nêu PNT: \pi(x)\sim x/\log x; tính \pi(x) cho x vừa phải.

@@ -218,3 +218,9 @@ Complete list: `research/video-research/uhlenbeck-gauge/references.md`.
 - Compare with a related [Fields essay]({{ site.baseurl }}/contents/en/chapter02/02_00_Overview/).  
 - Note one open analytic challenge in geometric PDE of interest to you (higher-dimensional gauge theory, singularity models, …).  
 - Next: [Furstenberg & Margulis]({{ site.baseurl }}/contents/en/chapter08/08_05_Furstenberg_Margulis/).
+
+## Video tham khảo
+
+- **xem trước** — [Karen Uhlenbeck: Some Thoughts on the Calculus of Variations](https://www.youtube.com/watch?v=1WepO8tFGto) — The Abel Prize, English. Watch first. “Karen Uhlenbeck: Some Thoughts on the Calculus of Variations” orients the lesson’s aim: After this lecture you should be able to explain gauge theory’s basic objects (connections, curvature, bundles) at slogan level; describe why compactness / bubbling / removable sin…
+- [Robert Bryant: Limits, Bubbles, and Singularities: The fundamental ideas of Karen Uhlenbeck](https://www.youtube.com/watch?v=EZNpi8H6q1Q) — The Abel Prize, English. A second pass once the main claim is in view: After this lecture you should be able to explain gauge theory’s basic objects (connections, curvature, bundles) at slogan level; describe why compactness / bubbling / removable sin…
+- [Karen Uhlenbeck - The Abel Prize interview 2019](https://www.youtube.com/watch?v=0fOaetX4eHM) — The Abel Prize, English. Further depth after the first two, still tied to this lesson: After this lecture you should be able to explain gauge theory’s basic objects (connections, curvature, bundles) at slogan level; describe why compactness / bubbling / removable sin…

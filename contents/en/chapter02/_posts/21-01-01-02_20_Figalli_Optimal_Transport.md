@@ -186,3 +186,8 @@ For this course, Figalli is **regularity as infrastructure**: not one named conj
 
 - Read Caffarelli’s interior estimates next to De Philippis–Figalli partial regularity: which geometric hypotheses moved from “assumed” to “unnecessary for a.e. smoothness”?
 - Compare computational OT (Sinkhorn, Chapter 6) with the analytic theory: numerics regularize; regularity theory explains when the unregularized map was already almost smooth.
+
+## Video tham khảo
+
+- **xem trước** — [Alessio Figalli (2018 Fields Medal) explains Optimal Transport](https://www.youtube.com/watch?v=jyL6ZECM7oM) — Tom Rocks Maths, English. Watch first. “Alessio Figalli (2018 Fields Medal) explains Optimal Transport” orients the lesson’s aim: Place Figalli’s 2018 citation inside a longer OT history (Monge, Kantorovich, Brenier, Caffarelli, Ambrosio, Villani) without collapsing that history into one name.
+- [Alessio Figalli at GYSS 2022 – Recent Developments in Optimal Transport Theory](https://www.youtube.com/watch?v=pu_WHpRDmKE) — National Research Foundation Singapore, English. A second pass once the main claim is in view: Place Figalli’s 2018 citation inside a longer OT history (Monge, Kantorovich, Brenier, Caffarelli, Ambrosio, Villani) without collapsing that history into one name.

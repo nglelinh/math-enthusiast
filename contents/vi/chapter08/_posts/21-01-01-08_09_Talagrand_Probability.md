@@ -224,3 +224,8 @@ Danh mục đầy đủ: `research/video-research/talagrand-probability/referenc
 - Ghi bài mở còn sôi trong spin glass và high-dimensional probability.  
 - So [Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/).  
 - Tiếp: [Kashiwara]({{ site.baseurl }}/contents/vi/chapter08/08_10_Kashiwara_DModules/).
+
+## Video tham khảo
+
+- **xem trước** — [Michel Talagrand: Chaining: a long story](https://www.youtube.com/watch?v=3yIwl6XC0xA) — The Abel Prize, tiếng Anh. Xem trước. “Michel Talagrand: Chaining: a long story” định hướng cho mục tiêu của bài: Sau bài, bạn có thể phát biểu concentration of measure cho hàm Lipschitz của nhiều biến độc lập ở mức khẩu hiệu; giải thích vì sao chiều cao thường làm observable “gần hằng”; nêu ứ…
+- [Assaf Naor – Talagrand almost everywhere](https://www.youtube.com/watch?v=atrxvobEdOo) — The Abel Prize, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài, bạn có thể phát biểu concentration of measure cho hàm Lipschitz của nhiều biến độc lập ở mức khẩu hiệu; giải thích vì sao chiều cao thường làm observable “gần hằng”; nêu ứ…

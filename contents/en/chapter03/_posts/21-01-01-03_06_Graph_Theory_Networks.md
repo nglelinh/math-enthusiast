@@ -265,3 +265,9 @@ Full URL bibliography from video research (including secondary finds): `research
 - Empirically flavored continuation: [Network Science]({{ site.baseurl }}/contents/en/chapter06/06_05_Network_Science/).  
 - Pure sibling: planarity and coloring culture in [Four Color Theorem]({{ site.baseurl }}/contents/en/chapter01/01_09_Four_Color_Theorem/).  
 - Restate the core mechanism of this essay in one paragraph; note one precise question you still have.
+
+## Video tham khảo
+
+- **xem trước** — [The Seven Bridges of Königsberg - Numberphile](https://www.youtube.com/watch?v=W18FDEA1jRQ) — Numberphile, English. Watch first. “The Seven Bridges of Königsberg - Numberphile” orients the lesson’s aim: Model a real system as a graph G=(V,E) (directed/undirected, weighted/unweighted) and state what nodes and edges represent.
+- [Eigenvectors and eigenvalues | Chapter 14, Essence of linear algebra](https://www.youtube.com/watch?v=PFDu9oVAE-g) — 3Blue1Brown, English. A second pass once the main claim is in view: Model a real system as a graph G=(V,E) (directed/undirected, weighted/unweighted) and state what nodes and edges represent.
+- [PageRank: A Trillion Dollar Algorithm](https://www.youtube.com/watch?v=JGQe4kiPnrU) — Reducible, English. Further depth after the first two, still tied to this lesson: Model a real system as a graph G=(V,E) (directed/undirected, weighted/unweighted) and state what nodes and edges represent.

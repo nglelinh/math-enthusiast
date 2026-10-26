@@ -148,3 +148,9 @@ Critical bond percolation on the square lattice, and conformal invariance of per
 
 - Read a survey of the colour-switching argument before the *Comptes Rendus* note; after [Werner]({{ site.baseurl }}/contents/en/chapter02/02_30_Werner_SLE/), write a half-page on the order SLE axioms → Cardy → identification with $$\mathrm{SLE}_6$$.
 - Seminar option: a one-page “what is still open in 2D percolation” brief that does **not** claim universality is a theorem.
+
+## Video tham khảo
+
+- **xem trước** — [Stanislav Smirnov - 2d Percolation Revisited](https://www.youtube.com/watch?v=6QOnfvWqVoo) — MIT Department of Mathematics, English. Watch first. “Stanislav Smirnov - 2d Percolation Revisited” orients the lesson’s aim: State, at slogan level, what Bernoulli percolation is, and distinguish site percolation from bond percolation.
+- [Stanislav Smirnov, Percolation crossings and complex analysis](https://www.youtube.com/watch?v=6hCSSCV7lvQ) — Clay Mathematics Institute, English. A second pass once the main claim is in view: State, at slogan level, what Bernoulli percolation is, and distinguish site percolation from bond percolation.
+- [Stanislav Smirnov - Percolation revisited](https://www.youtube.com/watch?v=ZNpbvrhfWPA) — Department of Mathematics - Northwestern University, English. Further depth after the first two, still tied to this lesson: State, at slogan level, what Bernoulli percolation is, and distinguish site percolation from bond percolation.

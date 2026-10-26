@@ -104,3 +104,9 @@ Witten’s Fields citation culture is closer to “opened highways between physi
 2. Kapustin–Witten — https://arxiv.org/abs/hep-th/0604151  
 3. Course: duality track 12–15; Atiyah–Singer; Langlands Ch.2.  
 4. Popular orientation talks (Frenkel, Witten symposium videos) — culture only.  
+
+## Video tham khảo
+
+- **xem trước** — [Prof. Edward Witten | Duality, the Langlands Correspondence, and the Influence of Michael Atiyah](https://www.youtube.com/watch?v=fqHGe3acpC0) — INI Seminar Room 1, English. Watch first. “Prof. Edward Witten | Duality, the Langlands Correspondence, and the Influence of Micha…” orients the lesson’s aim: Place Witten’s Fields Medal (1990) in the culture of “physics-inspired mathematics.”
+- [Edward Witten, Gauge theory and the analytic approach to geometric Langlands](https://www.youtube.com/watch?v=QOi_yBoE2kA) — Clay Mathematics Institute, English. A second pass once the main claim is in view: Place Witten’s Fields Medal (1990) in the culture of “physics-inspired mathematics.”
+- [The Universe Speaks in Numbers: Robbert Dijkgraaf and Edward Witten in Conversation](https://www.youtube.com/watch?v=RjthuCDzAnY) — Institute for Advanced Study, English. Further depth after the first two, still tied to this lesson: Place Witten’s Fields Medal (1990) in the culture of “physics-inspired mathematics.”

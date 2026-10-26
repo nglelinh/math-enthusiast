@@ -282,3 +282,9 @@ Full URL bibliography from video research (including secondary finds): `research
 - Deeper learning theory: [Mathematics of AI]({{ site.baseurl }}/contents/en/chapter06/06_02_Mathematics_of_AI/).  
 - Geometry of distributions: [Optimal Transport]({{ site.baseurl }}/contents/en/chapter06/06_09_Optimal_Transport/).  
 - Restate the core mechanism of this essay in one paragraph; note one precise question you still have.
+
+## Video tham khảo
+
+- **xem trước** — [Gradient descent, how neural networks learn | Deep Learning Chapter 2](https://www.youtube.com/watch?v=IHZwWFHWa-w) — 3Blue1Brown, English. Watch first. “Gradient descent, how neural networks learn | Deep Learning Chapter 2” orients the lesson’s aim: Write a generic optimization problem \min{x\in\mathcal{X}} f(x) and identify objective, variables, and constraints in a word problem.
+- [Gradient Descent, Step-by-Step](https://www.youtube.com/watch?v=sDv4f4s2SB8) — StatQuest with Josh Starmer, English. A second pass once the main claim is in view: Write a generic optimization problem \min{x\in\mathcal{X}} f(x) and identify objective, variables, and constraints in a word problem.
+- [The essence of calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM) — 3Blue1Brown, English. Further depth after the first two, still tied to this lesson: Write a generic optimization problem \min{x\in\mathcal{X}} f(x) and identify objective, variables, and constraints in a word problem.

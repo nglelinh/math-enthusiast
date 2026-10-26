@@ -236,3 +236,9 @@ Transcript caption và unit theo thời gian: `research/video-research/explore-m
 
 *Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
 
+
+## Video tham khảo
+
+- **xem trước** — [The Four Color Map Theorem - Numberphile](https://www.youtube.com/watch?v=NgbK43jB4rQ) — Numberphile, tiếng Anh. Xem trước. “The Four Color Map Theorem - Numberphile” định hướng cho mục tiêu của bài: Chuyển map thành dual graph; tô map = tô đỉnh đồ thị.
+- [The Map Coloring Puzzle That Changed Mathematics](https://www.youtube.com/watch?v=h7kqlYUV1l8) — Quanta Magazine, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Chuyển map thành dual graph; tô map = tô đỉnh đồ thị.
+- [John Conway - Four Color Theorem and Computer Proofs](https://www.youtube.com/watch?v=fPVXBurxfU8) — Simons Foundation, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Chuyển map thành dual graph; tô map = tô đỉnh đồ thị.

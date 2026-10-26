@@ -227,3 +227,8 @@ Full URL bibliography from video research (including secondary finds): `research
 - Explore how singularities of the MMP (discrepancies, klt pairs) interact with the **canonical ring** and finite generation.
 - Read a careful survey on BAB and complements to see how local thresholds become global boundedness.
 - Seminar A3 option: write a one-page “open problems after Birkar” brief (effective bounds, positive characteristic, special Fano lists)—without claiming the medal closed algebraic geometry.
+
+## Video tham khảo
+
+- **xem trước** — [Caucher Birkar: An Innovator Who Brings Order to an Infinitude of Equations](https://www.youtube.com/watch?v=1EpMF16ShY0) — Quanta Magazine, English. Watch first. “Caucher Birkar: An Innovator Who Brings Order to an Infinitude of Equations” orients the lesson’s aim: State the goal of the minimal model program in one careful paragraph (reduce birationally toward a minimal model or a Mori fiber space).
+- [2018 Fields Medal Recipient Caucher Birkar - Professor, University of Cambridge](https://www.youtube.com/watch?v=CwMvjWL-gos) — WebsEdgeScience, English. A second pass once the main claim is in view: State the goal of the minimal model program in one careful paragraph (reduce birationally toward a minimal model or a Mori fiber space).

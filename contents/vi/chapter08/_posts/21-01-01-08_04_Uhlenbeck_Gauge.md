@@ -215,3 +215,9 @@ Danh mục đầy đủ: `research/video-research/uhlenbeck-gauge/references.md`
 - Ghi một thách thức giải tích mở trong PDE hình học bạn quan tâm (gauge chiều cao hơn, mô hình singularity, …).  
 - So [Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/).  
 - Tiếp: [Furstenberg & Margulis]({{ site.baseurl }}/contents/vi/chapter08/08_05_Furstenberg_Margulis/).
+
+## Video tham khảo
+
+- **xem trước** — [Karen Uhlenbeck: Some Thoughts on the Calculus of Variations](https://www.youtube.com/watch?v=1WepO8tFGto) — The Abel Prize, tiếng Anh. Xem trước. “Karen Uhlenbeck: Some Thoughts on the Calculus of Variations” định hướng cho mục tiêu của bài: Sau bài, bạn có thể giải thích đối tượng gauge (connection, curvature, bundle) ở mức khẩu hiệu; mô tả vì sao compactness / bubbling / removable singularities quan trọng với PDE hìn…
+- [Robert Bryant: Limits, Bubbles, and Singularities: The fundamental ideas of Karen Uhlenbeck](https://www.youtube.com/watch?v=EZNpi8H6q1Q) — The Abel Prize, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài, bạn có thể giải thích đối tượng gauge (connection, curvature, bundle) ở mức khẩu hiệu; mô tả vì sao compactness / bubbling / removable singularities quan trọng với PDE hìn…
+- [Karen Uhlenbeck - The Abel Prize interview 2019](https://www.youtube.com/watch?v=0fOaetX4eHM) — The Abel Prize, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài, bạn có thể giải thích đối tượng gauge (connection, curvature, bundle) ở mức khẩu hiệu; mô tả vì sao compactness / bubbling / removable singularities quan trọng với PDE hìn…

@@ -269,3 +269,8 @@ Không phải vì kỹ thuật nặng, mà vì nó **thay đổi vũ trụ số*
 
 Chứng minh $$\sqrt{3}$$ vô tỉ theo cùng khuôn; chỉ ra bước nào gãy nếu thay bằng $$\sqrt{4}$$. Viết một câu nối sang mật độ hữu tỉ/vô tỉ trên $$\mathbb{R}$$.
 
+
+## Video tham khảo
+
+- **xem trước** — [The Most Beautiful Proof sqrt(2) is Irrational](https://www.youtube.com/watch?v=NegYPgMAua4) — Wrath of Math, tiếng Anh. Xem trước. “The Most Beautiful Proof sqrt(2) is Irrational” định hướng cho mục tiêu của bài: Phát biểu và chứng minh \sqrt{2} vô tỷ qua mâu thuẫn chẵn-chẵn ở dạng tối giản.
+- [The 5 Best Proofs that the Square Root of 2 is Irrational](https://www.youtube.com/watch?v=zEXcsZo4hOQ) — Tipping Point Math, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu và chứng minh \sqrt{2} vô tỷ qua mâu thuẫn chẵn-chẵn ở dạng tối giản.

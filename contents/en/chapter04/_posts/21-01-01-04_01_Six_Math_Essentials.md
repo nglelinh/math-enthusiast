@@ -173,3 +173,7 @@ Use the conversation for **orientation and stories**, not as a substitute for th
 ## Further directions
 
 Read [Infinity]({{ site.baseurl }}/contents/en/chapter04/04_02_Infinity/) next if you want the analysis pillar in slow motion; [Chaos]({{ site.baseurl }}/contents/en/chapter04/04_05_Chaos/) if you want dynamics. For prize-scale payoffs of the same habits of mind, jump to [Green–Tao]({{ site.baseurl }}/contents/en/chapter02/02_04_Green_Tao/) and [Viazovska]({{ site.baseurl }}/contents/en/chapter02/02_08_Viazovska_Sphere_Packing/). For the AI chapter of the same conversation, go to [Mathematics of AI]({{ site.baseurl }}/contents/en/chapter06/06_02_Mathematics_of_AI/). The point of a hub is not to finish the six pillars. It is to know which door you are opening.
+
+## Video tham khảo
+
+- **xem trước** — [One of the world's greatest mathematicians explains 6 essential concepts of math | Terence Tao](https://www.youtube.com/watch?v=OOMx2BHHWtE) — Big Think, English. Watch first. “One of the world's greatest mathematicians explains 6 essential concepts of math | Tere…” orients the lesson’s aim: Name Tao’s six pillars and give one accessible example of each, without treating the list as a complete atlas of mathematics.

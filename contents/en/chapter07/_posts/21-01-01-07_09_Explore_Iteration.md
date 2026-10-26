@@ -355,3 +355,9 @@ Caption transcripts and time-chunk units for pack videos: `research/video-resear
 
 *Figure. Sample still from a pack primary video (see pack for timestamps).*
 
+
+## Video tham khảo
+
+- **xem trước** — [The Simplest Math Problem No One Can Solve - Collatz Conjecture](https://www.youtube.com/watch?v=094y1Z2wpJg) — Veritasium, English. Watch first. “The Simplest Math Problem No One Can Solve - Collatz Conjecture” orients the lesson’s aim: State the Collatz (3n+1) rule and the open conjecture in precise language.
+- [UNCRACKABLE? The Collatz Conjecture - Numberphile](https://www.youtube.com/watch?v=5mFpVDpKX70) — Numberphile, English. A second pass once the main claim is in view: State the Collatz (3n+1) rule and the open conjecture in precise language.
+- [The 3x+1 Problem: Status and Recent Work Part 1](https://www.youtube.com/watch?v=t1I9uHF9X5Y) — Experimental mathematics, English. Further depth after the first two, still tied to this lesson: State the Collatz (3n+1) rule and the open conjecture in precise language.

@@ -255,3 +255,8 @@ Danh mục URL đầy đủ: `research/video-research/high-dimensional-geometry/
 - Flagship: [Toán AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/).
 - Thực hành: sample Gaussian chiều 2, 20, 200; histogram chuẩn và |cosine|.
 - Đọc: chương đầu Vershynin → JL → một vignette RMT.
+
+## Video tham khảo
+
+- **xem trước** — [Lecture 1](https://www.youtube.com/watch?v=nKmYjFoiuYM) — Roman Vershynin, tiếng Anh. Xem trước. “Lecture 1” định hướng cho mục tiêu của bài: Giải thích vì sao hầu hết thể tích quả cầu cao chiều nằm gần vỏ/xích đạo.
+- [High Dimensional Geometry and Concentration I](https://www.youtube.com/watch?v=UHvT1MxFuvo) — Simons Institute for the Theory of Computing, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Giải thích vì sao hầu hết thể tích quả cầu cao chiều nằm gần vỏ/xích đạo.

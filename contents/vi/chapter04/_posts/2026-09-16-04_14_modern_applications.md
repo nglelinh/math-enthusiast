@@ -62,3 +62,9 @@ Trang này không liệt lại số, đại số, hình học, xác suất, gi�
 - Wei, J., et al. (2022). Emergent abilities of large language models. *TMLR*. [arXiv:2206.07682](https://arxiv.org/abs/2206.07682).
 - Schaeffer, R., Miranda, B., & Koyejo, S. (2023). Are emergent abilities of large language models a mirage? *NeurIPS*. [arXiv:2304.15004](https://arxiv.org/abs/2304.15004).
 - Trang hat của Kaplan: [cs.uwaterloo.ca/~csk/hat](https://cs.uwaterloo.ca/~csk/hat/).
+
+## Video tham khảo
+
+- **xem trước** — [Discovery of the Aperiodic Monotile - Numberphile](https://www.youtube.com/watch?v=_ZS3Oqg1AX0) — Numberphile, tiếng Anh. Xem trước. “Discovery of the Aperiodic Monotile - Numberphile” định hướng cho mục tiêu của bài: Sau bài tùy chọn này, bạn nối được ba đối tượng “đẹp” đã có trong chương—trật tự không tuần hoàn, sinh động lực, và hiện tượng nảy sinh—với các hiện vật khoa học máy tính 2022–2026…
+- [But how do AI images and videos actually work? | Guest video by Welch Labs](https://www.youtube.com/watch?v=iv-5mZ_9CPY) — 3Blue1Brown, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài tùy chọn này, bạn nối được ba đối tượng “đẹp” đã có trong chương—trật tự không tuần hoàn, sinh động lực, và hiện tượng nảy sinh—với các hiện vật khoa học máy tính 2022–2026…
+- [Inventing Game of Life (John Conway) - Numberphile](https://www.youtube.com/watch?v=R9Plq-D1gEk) — Numberphile, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài tùy chọn này, bạn nối được ba đối tượng “đẹp” đã có trong chương—trật tự không tuần hoàn, sinh động lực, và hiện tượng nảy sinh—với các hiện vật khoa học máy tính 2022–2026…

@@ -271,3 +271,8 @@ Transcript caption và unit theo thời gian: `research/video-research/explore-f
 
 *Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
 
+
+## Video tham khảo
+
+- **xem trước** — [Strange Spheres in Higher Dimensions - Numberphile](https://www.youtube.com/watch?v=mceaM2_zQd8) — Numberphile, tiếng Anh. Xem trước. “Strange Spheres in Higher Dimensions - Numberphile” định hướng cho mục tiêu của bài: Dùng tọa độ định nghĩa khoảng cách, siêu phẳng, quả cầu trong \mathbb{R}^n tổng quát.
+- [Einstein Lectures: Maryna Viazovska - The sphere packing problem](https://www.youtube.com/watch?v=fH6KNlUJux0) — Universität Bern, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Dùng tọa độ định nghĩa khoảng cách, siêu phẳng, quả cầu trong \mathbb{R}^n tổng quát.

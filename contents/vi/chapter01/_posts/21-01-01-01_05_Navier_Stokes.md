@@ -246,3 +246,9 @@ Thư mục URL: `research/video-research/Navier_Stokes/references.md`.
 ## Hướng đi tiếp
 
 Ứng viên **A3**. Studio: cascade Kolmogorov như *heuristic*—không phải chứng minh. Đọc Deng cho “từ hạt tới continuum,” rồi giữ ranh giới kỹ thuật vs Clay.
+
+## Video tham khảo
+
+- **xem trước** — [Navier-Stokes Equations - Numberphile](https://www.youtube.com/watch?v=ERBVFcutl3M) — Numberphile, tiếng Anh. Xem trước. “Navier-Stokes Equations - Numberphile” định hướng cho mục tiêu của bài: Viết hệ Navier–Stokes không nén (vận tốc + áp suất, ràng buộc \nabla\cdot u=0) ở mức khẩu hiệu và gọi tên hạng phi tuyến, nhớt, áp suất.
+- [The million dollar equation (Navier-Stokes equations)](https://www.youtube.com/watch?v=Ra7aQlenTb8) — vcubingx, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Viết hệ Navier–Stokes không nén (vận tốc + áp suất, ràng buộc \nabla\cdot u=0) ở mức khẩu hiệu và gọi tên hạng phi tuyến, nhớt, áp suất.
+- [Luis Caffarelli, Navier-Stokes existence and smoothness](https://www.youtube.com/watch?v=ta6Q70y6YVU) — Clay Mathematics Institute, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Viết hệ Navier–Stokes không nén (vận tốc + áp suất, ràng buộc \nabla\cdot u=0) ở mức khẩu hiệu và gọi tên hạng phi tuyến, nhớt, áp suất.

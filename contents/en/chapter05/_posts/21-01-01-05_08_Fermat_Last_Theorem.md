@@ -249,3 +249,9 @@ Full URL bibliography from video research: `research/video-research/fermat-last-
 - Compare FLT’s bridge proof with the Poincaré conjecture’s PDE bridge (methodology transfer).  
 - Explore what “semistable” means and why Frey’s curves land in Wiles’s theorem.  
 - Note one precise question you still have—good questions are part of mathematical practice.
+
+## Video tham khảo
+
+- **xem trước** — [Fermat's Last Theorem - Numberphile](https://www.youtube.com/watch?v=qiNcEguuFSA) — Numberphile, English. Watch first. “Fermat's Last Theorem - Numberphile” orients the lesson’s aim: State FLT precisely and check small cases n=3,4 as historical milestones (idea-level).
+- [The Bridges to Fermat's Last Theorem - Numberphile](https://www.youtube.com/watch?v=nUN4NDVIfVI) — Numberphile, English. A second pass once the main claim is in view: State FLT precisely and check small cases n=3,4 as historical milestones (idea-level).
+- [Fermat’s Last Theorem (with Ken Ribet) - Numberphile Podcast](https://www.youtube.com/watch?v=NPOw4iIxN6o) — Numberphile2, English. Further depth after the first two, still tied to this lesson: State FLT precisely and check small cases n=3,4 as historical milestones (idea-level).

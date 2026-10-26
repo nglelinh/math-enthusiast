@@ -146,3 +146,9 @@ Lý thuyết động học có entropy, định lý $$H$$, và contour Landau, n
 
 - Đọc phần mở Mouhot–Villani (trộn pha versus mất năng lượng) trước các chuẩn analytic; so định lý $$H$$ thuần nhất với sơ đồ Desvillettes–Villani không thuần nhất.
 - Gợi ý seminar: bạn kỳ vọng Landau damping phi tuyến thất bại ở lớp chính quy nào, và vì sao điều đó không mâu thuẫn với định lý *Acta*?
+
+## Video tham khảo
+
+- **xem trước** — [Conferências Magnas: Cédric Villani - Large particle systems and Landau damping (2012)](https://www.youtube.com/watch?v=3Aa1Fyd1pW0) — Instituto de Matemática Pura e Aplicada, tiếng Anh. Xem trước. “Conferências Magnas: Cédric Villani - Large particle systems and Landau damping (2012)” định hướng cho mục tiêu của bài: Phân biệt khung Vlasov (không va chạm, trường tự hợp) của Landau damping với khung Boltzmann (có va chạm) của xu hướng về cân bằng.
+- [Cédric Villani - From KAM Theory to Landau Damping, IHP 30/09/2013 - Part 1](https://www.youtube.com/watch?v=pHJV-E1EOA8) — Institut Henri Poincaré, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phân biệt khung Vlasov (không va chạm, trường tự hợp) của Landau damping với khung Boltzmann (có va chạm) của xu hướng về cân bằng.
+- [Landau damping: Gevrey regularity and paraproducts - Clément Mouhot](https://www.youtube.com/watch?v=eja7NTV7Igs) — Institute for Advanced Study, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phân biệt khung Vlasov (không va chạm, trường tự hợp) của Landau damping với khung Boltzmann (có va chạm) của xu hướng về cân bằng.

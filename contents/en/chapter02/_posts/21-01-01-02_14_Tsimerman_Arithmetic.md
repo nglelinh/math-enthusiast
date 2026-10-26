@@ -226,3 +226,9 @@ Full URL bibliography from video research (including secondary finds): `research
 - Compare with **modularity theorems** as another arithmetic–analytic bridge (different conjectural shape, similar “analysis produces algebra” moral).
 - Read a careful survey of the **Zilber–Pink** conjectures as the broader unlikely-intersections landscape beyond André–Oort.
 - Seminar A3 option: write an open-problem brief on “André–Oort beyond Siegel” or “effective unlikely intersections,” carefully separated from what the 2026 citation already records.
+
+## Video tham khảo
+
+- **xem trước** — [2026 Fields Medal: Jacob Tsimerman](https://www.youtube.com/watch?v=TAh5tZ8QAzQ) — Simons Foundation, English. Watch first. “2026 Fields Medal: Jacob Tsimerman” orients the lesson’s aim: State André–Oort at slogan level: atypical collections of special points force special subvarieties.
+- [Jacob Tsimerman - o-minimality and Unlikely Intersections](https://www.youtube.com/watch?v=2N9lZRawi3I) — princetonmathematics, English. A second pass once the main claim is in view: State André–Oort at slogan level: atypical collections of special points force special subvarieties.
+- [Period mappings are definable in the o-minimal structure ℝan,exp - Jacob Tsimerman](https://www.youtube.com/watch?v=6lsOOBPHXRk) — Institute for Advanced Study, English. Further depth after the first two, still tied to this lesson: State André–Oort at slogan level: atypical collections of special points force special subvarieties.

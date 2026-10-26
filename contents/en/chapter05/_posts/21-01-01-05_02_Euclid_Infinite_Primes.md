@@ -325,3 +325,9 @@ Full URL bibliography from video research: `research/video-research/euclid-infin
 ## Further directions
 
 Next proof ideas in this section: irrationality of $$\sqrt{2}$$ (parity and descent), Königsberg (modeling and degrees), the Four Color Theorem (finite case analysis and computers), Fermat’s Last Theorem and the Poincaré conjecture as modern epics where the *idea* spans whole fields. Each reuses the discipline practiced here: isolate the construction, state the obstruction, and know the limits of the claim.
+
+## Video tham khảo
+
+- **xem trước** — [Infinite Primes - Numberphile](https://www.youtube.com/watch?v=ctC33JAV4FI) — Numberphile, English. Watch first. “Infinite Primes - Numberphile” orients the lesson’s aim: Write Euclid’s argument as assumption → construction → contradiction, with correct modular intuition (remainder 1 when dividing by each listed prime).
+- [Euclid's proof that there are infinitely many primes! Classic math proof!](https://www.youtube.com/watch?v=816JCX5tKD8) — blackpenredpen, English. A second pass once the main claim is in view: Write Euclid’s argument as assumption → construction → contradiction, with correct modular intuition (remainder 1 when dividing by each listed prime).
+- [Proof: There are Infinitely Many Primes (There is no Largest Prime)](https://www.youtube.com/watch?v=ZYkZws-23R8) — Wrath of Math, English. Further depth after the first two, still tied to this lesson: Write Euclid’s argument as assumption → construction → contradiction, with correct modular intuition (remainder 1 when dividing by each listed prime).

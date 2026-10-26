@@ -256,3 +256,9 @@ Danh mục URL đầy đủ: `research/video-research/godel-incompleteness/refer
 - Nối bất toàn với bài toán thứ mười Hilbert (định lý khác, cùng chủ đề tính toán).  
 - Trong proof assistant: kernel tin cậy liên quan thế nào tới “nhất quán sống ở siêu lý thuyết”?  
 - Ghi một câu hỏi chính xác bạn vẫn còn.
+
+## Video tham khảo
+
+- **xem trước** — [Gödel's Incompleteness Theorem - Numberphile](https://www.youtube.com/watch?v=O4ndIDcDSGc) — Numberphile, tiếng Anh. Xem trước. “Gödel's Incompleteness Theorem - Numberphile” định hướng cho mục tiêu của bài: Phát biểu phiên bản không hình thức nhưng chính xác của định lý bất toàn thứ nhất và thứ hai.
+- [The paradox at the heart of mathematics: Gödel's Incompleteness Theorem - Marcus du Sautoy](https://www.youtube.com/watch?v=I4pQbo5MQOs) — TED-Ed, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu phiên bản không hình thức nhưng chính xác của định lý bất toàn thứ nhất và thứ hai.
+- [Math's Fundamental Flaw](https://www.youtube.com/watch?v=HeQX2HjkcNo) — Veritasium, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu phiên bản không hình thức nhưng chính xác của định lý bất toàn thứ nhất và thứ hai.

@@ -249,3 +249,8 @@ Caption transcripts and time-chunk units for pack videos: `research/video-resear
 
 *Figure. Sample still from a pack primary video (see pack for timestamps).*
 
+
+## Video tham khảo
+
+- **xem trước** — [Terence Tao: Structure and Randomness in the Prime Numbers, UCLA](https://www.youtube.com/watch?v=PtsrAw1LR3E) — UCLA, English. Watch first. “Terence Tao: Structure and Randomness in the Prime Numbers, UCLA” orients the lesson’s aim: Give examples where randomness destroys structure and where probability creates proofs of structure (or of extremal objects).
+- [Chaos: The Science of the Butterfly Effect](https://www.youtube.com/watch?v=fDek6cYijxI) — Veritasium, English. A second pass once the main claim is in view: Give examples where randomness destroys structure and where probability creates proofs of structure (or of extremal objects).

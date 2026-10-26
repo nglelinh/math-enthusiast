@@ -195,3 +195,8 @@ Danh mục URL đầy đủ (mọi link tìm được khi nghiên cứu video): 
 ## Hướng đi tiếp
 
 Đối tượng lạ có tồn tại: [Hình học lạ]({{ site.baseurl }}/contents/vi/chapter04/04_06_Strange_Geometry/). Nghịch lý logic: [Nghịch lý]({{ site.baseurl }}/contents/vi/chapter04/04_07_Paradoxes/). Quy tắc địa phương–hệ quả toàn cục: [Lát]({{ site.baseurl }}/contents/vi/chapter04/04_10_Tilings/) và [Hiện tượng nảy sinh]({{ site.baseurl }}/contents/vi/chapter04/04_12_Emergence/).
+
+## Video tham khảo
+
+- **xem trước** — [Building the Impossible - A Penrose Triangle in Geogebra 3D](https://www.youtube.com/watch?v=QpwddAqYzkA) — SparksMaths, tiếng Anh. Xem trước. “Building the Impossible - A Penrose Triangle in Geogebra 3D” định hướng cho mục tiêu của bài: Giải thích nhất quán địa phương vs khả thi toàn cục cho bản vẽ vật rắn.
+- [The Infinite Pattern That Never Repeats](https://www.youtube.com/watch?v=48sCx-wBs34) — Veritasium, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Giải thích nhất quán địa phương vs khả thi toàn cục cho bản vẽ vật rắn.

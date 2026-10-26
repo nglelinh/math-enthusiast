@@ -222,3 +222,9 @@ Complete list: `research/video-research/wiles-fermat/references.md`.
 - Compare with a related [Fields essay]({{ site.baseurl }}/contents/en/chapter02/02_00_Overview/).  
 - Note one precise open question nearby: aspects of BSD; modularity in higher dimensions; broader Langlands correspondences.  
 - Next: [Karen Uhlenbeck: Gauge Theory]({{ site.baseurl }}/contents/en/chapter08/08_04_Uhlenbeck_Gauge/).
+
+## Video tham khảo
+
+- **xem trước** — [Andrew Wiles: Fermat's Last theorem: abelian and non-abelian approaches](https://www.youtube.com/watch?v=4t1mgEBx1nQ) — The Abel Prize, English. Watch first. “Andrew Wiles: Fermat's Last theorem: abelian and non-abelian approaches” orients the lesson’s aim: After this lecture you should be able to state FLT precisely for integers n\ge 3; explain the Frey curve → Ribet → modularity → contradiction strategy at idea level; distinguish Wi…
+- [Henri Darmon: Andrew Wiles' marvelous proof](https://www.youtube.com/watch?v=oqMaziDIBYY) — The Abel Prize, English. A second pass once the main claim is in view: After this lecture you should be able to state FLT precisely for integers n\ge 3; explain the Frey curve → Ribet → modularity → contradiction strategy at idea level; distinguish Wi…
+- [Andrew Wiles - The Abel Prize interview 2016](https://www.youtube.com/watch?v=cWKAzX5U85Q) — The Abel Prize, English. Further depth after the first two, still tied to this lesson: After this lecture you should be able to state FLT precisely for integers n\ge 3; explain the Frey curve → Ribet → modularity → contradiction strategy at idea level; distinguish Wi…

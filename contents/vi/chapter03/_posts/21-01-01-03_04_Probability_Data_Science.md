@@ -258,3 +258,9 @@ Danh mục URL đầy đủ (mọi link tìm được khi nghiên cứu video): 
 
 - [Lý thuyết số → Mật mã]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/) hoặc [Tối ưu]({{ site.baseurl }}/contents/vi/chapter03/03_07_Optimization_Operations_AI/).  
 - Viết lại cơ chế cốt lõi một đoạn; ghi một câu hỏi còn mở.
+
+## Video tham khảo
+
+- **xem trước** — [Bayes theorem, the geometry of changing beliefs](https://www.youtube.com/watch?v=HZGCoVF3YvM) — 3Blue1Brown, tiếng Anh. Xem trước. “Bayes theorem, the geometry of changing beliefs” định hướng cho mục tiêu của bài: Phân biệt dữ liệu như con số cố định với dữ liệu như hiện thực của biến ngẫu nhiên.
+- [The Bayesian Trap](https://www.youtube.com/watch?v=R13BD8qKeTg) — Veritasium, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phân biệt dữ liệu như con số cố định với dữ liệu như hiện thực của biến ngẫu nhiên.
+- [Binomial distributions | Probabilities of probabilities, part 1](https://www.youtube.com/watch?v=8idr1WZ1A7Q) — 3Blue1Brown, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phân biệt dữ liệu như con số cố định với dữ liệu như hiện thực của biến ngẫu nhiên.

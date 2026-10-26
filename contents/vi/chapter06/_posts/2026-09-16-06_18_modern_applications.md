@@ -65,3 +65,9 @@ Trang này không làm lại suy ra attention, bound PAC, hay AdS/CFT. Các deep
 - Abramson, J., et al. (2024). Accurate structure prediction of biomolecular interactions with AlphaFold 3. *Nature*, 630, 493–500. [doi:10.1038/s41586-024-07487-w](https://doi.org/10.1038/s41586-024-07487-w).
 - Kovachki, N., et al. (2023). Neural operator. *JMLR*, 24(89). [bài báo](https://jmlr.org/papers/v24/21-1524.html).
 - NIST. (2024). FIPS 203/204/205. [thông báo nist.gov](https://www.nist.gov/news-events/news/2024/08/announcing-approval-three-federal-information-processing-standards-fips).
+
+## Video tham khảo
+
+- **xem trước** — [Chinchilla Explained: Compute-Optimal Massive Language Models](https://www.youtube.com/watch?v=PZXN7jm9IC0) — Edan Meyer, tiếng Anh. Xem để nắm đánh đổi huấn luyện tối ưu tính toán (Chinchilla): số tham số và số token. Đây là video giải thích bài báo scaling, không phải bài giảng của tác giả.
+- [AlphaFold - The Most Useful Thing AI Has Ever Done](https://www.youtube.com/watch?v=P_fHJIYENdI) — Veritasium, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài cập nhật tùy chọn này, bạn đặt được bốn hiện vật 2022–2026—huấn luyện LLM tối ưu tính toán, AlphaFold 3, toán tử PDE nơ-ron, và KEM lattice đã chuẩn hóa—lên bản đồ biên giớ…
+- [Fourier Neural Operator (FNO) (Physics Informed Machine Learning)](https://www.youtube.com/watch?v=W8PybqAk6Ik) — Steve Brunton, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài cập nhật tùy chọn này, bạn đặt được bốn hiện vật 2022–2026—huấn luyện LLM tối ưu tính toán, AlphaFold 3, toán tử PDE nơ-ron, và KEM lattice đã chuẩn hóa—lên bản đồ biên giớ…

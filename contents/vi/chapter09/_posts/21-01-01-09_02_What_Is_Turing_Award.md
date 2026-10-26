@@ -187,3 +187,9 @@ Danh mục đầy đủ: `research/video-research/what-is-turing-award/reference
 ## Turing Award như bản đồ
 
 Essay seminar: ưu tiên **citation chính thức** và **một cơ chế** (đối tượng, giả định, reduction/mô hình). Giải là spotlight; sân khấu là toán tính toán. Đọc một năm: gạch chân danh từ → phân loại (computability / complexity / algorithms / crypto / systems / learning) → nối [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/), [mật mã]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/), hoặc [Wigderson]({{ site.baseurl }}/contents/vi/chapter08/08_06_Lovasz_Wigderson/).
+
+## Video tham khảo
+
+- **xem trước** — [Celebrating 50 Years of the ACM A.M. Turing Award and Computing's Greatest Achievements](https://www.youtube.com/watch?v=MuTGa_xvCgc) — Association for Computing Machinery (ACM), tiếng Anh. Xem trước. “Celebrating 50 Years of the ACM A.M. Turing Award and Computing's Greatest Achievements” định hướng cho mục tiêu của bài: Sau bài, bạn có thể mô tả vai trò thể chế của Giải Turing trong cộng đồng khoa học máy tính; so sánh chính xác Turing Award với Fields, Abel và Clay Millennium theo nhịp, tuổi, và…
+- [“Computer Science as a Major Body of Accumulated Knowledge,” at ACM Turing 50 Celebration](https://www.youtube.com/watch?v=ACsQ4ixtqTc) — Association for Computing Machinery (ACM), tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài, bạn có thể mô tả vai trò thể chế của Giải Turing trong cộng đồng khoa học máy tính; so sánh chính xác Turing Award với Fields, Abel và Clay Millennium theo nhịp, tuổi, và…
+- [Turing the Man](https://www.youtube.com/watch?v=nvwK-11uxSo) — Association for Computing Machinery (ACM), tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài, bạn có thể mô tả vai trò thể chế của Giải Turing trong cộng đồng khoa học máy tính; so sánh chính xác Turing Award với Fields, Abel và Clay Millennium theo nhịp, tuổi, và…

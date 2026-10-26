@@ -227,3 +227,9 @@ Complete list: `research/video-research/deep-learning-trio/references.md`.
 - Track a scaling-law paper and separate fit curves from causal claims about intelligence.  
 - After Pearl: write when a recommender system’s offline accuracy misleads under intervention.  
 - Next: [Wigderson]({{ site.baseurl }}/contents/en/chapter09/09_13_Wigderson_Complexity/)—randomness and proofs, a different Turing mountain.
+
+## Video tham khảo
+
+- **xem trước** — [ACM A.M. Turing Award 2018: Yoshua Bengio, Yan Lecun and Geoffrey Hinton](https://www.youtube.com/watch?v=HzilDIhWhrE) — Association for Computing Machinery (ACM), English. Watch first. “ACM A.M. Turing Award 2018: Yoshua Bengio, Yan Lecun and Geoffrey Hinton” orients the lesson’s aim: After this lecture you should be able to write a layer map x\mapsto\sigma(Wx+b) and describe a deep net as composition; explain training as empirical risk minimization with gradien…
+- [Geoffrey Hinton and Yann LeCun, 2018 ACM A.M. Turing Award Lecture "The Deep Learning Revolution"](https://www.youtube.com/watch?v=VsnQf7exv5I) — Association for Computing Machinery (ACM), English. A second pass once the main claim is in view: After this lecture you should be able to write a layer map x\mapsto\sigma(Wx+b) and describe a deep net as composition; explain training as empirical risk minimization with gradien…
+- [AAAI 20 / AAAI 2020 Keynotes Turing Award Winners Event / Geoff Hinton, Yann Le Cunn, Yoshua Bengio](https://www.youtube.com/watch?v=UX8OubxsY8w) — ICML IJCAI ECAI 2018 Conference Videos, English. Further depth after the first two, still tied to this lesson: After this lecture you should be able to write a layer map x\mapsto\sigma(Wx+b) and describe a deep net as composition; explain training as empirical risk minimization with gradien…

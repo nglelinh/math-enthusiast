@@ -232,3 +232,9 @@ Danh mục đầy đủ: `research/video-research/yao-complexity/references.md`.
 - Thực hành: cài fingerprinting EQ; đo số bit vs xác suất lỗi trên $$n$$ tăng.  
 - Đọc: một chapter Kushilevitz–Nisan về rectangle → một survey information complexity → một paper streaming lower bound.  
 - Tiếp chương: [Valiant và học tính toán]({{ site.baseurl }}/contents/vi/chapter09/09_09_Valiant_Learning/).
+
+## Video tham khảo
+
+- **xem trước** — [Andrew C. Yao - Some Perspectives on Computational and Communication Complexity](https://www.youtube.com/watch?v=g7KzDojwAuM) — IEEE Information Theory Society, tiếng Anh. Xem trước. “Andrew C. Yao - Some Perspectives on Computational and Communication Complexity” định hướng cho mục tiêu của bài: Sau bài, bạn có thể phát biểu nguyên lý Yao (minimax) ở mức khẩu hiệu chính xác: cost tối ưu randomized worst-case bằng cost tối ưu deterministic trung bình theo phân phối khó nhất…
+- [【Kyoto Prize Commemorative Lecture】Andrew Chi-Chih Yao “A Journey Through Computer Science”](https://www.youtube.com/watch?v=9BPksehCgOU) — Kyoto Prize, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài, bạn có thể phát biểu nguyên lý Yao (minimax) ở mức khẩu hiệu chính xác: cost tối ưu randomized worst-case bằng cost tối ưu deterministic trung bình theo phân phối khó nhất…
+- [Andrew Chi Chih Yao: Building Up Computer Science by Asking Good Questions #ICBS2024](https://www.youtube.com/watch?v=lRwCImYTLkE) — BIMSA, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài, bạn có thể phát biểu nguyên lý Yao (minimax) ở mức khẩu hiệu chính xác: cost tối ưu randomized worst-case bằng cost tối ưu deterministic trung bình theo phân phối khó nhất…

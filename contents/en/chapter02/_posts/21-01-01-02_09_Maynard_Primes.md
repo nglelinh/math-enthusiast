@@ -271,3 +271,9 @@ Full URL bibliography from video research (including secondary finds): `research
 - Exploration studio: compute consecutive prime gaps up to a bound $$N$$ and plot the running liminf candidate; discuss how computation illustrates but does not prove infinitude.
 - Optional: conditional world under Elliott–Halberstam—what $$H$$ become available, and why $$H=2$$ still resists.
 - Return to [Ch.01 twins]({{ site.baseurl }}/contents/en/chapter01/01_06_Twin_Prime_Conjecture/) for heuristics; stay here for the Fields-level sieve technology story.
+
+## Video tham khảo
+
+- **xem trước** — [Twin Prime Conjecture - Numberphile](https://www.youtube.com/watch?v=QKHKD8bRAro) — Numberphile, English. Watch first. “Twin Prime Conjecture - Numberphile” orients the lesson’s aim: State a bounded-gap theorem: \liminfn(p{n+1}-pn)\le H for an explicit finite H.
+- [Gaps between Primes - Numberphile](https://www.youtube.com/watch?v=vkMXdShDdtY) — Numberphile, English. A second pass once the main claim is in view: State a bounded-gap theorem: \liminfn(p{n+1}-pn)\le H for an explicit finite H.
+- [James Maynard - Patterns in prime numbers](https://www.youtube.com/watch?v=ey_57qWhGEM) — G-Research, English. Further depth after the first two, still tied to this lesson: State a bounded-gap theorem: \liminfn(p{n+1}-pn)\le H for an explicit finite H.

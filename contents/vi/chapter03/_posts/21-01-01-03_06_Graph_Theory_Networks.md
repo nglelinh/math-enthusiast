@@ -255,3 +255,9 @@ Danh mục URL đầy đủ (mọi link tìm được khi nghiên cứu video): 
 - [Tối ưu → Vận hành & AI]({{ site.baseurl }}/contents/vi/chapter03/03_07_Optimization_Operations_AI/).  
 - [Network Science]({{ site.baseurl }}/contents/vi/chapter06/06_05_Network_Science/).  
 - Viết lại cơ chế cốt lõi một đoạn; ghi một câu hỏi còn mở.
+
+## Video tham khảo
+
+- **xem trước** — [The Seven Bridges of Königsberg - Numberphile](https://www.youtube.com/watch?v=W18FDEA1jRQ) — Numberphile, tiếng Anh. Xem trước. “The Seven Bridges of Königsberg - Numberphile” định hướng cho mục tiêu của bài: Mô hình hóa hệ thật như G=(V,E) (có hướng/không, có trọng/không) và nói đỉnh–cạnh là gì.
+- [Eigenvectors and eigenvalues | Chapter 14, Essence of linear algebra](https://www.youtube.com/watch?v=PFDu9oVAE-g) — 3Blue1Brown, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Mô hình hóa hệ thật như G=(V,E) (có hướng/không, có trọng/không) và nói đỉnh–cạnh là gì.
+- [PageRank: A Trillion Dollar Algorithm](https://www.youtube.com/watch?v=JGQe4kiPnrU) — Reducible, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Mô hình hóa hệ thật như G=(V,E) (có hướng/không, có trọng/không) và nói đỉnh–cạnh là gì.

@@ -173,3 +173,9 @@ Một chương sau—mean field games, bài giảng Collège de France—tiếp 
 - So sánh giới hạn nhớt triệt tiêu với nghiệm entropy của luật bảo toàn vô hướng (một lý thuyết yếu họ hàng, không cùng định nghĩa).
 - Nếu đi tiếp về ứng dụng, hãy xem mean field games như *người tiêu thụ* nghiệm nhớt, định niên đại sau huy chương.
 - Tùy chọn seminar A3: một trang “nghiệm nhớt không phải là gì” (không phải NS, không phải MFG-như-citation, không phải độ nhớt chất lưu).
+
+## Video tham khảo
+
+- **xem trước** — [The Essentials of Viscosity Solutions in R^n II](https://www.youtube.com/watch?v=I_fsCAW3xrM) — USF GradMath, tiếng Anh. Xem trước phần nhập môn nghiệm nhớt trong R^n — đối tượng giải tích của huy chương Lions — trước các bài giảng của chính Lions.
+- [Pierre-Louis Lions: Complete" Analysis of the Master Equation: an Example](https://www.youtube.com/watch?v=k0G_fwTVqHA) — Centre de recherches mathématiques - CRM, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu lại tài liệu ICM 1994 như một danh mục (xác suất, PDE phi tuyến, ứng dụng) chứ không phải một định lý đơn lẻ.
+- [Charlemagne Distingushed Lecture Series 2012 with Prof. Dr. Pierre-Louis Lions](https://www.youtube.com/watch?v=spkaGZPTt9Q) — IRTG 2379 MIP, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu lại tài liệu ICM 1994 như một danh mục (xác suất, PDE phi tuyến, ứng dụng) chứ không phải một định lý đơn lẻ.

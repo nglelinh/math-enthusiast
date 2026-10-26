@@ -151,3 +151,9 @@ Dimension four was expected to be hard; that Yang–Mills analysis would force �
 
 - Read Atiyah’s ICM 1986 laudation, then Donaldson–Kronheimer Chapter 1; after the Uhlenbeck essay, note why bubbling is a feature (it produces $$\partial\mathcal{M}$$).
 - Seminar prompt: what would a classification of smooth simply connected four-manifolds still need beyond intersection forms?
+
+## Video tham khảo
+
+- **xem trước** — [Simon Donaldson, Invariants of manifolds and the classification problem](https://www.youtube.com/watch?v=IO0HNEs8oxQ) — Clay Mathematics Institute, English. Watch first. “Simon Donaldson, Invariants of manifolds and the classification problem” orients the lesson’s aim: Explain why dimension four is special: Whitney trick and high-dimensional surgery fail, while low-dimensional cut-and-paste is not enough.
+- [The Shaw Prize Lecture in Mathematical Sciences 2009 - by Professor Simon K Donaldson](https://www.youtube.com/watch?v=5yhxUCtNRQE) — The Shaw Prize, English. A second pass once the main claim is in view: Explain why dimension four is special: Whitney trick and high-dimensional surgery fail, while low-dimensional cut-and-paste is not enough.
+- [Overview of gauge theory and submanifold geometry on G_2 manifolds - Simon Donaldson (2014)](https://www.youtube.com/watch?v=xIqLhsrgcBI) — Graduate Mathematics, English. Further depth after the first two, still tied to this lesson: Explain why dimension four is special: Whitney trick and high-dimensional surgery fail, while low-dimensional cut-and-paste is not enough.

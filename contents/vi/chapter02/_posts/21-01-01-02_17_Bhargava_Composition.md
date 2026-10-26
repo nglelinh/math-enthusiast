@@ -168,3 +168,9 @@ Bài này không kèm gói nghiên cứu video của khóa học.
 - Đọc một tài liệu giải thích nhóm 2-Selmer (ví dụ một chương đầu Silverman cộng một survey thống kê số học) cho đến khi dãy khớp ở trên cảm thấy tất yếu.
 - Tùy chọn seminar A3: bản một trang về *những gì vẫn mở*—hạng trung bình đúng, BSD, và đếm trường bậc $$\ge 6$$—không thổi 2014 thành việc khép lý thuyết số.
 - Nếu thích khối lập phương hơn hạng, ở lại với các tham số hóa; nếu thích hạng hơn khối, sang [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/) và giữ phân biệt Selmer/hàm $$L$$ trên trang.
+
+## Video tham khảo
+
+- **xem trước** — [Manjul Bhargava, The average rank of elliptic curves](https://www.youtube.com/watch?v=t5S8PO2PQgU) — Clay Mathematics Institute, tiếng Anh. Xem trước. “Manjul Bhargava, The average rank of elliptic curves” định hướng cho mục tiêu của bài: Phát biểu citation IMU 2014 trong một đoạn, nêu hình học các số, vành hạng nhỏ, và hạng elliptic trung bình.
+- [Manjul Bhargava - The average rank of elliptic curves: data, conjectures, and theorems](https://www.youtube.com/watch?v=zm1v_FaTglw) — princetonmathematics, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu citation IMU 2014 trong một đoạn, nêu hình học các số, vành hạng nhỏ, và hạng elliptic trung bình.
+- [Manjul Bhargava - Rational points on elliptic and hyperelliptic curves MCA 2013](https://www.youtube.com/watch?v=6NHO-0FKAjM) — MCA2013, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu citation IMU 2014 trong một đoạn, nêu hình học các số, vành hạng nhỏ, và hạng elliptic trung bình.

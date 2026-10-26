@@ -245,3 +245,9 @@ AdS/CFT                 hấp dẫn bulk ↔ QFT biên
 - **Gói nghiên cứu:** `research/video-research/mirror-symmetry/`, `ads-cft/`, `geometric-langlands-sduality/`.  
 - **Thói quen:** ghi ba cột—*cặp dual / đổi gì / định lý vs giả thuyết*.  
 - **Câu seminar:** Lý thuyết chỉ số có phải dualty không? (Chỉ số giải tích ↔ chỉ số tôpô là *đẳng thức bất biến*, gần dual nhưng không cùng tương đương lý thuyết.)
+
+## Video tham khảo
+
+- **xem trước** — [Edward Witten: Mirror Symmetry & Geometric Langlands (2012)](https://www.youtube.com/watch?v=S02ghGCdNDo) — Graduate Mathematics, tiếng Anh. Xem trước. “Edward Witten: Mirror Symmetry & Geometric Langlands (2012)” định hướng cho mục tiêu của bài: Phát biểu, bằng một câu cẩn thận, toán học thường hiểu đối ngẫu là gì (pairing, involution, hoặc tương đương đảo mũi tên / bù chiều).
+- [HMS for local CY manifolds via SYZ | Kwokwai Chan](https://www.youtube.com/watch?v=Kz6Dj8KSFjM) — Harvard CMSA, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu, bằng một câu cẩn thận, toán học thường hiểu đối ngẫu là gì (pairing, involution, hoặc tương đương đảo mũi tên / bù chiều).
+- [Lagrangian fillings what does the sheaf say? | Eric Zaslow](https://www.youtube.com/watch?v=Y3-sw3tjZiU) — Harvard CMSA, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu, bằng một câu cẩn thận, toán học thường hiểu đối ngẫu là gì (pairing, involution, hoặc tương đương đảo mũi tên / bù chiều).

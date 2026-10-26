@@ -227,3 +227,9 @@ Khi đọc tin “AI dự báo thời tiết bằng PDE/neural operator”, hãy
 
 Chọn một hệ một chiều (dao động có cản, hoặc logistic có khai thác). Viết (i) phương trình, (ii) một giả thiết bị bỏ, (iii) một đại lượng quan sát được, (iv) một câu LO6: điều gì vẫn là định lý thuần túy và điều gì là mô phỏng.
 
+
+## Video tham khảo
+
+- **xem trước** — [Differential equations, a tourist's guide | DE1](https://www.youtube.com/watch?v=p_di4Zn4wz4) — 3Blue1Brown, tiếng Anh. Xem trước. “Differential equations, a tourist's guide | DE1” định hướng cho mục tiêu của bài: Phân biệt ODE/PDE và hệ tự trị/không tự trị thoáng nhìn.
+- [2. First-Order Equations](https://www.youtube.com/watch?v=4X0SGGrXDiI) — MIT OpenCourseWare, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phân biệt ODE/PDE và hệ tự trị/không tự trị thoáng nhìn.
+- [Logistic Map Explained (Strogatz Ch. 10): Period-Doubling Route to Chaos | Part 1](https://www.youtube.com/watch?v=PVo1mHnU7WU) — Dr. Shane Ross, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phân biệt ODE/PDE và hệ tự trị/không tự trị thoáng nhìn.

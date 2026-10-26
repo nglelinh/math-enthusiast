@@ -255,3 +255,8 @@ Danh mục URL đầy đủ: `research/video-research/quantum-information/refere
 - Thực hành: mô phỏng mạch Bell hai qubit (statevector); đo tương quan.
 - Đọc: Nielsen–Chuang trạng thái/đo → Shor mức cao → một survey sửa sai hiện đại.
 - Từ vựng cá nhân: *trạng thái, unitary, vướng víu, hỗn hợp, fault tolerance, tách oracle*.
+
+## Video tham khảo
+
+- **xem trước** — [How Does a Quantum Computer Work?](https://www.youtube.com/watch?v=g_IaVepNDT4) — Veritasium, tiếng Anh. Xem trước. “How Does a Quantum Computer Work?” định hướng cho mục tiêu của bài: Biểu diễn qubit như vector đơn vị trong \mathbb{C}^2; đo trong cơ sở trực chuẩn cho xác suất.
+- [How To Make a Quantum Bit](https://www.youtube.com/watch?v=zNzzGgr2mhk) — Veritasium, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Biểu diễn qubit như vector đơn vị trong \mathbb{C}^2; đo trong cơ sở trực chuẩn cho xác suất.

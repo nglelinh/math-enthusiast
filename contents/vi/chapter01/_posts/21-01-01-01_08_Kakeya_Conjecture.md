@@ -502,3 +502,9 @@ Thư mục URL: `research/video-research/Kakeya_Conjecture/references.md`.
 
 Tùy chọn: [CHALK Hausdorff](https://www.youtube.com/watch?v=LJcWhcM4okQ&t=19s) + [CHALK MDP](https://www.youtube.com/watch?v=FQXbRGmAbUY); [Mathologer squeegee](https://www.youtube.com/watch?v=IM-n9c-ARHU&t=632s); [Pham Manh Tuyen](https://www.youtube.com/watch?v=XUkfpgFakMQ) hoặc [TOÁN PRO](https://www.youtube.com/watch?v=pxVMKoZsVc8).  
 - So văn hóa với [lộ trình Bốn màu B]({{ site.baseurl }}/contents/vi/chapter01/01_09_Four_Color_Theorem/).
+
+## Video tham khảo
+
+- **xem trước** — [The Kakeya needle problem (the squeegee approach)](https://www.youtube.com/watch?v=IM-n9c-ARHU) — Mathologer, tiếng Anh. Xem trước. “The Kakeya needle problem (the squeegee approach)” định hướng cho mục tiêu của bài: Định nghĩa tập Kakeya (Besicovitch) trong \mathbb{R}^n.
+- [What is Hausdorff Dimension? Intuition, Gauge Functions, and Hausdorff Measures](https://www.youtube.com/watch?v=LJcWhcM4okQ) — CHALK, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Định nghĩa tập Kakeya (Besicovitch) trong \mathbb{R}^n.
+- [Methods for Estimating Hausdorff Dimension: Bounds and The Mass Distribution Principle](https://www.youtube.com/watch?v=FQXbRGmAbUY) — CHALK, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Định nghĩa tập Kakeya (Besicovitch) trong \mathbb{R}^n.

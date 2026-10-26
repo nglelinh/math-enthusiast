@@ -245,3 +245,9 @@ AdS/CFT                 bulk gravity ↔ boundary QFT
 - **Research packs:** `research/video-research/mirror-symmetry/`, `ads-cft/`, `geometric-langlands-sduality/`.  
 - **Practice habit:** keep a three-column note—*dual pair / what is swapped / theorem vs conjecture*.  
 - **Seminar question:** Is index theory a duality? (Analytic index ↔ topological index is an *equality of invariants*, dual-adjacent but not the same as theory equivalence.)
+
+## Video tham khảo
+
+- **xem trước** — [Edward Witten: Mirror Symmetry & Geometric Langlands (2012)](https://www.youtube.com/watch?v=S02ghGCdNDo) — Graduate Mathematics, English. Watch first. “Edward Witten: Mirror Symmetry & Geometric Langlands (2012)” orients the lesson’s aim: State, in one careful sentence, what mathematicians usually mean by a duality (pairing, involution, or equivalence that reverses arrows / complements dimensions).
+- [HMS for local CY manifolds via SYZ | Kwokwai Chan](https://www.youtube.com/watch?v=Kz6Dj8KSFjM) — Harvard CMSA, English. A second pass once the main claim is in view: State, in one careful sentence, what mathematicians usually mean by a duality (pairing, involution, or equivalence that reverses arrows / complements dimensions).
+- [Lagrangian fillings what does the sheaf say? | Eric Zaslow](https://www.youtube.com/watch?v=Y3-sw3tjZiU) — Harvard CMSA, English. Further depth after the first two, still tied to this lesson: State, in one careful sentence, what mathematicians usually mean by a duality (pairing, involution, or equivalence that reverses arrows / complements dimensions).

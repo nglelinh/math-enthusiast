@@ -72,3 +72,9 @@ This note does not treat RH, BSD, or twin primes as crypto products; those stori
 - Barina, D. (2021). Convergence verification of the Collatz problem. *Journal of Supercomputing*, 77, 2681–2688. [doi:10.1007/s11227-020-03368-x](https://doi.org/10.1007/s11227-020-03368-x).
 - [SAT Competition series](https://satcompetition.github.io/) (2022–2024 editions).
 - Course: [P vs NP]({{ site.baseurl }}/contents/en/chapter01/01_03_P_vs_NP/), [Navier–Stokes]({{ site.baseurl }}/contents/en/chapter01/01_05_Navier_Stokes/), [Collatz]({{ site.baseurl }}/contents/en/chapter01/01_07_Collatz_Conjecture/).
+
+## Video tham khảo
+
+- **xem trước** — [Donald Knuth: Talk on SAT Solving @ JKU Linz (Recorded with Google Hangouts)](https://www.youtube.com/watch?v=QFMERqvfzlc) — Martina Seidl, English. Watch first. “Donald Knuth: Talk on SAT Solving @ JKU Linz (Recorded with Google Hangouts)” orients the lesson’s aim: After this optional note you should be able to name three places where a Chapter 1 problem—still open, or already a theorem—has become infrastructure or a research engine in comput…
+- [Fourier Neural Operator (FNO) (Physics Informed Machine Learning)](https://www.youtube.com/watch?v=W8PybqAk6Ik) — Steve Brunton, English. A second pass once the main claim is in view: After this optional note you should be able to name three places where a Chapter 1 problem—still open, or already a theorem—has become infrastructure or a research engine in comput…
+- [The AI that solved IMO Geometry Problems | Guest video by @Aleph0](https://www.youtube.com/watch?v=4NlrfOl0l8U) — 3Blue1Brown, English. Further depth after the first two, still tied to this lesson: After this optional note you should be able to name three places where a Chapter 1 problem—still open, or already a theorem—has become infrastructure or a research engine in comput…

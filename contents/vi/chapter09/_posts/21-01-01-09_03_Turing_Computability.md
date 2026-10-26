@@ -207,3 +207,7 @@ Danh mục đầy đủ: `research/video-research/turing-computability/reference
 ## Tính được như đường chân trời
 
 **Tính được** là chân trời nguyên lý; **độ phức tạp** là bản đồ độ cao bên trong. Turing đặt chân trời; Cook–Karp–Knuth–mật mã làm việc chủ yếu bên trong. Đọc tin AI “giải toán”: bài **quyết định được**? Máy **dừng**? Chi phí theo $$n$$? Ba tầng tách bạch. Seminar chỉ cần nắm ba khối chứng minh dừng: **giả sử có $$H$$** → **dựng $$D$$** → **mâu thuẫn đường chéo**.
+
+## Video tham khảo
+
+- **xem trước** — [Turing & The Halting Problem - Computerphile](https://www.youtube.com/watch?v=macM_MtS_w4) — Computerphile, tiếng Anh. Xem trước. “Turing & The Halting Problem - Computerphile” định hướng cho mục tiêu của bài: Mô tả máy Turing ở mức thành phần (băng, đầu đọc–ghi, trạng thái hữu hạn, bảng chuyển) và giải thích vì sao mô hình cố ý thô.

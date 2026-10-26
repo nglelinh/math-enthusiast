@@ -61,3 +61,9 @@ Gauge theory của Uhlenbeck, $$D$$-module của Kashiwara, và Atiyah–Singer 
 - Kovachki, N., et al. (2023). Neural operator. *JMLR*, 24(89).
 - Rampášek, L., et al. (2022). Recipe for a general, powerful, scalable graph transformer. *NeurIPS*. [arXiv:2205.12454](https://arxiv.org/abs/2205.12454).
 - Khóa học: [Talagrand]({{ site.baseurl }}/contents/vi/chapter08/08_09_Talagrand_Probability/), [Caffarelli]({{ site.baseurl }}/contents/vi/chapter08/08_08_Caffarelli_PDE/), [Lovász–Wigderson]({{ site.baseurl }}/contents/vi/chapter08/08_06_Lovasz_Wigderson/).
+
+## Video tham khảo
+
+- **xem trước** — [Michel Talagrand: Chaining: a long story](https://www.youtube.com/watch?v=3yIwl6XC0xA) — The Abel Prize, tiếng Anh. Xem trước. “Michel Talagrand: Chaining: a long story” định hướng cho mục tiêu của bài: Sau bài tùy chọn này, bạn tái sử dụng được ba ý tưởng quy mô Abel—tập trung, chính quy liên tục, và cấu trúc rời rạc như toán—bên trong các hệ thống CS/DS 2022–2026, mà không thêm…
+- [Luis Caffarelli: Non-linear and non-local surface structure problems and some of its applications](https://www.youtube.com/watch?v=dVGX6QhO8rU) — The Abel Prize, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài tùy chọn này, bạn tái sử dụng được ba ý tưởng quy mô Abel—tập trung, chính quy liên tục, và cấu trúc rời rạc như toán—bên trong các hệ thống CS/DS 2022–2026, mà không thêm…
+- [The Abel lectures: László Lovász and Avi Wigderson](https://www.youtube.com/watch?v=zqiL57ebP-k) — The Abel Prize, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài tùy chọn này, bạn tái sử dụng được ba ý tưởng quy mô Abel—tập trung, chính quy liên tục, và cấu trúc rời rạc như toán—bên trong các hệ thống CS/DS 2022–2026, mà không thêm…

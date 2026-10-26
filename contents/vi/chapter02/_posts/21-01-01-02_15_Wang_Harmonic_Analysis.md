@@ -440,3 +440,9 @@ Danh mục URL đầy đủ (mọi link khi nghiên cứu video): `research/vide
 
 - Mô hình tư duy: δ-tube như clustering đa thang.  
 - Mục tiêu mở: Kakeya chiều cao; restriction / local smoothing (tính đến 2026).
+
+## Video tham khảo
+
+- **xem trước** — [A Once-in-a-Century Proof: The Kakeya Conjecture](https://www.youtube.com/watch?v=5J3tYU_-IZI) — Quanta Magazine, tiếng Anh. Xem trước. “A Once-in-a-Century Proof: The Kakeya Conjecture” định hướng cho mục tiêu của bài: Phát biểu bài toán kim của Kakeya và construction measure zero của Besicovitch trên mặt phẳng.
+- [What is Hausdorff Dimension? Intuition, Gauge Functions, and Hausdorff Measures](https://www.youtube.com/watch?v=LJcWhcM4okQ) — CHALK, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu bài toán kim của Kakeya và construction measure zero của Besicovitch trên mặt phẳng.
+- [Methods for Estimating Hausdorff Dimension: Bounds and The Mass Distribution Principle](https://www.youtube.com/watch?v=FQXbRGmAbUY) — CHALK, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu bài toán kim của Kakeya và construction measure zero của Besicovitch trên mặt phẳng.

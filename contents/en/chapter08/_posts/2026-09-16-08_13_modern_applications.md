@@ -61,3 +61,9 @@ Uhlenbeck gauge theory, Kashiwara $$D$$-modules, and Atiyah–Singer are left to
 - Kovachki, N., et al. (2023). Neural operator. *JMLR*, 24(89).
 - Rampášek, L., et al. (2022). Recipe for a general, powerful, scalable graph transformer. *NeurIPS*. [arXiv:2205.12454](https://arxiv.org/abs/2205.12454).
 - Course: [Talagrand]({{ site.baseurl }}/contents/en/chapter08/08_09_Talagrand_Probability/), [Caffarelli]({{ site.baseurl }}/contents/en/chapter08/08_08_Caffarelli_PDE/), [Lovász–Wigderson]({{ site.baseurl }}/contents/en/chapter08/08_06_Lovasz_Wigderson/).
+
+## Video tham khảo
+
+- **xem trước** — [Michel Talagrand: Chaining: a long story](https://www.youtube.com/watch?v=3yIwl6XC0xA) — The Abel Prize, English. Watch first. “Michel Talagrand: Chaining: a long story” orients the lesson’s aim: After this optional note you should be able to reuse three Abel-scale ideas—concentration, continuum regularity, and discrete structure as mathematics—inside 2022–2026 CS/DS system…
+- [Luis Caffarelli: Non-linear and non-local surface structure problems and some of its applications](https://www.youtube.com/watch?v=dVGX6QhO8rU) — The Abel Prize, English. A second pass once the main claim is in view: After this optional note you should be able to reuse three Abel-scale ideas—concentration, continuum regularity, and discrete structure as mathematics—inside 2022–2026 CS/DS system…
+- [The Abel lectures: László Lovász and Avi Wigderson](https://www.youtube.com/watch?v=zqiL57ebP-k) — The Abel Prize, English. Further depth after the first two, still tied to this lesson: After this optional note you should be able to reuse three Abel-scale ideas—concentration, continuum regularity, and discrete structure as mathematics—inside 2022–2026 CS/DS system…

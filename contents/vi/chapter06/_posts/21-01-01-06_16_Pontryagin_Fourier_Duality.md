@@ -142,3 +142,9 @@ Character là căn đơn vị. **DFT** là câu chuyện Pontryagin hữu hạn 
 1. Giáo trình Fourier (Stein–Shakarchi; Folland).  
 2. Wikipedia — Pontryagin duality.  
 3. Rudin — *Fourier Analysis on Groups*.  
+
+## Video tham khảo
+
+- **xem trước** — [What is...the dual group?](https://www.youtube.com/watch?v=kE_Wn6g7vz0) — VisualMath, tiếng Anh. Xem trước. “What is...the dual group?” định hướng cho mục tiêu của bài: Định nghĩa nhóm dual của nhóm abelian compact địa phương ở mức slogan (character liên tục vào S^1).
+- [But what is the Fourier Transform? A visual introduction.](https://www.youtube.com/watch?v=spUNpyF58BY) — 3Blue1Brown, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Định nghĩa nhóm dual của nhóm abelian compact địa phương ở mức slogan (character liên tục vào S^1).
+- [Fourier transform on Locally Compact Abelian Groups -II.](https://www.youtube.com/watch?v=H8D1q0CtPyY) — Bhaskaracharya Pratishthana, Pune, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Định nghĩa nhóm dual của nhóm abelian compact địa phương ở mức slogan (character liên tục vào S^1).

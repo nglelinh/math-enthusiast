@@ -175,3 +175,8 @@ For this course, Kontsevich is the portrait of mathematical physics as **theorem
 
 - Read a modern exposition of tautological classes on $$\overline{\mathcal{M}}_{g,n}$$ to see what Witten–Kontsevich does *not* compute.
 - If you continue to HMS, keep a two-column notebook: “1994 proposal” vs “theorems proved by later authors.”
+
+## Video tham khảo
+
+- **xem trước** — [HLF Laureate Portraits: Maxim Kontsevich](https://www.youtube.com/watch?v=1CXvSRQVoZY) — Heidelberg Laureate Forum, English. Watch first. “HLF Laureate Portraits: Maxim Kontsevich” orients the lesson’s aim: Recite the 1998 citation as three results, and refuse to replace the third bullet by homological mirror symmetry.
+- [Maxim Kontsevich | On the History of quantum cohomology and homological mirror symmetry](https://www.youtube.com/watch?v=Ml2x5NnEQ1I) — Harvard CMSA, English. A second pass once the main claim is in view: Recite the 1998 citation as three results, and refuse to replace the third bullet by homological mirror symmetry.

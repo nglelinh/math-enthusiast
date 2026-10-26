@@ -262,3 +262,9 @@ Full URL bibliography from video research: `research/video-research/godel-incomp
 - Explore the connection between incompleteness and the undecidability of Hilbert’s tenth problem (different theorem, shared computability themes).  
 - In proof assistants, ask: what is the trusted kernel, and how does that relate to “consistency lives in a meta-theory”?  
 - Note one precise question you still have—good questions are part of mathematical practice.
+
+## Video tham khảo
+
+- **xem trước** — [Gödel's Incompleteness Theorem - Numberphile](https://www.youtube.com/watch?v=O4ndIDcDSGc) — Numberphile, English. Watch first. “Gödel's Incompleteness Theorem - Numberphile” orients the lesson’s aim: State informal but accurate versions of Gödel’s first and second incompleteness theorems.
+- [The paradox at the heart of mathematics: Gödel's Incompleteness Theorem - Marcus du Sautoy](https://www.youtube.com/watch?v=I4pQbo5MQOs) — TED-Ed, English. A second pass once the main claim is in view: State informal but accurate versions of Gödel’s first and second incompleteness theorems.
+- [Math's Fundamental Flaw](https://www.youtube.com/watch?v=HeQX2HjkcNo) — Veritasium, English. Further depth after the first two, still tied to this lesson: State informal but accurate versions of Gödel’s first and second incompleteness theorems.

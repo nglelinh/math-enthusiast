@@ -287,3 +287,9 @@ Full URL bibliography from video research (including secondary finds): `research
 - Read a gentle introduction to modular forms for analysts (enough to see where special functions come from).  
 - Compare with the Maynard and Green–Tao essays: exceptional structure (lattices / primes) proved by hard analysis.  
 - Note one precise question you still have—good questions are part of mathematical practice.
+
+## Video tham khảo
+
+- **xem trước** — [Einstein Lectures: Maryna Viazovska - The sphere packing problem](https://www.youtube.com/watch?v=fH6KNlUJux0) — Universität Bern, English. Watch first. “Einstein Lectures: Maryna Viazovska - The sphere packing problem” orients the lesson’s aim: Define packing density carefully (limit of covered volume fraction).
+- [Maryna Viazovska: 2018 Breakthrough Prize Symposium](https://www.youtube.com/watch?v=VCZeVsTb7DU) — Breakthrough, English. A second pass once the main claim is in view: Define packing density carefully (limit of covered volume fraction).
+- [What is...sphere packing?](https://www.youtube.com/watch?v=qr6ZbYancMY) — VisualMath, English. Further depth after the first two, still tied to this lesson: Define packing density carefully (limit of covered volume fraction).

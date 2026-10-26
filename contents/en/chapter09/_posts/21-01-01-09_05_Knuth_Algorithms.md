@@ -236,3 +236,8 @@ Complete list: `research/video-research/knuth-algorithms/references.md`.
 - Learn the Master Theorem for divide-and-conquer recurrences and apply it to three algorithms.  
 - Explore Flajolet–Sedgewick analytic combinatorics for average-case generatingfunctionology.  
 - Next: [Public-Key Cryptography: Diffie, Hellman, and RSA]({{ site.baseurl }}/contents/en/chapter09/09_06_Public_Key_Crypto/).
+
+## Video tham khảo
+
+- **xem trước** — [Stanford Lecture - Dancing Cells, Dr. Donald Knuth I 2023](https://www.youtube.com/watch?v=PUJ_XdmSDZw) — Stanford Online, English. Watch first. “Stanford Lecture - Dancing Cells, Dr. Donald Knuth I 2023” orients the lesson’s aim: Explain what analysis of algorithms means beyond “I timed it on my laptop.”
+- [Donald Knuth: Talk on SAT Solving @ JKU Linz (Recorded with Google Hangouts)](https://www.youtube.com/watch?v=QFMERqvfzlc) — Martina Seidl, English. A second pass once the main claim is in view: Explain what analysis of algorithms means beyond “I timed it on my laptop.”

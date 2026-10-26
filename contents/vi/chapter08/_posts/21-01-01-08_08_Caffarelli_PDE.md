@@ -235,3 +235,9 @@ Danh mục đầy đủ: `research/video-research/caffarelli-pde/references.md`.
 - Ghi Millennium NS là láng giềng chính xác của CKN.  
 - So [Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/).  
 - Tiếp: [Talagrand]({{ site.baseurl }}/contents/vi/chapter08/08_09_Talagrand_Probability/).
+
+## Video tham khảo
+
+- **xem trước** — [Luis Caffarelli: Non-linear and non-local surface structure problems and some of its applications](https://www.youtube.com/watch?v=dVGX6QhO8rU) — The Abel Prize, tiếng Anh. Xem trước. “Luis Caffarelli: Non-linear and non-local surface structure problems and some of its ap…” định hướng cho mục tiêu của bài: Sau bài, bạn có thể định nghĩa free-boundary problem và cho ví dụ vật lý; giải thích mục tiêu regularity theory (khi nào nghiệm và interface trơn); đặt Monge–Ampère trong phương tr…
+- [Luis A. Caffarelli - The Abel Prize Interview 2023](https://www.youtube.com/watch?v=rz3uPOIL9AA) — The Abel Prize, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài, bạn có thể định nghĩa free-boundary problem và cho ví dụ vật lý; giải thích mục tiêu regularity theory (khi nào nghiệm và interface trơn); đặt Monge–Ampère trong phương tr…
+- [Luis A. Caffarelli - the 2023 Abel Prize Laureate](https://www.youtube.com/watch?v=tdUBLu4fHbw) — The Abel Prize, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài, bạn có thể định nghĩa free-boundary problem và cho ví dụ vật lý; giải thích mục tiêu regularity theory (khi nào nghiệm và interface trơn); đặt Monge–Ampère trong phương tr…

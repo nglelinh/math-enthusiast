@@ -72,3 +72,9 @@ Bài này không biến RH, BSD, hay sinh đôi nguyên tố thành sản phẩm
 - Barina, D. (2021). Convergence verification of the Collatz problem. *Journal of Supercomputing*, 77, 2681–2688. [doi:10.1007/s11227-020-03368-x](https://doi.org/10.1007/s11227-020-03368-x).
 - [Chuỗi SAT Competition](https://satcompetition.github.io/) (các kỳ 2022–2024).
 - Khóa học: [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/), [Navier–Stokes]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/), [Collatz]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/).
+
+## Video tham khảo
+
+- **xem trước** — [Donald Knuth: Talk on SAT Solving @ JKU Linz (Recorded with Google Hangouts)](https://www.youtube.com/watch?v=QFMERqvfzlc) — Martina Seidl, tiếng Anh. Xem trước. “Donald Knuth: Talk on SAT Solving @ JKU Linz (Recorded with Google Hangouts)” định hướng cho mục tiêu của bài: Sau bài tùy chọn này, bạn gọi được tên ba nơi một bài toán Chương 1—còn mở, hoặc đã là định lý—đã trở thành hạ tầng hoặc động cơ nghiên cứu trong khoa học máy tính và khoa học dữ l…
+- [Fourier Neural Operator (FNO) (Physics Informed Machine Learning)](https://www.youtube.com/watch?v=W8PybqAk6Ik) — Steve Brunton, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài tùy chọn này, bạn gọi được tên ba nơi một bài toán Chương 1—còn mở, hoặc đã là định lý—đã trở thành hạ tầng hoặc động cơ nghiên cứu trong khoa học máy tính và khoa học dữ l…
+- [The AI that solved IMO Geometry Problems | Guest video by @Aleph0](https://www.youtube.com/watch?v=4NlrfOl0l8U) — 3Blue1Brown, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài tùy chọn này, bạn gọi được tên ba nơi một bài toán Chương 1—còn mở, hoặc đã là định lý—đã trở thành hạ tầng hoặc động cơ nghiên cứu trong khoa học máy tính và khoa học dữ l…

@@ -250,3 +250,7 @@ Danh mục đầy đủ: `research/video-research/pearl-causality/references.md`
 - Thực hành: bảng contingency nhỏ; so $$p(y\mid x)$$ vs adjustment formula.  
 - Đọc: *Book of Why* chọn chương → Primer do-calculus → một paper causal ML.  
 - Tiếp: [Deep Learning Trio]({{ site.baseurl }}/contents/vi/chapter09/09_12_Deep_Learning_Trio/).
+
+## Video tham khảo
+
+- **xem trước** — [Judea Pearl, 2012 ACM A.M. Turing Award Lecture "The Mechanization of Causal Inference"](https://www.youtube.com/watch?v=iNm4nFBFmvo) — Association for Computing Machinery (ACM), tiếng Anh. Xem trước. “Judea Pearl, 2012 ACM A.M. Turing Award Lecture "The Mechanization of Causal Inference"” định hướng cho mục tiêu của bài: Sau bài, bạn có thể phân biệt ba nấc association / intervention / counterfactual; đọc Bayesian network như factorization p(x1,\ldots,xn)=\prodi p(xi\mid \mathrm{pa}(i)) trên DAG; g…

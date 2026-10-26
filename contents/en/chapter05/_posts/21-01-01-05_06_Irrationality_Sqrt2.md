@@ -265,3 +265,8 @@ Full URL bibliography from video research: `research/video-research/irrationalit
 - Explore continued fractions for $$\sqrt{2}$$ as the constructive twin of irrationality (best rational approximations).  
 - Compare with irrationality of $$e$$ and $$\pi$$ (harder; different toolkits).  
 - Note one precise question you still have—good questions are part of mathematical practice.
+
+## Video tham khảo
+
+- **xem trước** — [The Most Beautiful Proof sqrt(2) is Irrational](https://www.youtube.com/watch?v=NegYPgMAua4) — Wrath of Math, English. Watch first. “The Most Beautiful Proof sqrt(2) is Irrational” orients the lesson’s aim: State and prove that \sqrt{2} is irrational via the even-even contradiction in lowest terms.
+- [The 5 Best Proofs that the Square Root of 2 is Irrational](https://www.youtube.com/watch?v=zEXcsZo4hOQ) — Tipping Point Math, English. A second pass once the main claim is in view: State and prove that \sqrt{2} is irrational via the even-even contradiction in lowest terms.

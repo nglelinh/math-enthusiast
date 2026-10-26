@@ -389,3 +389,9 @@ Full URL bibliography from video research (including secondary finds): `research
 - Optional: watch the [grad/div/curl video](https://www.youtube.com/watch?v=m_Psx7CdvDk) once, then re-read §5.  
 - Practice: nondimensionalize the heat equation and identify the single dimensionless time scale.  
 - Restate the core mechanism of this essay in one paragraph; note one precise question you still have.
+
+## Video tham khảo
+
+- **xem trước** — [Best Explanation of Gradient, Divergence and Curl](https://www.youtube.com/watch?v=m_Psx7CdvDk) — Brain Station Advanced, English. Watch first. “Best Explanation of Gradient, Divergence and Curl” orients the lesson’s aim: Explain differentiation and integration as twin operations linked by the fundamental theorem of calculus.
+- [The essence of calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM) — 3Blue1Brown, English. A second pass once the main claim is in view: Explain differentiation and integration as twin operations linked by the fundamental theorem of calculus.
+- [Divergence and curl: The language of Maxwell's equations, fluid flow, and more](https://www.youtube.com/watch?v=rB83DpBJQsE) — 3Blue1Brown, English. Further depth after the first two, still tied to this lesson: Explain differentiation and integration as twin operations linked by the fundamental theorem of calculus.

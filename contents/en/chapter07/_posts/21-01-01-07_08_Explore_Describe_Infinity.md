@@ -259,3 +259,9 @@ Caption transcripts and time-chunk units for pack videos: `research/video-resear
 
 *Figure. Sample still from a pack primary video (see pack for timestamps).*
 
+
+## Video tham khảo
+
+- **xem trước** — [Infinity Paradoxes - Numberphile](https://www.youtube.com/watch?v=dDl7g_2x74Q) — Numberphile, English. Watch first. “Infinity Paradoxes - Numberphile” orients the lesson’s aim: Distinguish potential infinity (unending process) from actual infinity (a completed set such as \mathbb{N}).
+- [PHILOSOPHY - Mathematics: Sizes of Infinity, Part 1 (Hilbert's Hotel) (HD)](https://www.youtube.com/watch?v=p1KkXA0vKsQ) — Wireless Philosophy, English. A second pass once the main claim is in view: Distinguish potential infinity (unending process) from actual infinity (a completed set such as \mathbb{N}).
+- [A Problem with Infinite Hotel Keys - Numberphile](https://www.youtube.com/watch?v=uezOrcmHzrQ) — Numberphile, English. Further depth after the first two, still tied to this lesson: Distinguish potential infinity (unending process) from actual infinity (a completed set such as \mathbb{N}).

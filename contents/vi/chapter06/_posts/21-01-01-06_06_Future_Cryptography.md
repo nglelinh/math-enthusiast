@@ -238,3 +238,9 @@ Danh mục URL đầy đủ: `research/video-research/future-cryptography/refere
 - So sánh kích thước khóa/hiệu năng ECC vs lattice KEM (bậc độ lớn, benchmark công khai).
 - Đọc: Katz–Lindell lõi → NIST PQC FAQ → một đoạn survey LWE mỗi ngày.
 - Checklist threat model trước khi tin “không phá nổi”.
+
+## Video tham khảo
+
+- **xem trước** — [NIST's Post-Quantum Cryptography Standardization Explained](https://www.youtube.com/watch?v=crPe69NeTdk) — SandboxAQ, tiếng Anh. Xem trước. “NIST's Post-Quantum Cryptography Standardization Explained” định hướng cho mục tiêu của bài: Phân biệt mã đối xứng (khóa chung) và công khai / chữ ký ở mức vai trò giao thức.
+- [The next big leap in cryptography: NIST’s post-quantum cryptography standards](https://www.youtube.com/watch?v=YJ00O4gBs0I) — IBM Research, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phân biệt mã đối xứng (khóa chung) và công khai / chữ ký ở mức vai trò giao thức.
+- [PQC Standards (Post-Quantum Cryptography Explained)](https://www.youtube.com/watch?v=P9g1CMCu8DI) — Cryptography 101, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phân biệt mã đối xứng (khóa chung) và công khai / chữ ký ở mức vai trò giao thức.

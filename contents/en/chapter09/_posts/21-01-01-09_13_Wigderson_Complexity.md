@@ -214,3 +214,9 @@ Complete list: `research/video-research/wigderson-complexity/references.md`.
 - Study a concrete expander construction sketch (even Margulis-type existence/explicitness history).  
 - After IP = PSPACE awareness: peek at PCP theorem’s role in approximation hardness.  
 - Next: [Modern themes survey]({{ site.baseurl }}/contents/en/chapter09/09_14_Modern_Themes/)—privacy, optimization/ML theory, coding, quantum algorithms, verification.
+
+## Video tham khảo
+
+- **xem trước** — [Avi Wigderson Turing Award Lecture: “Alan Turing: A TCS Role Model”](https://www.youtube.com/watch?v=f2NiGO8zC1c) — Association for Computing Machinery (ACM), English. Watch first. “Avi Wigderson Turing Award Lecture: “Alan Turing: A TCS Role Model”” orients the lesson’s aim: After this lecture you should be able to explain why randomness is treated as a computational resource comparable to time and space; state the derandomization slogan that suitable…
+- [Avi Wigderson, 2023 Turing Award Laureate, Q&A with David Nirenberg | Institute for Advanced Study](https://www.youtube.com/watch?v=TK_vD-VnsFw) — Institute for Advanced Study, English. A second pass once the main claim is in view: After this lecture you should be able to explain why randomness is treated as a computational resource comparable to time and space; state the derandomization slogan that suitable…
+- [June 2024 CACM: Avi Wigderson, 2023 ACM A.M. Turing Awardee](https://www.youtube.com/watch?v=Ur9XNF6TeYw) — Association for Computing Machinery (ACM), English. Further depth after the first two, still tied to this lesson: After this lecture you should be able to explain why randomness is treated as a computational resource comparable to time and space; state the derandomization slogan that suitable…

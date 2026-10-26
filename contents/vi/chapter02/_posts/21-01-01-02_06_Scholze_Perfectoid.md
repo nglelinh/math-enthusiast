@@ -238,3 +238,8 @@ Danh mục URL đầy đủ (mọi link khi nghiên cứu video): `research/vide
 - So với bài [Ngô]({{ site.baseurl }}/contents/vi/chapter02/) và [Venkatesh]({{ site.baseurl }}/contents/vi/chapter02/).  
 - Ghi một câu hỏi chính xác—ví dụ “untilt không duy nhất nghĩa là gì trong thực hành?”  
 - Nếu thích nền tảng: theo dõi một talk ngắn về pro-étale site trước paper nặng.
+
+## Video tham khảo
+
+- **xem trước** — [Fields Medal Winner 2018 Peter Scholze](https://www.youtube.com/watch?v=jGHyAqztdLY) — International Mathematical Union, tiếng Anh. Xem trước. “Fields Medal Winner 2018 Peter Scholze” định hướng cho mục tiêu của bài: Giải thích khó khăn mixed characteristic trong một đoạn mạch lạc (sợi generic char 0 ↔ sợi đặc trưng thặng dư char p).
+- [Fields Medal Symposium 2021: Jared Weinstein introduces Perfectoid Spaces](https://www.youtube.com/watch?v=RApkRqoiZ1I) — Fields Institute, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Giải thích khó khăn mixed characteristic trong một đoạn mạch lạc (sợi generic char 0 ↔ sợi đặc trưng thặng dư char p).

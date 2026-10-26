@@ -239,3 +239,9 @@ Danh mục URL đầy đủ: `research/video-research/complexity-theory/referenc
 - Thực hành: brute-force SAT $$n\le 20$$ vs heuristic; vẽ scaling wall-clock.
 - Đọc: Sipser NP → một sơ đồ reduction mỗi ngày → Arora–Barak sampling.
 - Giữ bưu thiếp inclusion: định lý vs giả thuyết.
+
+## Video tham khảo
+
+- **xem trước** — [Beyond Computation: The P vs NP Problem - Michael Sipser](https://www.youtube.com/watch?v=msp2y_Y5MLE) — PoincareDuality, tiếng Anh. Xem trước. “Beyond Computation: The P vs NP Problem - Michael Sipser” định hướng cho mục tiêu của bài: Định nghĩa bài quyết định và lớp P, NP (poly-time / có witness kiểm tra poly-time).
+- [15. NP-Completeness](https://www.youtube.com/watch?v=iZPzBHGDsWI) — MIT OpenCourseWare, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Định nghĩa bài quyết định và lớp P, NP (poly-time / có witness kiểm tra poly-time).
+- [P vs NP Explained: Computer Science's Biggest Puzzle](https://www.youtube.com/watch?v=pQsdygaYcE4) — Quanta Magazine, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Định nghĩa bài quyết định và lớp P, NP (poly-time / có witness kiểm tra poly-time).

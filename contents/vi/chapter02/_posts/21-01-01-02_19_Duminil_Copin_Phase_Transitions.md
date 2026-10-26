@@ -152,3 +152,9 @@ Bài này không kèm gói nghiên cứu video của khóa học.
 - Đọc một tài liệu giải thích dòng ngẫu nhiên trước khi thử bài tính liên tục 3D.
 - Tùy chọn seminar A3: bản một trang về *các câu hỏi conformal còn mở*—bất biến conformal FK 2D đầy đủ; CFT Ising 3D như vật lý versus toán—không trao những định lý đó cho 2022.
 - Nếu thích tổ hợp đúng hơn, bắt đầu từ hằng số liên thông tổ ong (với Smirnov) rồi nhảy sang danh sách 3D/4D của IMU để trọng tâm huy chương vẫn lộ.
+
+## Video tham khảo
+
+- **xem trước** — [Fields Medal: Hugo Duminil-Copin](https://www.youtube.com/watch?v=5dXulZVstbY) — Simons Foundation, tiếng Anh. Xem trước. “Fields Medal: Hugo Duminil-Copin” định hướng cho mục tiêu của bài: Phát biểu citation ngắn IMU 2022 và diễn giải ba khối của citation dài: tính liên tục/độ sắc Ising-type 3D; trường trung bình / triviality 4D với Aizenman; liên tục-gián đoạn FK 2D…
+- [Hugo DUMINIL-COPIN - Critical phenomena through the lens of the Ising model](https://www.youtube.com/watch?v=jNOffVsULVM) — Institut Fourier, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu citation ngắn IMU 2022 và diễn giải ba khối của citation dài: tính liên tục/độ sắc Ising-type 3D; trường trung bình / triviality 4D với Aizenman; liên tục-gián đoạn FK 2D…
+- [Lecture: Duminil-Copin | September 29](https://www.youtube.com/watch?v=s3KgdQXjsy8) — Heidelberg Laureate Forum, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu citation ngắn IMU 2022 và diễn giải ba khối của citation dài: tính liên tục/độ sắc Ising-type 3D; trường trung bình / triviality 4D với Aizenman; liên tục-gián đoạn FK 2D…

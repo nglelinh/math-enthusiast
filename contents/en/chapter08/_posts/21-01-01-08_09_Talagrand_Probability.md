@@ -262,3 +262,8 @@ State Hoeffding for bounded independent summands; identify the Lipschitz constan
 - Do not confuse almost-sure laws of large numbers with finite-$$n$$ tail bounds used in algorithms.
 - Do not equate “high probability” in CS papers with measure-zero pathology discussions from set theory lectures—they use related English for different formal objects.
 
+
+## Video tham khảo
+
+- **xem trước** — [Michel Talagrand: Chaining: a long story](https://www.youtube.com/watch?v=3yIwl6XC0xA) — The Abel Prize, English. Watch first. “Michel Talagrand: Chaining: a long story” orients the lesson’s aim: After this lecture you should be able to state concentration of measure for Lipschitz functions of many independent variables at slogan level; explain why high dimension often make…
+- [Assaf Naor – Talagrand almost everywhere](https://www.youtube.com/watch?v=atrxvobEdOo) — The Abel Prize, English. A second pass once the main claim is in view: After this lecture you should be able to state concentration of measure for Lipschitz functions of many independent variables at slogan level; explain why high dimension often make…

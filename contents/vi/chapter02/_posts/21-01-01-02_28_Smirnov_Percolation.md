@@ -148,3 +148,9 @@ Percolation cạnh tới hạn trên lưới vuông, và bất biến conformal 
 
 - Đọc một survey về lập luận đổi màu trước note *Comptes Rendus*; sau [Werner]({{ site.baseurl }}/contents/vi/chapter02/02_30_Werner_SLE/), viết nửa trang về thứ tự tiên đề SLE → Cardy → đồng nhất với $$\mathrm{SLE}_6$$.
 - Tùy chọn seminar: một trang “điều vẫn mở trong percolation 2D” **không** khẳng định tính phổ quát là định lý.
+
+## Video tham khảo
+
+- **xem trước** — [Stanislav Smirnov - 2d Percolation Revisited](https://www.youtube.com/watch?v=6QOnfvWqVoo) — MIT Department of Mathematics, tiếng Anh. Xem trước. “Stanislav Smirnov - 2d Percolation Revisited” định hướng cho mục tiêu của bài: Nêu, ở mức khẩu hiệu, Bernoulli percolation là gì, và phân biệt percolation đỉnh (site) với percolation cạnh (bond).
+- [Stanislav Smirnov, Percolation crossings and complex analysis](https://www.youtube.com/watch?v=6hCSSCV7lvQ) — Clay Mathematics Institute, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Nêu, ở mức khẩu hiệu, Bernoulli percolation là gì, và phân biệt percolation đỉnh (site) với percolation cạnh (bond).
+- [Stanislav Smirnov - Percolation revisited](https://www.youtube.com/watch?v=ZNpbvrhfWPA) — Department of Mathematics - Northwestern University, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Nêu, ở mức khẩu hiệu, Bernoulli percolation là gì, và phân biệt percolation đỉnh (site) với percolation cạnh (bond).

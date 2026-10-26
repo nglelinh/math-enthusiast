@@ -247,3 +247,9 @@ Danh mục URL đầy đủ (mọi link tìm được khi nghiên cứu video): 
 - [Fourier → Xử lý tín hiệu]({{ site.baseurl }}/contents/vi/chapter03/03_08_Fourier_Signal_Processing/).  
 - [Toán của AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/).  
 - Viết lại cơ chế cốt lõi một đoạn; ghi một câu hỏi còn mở.
+
+## Video tham khảo
+
+- **xem trước** — [Gradient descent, how neural networks learn | Deep Learning Chapter 2](https://www.youtube.com/watch?v=IHZwWFHWa-w) — 3Blue1Brown, tiếng Anh. Xem trước. “Gradient descent, how neural networks learn | Deep Learning Chapter 2” định hướng cho mục tiêu của bài: Viết \min{x\in\mathcal{X}} f(x) và nhận diện mục tiêu, biến, ràng buộc trong bài lời văn.
+- [Gradient Descent, Step-by-Step](https://www.youtube.com/watch?v=sDv4f4s2SB8) — StatQuest with Josh Starmer, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Viết \min{x\in\mathcal{X}} f(x) và nhận diện mục tiêu, biến, ràng buộc trong bài lời văn.
+- [The essence of calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM) — 3Blue1Brown, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Viết \min{x\in\mathcal{X}} f(x) và nhận diện mục tiêu, biến, ràng buộc trong bài lời văn.

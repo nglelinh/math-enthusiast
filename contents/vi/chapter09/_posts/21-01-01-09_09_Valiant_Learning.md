@@ -241,3 +241,9 @@ Danh mục đầy đủ: `research/video-research/valiant-learning/references.md
 - Thực hành: học interval trên $$\mathbb{R}$$ bằng ERM; vẽ train/test vs $$m$$.  
 - Đọc: Valiant 1984/PAC intro → Kearns–Vazirani ch.1–3 → một survey DNF learning.  
 - Tiếp: [Hopcroft–Tarjan]({{ site.baseurl }}/contents/vi/chapter09/09_10_Hopcroft_Tarjan/).
+
+## Video tham khảo
+
+- **xem trước** — [Machine learning: Lecture 12b: PAC learning introduction](https://www.youtube.com/watch?v=XAwUQLYr5ZE) — UofU Data Science, tiếng Anh. Xem trước. “Machine learning: Lecture 12b: PAC learning introduction” định hướng cho mục tiêu của bài: Sau bài, bạn có thể phát biểu định nghĩa PAC learnability cho lớp khái niệm \mathcal{C}: tồn tại thuật toán poly-time (trong n,1/\varepsilon,1/\delta theo chuẩn) lấy mẫu i.i.d.
+- [The Computational Universe - Leslie Valiant](https://www.youtube.com/watch?v=KHPe7o6jjIU) — Institute for Advanced Study, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài, bạn có thể phát biểu định nghĩa PAC learnability cho lớp khái niệm \mathcal{C}: tồn tại thuật toán poly-time (trong n,1/\varepsilon,1/\delta theo chuẩn) lấy mẫu i.i.d.
+- [Prof. Leslie Valiant (Harvard) : What Needs to be Added to Machine Learning?](https://www.youtube.com/watch?v=nAMKHfqW2cw) — Computational Complexity, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài, bạn có thể phát biểu định nghĩa PAC learnability cho lớp khái niệm \mathcal{C}: tồn tại thuật toán poly-time (trong n,1/\varepsilon,1/\delta theo chuẩn) lấy mẫu i.i.d.

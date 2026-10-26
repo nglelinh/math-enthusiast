@@ -71,3 +71,9 @@ Trang này không làm lại JPEG, simplex, hay số học RSA. Thuật toán PQ
 - Rampášek, L., et al. (2022). Recipe for a general, powerful, scalable graph transformer. *NeurIPS*. [arXiv:2205.12454](https://arxiv.org/abs/2205.12454).
 - Kovachki, N., et al. (2023). Neural operator: Learning maps between function spaces with applications to PDEs. *JMLR*, 24(89). [bài báo](https://jmlr.org/papers/v24/21-1524.html).
 - Karras, T., Aittala, M., Aila, T., & Laine, S. (2022). Elucidating the design space of diffusion-based generative models. *NeurIPS*. [arXiv:2206.00364](https://arxiv.org/abs/2206.00364).
+
+## Video tham khảo
+
+- **xem trước** — [Post Quantum Cryptography - Computerphile](https://www.youtube.com/watch?v=_MoRcYLN-7U) — Computerphile, tiếng Anh. Xem trước. “Post Quantum Cryptography - Computerphile” định hướng cho mục tiêu của bài: Sau bài cập nhật tùy chọn này, bạn gắn được một trích dẫn 2022–2026 vào mỗi trong bốn cuộc di cư của Chương 3—mật mã khóa công khai, đồ thị, học máy khoa học sát tối ưu hóa, và sur…
+- [An Introduction to Graph Neural Networks: Models and Applications](https://www.youtube.com/watch?v=zCEYiCxrL_0) — Microsoft Research, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài cập nhật tùy chọn này, bạn gắn được một trích dẫn 2022–2026 vào mỗi trong bốn cuộc di cư của Chương 3—mật mã khóa công khai, đồ thị, học máy khoa học sát tối ưu hóa, và sur…
+- [Fourier Neural Operator (FNO) (Physics Informed Machine Learning)](https://www.youtube.com/watch?v=W8PybqAk6Ik) — Steve Brunton, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài cập nhật tùy chọn này, bạn gắn được một trích dẫn 2022–2026 vào mỗi trong bốn cuộc di cư của Chương 3—mật mã khóa công khai, đồ thị, học máy khoa học sát tối ưu hóa, và sur…

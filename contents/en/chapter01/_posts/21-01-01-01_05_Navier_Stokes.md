@@ -255,3 +255,9 @@ Full bibliography: `research/video-research/Navier_Stokes/references.md`.
 - Seminar **A3**: global regularity vs blow-up; Leray; one criterion (BKM or CKN); engineering vs Clay boundary.  
 - Optional studio: Kolmogorov cascade as *heuristic*—not a proof.  
 - Deng next for kinetic derivation; return here for continuum well-posedness.
+
+## Video tham khảo
+
+- **xem trước** — [Navier-Stokes Equations - Numberphile](https://www.youtube.com/watch?v=ERBVFcutl3M) — Numberphile, English. Watch first. “Navier-Stokes Equations - Numberphile” orients the lesson’s aim: Write the incompressible Navier–Stokes system (velocity, pressure, divergence-free constraint) and name the role of each term.
+- [The million dollar equation (Navier-Stokes equations)](https://www.youtube.com/watch?v=Ra7aQlenTb8) — vcubingx, English. A second pass once the main claim is in view: Write the incompressible Navier–Stokes system (velocity, pressure, divergence-free constraint) and name the role of each term.
+- [Luis Caffarelli, Navier-Stokes existence and smoothness](https://www.youtube.com/watch?v=ta6Q70y6YVU) — Clay Mathematics Institute, English. Further depth after the first two, still tied to this lesson: Write the incompressible Navier–Stokes system (velocity, pressure, divergence-free constraint) and name the role of each term.

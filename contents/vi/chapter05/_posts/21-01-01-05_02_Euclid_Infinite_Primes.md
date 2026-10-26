@@ -312,3 +312,9 @@ Danh mục URL đầy đủ: `research/video-research/euclid-infinite-primes/ref
 ## Hướng đi tiếp
 
 Tiếp theo trong phần này: $$\sqrt{2}$$ vô tỷ (parity/descent), Königsberg (mô hình hóa), Bốn màu, FLT và Poincaré như sử thi hiện đại nơi *ý tưởng* bắc cầu giữa các lĩnh vực.
+
+## Video tham khảo
+
+- **xem trước** — [👉 Chứng minh số nguyên tố là vô hạn – Ý tưởng thiên tài của Euclid](https://www.youtube.com/watch?v=chbe-Mdc-Ds) — Toán Tám Chín, tiếng Việt. Xem trước: lối chứng minh ngắn bằng tiếng Việt cho ý tưởng Euclid (danh sách hữu hạn số nguyên tố thì chưa đủ), đúng phần I của bài.
+- [Infinite Primes - Numberphile](https://www.youtube.com/watch?v=ctC33JAV4FI) — Numberphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Viết lập luận Euclid: giả định → xây dựng → mâu thuẫn, với trực giác dư 1 khi chia cho mỗi nguyên tố trong danh sách.
+- [Euclid's proof that there are infinitely many primes! Classic math proof!](https://www.youtube.com/watch?v=816JCX5tKD8) — blackpenredpen, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Viết lập luận Euclid: giả định → xây dựng → mâu thuẫn, với trực giác dư 1 khi chia cho mỗi nguyên tố trong danh sách.

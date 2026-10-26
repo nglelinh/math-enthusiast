@@ -62,3 +62,9 @@ Bài chủ đề hiện đại đã cảnh báo: áp lực triển khai tạo đ
 - Hubert, T., et al. (2025). Olympiad-level formal mathematical reasoning with reinforcement learning. *Nature*. [doi:10.1038/s41586-025-09833-y](https://doi.org/10.1038/s41586-025-09833-y).
 - Melnychuk, V., Frauen, D., & Feuerriegel, S. (2022). Causal Transformer for estimating counterfactual outcomes. *ICML*. [arXiv:2204.07258](https://arxiv.org/abs/2204.07258).
 - Khảo sát: [Chủ đề hiện đại]({{ site.baseurl }}/contents/vi/chapter09/09_14_Modern_Themes/).
+
+## Video tham khảo
+
+- **xem trước** — [Chinchilla Explained: Compute-Optimal Massive Language Models](https://www.youtube.com/watch?v=PZXN7jm9IC0) — Edan Meyer, tiếng Anh. Xem để nắm đánh đổi huấn luyện tối ưu tính toán (Chinchilla): số tham số và số token. Đây là video giải thích bài báo scaling, không phải bài giảng của tác giả.
+- [Improving on AlphaProof: IMO 2024 Problem 2 in Lean 4](https://www.youtube.com/watch?v=5IARsdn78xE) — David Renshaw, tiếng Anh. Một hình thức hóa Lean 4 cho bài IMO 2024 theo tinh thần AlphaProof. Dùng cạnh chủ đề kiểm chứng của bài, không phải bài nói chính thức của DeepMind.
+- [Keynote: Judea Pearl - The New Science of Cause and Effect](https://www.youtube.com/watch?v=ZaPV1OSEpHw) — PyData, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài cập nhật tùy chọn này, bạn thêm được ba hiện vật cụ thể 2022–2026—huấn luyện tối ưu tính toán, tác nhân olympic dựa trên Lean, và mô hình chuỗi nhân quả—vào la bàn chủ đề h…

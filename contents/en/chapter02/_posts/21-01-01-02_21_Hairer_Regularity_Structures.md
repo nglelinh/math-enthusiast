@@ -194,3 +194,9 @@ For this chapter, Hairer is an **infrastructure** portrait: a new category of ex
 
 - Compare the Cole–Hopf transformation for KPZ with the regularity-structure construction: one exploits a special change of unknown; the other scales to equations with no such trick.
 - Seminar question: in what sense is renormalization here the same as, and different from, renormalization in constructive quantum field theory?
+
+## Video tham khảo
+
+- **xem trước** — [Martin Hairer Colloquium Talk: Taming Infinities](https://www.youtube.com/watch?v=nBbx0wEgUXY) — Sydney Mathematical Research Institute - SMRI, English. Watch first. “Martin Hairer Colloquium Talk: Taming Infinities” orients the lesson’s aim: Explain, in one paragraph, why a product of distributions is not in general defined, and why that obstruction appears in nonlinear SPDEs with space-time white noise.
+- [Martin Hairer Mini-course 1: Introduction to Regularity Structures](https://www.youtube.com/watch?v=c0HlcVA1SoI) — Sydney Mathematical Research Institute - SMRI, English. A second pass once the main claim is in view: Explain, in one paragraph, why a product of distributions is not in general defined, and why that obstruction appears in nonlinear SPDEs with space-time white noise.
+- [Martin Hairer: Fine properties of random fields: from fluids to QTF](https://www.youtube.com/watch?v=VnmfSICGDo4) — Centre International de Rencontres Mathématiques, English. Further depth after the first two, still tied to this lesson: Explain, in one paragraph, why a product of distributions is not in general defined, and why that obstruction appears in nonlinear SPDEs with space-time white noise.

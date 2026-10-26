@@ -347,3 +347,9 @@ Danh mục URL đầy đủ (mọi link tìm được khi nghiên cứu video): 
 ## Hướng đi tiếp
 
 **A5 mặc định.** Đọc trang studio Ch.7, chọn một giả thuyết nhỏ, ghi nhật ký thí nghiệm, và giữ ranh giới “mẫu” vs “mọi $$n$$.” Tùy chọn thay thế studio: logistic map (chaos lite) nếu bạn muốn động lực trơn hơn. Quay lại trang này khi cần ngôn ngữ chuẩn cho phần “tình trạng bài toán mở” trong portfolio.
+
+## Video tham khảo
+
+- **xem trước** — [The Simplest Math Problem No One Can Solve - Collatz Conjecture](https://www.youtube.com/watch?v=094y1Z2wpJg) — Veritasium, tiếng Anh. Xem trước. “The Simplest Math Problem No One Can Solve - Collatz Conjecture” định hướng cho mục tiêu của bài: Phát biểu ánh xạ Collatz T và giả thuyết mọi số nguyên dương rơi vào chu trình 4\to 2\to 1.
+- [UNCRACKABLE? The Collatz Conjecture - Numberphile](https://www.youtube.com/watch?v=5mFpVDpKX70) — Numberphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu ánh xạ Collatz T và giả thuyết mọi số nguyên dương rơi vào chu trình 4\to 2\to 1.
+- [The 3x+1 Problem: Status and Recent Work Part 1](https://www.youtube.com/watch?v=t1I9uHF9X5Y) — Experimental mathematics, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu ánh xạ Collatz T và giả thuyết mọi số nguyên dương rơi vào chu trình 4\to 2\to 1.

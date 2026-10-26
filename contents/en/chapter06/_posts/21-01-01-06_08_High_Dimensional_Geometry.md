@@ -257,3 +257,8 @@ Full URL bibliography from video research: `research/video-research/high-dimensi
 - **AI flagship:** [Mathematics of AI]({{ site.baseurl }}/contents/en/chapter06/06_02_Mathematics_of_AI/).
 - **Practice:** sample random Gaussian vectors in dimensions 2, 20, 200; histogram norms and pairwise absolute cosines.
 - **Reading path:** Vershynin early chapters → JL lemma → one random matrix vignette.
+
+## Video tham khảo
+
+- **xem trước** — [Lecture 1](https://www.youtube.com/watch?v=nKmYjFoiuYM) — Roman Vershynin, English. Watch first. “Lecture 1” orients the lesson’s aim: Explain why most volume of a high-dimensional Euclidean ball lies near its equator/shell, and why that breaks “volume = interior” intuition.
+- [High Dimensional Geometry and Concentration I](https://www.youtube.com/watch?v=UHvT1MxFuvo) — Simons Institute for the Theory of Computing, English. A second pass once the main claim is in view: Explain why most volume of a high-dimensional Euclidean ball lies near its equator/shell, and why that breaks “volume = interior” intuition.

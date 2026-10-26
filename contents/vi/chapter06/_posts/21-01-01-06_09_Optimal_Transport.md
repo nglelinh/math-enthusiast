@@ -256,3 +256,9 @@ Danh mục URL đầy đủ: `research/video-research/optimal-transport/referenc
 - Thực hành: OT rời rạc $$2\times 2$$ hoặc $$3\times 3$$ bằng tay; rồi Sinkhorn cùng cost.
 - Đọc: Peyré–Cuturi tính toán → intuition Villani → abstract một paper tốc độ thống kê.
 - Luôn ghi: *cost, biên, exact vs regularized, estimator*.
+
+## Video tham khảo
+
+- **xem trước** — [New Frontiers in Mathematics: Professor Cédric Villani, “Optimal Transport Theory”](https://www.youtube.com/watch?v=6DZjBcDfPHs) — Imperial College London, tiếng Anh. Xem trước. “New Frontiers in Mathematics: Professor Cédric Villani, “Optimal Transport Theory”” định hướng cho mục tiêu của bài: Phát biểu bài Monge: map T đẩy \mu thành \nu tối thiểu chi phí; vì sao map có thể không tồn tại.
+- [Lecture 01 | Optimal Transportation, Geometry and Dynamics](https://www.youtube.com/watch?v=TAnoqeYfO1Y) — Fields Institute, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu bài Monge: map T đẩy \mu thành \nu tối thiểu chi phí; vì sao map có thể không tồn tại.
+- [Crash Course on Optimal Transport](https://www.youtube.com/watch?v=GMC7uOPAa_Y) — Simons Institute for the Theory of Computing, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu bài Monge: map T đẩy \mu thành \nu tối thiểu chi phí; vì sao map có thể không tồn tại.

@@ -252,3 +252,8 @@ Full URL bibliography from video research: `research/video-research/quantum-info
 - **Practice:** simulate a two-qubit Bell circuit in a small notebook (statevector simulator); measure correlations.
 - **Reading plan:** Nielsen–Chuang chapters on states/measurement, then Shor at high level, then one modern survey on error correction.
 - Keep a personal glossary: *state, unitary, entanglement, mixed state, fault tolerance, oracle separation*.
+
+## Video tham khảo
+
+- **xem trước** — [How Does a Quantum Computer Work?](https://www.youtube.com/watch?v=g_IaVepNDT4) — Veritasium, English. Watch first. “How Does a Quantum Computer Work?” orients the lesson’s aim: Represent a single qubit as a unit vector in \mathbb{C}^2 (up to phase) and a measurement in an orthonormal basis as a probabilistic collapse rule.
+- [How To Make a Quantum Bit](https://www.youtube.com/watch?v=zNzzGgr2mhk) — Veritasium, English. A second pass once the main claim is in view: Represent a single qubit as a unit vector in \mathbb{C}^2 (up to phase) and a measurement in an orthonormal basis as a probabilistic collapse rule.

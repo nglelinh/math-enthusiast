@@ -145,3 +145,9 @@ Làm **một**:
 1. Duality track Ch.6 bài 12–17.  
 2. nLab — duality (định hướng).  
 3. Nhật ký của bạn là hiện vật chính.
+
+## Video tham khảo
+
+- **xem trước** — [Prof. Edward Witten | Duality, the Langlands Correspondence, and the Influence of Michael Atiyah](https://www.youtube.com/watch?v=fqHGe3acpC0) — INI Seminar Room 1, tiếng Anh. Xem trước. “Prof. Edward Witten | Duality, the Langlands Correspondence, and the Influence of Micha…” định hướng cho mục tiêu của bài: Chọn một cặp dual trên bản đồ khóa học và nêu cái gì bị đổi.
+- [AdS/CFT Correspondence, Part 1 - Juan Maldacena](https://www.youtube.com/watch?v=sYqtGXN59uE) — Institute for Advanced Study, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Chọn một cặp dual trên bản đồ khóa học và nêu cái gì bị đổi.
+- [Lecture 1: Geometric Langlands and S-duality in N = 4 SYM by Sergei Gukov](https://www.youtube.com/watch?v=bCpVL6flCxo) — International Centre for Theoretical Sciences, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Chọn một cặp dual trên bản đồ khóa học và nêu cái gì bị đổi.

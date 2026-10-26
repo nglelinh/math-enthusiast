@@ -62,3 +62,9 @@ Do not skip the survey and read only this page. Privacy, coding, and quantum did
 - Hubert, T., et al. (2025). Olympiad-level formal mathematical reasoning with reinforcement learning. *Nature*. [doi:10.1038/s41586-025-09833-y](https://doi.org/10.1038/s41586-025-09833-y).
 - Melnychuk, V., Frauen, D., & Feuerriegel, S. (2022). Causal Transformer for estimating counterfactual outcomes. *ICML*. [arXiv:2204.07258](https://arxiv.org/abs/2204.07258).
 - Survey: [Modern themes]({{ site.baseurl }}/contents/en/chapter09/09_14_Modern_Themes/).
+
+## Video tham khảo
+
+- **xem trước** — [Chinchilla Explained: Compute-Optimal Massive Language Models](https://www.youtube.com/watch?v=PZXN7jm9IC0) — Edan Meyer, English. Watch for the compute-optimal training tradeoff (Chinchilla): parameters versus tokens. An explainer of the scaling paper, not a primary author lecture.
+- [Improving on AlphaProof: IMO 2024 Problem 2 in Lean 4](https://www.youtube.com/watch?v=5IARsdn78xE) — David Renshaw, English. A Lean 4 formalization of an IMO 2024 problem in the AlphaProof style. Use it beside the lesson’s verification theme, not as an official DeepMind talk.
+- [Keynote: Judea Pearl - The New Science of Cause and Effect](https://www.youtube.com/watch?v=ZaPV1OSEpHw) — PyData, English. Further depth after the first two, still tied to this lesson: After this optional update you should be able to add three concrete 2022–2026 artifacts—compute-optimal training, Lean-based olympiad agents, and causal sequence models—to the mode…

@@ -346,3 +346,9 @@ Danh mục URL đầy đủ (mọi link tìm được khi nghiên cứu video): 
 - Bài thuần túy liên quan: [Navier–Stokes]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/).  
 - Tùy chọn: xem [video grad/div/curl](https://www.youtube.com/watch?v=m_Psx7CdvDk) rồi đọc lại §5.  
 - Viết lại cơ chế cốt lõi một đoạn; ghi một câu hỏi còn mở.
+
+## Video tham khảo
+
+- **xem trước** — [Best Explanation of Gradient, Divergence and Curl](https://www.youtube.com/watch?v=m_Psx7CdvDk) — Brain Station Advanced, tiếng Anh. Xem trước. “Best Explanation of Gradient, Divergence and Curl” định hướng cho mục tiêu của bài: Giải thích đạo hàm và tích phân như hai phép toán đôi, nối bởi định lý cơ bản của giải tích.
+- [The essence of calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM) — 3Blue1Brown, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Giải thích đạo hàm và tích phân như hai phép toán đôi, nối bởi định lý cơ bản của giải tích.
+- [Divergence and curl: The language of Maxwell's equations, fluid flow, and more](https://www.youtube.com/watch?v=rB83DpBJQsE) — 3Blue1Brown, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Giải thích đạo hàm và tích phân như hai phép toán đôi, nối bởi định lý cơ bản của giải tích.

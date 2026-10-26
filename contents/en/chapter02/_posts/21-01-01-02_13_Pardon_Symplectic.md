@@ -279,3 +279,9 @@ Full URL bibliography from video research (including secondary finds): `research
 - For log geometry vocabulary: look up *log smooth morphisms* and *derived stacks* in a survey before chasing research papers.
 - If a full ICM lecture video appears, re-run knowledge extraction for multi-unit segmentation beyond this single theorem slide.
 - Seminar A3 option: write a one-page brief “What must a virtual fundamental class satisfy?” with three axioms in your own words.
+
+## Video tham khảo
+
+- **xem trước** — [2026 Fields Medal: John Pardon](https://www.youtube.com/watch?v=E4KP07YL0Js) — Simons Foundation, English. Watch first. “2026 Fields Medal: John Pardon” orients the lesson’s aim: State what symplectic geometry studies: closed nondegenerate 2-forms; Hamiltonian dynamics as structure-preserving flows.
+- [ICM 2026 Fields Medal Award Lecture - John Pardon](https://www.youtube.com/watch?v=YZ7hKBlCeGs) — Simons Foundation, English. A second pass once the main claim is in view: State what symplectic geometry studies: closed nondegenerate 2-forms; Hamiltonian dynamics as structure-preserving flows.
+- [Contact homology and virtual fundamental cycles - John Pardon](https://www.youtube.com/watch?v=Eh8Hrg1mQVk) — Institute for Advanced Study, English. Further depth after the first two, still tied to this lesson: State what symplectic geometry studies: closed nondegenerate 2-forms; Hamiltonian dynamics as structure-preserving flows.

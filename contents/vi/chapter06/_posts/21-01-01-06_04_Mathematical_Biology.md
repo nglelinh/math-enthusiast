@@ -263,3 +263,9 @@ Danh mục URL đầy đủ: `research/video-research/mathematical-biology/refer
 - Mô phỏng SIR và birth–death gene; so ODE trung bình với quỹ đạo ngẫu nhiên.
 - Đọc: một chương mô hình ngăn + một paper gene stochastic + một essay giới hạn mô hình.
 - Luôn hỏi: *Phương trình này hợp lệ ở thang nào?*
+
+## Video tham khảo
+
+- **xem trước** — [Exponential growth and epidemics](https://www.youtube.com/watch?v=Kas0tIxDvrg) — 3Blue1Brown, tiếng Anh. Xem trước. “Exponential growth and epidemics” định hướng cho mục tiêu của bài: Viết và diễn giải ODE ngăn (logistic, SIR); nêu giả thiết “trộn đều”.
+- [The MATH of Pandemics | Intro to the SIR Model](https://www.youtube.com/watch?v=Qrp40ck3WpI) — Dr. Trefor Bazett, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Viết và diễn giải ODE ngăn (logistic, SIR); nêu giả thiết “trộn đều”.
+- [The Coronavirus Curve - Numberphile](https://www.youtube.com/watch?v=k6nLfCbAzgo) — Numberphile, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Viết và diễn giải ODE ngăn (logistic, SIR); nêu giả thiết “trộn đều”.

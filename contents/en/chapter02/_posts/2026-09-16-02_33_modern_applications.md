@@ -67,3 +67,9 @@ This note deliberately skips Hong Wang / Kakeya and Yu Deng portraits, and it do
 - NIST. (2024). *FIPS 203: Module-Lattice-Based Key-Encapsulation Mechanism Standard*. [doi:10.6028/NIST.FIPS.203](https://doi.org/10.6028/NIST.FIPS.203).
 - Rampášek, L., Galkin, M., Dwivedi, V. P., Luu, A. T., Wolf, G., & Beaini, D. (2022). Recipe for a general, powerful, scalable graph transformer. *NeurIPS*. [arXiv:2205.12454](https://arxiv.org/abs/2205.12454).
 - Course portraits (do not duplicate here): [Figalli]({{ site.baseurl }}/contents/en/chapter02/02_20_Figalli_Optimal_Transport/), [Viazovska]({{ site.baseurl }}/contents/en/chapter02/02_08_Viazovska_Sphere_Packing/).
+
+## Video tham khảo
+
+- **xem trước** — [Alessio Figalli (2018 Fields Medal) explains Optimal Transport](https://www.youtube.com/watch?v=jyL6ZECM7oM) — Tom Rocks Maths, English. Watch first. “Alessio Figalli (2018 Fields Medal) explains Optimal Transport” orients the lesson’s aim: After this optional note you should be able to point to three 2022–2026 computer-science deployments that reuse mathematical objects featured in this chapter—optimal transport, hig…
+- [Post Quantum Cryptography - Computerphile](https://www.youtube.com/watch?v=_MoRcYLN-7U) — Computerphile, English. A second pass once the main claim is in view: After this optional note you should be able to point to three 2022–2026 computer-science deployments that reuse mathematical objects featured in this chapter—optimal transport, hig…
+- [Fields Medal: Hugo Duminil-Copin](https://www.youtube.com/watch?v=5dXulZVstbY) — Simons Foundation, English. Further depth after the first two, still tied to this lesson: After this optional note you should be able to point to three 2022–2026 computer-science deployments that reuse mathematical objects featured in this chapter—optimal transport, hig…

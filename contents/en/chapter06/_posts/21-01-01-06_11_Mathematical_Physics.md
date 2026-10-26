@@ -302,3 +302,9 @@ Full URL bibliography from video research: `research/video-research/mathematical
 - **Practice:** nondimensionalize Navier–Stokes or heat equation; identify Reynolds or Fourier numbers; discuss what “rigorous existence” would add to a simulation.
 - **Reading path:** one PDE well-posedness chapter → one QM operator chapter → Clay problem statements → duality map.
 - Maintain a three-column journal: *physical model / mathematical theorem / open gap*.
+
+## Video tham khảo
+
+- **xem trước** — [Luis Caffarelli, Navier-Stokes existence and smoothness](https://www.youtube.com/watch?v=ta6Q70y6YVU) — Clay Mathematics Institute, English. Watch first. “Luis Caffarelli, Navier-Stokes existence and smoothness” orients the lesson’s aim: Give examples of mathematical physics problems that are existence/uniqueness/regularity questions for PDE or dynamical systems.
+- [Vladimir Šverak, A report on the Navier-Stokes Problem](https://www.youtube.com/watch?v=BaDxv5Z4LkU) — Clay Mathematics Institute, English. A second pass once the main claim is in view: Give examples of mathematical physics problems that are existence/uniqueness/regularity questions for PDE or dynamical systems.
+- [Peter Constantin, On the Navier Stokes equations](https://www.youtube.com/watch?v=vw77s3yRlu0) — Clay Mathematics Institute, English. Further depth after the first two, still tied to this lesson: Give examples of mathematical physics problems that are existence/uniqueness/regularity questions for PDE or dynamical systems.

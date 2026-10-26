@@ -146,3 +146,9 @@ Kinetic theory had entropy, $$H$$-theorems, and Landau’s contour, but few nonl
 
 - Read the opening of Mouhot–Villani (phase mixing versus energy loss) before the analytic norms; compare a homogeneous $$H$$-theorem with the inhomogeneous Desvillettes–Villani scheme.
 - Seminar prompt: in what regularity class would you expect nonlinear Landau damping to fail, and why is that not a contradiction with the *Acta* theorem?
+
+## Video tham khảo
+
+- **xem trước** — [Conferências Magnas: Cédric Villani - Large particle systems and Landau damping (2012)](https://www.youtube.com/watch?v=3Aa1Fyd1pW0) — Instituto de Matemática Pura e Aplicada, English. Watch first. “Conferências Magnas: Cédric Villani - Large particle systems and Landau damping (2012)” orients the lesson’s aim: Distinguish the Vlasov (collisionless, mean-field) setting of Landau damping from the Boltzmann (collisional) setting of trend to equilibrium.
+- [Cédric Villani - From KAM Theory to Landau Damping, IHP 30/09/2013 - Part 1](https://www.youtube.com/watch?v=pHJV-E1EOA8) — Institut Henri Poincaré, English. A second pass once the main claim is in view: Distinguish the Vlasov (collisionless, mean-field) setting of Landau damping from the Boltzmann (collisional) setting of trend to equilibrium.
+- [Landau damping: Gevrey regularity and paraproducts - Clément Mouhot](https://www.youtube.com/watch?v=eja7NTV7Igs) — Institute for Advanced Study, English. Further depth after the first two, still tied to this lesson: Distinguish the Vlasov (collisionless, mean-field) setting of Landau damping from the Boltzmann (collisional) setting of trend to equilibrium.

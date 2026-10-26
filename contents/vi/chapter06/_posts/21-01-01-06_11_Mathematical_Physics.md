@@ -300,3 +300,9 @@ Danh mục URL đầy đủ: `research/video-research/mathematical-physics/refer
 - Thực hành: không thứ nguyên hóa NS hoặc heat; Reynolds/Fourier; “tồn tại chặt” thêm gì cho simulation.
 - Đọc: một chương well-posedness PDE → một chương toán tử QM → phát biểu Clay → bản đồ dualty.
 - Nhật ký ba cột: *mô hình vật lý / định lý toán / khoảng trống mở*.
+
+## Video tham khảo
+
+- **xem trước** — [Luis Caffarelli, Navier-Stokes existence and smoothness](https://www.youtube.com/watch?v=ta6Q70y6YVU) — Clay Mathematics Institute, tiếng Anh. Xem trước. “Luis Caffarelli, Navier-Stokes existence and smoothness” định hướng cho mục tiêu của bài: Ví dụ bài vật lý toán là tồn tại/duy nhất/chính quy PDE hoặc hệ động lực.
+- [Vladimir Šverak, A report on the Navier-Stokes Problem](https://www.youtube.com/watch?v=BaDxv5Z4LkU) — Clay Mathematics Institute, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Ví dụ bài vật lý toán là tồn tại/duy nhất/chính quy PDE hoặc hệ động lực.
+- [Peter Constantin, On the Navier Stokes equations](https://www.youtube.com/watch?v=vw77s3yRlu0) — Clay Mathematics Institute, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Ví dụ bài vật lý toán là tồn tại/duy nhất/chính quy PDE hoặc hệ động lực.

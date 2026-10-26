@@ -258,3 +258,9 @@ Transcript caption và unit theo thời gian: `research/video-research/explore-d
 
 *Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
 
+
+## Video tham khảo
+
+- **xem trước** — [Infinity Paradoxes - Numberphile](https://www.youtube.com/watch?v=dDl7g_2x74Q) — Numberphile, tiếng Anh. Xem trước. “Infinity Paradoxes - Numberphile” định hướng cho mục tiêu của bài: Phân biệt vô hạn tiềm năng (quá trình không dứt) và vô hạn thực (tập hoàn tất như \mathbb{N}).
+- [PHILOSOPHY - Mathematics: Sizes of Infinity, Part 1 (Hilbert's Hotel) (HD)](https://www.youtube.com/watch?v=p1KkXA0vKsQ) — Wireless Philosophy, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phân biệt vô hạn tiềm năng (quá trình không dứt) và vô hạn thực (tập hoàn tất như \mathbb{N}).
+- [A Problem with Infinite Hotel Keys - Numberphile](https://www.youtube.com/watch?v=uezOrcmHzrQ) — Numberphile, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phân biệt vô hạn tiềm năng (quá trình không dứt) và vô hạn thực (tập hoàn tất như \mathbb{N}).

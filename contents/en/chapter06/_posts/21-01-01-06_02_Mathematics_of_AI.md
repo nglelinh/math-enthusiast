@@ -308,3 +308,9 @@ Full URL bibliography from video research: `research/video-research/mathematics-
 - **Applications backbone:** [Linear algebra → AI]({{ site.baseurl }}/contents/en/chapter03/03_03_Linear_Algebra_AI/) if you want the matrix toolkit emphasized.
 - **Practice:** train a tiny model (even logistic regression or a two-layer net) and log train vs test curves; annotate where the mathematical story of Section 4 becomes visible.
 - **Seminar stance:** keep a running table of claims labeled *theorem / bound / empirical law / hype*.
+
+## Video tham khảo
+
+- **xem trước** — [But what is a neural network? | Deep learning chapter 1](https://www.youtube.com/watch?v=aircAruvnKk) — 3Blue1Brown, English. Watch first. “But what is a neural network? | Deep learning chapter 1” orients the lesson’s aim: Describe a basic neural net as composition of linear maps and nonlinearities on vector spaces, and write a single layer as x \mapsto \sigma(Wx+b).
+- [Gradient descent, how neural networks learn | Deep Learning Chapter 2](https://www.youtube.com/watch?v=IHZwWFHWa-w) — 3Blue1Brown, English. A second pass once the main claim is in view: Describe a basic neural net as composition of linear maps and nonlinearities on vector spaces, and write a single layer as x \mapsto \sigma(Wx+b).
+- [One of the world's greatest mathematicians explains 6 essential concepts of math | Terence Tao](https://www.youtube.com/watch?v=OOMx2BHHWtE) — Big Think, English. Further depth after the first two, still tied to this lesson: Describe a basic neural net as composition of linear maps and nonlinearities on vector spaces, and write a single layer as x \mapsto \sigma(Wx+b).

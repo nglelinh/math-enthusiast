@@ -163,3 +163,9 @@ Bài này không kèm gói nghiên cứu video của khóa học.
 - Đọc một bài một buổi về công thức vết Lefschetz trong đối đồng điều étale trước khi thử Weil I.
 - Tùy chọn seminar A3: bản một trang “mở sau Deligne”—các giả thuyết chuẩn, Hodge, motive, RH cổ điển—tách rõ Fields 1978 khỏi Abel 2013.
 - Nếu dạng modular là móc của bạn, theo Ramanujan–Petersson vào các bài của Deligne rồi vào Deligne–Serre cho trọng số một; giữ phân biệt chiều trên trang.
+
+## Video tham khảo
+
+- **xem trước** — [Timothy Gowers: The Weil conjectures explained](https://www.youtube.com/watch?v=PHkYqPX3Je4) — The Abel Prize, tiếng Anh. Xem trước. “Timothy Gowers: The Weil conjectures explained” định hướng cho mục tiêu của bài: Phát biểu các giả thuyết Weil mức khẩu hiệu: hàm zeta của một đa tạp xạ ảnh trơn trên trường hữu hạn là hữu tỷ, thỏa phương trình hàm, và có zero/cực trên những đường thẳng đứng qu…
+- [The Weil Conjectures, from Abel to Deligne - Sophie Morel](https://www.youtube.com/watch?v=iDgtP6ZpR70) — Institute for Advanced Study, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu các giả thuyết Weil mức khẩu hiệu: hàm zeta của một đa tạp xạ ảnh trơn trên trường hữu hạn là hữu tỷ, thỏa phương trình hàm, và có zero/cực trên những đường thẳng đứng qu…
+- [The Weil conjectures - Lothar Goettsche - 2016](https://www.youtube.com/watch?v=kiQwnXT7j7g) — ICTP Mathematics, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu các giả thuyết Weil mức khẩu hiệu: hàm zeta của một đa tạp xạ ảnh trơn trên trường hữu hạn là hữu tỷ, thỏa phương trình hàm, và có zero/cực trên những đường thẳng đứng qu…

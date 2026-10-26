@@ -67,3 +67,9 @@ Bài này cố ý bỏ qua chân dung Hong Wang / Kakeya và Yu Deng, và không
 - NIST. (2024). *FIPS 203: Module-Lattice-Based Key-Encapsulation Mechanism Standard*. [doi:10.6028/NIST.FIPS.203](https://doi.org/10.6028/NIST.FIPS.203).
 - Rampášek, L., Galkin, M., Dwivedi, V. P., Luu, A. T., Wolf, G., & Beaini, D. (2022). Recipe for a general, powerful, scalable graph transformer. *NeurIPS*. [arXiv:2205.12454](https://arxiv.org/abs/2205.12454).
 - Chân dung khóa học (không lặp ở đây): [Figalli]({{ site.baseurl }}/contents/vi/chapter02/02_20_Figalli_Optimal_Transport/), [Viazovska]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/).
+
+## Video tham khảo
+
+- **xem trước** — [Alessio Figalli (2018 Fields Medal) explains Optimal Transport](https://www.youtube.com/watch?v=jyL6ZECM7oM) — Tom Rocks Maths, tiếng Anh. Xem trước. “Alessio Figalli (2018 Fields Medal) explains Optimal Transport” định hướng cho mục tiêu của bài: Sau bài tùy chọn này, bạn chỉ được ba triển khai khoa học máy tính 2022–2026 tái sử dụng các đối tượng toán xuất hiện trong chương—vận chuyển tối ưu, lattice chiều cao, và tư duy c…
+- [Post Quantum Cryptography - Computerphile](https://www.youtube.com/watch?v=_MoRcYLN-7U) — Computerphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài tùy chọn này, bạn chỉ được ba triển khai khoa học máy tính 2022–2026 tái sử dụng các đối tượng toán xuất hiện trong chương—vận chuyển tối ưu, lattice chiều cao, và tư duy c…
+- [Fields Medal: Hugo Duminil-Copin](https://www.youtube.com/watch?v=5dXulZVstbY) — Simons Foundation, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài tùy chọn này, bạn chỉ được ba triển khai khoa học máy tính 2022–2026 tái sử dụng các đối tượng toán xuất hiện trong chương—vận chuyển tối ưu, lattice chiều cao, và tư duy c…

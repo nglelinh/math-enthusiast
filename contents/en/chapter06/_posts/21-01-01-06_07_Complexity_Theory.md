@@ -236,3 +236,9 @@ Full URL bibliography from video research: `research/video-research/complexity-t
 - **Practice:** implement exponential vs poly algorithms for a small NP-complete problem (e.g., brute-force SAT on $$n\le 20$$) and plot wall-clock scaling.
 - **Reading path:** Sipser NP chapter → one reduction diagram a day → Arora–Barak sampling.
 - Keep a class inclusion postcard and annotate what is theorem vs conjecture.
+
+## Video tham khảo
+
+- **xem trước** — [Beyond Computation: The P vs NP Problem - Michael Sipser](https://www.youtube.com/watch?v=msp2y_Y5MLE) — PoincareDuality, English. Watch first. “Beyond Computation: The P vs NP Problem - Michael Sipser” orients the lesson’s aim: Define decision problems and the classes P and NP in plain language and with the “deterministic poly-time” / “poly-time verifiable witness” slogans.
+- [15. NP-Completeness](https://www.youtube.com/watch?v=iZPzBHGDsWI) — MIT OpenCourseWare, English. A second pass once the main claim is in view: Define decision problems and the classes P and NP in plain language and with the “deterministic poly-time” / “poly-time verifiable witness” slogans.
+- [P vs NP Explained: Computer Science's Biggest Puzzle](https://www.youtube.com/watch?v=pQsdygaYcE4) — Quanta Magazine, English. Further depth after the first two, still tied to this lesson: Define decision problems and the classes P and NP in plain language and with the “deterministic poly-time” / “poly-time verifiable witness” slogans.

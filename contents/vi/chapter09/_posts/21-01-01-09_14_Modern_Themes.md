@@ -283,3 +283,9 @@ Danh mục đầy đủ: `research/video-research/modern-themes/references.md`.
 - Chương kế / ngoài: theo lộ A–E; hoặc studio [Chương 7]({{ site.baseurl }}/contents/vi/chapter07/07_00_Tong_quan/) nếu muốn chế độ khám phá.
 
 **Kết chương.** Giải thưởng là đèn. Thuật toán, chứng minh, học, nhân quả, ngẫu nhiên và hệ thống là sân khấu. Hãy ở lại sân khấu.
+
+## Video tham khảo
+
+- **xem trước** — [P vs NP Explained: Computer Science's Biggest Puzzle](https://www.youtube.com/watch?v=pQsdygaYcE4) — Quanta Magazine, tiếng Anh. Xem trước. “P vs NP Explained: Computer Science's Biggest Puzzle” định hướng cho mục tiêu của bài: Sau bài, bạn có thể liệt kê ít nhất sáu trục biên toán–CS hiện đại (fine-grained complexity, optimization & continuous algorithms, ML theory at scale, crypto post-quantum, quantum…
+- [But what is a neural network? | Deep learning chapter 1](https://www.youtube.com/watch?v=aircAruvnKk) — 3Blue1Brown, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài, bạn có thể liệt kê ít nhất sáu trục biên toán–CS hiện đại (fine-grained complexity, optimization & continuous algorithms, ML theory at scale, crypto post-quantum, quantum…
+- [How Does a Quantum Computer Work?](https://www.youtube.com/watch?v=g_IaVepNDT4) — Veritasium, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài, bạn có thể liệt kê ít nhất sáu trục biên toán–CS hiện đại (fine-grained complexity, optimization & continuous algorithms, ML theory at scale, crypto post-quantum, quantum…

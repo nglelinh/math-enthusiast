@@ -252,3 +252,9 @@ Full URL bibliography from video research: `research/video-research/optimal-tran
 - **Practice:** solve a tiny discrete OT LP by hand ($$2\times 2$$ or $$3\times 3$$ supplies/demands); then try Sinkhorn on the same costs.
 - **Reading path:** Peyré–Cuturi computational chapters → Villani intuition sections → one statistical rates paper abstract.
 - Always specify: *ground cost, marginals, exact vs regularized, estimator*.
+
+## Video tham khảo
+
+- **xem trước** — [New Frontiers in Mathematics: Professor Cédric Villani, “Optimal Transport Theory”](https://www.youtube.com/watch?v=6DZjBcDfPHs) — Imperial College London, English. Watch first. “New Frontiers in Mathematics: Professor Cédric Villani, “Optimal Transport Theory”” orients the lesson’s aim: State Monge’s problem of transporting mass via a map T minimizing cost, and explain why maps may fail to exist.
+- [Lecture 01 | Optimal Transportation, Geometry and Dynamics](https://www.youtube.com/watch?v=TAnoqeYfO1Y) — Fields Institute, English. A second pass once the main claim is in view: State Monge’s problem of transporting mass via a map T minimizing cost, and explain why maps may fail to exist.
+- [Crash Course on Optimal Transport](https://www.youtube.com/watch?v=GMC7uOPAa_Y) — Simons Institute for the Theory of Computing, English. Further depth after the first two, still tied to this lesson: State Monge’s problem of transporting mass via a map T minimizing cost, and explain why maps may fail to exist.

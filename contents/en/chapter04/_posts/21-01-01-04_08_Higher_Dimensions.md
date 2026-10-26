@@ -222,3 +222,9 @@ Full URL bibliography from video research (including secondary finds): `research
 ## Further directions
 
 Hands-on prompts: [Explore the fourth dimension]({{ site.baseurl }}/contents/en/chapter07/07_06_Explore_Fourth_Dimension/). Extreme packing geometry: [Viazovska]({{ site.baseurl }}/contents/en/chapter02/02_08_Viazovska_Sphere_Packing/). Data geometry: [Linear algebra and AI]({{ site.baseurl }}/contents/en/chapter03/03_03_Linear_Algebra_AI/). Strange embeddings back in 3D: [Strange geometry]({{ site.baseurl }}/contents/en/chapter04/04_06_Strange_Geometry/).
+
+## Video tham khảo
+
+- **xem trước** — [Thinking outside the 10-dimensional box](https://www.youtube.com/watch?v=zwAD6dRSVyI) — 3Blue1Brown, English. Watch first. “Thinking outside the 10-dimensional box” orients the lesson’s aim: Use coordinates and the Euclidean norm on \mathbb{R}^n confidently.
+- [Perfect Shapes in Higher Dimensions - Numberphile](https://www.youtube.com/watch?v=2s4TqVAbfz4) — Numberphile, English. A second pass once the main claim is in view: Use coordinates and the Euclidean norm on \mathbb{R}^n confidently.
+- [The Puzzling Fourth Dimension (and exotic shapes) - Numberphile](https://www.youtube.com/watch?v=CVOr7f_VALc) — Numberphile, English. Further depth after the first two, still tied to this lesson: Use coordinates and the Euclidean norm on \mathbb{R}^n confidently.

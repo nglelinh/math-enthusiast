@@ -224,3 +224,9 @@ Danh mục đầy đủ: `research/video-research/kashiwara-dmodules/references.
 - Ghi một hướng nghiên cứu mở trong geometric representation theory hoặc algebraic analysis vẫn kéo lĩnh vực.  
 - So [Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/).  
 - Kết chuỗi chủ đề ch.08: quay [Tổng quan]({{ site.baseurl }}/contents/vi/chapter08/08_01_Tong_quan/) và đọc lại như bản đồ thời tiết trọn đời—bão bài toán (FLT), khí hậu geometric analysis (Uhlenbeck, Sullivan, Caffarelli), mặt trận rời rạc/động lực (Furstenberg–Margulis, Lovász–Wigderson), chiều cao xác suất (Talagrand), hạ tầng algebraic analysis (Kashiwara). Portfolio nên chọn một hệ thời tiết và báo cáo với nguồn chính, không liệt kê mọi đám mây.
+
+## Video tham khảo
+
+- **xem trước** — [Andrea D'Agnolo: Algebraic Analysis for beginners](https://www.youtube.com/watch?v=m0LPDNDhfMc) — The Abel Prize, tiếng Anh. Xem trước. “Andrea D'Agnolo: Algebraic Analysis for beginners” định hướng cho mục tiêu của bài: Sau bài, bạn có thể giải thích D-module như ngôn ngữ đại số cho hệ PDE tuyến tính; nêu ý generalized Riemann–Hilbert (holonomic D-module ↔ perverse sheaf) ở mức khẩu hiệu; mô tả cr…
+- [Masaki Kashiwara: Monoidal categories (non-commutative case)](https://www.youtube.com/watch?v=FHn4WHPzjYw) — The Abel Prize, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài, bạn có thể giải thích D-module như ngôn ngữ đại số cho hệ PDE tuyến tính; nêu ý generalized Riemann–Hilbert (holonomic D-module ↔ perverse sheaf) ở mức khẩu hiệu; mô tả cr…
+- [David Nadler: Gaining momentum: On the global influence of Masaki Kashiwara's microlocal perspective](https://www.youtube.com/watch?v=tFswRJVXTpA) — The Abel Prize, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài, bạn có thể giải thích D-module như ngôn ngữ đại số cho hệ PDE tuyến tính; nêu ý generalized Riemann–Hilbert (holonomic D-module ↔ perverse sheaf) ở mức khẩu hiệu; mô tả cr…

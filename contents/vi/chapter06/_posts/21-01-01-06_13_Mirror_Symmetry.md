@@ -183,3 +183,9 @@ Trạng thái transcript: `research/video-research/mirror-symmetry/TRANSCRIPT_ST
 5. Hori et al. — *Mirror Symmetry* (Clay)  
 6. Wikipedia — Homological mirror symmetry; SYZ  
 7. Gói: `research/video-research/mirror-symmetry/`  
+
+## Video tham khảo
+
+- **xem trước** — [Edward Witten: Mirror Symmetry & Geometric Langlands (2012)](https://www.youtube.com/watch?v=S02ghGCdNDo) — Graduate Mathematics, tiếng Anh. Xem trước. “Edward Witten: Mirror Symmetry & Geometric Langlands (2012)” định hướng cho mục tiêu của bài: Phát biểu slogan vật lý của mirror symmetry và tách A-model / B-model toán học.
+- [HMS for local CY manifolds via SYZ | Kwokwai Chan](https://www.youtube.com/watch?v=Kz6Dj8KSFjM) — Harvard CMSA, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu slogan vật lý của mirror symmetry và tách A-model / B-model toán học.
+- [Lagrangian fillings what does the sheaf say? | Eric Zaslow](https://www.youtube.com/watch?v=Y3-sw3tjZiU) — Harvard CMSA, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu slogan vật lý của mirror symmetry và tách A-model / B-model toán học.

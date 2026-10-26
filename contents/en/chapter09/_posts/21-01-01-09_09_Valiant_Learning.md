@@ -200,3 +200,9 @@ Complete list: `research/video-research/valiant-learning/references.md`.
 - Read a short note on approximate counting and Markov-chain sampling.  
 - Cross-check LO6 skills on a modern foundation-model press release.  
 - Next: [Hopcroft & Tarjan]({{ site.baseurl }}/contents/en/chapter09/09_10_Hopcroft_Tarjan/)—algorithms as craft, not only classes.
+
+## Video tham khảo
+
+- **xem trước** — [Machine learning: Lecture 12b: PAC learning introduction](https://www.youtube.com/watch?v=XAwUQLYr5ZE) — UofU Data Science, English. Watch first. “Machine learning: Lecture 12b: PAC learning introduction” orients the lesson’s aim: After this lecture you should be able to explain the PAC learning slogan—return a hypothesis that is approximately correct with high probability after seeing finitely many samples—…
+- [The Computational Universe - Leslie Valiant](https://www.youtube.com/watch?v=KHPe7o6jjIU) — Institute for Advanced Study, English. A second pass once the main claim is in view: After this lecture you should be able to explain the PAC learning slogan—return a hypothesis that is approximately correct with high probability after seeing finitely many samples—…
+- [Prof. Leslie Valiant (Harvard) : What Needs to be Added to Machine Learning?](https://www.youtube.com/watch?v=nAMKHfqW2cw) — Computational Complexity, English. Further depth after the first two, still tied to this lesson: After this lecture you should be able to explain the PAC learning slogan—return a hypothesis that is approximately correct with high probability after seeing finitely many samples—…

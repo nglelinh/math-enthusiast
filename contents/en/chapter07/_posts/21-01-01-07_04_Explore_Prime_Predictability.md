@@ -291,3 +291,8 @@ Caption transcripts and time-chunk units for pack videos: `research/video-resear
 
 *Figure. Sample still from a pack primary video (see pack for timestamps).*
 
+
+## Video tham khảo
+
+- **xem trước** — [The Riemann Hypothesis, Explained](https://www.youtube.com/watch?v=zlm1aajH6gY) — Quanta Magazine, English. Watch first. “The Riemann Hypothesis, Explained” orients the lesson’s aim: State the Prime Number Theorem at slogan level: \pi(x)\sim x/\log x, and compute \pi(x) for moderate x.
+- [Twin Prime Conjecture - Numberphile](https://www.youtube.com/watch?v=QKHKD8bRAro) — Numberphile, English. A second pass once the main claim is in view: State the Prime Number Theorem at slogan level: \pi(x)\sim x/\log x, and compute \pi(x) for moderate x.

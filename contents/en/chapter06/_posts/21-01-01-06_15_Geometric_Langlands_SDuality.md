@@ -200,3 +200,9 @@ Transcript status: `research/video-research/geometric-langlands-sduality/TRANSCR
 4. Hausel–Thaddeus — Mirror symmetry, Langlands duality, Hitchin — https://arxiv.org/abs/math/0205236  
 5. Course: [Langlands / Ngô]({{ site.baseurl }}/contents/en/chapter02/02_02_Langlands_Program/)  
 6. Pack: `research/video-research/geometric-langlands-sduality/`  
+
+## Video tham khảo
+
+- **xem trước** — [Lecture 1: Geometric Langlands and S-duality in N = 4 SYM by Sergei Gukov](https://www.youtube.com/watch?v=bCpVL6flCxo) — International Centre for Theoretical Sciences, English. Watch first. “Lecture 1: Geometric Langlands and S-duality in N = 4 SYM by Sergei Gukov” orients the lesson’s aim: Separate arithmetic Langlands from geometric Langlands (objects and base fields differ; dual-group spirit is shared).
+- [Gauge Theory, Geometric Langlands, and All That - Edward Witten](https://www.youtube.com/watch?v=8Pkw25J-Bg0) — Viktór, English. A second pass once the main claim is in view: Separate arithmetic Langlands from geometric Langlands (objects and base fields differ; dual-group spirit is shared).
+- [Edward Witten: Mirror Symmetry & Geometric Langlands (2012)](https://www.youtube.com/watch?v=S02ghGCdNDo) — Graduate Mathematics, English. Further depth after the first two, still tied to this lesson: Separate arithmetic Langlands from geometric Langlands (objects and base fields differ; dual-group spirit is shared).
