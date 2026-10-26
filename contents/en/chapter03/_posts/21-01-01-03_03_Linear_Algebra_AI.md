@@ -278,3 +278,9 @@ Full URL bibliography from video research (including secondary finds): `research
 - Then [Optimization]({{ site.baseurl }}/contents/en/chapter03/03_07_Optimization_Operations_AI/) for why gradient methods work (and fail).  
 - Future-facing theory: [ML Theory]({{ site.baseurl }}/contents/en/chapter06/06_10_ML_Theory/) and [Mathematics of AI]({{ site.baseurl }}/contents/en/chapter06/06_02_Mathematics_of_AI/).  
 - Restate the core mechanism of this essay in one paragraph; note one precise question you still have.
+
+## Video tham khảo
+
+- **xem trước** — [But what is a neural network? | Deep learning chapter 1](https://www.youtube.com/watch?v=aircAruvnKk) — 3Blue1Brown, English. Watch first. “But what is a neural network? | Deep learning chapter 1” orients the lesson’s aim: Interpret examples as vectors and datasets as matrices; interpret similarity via inner products and norms.
+- [Gradient descent, how neural networks learn | Deep Learning Chapter 2](https://www.youtube.com/watch?v=IHZwWFHWa-w) — 3Blue1Brown, English. A second pass once the main claim is in view: Interpret examples as vectors and datasets as matrices; interpret similarity via inner products and norms.
+- [Backpropagation, intuitively | Deep Learning Chapter 3](https://www.youtube.com/watch?v=Ilg3gGewQ5U) — 3Blue1Brown, English. Further depth after the first two, still tied to this lesson: Interpret examples as vectors and datasets as matrices; interpret similarity via inner products and norms.

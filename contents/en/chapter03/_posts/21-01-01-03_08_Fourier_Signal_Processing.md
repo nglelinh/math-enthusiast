@@ -259,3 +259,9 @@ Full URL bibliography from video research (including secondary finds): `research
 - Next: [Differential Equations → Applications]({{ site.baseurl }}/contents/en/chapter03/03_09_Differential_Equations_Applications/) (modes, numerics, well-posedness).  
 - Pure frontier: [Wang]({{ site.baseurl }}/contents/en/chapter02/02_15_Wang_Harmonic_Analysis/) and [Kakeya]({{ site.baseurl }}/contents/en/chapter01/01_08_Kakeya_Conjecture/).  
 - Restate the core mechanism of this essay in one paragraph; note one precise question you still have.
+
+## Video tham khảo
+
+- **xem trước** — [But what is a Fourier series? From heat flow to drawing with circles | DE4](https://www.youtube.com/watch?v=r6sGWTCMz2k) — 3Blue1Brown, English. Watch first. “But what is a Fourier series? From heat flow to drawing with circles | DE4” orients the lesson’s aim: Explain a signal as a superposition of oscillatory modes (sines/cosines or complex exponentials).
+- [But what is the Fourier Transform? A visual introduction.](https://www.youtube.com/watch?v=spUNpyF58BY) — 3Blue1Brown, English. A second pass once the main claim is in view: Explain a signal as a superposition of oscillatory modes (sines/cosines or complex exponentials).
+- [The Most Underrated Algorithm](https://www.youtube.com/watch?v=nmgFG7PUHfo) — Veritasium, English. Further depth after the first two, still tied to this lesson: Explain a signal as a superposition of oscillatory modes (sines/cosines or complex exponentials).

@@ -296,3 +296,8 @@ Full URL bibliography from video research: `research/video-research/cantor-diago
 - Read a careful treatment of decimal representations and complete a fully hygienic writeup once.  
 - Preview Gödel and Turing as diagonal descendants.  
 - Note one precise question you still have—good questions are part of mathematical practice.
+
+## Video tham khảo
+
+- **xem trước** — [Infinity is bigger than you think - Numberphile](https://www.youtube.com/watch?v=elvOZm0d4H0) — Numberphile, English. Watch first. “Infinity is bigger than you think - Numberphile” orients the lesson’s aim: State what “countable” and “uncountable” mean in terms of bijections with \mathbb{N}.
+- [Cantor's Diagonalization Argument](https://www.youtube.com/watch?v=qGYDQWm49wU) — IF, English. A second pass once the main claim is in view: State what “countable” and “uncountable” mean in terms of bijections with \mathbb{N}.

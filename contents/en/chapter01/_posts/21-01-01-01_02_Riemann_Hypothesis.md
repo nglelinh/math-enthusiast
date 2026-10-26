@@ -420,3 +420,9 @@ Full URL bibliography from video research: `research/video-research/Riemann_Hypo
 - Compare the *culture* of RH (analytic number theory) with P vs NP (complexity) or Kakeya (harmonic analysis / GMT).  
 - Optional: Quanta → Conrey lecture → re-read §§2–5 here.  
 - Stretch: Dirichlet $$L$$-functions and GRH.
+
+## Video tham khảo
+
+- **xem trước** — [The Riemann Hypothesis, Explained](https://www.youtube.com/watch?v=zlm1aajH6gY) — Quanta Magazine, English. Watch first. “The Riemann Hypothesis, Explained” orients the lesson’s aim: State the Riemann Hypothesis in terms of non-trivial zeros of \zeta(s) and the critical line \operatorname{Re}(s)=1/2.
+- [Riemann Hypothesis - Numberphile](https://www.youtube.com/watch?v=d6c6uIyieoo) — Numberphile, English. A second pass once the main claim is in view: State the Riemann Hypothesis in terms of non-trivial zeros of \zeta(s) and the critical line \operatorname{Re}(s)=1/2.
+- [The Riemann Hypothesis - Jeff Vaaler (Millennium Prize Problem, Official Introduction) (2001)](https://www.youtube.com/watch?v=Lf3gli_fR2c) — Graduate Mathematics, English. Further depth after the first two, still tied to this lesson: State the Riemann Hypothesis in terms of non-trivial zeros of \zeta(s) and the critical line \operatorname{Re}(s)=1/2.

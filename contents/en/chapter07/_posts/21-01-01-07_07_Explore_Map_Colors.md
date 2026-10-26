@@ -239,3 +239,9 @@ Caption transcripts and time-chunk units for pack videos: `research/video-resear
 
 *Figure. Sample still from a pack primary video (see pack for timestamps).*
 
+
+## Video tham khảo
+
+- **xem trước** — [The Four Color Map Theorem - Numberphile](https://www.youtube.com/watch?v=NgbK43jB4rQ) — Numberphile, English. Watch first. “The Four Color Map Theorem - Numberphile” orients the lesson’s aim: Convert a map to its dual graph and restate coloring as a graph vertex-coloring problem.
+- [The Map Coloring Puzzle That Changed Mathematics](https://www.youtube.com/watch?v=h7kqlYUV1l8) — Quanta Magazine, English. A second pass once the main claim is in view: Convert a map to its dual graph and restate coloring as a graph vertex-coloring problem.
+- [John Conway - Four Color Theorem and Computer Proofs](https://www.youtube.com/watch?v=fPVXBurxfU8) — Simons Foundation, English. Further depth after the first two, still tied to this lesson: Convert a map to its dual graph and restate coloring as a graph vertex-coloring problem.

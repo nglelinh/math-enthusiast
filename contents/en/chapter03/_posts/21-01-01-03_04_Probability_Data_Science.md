@@ -272,3 +272,9 @@ Full URL bibliography from video research (including secondary finds): `research
 - Next: [Number Theory → Cryptography]({{ site.baseurl }}/contents/en/chapter03/03_05_Number_Theory_Cryptography/) (different “hardness” culture) or [Optimization]({{ site.baseurl }}/contents/en/chapter03/03_07_Optimization_Operations_AI/) (how we minimize empirical risk).  
 - Theory stretch: [ML Theory]({{ site.baseurl }}/contents/en/chapter06/06_10_ML_Theory/).  
 - Restate the core mechanism of this essay in one paragraph; note one precise question you still have.
+
+## Video tham khảo
+
+- **xem trước** — [Bayes theorem, the geometry of changing beliefs](https://www.youtube.com/watch?v=HZGCoVF3YvM) — 3Blue1Brown, English. Watch first. “Bayes theorem, the geometry of changing beliefs” orients the lesson’s aim: Distinguish data as fixed numbers from data as realizations of random variables (the modeling move).
+- [The Bayesian Trap](https://www.youtube.com/watch?v=R13BD8qKeTg) — Veritasium, English. A second pass once the main claim is in view: Distinguish data as fixed numbers from data as realizations of random variables (the modeling move).
+- [Binomial distributions | Probabilities of probabilities, part 1](https://www.youtube.com/watch?v=8idr1WZ1A7Q) — 3Blue1Brown, English. Further depth after the first two, still tied to this lesson: Distinguish data as fixed numbers from data as realizations of random variables (the modeling move).

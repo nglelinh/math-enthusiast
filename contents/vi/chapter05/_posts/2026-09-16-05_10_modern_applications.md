@@ -61,3 +61,9 @@ Bài này không hình thức hóa FLT hay Poincaré. Nó không tuyên bố bà
 - Trinh, T. H., Wu, Y., Le, Q. V., He, H., & Luong, T. (2024). Solving olympiad geometry without human demonstrations. *Nature*, 625, 476–482. [doi:10.1038/s41586-023-06747-5](https://doi.org/10.1038/s41586-023-06747-5).
 - Google DeepMind. (2024). AI achieves silver-medal standard solving International Mathematical Olympiad problems. [Blog, 25 July 2024](https://deepmind.google/blog/ai-solves-imo-problems-at-silver-medal-level/).
 - Hubert, T., et al. (2025). Olympiad-level formal mathematical reasoning with reinforcement learning. *Nature*. [doi:10.1038/s41586-025-09833-y](https://doi.org/10.1038/s41586-025-09833-y).
+
+## Video tham khảo
+
+- **xem trước** — [Proving theorems with computers - Kevin Buzzard](https://www.youtube.com/watch?v=KccjCojGVO4) — Stony Brook Mathematics, tiếng Anh. Xem trước. “Proving theorems with computers - Kevin Buzzard” định hướng cho mục tiêu của bài: Sau bài tùy chọn này, bạn mô tả được ba hệ thống tính toán 2022–2026 đưa nghề Chương 5—biến một tuyên bố thành thứ máy kiểm được—vào Lean và tìm kiếm neuro-symbolic, đồng thời vẫn…
+- [The AI that solved IMO Geometry Problems | Guest video by @Aleph0](https://www.youtube.com/watch?v=4NlrfOl0l8U) — 3Blue1Brown, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài tùy chọn này, bạn mô tả được ba hệ thống tính toán 2022–2026 đưa nghề Chương 5—biến một tuyên bố thành thứ máy kiểm được—vào Lean và tìm kiếm neuro-symbolic, đồng thời vẫn…
+- [Improving on AlphaProof: IMO 2024 Problem 2 in Lean 4](https://www.youtube.com/watch?v=5IARsdn78xE) — David Renshaw, tiếng Anh. Một hình thức hóa Lean 4 cho bài IMO 2024 theo tinh thần AlphaProof. Dùng cạnh chủ đề kiểm chứng của bài, không phải bài nói chính thức của DeepMind.

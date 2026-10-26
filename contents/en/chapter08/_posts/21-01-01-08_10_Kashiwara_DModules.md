@@ -253,3 +253,9 @@ Open the official Abel citation PDF for 2025. Underline nouns: $$D$$-module, hol
 
 Reread the chapter overview as a weather map: problem storms (FLT), geometric analysis climates (Uhlenbeck, Sullivan, Caffarelli), ergodic and discrete method fronts (Furstenberg–Margulis, Lovász–Wigderson), probabilistic high dimension (Talagrand), algebraic analysis infrastructure (Kashiwara). Your portfolio should pick one weather system and report with primary sources—not list every cloud.
 
+
+## Video tham khảo
+
+- **xem trước** — [Andrea D'Agnolo: Algebraic Analysis for beginners](https://www.youtube.com/watch?v=m0LPDNDhfMc) — The Abel Prize, English. Watch first. “Andrea D'Agnolo: Algebraic Analysis for beginners” orients the lesson’s aim: After this lecture you should be able to explain D-modules as an algebraic language for systems of linear PDE; state the idea of a generalized Riemann–Hilbert correspondence (holon…
+- [Masaki Kashiwara: Monoidal categories (non-commutative case)](https://www.youtube.com/watch?v=FHn4WHPzjYw) — The Abel Prize, English. A second pass once the main claim is in view: After this lecture you should be able to explain D-modules as an algebraic language for systems of linear PDE; state the idea of a generalized Riemann–Hilbert correspondence (holon…
+- [David Nadler: Gaining momentum: On the global influence of Masaki Kashiwara's microlocal perspective](https://www.youtube.com/watch?v=tFswRJVXTpA) — The Abel Prize, English. Further depth after the first two, still tied to this lesson: After this lecture you should be able to explain D-modules as an algebraic language for systems of linear PDE; state the idea of a generalized Riemann–Hilbert correspondence (holon…

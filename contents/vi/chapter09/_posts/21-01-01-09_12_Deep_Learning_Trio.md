@@ -247,3 +247,9 @@ Danh mục đầy đủ: `research/video-research/deep-learning-trio/references.
 - Thực hành: train CNN nhỏ MNIST; ablation bỏ conv → FC; quan sát param và accuracy.  
 - Đọc: Nature 2015 survey → một chapter Goodfellow → một paper self-supervised.  
 - Tiếp: [Wigderson]({{ site.baseurl }}/contents/vi/chapter09/09_13_Wigderson_Complexity/).
+
+## Video tham khảo
+
+- **xem trước** — [ACM A.M. Turing Award 2018: Yoshua Bengio, Yan Lecun and Geoffrey Hinton](https://www.youtube.com/watch?v=HzilDIhWhrE) — Association for Computing Machinery (ACM), tiếng Anh. Xem trước. “ACM A.M. Turing Award 2018: Yoshua Bengio, Yan Lecun and Geoffrey Hinton” định hướng cho mục tiêu của bài: Sau bài, bạn có thể viết một lớp x\mapsto \sigma(Wx+b) và mạng như hợp thành; giải thích backpropagation như quy tắc chuỗi trên đồ thị tính toán; mô tả CNN (tích chập, weight shari…
+- [Geoffrey Hinton and Yann LeCun, 2018 ACM A.M. Turing Award Lecture "The Deep Learning Revolution"](https://www.youtube.com/watch?v=VsnQf7exv5I) — Association for Computing Machinery (ACM), tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài, bạn có thể viết một lớp x\mapsto \sigma(Wx+b) và mạng như hợp thành; giải thích backpropagation như quy tắc chuỗi trên đồ thị tính toán; mô tả CNN (tích chập, weight shari…
+- [AAAI 20 / AAAI 2020 Keynotes Turing Award Winners Event / Geoff Hinton, Yann Le Cunn, Yoshua Bengio](https://www.youtube.com/watch?v=UX8OubxsY8w) — ICML IJCAI ECAI 2018 Conference Videos, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài, bạn có thể viết một lớp x\mapsto \sigma(Wx+b) và mạng như hợp thành; giải thích backpropagation như quy tắc chuỗi trên đồ thị tính toán; mô tả CNN (tích chập, weight shari…

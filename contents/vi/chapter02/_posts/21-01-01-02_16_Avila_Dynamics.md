@@ -164,3 +164,9 @@ Bài này không kèm gói nghiên cứu video của khóa học. Ưu tiên ngu�
 - So weak mixing của IET với dòng tịnh tiến trên mặt phẳng; đó là cầu sang thế giới moduli của Mirzakhani và sang billiard.
 - Tùy chọn seminar A3: bản một trang “các bài toán mở sau Avila” (toán tử Schrödinger nhiều tần số; hằng số hiệu quả; vi phôi bảo toàn)—không tuyên bố huy chương đã khép lý thuyết hệ động lực.
 - Khi gặp hình Hofstadter butterfly, viết *định lý* Ten Martini bên cạnh để hình không thay thế phát biểu.
+
+## Video tham khảo
+
+- **xem trước** — [Dynamical Systems and Renormalisation by Prof. Artur Avila](https://www.youtube.com/watch?v=F3e5g5BwDu8) — swissQuant, tiếng Anh. Xem trước. “Dynamical Systems and Renormalisation by Prof. Artur Avila” định hướng cho mục tiêu của bài: Phát biểu citation IMU 2014 trong một câu cẩn thận, với tái chuẩn hóa là công cụ thống nhất chứ không phải phát minh cá nhân.
+- [Artur Avila - Poincaré series and renormalization MCA 2013](https://www.youtube.com/watch?v=Hff4sJm0xBA) — MCA2013, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu citation IMU 2014 trong một câu cẩn thận, với tái chuẩn hóa là công cụ thống nhất chứ không phải phát minh cá nhân.
+- [Fields Medal Winner 2014 Artur Avila](https://www.youtube.com/watch?v=405_UtglyoQ) — International Mathematical Union, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu citation IMU 2014 trong một câu cẩn thận, với tái chuẩn hóa là công cụ thống nhất chứ không phải phát minh cá nhân.

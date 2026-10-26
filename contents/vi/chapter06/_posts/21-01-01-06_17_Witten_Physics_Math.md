@@ -104,3 +104,9 @@ Văn hóa citation Fields của Witten gần “mở cao tốc vật lý–hình
 2. Kapustin–Witten — https://arxiv.org/abs/hep-th/0604151  
 3. Duality track 12–15; Atiyah–Singer; Langlands Ch.2.  
 4. Talk định hướng (Frenkel, symposium Witten) — chỉ văn hóa.  
+
+## Video tham khảo
+
+- **xem trước** — [Prof. Edward Witten | Duality, the Langlands Correspondence, and the Influence of Michael Atiyah](https://www.youtube.com/watch?v=fqHGe3acpC0) — INI Seminar Room 1, tiếng Anh. Xem trước. “Prof. Edward Witten | Duality, the Langlands Correspondence, and the Influence of Micha…” định hướng cho mục tiêu của bài: Đặt Fields 1990 của Witten trong văn hóa “toán gợi từ vật lý.”
+- [Edward Witten, Gauge theory and the analytic approach to geometric Langlands](https://www.youtube.com/watch?v=QOi_yBoE2kA) — Clay Mathematics Institute, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Đặt Fields 1990 của Witten trong văn hóa “toán gợi từ vật lý.”
+- [The Universe Speaks in Numbers: Robbert Dijkgraaf and Edward Witten in Conversation](https://www.youtube.com/watch?v=RjthuCDzAnY) — Institute for Advanced Study, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Đặt Fields 1990 của Witten trong văn hóa “toán gợi từ vật lý.”

@@ -170,3 +170,8 @@ Bài trình bày kiểu Bourbaki / ICM của Giovanni Felder “The work of Andr
 - Đọc chân dung ngắn của Felder, rồi một lời mở Okounkov–Pandharipande, rồi khảo sát instanton—đừng bắt đầu bằng Seiberg–Witten như vật lý.
 - So sánh Plancherel với độ đo đều trên phân hoạch: cùng diagram, hình dạng điển hình khác.
 - Seminar A3: một trang “sơ đồ cầu” với ba nút (xác suất, biểu diễn, hình học đếm) và hai cạnh bạn thực sự gọi tên được (Plancherel; toán tử GW/Hurwitz).
+
+## Video tham khảo
+
+- **xem trước** — [On the crossroads of enumerative geometry and representation theory – Andrei Okounkov – ICM2018](https://www.youtube.com/watch?v=zlQ23vRAOCQ) — Rio ICM2018, tiếng Anh. Xem trước. “On the crossroads of enumerative geometry and representation theory – Andrei Okounkov –…” định hướng cho mục tiêu của bài: Phát biểu lại citation IMU 2006 như một cây cầu, không phải định lý phân loại.
+- [Andrei Okounkov | Classical and quantum integrable systems in enumerative geometry](https://www.youtube.com/watch?v=xZNGyBFR0ao) — Harvard CMSA, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu lại citation IMU 2006 như một cây cầu, không phải định lý phân loại.

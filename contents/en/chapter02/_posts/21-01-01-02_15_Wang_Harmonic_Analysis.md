@@ -448,3 +448,9 @@ Full URL bibliography from video research (including secondary finds): `research
 
 - Mental model: treat δ-tubes as multi-scale clustering with an inductive invariant.  
 - Open targets: **higher-dimensional Kakeya** and sharp **restriction / local smoothing** (as of 2026).
+
+## Video tham khảo
+
+- **xem trước** — [A Once-in-a-Century Proof: The Kakeya Conjecture](https://www.youtube.com/watch?v=5J3tYU_-IZI) — Quanta Magazine, English. Watch first. “A Once-in-a-Century Proof: The Kakeya Conjecture” orients the lesson’s aim: State Kakeya’s needle problem and Besicovitch’s measure-zero construction in the plane.
+- [What is Hausdorff Dimension? Intuition, Gauge Functions, and Hausdorff Measures](https://www.youtube.com/watch?v=LJcWhcM4okQ) — CHALK, English. A second pass once the main claim is in view: State Kakeya’s needle problem and Besicovitch’s measure-zero construction in the plane.
+- [Methods for Estimating Hausdorff Dimension: Bounds and The Mass Distribution Principle](https://www.youtube.com/watch?v=FQXbRGmAbUY) — CHALK, English. Further depth after the first two, still tied to this lesson: State Kakeya’s needle problem and Besicovitch’s measure-zero construction in the plane.

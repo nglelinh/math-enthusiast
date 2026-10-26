@@ -197,3 +197,9 @@ Trong essay seminar, ưu tiên câu *cơ chế một bước đúng* hơn khẩu
 ## Lũy thừa nhanh: chi tiết Knuth gặp mật mã
 
 Tính $$g^a\bmod p$$ bằng bình phương lặp: $$O(\log a)$$ nhân modulo. Đây là chỗ [phân tích thuật toán]({{ site.baseurl }}/contents/vi/chapter09/09_05_Knuth_Algorithms/) gặp mật mã: primitive chỉ khả thi vì lũy thừa **poly-time** trong khi đảo (DLP) được tin không. Hiệu quả và độ khó **đi cặp**—một chiều phải chạy trên điện thoại; chiều kia phải đứng trước adversary poly-time (cổ điển).
+
+## Video tham khảo
+
+- **xem trước** — [8.Hệ mật RSA_Định nghĩa và ví dụ](https://www.youtube.com/watch?v=QEoRfrSKciI) — Bùi Thị Thùy _CNTT, tiếng Việt. Xem trước: định nghĩa và ví dụ RSA bằng tiếng Việt, để đối chiếu với phần trapdoor và số học mô-đun trong bài.
+- [Secret Key Exchange (Diffie-Hellman) - Computerphile](https://www.youtube.com/watch?v=NmM9HA2MQGI) — Computerphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Giải thích vấn đề phân phối khóa và vì sao đối xứng đơn thuần không đủ cho internet mở.
+- [Diffie Hellman -the Mathematics bit- Computerphile](https://www.youtube.com/watch?v=Yjrfm_oRO0w) — Computerphile, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Giải thích vấn đề phân phối khóa và vì sao đối xứng đơn thuần không đủ cho internet mở.

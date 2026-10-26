@@ -257,3 +257,9 @@ Complete list: `research/video-research/modern-themes/references.md`.
 - Try a proof assistant tutorial (Lean or Coq) for a tiny theorem—verification as lived mathematics.  
 - Synthesis: prepare A6-style paragraphs linking two Turing essays to one modern theme above.  
 - Return to [chapter overview]({{ site.baseurl }}/contents/en/chapter09/09_00_Overview/) and re-read with the five-point citation method.
+
+## Video tham khảo
+
+- **xem trước** — [P vs NP Explained: Computer Science's Biggest Puzzle](https://www.youtube.com/watch?v=pQsdygaYcE4) — Quanta Magazine, English. Watch first. “P vs NP Explained: Computer Science's Biggest Puzzle” orients the lesson’s aim: After this lecture you should be able to name five modern math–CS themes (privacy, optimization/ML theory, coding, quantum algorithms awareness, verification) with one correct mech…
+- [But what is a neural network? | Deep learning chapter 1](https://www.youtube.com/watch?v=aircAruvnKk) — 3Blue1Brown, English. A second pass once the main claim is in view: After this lecture you should be able to name five modern math–CS themes (privacy, optimization/ML theory, coding, quantum algorithms awareness, verification) with one correct mech…
+- [How Does a Quantum Computer Work?](https://www.youtube.com/watch?v=g_IaVepNDT4) — Veritasium, English. Further depth after the first two, still tied to this lesson: After this lecture you should be able to name five modern math–CS themes (privacy, optimization/ML theory, coding, quantum algorithms awareness, verification) with one correct mech…

@@ -223,3 +223,8 @@ Danh mục đầy đủ: `research/video-research/knuth-algorithms/references.md
 Chữ *Art* trong TAOCP dễ bị hiểu là “khéo tay.” Knuth dùng gần nghĩa trung cổ: **kỹ nghệ có nguyên tắc**, nơi cái đẹp nằm ở chứng minh gọn, phân tích chính xác, và tôn trọng người đọc. Trong seminar *Math Enthusiast*, đó là cầu nối: thuật toán không ngoài toán; chúng là toán của quy trình hữu hạn dưới ràng buộc tài nguyên.
 
 Khi bạn tối ưu code, hãy hỏi ba câu Knuth-style: *Đúng chưa? Chi phí theo $$n$$ ra sao? Có cấu trúc dữ liệu nào đổi bậc không?* Khi bạn gặp bài NP-đầy đủ, hãy thêm câu Cook–Karp: *Có thuật toán poly-time worst-case nào không, hay ta cần xấp xỉ/heuristic/cấu trúc instance?* Bốn câu đủ để điều hướng phần lớn thảo luận thuật toán trong khóa.
+
+## Video tham khảo
+
+- **xem trước** — [Stanford Lecture - Dancing Cells, Dr. Donald Knuth I 2023](https://www.youtube.com/watch?v=PUJ_XdmSDZw) — Stanford Online, tiếng Anh. Xem trước. “Stanford Lecture - Dancing Cells, Dr. Donald Knuth I 2023” định hướng cho mục tiêu của bài: Giải thích phân tích thuật toán khác gì với “chạy thử vài input” và khác gì với phân loại NP-đầy đủ.
+- [Donald Knuth: Talk on SAT Solving @ JKU Linz (Recorded with Google Hangouts)](https://www.youtube.com/watch?v=QFMERqvfzlc) — Martina Seidl, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Giải thích phân tích thuật toán khác gì với “chạy thử vài input” và khác gì với phân loại NP-đầy đủ.

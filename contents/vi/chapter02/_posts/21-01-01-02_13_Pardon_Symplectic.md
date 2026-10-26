@@ -263,3 +263,9 @@ Danh mục URL đầy đủ (mọi link khi nghiên cứu video): `research/vide
 - So medal nền tảng (Pardon, Scholze) với medal một giả thuyết dễ kể (Perelman, Viazovska) — khác kiểu đóng góp, cùng chuẩn IMU.
 - Học từ vựng **log geometry** / **derived stacks** trước khi đọc paper nghiên cứu moduli.
 - Nếu có video bài giảng ICM đầy đủ, chạy lại phân đoạn nhiều unit (virtual cycles; Fukaya; 3-manifolds; log derived).
+
+## Video tham khảo
+
+- **xem trước** — [2026 Fields Medal: John Pardon](https://www.youtube.com/watch?v=E4KP07YL0Js) — Simons Foundation, tiếng Anh. Xem trước. “2026 Fields Medal: John Pardon” định hướng cho mục tiêu của bài: Nêu hình học symplectic nghiên cứu gì: 2-dạng đóng không suy biến; động lực Hamilton; đường cong chỉnh hình như đầu dò toàn cục.
+- [ICM 2026 Fields Medal Award Lecture - John Pardon](https://www.youtube.com/watch?v=YZ7hKBlCeGs) — Simons Foundation, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Nêu hình học symplectic nghiên cứu gì: 2-dạng đóng không suy biến; động lực Hamilton; đường cong chỉnh hình như đầu dò toàn cục.
+- [Contact homology and virtual fundamental cycles - John Pardon](https://www.youtube.com/watch?v=Eh8Hrg1mQVk) — Institute for Advanced Study, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Nêu hình học symplectic nghiên cứu gì: 2-dạng đóng không suy biến; động lực Hamilton; đường cong chỉnh hình như đầu dò toàn cục.

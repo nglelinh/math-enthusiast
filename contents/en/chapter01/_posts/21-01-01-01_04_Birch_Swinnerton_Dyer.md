@@ -286,3 +286,9 @@ Full bibliography: `research/video-research/Birch_Swinnerton_Dyer/references.md`
 - Seminar **A3**: rank equality, modularity as stage-setting, Gross–Zagier/Kolyvagin for rank $$\le 1$$, refined formula with Sha.  
 - Optional studio: LMFDB ranks 0 and 1—what BSD predicts for $$L(E,1)$$ and $$L'(E,1)$$.  
 - Stretch: class number formula as special-value sibling; twin primes as sieve neighbor in this chapter.
+
+## Video tham khảo
+
+- **xem trước** — [Manjul Bhargava: What is the Birch-Swinnerton-Dyer Conjecture, and what is known about it?](https://www.youtube.com/watch?v=_-feKGb6-gc) — The Abel Prize, English. Watch first. “Manjul Bhargava: What is the Birch-Swinnerton-Dyer Conjecture, and what is known about it?” orients the lesson’s aim: Define an elliptic curve over \mathbb{Q} at a working level (nonsingular Weierstrass cubic) and say what the group law does in slogan form.
+- [Birch Swinnerton-Dyer conjecture: Introduction](https://www.youtube.com/watch?v=3vGiWK_ZyKs) — Richard E Borcherds, English. A second pass once the main claim is in view: Define an elliptic curve over \mathbb{Q} at a working level (nonsingular Weierstrass cubic) and say what the group law does in slogan form.
+- [Barry Mazur | About the Birch and Swinnerton–Dyer Conjecture](https://www.youtube.com/watch?v=14-9iCoclFE) — Harvard CMSA, English. Further depth after the first two, still tied to this lesson: Define an elliptic curve over \mathbb{Q} at a working level (nonsingular Weierstrass cubic) and say what the group law does in slogan form.

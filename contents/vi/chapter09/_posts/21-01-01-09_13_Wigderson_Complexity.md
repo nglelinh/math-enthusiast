@@ -214,3 +214,9 @@ Danh mục đầy đủ: `research/video-research/wigderson-complexity/reference
 - Học phác dựng expander cụ thể (dù chỉ lịch sử tồn tại/tường minh kiểu Margulis).  
 - Sau nhận thức IP = PSPACE: hé nhìn vai trò định lý PCP trong độ cứng xấp xỉ.  
 - Tiếp: [Chủ đề hiện đại]({{ site.baseurl }}/contents/vi/chapter09/09_14_Modern_Themes/)—privacy, tối ưu/ML theory, coding, thuật toán lượng tử, verification.
+
+## Video tham khảo
+
+- **xem trước** — [Avi Wigderson Turing Award Lecture: “Alan Turing: A TCS Role Model”](https://www.youtube.com/watch?v=f2NiGO8zC1c) — Association for Computing Machinery (ACM), tiếng Anh. Xem trước. “Avi Wigderson Turing Award Lecture: “Alan Turing: A TCS Role Model”” định hướng cho mục tiêu của bài: Sau bài học, bạn có thể giải thích vì sao ngẫu nhiên được coi là tài nguyên tính toán ngang thời gian và không gian; nêu khẩu hiệu derandomization rằng các giả thiết hardness phù h…
+- [Avi Wigderson, 2023 Turing Award Laureate, Q&A with David Nirenberg | Institute for Advanced Study](https://www.youtube.com/watch?v=TK_vD-VnsFw) — Institute for Advanced Study, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài học, bạn có thể giải thích vì sao ngẫu nhiên được coi là tài nguyên tính toán ngang thời gian và không gian; nêu khẩu hiệu derandomization rằng các giả thiết hardness phù h…
+- [June 2024 CACM: Avi Wigderson, 2023 ACM A.M. Turing Awardee](https://www.youtube.com/watch?v=Ur9XNF6TeYw) — Association for Computing Machinery (ACM), tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài học, bạn có thể giải thích vì sao ngẫu nhiên được coi là tài nguyên tính toán ngang thời gian và không gian; nêu khẩu hiệu derandomization rằng các giả thiết hardness phù h…

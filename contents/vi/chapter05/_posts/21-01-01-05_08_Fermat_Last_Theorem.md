@@ -244,3 +244,9 @@ Danh mục URL đầy đủ: `research/video-research/fermat-last-theorem/refere
 - So sánh chứng minh cầu FLT với cầu PDE của Poincaré (chuyển phương pháp).  
 - Khám phá “semistable” nghĩa gì và vì sao đường cong Frey rơi vào định lý Wiles.  
 - Ghi một câu hỏi chính xác bạn vẫn còn.
+
+## Video tham khảo
+
+- **xem trước** — [Fermat's Last Theorem - Numberphile](https://www.youtube.com/watch?v=qiNcEguuFSA) — Numberphile, tiếng Anh. Xem trước. “Fermat's Last Theorem - Numberphile” định hướng cho mục tiêu của bài: Phát biểu FLT chính xác và kiểm các trường hợp nhỏ n=3,4 như mốc lịch sử (mức ý tưởng).
+- [The Bridges to Fermat's Last Theorem - Numberphile](https://www.youtube.com/watch?v=nUN4NDVIfVI) — Numberphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu FLT chính xác và kiểm các trường hợp nhỏ n=3,4 như mốc lịch sử (mức ý tưởng).
+- [Fermat’s Last Theorem (with Ken Ribet) - Numberphile Podcast](https://www.youtube.com/watch?v=NPOw4iIxN6o) — Numberphile2, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu FLT chính xác và kiểm các trường hợp nhỏ n=3,4 như mốc lịch sử (mức ý tưởng).

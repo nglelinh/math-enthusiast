@@ -297,3 +297,9 @@ Danh mục URL đầy đủ: `research/video-research/mathematics-of-ai/referenc
 - [Hình học cao chiều]({{ site.baseurl }}/contents/vi/chapter06/06_08_High_Dimensional_Geometry/); [Vận chuyển tối ưu]({{ site.baseurl }}/contents/vi/chapter06/06_09_Optimal_Transport/).
 - Thực hành: huấn luyện mô hình nhỏ; ghi train vs test; gắn với Mục 4.
 - Giữ bảng tuyên bố: *định lý / chặn / luật thực nghiệm / hype*.
+
+## Video tham khảo
+
+- **xem trước** — [But what is a neural network? | Deep learning chapter 1](https://www.youtube.com/watch?v=aircAruvnKk) — 3Blue1Brown, tiếng Anh. Xem trước. “But what is a neural network? | Deep learning chapter 1” định hướng cho mục tiêu của bài: Mô tả mạng nơ-ron cơ bản như ghép ánh xạ tuyến tính và phi tuyến, viết một lớp x\mapsto\sigma(Wx+b).
+- [Gradient descent, how neural networks learn | Deep Learning Chapter 2](https://www.youtube.com/watch?v=IHZwWFHWa-w) — 3Blue1Brown, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Mô tả mạng nơ-ron cơ bản như ghép ánh xạ tuyến tính và phi tuyến, viết một lớp x\mapsto\sigma(Wx+b).
+- [One of the world's greatest mathematicians explains 6 essential concepts of math | Terence Tao](https://www.youtube.com/watch?v=OOMx2BHHWtE) — Big Think, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Mô tả mạng nơ-ron cơ bản như ghép ánh xạ tuyến tính và phi tuyến, viết một lớp x\mapsto\sigma(Wx+b).

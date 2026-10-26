@@ -259,3 +259,9 @@ Danh mục URL đầy đủ (mọi link khi nghiên cứu video): `research/vide
 - Đọc một exposition về Weil–Petersson volumes trước paper gốc.  
 - Ghi một câu hỏi chính xác—ví dụ “độ đo nào làm earthquake ergodic?”  
 - Xem song song bài [Venkatesh]({{ site.baseurl }}/contents/vi/chapter02/) để đối chiếu hai nền văn hóa động lực.
+
+## Video tham khảo
+
+- **xem trước** — [Maryam Mirzakhani: A Tenacious Explorer of Abstract Surfaces](https://www.youtube.com/watch?v=qNuh4uta8oQ) — Quanta Magazine, tiếng Anh. Xem trước. “Maryam Mirzakhani: A Tenacious Explorer of Abstract Surfaces” định hướng cho mục tiêu của bài: Định nghĩa không chính thức mặt Riemann giống g\ge 2, metric hyperbolic, không gian Teichmüller, và không gian moduli.
+- [Dynamics on the Moduli Spaces of Curves, I - Maryam Mirzakhani](https://www.youtube.com/watch?v=8Az_W2wv4Zo) — Institute for Advanced Study, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Định nghĩa không chính thức mặt Riemann giống g\ge 2, metric hyperbolic, không gian Teichmüller, và không gian moduli.
+- [Maryam Mirzakhani, Dynamics Moduli Spaces of Curves I](https://www.youtube.com/watch?v=tprlQMClSYQ) — Harvard Mathematics Department, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Định nghĩa không chính thức mặt Riemann giống g\ge 2, metric hyperbolic, không gian Teichmüller, và không gian moduli.

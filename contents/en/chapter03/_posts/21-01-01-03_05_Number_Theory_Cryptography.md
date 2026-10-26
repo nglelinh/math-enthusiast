@@ -287,3 +287,9 @@ Full URL bibliography from video research (including secondary finds): `research
 - Stretch: implement toy RSA with tiny primes (not secure); then discuss why toy sizes fail and why padding matters.  
 - Continue to [Graph Theory → Networks]({{ site.baseurl }}/contents/en/chapter03/03_06_Graph_Theory_Networks/) or jump to [Future cryptography]({{ site.baseurl }}/contents/en/chapter06/06_06_Future_Cryptography/) for PQC depth.  
 - Restate the core mechanism of this essay in one paragraph; note one precise question you still have.
+
+## Video tham khảo
+
+- **xem trước** — [Encryption and HUGE numbers - Numberphile](https://www.youtube.com/watch?v=M7kEpw1tn50) — Numberphile, English. Watch first. “Encryption and HUGE numbers - Numberphile” orients the lesson’s aim: Compute and interpret simple congruences a \equiv b \pmod{n} and explain fast modular exponentiation.
+- [RSA-129 - Numberphile](https://www.youtube.com/watch?v=YQw124CtvO0) — Numberphile, English. A second pass once the main claim is in view: Compute and interpret simple congruences a \equiv b \pmod{n} and explain fast modular exponentiation.
+- [Public Key Cryptography - Computerphile](https://www.youtube.com/watch?v=GSIDS_lvRv4) — Computerphile, English. Further depth after the first two, still tied to this lesson: Compute and interpret simple congruences a \equiv b \pmod{n} and explain fast modular exponentiation.

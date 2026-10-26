@@ -203,3 +203,8 @@ Full URL bibliography from video research (including secondary finds): `research
 ## Further directions
 
 Existing strange objects: [Strange geometry]({{ site.baseurl }}/contents/en/chapter04/04_06_Strange_Geometry/). Logical paradoxes: [Paradoxes]({{ site.baseurl }}/contents/en/chapter04/04_07_Paradoxes/). Local rules with global consequences: [Tilings]({{ site.baseurl }}/contents/en/chapter04/04_10_Tilings/) and [Emergence]({{ site.baseurl }}/contents/en/chapter04/04_12_Emergence/).
+
+## Video tham khảo
+
+- **xem trước** — [Building the Impossible - A Penrose Triangle in Geogebra 3D](https://www.youtube.com/watch?v=QpwddAqYzkA) — SparksMaths, English. Watch first. “Building the Impossible - A Penrose Triangle in Geogebra 3D” orients the lesson’s aim: Explain local consistency vs global realizability for drawings of solid objects.
+- [The Infinite Pattern That Never Repeats](https://www.youtube.com/watch?v=48sCx-wBs34) — Veritasium, English. A second pass once the main claim is in view: Explain local consistency vs global realizability for drawings of solid objects.

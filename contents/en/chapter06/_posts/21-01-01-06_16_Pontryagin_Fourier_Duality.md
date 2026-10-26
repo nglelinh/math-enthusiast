@@ -144,3 +144,9 @@ Characters are roots of unity. The **discrete Fourier transform (DFT)** is the f
 1. Standard real analysis / Fourier chapters (Stein–Shakarchi; Folland).  
 2. Wikipedia — Pontryagin duality; Fourier transform on LCA groups.  
 3. Rudin — *Fourier Analysis on Groups* (classic reference).  
+
+## Video tham khảo
+
+- **xem trước** — [What is...the dual group?](https://www.youtube.com/watch?v=kE_Wn6g7vz0) — VisualMath, English. Watch first. “What is...the dual group?” orients the lesson’s aim: Define the dual group of a locally compact abelian group at slogan level (continuous characters to S^1).
+- [But what is the Fourier Transform? A visual introduction.](https://www.youtube.com/watch?v=spUNpyF58BY) — 3Blue1Brown, English. A second pass once the main claim is in view: Define the dual group of a locally compact abelian group at slogan level (continuous characters to S^1).
+- [Fourier transform on Locally Compact Abelian Groups -II.](https://www.youtube.com/watch?v=H8D1q0CtPyY) — Bhaskaracharya Pratishthana, Pune, English. Further depth after the first two, still tied to this lesson: Define the dual group of a locally compact abelian group at slogan level (continuous characters to S^1).

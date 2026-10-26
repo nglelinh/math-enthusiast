@@ -216,3 +216,9 @@ Nhân hai ciphertext GM (mod $$n$$) cho ciphertext của XOR hai bit—ví dụ 
 | Goldwasser–Micali | Định nghĩa an ninh + zero-knowledge |
 
 Đọc xuôi: từ “cái gì tính được” tới “cái gì tính được *hiệu quả*,” tới “cái gì *chứng minh được là khó đủ* để tin cậy.” Đó là xương sống toán học tính toán trong khóa *Math Enthusiast*.
+
+## Video tham khảo
+
+- **xem trước** — [Zero Knowledge Proofs - Computerphile](https://www.youtube.com/watch?v=HUs1bH85X9I) — Computerphile, tiếng Anh. Xem trước. “Zero Knowledge Proofs - Computerphile” định hướng cho mục tiêu của bài: Giải thích vì sao mã hóa tất định kiểu textbook RSA không đạt an ninh ngữ nghĩa mạnh.
+- [CESC 2022 - Shafi Goldwasser: History of ZK](https://www.youtube.com/watch?v=WjFu2cy_0vM) — Berkeley RDI, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Giải thích vì sao mã hóa tất định kiểu textbook RSA không đạt an ninh ngữ nghĩa mạnh.
+- [Micali on the impact of "Probabilistic Encryption" (1984)](https://www.youtube.com/watch?v=W5GwfZtGUEY) — Turing Awardee Clips, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Giải thích vì sao mã hóa tất định kiểu textbook RSA không đạt an ninh ngữ nghĩa mạnh.

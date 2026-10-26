@@ -62,3 +62,9 @@ Số học xếp cầu, đồ thị khoảng nguyên tố, và phòng thí nghi�
 - Barina, D. (2021). Convergence verification of the Collatz problem. *Journal of Supercomputing*, 77, 2681–2688.
 - Kaplan, C. S. Tài nguyên hat: [cs.uwaterloo.ca/~csk/hat](https://cs.uwaterloo.ca/~csk/hat/).
 - Studio: [Lặp]({{ site.baseurl }}/contents/vi/chapter07/07_09_Explore_Iteration/).
+
+## Video tham khảo
+
+- **xem trước** — [Discovery of the Aperiodic Monotile - Numberphile](https://www.youtube.com/watch?v=_ZS3Oqg1AX0) — Numberphile, tiếng Anh. Xem trước. “Discovery of the Aperiodic Monotile - Numberphile” định hướng cho mục tiêu của bài: Sau bài bạn đồng hành studio tùy chọn này, bạn mượn được ba dụng cụ tính toán 2022–2026—lát gạch có trợ giúp SAT, tìm kiếm hình học neuro-symbolic, và kiểm Collatz cận lớn—mà không…
+- [The AI that solved IMO Geometry Problems | Guest video by @Aleph0](https://www.youtube.com/watch?v=4NlrfOl0l8U) — 3Blue1Brown, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài bạn đồng hành studio tùy chọn này, bạn mượn được ba dụng cụ tính toán 2022–2026—lát gạch có trợ giúp SAT, tìm kiếm hình học neuro-symbolic, và kiểm Collatz cận lớn—mà không…
+- [UNCRACKABLE? The Collatz Conjecture - Numberphile](https://www.youtube.com/watch?v=5mFpVDpKX70) — Numberphile, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài bạn đồng hành studio tùy chọn này, bạn mượn được ba dụng cụ tính toán 2022–2026—lát gạch có trợ giúp SAT, tìm kiếm hình học neuro-symbolic, và kiểm Collatz cận lớn—mà không…

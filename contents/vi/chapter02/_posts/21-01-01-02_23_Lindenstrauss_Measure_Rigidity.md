@@ -188,3 +188,8 @@ Với khóa học này, Lindenstrauss là đối tác scale Fields của câu ch
 
 - Đọc một bài giảng ngắn về định lý Ratner trước EKL, để phân loại chéo còn thiếu được cảm như một khoảng trống chứ không như từ đồng nghĩa.
 - Tùy chọn seminar: một trang trạng thái “Littlewood sau EKL” liệt kê điều một chứng minh đầy đủ vẫn cần—mà không bịa chứng minh.
+
+## Video tham khảo
+
+- **xem trước** — [Conferências Magnas: Elon Lindenstrauss - Homogeneous dynamics and diagonalizable actions (2013)](https://www.youtube.com/watch?v=e9Gj1yohLCw) — Instituto de Matemática Pura e Aplicada, tiếng Anh. Xem trước. “Conferências Magnas: Elon Lindenstrauss - Homogeneous dynamics and diagonalizable actio…” định hướng cho mục tiêu của bài: Định nghĩa độ cứng độ đo như “các độ đo bất biến khan hiếm, thường là đại số,” và đối chiếu với sự phong phú của độ đo cho một tự đẳng cấu torus hyperbolic đơn.
+- [Elon Lindenstrauss - An effective proof of the Oppenheim Conjecture](https://www.youtube.com/watch?v=_hOglF2XvQ8) — International Centre for Theoretical Sciences, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Định nghĩa độ cứng độ đo như “các độ đo bất biến khan hiếm, thường là đại số,” và đối chiếu với sự phong phú của độ đo cho một tự đẳng cấu torus hyperbolic đơn.

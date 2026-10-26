@@ -526,3 +526,9 @@ Full bibliography: `research/video-research/Kakeya_Conjecture/references.md`.
 
 Optional media: start with [Quanta Kakeya 2025 story](https://www.youtube.com/watch?v=5J3tYU_-IZI); then [CHALK Hausdorff](https://www.youtube.com/watch?v=LJcWhcM4okQ&t=19s) + [MDP](https://www.youtube.com/watch?v=FQXbRGmAbUY); [Mathologer squeegee](https://www.youtube.com/watch?v=IM-n9c-ARHU&t=632s); VI: [Pham Manh Tuyen](https://www.youtube.com/watch?v=XUkfpgFakMQ) / [TOÁN PRO](https://www.youtube.com/watch?v=pxVMKoZsVc8).  
 - Compare culture: Kakeya (analytic, still open in high D) vs [Four Color path B]({{ site.baseurl }}/contents/en/chapter01/01_09_Four_Color_Theorem/).
+
+## Video tham khảo
+
+- **xem trước** — [The Kakeya needle problem (the squeegee approach)](https://www.youtube.com/watch?v=IM-n9c-ARHU) — Mathologer, English. Watch first. “The Kakeya needle problem (the squeegee approach)” orients the lesson’s aim: Define a Kakeya (Besicovitch) set in \mathbb{R}^n.
+- [What is Hausdorff Dimension? Intuition, Gauge Functions, and Hausdorff Measures](https://www.youtube.com/watch?v=LJcWhcM4okQ) — CHALK, English. A second pass once the main claim is in view: Define a Kakeya (Besicovitch) set in \mathbb{R}^n.
+- [Methods for Estimating Hausdorff Dimension: Bounds and The Mass Distribution Principle](https://www.youtube.com/watch?v=FQXbRGmAbUY) — CHALK, English. Further depth after the first two, still tied to this lesson: Define a Kakeya (Besicovitch) set in \mathbb{R}^n.

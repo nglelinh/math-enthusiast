@@ -281,3 +281,9 @@ Full bibliography: `research/video-research/Four_Color_Theorem/references.md`.
 2. **Next →** [Ch.7 Map-colors studio]({{ site.baseurl }}/contents/en/chapter07/07_07_Explore_Map_Colors/).
 
 Optional: trust in computer-assisted proof; Hadwiger’s conjecture (still open); “solved combinatorial mountain” vs “open analytic mountain” via Kakeya.
+
+## Video tham khảo
+
+- **xem trước** — [The Four Color Map Theorem - Numberphile](https://www.youtube.com/watch?v=NgbK43jB4rQ) — Numberphile, English. Watch first. “The Four Color Map Theorem - Numberphile” orients the lesson’s aim: State 4CT in map language and graph language, and explain the dual-graph translation.
+- [The Map Coloring Puzzle That Changed Mathematics](https://www.youtube.com/watch?v=h7kqlYUV1l8) — Quanta Magazine, English. A second pass once the main claim is in view: State 4CT in map language and graph language, and explain the dual-graph translation.
+- [John Conway - Four Color Theorem and Computer Proofs](https://www.youtube.com/watch?v=fPVXBurxfU8) — Simons Foundation, English. Further depth after the first two, still tied to this lesson: State 4CT in map language and graph language, and explain the dual-graph translation.

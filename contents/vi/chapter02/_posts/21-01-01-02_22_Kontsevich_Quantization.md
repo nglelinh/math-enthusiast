@@ -175,3 +175,8 @@ Với khóa học này, Kontsevich là chân dung vật lý toán như **nguồn
 
 - Đọc một bài giảng hiện đại về lớp tautological trên $$\overline{\mathcal{M}}_{g,n}$$ để thấy Witten–Kontsevich *không* tính gì.
 - Nếu tiếp tục sang HMS, giữ sổ hai cột: “đề xuất 1994” vs “định lý do các tác giả sau chứng minh.”
+
+## Video tham khảo
+
+- **xem trước** — [HLF Laureate Portraits: Maxim Kontsevich](https://www.youtube.com/watch?v=1CXvSRQVoZY) — Heidelberg Laureate Forum, tiếng Anh. Xem trước. “HLF Laureate Portraits: Maxim Kontsevich” định hướng cho mục tiêu của bài: Thuộc citation 1998 như ba kết quả, và từ chối thay gạch thứ ba bằng đối xứng gương đồng điều.
+- [Maxim Kontsevich | On the History of quantum cohomology and homological mirror symmetry](https://www.youtube.com/watch?v=Ml2x5NnEQ1I) — Harvard CMSA, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Thuộc citation 1998 như ba kết quả, và từ chối thay gạch thứ ba bằng đối xứng gương đồng điều.

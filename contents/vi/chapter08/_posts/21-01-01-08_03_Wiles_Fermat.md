@@ -220,3 +220,9 @@ Danh mục đầy đủ: `research/video-research/wiles-fermat/references.md`.
 - Ghi một bài mở gần kề chính xác: khía cạnh BSD; modularity chiều cao hơn; Langlands rộng hơn.  
 - So [Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/).  
 - Tiếp: [Uhlenbeck]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/).
+
+## Video tham khảo
+
+- **xem trước** — [Andrew Wiles: Fermat's Last theorem: abelian and non-abelian approaches](https://www.youtube.com/watch?v=4t1mgEBx1nQ) — The Abel Prize, tiếng Anh. Xem trước. “Andrew Wiles: Fermat's Last theorem: abelian and non-abelian approaches” định hướng cho mục tiêu của bài: Sau bài, bạn có thể phát biểu FLT chính xác với số nguyên n\ge 3; giải thích chiến lược Frey → Ribet → modularity → mâu thuẫn ở mức ý tưởng; phân biệt modularity semistable của Wil…
+- [Henri Darmon: Andrew Wiles' marvelous proof](https://www.youtube.com/watch?v=oqMaziDIBYY) — The Abel Prize, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài, bạn có thể phát biểu FLT chính xác với số nguyên n\ge 3; giải thích chiến lược Frey → Ribet → modularity → mâu thuẫn ở mức ý tưởng; phân biệt modularity semistable của Wil…
+- [Andrew Wiles - The Abel Prize interview 2016](https://www.youtube.com/watch?v=cWKAzX5U85Q) — The Abel Prize, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài, bạn có thể phát biểu FLT chính xác với số nguyên n\ge 3; giải thích chiến lược Frey → Ribet → modularity → mâu thuẫn ở mức ý tưởng; phân biệt modularity semistable của Wil…

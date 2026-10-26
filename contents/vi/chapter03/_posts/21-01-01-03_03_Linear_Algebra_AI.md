@@ -266,3 +266,9 @@ Danh mục URL đầy đủ (mọi link tìm được khi nghiên cứu video): 
 - [Xác suất → Khoa học dữ liệu]({{ site.baseurl }}/contents/vi/chapter03/03_04_Probability_Data_Science/).  
 - [Tối ưu]({{ site.baseurl }}/contents/vi/chapter03/03_07_Optimization_Operations_AI/).  
 - Viết lại cơ chế cốt lõi một đoạn; ghi một câu hỏi còn mở.
+
+## Video tham khảo
+
+- **xem trước** — [But what is a neural network? | Deep learning chapter 1](https://www.youtube.com/watch?v=aircAruvnKk) — 3Blue1Brown, tiếng Anh. Xem trước. “But what is a neural network? | Deep learning chapter 1” định hướng cho mục tiêu của bài: Đọc ví dụ như vector và tập dữ liệu như ma trận; đo tương tự bằng tích trong và chuẩn.
+- [Gradient descent, how neural networks learn | Deep Learning Chapter 2](https://www.youtube.com/watch?v=IHZwWFHWa-w) — 3Blue1Brown, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Đọc ví dụ như vector và tập dữ liệu như ma trận; đo tương tự bằng tích trong và chuẩn.
+- [Backpropagation, intuitively | Deep Learning Chapter 3](https://www.youtube.com/watch?v=Ilg3gGewQ5U) — 3Blue1Brown, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Đọc ví dụ như vector và tập dữ liệu như ma trận; đo tương tự bằng tích trong và chuẩn.

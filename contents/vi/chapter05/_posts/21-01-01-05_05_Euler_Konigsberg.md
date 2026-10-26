@@ -260,3 +260,9 @@ Cùng thói quen “mô hình hóa bằng đồ thị” nuôi [mạng]({{ site.
 
 Vẽ một đồ thị 6 đỉnh có đúng hai đỉnh bậc lẻ; chỉ ra đường Euler mở (nếu có) hoặc giải thích vì sao không có chu trình Euler đóng. Viết một đoạn: vì sao “đi hết cầu” là bài toán đồ thị chứ không phải hình học metric của sông.
 
+
+## Video tham khảo
+
+- **xem trước** — [The Seven Bridges of Königsberg - Numberphile](https://www.youtube.com/watch?v=W18FDEA1jRQ) — Numberphile, tiếng Anh. Xem trước. “The Seven Bridges of Königsberg - Numberphile” định hướng cho mục tiêu của bài: Mô hình hệ cầu (hoặc đường) thành đa đồ thị với đỉnh là vùng, cạnh là lối băng.
+- [How the Königsberg bridge problem changed mathematics - Dan Van der Vieren](https://www.youtube.com/watch?v=nZwSo4vfw6c) — TED-Ed, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Mô hình hệ cầu (hoặc đường) thành đa đồ thị với đỉnh là vùng, cạnh là lối băng.
+- [Graph Theory: 01. Seven Bridges of Konigsberg](https://www.youtube.com/watch?v=eIb1cz06UwI) — Sarada Herke, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Mô hình hệ cầu (hoặc đường) thành đa đồ thị với đỉnh là vùng, cạnh là lối băng.

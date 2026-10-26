@@ -240,3 +240,9 @@ Danh mục URL đầy đủ: `research/video-research/poincare-proof/references.
 - Đọc nhập môn độ cong và geodesics trước phân tích hình học sâu hơn.  
 - Khám phá “tám hình học” trong danh sách Thurston ở mức khẩu hiệu.  
 - Ghi một câu hỏi chính xác bạn vẫn còn.
+
+## Video tham khảo
+
+- **xem trước** — [Poincaré Conjecture - Numberphile](https://www.youtube.com/watch?v=GItmC9lxeco) — Numberphile, tiếng Anh. Xem trước. “Poincaré Conjecture - Numberphile” định hướng cho mục tiêu của bài: Phát biểu giả thuyết Poincaré 3D bằng lời thường và phát biểu toán chuẩn.
+- [Ricci Flow - Numberphile](https://www.youtube.com/watch?v=hwOCqA9Xw6A) — Numberphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu giả thuyết Poincaré 3D bằng lời thường và phát biểu toán chuẩn.
+- [Poincare Conjecture and Ricci Flow | A Million Dollar Problem in Topology](https://www.youtube.com/watch?v=PwRl5W-whTs) — Aleph 0, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu giả thuyết Poincaré 3D bằng lời thường và phát biểu toán chuẩn.

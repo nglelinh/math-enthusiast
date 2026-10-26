@@ -257,3 +257,9 @@ Transcript caption và unit theo thời gian: `research/video-research/explore-k
 
 *Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
 
+
+## Video tham khảo
+
+- **xem trước** — [A Once-in-a-Century Proof: The Kakeya Conjecture](https://www.youtube.com/watch?v=5J3tYU_-IZI) — Quanta Magazine, tiếng Anh. Xem trước. “A Once-in-a-Century Proof: The Kakeya Conjecture” định hướng cho mục tiêu của bài: Phát biểu bài kim Kakeya và định nghĩa tập Besicovitch trong \mathbb{R}^n bằng lời của mình.
+- [The Kakeya needle problem (the squeegee approach)](https://www.youtube.com/watch?v=IM-n9c-ARHU) — Mathologer, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu bài kim Kakeya và định nghĩa tập Besicovitch trong \mathbb{R}^n bằng lời của mình.
+- [What is Hausdorff Dimension? Intuition, Gauge Functions, and Hausdorff Measures](https://www.youtube.com/watch?v=LJcWhcM4okQ) — CHALK, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu bài kim Kakeya và định nghĩa tập Besicovitch trong \mathbb{R}^n bằng lời của mình.

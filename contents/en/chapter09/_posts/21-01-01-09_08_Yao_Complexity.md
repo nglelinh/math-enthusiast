@@ -194,3 +194,9 @@ Complete list: `research/video-research/yao-complexity/references.md`.
 - Compare classical vs quantum communication complexity slogans after the quantum lecture.  
 - Bridge forward to [Valiant / PAC learning]({{ site.baseurl }}/contents/en/chapter09/09_09_Valiant_Learning/) (different Turing story, same “definitions that created a field” pattern).  
 - Next in sequence: Valiant.
+
+## Video tham khảo
+
+- **xem trước** — [Andrew C. Yao - Some Perspectives on Computational and Communication Complexity](https://www.youtube.com/watch?v=g7KzDojwAuM) — IEEE Information Theory Society, English. Watch first. “Andrew C. Yao - Some Perspectives on Computational and Communication Complexity” orients the lesson’s aim: After this lecture you should be able to state Yao’s minimax principle in slogan form and explain why it equates average-case deterministic cost under a hard distribution with wors…
+- [【Kyoto Prize Commemorative Lecture】Andrew Chi-Chih Yao “A Journey Through Computer Science”](https://www.youtube.com/watch?v=9BPksehCgOU) — Kyoto Prize, English. A second pass once the main claim is in view: After this lecture you should be able to state Yao’s minimax principle in slogan form and explain why it equates average-case deterministic cost under a hard distribution with wors…
+- [Andrew Chi Chih Yao: Building Up Computer Science by Asking Good Questions #ICBS2024](https://www.youtube.com/watch?v=lRwCImYTLkE) — BIMSA, English. Further depth after the first two, still tied to this lesson: After this lecture you should be able to state Yao’s minimax principle in slogan form and explain why it equates average-case deterministic cost under a hard distribution with wors…

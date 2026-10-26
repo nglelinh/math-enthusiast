@@ -244,3 +244,9 @@ Full URL bibliography from video research (including secondary finds): `research
 - Build a personal reading list of five survey first pages—one per method family on this map.
 - Seminar option: present a 10-minute “method passport” (definitions only, no full proofs) for either incidences or expanders.
 - Note open questions this survey raises: high-dimensional incidence bounds, explicit expanders with extreme parameters, and the ongoing dialogue between Kakeya-type analysis and discrete geometry.
+
+## Video tham khảo
+
+- **xem trước** — [g-conjecture - Numberphile](https://www.youtube.com/watch?v=4445Mbw8pYg) — Numberphile, English. Watch first. “g-conjecture - Numberphile” orients the lesson’s aim: Name at least five bridges between combinatorics and geometry or analysis.
+- [Fields Medal: June Huh](https://www.youtube.com/watch?v=yO8lQWb6TZ4) — Simons Foundation, English. A second pass once the main claim is in view: Name at least five bridges between combinatorics and geometry or analysis.
+- [Fields Medals 2022 June Huh](https://www.youtube.com/watch?v=ritFtfoRYmY) — International Mathematical Union, English. Further depth after the first two, still tied to this lesson: Name at least five bridges between combinatorics and geometry or analysis.

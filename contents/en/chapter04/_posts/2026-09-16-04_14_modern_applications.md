@@ -62,3 +62,9 @@ This page does not re-list numbers, algebra, geometry, probability, analysis, an
 - Wei, J., et al. (2022). Emergent abilities of large language models. *TMLR*. [arXiv:2206.07682](https://arxiv.org/abs/2206.07682).
 - Schaeffer, R., Miranda, B., & Koyejo, S. (2023). Are emergent abilities of large language models a mirage? *NeurIPS*. [arXiv:2304.15004](https://arxiv.org/abs/2304.15004).
 - Kaplan’s hat page: [cs.uwaterloo.ca/~csk/hat](https://cs.uwaterloo.ca/~csk/hat/).
+
+## Video tham khảo
+
+- **xem trước** — [Discovery of the Aperiodic Monotile - Numberphile](https://www.youtube.com/watch?v=_ZS3Oqg1AX0) — Numberphile, English. Watch first. “Discovery of the Aperiodic Monotile - Numberphile” orients the lesson’s aim: After this optional note you should be able to connect three “beautiful” objects already in this chapter—aperiodic order, dynamical generation, and emergence—to 2022–2026 computer-…
+- [But how do AI images and videos actually work? | Guest video by Welch Labs](https://www.youtube.com/watch?v=iv-5mZ_9CPY) — 3Blue1Brown, English. A second pass once the main claim is in view: After this optional note you should be able to connect three “beautiful” objects already in this chapter—aperiodic order, dynamical generation, and emergence—to 2022–2026 computer-…
+- [Inventing Game of Life (John Conway) - Numberphile](https://www.youtube.com/watch?v=R9Plq-D1gEk) — Numberphile, English. Further depth after the first two, still tied to this lesson: After this optional note you should be able to connect three “beautiful” objects already in this chapter—aperiodic order, dynamical generation, and emergence—to 2022–2026 computer-…

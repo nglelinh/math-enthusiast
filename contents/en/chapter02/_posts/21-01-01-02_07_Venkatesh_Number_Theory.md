@@ -264,3 +264,7 @@ Full URL bibliography from video research (including secondary finds): `research
 - Explore a single equidistribution theorem (e.g. integer points on spheres or special orthogonal orbits) as a mini-project before returning to $$L$$-functions.
 - For dynamics lovers: read an expository account of unipotent flows and Ratner-type rigidity, then ask which arithmetic applications need only mixing and which need classification of measures.
 - Pair with [Maynard]({{ site.baseurl }}/contents/en/chapter02/02_09_Maynard_Primes/) in a seminar session on “two engines of analytic number theory: sieves vs dynamics/spectra.”
+
+## Video tham khảo
+
+- **xem trước** — [2022 Fields Medal Symposium: Akshay Venkatesh](https://www.youtube.com/watch?v=4EEjHji6axA) — Fields Institute, English. Watch first. “2022 Fields Medal Symposium: Akshay Venkatesh” orients the lesson’s aim: Give examples of problems that sit between number theory and dynamics.

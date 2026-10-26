@@ -262,3 +262,9 @@ Full URL bibliography from video research: `research/video-research/mathematical
 - **Practice:** simulate SIR and a simple birth–death gene circuit; compare ODE mean to stochastic trajectories.
 - **Reading path:** one compartment model chapter + one stochastic gene expression paper + one critical essay on model limits.
 - Ask always: *At which scale is this equation valid?*
+
+## Video tham khảo
+
+- **xem trước** — [Exponential growth and epidemics](https://www.youtube.com/watch?v=Kas0tIxDvrg) — 3Blue1Brown, English. Watch first. “Exponential growth and epidemics” orients the lesson’s aim: Write and interpret a simple compartment ODE (e.g., logistic growth or SIR) and explain what “well-mixed” assumes.
+- [The MATH of Pandemics | Intro to the SIR Model](https://www.youtube.com/watch?v=Qrp40ck3WpI) — Dr. Trefor Bazett, English. A second pass once the main claim is in view: Write and interpret a simple compartment ODE (e.g., logistic growth or SIR) and explain what “well-mixed” assumes.
+- [The Coronavirus Curve - Numberphile](https://www.youtube.com/watch?v=k6nLfCbAzgo) — Numberphile, English. Further depth after the first two, still tied to this lesson: Write and interpret a simple compartment ODE (e.g., logistic growth or SIR) and explain what “well-mixed” assumes.

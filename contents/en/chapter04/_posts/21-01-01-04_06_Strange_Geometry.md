@@ -191,3 +191,9 @@ Full URL bibliography from video research (including secondary finds): `research
 ## Further directions
 
 Logical cousins live in [Paradoxes]({{ site.baseurl }}/contents/en/chapter04/04_07_Paradoxes/). Scaling strangeness continues in [Fractals]({{ site.baseurl }}/contents/en/chapter04/04_03_Fractals/). Visual inconsistency without leaving drawings appears in [Impossible shapes]({{ site.baseurl }}/contents/en/chapter04/04_11_Impossible_Shapes/). Dimension as a parameter expands in [Higher dimensions]({{ site.baseurl }}/contents/en/chapter04/04_08_Higher_Dimensions/).
+
+## Video tham khảo
+
+- **xem trước** — [The Banach–Tarski Paradox](https://www.youtube.com/watch?v=s86-Z-CbaHA) — Vsauce, English. Watch first. “The Banach–Tarski Paradox” orients the lesson’s aim: Describe the Möbius band and Klein bottle and explain non-orientability in elementary terms.
+- [Unexpected Shapes (Part 1) - Numberphile](https://www.youtube.com/watch?v=wKV0GYvR2X8) — Numberphile, English. A second pass once the main claim is in view: Describe the Möbius band and Klein bottle and explain non-orientability in elementary terms.
+- [An Unexpected Twist on Möbius Strips - Numberphile](https://www.youtube.com/watch?v=izIKV98Awnw) — Numberphile, English. Further depth after the first two, still tied to this lesson: Describe the Möbius band and Klein bottle and explain non-orientability in elementary terms.

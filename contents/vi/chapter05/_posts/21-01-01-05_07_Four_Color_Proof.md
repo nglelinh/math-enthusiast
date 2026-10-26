@@ -232,3 +232,9 @@ Danh mục URL đầy đủ: `research/video-research/four-color-proof/reference
 - Khám phá số sắc trên torus và mặt khác.  
 - Thử cách proof assistant mã hóa phân nhánh trường hợp hữu hạn.  
 - Ghi một câu hỏi chính xác bạn vẫn còn.
+
+## Video tham khảo
+
+- **xem trước** — [The Four Color Map Theorem - Numberphile](https://www.youtube.com/watch?v=NgbK43jB4rQ) — Numberphile, tiếng Anh. Xem trước. “The Four Color Map Theorem - Numberphile” định hướng cho mục tiêu của bài: Phát biểu Định lý Bốn Màu dạng bản đồ và dạng đồ thị (tô màu đỉnh đồ thị phẳng, dual cẩn thận).
+- [The Map Coloring Puzzle That Changed Mathematics](https://www.youtube.com/watch?v=h7kqlYUV1l8) — Quanta Magazine, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu Định lý Bốn Màu dạng bản đồ và dạng đồ thị (tô màu đỉnh đồ thị phẳng, dual cẩn thận).
+- [The Four Color Theorem - What Counts as a Proof?](https://www.youtube.com/watch?v=42-ws3bkrKM) — Up and Atom, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu Định lý Bốn Màu dạng bản đồ và dạng đồ thị (tô màu đỉnh đồ thị phẳng, dual cẩn thận).

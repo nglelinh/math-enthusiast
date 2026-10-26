@@ -168,3 +168,9 @@ No course video-research pack is attached to this lesson.
 - Read an expository account of 2-Selmer groups (e.g. a first chapter of Silverman plus a survey of arithmetic statistics) until the exact sequence above feels inevitable.
 - Seminar A3 option: a one-page brief on *what remains open*—the exact average rank, BSD, and counting fields of degree $$\ge 6$$—without inflating 2014 into a closing of number theory.
 - If you like cubes more than ranks, stay with the parametrizations; if you like ranks more than cubes, go to [BSD]({{ site.baseurl }}/contents/en/chapter01/01_04_Birch_Swinnerton_Dyer/) next and keep the Selmer/$$L$$-function distinction on the page.
+
+## Video tham khảo
+
+- **xem trước** — [Manjul Bhargava, The average rank of elliptic curves](https://www.youtube.com/watch?v=t5S8PO2PQgU) — Clay Mathematics Institute, English. Watch first. “Manjul Bhargava, The average rank of elliptic curves” orients the lesson’s aim: State the IMU 2014 citation in one paragraph, naming geometry of numbers, rings of small rank, and average elliptic ranks.
+- [Manjul Bhargava - The average rank of elliptic curves: data, conjectures, and theorems](https://www.youtube.com/watch?v=zm1v_FaTglw) — princetonmathematics, English. A second pass once the main claim is in view: State the IMU 2014 citation in one paragraph, naming geometry of numbers, rings of small rank, and average elliptic ranks.
+- [Manjul Bhargava - Rational points on elliptic and hyperelliptic curves MCA 2013](https://www.youtube.com/watch?v=6NHO-0FKAjM) — MCA2013, English. Further depth after the first two, still tied to this lesson: State the IMU 2014 citation in one paragraph, naming geometry of numbers, rings of small rank, and average elliptic ranks.

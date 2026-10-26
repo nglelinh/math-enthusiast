@@ -170,3 +170,8 @@ Giovanni Felder’s Bourbaki-style / ICM exposition “The work of Andrei Okounk
 - Read Felder’s short portrait, then one Okounkov–Pandharipande introduction, then the instanton survey—do not start with Seiberg–Witten as physics.
 - Compare Plancherel with uniform measure on partitions: same diagrams, different typical shapes.
 - Seminar A3: a one-page “bridge diagram” with three nodes (probability, representations, enumerative geometry) and two edges you can actually name (Plancherel; GW/Hurwitz operators).
+
+## Video tham khảo
+
+- **xem trước** — [On the crossroads of enumerative geometry and representation theory – Andrei Okounkov – ICM2018](https://www.youtube.com/watch?v=zlQ23vRAOCQ) — Rio ICM2018, English. Watch first. “On the crossroads of enumerative geometry and representation theory – Andrei Okounkov –…” orients the lesson’s aim: Restate the 2006 IMU citation as a bridge, not as a classification theorem.
+- [Andrei Okounkov | Classical and quantum integrable systems in enumerative geometry](https://www.youtube.com/watch?v=xZNGyBFR0ao) — Harvard CMSA, English. A second pass once the main claim is in view: Restate the 2006 IMU citation as a bridge, not as a classification theorem.

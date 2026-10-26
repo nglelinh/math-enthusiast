@@ -187,3 +187,9 @@ Fields gắn tuổi và “triển vọng”; Abel gần hơn “giải thưởn
 
 Chọn hai năm Abel trong chương; lập bảng 4 cột: năm – tên – một câu thành tựu – loại (problem / infrastructure / methods). Không cần công thức nặng; cần phân loại trung thực.
 
+
+## Video tham khảo
+
+- **xem trước** — [Abel Prize — The story](https://www.youtube.com/watch?v=ycXeTYR5SFg) — The Abel Prize, tiếng Anh. Xem trước. “Abel Prize — The story” định hướng cho mục tiêu của bài: Sau bài, bạn có thể mô tả vai trò thể chế của Abel và triết lý “đóng góp trọn đời” không giới hạn tuổi; so sánh chính xác Abel với Fields, Clay Millennium và các giải lớn khác; trí…
+- [The 2025 Abel Prize Award Ceremony](https://www.youtube.com/watch?v=8OVVZ4G5bFw) — The Abel Prize, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài, bạn có thể mô tả vai trò thể chế của Abel và triết lý “đóng góp trọn đời” không giới hạn tuổi; so sánh chính xác Abel với Fields, Clay Millennium và các giải lớn khác; trí…
+- [The Abel Prize announcement 2025](https://www.youtube.com/watch?v=Vo3E8wgKnSQ) — The Abel Prize, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài, bạn có thể mô tả vai trò thể chế của Abel và triết lý “đóng góp trọn đời” không giới hạn tuổi; so sánh chính xác Abel với Fields, Clay Millennium và các giải lớn khác; trí…

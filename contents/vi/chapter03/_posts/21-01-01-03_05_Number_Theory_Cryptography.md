@@ -286,3 +286,9 @@ Danh mục URL đầy đủ (mọi link tìm được khi nghiên cứu video): 
 - Flagship seminar LO4. Toy RSA số nguyên tố nhỏ (không an toàn); thảo luận padding.  
 - [Đồ thị → Mạng]({{ site.baseurl }}/contents/vi/chapter03/03_06_Graph_Theory_Networks/) hoặc [Mật mã tương lai]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/).  
 - Viết lại cơ chế cốt lõi một đoạn; ghi một câu hỏi còn mở.
+
+## Video tham khảo
+
+- **xem trước** — [8.Hệ mật RSA_Định nghĩa và ví dụ](https://www.youtube.com/watch?v=QEoRfrSKciI) — Bùi Thị Thùy _CNTT, tiếng Việt. Xem trước: định nghĩa và ví dụ RSA bằng tiếng Việt, để đối chiếu với phần trapdoor và số học mô-đun trong bài.
+- [Encryption and HUGE numbers - Numberphile](https://www.youtube.com/watch?v=M7kEpw1tn50) — Numberphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Tính và diễn giải a\equiv b\pmod n; giải thích lũy thừa modulo nhanh.
+- [RSA-129 - Numberphile](https://www.youtube.com/watch?v=YQw124CtvO0) — Numberphile, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Tính và diễn giải a\equiv b\pmod n; giải thích lũy thừa modulo nhanh.

@@ -208,3 +208,9 @@ Complete list: `research/video-research/goldwasser-micali/references.md`.
 - Study one honest-verifier ZK protocol (Schnorr-style identification) at gadget level.  
 - Survey how modern SNARKs/STARKs change the *engineering* of succinct proofs while still living under soundness/ZK definitions.  
 - Return to [Chapter 09 Overview]({{ site.baseurl }}/contents/en/chapter09/09_00_Overview/) and rewrite the chapter arc in six sentences using only mechanisms, not award years.
+
+## Video tham khảo
+
+- **xem trước** — [Zero Knowledge Proofs - Computerphile](https://www.youtube.com/watch?v=HUs1bH85X9I) — Computerphile, English. Watch first. “Zero Knowledge Proofs - Computerphile” orients the lesson’s aim: Explain why deterministic public-key encryption is insufficient as a security notion (equal messages → equal ciphertexts).
+- [CESC 2022 - Shafi Goldwasser: History of ZK](https://www.youtube.com/watch?v=WjFu2cy_0vM) — Berkeley RDI, English. A second pass once the main claim is in view: Explain why deterministic public-key encryption is insufficient as a security notion (equal messages → equal ciphertexts).
+- [Micali on the impact of "Probabilistic Encryption" (1984)](https://www.youtube.com/watch?v=W5GwfZtGUEY) — Turing Awardee Clips, English. Further depth after the first two, still tied to this lesson: Explain why deterministic public-key encryption is insufficient as a security notion (equal messages → equal ciphertexts).

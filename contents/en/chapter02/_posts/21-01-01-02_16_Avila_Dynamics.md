@@ -160,3 +160,9 @@ No course video-research pack is attached to this lesson. Use official and encyc
 - Compare IET weak mixing with translation flows on flat surfaces; this is the bridge toward Mirzakhani’s moduli world and toward billiards.
 - Seminar A3 option: a one-page “open problems after Avila” brief (higher-frequency Schrödinger operators; effective constants; conservative diffeomorphisms)—without claiming the medal closed dynamical systems.
 - When you meet a Hofstadter butterfly picture, write the Ten Martini *theorem* next to it so the image does not replace the statement.
+
+## Video tham khảo
+
+- **xem trước** — [Dynamical Systems and Renormalisation by Prof. Artur Avila](https://www.youtube.com/watch?v=F3e5g5BwDu8) — swissQuant, English. Watch first. “Dynamical Systems and Renormalisation by Prof. Artur Avila” orients the lesson’s aim: State the IMU 2014 citation in one careful sentence, with renormalization as a unifying tool rather than a personal invention.
+- [Artur Avila - Poincaré series and renormalization MCA 2013](https://www.youtube.com/watch?v=Hff4sJm0xBA) — MCA2013, English. A second pass once the main claim is in view: State the IMU 2014 citation in one careful sentence, with renormalization as a unifying tool rather than a personal invention.
+- [Fields Medal Winner 2014 Artur Avila](https://www.youtube.com/watch?v=405_UtglyoQ) — International Mathematical Union, English. Further depth after the first two, still tied to this lesson: State the IMU 2014 citation in one careful sentence, with renormalization as a unifying tool rather than a personal invention.

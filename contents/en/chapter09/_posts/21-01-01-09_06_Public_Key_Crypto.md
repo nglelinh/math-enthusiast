@@ -233,3 +233,9 @@ Complete list: `research/video-research/public-key-crypto/references.md`.
 - Compare finite-field DH with elliptic-curve DH at the level of group choice and key sizes.  
 - Follow NIST PQC project summaries for lattice-based KEM/signature names and migration vocabulary.  
 - Next: [Goldwasser, Micali, and Foundations of Modern Cryptography]({{ site.baseurl }}/contents/en/chapter09/09_07_Goldwasser_Micali/).
+
+## Video tham khảo
+
+- **xem trước** — [Secret Key Exchange (Diffie-Hellman) - Computerphile](https://www.youtube.com/watch?v=NmM9HA2MQGI) — Computerphile, English. Watch first. “Secret Key Exchange (Diffie-Hellman) - Computerphile” orients the lesson’s aim: Explain the public-key idea: separate capabilities to encrypt/verify from decrypt/sign via key pairs.
+- [Diffie Hellman -the Mathematics bit- Computerphile](https://www.youtube.com/watch?v=Yjrfm_oRO0w) — Computerphile, English. A second pass once the main claim is in view: Explain the public-key idea: separate capabilities to encrypt/verify from decrypt/sign via key pairs.
+- [Lecture 13: Diffie-Hellman Key Exchange and the Discrete Log Problem by Christof Paar](https://www.youtube.com/watch?v=aeOzBCbwxUo) — Introduction to Cryptography by Christof Paar, English. Further depth after the first two, still tied to this lesson: Explain the public-key idea: separate capabilities to encrypt/verify from decrypt/sign via key pairs.

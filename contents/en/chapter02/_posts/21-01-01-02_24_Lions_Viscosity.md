@@ -173,3 +173,9 @@ A later chapter—mean field games, Collège de France lectures—continues the 
 - Compare vanishing-viscosity limits with entropy solutions of scalar conservation laws (a cousin weak theory, not the same definition).
 - If you continue toward applications, treat mean field games as a *consumer* of viscosity solutions, dated after the medal.
 - Seminar A3 option: a one-page “what viscosity solutions are not” brief (not NS, not MFG-as-citation, not a fluid viscosity).
+
+## Video tham khảo
+
+- **xem trước** — [The Essentials of Viscosity Solutions in R^n II](https://www.youtube.com/watch?v=I_fsCAW3xrM) — USF GradMath, English. Watch first for a course introduction to viscosity solutions in R^n, the analytic object of Lions’s medal, before the lectures by Lions himself.
+- [Pierre-Louis Lions: Complete" Analysis of the Master Equation: an Example](https://www.youtube.com/watch?v=k0G_fwTVqHA) — Centre de recherches mathématiques - CRM, English. A second pass once the main claim is in view: Restate the 1994 ICM account as a portfolio (probability, nonlinear PDE, applications) rather than as a single theorem.
+- [Charlemagne Distingushed Lecture Series 2012 with Prof. Dr. Pierre-Louis Lions](https://www.youtube.com/watch?v=spkaGZPTt9Q) — IRTG 2379 MIP, English. Further depth after the first two, still tied to this lesson: Restate the 1994 ICM account as a portfolio (probability, nonlinear PDE, applications) rather than as a single theorem.

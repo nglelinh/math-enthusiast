@@ -302,3 +302,9 @@ Complete list: `research/video-research/atiyah-singer-index/references.md`.
 9. Research pack folder: `research/video-research/atiyah-singer-index/`.  
 
 Do **not** treat lecture videos as proofs. For load-bearing claims, prefer Abel official text, standard textbooks (e.g. heat-kernel expositions), and peer-reviewed surveys.
+
+## Video tham khảo
+
+- **xem trước** — [Isadore Singer and Michael Atiyah - The Abel Prize interview 2004](https://www.youtube.com/watch?v=UOv9wJyPGUQ) — The Abel Prize, English. Watch first. “Isadore Singer and Michael Atiyah - The Abel Prize interview 2004” orients the lesson’s aim: After this lecture you should be able to state the Atiyah–Singer index theorem at slogan level (analytic index equals topological index); explain why an elliptic operator on a comp…
+- [Dan Freed | The Atiyah-Singer Index Theorem](https://www.youtube.com/watch?v=AJHKp9kYm90) — Harvard CMSA, English. A second pass once the main claim is in view: After this lecture you should be able to state the Atiyah–Singer index theorem at slogan level (analytic index equals topological index); explain why an elliptic operator on a comp…
+- [The Atiyah Singer Index Theorem - an Overview by Madabusi Raghunathan](https://www.youtube.com/watch?v=0M6iYaA67Mo) — International Centre for Theoretical Sciences, English. Further depth after the first two, still tied to this lesson: After this lecture you should be able to state the Atiyah–Singer index theorem at slogan level (analytic index equals topological index); explain why an elliptic operator on a comp…

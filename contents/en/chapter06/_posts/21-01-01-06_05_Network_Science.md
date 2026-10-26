@@ -241,3 +241,9 @@ Full URL bibliography from video research: `research/video-research/network-scie
 - **Practice:** download a small empirical network; compare degree distribution, clustering, and mean path length to an ER graph with the same $$n$$ and mean degree.
 - **Reading path:** Newman introductory chapters → one epidemic-on-networks review → one critical paper on scale-free statistics.
 - Always ask: *What does an edge mean, and who is missing from the vertex set?*
+
+## Video tham khảo
+
+- **xem trước** — [Albert-László Barabási – Network Science: From Abstract to Physical Networks](https://www.youtube.com/watch?v=oqOyTdLsq3o) — UiO Realfagsbiblioteket, English. Watch first. “Albert-László Barabási – Network Science: From Abstract to Physical Networks” orients the lesson’s aim: Define a simple undirected graph G=(V,E) and basic statistics (degree, path length, clustering).
+- [DTU Ørsted Lecture, Albert-László Barabási, Network Science: Decoding the Architecture of Complexity](https://www.youtube.com/watch?v=ZmJ9c-daNDY) — DTUdk, English. A second pass once the main claim is in view: Define a simple undirected graph G=(V,E) and basic statistics (degree, path length, clustering).
+- [Centralized & Scale Free Networks](https://www.youtube.com/watch?v=qmCrtuS9vtU) — Systems Innovation Network, English. Further depth after the first two, still tied to this lesson: Define a simple undirected graph G=(V,E) and basic statistics (degree, path length, clustering).

@@ -260,3 +260,9 @@ Full bibliography: `research/video-research/Twin_Prime_Conjecture/references.md`
 - **A3** brief: twins vs Euclid; Zhang→Maynard→$$H=246$$; gap $$2$$ open / parity barrier.  
 - Studio: count twins vs Hardy–Littlewood integral—evidence, not proof.  
 - Maynard Fields essay for multidimensional weights.
+
+## Video tham khảo
+
+- **xem trước** — [Gaps between Primes - Numberphile](https://www.youtube.com/watch?v=vkMXdShDdtY) — Numberphile, English. Watch first. “Gaps between Primes - Numberphile” orients the lesson’s aim: State the twin prime conjecture and give several twin prime pairs.
+- [Twin Prime Conjecture - Numberphile](https://www.youtube.com/watch?v=QKHKD8bRAro) — Numberphile, English. A second pass once the main claim is in view: State the twin prime conjecture and give several twin prime pairs.
+- [Small Gaps Between Primes - James Maynard](https://www.youtube.com/watch?v=E-W47F9upkU) — princetonmathematics, English. Further depth after the first two, still tied to this lesson: State the twin prime conjecture and give several twin prime pairs.

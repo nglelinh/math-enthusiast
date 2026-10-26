@@ -153,3 +153,9 @@ The same sensibility later appears in McMullen’s students’ work—including 
 - Read Smale’s short ICM portrait before the 1994/1996 books.
 - Compare Bers’s boundary with the boundary of the Mandelbrot set: both are conjecturally organized by laminations (Thurston; Douady–Hubbard); McMullen’s density of cusps supports one side of that analogy.
 - Seminar A3: a one-page “dictionary” of three parallel words (rational map / Kleinian group; Julia set / limit set; renormalization / fibered hyperbolization)—without claiming the dictionary is an equivalence of categories.
+
+## Video tham khảo
+
+- **xem trước** — [Curtis McMullen: Manifolds, topology and dynamics](https://www.youtube.com/watch?v=g0fQDrV-UuE) — The Abel Prize, English. Watch first. “Curtis McMullen: Manifolds, topology and dynamics” orients the lesson’s aim: State the official 1998 citation and name its two explicitly cited theorems (Bers density of cusps; Kra’s theta-function conjecture).
+- [Planes in number theory, geometry and dynamics: C. McMullen](https://www.youtube.com/watch?v=hlDDHnk5aRU) — Fields Institute, English. A second pass once the main claim is in view: State the official 1998 citation and name its two explicitly cited theorems (Bers density of cusps; Kra’s theta-function conjecture).
+- [Dynamics on K3 Surfaces - Curtis McMullen](https://www.youtube.com/watch?v=gWTi1xvGMb8) — Stony Brook Mathematics, English. Further depth after the first two, still tied to this lesson: State the official 1998 citation and name its two explicitly cited theorems (Bers density of cusps; Kra’s theta-function conjecture).

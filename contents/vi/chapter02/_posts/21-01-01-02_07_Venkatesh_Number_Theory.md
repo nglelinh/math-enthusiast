@@ -222,3 +222,7 @@ Danh mục URL đầy đủ (mọi link khi nghiên cứu video): `research/vide
 - Đọc song song [Mirzakhani]({{ site.baseurl }}/contents/vi/chapter02/) và [Scholze]({{ site.baseurl }}/contents/vi/chapter02/).  
 - Ghi một câu hỏi chính xác—ví dụ “spectral gap nào nuôi sparse equidistribution?”  
 - Nếu thích hàm $$L$$: ôn convexity bound trên một family đơn giản trước subconvexity.
+
+## Video tham khảo
+
+- **xem trước** — [2022 Fields Medal Symposium: Akshay Venkatesh](https://www.youtube.com/watch?v=4EEjHji6axA) — Fields Institute, tiếng Anh. Xem trước. “2022 Fields Medal Symposium: Akshay Venkatesh” định hướng cho mục tiêu của bài: Đưa ví dụ bài toán nằm giữa lý thuyết số và động lực / tôpô.

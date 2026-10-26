@@ -327,3 +327,9 @@ Transcript caption và unit theo thời gian: `research/video-research/explore-i
 
 *Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
 
+
+## Video tham khảo
+
+- **xem trước** — [The Simplest Math Problem No One Can Solve - Collatz Conjecture](https://www.youtube.com/watch?v=094y1Z2wpJg) — Veritasium, tiếng Anh. Xem trước. “The Simplest Math Problem No One Can Solve - Collatz Conjecture” định hướng cho mục tiêu của bài: Phát biểu quy tắc Collatz (3n+1) và giả thuyết mở bằng ngôn ngữ chính xác.
+- [UNCRACKABLE? The Collatz Conjecture - Numberphile](https://www.youtube.com/watch?v=5mFpVDpKX70) — Numberphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu quy tắc Collatz (3n+1) và giả thuyết mở bằng ngôn ngữ chính xác.
+- [The 3x+1 Problem: Status and Recent Work Part 1](https://www.youtube.com/watch?v=t1I9uHF9X5Y) — Experimental mathematics, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu quy tắc Collatz (3n+1) và giả thuyết mở bằng ngôn ngữ chính xác.

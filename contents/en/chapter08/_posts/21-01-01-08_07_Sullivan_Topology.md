@@ -221,3 +221,7 @@ Pick a Julia-set image and write 150 words connecting visual chaos to a precise 
 - Compare with a related [Fields essay]({{ site.baseurl }}/contents/en/chapter02/02_00_Overview/).  
 - Note one open direction in complex dynamics or geometric topology that still fascinates you.  
 - Next: [Luis Caffarelli]({{ site.baseurl }}/contents/en/chapter08/08_08_Caffarelli_PDE/).
+
+## Video tham khảo
+
+- **xem trước** — [Dennis Sullivan: Gathering chestnuts of math related to fluid motion](https://www.youtube.com/watch?v=RRMBRiyNcjI) — The Abel Prize, English. Watch first. “Dennis Sullivan: Gathering chestnuts of math related to fluid motion” orients the lesson’s aim: After this lecture you should be able to place Sullivan across algebraic topology, geometric topology, and complex dynamics; name the no wandering domains theorem for rational maps…

@@ -244,3 +244,9 @@ Thư mục URL: `research/video-research/Twin_Prime_Conjecture/references.md`.
 ## Hướng đi tiếp
 
 Ứng viên **A3**. Studio: đếm twin tới $$N$$ so heuristic. Essay Maynard: Fields gắn *phương pháp*, không chỉ số $$H$$. Bảng §5 là xương sống—khoanh đúng ô còn mở.
+
+## Video tham khảo
+
+- **xem trước** — [Gaps between Primes - Numberphile](https://www.youtube.com/watch?v=vkMXdShDdtY) — Numberphile, tiếng Anh. Xem trước. “Gaps between Primes - Numberphile” định hướng cho mục tiêu của bài: Phát biểu giả thuyết số nguyên tố sinh đôi và đưa ví dụ cặp sinh đôi.
+- [Twin Prime Conjecture - Numberphile](https://www.youtube.com/watch?v=QKHKD8bRAro) — Numberphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu giả thuyết số nguyên tố sinh đôi và đưa ví dụ cặp sinh đôi.
+- [Small Gaps Between Primes - James Maynard](https://www.youtube.com/watch?v=E-W47F9upkU) — princetonmathematics, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu giả thuyết số nguyên tố sinh đôi và đưa ví dụ cặp sinh đôi.

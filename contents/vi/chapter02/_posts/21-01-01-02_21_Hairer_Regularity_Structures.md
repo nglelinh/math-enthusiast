@@ -194,3 +194,9 @@ Với chương này, Hairer là chân dung **hạ tầng**: một phạm trù kh
 
 - So biến đổi Cole–Hopf cho KPZ với xây dựng cấu trúc chính quy: một cái khai thác một phép đổi ẩn đặc biệt; cái kia scale sang phương trình không có mẹo ấy.
 - Câu seminar: tái chuẩn hóa ở đây giống và khác tái chuẩn hóa trong lý thuyết trường lượng tử xây dựng ở những điểm nào?
+
+## Video tham khảo
+
+- **xem trước** — [Martin Hairer Colloquium Talk: Taming Infinities](https://www.youtube.com/watch?v=nBbx0wEgUXY) — Sydney Mathematical Research Institute - SMRI, tiếng Anh. Xem trước. “Martin Hairer Colloquium Talk: Taming Infinities” định hướng cho mục tiêu của bài: Giải thích, trong một đoạn, vì sao tích hai phân phối nói chung không xác định, và vì sao chướng ngại ấy xuất hiện trong SPDE phi tuyến với nhiễu trắng không-thời gian.
+- [Martin Hairer Mini-course 1: Introduction to Regularity Structures](https://www.youtube.com/watch?v=c0HlcVA1SoI) — Sydney Mathematical Research Institute - SMRI, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Giải thích, trong một đoạn, vì sao tích hai phân phối nói chung không xác định, và vì sao chướng ngại ấy xuất hiện trong SPDE phi tuyến với nhiễu trắng không-thời gian.
+- [Martin Hairer: Fine properties of random fields: from fluids to QTF](https://www.youtube.com/watch?v=VnmfSICGDo4) — Centre International de Rencontres Mathématiques, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Giải thích, trong một đoạn, vì sao tích hai phân phối nói chung không xác định, và vì sao chướng ngại ấy xuất hiện trong SPDE phi tuyến với nhiễu trắng không-thời gian.

@@ -238,3 +238,9 @@ Thư mục URL: `research/video-research/Birch_Swinnerton_Dyer/references.md`.
 ## Hướng đi tiếp
 
 Ứng viên **A3**. ECC vs BSD: “cùng công cụ, khác câu hỏi.” Mặt giải tích: đọc lại hàm $$L$$ trong bài Riemann. Mặt đại số: thử vài điểm Weierstrass trước khi nói về $$L$$.
+
+## Video tham khảo
+
+- **xem trước** — [Manjul Bhargava: What is the Birch-Swinnerton-Dyer Conjecture, and what is known about it?](https://www.youtube.com/watch?v=_-feKGb6-gc) — The Abel Prize, tiếng Anh. Xem trước. “Manjul Bhargava: What is the Birch-Swinnerton-Dyer Conjecture, and what is known about it?” định hướng cho mục tiêu của bài: Định nghĩa đường cong elliptic trên \mathbb{Q} ở mức làm việc (cubic Weierstrass không kỳ dị).
+- [Birch Swinnerton-Dyer conjecture: Introduction](https://www.youtube.com/watch?v=3vGiWK_ZyKs) — Richard E Borcherds, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Định nghĩa đường cong elliptic trên \mathbb{Q} ở mức làm việc (cubic Weierstrass không kỳ dị).
+- [Barry Mazur | About the Birch and Swinnerton–Dyer Conjecture](https://www.youtube.com/watch?v=14-9iCoclFE) — Harvard CMSA, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Định nghĩa đường cong elliptic trên \mathbb{Q} ở mức làm việc (cubic Weierstrass không kỳ dị).

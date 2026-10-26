@@ -210,3 +210,7 @@ Complete list: `research/video-research/pearl-causality/references.md`.
 - Compare Pearl graphs with potential-outcomes notation on the same toy experiment.  
 - Apply LO6 to an A/B test writeup vs an observational “AI discovered that…” claim.  
 - Next: [Bengio, Hinton, LeCun]({{ site.baseurl }}/contents/en/chapter09/09_12_Deep_Learning_Trio/)—learning systems at scale, still needing causal humility when they act.
+
+## Video tham khảo
+
+- **xem trước** — [Judea Pearl, 2012 ACM A.M. Turing Award Lecture "The Mechanization of Causal Inference"](https://www.youtube.com/watch?v=iNm4nFBFmvo) — Association for Computing Machinery (ACM), English. Watch first. “Judea Pearl, 2012 ACM A.M. Turing Award Lecture "The Mechanization of Causal Inference"” orients the lesson’s aim: After this lecture you should be able to distinguish association (conditioning) from intervention (the do operator) in slogan form; explain a causal Bayesian network as a directed…

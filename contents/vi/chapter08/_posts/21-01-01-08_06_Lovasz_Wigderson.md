@@ -206,3 +206,9 @@ Danh mục đầy đủ: `research/video-research/lovasz-wigderson/references.md
 - Ghi một bài mở chính xác: P vs NP; derandomization mạnh hơn; dựng tường minh tham số tối ưu.  
 - So [Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/).  
 - Tiếp: [Sullivan]({{ site.baseurl }}/contents/vi/chapter08/08_07_Sullivan_Topology/).
+
+## Video tham khảo
+
+- **xem trước** — [VINIF 2021|BÀI GIẢNG ĐẠI CHÚNG VỀ GIẢI ABEL 2021-PGS. PHAN THỊ HÀ DƯƠNG: MỘT SỐ CT CỦA LÁSZLÓ LOVÁSZ](https://www.youtube.com/watch?v=ZKK46TpwscE) — VinBigData, tiếng Việt. Xem trước: bài giảng đại chúng tiếng Việt của PGS. Phan Thị Hà Dương về một số công trình Lovász (Abel 2021), trước các bài Abel Prize bằng tiếng Anh.
+- [The Abel lectures: László Lovász and Avi Wigderson](https://www.youtube.com/watch?v=zqiL57ebP-k) — The Abel Prize, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài, bạn có thể giải thích vì sao rời rạc/TCS xứng Abel như toán hiện đại trung tâm; nêu local lemma Lovász và mục đích (tồn tại khi nhiều sự kiện xấu gần độc lập); nêu chủ đề…
+- [Avi Wigderson & László Lovász - The Abel Prize interview 2021](https://www.youtube.com/watch?v=VAk0rtlKtMA) — The Abel Prize, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài, bạn có thể giải thích vì sao rời rạc/TCS xứng Abel như toán hiện đại trung tâm; nêu local lemma Lovász và mục đích (tồn tại khi nhiều sự kiện xấu gần độc lập); nêu chủ đề…

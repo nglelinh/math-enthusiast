@@ -264,3 +264,8 @@ Danh mục URL đầy đủ: `research/video-research/cantor-diagonal/references
 
 Viết lại chứng minh $$|\mathbb{N}| < |\mathbb{R}|$$ bằng chuỗi nhị phân; chỉ rõ bước nào dùng giả sử liệt kê và bước nào xây chuỗi chéo. Thêm một câu so sánh với studio [mô tả vô hạn]({{ site.baseurl }}/contents/vi/chapter07/07_08_Explore_Describe_Infinity/).
 
+
+## Video tham khảo
+
+- **xem trước** — [Infinity is bigger than you think - Numberphile](https://www.youtube.com/watch?v=elvOZm0d4H0) — Numberphile, tiếng Anh. Xem trước. “Infinity is bigger than you think - Numberphile” định hướng cho mục tiêu của bài: Phát biểu “đếm được” và “không đếm được” theo song ánh với \mathbb{N}.
+- [Cantor's Diagonalization Argument](https://www.youtube.com/watch?v=qGYDQWm49wU) — IF, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu “đếm được” và “không đếm được” theo song ánh với \mathbb{N}.

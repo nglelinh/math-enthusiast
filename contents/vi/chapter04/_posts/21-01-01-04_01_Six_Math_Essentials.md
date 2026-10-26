@@ -173,3 +173,7 @@ Dùng cuộc trò chuyện cho **định hướng và câu chuyện**, không th
 ## Hướng đi tiếp
 
 Đọc [Vô hạn]({{ site.baseurl }}/contents/vi/chapter04/04_02_Infinity/) tiếp nếu muốn trụ giải tích ở tốc độ chậm; [Hỗn độn]({{ site.baseurl }}/contents/vi/chapter04/04_05_Chaos/) nếu muốn động lực. Để thấy cùng thói quen tư duy trả công ở quy mô giải thưởng, nhảy tới [Green–Tao]({{ site.baseurl }}/contents/vi/chapter02/02_04_Green_Tao/) và [Viazovska]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/). Cho chương AI của cùng cuộc trò chuyện, tới [Toán học của AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/). Điểm của một hub không phải là xong sáu trụ. Điểm là biết mình đang mở cửa nào.
+
+## Video tham khảo
+
+- **xem trước** — [One of the world's greatest mathematicians explains 6 essential concepts of math | Terence Tao](https://www.youtube.com/watch?v=OOMx2BHHWtE) — Big Think, tiếng Anh. Xem trước. “One of the world's greatest mathematicians explains 6 essential concepts of math | Tere…” định hướng cho mục tiêu của bài: Kể tên sáu trụ cột của Tao và đưa một ví dụ dễ gần cho mỗi trụ, mà không biến danh sách thành bản đồ đầy đủ của toán học.

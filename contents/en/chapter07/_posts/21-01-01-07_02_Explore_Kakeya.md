@@ -290,3 +290,9 @@ Caption transcripts and time-chunk units for pack videos: `research/video-resear
 
 *Figure. Sample still from a pack primary video (see pack for timestamps).*
 
+
+## Video tham khảo
+
+- **xem trước** — [A Once-in-a-Century Proof: The Kakeya Conjecture](https://www.youtube.com/watch?v=5J3tYU_-IZI) — Quanta Magazine, English. Watch first. “A Once-in-a-Century Proof: The Kakeya Conjecture” orients the lesson’s aim: State Kakeya’s needle problem and the definition of a Besicovitch (Kakeya) set in \mathbb{R}^n in your own words.
+- [What is Hausdorff Dimension? Intuition, Gauge Functions, and Hausdorff Measures](https://www.youtube.com/watch?v=LJcWhcM4okQ) — CHALK, English. A second pass once the main claim is in view: State Kakeya’s needle problem and the definition of a Besicovitch (Kakeya) set in \mathbb{R}^n in your own words.
+- [Methods for Estimating Hausdorff Dimension: Bounds and The Mass Distribution Principle](https://www.youtube.com/watch?v=FQXbRGmAbUY) — CHALK, English. Further depth after the first two, still tied to this lesson: State Kakeya’s needle problem and the definition of a Besicovitch (Kakeya) set in \mathbb{R}^n in your own words.

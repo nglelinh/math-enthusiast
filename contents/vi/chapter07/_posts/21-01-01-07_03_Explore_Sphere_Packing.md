@@ -289,3 +289,9 @@ Transcript caption và unit theo thời gian: `research/video-research/explore-s
 
 *Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
 
+
+## Video tham khảo
+
+- **xem trước** — [Einstein Lectures: Maryna Viazovska - The sphere packing problem](https://www.youtube.com/watch?v=fH6KNlUJux0) — Universität Bern, tiếng Anh. Xem trước. “Einstein Lectures: Maryna Viazovska - The sphere packing problem” định hướng cho mục tiêu của bài: Định nghĩa mật độ packing như giới hạn tỉ lệ thể tích phủ; tính đúng packing lưới vuông và lục giác 2D.
+- [Introduction to the sphere packing problem, Maryna Viazovska, 1/4.](https://www.youtube.com/watch?v=VR3Ezxo5wo8) — ICMU, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Định nghĩa mật độ packing như giới hạn tỉ lệ thể tích phủ; tính đúng packing lưới vuông và lục giác 2D.
+- [Maryna Viazovska - The Sphere Packing Problem, Simons Lecture Day 1](https://www.youtube.com/watch?v=mf_XOB7594c) — MIT Department of Mathematics, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Định nghĩa mật độ packing như giới hạn tỉ lệ thể tích phủ; tính đúng packing lưới vuông và lục giác 2D.

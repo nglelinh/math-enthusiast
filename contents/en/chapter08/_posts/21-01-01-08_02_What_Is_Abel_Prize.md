@@ -200,3 +200,9 @@ Complete list: `research/video-research/what-is-abel-prize/references.md`.
 - Restate the core idea of the Abel Prize in one paragraph aimed at a non-mathematician.  
 - Note one precise open question still living next to any Abel citation in this chapter (e.g. full Langlands after modularity; global NS regularity after CKN; higher-dimensional Kakeya after related geometric analysis culture).  
 - Next: [Andrew Wiles: Modularity and Fermat’s Last Theorem]({{ site.baseurl }}/contents/en/chapter08/08_03_Wiles_Fermat/).
+
+## Video tham khảo
+
+- **xem trước** — [Abel Prize — The story](https://www.youtube.com/watch?v=ycXeTYR5SFg) — The Abel Prize, English. Watch first. “Abel Prize — The story” orients the lesson’s aim: After this lecture you should be able to describe the Abel Prize’s institutional role and age-unrestricted “lifetime contribution” philosophy; contrast Abel with Fields, Clay Mille…
+- [The 2025 Abel Prize Award Ceremony](https://www.youtube.com/watch?v=8OVVZ4G5bFw) — The Abel Prize, English. A second pass once the main claim is in view: After this lecture you should be able to describe the Abel Prize’s institutional role and age-unrestricted “lifetime contribution” philosophy; contrast Abel with Fields, Clay Mille…
+- [The Abel Prize announcement 2025](https://www.youtube.com/watch?v=Vo3E8wgKnSQ) — The Abel Prize, English. Further depth after the first two, still tied to this lesson: After this lecture you should be able to describe the Abel Prize’s institutional role and age-unrestricted “lifetime contribution” philosophy; contrast Abel with Fields, Clay Mille…

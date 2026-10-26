@@ -242,3 +242,9 @@ Danh mục URL đầy đủ: `research/video-research/network-science/references
 - Thực hành: so một mạng thật nhỏ với ER cùng $$n$$ và bậc trung bình.
 - Đọc: chương đầu Newman → một review dịch-trên-mạng → một paper phê scale-free statistics.
 - Luôn hỏi: *Cạnh nghĩa gì, và ai vắng khỏi tập đỉnh?*
+
+## Video tham khảo
+
+- **xem trước** — [Albert-László Barabási – Network Science: From Abstract to Physical Networks](https://www.youtube.com/watch?v=oqOyTdLsq3o) — UiO Realfagsbiblioteket, tiếng Anh. Xem trước. “Albert-László Barabási – Network Science: From Abstract to Physical Networks” định hướng cho mục tiêu của bài: Định nghĩa G=(V,E) và thống kê cơ bản (bậc, độ dài đường, clustering).
+- [DTU Ørsted Lecture, Albert-László Barabási, Network Science: Decoding the Architecture of Complexity](https://www.youtube.com/watch?v=ZmJ9c-daNDY) — DTUdk, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Định nghĩa G=(V,E) và thống kê cơ bản (bậc, độ dài đường, clustering).
+- [Centralized & Scale Free Networks](https://www.youtube.com/watch?v=qmCrtuS9vtU) — Systems Innovation Network, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Định nghĩa G=(V,E) và thống kê cơ bản (bậc, độ dài đường, clustering).

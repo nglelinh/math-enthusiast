@@ -196,3 +196,8 @@ Danh mục URL đầy đủ (mọi link tìm được khi nghiên cứu video): 
 ## Hướng đi tiếp
 
 Họ hàng biến phân: [Tối ưu]({{ site.baseurl }}/contents/vi/chapter03/03_07_Optimization_Operations_AI/). Lạ hình học: [Hình học lạ]({{ site.baseurl }}/contents/vi/chapter04/04_06_Strange_Geometry/). Ràng buộc đối xứng: [Đối xứng]({{ site.baseurl }}/contents/vi/chapter04/04_04_Symmetry/). Mô hình continuum: [Navier–Stokes]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/).
+
+## Video tham khảo
+
+- **xem trước** — [How physics solves a math problem (and a 3D graphics problem)](https://www.youtube.com/watch?v=Cvs8iRqG6lg) — Mathemaniac, tiếng Anh. Xem trước. “How physics solves a math problem (and a 3D graphics problem)” định hướng cho mục tiêu của bài: Phát biểu bài toán Plateau: tìm mặt diện tích nhỏ nhất với biên cho trước.
+- [Camillo De Lellis (UZH) Pieces of soap films: boundaries and Plateau's problem](https://www.youtube.com/watch?v=aTS69X-DBiA) — Math UniPD, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu bài toán Plateau: tìm mặt diện tích nhỏ nhất với biên cho trước.

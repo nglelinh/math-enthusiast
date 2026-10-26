@@ -222,3 +222,7 @@ Complete list: `research/video-research/turing-computability/references.md`.
 - Explore **Rice’s theorem**: nontrivial semantic properties of programs are undecidable—an industrial-strength corollary of the diagonal idea.  
 - Survey how proof assistants and automated theorem provers live *with* undecidability (semi-decision, tactics, bounded search).  
 - Next: [Cook, Karp, and NP-Completeness]({{ site.baseurl }}/contents/en/chapter09/09_04_Cook_Karp_NP/).
+
+## Video tham khảo
+
+- **xem trước** — [Turing & The Halting Problem - Computerphile](https://www.youtube.com/watch?v=macM_MtS_w4) — Computerphile, English. Watch first. “Turing & The Halting Problem - Computerphile” orients the lesson’s aim: Describe the Turing machine model at slogan level (tape, head, finite control, step-by-step transition).

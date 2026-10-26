@@ -245,3 +245,8 @@ Transcript caption và unit theo thời gian: `research/video-research/explore-r
 
 *Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
 
+
+## Video tham khảo
+
+- **xem trước** — [Terence Tao: Structure and Randomness in the Prime Numbers, UCLA](https://www.youtube.com/watch?v=PtsrAw1LR3E) — UCLA, tiếng Anh. Xem trước. “Terence Tao: Structure and Randomness in the Prime Numbers, UCLA” định hướng cho mục tiêu của bài: Ví dụ ngẫu nhiên phá cấu trúc và xác suất tạo chứng minh tồn tại (hoặc vật cực đoan).
+- [Chaos: The Science of the Butterfly Effect](https://www.youtube.com/watch?v=fDek6cYijxI) — Veritasium, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Ví dụ ngẫu nhiên phá cấu trúc và xác suất tạo chứng minh tồn tại (hoặc vật cực đoan).

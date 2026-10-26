@@ -239,3 +239,9 @@ Full URL bibliography from video research: `research/video-research/four-color-p
 - Explore chromatic numbers of graphs on the torus and other surfaces.  
 - Sample how proof assistants encode finite case distinctions.  
 - Note one precise question you still have—good questions are part of mathematical practice.
+
+## Video tham khảo
+
+- **xem trước** — [The Four Color Map Theorem - Numberphile](https://www.youtube.com/watch?v=NgbK43jB4rQ) — Numberphile, English. Watch first. “The Four Color Map Theorem - Numberphile” orients the lesson’s aim: State the Four Color Theorem in map form and graph form (planar graph vertex coloring dualized carefully).
+- [The Map Coloring Puzzle That Changed Mathematics](https://www.youtube.com/watch?v=h7kqlYUV1l8) — Quanta Magazine, English. A second pass once the main claim is in view: State the Four Color Theorem in map form and graph form (planar graph vertex coloring dualized carefully).
+- [The Four Color Theorem - What Counts as a Proof?](https://www.youtube.com/watch?v=42-ws3bkrKM) — Up and Atom, English. Further depth after the first two, still tied to this lesson: State the Four Color Theorem in map form and graph form (planar graph vertex coloring dualized carefully).

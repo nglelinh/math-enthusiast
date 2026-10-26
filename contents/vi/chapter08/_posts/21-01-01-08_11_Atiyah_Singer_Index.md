@@ -298,3 +298,9 @@ Danh mục đầy đủ: `research/video-research/atiyah-singer-index/references
 9. Thư mục gói: `research/video-research/atiyah-singer-index/`.  
 
 **Không** coi video phổ biến là chứng minh. Với khẳng định then chốt, ưu tiên văn bản Abel chính thức, sách giáo khoa chuẩn, và survey đã bình duyệt.
+
+## Video tham khảo
+
+- **xem trước** — [Isadore Singer and Michael Atiyah - The Abel Prize interview 2004](https://www.youtube.com/watch?v=UOv9wJyPGUQ) — The Abel Prize, tiếng Anh. Xem trước. “Isadore Singer and Michael Atiyah - The Abel Prize interview 2004” định hướng cho mục tiêu của bài: Sau bài này bạn có thể phát biểu định lý chỉ số Atiyah–Singer ở mức slogan (chỉ số giải tích bằng chỉ số tôpô); giải thích vì sao toán tử elliptic trên đa tạp compact có hạt nhân v…
+- [Dan Freed | The Atiyah-Singer Index Theorem](https://www.youtube.com/watch?v=AJHKp9kYm90) — Harvard CMSA, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài này bạn có thể phát biểu định lý chỉ số Atiyah–Singer ở mức slogan (chỉ số giải tích bằng chỉ số tôpô); giải thích vì sao toán tử elliptic trên đa tạp compact có hạt nhân v…
+- [The Atiyah Singer Index Theorem - an Overview by Madabusi Raghunathan](https://www.youtube.com/watch?v=0M6iYaA67Mo) — International Centre for Theoretical Sciences, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài này bạn có thể phát biểu định lý chỉ số Atiyah–Singer ở mức slogan (chỉ số giải tích bằng chỉ số tôpô); giải thích vì sao toán tử elliptic trên đa tạp compact có hạt nhân v…

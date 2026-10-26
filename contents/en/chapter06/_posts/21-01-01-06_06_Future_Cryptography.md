@@ -237,3 +237,9 @@ Full URL bibliography from video research: `research/video-research/future-crypt
 - **Practice:** compare public key sizes and operation counts for a classical ECC scheme vs a lattice KEM using published benchmarks (order-of-magnitude only).
 - **Reading path:** Katz–Lindell core chapters → NIST PQC FAQ → one LWE survey paragraph a day.
 - Maintain a personal threat-model checklist before trusting any “unbreakable” claim.
+
+## Video tham khảo
+
+- **xem trước** — [NIST's Post-Quantum Cryptography Standardization Explained](https://www.youtube.com/watch?v=crPe69NeTdk) — SandboxAQ, English. Watch first. “NIST's Post-Quantum Cryptography Standardization Explained” orients the lesson’s aim: Distinguish symmetric encryption (shared key) from public-key encryption and digital signatures at the protocol-role level.
+- [The next big leap in cryptography: NIST’s post-quantum cryptography standards](https://www.youtube.com/watch?v=YJ00O4gBs0I) — IBM Research, English. A second pass once the main claim is in view: Distinguish symmetric encryption (shared key) from public-key encryption and digital signatures at the protocol-role level.
+- [PQC Standards (Post-Quantum Cryptography Explained)](https://www.youtube.com/watch?v=P9g1CMCu8DI) — Cryptography 101, English. Further depth after the first two, still tied to this lesson: Distinguish symmetric encryption (shared key) from public-key encryption and digital signatures at the protocol-role level.

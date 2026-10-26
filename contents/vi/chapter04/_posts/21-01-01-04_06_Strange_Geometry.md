@@ -203,3 +203,9 @@ Hình học lạ trong chương này (bề mặt không định hướng đượ
 
 Lấy một đối tượng (chai Klein chiếu, đường cong đầy hình vuông, hoặc metric taxi). Viết một đoạn 150 từ: (a) định nghĩa, (b) tính chất phản trực giác, (c) vì sao không mâu thuẫn logic.
 
+
+## Video tham khảo
+
+- **xem trước** — [The Banach–Tarski Paradox](https://www.youtube.com/watch?v=s86-Z-CbaHA) — Vsauce, tiếng Anh. Xem trước. “The Banach–Tarski Paradox” định hướng cho mục tiêu của bài: Mô tả dải Möbius và chai Klein và giải thích không định hướng ở mức sơ cấp.
+- [Unexpected Shapes (Part 1) - Numberphile](https://www.youtube.com/watch?v=wKV0GYvR2X8) — Numberphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Mô tả dải Möbius và chai Klein và giải thích không định hướng ở mức sơ cấp.
+- [An Unexpected Twist on Möbius Strips - Numberphile](https://www.youtube.com/watch?v=izIKV98Awnw) — Numberphile, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Mô tả dải Möbius và chai Klein và giải thích không định hướng ở mức sơ cấp.

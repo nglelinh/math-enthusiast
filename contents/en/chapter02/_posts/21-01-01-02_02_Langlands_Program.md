@@ -304,3 +304,9 @@ Full URL bibliography from video research (including secondary finds): `research
 - Revisit modularity of elliptic curves as another Langlands landmark with a completely different proof culture.  
 - For the ambitious: transfer factors of Langlands–Shelstad as the “dictionary coefficients” next to the lemma.  
 - Note one precise question you still have—good questions are part of mathematical practice.
+
+## Video tham khảo
+
+- **xem trước** — [The Biggest Project in Modern Mathematics](https://www.youtube.com/watch?v=_bJeKUosqoY) — Quanta Magazine, English. Watch first. “The Biggest Project in Modern Mathematics” orients the lesson’s aim: Locate the Fundamental Lemma inside the Langlands program and the trace-formula machine.
+- [The Langlands Program - Numberphile](https://www.youtube.com/watch?v=4dyytPboqvE) — Numberphile, English. A second pass once the main claim is in view: Locate the Fundamental Lemma inside the Langlands program and the trace-formula machine.
+- [Bao Chau Ngo - 1/3 Orbital integrals, moduli spaces and invariant theory](https://www.youtube.com/watch?v=74aq5gIDrFQ) — Institut des Hautes Etudes Scientifiques (IHES), English. Further depth after the first two, still tied to this lesson: Locate the Fundamental Lemma inside the Langlands program and the trace-formula machine.

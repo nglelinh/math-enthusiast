@@ -339,3 +339,9 @@ Danh mục URL đầy đủ (mọi link khi nghiên cứu video): `research/vide
 - So với câu chuyện **hỗ trợ máy tính** (bốn màu) và **công thức chính xác** (xếp cầu Viazovska).  
 - Bước kỹ thuật tiếp theo cho người tham vọng: nguyên lý cực đại tensor của Hamilton, rồi công thức entropy Perelman.  
 - Ghi một câu hỏi chính xác bạn vẫn còn—câu hỏi tốt là một phần của thực hành toán học.
+
+## Video tham khảo
+
+- **xem trước** — [Poincaré Conjecture - Numberphile](https://www.youtube.com/watch?v=GItmC9lxeco) — Numberphile, tiếng Anh. Xem trước. “Poincaré Conjecture - Numberphile” định hướng cho mục tiêu của bài: Phát biểu Poincaré và geometrization bằng ngôn ngữ đời thường và từ vựng tôpô cơ bản.
+- [Ricci Flow - Numberphile](https://www.youtube.com/watch?v=hwOCqA9Xw6A) — Numberphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu Poincaré và geometrization bằng ngôn ngữ đời thường và từ vựng tôpô cơ bản.
+- [Poincare Conjecture and Ricci Flow | A Million Dollar Problem in Topology](https://www.youtube.com/watch?v=PwRl5W-whTs) — Aleph 0, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu Poincaré và geometrization bằng ngôn ngữ đời thường và từ vựng tôpô cơ bản.

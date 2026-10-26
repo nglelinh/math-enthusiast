@@ -151,3 +151,9 @@ Chiều bốn được kỳ vọng khó; rằng giải tích Yang–Mills sẽ b
 
 - Đọc laudation ICM 1986 của Atiyah, rồi Chương 1 Donaldson–Kronheimer; sau bài Uhlenbeck, ghi chú vì sao bubbling là đặc trưng (nó sinh $$\partial\mathcal{M}$$).
 - Gợi ý seminar: một phân loại các đa tạp bốn chiều trơn đơn liên còn cần gì ngoài dạng giao?
+
+## Video tham khảo
+
+- **xem trước** — [Simon Donaldson, Invariants of manifolds and the classification problem](https://www.youtube.com/watch?v=IO0HNEs8oxQ) — Clay Mathematics Institute, tiếng Anh. Xem trước. “Simon Donaldson, Invariants of manifolds and the classification problem” định hướng cho mục tiêu của bài: Giải thích vì sao chiều bốn đặc biệt: mánh Whitney và phẫu thuật chiều cao thất bại, trong khi cắt–dán chiều thấp không đủ.
+- [The Shaw Prize Lecture in Mathematical Sciences 2009 - by Professor Simon K Donaldson](https://www.youtube.com/watch?v=5yhxUCtNRQE) — The Shaw Prize, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Giải thích vì sao chiều bốn đặc biệt: mánh Whitney và phẫu thuật chiều cao thất bại, trong khi cắt–dán chiều thấp không đủ.
+- [Overview of gauge theory and submanifold geometry on G_2 manifolds - Simon Donaldson (2014)](https://www.youtube.com/watch?v=xIqLhsrgcBI) — Graduate Mathematics, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Giải thích vì sao chiều bốn đặc biệt: mánh Whitney và phẫu thuật chiều cao thất bại, trong khi cắt–dán chiều thấp không đủ.

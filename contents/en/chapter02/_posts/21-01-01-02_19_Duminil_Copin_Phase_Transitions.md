@@ -152,3 +152,9 @@ No course video-research pack is attached to this lesson.
 - Read an expository account of random currents before attempting the 3D continuity paper.
 - Seminar A3 option: a one-page brief on *open conformal questions*—full 2D FK conformal invariance; 3D Ising CFT as physics versus mathematics—without awarding those theorems to 2022.
 - If you prefer exact combinatorics, start from the honeycomb connective constant (with Smirnov) and then jump to the IMU’s 3D/4D list so the medal’s emphasis stays visible.
+
+## Video tham khảo
+
+- **xem trước** — [Fields Medal: Hugo Duminil-Copin](https://www.youtube.com/watch?v=5dXulZVstbY) — Simons Foundation, English. Watch first. “Fields Medal: Hugo Duminil-Copin” orients the lesson’s aim: State the IMU 2022 short citation and paraphrase the long citation’s three blocks: 3D Ising-type continuity/sharpness; 4D mean-field / triviality with Aizenman; 2D FK continuity-di…
+- [Hugo DUMINIL-COPIN - Critical phenomena through the lens of the Ising model](https://www.youtube.com/watch?v=jNOffVsULVM) — Institut Fourier, English. A second pass once the main claim is in view: State the IMU 2022 short citation and paraphrase the long citation’s three blocks: 3D Ising-type continuity/sharpness; 4D mean-field / triviality with Aizenman; 2D FK continuity-di…
+- [Lecture: Duminil-Copin | September 29](https://www.youtube.com/watch?v=s3KgdQXjsy8) — Heidelberg Laureate Forum, English. Further depth after the first two, still tied to this lesson: State the IMU 2022 short citation and paraphrase the long citation’s three blocks: 3D Ising-type continuity/sharpness; 4D mean-field / triviality with Aizenman; 2D FK continuity-di…

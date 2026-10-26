@@ -228,3 +228,9 @@ Full URL bibliography from video research (including secondary finds): `research
 - Explore flat surfaces and rational billiards as a sister seminar topic; compare counting periodic trajectories with counting simple geodesics.
 - Compare Mirzakhani’s “moduli as a dynamical arena” with homogeneous dynamics in the [Venkatesh]({{ site.baseurl }}/contents/en/chapter02/02_07_Venkatesh_Number_Theory/) essay—different spaces, shared ergodic philosophy.
 - For LO6 practice, contrast a technical introduction with a memorial profile; keep both genres, but grade yourself on not confusing them.
+
+## Video tham khảo
+
+- **xem trước** — [Maryam Mirzakhani: A Tenacious Explorer of Abstract Surfaces](https://www.youtube.com/watch?v=qNuh4uta8oQ) — Quanta Magazine, English. Watch first. “Maryam Mirzakhani: A Tenacious Explorer of Abstract Surfaces” orients the lesson’s aim: Define, informally, a Riemann surface of genus g\ge 2, its hyperbolic metric, Teichmüller space, and moduli space.
+- [Dynamics on the Moduli Spaces of Curves, I - Maryam Mirzakhani](https://www.youtube.com/watch?v=8Az_W2wv4Zo) — Institute for Advanced Study, English. A second pass once the main claim is in view: Define, informally, a Riemann surface of genus g\ge 2, its hyperbolic metric, Teichmüller space, and moduli space.
+- [Maryam Mirzakhani, Dynamics Moduli Spaces of Curves I](https://www.youtube.com/watch?v=tprlQMClSYQ) — Harvard Mathematics Department, English. Further depth after the first two, still tied to this lesson: Define, informally, a Riemann surface of genus g\ge 2, its hyperbolic metric, Teichmüller space, and moduli space.

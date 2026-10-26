@@ -145,3 +145,9 @@ Intent → action → result → label → next step. Include at least one **rev
 1. Course duality track — Ch.6 lessons 12–17.  
 2. nLab — duality (orientation only).  
 3. Your log is the primary artifact.
+
+## Video tham khảo
+
+- **xem trước** — [Prof. Edward Witten | Duality, the Langlands Correspondence, and the Influence of Michael Atiyah](https://www.youtube.com/watch?v=fqHGe3acpC0) — INI Seminar Room 1, English. Watch first. “Prof. Edward Witten | Duality, the Langlands Correspondence, and the Influence of Micha…” orients the lesson’s aim: Choose one dual pair from the course map and state what is swapped.
+- [AdS/CFT Correspondence, Part 1 - Juan Maldacena](https://www.youtube.com/watch?v=sYqtGXN59uE) — Institute for Advanced Study, English. A second pass once the main claim is in view: Choose one dual pair from the course map and state what is swapped.
+- [Lecture 1: Geometric Langlands and S-duality in N = 4 SYM by Sergei Gukov](https://www.youtube.com/watch?v=bCpVL6flCxo) — International Centre for Theoretical Sciences, English. Further depth after the first two, still tied to this lesson: Choose one dual pair from the course map and state what is swapped.

@@ -229,3 +229,9 @@ Danh mục đầy đủ: `research/video-research/hopcroft-tarjan/references.md`
 - Thực hành: cài Tarjan SCC; so với NetworkX trên đồ thị random.  
 - Đọc: CLRS DFS+SCC → một note planarity → Tarjan union–find analysis sketch.  
 - Tiếp: [Pearl và nhân quả]({{ site.baseurl }}/contents/vi/chapter09/09_11_Pearl_Causality/).
+
+## Video tham khảo
+
+- **xem trước** — [5.2 Articulation Point and Biconnected Components](https://www.youtube.com/watch?v=jFZsDDB0-vo) — Abdul Bari, tiếng Anh. Xem trước. “5.2 Articulation Point and Biconnected Components” định hướng cho mục tiêu của bài: Sau bài, bạn có thể mô tả DFS như quy nạp trên cây đệ quy + cạnh back/forward/cross và giải thích vì sao timestamps cho phép suy cấu trúc; phác thuật toán Tarjan (hoặc Kosaraju) tì…
+- [Lecture: Robert Endre Tarjan | September 19](https://www.youtube.com/watch?v=7vpTTH1_OCo) — Heidelberg Laureate Forum, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài, bạn có thể mô tả DFS như quy nạp trên cây đệ quy + cạnh back/forward/cross và giải thích vì sao timestamps cho phép suy cấu trúc; phác thuật toán Tarjan (hoặc Kosaraju) tì…
+- [Robert Tarjan: My Life with Data Structures #ICBS2025](https://www.youtube.com/watch?v=Iw486e6YKFo) — BIMSA, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài, bạn có thể mô tả DFS như quy nạp trên cây đệ quy + cạnh back/forward/cross và giải thích vì sao timestamps cho phép suy cấu trúc; phác thuật toán Tarjan (hoặc Kosaraju) tì…

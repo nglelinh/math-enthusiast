@@ -163,3 +163,9 @@ No course video-research pack is attached to this lesson.
 - Read a one-lecture account of the Lefschetz trace formula in étale cohomology before attempting Weil I.
 - Seminar A3 option: a one-page “open after Deligne” brief—standard conjectures, Hodge, motives, classical RH—explicitly separating Fields 1978 from Abel 2013.
 - If modular forms are your hook, follow Ramanujan–Petersson into Deligne’s papers and then into Deligne–Serre for weight one; keep the dimensional distinction on the page.
+
+## Video tham khảo
+
+- **xem trước** — [Timothy Gowers: The Weil conjectures explained](https://www.youtube.com/watch?v=PHkYqPX3Je4) — The Abel Prize, English. Watch first. “Timothy Gowers: The Weil conjectures explained” orients the lesson’s aim: State the Weil conjectures at slogan level: the zeta function of a smooth projective variety over a finite field is rational, satisfies a functional equation, and has zeros/poles o…
+- [The Weil Conjectures, from Abel to Deligne - Sophie Morel](https://www.youtube.com/watch?v=iDgtP6ZpR70) — Institute for Advanced Study, English. A second pass once the main claim is in view: State the Weil conjectures at slogan level: the zeta function of a smooth projective variety over a finite field is rational, satisfies a functional equation, and has zeros/poles o…
+- [The Weil conjectures - Lothar Goettsche - 2016](https://www.youtube.com/watch?v=kiQwnXT7j7g) — ICTP Mathematics, English. Further depth after the first two, still tied to this lesson: State the Weil conjectures at slogan level: the zeta function of a smooth projective variety over a finite field is rational, satisfies a functional equation, and has zeros/poles o…

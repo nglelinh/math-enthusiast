@@ -71,3 +71,9 @@ This page does not redo JPEG, simplex, or RSA arithmetic. Deeper PQC algorithms 
 - Rampášek, L., et al. (2022). Recipe for a general, powerful, scalable graph transformer. *NeurIPS*. [arXiv:2205.12454](https://arxiv.org/abs/2205.12454).
 - Kovachki, N., et al. (2023). Neural operator: Learning maps between function spaces with applications to PDEs. *JMLR*, 24(89). [paper](https://jmlr.org/papers/v24/21-1524.html).
 - Karras, T., Aittala, M., Aila, T., & Laine, S. (2022). Elucidating the design space of diffusion-based generative models. *NeurIPS*. [arXiv:2206.00364](https://arxiv.org/abs/2206.00364).
+
+## Video tham khảo
+
+- **xem trước** — [Post Quantum Cryptography - Computerphile](https://www.youtube.com/watch?v=_MoRcYLN-7U) — Computerphile, English. Watch first. “Post Quantum Cryptography - Computerphile” orients the lesson’s aim: After this optional update you should be able to attach one 2022–2026 citation to each of four Chapter 3 migrations—public-key cryptography, graphs, optimization-adjacent scientifi…
+- [An Introduction to Graph Neural Networks: Models and Applications](https://www.youtube.com/watch?v=zCEYiCxrL_0) — Microsoft Research, English. A second pass once the main claim is in view: After this optional update you should be able to attach one 2022–2026 citation to each of four Chapter 3 migrations—public-key cryptography, graphs, optimization-adjacent scientifi…
+- [Fourier Neural Operator (FNO) (Physics Informed Machine Learning)](https://www.youtube.com/watch?v=W8PybqAk6Ik) — Steve Brunton, English. Further depth after the first two, still tied to this lesson: After this optional update you should be able to attach one 2022–2026 citation to each of four Chapter 3 migrations—public-key cryptography, graphs, optimization-adjacent scientifi…

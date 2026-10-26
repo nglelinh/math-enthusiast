@@ -217,3 +217,7 @@ Danh mục đầy đủ: `research/video-research/sullivan-topology/references.m
 - Ghi một hướng mở trong complex dynamics hoặc tôpô hình học vẫn cuốn bạn.  
 - So [Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/).  
 - Tiếp: [Caffarelli]({{ site.baseurl }}/contents/vi/chapter08/08_08_Caffarelli_PDE/).
+
+## Video tham khảo
+
+- **xem trước** — [Dennis Sullivan: Gathering chestnuts of math related to fluid motion](https://www.youtube.com/watch?v=RRMBRiyNcjI) — The Abel Prize, tiếng Anh. Xem trước. “Dennis Sullivan: Gathering chestnuts of math related to fluid motion” định hướng cho mục tiêu của bài: Sau bài, bạn có thể đặt Sullivan qua tôpô đại số, tôpô hình học, và complex dynamics; nêu no wandering domains và wandering Fatou component là gì; giải thích “cấu trúc hình học trê…

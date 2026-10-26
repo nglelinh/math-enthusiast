@@ -217,3 +217,9 @@ List three theorems in TCS that remain interesting even if P = NP (e.g. communic
 - Compare with a related [Fields essay]({{ site.baseurl }}/contents/en/chapter02/02_00_Overview/).  
 - Note one precise open question: P vs NP; stronger derandomization; explicit constructions with optimal parameters.  
 - Next: [Dennis Sullivan]({{ site.baseurl }}/contents/en/chapter08/08_07_Sullivan_Topology/).
+
+## Video tham khảo
+
+- **xem trước** — [The Abel lectures: László Lovász and Avi Wigderson](https://www.youtube.com/watch?v=zqiL57ebP-k) — The Abel Prize, English. Watch first. “The Abel lectures: László Lovász and Avi Wigderson” orients the lesson’s aim: After this lecture you should be able to explain why discrete math/TCS earned an Abel-scale recognition as central modern mathematics; name the Lovász local lemma and its purpose (…
+- [Avi Wigderson & László Lovász - The Abel Prize interview 2021](https://www.youtube.com/watch?v=VAk0rtlKtMA) — The Abel Prize, English. A second pass once the main claim is in view: After this lecture you should be able to explain why discrete math/TCS earned an Abel-scale recognition as central modern mathematics; name the Lovász local lemma and its purpose (…
+- [Interview with László Lovász and Avi Wigderson](https://www.youtube.com/watch?v=J4yssMTZqC4) — The Abel Prize, English. Further depth after the first two, still tied to this lesson: After this lecture you should be able to explain why discrete math/TCS earned an Abel-scale recognition as central modern mathematics; name the Lovász local lemma and its purpose (…

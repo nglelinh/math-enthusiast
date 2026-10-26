@@ -202,3 +202,8 @@ Full URL bibliography from video research (including secondary finds): `research
 ## Further directions
 
 Variational cousins appear in [optimization]({{ site.baseurl }}/contents/en/chapter03/03_07_Optimization_Operations_AI/). Geometric strangeness of surfaces: [Strange geometry]({{ site.baseurl }}/contents/en/chapter04/04_06_Strange_Geometry/). Symmetry constraints on shapes: [Symmetry]({{ site.baseurl }}/contents/en/chapter04/04_04_Symmetry/). Continuum modeling culture: [Navier–Stokes problem map]({{ site.baseurl }}/contents/en/chapter01/01_05_Navier_Stokes/).
+
+## Video tham khảo
+
+- **xem trước** — [How physics solves a math problem (and a 3D graphics problem)](https://www.youtube.com/watch?v=Cvs8iRqG6lg) — Mathemaniac, English. Watch first. “How physics solves a math problem (and a 3D graphics problem)” orients the lesson’s aim: State Plateau’s problem: find a surface of least area with a given boundary curve.
+- [Camillo De Lellis (UZH) Pieces of soap films: boundaries and Plateau's problem](https://www.youtube.com/watch?v=aTS69X-DBiA) — Math UniPD, English. A second pass once the main claim is in view: State Plateau’s problem: find a surface of least area with a given boundary curve.

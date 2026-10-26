@@ -308,3 +308,9 @@ Danh mục URL đầy đủ (mọi link khi nghiên cứu video): `research/vide
 - Bước tham vọng: transfer factor Langlands–Shelstad như “hệ số từ điển” bên cạnh bổ đề.  
 - Ghi một câu hỏi chính xác bạn vẫn còn—câu hỏi tốt cũng là phần của thực hành toán học.  
 - Đọc song song bài [Scholze]({{ site.baseurl }}/contents/vi/chapter02/) để so hai cách hình học bước vào số học.
+
+## Video tham khảo
+
+- **xem trước** — [The Biggest Project in Modern Mathematics](https://www.youtube.com/watch?v=_bJeKUosqoY) — Quanta Magazine, tiếng Anh. Xem trước. “The Biggest Project in Modern Mathematics” định hướng cho mục tiêu của bài: Đặt Bổ đề Cơ bản trong chương trình Langlands và trong máy công thức vết Arthur–Selberg.
+- [The Langlands Program - Numberphile](https://www.youtube.com/watch?v=4dyytPboqvE) — Numberphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Đặt Bổ đề Cơ bản trong chương trình Langlands và trong máy công thức vết Arthur–Selberg.
+- [Bao Chau Ngo - 1/3 Orbital integrals, moduli spaces and invariant theory](https://www.youtube.com/watch?v=74aq5gIDrFQ) — Institut des Hautes Etudes Scientifiques (IHES), tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Đặt Bổ đề Cơ bản trong chương trình Langlands và trong máy công thức vết Arthur–Selberg.

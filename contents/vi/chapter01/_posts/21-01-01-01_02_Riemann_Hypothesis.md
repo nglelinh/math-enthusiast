@@ -395,3 +395,9 @@ Thư mục URL đầy đủ: `research/video-research/Riemann_Hypothesis/referen
 - So văn hóa RH với P vs NP hoặc Kakeya.  
 - Tùy chọn: Quanta → Conrey → đọc lại §§2–5.  
 - Mở rộng: hàm $$L$$ Dirichlet và GRH.
+
+## Video tham khảo
+
+- **xem trước** — [The Riemann Hypothesis, Explained](https://www.youtube.com/watch?v=zlm1aajH6gY) — Quanta Magazine, tiếng Anh. Xem trước. “The Riemann Hypothesis, Explained” định hướng cho mục tiêu của bài: Phát biểu giả thuyết Riemann theo không điểm không tầm thường của \zeta(s) và đường thẳng tới hạn \operatorname{Re}(s)=1/2.
+- [Riemann Hypothesis - Numberphile](https://www.youtube.com/watch?v=d6c6uIyieoo) — Numberphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu giả thuyết Riemann theo không điểm không tầm thường của \zeta(s) và đường thẳng tới hạn \operatorname{Re}(s)=1/2.
+- [The Riemann Hypothesis - Jeff Vaaler (Millennium Prize Problem, Official Introduction) (2001)](https://www.youtube.com/watch?v=Lf3gli_fR2c) — Graduate Mathematics, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu giả thuyết Riemann theo không điểm không tầm thường của \zeta(s) và đường thẳng tới hạn \operatorname{Re}(s)=1/2.

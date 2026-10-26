@@ -271,3 +271,8 @@ Caption transcripts and time-chunk units for pack videos: `research/video-resear
 
 *Figure. Sample still from a pack primary video (see pack for timestamps).*
 
+
+## Video tham khảo
+
+- **xem trước** — [Strange Spheres in Higher Dimensions - Numberphile](https://www.youtube.com/watch?v=mceaM2_zQd8) — Numberphile, English. Watch first. “Strange Spheres in Higher Dimensions - Numberphile” orients the lesson’s aim: Use coordinates to define distance, hyperplanes, and balls in \mathbb{R}^n for general n.
+- [Einstein Lectures: Maryna Viazovska - The sphere packing problem](https://www.youtube.com/watch?v=fH6KNlUJux0) — Universität Bern, English. A second pass once the main claim is in view: Use coordinates to define distance, hyperplanes, and balls in \mathbb{R}^n for general n.

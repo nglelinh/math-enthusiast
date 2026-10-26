@@ -237,3 +237,9 @@ Danh mục URL đầy đủ (mọi link khi nghiên cứu video): `research/vide
 - So với định lý modularity như cầu arithmetic–analytic khác: cùng “cứng hóa” đối tượng, khác ngôn ngữ.
 - Đọc một note ngắn về điểm CM trên đường cong modular để có ví dụ trực quan cho “special points”.
 - Nếu theo Hodge theory: survey period map và variation of Hodge structure ở mức graduate introductory, song song o-minimality—không thay thế nhau.
+
+## Video tham khảo
+
+- **xem trước** — [2026 Fields Medal: Jacob Tsimerman](https://www.youtube.com/watch?v=TAh5tZ8QAzQ) — Simons Foundation, tiếng Anh. Xem trước. “2026 Fields Medal: Jacob Tsimerman” định hướng cho mục tiêu của bài: Phát biểu André–Oort ở mức khẩu hiệu: tập hợp điểm đặc biệt “atypical” trên đa tạp Shimura buộc cấu trúc đại số (dưới-đa tạp đặc biệt).
+- [Jacob Tsimerman - o-minimality and Unlikely Intersections](https://www.youtube.com/watch?v=2N9lZRawi3I) — princetonmathematics, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu André–Oort ở mức khẩu hiệu: tập hợp điểm đặc biệt “atypical” trên đa tạp Shimura buộc cấu trúc đại số (dưới-đa tạp đặc biệt).
+- [Period mappings are definable in the o-minimal structure ℝan,exp - Jacob Tsimerman](https://www.youtube.com/watch?v=6lsOOBPHXRk) — Institute for Advanced Study, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu André–Oort ở mức khẩu hiệu: tập hợp điểm đặc biệt “atypical” trên đa tạp Shimura buộc cấu trúc đại số (dưới-đa tạp đặc biệt).

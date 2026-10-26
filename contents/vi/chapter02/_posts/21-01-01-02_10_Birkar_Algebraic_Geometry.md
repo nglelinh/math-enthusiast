@@ -231,3 +231,8 @@ Danh mục URL đầy đủ (mọi link khi nghiên cứu video): `research/vide
 - Khám phá **singularity MMP** (klt, lc) và **vành chính tắc** trước khi đọc paper nghiên cứu.
 - Nếu quan tâm moduli Fano / K-stability, đó là chương tiếp sau boundedness—đừng nhầm với chính định lý Birkar.
 - Đọc một note expository ngắn về extremal ray và cone theorem để “thấy” tia cực trị trước flip.
+
+## Video tham khảo
+
+- **xem trước** — [Caucher Birkar: An Innovator Who Brings Order to an Infinitude of Equations](https://www.youtube.com/watch?v=1EpMF16ShY0) — Quanta Magazine, tiếng Anh. Xem trước. “Caucher Birkar: An Innovator Who Brings Order to an Infinitude of Equations” định hướng cho mục tiêu của bài: Nêu mục tiêu MMP trong một đoạn: rút gọn birational về mô hình “đơn giản” (mô hình tối thiểu hoặc Mori fiber space).
+- [2018 Fields Medal Recipient Caucher Birkar - Professor, University of Cambridge](https://www.youtube.com/watch?v=CwMvjWL-gos) — WebsEdgeScience, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Nêu mục tiêu MMP trong một đoạn: rút gọn birational về mô hình “đơn giản” (mô hình tối thiểu hoặc Mori fiber space).

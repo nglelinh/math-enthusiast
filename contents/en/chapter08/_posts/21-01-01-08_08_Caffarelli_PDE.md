@@ -260,3 +260,9 @@ Caffarelli also transformed regularity theory for **Monge–Ampère** equations 
 
 Applied CFD codes “solve NS” daily with discretization and modeling. Mathematical open problems concern *exact continuum equations* under precise function-space claims. Keep engineering success and Millennium status in different columns of your essay.
 
+
+## Video tham khảo
+
+- **xem trước** — [Luis Caffarelli: Non-linear and non-local surface structure problems and some of its applications](https://www.youtube.com/watch?v=dVGX6QhO8rU) — The Abel Prize, English. Watch first. “Luis Caffarelli: Non-linear and non-local surface structure problems and some of its ap…” orients the lesson’s aim: After this lecture you should be able to define a free-boundary problem and give a physical example; explain regularity theory’s goal (when solutions and interfaces are smooth); lo…
+- [Luis A. Caffarelli - The Abel Prize Interview 2023](https://www.youtube.com/watch?v=rz3uPOIL9AA) — The Abel Prize, English. A second pass once the main claim is in view: After this lecture you should be able to define a free-boundary problem and give a physical example; explain regularity theory’s goal (when solutions and interfaces are smooth); lo…
+- [Luis A. Caffarelli - the 2023 Abel Prize Laureate](https://www.youtube.com/watch?v=tdUBLu4fHbw) — The Abel Prize, English. Further depth after the first two, still tied to this lesson: After this lecture you should be able to define a free-boundary problem and give a physical example; explain regularity theory’s goal (when solutions and interfaces are smooth); lo…

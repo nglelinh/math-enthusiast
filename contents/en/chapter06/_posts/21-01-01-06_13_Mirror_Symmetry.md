@@ -183,3 +183,9 @@ Transcript status: `research/video-research/mirror-symmetry/TRANSCRIPT_STATUS.md
 5. Hori et al. — *Mirror Symmetry* (Clay monograph)  
 6. Wikipedia — Homological mirror symmetry; SYZ conjecture  
 7. Pack folder: `research/video-research/mirror-symmetry/`  
+
+## Video tham khảo
+
+- **xem trước** — [Edward Witten: Mirror Symmetry & Geometric Langlands (2012)](https://www.youtube.com/watch?v=S02ghGCdNDo) — Graduate Mathematics, English. Watch first. “Edward Witten: Mirror Symmetry & Geometric Langlands (2012)” orients the lesson’s aim: State the physics slogan of mirror symmetry and the mathematical A-model / B-model split.
+- [HMS for local CY manifolds via SYZ | Kwokwai Chan](https://www.youtube.com/watch?v=Kz6Dj8KSFjM) — Harvard CMSA, English. A second pass once the main claim is in view: State the physics slogan of mirror symmetry and the mathematical A-model / B-model split.
+- [Lagrangian fillings what does the sheaf say? | Eric Zaslow](https://www.youtube.com/watch?v=Y3-sw3tjZiU) — Harvard CMSA, English. Further depth after the first two, still tied to this lesson: State the physics slogan of mirror symmetry and the mathematical A-model / B-model split.

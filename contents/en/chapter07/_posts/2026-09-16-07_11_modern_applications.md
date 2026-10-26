@@ -62,3 +62,9 @@ Sphere-packing numerics, prime-gap plots, and randomness-vs-order coin-flip labs
 - Barina, D. (2021). Convergence verification of the Collatz problem. *Journal of Supercomputing*, 77, 2681–2688.
 - Kaplan, C. S. Hat resources: [cs.uwaterloo.ca/~csk/hat](https://cs.uwaterloo.ca/~csk/hat/).
 - Studio: [Iteration]({{ site.baseurl }}/contents/en/chapter07/07_09_Explore_Iteration/).
+
+## Video tham khảo
+
+- **xem trước** — [Discovery of the Aperiodic Monotile - Numberphile](https://www.youtube.com/watch?v=_ZS3Oqg1AX0) — Numberphile, English. Watch first. “Discovery of the Aperiodic Monotile - Numberphile” orients the lesson’s aim: After this optional studio companion you should be able to borrow three 2022–2026 computational instruments—SAT-assisted tiling, neuro-symbolic geometry search, and large-bound Col…
+- [The AI that solved IMO Geometry Problems | Guest video by @Aleph0](https://www.youtube.com/watch?v=4NlrfOl0l8U) — 3Blue1Brown, English. A second pass once the main claim is in view: After this optional studio companion you should be able to borrow three 2022–2026 computational instruments—SAT-assisted tiling, neuro-symbolic geometry search, and large-bound Col…
+- [UNCRACKABLE? The Collatz Conjecture - Numberphile](https://www.youtube.com/watch?v=5mFpVDpKX70) — Numberphile, English. Further depth after the first two, still tied to this lesson: After this optional studio companion you should be able to borrow three 2022–2026 computational instruments—SAT-assisted tiling, neuro-symbolic geometry search, and large-bound Col…

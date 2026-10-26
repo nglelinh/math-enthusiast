@@ -196,3 +196,9 @@ Complete list: `research/video-research/hopcroft-tarjan/references.md`.
 - Compare BFS layering vs DFS nesting as two structural decompositions.  
 - Explore parameterized algorithms for NP-hard graph problems as a sequel to the P-side story.  
 - Next: [Pearl and causality]({{ site.baseurl }}/contents/en/chapter09/09_11_Pearl_Causality/)—from graph algorithms to *causal* graphs.
+
+## Video tham khảo
+
+- **xem trước** — [5.2 Articulation Point and Biconnected Components](https://www.youtube.com/watch?v=jFZsDDB0-vo) — Abdul Bari, English. Watch first. “5.2 Articulation Point and Biconnected Components” orients the lesson’s aim: After this lecture you should be able to explain why Hopcroft–Tarjan represent efficient algorithms and data structures as a Turing-scale contribution; describe DFS as more than a…
+- [Lecture: Robert Endre Tarjan | September 19](https://www.youtube.com/watch?v=7vpTTH1_OCo) — Heidelberg Laureate Forum, English. A second pass once the main claim is in view: After this lecture you should be able to explain why Hopcroft–Tarjan represent efficient algorithms and data structures as a Turing-scale contribution; describe DFS as more than a…
+- [Robert Tarjan: My Life with Data Structures #ICBS2025](https://www.youtube.com/watch?v=Iw486e6YKFo) — BIMSA, English. Further depth after the first two, still tied to this lesson: After this lecture you should be able to explain why Hopcroft–Tarjan represent efficient algorithms and data structures as a Turing-scale contribution; describe DFS as more than a…

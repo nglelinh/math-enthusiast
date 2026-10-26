@@ -200,3 +200,9 @@ Trạng thái transcript: `research/video-research/geometric-langlands-sduality/
 4. Hausel–Thaddeus — https://arxiv.org/abs/math/0205236  
 5. Khóa: [Langlands / Ngô]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/)  
 6. Gói: `research/video-research/geometric-langlands-sduality/`  
+
+## Video tham khảo
+
+- **xem trước** — [Lecture 1: Geometric Langlands and S-duality in N = 4 SYM by Sergei Gukov](https://www.youtube.com/watch?v=bCpVL6flCxo) — International Centre for Theoretical Sciences, tiếng Anh. Xem trước. “Lecture 1: Geometric Langlands and S-duality in N = 4 SYM by Sergei Gukov” định hướng cho mục tiêu của bài: Tách Langlands số học khỏi Langlands hình học (đối tượng và trường nền khác; tinh thần nhóm dual chung).
+- [Gauge Theory, Geometric Langlands, and All That - Edward Witten](https://www.youtube.com/watch?v=8Pkw25J-Bg0) — Viktór, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Tách Langlands số học khỏi Langlands hình học (đối tượng và trường nền khác; tinh thần nhóm dual chung).
+- [Edward Witten: Mirror Symmetry & Geometric Langlands (2012)](https://www.youtube.com/watch?v=S02ghGCdNDo) — Graduate Mathematics, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Tách Langlands số học khỏi Langlands hình học (đối tượng và trường nền khác; tinh thần nhóm dual chung).

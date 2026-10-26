@@ -289,3 +289,9 @@ Danh mục URL đầy đủ (mọi link khi nghiên cứu video): `research/vide
 - Ghi 3 câu hỏi hub này gợi cho danh sách đọc cá nhân; chọn đúng một để đào sâu trong 2 tuần.
 - Nếu theo hướng số học: đọc thêm chương Freiman–Ruzsa sau Green–Tao.
 - Nếu theo hướng giải tích: đọc incidence → Kakeya rời rạc → restriction song song với bài Wang.
+
+## Video tham khảo
+
+- **xem trước** — [g-conjecture - Numberphile](https://www.youtube.com/watch?v=4445Mbw8pYg) — Numberphile, tiếng Anh. Xem trước. “g-conjecture - Numberphile” định hướng cho mục tiêu của bài: Kể năm cầu nối tổ hợp–hình học/giải tích: tổ hợp cộng tính; hình học incidence; expansion/phổ; phương pháp đa thức; regularity/density.
+- [Fields Medal: June Huh](https://www.youtube.com/watch?v=yO8lQWb6TZ4) — Simons Foundation, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Kể năm cầu nối tổ hợp–hình học/giải tích: tổ hợp cộng tính; hình học incidence; expansion/phổ; phương pháp đa thức; regularity/density.
+- [Fields Medals 2022 June Huh](https://www.youtube.com/watch?v=ritFtfoRYmY) — International Mathematical Union, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Kể năm cầu nối tổ hợp–hình học/giải tích: tổ hợp cộng tính; hình học incidence; expansion/phổ; phương pháp đa thức; regularity/density.

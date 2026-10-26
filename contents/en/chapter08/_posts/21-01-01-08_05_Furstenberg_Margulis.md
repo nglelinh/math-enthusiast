@@ -225,3 +225,9 @@ Complete list: `research/video-research/furstenberg-margulis/references.md`.
 - Compare with a related [Fields essay]({{ site.baseurl }}/contents/en/chapter02/02_00_Overview/).  
 - Note one open problem in homogeneous dynamics or additive combinatorics that still resists.  
 - Next: [Lovász & Wigderson]({{ site.baseurl }}/contents/en/chapter08/08_06_Lovasz_Wigderson/).
+
+## Video tham khảo
+
+- **xem trước** — [The Abel lectures: Hillel Furstenberg and Gregory Margulis](https://www.youtube.com/watch?v=2i5UJwKN7os) — The Abel Prize, English. Watch first. “The Abel lectures: Hillel Furstenberg and Gregory Margulis” orients the lesson’s aim: After this lecture you should be able to define ergodic theory as the study of averages along orbits and invariant measures; state one Furstenberg theme (multiple recurrence / stru…
+- [Hillel Furstenberg - The Abel Prize interview 2020](https://www.youtube.com/watch?v=01IdfSRYawE) — The Abel Prize, English. A second pass once the main claim is in view: After this lecture you should be able to define ergodic theory as the study of averages along orbits and invariant measures; state one Furstenberg theme (multiple recurrence / stru…
+- [Gregory Margulis - The Abel Prize interview 2020](https://www.youtube.com/watch?v=FInTu9-MHHU) — The Abel Prize, English. Further depth after the first two, still tied to this lesson: After this lecture you should be able to define ergodic theory as the study of averages along orbits and invariant measures; state one Furstenberg theme (multiple recurrence / stru…

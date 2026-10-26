@@ -166,3 +166,7 @@ The 1994 class also included Bourgain, Lions, and Yoccoz. Zelmanov’s portrait 
 
 - Read a survey page on why large odd exponents make $$B(d,n)$$ infinite (small cancellation), then return to the Lie-ring machine; note that $$B(2,5)$$ remains a famous open bounded case.
 - Seminar prompt: if effective bounds are huge, what is the theorem *for*?
+
+## Video tham khảo
+
+- **xem trước** — [Why Do People Hate Mathematics? Efim Zelmanov (Fields Medal 1994)](https://www.youtube.com/watch?v=Nz3_RzZzuO8) — Tom Rocks Maths, English. Watch first for Zelmanov on mathematical taste around the 1994 medal. This is an interview, not a proof of the restricted Burnside problem developed in the lesson.

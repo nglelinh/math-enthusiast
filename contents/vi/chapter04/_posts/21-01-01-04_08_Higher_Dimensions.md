@@ -232,3 +232,9 @@ Chiến lược sư phạm: chiếu xuống 2D/3D, đếm bậc tự do, theo d�
 
 Tính hoặc tra tỉ số thể tích quả cầu đơn vị chiều $$n$$ và $$n+1$$ cho vài $$n$$; viết nhận xét một đoạn về xu hướng. Nêu một hệ quả cho thuật toán lấy mẫu ngẫu nhiên.
 
+
+## Video tham khảo
+
+- **xem trước** — [Thinking outside the 10-dimensional box](https://www.youtube.com/watch?v=zwAD6dRSVyI) — 3Blue1Brown, tiếng Anh. Xem trước. “Thinking outside the 10-dimensional box” định hướng cho mục tiêu của bài: Dùng tọa độ và chuẩn Euclid trên \mathbb{R}^n tự tin.
+- [Perfect Shapes in Higher Dimensions - Numberphile](https://www.youtube.com/watch?v=2s4TqVAbfz4) — Numberphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Dùng tọa độ và chuẩn Euclid trên \mathbb{R}^n tự tin.
+- [The Puzzling Fourth Dimension (and exotic shapes) - Numberphile](https://www.youtube.com/watch?v=CVOr7f_VALc) — Numberphile, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Dùng tọa độ và chuẩn Euclid trên \mathbb{R}^n tự tin.

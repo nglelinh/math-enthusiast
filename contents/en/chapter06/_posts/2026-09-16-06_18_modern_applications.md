@@ -65,3 +65,9 @@ This page does not redo attention derivations, PAC bounds, or AdS/CFT. Duality d
 - Abramson, J., et al. (2024). Accurate structure prediction of biomolecular interactions with AlphaFold 3. *Nature*, 630, 493–500. [doi:10.1038/s41586-024-07487-w](https://doi.org/10.1038/s41586-024-07487-w).
 - Kovachki, N., et al. (2023). Neural operator. *JMLR*, 24(89). [paper](https://jmlr.org/papers/v24/21-1524.html).
 - NIST. (2024). FIPS 203/204/205. [nist.gov announcement](https://www.nist.gov/news-events/news/2024/08/announcing-approval-three-federal-information-processing-standards-fips).
+
+## Video tham khảo
+
+- **xem trước** — [Chinchilla Explained: Compute-Optimal Massive Language Models](https://www.youtube.com/watch?v=PZXN7jm9IC0) — Edan Meyer, English. Watch for the compute-optimal training tradeoff (Chinchilla): parameters versus tokens. An explainer of the scaling paper, not a primary author lecture.
+- [AlphaFold - The Most Useful Thing AI Has Ever Done](https://www.youtube.com/watch?v=P_fHJIYENdI) — Veritasium, English. A second pass once the main claim is in view: After this optional update you should be able to place four 2022–2026 artifacts—compute-optimal LLM training, AlphaFold 3, neural PDE operators, and standardized lattice KEMs—onto…
+- [Fourier Neural Operator (FNO) (Physics Informed Machine Learning)](https://www.youtube.com/watch?v=W8PybqAk6Ik) — Steve Brunton, English. Further depth after the first two, still tied to this lesson: After this optional update you should be able to place four 2022–2026 artifacts—compute-optimal LLM training, AlphaFold 3, neural PDE operators, and standardized lattice KEMs—onto…
