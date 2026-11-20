@@ -65,6 +65,10 @@ layout: default
 {% endif %}
 
 
+{% if page.chapter == '01' or page.chapter == '03' or page.chapter == '04' or page.chapter == '05' %}
+<script src="{{ site.baseurl }}/public/js/explore-explainers.js"></script>
+{% endif %}
+
 <script src="https://utteranc.es/client.js"
         repo="convex-optimization-for-all/convex-optimization-for-all.github.io"
         issue-term="title"

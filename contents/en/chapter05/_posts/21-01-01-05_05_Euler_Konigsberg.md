@@ -62,6 +62,20 @@ This discard-and-keep step *is* the mathematics. Students who try to solve Köni
 
 ---
 
+### Short video: The seven bridges as a graph
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/konigsberg-bridges_en.mp4"></video>
+</div>
+
+Turn land into dots and bridges into edges, then count the degree of each dot. Four dots of odd degree rule out a walk that crosses every bridge exactly once.
+
+
+### Try it yourself: Walk the bridges
+
+<div class="mex-explainer" data-mex="konigsberg" data-lang="en"></div>
+
+
 ## 3. Degrees and the parity obstruction
 
 The **degree** $$\deg(v)$$ of a vertex $$v$$ is the number of edge ends at $$v$$ (counting multiplicity; loops would contribute two, though Königsberg needs no loops).

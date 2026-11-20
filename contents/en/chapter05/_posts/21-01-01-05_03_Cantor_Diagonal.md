@@ -58,6 +58,15 @@ It is enough to prove that the open unit interval $$(0,1)$$ is uncountable: if $
 
 ---
 
+### Short video: The diagonal on a small table
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/cantor-diagonal_en.mp4"></video>
+</div>
+
+A small version of the diagonal construction: take the diagonal digits, flip each one, and the new sequence differs from every row of the list.
+
+
 ## 3. The diagonal construction
 
 ### Setup

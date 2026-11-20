@@ -80,6 +80,15 @@ Two literacy guards. First, Viazovska’s Fields work is about **continuous** Eu
 
 ---
 
+### Short video: Packing discs in the plane
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/disc-packing-2d_en.mp4"></video>
+</div>
+
+In the plane a square grid covers about 78.5 percent and the honeycomb arrangement about 90.7 percent, the optimal density in two dimensions.
+
+
 ## 3. Lattices, especially $$E_8$$ and Leech
 
 A **lattice** $$\Lambda\subset\mathbb{R}^n$$ is a discrete subgroup spanning $$\mathbb{R}^n$$ (think $$\mathbb{Z}^n$$ after a linear change of variables). The **lattice packing** places balls at lattice points with radius half the minimal nonzero vector length.

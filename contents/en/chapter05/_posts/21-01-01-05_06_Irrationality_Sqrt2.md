@@ -99,6 +99,15 @@ The engine is not decimal expansions; it is **divisibility**.
 
 ---
 
+### Short video: Descent with squares
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/sqrt2-irrational-squares_en.mp4"></video>
+</div>
+
+A picture of infinite descent: if a squared equals twice b squared, two squares of side b cover the square of side a, and the overlap and the gaps give smaller integer sides.
+
+
 ## 5. Infinite descent formulation
 
 One can rephrase without an explicit gcd. Suppose $$p^2=2q^2$$ with positive integers $$p,q$$. Then $$p$$ is even, $$p=2k$$, and $$q^2=2k^2$$, so $$q$$ is even, $$q=2\ell$$, and

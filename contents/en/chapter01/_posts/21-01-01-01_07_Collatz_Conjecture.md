@@ -87,6 +87,20 @@ makes the conjecture $$\operatorname{Col}_{\min}(N)=1$$ for every positive integ
 
 ---
 
+### Short video: An orbit that climbs before it falls
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/collatz-orbit-97_en.mp4"></video>
+</div>
+
+Follow the Collatz orbit of 97: it climbs to 9232 before falling back to 1 after 118 steps. Eventual descent need not look monotonic, and no one has proved it happens for every starting number.
+
+
+### Try it yourself: Trace any Collatz orbit
+
+<div class="mex-explainer" data-mex="collatz" data-lang="en"></div>
+
+
 ## 2. Orbits, stopping time, and total stopping time
 
 Fix a seed $$n$$. Its **orbit** (or trajectory) is the infinite sequence $$n, T(n), T^2(n), \ldots$$. Studying Collatz is largely about understanding these orbits: how high they climb, how long they wander, whether they ever enter a cycle, and whether they diverge to infinity.

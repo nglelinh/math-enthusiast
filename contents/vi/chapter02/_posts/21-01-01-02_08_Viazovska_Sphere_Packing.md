@@ -78,6 +78,15 @@ Hai hàng rào biết đọc. Thứ nhất, công trình Fields của Viazovska 
 
 ---
 
+### Video ngắn: Xếp đĩa tròn trong mặt phẳng
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/disc-packing-2d_vi.mp4"></video>
+</div>
+
+Trong mặt phẳng, lưới ô vuông phủ khoảng 78,5 phần trăm còn cách xếp tổ ong phủ khoảng 90,7 phần trăm, là mật độ tối ưu trong hai chiều.
+
+
 ## 3. Lattice, $$E_8$$ và Leech
 
 **Lattice** $$\Lambda\subset\mathbb{R}^n$$ là nhóm con rời rạc sinh $$\mathbb{R}^n$$ (nghĩ $$\mathbb{Z}^n$$ sau đổi biến tuyến tính). **Xếp lattice** đặt tâm cầu tại điểm lattice với bán kính nửa độ dài vectơ khác không ngắn nhất.

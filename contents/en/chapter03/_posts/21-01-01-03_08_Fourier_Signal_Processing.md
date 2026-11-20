@@ -62,6 +62,20 @@ Coefficients $$\hat f(n)$$ are inner products against pure harmonics. Partial su
 
 ---
 
+### Short video: Building a square wave from sines
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/square-wave-fourier_en.mp4"></video>
+</div>
+
+Adding odd sine waves with shrinking amplitude builds a square wave. The overshoot at the jump (the Gibbs effect) does not disappear when more waves are added.
+
+
+### Try it yourself: Add sine waves yourself
+
+<div class="mex-explainer" data-mex="fourier" data-lang="en"></div>
+
+
 ## 3. Fourier transform: non-periodic signals
 
 On the real line,

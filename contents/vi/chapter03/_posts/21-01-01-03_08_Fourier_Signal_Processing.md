@@ -52,6 +52,20 @@ Tổng riêng là xấp xỉ band-limited. Gibbs gần bước nhảy: cắt t�
 
 ---
 
+### Video ngắn: Dựng sóng vuông từ các sóng sin
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/square-wave-fourier_vi.mp4"></video>
+</div>
+
+Cộng các sóng sin lẻ với biên độ giảm dần sẽ dựng nên sóng vuông. Chỗ vọt lên ở điểm gãy (hiệu ứng Gibbs) không biến mất khi thêm nhiều sóng hơn.
+
+
+### Tự tay thử: Tự cộng các sóng sin
+
+<div class="mex-explainer" data-mex="fourier" data-lang="vi"></div>
+
+
 ## 3. Biến đổi Fourier: tín hiệu không tuần hoàn
 
 $$

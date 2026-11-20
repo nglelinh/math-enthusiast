@@ -93,6 +93,15 @@ $$
 
 ---
 
+### Video ngắn: Descent bằng các hình vuông
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/sqrt2-irrational-squares_vi.mp4"></video>
+</div>
+
+Một bức tranh của descent vô hạn: nếu a bình phương bằng hai lần b bình phương, hai hình vuông cạnh b phủ hình vuông cạnh a, và phần chồng cùng các phần trống cho ra các cạnh nguyên nhỏ hơn.
+
+
 ## 5. Dạng descent vô hạn
 
 Có thể diễn đạt không dùng gcd tường minh. Giả sử $$p^2=2q^2$$ với $$p,q$$ nguyên dương. Thì $$p$$ chẵn, $$p=2k$$, và $$q^2=2k^2$$ nên $$q$$ chẵn, $$q=2\ell$$, và

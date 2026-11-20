@@ -67,6 +67,20 @@ Các phát biểu tương đương nói về việc đạt 1, hoặc về việc
 
 ---
 
+### Video ngắn: Quỹ đạo Collatz của số 97 leo lên 9232 rồi mới rơi về 1 sau 118 bước
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/collatz-orbit-97_vi.mp4"></video>
+</div>
+
+Hãy theo dõi quỹ đạo Collatz của số 97: nó leo lên 9232 rồi mới rơi về 1 sau 118 bước. Sự đi xuống cuối cùng không nhất thiết đơn điệu, và chưa ai chứng minh được điều đó đúng với mọi số bắt đầu.
+
+
+### Tự tay thử: Theo dõi quỹ đạo Collatz bất kỳ
+
+<div class="mex-explainer" data-mex="collatz" data-lang="vi"></div>
+
+
 ## 2. Quỹ đạo, stopping time, và total stopping time
 
 Cố định hạt giống $$n$$. **Quỹ đạo** (trajectory) là dãy vô hạn $$n, T(n), T^2(n),\ldots$$. Nghiên cứu Collatz phần lớn là hiểu các quỹ đạo: leo cao bao nhiêu, lang thang bao lâu, có vào chu trình không, có phân kỳ không.

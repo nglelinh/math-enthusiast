@@ -55,6 +55,20 @@ Bước bỏ-và-giữ *chính là* toán học. Ai cố giải Königsberg bằ
 
 ---
 
+### Video ngắn: Bảy cây cầu như một đồ thị
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/konigsberg-bridges_vi.mp4"></video>
+</div>
+
+Biến vùng đất thành điểm và cây cầu thành cạnh, rồi đếm bậc của mỗi điểm. Bốn điểm bậc lẻ loại trừ một đường đi qua mỗi cầu đúng một lần.
+
+
+### Tự tay thử: Đi qua các cây cầu
+
+<div class="mex-explainer" data-mex="konigsberg" data-lang="vi"></div>
+
+
 ## 3. Bậc và cản trở parity
 
 **Bậc** $$\deg(v)$$ là số đầu mút cạnh tại $$v$$ (đếm bội).

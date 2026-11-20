@@ -46,6 +46,15 @@ Các tập vô hạn đếm được quen thuộc: $$\mathbb{N}$$, $$\mathbb{Z}$
 
 ---
 
+### Video ngắn: Đường chéo trên một bảng nhỏ
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/cantor-diagonal_vi.mp4"></video>
+</div>
+
+Phiên bản thu nhỏ của phép xây dựng đường chéo: lấy các chữ số trên đường chéo, đổi từng chữ số, và dãy mới khác mọi dòng trong danh sách.
+
+
 ## 3. Xây dựng đường chéo
 
 Giả sử, để dẫn đến mâu thuẫn, mọi số trong $$(0,1)$$ xuất hiện trong danh sách $$r_1,r_2,r_3,\ldots$$. Viết
