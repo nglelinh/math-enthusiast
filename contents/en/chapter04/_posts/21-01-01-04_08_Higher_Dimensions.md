@@ -60,6 +60,15 @@ The graph of the hypercube (vertices and edges) is a playground for coding theor
 
 ---
 
+### Short video: Volume of the unit ball by dimension
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/ball-volume-dimensions_en.mp4"></video>
+</div>
+
+The volume of the unit ball peaks in dimension 5 (about 5.26) and then falls toward 0, and it fills a vanishing share of the cube [−1, 1]ⁿ.
+
+
 ## 3. Hyperspheres: volume and surface
 
 The ball and sphere in $$\mathbb{R}^n$$:

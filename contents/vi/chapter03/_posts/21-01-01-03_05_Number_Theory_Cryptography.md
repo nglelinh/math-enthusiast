@@ -99,6 +99,15 @@ Phép màu toán học là **hàm một chiều có cửa sập**: dễ tính, k
 
 ---
 
+### Video ngắn: Trao đổi khóa với p = 23
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/diffie-hellman-mod23_vi.mp4"></video>
+</div>
+
+Các lũy thừa của 5 modulo 23 đi qua mọi số dư từ 1 đến 22 theo thứ tự xáo trộn. An và Bình mỗi người công bố một lũy thừa (8 và 19) mà vẫn cùng đến bí mật 2, còn kẻ nghe lén phải giải một log rời rạc. Với p = 23 việc đó dễ; với kích thước thật thì không.
+
+
 ## 4. Diffie–Hellman và log rời rạc
 
 Tham số công khai: một nhóm (cổ điển: nhóm nhân modulo nguyên tố, hoặc nhóm đường cong elliptic) và generator $$g$$ của một nhóm con lớn cấp nguyên tố.

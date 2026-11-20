@@ -30,6 +30,15 @@ Sau bài học, bạn có thể:
 
 ---
 
+### Video ngắn: Dịch SIR với ba giá trị R₀
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/sir-r0-epidemic_vi.mp4"></video>
+</div>
+
+Cùng một mô hình SIR với R₀ = 0,8; 1,5 và 3, bắt đầu với 3% người nhiễm. Dưới 1 dịch tắt dần; trên 1 dịch tăng tới một đỉnh, và R₀ càng lớn thì đỉnh càng cao, càng sớm và tổng số người nhiễm càng nhiều.
+
+
 ## 1. Quần thể và ngăn: ODE
 
 Logistic:

@@ -48,6 +48,15 @@ $$\lvert 0\rangle,\lvert 1\rangle$$ là cơ sở trực chuẩn của $$\mathbb{
 
 ---
 
+### Video ngắn: Trò chơi CHSH và giới hạn 2
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/chsh-bell-game_vi.mp4"></video>
+</div>
+
+Mọi chiến lược cổ điển cố định đều cho |S| = 2, nên không hỗn hợp nào vượt 2. Với một cặp vướng víu đo ở 0°, 90°, 45° và −45°, lý thuyết lượng tử dự đoán S = 2√2 ≈ 2,83, và các thí nghiệm Bell quan sát thấy vi phạm giới hạn 2.
+
+
 ## 2. Nhiều qubit: vướng víu
 
 Hai qubit sống trong $$\mathbb{C}^2\otimes\mathbb{C}^2\cong\mathbb{C}^4$$. Trạng thái tích phân tích được $$\lvert\psi\rangle\otimes\lvert\phi\rangle$$; trạng thái không viết được như tích (hoặc tổ hợp lồi tích, trường hợp hỗn hợp) là **vướng víu**. Bell

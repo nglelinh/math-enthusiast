@@ -48,6 +48,15 @@ Modern proofs replace segments by thin **δ-tubes** and estimate how small their
 
 ---
 
+### Short video: A needle turning inside a deltoid
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/kakeya-deltoid-needle_en.mp4"></video>
+</div>
+
+A needle of length 1 can turn through 180° inside a deltoid (a three-cusped curve) of area π/8 ≈ 0.39, half the π/4 ≈ 0.79 of the disc swept by spinning the needle about its centre. Besicovitch later showed that the area can be made as small as you like.
+
+
 ## 1. From a spinning needle to a set of directions
 
 Around **1917**, **Sōichi Kakeya** asked—now in formal language—how small a planar region can be if a unit needle can be reversed continuously inside it: the precise form of the “pencil / needle” thought experiment above.

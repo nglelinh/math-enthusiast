@@ -44,6 +44,15 @@ Từ cú sốc đó, người ta hỏi sâu hơn về **hình dạng** và các 
 
 ---
 
+### Video ngắn: Kim quay trong một deltoid
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/kakeya-deltoid-needle_vi.mp4"></video>
+</div>
+
+Một kim dài 1 có thể quay 180° bên trong một deltoid (đường ba mũi nhọn) có diện tích π/8 ≈ 0,39, bằng một nửa π/4 ≈ 0,79 của đĩa quét ra khi quay kim quanh tâm. Sau này Besicovitch chứng minh diện tích có thể nhỏ tùy ý.
+
+
 ## 1. Từ kim quay tới tập hướng
 
 **Kakeya (khoảng 1917):** trong mặt phẳng, miền có diện tích nhỏ thế nào vẫn cho phép đảo (hoặc chứa) một đoạn đơn vị theo đủ hướng—hình thức hóa câu hỏi “cây bút chì / cây kim” ở đầu bài.

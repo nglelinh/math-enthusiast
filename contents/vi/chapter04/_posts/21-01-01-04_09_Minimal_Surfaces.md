@@ -62,6 +62,15 @@ PDE elliptic quasilinear. Nghiệm là đồ thị diện tích nhỏ nhất tro
 
 ---
 
+### Video ngắn: Màng xà phòng giữa hai vòng
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/soap-film-catenoid_vi.mp4"></video>
+</div>
+
+Giữa hai vòng bán kính 1, màng là một catenoid. Khi hai vòng tách ra, diện tích màng tăng: từ khoảng 1,06 bán kính hai đĩa phẳng (diện tích 2π ≈ 6,28) đã có diện tích nhỏ hơn, và quá khoảng 1,33 bán kính thì không còn catenoid nào nên màng vỡ thành hai đĩa.
+
+
 ## 3. Ví dụ cổ điển
 
 **Mặt phẳng.** Cả hai độ cong chính triệt tiêu; mặt phẳng là tối thiểu.

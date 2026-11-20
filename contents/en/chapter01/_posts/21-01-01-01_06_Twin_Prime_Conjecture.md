@@ -61,6 +61,15 @@ There is no known simple variant that forces twins. Adjoining “$$+2$$” break
 
 ---
 
+### Short video: Counting twin primes against the heuristic
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/twin-primes-count_en.mp4"></video>
+</div>
+
+The grid marks the 8 twin prime pairs below 100. The chart compares the actual number of twin pairs up to x (dots) with the Hardy–Littlewood prediction (curve): 8169 against about 8248 at x = 10⁶. A good fit is evidence, not a proof.
+
+
 ## 3. Heuristics: Hardy–Littlewood and the twin prime constant
 
 Primes near $$x$$ have density about $$1/\log x$$ (prime number theorem). If primality of $$n$$ and of $$n+2$$ were independent events with those probabilities, the “probability” that both are prime would be on the order of $$1/(\log n)^2$$. The series

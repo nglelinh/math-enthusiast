@@ -78,6 +78,15 @@ $$
 
 ---
 
+### Video ngắn: Tổng xúc xắc thành hình chuông
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/clt-dice-bell_vi.mp4"></video>
+</div>
+
+Phân phối chính xác của tổng n xúc xắc đều, co giãn về cùng độ rộng, với n = 1, 2, 3, 5, 10 và 30. Một xúc xắc thì đều; tổng của nhiều xúc xắc bám sát đường chuông chuẩn.
+
+
 ## 4. CLT: vì sao chuông xuất hiện
 
 **CLT (không chính thức).** Với i.i.d. phương sai $$\sigma^2$$ hữu hạn,

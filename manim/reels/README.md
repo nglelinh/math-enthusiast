@@ -16,3 +16,22 @@ Output: public/videos/reels/<slug>_<lang>.mp4
 | fourier.py | Fourier | square-wave-fourier |
 | packing.py | Packing | disc-packing-2d |
 | konigsberg.py | Konigsberg | konigsberg-bridges |
+
+## Batch 2 (needs `common_b.py`; same render/compress recipe)
+
+| scene file | class | slug |
+|---|---|---|
+| euler.py | Euler | zeta-euler-product |
+| twins.py | Twins | twin-primes-count |
+| kakeya.py | Kakeya | kakeya-deltoid-needle |
+| clt.py | CLT | clt-dice-bell |
+| dh.py | DH | diffie-hellman-mod23 |
+| hilbert.py | Hilbert | hilbert-curve |
+| ball.py | Ball | ball-volume-dimensions |
+| life.py | Life | life-r-pentomino |
+| catenoid.py | Catenoid | soap-film-catenoid |
+| sir.py | SIR | sir-r0-epidemic |
+| ot.py | OT | optimal-transport-1d |
+| chsh.py | CHSH | chsh-bell-game |
+
+Every scene asserts its numbers before drawing (e.g. twin counts 8/35/205/1224/8169, deltoid area = pi/8 and chords inside the curve, 5 is a primitive root mod 23, R-pentomino has 116 cells at generation 1103, catenoid limits 0.6627 and Goldschmidt 0.528, CHSH = 2 sqrt 2 via the Phi+ state).

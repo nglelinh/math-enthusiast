@@ -40,6 +40,15 @@ The **Klein bottle** is obtained by a more radical identification: a rectangle w
 
 ---
 
+### Short video: The Hilbert curve, order by order
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/hilbert-curve_en.mp4"></video>
+</div>
+
+Order n visits all 4ⁿ cells of a 2ⁿ × 2ⁿ grid in one unbroken path, and each finer order refines the previous one. The length keeps doubling, while the limit curve passes through every point of the square.
+
+
 ## 2. Space-filling curves
 
 Can a continuous path fill a square? **Giuseppe Peano** (1890) and **David Hilbert** constructed continuous surjections

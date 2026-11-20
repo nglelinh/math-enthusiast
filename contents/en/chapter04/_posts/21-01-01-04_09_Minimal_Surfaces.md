@@ -64,6 +64,15 @@ a quasilinear elliptic PDE. Solutions are graphs of least area among nearby grap
 
 ---
 
+### Short video: A soap film between two rings
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/soap-film-catenoid_en.mp4"></video>
+</div>
+
+Between two rings of radius 1 the film is a catenoid. As the rings move apart its area grows: from about 1.06 radii apart two flat discs (area 2π ≈ 6.28) already have less area, and past about 1.33 radii no catenoid exists, so the film pops into two discs.
+
+
 ## 3. Classical examples
 
 **Plane.** Both principal curvatures vanish; the flat plane is minimal (and area-minimizing in obvious ways).

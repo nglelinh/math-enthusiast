@@ -48,6 +48,15 @@ Measurement in the computational basis yields $$0$$ or $$1$$ with probabilities 
 
 ---
 
+### Short video: The CHSH game and the limit 2
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/chsh-bell-game_en.mp4"></video>
+</div>
+
+Any fixed classical strategy gives |S| = 2, so no mixture of strategies exceeds 2. For an entangled pair measured at 0°, 90°, 45° and −45°, quantum theory predicts S = 2√2 ≈ 2.83, and Bell experiments observe violations of the bound 2.
+
+
 ## 2. Many qubits: tensor products and entanglement
 
 Two qubits live in $$\mathbb{C}^2\otimes\mathbb{C}^2 \cong \mathbb{C}^4$$. A product state factors as $$\lvert\psi\rangle\otimes\lvert\phi\rangle$$. States that cannot be written as a single product (or convex combinations of products, in the mixed case) are **entangled**. The Bell state

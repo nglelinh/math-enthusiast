@@ -30,6 +30,15 @@ After this lecture you should be able to:
 
 ---
 
+### Short video: Sorting is optimal on a line
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/optimal-transport-1d_en.mp4"></video>
+</div>
+
+Six sand piles must fill six holes with cost = (distance)². Each time two paths cross, swapping their holes lowers the total cost; when no paths cross, the matching is in sorted order and is the cheapest of all 720 matchings.
+
+
 ## 1. Monge’s problem
 
 Given probability measures $$\mu,\nu$$ on a space $$X$$ (think $$\mathbb{R}^d$$) and a cost $$c(x,y)$$, Monge asks for a transport **map** $$T:X\to X$$ pushing $$\mu$$ forward to $$\nu$$ ($$T_\#\mu=\nu$$) and minimizing

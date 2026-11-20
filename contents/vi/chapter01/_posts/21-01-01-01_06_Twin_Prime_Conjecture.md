@@ -52,6 +52,15 @@ Giả thuyết rộng hơn của **Polignac** dự đoán mọi khoảng chẵn 
 
 ---
 
+### Video ngắn: Đếm cặp sinh đôi so với heuristic
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/twin-primes-count_vi.mp4"></video>
+</div>
+
+Lưới đánh dấu 8 cặp số nguyên tố sinh đôi dưới 100. Biểu đồ so số cặp sinh đôi thật tới x (các chấm) với dự đoán Hardy–Littlewood (đường cong): 8169 so với khoảng 8248 tại x = 10⁶. Khớp tốt là bằng chứng, chưa phải chứng minh.
+
+
 ## 2. Heuristic: vì sao người ta tin
 
 Các số nguyên tố thưa dần xấp xỉ như $$1/\log x$$ (định lý số nguyên tố). Xác suất heuristic rằng cả $$n$$ và $$n+2$$ đều nguyên tố có cỡ $$1/(\log n)^2$$ (sau khi chỉnh hệ số cho ràng buộc modulo nhỏ—Hardy–Littlewood). Chuỗi

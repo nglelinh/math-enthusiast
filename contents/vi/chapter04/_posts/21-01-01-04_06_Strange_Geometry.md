@@ -40,6 +40,15 @@ Lấy dải chữ nhật, xoắn nửa vòng một đầu, dán hai đầu: **d�
 
 ---
 
+### Video ngắn: Đường cong Hilbert, từng bậc
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/hilbert-curve_vi.mp4"></video>
+</div>
+
+Bậc n đi qua cả 4ⁿ ô của lưới 2ⁿ × 2ⁿ trong một đường liền mạch, và mỗi bậc mịn hơn làm mịn bậc trước. Độ dài cứ gấp đôi, còn đường giới hạn đi qua mọi điểm của hình vuông.
+
+
 ## 2. Đường cong lấp đầy không gian
 
 Có đường liên tục lấp hình vuông không? **Peano** (1890) và **Hilbert** dựng toàn ánh liên tục

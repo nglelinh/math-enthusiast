@@ -88,6 +88,15 @@ converges to $$\mu$$ as $$n\to\infty$$ (in probability / almost surely under sta
 
 ---
 
+### Short video: Dice sums turning into a bell
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/clt-dice-bell_en.mp4"></video>
+</div>
+
+The exact distribution of the sum of n fair dice, rescaled to a common width, for n = 1, 2, 3, 5, 10 and 30. One die is flat; the sum of many hugs the normal bell curve.
+
+
 ## 4. Central limit theorem: why bells appear
 
 **Central limit theorem (informal).** For i.i.d. $$X_i$$ with mean $$\mu$$ and finite variance $$\sigma^2>0$$,

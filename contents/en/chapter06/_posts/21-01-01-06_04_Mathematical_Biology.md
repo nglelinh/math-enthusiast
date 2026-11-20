@@ -30,6 +30,15 @@ After this lecture you should be able to:
 
 ---
 
+### Short video: SIR epidemics for three values of R₀
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/sir-r0-epidemic_en.mp4"></video>
+</div>
+
+The same SIR model with R₀ = 0.8, 1.5 and 3, starting with 3% infected. Below 1 the outbreak fades; above 1 it grows to a peak, and a larger R₀ gives a higher, earlier peak and more people infected in total.
+
+
 ## 1. Populations and compartments: the ODE workhorse
 
 The logistic equation

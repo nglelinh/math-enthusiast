@@ -65,6 +65,15 @@ RH ở **tầng chính xác tiếp theo**: sau khi trừ hạng chính, **sai s�
 
 ---
 
+### Video ngắn: Một số, hai cách tính
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/zeta-euler-product_vi.mp4"></video>
+</div>
+
+Cộng 1/n² trên mọi số nguyên n ≤ x và nhân 1/(1 − p⁻²) chỉ trên các số nguyên tố p ≤ x đều tiến tới π²/6 ≈ 1,6449. Đây là đẳng thức Euler (tổng trên số nguyên = tích trên số nguyên tố) tại s = 2.
+
+
 ## 2. Hàm zeta và tích Euler
 
 Với số phức $$s=\sigma+it$$ có phần thực $$\sigma>1$$, đặt

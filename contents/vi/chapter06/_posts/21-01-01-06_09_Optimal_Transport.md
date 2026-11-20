@@ -30,6 +30,15 @@ Sau bài học, bạn có thể:
 
 ---
 
+### Video ngắn: Trên đường thẳng, sắp theo thứ tự là tối ưu
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/optimal-transport-1d_vi.mp4"></video>
+</div>
+
+Sáu đống cát phải lấp sáu cái hố với chi phí = (quãng đường)². Mỗi lần hai đường cắt nhau, đổi chỗ hai hố làm tổng chi phí giảm; khi không còn đường cắt nhau, phép ghép theo thứ tự và rẻ nhất trong cả 720 phép ghép.
+
+
 ## 1. Bài Monge
 
 Cho $$\mu,\nu$$ trên không gian $$X$$ (nghĩ $$\mathbb{R}^d$$) và cost $$c(x,y)$$, tìm map $$T$$ với $$T_\#\mu=\nu$$ tối thiểu

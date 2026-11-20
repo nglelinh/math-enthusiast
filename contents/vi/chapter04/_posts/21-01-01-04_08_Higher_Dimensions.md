@@ -58,6 +58,15 @@ Siêu lập phương đơn vị $$[0,1]^n$$ có $$2^n$$ đỉnh, $$n\cdot 2^{n-1
 
 ---
 
+### Video ngắn: Thể tích quả cầu đơn vị theo số chiều
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/ball-volume-dimensions_vi.mp4"></video>
+</div>
+
+Thể tích quả cầu đơn vị đạt cực đại ở chiều 5 (khoảng 5,26) rồi giảm dần về 0, và chiếm một phần ngày càng biến mất của hình lập phương [−1, 1]ⁿ.
+
+
 ## 3. Siêu cầu: thể tích và diện mặt
 
 Quả cầu và mặt cầu trong $$\mathbb{R}^n$$:
