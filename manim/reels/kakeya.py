@@ -58,7 +58,7 @@ class Kakeya(Scene):
         self.add(ghosts, needle, ends, ang)
         self.play(tk.animate.set_value(np.pi), run_time=9.0, rate_func=smooth)
         self.wait(0.6)
-        circ = DashedVMobject(Circle(radius=Lneedle / 2, color=ORANGE, stroke_width=4).move_to(shift), num_dashes=60)
+        circ = DashedVMobject(Circle(radius=Lneedle / 2, color=ORANGE, stroke_width=4).move_to(shift + RIGHT * r), num_dashes=60)
         t1 = line(TX["disk"], 30, ORANGE, -4.5)
         t2 = line(TX["delt"], 30, MINT, -5.25)
         t3 = line(TX["bes"], 30, SUN, -6.0)

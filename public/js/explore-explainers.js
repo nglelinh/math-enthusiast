@@ -5,6 +5,7 @@
  *   fourier   : Fourier partial sums + Gibbs     (chapter 03)
  *   chaosgame : chaos game on a polygon          (chapter 04, Fractals)
  *   konigsberg: degree counter / bridge walker   (chapter 05)
+ *   batch 2: zeta, twins, kakeya, clt, dh, hilbert, ball, catenoid, chsh, sir, ot (chapters 01, 03, 04, 06)
  * Usage: <div class="mex-explainer" data-mex="collatz" data-lang="en"></div>
  * Each explainer is a no-op when its container is absent.
  */
@@ -471,7 +472,462 @@
         resetWalk(); render();
     }
 
-    var INIT = { collatz: initCollatz, logistic: initLogistic, fourier: initFourier, chaosgame: initChaos, konigsberg: initKonigsberg };
+    /* ================================================== batch 2 explainers */
+    function U(lang) { return function (en, vi) { return lang === 'vi' ? vi : en; }; }
+    function setd(root, o) { for (var k in o) root.setAttribute('data-' + k, o[k]); }
+    function mk(root) { var m = el('p', 'mex-msg'); m.setAttribute('aria-live', 'polite'); root.appendChild(m); return { set: function (txt, cls) { m.className = 'mex-msg ' + (cls || ''); m.textContent = txt; } }; }
+    function txt(ctx, s, x, y, col, al, font) { ctx.fillStyle = col || COL.dim; ctx.textAlign = al || 'left'; ctx.font = font || '11px sans-serif'; ctx.fillText(s, x, y); }
+    function sieve(n) { var s = new Uint8Array(n + 1); s[0] = s[1] = 1; for (var i = 2; i * i <= n; i++) if (!s[i]) for (var j = i * i; j <= n; j += i) s[j] = 1; return s; } /* 1 = composite */
+    function kfmt(n, lang) { return n.toLocaleString(lang === 'vi' ? 'vi-VN' : 'en-US'); }
+
+    /* ---- zeta: sum vs Euler product ---- */
+    function initZeta(root, t, lang) {
+        var tx = U(lang), XM = 300, Z = PI * PI / 6, cs = sieve(XM), S = [0], P = [1], np = [0], s = 0, p = 1, c = 0, x;
+        for (x = 1; x <= XM; x++) { s += 1 / (x * x); if (x > 1 && !cs[x]) { p *= 1 / (1 - 1 / (x * x)); c++; } S.push(s); P.push(p); np.push(c); }
+        shell(root, tx('Sum versus product', 'Tổng và tích cùng một giới hạn'));
+        root.appendChild(el('p', 'mex-note', tx('Blue: add 1/n² over every whole number up to x. Pink: multiply 1/(1 − p⁻²) over the primes p up to x only.', 'Xanh: cộng 1/n² trên mọi số nguyên đến x. Hồng: nhân 1/(1 − p⁻²) chỉ trên các số nguyên tố p đến x.')));
+        var cur = 60, sl = slider('x', 10, XM, 1, cur, function (v) { cur = v; upd(); }, function (v) { return String(v); });
+        root.appendChild(sl.wrap);
+        var cv = canvas(0.7); root.appendChild(cv.c);
+        var st = el('div', 'mex-stats'), sS = stat(tx('sum', 'tổng')), sP = stat(tx('product', 'tích')), sZ = stat('π²/6'), sN = stat(tx('primes used', 'số nguyên tố dùng'));
+        [sS, sP, sZ, sN].forEach(function (q) { st.appendChild(q.box); }); root.appendChild(st);
+        var msg = mk(root);
+        var LO = 1.54, HI = 1.655;
+        cv.draw = function () {
+            if (!cv.ctx) cv.size();
+            var ctx = cv.ctx, W = cv.w, H = cv.h, L = 40, R = 10, T = 12, B = 22, w = W - L - R, h = H - T - B;
+            ctx.clearRect(0, 0, W, H); gridLines(ctx, L, T, w, h, 6, 4);
+            var X = function (i) { return L + w * (i - 10) / (XM - 10); }, Y = function (v) { return T + h - h * (v - LO) / (HI - LO); };
+            ctx.setLineDash([5, 4]); ctx.strokeStyle = COL.sun; ctx.beginPath(); ctx.moveTo(L, Y(Z)); ctx.lineTo(L + w, Y(Z)); ctx.stroke(); ctx.setLineDash([]);
+            txt(ctx, 'π²/6', L + 4, Y(Z) - 4, COL.sun);
+            [[S, COL.sky], [P, COL.pink]].forEach(function (a) {
+                ctx.strokeStyle = a[1]; ctx.lineWidth = 2; ctx.beginPath();
+                for (var i = 10; i <= cur; i++) { if (i === 10) ctx.moveTo(X(i), Y(a[0][i])); else ctx.lineTo(X(i), Y(a[0][i])); } ctx.stroke();
+                ctx.globalAlpha = 0.25; ctx.beginPath(); for (var j = cur; j <= XM; j++) { if (j === cur) ctx.moveTo(X(j), Y(a[0][j])); else ctx.lineTo(X(j), Y(a[0][j])); } ctx.stroke(); ctx.globalAlpha = 1;
+                ctx.fillStyle = a[1]; ctx.beginPath(); ctx.arc(X(cur), Y(a[0][cur]), 5, 0, 2 * PI); ctx.fill();
+            });
+            [1.55, 1.6, 1.65].forEach(function (v) { txt(ctx, fmt(v, 2, lang), L - 4, Y(v) + 4, COL.dim, 'right'); });
+            txt(ctx, '10', L, H - 6, COL.dim, 'center'); txt(ctx, String(XM), L + w, H - 6, COL.dim, 'center'); txt(ctx, 'x', L + w / 2, H - 6, COL.dim, 'center');
+        };
+        function upd() {
+            sS.set(fmt(S[cur], 4, lang)); sP.set(fmt(P[cur], 4, lang)); sZ.set(fmt(Z, 4, lang)); sN.set(np[cur]);
+            setd(root, { x: cur, sum: S[cur].toFixed(4), prod: P[cur].toFixed(4) });
+            msg.set(tx('Up to ' + cur + ': both stay below π²/6 and creep toward it. The sum uses every integer, the product only primes, yet they meet at the same limit (Euler).',
+                'Đến ' + cur + ': cả hai vẫn nhỏ hơn π²/6 và tiến dần tới nó. Tổng dùng mọi số nguyên, tích chỉ dùng số nguyên tố, vậy mà cùng một giới hạn (Euler).'), 'mex-ok');
+            cv.draw();
+        }
+        after(function () { cv.size(); upd(); });
+    }
+
+    /* ---- twin primes: counts vs Hardy-Littlewood ---- */
+    var TWIN = null;
+    function twinData() {
+        if (TWIN) return TWIN;
+        var N = 1000000, cs = sieve(N), cnt = new Int32Array(N + 1), pr = new Float64Array(N + 1), n, C2 = 0.6601618158468696;
+        for (n = 3; n <= N; n++) { cnt[n] = cnt[n - 1] + ((!cs[n] && !cs[n - 2]) ? 1 : 0); }
+        var acc = 0, f = function (u) { return 1 / (Math.log(u) * Math.log(u)); };
+        for (n = 3; n <= N; n++) { acc += (f(n - 1) + f(n)) / 2; pr[n] = 2 * C2 * acc; }
+        TWIN = { cnt: cnt, pr: pr, N: N }; return TWIN;
+    }
+    function initTwins(root, t, lang) {
+        var tx = U(lang), D = twinData();
+        shell(root, tx('Counting twin primes', 'Đếm cặp số nguyên tố sinh đôi'));
+        root.appendChild(el('p', 'mex-note', tx('A twin pair is two primes that differ by 2. Slide x from 100 to 1,000,000 and compare the real count with the Hardy–Littlewood prediction.', 'Cặp sinh đôi là hai số nguyên tố hơn kém nhau 2. Kéo x từ 100 đến 1.000.000 và so số đếm thật với dự đoán Hardy–Littlewood.')));
+        var lv = 3, sl = slider('x', 2, 6, 0.01, lv, function (v) { lv = v; upd(); }, function (v) { return kfmt(Math.round(Math.pow(10, v)), lang); });
+        root.appendChild(sl.wrap);
+        var cv = canvas(0.72); root.appendChild(cv.c);
+        var st = el('div', 'mex-stats'), sA = stat(tx('twin pairs ≤ x', 'cặp sinh đôi ≤ x')), sP = stat(tx('predicted', 'dự đoán')), sR = stat(tx('real ÷ predicted', 'thật ÷ dự đoán'));
+        [sA, sP, sR].forEach(function (q) { st.appendChild(q.box); }); root.appendChild(st);
+        var msg = mk(root);
+        root.appendChild(el('p', 'mex-note', tx('A good fit is evidence, not a proof: nobody has proved there are infinitely many twin primes.', 'Khớp tốt là bằng chứng, chưa phải chứng minh: chưa ai chứng minh có vô hạn cặp sinh đôi.')));
+        cv.draw = function () {
+            if (!cv.ctx) cv.size();
+            var ctx = cv.ctx, W = cv.w, H = cv.h, L = 40, R = 10, T = 12, B = 22, w = W - L - R, h = H - T - B;
+            ctx.clearRect(0, 0, W, H); gridLines(ctx, L, T, w, h, 4, 4);
+            var X = function (v) { return L + w * (v - 2) / 4; }, Y = function (v) { return T + h - h * Math.log10(Math.max(v, 1)) / 4; };
+            var i, lg, x;
+            ctx.strokeStyle = COL.sky; ctx.lineWidth = 2; ctx.beginPath();
+            for (i = 0; i <= 200; i++) { lg = 2 + 4 * i / 200; x = Math.round(Math.pow(10, lg)); if (i === 0) ctx.moveTo(X(lg), Y(D.pr[x])); else ctx.lineTo(X(lg), Y(D.pr[x])); } ctx.stroke();
+            ctx.fillStyle = COL.pink;
+            for (i = 0; i <= 60; i++) { lg = 2 + 4 * i / 60; if (lg > lv) break; x = Math.round(Math.pow(10, lg)); ctx.beginPath(); ctx.arc(X(lg), Y(D.cnt[x]), 2.5, 0, 2 * PI); ctx.fill(); }
+            x = Math.round(Math.pow(10, lv)); ctx.fillStyle = COL.sun; ctx.beginPath(); ctx.arc(X(lv), Y(D.cnt[x]), 6, 0, 2 * PI); ctx.fill();
+            var sup = ['⁰', '¹', '²', '³', '⁴']; for (i = 0; i <= 4; i++) txt(ctx, '10' + sup[i], L - 4, Y(Math.pow(10, i)) + 4, COL.dim, 'right');
+            for (i = 2; i <= 6; i++) txt(ctx, '10' + ['', '', '²', '³', '⁴', '⁵', '⁶'][i], X(i), H - 6, COL.dim, 'center');
+            txt(ctx, tx('real', 'thật'), L + 8, T + 14, COL.pink); txt(ctx, tx('prediction', 'dự đoán'), L + 8, T + 30, COL.sky);
+        };
+        function upd() {
+            var x = Math.round(Math.pow(10, lv)), a = D.cnt[x], p = D.pr[x];
+            sA.set(kfmt(a, lang)); sP.set(kfmt(Math.round(p), lang)); sR.set(fmt(a / p, 3, lang));
+            setd(root, { x: x, count: a, pred: Math.round(p) });
+            msg.set(tx('Up to ' + kfmt(x, lang) + ' there are ' + kfmt(a, lang) + ' twin pairs; the heuristic predicts about ' + kfmt(Math.round(p), lang) + '.', 'Đến ' + kfmt(x, lang) + ' có ' + kfmt(a, lang) + ' cặp sinh đôi; heuristic dự đoán khoảng ' + kfmt(Math.round(p), lang) + '.'), 'mex-ok');
+            cv.draw();
+        }
+        after(function () { cv.size(); upd(); });
+    }
+
+    /* ---- Kakeya: needle in a deltoid ---- */
+    function initKakeya(root, t, lang) {
+        var tx = U(lang), ang = 0, play = null;
+        shell(root, tx('A needle that turns inside a deltoid', 'Chiếc kim quay trong một deltoid'));
+        root.appendChild(el('p', 'mex-note', tx('The needle has length 1 and its two ends always lie on the three-cusped curve. Turn it by hand.', 'Kim dài 1 và hai đầu luôn nằm trên đường ba mũi nhọn. Hãy tự quay kim.')));
+        var sl = slider(tx('Angle turned', 'Góc đã quay'), 0, 180, 1, 0, function (v) { ang = v; upd(); }, function (v) { return Math.round(v) + '°'; });
+        root.appendChild(sl.wrap);
+        var r2 = row(), pb = btn(tx('▶ Turn', '▶ Quay'), 'on', function () {
+            if (play) { stop(); return; }
+            if (ang >= 180) ang = 0; pb.textContent = tx('■ Stop', '■ Dừng');
+            var t0 = performance.now(), a0 = ang;
+            (function fr(ts) { var a = a0 + (ts - t0) / 25; if (a >= 180) { ang = 180; sl.set(180); upd(); stop(); return; } ang = a; sl.set(a); upd(); play = requestAnimationFrame(fr); })(t0);
+        });
+        function stop() { if (play) cancelAnimationFrame(play); play = null; pb.textContent = tx('▶ Turn', '▶ Quay'); }
+        var dcb = document.createElement('input'); dcb.type = 'checkbox'; dcb.checked = true; dcb.id = 'mex-kk-' + Math.random().toString(36).slice(2, 7); dcb.style.cssText = 'width:26px;height:26px;accent-color:#ffd166';
+        var dl = el('label', '', tx('Show the disc you get by spinning in place', 'Hiện đĩa khi quay tại chỗ')); dl.htmlFor = dcb.id; dcb.addEventListener('change', upd);
+        r2.appendChild(pb); r2.appendChild(dcb); r2.appendChild(dl); root.appendChild(r2);
+        var cv = canvas(1); root.appendChild(cv.c);
+        var st = el('div', 'mex-stats'), sD = stat(tx('deltoid area', 'diện tích deltoid')), sC = stat(tx('disc area', 'diện tích đĩa'));
+        st.appendChild(sD.box); st.appendChild(sC.box); root.appendChild(st);
+        var msg = mk(root);
+        function z(tt, r) { return [2 * r * Math.cos(tt) + r * Math.cos(2 * tt), 2 * r * Math.sin(tt) - r * Math.sin(2 * tt)]; }
+        cv.draw = function () {
+            if (!cv.ctx) cv.size();
+            var ctx = cv.ctx, W = cv.w, H = cv.h, r = W * 0.19, cx = W / 2 - 0.75 * r, cy = H / 2, i;
+            var P = function (q) { return [cx + q[0], cy - q[1]]; };
+            ctx.clearRect(0, 0, W, H);
+            ctx.strokeStyle = COL.sky; ctx.lineWidth = 3; ctx.beginPath();
+            for (i = 0; i <= 360; i++) { var p = P(z(i * PI / 180, r)); if (i === 0) ctx.moveTo(p[0], p[1]); else ctx.lineTo(p[0], p[1]); } ctx.stroke();
+            var tt = ang * PI / 180;
+            ctx.strokeStyle = 'rgba(255,209,102,0.28)'; ctx.lineWidth = 1.5;
+            for (var a = 0; a <= ang; a += 3) { var u = a * PI / 180, A = P(z(u, r)), B = P(z(u + PI, r)); ctx.beginPath(); ctx.moveTo(A[0], A[1]); ctx.lineTo(B[0], B[1]); ctx.stroke(); }
+            var E1 = P(z(tt, r)), E2 = P(z(tt + PI, r));
+            if (dcb.checked) { ctx.setLineDash([6, 5]); ctx.strokeStyle = COL.orange; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc((E1[0] + E2[0]) / 2, (E1[1] + E2[1]) / 2, 2 * r, 0, 2 * PI); ctx.stroke(); ctx.setLineDash([]); }
+            ctx.strokeStyle = COL.sun; ctx.lineWidth = 6; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(E1[0], E1[1]); ctx.lineTo(E2[0], E2[1]); ctx.stroke();
+            ctx.fillStyle = COL.pink; [E1, E2].forEach(function (q) { ctx.beginPath(); ctx.arc(q[0], q[1], 6, 0, 2 * PI); ctx.fill(); });
+        };
+        function upd() {
+            sD.set('π/8 ≈ ' + fmt(PI / 8, 3, lang)); sC.set('π/4 ≈ ' + fmt(PI / 4, 3, lang));
+            setd(root, { angle: Math.round(ang) });
+            msg.set(ang >= 179.5 ? tx('After 180° the needle has turned all the way round (it ends pointing the other way) and swept only half the disc area. Besicovitch later showed the area can be made as small as you like.', 'Sau 180° kim đã quay trọn (cuối cùng chỉ ngược hướng) mà chỉ quét một nửa diện tích đĩa. Về sau Besicovitch chứng minh diện tích có thể nhỏ tùy ý.')
+                : tx('The needle slides and turns, but both ends stay on the curve and the whole needle stays inside it.', 'Kim vừa trượt vừa quay, hai đầu luôn nằm trên đường cong và cả kim luôn nằm trong hình.'), 'mex-ok');
+            cv.draw();
+        }
+        after(function () { cv.size(); upd(); });
+    }
+
+    /* ---- CLT: sums of dice ---- */
+    function pmfDice(n) { var out = [1 / 6, 1 / 6, 1 / 6, 1 / 6, 1 / 6, 1 / 6], k, i, j; for (k = 1; k < n; k++) { var nx = new Array(out.length + 5).fill(0); for (i = 0; i < out.length; i++) for (j = 0; j < 6; j++) nx[i + j] += out[i] / 6; out = nx; } return out; }
+    function Phi(z) { var a = Math.abs(z) / Math.SQRT2, tt = 1 / (1 + 0.3275911 * a), y = 1 - (((((1.061405429 * tt - 1.453152027) * tt) + 1.421413741) * tt - 0.284496736) * tt + 0.254829592) * tt * Math.exp(-a * a); return z >= 0 ? 0.5 * (1 + y) : 0.5 * (1 - y); }
+    function initCLT(root, t, lang) {
+        var tx = U(lang), n = 1, sample = null;
+        shell(root, tx('Sum of dice → bell curve', 'Tổng các xúc xắc → đường chuông'));
+        root.appendChild(el('p', 'mex-note', tx('Choose how many fair dice to add. Bars: exact chance of each total, stretched to a common scale. Blue: the normal bell curve.', 'Chọn số xúc xắc đều để cộng. Cột: xác suất chính xác của mỗi tổng, co giãn về cùng thang. Xanh: đường chuông chuẩn.')));
+        var sl = slider(tx('Number of dice n', 'Số xúc xắc n'), 1, 30, 1, 1, function (v) { n = v; sample = null; upd(); }, function (v) { return String(v); });
+        root.appendChild(sl.wrap);
+        var r = row(); r.appendChild(btn(tx('Roll 3,000 times', 'Gieo 3.000 lần'), '', function () { roll(); })); r.appendChild(btn(tx('Clear rolls', 'Xóa lần gieo'), '', function () { sample = null; upd(); })); root.appendChild(r);
+        var cv = canvas(0.62); root.appendChild(cv.c);
+        var st = el('div', 'mex-stats'), sK = stat(tx('largest gap to the bell', 'chênh lệch lớn nhất so với chuông'));
+        st.appendChild(sK.box); root.appendChild(st);
+        var msg = mk(root);
+        function ks() { var p = pmfDice(n), mu = 3.5 * n, sd = Math.sqrt(35 * n / 12), c = 0, m = 0; for (var i = 0; i < p.length; i++) { c += p[i]; m = Math.max(m, Math.abs(c - Phi((n + i + 0.5 - mu) / sd))); } return m; }
+        function roll() { var N = 3000, h = {}, i, j; for (i = 0; i < N; i++) { var s = 0; for (j = 0; j < n; j++) s += 1 + Math.floor(Math.random() * 6); h[s] = (h[s] || 0) + 1; } sample = { h: h, N: N }; upd(); }
+        cv.draw = function () {
+            if (!cv.ctx) cv.size();
+            var ctx = cv.ctx, W = cv.w, H = cv.h, L = 8, B = 20, T = 8, w = W - 2 * L, h = H - T - B;
+            ctx.clearRect(0, 0, W, H);
+            var p = pmfDice(n), mu = 3.5 * n, sd = Math.sqrt(35 * n / 12), X = function (z) { return L + w * (z + 3.5) / 7; }, Y = function (d) { return T + h - h * d / 0.46; };
+            ctx.strokeStyle = '#2a3045'; ctx.beginPath(); ctx.moveTo(L, T + h); ctx.lineTo(L + w, T + h); ctx.stroke();
+            ctx.fillStyle = 'rgba(255,209,102,0.85)'; var i;
+            for (i = 0; i < p.length; i++) { var zc = (n + i - mu) / sd, x0 = X(zc - 0.5 / sd), x1 = X(zc + 0.5 / sd), y = Y(p[i] * sd); if (p[i] * sd < 1e-4) continue; ctx.fillRect(x0 + 0.5, y, Math.max(1, x1 - x0 - 1), T + h - y); }
+            ctx.strokeStyle = COL.sky; ctx.lineWidth = 2.5; ctx.beginPath();
+            for (i = 0; i <= 140; i++) { var zz = -3.5 + 7 * i / 140, d = Math.exp(-zz * zz / 2) / Math.sqrt(2 * PI); if (i === 0) ctx.moveTo(X(zz), Y(d)); else ctx.lineTo(X(zz), Y(d)); } ctx.stroke();
+            if (sample) { ctx.fillStyle = COL.mint; for (var s in sample.h) { var zs = (+s - mu) / sd, dens = sample.h[s] / sample.N * sd; ctx.beginPath(); ctx.arc(X(zs), Y(dens), 3, 0, 2 * PI); ctx.fill(); } }
+            txt(ctx, tx('total (rescaled)', 'tổng (đã co giãn)'), L + w / 2, H - 5, COL.dim, 'center');
+        };
+        function upd() {
+            var k = ks(); sK.set(fmt(k, 3, lang)); setd(root, { n: n, ks: k.toFixed(3), rolled: sample ? 1 : 0 });
+            msg.set(n === 1 ? tx('One die: all six faces are equally likely, so the bars are flat.', 'Một xúc xắc: sáu mặt đều khả năng như nhau nên các cột phẳng.')
+                : n < 6 ? tx('With ' + n + ' dice the middle totals are already most likely.', 'Với ' + n + ' xúc xắc, các tổng ở giữa đã là khả dĩ nhất.')
+                : tx('With ' + n + ' dice the bars hug the bell curve (largest gap ' + fmt(k, 3, lang) + ').', 'Với ' + n + ' xúc xắc, các cột bám sát đường chuông (chênh lệch lớn nhất ' + fmt(k, 3, lang) + ').'), 'mex-ok');
+            cv.draw();
+        }
+        after(function () { cv.size(); upd(); });
+    }
+
+    /* ---- Diffie-Hellman toy ---- */
+    function modpow(b, e, m) { var r = 1; b %= m; while (e > 0) { if (e & 1) r = (r * b) % m; b = (b * b) % m; e >>= 1; } return r; }
+    function primRoot(p) { for (var g = 2; g < p; g++) { var ok = true, seen = 1, x = g; for (var k = 1; k < p - 1; k++) { if (x === 1) { ok = false; break; } x = (x * g) % p; } if (ok && x === 1) return g; } return 2; }
+    function initDH(root, t, lang) {
+        var tx = U(lang), p = 23, g = 5, a = 6, b = 15;
+        shell(root, tx('Diffie–Hellman with small numbers', 'Diffie–Hellman với số nhỏ'));
+        root.appendChild(el('p', 'mex-note', tx('Alice and Bob keep a and b secret and publish g^a and g^b (mod p). Pick a prime p, then choose their secrets.', 'An và Bình giữ bí mật a và b, công bố g^a và g^b (mod p). Chọn số nguyên tố p rồi chọn bí mật của họ.')));
+        var rp = row(), pbtn = {};
+        [23, 101, 1009].forEach(function (q) { pbtn[q] = btn('p = ' + q, q === 23 ? 'on' : '', function () { setP(q); }); rp.appendChild(pbtn[q]); }); root.appendChild(rp);
+        var sa = slider(tx('Alice secret a', 'Bí mật của An a'), 2, 21, 1, a, function (v) { a = v; upd(); }, function (v) { return String(v); });
+        var sb = slider(tx('Bob secret b', 'Bí mật của Bình b'), 2, 21, 1, b, function (v) { b = v; upd(); }, function (v) { return String(v); });
+        root.appendChild(sa.wrap); root.appendChild(sb.wrap);
+        var st = el('div', 'mex-stats'), sg = stat('g'), sA = stat(tx('Alice sends', 'An gửi')), sB = stat(tx('Bob sends', 'Bình gửi')), kA = stat(tx('Alice key', 'Khóa của An')), kB = stat(tx('Bob key', 'Khóa của Bình')), sT = stat(tx('Eve’s tries', 'Số lần thử của kẻ nghe lén'));
+        [sg, sA, sB, kA, kB, sT].forEach(function (q) { st.appendChild(q.box); }); root.appendChild(st);
+        var msg = mk(root);
+        function setP(q) {
+            p = q; g = primRoot(p); Object.keys(pbtn).forEach(function (k) { pbtn[k].className = (+k === p) ? 'on' : ''; });
+            [sa, sb].forEach(function (s) { s.input.max = p - 2; });
+            a = Math.min(a, p - 2); b = Math.min(b, p - 2); if (p === 101) { a = 37; b = 58; } if (p === 1009) { a = 411; b = 702; } if (p === 23) { a = 6; b = 15; }
+            sa.set(a); sb.set(b); upd();
+        }
+        function upd() {
+            var A = modpow(g, a, p), B = modpow(g, b, p), K1 = modpow(B, a, p), K2 = modpow(A, b, p), tries = 0, x = 1;
+            do { x = (x * g) % p; tries++; } while (x !== A && tries < p);
+            sg.set(g); sA.set(A); sB.set(B); kA.set(K1); kB.set(K2); sT.set(tries);
+            setd(root, { p: p, g: g, a: a, b: b, senta: A, sentb: B, key: K1, match: K1 === K2 ? 1 : 0, tries: tries });
+            msg.set(tx('Both get the same key ' + K1 + '. Eve sees only p, g, ' + A + ' and ' + B + '; here she finds a by trying powers of g, which took ' + tries + ' tries. With p of 2,000 bits that search is hopeless.', 'Cả hai có cùng khóa ' + K1 + '. Kẻ nghe lén chỉ thấy p, g, ' + A + ' và ' + B + '; ở đây hắn tìm a bằng cách thử các lũy thừa của g, mất ' + tries + ' lần. Với p dài 2.000 bit thì cách thử này vô vọng.'), 'mex-ok');
+        }
+        setP(23);
+    }
+
+    /* ---- Hilbert curve ---- */
+    function d2xy(n, d) { var x = 0, y = 0, tt = d, s = 1, rx, ry, tmp; while (s < n) { rx = 1 & (tt >> 1); ry = 1 & (tt ^ rx); if (ry === 0) { if (rx === 1) { x = s - 1 - x; y = s - 1 - y; } tmp = x; x = y; y = tmp; } x += s * rx; y += s * ry; tt >>= 2; s <<= 1; } return [x, y]; }
+    function xy2d(n, x, y) { var d = 0, s, rx, ry, tmp; for (s = n >> 1; s > 0; s >>= 1) { rx = (x & s) > 0 ? 1 : 0; ry = (y & s) > 0 ? 1 : 0; d += s * s * ((3 * rx) ^ ry); if (ry === 0) { if (rx === 1) { x = s - 1 - x; y = s - 1 - y; } tmp = x; x = y; y = tmp; } } return d; }
+    function initHilbert(root, t, lang) {
+        var tx = U(lang), k = 3, pos = 0;
+        shell(root, tx('Hilbert curve explorer', 'Khám phá đường cong Hilbert'));
+        root.appendChild(el('p', 'mex-note', tx('Raise the order, then slide along the curve or tap a cell to see where it sits on the path.', 'Tăng bậc, rồi kéo dọc đường cong hoặc chạm vào một ô để xem nó nằm ở đâu trên đường đi.')));
+        var so = slider(tx('Order', 'Bậc'), 1, 6, 1, k, function (v) { k = v; pos = Math.min(pos, Math.pow(4, k) - 1); sp.input.max = Math.pow(4, k) - 1; sp.set(pos); upd(); }, function (v) { return String(v); });
+        var sp = slider(tx('Position along the curve', 'Vị trí dọc đường cong'), 0, 63, 1, 0, function (v) { pos = v; upd(); }, function (v) { return String(v); });
+        root.appendChild(so.wrap); root.appendChild(sp.wrap);
+        var cv = canvas(1); root.appendChild(cv.c);
+        var st = el('div', 'mex-stats'), sC = stat(tx('cells', 'số ô')), sL = stat(tx('length (side = 1)', 'độ dài (cạnh = 1)')), sX = stat(tx('this cell', 'ô này'));
+        [sC, sL, sX].forEach(function (q) { st.appendChild(q.box); }); root.appendChild(st);
+        var msg = mk(root);
+        function geom() { var W = cv.w, m = 8, n = Math.pow(2, k), s = (W - 2 * m) / n; return { m: m, n: n, s: s }; }
+        cv.c.addEventListener('pointerdown', function (e) { var r = cv.c.getBoundingClientRect(), G = geom(), px = (e.clientX - r.left) * cv.w / r.width, py = (e.clientY - r.top) * cv.h / r.height; var cx = Math.floor((px - G.m) / G.s), cy = G.n - 1 - Math.floor((py - G.m) / G.s); if (cx >= 0 && cy >= 0 && cx < G.n && cy < G.n) { pos = xy2d(G.n, cx, cy); sp.set(pos); upd(); } });
+        cv.draw = function () {
+            if (!cv.ctx) cv.size();
+            var ctx = cv.ctx, W = cv.w, H = cv.h, G = geom(), N = G.n * G.n, i, p, q;
+            ctx.clearRect(0, 0, W, H);
+            var C = function (xy) { return [G.m + (xy[0] + 0.5) * G.s, H - G.m - (xy[1] + 0.5) * G.s]; };
+            if (k <= 4) { ctx.strokeStyle = '#1f2433'; ctx.lineWidth = 1; for (i = 0; i <= G.n; i++) { ctx.beginPath(); ctx.moveTo(G.m + i * G.s, G.m); ctx.lineTo(G.m + i * G.s, H - G.m); ctx.moveTo(G.m, G.m + i * G.s); ctx.lineTo(W - G.m, G.m + i * G.s); ctx.stroke(); } }
+            ctx.lineWidth = k <= 3 ? 3.5 : k <= 5 ? 2 : 1.2; ctx.lineCap = 'round';
+            p = C(d2xy(G.n, 0));
+            for (i = 1; i < N; i++) { q = C(d2xy(G.n, i)); ctx.strokeStyle = 'hsl(' + Math.round(200 - 200 * i / N) + ',85%,62%)'; ctx.beginPath(); ctx.moveTo(p[0], p[1]); ctx.lineTo(q[0], q[1]); ctx.stroke(); p = q; }
+            var cxy = d2xy(G.n, pos), c0 = C(cxy);
+            ctx.fillStyle = 'rgba(255,255,255,0.9)'; ctx.beginPath(); ctx.arc(c0[0], c0[1], Math.max(4, G.s * 0.28), 0, 2 * PI); ctx.fill();
+            ctx.strokeStyle = '#fff'; ctx.lineWidth = 2; ctx.strokeRect(G.m + cxy[0] * G.s, H - G.m - (cxy[1] + 1) * G.s, G.s, G.s);
+        };
+        function upd() {
+            var N = Math.pow(4, k), xy = d2xy(Math.pow(2, k), pos);
+            sC.set(kfmt(N, lang)); sL.set(fmt((N - 1) / Math.pow(2, k), 2, lang)); sX.set(pos + ' → (' + xy[0] + ',' + xy[1] + ')');
+            setd(root, { order: k, cells: N, pos: pos, x: xy[0], y: xy[1] });
+            msg.set(tx('Order ' + k + ' visits all ' + kfmt(N, lang) + ' cells in one unbroken path, and consecutive cells are always neighbours. The length keeps roughly doubling with each order.', 'Bậc ' + k + ' đi qua cả ' + kfmt(N, lang) + ' ô trong một đường liền mạch, và hai ô liên tiếp luôn kề nhau. Độ dài gần như gấp đôi sau mỗi bậc.'), 'mex-ok');
+            cv.draw();
+        }
+        after(function () { cv.size(); sp.input.max = 63; upd(); });
+    }
+
+    /* ---- ball volume ---- */
+    function ballV(n) { var v = n % 2 ? 2 : PI, i = n % 2 ? 3 : 4; if (n === 1) return 2; if (n === 2) return PI; for (; i <= n; i += 2) v *= 2 * PI / i; return v; }
+    function initBall(root, t, lang) {
+        var tx = U(lang), n = 3;
+        shell(root, tx('Volume of the unit ball', 'Thể tích quả cầu đơn vị'));
+        root.appendChild(el('p', 'mex-note', tx('Slide the dimension n. The cube [−1, 1]ⁿ always has volume 2ⁿ and just contains the ball.', 'Kéo số chiều n. Hình lập phương [−1, 1]ⁿ luôn có thể tích 2ⁿ và vừa chứa quả cầu.')));
+        var sl = slider(tx('Dimension n', 'Số chiều n'), 1, 30, 1, n, function (v) { n = v; upd(); }, function (v) { return String(v); });
+        root.appendChild(sl.wrap);
+        var cv = canvas(0.55); root.appendChild(cv.c);
+        var st = el('div', 'mex-stats'), sV = stat(tx('ball volume', 'thể tích quả cầu')), sF = stat(tx('share of the cube', 'tỉ lệ so với hình lập phương')), sD = stat(tx('corner distance', 'khoảng cách tới đỉnh'));
+        [sV, sF, sD].forEach(function (q) { st.appendChild(q.box); }); root.appendChild(st);
+        var msg = mk(root);
+        cv.draw = function () {
+            if (!cv.ctx) cv.size();
+            var ctx = cv.ctx, W = cv.w, H = cv.h, L = 28, R = 6, T = 8, B = 20, w = W - L - R, h = H - T - B, i;
+            ctx.clearRect(0, 0, W, H); gridLines(ctx, L, T, w, h, 6, 3);
+            var bw = w / 30;
+            for (i = 1; i <= 30; i++) { var v = ballV(i), hh = h * v / 6; ctx.fillStyle = i === n ? COL.sun : (i <= 5 ? COL.sky : COL.pink); ctx.fillRect(L + (i - 1) * bw + 1, T + h - hh, bw - 2, hh); }
+            [0, 2, 4, 6].forEach(function (v) { txt(ctx, String(v), L - 4, T + h - h * v / 6 + 4, COL.dim, 'right'); });
+            [1, 5, 10, 15, 20, 25, 30].forEach(function (v) { txt(ctx, String(v), L + (v - 0.5) * bw, H - 6, COL.dim, 'center'); });
+        };
+        function upd() {
+            var v = ballV(n), f = v / Math.pow(2, n);
+            sV.set(v >= 0.01 ? fmt(v, 3, lang) : v.toExponential(2).replace('e-', '·10⁻').replace('.', lang === 'vi' ? ',' : '.'));
+            sF.set(f >= 0.001 ? fmt(f * 100, 2, lang) + ' %' : f.toExponential(1).replace('e-', '·10⁻').replace('.', lang === 'vi' ? ',' : '.'));
+            sD.set('√' + n + ' ≈ ' + fmt(Math.sqrt(n), 2, lang));
+            setd(root, { n: n, vol: v.toFixed(4) });
+            msg.set(n < 5 ? tx('Still growing: each extra dimension adds more room than the ball loses.', 'Vẫn đang tăng: mỗi chiều thêm cho quả cầu nhiều chỗ hơn là nó mất.')
+                : n === 5 ? tx('The peak: the unit ball is largest in dimension 5 (about 5.26).', 'Đỉnh: quả cầu đơn vị lớn nhất ở chiều 5 (khoảng 5,26).')
+                : tx('Past the peak it shrinks toward 0, while the cube corners sit √n away from the centre: the ball misses almost the whole cube.', 'Qua đỉnh nó co về 0, còn các đỉnh hình lập phương cách tâm √n: quả cầu bỏ sót gần như cả hình lập phương.'), 'mex-ok');
+            cv.draw();
+        }
+        after(function () { cv.size(); upd(); });
+    }
+
+    /* ---- catenoid ---- */
+    function initCatenoid(root, t, lang) {
+        var tx = U(lang), d = 0.5;
+        var hf = function (a) { return a * Math.acosh(1 / a); }, lo = 1e-3, hi = 1, i;
+        for (i = 0; i < 200; i++) { var m1 = lo + (hi - lo) / 3, m2 = hi - (hi - lo) / 3; if (hf(m1) < hf(m2)) lo = m1; else hi = m2; }
+        var AC = (lo + hi) / 2, HC = hf(AC);
+        var aOf = function (h) { var l = AC, r = 1, mid; for (var j = 0; j < 80; j++) { mid = (l + r) / 2; if (hf(mid) > h) l = mid; else r = mid; } return (l + r) / 2; };
+        var area = function (h) { var a = aOf(h); return PI * (2 * a * h + a * a * Math.sinh(2 * h / a)); };
+        var l2 = 0.01, r2 = HC; for (i = 0; i < 80; i++) { var md = (l2 + r2) / 2; if (area(md) < 2 * PI) l2 = md; else r2 = md; }
+        var HG = (l2 + r2) / 2;
+        shell(root, tx('A soap film between two rings', 'Màng xà phòng giữa hai vòng'));
+        root.appendChild(el('p', 'mex-note', tx('Both rings have radius 1. Pull them apart and watch the film.', 'Hai vòng đều có bán kính 1. Kéo chúng ra xa và quan sát màng.')));
+        var sl = slider(tx('Distance between rings', 'Khoảng cách hai vòng'), 0.05, 1.45, 0.01, d, function (v) { d = v; upd(); }, function (v) { return fmt(v, 2, lang); });
+        root.appendChild(sl.wrap);
+        var cv = canvas(0.75); root.appendChild(cv.c);
+        var st = el('div', 'mex-stats'), sF = stat(tx('film area', 'diện tích màng')), sT = stat(tx('two flat discs', 'hai đĩa phẳng'));
+        st.appendChild(sF.box); st.appendChild(sT.box); root.appendChild(st);
+        var msg = mk(root);
+        cv.draw = function () {
+            if (!cv.ctx) cv.size();
+            var ctx = cv.ctx, W = cv.w, H = cv.h, S = Math.min(W * 0.34, H * 0.5), cx = W / 2, cy = H / 2, h = d / 2, broken = h > HC, j;
+            ctx.clearRect(0, 0, W, H);
+            var P = function (r, z) { return [cx + r * S, cy - z * S]; };
+            ctx.strokeStyle = COL.dim; ctx.lineWidth = 3; [h, -h].forEach(function (z) { var A = P(-1.12, z), B = P(1.12, z); ctx.beginPath(); ctx.moveTo(A[0], A[1]); ctx.lineTo(B[0], B[1]); ctx.stroke(); });
+            if (!broken) {
+                var a = aOf(h), R = [], Lf = [];
+                for (j = 0; j <= 60; j++) { var z = -h + 2 * h * j / 60; R.push(P(a * Math.cosh(z / a), z)); Lf.push(P(-a * Math.cosh(z / a), z)); }
+                ctx.fillStyle = 'rgba(76,201,240,0.28)'; ctx.beginPath(); R.forEach(function (q, k) { if (k) ctx.lineTo(q[0], q[1]); else ctx.moveTo(q[0], q[1]); }); Lf.slice().reverse().forEach(function (q) { ctx.lineTo(q[0], q[1]); }); ctx.closePath(); ctx.fill();
+                ctx.strokeStyle = COL.sky; ctx.lineWidth = 3; [R, Lf].forEach(function (c) { ctx.beginPath(); c.forEach(function (q, k) { if (k) ctx.lineTo(q[0], q[1]); else ctx.moveTo(q[0], q[1]); }); ctx.stroke(); });
+            } else { ctx.strokeStyle = COL.sky; ctx.lineWidth = 6; [h, -h].forEach(function (z) { var A = P(-1, z), B = P(1, z); ctx.beginPath(); ctx.moveTo(A[0], A[1]); ctx.lineTo(B[0], B[1]); ctx.stroke(); }); }
+            ctx.fillStyle = COL.sun; [h, -h].forEach(function (z) { [-1, 1].forEach(function (s) { var q = P(s, z); ctx.beginPath(); ctx.arc(q[0], q[1], 5, 0, 2 * PI); ctx.fill(); }); });
+        };
+        function upd() {
+            var h = d / 2, st_, A;
+            if (h > HC) { st_ = 'broken'; A = null; } else { A = area(h); st_ = A < 2 * PI ? 'catenoid' : 'weak'; }
+            sF.set(A === null ? '—' : fmt(A, 2, lang)); sT.set(fmt(2 * PI, 2, lang));
+            setd(root, { d: d.toFixed(2), state: st_, area: A === null ? 'none' : A.toFixed(2) });
+            msg.set(st_ === 'catenoid' ? tx('The film is a catenoid and has less area than two flat discs would.', 'Màng là một catenoid và có diện tích nhỏ hơn hai đĩa phẳng.')
+                : st_ === 'weak' ? tx('The film still stands, but two flat discs would now have less area (from about ' + fmt(2 * HG, 2, lang) + ').', 'Màng vẫn đứng, nhưng hai đĩa phẳng giờ có diện tích nhỏ hơn (từ khoảng ' + fmt(2 * HG, 2, lang) + ').')
+                : tx('Too far apart (beyond about ' + fmt(2 * HC, 2, lang) + '): no catenoid fits between the rings, so the film pops into two discs.', 'Quá xa (vượt khoảng ' + fmt(2 * HC, 2, lang) + '): không catenoid nào nằm giữa hai vòng, màng vỡ thành hai đĩa.'), st_ === 'broken' ? 'mex-bad' : st_ === 'weak' ? 'mex-warn' : 'mex-ok');
+            cv.draw();
+        }
+        after(function () { cv.size(); upd(); });
+    }
+
+    /* ---- CHSH ---- */
+    function initCHSH(root, t, lang) {
+        var tx = U(lang), A = [0, 90, 45, -45];
+        shell(root, tx('The CHSH game', 'Trò chơi CHSH'));
+        root.appendChild(el('p', 'mex-note', tx('S = E(a₀,b₀) + E(a₀,b₁) + E(a₁,b₀) − E(a₁,b₁). Any fixed classical strategy gives |S| = 2, so no mixture beats 2. For an entangled pair, quantum theory predicts E = cos(angle difference).', 'S = E(a₀,b₀) + E(a₀,b₁) + E(a₁,b₀) − E(a₁,b₁). Mọi chiến lược cổ điển cố định cho |S| = 2, nên không hỗn hợp nào vượt 2. Với cặp vướng víu, lý thuyết lượng tử dự đoán E = cos(hiệu góc).')));
+        var names = ['a₀', 'a₁', 'b₀', 'b₁'], sls = [];
+        names.forEach(function (nm, i) { var s = slider(tx('Angle ', 'Góc ') + nm + (i < 2 ? tx(' (Alice)', ' (An)') : tx(' (Bob)', ' (Bình)')), -180, 180, 1, A[i], function (v) { A[i] = v; upd(); }, function (v) { return Math.round(v) + '°'; }); sls.push(s); root.appendChild(s.wrap); });
+        var r = row(); r.appendChild(btn(tx('Best angles', 'Góc tốt nhất'), 'on', function () { A = [0, 90, 45, -45]; sync(); })); r.appendChild(btn(tx('All equal', 'Cùng một góc'), '', function () { A = [0, 0, 0, 0]; sync(); })); r.appendChild(btn(tx('Random', 'Ngẫu nhiên'), '', function () { A = A.map(function () { return Math.round(Math.random() * 360 - 180); }); sync(); })); root.appendChild(r);
+        var cv = canvas(0.62); root.appendChild(cv.c);
+        var st = el('div', 'mex-stats'), sS = stat('S'); st.appendChild(sS.box); root.appendChild(st);
+        var msg = mk(root);
+        function sync() { sls.forEach(function (s, i) { s.set(A[i]); }); upd(); }
+        var E = function (x, y) { return Math.cos((x - y) * PI / 180); };
+        function val() { return E(A[0], A[2]) + E(A[0], A[3]) + E(A[1], A[2]) - E(A[1], A[3]); }
+        cv.draw = function () {
+            if (!cv.ctx) cv.size();
+            var ctx = cv.ctx, W = cv.w, H = cv.h, R = Math.min(H * 0.42, W * 0.22), cx = W * 0.27, cy = H * 0.5;
+            ctx.clearRect(0, 0, W, H);
+            ctx.strokeStyle = COL.dim; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(cx, cy, R, 0, 2 * PI); ctx.stroke();
+            A.forEach(function (a, i) { var c = i < 2 ? COL.sky : COL.pink, x = cx + R * Math.cos(a * PI / 180), y = cy - R * Math.sin(a * PI / 180); ctx.strokeStyle = c; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(cx, cy); ctx.lineTo(x, y); ctx.stroke(); ctx.fillStyle = c; ctx.beginPath(); ctx.arc(x, y, 5, 0, 2 * PI); ctx.fill(); txt(ctx, names[i], cx + (R + 16) * Math.cos(a * PI / 180), cy - (R + 16) * Math.sin(a * PI / 180) + 4, c, 'center', '13px sans-serif'); });
+            var s = val(), bx = W * 0.58, bw = W * 0.38, sx = function (v) { return bx + bw * v / 3; }, by = cy - 14;
+            ctx.fillStyle = '#1d2130'; ctx.fillRect(bx, by, bw, 28);
+            ctx.fillStyle = Math.abs(s) > 2 + 1e-9 ? COL.mint : COL.sky; ctx.fillRect(bx, by, bw * Math.min(3, Math.abs(s)) / 3, 28);
+            ctx.strokeStyle = COL.orange; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(sx(2), by - 8); ctx.lineTo(sx(2), by + 36); ctx.stroke();
+            txt(ctx, '2', sx(2), by + 52, COL.orange, 'center', '12px sans-serif'); txt(ctx, '|S|', bx, by - 12, COL.dim, 'left', '12px sans-serif'); txt(ctx, '3', bx + bw, by + 52, COL.dim, 'right', '12px sans-serif');
+            txt(ctx, tx('classical limit', 'giới hạn cổ điển'), sx(2), by + 68, COL.orange, 'center', '11px sans-serif');
+        };
+        function upd() {
+            var s = val(); sS.set(fmt(s, 2, lang)); setd(root, { s: s.toFixed(2) });
+            msg.set(Math.abs(s) > 2 + 1e-9 ? tx('|S| = ' + fmt(Math.abs(s), 2, lang) + ' is above 2: beyond every classical strategy. The most quantum theory allows is 2√2 ≈ 2.83.', '|S| = ' + fmt(Math.abs(s), 2, lang) + ' vượt 2: hơn mọi chiến lược cổ điển. Lý thuyết lượng tử cho phép tối đa 2√2 ≈ 2,83.')
+                : tx('|S| = ' + fmt(Math.abs(s), 2, lang) + ': a classical strategy could do this well. Try “Best angles”.', '|S| = ' + fmt(Math.abs(s), 2, lang) + ': một chiến lược cổ điển cũng đạt được. Thử “Góc tốt nhất”.'), Math.abs(s) > 2 + 1e-9 ? 'mex-ok' : 'mex-warn');
+            cv.draw();
+        }
+        after(function () { cv.size(); upd(); });
+    }
+
+    /* ---- SIR ---- */
+    function sirRun(R0, i0) {
+        var s = 1 - i0, i = i0, dt = 0.02, steps = 2000, out = { t: [], S: [], I: [], R: [] }, pk = i0, pt = 0, k;
+        var f = function (s, i) { return [-R0 * s * i, R0 * s * i - i]; };
+        for (k = 0; k <= steps; k++) {
+            if (k % 5 === 0) { out.t.push(k * dt); out.S.push(s); out.I.push(i); out.R.push(1 - s - i); }
+            if (i > pk) { pk = i; pt = k * dt; }
+            var a = f(s, i), b = f(s + dt / 2 * a[0], i + dt / 2 * a[1]), c = f(s + dt / 2 * b[0], i + dt / 2 * b[1]), d = f(s + dt * c[0], i + dt * c[1]);
+            s += dt / 6 * (a[0] + 2 * b[0] + 2 * c[0] + d[0]); i += dt / 6 * (a[1] + 2 * b[1] + 2 * c[1] + d[1]);
+        }
+        out.peak = pk; out.tpeak = pt; out.total = 1 - s; return out;
+    }
+    function initSIR(root, t, lang) {
+        var tx = U(lang), R0 = 2, i0 = 3;
+        shell(root, tx('SIR epidemic', 'Dịch SIR'));
+        root.appendChild(el('p', 'mex-note', tx('Time is measured in infectious periods. R₀ is how many people one case infects at the start.', 'Thời gian tính bằng số kỳ lây nhiễm. R₀ là số người một ca bệnh lây lúc đầu.')));
+        var s1 = slider('R₀', 0.5, 4, 0.1, R0, function (v) { R0 = v; upd(); }, function (v) { return fmt(v, 1, lang); });
+        var s2 = slider(tx('Initially infected', 'Nhiễm lúc đầu'), 1, 10, 1, i0, function (v) { i0 = v; upd(); }, function (v) { return Math.round(v) + ' %'; });
+        root.appendChild(s1.wrap); root.appendChild(s2.wrap);
+        var cv = canvas(0.62); root.appendChild(cv.c);
+        var st = el('div', 'mex-stats'), sP = stat(tx('peak infected', 'đỉnh số ca')), sT = stat(tx('time of peak', 'thời điểm đỉnh')), sF = stat(tx('ever infected', 'tổng số từng nhiễm'));
+        [sP, sT, sF].forEach(function (q) { st.appendChild(q.box); }); root.appendChild(st);
+        var msg = mk(root), run = null;
+        cv.draw = function () {
+            if (!cv.ctx) cv.size();
+            var ctx = cv.ctx, W = cv.w, H = cv.h, L = 34, Rr = 8, T = 10, B = 22, w = W - L - Rr, h = H - T - B, k;
+            ctx.clearRect(0, 0, W, H); gridLines(ctx, L, T, w, h, 4, 4);
+            [[run.S, COL.sky], [run.R, COL.mint], [run.I, COL.pink]].forEach(function (c) { ctx.strokeStyle = c[1]; ctx.lineWidth = 2.5; ctx.beginPath(); for (k = 0; k < run.t.length; k++) { var x = L + w * run.t[k] / 40, y = T + h - h * c[0][k]; if (k === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y); } ctx.stroke(); });
+            [0, 0.5, 1].forEach(function (v) { txt(ctx, Math.round(v * 100) + '%', L - 4, T + h - h * v + 4, COL.dim, 'right'); });
+            [0, 10, 20, 30, 40].forEach(function (v) { txt(ctx, String(v), L + w * v / 40, H - 6, COL.dim, 'center'); });
+            txt(ctx, tx('susceptible', 'dễ nhiễm'), L + 6, T + 14, COL.sky); txt(ctx, tx('infected', 'đang nhiễm'), L + 6, T + 28, COL.pink); txt(ctx, tx('recovered', 'đã khỏi'), L + 6, T + 42, COL.mint);
+        };
+        function upd() {
+            run = sirRun(R0, i0 / 100);
+            sP.set(fmt(run.peak * 100, 1, lang) + ' %'); sT.set(fmt(run.tpeak, 1, lang)); sF.set(fmt(run.total * 100, 0, lang) + ' %');
+            setd(root, { r0: R0.toFixed(1), peak: (run.peak * 100).toFixed(1), total: (run.total * 100).toFixed(0) });
+            msg.set(R0 <= 1.0001 ? tx('R₀ at most 1: each case infects fewer than one other, so the outbreak fades away.', 'R₀ không quá 1: mỗi ca lây chưa tới một người khác nên dịch tắt dần.')
+                : tx('R₀ above 1: the outbreak grows to a peak of ' + fmt(run.peak * 100, 1, lang) + ' % and in the end ' + fmt(run.total * 100, 0, lang) + ' % have been infected.', 'R₀ trên 1: dịch tăng tới đỉnh ' + fmt(run.peak * 100, 1, lang) + ' % và cuối cùng ' + fmt(run.total * 100, 0, lang) + ' % đã từng nhiễm.'), R0 <= 1.0001 ? 'mex-ok' : 'mex-warn');
+            cv.draw();
+        }
+        after(function () { cv.size(); upd(); });
+    }
+
+    /* ---- optimal transport on a line ---- */
+    function initOT(root, t, lang) {
+        var tx = U(lang), SRC = [0.6, 1.9, 3.1, 4.6, 6.4, 8.3], DST = [1.2, 2.7, 4.0, 5.5, 7.2, 9.1], sg = [2, 0, 3, 1, 5, 4], sel = -1;
+        shell(root, tx('Matching sand piles to holes', 'Ghép đống cát với hố'));
+        root.appendChild(el('p', 'mex-note', tx('Each pile goes into one hole; the cost of a move is (distance)². Tap two piles to swap their holes.', 'Mỗi đống cát vào một hố; chi phí mỗi lần chuyển là (quãng đường)². Chạm hai đống cát để đổi hố của chúng.')));
+        var cv = canvas(0.6); root.appendChild(cv.c);
+        var r = row(); r.appendChild(btn(tx('Shuffle', 'Xáo trộn'), '', function () { for (var i = 5; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), q = sg[i]; sg[i] = sg[j]; sg[j] = q; } sel = -1; upd(); })); r.appendChild(btn(tx('Sort', 'Sắp xếp'), '', function () { sg = [0, 1, 2, 3, 4, 5]; sel = -1; upd(); })); root.appendChild(r);
+        var st = el('div', 'mex-stats'), sC = stat(tx('your cost', 'chi phí của bạn')), sB = stat(tx('cheapest possible', 'rẻ nhất có thể')), sX = stat(tx('crossings', 'chỗ cắt nhau'));
+        [sC, sB, sX].forEach(function (q) { st.appendChild(q.box); }); root.appendChild(st);
+        var msg = mk(root), last = null;
+        var cost = function (p) { var c = 0; for (var i = 0; i < 6; i++) c += (SRC[i] - DST[p[i]]) * (SRC[i] - DST[p[i]]); return c; };
+        var xs = function (v) { return 14 + (cv.w - 28) * v / 9.8; };
+        var YT = function () { return cv.h * 0.2; }, YB = function () { return cv.h * 0.8; };
+        cv.c.addEventListener('pointerdown', function (e) {
+            var rc = cv.c.getBoundingClientRect(), px = (e.clientX - rc.left) * cv.w / rc.width, py = (e.clientY - rc.top) * cv.h / rc.height, best = -1, bd = 1e9;
+            for (var i = 0; i < 6; i++) { var d = Math.abs(px - xs(SRC[i])) + Math.abs(py - YT()) * 0.5; if (d < bd) { bd = d; best = i; } }
+            if (bd > 40) return;
+            if (sel < 0) { sel = best; upd(); }
+            else if (sel === best) { sel = -1; upd(); }
+            else { var before = cost(sg), q = sg[sel]; sg[sel] = sg[best]; sg[best] = q; sel = -1; var after_ = cost(sg); last = after_ < before - 1e-9 ? 'down' : after_ > before + 1e-9 ? 'up' : 'same'; upd(); }
+        });
+        cv.draw = function () {
+            if (!cv.ctx) cv.size();
+            var ctx = cv.ctx, W = cv.w, H = cv.h, i;
+            ctx.clearRect(0, 0, W, H);
+            ctx.strokeStyle = '#2a3045'; ctx.lineWidth = 2; [YT(), YB()].forEach(function (y) { ctx.beginPath(); ctx.moveTo(10, y); ctx.lineTo(W - 10, y); ctx.stroke(); });
+            for (i = 0; i < 6; i++) { ctx.strokeStyle = sg[i] === i ? COL.mint : COL.sun; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(xs(SRC[i]), YT()); ctx.lineTo(xs(DST[sg[i]]), YB()); ctx.stroke(); }
+            for (i = 0; i < 6; i++) { var x = xs(SRC[i]), y = YT(); ctx.fillStyle = i === sel ? COL.sun : COL.sky; ctx.beginPath(); ctx.moveTo(x, y - 14); ctx.lineTo(x - 11, y + 8); ctx.lineTo(x + 11, y + 8); ctx.closePath(); ctx.fill(); if (i === sel) { ctx.strokeStyle = '#fff'; ctx.lineWidth = 2; ctx.stroke(); } }
+            for (i = 0; i < 6; i++) { ctx.fillStyle = COL.pink; ctx.beginPath(); ctx.arc(xs(DST[i]), YB(), 9, 0, 2 * PI); ctx.fill(); }
+            txt(ctx, tx('sand', 'cát'), 10, YT() - 22, COL.sky); txt(ctx, tx('holes', 'hố'), 10, YB() + 26, COL.pink);
+        };
+        function upd() {
+            var c = cost(sg), best = cost([0, 1, 2, 3, 4, 5]), cr = 0, i, j;
+            for (i = 0; i < 6; i++) for (j = i + 1; j < 6; j++) if (sg[i] > sg[j]) cr++;
+            sC.set(fmt(c, 1, lang)); sB.set(fmt(best, 1, lang)); sX.set(cr);
+            setd(root, { cost: c.toFixed(1), best: best.toFixed(1), cross: cr, sel: sel });
+            msg.set(sel >= 0 ? tx('Now tap another pile to swap holes with it.', 'Giờ chạm một đống khác để đổi hố với nó.')
+                : cr === 0 ? tx('No paths cross: this matching is in sorted order, and no other matching is cheaper.', 'Không đường nào cắt nhau: phép ghép này theo thứ tự và không phép ghép nào rẻ hơn.')
+                : last === 'down' ? tx('Cheaper! Swapping two crossing paths lowers the cost.', 'Rẻ hơn! Đổi hai đường cắt nhau làm chi phí giảm.')
+                : last === 'up' ? tx('More expensive: that swap made the paths cross more.', 'Đắt hơn: lần đổi đó làm các đường cắt nhau nhiều hơn.')
+                : tx('Tap a pile, then another pile, to swap their holes.', 'Chạm một đống rồi một đống khác để đổi hố.'), cr === 0 ? 'mex-ok' : 'mex-warn');
+            cv.draw();
+        }
+        after(function () { cv.size(); upd(); });
+    }
+
+    var INIT = { collatz: initCollatz, logistic: initLogistic, fourier: initFourier, chaosgame: initChaos, konigsberg: initKonigsberg,
+        zeta: initZeta, twins: initTwins, kakeya: initKakeya, clt: initCLT, dh: initDH, hilbert: initHilbert, ball: initBall, catenoid: initCatenoid, chsh: initCHSH, sir: initSIR, ot: initOT };
     function initAll() {
         var nodes = document.querySelectorAll('.mex-explainer');
         if (!nodes.length) return;
