@@ -54,7 +54,12 @@ Modern proofs replace segments by thin **δ-tubes** and estimate how small their
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/kakeya-deltoid-needle_en.mp4"></video>
 </div>
 
-A needle of length 1 can turn through 180° inside a deltoid (a three-cusped curve) of area π/8 ≈ 0.39, half the π/4 ≈ 0.79 of the disc swept by spinning the needle about its centre. Besicovitch later showed that the area can be made as small as you like.
+A needle of length 1 can turn through 180° inside a deltoid (a three-cusped curve) of area $$\pi/8 \approx 0.39$$, half the $$\pi/4 \approx 0.79$$ of the disc swept by spinning the needle about its centre. Besicovitch later showed that the area can be made as small as you like.
+
+
+### Try it yourself: Turn the needle inside the deltoid
+
+<div class="mex-explainer" data-mex="kakeya" data-lang="en"></div>
 
 
 ## 1. From a spinning needle to a set of directions

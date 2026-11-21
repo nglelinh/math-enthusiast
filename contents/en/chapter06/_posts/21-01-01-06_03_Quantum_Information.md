@@ -54,7 +54,12 @@ Measurement in the computational basis yields $$0$$ or $$1$$ with probabilities 
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/chsh-bell-game_en.mp4"></video>
 </div>
 
-Any fixed classical strategy gives |S| = 2, so no mixture of strategies exceeds 2. For an entangled pair measured at 0°, 90°, 45° and −45°, quantum theory predicts S = 2√2 ≈ 2.83, and Bell experiments observe violations of the bound 2.
+Any fixed classical strategy gives $$|S| = 2$$, so no mixture of strategies exceeds 2. For an entangled pair measured at 0°, 90°, 45° and −45°, quantum theory predicts $$S = 2\sqrt{2} \approx 2.83$$, and Bell experiments observe violations of the bound 2.
+
+
+### Try it yourself: Play with the CHSH angles
+
+<div class="mex-explainer" data-mex="chsh" data-lang="en"></div>
 
 
 ## 2. Many qubits: tensor products and entanglement

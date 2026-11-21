@@ -105,7 +105,12 @@ The mathematical miracle is a **trapdoor one-way function**: easy to compute, ha
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/diffie-hellman-mod23_en.mp4"></video>
 </div>
 
-Powers of 5 modulo 23 visit every residue 1 to 22 in a scrambled order. Alice and Bob each publish one power (8 and 19) and still reach the same secret 2, while an eavesdropper has to solve a discrete logarithm. With p = 23 that is easy; with real sizes it is not.
+Powers of 5 modulo 23 visit every residue 1 to 22 in a scrambled order. Alice and Bob each publish one power (8 and 19) and still reach the same secret 2, while an eavesdropper has to solve a discrete logarithm. With $$p = 23$$ that is easy; with real sizes it is not.
+
+
+### Try it yourself: Run a key exchange
+
+<div class="mex-explainer" data-mex="dh" data-lang="en"></div>
 
 
 ## 4. Diffie–Hellman and discrete logarithms

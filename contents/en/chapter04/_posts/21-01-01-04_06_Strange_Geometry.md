@@ -46,7 +46,12 @@ The **Klein bottle** is obtained by a more radical identification: a rectangle w
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/hilbert-curve_en.mp4"></video>
 </div>
 
-Order n visits all 4ⁿ cells of a 2ⁿ × 2ⁿ grid in one unbroken path, and each finer order refines the previous one. The length keeps doubling, while the limit curve passes through every point of the square.
+Order $$n$$ visits all $$4^n$$ cells of a $$2^n \times 2^n$$ grid in one unbroken path, and each finer order refines the previous one. The length keeps doubling, while the limit curve passes through every point of the square.
+
+
+### Try it yourself: Explore the Hilbert curve
+
+<div class="mex-explainer" data-mex="hilbert" data-lang="en"></div>
 
 
 ## 2. Space-filling curves

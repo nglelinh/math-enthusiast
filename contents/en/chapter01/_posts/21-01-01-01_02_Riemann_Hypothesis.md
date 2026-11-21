@@ -77,7 +77,12 @@ That is already a triumph. RH is about the **next level of precision**: once you
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/zeta-euler-product_en.mp4"></video>
 </div>
 
-Adding 1/n² over all integers n ≤ x and multiplying 1/(1 − p⁻²) over only the primes p ≤ x both climb toward π²/6 ≈ 1.6449. This is Euler's identity (sum over integers = product over primes) at s = 2.
+Adding $$1/n^2$$ over all integers $$n \le x$$ and multiplying $$1/(1-p^{-2})$$ over only the primes $$p \le x$$ both climb toward $$\pi^2/6 \approx 1.6449$$. This is Euler's identity (sum over integers = product over primes) at $$s=2$$.
+
+
+### Try it yourself: Add and multiply: the same limit
+
+<div class="mex-explainer" data-mex="zeta" data-lang="en"></div>
 
 
 ## 2. The zeta function and the Euler product

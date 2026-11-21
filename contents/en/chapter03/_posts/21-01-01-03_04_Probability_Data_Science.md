@@ -94,7 +94,12 @@ converges to $$\mu$$ as $$n\to\infty$$ (in probability / almost surely under sta
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/clt-dice-bell_en.mp4"></video>
 </div>
 
-The exact distribution of the sum of n fair dice, rescaled to a common width, for n = 1, 2, 3, 5, 10 and 30. One die is flat; the sum of many hugs the normal bell curve.
+The exact distribution of the sum of $$n$$ fair dice, rescaled to a common width, for $$n = 1, 2, 3, 5, 10, 30$$. One die is flat; the sum of many hugs the normal bell curve.
+
+
+### Try it yourself: Add dice and watch the bell
+
+<div class="mex-explainer" data-mex="clt" data-lang="en"></div>
 
 
 ## 4. Central limit theorem: why bells appear

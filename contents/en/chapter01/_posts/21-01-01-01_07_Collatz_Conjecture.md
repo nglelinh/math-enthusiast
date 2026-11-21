@@ -69,7 +69,7 @@ $$
 4 \to 2 \to 1 \to 4 \to \cdots
 $$
 
-(equivalently, once it hits $$1$$, the next steps are $$1\to 4\to 2\to 1$$ under the same map). Another famous seed is $$27$$, which climbs into the hundreds before eventually descending to $$1$$—a reminder that “eventual descent” need not look monotonic.
+(equivalently, once it hits $$1$$, the next steps are $$1\to 4\to 2\to 1$$ under the same map). Another famous seed is $$27$$, which climbs above nine thousand before eventually descending to $$1$$—a reminder that “eventual descent” need not look monotonic.
 
 **Collatz conjecture.** Every positive integer eventually reaches the cycle $$4\to 2\to 1$$.
 

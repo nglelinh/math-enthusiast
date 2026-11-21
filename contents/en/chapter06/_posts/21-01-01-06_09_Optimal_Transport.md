@@ -36,7 +36,12 @@ After this lecture you should be able to:
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/optimal-transport-1d_en.mp4"></video>
 </div>
 
-Six sand piles must fill six holes with cost = (distance)². Each time two paths cross, swapping their holes lowers the total cost; when no paths cross, the matching is in sorted order and is the cheapest of all 720 matchings.
+Six sand piles must fill six holes with cost = $$(\text{distance})^2$$. Each time two paths cross, swapping their holes lowers the total cost; when no paths cross, the matching is in sorted order and is the cheapest of all 720 matchings.
+
+
+### Try it yourself: Match piles to holes
+
+<div class="mex-explainer" data-mex="ot" data-lang="en"></div>
 
 
 ## 1. Monge’s problem

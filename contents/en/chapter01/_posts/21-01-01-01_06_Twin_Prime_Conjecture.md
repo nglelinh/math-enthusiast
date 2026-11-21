@@ -67,7 +67,12 @@ There is no known simple variant that forces twins. Adjoining “$$+2$$” break
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/twin-primes-count_en.mp4"></video>
 </div>
 
-The grid marks the 8 twin prime pairs below 100. The chart compares the actual number of twin pairs up to x (dots) with the Hardy–Littlewood prediction (curve): 8169 against about 8248 at x = 10⁶. A good fit is evidence, not a proof.
+The grid marks the 8 twin prime pairs below 100. The chart compares the actual number of twin pairs up to $$x$$ (dots) with the Hardy–Littlewood prediction (curve): 8169 against about 8248 at $$x = 10^6$$. A good fit is evidence, not a proof.
+
+
+### Try it yourself: Count twin primes yourself
+
+<div class="mex-explainer" data-mex="twins" data-lang="en"></div>
 
 
 ## 3. Heuristics: Hardy–Littlewood and the twin prime constant
