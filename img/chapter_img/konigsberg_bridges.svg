@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img" aria-labelledby="t d">
+  <title id="t">Königsberg bridge graph</title>
+  <desc id="d">Four vertices A, B, C, D for the land masses and seven edges for the bridges: A-B twice, B-C twice, A-D, B-D, C-D.</desc>
+  <rect width="480" height="340" rx="14" fill="#f7f8fb" stroke="#d5d9e2"/>
+  <g fill="none" stroke="#3b4a6b" stroke-width="4" stroke-linecap="round">
+    <path d="M240 60 C 205 110 205 150 240 200"/>
+    <path d="M240 60 C 275 110 275 150 240 200"/>
+    <path d="M240 200 C 205 235 205 265 240 290" transform="translate(0 0)"/>
+    <path d="M240 200 C 275 235 275 265 240 290"/>
+    <path d="M240 60 C 330 70 390 110 400 170"/>
+    <path d="M240 200 L 400 170"/>
+    <path d="M240 290 C 330 280 390 240 400 170"/>
+  </g>
+  <g stroke="#3b4a6b" stroke-width="3">
+    <circle cx="240" cy="60" r="22" fill="#ffd166"/>
+    <circle cx="240" cy="200" r="22" fill="#ef6f9a"/>
+    <circle cx="240" cy="290" r="22" fill="#7fd6a4"/>
+    <circle cx="400" cy="170" r="22" fill="#6fc3f7"/>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1c2540" text-anchor="middle">
+    <text x="240" y="68">A</text><text x="240" y="208">B</text><text x="240" y="298">C</text><text x="400" y="178">D</text>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#5a6580" text-anchor="middle">
+    <text x="90" y="170">deg A=3 · B=5 · C=3 · D=3</text>
+  </g>
+</svg>
