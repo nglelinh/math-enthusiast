@@ -9,31 +9,31 @@ categories:
 - chapter07
 ---
 
-Đây là **studio cờ đầu** Mục 7 cho portfolio khám phá seminar (**A5** / **LO5**). Bạn **không** chứng minh giả thuyết Collatz. Bạn **thiết kế thí nghiệm**, **giữ log nghiên cứu**, và **báo cáo điều đã học**—kể cả thất bại, ngõ cụt, định nghĩa đã sửa.
+Đây là **bài thực hành chính** của Chương 7, dùng cho hồ sơ khám phá của seminar (**A5** / **LO5**). Bạn **không** phải chứng minh giả thuyết Collatz. Việc của bạn là **thiết kế thí nghiệm**, **ghi nhật ký nghiên cứu**, và **báo cáo những gì đã học được**, kể cả những lần thất bại, những hướng đi bế tắc và những định nghĩa phải sửa lại.
 
-**Chủ đề.** Điều gì xảy ra khi một quy tắc tất định đơn giản được lặp mãi mãi?
+**Câu hỏi chủ đề.** Điều gì xảy ra khi ta lặp đi lặp lại một quy tắc tất định đơn giản?
 
-**Trang bài toán kèm.** [Collatz Ch.1]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/) · [Hỗn độn]({{ site.baseurl }}/contents/vi/chapter04/04_05_Chaos/) · [RH]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) (verification vs proof).
+**Bài liên quan.** [Collatz (Chương 1)]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/) · [Hỗn độn]({{ site.baseurl }}/contents/vi/chapter04/04_05_Chaos/) · [Giả thuyết Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) (kiểm tra bằng máy tính khác với chứng minh).
 
 ---
 
 ## Mục tiêu học tập
 
-- Phát biểu quy tắc **Collatz ($$3n+1$$)** và giả thuyết mở bằng ngôn ngữ chính xác.
-- Định nghĩa và tính **total stopping time** (hoặc biến thể ghi rõ: số bước đến 1, đến giá trị nhỏ hơn…).
-- Thiết kế ≥2 thí nghiệm có tham số đóng băng (phạm vi $$n$$, thống kê, đồ thị).
-- Giữ **log có ngày** với giả thuyết, kết quả, bất ngờ, nhãn (định lý / conjecture / quan sát / heuristic).
-- Viết báo cáo ngắn tách **định lý**, **conjecture**, **quan sát số**, **suy đoán**.
-- Giải thích vì sao kiểm chứng cực lớn không phải chứng minh (Collatz song song RH).
-- Chuyển phương pháp studio sang prompt Mục 7 khác nếu đổi đề (có OK giảng viên).
+- Phát biểu chính xác quy tắc **Collatz ($$3n+1$$)** và giả thuyết Collatz.
+- Định nghĩa và tính **thời gian dừng toàn phần** (hoặc một biến thể được ghi rõ: số bước để về 1, số bước để xuống dưới giá trị ban đầu, v.v.).
+- Thiết kế ít nhất 2 thí nghiệm với các tham số cố định từ trước (phạm vi của $$n$$, đại lượng thống kê, loại đồ thị).
+- Ghi **nhật ký có ngày tháng** gồm giả thuyết, kết quả, điều bất ngờ, và nhãn phân loại (định lý / giả thuyết / quan sát / lập luận gần đúng).
+- Viết một báo cáo ngắn, phân biệt rõ **định lý**, **giả thuyết**, **quan sát bằng số** và **phỏng đoán**.
+- Giải thích vì sao kiểm tra bằng máy tính đến những số rất lớn vẫn không phải là chứng minh (Collatz và giả thuyết Riemann giống nhau ở điểm này).
+- Áp dụng cùng phương pháp cho một đề thực hành khác của Chương 7 nếu đổi đề (cần giảng viên đồng ý).
 
-**Tiên quyết.** Số nguyên, modulo, chương trình ngắn hoặc CAS, vẽ đồ thị.
+**Kiến thức cần có.** Số nguyên, phép chia lấy dư, viết chương trình ngắn hoặc dùng phần mềm tính toán, vẽ đồ thị.
 
 ---
 
-## 1. Toán nền
+## 1. Kiến thức toán nền
 
-### 1.1 Ánh xạ
+### 1.1 Ánh xạ Collatz
 
 Với số nguyên dương $$n$$:
 
@@ -45,213 +45,213 @@ n/2 & \text{nếu }n\text{ chẵn},\\
 \end{cases}
 $$
 
-(Một số tài liệu gộp $$(3n+1)/2$$ khi $$n$$ lẻ—**đóng băng quy ước** trong đề xuất, không trộn đếm bước.)
+(Một số tài liệu gộp hai bước thành $$(3n+1)/2$$ khi $$n$$ lẻ. Hãy **chọn một quy ước** trong đề xuất và giữ nguyên, không trộn lẫn hai cách đếm bước.)
 
-Lặp $$n,T(n),T(T(n)),\ldots$$. **Giả thuyết Collatz:** mọi $$n$$ dương có iterate bằng 1 (tương đương vào chu trình $$4\to 2\to 1\to 4\to\cdots$$).
+Lặp lại: $$n,T(n),T(T(n)),\ldots$$. **Giả thuyết Collatz** nói rằng với mọi $$n$$ dương, dãy này sẽ đến 1 (tức là rơi vào chu trình $$4\to 2\to 1\to 4\to\cdots$$).
 
 ![Quy tắc Collatz]({{ site.baseurl }}/img/chapter_img/collatz_tree.svg)
 
-*Hình. Một bước của map; conjecture nói về mọi quỹ đạo.*
+*Hình. Một bước của ánh xạ; giả thuyết nói về mọi quỹ đạo.*
 
-### 1.2 Stopping times
+### 1.2 Thời gian dừng
 
-- **Total stopping time** $$\sigma_\infty(n)$$: số lần áp $$T$$ để đến 1.  
-- **Stopping time** $$\sigma(n)$$: số bước đến giá trị **strictly nhỏ hơn** $$n$$.  
-- **Maximum excursion:** giá trị lớn nhất trên quỹ đạo trước khi về 1.
+- **Thời gian dừng toàn phần** $$\sigma_\infty(n)$$: số lần áp dụng $$T$$ để đến 1.  
+- **Thời gian dừng** $$\sigma(n)$$: số bước để đến một giá trị **nhỏ hơn hẳn** $$n$$.  
+- **Giá trị cực đại của quỹ đạo:** giá trị lớn nhất mà quỹ đạo đạt được trước khi về 1.
 
-Ghi công thức trong code và log.
+Hãy ghi rõ định nghĩa bạn dùng trong mã nguồn và trong nhật ký.
 
-### 1.3 Vì sao khó (mức studio)
+### 1.3 Vì sao bài toán khó
 
-Map trộn co (chia 2) và giãn ($$3n+1$$). Heuristic trung bình gợi ý quỹ đạo thường giảm—nhưng heuristic ≠ chứng minh. Quy tắc tất định; thống kê stopping time vẫn “lởm chởm”. Có kết quả từng phần (mật độ số rơi xuống dưới chính nó; kiểm đến cận khổng lồ)—**trích dẫn**, không bịa.
+Ánh xạ này vừa làm số nhỏ đi (chia 2) vừa làm số lớn lên ($$3n+1$$). Một lập luận gần đúng về trung bình cho thấy quỹ đạo thường giảm dần, nhưng lập luận gần đúng không phải là chứng minh. Quy tắc hoàn toàn tất định, vậy mà số liệu thời gian dừng vẫn rất thất thường. Đã có một số kết quả từng phần (về mật độ các số rơi xuống dưới chính nó, về kiểm tra đến những cận rất lớn). Khi dùng các kết quả này, hãy **trích dẫn nguồn**, không tự bịa.
 
-**Từ gói video/nghiên cứu (slogan bắt buộc khi viết A5).**
+**Những điểm cần nắm khi viết bài A5 (rút ra từ tư liệu video và nghiên cứu).**
 
-- **$$\operatorname{Col}_{\min}(N)$$** = giá trị nhỏ nhất trên quỹ đạo xuôi của $$N$$. Collatz đầy đủ: $$=1$$ với mọi $$N$$ dương (**mở**).  
-- **Tao (2019):** hầu hết $$N$$ (mật độ log), $$\operatorname{Col}_{\min}(N)<f(N)$$ với mọi $$f\to\infty$$—**định lý almost-all**, không phải giải Collatz. Trích [arXiv:1909.03562](https://arxiv.org/abs/1909.03562) nếu nhắc.  
-- **Syracuse / map tăng tốc** đổi số bước: cố định $$T$$ vs map lẻ trong đề xuất.  
-- Hằng số $$\log 3/\log 4\approx 0.7925$$ (dòng Korec)—đọc tùy chọn.
+- **$$\operatorname{Col}_{\min}(N)$$** là giá trị nhỏ nhất trên quỹ đạo xuất phát từ $$N$$. Giả thuyết Collatz đầy đủ nói rằng giá trị này $$=1$$ với mọi $$N$$ dương (**còn mở**).  
+- **Tao (2019):** với hầu hết $$N$$ (theo mật độ logarit), $$\operatorname{Col}_{\min}(N)<f(N)$$ với mọi hàm $$f\to\infty$$. Đây là **định lý về "hầu hết" các số**, không phải lời giải giả thuyết Collatz. Nếu nhắc đến, hãy trích [arXiv:1909.03562](https://arxiv.org/abs/1909.03562).  
+- **Ánh xạ Syracuse / ánh xạ tăng tốc** làm thay đổi cách đếm bước: trong đề xuất, hãy ghi rõ bạn dùng $$T$$ hay ánh xạ chỉ trên số lẻ.  
+- Hằng số $$\log 3/\log 4\approx 0.7925$$ (kết quả của Korec) là phần đọc thêm tùy chọn.
 
-Chi tiết: bài Collatz Ch.1 §4–5 và `research/video-research/collatz/analysis.md`.
+Chi tiết: bài Collatz ở Chương 1, mục 4–5, và `research/video-research/collatz/analysis.md`.
 
 ### 1.4 Cây ngược
 
-Mọi $$m$$ có preimage $$2m$$; điều kiện thêm cho $$(m-1)/3$$ tùy quy ước $$T$$. Cây số chảy về 1: bề rộng theo độ sâu $$k$$, mẫu modulo—đối tượng thí nghiệm phong phú.
+Mọi số $$m$$ đều có tiền ảnh $$2m$$; ngoài ra $$(m-1)/3$$ cũng có thể là tiền ảnh nếu thỏa thêm điều kiện, tùy quy ước của $$T$$. Cây gồm các số chảy về 1 là một đối tượng thí nghiệm phong phú: có thể khảo sát số lượng nút ở mỗi độ sâu $$k$$, hay các quy luật theo đồng dư.
 
-### 1.5 Lặp ngoài Collatz
+### 1.5 Các phép lặp khác ngoài Collatz
 
-Logistic $$x\mapsto rx(1-x)$$; Newton; Babylonian căn… Đổi đề thì **giữ cấu trúc portfolio**. Collatz mặc định vì dễ code và thật sự mở.
+Ví dụ: ánh xạ logistic $$x\mapsto rx(1-x)$$; phương pháp Newton; phương pháp Babylon tính căn bậc hai… Nếu đổi đề, hãy **giữ nguyên cấu trúc hồ sơ**. Collatz được chọn làm đề mặc định vì dễ lập trình và thật sự còn là bài toán mở.
 
-### 1.6 Verification vs proof
+### 1.6 Kiểm tra bằng máy tính và chứng minh
 
-Collatz đã kiểm mọi hạt đến cận cực lớn (trích nguồn tin cậy—cận đổi theo thời gian). Đạo đức song RH: zero cao trên đường tới hạn hỗ trợ niềm tin, không đóng bài toán. **Miền vô hạn không cạn bằng tìm kiếm hữu hạn.**
+Giả thuyết Collatz đã được kiểm tra cho mọi số đến một cận rất lớn (hãy trích nguồn tin cậy, vì cận này thay đổi theo thời gian). Bài học giống với giả thuyết Riemann: việc kiểm tra rất nhiều không điểm nằm trên đường tới hạn làm ta tin hơn, nhưng không giải quyết được bài toán. **Không thể kiểm tra hết vô hạn trường hợp bằng một tìm kiếm hữu hạn.**
 
 ---
 
-## 2. Cấu trúc portfolio (mốc A5)
+## 2. Cấu trúc hồ sơ (mốc A5)
 
-| Mốc | Tuần (passport) | Sản phẩm |
+| Mốc | Tuần (theo lịch học) | Sản phẩm |
 |-----|-----------------|----------|
 | Đề xuất | W11 | Câu hỏi, định nghĩa, phương pháp, công cụ, tiêu chí (1–2 trang) |
-| Log quá trình | W13 | Mục có ngày; thí nghiệm; ngõ cụt |
-| Báo cáo cuối | W15 | Tương đương 6–10 trang: phát hiện + giới hạn + câu hỏi tiếp |
+| Nhật ký | W13 | Các mục có ngày tháng; thí nghiệm; các hướng bế tắc |
+| Báo cáo cuối | W15 | Khoảng 6–10 trang: kết quả + giới hạn + câu hỏi tiếp theo |
 
-**AI.** Hỗ trợ code được nếu disclose; **log thí nghiệm và diễn giải** phải là của bạn.
+**Về AI.** Được dùng AI hỗ trợ viết mã nếu khai báo rõ; nhưng **nhật ký thí nghiệm và phần diễn giải** phải do bạn tự viết.
 
 ---
 
-## 3. Conjecture / chứng minh / thí nghiệm
+## 3. Giả thuyết, chứng minh và thí nghiệm
 
 | Nhãn | Ví dụ |
 |------|-------|
-| **Định lý** | Lũy thừa 2 về 1 sau $$\log_2 n$$ lần chia đôi |
-| **Conjecture** | Collatz đầy đủ |
-| **Verification** | Kiểm $$n\le N$$ (trích) |
-| **Quan sát** | “TB stopping time $$n\le 10^4$$ là …” |
-| **Heuristic** | Mô hình nhân trung bình |
+| **Định lý** | Lũy thừa của 2 về 1 sau $$\log_2 n$$ lần chia đôi |
+| **Giả thuyết** | Giả thuyết Collatz đầy đủ |
+| **Kiểm tra bằng máy tính** | Đã kiểm tra mọi $$n\le N$$ (có trích dẫn) |
+| **Quan sát** | "Thời gian dừng trung bình với $$n\le 10^4$$ là …" |
+| **Lập luận gần đúng** | Mô hình nhân trung bình |
 
-**Tiêu chí thành công (tùy chỉnh, phải cụ thể):**
+**Tiêu chí thành công (có thể điều chỉnh, nhưng phải cụ thể):**
 
-1. Đề xuất được chấp nhận với định nghĩa đóng băng trước khi code lớn.  
-2. ≥2 thí nghiệm §5 có hình/bảng.  
-3. Log ≥8 mục, ≥2 thất bại.  
-4. Báo cáo nêu rõ điều **không** chứng minh.  
-5. Một conjecture số: sống/chết/không kết luận.  
-6. Đoạn verification vs proof + trích cận tính toán.
+1. Đề xuất được duyệt, với định nghĩa cố định trước khi viết mã lớn.  
+2. Ít nhất 2 thí nghiệm ở mục 5 có hình hoặc bảng.  
+3. Nhật ký có ít nhất 8 mục, trong đó ít nhất 2 lần thất bại.  
+4. Báo cáo nói rõ điều gì **chưa** được chứng minh.  
+5. Một giả thuyết bằng số được kết luận: đúng / sai / chưa kết luận được.  
+6. Một đoạn về sự khác nhau giữa kiểm tra bằng máy tính và chứng minh, có trích dẫn cận đã kiểm tra.
 
-Không phải mục tiêu: “chứng Collatz”, “tìm phản ví dụ nổi tiếng không phương pháp”.
-
----
-
-## 4. Chuẩn log nghiên cứu
-
-**Ngày · Ý định · Hành động · Kết quả · Nhãn · Diễn giải · Bước tiếp.**
-
-Thất bại được tính. Bug off-by-one là sự kiện log, không sửa thầm. Ghi ngôn ngữ, overflow (Python big int vs độ rộng cố định), seed nếu lấy mẫu.
+Những việc không phải mục tiêu: "chứng minh Collatz", "tìm phản ví dụ nổi tiếng mà không có phương pháp".
 
 ---
 
-## 5. Thí nghiệm
+## 4. Cách ghi nhật ký nghiên cứu
 
-Làm **ít nhất hai** trong A–G; sinh viên cờ đầu (flagship) nên nhắm ba.
+**Ngày · Mục đích · Việc đã làm · Kết quả · Nhãn · Diễn giải · Bước tiếp theo.**
 
-### Thí nghiệm A — Quỹ đạo tay (20–40 phút)
+Thất bại cũng được tính. Một lỗi lệch một đơn vị (off-by-one) là một sự kiện cần ghi lại, không sửa âm thầm. Ghi rõ ngôn ngữ lập trình, vấn đề tràn số (số nguyên lớn của Python hay kiểu số có độ dài cố định), và hạt giống ngẫu nhiên nếu có lấy mẫu.
 
-Tính quỹ đạo $$n=1,2,\ldots,20$$ bằng tay hoặc chương trình nhỏ. Ghi số bước đến 1.
+---
 
-**Giả thuyết trước khi tính:** “Số lẻ luôn mất nhiều bước hơn số chẵn lân cận.” Rồi kiểm.
+## 5. Các thí nghiệm
 
-**Tiêu chí thành công:** bảng đầy đủ + phán quyết giả thuyết (sống / chết / không kết luận).
+Làm **ít nhất hai** trong các thí nghiệm A–G; sinh viên làm bài chính cho seminar nên làm ba.
 
-### Thí nghiệm B — Plot stopping time (45–120 phút)
+### Thí nghiệm A — Tính quỹ đạo bằng tay (20–40 phút)
 
-Với $$n=1$$ đến $$N$$ (bắt đầu $$N=200$$, rồi $$10^4$$ hoặc $$10^5$$), vẽ tổng stopping time theo $$n$$. Đánh dấu kỷ lục.
+Tính quỹ đạo của $$n=1,2,\ldots,20$$ bằng tay hoặc bằng một chương trình nhỏ. Ghi lại số bước để về 1.
+
+**Giả thuyết đặt ra trước khi tính:** "Số lẻ luôn cần nhiều bước hơn số chẵn kề nó." Sau đó kiểm tra.
+
+**Tiêu chí thành công:** bảng đầy đủ + kết luận về giả thuyết (đúng / sai / chưa kết luận được).
+
+### Thí nghiệm B — Đồ thị thời gian dừng (45–120 phút)
+
+Với $$n=1$$ đến $$N$$ (bắt đầu với $$N=200$$, sau đó $$10^4$$ hoặc $$10^5$$), vẽ thời gian dừng toàn phần theo $$n$$. Đánh dấu các giá trị kỷ lục.
 
 ![Phác stopping time]({{ site.baseurl }}/img/chapter_img/collatz_stopping_time.svg)
 
-*Hình. Cartoon stopping time không đều—hãy làm plot thật trong log.*
+*Hình. Phác họa cho thấy thời gian dừng rất không đều. Hãy vẽ đồ thị thật và đưa vào nhật ký.*
 
-**Tiêu chí thành công:** plot + top 5 $$n$$ kỷ lục trong phạm vi + caption tách quan sát khỏi “luật.”
+**Tiêu chí thành công:** đồ thị + 5 giá trị $$n$$ có thời gian dừng kỷ lục trong phạm vi + chú thích phân biệt quan sát với "quy luật".
 
-### Thí nghiệm C — Mẫu modulo (40–90 phút)
+### Thí nghiệm C — Quy luật theo đồng dư (40–90 phút)
 
-Điều kiện hóa theo $$n\bmod 8$$ hoặc $$n\bmod 16$$. So sánh stopping time trung bình và max trung bình.
+Chia các số theo $$n\bmod 8$$ hoặc $$n\bmod 16$$. So sánh thời gian dừng trung bình và giá trị cực đại trung bình giữa các lớp.
 
-**Cẩn trọng:** tương quan ≠ luật; modulo nhỏ dễ lừa; bias kiểm nhiều modulo (multiple testing).
+**Lưu ý:** tương quan không phải là quy luật; với môđun nhỏ rất dễ bị đánh lừa; kiểm tra quá nhiều môđun sẽ dẫn đến sai lệch do kiểm định bội (multiple testing).
 
-**Tiêu chí thành công:** bảng trung bình theo phần dư + đoạn diễn giải hoài nghi.
+**Tiêu chí thành công:** bảng trung bình theo số dư + một đoạn diễn giải thận trọng.
 
 ### Thí nghiệm D — Cây ngược (mở rộng, 60–120 phút)
 
-Dựng mọi số về 1 đúng $$k$$ bước với $$k\le K$$ (chọn $$K$$ khả thi). Vẽ số lượng theo $$k$$. Lớp modulo nào chiếm các tầng đầu?
+Liệt kê mọi số về 1 sau đúng $$k$$ bước, với $$k\le K$$ (chọn $$K$$ vừa sức máy tính). Vẽ số lượng theo $$k$$. Những lớp đồng dư nào chiếm ưu thế ở các tầng đầu?
 
-**Tiêu chí thành công:** mô tả thuật toán + bảng đếm + một bất ngờ.
+**Tiêu chí thành công:** mô tả thuật toán + bảng đếm + một điều bất ngờ.
 
-### Thí nghiệm E — Literacy verification (30–45 phút)
+### Thí nghiệm E — Tìm hiểu kết quả kiểm tra bằng máy tính (30–45 phút)
 
-Tìm nguồn tin cậy về Collatz đã được kiểm tính toán đến đâu. Trích dẫn. Viết ba câu verification vs proof, nối bài RH.
+Tìm nguồn tin cậy cho biết giả thuyết Collatz đã được kiểm tra đến đâu. Trích dẫn nguồn. Viết ba câu về sự khác nhau giữa kiểm tra và chứng minh, liên hệ với bài giả thuyết Riemann.
 
-**Tiêu chí thành công:** trích dẫn + suy ngẫm (không chỉ blog không rõ nguồn).
+**Tiêu chí thành công:** có trích dẫn + có suy nghĩ riêng (không chỉ dựa vào blog không rõ nguồn).
 
-### Thí nghiệm F — Micro-model heuristic (45–90 phút)
+### Thí nghiệm F — Mô hình xác suất đơn giản (45–90 phút)
 
-Viết cartoon xác suất: số lẻ map sang $$3n+1$$ rồi chia 2 đến khi lẻ lại; ước thay đổi log kỳ vọng. So order-of-magnitude với trung bình thực nghiệm.
+Xây dựng một mô hình xác suất thô: số lẻ được biến thành $$3n+1$$ rồi chia 2 cho đến khi lại lẻ; ước lượng kỳ vọng của độ thay đổi logarit sau mỗi chu kỳ. So sánh bậc độ lớn với giá trị trung bình thực nghiệm.
 
-**Tiêu chí thành công:** dẫn xuất cartoon + so sánh thực nghiệm + banner “không phải chứng minh.”
+**Tiêu chí thành công:** dẫn xuất mô hình + so sánh với thực nghiệm + ghi rõ "đây không phải chứng minh".
 
-### Thí nghiệm G — Lặp thay thế (nếu đổi đề)
+### Thí nghiệm G — Một phép lặp khác (nếu đổi đề)
 
-Logistic $$r=4$$: histogram iterate; demo phụ thuộc nhạy. Hoặc Newton trên $$z^2-1$$ phức (miền hút)—chỉ khi GV OK. Tái dùng cấu trúc đề xuất/log/báo cáo.
+Ánh xạ logistic với $$r=4$$: vẽ biểu đồ tần suất các giá trị lặp; minh họa sự phụ thuộc nhạy vào điều kiện đầu. Hoặc phương pháp Newton cho $$z^2-1$$ trên số phức (các miền hút), chỉ khi giảng viên đồng ý. Dùng lại cấu trúc đề xuất / nhật ký / báo cáo.
 
-**Tiêu chí thành công:** cùng chất lượng portfolio như Collatz.
+**Tiêu chí thành công:** hồ sơ đạt chất lượng như với đề Collatz.
 
 ---
 
 ## 6. Mẫu đề xuất
 
-1. **Câu hỏi.** VD: stopping time tăng thế nào với $$n\le N$$? Lớp modulo nào dài hơn?  
-2. **Định nghĩa.** $$T$$, stopping time, map Syracuse rút gọn nếu có.  
-3. **Phương pháp.** Ngôn ngữ, phạm vi, plot, phần cứng.  
-4. **Tiêu chí.** Không “chứng Collatz”; VD plot $$N=10^5$$; hai conjecture số; giết một đoán ngây thơ.  
-5. **Rủi ro.** Overflow; off-by-one; bias; p-hacking modulo; code AI không hiểu.  
-6. **Disclose AI.**
+1. **Câu hỏi.** Ví dụ: thời gian dừng tăng như thế nào khi $$n\le N$$? Lớp đồng dư nào có quỹ đạo dài hơn?  
+2. **Định nghĩa.** $$T$$, thời gian dừng, ánh xạ Syracuse rút gọn (nếu dùng).  
+3. **Phương pháp.** Ngôn ngữ lập trình, phạm vi, loại đồ thị, phần cứng.  
+4. **Tiêu chí.** Không đặt mục tiêu "chứng minh Collatz"; ví dụ: vẽ đồ thị với $$N=10^5$$; đưa ra hai giả thuyết bằng số; bác bỏ một phỏng đoán ngây thơ.  
+5. **Rủi ro.** Tràn số; lỗi lệch một đơn vị; sai lệch thống kê; "p-hacking" khi thử nhiều môđun; dùng mã do AI viết mà không hiểu.  
+6. **Khai báo việc dùng AI.**
 
-Nộp đề xuất trước code lớn—tránh reverse-engineer câu hỏi từ plot.
+Nộp đề xuất trước khi viết mã lớn, để tránh việc nhìn đồ thị rồi mới đặt câu hỏi cho khớp.
 
 ---
 
-## 7. Dàn báo cáo
+## 7. Dàn ý báo cáo
 
-1. Giới thiệu: phát biểu Collatz; điều không chứng minh.  
+1. Giới thiệu: phát biểu giả thuyết Collatz; nói rõ điều gì không được chứng minh.  
 2. Định nghĩa và phương pháp.  
-3. Thí nghiệm: thiết kế, kết quả, hình.  
-4. Conjecture sống/chết dưới *bài kiểm của bạn*.  
-5. Giới hạn (phạm vi, bias, bug).  
-6. Nối chủ đề khóa học.  
-7. Tài liệu + AI disclosure.
+3. Các thí nghiệm: thiết kế, kết quả, hình vẽ.  
+4. Các giả thuyết bằng số đúng hay sai theo *phép kiểm tra của bạn*.  
+5. Giới hạn (phạm vi, sai lệch, lỗi).  
+6. Liên hệ với các chủ đề khác của khóa học.  
+7. Tài liệu tham khảo + khai báo việc dùng AI.
 
-**Trọng tâm rubric:** câu hỏi rõ, log chất lượng, tính nhỏ đúng, trung thực về giới hạn—không “định lý Collatz mới”.
-
----
-
-## 8. Nhầm lẫn thường gặp
-
-1. Kiểm đến $$10^{18}$$ ⇒ Collatz đúng — bằng chứng trên đoạn, không ∀n.  
-2. Quy tắc ngẫu nhiên — tất định; thống kê quỹ đạo có thể lởm chởm.  
-3. $$3n+1$$ tăng mãi — kết hợp chia 2 thường giảm TB (heuristic).  
-4. Đã biết chu trình khác 4–2–1 cho số dương — đừng tuyên bố không trích dẫn.  
-5. Khám phá = không chuẩn — studio nghiêm hơn bài tính.  
-6. Stopping time “chuẩn quốc tế” — không; lệch định nghĩa → bất đồng giả.  
-7. “Tao đã giải Collatz” — Tao 2019 là almost-all / almost-bounded (mật độ log), không phải giả thuyết đầy đủ (xem Ch.1 §5).
+**Tiêu chí chấm chính:** câu hỏi rõ ràng, nhật ký chất lượng, tính toán nhỏ nhưng đúng, trung thực về giới hạn. Không ai chờ đợi một "định lý Collatz mới".
 
 ---
 
-## 9. Bài tập (khởi động trước đề xuất)
+## 8. Hiểu lầm thường gặp
 
-1. Quỹ đạo đầy đủ của $$27$$; đếm bước theo $$T$$ của bạn.  
-2. Mọi lũy thừa 2 về 1; số bước đúng.  
-3. Không có $$(p,p+2,p+4)$$ nguyên tố trừ $$(3,5,7)$$—và vì sao **không** phải Collatz (tách toolkit studio nguyên tố).  
-4. Pseudocode `stopping_time(n)` + chính sách timeout/overflow.  
-5. Một giả thuyết falsifiable về stopping time.  
-6. Phác đề xuất §1–2 ≤200 từ.
+1. "Đã kiểm tra đến $$10^{18}$$ nên Collatz đúng." Đó chỉ là bằng chứng trên một đoạn hữu hạn, không phải cho mọi $$n$$.  
+2. "Quy tắc này ngẫu nhiên." Quy tắc hoàn toàn tất định; chỉ có số liệu về quỹ đạo là trông thất thường.  
+3. "$$3n+1$$ làm số tăng mãi." Kết hợp với các bước chia 2, trung bình số thường giảm (theo lập luận gần đúng).  
+4. "Đã biết có chu trình khác 4–2–1 với số dương." Đừng khẳng định điều này khi không có trích dẫn.  
+5. "Khám phá thì không cần chặt chẽ." Bài thực hành đòi hỏi chặt chẽ hơn một bài tập tính toán.  
+6. "Có định nghĩa thời gian dừng chuẩn quốc tế." Không có; định nghĩa khác nhau dẫn đến những bất đồng không có thật.  
+7. "Tao đã giải xong Collatz." Kết quả của Tao năm 2019 là về "hầu hết" các số và quỹ đạo "gần như bị chặn" (theo mật độ logarit), không phải giả thuyết đầy đủ (xem Chương 1, mục 5).
 
 ---
 
-## 10. Rubric checkpoint
+## 9. Bài tập khởi động (làm trước khi viết đề xuất)
 
-| ☐ | Đề xuất + định nghĩa đóng băng + tiêu chí |
-| ☐ | ≥2 thí nghiệm có hình/bảng |
-| ☐ | Log ≥8 mục, ≥2 thất bại |
-| ☐ | Verification vs proof + trích dẫn |
-| ☐ | Báo cáo có nhãn định lý/conjecture/quan sát |
-| ☐ | AI disclosure |
-| ☐ | Câu hỏi mở cho việc sau |
+1. Viết quỹ đạo đầy đủ của $$27$$; đếm số bước theo quy ước $$T$$ của bạn.  
+2. Chứng minh mọi lũy thừa của 2 đều về 1 và tính đúng số bước.  
+3. Chứng minh không có bộ ba $$(p,p+2,p+4)$$ đều là số nguyên tố ngoài $$(3,5,7)$$, và giải thích vì sao bài này **không** liên quan đến Collatz (công cụ của bài thực hành về số nguyên tố là khác).  
+4. Viết giả mã cho `stopping_time(n)` kèm cách xử lý khi chạy quá lâu hoặc tràn số.  
+5. Đưa ra một giả thuyết về thời gian dừng có thể kiểm tra là sai.  
+6. Phác thảo mục 1–2 của đề xuất, không quá 200 từ.
+
+---
+
+## 10. Danh sách kiểm tra theo tiêu chí chấm
+
+| ☐ | Đề xuất + định nghĩa cố định + tiêu chí |
+| ☐ | Ít nhất 2 thí nghiệm có hình/bảng |
+| ☐ | Nhật ký ít nhất 8 mục, ít nhất 2 lần thất bại |
+| ☐ | Phân biệt kiểm tra và chứng minh, có trích dẫn |
+| ☐ | Báo cáo có gắn nhãn định lý / giả thuyết / quan sát |
+| ☐ | Khai báo việc dùng AI |
+| ☐ | Câu hỏi mở cho bước tiếp theo |
 
 ---
 
 ## 11. Tài liệu và liên kết
 
-Danh mục URL đầy đủ: `research/video-research/collatz/references.md`. **Không** coi video phổ biến là chứng minh.
+Danh sách URL đầy đủ: `research/video-research/collatz/references.md`. **Không** coi video phổ biến kiến thức là chứng minh.
 
 1. Lagarias overview: https://arxiv.org/abs/2111.02635 · PDF https://arxiv.org/pdf/2111.02635 · SFU http://www.cecm.sfu.ca/organics/papers/lagarias/  
 2. Tao almost-all: https://arxiv.org/abs/1909.03562 · PDF https://arxiv.org/pdf/1909.03562 · blog https://terrytao.wordpress.com/2019/09/10/almost-all-collatz-orbits-attain-almost-bounded-values/  
@@ -259,51 +259,51 @@ Danh mục URL đầy đủ: `research/video-research/collatz/references.md`. **
 4. Video chính: https://www.youtube.com/watch?v=094y1Z2wpJg · https://www.youtube.com/watch?v=5mFpVDpKX70 · https://www.youtube.com/watch?v=t1I9uHF9X5Y · https://mathtube.org/lecture/video/notorious-collatz-conjecture · https://www.youtube.com/watch?v=X2p5eMWyaFs · https://terrytao.files.wordpress.com/2020/02/collatz.pdf · https://www.youtube.com/watch?v=k-dtx8s2ehM · https://www.youtube.com/watch?v=Lr6qc_9M0Ks  
 5. Video phụ: https://www.youtube.com/watch?v=m4CjXk_b8zo · https://www.youtube.com/watch?v=LqKpkdRRLZw · https://www.youtube.com/watch?v=O2_h3z1YgEU · https://youtu.be/wH141HLD57o · https://www.youtube.com/watch?v=vT4VJyXWHlo · https://www.numberphile.com/videos/uncrackable-the-collatz-conjecture  
 6. Web: https://en.wikipedia.org/wiki/Collatz_conjecture · https://www.quantamagazine.org/mathematician-proves-huge-result-on-dangerous-problem-20191211/ · https://chamberland.math.grinnell.edu/3x.html · https://dmi.unibas.ch/en/news/details/lecture-in-basel-terence-tao-and-the-notorious-collatz-conjecture/ · https://mathematics.stanford.edu/events/kiddie-colloquium/almost-almost-collatz · https://www.mathematics.pitt.edu/content/note-collatz-conjecture · http://www.math.grinnell.edu/~chamberl/papers/3x_survey_eng.pdf · https://web.williams.edu/Mathematics/sjmiller/public_html/372Fa15/addcomments/Lagarias_3x+1AndItsGeneralizations.pdf · https://www.rism.it/rism-channel/2021/riemann-prize-week/the-notorious-collatz-conjecture-terence-tao  
-7. [Collatz Ch.1]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/), [Hỗn độn]({{ site.baseurl }}/contents/vi/chapter04/04_05_Chaos/), [RH]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/). Gói: `research/video-research/collatz/`.  
-8. Studio khác: tái sử dụng cấu trúc portfolio này.
+7. [Collatz (Chương 1)]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/), [Hỗn độn]({{ site.baseurl }}/contents/vi/chapter04/04_05_Chaos/), [Giả thuyết Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/). Bộ tư liệu: `research/video-research/collatz/`.  
+8. Các bài thực hành khác: dùng lại cấu trúc hồ sơ này.
 
 ---
 
-## Hướng tiếp
+## Bước tiếp theo
 
-W11–W13 seminar xoay quanh studio. Mang plot tới lớp; phản hồi nhắm phương pháp, không khoe khoang. Nếu Collatz “dính” tâm lý—đặt hard stop và viết về giới hạn tính toán như một **nội dung** của project, không phải thất bại cá nhân.
+Các buổi seminar tuần W11–W13 xoay quanh bài thực hành này. Hãy mang đồ thị đến lớp; phần góp ý sẽ tập trung vào phương pháp, không phải khoe kết quả. Nếu bạn thấy mình bị cuốn vào Collatz quá mức, hãy đặt điểm dừng rõ ràng và viết về giới hạn của tính toán như một **nội dung** của dự án, không coi đó là thất bại cá nhân.
 
-## Nguồn video (gói math-video-researcher)
+## Nguồn video (bộ tư liệu nghiên cứu video)
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh. Chi tiết: `research/video-research/collatz/`.
+Video dùng để **định hướng và làm quen với cách làm nghiên cứu**, không thay thế chứng minh. Chi tiết: `research/video-research/collatz/`.
 
-**Khẩu hiệu từ gói nghiên cứu**
+**Những điểm chính từ bộ tư liệu**
 
-- Dùng gói Collatz: `research/video-research/collatz/`.
-- Tao 2019 almost-all ≠ giải Collatz (vẫn **mở** 2026).
+- Bộ tư liệu về Collatz: `research/video-research/collatz/`.
+- Kết quả "hầu hết" của Tao năm 2019 không phải lời giải giả thuyết Collatz (bài toán vẫn **còn mở** tính đến 2026).
 
 **Thứ tự xem gợi ý**
 
-1. **ORIENTATION** — Veritasium — Collatz: [https://www.youtube.com/watch?v=094y1Z2wpJg](https://www.youtube.com/watch?v=094y1Z2wpJg).  
-2. **INTUITION** — Numberphile — UNCRACKABLE Collatz: [https://www.youtube.com/watch?v=5mFpVDpKX70](https://www.youtube.com/watch?v=5mFpVDpKX70).  
-3. **FOUNDATION** — Chamberland 3x+1 status Part 1: [https://www.youtube.com/watch?v=t1I9uHF9X5Y](https://www.youtube.com/watch?v=t1I9uHF9X5Y).  
-4. **CORE** — Tao Notorious Collatz (mathtube): [https://mathtube.org/lecture/video/notorious-collatz-conjecture](https://mathtube.org/lecture/video/notorious-collatz-conjecture).  
-5. **CORE** — Tao Notorious Collatz (YouTube): [https://www.youtube.com/watch?v=X2p5eMWyaFs](https://www.youtube.com/watch?v=X2p5eMWyaFs).  
-6. **FRONTIER** — Tao IAS almost-all Collatz: [https://www.youtube.com/watch?v=k-dtx8s2ehM](https://www.youtube.com/watch?v=k-dtx8s2ehM).  
+1. **Định hướng** — Veritasium — Collatz: [https://www.youtube.com/watch?v=094y1Z2wpJg](https://www.youtube.com/watch?v=094y1Z2wpJg).  
+2. **Trực giác** — Numberphile — UNCRACKABLE Collatz: [https://www.youtube.com/watch?v=5mFpVDpKX70](https://www.youtube.com/watch?v=5mFpVDpKX70).  
+3. **Nền tảng** — Chamberland, tình hình bài toán 3x+1, phần 1: [https://www.youtube.com/watch?v=t1I9uHF9X5Y](https://www.youtube.com/watch?v=t1I9uHF9X5Y).  
+4. **Cốt lõi** — Tao, "The Notorious Collatz Conjecture" (mathtube): [https://mathtube.org/lecture/video/notorious-collatz-conjecture](https://mathtube.org/lecture/video/notorious-collatz-conjecture).  
+5. **Cốt lõi** — Tao, "The Notorious Collatz Conjecture" (YouTube): [https://www.youtube.com/watch?v=X2p5eMWyaFs](https://www.youtube.com/watch?v=X2p5eMWyaFs).  
+6. **Mới nhất** — Tao tại IAS về kết quả "hầu hết" cho Collatz: [https://www.youtube.com/watch?v=k-dtx8s2ehM](https://www.youtube.com/watch?v=k-dtx8s2ehM).  
 
-**Cổng chính thức / tài liệu**
+**Tài liệu gốc**
 
-- Tao arXiv:1909.03562: https://arxiv.org/abs/1909.03562  
-- Lagarias overview arXiv:2111.02635: https://arxiv.org/abs/2111.02635  
+- Tao, arXiv:1909.03562: https://arxiv.org/abs/1909.03562  
+- Lagarias, bài tổng quan arXiv:2111.02635: https://arxiv.org/abs/2111.02635  
 
-Danh mục URL đầy đủ: `research/video-research/collatz/references.md`.
+Danh sách URL đầy đủ: `research/video-research/collatz/references.md`.
 
-### Transcript & frames (extract flagship)
+### Phụ đề và khung hình (bài chính)
 
-Transcript caption và unit theo thời gian cho gói Collatz: `research/video-research/collatz/transcripts/` · trạng thái: `research/video-research/collatz/TRANSCRIPT_STATUS.md` · danh sách master: `research/video-research/FLAGSHIP_TRANSCRIPTS.md`.
+Phụ đề và các đoạn theo thời gian cho bộ tư liệu Collatz: `research/video-research/collatz/transcripts/` · trạng thái: `research/video-research/collatz/TRANSCRIPT_STATUS.md` · danh sách tổng: `research/video-research/FLAGSHIP_TRANSCRIPTS.md`.
 
-**Frame mẫu** (định hướng studio):
+**Khung hình mẫu** (định hướng cho bài thực hành):
 
 ![Frame mẫu video Collatz]({{ site.baseurl }}/img/video_research/collatz/5mFpVDpKX70_frame01.jpg)
 
-*Hình. Frame mẫu từ video định hướng Collatz chính (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video định hướng chính về Collatz (xem bộ tư liệu để biết mốc thời gian).*
 
-### Gói nghiên cứu video (mọi URL)
+### Bộ tư liệu video (mọi URL)
 
 Danh mục đầy đủ: `research/video-research/collatz/references.md`.
 
@@ -319,17 +319,17 @@ Danh mục đầy đủ: `research/video-research/collatz/references.md`.
 10. Quanta Tao Collatz — https://www.quantamagazine.org/mathematician-proves-huge-result-on-dangerous-problem-20191211/  
 11. Thư mục gói: `research/video-research/collatz/`.
 
-### Transcript & frames (batch extract)
+### Phụ đề và khung hình (trích xuất hàng loạt)
 
-Transcript caption và unit theo thời gian: `research/video-research/explore-iteration/transcripts/` · trạng thái: `research/video-research/explore-iteration/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
+Phụ đề và các đoạn theo thời gian: `research/video-research/explore-iteration/transcripts/` · trạng thái: `research/video-research/explore-iteration/TRANSCRIPT_STATUS.md` · tổng hợp: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
 
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/explore-iteration_094y1Z2wpJg_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính (xem bộ tư liệu để biết mốc thời gian).*
 
 
 ## Video tham khảo
 
-- **xem trước** — [The Simplest Math Problem No One Can Solve - Collatz Conjecture](https://www.youtube.com/watch?v=094y1Z2wpJg) — Veritasium, tiếng Anh. Xem trước. “The Simplest Math Problem No One Can Solve - Collatz Conjecture” định hướng cho mục tiêu của bài: Phát biểu quy tắc Collatz (3n+1) và giả thuyết mở bằng ngôn ngữ chính xác.
-- [UNCRACKABLE? The Collatz Conjecture - Numberphile](https://www.youtube.com/watch?v=5mFpVDpKX70) — Numberphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu quy tắc Collatz (3n+1) và giả thuyết mở bằng ngôn ngữ chính xác.
-- [The 3x+1 Problem: Status and Recent Work Part 1](https://www.youtube.com/watch?v=t1I9uHF9X5Y) — Experimental mathematics, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu quy tắc Collatz (3n+1) và giả thuyết mở bằng ngôn ngữ chính xác.
+- **Xem trước:** [The Simplest Math Problem No One Can Solve - Collatz Conjecture](https://www.youtube.com/watch?v=094y1Z2wpJg) — Veritasium, tiếng Anh. Giới thiệu giả thuyết Collatz; nên xem trước khi đọc bài.
+- [UNCRACKABLE? The Collatz Conjecture - Numberphile](https://www.youtube.com/watch?v=5mFpVDpKX70) — Numberphile, tiếng Anh. Nên xem sau khi đã nắm ý chính của bài.
+- [The 3x+1 Problem: Status and Recent Work Part 1](https://www.youtube.com/watch?v=t1I9uHF9X5Y) — Experimental mathematics, tiếng Anh. Xem thêm sau hai video trên: tình hình nghiên cứu bài toán 3x+1.

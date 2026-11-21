@@ -12,58 +12,58 @@ lesson_type: optional
 
 ## Mục tiêu học tập
 
-Sau bài tùy chọn này, bạn gọi được tên ba nơi một bài toán Chương 1—còn mở, hoặc đã là định lý—đã trở thành hạ tầng hoặc động cơ nghiên cứu trong khoa học máy tính và khoa học dữ liệu từ khoảng 2022, mà không nhầm một bộ giải thực dụng, một surrogate nơ-ron, hay một máy hình học mức huy chương với việc giải quyết câu hỏi toán học gốc.
+Sau bài tùy chọn này, bạn kể được ít nhất ba trường hợp mà một bài toán ở Chương 1 (còn mở, hoặc đã thành định lý) trở thành nền tảng hoặc động lực nghiên cứu trong khoa học máy tính và khoa học dữ liệu từ khoảng năm 2022. Đồng thời, bạn không nhầm một bộ giải dùng trong thực tế, một mô hình thay thế bằng mạng nơ-ron, hay một hệ thống giải hình học đạt mức huy chương với việc giải quyết câu hỏi toán học ban đầu.
 
 ## Kiến thức cần có
 
-Các bài bắt buộc của chương, đặc biệt [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/), [Navier–Stokes]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/), [Bốn màu]({{ site.baseurl }}/contents/vi/chapter01/01_09_Four_Color_Theorem/), và studio [Collatz]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/). Trang này không viết lại các phát biểu ấy.
+Các bài bắt buộc của chương, đặc biệt là [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/), [Navier–Stokes]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/), [Bốn màu]({{ site.baseurl }}/contents/vi/chapter01/01_09_Four_Color_Theorem/), và bài [Collatz]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/). Trang này không nhắc lại các phát biểu đó.
 
 ## Mở đầu
 
-Một bài toán Clay có thể ngồi chưa giải trong khi công nghiệp vẫn chuyển mã *sống cạnh nó*. Bộ giải SAT tấn công các thể hiện NP-đầy đủ mà không chứng minh $$\mathbf{P}\neq\mathbf{NP}$$. Toán tử học được dự báo trường chất lỏng mà không chứng minh nghiệm Navier–Stokes trơn tồn tại. Một máy hình học có thể viết chứng minh olympic mà không khép Kakeya. Căng thẳng của bài này vì thế là vệ sinh diễn giải. Công trình CS/DS gần đây là thật; chúng không phải lời giải lén của các bài toán lớn.
+Một bài toán của Viện Clay có thể vẫn chưa được giải, trong khi ngành công nghiệp vẫn viết và triển khai phần mềm *dựa trên những ý tưởng gần với nó*. Các bộ giải SAT xử lý những bài toán NP-đầy đủ cụ thể mà không chứng minh $$\mathbf{P}\neq\mathbf{NP}$$. Các toán tử học được (neural operator) dự báo trường vận tốc của chất lỏng mà không chứng minh nghiệm trơn của phương trình Navier–Stokes tồn tại. Một hệ thống giải hình học có thể viết lời giải bài thi olympic mà không giải được bài toán Kakeya. Vì vậy, điều bài này muốn rèn là cách diễn giải cho đúng. Các công trình gần đây trong khoa học máy tính và khoa học dữ liệu là thật, nhưng chúng không phải là lời giải "đi đường tắt" cho các bài toán lớn.
 
-## Phát triển khái niệm
+## Các khái niệm chính
 
-Một bài toán quyết định NP-đầy đủ hỏi liệu có chứng chỉ mà bộ kiểm tra xác nhận được trong thời gian đa thức theo kích thước vào $$n$$. Lý thuyết trường hợp xấu vẫn chờ. Thực hành hỏi câu khác: trên *công thức này*, tìm kiếm học mệnh đề xung đột (CDCL) có kịp trước hạn không? Cùng kiểu ấy, một neural operator cố xấp xỉ một ánh xạ nghiệm
+Một bài toán quyết định NP-đầy đủ hỏi xem có tồn tại một chứng chỉ mà bộ kiểm tra xác nhận được trong thời gian đa thức theo kích thước đầu vào $$n$$ hay không. Câu hỏi về trường hợp xấu nhất vẫn chưa có lời giải. Trong thực tế, người ta hỏi một câu khác: với *công thức cụ thể này*, thuật toán tìm kiếm có học mệnh đề xung đột (CDCL) có cho kết quả kịp thời hạn không? Tương tự, một toán tử nơ-ron cố gắng xấp xỉ một ánh xạ nghiệm
 
 $$
 \mathcal{G}:u_0\mapsto u(\,\cdot\,,T)
 $$
 
-giữa các không gian hàm, chứ không chứng nhận rằng $$u$$ giữ trơn với mọi $$u_0$$ trơn không phân kỳ.
+giữa các không gian hàm, chứ không chứng minh rằng $$u$$ vẫn trơn với mọi dữ kiện ban đầu $$u_0$$ trơn và có phân kỳ bằng không.
 
-## Bốn chỗ đáp gần đây
+## Bốn ví dụ gần đây
 
-### 1. Các kỳ SAT như họ hàng công nghiệp của P vs NP
+### 1. Các cuộc thi SAT, "họ hàng" công nghiệp của P vs NP
 
-Các kỳ SAT Competition suốt 2022–2024 vẫn trao ngôi cho các máy CDCL trên benchmark công nghiệp và nhân tạo khổng lồ. Một bộ giải chạy xong **không** đặt thể hiện ấy vào $$\mathbf{P}$$ như một lớp độ phức tạp, và một họ công thức kháng cự **không** chứng minh $$\mathbf{P}\neq\mathbf{NP}$$. Điều nó chứng minh, về mặt vận hành, là góc nhìn *chứng chỉ* của NP đã là sản phẩm: trình biên dịch, kiểm chứng phần cứng, và lập kế hoạch xuất CNF, còn tìm kiếm học mệnh đề xung đột là đòn tấn công mặc định. Dùng bài P vs NP của chương này cho định nghĩa; dùng nhật ký cuộc thi cho sự thật kỹ thuật.
+Trong các kỳ SAT Competition từ 2022 đến 2024, các bộ giải CDCL vẫn đứng đầu trên những bộ bài kiểm tra công nghiệp và nhân tạo rất lớn. Một bộ giải chạy xong một bài **không** có nghĩa bài đó thuộc lớp độ phức tạp $$\mathbf{P}$$, và một họ công thức khó giải **không** chứng minh $$\mathbf{P}\neq\mathbf{NP}$$. Điều các cuộc thi cho thấy, về mặt ứng dụng, là cách nhìn NP qua *chứng chỉ* đã trở thành công cụ thực tế: trình biên dịch, kiểm chứng phần cứng và lập kế hoạch đều chuyển bài toán về dạng CNF, và tìm kiếm có học mệnh đề xung đột là cách tiếp cận mặc định. Hãy dùng bài P vs NP của chương này cho các định nghĩa, và dùng kết quả của các cuộc thi cho các dữ kiện kỹ thuật.
 
-### 2. Neural operator như surrogate cho Navier–Stokes
+### 2. Toán tử nơ-ron làm mô hình thay thế cho Navier–Stokes
 
-Kovachki, Li, Liu, Azizzadenesheli, Bhattacharya, Stuart và Anandkumar (2023) viết neural operator như ánh xạ giữa không gian hàm vô hạn chiều và thử trên Burgers, dòng Darcy, và Navier–Stokes. Fourier neural operator học một surrogate $$\widehat{\mathcal{G}}$$ có thể đánh giá nhanh hơn bộ giải cổ điển nhiều bậc trên lưới tương tự. Câu hỏi Thiên niên kỷ là tồn tại và độ trơn của phương trình liên tục. Sai số kiểm tra nhỏ của $$\widehat{\mathcal{G}}$$ là một regularity thực nghiệm về một tập dữ liệu và một kiến trúc. Hãy giữ hai nhãn ấy tách nhau.
+Kovachki, Li, Liu, Azizzadenesheli, Bhattacharya, Stuart và Anandkumar (2023) mô tả toán tử nơ-ron như các ánh xạ giữa những không gian hàm vô hạn chiều, và thử nghiệm trên phương trình Burgers, dòng chảy Darcy và Navier–Stokes. Toán tử nơ-ron Fourier học được một mô hình thay thế $$\widehat{\mathcal{G}}$$, tính nhanh hơn các bộ giải cổ điển nhiều bậc độ lớn trên cùng loại lưới. Còn câu hỏi Thiên niên kỷ là về sự tồn tại và độ trơn của nghiệm phương trình trên không gian liên tục. Sai số kiểm tra nhỏ của $$\widehat{\mathcal{G}}$$ chỉ là một quan sát thực nghiệm về một tập dữ liệu và một kiến trúc mạng. Hãy giữ hai điều này tách biệt.
 
-### 3. AlphaGeometry như đòn tính toán trên hình học khó
+### 3. AlphaGeometry: tính toán áp dụng cho hình học khó
 
-Trinh, Wu, Le, He và Luong (2024) giới thiệu AlphaGeometry, một bộ chứng minh neuro-symbolic được huấn luyện trên định lý tổng hợp quy mô lớn. Trên bộ 30 bài hình học olympic, nó giải 25, tiến gần thành tích trung bình của huy chương vàng IMO trên lát cắt ấy. Đây là kết quả CS về tìm kiếm, dữ liệu tổng hợp, và một máy suy diễn tượng trưng. Nó không phải chứng minh Kakeya, cũng không thay văn hóa restriction theory trong chương này và Chương 2. Nó *là* bằng chứng rằng “hình học khó” có thể biến thành không gian tìm kiếm máy kiểm được.
+Trinh, Wu, Le, He và Luong (2024) giới thiệu AlphaGeometry, một hệ thống chứng minh kết hợp mạng nơ-ron với suy luận ký hiệu, được huấn luyện trên một lượng lớn định lý sinh tự động. Trên bộ 30 bài hình học olympic, hệ thống giải được 25 bài, gần bằng thành tích trung bình của người đạt huy chương vàng IMO trên bộ bài đó. Đây là một kết quả khoa học máy tính về tìm kiếm, dữ liệu sinh tự động và một bộ máy suy diễn ký hiệu. Nó không phải là chứng minh cho Kakeya, và cũng không thay thế được lý thuyết về bài toán hạn chế được bàn trong chương này và Chương 2. Nhưng nó *là* bằng chứng rằng "hình học khó" có thể được biến thành một không gian tìm kiếm mà máy kiểm tra được.
 
-### 4. Tìm kiếm vét cạn bên cạnh Collatz
+### 4. Tìm kiếm vét cạn quanh bài toán Collatz
 
-Barina (2021) báo một kiểm chứng quy mô GPU rằng ánh xạ Collatz đạt chu trình tầm thường với mọi giá trị xuất phát tới một cận cỡ $$2^{68}$$. Các bài kỹ thuật sau mở rộng tìm kiếm ấy. Một đoạn đầu hữu hạn, dù lớn, vẫn là một đoạn đầu hữu hạn. Định lý almost-all của Tao và phát biểu mở “mọi $$n$$” vẫn là đối tượng toán học. Đóng góp CS là một tính toán đã kiểm và một lời nhắc về điều tính toán không thể kết thúc.
+Barina (2021) công bố một phép kiểm tra trên GPU cho thấy ánh xạ Collatz đi vào chu trình tầm thường với mọi giá trị ban đầu đến cỡ $$2^{68}$$. Các bài kỹ thuật sau đó mở rộng phép tìm kiếm này. Nhưng một đoạn đầu hữu hạn, dù dài đến đâu, vẫn chỉ là một đoạn đầu hữu hạn. Định lý "hầu hết" của Tao và phát biểu còn mở cho "mọi $$n$$" vẫn là đối tượng của toán học. Đóng góp của khoa học máy tính là một phép tính đã được kiểm tra, đồng thời nhắc ta rằng tính toán không thể tự kết thúc câu hỏi.
 
 ## Diễn giải và nhận định
 
-Trong mỗi trường hợp, bài toán lớn cung cấp một *hình dạng*—chứng chỉ, chính quy liên tục, dựng hình, iteration—còn hệ thống triển khai cung cấp một *ngân sách*. Đọc ngân sách như định lý là lỗi đặc trưng của viết khoa học những năm 2020.
+Trong mỗi trường hợp, bài toán lớn cung cấp một *khuôn mẫu* (chứng chỉ, độ trơn trên không gian liên tục, dựng hình, phép lặp), còn hệ thống được triển khai thì hoạt động trong một *giới hạn tài nguyên* cụ thể. Coi kết quả trong giới hạn đó như một định lý là lỗi điển hình của nhiều bài viết khoa học trong thập niên 2020.
 
 ## Giới hạn và hướng mở rộng
 
-Bài này không biến RH, BSD, hay sinh đôi nguyên tố thành sản phẩm mật mã; những câu chuyện ấy thuộc số hạng sai và bài lý thuyết số Chương 3. Nó cũng không hình thức hóa độ phức tạp SAT vượt slogan đã có trong bài P vs NP.
+Bài này không biến RH, BSD hay giả thuyết số nguyên tố sinh đôi thành sản phẩm mật mã; những câu chuyện đó thuộc về số hạng sai số và bài lý thuyết số ở Chương 3. Bài cũng không đi sâu vào độ phức tạp của SAT hơn những gì đã nói trong bài P vs NP.
 
 ## Bài tập
 
-1. Một nhà cung cấp nói “bộ giải SAT của chúng tôi cho thấy P = NP trên netlist khách hàng.” Hãy viết lại tuyên bố cho khớp định nghĩa trong bài P vs NP.
-2. Một start-up khí hậu quảng cáo neural operator như đã “giải Navier–Stokes.” Bạn sẽ đòi hai đại lượng nào (phân phối huấn luyện; một chứng chỉ độ trơn) trước khi chấp nhận một câu yếu hơn?
-3. AlphaGeometry giải 25 trên 30 bài hình học olympic. Vì sao điều đó tương thích với Kakeya vẫn mở?
-4. Nếu một tìm kiếm Collatz tới $$2^{80}$$, câu nào trong bài Collatz vẫn đúng y như hôm nay?
+1. Một nhà cung cấp tuyên bố: "bộ giải SAT của chúng tôi cho thấy P = NP trên mạch (netlist) của khách hàng." Hãy viết lại tuyên bố này cho khớp với các định nghĩa trong bài P vs NP.
+2. Một công ty khởi nghiệp về khí hậu quảng cáo rằng toán tử nơ-ron của họ đã "giải Navier–Stokes." Bạn cần hai thông tin nào (phân phối dữ liệu huấn luyện; một chứng nhận về độ trơn) trước khi chấp nhận một phát biểu yếu hơn?
+3. AlphaGeometry giải được 25 trên 30 bài hình học olympic. Vì sao điều đó không mâu thuẫn với việc Kakeya vẫn còn mở?
+4. Nếu một phép tìm kiếm Collatz đi tới $$2^{80}$$, câu nào trong bài Collatz vẫn đúng y như hôm nay?
 
 ## Tài liệu tham khảo
 
@@ -75,6 +75,6 @@ Bài này không biến RH, BSD, hay sinh đôi nguyên tố thành sản phẩm
 
 ## Video tham khảo
 
-- **xem trước** — [Donald Knuth: Talk on SAT Solving @ JKU Linz (Recorded with Google Hangouts)](https://www.youtube.com/watch?v=QFMERqvfzlc) — Martina Seidl, tiếng Anh. Xem trước. “Donald Knuth: Talk on SAT Solving @ JKU Linz (Recorded with Google Hangouts)” định hướng cho mục tiêu của bài: Sau bài tùy chọn này, bạn gọi được tên ba nơi một bài toán Chương 1—còn mở, hoặc đã là định lý—đã trở thành hạ tầng hoặc động cơ nghiên cứu trong khoa học máy tính và khoa học dữ l…
-- [Fourier Neural Operator (FNO) (Physics Informed Machine Learning)](https://www.youtube.com/watch?v=W8PybqAk6Ik) — Steve Brunton, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài tùy chọn này, bạn gọi được tên ba nơi một bài toán Chương 1—còn mở, hoặc đã là định lý—đã trở thành hạ tầng hoặc động cơ nghiên cứu trong khoa học máy tính và khoa học dữ l…
-- [The AI that solved IMO Geometry Problems | Guest video by @Aleph0](https://www.youtube.com/watch?v=4NlrfOl0l8U) — 3Blue1Brown, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài tùy chọn này, bạn gọi được tên ba nơi một bài toán Chương 1—còn mở, hoặc đã là định lý—đã trở thành hạ tầng hoặc động cơ nghiên cứu trong khoa học máy tính và khoa học dữ l…
+- **Xem trước:** [Donald Knuth: Talk on SAT Solving @ JKU Linz (Recorded with Google Hangouts)](https://www.youtube.com/watch?v=QFMERqvfzlc) — Martina Seidl, tiếng Anh. Donald Knuth nói chuyện về các bộ giải SAT; nên xem trước khi đọc bài.
+- [Fourier Neural Operator (FNO) (Physics Informed Machine Learning)](https://www.youtube.com/watch?v=W8PybqAk6Ik) — Steve Brunton, tiếng Anh. Giới thiệu toán tử nơ-ron Fourier; nên xem sau khi đã nắm ý chính của bài.
+- [The AI that solved IMO Geometry Problems | Guest video by @Aleph0](https://www.youtube.com/watch?v=4NlrfOl0l8U) — 3Blue1Brown, tiếng Anh. Xem thêm sau hai video trên; giải thích cách AlphaGeometry giải các bài hình học IMO.

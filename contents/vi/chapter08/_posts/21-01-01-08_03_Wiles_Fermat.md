@@ -10,188 +10,190 @@ categories:
 lesson_type: required
 ---
 
-**Sir Andrew J. Wiles** (University of Oxford) nhận **Abel Prize 2016**
+**Sir Andrew J. Wiles** (Đại học Oxford) nhận **Giải Abel năm 2016**
 
 > “for his stunning proof of Fermat’s Last Theorem by way of the modularity conjecture for semistable elliptic curves, opening a new era in number theory.”  
-> — [Citation ủy ban Abel](https://abelprize.no/abel-prize-laureates/2016)
+> — [Lời trao giải của Ủy ban Abel](https://abelprize.no/abel-prize-laureates/2016)
 
-Bài này là bản đồ sâu: FLT nói gì; làm sao phát biểu Diophantine trở thành phát biểu về elliptic curve và modular form; Wiles thực sự chứng minh gì về **modularity semistable**; và vì sao Abel coi đó là **thân phương pháp mở kỷ nguyên**, không chỉ cúp cho một phương trình. Tài liệu chính thức: [abelprize.no](https://abelprize.no/).
+(Tạm dịch: "vì chứng minh xuất sắc Định lý Cuối cùng của Fermat thông qua giả thuyết modular cho các đường cong elliptic nửa ổn định, mở ra một kỷ nguyên mới cho lý thuyết số.")
+
+Bài này đi sâu vào các câu hỏi: Định lý Fermat nói gì; làm thế nào một phát biểu về phương trình nghiệm nguyên lại trở thành phát biểu về đường cong elliptic và dạng modular; Wiles thực sự chứng minh gì về **tính modular của đường cong nửa ổn định**; và vì sao Ủy ban Abel coi đó là **một phương pháp mở ra kỷ nguyên mới**, chứ không chỉ là lời giải của một phương trình. Tài liệu chính thức: [abelprize.no](https://abelprize.no/).
 
 ---
 
 ## Mục tiêu học tập
 
-Sau bài, bạn có thể phát biểu FLT chính xác với số nguyên $$n\ge 3$$; giải thích chiến lược Frey → Ribet → modularity → mâu thuẫn ở mức ý tưởng; phân biệt modularity semistable của Wiles với modularity đầy đủ sau này (Breuil–Conrad–Diamond–Taylor); nối modularity với biểu diễn Galois và $$L$$-hàm ở mức khẩu hiệu; tránh nhầm “FLT đã chứng minh” với “mọi bài Diophantine đã xong” hay “Langlands đã xong.”
+Sau bài học, bạn có thể: phát biểu chính xác Định lý Fermat với số nguyên $$n\ge 3$$; giải thích ở mức ý tưởng chiến lược Frey → Ribet → tính modular → mâu thuẫn; phân biệt kết quả của Wiles cho đường cong nửa ổn định với định lý modular đầy đủ được chứng minh sau đó (Breuil–Conrad–Diamond–Taylor); nêu ngắn gọn mối liên hệ giữa tính modular, biểu diễn Galois và hàm $$L$$; tránh nhầm "Định lý Fermat đã được chứng minh" với "mọi phương trình nghiệm nguyên đã được giải" hay "chương trình Langlands đã xong".
 
-**Kiến thức nền.** Số nguyên, đa thức, đường cong cho bởi phương trình. Không cần đã học modular form. Liên kết: [FLT chương chứng minh]({{ site.baseurl }}/contents/vi/chapter05/05_08_Fermat_Last_Theorem/), [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/), [Langlands]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/).
+**Kiến thức cần có.** Số nguyên, đa thức, đường cong cho bởi phương trình. Không cần biết trước về dạng modular. Bài liên quan: [Định lý Fermat (Chương 5)]({{ site.baseurl }}/contents/vi/chapter05/05_08_Fermat_Last_Theorem/), [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/), [Langlands]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/).
 
 ---
 
-## 1. Bài toán chờ ba thế kỷ
+## 1. Bài toán chờ hơn ba thế kỷ
 
-**Định lý Cuối Fermat.** Với mọi số nguyên $$n \ge 3$$, không tồn tại số nguyên dương $$a,b,c$$ thỏa
+**Định lý Cuối cùng của Fermat.** Với mọi số nguyên $$n \ge 3$$, không tồn tại các số nguyên dương $$a,b,c$$ thỏa mãn
 
 $$
 a^n + b^n = c^n.
 $$
 
-Pierre de Fermat khẳng định khoảng 1637 trong ghi chú lề nổi tiếng, nói ông có “chứng minh kỳ diệu” mà lề sách quá hẹp để chứa. Không có chứng minh tổng quát được cộng đồng hiện đại chấp nhận trước thập niên 1990. Các trường hợp đặc biệt tích tụ qua nhiều thế kỷ: Fermat với $$n=4$$ (infinite descent); Euler và người khác với số mũ nhỏ; Kummer cùng lý thuyết số đại số với số nguyên tố chính quy; kiểm tra máy cho nhiều dải số mũ. Không mảnh ghép nào là chứng minh thống nhất cho mọi $$n\ge 3$$.
+Khoảng năm 1637, Pierre de Fermat ghi bên lề một cuốn sách rằng ông có "một chứng minh tuyệt vời" nhưng lề sách quá hẹp để viết ra. Trước thập niên 1990, không có chứng minh tổng quát nào được giới toán học chấp nhận. Qua nhiều thế kỷ, người ta chứng minh được từng trường hợp riêng: Fermat với $$n=4$$ (phương pháp xuống thang vô hạn); Euler và những người khác với các số mũ nhỏ; Kummer dùng lý thuyết số đại số cho các số nguyên tố chính quy; máy tính kiểm tra cho nhiều khoảng số mũ. Nhưng không phần nào trong số đó là một chứng minh chung cho mọi $$n\ge 3$$.
 
-Lời giải cuối **không** rút về đại số phổ thông. Nó viết lại phát biểu Diophantine bằng ngôn ngữ **elliptic curve** và **modular form**, rồi dùng hình học số học sâu. Abel 2016 vinh danh cả định lý lẫn việc tái trang bị phương pháp. Đây là kiểu thành tựu trọn đời mà chương này muốn luyện: công chúng nhớ phương trình; citation nhớ **kỷ nguyên phương pháp**.
+Lời giải cuối cùng **không** quy về đại số sơ cấp. Nó viết lại bài toán nghiệm nguyên bằng ngôn ngữ **đường cong elliptic** và **dạng modular**, rồi dùng các công cụ sâu của hình học số học. Giải Abel 2016 ghi nhận cả định lý lẫn việc đổi mới phương pháp. Đây là loại thành tựu cả đời mà chương này muốn giúp bạn nhận ra: công chúng nhớ đến phương trình, còn lời trao giải nhấn mạnh **phương pháp mở ra một kỷ nguyên**.
 
 ---
 
-## 2. Elliptic curve bước vào
+## 2. Đường cong elliptic xuất hiện
 
-Elliptic curve trên $$\mathbb{Q}$$ sau biến đổi chuẩn có thể viết như cubic không suy biến
+Sau một phép biến đổi chuẩn, một đường cong elliptic trên $$\mathbb{Q}$$ có thể viết dưới dạng một đường bậc ba không suy biến
 
 $$
 y^2 = x^3 + Ax + B
 $$
 
-với $$A,B\in\mathbb{Q}$$ (discriminant khác 0). Điểm hữu tỷ cùng điểm ở vô cùng lập nhóm abel hữu hạn sinh—**định lý Mordell–Weil**. Elliptic còn mang **$$L$$-hàm** $$L(E,s)$$ mã hóa thông tin số học; modularity nối đối tượng giải tích đó với modular form.
+với $$A,B\in\mathbb{Q}$$ (biệt thức khác 0). Các điểm hữu tỷ cùng với điểm ở vô cùng tạo thành một nhóm abel hữu hạn sinh; đó là **định lý Mordell–Weil**. Mỗi đường cong elliptic còn có một **hàm $$L$$** $$L(E,s)$$ chứa thông tin số học về nó; tính modular nối đối tượng giải tích này với một dạng modular.
 
-**Ý Frey (thập niên 1980).** Giả sử có nghiệm không tầm thường $$a^n+b^n=c^n$$, $$n\ge 3$$. Người ta chế tạo **đường cong Frey** với tính số học cực kỳ dị thường—đến mức (theo từ điển modularity giả thuyết) không thể modular. Biến heuristic thành định lý cần Serre, Ribet và nhiều người khác.
+**Ý tưởng của Frey (thập niên 1980).** Giả sử phương trình $$a^n+b^n=c^n$$, $$n\ge 3$$ có nghiệm không tầm thường. Từ nghiệm đó ta dựng được **đường cong Frey**, có tính chất số học bất thường đến mức (theo giả thuyết modular) nó không thể là modular. Để biến lập luận gần đúng này thành định lý cần đến công trình của Serre, Ribet và nhiều người khác.
 
-Bước nhảy khái niệm: phi tồn tại Diophantine thuần túy trở thành khẳng định về **elliptic curve nào có thể tồn tại** trong phân loại modularity. Seminar nên dừng lại ở đây: đó không chỉ là “mẹo kỹ thuật,” mà là viết lại bài toán bằng hình học số học.
+Bước chuyển quan trọng về tư duy là: câu hỏi "phương trình có nghiệm nguyên hay không" trở thành câu hỏi "**những đường cong elliptic nào có thể tồn tại**" trong bức tranh phân loại theo tính modular. Khi thảo luận trong nhóm, nên dừng lại ở điểm này: đây không chỉ là một mẹo kỹ thuật, mà là viết lại bài toán bằng ngôn ngữ hình học số học.
 
 ---
 
-## 3. Modularity như động cơ
+## 3. Tính modular là động lực chính
 
-**Định lý modularity** (trước là giả thuyết Taniyama–Shimura–Weil) nói, đại khái, mọi elliptic $$E$$ trên $$\mathbb{Q}$$ tương ứng một modular form—đối tượng giải tích trên nửa mặt phẳng trên
+**Định lý modular** (trước đây là giả thuyết Taniyama–Shimura–Weil) nói rằng, nói một cách đại khái, mỗi đường cong elliptic $$E$$ trên $$\mathbb{Q}$$ tương ứng với một dạng modular, tức là một hàm giải tích trên nửa mặt phẳng trên
 
 $$
 \mathbb{H} = \{ z\in\mathbb{C} : \operatorname{Im}(z)>0 \}
 $$
 
-với luật biến đổi mạnh dưới nhóm đồng dư của $$\mathrm{SL}_2(\mathbb{Z})$$. Qua tương ứng đó, số học đường cong phản ánh trong hệ số Fourier và data $$L$$-hàm của form.
+thỏa mãn các quy luật biến đổi rất chặt dưới các nhóm con đồng dư của $$\mathrm{SL}_2(\mathbb{Z})$$. Qua tương ứng này, tính chất số học của đường cong được phản ánh trong các hệ số Fourier và hàm $$L$$ của dạng modular.
 
-**Ken Ribet** chứng minh định lý level-lowering: đường cong Frey từ phản ví dụ FLT **không thể modular**. Do đó:
+**Ken Ribet** chứng minh định lý hạ mức (level-lowering), cho thấy đường cong Frey dựng từ một phản ví dụ của Định lý Fermat **không thể là modular**. Do đó:
 
-> Nếu biết đủ modularity cho lớp đường cong liên quan, FLT theo sau.
+> Nếu chứng minh được tính modular cho lớp đường cong liên quan, Định lý Fermat sẽ suy ra.
 
-**Wiles** chứng minh modularity cho lớp then chốt **semistable** trên $$\mathbb{Q}$$. Semistability là điều kiện kiểu reduction tại các số nguyên tố; đường cong Frey thuộc lớp đó. Phương pháp—**deformation của biểu diễn Galois** và tiêu chuẩn số cho **modularity lifting**—trở thành chuẩn công nghiệp. Lỗ hổng ban đầu được vá với **Richard Taylor** (phương pháp Taylor–Wiles).
+**Wiles** chứng minh tính modular cho lớp then chốt là các đường cong **nửa ổn định** (semistable) trên $$\mathbb{Q}$$. Tính nửa ổn định là một điều kiện về kiểu rút gọn tại các số nguyên tố; đường cong Frey thuộc lớp này. Phương pháp của ông, gồm **lý thuyết biến dạng của biểu diễn Galois** và tiêu chuẩn số cho **định lý nâng modular** (modularity lifting), đã trở thành công cụ chuẩn của ngành. Lỗ hổng trong bản chứng minh đầu tiên được sửa cùng với **Richard Taylor** (phương pháp Taylor–Wiles).
 
-Sau đó **Breuil–Conrad–Diamond–Taylor** hoàn thiện modularity cho **mọi** elliptic trên $$\mathbb{Q}$$, không chỉ semistable. Lời Abel cẩn thận: “modularity conjecture for **semistable** elliptic curves”—chính xác lịch sử. LO6 seminar: đọc citation là kỹ năng, không phải trang trí.
+Sau đó **Breuil–Conrad–Diamond–Taylor** chứng minh tính modular cho **mọi** đường cong elliptic trên $$\mathbb{Q}$$, không chỉ các đường cong nửa ổn định. Lời trao giải Abel viết rất cẩn thận: "modularity conjecture for **semistable** elliptic curves", đúng với lịch sử. Mục tiêu 6 của phần thảo luận: đọc kỹ lời trao giải là một kỹ năng, không phải chi tiết trang trí.
 
 ---
 
-## 4. Skeleton logic (ý chứng minh)
+## 4. Khung lập luận (ý tưởng chứng minh)
 
 1. Giả sử $$a^n+b^n=c^n$$, $$n\ge 3$$, $$abc\neq 0$$.  
 2. Dựng đường cong Frey từ $$(a,b,c)$$.  
-3. Ribet: không modular.  
-4. Wiles (semistable): phải modular.  
-5. Mâu thuẫn. Không có $$(a,b,c)$$ như vậy.
+3. Theo Ribet: đường cong này không modular.  
+4. Theo Wiles (trường hợp nửa ổn định): đường cong này phải modular.  
+5. Mâu thuẫn. Vậy không tồn tại $$(a,b,c)$$ như vậy.
 
-Đây là **ý tưởng**. Khối kỹ thuật nằm ở bước 4: kiểm soát biểu diễn Galois gắn đường cong, nâng modularity modulo một nguyên tố, và xác minh giả thiết để định lý lifting áp dụng. Với seminar, kể sạch 1–5 đã tách hiểu khỏi slogan. Bài tập A4 kiểu “ý chứng minh” trong khóa học chính là luyện skeleton này, không phải giả vờ đã đọc hết Annals 1995.
+Đây là **ý tưởng**. Phần kỹ thuật nặng nằm ở bước 4: kiểm soát biểu diễn Galois gắn với đường cong, nâng tính modular từ modulo một số nguyên tố lên, và kiểm tra các giả thiết để áp dụng được định lý nâng. Khi thảo luận, trình bày rõ ràng các bước 1–5 đã đủ để phân biệt hiểu thật với chỉ nhắc lại khẩu hiệu. Bài tập A4 kiểu "ý tưởng chứng minh" trong khóa học chính là để luyện khung này, chứ không phải giả vờ đã đọc hết bài báo trên Annals năm 1995.
 
 ---
 
-## 5. Biểu diễn Galois: bản đồ sâu hơn
+## 5. Biểu diễn Galois: nhìn sâu hơn
 
-Phương pháp Wiles nghiên cứu **biểu diễn Galois** gắn elliptic—đồng cấu
+Phương pháp của Wiles nghiên cứu **biểu diễn Galois** gắn với đường cong elliptic, tức là đồng cấu
 
 $$
 \rho_{E,\ell} : \operatorname{Gal}(\overline{\mathbb{Q}}/\mathbb{Q}) \to \mathrm{GL}_2(\mathbb{Z}_\ell)
 $$
 
-(hoặc phiên bản residual modulo $$\ell$$)—và hỏi khi nào chúng đến từ modular form. **Modularity lifting**: nếu biểu diễn trông modular modulo một số nguyên tố, dưới giả thiết thích hợp nó modular ở đặc số 0.
+(hoặc phiên bản rút gọn modulo $$\ell$$), và hỏi khi nào chúng đến từ một dạng modular. **Định lý nâng modular** nói: nếu một biểu diễn có vẻ modular khi xét modulo một số nguyên tố thì, với các giả thiết phù hợp, nó modular ở đặc số 0.
 
-Triết lý đó nay dẫn phần lớn Langlands cho $$\mathrm{GL}_2$$ và xa hơn. Chứng minh FLT hiện đại là **máy biểu diễn**, không phải mẹo phân tích thừa số. Cụm “opening a new era” trong citation chỉ phương pháp, không chỉ phi tồn tại nghiệm $$a^n+b^n=c^n$$.
+Ý tưởng này nay là cơ sở cho phần lớn chương trình Langlands với $$\mathrm{GL}_2$$ và xa hơn nữa. Chứng minh Định lý Fermat hiện đại là **lý thuyết biểu diễn**, không phải mẹo phân tích thừa số. Cụm "opening a new era" trong lời trao giải nói về phương pháp, không chỉ về việc phương trình $$a^n+b^n=c^n$$ vô nghiệm.
 
-Downstream, modularity đầy đủ hỗ trợ lý thuyết giải tích $$L$$ elliptic trong cảnh quan [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/): khi hạng số học gặp hạng giải tích, modularity là một phần từ điển khiến giả thuyết nói được.
-
----
-
-## 6. Vì sao Abel gọi là “kỷ nguyên”
-
-Ba tầng biện minh cho ngôn ngữ đó.
-
-**Phương pháp mới.** Deformation rings, Taylor–Wiles patching, modularity lifting—công nghệ cốt lõi. Nhiều định lý sau bắt đầu từ toolkit Wiles để lại.
-
-**Tự tin mới.** Bài Diophantine khó có thể tấn công bằng modularity và công cụ gần Langlands. Tâm lý ngành đổi: một số phương trình “trông bất khả” có thể là cổng vào hình học.
-
-**Chương trình học mới.** Lý thuyết số cao học tái tổ chức quanh modularity, biểu diễn Galois và automorphic form. Abel 2016 vinh danh cả định lý lẫn **tái trang bị hình học số học**.
+Về sau, định lý modular đầy đủ hỗ trợ lý thuyết giải tích của hàm $$L$$ của đường cong elliptic trong bối cảnh [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/): khi so sánh hạng số học với hạng giải tích, tính modular là một phần của "từ điển" giúp giả thuyết đó có nghĩa.
 
 ---
 
-## 7. Chất liệu lịch sử (không thần thoại)
+## 6. Vì sao Ủy ban Abel nói đến "kỷ nguyên mới"
 
-Wiles thông báo chứng minh năm 1993; phát hiện lỗ hổng; bản sửa với Taylor xuất hiện giữa thập niên 1990 (*Annals of Mathematics*, 1995). Tài liệu phổ thông đôi khi phóng đại sự cô đơn hoặc hạ thấp mạng lưới: Frey, Serre, Ribet, Mazur, Langlands, Taniyama, Shimura, Weil và nhiều người khác đã định hình cảnh quan mà Wiles đóng với trường hợp semistable. Tài liệu Abel và sử nghiêm túc ghi nhận chuỗi đó.
+Có ba lý do cho cách nói đó.
 
-Máy tính **không** là cốt lõi chứng minh. Kiểm tra số trường hợp đặc biệt quan trọng lịch sử, nhưng citation Abel nói về định lý modularity do con người viết.
+**Phương pháp mới.** Vành biến dạng, kỹ thuật ghép Taylor–Wiles (patching), định lý nâng modular là những công cụ cốt lõi. Nhiều định lý về sau bắt đầu từ bộ công cụ Wiles để lại.
 
-### “Semistable” nghĩa gì ở mức khẩu hiệu
+**Niềm tin mới.** Các bài toán nghiệm nguyên khó có thể được tấn công bằng tính modular và các công cụ gần với chương trình Langlands. Cách nhìn của ngành thay đổi: một số phương trình "có vẻ bất khả" lại có thể là cửa ngõ dẫn vào hình học.
 
-Elliptic curve trên $$\mathbb{Q}$$ có, tại mỗi nguyên tố $$p$$, kiểu reduction mô tả fiber đặc biệt của mô hình tối thiểu. Reduction **semistable** (bad reduction nút thay vì cuspidal, theo slogan thông thường) là điều kiện chính quy trên các reduction đó. Đường cong Frey từ phản ví dụ FLT là semistable; do đó chứng minh modularity trên lớp semistable đúng là đòn bẩy mà định lý Ribet cần. Modularity đầy đủ bỏ hạn chế semistable cho mọi elliptic trên $$\mathbb{Q}$$—sạch khái niệm và mạnh cho $$L$$-hàm—nhưng lịch sử FLT đã xong một khi modularity semistable vào chỗ.
+**Chương trình học mới.** Lý thuyết số ở bậc sau đại học được tổ chức lại quanh tính modular, biểu diễn Galois và dạng tự đẳng cấu. Giải Abel 2016 ghi nhận cả định lý lẫn **sự đổi mới của hình học số học**.
 
 ---
 
-## 8. Nhầm lẫn
+## 7. Bối cảnh lịch sử (không huyền thoại hóa)
 
-| Khẳng định | Chỉnh |
+Wiles công bố chứng minh năm 1993; sau đó một lỗ hổng được phát hiện; bản sửa cùng Taylor ra đời giữa thập niên 1990 (*Annals of Mathematics*, 1995). Sách báo phổ thông đôi khi phóng đại sự đơn độc của Wiles hoặc xem nhẹ những người đi trước: Frey, Serre, Ribet, Mazur, Langlands, Taniyama, Shimura, Weil và nhiều người khác đã xây nền cho bức tranh mà Wiles hoàn tất bằng trường hợp nửa ổn định. Tài liệu của Giải Abel và các nghiên cứu lịch sử nghiêm túc đều ghi nhận chuỗi đóng góp đó.
+
+Máy tính **không** đóng vai trò cốt lõi trong chứng minh. Việc kiểm tra bằng số các trường hợp riêng có ý nghĩa lịch sử, nhưng lời trao giải Abel nói về định lý modular, một chứng minh do con người viết.
+
+### "Nửa ổn định" nghĩa là gì, nói ngắn gọn
+
+Tại mỗi số nguyên tố $$p$$, một đường cong elliptic trên $$\mathbb{Q}$$ có một kiểu rút gọn, mô tả thớ đặc biệt của mô hình tối tiểu. Rút gọn **nửa ổn định** (nói gọn là khi rút gọn xấu thì đường cong có điểm nút chứ không có điểm lùi) là một điều kiện về tính chính quy của các phép rút gọn đó. Đường cong Frey dựng từ phản ví dụ của Định lý Fermat là nửa ổn định; vì vậy chứng minh tính modular cho lớp nửa ổn định chính là điều mà định lý Ribet cần. Định lý modular đầy đủ bỏ điều kiện nửa ổn định, áp dụng cho mọi đường cong elliptic trên $$\mathbb{Q}$$, gọn hơn về khái niệm và mạnh hơn cho lý thuyết hàm $$L$$; nhưng về mặt lịch sử, Định lý Fermat đã được giải quyết ngay khi có kết quả cho trường hợp nửa ổn định.
+
+---
+
+## 8. Hiểu lầm thường gặp
+
+| Khẳng định | Sửa lại |
 |------------|-------|
-| “Wiles chỉ kiểm tra máy.” | Cốt lõi là định lý modularity do con người viết. |
-| “Fermat đã có chứng minh tổng quát.” | Không chứng minh chấp nhận trước Wiles. |
-| “Wiles chứng minh modularity đầy đủ mọi elliptic trên $$\mathbb{Q}$$. ” | Ông chứng minh **semistable** cần cho FLT; đầy đủ sau (BCDT). |
-| “Modularity = xong Langlands.” | Một trường hợp lớn trong chương trình rộng. |
-| “FLT đóng mọi Diophantine.” | Còn rất nhiều bài mở (BSD, hình học Diophantine cao hơn, …). |
+| "Wiles chỉ kiểm tra bằng máy tính." | Cốt lõi là định lý modular do con người chứng minh. |
+| "Fermat đã có chứng minh tổng quát." | Trước Wiles không có chứng minh nào được chấp nhận. |
+| "Wiles chứng minh tính modular cho mọi đường cong elliptic trên $$\mathbb{Q}$$. " | Ông chứng minh trường hợp **nửa ổn định**, đủ cho Định lý Fermat; trường hợp đầy đủ được chứng minh sau (BCDT). |
+| "Tính modular nghĩa là chương trình Langlands đã xong." | Đó là một trường hợp lớn trong một chương trình rộng hơn nhiều. |
+| "Định lý Fermat giải quyết mọi bài toán nghiệm nguyên." | Còn rất nhiều bài toán mở (BSD, hình học Diophantine ở chiều cao hơn, …). |
 
 ---
 
 ## Bài tập
 
-1. Viết FLT số mũ 4 bằng lời và phương trình; giải thích vì sao trường hợp đặc biệt ≠ chứng minh tổng quát.  
-2. Chuỗi Frey–Ribet–Wiles bốn gạch đầu dòng, không jargon ngoài “modular” và “elliptic curve.”  
-3. “Semistable” mua được gì trong câu chuyện Abel (một đoạn khẩu hiệu)?  
-4. **≤300 từ:** Diễn citation Abel 2016 bằng lời mình, nêu phương pháp không chỉ FLT.  
-5. So với [trang FLT]({{ site.baseurl }}/contents/vi/chapter05/05_08_Fermat_Last_Theorem/): hai khác biệt nhấn mạnh (ý chứng minh vs phương pháp trọn đời).  
-6. **Mở rộng:** Một đoạn giải thích biểu diễn Galois cố gói gì (đối xứng số học vs đại số tuyến tính).
+1. Viết Định lý Fermat với số mũ 4 bằng lời và bằng phương trình; giải thích vì sao chứng minh một trường hợp riêng chưa phải là chứng minh tổng quát.  
+2. Tóm tắt chuỗi Frey–Ribet–Wiles trong bốn gạch đầu dòng, chỉ dùng hai thuật ngữ chuyên môn là "modular" và "đường cong elliptic".  
+3. Điều kiện "nửa ổn định" giúp được gì trong câu chuyện này (viết một đoạn ngắn)?  
+4. **Không quá 300 từ:** diễn giải lời trao giải Abel 2016 bằng lời của bạn, nêu được phương pháp chứ không chỉ Định lý Fermat.  
+5. So sánh với [bài về Định lý Fermat]({{ site.baseurl }}/contents/vi/chapter05/05_08_Fermat_Last_Theorem/): nêu hai điểm khác nhau về trọng tâm (ý tưởng chứng minh so với phương pháp của cả một sự nghiệp).  
+6. **Mở rộng:** viết một đoạn giải thích biểu diễn Galois cố gắng ghi lại điều gì (đối xứng số học được biểu diễn bằng đại số tuyến tính).
 
 ---
 
 
-## Nguồn video (gói math-video-researcher)
+## Nguồn video (bộ tư liệu nghiên cứu video)
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh. Chi tiết: `research/video-research/wiles-fermat/`.
+Video dùng để **định hướng và làm quen với không khí nghiên cứu**, không thay thế chứng minh. Chi tiết: `research/video-research/wiles-fermat/`.
 
-**Khẩu hiệu từ gói nghiên cứu**
+**Ý chính rút ra từ bộ tư liệu**
 
-- Abel 2016: Wiles — FLT qua modularity **semistable**.
-- Frey → Ribet → Wiles; Taylor–Wiles vá gap; full modularity sau (BCDT).
+- Giải Abel 2016: Wiles chứng minh Định lý Fermat qua tính modular của đường cong **nửa ổn định**.
+- Frey → Ribet → Wiles; Taylor–Wiles sửa lỗ hổng; định lý modular đầy đủ được chứng minh sau (BCDT).
 
 **Thứ tự xem gợi ý**
 
-1. **CORE** — Wiles Abel lecture — FLT abelian/non-abelian: [https://www.youtube.com/watch?v=4t1mgEBx1nQ](https://www.youtube.com/watch?v=4t1mgEBx1nQ).  
-2. **CORE** — Darmon — Wiles' marvelous proof: [https://www.youtube.com/watch?v=oqMaziDIBYY](https://www.youtube.com/watch?v=oqMaziDIBYY).  
-3. **HISTORY** — Abel interview with Wiles: [https://www.youtube.com/watch?v=cWKAzX5U85Q](https://www.youtube.com/watch?v=cWKAzX5U85Q).  
-4. **ORIENTATION** — Live interview Wiles (Oslo): [https://www.youtube.com/watch?v=baUlp5EWhCk](https://www.youtube.com/watch?v=baUlp5EWhCk).  
-5. **ORIENTATION** — Alex Bellos on Wiles/FLT: [https://www.youtube.com/watch?v=2Pu4vZZu3JA](https://www.youtube.com/watch?v=2Pu4vZZu3JA).  
-6. **HISTORY** — INI — Thirty years of proof (Wiles anniversary): [https://www.youtube.com/watch?v=nlUimyJpWtI](https://www.youtube.com/watch?v=nlUimyJpWtI).  
+1. **Cốt lõi** — Bài giảng Abel của Wiles — FLT abelian/non-abelian: [https://www.youtube.com/watch?v=4t1mgEBx1nQ](https://www.youtube.com/watch?v=4t1mgEBx1nQ).  
+2. **Cốt lõi** — Darmon — Wiles' marvelous proof: [https://www.youtube.com/watch?v=oqMaziDIBYY](https://www.youtube.com/watch?v=oqMaziDIBYY).  
+3. **Lịch sử** — Phỏng vấn Wiles của Giải Abel: [https://www.youtube.com/watch?v=cWKAzX5U85Q](https://www.youtube.com/watch?v=cWKAzX5U85Q).  
+4. **Định hướng** — Phỏng vấn trực tiếp Wiles (Oslo): [https://www.youtube.com/watch?v=baUlp5EWhCk](https://www.youtube.com/watch?v=baUlp5EWhCk).  
+5. **Định hướng** — Alex Bellos nói về Wiles và Định lý Fermat: [https://www.youtube.com/watch?v=2Pu4vZZu3JA](https://www.youtube.com/watch?v=2Pu4vZZu3JA).  
+6. **Lịch sử** — INI — Ba mươi năm chứng minh (kỷ niệm Wiles): [https://www.youtube.com/watch?v=nlUimyJpWtI](https://www.youtube.com/watch?v=nlUimyJpWtI).  
 
-**Cổng chính thức / tài liệu**
+**Trang chính thức**
 
-- Abel 2016 Wiles page: https://abelprize.no/abel-prize-laureates/2016  
+- Trang Giải Abel 2016 về Wiles: https://abelprize.no/abel-prize-laureates/2016  
 
-Danh mục URL đầy đủ: `research/video-research/wiles-fermat/references.md`.
+Danh sách URL đầy đủ: `research/video-research/wiles-fermat/references.md`.
 
 
-### Transcript & frames (batch extract)
+### Phụ đề và khung hình (trích xuất hàng loạt)
 
-Transcript caption và unit theo thời gian: `research/video-research/wiles-fermat/transcripts/` · trạng thái: `research/video-research/wiles-fermat/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
+Phụ đề và các đoạn theo thời gian: `research/video-research/wiles-fermat/transcripts/` · trạng thái: `research/video-research/wiles-fermat/TRANSCRIPT_STATUS.md` · tổng hợp: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
 
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/wiles-fermat_4t1mgEBx1nQ_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính (xem bộ tư liệu để biết mốc thời gian).*
 
 ## Tài liệu
 
 
-### Gói nghiên cứu video (mọi URL)
+### Bộ tư liệu nghiên cứu video (mọi URL)
 
-Danh mục đầy đủ: `research/video-research/wiles-fermat/references.md`.
+Danh sách đầy đủ: `research/video-research/wiles-fermat/references.md`.
 
 1. Abel 2016 Wiles page — https://abelprize.no/abel-prize-laureates/2016  
 2. Wiles Abel lecture — FLT abelian/non-abelian — https://www.youtube.com/watch?v=4t1mgEBx1nQ  
@@ -203,26 +205,26 @@ Danh mục đầy đủ: `research/video-research/wiles-fermat/references.md`.
 8. Nature — Wiles Abel Prize — https://www.nature.com/articles/nature.2016.19552  
 9. Wikipedia — Wiles's proof of FLT — https://en.wikipedia.org/wiki/Wiles%27s_proof_of_Fermat%27s_Last_Theorem  
 10. Wikipedia — Modularity theorem — https://en.wikipedia.org/wiki/Modularity_theorem  
-11. Thư mục gói: `research/video-research/wiles-fermat/`.
+11. Thư mục bộ tư liệu: `research/video-research/wiles-fermat/`.
 
-1. [Abel 2016](https://abelprize.no/abel-prize-laureates/2016) — citation, tiểu sử, ghi chú phổ thông.  
-2. Wiles, *Modular elliptic curves and Fermat’s Last Theorem*, Ann. of Math. 1995; Taylor–Wiles.  
-3. Survey: Darmon và khác về modularity; phổ thông: Singh, *Fermat’s Enigma*.  
-4. Khóa: [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/); [Langlands]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/); [FLT chương 05]({{ site.baseurl }}/contents/vi/chapter05/05_08_Fermat_Last_Theorem/).
+1. [Abel 2016](https://abelprize.no/abel-prize-laureates/2016): lời trao giải, tiểu sử, bài viết phổ thông.  
+2. Wiles, *Modular elliptic curves and Fermat’s Last Theorem*, Ann. of Math. 1995; bài của Taylor–Wiles.  
+3. Bài tổng quan: Darmon và các tác giả khác về tính modular; sách phổ thông: Singh, *Fermat’s Enigma*.  
+4. Trong khóa học: [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/); [Langlands]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/); [Định lý Fermat ở Chương 5]({{ site.baseurl }}/contents/vi/chapter05/05_08_Fermat_Last_Theorem/).
 
 ---
 
 ## Hướng đi tiếp
 
-- Seminar: modularity 1990s chứng minh gì, còn lại gì cho tác giả sau?  
-- Kể skeleton Frey–Ribet–Wiles như ý chứng minh.  
-- Phê bình documentary FLT vì overclaim (phương pháp vs thần thoại).  
-- Ghi một bài mở gần kề chính xác: khía cạnh BSD; modularity chiều cao hơn; Langlands rộng hơn.  
-- So [Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/).  
-- Tiếp: [Uhlenbeck]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/).
+- Thảo luận: các kết quả về tính modular trong thập niên 1990 đã chứng minh được gì, và còn lại gì cho những người đi sau?  
+- Trình bày khung lập luận Frey–Ribet–Wiles như một ý tưởng chứng minh.  
+- Nhận xét một phim tài liệu về Định lý Fermat: chỗ nào nói quá (phương pháp so với huyền thoại)?  
+- Ghi lại chính xác một bài toán mở liên quan: một khía cạnh của BSD; tính modular ở chiều cao hơn; chương trình Langlands rộng hơn.  
+- So sánh với [Giải Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/).  
+- Bài tiếp theo: [Uhlenbeck]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/).
 
 ## Video tham khảo
 
-- **xem trước** — [Andrew Wiles: Fermat's Last theorem: abelian and non-abelian approaches](https://www.youtube.com/watch?v=4t1mgEBx1nQ) — The Abel Prize, tiếng Anh. Xem trước. “Andrew Wiles: Fermat's Last theorem: abelian and non-abelian approaches” định hướng cho mục tiêu của bài: Sau bài, bạn có thể phát biểu FLT chính xác với số nguyên n\ge 3; giải thích chiến lược Frey → Ribet → modularity → mâu thuẫn ở mức ý tưởng; phân biệt modularity semistable của Wil…
-- [Henri Darmon: Andrew Wiles' marvelous proof](https://www.youtube.com/watch?v=oqMaziDIBYY) — The Abel Prize, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài, bạn có thể phát biểu FLT chính xác với số nguyên n\ge 3; giải thích chiến lược Frey → Ribet → modularity → mâu thuẫn ở mức ý tưởng; phân biệt modularity semistable của Wil…
-- [Andrew Wiles - The Abel Prize interview 2016](https://www.youtube.com/watch?v=cWKAzX5U85Q) — The Abel Prize, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài, bạn có thể phát biểu FLT chính xác với số nguyên n\ge 3; giải thích chiến lược Frey → Ribet → modularity → mâu thuẫn ở mức ý tưởng; phân biệt modularity semistable của Wil…
+- **Xem trước:** [Andrew Wiles: Fermat's Last theorem: abelian and non-abelian approaches](https://www.youtube.com/watch?v=4t1mgEBx1nQ) — The Abel Prize, tiếng Anh. Chính Wiles giới thiệu các hướng tiếp cận Định lý Fermat; nên xem trước khi đọc bài.
+- [Henri Darmon: Andrew Wiles' marvelous proof](https://www.youtube.com/watch?v=oqMaziDIBYY) — The Abel Prize, tiếng Anh. Darmon giải thích cấu trúc chứng minh của Wiles; nên xem sau khi đã nắm ý chính của bài.
+- [Andrew Wiles - The Abel Prize interview 2016](https://www.youtube.com/watch?v=cWKAzX5U85Q) — The Abel Prize, tiếng Anh. Xem thêm sau hai video trên, để nghe Wiles kể về quá trình làm việc.

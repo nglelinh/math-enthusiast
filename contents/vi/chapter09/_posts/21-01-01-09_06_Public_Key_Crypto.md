@@ -9,9 +9,9 @@ categories:
 - chapter09
 ---
 
-Trước giữa thập niên 1970, mật mã thực dụng chủ yếu là **đối xứng**: hai bên chia sẻ sẵn một bí mật. Vấn đề phân phối khóa—làm sao hai người chưa từng gặp nhau thỏa thuận bí mật trên kênh bị nghe lén—trông như nghịch lý. **Whitfield Diffie** và **Martin Hellman** (ý tưởng công khai 1976; Turing Award **2015** cho công trình khóa công khai của họ) — song song lịch sử với công việc mật mã Anh tại GCHQ trước đó, không phải “đồng giải” Turing với GCHQ — cùng **Ron Rivest, Adi Shamir, Leonard Adleman** với **RSA** (1977/78; Turing Award **2002**), biến nghịch lý thành **giao thức toán**: công khai một phần thông tin, giữ cửa sập, dựa trên bài toán số học được tin là khó.
+Trước giữa thập niên 1970, mật mã thực dụng chủ yếu là **mật mã đối xứng**: hai bên phải có sẵn một bí mật chung. Vấn đề phân phối khóa (làm sao hai người chưa từng gặp nhau thỏa thuận được một bí mật trên kênh có thể bị nghe lén) thoạt nhìn giống một nghịch lý. **Whitfield Diffie** và **Martin Hellman** (công bố ý tưởng năm 1976; giải Turing **2015** cho công trình về khóa công khai) cùng **Ron Rivest, Adi Shamir và Leonard Adleman** với **RSA** (1977/78; giải Turing **2002**) đã biến nghịch lý ấy thành **giao thức toán học**: công khai một phần thông tin, giữ lại một cửa sập, dựa trên bài toán số học được tin là khó. Lưu ý về lịch sử: các nhà mật mã của GCHQ (Anh) đã nghĩ ra những ý tưởng tương tự từ trước, nhưng giữ bí mật; giải Turing không trao chung cho GCHQ.
 
-Bài này là chân dung **cơ chế** Diffie–Hellman và RSA trong khung chương Turing—bổ sung flagship [Lý thuyết số → mật mã]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/) bằng góc giải thưởng và giả định độ khó. Liên kết: [Cook–Karp]({{ site.baseurl }}/contents/vi/chapter09/09_04_Cook_Karp_NP/), [Goldwasser–Micali]({{ site.baseurl }}/contents/vi/chapter09/09_07_Goldwasser_Micali/), [Mật mã tương lai]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/).
+Bài này là chân dung **cơ chế** Diffie–Hellman và RSA trong khung chương Turing, bổ sung cho bài [Lý thuyết số và mật mã]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/) bằng góc giải thưởng và giả định độ khó. Liên kết: [Cook–Karp]({{ site.baseurl }}/contents/vi/chapter09/09_04_Cook_Karp_NP/), [Goldwasser–Micali]({{ site.baseurl }}/contents/vi/chapter09/09_07_Goldwasser_Micali/), [Mật mã tương lai]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/).
 
 ---
 
@@ -23,14 +23,14 @@ Sau bài học, bạn có thể:
 - Mô tả **Diffie–Hellman**: từ $$g^a,g^b$$ công khai tới bí mật $$g^{ab}$$; nêu DLP/CDH.  
 - Mô tả **RSA**: $$n=pq$$, số mũ $$e,d$$, mã $$c\equiv m^e\pmod n$$; cửa sập $$\varphi(n)$$.  
 - Phân biệt giả định (factoring, DLP) với NP-đầy đủ worst-case.  
-- Nêu vai trò **padding**, độ dài khóa, và bóng **Shor / hậu lượng tử** ở mức biết đọc.  
+- Nêu vai trò **padding**, độ dài khóa, và bóng **Shor / hậu lượng tử** ở mức đủ để đọc hiểu.  
 - Tránh nhầm: “RSA = nhân hai nguyên tố là đủ,” “công khai ⇒ ai cũng giải mã được,” “khóa công khai tuyệt đối an toàn.”
 
-**Tiên quyết.** Đồng dư, nguyên tố, lũy thừa; ý nhóm nhân modulo $$p$$. Đã đọc ch.03 mật mã thì lặp cơ chế có chủ đích để gắn Turing Award. Euclid gcd và nghịch đảo modulo là bạn đồng hành.
+**Tiên quyết.** Đồng dư, nguyên tố, lũy thừa; ý nhóm nhân modulo $$p$$. Nếu đã đọc phần mật mã ở ch.03 thì bài này nhắc lại cơ chế có chủ ý để gắn với giải Turing. Euclid gcd và nghịch đảo modulo là bạn đồng hành.
 
 ---
 
-## 1. Đối xứng, Kerckhoffs, và nghịch lý kênh công cộng
+## 1. Đối xứng, Kerckhoffs và nghịch lý kênh công cộng
 
 **Mã đối xứng** (AES, …): cùng khóa $$k$$ để mã và giải. Hiệu quả tuyệt vời cho luồng dữ liệu lớn. Yếu điểm kiến trúc: phải có $$k$$ chung **trước** khi nói chuyện an toàn. Trên mạng mở, gửi $$k$$ thô qua kênh bị nghe lén là tự sát mật mã.
 
@@ -101,9 +101,9 @@ Mỗi lần trình duyệt hiển thị khóa: thường là bắt tay (EC)DHE +
 
 ## 7. Lượng tử và hậu lượng tử
 
-Thuật toán **Shor** đặt factoring và DLP (gồm ECDLP trên nhóm dùng phổ biến) vào **BQP**—máy lượng tử đủ lớn, đủ ít lỗi sẽ phá RSA/DH/ECC cổ điển. Do đó lộ trình **PQC**: Kyber/Dilithium và họ lattice, code-based, hash-based, … Xem [mật mã tương lai]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/) và [thông tin lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/).
+Thuật toán **Shor** đặt factoring và DLP (gồm ECDLP trên nhóm dùng phổ biến) vào **BQP**—máy lượng tử đủ lớn, đủ ít lỗi sẽ phá RSA/DH/ECC cổ điển. Do đó lộ trình **PQC**: Kyber/Dilithium (nay được chuẩn hóa thành ML-KEM/ML-DSA) và họ lattice, code-based, hash-based, … Xem [mật mã tương lai]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/) và [thông tin lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/).
 
-Biết đọc: “RSA vỡ ngày mai trên laptop” là sai; “RSA không phải primitive vĩnh cửu trước mô hình lượng tử” là đúng. Turing Award vinh danh **paradigm khóa công khai**, không phải một modulus cụ thể vĩnh viễn.
+Cần phân biệt: “RSA vỡ ngày mai trên laptop” là sai; “RSA không phải primitive vĩnh cửu trước mô hình lượng tử” là đúng. Giải Turing vinh danh **mô hình khóa công khai**, không phải một modulus cụ thể vĩnh viễn.
 
 ---
 
@@ -122,56 +122,34 @@ Biết đọc: “RSA vỡ ngày mai trên laptop” là sai; “RSA không ph�
 
 ## Bài tập
 
-1. Viết protocol DH 5 bước (chọn nhóm, $$a$$, $$A$$, $$b$$, $$B$$, $$K$$) và khoanh chỗ kẻ nghe lén nhìn thấy gì.  
+1. Viết giao thức DH theo từng bước (chọn nhóm, $$a$$, $$A$$, $$b$$, $$B$$, $$K$$) và khoanh chỗ kẻ nghe lén nhìn thấy gì.  
 2. Với $$p=23$$, $$g=5$$, $$a=6$$, $$b=15$$ (ví dụ đồ chơi): tính $$A,B,K$$ modulo $$23$$.  
 3. RSA đồ chơi: $$p=5$$, $$q=11$$, $$n=55$$, chọn $$e=3$$, tìm $$d$$, mã $$m=7$$. (Chỉ đồ chơi—không phải an ninh.)  
 4. Giải thích ≤100 từ vì sao $$\gcd(e,\varphi(n))=1$$ cần cho sự tồn tại $$d$$.  
 5. So sánh 1 đoạn: DLP vs factoring—mỗi cái đỡ primitive nào (DH vs RSA).  
 6. **≤250 từ:** Vì sao NP-đầy đủ của SAT không tự cho bạn hệ RSA.  
 7. Liệt kê ba tầng an ninh: toán primitive / giao thức / triển khai—mỗi tầng một rủi ro.  
-8. Studio: đọc một citation Turing liên quan (RSA 2002 hoặc Diffie–Hellman 2015) và gạch chân danh từ toán.
+8. Đọc một citation Turing liên quan (RSA 2002 hoặc Diffie–Hellman 2015) và gạch chân danh từ toán.
 
 ---
 
 
-## Nguồn video (gói math-video-researcher)
+## Video và tài liệu
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh. Chi tiết: `research/video-research/public-key-crypto/`.
+Các video gợi ý nằm ở phần *Video tham khảo* cuối bài. Hãy dùng video để làm quen với bối cảnh, không dùng thay cho chứng minh.
 
-**Khẩu hiệu từ gói nghiên cứu**
-
-- Diffie–Hellman 2015; RSA 2002; khóa công khai.
-
-**Thứ tự xem gợi ý**
+## Tài liệu tham khảo trực tuyến
 
 
-**Cổng chính thức / tài liệu**
-
-- Diffie Turing: https://amturing.acm.org/award_winners/diffie_8371646.cfm  
-- Hellman Turing: https://amturing.acm.org/award_winners/hellman_4055781.cfm  
-- Rivest Turing: https://amturing.acm.org/award_winners/rivest_1562803.cfm  
-- Shamir Turing: https://amturing.acm.org/award_winners/shamir_2327856.cfm  
-- Adleman Turing: https://amturing.acm.org/award_winners/adleman_7308544.cfm  
-
-Danh mục URL đầy đủ: `research/video-research/public-key-crypto/references.md`.
-
-## Tài liệu
-
-
-### Gói nghiên cứu video (mọi URL)
-
-Danh mục đầy đủ: `research/video-research/public-key-crypto/references.md`.
-
-1. Diffie Turing — https://amturing.acm.org/award_winners/diffie_8371646.cfm  
-2. Hellman Turing — https://amturing.acm.org/award_winners/hellman_4055781.cfm  
-3. Rivest Turing — https://amturing.acm.org/award_winners/rivest_1562803.cfm  
-4. Shamir Turing — https://amturing.acm.org/award_winners/shamir_2327856.cfm  
-5. Adleman Turing — https://amturing.acm.org/award_winners/adleman_7308544.cfm  
+1. Trang giải Turing của Diffie — https://amturing.acm.org/award_winners/diffie_8371646.cfm  
+2. Trang giải Turing của Hellman — https://amturing.acm.org/award_winners/hellman_4055781.cfm  
+3. Trang giải Turing của Rivest — https://amturing.acm.org/award_winners/rivest_1562803.cfm  
+4. Trang giải Turing của Shamir — https://amturing.acm.org/award_winners/shamir_2327856.cfm  
+5. Trang giải Turing của Adleman — https://amturing.acm.org/award_winners/adleman_7308544.cfm  
 6. Wikipedia — Public-key cryptography — https://en.wikipedia.org/wiki/Public-key_cryptography  
 7. Wikipedia — Diffie–Hellman key exchange — https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange  
 8. Wikipedia — RSA (cryptosystem) — https://en.wikipedia.org/wiki/RSA_(cryptosystem)  
-9. Original DH paper culture (IEEE) — https://ee.stanford.edu/~hellman/publications/24.pdf  
-10. Thư mục gói: `research/video-research/public-key-crypto/`.
+9. Bài báo gốc của Diffie–Hellman — https://ee.stanford.edu/~hellman/publications/24.pdf  
 
 1. Diffie, W., & Hellman, M. (1976). New directions in cryptography. *IEEE Trans. Inf. Theory*.  
 2. Rivest, R., Shamir, A., & Adleman, L. (1978). A method for obtaining digital signatures and public-key cryptosystems. *Comm. ACM*.  
@@ -188,11 +166,11 @@ Danh mục đầy đủ: `research/video-research/public-key-crypto/references.m
 
 ---
 
-## Paradigm hơn là modulus
+## Một mô hình tư duy, không phải một con số cụ thể
 
-Di sản Turing Award ở đây là **paradigm**: công khai hóa khả năng mã hóa/thỏa thuận mà không công khai cửa sập; biến giả định số học thành primitive mạng. Modulus 2048-bit cụ thể sẽ lỗi thời; ý tưởng cặp khóa và trao đổi khóa trên kênh công cộng thì đã viết lại kiến trúc tin cậy toàn cầu.
+Di sản được giải Turing ghi nhận ở đây là một **mô hình tư duy**: công khai hóa khả năng mã hóa/thỏa thuận mà không công khai cửa sập; biến giả định số học thành primitive mạng. Modulus 2048-bit cụ thể sẽ lỗi thời; ý tưởng cặp khóa và trao đổi khóa trên kênh công cộng thì đã viết lại kiến trúc tin cậy toàn cầu.
 
-Trong essay seminar, ưu tiên câu *cơ chế một bước đúng* hơn khẩu hiệu “lý thuyết số dùng trong mật mã.” Hỏi: gì dễ? gì khó? cửa sập là gì? giả định tên gì? tấn công bị loại là thụ động hay chủ động? Bốn câu đó tách người học cơ chế khỏi người thuộc tên giải thưởng.
+Khi viết bài luận, hãy ưu tiên câu *cơ chế một bước đúng* hơn khẩu hiệu “lý thuyết số dùng trong mật mã.” Hỏi: gì dễ? gì khó? cửa sập là gì? giả định tên gì? tấn công bị loại là thụ động hay chủ động? Bốn câu đó tách người học cơ chế khỏi người thuộc tên giải thưởng.
 
 ## Lũy thừa nhanh: chi tiết Knuth gặp mật mã
 
@@ -200,6 +178,6 @@ Tính $$g^a\bmod p$$ bằng bình phương lặp: $$O(\log a)$$ nhân modulo. Đ
 
 ## Video tham khảo
 
-- **xem trước** — [8.Hệ mật RSA_Định nghĩa và ví dụ](https://www.youtube.com/watch?v=QEoRfrSKciI) — Bùi Thị Thùy _CNTT, tiếng Việt. Xem trước: định nghĩa và ví dụ RSA bằng tiếng Việt, để đối chiếu với phần trapdoor và số học mô-đun trong bài.
-- [Secret Key Exchange (Diffie-Hellman) - Computerphile](https://www.youtube.com/watch?v=NmM9HA2MQGI) — Computerphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Giải thích vấn đề phân phối khóa và vì sao đối xứng đơn thuần không đủ cho internet mở.
-- [Diffie Hellman -the Mathematics bit- Computerphile](https://www.youtube.com/watch?v=Yjrfm_oRO0w) — Computerphile, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Giải thích vấn đề phân phối khóa và vì sao đối xứng đơn thuần không đủ cho internet mở.
+- **Xem trước** — [8.Hệ mật RSA_Định nghĩa và ví dụ](https://www.youtube.com/watch?v=QEoRfrSKciI) — Bùi Thị Thùy _CNTT, tiếng Việt. Xem trước: định nghĩa và ví dụ RSA bằng tiếng Việt, để đối chiếu với phần trapdoor và số học mô-đun trong bài.
+- [Secret Key Exchange (Diffie-Hellman) - Computerphile](https://www.youtube.com/watch?v=NmM9HA2MQGI) — Computerphile, tiếng Anh. Xem sau khi đã nắm ý chính.
+- [Diffie Hellman -the Mathematics bit- Computerphile](https://www.youtube.com/watch?v=Yjrfm_oRO0w) — Computerphile, tiếng Anh. Góc nhìn bổ sung.

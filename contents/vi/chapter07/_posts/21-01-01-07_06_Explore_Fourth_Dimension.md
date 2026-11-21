@@ -9,49 +9,49 @@ categories:
 - chapter07
 ---
 
-> **Liên kết**  
-> [Viazovska / xếp cầu]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/) · [Studio packing]({{ site.baseurl }}/contents/vi/chapter07/07_03_Explore_Sphere_Packing/) · [Vô hạn]({{ site.baseurl }}/contents/vi/chapter07/07_08_Explore_Describe_Infinity/)
+> **Bài liên quan**  
+> [Viazovska / xếp cầu]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/) · [Thực hành xếp cầu]({{ site.baseurl }}/contents/vi/chapter07/07_03_Explore_Sphere_Packing/) · [Vô hạn]({{ site.baseurl }}/contents/vi/chapter07/07_08_Explore_Describe_Infinity/)
 
-Chiều thứ tư không phải chuyện ma. Đó là **$$\mathbb{R}^4$$**: bộ bốn số thực có thứ tự với metric Euclid
+Chiều thứ tư không có gì bí ẩn. Đó là **$$\mathbb{R}^4$$**: tập các bộ bốn số thực có thứ tự, với khoảng cách Euclid
 
 $$
 \lVert x\rVert=\sqrt{x_1^2+x_2^2+x_3^2+x_4^2}.
 $$
 
-Mắt người và tiến hóa ba chiều, nhưng **tọa độ, đại số tuyến tính, đếm** không quan tâm. Studio xây trực giác qua siêu lập phương, phép chiếu, lát cắt, nghịch lý thể tích—rồi nối hình học cao chiều với packing và xác suất.
+Mắt người quen với không gian ba chiều, nhưng **tọa độ, đại số tuyến tính và phép đếm** thì không bị giới hạn bởi số chiều. Bài thực hành này giúp bạn xây dựng trực giác thông qua siêu lập phương, phép chiếu, lát cắt và những kết quả bất ngờ về thể tích, sau đó nối hình học nhiều chiều với bài toán xếp cầu và xác suất.
 
-Bạn sẽ không “nhìn” 4D như nhìn ghế. Bạn sẽ **tính** những gì 4D buộc bạn tin. Cùng tinh thần studio khác: giả thuyết trực giác trước khi đo; artifact có tên map toán học; log tách định nghĩa, định lý, và quan sát.
+Bạn sẽ không "nhìn thấy" không gian bốn chiều như nhìn một cái ghế. Thay vào đó, bạn sẽ **tính toán** để biết không gian bốn chiều có những tính chất gì. Cách làm giống các bài thực hành khác: nêu dự đoán trực giác trước khi đo; mỗi hình vẽ phải ghi rõ phép biến đổi toán học tạo ra nó; nhật ký phân biệt định nghĩa, định lý và quan sát.
 
 ---
 
 ## Mục tiêu học tập
 
-Sau studio bạn cần:
+Sau bài thực hành, bạn có thể:
 
-- Dùng tọa độ định nghĩa khoảng cách, siêu phẳng, quả cầu trong $$\mathbb{R}^n$$ tổng quát.
-- Bảng đỉnh/cạnh/mặt/ô cho $$I^n=[0,1]^n$$ với $$n=1..4$$ (và công thức nhị thức).
-- Giải thích chiếu tesseract xuống 2D/3D như ánh xạ, không phải phép thuật.
-- Thảo luận $$V_n$$ thể tích quả cầu đơn vị và vì sao $$V_n\to 0$$ khi $$n\to\infty$$.
-- Một ẩn dụ hữu ích và một ẩn dụ gây hại về “chiều 4”.
-- Nối tập trung thể tích cao chiều với packing/vector ngẫu nhiên (mức slogan).
+- Dùng tọa độ để định nghĩa khoảng cách, siêu phẳng và quả cầu trong $$\mathbb{R}^n$$.
+- Lập bảng số đỉnh, cạnh, mặt, ô của siêu lập phương $$I^n=[0,1]^n$$ với $$n=1..4$$ (và công thức dùng hệ số nhị thức).
+- Giải thích phép chiếu siêu lập phương bốn chiều (tesseract) xuống 2D/3D là một ánh xạ cụ thể, không có gì huyền bí.
+- Tìm hiểu thể tích $$V_n$$ của quả cầu đơn vị và giải thích vì sao $$V_n\to 0$$ khi $$n\to\infty$$.
+- Nêu một phép so sánh hữu ích và một phép so sánh gây hiểu sai về "chiều thứ tư".
+- Giải thích ngắn gọn mối liên hệ giữa hiện tượng tập trung thể tích trong không gian nhiều chiều với bài toán xếp cầu và vectơ ngẫu nhiên.
 
-**Tiên quyết.** Vector, tích vô hướng, $$\binom{n}{k}$$, sẵn sàng vẽ.
+**Kiến thức cần có.** Vectơ, tích vô hướng, $$\binom{n}{k}$$, sẵn sàng vẽ hình.
 
 ---
 
-## 1. Toán nền
+## 1. Kiến thức toán nền
 
-### 1.1 Chiều = bậc tự do
+### 1.1 Số chiều là số bậc tự do
 
-Điểm trong $$\mathbb{R}^n$$ là $$(x_1,\ldots,x_n)$$. Không gian con tuyến tính có chiều bằng cỡ cơ sở. Cầu
+Một điểm trong $$\mathbb{R}^n$$ là một bộ $$(x_1,\ldots,x_n)$$. Số chiều của một không gian con tuyến tính bằng số phần tử của một cơ sở. Mặt cầu
 
 $$
 S^{n-1}=\{x\in\mathbb{R}^n:\lVert x\rVert=1\}
 $$
 
-là đa tạp chiều $$n-1$$. Không cần huyền học: tọa độ thứ tư hợp lệ như tọa độ thứ ba.
+là một đa tạp có số chiều $$n-1$$. Không có gì thần bí ở đây: tọa độ thứ tư cũng hợp lệ như tọa độ thứ ba.
 
-Thời gian đôi khi được gọi “chiều thứ tư” trong vật lý (spacetime), nhưng **spacetime Minkowski** không phải Euclid $$\mathbb{R}^4$$—signature metric khác. Giữ hình học Euclid và mô hình vật lý trong hai hộp log riêng trừ khi cố ý so.
+Trong vật lý, thời gian đôi khi được gọi là "chiều thứ tư" (trong không-thời gian). Nhưng **không-thời gian Minkowski** không phải là không gian Euclid $$\mathbb{R}^4$$, vì metric có dấu khác. Trong nhật ký, hãy tách riêng hình học Euclid và mô hình vật lý, trừ khi bạn cố ý so sánh hai thứ.
 
 ### 1.2 Siêu lập phương $$I^n$$
 
@@ -63,179 +63,179 @@ Siêu lập phương đơn vị $$I^n=[0,1]^n$$ có:
 | Cạnh | $$n\cdot 2^{n-1}$$ |
 | Mặt $$k$$-chiều | $$\binom{n}{k}2^{n-k}$$ |
 
-Lý do cạnh: mỗi đỉnh là chuỗi $$n$$ bit; lật đúng một bit đi dọc cạnh; nếu cộng bậc thì mỗi cạnh đếm hai lần, nên $$E=\tfrac12\cdot 2^n\cdot n=n2^{n-1}$$. Lý do mặt $$k$$: chọn $$k$$ tọa độ biến thiên trong $$[0,1]$$ và cố định mỗi trong $$n-k$$ tọa độ còn lại bằng 0 hoặc 1.
+Giải thích số cạnh: mỗi đỉnh ứng với một chuỗi $$n$$ bit; đổi đúng một bit là đi dọc một cạnh. Mỗi đỉnh có $$n$$ cạnh, và khi cộng bậc của mọi đỉnh thì mỗi cạnh được đếm hai lần, nên $$E=\tfrac12\cdot 2^n\cdot n=n2^{n-1}$$. Giải thích số mặt $$k$$ chiều: chọn $$k$$ tọa độ được thay đổi trong $$[0,1]$$, và cố định mỗi tọa độ trong $$n-k$$ tọa độ còn lại bằng 0 hoặc 1.
 
-Với $$n=4$$ (**tesseract**): 16 đỉnh, 32 cạnh, 24 mặt vuông, 8 ô lập phương. Tự lập bảng trước khi tin video. Hình quy nạp giúp: để được $$I^{n+1}$$, lấy hai bản $$I^n$$ và nối đỉnh tương ứng bằng cạnh mới—ẩn dụ “đùn” (extrude) khiến 4D giống phim của các khối 3D.
+Với $$n=4$$ (**tesseract**): 16 đỉnh, 32 cạnh, 24 mặt vuông, 8 ô lập phương. Hãy tự lập bảng trước khi tin vào video. Cách xây dựng quy nạp sẽ giúp ích: để có $$I^{n+1}$$, lấy hai bản sao của $$I^n$$ và nối các đỉnh tương ứng bằng cạnh mới. Đây là phép "kéo dài" (extrude), giúp ta hình dung khối bốn chiều như một chuỗi khối ba chiều nối tiếp nhau.
 
-### 1.3 Chiếu và bóng
+### 1.3 Phép chiếu và hình bóng
 
-Ánh xạ tuyến tính $$P:\mathbb{R}^4\to\mathbb{R}^3$$ (hoặc $$\mathbb{R}^2$$) gửi tesseract thành đa diện hoặc hình phẳng. Cạnh thành đoạn; giao trong hình vẽ thường **không** là giao trong 4D. Sơ đồ Schlegel và phép quay kép (trong mặt phẳng tọa độ $$(x_1x_2)$$ và $$(x_3x_4)$$) tạo animation tesseract quay nổi tiếng.
+Một ánh xạ tuyến tính $$P:\mathbb{R}^4\to\mathbb{R}^3$$ (hoặc vào $$\mathbb{R}^2$$) biến tesseract thành một đa diện hoặc một hình phẳng. Mỗi cạnh trở thành một đoạn thẳng; những chỗ cắt nhau trên hình vẽ thường **không** phải là giao điểm thật trong không gian bốn chiều. Sơ đồ Schlegel và phép quay kép (đồng thời trong hai mặt phẳng tọa độ $$(x_1x_2)$$ và $$(x_3x_4)$$) tạo ra những hình động tesseract xoay quen thuộc.
 
-**Kỷ luật studio.** Khi xem video, ghi map toán học: tọa độ nào bị bỏ hoặc trộn? Nếu không, animation chỉ là giải trí, không phải hình học.
+**Yêu cầu khi thực hành.** Khi xem video, hãy ghi lại phép biến đổi toán học: tọa độ nào bị bỏ đi hoặc bị trộn với nhau? Nếu không làm được điều đó, hình động chỉ để giải trí chứ chưa phải là hình học.
 
 ### 1.4 Lát cắt
 
-Giao tesseract với siêu phẳng ba chiều $$\{x_4=t\}$$ cho khối lập phương phồng–xẹp theo $$t$$—tương tự cắt khối 3D bằng mặt phẳng để được hình chữ nhật, lục giác, v.v. Lát cắt thường đáng tin hơn chiếu khi hỏi “cái gì xuất hiện”.
+Cắt tesseract bằng siêu phẳng ba chiều $$\{x_4=t\}$$ ta được một khối lập phương, có thể thay đổi theo $$t$$. Điều này tương tự như cắt một khối ba chiều bằng mặt phẳng để được hình chữ nhật, lục giác, v.v. Khi muốn biết "cái gì xuất hiện", lát cắt thường đáng tin hơn phép chiếu.
 
-Ví dụ nhanh: với $$t=0$$ hoặc $$t=1$$, lát là mặt “đáy” hoặc “nắp” lập phương $$[0,1]^3$$. Với $$t\in(0,1)$$, lát là $$[0,1]^3$$ đầy. (Với tesseract đơn vị theo tọa độ chuẩn như vậy lát rất đơn giản; với siêu phẳng nghiêng, lát có thể là đa diện phong phú hơn—ghi rõ mặt phẳng bạn chọn.)
+Ví dụ: với $$t=0$$ hoặc $$t=1$$, lát cắt là ô "đáy" hoặc ô "nắp", tức là lập phương $$[0,1]^3$$. Với $$t\in(0,1)$$, lát cắt cũng là khối $$[0,1]^3$$ đầy. (Với tesseract đơn vị đặt theo tọa độ chuẩn như vậy, lát cắt rất đơn giản; với siêu phẳng nghiêng, lát cắt có thể là những đa diện phức tạp hơn. Hãy ghi rõ siêu phẳng bạn chọn.)
 
 ### 1.5 Thể tích quả cầu đơn vị
 
-Thể tích quả cầu đơn vị Euclid $$B^n=\{x:\lVert x\rVert\le 1\}$$ là
+Thể tích của quả cầu đơn vị Euclid $$B^n=\{x:\lVert x\rVert\le 1\}$$ là
 
 $$
 V_n=\frac{\pi^{n/2}}{\Gamma\!\left(\frac{n}{2}+1\right)}.
 $$
 
-Giá trị: $$V_1=2$$, $$V_2=\pi$$, $$V_3=\frac{4}{3}\pi$$, rồi tăng, rồi giảm về 0 khi $$n\to\infty$$. Trong khi đó khối $$[-1,1]^n$$ có thể tích $$2^n\to\infty$$. Vậy quả cầu đơn vị trở thành phần nhỏ biến mất của khối ngoại tiếp: không gian cao chiều **nhọn**—thể tích tập trung ở góc khối và gần xích đạo cầu.
+Các giá trị: $$V_1=2$$, $$V_2=\pi$$, $$V_3=\frac{4}{3}\pi$$; sau đó $$V_n$$ tăng thêm một đoạn rồi giảm dần về 0 khi $$n\to\infty$$. Trong khi đó khối lập phương $$[-1,1]^n$$ có thể tích $$2^n\to\infty$$. Như vậy quả cầu đơn vị chỉ chiếm một phần ngày càng nhỏ của khối lập phương ngoại tiếp: trong không gian nhiều chiều, thể tích tập trung ở các góc của khối lập phương và gần "đường xích đạo" của quả cầu.
 
-Câu chuyện diện tích mặt liên quan: hầu hết measure của $$B^n$$ nằm trong vỏ mỏng gần bán kính 1. Đó là vì sao xác suất cao chiều thường giảm câu hỏi hình học về hành vi trên cầu, và vì sao trực giác “cam và hộp” từ $$n=2,3$$ làm lệch thí nghiệm packing ở studio đồng hành.
+Có một hiện tượng liên quan: phần lớn thể tích của $$B^n$$ nằm trong một lớp vỏ mỏng gần bán kính 1. Vì vậy nhiều câu hỏi hình học trong xác suất nhiều chiều được quy về câu hỏi trên mặt cầu, và trực giác quen thuộc từ $$n=2,3$$ (như "xếp cam vào hộp") dễ làm ta đoán sai trong thí nghiệm xếp cầu ở bài thực hành đi kèm.
 
-### 1.6 Tập trung và vector ngẫu nhiên
+### 1.6 Hiện tượng tập trung và vectơ ngẫu nhiên
 
-Với điểm ngẫu nhiên đều trên $$S^{n-1}$$, tọa độ điển hình cỡ $$1/\sqrt{n}$$. Hầu hết measure cầu cao chiều nằm trong vỏ mỏng gần biên. Các sự thật này nuôi xác suất cao chiều hiện đại và giải thích vì sao trực giác từ $$n=2,3$$ thất bại cho packing, polytope, và hình học dữ liệu.
+Với một điểm ngẫu nhiên phân bố đều trên $$S^{n-1}$$, mỗi tọa độ thường có độ lớn cỡ $$1/\sqrt{n}$$. Phần lớn độ đo của quả cầu nhiều chiều nằm trong lớp vỏ mỏng gần biên. Những sự kiện này là nền tảng của xác suất nhiều chiều hiện đại, và giải thích vì sao trực giác từ $$n=2,3$$ không còn đúng với bài toán xếp cầu, với các đa diện nhiều chiều và với hình học của dữ liệu.
 
-### 1.7 Polytopes chính quy
+### 1.7 Các đa diện đều
 
-2D: vô hạn đa giác đều. 3D: năm khối Platon. 4D: sáu polytope chính quy (gồm 24-cell, không có analogue 3D hoàn hảo). Với $$n\ge 5$$: chỉ ba họ (simplex, cube, cross-polytope). Chiều ràng buộc đối xứng.
+Trong 2D có vô số đa giác đều. Trong 3D có năm khối Platon. Trong 4D có sáu đa diện đều (trong đó có khối 24 ô, không có khối tương tự hoàn toàn trong 3D). Với $$n\ge 5$$ chỉ còn ba họ: đơn hình, siêu lập phương và siêu bát diện (cross-polytope). Số chiều càng cao thì càng ít khả năng đối xứng.
 
 ---
 
-## 2. Conjecture / chứng minh / thí nghiệm
+## 2. Giả thuyết, chứng minh và thí nghiệm
 
-Hầu hết tuyên bố bạn gặp là **định lý** (công thức đếm, thể tích) hoặc **định nghĩa**. Phần “conjecture” thường là **trực giác** của bạn—đối xử như giả thuyết để giết.
+Phần lớn các khẳng định bạn gặp trong bài là **định lý** (công thức đếm, công thức thể tích) hoặc **định nghĩa**. Phần "giả thuyết" thường là **trực giác** của chính bạn; hãy coi nó như một giả thuyết cần kiểm tra và có thể bác bỏ.
 
 | Nhãn | Ví dụ |
 |------|-------|
 | **Định lý** | $$V_n\to 0$$; công thức đếm mặt |
-| **Mô hình** | Spacetime vs Euclid 4D |
-| **Trực quan** | Chiếu đã chọn; artifact vẽ |
-| **Quan sát** | “Trong plot của tôi, $$V_n$$ đỉnh gần $$n=5$$” |
+| **Mô hình** | Không-thời gian so với không gian Euclid 4 chiều |
+| **Hình ảnh trực quan** | Một phép chiếu đã chọn; các chỗ cắt giả trên hình vẽ |
+| **Quan sát** | "Trên đồ thị của tôi, $$V_n$$ đạt cực đại gần $$n=5$$" |
 
 **Tiêu chí:**
 
-1. Bảng hypercube $$n=1..4$$ với ít nhất một kiểm nhị thức.  
-2. Một chiếu hoặc lát cắt có tên map.  
-3. Bảng/plot $$V_n$$ cho $$n=1..15$$ (tốt hơn đến 20) nhận đỉnh.  
-4. Ẩn dụ tốt + xấu, mỗi cái có lý do.  
-5. Đoạn nối packing hoặc xác suất.
+1. Bảng số liệu siêu lập phương với $$n=1..4$$, có ít nhất một lần kiểm tra bằng công thức nhị thức.  
+2. Một phép chiếu hoặc lát cắt, có ghi rõ ánh xạ được dùng.  
+3. Bảng hoặc đồ thị $$V_n$$ với $$n=1..15$$ (tốt hơn là đến 20), xác định điểm cực đại.  
+4. Một phép so sánh tốt và một phép so sánh gây hiểu sai, mỗi cái kèm lý do.  
+5. Một đoạn nối với bài toán xếp cầu hoặc xác suất.
 
 ---
 
-## 3. Chuẩn log
+## 3. Cách ghi nhật ký
 
-**Ngày · Ý định · Hành động · Kết quả · Nhãn · Diễn giải · Tiếp.**
+**Ngày · Mục đích · Việc đã làm · Kết quả · Nhãn · Diễn giải · Bước tiếp theo.**
 
-Code dùng gamma: ghi thư viện. AI vẽ SVG tesseract: disclose; vẫn tự đếm đỉnh.
+Nếu viết mã dùng hàm gamma, hãy ghi rõ thư viện. Nếu dùng AI để vẽ hình SVG của tesseract, hãy khai báo, và vẫn phải tự đếm số đỉnh.
 
 ---
 
-## 4. Thí nghiệm
+## 4. Các thí nghiệm
 
-Làm ≥2 trong A–E.
+Làm ít nhất 2 trong các thí nghiệm A–E.
 
-### A — Tổng điều tra hypercube (25–40′)
+### A — Thống kê siêu lập phương (25–40 phút)
 
-Điền:
+Điền bảng:
 
-| $$n$$ | Đỉnh | Cạnh | Vuông | Lập phương | 4-cell |
+| $$n$$ | Đỉnh | Cạnh | Vuông | Lập phương | Ô 4 chiều |
 |-------|------|------|-------|------------|--------|
 | 1 | | | — | — | — |
 | 2 | | | | — | — |
 | 3 | | | | | — |
 | 4 | | | | | |
 
-Kiểm cạnh $$=n 2^{n-1}$$ và đỉnh $$=2^n$$.
+Kiểm tra số cạnh $$=n 2^{n-1}$$ và số đỉnh $$=2^n$$.
 
-**Tiêu chí:** bảng đầy + một câu chuyện quy nạp (“từ $$n$$ sang $$n+1$$: đùn hai bản”).
+**Tiêu chí:** bảng đầy đủ + giải thích quy nạp ("từ $$n$$ lên $$n+1$$: lấy hai bản sao rồi nối lại").
 
-### B — Phác chiếu (30–60′)
+### B — Phác họa phép chiếu (30–60 phút)
 
-Vẽ tesseract kiểu “lập phương trong lập phương” nối đỉnh tương ứng, hoặc code chiếu 16 điểm bằng ma trận $$2\times 4$$ hoặc $$3\times 4$$. Ghi cạnh nào chỉ giao trên hình vẽ.
+Vẽ tesseract theo kiểu "lập phương trong lập phương" rồi nối các đỉnh tương ứng, hoặc viết mã chiếu 16 đỉnh bằng một ma trận $$2\times 4$$ hoặc $$3\times 4$$. Ghi lại những cạnh nào chỉ cắt nhau trên hình vẽ.
 
-**Tiêu chí:** hình + ghi chú tường minh về false crossings.
+**Tiêu chí:** hình vẽ + ghi chú rõ ràng về các chỗ cắt giả.
 
-### C — Storyboard lát cắt (30–50′)
+### C — Chuỗi lát cắt (30–50 phút)
 
-Với $$t\in\{0,0.25,0.5,0.75,1\}$$, mô tả $$I^4\cap\{x_4=t\}$$. Lát 3D đổi thế nào? Tùy chọn: so cắt khối 3D bằng mặt $$z=t$$.
+Với $$t\in\{0,0.25,0.5,0.75,1\}$$, mô tả $$I^4\cap\{x_4=t\}$$. Lát cắt ba chiều thay đổi thế nào? Tùy chọn: so sánh với việc cắt khối lập phương 3D bằng mặt phẳng $$z=t$$.
 
-**Tiêu chí:** năm mô tả ngắn hoặc phác.
+**Tiêu chí:** năm mô tả ngắn hoặc năm hình phác.
 
-### D — Đỉnh thể tích (30–45′)
+### D — Cực đại của thể tích (30–45 phút)
 
-Tính $$V_n$$ số cho $$n=1,\ldots,20$$. Plot. Cực đại ở đâu? Xác nhận $$V_n\to 0$$. So $$V_n/2^n$$ (cầu vs khối $$[-1,1]^n$$).
+Tính giá trị số của $$V_n$$ với $$n=1,\ldots,20$$. Vẽ đồ thị. Cực đại nằm ở đâu? Xác nhận $$V_n\to 0$$. So sánh tỉ số $$V_n/2^n$$ (quả cầu so với khối $$[-1,1]^n$$).
 
-**Tiêu chí:** plot/bảng + hai câu đạo đức về concentration.
+**Tiêu chí:** đồ thị hoặc bảng + hai câu rút ra về hiện tượng tập trung.
 
-### E — Mổ ẩn dụ (20–30′)
+### E — Phân tích các phép so sánh (20–30 phút)
 
 Viết:
 
-1. Ẩn dụ hữu ích (ví dụ Flatland: sinh vật 2D gặp quả cầu).  
-2. Ẩn dụ gây hại (ví dụ “thời gian giống hệt không gian” không caveat metric; hoặc “chiều 4 là tâm linh”).  
+1. Một phép so sánh hữu ích (ví dụ trong *Flatland*: sinh vật hai chiều gặp một quả cầu).  
+2. Một phép so sánh gây hiểu sai (ví dụ "thời gian giống hệt không gian" mà không nói đến sự khác biệt về metric; hoặc "chiều thứ tư là thế giới tâm linh").  
 
-Giải thích failure mode của ẩn dụ xấu.
+Giải thích vì sao phép so sánh thứ hai dẫn đến hiểu sai.
 
-**Tiêu chí:** hai đoạn; không huyền học không kiểm.
+**Tiêu chí:** hai đoạn văn; không đưa ra khẳng định thần bí mà không kiểm chứng.
 
 ---
 
-## 5. Nhầm lẫn thường gặp
+## 5. Hiểu lầm thường gặp
 
-1. Chiều 4 = thời gian, hết — spacetime metric khác; Euclid $$\mathbb{R}^4$$ là đối tượng riêng.  
-2. Không visualize ⇒ không chặt — tọa độ là độ chặt.  
-3. Chiếu hiện giao thật — artifact vẽ.  
-4. $$V_n$$ tăng mãi — rồi giảm.  
-5. Cao chiều = “thêm chút giống 3D” — concentration đổi định tính hình học và xác suất.
+1. "Chiều thứ tư chính là thời gian." Không-thời gian có metric khác; không gian Euclid $$\mathbb{R}^4$$ là một đối tượng riêng.  
+2. "Không hình dung được thì không chặt chẽ." Chính tọa độ mang lại sự chặt chẽ.  
+3. "Phép chiếu cho thấy giao điểm thật." Đó thường chỉ là chỗ cắt giả trên hình vẽ.  
+4. "$$V_n$$ tăng mãi." Thực ra nó tăng rồi giảm.  
+5. "Không gian nhiều chiều chỉ là 3D thêm một chút." Hiện tượng tập trung làm thay đổi bản chất của hình học và xác suất.
 
 ---
 
 ## 6. Bài tập
 
-1. Quy nạp: $$I^n$$ có $$2^n$$ đỉnh.  
-2. Số cạnh $$n2^{n-1}$$.  
-3. Kiểm $$V_2$$, $$V_3$$ từ công thức.  
-4. Khoảng cách Euclid $$(0,0,0,0)$$–$$(1,1,1,1)$$; so đường chéo thân khối 3D đơn vị.  
-5. Đề xuất ≤150 từ: thí nghiệm trung tâm và tiêu chí thành công.
+1. Chứng minh bằng quy nạp: $$I^n$$ có $$2^n$$ đỉnh.  
+2. Chứng minh số cạnh là $$n2^{n-1}$$.  
+3. Kiểm tra $$V_2$$, $$V_3$$ từ công thức.  
+4. Tính khoảng cách Euclid giữa $$(0,0,0,0)$$ và $$(1,1,1,1)$$; so sánh với đường chéo của khối lập phương đơn vị 3D.  
+5. Viết đề xuất không quá 150 từ: thí nghiệm chính của bạn và tiêu chí thành công.
 
 ---
 
-## 7. Rubric
+## 7. Danh sách kiểm tra theo tiêu chí chấm
 
-| ☐ | Bảng hypercube $$n=1..4$$ |
-| ☐ | Artifact chiếu/lát |
-| ☐ | Plot $$V_n$$ + peak |
-| ☐ | Hai ẩn dụ |
-| ☐ | Nối packing/xác suất |
-| ☐ | Log ≥3 |
+| ☐ | Bảng siêu lập phương $$n=1..4$$ |
+| ☐ | Hình chiếu hoặc lát cắt |
+| ☐ | Đồ thị $$V_n$$ + điểm cực đại |
+| ☐ | Hai phép so sánh |
+| ☐ | Liên hệ với xếp cầu hoặc xác suất |
+| ☐ | Nhật ký ít nhất 3 mục |
 
 ---
 
 
-## Nguồn video (gói math-video-researcher)
+## Nguồn video (bộ tư liệu nghiên cứu video)
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh. Chi tiết: `research/video-research/explore-fourth-dimension/`.
+Video dùng để **định hướng và làm quen với cách làm nghiên cứu**, không thay thế chứng minh. Chi tiết: `research/video-research/explore-fourth-dimension/`.
 
-**Khẩu hiệu từ gói nghiên cứu**
+**Những điểm chính từ bộ tư liệu**
 
-- Điểm $$\mathbb{R}^4$$ là tọa độ bốn; tesseract và $$S^3$$ là neo hình học.
-- Mật độ/packing khác biệt theo chiều; tránh định nghĩa “thời gian = chiều 4” cho Euclidean studio.
+- Một điểm trong $$\mathbb{R}^4$$ là bộ bốn tọa độ; tesseract và mặt cầu $$S^3$$ là hai ví dụ hình học chính.
+- Mật độ xếp cầu thay đổi rất khác nhau theo số chiều; trong bài thực hành về không gian Euclid, tránh định nghĩa "thời gian là chiều thứ tư".
 
 **Thứ tự xem gợi ý**
 
-1. **INTUITION** — Numberphile — Perfect Shapes in Higher Dimensions (packing link): [https://www.youtube.com/watch?v=mceaM2_zQd8](https://www.youtube.com/watch?v=mceaM2_zQd8).  
-2. **CORE** — Viazovska sphere packing (high-D density culture): [https://www.youtube.com/watch?v=fH6KNlUJux0](https://www.youtube.com/watch?v=fH6KNlUJux0).  
+1. **Trực giác** — Numberphile — các hình đặc biệt trong không gian nhiều chiều (liên quan đến xếp cầu): [https://www.youtube.com/watch?v=mceaM2_zQd8](https://www.youtube.com/watch?v=mceaM2_zQd8).  
+2. **Cốt lõi** — Viazovska nói về xếp cầu (mật độ trong không gian nhiều chiều): [https://www.youtube.com/watch?v=fH6KNlUJux0](https://www.youtube.com/watch?v=fH6KNlUJux0).  
 
-**Cổng chính thức / tài liệu**
+**Tài liệu gốc**
 
-- Viazovska E8 (high-D packing theorem): https://arxiv.org/abs/1603.04246  
+- Viazovska, xếp cầu trong chiều 8 với lưới E8: https://arxiv.org/abs/1603.04246  
 
-Danh mục URL đầy đủ: `research/video-research/explore-fourth-dimension/references.md`.
+Danh sách URL đầy đủ: `research/video-research/explore-fourth-dimension/references.md`.
 
 ## 8. Tài liệu
 
 
-### Gói nghiên cứu video (mọi URL)
+### Bộ tư liệu video (mọi URL)
 
 Danh mục đầy đủ: `research/video-research/explore-fourth-dimension/references.md`.
 
@@ -250,29 +250,29 @@ Danh mục đầy đủ: `research/video-research/explore-fourth-dimension/refer
 9. Quanta high-dimensional geometry tag — https://www.quantamagazine.org/tag/geometry/  
 10. Thư mục gói: `research/video-research/explore-fourth-dimension/`.
 
-1. Bài packing và studio packing cho mật độ cao chiều.  
-2. Coxeter, *Regular Polytopes* (cổ điển).  
-3. Ghi chú high-dimensional probability (kiểu Vershynin) cho concentration.  
-4. Studio [vô hạn]({{ site.baseurl }}/contents/vi/chapter07/07_08_Explore_Describe_Infinity/) cho “cỡ” khác của hiện tượng vô hạn chiều (không gian hàm)—giữ ranh giới khái niệm.
+1. Bài về xếp cầu và bài thực hành xếp cầu, cho phần mật độ trong không gian nhiều chiều.  
+2. Coxeter, *Regular Polytopes* (sách kinh điển).  
+3. Các bài giảng về xác suất nhiều chiều (ví dụ của Vershynin) cho hiện tượng tập trung.  
+4. Bài thực hành [vô hạn]({{ site.baseurl }}/contents/vi/chapter07/07_08_Explore_Describe_Infinity/) cho một kiểu "vô hạn chiều" khác (không gian hàm). Lưu ý không nhầm lẫn hai khái niệm.
 
 ---
 
 ## Hướng đi tiếp
 
-Code quay 4D như ma trận trực giao block-diagonal và animate chiếu. Hoặc tính solid angle / cấu hình kissing chiều 4 và so kissing number đã biết bằng 24. Nối [studio packing]({{ site.baseurl }}/contents/vi/chapter07/07_03_Explore_Sphere_Packing/) khi $$V_n/2^n\to 0$$ làm bạn hỏi “xếp cầu cao chiều có nghĩa gì”.
+Viết mã thực hiện phép quay 4D bằng ma trận trực giao dạng khối chéo và tạo hình động cho phép chiếu. Hoặc tìm hiểu cấu hình các quả cầu tiếp xúc trong không gian bốn chiều và so sánh với số tiếp xúc (kissing number) đã biết là 24. Hãy chuyển sang [bài thực hành xếp cầu]({{ site.baseurl }}/contents/vi/chapter07/07_03_Explore_Sphere_Packing/) khi kết quả $$V_n/2^n\to 0$$ khiến bạn tự hỏi "xếp cầu trong không gian nhiều chiều có nghĩa là gì".
 
-**Gợi ý tổng hợp một trang.** (i) bảng hypercube đã kiểm; (ii) chiếu hay lát dạy gì về artifact; (iii) peak và suy giảm $$V_n$$; (iv) ẩn dụ tốt/xấu; (v) một câu nối packing hoặc vector ngẫu nhiên.
+**Gợi ý viết bản tổng hợp một trang.** (i) bảng số liệu siêu lập phương đã kiểm tra; (ii) phép chiếu hoặc lát cắt cho bạn thấy gì về các chỗ cắt giả; (iii) cực đại và sự suy giảm của $$V_n$$; (iv) phép so sánh tốt và phép so sánh gây hiểu sai; (v) một câu nối với bài toán xếp cầu hoặc vectơ ngẫu nhiên.
 
-### Transcript & frames (batch extract)
+### Phụ đề và khung hình (trích xuất hàng loạt)
 
-Transcript caption và unit theo thời gian: `research/video-research/explore-fourth-dimension/transcripts/` · trạng thái: `research/video-research/explore-fourth-dimension/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
+Phụ đề và các đoạn theo thời gian: `research/video-research/explore-fourth-dimension/transcripts/` · trạng thái: `research/video-research/explore-fourth-dimension/TRANSCRIPT_STATUS.md` · tổng hợp: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
 
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/explore-fourth-dimension_mceaM2_zQd8_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính (xem bộ tư liệu để biết mốc thời gian).*
 
 
 ## Video tham khảo
 
-- **xem trước** — [Strange Spheres in Higher Dimensions - Numberphile](https://www.youtube.com/watch?v=mceaM2_zQd8) — Numberphile, tiếng Anh. Xem trước. “Strange Spheres in Higher Dimensions - Numberphile” định hướng cho mục tiêu của bài: Dùng tọa độ định nghĩa khoảng cách, siêu phẳng, quả cầu trong \mathbb{R}^n tổng quát.
-- [Einstein Lectures: Maryna Viazovska - The sphere packing problem](https://www.youtube.com/watch?v=fH6KNlUJux0) — Universität Bern, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Dùng tọa độ định nghĩa khoảng cách, siêu phẳng, quả cầu trong \mathbb{R}^n tổng quát.
+- **Xem trước:** [Strange Spheres in Higher Dimensions - Numberphile](https://www.youtube.com/watch?v=mceaM2_zQd8) — Numberphile, tiếng Anh. Những tính chất lạ của quả cầu trong không gian nhiều chiều; nên xem trước khi đọc bài.
+- [Einstein Lectures: Maryna Viazovska - The sphere packing problem](https://www.youtube.com/watch?v=fH6KNlUJux0) — Universität Bern, tiếng Anh. Bài giảng của Viazovska về bài toán xếp cầu; nên xem sau khi đã nắm ý chính của bài.

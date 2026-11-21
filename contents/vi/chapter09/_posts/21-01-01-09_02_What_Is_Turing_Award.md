@@ -9,73 +9,79 @@ categories:
 - chapter09
 ---
 
-**Giải A.M. Turing** (A.M. Turing Award) là vinh danh cao nhất của **Hiệp hội Máy tính ACM** (Association for Computing Machinery), thường được gọi là **Nobel của tin học**. Giải được trao từ năm **1966**, mang tên **Alan Mathison Turing** (1912–1954), người đã đặt nền khái niệm cho tính toán hiện đại qua bài “On Computable Numbers” (1936) và để lại dấu ấn sâu trong mật mã, triết học máy, và hình dung về máy thông minh. Turing **không** nhận giải mang tên mình (ông mất năm 1954; giải đầu tiên năm 1966). Tài liệu chính thức: [amturing.acm.org](https://amturing.acm.org/).
+**Giải A.M. Turing** (A.M. Turing Award) là vinh dự cao nhất của **Hiệp hội Máy tính ACM** (Association for Computing Machinery), thường được gọi là **"giải Nobel của tin học"**. Giải được trao từ năm **1966**, mang tên **Alan Mathison Turing** (1912–1954), người đặt nền móng khái niệm cho tính toán hiện đại qua bài báo “On Computable Numbers” (1936) và để lại dấu ấn sâu đậm trong mật mã, triết học về máy móc và ý tưởng về máy thông minh. Turing **không** nhận giải mang tên mình: ông mất năm 1954, còn giải đầu tiên trao năm 1966. Tài liệu chính thức: [amturing.acm.org](https://amturing.acm.org/).
 
-Bài này **không** liệt kê toàn bộ danh sách người thắng. Đó là bản đồ **Giải Turing để làm gì**, nó bổ sung Fields và Abel thế nào trong khóa *Math Enthusiast*, và cách **đọc citation** như người học toán–tin học chứ không như khán giả danh vọng. Đèn spotlight thuộc về giải thưởng; **toán học của tính toán** mới là sân khấu.
+Bài này **không** liệt kê toàn bộ người đoạt giải. Mục đích là trả lời giải Turing dùng để làm gì, nó bổ sung cho Fields và Abel như thế nào, và cách **đọc lời trích dẫn** như một người học toán–tin chứ không như một khán giả chỉ quan tâm danh tiếng. Giải thưởng chỉ là ánh đèn sân khấu; điều đáng học là **toán học của tính toán**.
 
 ---
 
 ## Mục tiêu học tập
 
-Sau bài, bạn có thể mô tả vai trò thể chế của Giải Turing trong cộng đồng khoa học máy tính; so sánh chính xác Turing Award với Fields, Abel và Clay Millennium theo nhịp, tuổi, và kiểu thành tựu; trích đối tượng toán–thuật toán từ một câu citation ngắn; giải thích vì sao một thân công cụ (độ phức tạp, mật mã, phân tích thuật toán) có thể đáng giải bằng một định lý nổi tiếng; và dùng phương pháp đọc của chương (citation → đối tượng → một ý giải thích được → liên kết khóa học) cho bất kỳ laureate gần đây.
+Sau bài này bạn có thể:
 
-**Tiên quyết.** Không cần chuyên sâu nghiên cứu. Cần đọc được đoạn tiếng Anh kỹ thuật ngắn và nhận tên lĩnh vực rộng (độ phức tạp, thuật toán, mật mã, học máy, đồ thị, logic). [Tổng quan chương]({{ site.baseurl }}/contents/vi/chapter09/09_00_Tong_quan/), [Giải Abel là gì?]({{ site.baseurl }}/contents/vi/chapter08/08_02_Giai_Abel_la_gi/) và [Tổng quan Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/) giúp so sánh nhưng không bắt buộc lần đầu.
+- mô tả vai trò của giải Turing trong cộng đồng khoa học máy tính;
+- so sánh chính xác giải Turing với Fields, Abel và giải Thiên niên kỷ của Clay về chu kỳ, độ tuổi và kiểu thành tựu;
+- rút ra đối tượng toán–thuật toán từ một câu trích dẫn ngắn;
+- giải thích vì sao một bộ công cụ (độ phức tạp, mật mã, phân tích thuật toán) có thể xứng đáng nhận giải dù không gắn với một định lý nổi tiếng;
+- áp dụng cách đọc của chương (trích dẫn → đối tượng → một ý giải thích được → liên hệ với khóa học) cho bất kỳ người đoạt giải gần đây nào.
+
+**Kiến thức cần có.** Không cần chuyên sâu. Chỉ cần đọc được một đoạn tiếng Anh kỹ thuật ngắn và nhận ra tên các lĩnh vực lớn (độ phức tạp, thuật toán, mật mã, học máy, đồ thị, logic). [Tổng quan chương]({{ site.baseurl }}/contents/vi/chapter09/09_00_Tong_quan/), [Giải Abel là gì?]({{ site.baseurl }}/contents/vi/chapter08/08_02_Giai_Abel_la_gi/) và [Tổng quan Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/) giúp so sánh, nhưng không bắt buộc đọc trước.
 
 ---
 
 ## 1. Vì sao có giải mang tên Turing
 
-Suốt nửa sau thế kỷ XX, tin học trở thành ngành khoa học với định lý, mô hình, và chuẩn chứng minh—không chỉ nghề chế tạo máy. Cộng đồng cần một tín hiệu vinh danh hàng năm, tầm quốc tế, cho **đóng góp nền tảng** đã thay đổi cách người khác làm việc: lớp độ phức tạp, giao thức mật mã, cấu trúc dữ liệu, kiến trúc hệ thống, học từ dữ liệu, và cả triết lý về cái máy có thể làm được.
+Trong nửa sau thế kỷ XX, tin học trở thành một ngành khoa học có định lý, mô hình và chuẩn mực chứng minh, chứ không chỉ là nghề chế tạo máy. Cộng đồng cần một sự ghi nhận hằng năm, mang tầm quốc tế, cho những **đóng góp nền tảng** đã thay đổi cách người khác làm việc: các lớp độ phức tạp, giao thức mật mã, cấu trúc dữ liệu, kiến trúc hệ thống, học từ dữ liệu, và cả những suy nghĩ về việc máy móc có thể làm được gì.
 
-**Nobel** không có hạng mục tin học thuần. **Fields** vinh danh toán thuần với giới hạn tuổi và chu kỳ bốn năm. **Abel** vinh danh thân sự nghiệp toán, không giới hạn tuổi, nhưng trọng tâm vẫn là toán học theo nghĩa truyền thống của viện hàn lâm. Giải Turing của ACM lấp khoảng trống: vinh danh **khoa học máy tính** ở mức cao nhất, thường gắn với ý tưởng đã chín qua nhiều năm và lan sang thực hành công nghiệp hoặc chương trình đào tạo toàn cầu.
+**Nobel** không có hạng mục cho tin học thuần túy. **Fields** vinh danh toán thuần túy, có giới hạn tuổi và bốn năm mới trao một lần. **Abel** vinh danh cả sự nghiệp toán học, không giới hạn tuổi, nhưng vẫn thuộc phạm vi toán học theo nghĩa truyền thống. Giải Turing của ACM lấp khoảng trống đó: vinh danh **khoa học máy tính** ở mức cao nhất, thường dành cho những ý tưởng đã được kiểm nghiệm qua nhiều năm và lan sang thực tiễn công nghiệp hoặc chương trình đào tạo trên toàn thế giới.
 
-Đặt tên Turing là tuyên bố văn hóa. Năm 1936, trước khi có máy điện tử phổ biến, Turing đã tách **cái gì có thể tính được về nguyên lý** khỏi chi tiết kỹ thuật của một thiết bị cụ thể. Ông chứng minh tồn tại bài toán không quyết định được, dựng mô hình máy phổ quát, và sau này gợi ý các câu hỏi về học và trí tuệ nhân tạo. Giải thưởng mang tên ông không chỉ tôn vinh một người; nó tuyên bố rằng tin học có **cốt lõi toán học và khái niệm** ngang tầm các khoa học lớn khác.
+Việc đặt tên giải theo Turing cũng có ý nghĩa văn hóa. Năm 1936, khi máy tính điện tử chưa phổ biến, Turing đã tách **điều gì có thể tính được về nguyên tắc** ra khỏi chi tiết kỹ thuật của một thiết bị cụ thể. Ông chứng minh có những bài toán không quyết định được, dựng nên mô hình máy phổ quát, và về sau đặt ra những câu hỏi về học máy và trí tuệ nhân tạo. Giải mang tên ông không chỉ tôn vinh một người; nó khẳng định rằng tin học có **cốt lõi toán học và khái niệm** ngang tầm các ngành khoa học lớn khác.
 
 ---
 
-## 2. Citation thường nhấn gì
+## 2. Lời trích dẫn thường nhấn mạnh điều gì
 
-Mở bất kỳ citation trên [amturing.acm.org](https://amturing.acm.org/) thường thấy ngôn ngữ về **nền tảng lĩnh vực**, **mô hình mới**, **công cụ mọi người dùng**, hoặc **cầu nối lý thuyết–thực hành**. Ủy ban hiếm khi dừng ở một dòng code. Ví dụ (gần tinh thần citation chính thức, tóm tắt sư phạm):
+Mở bất kỳ lời trích dẫn nào trên [amturing.acm.org](https://amturing.acm.org/), ta thường thấy các cụm như **nền tảng của một lĩnh vực**, **mô hình mới**, **công cụ mà mọi người dùng**, hoặc **cầu nối giữa lý thuyết và thực hành**. Hội đồng hiếm khi dừng ở một đoạn mã cụ thể. Một số ví dụ (tóm tắt theo tinh thần trích dẫn chính thức):
 
-- **Cook (1982) / Karp (1985):** NP-đầy đủ và ngôn ngữ độ khó tổ hợp.  
-- **Knuth (1974):** phân tích thuật toán; *The Art of Computer Programming*.  
+- **Cook (1982) / Karp (1985):** NP-đầy đủ và ngôn ngữ để nói về độ khó tổ hợp.  
+- **Knuth (1974):** phân tích thuật toán; bộ sách *The Art of Computer Programming*.  
 - **RSA (2002) / Diffie–Hellman (2015):** mật mã khóa công khai.  
-- **Goldwasser & Micali (2012):** an ninh có chứng minh và zero-knowledge.  
-- **Yao (2000), deep learning (2018), Wigderson (cầu TCS/Abel):** complexity, learning, randomness.
+- **Goldwasser & Micali (2012):** an toàn có chứng minh và chứng minh không tiết lộ tri thức (zero-knowledge).  
+- **Yao (2000), nhóm học sâu (2018), Wigderson (2023):** độ phức tạp, học máy, tính ngẫu nhiên.
 
-Động từ: *mở*, *tiên phong*, *định hình*, *nền tảng*. Ngôn ngữ Turing Award là **đổi khí hậu lĩnh vực tính toán**, không chỉ một đỉnh núi phần mềm.
+Các động từ hay gặp là *mở ra*, *tiên phong*, *định hình*, *đặt nền tảng*. Giải Turing ghi nhận những thay đổi cả một lĩnh vực tính toán, chứ không chỉ một sản phẩm phần mềm.
 
-Bài tập hữu ích: khoanh **đối tượng toán–tin** trong citation (máy Turing, NP-đầy đủ, hàm một chiều, zero-knowledge, expander, attention, …) rồi viết một câu bạn cùng lớp hiểu được. Citation là cửa, không phải bằng tốt nghiệp.
-
----
-
-## 3. Turing Award giữa các vinh danh khác
-
-| Vinh danh | Nhịp / tuổi | Nhấn mạnh điển hình |
-|-----------|-------------|---------------------|
-| **Fields** | 4 năm; dưới 40 | Đột phá toán thuần, thường một định lý cờ đầu |
-| **Abel** | Hàng năm; không giới hạn tuổi | Thân sự nghiệp toán / định hình lĩnh vực |
-| **Turing Award** | Hàng năm (thường); không giới hạn tuổi kiểu Fields | Nền tảng khoa học máy tính; lý thuyết và/hoặc hệ thống |
-| **Clay Millennium** | Bài toán, không phải người | Bảy bài mở với tiền thưởng cho lời giải (gồm P vs NP) |
-| **Nobel** | Hàng năm theo hạng mục | Không có tin học thuần; vật lý/hóa/y/… |
-
-Ba phân biệt sư phạm quan trọng.
-
-Thứ nhất, **Turing Award không phải “Abel cho tin học” theo nghĩa sao chép.** Abel và Turing Award cùng vinh danh tác động dài hạn, nhưng đối tượng và cộng đồng khác: một bên viện hàn lâm toán, một bên ACM và hệ sinh thái CS toàn cầu. Một số sự nghiệp (ví dụ Wigderson) được cả hai cộng đồng nhìn thấy—đó là tín hiệu liên ngành, không phải trùng lặp vô nghĩa.
-
-Thứ hai, **Fields và Turing Award tối ưu tín hiệu khác nhau.** Fields bắt tia chớp sớm trong toán thuần; Turing Award thường bắt ý tưởng đã trở thành **ngôn ngữ mặc định** của thuật toán, mật mã, hoặc hệ thống—đôi khi sau nhiều thập niên lan tỏa.
-
-Thứ ba, **Clay Millennium không phải giải cho người.** P vs NP là bài toán Thiên niên kỷ; Cook–Karp là câu chuyện **phương pháp và lớp** làm bài toán đó trở thành trung tâm. Đọc chương này, bạn cần giữ cả hai: bài toán mở và hạ tầng khái niệm.
+Một bài tập hữu ích: khoanh tròn **đối tượng toán–tin** trong lời trích dẫn (máy Turing, NP-đầy đủ, hàm một chiều, zero-knowledge, expander, attention, …) rồi viết một câu mà bạn cùng lớp hiểu được. Lời trích dẫn chỉ là cánh cửa đi vào, chưa phải là sự hiểu biết.
 
 ---
 
-## 4. “Nền tảng tính toán” như ý tưởng toán
+## 3. Giải Turing so với các giải khác
 
-Không chỉ nghĩa “nhiều paper” hay “startup thành công.” Nghĩa là công cụ của nhà nghiên cứu trở thành **mặc định**: định nghĩa lớp độ phức tạp ai cũng trích, reduction mọi sách giáo khoa dạy, giao thức khóa công khai mọi trình duyệt dùng, chuẩn phân tích thời gian–không gian mọi khóa thuật toán nhắc tới. Sau đó ngôn ngữ lĩnh vực đổi. Sinh viên học các môn trước đó không tồn tại; ngành lân cận (toán, vật lý thống kê, kinh tế, sinh học tính toán) nhập từ vựng; bài mở được phát biểu lại bằng phương ngữ mới.
+| Giải | Chu kỳ / tuổi | Điểm nhấn thường gặp |
+|------|---------------|----------------------|
+| **Fields** | 4 năm một lần; dưới 40 tuổi | Đột phá của toán thuần túy, thường là một định lý nổi bật |
+| **Abel** | Hằng năm; không giới hạn tuổi | Cả sự nghiệp toán học, định hình một lĩnh vực |
+| **Giải Turing** | Hằng năm (thường lệ); không giới hạn tuổi như Fields | Nền tảng khoa học máy tính; lý thuyết và/hoặc hệ thống |
+| **Clay Millennium** | Dành cho bài toán, không phải cho người | Bảy bài toán mở có tiền thưởng cho lời giải (gồm P vs NP) |
+| **Nobel** | Hằng năm theo từng hạng mục | Không có tin học thuần túy; có vật lý, hóa học, y học, … |
 
-Ví dụ trong chương (phát triển ở các bài sau): máy Turing và bất khả quyết định; Cook–Levin và danh sách Karp; phân tích tiệm cận kiểu Knuth; Diffie–Hellman và RSA; Goldwasser–Micali và zero-knowledge. Mỗi cái là một mảnh **hạ tầng** hơn là một “mẹo lập trình.”
+Có ba điểm khác biệt cần nhớ.
 
-Hỏi phản thực: *Nếu xóa công trình này khỏi văn học, định lý hay hệ thống sau nào sẽ khó phát biểu hơn nhiều?* Đó là định nghĩa thực dụng của nền tảng.
+Thứ nhất, **giải Turing không phải "giải Abel của tin học"** theo nghĩa sao chép. Abel và Turing cùng ghi nhận tác động lâu dài, nhưng đối tượng và cộng đồng khác nhau: một bên là giới toán học, một bên là ACM và cộng đồng khoa học máy tính toàn cầu. Một số nhà khoa học (ví dụ Wigderson, Abel 2021 và Turing 2023) được cả hai cộng đồng ghi nhận. Đó là dấu hiệu của sự giao thoa giữa các ngành, không phải sự trùng lặp vô nghĩa.
+
+Thứ hai, **Fields và giải Turing đo hai thứ khác nhau.** Fields bắt lấy những đột phá sớm trong toán thuần túy; giải Turing thường ghi nhận những ý tưởng đã trở thành **ngôn ngữ mặc định** của thuật toán, mật mã hoặc hệ thống, đôi khi sau nhiều thập kỷ lan rộng.
+
+Thứ ba, **giải của Clay không trao cho người.** P vs NP là một bài toán Thiên niên kỷ; còn Cook–Karp là câu chuyện về **phương pháp và các lớp bài toán** khiến câu hỏi đó trở thành trung tâm. Khi học chương này, bạn cần giữ cả hai: bài toán còn mở và hệ thống khái niệm xung quanh nó.
+
+---
+
+## 4. “Nền tảng tính toán” hiểu như một ý tưởng toán học
+
+Nó không chỉ có nghĩa là "nhiều bài báo" hay "công ty khởi nghiệp thành công". Nó có nghĩa là công cụ của nhà nghiên cứu trở thành **mặc định**: định nghĩa lớp độ phức tạp mà ai cũng trích dẫn, phép quy dẫn (reduction) mà sách giáo khoa nào cũng dạy, giao thức khóa công khai mà mọi trình duyệt dùng, cách phân tích thời gian–bộ nhớ mà khóa thuật toán nào cũng nhắc đến. Sau đó, ngôn ngữ của cả lĩnh vực thay đổi. Sinh viên học những môn chưa từng tồn tại trước đó; các ngành lân cận (toán, vật lý thống kê, kinh tế, sinh học tính toán) mượn từ vựng; các bài toán mở được phát biểu lại bằng "phương ngữ" mới.
+
+Những ví dụ trong chương (sẽ được trình bày ở các bài sau): máy Turing và tính không quyết định được; định lý Cook–Levin và danh sách bài toán của Karp; phân tích tiệm cận theo kiểu Knuth; Diffie–Hellman và RSA; Goldwasser–Micali và zero-knowledge. Mỗi thứ là một phần của **hạ tầng** hơn là một "mẹo lập trình".
+
+Có thể tự hỏi: *nếu xóa công trình này khỏi tài liệu, định lý hay hệ thống nào sau đó sẽ khó phát biểu hơn nhiều?* Đó là cách hiểu thực dụng về "nền tảng".
 
 ---
 
@@ -83,113 +89,85 @@ Hỏi phản thực: *Nếu xóa công trình này khỏi văn học, định l�
 
 Bốn bước cho mỗi bài từ 09_03 trở đi:
 
-1. **Đọc câu citation** cẩn thận (copy từ amturing.acm.org nếu được).  
-2. **Nhận diện đối tượng toán–tin** (lớp, mô hình, giao thức, định lý).  
+1. **Đọc kỹ câu trích dẫn** (chép từ amturing.acm.org nếu được).  
+2. **Nhận ra đối tượng toán–tin** (lớp bài toán, mô hình, giao thức, định lý).  
 3. **Phát biểu một ý giải thích được** bằng lời thường (một đoạn).  
-4. **Ghi một liên kết khóa học**—P vs NP ch.01, mật mã ch.03, độ phức tạp ch.06, Abel/Wigderson ch.08, AI ch.06.
+4. **Ghi một liên hệ với khóa học**: P vs NP ở ch.01, mật mã ch.03, độ phức tạp ch.06, Abel/Wigderson ch.08, AI ch.06.
 
-Tránh hai lỗi: **thờ phụng anh hùng không cơ chế**, và **overclaim** (Turing Award cho deep learning ≠ “AI đã giải được ý thức”; NP-đầy đủ ≠ “mọi instance thực tế bất khả”; mật mã khóa công khai ≠ “tuyệt đối an toàn”).
+Hãy tránh hai lỗi: **sùng bái cá nhân mà không hiểu cơ chế**, và **nói quá** (giải Turing cho học sâu không có nghĩa là "AI đã giải được bài toán ý thức"; NP-đầy đủ không có nghĩa là "mọi trường hợp thực tế đều không thể giải"; mật mã khóa công khai không có nghĩa là "an toàn tuyệt đối").
 
-Chương 09 nằm cạnh [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/), [Lý thuyết độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/), [Lý thuyết số → mật mã]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/), và [Lovász–Wigderson]({{ site.baseurl }}/contents/vi/chapter08/08_06_Lovasz_Wigderson/). Hãy đọc vì **cơ chế**, không vì năm trao giải.
-
----
-
-## 6. Alan Turing trong chân dung giải thưởng
-
-Năm 1936, Turing định nghĩa **hàm tính được** qua máy băng–trạng thái, xây **máy phổ quát** (hạt nhân “phần mềm”), và chứng minh **bài toán dừng** không quyết định được. Bletchley Park gắn mật mã thời chiến; bài 1950 về trí tuệ máy là gợi ý triết học, **không** phải định lý độ phức tạp. Laureate sau không lặp 1936: họ mở tầng **hiệu quả**, **an ninh**, **học**, **hệ thống** trên nền “cái gì tính được.” Chi tiết ở [bài 09_03]({{ site.baseurl }}/contents/vi/chapter09/09_03_Turing_Computability/).
+Chương 09 nằm cạnh [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/), [Lý thuyết độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/), [Lý thuyết số và mật mã]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/), và [Lovász–Wigderson]({{ site.baseurl }}/contents/vi/chapter08/08_06_Lovasz_Wigderson/). Hãy đọc để hiểu **cơ chế**, đừng đọc để nhớ năm trao giải.
 
 ---
 
-## 7. Nhầm lẫn thường gặp
+## 6. Alan Turing trong bức tranh của giải thưởng
 
-| Khẳng định | Chỉnh |
-|------------|-------|
-| “Alan Turing nhận Giải Turing.” | **Sai.** Ông mất năm 1954; giải được trao từ **1966**. |
-| “Turing Award là Nobel tin học.” | Chỉ là ẩn dụ báo chí. Đó là giải của ACM, không phải hạng mục Nobel. |
-| “Turing Award chỉ cho lý thuyết.” | Nhiều năm vinh danh hệ thống, kiến trúc, mạng, đồ họa, học máy thực nghiệm. Chương này nhấn các năm giàu toán. |
-| “Fields hơn / Turing hạng hai.” | Tín hiệu và cộng đồng khác; không xếp hạng tuyệt đối. |
-| “Citation chứng minh mọi slogan báo chí.” | Báo nén. Tách định lý và giao thức khỏi ẩn dụ. |
-| “Clay giống Turing Award.” | Clay thưởng **bài toán**; Turing Award vinh danh **người và nghiên cứu**. |
-| “Biết tên laureate = hiểu khoa học.” | Mục tiêu khóa học là cơ chế: reduction, máy Turing, hàm cửa sập, zero-knowledge. |
+Năm 1936, Turing định nghĩa **hàm tính được** qua máy với băng và trạng thái, xây dựng **máy phổ quát** (hạt nhân của khái niệm "phần mềm"), và chứng minh **bài toán dừng** là không quyết định được. Công việc ở Bletchley Park gắn với mật mã thời chiến; bài báo năm 1950 về trí tuệ máy là một gợi ý mang tính triết học, **không** phải một định lý về độ phức tạp. Những người đoạt giải sau này không lặp lại năm 1936: họ mở ra các tầng **hiệu quả**, **an toàn**, **học máy** và **hệ thống** trên nền tảng "điều gì tính được". Chi tiết ở [bài 09_03]({{ site.baseurl }}/contents/vi/chapter09/09_03_Turing_Computability/).
+
+---
+
+## 7. Những nhầm lẫn thường gặp
+
+| Nhận định | Chỉnh lại |
+|-----------|-----------|
+| “Alan Turing nhận giải Turing.” | **Sai.** Ông mất năm 1954; giải được trao từ **1966**. |
+| “Giải Turing là Nobel của tin học.” | Chỉ là cách nói ví von của báo chí. Đây là giải của ACM, không phải hạng mục Nobel. |
+| “Giải Turing chỉ dành cho lý thuyết.” | Nhiều năm giải ghi nhận hệ thống, kiến trúc máy tính, mạng, đồ họa, học máy thực nghiệm. Chương này chỉ chọn những năm giàu toán học. |
+| “Fields hơn / giải Turing hạng hai.” | Hai giải đo những điều khác nhau và thuộc về cộng đồng khác nhau; không có xếp hạng tuyệt đối. |
+| “Lời trích dẫn chứng minh mọi khẩu hiệu báo chí.” | Báo chí nén thông tin. Hãy tách định lý và giao thức khỏi các ẩn dụ. |
+| “Clay giống giải Turing.” | Clay thưởng cho **bài toán**; giải Turing vinh danh **con người và công trình nghiên cứu**. |
+| “Biết tên người đoạt giải là hiểu khoa học.” | Mục tiêu của khóa học là hiểu cơ chế: phép quy dẫn, máy Turing, hàm cửa sập, zero-knowledge. |
 
 ---
 
 ## Bài tập
 
-1. Hai câu: so Giải Turing và Fields chỉ bằng sự kiện thể chế—không tên laureate.  
-2. Mở [amturing.acm.org](https://amturing.acm.org/), chọn một laureate **không** nằm trong sáu bài sâu đầu chương, liệt kê ba danh từ đối tượng toán–tin trong citation.  
-3. ≤150 từ: “nền tảng tính toán” là gì, lấy một ví dụ bạn đã gặp ở ch.01 hoặc ch.03.  
-4. Vì sao sai khi nói Turing Award 1982 “giải P vs NP”? Giải đó nhấn gì thay vào đó?  
-5. Lập bảng 3 cột so Turing Award / Abel / Clay: đối tượng vinh danh, nhịp, ví dụ một năm.  
-6. **≤300 từ:** Lập luận xây công cụ (lớp NP, chuẩn phân tích thuật toán, giao thức khóa công khai) quan trọng không kém một định lý nổi tiếng.  
-7. Viết một câu citation giả cho một ý tưởng bạn yêu thích trong khóa (không cần đúng lịch sử)—rồi gạch chân đối tượng toán.  
-8. Studio: chọn hai năm Turing Award; bảng 4 cột: năm – tên – một câu thành tựu – loại (computability / complexity / algorithms / crypto / systems / learning).
+1. Viết hai câu so sánh giải Turing và Fields chỉ dựa trên các sự kiện về thể chế, không nêu tên người đoạt giải.  
+2. Mở [amturing.acm.org](https://amturing.acm.org/), chọn một người đoạt giải **không** nằm trong sáu bài chuyên sâu đầu chương, rồi liệt kê ba danh từ chỉ đối tượng toán–tin trong lời trích dẫn.  
+3. Trong tối đa 150 từ: "nền tảng tính toán" là gì? Lấy một ví dụ bạn đã gặp ở ch.01 hoặc ch.03.  
+4. Vì sao nói giải Turing 1982 "giải P vs NP" là sai? Giải đó nhấn mạnh điều gì?  
+5. Lập bảng 3 cột so sánh giải Turing / Abel / Clay: đối tượng được vinh danh, chu kỳ, một ví dụ.  
+6. **Tối đa 300 từ:** lập luận rằng việc xây dựng công cụ (lớp NP, chuẩn phân tích thuật toán, giao thức khóa công khai) quan trọng không kém một định lý nổi tiếng.  
+7. Viết một câu trích dẫn giả cho một ý tưởng bạn thích trong khóa học (không cần đúng lịch sử), rồi gạch chân đối tượng toán học trong đó.  
+8. Chọn hai năm trao giải Turing và lập bảng 4 cột: năm – tên – một câu về thành tựu – loại (tính toán được / độ phức tạp / thuật toán / mật mã / hệ thống / học máy).
 
 ---
 
+## Video và tài liệu
 
-## Nguồn video (gói math-video-researcher)
+Hãy dùng video để làm quen với bối cảnh và văn hóa nghiên cứu, không dùng thay cho chứng minh.
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh. Chi tiết: `research/video-research/what-is-turing-award/`.
+Video gợi ý: danh sách các bài giảng nhận giải Turing của ACM: [https://www.youtube.com/playlist?list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6](https://www.youtube.com/playlist?list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6).
 
-**Khẩu hiệu từ gói nghiên cứu**
+Trang chính thức và tài liệu:
 
-- Turing Award ACM: vinh dự cao nhất tin học; amturing.acm.org.
-- So Fields/Abel; một số người nhận cả hai (Wigderson).
+- Trang chủ giải ACM A.M. Turing: https://amturing.acm.org/  
+- Danh sách theo năm: https://amturing.acm.org/byyear.cfm  
+- Danh sách theo vần: https://amturing.acm.org/alphabetical.cfm  
+- Giải Abel (để đối chiếu): https://abelprize.no/  
+- ACM giới thiệu về giải: https://www.acm.org/about-acm/acm-history/acm-awards/turing-award  
+- Wikipedia, Turing Award: https://en.wikipedia.org/wiki/Turing_Award  
+- Wikipedia, Alan Turing: https://en.wikipedia.org/wiki/Alan_Turing  
+- Wikipedia, Association for Computing Machinery: https://en.wikipedia.org/wiki/Association_for_Computing_Machinery  
 
-**Thứ tự xem gợi ý**
+## Tài liệu tham khảo
 
-1. **ORIENTATION** — ACM Turing Award lectures playlist: [https://www.youtube.com/playlist?list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6](https://www.youtube.com/playlist?list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6).  
-
-**Cổng chính thức / tài liệu**
-
-- ACM A.M. Turing Award home: https://amturing.acm.org/  
-- Winners by year: https://amturing.acm.org/byyear.cfm  
-- Alphabetical listing: https://amturing.acm.org/alphabetical.cfm  
-- Abel Prize (contrast): https://abelprize.no/  
-
-Danh mục URL đầy đủ: `research/video-research/what-is-turing-award/references.md`.
-
-## Tài liệu
-
-
-### Gói nghiên cứu video (mọi URL)
-
-Danh mục đầy đủ: `research/video-research/what-is-turing-award/references.md`.
-
-1. ACM A.M. Turing Award home — https://amturing.acm.org/  
-2. Winners by year — https://amturing.acm.org/byyear.cfm  
-3. Alphabetical listing — https://amturing.acm.org/alphabetical.cfm  
-4. ACM about the award — https://www.acm.org/about-acm/acm-history/acm-awards/turing-award  
-5. Wikipedia — Turing Award — https://en.wikipedia.org/wiki/Turing_Award  
-6. Wikipedia — Alan Turing — https://en.wikipedia.org/wiki/Alan_Turing  
-7. Wikipedia — Association for Computing Machinery — https://en.wikipedia.org/wiki/Association_for_Computing_Machinery  
-8. ACM Turing Award lectures playlist — https://www.youtube.com/playlist?list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6  
-9. Abel Prize (contrast) — https://abelprize.no/  
-10. Thư mục gói: `research/video-research/what-is-turing-award/`.
-
-1. [ACM A.M. Turing Award](https://amturing.acm.org/) — citation, tiểu sử, bài giảng.  
+1. [ACM A.M. Turing Award](https://amturing.acm.org/): trích dẫn, tiểu sử, bài giảng.  
 2. Turing, A. M. (1936). On computable numbers, with an application to the Entscheidungsproblem.  
 3. [Tổng quan chương 09]({{ site.baseurl }}/contents/vi/chapter09/09_00_Tong_quan/); [Giải Abel là gì?]({{ site.baseurl }}/contents/vi/chapter08/08_02_Giai_Abel_la_gi/); [Tổng quan Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/).  
-4. Sipser, M. *Introduction to the Theory of Computation* — ngữ cảnh máy Turing và độ phức tạp cho người mới.
-
----
+4. Sipser, M. *Introduction to the Theory of Computation*: giới thiệu máy Turing và độ phức tạp cho người mới học.
 
 ## Hướng đi tiếp
 
-- So bảng bài này với [Abel]({{ site.baseurl }}/contents/vi/chapter08/08_02_Giai_Abel_la_gi/) và [Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/): ba khác biệt chính xác.  
-- Phát biểu lại ý tưởng cốt lõi Turing Award trong một đoạn cho người không học tin học.  
-- Ghi một câu hỏi còn mở cạnh bất kỳ citation nào trong chương (P vs NP, an ninh concrete, derandomization, …).  
-- Tiếp: [Turing, Tính được và Bất khả quyết định]({{ site.baseurl }}/contents/vi/chapter09/09_03_Turing_Computability/).
+- So sánh bảng trong bài này với [Abel]({{ site.baseurl }}/contents/vi/chapter08/08_02_Giai_Abel_la_gi/) và [Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/): nêu ba khác biệt chính xác.  
+- Diễn đạt ý tưởng cốt lõi của giải Turing trong một đoạn cho người không học tin học.  
+- Ghi một câu hỏi còn mở bên cạnh mỗi lời trích dẫn trong chương (P vs NP, an toàn cụ thể, khử ngẫu nhiên, …).  
+- Bài tiếp theo: [Turing, Tính được và Bất khả quyết định]({{ site.baseurl }}/contents/vi/chapter09/09_03_Turing_Computability/).
 
----
-
-## Turing Award như bản đồ
-
-Essay seminar: ưu tiên **citation chính thức** và **một cơ chế** (đối tượng, giả định, reduction/mô hình). Giải là spotlight; sân khấu là toán tính toán. Đọc một năm: gạch chân danh từ → phân loại (computability / complexity / algorithms / crypto / systems / learning) → nối [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/), [mật mã]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/), hoặc [Wigderson]({{ site.baseurl }}/contents/vi/chapter08/08_06_Lovasz_Wigderson/).
+Cách đọc một năm trao giải: gạch chân các danh từ, phân loại (tính toán được / độ phức tạp / thuật toán / mật mã / hệ thống / học máy), rồi nối với [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/), [mật mã]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/) hoặc [Wigderson]({{ site.baseurl }}/contents/vi/chapter08/08_06_Lovasz_Wigderson/).
 
 ## Video tham khảo
 
-- **xem trước** — [Celebrating 50 Years of the ACM A.M. Turing Award and Computing's Greatest Achievements](https://www.youtube.com/watch?v=MuTGa_xvCgc) — Association for Computing Machinery (ACM), tiếng Anh. Xem trước. “Celebrating 50 Years of the ACM A.M. Turing Award and Computing's Greatest Achievements” định hướng cho mục tiêu của bài: Sau bài, bạn có thể mô tả vai trò thể chế của Giải Turing trong cộng đồng khoa học máy tính; so sánh chính xác Turing Award với Fields, Abel và Clay Millennium theo nhịp, tuổi, và…
-- [“Computer Science as a Major Body of Accumulated Knowledge,” at ACM Turing 50 Celebration](https://www.youtube.com/watch?v=ACsQ4ixtqTc) — Association for Computing Machinery (ACM), tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài, bạn có thể mô tả vai trò thể chế của Giải Turing trong cộng đồng khoa học máy tính; so sánh chính xác Turing Award với Fields, Abel và Clay Millennium theo nhịp, tuổi, và…
-- [Turing the Man](https://www.youtube.com/watch?v=nvwK-11uxSo) — Association for Computing Machinery (ACM), tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài, bạn có thể mô tả vai trò thể chế của Giải Turing trong cộng đồng khoa học máy tính; so sánh chính xác Turing Award với Fields, Abel và Clay Millennium theo nhịp, tuổi, và…
+- **Xem trước** — [Celebrating 50 Years of the ACM A.M. Turing Award and Computing's Greatest Achievements](https://www.youtube.com/watch?v=MuTGa_xvCgc) — ACM, tiếng Anh. Giới thiệu về 50 năm giải Turing và những thành tựu lớn của ngành.
+- [“Computer Science as a Major Body of Accumulated Knowledge,” at ACM Turing 50 Celebration](https://www.youtube.com/watch?v=ACsQ4ixtqTc) — ACM, tiếng Anh. Xem sau khi đã nắm ý chính.
+- [Turing the Man](https://www.youtube.com/watch?v=nvwK-11uxSo) — ACM, tiếng Anh. Góc nhìn bổ sung về con người Turing.

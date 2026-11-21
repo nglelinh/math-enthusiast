@@ -30,7 +30,7 @@ Sau bài, bạn có thể mô tả **DFS** như quy nạp trên cây đệ quy +
 
 Giữa thập niên 1970–80, CS lý thuyết tách rõ hai cực: **NP-đầy đủ** (bạn không kỳ vọng poly-time tổng quát) và **thuật toán đa thức tinh xảo** (bạn *có* poly-time—và có thể gần tuyến tính). Hopcroft–Tarjan đứng cực thứ hai với chuẩn chứng minh runtime và correctness sắt đá. Citation không nói “một app”; nói **design and analysis**—phương pháp.
 
-Math Enthusiast cần cả hai cực. [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/) giải thích tường; Hopcroft–Tarjan giải thích **cửa sổ ánh sáng** nơi đồ thị chịu thuật toán đẹp. Thực hành phần mềm (compiler, mạng, GIS, verification) sống nhờ cửa sổ đó nhiều hơn nhờ slogan NP.
+Khóa học này cần cả hai cực. [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/) giải thích tường; Hopcroft–Tarjan giải thích **cửa sổ ánh sáng** nơi đồ thị chịu thuật toán đẹp. Thực hành phần mềm (compiler, mạng, GIS, verification) sống nhờ cửa sổ đó nhiều hơn nhờ slogan NP.
 
 ---
 
@@ -126,7 +126,7 @@ Matching hai phía nối [tối ưu]({{ site.baseurl }}/contents/vi/chapter03/03
 | Worst-case một thao tác | Có thể đắt (Find nén cả chuỗi) |
 | Amortized | Trung bình chi phí trên *chuỗi* adversarial |
 | Average-case | Kỳ vọng trên phân phối input ngẫu nhiên |
-| Randomized | Xu nội bộ thuật toán |
+| Randomized | Thuật toán tự gieo đồng xu |
 
 Nhầm amortized với average-case là lỗi phổ biến. Path compression *đắt đơn lẻ* vẫn *rẻ amortized*. Đây là toán kế toán, họ hàng potential trong vật lý nhiều hơn họ hàng Monte Carlo.
 
@@ -149,7 +149,7 @@ Co mỗi SCC thành một đỉnh: đồ thị kết quả là DAG. Trên DAG, D
 
 ### Correctness culture
 
-Papers Hopcroft–Tarjan-era viết invariant rõ: stack chứa gì, low thỏa bất biến nào lúc pop. Khi code graph bug, thường do **không giữ invariant** chứ không do “big-O sai”. Seminar algorithms nên luyện: nêu loop invariant một câu trước khi tối ưu micro.
+Papers Hopcroft–Tarjan-era viết invariant rõ: stack chứa gì, low thỏa bất biến nào lúc pop. Khi code graph bug, thường do **không giữ invariant** chứ không do “big-O sai”. Khi học thuật toán, nên luyện thói quen: nêu loop invariant một câu trước khi tối ưu micro.
 
 ---
 
@@ -174,45 +174,27 @@ Papers Hopcroft–Tarjan-era viết invariant rõ: stack chứa gì, low thỏa 
 4. Mô tả path compression; đưa ví dụ Find đắt một lần nhưng chuỗi rẻ.  
 5. **≤200 từ:** So Kosaraju và Tarjan SCC—giống output, khác kỹ thuật.  
 6. Nối [đồ thị mạng]({{ site.baseurl }}/contents/vi/chapter03/03_06_Graph_Theory_Networks/): một ứng dụng SCC hoặc cầu trong mạng thật (dependency, single point of failure).  
-7. **Seminar:** Đọc Hopcroft–Karp abstract-level; so brute bipartite matching $$O(VE)$$.
+7. Đọc phần tóm tắt của bài báo Hopcroft–Karp; so brute bipartite matching $$O(VE)$$.
 
 ---
 
 
-## Nguồn video (gói math-video-researcher)
+## Video và tài liệu
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh. Chi tiết: `research/video-research/hopcroft-tarjan/`.
+Các video gợi ý nằm ở phần *Video tham khảo* cuối bài. Hãy dùng video để làm quen với bối cảnh, không dùng thay cho chứng minh.
 
-**Khẩu hiệu từ gói nghiên cứu**
-
-- Hopcroft & Tarjan Turing 1986: thuật toán đồ thị nền tảng.
-
-**Thứ tự xem gợi ý**
+## Tài liệu tham khảo trực tuyến
 
 
-**Cổng chính thức / tài liệu**
 
-- Hopcroft Turing: https://amturing.acm.org/award_winners/hopcroft_1053917.cfm  
-- Tarjan Turing: https://amturing.acm.org/award_winners/tarjan_1092048.cfm  
-
-Danh mục URL đầy đủ: `research/video-research/hopcroft-tarjan/references.md`.
-
-## Tài liệu tham khảo
-
-
-### Gói nghiên cứu video (mọi URL)
-
-Danh mục đầy đủ: `research/video-research/hopcroft-tarjan/references.md`.
-
-1. Hopcroft Turing — https://amturing.acm.org/award_winners/hopcroft_1053917.cfm  
-2. Tarjan Turing — https://amturing.acm.org/award_winners/tarjan_1092048.cfm  
+1. Trang giải Turing của Hopcroft — https://amturing.acm.org/award_winners/hopcroft_1053917.cfm  
+2. Trang giải Turing của Tarjan — https://amturing.acm.org/award_winners/tarjan_1092048.cfm  
 3. Wikipedia — John Hopcroft — https://en.wikipedia.org/wiki/John_Hopcroft  
 4. Wikipedia — Robert Tarjan — https://en.wikipedia.org/wiki/Robert_Tarjan  
 5. Wikipedia — Hopcroft–Tarjan algorithm (planarity) — https://en.wikipedia.org/wiki/Hopcroft%E2%80%93Tarjan_planarity_test  
 6. Wikipedia — Depth-first search — https://en.wikipedia.org/wiki/Depth-first_search  
 7. Wikipedia — Union–find / disjoint set (Tarjan) — https://en.wikipedia.org/wiki/Disjoint-set_data_structure  
-8. Hopcroft–Ullman automata book culture — https://en.wikipedia.org/wiki/Introduction_to_Automata_Theory,_Languages,_and_Computation  
-9. Thư mục gói: `research/video-research/hopcroft-tarjan/`.
+8. Sách về automata của Hopcroft–Ullman — https://en.wikipedia.org/wiki/Introduction_to_Automata_Theory,_Languages,_and_Computation  
 
 1. ACM Turing Award — Hopcroft & Tarjan (1986).  
 2. Cormen, Leiserson, Rivest, Stein — *Introduction to Algorithms* (DFS, SCC, union–find, amortized).  
@@ -232,6 +214,6 @@ Danh mục đầy đủ: `research/video-research/hopcroft-tarjan/references.md`
 
 ## Video tham khảo
 
-- **xem trước** — [5.2 Articulation Point and Biconnected Components](https://www.youtube.com/watch?v=jFZsDDB0-vo) — Abdul Bari, tiếng Anh. Xem trước. “5.2 Articulation Point and Biconnected Components” định hướng cho mục tiêu của bài: Sau bài, bạn có thể mô tả DFS như quy nạp trên cây đệ quy + cạnh back/forward/cross và giải thích vì sao timestamps cho phép suy cấu trúc; phác thuật toán Tarjan (hoặc Kosaraju) tì…
-- [Lecture: Robert Endre Tarjan | September 19](https://www.youtube.com/watch?v=7vpTTH1_OCo) — Heidelberg Laureate Forum, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài, bạn có thể mô tả DFS như quy nạp trên cây đệ quy + cạnh back/forward/cross và giải thích vì sao timestamps cho phép suy cấu trúc; phác thuật toán Tarjan (hoặc Kosaraju) tì…
-- [Robert Tarjan: My Life with Data Structures #ICBS2025](https://www.youtube.com/watch?v=Iw486e6YKFo) — BIMSA, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài, bạn có thể mô tả DFS như quy nạp trên cây đệ quy + cạnh back/forward/cross và giải thích vì sao timestamps cho phép suy cấu trúc; phác thuật toán Tarjan (hoặc Kosaraju) tì…
+- **Xem trước** — [5.2 Articulation Point and Biconnected Components](https://www.youtube.com/watch?v=jFZsDDB0-vo) — Abdul Bari, tiếng Anh. Xem trước để làm quen với chủ đề.
+- [Lecture: Robert Endre Tarjan | September 19](https://www.youtube.com/watch?v=7vpTTH1_OCo) — Heidelberg Laureate Forum, tiếng Anh. Xem sau khi đã nắm ý chính.
+- [Robert Tarjan: My Life with Data Structures #ICBS2025](https://www.youtube.com/watch?v=Iw486e6YKFo) — BIMSA, tiếng Anh. Góc nhìn bổ sung.

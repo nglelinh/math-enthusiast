@@ -20,7 +20,7 @@ Bài này không tóm tắt hàng nghìn trang TAOCP. Đó là bản đồ **ý 
 Sau bài học, bạn có thể:
 
 - Giải thích **phân tích thuật toán** khác gì với “chạy thử vài input” và khác gì với phân loại NP-đầy đủ.  
-- Đọc và dùng $$O$$, $$\Theta$$, $$\Omega$$ đúng mức seminar (chặn trên/dưới/chặt).  
+- Đọc và dùng $$O$$, $$\Theta$$, $$\Omega$$ đúng mức cần thiết (chặn trên/dưới/chặt).  
 - Phân tích vài thuật toán cổ điển (tìm kiếm, sắp xếp, duyệt đồ thị) ở mức đếm thao tác theo $$n$$.  
 - Nêu vai trò cấu trúc dữ liệu trong việc đổi số mũ hoặc hệ số của thời gian.  
 - Mô tả tinh thần TAOCP: chứng minh đúng đắn + phân tích chi phí + lịch sử ý tưởng.  
@@ -39,7 +39,7 @@ Hai thuật toán cùng “đúng” có thể khác nhau hàng nghìn lần v�
 - Không gian phụ thêm bao nhiêu?  
 - Hằng số ẩn và hiệu ứng cache có quan trọng ở chế độ $$n$$ thực tế không?
 
-Knuth hệ thống hóa việc **đếm** và **sinh hàm đếm** (generating functions), biến nhiều thuật toán rời rạc thành bài toán giải tích tổ hợp. Ngay cả khi seminar chỉ dùng big-O, di sản là: chi phí là **đối tượng toán**, không chỉ cảm giác.
+Knuth hệ thống hóa việc **đếm** và **sinh hàm đếm** (generating functions), biến nhiều thuật toán rời rạc thành bài toán giải tích tổ hợp. Ngay cả khi chỉ dùng big-O, di sản là: chi phí là **đối tượng toán**, không chỉ cảm giác.
 
 ---
 
@@ -73,11 +73,11 @@ $$
 C_n = n-1 + \frac{1}{n}\sum_{k=0}^{n-1}\big(C_k+C_{n-1-k}\big),
 $$
 
-rồi giải ra $$C_n = \Theta(n\log n)$$. Seminar có thể chấp nhận kết quả; điểm là **mô hình xác suất trên input hoặc trên random bit** trở thành phần của chứng minh.
+rồi giải ra $$C_n = \Theta(n\log n)$$. Ở đây ta có thể chấp nhận kết quả; điểm là **mô hình xác suất trên input hoặc trên random bit** trở thành phần của chứng minh.
 
 ### Duyệt đồ thị
 
-BFS/DFS trên đồ thị $$G=(V,E)$$ với biểu diễn danh sách kề: thời gian $$\Theta(|V|+|E|)$$. Đây là mẫu “tuyến tính theo kích thước input”—nền cho shortest paths không trọng số, kiểm tra liên thông, tô拓扑. Trên đồ thị dày $$|E|\sim |V|^2$$, chi phí là $$\Theta(|V|^2)$$; cấu trúc thưa cứu thời gian.
+BFS/DFS trên đồ thị $$G=(V,E)$$ với biểu diễn danh sách kề: thời gian $$\Theta(|V|+|E|)$$. Đây là mẫu “tuyến tính theo kích thước input”—nền cho shortest paths không trọng số, kiểm tra liên thông, sắp xếp topo. Trên đồ thị dày $$|E|\sim |V|^2$$, chi phí là $$\Theta(|V|^2)$$; cấu trúc thưa cứu thời gian.
 
 ---
 
@@ -125,9 +125,9 @@ Phân tích trường hợp trung bình giả định phân phối input. Nếu 
 | **Knuth / phân tích** | Thuật toán *này* tốn bao nhiêu theo $$n$$? | Big-O, truy hồi, sinh hàm, amortized |
 | **Cook–Karp / độ phức tạp** | Bài toán *này* có thuật toán poly-time *nào* không? Có khó nhất trong NP không? | Lớp, reduction, NP-đầy đủ |
 
-Một bài thuộc P vẫn có thể có thuật toán $$n^4$$ không thực dụng; phân tích Knuth so $$n\log n$$ với $$n^2$$ **bên trong** P. Một bài NP-đầy đủ có thể vẫn có solver thực dụng trên instance thưa—phân loại Cook–Karp không bị hủy. Người học mature mang **cả hai** thước.
+Một bài thuộc P vẫn có thể có thuật toán $$n^4$$ không thực dụng; phân tích Knuth so $$n\log n$$ với $$n^2$$ **bên trong** P. Một bài NP-đầy đủ có thể vẫn có solver thực dụng trên instance thưa—phân loại Cook–Karp không bị hủy. Người học cần mang theo **cả hai** thước.
 
-Fine-grained complexity hiện đại (SETH, 3SUM, APSP) nằm giữa: chặn dưới có điều kiện cho số mũ đa thức chính xác—cháu tinh thần cả Knuth lẫn Cook.
+Fine-grained complexity hiện đại (SETH, 3SUM, APSP) nằm giữa: chặn dưới có điều kiện cho số mũ đa thức chính xác—kế thừa tinh thần của cả Knuth lẫn Cook.
 
 ---
 
@@ -149,59 +149,36 @@ Fine-grained complexity hiện đại (SETH, 3SUM, APSP) nằm giữa: chặn d�
 1. Chứng minh sơ bộ $$5n^3+2n = O(n^3)$$ bằng định nghĩa (chỉ ra $$C,n_0$$).  
 2. Giải thích vì sao mergesort là $$\Theta(n\log n)$$: cây đệ quy độ sâu và công việc mỗi tầng.  
 3. BFS: lập luận $$\Theta(|V|+|E|)$$ với danh sách kề (mỗi đỉnh/cạnh xử lý hằng lần).  
-4. Viết invariant cho insertion sort (mảng trái đã sắp) và giải thích vì sao dual: đúng + $$O(n^2)$$.  
+4. Viết bất biến vòng lặp cho insertion sort (phần mảng bên trái đã sắp) và giải thích vì sao thuật toán vừa đúng vừa chạy trong $$O(n^2)$$.  
 5. So 10 dòng: phân tích thuật toán kiểu Knuth vs chứng minh NP-đầy đủ kiểu Karp—khác input câu hỏi.  
 6. **≤200 từ:** Vì sao chặn dưới $$\Omega(n\log n)$$ cho sắp xếp so sánh quan trọng hơn việc “chưa ai viết nhanh hơn”?  
 7. Thảo luận một cấu trúc dữ liệu bạn biết: thao tác, bất biến, chi phí.  
-8. Studio: đếm số so sánh insertion sort trên một hoán vị $$n=6$$ cụ thể; so với $$n^2$$ và $$n\log n$$.
+8. Đếm số so sánh insertion sort trên một hoán vị $$n=6$$ cụ thể; so với $$n^2$$ và $$n\log n$$.
 
 ---
 
 
-## Nguồn video (gói math-video-researcher)
+## Video và tài liệu
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh. Chi tiết: `research/video-research/knuth-algorithms/`.
+Video gợi ý, dùng để làm quen với bối cảnh chứ không thay cho chứng minh: bài giảng của Knuth ở Stanford, [https://www.youtube.com/watch?v=PUJ_XdmSDZw](https://www.youtube.com/watch?v=PUJ_XdmSDZw).
 
-**Khẩu hiệu từ gói nghiên cứu**
-
-- Knuth Turing 1974: phân tích thuật toán; TAOCP; TeX.
-
-**Thứ tự xem gợi ý**
-
-1. **ORIENTATION** — YouTube search: Knuth Christmas tree lecture / interviews: [https://www.youtube.com/watch?v=PUJ_XdmSDZw](https://www.youtube.com/watch?v=PUJ_XdmSDZw).  
-
-**Cổng chính thức / tài liệu**
-
-- Knuth Turing page: https://amturing.acm.org/award_winners/knuth_1013846.cfm  
-
-Danh mục URL đầy đủ: `research/video-research/knuth-algorithms/references.md`.
-
-
-### Transcript & frames (batch extract)
-
-Transcript caption và unit theo thời gian: `research/video-research/knuth-algorithms/transcripts/` · trạng thái: `research/video-research/knuth-algorithms/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
+Trang giải Turing của Knuth có trong danh sách dưới đây.
 
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/knuth-algorithms_PUJ_XdmSDZw_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video đầu tiên.*
 
-## Tài liệu
+## Tài liệu tham khảo trực tuyến
 
-
-### Gói nghiên cứu video (mọi URL)
-
-Danh mục đầy đủ: `research/video-research/knuth-algorithms/references.md`.
-
-1. Knuth Turing page — https://amturing.acm.org/award_winners/knuth_1013846.cfm  
+1. Trang giải Turing của Knuth — https://amturing.acm.org/award_winners/knuth_1013846.cfm  
 2. Wikipedia — Donald Knuth — https://en.wikipedia.org/wiki/Donald_Knuth  
 3. Wikipedia — The Art of Computer Programming — https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming  
 4. Wikipedia — Analysis of algorithms — https://en.wikipedia.org/wiki/Analysis_of_algorithms  
-5. Knuth home (Stanford) — https://www-cs-faculty.stanford.edu/~knuth/  
+5. Trang cá nhân của Knuth (Stanford) — https://www-cs-faculty.stanford.edu/~knuth/  
 6. Wikipedia — TeX — https://en.wikipedia.org/wiki/TeX  
 7. Wikipedia — Literate programming — https://en.wikipedia.org/wiki/Literate_programming  
-8. YouTube search: Knuth Christmas tree lecture / interviews — https://www.youtube.com/watch?v=PUJ_XdmSDZw  
+8. Bài giảng của Knuth ở Stanford — https://www.youtube.com/watch?v=PUJ_XdmSDZw  
 9. ACM DL Knuth materials — https://dl.acm.org/  
-10. Thư mục gói: `research/video-research/knuth-algorithms/`.
 
 1. Knuth, D. E. *The Art of Computer Programming*, Vol. 1–3 (và các fascicle).  
 2. ACM Turing Award citation: Donald E. Knuth (1974).  
@@ -220,11 +197,11 @@ Danh mục đầy đủ: `research/video-research/knuth-algorithms/references.md
 
 ## Nghệ thuật như kỷ luật
 
-Chữ *Art* trong TAOCP dễ bị hiểu là “khéo tay.” Knuth dùng gần nghĩa trung cổ: **kỹ nghệ có nguyên tắc**, nơi cái đẹp nằm ở chứng minh gọn, phân tích chính xác, và tôn trọng người đọc. Trong seminar *Math Enthusiast*, đó là cầu nối: thuật toán không ngoài toán; chúng là toán của quy trình hữu hạn dưới ràng buộc tài nguyên.
+Chữ *Art* trong TAOCP dễ bị hiểu là “khéo tay.” Knuth dùng gần nghĩa trung cổ: **kỹ nghệ có nguyên tắc**, nơi cái đẹp nằm ở chứng minh gọn, phân tích chính xác, và tôn trọng người đọc. Với khóa *Math Enthusiast*, đó là cầu nối: thuật toán không ngoài toán; chúng là toán của quy trình hữu hạn dưới ràng buộc tài nguyên.
 
-Khi bạn tối ưu code, hãy hỏi ba câu Knuth-style: *Đúng chưa? Chi phí theo $$n$$ ra sao? Có cấu trúc dữ liệu nào đổi bậc không?* Khi bạn gặp bài NP-đầy đủ, hãy thêm câu Cook–Karp: *Có thuật toán poly-time worst-case nào không, hay ta cần xấp xỉ/heuristic/cấu trúc instance?* Bốn câu đủ để điều hướng phần lớn thảo luận thuật toán trong khóa.
+Khi bạn tối ưu code, hãy hỏi ba câu theo tinh thần của Knuth: *Đúng chưa? Chi phí theo $$n$$ ra sao? Có cấu trúc dữ liệu nào đổi bậc không?* Khi bạn gặp bài NP-đầy đủ, hãy thêm câu Cook–Karp: *Có thuật toán poly-time worst-case nào không, hay ta cần xấp xỉ/heuristic/cấu trúc instance?* Bốn câu đủ để điều hướng phần lớn thảo luận thuật toán trong khóa.
 
 ## Video tham khảo
 
-- **xem trước** — [Stanford Lecture - Dancing Cells, Dr. Donald Knuth I 2023](https://www.youtube.com/watch?v=PUJ_XdmSDZw) — Stanford Online, tiếng Anh. Xem trước. “Stanford Lecture - Dancing Cells, Dr. Donald Knuth I 2023” định hướng cho mục tiêu của bài: Giải thích phân tích thuật toán khác gì với “chạy thử vài input” và khác gì với phân loại NP-đầy đủ.
-- [Donald Knuth: Talk on SAT Solving @ JKU Linz (Recorded with Google Hangouts)](https://www.youtube.com/watch?v=QFMERqvfzlc) — Martina Seidl, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Giải thích phân tích thuật toán khác gì với “chạy thử vài input” và khác gì với phân loại NP-đầy đủ.
+- **Xem trước** — [Stanford Lecture - Dancing Cells, Dr. Donald Knuth I 2023](https://www.youtube.com/watch?v=PUJ_XdmSDZw) — Stanford Online, tiếng Anh. Xem trước để làm quen với chủ đề.
+- [Donald Knuth: Talk on SAT Solving @ JKU Linz (Recorded with Google Hangouts)](https://www.youtube.com/watch?v=QFMERqvfzlc) — Martina Seidl, tiếng Anh. Xem sau khi đã nắm ý chính.

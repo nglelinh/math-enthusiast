@@ -9,188 +9,188 @@ categories:
 - chapter07
 ---
 
-> **Lộ trình B — Bốn màu (bước 2/2)**  
-> **1.** [Định lý bốn màu Ch.1]({{ site.baseurl }}/contents/vi/chapter01/01_09_Four_Color_Theorem/)  
-> **2. Bạn đang ở đây:** Studio tô bản đồ Ch.7  
-> *Tiên quyết:* dual graph + phác năm màu từ Ch.1.
+> **Lộ trình B: Bốn màu (bước 2/2)**  
+> **1.** [Định lý bốn màu, chương 1]({{ site.baseurl }}/contents/vi/chapter01/01_09_Four_Color_Theorem/)  
+> **2. Bạn đang ở đây:** bài thực hành tô màu bản đồ, chương 7  
+> *Kiến thức cần có:* đồ thị đối ngẫu và phác thảo chứng minh định lý năm màu ở chương 1.
 
-Bốn màu đủ cho mọi bản đồ phẳng—**Appel–Haken (1976)** và các đơn giản hóa sau, gồm phân tích trường hợp có máy kiểm. Câu đó giấu cả thế kỷ gần-chứng-minh, lỗi Kempe, **định lý năm màu** sạch, và lý thuyết đồ thị trên mặt qua **số Heawood**. Studio thực hành: vẽ map, dựng dual, thất bại 3 màu, tính cận giống, viết đoạn cẩn về “chứng minh” khi máy kiểm case.
+Bốn màu là đủ để tô mọi bản đồ phẳng. Điều này được **Appel và Haken (1976)** chứng minh, sau đó được người khác đơn giản hóa, và đều dựa vào việc dùng máy tính kiểm tra từng trường hợp. Đằng sau câu phát biểu ngắn đó là gần một thế kỷ với nhiều chứng minh suýt thành công, lỗi sai của Kempe, **định lý năm màu** có chứng minh gọn gàng, và lý thuyết tô màu đồ thị trên các mặt cong thông qua **số Heawood**. Trong bài thực hành này, bạn sẽ vẽ bản đồ, dựng đồ thị đối ngẫu, thấy vì sao 3 màu không đủ, tính chặn theo giống của mặt, và viết một đoạn cẩn thận về việc thế nào là "chứng minh" khi máy tính kiểm tra các trường hợp.
 
-Bạn không chạy lại computer search bốn màu. Bạn **luyện định nghĩa** làm định lý có nghĩa và khám phá khi mặt/quy tắc đổi thì điều gì đổi. Cùng kỷ luật studio khác: đóng băng quy tắc trước khi vẽ; nhãn định lý / lịch sử gần đúng / construction / phản tư.
+Bạn không cần chạy lại chương trình máy tính của chứng minh bốn màu. Bạn **tập dùng định nghĩa cho chính xác**, vì chính định nghĩa làm cho định lý có nghĩa, và tìm hiểu điều gì thay đổi khi đổi mặt hoặc đổi quy tắc. Giống các bài thực hành khác: cố định quy tắc trước khi vẽ, và gắn nhãn rõ: định lý, lịch sử (chứng minh suýt đúng), cách dựng, hay suy ngẫm.
 
 ---
 
 ## Mục tiêu học tập
 
-Sau studio bạn cần:
+Sau bài này, bạn cần:
 
-- Chuyển map thành **dual graph**; tô map = tô đỉnh đồ thị.
-- Chỉ ra map/đồ thị phẳng cần 4 màu và vì sao 3 thất bại.
-- Phác **định lý năm màu** qua Euler và đỉnh bậc $$\le 5$$.
-- Tính $$H(g)=\bigl\lfloor(7+\sqrt{1+48g})/2\bigr\rfloor$$ cho giống nhỏ và diễn giải.
-- Giải thích **quốc gia không liên thông** (empire/mutilated maps) có thể đòi tùy ý nhiều màu.
-- Đoạn tách: chứng năm màu sơ cấp, chứng bốn màu hỗ trợ máy, định lý màu trên mặt.
+- Chuyển một bản đồ thành **đồ thị đối ngẫu**; tô màu bản đồ tương đương với tô màu các đỉnh của đồ thị.
+- Chỉ ra một bản đồ (hay đồ thị phẳng) cần đúng 4 màu và giải thích vì sao 3 màu không đủ.
+- Phác thảo chứng minh **định lý năm màu** dựa vào công thức Euler và sự tồn tại đỉnh bậc $$\le 5$$.
+- Tính $$H(g)=\bigl\lfloor(7+\sqrt{1+48g})/2\bigr\rfloor$$ cho các giống nhỏ và giải thích ý nghĩa.
+- Giải thích vì sao nếu cho phép **một nước gồm nhiều mảnh rời nhau** (bài toán "đế quốc") thì có thể cần nhiều màu tùy ý.
+- Viết một đoạn phân biệt: chứng minh năm màu sơ cấp, chứng minh bốn màu có máy tính hỗ trợ, và định lý tô màu trên các mặt.
 
-**Tiên quyết.** Đồ thị phẳng, Euler $$v-e+f=2$$, quy nạp cơ bản.
+**Kiến thức cần có.** Đồ thị phẳng, công thức Euler $$v-e+f=2$$, quy nạp cơ bản.
 
 ---
 
-## 1. Toán nền
+## 1. Kiến thức toán nền
 
-### 1.1 Map, dual, chromatic number
+### 1.1 Bản đồ, đồ thị đối ngẫu, sắc số
 
-**Bản đồ** (cho bốn màu) là phân hoạch mặt phẳng (hoặc cầu) thành hữu hạn vùng liên thông (“nước”). Hai nước kề nếu chung biên độ dài dương (chạm tại một điểm không tính). **Tô màu** gán màu sao cho nước kề khác màu.
+Một **bản đồ** (theo nghĩa của bài toán bốn màu) là một cách chia mặt phẳng (hoặc mặt cầu) thành hữu hạn vùng liên thông, gọi là các "nước". Hai nước kề nhau nếu chúng có chung một đoạn biên có độ dài dương (chỉ chạm nhau tại một điểm thì không tính). Một cách **tô màu** là gán màu cho các nước sao cho hai nước kề nhau luôn khác màu.
 
-Dựng **dual graph** $$G$$: một đỉnh mỗi nước; một cạnh khi nước chung biên. Tô map ≡ **tô đỉnh** của $$G$$. Với dual map đúng, $$G$$ phẳng (và thường không cầu dưới giả thiết êm). **Số màu** $$\chi(G)$$ là số màu tối thiểu.
+Ta dựng **đồ thị đối ngẫu** $$G$$: mỗi nước là một đỉnh; hai đỉnh nối với nhau khi hai nước có chung biên. Tô màu bản đồ chính là **tô màu đỉnh** của $$G$$. Với bản đồ hợp lệ, $$G$$ là đồ thị phẳng (và là đồ thị đơn dưới các giả thiết thông thường). **Sắc số** $$\chi(G)$$ là số màu ít nhất cần dùng.
 
-**Định lý bốn màu (4CT):** mọi đồ thị phẳng 4-tô được; tương đương, mọi map phẳng 4-tô được.
+**Định lý bốn màu (4CT):** mọi đồ thị phẳng đều tô được bằng 4 màu; tương đương, mọi bản đồ phẳng đều tô được bằng 4 màu.
 
 ### 1.2 Vì sao năm màu dễ hơn
 
-Từ Euler cho đồ thị phẳng liên thông đơn, cùng handshaking mặt $$2e\ge 3f$$ (mỗi mặt ≥3 cạnh, mỗi cạnh chạm ≤2 mặt), suy $$e\le 3v-6$$ với $$v\ge 3$$. Do đó bậc trung bình $$2e/v<6$$, nên tồn tại đỉnh $$v$$ với $$\deg(v)\le 5$$. **Định lý năm màu** quy nạp theo $$v$$: bỏ đỉnh bậc thấp, năm-tô phần còn lại, và nếu láng giềng của đỉnh đã xóa dùng đủ năm màu thì thử xích Kempe để giải phóng một màu. Lập luận hoàn toàn người đọc được và là chuẩn mọi khóa đồ thị.
+Với đồ thị phẳng đơn, liên thông, từ công thức Euler kết hợp với bất đẳng thức $$2e\ge 3f$$ (mỗi mặt có ít nhất 3 cạnh, mỗi cạnh giáp nhiều nhất 2 mặt), ta suy ra $$e\le 3v-6$$ khi $$v\ge 3$$. Do đó bậc trung bình $$2e/v<6$$, nên có một đỉnh $$v$$ với $$\deg(v)\le 5$$. **Định lý năm màu** được chứng minh bằng quy nạp theo số đỉnh $$v$$: bỏ một đỉnh bậc thấp, tô phần còn lại bằng năm màu, và nếu các đỉnh kề với đỉnh đã bỏ dùng đủ cả năm màu thì dùng xích Kempe để giải phóng một màu. Lập luận này hoàn toàn đọc hiểu được bằng tay và có mặt trong mọi giáo trình lý thuyết đồ thị.
 
-Nỗ lực Kempe 1879 cho **bốn** màu có lỗ (Heawood 1890 phơi). Lỗ tinh—đúng kiểu đáng đọc chậm một lần trong Ch.1. Đạo đức studio: ý quy nạp đẹp có thể *gần* đúng mà vẫn gãy ở một case tô lại. Đó là vì sao phân tích case có máy sau này vào câu chuyện bốn màu mà không vào năm màu.
+Năm 1879, Kempe đưa ra một chứng minh cho **bốn** màu nhưng có lỗ hổng (Heawood chỉ ra năm 1890). Lỗ hổng này rất tinh vi, đáng để đọc chậm một lần ở chương 1. Bài học ở đây là: một ý tưởng quy nạp đẹp có thể *gần* đúng nhưng vẫn sai ở một trường hợp tô lại màu. Đó là lý do việc phân tích trường hợp bằng máy tính sau này xuất hiện trong câu chuyện bốn màu chứ không cần cho năm màu.
 
-### 1.3 Appel–Haken làm gì
+### 1.3 Appel và Haken đã làm gì
 
-Chứng minh 4CT giảm bài về tập hữu hạn (nhưng lớn) **cấu hình unavoidable** và **reducible**: mỗi cái không thể xuất hiện trong phản ví dụ tối thiểu. Unavoidability nghĩa mọi phản ví dụ tối thiểu phải chứa một cấu hình (thường chứng bằng discharging: gán charge từ Euler và phân phối lại đến khi buộc cấu hình). Reducibility nghĩa tô phần còn lại có thể mở rộng vào trong sau hữu hạn kiểm tô lại. Kiểm reducibility dùng máy liệt kê case. Công trình sau (Robertson, Sanders, Seymour, Thomas, …) đơn giản hóa tập unavoidable và recheck bằng chương trình độc lập; formalization tăng tin cậy. Dù vậy chứng minh khác năm màu về độ dài và phương pháp: sinh viên nội hóa năm màu trong một buổi chiều, trong khi bốn màu là case analysis quy mô nghiên cứu ngay cả sau đơn giản hóa.
+Chứng minh 4CT đưa bài toán về một tập hữu hạn (nhưng rất lớn) các **cấu hình không tránh được** (unavoidable) và **khử được** (reducible): không cấu hình nào trong số đó có thể xuất hiện trong một phản ví dụ nhỏ nhất. Không tránh được nghĩa là mọi phản ví dụ nhỏ nhất đều phải chứa ít nhất một cấu hình trong tập (thường chứng minh bằng phương pháp phóng điện, discharging: gán "điện tích" dựa trên công thức Euler rồi phân phối lại cho đến khi buộc phải có một cấu hình). Khử được nghĩa là mọi cách tô phần bên ngoài đều có thể mở rộng vào bên trong sau hữu hạn bước tô lại. Việc kiểm tra tính khử được dùng máy tính liệt kê các trường hợp. Các công trình sau đó (Robertson, Sanders, Seymour, Thomas, …) đơn giản hóa tập cấu hình và kiểm tra lại bằng chương trình độc lập; việc hình thức hóa chứng minh trên máy càng tăng độ tin cậy. Dù vậy, chứng minh này vẫn khác hẳn chứng minh năm màu về độ dài và phương pháp: sinh viên có thể hiểu chứng minh năm màu trong một buổi chiều, còn chứng minh bốn màu vẫn là một phân tích trường hợp ở quy mô nghiên cứu, kể cả sau khi đã đơn giản hóa.
 
-**Câu log:** “hỗ trợ máy” có phải “không phải chứng minh”? Viết chuẩn của bạn trước và sau khi đọc thảo luận Ch.1. Vị trí giữa nhiều nhà toán học giữ: chứng minh là đối tượng xã hội cộng đồng kiểm được về nguyên tắc; máy là checker hợp lệ khi chương trình và đặc tả tự audit được.
+**Câu hỏi cho nhật ký:** "có máy tính hỗ trợ" có nghĩa là "không phải chứng minh" không? Viết quan điểm của bạn trước và sau khi đọc phần thảo luận ở chương 1. Nhiều nhà toán học giữ quan điểm trung dung: chứng minh là thứ mà cộng đồng có thể kiểm tra được về nguyên tắc; máy tính là công cụ kiểm tra hợp lệ khi chương trình và đặc tả của nó có thể được kiểm tra lại.
 
-### 1.4 Mặt và Heawood
+### 1.4 Các mặt và số Heawood
 
-Trên mặt giống $$g\ge 1$$, Euler đổi (đặc số Euler $$\chi=2-2g$$ cho mặt đóng định hướng), và cận bậc trung bình yếu đi vì bất đẳng thức cạnh–đỉnh phụ thuộc $$\chi$$. **Số Heawood**
+Trên mặt có giống $$g\ge 1$$, công thức Euler thay đổi (đặc trưng Euler $$\chi=2-2g$$ với mặt đóng định hướng được), và chặn trên cho bậc trung bình yếu đi vì bất đẳng thức giữa số cạnh và số đỉnh phụ thuộc vào $$\chi$$. **Số Heawood**
 
 $$
 H(g)=\left\lfloor\frac{7+\sqrt{1+48g}}{2}\right\rfloor
 $$
 
-cho cận trên số màu map trên mặt định hướng giống $$g$$ (với $$g=0$$ công thức cho 4, nhưng lập luận Heawood cổ điển cho cầu/mặt phẳng **không** là chứng 4CT đầy đủ—lịch sử quan trọng). **Xuyến** ($$g=1$$): $$H(1)=7$$ và 7 sắc—tồn tại map xuyến cần 7 màu. Tính $$H(g)$$ tay cho giống nhỏ là kiểm fluency bắt buộc ở thí nghiệm C.
+là chặn trên cho số màu cần để tô bản đồ trên mặt định hướng được có giống $$g$$. Với $$g=0$$ công thức cho giá trị 4, nhưng lập luận cổ điển của Heawood cho mặt cầu và mặt phẳng **không** chứng minh được 4CT; điểm này quan trọng về mặt lịch sử. Với **mặt xuyến** ($$g=1$$): $$H(1)=7$$ và chặn này là đúng, tức là có bản đồ trên mặt xuyến cần đủ 7 màu. Tính tay $$H(g)$$ cho các giống nhỏ là yêu cầu bắt buộc ở thí nghiệm C.
 
-Đồ thị đầy đủ $$K_n$$ nhúng trên mặt giống đủ cao; **Ringel–Youngs** giải conjecture Heawood cho $$g\ge 1$$, xác định chromatic number mỗi mặt định hướng. Tương phản với mặt phẳng vừa kỹ thuật vừa văn hóa: khi giống dương, embedding extremal $$K_n$$ thường ghim số màu sắc sạch hơn “bốn” phẳng.
+Đồ thị đầy đủ $$K_n$$ nhúng được vào các mặt có giống đủ lớn. **Ringel và Youngs** đã chứng minh giả thuyết Heawood cho $$g\ge 1$$, tức là xác định chính xác sắc số của mọi mặt định hướng được. Sự khác biệt so với mặt phẳng vừa mang tính kỹ thuật vừa thú vị về lịch sử: khi giống dương, cách nhúng $$K_n$$ tối ưu xác định số màu một cách gọn gàng hơn nhiều so với con số "bốn" trên mặt phẳng.
 
-### 1.5 Đổi quy tắc phá bốn
+### 1.5 Đổi quy tắc thì con số bốn không còn đúng
 
-Nếu nước được **không liên thông** (hai mảnh cùng empire phải cùng màu), có thể buộc tùy ý nhiều màu ngay trên mặt phẳng—đồng nhất mảnh cẩn thận để dual mã hóa ràng buộc đa thành phần. Ý construction chuẩn: lấy nhiều cặp vùng phải cùng màu và sắp kề sao “siêu-đỉnh” tạo clique lớn trong đồ thị xung đột. Nếu biên chạm hoang dã, hoặc map vô hạn, phát biểu đổi. Luôn đóng băng quy tắc trong đề xuất: nước liên thông? biên cung dương? map hữu hạn? cầu hay mặt phẳng?
+Nếu một nước được phép gồm **nhiều mảnh rời nhau** (các mảnh của cùng một "đế quốc" phải cùng màu), thì có thể buộc phải dùng nhiều màu tùy ý ngay trên mặt phẳng. Khi đó đồ thị đối ngẫu phải gộp các mảnh lại để thể hiện ràng buộc nhiều thành phần. Ý tưởng dựng chuẩn: lấy nhiều nhóm vùng bắt buộc cùng màu và sắp xếp chúng kề nhau sao cho các "siêu đỉnh" tạo thành một clique lớn trong đồ thị xung đột. Nếu biên giới có hình dạng quá bất thường, hoặc bản đồ có vô hạn nước, phát biểu cũng thay đổi. Vì vậy luôn cố định quy tắc trong đề xuất: các nước có liên thông không? biên chung có độ dài dương không? bản đồ có hữu hạn không? trên mặt cầu hay mặt phẳng?
 
-### 1.6 Ngoài map (chân trời)
+### 1.6 Ngoài bản đồ (mở rộng)
 
-Tô đồ thị vượt xa bản đồ. **Brooks:** đồ thị liên thông không đầy đủ và không chu trình lẻ thỏa $$\chi(G)\le\Delta(G)$$. **Đa thức màu** đếm tô $$k$$-màu đúng như đa thức theo $$k$$. **Hadwiger** conjecture: chromatic number cao buộc minor đầy đủ lớn. Stretch tùy chọn nếu dual đã fluent; không bắt buộc cho checkpoint.
+Tô màu đồ thị có phạm vi rộng hơn nhiều so với bản đồ. **Định lý Brooks:** đồ thị liên thông không phải đồ thị đầy đủ và không phải chu trình lẻ thì $$\chi(G)\le\Delta(G)$$. **Đa thức sắc độ** đếm số cách tô đúng bằng $$k$$ màu, và đó là một đa thức theo $$k$$. **Giả thuyết Hadwiger:** sắc số lớn buộc đồ thị phải chứa một đồ thị đầy đủ lớn làm minor. Đây là phần mở rộng tùy chọn khi bạn đã thành thạo đồ thị đối ngẫu, không bắt buộc để đạt yêu cầu.
 
 ---
 
-## 2. Conjecture / chứng minh / thí nghiệm
+## 2. Giả thuyết, chứng minh và thí nghiệm
 
 | Nhãn | Ví dụ |
 |------|-------|
-| **Định lý** | 4CT; năm màu; Heawood $$g\ge 1$$ (Ringel–Youngs) |
-| **Gần đúng lịch sử** | Lập luận Kempe bốn màu có lỗ |
-| **Construction** | Map bạn cần 4 màu; dual |
-| **Phản tư** | Chuẩn chứng minh hỗ trợ máy |
+| **Định lý** | 4CT; năm màu; Heawood với $$g\ge 1$$ (Ringel–Youngs) |
+| **Lịch sử (suýt đúng)** | Lập luận bốn màu của Kempe có lỗ hổng |
+| **Cách dựng** | Bản đồ bạn vẽ cần 4 màu; đồ thị đối ngẫu |
+| **Suy ngẫm** | Tiêu chuẩn cho chứng minh có máy tính hỗ trợ |
 
 **Tiêu chí:**
 
-1. Artifact: map phẳng cần 4 màu + dual.  
-2. Thất bại 3 màu tường minh (đỉnh/nước nào chặn).  
-3. $$H(0),H(1),H(2)$$ tính tay.  
-4. Phác năm màu bằng **văn xuôi** ≤12 câu (không bullet khô).  
-5. Đoạn empire hoặc chuẩn chứng minh máy.
+1. Sản phẩm: một bản đồ phẳng cần 4 màu kèm đồ thị đối ngẫu.  
+2. Chỉ rõ vì sao 3 màu thất bại (đỉnh hay nước nào gây cản trở).  
+3. Tính tay $$H(0),H(1),H(2)$$.  
+4. Phác thảo chứng minh năm màu bằng **văn xuôi**, không quá 12 câu (không gạch đầu dòng khô khan).  
+5. Một đoạn về bài toán đế quốc hoặc về tiêu chuẩn chứng minh bằng máy.
 
 ---
 
-## 3. Chuẩn log
+## 3. Cách ghi nhật ký
 
-**Ngày · Ý định · Hành động · Kết quả · Nhãn · Diễn giải · Tiếp.**
+**Ngày · Dự định · Việc đã làm · Kết quả · Nhãn · Giải thích · Bước tiếp theo.**
 
-Chụp/scan hình. Generator map ngẫu nhiên: ghi tham số. AI vẽ: disclose; vẫn tự kiểm kề cho ví dụ 4-critical.
+Chụp hoặc scan hình vẽ. Nếu dùng chương trình sinh bản đồ ngẫu nhiên, ghi lại tham số. Nếu dùng AI để vẽ, hãy ghi rõ; bạn vẫn phải tự kiểm tra quan hệ kề cho ví dụ cần đúng 4 màu.
 
 ---
 
 ## 4. Thí nghiệm
 
-Làm ≥2 (khuyến nghị A).
+Làm ít nhất 2 thí nghiệm (nên có A).
 
-### A — Map phẳng (25–45′)
+### A. Bản đồ phẳng (25–45 phút)
 
-Phát minh hoặc tìm map cần bốn màu. Ví dụ nhỏ cổ điển gồm cấu hình dual chứa minor $$K_4$$ theo cách thiết yếu, hoặc bốn vùng mỗi vùng gặp ba vùng kia dọc cung biên. Dựng dual cẩn: đỉnh = nước, cạnh chỉ cho cung chung (không chạm điểm). Thử 3 màu có hệ thống—backtracking dual nhỏ—và ghi obstruction (đỉnh nào có ba láng giềng ba màu chặn màu thứ tư dưới palette ba).
+Tự nghĩ ra hoặc tìm một bản đồ cần bốn màu. Ví dụ nhỏ kinh điển: đồ thị đối ngẫu chứa $$K_4$$ (làm minor) một cách thiết yếu, hoặc bốn vùng mà mỗi vùng đều giáp ba vùng còn lại dọc theo một đoạn biên. Dựng đồ thị đối ngẫu cẩn thận: đỉnh là nước, cạnh chỉ nối khi có đoạn biên chung (không tính chạm tại một điểm). Thử tô 3 màu một cách có hệ thống (quay lui trên đồ thị đối ngẫu nhỏ) và ghi lại chỗ cản trở (đỉnh nào có ba đỉnh kề mang đủ ba màu, nên không còn màu cho nó khi chỉ có ba màu).
 
-**Tiêu chí:** map + dual + obstruction viết + một câu vì sao chạm góc không tạo cạnh.
+**Tiêu chí:** bản đồ, đồ thị đối ngẫu, giải thích chỗ cản trở, và một câu giải thích vì sao chạm góc không tạo thành cạnh.
 
-### B — Câu chuyện năm màu (20–35′)
+### B. Chứng minh năm màu (20–35 phút)
 
-Từ $$e\le 3v-6$$, chứng tồn tại đỉnh bậc $$\le 5$$. Phác quy nạp năm màu văn xuôi liền: base, bước quy nạp, và làm gì khi năm láng giềng dùng năm màu. Chỗ nào gãy cho bốn màu (slogan lỗi xích Kempe)? Nếu có thời gian, phác *một* xích Kempe hai màu hoán vị dọc đường nối hai láng giềng—rồi ghi hai cặp màu khác nhau có thể can thiệp, đúng vùng nguy hiểm lịch sử.
+Từ $$e\le 3v-6$$, chứng minh có đỉnh bậc $$\le 5$$. Phác thảo phép quy nạp năm màu bằng văn xuôi liền mạch: bước cơ sở, bước quy nạp, và cách xử lý khi năm đỉnh kề dùng đủ năm màu. Lập luận này hỏng ở đâu nếu chỉ có bốn màu (ý chính của lỗi xích Kempe)? Nếu còn thời gian, phác thảo *một* xích Kempe: đổi chỗ hai màu dọc theo một đường nối hai đỉnh kề, rồi ghi lại việc hai cặp màu khác nhau có thể cản trở lẫn nhau. Đây chính là chỗ nguy hiểm trong lịch sử.
 
-**Tiêu chí:** bổ đề bậc + outline quy nạp + một câu lỗ bốn màu + Kempe tùy chọn.
+**Tiêu chí:** bổ đề về bậc, dàn ý quy nạp, một câu về lỗ hổng trong trường hợp bốn màu, và (tùy chọn) xích Kempe.
 
-### C — Xuyến và giống (20–40′)
+### C. Mặt xuyến và giống (20–40 phút)
 
-Tính $$H(g)$$ cho $$g=0,1,2,3$$. Với $$g=1$$, tìm ảnh map 7 màu trên xuyến (trích dẫn URL/sách). Giải thích vì sao “4” phẳng khó hơn “7” xuyến về lịch sử.
+Tính $$H(g)$$ với $$g=0,1,2,3$$. Với $$g=1$$, tìm một hình bản đồ 7 màu trên mặt xuyến (ghi nguồn URL hoặc sách). Giải thích vì sao về mặt lịch sử, con số "4" trên mặt phẳng lại khó hơn con số "7" trên mặt xuyến.
 
-**Tiêu chí:** bảng giá trị + ảnh trích dẫn + ghi chú lịch sử.
+**Tiêu chí:** bảng giá trị, hình có trích nguồn, ghi chú lịch sử.
 
-### D — Empire không liên thông (20–30′)
+### D. Đế quốc không liên thông (20–30 phút)
 
-Thiết kế/vẽ lại construction buộc ≥5 màu dưới quy tắc empire, hoặc tra construction chuẩn và vẽ lại. Thảo luận dual đổi thế nào (đồng nhất đỉnh?).
+Thiết kế hoặc vẽ lại một cách dựng buộc phải dùng ít nhất 5 màu theo quy tắc đế quốc, hoặc tra cứu cách dựng chuẩn rồi vẽ lại. Thảo luận đồ thị đối ngẫu thay đổi thế nào (có gộp đỉnh không?).
 
-**Tiêu chí:** hình + tuyên bố quy tắc + lập luận cận dưới màu.
+**Tiêu chí:** hình vẽ, phát biểu quy tắc, lập luận chặn dưới số màu.
 
-### E — Tiểu luận văn hóa chứng minh (25–40′)
+### E. Bài luận về văn hóa chứng minh (25–40 phút)
 
-Sau Ch.1 Appel–Haken, viết 5–8 câu: Chứng minh là gì? Người có phải duyệt mọi case? Recheck độc lập và formalization đổi độ tin thế nào?
+Sau khi đọc phần về Appel–Haken ở chương 1, viết 5–8 câu: Chứng minh là gì? Con người có cần tự kiểm tra mọi trường hợp không? Việc kiểm tra lại độc lập và hình thức hóa làm thay đổi độ tin cậy như thế nào?
 
-**Tiêu chí:** essay với chuẩn cá nhân rõ (không rant).
+**Tiêu chí:** bài luận nêu rõ quan điểm cá nhân (không viết kiểu than phiền).
 
 ---
 
-## 5. Nhầm lẫn thường gặp
+## 5. Những hiểu lầm thường gặp
 
-1. Luôn cần đủ 4 — nhiều map chỉ 2–3; 4 là worst case map phẳng.  
-2. Năm màu cần máy — không; bốn mới là computer-assisted.  
-3. Heawood ⇒ 4CT — với $$g=0$$ công thức cho 4, nhưng kỹ thuật Heawood cổ điển không chốt case phẳng như Ringel–Youngs chốt giống dương.  
-4. Chạm góc buộc khác màu — quy tắc chuẩn cần cung biên.  
-5. Mọi đồ thị là dual map — dual map phẳng có cấu trúc; đồ thị bất kỳ có thể không phẳng ($$\chi$$ có thể lớn tùy ý).
+1. "Luôn cần đủ 4 màu." Sai: nhiều bản đồ chỉ cần 2–3 màu; 4 là trường hợp xấu nhất của bản đồ phẳng.  
+2. "Định lý năm màu cần máy tính." Sai: chỉ chứng minh bốn màu mới cần máy tính hỗ trợ.  
+3. "Công thức Heawood suy ra 4CT." Sai: với $$g=0$$ công thức cho 4, nhưng kỹ thuật cổ điển của Heawood không giải quyết được trường hợp mặt phẳng, khác với việc Ringel–Youngs giải quyết các giống dương.  
+4. "Chạm góc thì phải khác màu." Sai: quy tắc chuẩn đòi hỏi có đoạn biên chung.  
+5. "Mọi đồ thị đều là đồ thị đối ngẫu của một bản đồ." Sai: đồ thị đối ngẫu của bản đồ phẳng có cấu trúc riêng; đồ thị tùy ý có thể không phẳng ($$\chi$$ có thể lớn tùy ý).
 
 ---
 
 ## 6. Bài tập
 
-1. Từ $$v-e+f=2$$ và $$2e\ge 3f$$ (mặt ≥3 cạnh) suy $$e\le 3v-6$$.  
-2. Tồn tại đỉnh bậc $$\le 5$$.  
-3. $$K_5$$ không phẳng (lập luận chuẩn) **không** một mình chứng minh 4CT.  
-4. Tính $$H(1)$$, $$H(2)$$ cẩn floor.  
-5. Đề xuất ≤150 từ: mục artifact, quy tắc đóng băng, tiêu chí.
+1. Từ $$v-e+f=2$$ và $$2e\ge 3f$$ (mỗi mặt có ít nhất 3 cạnh), suy ra $$e\le 3v-6$$.  
+2. Chứng minh tồn tại đỉnh bậc $$\le 5$$.  
+3. Giải thích vì sao việc $$K_5$$ không phẳng (lập luận chuẩn) **không** tự nó chứng minh được 4CT.  
+4. Tính $$H(1)$$, $$H(2)$$, chú ý phần nguyên.  
+5. Viết đề xuất (không quá 150 chữ): sản phẩm, quy tắc cố định, tiêu chí.
 
 ---
 
-## 7. Rubric
+## 7. Bảng tự đánh giá
 
-| ☐ | Map + dual |
-| ☐ | Obstruction 3 màu |
-| ☐ | Heawood $$g=0,1$$ (+2) |
-| ☐ | Phác năm màu văn xuôi |
-| ☐ | Empire hoặc chuẩn chứng minh máy |
-| ☐ | Nối Ch.1 |
-| ☐ | Log ≥3 |
+| ☐ | Bản đồ và đồ thị đối ngẫu |
+| ☐ | Chỗ cản trở khi dùng 3 màu |
+| ☐ | Heawood với $$g=0,1$$ (và 2) |
+| ☐ | Phác thảo năm màu bằng văn xuôi |
+| ☐ | Bài toán đế quốc hoặc tiêu chuẩn chứng minh bằng máy |
+| ☐ | Liên hệ với chương 1 |
+| ☐ | Nhật ký ít nhất 3 mục |
 
 ---
 
 
-## Nguồn video (gói math-video-researcher)
+## Nguồn video (gói nghiên cứu video)
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh. Chi tiết: `research/video-research/explore-map-colors/`.
+Video dùng để **định hướng và hiểu thêm về văn hóa nghiên cứu**, không thay cho chứng minh. Chi tiết: `research/video-research/explore-map-colors/`.
 
-**Khẩu hiệu từ gói nghiên cứu**
+**Ý chính rút ra từ gói nghiên cứu**
 
-- **4CT:** bản đồ phẳng 4 màu (Appel–Haken 1976).
-- Định lý 5 màu có chứng minh tay ngắn; 4 màu cần máy/case.
-- Studio: đồ thị dual, Kempe; tranh luận “chứng minh là gì.”
+- **4CT:** mọi bản đồ phẳng tô được bằng 4 màu (Appel–Haken 1976).
+- Định lý 5 màu có chứng minh tay ngắn gọn; định lý 4 màu cần máy tính kiểm tra các trường hợp.
+- Bài thực hành: đồ thị đối ngẫu, xích Kempe; thảo luận "thế nào là chứng minh".
 
 **Thứ tự xem gợi ý**
 
-1. **ORIENTATION** — Numberphile — Four Color Map Theorem: [https://www.youtube.com/watch?v=NgbK43jB4rQ](https://www.youtube.com/watch?v=NgbK43jB4rQ).  
-2. **INTUITION** — Numberphile — Four Color Theorem extra footage: [https://www.youtube.com/watch?v=laMkuPrad3s](https://www.youtube.com/watch?v=laMkuPrad3s).  
+1. **Định hướng:** Numberphile, Four Color Map Theorem (định lý bốn màu): [https://www.youtube.com/watch?v=NgbK43jB4rQ](https://www.youtube.com/watch?v=NgbK43jB4rQ).  
+2. **Trực giác:** Numberphile, Four Color Theorem extra footage (phần quay thêm): [https://www.youtube.com/watch?v=laMkuPrad3s](https://www.youtube.com/watch?v=laMkuPrad3s).  
 
-**Cổng chính thức / tài liệu**
+**Trang chính thức / tài liệu**
 
 
 Danh mục URL đầy đủ: `research/video-research/explore-map-colors/references.md`.
@@ -198,7 +198,7 @@ Danh mục URL đầy đủ: `research/video-research/explore-map-colors/referen
 ## 8. Tài liệu
 
 
-### Gói nghiên cứu video (mọi URL)
+### Gói nghiên cứu video (tất cả URL)
 
 Danh mục đầy đủ: `research/video-research/explore-map-colors/references.md`.
 
@@ -213,32 +213,32 @@ Danh mục đầy đủ: `research/video-research/explore-map-colors/references.
 9. Wikipedia — Graph coloring — https://en.wikipedia.org/wiki/Graph_coloring  
 10. Thư mục gói: `research/video-research/explore-map-colors/`.
 
-1. [Ch.1 bốn màu]({{ site.baseurl }}/contents/vi/chapter01/01_09_Four_Color_Theorem/).  
-2. Wilson, *Four Colors Suffice* (lịch sử).  
-3. Giáo trình đồ thị: Euler, năm màu, Heawood.  
-4. Đối chiếu: [Kakeya]({{ site.baseurl }}/contents/vi/chapter01/01_08_Kakeya_Conjecture/) (văn hóa mở phân tích vs chứng minh máy).
+1. [Định lý bốn màu, chương 1]({{ site.baseurl }}/contents/vi/chapter01/01_09_Four_Color_Theorem/).  
+2. Wilson, *Four Colors Suffice* (Bốn màu là đủ; sách lịch sử).  
+3. Giáo trình lý thuyết đồ thị: công thức Euler, năm màu, Heawood.  
+4. Để đối chiếu: [Kakeya]({{ site.baseurl }}/contents/vi/chapter01/01_08_Kakeya_Conjecture/) (một bài toán giải tích còn mở, khác với chứng minh bằng máy).
 
 ---
 
 ## Hướng đi tiếp
 
-**Lộ trình B hoàn thành** khi rubric đầy và lưu dual artifact.
+**Hoàn thành lộ trình B** khi bạn đã đánh dấu đủ bảng tự đánh giá và lưu lại đồ thị đối ngẫu đã vẽ.
 
-Hướng nâng nếu dual đã fluent: **Hadwiger**; **list coloring** (Thomassen 5-choosability cho đồ thị phẳng là viên ngọc); **Grötzsch** (đồ thị phẳng không tam giác 3-tô được)—vậy “cần bao nhiêu màu” phụ thuộc giả thiết thêm. Complexity thêm nghĩa khác: quyết định 3-tô được của đồ thị phẳng NP-khó tổng quát, không mâu thuẫn 4CT (4CT khẳng định cận trên đều bằng bốn, không thuật toán hiệu quả cho ba).
+Hướng nâng cao khi đã thành thạo đồ thị đối ngẫu: **giả thuyết Hadwiger**; **tô màu theo danh sách** (định lý của Thomassen rằng đồ thị phẳng tô được theo danh sách 5 màu là một kết quả rất đẹp); **định lý Grötzsch** (đồ thị phẳng không có tam giác tô được bằng 3 màu). Như vậy, câu hỏi "cần bao nhiêu màu" phụ thuộc vào các giả thiết thêm. Độ phức tạp tính toán cho thêm một góc nhìn: bài toán quyết định một đồ thị phẳng có tô được bằng 3 màu hay không là NP-đầy đủ. Điều này không mâu thuẫn với 4CT, vì 4CT chỉ khẳng định chặn trên bốn màu cho mọi đồ thị phẳng, không cho thuật toán hiệu quả để kiểm tra ba màu.
 
-**Gợi ý tổng hợp một trang.** Tương phản (i) năm màu như quy nạp người; (ii) bốn màu như reducibility hữu hạn + máy kiểm; (iii) Heawood/Ringel–Youngs như câu chuyện mặt nơi số sắc đôi khi dễ chốt hơn bốn phẳng. Kết bằng chuẩn cá nhân “chứng minh là gì”.
+**Gợi ý bài tổng hợp một trang.** So sánh (i) chứng minh năm màu như một phép quy nạp con người làm được; (ii) chứng minh bốn màu như tập cấu hình khử được hữu hạn cộng với kiểm tra bằng máy; (iii) Heawood và Ringel–Youngs, câu chuyện trên các mặt mà ở đó sắc số đôi khi dễ xác định hơn con số bốn trên mặt phẳng. Kết thúc bằng quan điểm cá nhân về "thế nào là chứng minh".
 
-### Transcript & frames (batch extract)
+### Bản ghi lời và khung hình (trích tự động)
 
-Transcript caption và unit theo thời gian: `research/video-research/explore-map-colors/transcripts/` · trạng thái: `research/video-research/explore-map-colors/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
+Bản ghi lời thoại và các đoạn theo thời gian: `research/video-research/explore-map-colors/transcripts/` · trạng thái: `research/video-research/explore-map-colors/TRANSCRIPT_STATUS.md` · tổng hợp: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
 
-![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/explore-map-colors_NgbK43jB4rQ_thumb.jpg)
+![Khung hình mẫu từ video]({{ site.baseurl }}/img/video_research/nonflagships/explore-map-colors_NgbK43jB4rQ_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính của gói (xem gói nghiên cứu để biết mốc thời gian).*
 
 
 ## Video tham khảo
 
-- **xem trước** — [The Four Color Map Theorem - Numberphile](https://www.youtube.com/watch?v=NgbK43jB4rQ) — Numberphile, tiếng Anh. Xem trước. “The Four Color Map Theorem - Numberphile” định hướng cho mục tiêu của bài: Chuyển map thành dual graph; tô map = tô đỉnh đồ thị.
-- [The Map Coloring Puzzle That Changed Mathematics](https://www.youtube.com/watch?v=h7kqlYUV1l8) — Quanta Magazine, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Chuyển map thành dual graph; tô map = tô đỉnh đồ thị.
-- [John Conway - Four Color Theorem and Computer Proofs](https://www.youtube.com/watch?v=fPVXBurxfU8) — Simons Foundation, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Chuyển map thành dual graph; tô map = tô đỉnh đồ thị.
+- **Xem trước:** [The Four Color Map Theorem - Numberphile](https://www.youtube.com/watch?v=NgbK43jB4rQ) (Numberphile, tiếng Anh). Giới thiệu định lý bốn màu và cách chuyển bản đồ thành đồ thị. Nên xem trước khi làm thí nghiệm A.
+- [The Map Coloring Puzzle That Changed Mathematics](https://www.youtube.com/watch?v=h7kqlYUV1l8) (Quanta Magazine, tiếng Anh). Kể lại lịch sử bài toán bốn màu và chứng minh có máy tính hỗ trợ. Xem sau khi đã nắm ý chính.
+- [John Conway - Four Color Theorem and Computer Proofs](https://www.youtube.com/watch?v=fPVXBurxfU8) (Simons Foundation, tiếng Anh). Conway bàn về định lý bốn màu và chứng minh bằng máy tính. Hữu ích cho bài luận ở thí nghiệm E.

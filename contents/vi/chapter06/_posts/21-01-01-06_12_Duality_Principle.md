@@ -9,9 +9,14 @@ categories:
 - chapter06
 ---
 
-Michael Atiyah từng nhận xét rằng đối ngẫu (duality) trong toán học không phải một định lý đơn lẻ mà là một **nguyên lý**. Cùng từ đó xuất hiện trong vật lý với sức nặng tương đương: hai lý thuyết trông chẳng giống nhau có thể mã hóa cùng hiện tượng, và chế độ khó ở một phía có thể là chế độ dễ ở phía kia. Bài này là **bản đồ nguyên lý đó**—từ không gian dual và Fourier tới đối ngẫu Poincaré, nhóm dual Langlands, mirror symmetry, đối ngẫu điện–từ, và AdS/CFT—với nhãn rõ: định lý, giả thuyết sâu, hay slogan seminar.
+Michael Atiyah từng viết:
 
-Đọc sau [Vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/). Liên kết sang [chương trình Langlands]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/), [Atiyah–Singer]({{ site.baseurl }}/contents/vi/chapter08/08_11_Atiyah_Singer_Index/), và phân tích gauge ([Uhlenbeck]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/)). Các deep-dive (mirror symmetry, gói AdS/CFT, geometric Langlands) sẽ tới sau; ở đây mục tiêu là **biết đọc dưới một mái nhà**.
+> "Duality in mathematics is not a theorem, but a 'principle'."  
+> *(Đối ngẫu trong toán học là một "nguyên lý", chứ không phải một định lý.)*
+
+Từ "đối ngẫu" (duality) cũng xuất hiện trong vật lý với tầm quan trọng tương đương. Hai lý thuyết trông rất khác nhau có thể mô tả cùng một hiện tượng, và chế độ khó tính ở phía này có thể là chế độ dễ ở phía kia. Bài này là **bản đồ của nguyên lý đó**: từ không gian đối ngẫu và biến đổi Fourier, đến đối ngẫu Poincaré, nhóm đối ngẫu Langlands, đối xứng gương, đối ngẫu điện–từ và AdS/CFT. Mỗi mục được ghi rõ trạng thái: định lý, giả thuyết sâu, hay chỉ là một khẩu hiệu dùng trong seminar.
+
+Nên đọc sau bài [Vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/). Bài có liên kết sang [chương trình Langlands]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/), [Atiyah–Singer]({{ site.baseurl }}/contents/vi/chapter08/08_11_Atiyah_Singer_Index/), và giải tích gauge ([Uhlenbeck]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/)). Các bài đọc sâu (đối xứng gương, AdS/CFT, Langlands hình học) nằm ở sau; ở đây mục tiêu là **nhìn tất cả dưới một mái nhà** và biết đọc đúng từng loại.
 
 ---
 
@@ -19,150 +24,150 @@ Michael Atiyah từng nhận xét rằng đối ngẫu (duality) trong toán h�
 
 Sau bài này bạn có thể:
 
-- Phát biểu, bằng một câu cẩn thận, toán học thường hiểu **đối ngẫu** là gì (pairing, involution, hoặc tương đương đảo mũi tên / bù chiều).
-- Nêu ba ví dụ toán từ các tầng khác nhau (ví dụ không gian dual, đối ngẫu Poincaré, dual kiểu Gelfand / Spec không gian–đại số).
-- Nêu ba ví dụ vật lý (đối ngẫu điện–từ; T-duality hoặc S-duality mức slogan; AdS/CFT như holography).
-- Giải thích vì sao đối ngẫu **hữu ích**: đòn bẩy tính toán, phân loại, và đồng nhất khái niệm “hai lý thuyết.”
-- Tránh coi mọi dualty là định lý đã chứng, và tránh nhầm đối xứng thường của một Lagrangian với tương đương hai lý thuyết.
-- Chỉ ra ít nhất hai chỗ trong khóa học đã có dualty (nhóm dual Langlands; văn hóa chỉ số / lớp đặc trưng).
+- Phát biểu cẩn thận, trong một câu, toán học thường hiểu **đối ngẫu** là gì (một phép ghép cặp, một phép đối hợp, hoặc một tương đương đảo chiều mũi tên / đổi sang chiều bù).
+- Nêu ba ví dụ toán học ở các tầng khác nhau (ví dụ: không gian đối ngẫu, đối ngẫu Poincaré, đối ngẫu Gelfand / Spec giữa không gian và đại số).
+- Nêu ba ví dụ vật lý (đối ngẫu điện–từ; đối ngẫu T hoặc S ở mức ý chính; AdS/CFT như nguyên lý toàn ảnh).
+- Giải thích vì sao đối ngẫu **hữu ích**: đòn bẩy tính toán, phân loại, và gộp "hai lý thuyết" thành một.
+- Tránh coi mọi phép đối ngẫu là định lý đã chứng minh, và tránh nhầm đối xứng thông thường của một Lagrangian với sự tương đương của hai lý thuyết.
+- Chỉ ra ít nhất hai chỗ trong khóa học đã có đối ngẫu (nhóm đối ngẫu Langlands; định lý chỉ số / lớp đặc trưng).
 
-**Tiên quyết.** Đại số tuyến tính (không gian dual giúp); giải tích nhiều biến. Tôpô và QFT **không** bắt buộc—slogan và pairing là đủ. Ghép với bản đồ vật lý toán cho bối cảnh PDE/QFT.
+**Kiến thức cần có.** Đại số tuyến tính (biết không gian đối ngẫu là có lợi); giải tích nhiều biến. Tôpô và lý thuyết trường lượng tử **không** bắt buộc; nắm ý chính và khái niệm ghép cặp là đủ. Nên đọc kèm bài vật lý toán để có bối cảnh về phương trình đạo hàm riêng và lý thuyết trường lượng tử.
 
 ---
 
 ## 1. Đối ngẫu là loại đối tượng gì?
 
-Định nghĩa làm việc cho khóa này:
+Định nghĩa dùng trong khóa học này:
 
-> **Đối ngẫu** là một tương ứng có hệ thống biến đối tượng, phát biểu, hoặc cả lý thuyết thành các đối tượng bù—thường bằng cách đảo mũi tên, lật chiều, hoặc đổi chế độ “khó” và “dễ”—sao cho cấu trúc một phía kiểm soát cấu trúc phía kia.
+> **Đối ngẫu** là một tương ứng có hệ thống, biến các đối tượng, phát biểu, hoặc cả một lý thuyết thành các đối tượng "bù" với chúng (thường bằng cách đảo chiều mũi tên, đổi sang chiều bù, hoặc đổi chế độ "khó" thành "dễ"), sao cho cấu trúc ở phía này kiểm soát cấu trúc ở phía kia.
 
-Các mẫu thường gặp (không loại trừ lẫn nhau):
+Các dạng thường gặp (có thể chồng lên nhau):
 
-| Mẫu | Slogan | Ví dụ học đường |
+| Dạng | Ý chính | Ví dụ quen thuộc |
 |-----|--------|-----------------|
-| **Involution** | Dual của dual ≈ gốc | Phần bù tập; đa diện dual; nhiều dual thứ tự |
-| **Đảo mũi tên** | Ánh xạ đi chiều ngược | Không gian dual $$V^*$$; category đối; Galois trường ↔ nhóm con |
-| **Pairing hoàn hảo** | $$A\times B\to\text{scalars}$$ không suy biến | Đồng điều–đối đồng điều; hàm thử vs phân bố |
-| **Tương đương lý thuyết** | Hai formalisms, một vật lý | S-/T-duality; AdS/CFT; Seiberg duality |
+| **Đối hợp** (involution) | Đối ngẫu của đối ngẫu ≈ ban đầu | Phần bù của tập hợp; đa diện đối ngẫu; nhiều đối ngẫu thứ tự |
+| **Đảo mũi tên** | Ánh xạ đi theo chiều ngược lại | Không gian đối ngẫu $$V^*$$; phạm trù đối; lý thuyết Galois: trường ↔ nhóm con |
+| **Ghép cặp hoàn hảo** | $$A\times B\to\text{scalars}$$ không suy biến | Đồng điều – đối đồng điều; hàm thử và hàm suy rộng (phân bố) |
+| **Tương đương lý thuyết** | Hai cách mô tả, một vật lý | Đối ngẫu S, T; AdS/CFT; đối ngẫu Seiberg |
 
-Lý thuyết category đóng gói nhiều dualty như **tương đương phản biến** hoặc adjunction. Vật lý thường đóng gói như **tương đương lý thuyết** dưới đổi biến (coupling, bán kính, điện tích). Bạn không cần máy category đầy đủ: hãy để ý **chiều đảo**, **chiều bù**, và **cùng câu trả lời từ ngôn ngữ khác**.
+Lý thuyết phạm trù gói nhiều phép đối ngẫu dưới dạng **tương đương phản biến** hoặc cặp hàm tử liên hợp. Vật lý thường diễn đạt chúng như **tương đương giữa hai lý thuyết** sau một phép đổi tham số (hằng số tương tác, bán kính, điện tích). Bạn không cần toàn bộ lý thuyết phạm trù. Hãy để ý ba dấu hiệu: **mũi tên đảo chiều**, **chiều được thay bằng chiều bù**, và **cùng một câu trả lời từ hai ngôn ngữ khác nhau**.
 
 ---
 
-## 2. Tầng A — Đại số tuyến tính và giải tích (nguyên mẫu)
+## 2. Tầng A: Đại số tuyến tính và giải tích (các ví dụ mẫu)
 
-### Không gian dual
+### Không gian đối ngẫu
 
-Với không gian vector $$V$$ trên trường $$K$$, **dual** là
+Với không gian vectơ $$V$$ trên trường $$K$$, **không gian đối ngẫu** là
 
 $$
 V^* = \mathrm{Hom}(V,K) = \{\text{ánh xạ tuyến tính }\varphi:V\to K\}.
 $$
 
-Ánh xạ tuyến tính $$f:V\to W$$ sinh $$f^*:W^*\to V^*$$ bằng pullback—**mũi tên đảo**. Không gian hữu hạn chiều thỏa $$V\cong V^{**}$$ theo tinh thần canonical (qua evaluation); vô hạn chiều cần tôpô (dual liên tục, Banach phản xạ, Hilbert qua Riesz).
+Mỗi ánh xạ tuyến tính $$f:V\to W$$ sinh ra $$f^*:W^*\to V^*$$ bằng phép kéo lùi (pullback): **mũi tên đảo chiều**. Không gian hữu hạn chiều thỏa $$V\cong V^{**}$$ một cách chính tắc (qua phép lấy giá trị). Với không gian vô hạn chiều, ta cần thêm tôpô (đối ngẫu liên tục, không gian Banach phản xạ, không gian Hilbert qua định lý Riesz).
 
-**Vì sao quan trọng.** Đo lường dual với trạng thái: trong cơ học lượng tử, bra và ket là ngôn ngữ dual; quan sát sống ở vai dual với vector. Dual tối ưu (LP primal ↔ dual) là họ hàng: biến một phía khớp ràng buộc phía kia, tối ưu khớp dưới giả thiết chuẩn.
+**Vì sao quan trọng.** Phép đo là đối ngẫu của trạng thái. Trong cơ học lượng tử, bra và ket là hai ngôn ngữ đối ngẫu: đại lượng quan sát đóng vai đối ngẫu với vectơ trạng thái. Đối ngẫu trong tối ưu (bài toán gốc ↔ bài toán đối ngẫu của quy hoạch tuyến tính) là họ hàng gần: mỗi biến ở phía này ứng với một ràng buộc ở phía kia, và hai giá trị tối ưu bằng nhau dưới các giả thiết chuẩn.
 
-### Fourier và đối ngẫu Pontryagin
+### Biến đổi Fourier và đối ngẫu Pontryagin
 
-Biến đổi Fourier đổi “vị trí” và “tần số.” Về cấu trúc, **đối ngẫu Pontryagin** nói rằng nhóm abelian compact địa phương $$G$$ được khôi phục từ nhóm character
+Biến đổi Fourier đổi "vị trí" thành "tần số". Về mặt cấu trúc, **đối ngẫu Pontryagin** nói rằng một nhóm abel compact địa phương $$G$$ được khôi phục từ nhóm các đặc trưng
 
 $$
 \widehat G = \mathrm{Hom}(G,S^1)
 $$
 
-qua đẳng cấu tự nhiên $$G\cong\widehat{\widehat G}$$. Nhóm rời rạc dual với compact và ngược lại. Đây là ngôi nhà cấu trúc của giải tích điều hòa cổ điển—và khuôn mẫu “không gian ↔ hàm trên dual.”
+qua đẳng cấu tự nhiên $$G\cong\widehat{\widehat G}$$. Nhóm rời rạc đối ngẫu với nhóm compact và ngược lại. Đây là nền tảng cấu trúc của giải tích điều hòa cổ điển, và là khuôn mẫu cho ý "không gian ↔ hàm trên đối ngẫu".
 
 ---
 
-## 3. Tầng B — Hình học và tôpô (lật chiều)
+## 3. Tầng B: Hình học và tôpô (đổi sang chiều bù)
 
-### Dual Platonic và xạ ảnh
+### Đa diện đều đối ngẫu và hình học xạ ảnh
 
-Lập phương ↔ bát diện, thập nhị diện ↔ nhị thập diện, tứ diện tự dual: **mặt của cái này là đỉnh của cái kia**. Hình học xạ ảnh dual điểm và đường thẳng, bảo toàn liên thuộc; nhiều định lý đi theo cặp dual “miễn phí.”
+Lập phương ↔ bát diện, thập nhị diện ↔ nhị thập diện, tứ diện tự đối ngẫu: **mặt của hình này là đỉnh của hình kia**. Hình học xạ ảnh đổi điểm thành đường thẳng và vẫn giữ quan hệ liên thuộc; nhờ đó nhiều định lý đi theo cặp, chứng minh một là có ngay định lý đối ngẫu.
 
 ### Đối ngẫu Poincaré
 
-Trên đa tạp compact định hướng $$n$$ chiều $$M$$ (dưới giả thiết chuẩn), đồng điều và đối đồng điều các bậc bù dual nhau:
+Trên một đa tạp $$M$$ compact, định hướng, $$n$$ chiều (với các giả thiết chuẩn), đồng điều và đối đồng điều ở các bậc bù nhau thì đối ngẫu với nhau:
 
 $$
 H^k(M)\;\simeq\; H_{n-k}(M)
 $$
 
-(hoặc qua pairing hoàn hảo của đối đồng điều bậc $$k$$ và $$n-k$$). Số giao, **Hodge star** ($$k$$-form ↔ $$(n-k)$$-form), và dual điện từ cổ điển trên form là văn hóa lân cận.
+(hoặc tương đương: có một ghép cặp hoàn hảo giữa đối đồng điều bậc $$k$$ và bậc $$n-k$$). Số giao, **toán tử sao Hodge** ($$k$$-dạng ↔ $$(n-k)$$-dạng), và đối ngẫu điện–từ cổ điển viết bằng dạng vi phân đều là những ý gần với nó.
 
-Điều này nằm cạnh mạch khóa học **Hairy Ball → đặc trưng Euler → Poincaré–Hopf → Atiyah–Singer** trong [bài định lý chỉ số]({{ site.baseurl }}/contents/vi/chapter08/08_11_Atiyah_Singer_Index/): dualty ghép bậc bù là họ hàng tôpô của ràng buộc chỉ số. Ở đây không cần chứng minh Poincaré duality; cần **hình dạng** phát biểu.
+Điều này nằm cạnh mạch **định lý quả cầu lông → đặc trưng Euler → Poincaré–Hopf → Atiyah–Singer** trong [bài định lý chỉ số]({{ site.baseurl }}/contents/vi/chapter08/08_11_Atiyah_Singer_Index/): đối ngẫu ghép các bậc bù nhau là họ hàng tôpô của các ràng buộc chỉ số. Ở đây không cần chứng minh đối ngẫu Poincaré; chỉ cần nắm **hình dạng** của phát biểu.
 
 ---
 
-## 4. Tầng C — Không gian ↔ đại số, và dual thứ tự
+## 4. Tầng C: Không gian ↔ đại số, và đối ngẫu thứ tự
 
 ### Gelfand và hình học đại số
 
-**Đối ngẫu Gelfand** (slogan): không gian Hausdorff compact tương ứng với C*-đại số giao hoán các hàm liên tục; không gian được khôi phục như spectrum character. **Hình học đại số** dual vành giao hoán và affine scheme qua $$\mathrm{Spec}$$: đại số hàm ↔ không gian hình học. Hình học không giao hoán cố ý giữ phía đại số khi không còn không gian cổ điển.
+**Đối ngẫu Gelfand** (ý chính): mỗi không gian Hausdorff compact tương ứng với C*-đại số giao hoán các hàm liên tục trên nó, và không gian được khôi phục như phổ các đặc trưng của đại số. **Hình học đại số** ghép vành giao hoán với lược đồ affine qua $$\mathrm{Spec}$$: đại số hàm ↔ không gian hình học. Hình học không giao hoán cố ý giữ lại phía đại số ngay cả khi không còn không gian cổ điển nào.
 
 ### Galois và thứ tự
 
-Lý thuyết Galois: trường trung gian ↔ nhóm con đóng của nhóm Galois, **đảo thứ tự**. Lý thuyết thứ tự dual min/max, ideal/filter, mở/đóng (qua phần bù). Đó là dualty “nhỏ” huấn luyện cùng phản xạ như các dualty lớn.
+Lý thuyết Galois: các trường trung gian ↔ các nhóm con đóng của nhóm Galois, với **thứ tự bị đảo ngược**. Lý thuyết thứ tự có các cặp đối ngẫu min/max, iđêan/lọc, mở/đóng (qua phần bù). Đó là những phép đối ngẫu "nhỏ", nhưng rèn cùng một phản xạ như các phép đối ngẫu lớn.
 
 ---
 
-## 5. Tầng D — Các dualty toán học lớn
+## 5. Tầng D: Các phép đối ngẫu lớn trong toán học
 
-### Langlands và nhóm dual
+### Langlands và nhóm đối ngẫu
 
-[Chương trình Langlands]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/) nối biểu diễn automorphic và dữ liệu Galois / số học, qua $$L$$-hàm và **nhóm dual Langlands** $$G^\vee$$. Langlands số học là mạng giả thuyết rộng với các đảo định lý (modularity; Fundamental Lemma qua Ngô và nhiều người). **Geometric Langlands** diễn đạt dualty liên quan trên đường cong bằng sheaf và moduli bundle—gần hình học hơn, và (giả thuyết) gần vật lý.
+[Chương trình Langlands]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/) nối biểu diễn tự đẳng cấu với dữ liệu Galois và số học, qua các $$L$$-hàm và **nhóm đối ngẫu Langlands** $$G^\vee$$. Langlands số học là một mạng lưới giả thuyết rộng lớn, trong đó có những "hòn đảo" đã thành định lý (tính modular; Bổ đề cơ bản do Ngô và nhiều người khác). **Langlands hình học** phát biểu một đối ngẫu tương tự trên đường cong, bằng ngôn ngữ bó và không gian moduli các phân thớ. Nó gần hình học hơn và (theo giả thuyết) gần vật lý hơn.
 
-**Biết đọc.** Đừng nói “Langlands đã chứng minh xong.” Hãy nói: nhóm dual và functoriality tổ chức một chương trình; các bổ đề then chốt mở so sánh; phần lớn mạng vẫn mở.
+**Cách nói đúng.** Đừng nói "Langlands đã được chứng minh xong". Hãy nói: nhóm đối ngẫu và tính hàm tử (functoriality) tổ chức cả một chương trình; một số bổ đề then chốt đã mở đường cho các phép so sánh; phần lớn mạng lưới vẫn còn mở.
 
-### Mirror symmetry
+### Đối xứng gương
 
-**Mirror symmetry** (gợi từ string, nay là toán) ghép câu chuyện hình học symplectic của $$X$$ (A-model / Fukaya) với hình học phức của mirror $$\check X$$ (B-model / sheaf chỉnh hình). **Homological mirror symmetry** của Kontsevich đóng gói như tương đương category. Bức tranh **SYZ** gợi T-duality của torus Lagrangian đặc biệt như cơ chế hình học trong nhiều case.
+**Đối xứng gương** (xuất phát từ lý thuyết dây, nay là một ngành toán) ghép hình học symplectic của $$X$$ (mô hình A / phạm trù Fukaya) với hình học phức của đa tạp gương $$\check X$$ (mô hình B / bó chỉnh hình). **Đối xứng gương thuần nhất** (homological mirror symmetry) của Kontsevich phát biểu điều này như một tương đương phạm trù. Bức tranh **SYZ** cho rằng, trong nhiều trường hợp, cơ chế hình học là đối ngẫu T dọc theo các xuyến Lagrange đặc biệt.
 
-Một số phát biểu là định lý trên họ đặc biệt; chương trình tổng quát vẫn là nghiên cứu sống. Cho bài này: **hai hình học trông khác tính cùng dữ liệu enumerative / categorical**.
+Một số phát biểu đã là định lý cho các họ đặc biệt; chương trình tổng quát vẫn đang được nghiên cứu. Với bài này, chỉ cần nhớ: **hai hình học trông khác nhau lại tính ra cùng dữ liệu đếm / phạm trù**.
 
 ---
 
-## 6. Tầng E — Đối ngẫu trong vật lý
+## 6. Tầng E: Đối ngẫu trong vật lý
 
 ### Đối ngẫu điện–từ
 
-Lý thuyết Maxwell (chân không, đơn vị phù hợp) đối xử đối xứng điện và từ. Hodge dual trên field strength formal hóa $$F$$ vs $$\star F$$. **Montonen–Olive** và công trình sau đưa đối ngẫu điện–từ lên gauge không giao hoán: điện tích và monopole từ đổi vai, thường kèm **mạnh ↔ yếu**—hạt giống **S-duality**.
+Lý thuyết Maxwell (trong chân không, với đơn vị thích hợp) đối xử đối xứng giữa điện và từ. Toán tử sao Hodge trên cường độ trường phát biểu điều này chính xác: $$F$$ và $$\star F$$. **Montonen–Olive** và các công trình sau mở rộng đối ngẫu điện–từ sang lý thuyết gauge không giao hoán: điện tích và đơn cực từ đổi vai cho nhau, thường kèm theo **mạnh ↔ yếu**. Đó là mầm mống của **đối ngẫu S**.
 
-### S-duality và T-duality (slogan string / QFT)
+### Đối ngẫu S và đối ngẫu T (ý chính trong lý thuyết dây / lý thuyết trường lượng tử)
 
-| Tên | Đổi gần đúng | Lợi ích điển hình |
+| Tên | Đổi gì (gần đúng) | Lợi ích điển hình |
 |-----|--------------|-------------------|
-| **S-duality** | Coupling $$g\leftrightarrow 1/g$$ (mạnh ↔ yếu) | Tính coupling mạnh qua dual yếu |
-| **T-duality** | Bán kính compact $$R\leftrightarrow \alpha'/R$$; winding ↔ momentum | Nối Type IIA/IIB (và cặp heterotic) trên torus |
-| **U-duality** | Đối xứng rời rạc trộn S và T | M-theory / cấu trúc exceptional |
+| **Đối ngẫu S** | Hằng số tương tác $$g\leftrightarrow 1/g$$ (mạnh ↔ yếu) | Tính chế độ tương tác mạnh qua lý thuyết đối ngẫu tương tác yếu |
+| **Đối ngẫu T** | Bán kính compact $$R\leftrightarrow \alpha'/R$$; số lần cuốn ↔ xung lượng | Nối dây loại IIA với IIB (và hai loại dây heterotic) trên xuyến |
+| **Đối ngẫu U** | Nhóm đối xứng rời rạc trộn S và T | Lý thuyết M / các cấu trúc ngoại lệ |
 
-**Seiberg duality** và nhiều dualty 2d–3d (particle–vortex, bosonization) cho thấy **các Lagrangian khác có thể chảy về cùng vật lý hồng ngoại**. Đó là tương đương lý thuyết, không phải đối xứng liên tục của một action.
+**Đối ngẫu Seiberg** và nhiều đối ngẫu 2 và 3 chiều (hạt–xoáy, boson hóa) cho thấy **các Lagrangian khác nhau có thể dẫn đến cùng một vật lý ở năng lượng thấp**. Đó là tương đương giữa các lý thuyết, không phải đối xứng liên tục của một hàm tác dụng.
 
-### AdS/CFT (holography)
+### AdS/CFT (nguyên lý toàn ảnh)
 
-**Tương ứng AdS/CFT** (Maldacena và theo sau khổng lồ) đề xuất lý thuyết hấp dẫn trong không gian anti–de Sitter $$(d+1)$$ chiều dual với lý thuyết trường conformal không hấp dẫn trên biên $$d$$ chiều. Ví dụ kinh điển: string Type IIB trên $$\mathrm{AdS}_5\times S^5$$ ↔ $$\mathcal N=4$$ super Yang–Mills bốn chiều ($$N$$ lớn, giới hạn kiểm soát được).
+**Tương ứng AdS/CFT** (do Maldacena đề xuất, sau đó được phát triển bởi rất nhiều người) nói rằng một lý thuyết hấp dẫn trong không gian phản de Sitter $$(d+1)$$ chiều tương đương với một lý thuyết trường bảo giác, không có hấp dẫn, sống trên biên $$d$$ chiều. Ví dụ kinh điển: dây loại IIB trên $$\mathrm{AdS}_5\times S^5$$ ↔ $$\mathcal N=4$$ super Yang–Mills bốn chiều (với $$N$$ lớn, trong giới hạn kiểm soát được).
 
-**Biết đọc.** Các case kiểm soát tốt nhất là supersymmetric và/hoặc $$N$$ lớn; nhiều ứng dụng mang tính giả thuyết hoặc dictionary. Coi AdS/CFT là **chương trình nghiên cứu và động cơ tính toán**, không phải định lý hộp đen đóng quantum gravity. Nó vẫn là biểu tượng dual bulk ↔ biên và dictionary mạnh/yếu.
+**Cách nói đúng.** Các trường hợp kiểm soát tốt nhất đều có siêu đối xứng và/hoặc $$N$$ lớn; nhiều ứng dụng còn mang tính giả thuyết hoặc chỉ dựa trên từ điển. Hãy coi AdS/CFT là **một chương trình nghiên cứu và một công cụ tính toán**, chứ không phải một định lý đã giải quyết xong hấp dẫn lượng tử. Dù vậy, nó vẫn là ví dụ tiêu biểu cho đối ngẫu khối ↔ biên và cho từ điển mạnh ↔ yếu.
 
 ### Vật lý chất rắn và tôpô
 
-Topological insulator, anyon, và anomaly matching tái dùng ý dual và chỉ số: tôpô bulk ràng buộc mode biên; một số đếm nghiệm bị hình dạng cố định hơn chi tiết hiển vi—vang [Atiyah–Singer]({{ site.baseurl }}/contents/vi/chapter08/08_11_Atiyah_Singer_Index/) phần vật lý.
+Chất cách điện tôpô, anyon và việc khớp dị thường (anomaly matching) dùng lại các ý về đối ngẫu và chỉ số: tôpô bên trong khối ràng buộc các mode trên biên; một số phép đếm nghiệm phụ thuộc vào hình dạng hơn là vào chi tiết vi mô. Điều này gợi lại phần vật lý của bài [Atiyah–Singer]({{ site.baseurl }}/contents/vi/chapter08/08_11_Atiyah_Singer_Index/).
 
 ---
 
-## 7. Vì sao dualty đổi cách làm việc
+## 7. Vì sao đối ngẫu thay đổi cách làm việc
 
-1. **Đòn bẩy tính toán.** Giải dual dễ; map ngược ($$T$$ cao ↔ $$T$$ thấp ở Kramers–Wannier; yếu ↔ mạnh ở S-duality).  
-2. **Phân loại.** Điểm tự dual ghim coupling tới hạn; nhóm dual tổ chức dualty có thể.  
-3. **Đồng nhất lý thuyết.** “Hai lý thuyết” thành một lớp tương đương (mạng dual string; scheme = dual dữ liệu vành).  
-4. **Khám phá.** Kỳ vọng dual dự đoán đối tượng (monopole, D-brane, nhóm dual Langlands) trước khi dựng trực tiếp.
+1. **Đòn bẩy tính toán.** Giải bài toán ở phía đối ngẫu dễ hơn, rồi chuyển kết quả về ($$T$$ cao ↔ $$T$$ thấp trong đối ngẫu Kramers–Wannier; yếu ↔ mạnh trong đối ngẫu S).  
+2. **Phân loại.** Điểm tự đối ngẫu xác định giá trị tới hạn của hằng số tương tác; nhóm đối ngẫu sắp xếp các phép đối ngẫu có thể có.  
+3. **Gộp lý thuyết.** "Hai lý thuyết" trở thành một lớp tương đương (mạng lưới đối ngẫu của lý thuyết dây; lược đồ là đối ngẫu của dữ liệu vành).  
+4. **Khám phá.** Kỳ vọng về đối ngẫu dự đoán trước các đối tượng (đơn cực từ, D-brane, nhóm đối ngẫu Langlands) trước khi người ta dựng được chúng trực tiếp.
 
-Tư duy hiện đại: câu hỏi thông minh thường không chỉ “giải phương trình này,” mà “**mô tả dual là gì, và nó có dễ hơn không?**”—cùng chuyển dịch tư duy như lý thuyết chỉ số: “tôpô buộc bao nhiêu nghiệm?”
+Cách nghĩ hiện đại: câu hỏi hay thường không chỉ là "giải phương trình này", mà là "**mô tả đối ngẫu là gì, và nó có dễ hơn không?**". Đây cũng là sự thay đổi cách nghĩ giống lý thuyết chỉ số: "tôpô buộc phải có bao nhiêu nghiệm?".
 
 ---
 
-## 8. Một dictionary (cheat sheet seminar)
+## 8. Bảng từ điển tóm tắt
 
 ```text
 Không gian dual V*      đo lường  ↔  bị đo
@@ -176,46 +181,46 @@ T-duality               bán kính R ↔  α′/R ; winding ↔ momentum
 AdS/CFT                 hấp dẫn bulk ↔ QFT biên
 ```
 
-**Cầu đáng nhớ.** Geometric Langlands thường được thảo luận như bóng toán của **S-duality** lý thuyết gauge supersymmetric bốn chiều (Kapustin–Witten và liên quan). Hệ Hitchin cho $$G$$ và $$G^\vee$$ mirror nhau theo ngôn ngữ SYZ. Một câu đó giải thích vì sao số học, hình học, và vật lý năng lượng cao chia chung seminar.
+**Một cầu nối đáng nhớ.** Langlands hình học thường được xem là hình bóng toán học của **đối ngẫu S** trong lý thuyết gauge siêu đối xứng bốn chiều (Kapustin–Witten và các công trình liên quan). Hệ Hitchin của $$G$$ và của $$G^\vee$$ là gương của nhau theo ngôn ngữ SYZ. Chỉ một câu đó đã giải thích vì sao số học, hình học và vật lý năng lượng cao cùng xuất hiện trong một seminar.
 
 ---
 
 ## 9. Bản đồ khóa học
 
-| Bài | Liên kết dualty |
+| Bài | Liên hệ với đối ngẫu |
 |-----|-----------------|
-| [Vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/) | Trường gauge, QFT, form Maxwell |
-| [Langlands / Ngô]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/) | Nhóm dual, văn hóa functoriality |
-| [Atiyah–Singer]({{ site.baseurl }}/contents/vi/chapter08/08_11_Atiyah_Singer_Index/) | Chỉ số; Euler; lớp đặc trưng; cầu vật lý |
-| [Uhlenbeck / gauge]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/) | Kiểm soát giải tích moduli gauge |
-| [Thông tin lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/) | Dual Hilbert; dual channel (sau) |
-| [Vận chuyển tối ưu]({{ site.baseurl }}/contents/vi/chapter06/06_09_Optimal_Transport/) | Công thức dual Kantorovich của OT |
+| [Vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/) | Trường gauge, lý thuyết trường lượng tử, phương trình Maxwell viết bằng dạng vi phân |
+| [Langlands / Ngô]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/) | Nhóm đối ngẫu, tính hàm tử |
+| [Atiyah–Singer]({{ site.baseurl }}/contents/vi/chapter08/08_11_Atiyah_Singer_Index/) | Chỉ số; Euler; lớp đặc trưng; cầu nối với vật lý |
+| [Uhlenbeck / gauge]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/) | Kiểm soát giải tích không gian moduli gauge |
+| [Thông tin lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/) | Đối ngẫu trong không gian Hilbert; kênh đối ngẫu (sẽ học sau) |
+| [Vận chuyển tối ưu]({{ site.baseurl }}/contents/vi/chapter06/06_09_Optimal_Transport/) | Công thức đối ngẫu Kantorovich |
 
 ---
 
-## 10. Nhầm lẫn thường gặp
+## 10. Những nhầm lẫn thường gặp
 
 | Khẳng định | Chỉnh lại |
 |------------|-----------|
-| “Duality = đối xứng của một Lagrangian.” | Thường là **tương đương hai lý thuyết**, không phải đối xứng thường của một action. |
-| “Mọi dualty là involution $$D^2=\mathrm{id}$$.” | Case lý tưởng; đôi khi chỉ một chiều constructive, hoặc dual² làm lớn đối tượng. |
-| “Mirror symmetry luôn là T-duality.” | SYZ gợi T-duality torus; HMS rộng hơn và categorical. |
-| “Langlands / AdS–CFT là định lý đã xong.” | Chương trình với các đảo đã chứng; đừng phóng đại. |
-| “Poincaré duality = định lý chỉ số.” | Văn hóa tôpô anh em; chỉ số đẳng thức hai bất biến cho toán tử elliptic. |
-| “Dualty vật lý chỉ có string theory.” | Maxwell, Ising, chất rắn, SUSY QFT đều có dualty. |
+| "Đối ngẫu = đối xứng của một Lagrangian." | Thường là **tương đương giữa hai lý thuyết**, không phải đối xứng thông thường của một hàm tác dụng. |
+| "Mọi đối ngẫu đều là phép đối hợp $$D^2=\mathrm{id}$$." | Đó là trường hợp lý tưởng; đôi khi chỉ dựng được một chiều, hoặc lấy đối ngẫu hai lần cho ra đối tượng lớn hơn. |
+| "Đối xứng gương luôn là đối ngẫu T." | SYZ gợi ý đối ngẫu T trên xuyến; đối xứng gương thuần nhất rộng hơn và mang tính phạm trù. |
+| "Langlands / AdS–CFT là định lý đã xong." | Đó là các chương trình với một số phần đã chứng minh; đừng phóng đại. |
+| "Đối ngẫu Poincaré = định lý chỉ số." | Hai ý tôpô có họ hàng; định lý chỉ số là đẳng thức giữa hai bất biến của một toán tử elliptic. |
+| "Đối ngẫu trong vật lý chỉ có ở lý thuyết dây." | Lý thuyết Maxwell, mô hình Ising, vật lý chất rắn, lý thuyết trường siêu đối xứng đều có đối ngẫu. |
 
 ---
 
 ## Bài tập
 
-1. **Không gian dual.** Với $$V=\mathbb{R}^2$$, mô tả $$V^*$$ và giải thích vì sao $$f:V\to W$$ sinh ánh xạ **chiều kia** trên dual.  
-2. **Slogan pairing.** ≤80 từ: “perfect pairing” $$A\times B\to K$$ mua được gì về khái niệm?  
-3. **Hình Poincaré.** Với bề mặt đóng định hướng ($$n=2$$), Poincaré duality nói gì về $$H^1$$ vs $$H_1$$ ở mức slogan?  
-4. **Dual điện từ.** Viết Maxwell chân không dạng làm lộ $$E\leftrightarrow B$$ (heuristic OK), hoặc giải thích Hodge dual của $$F$$ trong một đoạn.  
-5. **S vs T.** Bảng hai hàng: đối chiếu S-duality và T-duality (đổi gì; một lợi ích mỗi loại).  
-6. **Biết đọc Langlands.** Nhóm dual Langlands để làm gì (slogan), và bạn **không** được khẳng định gì về trạng thái chương trình?  
-7. **≤200 từ:** Vì sao “hai lý thuyết, một vật lý” khác “một lý thuyết với nhóm đối xứng lớn”?  
-8. **Tuỳ chọn.** Lướt một bài phổ biến về AdS/CFT; liệt kê ba mục dictionary (đối tượng bulk ↔ biên) kèm cảnh báo trạng thái.
+1. **Không gian đối ngẫu.** Với $$V=\mathbb{R}^2$$, mô tả $$V^*$$ và giải thích vì sao $$f:V\to W$$ sinh ra một ánh xạ **theo chiều ngược lại** giữa các không gian đối ngẫu.  
+2. **Ghép cặp.** Không quá 80 chữ: một "ghép cặp hoàn hảo" $$A\times B\to K$$ cho ta điều gì về mặt khái niệm?  
+3. **Đối ngẫu Poincaré.** Với một mặt đóng, định hướng ($$n=2$$), đối ngẫu Poincaré nói gì về $$H^1$$ và $$H_1$$ (ở mức ý chính)?  
+4. **Đối ngẫu điện–từ.** Viết phương trình Maxwell trong chân không dưới dạng làm lộ rõ $$E\leftrightarrow B$$ (lập luận gần đúng cũng được), hoặc giải thích toán tử sao Hodge của $$F$$ trong một đoạn.  
+5. **S và T.** Lập bảng hai hàng so sánh đối ngẫu S và đối ngẫu T (đổi gì; mỗi loại một lợi ích).  
+6. **Nói đúng về Langlands.** Nhóm đối ngẫu Langlands dùng để làm gì (ý chính), và bạn **không** được khẳng định điều gì về trạng thái của chương trình?  
+7. **Không quá 200 chữ:** vì sao "hai lý thuyết, một vật lý" khác với "một lý thuyết có nhóm đối xứng lớn"?  
+8. **Không bắt buộc.** Đọc lướt một bài phổ biến khoa học về AdS/CFT; liệt kê ba mục trong từ điển (đối tượng trong khối ↔ trên biên), kèm lưu ý về trạng thái.
 
 ---
 
@@ -236,18 +241,18 @@ AdS/CFT                 hấp dẫn bulk ↔ QFT biên
 
 ## Hướng tiếp
 
-- **Deep dive:**  
-  - [Mirror Symmetry]({{ site.baseurl }}/contents/vi/chapter06/06_13_Mirror_Symmetry/) — A/B, SYZ, HMS  
-  - [AdS/CFT & holography]({{ site.baseurl }}/contents/vi/chapter06/06_14_AdS_CFT/) — dictionary bulk ↔ biên  
-  - [Geometric Langlands & S-duality]({{ site.baseurl }}/contents/vi/chapter06/06_15_Geometric_Langlands_SDuality/) — cầu Kapustin–Witten  
-- **Cầu / văn hóa:** [Pontryagin & Fourier]({{ site.baseurl }}/contents/vi/chapter06/06_16_Pontryagin_Fourier_Duality/), [Witten mini]({{ site.baseurl }}/contents/vi/chapter06/06_17_Witten_Physics_Math/)  
-- **Studio:** [Vẽ từ điển đối ngẫu]({{ site.baseurl }}/contents/vi/chapter07/07_10_Explore_Duality_Dictionary/)  
+- **Bài đọc sâu:**  
+  - [Mirror Symmetry]({{ site.baseurl }}/contents/vi/chapter06/06_13_Mirror_Symmetry/): mô hình A/B, SYZ, đối xứng gương thuần nhất  
+  - [AdS/CFT & holography]({{ site.baseurl }}/contents/vi/chapter06/06_14_AdS_CFT/): từ điển khối ↔ biên  
+  - [Geometric Langlands & S-duality]({{ site.baseurl }}/contents/vi/chapter06/06_15_Geometric_Langlands_SDuality/): cầu nối Kapustin–Witten  
+- **Bài liên quan:** [Pontryagin & Fourier]({{ site.baseurl }}/contents/vi/chapter06/06_16_Pontryagin_Fourier_Duality/), [bài ngắn về Witten]({{ site.baseurl }}/contents/vi/chapter06/06_17_Witten_Physics_Math/)  
+- **Bài thực hành:** [Vẽ từ điển đối ngẫu]({{ site.baseurl }}/contents/vi/chapter07/07_10_Explore_Duality_Dictionary/)  
 - **Gói nghiên cứu:** `research/video-research/mirror-symmetry/`, `ads-cft/`, `geometric-langlands-sduality/`.  
-- **Thói quen:** ghi ba cột—*cặp dual / đổi gì / định lý vs giả thuyết*.  
-- **Câu seminar:** Lý thuyết chỉ số có phải dualty không? (Chỉ số giải tích ↔ chỉ số tôpô là *đẳng thức bất biến*, gần dual nhưng không cùng tương đương lý thuyết.)
+- **Thói quen nên có:** ghi ba cột: *cặp đối ngẫu / đổi gì / định lý hay giả thuyết*.  
+- **Câu hỏi thảo luận:** Lý thuyết chỉ số có phải là một phép đối ngẫu không? (Chỉ số giải tích = chỉ số tôpô là một *đẳng thức giữa hai bất biến*; gần với đối ngẫu, nhưng không phải là tương đương giữa hai lý thuyết.)
 
 ## Video tham khảo
 
-- **xem trước** — [Edward Witten: Mirror Symmetry & Geometric Langlands (2012)](https://www.youtube.com/watch?v=S02ghGCdNDo) — Graduate Mathematics, tiếng Anh. Xem trước. “Edward Witten: Mirror Symmetry & Geometric Langlands (2012)” định hướng cho mục tiêu của bài: Phát biểu, bằng một câu cẩn thận, toán học thường hiểu đối ngẫu là gì (pairing, involution, hoặc tương đương đảo mũi tên / bù chiều).
-- [HMS for local CY manifolds via SYZ | Kwokwai Chan](https://www.youtube.com/watch?v=Kz6Dj8KSFjM) — Harvard CMSA, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu, bằng một câu cẩn thận, toán học thường hiểu đối ngẫu là gì (pairing, involution, hoặc tương đương đảo mũi tên / bù chiều).
-- [Lagrangian fillings what does the sheaf say? | Eric Zaslow](https://www.youtube.com/watch?v=Y3-sw3tjZiU) — Harvard CMSA, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu, bằng một câu cẩn thận, toán học thường hiểu đối ngẫu là gì (pairing, involution, hoặc tương đương đảo mũi tên / bù chiều).
+- **Xem trước:** [Edward Witten: Mirror Symmetry & Geometric Langlands (2012)](https://www.youtube.com/watch?v=S02ghGCdNDo) (Graduate Mathematics, tiếng Anh). Witten nói về hai phép đối ngẫu lớn, đối xứng gương và Langlands hình học, và mối liên hệ giữa chúng. Nên xem trước khi đọc mục 5 và 6.
+- [HMS for local CY manifolds via SYZ | Kwokwai Chan](https://www.youtube.com/watch?v=Kz6Dj8KSFjM) (Harvard CMSA, tiếng Anh). Bài giảng chuyên sâu về đối xứng gương thuần nhất cho đa tạp Calabi–Yau địa phương qua bức tranh SYZ. Nên xem sau, khi đã đọc bài đối xứng gương.
+- [Lagrangian fillings what does the sheaf say? | Eric Zaslow](https://www.youtube.com/watch?v=Y3-sw3tjZiU) (Harvard CMSA, tiếng Anh). Bài giảng nghiên cứu về mặt lấp Lagrange nhìn qua lý thuyết bó; dành cho người muốn đi sâu vào hình học symplectic.

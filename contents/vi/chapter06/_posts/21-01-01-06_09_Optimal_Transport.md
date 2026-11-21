@@ -9,24 +9,24 @@ categories:
 - chapter06
 ---
 
-Làm sao chuyển một đống cát thành hình đống khác với chi phí tối thiểu? Câu hỏi mang tiếng cổ đó là gốc **vận chuyển tối ưu (OT)**—nay là ngôn ngữ trung tâm để so phân phối xác suất, biến dạng hình, và xây mô hình sinh. Từ Monge (1781) qua thư giãn tuyến tính Kantorovich đến regularization entropy và hình học tính toán, OT nằm giao điểm giải tích, xác suất, tối ưu và khoa học dữ liệu.
+Làm thế nào để chuyển một đống cát thành một đống khác có hình dạng khác với chi phí nhỏ nhất? Câu hỏi nghe có vẻ cổ xưa ấy là gốc của **vận chuyển tối ưu (OT)**, hiện là ngôn ngữ trung tâm để so sánh các phân phối xác suất, đo độ biến dạng của hình và xây dựng các mô hình sinh. Từ Monge (1781), qua bản nới lỏng tuyến tính của Kantorovich, đến điều chuẩn entropy và hình học tính toán, OT nằm ở giao điểm của giải tích, xác suất, tối ưu và khoa học dữ liệu.
 
-Bài phát triển công thức Monge và Kantorovich, khoảng cách Wasserstein, dual cơ bản, ý tính toán (Sinkhorn), và ứng dụng—gắn nhãn định lý, heuristic số, và hype “Wasserstein GAN giải generative modeling”.
+Bài này trình bày công thức Monge và Kantorovich, khoảng cách Wasserstein, đối ngẫu cơ bản, ý tưởng tính toán (Sinkhorn) và các ứng dụng. Cùng lúc, ta gắn nhãn cái nào là định lý, cái nào là heuristic số, và cái nào là lời thổi phồng kiểu “Wasserstein GAN giải quyết xong mô hình sinh”.
 
 ---
 
 ## Mục tiêu học tập
 
-Sau bài học, bạn có thể:
+Sau bài này, bạn có thể:
 
-- Phát biểu bài Monge: map $$T$$ đẩy $$\mu$$ thành $$\nu$$ tối thiểu chi phí; vì sao map có thể không tồn tại.
-- Viết công thức **Kantorovich** trên coupling $$\pi$$ cố định biên.
-- Định nghĩa khoảng cách **Wasserstein** $$W_p$$ và diễn giải $$W_1$$ nhạy hình học.
-- Nêu dual Kantorovich–Rubinstein cho $$W_1$$ (Lipschitz).
-- Mô tả regularization entropy → Sinkhorn: được/mất gì so với OT exact.
-- Phê claim ML dùng “Wasserstein” như buzzword không nêu cost/ước lượng (**LO6**).
+- Phát biểu bài toán Monge: tìm ánh xạ $$T$$ đẩy $$\mu$$ thành $$\nu$$ với chi phí nhỏ nhất; và vì sao ánh xạ như vậy có thể không tồn tại.
+- Viết công thức **Kantorovich** trên các coupling $$\pi$$ có biên cố định.
+- Định nghĩa khoảng cách **Wasserstein** $$W_p$$ và diễn giải việc $$W_1$$ nhạy với hình học.
+- Nêu đối ngẫu Kantorovich–Rubinstein cho $$W_1$$ (hàm Lipschitz).
+- Mô tả điều chuẩn entropy dẫn đến Sinkhorn: được gì và mất gì so với OT chính xác.
+- Nhận xét những tuyên bố trong ML dùng “Wasserstein” như từ thời thượng mà không nêu hàm chi phí hay cách ước lượng.
 
-**Kiến thức nền.** Phân phối như độ đo (tích phân hàm test); tối ưu cơ bản; khoảng cách Euclid. Giải tích lồi giúp nhưng không đòi đủ.
+**Kiến thức nền.** Phân phối như một độ đo (tích phân của hàm thử); tối ưu cơ bản; khoảng cách Euclid. Biết giải tích lồi thì thuận lợi, nhưng không đòi hỏi đầy đủ.
 
 ---
 
@@ -36,217 +36,210 @@ Sau bài học, bạn có thể:
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/optimal-transport-1d_vi.mp4"></video>
 </div>
 
-Sáu đống cát phải lấp sáu cái hố với chi phí = (quãng đường)². Mỗi lần hai đường cắt nhau, đổi chỗ hai hố làm tổng chi phí giảm; khi không còn đường cắt nhau, phép ghép theo thứ tự và rẻ nhất trong cả 720 phép ghép.
+Sáu đống cát phải lấp sáu cái hố với chi phí = $$(\text{quãng đường})^2$$. Mỗi lần hai đường cắt nhau, đổi chỗ hai hố làm tổng chi phí giảm; khi không còn đường cắt nhau, phép ghép theo thứ tự và rẻ nhất trong cả 720 phép ghép.
 
 
-## 1. Bài Monge
+### Tự tay thử: Ghép đống cát với hố
 
-Cho $$\mu,\nu$$ trên không gian $$X$$ (nghĩ $$\mathbb{R}^d$$) và cost $$c(x,y)$$, tìm map $$T$$ với $$T_\#\mu=\nu$$ tối thiểu
+<div class="mex-explainer" data-mex="ot" data-lang="vi"></div>
+
+
+## 1. Bài toán Monge
+
+Cho $$\mu,\nu$$ trên không gian $$X$$ (có thể nghĩ là $$\mathbb{R}^d$$) và hàm chi phí $$c(x,y)$$, hãy tìm ánh xạ $$T$$ thỏa $$T_\#\mu=\nu$$ sao cho cực tiểu
 
 $$
 \int c\bigl(x,T(x)\bigr)\,d\mu(x).
 $$
 
-Mỗi “hạt” ở $$x$$ đi một chỗ $$T(x)$$. Map có thể không tồn tại (tách khối lượng từ một nguyên tử ra hai). Kể cả khi tồn tại, đặc trưng hóa không tầm thường. Với $$c=\|x-y\|^2$$ trên $$\mathbb{R}^d$$, dưới điều kiện chính quy, định lý Brenier liên hệ map tối ưu với gradient thế lồi: $$T=\nabla\phi$$.
+Mỗi “hạt” ở $$x$$ đi đến đúng một chỗ $$T(x)$$. Ánh xạ như vậy có thể không tồn tại (chẳng hạn khi phải tách khối lượng của một nguyên tử ra thành hai phần). Ngay cả khi tồn tại, việc mô tả nó cũng không tầm thường. Với $$c=\|x-y\|^2$$ trên $$\mathbb{R}^d$$, dưới điều kiện chính quy, định lý Brenier liên hệ ánh xạ tối ưu với gradient của một thế lồi: $$T=\nabla\phi$$.
 
 ---
 
-## 2. Thư giãn Kantorovich: coupling
+## 2. Nới lỏng Kantorovich: coupling
 
-Cho phép **tách khối lượng** qua joint $$\pi$$ trên $$X\times X$$ biên $$\mu,\nu$$:
+Ta cho phép **tách khối lượng** bằng một phân phối đồng thời $$\pi$$ trên $$X\times X$$ có hai biên là $$\mu,\nu$$:
 
 $$
 \inf_{\pi\in\Pi(\mu,\nu)}\int c(x,y)\,d\pi(x,y),
 $$
 
-với $$\Pi(\mu,\nu)$$ tập coupling. Đây là LP vô hạn chiều. Kế hoạch tối ưu $$\pi$$; khi $$\pi$$ tập trung trên đồ thị map thì về Monge.
+với $$\Pi(\mu,\nu)$$ là tập các coupling. Đây là một bài toán quy hoạch tuyến tính vô hạn chiều. Kế hoạch tối ưu là $$\pi$$; khi $$\pi$$ tập trung trên đồ thị của một ánh xạ thì ta quay về bài toán Monge.
 
-Form này mở dual lồi và lý thuyết tồn tại trưởng thành—điểm xuất phát mặc định của OT hiện đại.
+Dạng này mở ra đối ngẫu lồi và một lý thuyết tồn tại đã chín muồi; nó là điểm xuất phát mặc định của OT hiện đại.
 
 ---
 
 ## 3. Khoảng cách Wasserstein
 
-Với $$p\ge 1$$ và moment $$p$$ hữu hạn:
+Với $$p\ge 1$$ và các độ đo có moment bậc $$p$$ hữu hạn:
 
 $$
 W_p(\mu,\nu)=\Bigl(\inf_{\pi\in\Pi(\mu,\nu)}\int\|x-y\|^p\,d\pi\Bigr)^{1/p}
 $$
 
-(trên $$\mathbb{R}^d$$ với cost Euclid; metric space khác dùng $$d(x,y)^p$$). $$W_p$$ metrize hội tụ yếu + moment (điều kiện phù hợp)—trung thành hình học hơn TV/KL khi support lệch. Dịch bump nhỏ qua không gian tốn cỡ khoảng cách trong $$W_1$$; KL có thể vô hạn nếu support không khớp.
+(trên $$\mathbb{R}^d$$ với chi phí Euclid; trên không gian metric khác thì dùng $$d(x,y)^p$$). $$W_p$$ metric hóa sự hội tụ yếu cộng với hội tụ moment (với điều kiện phù hợp), và phản ánh hình học trung thực hơn TV hay KL khi các giá của hai phân phối lệch nhau. Dịch một cái bump nhỏ qua không gian tốn chi phí cỡ khoảng cách dịch trong $$W_1$$; còn KL có thể bằng vô cùng nếu hai giá không khớp.
 
-**Hình học không gian độ đo.** Không gian độ đo moment hai hữu hạn với $$W_2$$ giàu cấu trúc (Otto calculus, geodesic convexity của một số phiếm hàm)—biên giới giải tích–PDE (heat flow như gradient flow entropy trong không gian Wasserstein).
+**Hình học của không gian các độ đo.** Không gian các độ đo có moment bậc hai hữu hạn với khoảng cách $$W_2$$ có cấu trúc rất giàu (giải tích Otto, tính lồi trắc địa của một số phiếm hàm). Đây là biên giới giữa giải tích và PDE (dòng nhiệt là dòng gradient của entropy trong không gian Wasserstein).
 
 ---
 
-## 4. Dual (mặt hữu dụng)
+## 4. Đối ngẫu (mặt hữu dụng)
 
-Với $$c=\|x-y\|$$, Kantorovich–Rubinstein:
+Với $$c=\|x-y\|$$, ta có công thức Kantorovich–Rubinstein:
 
 $$
 W_1(\mu,\nu)=\sup_{\|f\|_{\mathrm{Lip}}\le 1}\Bigl(\int f\,d\mu-\int f\,d\nu\Bigr).
 $$
 
-$$W_1$$ là dual của hàm Lipschitz hằng ≤ 1. Dual nuôi chặn thống kê, diễn giải tối ưu robust, và một số công thức generative (critic Lipschitz—**trên lý thuyết**; thực hành xấp xỉ ràng buộc).
+$$W_1$$ chính là đối ngẫu qua các hàm Lipschitz với hằng số không quá 1. Đối ngẫu này là cơ sở cho các chặn thống kê, cho cách diễn giải tối ưu bền vững, và cho một số công thức của mô hình sinh (critic Lipschitz, **về mặt lý thuyết**; trong thực hành, ràng buộc chỉ được xấp xỉ).
 
-Cost tổng quát hơn có thế $$c$$-concave và cấu trúc complementary slackness ($$c$$-cyclical monotonicity của support plan tối ưu).
+Với chi phí tổng quát hơn, ta có các thế $$c$$-lõm và cấu trúc độ lệch bù (complementary slackness), tức tính $$c$$-đơn điệu theo chu trình của giá của kế hoạch tối ưu.
 
 ---
 
-## 5. Tính toán: LP → Sinkhorn
+## 5. Tính toán: từ LP đến Sinkhorn
 
-Độ đo rời rạc $$n$$ điểm: OT exact là LP $$n^2$$ biến—giải được nhưng đắt khi $$n$$ lớn. **Regularization entropy** thêm $$\varepsilon\mathrm{KL}(\pi\|\mu\otimes\nu)$$ (hoặc tương tự) → bài lồi chặt giải bằng **Sinkhorn–Knopp** scale ma trận. $$\varepsilon\to 0$$ tiến OT; $$\varepsilon>0$$ làm mờ plan và đổi phân kỳ (Sinkhorn divergence cần debias trong một số dùng thống kê).
+Với độ đo rời rạc gồm $$n$$ điểm, OT chính xác là một bài toán LP với $$n^2$$ biến: giải được, nhưng đắt khi $$n$$ lớn. **Điều chuẩn entropy** thêm số hạng $$\varepsilon\mathrm{KL}(\pi\|\mu\otimes\nu)$$ (hoặc tương tự), cho một bài toán lồi chặt giải được bằng **Sinkhorn–Knopp**, tức là co giãn hàng và cột của ma trận. Khi $$\varepsilon\to 0$$ ta tiến về OT; với $$\varepsilon>0$$ kế hoạch bị làm mờ và đại lượng thu được đổi tính chất (phân kỳ Sinkhorn cần khử lệch trong một số cách dùng thống kê).
 
-Đường khác: auction, network simplex, multiscale, sliced Wasserstein (chiếu 1D rồi trung bình), công thức động Benamou–Brenier kiểu cơ học chất lỏng PDE.
+Còn có những đường khác: thuật toán đấu giá, network simplex, đa thang, Wasserstein cắt lát (chiếu xuống 1D rồi lấy trung bình), và công thức động Benamou–Brenier theo kiểu cơ học chất lỏng bằng PDE.
 
-**Biết đọc.** “Dùng Wasserstein” có thể nghĩa OT exact, entropic, sliced, mini-batch bias, hoặc dual penalty lỏng—**không hoán đổi** thống kê.
+**Cần đọc cho kỹ.** “Dùng Wasserstein” có thể là OT chính xác, OT entropy, cắt lát, mini-batch có thiên lệch, hoặc một hình phạt đối ngẫu lỏng, và các cách này **không thể thay thế cho nhau** về mặt thống kê.
 
 ---
 
 ## 6. Ứng dụng
 
-| Lĩnh vực | Vai trò OT |
-|----------|------------|
-| Thống kê | Metric phân phối; ước lượng robust |
-| Thị giác / đồ họa | Chuyển màu, nội suy hình, đăng ký |
-| Kinh tế | Matching, assignment (gốc lịch sử) |
-| ML sinh | Khớp phân phối; heuristic dual WGAN; mô hình quỹ đạo |
-| Sinh học | So phân bố biểu hiện; suy diễn quỹ đạo (cẩn thận) |
-| PDE / vật lý | Gradient flow; phương trình aggregation–diffusion |
+| Lĩnh vực | Vai trò của OT |
+|----------|----------------|
+| Thống kê | Metric giữa các phân phối; ước lượng bền vững |
+| Thị giác / đồ họa | Chuyển màu, nội suy hình, đăng ký ảnh |
+| Kinh tế | Ghép cặp, phân công (nguồn gốc lịch sử) |
+| ML sinh | Khớp phân phối; heuristic đối ngẫu của WGAN; mô hình quỹ đạo |
+| Sinh học | So sánh phân bố biểu hiện; suy luận quỹ đạo (cần thận trọng) |
+| PDE / vật lý | Dòng gradient; phương trình tập hợp–khuếch tán |
 
-**Hype.** WGAN phổ biến hóa dual Lipschitz; ổn định huấn luyện là thực nghiệm, phụ thuộc kiến trúc—không hệ quả thuần Kantorovich–Rubinstein. Ước lượng mini-batch cao chiều có thể bias nặng.
-
----
-
-## 7. Cao chiều và sample complexity
-
-Ước lượng $$W_p$$ liên tục cao chiều từ mẫu có thể cần kích thước mẫu mũ theo chiều ở một số chế độ—một mặt curse. Cấu trúc (chiều nội tại, trơn) và phân kỳ khác đổi tốc độ. Đây là thống kê toán đang hoạt động—không lý do bỏ OT, nhưng lý do tránh claim ngây thơ.
+**Thổi phồng.** WGAN phổ biến hóa đối ngẫu Lipschitz; việc huấn luyện ổn định là chuyện thực nghiệm, phụ thuộc kiến trúc, chứ không phải hệ quả thuần túy của Kantorovich–Rubinstein. Ước lượng theo mini-batch ở số chiều cao có thể bị thiên lệch nặng.
 
 ---
 
-## 8. Tiên phong
+## 7. Số chiều cao và độ phức tạp mẫu
 
-1. Tốc độ thống kê OT và Sinkhorn debiased.  
-2. OT trên đồ thị, mạng, không gian non-Euclid.  
-3. Multi-marginal và barycenter Wasserstein.  
-4. Transport không cân bằng / nhân quả (tạo/hủy khối lượng).  
-5. Gradient flow trên metric measure space và liên kết sampling.  
-6. OT có cấu trúc quy mô lớn cho mô hình sinh với đánh giá trung thực.
+Để ước lượng $$W_p$$ liên tục ở số chiều cao từ mẫu, ở một số chế độ ta có thể cần cỡ mẫu tăng mũ theo số chiều, một biểu hiện của lời nguyền số chiều. Cấu trúc (chiều nội tại, độ trơn) và việc đổi sang một phân kỳ khác làm đổi tốc độ. Đây là thống kê toán học đang hoạt động: không phải lý do để bỏ OT, nhưng là lý do để tránh những khẳng định ngây thơ.
+
+---
+
+## 8. Các hướng tiên phong
+
+1. Tốc độ thống kê của OT và của Sinkhorn đã khử lệch.  
+2. OT trên đồ thị, mạng và các không gian không Euclid.  
+3. Đa biên (multi-marginal) và barycenter Wasserstein.  
+4. Vận chuyển không cân bằng, và vận chuyển nhân quả (có tạo và hủy khối lượng).  
+5. Dòng gradient trên không gian đo có metric và mối liên hệ với lấy mẫu.  
+6. OT có cấu trúc ở quy mô lớn cho mô hình sinh, với đánh giá trung thực.
 
 ### Ví dụ rời rạc $$2\times 2$$
 
-Khối lượng $$a=(0.5,0.5)$$ tại $$x_1,x_2$$ và $$b=(0.5,0.5)$$ tại $$y_1,y_2$$: coupling là ma trận $$2\times 2$$ không âm đúng tổng hàng/cột. Cost $$\sum\pi_{ij}c_{ij}$$. Nếu $$c_{11},c_{22}$$ rẻ còn chéo đắt, plan tối ưu thích đường chéo; hình học đảo thì plan đảo. LP tìm tối ưu; instance nhỏ liệt kê polytope một chiều của coupling.
+Khối lượng $$a=(0.5,0.5)$$ tại $$x_1,x_2$$ và $$b=(0.5,0.5)$$ tại $$y_1,y_2$$: coupling là một ma trận $$2\times 2$$ không âm với tổng hàng và tổng cột đúng bằng các khối lượng đã cho. Chi phí là $$\sum\pi_{ij}c_{ij}$$. Nếu $$c_{11},c_{22}$$ rẻ còn hai ô chéo kia đắt thì kế hoạch tối ưu ưu tiên đường chéo; nếu hình học đảo ngược thì kế hoạch cũng đảo theo. LP tìm ra nghiệm tối ưu; với bài nhỏ, ta có thể liệt kê đa diện một chiều của các coupling.
 
-Entropic OT làm mượt mục tiêu (thường duy nhất); Sinkhorn scale hàng/cột. Nhìn $$3\times 3$$ hội tụ đáng hơn ngàn slide.
+OT entropy làm mục tiêu mượt hơn (thường có nghiệm duy nhất); Sinkhorn co giãn hàng và cột. Quan sát phép lặp hội tụ trên bài $$3\times 3$$ đáng giá hơn cả nghìn slide.
 
-### Vì sao hình học độ đo quan trọng cho học
+### Vì sao hình học của các độ đo quan trọng đối với việc học
 
-Mô hình sinh: làm pushforward $$G_\#\eta$$ gần độ đo dữ liệu $$\mu$$. Phân kỳ khác = hình học khác (mode-seeking vs mass-covering), độ nhạy outlier, sample complexity. Wasserstein tính phí chuyển khối lượng qua không gian—khớp “phân phối gần” hơn KL khi support lệch, **khi** metric nền có nghĩa và estimator không bị bias phá.
+Với mô hình sinh, ta muốn đẩy tới $$G_\#\eta$$ gần với độ đo dữ liệu $$\mu$$. Mỗi phân kỳ cho một hình học khác (ưu tiên một mode hay phủ toàn bộ khối lượng), một độ nhạy khác với điểm ngoại lai, và độ phức tạp mẫu khác. Wasserstein tính phí cho việc chuyển khối lượng qua không gian, nên nó phản ánh việc “phân phối gần nhau” tốt hơn KL khi giá lệch nhau, **với điều kiện** metric nền có ý nghĩa và bộ ước lượng không bị thiên lệch phá hỏng.
 
-### Studio seminar
+### Hoạt động nhóm
 
-Tìm một paper ML viết “Wasserstein”. Checklist LO6: cost $$c$$ nào? rời rạc hay liên tục? solver exact / Sinkhorn / sliced / mini-batch? Có debias? Viết một đoạn: claim hình học nào *thật sự* được bảo vệ bởi công thức, claim nào chỉ marketing.
+Tìm một bài báo ML có chữ “Wasserstein”. Kiểm tra theo danh sách: chi phí $$c$$ là gì? rời rạc hay liên tục? bộ giải là chính xác, Sinkhorn, cắt lát hay mini-batch? có khử lệch không? Viết một đoạn: khẳng định hình học nào *thực sự* được công thức bảo vệ, khẳng định nào chỉ là quảng cáo.
 
 ---
 
-## Nhầm lẫn thường gặp
+## Những nhầm lẫn thường gặp
 
-| Tuyên bố | Sửa |
-|----------|-----|
-| “Wasserstein = EMD.” | Gần đúng với $$W_1$$ rời rạc; họ $$W_p$$ rộng hơn. |
-| “OT luôn cho map $$T$$.” | Plan có thể tách khối lượng. |
-| “Sinkhorn = OT exact.” | Regularization làm lệch mục tiêu. |
-| “WGAN huấn luyện đúng $$W_1$$.” | Ràng buộc Lipschitz xấp xỉ. |
-| “KL và $$W_p$$ cùng mismatch.” | Topology và độ nhạy khác. |
-| “OT tự giải domain adaptation.” | Toolkit hữu ích; thành công thực nghiệm, giả thiết-phụ thuộc. |
+| Tuyên bố | Chỉnh lại |
+|----------|-----------|
+| “Wasserstein chính là EMD.” | Gần đúng với $$W_1$$ rời rạc; họ $$W_p$$ rộng hơn. |
+| “OT luôn cho một ánh xạ $$T$$.” | Kế hoạch có thể tách khối lượng. |
+| “Sinkhorn là OT chính xác.” | Điều chuẩn làm lệch mục tiêu. |
+| “WGAN huấn luyện đúng $$W_1$$.” | Ràng buộc Lipschitz chỉ được xấp xỉ. |
+| “KL và $$W_p$$ đo sự không khớp như nhau.” | Tô-pô và độ nhạy khác nhau. |
+| “OT tự giải được bài toán thích nghi miền.” | Là công cụ hữu ích; thành công mang tính thực nghiệm và phụ thuộc giả thiết. |
 
 ---
 
 ## Bài tập
 
 1. Tính $$W_p(\delta_a,\delta_b)$$.
-2. Vì sao $$\delta_0\to\frac12\delta_{-1}+\frac12\delta_1$$ không có map cổ điển không tách.
+2. Vì sao việc chuyển $$\delta_0\to\frac12\delta_{-1}+\frac12\delta_1$$ không có ánh xạ cổ điển nào mà không tách khối lượng.
 3. Viết $$\Pi(\mu,\nu)$$ cho hai độ đo hai điểm.
-4. Dual: vì sao $$W_1$$ lớn nếu kỳ vọng lệch trên $$\mathbb{R}$$?
-5. Một lợi tính toán và một giá thống kê/toán của entropic OT.
-6. Tìm paper “Wasserstein”: cost, rời rạc/liên tục, solver exact/xấp xỉ.
-7. Đọc phát biểu Brenier; cost nào?
+4. Dùng đối ngẫu: vì sao $$W_1$$ lớn nếu kỳ vọng của hai phân phối lệch nhau trên $$\mathbb{R}$$?
+5. Nêu một lợi ích về tính toán và một cái giá về thống kê hoặc toán học của OT entropy.
+6. Tìm một bài báo “Wasserstein”: chi phí, rời rạc hay liên tục, bộ giải chính xác hay xấp xỉ.
+7. Đọc phát biểu của định lý Brenier; chi phí nào?
 
 ---
 
+## Tóm tắt từ phần nghiên cứu video
+
+Phần này dùng cho buổi seminar; hãy đối chiếu với nguồn gốc và không coi là bản chép lời.
+
+### Hiện trạng
+
+**Lý thuyết đã chín muồi, ứng dụng đang bùng nổ.** Lý thuyết Monge–Kantorovich là cổ điển; Sinkhorn (OT entropy) và các dòng gradient là những động cơ tính toán hiện đại.
+
+### Phát biểu cốt lõi
+
+Bài toán Kantorovich: $$\inf_{\pi\in\Pi(\mu,\nu)}\int c\,d\pi$$. Khoảng cách Wasserstein-$$p$$ metric hóa hội tụ yếu (trên các không gian phù hợp). Brenier: dưới các điều kiện nhất định, ánh xạ tối ưu là gradient của một thế lồi.
+
+### Định nghĩa cần nhớ
+
+- **Coupling.** Phân phối đồng thời $$\pi$$ có các biên là $$\mu,\nu$$.
+- **Sinkhorn.** Điều chuẩn entropy của OT, giải bằng co giãn ma trận.
+
+### Cần phân biệt rõ
+
+- Cho rằng OT luôn cho một ánh xạ Monge tất định, kể cả trong các bối cảnh rời rạc có khối lượng bằng nhau hoặc không cân bằng mà không có giả thiết.
+- Bỏ qua việc độ phức tạp mẫu của W_p thực nghiệm tăng vọt khi số chiều cao.
 
 ---
 
-## Kiến thức trích từ nghiên cứu video
+## Nguồn video
 
-Tóm tắt cho seminar (đối chiếu nguồn viết; **không bịa transcript**). Gói: `research/video-research/optimal-transport/analysis.md`.
-
-### Trạng thái
-
-**Mature theory, booming applications.** Monge–Kantorovich theory classical; Sinkhorn/entropic OT and gradient flows are modern computational engines.
-
-### Phát biểu / slogan cốt lõi
-
-Kantorovich problem: $$\inf_{\pi\in\Pi(\mu,\nu)}\int c\\,d\pi$$. Wasserstein-$$p$$ metrizes weak convergence (on suitable spaces). Brenier: under conditions, optimal maps are gradients of convex potentials.
-
-### Định nghĩa cần cố định
-
-- **Coupling.** Joint $$\pi$$ with marginals $$\mu,\nu$$.
-- **Sinkhorn.** Entropic regularization of OT solved by matrix scaling.
-
-### Vệ sinh khái niệm
-
-- Thinking OT always yields a deterministic Monge map in discrete equal-mass unbalanced settings without hypotheses.
-- Ignoring sample complexity blow-up of empirical W_p in high dimension.
-
-
----
-
-## Nguồn video (gói math-video-researcher)
-
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh/bài báo gốc khi tuyên bố mang tính then chốt. Chi tiết xếp hạng: `research/video-research/optimal-transport/`.
+Hãy dùng video để **định hướng và làm quen với văn hóa nghiên cứu**, đừng dùng thay cho chứng minh hay bài báo gốc khi cần khẳng định điều quan trọng.
 
 **Thứ tự gợi ý**
 
-1. **Cốt lõi** — Villani — Optimal Transport Theory (Imperial College): [https://www.youtube.com/watch?v=6DZjBcDfPHs](https://www.youtube.com/watch?v=6DZjBcDfPHs).  
-2. **Nền tảng** — Fields Institute — Optimal Transportation Lecture 01: [https://www.youtube.com/watch?v=TAnoqeYfO1Y](https://www.youtube.com/watch?v=TAnoqeYfO1Y).  
-3. **Định hướng** — Simons — Crash Course on Optimal Transport: [https://www.youtube.com/watch?v=GMC7uOPAa_Y](https://www.youtube.com/watch?v=GMC7uOPAa_Y).  
-4. **Tính toán** — UniHeidelberg — Sinkhorn iterations (discrete OT): [https://www.youtube.com/watch?v=BfOjrQAhG4M](https://www.youtube.com/watch?v=BfOjrQAhG4M).  
+1. **Cốt lõi**: Villani, Optimal Transport Theory (Imperial College): [https://www.youtube.com/watch?v=6DZjBcDfPHs](https://www.youtube.com/watch?v=6DZjBcDfPHs).  
+2. **Nền tảng**: Fields Institute, Optimal Transportation Lecture 01: [https://www.youtube.com/watch?v=TAnoqeYfO1Y](https://www.youtube.com/watch?v=TAnoqeYfO1Y).  
+3. **Định hướng**: Simons, Crash Course on Optimal Transport: [https://www.youtube.com/watch?v=GMC7uOPAa_Y](https://www.youtube.com/watch?v=GMC7uOPAa_Y).  
+4. **Tính toán**: UniHeidelberg, Sinkhorn iterations (discrete OT): [https://www.youtube.com/watch?v=BfOjrQAhG4M](https://www.youtube.com/watch?v=BfOjrQAhG4M).  
 
-**Nhắc trạng thái:** **Mature theory, booming applications.** Monge–Kantorovich theory classical; Sinkhorn/entropic OT and gradient flows are modern computational engines.
+**Lưu ý về hiện trạng:** lý thuyết đã chín muồi và ứng dụng đang bùng nổ. Lý thuyết Monge–Kantorovich là cổ điển; Sinkhorn và các dòng gradient là những động cơ tính toán hiện đại.
 
 ---
 
-
-### Transcript & frames (batch extract)
-
-Transcript caption và unit theo thời gian: `research/video-research/optimal-transport/transcripts/` · trạng thái: `research/video-research/optimal-transport/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
-
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/optimal-transport_6DZjBcDfPHs_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính.*
 
 ## Tài liệu tham khảo
 
 1. Villani — Topics / Old and New.
 2. Peyré & Cuturi — *Computational Optimal Transport*.
 3. Santambrogio — OT for applied mathematicians.
-4. Nền: Monge; Kantorovich; Brenier.
+4. Nền tảng: Monge; Kantorovich; Brenier.
 5. [Toán AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/), [Hình học cao chiều]({{ site.baseurl }}/contents/vi/chapter06/06_08_High_Dimensional_Geometry/), [ML theory]({{ site.baseurl }}/contents/vi/chapter06/06_10_ML_Theory/).
 
 ---
 
-
-Danh mục URL đầy đủ: `research/video-research/optimal-transport/references.md`.
-
 ### Video (lộ trình gợi ý)
 
-- Villani — Optimal Transport Theory (Imperial College) (CORE): https://www.youtube.com/watch?v=6DZjBcDfPHs
-- Fields Institute — Optimal Transportation Lecture 01 (FOUNDATION): https://www.youtube.com/watch?v=TAnoqeYfO1Y
-- Simons — Crash Course on Optimal Transport (ORIENTATION): https://www.youtube.com/watch?v=GMC7uOPAa_Y
-- UniHeidelberg — Sinkhorn iterations (discrete OT) (COMPUTATION): https://www.youtube.com/watch?v=BfOjrQAhG4M
+- Villani, Optimal Transport Theory (Imperial College) (cốt lõi): https://www.youtube.com/watch?v=6DZjBcDfPHs
+- Fields Institute, Optimal Transportation Lecture 01 (nền tảng): https://www.youtube.com/watch?v=TAnoqeYfO1Y
+- Simons, Crash Course on Optimal Transport (định hướng): https://www.youtube.com/watch?v=GMC7uOPAa_Y
+- UniHeidelberg, Sinkhorn iterations (discrete OT) (tính toán): https://www.youtube.com/watch?v=BfOjrQAhG4M
 
-### Bài báo và web (từ gói nghiên cứu)
+### Bài báo và web
 
 - Wikipedia — Transportation theory (mathematics): https://en.wikipedia.org/wiki/Transportation_theory_(mathematics)
 - Wikipedia — Wasserstein metric: https://en.wikipedia.org/wiki/Wasserstein_metric
@@ -254,20 +247,17 @@ Danh mục URL đầy đủ: `research/video-research/optimal-transport/referenc
 - Carmin.tv OT intro lectures: https://www.carmin.tv/en/video/introduction-to-optimal-transport-theory-lecture-2
 - Wikipedia — Earth mover's distance: https://en.wikipedia.org/wiki/Earth_mover%27s_distance
 
-### Khóa học
-
-- Gói: `research/video-research/optimal-transport/` (đặc biệt `references.md`, `learning_path.md`).
 
 ## Hướng đi tiếp
 
 - [Hình học cao chiều]({{ site.baseurl }}/contents/vi/chapter06/06_08_High_Dimensional_Geometry/); [ML theory]({{ site.baseurl }}/contents/vi/chapter06/06_10_ML_Theory/).
-- [Toán AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/) cho học phân phối.
-- Thực hành: OT rời rạc $$2\times 2$$ hoặc $$3\times 3$$ bằng tay; rồi Sinkhorn cùng cost.
-- Đọc: Peyré–Cuturi tính toán → intuition Villani → abstract một paper tốc độ thống kê.
-- Luôn ghi: *cost, biên, exact vs regularized, estimator*.
+- [Toán AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/) cho việc học phân phối.
+- Thực hành: giải OT rời rạc $$2\times 2$$ hoặc $$3\times 3$$ bằng tay; rồi chạy Sinkhorn với cùng hàm chi phí.
+- Đọc: Peyré–Cuturi về tính toán, rồi trực giác của Villani, rồi phần tóm tắt một bài báo về tốc độ thống kê.
+- Luôn ghi lại: *chi phí, các biên, chính xác hay có điều chuẩn, bộ ước lượng*.
 
 ## Video tham khảo
 
-- **xem trước** — [New Frontiers in Mathematics: Professor Cédric Villani, “Optimal Transport Theory”](https://www.youtube.com/watch?v=6DZjBcDfPHs) — Imperial College London, tiếng Anh. Xem trước. “New Frontiers in Mathematics: Professor Cédric Villani, “Optimal Transport Theory”” định hướng cho mục tiêu của bài: Phát biểu bài Monge: map T đẩy \mu thành \nu tối thiểu chi phí; vì sao map có thể không tồn tại.
-- [Lecture 01 | Optimal Transportation, Geometry and Dynamics](https://www.youtube.com/watch?v=TAnoqeYfO1Y) — Fields Institute, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu bài Monge: map T đẩy \mu thành \nu tối thiểu chi phí; vì sao map có thể không tồn tại.
-- [Crash Course on Optimal Transport](https://www.youtube.com/watch?v=GMC7uOPAa_Y) — Simons Institute for the Theory of Computing, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu bài Monge: map T đẩy \mu thành \nu tối thiểu chi phí; vì sao map có thể không tồn tại.
+- **Xem trước** — [New Frontiers in Mathematics: Professor Cédric Villani, “Optimal Transport Theory”](https://www.youtube.com/watch?v=6DZjBcDfPHs) — Imperial College London, tiếng Anh. Xem trước để nghe Villani giới thiệu bài toán Monge và vì sao ánh xạ vận chuyển có thể không tồn tại.
+- [Lecture 01 | Optimal Transportation, Geometry and Dynamics](https://www.youtube.com/watch?v=TAnoqeYfO1Y) — Fields Institute, tiếng Anh. Xem lượt thứ hai, khi ý chính đã rõ, để theo dõi phần mở đầu của một khóa học về OT.
+- [Crash Course on Optimal Transport](https://www.youtube.com/watch?v=GMC7uOPAa_Y) — Simons Institute for the Theory of Computing, tiếng Anh. Góc nhìn bổ sung sau hai video đầu, ở dạng bài giảng ngắn tập trung vào các công thức chính.

@@ -48,7 +48,7 @@ Hệ quả quan trọng: scheme **tất định** (cùng $$m$$ luôn ra cùng $$
 
 ## 2. Quadratic residuosity và scheme Goldwasser–Micali
 
-Số $$a$$ là **quadratic residue** modulo $$n$$ nếu $$\gcd(a,n)=1$$ và tồn tại $$x$$ với $$x^2\equiv a\pmod n$$. Với $$n=pq$$, bài toán **quadratic residuosity (QRP)**—phân biệt residue và non-residue khi ký hiệu Jacobi bằng $$+1$$—được tin khó nếu factoring khó (liên hệ cổ điển).
+Số $$a$$ là **quadratic residue** modulo $$n$$ nếu $$\gcd(a,n)=1$$ và tồn tại $$x$$ với $$x^2\equiv a\pmod n$$. Với $$n=pq$$, bài toán **quadratic residuosity (QRP)**—phân biệt residue và non-residue khi ký hiệu Jacobi bằng $$+1$$—được tin là khó. Đây là giả định mạnh hơn giả định factoring khó: nếu phân tích được $$n$$ thì giải được QRP, còn chiều ngược lại chưa biết.
 
 **Scheme GM (ý tưởng):**
 
@@ -78,9 +78,9 @@ Số $$a$$ là **quadratic residue** modulo $$n$$ nếu $$\gcd(a,n)=1$$ và tồ
 
 Điểm triết học–toán: “không học gì” không phải cảm giác; đó là **tồn tại simulator poly-time** sinh transcript không phân biệt được (computationally) với tương tác thật.
 
-### Ví dụ khẩu hiệu: 3-tô màu (Goldreich–Micali–Wigderson)
+### Ví dụ: 3-tô màu (Goldreich–Micali–Wigderson)
 
-Prover biết tô màu $$\chi$$. Mỗi vòng: random permute màu, cam kết (commitment) màu đỉnh; verifier chọn một cạnh; prover mở màu hai đầu cạnh; verifier kiểm tra khác màu. Lặp nhiều vòng. Gian dối trên cạnh xấu bị bắt với xác suất dương mỗi vòng; honest verifier gần như không học tô màu toàn cục nhờ permute + commitment. Chi tiết commitment và mô hình cần sách chuyên khảo; seminar cần **hình dạng**: thách thức ngẫu nhiên + mở cục bộ + lặp để khuếch đại soundness.
+Prover biết tô màu $$\chi$$. Mỗi vòng: random permute màu, cam kết (commitment) màu đỉnh; verifier chọn một cạnh; prover mở màu hai đầu cạnh; verifier kiểm tra khác màu. Lặp nhiều vòng. Gian dối trên cạnh xấu bị bắt với xác suất dương mỗi vòng; honest verifier gần như không học tô màu toàn cục nhờ permute + commitment. Chi tiết commitment và mô hình cần sách chuyên khảo; ở đây ta chỉ cần nắm **hình dạng chung**: thách thức ngẫu nhiên + mở cục bộ + lặp để khuếch đại soundness.
 
 ### Ví dụ số học: residuality / square root
 
@@ -106,11 +106,11 @@ Một lemma kiểu GM: nếu adversary phá IND-CPA của scheme X với advanta
 
 ---
 
-## 6. Phụ nữ, mentor, và xây lĩnh vực
+## 6. Xây dựng một lĩnh vực
 
-Citation Turing 2012 vinh danh **nền tảng**. Goldwasser và Micali (cùng học trò và cộng tác) định hình chương trình học mật mã lý thuyết toàn cầu: định nghĩa game-based, zero-knowledge, pseudorandomness, encryption an toàn. Đây là kiểu đóng góp Abel/Turing cùng họ: **đổi khí hậu**, không chỉ một gadget.
+Lời trích dẫn giải Turing 2012 vinh danh **nền tảng**. Goldwasser và Micali (cùng học trò và cộng sự) đã định hình chương trình học mật mã lý thuyết trên toàn thế giới: định nghĩa an ninh theo trò chơi, zero-knowledge, giả ngẫu nhiên, mã hóa an toàn. Đây là kiểu đóng góp làm thay đổi cả một lĩnh vực, chứ không chỉ một công cụ đơn lẻ.
 
-Trong khóa *Math Enthusiast*, đây là dịp nhắc: toán–tin hiện đại không chỉ “nam giới huyền thoại 1936–1978.” Đọc citation và paper; tránh xóa lịch sử cộng đồng.
+Đây cũng là dịp nhắc rằng toán–tin hiện đại là công sức của cả một cộng đồng, không chỉ của vài cái tên quen thuộc từ 1936 đến 1978. Hãy đọc lời trích dẫn và bài báo gốc để thấy rõ điều đó.
 
 ---
 
@@ -119,7 +119,7 @@ Trong khóa *Math Enthusiast*, đây là dịp nhắc: toán–tin hiện đại
 | Khẳng định | Chỉnh |
 |------------|-------|
 | “Zero-knowledge giấu mọi thứ kể cả statement.” | Verifier học rằng statement **đúng**; không học witness. |
-| “ZK chứng minh P = NP.” | Không: verifier không nhận witness dạng ngắn để tự kiểm trong mô hình NP cổ điển theo cùng cách; interactive/randomness đổi mô hình. |
+| “Có zero-knowledge nghĩa là P = NP.” | Không. Zero-knowledge là một tính chất của giao thức tương tác; nó không làm hai lớp P và NP trùng nhau. |
 | “GM scheme thay AES trong TLS.” | GM là mẫu lý thuyết bit-wise; thực tế dùng AEAD đối xứng + KEM/signature hiện đại. |
 | “Semantic security = information-theoretic secrecy.” | Semantic security là **tính toán** (poly-time adversary); one-time pad là thông tin lý thuyết. |
 | “Provable security ⇒ không bị hack.” | Proof trong mô hình; bug, side channel, phishing nằm ngoài game. |
@@ -136,47 +136,27 @@ Trong khóa *Math Enthusiast*, đây là dịp nhắc: toán–tin hiện đại
 5. So 1 đoạn: reduction Karp (NP-đầy đủ) vs reduction an ninh mật mã—giống và khác.  
 6. **≤250 từ:** Quadratic residuosity đóng vai trò “mỏ” thế nào trong GM, song song factoring trong RSA.  
 7. Đọc thêm một nguồn phổ biến về zk-SNARK (mức sơ đồ) và viết 5 câu nối về di sản ZK 1980s.  
-8. Studio: chơi protocol 3-tô màu trên đồ thị 4 đỉnh (giấy): một người prover, một verifier, 3 vòng challenge cạnh.
+8. Chơi thử protocol 3-tô màu trên đồ thị 4 đỉnh (giấy): một người prover, một verifier, 3 vòng challenge cạnh.
 
 ---
 
 
-## Nguồn video (gói math-video-researcher)
+## Video và tài liệu
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh. Chi tiết: `research/video-research/goldwasser-micali/`.
+Các video gợi ý nằm ở phần *Video tham khảo* cuối bài. Hãy dùng video để làm quen với bối cảnh, không dùng thay cho chứng minh.
 
-**Khẩu hiệu từ gói nghiên cứu**
-
-- Turing 2012 Goldwasser–Micali: mã hóa xác suất, zero-knowledge.
-
-**Thứ tự xem gợi ý**
+## Tài liệu tham khảo trực tuyến
 
 
-**Cổng chính thức / tài liệu**
-
-- Goldwasser Turing: https://amturing.acm.org/award_winners/goldwasser_8627889.cfm  
-- Micali Turing: https://amturing.acm.org/award_winners/micali_9954407.cfm  
-- Wigderson Turing 2023 (proof systems culture): https://amturing.acm.org/award_winners/wigderson_3844537.cfm  
-
-Danh mục URL đầy đủ: `research/video-research/goldwasser-micali/references.md`.
-
-## Tài liệu
-
-
-### Gói nghiên cứu video (mọi URL)
-
-Danh mục đầy đủ: `research/video-research/goldwasser-micali/references.md`.
-
-1. Goldwasser Turing — https://amturing.acm.org/award_winners/goldwasser_8627889.cfm  
-2. Micali Turing — https://amturing.acm.org/award_winners/micali_9954407.cfm  
+1. Trang giải Turing của Goldwasser — https://amturing.acm.org/award_winners/goldwasser_8627889.cfm  
+2. Trang giải Turing của Micali — https://amturing.acm.org/award_winners/micali_9954407.cfm  
 3. Wikipedia — Shafi Goldwasser — https://en.wikipedia.org/wiki/Shafi_Goldwasser  
 4. Wikipedia — Silvio Micali — https://en.wikipedia.org/wiki/Silvio_Micali  
 5. Wikipedia — Zero-knowledge proof — https://en.wikipedia.org/wiki/Zero-knowledge_proof  
 6. Wikipedia — Semantic security — https://en.wikipedia.org/wiki/Semantic_security  
-7. Wikipedia — Goldwasser–Micali cryptosystem — https://en.wikipedia.org/wiki/Goldwasser%E2%80%93Micali_cryptosystem  
-8. Wigderson Turing 2023 (proof systems culture) — https://amturing.acm.org/award_winners/wigderson_3844537.cfm  
-9. ACM announcement culture 2012 — https://awards.acm.org/about/2012-turing  
-10. Thư mục gói: `research/video-research/goldwasser-micali/`.
+7. Wikipedia — Hệ mật Goldwasser–Micali — https://en.wikipedia.org/wiki/Goldwasser%E2%80%93Micali_cryptosystem  
+8. Trang giải Turing 2023 của Wigderson (hệ chứng minh) — https://amturing.acm.org/award_winners/wigderson_3844537.cfm  
+9. Thông báo của ACM năm 2012 — https://awards.acm.org/about/2012-turing  
 
 1. Goldwasser, S., & Micali, S. (1984). Probabilistic encryption. *J. Comput. Syst. Sci.*  
 2. Goldwasser, S., Micali, S., & Rackoff, C. (1989). The knowledge complexity of interactive proof systems. *SIAM J. Comput.*  
@@ -198,7 +178,7 @@ Danh mục đầy đủ: `research/video-research/goldwasser-micali/references.m
 
 Di sản sâu nhất có lẽ không phải một modulus hay một protocol cụ thể, mà là **chuẩn nghề**: đề xuất scheme kèm định nghĩa an ninh, mô hình adversary, và chứng minh reduction. Cộng đồng có thể bác giả định, siết định nghĩa (CCA thay CPA), hoặc chỉ ra gap—nhưng cuộc chơi là toán học, không phải khẩu hiệu brochure.
 
-Trong seminar, khi ai đó nói “hệ này an toàn,” hãy hỏi: *an toàn theo game nào? adversary được làm gì? giả định tên gì? reduction có concrete không?* Bốn câu Goldwasser–Micali-style đó nâng thảo luận từ tin đồn sang khoa học.
+Khi ai đó nói “hệ này an toàn,” hãy hỏi: *an toàn theo game nào? adversary được làm gì? giả định tên gì? reduction có concrete không?* Bốn câu hỏi theo tinh thần Goldwasser–Micali đó nâng thảo luận từ tin đồn sang khoa học.
 
 ## Homomorphic XOR và gợi ý đồng cấu
 
@@ -215,10 +195,10 @@ Nhân hai ciphertext GM (mod $$n$$) cho ciphertext của XOR hai bit—ví dụ 
 | DH / RSA | Cửa sập số học trên kênh công cộng |
 | Goldwasser–Micali | Định nghĩa an ninh + zero-knowledge |
 
-Đọc xuôi: từ “cái gì tính được” tới “cái gì tính được *hiệu quả*,” tới “cái gì *chứng minh được là khó đủ* để tin cậy.” Đó là xương sống toán học tính toán trong khóa *Math Enthusiast*.
+Đọc theo thứ tự: từ “cái gì tính được” tới “cái gì tính được *hiệu quả*,” tới “cái gì *chứng minh được là khó đủ* để tin cậy.” Đó là xương sống toán học tính toán trong khóa *Math Enthusiast*.
 
 ## Video tham khảo
 
-- **xem trước** — [Zero Knowledge Proofs - Computerphile](https://www.youtube.com/watch?v=HUs1bH85X9I) — Computerphile, tiếng Anh. Xem trước. “Zero Knowledge Proofs - Computerphile” định hướng cho mục tiêu của bài: Giải thích vì sao mã hóa tất định kiểu textbook RSA không đạt an ninh ngữ nghĩa mạnh.
-- [CESC 2022 - Shafi Goldwasser: History of ZK](https://www.youtube.com/watch?v=WjFu2cy_0vM) — Berkeley RDI, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Giải thích vì sao mã hóa tất định kiểu textbook RSA không đạt an ninh ngữ nghĩa mạnh.
-- [Micali on the impact of "Probabilistic Encryption" (1984)](https://www.youtube.com/watch?v=W5GwfZtGUEY) — Turing Awardee Clips, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Giải thích vì sao mã hóa tất định kiểu textbook RSA không đạt an ninh ngữ nghĩa mạnh.
+- **Xem trước** — [Zero Knowledge Proofs - Computerphile](https://www.youtube.com/watch?v=HUs1bH85X9I) — Computerphile, tiếng Anh. Xem trước để làm quen với chủ đề.
+- [CESC 2022 - Shafi Goldwasser: History of ZK](https://www.youtube.com/watch?v=WjFu2cy_0vM) — Berkeley RDI, tiếng Anh. Xem sau khi đã nắm ý chính.
+- [Micali on the impact of "Probabilistic Encryption" (1984)](https://www.youtube.com/watch?v=W5GwfZtGUEY) — Turing Awardee Clips, tiếng Anh. Góc nhìn bổ sung.

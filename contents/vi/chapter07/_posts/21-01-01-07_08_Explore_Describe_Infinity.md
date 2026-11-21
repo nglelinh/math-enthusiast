@@ -10,209 +10,209 @@ categories:
 ---
 
 > **Liên kết**  
-> [Studio Collatz]({{ site.baseurl }}/contents/vi/chapter07/07_09_Explore_Iteration/) · [Studio nguyên tố]({{ site.baseurl }}/contents/vi/chapter07/07_04_Explore_Prime_Predictability/) · [Chiều 4]({{ site.baseurl }}/contents/vi/chapter07/07_06_Explore_Fourth_Dimension/)
+> [Thực hành: Collatz]({{ site.baseurl }}/contents/vi/chapter07/07_09_Explore_Iteration/) · [Thực hành: số nguyên tố]({{ site.baseurl }}/contents/vi/chapter07/07_04_Explore_Prime_Predictability/) · [Chiều thứ tư]({{ site.baseurl }}/contents/vi/chapter07/07_06_Explore_Fourth_Dimension/)
 
-Vô hạn không phải một đối tượng duy nhất. Toán học phát triển **nhiều ngôn ngữ chặt** cho quá trình vô tận và kích thước vô hạn: vô hạn tiềm năng trong giới hạn, tập vô hạn hoàn tất trong lý thuyết tập Cantor, ordinal (thứ tự), cardinal (cỡ thuần), vô hạn trong giải tích (hầu khắp nơi), hình học xạ ảnh… Studio luyện **đặt tên vô hạn bạn đang nói**, tự chứng minh đếm được/không đếm được bằng song ánh và đường chéo, và phát hiện lỗi loại khi đại chúng nói “vô hạn cộng một”.
+Vô hạn không chỉ có một loại. Toán học có **nhiều cách nói chặt chẽ** về những quá trình không kết thúc và những tập có kích thước vô hạn: vô hạn tiềm năng trong khái niệm giới hạn, tập vô hạn hoàn chỉnh trong lý thuyết tập hợp của Cantor, số thứ tự (ordinal), bản số (cardinal, chỉ đo kích thước), vô hạn trong giải tích (khái niệm "hầu khắp nơi"), hình học xạ ảnh… Bài thực hành này giúp bạn **nói rõ mình đang nói về loại vô hạn nào**, tự chứng minh một tập đếm được hay không đếm được bằng song ánh và phương pháp đường chéo, và nhận ra lỗi nhầm loại khi sách báo phổ thông nói "vô hạn cộng một".
 
-Bạn không kết thúc tranh triết “vô hạn hoàn tất có tồn tại không”. Bạn chỉ ra rằng **trong toán**, cấu trúc vô hạn mô tả được, so sánh được, đôi khi rất dễ bảo. Cùng kỷ luật studio khác: nhãn định lý / độc lập / nghịch lý đã hòa giải / ẩn dụ.
+Bài này không nhằm giải quyết câu hỏi triết học "vô hạn hoàn chỉnh có thật sự tồn tại không". Bài chỉ cho thấy rằng **trong toán học**, các cấu trúc vô hạn có thể mô tả được, so sánh được, và đôi khi rất dễ làm việc. Giống các bài thực hành khác, bạn gắn nhãn rõ: định lý, mệnh đề độc lập, nghịch lý đã được giải thích, hay chỉ là phép so sánh.
 
 ---
 
 ## Mục tiêu học tập
 
-Sau studio bạn cần:
+Sau bài này, bạn cần:
 
-- Phân biệt vô hạn **tiềm năng** (quá trình không dứt) và vô hạn **thực** (tập hoàn tất như $$\mathbb{N}$$).
-- Dựng song ánh $$\lvert\mathbb{N}\rvert=\lvert\mathbb{Z}\rvert=\lvert\mathbb{N}\times\mathbb{N}\rvert$$.
-- Trình bày đường chéo Cantor: $$\mathbb{R}$$ (hoặc $$\{0,1\}^{\mathbb{N}}$$) không đếm được.
-- Giải thích khách sạn Hilbert: tập đếm được hấp thụ thêm hữu hạn/đếm được.
-- Chỉ chỗ calculus “giấu” vô hạn ($$\varepsilon$$-$$N$$, chuỗi, tích phân suy rộng) mà không coi $$\infty$$ là số thực.
-- Giữ nghịch lý trong **hộp giải quyết**: định nghĩa nào hòa giải?
+- Phân biệt vô hạn **tiềm năng** (một quá trình không bao giờ dừng) với vô hạn **thực** (một tập hoàn chỉnh như $$\mathbb{N}$$).
+- Dựng song ánh để chứng minh $$\lvert\mathbb{N}\rvert=\lvert\mathbb{Z}\rvert=\lvert\mathbb{N}\times\mathbb{N}\rvert$$.
+- Trình bày phương pháp đường chéo Cantor: $$\mathbb{R}$$ (hoặc $$\{0,1\}^{\mathbb{N}}$$) không đếm được.
+- Giải thích nghịch lý khách sạn Hilbert: một tập đếm được vẫn "chứa thêm" được hữu hạn hoặc đếm được phần tử nữa.
+- Chỉ ra chỗ giải tích "giấu" vô hạn (định nghĩa $$\varepsilon$$-$$N$$, chuỗi, tích phân suy rộng) mà không coi $$\infty$$ là một số thực.
+- Với mỗi nghịch lý, chỉ ra **định nghĩa nào giúp giải thích nó**.
 
-**Tiên quyết.** Hàm, đơn ánh/toàn ánh/song ánh, viết chứng minh cơ bản, dãy và chuỗi mức calculus.
+**Kiến thức cần có.** Hàm số, đơn ánh, toàn ánh, song ánh, viết chứng minh cơ bản, dãy và chuỗi ở mức giải tích một biến.
 
 ---
 
-## 1. Toán nền
+## 1. Kiến thức toán nền
 
-### 1.1 Tiềm năng vs thực
+### 1.1 Vô hạn tiềm năng và vô hạn thực
 
-**Vô hạn tiềm năng** (Aristotle): quá trình tiếp tục không dứt—bạn luôn viết được số tự nhiên lớn hơn; không nhất thiết chấp nhận “tập mọi số tự nhiên” như đối tượng xong. Calculus hiện đại thường nói tiềm năng: $$\lim_{n\to\infty}a_n=L$$ là thách thức–đáp hữu hạn với $$\varepsilon$$ và $$N$$, không bao giờ một số gọi $$\infty$$ trong $$\mathbb{R}$$.
+**Vô hạn tiềm năng** (theo Aristotle) là một quá trình tiếp diễn không dừng: bạn luôn viết được một số tự nhiên lớn hơn, nhưng không nhất thiết phải chấp nhận "tập tất cả các số tự nhiên" như một đối tượng đã hoàn chỉnh. Giải tích hiện đại thường dùng cách nhìn tiềm năng: $$\lim_{n\to\infty}a_n=L$$ nghĩa là với mỗi $$\varepsilon$$ cho trước, ta tìm được $$N$$ hữu hạn phù hợp. Không có số nào tên là $$\infty$$ trong $$\mathbb{R}$$.
 
-**Vô hạn thực** coi tập vô hạn là đối tượng. Lý thuyết Cantor gán **lực lượng**: hai tập cùng lực lượng nếu có song ánh giữa chúng. Khi đó $$\mathbb{N}$$ vô hạn, và có nhiều cỡ vô hạn.
+**Vô hạn thực** coi một tập vô hạn là một đối tượng. Lý thuyết của Cantor gán cho mỗi tập một **lực lượng**: hai tập có cùng lực lượng nếu có một song ánh giữa chúng. Với cách nhìn này, $$\mathbb{N}$$ là một tập vô hạn, và có nhiều cỡ vô hạn khác nhau.
 
-Cả hai mode đều hữu ích. Nhầm bắt đầu khi chuyển mode mà không báo.
+Cả hai cách nhìn đều hữu ích. Nhầm lẫn xảy ra khi ta chuyển từ cách nhìn này sang cách nhìn kia mà không nói ra.
 
 ### 1.2 Vô hạn đếm được
 
-Tập **đếm được vô hạn** nếu equinumerous với $$\mathbb{N}=\{0,1,2,\ldots\}$$ (hoặc $$\{1,2,\ldots\}$$—cố định convention). Song ánh cổ điển:
+Một tập là **vô hạn đếm được** nếu nó có cùng lực lượng với $$\mathbb{N}=\{0,1,2,\ldots\}$$ (hoặc $$\{1,2,\ldots\}$$; hãy chọn một quy ước và giữ nguyên). Một số song ánh kinh điển:
 
-- $$\mathbb{N}\leftrightarrow\mathbb{Z}$$: liệt kê $$0,1,-1,2,-2,\ldots$$.  
-- $$\mathbb{N}\leftrightarrow\mathbb{N}\times\mathbb{N}$$: chéo các cặp $$(i,j)$$.  
-- $$\mathbb{N}\leftrightarrow\mathbb{Q}$$: liệt kê hữu tỉ qua cặp số nguyên, cẩn trùng (hoặc dương trước).
+- $$\mathbb{N}\leftrightarrow\mathbb{Z}$$: liệt kê theo thứ tự $$0,1,-1,2,-2,\ldots$$.  
+- $$\mathbb{N}\leftrightarrow\mathbb{N}\times\mathbb{N}$$: đi theo các đường chéo của bảng các cặp $$(i,j)$$.  
+- $$\mathbb{N}\leftrightarrow\mathbb{Q}$$: liệt kê các số hữu tỉ qua cặp số nguyên, chú ý bỏ các phần tử lặp lại (hoặc làm với số dương trước).
 
-Công thức tường minh song ánh $$\mathbb{N}\to\mathbb{Z}$$ (với $$\mathbb{N}=\{0,1,2,\ldots\}$$):
+Công thức tường minh cho song ánh $$\mathbb{N}\to\mathbb{Z}$$ (với $$\mathbb{N}=\{0,1,2,\ldots\}$$):
 
 $$
 f(n)=\begin{cases} n/2 & n\text{ chẵn},\\ -(n+1)/2 & n\text{ lẻ.}\end{cases}
 $$
 
-Kiểm đơn ánh và toàn ánh một lần tay—micro-proof này khiến “cùng cỡ” cảm đại số chứ không huyền bí.
+Hãy tự kiểm tra bằng tay một lần rằng đây là đơn ánh và toàn ánh. Chứng minh nhỏ này giúp khái niệm "cùng cỡ" trở thành một phép kiểm tra đại số cụ thể, không còn bí ẩn.
 
-Vậy “số chẵn nhiều bằng số tự nhiên”, nghịch lý Galileo, trở thành **định lý** về tập vô hạn, không mâu thuẫn. Ánh xạ $$n\mapsto 2n$$ là song ánh $$\mathbb{N}\to 2\mathbb{N}$$; trực giác hữu hạn “chẵn là một nửa” thất bại vì bỏ tập con không nhất thiết đổi lực lượng vô hạn.
+Như vậy, câu "số chẵn nhiều bằng số tự nhiên" (nghịch lý Galileo) trở thành một **định lý** về tập vô hạn, không có gì mâu thuẫn. Ánh xạ $$n\mapsto 2n$$ là một song ánh $$\mathbb{N}\to 2\mathbb{N}$$. Trực giác từ tập hữu hạn ("số chẵn chỉ bằng một nửa") không còn đúng, vì với tập vô hạn, bỏ đi một tập con không nhất thiết làm giảm lực lượng.
 
-**Khách sạn Hilbert.** Khách sạn phòng đánh số bằng $$\mathbb{N}$$, đầy, vẫn nhận thêm 1 khách (đẩy $$n\mapsto n+1$$), hữu hạn khách, hoặc đếm được khách mới (ví dụ chuyển khách phòng $$n$$ sang $$2n$$, giải phóng lẻ). Câu chuyện là số học cardinal: $$\aleph_0+1=\aleph_0$$, $$\aleph_0+\aleph_0=\aleph_0$$.
+**Khách sạn Hilbert.** Một khách sạn có các phòng đánh số theo $$\mathbb{N}$$, đã kín phòng, nhưng vẫn nhận thêm được 1 khách (chuyển khách theo quy tắc $$n\mapsto n+1$$), hữu hạn khách, hoặc thậm chí đếm được khách mới (ví dụ chuyển khách ở phòng $$n$$ sang phòng $$2n$$, để trống các phòng lẻ). Về mặt số học bản số, câu chuyện này nói rằng $$\aleph_0+1=\aleph_0$$ và $$\aleph_0+\aleph_0=\aleph_0$$.
 
 ### 1.3 Không đếm được
 
-**Đường chéo Cantor.** Giả sử $$f:\mathbb{N}\to\{0,1\}^{\mathbb{N}}$$ liệt kê mọi dãy nhị phân vô hạn. Dựng $$s$$ với $$s_n=1-f(n)_n$$. Thì $$s$$ khác mọi dãy đã liệt kê. Vậy $$\{0,1\}^{\mathbb{N}}$$ không đếm được. Số thực trong $$(0,1)$$ cũng vậy (biểu diễn nhị phân/thập phân cẩn kép).
+**Phương pháp đường chéo Cantor.** Giả sử $$f:\mathbb{N}\to\{0,1\}^{\mathbb{N}}$$ liệt kê được mọi dãy nhị phân vô hạn. Dựng dãy $$s$$ với $$s_n=1-f(n)_n$$. Khi đó $$s$$ khác mọi dãy trong danh sách (khác dãy thứ $$n$$ ở vị trí thứ $$n$$). Vậy $$\{0,1\}^{\mathbb{N}}$$ không đếm được. Tập các số thực trong $$(0,1)$$ cũng vậy (cần cẩn thận với các số có hai cách biểu diễn nhị phân hoặc thập phân).
 
-Sư phạm: trước hết thấy vì sao đường chéo *hữu hạn* không chứng gì về tập hữu hạn—với chỉ $$N$$ chuỗi nhị phân độ dài $$N$$ đã liệt, đối thủ chéo là chuỗi mới độ dài $$N$$, nhưng đã có $$2^N$$ chuỗi khả dĩ nên bạn chưa bao giờ nhận đã liệt hết. Case vô hạn đặc biệt vì danh sách đầy đủ *giả định* chính là hàm $$\mathbb{N}\to\{0,1\}^{\mathbb{N}}$$, đúng đối tượng đường chéo giết.
+Về mặt sư phạm, trước hết nên thấy vì sao đường chéo trong trường hợp *hữu hạn* không chứng minh được gì: nếu bạn mới liệt kê $$N$$ chuỗi nhị phân độ dài $$N$$, thì đường chéo cho một chuỗi mới cũng có độ dài $$N$$, nhưng vì có tất cả $$2^N$$ chuỗi nên bạn chưa bao giờ khẳng định mình đã liệt kê hết. Trường hợp vô hạn khác ở chỗ: danh sách đầy đủ *được giả định* chính là một hàm $$\mathbb{N}\to\{0,1\}^{\mathbb{N}}$$, và đó đúng là đối tượng mà phép đường chéo bác bỏ.
 
-Vậy vô hạn có **thang**. Viết $$\lvert\mathbb{N}\rvert=\aleph_0$$ và $$\lvert\mathbb{R}\rvert=2^{\aleph_0}=\mathfrak{c}$$ (continuum). Định lý Cantor: mọi tập $$X$$ thỏa $$\lvert X\rvert<\lvert\mathcal{P}(X)\rvert$$, sinh hệ cấp vô tận. Hệ cấp đó tự là “vô hạn thực của các vô hạn”, vì sao lý thuyết tập trở thành môn toán chứ không chỉ hình ảnh tu từ.
+Vậy vô hạn có **nhiều bậc**. Ta viết $$\lvert\mathbb{N}\rvert=\aleph_0$$ và $$\lvert\mathbb{R}\rvert=2^{\aleph_0}=\mathfrak{c}$$ (lực lượng continuum). Định lý Cantor: với mọi tập $$X$$ ta có $$\lvert X\rvert<\lvert\mathcal{P}(X)\rvert$$, từ đó sinh ra một dãy bậc vô hạn không dừng. Chính dãy bậc này đã biến lý thuyết tập hợp thành một ngành toán học thực thụ, chứ không chỉ là cách nói hình ảnh.
 
-### 1.4 Giả thuyết continuum (nhận thức trạng thái)
+### 1.4 Giả thuyết continuum (về trạng thái của một mệnh đề)
 
-**CH:** không cardinal nghiêm ngặt giữa $$\aleph_0$$ và $$2^{\aleph_0}$$. Độc lập ZFC chuẩn (Gödel, Cohen). Với studio, CH là **icon trạng thái**: một số câu hỏi vô hạn chính xác là độc lập, không chỉ “chưa giải”.
+**Giả thuyết continuum (CH):** không có bản số nào nằm thực sự giữa $$\aleph_0$$ và $$2^{\aleph_0}$$. Mệnh đề này độc lập với hệ tiên đề ZFC (Gödel, Cohen). Trong bài này, CH là ví dụ tiêu biểu về **trạng thái**: một số câu hỏi về vô hạn được chứng minh là độc lập, chứ không chỉ là "chưa giải được".
 
-### 1.5 Ordinal vs cardinal
+### 1.5 Số thứ tự và bản số
 
-Cardinal đo cỡ. **Ordinal** đo kiểu thứ tự: $$\omega$$ là order type của $$\mathbb{N}$$; $$\omega+1$$ là bản sao $$\mathbb{N}$$ theo sau một điểm cuối—**không** cùng tập có thứ tự với $$\omega$$, dù cả hai đếm được vô hạn như tập trần. “Vô hạn cộng một” có nghĩa với ordinal và tầm thường với cardinal $$\aleph_0$$.
+Bản số đo kích thước. **Số thứ tự** đo kiểu thứ tự: $$\omega$$ là kiểu thứ tự của $$\mathbb{N}$$; $$\omega+1$$ là một bản sao của $$\mathbb{N}$$ với thêm một phần tử đứng sau tất cả. Tập có thứ tự này **không** đẳng cấu với $$\omega$$, dù cả hai đều vô hạn đếm được nếu chỉ xét như tập hợp. "Vô hạn cộng một" có nghĩa thực sự với số thứ tự, nhưng với bản số $$\aleph_0$$ thì không thay đổi gì.
 
 ### 1.6 Vô hạn trong giải tích và hình học
 
-- Chuỗi $$\sum 1/n^2$$ hội tụ: tổng vô hạn hạng dương có thể hữu hạn.  
-- Chuỗi điều hòa phân kỳ: tổng vô hạn có thể vô hạn.  
-- Tích phân suy rộng và measure gán $$\infty$$ như giá trị mở rộng.  
-- Hình học xạ ảnh thêm đường ở vô cực.  
-- Fractal có thể dài vô hạn trong diện tích hữu hạn (slogan Koch).
+- Chuỗi $$\sum 1/n^2$$ hội tụ: tổng của vô hạn số dương có thể hữu hạn.  
+- Chuỗi điều hòa phân kỳ: tổng vô hạn có thể bằng vô cùng.  
+- Tích phân suy rộng và lý thuyết độ đo cho phép giá trị $$\infty$$ như một giá trị mở rộng.  
+- Hình học xạ ảnh thêm vào một đường thẳng ở vô cực.  
+- Một fractal có thể có chu vi vô hạn nhưng bao một diện tích hữu hạn (ví dụ bông tuyết Koch).
 
-Mỗi cái là thiết bị hình thức khác. Log nên đặt tên thiết bị.
+Mỗi trường hợp là một công cụ hình thức khác nhau. Trong nhật ký, hãy gọi đúng tên công cụ.
 
-### 1.7 Vô hạn trong các studio khác của khóa
+### 1.7 Vô hạn trong các bài thực hành khác của khóa học
 
-- **Collatz:** quỹ đạo tiến vô hạn; conjecture về mọi $$n\in\mathbb{N}$$.  
-- **Nguyên tố:** vô hạn nguyên tố (Euclid); vô hạn mở (twin).  
-- **Kakeya:** vô hạn hướng; giới hạn construction khi $$\delta\to 0$$.
+- **Collatz:** quỹ đạo kéo dài vô hạn; giả thuyết nói về mọi $$n\in\mathbb{N}$$.  
+- **Số nguyên tố:** có vô hạn số nguyên tố (Euclid, đã chứng minh); có vô hạn cặp số nguyên tố sinh đôi hay không thì còn mở.  
+- **Kakeya:** vô hạn hướng; giới hạn của các cách dựng khi $$\delta\to 0$$.
 
-Vô hạn là sân khấu im lặng của gần như mọi khám phá.
+Vô hạn có mặt, dù không được nói ra, trong gần như mọi bài khám phá.
 
 ---
 
-## 2. Conjecture / chứng minh / thí nghiệm
+## 2. Giả thuyết, chứng minh và thí nghiệm
 
 | Nhãn | Ví dụ |
 |------|-------|
-| **Định lý** | Vô hạn nguyên tố; $$\mathbb{R}$$ không đếm được; song ánh hotel |
-| **Độc lập** | CH (tương đối ZFC) |
-| **Nghịch lý (đã hòa)** | Galileo chẵn; hotel đầy vẫn còn phòng |
-| **Ẩn dụ** | “Vô hạn là hành trình” — thơ mode tiềm năng, không chứng minh |
+| **Định lý** | Có vô hạn số nguyên tố; $$\mathbb{R}$$ không đếm được; các song ánh trong khách sạn Hilbert |
+| **Độc lập** | CH (đối với ZFC) |
+| **Nghịch lý (đã giải thích)** | Galileo và số chẵn; khách sạn kín phòng vẫn còn chỗ |
+| **Phép so sánh** | "Vô hạn là một hành trình": cách nói hình ảnh theo nghĩa tiềm năng, không phải chứng minh |
 
 **Tiêu chí:**
 
-1. Viết lại hotel ≥2 kịch bản + map phòng.  
-2. Song ánh $$\mathbb{N}\leftrightarrow\mathbb{Z}$$ tường minh (công thức hoặc quy tắc liệt kê rõ).  
-3. Đường chéo đầy đủ câu + toy số (đường chéo hữu hạn thất bại; vì sao vô hạn thành công).  
-4. Một ví dụ calculus tiềm năng ($$\varepsilon$$-$$N$$) + một ví dụ tập hoàn tất.  
-5. Một nghịch lý + slogan giải.
+1. Viết lại câu chuyện khách sạn Hilbert với ít nhất 2 tình huống, kèm quy tắc chuyển phòng.  
+2. Song ánh $$\mathbb{N}\leftrightarrow\mathbb{Z}$$ tường minh (công thức hoặc quy tắc liệt kê rõ ràng).  
+3. Chứng minh đường chéo viết đầy đủ câu, kèm ví dụ số nhỏ (vì sao đường chéo hữu hạn không chứng minh được gì; vì sao trường hợp vô hạn thì được).  
+4. Một ví dụ vô hạn tiềm năng trong giải tích ($$\varepsilon$$-$$N$$) và một ví dụ về tập hoàn chỉnh.  
+5. Một nghịch lý và cách giải thích ngắn gọn.
 
 ---
 
-## 3. Chuẩn log
+## 3. Cách ghi nhật ký
 
-**Ngày · Ý định · Hành động · Kết quả · Nhãn · Diễn giải · Tiếp.**
+**Ngày · Dự định · Việc đã làm · Kết quả · Nhãn · Giải thích · Bước tiếp theo.**
 
-“Thí nghiệm” thường là nỗ lực chứng minh / liệt kê thất bại (ví dụ thử liệt kê số thực)—ghi lại; chúng là vàng sư phạm.
+Ở bài này, "thí nghiệm" thường là những lần thử chứng minh hay thử liệt kê không thành công (ví dụ cố liệt kê các số thực). Hãy ghi lại, vì chúng rất có giá trị cho việc học.
 
 ---
 
 ## 4. Thí nghiệm
 
-Làm ≥2 trong A–E.
+Làm ít nhất 2 trong các thí nghiệm A–E.
 
-### A — Kịch bản hotel (20–40′)
+### A. Kịch bản khách sạn (20–40 phút)
 
-Viết hội thoại hoặc kịch ngắn: hotel đầy, một khách, rồi bus $$\mathbb{N}$$ khách, rồi đếm được bus. Mỗi cảnh cần quy tắc chuyển phòng tường minh.
+Viết một đoạn hội thoại hoặc một vở kịch ngắn: khách sạn kín phòng, có một khách đến, rồi một xe buýt chở $$\mathbb{N}$$ khách, rồi đếm được xe buýt như vậy. Mỗi cảnh cần một quy tắc chuyển phòng tường minh.
 
-**Tiêu chí:** ba cảnh + công thức map phòng.
+**Tiêu chí:** ba cảnh, kèm công thức chuyển phòng.
 
-### B — Xưởng song ánh (30–50′)
+### B. Xưởng song ánh (30–50 phút)
 
 1. Công thức song ánh $$\mathbb{N}\to\mathbb{Z}$$.  
-2. Sơ đồ $$\mathbb{N}\times\mathbb{N}\to\mathbb{N}$$.  
-3. Tùy chọn: $$(0,1)\sim\mathbb{R}$$ qua tan hoặc tương đương.
+2. Sơ đồ song ánh $$\mathbb{N}\times\mathbb{N}\to\mathbb{N}$$.  
+3. Không bắt buộc: $$(0,1)\sim\mathbb{R}$$ qua hàm tan hoặc một hàm tương tự.
 
-**Tiêu chí:** đồng nghiệp kiểm quy tắc được mà không hỏi bạn.
+**Tiêu chí:** bạn cùng lớp kiểm tra được quy tắc mà không cần hỏi bạn.
 
-### C — Đường chéo trên giấy (25–40′)
+### C. Đường chéo trên giấy (25–40 phút)
 
-Liệt năm dãy nhị phân giả như bắt đầu liệt kê; dựng đối thủ chéo. Rồi viết vì sao không có *danh sách đầy đủ* mọi dãy. Xử quibble biểu diễn kép thập phân (0.1999…=0.2000…) hoặc tránh bằng $$\{0,1\}^{\mathbb{N}}$$.
+Viết năm dãy nhị phân, giả sử đó là phần đầu của một danh sách liệt kê; dựng dãy đường chéo khác tất cả. Sau đó giải thích vì sao không thể có *danh sách đầy đủ* mọi dãy. Xử lý vấn đề số có hai biểu diễn thập phân (0.1999…=0.2000…), hoặc tránh nó bằng cách dùng $$\{0,1\}^{\mathbb{N}}$$.
 
-**Tiêu chí:** writeup đầy đủ + quibble đã xử hoặc sidestep.
+**Tiêu chí:** bài viết đầy đủ, đã xử lý hoặc tránh được vấn đề hai biểu diễn.
 
-### D — Săn vô hạn calculus (20–35′)
+### D. Tìm vô hạn trong giải tích (20–35 phút)
 
-Chọn hai định lý SG (ví dụ IVT; định nghĩa hội tụ chuỗi). Đánh dấu mỗi lời kêu vô hạn là tiềm năng hay thực. Viết lại một câu chứng minh cho rõ mode.
+Chọn hai định lý trong sách giáo khoa (ví dụ định lý giá trị trung gian; định nghĩa chuỗi hội tụ). Đánh dấu mỗi chỗ nhắc đến vô hạn là tiềm năng hay thực. Viết lại một câu trong chứng minh sao cho rõ đang dùng cách nhìn nào.
 
-**Tiêu chí:** hai định lý chú thích + một rewrite.
+**Tiêu chí:** hai định lý có chú thích, một câu viết lại.
 
-### E — Liên kết khóa học (20–30′)
+### E. Liên hệ với khóa học (20–30 phút)
 
-Chọn Collatz, nguyên tố, hoặc Kakeya. Nửa trang: lượng từ vô hạn nào xuất hiện (“mọi $$n$$”, “tồn tại vô hạn”, “giới hạn $$\delta\to 0$$”)? Định lý vs conjecture?
+Chọn Collatz, số nguyên tố, hoặc Kakeya. Viết nửa trang: những lượng từ vô hạn nào xuất hiện ("với mọi $$n$$", "tồn tại vô hạn", "giới hạn khi $$\delta\to 0$$")? Mệnh đề nào là định lý, mệnh đề nào là giả thuyết?
 
-**Tiêu chí:** inventory lượng từ có nhãn.
+**Tiêu chí:** danh sách các lượng từ, có gắn nhãn.
 
 ---
 
-## 5. Nhầm lẫn thường gặp
+## 5. Những hiểu lầm thường gặp
 
-1. Vô hạn không phải số ⇒ toán không nói được — vô hạn không phải số thực; nó là nhiều đối tượng chặt.  
-2. $$\infty+1>\infty$$ luôn — cardinal $$\aleph_0+1=\aleph_0$$; ordinal $$\omega+1>\omega$$.  
-3. Không đếm được = không mô tả được từng phần tử — từng số thực có thể định nghĩa được; *tập* không liệt kê thành dãy.  
-4. Đường chéo hỏng vì 0.999… — xử biểu diễn hoặc dùng dãy nhị phân.  
-5. CH “mở như RH” — RH là phát biểu số học xác định (mở); CH độc lập ZFC.
+1. "Vô hạn không phải là số nên toán học không nói gì được về nó." Sai: vô hạn không phải số thực, nhưng có nhiều đối tượng toán học chặt chẽ mô tả nó.  
+2. "$$\infty+1>\infty$$ luôn đúng." Không hẳn: với bản số, $$\aleph_0+1=\aleph_0$$; với số thứ tự, $$\omega+1>\omega$$.  
+3. "Không đếm được nghĩa là không mô tả được từng phần tử." Sai: nhiều số thực cụ thể định nghĩa được; chỉ là *cả tập* không thể liệt kê thành một dãy.  
+4. "Đường chéo hỏng vì 0.999…" Sai: chỉ cần xử lý cách biểu diễn hoặc dùng dãy nhị phân.  
+5. "CH còn mở giống như giả thuyết Riemann." Sai: giả thuyết Riemann là một mệnh đề số học xác định và còn mở; CH thì độc lập với ZFC.
 
 ---
 
 ## 6. Bài tập
 
-1. Hợp đếm được của tập đếm được là đếm được (phác; nêu countable choice nếu nhắc).  
-2. Chuỗi nhị phân hữu hạn đếm được; vô hạn thì không.  
-3. Euclid: vô hạn nguyên tố — mode vô hạn nào?  
-4. “Xác suất số chẵn = 1/2” cần quá trình giới hạn, không measure đều trên $$\mathbb{N}$$.  
-5. Đề xuất ≤150 từ: ngôn ngữ vô hạn nào bạn sẽ master và cách thể hiện.
+1. Hợp của đếm được tập đếm được là đếm được (phác thảo chứng minh; nếu cần, nhắc đến tiên đề chọn đếm được).  
+2. Tập các chuỗi nhị phân hữu hạn là đếm được; tập các dãy nhị phân vô hạn thì không.  
+3. Chứng minh của Euclid rằng có vô hạn số nguyên tố dùng loại vô hạn nào?  
+4. Giải thích vì sao câu "xác suất một số là số chẵn bằng 1/2" cần một quá trình lấy giới hạn, vì không có độ đo xác suất đều trên $$\mathbb{N}$$.  
+5. Viết đề xuất (không quá 150 chữ): bạn muốn thành thạo cách nói nào về vô hạn và sẽ thể hiện điều đó ra sao.
 
 ---
 
-## 7. Rubric
+## 7. Bảng tự đánh giá
 
-| ☐ | Hotel + map |
+| ☐ | Khách sạn Hilbert và quy tắc chuyển phòng |
 | ☐ | Song ánh $$\mathbb{N}\leftrightarrow\mathbb{Z}$$ |
-| ☐ | Đường chéo đầy đủ |
-| ☐ | Tiềm năng vs thực |
-| ☐ | Nghịch lý + giải |
-| ☐ | Nối studio/chương khác |
-| ☐ | Log ≥3 |
+| ☐ | Chứng minh đường chéo đầy đủ |
+| ☐ | Vô hạn tiềm năng và vô hạn thực |
+| ☐ | Một nghịch lý và cách giải thích |
+| ☐ | Liên hệ với bài thực hành hoặc chương khác |
+| ☐ | Nhật ký ít nhất 3 mục |
 
 ---
 
 
-## Nguồn video (gói math-video-researcher)
+## Nguồn video (gói nghiên cứu video)
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh. Chi tiết: `research/video-research/explore-describe-infinity/`.
+Video dùng để **định hướng và hiểu thêm về văn hóa nghiên cứu**, không thay cho chứng minh. Chi tiết: `research/video-research/explore-describe-infinity/`.
 
-**Khẩu hiệu từ gói nghiên cứu**
+**Ý chính rút ra từ gói nghiên cứu**
 
-- Vô hạn tiềm năng vs thực; hotel Hilbert; chéo Cantor; CH độc lập ZFC.
-- Studio: song ánh tường minh; tách nghịch lý văn chương khỏi định lý.
+- Vô hạn tiềm năng và vô hạn thực; khách sạn Hilbert; đường chéo Cantor; CH độc lập với ZFC.
+- Bài thực hành: viết song ánh tường minh; tách nghịch lý kiểu văn chương khỏi định lý.
 
 **Thứ tự xem gợi ý**
 
-1. **ORIENTATION** — Numberphile — Infinity Paradoxes (Hilbert hotel): [https://www.youtube.com/watch?v=dDl7g_2x74Q](https://www.youtube.com/watch?v=dDl7g_2x74Q).  
-2. **FOUNDATION** — Wi-Phi / Rayo — Sizes of Infinity Part 1 (Hilbert): [https://www.youtube.com/watch?v=p1KkXA0vKsQ](https://www.youtube.com/watch?v=p1KkXA0vKsQ).  
-3. **INTUITION** — Numberphile — Infinite hotel keys problem: [https://www.youtube.com/watch?v=uezOrcmHzrQ](https://www.youtube.com/watch?v=uezOrcmHzrQ).  
+1. **Định hướng:** Numberphile, Infinity Paradoxes (các nghịch lý vô hạn, khách sạn Hilbert): [https://www.youtube.com/watch?v=dDl7g_2x74Q](https://www.youtube.com/watch?v=dDl7g_2x74Q).  
+2. **Nền tảng:** Wi-Phi / Rayo, Sizes of Infinity Part 1 (các cỡ vô hạn, phần 1): [https://www.youtube.com/watch?v=p1KkXA0vKsQ](https://www.youtube.com/watch?v=p1KkXA0vKsQ).  
+3. **Trực giác:** Numberphile, Infinite hotel keys problem (bài toán chìa khóa khách sạn vô hạn): [https://www.youtube.com/watch?v=uezOrcmHzrQ](https://www.youtube.com/watch?v=uezOrcmHzrQ).  
 
-**Cổng chính thức / tài liệu**
+**Trang chính thức / tài liệu**
 
 
 Danh mục URL đầy đủ: `research/video-research/explore-describe-infinity/references.md`.
@@ -220,7 +220,7 @@ Danh mục URL đầy đủ: `research/video-research/explore-describe-infinity/
 ## 8. Tài liệu
 
 
-### Gói nghiên cứu video (mọi URL)
+### Gói nghiên cứu video (tất cả URL)
 
 Danh mục đầy đủ: `research/video-research/explore-describe-infinity/references.md`.
 
@@ -235,32 +235,32 @@ Danh mục đầy đủ: `research/video-research/explore-describe-infinity/refe
 9. Stanford Encyclopedia — Continuum Hypothesis (survey) — https://plato.stanford.edu/entries/continuum-hypothesis/  
 10. Thư mục gói: `research/video-research/explore-describe-infinity/`.
 
-1. Giải tích chặt (giới hạn); primer lực lượng.  
-2. Expositor Hilbert hotel (phổ thông và sách).  
-3. Studio nguyên tố, Collatz, Kakeya cho lượng từ trên miền vô hạn.  
-4. Tùy chọn: độc lập CH (mức survey lịch sử).
+1. Giáo trình giải tích chặt chẽ (phần giới hạn); tài liệu nhập môn về lực lượng.  
+2. Các bài viết về khách sạn Hilbert (phổ thông và sách).  
+3. Các bài thực hành về số nguyên tố, Collatz, Kakeya, để thấy lượng từ trên miền vô hạn.  
+4. Không bắt buộc: tính độc lập của CH (ở mức tổng quan lịch sử).
 
 ---
 
 ## Hướng đi tiếp
 
-Nếu đường chéo dễ, thử chứng minh $$\lvert\mathbb{R}\rvert=\lvert\mathbb{R}\times\mathbb{R}\rvert$$. Nếu triết hấp dẫn, so sánh cẩn potentialism vs lý thuyết tập cổ điển—không bỏ rõ ràng hình thức. Nếu tính toán hấp dẫn, thảo luận đối tượng vô hạn biểu diễn hữu hạn thế nào trong lập trình (generator, oracle, stream).
+Nếu thấy phương pháp đường chéo dễ, hãy thử chứng minh $$\lvert\mathbb{R}\rvert=\lvert\mathbb{R}\times\mathbb{R}\rvert$$. Nếu thích triết học, hãy so sánh cẩn thận quan điểm chỉ chấp nhận vô hạn tiềm năng với lý thuyết tập hợp cổ điển, nhưng vẫn giữ sự rõ ràng về mặt hình thức. Nếu thích tin học, hãy tìm hiểu cách biểu diễn đối tượng vô hạn bằng dữ liệu hữu hạn trong lập trình (generator, oracle, stream).
 
-Nối [chiều 4]({{ site.baseurl }}/contents/vi/chapter07/07_06_Explore_Fourth_Dimension/) khi phân biệt “vô hạn chiều” (không gian hàm, dãy) với “chiều 4 hữu hạn”. Nối [nguyên tố]({{ site.baseurl }}/contents/vi/chapter07/07_04_Explore_Prime_Predictability/) khi “vô hạn twin” là conjecture chứ không Euclid.
+Liên hệ với bài [chiều thứ tư]({{ site.baseurl }}/contents/vi/chapter07/07_06_Explore_Fourth_Dimension/) khi phân biệt "vô hạn chiều" (không gian hàm, không gian dãy) với "bốn chiều" (vẫn hữu hạn). Liên hệ với bài [số nguyên tố]({{ site.baseurl }}/contents/vi/chapter07/07_04_Explore_Prime_Predictability/): "có vô hạn cặp số nguyên tố sinh đôi" là giả thuyết, khác với định lý của Euclid.
 
-**Gợi ý tổng hợp một trang.** (i) tiềm năng vs thực bằng ví dụ của bạn; (ii) hotel + song ánh đã viết; (iii) đường chéo và quibble; (iv) một nghịch lý + giải; (v) một studio khác dùng vô hạn thế nào.
+**Gợi ý bài tổng hợp một trang.** (i) vô hạn tiềm năng và vô hạn thực qua ví dụ của bạn; (ii) khách sạn Hilbert và các song ánh đã viết; (iii) phép đường chéo và vấn đề hai biểu diễn; (iv) một nghịch lý và cách giải thích; (v) một bài thực hành khác dùng vô hạn như thế nào.
 
-### Transcript & frames (batch extract)
+### Bản ghi lời và khung hình (trích tự động)
 
-Transcript caption và unit theo thời gian: `research/video-research/explore-describe-infinity/transcripts/` · trạng thái: `research/video-research/explore-describe-infinity/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
+Bản ghi lời thoại và các đoạn theo thời gian: `research/video-research/explore-describe-infinity/transcripts/` · trạng thái: `research/video-research/explore-describe-infinity/TRANSCRIPT_STATUS.md` · tổng hợp: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
 
-![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/explore-describe-infinity_dDl7g_2x74Q_thumb.jpg)
+![Khung hình mẫu từ video]({{ site.baseurl }}/img/video_research/nonflagships/explore-describe-infinity_dDl7g_2x74Q_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính của gói (xem gói nghiên cứu để biết mốc thời gian).*
 
 
 ## Video tham khảo
 
-- **xem trước** — [Infinity Paradoxes - Numberphile](https://www.youtube.com/watch?v=dDl7g_2x74Q) — Numberphile, tiếng Anh. Xem trước. “Infinity Paradoxes - Numberphile” định hướng cho mục tiêu của bài: Phân biệt vô hạn tiềm năng (quá trình không dứt) và vô hạn thực (tập hoàn tất như \mathbb{N}).
-- [PHILOSOPHY - Mathematics: Sizes of Infinity, Part 1 (Hilbert's Hotel) (HD)](https://www.youtube.com/watch?v=p1KkXA0vKsQ) — Wireless Philosophy, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phân biệt vô hạn tiềm năng (quá trình không dứt) và vô hạn thực (tập hoàn tất như \mathbb{N}).
-- [A Problem with Infinite Hotel Keys - Numberphile](https://www.youtube.com/watch?v=uezOrcmHzrQ) — Numberphile, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phân biệt vô hạn tiềm năng (quá trình không dứt) và vô hạn thực (tập hoàn tất như \mathbb{N}).
+- **Xem trước:** [Infinity Paradoxes - Numberphile](https://www.youtube.com/watch?v=dDl7g_2x74Q) (Numberphile, tiếng Anh). Giới thiệu các nghịch lý về vô hạn, trong đó có khách sạn Hilbert. Nên xem trước khi làm thí nghiệm A.
+- [PHILOSOPHY - Mathematics: Sizes of Infinity, Part 1 (Hilbert's Hotel) (HD)](https://www.youtube.com/watch?v=p1KkXA0vKsQ) (Wireless Philosophy, tiếng Anh). Giải thích khách sạn Hilbert và ý tưởng các cỡ vô hạn từ góc nhìn triết học. Xem sau khi đã nắm ý chính.
+- [A Problem with Infinite Hotel Keys - Numberphile](https://www.youtube.com/watch?v=uezOrcmHzrQ) (Numberphile, tiếng Anh). Một biến thể của khách sạn Hilbert với bài toán chìa khóa phòng. Xem thêm để luyện tư duy về song ánh.

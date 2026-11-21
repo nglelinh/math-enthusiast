@@ -9,216 +9,204 @@ categories:
 - chapter06
 ---
 
-Mật mã là toán của **giao tiếp đối kháng**: tính toán và tương tác sao cho bí mật được giữ, tính xác thực đứng vững, giao thức còn đúng khi có bên gian. Hệ công khai cổ điển bảo vệ phần lớn internet dựa trên giả thiết khó số học—phân tích thừa số, log rời rạc—**tin** là khó với máy cổ điển và **biết** là bị phá thời gian đa thức bởi máy lượng tử fault-tolerant lớn qua thuật toán Shor. Vì thế “mật mã tương lai” không phải mốt; là di trú kỹ thuật được dẫn bởi định lý, reduction và cryptanalysis.
+Mật mã là toán học của **giao tiếp trong môi trường có đối thủ**: tính toán và tương tác sao cho bí mật được giữ, tính xác thực đứng vững, và giao thức vẫn đúng khi có bên gian lận. Hệ mật khóa công khai cổ điển bảo vệ phần lớn internet nhờ các giả thiết khó về số học, như phân tích thừa số và logarit rời rạc. Ta **tin** là chúng khó với máy tính cổ điển, và **biết** là chúng bị phá trong thời gian đa thức bởi một máy lượng tử chịu lỗi đủ lớn, qua thuật toán Shor. Vì vậy “mật mã cho tương lai” không phải một mốt nhất thời; đó là một cuộc chuyển đổi kỹ thuật được dẫn dắt bởi định lý, phép quy dẫn (reduction) và phân tích mật mã.
 
-Bài tách primitive **đối xứng**, giả thiết **công khai**, ứng viên **hậu lượng tử**, **QKD**, và giao thức nâng cao (ZK, FHE, MPC)—với chú ý dai dẳng: chứng minh gì *tương đối với* giả thiết nào.
+Bài này tách riêng các nhóm: nguyên thủy **đối xứng**, giả thiết **khóa công khai**, các ứng viên **hậu lượng tử**, **QKD**, và các giao thức nâng cao (ZK, FHE, MPC), với một lưu ý xuyên suốt: ta chứng minh được điều gì, *dựa trên* giả thiết nào.
 
 ---
 
 ## Mục tiêu học tập
 
-Sau bài học, bạn có thể:
+Sau bài này, bạn có thể:
 
-- Phân biệt mã đối xứng (khóa chung) và công khai / chữ ký ở mức vai trò giao thức.
-- Giải thích vì sao RSA/ECC bị đe dọa bởi Shor, trong khi đối xứng tốt chủ yếu đụng Grover (điều chỉnh độ dài khóa)—không thổi cả hai phía.
-- Nêu họ **PQC** chính (lattice, code, hash, multivariate, isogeny thận trọng) và reduction an ninh nhắm gì.
-- Đối chiếu **QKD** và **PQC**.
-- Nêu mức không formal ZK, FHE, MPC cho phép gì và vì sao hiệu năng/giả thiết quan trọng.
-- Phê nhãn “quantum-safe” thiếu tham số, chứng minh, side-channel (**LO6**).
+- Phân biệt mã đối xứng (khóa chung) với mã khóa công khai và chữ ký, ở mức vai trò trong giao thức.
+- Giải thích vì sao RSA và ECC bị Shor đe dọa, trong khi mã đối xứng tốt chủ yếu chỉ chịu ảnh hưởng của Grover (chỉnh độ dài khóa), nên không thể thổi phồng cả hai phía như nhau.
+- Kể tên các họ **PQC** chính (lattice, mã sửa lỗi, hàm băm, đa biến, isogeny, và vẫn phải thận trọng) và các phép quy dẫn an ninh nhắm tới điều gì.
+- So sánh **QKD** và **PQC**.
+- Nêu, ở mức không hình thức, ZK, FHE, MPC cho phép làm gì, và vì sao hiệu năng cùng các giả thiết đi kèm quan trọng.
+- Nhận xét nhãn “quantum-safe” khi thiếu tham số, chứng minh hoặc phân tích kênh phụ.
 
-**Kiến thức nền.** Số học modulo; xác suất cơ bản; slogan độ phức tạp. Xem bài độ phức tạp cho độ sâu lớp.
+**Kiến thức nền.** Số học modulo; xác suất cơ bản; vài khẩu hiệu về độ phức tạp. Xem bài về độ phức tạp để hiểu sâu hơn về các lớp.
 
 ---
 
 ## 1. Mục tiêu và mô hình đe dọa
 
-Mật mã chỉ rõ **thuật toán** + **mô hình đe dọa**: đối thủ thấy gì (chỉ ciphertext? plaintext chọn?), làm được gì (truy vấn online? máy lượng tử?), thế nào là phá (khôi phục khóa vs phân biệt ciphertext vs giả một chữ ký).
+Một hệ mật gồm **thuật toán** cùng **mô hình đe dọa**: đối thủ thấy được gì (chỉ bản mã? hay cả bản rõ do họ chọn?), làm được gì (truy vấn trực tuyến? có máy lượng tử?), và thế nào thì gọi là bị phá (khôi phục khóa, phân biệt được bản mã, hay giả mạo một chữ ký).
 
-An ninh chứng minh thường là reduction: *nếu* phá scheme *thì* phá bài toán khó đặt tên (ví dụ LWE) với tài nguyên tương đương. Reduction có thể chặt hoặc lỏng; mô hình có thể lý tưởng (random oracle). An ninh **heuristic** (sống sót cryptanalysis) vẫn thiết yếu vì giả thiết có thể sai và mô hình có thể bỏ side-channel.
+An ninh được chứng minh thường có dạng quy dẫn: *nếu* phá được hệ mật *thì* phá được một bài toán khó đã được đặt tên (ví dụ LWE) với tài nguyên tương đương. Phép quy dẫn có thể chặt hoặc lỏng; mô hình có thể lý tưởng hóa (random oracle). An ninh **dựa trên kinh nghiệm** (đã chịu được phân tích mật mã) vẫn thiết yếu, vì giả thiết có thể sai và mô hình có thể bỏ sót kênh phụ.
 
 ---
 
 ## 2. Mật mã đối xứng: vẫn là xương sống
 
-Block cipher, stream cipher, hash, MAC bảo vệ dữ liệu số lượng lớn khi đã có khóa. AES và hash họ SHA **không** được biết sụp kiểu Shor như factoring. Grover cho tăng tốc bậc hai tìm kiếm brute-force—khuyến nghị khóa dài hơn trong một số mô hình đe dọa (ví dụ AES-256 vs AES-128).
+Mã khối, mã dòng, hàm băm và MAC bảo vệ lượng dữ liệu lớn sau khi hai bên đã có khóa. Người ta không biết AES hay họ hàm băm SHA bị sụp đổ kiểu Shor như bài toán phân tích thừa số. Grover tăng tốc bậc hai cho việc tìm kiếm vét cạn, nên trong một số mô hình đe dọa người ta khuyến nghị khóa dài hơn (ví dụ AES-256 thay cho AES-128).
 
-Đối xứng không tự giải phân phối khóa—vì thế mới có công khai và QKD. Tấn công triển khai (timing, năng lượng, fault) phá hệ mà không phá primitive toán.
+Mã đối xứng không tự giải quyết việc phân phối khóa, nên mới có mật mã công khai và QKD. Các tấn công vào khâu triển khai (đo thời gian, đo năng lượng, gây lỗi) phá được hệ thống mà không phá nguyên thủy toán học.
 
 ---
 
-## 3. Công khai và cú phá lượng tử
+## 3. Mật mã công khai và cú đánh từ máy lượng tử
 
-RSA dựa giả thiết liên quan factoring; Diffie–Hellman/ECC dựa log rời rạc nhóm chọn cẩn. Shor giải chúng poly-time trên QC fault-tolerant. Bí mật dài hạn + “thu hoạch nay, giải mã sau” thúc **di trú sớm** PQC—trước khi máy lớn xuất hiện.
+RSA dựa trên giả thiết liên quan đến phân tích thừa số; Diffie–Hellman và ECC dựa trên logarit rời rạc trong các nhóm được chọn cẩn thận. Shor giải chúng trong thời gian đa thức trên máy lượng tử chịu lỗi. Bí mật cần giữ lâu dài, cộng với kiểu tấn công “thu thập bây giờ, giải mã sau”, thúc đẩy việc **chuyển sang PQC sớm**, trước khi máy lượng tử lớn xuất hiện.
 
-Định lý là về độ phức tạp tiệm cận lượng tử; quản trị rủi ro là timeline kỹ thuật và tuổi thọ bí mật: toán thuật toán gặp lộ trình kỹ thuật.
+Định lý nói về độ phức tạp tiệm cận trong mô hình lượng tử; còn quản trị rủi ro dựa vào lộ trình kỹ thuật và thời gian bí mật cần được giữ. Ở đây toán học của thuật toán gặp lộ trình công nghệ.
 
 ---
 
 ## 4. Mật mã hậu lượng tử (PQC)
 
-| Họ | Trực giác khó (không formal) | Ghi chú |
-|----|------------------------------|---------|
-| Lattice (Kyber/ML-KEM, Dilithium/ML-DSA…) | Vector ngắn / LWE / Module-LWE | NIST; nền tảng nghiên cứu mạnh |
-| Code | Giải mã mã tuyến tính ngẫu nhiên | McEliece; khóa lớn |
-| Hash-based signature | An ninh hash | Bảo thủ; stateful vs stateless |
-| Multivariate | Hệ đa thức bậc hai | Lịch sử lẫn; cryptanalysis cẩn |
-| Isogeny | Ánh xạ giữa đường cong elliptic | Một số scheme đã gãy (SIDH); lĩnh vực tiếp |
+| Họ | Trực giác về độ khó (không hình thức) | Ghi chú |
+|----|---------------------------------------|---------|
+| Lattice (Kyber/ML-KEM, Dilithium/ML-DSA…) | Vector ngắn / LWE / Module-LWE | NIST chọn; nền tảng nghiên cứu mạnh |
+| Mã sửa lỗi | Giải mã một mã tuyến tính ngẫu nhiên | McEliece; khóa lớn |
+| Chữ ký dựa trên hàm băm | An ninh của hàm băm | Bảo thủ; loại có trạng thái và không trạng thái |
+| Đa biến | Hệ đa thức bậc hai | Lịch sử nhiều biến động (một số đề xuất đã bị phá); cần phân tích kỹ |
+| Isogeny | Ánh xạ giữa các đường cong elliptic | Một số hệ đã bị phá (SIDH); lĩnh vực vẫn tiếp tục |
 
-Chuẩn hóa NIST (và tương đương quốc gia) là quy trình cryptanalysis + kỹ thuật nhiều năm—không phải cuộc thi toán thuần. Tham số cân ước lượng an ninh, kích thước khóa, hiệu năng. “Lattice” không tự động an toàn: tham số sai, triển khai yếu, thuật toán mới vẫn có thể phá.
+Việc NIST chuẩn hóa (và các quy trình tương đương ở từng quốc gia) là một quá trình kéo dài nhiều năm, gồm phân tích mật mã và đánh giá kỹ thuật, không phải một cuộc thi toán thuần túy. Việc chọn tham số phải cân bằng giữa ước lượng độ an toàn, kích thước khóa và hiệu năng. “Lattice” không tự động an toàn: tham số sai, triển khai yếu hay một thuật toán mới vẫn có thể phá được.
 
-Nền tảng toán: hình học số, đại số số (module lattice), lý thuyết mã, reduction average-case ↔ worst-case cho LWE (Regev và hậu duệ)—viên ngọc của mật mã lý thuyết hiện đại.
+Nền tảng toán học gồm hình học số, đại số số (lattice module), lý thuyết mã, và phép quy dẫn từ trường hợp trung bình về trường hợp xấu nhất cho LWE (Regev và các công trình tiếp theo), một trong những kết quả đẹp nhất của mật mã lý thuyết hiện đại.
 
 ---
 
-## 5. QKD vs PQC
+## 5. QKD và PQC
 
-**QKD** dùng trạng thái lượng tử để nghe lén nhiễu thống kê, phát hiện dưới mô hình vật lý nêu rõ; thường vẫn cần kênh cổ điển xác thực và kỹ thuật chống side-channel. **PQC** chạy trên mạng cổ điển với thuật toán mới.
+**QKD** dùng trạng thái lượng tử để việc nghe lén gây ra nhiễu mà ta phát hiện được bằng thống kê, theo một mô hình vật lý được nêu rõ; thường vẫn cần một kênh cổ điển đã xác thực và các biện pháp chống kênh phụ. **PQC** chạy trên mạng cổ điển với thuật toán mới.
 
 | | PQC | QKD |
 |--|-----|-----|
-| Kênh | Cổ điển | Lượng tử + cổ điển |
-| Kiểu giả thiết | Khó tính toán | Vật lý/thông tin-lý thuyết trong mô hình |
-| Triển khai | Thư viện/phần cứng crypto | Hạ tầng quang/lượng tử |
-| Bổ sung nhau | Có | Có—không thay mọi mục tiêu crypto |
+| Kênh | Cổ điển | Lượng tử và cổ điển |
+| Loại giả thiết | Độ khó tính toán | Vật lý / lý thuyết thông tin, trong mô hình đã nêu |
+| Triển khai | Thư viện hoặc phần cứng mật mã | Hạ tầng quang học / lượng tử |
+| Bổ sung cho nhau | Có | Có; không thay thế mọi mục tiêu mật mã |
 
-Chúng trả lời lo âu bảo mật liên quan với **neo tin cậy khác**. Truyền thông đại chúng hay trộn hai thứ này.
+Hai công nghệ này cùng trả lời nỗi lo về bảo mật, nhưng dựa trên **những điểm tựa tin cậy khác nhau**. Truyền thông đại chúng hay gộp chúng làm một.
 
 ---
 
 ## 6. Giao thức nâng cao: ZK, FHE, MPC
 
-**Zero-knowledge:** chứng minh phát biểu đúng mà không lộ witness (ngoài hệ quả logic của phát biểu)—theo paradigm simulation. Proof ngắn hiện đại nuôi blockchain/privacy; giả thiết crypto, setup tin cậy (một số hệ), lỗi triển khai vẫn nguy.
+**Zero-knowledge:** chứng minh một phát biểu là đúng mà không để lộ chứng cứ (ngoài những hệ quả logic của chính phát biểu), theo mô hình mô phỏng. Các chứng minh ngắn hiện đại là nền cho blockchain và các ứng dụng riêng tư; nhưng giả thiết mật mã, bước thiết lập đáng tin (ở một số hệ) và lỗi triển khai vẫn là nguy cơ.
 
-**FHE:** tính trên bản mã: $$\mathsf{Dec}(f(\mathsf{Enc}(x)))=f(x)$$ cho lớp $$f$$ rộng. Đột phá lattice (Gentry và thế hệ sau); chi phí còn cao cho nhiều ứng dụng, dù đang cải thiện.
+**FHE:** tính trực tiếp trên bản mã: $$\mathsf{Dec}(f(\mathsf{Enc}(x)))=f(x)$$ với một lớp hàm $$f$$ rộng. Đột phá dựa trên lattice (Gentry và các thế hệ sau); chi phí vẫn còn cao với nhiều ứng dụng, dù đang được cải thiện.
 
-**MPC:** nhiều bên tính hàm chung không lộ input ngoài output—mô hình honest/dishonest majority khác công cụ (secret sharing, garbled circuit, OT).
+**MPC:** nhiều bên cùng tính một hàm chung mà không lộ đầu vào của mình ngoài kết quả. Các mô hình đa số trung thực và đa số không trung thực dùng những công cụ khác nhau (chia sẻ bí mật, mạch garbled, OT).
 
-Đây là **lý thuyết giao thức toán** có triển khai thật—và khoảng cách rộng giữa khả thi tiệm cận và dùng rẻ khắp nơi. Hype (“FHE giải mọi privacy”) bỏ qua hiệu năng, rò rỉ pattern truy cập, quản trị khóa.
-
----
-
-## 7. Di trú và bài toán mở
-
-1. Handshake hybrid cổ điển+PQC trong giai đoạn chuyển.  
-2. Cryptanalysis primitive mới (thuật toán cổ điển và lượng tử).  
-3. Triển khai chống side-channel.  
-4. Composition giao thức: chứng an ninh hệ từ mảnh.  
-5. Chữ ký dài hạn và key agility.  
-6. Formal verification mã crypto và chứng minh.  
-7. Đánh giá đe dọa lượng tử không hoảng loạn cũng không chối.
-
-### Ảnh di trú cụ thể (khái niệm)
-
-Handshake kiểu TLS có thể đàm phán trao đổi khóa đường cong elliptic **và** KEM lattice, trộn bí mật phiên để kẻ tấn phải phá **cả hai** (hybrid). Chữ ký cập nhật phần mềm có thể chuyển sang hash-based hoặc lattice với profile kích thước/hiệu năng khác. Certificate, HSM, IoT ràng buộc, chữ ký tài liệu dài hạn—không có nút “bật PQC” duy nhất.
-
-Rủi ro **thu hoạch nay–giải mã sau** lệch theo loại dữ liệu: mật 50 năm khẩn hơn session key vài phút. Quản trị rủi ro × (giá trị bí mật) × (thời gian cần giữ) × (xác suất máy lượng tử cryptographically relevant trong horizon)—ước Fermi, không định lý, nhưng hơn vibe.
-
-### Side-channel: toán vs silicon
-
-Reduction hoàn hảo vẫn gãy nếu triển khai rò khóa qua timing, cache, năng lượng, fault. Constant-time, masking, formal verification là công việc an ninh hạng nhất. PQC khóa lớn và số học mới (NTT lattice, ma trận lớn code…) tạo bề mặt side-channel **mới**. Biết đọc: scheme “NIST-selected” vẫn có thể gãy trong sản phẩm vì RNG xấu hoặc so sánh rò.
-
-### Studio seminar
-
-Lấy một claim vendor “quantum-safe / quantum-ready”. Checklist LO6: tên scheme? tham số? hybrid mode? threat model (chỉ máy lượng tử hay cả side-channel)? chứng minh/paper? Viết ba câu phản biện seminar: “được phép nói gì / không được phép nói gì trên slide”.
+Đây là **lý thuyết giao thức** đã có triển khai thật, và khoảng cách giữa “khả thi về mặt tiệm cận” với “dùng rẻ ở mọi nơi” còn rất rộng. Những lời quảng cáo kiểu “FHE giải quyết mọi vấn đề riêng tư” bỏ qua hiệu năng, rò rỉ qua mẫu truy cập và việc quản lý khóa.
 
 ---
 
-## Nhầm lẫn thường gặp
+## 7. Chuyển đổi và các bài toán mở
 
-| Tuyên bố | Sửa |
-|----------|-----|
-| “Máy lượng tử đã phá RSA ngoài đời.” | Chưa có break cryptographically relevant công khai. |
-| “AES gãy vì Shor.” | Grover ảnh hưởng brute force; không phải factoring. |
-| “PQC chưa chứng minh nên vô dụng.” | Mọi PK dùng giả thiết; PQC mới hơn, đang soi gay gắt. |
-| “QKD làm hết crypto lỗi thời.” | Phạm vi hẹp; xác thực và mục tiêu rộng vẫn cần. |
-| “ZK = zero information mọi nghĩa.” | Định nghĩa theo simulation; triển khai có thể rò. |
-| “NIST chuẩn hóa ⇒ vĩnh viễn an toàn.” | Giảm rủi ro; cryptanalysis tiếp tục. |
+1. Bắt tay lai (hybrid) giữa mật mã cổ điển và PQC trong giai đoạn chuyển tiếp.  
+2. Phân tích mật mã các nguyên thủy mới (bằng thuật toán cổ điển và lượng tử).  
+3. Triển khai chống kênh phụ.  
+4. Hợp thành giao thức: chứng minh an ninh của cả hệ từ các thành phần.  
+5. Chữ ký dùng lâu dài và khả năng thay thuật toán linh hoạt (key agility).  
+6. Kiểm chứng hình thức mã mật mã và các chứng minh.  
+7. Đánh giá mối đe dọa lượng tử: không hoảng loạn, cũng không phủ nhận.
+
+### Hình dung cụ thể về chuyển đổi
+
+Một cuộc bắt tay kiểu TLS có thể thương lượng trao đổi khóa bằng đường cong elliptic **và** một KEM lattice, rồi trộn hai bí mật phiên lại để kẻ tấn công phải phá **cả hai** (hybrid). Chữ ký cập nhật phần mềm có thể chuyển sang dựa trên hàm băm hoặc lattice, với kích thước và hiệu năng khác. Với chứng chỉ, HSM, thiết bị IoT bị ràng buộc tài nguyên, chữ ký tài liệu dùng lâu dài, không có một nút “bật PQC” duy nhất.
+
+Rủi ro **thu thập bây giờ, giải mã sau** khác nhau tùy loại dữ liệu: bí mật cần giữ 50 năm khẩn cấp hơn khóa phiên chỉ dùng vài phút. Quản trị rủi ro là tích của (giá trị bí mật) × (thời gian cần giữ) × (xác suất có máy lượng tử đủ mạnh để phá mật mã trong khoảng thời gian đó). Đó là một ước lượng kiểu Fermi, không phải định lý, nhưng tốt hơn cảm tính.
+
+### Kênh phụ: toán học và phần cứng
+
+Phép quy dẫn hoàn hảo vẫn thất bại nếu triển khai làm rò khóa qua thời gian chạy, cache, năng lượng tiêu thụ hay lỗi phần cứng. Mã chạy thời gian hằng, che dữ liệu (masking) và kiểm chứng hình thức là công việc an ninh hàng đầu. PQC có khóa lớn và số học mới (NTT cho lattice, ma trận lớn cho mã sửa lỗi…) nên tạo ra bề mặt kênh phụ **mới**. Cần nhớ: một hệ được NIST chọn vẫn có thể bị phá trong sản phẩm thật vì bộ sinh số ngẫu nhiên kém hoặc phép so sánh làm rò thông tin.
+
+### Hoạt động nhóm
+
+Lấy một tuyên bố của nhà cung cấp kiểu “quantum-safe” hoặc “quantum-ready”. Kiểm tra bằng danh sách: tên hệ mật? tham số? có chế độ lai không? mô hình đe dọa (chỉ máy lượng tử hay cả kênh phụ)? có chứng minh hoặc bài báo không? Viết ba câu phản biện cho seminar: điều gì được phép nói và điều gì không được phép nói trên slide.
+
+---
+
+## Những nhầm lẫn thường gặp
+
+| Tuyên bố | Chỉnh lại |
+|----------|-----------|
+| “Máy lượng tử đã phá RSA ngoài đời thực.” | Chưa có vụ phá mật mã có ý nghĩa thực tế nào được công bố. |
+| “AES gãy vì Shor.” | Grover ảnh hưởng đến tìm kiếm vét cạn; Shor không áp dụng như với phân tích thừa số. |
+| “PQC chưa được chứng minh nên vô dụng.” | Mọi hệ khóa công khai đều dựa trên giả thiết; PQC mới hơn và đang bị soi kỹ. |
+| “QKD làm mật mã khác lỗi thời.” | Phạm vi hẹp; xác thực và nhiều mục tiêu rộng hơn vẫn cần mật mã. |
+| “ZK nghĩa là không lộ chút thông tin nào, theo mọi nghĩa.” | Được định nghĩa theo mô phỏng; triển khai có thể rò rỉ. |
+| “NIST chuẩn hóa rồi thì an toàn vĩnh viễn.” | Giảm rủi ro; việc phân tích mật mã vẫn tiếp tục. |
 
 ---
 
 ## Bài tập
 
-1. Ghép: bảo mật bulk / trao đổi khóa / non-repudiation → đối xứng / KEM / chữ ký.
-2. Ba câu: vì sao bí mật dài hạn thúc PQC trước máy lượng tử lớn.
-3. Một đoạn Shor vs Grover (công khai vs đối xứng).
-4. Reduction LWE→scheme cho thấy gì / không cho thấy gì?
-5. Tái lập bảng QKD vs PQC từ trí nhớ.
-6. Câu chuyện ZK đồ chơi “biết preimage hash”.
-7. Phê claim vendor “quantum-safe”: thiếu gì?
+1. Ghép: bảo mật dữ liệu lớn / trao đổi khóa / chống chối bỏ với: mã đối xứng / KEM / chữ ký.
+2. Viết ba câu: vì sao bí mật dài hạn khiến phải chuyển sang PQC trước khi có máy lượng tử lớn.
+3. Viết một đoạn so sánh Shor và Grover (mật mã công khai và mật mã đối xứng).
+4. Phép quy dẫn từ LWE đến một hệ mật cho thấy điều gì và không cho thấy điều gì?
+5. Tự dựng lại bảng so sánh QKD và PQC từ trí nhớ.
+6. Kể một câu chuyện ZK đơn giản: chứng minh “tôi biết tiền ảnh của một giá trị băm”.
+7. Nhận xét một tuyên bố “quantum-safe” của nhà cung cấp: còn thiếu những gì?
 
 ---
 
+## Tóm tắt từ phần nghiên cứu video
+
+Phần này dùng cho buổi seminar; hãy đối chiếu với nguồn gốc và không coi là bản chép lời.
+
+### Hiện trạng
+
+**Chuẩn đang tiến triển.** NIST đã công bố các chuẩn PQC đầu tiên (FIPS 203–205) vào năm 2024; việc chuyển đổi đang diễn ra. QKD là một chồng công nghệ khác với các thuật toán PQC cổ điển.
+
+### Phát biểu cốt lõi
+
+Thuật toán Shor phá RSA và ECC trên một máy lượng tử chịu lỗi lớn (định lý trong mô hình mạch). PQC đặt an ninh trên các bài toán thuộc loại lattice, mã, hàm băm, isogeny mà ta tin là khó với đối thủ lượng tử; độ khó này chỉ là *giả thuyết*, chưa được chứng minh.
+
+### Định nghĩa cần nhớ
+
+- **PQC.** Mật mã cổ điển được thiết kế để chống lại đối thủ lượng tử.
+- **Linh hoạt thuật toán (crypto-agility).** Khả năng thay thuật toán khi chuẩn và các cuộc tấn công thay đổi.
+
+### Cần phân biệt rõ
+
+- Cho rằng máy lượng tử ngày nay đã phá được RSA ở quy mô thực tế.
+- Đánh đồng QKD với PQC (mô hình tin cậy và cách triển khai khác nhau).
 
 ---
 
-## Kiến thức trích từ nghiên cứu video
+## Nguồn video
 
-Tóm tắt cho seminar (đối chiếu nguồn viết; **không bịa transcript**). Gói: `research/video-research/future-cryptography/analysis.md`.
-
-### Trạng thái
-
-**Standards evolving.** NIST released first PQC FIPS (203–205) in 2024; migration is ongoing. QKD is a different technology stack from classical PQC algorithms.
-
-### Phát biểu / slogan cốt lõi
-
-Shor's algorithm breaks RSA/ECC on a large fault-tolerant quantum computer (theorem in circuit model). PQC bases security on lattice/code/hash/isogeny-type problems believed hard for quantum adversaries — hardness is *conjectural*, not proved.
-
-### Định nghĩa cần cố định
-
-- **PQC.** Classical crypto designed to resist quantum adversaries.
-- **Crypto-agility.** Ability to swap algorithms as standards/attacks evolve.
-
-### Vệ sinh khái niệm
-
-- Assuming quantum computers already break RSA at scale today.
-- Equating QKD with PQC (different trust and deployment models).
-
-
----
-
-## Nguồn video (gói math-video-researcher)
-
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh/bài báo gốc khi tuyên bố mang tính then chốt. Chi tiết xếp hạng: `research/video-research/future-cryptography/`.
+Hãy dùng video để **định hướng và làm quen với văn hóa nghiên cứu**, đừng dùng thay cho chứng minh hay bài báo gốc khi cần khẳng định điều quan trọng.
 
 **Thứ tự gợi ý**
 
-1. **Định hướng** — SandboxAQ — NIST's PQC Standardization Explained: [https://www.youtube.com/watch?v=crPe69NeTdk](https://www.youtube.com/watch?v=crPe69NeTdk).  
-2. **Cốt lõi** — IBM Research — NIST post-quantum standards webcast: [https://www.youtube.com/watch?v=YJ00O4gBs0I](https://www.youtube.com/watch?v=YJ00O4gBs0I).  
-3. **Nền tảng** — Cryptography 101 — PQC Standards explained: [https://www.youtube.com/watch?v=P9g1CMCu8DI](https://www.youtube.com/watch?v=P9g1CMCu8DI).  
+1. **Định hướng**: SandboxAQ, NIST's PQC Standardization Explained: [https://www.youtube.com/watch?v=crPe69NeTdk](https://www.youtube.com/watch?v=crPe69NeTdk).  
+2. **Cốt lõi**: IBM Research, NIST post-quantum standards webcast: [https://www.youtube.com/watch?v=YJ00O4gBs0I](https://www.youtube.com/watch?v=YJ00O4gBs0I).  
+3. **Nền tảng**: Cryptography 101, PQC Standards explained: [https://www.youtube.com/watch?v=P9g1CMCu8DI](https://www.youtube.com/watch?v=P9g1CMCu8DI).  
 
-**Nhắc trạng thái:** **Standards evolving.** NIST released first PQC FIPS (203–205) in 2024; migration is ongoing. QKD is a different technology stack from classical PQC algorithms.
+**Lưu ý về hiện trạng:** các chuẩn vẫn đang tiến triển. NIST đã công bố các chuẩn PQC đầu tiên (FIPS 203–205) vào năm 2024 và việc chuyển đổi đang diễn ra. QKD là một chồng công nghệ khác với các thuật toán PQC cổ điển.
 
 ---
 
-
-### Transcript & frames (batch extract)
-
-Transcript caption và unit theo thời gian: `research/video-research/future-cryptography/transcripts/` · trạng thái: `research/video-research/future-cryptography/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
-
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/future-cryptography_crPe69NeTdk_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính.*
 
 ## Tài liệu tham khảo
 
 1. Katz & Lindell — *Introduction to Modern Cryptography*.
-2. Tài liệu NIST PQC và spec thuật toán được chọn.
-3. Regev — LWE; Shor — factoring/dlog lượng tử.
-4. Survey FHE, ZK, MPC (Boneh–Shoup; SoK gần đây).
-5. [Thông tin lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/), [Độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/), [Toán AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/) (pattern hype vs threat model).
+2. Tài liệu NIST về PQC và đặc tả các thuật toán được chọn.
+3. Regev — LWE; Shor — phân tích thừa số và logarit rời rạc lượng tử.
+4. Bài khảo sát về FHE, ZK, MPC (Boneh–Shoup; các bài SoK gần đây).
+5. [Thông tin lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/), [Độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/), [Toán AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/) (cách nhận ra lời thổi phồng so với mô hình đe dọa).
 
 ---
 
-
-Danh mục URL đầy đủ: `research/video-research/future-cryptography/references.md`.
-
 ### Video (lộ trình gợi ý)
 
-- SandboxAQ — NIST's PQC Standardization Explained (ORIENTATION): https://www.youtube.com/watch?v=crPe69NeTdk
-- IBM Research — NIST post-quantum standards webcast (CORE): https://www.youtube.com/watch?v=YJ00O4gBs0I
-- Cryptography 101 — PQC Standards explained (FOUNDATION): https://www.youtube.com/watch?v=P9g1CMCu8DI
+- SandboxAQ, NIST's PQC Standardization Explained (định hướng): https://www.youtube.com/watch?v=crPe69NeTdk
+- IBM Research, NIST post-quantum standards webcast (cốt lõi): https://www.youtube.com/watch?v=YJ00O4gBs0I
+- Cryptography 101, PQC Standards explained (nền tảng): https://www.youtube.com/watch?v=P9g1CMCu8DI
 
-### Bài báo và web (từ gói nghiên cứu)
+### Bài báo và web
 
 - NIST — What is Post-Quantum Cryptography?: https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography
 - NIST PQC project: https://csrc.nist.gov/projects/post-quantum-cryptography
@@ -227,20 +215,16 @@ Danh mục URL đầy đủ: `research/video-research/future-cryptography/refere
 - Wikipedia — Post-quantum cryptography: https://en.wikipedia.org/wiki/Post-quantum_cryptography
 - Wikipedia — Shor's algorithm: https://en.wikipedia.org/wiki/Shor%27s_algorithm
 
-### Khóa học
-
-- Gói: `research/video-research/future-cryptography/` (đặc biệt `references.md`, `learning_path.md`).
-
 ## Hướng đi tiếp
 
 - [Thông tin lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/) cho mô hình đe dọa đầy đủ.
-- [Độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/) cho ngôn ngữ độ khó.
-- So sánh kích thước khóa/hiệu năng ECC vs lattice KEM (bậc độ lớn, benchmark công khai).
-- Đọc: Katz–Lindell lõi → NIST PQC FAQ → một đoạn survey LWE mỗi ngày.
-- Checklist threat model trước khi tin “không phá nổi”.
+- [Độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/) cho ngôn ngữ về độ khó.
+- So sánh kích thước khóa và hiệu năng giữa ECC và KEM lattice (theo bậc độ lớn, dựa trên các benchmark công khai).
+- Đọc: phần lõi của Katz–Lindell, rồi NIST PQC FAQ, rồi mỗi ngày một đoạn trong bài khảo sát về LWE.
+- Lập danh sách kiểm tra mô hình đe dọa trước khi tin vào cụm từ “không thể phá”.
 
 ## Video tham khảo
 
-- **xem trước** — [NIST's Post-Quantum Cryptography Standardization Explained](https://www.youtube.com/watch?v=crPe69NeTdk) — SandboxAQ, tiếng Anh. Xem trước. “NIST's Post-Quantum Cryptography Standardization Explained” định hướng cho mục tiêu của bài: Phân biệt mã đối xứng (khóa chung) và công khai / chữ ký ở mức vai trò giao thức.
-- [The next big leap in cryptography: NIST’s post-quantum cryptography standards](https://www.youtube.com/watch?v=YJ00O4gBs0I) — IBM Research, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phân biệt mã đối xứng (khóa chung) và công khai / chữ ký ở mức vai trò giao thức.
-- [PQC Standards (Post-Quantum Cryptography Explained)](https://www.youtube.com/watch?v=P9g1CMCu8DI) — Cryptography 101, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phân biệt mã đối xứng (khóa chung) và công khai / chữ ký ở mức vai trò giao thức.
+- **Xem trước** — [NIST's Post-Quantum Cryptography Standardization Explained](https://www.youtube.com/watch?v=crPe69NeTdk) — SandboxAQ, tiếng Anh. Xem trước để nắm quy trình chuẩn hóa PQC của NIST và vai trò của từng thuật toán.
+- [The next big leap in cryptography: NIST’s post-quantum cryptography standards](https://www.youtube.com/watch?v=YJ00O4gBs0I) — IBM Research, tiếng Anh. Xem lượt thứ hai, khi ý chính đã rõ, để nghe góc nhìn của các nhà nghiên cứu tham gia xây dựng chuẩn.
+- [PQC Standards (Post-Quantum Cryptography Explained)](https://www.youtube.com/watch?v=P9g1CMCu8DI) — Cryptography 101, tiếng Anh. Góc nhìn bổ sung sau hai video đầu, giải thích các chuẩn bằng ví dụ dễ theo dõi.

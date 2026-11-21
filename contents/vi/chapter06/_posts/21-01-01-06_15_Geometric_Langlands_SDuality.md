@@ -10,17 +10,17 @@ categories:
 lesson_type: deep-dive
 ---
 
-**Geometric Langlands** là chương trình đối ngẫu trong toán thuần túy: các category sheaf trên moduli bundle $$G$$ trên một đường cong tương ứng với dữ liệu spectral / local system cho **nhóm dual Langlands** $$G^\vee$$. Độc lập, vật lý phát triển **S-duality** (đối ngẫu điện–từ / mạnh–yếu) cho lý thuyết gauge supersymmetric bốn chiều, cũng đổi $$G$$ với $$G^\vee$$. **Kapustin–Witten (2006)** đề xuất geometric Langlands là bóng toán của S-duality của $$\mathcal N=4$$ super Yang–Mills bị twist, compact hóa trên mặt Riemann—với **mirror symmetry của hệ Hitchin** như động cơ hình học.
+**Langlands hình học** (geometric Langlands) là một chương trình đối ngẫu trong toán thuần túy: các phạm trù bó (sheaf) trên không gian moduli các phân thớ $$G$$ trên một đường cong tương ứng với dữ liệu phổ, tức các hệ địa phương (local system), của **nhóm đối ngẫu Langlands** $$G^\vee$$. Một cách độc lập, vật lý phát triển **đối ngẫu S** (đối ngẫu điện–từ, hay mạnh–yếu) cho các lý thuyết gauge siêu đối xứng bốn chiều; phép đối ngẫu này cũng đổi $$G$$ thành $$G^\vee$$. **Kapustin–Witten (2006)** đề xuất rằng Langlands hình học là hình bóng toán học của đối ngẫu S của lý thuyết $$\mathcal N=4$$ super Yang–Mills đã được xoắn (twist) và compact hóa trên một mặt Riemann. Cơ chế hình học bên trong là **đối xứng gương của hệ Hitchin**.
 
-Deep dive nằm ở giao của:
+Bài đọc sâu này nằm ở chỗ giao nhau của:
 
 - [Đối ngẫu như một nguyên lý]({{ site.baseurl }}/contents/vi/chapter06/06_12_Duality_Principle/)  
-- [Langlands / Ngô]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/) (chương trình số học; nhóm dual)  
-- [Mirror symmetry]({{ site.baseurl }}/contents/vi/chapter06/06_13_Mirror_Symmetry/) (văn hóa SYZ Hitchin)
+- [Langlands / Ngô]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/) (chương trình số học; nhóm đối ngẫu)  
+- [Đối xứng gương]({{ site.baseurl }}/contents/vi/chapter06/06_13_Mirror_Symmetry/) (hình học SYZ của hệ Hitchin)
 
-**Đừng** nhầm Fundamental Lemma của Ngô với “Langlands xong,” hay dictionary vật lý với chứng minh đầy đủ mọi correspondence hình học.
+**Đừng** nhầm Bổ đề cơ bản của Ngô với "chương trình Langlands đã xong", và đừng nhầm từ điển vật lý với chứng minh đầy đủ mọi tương ứng hình học.
 
-Gói: `research/video-research/geometric-langlands-sduality/`.
+Gói nghiên cứu: `research/video-research/geometric-langlands-sduality/`.
 
 ---
 
@@ -28,14 +28,14 @@ Gói: `research/video-research/geometric-langlands-sduality/`.
 
 Sau bài này bạn có thể:
 
-- Tách Langlands **số học** khỏi Langlands **hình học** (đối tượng và trường nền khác; tinh thần nhóm dual chung).
-- Phát biểu geometric Langlands mức slogan: sheaf trên $$\mathrm{Bun}_G(C)$$ ↔ dữ liệu spectral cho $$G^\vee$$.
-- Giải thích **S-duality** của $$\mathcal N=4$$ SYM như mạnh/yếu và $$G\leftrightarrow G^\vee$$.
-- Phác bức tranh compact hóa **Kapustin–Witten** (lý thuyết 4d trên $$C\times\Sigma$$ → sigma model 2d / category brane).
-- Nối **hệ Hitchin** của $$G$$ và $$G^\vee$$ với mirror symmetry.
-- Giữ trạng thái trung thực; coi vật lý là **cầu và muse**, không phải chứng minh tự động.
+- Phân biệt Langlands **số học** với Langlands **hình học** (đối tượng và trường nền khác nhau; chung ý tưởng nhóm đối ngẫu).
+- Phát biểu ý chính của Langlands hình học: bó trên $$\mathrm{Bun}_G(C)$$ ↔ dữ liệu phổ cho $$G^\vee$$.
+- Giải thích **đối ngẫu S** của $$\mathcal N=4$$ SYM: đổi mạnh thành yếu và $$G\leftrightarrow G^\vee$$.
+- Phác họa bức tranh compact hóa của **Kapustin–Witten** (lý thuyết 4 chiều trên $$C\times\Sigma$$ → mô hình sigma 2 chiều / phạm trù brane).
+- Nối **hệ Hitchin** của $$G$$ và $$G^\vee$$ với đối xứng gương.
+- Nói đúng trạng thái: vật lý là **cầu nối và nguồn gợi ý**, không tự động cho chứng minh.
 
-**Tiên quyết.** Nguyên lý đối ngẫu; tổng quan Langlands Ch.2. Nhóm reductive và moduli stack xuất hiện như tên trước.
+**Kiến thức cần có.** Bài nguyên lý đối ngẫu; tổng quan Langlands ở Chương 2. Nhóm khử được (reductive) và stack moduli chỉ cần biết tên.
 
 ---
 
@@ -44,52 +44,52 @@ Sau bài này bạn có thể:
 | | Langlands số học | Langlands hình học |
 |--|------------------|--------------------|
 | Nền | Trường số / adele | Đường cong đại số (thường trên $$\mathbb{C}$$) |
-| Phía automorphic | Biểu diễn automorphic của $$G(\mathbb{A})$$ | Sheaf / D-module trên $$\mathrm{Bun}_G(C)$$ |
-| Phía Galois / spectral | Biểu diễn Galois | Local system / Higgs / spectral cover cho $$G^\vee$$ |
-| Nhóm dual | $$G^\vee$$ | $$G^\vee$$ |
-| Công cụ nổi | Trace formula, endoscopy, $$L$$-hàm | Hecke eigensheaf, derived category, Hitchin |
+| Phía tự đẳng cấu | Biểu diễn tự đẳng cấu của $$G(\mathbb{A})$$ | Bó / D-module trên $$\mathrm{Bun}_G(C)$$ |
+| Phía Galois / phổ | Biểu diễn Galois | Hệ địa phương / phân thớ Higgs / phủ phổ cho $$G^\vee$$ |
+| Nhóm đối ngẫu | $$G^\vee$$ | $$G^\vee$$ |
+| Công cụ chính | Công thức vết, nội soi (endoscopy), $$L$$-hàm | Bó riêng Hecke, phạm trù dẫn xuất, hệ Hitchin |
 
-**Công trình Fields của Ngô** mở Fundamental Lemma cho **so sánh endoscopic** trong máy trace formula số học—đó *không* phải chứng minh correspondence hình học đầy đủ, và *không* phải “chương trình Langlands xong.”
-
----
-
-## 2. Slogan geometric Langlands
-
-Cố định đường cong xạ ảnh trơn $$C$$ và nhóm reductive $$G$$. Gần đúng:
-
-> Các category sheaf (phù hợp) trên stack moduli $$\mathrm{Bun}_G(C)$$ dual với category dựng từ $$G^\vee$$-local system (hoặc dữ liệu spectral liên quan) trên $$C$$.
-
-Dạng cổ điển nhấn **Hecke eigensheaf**: sheaf là eigenvector của toán tử Hecke với eigenvalue cho bởi local system của $$G^\vee$$. Diễn đạt hiện đại dùng hình học đại số derived và tương đương category tinh chỉnh; phát biểu tiến hóa theo tài liệu.
-
-**Sư phạm.** Nhớ **hình dạng**—hình học automorphic của $$G$$ dual hình học spectral của $$G^\vee$$—không định nghĩa stack đầy đủ.
+**Công trình được giải Fields của Ngô** chứng minh Bổ đề cơ bản, phục vụ việc **so sánh nội soi** trong công thức vết của Langlands số học. Đó *không* phải chứng minh tương ứng hình học đầy đủ, và *không* có nghĩa "chương trình Langlands đã xong".
 
 ---
 
-## 3. S-duality trong lý thuyết gauge
+## 2. Ý chính của Langlands hình học
 
-**Maxwell** đã có dualty điện–từ. **Montonen–Olive** và sau đưa lên **S-duality** không giao hoán: coupling mạnh map sang yếu của lý thuyết dual, nhóm gauge thay bằng **Langlands dual** $$G^\vee$$.
+Cố định một đường cong xạ ảnh trơn $$C$$ và một nhóm khử được $$G$$. Nói gần đúng:
 
-Với $$\mathcal N=4$$ SYM bốn chiều, S-duality đặc biệt sắc: coupling $$\tau$$ biến đổi dưới kiểu $$\mathrm{SL}(2,\mathbb{Z})$$, và các lý thuyết dual chia sẻ phổ BPS trong chế độ kiểm soát.
+> Phạm trù các bó (thích hợp) trên stack moduli $$\mathrm{Bun}_G(C)$$ đối ngẫu với một phạm trù dựng từ các $$G^\vee$$-hệ địa phương (hoặc dữ liệu phổ liên quan) trên $$C$$.
 
----
+Dạng cổ điển nhấn mạnh **bó riêng Hecke** (Hecke eigensheaf): bó là vectơ riêng của các toán tử Hecke, với "giá trị riêng" là một hệ địa phương của $$G^\vee$$. Cách phát biểu hiện đại dùng hình học đại số dẫn xuất và các tương đương phạm trù tinh tế hơn; phát biểu chính xác thay đổi theo từng tài liệu.
 
-## 4. Cầu Kapustin–Witten
-
-**Kapustin–Witten** (arXiv:hep-th/0604151) lập luận, gần đúng:
-
-1. Bắt đầu từ phiên bản twist tôpô của $$\mathcal N=4$$ SYM 4d với nhóm $$G$$.  
-2. Compact hóa trên mặt Riemann $$C$$ (đường cong của geometric Langlands).  
-3. Lý thuyết hiệu dụng liên quan sigma model trên moduli Higgs / Hitchin—và **category brane** trên các không gian đó.  
-4. **S-duality** của lý thuyết 4d trở thành dualty của các category 2d, khớp geometric Langlands cho $$G$$ và $$G^\vee$$.  
-5. Dọc đường, **mirror symmetry** của hệ Hitchin (A-brane ↔ B-brane) xuất hiện như động cơ hình học—nối bài này với deep dive mirror.
-
-**Biết đọc.** Đây là **dictionary và động lực từ vật lý** định hình chương trình nghiên cứu toán. Không thay chứng minh toán học thuần túy.
+**Gợi ý học.** Hãy nhớ **hình dạng** của phát biểu: hình học tự đẳng cấu của $$G$$ đối ngẫu với hình học phổ của $$G^\vee$$. Không cần định nghĩa đầy đủ stack.
 
 ---
 
-## 5. Hệ Hitchin như mirror
+## 3. Đối ngẫu S trong lý thuyết gauge
 
-**Fibration Hitchin** trình bày moduli Higgs bundle như hệ tích phân trên base đa thức đặc trưng. Với nhóm dual $$G$$ và $$G^\vee$$, sợi là abelian variety dual (generic)—cặp **mirror kiểu SYZ** (Hausel–Thaddeus và liên quan). Vậy:
+Phương trình **Maxwell** đã có đối ngẫu điện–từ. **Montonen–Olive** và các công trình sau mở rộng thành **đối ngẫu S** không giao hoán: hằng số tương tác mạnh được ánh xạ thành hằng số tương tác yếu của lý thuyết đối ngẫu, và nhóm gauge được thay bằng **nhóm đối ngẫu Langlands** $$G^\vee$$.
+
+Với $$\mathcal N=4$$ SYM bốn chiều, đối ngẫu S đặc biệt rõ: hằng số tương tác $$\tau$$ biến đổi theo nhóm kiểu $$\mathrm{SL}(2,\mathbb{Z})$$, và hai lý thuyết đối ngẫu có cùng phổ BPS trong các chế độ kiểm soát được.
+
+---
+
+## 4. Cầu nối Kapustin–Witten
+
+**Kapustin–Witten** (arXiv:hep-th/0604151) lập luận, nói gần đúng:
+
+1. Bắt đầu từ phiên bản xoắn tôpô của $$\mathcal N=4$$ SYM bốn chiều với nhóm $$G$$.  
+2. Compact hóa trên mặt Riemann $$C$$ (chính là đường cong trong Langlands hình học).  
+3. Lý thuyết hiệu dụng là một mô hình sigma với đích là không gian moduli Higgs (Hitchin), kèm theo **phạm trù các brane** trên không gian đó.  
+4. **Đối ngẫu S** của lý thuyết 4 chiều trở thành một đối ngẫu giữa các phạm trù 2 chiều, khớp với Langlands hình học cho $$G$$ và $$G^\vee$$.  
+5. Trên đường đi, **đối xứng gương** của hệ Hitchin (A-brane ↔ B-brane) xuất hiện như cơ chế hình học. Điều này nối bài này với bài đối xứng gương.
+
+**Cách đọc đúng.** Đây là **từ điển và động lực đến từ vật lý**, định hướng cho một chương trình nghiên cứu toán. Nó không thay cho chứng minh toán học.
+
+---
+
+## 5. Hệ Hitchin và đối xứng gương
+
+**Phân thớ Hitchin** biểu diễn không gian moduli các phân thớ Higgs như một hệ khả tích trên một cơ sở gồm các hệ số của đa thức đặc trưng. Với hai nhóm đối ngẫu $$G$$ và $$G^\vee$$, các thớ (trong trường hợp tổng quát) là những đa tạp abel đối ngẫu nhau. Đó là một cặp **gương kiểu SYZ** (Hausel–Thaddeus và các công trình liên quan). Tóm lại:
 
 ```text
 S-duality (gauge 4d)
@@ -99,82 +99,82 @@ Mirror symmetry của hệ Hitchin
 Geometric Langlands correspondence
 ```
 
-Sơ đồ đó là trái tim seminar của văn hóa Kapustin–Witten.
+Sơ đồ này là nội dung cốt lõi trong cách nhìn của Kapustin–Witten.
 
 ---
 
 ## 6. Bản đồ trạng thái (2026)
 
-| Phát biểu | Nhãn |
+| Phát biểu | Trạng thái |
 |-----------|------|
-| Nhóm dual tổ chức chương trình số học & hình học | Nguyên lý thiết kế đã ổn định |
-| Fundamental Lemma (Ngô et al.) | **Định lý** (công cụ endoscopy số học) |
-| Geometric Langlands (các diễn đạt) | Tiến bộ lớn; vẫn là chương trình sống |
-| Dictionary Kapustin–Witten | Ảnh hưởng lớn; cầu vật lý ↔ toán |
-| Functoriality Langlands số học đầy đủ | Phần lớn **mở** |
+| Nhóm đối ngẫu tổ chức cả chương trình số học lẫn hình học | Nguyên lý thiết kế đã ổn định |
+| Bổ đề cơ bản (Ngô và các tác giả khác) | **Định lý** (công cụ nội soi trong Langlands số học) |
+| Langlands hình học (các cách phát biểu) | Tiến bộ lớn: năm 2024, nhóm Gaitsgory–Raskin và cộng sự công bố chứng minh phỏng đoán không phân nhánh (dạng de Rham); các dạng khác vẫn đang nghiên cứu |
+| Từ điển Kapustin–Witten | Ảnh hưởng lớn; cầu nối vật lý ↔ toán |
+| Tính hàm tử (functoriality) đầy đủ của Langlands số học | Phần lớn còn **mở** |
 
 ---
 
 ## 7. Bản đồ khóa học
 
-| Bài | Liên kết |
+| Bài | Liên hệ |
 |-----|----------|
-| [Langlands / Ngô]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/) | Chương trình số học + Fundamental Lemma |
-| [Nguyên lý đối ngẫu]({{ site.baseurl }}/contents/vi/chapter06/06_12_Duality_Principle/) | Bản đồ cha |
-| [Mirror symmetry]({{ site.baseurl }}/contents/vi/chapter06/06_13_Mirror_Symmetry/) | HMS / SYZ; mirror Hitchin |
-| [AdS/CFT]({{ site.baseurl }}/contents/vi/chapter06/06_14_AdS_CFT/) | Dualty khác (holography) |
-| [Atiyah–Singer]({{ site.baseurl }}/contents/vi/chapter08/08_11_Atiyah_Singer_Index/) | Văn hóa chỉ số / lớp đặc trưng |
-| [Uhlenbeck]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/) | Hạ tầng phân tích gauge |
+| [Langlands / Ngô]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/) | Chương trình số học và Bổ đề cơ bản |
+| [Nguyên lý đối ngẫu]({{ site.baseurl }}/contents/vi/chapter06/06_12_Duality_Principle/) | Bài tổng quan |
+| [Đối xứng gương]({{ site.baseurl }}/contents/vi/chapter06/06_13_Mirror_Symmetry/) | HMS / SYZ; gương của hệ Hitchin |
+| [AdS/CFT]({{ site.baseurl }}/contents/vi/chapter06/06_14_AdS_CFT/) | Một phép đối ngẫu khác (nguyên lý toàn ảnh) |
+| [Atiyah–Singer]({{ site.baseurl }}/contents/vi/chapter08/08_11_Atiyah_Singer_Index/) | Chỉ số và lớp đặc trưng |
+| [Uhlenbeck]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/) | Nền tảng giải tích của lý thuyết gauge |
 
 ---
 
-## 8. Nhầm lẫn
+## 8. Những nhầm lẫn thường gặp
 
 | Khẳng định | Chỉnh lại |
 |------------|-----------|
-| “Geometric = arithmetic Langlands.” | Cùng tinh thần nhóm dual; đối tượng toán khác. |
-| “Ngô chứng geometric Langlands.” | Ngô: Fundamental Lemma cho endoscopy / trace formula. |
-| “Vật lý chứng minh Langlands.” | Vật lý cho dictionary S-duality; toán chứng phát biểu toán. |
-| “S-duality chỉ có string.” | Sống trong QFT ($$\mathcal N=4$$ SYM) trước full string. |
-| “Hitchin = HMS cho mọi CY.” | Mirror Hitchin là họ hình học then chốt đặc biệt. |
+| "Langlands hình học = Langlands số học." | Chung ý tưởng nhóm đối ngẫu; đối tượng toán học khác nhau. |
+| "Ngô chứng minh Langlands hình học." | Ngô chứng minh Bổ đề cơ bản, phục vụ nội soi trong công thức vết. |
+| "Vật lý chứng minh Langlands." | Vật lý cho từ điển đối ngẫu S; phát biểu toán học phải được chứng minh bằng toán. |
+| "Đối ngẫu S chỉ có trong lý thuyết dây." | Nó có ngay trong lý thuyết trường lượng tử ($$\mathcal N=4$$ SYM), không cần lý thuyết dây đầy đủ. |
+| "Hitchin = đối xứng gương thuần nhất (HMS) cho mọi đa tạp Calabi–Yau." | Gương của hệ Hitchin là một họ ví dụ hình học đặc biệt và quan trọng. |
 
 ---
 
 ## Bài tập
 
-1. Hai cột: Langlands số học vs hình học—nền, đối tượng, nhóm dual.  
-2. Geometric Langlands ≤3 câu.  
-3. S-duality đổi gì (coupling và nhóm)?  
-4. Phác compact hóa Kapustin–Witten 4 gạch đầu dòng.  
-5. Vì sao hệ Hitchin $$G$$ / $$G^\vee$$ quan trọng với mirror?  
-6. **≤150 từ:** Vì sao “cầu, không chứng minh” đúng cho vật lý → geometric Langlands?  
-7. **Tuỳ chọn:** Mở abstract Kapustin–Witten; năm từ khóa.
+1. Lập bảng hai cột so sánh Langlands số học và hình học: nền, đối tượng, nhóm đối ngẫu.  
+2. Phát biểu Langlands hình học trong không quá 3 câu.  
+3. Đối ngẫu S đổi những gì (hằng số tương tác và nhóm)?  
+4. Phác họa phép compact hóa Kapustin–Witten bằng 4 gạch đầu dòng.  
+5. Vì sao hệ Hitchin của $$G$$ và $$G^\vee$$ quan trọng đối với đối xứng gương?  
+6. **Không quá 150 chữ:** vì sao nói "cầu nối, không phải chứng minh" là đúng cho quan hệ vật lý → Langlands hình học?  
+7. **Không bắt buộc:** mở phần tóm tắt bài báo Kapustin–Witten; ghi năm từ khóa.
 
 ---
 
-## Mode C — ghi chú tái dựng từ video flagship
+## Ghi chú viết lại từ các video chính
 
-*Tái dựng từ auto-caption Kapustin, Gukov, Frenkel. Caption: `research/video-research/geometric-langlands-sduality/transcripts/`. Units: `knowledge_units_mode_c.json`. Tái dựng; không dán ASR.*
+*Viết lại từ phụ đề tự động các bài giảng của Kapustin, Gukov, Frenkel. Phụ đề: `research/video-research/geometric-langlands-sduality/transcripts/`. Các đơn vị kiến thức: `knowledge_units_mode_c.json`. Đây là phần viết lại, không chép phụ đề.*
 
-### C1. Kapustin — hạt giống điện–từ
+### C1. Kapustin: mầm mống điện–từ
 
-Maxwell cổ điển (không điện tích) có đối xứng gửi từ sang trừ điện và điện sang từ. Đó là **hạt giống S-duality**. Trong gauge không giao hoán / supersymmetric: nhóm dual $$G^\vee$$, toán tử đường dual, khớp quan sát.
+Phương trình Maxwell cổ điển (không có điện tích) có một đối xứng: đổi trường từ thành trừ trường điện, và trường điện thành trường từ. Đó là **mầm mống của đối ngẫu S**. Trong lý thuyết gauge không giao hoán và siêu đối xứng, ta có nhóm đối ngẫu $$G^\vee$$, các toán tử đường đối ngẫu, và các đại lượng quan sát được tương ứng với nhau.
 
-### C2. Wilson (điện) vs defect từ
+### C2. Đường Wilson (điện) và khuyết tật từ
 
-**Wilson loop/line** mã hóa chèn worldline điện tích. **Toán tử đường từ** dual (văn hóa ’t Hooft) là quan sát dual. Geometric Langlands, trong dictionary vật lý, tổ chức category từ dữ liệu dual sau compact hóa trên đường cong—**cầu, không chứng minh thuần**.
+**Vòng hay đường Wilson** mô tả việc đưa vào đường thế giới của một điện tích. **Toán tử đường từ** đối ngẫu (toán tử 't Hooft) là đại lượng quan sát tương ứng ở phía đối ngẫu. Trong từ điển vật lý, Langlands hình học sắp xếp các phạm trù từ dữ liệu đối ngẫu sau khi compact hóa trên đường cong. Đây là **cầu nối, không phải chứng minh toán học**.
 
-### C3. Gukov — vì sao geometric Langlands, rồi vật lý
+### C3. Gukov: vì sao có Langlands hình học, rồi đến vật lý
 
-Nửa đầu: geometric Langlands ở giao **số học** (Langlands cổ điển), **hình học**, và **lý thuyết biểu diễn**. Nửa sau: **tiếp cận vật lý** qua S-duality gauge kiểu $$\mathcal N=4$$—đóng gói khác toán thuần, cùng tinh thần nhóm dual.
+Nửa đầu bài giảng: Langlands hình học nằm ở chỗ giao nhau của **số học** (Langlands cổ điển), **hình học** và **lý thuyết biểu diễn**. Nửa sau: **cách tiếp cận vật lý** qua đối ngẫu S của lý thuyết gauge kiểu $$\mathcal N=4$$. Cách đóng gói khác toán thuần túy, nhưng cùng ý tưởng nhóm đối ngẫu.
 
-### C4. Frenkel — định hướng dự phòng
+### C4. Frenkel: video định hướng dự phòng
 
-Talk Frenkel nhẹ hơn khi Kapustin/Gukov quá đặc. Dùng cho khí hậu, không hoàn chỉnh kỹ thuật.
+Bài nói của Frenkel nhẹ hơn, dùng khi bài của Kapustin hay Gukov quá nặng. Nó cho cái nhìn chung, không đầy đủ về kỹ thuật.
 
-### C5. Vệ sinh (chung Ch.2 §9b)
+### C5. Nói cho chính xác (giống Chương 2, §9b)
 
-Fundamental Lemma của Ngô là **endoscopy số học**, không phải “geometric Langlands xong.” Dictionary dualty vật lý định hình agenda; không thay chứng minh toán. Xem [Witten mini]({{ site.baseurl }}/contents/vi/chapter06/06_17_Witten_Physics_Math/).
+Bổ đề cơ bản của Ngô thuộc về **nội soi trong Langlands số học**, không có nghĩa "Langlands hình học đã xong". Từ điển đối ngẫu của vật lý định hướng nghiên cứu nhưng không thay cho chứng minh toán học. Xem [bài ngắn về Witten]({{ site.baseurl }}/contents/vi/chapter06/06_17_Witten_Physics_Math/).
 
 ---
 
@@ -182,13 +182,13 @@ Fundamental Lemma của Ngô là **endoscopy số học**, không phải “geom
 
 Gói: `research/video-research/geometric-langlands-sduality/`.
 
-1. **Core / Mode C** — Kapustin: [https://www.youtube.com/watch?v=oJRD3PshFjY](https://www.youtube.com/watch?v=oJRD3PshFjY) · caption trong pack  
-2. **Core / Mode C** — Gukov: [https://www.youtube.com/watch?v=bCpVL6flCxo](https://www.youtube.com/watch?v=bCpVL6flCxo) · caption trong pack  
-3. **Orientation / Mode C** — Frenkel: [https://www.youtube.com/watch?v=8Pkw25J-Bg0](https://www.youtube.com/watch?v=8Pkw25J-Bg0) · caption trong pack  
-4. **Bridge** — Witten: [https://www.youtube.com/watch?v=S02ghGCdNDo](https://www.youtube.com/watch?v=S02ghGCdNDo) · caption ở pack mirror  
+1. **Nội dung chính / ghi chú ở trên:** Kapustin: [https://www.youtube.com/watch?v=oJRD3PshFjY](https://www.youtube.com/watch?v=oJRD3PshFjY) · phụ đề có trong gói  
+2. **Nội dung chính / ghi chú ở trên:** Gukov: [https://www.youtube.com/watch?v=bCpVL6flCxo](https://www.youtube.com/watch?v=bCpVL6flCxo) · phụ đề có trong gói  
+3. **Định hướng / ghi chú ở trên:** Frenkel: [https://www.youtube.com/watch?v=8Pkw25J-Bg0](https://www.youtube.com/watch?v=8Pkw25J-Bg0) · phụ đề có trong gói  
+4. **Cầu nối:** Witten: [https://www.youtube.com/watch?v=S02ghGCdNDo](https://www.youtube.com/watch?v=S02ghGCdNDo) · phụ đề nằm trong gói đối xứng gương  
 
-URL đầy đủ: `research/video-research/geometric-langlands-sduality/references.md`.  
-Trạng thái transcript: `research/video-research/geometric-langlands-sduality/TRANSCRIPT_STATUS.md`.
+Danh sách URL đầy đủ: `research/video-research/geometric-langlands-sduality/references.md`.  
+Trạng thái phụ đề: `research/video-research/geometric-langlands-sduality/TRANSCRIPT_STATUS.md`.
 
 ---
 
@@ -203,6 +203,6 @@ Trạng thái transcript: `research/video-research/geometric-langlands-sduality/
 
 ## Video tham khảo
 
-- **xem trước** — [Lecture 1: Geometric Langlands and S-duality in N = 4 SYM by Sergei Gukov](https://www.youtube.com/watch?v=bCpVL6flCxo) — International Centre for Theoretical Sciences, tiếng Anh. Xem trước. “Lecture 1: Geometric Langlands and S-duality in N = 4 SYM by Sergei Gukov” định hướng cho mục tiêu của bài: Tách Langlands số học khỏi Langlands hình học (đối tượng và trường nền khác; tinh thần nhóm dual chung).
-- [Gauge Theory, Geometric Langlands, and All That - Edward Witten](https://www.youtube.com/watch?v=8Pkw25J-Bg0) — Viktór, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Tách Langlands số học khỏi Langlands hình học (đối tượng và trường nền khác; tinh thần nhóm dual chung).
-- [Edward Witten: Mirror Symmetry & Geometric Langlands (2012)](https://www.youtube.com/watch?v=S02ghGCdNDo) — Graduate Mathematics, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Tách Langlands số học khỏi Langlands hình học (đối tượng và trường nền khác; tinh thần nhóm dual chung).
+- **Xem trước:** [Lecture 1: Geometric Langlands and S-duality in N = 4 SYM by Sergei Gukov](https://www.youtube.com/watch?v=bCpVL6flCxo) (International Centre for Theoretical Sciences, tiếng Anh). Bài giảng đầu tiên của Gukov: vì sao có Langlands hình học, rồi cách tiếp cận qua đối ngẫu S. Nên xem trước khi đọc mục 1 đến 4.
+- [Gauge Theory, Geometric Langlands, and All That - Edward Witten](https://www.youtube.com/watch?v=8Pkw25J-Bg0) (Viktór, tiếng Anh). Bài nói tổng quan về lý thuyết gauge và Langlands hình học. Nên xem lần thứ hai, khi ý chính đã rõ.
+- [Edward Witten: Mirror Symmetry & Geometric Langlands (2012)](https://www.youtube.com/watch?v=S02ghGCdNDo) (Graduate Mathematics, tiếng Anh). Witten nói về mối liên hệ giữa đối xứng gương và Langlands hình học; bổ sung cho mục 4 và 5.

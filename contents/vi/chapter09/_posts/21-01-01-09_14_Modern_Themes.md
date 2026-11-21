@@ -9,283 +9,260 @@ categories:
 - chapter09
 ---
 
-Giải Turing là **spotlight** từng sự nghiệp. Biên giới tính toán–toán học **không** dừng theo năm trao huy chương. Bài kết chương 09 là **bản đồ chủ đề hiện đại** nơi thuật toán, hệ thống, học máy, mật mã, lượng tử và verification giao nhau—đủ sâu để biết *đọc gì tiếp*, đủ khiêm tốn để không giả vờ survey hoàn chỉnh. Đọc sau các chân dung Yao, Valiant, Hopcroft–Tarjan, Pearl, DL trio, Wigderson; nối lại [Chương 6]({{ site.baseurl }}/contents/vi/chapter06/06_00_Tong_quan/), [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/), và [Abel / Fields]({{ site.baseurl }}/contents/vi/chapter08/08_01_Tong_quan/).
+Giải Turing đặt một sự nghiệp dưới ánh đèn, nhưng biên giới của toán học và tính toán không dừng lại theo từng năm trao giải. Bài kết chương 09 là **bản đồ các chủ đề hiện đại**, nơi thuật toán, hệ thống, học máy, mật mã, tính toán lượng tử và kiểm chứng hình thức gặp nhau. Bài đủ sâu để bạn biết nên đọc tiếp những gì, và không giả vờ là một bản tổng quan đầy đủ. Hãy đọc bài này sau các bài về Yao, Valiant, Hopcroft–Tarjan, Pearl, bộ ba học sâu và Wigderson, rồi nối lại với [Chương 6]({{ site.baseurl }}/contents/vi/chapter06/06_00_Tong_quan/), [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/) và [Abel / Fields]({{ site.baseurl }}/contents/vi/chapter08/08_01_Tong_quan/).
 
 ---
 
 ## Mục tiêu học tập
 
-Sau bài, bạn có thể liệt kê ít nhất **sáu trục** biên toán–CS hiện đại (fine-grained complexity, optimization & continuous algorithms, ML theory at scale, crypto post-quantum, quantum complexity, formal verification / proof assistants, distributed & streaming systems, causal & robust ML) và mỗi trục một câu hỏi mở; giải thích **fine-grained** khác NP-đầy đủ thế nào (số mũ *trong* P); mô tả vì sao **hệ thống** (compilers, hardware, distributed) là nửa citation “computing” không tách rời toán; áp checklist LO6 lên headline “AI/quantum breakthrough”; phác lộ trình đọc cá nhân 3–6 tháng từ chương 09 ra ngoài.
+Sau bài này, bạn có thể:
 
-**Kiến thức nền.** Các bài 09.08–09.13 hoặc tương đương; thoải mái với P/NP, graphs, probability, gradients.
+- liệt kê ít nhất **sáu trục** trong các hướng biên giới hiện đại của toán và khoa học máy tính, và nêu một câu hỏi mở cho mỗi trục. Các trục gồm: độ phức tạp chi tiết (fine-grained complexity), tối ưu hóa và thuật toán liên tục, lý thuyết học máy ở quy mô lớn, mật mã hậu lượng tử, độ phức tạp lượng tử, kiểm chứng hình thức và trợ lý chứng minh, hệ thống phân tán và dữ liệu luồng, học máy nhân quả và học máy bền vững;
+- giải thích độ phức tạp chi tiết khác NP-đầy đủ ở điểm nào (nó xét số mũ *bên trong* lớp P);
+- mô tả vì sao **hệ thống** (trình biên dịch, phần cứng, tính toán phân tán) là nửa còn lại trong câu nói rằng “tính toán” không tách rời khỏi toán học;
+- áp dụng danh sách kiểm tra ở Mục 10 lên các tiêu đề báo kiểu “đột phá về AI/lượng tử”;
+- phác thảo một lộ trình đọc cá nhân trong 3–6 tháng, đi từ chương 09 ra bên ngoài.
+
+**Kiến thức nền.** Các bài 09.08–09.13 hoặc kiến thức tương đương; quen với P/NP, đồ thị, xác suất và gradient.
 
 ---
 
-## 1. Spotlight đã qua, sân khấu còn lại
+## 1. Ánh đèn đã đi qua, sân khấu vẫn còn
 
-Chương đã chạm:
+Chương này đã đi qua các bài sau:
 
 | Bài | Ý trung tâm |
 |-----|-------------|
-| [Yao]({{ site.baseurl }}/contents/vi/chapter09/09_08_Yao_Complexity/) | Minimax, communication |
-| [Valiant]({{ site.baseurl }}/contents/vi/chapter09/09_09_Valiant_Learning/) | PAC, #P |
-| [Hopcroft–Tarjan]({{ site.baseurl }}/contents/vi/chapter09/09_10_Hopcroft_Tarjan/) | Graph algorithms, data structures |
-| [Pearl]({{ site.baseurl }}/contents/vi/chapter09/09_11_Pearl_Causality/) | Causal calculus |
-| [DL Trio]({{ site.baseurl }}/contents/vi/chapter09/09_12_Deep_Learning_Trio/) | Deep learning foundations |
-| [Wigderson]({{ site.baseurl }}/contents/vi/chapter09/09_13_Wigderson_Complexity/) | Randomness, expanders, proofs |
+| [Yao]({{ site.baseurl }}/contents/vi/chapter09/09_08_Yao_Complexity/) | Nguyên lý minimax, độ phức tạp giao tiếp |
+| [Valiant]({{ site.baseurl }}/contents/vi/chapter09/09_09_Valiant_Learning/) | Học PAC, lớp #P |
+| [Hopcroft–Tarjan]({{ site.baseurl }}/contents/vi/chapter09/09_10_Hopcroft_Tarjan/) | Thuật toán đồ thị, cấu trúc dữ liệu |
+| [Pearl]({{ site.baseurl }}/contents/vi/chapter09/09_11_Pearl_Causality/) | Phép tính nhân quả |
+| [Bộ ba học sâu]({{ site.baseurl }}/contents/vi/chapter09/09_12_Deep_Learning_Trio/) | Nền tảng của học sâu |
+| [Wigderson]({{ site.baseurl }}/contents/vi/chapter09/09_13_Wigderson_Complexity/) | Tính ngẫu nhiên, đồ thị giãn, chứng minh |
 
-Bài này **không** thêm laureate. Nó hỏi: *các ý đó đang sống ở đâu trong nghiên cứu 2020s?*
-
----
-
-## 2. Fine-grained complexity: độ khó *bên trong* P
-
-NP-đầy đủ nói “không kỳ vọng $$n^{O(1)}$$ nếu P≠NP”. Thực hành quan tâm: sorting $$n\log n$$, APSP $$n^{3}$$, edit distance $$n^{2}$$, … **Fine-grained** đặt giả thuyết (SETH, 3SUM, APSP hypothesis) và reduction *tight* để nói: cải thiện số mũ này sẽ sụp giả thuyết kia.
-
-Hệ quả văn hóa:
-
-- Lower bound “gần matching” upper bound cho bài **đã** poly-time.  
-- Giải thích vì sao một số “speedup ML cho NP-hard” không chạm fine-grained walls trên bài trong P.  
-- Cầu thuật toán đồ thị/string cổ điển với hardness hiện đại—di sản Hopcroft–Tarjan gặp hardness Yao/Wigderson-style.
-
-Câu hỏi mở: base hypotheses đúng chừng nào? Có dualities đẹp hơn?
+Bài này **không** thêm người đoạt giải nào. Nó hỏi: *những ý tưởng đó đang nằm ở đâu trong nghiên cứu của thập niên 2020?*
 
 ---
 
-## 3. Tối ưu liên tục, transport, high dimension
+## 2. Độ phức tạp chi tiết: độ khó *bên trong* P
 
-ML train là tối ưu; [optimal transport]({{ site.baseurl }}/contents/vi/chapter06/06_09_Optimal_Transport/), [high-d geometry]({{ site.baseurl }}/contents/vi/chapter06/06_08_High_Dimensional_Geometry/), [Talagrand concentration]({{ site.baseurl }}/contents/vi/chapter08/08_09_Talagrand_Probability/) nuôi generalization và sampling. **Nonconvex optimization** theory (landscape, PL condition, overparam) là biên active.
+NP-đầy đủ cho biết: nếu P≠NP thì không thể kỳ vọng có thuật toán chạy trong thời gian $$n^{O(1)}$$. Trong thực hành, người ta quan tâm đến những con số cụ thể hơn: sắp xếp mất $$n\log n$$, tìm đường đi ngắn nhất giữa mọi cặp đỉnh (APSP) mất $$n^{3}$$, khoảng cách chỉnh sửa (edit distance) mất $$n^{2}$$, ... **Độ phức tạp chi tiết** đặt ra các giả thuyết (SETH, 3SUM, giả thuyết APSP) và dùng các phép quy dẫn *chặt* (tight) để phát biểu rằng: cải thiện số mũ ở bài này sẽ làm sụp đổ giả thuyết kia.
 
-**Continuous algorithms** (interior point, mirror descent, accelerated methods) có dualities đẹp với geometry—họ hàng [Caffarelli PDE / regularity]({{ site.baseurl }}/contents/vi/chapter08/08_08_Caffarelli_PDE/) ở tầm xa, và gần hơn với convex optimization Boyd-style.
+Một vài hệ quả:
 
-Câu hỏi mở: theory nào *predict* được scaling laws foundation models thay vì fit sau?
+- Có những chặn dưới “gần khớp” với chặn trên cho các bài toán **đã** giải được trong thời gian đa thức.  
+- Giải thích vì sao một số kỹ thuật “tăng tốc bằng học máy cho bài NP-khó” không phá được các bức tường chi tiết trên những bài toán đã thuộc P.  
+- Nối các thuật toán đồ thị và xâu cổ điển với những kết quả về độ cứng hiện đại: di sản của Hopcroft–Tarjan gặp độ cứng theo phong cách Yao và Wigderson.
 
----
-
-## 4. Học máy: từ PAC tới foundation models
-
-Valiant cho đặc tả; DL trio cho stack thực dụng; theory đang đuổi:
-
-- Benign overfitting, double descent, NTK/mean-field limits.  
-- Self-supervised objectives = geometry of embeddings?  
-- Alignment / calibration / uncertainty.  
-- Causal & robust learning khi i.i.d. gãy—[Pearl]({{ site.baseurl }}/contents/vi/chapter09/09_11_Pearl_Causality/).  
-- Compute-optimal scaling (empirical laws).
-
-LO6 lặp: **benchmark ≠ định lý**; **định lý proxy ≠ GPT**. Biết đọc abstract là kỹ năng tốt nghiệp chương.
+Câu hỏi mở: các giả thuyết gốc đúng đến mức nào? Có những quan hệ đối ngẫu nào đẹp hơn không?
 
 ---
 
-## 5. Mật mã: post-quantum, proof systems, PETs
+## 3. Tối ưu hóa liên tục, vận chuyển tối ưu, không gian nhiều chiều
 
-[Public-key]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/) và [future crypto]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/) đối mặt Shor (BQP factoring). **Lattice / code / multivariate / isogeny** (với thăng trầm) là ứng viên; NIST standardization là engineering–math hybrid.
+Huấn luyện mô hình học máy chính là một bài toán tối ưu. [Vận chuyển tối ưu]({{ site.baseurl }}/contents/vi/chapter06/06_09_Optimal_Transport/), [hình học không gian nhiều chiều]({{ site.baseurl }}/contents/vi/chapter06/06_08_High_Dimensional_Geometry/) và [bất đẳng thức tập trung của Talagrand]({{ site.baseurl }}/contents/vi/chapter08/08_09_Talagrand_Probability/) là nền cho các nghiên cứu về tổng quát hóa và lấy mẫu. Lý thuyết **tối ưu hóa không lồi** (địa hình hàm mục tiêu, điều kiện Polyak–Łojasiewicz, chế độ có quá nhiều tham số) là một biên giới đang hoạt động mạnh.
 
-**Zero-knowledge** và SNARKs: từ IP/ZK văn hóa Goldwasser–Micali–Wigderson-era tới proof systems thực dụng (blockchain, privacy). Communication complexity và PCP/hardness of approximation nằm nền.
+**Các thuật toán liên tục** (điểm trong, hạ gradient gương, các phương pháp tăng tốc) có quan hệ đối ngẫu đẹp với hình học. Chúng là họ hàng xa của [PDE và tính chính quy của Caffarelli]({{ site.baseurl }}/contents/vi/chapter08/08_08_Caffarelli_PDE/), và gần hơn với tối ưu lồi theo kiểu của Boyd.
 
-**Privacy-enhancing technologies:** differential privacy (toán concentration + mechanism design), secure aggregation, MPC—Yao millionaires lớn tuổi thành industry.
-
-Câu hỏi mở: concrete security vs asymptotic; side channels; crypto-agility.
+Câu hỏi mở: lý thuyết nào có thể *dự đoán trước* các định luật mở rộng quy mô (scaling laws) của mô hình nền tảng, thay vì chỉ khớp lại sau khi có số liệu?
 
 ---
 
-## 6. Lượng tử: thuật toán, complexity, thông tin
+## 4. Học máy: từ PAC đến mô hình nền tảng
 
-[Quantum information]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/): BQP, Shor, Grover, query separations. Biên hiện đại:
+Valiant đưa ra cách đặc tả bài toán học, bộ ba học sâu đưa ra bộ công cụ thực dụng, còn lý thuyết hiện đang chạy theo để giải thích:
 
-- Quantum advantage *provable* vs heuristic sampling.  
-- Quantum error correction thresholds.  
-- QMA, interactive quantum proofs.  
-- Quantum ML claims (thường cần muối LO6).
+- Quá khớp lành tính (benign overfitting), suy giảm kép (double descent), các giới hạn NTK và trường trung bình (mean-field).  
+- Các mục tiêu tự giám sát có phải là hình học của không gian biểu diễn?  
+- Căn chỉnh mô hình (alignment), hiệu chuẩn (calibration), độ bất định.  
+- Học nhân quả và học bền vững khi giả định các mẫu độc lập cùng phân bố (i.i.d.) không còn đúng: xem [Pearl]({{ site.baseurl }}/contents/vi/chapter09/09_11_Pearl_Causality/).  
+- Quy luật mở rộng quy mô tối ưu theo tài nguyên tính toán (các định luật rút ra từ thực nghiệm).
 
-Lượng tử **không** được biết nuốt NP-đầy đủ poly-time. Lặp lại để chống headline.
-
----
-
-## 7. Verification, proof assistants, và “chứng minh là phần mềm”
-
-Hopcroft–Tarjan cho thuật toán đúng trên đồ thị; hiện đại thêm **proof assistants** (Lean, Coq, Isabelle) formalize toán và verify code/compiler. Cầu:
-
-- [Four color / computer proof culture]({{ site.baseurl }}/contents/vi/chapter05/05_07_Four_Color_Proof/).  
-- Formalization projects (Liquid Tensor, perfectoid-adjacent efforts, …) gặp [Fields modern]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/).  
-- Interactive proofs complexity-theoretic vs interactive theorem proving *human–machine*—cùng chữ “interactive”, đối tượng khác.
-
-Câu hỏi mở: AI + Lean có đổi tốc độ formalization thế nào mà không phá chuẩn chứng minh?
+Cần nhắc lại: **điểm số trên bộ đánh giá (benchmark) không phải là định lý**, và **định lý cho mô hình đơn giản hóa không phải là kết quả về GPT**. Đọc phần tóm tắt của một bài báo cho đúng là kỹ năng bạn cần có sau chương này.
 
 ---
 
-## 8. Hệ thống phân tán, streaming, algorithms eng
+## 5. Mật mã: hậu lượng tử, hệ chứng minh, công nghệ tăng cường riêng tư
 
-Communication complexity [Yao]({{ site.baseurl }}/contents/vi/chapter09/09_08_Yao_Complexity/) sống trong **distributed training** (gradient all-reduce cost), **streaming analytics**, **Sketching**. CAP-style tradeoffs, consensus (Paxos/Raft), CRDTs—nửa systems nửa lý thuyết.
+[Mật mã khóa công khai]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/) và [mật mã tương lai]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/) phải đối mặt với thuật toán Shor (phân tích thừa số trong BQP). Các ứng viên là mật mã dựa trên **dàn (lattice), mã sửa lỗi, đa biến và đẳng giống (isogeny)**, trong đó có những hướng từng bị phá và phải làm lại. Việc NIST chuẩn hóa vừa là kỹ thuật vừa là toán học.
 
-**Algorithms engineering:** cache-efficient, parallel graph frameworks, SAT/MIP solvers thực dụng trên bài NP-hard *structured*. Hardness worst-case và tốc độ instance-specific cùng tồn tại—bài học chương 01.
+**Không tiết lộ tri thức** (zero-knowledge) và SNARK: từ các hệ chứng minh tương tác và zero-knowledge thời Goldwasser–Micali–Wigderson đến các hệ chứng minh dùng trong thực tế (blockchain, quyền riêng tư). Độ phức tạp giao tiếp, định lý PCP và độ cứng của xấp xỉ là nền tảng bên dưới.
 
-Câu hỏi mở: hardware (TPU/GPU memory hierarchy) đổi asymptotic nào *thực sự* quan trọng?
+**Công nghệ tăng cường quyền riêng tư (PETs):** quyền riêng tư vi phân (toán học về sự tập trung của xác suất kết hợp với thiết kế cơ chế), tổng hợp an toàn (secure aggregation), tính toán đa bên (MPC). Bài toán “hai triệu phú” của Yao đã trưởng thành thành công nghiệp.
 
----
-
-## 9. Mạng, spectral, dynamics
-
-[Network science]({{ site.baseurl }}/contents/vi/chapter06/06_05_Network_Science/) + expander [Wigderson]({{ site.baseurl }}/contents/vi/chapter09/09_13_Wigderson_Complexity/) + graph algorithms [Hopcroft–Tarjan]({{ site.baseurl }}/contents/vi/chapter09/09_10_Hopcroft_Tarjan/):
-
-- Graph neural nets: inductive bias vs classical spectral.  
-- Epidemic / information dynamics.  
-- Community detection statistical limits (information-theoretic thresholds).
-
-Biên toán–CS–thống kê dày đặc; cẩn thận claim “GNN giải mọi graph problem”.
+Câu hỏi mở: độ an toàn cụ thể so với độ an toàn tiệm cận; tấn công kênh kề (side channels); khả năng thay đổi thuật toán mật mã linh hoạt (crypto-agility).
 
 ---
 
-## 10. Checklist LO6 cho headline tính toán
+## 6. Lượng tử: thuật toán, độ phức tạp, thông tin
 
-Khi thấy tin “X breakthrough”:
+[Thông tin lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/): BQP, Shor, Grover, các phân tách về số truy vấn. Một số hướng ở biên giới hiện nay:
 
-1. **Mô hình?** worst-case / average / empirical benchmark?  
-2. **Tài nguyên?** time, samples, qubits, communication, human labels?  
-3. **Định lý hay demo?**  
-4. **Giả thiết?** hardness, i.i.d., noise, architecture.  
-5. **Phạm vi chuyển?** từ synthetic → life-critical?  
-6. **Tái lập?** code, seed, compute budget.  
-7. **Đã biết cổ điển?** có thuật toán cấu trúc $$O(n+m)$$ bỏ qua không?
+- Lợi thế lượng tử *chứng minh được*, khác với lấy mẫu mang tính heuristic.  
+- Các ngưỡng sửa lỗi lượng tử.  
+- QMA và các hệ chứng minh tương tác lượng tử.  
+- Các tuyên bố về học máy lượng tử (thường nên đọc với thái độ dè dặt).
 
-In checklist ra seminar. Chương 09 thành công nếu bạn *tự* chạy checklist trước khi share tin.
+Người ta **chưa biết** máy tính lượng tử có giải được các bài NP-đầy đủ trong thời gian đa thức hay không. Điều này cần nhắc lại để chống các tiêu đề giật gân.
 
 ---
 
-## 11. Nhầm lẫn thường gặp
+## 7. Kiểm chứng hình thức, trợ lý chứng minh và “chứng minh là phần mềm”
 
-| Tuyên bố | Chỉnh |
+Hopcroft–Tarjan đưa ra những thuật toán đồ thị hiệu quả và đúng đắn. Hiện đại hơn, có thêm **trợ lý chứng minh** (Lean, Coq, Isabelle), dùng để hình thức hóa toán học và kiểm chứng mã nguồn, trình biên dịch. Một số điểm nối:
+
+- [Bài toán bốn màu và văn hóa chứng minh bằng máy tính]({{ site.baseurl }}/contents/vi/chapter05/05_07_Four_Color_Proof/).  
+- Các dự án hình thức hóa (Liquid Tensor, các nỗ lực gần với không gian perfectoid, ...) gặp lại [các bài về giải Fields hiện đại]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/).  
+- Chứng minh tương tác trong lý thuyết độ phức tạp và chứng minh định lý tương tác giữa *người và máy* dùng cùng chữ “tương tác” nhưng nói về hai đối tượng khác nhau.
+
+Câu hỏi mở: AI kết hợp Lean sẽ thay đổi tốc độ hình thức hóa thế nào mà không làm hạ chuẩn mực của chứng minh?
+
+---
+
+## 8. Hệ thống phân tán, dữ liệu luồng, kỹ thuật thuật toán
+
+Độ phức tạp giao tiếp của [Yao]({{ site.baseurl }}/contents/vi/chapter09/09_08_Yao_Complexity/) xuất hiện trong **huấn luyện phân tán** (chi phí all-reduce của gradient), **phân tích dữ liệu luồng** và **kỹ thuật phác thảo dữ liệu** (sketching). Các đánh đổi kiểu CAP, các giao thức đồng thuận (Paxos/Raft) và CRDT là những chủ đề nửa hệ thống, nửa lý thuyết.
+
+**Kỹ thuật thuật toán:** tối ưu cho bộ nhớ đệm, các khung xử lý đồ thị song song, các bộ giải SAT/MIP thực dụng trên những bài NP-khó *có cấu trúc*. Độ khó trong trường hợp xấu nhất và tốc độ trên từng thể hiện cụ thể cùng tồn tại, đó là bài học của chương 01.
+
+Câu hỏi mở: phần cứng (hệ thống phân cấp bộ nhớ của TPU/GPU) làm thay đổi những tiệm cận nào thật sự quan trọng?
+
+---
+
+## 9. Mạng lưới, phổ và động lực học
+
+[Khoa học mạng]({{ site.baseurl }}/contents/vi/chapter06/06_05_Network_Science/), cùng với đồ thị giãn của [Wigderson]({{ site.baseurl }}/contents/vi/chapter09/09_13_Wigderson_Complexity/) và các thuật toán đồ thị của [Hopcroft–Tarjan]({{ site.baseurl }}/contents/vi/chapter09/09_10_Hopcroft_Tarjan/):
+
+- Mạng nơ-ron đồ thị (GNN): thiên kiến quy nạp so với các phương pháp phổ cổ điển.  
+- Động lực học lan truyền dịch bệnh và thông tin.  
+- Giới hạn thống kê của việc phát hiện cộng đồng (các ngưỡng thuộc lý thuyết thông tin).
+
+Đây là vùng biên giới dày đặc giữa toán, khoa học máy tính và thống kê. Hãy thận trọng với tuyên bố “GNN giải được mọi bài toán đồ thị”.
+
+---
+
+## 10. Danh sách kiểm tra cho các tin tức về tính toán
+
+Khi gặp một tin kiểu “X đạt đột phá”:
+
+1. **Mô hình nào?** Trường hợp xấu nhất, trường hợp trung bình, hay chỉ là kết quả thực nghiệm trên một bộ đánh giá?  
+2. **Tài nguyên nào?** Thời gian, số mẫu, qubit, giao tiếp, hay nhãn do con người gán?  
+3. **Định lý hay chỉ là bản trình diễn?**  
+4. **Giả thiết nào?** Độ cứng, mẫu i.i.d., nhiễu, kiến trúc.  
+5. **Phạm vi áp dụng?** Từ dữ liệu tổng hợp sang các ứng dụng liên quan đến tính mạng thì sao?  
+6. **Có tái lập được không?** Mã nguồn, hạt giống ngẫu nhiên, ngân sách tính toán.  
+7. **Cổ điển đã biết chưa?** Có thuật toán khai thác cấu trúc với thời gian $$O(n+m)$$ mà bài báo bỏ qua không?
+
+Hãy in danh sách này ra. Chương 09 thành công nếu bạn *tự* chạy qua danh sách này trước khi chia sẻ một tin.
+
+---
+
+## 11. Những nhầm lẫn thường gặp
+
+| Tuyên bố | Chỉnh lại |
 |----------|--------|
-| “Sau deep learning, complexity theory hết việc.” | Fine-grained, crypto, quantum, proof systems… bận hơn. |
-| “Hệ thống không phải toán.” | Scheduling, congestion, coding, verification đầy định lý. |
-| “Lượng tử + AI = P=NP.” | Không có hệ quả đó. |
-| “Formal proof thay trực giác.” | Bổ sung độ tin cậy; không thay discovery. |
-| “Chỉ cần đọc Turing lectures.” | Lectures là cửa; papers và sách là nhà. |
-| “Một roadmap đủ cho mọi người.” | Chọn trục theo nền tảng (đồ thị / xác suất / đại số…). |
+| “Sau học sâu, lý thuyết độ phức tạp hết việc.” | Độ phức tạp chi tiết, mật mã, lượng tử, hệ chứng minh, ... còn nhiều việc hơn trước. |
+| “Hệ thống không phải là toán.” | Lập lịch, tắc nghẽn, mã hóa, kiểm chứng đều có rất nhiều định lý. |
+| “Lượng tử cộng AI thì P=NP.” | Không có hệ quả nào như vậy. |
+| “Chứng minh hình thức thay thế trực giác.” | Nó bổ sung độ tin cậy, nhưng không thay thế việc khám phá. |
+| “Chỉ cần đọc các bài giảng Turing là đủ.” | Bài giảng là cánh cửa; bài báo và sách mới là nơi ở. |
+| “Một lộ trình phù hợp cho mọi người.” | Hãy chọn trục theo nền tảng của bạn (đồ thị, xác suất, đại số, ...). |
 
 ---
 
 ## 12. Lộ trình gợi ý sau chương 09
 
-**Lộ A — Complexity pure:** Arora–Barak selected chapters → Wigderson book essays → one fine-grained survey.
+**Lộ A, độ phức tạp thuần túy:** một số chương chọn lọc của Arora–Barak, rồi các bài tiểu luận trong sách của Wigderson, rồi một bài tổng quan về độ phức tạp chi tiết.
 
-**Lộ B — Learning + causality:** Kearns–Vazirani hoặc UML → Pearl primer → one ML theory deep dive ([ch06]({{ site.baseurl }}/contents/vi/chapter06/06_10_ML_Theory/)).
+**Lộ B, học máy và nhân quả:** Kearns–Vazirani hoặc *Understanding Machine Learning* (UML), rồi một tài liệu nhập môn của Pearl, rồi một chủ đề sâu về lý thuyết học máy ([chương 6]({{ site.baseurl }}/contents/vi/chapter06/06_10_ML_Theory/)).
 
-**Lộ C — Algorithms:** CLRS advanced graph → planarity/flow notes → practical solver labs.
+**Lộ C, thuật toán:** phần đồ thị nâng cao trong CLRS, rồi ghi chú về đồ thị phẳng và luồng, rồi các bài thực hành với bộ giải thực tế.
 
-**Lộ D — Crypto:** Katz–Lindell hoặc Boneh–Shoup open → lattice crypto intro → ZK survey.
+**Lộ D, mật mã:** Katz–Lindell hoặc sách mở của Boneh–Shoup, rồi nhập môn mật mã dựa trên dàn, rồi một bài tổng quan về zero-knowledge.
 
-**Lộ E — Quantum:** Nielsen–Chuang selected → [ch06 quantum]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/) lại → complexity separations.
+**Lộ E, lượng tử:** các phần chọn lọc của Nielsen–Chuang, rồi đọc lại [phần lượng tử ở chương 6]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/), rồi các kết quả phân tách về độ phức tạp.
 
-Chọn **một** lộ 3 tháng; đừng song song năm lộ rồi bỏ dở.
+Hãy chọn **một** lộ trình trong 3 tháng; đừng chạy song song cả năm lộ rồi bỏ dở.
 
 ---
 
-## 13. Ba spotlight, một toán học
+## 13. Ba giải thưởng, một nền toán học
 
-[Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/) vinh danh đột phá toán (thường dưới 40 theo truyền thống lịch sử giải). [Abel]({{ site.baseurl }}/contents/vi/chapter08/08_01_Tong_quan/) vinh danh sự nghiệp toán trọn đời. Turing vinh danh đóng góp computing—nhưng các bài chương 09 cho thấy **nội dung là định lý, mô hình, và thuật toán**, không phải chỉ sản phẩm. Wigderson mang cả Abel và Turing là biểu tượng: ranh giới giả tạo “toán vs CS” tan khi câu hỏi đủ sâu.
+[Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/) tôn vinh các đột phá toán học (theo truyền thống là người dưới 40 tuổi). [Abel]({{ site.baseurl }}/contents/vi/chapter08/08_01_Tong_quan/) tôn vinh sự nghiệp toán học trọn đời. Turing tôn vinh đóng góp cho tính toán, nhưng các bài trong chương 09 cho thấy **nội dung ở đó là định lý, mô hình và thuật toán**, chứ không chỉ là sản phẩm. Việc Wigderson nhận cả Abel lẫn Turing là một biểu tượng: ranh giới giả tạo giữa “toán” và “khoa học máy tính” biến mất khi câu hỏi đủ sâu.
 
-Khi viết luận seminar so ba giải, tránh bảng “Fields = thuần, Turing = ứng dụng”. Planarity $$O(n)$$, PAC, do-calculus, expander derandomization đều là toán; app chỉ là bóng trên tường.
+Khi viết bài so sánh ba giải thưởng, hãy tránh bảng kiểu “Fields là thuần túy, Turing là ứng dụng”. Thuật toán kiểm tra đồ thị phẳng chạy trong $$O(n)$$, học PAC, phép tính do-calculus, khử ngẫu nhiên bằng đồ thị giãn đều là toán học; ứng dụng chỉ là cái bóng của chúng trên tường.
 
-### Việc *không* làm sau chương
+### Những việc *không* nên làm sau chương này
 
-- Không thuộc năm trao giải thay vì cơ chế.  
-- Không claim “đã cover TCS”.  
-- Không dùng NP-đầy đủ để kết thúc mọi thảo luận thực hành solvers.  
-- Không dùng scale DL để kết thúc mọi thảo luận sample complexity hay nhân quả.
+- Không học thuộc năm trao giải thay cho cơ chế.  
+- Không tuyên bố rằng mình “đã nắm hết khoa học máy tính lý thuyết”.  
+- Không dùng NP-đầy đủ để chấm dứt mọi cuộc thảo luận về bộ giải trong thực hành.  
+- Không dùng việc tăng quy mô của học sâu để chấm dứt mọi cuộc thảo luận về độ phức tạp mẫu hay nhân quả.
 
-### Việc *nên* làm
+### Những việc *nên* làm
 
-- Giữ sổ tay ba cột: *định lý / giả thuyết / demo*.  
-- Mỗi tháng một lower bound hoặc identification argument viết lại bằng lời mình.  
-- Một mini-implementation (SCC, fingerprinting EQ, adjustment table, CNN nhỏ) để cơ thể nhớ cost.
+- Giữ một cuốn sổ ba cột: *định lý / giả thuyết / bản trình diễn*.  
+- Mỗi tháng chọn một chặn dưới hoặc một lập luận về định danh nhân quả và viết lại bằng lời của mình.  
+- Tự cài đặt một chương trình nhỏ (thành phần liên thông mạnh, vân tay để kiểm tra bằng nhau, bảng hiệu chỉnh nhân quả, một CNN nhỏ) để nhớ chi phí thật sự.
 
 ---
 
 ## Bài tập
 
-1. Viết sáu trục biên hiện đại (của bạn); mỗi trục một câu hỏi mở.  
-2. Fine-grained vs NP-complete: một đoạn phân biệt.  
-3. Áp 7 câu checklist Mục 10 lên một headline thật bạn tìm được tuần này.  
-4. **≤250 từ:** Vì sao communication complexity vẫn “thực dụng” trong distributed ML.  
-5. Chọn lộ A–E; lập lịch đọc 4 tuần (tuần / tài liệu / output).  
-6. Nối [Abel Wigderson]({{ site.baseurl }}/contents/vi/chapter08/08_06_Lovasz_Wigderson/) và [Turing Wigderson]({{ site.baseurl }}/contents/vi/chapter09/09_13_Wigderson_Complexity/): một câu khác audience.  
-7. **Seminar nhóm:** mỗi người một trục Mục 2–9; thuyết trình 5 phút + một open problem.
+1. Viết ra sáu trục biên giới hiện đại (do bạn chọn); mỗi trục kèm một câu hỏi mở.  
+2. Độ phức tạp chi tiết so với NP-đầy đủ: viết một đoạn phân biệt hai khái niệm.  
+3. Áp bảy câu hỏi trong danh sách ở Mục 10 lên một tiêu đề báo thật mà bạn tìm được trong tuần này.  
+4. **Tối đa 250 từ:** vì sao độ phức tạp giao tiếp vẫn “thực dụng” trong học máy phân tán.  
+5. Chọn một lộ trình A–E; lập lịch đọc 4 tuần (tuần nào, tài liệu gì, kết quả đầu ra).  
+6. Nối [giải Abel của Wigderson]({{ site.baseurl }}/contents/vi/chapter08/08_06_Lovasz_Wigderson/) với [giải Turing của Wigderson]({{ site.baseurl }}/contents/vi/chapter09/09_13_Wigderson_Complexity/): viết một câu cho mỗi nhóm độc giả khác nhau.  
+7. **Làm việc nhóm:** mỗi người chọn một trục trong Mục 2–9; thuyết trình 5 phút và nêu một bài toán mở.
 
 ---
 
 
-## Nguồn video (gói math-video-researcher)
+## Video và tài liệu
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh. Chi tiết: `research/video-research/modern-themes/`.
+Video gợi ý, dùng để làm quen với bối cảnh chứ không thay cho chứng minh: Quanta về P vs NP, [https://www.youtube.com/watch?v=pQsdygaYcE4](https://www.youtube.com/watch?v=pQsdygaYcE4).
 
-**Khẩu hiệu từ gói nghiên cứu**
-
-- Tổng quan biên toán–CS; cập nhật amturing.acm.org/byyear mỗi năm.
-
-**Thứ tự xem gợi ý**
-
-1. **ORIENTATION** — Quanta P vs NP: [https://www.youtube.com/watch?v=pQsdygaYcE4](https://www.youtube.com/watch?v=pQsdygaYcE4).  
-
-**Cổng chính thức / tài liệu**
-
-- Turing winners by year: https://amturing.acm.org/byyear.cfm  
-- Turing Award home: https://amturing.acm.org/  
-- Wigderson 2023 (randomness): https://amturing.acm.org/award_winners/wigderson_3844537.cfm  
-- Deep learning 2018 trio hub via Hinton: https://amturing.acm.org/award_winners/hinton_4791679.cfm  
-- Goldwasser 2012: https://amturing.acm.org/award_winners/goldwasser_8627889.cfm  
-- Abel Prize (math lifetime contrast): https://abelprize.no/  
-
-Danh mục URL đầy đủ: `research/video-research/modern-themes/references.md`.
-
-
-### Transcript & frames (batch extract)
-
-Transcript caption và unit theo thời gian: `research/video-research/modern-themes/transcripts/` · trạng thái: `research/video-research/modern-themes/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
+Nên kiểm tra danh sách người nhận giải Turing theo năm tại amturing.acm.org/byyear mỗi năm để cập nhật.
 
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/modern-themes_pQsdygaYcE4_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video đầu tiên.*
 
-## Tài liệu tham khảo
+## Tài liệu tham khảo trực tuyến
 
-
-### Gói nghiên cứu video (mọi URL)
-
-Danh mục đầy đủ: `research/video-research/modern-themes/references.md`.
-
-1. Turing winners by year — https://amturing.acm.org/byyear.cfm  
-2. Turing Award home — https://amturing.acm.org/  
-3. Wigderson 2023 (randomness) — https://amturing.acm.org/award_winners/wigderson_3844537.cfm  
-4. Deep learning 2018 trio hub via Hinton — https://amturing.acm.org/award_winners/hinton_4791679.cfm  
+1. Danh sách người nhận giải Turing theo năm — https://amturing.acm.org/byyear.cfm  
+2. Trang chủ giải Turing — https://amturing.acm.org/  
+3. Wigderson 2023 (tính ngẫu nhiên) — https://amturing.acm.org/award_winners/wigderson_3844537.cfm  
+4. Nhóm học sâu 2018, qua trang của Hinton — https://amturing.acm.org/award_winners/hinton_4791679.cfm  
 5. Goldwasser 2012 — https://amturing.acm.org/award_winners/goldwasser_8627889.cfm  
-6. Quanta P vs NP — https://www.youtube.com/watch?v=pQsdygaYcE4  
-7. Abel Prize (math lifetime contrast) — https://abelprize.no/  
-8. Clay Millennium problems — https://www.claymath.org/millennium-problems/  
-9. Wikipedia — Theoretical computer science — https://en.wikipedia.org/wiki/Theoretical_computer_science  
-10. ACM Turing lectures playlist — https://www.youtube.com/playlist?list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6  
-11. Thư mục gói: `research/video-research/modern-themes/`.
+6. Quanta về P vs NP — https://www.youtube.com/watch?v=pQsdygaYcE4  
+7. Giải Abel (đối chiếu: giải trọn đời về toán) — https://abelprize.no/  
+8. Các bài toán Thiên niên kỷ của Clay — https://www.claymath.org/millennium-problems/  
+9. Wikipedia — Khoa học máy tính lý thuyết — https://en.wikipedia.org/wiki/Theoretical_computer_science  
+10. Danh sách các bài giảng giải Turing của ACM — https://www.youtube.com/playlist?list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6  
 
 1. Arora & Barak — *Computational Complexity*.  
 2. Wigderson — *Mathematics and Computation*.  
-3. Surveys: fine-grained complexity; pseudorandomness; causal ML; post-quantum crypto; formal verification in math.  
-4. ACM Turing lectures (Yao, Valiant, Hopcroft–Tarjan, Pearl, Bengio–Hinton–LeCun, Wigderson) — nghe như primary sources văn hóa.  
-5. Khóa: [tổng quan ch09]({{ site.baseurl }}/contents/vi/chapter09/09_00_Tong_quan/); [độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/); [toán AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/); [mật mã biên giới]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/); [lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/).
+3. Các bài tổng quan: độ phức tạp chi tiết; tính giả ngẫu nhiên; học máy nhân quả; mật mã hậu lượng tử; kiểm chứng hình thức trong toán học.  
+4. Các bài giảng Turing của ACM (Yao, Valiant, Hopcroft–Tarjan, Pearl, Bengio–Hinton–LeCun, Wigderson), nên nghe như nguồn gốc cho văn hóa của ngành.  
 
 ---
 
 ## Hướng đi tiếp
 
-- Quay [tổng quan chương]({{ site.baseurl }}/contents/vi/chapter09/09_00_Tong_quan/) và vẽ mindmap cá nhân.  
-- Củng cố Everest mở: [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/).  
-- So spotrange Fields / Abel / Turing: ba spotlight, một toán học.  
-- Thực hành: một mini-project (SCC visualizer / PAC simulation / causal adjustment table / CNN ablation / expander mixing).  
-- Đọc: *một* Turing lecture video + *một* survey trục bạn chọn.  
-- Chương kế / ngoài: theo lộ A–E; hoặc studio [Chương 7]({{ site.baseurl }}/contents/vi/chapter07/07_00_Tong_quan/) nếu muốn chế độ khám phá.
+- Quay lại [tổng quan chương]({{ site.baseurl }}/contents/vi/chapter09/09_00_Tong_quan/) và vẽ sơ đồ tư duy cá nhân.  
+- Củng cố đỉnh núi còn chưa chinh phục: [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/).  
+- So sánh ba giải Fields, Abel và Turing: ba ánh đèn, một nền toán học.  
+- Thực hành: một dự án nhỏ (hiển thị thành phần liên thông mạnh, mô phỏng PAC, bảng hiệu chỉnh nhân quả, thí nghiệm bỏ thành phần ở CNN, hoặc trộn nhanh trên đồ thị giãn).  
+- Đọc: *một* bài giảng Turing dạng video và *một* bài tổng quan về trục bạn chọn.  
+- Chương kế tiếp hoặc bên ngoài: theo lộ trình A–E; hoặc sang xưởng thực hành của [Chương 7]({{ site.baseurl }}/contents/vi/chapter07/07_00_Tong_quan/) nếu muốn khám phá tự do.
 
-**Kết chương.** Giải thưởng là đèn. Thuật toán, chứng minh, học, nhân quả, ngẫu nhiên và hệ thống là sân khấu. Hãy ở lại sân khấu.
+**Kết chương.** Giải thưởng chỉ là ánh đèn. Thuật toán, chứng minh, học máy, nhân quả, tính ngẫu nhiên và hệ thống mới là sân khấu. Hãy ở lại sân khấu.
 
 ## Video tham khảo
 
-- **xem trước** — [P vs NP Explained: Computer Science's Biggest Puzzle](https://www.youtube.com/watch?v=pQsdygaYcE4) — Quanta Magazine, tiếng Anh. Xem trước. “P vs NP Explained: Computer Science's Biggest Puzzle” định hướng cho mục tiêu của bài: Sau bài, bạn có thể liệt kê ít nhất sáu trục biên toán–CS hiện đại (fine-grained complexity, optimization & continuous algorithms, ML theory at scale, crypto post-quantum, quantum…
-- [But what is a neural network? | Deep learning chapter 1](https://www.youtube.com/watch?v=aircAruvnKk) — 3Blue1Brown, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài, bạn có thể liệt kê ít nhất sáu trục biên toán–CS hiện đại (fine-grained complexity, optimization & continuous algorithms, ML theory at scale, crypto post-quantum, quantum…
-- [How Does a Quantum Computer Work?](https://www.youtube.com/watch?v=g_IaVepNDT4) — Veritasium, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài, bạn có thể liệt kê ít nhất sáu trục biên toán–CS hiện đại (fine-grained complexity, optimization & continuous algorithms, ML theory at scale, crypto post-quantum, quantum…
+- **Xem trước** — [P vs NP Explained: Computer Science's Biggest Puzzle](https://www.youtube.com/watch?v=pQsdygaYcE4) — Quanta Magazine, tiếng Anh. Xem trước để làm quen với chủ đề.
+- [But what is a neural network? | Deep learning chapter 1](https://www.youtube.com/watch?v=aircAruvnKk) — 3Blue1Brown, tiếng Anh. Xem sau khi đã nắm ý chính.
+- [How Does a Quantum Computer Work?](https://www.youtube.com/watch?v=g_IaVepNDT4) — Veritasium, tiếng Anh. Góc nhìn bổ sung.

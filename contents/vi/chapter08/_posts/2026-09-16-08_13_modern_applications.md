@@ -12,58 +12,58 @@ lesson_type: optional
 
 ## Mục tiêu học tập
 
-Sau bài tùy chọn này, bạn tái sử dụng được ba *ý tưởng* quy mô Abel—tập trung, chính quy liên tục, và cấu trúc rời rạc như toán—bên trong các hệ thống CS/DS 2022–2026, mà không thêm tiểu sử vào gallery Abel.
+Sau bài tùy chọn này, bạn có thể nhận ra ba *ý tưởng* lớn của các bài giải Abel trong chương, gồm hiện tượng tập trung, tính chính quy của nghiệm liên tục và cấu trúc rời rạc xem như toán học thực thụ, khi chúng xuất hiện trong các hệ thống CS/DS giai đoạn 2022–2026. Bài này không thêm tiểu sử nào vào phần giới thiệu các laureate.
 
 ## Kiến thức cần có
 
-Tổng quan chương và bất kỳ một trong [Talagrand]({{ site.baseurl }}/contents/vi/chapter08/08_09_Talagrand_Probability/), [Caffarelli]({{ site.baseurl }}/contents/vi/chapter08/08_08_Caffarelli_PDE/), hoặc [Lovász–Wigderson]({{ site.baseurl }}/contents/vi/chapter08/08_06_Lovasz_Wigderson/). Trang này không phải trích dẫn giải lần hai.
+Phần tổng quan của chương, cùng ít nhất một trong các bài [Talagrand]({{ site.baseurl }}/contents/vi/chapter08/08_09_Talagrand_Probability/), [Caffarelli]({{ site.baseurl }}/contents/vi/chapter08/08_08_Caffarelli_PDE/) hoặc [Lovász–Wigderson]({{ site.baseurl }}/contents/vi/chapter08/08_06_Lovasz_Wigderson/). Bài này không nhắc lại phần trích dẫn giải thưởng.
 
 ## Mở đầu
 
-Các bài Abel tôn vinh hệ thời tiết: hàng thập niên công cụ. Những công cụ ấy xuất hiện trong sản phẩm dưới tên khác. Bất đẳng thức tập trung chống đỡ các slogan tổng quát hóa. Chính quy PDE chống đỡ khi một bộ giải học được thậm chí đang hỏi một câu có nghĩa. Expander và cấu trúc đồ thị chống đỡ cả lý thuyết mã và graph Transformer hiện đại. Nước cờ bổ sung là giữ ý tưởng trọn đời và bỏ tiệc.
+Các bài về giải Abel nói về những công cụ được xây dựng qua hàng chục năm. Trong sản phẩm hiện nay, chúng thường xuất hiện dưới những cái tên khác. Các bất đẳng thức tập trung nằm sau nhiều phát biểu chung về khả năng tổng quát hóa. Lý thuyết chính quy cho PDE giúp ta hỏi một bộ giải học được có đang trả lời một câu hỏi có nghĩa hay không. Đồ thị expander và các cấu trúc đồ thị làm nền cho cả lý thuyết mã lẫn các graph Transformer hiện đại. Điều cần làm là giữ lại ý tưởng cốt lõi và bỏ đi phần ồn ào xung quanh.
 
 ## Phát triển khái niệm
 
-Một hàm Lipschitz $$f$$ của nhiều biến độc lập thường tập trung: lệch cỡ $$t$$ có đuôi như $$e^{-t^2/c}$$. Lý thuyết học biến bản năng ấy thành bound PAC–Bayes và bound lý thuyết thông tin trên khoảng $$R(\hat h)-\hat R_S(\hat h)$$. Lý thuyết PDE liên tục hỏi liệu một biên tự do hay một trường Navier–Stokes có thể sinh kỳ dị; một neural operator bỏ qua câu ấy vẫn có thể nội suy một tập dữ liệu. Toán rời rạc hỏi expander và các mã hóa đồ thị mà một mạng có thể dùng.
+Một hàm Lipschitz $$f$$ của nhiều biến độc lập thường tập trung quanh giá trị trung tâm: xác suất lệch cỡ $$t$$ giảm theo $$e^{-t^2/c}$$. Lý thuyết học máy biến trực giác này thành các cận PAC–Bayes và cận dựa trên lý thuyết thông tin cho độ chênh $$R(\hat h)-\hat R_S(\hat h)$$. Với PDE liên tục, câu hỏi là một biên tự do hay một trường Navier–Stokes có thể sinh ra kỳ dị hay không; một neural operator không quan tâm đến câu hỏi đó vẫn có thể nội suy tốt một tập dữ liệu. Còn toán rời rạc cho ta biết những expander và cách mã hóa đồ thị nào mà một mạng nơ-ron có thể dùng.
 
-## Ba chỗ đáp
+## Ba ví dụ
 
-### 1. Tập trung như động cơ tổng quát hóa
+### 1. Hiện tượng tập trung và khả năng tổng quát hóa
 
-Alquier (2024) khảo sát bound PAC–Bayes ở dạng người thực hành học máy dùng được: một posterior (hoặc một bộ dự đoán ngẫu nhiên) cho bound xác suất cao trên rủi ro thật theo rủi ro thực nghiệm cộng một hạng phức tạp. Chân dung Talagrand là lý do hình học khiến chiều cao thường làm đại lượng Lipschitz gần như hằng. Khảo sát ấy là *bản xuất khẩu* của lý do ấy vào chứng chỉ huấn luyện. Phần lớn bound mạng sâu vẫn vô ích về số; đó là giới hạn của bản xuất khẩu, không phải thất bại của tập trung.
+Alquier (2024) có một bài tổng quan về các cận PAC–Bayes theo cách người làm học máy dùng được: từ một phân phối posterior (hoặc một bộ dự đoán ngẫu nhiên), ta có cận với xác suất cao cho rủi ro thật, tính từ rủi ro thực nghiệm cộng thêm một số hạng phức tạp. Ý tưởng hình học của Talagrand giải thích vì sao ở chiều cao, các đại lượng Lipschitz gần như là hằng số. Bài tổng quan trên đưa ý tưởng này vào việc chứng nhận chất lượng huấn luyện. Phần lớn các cận cho mạng sâu hiện vẫn quá lỏng để có giá trị về mặt số; đó là hạn chế của cách áp dụng, không phải bằng chứng rằng hiện tượng tập trung vô dụng.
 
-### 2. Bộ giải liên tục và sự trung thực biên tự do
+### 2. Bộ giải liên tục và vấn đề kỳ dị
 
-Kovachki et al. (2023) lại cung cấp các thí nghiệm neural operator trên ánh xạ kiểu Navier–Stokes. Hãy đọc chúng cạnh văn hóa chính quy của Caffarelli: nếu bài toán liên tục có thể kỳ dị, một mạng trơn là mô hình của một thế giới *đã làm trơn*. PINN và toán tử là kỹ thuật hữu ích; chúng không cho lý thuyết chính quy mà chương này tôn vinh nghỉ hưu.
+Kovachki và cộng sự (2023) trình bày các thí nghiệm neural operator trên những ánh xạ kiểu Navier–Stokes. Hãy đọc chúng cùng với lý thuyết chính quy của Caffarelli: nếu bài toán liên tục có thể có kỳ dị, thì một mạng trơn chỉ là mô hình của một thế giới *đã được làm trơn*. PINN và neural operator là những kỹ thuật hữu ích, nhưng chúng không thay thế được lý thuyết chính quy mà chương này nhắc đến.
 
-### 3. Đồ thị như toán hạng nhất trong kiến trúc 2022
+### 3. Đồ thị là thành phần cơ bản trong kiến trúc
 
-Rampášek et al. (2022) xem mã hóa vị trí, truyền tin, và attention toàn cục như một sản phẩm GPS. Đó là bài học mang vị Lovász–Wigderson—cấu trúc rời rạc không phải phần khởi động cho giải tích—viết thành kiến trúc NeurIPS. Hòa trộn kiểu expander là một lý do attention toàn cục giúp; đó không phải chứng minh mô hình *là* một expander.
+Rampášek và cộng sự (2022) kết hợp mã hóa vị trí, truyền thông điệp cục bộ và attention toàn cục trong kiến trúc GPS. Đây là bài học theo tinh thần Lovász–Wigderson: cấu trúc rời rạc không chỉ là bước khởi động cho giải tích, và nó được đưa vào một kiến trúc ở hội nghị NeurIPS. Hiệu ứng trộn giống expander là một lý do khiến attention toàn cục có ích, nhưng điều đó không chứng minh rằng mô hình *chính là* một expander.
 
 ## Diễn giải và nhận định
 
-Một số PAC–Bayes trên sổ phòng lab không phải bất đẳng thức Talagrand. Một hình xoáy đẹp không phải định lý Caffarelli. Một checkpoint GraphGPS không phải dựng expander. Toán trọn đời là thói quen biết mình đang mượn bổ đề nào.
+Một cận PAC–Bayes tính ra trong phòng thí nghiệm không phải là bất đẳng thức Talagrand. Một hình ảnh xoáy đẹp không phải là định lý của Caffarelli. Một checkpoint GraphGPS không phải là một cách dựng expander. Điều cần ghi nhớ là luôn biết mình đang mượn bổ đề nào.
 
 ## Giới hạn và hướng mở rộng
 
-Gauge theory của Uhlenbeck, $$D$$-module của Kashiwara, và Atiyah–Singer để lại cho các bài của chúng; bản xuất khẩu CS (tính chỉ số, giải tích đại số tính toán) là thật nhưng mỏng hơn trong các chồng sản phẩm 2022–2026 so với tập trung, PDE, và đồ thị.
+Lý thuyết gauge của Uhlenbeck, $$D$$-môđun của Kashiwara và định lý Atiyah–Singer được trình bày ở các bài riêng. Chúng cũng có ứng dụng trong khoa học máy tính (tính chỉ số, đại số tính toán), nhưng trong các sản phẩm giai đoạn 2022–2026 thì ít thấy hơn so với hiện tượng tập trung, PDE và đồ thị.
 
 ## Bài tập
 
-1. Viết một câu hình PAC–Bayes dùng đúng tập trung và một câu tuyên bố quá “chúng tôi đã chứng minh tổng quát hóa của GPT.”
-2. Một neural operator được huấn luyện trên lực ép trơn. Câu hỏi kiểu Caffarelli nào vẫn chưa được hỏi?
-3. Gọi tên một thành phần GPS là lý thuyết đồ thị và một thành phần là đại số tuyến tính (attention). Vì sao bài toán rời rạc Abel quan tâm rằng cả hai đều là toán?
-4. Vì sao trang này tránh thêm một đoạn kể năm giải?
+1. Viết một câu về PAC–Bayes dùng hiện tượng tập trung đúng cách, và một câu nói quá, kiểu “chúng tôi đã chứng minh khả năng tổng quát hóa của GPT”.
+2. Một neural operator được huấn luyện trên lực cưỡng bức trơn. Câu hỏi nào theo kiểu Caffarelli vẫn chưa được đặt ra?
+3. Chỉ ra một thành phần của GPS thuộc lý thuyết đồ thị và một thành phần thuộc đại số tuyến tính (attention). Vì sao toán rời rạc trong giải Abel lại quan tâm đến việc cả hai đều là toán?
+4. Vì sao bài này không thêm một đoạn kể lại các năm trao giải?
 
 ## Tài liệu tham khảo
 
 - Alquier, P. (2024). User-friendly introduction to PAC–Bayes bounds. *Foundations and Trends in Machine Learning*. [arXiv:2110.11216](https://arxiv.org/abs/2110.11216).
 - Kovachki, N., et al. (2023). Neural operator. *JMLR*, 24(89).
 - Rampášek, L., et al. (2022). Recipe for a general, powerful, scalable graph transformer. *NeurIPS*. [arXiv:2205.12454](https://arxiv.org/abs/2205.12454).
-- Khóa học: [Talagrand]({{ site.baseurl }}/contents/vi/chapter08/08_09_Talagrand_Probability/), [Caffarelli]({{ site.baseurl }}/contents/vi/chapter08/08_08_Caffarelli_PDE/), [Lovász–Wigderson]({{ site.baseurl }}/contents/vi/chapter08/08_06_Lovasz_Wigderson/).
+- Các bài liên quan: [Talagrand]({{ site.baseurl }}/contents/vi/chapter08/08_09_Talagrand_Probability/), [Caffarelli]({{ site.baseurl }}/contents/vi/chapter08/08_08_Caffarelli_PDE/), [Lovász–Wigderson]({{ site.baseurl }}/contents/vi/chapter08/08_06_Lovasz_Wigderson/).
 
 ## Video tham khảo
 
-- **xem trước** — [Michel Talagrand: Chaining: a long story](https://www.youtube.com/watch?v=3yIwl6XC0xA) — The Abel Prize, tiếng Anh. Xem trước. “Michel Talagrand: Chaining: a long story” định hướng cho mục tiêu của bài: Sau bài tùy chọn này, bạn tái sử dụng được ba ý tưởng quy mô Abel—tập trung, chính quy liên tục, và cấu trúc rời rạc như toán—bên trong các hệ thống CS/DS 2022–2026, mà không thêm…
-- [Luis Caffarelli: Non-linear and non-local surface structure problems and some of its applications](https://www.youtube.com/watch?v=dVGX6QhO8rU) — The Abel Prize, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài tùy chọn này, bạn tái sử dụng được ba ý tưởng quy mô Abel—tập trung, chính quy liên tục, và cấu trúc rời rạc như toán—bên trong các hệ thống CS/DS 2022–2026, mà không thêm…
-- [The Abel lectures: László Lovász and Avi Wigderson](https://www.youtube.com/watch?v=zqiL57ebP-k) — The Abel Prize, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài tùy chọn này, bạn tái sử dụng được ba ý tưởng quy mô Abel—tập trung, chính quy liên tục, và cấu trúc rời rạc như toán—bên trong các hệ thống CS/DS 2022–2026, mà không thêm…
+- **Xem trước** — [Michel Talagrand: Chaining: a long story](https://www.youtube.com/watch?v=3yIwl6XC0xA) — The Abel Prize, tiếng Anh. Bài giảng của Talagrand về kỹ thuật chaining, liên quan đến ví dụ về hiện tượng tập trung.
+- [Luis Caffarelli: Non-linear and non-local surface structure problems and some of its applications](https://www.youtube.com/watch?v=dVGX6QhO8rU) — The Abel Prize, tiếng Anh. Xem sau khi đã nắm ý chính, liên quan đến ví dụ về tính chính quy của PDE.
+- [The Abel lectures: László Lovász and Avi Wigderson](https://www.youtube.com/watch?v=zqiL57ebP-k) — The Abel Prize, tiếng Anh. Góc nhìn bổ sung về cấu trúc rời rạc, liên quan đến ví dụ về đồ thị.

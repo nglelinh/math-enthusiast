@@ -10,187 +10,178 @@ categories:
 lesson_type: required
 ---
 
-**Dennis Parnell Sullivan** (Stony Brook University; CUNY Graduate Center) nhận **Abel Prize 2022**
+**Dennis Parnell Sullivan** (Đại học Stony Brook; CUNY Graduate Center) nhận **Giải Abel 2022**
 
 > “for his groundbreaking contributions to topology in its broadest sense, and in particular its algebraic, geometric and dynamical aspects.”  
-> — [Citation ủy ban Abel](https://abelprize.no/abel-prize-laureates/2022)
+> — [Citation của ủy ban Abel](https://abelprize.no/abel-prize-laureates/2022)
 
-Ủy ban mô tả ông liên tục đổi cảnh quan tôpô, dùng ý đại số, giải tích, hình học “như virtuoso thực thụ.” Bài này đặt Sullivan giữa tôpô **và** động lực; nêu định lý **no wandering domains** cho rational map; so sự nghiệp virtuoso trọn đời với sử thi một định lý (Poincaré qua Ricci flow). Tài liệu: [abelprize.no](https://abelprize.no/).
+Ủy ban mô tả ông liên tục thay đổi cảnh quan của tôpô, dùng các ý tưởng đại số, giải tích, hình học “như một nghệ sĩ bậc thầy thực thụ”. Bài này đặt Sullivan giữa tôpô **và** động lực học; nêu định lý **không có miền lang thang** (no wandering domains) cho ánh xạ hữu tỉ; và so sánh một sự nghiệp “bậc thầy” trọn đời với bản hùng ca của một định lý (Poincaré qua dòng Ricci). Tài liệu: [abelprize.no](https://abelprize.no/).
 
 ---
 
 ## Mục tiêu học tập
 
-Sau bài, bạn có thể đặt Sullivan qua tôpô đại số, tôpô hình học, và complex dynamics; nêu no wandering domains và wandering Fatou component là gì; giải thích “cấu trúc hình học trên không gian” như chủ đề thống nhất; so tôpô trọn đời với sử thi một định lý ([Perelman]({{ site.baseurl }}/contents/vi/chapter02/02_03_Perelman_Poincare/)); tránh rút Abel 2022 còn một kết quả.
+Sau bài này, bạn có thể đặt Sullivan vào ba mảng: tôpô đại số, tôpô hình học và động lực phức; nêu được định lý không có miền lang thang và thành phần Fatou lang thang là gì; giải thích “cấu trúc hình học trên không gian” như chủ đề thống nhất; so sánh tôpô của cả một đời với bản hùng ca một định lý ([Perelman]({{ site.baseurl }}/contents/vi/chapter02/02_03_Perelman_Poincare/)); và tránh việc rút gọn giải Abel 2022 thành một kết quả duy nhất.
 
-**Kiến thức nền.** Ánh xạ liên tục; từ vựng tôpô cơ bản; ý lặp hàm $$f$$, $$f\circ f$$, $$f^{\circ n}$$. Giải tích phức ngoài “có hàm biến phức” không bắt buộc lần đầu.
+**Kiến thức nền.** Ánh xạ liên tục; từ vựng cơ bản của tôpô; ý niệm lặp hàm $$f$$, $$f\circ f$$, $$f^{\circ n}$$. Giải tích phức, ngoài việc biết “có hàm biến phức”, không bắt buộc ở lần đọc đầu.
 
 ---
 
 ## 1. Tôpô theo nghĩa rộng
 
-Sự nghiệp Sullivan trải surgery theory, rational homotopy, lý thuyết đa tạp, ánh xạ quasiconformal, và hệ động lực. Tài liệu Abel nhấn tầm nhìn nhất quán: **cấu trúc hình học trên không gian**—dù đa tạp trơn hay Julia set fractal.
+Sự nghiệp của Sullivan trải qua lý thuyết phẫu thuật (surgery), đồng luân hữu tỉ, lý thuyết đa tạp, ánh xạ tựa bảo giác, và hệ động lực. Tài liệu của giải Abel nhấn mạnh một tầm nhìn nhất quán: **cấu trúc hình học trên không gian**, dù đó là đa tạp trơn hay một tập Julia dạng fractal.
 
-“Topology in its broadest sense” không phải marketing:
+“Topology in its broadest sense” không phải là lời quảng cáo:
 
-- Công cụ **đại số** (homotopy, toán tử cohomologi, mô hình hữu tỷ);  
-- Công cụ **hình học** (cấu trúc trên đa tạp, hình học quasiconformal);  
-- Công cụ **động lực** (lặp, rigidity của ánh xạ phức).
+- Công cụ **đại số** (đồng luân, các toán tử đồng điều, mô hình hữu tỉ);  
+- Công cụ **hình học** (cấu trúc trên đa tạp, hình học tựa bảo giác);  
+- Công cụ **động lực** (phép lặp, tính cứng của các ánh xạ phức).
 
-Ít người đi thông thạo cả ba suốt thập niên. Abel 2022 vinh danh cung đó. Citation là lời mời **đừng tường động lực ra ngoài toán thuần**.
-
----
-
-## 2. Chủ đề cột mốc (chọn lọc)
-
-Không một bài báo là toàn bộ câu chuyện. Bản đồ một phần:
-
-### Surgery và đa tạp
-
-Surgery hỏi khi nào đa tạp này sửa thành đa tạp kia bằng cắt-dán mảnh chuẩn, nối thông tin homotopy với phân loại hình học. Sullivan góp định hình ngôn ngữ tôpô chiều cao hiện đại.
-
-### Rational homotopy và mô hình đại số
-
-Rational homotopy nghiên cứu không gian “bỏ torsion,” thường qua mô hình đại số (DGA). Cách tiếp cận Sullivan làm mô hình đại số thành ngôn ngữ thực dụng cho homotopy type trên $$\mathbb{Q}$$.
-
-### Quasiconformal và cấu trúc hình học
-
-Ánh xạ quasiconformal méo góc có kiểm soát: đủ linh hoạt để biến dạng, đủ cứng cho kết luận hình học. Sullivan dùng chúng làm cầu giải tích–tôpô.
-
-### Động lực: no wandering domains
-
-Trong complex dynamics, lặp rational map trên mặt cầu Riemann sinh Fatou set (trật tự) và Julia set (hỗn độn). Sullivan chứng minh **rational map không có wandering domain**, giải giả thuyết lâu năm và nối complex dynamics với rigidity tôpô.
+Rất ít người đi thông thạo cả ba suốt nhiều thập niên. Giải Abel 2022 vinh danh cung đường đó. Citation là lời mời **đừng dựng tường ngăn động lực học ra khỏi toán thuần túy**.
 
 ---
 
-## 3. Động lực gặp tôpô: no wandering domains
+## 2. Các chủ đề cột mốc (chọn lọc)
 
-Cho $$f:\widehat{\mathbb{C}}\to\widehat{\mathbb{C}}$$ rational (thương đa thức) tác động trên cầu Riemann. **Fatou set** là tập mở lớn nhất trên đó họ lặp $$\{f^{\circ n}\}$$ normal (equicontinuous trên compact, metric cầu). Thành phần liên thông Fatou set là **Fatou component**.
+Không có bài báo nào là toàn bộ câu chuyện. Đây là một bản đồ một phần:
 
-**Wandering domain** sẽ là Fatou component $$U$$ sao cho các ảnh tiến
+### Phẫu thuật và đa tạp
+
+Lý thuyết phẫu thuật hỏi khi nào một đa tạp có thể được sửa thành một đa tạp khác bằng cách cắt và dán các mảnh chuẩn, nối thông tin đồng luân với phân loại hình học. Sullivan có đóng góp trong việc định hình ngôn ngữ của tôpô chiều cao hiện đại.
+
+### Đồng luân hữu tỉ và mô hình đại số
+
+Đồng luân hữu tỉ nghiên cứu các không gian sau khi “bỏ phần xoắn”, thường qua các mô hình đại số (DGA). Cách tiếp cận của Sullivan biến mô hình đại số thành một ngôn ngữ thực dụng cho kiểu đồng luân trên $$\mathbb{Q}$$.
+
+### Tựa bảo giác và cấu trúc hình học
+
+Ánh xạ tựa bảo giác làm méo góc ở mức có kiểm soát: đủ linh hoạt để biến dạng, đủ cứng để cho kết luận hình học. Sullivan dùng chúng như cầu nối giữa giải tích và tôpô.
+
+### Động lực học: không có miền lang thang
+
+Trong động lực phức, việc lặp một ánh xạ hữu tỉ trên mặt cầu Riemann sinh ra tập Fatou (phần có trật tự) và tập Julia (phần hỗn độn). Sullivan chứng minh rằng **ánh xạ hữu tỉ không có miền lang thang**, giải quyết một giả thuyết tồn tại lâu năm và nối động lực phức với tính cứng của tôpô.
+
+---
+
+## 3. Động lực gặp tôpô: không có miền lang thang
+
+Cho $$f:\widehat{\mathbb{C}}\to\widehat{\mathbb{C}}$$ là một ánh xạ hữu tỉ (thương của hai đa thức) tác động trên mặt cầu Riemann. **Tập Fatou** là tập mở lớn nhất mà trên đó họ các phép lặp $$\{f^{\circ n}\}$$ là chuẩn tắc (đồng liên tục trên các tập compact, theo metric của mặt cầu). Các thành phần liên thông của tập Fatou được gọi là **thành phần Fatou**.
+
+**Miền lang thang** sẽ là một thành phần Fatou $$U$$ sao cho các ảnh tiến
 
 $$
 U,\; f(U),\; f^{\circ 2}(U),\; \dots
 $$
 
-đều phân biệt—không bao giờ tuần hoàn. Sullivan chứng minh **không tồn tại** wandering domain cho rational map.
+đều phân biệt, không bao giờ tuần hoàn. Sullivan chứng minh rằng miền lang thang **không tồn tại** với ánh xạ hữu tỉ.
 
-### Vì sao là rigidity
+### Vì sao đây là một kết quả về tính cứng
 
-Người ta có thể tưởng vùng mở trôi mãi dưới lặp không lặp lại. Định lý: với rational map, Fatou component cuối cùng tuần hoàn. Tôpô và giải tích phức ràng buộc hỗn độn.
+Người ta có thể tưởng tượng một vùng mở cứ trôi mãi dưới phép lặp mà không lặp lại. Định lý nói rằng: với ánh xạ hữu tỉ, cuối cùng mọi thành phần Fatou đều tuần hoàn. Tôpô và giải tích phức ràng buộc sự hỗn độn.
 
-Chứng minh dùng **quasiconformal surgery / deformation**: linh hoạt giải tích kết hợp ràng buộc tôpô. Nếu có wandering domain, có thể dựng quá nhiều biến dạng độc lập, mâu thuẫn hiện tượng chiều hữu hạn trong moduli rational map. (Mức khẩu hiệu; lập luận thực là kiệt tác complex dynamics thập niên 1980.)
+Chứng minh dùng **phẫu thuật và biến dạng tựa bảo giác**: tính linh hoạt của giải tích kết hợp với ràng buộc của tôpô. Nếu có miền lang thang, ta dựng được quá nhiều biến dạng độc lập, mâu thuẫn với hiện tượng chiều hữu hạn của không gian moduli các ánh xạ hữu tỉ. (Đây chỉ là mức khẩu hiệu; lập luận thật là một kiệt tác của động lực phức vào thập niên 1980.)
 
-### Tương phản entire map
+### Đối chiếu với hàm nguyên
 
-Với một số hàm nguyên transcendental, wandering domain **có thể** tồn tại. Trường hợp rational đặc biệt. Chính xác về lớp ánh xạ là một phần literacy toán—đừng nói “mọi ánh xạ phức.”
-
----
-
-## 4. Julia set và “toán đẹp”
-
-Lặp trên cầu sinh Julia set—chân dung fractal hay xuất hiện toán phổ thông. Đẹp là thật; định lý chặt hơn. Kết quả Sullivan không phải ảnh; là ràng buộc phân loại trên tập mở nơi động lực “hiền.”
-
-Trong khóa, nối ảnh Julia với [toán đẹp]({{ site.baseurl }}/contents/vi/chapter04/) trong khi nhấn Abel 2022 citation **tôpô và động lực**, không poster. LO6: ảnh phổ thông là cửa, không phải citation.
+Với một số hàm nguyên siêu việt, miền lang thang **có thể** tồn tại. Trường hợp hữu tỉ là đặc biệt. Nói chính xác về lớp ánh xạ là một phần của hiểu biết toán học: đừng nói “mọi ánh xạ phức”.
 
 ---
 
-## 5. Vì sao Abel: sự nghiệp virtuoso
+## 4. Tập Julia và “toán học đẹp”
 
-Câu chuyện Fields một đột phá (Poincaré qua Ricci flow; modularity FLT) ngồi gần trong curriculum. Abel của Sullivan là **cung dài**: liên tục đưa ngôn ngữ cho phép bài toán chuyển phạm trù—mô hình đại số cho homotopy, công cụ quasiconformal cho hình học, rigidity cho động lực.
+Việc lặp trên mặt cầu sinh ra tập Julia, những bức chân dung fractal hay xuất hiện trong toán phổ thông. Vẻ đẹp là có thật; nhưng định lý thì chặt chẽ hơn nhiều. Kết quả của Sullivan không phải là một bức ảnh; đó là một ràng buộc phân loại trên tập mở, nơi động lực học “hiền lành”.
 
-Ẩn dụ “virtuoso” đúng nếu đọc toán: virtuosity nghĩa **chuyển kỹ thuật giữa thể loại**, không chỉ tính giỏi trong một thể loại.
-
-Kiểm tra thân thiện sinh viên: chọn bất kỳ hai trong {surgery, rational homotopy, hình học quasiconformal, complex dynamics} và viết một đoạn về cách bài toán ở phương ngữ này có thể phát biểu lại ở phương ngữ kia. Nếu cảm được độ khó dịch—và vì sao đời xây máy dịch quan trọng—bạn hiểu citation Abel hơn tóm tắt một dòng về no wandering domains.
-
-### Chu kỳ Fatou component (định lý mua gì)
-
-Một khi cấm wandering domain, mọi Fatou component $$U$$ của rational map là **preperiodic**: một ảnh tiến $$f^{\circ m}(U)$$ tuần hoàn, và chu kỳ component rơi vào các kiểu cổ điển Fatou–Julia và hậu duệ (attracting basin, parabolic basin, Siegel disk, Herman ring—với ràng buộc thêm). Định lý không phân loại hết động lực; nó **xóa một lớp bệnh lý** để taxonomy còn lại tiến hành được.
-
-Đây là mẫu tầm Abel: rigidity **dọn cảnh quan** để định lý cấu trúc khả dĩ. So rigidity kiểu Margulis dọn homomorphyim hoang, hay modularity dọn elliptic nào được tồn tại. Khác lĩnh vực, cùng hình logic—ràng buộc trước, phân loại sau.
+Trong khóa học, ta nối ảnh Julia với [toán học đẹp]({{ site.baseurl }}/contents/vi/chapter04/), đồng thời nhấn mạnh rằng citation của Abel 2022 nói về **tôpô và động lực học**, không phải về áp phích. Ảnh phổ thông là cánh cửa, không phải citation.
 
 ---
 
-## 6. So Perelman (cẩn thận)
+## 5. Vì sao đáng giải Abel: sự nghiệp của một bậc thầy
+
+Câu chuyện Fields với một đột phá duy nhất (Poincaré qua dòng Ricci; tính modular và Fermat) nằm khá gần trong chương trình học. Giải Abel của Sullivan là **một cung dài**: ông liên tục đưa ra ngôn ngữ cho phép các bài toán đổi phạm trù: mô hình đại số cho đồng luân, công cụ tựa bảo giác cho hình học, tính cứng cho động lực học.
+
+Hình ảnh “bậc thầy” (virtuoso) là đúng nếu đọc theo nghĩa toán học: tài nghệ ở đây nghĩa là **chuyển kỹ thuật giữa các thể loại**, chứ không chỉ giỏi trong một thể loại.
+
+Một bài kiểm tra thân thiện cho sinh viên: chọn hai trong số {phẫu thuật, đồng luân hữu tỉ, hình học tựa bảo giác, động lực phức} và viết một đoạn về cách một bài toán ở “phương ngữ” này có thể phát biểu lại ở “phương ngữ” kia. Nếu bạn cảm nhận được độ khó của việc dịch, và vì sao cả một đời xây “máy dịch” là điều quan trọng, thì bạn hiểu citation của Abel hơn là chỉ tóm tắt một dòng về định lý không có miền lang thang.
+
+### Chu kỳ của thành phần Fatou (định lý cho ta điều gì)
+
+Một khi miền lang thang bị loại, mọi thành phần Fatou $$U$$ của ánh xạ hữu tỉ đều **tiền tuần hoàn**: một ảnh tiến $$f^{\circ m}(U)$$ là tuần hoàn, và chu kỳ của thành phần rơi vào các kiểu cổ điển của Fatou–Julia và các hậu duệ (lưu vực hút, lưu vực parabolic, đĩa Siegel, vành Herman, với các ràng buộc thêm). Định lý không phân loại hết động lực học; nó **loại bỏ một lớp bệnh lý** để phần phân loại còn lại có thể tiến hành.
+
+Đây là một mẫu hình tầm cỡ giải Abel: tính cứng **dọn dẹp cảnh quan** để các định lý cấu trúc trở nên khả thi. Hãy so với tính cứng kiểu Margulis, dọn sạch các đồng cấu hoang dại, hay tính modular, dọn xem đường cong elliptic nào được phép tồn tại. Khác lĩnh vực, cùng một hình thức logic: ràng buộc trước, phân loại sau.
+
+---
+
+## 6. So với Perelman (cẩn thận)
 
 | | Sullivan (Abel 2022) | Perelman (Fields 2006) |
 |--|----------------------|-------------------------|
-| Nhấn | Tôpô trọn đời + động lực | Ricci flow hoàn tất geometrization |
-| Phong cách | Nhiều cảnh quan, nhiều ngôn ngữ | Hoàn tất chương trình Hamilton tập trung |
-| Slogan cờ | No wandering domains (trong nhiều kết quả) | Geometrization ⇒ Poincaré |
-| Loại giải | Abel trọn đời | Fields (từ chối) + Clay (từ chối) |
+| Điểm nhấn | Tôpô cả một sự nghiệp và động lực học | Dòng Ricci hoàn tất việc hình học hóa |
+| Phong cách | Nhiều cảnh quan, nhiều ngôn ngữ | Hoàn tất chương trình của Hamilton một cách tập trung |
+| Khẩu hiệu tiêu biểu | Không có miền lang thang (trong nhiều kết quả) | Hình học hóa ⇒ Poincaré |
+| Loại giải thưởng | Abel, cả sự nghiệp | Fields (từ chối) và Clay (từ chối) |
 
-Cả hai nối hình học/giải tích với tôpô. Không được dẹt một người thành người kia.
+Cả hai đều nối hình học và giải tích với tôpô. Đừng ép người này thành người kia.
 
 ---
 
 ## 7. Tôpô và hỗn độn như một nghề
 
-Sự nghiệp Sullivan lập luận rằng phân loại không gian và phân loại chuyển động dài hạn không đối lập. Quasiconformal map, surgery, và rigidity động lực chia thói quen: kiểm soát méo hình học cho đến khi kết luận tôpô theo sau. “Broadest sense” của citation là lời mời bỏ tường nhân tạo giữa dynamics và pure topology.
+Sự nghiệp của Sullivan lập luận rằng phân loại các không gian và phân loại các chuyển động dài hạn không đối lập nhau. Ánh xạ tựa bảo giác, phẫu thuật và tính cứng động lực cùng chia sẻ một thói quen: kiểm soát độ méo hình học cho đến khi kết luận tôpô tự theo sau. “Broadest sense” trong citation là lời mời bỏ những bức tường nhân tạo giữa động lực học và tôpô thuần túy.
 
-**Gợi ý seminar.** Chọn một ảnh Julia set và viết 150 từ nối hỗn độn thị giác với định nghĩa động lực chính xác (quỹ đạo, Julia set, Fatou set)—không tuyên bố đã chứng minh no wandering domains.
+**Gợi ý cho seminar.** Chọn một ảnh tập Julia và viết 150 từ nối sự hỗn độn nhìn thấy được với định nghĩa động lực học chính xác (quỹ đạo, tập Julia, tập Fatou), mà không tuyên bố đã chứng minh định lý không có miền lang thang.
 
 ---
 
-## 8. Nhầm lẫn
+## 8. Những nhầm lẫn
 
-| Khẳng định | Chỉnh |
-|------------|-------|
-| “Abel 2022 chỉ về Julia set.” | Julia là ảnh phổ thông; citation là tôpô nghĩa rộng. |
-| “No wandering domains cho mọi ánh xạ phức.” | Định lý về **rational** map; một số entire map khác. |
-| “Sullivan chỉ là dynamicist.” | Động lực là một nhánh; surgery, rational homotopy, tôpô hình học là nhánh khác. |
-| “Virtuoso = không sâu.” | Ở đây nghĩa sâu qua nhiều phương ngữ tôpô. |
-| “Giải trọn đời không có định lý cờ.” | Thường có—và còn nhiều hơn. |
+| Khẳng định | Chỉnh lại |
+|------------|-----------|
+| “Giải Abel 2022 chỉ nói về tập Julia.” | Tập Julia là hình ảnh phổ thông; citation nói về tôpô theo nghĩa rộng. |
+| “Không có miền lang thang cho mọi ánh xạ phức.” | Định lý nói về ánh xạ **hữu tỉ**; một số hàm nguyên thì khác. |
+| “Sullivan chỉ là người làm động lực học.” | Động lực học là một nhánh; phẫu thuật, đồng luân hữu tỉ, tôpô hình học là những nhánh khác. |
+| “Bậc thầy nghĩa là không sâu.” | Ở đây nghĩa là sâu trên nhiều “phương ngữ” của tôpô. |
+| “Giải cho cả sự nghiệp thì không có định lý tiêu biểu.” | Thường có, và thường còn nhiều hơn một. |
 
 ---
 
 ## Bài tập
 
-1. Hệ động lực bằng lặp: một câu.  
-2. Vì sao tôpô quan tâm lặp ánh xạ trên cầu? ≤100 từ.  
-3. So Sullivan với [Perelman]({{ site.baseurl }}/contents/vi/chapter02/02_03_Perelman_Poincare/) theo trục bảng bằng lời mình.  
-4. Đọc ghi chú phổ thông Abel/Quanta về Sullivan; liệt kê ba lĩnh vực nghiên cứu.  
-5. **≤200 từ:** Sự nghiệp virtuoso vs một định lý—dùng Abel và một ví dụ Fields.  
-6. Phát biểu cẩn thận wandering domain là gì, và Sullivan chứng minh cái gì *không* tồn tại cho rational map.
+1. Hệ động lực bằng phép lặp: một câu.  
+2. Vì sao tôpô quan tâm đến việc lặp ánh xạ trên mặt cầu? Không quá 100 từ.  
+3. So sánh Sullivan với [Perelman]({{ site.baseurl }}/contents/vi/chapter02/02_03_Perelman_Poincare/) theo các trục của bảng, bằng lời của bạn.  
+4. Đọc một bài phổ thông về Sullivan của giải Abel hoặc Quanta; liệt kê ba lĩnh vực nghiên cứu.  
+5. **Không quá 200 từ:** sự nghiệp của một bậc thầy so với một định lý, dùng giải Abel và một ví dụ từ Fields.  
+6. Phát biểu cẩn thận miền lang thang là gì, và Sullivan đã chứng minh điều *không* tồn tại nào cho ánh xạ hữu tỉ.
 
 ---
 
+## Nguồn video
 
-## Nguồn video (gói math-video-researcher)
+Hãy dùng video để **định hướng và làm quen với văn hóa nghiên cứu**, đừng dùng thay cho chứng minh.
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh. Chi tiết: `research/video-research/sullivan-topology/`.
+**Những ý chính từ phần nghiên cứu**
 
-**Khẩu hiệu từ gói nghiên cứu**
-
-- Abel 2022: topology rộng — đại số, hình học, động lực.
-- No wandering domains; mô hình Sullivan; sự nghiệp virtuoso.
+- Abel 2022: tôpô theo nghĩa rộng, gồm đại số, hình học, động lực.
+- Không có miền lang thang; mô hình của Sullivan; sự nghiệp của một bậc thầy.
 
 **Thứ tự xem gợi ý**
 
-1. **CORE** — Sullivan Abel lecture — Gathering chestnuts… fluid motion: [https://www.youtube.com/watch?v=RRMBRiyNcjI](https://www.youtube.com/watch?v=RRMBRiyNcjI).  
-2. **ORIENTATION** — Abel Prize playlist Sullivan 2022: [https://www.youtube.com/playlist?list=PLKeZo7pFBx1sOsQMh_Nwr193fWCeeLjsw](https://www.youtube.com/playlist?list=PLKeZo7pFBx1sOsQMh_Nwr193fWCeeLjsw).  
+1. **Cốt lõi**: bài giảng Abel của Sullivan, Gathering chestnuts… fluid motion: [https://www.youtube.com/watch?v=RRMBRiyNcjI](https://www.youtube.com/watch?v=RRMBRiyNcjI).  
+2. **Định hướng**: danh sách phát của giải Abel về Sullivan 2022: [https://www.youtube.com/playlist?list=PLKeZo7pFBx1sOsQMh_Nwr193fWCeeLjsw](https://www.youtube.com/playlist?list=PLKeZo7pFBx1sOsQMh_Nwr193fWCeeLjsw).  
 
-**Cổng chính thức / tài liệu**
+**Cổng chính thức và tài liệu**
 
 - Abel 2022 Sullivan: https://abelprize.no/abel-prize-laureates/2022  
 
-Danh mục URL đầy đủ: `research/video-research/sullivan-topology/references.md`.
-
-
-### Transcript & frames (batch extract)
-
-Transcript caption và unit theo thời gian: `research/video-research/sullivan-topology/transcripts/` · trạng thái: `research/video-research/sullivan-topology/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
+---
 
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/sullivan-topology_RRMBRiyNcjI_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính.*
 
 ## Tài liệu
 
-
-### Gói nghiên cứu video (mọi URL)
-
-Danh mục đầy đủ: `research/video-research/sullivan-topology/references.md`.
+### Danh mục nguồn
 
 1. Abel 2022 Sullivan — https://abelprize.no/abel-prize-laureates/2022  
 2. Sullivan Abel lecture — Gathering chestnuts… fluid motion — https://www.youtube.com/watch?v=RRMBRiyNcjI  
@@ -201,23 +192,22 @@ Danh mục đầy đủ: `research/video-research/sullivan-topology/references.m
 7. Stony Brook / CUNY culture pages (search Sullivan Abel) — https://www.stonybrook.edu/  
 8. Abel popular PDF topology (from laureate page materials) — https://abelprize.no/sites/default/files/2022-03/topolgy_eng.pdf  
 9. Abel popular PDF no-wandering — https://abelprize.no/sites/default/files/2022-03/wanderingset_eng.pdf  
-10. Thư mục gói: `research/video-research/sullivan-topology/`.
 
 1. [Abel 2022](https://abelprize.no/abel-prize-laureates/2022).  
-2. Sullivan, *Quasiconformal homeomorphisms and dynamics I…*, Ann. of Math. 1985 (wandering domains).  
-3. Profile phổ thông (Quanta, PDF Abel)—luôn quay lại phát biểu định lý.  
-4. Khóa: [Perelman]({{ site.baseurl }}/contents/vi/chapter02/02_03_Perelman_Poincare/); chương toán đẹp (Julia, cẩn thận).
+2. Sullivan, *Quasiconformal homeomorphisms and dynamics I…*, Ann. of Math. 1985 (miền lang thang).  
+3. Các bài giới thiệu phổ thông (Quanta, PDF của giải Abel); luôn quay lại phát biểu của định lý.  
+4. Trong khóa: [Perelman]({{ site.baseurl }}/contents/vi/chapter02/02_03_Perelman_Poincare/); chương toán học đẹp (về tập Julia, cần cẩn thận).
 
 ---
 
 ## Hướng đi tiếp
 
-- Seminar ảnh: Julia set + định lý gắn.  
-- So rigidity Sullivan–Margulis.  
-- Ghi một hướng mở trong complex dynamics hoặc tôpô hình học vẫn cuốn bạn.  
-- So [Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/).  
-- Tiếp: [Caffarelli]({{ site.baseurl }}/contents/vi/chapter08/08_08_Caffarelli_PDE/).
+- Seminar về hình ảnh: tập Julia và định lý đi kèm.  
+- So tính cứng của Sullivan và của Margulis.  
+- Ghi lại một hướng mở trong động lực phức hoặc tôpô hình học vẫn cuốn hút bạn.  
+- So với [Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/).  
+- Tiếp theo: [Caffarelli]({{ site.baseurl }}/contents/vi/chapter08/08_08_Caffarelli_PDE/).
 
 ## Video tham khảo
 
-- **xem trước** — [Dennis Sullivan: Gathering chestnuts of math related to fluid motion](https://www.youtube.com/watch?v=RRMBRiyNcjI) — The Abel Prize, tiếng Anh. Xem trước. “Dennis Sullivan: Gathering chestnuts of math related to fluid motion” định hướng cho mục tiêu của bài: Sau bài, bạn có thể đặt Sullivan qua tôpô đại số, tôpô hình học, và complex dynamics; nêu no wandering domains và wandering Fatou component là gì; giải thích “cấu trúc hình học trê…
+- **Xem trước** — [Dennis Sullivan: Gathering chestnuts of math related to fluid motion](https://www.youtube.com/watch?v=RRMBRiyNcjI) — The Abel Prize, tiếng Anh. Xem trước để nghe chính Sullivan nói về những ý tưởng toán học gắn với chuyển động của chất lỏng.

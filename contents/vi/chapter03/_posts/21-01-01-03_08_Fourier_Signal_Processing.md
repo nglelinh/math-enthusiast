@@ -10,11 +10,11 @@ categories:
 lesson_type: required
 ---
 
-Ảnh JPEG, pipeline âm thanh kiểu nén, quét MRI và radio tuner đều làm cùng một bước trí tuệ: **lấy tín hiệu sống trong thời gian/không gian và viết lại như tổ hợp tần số**—rồi giữ, bỏ, lọc hoặc lấy mẫu các tần số đó cho một mục đích.
+Ảnh JPEG, các hệ thống nén âm thanh, máy chụp MRI và bộ dò đài radio đều dựa trên cùng một ý tưởng: **lấy một tín hiệu biến thiên theo thời gian hoặc không gian và viết lại nó thành tổng của các thành phần tần số**, rồi giữ lại, bỏ đi, lọc hoặc lấy mẫu các tần số đó tùy theo mục đích.
 
-**Lộ trình:** trực giác tần số → chuỗi Fourier → biến đổi Fourier → DFT/FFT → lọc & lấy mẫu → JPEG/audio/MRI → bất định & cửa sổ → nhầm lẫn.
+**Nội dung bài:** trực giác về tần số → chuỗi Fourier → biến đổi Fourier → DFT/FFT → lọc và lấy mẫu → JPEG, âm thanh, MRI → nguyên lý bất định và cửa sổ → hiểu lầm thường gặp.
 
-Bài này nối điều hòa cổ điển với xử lý tín hiệu đời thường. Biên giới thuần túy (restriction, Kakeya): [Hong Wang (Ch.2)]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/)—ở đây nhấn **cơ chế công nghệ**.
+Bài này nối giải tích điều hòa cổ điển với xử lý tín hiệu trong đời sống. Về các hướng nghiên cứu thuần túy (bài toán hạn chế, Kakeya), xem [Hong Wang (Chương 2)]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/); ở đây ta tập trung vào **cơ chế trong công nghệ**.
 
 ---
 
@@ -22,33 +22,33 @@ Bài này nối điều hòa cổ điển với xử lý tín hiệu đời thư
 
 Sau bài học, bạn có thể:
 
-- Giải thích tín hiệu như chồng các mode dao động (sin/cos hoặc mũ phức).
-- Nêu ý **chuỗi Fourier** trên vòng/khoảng và **biến đổi Fourier** trên đường thẳng.
-- Mô tả **DFT** và vì sao **FFT** làm DSP số thực tiễn.
-- Cho cơ chế một bước của nén (kiểu JPEG), lọc, và thu MRI trong không gian tần số.
-- Nối tốc độ lấy mẫu với tần số biểu diễn được (ý Nyquist) mức khẩu hiệu.
-- Tránh “Fourier chỉ EQ nhạc” và “JPEG xóa pixel ngẫu nhiên.”
+- Giải thích một tín hiệu là tổng chồng chập của các dao động (sin/cos hoặc hàm mũ phức).
+- Nêu ý tưởng của **chuỗi Fourier** trên đường tròn hay một khoảng, và của **biến đổi Fourier** trên đường thẳng.
+- Mô tả **biến đổi Fourier rời rạc (DFT)** và giải thích vì sao **thuật toán FFT** làm cho xử lý tín hiệu số trở nên khả thi.
+- Mô tả cơ chế của từng bước trong nén ảnh (kiểu JPEG), lọc tín hiệu và thu ảnh MRI trong miền tần số.
+- Giải thích ngắn gọn mối liên hệ giữa tốc độ lấy mẫu và các tần số có thể biểu diễn được (ý tưởng Nyquist).
+- Tránh hai hiểu lầm: "Fourier chỉ dùng để chỉnh âm sắc nhạc" và "JPEG xóa ngẫu nhiên các điểm ảnh".
 
-**Kiến thức nền.** Tích phân; $$e^{i\theta}=\cos\theta+i\sin\theta$$ hữu ích. [Giải tích]({{ site.baseurl }}/contents/vi/chapter03/03_02_Calculus_Physics_Engineering/).
-
----
-
-## 1. Tần số như hệ tọa độ
-
-Âm thuần là sin. Sọc không gian thuần là sin 2D. Tín hiệu thật là hỗn hợp. Fourier cung cấp **cơ sở dao động** và hệ số “bao nhiêu tần số mỗi loại.” Đổi cơ sở không mất thông tin khi khả nghịch; nó **tái tổ chức** để nén, khử nhiễu, điều chế, giải PDE hệ số hằng trở nên dễ.
-
-**Khẩu hiệu.** *Nhiều phép phức tạp trong thời gian/không gian là nhân hoặc mask đơn giản trong tần số—và ngược lại (định lý convolution).*
+**Kiến thức cần có.** Tích phân; biết công thức $$e^{i\theta}=\cos\theta+i\sin\theta$$ sẽ có ích. Xem bài [Giải tích]({{ site.baseurl }}/contents/vi/chapter03/03_02_Calculus_Physics_Engineering/).
 
 ---
 
-## 2. Chuỗi Fourier: thế giới tuần hoàn
+## 1. Tần số như một hệ tọa độ
+
+Một âm thanh thuần là một sóng sin. Một mẫu sọc thuần trong không gian là một sóng sin hai chiều. Tín hiệu thật là tổ hợp của nhiều sóng như vậy. Giải tích Fourier cho ta một **cơ sở gồm các dao động** cùng với hệ số cho biết mỗi tần số đóng góp bao nhiêu. Phép đổi cơ sở này không làm mất thông tin vì nó khả nghịch; nó chỉ **sắp xếp lại** thông tin, giúp việc nén, khử nhiễu, điều chế tín hiệu hay giải phương trình đạo hàm riêng hệ số hằng trở nên dễ hơn.
+
+**Ý chính.** *Nhiều phép toán phức tạp trong miền thời gian hoặc không gian trở thành phép nhân hay phép che (mask) đơn giản trong miền tần số, và ngược lại (định lý tích chập).*
+
+---
+
+## 2. Chuỗi Fourier: tín hiệu tuần hoàn
 
 $$
 f(\theta)\sim\sum_n \hat f(n)e^{in\theta},\qquad
 \hat f(n)=\frac1{2\pi}\int_0^{2\pi}f(\theta)e^{-in\theta}\,d\theta.
 $$
 
-Tổng riêng là xấp xỉ band-limited. Gibbs gần bước nhảy: cắt tần số tạo overshoot không gian. **Nhiệt:** khai triển Fourier biến $$\partial_t u=\kappa\partial_{xx}u$$ thành ODE độc lập từng mode—tần số cao tắt nhanh hơn. Xem [PTVP]({{ site.baseurl }}/contents/vi/chapter03/03_09_Differential_Equations_Applications/).
+Tổng riêng là một xấp xỉ chỉ chứa các tần số đến một mức nhất định. Gần điểm gián đoạn xuất hiện hiện tượng Gibbs: cắt bỏ tần số cao tạo ra phần vọt lố trong miền không gian. **Phương trình nhiệt:** khai triển Fourier biến $$\partial_t u=\kappa\partial_{xx}u$$ thành các phương trình vi phân thường độc lập cho từng thành phần tần số; tần số càng cao thì tắt càng nhanh. Xem bài [Phương trình vi phân]({{ site.baseurl }}/contents/vi/chapter03/03_09_Differential_Equations_Applications/).
 
 ---
 
@@ -58,7 +58,7 @@ Tổng riêng là xấp xỉ band-limited. Gibbs gần bước nhảy: cắt t�
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/square-wave-fourier_vi.mp4"></video>
 </div>
 
-Cộng các sóng sin lẻ với biên độ giảm dần sẽ dựng nên sóng vuông. Chỗ vọt lên ở điểm gãy (hiệu ứng Gibbs) không biến mất khi thêm nhiều sóng hơn.
+Cộng các sóng sin có tần số lẻ với biên độ giảm dần, ta dựng được sóng vuông. Phần vọt lên ở chỗ gãy (hiện tượng Gibbs) không biến mất dù thêm bao nhiêu sóng.
 
 
 ### Tự tay thử: Tự cộng các sóng sin
@@ -73,13 +73,13 @@ $$
 f(x)=\int\hat f(\xi)e^{2\pi i x\xi}\,d\xi
 $$
 
-(dưới giả thiết; quy ước $$2\pi$$ thay đổi). Đạo hàm ↔ nhân đa thức theo $$\xi$$; convolution ↔ tích; tịnh tiến ↔ pha. **Lọc** nhân $$\hat f$$ với $$H(\xi)$$ (low/high/band-pass)—radio và equalizer sống ở đây.
+(với các giả thiết phù hợp; vị trí của hệ số $$2\pi$$ tùy theo quy ước). Phép lấy đạo hàm tương ứng với phép nhân với đa thức theo $$\xi$$; tích chập tương ứng với tích; phép tịnh tiến tương ứng với nhân với một thừa số pha. **Lọc tín hiệu** là nhân $$\hat f$$ với một hàm $$H(\xi)$$ (lọc thông thấp, thông cao, thông dải); radio và bộ chỉnh âm (equalizer) đều hoạt động theo cách này.
 
 ---
 
-## 4. Thực tế rời rạc: DFT và FFT
+## 4. Trong thực tế rời rạc: DFT và FFT
 
-Mẫu $$x_0,\ldots,x_{N-1}$$:
+Với các mẫu $$x_0,\ldots,x_{N-1}$$:
 
 $$
 \hat x_k=\sum_{n=0}^{N-1}x_n e^{-2\pi i kn/N},
@@ -87,128 +87,128 @@ $$
 x_n=\frac1N\sum_{k=0}^{N-1}\hat x_k e^{2\pi i kn/N}.
 $$
 
-Ngây thơ $$O(N^2)$$. **FFT** tính DFT trong $$O(N\log N)$$—một trong những sự thật thuật toán quan trọng nhất thế kỷ XX. Audio thời gian thực, viễn thông băng rộng, nhân số nguyên lớn, tính khoa học đều cưỡi hiệu năng FFT.
+Tính trực tiếp mất $$O(N^2)$$ phép tính. **FFT** tính DFT trong $$O(N\log N)$$; đây là một trong những kết quả thuật toán quan trọng nhất của thế kỷ XX. Xử lý âm thanh thời gian thực, viễn thông băng rộng, nhân số nguyên lớn và tính toán khoa học đều dựa vào hiệu năng của FFT.
 
-**Cơ chế.** *DSP số phổ biến vì thuật toán miền tần số không chỉ đẹp mà còn rẻ đủ ở quy mô nhờ FFT.*
+**Cơ chế.** *Xử lý tín hiệu số phổ biến vì các thuật toán trong miền tần số không chỉ đẹp về lý thuyết mà còn đủ rẻ để chạy ở quy mô lớn nhờ FFT.*
 
-**Phác viễn thông.** OFDM—xương sống Wi-Fi và lớp vật lý di động hiện đại—gửi dữ liệu trên nhiều sóng mang con cách đều, trực giao trên một chu kỳ ký hiệu. Ở thu, FFT tách các sóng mang. Một lần nữa: RF công nghiệp là phân tích Fourier mặc tài liệu chuẩn.
-
----
-
-## 5. Lấy mẫu và ý Nyquist
-
-Tín hiệu liên tục không thể ghi như continuum vô hạn trên chip. **Lấy mẫu** ghi giá trị với tốc độ $$f_s$$ mẫu mỗi giây. Khẩu hiệu **Nyquist–Shannon:** để bắt tần số tới $$B$$ Hz không aliasing, lấy mẫu nhanh hơn $$2B$$ (dưới giả thiết band-limited lý tưởng).
-
-**Aliasing** là hiện tượng mạo danh: tần số cao giả dạng tần số thấp sau lấy mẫu—bánh xe trong video, moiré ảnh. Lọc chống alias (low-pass trước lấy mẫu) là kỹ thuật Fourier, không phải mỹ phẩm.
-
-Compressed sensing hiện đại nới lấy mẫu cổ điển dưới giả thiết sparsity—tối ưu + điều hòa ([Tối ưu]({{ site.baseurl }}/contents/vi/chapter03/03_07_Optimization_Operations_AI/)). “Lấy mẫu nhanh hơn luôn tốt” không đúng: vượt nhu cầu Nyquist của băng tốn kém; chống alias vẫn quan trọng.
+**Ví dụ trong viễn thông.** OFDM, nền tảng của Wi-Fi và lớp vật lý của mạng di động hiện đại, truyền dữ liệu trên nhiều sóng mang con cách đều nhau và trực giao với nhau trong một chu kỳ ký hiệu. Ở đầu thu, FFT tách các sóng mang này ra. Một lần nữa, kỹ thuật vô tuyến trong công nghiệp chính là giải tích Fourier được viết thành tiêu chuẩn kỹ thuật.
 
 ---
 
-## 6. JPEG, audio, pipeline nén
+## 5. Lấy mẫu và ý tưởng Nyquist
 
-**JPEG (ý tưởng).** Chia khối; áp biến đổi cos rời rạc (DCT)—họ hàng Fourier với cơ sở cos phù hợp tín hiệu thực và biên; lượng tử hóa hệ số (bỏ chi tiết tần số cao mắt ít nhạy); mã entropy phần còn lại. Khôi phục đảo biến đổi.
+Không thể lưu một tín hiệu liên tục với vô hạn giá trị trên một con chip. **Lấy mẫu** là ghi lại giá trị của tín hiệu với tốc độ $$f_s$$ mẫu mỗi giây. Ý tưởng của định lý **Nyquist–Shannon:** để ghi được các tần số đến $$B$$ Hz mà không bị chồng phổ, cần lấy mẫu nhanh hơn $$2B$$ (với giả thiết lý tưởng là tín hiệu có dải tần giới hạn).
 
-**Cơ chế một câu.**  
-*Ảnh tự nhiên thường thưa/nén được trong cơ sở kiểu tần số; lượng tử hóa giữ hệ số năng lượng cao, bỏ hệ số thấp.*
+**Chồng phổ** (aliasing) là hiện tượng một tần số cao "giả dạng" thành tần số thấp sau khi lấy mẫu, ví dụ bánh xe quay ngược trong video hay vân moiré trong ảnh. Bộ lọc chống chồng phổ (lọc thông thấp trước khi lấy mẫu) là một kỹ thuật Fourier thiết yếu, không phải chi tiết phụ.
 
-**Audio.** Codec tri giác biến đổi cửa sổ ngắn (MDCT, …), cấp bit theo che psychoacoustic, rồi đảo. Pipeline đơn giản hơn dùng STFT (biến đổi Fourier thời gian ngắn) cho phân tích và lọc.
+Cảm biến nén (compressed sensing) hiện đại cho phép lấy ít mẫu hơn mức cổ điển khi tín hiệu thưa, nhờ kết hợp tối ưu hóa và giải tích điều hòa ([Tối ưu hóa]({{ site.baseurl }}/contents/vi/chapter03/03_07_Optimization_Operations_AI/)). Không phải lúc nào lấy mẫu nhanh hơn cũng tốt hơn: lấy mẫu vượt quá nhu cầu Nyquist của dải tần là tốn kém, và vẫn cần chống chồng phổ.
 
-**MP3 không phải “Fourier xóa nhạc.”** Đó là coding tri giác miền tần số có kỹ thuật và chuẩn cẩn thận.
+---
+
+## 6. JPEG, âm thanh và các hệ thống nén
+
+**JPEG (ý tưởng).** Chia ảnh thành các khối; áp dụng biến đổi cosin rời rạc (DCT), một biến thể của biến đổi Fourier dùng cơ sở cosin, phù hợp với tín hiệu thực và điều kiện biên; lượng tử hóa các hệ số (bỏ bớt chi tiết tần số cao mà mắt ít nhạy cảm); sau đó mã hóa entropy phần còn lại. Khi giải nén, thực hiện biến đổi ngược.
+
+**Cơ chế trong một câu.**  
+*Ảnh tự nhiên thường thưa (nén được tốt) trong một cơ sở kiểu tần số; lượng tử hóa giữ lại các hệ số có năng lượng lớn và bỏ các hệ số có năng lượng nhỏ.*
+
+**Âm thanh.** Các bộ mã hóa âm thanh dựa trên cảm nhận biến đổi từng đoạn ngắn (MDCT, …), phân bổ số bit dựa trên hiệu ứng che lấp của tai người, rồi biến đổi ngược. Các hệ thống đơn giản hơn dùng biến đổi Fourier thời gian ngắn (STFT) để phân tích và lọc.
+
+**MP3 không phải là "dùng Fourier để xóa bớt nhạc".** Đó là mã hóa dựa trên cảm nhận trong miền tần số, được thiết kế kỹ thuật và chuẩn hóa cẩn thận.
 
 ---
 
 ## 7. MRI và ảnh khoa học
 
-Cộng hưởng từ thu dữ liệu vốn là mẫu của **biến đổi Fourier** của ảnh không gian mong muốn (k-space). Tái tạo về cơ bản là iFFT (+ hiệu chỉnh vật lý, lấy mẫu không đều, độ nhạy cuộn). MRI under-sample dùng tái tạo ràng buộc—lại sparsity + tối ưu.
+Máy cộng hưởng từ thu được dữ liệu vốn là các mẫu của **biến đổi Fourier** của ảnh cần chụp (gọi là không gian k). Việc tái tạo ảnh về cơ bản là biến đổi Fourier ngược bằng FFT (cộng thêm các hiệu chỉnh vật lý, xử lý lấy mẫu không đều, độ nhạy của cuộn thu). MRI lấy mẫu thưa dùng phương pháp tái tạo có ràng buộc, lại dựa trên tính thưa và tối ưu hóa.
 
-**Cơ chế.** *Vật lý spin mã hóa thông tin không gian thành tần số; điều hòa là ngôn ngữ giải mã.*
+**Cơ chế.** *Tính chất vật lý của spin mã hóa thông tin vị trí thành tần số; giải tích điều hòa là ngôn ngữ để giải mã.*
 
-Họ hàng: tái tạo CT (biến đổi Radon, filtered back-projection—lại hình học tích phân / Fourier), radar, tinh thể học (mẫu nhiễu xạ như độ lớn Fourier—pha retrieval khó).
-
----
-
-## 8. Bất định, cửa sổ, time–frequency
-
-Sin vô hạn định vị hoàn hảo tần số, không định vị thời gian. Xung Dirac ngược lại: định vị thời gian, phẳng tần số. **Nguyên lý bất định kiểu Heisenberg** (dạng điều hòa) hạn chế tập trung đồng thời: không thể vừa sắc thời gian vừa sắc tần số tùy ý.
-
-**Fourier cửa sổ / STFT** và **wavelet** đổi độ phân giải theo thang. STFT trượt cửa sổ theo thời gian, biến đổi Fourier từng đoạn ngắn, xếp thành **spectrogram**—ngôn ngữ hình ảnh của tiếng nói, nhạc, chẩn đoán rung. Cửa sổ dài: tần số sắc, thời gian mờ. Cửa sổ ngắn: ngược lại. Đánh đổi đó không phải sở thích UI; đó là bất định được vận hành.
-
-Wavelet (họ cơ sở khác) cải thiện một số nén và khử nhiễu nhờ định vị đa thang khớp cạnh và xung; JPEG 2000 dùng wavelet. Ý Fourier tổng quát: chọn cơ sở khớp lớp tín hiệu và sai số bạn chịu được. Hệ số nhỏ không luôn “không quan trọng”—pha và tổng kết hợp có thể làm hệ số nhỏ mang cấu trúc.
+Các ứng dụng liên quan: tái tạo ảnh CT (biến đổi Radon, phương pháp chiếu ngược có lọc, cũng dựa trên tích phân và Fourier), radar, tinh thể học (ảnh nhiễu xạ cho biết độ lớn của biến đổi Fourier, và việc khôi phục pha là bài toán khó).
 
 ---
 
-## 9. PDE và biên giới thuần túy
+## 8. Nguyên lý bất định, cửa sổ và phân tích thời gian–tần số
 
-Biến đổi Fourier biến nhiều PDE tuyến tính hệ số hằng trên $$\mathbb{R}^n$$ thành phương trình đại số theo tần số. Toán tử vi phân hệ số hằng trở thành nhân với ký hiệu $$p(\xi)$$; giải PDE (khi hợp pháp) là chia ký hiệu rồi biến đổi ngược. Nghiệm cơ bản và ước lượng tán sắc là chương nâng cao. Solver phần tử hữu hạn kỹ thuật có thể không FFT cả miền trên lưới bất quy tắc, nhưng phân tích mode trong kết cấu và âm học—tần số tự nhiên, dạng mode, đáp ứng cưỡng bức—là tư duy tần số thuần sau rời rạc hóa thành bài riêng ma trận.
+Một sóng sin vô hạn xác định hoàn toàn tần số nhưng không cho biết gì về thời điểm. Xung Dirac thì ngược lại: xác định chính xác thời điểm nhưng trải đều trên mọi tần số. **Nguyên lý bất định kiểu Heisenberg** (phiên bản trong giải tích điều hòa) giới hạn khả năng tập trung đồng thời: không thể vừa chính xác tùy ý về thời gian vừa chính xác tùy ý về tần số.
 
-Lý thuyết thuần—hội tụ chuỗi, định lý Carleson về đảo Fourier điểm, conjecture restriction nối mặt tần số cong với ước lượng không-thời gian—sâu hơn codec cần rất nhiều. [Wang (Ch.2)]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/) cho biên nghiên cứu nơi điều hòa gặp hình học đo; bài này cho vì sao cùng môn xuất hiện trong thư viện ảnh, radio điện thoại và phòng MRI.
+**Biến đổi Fourier có cửa sổ (STFT)** và **wavelet** cho phép thay đổi độ phân giải theo tỉ lệ. STFT trượt một cửa sổ theo thời gian, lấy biến đổi Fourier của từng đoạn ngắn và xếp lại thành **phổ đồ** (spectrogram), công cụ hình ảnh để phân tích tiếng nói, âm nhạc hay chẩn đoán rung động. Cửa sổ dài thì tần số rõ nhưng thời gian mờ; cửa sổ ngắn thì ngược lại. Sự đánh đổi này không phải là lựa chọn giao diện, mà chính là nguyên lý bất định trong thực tế.
 
-**Nhắc cơ chế chương.** Trực giao trừu tượng của mũ → thuật toán rẻ (FFT) → hạ tầng nén, cảm biến và truyền thông. Vẻ đẹp và silicon chia một hệ tọa độ.
+Wavelet (một họ cơ sở khác) giúp nén và khử nhiễu tốt hơn trong một số trường hợp, nhờ khả năng định vị ở nhiều tỉ lệ, phù hợp với các cạnh và xung; JPEG 2000 dùng wavelet. Ý tưởng chung của Fourier: chọn cơ sở phù hợp với loại tín hiệu và mức sai số chấp nhận được. Hệ số nhỏ không phải lúc nào cũng "không quan trọng": pha và sự kết hợp của nhiều hệ số có thể khiến các hệ số nhỏ mang thông tin cấu trúc.
 
 ---
 
-### Khẩu hiệu Fourier (từ nghiên cứu video)
+## 9. Phương trình đạo hàm riêng và nghiên cứu thuần túy
 
-Lộ trình: [3B1B Fourier series](https://www.youtube.com/watch?v=r6sGWTCMz2k) → [Fourier transform](https://www.youtube.com/watch?v=spUNpyF58BY).
+Biến đổi Fourier biến nhiều phương trình đạo hàm riêng tuyến tính hệ số hằng trên $$\mathbb{R}^n$$ thành phương trình đại số theo tần số. Một toán tử vi phân hệ số hằng trở thành phép nhân với ký hiệu $$p(\xi)$$; giải phương trình (khi hợp lệ) là chia cho ký hiệu rồi biến đổi ngược. Nghiệm cơ bản và các ước lượng tán sắc là nội dung nâng cao. Các phần mềm phần tử hữu hạn trong kỹ thuật có thể không dùng FFT trên toàn miền với lưới không đều, nhưng việc phân tích dao động trong kết cấu và âm học (tần số riêng, dạng dao động, đáp ứng cưỡng bức) vẫn là tư duy tần số, sau khi rời rạc hóa thành bài toán trị riêng của ma trận.
 
-- Series cho thế giới tuần hoàn; transform cho không tuần hoàn; DFT cho mẫu hữu hạn; FFT để tính DFT nhanh.
-- Lấy mẫu dưới Nyquist làm alias tần số cao thành thấp — nhầm lẫn không đảo trong dữ liệu rời rạc.
-- Nén giữ hệ số lớn trong cơ sở Fourier/DCT nơi năng lượng tập trung.
+Lý thuyết thuần túy, như sự hội tụ của chuỗi Fourier, định lý Carleson về hội tụ hầu khắp nơi, hay giả thuyết hạn chế nối các mặt cong trong miền tần số với ước lượng không-thời gian, sâu hơn rất nhiều so với những gì một bộ mã hóa cần. Bài [Wang (Chương 2)]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/) giới thiệu hướng nghiên cứu nơi giải tích điều hòa gặp lý thuyết độ đo hình học; bài này giải thích vì sao cùng một môn học lại xuất hiện trong thư viện ảnh, radio điện thoại và phòng chụp MRI.
 
-## Nhầm lẫn thường gặp
+**Tóm tắt cơ chế của bài.** Tính trực giao của các hàm mũ → thuật toán rẻ (FFT) → hạ tầng cho nén, cảm biến và truyền thông. Lý thuyết đẹp và vi mạch dùng chung một hệ tọa độ.
 
-| Khẳng định | Sửa |
+---
+
+### Tóm tắt nhanh (rút ra từ các video)
+
+Thứ tự xem: [3B1B về chuỗi Fourier](https://www.youtube.com/watch?v=r6sGWTCMz2k) → [biến đổi Fourier](https://www.youtube.com/watch?v=spUNpyF58BY).
+
+- Chuỗi Fourier dùng cho tín hiệu tuần hoàn; biến đổi Fourier cho tín hiệu không tuần hoàn; DFT cho tập mẫu hữu hạn; FFT để tính DFT nhanh.
+- Lấy mẫu dưới tần số Nyquist làm tần số cao bị chồng thành tần số thấp, và không thể khôi phục lại từ dữ liệu rời rạc.
+- Nén giữ lại các hệ số lớn trong cơ sở Fourier/DCT, nơi năng lượng tập trung.
+
+## Hiểu lầm thường gặp
+
+| Khẳng định | Sửa lại |
 |------------|-----|
-| “Fourier chỉ cho nhạc.” | Ảnh, MRI, radio, PDE, phân tích dữ liệu. |
-| “JPEG xóa pixel ngẫu nhiên.” | Lượng tử hóa hệ số trong cơ sở kiểu tần số. |
-| “FFT khác DFT.” | FFT là thuật toán nhanh cho DFT. |
-| “Lấy mẫu nhanh hơn luôn tốt.” | Vượt nhu cầu Nyquist tốn kém; chống alias vẫn quan trọng. |
-| “Low-pass luôn an toàn.” | Làm mờ cạnh; có thể phá nội dung tần số cao cần thiết. |
+| "Fourier chỉ dùng cho âm nhạc." | Ảnh, MRI, radio, phương trình đạo hàm riêng, phân tích dữ liệu. |
+| "JPEG xóa ngẫu nhiên các điểm ảnh." | JPEG lượng tử hóa hệ số trong một cơ sở kiểu tần số. |
+| "FFT khác DFT." | FFT là thuật toán nhanh để tính DFT. |
+| "Lấy mẫu càng nhanh càng tốt." | Vượt quá nhu cầu Nyquist là tốn kém; vẫn cần chống chồng phổ. |
+| "Lọc thông thấp luôn an toàn." | Nó làm mờ các cạnh và có thể làm mất thông tin tần số cao cần thiết. |
 
 ---
 
 ## Bài tập
 
-1. Viết $$\cos\theta$$ bằng mũ phức.  
-2. Vì sao hàm tuần hoàn trơn cần ít hệ số Fourier lớn hơn hàm gián đoạn?  
-3. Lọc bằng convolution thời gian bằng gì trong tần số?  
-4. So sánh độ phức tạp DFT $$O(N^2)$$ vs FFT $$O(N\log N)$$ với $$N=2^{20}$$.  
-5. ≤5 câu: DCT khối + lượng tử hóa như nén.  
-6. Tai ~20 kHz—vì sao CD 44.1 kHz?  
-7. Nâng cao: ma trận DFT và $$F^*F=NI$$ (unitary tới scale).
+1. Viết $$\cos\theta$$ dưới dạng hàm mũ phức.  
+2. Vì sao một hàm tuần hoàn trơn cần ít hệ số Fourier lớn hơn một hàm gián đoạn?  
+3. Lọc bằng tích chập trong miền thời gian tương ứng với phép toán gì trong miền tần số?  
+4. So sánh độ phức tạp của DFT $$O(N^2)$$ và FFT $$O(N\log N)$$ với $$N=2^{20}$$.  
+5. Viết không quá 5 câu: DCT theo khối kết hợp lượng tử hóa thực hiện việc nén như thế nào?  
+6. Tai người nghe được đến khoảng 20 kHz; vì sao đĩa CD dùng tần số lấy mẫu 44.1 kHz?  
+7. Nâng cao: ma trận DFT và $$F^*F=NI$$ (unita sai khác một hệ số).
 
 ---
 
-## Nguồn video (gói math-video-researcher)
+## Nguồn video (bộ tư liệu nghiên cứu video)
 
-Dùng video để **định hướng và trực giác**, không thay chứng minh hay tài liệu chuẩn. Chi tiết xếp hạng: `research/video-research/fourier-signal-processing/`.
+Video dùng để **định hướng và xây dựng trực giác**, không thay thế chứng minh hay tài liệu chuẩn. Đánh giá chi tiết: `research/video-research/fourier-signal-processing/`.
 
 **Thứ tự xem gợi ý**
 
-1. **CORE** — 3Blue1Brown — But what is a Fourier series?: [https://www.youtube.com/watch?v=r6sGWTCMz2k](https://www.youtube.com/watch?v=r6sGWTCMz2k).
-2. **CORE** — 3Blue1Brown — But what is the Fourier Transform?: [https://www.youtube.com/watch?v=spUNpyF58BY](https://www.youtube.com/watch?v=spUNpyF58BY).
-3. **SURVEY** — 3Blue1Brown — Fourier transform / series topic hub: [https://www.3blue1brown.com/topics/fourier-transform](https://www.3blue1brown.com/topics/fourier-transform).
-4. **FOUNDATION** — Stanford EE261 / DSP culture (Oppenheim-style courses): [https://see.stanford.edu/Course/EE261](https://see.stanford.edu/Course/EE261).
-5. **FOUNDATION** — MIT OCW 6.003 Signals and Systems: [https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/](https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/).
-6. **INTUITION** — Veritasium — The Most Underrated Algorithm (FFT): [https://www.youtube.com/watch?v=nmgFG7PUHfo](https://www.youtube.com/watch?v=nmgFG7PUHfo).
+1. **Cốt lõi** — 3Blue1Brown — But what is a Fourier series?: [https://www.youtube.com/watch?v=r6sGWTCMz2k](https://www.youtube.com/watch?v=r6sGWTCMz2k).
+2. **Cốt lõi** — 3Blue1Brown — But what is the Fourier Transform?: [https://www.youtube.com/watch?v=spUNpyF58BY](https://www.youtube.com/watch?v=spUNpyF58BY).
+3. **Tổng quan** — 3Blue1Brown — trang tổng hợp về Fourier: [https://www.3blue1brown.com/topics/fourier-transform](https://www.3blue1brown.com/topics/fourier-transform).
+4. **Nền tảng** — Stanford EE261 (khóa học xử lý tín hiệu): [https://see.stanford.edu/Course/EE261](https://see.stanford.edu/Course/EE261).
+5. **Nền tảng** — MIT OCW 6.003 Signals and Systems: [https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/](https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/).
+6. **Trực giác** — Veritasium — The Most Underrated Algorithm (FFT): [https://www.youtube.com/watch?v=nmgFG7PUHfo](https://www.youtube.com/watch?v=nmgFG7PUHfo).
 
-Danh mục URL đầy đủ: `research/video-research/fourier-signal-processing/references.md`.
+Danh sách URL đầy đủ: `research/video-research/fourier-signal-processing/references.md`.
 
 
-### Transcript & frames (batch extract)
+### Phụ đề và khung hình (trích xuất hàng loạt)
 
-Transcript caption và unit theo thời gian: `research/video-research/fourier-signal-processing/transcripts/` · trạng thái: `research/video-research/fourier-signal-processing/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
+Phụ đề và các đoạn theo thời gian: `research/video-research/fourier-signal-processing/transcripts/` · trạng thái: `research/video-research/fourier-signal-processing/TRANSCRIPT_STATUS.md` · tổng hợp: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
 
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/fourier-signal-processing_r6sGWTCMz2k_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính (xem bộ tư liệu để biết mốc thời gian).*
 
 ## Tài liệu
 
-Danh mục URL đầy đủ (mọi link tìm được khi nghiên cứu video): `research/video-research/fourier-signal-processing/references.md`.
+Danh sách URL đầy đủ (mọi đường dẫn tìm được khi nghiên cứu video): `research/video-research/fourier-signal-processing/references.md`.
 
-### Video (lộ trình chính)
+### Video chính
 
 1. 3Blue1Brown — But what is a Fourier series? — https://www.youtube.com/watch?v=r6sGWTCMz2k
 2. 3Blue1Brown — But what is the Fourier Transform? — https://www.youtube.com/watch?v=spUNpyF58BY
@@ -219,11 +219,11 @@ Danh mục URL đầy đủ (mọi link tìm được khi nghiên cứu video): 
 7. Zach Star — Nyquist–Shannon Sampling Theorem intuition — https://www.youtube.com/watch?v=Jv5FU8oUWEY
 8. Numberphile — Fourier culture / related — https://www.youtube.com/watch?v=r6sGWTCMz2k
 
-### Video (tìm thêm / phụ)
+### Video bổ sung
 
-9. JPEG compression math explainers — https://en.wikipedia.org/wiki/JPEG
+9. Giải thích toán học của nén JPEG — https://en.wikipedia.org/wiki/JPEG
 
-### Bài báo, sách, OCW và web
+### Bài báo, sách, khóa học mở và trang web
 
 10. Cooley & Tukey — An algorithm for the machine calculation of complex Fourier series (1965): https://www.ams.org/journals/mcom/1965-19-090/S0025-5718-1965-0178586-1/
 11. Wikipedia — Fourier transform: https://en.wikipedia.org/wiki/Fourier_transform
@@ -232,18 +232,18 @@ Danh mục URL đầy đủ (mọi link tìm được khi nghiên cứu video): 
 14. Wikipedia — Discrete cosine transform: https://en.wikipedia.org/wiki/Discrete_cosine_transform
 15. 3Blue1Brown Fourier hub: https://www.3blue1brown.com/topics/fourier-transform
 
-### Trong khóa
+### Trong khóa học
 
-16. Khóa: [Giải tích]({{ site.baseurl }}/contents/vi/chapter03/03_02_Calculus_Physics_Engineering/), [PTVP]({{ site.baseurl }}/contents/vi/chapter03/03_09_Differential_Equations_Applications/), [Wang]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/). Gói: `research/video-research/fourier-signal-processing/`.
+16. Bài liên quan: [Giải tích]({{ site.baseurl }}/contents/vi/chapter03/03_02_Calculus_Physics_Engineering/), [Phương trình vi phân]({{ site.baseurl }}/contents/vi/chapter03/03_09_Differential_Equations_Applications/), [Wang]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/). Bộ tư liệu: `research/video-research/fourier-signal-processing/`.
 
 ## Hướng đi tiếp
 
-- [PTVP → Ứng dụng]({{ site.baseurl }}/contents/vi/chapter03/03_09_Differential_Equations_Applications/).  
-- Biên thuần: [Wang]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/), [Kakeya]({{ site.baseurl }}/contents/vi/chapter01/01_08_Kakeya_Conjecture/).  
-- Viết lại cơ chế cốt lõi một đoạn; ghi một câu hỏi còn mở.
+- [Phương trình vi phân → Ứng dụng]({{ site.baseurl }}/contents/vi/chapter03/03_09_Differential_Equations_Applications/).  
+- Nghiên cứu thuần túy: [Wang]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/), [Kakeya]({{ site.baseurl }}/contents/vi/chapter01/01_08_Kakeya_Conjecture/).  
+- Viết lại cơ chế cốt lõi trong một đoạn; ghi lại một câu hỏi còn mở.
 
 ## Video tham khảo
 
-- **xem trước** — [But what is a Fourier series? From heat flow to drawing with circles | DE4](https://www.youtube.com/watch?v=r6sGWTCMz2k) — 3Blue1Brown, tiếng Anh. Xem trước. “But what is a Fourier series? From heat flow to drawing with circles | DE4” định hướng cho mục tiêu của bài: Giải thích tín hiệu như chồng các mode dao động (sin/cos hoặc mũ phức).
-- [But what is the Fourier Transform? A visual introduction.](https://www.youtube.com/watch?v=spUNpyF58BY) — 3Blue1Brown, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Giải thích tín hiệu như chồng các mode dao động (sin/cos hoặc mũ phức).
-- [The Most Underrated Algorithm](https://www.youtube.com/watch?v=nmgFG7PUHfo) — Veritasium, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Giải thích tín hiệu như chồng các mode dao động (sin/cos hoặc mũ phức).
+- **Xem trước:** [But what is a Fourier series? From heat flow to drawing with circles | DE4](https://www.youtube.com/watch?v=r6sGWTCMz2k) — 3Blue1Brown, tiếng Anh. Giới thiệu chuỗi Fourier từ bài toán truyền nhiệt; nên xem trước khi đọc bài.
+- [But what is the Fourier Transform? A visual introduction.](https://www.youtube.com/watch?v=spUNpyF58BY) — 3Blue1Brown, tiếng Anh. Giải thích trực quan biến đổi Fourier; nên xem sau khi đã nắm ý chính của bài.
+- [The Most Underrated Algorithm](https://www.youtube.com/watch?v=nmgFG7PUHfo) — Veritasium, tiếng Anh. Xem thêm sau hai video trên, về thuật toán FFT.

@@ -9,9 +9,9 @@ categories:
 - chapter02
 ---
 
-**Caucher Birkar** nhận **Huy chương Fields 2018** nhờ chứng minh **boundedness** của đa tạp Fano và các đóng góp khác cho **chương trình mô hình tối thiểu** (Minimal Model Program, MMP) trong hình học đại số chiều cao. Nếu Chương 2 thường kể các huy chương qua PDE, số nguyên tố, hay xếp cầu, bài này mở một cửa khác: **phân loại birational**—cách tổ chức “hình dạng” của đa tạp đại số khi ta cho phép biến dạng và “cắt–dán” theo đẳng cấu trên tập mở trù mật.
+**Caucher Birkar** nhận **Huy chương Fields 2018** nhờ chứng minh **tính bị chặn** (boundedness) của các đa tạp Fano và những đóng góp khác cho **chương trình mô hình tối thiểu** (Minimal Model Program, MMP) trong hình học đại số chiều cao. Các bài khác trong Chương 2 thường kể về huy chương qua phương trình đạo hàm riêng, số nguyên tố hay xếp cầu. Bài này mở ra một hướng khác: **phân loại song hữu tỉ** (birational), tức là cách sắp xếp "hình dạng" của các đa tạp đại số khi ta cho phép biến đổi và "cắt dán" theo các đẳng cấu trên tập mở trù mật.
 
-Mục tiêu không phải biến bạn thành chuyên gia flip. Mục tiêu là hiểu **MMP hỏi gì**, **Fano là gì ở mức khẩu hiệu**, **boundedness nghĩa là kiểm soát họ đa tạp ra sao**, và **vì sao** cộng đồng xem các định lý của Birkar (và mạng cộng tác dài trước đó) như một chương khép của một chương trình nhiều thập niên.
+Mục tiêu không phải là biến bạn thành chuyên gia về flip. Mục tiêu là hiểu **MMP hỏi gì**, **đa tạp Fano là gì** ở mức sơ lược, **tính bị chặn nghĩa là kiểm soát một họ đa tạp như thế nào**, và **vì sao** cộng đồng xem các định lý của Birkar (cùng một chuỗi dài các công trình hợp tác trước đó) như việc khép lại một chương của một chương trình kéo dài nhiều thập niên.
 
 ---
 
@@ -19,183 +19,183 @@ Mục tiêu không phải biến bạn thành chuyên gia flip. Mục tiêu là 
 
 Sau bài học, bạn có thể:
 
-- Nêu mục tiêu MMP trong một đoạn: rút gọn birational về mô hình “đơn giản” (mô hình tối thiểu hoặc Mori fiber space).
-- Giải thích **Fano** ở mức khẩu hiệu: lớp chính tắc âm / anticanonical ample—đa tạp “dương” theo nghĩa birational.
-- Phân biệt hai loại kết quả: **tồn tại flip** (bước máy MMP) và **boundedness của đa tạp Fano** (kiểm soát toàn cục họ).
-- Nhìn birational geometry như **kiến trúc toàn cục** của hình học đại số chiều cao, không chỉ danh sách ví dụ.
-- Gán công lao cẩn thận: Fields 2018 nằm trong mạng BCHM, Hacon–McKernan, Shokurov, Kawamata, Kollár–Mori…; Birkar có điểm nhấn riêng về Fano boundedness và các trường hợp MMP.
-- Tránh nhầm “birational = đẳng cấu” và “mọi đa tạp đều Fano”.
+- Nêu mục tiêu của MMP trong một đoạn: đưa một đa tạp, bằng các phép biến đổi song hữu tỉ, về một mô hình "đơn giản" (mô hình tối thiểu hoặc không gian thớ Mori).
+- Giải thích sơ lược thế nào là đa tạp **Fano**: lớp chính tắc âm, tức lớp phản chính tắc là ample; đó là các đa tạp "dương" theo nghĩa song hữu tỉ.
+- Phân biệt hai loại kết quả: **sự tồn tại của flip** (một bước trong MMP) và **tính bị chặn của đa tạp Fano** (kiểm soát toàn cục cả họ).
+- Nhìn hình học song hữu tỉ như **kiến trúc tổng thể** của hình học đại số chiều cao, chứ không chỉ là một danh sách ví dụ.
+- Ghi nhận công lao cẩn thận: Huy chương Fields 2018 nằm trong mạng lưới công trình BCHM, Hacon–McKernan, Shokurov, Kawamata, Kollár–Mori…; đóng góp nổi bật riêng của Birkar là tính bị chặn của đa tạp Fano và một số trường hợp của MMP.
+- Tránh nhầm "song hữu tỉ = đẳng cấu" và "mọi đa tạp đều là Fano".
 
-**Kiến thức nền.** Đa tạp đại số / xạ ảnh ở mức trực giác; divisor và lớp chính tắc $$K_X$$ như “độ cong đại số”; đẳng cấu vs quan hệ thô hơn.
+**Kiến thức cần có.** Đa tạp đại số, đa tạp xạ ảnh ở mức trực giác; ước (divisor) và lớp chính tắc $$K_X$$ như một kiểu "độ cong đại số"; phân biệt đẳng cấu với các quan hệ thô hơn.
 
-**Liên kết seminar.** So với phân loại mặt (Enriques–Kodaira) như “chiều 2 đã xong phần lớn”; MMP là nỗ lực nâng chiều. Ghép [Scholze / perfectoid]({{ site.baseurl }}/contents/vi/chapter02/02_06_Scholze_Perfectoid/) chỉ như *một* mặt khác của hình học đại số hiện đại (số học–p-adic), không đồng nhất với birational phức.
+**Liên hệ với khóa học.** So sánh với phân loại mặt (Enriques–Kodaira), nơi trường hợp chiều 2 về cơ bản đã xong; MMP là nỗ lực đưa phân loại lên chiều cao hơn. Có thể đọc cùng [Scholze / perfectoid]({{ site.baseurl }}/contents/vi/chapter02/02_06_Scholze_Perfectoid/), nhưng chỉ như *một* mặt khác của hình học đại số hiện đại (hình học số học, p-adic), không đồng nhất với hình học song hữu tỉ phức.
 
 ---
 
-## 1. Phân loại birational: quên gì, giữ gì?
+## 1. Phân loại song hữu tỉ: bỏ qua gì, giữ lại gì?
 
-Hai đa tạp xạ ảnh (hoặc quasi-projective) $$X$$ và $$Y$$ được gọi là **birational** nếu tồn tại các tập mở trù mật $$U\subset X$$, $$V\subset Y$$ và một đẳng cấu $$U\simeq V$$. Nói nôm na: chúng trùng nhau “ở phần lớn nơi”, chỉ khác nhau trên locus codimension cao—như hai compact hóa khác nhau của cùng một lõi affine, hoặc hai mô hình thổi phồng (blow-up) khác nhau.
+Hai đa tạp xạ ảnh (hoặc tựa xạ ảnh) $$X$$ và $$Y$$ được gọi là **tương đương song hữu tỉ** nếu tồn tại các tập mở trù mật $$U\subset X$$, $$V\subset Y$$ và một đẳng cấu $$U\simeq V$$. Nói nôm na, chúng trùng nhau "ở hầu hết mọi nơi", chỉ khác nhau trên một tập đóng nhỏ hơn, giống như hai cách compact hóa khác nhau của cùng một phần lõi affine, hoặc hai mô hình nhận được bằng các phép nổ (blow-up) khác nhau.
 
-**Birational quên** chi tiết singularity và lựa chọn compact hóa.  
-**Birational giữ** nhiều bất biến sâu: trường hàm, số Kodaira, và—sau MMP—các mô hình chuẩn hóa theo dấu của $$K_X$$.
+**Phép tương đương song hữu tỉ bỏ qua** chi tiết về kỳ dị và cách chọn compact hóa.  
+**Nó giữ lại** nhiều bất biến sâu: trường hàm, chiều Kodaira, và (sau khi chạy MMP) các mô hình chuẩn được sắp xếp theo dấu của $$K_X$$.
 
-So với **đẳng cấu** (toàn cục, mọi điểm), birational thô hơn. So với “cùng trường hàm”, birational là hình học hóa quan hệ đó. Phân loại theo birational là chiến lược: thay vì liệt kê mọi đa tạp sai khác đẳng cấu (quá nhiều), ta nhóm chúng thành các lớp birational và tìm **đại diện đẹp** trong mỗi lớp.
+So với **đẳng cấu** (toàn cục, tại mọi điểm), tương đương song hữu tỉ thô hơn. So với "có cùng trường hàm", nó chính là cách diễn đạt hình học của quan hệ đó. Phân loại song hữu tỉ là một chiến lược: thay vì liệt kê mọi đa tạp sai khác đẳng cấu (quá nhiều), ta gom chúng thành các lớp song hữu tỉ và tìm một **đại diện đẹp** trong mỗi lớp.
 
-**Ví dụ chiều thấp (khẩu hiệu).**
+**Ví dụ ở chiều thấp (sơ lược).**
 
-- Đường cong xạ ảnh trơn: phân loại gần như bằng giống $$g$$.  
-- Mặt: chương trình Enriques–Kodaira tổ chức theo số Kodaira và fibration.  
-- Chiều $$\ge 3$$: singularity, flop/flip, và sự thất bại của “chỉ co đường cong” buộc phải xây máy trừu tượng hơn—MMP.
+- Đường cong xạ ảnh trơn: được phân loại gần như chỉ bằng giống $$g$$.  
+- Mặt: phân loại Enriques–Kodaira sắp xếp theo chiều Kodaira và các phân thớ.  
+- Chiều $$\ge 3$$: kỳ dị, flop/flip, và việc "chỉ co các đường cong" không còn đủ, buộc người ta xây dựng một cơ chế trừu tượng hơn, đó là MMP.
 
 ---
 
 ## 2. Chương trình mô hình tối thiểu (MMP) là gì?
 
-Bắt đầu từ một đa tạp xạ ảnh $$X$$ (thường giả sử Q-factorial, klt singularity sau khi “dọn”), MMP cố cải thiện $$X$$ bằng một chuỗi phép biến đổi birational hướng tới một trong hai đích:
+Xuất phát từ một đa tạp xạ ảnh $$X$$ (thường giả sử Q-giai thừa và có kỳ dị klt sau khi đã "dọn dẹp"), MMP tìm cách cải thiện $$X$$ bằng một chuỗi phép biến đổi song hữu tỉ, hướng tới một trong hai đích:
 
-1. **Mô hình tối thiểu.** Đa tạp $$X_{\min}$$ birational với $$X$$ sao cho lớp chính tắc $$K_{X_{\min}}$$ là **nef** (giao không âm với mọi đường cong)—không còn hướng nào để “co” theo negativity của $$K$$.
-2. **Mori fiber space.** Nếu số Kodaira âm theo nghĩa thích hợp, quá trình có thể dừng ở fibration $$X\to Z$$ với thớ “kiểu Fano” (lớp chính tắc âm trên thớ tổng quát)—đa tạp được hiểu như họ Fano trên một đáy thấp chiều hơn.
+1. **Mô hình tối thiểu.** Một đa tạp $$X_{\min}$$ tương đương song hữu tỉ với $$X$$ sao cho lớp chính tắc $$K_{X_{\min}}$$ là **nef** (có giao không âm với mọi đường cong). Khi đó không còn hướng nào để "co" theo tính âm của $$K$$.
+2. **Không gian thớ Mori.** Nếu chiều Kodaira âm theo nghĩa thích hợp, quá trình có thể dừng ở một phân thớ $$X\to Z$$ mà thớ "kiểu Fano" (lớp chính tắc âm trên thớ tổng quát). Khi đó đa tạp được hiểu như một họ các đa tạp Fano trên một cơ sở có chiều thấp hơn.
 
-### 2.1. Hai động tác: co và flip
+### 2.1. Hai thao tác: phép co và flip
 
-- **Co divisorial / extremal contraction.** Khi có tia cực trị trên đó $$K$$ âm, ta co locus liên quan (đường cong, divisor…) để giảm “độ phức tạp”.  
-- **Flip.** Ở chiều cao, đôi khi co theo tia cực trị **không** cho morphisme với thớ đúng kiểu; thay vào đó cần **flip**: thay một locus nhỏ bằng locus khác, giữ birational equivalence, cải thiện singularity / positivity của $$K$$. Tồn tại flip từng là thách thức trung tâm nhiều thập niên.
+- **Phép co ước / phép co cực trị.** Khi có một tia cực trị mà trên đó $$K$$ âm, ta co tập tương ứng (đường cong, ước…) để giảm "độ phức tạp".  
+- **Flip.** Ở chiều cao, đôi khi phép co theo tia cực trị **không** cho một cấu xạ có thớ đúng kiểu; khi đó cần một **flip**: thay một tập nhỏ bằng một tập khác, vẫn giữ tương đương song hữu tỉ, đồng thời cải thiện kỳ dị và tính dương của $$K$$. Sự tồn tại của flip từng là thách thức trung tâm trong nhiều thập niên.
 
-Trực giác thô: co giống “bóp” phần dư thừa; flip giống “phẫu thuật định hướng lại” singularity để $$K$$ trở nên dễ kiểm soát hơn—không phải đẳng cấu, nhưng “cùng cốt truyện birational”.
+Trực giác thô: phép co giống như "bóp" bớt phần thừa; flip giống như một "ca phẫu thuật" định hướng lại phần kỳ dị để $$K$$ dễ kiểm soát hơn. Kết quả không đẳng cấu với ban đầu, nhưng vẫn thuộc cùng một lớp song hữu tỉ.
 
-### 2.2. Vành chính tắc và singularity
+### 2.2. Vành chính tắc và kỳ dị
 
-MMP hiện đại sống trong thế giới **singularity cho phép** (klt, lc…) và **vành chính tắc**
+MMP hiện đại làm việc với các **kỳ dị được phép** (klt, lc…) và với **vành chính tắc**
 
 $$
 R(X,K_X)=\bigoplus_{m\ge 0} H^0(X,mK_X).
 $$
 
-Hữu hạn sinh của vành chính tắc (các định lý lớn của BCHM và tiền bối) là xương sống: chúng bảo đảm các bước “lấy Proj của vành” có ý nghĩa hình học. Không cần thuộc lòng định nghĩa klt để hiểu khẩu hiệu: *MMP không chạy trên đa tạp trơn ngây thơ mãi; singularity là một phần của máy*.
+Tính hữu hạn sinh của vành chính tắc (các định lý lớn của BCHM và những người đi trước) là xương sống của lý thuyết: nó bảo đảm các bước "lấy Proj của vành" có ý nghĩa hình học. Không cần thuộc định nghĩa klt để hiểu ý chính: *MMP không thể mãi chỉ làm việc với đa tạp trơn; kỳ dị là một phần của cơ chế*.
 
 ---
 
-## 3. Đa tạp Fano: “dương” theo nghĩa birational
+## 3. Đa tạp Fano: "dương" theo nghĩa song hữu tỉ
 
-Một đa tạp xạ ảnh $$X$$ (với singularity phù hợp) được gọi là **Fano** khi lớp anticanonical $$-K_X$$ là **ample** (hoặc, trong các biến thể, big/nef tùy ngữ cảnh kỹ thuật). Khẩu hiệu:
+Một đa tạp xạ ảnh $$X$$ (với kỳ dị thích hợp) được gọi là **Fano** khi lớp phản chính tắc $$-K_X$$ là **ample** (hoặc, trong một số biến thể, big/nef tùy ngữ cảnh kỹ thuật). Nói gọn:
 
-> Fano = đa tạp có “độ cong dương” theo thước chính tắc—$$K_X$$ âm.
+> Đa tạp Fano là đa tạp có "độ cong dương" theo thước đo chính tắc, tức là $$K_X$$ âm.
 
-Ví dụ quen thuộc: không gian xạ ảnh $$\mathbb{P}^n$$; nhiều hypersurface bậc thấp; thớ Fano trong Mori fiber space.
+Ví dụ quen thuộc: không gian xạ ảnh $$\mathbb{P}^n$$; nhiều siêu mặt bậc thấp; các thớ Fano trong không gian thớ Mori.
 
-**Vì sao Fano trung tâm.** Trong phân loại, Fano xuất hiện như:
+**Vì sao đa tạp Fano giữ vai trò trung tâm.** Trong phân loại, đa tạp Fano xuất hiện như:
 
-- thớ của Mori fiber space;
-- “nguồn” của nhiều hiện tượng birational (rationality questions, K-stability, moduli…);
-- lớp có **tính chất boundedness** mong đợi: cố định chiều (và đôi khi các bất biến phụ), không có “vô hạn họ độc lập” quá hoang dã.
+- thớ của các không gian thớ Mori;
+- "nguồn gốc" của nhiều hiện tượng song hữu tỉ (câu hỏi về tính hữu tỉ, tính K-ổn định, không gian moduli…);
+- một lớp được kỳ vọng có **tính bị chặn**: khi cố định số chiều (và đôi khi thêm vài bất biến phụ), không có vô hạn họ độc lập "hoang dã".
 
-Câu hỏi boundedness: *Các đa tạp Fano chiều $$n$$ có tạo thành một họ bị chặn không?* “Bị chặn” ở đây mang nghĩa kỹ thuật: chúng xuất hiện như thớ của một họ phẳng trên một lược đồ hữu hạn kiểu—tức là chỉ có “hữu hạn mô hình” sai khác biến dạng có kiểm soát, không có chuỗi ngày càng “hoang” với bất biến cố định.
+Câu hỏi về tính bị chặn: *Các đa tạp Fano chiều $$n$$ có tạo thành một họ bị chặn không?* "Bị chặn" ở đây có nghĩa kỹ thuật: chúng đều xuất hiện như thớ của một họ phẳng trên một lược đồ kiểu hữu hạn. Nói cách khác, chỉ có "hữu hạn mô hình", sai khác những biến dạng được kiểm soát, chứ không có một dãy đa tạp ngày càng "hoang dã" khi các bất biến đã cố định.
 
 ---
 
-## 4. Đột phá của Birkar: boundedness Fano và MMP chiều cao
+## 4. Đột phá của Birkar: tính bị chặn của đa tạp Fano và MMP chiều cao
 
-**Caucher Birkar** (một phần trong dòng chảy chung với Cascini, Hacon, McKernan, và nhiều công trình đơn) đóng góp vào:
+**Caucher Birkar** (trong dòng công trình chung với Cascini, Hacon, McKernan, cùng nhiều bài báo riêng) đã đóng góp vào:
 
-1. **Tồn tại flip / MMP** trong các trường hợp lớn—cùng mạng BCHM (Birkar–Cascini–Hacon–McKernan) về finite generation và MMP cho đa tạp tổng quát kiểu.
-2. **Boundedness của đa tạp Fano** (các định lý lớn của Birkar): trong chiều cố định, đa tạp Fano (với singularity klt, và các chuẩn hóa kỹ thuật) tạo thành họ bị chặn.
+1. **Sự tồn tại của flip và MMP** trong những trường hợp lớn, cùng với nhóm BCHM (Birkar–Cascini–Hacon–McKernan), về tính hữu hạn sinh và MMP cho đa tạp kiểu tổng quát.
+2. **Tính bị chặn của đa tạp Fano** (các định lý lớn của Birkar): khi cố định số chiều, các đa tạp Fano (với điều kiện kỳ dị thích hợp và các chuẩn hóa kỹ thuật) tạo thành một họ bị chặn.
 
-**Định lý (khẩu hiệu, Birkar).** Họ các đa tạp Fano klt chiều $$n$$ (với các giả thuyết chuẩn trong văn liệu) là **bounded**—chúng không “phân tán vô hạn” theo nghĩa moduli thô.
+**Định lý (sơ lược, Birkar).** Họ các đa tạp Fano chiều $$n$$ (với điều kiện kỳ dị và các giả thiết chuẩn trong tài liệu) là **bị chặn**: chúng không "tản mát vô hạn" theo nghĩa moduli thô.
 
-Hệ quả tư duy: phân loại chiều cao không còn là danh sách vô tổ chức; sau khi MMP rút về Fano / mô hình tối thiểu, **phía Fano** chịu sự kiểm soát toàn cục. Đây là lý do Fields nhấn boundedness: không chỉ một lemma kỹ thuật, mà một **định lý cấu trúc** định hình lại cách ta nghĩ về “có bao nhiêu Fano”.
+Hệ quả về mặt tư duy: phân loại ở chiều cao không còn là một danh sách lộn xộn. Sau khi MMP đưa về đa tạp Fano hoặc mô hình tối thiểu, **phía Fano** được kiểm soát toàn cục. Đó là lý do giải Fields nhấn mạnh tính bị chặn: đây không chỉ là một bổ đề kỹ thuật, mà là một **định lý cấu trúc**, làm thay đổi cách ta nghĩ về câu hỏi "có bao nhiêu đa tạp Fano".
 
-### 4.1. Gán công lao cẩn thận
+### 4.1. Ghi nhận công lao cẩn thận
 
-| Mốc / nhóm | Vai trò (khẩu hiệu) |
+| Mốc / nhóm | Vai trò (tóm tắt) |
 |------------|---------------------|
-| Mori, Kawamata, Shokurov, Kollár… | Nền MMP, cone theorem, singularity |
-| Hacon–McKernan và cộng sự | Bước đột phá chiều cao, existence of flips trong nhiều trường hợp |
-| BCHM | Finite generation / MMP cho general type và khung rộng |
-| Birkar | Boundedness Fano; các định lý MMP bổ sung; Fields 2018 |
+| Mori, Kawamata, Shokurov, Kollár… | Nền tảng của MMP, định lý nón, lý thuyết kỳ dị |
+| Hacon–McKernan và cộng sự | Bước đột phá ở chiều cao, sự tồn tại của flip trong nhiều trường hợp |
+| BCHM | Tính hữu hạn sinh / MMP cho đa tạp kiểu tổng quát và khung tổng quát hơn |
+| Birkar | Tính bị chặn của đa tạp Fano; các định lý bổ sung về MMP; Fields 2018 |
 
-Tránh câu “Birkar một mình hoàn tất MMP”. Tránh câu “boundedness Fano là toàn bộ MMP”.
-
----
-
-## 5. Vì sao quan trọng ngoài chuyên ngành birational?
-
-**Trong hình học đại số.** Boundedness và MMP cung cấp **kiến trúc**: mọi đa tạp “đủ tốt” có thể được rút về đại diện chuẩn; các họ Fano không hoang dã. Nhiều chương trình hiện đại—K-stability, moduli Fano, singularity theory, birational rigidity—dựa trên việc biết Fano bị chặn hoặc biết máy MMP chạy.
-
-**Trong toàn cảnh Chương 2.** Huy chương Fields không chỉ về “một bất đẳng thức” hay “một PDE”. Birkar minh họa **toán học kiến trúc**: định lý tổ chức không gian đối tượng (các đa tạp) thành các ngăn có kiểm soát. So với Maynard (cấu trúc số nguyên tố) hay Viazovska (tối ưu xếp), đây là cấu trúc **của chính các không gian hình học**.
-
-**Giới hạn trung thực.**
-
-- MMP và boundedness phụ thuộc giả thuyết singularity và đặc số (thường đặc số 0 trong các định lý kinh điển được trích).  
-- Câu hỏi rationality của Fano, moduli chi tiết, và đặc số dương vẫn là biên giới sôi động.  
-- “Phân loại xong” không có nghĩa mọi đa tạp đã có danh sách tường minh như đường cong.
+Tránh viết "một mình Birkar hoàn tất MMP". Cũng tránh viết "tính bị chặn của đa tạp Fano là toàn bộ MMP".
 
 ---
 
-## 6. So nhanh với phân loại mặt
+## 5. Vì sao quan trọng, kể cả ngoài hình học song hữu tỉ?
+
+**Trong hình học đại số.** Tính bị chặn và MMP tạo ra một **kiến trúc**: mọi đa tạp "đủ tốt" đều có thể đưa về một đại diện chuẩn, và các họ đa tạp Fano không hoang dã. Nhiều hướng hiện đại (tính K-ổn định, moduli của đa tạp Fano, lý thuyết kỳ dị, tính cứng song hữu tỉ) dựa vào việc biết đa tạp Fano bị chặn, hoặc biết MMP chạy được.
+
+**Trong bức tranh chung của Chương 2.** Huy chương Fields không chỉ dành cho "một bất đẳng thức" hay "một phương trình đạo hàm riêng". Birkar là ví dụ cho kiểu **toán học mang tính kiến trúc**: những định lý sắp xếp không gian các đối tượng (các đa tạp) thành những ngăn được kiểm soát. So với Maynard (cấu trúc của số nguyên tố) hay Viazovska (bài toán xếp tối ưu), ở đây là cấu trúc **của chính các không gian hình học**.
+
+**Giới hạn, nói thẳng.**
+
+- MMP và tính bị chặn phụ thuộc vào giả thiết về kỳ dị và về đặc số (các định lý kinh điển được trích ở đây thường ở đặc số 0).  
+- Câu hỏi về tính hữu tỉ của đa tạp Fano, moduli chi tiết, và trường hợp đặc số dương vẫn là những hướng nghiên cứu sôi động.  
+- "Đã phân loại xong" không có nghĩa là mọi đa tạp đều có một danh sách tường minh như với đường cong.
+
+---
+
+## 6. So sánh nhanh với phân loại mặt
 
 | | Mặt (Enriques–Kodaira) | Chiều cao (MMP + Birkar) |
 |--|------------------------|---------------------------|
-| Bất biến chính | Số Kodaira, fibration | $$K$$ nef vs Mori fiber; Fano thớ |
-| Động tác | Blow-up, fibration cổ điển | Co, flip, finite generation |
-| Kiểm soát Fano / thớ dương | Tương đối tường minh chiều 2 | Boundedness Fano chiều cao |
-| Trạng thái | Cổ điển, khá hoàn chỉnh | Chương trình dài; mảnh lớn đã khép |
+| Bất biến chính | Chiều Kodaira, phân thớ | $$K$$ nef hay không gian thớ Mori; thớ Fano |
+| Thao tác | Phép nổ, phân thớ cổ điển | Phép co, flip, tính hữu hạn sinh |
+| Kiểm soát đa tạp Fano / thớ dương | Khá tường minh ở chiều 2 | Tính bị chặn của đa tạp Fano ở chiều cao |
+| Hiện trạng | Cổ điển, khá hoàn chỉnh | Chương trình dài; nhiều phần lớn đã khép lại |
 
-Bài học chuyển chiều: *cùng triết lý phân loại theo positivity của $$K$$*, nhưng máy móc và singularity phức tạp theo cấp số nhân.
+Bài học khi lên chiều cao: *cùng một triết lý phân loại theo tính dương của $$K$$*, nhưng công cụ và kỳ dị phức tạp hơn rất nhiều.
 
 ---
 
-## Nhầm lẫn phổ biến
+## Hiểu lầm thường gặp
 
-| Khẳng định | Kết luận | Sửa |
+| Khẳng định | Đúng/sai | Sửa lại |
 |------------|----------|-----|
-| “Mọi đa tạp đều Fano.” | Sai | Fano là điều kiện positivity của $$-K$$; nhiều đa tạp có $$K$$ nef hoặc big dương theo nghĩa khác. |
-| “Birational = đẳng cấu.” | Sai | Birational yếu hơn; singularity và locus ngoại lệ xuất hiện. |
-| “Flip chỉ là blow-up.” | Sai | Flip thay locus theo tia cực trị; không phải blow-up cổ điển đơn giản. |
-| “Fields 2018 = chỉ một paper Fano.” | Sai | Nằm trên nền MMP dài; boundedness là điểm nhấn trong portfolio. |
-| “MMP chạy trên mọi đa tạp trơn không cần singularity.” | Sai | Singularity klt/lc và Q-factorial là một phần khung hiện đại. |
-| “Boundedness = chỉ có hữu hạn Fano sai khác đẳng cấu.” | Gần đúng nhưng thô | Nghĩa kỹ thuật là họ bị chặn trong moduli/tham số hóa; tinh tế hơn “hữu hạn điểm”. |
+| "Mọi đa tạp đều là Fano." | Sai | Fano là một điều kiện về tính dương của $$-K$$; nhiều đa tạp có $$K$$ nef, hoặc dương theo những nghĩa khác. |
+| "Song hữu tỉ = đẳng cấu." | Sai | Tương đương song hữu tỉ yếu hơn; có thể xuất hiện kỳ dị và tập ngoại lệ. |
+| "Flip chỉ là một phép nổ." | Sai | Flip thay một tập theo tia cực trị; không phải một phép nổ cổ điển đơn giản. |
+| "Fields 2018 chỉ nhờ một bài báo về đa tạp Fano." | Sai | Nó dựa trên nền MMP lâu dài; tính bị chặn là điểm nhấn trong nhiều công trình. |
+| "MMP chạy trên mọi đa tạp trơn, không cần đến kỳ dị." | Sai | Kỳ dị klt/lc và tính Q-giai thừa là một phần của khung lý thuyết hiện đại. |
+| "Bị chặn = chỉ có hữu hạn đa tạp Fano sai khác đẳng cấu." | Gần đúng nhưng thô | Nghĩa kỹ thuật là họ bị chặn trong một cách tham số hóa (moduli); tinh tế hơn "hữu hạn điểm". |
 
 ---
 
 ## Bài tập
 
-1. Birational **quên** và **giữ** điều gì? Viết hai câu, rồi nêu một ví dụ blow-up (khẩu hiệu) minh họa sự khác biệt với đẳng cấu.
-2. Vì sao flip khó hơn co, trực giác? Không cần chứng minh—chỉ lập luận “khi co thất bại như morphisme đẹp thì cần gì”.
-3. Khẩu hiệu định nghĩa Fano? Viết bằng ngôn ngữ $$-K_X$$ ample và bằng một câu không ký hiệu.
-4. Vì sao **boundedness** của một lớp đa tạp quan trọng cho phân loại? Liên hệ với ý “không có chuỗi ngày càng hoang”.
-5. Lướt một survey ICM hoặc expository về MMP; liệt kê **ba mốc** trước Birkar 2018 (tên + một dòng).
-6. **So sánh.** Một giống và một khác giữa “mô hình tối thiểu” và “Mori fiber space”.
-7. **Seminar (≤200 từ).** Giải thích cho bạn học phân tích: “MMP là thuật toán rút gọn hình học theo dấu của $$K$$”—nêu giới hạn của ẩn dụ thuật toán.
+1. Tương đương song hữu tỉ **bỏ qua** và **giữ lại** điều gì? Viết hai câu, rồi nêu sơ lược một ví dụ phép nổ để minh họa sự khác biệt với đẳng cấu.
+2. Theo trực giác, vì sao flip khó hơn phép co? Không cần chứng minh, chỉ cần lập luận: "khi phép co không cho một cấu xạ đẹp thì cần gì?".
+3. Định nghĩa sơ lược của đa tạp Fano là gì? Viết bằng ngôn ngữ "$$-K_X$$ ample", rồi bằng một câu không có ký hiệu.
+4. Vì sao **tính bị chặn** của một lớp đa tạp quan trọng cho phân loại? Liên hệ với ý "không có dãy ngày càng hoang dã".
+5. Đọc lướt một bài tổng quan ICM hoặc một bài giới thiệu về MMP; liệt kê **ba mốc** trước Birkar 2018 (tên và một dòng mô tả).
+6. **So sánh.** Nêu một điểm giống và một điểm khác giữa "mô hình tối thiểu" và "không gian thớ Mori".
+7. **Thảo luận (không quá 200 từ).** Giải thích cho một bạn học giải tích câu: "MMP là thuật toán rút gọn hình học theo dấu của $$K$$". Nêu giới hạn của cách so sánh với thuật toán.
 
 ---
 
 
-## Nguồn video (gói math-video-researcher)
+## Nguồn video (bộ tư liệu nghiên cứu video)
 
 Chi tiết: `research/video-research/Birkar_Algebraic_Geometry/`.
 
 **Thứ tự xem gợi ý**
 
-1. Quanta video: [YouTube](https://www.youtube.com/watch?v=1EpMF16ShY0) · [bài](https://www.quantamagazine.org/caucher-birkar-who-fled-war-and-found-asylum-wins-fields-medal-20180801/).  
-2. Cambridge interview: [YouTube](https://www.youtube.com/watch?v=CwMvjWL-gos).
+1. Video của Quanta: [YouTube](https://www.youtube.com/watch?v=1EpMF16ShY0) · [bài viết](https://www.quantamagazine.org/caucher-birkar-who-fled-war-and-found-asylum-wins-fields-medal-20180801/).  
+2. Phỏng vấn tại Cambridge: [YouTube](https://www.youtube.com/watch?v=CwMvjWL-gos).
 
-**Nhắc:** Boundedness Fano + MMP—không phân loại hết mọi đa tạp.
+**Nhắc lại:** tính bị chặn của đa tạp Fano và MMP không có nghĩa là đã phân loại hết mọi đa tạp.
 
 ---
 
 
-### Transcript & frames (batch extract)
+### Phụ đề và khung hình
 
-Transcript caption và unit theo thời gian: `research/video-research/Birkar_Algebraic_Geometry/transcripts/` · trạng thái: `research/video-research/Birkar_Algebraic_Geometry/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
+Phụ đề và các đoạn theo thời gian: `research/video-research/Birkar_Algebraic_Geometry/transcripts/` · trạng thái: `research/video-research/Birkar_Algebraic_Geometry/TRANSCRIPT_STATUS.md` · danh sách tổng: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
 
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/Birkar_Algebraic_Geometry_1EpMF16ShY0_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính (xem bộ tư liệu để biết mốc thời gian).*
 
 ## Tài liệu tham khảo
 
 
-Danh mục URL đầy đủ (mọi link khi nghiên cứu video): `research/video-research/Birkar_Algebraic_Geometry/references.md`.
+Danh sách URL đầy đủ (mọi đường dẫn tìm được khi nghiên cứu video): `research/video-research/Birkar_Algebraic_Geometry/references.md`.
 
 ### Danh sách URL đầy đủ
 
@@ -212,27 +212,27 @@ Danh mục URL đầy đủ (mọi link khi nghiên cứu video): `research/vide
 11. https://en.wikipedia.org/wiki/Fano_variety  
 12. https://arxiv.org/search/?query=Birkar+Fano&searchtype=all  
 
-### Gói nghiên cứu
+### Bộ tư liệu nghiên cứu
 
-13. Gói khóa học: `research/video-research/Birkar_Algebraic_Geometry/`.
+13. Bộ tư liệu của khóa học: `research/video-research/Birkar_Algebraic_Geometry/`.
 
-1. IMU Fields Medal 2018 — Caucher Birkar.
-2. C. Birkar — các bài về boundedness of Fano varieties.
-3. Birkar–Cascini–Hacon–McKernan (BCHM) — finite generation / MMP.
-4. J. Kollár, S. Mori — *Birational Geometry of Algebraic Varieties* (nền).
-5. Survey / ICM reports về MMP và Fano boundedness (chọn bản expository).
-6. Khóa học: [Tổng quan Chương 2]({{ site.baseurl }}/contents/vi/chapter02/), [Scholze]({{ site.baseurl }}/contents/vi/chapter02/02_06_Scholze_Perfectoid/) (mặt khác của hình học đại số hiện đại).
+1. IMU, Huy chương Fields 2018 — Caucher Birkar.
+2. C. Birkar — các bài báo về tính bị chặn của đa tạp Fano.
+3. Birkar–Cascini–Hacon–McKernan (BCHM) — tính hữu hạn sinh / MMP.
+4. J. Kollár, S. Mori — *Birational Geometry of Algebraic Varieties* (tài liệu nền).
+5. Các bài tổng quan, báo cáo ICM về MMP và tính bị chặn của đa tạp Fano (nên chọn bản viết dễ đọc).
+6. Trong khóa học: [Tổng quan Chương 2]({{ site.baseurl }}/contents/vi/chapter02/), [Scholze]({{ site.baseurl }}/contents/vi/chapter02/02_06_Scholze_Perfectoid/) (một mặt khác của hình học đại số hiện đại).
 
 ---
 
 ## Hướng đi tiếp
 
-- So phân loại mặt (Enriques–Kodaira) với MMP chiều cao: cùng triết lý positivity, khác máy móc.
-- Khám phá **singularity MMP** (klt, lc) và **vành chính tắc** trước khi đọc paper nghiên cứu.
-- Nếu quan tâm moduli Fano / K-stability, đó là chương tiếp sau boundedness—đừng nhầm với chính định lý Birkar.
-- Đọc một note expository ngắn về extremal ray và cone theorem để “thấy” tia cực trị trước flip.
+- So sánh phân loại mặt (Enriques–Kodaira) với MMP ở chiều cao: cùng triết lý về tính dương, khác công cụ.
+- Tìm hiểu **các loại kỳ dị trong MMP** (klt, lc) và **vành chính tắc** trước khi đọc bài báo nghiên cứu.
+- Nếu quan tâm đến moduli của đa tạp Fano hay tính K-ổn định, đó là bước tiếp theo sau tính bị chặn; đừng nhầm với chính định lý của Birkar.
+- Đọc một bài giới thiệu ngắn về tia cực trị và định lý nón để "thấy" tia cực trị trước khi học flip.
 
 ## Video tham khảo
 
-- **xem trước** — [Caucher Birkar: An Innovator Who Brings Order to an Infinitude of Equations](https://www.youtube.com/watch?v=1EpMF16ShY0) — Quanta Magazine, tiếng Anh. Xem trước. “Caucher Birkar: An Innovator Who Brings Order to an Infinitude of Equations” định hướng cho mục tiêu của bài: Nêu mục tiêu MMP trong một đoạn: rút gọn birational về mô hình “đơn giản” (mô hình tối thiểu hoặc Mori fiber space).
-- [2018 Fields Medal Recipient Caucher Birkar - Professor, University of Cambridge](https://www.youtube.com/watch?v=CwMvjWL-gos) — WebsEdgeScience, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Nêu mục tiêu MMP trong một đoạn: rút gọn birational về mô hình “đơn giản” (mô hình tối thiểu hoặc Mori fiber space).
+- **Xem trước:** [Caucher Birkar: An Innovator Who Brings Order to an Infinitude of Equations](https://www.youtube.com/watch?v=1EpMF16ShY0) — Quanta Magazine, tiếng Anh. Giới thiệu Birkar và ý tưởng sắp xếp trật tự cho vô số phương trình; nên xem trước khi đọc bài.
+- [2018 Fields Medal Recipient Caucher Birkar - Professor, University of Cambridge](https://www.youtube.com/watch?v=CwMvjWL-gos) — WebsEdgeScience, tiếng Anh. Phỏng vấn ngắn với Birkar về công trình của ông; nên xem sau khi đã nắm ý chính của bài.

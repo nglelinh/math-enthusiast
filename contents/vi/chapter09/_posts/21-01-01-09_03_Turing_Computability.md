@@ -9,7 +9,7 @@ categories:
 - chapter09
 ---
 
-Năm **1936**, trước khi máy tính điện tử phổ biến, **Alan Turing** công bố *On Computable Numbers, with an Application to the Entscheidungsproblem*. Bài báo không “phát minh laptop.” Nó làm một việc toán học sắc hơn: đưa ra mô hình chính xác cho **thủ tục hữu hạn, máy móc, từng bước** mà ta gọi là tính toán, rồi chứng minh rằng **không phải mọi bài toán đều giải được** bởi bất kỳ thủ tục nào thuộc lớp đó. Cùng thời kỳ, Church, Kleene, Post và những người khác xây dựng các hình thức tương đương; luận đề **Church–Turing** tóm tắt sự hội tụ: mọi khái niệm hợp lý về “tính được bằng thuật toán” đều trùng với lớp hàm máy Turing tính được.
+Năm **1936**, trước khi máy tính điện tử phổ biến, **Alan Turing** công bố *On Computable Numbers, with an Application to the Entscheidungsproblem*. Bài báo không “phát minh ra máy tính xách tay”. Nó làm một việc toán học chính xác hơn: đưa ra mô hình chính xác cho **thủ tục hữu hạn, máy móc, từng bước** mà ta gọi là tính toán, rồi chứng minh rằng **không phải mọi bài toán đều giải được** bởi bất kỳ thủ tục nào thuộc lớp đó. Cùng thời kỳ, Church, Kleene, Post và những người khác xây dựng các hình thức tương đương; luận đề **Church–Turing** tóm tắt sự hội tụ: mọi khái niệm hợp lý về “tính được bằng thuật toán” đều trùng với lớp hàm máy Turing tính được.
 
 Bài này là chân dung **ý tưởng**, không phải tiểu sử đầy đủ. Ta đi từ máy Turing, qua tính phổ quát và bài toán dừng, tới họ hàng với đường chéo Cantor và bất toàn Gödel, rồi ranh giới với **độ phức tạp hiệu quả** (P vs NP) ở các bài sau. Liên kết: [Giải Turing là gì?]({{ site.baseurl }}/contents/vi/chapter09/09_02_What_Is_Turing_Award/), [Định lý bất toàn Gödel]({{ site.baseurl }}/contents/vi/chapter05/05_04_Godel_Incompleteness/), [Đường chéo Cantor]({{ site.baseurl }}/contents/vi/chapter05/05_03_Cantor_Diagonal/), [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/).
 
@@ -26,7 +26,7 @@ Sau bài học, bạn có thể:
 - Nêu luận đề Church–Turing như tuyên bố mô hình, không như định lý trong ZFC theo nghĩa thông thường.  
 - Tránh nhầm: “máy Turing chậm nên vô dụng,” “mọi thứ toán học đều quyết định được,” “bất khả quyết định = chưa tìm ra thuật toán.”
 
-**Tiên quyết.** Quen ý thuật toán như quy trình hữu hạn bước; số nguyên và xâu bit; đọc được ký hiệu tập hợp cơ bản. Không cần đã học ôtômat hình thức; ta ở mức ý tưởng seminar. Toán rời rạc ở mức quan hệ và hàm là đủ.
+**Tiên quyết.** Quen ý thuật toán như quy trình hữu hạn bước; số nguyên và xâu bit; đọc được ký hiệu tập hợp cơ bản. Không cần đã học ôtômat hình thức; ta ở mức ý tưởng. Toán rời rạc ở mức quan hệ và hàm là đủ.
 
 ---
 
@@ -80,7 +80,7 @@ Do đó $$H$$ không thể tồn tại. Đây là anh em của đường chéo C
 
 Một khi bài toán dừng không quyết định được, hàng loạt bài toán khác **quy về** nó (reduction theo nghĩa tính được): nếu ta quyết định được bài $$A$$ thì ta quyết định được bài dừng—do đó $$A$$ cũng không quyết định được.
 
-Ví dụ cổ điển (mức khẩu hiệu seminar):
+Một số ví dụ cổ điển (nêu ở mức ý tưởng):
 
 - **Bài toán trống (emptiness)** cho một số lớp máy/chương trình đủ mạnh: “chương trình có bao giờ chấp nhận input nào không?”  
 - **Bài toán tương đương** chương trình: “hai chương trình có cùng hành vi trên mọi input không?”  
@@ -112,7 +112,7 @@ Ba tầng hay bị trộn:
 
 Bài toán có thể **quyết định được** nhưng **không biết** có nằm trong P hay không; hoặc nằm ngoài P dưới giả thuyết chuẩn; hoặc quyết định được trong lý thuyết nhưng thời gian khổng lồ. Ngược lại, bất khả quyết định là chặn tuyệt đối trong mô hình: không phải “chờ máy nhanh hơn.”
 
-Gödel và Turing họ hàng đường chéo nhưng **không đồng nhất**. Gödel nói về chứng minh trong hệ tiên đề; Turing nói về dừng của máy. Có cầu kỹ thuật sâu (số hóa cú pháp, biểu diễn quan hệ tính được), nhưng khẩu hiệu seminar cần giữ tách: “không chứng minh được” ≠ “không tính được” ≠ “NP-khó.”
+Gödel và Turing họ hàng đường chéo nhưng **không đồng nhất**. Gödel nói về chứng minh trong hệ tiên đề; Turing nói về dừng của máy. Có cầu kỹ thuật sâu (số hóa cú pháp, biểu diễn quan hệ tính được), nhưng cần giữ tách bạch các khái niệm: “không chứng minh được” ≠ “không tính được” ≠ “NP-khó.”
 
 ---
 
@@ -134,65 +134,40 @@ Gödel và Turing họ hàng đường chéo nhưng **không đồng nhất**. G
 1. Liệt kê năm thành phần của máy Turing và giải thích trong một câu vì sao bảng chuyển phải hữu hạn.  
 2. Viết ≤120 từ giải thích máy phổ quát cho người chưa học tin học, dùng ẩn dụ “công thức nấu ăn + đầu bếp.”  
 3. Phác thảo (không cần formal) bước đường chéo trong chứng minh bài dừng: chỉ rõ chỗ nào $$D$$ “lật” câu trả lời của $$H$$.  
-4. Cho ví dụ reduction khẩu hiệu: nếu quyết định được bài toán X thì quyết định được bài dừng—do đó X không quyết định được. Tự chọn X ở mức ý tưởng (ví dụ tương đương chương trình).  
+4. Cho ví dụ về phép quy dẫn (ở mức ý tưởng): nếu quyết định được bài toán X thì quyết định được bài dừng—do đó X không quyết định được. Tự chọn X ở mức ý tưởng (ví dụ tương đương chương trình).  
 5. Phân biệt bằng bảng 2×2: quyết định được / không; hiệu quả (poly-time) / không hiệu quả—đặt P vs NP và bài dừng vào đúng ô.  
 6. Đọc lại [Gödel]({{ site.baseurl }}/contents/vi/chapter05/05_04_Godel_Incompleteness/): viết ba câu về họ hàng đường chéo **và** một câu về khác biệt.  
 7. **≤250 từ:** Vì sao “thêm RAM, thêm core” không giải quyết bài toán dừng?  
-8. Studio: mô phỏng bằng tay một máy Turing 2–3 trạng thái cộng hai số unary nhỏ; ghi cấu hình từng bước.
+8. Mô phỏng bằng tay một máy Turing 2–3 trạng thái cộng hai số unary nhỏ; ghi cấu hình từng bước.
 
 ---
 
 
-## Nguồn video (gói math-video-researcher)
+## Video và tài liệu
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh. Chi tiết: `research/video-research/turing-computability/`.
+Video gợi ý: [https://www.youtube.com/watch?v=macM_MtS_w4](https://www.youtube.com/watch?v=macM_MtS_w4) (Computerphile, về Turing và bài toán dừng). Hãy dùng video để làm quen với bối cảnh, không dùng thay cho chứng minh.
 
-**Khẩu hiệu từ gói nghiên cứu**
-
-- Máy Turing; bài toán dừng không quyết định được; Entscheidungsproblem.
-- Không quyết định được ≠ “chưa tìm ra thuật toán.”
-
-**Thứ tự xem gợi ý**
-
-1. **ORIENTATION** — Computerphile / Numberphile culture: search Turing halting: [https://www.youtube.com/watch?v=macM_MtS_w4](https://www.youtube.com/watch?v=macM_MtS_w4).  
-
-**Cổng chính thức / tài liệu**
-
-- amturing.acm.org (award named for Turing): https://amturing.acm.org/  
-
-Danh mục URL đầy đủ: `research/video-research/turing-computability/references.md`.
-
-
-### Transcript & frames (batch extract)
-
-Transcript caption và unit theo thời gian: `research/video-research/turing-computability/transcripts/` · trạng thái: `research/video-research/turing-computability/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
 
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/turing-computability_macM_MtS_w4_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video trên.*
 
-## Tài liệu
-
-
-### Gói nghiên cứu video (mọi URL)
-
-Danh mục đầy đủ: `research/video-research/turing-computability/references.md`.
+## Tài liệu tham khảo trực tuyến
 
 1. Wikipedia — Turing machine — https://en.wikipedia.org/wiki/Turing_machine  
 2. Wikipedia — Halting problem — https://en.wikipedia.org/wiki/Halting_problem  
-3. Wikipedia — Church–Turing thesis — https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis  
+3. Wikipedia — Định đề Church–Turing thesis — https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis  
 4. Wikipedia — Entscheidungsproblem — https://en.wikipedia.org/wiki/Entscheidungsproblem  
-5. SEP — Turing machines — https://plato.stanford.edu/entries/turing-machine/  
-6. SEP — Computability and complexity — https://plato.stanford.edu/entries/computability/  
-7. Turing's 1936 paper (archive culture) — https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf  
-8. amturing.acm.org (award named for Turing) — https://amturing.acm.org/  
-9. Computerphile / Numberphile culture: search Turing halting — https://www.youtube.com/watch?v=macM_MtS_w4  
-10. Thư mục gói: `research/video-research/turing-computability/`.
+5. Stanford Encyclopedia — Turing machines — https://plato.stanford.edu/entries/turing-machine/  
+6. Stanford Encyclopedia — Computability and complexity — https://plato.stanford.edu/entries/computability/  
+7. Bài báo năm 1936 của Turing — https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf  
+8. amturing.acm.org (giải thưởng mang tên Turing) — https://amturing.acm.org/  
+9. Video Computerphile về Turing và bài toán dừng — https://www.youtube.com/watch?v=macM_MtS_w4  
 
 1. Turing, A. M. (1936). On computable numbers, with an application to the Entscheidungsproblem. *Proc. London Math. Soc.*  
-2. Sipser, M. *Introduction to the Theory of Computation* — chương máy Turing và undecidability.  
+2. Sipser, M. *Introduction to the Theory of Computation*: chương về máy Turing và tính không quyết định được.  
 3. [Cantor đường chéo]({{ site.baseurl }}/contents/vi/chapter05/05_03_Cantor_Diagonal/); [Gödel]({{ site.baseurl }}/contents/vi/chapter05/05_04_Godel_Incompleteness/); [Lát gạch]({{ site.baseurl }}/contents/vi/chapter04/04_10_Tilings/).  
-4. Soare, R. *Turing Computability* — góc nhìn hiện đại về lý thuyết đệ quy (đọc thêm).
+4. Soare, R. *Turing Computability*: góc nhìn hiện đại về lý thuyết đệ quy (đọc thêm).
 
 ---
 
@@ -206,8 +181,8 @@ Danh mục đầy đủ: `research/video-research/turing-computability/reference
 
 ## Tính được như đường chân trời
 
-**Tính được** là chân trời nguyên lý; **độ phức tạp** là bản đồ độ cao bên trong. Turing đặt chân trời; Cook–Karp–Knuth–mật mã làm việc chủ yếu bên trong. Đọc tin AI “giải toán”: bài **quyết định được**? Máy **dừng**? Chi phí theo $$n$$? Ba tầng tách bạch. Seminar chỉ cần nắm ba khối chứng minh dừng: **giả sử có $$H$$** → **dựng $$D$$** → **mâu thuẫn đường chéo**.
+**Tính được** là chân trời nguyên lý; **độ phức tạp** là bản đồ độ cao bên trong. Turing đặt chân trời; Cook–Karp–Knuth–mật mã làm việc chủ yếu bên trong. Khi đọc tin về AI “giải toán”, hãy hỏi: bài **quyết định được**? Máy **dừng**? Chi phí theo $$n$$? Ba tầng tách bạch. Chỉ cần nắm ba bước của chứng minh bài toán dừng: **giả sử có $$H$$** → **dựng $$D$$** → **mâu thuẫn đường chéo**.
 
 ## Video tham khảo
 
-- **xem trước** — [Turing & The Halting Problem - Computerphile](https://www.youtube.com/watch?v=macM_MtS_w4) — Computerphile, tiếng Anh. Xem trước. “Turing & The Halting Problem - Computerphile” định hướng cho mục tiêu của bài: Mô tả máy Turing ở mức thành phần (băng, đầu đọc–ghi, trạng thái hữu hạn, bảng chuyển) và giải thích vì sao mô hình cố ý thô.
+- **Xem trước** — [Turing & The Halting Problem - Computerphile](https://www.youtube.com/watch?v=macM_MtS_w4) — Computerphile, tiếng Anh. Giới thiệu bài toán dừng và ý tưởng của Turing.

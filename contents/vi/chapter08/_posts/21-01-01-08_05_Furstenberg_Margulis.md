@@ -10,177 +10,168 @@ categories:
 lesson_type: required
 ---
 
-**Abel Prize 2020** trao chung cho **Hillel Furstenberg** (Hebrew University of Jerusalem) và **Gregory Margulis** (Yale)
+**Giải Abel 2020** được trao chung cho **Hillel Furstenberg** (Đại học Hebrew Jerusalem) và **Gregory Margulis** (Yale)
 
 > “for pioneering the use of methods from probability and dynamics in group theory, number theory and combinatorics.”  
-> — [Citation ủy ban Abel](https://abelprize.no/abel-prize-laureates/2020)
+> — [Citation của ủy ban Abel](https://abelprize.no/abel-prize-laureates/2020)
 
-Bài này giải thích citation nghĩa gì: **ergodic theory** và **homogeneous dynamics** trở thành động cơ cho số học và tổ hợp thế nào; multiple recurrence kiểu Furstenberg đóng góp gì cho cấu trúc tập lớn; **superrigidity** và **arithmeticity** kiểu Margulis đóng góp gì cho nhóm rời rạc; và vì sao ghép hai sự nghiệp trong một năm Abel gửi thông điệp văn hóa. Tài liệu: [abelprize.no](https://abelprize.no/).
+Bài này giải thích citation đó nói gì: **lý thuyết ergodic** và **động lực thuần nhất** đã trở thành động cơ cho số học và tổ hợp như thế nào; hiện tượng tái hồi nhiều lần theo kiểu Furstenberg cho ta biết gì về cấu trúc của các tập lớn; **tính siêu cứng (superrigidity)** và **tính số học (arithmeticity)** kiểu Margulis cho ta biết gì về các nhóm rời rạc; và vì sao việc ghép hai sự nghiệp trong cùng một năm của giải Abel gửi đi một thông điệp văn hóa. Tài liệu: [abelprize.no](https://abelprize.no/).
 
 ---
 
 ## Mục tiêu học tập
 
-Định nghĩa ergodic theory như trung bình theo quỹ đạo và độ đo bất biến; nêu một chủ đề Furstenberg (multiple recurrence / cấu trúc tập số nguyên dày); nêu một chủ đề Margulis (superrigidity / arithmeticity / homogeneous dynamics); giải thích động lực như **công cụ** cho số học và tổ hợp, không chỉ hỗn độn; nối worldview này với [Green–Tao]({{ site.baseurl }}/contents/vi/chapter02/02_04_Green_Tao/) mà không tuyên bố phương pháp giống hệt.
+Định nghĩa lý thuyết ergodic như việc lấy trung bình theo quỹ đạo với một độ đo bất biến; nêu một chủ đề của Furstenberg (tái hồi nhiều lần / cấu trúc của các tập số nguyên có mật độ dương); nêu một chủ đề của Margulis (siêu cứng / tính số học / động lực thuần nhất); giải thích động lực học như một **công cụ** cho số học và tổ hợp, chứ không chỉ là chuyện hỗn độn; và nối cách nhìn này với [Green–Tao]({{ site.baseurl }}/contents/vi/chapter02/02_04_Green_Tao/) mà không khẳng định hai phương pháp giống hệt nhau.
 
-**Kiến thức nền.** Nhóm tác động lên không gian; xác suất cơ bản (trung bình, độ đo); tập con số nguyên.
-
----
-
-## 1. Cuộc cách mạng chung
-
-Lý thuyết số cổ điển thường đếm và ước lượng: điểm lattice, số nguyên tố trong cấp số, giá trị dạng toàn phương. Furstenberg và Margulis chỉ ra nhiều bài trở nên trong suốt—hoặc ít nhất tiếp cận được mới—khi viết lại thành **bài toán quỹ đạo** của nhóm tác động trên không gian, với **độ đo bất biến** kiểm soát tiệm cận.
-
-Thông điệp chung vừa kỹ thuật vừa văn hóa:
-
-> Xác suất và động lực là **toán thuần cốt lõi**, không chỉ phụ lục ứng dụng.
-
-Thông điệp đó nay thấm analytic number theory, geometric group theory, và một phần tổ hợp. Abel 2020 vinh danh người tiên phong cuộc di cư đó.
+**Kiến thức nền.** Nhóm tác động lên không gian; xác suất cơ bản (trung bình, độ đo); tập con của các số nguyên.
 
 ---
 
-## 2. Ergodic theory một trang
+## 1. Một cuộc cách mạng chung
 
-**Hệ động lực** bảo toàn độ đo: không gian $$X$$, xác suất $$\mu$$, biến đổi $$T:X\to X$$ (hoặc nhóm biến đổi) bảo toàn $$\mu$$. **Quỹ đạo** của $$x$$:
+Lý thuyết số cổ điển thường đếm và ước lượng: điểm nguyên của lưới, số nguyên tố trong cấp số cộng, giá trị của dạng toàn phương. Furstenberg và Margulis chỉ ra rằng nhiều bài toán trở nên trong suốt, hoặc ít nhất tiếp cận được theo cách mới, khi viết lại thành **bài toán về quỹ đạo** của một nhóm tác động lên một không gian, trong đó một **độ đo bất biến** kiểm soát hành vi tiệm cận.
+
+Thông điệp chung vừa mang tính kỹ thuật vừa mang tính văn hóa:
+
+> Xác suất và động lực học là **toán thuần túy cốt lõi**, không chỉ là phụ lục ứng dụng.
+
+Thông điệp đó nay đã thấm vào lý thuyết số giải tích, lý thuyết nhóm hình học và một phần của tổ hợp. Giải Abel 2020 vinh danh những người đi đầu trong cuộc di cư ấy.
+
+---
+
+## 2. Lý thuyết ergodic trong một trang
+
+Một **hệ động lực** bảo toàn độ đo gồm: không gian $$X$$, một độ đo xác suất $$\mu$$, một phép biến đổi $$T:X\to X$$ (hoặc một nhóm các phép biến đổi) bảo toàn $$\mu$$. **Quỹ đạo** của $$x$$ là:
 
 $$
 \{ x,\, Tx,\, T^2x,\, T^3x,\, \dots \}.
 $$
 
-**Định lý ergodic** nối trung bình thời gian dọc quỹ đạo với trung bình không gian theo $$\mu$$. Nếu hệ ergodic (không phân rã), “hầu hết quỹ đạo thấy cả không gian” theo nghĩa trung bình:
+**Định lý ergodic** nối trung bình theo thời gian dọc quỹ đạo với trung bình trong không gian theo $$\mu$$. Nếu hệ là ergodic (không phân rã được), thì “hầu hết các quỹ đạo đều đi khắp không gian” theo nghĩa trung bình:
 
 $$
 \lim_{N\to\infty}\frac{1}{N}\sum_{k=0}^{N-1} f(T^k x) = \int_X f\, d\mu
 $$
 
-với $$f$$ khả tích, với hầu hết $$x$$ theo $$\mu$$.
+với $$f$$ khả tích, đúng với hầu hết $$x$$ theo $$\mu$$.
 
-Vì sao lý thuyết số quan tâm? Nhiều cấu hình số học mã hóa thành lần thăm của quỹ đạo tới một vùng; định lý recurrence buộc pattern tổ hợp.
+Vì sao lý thuyết số quan tâm đến điều này? Nhiều cấu hình số học có thể mã hóa thành việc quỹ đạo ghé thăm một vùng nào đó; các định lý tái hồi buộc những mẫu hình tổ hợp phải xuất hiện.
 
 ---
 
-## 3. Furstenberg: recurrence, cấu trúc, biên
+## 3. Furstenberg: tái hồi, cấu trúc và biên
 
-### Multiple recurrence và cấu trúc kiểu Szemerédi
+### Tái hồi nhiều lần và cấu trúc kiểu Szemerédi
 
-Định lý Szemerédi: mọi tập con số nguyên mật độ trên dương chứa cấp số cộng độ dài hữu hạn tùy ý. Furstenberg cho chứng minh ergodic bằng cách dịch mật độ và cấp số thành **multiple recurrence**: với hệ bảo toàn độ đo và tập $$A$$ đo dương, có thời điểm quay $$n$$ sao cho
+Định lý Szemerédi: mọi tập con của các số nguyên có mật độ trên dương đều chứa các cấp số cộng dài hữu hạn tùy ý. Furstenberg đã đưa ra một chứng minh ergodic bằng cách dịch mật độ và cấp số cộng thành **tái hồi nhiều lần**: với một hệ bảo toàn độ đo và một tập $$A$$ có độ đo dương, tồn tại một thời điểm quay lại $$n$$ sao cho
 
 $$
 \mu\big(A \cap T^{-n}A \cap T^{-2n}A \cap \cdots \cap T^{-(k-1)n}A\big) > 0
 $$
 
-dưới giả thiết thích hợp—bắt cấp số $$k$$ số hạng một cách động lực.
+dưới giả thiết thích hợp. Điều này bắt được một cấp số cộng $$k$$ số hạng bằng ngôn ngữ động lực.
 
-Ý sâu: **recurrence quỹ đạo mã hóa cấu hình tổ hợp**. Định lý cấu trúc hệ động lực trở thành định lý cấu trúc tập số nguyên lớn.
+Ý tưởng sâu xa: **sự tái hồi của quỹ đạo mã hóa các cấu hình tổ hợp**. Định lý cấu trúc của hệ động lực trở thành định lý cấu trúc của các tập số nguyên lớn.
 
 ### Ứng dụng số học và biên
 
-Furstenberg phát triển lý thuyết cấu trúc và ứng dụng nối hệ động lực với lý thuyết số/tổ hợp. Lý thuyết biên của random walk và tác động nhóm là chủ đề lớn khác.
+Furstenberg phát triển lý thuyết cấu trúc và các ứng dụng nối hệ động lực với lý thuyết số và tổ hợp. Lý thuyết biên của bước đi ngẫu nhiên và của các tác động nhóm là một chủ đề lớn khác của ông.
 
-Phong cách: biến câu hỏi rời rạc khó thành câu hỏi liên tục–độ đo, rồi thu hoạch rigidity hoặc recurrence.
-
----
-
-## 4. Margulis: rigidity, arithmeticity, homogeneous dynamics
-
-### Superrigidity
-
-Định lý **superrigidity** (Margulis và liên quan): đồng cấu của lattice hạng cao vào nhóm đại số bị ràng buộc chặt—về cơ bản có nguồn gốc đại số. Heuristic: hình học hạng cao buộc ánh xạ phải đại số, không hoang dã.
-
-### Arithmeticity
-
-Kết quả **arithmeticity**: một số nhóm con rời rạc của nhóm Lie nửa đơn phải đến từ nhóm đại số trên trường số. Hình học rời rạc bị buộc phải số học.
-
-### Homogeneous dynamics
-
-**Không gian đồng nhất** là thương $$G/\Gamma$$ của nhóm Lie $$G$$ bởi nhóm con rời rạc $$\Gamma$$. Flow trên không gian đó—đặc biệt unipotent—có hành vi đóng quỹ đạo cứng (Ratner theory lân cận). Ý tưởng kiểu Margulis khai thác rigidity để ràng buộc tập số học: giá trị dạng, đóng quỹ đạo, equidistribution.
-
-Câu chuyện nổi tiếng gần đó: **giả thuyết Oppenheim** về giá trị dạng toàn phương không xác định, tiếp cận bằng động lực (chứng minh Margulis). Slogan: xấp xỉ Diophantine và giá trị dạng trở thành câu hỏi đóng quỹ đạo.
-
-### Expander và giao diện pure/CS
-
-Margulis cũng dựng **expander graph** tường minh bằng phương pháp nhóm—đồ thị thưa nhưng giãn mạnh, trung tâm CS, mã, và toán thuần. Abel 2020 chạm biên pure/CS mà Abel 2021 (Lovász–Wigderson) sẽ vinh danh từ góc rời rạc/TCS.
+Phong cách chung: biến một câu hỏi rời rạc khó thành một câu hỏi liên tục có độ đo, rồi thu hoạch tính cứng hoặc tính tái hồi.
 
 ---
 
-## 5. Slogan homogeneous dynamics (bản đồ sâu)
+## 4. Margulis: tính cứng, tính số học, động lực thuần nhất
 
-Unipotent flow trên không gian đồng nhất thường có đóng quỹ đạo **cứng**: đóng tự là đồng nhất, không hỗn độn fractal. Rigidity đó là quà cho lý thuyết số. Thay vì ước lượng sai số tay cho mọi bài, đôi khi nhận diện hệ động lực mà đóng quỹ đạo phân loại khả năng số học.
+### Siêu cứng
 
-Furstenberg và Margulis không phải cùng một máy. Furstenberg nghiêng cấu trúc/recurrence trong hệ bảo toàn độ đo trừu tượng (trả tổ hợp). Margulis nghiêng nhóm đại số, lattice, không gian đồng nhất (trả số học/hình học). Abel ghép họ vì cả hai làm **động lực thành ngôn ngữ toán thuần**.
+Định lý **siêu cứng** (Margulis và các kết quả liên quan): các đồng cấu từ một lattice hạng cao vào một nhóm đại số bị ràng buộc rất chặt, về bản chất có nguồn gốc đại số. Trực giác: hình học hạng cao buộc các ánh xạ phải mang tính đại số, không thể hoang dại.
+
+### Tính số học
+
+Các kết quả về **tính số học**: một số nhóm con rời rạc của nhóm Lie nửa đơn bắt buộc phải xuất phát từ các nhóm đại số trên trường số. Hình học rời rạc bị buộc phải mang tính số học.
+
+### Động lực thuần nhất
+
+**Không gian thuần nhất** là thương $$G/\Gamma$$ của một nhóm Lie $$G$$ cho một nhóm con rời rạc $$\Gamma$$. Các dòng trên không gian đó, đặc biệt là dòng unipotent, có bao đóng quỹ đạo rất cứng (lý thuyết Ratner nằm gần đó). Các ý tưởng kiểu Margulis khai thác tính cứng này để ràng buộc các tập số học: giá trị của các dạng, bao đóng quỹ đạo, phân bố đều.
+
+Câu chuyện nổi tiếng ở gần đó là **giả thuyết Oppenheim** về giá trị của các dạng toàn phương không xác định, được tiếp cận bằng động lực (chứng minh của Margulis). Khẩu hiệu: xấp xỉ Diophantine và giá trị của dạng trở thành các câu hỏi về bao đóng quỹ đạo.
+
+### Expander và giao diện giữa toán thuần túy và khoa học máy tính
+
+Margulis cũng dựng ra các **đồ thị expander** tường minh bằng phương pháp nhóm: đồ thị thưa nhưng giãn rất mạnh, trung tâm của khoa học máy tính, lý thuyết mã và toán thuần túy. Giải Abel 2020 chạm đến vùng giáp ranh giữa toán thuần túy và khoa học máy tính, mà giải Abel 2021 (Lovász–Wigderson) sẽ vinh danh từ góc nhìn rời rạc và khoa học máy tính lý thuyết.
 
 ---
 
-## 6. Vì sao Abel ghép họ
+## 5. Khẩu hiệu của động lực thuần nhất (bản đồ sâu hơn)
 
-Khác phong cách, cùng thông điệp. Sau Furstenberg và Margulis, nhà lý thuyết số nói độ đo bất biến là bình thường; nhà tổ hợp trích chứng minh ergodic; nhà hình học nhóm rời rạc sống trong homogeneous dynamics. Xác suất hết “chỉ ứng dụng”; động lực hết “chỉ ảnh hỗn độn.”
+Các dòng unipotent trên không gian thuần nhất thường có bao đóng quỹ đạo **cứng**: bao đóng tự nó là thuần nhất, không hỗn độn kiểu fractal. Tính cứng đó là món quà cho lý thuyết số. Thay vì ước lượng sai số bằng tay cho từng bài, đôi khi ta chỉ cần nhận ra hệ động lực mà bao đóng quỹ đạo của nó phân loại các khả năng số học.
 
-So [Green–Tao]({{ site.baseurl }}/contents/vi/chapter02/02_04_Green_Tao/): cấp số trong số nguyên tố dùng ý additive combinatorics và văn hóa gần ergodic ở câu chuyện Fields sau. Abel 2020 là về người tiên phong làm cuộc di cư đó thành quy mô.
+Furstenberg và Margulis không dùng cùng một cỗ máy. Furstenberg nghiêng về cấu trúc và tái hồi trong các hệ bảo toàn độ đo trừu tượng (thu được kết quả tổ hợp). Margulis nghiêng về nhóm đại số, lattice và không gian thuần nhất (thu được kết quả số học và hình học). Giải Abel ghép hai người vì cả hai đều làm cho **động lực học trở thành một ngôn ngữ của toán thuần túy**.
 
 ---
 
-## 7. Nhầm lẫn
+## 6. Vì sao Abel ghép hai người
 
-| Khẳng định | Chỉnh |
-|------------|-------|
-| “Ergodic chỉ vật lý/thống kê.” | Là lý thuyết toán thuần về hệ bảo toàn độ đo, có ứng dụng số học. |
-| “Furstenberg chứng minh Szemerédi trước.” | Chứng minh tổ hợp Szemerédi trước; Furstenberg cho chứng minh ergodic nền tảng. |
-| “Rigidity = không gì chuyển động.” | Ánh xạ/quỹ đạo bị ràng buộc mạnh—thường đại số—không tùy ý. |
-| “Expander chỉ CS.” | Trung tâm cả toán thuần (nhóm, hình học, phổ đồ thị). |
-| “Động lực giải hết lý thuyết số.” | Toolkit mạnh cho *một số* bài; nhiều bài còn ngoài tầm. |
+Phong cách khác nhau, thông điệp như nhau. Sau Furstenberg và Margulis, nhà lý thuyết số nói rằng độ đo bất biến là chuyện bình thường; nhà tổ hợp trích dẫn các chứng minh ergodic; nhà hình học nhóm rời rạc sống trong động lực thuần nhất. Xác suất không còn “chỉ là ứng dụng”; động lực học không còn “chỉ là những hình ảnh hỗn độn”.
+
+So với [Green–Tao]({{ site.baseurl }}/contents/vi/chapter02/02_04_Green_Tao/): các cấp số cộng trong số nguyên tố dùng ý tưởng của tổ hợp cộng tính và văn hóa gần với ergodic, trong câu chuyện Fields ở chương 02. Giải Abel 2020 nói về những người đi tiên phong đã đưa cuộc di cư đó lên thành quy mô lớn.
+
+---
+
+## 7. Những nhầm lẫn
+
+| Khẳng định | Chỉnh lại |
+|------------|-----------|
+| “Ergodic chỉ là vật lý hay thống kê.” | Đó là lý thuyết toán thuần túy về hệ bảo toàn độ đo, có ứng dụng số học. |
+| “Furstenberg chứng minh Szemerédi trước.” | Chứng minh tổ hợp của Szemerédi có trước; Furstenberg đưa ra chứng minh ergodic mang tính nền tảng. |
+| “Tính cứng nghĩa là không có gì chuyển động.” | Các ánh xạ và quỹ đạo bị ràng buộc mạnh, thường là theo kiểu đại số, chứ không tùy ý. |
+| “Expander chỉ dành cho khoa học máy tính.” | Chúng cũng là trung tâm của toán thuần túy (nhóm, hình học, phổ của đồ thị). |
+| “Động lực học giải quyết xong lý thuyết số.” | Là bộ công cụ mạnh cho *một số* bài toán; nhiều bài còn nằm ngoài tầm với. |
 
 ---
 
 ## Bài tập
 
-1. Ẩn dụ đời thường cho trung bình quỹ đạo.  
-2. Vì sao mật độ dương của tập số nguyên có thể liên quan recurrence? ≤120 từ.  
-3. So với [Green–Tao]({{ site.baseurl }}/contents/vi/chapter02/02_04_Green_Tao/): một giống, một khác.  
-4. **≤200 từ:** “Rigidity” gợi gì trong thế giới Margulis?  
-5. Một tác động CS-adjacent của Margulis (expander) và một tác động số học.  
-6. Đọc tài liệu Abel 2020 trên [abelprize.no](https://abelprize.no/); trích ba danh từ đối tượng toán.
+1. Tìm một ẩn dụ đời thường cho trung bình theo quỹ đạo.  
+2. Vì sao mật độ dương của một tập số nguyên có thể liên quan đến tái hồi? Không quá 120 từ.  
+3. So với [Green–Tao]({{ site.baseurl }}/contents/vi/chapter02/02_04_Green_Tao/): một điểm giống và một điểm khác.  
+4. **Không quá 200 từ:** “tính cứng” gợi lên điều gì trong thế giới của Margulis?  
+5. Nêu một tác động của Margulis ở gần khoa học máy tính (expander) và một tác động số học.  
+6. Đọc tài liệu về Abel 2020 trên [abelprize.no](https://abelprize.no/); trích ra ba danh từ chỉ đối tượng toán học.
 
 ---
 
+## Nguồn video
 
-## Nguồn video (gói math-video-researcher)
+Hãy dùng video để **định hướng và làm quen với văn hóa nghiên cứu**, đừng dùng thay cho chứng minh.
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh. Chi tiết: `research/video-research/furstenberg-margulis/`.
+**Những ý chính từ phần nghiên cứu**
 
-**Khẩu hiệu từ gói nghiên cứu**
-
-- Abel 2020: động lực/xác suất → số học & tổ hợp.
-- Furstenberg recurrence; Margulis superrigidity / expander / Oppenheim.
+- Abel 2020: động lực và xác suất → số học và tổ hợp.
+- Tái hồi của Furstenberg; siêu cứng, expander và giả thuyết Oppenheim của Margulis.
 
 **Thứ tự xem gợi ý**
 
-1. **CORE** — Abel lectures 2020 Furstenberg & Margulis: [https://www.youtube.com/watch?v=2i5UJwKN7os](https://www.youtube.com/watch?v=2i5UJwKN7os).  
-2. **HISTORY** — Abel interview Furstenberg: [https://www.youtube.com/watch?v=01IdfSRYawE](https://www.youtube.com/watch?v=01IdfSRYawE).  
-3. **HISTORY** — Abel interview Margulis: [https://www.youtube.com/watch?v=FInTu9-MHHU](https://www.youtube.com/watch?v=FInTu9-MHHU).  
-4. **ORIENTATION** — Popular presentation of 2020 work (Bellos clip): [https://www.youtube.com/watch?v=Fqdl_jyw8OE](https://www.youtube.com/watch?v=Fqdl_jyw8OE).  
-5. **RELATED** — Margulis on Kolmogorov–Sinai entropy (earlier Abel week): [https://www.youtube.com/watch?v=cuYO5NQieRA](https://www.youtube.com/watch?v=cuYO5NQieRA).  
+1. **Cốt lõi**: các bài giảng Abel 2020 của Furstenberg và Margulis: [https://www.youtube.com/watch?v=2i5UJwKN7os](https://www.youtube.com/watch?v=2i5UJwKN7os).  
+2. **Lịch sử**: phỏng vấn Furstenberg của giải Abel: [https://www.youtube.com/watch?v=01IdfSRYawE](https://www.youtube.com/watch?v=01IdfSRYawE).  
+3. **Lịch sử**: phỏng vấn Margulis của giải Abel: [https://www.youtube.com/watch?v=FInTu9-MHHU](https://www.youtube.com/watch?v=FInTu9-MHHU).  
+4. **Định hướng**: phần trình bày phổ thông về công trình 2020 (đoạn của Bellos): [https://www.youtube.com/watch?v=Fqdl_jyw8OE](https://www.youtube.com/watch?v=Fqdl_jyw8OE).  
+5. **Liên quan**: Margulis nói về entropy Kolmogorov–Sinai (tuần Abel trước đó): [https://www.youtube.com/watch?v=cuYO5NQieRA](https://www.youtube.com/watch?v=cuYO5NQieRA).  
 
-**Cổng chính thức / tài liệu**
+**Cổng chính thức và tài liệu**
 
 - Abel 2020 Furstenberg & Margulis: https://abelprize.no/abel-prize-laureates/2020  
 
-Danh mục URL đầy đủ: `research/video-research/furstenberg-margulis/references.md`.
-
-
-### Transcript & frames (batch extract)
-
-Transcript caption và unit theo thời gian: `research/video-research/furstenberg-margulis/transcripts/` · trạng thái: `research/video-research/furstenberg-margulis/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
+---
 
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/furstenberg-margulis_2i5UJwKN7os_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính.*
 
 ## Tài liệu
 
-
-### Gói nghiên cứu video (mọi URL)
-
-Danh mục đầy đủ: `research/video-research/furstenberg-margulis/references.md`.
+### Danh mục nguồn
 
 1. Abel 2020 Furstenberg & Margulis — https://abelprize.no/abel-prize-laureates/2020  
 2. Abel lectures 2020 Furstenberg & Margulis — https://www.youtube.com/watch?v=2i5UJwKN7os  
@@ -192,39 +183,36 @@ Danh mục đầy đủ: `research/video-research/furstenberg-margulis/reference
 8. Nature Abel 2020 — https://www.nature.com/articles/d41586-020-00799-7  
 9. Wikipedia — Hillel Furstenberg — https://en.wikipedia.org/wiki/Hillel_Furstenberg  
 10. Wikipedia — Grigory Margulis — https://en.wikipedia.org/wiki/Grigory_Margulis  
-11. Thư mục gói: `research/video-research/furstenberg-margulis/`.
 
 1. [Abel 2020](https://abelprize.no/abel-prize-laureates/2020).  
-2. Exposition homogeneous dynamics; survey multiple recurrence Furstenberg.  
-3. Szemerédi: văn học tổ hợp và ergodic song song.  
-4. Khóa: Green–Tao; sau đó Lovász–Wigderson.
+2. Bài trình bày về động lực thuần nhất; bài khảo sát về tái hồi nhiều lần của Furstenberg.  
+3. Szemerédi: văn liệu tổ hợp và văn liệu ergodic chạy song song.  
+4. Trong khóa: Green–Tao; sau đó là Lovász–Wigderson.
 
 ---
 
 ## Hướng đi tiếp
 
-- Cầu additive combinatorics không cần full ergodic: “động lực phát hiện pattern.”  
-- Đọc phổ thông Oppenheim qua động lực.  
-- So rigidity Sullivan (no wandering domains).  
-- So [Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/).  
-- Tiếp: [Lovász & Wigderson]({{ site.baseurl }}/contents/vi/chapter08/08_06_Lovasz_Wigderson/).
+- Cây cầu tổ hợp cộng tính không cần toàn bộ ergodic: “động lực học phát hiện các mẫu hình”.  
+- Đọc một bài phổ thông về Oppenheim qua động lực học.  
+- So tính cứng ở đây với tính cứng của Sullivan (không có miền lang thang).  
+- So với [Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/).  
+- Tiếp theo: [Lovász & Wigderson]({{ site.baseurl }}/contents/vi/chapter08/08_06_Lovasz_Wigderson/).
 
+## Xác suất và đối xứng trên không gian thuần nhất
 
-## Xác suất và đối xứng trên không gian đồng nhất
+Furstenberg–Margulis (Abel 2020) tôn vinh sự giao thoa giữa **lý thuyết ergodic, nhóm Lie và các ứng dụng số học và hình học**. Khẩu hiệu cho seminar: biến một câu hỏi số học hay hình học thành động lực học của một tác động nhóm, rồi khai thác các bất biến và độ đo.
 
-Furstenberg–Margulis (Abel 2020) tôn vinh giao thoa **lý thuyết ergodic, nhóm Lie, và các ứng dụng số–hình học**. Khẩu hiệu seminar: biến câu hỏi số học/hình học thành động lực của một tác động nhóm, rồi khai thác bất biến và độ đo.
+## Đừng đồng nhất “ngẫu nhiên” với “không có cấu trúc”
 
-## LO6: đừng đồng nhất “randomness” với “không cấu trúc”
-
-Ergodic theory nói về trung bình theo thời gian/không gian của hệ động lực—thường là cấu trúc rất cứng. Đó không phải “toán trở nên mơ hồ”.
+Lý thuyết ergodic nói về trung bình theo thời gian hoặc theo không gian của các hệ động lực, thường là những cấu trúc rất cứng. Đó không phải là chuyện “toán học trở nên mơ hồ”.
 
 ## Studio
 
-Viết 200 từ phân biệt: (a) dãy ngẫu nhiên thuật toán, (b) quỹ đạo ergodic, (c) định lý mật độ kiểu Szemerédi (nếu đã học Green–Tao). Nêu một chỗ dễ nhầm thuật ngữ giữa ba thế giới.
-
+Viết 200 từ phân biệt: (a) dãy ngẫu nhiên theo nghĩa thuật toán, (b) quỹ đạo ergodic, (c) định lý mật độ kiểu Szemerédi (nếu đã học Green–Tao). Nêu một chỗ dễ nhầm thuật ngữ giữa ba thế giới đó.
 
 ## Video tham khảo
 
-- **xem trước** — [The Abel lectures: Hillel Furstenberg and Gregory Margulis](https://www.youtube.com/watch?v=2i5UJwKN7os) — The Abel Prize, tiếng Anh. Xem trước. “The Abel lectures: Hillel Furstenberg and Gregory Margulis” định hướng cho mục tiêu của bài: Định nghĩa ergodic theory như trung bình theo quỹ đạo và độ đo bất biến; nêu một chủ đề Furstenberg (multiple recurrence / cấu trúc tập số nguyên dày); nêu một chủ đề Margulis (sup…
-- [Hillel Furstenberg - The Abel Prize interview 2020](https://www.youtube.com/watch?v=01IdfSRYawE) — The Abel Prize, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Định nghĩa ergodic theory như trung bình theo quỹ đạo và độ đo bất biến; nêu một chủ đề Furstenberg (multiple recurrence / cấu trúc tập số nguyên dày); nêu một chủ đề Margulis (sup…
-- [Gregory Margulis - The Abel Prize interview 2020](https://www.youtube.com/watch?v=FInTu9-MHHU) — The Abel Prize, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Định nghĩa ergodic theory như trung bình theo quỹ đạo và độ đo bất biến; nêu một chủ đề Furstenberg (multiple recurrence / cấu trúc tập số nguyên dày); nêu một chủ đề Margulis (sup…
+- **Xem trước** — [The Abel lectures: Hillel Furstenberg and Gregory Margulis](https://www.youtube.com/watch?v=2i5UJwKN7os) — The Abel Prize, tiếng Anh. Xem trước để nghe chính hai laureate trình bày công trình của mình.
+- [Hillel Furstenberg - The Abel Prize interview 2020](https://www.youtube.com/watch?v=01IdfSRYawE) — The Abel Prize, tiếng Anh. Xem lượt thứ hai, khi ý chính đã rõ, để nghe Furstenberg kể về con đường làm toán.
+- [Gregory Margulis - The Abel Prize interview 2020](https://www.youtube.com/watch?v=FInTu9-MHHU) — The Abel Prize, tiếng Anh. Góc nhìn bổ sung sau hai video đầu, qua cuộc phỏng vấn Margulis.

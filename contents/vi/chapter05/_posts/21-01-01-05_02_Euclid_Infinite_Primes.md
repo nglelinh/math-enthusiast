@@ -9,12 +9,12 @@ categories:
 - chapter05
 ---
 
-Bài **flagship Phần 5** nói về **ý tưởng chứng minh**, không phải bản viết kỹ thuật dài nhất. Hai kiệt tác cạnh nhau:
+Đây là bài **trọng tâm của Phần 5**, nói về **ý tưởng chứng minh**, không phải về bản chứng minh kỹ thuật dài nhất. Hai kiệt tác được đặt cạnh nhau:
 
-1. **Euclid** — vô hạn số nguyên tố (danh sách hữu hạn → một nguyên tố mới).  
-2. **Cantor** — số thực không đếm được (mọi danh sách → một số thực thoát).
+1. **Euclid**: có vô hạn số nguyên tố (từ một danh sách hữu hạn, tìm ra một số nguyên tố mới).  
+2. **Cantor**: tập số thực không đếm được (từ mọi danh sách, tìm ra một số thực nằm ngoài danh sách).
 
-Cả hai đều ngắn. Cả hai định hình lại tri thức toán. Cùng rèn kỹ năng tái dựng skeleton chứng minh để bạn học theo dõi được mà không chìm trong điều kiện phụ. Nếu chỉ giữ một khẩu hiệu: *chứng minh có thể rất ngắn mà vẫn đổi thế giới khi phép dựng thoát mọi danh mục bị cáo buộc là đầy đủ.*
+Cả hai đều ngắn. Cả hai đều thay đổi hiểu biết toán học. Cả hai rèn cùng một kỹ năng: dựng lại bộ khung của chứng minh để người học theo dõi được mà không bị chìm trong các điều kiện phụ. Nếu chỉ nhớ một câu: *một chứng minh có thể rất ngắn mà vẫn thay đổi thế giới, khi phép dựng của nó thoát ra khỏi mọi danh sách được cho là đầy đủ.*
 
 ---
 
@@ -22,18 +22,18 @@ Cả hai đều ngắn. Cả hai định hình lại tri thức toán. Cùng rè
 
 Sau bài học, bạn có thể:
 
-- Viết lập luận Euclid: giả định → xây dựng → mâu thuẫn, với trực giác dư 1 khi chia cho mỗi nguyên tố trong danh sách.
-- Giải thích vì sao Euclid cho *vô hạn*, không phải công thức nguyên tố thứ $$n$$, và vì sao $$N$$ không cần là nguyên tố.
-- Tái dựng ý tưởng đường chéo Cantor và vì sao không có liệt kê đầy đủ số thực.
-- So sánh hai chứng minh như **xây dựng thoát** khỏi “danh mục quá nhỏ”—hữu hạn nguyên tố so với đếm được số thực.
-- Phân biệt *ý tưởng chứng minh* với *vệ sinh kỹ thuật* (thập phân không duy nhất, tồn tại ước nguyên tố).
-- Viết narrative ý tưởng chứng minh ngắn (luyện bài A4).
+- Viết lập luận của Euclid theo trình tự giả sử → xây dựng → mâu thuẫn, với trực giác "chia cho mỗi số nguyên tố trong danh sách đều dư 1".
+- Giải thích vì sao Euclid chứng minh có *vô hạn* số nguyên tố chứ không cho công thức số nguyên tố thứ $$n$$, và vì sao $$N$$ không cần là số nguyên tố.
+- Dựng lại ý tưởng đường chéo của Cantor và giải thích vì sao không thể liệt kê hết các số thực.
+- So sánh hai chứng minh như những **phép dựng thoát ra** khỏi một "danh sách quá nhỏ": hữu hạn số nguyên tố, so với đếm được số thực.
+- Phân biệt *ý tưởng chứng minh* với *chi tiết kỹ thuật* (biểu diễn thập phân không duy nhất, sự tồn tại của ước nguyên tố).
+- Viết một đoạn trình bày ngắn về ý tưởng chứng minh (luyện cho bài A4).
 
-**Tiên quyết.** Quen chứng minh phản chứng; biết số nguyên tố và viết số dưới dạng thập phân vô hạn ở mức phổ thông. Không cần lý thuyết độ đo hay lý thuyết tập hợp hình thức.
+**Kiến thức cần có.** Quen với chứng minh phản chứng; biết số nguyên tố và cách viết số dưới dạng thập phân vô hạn ở mức phổ thông. Không cần lý thuyết độ đo hay lý thuyết tập hợp hình thức.
 
 ---
 
-## Phần I — Euclid: vô hạn số nguyên tố
+## Phần I. Euclid: có vô hạn số nguyên tố
 
 ### Định lý
 
@@ -41,116 +41,116 @@ Có vô hạn số nguyên tố.
 
 ### Bối cảnh
 
-Lập luận Euclid (thường gắn với *Elements*, Quyển IX, Mệnh đề 20) là một trong những chứng minh cổ nhất vẫn được dạy theo tinh thần gốc. Toán Hy Lạp đã biết nhiều nguyên tố; khẳng định sâu không phải “có khá nhiều,” mà **không có danh mục hữu hạn nào cạn kiệt chúng**. Đó là mệnh đề về *mọi* nguyên tố—không thể kết thúc chỉ bằng liệt kê. Chứng minh trả lời kẻ hoài nghi: “Có lẽ sau một ngưỡng, mọi số nguyên chỉ thừa số hóa bằng các nguyên tố trong một tập hữu hạn cố định.” Euclid chỉ ra kẻ hoài nghi luôn sai.
+Lập luận của Euclid (thường gắn với *Cơ sở* (Elements), Quyển IX, Mệnh đề 20) là một trong những chứng minh cổ nhất vẫn được dạy gần như nguyên tinh thần ban đầu. Người Hy Lạp đã biết nhiều số nguyên tố; điều sâu sắc không phải là "có khá nhiều", mà là **không danh sách hữu hạn nào chứa hết chúng**. Đó là một mệnh đề về *mọi* số nguyên tố, nên không thể chứng minh chỉ bằng cách liệt kê. Chứng minh trả lời người hoài nghi: "Biết đâu từ một lúc nào đó, mọi số nguyên đều chỉ phân tích được thành tích các số nguyên tố trong một tập hữu hạn cố định." Euclid chỉ ra người hoài nghi luôn sai.
 
 ### Ý tưởng
 
-Giả sử chỉ hữu hạn nguyên tố; tạo một số buộc phải có nguyên tố ngoài danh sách.
+Giả sử chỉ có hữu hạn số nguyên tố; dựng một số buộc phải có ước nguyên tố nằm ngoài danh sách.
 
 ### Lập luận
 
-Giả sử mọi nguyên tố là $$p_1,\ldots,p_k$$. Đặt
+Giả sử tất cả các số nguyên tố là $$p_1,\ldots,p_k$$. Đặt
 
 $$
 N = p_1 p_2 \cdots p_k + 1.
 $$
 
-$$N>1$$ nên có ít nhất một ước nguyên tố $$q$$. Mỗi $$p_i$$ chia $$N$$ dư 1, nên $$p_i\nmid N$$. Vậy $$q$$ không thuộc danh sách. Mâu thuẫn. Do đó danh sách không thể đầy đủ: có vô hạn số nguyên tố.
+Vì $$N>1$$ nên $$N$$ có ít nhất một ước nguyên tố $$q$$. Mỗi $$p_i$$ chia $$N$$ đều dư 1, nên $$p_i\nmid N$$. Vậy $$q$$ không có trong danh sách. Mâu thuẫn. Do đó không danh sách hữu hạn nào đầy đủ: có vô hạn số nguyên tố.
 
 ![Euclid]({{ site.baseurl }}/img/chapter_img/euclid_primes_proof.svg)
 
-*Hình. Từ mọi danh sách hữu hạn, dựng $$N$$ đòi hỏi ước nguyên tố mới.*
+*Hình. Từ mọi danh sách hữu hạn, số $$N$$ dựng được buộc phải có một ước nguyên tố mới.*
 
-### Vì sao dư 1 là toàn bộ câu chuyện địa phương
+### Vì sao "dư 1" là mấu chốt
 
-Viết $$P=p_1\cdots p_k$$, vậy $$N=P+1$$. Với mỗi nguyên tố trong danh sách,
+Viết $$P=p_1\cdots p_k$$, khi đó $$N=P+1$$. Với mỗi số nguyên tố trong danh sách,
 
 $$
 N \equiv 1 \pmod{p_i}.
 $$
 
-Không nguyên tố nào trong danh sách chia hết $$N$$. Dù $$N$$ nguyên tố hay hợp số, mọi ước nguyên tố của nó đều nằm ngoài $$p_1,\ldots,p_k$$. Lập luận không cần *tìm* nguyên tố mới bằng công thức đóng; tồn tại ước nguyên tố của số lớn hơn 1 là đủ.
+Không số nguyên tố nào trong danh sách chia hết $$N$$. Dù $$N$$ là số nguyên tố hay hợp số, mọi ước nguyên tố của nó đều nằm ngoài $$p_1,\ldots,p_k$$. Lập luận không cần *tìm ra* số nguyên tố mới bằng một công thức; chỉ cần biết mọi số lớn hơn 1 đều có ước nguyên tố là đủ.
 
-### Ý tưởng *là* gì
+### Ý tưởng chứng minh *là* gì
 
-- **Reductio:** giả định danh mục nguyên tố hữu hạn đầy đủ.  
-- **Chứng nhân:** $$N=P+1$$ với $$P$$ là tích mọi nguyên tố đã liệt kê.  
-- **Cản trở địa phương:** mỗi nguyên tố trong danh sách không chia hết $$N$$.  
-- **Kết luận toàn cục:** vô hạn nguyên tố.
+- **Phản chứng:** giả sử có một danh sách hữu hạn đầy đủ các số nguyên tố.  
+- **Đối tượng làm chứng:** $$N=P+1$$, với $$P$$ là tích mọi số nguyên tố đã liệt kê.  
+- **Cản trở cục bộ:** không số nguyên tố nào trong danh sách chia hết $$N$$.  
+- **Kết luận toàn cục:** có vô hạn số nguyên tố.
 
-### Ý tưởng *không* là gì
+### Ý tưởng chứng minh *không phải* là gì
 
-- Không khẳng định $$N$$ luôn nguyên tố. Đôi khi $$N$$ hợp số, ví dụ
+- Không khẳng định $$N$$ luôn là số nguyên tố. Đôi khi $$N$$ là hợp số, ví dụ
 
 $$
 2\cdot 3\cdot 5\cdot 7\cdot 11\cdot 13 + 1 = 30031 = 59\cdot 509,
 $$
 
-và cả $$59$$ lẫn $$509$$ đều là nguyên tố ngoài danh sách.  
-- Không sinh nguyên tố theo thứ tự tăng.  
-- Không cho kiểm tra nguyên tố thực dụng hay mật độ nguyên tố.  
-- Không cần toàn bộ phân tích thừa số duy nhất ở dạng nặng: “mọi số nguyên $$>1$$ có ước nguyên tố” là đủ ở mức ý tưởng.
+và cả $$59$$ lẫn $$509$$ đều là số nguyên tố nằm ngoài danh sách.  
+- Không sinh ra các số nguyên tố theo thứ tự tăng dần.  
+- Không cho cách kiểm tra tính nguyên tố trong thực tế, cũng không nói gì về mật độ số nguyên tố.  
+- Không cần đến định lý phân tích duy nhất ở dạng đầy đủ: ở mức ý tưởng, chỉ cần "mọi số nguyên $$>1$$ đều có ước nguyên tố".
 
 ### Ví dụ nhỏ
 
-Với $$\{2,3,5\}$$: $$P=30$$, $$N=31$$ nguyên tố mới.  
-Với $$\{2,3,5,7,11,13\}$$: $$N$$ hợp số nhưng ước nguyên tố vẫn mới. Đạo đức ổn định: **tính mới của ước nguyên tố**, không phải tính nguyên tố của $$N$$.
+Với $$\{2,3,5\}$$: $$P=30$$, $$N=31$$ là một số nguyên tố mới.  
+Với $$\{2,3,5,7,11,13\}$$: $$N$$ là hợp số nhưng các ước nguyên tố của nó vẫn là số mới. Bài học không đổi: điều quan trọng là **ước nguyên tố là số mới**, không phải $$N$$ là số nguyên tố.
 
-### Vì sao là mẫu mực
+### Vì sao đây là chứng minh mẫu mực
 
-Định nghĩa tối thiểu, cú đấm khái niệm tối đa. Phong cách Euclid—dựng chứng nhân thoát khỏi sơ đồ hữu hạn—lặp lại khắp lý thuyết số. Định lý Dirichlet về cấp số cộng nguyên tố khó hơn nhiều; *ý tưởng thoát* thì quen thuộc.
+Cần rất ít định nghĩa mà hiệu quả về khái niệm thì rất lớn. Phong cách của Euclid (dựng một đối tượng làm chứng thoát khỏi mọi danh sách hữu hạn) lặp lại khắp lý thuyết số. Định lý Dirichlet về số nguyên tố trong cấp số cộng khó hơn nhiều, nhưng *ý tưởng thoát ra* thì vẫn quen thuộc.
 
 ---
 
-## Phần II — Cantor: số thực không đếm được
+## Phần II. Cantor: tập số thực không đếm được
 
 ### Định lý
 
-Tập số thực không đếm được: không có song ánh giữa $$\mathbb{N}$$ và $$\mathbb{R}$$. Tương đương: không dãy nào liệt kê hết số thực.
+Tập số thực không đếm được: không có song ánh giữa $$\mathbb{N}$$ và $$\mathbb{R}$$. Nói cách khác, không dãy nào liệt kê hết được các số thực.
 
 ### Bối cảnh
 
-Lập luận đường chéo của Georg Cantor (cuối thế kỷ XIX) buộc toán học chấp nhận **các cỡ vô hạn khác nhau**. Vô hạn đếm được—cỡ của số tự nhiên, số nguyên, thậm chí số hữu tỷ—không phải cardinality vô hạn duy nhất. Liên tục số thực lớn hơn nghiêm ngặt. Điều này gây sốc triết học và màu mỡ kỹ thuật: mở ra lý thuyết tập hợp hiện đại và gieo phương pháp đường chéo sang logic và khoa học máy tính.
+Lập luận đường chéo của Georg Cantor (cuối thế kỷ XIX) buộc toán học chấp nhận **các cỡ vô hạn khác nhau**. Vô hạn đếm được, tức là cỡ của tập số tự nhiên, số nguyên, và cả số hữu tỉ, không phải là lực lượng (cardinality) vô hạn duy nhất. Tập số thực lớn hơn hẳn. Điều này gây sốc về mặt triết học và rất phong phú về mặt kỹ thuật: nó mở đường cho lý thuyết tập hợp hiện đại và đưa phương pháp đường chéo vào logic và khoa học máy tính.
 
 ### Ý tưởng
 
-Mọi danh sách số thực đề xuất đều bỏ sót ít nhất một số—xây bằng cách khác với số thứ $$n$$ ở vị trí thứ $$n$$.
+Mọi danh sách số thực được đưa ra đều bỏ sót ít nhất một số. Số đó được dựng sao cho khác số thứ $$n$$ ở chữ số thứ $$n$$.
 
-### Lập luận (mức ý tưởng, dạng thập phân)
+### Lập luận (ở mức ý tưởng, dùng biểu diễn thập phân)
 
-Đủ chứng minh $$(0,1)$$ không đếm được. Giả sử
+Chỉ cần chứng minh $$(0,1)$$ không đếm được. Giả sử
 
 $$
 r_1,r_2,r_3,\ldots
 $$
 
-liệt kê mọi số trong $$(0,1)$$ dưới dạng thập phân vô hạn. Gọi chữ số thứ $$n$$ của $$r_n$$ là $$d_{nn}$$. Định nghĩa $$d=0.e_1 e_2 e_3\ldots$$ bằng cách chọn $$e_n\neq d_{nn}$$—ví dụ $$e_n=4$$ nếu $$d_{nn}\neq 4$$, còn không thì $$e_n=5$$. Thì $$d\in(0,1)$$ nhưng $$d\neq r_n$$ mọi $$n$$ vì khác ở chữ số thứ $$n$$. Danh sách không đầy đủ.
+liệt kê mọi số trong $$(0,1)$$ dưới dạng thập phân vô hạn. Gọi chữ số thứ $$n$$ của $$r_n$$ là $$d_{nn}$$. Định nghĩa $$d=0.e_1 e_2 e_3\ldots$$ bằng cách chọn $$e_n\neq d_{nn}$$, chẳng hạn $$e_n=4$$ nếu $$d_{nn}\neq 4$$, ngược lại $$e_n=5$$. Khi đó $$d\in(0,1)$$ nhưng $$d\neq r_n$$ với mọi $$n$$, vì hai số khác nhau ở chữ số thứ $$n$$. Vậy danh sách không đầy đủ.
 
 ![Đường chéo]({{ site.baseurl }}/img/chapter_img/cantor_diagonal.svg)
 
-*Hình. Lật chữ số đường chéo; số mới thoát mọi hàng.*
+*Hình. Đổi các chữ số trên đường chéo; số mới khác mọi hàng.*
 
-### Vệ sinh kỹ thuật (chứng minh bóng loáng theo dõi gì)
+### Chi tiết kỹ thuật (một chứng minh chặt chẽ cần lưu ý gì)
 
-- **Thập phân không duy nhất.** Đồng nhất kiểu $$0.1999\ldots=0.2000\ldots$$ nghĩa là khác chữ số không luôn khác số thực. Chứng minh cẩn thận hạn chế khai triển cho phép (ví dụ cấm đuôi 9 vô hạn), chọn quy tắc lật chữ số tránh biểu diễn kép, hoặc làm việc ở cơ số/mã hóa kiểm soát được mơ hồ.  
-- **Khai triển nhị phân** gặp vấn đề biểu diễn kép tương tự (đuôi 1).  
-- Đường chéo sư phạm vẫn nắm **ý tưởng**; khóa đầy đủ vá biểu diễn mà không đổi chiến lược thoát.
+- **Biểu diễn thập phân không duy nhất.** Đẳng thức kiểu $$0.1999\ldots=0.2000\ldots$$ cho thấy khác chữ số chưa chắc là khác số thực. Chứng minh cẩn thận sẽ giới hạn các biểu diễn được dùng (ví dụ cấm đuôi toàn chữ số 9), chọn quy tắc đổi chữ số tránh biểu diễn kép (như dùng 4 và 5 ở trên), hoặc dùng một cơ số hay cách mã hóa kiểm soát được sự mơ hồ này.  
+- **Biểu diễn nhị phân** cũng gặp vấn đề biểu diễn kép tương tự (đuôi toàn chữ số 1).  
+- Phiên bản đường chéo dùng khi giảng dạy vẫn nắm đúng **ý tưởng**; một khóa học đầy đủ sẽ xử lý chuyện biểu diễn mà không thay đổi chiến lược thoát ra.
 
-### Ý tưởng *là* gì
+### Ý tưởng chứng minh *là* gì
 
-- **Liệt kê-và-thoát:** trước mọi dãy “đầy đủ” đề xuất, dựng phần tử thiếu.  
-- **Bất đồng đường chéo:** tọa độ thứ $$n$$ của chứng nhân được chọn khác với đối tượng thứ $$n$$ trong danh sách.  
-- **Khe cardinality:** $$\lvert\mathbb{R}\rvert > \lvert\mathbb{N}\rvert$$ theo nghĩa **không có song ánh**.
+- **Liệt kê rồi thoát ra:** với mọi dãy được cho là "đầy đủ", dựng một phần tử bị thiếu.  
+- **Khác nhau trên đường chéo:** tọa độ thứ $$n$$ của đối tượng làm chứng được chọn khác với đối tượng thứ $$n$$ trong danh sách.  
+- **Khoảng cách về lực lượng:** $$\lvert\mathbb{R}\rvert > \lvert\mathbb{N}\rvert$$ theo nghĩa **không có song ánh**.
 
-### Ý tưởng *không* là gì
+### Ý tưởng chứng minh *không phải* là gì
 
-- Không khẳng định “bạn không đếm được xa.” Không đếm được nghĩa là *không tồn tại song ánh với $$\mathbb{N}$$*, không phải con người hết kiên nhẫn.  
-- Không chứng minh continuum là “vô hạn kế tiếp sau đếm được.” Có cardinality trung gian hay không là **giả thuyết continuum**, độc lập với lý thuyết tập hợp chuẩn theo nghĩa kỹ thuật.  
-- Không đòi dựng $$d$$ bằng công thức “tự nhiên” độc lập danh sách; xây dựng *phụ thuộc danh sách đề xuất*—đúng là điểm mấu chốt.
+- Không có nghĩa là "bạn không đếm được xa". Không đếm được nghĩa là *không tồn tại song ánh với $$\mathbb{N}$$*, không phải con người hết kiên nhẫn.  
+- Không chứng minh tập số thực là "cỡ vô hạn ngay sau đếm được". Có hay không một lực lượng trung gian là **giả thuyết continuum**, và nó độc lập với lý thuyết tập hợp chuẩn theo nghĩa kỹ thuật.  
+- Không đòi hỏi dựng $$d$$ bằng một công thức "tự nhiên" không phụ thuộc danh sách; phép dựng *phụ thuộc vào danh sách được đưa ra*, và đó chính là điểm mấu chốt.
 
-### Cartoon số nhỏ
+### Ví dụ minh họa với vài số
 
-Giả sử ai đó chỉ liệt kê ba “số thực” trong $$(0,1)$$ để minh họa:
+Giả sử ai đó chỉ liệt kê ba "số thực" trong $$(0,1)$$ để minh họa:
 
 $$
 \begin{align*}
@@ -160,92 +160,92 @@ r_3 &= 0.16180\ldots.
 \end{align*}
 $$
 
-Chữ số đường chéo là $$3,7,1$$. Chọn $$e_1=4$$, $$e_2=4$$, $$e_3=4$$ cho $$d=0.444\ldots$$, khác mỗi hàng ở vị trí tương ứng. Trường hợp vô hạn: cùng động tác chạy mãi.
+Các chữ số trên đường chéo là $$3,7,1$$. Chọn $$e_1=4$$, $$e_2=4$$, $$e_3=4$$, ta được $$d=0.444\ldots$$, khác mỗi hàng ở vị trí tương ứng. Với danh sách vô hạn, ta làm cùng thao tác đó mãi mãi.
 
-### Hậu duệ của ý tưởng
+### Những kết quả kế thừa ý tưởng
 
-Mã hóa bất toàn Gödel, không quyết định được bài toán dừng của Turing, và nhiều lập luận đường chéo trong logic và CS chia sẻ động tác: *trước mọi liệt kê lời giải tổng thể giả định, dựng phản ví dụ lật đường chéo.* Khi thấy Euclid và Cantor cùng nhau, bạn bắt đầu nhận “xây dựng thoát” như một họ chứ không phải mẹo rời rạc.
+Định lý bất toàn của Gödel, tính không quyết định được của bài toán dừng (Turing), và nhiều lập luận đường chéo khác trong logic và khoa học máy tính có chung một thao tác: *với mọi danh sách được cho là chứa hết lời giải, dựng một phản ví dụ bằng cách đổi trên đường chéo.* Khi thấy Euclid và Cantor cạnh nhau, bạn sẽ bắt đầu nhận ra "phép dựng thoát ra" là một họ phương pháp, không phải những mẹo rời rạc.
 
 ---
 
-## Phần III — So sánh hai chứng minh
+## Phần III. So sánh hai chứng minh
 
 | | Euclid | Cantor |
 |--|--------|--------|
-| Mục tiêu | Vô hạn nguyên tố | Không đếm được số thực |
-| Giả định địch | Danh sách nguyên tố hữu hạn đầy đủ | Danh sách số thực đếm được đầy đủ |
-| Vũ khí | Tích cộng 1 | Lật chữ số đường chéo |
-| Chứng nhân | Ước nguyên tố của $$N$$ | Số thực $$d$$ vắng mặt |
-| Lĩnh vực | Lý thuyết số | Tập hợp / nền tảng |
+| Mục tiêu | Có vô hạn số nguyên tố | Tập số thực không đếm được |
+| Giả định cần bác bỏ | Có danh sách hữu hạn đầy đủ các số nguyên tố | Có danh sách đếm được đầy đủ các số thực |
+| Công cụ | Lấy tích rồi cộng 1 | Đổi chữ số trên đường chéo |
+| Đối tượng làm chứng | Ước nguyên tố của $$N$$ | Số thực $$d$$ bị thiếu |
+| Lĩnh vực | Lý thuyết số | Lý thuyết tập hợp / nền tảng |
 
-**Đạo đức chung.** Chứng minh ngắn có thể đổi thế giới. Mẫu tái sử dụng: **thoát mọi danh mục “sai cỡ.”**
+**Điểm chung.** Một chứng minh ngắn có thể thay đổi thế giới. Mô thức dùng lại được: **thoát ra khỏi mọi danh sách "có cỡ không đủ".**
 
-**Đạo đức khác.** Euclid mở rộng *tập nguyên tử vô hạn* (nguyên tố). Cantor mở rộng *bậc vô hạn* chính nó. Euclid đánh bại tính hữu hạn; Cantor đánh bại tính đếm được.
+**Điểm khác.** Euclid cho thấy một tập "nguyên tử" (các số nguyên tố) là vô hạn. Cantor phân biệt các cấp độ của chính sự vô hạn. Euclid đánh bại tính hữu hạn; Cantor đánh bại tính đếm được.
 
 ---
 
-## Viết narrative ý tưởng chứng minh (luyện A4)
+## Viết một đoạn trình bày ý tưởng chứng minh (luyện cho bài A4)
 
-Narrative seminar tốt gồm:
+Một đoạn trình bày tốt gồm:
 
-1. **Phát biểu định lý** bằng lời và ký hiệu nếu hữu ích.  
-2. **Giả định phản chứng.**  
-3. **Xây dựng then chốt** (công thức $$N$$; quy tắc chữ số đường chéo).  
-4. **Vì sao chứng nhân hoạt động** (dư 1; khác chữ số).  
-5. **Điều không khẳng định** ($$N$$ có thể hợp số; thập phân không duy nhất).  
-6. **Một câu vì sao quan trọng.**
+1. **Phát biểu định lý** bằng lời, kèm ký hiệu nếu có ích.  
+2. **Giả thiết phản chứng.**  
+3. **Phép dựng then chốt** (công thức của $$N$$; quy tắc chọn chữ số trên đường chéo).  
+4. **Vì sao đối tượng làm chứng hoạt động** (dư 1; khác chữ số).  
+5. **Điều chứng minh không khẳng định** ($$N$$ có thể là hợp số; biểu diễn thập phân không duy nhất).  
+6. **Một câu về ý nghĩa.**
 
-Chấm *độ rõ skeleton*, không chấm tiểu sử trang trí.
+Chấm điểm dựa trên *độ rõ ràng của bộ khung*, không dựa trên phần tiểu sử trang trí.
 
 ---
 
 ## Nhầm lẫn thường gặp
 
-1. “Euclid chứng minh $$N$$ luôn nguyên tố.” — Sai; chỉ có ước nguyên tố mới.  
-2. “Euclid cho công thức nguyên tố thứ $$n$$.” — Sai; chứng minh tập nguyên tố không bị chặn.  
-3. “Cantor liệt kê hết số thực rồi mâu thuẫn số học.” — Ông chỉ ra không có liệt kê đầy đủ.  
-4. “Không đếm được = đếm không xa.” — Không có song ánh với $$\mathbb{N}$$.  
-5. “Ý tưởng chứng minh = mơ hồ.” — Là skeleton đúng + ghi rõ chỗ kỹ thuật.  
-6. “Số hữu tỷ cũng không đếm được theo cùng lập luận.” — Không: $$\mathbb{Q}$$ *đếm được*.
+1. "Euclid chứng minh $$N$$ luôn là số nguyên tố." Sai; chỉ biết $$N$$ có ước nguyên tố mới.  
+2. "Euclid cho công thức số nguyên tố thứ $$n$$." Sai; chứng minh chỉ cho biết tập số nguyên tố không bị chặn.  
+3. "Cantor liệt kê hết số thực rồi tìm ra mâu thuẫn số học." Không; ông chỉ ra rằng không có danh sách đầy đủ nào.  
+4. "Không đếm được nghĩa là không đếm được xa." Nó nghĩa là không có song ánh với $$\mathbb{N}$$.  
+5. "Ý tưởng chứng minh thì mơ hồ." Ý tưởng chứng minh là bộ khung đúng cộng với việc ghi rõ những chỗ cần xử lý kỹ thuật.  
+6. "Theo cùng lập luận, số hữu tỉ cũng không đếm được." Không: $$\mathbb{Q}$$ là *đếm được*.
 
 ---
 
 ## Bài tập
 
-1. Euclid trên $$\{2,3,5\}$$ và $$\{2,3,5,7,11\}$$; phân tích $$N$$ nếu hợp số.  
-2. Viết Euclid không ký hiệu, rồi chỉ ký hiệu—so sánh độ rõ.  
-3. Bảng chữ số $$4\times 4$$; tạo xâu thoát với quy tắc rõ.  
-4. Vì sao đường chéo một mình không chứng minh vô hạn nguyên tố?  
-5. Giải thích ba câu vì sao $$0.1999\ldots=0.2000\ldots$$ đe dọa đường chéo bất cẩn.  
-6. **A4 micro (≤400 từ):** narrative Euclid *hoặc* Cantor theo mẫu 6 phần.  
-7. Tùy chọn: nối với flagship Vô hạn (Ch.4) bằng một câu về cardinality.
+1. Áp dụng lập luận Euclid cho $$\{2,3,5\}$$ và $$\{2,3,5,7,11\}$$; phân tích $$N$$ ra thừa số nếu nó là hợp số.  
+2. Viết chứng minh Euclid hoàn toàn bằng lời, rồi hoàn toàn bằng ký hiệu; so sánh độ rõ ràng.  
+3. Lập một bảng chữ số $$4\times 4$$; tạo một dãy chữ số thoát ra khỏi bảng theo một quy tắc rõ ràng.  
+4. Vì sao chỉ riêng lập luận đường chéo không chứng minh được có vô hạn số nguyên tố?  
+5. Giải thích trong ba câu vì sao $$0.1999\ldots=0.2000\ldots$$ có thể làm hỏng một lập luận đường chéo thiếu cẩn thận.  
+6. **Bài A4 thu nhỏ (không quá 400 từ):** trình bày ý tưởng chứng minh của Euclid *hoặc* Cantor theo mẫu 6 phần.  
+7. Tùy chọn: liên hệ với bài Vô hạn (Chương 4) bằng một câu về lực lượng.
 
 ---
 
 
 ---
 
-## Kiến thức trích từ nghiên cứu video
+## Kiến thức rút ra từ phần tìm hiểu video
 
-Tóm tắt cho seminar (đối chiếu nguồn viết; **không bịa transcript**). Gói: `research/video-research/euclid-infinite-primes/analysis.md`.
+Tóm tắt dùng khi thảo luận (đối chiếu với nguồn viết; **không bịa nội dung transcript**). Gói: `research/video-research/euclid-infinite-primes/analysis.md`.
 
-### Trạng thái
+### Tình trạng
 
-**Proved** (classical; Euclid, Elements IX.20). Status closed; pedagogy of the *idea* remains active.
+**Đã được chứng minh** (kết quả cổ điển; Euclid, *Cơ sở* IX.20). Vấn đề đã khép lại; việc dạy *ý tưởng* chứng minh thì vẫn còn nhiều điều để bàn.
 
-### Phát biểu / slogan cốt lõi
+### Phát biểu cốt lõi
 
-There are infinitely many primes. Proof idea: from finite list $$p_1,\ldots,p_k$$, form $$N=P+1$$ with $$P=\prod p_i$$; any prime factor of $$N$$ is new.
+Có vô hạn số nguyên tố. Ý tưởng chứng minh: từ danh sách hữu hạn $$p_1,\ldots,p_k$$, lập $$N=P+1$$ với $$P=\prod p_i$$; mọi ước nguyên tố của $$N$$ đều là số mới.
 
-### Định nghĩa cần cố định
+### Các định nghĩa cần nắm chắc
 
-- **Prime.** Integer $$p>1$$ whose only positive divisors are $$1$$ and $$p$$.
-- **Euclid number (idea-level).** Given primes $$p_1,\ldots,p_k$$, set $$N=p_1\cdots p_k+1$$. $$N$$ need not be prime.
+- **Số nguyên tố.** Số nguyên $$p>1$$ chỉ có hai ước dương là $$1$$ và $$p$$.
+- **Số Euclid (ở mức ý tưởng).** Cho các số nguyên tố $$p_1,\ldots,p_k$$, đặt $$N=p_1\cdots p_k+1$$. $$N$$ không nhất thiết là số nguyên tố.
 
-### Vệ sinh khái niệm
+### Những hiểu lầm cần tránh
 
-- Claiming $$N$$ itself is always prime (false; e.g. $$2\cdot3\cdot5\cdot7\cdot11\cdot13+1=30031=59\cdot509$$).
-- Confusing infinitude with a formula for the $$n$$th prime.
+- Cho rằng bản thân $$N$$ luôn là số nguyên tố (sai; ví dụ $$2\cdot3\cdot5\cdot7\cdot11\cdot13+1=30031=59\cdot509$$).
+- Nhầm việc có vô hạn số nguyên tố với việc có công thức cho số nguyên tố thứ $$n$$.
 
 
 ---
@@ -267,16 +267,16 @@ Dùng video để **định hướng và văn hóa nghiên cứu**, không thay 
 
 
 
-### Transcript & frames (extract flagship)
+### Transcript và khung hình (video chính)
 
 Transcript caption và unit theo thời gian: `research/video-research/euclid-infinite-primes/transcripts/` · trạng thái: `research/video-research/euclid-infinite-primes/TRANSCRIPT_STATUS.md` · danh sách master: `research/video-research/FLAGSHIP_TRANSCRIPTS.md`.
 
 Caption tải tự động (yt-dlp)—dùng để điều hướng, **không** thay nội dung bài.
 
 
-![Frame mẫu video flagship]({{ site.baseurl }}/img/video_research/flagships/euclid_numberphile_frame01.jpg)
+![Khung hình mẫu từ video chính]({{ site.baseurl }}/img/video_research/flagships/euclid_numberphile_frame01.jpg)
 
-*Hình. Frame mẫu từ video flagship chính (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính (xem gói nghiên cứu để biết mốc thời gian).*
 
 ## Tài liệu
 
@@ -311,10 +311,10 @@ Danh mục URL đầy đủ: `research/video-research/euclid-infinite-primes/ref
 
 ## Hướng đi tiếp
 
-Tiếp theo trong phần này: $$\sqrt{2}$$ vô tỷ (parity/descent), Königsberg (mô hình hóa), Bốn màu, FLT và Poincaré như sử thi hiện đại nơi *ý tưởng* bắc cầu giữa các lĩnh vực.
+Các bài tiếp theo trong phần này: $$\sqrt{2}$$ là số vô tỉ (tính chẵn lẻ, phương pháp xuống thang), bài toán Königsberg (mô hình hóa), định lý Bốn màu, định lý Fermat lớn và giả thuyết Poincaré, những thiên sử thi hiện đại nơi *ý tưởng* bắc cầu giữa các lĩnh vực.
 
 ## Video tham khảo
 
-- **xem trước** — [👉 Chứng minh số nguyên tố là vô hạn – Ý tưởng thiên tài của Euclid](https://www.youtube.com/watch?v=chbe-Mdc-Ds) — Toán Tám Chín, tiếng Việt. Xem trước: lối chứng minh ngắn bằng tiếng Việt cho ý tưởng Euclid (danh sách hữu hạn số nguyên tố thì chưa đủ), đúng phần I của bài.
-- [Infinite Primes - Numberphile](https://www.youtube.com/watch?v=ctC33JAV4FI) — Numberphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Viết lập luận Euclid: giả định → xây dựng → mâu thuẫn, với trực giác dư 1 khi chia cho mỗi nguyên tố trong danh sách.
-- [Euclid's proof that there are infinitely many primes! Classic math proof!](https://www.youtube.com/watch?v=816JCX5tKD8) — blackpenredpen, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Viết lập luận Euclid: giả định → xây dựng → mâu thuẫn, với trực giác dư 1 khi chia cho mỗi nguyên tố trong danh sách.
+- **Xem trước**: [👉 Chứng minh số nguyên tố là vô hạn – Ý tưởng thiên tài của Euclid](https://www.youtube.com/watch?v=chbe-Mdc-Ds) (Toán Tám Chín, tiếng Việt). Trình bày ngắn gọn bằng tiếng Việt ý tưởng của Euclid: một danh sách hữu hạn số nguyên tố không bao giờ đủ. Khớp với Phần I.
+- [Infinite Primes - Numberphile](https://www.youtube.com/watch?v=ctC33JAV4FI) (Numberphile, tiếng Anh). Chứng minh có vô hạn số nguyên tố. Xem sau khi đã đọc Phần I.
+- [Euclid's proof that there are infinitely many primes! Classic math proof!](https://www.youtube.com/watch?v=816JCX5tKD8) (blackpenredpen, tiếng Anh). Viết lại chứng minh Euclid từng bước trên bảng. Hữu ích khi luyện viết bài A4.

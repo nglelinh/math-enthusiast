@@ -56,7 +56,7 @@ với $$\mathrm{pa}(i)$$ cha của $$i$$. Độc lập có điều kiện đọc
 
 ### Vì sao đồ thị quan trọng hơn “chỉ joint table”
 
-Joint trên $$n$$ biến nhị phân có $$2^n-1$$ bậc tự do; mạng thưa hóa bằng local conditionals. Đây vừa nén, vừa **giả định mô hình** có thể sai. LO6: BN không miễn nhiễm misspecification; nó làm giả định *nhìn thấy được*.
+Joint trên $$n$$ biến nhị phân có $$2^n-1$$ bậc tự do; mạng thưa hóa bằng local conditionals. Đây vừa nén, vừa **giả định mô hình** có thể sai. Lưu ý: BN không miễn nhiễm với việc mô hình bị sai; nó làm giả định *nhìn thấy được*.
 
 Graphical models còn nuôi CRF, topic models, và một phần suy diễn trong AI cổ điển trước sóng deep learning. [Toán AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/) đặt chúng cạnh net: biểu diễn khác, câu hỏi suy diễn khác.
 
@@ -120,7 +120,7 @@ Giá, điều trị, ranking thay đổi hành vi ⇒ shift. Mô hình chỉ fit
 
 ### Fairness và giải thích
 
-“Nếu đổi thuộc tính nhạy cảm, outcome có đổi không?” mang hình counterfactual. Formal hóa khó: graph nào? nhiễu nào? Turing-era Pearl không kết thúc tranh luận đạo đức; ông cho **ngôn ngữ** để tranh luận không chỉ slogan.
+“Nếu đổi thuộc tính nhạy cảm, outcome có đổi không?” mang hình counterfactual. Formal hóa khó: graph nào? nhiễu nào? Công trình của Pearl không kết thúc tranh luận đạo đức; ông cho **ngôn ngữ** để tranh luận không chỉ slogan.
 
 ### Deep learning + causality
 
@@ -136,7 +136,7 @@ Nhiều ứng dụng *không* biết DAG. Thuật toán discovery (PC, FCI, scor
 - **Latent confounding** phá sufficiency.  
 - **Finite sample** error độc lập tests.
 
-LO6: paper “we learned the causal graph from data” cần checklist giả định, equivalence class, và validation can thiệp nếu có.
+Lưu ý: bài báo kiểu “we learned the causal graph from data” cần checklist giả định, equivalence class, và validation can thiệp nếu có.
 
 ---
 
@@ -154,7 +154,7 @@ LO6: paper “we learned the causal graph from data” cần checklist giả đ�
 
 ---
 
-## 8. Miniatura toán: back-door một dòng
+## 8. Ví dụ toán nhỏ: back-door trong một dòng
 
 Giả sử $$Z$$ chặn mọi đường back-door từ $$X$$ sang $$Y$$ và không có descendant “xấu” của $$X$$ trong $$Z$$ (điều kiện chuẩn). Khi đó average causal effect rời rạc:
 
@@ -162,19 +162,19 @@ $$
 \mathbb{E}[Y\mid do(x)]=\sum_z \mathbb{E}[Y\mid x,z]\,p(z).
 $$
 
-So sánh với $$\sum_z \mathbb{E}[Y\mid x,z]\,p(z\mid x)$$. Nếu $$Z$$ liên quan $$X$$, hai trọng số khác nhau—**cùng regression nội bộ**, **khác average**. Đây là chỗ seminar có thể tính số trên bảng 2×2×2 nhỏ.
+So sánh với $$\sum_z \mathbb{E}[Y\mid x,z]\,p(z\mid x)$$. Nếu $$Z$$ liên quan $$X$$, hai trọng số khác nhau—**cùng regression nội bộ**, **khác average**. Ở đây có thể tính số trên bảng 2×2×2 nhỏ.
 
 ---
 
 ## 9. Front-door, instrument, và giới hạn identify
 
-Không phải mọi graph cho phép back-door. **Front-door** dùng trung gian $$M$$ trên đường nhân quả $$X\to M\to Y$$ khi back-door bị block bởi latent. **Instrumental variables** (kinh tế lượng) ép exogenous shock vào $$X$$. Cả hai nhắc: identification là **định lý về model class**, không phải nút “causal=True” trong thư viện.
+Không phải mọi graph cho phép back-door. **Front-door** dùng trung gian $$M$$ trên đường nhân quả $$X\to M\to Y$$ khi giữa $$X$$ và $$Y$$ có confounder ẩn nên không thể điều chỉnh theo back-door. **Instrumental variables** (kinh tế lượng) ép exogenous shock vào $$X$$. Cả hai nhắc: identification là **định lý về model class**, không phải nút “causal=True” trong thư viện.
 
 Khi không identify được từ quan sát, trung thực khoa học là nói *partial identification* (bounds) hoặc thiết kế thí nghiệm. Pearl không xóa RCT; ông mở rộng ngôn ngữ khi RCT đắt hoặc bất khả đạo đức. [Valiant PAC]({{ site.baseurl }}/contents/vi/chapter09/09_09_Valiant_Learning/) hỏi học trong i.i.d.; Pearl hỏi *đổi cơ chế*—hai bài toán, đừng gộp.
 
 ### Transportability
 
-Đôi khi ta có RCT ở quần thể A và quan sát ở B. **Transport** công thức nhân quả qua domain shift dưới giả định đồ thị selection—chương trình hiện đại gần OOD ML. Lại một chỗ checklist LO6: giả định selection có test được không?
+Đôi khi ta có RCT ở quần thể A và quan sát ở B. **Transport** công thức nhân quả qua domain shift dưới giả định đồ thị selection—chương trình hiện đại gần OOD ML. Cũng cần hỏi: giả định về selection có kiểm tra được không?
 
 ---
 
@@ -183,57 +183,32 @@ Khi không identify được từ quan sát, trung thực khoa học là nói *p
 1. Viết một ví dụ đời thường ba nấc association / intervention / counterfactual.  
 2. Cho joint factorization theo chain $$X\to Y\to Z$$; viết $$p(x,y,z)$$.  
 3. Giải thích một đoạn vì sao $$p(y\mid x)$$ khác $$p(y\mid do(x))$$ khi có confounder $$Z\to X$$, $$Z\to Y$$.  
-4. Phát biểu back-door criterion mức khẩu hiệu; áp vào ví dụ điều trị–bệnh nền–outcome.  
+4. Phát biểu back-door criterion ở mức tóm tắt; áp vào ví dụ điều trị–bệnh nền–outcome.  
 5. **≤200 từ:** Vì sao equivalence class cản “học duy nhất một DAG” từ quan sát.  
 6. Nối [xác suất–data]({{ site.baseurl }}/contents/vi/chapter03/03_04_Probability_Data_Science/): một câu độc lập có điều kiện vs d-separation.  
-7. **Seminar:** Chọn headline “AI finds what causes Y”. Checklist LO6: nấc thang? graph assumed? RCT? only observational?
+7. Chọn một tiêu đề báo kiểu “AI finds what causes Y”. Kiểm tra: nấc thang nào? graph assumed? RCT? only observational?
 
 ---
 
 
-## Nguồn video (gói math-video-researcher)
+## Video và tài liệu
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh. Chi tiết: `research/video-research/pearl-causality/`.
-
-**Khẩu hiệu từ gói nghiên cứu**
-
-- Pearl Turing 2011: nhân quả, Bayesian nets, do-calculus.
-
-**Thứ tự xem gợi ý**
-
-1. **ORIENTATION** — YouTube search: Pearl causality Turing: [https://www.youtube.com/watch?v=iNm4nFBFmvo](https://www.youtube.com/watch?v=iNm4nFBFmvo).  
-
-**Cổng chính thức / tài liệu**
-
-- Pearl Turing page: https://amturing.acm.org/award_winners/pearl_2658896.cfm  
-
-Danh mục URL đầy đủ: `research/video-research/pearl-causality/references.md`.
-
-
-### Transcript & frames (batch extract)
-
-Transcript caption và unit theo thời gian: `research/video-research/pearl-causality/transcripts/` · trạng thái: `research/video-research/pearl-causality/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
+Video gợi ý, dùng để làm quen với bối cảnh chứ không thay cho chứng minh: [https://www.youtube.com/watch?v=iNm4nFBFmvo](https://www.youtube.com/watch?v=iNm4nFBFmvo).
 
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/pearl-causality_iNm4nFBFmvo_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video đầu tiên.*
 
-## Tài liệu tham khảo
+## Tài liệu tham khảo trực tuyến
 
-
-### Gói nghiên cứu video (mọi URL)
-
-Danh mục đầy đủ: `research/video-research/pearl-causality/references.md`.
-
-1. Pearl Turing page — https://amturing.acm.org/award_winners/pearl_2658896.cfm  
+1. Trang giải Turing của Pearl — https://amturing.acm.org/award_winners/pearl_2658896.cfm  
 2. Wikipedia — Judea Pearl — https://en.wikipedia.org/wiki/Judea_Pearl  
 3. Wikipedia — Causal model — https://en.wikipedia.org/wiki/Causal_model  
 4. Wikipedia — Bayesian network — https://en.wikipedia.org/wiki/Bayesian_network  
 5. Wikipedia — Do-calculus — https://en.wikipedia.org/wiki/Do_calculus  
-6. Book of Why (popular entry) — https://en.wikipedia.org/wiki/The_Book_of_Why  
-7. UCLA Cognitive Systems Lab (Pearl) — http://bayes.cs.ucla.edu/jp_home.html  
-8. YouTube search: Pearl causality Turing — https://www.youtube.com/watch?v=iNm4nFBFmvo  
-9. Thư mục gói: `research/video-research/pearl-causality/`.
+6. *The Book of Why* (mục từ phổ thông) — https://en.wikipedia.org/wiki/The_Book_of_Why  
+7. Phòng thí nghiệm Cognitive Systems ở UCLA (Pearl) — http://bayes.cs.ucla.edu/jp_home.html  
+8. Video về nhân quả của Pearl — https://www.youtube.com/watch?v=iNm4nFBFmvo  
 
 1. ACM Turing Award — Judea Pearl (2011).  
 2. Pearl — *Causality* (Cambridge); *The Book of Why* (phổ thông có xương).  
@@ -253,4 +228,4 @@ Danh mục đầy đủ: `research/video-research/pearl-causality/references.md`
 
 ## Video tham khảo
 
-- **xem trước** — [Judea Pearl, 2012 ACM A.M. Turing Award Lecture "The Mechanization of Causal Inference"](https://www.youtube.com/watch?v=iNm4nFBFmvo) — Association for Computing Machinery (ACM), tiếng Anh. Xem trước. “Judea Pearl, 2012 ACM A.M. Turing Award Lecture "The Mechanization of Causal Inference"” định hướng cho mục tiêu của bài: Sau bài, bạn có thể phân biệt ba nấc association / intervention / counterfactual; đọc Bayesian network như factorization p(x1,\ldots,xn)=\prodi p(xi\mid \mathrm{pa}(i)) trên DAG; g…
+- **Xem trước** — [Judea Pearl, 2012 ACM A.M. Turing Award Lecture "The Mechanization of Causal Inference"](https://www.youtube.com/watch?v=iNm4nFBFmvo) — Association for Computing Machinery (ACM), tiếng Anh. Xem trước để làm quen với chủ đề.

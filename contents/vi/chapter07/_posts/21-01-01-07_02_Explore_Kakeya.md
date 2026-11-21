@@ -10,219 +10,219 @@ categories:
 ---
 
 > **Lộ trình học A — Kakeya (bước 3/3)**  
-> **1.** [Bản đồ Ch.1]({{ site.baseurl }}/contents/vi/chapter01/01_08_Kakeya_Conjecture/)  
-> **2.** [Wang Ch.2]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/)  
-> **3. Bạn đang ở đây:** Studio Ch.7 (sổ lab)  
-> *Tiên quyết:* xong bước 1–2, hoặc ít nhất bảng trạng thái Ch.1 + §§1–6 bài Wang.
+> **1.** [Tổng quan ở Chương 1]({{ site.baseurl }}/contents/vi/chapter01/01_08_Kakeya_Conjecture/)  
+> **2.** [Bài Wang ở Chương 2]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/)  
+> **3. Bạn đang ở đây:** Bài thực hành Chương 7 (sổ thí nghiệm)  
+> *Cần có trước:* đã học xong bước 1–2, hoặc ít nhất đã đọc bảng trạng thái ở Chương 1 và các mục 1–6 của bài Wang.
 
-Trang này là **studio**, không phải kho định lý. Tập Kakeya (Besicovitch) chứa một đoạn thẳng đơn vị theo **mọi** hướng. Cú sốc cổ điển: trong mặt phẳng có thể có **measure Lebesgue bằng 0**, nhưng vẫn buộc **chiều đầy đủ**. Nhiệm vụ của bạn: **vẽ, tính, ghi log, sửa** định nghĩa “nhỏ”—và luôn tách conjecture, construction, quan sát số, và định lý.
+Trang này là **bài thực hành**, không phải nơi tập hợp định lý. Một tập Kakeya (tập Besicovitch) chứa một đoạn thẳng dài 1 theo **mọi** hướng. Điều bất ngờ kinh điển là: trong mặt phẳng, tập như vậy có thể có **độ đo Lebesgue bằng 0** nhưng vẫn có **số chiều đầy đủ**. Việc của bạn là **vẽ, tính toán, ghi nhật ký và chỉnh lại** định nghĩa thế nào là "nhỏ", đồng thời luôn phân biệt rõ giả thuyết, cách dựng, quan sát bằng số và định lý.
 
-Bạn không tái tạo Wang–Zahl. Bạn luyện nghề nghiên cứu: định nghĩa kích thước cẩn thận, thất bại khi tối thiểu hóa, và cập nhật niềm tin khi construction vượt trực giác. Studio đòi hỏi cùng kỷ luật như phòng lab vật lý: mỗi thí nghiệm có giả thuyết trước khi đo, mỗi số liệu có phạm vi, mỗi diễn giải có nhãn rõ.
+Bạn không cần tái tạo chứng minh của Wang–Zahl. Mục đích là tập làm nghiên cứu: định nghĩa kích thước cho cẩn thận, chấp nhận thất bại khi cố làm tập nhỏ nhất, và thay đổi suy nghĩ khi một cách dựng cho kết quả trái với trực giác. Bài thực hành đòi hỏi kỷ luật giống phòng thí nghiệm vật lý: mỗi thí nghiệm phải có giả thuyết trước khi đo, mỗi số liệu phải nói rõ phạm vi, mỗi cách diễn giải phải được gắn nhãn rõ ràng.
 
 ---
 
 ## Mục tiêu học tập
 
-Sau studio bạn cần:
+Sau bài thực hành, bạn cần:
 
-- Phát biểu bài kim Kakeya và định nghĩa tập Besicovitch trong $$\mathbb{R}^n$$ bằng lời của mình.
-- Phân biệt **chuyển động kim liên tục** (diện tích dương tùy ý nhỏ cho nửa vòng) với **tập tĩnh** chứa đoạn đơn vị mọi hướng (có thể measure 0).
-- Giải thích vì sao measure 0 và chiều Hausdorff/Minkowski có thể lệch nhau; lấy Davies (mặt phẳng) làm ví dụ cờ đầu.
-- Thiết kế và ghi ít nhất hai **thí nghiệm** (vẽ, mô phỏng lưới, cartoon sắp xếp lại) với tiêu chí thành công rõ.
-- Giữ **log có ngày** tách giả thuyết – kết quả – diễn giải.
-- Nêu bảng trạng thái 2D / 3D / $$D$$ cao sau Ch.1–Ch.2, gồm Wang–Zahl (2025) cho chiều 3.
+- Phát biểu bằng lời của mình bài toán cây kim Kakeya và định nghĩa tập Besicovitch trong $$\mathbb{R}^n$$.
+- Phân biệt **chuyển động liên tục của cây kim** (diện tích dương nhưng nhỏ tùy ý để quay nửa vòng) với **tập tĩnh** chứa đoạn thẳng dài 1 theo mọi hướng (có thể có độ đo 0).
+- Giải thích vì sao độ đo bằng 0 nhưng số chiều Hausdorff/Minkowski vẫn có thể lớn, lấy kết quả của Davies (trong mặt phẳng) làm ví dụ chính.
+- Thiết kế và ghi lại ít nhất hai **thí nghiệm** (vẽ tay, mô phỏng trên lưới, hình minh họa cách sắp xếp lại) với tiêu chí thành công rõ ràng.
+- Ghi **nhật ký có ngày tháng**, tách riêng giả thuyết, kết quả và diễn giải.
+- Nêu được bảng trạng thái cho chiều 2, chiều 3 và chiều $$D$$ cao hơn sau Chương 1–2, trong đó có kết quả của Wang–Zahl (2025) cho chiều 3.
 
-**Tiên quyết.** Không gian Euclid, diện tích/thể tích cơ bản, fractal có thể có chiều không nguyên. Ngôn ngữ Fourier và δ-tube (Ch.2) tùy chọn nhưng được hoan nghênh trong log.
+**Kiến thức cần có.** Không gian Euclid, diện tích và thể tích cơ bản, biết rằng fractal có thể có số chiều không nguyên. Ngôn ngữ Fourier và ống độ dày δ (Chương 2) không bắt buộc, nhưng nên dùng trong nhật ký nếu bạn biết.
 
 ---
 
-## 1. Toán nền
+## 1. Kiến thức toán nền
 
-### 1.1 Kim quay so với tập Besicovitch
+### 1.1 Cây kim quay và tập Besicovitch
 
-Năm 1917, **Sōichi Kakeya** hỏi đại ý: vùng phẳng nhỏ nhất nào cho phép kim dài 1 quay liên tục đảo chiều? Quay quanh trung điểm cho đĩa bán kính $$1/2$$ (diện tích $$\pi/4$$). Deltoid cải thiện; trực giác vẫn mong **cận dưới dương**.
+Năm 1917, **Sōichi Kakeya** hỏi: vùng phẳng nhỏ nhất nào cho phép một cây kim dài 1 quay liên tục để đổi ngược chiều? Quay quanh trung điểm cần một hình tròn bán kính $$1/2$$ (diện tích $$\pi/4$$). Hình deltoid cho diện tích nhỏ hơn; trực giác vẫn cho rằng phải có một **cận dưới dương**.
 
-**Tập Kakeya / Besicovitch** trong $$\mathbb{R}^n$$ chứa đoạn đơn vị **mọi** hướng—điều kiện **tĩnh**. **Abram Besicovitch** (~1919–1928) chứng minh trong mặt phẳng tồn tại tập như vậy có **measure 0**: với mọi $$\varepsilon>0$$ có tập diện tích $$<\varepsilon$$ vẫn chứa đủ hướng; giới hạn cho measure đúng 0.
+Một **tập Kakeya (tập Besicovitch)** trong $$\mathbb{R}^n$$ chứa một đoạn thẳng dài 1 theo **mọi** hướng; đây là điều kiện **tĩnh**. **Abram Besicovitch** (khoảng 1919–1928) chứng minh rằng trong mặt phẳng tồn tại tập như vậy có **độ đo 0**: với mọi $$\varepsilon>0$$ có một tập diện tích $$<\varepsilon$$ vẫn chứa đủ mọi hướng, và qua giới hạn ta được tập có độ đo đúng bằng 0.
 
-Hai bài toán liên quan nhưng không đồng nhất. Tập kim chuyển động có diện tích **dương tùy ý nhỏ** tồn tại (qua phép giảm kiểu Pál và sắp xếp lại kiểu Besicovitch). Tập Besicovitch measure 0 là đối tượng giới hạn, không nhất thiết cho phép nửa vòng liên tục mà không rời tập. Mỗi thí nghiệm hãy ghi rõ bạn đang hỏi câu nào.
+Hai bài toán này liên quan nhưng không giống nhau. Có những vùng cho phép cây kim quay với diện tích **dương nhưng nhỏ tùy ý** (nhờ phép rút gọn của Pál và cách sắp xếp lại của Besicovitch). Tập Besicovitch có độ đo 0 là một đối tượng giới hạn, và không nhất thiết cho phép cây kim quay nửa vòng liên tục mà không ra khỏi tập. Trong mỗi thí nghiệm, hãy ghi rõ bạn đang trả lời câu hỏi nào.
 
-### 1.2 Vì sao measure có thể triệt tiêu
+### 1.2 Vì sao độ đo có thể bằng 0
 
-Độ dài đoạn cố định bằng 1. Có thể **tái sử dụng điểm** giữa nhiều hướng và lấy giới hạn fractal của lân cận mỏng. Hình chữ nhật dài 1, rộng $$\delta$$ có diện tích ~$$\delta$$. Khi $$\delta\to 0$$ diện tích biến mất—nhưng có vô hạn hướng. Nghệ thuật Besicovitch là tái sử dụng không gian bằng cắt–trượt lặp.
+Độ dài mỗi đoạn luôn bằng 1. Nhưng ta có thể **dùng chung các điểm** cho nhiều hướng và lấy giới hạn kiểu fractal của các lân cận rất mỏng. Một hình chữ nhật dài 1, rộng $$\delta$$ có diện tích cỡ $$\delta$$. Khi $$\delta\to 0$$ diện tích tiến về 0, nhưng ta lại cần vô hạn hướng. Cái khéo của Besicovitch là dùng lại không gian bằng cách cắt và trượt lặp đi lặp lại.
 
-Hình sư phạm hiện đại: **Venetian blind** (mành sáo)—các dải gần song song nghiêng, cắt, xếp lại. Cartoon khác: **cây Perron**—tam giác mỏng chồng; “cá” ba cây cho câu chuyện nửa vòng. Khi vẽ tay, hãy cố tình chồng hai hướng gần song song trên cùng một dải mực và hỏi: tiết kiệm được bao nhiêu so với hai dải rời?
+Một hình minh họa hay dùng hiện nay là **mành sáo**: các dải gần song song, nghiêng, được cắt ra rồi xếp lại. Một hình minh họa khác là **cây Perron**: các tam giác mỏng chồng lên nhau; ghép ba cây thành hình "con cá" để minh họa việc quay nửa vòng. Khi vẽ tay, hãy thử cố ý chồng hai hướng gần song song lên cùng một dải mực và tự hỏi: so với vẽ hai dải riêng, ta tiết kiệm được bao nhiêu?
 
-**Khẩu hiệu.** Overlap không phải lỗi; đó là tài nguyên.
+**Ý chính.** Chồng lấn không phải là lỗi; đó là cách tiết kiệm diện tích.
 
-### 1.3 Chiều không phải measure
+### 1.3 Số chiều khác với độ đo
 
-**Roy Davies (1971):** mọi tập Kakeya trong mặt phẳng có **chiều Hausdorff 2**:
+**Roy Davies (1971):** mọi tập Kakeya trong mặt phẳng đều có **số chiều Hausdorff bằng 2**:
 
 $$
 \lvert E\rvert = 0 \quad\text{có thể, nhưng}\quad \dim_H(E) = 2.
 $$
 
-Nghịch lý đầu: **hết diện tích, đủ chiều**. **Chiều Minkowski** (đếm hộp) dễ ước lượng thực nghiệm hơn: phủ bằng hộp cạnh $$r$$ và đọc quy luật đếm khi $$r\to 0$$. Chiều Hausdorff là họ hàng measure-theoretic tinh hơn. Với nhiều tập “đủ đẹp” hai chiều trùng nhau; lý thuyết Kakeya nghiên cứu cả hai một cách cẩn thận.
+Đây là điều nghịch lý đầu tiên: **diện tích bằng 0 nhưng số chiều vẫn đầy đủ**. **Số chiều Minkowski** (đếm hộp) dễ ước lượng bằng thực nghiệm hơn: phủ tập bằng các hộp cạnh $$r$$ và xem số hộp tăng theo quy luật nào khi $$r\to 0$$. Số chiều Hausdorff là khái niệm tinh hơn, xây dựng từ lý thuyết độ đo. Với nhiều tập "đủ đẹp", hai số chiều này bằng nhau; lý thuyết Kakeya nghiên cứu cẩn thận cả hai.
 
-> **Thể tích 0 không buộc chiều nhỏ hơn chiều không gian ambient.**  
-> Một tập trong $$\mathbb{R}^3$$ có thể measure 0 mà vẫn có chiều Minkowski bằng 3.
+> **Thể tích bằng 0 không bắt buộc số chiều phải nhỏ hơn số chiều của không gian chứa nó.**  
+> Một tập trong $$\mathbb{R}^3$$ có thể có độ đo 0 nhưng vẫn có số chiều Minkowski bằng 3.
 
-### 1.4 Giả thuyết và trạng thái
+### 1.4 Giả thuyết và tình trạng hiện nay
 
-**Giả thuyết (slogan).** Mọi tập Kakeya trong $$\mathbb{R}^n$$ có chiều Hausdorff (và Minkowski) bằng $$n$$.
+**Giả thuyết (phát biểu gọn).** Mọi tập Kakeya trong $$\mathbb{R}^n$$ có số chiều Hausdorff (và Minkowski) bằng $$n$$.
 
-| Chiều | Trạng thái (mức studio) |
+| Số chiều | Tình trạng (ở mức bài thực hành) |
 |-------|-------------------------|
-| $$n=2$$ | Đúng (Davies và liên quan) |
-| $$n=3$$ | Đúng — **Wang–Zahl (2025)** |
-| $$n\ge 4$$ | Mở ở dạng đầy đủ; có cận dưới từng phần |
+| $$n=2$$ | Đã chứng minh (Davies và các kết quả liên quan) |
+| $$n=3$$ | Đã chứng minh: **Wang–Zahl (2025)** |
+| $$n\ge 4$$ | Còn mở ở dạng đầy đủ; đã có một số cận dưới |
 
-Wang–Zahl là cờ đầu phân tích điều hòa Ch.2: ước lượng **δ-tube** đa tỉ lệ, clustering, planiness/graininess và decoupling buộc cấu hình hướng cực đoan phải có chiều cao. Studio không chứng minh; studio **cảm** độ lệch measure–chiều và ghi trạng thái đúng.
+Kết quả Wang–Zahl là bài chính về giải tích điều hòa ở Chương 2: các ước lượng **ống độ dày δ** ở nhiều tỉ lệ, các tính chất tụ cụm, tính "gần phẳng" và "dạng hạt", cùng kỹ thuật decoupling, buộc mọi cấu hình hướng cực đoan phải có số chiều cao. Bài thực hành không chứng minh định lý này; mục đích là để bạn **cảm nhận** được sự chênh lệch giữa độ đo và số chiều, và ghi đúng tình trạng hiện nay.
 
 ---
 
-## 2. Conjecture / chứng minh / thí nghiệm
+## 2. Giả thuyết, chứng minh và thí nghiệm
 
 | Nhãn | Nghĩa | Ví dụ |
 |------|-------|-------|
-| **Định lý** | Có chứng minh, trích dẫn | Davies: dim 2 trong mặt phẳng |
-| **Giả thuyết** | Mở | Kakeya đầy đủ cho $$n\ge 4$$ |
-| **Construction** | Đối tượng tường minh | Mô phỏng lưới 36 hướng |
-| **Quan sát** | Việc *bạn* thấy hữu hạn | Số ô phủ tăng chậm hơn số hướng |
+| **Định lý** | Đã có chứng minh, có trích dẫn | Davies: số chiều 2 trong mặt phẳng |
+| **Giả thuyết** | Còn mở | Kakeya dạng đầy đủ cho $$n\ge 4$$ |
+| **Cách dựng** | Một đối tượng cụ thể | Mô phỏng lưới với 36 hướng |
+| **Quan sát** | Điều *bạn* thấy trong trường hợp hữu hạn | Số ô bị phủ tăng chậm hơn số hướng |
 
-Thành công studio **không** phải “chứng minh Wang–Zahl”. Thành công là tạo artifact và log mà đồng nghiệp có thể audit.
+Thành công của bài thực hành **không** phải là "chứng minh lại Wang–Zahl". Thành công là tạo ra sản phẩm và nhật ký mà người khác có thể kiểm tra lại.
 
 **Tiêu chí thành công (ghi trong đề xuất):**
 
-1. Ít nhất một vẽ/chương trình ≥12 hướng, đo “mực” (diện tích hoặc ô lưới).  
-2. Hai định nghĩa “nhỏ” (v1 trước đọc, v2 sau Besicovitch/Davies).  
-3. Bảng trạng thái 2/3/≥4 bằng lời mình.  
-4. Một **trực giác sai** đã sửa.  
-5. Một câu nối tube/Fourier (dù mơ hồ) với vì sao chiều quan trọng.
+1. Ít nhất một hình vẽ hoặc chương trình với từ 12 hướng trở lên, có đo lượng "mực" (diện tích hoặc số ô lưới).  
+2. Hai định nghĩa về "nhỏ" (bản 1 trước khi đọc, bản 2 sau khi đọc Besicovitch/Davies).  
+3. Bảng trạng thái cho chiều 2, 3 và ≥4 viết bằng lời của bạn.  
+4. Một **trực giác sai** đã được sửa.  
+5. Một câu nối ống δ hoặc Fourier (dù còn mơ hồ) với lý do vì sao số chiều quan trọng.
 
 ---
 
-## 3. Chuẩn log nghiên cứu
+## 3. Cách ghi nhật ký nghiên cứu
 
-Mỗi mục: **Ngày · Ý định · Hành động · Kết quả · Nhãn · Diễn giải · Bước tiếp**.
+Mỗi mục gồm: **Ngày · Ý định · Việc đã làm · Kết quả · Nhãn · Diễn giải · Bước tiếp theo**.
 
-Thất bại được tính. “Thử đoạn ngẫu nhiên phủ gần hết hình vuông; chuyển sang buộc tái sử dụng gần gốc” là log tốt.
+Thất bại cũng được tính. Ví dụ một mục nhật ký tốt: "Thử đặt các đoạn ngẫu nhiên thì phủ gần hết hình vuông; chuyển sang cách buộc các đoạn dùng chung vùng gần gốc."
 
-**AI.** Được hỗ trợ code/tìm kiếm nếu công bố; log thí nghiệm và diễn giải phải là của bạn.
-
----
-
-## 4. Thí nghiệm
-
-Làm **ít nhất hai** trong A–E. Khung thời gian là gợi ý, không phải luật.
-
-### A — Vẽ nhiều hướng (20–40′)
-
-Đặt 8–12 đoạn đơn vị; tối thiểu mực. Gợi ý cây Perron / cá ba cây.
-
-**Giả thuyết trước khi vẽ:** “Hướng gần song song cần dải gần như rời nhau.”  
-**Sau khi vẽ:** sửa giả thuyết. Tùy chọn: phác cây Perron và cá ba cây (media Ch.1).
-
-**Tiêu chí:** artifact + ước lượng diện tích + sửa định nghĩa “nhỏ”.
-
-### B — Chuyển động vs tập tĩnh (15–25′)
-
-Viết nửa trang hội thoại giữa hai nhân vật:
-
-- *Chuyển động:* “Tôi cần quỹ đạo kim qua mọi góc.”  
-- *Tĩnh:* “Tôi chỉ cần hợp các vị trí, không cần đường đi liên tục trong tập.”
-
-Rồi trả lời: “diện tích nhỏ nhất cho nửa vòng liên tục” có cùng bài với “tập Besicovitch chiều tối thiểu” không? Một câu trích Ch.1/Ch.2 hỗ trợ.
-
-**Tiêu chí:** bảng tự thiết kế tách hai bài toán.
-
-### C — Mô phỏng lưới (30–90′)
-
-Lưới $$M\times M$$, $$K$$ hướng (góc $$k\pi/K$$); đếm ô phủ theo chiến lược: (1) cố định tâm; (2) tham lam dịch tối đa chồng; (3) ngẫu nhiên làm baseline. Vẽ bảng hoặc đồ thị số ô theo $$K$$. Tái sử dụng có thắng baseline không?
-
-**Tiêu chí:** plot/bảng ≥2 chiến lược + một câu về scaling.
-
-### D — Bàn tin chiều (20–30′)
-
-Bốn câu: Besicovitch measure 0; Davies dim 2; Wang–Zahl dim 3; phần còn mở. Media tùy chọn (Quanta, CHALK, Mathologer, Pham Manh Tuyen, TOÁN PRO)—đối chiếu caption với khóa học.
-
-**Tiêu chí:** bốn câu + một ghi chú media đã *kiểm với bài giảng*.
-
-### E — Trực giác δ-tube (mở rộng, 30–60′)
-
-Thể tích một tube dài 1, bán kính $$\delta$$ ~$$\delta^{n-1}$$; nếu $$N$$ tube chồng lấn mạnh thì hợp có thể $$\ll N\delta^{n-1}$$. Viết lập luận phong bì: nếu thể tích hợp nhỏ như vậy thì hình học dùng chung bị ép điều gì? Nối (lỏng cũng được) với vì sao phân tích điều hòa quan tâm Kakeya.
-
-**Tiêu chí:** một trang phân tích chiều + một câu hỏi mở.
+**Dùng AI.** Được phép dùng để hỗ trợ viết mã hoặc tìm tài liệu nếu ghi rõ; nhật ký thí nghiệm và phần diễn giải phải do bạn tự viết.
 
 ---
 
-## 5. Nhầm lẫn thường gặp
+## 4. Các thí nghiệm
 
-1. Measure 0 ⇒ “nhỏ mọi nghĩa” — chiều vẫn có thể đầy.  
-2. Wang–Zahl giải mọi chiều — nổi bật là 3; cao hơn còn mở ở dạng đầy đủ.  
-3. Kim quay = tập Besicovitch — liên quan, không đồng nhất; chuyển động cần lân cận diện tích dương dọc quỹ đạo.  
-4. Hình vẽ hữu hạn ⇒ chiều nhỏ — chiều là khái niệm tiệm cận continuum.  
-5. Khám phá = không chuẩn — studio đòi hỏi nhãn và log nghiêm hơn bài tập tính.
+Làm **ít nhất hai** trong năm thí nghiệm A–E. Thời gian ghi kèm chỉ để tham khảo.
+
+### A — Vẽ nhiều hướng (20–40 phút)
+
+Đặt 8–12 đoạn thẳng dài 1 sao cho tốn ít mực nhất. Gợi ý: cây Perron hoặc hình con cá ghép ba cây.
+
+**Giả thuyết trước khi vẽ:** "Các hướng gần song song cần những dải gần như tách rời nhau."  
+**Sau khi vẽ:** sửa lại giả thuyết. Không bắt buộc: phác cây Perron và hình con cá ba cây (xem tư liệu ở Chương 1).
+
+**Tiêu chí:** có hình vẽ, ước lượng diện tích và một bản sửa định nghĩa "nhỏ".
+
+### B — Chuyển động hay tập tĩnh (15–25 phút)
+
+Viết nửa trang đối thoại giữa hai nhân vật:
+
+- *Chuyển động:* "Tôi cần một đường đi của cây kim qua mọi góc."  
+- *Tĩnh:* "Tôi chỉ cần hợp của các vị trí, không cần đường đi liên tục nằm trong tập."
+
+Sau đó trả lời: bài toán "diện tích nhỏ nhất để quay nửa vòng liên tục" có giống bài toán "tập Besicovitch có số chiều nhỏ nhất" không? Dẫn một câu từ Chương 1 hoặc Chương 2 để hỗ trợ.
+
+**Tiêu chí:** một bảng do bạn tự lập, tách rõ hai bài toán.
+
+### C — Mô phỏng trên lưới (30–90 phút)
+
+Dùng lưới $$M\times M$$ và $$K$$ hướng (góc $$k\pi/K$$); đếm số ô bị phủ theo từng chiến lược: (1) giữ cố định tâm; (2) dịch đoạn theo kiểu tham lam để chồng lấn nhiều nhất; (3) đặt ngẫu nhiên để làm mốc so sánh. Lập bảng hoặc vẽ đồ thị số ô theo $$K$$. Việc dùng chung ô có tốt hơn mốc ngẫu nhiên không?
+
+**Tiêu chí:** đồ thị hoặc bảng cho ít nhất 2 chiến lược, kèm một câu nhận xét về tốc độ tăng.
+
+### D — Bản tin về số chiều (20–30 phút)
+
+Viết bốn câu: Besicovitch và độ đo 0; Davies và số chiều 2; Wang–Zahl và số chiều 3; phần còn mở. Có thể tham khảo thêm tư liệu (Quanta, CHALK, Mathologer, Pham Manh Tuyen, TOÁN PRO), nhưng phải đối chiếu lời giới thiệu trong video với nội dung khóa học.
+
+**Tiêu chí:** bốn câu và một ghi chú về tư liệu *đã được đối chiếu với bài giảng*.
+
+### E — Trực giác về ống δ (mở rộng, 30–60 phút)
+
+Thể tích một ống dài 1, bán kính $$\delta$$ cỡ $$\delta^{n-1}$$; nếu $$N$$ ống chồng lấn nhiều thì thể tích của hợp có thể $$\ll N\delta^{n-1}$$. Viết một lập luận ước lượng nhanh: nếu thể tích hợp nhỏ như vậy thì cấu hình các ống buộc phải có tính chất hình học gì? Nối ý đó (chưa chặt chẽ cũng được) với lý do giải tích điều hòa quan tâm đến bài toán Kakeya.
+
+**Tiêu chí:** một trang phân tích về số chiều và một câu hỏi mở.
+
+---
+
+## 5. Hiểu lầm thường gặp
+
+1. Độ đo bằng 0 nghĩa là "nhỏ theo mọi nghĩa": sai, số chiều vẫn có thể đầy đủ.  
+2. Wang–Zahl đã giải quyết mọi số chiều: sai, kết quả nổi bật là cho chiều 3; chiều cao hơn vẫn còn mở ở dạng đầy đủ.  
+3. Bài toán cây kim quay chính là tập Besicovitch: hai bài toán liên quan nhưng khác nhau; chuyển động cần một vùng có diện tích dương dọc theo đường đi.  
+4. Hình vẽ hữu hạn cho thấy số chiều nhỏ: sai, số chiều là khái niệm tiệm cận của tập liên tục.  
+5. Khám phá nghĩa là không cần chặt chẽ: sai, bài thực hành đòi hỏi gắn nhãn và ghi nhật ký kỹ hơn bài tập tính toán.
 
 ---
 
 ## 6. Bài tập
 
-1. Diện tích đĩa bán kính $$1/2$$ và deltoid (tra công thức cổ điển); vì sao vẫn “lớn” so với Besicovitch.  
-2. Ba câu: đoạn đơn vị chiều 1, tập Kakeya “đầy hướng”.  
-3. Lưới $$20\times 20$$, 4+4 hướng; so sánh cố định tâm vs dịch tối đa chồng.  
-4. Một giả thuyết falsifiable cho thí nghiệm lưới (ví dụ “tham lam giảm ≥30% ô với $$K=16$$”); chạy; sống/chết.  
-5. Đề xuất 150–200 từ: câu hỏi, định nghĩa nhỏ, phương pháp, tiêu chí, rủi ro.
+1. Tính diện tích hình tròn bán kính $$1/2$$ và hình deltoid (tra công thức kinh điển); vì sao chúng vẫn "lớn" so với tập Besicovitch?  
+2. Viết ba câu: đoạn thẳng dài 1 có số chiều 1, còn tập Kakeya thì "đầy hướng".  
+3. Trên lưới $$20\times 20$$ với 4+4 hướng, so sánh cách giữ cố định tâm với cách dịch để chồng lấn nhiều nhất.  
+4. Đưa ra một giả thuyết có thể bác bỏ cho thí nghiệm lưới (ví dụ "cách tham lam giảm ít nhất 30% số ô khi $$K=16$$"); chạy thử và kết luận giả thuyết đứng vững hay bị bác bỏ.  
+5. Viết đề xuất 150–200 từ: câu hỏi, định nghĩa "nhỏ", phương pháp, tiêu chí, rủi ro.
 
 ---
 
-## 7. Rubric checkpoint
+## 7. Bảng tự kiểm tra
 
-| ☐ | Artifact ≥12 hướng |
-| ☐ | “Nhỏ” v1 và v2 |
-| ☐ | Bảng 2 / 3 / ≥4 đúng |
-| ☐ | Log ≥3 mục có ngày |
-| ☐ | Một trực giác sai |
-| ☐ | Một câu tube/Fourier |
-| ☐ | Câu hỏi mở tuần sau |
+| ☐ | Sản phẩm với ít nhất 12 hướng |
+| ☐ | Định nghĩa "nhỏ" bản 1 và bản 2 |
+| ☐ | Bảng trạng thái chiều 2 / 3 / ≥4 đúng |
+| ☐ | Nhật ký ít nhất 3 mục có ngày tháng |
+| ☐ | Một trực giác sai đã sửa |
+| ☐ | Một câu về ống δ/Fourier |
+| ☐ | Một câu hỏi mở cho tuần sau |
 
 ---
 
 
-## Nguồn video (gói math-video-researcher)
+## Nguồn video (bộ tư liệu nghiên cứu video)
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh. Chi tiết: `research/video-research/explore-kakeya/`.
+Video dùng để **định hướng và làm quen với không khí nghiên cứu**, không thay thế chứng minh. Chi tiết: `research/video-research/explore-kakeya/`.
 
-**Khẩu hiệu từ gói nghiên cứu**
+**Ý chính rút ra từ bộ tư liệu**
 
-- **Tập Kakeya / Besicovitch:** đoạn đơn vị mọi hướng; diện tích 0 khả dĩ trên mặt phẳng.
-- **Davies (1971):** dim_H = 2 trên mặt phẳng dù measure 0.
-- **Wang–Zahl (2025):** conjecture Kakeya chiều 3 — arXiv:2502.17655.
-- Chuyển động kim liên tục (diện tích dương tùy nhỏ) ≠ tập tĩnh measure 0.
-- Studio: đóng băng định nghĩa “nhỏ”; ghi log; không nhận đã tái tạo Wang–Zahl.
+- **Tập Kakeya / Besicovitch:** chứa đoạn thẳng dài 1 theo mọi hướng; trong mặt phẳng có thể có diện tích 0.
+- **Davies (1971):** số chiều Hausdorff bằng 2 trong mặt phẳng dù độ đo bằng 0.
+- **Wang–Zahl (2025):** chứng minh giả thuyết Kakeya cho chiều 3 (arXiv:2502.17655).
+- Chuyển động liên tục của cây kim (diện tích dương nhỏ tùy ý) khác với tập tĩnh có độ đo 0.
+- Bài thực hành: cố định định nghĩa "nhỏ"; ghi nhật ký; không tự nhận là đã tái tạo chứng minh của Wang–Zahl.
 
 **Thứ tự xem gợi ý**
 
-1. **ORIENTATION** — Quanta — Once-in-a-Century Proof: Kakeya: [https://www.youtube.com/watch?v=5J3tYU_-IZI](https://www.youtube.com/watch?v=5J3tYU_-IZI).  
-2. **INTUITION** — Mathologer — Kakeya needle (squeegee): [https://www.youtube.com/watch?v=IM-n9c-ARHU](https://www.youtube.com/watch?v=IM-n9c-ARHU).  
-3. **FOUNDATION** — CHALK — What is Hausdorff Dimension?: [https://www.youtube.com/watch?v=LJcWhcM4okQ](https://www.youtube.com/watch?v=LJcWhcM4okQ).  
-4. **FOUNDATION** — CHALK — Estimating Hausdorff dim / MDP: [https://www.youtube.com/watch?v=FQXbRGmAbUY](https://www.youtube.com/watch?v=FQXbRGmAbUY).  
-5. **ORIENTATION** — Pham Manh Tuyen — Giả thuyết Kakeya (VI): [https://www.youtube.com/watch?v=XUkfpgFakMQ](https://www.youtube.com/watch?v=XUkfpgFakMQ).  
-6. **ORIENTATION** — TOÁN PRO — Phỏng đoán Kakeya (VI): [https://www.youtube.com/watch?v=pxVMKoZsVc8](https://www.youtube.com/watch?v=pxVMKoZsVc8).  
+1. **Định hướng** — Quanta — Once-in-a-Century Proof: Kakeya: [https://www.youtube.com/watch?v=5J3tYU_-IZI](https://www.youtube.com/watch?v=5J3tYU_-IZI).  
+2. **Trực giác** — Mathologer — Kakeya needle (squeegee): [https://www.youtube.com/watch?v=IM-n9c-ARHU](https://www.youtube.com/watch?v=IM-n9c-ARHU).  
+3. **Nền tảng** — CHALK — What is Hausdorff Dimension?: [https://www.youtube.com/watch?v=LJcWhcM4okQ](https://www.youtube.com/watch?v=LJcWhcM4okQ).  
+4. **Nền tảng** — CHALK — Estimating Hausdorff dim / MDP: [https://www.youtube.com/watch?v=FQXbRGmAbUY](https://www.youtube.com/watch?v=FQXbRGmAbUY).  
+5. **Định hướng** — Pham Manh Tuyen — Giả thuyết Kakeya (tiếng Việt): [https://www.youtube.com/watch?v=XUkfpgFakMQ](https://www.youtube.com/watch?v=XUkfpgFakMQ).  
+6. **Định hướng** — TOÁN PRO — Phỏng đoán Kakeya (tiếng Việt): [https://www.youtube.com/watch?v=pxVMKoZsVc8](https://www.youtube.com/watch?v=pxVMKoZsVc8).  
 
-**Cổng chính thức / tài liệu**
+**Bài báo gốc**
 
 - Wang–Zahl Kakeya 3D (arXiv): https://arxiv.org/abs/2502.17655  
 - Wang–Zahl sticky Kakeya (arXiv): https://arxiv.org/abs/2210.09581  
 
-Danh mục URL đầy đủ: `research/video-research/explore-kakeya/references.md`.
+Danh sách URL đầy đủ: `research/video-research/explore-kakeya/references.md`.
 
 ## 8. Tài liệu và liên kết
 
 
-### Gói nghiên cứu video (mọi URL)
+### Bộ tư liệu nghiên cứu video (mọi URL)
 
-Danh mục đầy đủ: `research/video-research/explore-kakeya/references.md`.
+Danh sách đầy đủ: `research/video-research/explore-kakeya/references.md`.
 
 1. Quanta — Once-in-a-Century Proof: Kakeya — https://www.youtube.com/watch?v=5J3tYU_-IZI  
 2. Mathologer — Kakeya needle (squeegee) — https://www.youtube.com/watch?v=IM-n9c-ARHU  
@@ -234,32 +234,32 @@ Danh mục đầy đủ: `research/video-research/explore-kakeya/references.md`.
 8. Wang–Zahl sticky Kakeya (arXiv) — https://arxiv.org/abs/2210.09581  
 9. Quanta article Kakeya 2025 — https://www.quantamagazine.org/once-in-a-century-proof-settles-maths-kakeya-conjecture-20250314/  
 10. Wikipedia — Kakeya set — https://en.wikipedia.org/wiki/Kakeya_set  
-11. Thư mục gói: `research/video-research/explore-kakeya/`.
+11. Thư mục bộ tư liệu: `research/video-research/explore-kakeya/`.
 
-1. [Ch.1 Kakeya]({{ site.baseurl }}/contents/vi/chapter01/01_08_Kakeya_Conjecture/), [Ch.2 Wang]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/).  
-2. Construction Besicovitch; Davies; Wang–Zahl arXiv:2502.17655 (mức phát biểu—không nhận đã đọc hết 100+ trang trừ khi đã đọc).  
-3. Studio gần: [xếp cầu]({{ site.baseurl }}/contents/vi/chapter07/07_03_Explore_Sphere_Packing/).  
-4. Đối chiếu văn hóa: [bốn màu]({{ site.baseurl }}/contents/vi/chapter01/01_09_Four_Color_Theorem/) (chứng minh hỗ trợ máy vs conjecture phân tích mở).
+1. [Kakeya ở Chương 1]({{ site.baseurl }}/contents/vi/chapter01/01_08_Kakeya_Conjecture/), [bài Wang ở Chương 2]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/).  
+2. Cách dựng của Besicovitch; kết quả của Davies; Wang–Zahl arXiv:2502.17655 (ở mức phát biểu; đừng nói là đã đọc hết hơn 100 trang nếu chưa đọc).  
+3. Bài thực hành gần: [xếp cầu]({{ site.baseurl }}/contents/vi/chapter07/07_03_Explore_Sphere_Packing/).  
+4. So sánh cách làm toán: [bốn màu]({{ site.baseurl }}/contents/vi/chapter01/01_09_Four_Color_Theorem/) (chứng minh có máy tính hỗ trợ, so với một giả thuyết giải tích còn mở).
 
 ---
 
 ## Hướng đi tiếp
 
-**Lộ trình A hoàn thành** khi rubric đầy và gắn với tuyên bố Ch.1/Ch.2. Nếu lý thuyết tube còn mỏng, quay lại bài tập Wang. Nếu thích hình học rời rạc hơn phân tích, studio [xếp cầu]({{ site.baseurl }}/contents/vi/chapter07/07_03_Explore_Sphere_Packing/) và [chiều thứ tư]({{ site.baseurl }}/contents/vi/chapter07/07_06_Explore_Fourth_Dimension/) là lối ra tự nhiên.
+**Lộ trình A hoàn thành** khi bạn đánh dấu đủ bảng tự kiểm tra và gắn được với các phát biểu ở Chương 1–2. Nếu phần lý thuyết về ống còn yếu, hãy quay lại bài tập của bài Wang. Nếu bạn thích hình học rời rạc hơn giải tích, hai bài thực hành [xếp cầu]({{ site.baseurl }}/contents/vi/chapter07/07_03_Explore_Sphere_Packing/) và [chiều thứ tư]({{ site.baseurl }}/contents/vi/chapter07/07_06_Explore_Fourth_Dimension/) là bước tiếp theo phù hợp.
 
-**Gợi ý tổng hợp một trang (khuyến nghị cho báo cáo).** Viết văn xuôi liền: (i) “nhỏ” ban đầu của bạn là gì; (ii) construction hữu hạn đã dạy điều gì về overlap; (iii) measure và chiều lệch nhau thế nào theo Davies; (iv) bảng trạng thái 2/3/≥4 bằng lời mình; (v) một câu tube/Fourier dù còn mơ hồ.
+**Gợi ý viết bài tổng hợp một trang (nên làm cho báo cáo).** Viết thành một bài liền mạch: (i) lúc đầu bạn hiểu "nhỏ" là gì; (ii) các cách dựng hữu hạn cho bạn biết gì về sự chồng lấn; (iii) theo Davies, độ đo và số chiều khác nhau thế nào; (iv) bảng trạng thái chiều 2/3/≥4 bằng lời của bạn; (v) một câu về ống δ/Fourier, dù còn mơ hồ.
 
-### Transcript & frames (batch extract)
+### Phụ đề và khung hình (trích xuất hàng loạt)
 
-Transcript caption và unit theo thời gian: `research/video-research/explore-kakeya/transcripts/` · trạng thái: `research/video-research/explore-kakeya/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
+Phụ đề và các đoạn theo thời gian: `research/video-research/explore-kakeya/transcripts/` · trạng thái: `research/video-research/explore-kakeya/TRANSCRIPT_STATUS.md` · tổng hợp: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
 
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/explore-kakeya_5J3tYU_-IZI_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính (xem bộ tư liệu để biết mốc thời gian).*
 
 
 ## Video tham khảo
 
-- **xem trước** — [A Once-in-a-Century Proof: The Kakeya Conjecture](https://www.youtube.com/watch?v=5J3tYU_-IZI) — Quanta Magazine, tiếng Anh. Xem trước. “A Once-in-a-Century Proof: The Kakeya Conjecture” định hướng cho mục tiêu của bài: Phát biểu bài kim Kakeya và định nghĩa tập Besicovitch trong \mathbb{R}^n bằng lời của mình.
-- [The Kakeya needle problem (the squeegee approach)](https://www.youtube.com/watch?v=IM-n9c-ARHU) — Mathologer, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu bài kim Kakeya và định nghĩa tập Besicovitch trong \mathbb{R}^n bằng lời của mình.
-- [What is Hausdorff Dimension? Intuition, Gauge Functions, and Hausdorff Measures](https://www.youtube.com/watch?v=LJcWhcM4okQ) — CHALK, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu bài kim Kakeya và định nghĩa tập Besicovitch trong \mathbb{R}^n bằng lời của mình.
+- **Xem trước:** [A Once-in-a-Century Proof: The Kakeya Conjecture](https://www.youtube.com/watch?v=5J3tYU_-IZI) — Quanta Magazine, tiếng Anh. Giới thiệu bài toán Kakeya và chứng minh năm 2025 cho chiều 3; nên xem trước khi đọc bài.
+- [The Kakeya needle problem (the squeegee approach)](https://www.youtube.com/watch?v=IM-n9c-ARHU) — Mathologer, tiếng Anh. Giải thích trực quan cách cho cây kim quay trong diện tích nhỏ tùy ý; nên xem sau khi đã nắm ý chính của bài.
+- [What is Hausdorff Dimension? Intuition, Gauge Functions, and Hausdorff Measures](https://www.youtube.com/watch?v=LJcWhcM4okQ) — CHALK, tiếng Anh. Xem thêm sau hai video trên, để hiểu khái niệm số chiều Hausdorff.

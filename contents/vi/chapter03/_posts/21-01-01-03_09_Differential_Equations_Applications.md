@@ -10,11 +10,11 @@ categories:
 lesson_type: required
 ---
 
-Viết cách một hệ đổi, bạn đã viết **phương trình vi phân**. Hành tinh, mạch điện, dịch bệnh, lò phản ứng hóa, dầm, mô hình đồ chơi thị trường và hộp khí hậu đều nói ngôn ngữ này. Giải—giải tích hoặc số—là cách dự đoán và thiết kế bước vào kỹ thuật.
+Khi bạn viết ra cách một hệ thay đổi theo thời gian hay không gian, bạn đã viết một **phương trình vi phân**. Chuyển động hành tinh, mạch điện, dịch bệnh, lò phản ứng hóa học, dầm chịu lực, các mô hình thị trường đơn giản và mô hình khí hậu đều được viết bằng ngôn ngữ này. Giải phương trình, bằng giải tích hoặc bằng phương pháp số, là cách kỹ thuật dự đoán và thiết kế.
 
-**Lộ trình:** PTVP là gì → catalog ODE → catalog PDE → khẩu hiệu well-posedness → cấu trúc tuyến tính & mode → số trị → đa vật lý & điều khiển → nhầm lẫn.
+**Lộ trình:** phương trình vi phân là gì → danh mục ODE → danh mục PDE → bài toán đặt chỉnh → cấu trúc tuyến tính và các mode → phương pháp số → điều khiển và bài toán ngược → nhầm lẫn thường gặp.
 
-Bài này bổ sung [Giải tích → Vật lý & Kỹ thuật]({{ site.baseurl }}/contents/vi/chapter03/03_02_Calculus_Physics_Engineering/) bằng bản đồ **loại phương trình**, ý nghĩa bài đặt đúng, và vì sao tính toán thống trị thực tiễn. Biên phân tích mở: [Navier–Stokes]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/).
+Bài này bổ sung cho bài [Giải tích → Vật lý & Kỹ thuật]({{ site.baseurl }}/contents/vi/chapter03/03_02_Calculus_Physics_Engineering/) bằng một bản đồ các **loại phương trình**, ý nghĩa của một bài toán đặt chỉnh, và lý do tính toán số chiếm ưu thế trong thực tế. Về một câu hỏi lý thuyết còn mở, xem [Navier–Stokes]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/).
 
 ---
 
@@ -22,130 +22,130 @@ Bài này bổ sung [Giải tích → Vật lý & Kỹ thuật]({{ site.baseurl 
 
 Sau bài học, bạn có thể:
 
-- Phân biệt ODE/PDE và hệ tự trị/không tự trị thoáng nhìn.
-- Nhận ra phương trình chuẩn: hệ ODE tuyến tính, nhiệt, sóng, Laplace, transport, phản ứng–khuếch tán.
-- Nêu khẩu hiệu **well-posedness** của Hadamard (tồn tại, duy nhất, phụ thuộc liên tục) và vì sao kỹ sư cần.
-- Giải thích ý mode riêng / Fourier cho bài tuyến tính hệ số hằng.
-- Mô tả sai phân hữu hạn / FEM / bước thời gian như đường công nghiệp khi không có dạng đóng.
-- Tránh “viết được phương trình là có nghiệm đẹp duy nhất” và “số trị chỉ bấm Solve.”
+- Nhìn qua là phân biệt được ODE với PDE, hệ ôtônôm (không phụ thuộc tường minh vào thời gian) với hệ không ôtônôm.
+- Nhận ra các phương trình chuẩn: hệ ODE tuyến tính, phương trình nhiệt, sóng, Laplace, truyền tải (transport), phản ứng – khuếch tán.
+- Phát biểu ba điều kiện **đặt chỉnh** của Hadamard (tồn tại, duy nhất, phụ thuộc liên tục vào dữ liệu) và giải thích vì sao kỹ sư cần chúng.
+- Giải thích ý tưởng các mode riêng (hay mode Fourier) cho bài toán tuyến tính hệ số hằng.
+- Mô tả sai phân hữu hạn, phần tử hữu hạn và các phương pháp bước thời gian như cách làm trong công nghiệp khi không có nghiệm tường minh.
+- Tránh hai nhầm lẫn: "viết được phương trình là có một nghiệm đẹp và duy nhất" và "tính số chỉ là bấm nút Solve".
 
-**Kiến thức nền.** Đạo hàm và [bài giải tích hạ tầng]({{ site.baseurl }}/contents/vi/chapter03/03_02_Calculus_Physics_Engineering/). Hữu ích: [Fourier]({{ site.baseurl }}/contents/vi/chapter03/03_08_Fourier_Signal_Processing/), [đại số tuyến tính]({{ site.baseurl }}/contents/vi/chapter03/03_03_Linear_Algebra_AI/).
-
----
-
-## 1. Hợp đồng mô hình hóa
-
-**PTVP** liên hệ hàm ẩn với đạo hàm của nó. **IVP** thêm dữ liệu thời điểm đầu; **BVP** thêm dữ liệu biên không gian.
-
-Ba điều khoản: (1) biến trạng thái, (2) luật tốc độ đổi, (3) điều kiện phụ chọn quỹ đạo vật lý—khi toán hợp tác.
-
-**Khẩu hiệu.** *Dự đoán là giải PTVP; thiết kế thường là nghịch—chọn tham số/đầu vào để nghiệm đạt đặc tả (tối ưu ràng buộc PTVP).*
+**Kiến thức nền.** Đạo hàm và bài [giải tích làm hạ tầng]({{ site.baseurl }}/contents/vi/chapter03/03_02_Calculus_Physics_Engineering/). Sẽ có ích nếu biết [Fourier]({{ site.baseurl }}/contents/vi/chapter03/03_08_Fourier_Signal_Processing/) và [đại số tuyến tính]({{ site.baseurl }}/contents/vi/chapter03/03_03_Linear_Algebra_AI/).
 
 ---
 
-## 2. Catalog ODE: trạng thái hữu hạn chiều
+## 1. Ba thành phần của một mô hình
 
-Dạng chuẩn $$\dot{x}=f(x,t)$$, $$x\in\mathbb{R}^d$$. Hệ tuyến tính $$\dot{x}=Ax+Bu(t)$$: lõi điều khiển cổ điển; ổn định qua giá trị riêng của $$A$$. Phi tuyến kinh điển: logistic, con lắc, Lotka–Volterra, SIR. Picard–Lindelöf: $$f$$ Lipschitz theo $$x$$ ⇒ nghiệm địa phương duy nhất; blow-up hữu hạn thời gian vẫn có thể ($$\dot{x}=x^2$$).
+**Phương trình vi phân** liên hệ một hàm chưa biết với các đạo hàm của nó. **Bài toán giá trị ban đầu (IVP)** cho thêm dữ liệu tại thời điểm đầu; **bài toán biên (BVP)** cho thêm dữ liệu trên biên của miền không gian.
+
+Một mô hình gồm ba thành phần: (1) các biến trạng thái, (2) quy luật về tốc độ thay đổi, (3) các điều kiện bổ sung để chọn ra đúng quỹ đạo vật lý, nếu bài toán toán học cho phép.
+
+**Ý chính.** *Dự đoán là giải phương trình vi phân; thiết kế thường là bài toán ngược: chọn tham số hay đầu vào để nghiệm đạt yêu cầu (bài toán tối ưu có ràng buộc là phương trình vi phân).*
 
 ---
 
-## 3. Catalog PDE: trường không–thời gian
+## 2. Danh mục ODE: trạng thái hữu hạn chiều
 
-| Phương trình | Dạng (sơ đồ) | Hiện tượng |
+Dạng chuẩn là $$\dot{x}=f(x,t)$$ với $$x\in\mathbb{R}^d$$. Hệ tuyến tính $$\dot{x}=Ax+Bu(t)$$ là lõi của lý thuyết điều khiển cổ điển; tính ổn định được quyết định bởi các giá trị riêng của $$A$$. Các ví dụ phi tuyến kinh điển: phương trình logistic, con lắc, Lotka–Volterra, mô hình dịch bệnh SIR. Định lý Picard–Lindelöf: nếu $$f$$ Lipschitz theo $$x$$ thì nghiệm tồn tại và duy nhất trong một khoảng thời gian ngắn. Tuy vậy, nghiệm vẫn có thể "nổ" (tiến ra vô cùng) sau một thời gian hữu hạn, ví dụ với $$\dot{x}=x^2$$.
+
+---
+
+## 3. Danh mục PDE: các trường theo không gian và thời gian
+
+| Phương trình | Dạng (sơ lược) | Hiện tượng |
 |--------------|--------------|------------|
-| Transport | $$\partial_t u+v\cdot\nabla u=0$$ | Đối lưu |
-| Nhiệt | $$\partial_t u=\kappa\Delta u$$ | Làm mượt, nhiệt độ |
-| Sóng | $$\partial_{tt}u=c^2\Delta u$$ | Truyền hữu hạn tốc độ |
+| Truyền tải | $$\partial_t u+v\cdot\nabla u=0$$ | Đối lưu |
+| Nhiệt | $$\partial_t u=\kappa\Delta u$$ | Làm trơn, truyền nhiệt |
+| Sóng | $$\partial_{tt}u=c^2\Delta u$$ | Lan truyền với tốc độ hữu hạn |
 | Laplace/Poisson | $$\Delta u=0$$ / $$f$$ | Thế cân bằng |
-| Phản ứng–khuếch tán | $$\partial_t u=D\Delta u+R(u)$$ | Pattern, hóa, sinh thái |
-| Navier–Stokes | Động lượng + không nén | Chất lỏng ([Ch.1]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/)) |
+| Phản ứng – khuếch tán | $$\partial_t u=D\Delta u+R(u)$$ | Hình thành hoa văn, hóa học, sinh thái |
+| Navier–Stokes | Phương trình động lượng + điều kiện không nén | Chất lỏng ([Ch.1]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/)) |
 
-**Loại** elliptic / parabolic / hyperbolic phân loại hành vi định tính. Sai loại = sai trực giác và thường sai phương pháp số. Maxwell, đàn hồi, tương đối tổng quát vẫn cùng hợp đồng: trường + phương trình + điều kiện biên/gauge.
-
----
-
-## 4. Well-posedness: khẩu hiệu Hadamard
-
-Bài **đặt đúng** nếu: (1) tồn tại nghiệm, (2) duy nhất, (3) phụ thuộc **liên tục** vào dữ liệu.
-
-Bài ill-posed không “vô dụng”—xuất hiện trong bài nghịch (suy luận quá khứ từ hiện tại nhiệt; tomography dữ liệu hạn)—nhưng cần chính quy hóa ([tối ưu]({{ site.baseurl }}/contents/vi/chapter03/03_07_Optimization_Operations_AI/)).
-
-**Cược kỹ thuật.** Phụ thuộc liên tục nghĩa là sai đo/sản xuất nhỏ không phá dự đoán. Hỗn loạn ODE phi tuyến: nhạy cảm thực tiễn dù IVP vẫn có thể well-posed toán học. **Millennium Navier–Stokes** hỏi tồn tại/trơn 3D—well-posedness mạnh chưa xong trong khi CFD vẫn bay máy bay (mô hình + số + biên an toàn kỹ thuật).
+Việc phân **loại** elliptic, parabolic, hyperbolic cho biết hành vi định tính của nghiệm. Nhận sai loại phương trình dẫn đến trực giác sai, và thường là chọn sai phương pháp số. Phương trình Maxwell, phương trình đàn hồi, thuyết tương đối rộng vẫn theo cùng khuôn: một trường, một phương trình, cộng điều kiện biên hoặc điều kiện chuẩn (gauge).
 
 ---
 
-## 5. Cấu trúc tuyến tính: chồng chất và mode
+## 4. Bài toán đặt chỉnh theo Hadamard
 
-PTVP tuyến tính thuần nhất: **chồng chất**. ODE hệ số hằng: mũ $$e^{\lambda t}$$. PDE trên hộp/vòng: **tách biến** → hàm riêng (sin, Fourier, hài cầu) với hệ số thời gian là ODE đơn.
+Một bài toán được gọi là **đặt chỉnh** nếu: (1) có nghiệm, (2) nghiệm duy nhất, (3) nghiệm phụ thuộc **liên tục** vào dữ liệu.
 
-**Cơ chế.** *[Fourier]({{ site.baseurl }}/contents/vi/chapter03/03_08_Fourier_Signal_Processing/) chéo hóa nhiều toán tử tuyến tính hệ số hằng; mỗi mode tiến hóa độc lập theo ODE vô hướng.*
+Bài toán không đặt chỉnh không phải là vô dụng. Chúng xuất hiện trong các bài toán ngược (suy ra nhiệt độ trong quá khứ từ nhiệt độ hiện tại; chụp cắt lớp với dữ liệu hạn chế), nhưng cần được chính quy hóa ([tối ưu]({{ site.baseurl }}/contents/vi/chapter03/03_07_Optimization_Operations_AI/)).
 
-Phân tích modal kỹ thuật: tần số tự nhiên từ bài riêng $$K\phi=\omega^2 M\phi$$ sau FEM.
-
----
-
-## 6. Phi tuyến: vì sao dạng đóng hiếm
-
-Nhiều cân bằng, phân nhánh, chu trình giới hạn, hỗn loạn (Lorenz), shock trong luật bảo toàn, pattern Turing. Đáp ứng công nghệ: **mô phỏng**, giảm bậc, **điều khiển**, **xác thực** thí nghiệm.
+**Ý nghĩa kỹ thuật.** Phụ thuộc liên tục nghĩa là sai số nhỏ khi đo đạc hay khi sản xuất không làm hỏng dự đoán. Với các hệ ODE phi tuyến hỗn loạn, nghiệm rất nhạy với điều kiện ban đầu trong thực tế, dù về toán học bài toán giá trị ban đầu vẫn có thể đặt chỉnh. **Bài toán Thiên niên kỷ về Navier–Stokes** hỏi về sự tồn tại và tính trơn của nghiệm trong không gian ba chiều. Câu hỏi đặt chỉnh theo nghĩa mạnh này chưa được giải quyết, nhưng các mô phỏng CFD vẫn giúp máy bay cất cánh (nhờ mô hình, tính toán số và hệ số an toàn kỹ thuật).
 
 ---
 
-## 7. Phương pháp số: đường đa số công nghiệp
+## 5. Cấu trúc tuyến tính: nguyên lý chồng chất và các mode
 
-**Bước thời gian ODE:** Euler, Runge–Kutta, đa bước; phương trình **cứng** cần ẩn; bước thích nghi chuẩn. **Rời rạc không gian PDE:** sai phân hữu hạn; thể tích hữu hạn; phần tử hữu hạn; phổ. Sau rời rạc: hệ đại số lớn—[đại số tuyến tính]({{ site.baseurl }}/contents/vi/chapter03/03_03_Linear_Algebra_AI/) và [tối ưu]({{ site.baseurl }}/contents/vi/chapter03/03_07_Optimization_Operations_AI/) quay lại. Ổn định scheme (CFL cho hyperbolic) là phân tích, không mê tín. **Verification vs validation:** code giải đúng phương trình vs phương trình mô hình đúng thực tại.
+Phương trình vi phân tuyến tính thuần nhất tuân theo **nguyên lý chồng chất**. ODE hệ số hằng có nghiệm dạng hàm mũ $$e^{\lambda t}$$. PDE trên miền hình hộp hay hình tròn giải được bằng **tách biến**: nghiệm được khai triển theo các hàm riêng (hàm sin, chuỗi Fourier, hàm điều hòa cầu), và mỗi hệ số theo thời gian thỏa mãn một ODE đơn giản.
+
+**Ý chính.** *Phép biến đổi [Fourier]({{ site.baseurl }}/contents/vi/chapter03/03_08_Fourier_Signal_Processing/) chéo hóa được nhiều toán tử tuyến tính hệ số hằng; mỗi mode tiến triển độc lập theo một ODE vô hướng.*
+
+Trong phân tích dao động kỹ thuật, các tần số dao động riêng được tìm từ bài toán trị riêng $$K\phi=\omega^2 M\phi$$ sau khi rời rạc hóa bằng phần tử hữu hạn.
 
 ---
 
-## 8. Điều khiển, bài nghịch, digital twin
+## 6. Phi tuyến: vì sao hiếm khi có nghiệm tường minh
 
-**Điều khiển:** chọn $$u(t)$$ để $$x(t)$$ bám tham chiếu—LQR, PID, MPC. **Bài nghịch:** ước hệ số/trạng thái đầu từ quan sát từng phần—thường ill-posed. **Digital twin:** ghép cảm biến + mô hình PTVP + ước lượng; cập nhật tham số; tối ưu bảo trì.
+Hệ phi tuyến có thể có nhiều trạng thái cân bằng, có rẽ nhánh, chu trình giới hạn, hỗn loạn (hệ Lorenz), sóng xung kích trong các định luật bảo toàn, hay hoa văn Turing. Cách công nghệ ứng phó: **mô phỏng**, giảm bậc mô hình, **điều khiển**, và **kiểm chứng** bằng thí nghiệm.
+
+---
+
+## 7. Phương pháp số: con đường chính trong công nghiệp
+
+**Bước thời gian cho ODE:** phương pháp Euler, Runge–Kutta, phương pháp đa bước; phương trình **cứng** (stiff) cần phương pháp ẩn; bước thời gian thích nghi là chuẩn mực. **Rời rạc hóa không gian cho PDE:** sai phân hữu hạn, thể tích hữu hạn, phần tử hữu hạn, phương pháp phổ. Sau khi rời rạc hóa, ta có một hệ phương trình đại số cỡ lớn, và [đại số tuyến tính]({{ site.baseurl }}/contents/vi/chapter03/03_03_Linear_Algebra_AI/) cùng [tối ưu]({{ site.baseurl }}/contents/vi/chapter03/03_07_Optimization_Operations_AI/) lại xuất hiện. Tính ổn định của sơ đồ số (ví dụ điều kiện CFL cho phương trình hyperbolic) là kết quả phân tích toán học, không phải mẹo kinh nghiệm. **Kiểm chứng (verification) và thẩm định (validation)** là hai việc khác nhau: kiểm chứng xem chương trình có giải đúng phương trình không; thẩm định xem phương trình có mô tả đúng thực tế không.
+
+---
+
+## 8. Điều khiển, bài toán ngược, bản sao số
+
+**Điều khiển:** chọn đầu vào $$u(t)$$ để trạng thái $$x(t)$$ bám theo một quỹ đạo mong muốn (LQR, PID, MPC). **Bài toán ngược:** ước lượng hệ số hay trạng thái ban đầu từ các quan sát không đầy đủ; thường là bài toán không đặt chỉnh. **Bản sao số (digital twin):** kết hợp cảm biến, mô hình phương trình vi phân và ước lượng; cập nhật tham số liên tục; tối ưu kế hoạch bảo trì.
 
 ---
 
 ## 9. Vị trí trong Chương 3
 
-| Sợi | Vai trò PTVP |
+| Mạch nội dung | Vai trò của phương trình vi phân |
 |-----|--------------|
-| Giải tích | Tốc độ & tích lũy thành phương trình |
-| Đại số tuyến tính | Toán tử rời rạc; mode; $$Ax=b$$ |
-| Xác suất | SDE; đồng hóa dữ liệu nhiễu |
-| Tối ưu | Thiết kế ràng buộc PDE; MPC |
+| Giải tích | Tốc độ thay đổi và tích lũy trở thành phương trình |
+| Đại số tuyến tính | Toán tử rời rạc; các mode; hệ $$Ax=b$$ |
+| Xác suất | Phương trình vi phân ngẫu nhiên (SDE); đồng hóa dữ liệu có nhiễu |
+| Tối ưu | Thiết kế với ràng buộc là PDE; điều khiển dự báo (MPC) |
 | Fourier | Chéo hóa PDE tuyến tính hệ số hằng |
-| Đồ thị | Rời rạc không gian; động lực mạng |
+| Đồ thị | Rời rạc hóa không gian; động lực học trên mạng |
 
-Chủ đề chương: **đối tượng toán (phương trình cho hàm) thành hạ tầng khi hiểu cơ chế—well-posedness, cấu trúc, số trị—đủ để giao hàng.**
+Chủ đề của chương: **một đối tượng toán học (phương trình cho các hàm số) trở thành hạ tầng khi ta hiểu đủ sâu cơ chế của nó (tính đặt chỉnh, cấu trúc, phương pháp số) để đưa vào sản phẩm.**
 
 ---
 
-### Khẩu hiệu mô hình PTVi phân (từ nghiên cứu video)
+### Tóm tắt về mô hình phương trình vi phân (từ phần tìm hiểu video)
 
-Lộ trình đại học: [Strang & Moler Learn DE](https://ocw.mit.edu/courses/res-18-009-learn-differential-equations-up-close-with-gilbert-strang-and-cleve-moler-fall-2015/) và [3B1B DE intro](https://www.youtube.com/watch?v=p_di4Zn4wz4).
+Lộ trình bậc đại học: [Strang & Moler Learn DE](https://ocw.mit.edu/courses/res-18-009-learn-differential-equations-up-close-with-gilbert-strang-and-cleve-moler-fall-2015/) và [3B1B DE intro](https://www.youtube.com/watch?v=p_di4Zn4wz4).
 
-- **Hợp đồng mô hình:** biến trạng thái + luật tốc độ → PT + dữ liệu ban đầu/biên.
-- **Hadamard:** tồn tại, duy nhất, phụ thuộc liên tục — cả ba cần cho tin cậy kỹ thuật.
-- Hầu hết lời giải công nghiệp là số; phân tích vẫn quyết định ổn định, stiff, và tính hợp lệ.
+- **Ba thành phần của mô hình:** biến trạng thái + quy luật tốc độ thay đổi → phương trình + dữ liệu ban đầu hoặc dữ liệu biên.
+- **Hadamard:** tồn tại, duy nhất, phụ thuộc liên tục; cần cả ba để kết quả đáng tin cậy về mặt kỹ thuật.
+- Hầu hết lời giải trong công nghiệp là lời giải số; phân tích toán học vẫn quyết định tính ổn định, xử lý phương trình cứng, và tính hợp lệ của kết quả.
 
 ## Nhầm lẫn thường gặp
 
-| Khẳng định | Sửa |
+| Khẳng định | Sửa lại |
 |------------|-----|
-| “Viết PTVP ⇒ nghiệm duy nhất toàn cục.” | Cần lý thuyết tồn tại; blow-up và không duy nhất có thể. |
-| “CFD chứng minh Navier–Stokes đã xong toán.” | Số trị + mô hình ≠ chứng minh Millennium. |
-| “Cứng = người dùng cứng.” | Cứng là tính chất phổ đa thang của ODE. |
-| “Lưới mịn hơn luôn tốt hơn.” | Cần scheme ổn định hội tụ; sai mô hình còn. |
-| “Điều kiện đầu/biên là trang trí.” | Chúng chọn nghiệm; BC sai = vật lý sai. |
+| "Viết được phương trình vi phân là có nghiệm duy nhất trên toàn thời gian." | Cần định lý tồn tại; nghiệm có thể nổ hoặc không duy nhất. |
+| "Mô phỏng CFD chứng tỏ bài toán Navier–Stokes đã giải xong." | Tính toán số cộng mô hình không phải là lời giải bài toán Thiên niên kỷ. |
+| "Phương trình cứng là phương trình khó dùng." | "Cứng" là một tính chất kỹ thuật: hệ có các thang thời gian chênh lệch rất lớn. |
+| "Lưới càng mịn càng tốt." | Cần sơ đồ số ổn định và hội tụ; sai mô hình vẫn còn nguyên. |
+| "Điều kiện ban đầu và điều kiện biên chỉ để trang trí." | Chúng quyết định nghiệm; điều kiện biên sai là vật lý sai. |
 
 ---
 
 ## Bài tập
 
-1. ODE hay PDE? (a) $$\dot{I}+I/RC=0$$; (b) $$\partial_t u=u_{xx}$$; (c) Maxwell chân không.  
-2. $$f(x)=x^2$$ Lipschitz địa phương nhưng không toàn cục—vì sao quan trọng cho Picard?  
-3. $$\dot{x}=Ax$$, $$A=\mathrm{diag}(-1,2)$$: thành phần nào thổi khi $$t\to+\infty$$?  
-4. Vì sao phụ thuộc liên tục vào dữ liệu là yêu cầu kỹ thuật?  
-5. Nhiệt vs sóng: cái nào làm mượt tức thì dữ liệu thô (phương trình lý tưởng), cái nào truyền kỳ dị theo đặc trưng?  
-6. Ý CFL: vì sao bước thời gian có thể bị buộc nhỏ khi lưới mịn cho phương trình sóng?  
-7. Nâng cao: đưa $$\ddot{x}+\omega^2 x=0$$ về hệ bậc nhất; chu kỳ nghiệm.
+1. ODE hay PDE? (a) $$\dot{I}+I/RC=0$$; (b) $$\partial_t u=u_{xx}$$; (c) phương trình Maxwell trong chân không.  
+2. Hàm $$f(x)=x^2$$ Lipschitz địa phương nhưng không Lipschitz toàn cục. Vì sao điều này quan trọng khi áp dụng định lý Picard?  
+3. Với $$\dot{x}=Ax$$, $$A=\mathrm{diag}(-1,2)$$: thành phần nào tăng vô hạn khi $$t\to+\infty$$?  
+4. Vì sao phụ thuộc liên tục vào dữ liệu là một yêu cầu kỹ thuật?  
+5. Phương trình nhiệt và phương trình sóng: phương trình nào làm trơn tức thì dữ liệu ban đầu thô ráp (với phương trình lý tưởng), phương trình nào truyền các điểm kỳ dị dọc theo đường đặc trưng?  
+6. Điều kiện CFL: vì sao với phương trình sóng, khi lưới không gian mịn hơn thì bước thời gian có thể bị buộc phải nhỏ hơn?  
+7. Nâng cao: đưa $$\ddot{x}+\omega^2 x=0$$ về hệ bậc nhất; tìm chu kỳ của nghiệm.
 
 ---
 
@@ -207,29 +207,29 @@ Danh mục URL đầy đủ (mọi link tìm được khi nghiên cứu video): 
 
 ## Hướng đi tiếp
 
-- Đọc lại [Giải tích]({{ site.baseurl }}/contents/vi/chapter03/03_02_Calculus_Physics_Engineering/) (góc FEM biến phân).  
-- Bài mở: [Navier–Stokes]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/).  
+- Đọc lại bài [Giải tích]({{ site.baseurl }}/contents/vi/chapter03/03_02_Calculus_Physics_Engineering/) (phần phần tử hữu hạn và biến phân).  
+- Một bài toán còn mở: [Navier–Stokes]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/).  
 - [Fourier]({{ site.baseurl }}/contents/vi/chapter03/03_08_Fourier_Signal_Processing/).  
-- Viết lại cơ chế cốt lõi một đoạn; ghi một câu hỏi còn mở.
+- Tự viết lại ý chính của bài trong một đoạn văn, và ghi ra một câu hỏi bạn vẫn còn thắc mắc.
 
 
-## Mô hình, thước đo, và giới hạn dự báo
+## Mô hình, đo đạc và giới hạn của dự báo
 
-Phương trình vi phân trong ứng dụng hiếm khi “đúng tuyệt đối”; chúng là **mô hình** với giả thiết về ma sát, tuyến tính hóa, bỏ qua trễ, hoặc xấp xỉ liên tục cho hệ rời rạc. Seminar tốt luôn tách ba tầng:
+Trong ứng dụng, phương trình vi phân hiếm khi "đúng tuyệt đối". Chúng là **mô hình**, kèm theo các giả thiết về ma sát, về tuyến tính hóa, về việc bỏ qua độ trễ, hay về việc xấp xỉ một hệ rời rạc bằng một mô hình liên tục. Khi thảo luận, nên luôn tách ba tầng:
 
-1. **Phương trình lý tưởng** (tồn tại/duy nhất nghiệm trong không gian hàm thích hợp).
+1. **Phương trình lý tưởng** (sự tồn tại và duy nhất nghiệm trong một không gian hàm thích hợp).
 2. **Mô hình kỹ thuật** (hệ số đo được, nhiễu, điều kiện biên thực tế).
-3. **Thuật toán số** (bước thời gian, ổn định, sai số truncation).
+3. **Thuật toán số** (bước thời gian, tính ổn định, sai số cắt cụt).
 
-Khi đọc tin “AI dự báo thời tiết bằng PDE/neural operator”, hãy hỏi: đang xấp xỉ toán tử nào, trên lưới nào, và lỗi được đo bằng chuẩn nào? Câu trả lời thuộc chương DE ứng dụng cũng như chương AI/tối ưu.
+Khi đọc tin "AI dự báo thời tiết bằng PDE hay bằng neural operator", hãy hỏi: đang xấp xỉ toán tử nào, trên lưới nào, và sai số được đo theo chuẩn nào? Câu trả lời thuộc về phương trình vi phân ứng dụng không kém gì thuộc về AI và tối ưu.
 
-## Studio ngắn
+## Bài thực hành ngắn
 
-Chọn một hệ một chiều (dao động có cản, hoặc logistic có khai thác). Viết (i) phương trình, (ii) một giả thiết bị bỏ, (iii) một đại lượng quan sát được, (iv) một câu LO6: điều gì vẫn là định lý thuần túy và điều gì là mô phỏng.
+Chọn một hệ một chiều (dao động có cản, hoặc mô hình logistic có khai thác). Viết ra (i) phương trình, (ii) một giả thiết đã bị bỏ qua, (iii) một đại lượng quan sát được, (iv) một câu phân biệt: điều gì vẫn là định lý toán học thuần túy, và điều gì là kết quả mô phỏng.
 
 
 ## Video tham khảo
 
-- **xem trước** — [Differential equations, a tourist's guide | DE1](https://www.youtube.com/watch?v=p_di4Zn4wz4) — 3Blue1Brown, tiếng Anh. Xem trước. “Differential equations, a tourist's guide | DE1” định hướng cho mục tiêu của bài: Phân biệt ODE/PDE và hệ tự trị/không tự trị thoáng nhìn.
-- [2. First-Order Equations](https://www.youtube.com/watch?v=4X0SGGrXDiI) — MIT OpenCourseWare, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phân biệt ODE/PDE và hệ tự trị/không tự trị thoáng nhìn.
-- [Logistic Map Explained (Strogatz Ch. 10): Period-Doubling Route to Chaos | Part 1](https://www.youtube.com/watch?v=PVo1mHnU7WU) — Dr. Shane Ross, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phân biệt ODE/PDE và hệ tự trị/không tự trị thoáng nhìn.
+- **Xem trước**: [Differential equations, a tourist's guide | DE1](https://www.youtube.com/watch?v=p_di4Zn4wz4) (3Blue1Brown, tiếng Anh). Giới thiệu trực quan phương trình vi phân qua con lắc và không gian pha. Nên xem trước khi đọc §1 và §2.
+- [2. First-Order Equations](https://www.youtube.com/watch?v=4X0SGGrXDiI) (MIT OpenCourseWare, tiếng Anh). Bài giảng về phương trình vi phân bậc nhất trong loạt bài của Gilbert Strang. Hợp với §2.
+- [Logistic Map Explained (Strogatz Ch. 10): Period-Doubling Route to Chaos | Part 1](https://www.youtube.com/watch?v=PVo1mHnU7WU) (Dr. Shane Ross, tiếng Anh). Ánh xạ logistic và con đường nhân đôi chu kỳ dẫn đến hỗn loạn. Lưu ý đây là hệ rời rạc (ánh xạ lặp), không phải ODE; dùng làm góc nhìn bổ sung cho §6.

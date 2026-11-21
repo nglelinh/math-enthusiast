@@ -20,7 +20,7 @@ Bài này không liệt kê CV. Nó dựng **ba ý tưởng Yao** đã trở th�
 
 ## Mục tiêu học tập
 
-Sau bài, bạn có thể phát biểu **nguyên lý Yao** (minimax) ở mức khẩu hiệu chính xác: cost tối ưu randomized worst-case bằng cost tối ưu deterministic trung bình theo phân phối khó nhất; định nghĩa **độ phức tạp giao tiếp** hai bên cho hàm $$f:\{0,1\}^n\times\{0,1\}^n\to\{0,1\}$$ và giải thích vì sao nó khác thời gian máy Turing; nêu một chặn dưới giao tiếp kinh điển (ví dụ equality hoặc set disjointness) và ý nghĩa “thông tin phải đi qua kênh”; mô tả vì sao mô hình giao tiếp nuôi streaming, data structure, circuit depth và multiparty; nối Yao với [ngẫu nhiên–derandomization]({{ site.baseurl }}/contents/vi/chapter09/09_13_Wigderson_Complexity/) mà không tuyên bố mọi thuật toán ngẫu nhiên đã bị “giải mã” deterministic.
+Sau bài, bạn có thể phát biểu **nguyên lý Yao** (minimax) ở mức tóm tắt chính xác: cost tối ưu randomized worst-case bằng cost tối ưu deterministic trung bình theo phân phối khó nhất; định nghĩa **độ phức tạp giao tiếp** hai bên cho hàm $$f:\{0,1\}^n\times\{0,1\}^n\to\{0,1\}$$ và giải thích vì sao nó khác thời gian máy Turing; nêu một chặn dưới giao tiếp kinh điển (ví dụ equality hoặc set disjointness) và ý nghĩa “thông tin phải đi qua kênh”; mô tả vì sao mô hình giao tiếp nuôi streaming, data structure, circuit depth và multiparty; nối Yao với [ngẫu nhiên–derandomization]({{ site.baseurl }}/contents/vi/chapter09/09_13_Wigderson_Complexity/) mà không tuyên bố mọi thuật toán ngẫu nhiên đã bị “giải mã” deterministic.
 
 **Kiến thức nền.** Xác suất cơ bản (kỳ vọng, phân phối); runtime poly vs mũ; ý minimax trong lý thuyết trò chơi (giá trị maximin/minimax). Biết [đồ thị]({{ site.baseurl }}/contents/vi/chapter03/03_06_Graph_Theory_Networks/) giúp ví dụ, không bắt buộc.
 
@@ -59,7 +59,7 @@ Khẩu hiệu đúng: **chi phí tối ưu của thuật toán ngẫu nhiên tro
 
 ### Vì sao đây là toán, không chỉ mẹo chứng minh
 
-Minimax của von Neumann (và dạng Yao–Yao cho complexity) nói rằng trong trò chơi zero-sum, thứ tự “ai đi trước” có thể đổi khi cho phép mixed strategy. Yao biến **algorithm designer vs adversary** thành trò chơi đó. Adversary chọn input (hoặc phân phối); designer chọn thuật toán (hoặc phân phối trên thuật toán). Giá trị trò chơi là complexity. Đây là cầu giữa [lý thuyết trò chơi]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/) (minimax, cân bằng) và chặn dưới thuật toán.
+Minimax của von Neumann (và dạng của Yao cho độ phức tạp) nói rằng trong trò chơi zero-sum, thứ tự “ai đi trước” có thể đổi khi cho phép mixed strategy. Yao biến **algorithm designer vs adversary** thành trò chơi đó. Adversary chọn input (hoặc phân phối); designer chọn thuật toán (hoặc phân phối trên thuật toán). Giá trị trò chơi là complexity. Đây là cầu giữa [lý thuyết trò chơi]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/) (minimax, cân bằng) và chặn dưới thuật toán.
 
 **Cảnh báo đọc.** Nguyên lý Yao *không* nói “randomness vô dụng”. Nó nói: sức mạnh randomness, nếu có, phải thể hiện như lợi thế **trung bình trên phân phối**, và adversary có thể “biết” mixed strategy của bạn theo nghĩa worst-case expectation. Randomness vẫn có thể giảm cost kỳ vọng trên input cố định; minimax so sánh *các đại lượng tối ưu* hai phía.
 
@@ -73,7 +73,7 @@ Muốn chứng minh không có thuật toán so sánh ngẫu nhiên tìm phần 
 
 ### Mô hình Yao
 
-Hai bên **Alice** và **Bob** nhận lần lượt $$x,y\in\{0,1\}^n$$. Họ muốn tính $$f(x,y)$$ bằng cách gửi tin nhắn qua kênh; mỗi bên thấy input riêng, không thấy input kia. **Độ phức tạp giao tiếp** $$D(f)$$ (deterministic) là số bit tối thiểu trong protocol đúng mọi $$(x,y)$$. Phiên bản ngẫu nhiên $$R(f)$$ cho phép xu nội bộ và lỗi nhỏ. Multiparty, quantum, nondeterministic là biến thể.
+Hai bên **Alice** và **Bob** nhận lần lượt $$x,y\in\{0,1\}^n$$. Họ muốn tính $$f(x,y)$$ bằng cách gửi tin nhắn qua kênh; mỗi bên thấy input riêng, không thấy input kia. **Độ phức tạp giao tiếp** $$D(f)$$ (deterministic) là số bit tối thiểu trong protocol đúng mọi $$(x,y)$$. Phiên bản ngẫu nhiên $$R(f)$$ cho phép gieo đồng xu nội bộ và chấp nhận lỗi nhỏ. Multiparty, quantum, nondeterministic là biến thể.
 
 Điểm khái niệm: đây **không** phải “mạng máy tính chậm”. Đây là **mô hình thông tin tối thiểu** cần để tính $$f$$ khi dữ liệu bị phân mảnh. Chặn dưới giao tiếp là định lý về *cấu trúc* $$f$$—thường qua ma trận truyền thông $$M_f[x,y]=f(x,y)$$, phân hoạch hình chữ nhật, rank, mutual information.
 
@@ -111,7 +111,7 @@ Cell-probe và static data structure lower bounds thường **giảm** về mult
 
 ### Circuit depth và parallel time
 
-Kohn–Kushilevitz–Nisan và dòng công trình nối communication complexity với độ sâu mạch và branching program. Intuition: wire giữa hai nửa mạch “giao tiếp” giá trị trung gian. Chặn dưới giao tiếp đa bên nuôi chặn dưới song song.
+Karchmer–Wigderson và các công trình sau đó nối communication complexity với độ sâu mạch và branching program. Intuition: wire giữa hai nửa mạch “giao tiếp” giá trị trung gian. Chặn dưới giao tiếp đa bên nuôi chặn dưới song song.
 
 ### Multiparty number-on-forehead
 
@@ -135,7 +135,7 @@ Giao thức “hai triệu phú” so sánh tài sản mà không lộ số—m�
 
 Nguyên lý dạng Yao xuất hiện lại khi phân tích **online learning** và statistical decision: regret minimax, distributional hardness cho estimation. Không phải mọi minimax đều “định lý Yao 1977”, nhưng thói quen tư duy giống nhau: worst-case randomized = best response trên prior khó. [Lý thuyết ML]({{ site.baseurl }}/contents/vi/chapter06/06_10_ML_Theory/) dùng ngôn ngữ đó cho rates; bài này cho bạn gốc complexity.
 
-Studio seminar gợi ý: lấy một chặn dưới sorting bằng adversary argument cổ điển; viết lại bằng ngôn ngữ “phân phối $$D$$ làm mọi cây quyết định trả giá trung bình $$\ge \log_2(n!)-o(\cdot)$$”. Đó là tập gym cho nguyên lý Yao.
+Bài tập gợi ý: lấy một chặn dưới sorting bằng adversary argument cổ điển; viết lại bằng ngôn ngữ “phân phối $$D$$ làm mọi cây quyết định trả giá trung bình $$\ge \log_2(n!)-o(\cdot)$$”. Đó là tập gym cho nguyên lý Yao.
 
 ---
 
@@ -164,7 +164,7 @@ Khi paper nói “$$R_{1/3}(\mathrm{DISJ})=\Omega(n)$$”, checklist:
 4. **Giảm bài:** streaming/data structure reduce *về* DISJ thế nào (ai là Alice/Bob)?  
 5. **Hằng số và asymptotically:** $$\Omega(n)$$ hay $$\Omega(n/\log n)$$?  
 
-Biết đọc biên giới (LO6) ở communication complexity chính là checklist này cộng sự khiêm tốn về hằng số concrete.
+Đọc đúng giới hạn của một kết quả về độ phức tạp giao tiếp chính là làm theo danh sách trên, cùng với sự dè dặt về các hằng số cụ thể.
 
 ---
 
@@ -176,45 +176,25 @@ Biết đọc biên giới (LO6) ở communication complexity chính là checkli
 4. Viết định nghĩa DISJ; giải thích một câu vì sao chặn dưới gần tuyến tính “đau” cho streaming giao cắt.  
 5. **≤200 từ:** So minimax Yao với minimax lý thuyết trò chơi zero-sum: giống ở đâu, đối tượng $$C(A,x)$$ khác gì payoff cổ điển.  
 6. Nối [độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/): communication complexity có “giải” P vs NP không? Vì sao không.  
-7. **Seminar:** Chọn một lower bound data structure (cell-probe) trên survey; chỉ ra bước reduce về communication (ai nói với ai).
+7. Chọn một lower bound data structure (cell-probe) trên survey; chỉ ra bước reduce về communication (ai nói với ai).
 
 ---
 
 
-## Nguồn video (gói math-video-researcher)
+## Video và tài liệu
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh. Chi tiết: `research/video-research/yao-complexity/`.
+Các video gợi ý nằm ở phần *Video tham khảo* cuối bài. Hãy dùng video để làm quen với bối cảnh, không dùng thay cho chứng minh.
 
-**Khẩu hiệu từ gói nghiên cứu**
+## Tài liệu tham khảo trực tuyến
 
-- Yao Turing 2000: communication complexity, minimax, PRG/quantum culture.
-
-**Thứ tự xem gợi ý**
-
-
-**Cổng chính thức / tài liệu**
-
-- Yao Turing page: https://amturing.acm.org/award_winners/yao_1611524.cfm  
-- Wigderson randomness (related resource theory): https://amturing.acm.org/award_winners/wigderson_3844537.cfm  
-
-Danh mục URL đầy đủ: `research/video-research/yao-complexity/references.md`.
-
-## Tài liệu tham khảo
-
-
-### Gói nghiên cứu video (mọi URL)
-
-Danh mục đầy đủ: `research/video-research/yao-complexity/references.md`.
-
-1. Yao Turing page — https://amturing.acm.org/award_winners/yao_1611524.cfm  
+1. Trang giải Turing của Yao — https://amturing.acm.org/award_winners/yao_1611524.cfm  
 2. Wikipedia — Andrew Yao — https://en.wikipedia.org/wiki/Andrew_Yao  
 3. Wikipedia — Communication complexity — https://en.wikipedia.org/wiki/Communication_complexity  
 4. Wikipedia — Yao's principle — https://en.wikipedia.org/wiki/Yao%27s_principle  
 5. Wikipedia — Pseudorandom generator — https://en.wikipedia.org/wiki/Pseudorandom_generator  
-6. Yao class / IIIS Tsinghua culture — https://iiis.tsinghua.edu.cn/en/  
-7. Wigderson randomness (related resource theory) — https://amturing.acm.org/award_winners/wigderson_3844537.cfm  
-8. Survey entry: Kushilevitz–Nisan book culture — https://en.wikipedia.org/wiki/Communication_complexity  
-9. Thư mục gói: `research/video-research/yao-complexity/`.
+6. Viện IIIS, Thanh Hoa — https://iiis.tsinghua.edu.cn/en/  
+7. Trang giải Turing của Wigderson (tính ngẫu nhiên) — https://amturing.acm.org/award_winners/wigderson_3844537.cfm  
+8. Mục từ tổng quan (liên quan sách của Kushilevitz–Nisan) — https://en.wikipedia.org/wiki/Communication_complexity  
 
 1. ACM A.M. Turing Award — Andrew C. Yao (2000), citation và lecture.  
 2. Kushilevitz & Nisan — *Communication Complexity* (sách nền).  
@@ -235,6 +215,6 @@ Danh mục đầy đủ: `research/video-research/yao-complexity/references.md`.
 
 ## Video tham khảo
 
-- **xem trước** — [Andrew C. Yao - Some Perspectives on Computational and Communication Complexity](https://www.youtube.com/watch?v=g7KzDojwAuM) — IEEE Information Theory Society, tiếng Anh. Xem trước. “Andrew C. Yao - Some Perspectives on Computational and Communication Complexity” định hướng cho mục tiêu của bài: Sau bài, bạn có thể phát biểu nguyên lý Yao (minimax) ở mức khẩu hiệu chính xác: cost tối ưu randomized worst-case bằng cost tối ưu deterministic trung bình theo phân phối khó nhất…
-- [【Kyoto Prize Commemorative Lecture】Andrew Chi-Chih Yao “A Journey Through Computer Science”](https://www.youtube.com/watch?v=9BPksehCgOU) — Kyoto Prize, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài, bạn có thể phát biểu nguyên lý Yao (minimax) ở mức khẩu hiệu chính xác: cost tối ưu randomized worst-case bằng cost tối ưu deterministic trung bình theo phân phối khó nhất…
-- [Andrew Chi Chih Yao: Building Up Computer Science by Asking Good Questions #ICBS2024](https://www.youtube.com/watch?v=lRwCImYTLkE) — BIMSA, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài, bạn có thể phát biểu nguyên lý Yao (minimax) ở mức khẩu hiệu chính xác: cost tối ưu randomized worst-case bằng cost tối ưu deterministic trung bình theo phân phối khó nhất…
+- **Xem trước** — [Andrew C. Yao - Some Perspectives on Computational and Communication Complexity](https://www.youtube.com/watch?v=g7KzDojwAuM) — IEEE Information Theory Society, tiếng Anh. Xem trước để làm quen với chủ đề.
+- [【Kyoto Prize Commemorative Lecture】Andrew Chi-Chih Yao “A Journey Through Computer Science”](https://www.youtube.com/watch?v=9BPksehCgOU) — Kyoto Prize, tiếng Anh. Xem sau khi đã nắm ý chính.
+- [Andrew Chi Chih Yao: Building Up Computer Science by Asking Good Questions #ICBS2024](https://www.youtube.com/watch?v=lRwCImYTLkE) — BIMSA, tiếng Anh. Góc nhìn bổ sung.

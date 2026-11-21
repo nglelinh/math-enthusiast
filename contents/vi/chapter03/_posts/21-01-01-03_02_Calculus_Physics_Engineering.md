@@ -9,11 +9,11 @@ categories:
 - chapter03
 ---
 
-Một cây cầu không đứng vững vì ai đó “dùng công thức.” Nó đứng vững vì **tốc độ biến thiên cục bộ** của ứng suất và chuyển vị bị ràng buộc bởi các định luật cân bằng, rồi được tích phân—giải tích hoặc số—thành một thiết kế chịu tải, gió và mỏi. Đường ống đó là giải tích như hạ tầng.
+Một cây cầu đứng vững không phải vì ai đó "áp công thức". Nó đứng vững vì **tốc độ biến thiên cục bộ** của ứng suất và chuyển vị phải thỏa mãn các định luật cân bằng. Sau đó các phương trình này được tích phân, bằng giải tích hoặc bằng phương pháp số, để ra một thiết kế chịu được tải trọng, gió và hiện tượng mỏi. Theo nghĩa đó, giải tích là một phần hạ tầng.
 
-**Lộ trình:** tốc độ và tích lũy → định lý cơ bản → định luật Newton như ODE → không gian bước vào (PDE) → tư duy biến phân → phần tử hữu hạn → các lĩnh vực kỹ thuật → nhầm lẫn thường gặp.
+**Lộ trình:** tốc độ và tích lũy → định lý cơ bản → định luật Newton dưới dạng phương trình vi phân thường → thêm biến không gian (phương trình đạo hàm riêng) → tư duy biến phân → phương pháp phần tử hữu hạn → các ngành kỹ thuật → những nhầm lẫn thường gặp.
 
-Bài này không phải khóa đạo hàm lần đầu. Đây là bản đồ **vì sao giải tích trở thành tiếng mẹ đẻ của vật lý cổ điển và phần lớn kỹ thuật**, và ý tưởng chính xác nào làm cho mô phỏng, điều khiển và thiết kế khả thi.
+Đây không phải bài học đạo hàm cho người mới bắt đầu. Bài này giải thích **vì sao giải tích trở thành ngôn ngữ chính của vật lý cổ điển và phần lớn ngành kỹ thuật**, và những ý tưởng cụ thể nào giúp việc mô phỏng, điều khiển và thiết kế trở nên khả thi.
 
 ---
 
@@ -21,128 +21,128 @@ Bài này không phải khóa đạo hàm lần đầu. Đây là bản đồ **
 
 Sau bài học, bạn có thể:
 
-- Giải thích đạo hàm và tích phân như hai phép toán đôi, nối bởi định lý cơ bản của giải tích.
-- Viết định luật hai Newton như phương trình vi phân và diễn giải lực, khối lượng, gia tốc trong ngôn ngữ đó.
-- Phân biệt ODE và PDE; nêu ví dụ chuẩn (nhiệt, sóng, Laplace).
-- Mô tả, mức khẩu hiệu, cách **phương pháp phần tử hữu hạn (FEM)** biến luật cân bằng liên tục thành bài toán đại số tuyến tính lớn.
-- Kể ba lĩnh vực kỹ thuật “nói” giải tích trôi chảy và *cái gì* đang được đạo hàm/tích phân.
-- Tránh nhầm: “giải tích chỉ là công thức phổ thông” và “phần mềm thay thế toán.”
+- Giải thích đạo hàm và tích phân là hai phép toán ngược nhau, được nối với nhau bởi định lý cơ bản của giải tích.
+- Viết định luật hai Newton dưới dạng phương trình vi phân, và hiểu lực, khối lượng, gia tốc trong cách viết đó.
+- Phân biệt phương trình vi phân thường (ODE) và phương trình đạo hàm riêng (PDE); nêu các ví dụ chuẩn (phương trình nhiệt, phương trình sóng, phương trình Laplace).
+- Mô tả ngắn gọn cách **phương pháp phần tử hữu hạn (FEM)** biến một định luật cân bằng liên tục thành một bài toán đại số tuyến tính cỡ lớn.
+- Kể tên ba ngành kỹ thuật dùng giải tích thường xuyên và nói rõ trong mỗi ngành, *đại lượng nào* được lấy đạo hàm hay tích phân.
+- Tránh hai nhầm lẫn: "giải tích chỉ là công thức ở phổ thông" và "phần mềm đã thay thế toán học".
 
-**Kiến thức nền.** Trực giác giải tích phổ thông (độ dốc, diện tích). Hàm nhiều biến hữu ích cho PDE.
+**Kiến thức nền.** Trực giác giải tích ở phổ thông (độ dốc, diện tích). Biết về hàm nhiều biến sẽ có ích cho phần PDE.
 
-**Liên kết.** [Phương trình vi phân]({{ site.baseurl }}/contents/vi/chapter03/03_09_Differential_Equations_Applications/), [Navier–Stokes (Ch.1)]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/), Fourier trong chương này.
+**Liên kết.** [Phương trình vi phân]({{ site.baseurl }}/contents/vi/chapter03/03_09_Differential_Equations_Applications/), [Navier–Stokes (Ch.1)]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/), và bài Fourier trong chương này.
 
 ---
 
-## 1. Hai ý tưởng, một động cơ
+## 1. Hai ý tưởng, một bộ máy
 
-**Đạo hàm** trả lời: cái gì đang đổi *ngay lúc này* nhanh ra sao? Vận tốc là đạo hàm vị trí; dòng điện có thể là tốc độ đổi điện tích; chi phí biên là đạo hàm tổng chi phí.
+**Đạo hàm** trả lời câu hỏi: tại *thời điểm này*, một đại lượng đang thay đổi nhanh đến mức nào? Vận tốc là đạo hàm của vị trí; cường độ dòng điện là tốc độ thay đổi của điện tích; chi phí biên là đạo hàm của tổng chi phí.
 
-**Tích phân** trả lời: sự đổi tích lũy thế nào trên một khoảng? Quãng đường là tích phân tốc độ; công là tích phân lực theo đường; nhiệt tổng là tích phân mật độ trên vật thể.
+**Tích phân** trả lời câu hỏi: trên cả một khoảng, các thay đổi cộng dồn lại thành bao nhiêu? Quãng đường là tích phân của tốc độ; công là tích phân của lực dọc theo đường đi; tổng nhiệt lượng là tích phân của mật độ nhiệt trên vật thể.
 
-**Định lý cơ bản của giải tích** là bản lề: dưới giả thiết phù hợp, đạo hàm và tích phân là nghịch đảo nhau. Vật lý được viết trên bản lề đó:
+**Định lý cơ bản của giải tích** nối hai ý tưởng này: với các giả thiết phù hợp, lấy đạo hàm và lấy tích phân là hai phép toán ngược nhau. Vật lý được xây dựng dựa trên mối nối đó:
 
 $$
 \int_a^b f(x)\,dx = F(b)-F(a)\quad\text{khi }F'=f.
 $$
 
-Khẩu hiệu khóa học: **giải tích là đại số của sự biến thiên liên tục.**
+Tóm lại: **giải tích là ngôn ngữ toán học của sự thay đổi liên tục.**
 
 ---
 
 ## 2. Từ hình học đến động lực học
 
-Lịch sử: giải tích sinh từ hình học (tiếp tuyến, diện tích) và trở thành công cụ **động lực học**. Newton và Leibniz không chỉ “phát minh mẹo thi”; họ phát minh ngôn ngữ cho sự đổi liên tục.
+Về lịch sử, giải tích ra đời từ các bài toán hình học (tiếp tuyến, diện tích) rồi trở thành công cụ của **động lực học**. Newton và Leibniz không chỉ nghĩ ra vài mẹo tính toán; họ tạo ra một ngôn ngữ để mô tả sự thay đổi liên tục.
 
-**Định luật hai Newton** một chiều,
+**Định luật hai Newton** trong một chiều,
 
 $$
 m \frac{d^2 x}{dt^2} = F\bigl(x,\tfrac{dx}{dt},t\bigr),
 $$
 
-đã là phương trình vi phân: ẩn số là *hàm* $$x(t)$$. Cơ học cổ điển là vũ trụ các phương trình như vậy.
+đã là một phương trình vi phân: ẩn số là một *hàm số* $$x(t)$$. Toàn bộ cơ học cổ điển được viết bằng những phương trình như vậy.
 
-**Cơ chế một câu.**  
-*Các định luật vật lý thường nói tốc độ đổi của trạng thái phụ thuộc chính trạng thái; giải phương trình vi phân dự đoán tương lai từ dữ liệu ban đầu.*
+**Tóm tắt trong một câu.**  
+*Các định luật vật lý thường cho biết tốc độ thay đổi của trạng thái phụ thuộc vào chính trạng thái đó; giải phương trình vi phân cho phép dự đoán tương lai từ điều kiện ban đầu.*
 
 ---
 
-## 3. ODE và PDE: khi không gian bước vào
+## 3. ODE và PDE: khi có thêm biến không gian
 
-**ODE** đạo hàm theo một biến độc lập (thường là thời gian). Hệ khối–lò xo–giảm chấn là ODE.
+**ODE** chỉ có đạo hàm theo một biến độc lập (thường là thời gian). Hệ khối lượng – lò xo – giảm chấn được mô tả bởi một ODE.
 
-**PDE** có nhiều biến độc lập—không gian và thời gian. Phương trình nhiệt
+**PDE** có nhiều biến độc lập, thường là không gian và thời gian. Phương trình nhiệt
 
 $$
 \partial_t u = \kappa \Delta u
 $$
 
-nói nhiệt độ đổi tỉ lệ với Laplacian (làm mượt cục bộ). Phương trình sóng $$\partial_{tt}u=c^2\Delta u$$ truyền nhiễu với tốc độ hữu hạn $$c$$. Laplace $$\Delta u=0$$ mô tả thế cân bằng.
+nói rằng nhiệt độ thay đổi tỉ lệ với toán tử Laplace của nó, tức là nhiệt có xu hướng san đều ra xung quanh. Phương trình sóng $$\partial_{tt}u=c^2\Delta u$$ truyền nhiễu động đi với tốc độ hữu hạn $$c$$. Phương trình Laplace $$\Delta u=0$$ mô tả trạng thái cân bằng.
 
-**Vì sao công nghệ quan tâm.** Mô hình ODE thống trị mạch tập trung, cơ học vật rắn, nhiều vòng điều khiển. PDE thống trị trường liên tục: nhiệt, ứng suất, điện từ (Maxwell), chất lỏng (Navier–Stokes). “Mô phỏng” công nghiệp thường là: rời rạc hóa PDE, giải hệ đại số lớn, trực quan hóa—vẫn là giải tích cộng phân tích số.
-
----
-
-## 4. Bảo toàn, thông lượng, mẫu continuum
-
-Nhiều vật lý continuum theo một khuôn:
-
-1. Chọn đại lượng (khối lượng, năng lượng, động lượng, điện tích).  
-2. Viết **luật cân bằng**: tốc độ đổi trong miền = thông lượng qua biên + nguồn.  
-3. Đưa dạng tích phân thành PDE nhờ **định lý divergence** (Green/Stokes/Gauss là họ hàng—xem [Vật lý toán / Stokes→Maxwell]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/)).  
-4. Đóng hệ bằng **luật cấu thành** (Fourier: thông lượng nhiệt $$\propto -\nabla u$$; Hooke: ứng suất–biến dạng; Ohm; …).
-
-Với nhiệt: luật Fourier + cân bằng năng lượng → phương trình nhiệt. Toán không trang trí: định lý divergence là lý do “kế toán” tích phân thành PDE.
-
-**Cơ chế.** *Bảo toàn + đáp ứng cấu thành → PDE; hình học miền và điều kiện biên chọn nghiệm vật lý.*
+**Vì sao ngành công nghệ quan tâm.** ODE là mô hình chính cho mạch điện với các phần tử tập trung, cơ học vật rắn và nhiều vòng điều khiển. PDE là mô hình chính cho các trường liên tục: nhiệt, ứng suất, điện từ (phương trình Maxwell), chất lỏng (Navier–Stokes). "Mô phỏng" trong công nghiệp thường gồm ba bước: rời rạc hóa PDE, giải một hệ phương trình đại số lớn, rồi hiển thị kết quả. Tất cả vẫn là giải tích kết hợp với giải tích số.
 
 ---
 
-## 5. Gradient, divergence và curl (bộ công cụ vector calculus)
+## 4. Định luật bảo toàn, thông lượng và mô hình môi trường liên tục
 
-Mô hình continuum nói bằng **trường**: **trường vô hướng** gán một số cho mỗi điểm (nhiệt độ, cao độ), **trường vector** gán một vector (gió, vận tốc). Ba toán tử từ ký hiệu del $$\nabla$$ xuất hiện khắp vật lý–kỹ thuật.
+Nhiều mô hình vật lý cho môi trường liên tục được xây dựng theo cùng một khuôn:
 
-### Trường vô hướng / vector
+1. Chọn một đại lượng (khối lượng, năng lượng, động lượng, điện tích).  
+2. Viết **định luật cân bằng**: tốc độ thay đổi của đại lượng trong một miền bằng thông lượng đi qua biên cộng với nguồn bên trong.  
+3. Chuyển dạng tích phân thành PDE nhờ **định lý phân kỳ** (định lý Green, Stokes, Gauss cùng một họ; xem [Vật lý toán / Stokes→Maxwell]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/)).  
+4. Đóng hệ phương trình bằng một **định luật cấu thành** (định luật Fourier: thông lượng nhiệt $$\propto -\nabla u$$; định luật Hooke: quan hệ ứng suất – biến dạng; định luật Ohm; …).
+
+Với nhiệt: định luật Fourier cộng với cân bằng năng lượng cho ta phương trình nhiệt. Toán học ở đây không phải để trang trí: định lý phân kỳ chính là lý do việc "cân đối sổ sách" dạng tích phân biến thành một PDE.
+
+**Tóm tắt.** *Định luật bảo toàn cộng với định luật cấu thành cho ra PDE; hình dạng miền và điều kiện biên chọn ra nghiệm có ý nghĩa vật lý.*
+
+---
+
+## 5. Gradient, divergence và curl (công cụ của giải tích vectơ)
+
+Các mô hình môi trường liên tục được viết bằng ngôn ngữ **trường**. **Trường vô hướng** gán một số cho mỗi điểm (nhiệt độ, độ cao). **Trường vectơ** gán một vectơ cho mỗi điểm (gió, vận tốc). Có ba toán tử xây dựng từ ký hiệu nabla $$\nabla$$ xuất hiện ở khắp nơi trong vật lý và kỹ thuật.
+
+### Trường vô hướng và trường vectơ
 
 | Đối tượng | Ý nghĩa | Ví dụ |
 |-----------|---------|--------|
-| Vô hướng | Chỉ độ lớn | Nhiệt $$30^\circ\mathrm{C}$$ |
-| Vector | Độ lớn + hướng | Gió 10 đơn vị về đông |
-| Trường vô hướng | Số tại mỗi điểm | Bản đồ nhiệt $$T(x,y)$$ |
-| Trường vector | Vector tại mỗi điểm | Bản đồ gió $$\mathbf{v}(x,y)$$ |
+| Vô hướng | Chỉ có độ lớn | Nhiệt độ $$30^\circ\mathrm{C}$$ |
+| Vectơ | Có độ lớn và hướng | Gió 10 đơn vị về hướng đông |
+| Trường vô hướng | Một số tại mỗi điểm | Bản đồ nhiệt độ $$T(x,y)$$ |
+| Trường vectơ | Một vectơ tại mỗi điểm | Bản đồ gió $$\mathbf{v}(x,y)$$ |
 
 ![Trường vector]({{ site.baseurl }}/img/chapter_img/veccalc_vector_field_example_bs.jpg)
 
-*Hình. Trường $$\mathbf{v}(x,y)=(2x,y)$$ (nguồn: Brain Station Advanced).*
+*Hình. Trường vectơ $$\mathbf{v}(x,y)=(2x,y)$$ (nguồn: Brain Station Advanced).*
 
-### Gradient: dốc nhất lên dốc
+### Gradient: hướng dốc lên nhanh nhất
 
 $$
 \nabla f = \Bigl(\frac{\partial f}{\partial x},\frac{\partial f}{\partial y},\ldots\Bigr).
 $$
 
-**Trực giác.** $$\nabla f$$ chỉ hướng **tăng nhanh nhất** của $$f$$ (đẩy bóng lên dốc). Bóng lăn tự nhiên theo $$-\nabla f$$ (xuống dốc / gradient descent).  
-**Ví dụ.** $$f=x^2+y^2$$, tại $$(1,2)$$ có $$\nabla f=(2,4)$$.
+**Trực giác.** $$\nabla f$$ chỉ theo hướng mà $$f$$ **tăng nhanh nhất** (hướng đẩy quả bóng lên dốc). Quả bóng tự lăn theo hướng $$-\nabla f$$ (xuống dốc; đây cũng là ý tưởng của thuật toán gradient descent).  
+**Ví dụ.** Với $$f=x^2+y^2$$, tại điểm $$(1,2)$$ ta có $$\nabla f=(2,4)$$.
 
 ![Gradient lên dốc]({{ site.baseurl }}/img/chapter_img/veccalc_gradient_uphill_bs.jpg)
 
 *Hình. Gradient của $$f=x^2+y^2$$ (cùng nguồn).*
 
-### Divergence: nguồn, hố hút, dòng không nén
+### Divergence: nguồn, điểm hút và dòng không nén
 
 $$
 \nabla\cdot\mathbf{v} = \frac{\partial v_1}{\partial x}+\frac{\partial v_2}{\partial y}+\frac{\partial v_3}{\partial z}
 $$
 
-là **vô hướng**. Hình dung ô vuông nhỏ trong dòng chảy:
+là một **số vô hướng**. Hãy hình dung một ô vuông nhỏ đặt trong dòng chảy:
 
-| Dấu $$\nabla\cdot\mathbf{v}$$ | Ý nghĩa |
+| Dấu của $$\nabla\cdot\mathbf{v}$$ | Ý nghĩa |
 |------------------------------|---------|
-| $$>0$$ | Ra nhiều hơn vào → mật độ giảm (nguồn) |
-| $$<0$$ | Vào nhiều hơn ra → mật độ tăng (hố hút) |
-| $$=0$$ | Vào = ra (quay, hoặc dòng đều) |
+| $$>0$$ | Chảy ra nhiều hơn chảy vào → mật độ giảm (nguồn) |
+| $$<0$$ | Chảy vào nhiều hơn chảy ra → mật độ tăng (điểm hút) |
+| $$=0$$ | Vào bằng ra (dòng quay, hoặc dòng đều) |
 
-**Ví dụ.** $$\mathbf{v}=(x,y)$$ → div $$=2$$; $$\mathbf{v}=(-x,-y)$$ → div $$=-2$$; quay $$\mathbf{v}=(-y,x)$$ hoặc trường hằng → div $$=0$$.
+**Ví dụ.** $$\mathbf{v}=(x,y)$$ có divergence $$=2$$; $$\mathbf{v}=(-x,-y)$$ có divergence $$=-2$$; trường quay $$\mathbf{v}=(-y,x)$$ hoặc trường hằng có divergence $$=0$$.
 
 ![Nguồn]({{ site.baseurl }}/img/chapter_img/veccalc_divergence_source_bs.jpg)
 
@@ -156,132 +156,132 @@ là **vô hướng**. Hình dung ô vuông nhỏ trong dòng chảy:
 
 *Hình. Dòng đều: $$\nabla\cdot\mathbf{v}=0$$ (cùng nguồn).*
 
-Trong điện từ, điện tích dương như **nguồn** của $$\mathbf{E}$$. Cùng định lý divergence, đây là bước biến cân bằng tích phân thành PDE (§4).
+Trong điện từ học, điện tích dương đóng vai trò **nguồn** của điện trường $$\mathbf{E}$$. Cùng với định lý phân kỳ, đây là bước biến định luật cân bằng dạng tích phân thành PDE (§4).
 
-### Curl: xoay cục bộ (bánh đạp)
+### Curl: độ xoáy cục bộ (thử bằng bánh xe cánh quạt)
 
-Curl là **tích có hướng** $$\nabla\times\mathbf{v}$$ (vector). Đặt bánh đạp nhỏ trong dòng: nếu dòng làm bánh quay, curl ≠ 0; nếu chỉ tịnh tiến, curl = 0.
+Curl là **tích có hướng** $$\nabla\times\mathbf{v}$$, kết quả là một vectơ. Đặt một bánh xe cánh quạt nhỏ vào dòng chảy: nếu dòng làm bánh xe quay thì curl khác 0; nếu dòng chỉ đẩy bánh xe trôi đi mà không quay thì curl bằng 0.
 
 ![Curl]({{ site.baseurl }}/img/chapter_img/veccalc_curl_paddle_bs.jpg)
 
-*Hình. Trường quay và trực giác bánh đạp (cùng nguồn).*
+*Hình. Trường quay và trực giác bánh xe cánh quạt (cùng nguồn).*
 
-### Bảng tóm
+### Bảng tóm tắt
 
-| Toán tử | Đầu ra | Khẩu hiệu vật lý |
+| Toán tử | Kết quả | Ý nghĩa vật lý |
 |---------|--------|------------------|
-| $$\nabla f$$ | vector | Đổi dốc nhất của vô hướng (lực từ thế; Fourier dùng $$-\nabla T$$) |
-| $$\nabla\cdot\mathbf{v}$$ | vô hướng | Cường độ nguồn/hố hút (phương trình liên tục, Gauss) |
-| $$\nabla\times\mathbf{v}$$ | vector | Xoay cục bộ (vorticity; cấu trúc Maxwell) |
+| $$\nabla f$$ | vectơ | Hướng tăng nhanh nhất của trường vô hướng (lực sinh từ thế năng; định luật Fourier dùng $$-\nabla T$$) |
+| $$\nabla\cdot\mathbf{v}$$ | vô hướng | Cường độ nguồn hoặc điểm hút (phương trình liên tục, định luật Gauss) |
+| $$\nabla\times\mathbf{v}$$ | vectơ | Độ xoáy cục bộ (xoáy trong chất lỏng; cấu trúc của phương trình Maxwell) |
 
 ---
 
 ## 6. Nguyên lý biến phân
 
-Nhiều bài cân bằng là **biến phân**: cấu hình vật lý làm cực tiểu (hoặc dừng) một năng lượng / action. Nguyên lý Dirichlet: trong các hàm có biên cố định, hàm cực tiểu
+Nhiều bài toán cân bằng có dạng **biến phân**: cấu hình vật lý là cấu hình làm cực tiểu (hoặc làm dừng) một năng lượng hay một tác dụng (action). Theo nguyên lý Dirichlet, trong số các hàm có giá trị biên cho trước, hàm làm cực tiểu
 
 $$
 E[u]=\frac12\int_\Omega\lvert\nabla u\rvert^2\,dx
 $$
 
-giải Laplace (dưới giả thiết phù hợp)—hàm “phẳng nhất” khớp biên. Đàn hồi tuyến tính, mặt cực tiểu, và nhiều FEM sống trong thế giới này: xấp xỉ năng lượng trên không gian hữu hạn chiều rồi tối thiểu hóa—giải tích biến phân → ma trận thưa → bộ giải.
+là nghiệm của phương trình Laplace (với giả thiết phù hợp). Đó là hàm "phẳng nhất" khớp với giá trị biên. Đàn hồi tuyến tính, mặt cực tiểu và nhiều phương pháp phần tử hữu hạn đều dựa trên ý tưởng này: xấp xỉ năng lượng trên một không gian hữu hạn chiều rồi tìm cực tiểu. Chuỗi bước là: phép tính biến phân → ma trận thưa → bộ giải.
 
-**Cơ chế.** *Cân bằng = điểm dừng của năng lượng; FEM xấp xỉ không gian hàm rồi tối thiểu (hoặc giải dạng yếu tương đương).*
-
----
-
-## 7. Phần tử hữu hạn: giải tích công nghiệp hóa
-
-Quy trình skeleton:
-
-1. Chia miền thành phần tử (tam giác, tứ diện, …).  
-2. Hạn chế ẩn số trên không gian đa thức từng mảnh (liên tục hoặc discontinuous theo họ phương pháp).  
-3. Ép **dạng yếu** (tích phân / biến phân) của PDE.  
-4. Lắp hệ $$KU=F$$ (hoặc phi tuyến / phụ thuộc thời gian) và giải.
-
-**Dạng yếu một dòng.** Nhân PDE với hàm thử, tích phân từng phần, chuyển đạo hàm sang hàm thử—bước làm cho xấp xỉ tuyến tính từng mảnh hợp lệ (yếu hơn điểm từng điểm).
-
-**Cơ chế.** *FEM không bỏ toán liên tục; nó chiếu bài giải tích vô hạn chiều xuống đại số tuyến tính cao chiều mà máy tính tấn công được.*
-
-Họ hàng: sai phân hữu hạn (lưới đều, trực quan), thể tích hữu hạn (bảo toàn rời rạc—CFD), phổ (chuỗi Fourier / hàm riêng).
+**Tóm tắt.** *Trạng thái cân bằng là điểm dừng của năng lượng; FEM xấp xỉ không gian hàm rồi tìm cực tiểu (hoặc giải dạng yếu tương đương).*
 
 ---
 
-## 8. Các lĩnh vực kỹ thuật nói “giải tích”
+## 7. Phần tử hữu hạn: giải tích ở quy mô công nghiệp
 
-| Lĩnh vực | Giải tích làm gì |
+Quy trình cơ bản:
+
+1. Chia miền thành các phần tử (tam giác, tứ diện, …).  
+2. Tìm nghiệm trong không gian các hàm đa thức từng mảnh (liên tục hoặc gián đoạn, tùy họ phương pháp).  
+3. Yêu cầu nghiệm thỏa mãn **dạng yếu** (dạng tích phân hay dạng biến phân) của PDE.  
+4. Lắp ráp hệ $$KU=F$$ (hoặc hệ phi tuyến, hệ phụ thuộc thời gian) rồi giải.
+
+**Dạng yếu trong một câu.** Nhân PDE với một hàm thử, lấy tích phân từng phần để chuyển bớt đạo hàm sang hàm thử. Bước này làm cho xấp xỉ tuyến tính từng mảnh trở nên hợp lệ, vì ta chỉ đòi hỏi phương trình đúng theo nghĩa tích phân, không cần đúng tại từng điểm.
+
+**Tóm tắt.** *FEM không bỏ đi toán học liên tục. Nó chiếu bài toán giải tích vô hạn chiều xuống một bài toán đại số tuyến tính nhiều chiều mà máy tính giải được.*
+
+Các phương pháp cùng họ: sai phân hữu hạn (lưới đều, dễ hình dung), thể tích hữu hạn (bảo toàn ở mức rời rạc, phổ biến trong CFD), phương pháp phổ (chuỗi Fourier, hàm riêng).
+
+---
+
+## 8. Các ngành kỹ thuật dùng giải tích
+
+| Ngành | Giải tích dùng để làm gì |
 |----------|------------------|
 | Cơ khí | Ứng suất, dao động, đàn hồi, tiếp xúc |
-| Điện | ODE mạch; PDE Maxwell / tĩnh điện |
-| Xây dựng | Dầm, đường tải, FEM công trình |
-| Hàng không | Động lực bay; CFD (liên kết [NS]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/)) |
-| Nhiệt–hóa | Truyền nhiệt/khối; phản ứng–khuếch tán |
-| Điều khiển | Tuyến tính hóa; ổn định; biến đổi Laplace |
+| Điện | ODE cho mạch điện; PDE Maxwell, tĩnh điện |
+| Xây dựng | Dầm, đường truyền tải trọng, FEM cho công trình |
+| Hàng không | Động lực học bay; CFD (liên hệ [NS]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/)) |
+| Nhiệt – hóa | Truyền nhiệt và truyền khối; phản ứng – khuếch tán |
+| Điều khiển | Tuyến tính hóa; tính ổn định; biến đổi Laplace |
 
-**Điều khiển:** tuyến tính hóa $$\dot{x}=f(x,u)$$ quanh điểm làm việc cho $$\dot{\xi}=A\xi+B\mu$$. Giá trị riêng của $$A$$ và tính điều khiển được quyết định phản hồi có ổn định được hệ hay không—đại số tuyến tính + ODE, vẫn là giải tích.
-
----
-
-## 9. Mô hình liên tục và “digital twin”
-
-Kỹ thuật hiện đại ghép cảm biến, mô hình và tối ưu theo vòng: mô hình ODE/PDE → ước lượng trạng thái từ đo → tối ưu đầu vào / bảo trì dự đoán. **Digital twin** của turbine hay cầu thường là giải tích (hoặc surrogate) hiệu chỉnh bằng dữ liệu—không phải ma thuật riêng biệt với PDE.
-
-Giới hạn: rối loạn, tiếp xúc, nứt, đa pha, đa thang làm căng cả phân tích lẫn số trị. **Well-posedness** (tồn tại, duy nhất, phụ thuộc liên tục) là tính chất toán có hệ quả kỹ thuật: bài ill-posed không “cứ mesh mịn hơn là xong.”
+**Điều khiển:** tuyến tính hóa $$\dot{x}=f(x,u)$$ quanh một điểm làm việc ta được $$\dot{\xi}=A\xi+B\mu$$. Các giá trị riêng của $$A$$ và tính điều khiển được quyết định liệu một bộ điều khiển phản hồi có làm hệ ổn định được hay không. Đó là đại số tuyến tính cộng với ODE, và vẫn là giải tích.
 
 ---
 
-## 10. Vì sao vẫn cần hiểu khi phần mềm “tự giải”
+## 9. Mô hình liên tục và "bản sao số" (digital twin)
 
-1. Sai **mô hình** thường lớn hơn sai rời rạc hóa.  
-2. **Điều kiện biên** mã hóa vật lý bạn chọn—phần mềm không chọn hộ triết lý.  
-3. **Không thứ nguyên hóa** lộ hạng tử quan trọng (Reynolds, Fourier, …).  
-4. Ổn định / cứng của tích phân thời gian là khái niệm giải tích (bước thời gian, implicit/explicit).  
-5. Xác minh–xác thực đòi hỏi biết bài liên tục *nên* làm gì trước khi tin màu sắc trên màn hình.
+Kỹ thuật hiện đại kết hợp cảm biến, mô hình và tối ưu hóa thành một vòng lặp: mô hình ODE/PDE → ước lượng trạng thái từ số liệu đo → tối ưu đầu vào hoặc lên kế hoạch bảo trì dự đoán. **Bản sao số** của một tua-bin hay một cây cầu thường là một mô hình giải tích (hoặc một mô hình thay thế gần đúng) được hiệu chỉnh bằng dữ liệu. Nó không phải một thứ phép màu tách rời khỏi PDE.
 
-Chuỗi cơ chế: **cân bằng vật lý → phương trình vi phân → phân tích/số trị → quyết định thiết kế.**
+Giới hạn: dòng rối, tiếp xúc, vết nứt, dòng nhiều pha và các hiện tượng nhiều thang đo gây khó cho cả phân tích lý thuyết lẫn tính toán số. **Tính đặt chỉnh** (tồn tại, duy nhất, phụ thuộc liên tục vào dữ liệu) là một tính chất toán học có hệ quả kỹ thuật thật: với một bài toán không đặt chỉnh, chia lưới mịn hơn không giải quyết được vấn đề.
 
 ---
 
-### Khẩu hiệu giải tích vector (từ nghiên cứu video)
+## 10. Vì sao vẫn cần hiểu, khi phần mềm "tự giải"
 
-Video trực quan chính: [Brain Station — Gradient, Divergence and Curl](https://www.youtube.com/watch?v=m_Psx7CdvDk) (~15 phút).
+1. Sai số do **mô hình** thường lớn hơn sai số do rời rạc hóa.  
+2. **Điều kiện biên** thể hiện lựa chọn vật lý của bạn; phần mềm không chọn thay bạn.  
+3. **Đưa về dạng không thứ nguyên** giúp lộ ra các số hạng quan trọng (số Reynolds, số Fourier, …).  
+4. Tính ổn định và tính "cứng" (stiff) khi tích phân theo thời gian là các khái niệm giải tích (chọn bước thời gian, phương pháp ẩn hay hiện).  
+5. Muốn kiểm chứng và thẩm định kết quả, bạn phải biết bài toán liên tục *đáng lẽ* cho kết quả thế nào trước khi tin vào màu sắc trên màn hình.
 
-- **Gradient:** $$\nabla f$$ là vector các đạo hàm riêng; hướng **lên dốc** (tăng nhanh nhất). Xuống dốc dùng $$-\nabla f$$.
-- **Divergence:** $$\nabla\cdot\mathbf{v}$$ là *vô hướng*. Dương ≈ nguồn, âm ≈ hố, không ≈ bảo toàn thể tích (vẫn có thể chuyển động).
-- **Curl:** $$\nabla\times\mathbf{v}$$ đo quay cục bộ (thử bánh lái nhỏ).
-- Kết hợp [Essence of calculus — 3Blue1Brown](https://www.youtube.com/watch?v=WUvTyaaNkzM) cho định lý cơ bản trước các toán tử vector.
+Chuỗi tổng quát: **cân bằng vật lý → phương trình vi phân → phân tích lý thuyết và tính toán số → quyết định thiết kế.**
+
+---
+
+### Tóm tắt giải tích vectơ (từ phần tìm hiểu video)
+
+Video trực quan chính: [Brain Station — Gradient, Divergence and Curl](https://www.youtube.com/watch?v=m_Psx7CdvDk) (khoảng 15 phút).
+
+- **Gradient:** $$\nabla f$$ là vectơ gồm các đạo hàm riêng; nó chỉ hướng **lên dốc** (tăng nhanh nhất). Muốn xuống dốc thì dùng $$-\nabla f$$.
+- **Divergence:** $$\nabla\cdot\mathbf{v}$$ là một *số vô hướng*. Dương nghĩa là có nguồn, âm nghĩa là có điểm hút, bằng không nghĩa là thể tích được bảo toàn (chất lỏng vẫn có thể chuyển động).
+- **Curl:** $$\nabla\times\mathbf{v}$$ đo độ xoáy cục bộ (thử bằng một bánh xe cánh quạt nhỏ).
+- Xem thêm [Essence of calculus — 3Blue1Brown](https://www.youtube.com/watch?v=WUvTyaaNkzM) để nắm định lý cơ bản trước khi học các toán tử vectơ.
 
 ## Nhầm lẫn thường gặp
 
-| Khẳng định | Sửa |
+| Khẳng định | Sửa lại |
 |------------|-----|
-| “Giải tích chỉ để thi.” | Là ngôn ngữ biến thiên liên tục của vật lý–kỹ thuật. |
-| “Phần mềm hội tụ ⇒ mô hình đúng.” | Hội tụ là số trị; sai mô hình/BC vẫn còn. |
-| “ODE và PDE khó như nhau.” | PDE vô hạn chiều theo không gian; lý thuyết và số khác hẳn. |
-| “FEM thay giải tích.” | FEM *là* giải tích biến phân rời rạc + đại số tuyến tính. |
-| “Lưới mịn hơn luôn cứu mọi thứ.” | Giảm sai rời rạc; không sửa mô hình vật lý sai. |
-| “Gradient chỉ xuống dốc.” | $$\nabla f$$ chỉ **lên dốc**; $$-\nabla f$$ mới là xuống dốc. |
-| “Div = 0 nghĩa là chất lỏng đứng yên.” | Div = 0 nghĩa là không nguồn/hố hút ròng; dòng vẫn có thể chảy (quay, dòng đều). |
+| "Giải tích chỉ để đi thi." | Giải tích là ngôn ngữ mô tả sự thay đổi liên tục trong vật lý và kỹ thuật. |
+| "Phần mềm hội tụ thì mô hình đúng." | Hội tụ là chuyện tính toán số; sai mô hình hay sai điều kiện biên vẫn còn nguyên. |
+| "ODE và PDE khó như nhau." | PDE là bài toán vô hạn chiều theo không gian; cả lý thuyết lẫn phương pháp số đều khác hẳn. |
+| "FEM thay thế giải tích." | FEM *chính là* phép tính biến phân được rời rạc hóa, cộng với đại số tuyến tính. |
+| "Lưới càng mịn càng giải quyết được mọi thứ." | Lưới mịn chỉ giảm sai số rời rạc; nó không sửa được một mô hình vật lý sai. |
+| "Gradient chỉ hướng xuống dốc." | $$\nabla f$$ chỉ hướng **lên dốc**; $$-\nabla f$$ mới là hướng xuống dốc. |
+| "Divergence bằng 0 nghĩa là chất lỏng đứng yên." | Divergence bằng 0 nghĩa là không có nguồn hay điểm hút ròng; chất lỏng vẫn có thể chảy (quay, hoặc chảy đều). |
 
 ---
 
 ## Bài tập
 
-1. Với $$s(t)=\frac12 gt^2$$, tính vận tốc và gia tốc; diễn giải.  
-2. Ba câu: vì sao “tốc độ cục bộ” và “tích lũy” phải liên kết.  
-3. Phân loại ODE/PDE: mạch RC; nhiệt trên thanh; quỹ đạo hành tinh.  
-4. Một câu nối luật Fourier với phương trình nhiệt.  
-5. **Vector calculus.** Với $$f=x^2+y^2$$ tính $$\nabla f$$ tại $$(1,2)$$. Với $$\mathbf{v}=(x,y)$$ và $$\mathbf{w}=(-y,x)$$ tính divergence; diễn giải dấu.  
-6. Vì sao dạng yếu cho phép xấp xỉ tuyến tính từng mảnh?  
-7. Chọn một thiết bị bạn dùng; nêu một đại lượng được đạo hàm/tích phân trong mô hình thiết kế.  
-8. Nâng cao: dạng yếu của $$-u''=f$$ trên $$(0,1)$$, $$u(0)=u(1)=0$$.
+1. Với $$s(t)=\frac12 gt^2$$, tính vận tốc và gia tốc, rồi giải thích ý nghĩa.  
+2. Viết ba câu giải thích vì sao "tốc độ thay đổi tức thời" và "sự tích lũy" phải gắn liền với nhau.  
+3. Phân loại ODE hay PDE: mạch RC; sự truyền nhiệt trên một thanh kim loại; quỹ đạo của một hành tinh.  
+4. Viết một câu nối định luật Fourier với phương trình nhiệt.  
+5. **Giải tích vectơ.** Với $$f=x^2+y^2$$, tính $$\nabla f$$ tại $$(1,2)$$. Với $$\mathbf{v}=(x,y)$$ và $$\mathbf{w}=(-y,x)$$, tính divergence và giải thích ý nghĩa của dấu.  
+6. Vì sao dạng yếu cho phép dùng xấp xỉ tuyến tính từng mảnh?  
+7. Chọn một thiết bị bạn hay dùng; nêu một đại lượng được lấy đạo hàm hoặc tích phân trong mô hình thiết kế của nó.  
+8. Nâng cao: viết dạng yếu của $$-u''=f$$ trên $$(0,1)$$ với $$u(0)=u(1)=0$$.
 
 ---
 
 ## Video phổ thông
 
-- **Nguồn:** [Best Explanation of Gradient, Divergence and Curl — Brain Station Advanced](https://www.youtube.com/watch?v=m_Psx7CdvDk) (~15 phút; 2026-08-03).  
-  Trường vô hướng/vector → gradient lên dốc → divergence nguồn/hố hút → curl bánh đạp.
+- **Nguồn:** [Best Explanation of Gradient, Divergence and Curl — Brain Station Advanced](https://www.youtube.com/watch?v=m_Psx7CdvDk) (khoảng 15 phút; 2026-08-03).  
+  Trình tự: trường vô hướng và trường vectơ → gradient chỉ hướng lên dốc → divergence với nguồn và điểm hút → curl với bánh xe cánh quạt.
 
 ---
 
@@ -342,13 +342,13 @@ Danh mục URL đầy đủ (mọi link tìm được khi nghiên cứu video): 
 
 ## Hướng đi tiếp
 
-- Tiếp: [Đại số tuyến tính → AI]({{ site.baseurl }}/contents/vi/chapter03/03_03_Linear_Algebra_AI/), [PTVP]({{ site.baseurl }}/contents/vi/chapter03/03_09_Differential_Equations_Applications/).  
-- Bài thuần túy liên quan: [Navier–Stokes]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/).  
-- Tùy chọn: xem [video grad/div/curl](https://www.youtube.com/watch?v=m_Psx7CdvDk) rồi đọc lại §5.  
-- Viết lại cơ chế cốt lõi một đoạn; ghi một câu hỏi còn mở.
+- Bài tiếp theo: [Đại số tuyến tính → AI]({{ site.baseurl }}/contents/vi/chapter03/03_03_Linear_Algebra_AI/), [PTVP]({{ site.baseurl }}/contents/vi/chapter03/03_09_Differential_Equations_Applications/).  
+- Bài toán thuần túy liên quan: [Navier–Stokes]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/).  
+- Tùy chọn: xem [video về gradient, divergence, curl](https://www.youtube.com/watch?v=m_Psx7CdvDk) rồi đọc lại §5.  
+- Tự viết lại ý chính của bài trong một đoạn văn, và ghi ra một câu hỏi bạn vẫn còn thắc mắc.
 
 ## Video tham khảo
 
-- **xem trước** — [Best Explanation of Gradient, Divergence and Curl](https://www.youtube.com/watch?v=m_Psx7CdvDk) — Brain Station Advanced, tiếng Anh. Xem trước. “Best Explanation of Gradient, Divergence and Curl” định hướng cho mục tiêu của bài: Giải thích đạo hàm và tích phân như hai phép toán đôi, nối bởi định lý cơ bản của giải tích.
-- [The essence of calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM) — 3Blue1Brown, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Giải thích đạo hàm và tích phân như hai phép toán đôi, nối bởi định lý cơ bản của giải tích.
-- [Divergence and curl: The language of Maxwell's equations, fluid flow, and more](https://www.youtube.com/watch?v=rB83DpBJQsE) — 3Blue1Brown, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Giải thích đạo hàm và tích phân như hai phép toán đôi, nối bởi định lý cơ bản của giải tích.
+- **Xem trước**: [Best Explanation of Gradient, Divergence and Curl](https://www.youtube.com/watch?v=m_Psx7CdvDk) (Brain Station Advanced, tiếng Anh). Giải thích trực quan ba toán tử gradient, divergence và curl bằng hình ảnh trường vectơ. Nên xem trước khi đọc §5.
+- [The essence of calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM) (3Blue1Brown, tiếng Anh). Tập mở đầu của loạt bài về bản chất của giải tích: đạo hàm, tích phân và định lý cơ bản. Hợp với §1 và §2.
+- [Divergence and curl: The language of Maxwell's equations, fluid flow, and more](https://www.youtube.com/watch?v=rB83DpBJQsE) (3Blue1Brown, tiếng Anh). Giải thích divergence và curl qua dòng chất lỏng và phương trình Maxwell. Xem sau khi đã nắm §4 và §5.

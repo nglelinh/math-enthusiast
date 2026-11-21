@@ -10,11 +10,11 @@ categories:
 lesson_type: deep-dive
 ---
 
-**Mirror symmetry** bắt đầu như bất ngờ của lý thuyết dây: hai không gian Calabi–Yau trông khác nhau về hình học phức và symplectic có thể cho **cùng dự đoán vật lý**. Toán học hấp thụ bất ngờ đó thành hai chương trình lớn—**homological mirror symmetry (HMS)** và bức tranh hình học **Strominger–Yau–Zaslow (SYZ)**—cùng mạng dualty enumerative. Deep dive này mở rộng slogan trong [Đối ngẫu như một nguyên lý]({{ site.baseurl }}/contents/vi/chapter06/06_12_Duality_Principle/); **không** chứng minh HMS hay dựng mirror bằng tay.
+**Đối xứng gương** (mirror symmetry) bắt đầu từ một phát hiện bất ngờ của lý thuyết dây: hai không gian Calabi–Yau trông rất khác nhau về hình học phức và hình học symplectic lại có thể cho **cùng các dự đoán vật lý**. Toán học tiếp nhận phát hiện đó và phát triển thành hai chương trình lớn, **đối xứng gương đồng điều (HMS)** và bức tranh hình học **Strominger–Yau–Zaslow (SYZ)**, cùng với một mạng lưới các phép đối ngẫu trong hình học đếm. Bài đọc sâu này mở rộng ý chính trong bài [Đối ngẫu như một nguyên lý]({{ site.baseurl }}/contents/vi/chapter06/06_12_Duality_Principle/). Bài **không** chứng minh HMS và không dựng cặp gương bằng tay.
 
-**Lộ trình:** nguồn vật lý → mô hình A/B → lật Hodge / enumerative → SYZ như hình học T-duality → HMS (Kontsevich) → bản đồ trạng thái → cầu Langlands → bài tập.
+**Lộ trình:** nguồn gốc vật lý → mô hình A và mô hình B → lật số Hodge và hình học đếm → SYZ như phép đối ngẫu T hình học → HMS (Kontsevich) → bảng trạng thái → cầu nối với Langlands → bài tập.
 
-Gói: `research/video-research/mirror-symmetry/`.
+Gói nghiên cứu: `research/video-research/mirror-symmetry/`.
 
 ---
 
@@ -22,155 +22,155 @@ Gói: `research/video-research/mirror-symmetry/`.
 
 Sau bài này bạn có thể:
 
-- Phát biểu **slogan vật lý** của mirror symmetry và tách **A-model / B-model** toán học.
-- Giải thích trực giác **Hodge diamond** (số moduli phức vs Kähler đổi vai).
-- Phân biệt **SYZ** (T-duality hình học của fibration torus) với **HMS** (tương đương category).
-- Gắn nhãn trạng thái trung thực: đảo định lý vs chương trình mở (**tính đến 2026**).
-- Nối mirror với T-duality và geometric Langlands / Hitchin dual ở mức slogan.
-- Tránh khẳng định “string theory chứng minh hết hình học đại số.”
+- Phát biểu **ý chính về mặt vật lý** của đối xứng gương và phân biệt **mô hình A / mô hình B** trong toán học.
+- Giải thích trực giác về **kim cương Hodge** (số moduli phức và số moduli Kähler đổi vai cho nhau).
+- Phân biệt **SYZ** (đối ngẫu T hình học của một phân thớ xuyến) với **HMS** (tương đương giữa các phạm trù).
+- Ghi trạng thái trung thực: đâu là các định lý đã chứng minh cho từng trường hợp, đâu là chương trình còn mở (**tính đến 2026**).
+- Liên hệ đối xứng gương với đối ngẫu T và với Langlands hình học / đối ngẫu Hitchin ở mức ý tưởng.
+- Tránh khẳng định "lý thuyết dây đã chứng minh hết hình học đại số".
 
-**Tiên quyết.** Bài nguyên lý đối ngẫu; quen tên “đa tạp phức” và “dạng symplectic.” Derived category và Floer chỉ ở mức slogan.
-
----
-
-## 1. Ý tưởng từ đâu?
-
-Cuối thập niên 1980–90, compactification string trên Calabi–Yau ba chiều dự đoán các lý thuyết worldsheet gắn hình học khác nhau cho cùng correlator. Sự khớp gợi **mirror map**: moduli cấu trúc phức của $$X$$ cặp với moduli Kähler của dual $$\check X$$ và ngược lại. Đếm đường cong chỉnh hình một phía khớp tích phân period / variation of Hodge structure phía kia—đòn bẩy tính toán đáng kinh ngạc.
-
-Toán hỏi: *định lý nào ẩn dưới dictionary vật lý?* Hai câu trả lời thống trị văn hóa hiện đại.
+**Kiến thức cần có.** Bài nguyên lý đối ngẫu; biết tên các khái niệm "đa tạp phức" và "dạng symplectic". Phạm trù dẫn xuất và đồng điều Floer chỉ cần ở mức ý tưởng.
 
 ---
 
-## 2. A-model và B-model
+## 1. Ý tưởng đến từ đâu?
 
-| Mặt | Hình học nhấn | Dữ liệu điển hình |
+Cuối thập niên 1980 và đầu 1990, việc compact hóa lý thuyết dây trên các đa tạp Calabi–Yau ba chiều cho thấy những lý thuyết trên mặt quét (worldsheet) gắn với các hình học khác nhau lại cho cùng các hàm tương quan. Sự trùng khớp đó gợi ý một **ánh xạ gương**: không gian moduli cấu trúc phức của $$X$$ ghép cặp với không gian moduli Kähler của đa tạp đối ngẫu $$\check X$$, và ngược lại. Việc đếm các đường cong chỉnh hình ở một phía khớp với các tích phân chu kỳ (period) và biến thiên cấu trúc Hodge ở phía kia. Đây là một công cụ tính toán mạnh đáng kinh ngạc.
+
+Câu hỏi của toán học là: *định lý nào nằm bên dưới từ điển vật lý này?* Có hai câu trả lời chính trong nghiên cứu hiện đại.
+
+---
+
+## 2. Mô hình A và mô hình B
+
+| Phía | Hình học được dùng | Dữ liệu điển hình |
 |-----|---------------|-------------------|
-| **A-model** | Cấu trúc symplectic của $$X$$ | Đường cong giả chỉnh hình; bất biến Gromov–Witten; **Fukaya category** của Lagrangian + Floer |
-| **B-model** | Cấu trúc phức của $$\check X$$ | Bundle / sheaf chỉnh hình; **derived category** $$D^b\mathrm{Coh}(\check X)$$; tích phân period |
+| **Mô hình A** | Cấu trúc symplectic của $$X$$ | Đường cong giả chỉnh hình; bất biến Gromov–Witten; **phạm trù Fukaya** gồm các đa tạp con Lagrange và đồng điều Floer |
+| **Mô hình B** | Cấu trúc phức của $$\check X$$ | Phân thớ / bó chỉnh hình; **phạm trù dẫn xuất** $$D^b\mathrm{Coh}(\check X)$$; tích phân chu kỳ |
 
-Mirror symmetry (dạng tinh chỉnh) khẳng định A-data của $$X$$ bằng B-data của $$\check X$$. Đó là **đối ngẫu hình học**, không phải đối xứng liên tục của một đa tạp.
+Đối xứng gương (ở dạng chính xác hơn) khẳng định dữ liệu A của $$X$$ bằng dữ liệu B của $$\check X$$. Đây là một **phép đối ngẫu hình học**, không phải một đối xứng liên tục của một đa tạp.
 
-**Slogan Calabi–Yau.** Đa tạp phức với canonical bundle tầm thường (vật lý thường còn muốn metric Kähler Ricci-phẳng). Cặp mirror không cần diffeomorphic; cần khớp dữ liệu dual.
-
----
-
-## 3. Số Hodge và đòn bẩy enumerative
-
-Với CY ba chiều, mirror cổ điển đổi số Hodge theo mẫu đặc trưng (ví dụ $$h^{1,1}(X)$$ với $$h^{2,1}(\check X)$$)—**lật kim cương Hodge**. Sâu hơn, hàm sinh Gromov–Witten genus 0 một phía khớp Yukawa / period phía kia sau mirror map tọa độ.
-
-**Sư phạm.** Không cần tính một GW invariant. Cần **hình dạng**: đếm đường cong khó ↔ tích phân dạng chỉnh hình sau đổi biến.
+**Đa tạp Calabi–Yau.** Đó là đa tạp phức có phân thớ chính tắc tầm thường (vật lý thường đòi thêm một metric Kähler phẳng Ricci). Hai đa tạp trong một cặp gương không cần vi phôi với nhau; chỉ cần dữ liệu đối ngẫu khớp nhau.
 
 ---
 
-## 4. SYZ — mirror như T-duality
+## 3. Số Hodge và công cụ cho hình học đếm
 
-**Strominger–Yau–Zaslow (1996)** đề xuất cơ chế hình học: cả $$X$$ và $$\check X$$ fibration trên cùng base bởi torus **special Lagrangian**, sợi mirror là torus dual (T-duality theo sợi). Sợi kỳ dị mang monodromy và dữ liệu discriminant then chốt.
+Với Calabi–Yau ba chiều, đối xứng gương cổ điển hoán đổi các số Hodge theo một quy luật đặc trưng (ví dụ $$h^{1,1}(X)$$ với $$h^{2,1}(\check X)$$), gọi là **lật kim cương Hodge**. Sâu hơn, hàm sinh các bất biến Gromov–Witten giống 0 ở một phía khớp với các tích phân chu kỳ (hệ số Yukawa) ở phía kia, sau khi đổi tọa độ bằng ánh xạ gương.
 
-| Sức mạnh SYZ | Khó của SYZ |
+**Về mặt học tập.** Bạn không cần tính một bất biến Gromov–Witten nào. Bạn cần nắm **hình dạng** của câu chuyện: bài toán đếm đường cong khó ↔ tích phân của các dạng chỉnh hình sau một phép đổi biến.
+
+---
+
+## 4. SYZ: đối xứng gương như đối ngẫu T
+
+**Strominger, Yau và Zaslow (1996)** đề xuất một cơ chế hình học: cả $$X$$ và $$\check X$$ đều là phân thớ trên cùng một đáy, với thớ là các xuyến **Lagrange đặc biệt**, và các thớ của đa tạp gương là xuyến đối ngẫu (đối ngẫu T theo từng thớ). Các thớ kỳ dị mang theo dữ liệu đơn đạo (monodromy) và tập phân biệt, đóng vai trò then chốt.
+
+| Điểm mạnh của SYZ | Khó khăn của SYZ |
 |--------------|-------------|
-| Giải thích *vì sao* mirror tồn tại như dual torus bundle | Fibration special Lagrangian trơn toàn cục cực khó dựng |
-| Nối T-duality vật lý | Cần diễn đạt tinh chỉnh (thường algebro-geometric)—Gross–Siebert, … |
+| Giải thích *vì sao* cặp gương tồn tại, như hai phân thớ xuyến đối ngẫu | Rất khó dựng một phân thớ Lagrange đặc biệt trơn trên toàn cục |
+| Nối với đối ngẫu T trong vật lý | Cần các cách phát biểu tinh chỉnh (thường theo hình học đại số): Gross–Siebert, … |
 
-**Trạng thái.** SYZ là **chương trình nghiên cứu**, không phải một định lý đóng cho mọi CY. Case địa phương / toric hiểu tốt hơn; bức tranh trơn toàn cục vẫn mong manh.
+**Trạng thái.** SYZ là một **chương trình nghiên cứu**, không phải một định lý đã hoàn chỉnh cho mọi Calabi–Yau. Các trường hợp địa phương và toric được hiểu tốt hơn; bức tranh trơn toàn cục vẫn còn nhiều khó khăn.
 
 ---
 
-## 5. Homological mirror symmetry (Kontsevich)
+## 5. Đối xứng gương đồng điều (Kontsevich)
 
-**Kontsevich (1994)** nâng khớp enumerative thành phát biểu category—**HMS**:
+**Kontsevich (1994)** nâng sự trùng khớp trong hình học đếm lên thành một phát biểu về phạm trù, gọi là **HMS**:
 
 $$
 D^\pi\mathrm{Fuk}(X)\;\simeq\; D^b\mathrm{Coh}(\check X)
 $$
 
-(các biến thể: hoàn thành Karoubi, mô hình Landau–Ginzburg, wrapped Fukaya, …). Đối tượng A-side: Lagrangian + local system; morphism: đối đồng điều Floer. B-side: phức sheaf chỉnh hình; morphism: Ext.
+(có nhiều biến thể: làm đầy Karoubi, mô hình Landau–Ginzburg, phạm trù Fukaya bọc, …). Ở phía A, đối tượng là các đa tạp con Lagrange kèm hệ địa phương, cấu xạ là đối đồng điều Floer. Ở phía B, đối tượng là các phức bó chỉnh hình, cấu xạ là các nhóm Ext.
 
-**Vì sao là nguyên lý đối ngẫu.** Cả **homological algebra** khớp—mọi định lý diễn đạt được ở một derived category có song sinh dual. Case đặc biệt (đường cong elliptic, Fano toric, một số local CY, …) **đã chứng**; giả thuyết tổng quát vẫn mở.
+**Vì sao đây là một nguyên lý đối ngẫu.** Toàn bộ **đại số đồng điều** của hai phía khớp nhau: mọi định lý phát biểu được trong một phạm trù dẫn xuất đều có một bản sao đối ngẫu. Nhiều trường hợp đặc biệt (đường cong elliptic, đa tạp Fano toric, một số Calabi–Yau địa phương, …) **đã được chứng minh**; giả thuyết tổng quát vẫn còn mở.
 
 ---
 
-## 6. Bản đồ trạng thái (đừng bỏ)
+## 6. Bảng trạng thái (đừng bỏ qua)
 
-| Phát biểu | Nhãn (2026) |
+| Phát biểu | Trạng thái (2026) |
 |-----------|-------------|
-| Nhiều dualty enumerative / mirror map cho họ cụ thể | Định lý / đã ổn định |
-| HMS cho nhiều lớp ví dụ | Các đảo định lý |
-| HMS đầy đủ cho CY tổng quát | Chương trình mở |
-| Fibration SYZ trơn toàn cục | Mở / chương trình tinh chỉnh |
-| Dự đoán từ vật lý | Muse + dictionary; toán vẫn phải chứng |
+| Nhiều phép đối ngẫu trong hình học đếm / ánh xạ gương cho các họ cụ thể | Định lý / đã vững chắc |
+| HMS cho nhiều lớp ví dụ | Các định lý cho từng trường hợp |
+| HMS đầy đủ cho Calabi–Yau tổng quát | Chương trình còn mở |
+| Phân thớ SYZ trơn toàn cục | Còn mở / chương trình đang được tinh chỉnh |
+| Các dự đoán từ vật lý | Nguồn cảm hứng và từ điển; toán học vẫn phải chứng minh |
 
 ---
 
-## 7. Cầu nối khóa học
+## 7. Cầu nối trong khóa học
 
-| Láng giềng | Liên kết |
+| Bài liên quan | Liên hệ |
 |------------|----------|
-| [Nguyên lý đối ngẫu]({{ site.baseurl }}/contents/vi/chapter06/06_12_Duality_Principle/) | Bản đồ cha |
-| [AdS/CFT]({{ site.baseurl }}/contents/vi/chapter06/06_14_AdS_CFT/) | Văn hóa dualty vật lý khác (holography) |
-| [Geometric Langlands & S-duality]({{ site.baseurl }}/contents/vi/chapter06/06_15_Geometric_Langlands_SDuality/) | Hệ Hitchin $$G$$ / $$G^\vee$$ là mirror kiểu SYZ |
-| [Vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/) | Giao diện gauge / string |
-| [Pardon / symplectic]({{ site.baseurl }}/contents/vi/chapter02/02_13_Pardon_Symplectic/) | Văn hóa hình học symplectic |
+| [Nguyên lý đối ngẫu]({{ site.baseurl }}/contents/vi/chapter06/06_12_Duality_Principle/) | Bài tổng quan |
+| [AdS/CFT]({{ site.baseurl }}/contents/vi/chapter06/06_14_AdS_CFT/) | Một kiểu đối ngẫu vật lý khác (nguyên lý toàn ảnh) |
+| [Langlands hình học và đối ngẫu S]({{ site.baseurl }}/contents/vi/chapter06/06_15_Geometric_Langlands_SDuality/) | Các hệ Hitchin cho $$G$$ / $$G^\vee$$ là cặp gương kiểu SYZ |
+| [Vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/) | Giao diện giữa lý thuyết gauge và lý thuyết dây |
+| [Pardon và hình học symplectic]({{ site.baseurl }}/contents/vi/chapter02/02_13_Pardon_Symplectic/) | Bối cảnh hình học symplectic |
 
 ---
 
-## 8. Nhầm lẫn
+## 8. Những nhầm lẫn thường gặp
 
 | Khẳng định | Chỉnh lại |
 |------------|-----------|
-| “Mirror = cùng đa tạp viết hai lần.” | Cặp có thể khác tôpô; *dữ liệu* dual khớp. |
-| “HMS chỉ là số Hodge.” | Hodge là bóng cổ điển; HMS là categorical. |
-| “SYZ đã chứng đầy đủ.” | Chương trình với kết quả từng phần. |
-| “T-duality = mirror luôn.” | SYZ đề xuất T-duality như cơ chế; không mọi dual là compact circle. |
-| “Vật lý đã xong phần toán.” | Vật lý cho dictionary; chứng minh là toán. |
+| "Cặp gương là cùng một đa tạp viết hai lần." | Hai đa tạp có thể khác nhau về tô pô; chỉ có *dữ liệu* đối ngẫu là khớp nhau. |
+| "HMS chỉ là chuyện số Hodge." | Số Hodge chỉ là cái bóng cổ điển; HMS là phát biểu ở mức phạm trù. |
+| "SYZ đã được chứng minh đầy đủ." | Đó là một chương trình với các kết quả bộ phận. |
+| "Đối ngẫu T luôn luôn là đối xứng gương." | SYZ đề xuất đối ngẫu T như cơ chế; nhưng không phải phép đối ngẫu nào cũng là đối ngẫu theo vòng tròn compact. |
+| "Vật lý đã làm xong phần toán." | Vật lý cung cấp từ điển; chứng minh là việc của toán học. |
 
 ---
 
 ## Bài tập
 
-1. Một đoạn: đối chiếu A-model và B-model.  
-2. Lật Hodge diamond mua gì về tính toán?  
-3. Phát biểu SYZ ≤3 câu; nêu một khó khăn.  
-4. Viết slogan HMS như tương đương category (informal OK).  
-5. **≤150 từ:** Vì sao mirror là *đối ngẫu* theo bài nguyên lý?  
-6. Biết đọc trạng thái: một đảo định lý + một chương trình mở.  
-7. **Tuỳ chọn:** Lướt abstract Auroux về Fukaya; liệt kê ba từ mới.
+1. Viết một đoạn so sánh mô hình A và mô hình B.  
+2. Việc lật kim cương Hodge giúp ích gì cho tính toán?  
+3. Phát biểu SYZ trong không quá 3 câu; nêu một khó khăn.  
+4. Viết ý chính của HMS như một tương đương phạm trù (viết không hình thức cũng được).  
+5. **Không quá 150 chữ:** vì sao đối xứng gương là một phép *đối ngẫu* theo nghĩa của bài nguyên lý?  
+6. Đọc hiểu trạng thái: nêu một định lý cho trường hợp cụ thể và một chương trình còn mở.  
+7. **Không bắt buộc:** đọc lướt phần tóm tắt bài của Auroux về phạm trù Fukaya; liệt kê ba thuật ngữ mới.
 
 ---
 
-## Mode C — ghi chú tái dựng từ video flagship
+## Ghi chú viết lại từ video chính
 
-*Tái dựng từ auto-caption Witten (Fields Medal Symposium 2012). Caption: `research/video-research/mirror-symmetry/transcripts/`. Units: `knowledge_units_mode_c.json`. Tái dựng; không dán ASR.*
+*Viết lại từ phụ đề tự động của bài nói của Witten (Fields Medal Symposium 2012). Phụ đề: `research/video-research/mirror-symmetry/transcripts/`. Các đơn vị kiến thức: `knowledge_units_mode_c.json`. Đây là phần viết lại, không chép nguyên văn phụ đề.*
 
-### C1. Vì sao geometric Langlands “muốn” chiều 4
+### C1. Vì sao Langlands hình học "cần" bốn chiều
 
-Witten nối ngôn ngữ **mirror symmetry** với **geometric Langlands**. QFT chiều $$d$$ gán **category điều kiện biên** cho đa tạp đóng chiều $$d-2$$. Geometric Langlands gán category cho **mặt Riemann** (2-đa tạp), nên $$d=4$$: bắt đầu từ lý thuyết bốn chiều.
+Witten nối ngôn ngữ của **đối xứng gương** với **Langlands hình học**. Một lý thuyết trường lượng tử $$d$$ chiều gán một **phạm trù các điều kiện biên** cho mỗi đa tạp đóng $$d-2$$ chiều. Langlands hình học gán phạm trù cho các **mặt Riemann** (đa tạp 2 chiều), nên $$d=4$$: ta phải bắt đầu từ một lý thuyết bốn chiều.
 
-### C2. $$\mathcal N=4$$ SYM là lý thuyết tự nhiên
+### C2. $$\mathcal N=4$$ SYM là lựa chọn tự nhiên
 
-Trong gauge 4d, lý thuyết supersymmetry tối đa—**$$\mathcal N=4$$ super Yang–Mills**—là ngôi nhà tự nhiên. Nhóm gauge $$G$$ và dual xuất hiện qua dualty; các “đối xứng lẻ” supersymmetric cung cấp vi phân đóng gói cấu trúc category.
+Trong số các lý thuyết gauge 4 chiều, lý thuyết có siêu đối xứng cực đại, **$$\mathcal N=4$$ super Yang–Mills**, là lựa chọn tự nhiên. Nhóm gauge $$G$$ và nhóm đối ngẫu của nó xuất hiện qua phép đối ngẫu; các "đối xứng lẻ" siêu đối xứng cung cấp vi phân dùng để xây dựng cấu trúc phạm trù.
 
-### C3. Văn hóa mirror + Hitchin (không phải chứng minh)
+### C3. Đối xứng gương và hệ Hitchin (không phải chứng minh)
 
-Talk trộn **mirror symmetry** (brane, hình học dual) với dữ liệu **Hitchin / moduli bundle** nuôi geometric Langlands. Cho khóa này: **khí hậu nghiên cứu và dictionary**—không chứng minh bảng HMS/GLC đầy đủ. Ghép [Geometric Langlands & S-duality]({{ site.baseurl }}/contents/vi/chapter06/06_15_Geometric_Langlands_SDuality/) và [Witten mini]({{ site.baseurl }}/contents/vi/chapter06/06_17_Witten_Physics_Math/).
+Bài nói kết hợp **đối xứng gương** (brane, hình học đối ngẫu) với dữ liệu về **hệ Hitchin / không gian moduli các phân thớ**, vốn là nền tảng của Langlands hình học. Với khóa học này, đó là **bối cảnh nghiên cứu và từ điển**, không phải chứng minh đầy đủ HMS hay giả thuyết Langlands hình học. Đọc kèm [Langlands hình học và đối ngẫu S]({{ site.baseurl }}/contents/vi/chapter06/06_15_Geometric_Langlands_SDuality/) và [chân dung Witten]({{ site.baseurl }}/contents/vi/chapter06/06_17_Witten_Physics_Math/).
 
-### C4. Vệ sinh caption
+### C4. Ghi chú về phụ đề
 
-- **Witten `S02ghGCdNDo`:** đã extract EN auto-caption (2026-08-05).  
-- **Chan HMS/SYZ `Kz6Dj8KSFjM`:** không có subtitle—chỉ xem hình; không bịa Mode-C từ ASR thiếu.
+- **Witten `S02ghGCdNDo`:** đã trích phụ đề tự động tiếng Anh (2026-08-05).  
+- **Chan, HMS qua SYZ `Kz6Dj8KSFjM`:** không có phụ đề, chỉ xem hình; không tự đặt nội dung khi thiếu phụ đề.
 
 ---
 
 ## Nguồn video (gói nghiên cứu)
 
-Hướng định hướng, không thay survey. Gói: `research/video-research/mirror-symmetry/`.
+Dùng để định hướng, không thay cho các bài tổng quan khoa học. Gói: `research/video-research/mirror-symmetry/`.
 
-1. **Định hướng / Mode C** — Witten: [https://www.youtube.com/watch?v=S02ghGCdNDo](https://www.youtube.com/watch?v=S02ghGCdNDo) · caption trong pack  
-2. **Core (không caption)** — Chan HMS via SYZ: [https://www.youtube.com/watch?v=Kz6Dj8KSFjM](https://www.youtube.com/watch?v=Kz6Dj8KSFjM)  
-3. **Research** — Zaslow: [https://www.youtube.com/watch?v=Y3-sw3tjZiU](https://www.youtube.com/watch?v=Y3-sw3tjZiU)  
-4. **Notes** — MIT OCW Mirror Symmetry: [https://ocw.mit.edu/courses/18-969-topics-in-geometry-mirror-symmetry-spring-2009/](https://ocw.mit.edu/courses/18-969-topics-in-geometry-mirror-symmetry-spring-2009/)  
+1. **Định hướng / ghi chú ở trên:** Witten: [https://www.youtube.com/watch?v=S02ghGCdNDo](https://www.youtube.com/watch?v=S02ghGCdNDo) · phụ đề có trong gói  
+2. **Nội dung chính (không có phụ đề):** Chan, HMS qua SYZ: [https://www.youtube.com/watch?v=Kz6Dj8KSFjM](https://www.youtube.com/watch?v=Kz6Dj8KSFjM)  
+3. **Nghiên cứu:** Zaslow: [https://www.youtube.com/watch?v=Y3-sw3tjZiU](https://www.youtube.com/watch?v=Y3-sw3tjZiU)  
+4. **Bài giảng:** MIT OCW, Mirror Symmetry: [https://ocw.mit.edu/courses/18-969-topics-in-geometry-mirror-symmetry-spring-2009/](https://ocw.mit.edu/courses/18-969-topics-in-geometry-mirror-symmetry-spring-2009/)  
 
-URL đầy đủ: `research/video-research/mirror-symmetry/references.md`.  
-Trạng thái transcript: `research/video-research/mirror-symmetry/TRANSCRIPT_STATUS.md`.
+Danh sách URL đầy đủ: `research/video-research/mirror-symmetry/references.md`.  
+Trạng thái phụ đề: `research/video-research/mirror-symmetry/TRANSCRIPT_STATUS.md`.
 
 ---
 
@@ -186,6 +186,6 @@ Trạng thái transcript: `research/video-research/mirror-symmetry/TRANSCRIPT_ST
 
 ## Video tham khảo
 
-- **xem trước** — [Edward Witten: Mirror Symmetry & Geometric Langlands (2012)](https://www.youtube.com/watch?v=S02ghGCdNDo) — Graduate Mathematics, tiếng Anh. Xem trước. “Edward Witten: Mirror Symmetry & Geometric Langlands (2012)” định hướng cho mục tiêu của bài: Phát biểu slogan vật lý của mirror symmetry và tách A-model / B-model toán học.
-- [HMS for local CY manifolds via SYZ | Kwokwai Chan](https://www.youtube.com/watch?v=Kz6Dj8KSFjM) — Harvard CMSA, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu slogan vật lý của mirror symmetry và tách A-model / B-model toán học.
-- [Lagrangian fillings what does the sheaf say? | Eric Zaslow](https://www.youtube.com/watch?v=Y3-sw3tjZiU) — Harvard CMSA, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu slogan vật lý của mirror symmetry và tách A-model / B-model toán học.
+- **Xem trước:** [Edward Witten: Mirror Symmetry & Geometric Langlands (2012)](https://www.youtube.com/watch?v=S02ghGCdNDo) (Graduate Mathematics, tiếng Anh). Witten nối đối xứng gương với Langlands hình học, là nguồn của phần ghi chú ở trên. Nên xem trước để nắm bối cảnh.
+- [HMS for local CY manifolds via SYZ | Kwokwai Chan](https://www.youtube.com/watch?v=Kz6Dj8KSFjM) (Harvard CMSA, tiếng Anh). Bài giảng nghiên cứu về HMS cho Calabi–Yau địa phương thông qua SYZ. Xem sau khi đã đọc mục 4 và 5.
+- [Lagrangian fillings what does the sheaf say? | Eric Zaslow](https://www.youtube.com/watch?v=Y3-sw3tjZiU) (Harvard CMSA, tiếng Anh). Bài giảng nghiên cứu về các mặt lấp Lagrange và bó. Dành cho ai muốn đi sâu hơn.

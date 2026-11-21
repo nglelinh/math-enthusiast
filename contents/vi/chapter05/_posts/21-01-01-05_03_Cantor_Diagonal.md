@@ -9,61 +9,61 @@ categories:
 - chapter05
 ---
 
-Georg Cantor chứng minh tập số thực **không đếm được**: không thể xếp thành một dãy $$r_1,r_2,r_3,\ldots$$ chứa mọi số thực. Lập luận ngắn, gần như vui đùa, nhưng vĩnh viễn đổi toán học. Bài này đào sâu **ý tưởng chứng minh** đủ để dùng chắc, tránh bẫy biểu diễn, và thấy vì sao cùng động tác đường chéo tái xuất trong logic và khoa học máy tính. Đọc như bản bổ sung cho flagship Euclid–Cantor: ở đó hai chứng minh được so sánh; ở đây đường chéo đứng một mình như một phương pháp.
+Georg Cantor chứng minh rằng tập số thực **không đếm được**: không thể xếp mọi số thực thành một dãy $$r_1,r_2,r_3,\ldots$$. Lập luận rất ngắn, nhưng nó làm thay đổi hẳn cách các nhà toán học nhìn về vô hạn. Bài này đi vào **ý tưởng chứng minh** đủ kỹ để bạn dùng được, tránh cái bẫy về cách biểu diễn số thập phân, và thấy vì sao cùng một động tác "đường chéo" xuất hiện lại trong logic và khoa học máy tính. Bài Euclid–Cantor đã so sánh hai chứng minh; ở đây ta xét riêng phương pháp đường chéo.
 
-Một câu để nhớ: *trước mọi danh sách số thực đề xuất là đầy đủ, dựng một số thực khác với phần tử thứ $$n$$ ở vị trí thứ $$n$$.*
+Có thể nhớ bằng một câu: *với bất kỳ danh sách số thực nào được cho là đầy đủ, ta dựng một số thực khác phần tử thứ $$n$$ ở đúng vị trí thứ $$n$$.*
 
 ---
 
 ## Mục tiêu học tập
 
-Sau bài học, bạn có thể:
+Sau bài này, bạn có thể:
 
-- Phát biểu “đếm được” và “không đếm được” theo song ánh với $$\mathbb{N}$$.
-- Tái dựng lập luận đường chéo cho $$(0,1)$$ ở mức ý tưởng và suy ra cho $$\mathbb{R}$$.
-- Mô tả vấn đề thập phân không duy nhất và ít nhất một cách tránh.
-- Tương phản tính đếm được của $$\mathbb{Q}$$ với tính không đếm được của $$\mathbb{R}$$.
-- Nhận ra đường chéo như mẫu ngoài số thực (tập lũy thừa, khẩu hiệu tính toán được).
-- Viết narrative ý tưởng chứng minh ngắn.
+- Phát biểu "đếm được" và "không đếm được" qua song ánh với $$\mathbb{N}$$.
+- Dựng lại lập luận đường chéo cho $$(0,1)$$ và suy ra kết quả cho $$\mathbb{R}$$.
+- Nêu vấn đề số thập phân có hai cách viết và ít nhất một cách tránh nó.
+- So sánh tính đếm được của $$\mathbb{Q}$$ với tính không đếm được của $$\mathbb{R}$$.
+- Nhận ra phương pháp đường chéo ngoài số thực (tập lũy thừa, tính toán được).
+- Viết một đoạn ngắn trình bày ý tưởng chứng minh.
 
-**Tiên quyết.** Thập phân vô hạn mức phổ thông; khái niệm dãy; chứng minh phản chứng. Bài Vô hạn (Ch.4) và flagship Euclid–Cantor hữu ích nhưng không bắt buộc.
+**Kiến thức cần có.** Số thập phân vô hạn ở mức phổ thông, khái niệm dãy, chứng minh phản chứng. Bài Vô hạn (chương 4) và bài Euclid–Cantor có ích nhưng không bắt buộc.
 
 ---
 
-## 1. “Đếm được” muốn nói gì
+## 1. "Đếm được" nghĩa là gì
 
-Tập $$S$$ **đếm được** nếu hữu hạn hoặc có song ánh giữa $$S$$ và số tự nhiên $$\mathbb{N}$$. Với tập vô hạn: các phần tử có thể viết thành dãy $$s_1,s_2,s_3,\ldots$$ trong đó mỗi phần tử xuất hiện (ít nhất) một lần.
+Tập $$S$$ **đếm được** nếu nó hữu hạn, hoặc có song ánh giữa $$S$$ và tập số tự nhiên $$\mathbb{N}$$. Với tập vô hạn, điều đó có nghĩa là có thể viết các phần tử thành một dãy $$s_1,s_2,s_3,\ldots$$ sao cho mỗi phần tử xuất hiện ít nhất một lần.
 
-Các tập vô hạn đếm được quen thuộc: $$\mathbb{N}$$, $$\mathbb{Z}$$ (liệt kê $$0,1,-1,2,-2,\ldots$$), $$\mathbb{Q}$$ (xếp phân số theo tổng tử+mẫu, bỏ trùng). Đếm được không phải chuyện con người có kiên nhẫn đếm xong; đó là **tồn tại liệt kê** theo nghĩa toán học. Định lý gây sốc: một số tập vô hạn từ chối mọi liệt kê.
+Các tập vô hạn đếm được quen thuộc gồm $$\mathbb{N}$$, $$\mathbb{Z}$$ (liệt kê $$0,1,-1,2,-2,\ldots$$) và $$\mathbb{Q}$$ (xếp các phân số theo tổng tử số và mẫu số, bỏ những phân số trùng). "Đếm được" không có nghĩa là ai đó kiên nhẫn đếm xong, mà là *tồn tại* một cách liệt kê theo nghĩa toán học. Điều bất ngờ của định lý dưới đây là có những tập vô hạn không thể liệt kê theo cách nào.
 
 ---
 
 ## 2. Định lý
 
-**Định lý (Cantor).** $$\mathbb{R}$$ không đếm được. Tương đương: không có toàn ánh $$\mathbb{N}\to\mathbb{R}$$.
+**Định lý (Cantor).** $$\mathbb{R}$$ không đếm được. Nói cách khác, không có toàn ánh $$\mathbb{N}\to\mathbb{R}$$.
 
-Đủ chứng minh khoảng $$(0,1)$$ không đếm được: nếu $$(0,1)$$ không liệt kê được thì $$\mathbb{R}$$ cũng không, vì $$(0,1)\subset\mathbb{R}$$. (Nếu tập lớn hơn đếm được thì mọi tập con cũng nhiều nhất là đếm được.)
+Chỉ cần chứng minh khoảng $$(0,1)$$ không đếm được. Thật vậy, vì $$(0,1)\subset\mathbb{R}$$ nên nếu $$\mathbb{R}$$ đếm được thì $$(0,1)$$ cũng đếm được.
 
 ---
 
-### Video ngắn: Đường chéo trên một bảng nhỏ
+### Video ngắn: đường chéo trên một bảng nhỏ
 
 <div class="reel-video" style="text-align:center;margin:1.5rem 0;">
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/cantor-diagonal_vi.mp4"></video>
 </div>
 
-Phiên bản thu nhỏ của phép xây dựng đường chéo: lấy các chữ số trên đường chéo, đổi từng chữ số, và dãy mới khác mọi dòng trong danh sách.
+Đây là phiên bản thu nhỏ của phép dựng đường chéo: lấy các chữ số trên đường chéo, đổi từng chữ số, và dãy mới sẽ khác mọi dòng trong danh sách.
 
 
-## 3. Xây dựng đường chéo
+## 3. Dựng số trên đường chéo
 
-Giả sử, để dẫn đến mâu thuẫn, mọi số trong $$(0,1)$$ xuất hiện trong danh sách $$r_1,r_2,r_3,\ldots$$. Viết
+Giả sử (để đi đến mâu thuẫn) mọi số trong $$(0,1)$$ đều có trong danh sách $$r_1,r_2,r_3,\ldots$$. Viết
 
 $$
 r_n = 0.d_{n1}d_{n2}d_{n3}\ldots.
 $$
 
-Các chữ số đường chéo là $$d_{11},d_{22},d_{33},\ldots$$. Định nghĩa $$d=0.e_1 e_2 e_3\ldots$$ với $$e_n\neq d_{nn}$$. Quy tắc cụ thể vừa giúp vệ sinh:
+Các chữ số trên đường chéo là $$d_{11},d_{22},d_{33},\ldots$$. Đặt $$d=0.e_1 e_2 e_3\ldots$$ với $$e_n\neq d_{nn}$$. Một quy tắc cụ thể, đồng thời tránh được vấn đề ở mục 5:
 
 $$
 e_n =
@@ -73,160 +73,155 @@ e_n =
 \end{cases}
 $$
 
-Thì $$d\in(0,1)$$ và $$d\neq r_n$$ mọi $$n$$ vì khác ở chữ số thứ $$n$$. Danh sách không đầy đủ: $$(0,1)$$ không đếm được, suy ra $$\mathbb{R}$$ không đếm được.
+Khi đó $$d\in(0,1)$$ và $$d\neq r_n$$ với mọi $$n$$, vì hai số khác nhau ở chữ số thứ $$n$$. Vậy danh sách không đầy đủ. Suy ra $$(0,1)$$ không đếm được, và do đó $$\mathbb{R}$$ cũng không đếm được.
 
 ![Đường chéo]({{ site.baseurl }}/img/chapter_img/cantor_diagonal.svg)
 
-*Hình. Lật chữ số đường chéo; số mới thoát mọi hàng.*
+*Hình. Đổi các chữ số trên đường chéo; số mới không trùng với dòng nào.*
 
 ---
 
-## 4. Vì sao ý tưởng bền
+## 4. Vì sao ý tưởng này bền
 
-$$d$$ **phụ thuộc danh sách**. Đó là ưu điểm: kẻ hoài nghi đưa liệt kê nào, đường chéo trả lời *đúng* liệt kê đó. Không có một số thực “vắng mặt tuyệt đối” chống mọi danh sách; đúng ra: *với mọi danh sách, tồn tại* số thực vắng trong danh sách đó. Thứ tự lượng từ là then chốt.
+Số $$d$$ **phụ thuộc vào danh sách**, và đó là điểm mạnh: người hoài nghi đưa ra danh sách nào thì đường chéo trả lời đúng cho danh sách đó. Không có một số thực "vắng mặt" cố định cho mọi danh sách. Điều đúng là: *với mọi danh sách, tồn tại* một số thực không có trong danh sách đó. Thứ tự của các lượng từ ở đây rất quan trọng.
 
-Cùng moral với Euclid: $$N=P+1$$ phụ thuộc danh sách nguyên tố giả định; chứng nhân thoát *khỏi* danh sách đó. Họ xây dựng thoát—không phải “số đặc biệt cố định từ trước.”
-
----
-
-## 5. Vệ sinh: khai triển không duy nhất
-
-Một số số thực có hai khai triển thập phân, ví dụ $$0.1999\ldots=0.2000\ldots$$. Lật chữ số bất cẩn có thể tạo xâu khác nhưng cùng giá trị thực với một $$r_n$$. Cách xử lý:
-
-- cấm đuôi 9 vô hạn (hoặc đuôi 0) để chuẩn hóa; hoặc  
-- dùng chữ số trong $$\{4,5\}$$ cho số thoát (như quy tắc ở §3); hoặc  
-- làm việc trước với $$\{0,1\}^{\mathbb{N}}$$ rồi map sang số thực cẩn thận.
-
-Khai triển nhị phân gặp vấn đề tương tự (đuôi 1). Ở mức ý tưởng, chiến lược đường chéo ổn định dưới mọi sửa chữa. Gọi tên vấn đề là một phần trưởng thành toán học—đừng giả vờ nó không tồn tại khi viết “ý tưởng chứng minh.”
+Cùng tinh thần với Euclid: số $$N=P+1$$ phụ thuộc vào danh sách số nguyên tố ta giả định, và các ước nguyên tố của nó nằm *ngoài* danh sách ấy. Đó là một số được dựng ra theo danh sách, không phải một số đặc biệt có sẵn từ trước.
 
 ---
 
-## 6. $$\mathbb{Q}$$ đếm được, $$\mathbb{R}$$ thì không
+## 5. Một chi tiết cần cẩn thận: cách viết thập phân không duy nhất
 
-Đường chéo **không** chứng minh $$\mathbb{Q}$$ không đếm được. Số hữu tỷ *đếm được* (liệt kê đan xen theo mẫu chuẩn). Đối số chống danh sách *mọi số thực* dựa vào việc (hầu hết) xâu thập phân đặt tên một số thực. Chứng nhân đường chéo không cần hữu tỷ—và điều đó không đe dọa “mọi hữu tỷ đã xuất hiện trong một liệt kê khác.”
+Có số thực viết được theo hai cách thập phân, ví dụ $$0.1999\ldots=0.2000\ldots$$. Nếu đổi chữ số một cách bất cẩn, ta có thể được một dãy chữ số khác nhưng cùng giá trị với một $$r_n$$. Có mấy cách xử lý:
 
-| Tập | Cỡ | Ý tưởng chứng minh điển hình |
+- Quy ước chỉ dùng một dạng (cấm đuôi toàn chữ số 9, hoặc cấm đuôi toàn chữ số 0).
+- Chỉ dùng chữ số trong $$\{4,5\}$$ cho số mới, như quy tắc ở mục 3.
+- Làm việc với các dãy $$\{0,1\}^{\mathbb{N}}$$ trước, rồi chuyển sang số thực một cách cẩn thận.
+
+Biểu diễn nhị phân gặp vấn đề tương tự (đuôi toàn chữ số 1). Ở mức ý tưởng, chiến lược đường chéo vẫn đúng sau các sửa chữa này. Khi viết "ý tưởng chứng minh", bạn nên nêu vấn đề này ra chứ đừng làm như nó không tồn tại.
+
+---
+
+## 6. $$\mathbb{Q}$$ đếm được còn $$\mathbb{R}$$ thì không
+
+Phương pháp đường chéo **không** chứng minh được $$\mathbb{Q}$$ không đếm được: các số hữu tỉ đếm được (liệt kê xen kẽ theo dạng phân số tối giản). Lập luận ở trên chỉ nhắm vào danh sách *mọi số thực*, và số $$d$$ được dựng ra nói chung không phải số hữu tỉ, nên nó không mâu thuẫn với việc mọi số hữu tỉ có thể được liệt kê trong một danh sách khác.
+
+| Tập | Kích cỡ | Ý tưởng chứng minh điển hình |
 |-----|-----|------------------------------|
-| $$\mathbb{N},\mathbb{Z},\mathbb{Q}$$ | Đếm được | Liệt kê tường minh / đan xen |
-| $$\mathbb{R},(0,1)$$ | Không đếm được | Thoát đường chéo |
-| $$\mathcal{P}(\mathbb{N})$$ | Không đếm được | Đường chéo / hàm đặc trưng |
+| $$\mathbb{N},\mathbb{Z},\mathbb{Q}$$ | Đếm được | Liệt kê trực tiếp, xen kẽ |
+| $$\mathbb{R},(0,1)$$ | Không đếm được | Đường chéo |
+| $$\mathcal{P}(\mathbb{N})$$ | Không đếm được | Đường chéo, hàm đặc trưng |
 
 ---
 
 ## 7. Đường chéo thứ hai: tập lũy thừa
 
-Cantor cũng chứng minh: với mọi tập $$X$$, không có toàn ánh từ $$X$$ lên $$\mathcal{P}(X)$$ (tập lũy thừa). Ý tưởng: nếu $$f:X\to\mathcal{P}(X)$$, đặt
+Cantor còn chứng minh: với mọi tập $$X$$, không có toàn ánh từ $$X$$ lên $$\mathcal{P}(X)$$ (tập lũy thừa, tức tập mọi tập con của $$X$$). Ý tưởng: với một hàm $$f:X\to\mathcal{P}(X)$$, đặt
 
 $$
 D=\{x\in X:x\notin f(x)\}.
 $$
 
-$$D$$ khác $$f(x)$$ tại phần tử $$x$$ (thuộc về $$D$$ xor thuộc $$f(x)$$), nên $$D$$ không nằm trong ảnh của $$f$$. Khi $$X=\mathbb{N}$$, đây là đường chéo trên dãy bit—cùng hình học với lật đường chéo thập phân. Hệ quả: không có “tập lớn nhất”; chuỗi cardinality tăng vô hạn.
+Với mỗi $$x$$, tập $$D$$ khác $$f(x)$$ ở đúng phần tử $$x$$ (phần tử này thuộc đúng một trong hai tập $$D$$ và $$f(x)$$), nên $$D$$ không nằm trong ảnh của $$f$$. Khi $$X=\mathbb{N}$$, đây chính là đường chéo trên các dãy bit, cùng hình học với việc đổi chữ số thập phân. Hệ quả: không có "tập lớn nhất", và các lực lượng vô hạn tăng mãi không dừng.
 
 ---
 
-## 8. Vì sao quan trọng ngoài lý thuyết tập hợp
+## 8. Vì sao nó quan trọng ngoài lý thuyết tập hợp
 
-- **Các cỡ vô hạn khác nhau** — cuộc cách mạng Cantor: “vô hạn” không phải một kích cỡ.  
-- **Không quyết định được** — bài toán dừng Turing: lật hành vi máy thứ $$e$$ trên đầu vào $$e$$ (đường chéo trên máy + input).  
-- **Bất toàn** — câu Gödel mã hóa “tôi không chứng minh được” và lật theo diagonal tinh thần.  
-- **Khoa học máy tính** — nhiều “không có thuật toán phổ quát” là đường chéo ngụy trang.  
-- **Seminar khóa này** — cùng skeleton “liệt kê-và-thoát” với Euclid ([bài Euclid+Cantor]({{ site.baseurl }}/contents/vi/chapter05/05_02_Euclid_Infinite_Primes/)).
+- **Các cỡ vô hạn khác nhau.** Đây là bước ngoặt của Cantor: "vô hạn" không chỉ có một cỡ.
+- **Bất khả quyết định.** Trong bài toán dừng của Turing, ta đảo ngược hành vi của máy thứ $$e$$ trên đầu vào $$e$$, đó là đường chéo trên cặp (máy, đầu vào).
+- **Bất toàn.** Câu của Gödel mã hóa ý "tôi không chứng minh được" và cũng dựa trên tinh thần đường chéo.
+- **Khoa học máy tính.** Nhiều kết quả kiểu "không có thuật toán tổng quát" thực chất là đường chéo trá hình.
+- **Liên hệ với bài Euclid.** Cùng khung "giả sử có danh sách, rồi dựng phần tử nằm ngoài" (xem [bài Euclid–Cantor]({{ site.baseurl }}/contents/vi/chapter05/05_02_Euclid_Infinite_Primes/)).
 
 ---
 
 ## 9. Định lý *không* nói gì
 
-- Không tự quyết định có bao nhiêu cardinality nằm giữa $$\lvert\mathbb{N}\rvert$$ và $$\lvert\mathbb{R}\rvert$$ (**giả thuyết continuum**—độc lập ZFC theo nghĩa kỹ thuật).  
-- Không phải “số thực lớn vì liên tục” theo nghĩa hình học mơ hồ; chứng minh về **liệt kê và chữ số**.  
-- Không đòi tiên đề chọn ở các dạng sơ cấp dùng ở đây.  
-- Không khẳng định bạn “không đếm được xa” theo nghĩa kiên nhẫn con người—$$\mathbb{N}$$ đã vô hạn; không đếm được mạnh hơn.
+- Nó không cho biết có bao nhiêu lực lượng nằm giữa $$\lvert\mathbb{N}\rvert$$ và $$\lvert\mathbb{R}\rvert$$. Đó là **giả thuyết continuum**, độc lập với hệ tiên đề ZFC.
+- Nó không có nghĩa "số thực nhiều hơn vì chúng liên tục" theo nghĩa hình học mơ hồ. Chứng minh nói về việc liệt kê và các chữ số.
+- Nó không cần tiên đề chọn ở dạng sơ cấp dùng ở đây.
+- "Không đếm được" mạnh hơn "vô hạn": $$\mathbb{N}$$ đã vô hạn rồi.
 
 ---
 
 ## Nhầm lẫn thường gặp
 
-1. “Không đếm được = vô hạn theo nghĩa đời thường.” — $$\mathbb{N}$$ đã vô hạn; không đếm được mạnh hơn.  
-2. “Số đường chéo độc lập với danh sách.” — Nó phụ thuộc danh sách.  
-3. “Thập phân vô hạn nên không gì liệt kê được.” — Hữu tỷ cũng có thập phân vô hạn mà vẫn đếm được.  
-4. “Cantor giả sử danh sách rồi tìm $$1=0$$.” — Mâu thuẫn là “đầy đủ” versus “$$d$$ vắng.”  
-5. “Ý tưởng chứng minh = bỏ qua biểu diễn kép.” — Có thể hoãn vệ sinh, không được giả vờ vấn đề không tồn tại.
+1. "Không đếm được nghĩa là vô hạn theo nghĩa thông thường." Không đúng: $$\mathbb{N}$$ đã vô hạn, còn không đếm được là mạnh hơn.
+2. "Số trên đường chéo không phụ thuộc danh sách." Nó phụ thuộc vào danh sách.
+3. "Số thực có thập phân vô hạn nên không liệt kê được." Số hữu tỉ cũng có thập phân vô hạn mà vẫn đếm được.
+4. "Cantor giả sử có danh sách rồi suy ra $$1=0$$." Mâu thuẫn ở đây là: danh sách được giả định là đầy đủ, nhưng $$d$$ lại không có trong đó.
+5. "Ý tưởng chứng minh nghĩa là bỏ qua việc một số có hai cách viết." Có thể để chi tiết đó sang sau, nhưng không nên làm như nó không tồn tại.
 
 ---
 
 ## Bài tập
 
-1. Viết chứng minh mức ý tưởng $$(0,1)$$ không đếm được, kèm quy tắc lật chữ số.  
-2. Một đoạn: vì sao $$(0,1)$$ kéo theo $$\mathbb{R}$$.  
-3. Phác thảo liệt kê $$\mathbb{Z}$$ và vì sao hữu tỷ dương đếm được.  
-4. Bảng $$5\times5$$ tự tạo; tính số thoát với quy tắc $$\{4,5\}$$.  
-5. Vì sao lật $$0\leftrightarrow 9$$ có thể nguy hiểm về vệ sinh?  
-6. Ý tưởng: không có toàn ánh $$X\to\mathcal{P}(X)$$.  
-7. **Narrative (≤350 từ).** Giải thích đường chéo cho bạn học biết dãy nhưng chưa biết jargon tập hợp.  
-8. Tùy chọn: tìm một câu trong sách tính toán được được gọi là lập luận đường chéo.
+1. Viết chứng minh ở mức ý tưởng rằng $$(0,1)$$ không đếm được, kèm quy tắc đổi chữ số.
+2. Viết một đoạn giải thích vì sao $$(0,1)$$ không đếm được thì suy ra $$\mathbb{R}$$ không đếm được.
+3. Phác thảo cách liệt kê $$\mathbb{Z}$$ và giải thích vì sao các số hữu tỉ dương đếm được.
+4. Tự lập một bảng $$5\times5$$ chữ số và tính số $$d$$ theo quy tắc dùng $$\{4,5\}$$.
+5. Vì sao việc đổi $$0\leftrightarrow 9$$ có thể gây rắc rối?
+6. Nêu ý tưởng chứng minh rằng không có toàn ánh $$X\to\mathcal{P}(X)$$.
+7. **Viết tự luận (không quá 350 từ).** Giải thích phương pháp đường chéo cho một bạn đã biết khái niệm dãy nhưng chưa biết thuật ngữ về tập hợp.
+8. Tùy chọn: tìm trong một giáo trình về tính toán được một chỗ gọi là "lập luận đường chéo".
 
 ---
 
+## Kiến thức rút ra từ phần tìm hiểu video
 
----
+Tóm tắt dùng khi thảo luận (đối chiếu với nguồn viết; **không bịa nội dung transcript**). Gói: `research/video-research/cantor-diagonal/analysis.md`.
 
-## Kiến thức trích từ nghiên cứu video
+### Tình trạng
 
-Tóm tắt cho seminar (đối chiếu nguồn viết; **không bịa transcript**). Gói: `research/video-research/cantor-diagonal/analysis.md`.
+**Đã được chứng minh** (Cantor). Việc $$\mathbb{R}$$ và tập lũy thừa của $$\mathbb{N}$$ không đếm được là định lý chuẩn; lỗi hay gặp nhất của người học là chuyện biểu diễn số thập phân.
 
-### Trạng thái
+### Phát biểu cốt lõi
 
-**Proved** (Cantor). Uncountability of $$\mathbb{R}$$ / power set of $$\mathbb{N}$$ is standard theorem; representation hygiene is the main student pitfall.
+Không có toàn ánh $$\mathbb{N}\to\{0,1\}^{\mathbb{N}}$$ (tương đương, $$\mathbb{R}$$ không đếm được). Ta đổi phần tử $$a_{nn}$$ trên đường chéo để dựng một dãy không có trong danh sách.
 
-### Phát biểu / slogan cốt lõi
+### Các định nghĩa cần nắm chắc
 
-No surjection $$\mathbb{N}\to\{0,1\}^{\mathbb{N}}$$ (equivalently $$\mathbb{R}$$ is uncountable). Diagonal flips $$a_{nn}$$ to build an escaped sequence.
+- **Đếm được.** Có song ánh với một tập con của $$\mathbb{N}$$ (hoặc hữu hạn).
+- **Phép dựng đường chéo.** Cho các dãy đã liệt kê $$a_i=(a_{i1},a_{i2},\ldots)$$, đặt $$b_n \neq a_{nn}$$ thì $$b$$ không trùng với dãy $$a_i$$ nào.
 
-### Định nghĩa cần cố định
+### Những hiểu lầm cần tránh
 
-- **Countable.** In bijection with a subset of $$\mathbb{N}$$ (or finite).
-- **Diagonal construction.** Given listed sequences $$a_i=(a_{i1},a_{i2},\ldots)$$, define $$b_n \neq a_{nn}$$ so $$b$$ is not any $$a_i$$.
-
-### Vệ sinh khái niệm
-
-- Applying diagonalization naively to $$\mathbb{Q}$$ (rationals *are* countable).
-- Ignoring dual expansions $$0.1999\ldots=0.2000\ldots$$ without a digit rule that avoids both.
+- Áp dụng máy móc phương pháp đường chéo cho $$\mathbb{Q}$$ (trong khi số hữu tỉ *đếm được*).
+- Bỏ qua việc một số có hai cách viết $$0.1999\ldots=0.2000\ldots$$ mà không có quy tắc chữ số để tránh cả hai.
 
 
 ---
 
 ## Nguồn video (gói math-video-researcher)
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh/bài báo gốc khi tuyên bố mang tính then chốt. Chi tiết xếp hạng: `research/video-research/cantor-diagonal/`.
+Dùng video để **định hướng và làm quen với cách nghiên cứu**, không thay cho chứng minh hay bài báo gốc khi cần khẳng định quan trọng. Chi tiết xếp hạng: `research/video-research/cantor-diagonal/`.
 
 **Thứ tự gợi ý**
 
 1. **Định hướng** — Numberphile — Infinity is bigger than you think (James Grime / Cantor): [https://www.youtube.com/watch?v=elvOZm0d4H0](https://www.youtube.com/watch?v=elvOZm0d4H0).  
-2. **Meta** — Numberphile page for V1: [https://www.numberphile.com/videos/infinity-is-bigger-than-you-think](https://www.numberphile.com/videos/infinity-is-bigger-than-you-think).  
-3. **Nền tảng** — Cantor's Diagonalization Argument (classic classroom upload): [https://www.youtube.com/watch?v=qGYDQWm49wU](https://www.youtube.com/watch?v=qGYDQWm49wU).  
+2. **Trang giới thiệu** — Trang Numberphile của video 1: [https://www.numberphile.com/videos/infinity-is-bigger-than-you-think](https://www.numberphile.com/videos/infinity-is-bigger-than-you-think).  
+3. **Nền tảng** — Cantor's Diagonalization Argument (bài giảng trên lớp): [https://www.youtube.com/watch?v=qGYDQWm49wU](https://www.youtube.com/watch?v=qGYDQWm49wU).  
 
-**Nhắc trạng thái:** **Proved** (Cantor). Uncountability of $$\mathbb{R}$$ / power set of $$\mathbb{N}$$ is standard theorem; representation hygiene is the main student pitfall.
+**Nhắc tình trạng:** **Đã được chứng minh** (Cantor). Việc $$\mathbb{R}$$ và tập lũy thừa của $$\mathbb{N}$$ không đếm được là định lý chuẩn; lỗi hay gặp nhất của người học là chuyện biểu diễn số thập phân.
 
 ---
 
-
-
-### Transcript & frames (extract flagship)
+### Transcript và khung hình (video chính)
 
 Transcript caption và unit theo thời gian: `research/video-research/cantor-diagonal/transcripts/` · trạng thái: `research/video-research/cantor-diagonal/TRANSCRIPT_STATUS.md` · danh sách master: `research/video-research/FLAGSHIP_TRANSCRIPTS.md`.
 
-Caption tải tự động (yt-dlp)—dùng để điều hướng, **không** thay nội dung bài.
+Caption tải tự động (yt-dlp), dùng để điều hướng, **không** thay nội dung bài.
 
 
-![Frame mẫu video flagship]({{ site.baseurl }}/img/video_research/flagships/cantor_frame01.jpg)
+![Khung hình mẫu từ video chính]({{ site.baseurl }}/img/video_research/flagships/cantor_frame01.jpg)
 
-*Hình. Frame mẫu từ video flagship chính (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính (xem gói nghiên cứu để biết mốc thời gian).*
 
 ## Tài liệu
 
-1. Nhập môn lý thuyết tập hợp / giải tích: chương đếm được.  
-2. Stillwell — *Roads to Infinity*.  
-3. Khóa học: [Euclid–Cantor]({{ site.baseurl }}/contents/vi/chapter05/05_02_Euclid_Infinite_Primes/), [Vô hạn]({{ site.baseurl }}/contents/vi/chapter04/04_02_Infinity/), [Gödel]({{ site.baseurl }}/contents/vi/chapter05/05_04_Godel_Incompleteness/).
+1. Giáo trình nhập môn lý thuyết tập hợp hoặc giải tích: chương về tập đếm được.
+2. Stillwell — *Roads to Infinity*.
+3. Trong khóa học: [Euclid–Cantor]({{ site.baseurl }}/contents/vi/chapter05/05_02_Euclid_Infinite_Primes/), [Vô hạn]({{ site.baseurl }}/contents/vi/chapter04/04_02_Infinity/), [Gödel]({{ site.baseurl }}/contents/vi/chapter05/05_04_Godel_Incompleteness/).
 
 ---
 
@@ -253,28 +248,28 @@ Danh mục URL đầy đủ: `research/video-research/cantor-diagonal/references
 
 ## Hướng đi tiếp
 
-- So sánh cẩn thận với Euclid: cả hai thoát danh mục, ở các thang khác nhau.  
-- Đọc một lần bản vệ sinh đầy đủ về thập phân.  
-- Xem trước Gödel và Turing như hậu duệ đường chéo.  
-- Ghi một câu hỏi chính xác bạn vẫn còn.
+- So sánh kỹ với Euclid: cả hai đều dựng phần tử nằm ngoài danh sách, nhưng ở hai quy mô khác nhau.
+- Đọc một lần phần trình bày đầy đủ về chi tiết số thập phân.
+- Xem trước Gödel và Turing như những hệ quả của phương pháp đường chéo.
+- Ghi lại một câu hỏi chính xác mà bạn vẫn còn thắc mắc.
 
 
-## Chéo hóa như khuôn mẫu chứng minh
+## Chéo hóa như một khuôn mẫu chứng minh
 
-Đối số chéo của Cantor không chỉ “đếm được vs không đếm được”. Nó là **khuôn**: giả sử liệt kê được mọi đối tượng kiểu $$T$$; xây một đối tượng khác mọi hàng bằng cách khác ở đường chéo. Cùng tinh thần xuất hiện ở [Gödel]({{ site.baseurl }}/contents/vi/chapter05/05_04_Godel_Incompleteness/), ở lập luận halt, và ở nhiều chứng minh tồn tại đối tượng “né” mọi danh sách.
+Lập luận đường chéo của Cantor không chỉ là chuyện "đếm được hay không đếm được". Đó là một **khuôn mẫu**: giả sử liệt kê được mọi đối tượng thuộc loại $$T$$, rồi dựng một đối tượng khác mọi dòng bằng cách làm nó khác ở vị trí trên đường chéo. Tinh thần này xuất hiện ở [Gödel]({{ site.baseurl }}/contents/vi/chapter05/05_04_Godel_Incompleteness/), ở lập luận về bài toán dừng, và ở nhiều chứng minh khác về sự tồn tại của đối tượng "né" mọi danh sách.
 
 ## Sai lầm thường gặp
 
-- Nhầm “không đếm được” với “không mô tả được”.
-- Nghĩ tập Cantor “chỉ toàn điểm bất hữu tỉ lẻ” mà quên cardinality continuum.
-- Coi chéo hóa là trò chơi ký hiệu, không phải chứng minh tồn tại phần tử ngoài danh sách.
+- Nhầm "không đếm được" với "không mô tả được".
+- Nghĩ rằng tập Cantor "chỉ gồm vài điểm đặc biệt" mà quên rằng nó có lực lượng continuum.
+- Coi phép đường chéo là trò chơi ký hiệu, chứ không phải chứng minh sự tồn tại của phần tử nằm ngoài danh sách.
 
-## Studio
+## Bài thực hành
 
-Viết lại chứng minh $$|\mathbb{N}| < |\mathbb{R}|$$ bằng chuỗi nhị phân; chỉ rõ bước nào dùng giả sử liệt kê và bước nào xây chuỗi chéo. Thêm một câu so sánh với studio [mô tả vô hạn]({{ site.baseurl }}/contents/vi/chapter07/07_08_Explore_Describe_Infinity/).
+Viết lại chứng minh $$|\mathbb{N}| < |\mathbb{R}|$$ bằng các chuỗi nhị phân; chỉ rõ bước nào dùng giả thiết đã liệt kê được và bước nào dựng chuỗi trên đường chéo. Thêm một câu so sánh với bài thực hành [mô tả vô hạn]({{ site.baseurl }}/contents/vi/chapter07/07_08_Explore_Describe_Infinity/).
 
 
 ## Video tham khảo
 
-- **xem trước** — [Infinity is bigger than you think - Numberphile](https://www.youtube.com/watch?v=elvOZm0d4H0) — Numberphile, tiếng Anh. Xem trước. “Infinity is bigger than you think - Numberphile” định hướng cho mục tiêu của bài: Phát biểu “đếm được” và “không đếm được” theo song ánh với \mathbb{N}.
-- [Cantor's Diagonalization Argument](https://www.youtube.com/watch?v=qGYDQWm49wU) — IF, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu “đếm được” và “không đếm được” theo song ánh với \mathbb{N}.
+- **Xem trước** — [Infinity is bigger than you think - Numberphile](https://www.youtube.com/watch?v=elvOZm0d4H0) — Numberphile, tiếng Anh. Video định hướng cho mục tiêu của bài: phát biểu "đếm được" và "không đếm được" qua song ánh với $$\mathbb{N}$$.
+- [Cantor's Diagonalization Argument](https://www.youtube.com/watch?v=qGYDQWm49wU) — IF, tiếng Anh. Xem lượt thứ hai, khi ý chính đã rõ.

@@ -10,15 +10,15 @@ categories:
 lesson_type: required
 ---
 
-**Số nguyên tố sinh đôi** là các cặp số nguyên tố cách nhau đúng 2: $$(3,5)$$, $$(5,7)$$, $$(11,13)$$, $$(17,19)$$, $$(29,31)$$, $$(101,103)$$, …  
+**Số nguyên tố sinh đôi** là các cặp số nguyên tố cách nhau đúng 2 đơn vị: $$(3,5)$$, $$(5,7)$$, $$(11,13)$$, $$(17,19)$$, $$(29,31)$$, $$(101,103)$$, …  
 
 **Giả thuyết số nguyên tố sinh đôi** khẳng định có **vô hạn** cặp như vậy.
 
-Đây không phải bài Thiên niên kỷ, nhưng là một trong những câu hỏi mở nổi tiếng nhất của lý thuyết số—và là nơi có tiến bộ rực rỡ thập niên 2010: **khoảng cách bị chặn** giữa các số nguyên tố liên tiếp. Zhang (2013), Maynard, và các dự án Polymath đã chứng minh rằng *một* khoảng chẵn bị chặn xuất hiện vô hạn lần; **khoảng đúng bằng 2** vẫn ngoài tầm.
+Đây không phải bài toán Thiên niên kỷ, nhưng là một trong những câu hỏi mở nổi tiếng nhất của lý thuyết số, và là nơi có những tiến bộ ấn tượng trong thập niên 2010 về **khoảng cách bị chặn** giữa các số nguyên tố liên tiếp. Zhang (2013), Maynard và dự án Polymath đã chứng minh rằng có *một* khoảng cách chẵn bị chặn xuất hiện vô hạn lần; còn **khoảng cách đúng bằng 2** thì vẫn chưa chứng minh được.
 
-Bài này giúp bạn phát biểu sạch, hiểu heuristic Hardy–Littlewood, phân biệt “gap bị chặn” với “sinh đôi,” và kể câu chuyện sàng mà không giả vờ đã giải giả thuyết.
+Bài này giúp bạn phát biểu giả thuyết cho chính xác, hiểu lập luận gần đúng của Hardy–Littlewood, phân biệt "khoảng cách bị chặn" với "sinh đôi", và kể lại câu chuyện về phương pháp sàng mà không ngộ nhận rằng giả thuyết đã được giải.
 
-**Lộ trình:** phát biểu → heuristic → rào cản sàng → Zhang–Maynard–Polymath → còn mở gì → toán xung quanh → nhầm lẫn.
+**Nội dung bài:** phát biểu → lập luận gần đúng → rào cản của phương pháp sàng → Zhang, Maynard, Polymath → những gì còn mở → toán học xung quanh → hiểu lầm thường gặp.
 
 ---
 
@@ -26,29 +26,29 @@ Bài này giúp bạn phát biểu sạch, hiểu heuristic Hardy–Littlewood, 
 
 Sau bài học, bạn có thể:
 
-- Phát biểu giả thuyết số nguyên tố sinh đôi và đưa ví dụ cặp sinh đôi.
-- Tương phản **vô hạn số nguyên tố** (Euclid, đã biết) với **vô hạn sinh đôi** (mở).
+- Phát biểu giả thuyết số nguyên tố sinh đôi và đưa ra ví dụ về các cặp sinh đôi.
+- So sánh **có vô hạn số nguyên tố** (Euclid, đã biết) với **có vô hạn cặp sinh đôi** (còn mở).
 - Giải thích **khoảng cách bị chặn**: tồn tại $$H$$ sao cho $$p_{n+1}-p_n\le H$$ với vô hạn chỉ số $$n$$.
-- Kể **Zhang (2013)** và **Maynard** (cùng cải tiến Polymath); bound vô điều kiện chuẩn trong tường thuật seminar là **$$H=246$$**.
-- Giải thích vì sao gap 2 vẫn ngoài tầm sàng hiện tại (parity / giới hạn khẩu hiệu).
-- Nối chủ đề mẫu tinh của nguyên tố với [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) và essay [Maynard]({{ site.baseurl }}/contents/vi/chapter02/02_09_Maynard_Primes/).
-- Tránh LO6: “Zhang chứng minh sinh đôi.”
+- Kể về **Zhang (2013)** và **Maynard** (cùng các cải tiến của Polymath); cận không điều kiện thường được nêu trong khóa học là **$$H=246$$**.
+- Giải thích vì sao khoảng cách 2 vẫn nằm ngoài khả năng của các phương pháp sàng hiện nay (vấn đề chẵn lẻ, ở mức ý tưởng).
+- Liên hệ cấu trúc chi tiết của số nguyên tố với bài [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) và bài [Maynard]({{ site.baseurl }}/contents/vi/chapter02/02_09_Maynard_Primes/).
+- Tránh lỗi (mục tiêu 6): "Zhang đã chứng minh giả thuyết sinh đôi."
 
-**Tiên quyết.** Số nguyên tố; đồng dư cơ bản. Biết ý $$1/\log x$$ như mật độ thô của nguyên tố sẽ giúp đọc heuristic.
+**Kiến thức cần có.** Số nguyên tố; đồng dư cơ bản. Biết rằng mật độ của số nguyên tố gần $$x$$ vào khoảng $$1/\log x$$ sẽ giúp hiểu lập luận gần đúng.
 
-**Liên kết seminar.** **LO1**; [Maynard / Fields]({{ site.baseurl }}/contents/vi/chapter02/02_09_Maynard_Primes/); [Euclid vô hạn nguyên tố]({{ site.baseurl }}/contents/vi/chapter05/05_02_Euclid_Infinite_Primes/); [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/).
+**Liên hệ với khóa học.** **Mục tiêu 1**; [Maynard / Giải Fields]({{ site.baseurl }}/contents/vi/chapter02/02_09_Maynard_Primes/); [Euclid và vô hạn số nguyên tố]({{ site.baseurl }}/contents/vi/chapter05/05_02_Euclid_Infinite_Primes/); [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/).
 
 ---
 
 ## 1. Phát biểu
 
-**Giả thuyết số nguyên tố sinh đôi.** Có vô hạn số nguyên tố $$p$$ sao cho $$p+2$$ cũng nguyên tố.
+**Giả thuyết số nguyên tố sinh đôi.** Có vô hạn số nguyên tố $$p$$ sao cho $$p+2$$ cũng là số nguyên tố.
 
-Tương đương: phương trình $$p'-p=2$$ có vô hạn nghiệm trong các số nguyên tố.
+Nói cách khác: phương trình $$p'-p=2$$ có vô hạn nghiệm trong tập số nguyên tố.
 
-Giả thuyết rộng hơn của **Polignac** dự đoán mọi khoảng chẵn cố định $$2k$$ xuất hiện vô hạn lần giữa các cặp nguyên tố. Sinh đôi là trường hợp $$k=1$$—khoảng chẵn nhỏ nhất có thể (vì khoảng lẻ lớn hơn 2 không thể là hai số lẻ nguyên tố trừ case liên quan 2).
+Giả thuyết tổng quát hơn của **Polignac** dự đoán rằng mọi khoảng cách chẵn cố định $$2k$$ đều xuất hiện vô hạn lần giữa các cặp số nguyên tố. Sinh đôi là trường hợp $$k=1$$, khoảng cách chẵn nhỏ nhất có thể (hai số nguyên tố lẻ luôn cách nhau một số chẵn; khoảng cách lẻ chỉ xuất hiện ở cặp có chứa số 2).
 
-**Euclid đã biết có vô hạn nguyên tố**; chứng minh cổ điển xây $$N=P!+1$$ hoặc $$N=p_1\cdots p_k+1$$ để buộc một nguyên tố mới. Lập luận đó **không** buộc cặp cách 2. Vô hạn “điểm” không tự động cho vô hạn “cặp gần nhau.”
+**Euclid đã biết có vô hạn số nguyên tố**; chứng minh cổ điển xét $$N=P!+1$$ hoặc $$N=p_1\cdots p_k+1$$ để buộc phải có một số nguyên tố mới. Lập luận đó **không** tạo ra được cặp cách nhau 2. Có vô hạn "điểm" không tự động cho vô hạn "cặp điểm gần nhau".
 
 ---
 
@@ -58,44 +58,41 @@ Giả thuyết rộng hơn của **Polignac** dự đoán mọi khoảng chẵn 
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/twin-primes-count_vi.mp4"></video>
 </div>
 
-Lưới đánh dấu 8 cặp số nguyên tố sinh đôi dưới 100. Biểu đồ so số cặp sinh đôi thật tới x (các chấm) với dự đoán Hardy–Littlewood (đường cong): 8169 so với khoảng 8248 tại x = 10⁶. Khớp tốt là bằng chứng, chưa phải chứng minh.
+Lưới đánh dấu 8 cặp số nguyên tố sinh đôi dưới 100. Biểu đồ so số cặp sinh đôi thật tới $$x$$ (các chấm) với dự đoán Hardy–Littlewood (đường cong): 8169 so với khoảng 8248 tại $$x = 10^6$$. Khớp tốt là bằng chứng, chưa phải chứng minh.
 
 
-## 2. Heuristic: vì sao người ta tin
+### Tự tay thử: Tự đếm cặp số nguyên tố sinh đôi
 
-Các số nguyên tố thưa dần xấp xỉ như $$1/\log x$$ (định lý số nguyên tố). Xác suất heuristic rằng cả $$n$$ và $$n+2$$ đều nguyên tố có cỡ $$1/(\log n)^2$$ (sau khi chỉnh hệ số cho ràng buộc modulo nhỏ—Hardy–Littlewood). Chuỗi
+<div class="mex-explainer" data-mex="twins" data-lang="vi"></div>
+
+
+## 2. Lập luận gần đúng: vì sao người ta tin
+
+Số nguyên tố thưa dần với mật độ khoảng $$1/\log x$$ (định lý số nguyên tố). Theo lập luận gần đúng, xác suất để cả $$n$$ và $$n+2$$ đều là số nguyên tố vào cỡ $$1/(\log n)^2$$ (sau khi điều chỉnh hệ số theo các ràng buộc đồng dư với các số nguyên tố nhỏ, như Hardy–Littlewood đã làm). Chuỗi
 
 $$
 \sum_n \frac{1}{(\log n)^2}
 $$
 
-**phân kỳ**, nên người ta kỳ vọng vô hạn cặp sinh đôi, với tiệm cận chính xác hơn được đoán bởi **hằng số twin prime** trong giả thuyết Hardy–Littlewood về bộ nguyên tố (prime tuples).
+**phân kỳ**, nên người ta kỳ vọng có vô hạn cặp sinh đôi; dáng điệu tiệm cận chính xác hơn được dự đoán qua **hằng số số nguyên tố sinh đôi** trong giả thuyết Hardy–Littlewood về các bộ số nguyên tố.
 
-Heuristic **không phải chứng minh**, nhưng tổ chức dữ liệu: cặp sinh đôi tiếp tục xuất hiện trong tính toán tới tầm rất cao, thưa dần đúng “nhịp” kỳ vọng. Cùng đạo đức với kiểm không điểm zeta: bằng chứng mạnh, chưa phải định lý.
+Lập luận gần đúng **không phải chứng minh**, nhưng nó giúp sắp xếp dữ liệu: các cặp sinh đôi vẫn tiếp tục xuất hiện khi tính đến những số rất lớn, và thưa dần đúng như dự đoán. Điều này cũng giống với việc kiểm tra không điểm của hàm zeta: bằng chứng mạnh, nhưng chưa phải định lý.
 
-**Ghi chú trực quan.** “Nguyên tố ngẫu nhiên” với mật độ $$1/\log n$$ là mô hình; các đồng dư (ví dụ không chia hết cho 2, 3, …) tạo tương quan—hằng số twin prime chỉnh các tương quan đó. Bạn không cần thuộc công thức để dùng khẩu hiệu seminar.
+**Ghi chú trực quan.** Coi "số nguyên tố là ngẫu nhiên" với mật độ $$1/\log n$$ chỉ là một mô hình; các điều kiện đồng dư (ví dụ không chia hết cho 2, 3, …) tạo ra tương quan, và hằng số số nguyên tố sinh đôi điều chỉnh các tương quan đó. Bạn không cần thuộc công thức để nắm ý chính.
 
 ---
 
-## 3. Vì sao sàng khó với đúng hai lần nguyên tố
+## 3. Vì sao phương pháp sàng khó bắt được đúng hai số nguyên tố
 
-Phương pháp **sàng** giỏi phát hiện **gần nguyên tố** (số có ít thừa số nguyên tố). Biến “gần” thành “đúng nguyên tố *hai lần*” vướng các **parity problems**: sàng cổ điển khó phân biệt số có số thừa số chẵn hay lẻ trong một số bối cảnh—và sinh đôi đòi hỏi cả hai vị trí đều “nguyên tố đúng.”
+Phương pháp **sàng** rất giỏi tìm các **số gần nguyên tố** (số có ít thừa số nguyên tố). Nhưng để chuyển từ "gần nguyên tố" sang "cả *hai* số đều đúng là nguyên tố" thì vướng **vấn đề chẵn lẻ** (parity problem): trong một số tình huống, sàng cổ điển khó phân biệt một số có số chẵn hay số lẻ thừa số nguyên tố, trong khi giả thuyết sinh đôi đòi hỏi cả hai vị trí đều phải là số nguyên tố thật sự.
 
-Do đó sàng cổ điển cho các định lý kiểu **định lý Chen**: có vô hạn nguyên tố $$p$$ sao cho $$p+2$$ là nguyên tố *hoặc* tích hai nguyên tố—gần đến mức khó chịu, vẫn chưa phải sinh đôi.
+Vì vậy, sàng cổ điển cho các kết quả kiểu **định lý Chen**: có vô hạn số nguyên tố $$p$$ sao cho $$p+2$$ là số nguyên tố *hoặc* tích của hai số nguyên tố. Kết quả này rất gần, nhưng vẫn chưa phải giả thuyết sinh đôi.
 
-Khẩu hiệu mang đi: **gần nguyên tố ≠ nguyên tố**; khoảng cách giữa “hầu như” và “đúng” có thể là cả một kỷ nguyên kỹ thuật.
+Điều cần nhớ: **gần nguyên tố không phải là nguyên tố**; khoảng cách giữa "gần như" và "đúng là" có thể đòi hỏi cả một thời kỳ phát triển kỹ thuật.
 
 ---
 
 ## 4. Khoảng cách bị chặn: Zhang, Maynard, Polymath
-
-Năm 2013, **Yitang Zhang** chứng minh
-
-$$
-\liminf_{n\to\infty} (p_{n+1}-p_n) < 70{,}000{,}000.
-$$
-
-Nghĩa là: một khoảng chẵn bị chặn bởi 70 triệu xuất hiện vô hạn lần giữa các nguyên tố *liên tiếp*. Con số lớn—nhưng **hữu hạn**. Đó là định lý dạng này đầu tiên: không còn chỉ “khoảng cách trung bình tăng như $$\log n$$,” mà có **cụm chặt vô hạn lần** với chặn tuyệt đối.
 
 Năm **2013**, **Yitang Zhang** chứng minh
 
@@ -103,159 +100,159 @@ $$
 \liminf_{n\to\infty}(p_{n+1}-p_n) < 70{,}000{,}000.
 $$
 
-Tức: trong các gap giữa nguyên tố liên tiếp, một gap nhỏ hơn bảy mươi triệu xuất hiện **vô hạn lần**. Số lớn nhưng **hữu hạn**—định lý đầu tiên kiểu này. Trước Zhang, người ta không biết liminf gap liên tiếp có hữu hạn; nguyên tố có thể bị buộc cách nhau ngày càng xa theo nghĩa liminf.
+Nghĩa là: trong các khoảng cách giữa hai số nguyên tố liên tiếp, có một khoảng cách nhỏ hơn bảy mươi triệu xuất hiện **vô hạn lần**. Con số lớn, nhưng **hữu hạn**; đây là định lý đầu tiên thuộc loại này. Trước Zhang, người ta chỉ biết khoảng cách trung bình tăng như $$\log n$$, và chưa biết liminf của khoảng cách giữa hai số nguyên tố liên tiếp có hữu hạn hay không; về nguyên tắc, các số nguyên tố có thể ngày càng xa nhau theo nghĩa liminf.
 
-Phương pháp xây trên ý **Goldston–Pintz–Yıldırım (GPY)** về phát hiện nguyên tố trong tuple admissible các dạng tuyến tính, kết hợp ước lượng phân bố nguyên tố trong cấp số cộng dạng trung bình tinh tế. Đột phá Zhang: đủ phân bố mà không cần giả thuyết mạnh nhất.
+Phương pháp của Zhang dựa trên ý tưởng của **Goldston–Pintz–Yıldırım (GPY)** về việc tìm số nguyên tố trong các bộ dạng tuyến tính chấp nhận được, kết hợp với các ước lượng tinh tế về phân bố trung bình của số nguyên tố trong cấp số cộng. Điểm đột phá của Zhang là chứng minh được mức phân bố đủ dùng mà không cần đến giả thuyết mạnh nhất.
 
-Cải tiến nhanh theo sau:
+Các cải tiến nhanh chóng theo sau:
 
-- **Polymath** (Polymath8) tối ưu cách tiếp cận Zhang, thu nhỏ bound admissible mạnh qua cộng tác cộng đồng.  
-- **James Maynard** (và ý tưởng liên quan độc lập quanh Tao) đưa **trọng số sàng đa chiều** linh hoạt hơn—nhiều dạng tuyến tính được trọng số cùng lúc hiệu quả hơn. Khung Maynard thường đơn giản hóa và mạnh hóa kết quả gap, mở rộng sang mẫu nguyên tố phong phú hơn.
+- **Polymath** (Polymath8) tối ưu cách tiếp cận của Zhang, giảm mạnh cận nhờ sự cộng tác của cả cộng đồng.  
+- **James Maynard** (và độc lập, các ý tưởng liên quan của Tao) đưa ra **trọng số sàng nhiều chiều** linh hoạt hơn, cho phép đặt trọng số đồng thời lên nhiều dạng tuyến tính một cách hiệu quả hơn. Khung của Maynard thường làm các kết quả về khoảng cách vừa đơn giản hơn vừa mạnh hơn, và mở rộng sang các cấu trúc số nguyên tố phong phú hơn.
 
-Sau tối ưu, bound vô điều kiện chuẩn
+Sau các bước tối ưu, cận không điều kiện
 
 $$
 \liminf_{n\to\infty}(p_{n+1}-p_n)\le H
 $$
 
-đứng ở **$$H=246$$** trong tường thuật chuẩn Maynard–Polymath (điểm tham chiếu seminar; văn liệu kỹ thuật có thể tinh chỉnh—trích survey khi viết A3). Dưới giả thuyết mạnh kiểu **Elliott–Halberstam** về phân bố nguyên tố trong cấp số cộng, phương pháp có thể đẩy về gap chẵn một chữ số (ví dụ 6), nhưng **đạt $$H=2$$**—sinh đôi thật—dường như cần ý tưởng vượt mô hình sàng hiện tại. **Parity barrier** là slogan thường dùng vì sao 2 đặc biệt.
+hiện đứng ở **$$H=246$$** theo các tài liệu chuẩn về kết quả của Maynard–Polymath (đây là mốc tham chiếu cho khóa học; tài liệu kỹ thuật có thể có tinh chỉnh, nên hãy trích dẫn bài tổng quan khi viết bài A3). Nếu giả sử giả thuyết mạnh kiểu **Elliott–Halberstam** về phân bố số nguyên tố trong cấp số cộng, phương pháp có thể đưa khoảng cách xuống một số chẵn có một chữ số (ví dụ 6). Nhưng để **đạt $$H=2$$**, tức là giả thuyết sinh đôi thật sự, có vẻ cần những ý tưởng vượt ra ngoài các mô hình sàng hiện nay. **Rào cản chẵn lẻ** là cách nói thường dùng để giải thích vì sao số 2 đặc biệt khó.
 
-Công trình Maynard về gap nhỏ, gap lớn và sàng là một phần **Fields Medal 2022**. Xem [Maynard]({{ site.baseurl }}/contents/vi/chapter02/02_09_Maynard_Primes/).
+Các công trình của Maynard về khoảng cách nhỏ, khoảng cách lớn và phương pháp sàng là một phần lý do ông nhận **Huy chương Fields năm 2022**. Xem bài [Maynard]({{ site.baseurl }}/contents/vi/chapter02/02_09_Maynard_Primes/).
 
 ---
 
-## 5. Còn mở gì?
+## 5. Những gì còn mở?
 
 | Phát biểu | Tình trạng |
 |-----------|------------|
-| Vô hạn nguyên tố | **Đã chứng** (Euclid, …) |
-| Vô hạn cặp sinh đôi (gap = 2) | **Mở** |
-| Một gap chẵn bị chặn xuất hiện vô hạn lần | **Đã chứng** (Zhang / Maynard / Polymath) |
-| $$\liminf(p_{n+1}-p_n)\le 246$$ | **Đã chứng** (bound tham chiếu) |
-| Gap = 2 vô hạn lần | **Mở** |
-| Định lý Chen ($$p+2$$ nguyên tố hoặc bán nguyên tố) | **Đã chứng** |
-| Asymptotic Hardy–Littlewood cho twins | **Mở** (giả thuyết) |
-| Polignac mọi $$2k$$ | **Mở** (sinh đôi là $$k=1$$) |
+| Có vô hạn số nguyên tố | **Đã chứng minh** (Euclid, …) |
+| Có vô hạn cặp sinh đôi (khoảng cách = 2) | **Còn mở** |
+| Có một khoảng cách chẵn bị chặn xuất hiện vô hạn lần | **Đã chứng minh** (Zhang / Maynard / Polymath) |
+| $$\liminf(p_{n+1}-p_n)\le 246$$ | **Đã chứng minh** (cận tham chiếu) |
+| Khoảng cách = 2 xuất hiện vô hạn lần | **Còn mở** |
+| Định lý Chen ($$p+2$$ là số nguyên tố hoặc tích hai số nguyên tố) | **Đã chứng minh** |
+| Công thức tiệm cận Hardy–Littlewood cho số cặp sinh đôi | **Còn mở** (giả thuyết) |
+| Giả thuyết Polignac cho mọi $$2k$$ | **Còn mở** (sinh đôi là trường hợp $$k=1$$) |
 
-**Khoảng cách bị chặn** chứng tỏ nguyên tố tạo cụm chặt vô hạn lần. **Sinh đôi** đòi cụm chẵn chặt nhất. Khoảng từ 246 đến 2 nhỏ như tỷ số số nguyên và khổng lồ như rào cản phương pháp. Đừng gộp hai hàng khi nói chuyện hay viết A3.
+**Khoảng cách bị chặn** cho thấy số nguyên tố tạo thành các cụm gần nhau vô hạn lần. **Giả thuyết sinh đôi** đòi hỏi cụm chặt nhất có thể. Từ 246 xuống 2 trông có vẻ nhỏ nếu chỉ nhìn con số, nhưng rất lớn nếu xét rào cản về phương pháp. Đừng gộp hai dòng này khi thảo luận hay khi viết bài A3.
 
 ---
 
-## 6. Toán học quanh bài toán (bản đồ toolkit)
+## 6. Toán học xung quanh bài toán (các công cụ chính)
 
 - **Lý thuyết sàng:** sàng Selberg, sàng tổ hợp, GPY, trọng số Maynard.  
-- **Nguyên tố trong cấp số cộng:** Bombieri–Vinogradov (trung bình sức GRH); giả thuyết Elliott–Halberstam (phân bố mạnh hơn).  
-- **Tuple admissible** và tối ưu đường kính (tuple hẹp đến đâu vẫn admissible?).  
-- **Lý thuyết số tính toán:** tìm twin lớn; so heuristic với data.
+- **Số nguyên tố trong cấp số cộng:** định lý Bombieri–Vinogradov (về trung bình, mạnh ngang GRH); giả thuyết Elliott–Halberstam (phân bố mạnh hơn).  
+- **Bộ chấp nhận được** và bài toán tối ưu đường kính (bộ có thể hẹp đến đâu mà vẫn chấp nhận được?).  
+- **Lý thuyết số tính toán:** tìm các cặp sinh đôi lớn; so sánh lập luận gần đúng với dữ liệu.
 
-Không cần master các công cụ để phát biểu conjecture đúng—nhưng nêu tên chúng tránh ảo tưởng “chỉ thử chia đến $$N$$ lớn.”
+Không cần thành thạo các công cụ này mới phát biểu đúng được giả thuyết, nhưng biết tên chúng giúp tránh ảo tưởng rằng "chỉ cần thử chia đến $$N$$ lớn".
 
-Bạn có thể làm toán “xung quanh” sinh đôi cả đời (sàng, phân bố, pattern) mà chưa chạm gap 2. Đó là đặc trưng lành mạnh của bài mở lớn. RH ([Ch.1]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/)) kiểm soát sai số đếm; sinh đôi hỏi cấu trúc cặp ở khoảng cố định—công cụ khác, cùng thế giới “nguyên tố sắp xếp thế nào.”
+Có thể làm toán "xung quanh" giả thuyết sinh đôi cả đời (sàng, phân bố, các cấu trúc) mà vẫn chưa chạm tới khoảng cách 2. Đó là đặc điểm bình thường của một bài toán mở lớn. RH ([Chương 1]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/)) kiểm soát sai số khi đếm số nguyên tố; giả thuyết sinh đôi hỏi về cấu trúc các cặp ở một khoảng cách cố định. Công cụ khác nhau, nhưng cùng một câu hỏi lớn: số nguyên tố được sắp xếp như thế nào.
 
 ---
 
-## 7. Polignac, prime tuples, và studio dữ liệu
+## 7. Polignac, các bộ số nguyên tố, và bài thực hành với dữ liệu
 
-**Giả thuyết de Polignac:** mọi chẵn dương $$2k$$ xuất hiện vô hạn lần như hiệu hai nguyên tố. Sinh đôi là $$k=1$$. Định lý gap bị chặn cho thấy *ít nhất một* hiệu chẵn trong một tập admissible hữu hạn xuất hiện vô hạn lần; chúng chưa ghim hiệu đó bằng 2.
+**Giả thuyết de Polignac:** mọi số chẵn dương $$2k$$ đều xuất hiện vô hạn lần dưới dạng hiệu của hai số nguyên tố. Sinh đôi là trường hợp $$k=1$$. Các định lý về khoảng cách bị chặn cho thấy *ít nhất một* hiệu chẵn trong một tập chấp nhận được hữu hạn xuất hiện vô hạn lần, nhưng chưa xác định được hiệu đó bằng 2.
 
-**Prime tuples.** Tổng quát hơn: mẫu $$n+h_1,\ldots,n+h_m$$ đồng thời nguyên tố với shift admissible $$h_i$$ (admissible: không bị buộc phủ hết thặng dư mod $$p$$ nhỏ). Hardy–Littlewood dự đoán asymptotic. Green–Tao (cấp số cộng nguyên tố dài tùy ý) là chiến thắng khác—tổ hợp cộng tính hơn sàng gap thuần—nhưng cùng thế giới “nguyên tố chứa mẫu phong phú.”
+**Bộ số nguyên tố.** Tổng quát hơn: xét bộ $$n+h_1,\ldots,n+h_m$$ đồng thời là số nguyên tố, với các độ dịch $$h_i$$ chấp nhận được (chấp nhận được nghĩa là các độ dịch không phủ hết mọi lớp thặng dư modulo một số nguyên tố nhỏ nào). Hardy–Littlewood dự đoán công thức tiệm cận cho số bộ như vậy. Định lý Green–Tao (có cấp số cộng dài tùy ý gồm toàn số nguyên tố) là một thành công khác, dựa nhiều vào tổ hợp cộng tính hơn là sàng thuần túy, nhưng cùng thuộc chủ đề "số nguyên tố chứa nhiều cấu trúc phong phú".
 
-**Studio nhẹ (không bắt buộc):** đếm số cặp sinh đôi tới $$N$$ và so với
+**Bài thực hành nhẹ (không bắt buộc):** đếm số cặp sinh đôi đến $$N$$ và so sánh với
 
 $$
 c\int_2^N\frac{dx}{(\log x)^2}
 $$
 
-(với hằng số twin prime, hoặc chỉ tỷ lệ thô). Mục tiêu **kỷ luật bằng chứng**, không “chứng minh bằng đồ thị.” Cùng tinh thần verification vs proof như [Collatz]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/).
+(với hằng số số nguyên tố sinh đôi, hoặc chỉ so tỷ lệ thô). Mục tiêu là **rèn cách nhìn đúng về bằng chứng**, không phải "chứng minh bằng đồ thị". Tinh thần phân biệt kiểm tra và chứng minh này giống bài [Collatz]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/).
 
 ---
 
-## Nhầm lẫn thường gặp
+## Hiểu lầm thường gặp
 
-| Khẳng định | Sửa |
+| Khẳng định | Sửa lại |
 |------------|-----|
-| “Zhang chứng minh sinh đôi.” | Ông chứng minh *một* gap bị chặn, không phải gap 2. |
-| “Khoảng cách bị chặn = sinh đôi.” | Bị chặn nghĩa $$\le H$$; sinh đôi cần $$H=2$$. |
-| “Bảng chỉ có hữu hạn twin nên giả thuyết sai.” | Bảng hữu hạn; giả thuyết về vô hạn. |
-| “Euclid dễ mở rộng sang sinh đôi.” | $$N=P+1$$ không buộc cặp cách 2. |
-| “Maynard đã giảm xuống 2.” | Bound vô điều kiện tham chiếu ~246; 2 vẫn mở. |
-| “Chen = sinh đôi.” | Chen cho phép $$p+2$$ là tích hai nguyên tố. |
+| "Zhang đã chứng minh giả thuyết sinh đôi." | Ông chứng minh có *một* khoảng cách bị chặn, không phải khoảng cách 2. |
+| "Khoảng cách bị chặn cũng là sinh đôi." | Bị chặn nghĩa là $$\le H$$; sinh đôi cần $$H=2$$. |
+| "Bảng số chỉ có hữu hạn cặp sinh đôi nên giả thuyết sai." | Bảng số luôn hữu hạn; giả thuyết nói về vô hạn. |
+| "Lập luận của Euclid dễ dàng mở rộng cho sinh đôi." | $$N=P+1$$ không buộc có cặp cách nhau 2. |
+| "Maynard đã giảm xuống 2." | Cận không điều kiện tham chiếu là khoảng 246; khoảng cách 2 vẫn còn mở. |
+| "Định lý Chen chính là giả thuyết sinh đôi." | Định lý Chen cho phép $$p+2$$ là tích của hai số nguyên tố. |
 
 ---
 
 ## Bài tập
 
 1. Liệt kê năm cặp sinh đôi lớn hơn 100.  
-2. Vì sao $$(2,4)$$ không phải cặp sinh đôi? $$(2,3)$$ thì sao?  
-3. Phát biểu định lý Zhang bằng lời **không** cần số 70 triệu (“tồn tại chặn hữu hạn…”).  
-4. **LO1 (≤300 từ):** giả thuyết sinh đôi, vì sao khó, toán xung quanh (sàng / khoảng cách bị chặn).  
-5. So với [Collatz]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/): phát biểu sơ cấp so với độ sâu kỹ thuật.  
-6. **LO6:** sửa tiêu đề giả “Nhà toán học Trung Quốc chứng minh vô hạn cặp sinh đôi (2013).”  
-7. Đọc một tường thuật phổ thông về Zhang 2013; liệt kê ba thành phần toán được nêu (sàng, GPY, phân bố cấp số cộng, …).  
-8. Stretch: giải thích trong năm dòng vì sao Elliott–Halberstam giúp giảm $$H$$ nhưng vẫn chưa tự động cho $$H=2$$ (khẩu hiệu).
+2. Vì sao $$(2,4)$$ không phải cặp sinh đôi? Còn $$(2,3)$$ thì sao?  
+3. Phát biểu định lý Zhang bằng lời mà **không** cần nhắc con số 70 triệu ("tồn tại một cận hữu hạn…").  
+4. **Mục tiêu 1 (không quá 300 từ):** giả thuyết sinh đôi, vì sao khó, toán học xung quanh (phương pháp sàng / khoảng cách bị chặn).  
+5. So sánh với [Collatz]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/): phát biểu sơ cấp nhưng đòi hỏi kỹ thuật sâu.  
+6. **Mục tiêu 6:** sửa tiêu đề sai "Nhà toán học Trung Quốc chứng minh có vô hạn cặp sinh đôi (2013)".  
+7. Đọc một bài phổ thông về kết quả của Zhang năm 2013; liệt kê ba thành phần toán học được nhắc đến (sàng, GPY, phân bố trong cấp số cộng, …).  
+8. Mở rộng: giải thích trong năm dòng vì sao giả thuyết Elliott–Halberstam giúp giảm $$H$$ nhưng không tự động cho $$H=2$$ (ở mức ý tưởng).
 
 ---
 
-## Từ video: chuỗi 2013–2014 bằng khẩu hiệu
+## Từ các video: chuỗi sự kiện 2013–2014 tóm tắt
 
-Numberphile (Zhang, Maynard), colloquium Maynard, và tường thuật Quanta 2013 tạo một câu chuyện LO1:
+Các video của Numberphile (Zhang, Maynard), bài giảng của Maynard và bài viết của Quanta năm 2013 cho ta câu chuyện sau (mục tiêu 1):
 
-1. **GPY** dựng khung sàng *sẽ* cho khoảng cách bị chặn nếu phân bố nguyên tố trong cấp số cộng tốt hơn một chút so với Bombieri–Vinogradov.  
-2. **Zhang (2013)** chứng minh mức phân bố yếu đủ mạnh để $$\liminf(p_{n+1}-p_n)\le 70{,}000{,}000$$ (Polymath tối ưu sau đó).  
-3. **Maynard (và Tao độc lập)** tinh chỉnh trọng số sàng nhiều chiều; bound giảm mạnh; Polymath hướng tới **$$H=246$$** vô điều kiện.  
-4. **Vẫn mở:** khoảng cách $$2$$ (sinh đôi) và **parity barrier**.
+1. **GPY** dựng một khung sàng *sẽ* cho khoảng cách bị chặn nếu số nguyên tố phân bố trong cấp số cộng tốt hơn một chút so với định lý Bombieri–Vinogradov.  
+2. **Zhang (2013)** chứng minh một mức phân bố yếu hơn nhưng đủ mạnh để có $$\liminf(p_{n+1}-p_n)\le 70{,}000{,}000$$ (sau đó Polymath tối ưu thêm).  
+3. **Maynard (và Tao, độc lập)** cải tiến trọng số sàng nhiều chiều; cận giảm mạnh; Polymath đưa cận không điều kiện về **$$H=246$$**.  
+4. **Vẫn còn mở:** khoảng cách $$2$$ (sinh đôi) và **rào cản chẵn lẻ**.
 
-**Tình trạng (2026):** giả thuyết sinh đôi **mở**; khoảng cách bị chặn **đã chứng minh**.
+**Tình trạng (2026):** giả thuyết sinh đôi **còn mở**; khoảng cách bị chặn **đã được chứng minh**.
 
 ---
 
-## Nguồn video (gói math-video-researcher)
+## Nguồn video (bộ tư liệu nghiên cứu video)
 
-Xếp hạng: `research/video-research/Twin_Prime_Conjecture/`.
+Đánh giá: `research/video-research/Twin_Prime_Conjecture/`.
 
 **Thứ tự gợi ý**
 
 1. **Định hướng** — Numberphile, *Gaps between Primes*: [YouTube](https://www.youtube.com/watch?v=vkMXdShDdtY).  
-2. **Cốt lõi phổ thông** — Numberphile, *Twin Prime Conjecture* (Maynard): [YouTube](https://www.youtube.com/watch?v=QKHKD8bRAro).  
-3. **Bài nghiên cứu** — Maynard, *Small Gaps Between Primes*: [YouTube](https://www.youtube.com/watch?v=E-W47F9upkU).  
-4. **Tường thuật** — Quanta (2013): [bài](https://www.quantamagazine.org/mathematicians-team-up-on-twin-primes-conjecture-20131119/).  
+2. **Cốt lõi (phổ thông)** — Numberphile, *Twin Prime Conjecture* (Maynard): [YouTube](https://www.youtube.com/watch?v=QKHKD8bRAro).  
+3. **Bài giảng nghiên cứu** — Maynard, *Small Gaps Between Primes*: [YouTube](https://www.youtube.com/watch?v=E-W47F9upkU).  
+4. **Bài viết** — Quanta (2013): [bài](https://www.quantamagazine.org/mathematicians-team-up-on-twin-primes-conjecture-20131119/).  
 5. **Bài báo** — Maynard [arXiv:1311.4600](https://arxiv.org/abs/1311.4600).
 
-**Sau video:** khoảng cách bị chặn **đã chứng minh**; sinh đôi ($$H=2$$) **mở**. Không viết “Zhang chứng minh giả thuyết sinh đôi.”
+**Sau khi xem:** khoảng cách bị chặn **đã được chứng minh**; giả thuyết sinh đôi ($$H=2$$) **còn mở**. Đừng viết "Zhang chứng minh giả thuyết sinh đôi".
 
 ---
 
 
-### Transcript & frames (batch extract)
+### Phụ đề và khung hình (trích xuất hàng loạt)
 
-Transcript caption và unit theo thời gian: `research/video-research/Twin_Prime_Conjecture/transcripts/` · trạng thái: `research/video-research/Twin_Prime_Conjecture/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
+Phụ đề và các đoạn theo thời gian: `research/video-research/Twin_Prime_Conjecture/transcripts/` · trạng thái: `research/video-research/Twin_Prime_Conjecture/TRANSCRIPT_STATUS.md` · tổng hợp: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
 
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/Twin_Prime_Conjecture_vkMXdShDdtY_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính (xem bộ tư liệu để biết mốc thời gian).*
 
 ## Tài liệu
 
-Thư mục URL: `research/video-research/Twin_Prime_Conjecture/references.md`.
+Danh sách URL: `research/video-research/Twin_Prime_Conjecture/references.md`.
 
-1. Zhang — bounded gaps (*Annals*, 2014).  
-2. Maynard — [arXiv:1311.4600](https://arxiv.org/abs/1311.4600) · [survey arXiv:1910.13450](https://arxiv.org/abs/1910.13450).  
+1. Zhang — bài về khoảng cách bị chặn (*Annals*, 2014).  
+2. Maynard — [arXiv:1311.4600](https://arxiv.org/abs/1311.4600) · [bài tổng quan arXiv:1910.13450](https://arxiv.org/abs/1910.13450).  
 3. Polymath8: http://bit.ly/polymath8  
 4. Hardy–Littlewood; Wikipedia — [Twin prime](https://en.wikipedia.org/wiki/Twin_prime).  
 5. Numberphile Zhang: https://www.youtube.com/watch?v=vkMXdShDdtY  
 6. Numberphile Maynard: https://www.youtube.com/watch?v=QKHKD8bRAro  
 7. Maynard colloquium: https://www.youtube.com/watch?v=E-W47F9upkU  
 8. Quanta 2013: https://www.quantamagazine.org/mathematicians-team-up-on-twin-primes-conjecture-20131119/  
-9. [Maynard]({{ site.baseurl }}/contents/vi/chapter02/02_09_Maynard_Primes/), [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/), [Euclid]({{ site.baseurl }}/contents/vi/chapter05/05_02_Euclid_Infinite_Primes/). Gói: `research/video-research/Twin_Prime_Conjecture/`.
+9. [Maynard]({{ site.baseurl }}/contents/vi/chapter02/02_09_Maynard_Primes/), [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/), [Euclid]({{ site.baseurl }}/contents/vi/chapter05/05_02_Euclid_Infinite_Primes/). Bộ tư liệu: `research/video-research/Twin_Prime_Conjecture/`.
 
 ---
 
 ## Hướng đi tiếp
 
-Ứng viên **A3**. Studio: đếm twin tới $$N$$ so heuristic. Essay Maynard: Fields gắn *phương pháp*, không chỉ số $$H$$. Bảng §5 là xương sống—khoanh đúng ô còn mở.
+Có thể chọn làm đề tài cho bài **A3**. Bài thực hành: đếm số cặp sinh đôi đến $$N$$ và so sánh với lập luận gần đúng. Khi đọc bài Maynard, chú ý rằng Giải Fields ghi nhận *phương pháp*, không chỉ con số $$H$$. Bảng ở mục 5 là phần cốt lõi: hãy chỉ đúng những ô còn mở.
 
 ## Video tham khảo
 
-- **xem trước** — [Gaps between Primes - Numberphile](https://www.youtube.com/watch?v=vkMXdShDdtY) — Numberphile, tiếng Anh. Xem trước. “Gaps between Primes - Numberphile” định hướng cho mục tiêu của bài: Phát biểu giả thuyết số nguyên tố sinh đôi và đưa ví dụ cặp sinh đôi.
-- [Twin Prime Conjecture - Numberphile](https://www.youtube.com/watch?v=QKHKD8bRAro) — Numberphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu giả thuyết số nguyên tố sinh đôi và đưa ví dụ cặp sinh đôi.
-- [Small Gaps Between Primes - James Maynard](https://www.youtube.com/watch?v=E-W47F9upkU) — princetonmathematics, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu giả thuyết số nguyên tố sinh đôi và đưa ví dụ cặp sinh đôi.
+- **Xem trước:** [Gaps between Primes - Numberphile](https://www.youtube.com/watch?v=vkMXdShDdtY) — Numberphile, tiếng Anh. Giới thiệu kết quả của Zhang về khoảng cách giữa các số nguyên tố; nên xem trước khi đọc bài.
+- [Twin Prime Conjecture - Numberphile](https://www.youtube.com/watch?v=QKHKD8bRAro) — Numberphile, tiếng Anh. Maynard giải thích giả thuyết sinh đôi và các tiến bộ gần đây; nên xem sau khi đã nắm ý chính của bài.
+- [Small Gaps Between Primes - James Maynard](https://www.youtube.com/watch?v=E-W47F9upkU) — princetonmathematics, tiếng Anh. Xem thêm sau hai video trên; bài giảng nghiên cứu có nhiều chi tiết kỹ thuật hơn.

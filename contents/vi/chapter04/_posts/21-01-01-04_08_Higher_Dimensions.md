@@ -9,9 +9,9 @@ categories:
 - chapter04
 ---
 
-**Chiều cao hơn** (higher dimensions) mở rộng độ dài, diện tích, thể tích vượt ba tọa độ. Điểm trong $$\mathbb{R}^n$$ là bộ có thứ tự $$(x_1,\ldots,x_n)$$; khoảng cách, cầu, lập phương, đại số tuyến tính đều tổng quát hóa. Cú sốc: chiều không chỉ “thêm cùng một thứ”—**điều hiếm trong 3D có thể điển hình trong 300D**. Tập trung độ đo, lời nguyền chiều trong dữ liệu, hình học siêu cầu định hình lại trực giác cho giải tích, xác suất và học máy hiện đại.
+**Không gian nhiều chiều** (higher dimensions) mở rộng các khái niệm độ dài, diện tích, thể tích ra ngoài ba tọa độ. Một điểm trong $$\mathbb{R}^n$$ là một bộ có thứ tự $$(x_1,\ldots,x_n)$$; khoảng cách, quả cầu, hình lập phương và đại số tuyến tính đều tổng quát hóa được. Điều bất ngờ là thêm chiều không chỉ đơn giản là "thêm một thứ giống như cũ": **điều hiếm gặp trong 3 chiều có thể trở thành điển hình trong 300 chiều**. Sự tập trung độ đo, "lời nguyền số chiều" trong dữ liệu và hình học của siêu cầu thay đổi trực giác của ta trong giải tích, xác suất và học máy hiện đại.
 
-**Lộ trình:** tọa độ và khoảng cách → siêu lập phương và siêu cầu → lát cắt và chiếu → công thức thể tích và bất ngờ → tập trung độ đo → dữ liệu và thuật toán → nhầm lẫn, bài tập, hướng đi tiếp.
+**Lộ trình:** tọa độ và khoảng cách → siêu lập phương và siêu cầu → lát cắt và phép chiếu → công thức thể tích và những điều bất ngờ → tập trung độ đo → dữ liệu và thuật toán → nhầm lẫn thường gặp, bài tập, hướng đi tiếp.
 
 ---
 
@@ -19,18 +19,18 @@ categories:
 
 Sau bài học, bạn có thể:
 
-- Dùng tọa độ và chuẩn Euclid trên $$\mathbb{R}^n$$ tự tin.
-- Mô tả **siêu lập phương** và **siêu cầu** và cách “khối lượng” của chúng biến đổi khi $$n$$ tăng.
-- Giải thích **chiếu và lát cắt** như công cụ hình dung mà không tuyên bố nắm trọn hình ảnh.
-- Phát biểu sự kiện định tính **tập trung độ đo**: phần lớn độ đo mặt cầu chiều cao nằm gần xích đạo / vỏ mỏng.
-- Nối chiều cao với ít nhất một hiện tượng khoa học dữ liệu (khoảng cách tập trung, lời nguyền chiều).
-- Tránh “chiều thứ tư là thời gian nên toán dừng ở 3” như nhầm mô hình vật lý với $$\mathbb{R}^n$$.
+- Dùng tọa độ và chuẩn Euclid trên $$\mathbb{R}^n$$ một cách tự tin.
+- Mô tả **siêu lập phương** và **siêu cầu**, và cách "kích thước" của chúng thay đổi khi $$n$$ tăng.
+- Giải thích **phép chiếu và lát cắt** là công cụ để hình dung, nhưng không cho ta thấy toàn bộ hình.
+- Phát biểu định tính hiện tượng **tập trung độ đo**: ở số chiều cao, phần lớn diện tích mặt cầu nằm gần xích đạo, và phần lớn thể tích quả cầu nằm trong một lớp vỏ mỏng.
+- Liên hệ không gian nhiều chiều với ít nhất một hiện tượng trong khoa học dữ liệu (khoảng cách bị tập trung, lời nguyền số chiều).
+- Tránh suy nghĩ "chiều thứ tư là thời gian nên toán học dừng ở 3 chiều", vốn nhầm lẫn mô hình vật lý với $$\mathbb{R}^n$$.
 
-**Kiến thức cần có.** Vector trong $$\mathbb{R}^2$$, $$\mathbb{R}^3$$; Pythagoras; xác suất cơ bản giúp cho tập trung.
+**Kiến thức cần có.** Vectơ trong $$\mathbb{R}^2$$, $$\mathbb{R}^3$$; định lý Pythagoras; xác suất cơ bản sẽ giúp ích ở phần tập trung độ đo.
 
 ---
 
-## 1. Tọa độ không sợ
+## 1. Tọa độ: không có gì đáng sợ
 
 Không gian Euclid $$n$$ chiều là
 
@@ -44,17 +44,17 @@ $$
 \|x-y\|_2=\sqrt{\sum_{i=1}^n(x_i-y_i)^2}.
 $$
 
-Không gian con tuyến tính, trực giao, chiếu hoạt động như ba chiều qua cùng công thức đại số. Không có gì huyền bí về $$n=4$$ hay $$n=100$$: định nghĩa không đòi tưởng tượng bốn trục vuông góc trong không gian vật lý. Hình dung là *công cụ*, không phải điều kiện của chân lý.
+Không gian con tuyến tính, tính trực giao và phép chiếu hoạt động giống như trong ba chiều, với cùng các công thức đại số. Không có gì huyền bí ở $$n=4$$ hay $$n=100$$: định nghĩa không đòi hỏi ta phải tưởng tượng bốn trục vuông góc trong không gian thật. Hình dung chỉ là *công cụ*, không phải điều kiện để một mệnh đề đúng.
 
-Vật lý có thể dùng không–thời gian 4D với metric khác dấu; đó là mô hình tự nhiên. Hình học thuần của $$\mathbb{R}^n$$ là dự án khác—và là trọng tâm bài này.
+Vật lý dùng không – thời gian 4 chiều với một metric có dấu khác; đó là một mô hình của tự nhiên. Hình học thuần túy của $$\mathbb{R}^n$$ là một chuyện khác, và là trọng tâm của bài này.
 
 ---
 
-## 2. Siêu lập phương và cấu trúc đếm
+## 2. Siêu lập phương và các phép đếm
 
-Siêu lập phương đơn vị $$[0,1]^n$$ có $$2^n$$ đỉnh, $$n\cdot 2^{n-1}$$ cạnh, và mạng mặt phong phú. Thể tích (độ đo Lebesgue) của lập phương cạnh $$a$$ là $$a^n$$: với $$0<a<1$$ tiến về $$0$$ khi $$n\to\infty$$, với $$a>1$$ bùng nổ. **Số mũ chiều thống trị trực giác rèn ở $$n=3$$**.
+Siêu lập phương đơn vị $$[0,1]^n$$ có $$2^n$$ đỉnh, $$n\cdot 2^{n-1}$$ cạnh, và rất nhiều mặt ở các chiều khác nhau. Thể tích (độ đo Lebesgue) của hình lập phương cạnh $$a$$ là $$a^n$$: với $$0<a<1$$, nó tiến về $$0$$ khi $$n\to\infty$$; với $$a>1$$, nó tăng vọt. **Số mũ theo số chiều lấn át trực giác mà ta rèn luyện ở $$n=3$$**.
 
-Đồ thị siêu lập phương là sân chơi lý thuyết mã và tính toán song song: mã Gray đi qua đỉnh bằng lật từng bit—đúng là đường đi trên $$n$$-lập phương.
+Đồ thị siêu lập phương là sân chơi của lý thuyết mã và tính toán song song: mã Gray đi qua các đỉnh bằng cách đổi từng bit một, đúng là một đường đi trên $$n$$-lập phương.
 
 ---
 
@@ -64,10 +64,15 @@ Siêu lập phương đơn vị $$[0,1]^n$$ có $$2^n$$ đỉnh, $$n\cdot 2^{n-1
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/ball-volume-dimensions_vi.mp4"></video>
 </div>
 
-Thể tích quả cầu đơn vị đạt cực đại ở chiều 5 (khoảng 5,26) rồi giảm dần về 0, và chiếm một phần ngày càng biến mất của hình lập phương [−1, 1]ⁿ.
+Thể tích quả cầu đơn vị đạt cực đại ở chiều 5 (khoảng 5,26) rồi giảm dần về 0, và chiếm một phần ngày càng biến mất của hình lập phương $$[-1,1]^n$$.
 
 
-## 3. Siêu cầu: thể tích và diện mặt
+### Tự tay thử: Kéo qua các số chiều
+
+<div class="mex-explainer" data-mex="ball" data-lang="vi"></div>
+
+
+## 3. Siêu cầu: thể tích và diện tích mặt
 
 Quả cầu và mặt cầu trong $$\mathbb{R}^n$$:
 
@@ -81,90 +86,90 @@ $$
 \mathrm{Vol}(B^n(R))=V_n R^n,\qquad V_n=\frac{\pi^{n/2}}{\Gamma\!\left(\frac{n}{2}+1\right)}.
 $$
 
-Bất ngờ nổi tiếng: với bán kính cố định $$R=1$$, thể tích $$V_n$$ **tăng** ở $$n$$ nhỏ rồi **tiến về 0** khi $$n\to\infty$$. Quả cầu đơn vị trở nên “nhỏ” theo nghĩa Lebesgue ở chiều cao, trong khi tổ hợp hướng bùng nổ.
+Một điều bất ngờ nổi tiếng: với bán kính cố định $$R=1$$, thể tích $$V_n$$ **tăng** khi $$n$$ còn nhỏ, rồi **tiến về 0** khi $$n\to\infty$$. Quả cầu đơn vị trở nên "nhỏ" theo nghĩa thể tích ở số chiều cao, trong khi số hướng khác nhau lại bùng nổ.
 
-Phần lớn thể tích quả cầu chiều cao nằm trong vỏ mỏng gần biên: “ruột” không đáng kể so với vỏ độ dày tương đối nhỏ. Cam chiều cao gần như toàn vỏ.
+Phần lớn thể tích của quả cầu nhiều chiều nằm trong một lớp vỏ mỏng gần biên: phần "ruột" không đáng kể so với lớp vỏ có độ dày tương đối nhỏ. Một quả cam nhiều chiều gần như chỉ toàn vỏ.
 
 ---
 
-## 4. Nhìn cái không thấy: lát cắt và chiếu
+## 4. Nhìn thứ không thấy được: lát cắt và phép chiếu
 
-Người nhìn chiếu 2D của vật 3D. Với vật 4D ta dùng thủ thuật tương tự:
+Ta nhìn thấy hình chiếu 2 chiều của các vật 3 chiều. Với vật 4 chiều, ta dùng những thủ thuật tương tự:
 
-- **Chiếu** lên không gian con 2D hoặc 3D (biểu đồ Schlegel; đồ họa tesseract quay).
-- **Lát cắt:** giao vật 4D với siêu phẳng 3D và xem lát 3D tiến hóa khi siêu phẳng dịch—tương tự MRI.
-- **Chuỗi loại suy:** điểm → đoạn → vuông → lập phương → tesseract.
+- **Phép chiếu** xuống không gian con 2 hoặc 3 chiều (biểu đồ Schlegel; hình động tesseract xoay).
+- **Lát cắt:** cắt vật 4 chiều bằng một siêu phẳng 3 chiều và xem lát cắt 3 chiều thay đổi thế nào khi siêu phẳng di chuyển, giống như chụp MRI.
+- **Chuỗi tương tự:** điểm → đoạn thẳng → hình vuông → hình lập phương → tesseract.
 
-Không cách nào “cho thấy chiều thứ tư như nó là.” Chúng cho **bóng và lát**, đúng cách khoa học luôn làm với mô hình chiều cao: đo thống kê chiều thấp của trạng thái chiều cao.
+Không cách nào trong số này "cho thấy chiều thứ tư đúng như nó là". Chúng chỉ cho ta **bóng và lát cắt**, đúng như cách khoa học vẫn làm với các mô hình nhiều chiều: đo những thống kê ít chiều của một trạng thái nhiều chiều.
 
 ---
 
 ## 5. Tập trung độ đo
 
-Trên mặt cầu $$S^{n-1}$$ với độ đo đều, hàm Lipschitz gần như hằng khi $$n$$ lớn. Đặc biệt, với hướng cố định điển hình, phần lớn độ đo mặt nằm gần xích đạo vuông góc hướng đó. Khoảng cách và tích trong tập trung: vector đơn vị ngẫu nhiên gần như trực giao ở chiều cao, với xác suất cao.
+Trên mặt cầu $$S^{n-1}$$ với độ đo đều, các hàm Lipschitz gần như là hằng số khi $$n$$ lớn. Đặc biệt, với một hướng cố định bất kỳ, phần lớn diện tích mặt cầu nằm gần "đường xích đạo" vuông góc với hướng đó. Khoảng cách và tích vô hướng cũng bị tập trung: ở số chiều cao, hai vectơ đơn vị ngẫu nhiên gần như vuông góc với xác suất cao.
 
-Sơ đồ: nếu $$X$$ đều trên mặt cầu (hoặc độ đo tích phù hợp) và $$f$$ Lipschitz,
+Phác thảo: nếu $$X$$ phân bố đều trên mặt cầu (hoặc theo một độ đo tích phù hợp) và $$f$$ là hàm Lipschitz, thì
 
 $$
 \mathbb{P}\bigl(\lvert f(X)-\mathrm{Med}(f)\rvert>t\bigr)\le 2e^{-c n t^2}
 $$
 
-—**tập trung mũ**. Chiều cao không chỉ lớn hơn; nó **cứng hơn về mặt thống kê**.
+Đây là **sự tập trung theo hàm mũ**. Không gian nhiều chiều không chỉ lớn hơn; nó **ổn định hơn về mặt thống kê**.
 
-Đó là vì sao Monte Carlo, chiếu ngẫu nhiên (Johnson–Lindenstrauss), và giải tích hàm hình học mang hương vị chiều cao đặc trưng.
+Đó là lý do vì sao phương pháp Monte Carlo, phép chiếu ngẫu nhiên (bổ đề Johnson–Lindenstrauss) và giải tích hàm hình học mang những đặc trưng riêng của không gian nhiều chiều.
 
 ---
 
-## 6. Dữ liệu, thuật toán, lời nguyền chiều
+## 6. Dữ liệu, thuật toán và lời nguyền số chiều
 
-Tập dữ liệu $$N$$ điểm trong $$\mathbb{R}^n$$ với $$n$$ lớn hành xử khác đám mây chiều thấp:
+Một tập dữ liệu gồm $$N$$ điểm trong $$\mathbb{R}^n$$ với $$n$$ lớn hành xử khác hẳn một đám mây điểm ít chiều:
 
-- Khoảng cách cặp có thể tập trung, làm yếu trực giác láng giềng gần nhất.
-- Thể tích không gian tăng quá nhanh khiến mẫu thưa—**lời nguyền chiều**.
-- Phương pháp tuyến tính (PCA, chiếu ngẫu nhiên) khai thác cấu trúc thú vị thường nằm gần không gian con hoặc đa tạp chiều thấp.
+- Khoảng cách giữa các cặp điểm có thể gần bằng nhau, làm trực giác về "láng giềng gần nhất" kém đi.
+- Thể tích không gian tăng quá nhanh nên các mẫu trở nên thưa thớt: đó là **lời nguyền số chiều**.
+- Các phương pháp tuyến tính (PCA, phép chiếu ngẫu nhiên) khai thác việc cấu trúc đáng quan tâm thường nằm gần một không gian con hoặc một đa tạp ít chiều.
 
-Học máy sống trong hàng nghìn chiều (đặc trưng, embedding). Hình học thuần của bài này không chỉ ẩn dụ; đó là không gian ambient của dữ liệu hiện đại.
+Học máy làm việc trong hàng nghìn chiều (các đặc trưng, các embedding). Hình học thuần túy trong bài này không chỉ là ẩn dụ; đó chính là không gian chứa dữ liệu hiện đại.
 
 ---
 
 ## 7. Vì sao quan trọng
 
-- **Đại số tuyến tính và giải tích.** Không gian hàm vô hạn chiều; $$n$$ hữu hạn lớn là cầu nối.
-- **Xác suất.** Định lý giới hạn và tập trung độ đo.
-- **Tôpô và hình học.** Mặt cầu, cấu trúc ngoại lai, độ cong chiều cao.
-- **Ứng dụng.** Khoa học dữ liệu, tối ưu, mã hóa, vật lý thống kê.
+- **Đại số tuyến tính và giải tích.** Không gian hàm là vô hạn chiều; $$n$$ hữu hạn nhưng lớn là cầu nối.
+- **Xác suất.** Các định lý giới hạn và sự tập trung độ đo.
+- **Tôpô và hình học.** Mặt cầu, các cấu trúc lạ (exotic), độ cong ở số chiều cao.
+- **Ứng dụng.** Khoa học dữ liệu, tối ưu hóa, mã hóa, vật lý thống kê.
 
-Toán đẹp: chiều là **tham số biến đổi “điển hình” nghĩa là gì**.
+Điều đẹp đẽ: số chiều là **một tham số làm thay đổi ý nghĩa của từ "điển hình"**.
 
 ---
 
 ## 8. Nhầm lẫn thường gặp
 
-1. “Chỉ có ba chiều.” — Mô hình không gian vật lý có thể 3D; $$\mathbb{R}^n$$ toán học không hạn chế.
-2. “Chiều thứ tư phải là thời gian.” — Một diễn giải vật lý, không phải định nghĩa $$\mathbb{R}^4$$.
-3. “Quả cầu chiều cao rất to.” — Thể tích quả cầu đơn vị tiến về $$0$$ khi $$n\to\infty$$.
-4. “Chiếu cho thấy mọi thứ.” — Chiếu mất thông tin.
-5. “Tập trung nghĩa là mọi điểm giống nhau.” — Hàm của trạng thái tập trung; không gian trạng thái vẫn lớn.
-6. “Lời nguyền chiều ⇒ toán chiều cao vô dụng.” — Thuật toán ngây thơ thất bại; phương pháp có cấu trúc phát huy.
+1. "Chỉ có ba chiều." Mô hình không gian vật lý có thể là 3 chiều; nhưng $$\mathbb{R}^n$$ trong toán học không bị giới hạn như vậy.
+2. "Chiều thứ tư phải là thời gian." Đó là một cách diễn giải vật lý, không phải định nghĩa của $$\mathbb{R}^4$$.
+3. "Quả cầu nhiều chiều rất to." Thể tích quả cầu đơn vị tiến về $$0$$ khi $$n\to\infty$$.
+4. "Phép chiếu cho thấy mọi thứ." Phép chiếu làm mất thông tin.
+5. "Tập trung nghĩa là mọi điểm đều giống nhau." Chỉ các hàm của trạng thái là tập trung; bản thân không gian trạng thái vẫn rất lớn.
+6. "Lời nguyền số chiều nghĩa là toán nhiều chiều vô dụng." Các thuật toán ngây thơ thất bại; các phương pháp khai thác cấu trúc thì vẫn hiệu quả.
 
 ---
 
-### Khẩu hiệu chiều cao (từ nghiên cứu video)
+### Những ý chính về không gian nhiều chiều (từ phần tìm hiểu video)
 
-- [3B1B higher dimensions](https://www.youtube.com/watch?v=zwAD6dRSVyI): ưu tiên tọa độ + ánh xạ tuyến tính hơn “nhìn thấy 4D.”
-- Tỉ lệ thể tích siêu cầu theo chiều là cú sốc chuẩn — hãy lập một bảng.
-- Tập trung độ đo giải thích vì sao xác suất chiều cao thường gần tất định.
+- [3B1B higher dimensions](https://www.youtube.com/watch?v=zwAD6dRSVyI): ưu tiên tọa độ và ánh xạ tuyến tính hơn là cố "nhìn thấy 4 chiều".
+- Tỉ lệ thể tích siêu cầu theo số chiều là cú sốc kinh điển; hãy tự lập một bảng.
+- Sự tập trung độ đo giải thích vì sao xác suất ở số chiều cao thường gần như tất định.
 
 ## Bài tập
 
-1. Khoảng cách giữa đỉnh đối diện của lập phương đơn vị trong $$\mathbb{R}^2$$, $$\mathbb{R}^3$$, $$\mathbb{R}^n$$.
-2. $$n$$-lập phương có bao nhiêu đỉnh và cạnh?
-3. Vì sao thể tích $$a^n$$ của lập phương cạnh $$a\in(0,1)$$ triệt tiêu khi $$n\to\infty$$?
-4. Mô tả một hình dung tesseract dựa trên lát cắt.
-5. ≤200 từ: ý tưởng tập trung độ đo và vì sao làm lạ trực giác 3D.
-6. Một lý do tìm láng giềng gần nhất có thể suy giảm ở chiều cao.
-7. (Mở rộng) Bổ đề Johnson–Lindenstrauss ở mức slogan.
-8. (Mở rộng) Nối [xếp cầu]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/) hoặc [khám phá chiều bốn]({{ site.baseurl }}/contents/vi/chapter07/07_06_Explore_Fourth_Dimension/).
+1. Tính khoảng cách giữa hai đỉnh đối diện của hình lập phương đơn vị trong $$\mathbb{R}^2$$, $$\mathbb{R}^3$$, $$\mathbb{R}^n$$.
+2. Hình $$n$$-lập phương có bao nhiêu đỉnh và bao nhiêu cạnh?
+3. Vì sao thể tích $$a^n$$ của hình lập phương cạnh $$a\in(0,1)$$ tiến về 0 khi $$n\to\infty$$?
+4. Mô tả một cách hình dung tesseract bằng lát cắt.
+5. Viết không quá 200 từ: ý tưởng của sự tập trung độ đo và vì sao nó trái với trực giác 3 chiều.
+6. Nêu một lý do khiến việc tìm láng giềng gần nhất kém hiệu quả ở số chiều cao.
+7. (Mở rộng) Phát biểu bổ đề Johnson–Lindenstrauss bằng một câu.
+8. (Mở rộng) Liên hệ với [xếp cầu]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/) hoặc [khám phá chiều thứ tư]({{ site.baseurl }}/contents/vi/chapter07/07_06_Explore_Fourth_Dimension/).
 
 ---
 
@@ -226,24 +231,24 @@ Danh mục URL đầy đủ (mọi link tìm được khi nghiên cứu video): 
 
 ## Hướng đi tiếp
 
-Thực hành: [Khám phá chiều bốn]({{ site.baseurl }}/contents/vi/chapter07/07_06_Explore_Fourth_Dimension/). Xếp cầu: [Viazovska]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/). Hình học dữ liệu: [Đại số tuyến tính và AI]({{ site.baseurl }}/contents/vi/chapter03/03_03_Linear_Algebra_AI/). Nhúng lạ trong 3D: [Hình học lạ]({{ site.baseurl }}/contents/vi/chapter04/04_06_Strange_Geometry/).
+Thực hành: [Khám phá chiều bốn]({{ site.baseurl }}/contents/vi/chapter07/07_06_Explore_Fourth_Dimension/). Xếp cầu: [Viazovska]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/). Hình học của dữ liệu: [Đại số tuyến tính và AI]({{ site.baseurl }}/contents/vi/chapter03/03_03_Linear_Algebra_AI/). Những cách nhúng lạ trong 3 chiều: [Hình học lạ]({{ site.baseurl }}/contents/vi/chapter04/04_06_Strange_Geometry/).
 
 
-## Thể tích, mặt cầu, và sự tập trung độ đo
+## Thể tích, mặt cầu và sự tập trung độ đo
 
-Ở chiều cao, phần lớn “thể tích” của quả cầu đơn vị nằm gần xích đạo; nhiều hàm Lipschitz gần như hằng trên phần lớn độ đo. Đây là cầu nối sang [hình học chiều cao]({{ site.baseurl }}/contents/vi/chapter06/06_08_High_Dimensional_Geometry/) và [Talagrand]({{ site.baseurl }}/contents/vi/chapter08/08_09_Talagrand_Probability/). Bài này chỉ cần khẩu hiệu: **chiều cao thay đổi hình học đo được**, không chỉ “thêm một trục tọa độ”.
+Ở số chiều cao, phần lớn thể tích của quả cầu đơn vị nằm gần xích đạo (và cũng gần biên); nhiều hàm Lipschitz gần như là hằng số trên phần lớn không gian. Đây là cầu nối sang [hình học nhiều chiều]({{ site.baseurl }}/contents/vi/chapter06/06_08_High_Dimensional_Geometry/) và [Talagrand]({{ site.baseurl }}/contents/vi/chapter08/08_09_Talagrand_Probability/). Bài này chỉ cần ghi nhớ: **số chiều cao làm thay đổi hình học của độ đo**, chứ không chỉ là "thêm một trục tọa độ".
 
-## Hình dung mà không vẽ được
+## Hình dung thứ không vẽ được
 
-Chiến lược sư phạm: chiếu xuống 2D/3D, đếm bậc tự do, theo dõi công thức thể tích $$V_n$$ và diện tích mặt cầu theo $$n$$, quan sát cực đại rồi suy giảm. “Thấy” chiều 10 nghĩa là **kiểm soát công thức và bất đẳng thức**, không phải render pixel.
+Cách học hiệu quả: chiếu xuống 2 hoặc 3 chiều, đếm số bậc tự do, theo dõi công thức thể tích $$V_n$$ và diện tích mặt cầu theo $$n$$, quan sát chúng đạt cực đại rồi giảm dần. "Thấy" được không gian 10 chiều nghĩa là **nắm vững các công thức và bất đẳng thức**, chứ không phải vẽ ra từng điểm ảnh.
 
-## Studio
+## Bài thực hành
 
-Tính hoặc tra tỉ số thể tích quả cầu đơn vị chiều $$n$$ và $$n+1$$ cho vài $$n$$; viết nhận xét một đoạn về xu hướng. Nêu một hệ quả cho thuật toán lấy mẫu ngẫu nhiên.
+Tính hoặc tra tỉ số thể tích của quả cầu đơn vị $$n$$ chiều và $$n+1$$ chiều với một vài giá trị $$n$$; viết một đoạn nhận xét về xu hướng. Nêu một hệ quả đối với các thuật toán lấy mẫu ngẫu nhiên.
 
 
 ## Video tham khảo
 
-- **xem trước** — [Thinking outside the 10-dimensional box](https://www.youtube.com/watch?v=zwAD6dRSVyI) — 3Blue1Brown, tiếng Anh. Xem trước. “Thinking outside the 10-dimensional box” định hướng cho mục tiêu của bài: Dùng tọa độ và chuẩn Euclid trên \mathbb{R}^n tự tin.
-- [Perfect Shapes in Higher Dimensions - Numberphile](https://www.youtube.com/watch?v=2s4TqVAbfz4) — Numberphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Dùng tọa độ và chuẩn Euclid trên \mathbb{R}^n tự tin.
-- [The Puzzling Fourth Dimension (and exotic shapes) - Numberphile](https://www.youtube.com/watch?v=CVOr7f_VALc) — Numberphile, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Dùng tọa độ và chuẩn Euclid trên \mathbb{R}^n tự tin.
+- **Xem trước**: [Thinking outside the 10-dimensional box](https://www.youtube.com/watch?v=zwAD6dRSVyI) (3Blue1Brown, tiếng Anh). Cách nghĩ về không gian nhiều chiều bằng tọa độ, kèm câu đố về quả cầu kẹp giữa các quả cầu trong hộp. Nên xem trước khi đọc §3.
+- [Perfect Shapes in Higher Dimensions - Numberphile](https://www.youtube.com/watch?v=2s4TqVAbfz4) (Numberphile, tiếng Anh). Các khối đa diện đều trong không gian nhiều chiều. Xem sau khi đã đọc §2 và §4.
+- [The Puzzling Fourth Dimension (and exotic shapes) - Numberphile](https://www.youtube.com/watch?v=CVOr7f_VALc) (Numberphile, tiếng Anh). Chiều thứ tư và những hình dạng lạ. Góc nhìn bổ sung cho §4.

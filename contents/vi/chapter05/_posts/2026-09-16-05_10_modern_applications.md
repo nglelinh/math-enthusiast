@@ -12,48 +12,48 @@ lesson_type: optional
 
 ## Mục tiêu học tập
 
-Sau bài tùy chọn này, bạn mô tả được ba hệ thống tính toán 2022–2026 đưa nghề Chương 5—biến một tuyên bố thành thứ máy kiểm được—vào Lean và tìm kiếm neuro-symbolic, đồng thời vẫn tôn trọng Gödel: một kernel đã kiểm chứng không cho một lý thuyết đầy đủ về mọi chân lý số học.
+Sau bài tùy chọn này, bạn có thể mô tả ba hệ thống tính toán trong giai đoạn 2022–2026 đưa thói quen của chương 5 (biến một khẳng định thành thứ máy tính kiểm tra được) vào Lean và vào các phương pháp tìm kiếm kết hợp mạng nơ-ron với suy diễn ký hiệu. Bạn cũng cần thấy rằng điều này vẫn nằm trong khuôn khổ của Gödel: một lõi kiểm chứng (kernel) đáng tin cậy không cho ta một lý thuyết đầy đủ về mọi chân lý số học.
 
 ## Kiến thức cần có
 
-Các bài chứng minh, đặc biệt [Euclid / vô hạn nguyên tố]({{ site.baseurl }}/contents/vi/chapter05/05_02_Euclid_Infinite_Primes/), [Gödel]({{ site.baseurl }}/contents/vi/chapter05/05_04_Godel_Incompleteness/), [bốn màu]({{ site.baseurl }}/contents/vi/chapter05/05_07_Four_Color_Proof/), và [Fermat]({{ site.baseurl }}/contents/vi/chapter05/05_08_Fermat_Last_Theorem/). Trang này không kể lại các lập luận ấy.
+Các bài chứng minh trước đó, đặc biệt là [Euclid và vô hạn số nguyên tố]({{ site.baseurl }}/contents/vi/chapter05/05_02_Euclid_Infinite_Primes/), [Gödel]({{ site.baseurl }}/contents/vi/chapter05/05_04_Godel_Incompleteness/), [bốn màu]({{ site.baseurl }}/contents/vi/chapter05/05_07_Four_Color_Proof/) và [Fermat]({{ site.baseurl }}/contents/vi/chapter05/05_08_Fermat_Last_Theorem/). Trang này không kể lại các lập luận đó.
 
 ## Mở đầu
 
-Một chứng minh là một ý tưởng đã thành lập luận. Bộ chứng minh tương tác làm lập luận thành chương trình. Vài năm vừa rồi biến slogan ấy thành tiêu đề: Liquid Tensor Experiment xong trong Lean năm 2022; AlphaGeometry viết chứng minh hình học olympic năm 2024; AlphaProof, huấn luyện bằng học tăng cường trong Lean, đạt *điểm* mức huy chương bạc tại IMO 2024 (với tính toán nhiều ngày và việc hình thức hóa đề do người làm). Kỹ năng Chương 5 là giữ *nước cờ* nhìn thấy được: dựng, tìm kiếm, kiểm kernel—không ngôn ngữ tiệc tùng về “AI giải toán.”
+Một chứng minh là một ý tưởng đã được viết thành lập luận. Các trợ lý chứng minh tương tác biến lập luận đó thành chương trình. Vài năm gần đây, ý này đã thành những tiêu đề cụ thể: Liquid Tensor Experiment hoàn thành trong Lean năm 2022; AlphaGeometry viết được chứng minh cho các bài hình học olympic năm 2024; AlphaProof, được huấn luyện bằng học tăng cường trong Lean, đạt *số điểm* ở mức huy chương bạc tại IMO 2024 (với nhiều ngày tính toán, và đề bài do con người hình thức hóa trước). Điều cần giữ từ chương 5 là phải nhìn thấy rõ *từng bước*: dựng, tìm kiếm, và để kernel kiểm tra, chứ không dùng những lời hô hào kiểu "AI giải toán".
 
 ## Phát triển khái niệm
 
-Một trợ lý chứng minh kiểm rằng một hạng tử cư trú trong một kiểu. Nếu $$T$$ là một phát biểu hình thức, một chứng minh Lean là một cư dân của $$T$$, tương đối với kernel, các tiên đề, và các thư viện bạn tin. Định lý bất toàn Gödel nói rằng mọi lý thuyết nhất quán, tiên đề hóa hiệu quả, đủ giàu cho số học đều để lại một số câu số học chưa quyết. Hai sự thật ấy sống cùng nhau. Bạn có thể kiểm chứng *định lý này* hôm nay và vẫn không sở hữu một thủ tục quyết định cho mọi định lý.
+Một trợ lý chứng minh kiểm tra rằng một hạng tử thuộc về một kiểu nào đó. Nếu $$T$$ là một phát biểu hình thức thì một chứng minh trong Lean là một phần tử của kiểu $$T$$, xét tương đối theo kernel, các tiên đề và các thư viện mà bạn tin tưởng. Định lý bất toàn của Gödel nói rằng mọi lý thuyết nhất quán, có tiên đề cho được hiệu quả, và đủ phong phú để làm số học đều để lại một số câu số học không quyết định được. Hai sự thật này cùng tồn tại. Bạn có thể kiểm chứng *định lý này* ngay hôm nay mà vẫn không có một thủ tục quyết định cho mọi định lý.
 
-## Ba chỗ đáp
+## Ba ví dụ
 
 ### 1. Liquid Tensor Experiment (2022)
 
-Ngày 14 tháng 7 năm 2022, cộng đồng Lean, do Johan Commelin dẫn với đầu vào toán học từ Scholze, công bố hoàn thành Liquid Tensor Experiment: kiểm chứng hình thức định lý thách thức chính về không gian vector lỏng (sự triệt tiêu của một số nhóm $$\mathrm{Ext}$$). Bài học CS khớp các hình thức hóa bốn màu và Kepler: một lập luận hiện đại có thể nói chuyện với một kernel, nhưng chỉ sau đầu tư quy mô năm vào thư viện (phạm trù abelian, đối đồng điều). *Ý tưởng* của định lý vẫn là của Scholze–Clausen; *hiện vật* là một kho mã.
+Ngày 14 tháng 7 năm 2022, cộng đồng Lean, do Johan Commelin dẫn đầu và với phần toán học do Scholze đưa ra, thông báo đã hoàn thành Liquid Tensor Experiment: kiểm chứng hình thức một định lý đầy thách thức về các không gian vector "lỏng" (sự triệt tiêu của một số nhóm $$\mathrm{Ext}$$). Bài học cho khoa học máy tính giống với việc hình thức hóa định lý bốn màu và giả thuyết Kepler: một lập luận hiện đại có thể "nói chuyện" được với kernel, nhưng chỉ sau khi đầu tư nhiều năm vào thư viện (phạm trù abel, đối đồng điều). *Ý tưởng* của định lý vẫn là của Scholze và Clausen; *sản phẩm* là một kho mã.
 
 ### 2. AlphaGeometry (2024)
 
-Trinh et al. (2024) ghép một mô hình ngôn ngữ huấn luyện trên định lý hình học tổng hợp với một máy suy diễn tượng trưng. Hệ thống phát ra chứng minh người đọc được và giải 25 trên 30 bài hình học olympic trong bộ chuẩn của họ. Đây là tìm kiếm cộng ngôn ngữ thân thiện với bộ kiểm, gần tinh thần một nước cờ Euclid được tổ chức tốt hơn là một bài luận mô hình ngôn ngữ. Nó không thay bài học chứng minh máy của bốn màu về *cái gì được tính* là chứng minh; nó thêm một bộ sinh mà người vẫn đọc được.
+Trinh và cộng sự (2024) kết hợp một mô hình ngôn ngữ được huấn luyện trên các định lý hình học tổng hợp với một máy suy diễn ký hiệu. Hệ thống này viết ra các chứng minh mà con người đọc được, và giải 25 trên 30 bài hình học olympic trong bộ thử nghiệm của nhóm tác giả. Đây là tìm kiếm kết hợp với ngôn ngữ thân thiện với bộ kiểm tra, gần với tinh thần của một "nước đi Euclid" được tổ chức tốt hơn là một bài luận của mô hình ngôn ngữ. Nó không thay thế bài học của chứng minh bằng máy trong định lý bốn màu về việc *điều gì được tính* là chứng minh; nó chỉ thêm một bộ sinh ra chứng minh mà con người vẫn đọc được.
 
 ### 3. AlphaProof và IMO 2024
 
-Thông báo 25 tháng 7 năm 2024 của DeepMind, sau đó mở rộng trong một bài *Nature* 2025, mô tả AlphaProof như một tác nhân kiểu AlphaZero tìm chứng minh Lean, dùng RL lúc kiểm trên bài khó. Cùng AlphaGeometry 2, nó giải bốn trên sáu bài IMO 2024 với 28 trên 42 điểm—*tương đương huy chương bạc trên bảng điểm*, với các chú thích quan trọng rằng đề được chuyên gia hình thức hóa và tính toán chạy xa vượt thời gian thi. Cách đọc Chương 5 thật chính xác: kernel vẫn quyết điều gì là chứng minh; cái mới là cách ứng viên được đề xuất.
+Thông báo ngày 25 tháng 7 năm 2024 của DeepMind, sau đó được mở rộng trong một bài trên *Nature* năm 2025, mô tả AlphaProof là một tác nhân theo kiểu AlphaZero tìm chứng minh trong Lean, dùng học tăng cường ngay lúc chạy với các bài khó. Cùng với AlphaGeometry 2, hệ thống giải được bốn trên sáu bài của IMO 2024, đạt 28 trên 42 điểm, *tương đương huy chương bạc theo bảng điểm*. Có hai chú thích quan trọng: đề bài được chuyên gia hình thức hóa trước, và thời gian tính toán vượt xa thời gian thi. Cách đọc đúng theo tinh thần chương 5 là: kernel vẫn là nơi quyết định điều gì là chứng minh; điều mới là cách các ứng viên chứng minh được đề xuất.
 
 ## Diễn giải và nhận định
 
-Một dấu kiểm Lean xanh là bảo đảm tương đối với một đặc tả, như slogan kiểm chứng của Chương 9 cũng nói. Nó không phải chứng minh rằng bài toán không hình thức được hình thức hóa không trượt, và không phải lối thoát khỏi bất toàn. *Điểm* huy chương bạc của AlphaProof không phải huy chương bạc trao cho một thí sinh theo luật IMO.
+Một dấu kiểm xanh của Lean là sự bảo đảm tương đối so với một đặc tả, đúng như tinh thần về kiểm chứng ở chương 9. Nó không chứng minh rằng bài toán gốc (không hình thức) đã được hình thức hóa đúng, và cũng không phải lối thoát khỏi bất toàn. *Số điểm* ngang huy chương bạc của AlphaProof không phải là huy chương bạc được trao cho một thí sinh theo luật của IMO.
 
 ## Giới hạn và hướng mở rộng
 
-Bài này không hình thức hóa FLT hay Poincaré. Nó không tuyên bố bài tổ hợp nay đã dễ với tác nhân Lean (các mục tổ hợp IMO 2024 hệ thống không giải được).
+Bài này không hình thức hóa FLT hay giả thuyết Poincaré. Nó cũng không khẳng định các bài tổ hợp nay đã dễ với các tác nhân dùng Lean (các bài tổ hợp của IMO 2024 không được hệ thống giải).
 
 ## Bài tập
 
-1. Theo phong cách bài Euclid, gọi tên *nước cờ* trong LTE: cái gì đang được đưa về kiểm kernel, và cái gì phải được xây trước?
-2. Vì sao “chứng minh hình học người đọc được” là bảo đảm khác với “kernel Lean chấp nhận một hạng tử”?
-3. Liệt kê ba cách đánh giá AlphaProof tại IMO 2024 khác kỳ thi người, chỉ dùng sự thật từ ghi chú DeepMind hoặc bài 2025.
-4. Phát biểu bất toàn Gödel trong một câu vẫn đúng sau AlphaProof.
+1. Theo phong cách bài Euclid, hãy gọi tên các *bước đi* trong LTE: điều gì được đưa về việc kernel kiểm tra, và điều gì phải xây dựng trước?
+2. Vì sao "một chứng minh hình học mà người đọc được" là một loại bảo đảm khác với "kernel Lean chấp nhận một hạng tử"?
+3. Liệt kê ba điểm khiến việc đánh giá AlphaProof tại IMO 2024 khác với kỳ thi dành cho con người, chỉ dùng các dữ kiện trong ghi chú của DeepMind hoặc bài báo năm 2025.
+4. Phát biểu định lý bất toàn của Gödel trong một câu mà vẫn đúng sau AlphaProof.
 
 ## Tài liệu tham khảo
 
@@ -64,6 +64,6 @@ Bài này không hình thức hóa FLT hay Poincaré. Nó không tuyên bố bà
 
 ## Video tham khảo
 
-- **xem trước** — [Proving theorems with computers - Kevin Buzzard](https://www.youtube.com/watch?v=KccjCojGVO4) — Stony Brook Mathematics, tiếng Anh. Xem trước. “Proving theorems with computers - Kevin Buzzard” định hướng cho mục tiêu của bài: Sau bài tùy chọn này, bạn mô tả được ba hệ thống tính toán 2022–2026 đưa nghề Chương 5—biến một tuyên bố thành thứ máy kiểm được—vào Lean và tìm kiếm neuro-symbolic, đồng thời vẫn…
-- [The AI that solved IMO Geometry Problems | Guest video by @Aleph0](https://www.youtube.com/watch?v=4NlrfOl0l8U) — 3Blue1Brown, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài tùy chọn này, bạn mô tả được ba hệ thống tính toán 2022–2026 đưa nghề Chương 5—biến một tuyên bố thành thứ máy kiểm được—vào Lean và tìm kiếm neuro-symbolic, đồng thời vẫn…
-- [Improving on AlphaProof: IMO 2024 Problem 2 in Lean 4](https://www.youtube.com/watch?v=5IARsdn78xE) — David Renshaw, tiếng Anh. Một hình thức hóa Lean 4 cho bài IMO 2024 theo tinh thần AlphaProof. Dùng cạnh chủ đề kiểm chứng của bài, không phải bài nói chính thức của DeepMind.
+- **Xem trước** — [Proving theorems with computers - Kevin Buzzard](https://www.youtube.com/watch?v=KccjCojGVO4) — Stony Brook Mathematics, tiếng Anh. Video định hướng cho mục tiêu của bài: dùng máy tính để kiểm chứng chứng minh.
+- [The AI that solved IMO Geometry Problems | Guest video by @Aleph0](https://www.youtube.com/watch?v=4NlrfOl0l8U) — 3Blue1Brown, tiếng Anh. Xem lượt thứ hai, khi ý chính đã rõ; nói về AlphaGeometry.
+- [Improving on AlphaProof: IMO 2024 Problem 2 in Lean 4](https://www.youtube.com/watch?v=5IARsdn78xE) — David Renshaw, tiếng Anh. Một bản hình thức hóa bằng Lean 4 cho bài IMO 2024, theo tinh thần của AlphaProof. Nên dùng cạnh chủ đề kiểm chứng của bài, vì đây không phải bài nói chính thức của DeepMind.

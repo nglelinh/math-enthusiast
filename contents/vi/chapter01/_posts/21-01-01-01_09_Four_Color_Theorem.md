@@ -10,17 +10,17 @@ categories:
 ---
 
 > **Lộ trình học B — Bốn màu (2 bước)**  
-> **1. Bạn đang ở đây:** Ch.1 Định lý Bốn Màu — lý thuyết + văn hóa chứng minh  
-> **2. Tiếp theo:** [Studio tô màu Ch.7]({{ site.baseurl }}/contents/vi/chapter07/07_07_Explore_Map_Colors/) — dual, Heawood, viết  
-> *Thời gian gợi ý:* ~2 giờ bài → ~1–2 giờ studio.
+> **1. Bạn đang ở đây:** Chương 1, Định lý Bốn Màu: lý thuyết và cách người ta chấp nhận chứng minh  
+> **2. Tiếp theo:** [Bài thực hành tô màu, Chương 7]({{ site.baseurl }}/contents/vi/chapter07/07_07_Explore_Map_Colors/): đồ thị đối ngẫu, Heawood, bài viết  
+> *Thời gian gợi ý:* khoảng 2 giờ cho bài này, 1–2 giờ cho bài thực hành.
 
-**Định lý Bốn Màu (4CT)** khẳng định mọi bản đồ phẳng có thể tô bằng tối đa **bốn** màu sao cho các miền chung biên độ dài dương nhận màu khác nhau. Tương đương: mọi **đồ thị phẳng** hữu hạn đều 4-tô màu được đỉnh.
+**Định lý Bốn Màu (4CT)** khẳng định rằng mọi bản đồ phẳng đều tô được bằng tối đa **bốn** màu sao cho hai miền có chung một đoạn biên (độ dài dương) luôn khác màu. Phát biểu tương đương: mọi **đồ thị phẳng** hữu hạn đều tô được các đỉnh bằng 4 màu.
 
-Khác [giả thuyết Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) hay [Kakeya chiều cao]({{ site.baseurl }}/contents/vi/chapter01/01_08_Kakeya_Conjecture/), 4CT **đã được giải**—nhưng cách giải định hình tranh luận thế nào là một chứng minh. Appel–Haken (1976) đưa lập luận đầy đủ với phân tích case được máy kiểm; các đơn giản hóa sau (Robertson–Sanders–Seymour–Thomas và người khác) vẫn dựa kiểm tra máy quy mô lớn. Formalization (ví dụ Coq của Gonthier) làm dịu lo ngại tái lập.
+Khác với [giả thuyết Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) hay [Kakeya trong nhiều chiều]({{ site.baseurl }}/contents/vi/chapter01/01_08_Kakeya_Conjecture/), 4CT **đã được giải**. Nhưng cách giải lại làm thay đổi cuộc tranh luận về thế nào là một chứng minh. Appel và Haken (1976) đưa ra lập luận đầy đủ, trong đó việc xét các trường hợp được kiểm tra bằng máy tính. Các chứng minh đơn giản hơn về sau (Robertson–Sanders–Seymour–Thomas và những người khác) vẫn dựa vào kiểm tra bằng máy trên quy mô lớn. Việc hình thức hóa chứng minh (ví dụ bằng Coq, do Gonthier thực hiện) giúp giảm bớt lo ngại về khả năng kiểm tra lại.
 
-Bài này là điểm vào văn hóa **chứng minh hỗ trợ máy tính** trong khóa học: không phải Monte Carlo, mà checklist tổ hợp hữu hạn do con người thiết kế.
+Bài này giới thiệu về **chứng minh có máy tính hỗ trợ** trong khóa học: không phải mô phỏng Monte Carlo, mà là một danh sách hữu hạn các trường hợp tổ hợp do con người thiết kế.
 
-**Lộ trình:** folklore tô bản đồ → đồ thị dual → định lý năm màu → phản ví dụ tối thiểu → discharging / reducibility → hỗ trợ máy → triết lý chứng minh → mặt cao Heawood.
+**Nội dung bài:** bài toán tô bản đồ → đồ thị đối ngẫu → định lý năm màu → phản ví dụ nhỏ nhất → phương pháp phóng điện và tính khả quy → vai trò của máy tính → câu hỏi triết học về chứng minh → các mặt có giống cao hơn (Heawood).
 
 ---
 
@@ -28,218 +28,218 @@ Bài này là điểm vào văn hóa **chứng minh hỗ trợ máy tính** tron
 
 Sau bài học, bạn có thể:
 
-- Phát biểu 4CT bằng ngôn ngữ bản đồ và ngôn ngữ đồ thị (số màu tô đỉnh $$\chi(G)\le 4$$ cho $$G$$ phẳng hữu hạn).
-- Giải thích phép chuyển **dual graph**: miền ↔ đỉnh, biên chung ↔ cạnh.
-- Phác thảo vì sao **năm** màu dễ hơn bốn (Heawood / quy nạp + bậc $$\le 5$$ + Kempe chain).
-- Mô tả **tập không tránh được** (unavoidable set) và cấu hình **reducible** ở mức khẩu hiệu.
-- Thảo luận chứng minh hỗ trợ máy tính như vấn đề triết học *và* thực hành (surveyable proof, formal verification).
-- Đối chiếu mặt phẳng với công thức **Heawood** trên mặt giống $$g\ge 1$$.
-- Liên kết [studio tô màu Ch.7]({{ site.baseurl }}/contents/vi/chapter07/07_07_Explore_Map_Colors/).
+- Phát biểu 4CT bằng ngôn ngữ bản đồ và ngôn ngữ đồ thị (sắc số $$\chi(G)\le 4$$ với mọi đồ thị phẳng hữu hạn $$G$$).
+- Giải thích cách chuyển sang **đồ thị đối ngẫu**: miền ứng với đỉnh, biên chung ứng với cạnh.
+- Phác thảo vì sao **năm** màu dễ hơn bốn màu (Heawood: quy nạp, đỉnh bậc $$\le 5$$, chuỗi Kempe).
+- Mô tả ngắn gọn **tập không tránh được** (unavoidable set) và cấu hình **khả quy** (reducible).
+- Thảo luận chứng minh có máy tính hỗ trợ như một vấn đề vừa triết học *vừa* thực hành (chứng minh con người đọc kiểm được, kiểm chứng hình thức).
+- So sánh mặt phẳng với công thức **Heawood** cho các mặt có giống $$g\ge 1$$.
+- Liên hệ với [bài thực hành tô màu ở Chương 7]({{ site.baseurl }}/contents/vi/chapter07/07_07_Explore_Map_Colors/).
 
-**Tiên quyết.** Đồ thị như đỉnh/cạnh; hình dung vẽ phẳng không cắt. Không cần lý thuyết đồ thị nâng cao.
+**Kiến thức cần có.** Đồ thị gồm đỉnh và cạnh; hình dung được cách vẽ trên mặt phẳng mà các cạnh không cắt nhau. Không cần lý thuyết đồ thị nâng cao.
 
-**Liên kết seminar.** LO1 + thảo luận “chứng minh là gì?”. Ghép: Kakeya (văn hóa bài mở giải tích); [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/) (độ cứng tính toán—khác hỗ trợ máy trong chứng minh); studio map colors.
+**Liên hệ với khóa học.** Mục tiêu 1 và câu hỏi "chứng minh là gì?". Đọc cùng: Kakeya (một bài toán mở trong giải tích); [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/) (độ khó tính toán, khác với việc máy tính hỗ trợ chứng minh); bài thực hành tô màu bản đồ.
 
 ---
 
-## 1. Câu hỏi người vẽ bản đồ
+## 1. Câu hỏi của người vẽ bản đồ
 
-Từ giữa thế kỷ 19 (Guthrie, De Morgan, Cayley, …), người ta hỏi: bao nhiêu màu đủ để tô bản đồ chính trị sao cho các quốc gia láng giềng khác màu?
+Từ giữa thế kỷ 19 (Guthrie, De Morgan, Cayley, …), người ta đã hỏi: cần bao nhiêu màu để tô một bản đồ hành chính sao cho các nước láng giềng có màu khác nhau?
 
-- **Hai màu** thất bại ngay khi xuất hiện “bánh xe” lẻ các miền kề nhau theo cách phù hợp.  
-- **Ba màu** thất bại với một số bản đồ phẳng (ví dụ cấu hình miền bị bao bởi vòng lẻ các láng giềng kề nhau thích hợp).  
-- **Bốn màu** được phỏng đoán là đủ.  
-- **Năm màu** được chứng minh đủ bằng lập luận cổ điển (định lý năm màu của Heawood; đơn giản hơn bốn).
+- **Hai màu** không đủ ngay khi có một "bánh xe" gồm số lẻ miền kề nhau phù hợp.  
+- **Ba màu** không đủ cho một số bản đồ phẳng (ví dụ một miền bị bao quanh bởi một vòng gồm số lẻ miền láng giềng kề nhau).  
+- **Bốn màu** được dự đoán là đủ.  
+- **Năm màu** đã được chứng minh là đủ bằng lập luận cổ điển (định lý năm màu của Heawood, đơn giản hơn trường hợp bốn màu).
 
-Câu hỏi nghe như thủ công bản đồ; hình thức hóa đồ thị biến nó thành định lý cấu trúc về đồ thị thưa nhúng được trên mặt phẳng.
+Câu hỏi nghe như chuyện vẽ bản đồ, nhưng khi phát biểu bằng đồ thị, nó trở thành một định lý về cấu trúc của các đồ thị thưa vẽ được trên mặt phẳng.
 
 ![Miền kề]({{ site.baseurl }}/img/chapter_img/fourcolor_map_k4.svg)
 
-*Hình. Phác thảo các miền kề nhau—động lực cần nhiều màu.*
+*Hình. Phác thảo các miền kề nhau, cho thấy vì sao cần nhiều màu.*
 
 ---
 
-## 2. Từ bản đồ tới đồ thị phẳng
+## 2. Từ bản đồ đến đồ thị phẳng
 
-Gắn mỗi miền một **đỉnh**; vẽ **cạnh** khi hai miền chung biên độ dài dương (không chỉ chạm tại một điểm). Kết quả là **đồ thị phẳng** (vẽ không cắt, dưới giả thiết bản đồ ôn hòa).
+Ứng với mỗi miền, đặt một **đỉnh**; nối hai đỉnh bằng một **cạnh** khi hai miền có chung một đoạn biên có độ dài dương (không chỉ chạm nhau tại một điểm). Ta được một **đồ thị phẳng** (vẽ được mà các cạnh không cắt nhau, với giả thiết bản đồ đủ "đẹp").
 
-Tô miền ⇔ tô đỉnh sao cho hai đỉnh kề khác màu.
+Tô màu các miền tương đương với tô màu các đỉnh sao cho hai đỉnh kề nhau khác màu.
 
 ![Dual]({{ site.baseurl }}/img/chapter_img/fourcolor_graph_dual.svg)
 
-*Hình. Đồ thị dual: đỉnh = miền; cạnh = biên chung.*
+*Hình. Đồ thị đối ngẫu: đỉnh ứng với miền, cạnh ứng với biên chung.*
 
-**Dạng đồ thị của 4CT.** Mọi đồ thị phẳng hữu hạn $$G$$ thỏa $$\chi(G)\le 4$$, với $$\chi$$ là số màu tô đỉnh tối thiểu.
+**Dạng đồ thị của 4CT.** Mọi đồ thị phẳng hữu hạn $$G$$ đều thỏa mãn $$\chi(G)\le 4$$, trong đó $$\chi$$ là số màu tối thiểu cần để tô các đỉnh.
 
-Các phát biểu tương đương dùng công thức Euler $$v-e+f=2$$ cho đồ thị phẳng liên thông và chặn bậc trung bình: đồ thị phẳng đơn giản thưa—$$e\le 3v-6$$ khi $$v\ge 3$$. Từ đó suy tồn tại đỉnh bậc $$\le 5$$, viên gạch của quy nạp năm màu.
+Các phát biểu tương đương dùng công thức Euler $$v-e+f=2$$ cho đồ thị phẳng liên thông và một chặn cho bậc trung bình: đồ thị phẳng đơn thì thưa, cụ thể $$e\le 3v-6$$ khi $$v\ge 3$$. Từ đó suy ra luôn có một đỉnh bậc $$\le 5$$, đây là điểm mấu chốt của phép quy nạp trong chứng minh năm màu.
 
-**Ghi chú mô hình.** 4CT chuẩn giả định miền “hợp lý” (biên độ dài dương; thường hiểu miền liên thông). Quốc gia **không liên thông** (nhiều mảnh) đổi bài toán hoàn toàn—có thể cần nhiều màu hơn theo quy tắc khác.
-
----
-
-## 3. Vì sao năm màu dễ hơn bốn
-
-**Định lý năm màu** có chứng minh cổ điển ngắn:
-
-1. Mọi đồ thị phẳng (đơn giản, đủ lớn) có đỉnh bậc $$\le 5$$ (từ Euler / $$e\le 3v-6$$).  
-2. Gỡ đỉnh đó; quy nạp tô phần còn lại bằng 5 màu.  
-3. Nếu các láng giềng của đỉnh bị gỡ không dùng hết 5 màu, mở rộng dễ; nếu không, dùng lập luận **chuỗi Kempe** (đổi màu trên thành phần liên thông hai màu) hoạt động với 5 màu.
-
-Kempe tin đã có chứng minh bốn màu (1879); Heawood chỉ ra lỗi (1890) và cứu được năm màu. Khoảng cách giữa 5 và 4 ẩn cả thế kỷ làm việc: lỗi Kempe cho bốn màu không phải chi tiết nhỏ dễ vá bằng cùng ý.
-
-Khẩu hiệu sư phạm: **năm màu = quy nạp + Euler + Kempe ổn định**; **bốn màu = cấu trúc sâu + case khổng lồ**.
+**Lưu ý về mô hình.** 4CT ở dạng chuẩn giả thiết các miền "hợp lý" (biên có độ dài dương; thường hiểu là miền liên thông). Nếu một nước **không liên thông** (gồm nhiều mảnh) thì bài toán thay đổi hẳn, và theo quy tắc khác có thể cần nhiều màu hơn.
 
 ---
 
-## 4. Phản ví dụ tối thiểu và chiến lược Appel–Haken
+## 3. Vì sao năm màu dễ hơn bốn màu
 
-Giả sử $$G$$ là **đồ thị phẳng tối thiểu không 4-tô màu được** (phản ví dụ nhỏ nhất). Khi đó, sau các rút gọn chuẩn:
+**Định lý năm màu** có một chứng minh cổ điển ngắn:
 
-- $$G$$ mang cấu trúc gần tam giác phân (maximal planar sau reduction);  
-- mọi đỉnh có bậc ít nhất 5;  
-- một số cấu hình địa phương bị **cấm** nếu chúng **reducible**: cấu hình $$C$$ reducible nếu mọi cách tô của $$G-C$$ (sau có thể đổi màu) mở rộng được thành tô của $$G$$—vậy $$C$$ không thể xuất hiện trong phản ví dụ tối thiểu.
+1. Mọi đồ thị phẳng (đơn, đủ lớn) đều có một đỉnh bậc $$\le 5$$ (suy từ công thức Euler, hay $$e\le 3v-6$$).  
+2. Bỏ đỉnh đó đi; theo giả thiết quy nạp, tô phần còn lại bằng 5 màu.  
+3. Nếu các đỉnh kề với đỉnh vừa bỏ không dùng hết 5 màu thì dễ dàng tô thêm; nếu không, dùng lập luận **chuỗi Kempe** (đổi màu trên một thành phần liên thông gồm hai màu), lập luận này hiệu quả với 5 màu.
 
-Nếu chỉ ra một **tập không tránh được** $$\mathcal{U}$$ các cấu hình—mọi phản ví dụ tối thiểu *phải* chứa một $$C\in\mathcal{U}$$—và chứng minh mỗi $$C\in\mathcal{U}$$ reducible, ta được mâu thuẫn. Không còn phản ví dụ.
+Kempe tin rằng mình đã chứng minh được trường hợp bốn màu (1879); Heawood chỉ ra lỗi sai (1890) và giữ lại được kết quả năm màu. Khoảng cách từ 5 xuống 4 là cả một thế kỷ nghiên cứu: lỗi của Kempe không phải một chi tiết nhỏ có thể sửa bằng cùng ý tưởng.
+
+Tóm tắt dễ nhớ: **năm màu = quy nạp + công thức Euler + chuỗi Kempe**; **bốn màu = cấu trúc sâu + số trường hợp khổng lồ**.
+
+---
+
+## 4. Phản ví dụ nhỏ nhất và chiến lược của Appel–Haken
+
+Giả sử $$G$$ là **đồ thị phẳng nhỏ nhất không tô được bằng 4 màu** (phản ví dụ nhỏ nhất). Khi đó, sau các bước rút gọn chuẩn:
+
+- $$G$$ gần như là một phép tam giác phân (đồ thị phẳng cực đại sau khi rút gọn);  
+- mọi đỉnh đều có bậc ít nhất 5;  
+- một số cấu hình cục bộ bị **loại trừ** nếu chúng **khả quy**: cấu hình $$C$$ là khả quy nếu mọi cách tô màu $$G-C$$ (có thể sau khi đổi màu) đều mở rộng được thành cách tô màu $$G$$; do đó $$C$$ không thể xuất hiện trong phản ví dụ nhỏ nhất.
+
+Nếu tìm được một **tập không tránh được** $$\mathcal{U}$$ gồm các cấu hình (mọi phản ví dụ nhỏ nhất *đều phải* chứa một $$C\in\mathcal{U}$$) và chứng minh mỗi $$C\in\mathcal{U}$$ đều khả quy, ta được mâu thuẫn. Vậy không có phản ví dụ.
 
 ![Pipeline]({{ site.baseurl }}/img/chapter_img/fourcolor_proof_pipeline.svg)
 
-*Hình. Tập không tránh được + kiểm reducibility ⇒ không có phản ví dụ tối thiểu.*
+*Hình. Tập không tránh được + kiểm tra tính khả quy ⇒ không có phản ví dụ nhỏ nhất.*
 
-**Appel–Haken** xây tập không tránh được lớn và kiểm reducibility bằng chương trình máy tùy chỉnh (cộng lao động tay đáng kể). Các chứng minh sau giảm danh sách cấu hình và làm rõ logic (**Robertson, Sanders, Seymour, Thomas**, khoảng 1997), vẫn với kiểm máy. **Formal proof assistants** (Coq, …) đã xác minh phiên bản lập luận, trả lời một phần lo ngại “bug chương trình 1976.”
+**Appel và Haken** xây dựng một tập không tránh được rất lớn và kiểm tra tính khả quy bằng các chương trình máy tính tự viết (cùng với nhiều công sức tính tay). Các chứng minh sau này rút gọn danh sách cấu hình và làm rõ logic (**Robertson, Sanders, Seymour, Thomas**, khoảng 1997), nhưng vẫn kiểm tra bằng máy. Các **trợ lý chứng minh hình thức** (Coq, …) đã kiểm chứng một phiên bản của lập luận, phần nào trả lời lo ngại "chương trình năm 1976 có lỗi".
 
-**Discharging** (xả điện) là kỹ thuật tổ hợp gán “điện tích” cho đỉnh/mặt rồi phân phối lại theo quy tắc địa phương để chứng minh mọi đồ thị trong lớp phải chứa một cấu hình trong $$\mathcal{U}$$. Đây là phần “con người thiết kế”; máy không đoán định lý—máy **kiểm case** trong khung đã thiết kế.
-
----
-
-## 5. Tinh giản, vẫn kiểm bằng máy
-
-Công trình sau cải thiện vệ sinh chứng minh mà không trở lại chứng minh tay ngắn. **Robertson, Sanders, Seymour và Thomas (1997)** cho lập luận đơn giản hơn với tập không tránh được nhỏ hơn nhiều và cấu trúc logic rõ hơn, vẫn dựa trên kiểm reducibility bằng máy. Các trình bày và kiểm độc lập khác theo sau. Formalization trong proof assistant (đặc biệt phát triển Coq của **Gonthier** cho 4CT) trả lời lo ngại khác: không chỉ “chương trình có chạy?” mà “mỗi case đã được formal hóa đúng và kernel tin cậy kiểm?”
-
-Trạng thái cộng đồng đã ổn: **4CT là định lý**. Phần còn sôi là phương pháp—thiết kế discharging, thu nhỏ danh sách case, formal hóa lập luận tổ hợp—không phải câu hỏi bốn màu có đủ cho bản đồ phẳng hay không.
+**Phương pháp phóng điện** (discharging) là một kỹ thuật tổ hợp: gán "điện tích" cho các đỉnh và các mặt, rồi phân phối lại theo các quy tắc cục bộ, để chứng minh rằng mọi đồ thị trong lớp đang xét đều chứa một cấu hình thuộc $$\mathcal{U}$$. Đây là phần do con người thiết kế; máy tính không tự tìm ra định lý, mà chỉ **kiểm tra các trường hợp** trong khuôn khổ đã được thiết kế.
 
 ---
 
-## 6. “Hỗ trợ máy tính” nghĩa là gì ở đây
+## 5. Chứng minh gọn hơn, nhưng vẫn kiểm tra bằng máy
 
-Quan trọng là tách khỏi Monte Carlo hay “máy đoán định lý.”
+Các công trình sau làm chứng minh chặt chẽ và rõ ràng hơn, nhưng không quay về được một chứng minh tay ngắn gọn. **Robertson, Sanders, Seymour và Thomas (1997)** đưa ra lập luận đơn giản hơn, với tập không tránh được nhỏ hơn nhiều và cấu trúc logic rõ ràng hơn, nhưng vẫn kiểm tra tính khả quy bằng máy. Sau đó còn có các trình bày và kiểm tra độc lập khác. Việc hình thức hóa trong trợ lý chứng minh (đặc biệt là công trình dùng Coq của **Gonthier** cho 4CT) trả lời một lo ngại khác: không chỉ "chương trình có chạy đúng không?" mà còn "mỗi trường hợp đã được hình thức hóa đúng chưa, và có được kiểm tra bởi một lõi (kernel) đáng tin cậy không?"
 
-Trong truyền thống Appel–Haken / RSST:
-
-- một **checklist tổ hợp hữu hạn** xuất phát từ phương pháp discharging do **người** thiết kế;  
-- mỗi case là bài toán mở rộng tô màu / reducibility đồ thị hữu hạn;  
-- máy liệt kê và kiểm các case quá nhiều để tính tay tin cậy;  
-- logic tổng thể (vì sao danh sách không tránh được; vì sao reducibility cho mâu thuẫn) là lập luận toán học của người.
-
-Câu hỏi triết học vẫn phổ biến trong seminar:
-
-- Chứng minh có **bắt buộc** surveyable bởi một tâm trí người trong thời gian hợp lý không?  
-- Nếu proof assistant xác minh formalization, có khôi phục dạng surveyability ở mức kernel và văn bản formal không?  
-- Ta hài lòng với *sự tồn tại* của kiểm hữu hạn, hay vẫn tìm lý do khái niệm ngắn khiến 4CT “hiển nhiên” nhìn lại?
-
-Các nhà toán học trả lời khác nhau. Về mặt toán, 4CT được chấp nhận đã chứng minh. Về mặt khái niệm, nó là cột mốc **công nghệ chứng minh**—tiền thân của formal verification và case analysis lớn ở lĩnh vực khác. So với [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/): ở đó máy tính là *đối tượng* của câu hỏi; ở 4CT máy tính là *công cụ kiểm* trong chứng minh hữu hạn.
+Cộng đồng toán học đã thống nhất: **4CT là một định lý**. Những gì còn được nghiên cứu là phương pháp (thiết kế quy tắc phóng điện, thu gọn danh sách trường hợp, hình thức hóa các lập luận tổ hợp), chứ không còn là câu hỏi bốn màu có đủ cho bản đồ phẳng hay không.
 
 ---
 
-## 7. Vượt mặt phẳng: định lý tô màu Heawood
+## 6. "Có máy tính hỗ trợ" ở đây nghĩa là gì
 
-Mặt phẳng đặc biệt. Trên mặt giống $$g\ge 1$$, có thể cần nhiều màu hơn. **Số Heawood**
+Điều quan trọng là phân biệt với mô phỏng Monte Carlo hay chuyện "máy tính tự đoán ra định lý".
+
+Theo cách làm của Appel–Haken và RSST:
+
+- có một **danh sách hữu hạn các trường hợp tổ hợp**, xuất phát từ phương pháp phóng điện do **con người** thiết kế;  
+- mỗi trường hợp là một bài toán về việc mở rộng cách tô màu (tính khả quy) trên một đồ thị hữu hạn;  
+- máy tính liệt kê và kiểm tra các trường hợp, vì có quá nhiều để kiểm tra tay một cách đáng tin cậy;  
+- logic tổng thể (vì sao danh sách là không tránh được; vì sao tính khả quy dẫn đến mâu thuẫn) là lập luận toán học của con người.
+
+Một số câu hỏi triết học vẫn hay được thảo luận:
+
+- Một chứng minh có **nhất thiết** phải để một người đọc và kiểm tra được trong thời gian hợp lý không?  
+- Nếu trợ lý chứng minh đã kiểm chứng bản hình thức hóa, liệu có thể coi chứng minh là "kiểm tra được" ở mức lõi và văn bản hình thức không?  
+- Ta có thỏa mãn với *việc tồn tại* một phép kiểm tra hữu hạn, hay vẫn muốn tìm một lý do ngắn gọn về mặt khái niệm khiến 4CT trở nên "hiển nhiên" khi nhìn lại?
+
+Các nhà toán học trả lời theo những cách khác nhau. Về mặt toán học, 4CT được chấp nhận là đã chứng minh. Về mặt khái niệm, nó là một cột mốc của **công nghệ chứng minh**, mở đường cho kiểm chứng hình thức và cho việc xét số lượng lớn trường hợp ở các lĩnh vực khác. So với [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/): ở đó máy tính là *đối tượng* của câu hỏi; còn ở 4CT, máy tính là *công cụ kiểm tra* trong một chứng minh hữu hạn.
+
+---
+
+## 7. Ra ngoài mặt phẳng: định lý tô màu Heawood
+
+Mặt phẳng là trường hợp đặc biệt. Trên các mặt có giống $$g\ge 1$$ có thể cần nhiều màu hơn. **Số Heawood**
 
 $$
 H(g)=\left\lfloor\frac{7+\sqrt{1+48g}}{2}\right\rfloor
 $$
 
-cho (trong câu chuyện cổ điển hoàn chỉnh) số chromatic tối đa cho đồ thị nhúng được trên mặt đó. Với **xuyến** ($$g=1$$), bảy màu là chặt: một số bản đồ torus cần bảy, và bảy luôn đủ. Trường hợp $$g=0$$ cắm vào công thức cho 4, nhưng lịch sử Heawood cho mặt phẳng là 5; bốn sắc nét đòi hỏi 4CT đầy đủ.
+cho biết (theo kết quả cổ điển đã hoàn chỉnh) sắc số lớn nhất của các đồ thị vẽ được trên mặt đó. Với **mặt xuyến** ($$g=1$$), bảy màu là chặn chặt: có những bản đồ trên mặt xuyến cần bảy màu, và bảy màu luôn đủ. Thay $$g=0$$ vào công thức được 4, nhưng lập luận của Heawood cho mặt phẳng chỉ cho 5; để có đúng con số bốn, cần toàn bộ 4CT.
 
 ![Heawood]({{ site.baseurl }}/img/chapter_img/fourcolor_heawood.svg)
 
-*Hình. Nhu cầu màu tăng theo giống mặt.*
+*Hình. Số màu cần dùng tăng theo giống của mặt.*
 
-Tương phản sư phạm: **tính phẳng** là ràng buộc hình học mạnh kéo chặn màu xuống bốn, trong khi một “quai” (torus) nhảy chặn chặt lên bảy. Studio Ch.7 khuyến khích chơi dual, bản đồ nhỏ ép ba/bốn màu, và công thức Heawood trên mặt đồ chơi.
+Điểm cần chú ý: **tính phẳng** là một ràng buộc hình học mạnh, kéo số màu xuống còn bốn, trong khi chỉ thêm một "quai" (mặt xuyến) đã đẩy chặn chặt lên bảy. Bài thực hành ở Chương 7 khuyến khích thử với đồ thị đối ngẫu, các bản đồ nhỏ buộc phải dùng ba hoặc bốn màu, và công thức Heawood trên các mặt đơn giản.
 
-**Vùng không liên thông.** Nếu một “quốc gia” có nhiều thành phần liên thông phải cùng màu, bài toán đổi: có thể dựng bản đồ cần tùy ý nhiều màu. 4CT chuẩn giả định vùng liên thông (hoặc xử lý thành phần cẩn thận). Luôn nêu mô hình khi tô màu.
+**Miền không liên thông.** Nếu một "nước" gồm nhiều mảnh rời nhau phải tô cùng một màu, bài toán sẽ khác: có thể dựng bản đồ cần nhiều màu tùy ý. 4CT dạng chuẩn giả thiết các miền liên thông (hoặc xử lý các mảnh một cách cẩn thận). Khi tô màu, luôn nói rõ mô hình đang dùng.
 
 ---
 
 ## 8. Vì sao 4CT quan trọng với toán học
 
-Ngoài việc đóng một conjecture nổi tiếng, 4CT:
+Ngoài việc giải quyết một giả thuyết nổi tiếng, 4CT còn:
 
-- thúc đẩy **phương pháp discharging** và tư duy cấu trúc về đồ thị phẳng;  
-- buộc cộng đồng articulating chuẩn mực cho **toán học kiểm bằng máy**;  
-- cung cấp phòng thí nghiệm trăm năm cho recoloring, reducibility, và tập không tránh được;  
-- vẫn là tương phản sư phạm hoàn hảo với bài **mở** giải tích và số học (RH, Kakeya chiều cao, Collatz).
+- thúc đẩy **phương pháp phóng điện** và cách nhìn cấu trúc về đồ thị phẳng;  
+- buộc cộng đồng phải nói rõ các chuẩn mực cho **toán học có kiểm tra bằng máy**;  
+- là "phòng thí nghiệm" suốt một thế kỷ cho các ý tưởng đổi màu, tính khả quy và tập không tránh được;  
+- là ví dụ đối lập rất tốt với các bài toán **còn mở** trong giải tích và số học (RH, Kakeya nhiều chiều, Collatz).
 
-Nó cũng nằm gần graph minors, giả thuyết Hadwiger (vẫn mở), và câu hỏi rộng hơn về cấu trúc và số chromatic.
-
----
-
-## Từ video: “hỗ trợ máy tính” thực sự nghĩa là gì
-
-Numberphile, Quanta, essay Notices của Gonthier và trang Thomas FC cố định khẩu hiệu LO1:
-
-1. Chứng minh **không** phải “thử nhiều bản đồ rồi hy vọng.” Đó là lập luận **discharging / unavoidable set** cổ điển, đưa case phẳng vô hạn về danh sách cấu hình **hữu hạn**.  
-2. Máy kiểm **reducibility** (và sổ sách tổ hợp liên quan)—Appel–Haken (1976), tinh gọn RSST (~633 cấu hình).  
-3. **Formalization Coq của Gonthier (2005)** kiểm toàn bộ phát triển toán (theo RSST), tin cậy tập trung vào kernel assistant.  
-4. **Năm màu** không cần máy; **Heawood** cho giống cao (torus tới bảy).
-
-**Tình trạng (2026):** **đã chứng minh**. Giải được ≠ tầm thường. Đối chiếu các bài mở trong chương này.
+Nó cũng gần với lý thuyết đồ thị con (graph minors), giả thuyết Hadwiger (vẫn còn mở), và các câu hỏi rộng hơn về cấu trúc và sắc số.
 
 ---
 
-## Nhầm lẫn phổ biến
+## Từ các video: "có máy tính hỗ trợ" thực sự nghĩa là gì
 
-| Khẳng định | Sửa |
+Các video của Numberphile, Quanta, bài viết của Gonthier trên Notices và trang của Thomas về định lý bốn màu cùng chốt lại các ý chính cho mục tiêu 1:
+
+1. Chứng minh **không** phải là "thử thật nhiều bản đồ rồi hy vọng". Đó là lập luận cổ điển dùng **phóng điện và tập không tránh được**, đưa vô hạn trường hợp đồ thị phẳng về một danh sách **hữu hạn** cấu hình.  
+2. Máy tính kiểm tra **tính khả quy** (và các tính toán tổ hợp liên quan): Appel–Haken (1976), bản rút gọn của RSST (khoảng 633 cấu hình).  
+3. **Bản hình thức hóa bằng Coq của Gonthier (2005)** kiểm tra toàn bộ phần toán học (theo RSST); khi đó, độ tin cậy chỉ còn phụ thuộc vào lõi của trợ lý chứng minh.  
+4. Định lý **năm màu** không cần máy tính; công thức **Heawood** áp dụng cho các mặt giống cao (mặt xuyến cần đến bảy màu).
+
+**Tình trạng (2026):** **đã được chứng minh**. Đã giải được không có nghĩa là tầm thường. Hãy so sánh với các bài toán mở trong chương này.
+
+---
+
+## Hiểu lầm thường gặp
+
+| Khẳng định | Sửa lại |
 |------------|-----|
-| “Đôi khi bốn màu không đủ cho bản đồ phẳng.” | Sai—4CT nói bốn luôn đủ (biên độ dài dương, mô hình chuẩn). |
-| “Máy kiểm bản đồ ngẫu nhiên.” | Sai—kiểm reducibility hữu hạn trong chứng minh thiết kế. |
-| “Định lý năm màu cũng cần máy.” | Sai—có chứng minh cổ điển ngắn. |
-| “4CT quyết định tô màu mọi mặt.” | Sai—giống cao dùng số Heawood. |
-| “Mọi bản đồ bốn quốc gia cần bốn màu.” | Sai—chỉ khi mọi cặp chung biên; nhiều bản đồ bốn miền cần ít hơn. |
-| “Formalization không cần vì 1976 đã xong.” | Formalization tăng tin cậy tái lập; không phủ nhận lịch sử Appel–Haken. |
+| "Đôi khi bốn màu không đủ cho bản đồ phẳng." | Sai. 4CT nói bốn màu luôn đủ (với biên có độ dài dương, theo mô hình chuẩn). |
+| "Máy tính kiểm tra các bản đồ ngẫu nhiên." | Sai. Máy kiểm tra tính khả quy của một số hữu hạn cấu hình, trong một chứng minh đã được thiết kế. |
+| "Định lý năm màu cũng cần máy tính." | Sai. Nó có chứng minh cổ điển ngắn. |
+| "4CT giải quyết bài toán tô màu trên mọi mặt." | Sai. Với các mặt giống cao, dùng số Heawood. |
+| "Mọi bản đồ gồm bốn nước đều cần bốn màu." | Sai. Chỉ khi mọi cặp nước đều có chung biên; nhiều bản đồ bốn miền cần ít màu hơn. |
+| "Không cần hình thức hóa vì năm 1976 đã giải xong." | Hình thức hóa giúp tăng độ tin cậy và khả năng kiểm tra lại; nó không phủ nhận công trình của Appel–Haken. |
 
 ---
 
 ## Bài tập
 
-1. Vẽ một bản đồ phẳng **cần ba màu**; lập luận hai màu thất bại.  
-2. Chuyển bản đồ đó sang dual và tô 3 màu các đỉnh.  
-3. Từ $$e\le 3v-6$$ suy mọi đồ thị phẳng đơn giản $$v\ge 3$$ có đỉnh bậc $$\le 5$$.  
-4. Phác thảo quy nạp năm màu trong bốn gạch đầu dòng.  
-5. Bằng lời của bạn: unavoidable vs reducible.  
-6. Literacy lịch sử: đọc tường thuật ngắn Appel–Haken; liệt kê một phê bình và một đáp (ví dụ formalization).  
-7. Thử prompt studio [tô màu Ch.7]({{ site.baseurl }}/contents/vi/chapter07/07_07_Explore_Map_Colors/) với công thức torus.  
-8. So văn hóa chứng minh: 4CT vs preprint Ricci flow của Perelman (xác minh cộng đồng không cùng kiểu nổ case).
+1. Vẽ một bản đồ phẳng **cần ba màu**; giải thích vì sao hai màu không đủ.  
+2. Chuyển bản đồ đó sang đồ thị đối ngẫu và tô các đỉnh bằng 3 màu.  
+3. Từ $$e\le 3v-6$$, suy ra mọi đồ thị phẳng đơn với $$v\ge 3$$ đều có một đỉnh bậc $$\le 5$$.  
+4. Phác thảo phép quy nạp trong chứng minh năm màu bằng bốn gạch đầu dòng.  
+5. Giải thích bằng lời của bạn: tập không tránh được và cấu hình khả quy khác nhau thế nào.  
+6. Tìm hiểu lịch sử: đọc một bài kể ngắn về công trình của Appel–Haken; nêu một lời phê bình và một câu trả lời (ví dụ việc hình thức hóa).  
+7. Thử đề bài ở [bài thực hành tô màu, Chương 7]({{ site.baseurl }}/contents/vi/chapter07/07_07_Explore_Map_Colors/) với công thức cho mặt xuyến.  
+8. So sánh cách cộng đồng chấp nhận chứng minh: 4CT và bản thảo về dòng Ricci của Perelman (việc kiểm chứng ở đó không phải là xét một số khổng lồ trường hợp).
 
 ---
 
-## Nguồn video (gói math-video-researcher)
+## Nguồn video (bộ tư liệu nghiên cứu video)
 
-Xếp hạng: `research/video-research/Four_Color_Theorem/`.
+Đánh giá chi tiết: `research/video-research/Four_Color_Theorem/`.
 
-**Thứ tự gợi ý**
+**Thứ tự xem gợi ý**
 
 1. **Định hướng** — Numberphile, *The Four Color Map Theorem*: [YouTube](https://www.youtube.com/watch?v=NgbK43jB4rQ).  
-2. **Cốt lõi phổ thông** — Quanta, *Map Coloring Puzzle…*: [YouTube](https://www.youtube.com/watch?v=h7kqlYUV1l8) · [bài](https://www.quantamagazine.org/only-computers-can-solve-this-map-coloring-problem-from-the-1800s-20230329/).  
-3. **Văn hóa** — Numberphile extra: [YouTube](https://www.youtube.com/watch?v=laMkuPrad3s); Conway (Simons): [YouTube](https://www.youtube.com/watch?v=fPVXBurxfU8).  
-4. **Formalization** — Gonthier Notices: [PDF](https://www.ams.org/notices/200811/tx081101382p.pdf).  
-5. **Cổng RSST** — Thomas: [fourcolor.html](https://thomas.math.gatech.edu/FC/fourcolor.html).
+2. **Nội dung chính (phổ thông)** — Quanta, *Map Coloring Puzzle…*: [YouTube](https://www.youtube.com/watch?v=h7kqlYUV1l8) · [bài viết](https://www.quantamagazine.org/only-computers-can-solve-this-map-coloring-problem-from-the-1800s-20230329/).  
+3. **Bối cảnh** — video bổ sung của Numberphile: [YouTube](https://www.youtube.com/watch?v=laMkuPrad3s); Conway (Simons): [YouTube](https://www.youtube.com/watch?v=fPVXBurxfU8).  
+4. **Hình thức hóa** — bài của Gonthier trên Notices: [PDF](https://www.ams.org/notices/200811/tx081101382p.pdf).  
+5. **Trang về chứng minh RSST** — Thomas: [fourcolor.html](https://thomas.math.gatech.edu/FC/fourcolor.html).
 
-**Sau video:** 4CT **đã chứng minh**. Hỗ trợ máy ≠ tìm ngẫu nhiên; formalization ≠ “chỉ bây giờ mới đúng.”
+**Sau khi xem video:** 4CT **đã được chứng minh**. Máy tính hỗ trợ không có nghĩa là tìm kiếm ngẫu nhiên; hình thức hóa không có nghĩa là "đến giờ mới đúng".
 
 ---
 
 
-### Transcript & frames (batch extract)
+### Phụ đề và khung hình
 
-Transcript caption và unit theo thời gian: `research/video-research/Four_Color_Theorem/transcripts/` · trạng thái: `research/video-research/Four_Color_Theorem/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
+Phụ đề và các đoạn theo thời gian: `research/video-research/Four_Color_Theorem/transcripts/` · trạng thái: `research/video-research/Four_Color_Theorem/TRANSCRIPT_STATUS.md` · danh sách tổng: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
 
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/Four_Color_Theorem_NgbK43jB4rQ_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính (xem bộ tư liệu để biết mốc thời gian).*
 
 ## Tài liệu tham khảo
 
-Thư mục URL: `research/video-research/Four_Color_Theorem/references.md`.
+Danh sách URL: `research/video-research/Four_Color_Theorem/references.md`.
 
 1. Appel & Haken (1976/77).  
 2. RSST; [Thomas FC](https://thomas.math.gatech.edu/FC/fourcolor.html).  
@@ -249,23 +249,23 @@ Thư mục URL: `research/video-research/Four_Color_Theorem/references.md`.
 6. Quanta: https://www.youtube.com/watch?v=h7kqlYUV1l8 · [bài 2023](https://www.quantamagazine.org/only-computers-can-solve-this-map-coloring-problem-from-the-1800s-20230329/)  
 7. Conway: https://www.youtube.com/watch?v=fPVXBurxfU8  
 8. Illinois museum: https://distributedmuseum.illinois.edu/exhibit/four-color-theorem/  
-9. [Explore map colors]({{ site.baseurl }}/contents/vi/chapter07/07_07_Explore_Map_Colors/); [Kakeya]({{ site.baseurl }}/contents/vi/chapter01/01_08_Kakeya_Conjecture/). Gói: `research/video-research/Four_Color_Theorem/`.
+9. [Khám phá tô màu bản đồ]({{ site.baseurl }}/contents/vi/chapter07/07_07_Explore_Map_Colors/); [Kakeya]({{ site.baseurl }}/contents/vi/chapter01/01_08_Kakeya_Conjecture/). Bộ tư liệu: `research/video-research/Four_Color_Theorem/`.
 
 ---
 
 ## Hướng đi tiếp
 
-**Tiếp lộ trình B**
+**Tiếp tục lộ trình B**
 
-1. Xong: Ch.1 Bốn màu (trang này).  
-2. **Tiếp →** [Studio tô màu Ch.7]({{ site.baseurl }}/contents/vi/chapter07/07_07_Explore_Map_Colors/).  
+1. Đã xong: Bốn màu, Chương 1 (trang này).  
+2. **Tiếp theo →** [Bài thực hành tô màu, Chương 7]({{ site.baseurl }}/contents/vi/chapter07/07_07_Explore_Map_Colors/).  
 
-- Essay về chuẩn mực computer-assisted proof.  
-- Nâng cao: Hadwiger (vẫn mở).  
-- Đối chiếu [Kakeya]({{ site.baseurl }}/contents/vi/chapter01/01_08_Kakeya_Conjecture/).
+- Viết một bài luận về chuẩn mực cho chứng minh có máy tính hỗ trợ.  
+- Nâng cao: giả thuyết Hadwiger (vẫn còn mở).  
+- So sánh với [Kakeya]({{ site.baseurl }}/contents/vi/chapter01/01_08_Kakeya_Conjecture/).
 
 ## Video tham khảo
 
-- **xem trước** — [The Four Color Map Theorem - Numberphile](https://www.youtube.com/watch?v=NgbK43jB4rQ) — Numberphile, tiếng Anh. Xem trước. “The Four Color Map Theorem - Numberphile” định hướng cho mục tiêu của bài: Phát biểu 4CT bằng ngôn ngữ bản đồ và ngôn ngữ đồ thị (số màu tô đỉnh \chi(G)\le 4 cho G phẳng hữu hạn).
-- [The Map Coloring Puzzle That Changed Mathematics](https://www.youtube.com/watch?v=h7kqlYUV1l8) — Quanta Magazine, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu 4CT bằng ngôn ngữ bản đồ và ngôn ngữ đồ thị (số màu tô đỉnh \chi(G)\le 4 cho G phẳng hữu hạn).
-- [John Conway - Four Color Theorem and Computer Proofs](https://www.youtube.com/watch?v=fPVXBurxfU8) — Simons Foundation, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu 4CT bằng ngôn ngữ bản đồ và ngôn ngữ đồ thị (số màu tô đỉnh \chi(G)\le 4 cho G phẳng hữu hạn).
+- **Xem trước:** [The Four Color Map Theorem - Numberphile](https://www.youtube.com/watch?v=NgbK43jB4rQ) — Numberphile, tiếng Anh. Giới thiệu bài toán tô bản đồ và câu chuyện chứng minh; nên xem trước khi đọc bài.
+- [The Map Coloring Puzzle That Changed Mathematics](https://www.youtube.com/watch?v=h7kqlYUV1l8) — Quanta Magazine, tiếng Anh. Lịch sử bài toán và vai trò của máy tính trong chứng minh; nên xem sau khi đã nắm ý chính của bài.
+- [John Conway - Four Color Theorem and Computer Proofs](https://www.youtube.com/watch?v=fPVXBurxfU8) — Simons Foundation, tiếng Anh. Xem thêm sau hai video trên; Conway bàn về định lý bốn màu và chứng minh bằng máy tính.

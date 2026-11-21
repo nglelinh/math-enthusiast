@@ -10,184 +10,175 @@ categories:
 lesson_type: required
 ---
 
-**Karen Keskulla Uhlenbeck** nhận **Abel Prize 2019**
+**Karen Keskulla Uhlenbeck** nhận **Giải Abel 2019**
 
 > “for her pioneering achievements in geometric partial differential equations, gauge theory and integrable systems, and for the fundamental impact of her work on analysis, geometry and mathematical physics.”  
-> — [Citation ủy ban Abel](https://abelprize.no/abel-prize-laureates/2019)
+> — [Citation của ủy ban Abel](https://abelprize.no/abel-prize-laureates/2019)
 
-Bà là **nữ** laureate Abel **đầu tiên**. Bài này giải thích vì sao gauge theory cần giải tích nặng; compactness, bubbling, removable singularities nghĩa gì ở mức ý tưởng; và một đời hạ tầng PDE hình học có thể định hình tôpô và vật lý toán thế nào. Tài liệu: [abelprize.no](https://abelprize.no/).
+Bà là **nữ** laureate đầu tiên của giải Abel. Bài này giải thích vì sao lý thuyết gauge cần giải tích nặng; ở mức ý tưởng, tính compact, hiện tượng “bong bóng” (bubbling) và các kỳ dị khử được có nghĩa là gì; và một đời làm hạ tầng cho PDE hình học có thể định hình tôpô và vật lý toán như thế nào. Tài liệu: [abelprize.no](https://abelprize.no/).
 
 ---
 
 ## Mục tiêu học tập
 
-Sau bài, bạn có thể giải thích đối tượng gauge (connection, curvature, bundle) ở mức khẩu hiệu; mô tả vì sao **compactness / bubbling / removable singularities** quan trọng với PDE hình học; đặt Uhlenbeck như hạ tầng giải tích cho tôpô gauge (Donaldson và hậu duệ); nối văn hóa geometric analysis với mặt cực tiểu và geometric flow; phân biệt “cảm hứng vật lý” với “định lý toán về moduli.”
+Sau bài này, bạn có thể giải thích các đối tượng gauge (liên thông, độ cong, phân thớ) ở mức khẩu hiệu; mô tả vì sao **tính compact, bubbling và kỳ dị khử được** quan trọng với PDE hình học; đặt Uhlenbeck vào vị trí hạ tầng giải tích cho tôpô gauge (Donaldson và các thế hệ sau); nối văn hóa của giải tích hình học với mặt cực tiểu và các dòng hình học; và phân biệt “cảm hứng từ vật lý” với “định lý toán học về không gian moduli”.
 
-**Kiến thức nền.** Giải tích nhiều biến; ý đa tạp/mặt. Đại số tuyến tính giúp “connection ≈ cách vi phân trường vector.” Không cần đã học gauge theory. Liên kết: [mặt cực tiểu]({{ site.baseurl }}/contents/vi/chapter04/04_09_Minimal_Surfaces/), [vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/), [Perelman]({{ site.baseurl }}/contents/vi/chapter02/02_03_Perelman_Poincare/).
+**Kiến thức nền.** Giải tích nhiều biến; ý niệm về đa tạp và mặt. Đại số tuyến tính giúp hiểu “liên thông gần như là cách lấy đạo hàm trường vector”. Không cần đã học lý thuyết gauge. Liên kết: [mặt cực tiểu]({{ site.baseurl }}/contents/vi/chapter04/04_09_Minimal_Surfaces/), [vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/), [Perelman]({{ site.baseurl }}/contents/vi/chapter02/02_03_Perelman_Poincare/).
 
 ---
 
-## 1. Gauge theory như hình học
+## 1. Lý thuyết gauge như hình học
 
-Trong vật lý, trường gauge mô tả lực: điện từ là gauge abel; tương tác yếu/mạnh liên quan **Yang–Mills** không abel. Toán học: **bundle** chính hoặc vector trên đa tạp $$M$$. **Connection** $$A$$ là quy tắc vi phân section—vận chuyển bậc tự do “nội” dọc đường trong $$M$$. **Curvature** $$F_A$$ đo mixed partial không giao hoán; công thức địa phương dạng
+Trong vật lý, trường gauge mô tả các lực: điện từ là gauge abel; tương tác yếu và mạnh liên quan đến **Yang–Mills** không abel. Trong toán học, ta có một **phân thớ** chính hoặc phân thớ vector trên đa tạp $$M$$. Một **liên thông** $$A$$ là quy tắc lấy đạo hàm các tiết diện, nó vận chuyển bậc tự do “nội tại” dọc theo các đường trong $$M$$. **Độ cong** $$F_A$$ đo việc các đạo hàm riêng hỗn hợp không giao hoán với nhau; công thức địa phương có dạng
 
 $$
 F_A = dA + A\wedge A
 $$
 
-trong ngôn ngữ form vi phân giá trị Lie algebra.
+trong ngôn ngữ các dạng vi phân có giá trị trong đại số Lie.
 
-**Phiếm hàm Yang–Mills** là năng lượng curvature,
+**Phiếm hàm Yang–Mills** là năng lượng của độ cong,
 
 $$
 \mathrm{YM}(A) = \int_M \lvert F_A\rvert^2\, d\mathrm{vol},
 $$
 
-điểm tới hạn là **Yang–Mills connection**. Instanton và nghiệm đặc biệt liên quan ở chiều 4 trở thành trung tâm tôpô.
+và các điểm tới hạn của nó là các **liên thông Yang–Mills**. Instanton và những nghiệm đặc biệt liên quan, ở chiều 4, trở thành trung tâm của tôpô.
 
-Để lấy tôpô từ **moduli** connection (Donaldson…), cần định lý giải tích: tồn tại, compact, chính quy, kiểm soát singularity. Lớp đó là geometric analysis. Không có nó, hình thức vật lý hay tôpô đại số không thành định lý về 4-đa tạp trơn. Seminar nên nhớ: citation Abel nói “fundamental impact”—đó là giải hạ tầng, không chỉ một lemma đẹp.
+Để lấy được tôpô từ **không gian moduli** của các liên thông (Donaldson và những người khác), cần có các định lý giải tích: sự tồn tại, tính compact, tính chính quy, kiểm soát kỳ dị. Lớp kết quả đó thuộc giải tích hình học. Nếu thiếu nó, hình thức luận của vật lý hay tôpô đại số không thể trở thành định lý về các 4-đa tạp trơn. Điều nên nhớ trong seminar: citation của Abel nói “fundamental impact”, nghĩa là đây là giải ghi nhận hạ tầng, không chỉ một bổ đề đẹp.
 
 ---
 
 ## 2. Vì sao giải tích là nút thắt
 
-Không gian vô hạn chiều các connection modulo gauge không compact theo topology ngây thơ. Dãy connection năng lượng Yang–Mills bị chặn có thể:
+Không gian vô hạn chiều của các liên thông, lấy thương theo gauge, không compact theo tô-pô ngây thơ. Một dãy các liên thông có năng lượng Yang–Mills bị chặn có thể:
 
-- hội tụ trơn trên vùng lớn;  
-- **tập trung năng lượng** tại điểm (hoặc tập chiều thấp hơn);  
-- “bubble” nghiệm không tầm thường trên mô hình $$S^4$$ hay $$\mathbb{R}^4$$ sau rescale.
+- hội tụ trơn trên một vùng lớn;  
+- **tập trung năng lượng** tại một điểm (hoặc một tập có chiều thấp hơn);  
+- tạo “bong bóng” (bubble): một nghiệm không tầm thường trên mô hình $$S^4$$ hay $$\mathbb{R}^4$$ sau khi đổi tỉ lệ.
 
-Không kiểm soát hiện tượng đó thì moduli không dùng được: không đếm, không compact hóa, không nối class đặc trưng và giao. Tôpô cần ước lượng.
+Nếu không kiểm soát được hiện tượng đó thì không gian moduli không dùng được: không đếm được, không compact hóa được, không nối được các lớp đặc trưng với giao điểm. Tôpô cần các ước lượng.
 
-Cùng họ triết học với bubbling harmonic map, singularity geometric flow, concentration-compactness PDE biến phân—anh em, không bản sao. Ước lượng trước, phân loại sau: đó là khẩu hiệu văn hóa geometric analysis.
-
----
-
-## 3. Đột phá giải tích gắn Uhlenbeck
-
-### Uhlenbeck compactness
-
-Dãy Yang–Mills năng lượng bị chặn, sau gauge, có dãy con hội tụ trơn ngoài hữu hạn điểm (ở setting tới hạn chiều 4), trong khi năng lượng có thể tập trung tại các điểm đó. Compact hóa gồm bubble tree—nền tảng moduli trong tôpô gauge.
-
-### Removable singularities và epsilon-regularity
-
-**Epsilon-regularity:** nếu năng lượng trong quả cầu đủ nhỏ thì connection chính quy (sau chọn gauge) với ước lượng định lượng. Do đó singularity không thể tùy tiện; năng lượng nhỏ cấm hành vi hoang. **Removable singularities:** singularity cô lập có thể lấp dưới bound năng lượng—niềm tin giải tích rằng “lỗ” không bí ẩn vô điều kiện.
-
-### Mẫu ngoài Yang–Mills
-
-Kỹ thuật lan sang harmonic maps, Yang–Mills–Higgs, PDE hình học khác. Văn hóa **tập trung năng lượng + blow-up + phân loại bubble** trở thành ngôn ngữ cao học chuẩn.
-
-### Hệ khả tích và geometric analysis rộng
-
-Citation Abel còn nêu hệ khả tích và tác động rộng lên giải tích, hình học, vật lý toán. Sự nghiệp Uhlenbeck là portfolio khiến PDE hình học thành xa lộ giữa toán thuần và hình học cảm hứng vật lý—không một lemma.
+Cùng một họ triết lý với bubbling của ánh xạ điều hòa, kỳ dị của các dòng hình học, và tính compact tập trung trong PDE biến phân; chúng là anh em chứ không phải bản sao của nhau. Ước lượng trước, phân loại sau: đó là khẩu hiệu văn hóa của giải tích hình học.
 
 ---
 
-## 4. Tập trung năng lượng: bản đồ sâu
+## 3. Những đột phá giải tích gắn với Uhlenbeck
 
-Nhiều PDE hình học cực tiểu/tới hạn hóa năng lượng (Dirichlet cho map, Yang–Mills cho connection). Khi năng lượng tập trung, **bubble**—nghiệm năng lượng hữu hạn trên không gian mô hình—có thể hình thành. Kiểm soát bubble là trái tim compact hóa moduli.
+### Tính compact của Uhlenbeck
 
-Ước lượng kiểu Uhlenbeck cho ngưỡng định lượng: dưới thang năng lượng, tập trung không giấu được bubble; trên ngưỡng phải kể bubble tường minh. Bức tranh là hình học, không chỉ giải tích hàm: “điểm ở vô cùng” của moduli mang nghĩa hình học.
+Một dãy liên thông Yang–Mills với năng lượng bị chặn, sau khi chọn gauge, có một dãy con hội tụ trơn ngoài hữu hạn điểm (trong thiết lập tới hạn ở chiều 4), trong khi năng lượng có thể tập trung tại các điểm đó. Việc compact hóa bao gồm cả “cây bong bóng”. Đây là nền tảng của không gian moduli trong tôpô gauge.
 
-So (cẩn thận) với singularity NS hay Ricci flow: phương trình khác; **triết lý phân tích thang**—zoom nơi mật độ năng lượng/độ cong nổ—vần điệu tương tự.
+### Kỳ dị khử được và tính chính quy epsilon
+
+**Chính quy epsilon:** nếu năng lượng trong một quả cầu đủ nhỏ thì liên thông là chính quy (sau khi chọn gauge) với ước lượng định lượng. Do đó kỳ dị không thể tùy tiện; năng lượng nhỏ cấm những hành vi hoang dại. **Kỳ dị khử được:** một kỳ dị cô lập có thể được lấp lại nếu năng lượng bị chặn. Đó là niềm tin giải tích rằng một “lỗ” không bí ẩn vô điều kiện.
+
+### Mẫu hình ngoài Yang–Mills
+
+Các kỹ thuật này lan sang ánh xạ điều hòa, Yang–Mills–Higgs và các PDE hình học khác. Văn hóa **tập trung năng lượng, phóng đại tại điểm kỳ dị và phân loại các bong bóng** đã trở thành ngôn ngữ chuẩn ở bậc cao học.
+
+### Hệ khả tích và giải tích hình học rộng hơn
+
+Citation của Abel còn nêu các hệ khả tích và tác động rộng lên giải tích, hình học, vật lý toán. Sự nghiệp của Uhlenbeck là cả một danh mục khiến PDE hình học trở thành xa lộ nối toán thuần túy với hình học lấy cảm hứng từ vật lý, chứ không chỉ một bổ đề.
 
 ---
 
-## 5. Vì sao tầm Abel
+## 4. Tập trung năng lượng: bản đồ sâu hơn
 
-Một phép tính khéo không tạo lĩnh vực. Uhlenbeck giúp PDE hình học vô hạn chiều **dùng được** cho tôpô và vật lý. Thế hệ sau xây Donaldson–Thomas, Seiberg–Witten (động cơ gauge khác, giải tích êm hơn), geometric flow trên cảnh quan được ổn định bởi compactness và chính quy của trường phái này.
+Nhiều PDE hình học cực tiểu hóa hay tìm điểm tới hạn của một năng lượng (năng lượng Dirichlet cho ánh xạ, Yang–Mills cho liên thông). Khi năng lượng tập trung lại, có thể hình thành **bong bóng**: nghiệm có năng lượng hữu hạn trên không gian mô hình. Kiểm soát được bong bóng là trái tim của việc compact hóa không gian moduli.
 
-Abel 2019 là **giải hạ tầng** đúng nghĩa: mệnh đề “fundamental impact” là điểm chính. Là nữ laureate đầu tiên quan trọng lịch sử; toán học đứng trên merit giải tích độc lập với mốc đó—và mốc vẫn quan trọng với văn hóa ngành. LO6: đừng rút citation thành “giải đa dạng” hay thành “chỉ vật lý hạt.”
+Các ước lượng kiểu Uhlenbeck cho ngưỡng định lượng: dưới một mức năng lượng nhất định, sự tập trung không thể giấu một bong bóng; còn trên ngưỡng thì phải kể bong bóng một cách tường minh. Bức tranh này mang tính hình học, không chỉ là giải tích hàm: “điểm ở vô cùng” của không gian moduli có ý nghĩa hình học.
+
+So sánh (cẩn thận) với kỳ dị của Navier–Stokes hay của dòng Ricci: phương trình khác nhau, nhưng **triết lý phân tích theo thang**, tức phóng to nơi mật độ năng lượng hay độ cong bùng nổ, có sự tương đồng.
 
 ---
 
-## 6. Gauge fixing, moduli, và “không gian nghiệm”
+## 5. Vì sao đáng một giải Abel
 
-Connection chỉ xác định modulo **gauge transformation**—đổi trivialization địa phương viết lại $$A$$ mà không đổi nội dung hình học/vật lý. Đối tượng thật thường là **moduli space**
+Một phép tính khéo léo không tạo nên một lĩnh vực. Uhlenbeck làm cho PDE hình học vô hạn chiều trở nên **dùng được** cho tôpô và vật lý. Các thế hệ sau xây dựng Donaldson–Thomas, Seiberg–Witten (một động cơ gauge khác, giải tích êm hơn), và các dòng hình học trên cảnh quan được ổn định nhờ tính compact và tính chính quy của trường phái này.
+
+Giải Abel 2019 là giải **ghi nhận hạ tầng** đúng nghĩa: cụm “fundamental impact” là điểm chính. Việc bà là nữ laureate đầu tiên có ý nghĩa lịch sử; toán học đứng vững trên giá trị giải tích độc lập với cột mốc đó, và cột mốc ấy vẫn quan trọng đối với văn hóa của ngành. Đừng rút gọn citation thành “giải của sự đa dạng” hay thành “chỉ là vật lý hạt”.
+
+---
+
+## 6. Cố định gauge, moduli và “không gian nghiệm”
+
+Liên thông chỉ được xác định modulo **phép biến đổi gauge**: đổi tầm thường hóa địa phương làm $$A$$ được viết lại mà không đổi nội dung hình học hay vật lý. Đối tượng thật sự thường là **không gian moduli**
 
 $$
 \mathcal{M} = \{\text{Yang–Mills connections}\}/\text{gauge}.
 $$
 
-Thương vô hạn chiều nguy hiểm giải tích: phải chọn đại diện cẩn thận (Coulomb gauge và họ hàng), rồi ước lượng elliptic khôi phục kiểm soát địa phương. Định lý gauge-fixing và compactness kiểu Uhlenbeck chính là công cụ biến thương hình thức thành thứ geometer compact hóa và dùng được.
+Thương vô hạn chiều này nguy hiểm về mặt giải tích: phải chọn đại diện cẩn thận (gauge Coulomb và các họ hàng), rồi các ước lượng elliptic khôi phục sự kiểm soát cục bộ. Các định lý cố định gauge và tính compact kiểu Uhlenbeck chính là công cụ biến thương hình thức thành thứ mà nhà hình học compact hóa và sử dụng được.
 
-Ở chiều 4, anti-self-dual connection (instanton) tạo moduli mà chiều và tôpô mã hóa cấu trúc trơn trên 4-đa tạp. Ứng dụng cách mạng của Donaldson dựa nền giải tích đó. Seiberg–Witten sau đưa động cơ khác; điểm lịch sử vẫn là: **không có compactness và removable singularities thì chương trình moduli không khởi động**.
-
----
-
-## 7. Cảnh quan khóa học
-
-- [Mặt cực tiểu]({{ site.baseurl }}/contents/vi/chapter04/04_09_Minimal_Surfaces/) — năng lượng, chính quy, kết luận hình học từ PDE.  
-- [Vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/) — nơi trường gauge trở lại như vật lý.  
-- [Perelman]({{ site.baseurl }}/contents/vi/chapter02/02_03_Perelman_Poincare/) — PDE hình học chinh phục tôpô bằng đường khác (Ricci flow với surgery).  
-- Gauge theory và tôpô 4-đa tạp như câu chuyện song song “PDE → tôpô” với “PDE → geometrization” của Ricci flow.
-
-So seminar hữu ích: Ricci flow biến dạng *metric*; Yang–Mills nghiên cứu *connection* tới hạn. Cả hai là chương trình PDE hình học lấy tôpô từ giải tích. Phương trình, scaling, mô hình singularity khác; bài học văn hóa vần điệu—**ước lượng trước, phân loại sau**.
+Ở chiều 4, các liên thông phản tự đối ngẫu (instanton) tạo ra không gian moduli mà chiều và tôpô của nó mã hóa cấu trúc trơn trên các 4-đa tạp. Ứng dụng mang tính cách mạng của Donaldson dựa trên nền giải tích ấy. Seiberg–Witten sau này đưa vào một động cơ khác, nhưng điểm lịch sử vẫn là: **nếu không có tính compact và các kỳ dị khử được thì chương trình moduli không khởi động được**.
 
 ---
 
-## 8. Nhầm lẫn
+## 7. Vị trí trong khóa học
 
-| Khẳng định | Chỉnh |
-|------------|-------|
-| “Gauge chỉ là vật lý hạt.” | Trong toán thuần: hình học connection và moduli với ứng dụng tôpô. |
-| “Compactness = mọi dãy hội tụ.” | Hội tụ dãy con sau gauge, thường ngoài singular set, có thể kèm bubble. |
-| “Uhlenbeck chứng minh định lý Donaldson.” | Donaldson dùng moduli gauge cho tôpô; phân tích kiểu Uhlenbeck là hạ tầng. |
-| “Removable singularities = không có gì xấu.” | Có thể gỡ singularity *dưới giả thiết* (bound năng lượng). |
-| “Abel 2019 chỉ là giải đa dạng.” | Citation toán về PDE hình học và gauge; mốc lịch sử là sự kiện thêm. |
+- [Mặt cực tiểu]({{ site.baseurl }}/contents/vi/chapter04/04_09_Minimal_Surfaces/): năng lượng, tính chính quy, các kết luận hình học rút ra từ PDE.  
+- [Vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/): nơi trường gauge quay lại với tư cách vật lý.  
+- [Perelman]({{ site.baseurl }}/contents/vi/chapter02/02_03_Perelman_Poincare/): PDE hình học chinh phục tôpô bằng một con đường khác (dòng Ricci có phẫu thuật).  
+- Lý thuyết gauge và tôpô của các 4-đa tạp là câu chuyện song song “PDE → tôpô”, đối với “PDE → hình học hóa” của dòng Ricci.
+
+Một so sánh hữu ích cho seminar: dòng Ricci biến dạng *metric*; Yang–Mills nghiên cứu *liên thông* tới hạn. Cả hai đều là chương trình PDE hình học lấy tôpô từ giải tích. Phương trình, phép đổi tỉ lệ và mô hình kỳ dị khác nhau, nhưng bài học văn hóa giống nhau: **ước lượng trước, phân loại sau**.
+
+---
+
+## 8. Những nhầm lẫn
+
+| Khẳng định | Chỉnh lại |
+|------------|-----------|
+| “Gauge chỉ là vật lý hạt.” | Trong toán thuần túy: hình học của liên thông và không gian moduli, với ứng dụng cho tôpô. |
+| “Compact nghĩa là mọi dãy đều hội tụ.” | Hội tụ của một dãy con sau khi chọn gauge, thường ngoài một tập kỳ dị, có thể kèm bong bóng. |
+| “Uhlenbeck chứng minh định lý Donaldson.” | Donaldson dùng không gian moduli gauge cho tôpô; phân tích kiểu Uhlenbeck là hạ tầng. |
+| “Kỳ dị khử được nghĩa là không có gì xấu.” | Có thể gỡ kỳ dị *dưới giả thiết* (năng lượng bị chặn). |
+| “Giải Abel 2019 chỉ là giải của sự đa dạng.” | Citation nói về toán học của PDE hình học và gauge; cột mốc lịch sử chỉ là sự kiện thêm vào. |
 
 ---
 
 ## Bài tập
 
-1. Connection vs curvature: mỗi cái một câu (không công thức cũng được).  
-2. “Bubbling” là gì với PDE hình học energy-critical? Hai câu.  
-3. Vì sao tôpô cần giải tích trong gauge theory? ≤150 từ.  
-4. **≤250 từ:** So giải hạ tầng (phân tích Uhlenbeck) với sử thi một định lý (ví dụ một bài Millennium).  
-5. Ba từ PDE hình học chung với mặt cực tiểu; một từ đặc trưng hơn cho gauge (connection, curvature, gauge fixing).  
-6. Lướt tài liệu Abel 2019 trên [abelprize.no](https://abelprize.no/); liệt kê ba từ khóa định lý mới với bạn.
+1. Liên thông và độ cong: mỗi khái niệm một câu (không công thức cũng được).  
+2. “Bubbling” là gì đối với PDE hình học tới hạn năng lượng? Hai câu.  
+3. Vì sao tôpô cần giải tích trong lý thuyết gauge? Không quá 150 từ.  
+4. **Không quá 250 từ:** so sánh giải ghi nhận hạ tầng (phân tích của Uhlenbeck) với bản anh hùng ca về một định lý (ví dụ một bài toán Millennium).  
+5. Nêu ba từ chung giữa PDE hình học và mặt cực tiểu; và một từ đặc trưng hơn cho gauge (liên thông, độ cong, cố định gauge).  
+6. Lướt qua tài liệu về Abel 2019 trên [abelprize.no](https://abelprize.no/); liệt kê ba từ khóa định lý mới đối với bạn.
 
 ---
 
+## Nguồn video
 
-## Nguồn video (gói math-video-researcher)
+Hãy dùng video để **định hướng và làm quen với văn hóa nghiên cứu**, đừng dùng thay cho chứng minh.
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh. Chi tiết: `research/video-research/uhlenbeck-gauge/`.
+**Những ý chính từ phần nghiên cứu**
 
-**Khẩu hiệu từ gói nghiên cứu**
-
-- Abel 2019: Uhlenbeck — PDE hình học, gauge, bubbling / singularity.
-- Nữ laureate đầu tiên; hạ tầng phân tích cho topology gauge.
+- Abel 2019: Uhlenbeck, PDE hình học, gauge, bubbling và kỳ dị.
+- Nữ laureate đầu tiên; hạ tầng giải tích cho tôpô gauge.
 
 **Thứ tự xem gợi ý**
 
-1. **CORE** — Uhlenbeck Abel lecture — Calculus of Variations: [https://www.youtube.com/watch?v=1WepO8tFGto](https://www.youtube.com/watch?v=1WepO8tFGto).  
-2. **CORE** — Bryant — Bubbles & singularities (on Uhlenbeck): [https://www.youtube.com/watch?v=EZNpi8H6q1Q](https://www.youtube.com/watch?v=EZNpi8H6q1Q).  
-3. **ORIENTATION** — Abel Prize Interview Uhlenbeck: [https://www.youtube.com/watch?v=0fOaetX4eHM](https://www.youtube.com/watch?v=0fOaetX4eHM).  
-4. **ORIENTATION** — Live interview Uhlenbeck: [https://www.youtube.com/watch?v=mmWdPPwSi64](https://www.youtube.com/watch?v=mmWdPPwSi64).  
-5. **HISTORY** — Abel announcement 2019: [https://www.youtube.com/watch?v=arrl_nM0T4s](https://www.youtube.com/watch?v=arrl_nM0T4s).  
+1. **Cốt lõi**: bài giảng Abel của Uhlenbeck về Phép tính biến phân: [https://www.youtube.com/watch?v=1WepO8tFGto](https://www.youtube.com/watch?v=1WepO8tFGto).  
+2. **Cốt lõi**: Bryant, về bong bóng và kỳ dị (nói về công trình của Uhlenbeck): [https://www.youtube.com/watch?v=EZNpi8H6q1Q](https://www.youtube.com/watch?v=EZNpi8H6q1Q).  
+3. **Định hướng**: phỏng vấn Uhlenbeck của giải Abel: [https://www.youtube.com/watch?v=0fOaetX4eHM](https://www.youtube.com/watch?v=0fOaetX4eHM).  
+4. **Định hướng**: phỏng vấn trực tiếp Uhlenbeck: [https://www.youtube.com/watch?v=mmWdPPwSi64](https://www.youtube.com/watch?v=mmWdPPwSi64).  
+5. **Lịch sử**: buổi công bố giải Abel 2019: [https://www.youtube.com/watch?v=arrl_nM0T4s](https://www.youtube.com/watch?v=arrl_nM0T4s).  
 
-**Cổng chính thức / tài liệu**
+**Cổng chính thức và tài liệu**
 
 - Abel 2019 Uhlenbeck: https://abelprize.no/abel-prize-laureates/2019  
 
-Danh mục URL đầy đủ: `research/video-research/uhlenbeck-gauge/references.md`.
-
-
-### Transcript & frames (batch extract)
-
-Transcript caption và unit theo thời gian: `research/video-research/uhlenbeck-gauge/transcripts/` · trạng thái: `research/video-research/uhlenbeck-gauge/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
+---
 
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/uhlenbeck-gauge_1WepO8tFGto_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính.*
 
 ## Tài liệu
 
-
-### Gói nghiên cứu video (mọi URL)
-
-Danh mục đầy đủ: `research/video-research/uhlenbeck-gauge/references.md`.
+### Danh mục nguồn
 
 1. Abel 2019 Uhlenbeck — https://abelprize.no/abel-prize-laureates/2019  
 2. Uhlenbeck Abel lecture — Calculus of Variations — https://www.youtube.com/watch?v=1WepO8tFGto  
@@ -199,25 +190,24 @@ Danh mục đầy đủ: `research/video-research/uhlenbeck-gauge/references.md`
 8. Celebratio Mathematica — Uhlenbeck — https://celebratio.org/Uhlenbeck_K/cover/472/  
 9. AMS Notices survey (Donaldson on Uhlenbeck PDF) — https://www.ams.org/journals/notices/201903/rnoti-p303.pdf  
 10. Wikipedia — Karen Uhlenbeck — https://en.wikipedia.org/wiki/Karen_Uhlenbeck  
-11. Thư mục gói: `research/video-research/uhlenbeck-gauge/`.
 
 1. [Abel 2019](https://abelprize.no/abel-prize-laureates/2019).  
-2. Survey Yang–Mills analysis / Uhlenbeck compactness.  
-3. Nhập môn tôpô gauge (Donaldson–Kronheimer…) cho ngữ cảnh, không phải prerequisite đầy đủ.  
-4. Liên kết khóa: mặt cực tiểu; vật lý toán; Perelman.
+2. Bài khảo sát về giải tích của Yang–Mills và tính compact của Uhlenbeck.  
+3. Nhập môn tôpô gauge (Donaldson–Kronheimer, …) để lấy ngữ cảnh, không phải là điều kiện tiên quyết đầy đủ.  
+4. Liên kết trong khóa: mặt cực tiểu; vật lý toán; Perelman.
 
 ---
 
 ## Hướng đi tiếp
 
-- So ngôn ngữ bubbling với singularity NS (phương trình khác, triết lý thang tương tự).  
-- Seminar LO6: phê bài phổ thông chỉ gán gauge cho vật lý hạt.  
-- Ghi một thách thức giải tích mở trong PDE hình học bạn quan tâm (gauge chiều cao hơn, mô hình singularity, …).  
-- So [Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/).  
-- Tiếp: [Furstenberg & Margulis]({{ site.baseurl }}/contents/vi/chapter08/08_05_Furstenberg_Margulis/).
+- So sánh ngôn ngữ về bubbling với kỳ dị của Navier–Stokes (phương trình khác, triết lý thang đo tương tự).  
+- Trong seminar: phê bình những bài phổ thông chỉ gán gauge cho vật lý hạt.  
+- Ghi lại một thách thức giải tích còn mở trong PDE hình học mà bạn quan tâm (gauge ở chiều cao hơn, mô hình kỳ dị, …).  
+- So với [Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/).  
+- Tiếp theo: [Furstenberg & Margulis]({{ site.baseurl }}/contents/vi/chapter08/08_05_Furstenberg_Margulis/).
 
 ## Video tham khảo
 
-- **xem trước** — [Karen Uhlenbeck: Some Thoughts on the Calculus of Variations](https://www.youtube.com/watch?v=1WepO8tFGto) — The Abel Prize, tiếng Anh. Xem trước. “Karen Uhlenbeck: Some Thoughts on the Calculus of Variations” định hướng cho mục tiêu của bài: Sau bài, bạn có thể giải thích đối tượng gauge (connection, curvature, bundle) ở mức khẩu hiệu; mô tả vì sao compactness / bubbling / removable singularities quan trọng với PDE hìn…
-- [Robert Bryant: Limits, Bubbles, and Singularities: The fundamental ideas of Karen Uhlenbeck](https://www.youtube.com/watch?v=EZNpi8H6q1Q) — The Abel Prize, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài, bạn có thể giải thích đối tượng gauge (connection, curvature, bundle) ở mức khẩu hiệu; mô tả vì sao compactness / bubbling / removable singularities quan trọng với PDE hìn…
-- [Karen Uhlenbeck - The Abel Prize interview 2019](https://www.youtube.com/watch?v=0fOaetX4eHM) — The Abel Prize, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài, bạn có thể giải thích đối tượng gauge (connection, curvature, bundle) ở mức khẩu hiệu; mô tả vì sao compactness / bubbling / removable singularities quan trọng với PDE hìn…
+- **Xem trước** — [Karen Uhlenbeck: Some Thoughts on the Calculus of Variations](https://www.youtube.com/watch?v=1WepO8tFGto) — The Abel Prize, tiếng Anh. Xem trước để nghe chính Uhlenbeck nói về phép tính biến phân, nền tảng cho phần còn lại của bài.
+- [Robert Bryant: Limits, Bubbles, and Singularities: The fundamental ideas of Karen Uhlenbeck](https://www.youtube.com/watch?v=EZNpi8H6q1Q) — The Abel Prize, tiếng Anh. Xem lượt thứ hai, khi ý chính đã rõ, để thấy giới hạn, bong bóng và kỳ dị được giải thích có hệ thống.
+- [Karen Uhlenbeck - The Abel Prize interview 2019](https://www.youtube.com/watch?v=0fOaetX4eHM) — The Abel Prize, tiếng Anh. Góc nhìn bổ sung sau hai video đầu, qua cuộc phỏng vấn về con đường làm toán của bà.

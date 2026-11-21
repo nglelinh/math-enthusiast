@@ -9,9 +9,9 @@ categories:
 - chapter05
 ---
 
-Số $$\sqrt{2}$$ không phải tỷ số hai số nguyên. Khám phá cổ điển—gắn truyền thống Pythagore và thường được kể như khủng hoảng niềm tin mọi độ dài đều thông ước—vẫn là một trong những chứng minh đầu tiên hay nhất trong giáo dục toán. Lập luận ngắn, nhưng **ý tưởng** sâu: giả sử biểu diễn tối giản, buộc thừa số chung 2, mâu thuẫn tính tối thiểu. Parity trở thành nêm chẻ giả định hữu tỷ.
+Số $$\sqrt{2}$$ không phải là tỷ số của hai số nguyên. Phát hiện này thuộc về truyền thống Pythagore và thường được kể như một cuộc khủng hoảng của niềm tin rằng mọi độ dài đều thông ước với nhau. Đến nay nó vẫn là một trong những chứng minh nhập môn hay nhất trong giáo dục toán học. Lập luận rất ngắn nhưng **ý tưởng** sâu: giả sử có một biểu diễn tối giản, chỉ ra rằng tử và mẫu cùng chia hết cho 2, và như vậy mâu thuẫn với tính tối giản. Tính chẵn lẻ là chìa khóa để bác bỏ giả thiết "$$\sqrt{2}$$ hữu tỷ".
 
-Bài này phát triển ý tưởng đó cẩn thận, đối chiếu các gói tương đương (descent vô hạn, phân tích thừa số nhẹ), và đặt kết quả giữa các chứng minh vô tỷ khác. Mục tiêu: skeleton bạn có thể dạy trên bảng trong mười phút—và bảo vệ khi bị hỏi trong một giờ.
+Bài này trình bày kỹ ý tưởng đó, so sánh với các cách trình bày tương đương (xuống thang vô hạn, phân tích thừa số nguyên tố đơn giản), và đặt kết quả cạnh các chứng minh tính vô tỷ khác. Mục tiêu là bạn có được một khung chứng minh có thể giảng trên bảng trong mười phút, và đủ vững để trả lời câu hỏi trong một giờ.
 
 ---
 
@@ -19,30 +19,30 @@ Bài này phát triển ý tưởng đó cẩn thận, đối chiếu các gói 
 
 Sau bài học, bạn có thể:
 
-- Phát biểu và chứng minh $$\sqrt{2}$$ vô tỷ qua mâu thuẫn chẵn-chẵn ở dạng tối giản.
-- Giải thích vì sao “tối giản” (hoặc tối thiểu tương đương) thiết yếu.
-- Nối chứng minh với descent vô hạn và tính chia hết cho 2.
-- Thích nghi ý tưởng sang $$\sqrt{3}$$ hoặc $$\sqrt{p}$$ với $$p$$ nguyên tố, ghi nơi mẹo parity cần tổng quát hóa.
-- Tránh nhầm “$$\sqrt{2}$$ vô tỷ vì thập phân không kết thúc.”
-- Viết narrative ý tưởng chứng minh sạch cho seminar.
+- Phát biểu và chứng minh $$\sqrt{2}$$ vô tỷ bằng cách chỉ ra mâu thuẫn "cả tử và mẫu đều chẵn" ở dạng tối giản.
+- Giải thích vì sao điều kiện "tối giản" (hoặc một điều kiện tối thiểu tương đương) là thiết yếu.
+- Nối chứng minh này với phương pháp xuống thang vô hạn và tính chia hết cho 2.
+- Áp dụng ý tưởng cho $$\sqrt{3}$$ hoặc $$\sqrt{p}$$ với $$p$$ nguyên tố, chỉ ra chỗ nào lập luận chẵn lẻ cần được tổng quát hóa.
+- Tránh lập luận sai "$$\sqrt{2}$$ vô tỷ vì phần thập phân không bao giờ kết thúc".
+- Trình bày rõ ràng ý tưởng chứng minh khi thảo luận nhóm.
 
-**Tiên quyết.** Số nguyên, chẵn/lẻ, phân số tối giản, và $$p^2=2q^2$$ như dạng đại số của $$\sqrt{2}=p/q$$. Phản chứng.
-
----
-
-## 1. Thông ước và đọc hình học
-
-Hai độ dài **thông ước** nếu có đơn vị chung đo cả hai một số nguyên lần—tương đương tỷ số hữu tỷ. Đường chéo hình vuông cạnh 1 dài $$\sqrt{2}$$. Nếu $$\sqrt{2}$$ hữu tỷ, cạnh và đường chéo thông ước. Chứng minh vô tỷ nói chúng không: không có thước chung với số lần nguyên cho cả hai.
-
-Toán Hy Lạp không dùng ngôn ngữ số thực hiện đại; khám phá thường diễn đạt bằng đại lượng không thông ước. Bản viết hiện đại dùng số nguyên và bình phương vì đó là gói đại số sạch nhất của cùng ý tưởng.
+**Kiến thức cần có.** Số nguyên, chẵn và lẻ, phân số tối giản, và biết rằng $$p^2=2q^2$$ là dạng đại số của $$\sqrt{2}=p/q$$. Phương pháp phản chứng.
 
 ---
 
-## 2. Định lý và thiết lập
+## 1. Thông ước và cách nhìn hình học
 
-**Định lý.** $$\sqrt{2}$$ vô tỷ: không có số nguyên $$p,q$$ với $$q\neq 0$$ sao cho $$\sqrt{2}=p/q$$.
+Hai độ dài được gọi là **thông ước** nếu có một đơn vị chung sao cho mỗi độ dài bằng một số nguyên lần đơn vị đó; điều này tương đương với tỷ số của chúng là số hữu tỷ. Đường chéo của hình vuông cạnh 1 dài $$\sqrt{2}$$. Nếu $$\sqrt{2}$$ hữu tỷ thì cạnh và đường chéo thông ước. Chứng minh tính vô tỷ cho thấy điều ngược lại: không có cây thước chung nào đo được cả hai một số nguyên lần.
 
-Tương đương: phương trình
+Toán học Hy Lạp không dùng khái niệm số thực như ngày nay; phát hiện này thường được diễn đạt bằng các đại lượng không thông ước. Cách viết hiện đại dùng số nguyên và bình phương vì đó là cách trình bày đại số gọn nhất của cùng ý tưởng.
+
+---
+
+## 2. Định lý và cách đặt vấn đề
+
+**Định lý.** $$\sqrt{2}$$ là số vô tỷ: không tồn tại các số nguyên $$p,q$$ với $$q\neq 0$$ sao cho $$\sqrt{2}=p/q$$.
+
+Một cách tương đương: phương trình
 
 $$
 p^2 = 2q^2
@@ -52,21 +52,21 @@ không có nghiệm nguyên với $$q\neq 0$$.
 
 ---
 
-## 3. Chứng minh cổ điển (ý tưởng với các bước thiết yếu)
+## 3. Chứng minh cổ điển (ý tưởng cùng các bước thiết yếu)
 
-Giả sử, để dẫn mâu thuẫn, $$\sqrt{2}=p/q$$ với $$p,q$$ nguyên, $$q>0$$, phân số **tối giản**: $$\gcd(p,q)=1$$.
+Giả sử phản chứng rằng $$\sqrt{2}=p/q$$ với $$p,q$$ nguyên, $$q>0$$, và phân số là **tối giản**: $$\gcd(p,q)=1$$.
 
-Thì $$p^2=2q^2$$. Vế phải chẵn nên $$p^2$$ chẵn. Bổ đề chuẩn: nếu $$p^2$$ chẵn thì $$p$$ chẵn—vì $$p$$ lẻ kéo $$p^2$$ lẻ. Viết $$p=2k$$. Thay:
+Khi đó $$p^2=2q^2$$. Vế phải chẵn nên $$p^2$$ chẵn. Theo một bổ đề quen thuộc, nếu $$p^2$$ chẵn thì $$p$$ chẵn, vì nếu $$p$$ lẻ thì $$p^2$$ cũng lẻ. Đặt $$p=2k$$ và thay vào:
 
 $$
 (2k)^2=2q^2 \implies 4k^2=2q^2 \implies q^2=2k^2.
 $$
 
-Vậy $$q^2$$ chẵn nên $$q$$ chẵn. Khi đó 2 chia cả $$p$$ lẫn $$q$$, mâu thuẫn $$\gcd(p,q)=1$$.
+Vậy $$q^2$$ chẵn, nên $$q$$ chẵn. Như thế 2 chia hết cả $$p$$ lẫn $$q$$, mâu thuẫn với $$\gcd(p,q)=1$$.
 
-Do đó không có biểu diễn tối giản; $$\sqrt{2}$$ vô tỷ.
+Do đó không có biểu diễn tối giản nào, nghĩa là $$\sqrt{2}$$ vô tỷ.
 
-### Vì sao “bình phương chẵn ⇒ gốc chẵn”
+### Vì sao "bình phương chẵn thì số đó chẵn"
 
 Nếu $$p=2m+1$$ thì
 
@@ -74,7 +74,7 @@ $$
 p^2=4m^2+4m+1
 $$
 
-lẻ. Vậy $$p^2$$ chẵn chỉ khi $$p$$ chẵn. Đây là số học modulo 2 ngụy trang:
+là số lẻ. Vậy $$p^2$$ chẵn chỉ khi $$p$$ chẵn. Thực chất đây là phép tính modulo 2:
 
 $$
 p\equiv 0\ \text{hoặc}\ 1\pmod{2},\qquad p^2\equiv 0\ \text{hoặc}\ 1\pmod{2}.
@@ -82,171 +82,171 @@ $$
 
 ---
 
-## 4. Ý tưởng *là* gì
+## 4. Ý tưởng cốt lõi *là* gì
 
-- **Giả định hữu tỷ** ở dạng chuẩn (tối giản).  
-- **Truyền tính chia hết** từ $$p^2$$ sang $$p$$ qua ràng buộc modulo.  
-- **Lặp** cho $$q$$ sau thế.  
-- **Mâu thuẫn** chuẩn hóa (thừa số chung 2).
+- **Giả sử số đó hữu tỷ** và viết ở dạng chuẩn (tối giản).  
+- **Chuyển tính chia hết** từ $$p^2$$ sang $$p$$ nhờ lập luận modulo.  
+- **Lặp lại** cho $$q$$ sau khi thay vào.  
+- **Đi đến mâu thuẫn** với dạng chuẩn (có ước chung 2).
 
-Động cơ không phải thập phân; là **tính chia hết**.
+Điều quyết định không phải là phần thập phân mà là **tính chia hết**.
 
 ---
 
-### Video ngắn: Descent bằng các hình vuông
+### Video ngắn: Xuống thang bằng các hình vuông
 
 <div class="reel-video" style="text-align:center;margin:1.5rem 0;">
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/sqrt2-irrational-squares_vi.mp4"></video>
 </div>
 
-Một bức tranh của descent vô hạn: nếu a bình phương bằng hai lần b bình phương, hai hình vuông cạnh b phủ hình vuông cạnh a, và phần chồng cùng các phần trống cho ra các cạnh nguyên nhỏ hơn.
+Một hình minh họa cho phương pháp xuống thang vô hạn: nếu a bình phương bằng hai lần b bình phương, thì đặt hai hình vuông cạnh b vào trong hình vuông cạnh a, phần chồng lên nhau và các phần còn trống sẽ cho ra những hình vuông có cạnh nguyên nhỏ hơn.
 
 
-## 5. Dạng descent vô hạn
+## 5. Cách trình bày bằng xuống thang vô hạn
 
-Có thể diễn đạt không dùng gcd tường minh. Giả sử $$p^2=2q^2$$ với $$p,q$$ nguyên dương. Thì $$p$$ chẵn, $$p=2k$$, và $$q^2=2k^2$$ nên $$q$$ chẵn, $$q=2\ell$$, và
+Ta có thể chứng minh mà không cần nhắc đến ước chung lớn nhất. Giả sử $$p^2=2q^2$$ với $$p,q$$ nguyên dương. Khi đó $$p$$ chẵn, $$p=2k$$, và $$q^2=2k^2$$ nên $$q$$ chẵn, $$q=2\ell$$, và
 
 $$
 k^2=2\ell^2
 $$
 
-với số nguyên dương $$k<p$$ nhỏ hơn nghiêm ngặt. Lặp mãi cho dãy giảm vô hạn số nguyên dương—bất khả.
+với $$k$$ là số nguyên dương và $$k<p$$. Lặp lại mãi, ta được một dãy số nguyên dương giảm vô hạn, điều này không thể xảy ra.
 
-Đây là **descent vô hạn** kiểu Fermat: một nghiệm sinh nghiệm nhỏ hơn, vô tận. Ngôn ngữ tối giản và descent là hai gói cùng một mâu thuẫn.
-
----
-
-## 6. Ý tưởng *không* là gì
-
-- Không phải “thập phân $$\sqrt{2}$$ không kết thúc nên vô tỷ.” Nhiều hữu tỷ thập phân không kết thúc ($$1/3=0.333\ldots$$). Không kết thúc *và không tuần hoàn* tương đương vô tỷ, nhưng chứng minh không tuần hoàn không dễ hơn chứng minh parity.  
-- Không phủ nhận xấp xỉ: $$\sqrt{2}$$ *là* giới hạn hữu tỷ; vô tỷ phủ nhận đẳng thức với tỷ số, không phủ nhận xấp xỉ được.  
-- Không tự nó phân loại mọi số vô tỷ hay chứng minh siêu việt ($$\sqrt{2}$$ đại số).
+Đây là phương pháp **xuống thang vô hạn** của Fermat: từ một nghiệm ta tạo ra một nghiệm nhỏ hơn, và cứ thế mãi. Lập luận bằng phân số tối giản và lập luận xuống thang là hai cách trình bày của cùng một mâu thuẫn.
 
 ---
 
-## 7. Mở rộng mẫu: $$\sqrt{3}$$, $$\sqrt{p}$$
+## 6. Ý tưởng cốt lõi *không phải* là gì
 
-Với $$\sqrt{3}$$, giả sử $$p^2=3q^2$$ tối giản. Thì $$3\mid p^2$$ kéo $$3\mid p$$ (vì 3 nguyên tố), viết $$p=3k$$, được $$q^2=3k^2$$, suy $$3\mid q$$, mâu thuẫn. Bổ đề nâng cấp:
-
-**Nếu nguyên tố chia tích (hoặc bình phương), nó chia cơ sở.**
-
-Với nguyên tố $$p$$ tổng quát, cùng lập luận cho $$\sqrt{p}$$ vô tỷ. Với $$n$$ không chính phương, $$\sqrt{n}$$ vô tỷ; đường hiện đại sạch dùng phân tích thừa số duy nhất. Chứng minh $$\sqrt{2}$$ là hạt giống của họ đó.
+- Không phải "phần thập phân của $$\sqrt{2}$$ không kết thúc nên nó vô tỷ". Nhiều số hữu tỷ có phần thập phân không kết thúc ($$1/3=0.333\ldots$$). Số vô tỷ tương đương với phần thập phân không kết thúc *và không tuần hoàn*, nhưng chứng minh tính không tuần hoàn không hề dễ hơn lập luận chẵn lẻ.  
+- Không phủ nhận việc xấp xỉ: $$\sqrt{2}$$ *là* giới hạn của các số hữu tỷ; tính vô tỷ chỉ nói nó không bằng một tỷ số, chứ không nói nó không xấp xỉ được.  
+- Bản thân chứng minh này không phân loại mọi số vô tỷ và cũng không chứng minh tính siêu việt ($$\sqrt{2}$$ là số đại số).
 
 ---
 
-## 8. Vì sao quan trọng
+## 7. Mở rộng: $$\sqrt{3}$$ và $$\sqrt{p}$$
 
-- **Nguyên mẫu nghiêm ngặt lý thuyết số.** Giả định về số nguyên sinh mâu thuẫn qua chia hết.  
-- **Cửa ngõ đại số.** Nghiệm đa thức, số nguyên đại số, mở rộng trường đều nằm hạ nguồn “không hữu tỷ.”  
-- **Văn hóa chứng minh.** Chuẩn hóa (tối giản), bổ đề parity, descent là công cụ tái sử dụng.  
-- **Ý thức lịch sử.** Không thông ước buộc toán Hy Lạp vượt thước đo thuần hữu tỷ.
+Với $$\sqrt{3}$$, giả sử $$p^2=3q^2$$ ở dạng tối giản. Khi đó $$3\mid p^2$$ kéo theo $$3\mid p$$ (vì 3 là số nguyên tố); đặt $$p=3k$$, ta được $$q^2=3k^2$$, suy ra $$3\mid q$$, mâu thuẫn. Bổ đề được dùng ở đây là phiên bản tổng quát:
 
-Terence Tao, trong [cuộc trò chuyện Big Think](https://www.youtube.com/watch?v=OOMx2BHHWtE) cho *Six Math Essentials* sắp ra, đặt cú sốc ấy vào câu chuyện **mở rộng hệ thống số** dài hơn. Đếm gợi cộng và trừ; phép trừ phát minh số âm và số không để $$(A-B)+B=A$$ vẫn đúng khi $$B>A$$. Phép chia phát minh phân số. Rồi xuất hiện độ dài nằm giữa mọi phân số: $$\sqrt{2}$$ không thể là tỉ số, và từ Latin *irrational* ghi lại cảm giác vô lý. Về sau, căn bậc hai không chịu ở lại số thực sinh số phức, rồi số phức trở thành ngôn ngữ tự nhiên cho điện từ và cơ học lượng tử. Đạo lý không phải “thập phân kéo dài mãi.” Đạo lý là số mới thường được bịa để các luật đại số cũ khép lại—rồi hóa ra mô tả được thế giới. Hub: [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/).
+**Nếu một số nguyên tố chia hết một tích (hoặc một bình phương) thì nó chia hết một thừa số (hoặc cơ số).**
 
----
-
-## 9. Phác thảo chứng minh thứ hai (phân tích thừa số nhẹ)
-
-Giả sử $$p^2=2q^2$$. Phân tích $$p$$ và $$q$$ thành nguyên tố. Số mũ của 2 ở vế trái chẵn (vì bình phương); ở vế phải lẻ cộng chẵn (thừa số 2 thêm các mũ chẵn trong $$q^2$$)—mâu thuẫn. Định giá $$v_2$$: $$v_2(p^2)$$ chẵn nhưng $$v_2(2q^2)=1+v_2(q^2)$$ lẻ. Parity định giá là gói hiện đại của điệu nhảy chẵn-lẻ cổ điển.
+Với số nguyên tố $$p$$ bất kỳ, cùng lập luận cho thấy $$\sqrt{p}$$ vô tỷ. Với $$n$$ không phải số chính phương, $$\sqrt{n}$$ vô tỷ; cách chứng minh gọn nhất hiện nay dùng định lý phân tích thừa số nguyên tố duy nhất. Chứng minh cho $$\sqrt{2}$$ là khởi đầu của cả họ kết quả này.
 
 ---
 
-## Nhầm lẫn thường gặp
+## 8. Vì sao kết quả này quan trọng
 
-1. “Thập phân không kết thúc ⇒ vô tỷ.” — Sai; $$1/3$$ tuần hoàn.  
-2. “Tối giản là trang trí tùy chọn.” — Không có tối thiểu hay descent, “cả hai chẵn” chưa phải mâu thuẫn.  
-3. “Chứng minh cho thấy $$\sqrt{2}$$ không xấp xỉ được bằng hữu tỷ.” — Sai.  
-4. “$$p^2$$ chẵn ⇒ $$p$$ chẵn là phép màu riêng của 2.” — Với modulo nguyên tố có tương tự.  
-5. “Ý tưởng chứng minh = bỏ bổ đề bình phương lẻ.” — Bổ đề đó *là* bản lề; hãy gọi tên.
+- **Mẫu mực của sự chặt chẽ trong lý thuyết số.** Một giả thiết về số nguyên dẫn đến mâu thuẫn thông qua tính chia hết.  
+- **Cửa ngõ vào đại số.** Nghiệm của đa thức, số nguyên đại số, mở rộng trường đều phát triển từ câu hỏi "số này có hữu tỷ không".  
+- **Văn hóa chứng minh.** Đưa về dạng chuẩn (tối giản), bổ đề chẵn lẻ, phương pháp xuống thang là những công cụ dùng lại được nhiều lần.  
+- **Ý thức lịch sử.** Sự không thông ước buộc toán học Hy Lạp phải vượt ra ngoài cách đo chỉ bằng số hữu tỷ.
+
+Trong [cuộc trò chuyện với Big Think](https://www.youtube.com/watch?v=OOMx2BHHWtE) về cuốn sách sắp ra mắt *Six Math Essentials*, Terence Tao đặt cú sốc này vào câu chuyện dài hơn về **việc mở rộng hệ thống số**. Phép đếm dẫn đến phép cộng và phép trừ; phép trừ đòi hỏi phải tạo ra số âm và số không để đẳng thức $$(A-B)+B=A$$ vẫn đúng khi $$B>A$$. Phép chia dẫn đến phân số. Rồi xuất hiện những độ dài nằm giữa mọi phân số: $$\sqrt{2}$$ không thể là một tỷ số, và từ Latin *irrational* phản ánh cảm giác "phi lý" đó. Về sau, căn bậc hai của số âm không nằm trong tập số thực, dẫn đến số phức, và số phức lại trở thành ngôn ngữ tự nhiên của điện từ học và cơ học lượng tử. Bài học ở đây không phải là "phần thập phân kéo dài mãi". Bài học là các loại số mới thường được tạo ra để các quy tắc đại số cũ tiếp tục đúng, và sau đó hóa ra lại mô tả được thế giới thực. Bài tổng hợp: [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/).
+
+---
+
+## 9. Phác thảo chứng minh thứ hai (dùng phân tích thừa số nguyên tố)
+
+Giả sử $$p^2=2q^2$$. Phân tích $$p$$ và $$q$$ thành tích các số nguyên tố. Số mũ của 2 ở vế trái là số chẵn (vì là một bình phương); ở vế phải là 1 cộng một số chẵn (thừa số 2 cộng với số mũ chẵn trong $$q^2$$), tức là số lẻ. Mâu thuẫn. Viết bằng định giá $$v_2$$: $$v_2(p^2)$$ chẵn nhưng $$v_2(2q^2)=1+v_2(q^2)$$ lẻ. Tính chẵn lẻ của định giá là cách viết hiện đại của lập luận chẵn lẻ cổ điển.
+
+---
+
+## Hiểu lầm thường gặp
+
+1. "Phần thập phân không kết thúc thì vô tỷ." Sai: $$1/3$$ có phần thập phân tuần hoàn.  
+2. "Điều kiện tối giản chỉ để cho đẹp." Sai: nếu không có điều kiện tối thiểu hoặc lập luận xuống thang, việc "cả hai đều chẵn" chưa phải là mâu thuẫn.  
+3. "Chứng minh cho thấy $$\sqrt{2}$$ không xấp xỉ được bằng số hữu tỷ." Sai.  
+4. "Việc $$p^2$$ chẵn kéo theo $$p$$ chẵn là tính chất riêng của số 2." Sai: với mọi số nguyên tố đều có kết quả tương tự.  
+5. "Khi trình bày ý tưởng chứng minh thì bỏ qua bổ đề về bình phương số lẻ." Sai: bổ đề đó *chính là* mấu chốt; hãy nêu tên nó.
 
 ---
 
 ## Bài tập
 
-1. Viết đủ chứng minh cổ điển $$\sqrt{2}$$ vô tỷ, gồm bổ đề bình phương lẻ.  
-2. Chứng minh $$\sqrt{3}$$ vô tỷ theo cùng mẫu.  
-3. Lập luận hỏng chỗ nào nếu thử chứng minh $$\sqrt{4}$$ vô tỷ? (Nó *hữu tỷ*.)  
-4. Viết lại $$\sqrt{2}$$ thuần descent, không dùng chữ gcd.  
-5. Dùng phân tích nguyên tố, giải thích mâu thuẫn định giá cho $$p^2=2q^2$$.  
-6. Đúng/sai: nếu $$x^2$$ chia hết cho 4 thì $$x$$ chia hết cho 4? Chứng minh hoặc phản ví dụ; đối chiếu với chia hết cho 2.  
-7. **Narrative (≤300 từ).** Giải thích cho học sinh biết chẵn/lẻ nhưng chưa biết từ “vô tỷ.”  
-8. Tùy chọn: chỉ ra $$\sqrt[3]{2}$$ vô tỷ bằng lập luận chia hết liên quan.
+1. Viết đầy đủ chứng minh cổ điển cho tính vô tỷ của $$\sqrt{2}$$, kể cả bổ đề về bình phương số lẻ.  
+2. Chứng minh $$\sqrt{3}$$ vô tỷ theo cùng cách.  
+3. Nếu thử chứng minh $$\sqrt{4}$$ vô tỷ thì lập luận sai ở đâu? (Số này *hữu tỷ*.)  
+4. Viết lại chứng minh cho $$\sqrt{2}$$ chỉ bằng phương pháp xuống thang, không dùng ước chung lớn nhất.  
+5. Dùng phân tích thừa số nguyên tố, giải thích mâu thuẫn về định giá với $$p^2=2q^2$$.  
+6. Đúng hay sai: nếu $$x^2$$ chia hết cho 4 thì $$x$$ chia hết cho 4? Chứng minh hoặc đưa phản ví dụ; so sánh với trường hợp chia hết cho 2.  
+7. **Viết giải thích (không quá 300 từ).** Giải thích cho một học sinh đã biết chẵn/lẻ nhưng chưa biết khái niệm "vô tỷ".  
+8. Không bắt buộc: chứng minh $$\sqrt[3]{2}$$ vô tỷ bằng một lập luận chia hết tương tự.
 
 ---
 
 
 ---
 
-## Kiến thức trích từ nghiên cứu video
+## Kiến thức rút ra từ nghiên cứu video
 
-Tóm tắt cho seminar (đối chiếu nguồn viết; **không bịa transcript**). Gói: `research/video-research/irrationality-sqrt2/analysis.md`.
+Tóm tắt để thảo luận (đã đối chiếu với tài liệu viết; **không bịa nội dung video**). Bộ tư liệu: `research/video-research/irrationality-sqrt2/analysis.md`.
 
-### Trạng thái
+### Tình trạng
 
-**Proved** (classical Pythagorean / Euclidean tradition). Many independent proofs (parity, descent, unique factorization, geometric Apostol).
+**Đã được chứng minh** (truyền thống Pythagore / Euclid). Có nhiều chứng minh độc lập (chẵn lẻ, xuống thang, phân tích thừa số duy nhất, chứng minh hình học của Apostol).
 
-### Phát biểu / slogan cốt lõi
+### Phát biểu cốt lõi
 
-$$\sqrt{2}$$ is irrational: if $$a/b$$ in lowest terms with $$a^2=2b^2$$, then $$a$$ and $$b$$ are both even — contradiction.
+$$\sqrt{2}$$ là số vô tỷ: nếu $$a/b$$ là phân số tối giản với $$a^2=2b^2$$ thì $$a$$ và $$b$$ đều chẵn, mâu thuẫn.
 
-### Định nghĩa cần cố định
+### Các định nghĩa cần nắm chắc
 
-- **Rational.** $$x=a/b$$ with $$a,b\in\mathbb{Z}$$, $$b\neq 0$$.
-- **Infinite descent (idea).** From a positive integer solution produce a strictly smaller one — impossible.
+- **Số hữu tỷ.** $$x=a/b$$ với $$a,b\in\mathbb{Z}$$, $$b\neq 0$$.
+- **Xuống thang vô hạn (ý tưởng).** Từ một nghiệm nguyên dương tạo ra một nghiệm nhỏ hơn thực sự; điều này không thể lặp mãi.
 
-### Vệ sinh khái niệm
+### Những nhầm lẫn khái niệm cần tránh
 
-- Thinking the proof only works for √2 and not primes $$p\equiv 3\pmod 4$$ etc. without adapting the parity argument.
-- Confusing irrationality with transcendence.
+- Nghĩ rằng chứng minh chỉ đúng cho √2, không áp dụng được cho các số nguyên tố (chẳng hạn $$p\equiv 3\pmod 4$$) khi điều chỉnh lập luận chẵn lẻ.
+- Nhầm tính vô tỷ với tính siêu việt.
 
 
 ---
 
-## Nguồn video (gói math-video-researcher)
+## Nguồn video (bộ tư liệu nghiên cứu video)
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh/bài báo gốc khi tuyên bố mang tính then chốt. Chi tiết xếp hạng: `research/video-research/irrationality-sqrt2/`.
+Video dùng để **định hướng và làm quen với không khí nghiên cứu**, không thay thế chứng minh hay bài báo gốc với những khẳng định then chốt. Đánh giá chi tiết: `research/video-research/irrationality-sqrt2/`.
 
 **Thứ tự gợi ý**
 
 1. **Định hướng** — D!NG — A Proof That The Square Root of Two Is Irrational: [https://www.youtube.com/watch?v=LmpLlcNjPj0](https://www.youtube.com/watch?v=LmpLlcNjPj0).  
-2. **Cốt lõi** — Wrath of Math — Most Beautiful Proof √2 irrational (Apostol geometric): [https://www.youtube.com/watch?v=NegYPgMAua4](https://www.youtube.com/watch?v=NegYPgMAua4).  
+2. **Cốt lõi** — Wrath of Math — Most Beautiful Proof √2 irrational (chứng minh hình học của Apostol): [https://www.youtube.com/watch?v=NegYPgMAua4](https://www.youtube.com/watch?v=NegYPgMAua4).  
 3. **Tổng quan** — Tipping Point Math — 5 Best Proofs √2 irrational: [https://www.youtube.com/watch?v=zEXcsZo4hOQ](https://www.youtube.com/watch?v=zEXcsZo4hOQ).  
 4. **Nền tảng** — Khan Academy — Proof √2 is irrational: [https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:irrational-numbers/x2f8bb11595b61c86:proofs-concerning-irrational-numbers/v/proof-that-square-root-of-2-is-irrational](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:irrational-numbers/x2f8bb11595b61c86:proofs-concerning-irrational-numbers/v/proof-that-square-root-of-2-is-irrational).  
 
-**Nhắc trạng thái:** **Proved** (classical Pythagorean / Euclidean tradition). Many independent proofs (parity, descent, unique factorization, geometric Apostol).
+**Nhắc lại tình trạng:** **Đã được chứng minh** (truyền thống Pythagore / Euclid). Có nhiều chứng minh độc lập (chẵn lẻ, xuống thang, phân tích thừa số duy nhất, chứng minh hình học của Apostol).
 
 ---
 
 
-### Transcript & frames (batch extract)
+### Phụ đề và khung hình (trích xuất hàng loạt)
 
-Transcript caption và unit theo thời gian: `research/video-research/irrationality-sqrt2/transcripts/` · trạng thái: `research/video-research/irrationality-sqrt2/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
+Phụ đề và các đoạn theo thời gian: `research/video-research/irrationality-sqrt2/transcripts/` · trạng thái: `research/video-research/irrationality-sqrt2/TRANSCRIPT_STATUS.md` · tổng hợp: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
 
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/irrationality-sqrt2_NegYPgMAua4_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính (xem bộ tư liệu để biết mốc thời gian).*
 
 ## Tài liệu
 
-1. Truyền thống Hy Lạp về không thông ước (sử phụ).  
-2. Sách nhập môn chứng minh: chương phản chứng và số nguyên.  
+1. Truyền thống Hy Lạp về các đại lượng không thông ước (tài liệu lịch sử).  
+2. Sách nhập môn về chứng minh: chương về phản chứng và số nguyên.  
 3. Hardy & Wright — *An Introduction to the Theory of Numbers*.  
-4. Khóa học: [Euclid vô hạn nguyên tố]({{ site.baseurl }}/contents/vi/chapter05/05_02_Euclid_Infinite_Primes/); [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/) cho khung hệ thống số của Tao.
+4. Trong khóa học: [Euclid và vô hạn số nguyên tố]({{ site.baseurl }}/contents/vi/chapter05/05_02_Euclid_Infinite_Primes/); [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/) cho cách nhìn của Tao về hệ thống số.
 5. Terence Tao — Big Think OOMx2BHHWtE: https://www.youtube.com/watch?v=OOMx2BHHWtE
 
 ---
 
 
-Danh mục URL đầy đủ: `research/video-research/irrationality-sqrt2/references.md`.
+Danh sách URL đầy đủ: `research/video-research/irrationality-sqrt2/references.md`.
 
-### Video (lộ trình gợi ý)
+### Video (thứ tự gợi ý)
 
-- D!NG — A Proof That The Square Root of Two Is Irrational (ORIENTATION): https://www.youtube.com/watch?v=LmpLlcNjPj0
-- Wrath of Math — Most Beautiful Proof √2 irrational (Apostol geometric) (CORE): https://www.youtube.com/watch?v=NegYPgMAua4
-- Tipping Point Math — 5 Best Proofs √2 irrational (SURVEY): https://www.youtube.com/watch?v=zEXcsZo4hOQ
-- Khan Academy — Proof √2 is irrational (FOUNDATION): https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:irrational-numbers/x2f8bb11595b61c86:proofs-concerning-irrational-numbers/v/proof-that-square-root-of-2-is-irrational
+- D!NG — A Proof That The Square Root of Two Is Irrational (Định hướng): https://www.youtube.com/watch?v=LmpLlcNjPj0
+- Wrath of Math — Most Beautiful Proof √2 irrational (Apostol geometric) (Cốt lõi): https://www.youtube.com/watch?v=NegYPgMAua4
+- Tipping Point Math — 5 Best Proofs √2 irrational (Tổng quan): https://www.youtube.com/watch?v=zEXcsZo4hOQ
+- Khan Academy — Proof √2 is irrational (Nền tảng): https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:irrational-numbers/x2f8bb11595b61c86:proofs-concerning-irrational-numbers/v/proof-that-square-root-of-2-is-irrational
 
-### Bài báo và web (từ gói nghiên cứu)
+### Bài báo và trang web (từ bộ tư liệu)
 
 - Wikipedia — Square root of 2 / proofs of irrationality: https://en.wikipedia.org/wiki/Square_root_of_2
 - Apostol, AMM 2000 geometric proof (reference): https://www.jstor.org/stable/2589021
@@ -254,32 +254,32 @@ Danh mục URL đầy đủ: `research/video-research/irrationality-sqrt2/refere
 - Wikipedia — Proof that √2 is irrational: https://en.wikipedia.org/wiki/Square_root_of_2#Proofs_of_irrationality
 - MathWorld — Irrational Number: https://mathworld.wolfram.com/IrrationalNumber.html
 
-### Khóa học
+### Trong khóa học
 
-- Gói: `research/video-research/irrationality-sqrt2/` (đặc biệt `references.md`, `learning_path.md`).
+- Bộ tư liệu: `research/video-research/irrationality-sqrt2/` (đặc biệt là `references.md`, `learning_path.md`).
 
 ## Hướng đi tiếp
 
-- Tổng quát $$\sqrt{n}$$ với $$n$$ không chính phương.  
-- Phân số liên tục của $$\sqrt{2}$$ như sinh đôi xây dựng của vô tỷ (xấp xỉ hữu tỷ tốt nhất).  
-- So sánh vô tỷ của $$e$$ và $$\pi$$ (khó hơn; bộ công cụ khác).  
-- Ghi một câu hỏi chính xác bạn vẫn còn.
+- Tổng quát cho $$\sqrt{n}$$ với $$n$$ không phải số chính phương.  
+- Liên phân số của $$\sqrt{2}$$, mặt xây dựng của tính vô tỷ (cho các xấp xỉ hữu tỷ tốt nhất).  
+- So sánh với chứng minh tính vô tỷ của $$e$$ và $$\pi$$ (khó hơn, cần công cụ khác).  
+- Ghi lại chính xác một câu hỏi bạn vẫn còn thắc mắc.
 
 
-## Mẫu chứng minh phản chứng cổ điển
+## Khuôn mẫu chứng minh phản chứng cổ điển
 
-Giả sử $$\sqrt{2}=p/q$$ tối giản; suy ra $$p$$ và $$q$$ đều chẵn—mâu thuẫn. Mẫu này dạy: (1) làm việc trong $$\mathbb{Z}$$, (2) dùng tính chẵn/lẻ hoặc valuation, (3) tối giản là giả thiết then chốt. Mở rộng: $$\sqrt{d}$$ với $$d$$ free-square; sau này liên hệ mở rộng trường.
+Giả sử $$\sqrt{2}=p/q$$ tối giản; suy ra $$p$$ và $$q$$ đều chẵn, mâu thuẫn. Khuôn mẫu này dạy ta: (1) làm việc trong $$\mathbb{Z}$$, (2) dùng tính chẵn lẻ hoặc định giá, (3) điều kiện tối giản là giả thiết then chốt. Mở rộng: $$\sqrt{d}$$ với $$d$$ không có ước chính phương; về sau sẽ liên hệ với mở rộng trường.
 
-## Vì sao bài “dễ” vẫn nằm chương chứng minh nổi tiếng
+## Vì sao một bài "dễ" vẫn nằm trong chương các chứng minh nổi tiếng
 
-Không phải vì kỹ thuật nặng, mà vì nó **thay đổi vũ trụ số** của người Hy Lạp: đường chéo không còn là tỉ số nguyên. Seminar nên nhấn khoảnh khắc khái niệm, không chỉ ba dòng đại số.
+Lý do không nằm ở kỹ thuật, mà ở chỗ nó **thay đổi quan niệm về số** của người Hy Lạp: đường chéo không còn là tỷ số của hai số nguyên. Khi thảo luận, nên nhấn mạnh bước ngoặt về khái niệm này, chứ không chỉ ba dòng biến đổi đại số.
 
-## Studio
+## Bài thực hành
 
-Chứng minh $$\sqrt{3}$$ vô tỉ theo cùng khuôn; chỉ ra bước nào gãy nếu thay bằng $$\sqrt{4}$$. Viết một câu nối sang mật độ hữu tỉ/vô tỉ trên $$\mathbb{R}$$.
+Chứng minh $$\sqrt{3}$$ vô tỷ theo cùng khuôn mẫu; chỉ ra bước nào không còn đúng nếu thay bằng $$\sqrt{4}$$. Viết một câu nối kết quả này với tính trù mật của số hữu tỷ và số vô tỷ trên $$\mathbb{R}$$.
 
 
 ## Video tham khảo
 
-- **xem trước** — [The Most Beautiful Proof sqrt(2) is Irrational](https://www.youtube.com/watch?v=NegYPgMAua4) — Wrath of Math, tiếng Anh. Xem trước. “The Most Beautiful Proof sqrt(2) is Irrational” định hướng cho mục tiêu của bài: Phát biểu và chứng minh \sqrt{2} vô tỷ qua mâu thuẫn chẵn-chẵn ở dạng tối giản.
-- [The 5 Best Proofs that the Square Root of 2 is Irrational](https://www.youtube.com/watch?v=zEXcsZo4hOQ) — Tipping Point Math, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu và chứng minh \sqrt{2} vô tỷ qua mâu thuẫn chẵn-chẵn ở dạng tối giản.
+- **Xem trước:** [The Most Beautiful Proof sqrt(2) is Irrational](https://www.youtube.com/watch?v=NegYPgMAua4) — Wrath of Math, tiếng Anh. Chứng minh hình học ngắn gọn cho tính vô tỷ của √2; nên xem trước khi đọc bài.
+- [The 5 Best Proofs that the Square Root of 2 is Irrational](https://www.youtube.com/watch?v=zEXcsZo4hOQ) — Tipping Point Math, tiếng Anh. Năm cách chứng minh khác nhau; nên xem sau khi đã nắm ý chính của bài.

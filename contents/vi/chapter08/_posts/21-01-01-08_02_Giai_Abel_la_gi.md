@@ -10,75 +10,75 @@ categories:
 lesson_type: required
 ---
 
-**Giải Abel** là giải quốc tế cho nghiên cứu toán chất lượng cao nhất, mang tên **Niels Henrik Abel** (1802–1829), do **Viện Hàn lâm Khoa học và Thư tín Na Uy** quản lý, chính phủ Na Uy tài trợ. Lần đầu trao năm **2003**, hàng năm, thường do Quốc vương Na Uy trao, kèm giải thưởng tiền lớn. Tài liệu chính thức: [abelprize.no](https://abelprize.no/).
+**Giải Abel** là giải thưởng quốc tế cho nghiên cứu toán học xuất sắc nhất, mang tên **Niels Henrik Abel** (1802–1829). Giải do **Viện Hàn lâm Khoa học và Thư tín Na Uy** quản lý, với kinh phí từ chính phủ Na Uy. Giải được trao lần đầu năm **2003**, hằng năm, thường do Quốc vương Na Uy trao, kèm một khoản tiền thưởng lớn. Tài liệu chính thức: [abelprize.no](https://abelprize.no/).
 
-Bài này không liệt kê danh sách người thắng. Đó là bản đồ **Abel để làm gì**, bổ sung Fields thế nào, và cách **đọc citation** như người học toán chứ không như khán giả danh vọng.
+Bài này không liệt kê danh sách những người đoạt giải. Nó vẽ bản đồ để hiểu **Giải Abel dùng để làm gì**, nó bổ sung cho Fields ra sao, và cách **đọc một lời trích dẫn (citation)** như người học toán chứ không phải như khán giả của danh tiếng.
 
 ---
 
 ## Mục tiêu học tập
 
-Sau bài, bạn có thể mô tả vai trò thể chế của Abel và triết lý “đóng góp trọn đời” không giới hạn tuổi; so sánh chính xác Abel với Fields, Clay Millennium và các giải lớn khác; trích đối tượng/phương pháp toán từ một câu citation ngắn; giải thích vì sao một thân công cụ có thể đáng giải bằng một định lý nổi tiếng; và dùng phương pháp đọc của chương (citation → đối tượng → một ý giải thích được → liên kết khóa học) cho bất kỳ laureate gần đây.
+Sau bài này, bạn có thể: mô tả vai trò thể chế của giải Abel và triết lý “ghi nhận đóng góp cả sự nghiệp” không giới hạn tuổi; so sánh chính xác Abel với Fields, Clay Millennium và các giải lớn khác; rút ra đối tượng và phương pháp toán học từ một câu citation ngắn; giải thích vì sao một bộ công cụ có thể xứng đáng nhận giải ngang với một định lý nổi tiếng; và dùng cách đọc của chương này (citation → đối tượng → một ý giải thích được → liên kết với khóa học) cho bất kỳ laureate gần đây nào.
 
-**Kiến thức nền.** Không cần chuyên sâu nghiên cứu. Cần đọc được đoạn tiếng Anh kỹ thuật ngắn và nhận tên lĩnh vực rộng (lý thuyết số, tôpô, PDE, xác suất, toán rời rạc). [Tổng quan Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/) giúp so sánh nhưng không bắt buộc lần đầu.
-
----
-
-## 1. Vì sao có giải
-
-Suốt phần lớn thế kỷ XX, toán thiếu vinh danh hàng năm, không giới hạn tuổi, với tầm nhìn công chúng kiểu Nobel. **Nobel** không có hạng mục toán. **Fields** (bốn năm/lần, dưới 40 tuổi) trở thành vinh danh cá nhân nổi tiếng nhất—và xứng đáng: Fields bắt *tia chớp*, đột phá tái định nghĩa lĩnh vực sớm trong sự nghiệp.
-
-Nhưng toán còn được làm bởi *hệ thời tiết*: thập niên ước lượng trở thành chuẩn, từ điển giữa các phạm trù nối lại nhiều ngành, định lý hạ tầng giúp người khác chứng minh kết quả lộng lẫy. Những đóng góp đó thường chín sau 40, hoặc tích tụ qua nhiều bài thay vì một thông báo. Abel ra đời để vinh danh **đóng góp sâu, bền** kiểu đó, không giới hạn tuổi, chu kỳ hàng năm giữ toán thuần trong tầm nhìn công chúng.
-
-Abel là tên rất hợp: trong đời ngắn ông biến đổi hàm elliptic và chứng minh không giải được phương trình bậc năm tổng quát bằng căn thức—hậu duệ hiện đại nằm trong hình học đại số, giải tích phức, lý thuyết số. Đặt giải trọn đời theo tên Abel là tuyên bố về tính liên tục: ngành vẫn đo bằng độ sâu, không chỉ mốt thời thượng.
+**Kiến thức nền.** Không cần chuyên sâu về nghiên cứu. Cần đọc được một đoạn tiếng Anh kỹ thuật ngắn và nhận ra tên các lĩnh vực lớn (lý thuyết số, tôpô, PDE, xác suất, toán rời rạc). [Tổng quan về Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/) giúp so sánh, nhưng không bắt buộc đọc trước.
 
 ---
 
-## 2. Citation thường nhấn gì
+## 1. Vì sao có giải này
 
-Mở bất kỳ citation trên [abelprize.no](https://abelprize.no/) thường thấy ngôn ngữ về **thân sự nghiệp**, **phương pháp thành công cụ**, **cầu nối lĩnh vực**. Ủy ban hiếm khi dừng ở một phương trình. Ví dụ (gần nguyên văn chính thức):
+Trong phần lớn thế kỷ XX, toán học thiếu một sự vinh danh hằng năm, không giới hạn tuổi, và có tầm nhìn công chúng như giải Nobel. **Nobel** không có hạng mục toán. **Fields** (bốn năm một lần, dưới 40 tuổi) trở thành vinh danh cá nhân nổi tiếng nhất, và xứng đáng như vậy: Fields bắt được *tia chớp*, tức những đột phá định nghĩa lại cả một lĩnh vực ngay từ đầu sự nghiệp.
 
-- **Serre (2003):** vai trò then chốt định hình dạng hiện đại của tôpô, hình học đại số và lý thuyết số (Abel đầu tiên).  
-- **Atiyah & Singer (2004):** khám phá và chứng minh định lý chỉ số, nối tôpô–hình học–giải tích, và xây cầu nổi bật sang theoretical physics.  
-- **Wiles (2016):** chứng minh lộng lẫy Định lý Cuối Fermat *thông qua* modularity cho elliptic semistable, mở kỷ nguyên mới trong lý thuyết số.  
-- **Uhlenbeck (2019):** thành tựu tiên phong PDE hình học, gauge theory, hệ khả tích; tác động nền tảng lên giải tích, hình học, vật lý toán.  
-- **Furstenberg & Margulis (2020):** tiên phong dùng xác suất và động lực trong lý thuyết nhóm, lý thuyết số, tổ hợp.  
-- **Lovász & Wigderson (2021):** đóng góp nền tảng cho TCS và toán rời rạc, vai trò dẫn dắt đưa chúng thành lĩnh vực trung tâm của toán hiện đại.  
-- **Sullivan (2022):** đóng góp đột phá cho tôpô theo nghĩa rộng—đại số, hình học, động lực.  
-- **Caffarelli (2023):** đóng góp then chốt cho lý thuyết chính quy PDE phi tuyến, kể cả free boundary và Monge–Ampère.  
-- **Talagrand (2024):** đóng góp đột phá xác suất và giải tích hàm, ứng dụng xuất sắc vật lý toán và thống kê.  
-- **Kashiwara (2025):** đóng góp nền tảng algebraic analysis và lý thuyết biểu diễn, đặc biệt $$D$$-module và crystal graph (crystal base).
+Nhưng toán học còn được làm ra bởi những *hệ thời tiết* dài hạn: cả một thập niên các đánh giá trở thành chuẩn mực, những “từ điển” giữa các phạm trù nối lại nhiều ngành, những định lý nền tảng giúp người khác chứng minh được các kết quả rực rỡ. Những đóng góp này thường chín sau tuổi 40, hoặc được tích lũy qua nhiều bài báo thay vì một thông báo duy nhất. Giải Abel ra đời để tôn vinh kiểu **đóng góp sâu và bền** ấy, không giới hạn tuổi; chu kỳ hằng năm giúp toán thuần túy luôn nằm trong tầm nhìn của công chúng.
 
-Động từ: *mở*, *tiên phong*, *định hình*, *nền tảng*. Ngôn ngữ Abel là **đổi khí hậu lĩnh vực**, không chỉ một đỉnh núi.
-
-Bài tập hữu ích: khoanh **đối tượng toán** trong citation (đường cong elliptic, free boundary, expander, $$D$$-module, …) rồi viết một câu bạn cùng lớp hiểu được. Citation là cửa, không phải bằng tốt nghiệp.
+Abel là cái tên rất hợp: trong cuộc đời ngắn ngủi, ông đã biến đổi lý thuyết hàm elliptic và chứng minh rằng phương trình bậc năm tổng quát không giải được bằng căn thức. Hậu duệ hiện đại của những ý tưởng đó nằm trong hình học đại số, giải tích phức và lý thuyết số. Đặt tên Abel cho một giải thưởng cả sự nghiệp là một lời khẳng định về tính liên tục: ngành toán vẫn đo bằng chiều sâu, không chạy theo mốt nhất thời.
 
 ---
 
-## 3. Abel giữa các vinh danh khác
+## 2. Các lời trích dẫn thường nhấn mạnh điều gì
 
-| Vinh danh | Nhịp / tuổi | Nhấn mạnh điển hình |
-|-----------|-------------|---------------------|
-| **Fields** | 4 năm; dưới 40 | Đột phá, thường một định lý cờ đầu |
-| **Abel** | Hàng năm; không giới hạn tuổi | Thân sự nghiệp / định hình lĩnh vực |
+Mở bất kỳ citation nào trên [abelprize.no](https://abelprize.no/), bạn thường thấy ngôn ngữ nói về **cả sự nghiệp**, **phương pháp trở thành công cụ**, và **cầu nối giữa các lĩnh vực**. Hội đồng hiếm khi dừng ở một phương trình. Một vài ví dụ (gần với nguyên văn chính thức):
+
+- **Serre (2003):** vai trò then chốt trong việc định hình dạng hiện đại của tôpô, hình học đại số và lý thuyết số (giải Abel đầu tiên).  
+- **Atiyah & Singer (2004):** khám phá và chứng minh định lý chỉ số, nối tôpô, hình học và giải tích, đồng thời xây những cây cầu nổi bật sang vật lý lý thuyết.  
+- **Wiles (2016):** chứng minh Định lý Cuối cùng của Fermat *thông qua* tính modular của các đường cong elliptic nửa ổn định, mở ra một kỷ nguyên mới trong lý thuyết số.  
+- **Uhlenbeck (2019):** những thành tựu tiên phong về PDE hình học, lý thuyết gauge, các hệ khả tích; tác động nền tảng lên giải tích, hình học và vật lý toán.  
+- **Furstenberg & Margulis (2020):** tiên phong dùng xác suất và động lực học trong lý thuyết nhóm, lý thuyết số và tổ hợp.  
+- **Lovász & Wigderson (2021):** đóng góp nền tảng cho khoa học máy tính lý thuyết và toán rời rạc, và vai trò dẫn dắt để đưa chúng thành những lĩnh vực trung tâm của toán học hiện đại.  
+- **Sullivan (2022):** đóng góp đột phá cho tôpô theo nghĩa rộng, gồm đại số, hình học và động lực.  
+- **Caffarelli (2023):** đóng góp then chốt cho lý thuyết chính quy của PDE phi tuyến, kể cả bài toán biên tự do và phương trình Monge–Ampère.  
+- **Talagrand (2024):** đóng góp đột phá cho xác suất và giải tích hàm, với ứng dụng xuất sắc trong vật lý toán và thống kê.  
+- **Kashiwara (2025):** đóng góp nền tảng cho giải tích đại số và lý thuyết biểu diễn, đặc biệt là $$D$$-module và đồ thị tinh thể (crystal base).
+
+Hãy để ý các động từ: *mở ra*, *tiên phong*, *định hình*, *nền tảng*. Ngôn ngữ của giải Abel là **thay đổi khí hậu của cả một lĩnh vực**, không chỉ là chinh phục một đỉnh núi.
+
+Một bài tập hữu ích: khoanh tròn **đối tượng toán học** trong citation (đường cong elliptic, biên tự do, expander, $$D$$-module, …) rồi viết một câu mà bạn cùng lớp hiểu được. Citation là cánh cửa, không phải tấm bằng tốt nghiệp.
+
+---
+
+## 3. Giải Abel giữa các vinh danh khác
+
+| Vinh danh | Chu kỳ / tuổi | Điểm nhấn điển hình |
+|-----------|---------------|---------------------|
+| **Fields** | 4 năm; dưới 40 tuổi | Đột phá, thường là một định lý tiêu biểu |
+| **Abel** | Hằng năm; không giới hạn tuổi | Cả sự nghiệp / định hình lĩnh vực |
 | **Wolf, Shaw, Breakthrough** | Khác nhau | Vinh danh nghiên cứu lớn (phạm vi khác nhau) |
-| **Clay Millennium** | Bài toán, không phải người | Bảy bài mở với tiền thưởng cho lời giải |
+| **Clay Millennium** | Dành cho bài toán, không phải cho người | Bảy bài toán mở, có tiền thưởng cho lời giải |
 
-Hai phân biệt sư phạm:
+Có hai điểm cần phân biệt khi giảng dạy:
 
-Thứ nhất, **Abel không phải “Fields cho người già”.** Một số công trình Abel có thể từng xứng Fields nếu chín sớm hơn; một số Fields chưa phải tầm trọn đời; nhiều sự nghiệp xuất sắc không khớp gói nào. Hai giải tối ưu tín hiệu khác nhau.
+Thứ nhất, **Abel không phải “Fields dành cho người lớn tuổi”.** Một số công trình đoạt Abel có thể đã xứng đáng nhận Fields nếu chín sớm hơn; một số công trình Fields chưa đạt tầm cả sự nghiệp; và nhiều sự nghiệp xuất sắc không khớp với giải nào. Hai giải này ưu tiên những tín hiệu khác nhau.
 
-Thứ hai, **Clay Millennium không phải giải cho người.** Đó là tiền thưởng bài toán. Poincaré/geometrization của Perelman là câu chuyện bài toán; modularity của Wiles là câu chuyện định lý vừa giải thách thức Diophantine ba thế kỷ *bằng cách tạo phương pháp*. Các bài chương này quan tâm cả bài toán lẫn phương pháp.
+Thứ hai, **Clay Millennium không phải giải thưởng cho người.** Đó là tiền thưởng cho bài toán. Việc Perelman chứng minh Poincaré (và geometrization) là câu chuyện của một bài toán; còn tính modular của Wiles là câu chuyện về một định lý vừa giải quyết thách thức Diophantine kéo dài ba thế kỷ, vừa *sinh ra một phương pháp*. Các bài trong chương này quan tâm cả bài toán lẫn phương pháp.
 
 ---
 
-## 4. “Đóng góp trọn đời” như ý tưởng toán
+## 4. “Đóng góp cả sự nghiệp” như một ý tưởng toán học
 
-Không chỉ nghĩa “nhiều bài báo”. Nghĩa là công cụ của nhà nghiên cứu trở thành **mặc định**: ước lượng ai cũng trích, định lý tương ứng tái tổ chức chương trình học, nguyên lý rigidity buộc phân loại, compactness giải tích khiến moduli dùng được. Sau đó ngôn ngữ lĩnh vực đổi. Sinh viên học các môn trước đó không tồn tại; ngành lân cận nhập từ vựng; bài mở được phát biểu lại bằng phương ngữ mới.
+Điều đó không chỉ có nghĩa là “nhiều bài báo”. Nó nghĩa là công cụ của nhà nghiên cứu trở thành **mặc định**: một đánh giá mà ai cũng trích dẫn, một định lý tương ứng làm tổ chức lại chương trình học, một nguyên lý cứng (rigidity) buộc phải có phân loại, một tính compact trong giải tích khiến không gian moduli dùng được. Sau đó, ngôn ngữ của lĩnh vực thay đổi. Sinh viên học những môn mà trước đó chưa tồn tại; các ngành lân cận nhập từ vựng; các bài toán mở được phát biểu lại bằng phương ngữ mới.
 
-Ví dụ trong chương (phát triển ở các bài sau): modularity lifting; Uhlenbeck compactness; homogeneous dynamics và multiple recurrence; concentration of measure; $$D$$-module và crystal.
+Các ví dụ trong chương (sẽ được phát triển ở các bài sau): nâng modular (modularity lifting); tính compact của Uhlenbeck; động lực thuần nhất và tái hồi nhiều lần; hiện tượng tập trung của độ đo; $$D$$-module và tinh thể.
 
-Hỏi phản thực: *Nếu xóa công trình này khỏi văn học, định lý sau nào sẽ khó phát biểu hơn nhiều?* Đó là định nghĩa thực dụng của hạ tầng.
+Hãy thử đặt câu hỏi giả định ngược: *nếu xóa công trình này khỏi văn liệu, những định lý nào về sau sẽ khó phát biểu hơn nhiều?* Đó là định nghĩa thực dụng của “hạ tầng”.
 
 ---
 
@@ -86,110 +86,95 @@ Hỏi phản thực: *Nếu xóa công trình này khỏi văn học, định l�
 
 Bốn bước cho mỗi bài từ 08_03 trở đi:
 
-1. **Đọc câu citation** cẩn thận (copy từ abelprize.no nếu được).  
-2. **Nhận diện đối tượng toán.**  
-3. **Phát biểu một ý giải thích được** bằng lời thường (một đoạn).  
-4. **Ghi một liên kết khóa học**—Fields ch.02, Millennium ch.01, ứng dụng ch.03, đẹp ch.04, chứng minh ch.05, tương lai ch.06.
+1. **Đọc kỹ câu citation** (chép từ abelprize.no nếu được).  
+2. **Nhận ra đối tượng toán học.**  
+3. **Phát biểu một ý có thể giải thích được** bằng lời thường (một đoạn).  
+4. **Ghi một liên kết với các phần khác của khóa học:** Fields ở ch.02, Millennium ở ch.01, ứng dụng ở ch.03, vẻ đẹp ở ch.04, chứng minh ở ch.05, tương lai ở ch.06.
 
-Tránh hai lỗi: **thờ phụng anh hùng không toán**, và **overclaim** (modularity ≠ hết Langlands; CKN ≠ Millennium NS; P vs NP vẫn mở sau Abel 2021).
+Hãy tránh hai lỗi: **tôn thờ những người hùng mà không nói đến toán**, và **khẳng định quá đà** (modularity không có nghĩa là xong Langlands; CKN không phải là lời giải bài toán Navier–Stokes của Millennium; P vs NP vẫn còn mở sau giải Abel 2021).
 
 ---
 
-## 6. Nhầm lẫn thường gặp
+## 6. Những nhầm lẫn thường gặp
 
-| Khẳng định | Chỉnh |
-|------------|-------|
-| “Abel là Nobel toán.” | Chỉ là ẩn dụ. Abel là giải của Viện Hàn lâm Na Uy, không phải hạng mục Nobel. |
-| “Abel chỉ cho người già.” | Không giới hạn tuổi; thường thưởng tác động dài hạn. |
-| “Fields hơn / Abel hạng hai.” | Tín hiệu và nhịp khác; cả hai đều thuộc vinh danh cao nhất. |
-| “Citation Abel chứng minh mọi slogan báo chí.” | Báo nén. Tách định lý khỏi ẩn dụ. |
-| “Clay giống Abel.” | Clay thưởng **bài toán**; Abel vinh danh **người và nghiên cứu**. |
+| Khẳng định | Chỉnh lại |
+|------------|-----------|
+| “Abel là Nobel toán.” | Chỉ là cách nói ẩn dụ. Abel là giải của Viện Hàn lâm Na Uy, không phải một hạng mục Nobel. |
+| “Abel chỉ dành cho người lớn tuổi.” | Không giới hạn tuổi; thường ghi nhận tác động dài hạn. |
+| “Fields hơn / Abel hạng hai.” | Tín hiệu và chu kỳ khác nhau; cả hai đều thuộc hàng vinh danh cao nhất. |
+| “Citation của Abel chứng minh mọi khẩu hiệu của báo chí.” | Báo chí nén thông tin. Hãy tách định lý khỏi ẩn dụ. |
+| “Clay giống Abel.” | Clay thưởng cho **bài toán**; Abel vinh danh **con người và nghiên cứu**. |
 
 ---
 
 ## Bài tập
 
-1. Hai câu: so Abel và Fields chỉ bằng sự kiện thể chế—không tên laureate.  
-2. Mở [abelprize.no](https://abelprize.no/), chọn một laureate không nằm trong các bài sâu của chương, liệt kê ba danh từ đối tượng toán trong citation.  
-3. ≤150 từ: “toán hạ tầng” là gì, lấy một ví dụ từ chương.  
-4. Vì sao sai khi nói Abel 2021 “giải P vs NP”? Giải đó nhấn gì?  
-5. **≤300 từ:** Lập luận xây công cụ trọn đời quan trọng không kém một định lý nổi tiếng.
+1. Viết hai câu so sánh Abel và Fields chỉ dựa trên các sự kiện thể chế, không nhắc tên laureate nào.  
+2. Mở [abelprize.no](https://abelprize.no/), chọn một laureate không nằm trong các bài chuyên sâu của chương, và liệt kê ba danh từ chỉ đối tượng toán học trong citation.  
+3. Viết không quá 150 từ: “toán học hạ tầng” là gì, kèm một ví dụ từ chương.  
+4. Vì sao nói Abel 2021 “giải xong P vs NP” là sai? Giải đó nhấn mạnh điều gì?  
+5. **Không quá 300 từ:** lập luận rằng việc xây dựng một bộ công cụ cả đời quan trọng không kém một định lý nổi tiếng.
 
 ---
 
+## Nguồn video
 
-## Nguồn video (gói math-video-researcher)
+Hãy dùng video để **định hướng và làm quen với văn hóa nghiên cứu**, đừng dùng thay cho chứng minh.
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh. Chi tiết: `research/video-research/what-is-abel-prize/`.
+**Những ý chính từ phần nghiên cứu**
 
-**Khẩu hiệu từ gói nghiên cứu**
-
-- Giải Abel: Viện Hàn lâm Na Uy; từ 2003; không giới hạn tuổi; nhấn sự nghiệp/công cụ.
-- Không phải hạng mục Nobel; so Fields (≤40) vs Abel (dài hạn).
-- Cổng: abelprize.no.
+- Giải Abel: do Viện Hàn lâm Na Uy trao; từ năm 2003; không giới hạn tuổi; nhấn mạnh sự nghiệp và công cụ.
+- Không phải hạng mục Nobel; so sánh Fields (dưới 40 tuổi) với Abel (dài hạn).
+- Cổng chính thức: abelprize.no.
 
 **Thứ tự xem gợi ý**
 
-1. **ORIENTATION** — Abel Prize YouTube channel: [https://www.youtube.com/channel/UCIJF5m5y70ZQoDCXVq0k50A](https://www.youtube.com/channel/UCIJF5m5y70ZQoDCXVq0k50A).  
+1. **Định hướng**: kênh YouTube của giải Abel: [https://www.youtube.com/channel/UCIJF5m5y70ZQoDCXVq0k50A](https://www.youtube.com/channel/UCIJF5m5y70ZQoDCXVq0k50A).  
 
-**Cổng chính thức / tài liệu**
+**Cổng chính thức và tài liệu**
 
-- The Abel Prize home: https://abelprize.no/  
-- Abel laureates list: https://abelprize.no/winners  
-- Abel FAQ: https://abelprize.no/page/faq-frequently-asked-questions  
-- Abel lectures events: https://abelprize.no/events/abel-lectures-0  
-
-Danh mục URL đầy đủ: `research/video-research/what-is-abel-prize/references.md`.
+- Trang chủ giải Abel: https://abelprize.no/  
+- Danh sách laureate: https://abelprize.no/winners  
+- Hỏi đáp (FAQ): https://abelprize.no/page/faq-frequently-asked-questions  
+- Các buổi Abel Lectures: https://abelprize.no/events/abel-lectures-0  
 
 ## Tài liệu
 
+### Danh mục nguồn
 
-### Gói nghiên cứu video (mọi URL)
-
-Danh mục đầy đủ: `research/video-research/what-is-abel-prize/references.md`.
-
-1. The Abel Prize home — https://abelprize.no/  
-2. Abel laureates list — https://abelprize.no/winners  
-3. Abel FAQ — https://abelprize.no/page/faq-frequently-asked-questions  
-4. Abel lectures events — https://abelprize.no/events/abel-lectures-0  
-5. Abel Prize YouTube channel — https://www.youtube.com/channel/UCIJF5m5y70ZQoDCXVq0k50A  
+1. Trang chủ giải Abel — https://abelprize.no/  
+2. Danh sách laureate — https://abelprize.no/winners  
+3. FAQ của giải Abel — https://abelprize.no/page/faq-frequently-asked-questions  
+4. Các buổi Abel Lectures — https://abelprize.no/events/abel-lectures-0  
+5. Kênh YouTube của giải Abel — https://www.youtube.com/channel/UCIJF5m5y70ZQoDCXVq0k50A  
 6. Wikipedia — Abel Prize — https://en.wikipedia.org/wiki/Abel_Prize  
 7. Wikipedia — Niels Henrik Abel — https://en.wikipedia.org/wiki/Niels_Henrik_Abel  
-8. Wikipedia — Fields Medal (contrast) — https://en.wikipedia.org/wiki/Fields_Medal  
-9. Norwegian Academy of Science and Letters — https://dnva.no/en  
-10. Thư mục gói: `research/video-research/what-is-abel-prize/`.
+8. Wikipedia — Fields Medal (để đối chiếu) — https://en.wikipedia.org/wiki/Fields_Medal  
+9. Viện Hàn lâm Khoa học và Thư tín Na Uy — https://dnva.no/en  
 
-1. [The Abel Prize](https://abelprize.no/) — citation, tiểu sử, ghi chú phổ biến.  
+1. [Giải Abel](https://abelprize.no/): citation, tiểu sử, ghi chú phổ biến.  
 2. Viện Hàn lâm Khoa học và Thư tín Na Uy.  
-3. [Tổng quan Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/); chương 01 các bài toán lớn.
+3. [Tổng quan về Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/); chương 01 về các bài toán lớn.
 
 ---
 
 ## Hướng đi tiếp
 
-- So bảng bài này với [Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/): ba khác biệt chính xác.  
-- Phát biểu lại ý tưởng cốt lõi Abel trong một đoạn cho người không học toán.  
-- Ghi một câu hỏi còn mở cạnh bất kỳ citation nào trong chương.  
-- Tiếp: [Wiles và FLT]({{ site.baseurl }}/contents/vi/chapter08/08_03_Wiles_Fermat/).
-
+- So bảng trong bài này với [Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/): nêu ba khác biệt một cách chính xác.  
+- Phát biểu lại ý tưởng cốt lõi của giải Abel trong một đoạn cho người không học toán.  
+- Ghi một câu hỏi còn mở bên cạnh bất kỳ citation nào trong chương.  
+- Tiếp theo: [Wiles và Định lý Fermat]({{ site.baseurl }}/contents/vi/chapter08/08_03_Wiles_Fermat/).
 
 ## Abel và Fields: hai thước đo khác nhau
 
-Fields gắn tuổi và “triển vọng”; Abel gần hơn “giải thưởng đời người” cho thành tựu đã chín. Cả hai đều **không** đo “ai giỏi nhất thế giới” một cách toàn cục—chúng là tín hiệu cộng đồng về hướng toán được tôn vinh. Khi viết essay, luôn trích citation chính thức từ [abelprize.no](https://abelprize.no/) thay vì diễn giải mạng xã hội.
-
-## Cách đọc một năm Abel
-
-1. Đọc citation ngắn: gạch chân danh từ toán học.
-2. Phân loại: giải bài toán mang tên / xây hạ tầng ngôn ngữ / mở phương pháp xác suất–tổ hợp–PDE.
-3. Nối một bài Fields hoặc Millennium/flagship trong khóa để so sánh thể loại thành tựu.
+Fields gắn với tuổi tác và “triển vọng”; Abel gần với một “giải thưởng đời người” cho những thành tựu đã chín. Cả hai đều **không** đo “ai giỏi nhất thế giới” theo nghĩa toàn cục. Chúng là tín hiệu của cộng đồng về những hướng toán được tôn vinh. Khi viết tiểu luận, hãy luôn trích citation chính thức từ [abelprize.no](https://abelprize.no/) thay vì diễn giải lại theo mạng xã hội.
 
 ## Studio
 
-Chọn hai năm Abel trong chương; lập bảng 4 cột: năm – tên – một câu thành tựu – loại (problem / infrastructure / methods). Không cần công thức nặng; cần phân loại trung thực.
-
+Chọn hai năm trao giải Abel trong chương; lập bảng 4 cột: năm, tên, một câu về thành tựu, loại (bài toán / hạ tầng / phương pháp). Không cần công thức nặng; cần sự phân loại trung thực.
 
 ## Video tham khảo
 
-- **xem trước** — [Abel Prize — The story](https://www.youtube.com/watch?v=ycXeTYR5SFg) — The Abel Prize, tiếng Anh. Xem trước. “Abel Prize — The story” định hướng cho mục tiêu của bài: Sau bài, bạn có thể mô tả vai trò thể chế của Abel và triết lý “đóng góp trọn đời” không giới hạn tuổi; so sánh chính xác Abel với Fields, Clay Millennium và các giải lớn khác; trí…
-- [The 2025 Abel Prize Award Ceremony](https://www.youtube.com/watch?v=8OVVZ4G5bFw) — The Abel Prize, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài, bạn có thể mô tả vai trò thể chế của Abel và triết lý “đóng góp trọn đời” không giới hạn tuổi; so sánh chính xác Abel với Fields, Clay Millennium và các giải lớn khác; trí…
-- [The Abel Prize announcement 2025](https://www.youtube.com/watch?v=Vo3E8wgKnSQ) — The Abel Prize, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài, bạn có thể mô tả vai trò thể chế của Abel và triết lý “đóng góp trọn đời” không giới hạn tuổi; so sánh chính xác Abel với Fields, Clay Millennium và các giải lớn khác; trí…
+- **Xem trước** — [Abel Prize — The story](https://www.youtube.com/watch?v=ycXeTYR5SFg) — The Abel Prize, tiếng Anh. Xem trước để nắm câu chuyện và vai trò của giải thưởng.
+- [The 2025 Abel Prize Award Ceremony](https://www.youtube.com/watch?v=8OVVZ4G5bFw) — The Abel Prize, tiếng Anh. Xem lượt thứ hai, khi ý chính đã rõ, để thấy buổi lễ trao giải diễn ra như thế nào.
+- [The Abel Prize announcement 2025](https://www.youtube.com/watch?v=Vo3E8wgKnSQ) — The Abel Prize, tiếng Anh. Góc nhìn bổ sung sau hai video đầu, về cách hội đồng công bố và giải thích citation.

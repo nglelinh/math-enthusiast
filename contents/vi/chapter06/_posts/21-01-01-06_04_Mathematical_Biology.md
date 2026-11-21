@@ -9,24 +9,24 @@ categories:
 - chapter06
 ---
 
-Sinh học ồn ào, đa thang, từng mang tính mô tả—song mọi khẳng định định lượng thành công cuối cùng thành toán: tốc độ, cân bằng, hình học, quá trình ngẫu nhiên, suy diễn từ dữ liệu thiếu. **Sinh học toán** không phải một định lý; nó là họ ngôn ngữ mô hình hóa biến hệ sống thành đối tượng phân tích, mô phỏng, đôi khi điều khiển. Biên giới là trung thực về thang: ODE đẹp có thể đúng cho bể trộn đều và sai cho mô; mạng quy mô genome có thể thú vị cấu trúc mà vẫn underdetermined bởi đo.
+Sinh học là một thế giới ồn ào, nhiều tầng thang đo, và từng thiên về mô tả. Nhưng mọi khẳng định định lượng thành công cuối cùng đều trở thành toán: tốc độ, trạng thái cân bằng, hình học, quá trình ngẫu nhiên, suy luận từ dữ liệu thiếu. **Sinh học toán** không phải là một định lý; nó là một họ ngôn ngữ mô hình hóa, biến hệ sống thành những đối tượng có thể phân tích, mô phỏng và đôi khi điều khiển được. Điều khó là phải trung thực về thang đo: một hệ phương trình vi phân đẹp có thể đúng cho một bể trộn đều nhưng sai cho mô; một mạng ở quy mô toàn hệ gene có thể thú vị về cấu trúc mà vẫn không được xác định đủ bởi dữ liệu đo.
 
-Bài map các lớp mô hình cốt lõi—động lực quần thể, kinetics phản ứng, hình thành mẫu không gian, biểu hiện gene ngẫu nhiên, trò chơi tiến hóa, mạng sinh học—và luyện tách định lý / heuristic / hype trong thời “AI for biology”.
+Bài này điểm qua các lớp mô hình cốt lõi: động lực quần thể, động học phản ứng, hình thành mẫu trong không gian, biểu hiện gene ngẫu nhiên, trò chơi tiến hóa, mạng sinh học. Đồng thời luyện cách phân biệt định lý, heuristic và lời thổi phồng trong thời đại “AI cho sinh học”.
 
 ---
 
 ## Mục tiêu học tập
 
-Sau bài học, bạn có thể:
+Sau bài này, bạn có thể:
 
-- Viết và diễn giải ODE ngăn (logistic, SIR); nêu giả thiết “trộn đều”.
-- Mô tả động học phản ứng mass-action như $$\dot x=f(x)$$; khi nào cần mô hình ngẫu nhiên.
-- Nêu ý **mẫu Turing** (bất ổn định do khuếch tán) mà không gán cho mọi mẫu sinh học.
-- Giải thích vì sao nhiễu phân tử quan trọng trong điều hòa gene (birth–death / master equation).
-- Phân biệt thuộc tính mạng cấu trúc và dự đoán động lực cần tham số.
-- Phê một tuyên bố thổi về “mô hình dự đoán sự sống” hoặc “AI giải sinh học” (**LO6**).
+- Viết và diễn giải các mô hình ODE theo ngăn (logistic, SIR); nêu được giả thiết “trộn đều”.
+- Mô tả động học phản ứng theo định luật tác dụng khối lượng dưới dạng $$\dot x=f(x)$$, và biết khi nào cần mô hình ngẫu nhiên.
+- Nêu ý tưởng về **mẫu Turing** (mất ổn định do khuếch tán) mà không gán nó cho mọi mẫu trong sinh học.
+- Giải thích vì sao nhiễu ở mức phân tử quan trọng trong điều hòa gene (quá trình sinh–tử và phương trình master).
+- Phân biệt tính chất cấu trúc của mạng với việc dự đoán động lực học, vốn cần có tham số.
+- Nhận xét một tuyên bố thổi phồng kiểu “mô hình dự đoán được sự sống” hay “AI đã giải xong sinh học”.
 
-**Kiến thức nền.** ODE sơ cấp; xác suất cơ bản; ngôn ngữ “tốc độ biến thiên”. Đại số tuyến tính giúp hệ nhiều biến.
+**Kiến thức nền.** ODE sơ cấp; xác suất cơ bản; ý niệm “tốc độ biến thiên”. Đại số tuyến tính giúp ích khi làm việc với hệ nhiều biến.
 
 ---
 
@@ -36,18 +36,22 @@ Sau bài học, bạn có thể:
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/sir-r0-epidemic_vi.mp4"></video>
 </div>
 
-Cùng một mô hình SIR với R₀ = 0,8; 1,5 và 3, bắt đầu với 3% người nhiễm. Dưới 1 dịch tắt dần; trên 1 dịch tăng tới một đỉnh, và R₀ càng lớn thì đỉnh càng cao, càng sớm và tổng số người nhiễm càng nhiều.
+Cùng một mô hình SIR với $$R_0 = 0.8, 1.5, 3$$, bắt đầu với 3% người nhiễm. Dưới 1 dịch tắt dần; trên 1 dịch tăng tới một đỉnh, và $$R_0$$ càng lớn thì đỉnh càng cao, càng sớm và tổng số người nhiễm càng nhiều.
 
 
-## 1. Quần thể và ngăn: ODE
+### Tự tay thử: Đổi R₀ và xem dịch bệnh
 
-Logistic:
+<div class="mex-explainer" data-mex="sir" data-lang="vi"></div>
+
+## 1. Quần thể và các ngăn: mô hình ODE
+
+Mô hình logistic:
 
 $$
 \frac{dN}{dt}=rN\Bigl(1-\frac{N}{K}\Bigr).
 $$
 
-mô hình tăng trưởng bị giới hạn bởi sức chứa $$K$$. **SIR** phân hoạch quần thể thành susceptible, infected, recovered với nhiễm mass-action:
+mô tả tăng trưởng bị giới hạn bởi sức chứa $$K$$. Mô hình **SIR** chia quần thể thành ba nhóm: nhạy cảm (susceptible), nhiễm (infected), hồi phục (recovered), với lây nhiễm theo định luật tác dụng khối lượng:
 
 $$
 \dot S=-\beta SI,\quad
@@ -55,204 +59,192 @@ $$
 \dot R=\gamma I.
 $$
 
-$$R_0$$ xuất hiện từ tuyến tính hóa tại cân bằng không bệnh: nếu $$R_0>1$$ thì xâm nhập khả dĩ trong mô hình lý tưởng hóa.
+$$R_0$$ xuất hiện khi tuyến tính hóa tại điểm cân bằng không có bệnh: nếu $$R_0>1$$ thì dịch có thể xâm nhập, trong mô hình đã được lý tưởng hóa.
 
-**Hình định lý:** tiêu chí ổn định địa phương cho cân bằng ODE trơn; định lý ngưỡng trong mô hình dịch có cấu trúc dưới giả thiết tường minh. **Phán đoán mô hình:** chọn ngăn, cấu trúc tiếp xúc, tham số biến thiên theo thời gian, phản hồi hành vi. Truyền thông dịch bệnh (thời COVID) dễ trộn các lớp này; biết đọc tách hệ quả toán của mô hình khỏi fit thực nghiệm và chính sách.
+**Phần là định lý:** tiêu chí ổn định địa phương cho điểm cân bằng của ODE trơn; các định lý ngưỡng trong mô hình dịch có cấu trúc với giả thiết nêu rõ. **Phần là phán đoán khi xây mô hình:** chọn các ngăn, cấu trúc tiếp xúc, tham số thay đổi theo thời gian, phản ứng hành vi của con người. Truyền thông về dịch bệnh (thời COVID) dễ trộn các lớp này với nhau. Người đọc cần tách hệ quả toán học của mô hình khỏi việc khớp số liệu và khỏi chính sách.
 
 ---
 
-## 2. Mạng sinh hóa: stoichiometry
+## 2. Mạng sinh hóa: ma trận hợp thức
 
-Với nồng độ $$x\in\mathbb{R}^n_{\ge 0}$$ và ma trận stoichiometry $$\Gamma$$:
+Với nồng độ $$x\in\mathbb{R}^n_{\ge 0}$$ và ma trận hợp thức (stoichiometry) $$\Gamma$$:
 
 $$
 \dot x=\Gamma\, v(x),
 $$
 
-trong đó $$v(x)$$ là tốc độ phản ứng (đa thức mass-action, Michaelis–Menten, Hill…). Lý thuyết mạng phản ứng hóa học (CRNT, deficiency theory) cho kết quả cấu trúc về tồn tại/duy nhất cân bằng dương, hoặc vắng multistationarity, ở một số lớp mạng—đọc được một phần từ đồ thị mạng, độc lập hằng số tốc độ.
+trong đó $$v(x)$$ là tốc độ phản ứng (đa thức theo định luật tác dụng khối lượng, Michaelis–Menten, Hill, …). Lý thuyết mạng phản ứng hóa học (CRNT, lý thuyết deficiency) cho những kết quả cấu trúc về sự tồn tại và duy nhất của điểm cân bằng dương, hoặc về việc không có nhiều trạng thái dừng, với một số lớp mạng. Những kết quả này đọc được một phần từ đồ thị của mạng, không phụ thuộc vào hằng số tốc độ.
 
-Systems biology xây mạng lớn (chuyển hóa, tín hiệu): luật bảo toàn, elementary flux mode là toán; dự đoán số cần tham số—nhiều tham số kém biết. Identifiability và “sloppiness” của mô hình nhiều tham số là biên giới giao đại số, thống kê và thiết kế thí nghiệm.
+Sinh học hệ thống xây dựng những mạng lớn (chuyển hóa, truyền tín hiệu). Các định luật bảo toàn và elementary flux mode là phần toán; còn dự đoán bằng số cần tham số, mà nhiều tham số lại ít được biết. Tính xác định được của tham số (identifiability) và hiện tượng “sloppiness” của mô hình nhiều tham số là vùng biên giao nhau giữa đại số, thống kê và thiết kế thí nghiệm.
 
 ---
 
 ## 3. Không gian: PDE và mẫu Turing
 
-Khi nồng độ phụ thuộc không gian, xuất hiện reaction–diffusion:
+Khi nồng độ phụ thuộc vào vị trí, ta có phương trình phản ứng–khuếch tán:
 
 $$
 \partial_t u=D\Delta u+f(u),
 $$
 
-với ma trận khuếch tán $$D$$ và kinetics địa phương $$f$$. **Turing** (1952): khuếch tán—thường nghĩ là làm mượt—có thể **bất ổn định** cân bằng đồng nhất và tạo mẫu không gian dưới kinetics kiểu activator–inhibitor. Đây là cơ chế ổn định tuyến tính—không phải lời giải phổ quát cho sọc ngựa vằn, phôi hay đô thị.
+với ma trận khuếch tán $$D$$ và động học cục bộ $$f$$. **Turing** (1952) chỉ ra rằng khuếch tán, vốn thường được nghĩ là làm mịn, lại có thể **làm mất ổn định** trạng thái cân bằng đồng nhất và tạo ra mẫu không gian, nếu động học có dạng activator–inhibitor. Đây là một cơ chế dựa trên ổn định tuyến tính; nó không phải lời giải chung cho vằn ngựa vằn, phôi thai hay hình dạng đô thị.
 
-Sinh thái không gian, gradient morphogen, biofilm sống ở đây. Điều kiện biên, miền tăng trưởng, mô hình không gian ngẫu nhiên (individual-based) đổi kết luận. Lý thuyết PDE (tồn tại, chính quy, hành vi dài hạn) cung cấp định lý; khớp chúng với phôi cung cấp khoa học.
+Sinh thái học không gian, gradient morphogen và biofilm đều thuộc về vùng này. Điều kiện biên, miền đang tăng trưởng và mô hình không gian ngẫu nhiên (dựa trên từng cá thể) đều có thể làm đổi kết luận. Lý thuyết PDE (tồn tại, tính chính quy, hành vi dài hạn) cho ta định lý; còn khớp chúng với phôi thật mới cho ta khoa học.
 
 ---
 
-## 4. Ngẫu nhiên: khi phân tử ít
+## 4. Ngẫu nhiên: khi số phân tử ít
 
-Trong tế bào, một số loài chỉ vài chục bản sao. ODE liên tục có thể đánh lừa. **Phương trình master hóa học** tiến hóa $$P(n,t)$$ của số bản sao; thuật toán Gillespie lấy mẫu quỹ đạo. Biểu hiện gene “bùng nổ” tạo phân bố mRNA/protein overdispersed; nhiễu có thể là feature (bet-hedging) hoặc bug (dễ vỡ).
+Trong tế bào, có những loài chỉ có vài chục bản sao. Khi đó ODE liên tục có thể đánh lừa ta. **Phương trình master hóa học** mô tả sự tiến hóa của $$P(n,t)$$, xác suất có $$n$$ bản sao; thuật toán Gillespie lấy mẫu các quỹ đạo. Biểu hiện gene theo kiểu “bùng nổ” tạo phân bố mRNA và protein có phương sai lớn hơn Poisson. Nhiễu có thể là một tính năng (chiến lược phòng hờ rủi ro) hoặc một lỗi (làm hệ dễ vỡ).
 
-Toán: xích Markov thời gian liên tục trên không gian đếm được, đóng moment, large-deviation heuristic, mô hình hybrid ghép switch rời rạc với nồng độ liên tục. **Định lý vs xấp xỉ:** nghiệm CME exact hiếm; xấp xỉ khuếch tán (Fokker–Planck, Langevin) kiểm soát được theo một số scaling, và chỉ folklore ở chỗ khác.
+Về toán, đây là xích Markov thời gian liên tục trên không gian đếm được, cùng với đóng moment, các lập luận heuristic về độ lệch lớn, và mô hình lai ghép giữa công tắc rời rạc với nồng độ liên tục. **Định lý và xấp xỉ:** nghiệm chính xác của phương trình master hiếm khi có được; các xấp xỉ khuếch tán (Fokker–Planck, Langevin) kiểm soát được trong một số chế độ tỷ lệ, còn ở chế độ khác thì chỉ là kinh nghiệm.
 
 ---
 
 ## 5. Tiến hóa và trò chơi
 
-Di truyền quần thể và evolutionary game theory thay thuần tối ưu bằng **replicator dynamics** và fixation ngẫu nhiên trong quần thể hữu hạn:
+Di truyền quần thể và lý thuyết trò chơi tiến hóa thay việc tối ưu thuần túy bằng **động lực replicator** và sự cố định ngẫu nhiên trong quần thể hữu hạn:
 
 $$
 \dot x_i=x_i\bigl((Ax)_i-x^\top Ax\bigr)
 $$
 
-với tần số chiến lược $$x$$ và ma trận payoff $$A$$. Fitness landscape, adaptive dynamics, mô hình đa locus nối hệ động lực và xác suất. Dữ liệu genome thêm suy diễn thống kê: phylogenetics (cây + mô hình Markov thay thế), kiểm định chọn lọc, lịch sử nhân khẩu—mỗi lớp có likelihood và nguy cơ misspecification.
+với $$x$$ là tần số các chiến lược và $$A$$ là ma trận lợi ích. Cảnh quan thích nghi (fitness landscape), động lực thích nghi, các mô hình đa locus nối hệ động lực với xác suất. Dữ liệu genome còn thêm vào suy luận thống kê: phát sinh loài (cây cùng mô hình Markov về thay thế), kiểm định chọn lọc, lịch sử nhân khẩu. Mỗi lớp đều có hàm hợp lý và nguy cơ chọn sai mô hình.
 
 ---
 
-## 6. Mạng sinh học như đồ thị—và giới hạn
+## 6. Mạng sinh học như đồ thị, và giới hạn của cách nhìn đó
 
-Tương tác protein, điều hòa gene, connectome là **đồ thị** (hoặc hypergraph, mạng multiplex). Bậc, motif, heuristic controllability, cộng đồng là công cụ đồ thị (xem khoa học mạng). Gán “hub = quan trọng” không có động lực/thí nghiệm nhân quả là overclaim kinh điển.
+Tương tác giữa các protein, điều hòa gene, connectome đều là **đồ thị** (hoặc siêu đồ thị, mạng đa lớp). Bậc của đỉnh, motif, các heuristic về khả năng điều khiển, cộng đồng là những công cụ của lý thuyết đồ thị (xem bài khoa học mạng). Nói “hub là quan trọng” mà không có động lực học hay thí nghiệm nhân quả đi kèm là một kiểu khẳng định quá đà kinh điển.
 
-Cạnh sinh học ồn, thiếu, phụ thuộc ngữ cảnh (mô, thời gian, trạng thái post-translational). Đối tượng toán thường là mô hình đồ thị ngẫu nhiên hoặc hệ động lực quan sát từng phần—không phải sơ đồ wiring hoàn hảo của sự sống.
+Các cạnh trong mạng sinh học thường nhiễu, thiếu và phụ thuộc ngữ cảnh (mô nào, thời điểm nào, trạng thái biến đổi sau dịch mã). Đối tượng toán học thích hợp thường là mô hình đồ thị ngẫu nhiên hoặc hệ động lực chỉ quan sát được một phần, chứ không phải sơ đồ đi dây hoàn hảo của sự sống.
 
 ---
 
-## 7. Dữ liệu, suy diễn và sóng AI
+## 7. Dữ liệu, suy luận và làn sóng AI
 
 | Lớp | Nội dung |
 |-----|----------|
-| Mô hình đo | Nhiễu, bias, batch effect |
-| Ước lượng thống kê | Cái gì identifiable từ dữ liệu? |
-| Mô hình cơ chế | ODE/PDE/ngẫu nhiên |
-| Surrogate ML | Khớp linh hoạt; có thể thiếu cơ chế |
-| Khẳng định sinh học | Nhân quả / chức năng |
+| Mô hình đo đạc | Nhiễu, thiên lệch, hiệu ứng theo lô |
+| Ước lượng thống kê | Cái gì xác định được từ dữ liệu? |
+| Mô hình cơ chế | ODE, PDE, mô hình ngẫu nhiên |
+| Mô hình thay thế bằng ML | Khớp linh hoạt; có thể thiếu cơ chế |
+| Khẳng định sinh học | Quan hệ nhân quả, chức năng |
 
-Single-cell RNA-seq, cryo-EM, dự đoán cấu trúc protein bằng học sâu đổi thực hành. Thành công dự đoán cấu trúc là thành tựu lớn (hình học protein, tối ưu, representation learning)—không tự động cho hiểu động lực đầy đủ của pathway, phát triển hay hệ sinh thái. Hype gộp các hàng; biết đọc giữ chúng tách.
-
----
-
-## 8. Tiên phong chọn lọc
-
-1. Ghép đa thang (phân tử → tế bào → mô → cơ thể) với lỗi kiểm soát được.  
-2. Identifiability và experimental design cho hệ động lực phi tuyến.  
-3. Mô hình không gian ngẫu nhiên và giới hạn continuum chặt.  
-4. TDA / hình học dữ liệu trên hình dạng sinh học—công cụ hứa hẹn, không phép màu.  
-5. Điều khiển mạch gene tổng hợp có feedback và nhiễu.  
-6. Ghép cơ chế + ML dưới dịch phân phối.
-
-### Ví dụ $$R_0$$ như đại số tuyến tính
-
-Gần $$I=0$$ trong SIR chuẩn hóa ($$S=1$$ free-disease), $$\dot I\approx(\beta-\gamma)I$$: xâm nhập khi $$R_0=\beta/\gamma>1$$. Mô hình nhiều nhóm: $$R_0$$ là bán kính phổ của ma trận thế hệ sau—đối tượng toán từ mô hình tường minh, không phải “số lây” bay lơ lửng ngoài giả thiết trộn/nhạy cảm/hồi phục.
-
-Dashboard $$R_t$$ cần hỏi: khoảng thế hệ, trễ báo cáo, cấu trúc tiếp xúc? Ký hiệu di cư từ lý thuyết tuyến tính hóa sang dịch tễ vận hành; cả hai dùng được nếu gắn nhãn.
-
-### Thói quen không thứ nguyên
-
-Trước khi tin simulation, không thứ nguyên hóa. Logistic có thời gian $$1/r$$ và kích thước $$K$$. Reaction–diffusion có độ dài $$\sqrt{D/\text{rate}}$$. Nhóm không thứ nguyên cho biết chế độ phản ứng hay khuếch tán thống trị—và tránh lỗi đơn vị trông như “sinh học mới”.
-
-### Studio seminar
-
-Chọn một abstract “AI for drug discovery” hoặc “digital twin of the cell”. Điền bảng năm lớp Mục 7. Câu nào là đo, câu nào là surrogate, câu nào là khẳng định chức năng còn cần thí nghiệm? Viết một đoạn LO6: claim nào được phép trích dẫn ở seminar, claim nào cần gắn “chưa kiểm chứng nhân quả”.
+RNA-seq đơn bào, cryo-EM, dự đoán cấu trúc protein bằng học sâu đã thay đổi thực hành. Dự đoán được cấu trúc protein là thành tựu lớn (hình học protein, tối ưu, học biểu diễn), nhưng không tự động cho ta hiểu đầy đủ động lực học của một con đường tín hiệu, của quá trình phát triển hay của một hệ sinh thái. Lời thổi phồng gộp các dòng trong bảng lại; người đọc tỉnh táo giữ chúng tách riêng.
 
 ---
 
-## Nhầm lẫn thường gặp
+## 8. Một số hướng tiên phong
 
-| Tuyên bố | Sửa |
-|----------|-----|
-| “Mô hình = sinh học.” | Mô hình là giả thuyết; cần kiểm chứng. |
-| “Turing giải thích mọi morphogenesis.” | Một cơ chế trong nhiều. |
-| “Scale-free chứng minh tối ưu tiến hóa.” | Thống kê bậc hiếm khi đủ. |
-| “Nhiều phương trình = nhiều chân lý.” | Overfit tham số. |
-| “AI đã giải sinh học.” | Hype; task success ≠ lý thuyết sống đầy đủ. |
-| “Ngẫu nhiên chỉ khi ODE khó số.” | Nhiễu rời rạc đổi định tính (tuyệt chủng, chuyển trạng thái). |
+1. Ghép nhiều thang (phân tử → tế bào → mô → cơ thể) với sai số kiểm soát được.  
+2. Tính xác định được của tham số và thiết kế thí nghiệm cho hệ động lực phi tuyến.  
+3. Mô hình không gian ngẫu nhiên và giới hạn liên tục chặt chẽ.  
+4. Giải tích dữ liệu tô-pô (TDA) và hình học dữ liệu trên hình dạng sinh học: công cụ đầy hứa hẹn, nhưng không phải phép màu.  
+5. Điều khiển các mạch gene tổng hợp có phản hồi và nhiễu.  
+6. Kết hợp cơ chế với ML khi phân phối dữ liệu dịch chuyển.
+
+### Ví dụ $$R_0$$ như một bài đại số tuyến tính
+
+Gần $$I=0$$ trong mô hình SIR chuẩn hóa ($$S=1$$, chưa có bệnh), ta có $$\dot I\approx(\beta-\gamma)I$$: dịch xâm nhập khi $$R_0=\beta/\gamma>1$$. Với mô hình nhiều nhóm, $$R_0$$ là bán kính phổ của ma trận thế hệ kế tiếp. Đó là một đối tượng toán học sinh ra từ mô hình tường minh, chứ không phải một “con số lây nhiễm” lơ lửng ngoài các giả thiết về trộn đều, mức nhạy cảm và hồi phục.
+
+Với bảng theo dõi $$R_t$$, cần hỏi: khoảng cách giữa các thế hệ là bao lâu, báo cáo trễ bao nhiêu, cấu trúc tiếp xúc ra sao? Ký hiệu này đã đi từ lý thuyết tuyến tính hóa sang dịch tễ học vận hành; cả hai cách dùng đều ổn nếu được ghi rõ.
+
+### Thói quen: không thứ nguyên hóa
+
+Trước khi tin một mô phỏng, hãy không thứ nguyên hóa. Mô hình logistic có thang thời gian $$1/r$$ và thang kích thước $$K$$. Mô hình phản ứng–khuếch tán có thang độ dài $$\sqrt{D/\text{rate}}$$. Các nhóm không thứ nguyên cho biết phản ứng hay khuếch tán chiếm ưu thế, và giúp tránh những lỗi đơn vị trông như “hiện tượng sinh học mới”.
+
+### Hoạt động nhóm
+
+Chọn một phần tóm tắt bài báo kiểu “AI cho khám phá thuốc” hoặc “bản sao số của tế bào”. Điền bảng năm lớp ở Mục 7. Câu nào là số đo, câu nào là mô hình thay thế, câu nào là khẳng định về chức năng cần thêm thí nghiệm? Viết một đoạn ngắn: khẳng định nào có thể trích dẫn trong seminar, khẳng định nào cần ghi chú “chưa kiểm chứng nhân quả”.
+
+---
+
+## Những nhầm lẫn thường gặp
+
+| Tuyên bố | Chỉnh lại |
+|----------|-----------|
+| “Mô hình chính là sinh học.” | Mô hình là một giả thuyết; cần kiểm chứng. |
+| “Turing giải thích mọi quá trình tạo hình.” | Đó chỉ là một cơ chế trong nhiều cơ chế. |
+| “Mạng phi tỷ lệ (scale-free) chứng tỏ tối ưu do tiến hóa.” | Phân bố bậc hiếm khi đủ để kết luận. |
+| “Nhiều phương trình hơn nghĩa là gần chân lý hơn.” | Dễ bị khớp quá mức với tham số. |
+| “AI đã giải xong sinh học.” | Quảng cáo; thành công ở một nhiệm vụ không phải một lý thuyết đầy đủ về sự sống. |
+| “Ngẫu nhiên chỉ cần khi ODE khó giải số.” | Nhiễu rời rạc làm đổi tính chất định tính (tuyệt chủng, chuyển trạng thái). |
 
 ---
 
 ## Bài tập
 
-1. Phác thảo $$N(t)$$ logistic; diễn giải $$r,K$$.
-2. Tuyến tính hóa SIR tại $$(1,0,0)$$ (chuẩn hóa); liên hệ xâm nhập với $$R_0=\beta/\gamma$$.
-3. Mass-action cho $$A+B\to C$$: đóng góp ODE cho $$\dot a,\dot b,\dot c$$.
-4. Vì sao burst protein có thể overdispersed so với Poisson?
-5. Ví dụ bậc cao không hàm ý quan trọng chức năng.
-6. Abstract dự đoán cấu trúc protein: đo / phương pháp / khẳng định sinh học còn cần kiểm.
-7. Không thứ nguyên hóa logistic hoặc SIR; nêu nhóm không thứ nguyên.
+1. Phác thảo đồ thị $$N(t)$$ của mô hình logistic; diễn giải ý nghĩa của $$r,K$$.
+2. Tuyến tính hóa SIR tại $$(1,0,0)$$ (đã chuẩn hóa); liên hệ điều kiện xâm nhập với $$R_0=\beta/\gamma$$.
+3. Với phản ứng $$A+B\to C$$ theo định luật tác dụng khối lượng, viết phần đóng góp vào ODE cho $$\dot a,\dot b,\dot c$$.
+4. Vì sao các đợt bùng nổ tạo protein có thể có phương sai lớn hơn phân bố Poisson?
+5. Cho một ví dụ cho thấy đỉnh có bậc cao không có nghĩa là quan trọng về chức năng.
+6. Với phần tóm tắt một bài dự đoán cấu trúc protein: đâu là số đo, đâu là phương pháp, đâu là khẳng định sinh học còn cần kiểm chứng?
+7. Không thứ nguyên hóa mô hình logistic hoặc SIR; nêu các nhóm không thứ nguyên.
 
 ---
 
+## Tóm tắt từ phần nghiên cứu video
+
+Phần này dùng cho buổi seminar; hãy đối chiếu với nguồn gốc và không coi là bản chép lời.
+
+### Hiện trạng
+
+**Một lĩnh vực ứng dụng rộng.** Các mô hình quần thể bằng ODE và PDE là cổ điển; động học hóa học ngẫu nhiên, sự hình thành mẫu trong không gian và suy luận dựa trên dữ liệu vẫn đang được nghiên cứu sôi nổi.
+
+### Phát biểu cốt lõi
+
+Các mô hình ngăn kiểu SIR: $$\dot S=-\beta SI$$, $$\dot I=\beta SI-\gamma I$$, $$\dot R=\gamma I$$. Ngưỡng $$R_0=\beta/\gamma$$ quyết định việc dịch có xâm nhập được hay không. Sự hình thành mẫu qua mất ổn định Turing là một cơ chế PDE cổ điển.
+
+### Định nghĩa cần nhớ
+
+- **$$R_0$$.** Số ca thứ cấp kỳ vọng do một người nhiễm gây ra trong một quần thể hoàn toàn nhạy cảm.
+- **Lây nhiễm theo tác dụng khối lượng.** Số hạng lây nhiễm $$\beta SI$$ trong ODE của quần thể trộn đều.
+
+### Cần phân biệt rõ
+
+- Coi dự báo từ ODE là dự đoán chính xác, mà bỏ qua bất định về tham số và về cấu trúc mô hình.
+- Bỏ qua khả năng tuyệt chủng ngẫu nhiên trong quần thể nhỏ.
 
 ---
 
-## Kiến thức trích từ nghiên cứu video
+## Nguồn video
 
-Tóm tắt cho seminar (đối chiếu nguồn viết; **không bịa transcript**). Gói: `research/video-research/mathematical-biology/analysis.md`.
-
-### Trạng thái
-
-**Broad applied field.** ODE/PDE population models are classical; stochastic chemical kinetics, spatial pattern formation, and data-driven inference remain active.
-
-### Phát biểu / slogan cốt lõi
-
-SIR-type compartment models: $$\dot S=-\beta SI$$, $$\dot I=\beta SI-\gamma I$$, $$\dot R=\gamma I$$. Threshold $$R_0=\beta/\gamma$$ governs invasion. Pattern formation via Turing instability is a classical PDE mechanism.
-
-### Định nghĩa cần cố định
-
-- **$$R_0$$.** Expected secondary cases from one infectious in a fully susceptible population.
-- **Mass-action incidence.** Infection term $$\beta SI$$ in well-mixed ODEs.
-
-### Vệ sinh khái niệm
-
-- Treating ODE forecasts as exact predictions without parameter/structural uncertainty.
-- Ignoring stochastic extinction in small populations.
-
-
----
-
-## Nguồn video (gói math-video-researcher)
-
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh/bài báo gốc khi tuyên bố mang tính then chốt. Chi tiết xếp hạng: `research/video-research/mathematical-biology/`.
+Hãy dùng video để **định hướng và làm quen với văn hóa nghiên cứu**, đừng dùng thay cho chứng minh hay bài báo gốc khi cần khẳng định điều quan trọng.
 
 **Thứ tự gợi ý**
 
-1. **Định hướng** — 3Blue1Brown — Epidemic modeling / differential equations (related DE series): [https://www.youtube.com/watch?v=Kas0tIxDvrg](https://www.youtube.com/watch?v=Kas0tIxDvrg).  
-2. **Nền tảng** — 3Blue1Brown — Differential equations playlist entry points: [https://www.youtube.com/playlist?list=PLZHQObOWTQDDr3M1VmPZyiHkqHe7pf4Rs](https://www.youtube.com/playlist?list=PLZHQObOWTQDDr3M1VmPZyiHkqHe7pf4Rs).  
-3. **Định hướng** — Dr. Trefor Bazett — The MATH of Pandemics | Intro to the SIR Model: [https://www.youtube.com/watch?v=Qrp40ck3WpI](https://www.youtube.com/watch?v=Qrp40ck3WpI).  
-4. **Orientation** — Numberphile — The Coronavirus Curve (SIR): [https://www.youtube.com/watch?v=k6nLfCbAzgo](https://www.youtube.com/watch?v=k6nLfCbAzgo).  
+1. **Định hướng**: 3Blue1Brown, Exponential growth and epidemics (mô hình dịch bệnh, thuộc loạt về phương trình vi phân): [https://www.youtube.com/watch?v=Kas0tIxDvrg](https://www.youtube.com/watch?v=Kas0tIxDvrg).  
+2. **Nền tảng**: 3Blue1Brown, danh sách phát về phương trình vi phân: [https://www.youtube.com/playlist?list=PLZHQObOWTQDDr3M1VmPZyiHkqHe7pf4Rs](https://www.youtube.com/playlist?list=PLZHQObOWTQDDr3M1VmPZyiHkqHe7pf4Rs).  
+3. **Định hướng**: Dr. Trefor Bazett, The MATH of Pandemics | Intro to the SIR Model: [https://www.youtube.com/watch?v=Qrp40ck3WpI](https://www.youtube.com/watch?v=Qrp40ck3WpI).  
+4. **Định hướng**: Numberphile, The Coronavirus Curve (SIR): [https://www.youtube.com/watch?v=k6nLfCbAzgo](https://www.youtube.com/watch?v=k6nLfCbAzgo).  
 
-**Nhắc trạng thái:** **Broad applied field.** ODE/PDE population models are classical; stochastic chemical kinetics, spatial pattern formation, and data-driven inference remain active.
+**Lưu ý về hiện trạng:** đây là một lĩnh vực ứng dụng rộng. Các mô hình quần thể bằng ODE và PDE là cổ điển; động học hóa học ngẫu nhiên, hình thành mẫu trong không gian và suy luận từ dữ liệu vẫn đang phát triển.
 
 ---
 
-
-### Transcript & frames (batch extract)
-
-Transcript caption và unit theo thời gian: `research/video-research/mathematical-biology/transcripts/` · trạng thái: `research/video-research/mathematical-biology/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
-
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/mathematical-biology_Kas0tIxDvrg_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính.*
 
 ## Tài liệu tham khảo
 
 1. Murray — *Mathematical Biology*.
 2. Edelstein-Keshet — *Mathematical Models in Biology*.
-3. Feinberg — CRNT; van Kampen — master equation.
+3. Feinberg — CRNT; van Kampen — phương trình master.
 4. Turing (1952) — The chemical basis of morphogenesis.
-5. [Khoa học mạng]({{ site.baseurl }}/contents/vi/chapter06/06_05_Network_Science/), [Toán AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/), [Vận chuyển tối ưu]({{ site.baseurl }}/contents/vi/chapter06/06_09_Optimal_Transport/) (so phân phối dữ liệu).
+5. [Khoa học mạng]({{ site.baseurl }}/contents/vi/chapter06/06_05_Network_Science/), [Toán AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/), [Vận chuyển tối ưu]({{ site.baseurl }}/contents/vi/chapter06/06_09_Optimal_Transport/) (để so sánh phân phối dữ liệu).
 
 ---
 
-
-Danh mục URL đầy đủ: `research/video-research/mathematical-biology/references.md`.
-
 ### Video (lộ trình gợi ý)
 
-- 3Blue1Brown — Epidemic modeling / differential equations (related DE series) (ORIENTATION): https://www.youtube.com/watch?v=Kas0tIxDvrg
-- 3Blue1Brown — Differential equations playlist entry points (FOUNDATION): https://www.youtube.com/playlist?list=PLZHQObOWTQDDr3M1VmPZyiHkqHe7pf4Rs
-- Dr. Trefor Bazett — The MATH of Pandemics | Intro to the SIR Model (ORIENTATION): https://www.youtube.com/watch?v=Qrp40ck3WpI
+- 3Blue1Brown, Exponential growth and epidemics (định hướng): https://www.youtube.com/watch?v=Kas0tIxDvrg
+- 3Blue1Brown, danh sách phát về phương trình vi phân (nền tảng): https://www.youtube.com/playlist?list=PLZHQObOWTQDDr3M1VmPZyiHkqHe7pf4Rs
+- Dr. Trefor Bazett, The MATH of Pandemics | Intro to the SIR Model (định hướng): https://www.youtube.com/watch?v=Qrp40ck3WpI
 
-### Bài báo và web (từ gói nghiên cứu)
+### Bài báo và web
 
 - Wikipedia — Mathematical biology: https://en.wikipedia.org/wiki/Mathematical_and_theoretical_biology
 - Wikipedia — Compartmental models in epidemiology: https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology
@@ -261,20 +253,16 @@ Danh mục URL đầy đủ: `research/video-research/mathematical-biology/refer
 - Wikipedia — Lotka–Volterra equations: https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations
 - Wikipedia — Chemical master equation: https://en.wikipedia.org/wiki/Chemical_master_equation
 
-### Khóa học
-
-- Gói: `research/video-research/mathematical-biology/` (đặc biệt `references.md`, `learning_path.md`).
-
 ## Hướng đi tiếp
 
-- [Khoa học mạng]({{ site.baseurl }}/contents/vi/chapter06/06_05_Network_Science/) cho mô hình đồ thị ngẫu nhiên và dịch trên mạng.
+- [Khoa học mạng]({{ site.baseurl }}/contents/vi/chapter06/06_05_Network_Science/) cho đồ thị ngẫu nhiên và dịch lan trên mạng.
 - [ML theory]({{ site.baseurl }}/contents/vi/chapter06/06_10_ML_Theory/) khi khẳng định mang tính thống kê.
-- Mô phỏng SIR và birth–death gene; so ODE trung bình với quỹ đạo ngẫu nhiên.
-- Đọc: một chương mô hình ngăn + một paper gene stochastic + một essay giới hạn mô hình.
-- Luôn hỏi: *Phương trình này hợp lệ ở thang nào?*
+- Mô phỏng SIR và quá trình sinh–tử của gene; so ODE trung bình với các quỹ đạo ngẫu nhiên.
+- Đọc: một chương về mô hình theo ngăn, một bài báo về gene ngẫu nhiên và một bài luận về giới hạn của mô hình.
+- Luôn hỏi: *phương trình này hợp lệ ở thang đo nào?*
 
 ## Video tham khảo
 
-- **xem trước** — [Exponential growth and epidemics](https://www.youtube.com/watch?v=Kas0tIxDvrg) — 3Blue1Brown, tiếng Anh. Xem trước. “Exponential growth and epidemics” định hướng cho mục tiêu của bài: Viết và diễn giải ODE ngăn (logistic, SIR); nêu giả thiết “trộn đều”.
-- [The MATH of Pandemics | Intro to the SIR Model](https://www.youtube.com/watch?v=Qrp40ck3WpI) — Dr. Trefor Bazett, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Viết và diễn giải ODE ngăn (logistic, SIR); nêu giả thiết “trộn đều”.
-- [The Coronavirus Curve - Numberphile](https://www.youtube.com/watch?v=k6nLfCbAzgo) — Numberphile, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Viết và diễn giải ODE ngăn (logistic, SIR); nêu giả thiết “trộn đều”.
+- **Xem trước** — [Exponential growth and epidemics](https://www.youtube.com/watch?v=Kas0tIxDvrg) — 3Blue1Brown, tiếng Anh. Xem trước để hiểu vì sao dịch bệnh tăng theo hàm mũ và mô hình ngăn hình thành thế nào.
+- [The MATH of Pandemics | Intro to the SIR Model](https://www.youtube.com/watch?v=Qrp40ck3WpI) — Dr. Trefor Bazett, tiếng Anh. Xem lượt thứ hai, khi ý chính đã rõ, để theo dõi mô hình SIR từng bước.
+- [The Coronavirus Curve - Numberphile](https://www.youtube.com/watch?v=k6nLfCbAzgo) — Numberphile, tiếng Anh. Góc nhìn bổ sung sau hai video đầu, về đường cong dịch và việc làm phẳng nó.

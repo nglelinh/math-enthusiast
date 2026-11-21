@@ -10,70 +10,70 @@ categories:
 lesson_type: required
 ---
 
-**Masaki Kashiwara** (RIMS, Kyoto University; Kyoto University Institute for Advanced Study) nhận **Abel Prize 2025**
+**Masaki Kashiwara** (RIMS, Đại học Kyoto; Viện Nghiên cứu Cao cấp Đại học Kyoto) nhận **Giải Abel 2025**
 
 > “for his fundamental contributions to algebraic analysis and representation theory, in particular the development of the theory of $$D$$-modules and the discovery of crystal graphs.”  
-> — [Citation ủy ban Abel](https://abelprize.no/citation/citation-abel-prize-committee-masaki-kashiwara)
+> — [Citation của ủy ban Abel](https://abelprize.no/citation/citation-abel-prize-committee-masaki-kashiwara)
 
-(Tài liệu giải cũng nói **crystal base**; “crystal graph” và “crystal base” gọi cùng bộ xương tổ hợp của biểu diễn quantum group.) Kashiwara là laureate Abel Nhật Bản đầu tiên; tài liệu nhấn hơn 50 năm định hình algebraic analysis và lý thuyết biểu diễn. Site: [abelprize.no](https://abelprize.no/).
+(Tài liệu của giải cũng dùng cụm **crystal base**; “crystal graph” và “crystal base” chỉ cùng một bộ khung tổ hợp của các biểu diễn nhóm lượng tử.) Kashiwara là laureate Nhật Bản đầu tiên của giải Abel; tài liệu nhấn mạnh hơn 50 năm ông định hình giải tích đại số và lý thuyết biểu diễn. Trang web: [abelprize.no](https://abelprize.no/).
 
 ---
 
 ## Mục tiêu học tập
 
-Sau bài, bạn có thể giải thích $$D$$-module như ngôn ngữ đại số cho hệ PDE tuyến tính; nêu ý generalized **Riemann–Hilbert** (holonomic $$D$$-module ↔ perverse sheaf) ở mức khẩu hiệu; mô tả **crystal base** như mô hình tổ hợp biểu diễn quantum group; lập luận vì sao toán hạ tầng xứng Abel; so algebraic analysis kiểu Kashiwara với giải “xây ngôn ngữ” khác (perfectoid geometry như hạ tầng Fields-era).
+Sau bài này, bạn có thể giải thích $$D$$-module như ngôn ngữ đại số cho các hệ PDE tuyến tính; nêu ý tưởng **Riemann–Hilbert** tổng quát (module holonomic ↔ chùm perverse) ở mức khẩu hiệu; mô tả **crystal base** như mô hình tổ hợp của biểu diễn nhóm lượng tử; lập luận vì sao toán học hạ tầng xứng đáng với giải Abel; và so sánh giải tích đại số kiểu Kashiwara với một giải “xây dựng ngôn ngữ” khác (hình học perfectoid như hạ tầng của thời Fields).
 
-**Kiến thức nền.** Đại số tuyến tính; toán tử vi phân như $$\frac{d}{dx}$$; sẵn sàng chấp nhận sheaf/module như “không gian nghiệm đóng gói đại số.” Liên kết: [Langlands]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/), [Scholze perfectoid]({{ site.baseurl }}/contents/vi/chapter02/02_06_Scholze_Perfectoid/).
+**Kiến thức nền.** Đại số tuyến tính; toán tử vi phân như $$\frac{d}{dx}$$; sẵn sàng chấp nhận chùm (sheaf) và module như “không gian nghiệm được đóng gói bằng đại số”. Liên kết: [Langlands]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/), [Scholze và perfectoid]({{ site.baseurl }}/contents/vi/chapter02/02_06_Scholze_Perfectoid/).
 
 ---
 
-## 1. Algebraic analysis
+## 1. Giải tích đại số
 
-Giải tích cổ điển viết PDE và ước lượng nghiệm. Trường phái **Sato** của algebraic analysis xử lý PDE tuyến tính bằng **đại số**: vành toán tử vi phân tác động lên không gian hàm (hoặc distribution, hyperfunction); module trên vành đó mã hóa hệ phương trình.
+Giải tích cổ điển viết PDE và ước lượng nghiệm. Trường phái **Sato** của giải tích đại số xử lý PDE tuyến tính bằng **đại số**: một vành các toán tử vi phân tác động lên không gian các hàm (hoặc phân bố, hyperfunction); các module trên vành đó mã hóa hệ phương trình.
 
-Toán tử một biến có thể trông như
+Một toán tử một biến có thể trông như
 
 $$
 P = a_m(x)\frac{d^m}{dx^m} + \cdots + a_1(x)\frac{d}{dx} + a_0(x).
 $$
 
-Hệ nhiều biến liên quan Weyl algebra hoặc sheaf toán tử vi phân trên đa tạp. Một khi đóng gói hệ thành module, homological algebra, localization, và hình học microlocal trở nên dùng được.
+Các hệ nhiều biến liên quan đến đại số Weyl hoặc chùm các toán tử vi phân trên một đa tạp. Một khi hệ đã được đóng gói thành module, đại số đồng điều, địa phương hóa và hình học vi địa phương (microlocal) trở nên dùng được.
 
-Đó là **algebraic analysis**: giải tích viết lại để đại số và hình học tính được. Thành thật undergrad: sau một seminar bạn chưa “tính $$D$$-module” trôi chảy. Bạn *có thể* nắm claim tổ chức: **toán tử lập đại số; nghiệm lập module; hình học đặc trưng chi phối singularity.**
+Đó là **giải tích đại số**: giải tích được viết lại sao cho đại số và hình học tính toán được. Thành thật mà nói, với sinh viên đại học, sau một buổi seminar bạn chưa thể “tính $$D$$-module” một cách trôi chảy. Nhưng bạn *có thể* nắm được luận điểm tổ chức: **toán tử tạo thành một đại số; nghiệm tạo thành một module; hình học đặc trưng chi phối các kỳ dị.**
 
 ---
 
 ## 2. $$D$$-module
 
-**$$D$$-module** là module trên sheaf (hoặc vành) $$D$$ của toán tử vi phân. Lợi ích:
+**$$D$$-module** là module trên chùm (hoặc vành) $$D$$ các toán tử vi phân. Lợi ích:
 
-### Góc nhìn microlocal
+### Góc nhìn vi địa phương
 
-Singularity được nghiên cứu không chỉ trên đa tạp nền mà theo **hướng cotangent**—đặc trưng hệ trong không gian pha. Microlocal analysis (Sato, Kashiwara, Kawai, …) làm singularity theory mang tính hình học.
+Kỳ dị được nghiên cứu không chỉ trên đa tạp nền mà theo **các hướng đối tiếp tuyến**, tức đặc trưng của hệ trong không gian pha. Giải tích vi địa phương (Sato, Kashiwara, Kawai, …) làm cho lý thuyết kỳ dị mang tính hình học.
 
-### Homological algebra cho PDE
+### Đại số đồng điều cho PDE
 
-Derived category, characteristic variety, holonomicity: bất biến đại số phân loại hệ và kiểm soát chiều không gian nghiệm.
+Phạm trù dẫn xuất, đa tạp đặc trưng, tính holonomic: các bất biến đại số phân loại hệ và kiểm soát chiều của không gian nghiệm.
 
-### Geometric representation theory
+### Lý thuyết biểu diễn hình học
 
-$$D$$-module trên flag variety và không gian liên quan trở thành trung tâm lý thuyết biểu diễn (Beilinson–Bernstein localization và quanh đó). Toán tử vi phân trung gian giữa biểu diễn đại số Lie và hình học.
+$$D$$-module trên đa tạp cờ và các không gian liên quan trở thành trung tâm của lý thuyết biểu diễn (địa phương hóa Beilinson–Bernstein và các kết quả xung quanh). Toán tử vi phân là cầu trung gian giữa biểu diễn của đại số Lie và hình học.
 
-### Tương ứng kiểu Riemann–Hilbert
+### Các tương ứng kiểu Riemann–Hilbert
 
-Riemann–Hilbert hiện đại nối data PDE giải tích với data sheaf tôpô—đặc biệt **perverse sheaf**. Holonomic $$D$$-module với singularity chính quy tương ứng (dưới giả thiết thích hợp) sheaf constructible với t-structure đặc biệt. Giải tích trở thành hình học/tôpô của sheaf.
+Riemann–Hilbert hiện đại nối dữ liệu PDE giải tích với dữ liệu chùm tô-pô, đặc biệt là **chùm perverse (perverse sheaf)**. Một $$D$$-module holonomic có kỳ dị chính quy tương ứng (dưới các giả thiết thích hợp) với một chùm constructible có cấu trúc t đặc biệt. Giải tích trở thành hình học và tôpô của chùm.
 
-Phát triển lý thuyết $$D$$-module của Kashiwara là hạ tầng nền tảng dùng xuyên nhiều lĩnh vực.
+Lý thuyết $$D$$-module mà Kashiwara phát triển là hạ tầng nền tảng, được dùng xuyên suốt nhiều lĩnh vực.
 
-### “Module trên toán tử vi phân” mua gì sư phạm
+### “Module trên toán tử vi phân” mang lại điều gì về mặt sư phạm
 
-Nghĩ hệ PDE tuyến tính như hỏi hàm bị triệt tiêu bởi một số toán tử. Đóng gói toán tử vào vành $$D$$ và không gian nghiệm vào module $$M$$ cho phép: đổi biến và localize có hệ thống; đo “kích thước” singularity qua characteristic variety; áp functor (pushforward, pullback, duality) phản ánh phép toán hình học; so hai hệ bằng so module modulo tương đương. Algebraic analysis không phải viết lại trang trí: **phạm trù $$D$$-module là động cơ tính toán**.
+Hãy nghĩ một hệ PDE tuyến tính như câu hỏi: những hàm nào bị triệt tiêu bởi một số toán tử. Việc đóng gói các toán tử vào vành $$D$$ và không gian nghiệm vào module $$M$$ cho phép: đổi biến và địa phương hóa một cách có hệ thống; đo “kích thước” của kỳ dị qua đa tạp đặc trưng; áp dụng các hàm tử (đẩy tới, kéo về, đối ngẫu) phản ánh các phép toán hình học; và so sánh hai hệ bằng cách so sánh module sai khác tương đương. Giải tích đại số không phải là sự viết lại để trang trí: **phạm trù các $$D$$-module chính là cỗ máy tính toán**.
 
 ---
 
-## 3. Triết lý Riemann–Hilbert (bản đồ sâu)
+## 3. Triết lý Riemann–Hilbert (bản đồ sâu hơn)
 
-Bài Riemann–Hilbert cổ điển dựng lại phương trình vi phân từ data **monodromy**: nghiệm biến đổi thế nào khi tiếp tục giải tích vòng quanh singularity. Nâng cấp categorical hiện đại đồng nhất phạm trù:
+Bài toán Riemann–Hilbert cổ điển dựng lại phương trình vi phân từ dữ liệu **đơn đạo (monodromy)**: nghiệm biến đổi như thế nào khi thác triển giải tích vòng quanh một kỳ dị. Phiên bản nâng cấp theo phạm trù hiện đại đồng nhất hai phạm trù:
 
 $$
 \{\text{holonomic }D\text{-module singularity chính quy}\}
@@ -81,122 +81,116 @@ $$
 \{\text{perverse sheaf}\}
 $$
 
-(dưới giả thiết hình học thích hợp; slogan bỏ giả thiết kỹ thuật một cách có ý thức).
+(dưới các giả thiết hình học thích hợp; khẩu hiệu này cố ý bỏ qua các giả thiết kỹ thuật).
 
-Đóng góp Kashiwara nằm ở sự ra đời và phát triển từ điển đó. Takeaway khóa học: **hệ PDE tuyến tính có thể viết lại thành đối tượng tôpô**, và ngược lại. Biến đổi cho đại số/hình học cùng “tinh thần từ điển” như modularity với elliptic—khác đối tượng, cùng loại bước nhảy.
+Đóng góp của Kashiwara nằm ở sự ra đời và phát triển của bộ “từ điển” đó. Điều rút ra cho khóa học: **hệ PDE tuyến tính có thể được viết lại thành đối tượng tôpô, và ngược lại**. Phép biến đổi này cho đại số và hình học cùng “tinh thần từ điển” như tính modular đối với đường cong elliptic: khác đối tượng, nhưng cùng một kiểu bước nhảy.
 
 ---
 
 ## 4. Crystal base và crystal graph
 
-### Quantum group
+### Nhóm lượng tử
 
-**Quantum group** là biến dạng universal enveloping algebra (và Hopf algebra liên quan), trung tâm lý thuyết biểu diễn, hệ khả tích, vật lý toán. Biểu diễn quantum group giàu nhưng nặng đại số.
+**Nhóm lượng tử** là một biến dạng của đại số bao phổ dụng (và các đại số Hopf liên quan), nằm ở trung tâm của lý thuyết biểu diễn, các hệ khả tích và vật lý toán. Biểu diễn của nhóm lượng tử rất phong phú nhưng nặng về đại số.
 
-### Crystal như bộ xương tổ hợp
+### Crystal như một bộ khung tổ hợp
 
-**Crystal base** (Kashiwara), cũng nhìn như **crystal graph**, cung cấp mô hình tổ hợp của biểu diễn: base với cạnh có hướng gán nhãn root/chỉ số, cho phép tính character, quy tắc tensor, định lý cấu trúc khó trong setting biến dạng đại số thuần.
+**Crystal base** (của Kashiwara), cũng được nhìn như **crystal graph**, cho một mô hình tổ hợp của biểu diễn: một cơ sở với các cạnh có hướng gán nhãn theo gốc hoặc chỉ số. Nó cho phép tính đặc trưng, quy tắc tích tensor, và các định lý cấu trúc khó trong bối cảnh biến dạng thuần đại số.
 
-Heuristic:
+Trực giác:
 
-> Crystal là “bóng” của biểu diễn tại $$q=0$$ (theo nghĩa giới hạn chính xác), giữ tinh túy tổ hợp.
+> Crystal là “cái bóng” của biểu diễn tại $$q=0$$ (theo nghĩa một giới hạn chính xác), giữ lại tinh túy tổ hợp.
 
-Khám phá này định hình combinatorial representation theory và nối tableau, path, geometric crystal trong công trình sau của nhiều tác giả. Crystal base đóng vai trò tương tự $$D$$-module ở phía biểu diễn: khi biết crystal graph, nhiều đại lượng representation-theoretic thành đếm đường tổ hợp thay vì đại số $$q$$-deformed bằng tay.
+Khám phá này đã định hình lý thuyết biểu diễn tổ hợp và nối với bảng tableau, đường đi, và crystal hình học trong công trình về sau của nhiều tác giả. Crystal base đóng vai trò tương tự $$D$$-module ở phía biểu diễn: khi biết crystal graph, nhiều đại lượng của lý thuyết biểu diễn trở thành bài toán đếm đường đi tổ hợp, thay vì phải làm đại số $$q$$-biến dạng bằng tay.
 
-**Trực giác $$\mathfrak{sl}_2$$ nhỏ (chỉ slogan).** Trọng số trên một đường; toán tử nâng/hạ di chuyển chấm; crystal operator là bóng $$q=0$$ của tác động quantum group. Survey cung cấp tranh; bài này cung cấp động cơ “vì sao nó tồn tại.”
-
----
-
-## 5. Vì sao Abel 2025
-
-Citation nhấn không một định lý mà thập niên **định hình công cụ** dùng xuyên representation theory và hình học—kích hoạt kết quả của nhiều người khác. So:
-
-| Hạ tầng | Tín hiệu kỷ nguyên | Ngôn ngữ xây |
-|---------|-------------------|--------------|
-| Perfectoid geometry (Scholze, Fields) | Toolkit đột phá, đỉnh sự nghiệp trẻ | Hình học $$p$$-adic |
-| $$D$$-module & crystal (Kashiwara, Abel) | Algebraic analysis trọn đời | PDE ↔ sheaf; quantum rep ↔ crystal |
-
-Cả hai là xây ngôn ngữ. Đồng hồ Abel đo cung dài algebraic analysis và crystal; đồng hồ Fields thường đo toolkit biến đổi sớm. So sánh sư phạm, không phân hạng.
-
-### Giải hạ tầng vs giải bài toán
-
-Wiles–Fermat (Abel 2016) là câu chuyện công chúng hình bài toán. Kashiwara 2025 là câu chuyện hình hạ tầng: thập niên thiết kế ngôn ngữ khiến hàng trăm định lý sau viết được. Perfectoid (Scholze, Fields) vần điệu. Khi viết essay LO, lập luận bằng bằng chứng bạn đang vinh danh loại thành tựu nào—**đừng ép mọi laureate vào khuôn “đã giải conjecture có tên.”**
+**Trực giác nhỏ với $$\mathfrak{sl}_2$$ (chỉ ở mức khẩu hiệu).** Các trọng số nằm trên một đường; toán tử nâng và hạ di chuyển một chấm; toán tử crystal là cái bóng tại $$q=0$$ của tác động của nhóm lượng tử. Bài khảo sát cho bạn bức tranh; bài này cho bạn động cơ để hiểu “vì sao nó tồn tại”.
 
 ---
 
-## 6. Cảnh quan khóa học
+## 5. Vì sao đáng giải Abel 2025
 
-- [Langlands]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/) — văn hóa từ điển lớn khác (automorphic ↔ Galois); khác đối tượng, cùng tinh thần correspondence.  
-- [Scholze]({{ site.baseurl }}/contents/vi/chapter02/02_06_Scholze_Perfectoid/) — hình học hạ tầng số học.  
-- Sợi representation theory xuyên toán thuần hiện đại; crystal là cửa tổ hợp.  
-- Chính quy PDE (bài Caffarelli; flagship Deng) hỏi câu giải tích; $$D$$-module tổ chức lại PDE tuyến tính bằng đại số.  
-- Complexity và hạ tầng chứng minh (Lovász–Wigderson) song song ý tưởng *phương pháp* có thể là đối tượng giải.
+Citation không nhấn mạnh một định lý, mà nhấn mạnh nhiều thập niên **định hình công cụ** được dùng xuyên suốt lý thuyết biểu diễn và hình học, giúp nhiều người khác đạt được kết quả của họ. So sánh:
 
-### Cách đọc citation Abel
+| Hạ tầng | Tín hiệu của một thời đại | Ngôn ngữ được xây dựng |
+|---------|---------------------------|------------------------|
+| Hình học perfectoid (Scholze, Fields) | Bộ công cụ đột phá, đỉnh cao của sự nghiệp trẻ | Hình học $$p$$-adic |
+| $$D$$-module và crystal (Kashiwara, Abel) | Giải tích đại số cả một sự nghiệp | PDE ↔ chùm; biểu diễn lượng tử ↔ crystal |
 
-Mở PDF citation 2025 trên [abelprize.no](https://abelprize.no/). Gạch chân danh từ: $$D$$-module, holonomic, crystal base, representation, singularity. Viết lại citation ba gạch đầu dòng bằng lời mình, không copy. Bài tập đó luyện literacy giải cho cả chương 08.
+Cả hai đều là xây dựng ngôn ngữ. “Chiếc đồng hồ” của Abel đo cung dài của giải tích đại số và crystal; “chiếc đồng hồ” của Fields thường đo những bộ công cụ làm đổi cuộc chơi từ sớm. Đây là so sánh về mặt sư phạm, không phải xếp hạng.
 
----
+### Giải hạ tầng và giải bài toán
 
-## 7. Nhầm lẫn
-
-| Khẳng định | Chỉnh |
-|------------|-------|
-| “$$D$$-module chỉ là distribution.” | Distribution có thể là nghiệm; $$D$$-module là gói đại số cho hệ. |
-| “Crystal base là tinh thể hóa học.” | Cấu trúc tổ hợp thuần toán cho biểu diễn. |
-| “Riemann–Hilbert chỉ bài ODE thế kỷ 19.” | RH hiện đại là tương ứng categorical sheaf / $$D$$-module. |
-| “Abel 2025 chỉ một bài báo.” | Phát triển trọn đời các lý thuyết cả lĩnh vực dùng. |
-| “Đại số không giúp giải tích.” | Algebraic analysis chính là phản ví dụ. |
+Wiles và định lý Fermat (Abel 2016) là câu chuyện công chúng dưới dạng một bài toán. Kashiwara 2025 là câu chuyện dưới dạng hạ tầng: nhiều thập niên thiết kế ngôn ngữ khiến hàng trăm định lý về sau có thể được viết ra. Perfectoid (Scholze, Fields) cùng kiểu như vậy. Khi viết tiểu luận, hãy lập luận bằng bằng chứng rằng bạn đang vinh danh loại thành tựu nào, và **đừng ép mọi laureate vào khuôn “đã giải một giả thuyết có tên”.**
 
 ---
 
-## Hạ tầng như thành tựu
+## 6. Vị trí trong khóa học
 
-Một số giải vinh danh bài toán đã giải. Abel 2025 vinh danh **ngôn ngữ đã xây**: một khi $$D$$-module và crystal là công cụ chuẩn, hàng trăm định lý trở nên viết được. So perfectoid (hạ tầng Fields-era) với algebraic analysis (hạ tầng Abel-era)—khác thời, cùng hiện tượng: toán tiến khi có tiếng mẹ đẻ mới.
+- [Langlands]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/): một nền văn hóa “từ điển” lớn khác (dạng tự đồng cấu ↔ Galois); khác đối tượng nhưng cùng tinh thần về sự tương ứng.  
+- [Scholze]({{ site.baseurl }}/contents/vi/chapter02/02_06_Scholze_Perfectoid/): hình học làm hạ tầng cho số học.  
+- Lý thuyết biểu diễn là sợi chỉ xuyên suốt toán thuần túy hiện đại; crystal là cánh cửa tổ hợp.  
+- Tính chính quy của PDE (bài Caffarelli; flagship về Deng) hỏi những câu hỏi giải tích; $$D$$-module tổ chức lại PDE tuyến tính bằng đại số.  
+- Độ phức tạp và hạ tầng chứng minh (Lovász–Wigderson) song song về ý tưởng rằng *phương pháp* cũng có thể là đối tượng được vinh danh.
 
-**Gợi ý seminar.** Nêu ba khái niệm “hạ tầng” bạn đã gặp trong khóa (modular form, expander, concentration, …) và mỗi cái một định lý phụ thuộc chúng.
+### Cách đọc một citation của Abel
+
+Mở bản PDF citation 2025 trên [abelprize.no](https://abelprize.no/). Gạch chân các danh từ: $$D$$-module, holonomic, crystal base, biểu diễn, kỳ dị. Viết lại citation thành ba gạch đầu dòng bằng lời của bạn, không chép lại. Bài tập đó luyện kỹ năng đọc citation cho cả chương 08.
+
+---
+
+## 7. Những nhầm lẫn
+
+| Khẳng định | Chỉnh lại |
+|------------|-----------|
+| “$$D$$-module chỉ là phân bố.” | Phân bố có thể là nghiệm; $$D$$-module là gói đại số cho cả hệ. |
+| “Crystal base là tinh thể trong hóa học.” | Đó là một cấu trúc tổ hợp thuần túy toán học cho biểu diễn. |
+| “Riemann–Hilbert chỉ là bài toán ODE của thế kỷ 19.” | Riemann–Hilbert hiện đại là một tương ứng giữa phạm trù chùm và $$D$$-module. |
+| “Giải Abel 2025 chỉ vì một bài báo.” | Đó là sự phát triển cả đời của những lý thuyết mà cả một lĩnh vực dùng. |
+| “Đại số không giúp được giải tích.” | Giải tích đại số chính là phản ví dụ. |
+
+---
+
+## Hạ tầng như một thành tựu
+
+Một số giải thưởng vinh danh những bài toán đã được giải. Giải Abel 2025 vinh danh **ngôn ngữ đã được xây dựng**: một khi $$D$$-module và crystal trở thành công cụ chuẩn, hàng trăm định lý trở nên có thể viết ra. Hãy so perfectoid (hạ tầng của thời Fields) với giải tích đại số (hạ tầng của thời Abel): khác thời đại, cùng một hiện tượng, đó là toán học tiến lên khi có một “tiếng mẹ đẻ” mới.
+
+**Gợi ý cho seminar.** Nêu ba khái niệm “hạ tầng” bạn đã gặp trong khóa (dạng modular, expander, hiện tượng tập trung, …) và với mỗi khái niệm, nêu một định lý phụ thuộc vào nó.
 
 ---
 
 ## Bài tập
 
-1. Phân biệt toán tử vi phân với nhân với hàm: mỗi cái một câu.  
-2. Vì sao đại số có thể giúp giải tích? ≤120 từ.  
-3. Crystal base một câu cho bạn biết ma trận nhưng chưa biết quantum group.  
-4. Nối [Langlands]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/) hoặc [Scholze]({{ site.baseurl }}/contents/vi/chapter02/02_06_Scholze_Perfectoid/): một giống (từ điển/hạ tầng), một khác (đối tượng).  
-5. **≤200 từ:** Giải hạ tầng vs giải bài toán—dùng Abel 2025 và một câu chuyện Millennium hoặc FLT.  
-6. Mở tài liệu Kashiwara trên [abelprize.no](https://abelprize.no/); trích citation ngắn chính thức và gạch chân danh từ toán.
+1. Phân biệt toán tử vi phân với phép nhân với một hàm: mỗi cái một câu.  
+2. Vì sao đại số có thể giúp giải tích? Không quá 120 từ.  
+3. Viết một câu về crystal base cho một bạn biết ma trận nhưng chưa biết nhóm lượng tử.  
+4. Nối với [Langlands]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/) hoặc [Scholze]({{ site.baseurl }}/contents/vi/chapter02/02_06_Scholze_Perfectoid/): một điểm giống (từ điển, hạ tầng), một điểm khác (đối tượng).  
+5. **Không quá 200 từ:** giải hạ tầng và giải bài toán, dùng Abel 2025 và một câu chuyện về Millennium hoặc FLT.  
+6. Mở tài liệu về Kashiwara trên [abelprize.no](https://abelprize.no/); trích citation ngắn chính thức và gạch chân các danh từ toán học.
 
 ---
 
+## Nguồn video
 
-## Nguồn video (gói math-video-researcher)
+Hãy dùng video để **định hướng và làm quen với văn hóa nghiên cứu**, đừng dùng thay cho chứng minh.
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh. Chi tiết: `research/video-research/kashiwara-dmodules/`.
+**Những ý chính từ phần nghiên cứu**
 
-**Khẩu hiệu từ gói nghiên cứu**
-
-- Abel 2025: Kashiwara — D-module, crystal bases.
-- Phân tích đại số PDE tuyến tính; biểu diễn lượng tử tổ hợp.
+- Abel 2025: Kashiwara, $$D$$-module, crystal base.
+- Giải tích đại số cho PDE tuyến tính; biểu diễn lượng tử dạng tổ hợp.
 
 **Thứ tự xem gợi ý**
 
-1. **CORE** — Abel Lectures 2025 playlist: [https://www.youtube.com/playlist?list=PLKeZo7pFBx1uGqwO463MpxuvxMpBCnddj](https://www.youtube.com/playlist?list=PLKeZo7pFBx1uGqwO463MpxuvxMpBCnddj).  
-2. **RELATED** — IHES related lectures playlist (Kashiwara events): [https://www.youtube.com/playlist?list=PLx5f8IelFRgEe8LACp8Pt3ijJb6PLIbgC](https://www.youtube.com/playlist?list=PLx5f8IelFRgEe8LACp8Pt3ijJb6PLIbgC).  
+1. **Cốt lõi**: danh sách phát các bài giảng Abel 2025: [https://www.youtube.com/playlist?list=PLKeZo7pFBx1uGqwO463MpxuvxMpBCnddj](https://www.youtube.com/playlist?list=PLKeZo7pFBx1uGqwO463MpxuvxMpBCnddj).  
+2. **Liên quan**: danh sách phát các bài giảng liên quan của IHES (các sự kiện về Kashiwara): [https://www.youtube.com/playlist?list=PLx5f8IelFRgEe8LACp8Pt3ijJb6PLIbgC](https://www.youtube.com/playlist?list=PLx5f8IelFRgEe8LACp8Pt3ijJb6PLIbgC).  
 
-**Cổng chính thức / tài liệu**
+**Cổng chính thức và tài liệu**
 
 - Abel 2025 Kashiwara: https://abelprize.no/abel-prize-laureates/2025  
 - Announcement article 2025: https://abelprize.no/article/2025/japanese-mathematician-masaki-kashiwara-awarded-abel-prize-2025  
 
-Danh mục URL đầy đủ: `research/video-research/kashiwara-dmodules/references.md`.
-
 ## Tài liệu
 
-
-### Gói nghiên cứu video (mọi URL)
-
-Danh mục đầy đủ: `research/video-research/kashiwara-dmodules/references.md`.
+### Danh mục nguồn
 
 1. Abel 2025 Kashiwara — https://abelprize.no/abel-prize-laureates/2025  
 2. Announcement article 2025 — https://abelprize.no/article/2025/japanese-mathematician-masaki-kashiwara-awarded-abel-prize-2025  
@@ -208,25 +202,24 @@ Danh mục đầy đủ: `research/video-research/kashiwara-dmodules/references.
 8. Wikipedia — Crystal base — https://en.wikipedia.org/wiki/Crystal_base  
 9. Abel popular — crystal bases PDF — https://abelprize.no/sites/default/files/2025-03/krystallENG.pdf  
 10. Abel glimpse PDF Kashiwara — https://abelprize.no/sites/default/files/2025-03/MasakiKashiwara_s_work_for_non_mathematicians_AbelPrize_2025.pdf  
-11. Thư mục gói: `research/video-research/kashiwara-dmodules/`.
 
 1. [Abel 2025 / Kashiwara](https://abelprize.no/citation/citation-abel-prize-committee-masaki-kashiwara).  
-2. Survey nhập môn $$D$$-module và crystal base.  
-3. Thông báo IAS/RIMS cho ngữ cảnh lịch sử.  
-4. Khóa: Langlands; Scholze; bài Fields gần representation.
+2. Bài khảo sát nhập môn về $$D$$-module và crystal base.  
+3. Thông báo của IAS/RIMS để hiểu ngữ cảnh lịch sử.  
+4. Trong khóa: Langlands; Scholze; các bài Fields gần với lý thuyết biểu diễn.
 
 ---
 
 ## Hướng đi tiếp
 
-- Săn hạ tầng: liệt kê công cụ hình học gần Langlands nghe như sheaf/module.  
-- Crystal: tổ hợp như bóng representation—thử tranh crystal $$\mathfrak{sl}_2$$ nhỏ từ survey.  
-- Ghi một hướng nghiên cứu mở trong geometric representation theory hoặc algebraic analysis vẫn kéo lĩnh vực.  
-- So [Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/).  
-- Kết chuỗi chủ đề ch.08: quay [Tổng quan]({{ site.baseurl }}/contents/vi/chapter08/08_01_Tong_quan/) và đọc lại như bản đồ thời tiết trọn đời—bão bài toán (FLT), khí hậu geometric analysis (Uhlenbeck, Sullivan, Caffarelli), mặt trận rời rạc/động lực (Furstenberg–Margulis, Lovász–Wigderson), chiều cao xác suất (Talagrand), hạ tầng algebraic analysis (Kashiwara). Portfolio nên chọn một hệ thời tiết và báo cáo với nguồn chính, không liệt kê mọi đám mây.
+- Săn tìm hạ tầng: liệt kê những công cụ hình học gần Langlands nghe giống chùm hay module.  
+- Crystal: tổ hợp như cái bóng của biểu diễn; thử xem hình crystal của $$\mathfrak{sl}_2$$ nhỏ trong bài khảo sát.  
+- Ghi lại một hướng nghiên cứu mở trong lý thuyết biểu diễn hình học hoặc giải tích đại số mà vẫn đang kéo cả lĩnh vực đi.  
+- So với [Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/).  
+- Kết chuỗi chủ đề của chương 08: quay lại [Tổng quan]({{ site.baseurl }}/contents/vi/chapter08/08_01_Tong_quan/) và đọc lại như một bản đồ thời tiết của cả một sự nghiệp: bão bài toán (FLT), khí hậu của giải tích hình học (Uhlenbeck, Sullivan, Caffarelli), mặt trận rời rạc và động lực (Furstenberg–Margulis, Lovász–Wigderson), số chiều cao trong xác suất (Talagrand), hạ tầng của giải tích đại số (Kashiwara). Trong portfolio, nên chọn một hệ thời tiết và báo cáo với nguồn chính, không liệt kê mọi đám mây.
 
 ## Video tham khảo
 
-- **xem trước** — [Andrea D'Agnolo: Algebraic Analysis for beginners](https://www.youtube.com/watch?v=m0LPDNDhfMc) — The Abel Prize, tiếng Anh. Xem trước. “Andrea D'Agnolo: Algebraic Analysis for beginners” định hướng cho mục tiêu của bài: Sau bài, bạn có thể giải thích D-module như ngôn ngữ đại số cho hệ PDE tuyến tính; nêu ý generalized Riemann–Hilbert (holonomic D-module ↔ perverse sheaf) ở mức khẩu hiệu; mô tả cr…
-- [Masaki Kashiwara: Monoidal categories (non-commutative case)](https://www.youtube.com/watch?v=FHn4WHPzjYw) — The Abel Prize, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài, bạn có thể giải thích D-module như ngôn ngữ đại số cho hệ PDE tuyến tính; nêu ý generalized Riemann–Hilbert (holonomic D-module ↔ perverse sheaf) ở mức khẩu hiệu; mô tả cr…
-- [David Nadler: Gaining momentum: On the global influence of Masaki Kashiwara's microlocal perspective](https://www.youtube.com/watch?v=tFswRJVXTpA) — The Abel Prize, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài, bạn có thể giải thích D-module như ngôn ngữ đại số cho hệ PDE tuyến tính; nêu ý generalized Riemann–Hilbert (holonomic D-module ↔ perverse sheaf) ở mức khẩu hiệu; mô tả cr…
+- **Xem trước** — [Andrea D'Agnolo: Algebraic Analysis for beginners](https://www.youtube.com/watch?v=m0LPDNDhfMc) — The Abel Prize, tiếng Anh. Xem trước để làm quen với giải tích đại số ở mức nhập môn.
+- [Masaki Kashiwara: Monoidal categories (non-commutative case)](https://www.youtube.com/watch?v=FHn4WHPzjYw) — The Abel Prize, tiếng Anh. Xem lượt thứ hai, khi ý chính đã rõ, để nghe chính Kashiwara nói về phạm trù monoidal.
+- [David Nadler: Gaining momentum: On the global influence of Masaki Kashiwara's microlocal perspective](https://www.youtube.com/watch?v=tFswRJVXTpA) — The Abel Prize, tiếng Anh. Góc nhìn bổ sung sau hai video đầu, về ảnh hưởng của quan điểm vi địa phương của Kashiwara.

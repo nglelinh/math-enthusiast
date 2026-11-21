@@ -9,30 +9,30 @@ categories:
 - chapter06
 ---
 
-Bit cổ điển là $$0$$ hoặc $$1$$. Thông tin lượng tử bắt đầu khi đơn vị cơ bản là **qubit**: vector đơn vị trong không gian Hilbert phức hai chiều (sai khác pha toàn cục), và hệ nhiều phần được mô tả bằng **tích tensor** chứ không chỉ chuỗi bit. Chồng chập, vướng víu và đo không phải ẩn dụ viễn tưởng—chúng là cấu trúc đại số tuyến tính và xác suất có định lý, kết quả cấm, và hệ quả thuật toán.
+Bit cổ điển là $$0$$ hoặc $$1$$. Thông tin lượng tử bắt đầu khi đơn vị cơ bản là **qubit**: một vector đơn vị trong không gian Hilbert phức hai chiều (sai khác một pha toàn cục), và hệ nhiều phần được mô tả bằng **tích tensor** chứ không chỉ là một chuỗi bit. Chồng chập, vướng víu và phép đo không phải ẩn dụ viễn tưởng. Chúng là những cấu trúc của đại số tuyến tính và xác suất, với định lý, kết quả cấm và hệ quả thuật toán rõ ràng.
 
-Bài này là **biết đọc biên giới** cho khoa học thông tin lượng tử: đâu là toán, đâu là lộ trình kỹ thuật, đâu là hype “thượng đẳng lượng tử” hay “AI lượng tử”. Mục tiêu không phải khóa học cơ học lượng tử đầy đủ, mà bản đồ các đối tượng làm tính toán và truyền thông lượng tử khác cổ điển.
+Bài này giúp bạn **đọc được vùng biên** của khoa học thông tin lượng tử: đâu là toán, đâu là lộ trình kỹ thuật, đâu là lời thổi phồng kiểu “thượng đẳng lượng tử” hay “AI lượng tử”. Mục tiêu không phải là một khóa cơ học lượng tử đầy đủ, mà là bản đồ các đối tượng làm cho tính toán và truyền thông lượng tử khác với cổ điển.
 
 ---
 
 ## Mục tiêu học tập
 
-Sau bài học, bạn có thể:
+Sau bài này, bạn có thể:
 
-- Biểu diễn qubit như vector đơn vị trong $$\mathbb{C}^2$$; đo trong cơ sở trực chuẩn cho xác suất.
-- Giải thích cấu trúc **tích tensor** và vì sao vướng víu không phải tương quan bit định trước cổ điển.
-- Nêu, mức slogan-cộng-công-thức, Shor và Grover đạt gì—và *không* tuyên bố gì.
-- Mô tả vì sao cần **sửa sai lượng tử** và rào cản decoherence; không coi NISQ là máy giải mọi bài.
-- Phân biệt **QKD** và mật mã hậu lượng tử cổ điển (PQC).
-- Phê một tuyên bố phổ thông theo định lý / thí nghiệm / lộ trình (**LO6**: hype không được trộn với định lý).
+- Biểu diễn qubit như một vector đơn vị trong $$\mathbb{C}^2$$; đo trong một cơ sở trực chuẩn để ra xác suất.
+- Giải thích cấu trúc **tích tensor**, và vì sao vướng víu không đơn thuần là tương quan giữa các bit đã được định sẵn như trong cổ điển.
+- Nêu được, ở mức khẩu hiệu kèm công thức, Shor và Grover làm được gì và *không* khẳng định điều gì.
+- Mô tả vì sao cần **sửa sai lượng tử**, và rào cản decoherence; không coi máy NISQ là máy giải được mọi bài toán.
+- Phân biệt **QKD** với mật mã hậu lượng tử cổ điển (PQC).
+- Nhận xét một tuyên bố phổ thông theo ba loại: định lý, thí nghiệm hay lộ trình. Đừng để lời quảng cáo lẫn vào định lý.
 
-**Kiến thức nền.** Số phức, tích vô hướng, xác suất cơ bản. Đại số tuyến tính giúp; không đòi khóa QM trước.
+**Kiến thức nền.** Số phức, tích vô hướng, xác suất cơ bản. Biết đại số tuyến tính thì càng tốt; không cần học cơ học lượng tử trước.
 
 ---
 
-## 1. Trạng thái: Hilbert, không “ma”
+## 1. Trạng thái: không gian Hilbert, không có gì huyền bí
 
-Trạng thái thuần qubit:
+Trạng thái thuần của một qubit:
 
 $$
 \lvert\psi\rangle = \alpha\lvert 0\rangle + \beta\lvert 1\rangle,
@@ -40,11 +40,11 @@ $$
 \lvert\alpha\rvert^2+\lvert\beta\rvert^2=1.
 $$
 
-$$\lvert 0\rangle,\lvert 1\rangle$$ là cơ sở trực chuẩn của $$\mathbb{C}^2$$. Pha toàn cục $$e^{i\phi}\lvert\psi\rangle$$ không đổi trạng thái thuần. Trạng thái hỗn hợp—khi có nhiễu—là **toán tử mật độ**: ma trận Hermitian dương semidefinite, vết 1.
+$$\lvert 0\rangle,\lvert 1\rangle$$ là cơ sở trực chuẩn của $$\mathbb{C}^2$$. Pha toàn cục $$e^{i\phi}\lvert\psi\rangle$$ không làm thay đổi trạng thái thuần. Khi có nhiễu, trạng thái là trạng thái hỗn hợp, được mô tả bằng **toán tử mật độ**: ma trận Hermitian nửa xác định dương, có vết bằng 1.
 
-Đo trong cơ sở tính toán cho $$0$$ hoặc $$1$$ với xác suất môđun bình phương (quy tắc Born); sau đo lý tưởng, trạng thái là vector cơ sở tương ứng. Cơ sở khác cho thống kê khác. Đây là Born đóng gói cho tính toán: biên độ phức; xác suất là môđun bình phương.
+Đo trong cơ sở tính toán cho kết quả $$0$$ hoặc $$1$$ với xác suất bằng bình phương môđun của biên độ (quy tắc Born); sau một phép đo lý tưởng, trạng thái trở thành vector cơ sở tương ứng. Đo trong cơ sở khác sẽ cho thống kê khác. Nói gọn: biên độ là số phức, còn xác suất là bình phương môđun của nó.
 
-**Động lực unitary.** Hệ đóng giữa các lần đo tiến hóa theo $$U$$ với $$U^\dagger U=I$$. Cổng lượng tử là (xấp xỉ) ma trận unitary; ghép cổng là nhân ma trận; song song dây là tích tensor.
+**Tiến hóa unitary.** Giữa hai lần đo, hệ kín tiến hóa theo một ma trận $$U$$ thỏa $$U^\dagger U=I$$. Cổng lượng tử là (xấp xỉ) một ma trận unitary; ghép các cổng nối tiếp là nhân ma trận, còn các dây chạy song song là tích tensor.
 
 ---
 
@@ -54,52 +54,57 @@ $$\lvert 0\rangle,\lvert 1\rangle$$ là cơ sở trực chuẩn của $$\mathbb{
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/chsh-bell-game_vi.mp4"></video>
 </div>
 
-Mọi chiến lược cổ điển cố định đều cho |S| = 2, nên không hỗn hợp nào vượt 2. Với một cặp vướng víu đo ở 0°, 90°, 45° và −45°, lý thuyết lượng tử dự đoán S = 2√2 ≈ 2,83, và các thí nghiệm Bell quan sát thấy vi phạm giới hạn 2.
+Mọi chiến lược cổ điển cố định đều cho $$|S| = 2$$, nên không hỗn hợp nào vượt 2. Với một cặp vướng víu đo ở 0°, 90°, 45° và −45°, lý thuyết lượng tử dự đoán $$S = 2\sqrt{2} \approx 2.83$$, và các thí nghiệm Bell quan sát thấy vi phạm giới hạn 2.
+
+
+### Tự tay thử: Chơi với các góc CHSH
+
+<div class="mex-explainer" data-mex="chsh" data-lang="vi"></div>
 
 
 ## 2. Nhiều qubit: vướng víu
 
-Hai qubit sống trong $$\mathbb{C}^2\otimes\mathbb{C}^2\cong\mathbb{C}^4$$. Trạng thái tích phân tích được $$\lvert\psi\rangle\otimes\lvert\phi\rangle$$; trạng thái không viết được như tích (hoặc tổ hợp lồi tích, trường hợp hỗn hợp) là **vướng víu**. Bell
+Hai qubit sống trong $$\mathbb{C}^2\otimes\mathbb{C}^2\cong\mathbb{C}^4$$. Trạng thái tích có dạng $$\lvert\psi\rangle\otimes\lvert\phi\rangle$$; trạng thái không viết được như vậy (hoặc không phải tổ hợp lồi của các trạng thái tích, trong trường hợp hỗn hợp) là trạng thái **vướng víu**. Trạng thái Bell
 
 $$
 \lvert\Phi^+\rangle=\frac{1}{\sqrt{2}}(\lvert 00\rangle+\lvert 11\rangle)
 $$
 
-là ví dụ chuẩn: kết quả đo hai bên tương quan theo cách không mô phỏng được chỉ bằng randomness cổ điển chia sẻ dưới ràng buộc địa phương (định lý Bell và thí nghiệm vi phạm bất đẳng thức Bell).
+là ví dụ chuẩn: kết quả đo ở hai phía tương quan theo cách mà không thể mô phỏng chỉ bằng ngẫu nhiên cổ điển dùng chung, nếu giữ ràng buộc về tính địa phương (định lý Bell và các thí nghiệm vi phạm bất đẳng thức Bell).
 
-**Biết đọc.** Vướng víu là lý thuyết tài nguyên có đo lường, tỷ lệ chuyển đổi, monogamy—không phải “băng thông vô hạn”. Định lý không-giao-tiếp cấm dùng vướng víu đơn thuần để gửi tin nhanh hơn ánh sáng; teleportation vẫn cần kênh cổ điển.
+**Cần hiểu đúng.** Vướng víu là một tài nguyên có thể đo lường, có tỷ lệ chuyển đổi và tính “monogamy”; nó không phải “băng thông vô hạn”. Định lý không-giao-tiếp cấm dùng riêng vướng víu để gửi tin nhanh hơn ánh sáng; teleportation vẫn cần một kênh cổ điển.
 
 ---
 
 ## 3. Mô hình tính toán và độ phức tạp
 
-Mạch lượng tử: dãy cổng unitary lấy từ tập phổ quát, trên qubit khởi tạo $$\lvert 0\rangle^{\otimes n}$$, rồi đo. **BQP** so với **BPP**/**P**. Tách oracle có; tách lớp tuyệt đối gặp cùng độ khó sâu như tách lớp cổ điển (ta chưa biết $$\mathbf{P}\neq\mathbf{NP}$$, và chưa có bản đồ đầy đủ inclusion lượng tử).
+Mạch lượng tử là một dãy cổng unitary lấy từ một tập phổ quát, tác dụng lên các qubit khởi tạo $$\lvert 0\rangle^{\otimes n}$$, rồi đo. Lớp **BQP** được so với **BPP** và **P**. Ta tách được hai lớp này trong mô hình oracle; còn tách tuyệt đối thì gặp cùng độ khó như tách các lớp cổ điển (ta chưa biết $$\mathbf{P}\neq\mathbf{NP}$$, và cũng chưa có bản đồ đầy đủ về các quan hệ bao hàm với lớp lượng tử).
 
-**Shor** phân tích thừa số và log rời rạc thời gian đa thức trên máy lượng tử fault-tolerant lý tưởng (Fourier lượng tử + tìm chu kỳ). Hệ quả: RSA, Diffie–Hellman trường hữu hạn, ECC phổ biến bị phá *trong mô hình đó*—không phải tuyên bố máy như vậy đã có hôm nay.
+**Shor** phân tích thừa số và tính logarit rời rạc trong thời gian đa thức trên một máy lượng tử chịu lỗi lý tưởng (biến đổi Fourier lượng tử và tìm chu kỳ). Hệ quả: RSA, Diffie–Hellman trên trường hữu hạn và ECC phổ biến sẽ bị phá *trong mô hình đó*. Điều này không có nghĩa là máy như vậy đã tồn tại hôm nay.
 
-**Grover** tìm trong cơ sở không cấu trúc kích thước $$N$$ với $$O(\sqrt{N})$$ truy vấn (và chặn dưới black-box khớp bậc). Tăng tốc **bậc hai**, không phải mũ cho tìm kiếm tổng quát; không “giải NP-đầy đủ đa thức” bằng thuật toán đã biết.
+**Grover** tìm một phần tử trong tập không có cấu trúc kích thước $$N$$ với $$O(\sqrt{N})$$ truy vấn (và chặn dưới trong mô hình hộp đen cùng bậc). Đó là tăng tốc **bậc hai**, không phải tăng tốc mũ, cho bài toán tìm kiếm tổng quát; với thuật toán đã biết, nó không “giải bài toán NP-đầy đủ trong thời gian đa thức”.
 
-**Mô phỏng Hamiltonian và đại số tuyến tính lượng tử.** Nhiều đề xuất ứng dụng quy về mô phỏng động lực lượng tử hoặc ước lượng thuộc tính toán tử. Thuật toán tồn tại với ước lượng tài nguyên chặt trong mô hình lý tưởng; hằng số, tỷ lệ lỗi và chi phí nạp dữ liệu thống trị thảo luận thực tế.
+**Mô phỏng Hamiltonian và đại số tuyến tính lượng tử.** Nhiều đề xuất ứng dụng quy về mô phỏng động lực lượng tử hoặc ước lượng tính chất của toán tử. Các thuật toán này tồn tại, kèm ước lượng tài nguyên khá chặt trong mô hình lý tưởng; còn trong thực tế, các hằng số, tỷ lệ lỗi và chi phí nạp dữ liệu mới là thứ chi phối.
 
 ---
 
 ## 4. Nhiễu, NISQ và sửa sai
 
-Qubit vật lý ghép với môi trường. **Decoherence** đẩy chồng chập thuần về hỗn hợp cổ điển; lỗi cổng và đọc tích lũy. **NISQ**: quy mô trung gian (thường chục–hàng trăm qubit không hoàn hảo), nhiễu, chưa fault-tolerant đầy đủ.
+Qubit vật lý luôn tương tác với môi trường. **Decoherence** kéo trạng thái chồng chập thuần về hỗn hợp cổ điển; lỗi cổng và lỗi đọc cũng tích lũy dần. **NISQ** là giai đoạn máy có quy mô trung bình (thường vài chục đến vài trăm qubit không hoàn hảo), còn nhiễu và chưa chịu lỗi đầy đủ.
 
-**Mã sửa sai lượng tử** mã hóa thông tin logic vào trạng thái vướng víu nhiều qubit vật lý (surface code, stabilizer…) để lỗi cục bộ được phát hiện/sửa mà không hủy trạng thái logic—gốc ở nhóm Pauli và hình học symplectic trên trường hữu hạn. **Định lý ngưỡng**: nếu tỷ lệ lỗi dưới ngưỡng và mô hình lỗi đủ tốt, tính fault-tolerant khả thi với overhead polylog—kết quả tồn tại kèm giả thiết kỹ thuật nặng.
+**Mã sửa sai lượng tử** mã hóa thông tin logic vào trạng thái vướng víu của nhiều qubit vật lý (surface code, stabilizer, …), để lỗi cục bộ được phát hiện và sửa mà không làm hỏng trạng thái logic. Nền tảng toán học nằm ở nhóm Pauli và hình học symplectic trên trường hữu hạn. **Định lý ngưỡng** nói rằng nếu tỷ lệ lỗi dưới một ngưỡng và mô hình lỗi đủ tốt thì tính toán chịu lỗi là khả thi với chi phí phụ trội polylog. Đây là kết quả về sự tồn tại, kèm nhiều giả thiết kỹ thuật nặng.
 
-**Cảnh báo LO6.** Thuật toán biến phân trên NISQ là nghiên cứu thực nghiệm, không phải chứng minh đã “giải hóa học/tối ưu”. Claim “quantum advantage” phải nêu rõ bài toán, baseline cổ điển, thanh sai số, và bài có hữu ích hay contrived.
+**Cảnh báo.** Thuật toán biến phân trên máy NISQ là nghiên cứu thực nghiệm, không phải chứng minh rằng ta đã “giải xong hóa học hay tối ưu hóa”. Một tuyên bố “quantum advantage” phải nói rõ bài toán nào, đối chiếu với thuật toán cổ điển nào, sai số bao nhiêu, và bài toán đó hữu ích hay chỉ được dựng ra cho vừa.
 
 ---
 
 ## 5. Truyền thông và mật mã (phía lượng tử)
 
-**QKD** (BB84 và hậu duệ): nghe lén làm nhiễu thống kê dưới giả thiết vật lý/triển khai. Chứng minh an ninh là thông tin-lý thuyết *trong mô hình*; side-channel là bài toán kỹ thuật và formal methods.
+**QKD** (BB84 và các hậu duệ): kẻ nghe lén làm nhiễu thống kê của tín hiệu, với các giả thiết về vật lý và triển khai. Chứng minh an ninh là lý thuyết thông tin *trong mô hình đã nêu*; còn kênh phụ (side-channel) là bài toán của kỹ thuật và phương pháp hình thức.
 
-**Teleportation lượng tử** chuyển trạng thái chưa biết nhờ vướng víu + giao tiếp cổ điển—không vận chuyển hạt, không tín hiệu siêu ánh sáng.
+**Teleportation lượng tử** chuyển một trạng thái chưa biết nhờ vướng víu cộng với liên lạc cổ điển. Nó không vận chuyển hạt vật chất và không có tín hiệu nào nhanh hơn ánh sáng.
 
-Đừng nhầm QKD với **PQC**—thiết kế lại *thuật toán công khai cổ điển* chống đối thủ lượng tử (lattice, code, hash, isogeny thận trọng). Cả hai là “bảo mật tương lai” nhưng mô hình đe dọa và neo tin cậy khác nhau. Xem [Mật mã biên giới]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/).
+Đừng nhầm QKD với **PQC**. PQC là thiết kế lại *các thuật toán khóa công khai cổ điển* để chống kẻ tấn công có máy lượng tử (dựa trên lattice, mã sửa lỗi, hàm băm, isogeny, và vẫn cần thận trọng). Cả hai đều nhằm bảo mật cho tương lai, nhưng mô hình đe dọa và điểm tựa tin cậy khác nhau. Xem [Mật mã biên giới]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/).
 
 ---
 
@@ -107,145 +112,133 @@ Qubit vật lý ghép với môi trường. **Decoherence** đẩy chồng chậ
 
 | Công cụ | Vai trò |
 |---------|---------|
-| Hilbert, tích tensor | Không gian trạng thái hệ ghép |
-| Nhóm unitary, Lie algebra | Họ cổng liên tục; điều khiển |
-| Ý tưởng C*-algebra | Hệ vô hạn; giao QFT đại số |
+| Không gian Hilbert, tích tensor | Không gian trạng thái của hệ ghép |
+| Nhóm unitary, đại số Lie | Họ cổng liên tục; điều khiển |
+| Ý tưởng C*-đại số | Hệ vô hạn; giao với QFT đại số |
 | Lý thuyết biểu diễn | Đối xứng; một số phân tích thuật toán |
-| Stabilizer, dạng symplectic trên $$\mathbb{F}_2$$ | Mô phỏng Clifford cổ điển; thiết kế mã |
-| Mạng tensor | Trạng thái nhiều vật; độ phức tạp co |
-| Ma trận ngẫu nhiên, tập trung | Mạch ngẫu nhiên, nhiễu điển hình, conjecture độ phức tạp |
+| Stabilizer, dạng symplectic trên $$\mathbb{F}_2$$ | Mô phỏng Clifford trên máy cổ điển; thiết kế mã |
+| Mạng tensor | Trạng thái nhiều vật; co tensor và độ phức tạp |
+| Ma trận ngẫu nhiên, hiện tượng tập trung | Mạch ngẫu nhiên, nhiễu điển hình, các giả thuyết về độ phức tạp |
 
-Thông tin lượng tử vừa là **toán và CS lý thuyết** vừa là vật lý thực nghiệm. Đại số tuyến tính là lối vào; độ phức tạp và lý thuyết mã sâu hóa phía máy tính.
+Thông tin lượng tử vừa là **toán và khoa học máy tính lý thuyết**, vừa là vật lý thực nghiệm. Đại số tuyến tính là lối vào; độ phức tạp tính toán và lý thuyết mã đào sâu phần máy tính.
 
 ---
 
 ## 7. Định lý, thí nghiệm, lộ trình
 
-| Loại | Ví dụ | Trạng thái |
+| Loại | Ví dụ | Tình trạng |
 |------|--------|------------|
-| Định lý (mô hình lý tưởng) | Shor poly-time fault-tolerant | Thuật toán + phân tích độ phức tạp |
-| Cấm / cấu trúc | No-cloning; Bell | Chứng dưới tiên đề nêu rõ |
-| Thí nghiệm | Bell test; thuật toán nhỏ; tỷ lệ lỗi | Thực nghiệm, phụ thuộc thiết bị |
-| Lộ trình kỹ thuật | Máy fault-tolerant quy mô lớn | R&D hợp lý, không timeline bảo đảm |
-| Hype | “Lượng tử thay mọi máy cổ điển năm sau” | Bỏ qua; sai mô hình độ phức tạp/chi phí |
+| Định lý (mô hình lý tưởng) | Shor chạy trong thời gian đa thức trên máy chịu lỗi | Thuật toán và phân tích độ phức tạp |
+| Kết quả cấm / cấu trúc | Không thể nhân bản trạng thái; Bell | Chứng minh dưới các tiên đề đã nêu |
+| Thí nghiệm | Kiểm tra Bell; thuật toán nhỏ; tỷ lệ lỗi | Thực nghiệm, phụ thuộc thiết bị |
+| Lộ trình kỹ thuật | Máy chịu lỗi quy mô lớn | R&D hợp lý, không có mốc thời gian đảm bảo |
+| Quảng cáo | “Máy lượng tử sẽ thay mọi máy tính cổ điển vào năm sau” | Bỏ qua; sai về mô hình độ phức tạp và chi phí |
 
-Biết đọc biên giới nghĩa là **từ chối gộp các hàng này**.
+Đọc được vùng biên nghĩa là **không gộp các dòng này lại với nhau**.
 
-### Câu chuyện tối thiểu: Deutsch (trực giác)
+### Ví dụ tối thiểu: bài toán Deutsch (trực giác)
 
-Bài Deutsch/Deutsch–Jozsa: phân biệt hàm Boolean hằng hay cân bằng với ít truy vấn hơn worst-case cổ điển, nhờ chồng chập và giao thoa. Điểm không phải ứng dụng công nghiệp; điểm là **thuật toán lượng tử sắp xếp thông tin bằng giao thoa**, rồi trích thuộc tính toàn cục. Shor tìm chu kỳ là phiên bản mạnh hơn (Fourier trên nhóm abel). Grover là pattern khác: khuếch đại biên độ. Nhận pattern quan trọng hơn thuộc lòng sơ đồ mạch lần đầu.
+Bài toán Deutsch hay Deutsch–Jozsa: phân biệt một hàm Boolean là hằng hay cân bằng với ít truy vấn hơn mức tồi nhất của thuật toán cổ điển, nhờ chồng chập và giao thoa. Điểm đáng nói không phải ứng dụng công nghiệp, mà là **thuật toán lượng tử sắp xếp thông tin bằng giao thoa**, rồi rút ra một tính chất toàn cục. Bài toán tìm chu kỳ của Shor là phiên bản mạnh hơn (biến đổi Fourier trên nhóm abel). Grover là một mẫu khác: khuếch đại biên độ. Nhận ra các mẫu này quan trọng hơn là thuộc lòng sơ đồ mạch ngay từ lần đầu.
 
-### Bưu thiếp độ phức tạp lượng tử
+### Vài điều về độ phức tạp lượng tử
 
-- **BQP**: máy lượng tử hiệu quả, lỗi chặn.  
-- Factoring ∈ **BQP**; quan hệ **BQP**–**NP** chưa đóng; NP-đầy đủ không được biết nằm trong **BQP**.  
-- Tách oracle cho thấy thế giới query lượng tử thắng cổ điển—bơm trực giác, không phải chứng minh tuyệt đối về luận đề Church–Turing vật lý.  
-- Mô phỏng mạch lượng tử tổng quát bằng máy cổ điển được tin là khó—nền cho quan tâm mật mã và conjecture—nhưng “tin là khó” ≠ định lý.
+- **BQP**: những bài toán giải hiệu quả bằng máy lượng tử, với xác suất sai bị chặn.  
+- Phân tích thừa số thuộc **BQP**; quan hệ giữa **BQP** và **NP** chưa được xác định; chưa ai biết bài toán NP-đầy đủ nào nằm trong **BQP**.  
+- Các tách biệt oracle cho thấy trong thế giới truy vấn, máy lượng tử thắng máy cổ điển. Điều này tạo trực giác, nhưng chưa phải chứng minh tuyệt đối về luận đề Church–Turing vật lý.  
+- Người ta tin rằng việc mô phỏng mạch lượng tử tổng quát bằng máy cổ điển là khó, và đó là nền cho mối quan tâm về mật mã và các giả thuyết, nhưng “được tin là khó” không phải định lý.
 
-### Studio seminar
+### Hoạt động nhóm
 
-Trong 20 phút nhóm: (1) viết một claim báo chí về “quantum AI”; (2) gắn nhãn mỗi mệnh đề chính *định lý / thí nghiệm / lộ trình / hype*; (3) nêu một câu hỏi đo được (tỷ lệ lỗi? kích thước instance? baseline?) mà bài báo nên trả lời mà thường bỏ qua. Trình bày 3 phút; lớp bỏ phiếu “có nên trích” hay “cần soi lại”.
+Trong 20 phút: (1) mỗi nhóm viết một tuyên bố báo chí về “AI lượng tử”; (2) gắn nhãn cho từng mệnh đề chính: *định lý / thí nghiệm / lộ trình / quảng cáo*; (3) nêu một câu hỏi đo được (tỷ lệ lỗi? kích thước bài toán? thuật toán đối chứng?) mà bài báo nên trả lời nhưng thường bỏ qua. Trình bày 3 phút; cả lớp bỏ phiếu xem nên trích dẫn hay cần xem xét lại.
 
 ---
 
-## Nhầm lẫn thường gặp
+## Những nhầm lẫn thường gặp
 
-| Tuyên bố | Sửa |
-|----------|-----|
-| “Chồng chập = thử mọi đáp án cùng lúc.” | Biên độ giao thoa; không đọc free mọi nhánh. |
-| “Vướng víu = nhắn tin siêu ánh sáng.” | Sai; cần kênh cổ điển cho teleport. |
-| “Grover giải NP-đầy đủ hiệu quả.” | Không với kiến thức hiện có. |
-| “Shor đã phá RSA trên internet.” | Chưa có máy cryptographically relevant công khai. |
-| “NISQ variational đã chứng tối ưu hóa học.” | Nghiên cứu thực nghiệm; cổ điển cạnh tranh gay gắt. |
-| “Quantum AI ⇒ AGI.” | Hype; không có định lý như vậy. |
+| Tuyên bố | Chỉnh lại |
+|----------|-----------|
+| “Chồng chập là thử mọi đáp án cùng một lúc.” | Các biên độ giao thoa với nhau; ta không đọc được “miễn phí” kết quả của mọi nhánh. |
+| “Vướng víu là nhắn tin nhanh hơn ánh sáng.” | Sai; teleportation cần thêm kênh cổ điển. |
+| “Grover giải bài toán NP-đầy đủ một cách hiệu quả.” | Không, với những gì ta biết hiện nay. |
+| “Shor đã phá RSA trên internet.” | Chưa có máy đủ mạnh để phá mật mã được công bố. |
+| “Thuật toán biến phân trên NISQ đã chứng minh tối ưu hóa hóa học.” | Đó là nghiên cứu thực nghiệm; thuật toán cổ điển cạnh tranh rất mạnh. |
+| “AI lượng tử ⇒ AGI.” | Chỉ là lời quảng cáo; không có định lý nào như vậy. |
 
 ---
 
 ## Bài tập
 
-1. Tìm $$\alpha,\beta$$ (sai pha) với $$P(0)=1/3$$; viết một vector trạng thái hợp lệ.
+1. Tìm $$\alpha,\beta$$ (sai khác một pha) sao cho $$P(0)=1/3$$; viết một vector trạng thái hợp lệ.
 2. Chứng minh $$\lvert\Phi^+\rangle$$ không phải trạng thái tích.
-3. Kiểm tra Hadamard $$H=\frac{1}{\sqrt{2}}\begin{pmatrix}1&1\\1&-1\end{pmatrix}$$ unitary.
-4. Hai câu: Shor giải gì tiệm cận; đe dọa mật mã nào *nếu* có máy fault-tolerant lớn.
-5. Với $$N=10^6$$, so sánh bậc truy vấn cổ điển và Grover (bỏ hằng số).
-6. Một đoạn phân biệt QKD và PQC.
-7. Tìm bài báo “quantum advantage”; gắn nhãn định lý/thí nghiệm/lộ trình/hype.
+3. Kiểm tra rằng cổng Hadamard $$H=\frac{1}{\sqrt{2}}\begin{pmatrix}1&1\\1&-1\end{pmatrix}$$ là unitary.
+4. Viết hai câu: thuật toán Shor giải bài toán gì khi kích thước tăng; nếu có máy chịu lỗi lớn thì nó đe dọa loại mật mã nào.
+5. Với $$N=10^6$$, so sánh số truy vấn của thuật toán cổ điển và của Grover (bỏ qua hằng số).
+6. Viết một đoạn văn phân biệt QKD và PQC.
+7. Tìm một bài báo về “quantum advantage” và gắn nhãn các mệnh đề: định lý, thí nghiệm, lộ trình hay quảng cáo.
 
 ---
 
+## Tóm tắt từ phần nghiên cứu video
+
+Phần này dùng cho buổi seminar; hãy đối chiếu với nguồn gốc và không coi là bản chép lời.
+
+### Hiện trạng
+
+**Khung toán học đã chín muồi** (trạng thái, kênh, vướng víu), trong khi **ranh giới kỹ thuật** (chịu lỗi, thuật toán NISQ) vẫn đang mở. Shor và Grover là định lý trong mô hình mạch; khả năng mở rộng quy mô vật lý thì còn là thực nghiệm.
+
+### Phát biểu cốt lõi
+
+Trạng thái qubit $$|\psi\rangle=\alpha|0\rangle+\beta|1\rangle$$ trong $$\mathbb{C}^2$$; hệ nhiều phần dùng tích tensor. Tiến hóa unitary và các phép chiếu đo. Định lý không nhân bản là một định lý; tính phi địa phương Bell đã được xác nhận bằng thực nghiệm.
+
+### Định nghĩa cần nhớ
+
+- **Qubit.** Vector đơn vị trong $$\mathbb{C}^2$$ sai khác một pha toàn cục; trạng thái hỗn hợp dùng ma trận mật độ.
+- **Vướng víu.** Trạng thái nhiều phần không phải trạng thái tích; không thể viết thành $$|\psi\rangle\otimes|\phi\rangle$$.
+
+### Cần phân biệt rõ
+
+- Nghĩ rằng phép đo “tính ra mọi đáp án cùng lúc”, mà bỏ qua cấu trúc của bước đọc kết quả và xử lý sau đó.
+- Nhầm QKD với mật mã cổ điển hậu lượng tử.
 
 ---
 
-## Kiến thức trích từ nghiên cứu video
+## Nguồn video
 
-Tóm tắt cho seminar (đối chiếu nguồn viết; **không bịa transcript**). Gói: `research/video-research/quantum-information/analysis.md`.
-
-### Trạng thái
-
-**Mature mathematical framework** (states, channels, entanglement) with **engineering frontiers** (fault tolerance, NISQ algorithms). Shor/Grover are theorems in the circuit model; physical scalability is experimental.
-
-### Phát biểu / slogan cốt lõi
-
-Qubit state $$|\psi\rangle=\alpha|0\rangle+\beta|1\rangle$$ in $$\mathbb{C}^2$$; multipartite systems use tensor products. Unitary evolution + measurement projectors. No-cloning is a theorem; Bell nonlocality is experimentally confirmed.
-
-### Định nghĩa cần cố định
-
-- **Qubit.** Unit vector in $$\mathbb{C}^2$$ up to global phase; density matrices for mixed states.
-- **Entanglement.** Non-product multipartite state; cannot write as $$|\psi\rangle\otimes|\phi\rangle$$.
-
-### Vệ sinh khái niệm
-
-- Thinking measurement 'computes all answers at once' without readout/post-processing structure.
-- Conflating QKD with post-quantum classical crypto.
-
-
----
-
-## Nguồn video (gói math-video-researcher)
-
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh/bài báo gốc khi tuyên bố mang tính then chốt. Chi tiết xếp hạng: `research/video-research/quantum-information/`.
+Hãy dùng video để **định hướng và làm quen với văn hóa nghiên cứu**, đừng dùng thay cho chứng minh hay bài báo gốc khi cần khẳng định điều quan trọng.
 
 **Thứ tự gợi ý**
 
-1. **Cốt lõi** — Michael Nielsen — Quantum computing for the determined (playlist): [https://www.youtube.com/playlist?list=PL1826E60FD05B44E4](https://www.youtube.com/playlist?list=PL1826E60FD05B44E4).  
-2. **Định hướng** — Veritasium — How does a quantum computer work?: [https://www.youtube.com/watch?v=g_IaVepNDT4](https://www.youtube.com/watch?v=g_IaVepNDT4).  
-3. **Định hướng** — Veritasium — How to make a quantum bit: [https://www.youtube.com/watch?v=zNzzGgr2mhk](https://www.youtube.com/watch?v=zNzzGgr2mhk).  
-4. **Nền tảng** — Ronald de Wolf — Intro to Quantum Computing (lecture 1): [https://www.youtube.com/watch?v=MvSYyxZcAr8](https://www.youtube.com/watch?v=MvSYyxZcAr8).  
+1. **Cốt lõi**: Michael Nielsen, Quantum computing for the determined (danh sách phát): [https://www.youtube.com/playlist?list=PL1826E60FD05B44E4](https://www.youtube.com/playlist?list=PL1826E60FD05B44E4).  
+2. **Định hướng**: Veritasium, How does a quantum computer work?: [https://www.youtube.com/watch?v=g_IaVepNDT4](https://www.youtube.com/watch?v=g_IaVepNDT4).  
+3. **Định hướng**: Veritasium, How to make a quantum bit: [https://www.youtube.com/watch?v=zNzzGgr2mhk](https://www.youtube.com/watch?v=zNzzGgr2mhk).  
+4. **Nền tảng**: Ronald de Wolf, Intro to Quantum Computing (bài 1): [https://www.youtube.com/watch?v=MvSYyxZcAr8](https://www.youtube.com/watch?v=MvSYyxZcAr8).  
 
-**Nhắc trạng thái:** **Mature mathematical framework** (states, channels, entanglement) with **engineering frontiers** (fault tolerance, NISQ algorithms). Shor/Grover are theorems in the circuit model; physical scalability is experimental.
+**Lưu ý về hiện trạng:** khung toán học về trạng thái, kênh và vướng víu đã chín muồi; phần kỹ thuật (chịu lỗi, thuật toán NISQ) vẫn là biên giới nghiên cứu. Shor và Grover là định lý trong mô hình mạch, còn khả năng mở rộng quy mô vật lý mới ở mức thực nghiệm.
 
 ---
 
-
-### Transcript & frames (batch extract)
-
-Transcript caption và unit theo thời gian: `research/video-research/quantum-information/transcripts/` · trạng thái: `research/video-research/quantum-information/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
-
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/quantum-information_g_IaVepNDT4_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính.*
 
 ## Tài liệu tham khảo
 
 1. Nielsen & Chuang — *Quantum Computation and Quantum Information*.
-2. Preskill — ghi chú NISQ; essays về tính toán lượng tử.
+2. Preskill — ghi chú về NISQ; các bài luận về tính toán lượng tử.
 3. Shor (1994/1997); Grover (1996).
-4. Survey sửa sai / surface code (Gottesman; Fowler et al. và review sau).
-5. [Mật mã biên giới]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/), [Độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/), [Toán AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/) (đối chiếu pattern hype).
+4. Bài khảo sát về sửa sai và surface code (Gottesman; Fowler và cộng sự, cùng các bài tổng quan sau này).
+5. [Mật mã biên giới]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/), [Độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/), [Toán AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/) (để đối chiếu cách nhận ra lời thổi phồng).
 
 ---
 
-
-Danh mục URL đầy đủ: `research/video-research/quantum-information/references.md`.
-
 ### Video (lộ trình gợi ý)
 
-- Michael Nielsen — Quantum computing for the determined (playlist) (CORE): https://www.youtube.com/playlist?list=PL1826E60FD05B44E4
-- Veritasium — How does a quantum computer work? (ORIENTATION): https://www.youtube.com/watch?v=g_IaVepNDT4
-- Veritasium — How to make a quantum bit (ORIENTATION): https://www.youtube.com/watch?v=zNzzGgr2mhk
-- Ronald de Wolf — Intro to Quantum Computing (lecture 1) (FOUNDATION): https://www.youtube.com/watch?v=MvSYyxZcAr8
+- Michael Nielsen, Quantum computing for the determined (danh sách phát) (cốt lõi): https://www.youtube.com/playlist?list=PL1826E60FD05B44E4
+- Veritasium, How does a quantum computer work? (định hướng): https://www.youtube.com/watch?v=g_IaVepNDT4
+- Veritasium, How to make a quantum bit (định hướng): https://www.youtube.com/watch?v=zNzzGgr2mhk
+- Ronald de Wolf, Intro to Quantum Computing (bài 1) (nền tảng): https://www.youtube.com/watch?v=MvSYyxZcAr8
 
-### Bài báo và web (từ gói nghiên cứu)
+### Bài báo và web
 
 - Nielsen & Chuang — Quantum Computation and Quantum Information: https://en.wikipedia.org/wiki/Quantum_Computation_and_Quantum_Information
 - Wikipedia — Quantum information: https://en.wikipedia.org/wiki/Quantum_information
@@ -253,19 +246,15 @@ Danh mục URL đầy đủ: `research/video-research/quantum-information/refere
 - OSU QIS prep resources (video list): https://u.osu.edu/quantinfo/research/researchprep/
 - Wikipedia — Qubit: https://en.wikipedia.org/wiki/Qubit
 
-### Khóa học
-
-- Gói: `research/video-research/quantum-information/` (đặc biệt `references.md`, `learning_path.md`).
-
 ## Hướng đi tiếp
 
-- Đôi bảo mật: bài này + [Mật mã biên giới]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/).
-- [Độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/) cho bản đồ BQP.
-- Thực hành: mô phỏng mạch Bell hai qubit (statevector); đo tương quan.
-- Đọc: Nielsen–Chuang trạng thái/đo → Shor mức cao → một survey sửa sai hiện đại.
-- Từ vựng cá nhân: *trạng thái, unitary, vướng víu, hỗn hợp, fault tolerance, tách oracle*.
+- Cặp bài về bảo mật: bài này và [Mật mã biên giới]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/).
+- [Độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/) cho bản đồ về BQP.
+- Thực hành: mô phỏng mạch Bell hai qubit (statevector) và đo tương quan.
+- Đọc: phần trạng thái và phép đo trong Nielsen–Chuang, rồi Shor ở mức tổng quan, rồi một bài khảo sát hiện đại về sửa sai.
+- Từ vựng của riêng bạn: *trạng thái, unitary, vướng víu, hỗn hợp, chịu lỗi, tách biệt oracle*.
 
 ## Video tham khảo
 
-- **xem trước** — [How Does a Quantum Computer Work?](https://www.youtube.com/watch?v=g_IaVepNDT4) — Veritasium, tiếng Anh. Xem trước. “How Does a Quantum Computer Work?” định hướng cho mục tiêu của bài: Biểu diễn qubit như vector đơn vị trong \mathbb{C}^2; đo trong cơ sở trực chuẩn cho xác suất.
-- [How To Make a Quantum Bit](https://www.youtube.com/watch?v=zNzzGgr2mhk) — Veritasium, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Biểu diễn qubit như vector đơn vị trong \mathbb{C}^2; đo trong cơ sở trực chuẩn cho xác suất.
+- **Xem trước** — [How Does a Quantum Computer Work?](https://www.youtube.com/watch?v=g_IaVepNDT4) — Veritasium, tiếng Anh. Xem trước để có hình dung chung về qubit và cách đo cho ra xác suất.
+- [How To Make a Quantum Bit](https://www.youtube.com/watch?v=zNzzGgr2mhk) — Veritasium, tiếng Anh. Xem lượt thứ hai, khi ý chính đã rõ, để thấy qubit được tạo ra về mặt vật lý như thế nào.

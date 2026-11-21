@@ -10,9 +10,9 @@ categories:
 lesson_type: profile
 ---
 
-**Edward Witten** (Institute for Advanced Study) nhận **Huy chương Fields năm 1990**—một trong những lần hiếm hoi công trình bắt rễ vật lý lý thuyết được cộng đồng toán thuần túy vinh danh vì đã định hình lại hình học. Trong **duality track** của khóa này, Witten là biểu tượng của một phương pháp: coi dualty hoặc trực giác QFT nghiêm túc, viết lại bằng ngôn ngữ hình học/tôpô, và sinh ra bài toán cùng cấu trúc mà nhà toán học có thể chứng minh.
+**Edward Witten** (Viện Nghiên cứu Cao cấp Princeton, IAS) nhận **Huy chương Fields năm 1990**. Đây là một trong số rất ít lần một công trình xuất phát từ vật lý lý thuyết được cộng đồng toán học thuần túy vinh danh, vì nó đã làm thay đổi cách nhìn về hình học. Trong **nhánh đối ngẫu** của khóa học này, Witten đại diện cho một phương pháp làm việc: xem xét nghiêm túc các phép đối ngẫu và trực giác từ lý thuyết trường lượng tử, viết lại chúng bằng ngôn ngữ hình học và tô pô, và từ đó đặt ra những bài toán có cấu trúc rõ ràng mà nhà toán học có thể chứng minh.
 
-Đây là **mini-profile**, không phải tiểu sử và không phải giáo trình QFT.
+Đây là một **chân dung ngắn**, không phải tiểu sử và cũng không phải giáo trình lý thuyết trường lượng tử.
 
 ---
 
@@ -20,93 +20,93 @@ lesson_type: profile
 
 Sau bài này bạn có thể:
 
-- Đặt Fields 1990 của Witten trong văn hóa “toán gợi từ vật lý.”
-- Nêu ≥3 chủ đề ảnh hưởng trong hình học/tôpô hiện đại (bất biến nút / Chern–Simons, mirror, geometric Langlands / S-duality, …).
-- Nắm luật khóa: **vật lý là muse và cầu, không phải chứng minh tự động**.
-- Nối Witten với [Atiyah–Singer]({{ site.baseurl }}/contents/vi/chapter08/08_11_Atiyah_Singer_Index/), [mirror]({{ site.baseurl }}/contents/vi/chapter06/06_13_Mirror_Symmetry/), [geometric Langlands & S-duality]({{ site.baseurl }}/contents/vi/chapter06/06_15_Geometric_Langlands_SDuality/).
-- Tránh sùng bái không đối tượng: luôn nêu **cấu trúc toán**, không chỉ tên người.
+- Đặt Huy chương Fields 1990 của Witten vào bối cảnh "toán học được gợi ý từ vật lý".
+- Nêu ít nhất 3 chủ đề có ảnh hưởng lớn trong hình học và tô pô hiện đại (bất biến nút và lý thuyết Chern–Simons, đối xứng gương, Langlands hình học và đối ngẫu S, …).
+- Nắm nguyên tắc của khóa học: **vật lý là nguồn cảm hứng và cầu nối, không tự động thành chứng minh**.
+- Liên hệ Witten với các bài [Atiyah–Singer]({{ site.baseurl }}/contents/vi/chapter08/08_11_Atiyah_Singer_Index/), [đối xứng gương]({{ site.baseurl }}/contents/vi/chapter06/06_13_Mirror_Symmetry/), [Langlands hình học và đối ngẫu S]({{ site.baseurl }}/contents/vi/chapter06/06_15_Geometric_Langlands_SDuality/).
+- Tránh việc chỉ tôn vinh tên tuổi: luôn nêu rõ **cấu trúc toán học** cụ thể, không chỉ nêu tên người.
 
-**Tiên quyết.** Nguyên lý đối ngẫu; bản đồ vật lý toán.
-
----
-
-## 1. Vì sao một nhà vật lý xuất hiện trong khóa toán
-
-Hình học thế kỷ XX đã nói chuyện với vật lý (Einstein, gauge, lý thuyết chỉ số). Từ thập niên 1980, **QFT và string** sinh ra loạt *dictionary giả thuyết* sắc: correlator như số giao, dualty như tương đương category, anomaly như chỉ số tôpô.
-
-Vai trò đặc trưng của Witten—được Fields 1990 ghi nhận—là biến nhiều trực giác đó thành **chương trình toán** với mục tiêu hình học sạch. Cộng sự và thế hệ sau chứng từng mảng lớn; phương pháp sống lâu hơn một bài báo.
-
-**Moral seminar.** Khi dualty xuất hiện trước ở vật lý, hãy hỏi: *phát biểu dạng định lý nào sẽ làm nó chặt?* Đó chính là cây cầu.
+**Kiến thức cần có.** Bài nguyên lý đối ngẫu; bài tổng quan về vật lý toán.
 
 ---
 
-## 2. Chủ đề (đối tượng, không hào quang)
+## 1. Vì sao một nhà vật lý xuất hiện trong khóa học toán
 
-| Chủ đề | Đối tượng toán (slogan) | Đất đáp khóa học |
+Hình học thế kỷ XX đã có nhiều trao đổi với vật lý (Einstein, lý thuyết gauge, lý thuyết chỉ số). Từ thập niên 1980, **lý thuyết trường lượng tử và lý thuyết dây** sinh ra hàng loạt *từ điển dạng giả thuyết* rất cụ thể: hàm tương quan ứng với số giao, đối ngẫu ứng với tương đương phạm trù, dị thường ứng với chỉ số tô pô.
+
+Vai trò đặc biệt của Witten, được ghi nhận qua Huy chương Fields 1990, là biến nhiều trực giác như vậy thành **các chương trình toán học** với mục tiêu hình học rõ ràng. Các cộng sự và thế hệ sau đã chứng minh được nhiều phần lớn; phương pháp này có ảnh hưởng lâu dài hơn bất kỳ bài báo riêng lẻ nào.
+
+**Bài học.** Khi một phép đối ngẫu xuất hiện trước trong vật lý, hãy hỏi: *phát biểu dạng định lý nào sẽ làm cho nó chặt chẽ?* Câu hỏi đó chính là cây cầu.
+
+---
+
+## 2. Các chủ đề (nói về đối tượng, không nói về hào quang)
+
+| Chủ đề | Đối tượng toán học (ý chính) | Bài liên quan trong khóa học |
 |--------|-------------------------|------------------|
-| TQFT / Chern–Simons | Bất biến nút và 3-đa tạp | Giao tôpô / vật lý |
-| Văn hóa mirror | A/B model; hình học enumerative | [Deep dive mirror]({{ site.baseurl }}/contents/vi/chapter06/06_13_Mirror_Symmetry/) |
-| Seiberg–Witten / dualty | Bất biến 4-đa tạp; QFT dual | Gauge / [Uhlenbeck]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/) |
-| Cầu geometric Langlands | S-duality $$\mathcal N=4$$ SYM → category trên Hitchin | [GL & S-duality]({{ site.baseurl }}/contents/vi/chapter06/06_15_Geometric_Langlands_SDuality/) |
-| Trực giác chỉ số / anomaly | Dirac, lớp đặc trưng | [Atiyah–Singer]({{ site.baseurl }}/contents/vi/chapter08/08_11_Atiyah_Singer_Index/) |
+| TQFT / Chern–Simons | Bất biến của nút và của đa tạp 3 chiều | Giao giữa tô pô và vật lý |
+| Đối xứng gương | Mô hình A và mô hình B; hình học đếm | [Đối xứng gương]({{ site.baseurl }}/contents/vi/chapter06/06_13_Mirror_Symmetry/) |
+| Seiberg–Witten / đối ngẫu | Bất biến của đa tạp 4 chiều; các lý thuyết trường lượng tử đối ngẫu | Gauge / [Uhlenbeck]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/) |
+| Cầu nối Langlands hình học | Đối ngẫu S của lý thuyết $$\mathcal N=4$$ SYM → phạm trù trên không gian moduli Hitchin | [Langlands hình học và đối ngẫu S]({{ site.baseurl }}/contents/vi/chapter06/06_15_Geometric_Langlands_SDuality/) |
+| Trực giác về chỉ số / dị thường | Toán tử Dirac, lớp đặc trưng | [Atiyah–Singer]({{ site.baseurl }}/contents/vi/chapter08/08_11_Atiyah_Singer_Index/) |
 
-Bạn **không** cần master các lý thuyết này. Bạn cần nhận **mẫu**: dualty hoặc path integral → category/bất biến hình học → chương trình định lý.
-
----
-
-## 3. Kapustin–Witten như case study
-
-Trong deep dive geometric Langlands, **Kapustin–Witten** lập luận S-duality điện–từ của $$\mathcal N=4$$ SYM 4d (twist), compact hóa trên đường cong, tổ chức correspondence hình học—với mirror của hệ Hitchin làm động cơ.
-
-**Sinh viên cần mang về:**
-
-1. Nhóm dual $$G\leftrightarrow G^\vee$$ xuất hiện cả hai phía.  
-2. Category brane / sheaf thay “trạng thái” mơ hồ.  
-3. Bài báo là **cầu**, không thay chứng minh geometric Langlands thuần túy.  
-4. Gắn nhãn trạng thái vẫn bắt buộc: Langlands số học phần lớn mở.
+Bạn **không** cần thành thạo các lý thuyết này. Bạn cần nhận ra **khuôn mẫu chung**: phép đối ngẫu hoặc tích phân đường → phạm trù hoặc bất biến hình học → một chương trình chứng minh định lý.
 
 ---
 
-## 4. Văn hóa Fields và Abel
+## 3. Ví dụ cụ thể: Kapustin–Witten
 
-| Tín hiệu | Ví dụ trong khóa |
+Trong bài đọc sâu về Langlands hình học, **Kapustin và Witten** lập luận rằng đối ngẫu S điện–từ của lý thuyết $$\mathcal N=4$$ SYM 4 chiều (sau khi xoắn, twist), khi compact hóa trên một đường cong, cho ta cấu trúc của tương ứng Langlands hình học, với đối xứng gương của hệ Hitchin là cơ chế chính.
+
+**Những điều cần nhớ:**
+
+1. Cặp nhóm đối ngẫu $$G\leftrightarrow G^\vee$$ xuất hiện ở cả hai phía.  
+2. Phạm trù các brane hoặc bó (sheaf) thay cho khái niệm "trạng thái" mơ hồ.  
+3. Bài báo là một **cầu nối**, không thay thế được chứng minh thuần túy toán học của Langlands hình học.  
+4. Vẫn phải ghi rõ trạng thái: phần lớn chương trình Langlands số học vẫn còn mở.
+
+---
+
+## 4. Văn hóa của giải Fields và giải Abel
+
+| Đặc điểm | Ví dụ trong khóa học |
 |----------|------------------|
-| Fields (dưới 40, đột phá đối tượng) | Witten 1990; Ngô 2010; nhiều huy chương Ch.2 |
-| Abel (trọn đời / hạ tầng) | Serre 2003; Atiyah–Singer 2004; Langlands 2018 |
+| Fields (dưới 40 tuổi, đột phá về một đối tượng cụ thể) | Witten 1990; Ngô Bảo Châu 2010; nhiều nhà toán học ở chương 2 |
+| Abel (thành tựu cả đời, xây nền tảng) | Serre 2003; Atiyah–Singer 2004; Langlands 2018 |
 
-Văn hóa citation Fields của Witten gần “mở cao tốc vật lý–hình học” hơn là một bài thi sơ cấp—*khí hậu* giống giải Abel kiểu cầu nối, khác quy tắc độ tuổi.
+Lời tuyên dương Fields dành cho Witten gần với ý "mở ra con đường cao tốc giữa vật lý và hình học" hơn là giải một bài toán cụ thể. Về tinh thần, nó giống những giải Abel trao cho các công trình cầu nối, chỉ khác ở giới hạn độ tuổi.
 
 ---
 
-## 5. Nhầm lẫn
+## 5. Những nhầm lẫn thường gặp
 
 | Khẳng định | Chỉnh lại |
 |------------|-----------|
-| “Witten chứng minh chương trình Langlands.” | Không. Ảnh hưởng và dictionary ≠ full Langlands số học. |
-| “Chứng minh vật lý thay chứng minh toán.” | Chuẩn khác; công trình tốt mời dịch sang định lý. |
-| “String = geometric Langlands.” | Liên quan qua S-duality; không cùng một môn. |
-| “Chỉ string theorist cần dualty.” | Dualty tổ chức toán thuần (mirror, Langlands, chỉ số) độc lập niềm tin string. |
+| "Witten đã chứng minh chương trình Langlands." | Không. Ảnh hưởng và từ điển không đồng nghĩa với việc giải quyết toàn bộ Langlands số học. |
+| "Lập luận vật lý thay được chứng minh toán học." | Hai tiêu chuẩn khác nhau; một công trình tốt sẽ mở đường để dịch sang định lý. |
+| "Lý thuyết dây chính là Langlands hình học." | Hai lĩnh vực liên quan qua đối ngẫu S, nhưng không phải là một. |
+| "Chỉ nhà lý thuyết dây mới cần đến đối ngẫu." | Đối ngẫu tổ chức nhiều phần của toán thuần túy (đối xứng gương, Langlands, lý thuyết chỉ số), không phụ thuộc vào việc có tin vào lý thuyết dây hay không. |
 
 ---
 
 ## Bài tập
 
-1. Ba *đối tượng* toán gắn chương trình ảnh hưởng Witten (không phải ba tính từ).  
-2. **≤120 từ:** Vật lý như muse vs như chứng minh—lấy Kapustin–Witten.  
-3. Witten 1990 cạnh Atiyah–Singer 2004: một giống, một khác về văn hóa giải.  
-4. Thêm một hàng “Witten-track” vào [studio dual]({{ site.baseurl }}/contents/vi/chapter07/07_10_Explore_Duality_Dictionary/) với trạng thái trung thực.
+1. Nêu ba *đối tượng* toán học gắn với các chương trình chịu ảnh hưởng của Witten (ba đối tượng, không phải ba tính từ).  
+2. **Không quá 120 chữ:** vật lý như nguồn cảm hứng so với vật lý như chứng minh, lấy Kapustin–Witten làm ví dụ.  
+3. So sánh Fields 1990 của Witten với Abel 2004 của Atiyah–Singer: một điểm giống và một điểm khác về văn hóa trao giải.  
+4. Thêm một dòng liên quan đến Witten vào [bài thực hành từ điển đối ngẫu]({{ site.baseurl }}/contents/vi/chapter07/07_10_Explore_Duality_Dictionary/), ghi trạng thái trung thực.
 
 ---
 
 ## Tài liệu
 
-1. Tư liệu IMU / Fields 1990 về Witten.  
+1. Tư liệu của IMU về Huy chương Fields 1990 trao cho Witten.  
 2. Kapustin–Witten — https://arxiv.org/abs/hep-th/0604151  
-3. Duality track 12–15; Atiyah–Singer; Langlands Ch.2.  
-4. Talk định hướng (Frenkel, symposium Witten) — chỉ văn hóa.  
+3. Nhánh đối ngẫu, các bài 12–15; Atiyah–Singer; Langlands ở chương 2.  
+4. Bài nói định hướng (Frenkel, hội nghị chuyên đề về Witten), chỉ để hiểu bối cảnh.  
 
 ## Video tham khảo
 
-- **xem trước** — [Prof. Edward Witten | Duality, the Langlands Correspondence, and the Influence of Michael Atiyah](https://www.youtube.com/watch?v=fqHGe3acpC0) — INI Seminar Room 1, tiếng Anh. Xem trước. “Prof. Edward Witten | Duality, the Langlands Correspondence, and the Influence of Micha…” định hướng cho mục tiêu của bài: Đặt Fields 1990 của Witten trong văn hóa “toán gợi từ vật lý.”
-- [Edward Witten, Gauge theory and the analytic approach to geometric Langlands](https://www.youtube.com/watch?v=QOi_yBoE2kA) — Clay Mathematics Institute, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Đặt Fields 1990 của Witten trong văn hóa “toán gợi từ vật lý.”
-- [The Universe Speaks in Numbers: Robbert Dijkgraaf and Edward Witten in Conversation](https://www.youtube.com/watch?v=RjthuCDzAnY) — Institute for Advanced Study, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Đặt Fields 1990 của Witten trong văn hóa “toán gợi từ vật lý.”
+- **Xem trước:** [Prof. Edward Witten | Duality, the Langlands Correspondence, and the Influence of Michael Atiyah](https://www.youtube.com/watch?v=fqHGe3acpC0) (INI Seminar Room 1, tiếng Anh). Witten nói về đối ngẫu, tương ứng Langlands và ảnh hưởng của Atiyah. Nên xem trước để thấy phong cách làm việc của ông.
+- [Edward Witten, Gauge theory and the analytic approach to geometric Langlands](https://www.youtube.com/watch?v=QOi_yBoE2kA) (Clay Mathematics Institute, tiếng Anh). Bài giảng về lý thuyết gauge và cách tiếp cận giải tích cho Langlands hình học. Xem sau khi đã đọc mục 3.
+- [The Universe Speaks in Numbers: Robbert Dijkgraaf and Edward Witten in Conversation](https://www.youtube.com/watch?v=RjthuCDzAnY) (Institute for Advanced Study, tiếng Anh). Cuộc trò chuyện về mối quan hệ giữa toán học và vật lý. Phù hợp để hiểu thêm bối cảnh.

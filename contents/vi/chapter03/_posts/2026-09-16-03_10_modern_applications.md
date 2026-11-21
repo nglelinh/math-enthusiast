@@ -12,58 +12,58 @@ lesson_type: optional
 
 ## Mục tiêu học tập
 
-Sau bài cập nhật tùy chọn này, bạn gắn được một trích dẫn 2022–2026 vào mỗi trong bốn cuộc di cư của Chương 3—mật mã khóa công khai, đồ thị, học máy khoa học sát tối ưu hóa, và surrogate PDE mang vị Fourier—mà không viết lại các bài cơ chế bắt buộc.
+Sau bài cập nhật tùy chọn này, bạn có thể gắn một tài liệu giai đoạn 2022–2026 với mỗi hướng ứng dụng trong bốn hướng của Chương 3: mật mã khóa công khai, đồ thị, học máy khoa học gần với tối ưu hóa, và các mô hình thay thế (surrogate) cho PDE dựa trên Fourier. Bài không viết lại các bài bắt buộc về cơ chế.
 
 ## Kiến thức cần có
 
-Chuỗi bắt buộc, đặc biệt [lý thuyết số → mật mã]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/), [đồ thị]({{ site.baseurl }}/contents/vi/chapter03/03_06_Graph_Theory_Networks/), [tối ưu]({{ site.baseurl }}/contents/vi/chapter03/03_07_Optimization_Operations_AI/), [Fourier]({{ site.baseurl }}/contents/vi/chapter03/03_08_Fourier_Signal_Processing/), và [phương trình vi phân]({{ site.baseurl }}/contents/vi/chapter03/03_09_Differential_Equations_Applications/).
+Các bài bắt buộc của chương, đặc biệt là [lý thuyết số → mật mã]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/), [đồ thị]({{ site.baseurl }}/contents/vi/chapter03/03_06_Graph_Theory_Networks/), [tối ưu]({{ site.baseurl }}/contents/vi/chapter03/03_07_Optimization_Operations_AI/), [Fourier]({{ site.baseurl }}/contents/vi/chapter03/03_08_Fourier_Signal_Processing/), và [phương trình vi phân]({{ site.baseurl }}/contents/vi/chapter03/03_09_Differential_Equations_Applications/).
 
 ## Mở đầu
 
-Chương 3 đã kể các cuộc di cư: số học modulo thành cái bắt tay; đồ thị thành mạng; gradient thành bước huấn luyện; mode Fourier thành JPEG. Những cơ chế ấy không hết hạn. Điều đổi sau 2022 là *tiêu chuẩn và kiến trúc* ngồi trên chúng. KEM lattice thành tiêu chuẩn liên bang. Mô hình đồ thị mọc một nhánh Transformer. Bộ giải PDE mọc một nhánh toán tử học được mà vẫn nói tiếng Fourier.
+Chương 3 đã kể cách toán học đi vào công nghệ: số học đồng dư trở thành giao thức bắt tay; đồ thị trở thành mạng; gradient trở thành bước huấn luyện; các mode Fourier trở thành JPEG. Những cơ chế đó không lỗi thời. Điều thay đổi sau năm 2022 là *các tiêu chuẩn và kiến trúc* được xây trên chúng. Cơ chế đóng gói khóa dựa trên lưới đã trở thành tiêu chuẩn liên bang của Mỹ. Các mô hình đồ thị có thêm một nhánh Transformer. Các bộ giải PDE có thêm một nhánh toán tử học được, nhưng vẫn dùng ngôn ngữ Fourier.
 
 ## Phát triển khái niệm
 
-Một cơ chế đóng gói khóa sinh một bí mật chung $$K$$ từ encapsulation công khai. Cổ điển, $$K$$ được bảo vệ bằng phân tích thừa số hoặc log rời rạc. Sau Shor, giả định độ khó dịch chỗ. Học đồ thị, về phần mình, vẫn cần một biểu diễn đỉnh $$v$$ trộn *láng giềng* với một hòa trộn token *toàn cục*. Fourier neural operator cài một nhân học được như một hệ số nhân $$\widehat{K}(k)$$ trên không gian tần số—cùng bức tranh đối ngẫu của bài Fourier, nay được huấn luyện chứ không thiết kế.
+Một cơ chế đóng gói khóa (KEM) tạo ra một bí mật chung $$K$$ từ một bản đóng gói (encapsulation) được gửi công khai. Theo cách cổ điển, $$K$$ được bảo vệ bởi độ khó của bài toán phân tích thừa số hoặc logarit rời rạc. Sau thuật toán Shor, giả định về độ khó phải chuyển sang bài toán khác. Về phía học trên đồ thị, biểu diễn của một đỉnh $$v$$ vẫn cần kết hợp thông tin từ *các đỉnh lân cận* với một cơ chế trộn thông tin *toàn cục* giữa các token. Toán tử nơ-ron Fourier (Fourier neural operator) cài một nhân học được dưới dạng một hệ số nhân $$\widehat{K}(k)$$ trên miền tần số. Đó vẫn là bức tranh đối ngẫu của bài Fourier, chỉ khác là hệ số được huấn luyện thay vì được thiết kế.
 
 ## Bốn cập nhật
 
-### 1. Tiêu chuẩn hậu lượng tử trên cuộc di cư mật mã
+### 1. Tiêu chuẩn hậu lượng tử cho hướng mật mã
 
-Ngày 13 tháng 8 năm 2024, NIST công bố FIPS 203 (ML-KEM), FIPS 204 (ML-DSA), và FIPS 205 (SLH-DSA). ML-KEM là KEM module-lattice; ML-DSA là chữ ký module-lattice; SLH-DSA là chữ ký dựa trên hàm băm không trạng thái. Câu chuyện RSA/DH của Chương 3 không sai; nó không còn là kiểm kê đầy đủ các nguyên thủy khóa công khai *được phê duyệt*. Triển khai lai (cổ điển + ML-KEM) là thỏa hiệp kỹ thuật hiện nay, không phải định lý rằng RSA đã bị phá.
+Ngày 13 tháng 8 năm 2024, NIST công bố FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) và FIPS 205 (SLH-DSA). ML-KEM là cơ chế đóng gói khóa dựa trên lưới module; ML-DSA là lược đồ chữ ký dựa trên lưới module; SLH-DSA là lược đồ chữ ký dựa trên hàm băm, không cần lưu trạng thái. Câu chuyện RSA/Diffie–Hellman của Chương 3 không sai; chỉ là nó không còn là danh sách đầy đủ các thành phần khóa công khai *được phê duyệt*. Triển khai lai (cổ điển + ML-KEM) là một lựa chọn kỹ thuật thận trọng hiện nay, không phải bằng chứng rằng RSA đã bị phá.
 
-### 2. Graph Transformer trên cuộc di cư mạng
+### 2. Graph Transformer cho hướng mạng
 
-Rampášek et al. (2022) đưa một công thức GPS: mã hóa vị trí hoặc cấu trúc, một lớp truyền tin cục bộ, và một lớp attention toàn cục với các biến thể tuyến tính $$O(N+E)$$ (Performer, BigBird). Phân tử, đồ thị trích dẫn, và đồ thị tri thức vẫn là đồ thị theo nghĩa Euler của chương này. Điều đổi là “GNN đối lập Transformer” nay là lựa chọn sản phẩm mô-đun chứ không phải chiến tranh tôn giáo. Max-flow và tô màu không lỗi thời; chúng thành đặc trưng và hàm mất mát bên trong mô hình lớn hơn.
+Rampášek và cộng sự (2022) đề xuất công thức GPS gồm: mã hóa vị trí hoặc cấu trúc, một lớp truyền thông tin cục bộ, và một lớp attention toàn cục với các biến thể tuyến tính độ phức tạp $$O(N+E)$$ (Performer, BigBird). Phân tử, đồ thị trích dẫn và đồ thị tri thức vẫn là đồ thị theo đúng nghĩa từ thời Euler mà chương này dùng. Điều thay đổi là "GNN hay Transformer" giờ là lựa chọn lắp ghép theo mô-đun trong sản phẩm, không còn là cuộc tranh cãi phe phái. Luồng cực đại và tô màu đồ thị không lỗi thời; chúng trở thành đặc trưng và hàm mất mát bên trong những mô hình lớn hơn.
 
-### 3. Neural operator trên cuộc di cư phương trình vi phân
+### 3. Toán tử nơ-ron cho hướng phương trình vi phân
 
-Kovachki et al. (2023) học ánh xạ giữa không gian hàm và báo tăng tốc lớn so với bộ giải cổ điển trên benchmark kiểu Navier–Stokes. Điều này ngồi cạnh bài ứng dụng DE, không thay well-posedness hay điều kiện CFL. Một surrogate bất biến rời rạc hóa vẫn chỉ trung thực bằng độ đo huấn luyện của nó.
+Kovachki và cộng sự (2023) học các ánh xạ giữa các không gian hàm và báo cáo tốc độ nhanh hơn nhiều so với bộ giải cổ điển trên các bài kiểm tra kiểu Navier–Stokes. Kết quả này đứng cạnh bài phương trình vi phân ứng dụng, không thay thế khái niệm đặt chỉnh hay điều kiện CFL. Một mô hình thay thế không phụ thuộc cách rời rạc hóa vẫn chỉ đáng tin trong phạm vi thước đo mà nó được huấn luyện.
 
-### 4. Hệ số nhân Fourier như nhân học được
+### 4. Hệ số nhân Fourier như một nhân học được
 
-Fourier neural operator cài các lớp dạng
+Toán tử nơ-ron Fourier dùng các lớp có dạng
 
 $$
 \bigl(\mathcal{K}v\bigr)(x)=\mathcal{F}^{-1}\bigl(\widehat{K}\cdot \mathcal{F}v\bigr)(x),
 $$
 
-đúng là đẳng thức xử lý tín hiệu của bài Fourier với $$\widehat{K}$$ được huấn luyện. Karras, Aittala, Aila và Laine (2022) tách riêng không gian thiết kế của mô hình sinh *dựa trên score*, vốn cũng là động lực trên không gian hàm. Cả hai dòng cho cùng bài học Chương 3: một khi bạn sở hữu một biến đổi, bạn có thể học trên tọa độ đã biến đổi.
+đúng là công thức lọc tín hiệu trong bài Fourier, với $$\widehat{K}$$ được huấn luyện. Karras, Aittala, Aila và Laine (2022) phân tích có hệ thống các lựa chọn thiết kế cho mô hình sinh dạng khuếch tán (dựa trên score), vốn cũng được mô tả bằng một phương trình vi phân (ngẫu nhiên hoặc tất định) trên không gian dữ liệu. Cả hai hướng cho cùng một bài học của Chương 3: khi đã nắm được một phép biến đổi, bạn có thể học trực tiếp trên các tọa độ sau biến đổi.
 
 ## Diễn giải và nhận định
 
-Một số FIPS là đối tượng chính sách xây trên một giả thuyết độ khó. Một ablation GraphGPS là regularity thực nghiệm. Một hệ số nhân Fourier khớp một số Reynolds có thể hỏng ở số khác. Kỹ năng Chương 3—gọi tên cơ chế, rồi gọi tên giả định—vẫn áp dụng.
+Một tiêu chuẩn FIPS là một quyết định chính sách dựa trên một giả thuyết về độ khó. Một thí nghiệm loại bỏ thành phần (ablation) của GraphGPS là một quy luật thực nghiệm. Một hệ số nhân Fourier khớp tốt ở một số Reynolds có thể thất bại ở số Reynolds khác. Kỹ năng của Chương 3 vẫn dùng được: gọi tên cơ chế, rồi gọi tên giả định.
 
 ## Giới hạn và hướng mở rộng
 
-Trang này không làm lại JPEG, simplex, hay số học RSA. Thuật toán PQC sâu hơn cũng nằm ở [mật mã tương lai]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/).
+Trang này không trình bày lại JPEG, phương pháp đơn hình hay số học RSA. Các thuật toán mật mã hậu lượng tử được bàn sâu hơn ở bài [mật mã tương lai]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/).
 
 ## Bài tập
 
-1. Giải thích, trong hai câu, vì sao triển khai ML-KEM *cùng với* bắt tay cổ điển của TLS 1.3 khớp quy tắc “cơ chế, không khẩu hiệu” của Chương 3.
-2. GraphGPS tuyên bố $$O(N+E)$$ với attention tuyến tính. Thuật toán đồ thị nào từ bài mạng vẫn là đúng công cụ nếu bạn cần *chứng chỉ* liên thông, không phải một embedding?
-3. Viết lớp hệ số nhân Fourier ở trên và đánh dấu ký hiệu nào được học, ký hiệu nào là cùng DFT bạn đã gặp.
-4. Một PINN và một neural operator đều “giải PDE.” Cái nào xấp xỉ một *hàm*, cái nào xấp xỉ một *ánh xạ giữa các hàm*?
+1. Giải thích trong hai câu vì sao việc triển khai ML-KEM *cùng với* phần bắt tay cổ điển của TLS 1.3 phù hợp với nguyên tắc "nói rõ cơ chế, không nói khẩu hiệu" của Chương 3.
+2. GraphGPS đạt độ phức tạp $$O(N+E)$$ nhờ attention tuyến tính. Nếu bạn cần *chứng nhận* tính liên thông, chứ không phải một biểu diễn nhúng, thì thuật toán đồ thị nào trong bài mạng vẫn là công cụ đúng?
+3. Viết lại công thức lớp hệ số nhân Fourier ở trên và đánh dấu ký hiệu nào được học, ký hiệu nào chính là DFT bạn đã gặp.
+4. Một PINN và một toán tử nơ-ron đều "giải PDE". Cái nào xấp xỉ một *hàm số*, cái nào xấp xỉ một *ánh xạ giữa các hàm số*?
 
 ## Tài liệu tham khảo
 
@@ -74,6 +74,6 @@ Trang này không làm lại JPEG, simplex, hay số học RSA. Thuật toán PQ
 
 ## Video tham khảo
 
-- **xem trước** — [Post Quantum Cryptography - Computerphile](https://www.youtube.com/watch?v=_MoRcYLN-7U) — Computerphile, tiếng Anh. Xem trước. “Post Quantum Cryptography - Computerphile” định hướng cho mục tiêu của bài: Sau bài cập nhật tùy chọn này, bạn gắn được một trích dẫn 2022–2026 vào mỗi trong bốn cuộc di cư của Chương 3—mật mã khóa công khai, đồ thị, học máy khoa học sát tối ưu hóa, và sur…
-- [An Introduction to Graph Neural Networks: Models and Applications](https://www.youtube.com/watch?v=zCEYiCxrL_0) — Microsoft Research, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Sau bài cập nhật tùy chọn này, bạn gắn được một trích dẫn 2022–2026 vào mỗi trong bốn cuộc di cư của Chương 3—mật mã khóa công khai, đồ thị, học máy khoa học sát tối ưu hóa, và sur…
-- [Fourier Neural Operator (FNO) (Physics Informed Machine Learning)](https://www.youtube.com/watch?v=W8PybqAk6Ik) — Steve Brunton, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Sau bài cập nhật tùy chọn này, bạn gắn được một trích dẫn 2022–2026 vào mỗi trong bốn cuộc di cư của Chương 3—mật mã khóa công khai, đồ thị, học máy khoa học sát tối ưu hóa, và sur…
+- **Xem trước**: [Post Quantum Cryptography - Computerphile](https://www.youtube.com/watch?v=_MoRcYLN-7U) (Computerphile, tiếng Anh). Giới thiệu vì sao máy tính lượng tử đe dọa mật mã hiện nay và các hướng mật mã hậu lượng tử. Nên xem trước khi đọc mục 1.
+- [An Introduction to Graph Neural Networks: Models and Applications](https://www.youtube.com/watch?v=zCEYiCxrL_0) (Microsoft Research, tiếng Anh). Bài giảng giới thiệu mạng nơ-ron đồ thị và các ứng dụng. Nền tảng cho mục 2.
+- [Fourier Neural Operator (FNO) (Physics Informed Machine Learning)](https://www.youtube.com/watch?v=W8PybqAk6Ik) (Steve Brunton, tiếng Anh). Giải thích toán tử nơ-ron Fourier và cách nó học trên miền tần số. Xem cùng mục 3 và 4.

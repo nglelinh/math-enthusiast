@@ -10,11 +10,11 @@ categories:
 lesson_type: required
 ---
 
-**Giả thuyết Collatz** (còn gọi là bài toán $$3x+1$$) phát biểu cực kỳ sơ cấp và vẫn mở một cách ương ngạnh. Paul Erdős được cho là đã nói toán học có thể chưa sẵn sàng cho những bài toán như vậy; Jeffrey Lagarias gọi nó cực kỳ khó dù bề ngoài đơn giản.
+**Giả thuyết Collatz** (còn gọi là bài toán $$3x+1$$) có phát biểu cực kỳ sơ cấp nhưng đến nay vẫn chưa giải được. Người ta kể rằng Paul Erdős từng nói toán học có lẽ chưa sẵn sàng cho những bài toán như thế này; Jeffrey Lagarias thì gọi nó là bài toán cực kỳ khó dù bề ngoài đơn giản.
 
-Trong seminar Math Enthusiast, Collatz đóng hai vai: trên trang Chương 1 này, nó là **mẫu bài mở sơ cấp** để luyện LO1 và đạo đức verification ≠ proof; trong [studio Chương 7]({{ site.baseurl }}/contents/vi/chapter07/07_09_Explore_Iteration/), nó là đối tượng **A5** mặc định để thí nghiệm có kỷ luật—không phải để “chứng minh Collatz trong portfolio.”
+Trong khóa Math Enthusiast, Collatz có hai vai trò. Ở trang Chương 1 này, nó là **ví dụ mẫu về một bài toán mở sơ cấp**, dùng để luyện mục tiêu 1 và để hiểu rằng kiểm tra không phải là chứng minh. Ở [bài thực hành Chương 7]({{ site.baseurl }}/contents/vi/chapter07/07_09_Explore_Iteration/), nó là đề tài mặc định cho bài **A5**, để làm thí nghiệm có phương pháp, chứ không phải để "chứng minh Collatz trong hồ sơ học tập".
 
-**Lộ trình:** quy tắc → giả thuyết → quỹ đạo và thời gian dừng → kiểm chứng so với chứng minh → toán từng phần → độ khó bằng lời → vai trò khóa học → nhầm lẫn.
+**Nội dung bài:** quy tắc → giả thuyết → quỹ đạo và thời gian dừng → kiểm tra so với chứng minh → các kết quả từng phần → vì sao khó → vai trò trong khóa học → hiểu lầm thường gặp.
 
 ---
 
@@ -22,18 +22,18 @@ Trong seminar Math Enthusiast, Collatz đóng hai vai: trên trang Chương 1 n�
 
 Sau bài học, bạn có thể:
 
-- Phát biểu ánh xạ Collatz $$T$$ và giả thuyết mọi số nguyên dương rơi vào chu trình $$4\to 2\to 1$$.
-- Tính quỹ đạo và **thời gian dừng** (total stopping time) cho hạt giống nhỏ; mô tả hành vi “lên–xuống” điển hình.
-- Giải thích vì sao kiểm tra máy tới biên cực lớn chỉ là **bằng chứng**, không phải chứng minh.
-- Kể một dạng kết quả từng phần: heuristic xác suất; mật độ các số đạt 1; ràng buộc chu trình; survey Lagarias như cửa vào.
-- Phát biểu **định lý almost-all của Tao (2019)** ở mức khẩu hiệu và giải thích vì sao **không** phải chứng minh Collatz đầy đủ.
-- Phân biệt map chuẩn $$T$$ với dạng **tăng tốc / Syracuse** khi so sánh nguồn.
-- Dùng Collatz làm đối tượng **A5** mà không tuyên bố lời giải; phân biệt trang Ch.1 (giải thích) với studio Ch.7 (thí nghiệm).
-- Tránh LO6: “đã kiểm tới $$10^{20}$$ nên đúng,” “Tao đã giải Collatz,” “dãy ngẫu nhiên,” tin đồn disproof trên mạng.
+- Phát biểu ánh xạ Collatz $$T$$ và giả thuyết rằng mọi số nguyên dương đều rơi vào chu trình $$4\to 2\to 1$$.
+- Tính quỹ đạo và **thời gian dừng toàn phần** (total stopping time) cho các số ban đầu nhỏ; mô tả kiểu dao động "lên xuống" điển hình.
+- Giải thích vì sao việc máy tính kiểm tra đến những số cực lớn chỉ là **bằng chứng**, không phải chứng minh.
+- Kể một loại kết quả từng phần: lập luận xác suất gần đúng; mật độ của tập các số về được 1; các ràng buộc về chu trình; bài tổng quan của Lagarias để bắt đầu đọc.
+- Phát biểu ngắn gọn **định lý "hầu hết" của Tao (2019)** và giải thích vì sao nó **không** phải chứng minh đầy đủ giả thuyết Collatz.
+- Phân biệt ánh xạ chuẩn $$T$$ với dạng **rút gọn / Syracuse** khi so sánh các nguồn tài liệu.
+- Dùng Collatz làm đề tài **A5** mà không tuyên bố đã giải được; phân biệt trang Chương 1 (giải thích) với bài thực hành Chương 7 (thí nghiệm).
+- Tránh các lỗi (mục tiêu 6): "đã kiểm tra đến $$10^{20}$$ nên đúng", "Tao đã giải Collatz", "dãy số là ngẫu nhiên", các tin đồn trên mạng về việc bác bỏ giả thuyết.
 
-**Tiên quyết.** Số nguyên và tính chẵn lẻ. Không cần giải tích; một chút tư duy “lặp” và đồ thị đủ cho studio.
+**Kiến thức cần có.** Số nguyên và tính chẵn lẻ. Không cần giải tích; chỉ cần quen với việc lặp lại một phép toán và đọc đồ thị là đủ cho bài thực hành.
 
-**Liên kết seminar.** **LO1** và **LO5**; [Studio lặp Collatz]({{ site.baseurl }}/contents/vi/chapter07/07_09_Explore_Iteration/); [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) (verification vs proof); so sơ cấp–độ sâu với [sinh đôi]({{ site.baseurl }}/contents/vi/chapter01/01_06_Twin_Prime_Conjecture/).
+**Liên hệ với khóa học.** **Mục tiêu 1** và **mục tiêu 5**; [Bài thực hành về phép lặp Collatz]({{ site.baseurl }}/contents/vi/chapter07/07_09_Explore_Iteration/); [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) (kiểm tra so với chứng minh); so sánh về độ sơ cấp và độ sâu với [số nguyên tố sinh đôi]({{ site.baseurl }}/contents/vi/chapter01/01_06_Twin_Prime_Conjecture/).
 
 ---
 
@@ -49,21 +49,21 @@ n/2 & \text{nếu } n \text{ chẵn},\\
 \end{cases}
 $$
 
-Lặp: $$n,\; T(n),\; T(T(n)),\; \ldots$$
+Lặp lại: $$n,\; T(n),\; T(T(n)),\; \ldots$$
 
 **Ví dụ.** $$6 \to 3 \to 10 \to 5 \to 16 \to 8 \to 4 \to 2 \to 1 \to 4 \to \cdots$$
 
-**Giả thuyết Collatz.** Mọi số nguyên dương cuối cùng đạt chu trình $$4 \to 2 \to 1$$.
+**Giả thuyết Collatz.** Mọi số nguyên dương sau một số bước đều đi vào chu trình $$4 \to 2 \to 1$$.
 
-Các phát biểu tương đương nói về việc đạt 1, hoặc về việc chu trình duy nhất trong số dương là chu trình tầm thường (tùy biến thể map $$3n+1$$ đầy đủ hay map tăng tốc gộp các bước chia 2).
+Có những phát biểu tương đương nói về việc đi đến số 1, hoặc về việc chu trình duy nhất trong các số dương là chu trình tầm thường (tùy theo dùng ánh xạ $$3n+1$$ đầy đủ hay ánh xạ rút gọn, trong đó các bước chia 2 được gộp lại).
 
-**Nhiều tên, một bài.** $$3x+1$$, Syracuse, Ulam, Kakutani, Thwaites, Hasse—thường chỉ cùng câu chuyện số dương cổ điển; luôn kiểm map chính xác.
+**Nhiều tên gọi, một bài toán.** Bài toán $$3x+1$$, Syracuse, Ulam, Kakutani, Thwaites, Hasse thường đều chỉ cùng một câu chuyện cổ điển về số dương; nhưng luôn cần kiểm tra chính xác ánh xạ được dùng.
 
-**Ký hiệu nghiên cứu.** $$\operatorname{Col}_{\min}(N)=\inf_{k\ge 0}T^{k}(N)$$; giả thuyết là $$\operatorname{Col}_{\min}(N)=1$$ với mọi $$N$$ dương (ngôn ngữ bài giảng Tao).
+**Ký hiệu trong nghiên cứu.** $$\operatorname{Col}_{\min}(N)=\inf_{k\ge 0}T^{k}(N)$$; giả thuyết nói rằng $$\operatorname{Col}_{\min}(N)=1$$ với mọi $$N$$ dương (theo cách viết trong bài giảng của Tao).
 
-**Thời gian dừng.** *Total stopping time* của $$n$$ thường hiểu là số bước tới khi chạm 1 (hoặc chạm chu trình tầm thường)—định nghĩa chính xác nên cố định một lần trong báo cáo A5 của bạn. *Stopping time* đôi khi chỉ số bước tới giá trị nhỏ hơn $$n$$. Hãy nhất quán thuật ngữ trong portfolio.
+**Thời gian dừng.** *Thời gian dừng toàn phần* của $$n$$ thường được hiểu là số bước cho đến khi chạm 1 (hoặc vào chu trình tầm thường); hãy cố định định nghĩa chính xác một lần trong báo cáo A5 của bạn. *Thời gian dừng* đôi khi lại chỉ số bước cho đến khi có một giá trị nhỏ hơn $$n$$. Hãy dùng thuật ngữ nhất quán trong toàn bộ hồ sơ học tập.
 
-**Hạt giống 27.** Quỹ đạo của 27 nổi tiếng đi lên cao trước khi về 1; đếm bước là bài tập chuẩn. Hiện tượng “nhỏ mà đi xa” là một lý do trực quan người ta không tin kiểm tra tay vài chục số là đủ.
+**Số ban đầu 27.** Quỹ đạo của 27 nổi tiếng vì leo lên rất cao trước khi về 1; đếm số bước là một bài tập quen thuộc. Hiện tượng "số nhỏ mà đi rất xa" là một lý do trực quan khiến người ta không tin rằng kiểm tra tay vài chục số là đủ.
 
 ---
 
@@ -81,253 +81,253 @@ Hãy theo dõi quỹ đạo Collatz của số 97: nó leo lên 9232 rồi mới
 <div class="mex-explainer" data-mex="collatz" data-lang="vi"></div>
 
 
-## 2. Quỹ đạo, stopping time, và total stopping time
+## 2. Quỹ đạo, thời gian dừng và thời gian dừng toàn phần
 
-Cố định hạt giống $$n$$. **Quỹ đạo** (trajectory) là dãy vô hạn $$n, T(n), T^2(n),\ldots$$. Nghiên cứu Collatz phần lớn là hiểu các quỹ đạo: leo cao bao nhiêu, lang thang bao lâu, có vào chu trình không, có phân kỳ không.
+Cố định số ban đầu $$n$$. **Quỹ đạo** là dãy vô hạn $$n, T(n), T^2(n),\ldots$$. Phần lớn nghiên cứu về Collatz là để hiểu các quỹ đạo: chúng leo cao đến đâu, đi lòng vòng bao lâu, có vào chu trình không, có tiến ra vô cùng không.
 
-Hai đại lượng sổ sách cổ điển:
+Hai đại lượng cổ điển dùng để ghi chép:
 
-- **Stopping time** của $$n$$: bước đầu tiên iterate **rơi xuống dưới** giá trị khởi đầu $$n$$—bao lâu đến khi dãy “tiến bộ” so với chiều cao lúc sinh.
-- **Total stopping time** của $$n$$: bước đầu tiên đạt $$1$$ (hoặc vào chu trình $$4$$–$$2$$–$$1$$). Đo độ dài toàn hành trình tới attractor đã biết.
+- **Thời gian dừng** của $$n$$: bước đầu tiên mà giá trị lặp **nhỏ hơn** giá trị ban đầu $$n$$, tức là cần bao lâu để dãy "tiến bộ" so với điểm xuất phát.
+- **Thời gian dừng toàn phần** của $$n$$: bước đầu tiên chạm $$1$$ (hoặc vào chu trình $$4$$–$$2$$–$$1$$). Đại lượng này đo độ dài cả hành trình đến chu trình đã biết.
 
-Với hạt nhỏ, tính tay được; với hạt lớn, đây là thí nghiệm tính toán tự nhiên. Đồ thị total stopping time theo $$n$$ trông gồ ghề—gai, không trơn: quirk số học địa phương tạo chuyến đi dài dù hạt gần đó ổn nhanh.
+Với số nhỏ, có thể tính bằng tay; với số lớn, đây là một thí nghiệm tính toán tự nhiên. Đồ thị thời gian dừng toàn phần theo $$n$$ trông rất gồ ghề, đầy gai nhọn: những đặc điểm số học cục bộ khiến một số đi rất lâu, trong khi các số lân cận lại về nhanh.
 
-**Vì sao ngôn ngữ quan trọng.** “Cuối cùng chạm 1” là khẳng định định tính. Stopping times biến nó thành **dữ liệu định lượng** bạn có thể vẽ, so sánh, giả thuyết hóa. Trong studio Ch.7, khám phá tốt hầu như luôn bắt đầu bằng một thống kê đo được (chiều cao max, total stopping time, lớp thặng dư số lẻ, …) chứ không chỉ nhìn danh sách số thô.
+**Vì sao cách gọi tên quan trọng.** "Sau một số bước sẽ chạm 1" là một khẳng định định tính. Thời gian dừng biến nó thành **dữ liệu định lượng** mà bạn có thể vẽ, so sánh, đặt giả thuyết. Trong bài thực hành Chương 7, một hướng khám phá tốt hầu như luôn bắt đầu từ một đại lượng đo được (độ cao lớn nhất, thời gian dừng toàn phần, lớp đồng dư của các số lẻ, …), chứ không chỉ nhìn vào danh sách số thô.
 
-**Bài tập nhanh.** Với $$n=6$$ và $$n=7$$: tính total stopping time tới $$1$$ và stopping time (lần đầu $$T^k(n)<n$$). Ghi rõ định nghĩa.
+**Bài tập nhanh.** Với $$n=6$$ và $$n=7$$: tính thời gian dừng toàn phần đến $$1$$ và thời gian dừng (lần đầu $$T^k(n)<n$$). Ghi rõ định nghĩa.
 
 ---
 
 ## 3. Vì sao người ta quan tâm
 
-**Tiếp cận được.** Ai chia được 2 và nhân được 3 đều sinh dữ liệu—hàng rào thấp, trần cao: lý tưởng cho seminar.
+**Dễ tiếp cận.** Ai biết chia cho 2 và nhân với 3 đều có thể tạo dữ liệu: dễ bắt đầu nhưng không có giới hạn trên, rất phù hợp cho thảo luận nhóm.
 
-**Độ sâu không cần jargon.** Khác BSD hay harmonic analysis, Collatz không đòi một học kỳ tiên quyết để *phát biểu*. Nhưng kết quả từng phần tốt nhất dùng ergodic, xác suất, tổ hợp số học. Khó ở đây không phải “ngôn ngữ tối tăm”; là **kháng cự** của một hệ động lực sơ cấp trên số nguyên.
+**Sâu mà không cần thuật ngữ.** Khác với BSD hay giải tích điều hòa, Collatz không cần một học kỳ kiến thức nền mới *phát biểu* được. Nhưng các kết quả từng phần tốt nhất lại dùng lý thuyết ergodic, xác suất và tổ hợp số học. Cái khó ở đây không nằm ở ngôn ngữ khó hiểu, mà ở chỗ một hệ động lực sơ cấp trên tập số nguyên lại **chống lại** mọi cố gắng chứng minh.
 
-**Văn hóa bài toán mở (LO6).** Độ tinh vi của phát biểu và độ khó giải quyết **không** cần cùng thang. Một recurrence một dòng có thể sống lâu hơn nhiều thế hệ kỹ thuật. Tương phản ngôn ngữ [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/).
+**Đặc điểm của bài toán mở (mục tiêu 6).** Độ phức tạp của phát biểu và độ khó của lời giải **không** nhất thiết đi cùng nhau. Một công thức truy hồi một dòng có thể tồn tại qua nhiều thế hệ kỹ thuật. Hãy so sánh với ngôn ngữ của bài [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/).
 
-**Toán thực nghiệm.** Thống kê thặng dư, cây ngược, kỷ lục chiều cao, histogram thời gian dừng—đối tượng toán chính đáng khi giả thuyết đầy đủ còn mở. Bài toán thưởng nhật ký cẩn thận và kết quả âm trung thực không kém plot đẹp.
+**Toán học thực nghiệm.** Thống kê theo lớp đồng dư, cây ngược, kỷ lục độ cao, biểu đồ tần suất thời gian dừng đều là đối tượng toán học chính đáng khi giả thuyết đầy đủ còn mở. Bài toán này đánh giá cao việc ghi nhật ký cẩn thận và báo cáo trung thực kết quả âm, không kém gì một đồ thị đẹp.
 
-**Rèn đạo đức bằng chứng.** Cùng bài học với kiểm không điểm zeta trên đường tới hạn trong [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/).
+**Rèn cách nhìn đúng về bằng chứng.** Bài học giống như việc kiểm tra các không điểm của hàm zeta trên đường tới hạn trong bài [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/).
 
-Collatz là “bài toán cửa”—dễ vào, khó ra—và khóa học cố ý đặt nó cạnh các bài Thiên niên kỷ để bạn thấy phổ phát biểu.
-
----
-
-## 4. Kiểm chứng không phải chứng minh
-
-Giả thuyết đã được kiểm cho mọi giá trị khởi đầu tới biên **cực lớn**. Các dự án tính toán đã đẩy qua $$2^{68}$$, $$2^{70}$$, $$2^{71}$$, và các mốc liên quan; văn liệu tiến hóa—khi viết A3/A5 hãy trích một survey hoặc bài verification cập nhật (ví dụ dòng Barina và kế tiếp) thay vì nhớ một số magics.
-
-Không phản ví dụ nào được biết trong phạm vi đã kiểm.
-
-Vẫn:
-
-- Phản ví dụ *có thể* nằm ngoài tầm đã kiểm.
-- Một quỹ đạo phân kỳ, hoặc một **chu trình lạ** khác $$4\to 2\to 1$$, sẽ phủ định giả thuyết.
-- Kiểm **hữu hạn** giá trị khởi đầu không bao giờ kết thúc phát biểu **vô hạn**.
-
-**Cùng đạo đức** với kiểm nhiều không điểm của zeta trên đường tới hạn trong [bài Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/): **bằng chứng mạnh, chưa phải định lý.**
-
-Trong A5, bạn được khuyến khích kiểm và vẽ—nhưng câu kết luận phải phân biệt “trong mẫu của tôi” với “với mọi số nguyên dương.”
-
-Câu seminar đúng: *Collatz đã được kiểm tới biên hữu hạn khổng lồ; phát biểu phổ quát vẫn mở.* Cùng đạo đức numerics RH: **bằng chứng mạnh, không phải chứng minh.**
+Collatz là "bài toán cửa ngõ": dễ bước vào, khó đi ra. Khóa học cố ý đặt nó cạnh các bài toán Thiên niên kỷ để bạn thấy được sự đa dạng của các phát biểu.
 
 ---
 
-## 5. Heuristic: kỳ vọng giảm
+## 4. Kiểm tra không phải là chứng minh
 
-Nếu giả thuyết đúng, map phải “kéo hầu hết quỹ đạo xuống trung bình,” dù một bước lẻ nhân 3 rồi cộng 1. Mô hình heuristic làm trực giác đó định lượng.
+Giả thuyết đã được kiểm tra với mọi số ban đầu đến một giới hạn **cực lớn**. Các dự án tính toán đã vượt qua $$2^{68}$$, $$2^{70}$$, $$2^{71}$$ và các mốc liên quan; con số này thay đổi theo thời gian, nên khi viết bài A3 hoặc A5, hãy trích dẫn một bài tổng quan hoặc một bài kiểm tra mới nhất (ví dụ các công trình của Barina và những người tiếp theo) thay vì nhớ một con số cố định.
 
-**Khẩu hiệu chuẩn.** Khi áp $$3n+1$$ cho số lẻ, kết quả chẵn, nên ít nhất một lần chia 2 theo sau—thường nhiều hơn. Nếu mô hình số thừa số $$2$$ sau bước lẻ như gần geometric (mô hình ngẫu nhiên parity phổ biến), kỳ vọng biến thiên log mỗi “bước lấy tâm lẻ” là **âm**. Trong các mô hình xác suất kiểu này, hầu hết quỹ đạo được dự đoán đạt giá trị nhỏ—nên niềm tin rộng rãi rằng giả thuyết đúng.
+Trong phạm vi đã kiểm tra, chưa tìm thấy phản ví dụ nào.
 
-**Cảnh báo then chốt.**
+Tuy vậy:
 
-- Map **tất định**. Gọi thống kê là “ngẫu nhiên” là **lựa chọn mô hình**, không phải $$T$$ tung đồng xu.
-- Heuristic “hầu hết” **không** tự động kiểm soát **mọi** số nguyên. Tập thưa ngoại lệ vẫn có thể hư.
-- Các dạng map tăng tốc (gộp chuỗi chia 2) đổi hằng số heuristic nhưng **không** thay thế chứng minh thật.
+- Phản ví dụ *có thể* nằm ngoài phạm vi đã kiểm tra.
+- Một quỹ đạo tiến ra vô cùng, hoặc một **chu trình khác** với $$4\to 2\to 1$$, sẽ bác bỏ giả thuyết.
+- Kiểm tra **hữu hạn** số ban đầu không bao giờ chứng minh được một phát biểu về **vô hạn** số.
 
-Dùng heuristic để định hướng thí nghiệm và giải thích vì sao không ngạc nhiên khi không có phản ví dụ nhỏ. **Đừng** nhầm dự đoán xác suất với chứng minh.
+**Cùng tinh thần** với việc kiểm tra nhiều không điểm của hàm zeta trên đường tới hạn trong [bài Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/): **bằng chứng mạnh, nhưng chưa phải định lý.**
 
-Hằng số tới hạn lặp lại trong lý thuyết mật độ:
+Trong bài A5, bạn được khuyến khích kiểm tra và vẽ đồ thị, nhưng câu kết luận phải phân biệt "trong mẫu của tôi" với "với mọi số nguyên dương".
+
+Câu nói đúng khi thảo luận: *Collatz đã được kiểm tra đến một giới hạn hữu hạn rất lớn; phát biểu cho mọi số vẫn còn mở.* Giống như với các tính toán về RH: **bằng chứng mạnh, không phải chứng minh.**
+
+---
+
+## 5. Lập luận gần đúng: vì sao kỳ vọng dãy đi xuống
+
+Nếu giả thuyết đúng, ánh xạ phải "kéo phần lớn quỹ đạo đi xuống về trung bình", dù mỗi bước với số lẻ là nhân 3 rồi cộng 1. Các mô hình gần đúng giúp định lượng trực giác đó.
+
+**Lập luận quen thuộc.** Áp dụng $$3n+1$$ cho một số lẻ luôn cho kết quả chẵn, nên sau đó có ít nhất một lần chia 2, và thường là nhiều hơn. Nếu coi số thừa số $$2$$ sau mỗi bước lẻ gần với phân phối hình học (mô hình chẵn lẻ ngẫu nhiên thường dùng), thì kỳ vọng thay đổi của logarit sau mỗi bước lẻ là **âm**. Trong các mô hình xác suất như vậy, hầu hết quỹ đạo được dự đoán sẽ đến các giá trị nhỏ; đó là lý do nhiều người tin giả thuyết đúng.
+
+**Những lưu ý quan trọng.**
+
+- Ánh xạ là **tất định**. Gọi các thống kê là "ngẫu nhiên" là **một lựa chọn mô hình**, không phải vì $$T$$ tung đồng xu.
+- Lập luận về "hầu hết" **không** tự động kiểm soát **mọi** số nguyên. Một tập ngoại lệ thưa thớt vẫn có thể làm giả thuyết sai.
+- Các dạng ánh xạ rút gọn (gộp các bước chia 2) làm thay đổi hằng số trong lập luận gần đúng, nhưng **không** thay thế được một chứng minh thật sự.
+
+Hãy dùng lập luận gần đúng để định hướng thí nghiệm, và để giải thích vì sao không ngạc nhiên khi chưa tìm thấy phản ví dụ nhỏ. **Đừng** nhầm dự đoán xác suất với chứng minh.
+
+Một hằng số tới hạn thường xuất hiện trong lý thuyết mật độ:
 
 $$
 \frac{\log 3}{\log 4}\approx 0.7925.
 $$
 
-Nó xuất hiện ở định lý almost-all kiểu Korec (quỹ đạo rơi dưới lũy thừa $$N^\theta$$ với hầu hết $$N$$ khi $$\theta$$ lớn hơn ngưỡng này) và heuristic cân bằng nhân $$3$$ với chia lũy thừa $$2$$ trung bình. Khóa học không đòi chứng minh hằng số—nhưng bạn phải **nhận ra** khi survey hay slide Tao viết nó.
+Nó xuất hiện trong định lý "hầu hết" kiểu Korec (với hầu hết $$N$$, quỹ đạo xuống dưới lũy thừa $$N^\theta$$ khi $$\theta$$ lớn hơn ngưỡng này) và trong lập luận cân bằng giữa phép nhân $$3$$ với phép chia cho lũy thừa của $$2$$ về trung bình. Khóa học không yêu cầu chứng minh hằng số này, nhưng bạn cần **nhận ra** nó khi gặp trong bài tổng quan hay trong slide của Tao.
 
 ---
 
-## 6. Map tăng tốc và Syracuse
+## 6. Ánh xạ rút gọn và ánh xạ Syracuse
 
-Video phổ biến thường dùng $$T$$ đầy đủ. Bài giảng nghiên cứu (Tao, survey Lagarias, Chamberland) hay chuyển sang map trên số **lẻ** để mỗi bước đúng **một** phép nhân $$3$$.
+Các video phổ thông thường dùng ánh xạ $$T$$ đầy đủ. Các bài giảng nghiên cứu (Tao, bài tổng quan của Lagarias, Chamberland) hay chuyển sang một ánh xạ trên các số **lẻ**, để mỗi bước có đúng **một** phép nhân với $$3$$.
 
-Định nghĩa **map Syracuse** trên số nguyên dương lẻ:
+Định nghĩa **ánh xạ Syracuse** trên các số nguyên dương lẻ:
 
 $$
 \operatorname{Syr}(N)=\frac{3N+1}{2^{a(N)}},
 $$
 
-với $$2^{a(N)}$$ là lũy thừa cao nhất của $$2$$ chia hết $$3N+1$$ (kết quả lại lẻ). Lặp $$\operatorname{Syr}$$ theo dõi các số lẻ của quỹ đạo Collatz sau mọi chia 2 bắt buộc.
+trong đó $$2^{a(N)}$$ là lũy thừa lớn nhất của $$2$$ chia hết $$3N+1$$ (kết quả lại là số lẻ). Lặp $$\operatorname{Syr}$$ là theo dõi các số lẻ trong quỹ đạo Collatz sau khi đã thực hiện hết các phép chia 2 bắt buộc.
 
-**Vì sao nghiên cứu ưa dạng này.** Thống kê modulo lũy thừa $$3$$ sạch hơn; mô hình xác suất của 2-valuation $$a(N)$$ (thường geometric với kỳ vọng $$2$$ trong mô hình ngẫu nhiên) nằm trung tâm các chứng minh almost-all hiện đại. **Cảnh báo seminar:** quỹ đạo in dưới $$T$$ và dưới $$\operatorname{Syr}$$ trông khác—chỉ so sánh nguồn sau khi cố định quy ước.
+**Vì sao nghiên cứu ưa dùng dạng này.** Các thống kê theo modulo lũy thừa của $$3$$ gọn hơn; mô hình xác suất cho số mũ $$a(N)$$ của 2 (trong mô hình ngẫu nhiên, thường là phân phối hình học với kỳ vọng $$2$$) là trung tâm của các chứng minh "hầu hết" hiện đại. **Lưu ý khi thảo luận:** quỹ đạo theo $$T$$ và theo $$\operatorname{Syr}$$ trông khác nhau; chỉ so sánh các nguồn sau khi đã thống nhất quy ước.
 
-Dạng tăng tốc khác gộp “bước lẻ + ít nhất một chia 2” thành một công thức trong paper cũ; lại: khớp định nghĩa tác giả trước khi đếm bước.
+Một số bài báo cũ dùng dạng rút gọn khác, gộp "bước lẻ cùng ít nhất một lần chia 2" thành một công thức. Một lần nữa: hãy khớp với định nghĩa của tác giả trước khi đếm bước.
 
 ---
 
-## 7. Toán từng phần (không đầy đủ)
+## 7. Các kết quả từng phần (không đầy đủ)
 
-### 7.1 Dòng mật độ / almost-all (khẩu hiệu)
+### 7.1 Các kết quả về mật độ / "hầu hết" (tóm tắt)
 
-| Dòng | Khẩu hiệu | Loại mật độ |
+| Tác giả | Nội dung chính | Loại mật độ |
 |------|-----------|-------------|
-| Krasikov–Lagarias | Nhiều $$N\le x$$ đã có $$\operatorname{Col}_{\min}(N)=1$$ | đếm tới $$x$$ |
-| Terras | Hầu hết $$N$$ hạ xuống dưới $$N$$ | natural density |
-| Allouche / Korec | Hầu hết $$N$$: $$\operatorname{Col}_{\min}(N)<N^\theta$$ ($$\theta$$ tới gần $$\log 3/\log 4$$) | natural density |
-| **Tao (2019)** | Hầu hết $$N$$: $$\operatorname{Col}_{\min}(N)<f(N)$$ với **mọi** $$f\to\infty$$ dù chậm | **logarithmic density** |
+| Krasikov–Lagarias | Nhiều $$N\le x$$ đã được biết có $$\operatorname{Col}_{\min}(N)=1$$ | đếm đến $$x$$ |
+| Terras | Hầu hết $$N$$ đều xuống dưới $$N$$ | mật độ tự nhiên |
+| Allouche / Korec | Hầu hết $$N$$: $$\operatorname{Col}_{\min}(N)<N^\theta$$ ($$\theta$$ có thể gần đến $$\log 3/\log 4$$) | mật độ tự nhiên |
+| **Tao (2019)** | Hầu hết $$N$$: $$\operatorname{Col}_{\min}(N)<f(N)$$ với **mọi** hàm $$f\to\infty$$, dù tăng chậm đến đâu | **mật độ logarit** |
 
-**Định lý Tao (blog/arXiv).** Với mọi $$f\to\infty$$,
+**Định lý Tao (blog/arXiv).** Với mọi hàm $$f\to\infty$$,
 
 $$
 \operatorname{Col}_{\min}(N)<f(N)
 $$
 
-với hầu hết $$N$$ theo mật độ log. Ví dụ khẩu hiệu: hầu hết quỹ đạo có min nhỏ hơn $$\log\log\log\log N$$.
+với hầu hết $$N$$ theo mật độ logarit. Ví dụ minh họa: hầu hết quỹ đạo có giá trị nhỏ nhất bé hơn $$\log\log\log\log N$$.
 
-**Không phải:** mọi $$N$$ về 1; pure verification; natural density; “video đã giải Collatz.”
+**Định lý này không phải là:** mọi $$N$$ đều về 1; một kết quả chỉ dựa trên kiểm tra; một kết quả về mật độ tự nhiên; "video đã giải Collatz".
 
-Nguồn chuẩn: [arXiv:1909.03562](https://arxiv.org/abs/1909.03562), [blog Tao](https://terrytao.wordpress.com/2019/09/10/almost-all-collatz-orbits-attain-almost-bounded-values/); định hướng phổ biến: [Quanta](https://www.quantamagazine.org/mathematician-proves-huge-result-on-dangerous-problem-20191211/).
+Nguồn chuẩn: [arXiv:1909.03562](https://arxiv.org/abs/1909.03562), [blog Tao](https://terrytao.wordpress.com/2019/09/10/almost-all-collatz-orbits-attain-almost-bounded-values/); bài phổ thông: [Quanta](https://www.quantamagazine.org/mathematician-proves-huge-result-on-dangerous-problem-20191211/).
 
-### 7.2 Kiến trúc chứng minh (slogan, không bắt chép)
+### 7.2 Cấu trúc chứng minh (tóm tắt, không yêu cầu chép lại)
 
-1. Chuyển **Syracuse** trên số lẻ.  
-2. Bất thường **3-adic** của lặp.  
+1. Chuyển sang ánh xạ **Syracuse** trên các số lẻ.  
+2. Tính bất thường **3-adic** của phép lặp.  
 3. Biến ngẫu nhiên Syracuse trên $$\mathbb{Z}/3^n\mathbb{Z}$$.  
-4. Ổn định hóa luật khi $$n$$ lớn.  
-5. Lặp descent almost-sure cục bộ → gần global almost-bounded.  
-6. Fourier / characteristic function + **renewal process** (chi tiết trong paper).
+4. Phân phối ổn định dần khi $$n$$ lớn.  
+5. Lặp lại việc đi xuống hầu chắc chắn ở mức cục bộ để có kết quả gần bị chặn ở mức toàn cục.  
+6. Biến đổi Fourier / hàm đặc trưng cùng **quá trình đổi mới** (renewal process), chi tiết xem bài báo.
 
-Essay LO chỉ cần kết luận Theorem 2 + giả thuyết vẫn mở.
+Bài viết theo mục tiêu khóa học chỉ cần nêu kết luận của định lý chính (Theorem 2 trong bài báo) và nhấn mạnh rằng giả thuyết vẫn còn mở.
 
-### 7.3 Chu trình, tổng quát, tính toán
+### 7.3 Chu trình, các dạng tổng quát, tính toán
 
-- **Chu trình:** trong số dương chỉ $$4\to 2\to 1$$ được biết; âm / map khác có thể khác.  
-- **Tổng quát $$mx+1$$:** một số biến thể liên quan undecidability—**không** đồng nhất “Collatz cổ điển đã chứng minh undecidable” (xem Easy Theory trong tài liệu video).  
-- **Verification:** pruning cây, lọc modulo—kỹ thuật kỹ sư toán.  
-- **Survey Lagarias** ([arXiv:2111.02635](https://arxiv.org/abs/2111.02635)): cửa vào văn liệu.
+- **Chu trình:** trong các số dương, chỉ biết chu trình $$4\to 2\to 1$$; với số âm hoặc ánh xạ khác thì có thể khác.  
+- **Dạng tổng quát $$mx+1$$:** một số biến thể liên quan đến tính không quyết định được; điều đó **không** có nghĩa là "Collatz cổ điển đã được chứng minh là không quyết định được" (xem video của Easy Theory trong tư liệu).  
+- **Kiểm tra bằng máy tính:** cắt tỉa cây, lọc theo đồng dư; đây là các kỹ thuật tính toán.  
+- **Bài tổng quan của Lagarias** ([arXiv:2111.02635](https://arxiv.org/abs/2111.02635)): điểm bắt đầu để đọc tài liệu.
 
-“Từng phần” ở Collatz mang tính *cấu trúc và mật độ*, không phải công thức đóng thời gian dừng.
-
----
-
-## 8. Độ khó bằng lời
-
-Map trộn **nhân** ($$3n+1$$) và **chia 2**, phá nhiều bất biến đơn giản. Quỹ đạo đi lang thang không đều; thời gian dừng dao động mạnh theo hạt giống. Không có hàm Lyapunov hiển nhiên giảm *mọi* bước cho *mọi* $$n$$. Các kỹ thuật cho hệ động lực trơn không chuyển dễ sang hybrid nguyên này.
-
-Một cách nói khác: mỗi bước đơn giản; **tổ hợp toàn cục** của vô hạn quỹ đạo thì không. Đó là khoảng cách giữa “quy tắc trẻ em” và “định lý.”
-
-So với [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/): ở đó khó vì lớp bài toán và giới hạn thuật toán; ở Collatz khó vì một map cụ thể kháng chứng minh dù kiểm được từng điểm. Hai kiểu “kháng cự” khác nhau—cả hai đều dạy khiêm tốn.
+Các kết quả "từng phần" về Collatz mang tính *cấu trúc và mật độ*, không phải một công thức đóng cho thời gian dừng.
 
 ---
 
-## 9. Vai trò trong khóa học: trang bài toán so với studio
+## 8. Vì sao khó, nói bằng lời
 
-| Trang này (Ch.1) | Studio ([Ch.7]({{ site.baseurl }}/contents/vi/chapter07/07_09_Explore_Iteration/)) |
+Ánh xạ trộn lẫn phép **nhân** ($$3n+1$$) và phép **chia cho 2**, làm mất đi nhiều bất biến đơn giản. Quỹ đạo đi lòng vòng không theo quy luật; thời gian dừng thay đổi rất mạnh theo số ban đầu. Không có hàm Lyapunov hiển nhiên nào giảm sau *mọi* bước với *mọi* $$n$$. Các kỹ thuật cho hệ động lực trơn không dễ áp dụng cho hệ lai trên số nguyên này.
+
+Nói cách khác: mỗi bước đều đơn giản, nhưng **bức tranh tổng thể** của vô hạn quỹ đạo thì không. Đó là khoảng cách giữa "một quy tắc trẻ em cũng hiểu" và "một định lý".
+
+So với [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/): ở đó cái khó nằm ở lớp bài toán và giới hạn của thuật toán; còn ở Collatz, cái khó là một ánh xạ cụ thể chống lại mọi chứng minh dù có thể kiểm tra từng điểm. Hai kiểu khó khác nhau, nhưng đều dạy ta sự khiêm tốn.
+
+---
+
+## 9. Vai trò trong khóa học: trang bài toán và bài thực hành
+
+| Trang này (Chương 1) | Bài thực hành ([Chương 7]({{ site.baseurl }}/contents/vi/chapter07/07_09_Explore_Iteration/)) |
 |------------------|---------------|
-| Phát biểu, văn hóa, tình trạng | Thí nghiệm, nhật ký, portfolio |
-| Giải thích LO1 | Sáng tạo / khám phá LO5 |
-| Không bắt buộc code | Khuyến khích code / vẽ |
-| Không giải giả thuyết | Không giải giả thuyết—có kỷ luật giả thuyết nhỏ |
+| Phát biểu, bối cảnh, tình trạng | Thí nghiệm, nhật ký, hồ sơ học tập |
+| Giải thích (mục tiêu 1) | Sáng tạo, khám phá (mục tiêu 5) |
+| Không bắt buộc viết mã | Khuyến khích viết mã, vẽ đồ thị |
+| Không giải giả thuyết | Không giải giả thuyết, nhưng có quy trình kiểm tra các giả thuyết nhỏ |
 
-**Không** coi A5 là “chứng minh Collatz.” Coi A5 là khám phá có giả thuyết *có thể bác*: ví dụ “thời gian dừng trung bình trên $$[1,N]$$ tăng như …” rồi kiểm bằng dữ liệu. Giả thuyết nhỏ sai vẫn là khoa học tốt; tuyên bố đã giải Collatz thì không.
-
----
-
-## 10. Biến thể map và cạm bẫy định nghĩa
-
-Văn liệu dùng vài biến thể (xem thêm §4 Syracuse):
-
-- Map đầy đủ $$T$$ như trên.
-- Map “tăng tốc” gộp mọi phép chia 2 sau $$3n+1$$; map **Syracuse** trên số lẻ.
-- Đôi khi xét số nguyên (có thể âm) hoặc vành khác—chu trình có thể khác.
-
-Khi so sánh đồ thị với bạn bè hoặc paper, **cùng một định nghĩa bước** trước. Đây là lỗi kỹ thuật nhỏ nhưng hay làm lệch số bước.
+**Đừng** coi A5 là "chứng minh Collatz". Hãy coi A5 là một cuộc khám phá với giả thuyết *có thể bác bỏ*, ví dụ "thời gian dừng trung bình trên $$[1,N]$$ tăng như …", rồi kiểm tra bằng dữ liệu. Một giả thuyết nhỏ bị bác bỏ vẫn là khoa học tốt; còn tuyên bố đã giải Collatz thì không.
 
 ---
 
-## Nhầm lẫn thường gặp
+## 10. Các biến thể của ánh xạ và cạm bẫy về định nghĩa
 
-| Khẳng định | Sửa |
+Tài liệu dùng một vài biến thể (xem thêm mục 6 về ánh xạ Syracuse):
+
+- Ánh xạ đầy đủ $$T$$ như trên.
+- Ánh xạ "rút gọn" gộp mọi phép chia 2 sau $$3n+1$$; ánh xạ **Syracuse** trên các số lẻ.
+- Đôi khi xét trên tập số nguyên (kể cả số âm) hoặc trên các vành khác; khi đó chu trình có thể khác.
+
+Khi so sánh đồ thị với bạn bè hay với một bài báo, trước hết hãy thống nhất **cùng một định nghĩa bước**. Đây là lỗi kỹ thuật nhỏ nhưng thường làm lệch số bước.
+
+---
+
+## Hiểu lầm thường gặp
+
+| Khẳng định | Sửa lại |
 |------------|-----|
-| “Đã kiểm tới $$10^{20}$$ nên đúng.” | Chỉ bằng chứng trong phạm vi đó. |
-| “Dãy là ngẫu nhiên.” | Tất định hoàn toàn; thống kê có thể trông lộn xộn. |
-| “$$3n+1$$ luôn làm tăng.” | Kết hợp với các phép chia 2, quỹ đạo thường hạ—nói heuristic cho chính xác. |
-| “Disproof Lean trên mạng đã xong.” | Claim bất thường cần kiểm cộng đồng; giả thuyết vẫn mở trong toán chuẩn (cẩn trọng bug formalization / trò đùa). |
-| “A5 = chứng minh Collatz.” | A5 = khám phá có kỷ luật, không giải Millennium-style. |
-| “Không có toán xung quanh vì phát biểu dễ.” | Có mật độ, chu trình, heuristic, verification—đọc Lagarias. |
-| “Tao đã giải Collatz / almost all = mọi.” | Tao 2019: almost-all / almost-bounded (mật độ log), **không** giả thuyết đầy đủ. |
-| “Collatz đã undecidable.” | Một số **tổng quát** liên quan undecidability; Collatz cổ điển vẫn mở—đừng overclaim từ clip phổ biến. |
+| "Đã kiểm tra đến $$10^{20}$$ nên giả thuyết đúng." | Đó chỉ là bằng chứng trong phạm vi đã kiểm tra. |
+| "Dãy số là ngẫu nhiên." | Dãy hoàn toàn tất định; chỉ có thống kê trông lộn xộn. |
+| "$$3n+1$$ luôn làm số tăng lên." | Kết hợp với các phép chia 2, quỹ đạo thường đi xuống; hãy phát biểu lập luận gần đúng cho chính xác. |
+| "Đã có bản bác bỏ bằng Lean trên mạng." | Một tuyên bố bất thường cần được cộng đồng kiểm tra; giả thuyết vẫn mở trong toán học chính thống (cẩn thận với lỗi hình thức hóa hoặc trò đùa). |
+| "A5 nghĩa là chứng minh Collatz." | A5 là khám phá có phương pháp, không phải giải một bài toán cỡ Thiên niên kỷ. |
+| "Phát biểu dễ nên không có toán học xung quanh." | Có các kết quả về mật độ, chu trình, lập luận gần đúng, kiểm tra bằng máy; hãy đọc Lagarias. |
+| "Tao đã giải Collatz / hầu hết cũng là mọi." | Tao (2019) chứng minh kết quả "hầu hết quỹ đạo gần bị chặn" (theo mật độ logarit), **không** phải giả thuyết đầy đủ. |
+| "Collatz đã được chứng minh là không quyết định được." | Chỉ một số dạng **tổng quát** liên quan đến tính không quyết định được; Collatz cổ điển vẫn mở. Đừng suy diễn quá mức từ các video phổ thông. |
 
 ---
 
 ## Bài tập
 
-1. Tính quỹ đạo của 27 tới 1; đếm số bước (ghi rõ map bạn dùng).  
-2. Định nghĩa total stopping time trong một câu, cố định thuật ngữ cho A5.  
-3. Đưa một lý do verification ≠ proof áp dụng cho Collatz.  
-4. **LO1 (≤250 từ):** phát biểu Collatz, vì sao khó, toán xung quanh (heuristic / mật độ / chu trình).  
-5. Phác một giả thuyết A5 **có thể bác** bằng biểu đồ (ví dụ về thời gian dừng trung bình).  
-6. Đọc abstract một survey Lagarias; liệt kê ba chủ đề con.  
-7. **LO6:** sửa câu “Collatz đúng vì máy đã kiểm mọi số cần thiết.”  
-8. Stretch: so sánh trong một đoạn Collatz với [sinh đôi]({{ site.baseurl }}/contents/vi/chapter01/01_06_Twin_Prime_Conjecture/): cả hai sơ cấp; tiến bộ từng phần trông khác nhau thế nào?  
-9. **Tao hygiene (≤200 từ):** hai câu “Tao đã chứng minh…” và “Tao **không** chứng minh…,” nêu mật độ log và $$\operatorname{Col}_{\min}$$.  
-10. **Biến thể map:** tính bốn số lẻ đầu trong quỹ đạo của $$7$$ dưới $$T$$; tính $$\operatorname{Syr}(7)$$; giải thích vì sao số bước khác.
+1. Tính quỹ đạo của 27 cho đến khi về 1; đếm số bước (ghi rõ ánh xạ bạn dùng).  
+2. Định nghĩa thời gian dừng toàn phần trong một câu, và cố định thuật ngữ này cho bài A5.  
+3. Nêu một lý do vì sao kiểm tra không phải là chứng minh, áp dụng cho Collatz.  
+4. **Mục tiêu 1 (không quá 250 từ):** phát biểu giả thuyết Collatz, vì sao khó, toán học xung quanh (lập luận gần đúng / mật độ / chu trình).  
+5. Phác thảo một giả thuyết cho bài A5 **có thể bác bỏ** bằng đồ thị (ví dụ về thời gian dừng trung bình).  
+6. Đọc tóm tắt một bài tổng quan của Lagarias; liệt kê ba chủ đề con.  
+7. **Mục tiêu 6:** sửa câu "Collatz đúng vì máy tính đã kiểm tra mọi số cần thiết".  
+8. Mở rộng: viết một đoạn so sánh Collatz với [số nguyên tố sinh đôi]({{ site.baseurl }}/contents/vi/chapter01/01_06_Twin_Prime_Conjecture/): cả hai đều sơ cấp; các kết quả từng phần khác nhau như thế nào?  
+9. **Nói đúng về kết quả của Tao (không quá 200 từ):** viết hai câu "Tao đã chứng minh…" và "Tao **không** chứng minh…", có nhắc đến mật độ logarit và $$\operatorname{Col}_{\min}$$.  
+10. **Biến thể ánh xạ:** tính bốn số lẻ đầu tiên trong quỹ đạo của $$7$$ theo $$T$$; tính $$\operatorname{Syr}(7)$$; giải thích vì sao số bước khác nhau.
 ---
 
-## Nguồn video (gói math-video-researcher)
+## Nguồn video (bộ tư liệu nghiên cứu video)
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh (chưa có). Chi tiết xếp hạng: `research/video-research/collatz/`.
+Video dùng để **định hướng và làm quen với không khí nghiên cứu**, không thay thế chứng minh (hiện chưa có chứng minh). Đánh giá chi tiết: `research/video-research/collatz/`.
 
 **Thứ tự xem gợi ý**
 
 1. **Định hướng** — Veritasium, *The Simplest Math Problem No One Can Solve – Collatz*: [YouTube](https://www.youtube.com/watch?v=094y1Z2wpJg).  
-2. **Văn hóa** — Numberphile, *UNCRACKABLE?* (Eisenbud): [YouTube](https://www.youtube.com/watch?v=5mFpVDpKX70).  
-3. **Survey** — Chamberland, *The 3x+1 Problem: Status and Recent Work* (Part 1): [YouTube](https://www.youtube.com/watch?v=t1I9uHF9X5Y).  
+2. **Bối cảnh** — Numberphile, *UNCRACKABLE?* (Eisenbud): [YouTube](https://www.youtube.com/watch?v=5mFpVDpKX70).  
+3. **Tổng quan** — Chamberland, *The 3x+1 Problem: Status and Recent Work* (Phần 1): [YouTube](https://www.youtube.com/watch?v=t1I9uHF9X5Y).  
 4. **Bài giảng nghiên cứu** — Tao, *The Notorious Collatz conjecture*: [mathtube](https://mathtube.org/lecture/video/notorious-collatz-conjecture) · [YouTube](https://www.youtube.com/watch?v=X2p5eMWyaFs) · [slides](https://terrytao.files.wordpress.com/2020/02/collatz.pdf).  
-5. **Biên giới (tùy chọn)** — Tao @ IAS, *Almost all Collatz Orbits…*: [YouTube](https://www.youtube.com/watch?v=k-dtx8s2ehM) · [arXiv:1909.03562](https://arxiv.org/abs/1909.03562).  
-6. **Vệ sinh logic (tùy chọn)** — Easy Theory về wording Veritasium: [YouTube](https://www.youtube.com/watch?v=Lr6qc_9M0Ks).
+5. **Hướng mới (không bắt buộc)** — Tao tại IAS, *Almost all Collatz Orbits…*: [YouTube](https://www.youtube.com/watch?v=k-dtx8s2ehM) · [arXiv:1909.03562](https://arxiv.org/abs/1909.03562).  
+6. **Nói cho đúng (không bắt buộc)** — Easy Theory nhận xét về cách diễn đạt trong video Veritasium: [YouTube](https://www.youtube.com/watch?v=Lr6qc_9M0Ks).
 
-**Nhắc:** Tao (2019) là định lý **almost-all / almost-bounded** (mật độ log), **không** giải hết giả thuyết. Trạng thái vẫn **mở** (2026).
+**Nhắc lại:** kết quả của Tao (2019) là định lý "hầu hết quỹ đạo gần bị chặn" (theo mật độ logarit), **không** giải quyết toàn bộ giả thuyết. Tình trạng năm 2026: vẫn **còn mở**.
 
-Transcript caption (để điều hướng, **không** thay nội dung bài) và frame mẫu trong gói:
+Phụ đề (chỉ dùng để tra cứu, **không** thay thế nội dung bài) và khung hình mẫu trong bộ tư liệu:
 
 - `research/video-research/collatz/transcripts/` · `TRANSCRIPT_STATUS.md`
 
 ![Bảng quỹ đạo Collatz (frame Numberphile)]({{ site.baseurl }}/img/video_research/collatz/5mFpVDpKX70_frame01.jpg)
 
-*Hình. Frame mẫu Numberphile *UNCRACKABLE?* (~1 phút) — minh họa sư phạm.*
+*Hình. Khung hình mẫu từ video *UNCRACKABLE?* của Numberphile (khoảng phút thứ 1), dùng để minh họa.*
 
 ![Mẫu tô màu Collatz]({{ site.baseurl }}/img/video_research/collatz/LqKpkdRRLZw_frame01.jpg)
 
-*Hình. Frame *Collatz in Color* — văn hóa hình ảnh, không phải chứng minh.*
+*Hình. Khung hình từ video *Collatz in Color*; đây là minh họa hình ảnh, không phải chứng minh.*
 
 ---
 
 ## Tài liệu
 
-Danh mục URL đầy đủ (mọi link tìm được khi nghiên cứu video): `research/video-research/collatz/references.md`.
+Danh sách URL đầy đủ (mọi đường dẫn tìm được khi nghiên cứu video): `research/video-research/collatz/references.md`.
 
-### Bài báo và blog tác giả
+### Bài báo và blog của tác giả
 
 1. Lagarias — *The 3x+1 Problem: An Overview*: [arXiv:2111.02635](https://arxiv.org/abs/2111.02635) · [PDF](https://arxiv.org/pdf/2111.02635).  
-2. Lagarias — survey cổ điển: [SFU](http://www.cecm.sfu.ca/organics/papers/lagarias/); PDF *generalizations*: [Williams](https://web.williams.edu/Mathematics/sjmiller/public_html/372Fa15/addcomments/Lagarias_3x+1AndItsGeneralizations.pdf).  
+2. Lagarias — bài tổng quan cổ điển: [SFU](http://www.cecm.sfu.ca/organics/papers/lagarias/); bản PDF về *các dạng tổng quát*: [Williams](https://web.williams.edu/Mathematics/sjmiller/public_html/372Fa15/addcomments/Lagarias_3x+1AndItsGeneralizations.pdf).  
 3. Tao — *Almost all Collatz orbits…*: [arXiv:1909.03562](https://arxiv.org/abs/1909.03562) · [PDF](https://arxiv.org/pdf/1909.03562) · [blog](https://terrytao.wordpress.com/2019/09/10/almost-all-collatz-orbits-attain-almost-bounded-values/).  
 4. Tao — blog Collatz 2011: https://terrytao.wordpress.com/2011/08/25/the-collatz-conjecture-littlewood-offord-theory-and-powers-of-2-and-3/  
 5. Chamberland — survey 2003 PDF: http://www.math.grinnell.edu/~chamberl/papers/3x_survey_eng.pdf  
-6. Verification tính toán (Barina et al. …)—kiểm năm cho cận hiện hành.
+6. Các công trình kiểm tra bằng máy tính (Barina và cộng sự …); hãy kiểm tra năm xuất bản để biết giới hạn hiện tại.
 
-### Video (lộ trình chính)
+### Video chính
 
 7. Veritasium: https://www.youtube.com/watch?v=094y1Z2wpJg  
 8. Numberphile UNCRACKABLE: https://www.youtube.com/watch?v=5mFpVDpKX70 · trang: https://www.numberphile.com/videos/uncrackable-the-collatz-conjecture  
@@ -336,13 +336,13 @@ Danh mục URL đầy đủ (mọi link tìm được khi nghiên cứu video): 
 11. Tao IAS almost-all: https://www.youtube.com/watch?v=k-dtx8s2ehM  
 12. Easy Theory (đính chính wording): https://www.youtube.com/watch?v=Lr6qc_9M0Ks  
 
-### Video (tìm thêm / phụ)
+### Video bổ sung
 
 13. Tipping Point Math: https://www.youtube.com/watch?v=m4CjXk_b8zo  
 14. Numberphile Collatz in Color: https://www.youtube.com/watch?v=LqKpkdRRLZw · extra: https://www.youtube.com/watch?v=O2_h3z1YgEU · realtime: https://youtu.be/wH141HLD57o  
 15. Lex Clips — Tao Collatz: https://www.youtube.com/watch?v=vT4VJyXWHlo  
 
-### Web / tin
+### Trang web và tin tức
 
 16. Wikipedia: https://en.wikipedia.org/wiki/Collatz_conjecture  
 17. Quanta 2019: https://www.quantamagazine.org/mathematician-proves-huge-result-on-dangerous-problem-20191211/  
@@ -350,20 +350,20 @@ Danh mục URL đầy đủ (mọi link tìm được khi nghiên cứu video): 
 19. Basel news: https://dmi.unibas.ch/en/news/details/lecture-in-basel-terence-tao-and-the-notorious-collatz-conjecture/  
 20. Stanford event: https://mathematics.stanford.edu/events/kiddie-colloquium/almost-almost-collatz  
 21. Pitt note: https://www.mathematics.pitt.edu/content/note-collatz-conjecture  
-22. Study.com (độ tin cậy thấp cho claim nghiên cứu): https://study.com/academy/lesson/history-of-the-collatz-conjecture.html  
+22. Study.com (độ tin cậy thấp với các khẳng định về nghiên cứu): https://study.com/academy/lesson/history-of-the-collatz-conjecture.html  
 
-### Trong khóa
+### Trong khóa học
 
-23. [Studio Collatz]({{ site.baseurl }}/contents/vi/chapter07/07_09_Explore_Iteration/); [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/). Gói: `research/video-research/collatz/` (đặc biệt `references.md`).
+23. [Bài thực hành Collatz]({{ site.baseurl }}/contents/vi/chapter07/07_09_Explore_Iteration/); [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/). Bộ tư liệu: `research/video-research/collatz/` (đặc biệt là `references.md`).
 
 ---
 
 ## Hướng đi tiếp
 
-**A5 mặc định.** Đọc trang studio Ch.7, chọn một giả thuyết nhỏ, ghi nhật ký thí nghiệm, và giữ ranh giới “mẫu” vs “mọi $$n$$.” Tùy chọn thay thế studio: logistic map (chaos lite) nếu bạn muốn động lực trơn hơn. Quay lại trang này khi cần ngôn ngữ chuẩn cho phần “tình trạng bài toán mở” trong portfolio.
+**Đề tài mặc định cho A5.** Đọc bài thực hành ở Chương 7, chọn một giả thuyết nhỏ, ghi nhật ký thí nghiệm, và giữ rõ ranh giới giữa "trong mẫu" và "với mọi $$n$$". Nếu muốn một hệ động lực trơn hơn, có thể chọn ánh xạ logistic (giới thiệu nhẹ về hỗn độn) thay cho bài thực hành này. Quay lại trang này khi cần cách diễn đạt chuẩn cho phần "tình trạng của bài toán mở" trong hồ sơ học tập.
 
 ## Video tham khảo
 
-- **xem trước** — [The Simplest Math Problem No One Can Solve - Collatz Conjecture](https://www.youtube.com/watch?v=094y1Z2wpJg) — Veritasium, tiếng Anh. Xem trước. “The Simplest Math Problem No One Can Solve - Collatz Conjecture” định hướng cho mục tiêu của bài: Phát biểu ánh xạ Collatz T và giả thuyết mọi số nguyên dương rơi vào chu trình 4\to 2\to 1.
-- [UNCRACKABLE? The Collatz Conjecture - Numberphile](https://www.youtube.com/watch?v=5mFpVDpKX70) — Numberphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu ánh xạ Collatz T và giả thuyết mọi số nguyên dương rơi vào chu trình 4\to 2\to 1.
-- [The 3x+1 Problem: Status and Recent Work Part 1](https://www.youtube.com/watch?v=t1I9uHF9X5Y) — Experimental mathematics, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu ánh xạ Collatz T và giả thuyết mọi số nguyên dương rơi vào chu trình 4\to 2\to 1.
+- **Xem trước:** [The Simplest Math Problem No One Can Solve - Collatz Conjecture](https://www.youtube.com/watch?v=094y1Z2wpJg) — Veritasium, tiếng Anh. Giới thiệu quy tắc, các quỹ đạo và lịch sử bài toán; nên xem trước khi đọc bài.
+- [UNCRACKABLE? The Collatz Conjecture - Numberphile](https://www.youtube.com/watch?v=5mFpVDpKX70) — Numberphile, tiếng Anh. David Eisenbud giải thích vì sao bài toán khó; nên xem sau khi đã nắm ý chính của bài.
+- [The 3x+1 Problem: Status and Recent Work Part 1](https://www.youtube.com/watch?v=t1I9uHF9X5Y) — Experimental mathematics, tiếng Anh. Xem thêm sau hai video trên; bài giảng tổng quan về tình trạng nghiên cứu.

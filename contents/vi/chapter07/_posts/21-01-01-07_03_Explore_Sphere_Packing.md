@@ -9,99 +9,99 @@ categories:
 - chapter07
 ---
 
-> **Lộ trình xếp cầu**  
-> **Đọc sâu:** [Viazovska Ch.2]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/)  
-> **Bạn đang ở đây:** Studio Ch.7 (thí nghiệm + log)  
-> *Tùy chọn:* kissing number, lattice vs nonlattice, kỳ lạ chiều cao.  
-> **Khung Tao / Big Think:** đạn đại bác → Kepler → xếp rời rạc cao chiều như mã vô tuyến — [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/) · [essay Viazovska]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/) · [video](https://www.youtube.com/watch?v=OOMx2BHHWtE).
+> **Lộ trình về xếp cầu**  
+> **Bài đọc kỹ:** [Viazovska (Chương 2)]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/)  
+> **Bạn đang ở đây:** Bài thực hành Chương 7 (thí nghiệm + nhật ký)  
+> *Tùy chọn:* số tiếp xúc (kissing number), xếp theo lưới và không theo lưới, những điều lạ trong không gian nhiều chiều.  
+> **Theo cách trình bày của Tao (Big Think):** từ cách xếp đạn đại bác → giả thuyết Kepler → xếp rời rạc trong không gian nhiều chiều để làm mã truyền tín hiệu vô tuyến — [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/) · [bài về Viazovska]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/) · [video](https://www.youtube.com/watch?v=OOMx2BHHWtE).
 
-Studio hỏi câu mang vẻ vật lý: cách xếp các quả cầu bằng nhau không chồng lấn trong $$\mathbb{R}^n$$ dày đặc nhất là gì? Mặt phẳng có thể quyết bằng đồng xu. Ba chiều: giả thuyết Kepler chờ hàng thế kỷ. Chiều 8 và 24: modular forms và Fourier quyết định tối ưu. Hầu hết chiều vẫn mở.
+Bài thực hành đặt ra một câu hỏi nghe như vật lý: xếp các quả cầu bằng nhau, không chồng lên nhau, trong $$\mathbb{R}^n$$ thì cách nào dày đặc nhất? Trong mặt phẳng, có thể tìm câu trả lời bằng cách xếp đồng xu. Trong không gian ba chiều, giả thuyết Kepler phải chờ hàng thế kỷ mới được chứng minh. Ở chiều 8 và 24, dạng modula và giải tích Fourier cho phép xác định cách xếp tối ưu. Với hầu hết các số chiều khác, bài toán vẫn còn mở.
 
-Bạn không dựng “magic function” của Viazovska. Bạn **định nghĩa mật độ**, **đo packing thật**, **so sánh ứng viên**, và phân biệt định lý sắc trong chiều đặc biệt với heuristic/cận số ở nơi khác. Cùng kỷ luật nhãn như studio Kakeya: conjecture, construction, quan sát, định lý—không trộn.
+Bạn không cần dựng lại "hàm kỳ diệu" của Viazovska. Bạn sẽ **định nghĩa mật độ**, **đo mật độ của các cách xếp thật**, **so sánh các phương án**, và phân biệt giữa định lý chính xác ở những chiều đặc biệt với các lập luận gần đúng hay cận số ở những chiều khác. Cách ghi nhãn giống bài thực hành về Kakeya: giả thuyết, cách dựng, quan sát, định lý, không trộn lẫn.
 
 ---
 
 ## Mục tiêu học tập
 
-Sau studio bạn cần:
+Sau bài thực hành, bạn có thể:
 
-- Định nghĩa mật độ packing như giới hạn tỉ lệ thể tích phủ; tính đúng packing lưới vuông và lục giác 2D.
-- Giải thích kissing number; nêu giá trị cổ điển 2D/3D và bước nhảy chiều cao.
-- Phân biệt packing **lattice** và packing tổng quát; vì sao nonlattice đôi khi có thể thắng.
-- Tóm tắt bảng: hex (2), Kepler/Hales (3), $$E_8$$ (8), Leech (24), generic mở.
-- Thiết kế ≥2 thí nghiệm + log có nhãn conjecture/quan sát.
-- Nêu ý Cohn–Elkies ở mức slogan: cận trên qua hàm radial và biến đổi Fourier.
+- Định nghĩa mật độ xếp cầu như giới hạn của tỉ lệ thể tích bị phủ; tính đúng mật độ của cách xếp theo lưới vuông và lưới lục giác trong mặt phẳng.
+- Giải thích số tiếp xúc; nêu các giá trị cổ điển trong 2D, 3D và những bước nhảy ở số chiều cao hơn.
+- Phân biệt cách xếp **theo lưới** với cách xếp tổng quát; giải thích vì sao đôi khi cách xếp không theo lưới có thể tốt hơn.
+- Tóm tắt bảng tình trạng: lục giác (chiều 2), Kepler/Hales (chiều 3), $$E_8$$ (chiều 8), lưới Leech (chiều 24), các chiều còn lại còn mở.
+- Thiết kế ít nhất 2 thí nghiệm, kèm nhật ký có nhãn giả thuyết/quan sát.
+- Nêu ngắn gọn ý tưởng của Cohn–Elkies: chặn trên mật độ bằng một hàm xuyên tâm và biến đổi Fourier của nó.
 
-**Tiên quyết.** Diện tích/thể tích quả cầu; vector 2D/3D; lattice như nhóm con rời rạc sinh không gian.
+**Kiến thức cần có.** Diện tích và thể tích hình cầu; vectơ trong 2D/3D; khái niệm lưới như một nhóm con rời rạc sinh ra toàn không gian.
 
 ---
 
-## 1. Toán nền
+## 1. Kiến thức toán nền
 
 ### 1.1 Mật độ
 
-Cố định chiều $$n$$ và xếp các quả cầu đóng bán kính bằng nhau, không chồng lấn trong $$\mathbb{R}^n$$. Một định nghĩa chuẩn của **mật độ** là
+Cố định số chiều $$n$$ và xếp các quả cầu đóng có bán kính bằng nhau, không chồng lên nhau, trong $$\mathbb{R}^n$$. Một định nghĩa chuẩn của **mật độ** là
 
 $$
 \delta=\limsup_{R\to\infty}\frac{\text{thể tích cầu trong }B(0,R)}{\operatorname{Vol} B(0,R)}.
 $$
 
-Với **packing lattice** có tâm tại $$\Lambda$$ và khoảng cách khác không tối thiểu $$2r$$ (cầu bán kính $$r$$ vừa chạm):
+Với **cách xếp theo lưới**, tâm các quả cầu nằm trên lưới $$\Lambda$$ có khoảng cách nhỏ nhất khác không bằng $$2r$$ (các quả cầu bán kính $$r$$ vừa chạm nhau):
 
 $$
 \delta(\Lambda)=\frac{\operatorname{Vol}(B(0,r))}{\operatorname{Vol}(\mathbb{R}^n/\Lambda)}.
 $$
 
-**Câu hỏi.** $$\delta_n=\sup$$ mật độ trên mọi packing trong chiều $$n$$ là bao nhiêu? Cấu hình nào đạt?
+**Câu hỏi.** $$\delta_n=\sup$$ của mật độ trên mọi cách xếp trong chiều $$n$$ bằng bao nhiêu? Cấu hình nào đạt được giá trị đó?
 
-Hiệu ứng biên quan trọng: nếu chỉ đếm “bao nhiêu quả trong hộp”, phần mép làm lệch. Định nghĩa giới hạn tồn tại đúng vì lý do đó. Trong thí nghiệm xu, hãy dùng vùng nội tiếp lớn để giảm bias.
+Hiệu ứng biên rất quan trọng: nếu chỉ đếm "có bao nhiêu quả trong hộp", phần sát thành hộp sẽ làm sai lệch kết quả. Định nghĩa bằng giới hạn được đưa ra chính vì lý do này. Khi làm thí nghiệm với đồng xu, hãy chỉ đo trên một vùng lớn nằm phía trong để giảm sai lệch.
 
-### 1.2 Hai chiều: vuông vs lục giác
+### 1.2 Hai chiều: lưới vuông và lưới lục giác
 
-Xếp đồng xu trên bàn.
+Xếp đồng xu trên mặt bàn.
 
-- **Lưới vuông.** Tâm tại $$(2r\,i,\,2r\,j)$$. Mỗi quả chiếm hình vuông cạnh $$2r$$, nên
+- **Lưới vuông.** Tâm tại $$(2r\,i,\,2r\,j)$$. Mỗi đồng xu chiếm một hình vuông cạnh $$2r$$, nên
 
 $$
 \delta_{\square}=\frac{\pi r^2}{4r^2}=\frac{\pi}{4}\approx 0.785.
 $$
 
-- **Lưới lục giác.** Mỗi tâm có sáu láng giềng khoảng cách $$2r$$. Cell cơ bản chuẩn cho
+- **Lưới lục giác.** Mỗi tâm có sáu tâm láng giềng cách nó $$2r$$. Tính trên ô cơ sở chuẩn, ta được
 
 $$
 \delta_{\mathrm{hex}}=\frac{\pi}{2\sqrt{3}}\approx 0.907.
 $$
 
-Packing lục giác tối ưu trong mặt phẳng (cổ điển). Thí nghiệm đầu tiên nên **cảm** khoảng cách 0.78 so 0.91 trước khi trích định lý.
+Cách xếp lục giác là tối ưu trong mặt phẳng (kết quả cổ điển). Thí nghiệm đầu tiên nên giúp bạn **tự thấy** sự chênh lệch giữa 0.78 và 0.91 trước khi dẫn định lý.
 
-### 1.3 Ba chiều và kissing
+### 1.3 Ba chiều và số tiếp xúc
 
-**Giả thuyết Kepler** khẳng định không packing nào trong $$\mathbb{R}^3$$ vượt mật độ FCC/HCP
+**Giả thuyết Kepler** khẳng định không có cách xếp nào trong $$\mathbb{R}^3$$ dày hơn mật độ của cách xếp lập phương tâm mặt (FCC) hay lục giác xếp chặt (HCP)
 
 $$
 \delta_{\mathrm{FCC}}=\frac{\pi}{3\sqrt{2}}\approx 0.74048.
 $$
 
-**Thomas Hales** chứng minh (hỗ trợ máy đáng kể); kết quả đã formalize trong proof assistant. **Kissing number** 3D = 12: một quả trung tâm chạm tối đa mười hai quả bằng nhau (có “wiggle room” gây nhầm lịch sử—icosahedron một mình không “hiển nhiên” quyết).
+**Thomas Hales** đã chứng minh giả thuyết này (với sự hỗ trợ đáng kể của máy tính); kết quả sau đó đã được kiểm chứng hình thức bằng phần mềm chứng minh. **Số tiếp xúc** trong 3D bằng 12: một quả cầu ở giữa có thể chạm tối đa mười hai quả cầu bằng nó. (Các quả cầu xung quanh vẫn còn chỗ để xê dịch, và điều này từng gây tranh cãi trong lịch sử; chỉ nhìn khối hai mươi mặt thì chưa đủ để kết luận.)
 
-### 1.4 Chiều đặc biệt 8 và 24
+### 1.4 Hai chiều đặc biệt: 8 và 24
 
-| $$n$$ | Packing tối ưu (trạng thái) |
+| $$n$$ | Cách xếp tối ưu (tình trạng) |
 |-------|------------------------------|
-| 1 | Đoạn trên đường (tầm thường) |
+| 1 | Các đoạn thẳng trên đường thẳng (hiển nhiên) |
 | 2 | Lưới lục giác — cổ điển |
 | 3 | Mật độ FCC/HCP — Hales |
 | 8 | $$E_8$$ — **Viazovska (2016)** |
-| 24 | Leech — **Cohn–Kumar–Miller–Radchenko–Viazovska** |
-| generic | Chủ yếu mở; có cận tiệm cận |
+| 24 | Lưới Leech — **Cohn–Kumar–Miller–Radchenko–Viazovska** |
+| các chiều khác | Phần lớn còn mở; có các cận tiệm cận |
 
-Lưới $$E_8$$ và Leech là kỳ quan đối xứng: vỏ vector tối thiểu cực dày và nhóm tự đẳng cấu giàu. Viazovska dựng hàm radial “magic” có mẫu dấu Fourier khớp đúng cận lập trình tuyến tính Cohn–Elkies ở chiều 8, chứng minh $$E_8$$ tối ưu trong **mọi** packing (không chỉ lattice).
+Lưới $$E_8$$ và lưới Leech có tính đối xứng đặc biệt: số vectơ có độ dài nhỏ nhất rất lớn và nhóm tự đẳng cấu rất phong phú. Viazovska đã dựng được một hàm xuyên tâm "kỳ diệu" mà dấu của nó và của biến đổi Fourier khớp chính xác với cận quy hoạch tuyến tính Cohn–Elkies ở chiều 8, qua đó chứng minh $$E_8$$ là tối ưu trong **mọi** cách xếp (không chỉ trong các cách xếp theo lưới).
 
-### 1.5 Cohn–Elkies trong một đoạn
+### 1.5 Ý tưởng Cohn–Elkies trong một đoạn
 
-Đại khái: nếu hàm radial Schwartz $$f$$ trên $$\mathbb{R}^n$$ thỏa $$f(x)\le 0$$ khi $$\lvert x\rvert\ge 1$$ và $$\hat f(\xi)\ge 0$$ mọi $$\xi$$, với $$f(0)$$ và $$\hat f(0)$$ dương, thì mật độ packing bị chặn trên bởi hằng số xây từ $$f(0)/\hat f(0)$$ (sau scale). Công thức Poisson là cầu: nối giá trị $$f$$ trên lattice với $$\hat f$$ trên dual lattice, biến ràng buộc hình học không chồng thành ràng buộc dấu giải tích. Sắc cần hàm “chạm” ràng buộc tương thích tập khoảng cách lattice—triệt tiêu ở bán kính đúng. Modular forms cung cấp hàm như vậy ở chiều 8 và 24. Bạn không cần dựng $$f$$; bạn cần hiểu **packing trở thành thiết kế hàm**—vì sao Fields có thể trao cho việc dựng hàm phụ trợ đúng chứ không phải xếp thêm cam.
+Nói gần đúng: nếu một hàm Schwartz xuyên tâm $$f$$ trên $$\mathbb{R}^n$$ thỏa mãn $$f(x)\le 0$$ khi $$\lvert x\rvert\ge 1$$ và $$\hat f(\xi)\ge 0$$ với mọi $$\xi$$, trong đó $$f(0)$$ và $$\hat f(0)$$ dương, thì mật độ xếp cầu bị chặn trên bởi một hằng số tính từ $$f(0)/\hat f(0)$$ (sau khi đổi tỉ lệ). Công thức tổng Poisson là cầu nối: nó liên hệ giá trị của $$f$$ trên lưới với giá trị của $$\hat f$$ trên lưới đối ngẫu, biến điều kiện hình học "không chồng lên nhau" thành điều kiện về dấu trong giải tích. Để cận này chính xác, cần một hàm "vừa khít" với tập các khoảng cách của lưới, tức là triệt tiêu đúng tại những bán kính cần thiết. Dạng modula cung cấp những hàm như vậy ở chiều 8 và 24. Bạn không cần dựng $$f$$; điều cần hiểu là **bài toán xếp cầu đã trở thành bài toán thiết kế hàm**. Đó là lý do một Huy chương Fields có thể được trao cho việc dựng đúng một hàm phụ trợ, chứ không phải cho việc xếp thêm cam.
 
-### 1.6 Kỳ lạ chiều cao
+### 1.6 Những điều lạ trong không gian nhiều chiều
 
 Thể tích quả cầu đơn vị
 
@@ -109,149 +109,149 @@ $$
 V_n=\frac{\pi^{n/2}}{\Gamma(n/2+1)}
 $$
 
-tăng rồi $$\to 0$$ khi $$n\to\infty$$. Hầu hết thể tích khối cao chiều nằm gần biên; cầu trở nên kém lấp không gian trong tọa độ ngây thơ. Packing tốt nhất, kissing, và khoảng cách lattice/nonlattice hành xử không đều. Nối studio [chiều thứ tư]({{ site.baseurl }}/contents/vi/chapter07/07_06_Explore_Fourth_Dimension/) nếu thích nghịch lý thể tích.
+tăng lên rồi $$\to 0$$ khi $$n\to\infty$$. Phần lớn thể tích của một khối lập phương nhiều chiều nằm gần biên; quả cầu chiếm ngày càng ít không gian. Mật độ xếp tốt nhất, số tiếp xúc, và sự chênh lệch giữa cách xếp theo lưới và không theo lưới thay đổi không đều theo số chiều. Nếu bạn thích các nghịch lý về thể tích, hãy xem bài thực hành [chiều thứ tư]({{ site.baseurl }}/contents/vi/chapter07/07_06_Explore_Fourth_Dimension/).
 
 ---
 
-## 2. Conjecture / chứng minh / thí nghiệm
+## 2. Giả thuyết, chứng minh và thí nghiệm
 
 | Nhãn | Nghĩa | Ví dụ |
 |------|-------|-------|
-| **Định lý** | Đã chốt | Hex 2D; $$E_8$$; Leech |
-| **Mở** | Chưa biết tối ưu chính xác | Hầu hết $$n\notin\{1,2,3,8,24\}$$ |
-| **Cận dưới** | Packing tường minh | Xu của bạn; bảng lattice |
-| **Cận trên** | Analytic/LP | Cohn–Elkies số |
+| **Định lý** | Đã được chứng minh | Lục giác trong 2D; $$E_8$$; lưới Leech |
+| **Còn mở** | Chưa biết giá trị tối ưu chính xác | Hầu hết $$n\notin\{1,2,3,8,24\}$$ |
+| **Cận dưới** | Một cách xếp cụ thể | Cách xếp đồng xu của bạn; bảng các lưới |
+| **Cận trên** | Bằng giải tích hoặc quy hoạch tuyến tính | Các cận Cohn–Elkies tính bằng số |
 
 **Tiêu chí thành công (ghi trong đề xuất):**
 
-1. Đo mật độ ≥2 packing 2D (vuông và hex) sai số <2% so công thức.  
-2. Một artifact: ảnh xu, sơ đồ, hoặc mô phỏng.  
-3. Bảng trạng thái $$n=2,3,8,24$$ và “generic $$n$$”.  
-4. Một đoạn Cohn–Elkies/magic không nhận đã dựng $$f$$.  
-5. Một hiểu nhầm đã sửa (ví dụ “12 kissing hiển nhiên từ icosahedron”).
+1. Đo mật độ của ít nhất 2 cách xếp trong mặt phẳng (vuông và lục giác), sai số dưới 2% so với công thức.  
+2. Một sản phẩm cụ thể: ảnh chụp đồng xu, sơ đồ, hoặc mô phỏng.  
+3. Bảng tình trạng cho $$n=2,3,8,24$$ và "các $$n$$ khác".  
+4. Một đoạn về ý tưởng Cohn–Elkies và hàm kỳ diệu, không nhận là mình đã dựng được $$f$$.  
+5. Một hiểu lầm đã được sửa (ví dụ "số tiếp xúc bằng 12 là hiển nhiên từ khối hai mươi mặt").
 
 ---
 
-## 3. Chuẩn log
+## 3. Cách ghi nhật ký
 
-**Ngày · Ý định · Hành động · Kết quả · Nhãn · Diễn giải · Tiếp.**
+**Ngày · Mục đích · Việc đã làm · Kết quả · Nhãn · Diễn giải · Bước tiếp theo.**
 
-Ghi đường kính xu, spacing lưới, tham số code. Packing thất bại—chồng phải tháo—thuộc log.
+Ghi lại đường kính đồng xu, khoảng cách lưới, các tham số trong mã. Những lần xếp thất bại (bị chồng, phải gỡ ra) cũng cần ghi vào nhật ký.
 
-**AI.** Được hỗ trợ code nếu disclose; mật độ *bạn* đo phải tái lập được từ ghi chú.
-
----
-
-## 4. Thí nghiệm
-
-Làm ≥2 trong A–E.
-
-### A — Xếp xu (25–40′)
-
-Xếp xu bằng nhau trong khay chữ nhật (hoặc giấy vẽ vòng).
-
-1. Ép lưới vuông; ước mật độ = (số xu × diện tích xu) / diện tích khay (vùng nội tiếp giảm biên).  
-2. Ép pattern lục giác; ước mật độ.  
-3. So $$\pi/4$$ và $$\pi/(2\sqrt{3})$$.
-
-**Giả thuyết trước đo:** “Hiệu ứng biên chi phối; tôi không thấy khoảng 0.78 vs 0.91.” Rồi kiểm vùng đủ lớn có lộ không.
-
-**Tiêu chí:** hai ước lượng + % sai so công thức.
-
-### B — Kissing 2D/3D (20–40′)
-
-- 2D: 6 vòng chạm trung tâm; 7 không (góc $$60^\circ$$).  
-- 3D: thử 12 (bóng, cam, hoặc phác); viết vì sao “rattle” gây nhầm lịch sử. Tra kissing $$n=4,8,24$$ **có trích dẫn**—không bịa.
-
-**Tiêu chí:** phác chứng 2D + tường thuật 3D + bảng cao chiều có nguồn.
-
-### C — Máy tính mật độ lattice (30–60′)
-
-Code: vector sinh 2D + khoảng cách tối thiểu → mật độ; kiểm vuông/hex. Tùy chọn: quét góc/tỉ lệ và vẽ landscape mật độ.
-
-**Tiêu chí:** code + hex thắng vuông; contour tùy chọn.
-
-### D — Thông cáo trạng thái (20–30′)
-
-Sau khi đọc Ch.2 Viazovska (hoặc bảng trạng thái):
-
-- Trước 2016 biết gì?  
-- Viazovska solo chứng minh gì ($$E_8$$)?  
-- Cộng tác chiều 24 ra sao?  
-- Còn mở gì?
-
-**Tiêu chí:** không trộn solo $$E_8$$ với Leech cộng tác; slogan mật độ đúng.
-
-### E — Thể tích và “lãng phí” (mở rộng)
-
-Bảng/plot $$V_n$$ cho $$n=1..20$$; nối trực giác packing: nếu cầu có thể tích nhỏ so khối, mật độ nên hành xử thế nào? So intuition với bảng cận tin cậy (trích dẫn).
-
-**Tiêu chí:** bảng/plot + hai câu nối suy giảm thể tích với độ khó packing.
+**Về AI.** Được dùng AI hỗ trợ viết mã nếu khai báo; mật độ *bạn* đo phải lặp lại được từ ghi chép của bạn.
 
 ---
 
-## 5. Nhầm lẫn thường gặp
+## 4. Các thí nghiệm
 
-1. Hex chỉ tối ưu địa phương — trong 2D là tối ưu toàn cục trong mọi packing.  
-2. Viazovska giải mọi chiều — 8 và (đồng tác giả) 24; không phải mọi $$n$$.  
-3. Lattice luôn thắng — không biết tổng quát; một số chiều có thể ưa nonlattice.  
-4. Kissing = số phối trí packing dày nhất — liên quan, không tự động.  
-5. Mật độ = “bao nhiêu quả trong hộp” — hiệu ứng biên quan trọng; định nghĩa giới hạn có lý do.
+Làm ít nhất 2 trong các thí nghiệm A–E.
+
+### A — Xếp đồng xu (25–40 phút)
+
+Xếp các đồng xu bằng nhau trong một khay hình chữ nhật (hoặc vẽ các hình tròn trên giấy).
+
+1. Xếp theo lưới vuông; ước lượng mật độ = (số đồng xu × diện tích một đồng xu) / diện tích vùng đo (chọn vùng nằm phía trong để giảm hiệu ứng biên).  
+2. Xếp theo kiểu lục giác; ước lượng mật độ.  
+3. So sánh với $$\pi/4$$ và $$\pi/(2\sqrt{3})$$.
+
+**Giả thuyết trước khi đo:** "Hiệu ứng biên sẽ lấn át, tôi sẽ không thấy được sự khác nhau giữa 0.78 và 0.91." Sau đó kiểm tra xem với vùng đủ lớn thì sự khác nhau có hiện ra không.
+
+**Tiêu chí:** hai giá trị ước lượng + phần trăm sai lệch so với công thức.
+
+### B — Số tiếp xúc trong 2D và 3D (20–40 phút)
+
+- 2D: 6 hình tròn chạm được hình tròn ở giữa; 7 thì không (vì góc $$60^\circ$$).  
+- 3D: thử xếp 12 quả (bóng, cam, hoặc vẽ phác); giải thích vì sao việc các quả cầu còn xê dịch được đã gây nhầm lẫn trong lịch sử. Tra số tiếp xúc với $$n=4,8,24$$ **có trích dẫn**, không tự bịa.
+
+**Tiêu chí:** phác thảo chứng minh cho 2D + mô tả cho 3D + bảng cho các chiều cao hơn có nguồn.
+
+### C — Tính mật độ lưới bằng máy (30–60 phút)
+
+Viết mã: từ các vectơ sinh của một lưới 2D và khoảng cách nhỏ nhất, tính mật độ; kiểm tra với lưới vuông và lục giác. Tùy chọn: thay đổi góc và tỉ lệ giữa hai vectơ sinh, vẽ bản đồ mật độ.
+
+**Tiêu chí:** mã nguồn + kết quả lưới lục giác tốt hơn lưới vuông; bản đồ đường mức là tùy chọn.
+
+### D — Viết bản tóm tắt tình hình (20–30 phút)
+
+Sau khi đọc bài Viazovska ở Chương 2 (hoặc bảng tình trạng):
+
+- Trước năm 2016 người ta đã biết gì?  
+- Riêng Viazovska đã chứng minh gì ($$E_8$$)?  
+- Kết quả cho chiều 24 được hợp tác như thế nào?  
+- Còn những gì chưa biết?
+
+**Tiêu chí:** không lẫn kết quả $$E_8$$ của riêng Viazovska với kết quả hợp tác cho lưới Leech; phát biểu đúng về mật độ.
+
+### E — Thể tích và phần "lãng phí" (mở rộng)
+
+Lập bảng hoặc vẽ đồ thị $$V_n$$ với $$n=1..20$$; liên hệ với trực giác về xếp cầu: nếu quả cầu có thể tích nhỏ so với khối lập phương, mật độ sẽ thay đổi thế nào? So sánh trực giác của bạn với bảng các cận đáng tin cậy (có trích dẫn).
+
+**Tiêu chí:** bảng hoặc đồ thị + hai câu nối sự suy giảm thể tích với độ khó của bài toán xếp cầu.
+
+---
+
+## 5. Hiểu lầm thường gặp
+
+1. "Cách xếp lục giác chỉ tối ưu cục bộ." Trong 2D, nó tối ưu toàn cục trong mọi cách xếp.  
+2. "Viazovska đã giải cho mọi số chiều." Chỉ chiều 8 và (cùng các đồng tác giả) chiều 24; không phải mọi $$n$$.  
+3. "Xếp theo lưới luôn tốt nhất." Điều này chưa biết trong trường hợp tổng quát; ở một số chiều, cách xếp không theo lưới có thể tốt hơn.  
+4. "Số tiếp xúc bằng số láng giềng trong cách xếp dày nhất." Hai đại lượng liên quan nhưng không tự động bằng nhau.  
+5. "Mật độ là đếm xem có bao nhiêu quả trong hộp." Hiệu ứng biên rất quan trọng; định nghĩa bằng giới hạn có lý do của nó.
 
 ---
 
 ## 6. Bài tập
 
-1. Suy ra $$\delta_{\square}=\pi/4$$ từ nguyên lý đầu.  
-2. Giải thích $$\delta_{\mathrm{hex}}=\pi/(2\sqrt{3})$$ với cell cơ bản rõ.  
-3. Scale mọi độ dài bởi $$\lambda>0$$ không đổi mật độ — vì sao quan trọng cho định nghĩa?  
-4. Fourier cận trên loại packing dày hơn lattice thế nào (lời mình), dù không liệt kê mọi packing.  
-5. Đề xuất ≤200 từ: câu hỏi, phương pháp, tiêu chí, rủi ro (biên, đơn vị, bug phần mềm).
+1. Suy ra $$\delta_{\square}=\pi/4$$ từ định nghĩa.  
+2. Giải thích $$\delta_{\mathrm{hex}}=\pi/(2\sqrt{3})$$, chỉ rõ ô cơ sở.  
+3. Vì sao nhân mọi độ dài với $$\lambda>0$$ không làm thay đổi mật độ, và vì sao điều này quan trọng với định nghĩa?  
+4. Giải thích bằng lời của bạn: cận trên bằng giải tích Fourier loại trừ những cách xếp dày hơn lưới như thế nào, mà không cần liệt kê mọi cách xếp?  
+5. Viết đề xuất không quá 200 từ: câu hỏi, phương pháp, tiêu chí, rủi ro (hiệu ứng biên, đơn vị đo, lỗi phần mềm).
 
 ---
 
-## 7. Rubric
+## 7. Danh sách kiểm tra theo tiêu chí chấm
 
-| ☐ | Mật độ vuông + hex (xu hoặc mô phỏng) |
-| ☐ | Định nghĩa mật độ bằng lời mình |
-| ☐ | Bảng 2, 3, 8, 24 + generic |
-| ☐ | Một câu magic/Cohn–Elkies |
-| ☐ | Log ≥3 mục có ngày |
-| ☐ | Câu hỏi mở (ví dụ một $$n$$ cụ thể) |
+| ☐ | Mật độ lưới vuông và lục giác (bằng đồng xu hoặc mô phỏng) |
+| ☐ | Định nghĩa mật độ bằng lời của bạn |
+| ☐ | Bảng cho chiều 2, 3, 8, 24 và các chiều khác |
+| ☐ | Một câu về hàm kỳ diệu / Cohn–Elkies |
+| ☐ | Nhật ký ít nhất 3 mục có ngày tháng |
+| ☐ | Một câu hỏi mở (ví dụ cho một $$n$$ cụ thể) |
 
 ---
 
 
-## Nguồn video (gói math-video-researcher)
+## Nguồn video (bộ tư liệu nghiên cứu video)
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh. Chi tiết: `research/video-research/explore-sphere-packing/`.
+Video dùng để **định hướng và làm quen với cách làm nghiên cứu**, không thay thế chứng minh. Chi tiết: `research/video-research/explore-sphere-packing/`.
 
-**Khẩu hiệu từ gói nghiên cứu**
+**Những điểm chính từ bộ tư liệu**
 
-- **Mật độ** là giới hạn tỉ lệ thể tích; hiệu ứng biên quan trọng trong hộp hữu hạn.
-- Xếp lục giác tối ưu 2D; Kepler 3D (Hales); **Viazovska** cho chiều 8 và 24.
-- Chặn Fourier/LP (Cohn–Elkies) loại packing dày hơn mà không liệt kê hết.
-- Studio: đo cẩn thận; tách định lý / conjecture / quan sát số.
+- **Mật độ** là giới hạn của tỉ lệ thể tích; trong hộp hữu hạn, hiệu ứng biên rất quan trọng.
+- Xếp lục giác là tối ưu trong 2D; giả thuyết Kepler trong 3D (Hales); **Viazovska** cho chiều 8 và 24.
+- Cận Fourier/quy hoạch tuyến tính (Cohn–Elkies) loại trừ những cách xếp dày hơn mà không cần liệt kê hết.
+- Trong bài thực hành: đo cẩn thận; tách định lý / giả thuyết / quan sát bằng số.
 
 **Thứ tự xem gợi ý**
 
-1. **CORE** — Viazovska — Einstein Lectures sphere packing: [https://www.youtube.com/watch?v=fH6KNlUJux0](https://www.youtube.com/watch?v=fH6KNlUJux0).  
-2. **CORE** — Viazovska — Sphere packing intro (ICMU): [https://www.youtube.com/watch?v=VR3Ezxo5wo8](https://www.youtube.com/watch?v=VR3Ezxo5wo8).  
-3. **RESEARCH** — Viazovska — Simons Lecture Day 1 (MIT): [https://www.youtube.com/watch?v=mf_XOB7594c](https://www.youtube.com/watch?v=mf_XOB7594c).  
-4. **INTUITION** — Numberphile — Best Way to Pack Spheres: [https://www.youtube.com/watch?v=mceaM2_zQd8](https://www.youtube.com/watch?v=mceaM2_zQd8).  
+1. **Cốt lõi** — Viazovska — bài giảng Einstein về xếp cầu: [https://www.youtube.com/watch?v=fH6KNlUJux0](https://www.youtube.com/watch?v=fH6KNlUJux0).  
+2. **Cốt lõi** — Viazovska — nhập môn bài toán xếp cầu (ICMU): [https://www.youtube.com/watch?v=VR3Ezxo5wo8](https://www.youtube.com/watch?v=VR3Ezxo5wo8).  
+3. **Nghiên cứu** — Viazovska — Simons Lecture ngày 1 (MIT): [https://www.youtube.com/watch?v=mf_XOB7594c](https://www.youtube.com/watch?v=mf_XOB7594c).  
+4. **Trực giác** — Numberphile — về quả cầu trong không gian nhiều chiều: [https://www.youtube.com/watch?v=mceaM2_zQd8](https://www.youtube.com/watch?v=mceaM2_zQd8).  
 
-**Cổng chính thức / tài liệu**
+**Tài liệu gốc**
 
-- Viazovska E8 packing (arXiv:1603.04246): https://arxiv.org/abs/1603.04246  
-- Cohn et al. dimension 24 (arXiv:1603.06518): https://arxiv.org/abs/1603.06518  
-- Cohn–Elkies LP bounds (arXiv survey lineage): https://arxiv.org/abs/math/0110009  
+- Viazovska, xếp cầu với lưới E8 (arXiv:1603.04246): https://arxiv.org/abs/1603.04246  
+- Cohn và cộng sự, chiều 24 (arXiv:1603.06518): https://arxiv.org/abs/1603.06518  
+- Cohn–Elkies, cận quy hoạch tuyến tính: https://arxiv.org/abs/math/0110009  
 
-Danh mục URL đầy đủ: `research/video-research/explore-sphere-packing/references.md`.
+Danh sách URL đầy đủ: `research/video-research/explore-sphere-packing/references.md`.
 
 ## 8. Tài liệu
 
 
-### Gói nghiên cứu video (mọi URL)
+### Bộ tư liệu video (mọi URL)
 
 Danh mục đầy đủ: `research/video-research/explore-sphere-packing/references.md`.
 
@@ -268,30 +268,30 @@ Danh mục đầy đủ: `research/video-research/explore-sphere-packing/referen
 11. Simons Foundation Fields video page (Viazovska) — https://www.simonsfoundation.org/2022/07/05/fields-medal-video-maryna-viazovska/  
 12. Thư mục gói: `research/video-research/explore-sphere-packing/`.
 
-1. [Viazovska Ch.2]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/).  
-2. Conway–Sloane, *Sphere Packings, Lattices and Groups* (cẩm nang cổ điển).  
-3. Cohn–Elkies LP bounds; Viazovska 2016 $$E_8$$.  
-4. Studio: [Kakeya]({{ site.baseurl }}/contents/vi/chapter07/07_02_Explore_Kakeya/), [chiều 4]({{ site.baseurl }}/contents/vi/chapter07/07_06_Explore_Fourth_Dimension/).
+1. [Viazovska (Chương 2)]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/).  
+2. Conway–Sloane, *Sphere Packings, Lattices and Groups* (sách tra cứu kinh điển).  
+3. Cận quy hoạch tuyến tính Cohn–Elkies; bài báo năm 2016 của Viazovska về $$E_8$$.  
+4. Các bài thực hành: [Kakeya]({{ site.baseurl }}/contents/vi/chapter07/07_02_Explore_Kakeya/), [chiều thứ tư]({{ site.baseurl }}/contents/vi/chapter07/07_06_Explore_Fourth_Dimension/).
 
 ---
 
 ## Hướng đi tiếp
 
-Nếu công thức mật độ dễ mà cận Fourier mờ, đọc lại đoạn Cohn–Elkies Ch.2 và viết lại thành năm câu cho bạn chỉ biết tích phân. Nếu thích hình học rời rạc hơn phân tích, xoay thí nghiệm sang kissing và root lattices. Nối [chiều thứ tư]({{ site.baseurl }}/contents/vi/chapter07/07_06_Explore_Fourth_Dimension/) khi $$V_n\to 0$$ làm bạn tò mò về “không gian nhọn”.
+Nếu công thức mật độ thì dễ nhưng cận Fourier còn khó hiểu, hãy đọc lại đoạn về Cohn–Elkies ở Chương 2 và viết lại thành năm câu cho một người bạn chỉ biết tích phân. Nếu bạn thích hình học rời rạc hơn giải tích, hãy chuyển thí nghiệm sang số tiếp xúc và các lưới căn (root lattice). Hãy xem bài [chiều thứ tư]({{ site.baseurl }}/contents/vi/chapter07/07_06_Explore_Fourth_Dimension/) khi kết quả $$V_n\to 0$$ khiến bạn tò mò về hình học của không gian nhiều chiều.
 
-**Gợi ý tổng hợp một trang.** (i) mật độ vuông và hex bạn đo được bao nhiêu; (ii) định nghĩa giới hạn tránh biên thế nào; (iii) bảng 2/3/8/24; (iv) packing trở thành thiết kế hàm nghĩa là gì; (v) một $$n$$ bạn muốn hỏi tiếp.
+**Gợi ý viết bản tổng hợp một trang.** (i) mật độ lưới vuông và lục giác bạn đo được; (ii) định nghĩa bằng giới hạn tránh hiệu ứng biên như thế nào; (iii) bảng cho chiều 2/3/8/24; (iv) "bài toán xếp cầu trở thành bài toán thiết kế hàm" nghĩa là gì; (v) một số chiều $$n$$ bạn muốn tìm hiểu tiếp.
 
-### Transcript & frames (batch extract)
+### Phụ đề và khung hình (trích xuất hàng loạt)
 
-Transcript caption và unit theo thời gian: `research/video-research/explore-sphere-packing/transcripts/` · trạng thái: `research/video-research/explore-sphere-packing/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
+Phụ đề và các đoạn theo thời gian: `research/video-research/explore-sphere-packing/transcripts/` · trạng thái: `research/video-research/explore-sphere-packing/TRANSCRIPT_STATUS.md` · tổng hợp: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
 
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/explore-sphere-packing_fH6KNlUJux0_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính (xem bộ tư liệu để biết mốc thời gian).*
 
 
 ## Video tham khảo
 
-- **xem trước** — [Einstein Lectures: Maryna Viazovska - The sphere packing problem](https://www.youtube.com/watch?v=fH6KNlUJux0) — Universität Bern, tiếng Anh. Xem trước. “Einstein Lectures: Maryna Viazovska - The sphere packing problem” định hướng cho mục tiêu của bài: Định nghĩa mật độ packing như giới hạn tỉ lệ thể tích phủ; tính đúng packing lưới vuông và lục giác 2D.
-- [Introduction to the sphere packing problem, Maryna Viazovska, 1/4.](https://www.youtube.com/watch?v=VR3Ezxo5wo8) — ICMU, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Định nghĩa mật độ packing như giới hạn tỉ lệ thể tích phủ; tính đúng packing lưới vuông và lục giác 2D.
-- [Maryna Viazovska - The Sphere Packing Problem, Simons Lecture Day 1](https://www.youtube.com/watch?v=mf_XOB7594c) — MIT Department of Mathematics, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Định nghĩa mật độ packing như giới hạn tỉ lệ thể tích phủ; tính đúng packing lưới vuông và lục giác 2D.
+- **Xem trước:** [Einstein Lectures: Maryna Viazovska - The sphere packing problem](https://www.youtube.com/watch?v=fH6KNlUJux0) — Universität Bern, tiếng Anh. Bài giảng của Viazovska về bài toán xếp cầu; nên xem trước khi đọc bài.
+- [Introduction to the sphere packing problem, Maryna Viazovska, 1/4.](https://www.youtube.com/watch?v=VR3Ezxo5wo8) — ICMU, tiếng Anh. Bài nhập môn đầu tiên trong loạt bốn bài; nên xem sau khi đã nắm ý chính của bài.
+- [Maryna Viazovska - The Sphere Packing Problem, Simons Lecture Day 1](https://www.youtube.com/watch?v=mf_XOB7594c) — MIT Department of Mathematics, tiếng Anh. Xem thêm sau hai video trên: bài giảng chuyên sâu hơn tại MIT.

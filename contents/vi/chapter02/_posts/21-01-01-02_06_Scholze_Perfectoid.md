@@ -9,13 +9,13 @@ categories:
 - chapter02
 ---
 
-**Peter Scholze** nhận **Huy chương Fields 2018** nhờ biến đổi **hình học số học** qua **không gian perfectoid** và các tiến bộ liên quan trong hình học $$p$$-adic. Đây không phải câu chuyện “một giả thuyết cô lập bị chinh phục”, mà là câu chuyện **viết lại nền tảng**: một lớp đối tượng mới và một từ điển (tilting) cho phép chuyển thông tin giữa mixed characteristic và characteristic $$p$$, khiến phân nhánh hoang trở thành ngôn ngữ hình học linh hoạt.
+**Peter Scholze** nhận **Huy chương Fields 2018** nhờ đã thay đổi **hình học số học** bằng **không gian perfectoid** và các tiến bộ liên quan trong hình học $$p$$-adic. Đây không phải câu chuyện "chinh phục một giả thuyết riêng lẻ", mà là câu chuyện **viết lại nền tảng**: một lớp đối tượng mới cùng một bộ từ điển (phép nghiêng, tilting) cho phép chuyển thông tin giữa đặc số hỗn hợp và đặc số $$p$$, biến hiện tượng phân nhánh hoang thành một ngôn ngữ hình học linh hoạt.
 
-Lộ trình bài học:
+Nội dung bài:
 
-**Hình học $$p$$-adic khó → mixed characteristic → perfectoid → tilting → đối đồng điều và ứng dụng → ảnh hưởng nền tảng → Fields 2018.**
+**Hình học $$p$$-adic khó → đặc số hỗn hợp → perfectoid → phép nghiêng → đối đồng điều và ứng dụng → ảnh hưởng tới nền tảng → Fields 2018.**
 
-Mục tiêu không phải xây dựng adic space từ đầu, mà hiểu **vấn đề nền tảng là gì**, **perfectoid giải quyết kiểu tư duy nào**, và **vì sao cả lĩnh vực đổi nhịp sau 2012**.
+Mục tiêu không phải là xây dựng không gian adic từ đầu, mà là hiểu **vấn đề nền tảng là gì**, **perfectoid giải quyết theo cách tư duy nào**, và **vì sao cả lĩnh vực thay đổi nhịp độ sau năm 2012**.
 
 ---
 
@@ -23,61 +23,61 @@ Mục tiêu không phải xây dựng adic space từ đầu, mà hiểu **vấn
 
 Sau bài học, bạn có thể:
 
-- Giải thích khó khăn **mixed characteristic** trong một đoạn mạch lạc (sợi generic char 0 ↔ sợi đặc trưng thặng dư char $$p$$).
-- Phát biểu slogan **tilting**: từ điển giữa một số đối tượng mixed characteristic và đối tượng characteristic $$p$$ có Frobenius song ánh.
-- Mô tả vành/không gian **perfectoid** như lớp phân nhánh mạnh được thiết kế để tilting hoạt động (mục tiêu thiết kế > danh sách tiên đề đầy đủ).
-- Nêu ít nhất hai vùng ứng dụng (ví dụ kết quả kiểu weight-monodromy, đối đồng điều $$p$$-adic / period rings).
-- So sánh narrative medal Scholze với các giải “hạ tầng / nền tảng” (Langlands foundations, viết lại representation-theoretic) chứ không chỉ medal “một conjecture.”
-- Nhắc **condensed mathematics** (với Clausen) như tầng nền tảng sau—biết có, không master.
-- Luyện **LO6**: tách citation IMU và survey kỹ thuật khỏi slogan phổ thông “thiên tài trẻ viết lại toán.”
+- Giải thích khó khăn của **đặc số hỗn hợp** (mixed characteristic) trong một đoạn văn mạch lạc (thớ tổng quát có đặc số 0 ↔ thớ đặc biệt có đặc số $$p$$).
+- Phát biểu ý chính của **phép nghiêng**: một từ điển giữa một số đối tượng ở đặc số hỗn hợp và các đối tượng ở đặc số $$p$$ mà trên đó phép Frobenius là song ánh.
+- Mô tả vành / không gian **perfectoid** như một lớp đối tượng phân nhánh mạnh, được thiết kế để phép nghiêng hoạt động (hiểu mục đích thiết kế quan trọng hơn thuộc danh sách tiên đề).
+- Nêu ít nhất hai lĩnh vực ứng dụng (ví dụ các kết quả kiểu đơn đạo trọng số (weight-monodromy), đối đồng điều $$p$$-adic / các vành chu kỳ).
+- So sánh câu chuyện về huy chương của Scholze với các giải thưởng cho "hạ tầng / nền tảng" (nền tảng cho Langlands, viết lại bằng lý thuyết biểu diễn), chứ không chỉ các giải cho "một giả thuyết".
+- Biết đến **toán học cô đặc** (condensed mathematics, cùng với Clausen) như một tầng nền tảng ra đời sau; chỉ cần biết là có, không cần nắm vững.
+- Luyện **mục tiêu 6**: tách lời trích dẫn của IMU và các bài tổng quan kỹ thuật khỏi khẩu hiệu phổ thông kiểu "thiên tài trẻ viết lại toán học".
 
-**Kiến thức nền.** Vành và trường; ý tưởng completion (số nguyên $$p$$-adic $$\mathbb{Z}_p$$ và trường $$\mathbb{Q}_p$$); Frobenius $$x\mapsto x^p$$ trên vành characteristic $$p$$. Scheme hữu ích nhưng không bắt buộc—nghĩ “không gian hình học dán từ spectrum của vành.”
+**Kiến thức cần có.** Vành và trường; ý tưởng về phép làm đầy (số nguyên $$p$$-adic $$\mathbb{Z}_p$$ và trường $$\mathbb{Q}_p$$); phép Frobenius $$x\mapsto x^p$$ trên vành đặc số $$p$$. Biết về lược đồ (scheme) thì có ích nhưng không bắt buộc; có thể hình dung đó là "các không gian hình học dán từ phổ của các vành".
 
-**Liên kết seminar.** **LO1** (chương trình sâu), **LO6** (phê hype medal). Láng giềng hình học số: [Langlands / Ngô]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/), [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/), [Wiles / Fermat]({{ site.baseurl }}/contents/vi/chapter08/08_03_Wiles_Fermat/), [mật mã / lý thuyết số]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/) (động lực $$p$$-adic, không claim perfectoid “ứng dụng crypto”). Song song nền tảng trọn đời: [Giải Abel là gì?]({{ site.baseurl }}/contents/vi/chapter08/08_02_Giai_Abel_la_gi/).
+**Liên hệ với khóa học.** **Mục tiêu 1** (một chương trình nghiên cứu sâu), **mục tiêu 6** (đánh giá tỉnh táo những lời tung hô quanh giải thưởng). Các bài gần gũi về hình học số học: [Langlands / Ngô]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/), [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/), [Wiles / Fermat]({{ site.baseurl }}/contents/vi/chapter08/08_03_Wiles_Fermat/), [mật mã / lý thuyết số]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/) (động lực đến từ số $$p$$-adic; không khẳng định perfectoid có "ứng dụng trong mật mã"). Về các giải thưởng cho cả sự nghiệp: [Giải Abel là gì?]({{ site.baseurl }}/contents/vi/chapter08/08_02_Giai_Abel_la_gi/).
 
 ---
 
 ## 1. Vì sao hình học $$p$$-adic khó
 
-Hình học số học thường sống trên vành số nguyên của trường $$p$$-adic—ví dụ $$\mathbb{Z}_p$$ hoặc vành định giá của mở rộng—nơi:
+Hình học số học thường làm việc trên vành số nguyên của một trường $$p$$-adic, ví dụ $$\mathbb{Z}_p$$ hoặc vành định giá của một mở rộng, nơi:
 
-- sợi đặc trưng thặng dư có characteristic $$p$$;  
-- sợi generic có characteristic $$0$$.
+- thớ đặc biệt (ứng với trường thặng dư) có đặc số $$p$$;  
+- thớ tổng quát có đặc số $$0$$.
 
-Đó là **mixed characteristic**. Công cụ hình học đại số “thuần” (trên trường, hoặc trên vành “dễ”) căng thẳng trước:
+Đó là **đặc số hỗn hợp**. Các công cụ của hình học đại số "thuần" (trên một trường, hoặc trên những vành "dễ") gặp khó khăn trước:
 
 - **phân nhánh hoang** (wild ramification);  
-- định giá không rời rạc / mở rộng vô hạn phân nhánh;  
+- định giá không rời rạc / các mở rộng phân nhánh vô hạn;  
 - đối đồng điều khó kiểm soát;  
-- so sánh giữa “thế giới $$p$$” và “thế giới 0”.
+- việc so sánh giữa "thế giới đặc số $$p$$" và "thế giới đặc số 0".
 
-Nhiều định lý sâu muốn thông tin ở characteristic $$p$$ (nơi Frobenius sống) nói về số học characteristic 0, hoặc ngược lại. Thiếu từ điển tốt, mỗi bài toán trở thành chiến đấu ad hoc.
+Nhiều định lý sâu muốn dùng thông tin ở đặc số $$p$$ (nơi có phép Frobenius) để nói về số học ở đặc số 0, hoặc ngược lại. Không có một bộ từ điển tốt, mỗi bài toán lại phải xử lý theo một cách riêng.
 
 ![Mixed characteristic]({{ site.baseurl }}/img/chapter_img/scholze_mixed_char.svg)
 
-*Hình (khái niệm). Sợi generic char 0 và sợi đặc trưng thặng dư char $$p$$ sống chung một “gia đình”.*
+*Hình (minh họa ý tưởng). Thớ tổng quát đặc số 0 và thớ đặc biệt đặc số $$p$$ cùng nằm trong một "họ".*
 
 ---
 
-## 2. Perfectoid: Frobenius trở thành đẳng cấu (gần như)
+## 2. Perfectoid: phép Frobenius trở thành đẳng cấu (gần như)
 
-Trong characteristic $$p$$, mọi vành $$R$$ có endomorphism Frobenius $$\varphi:R\to R$$, $$x\mapsto x^p$$. Nếu $$\varphi$$ là **đẳng cấu**, $$R$$ được gọi **perfect** (với vành reduced characteristic $$p$$, khớp khái niệm cổ điển). Vành perfect thường dễ hơn: có thể lấy căn bậc $$p$$ tự do, và một số lý thuyết đối đồng điều đơn giản hóa.
+Ở đặc số $$p$$, mọi vành $$R$$ đều có tự đồng cấu Frobenius $$\varphi:R\to R$$, $$x\mapsto x^p$$. Nếu $$\varphi$$ là **đẳng cấu** thì $$R$$ được gọi là **hoàn hảo** (perfect) (với vành rút gọn đặc số $$p$$, điều này khớp với khái niệm cổ điển). Vành hoàn hảo thường dễ làm việc hơn: có thể lấy căn bậc $$p$$ một cách thoải mái, và một số lý thuyết đối đồng điều trở nên đơn giản hơn.
 
-Scholze cô lập các đại số **perfectoid**—vành tôpô complete phân nhánh mạnh (tôpô nonarchimedean chính xác) nhận ánh xạ “kiểu Frobenius” surjective với kernel được kiểm soát, sao cho sau xây dựng tilting ta rơi vào thế giới perfect. Định nghĩa đại số đầy đủ liên quan almost mathematics, period rings Fontaine, và completed perfections; fluency seminar cần **mục tiêu thiết kế** hơn danh sách tiên đề:
+Scholze tách ra lớp đại số **perfectoid**: các vành tô pô đầy đủ, phân nhánh mạnh (với một tô pô phi Archimedes cụ thể), có một ánh xạ "kiểu Frobenius" toàn ánh với hạt nhân được kiểm soát, sao cho sau phép nghiêng ta đi vào thế giới các vành hoàn hảo. Định nghĩa đại số đầy đủ liên quan đến "toán học gần đúng" (almost mathematics), các vành chu kỳ của Fontaine, và phép hoàn hảo hóa có làm đầy. Để thảo luận, điều cần nắm là **mục đích thiết kế** hơn là danh sách tiên đề:
 
-> Đối tượng perfectoid là những đối tượng mà căn bậc $$p$$ vô hạn tồn tại một cách nhất quán, khiến chúng “perfect đến mức mixed characteristic cho phép.”
+> Đối tượng perfectoid là những đối tượng có đủ căn bậc $$p$$ lặp vô hạn một cách nhất quán, khiến chúng "hoàn hảo đến mức mà đặc số hỗn hợp cho phép".
 
-**Không gian perfectoid** là đối tượng hình học dán từ spectrum của đại số perfectoid theo phong cách adic spaces (khung Huber), không phải variety cổ điển trên một trường. Chúng đủ giàu để mang đối đồng điều và tác động Galois, nhưng đủ cứng cho tilting.
+**Không gian perfectoid** là các đối tượng hình học được dán từ phổ của các đại số perfectoid theo kiểu không gian adic (khuôn khổ của Huber), không phải đa tạp cổ điển trên một trường. Chúng đủ phong phú để mang đối đồng điều và tác động Galois, nhưng đủ cứng để phép nghiêng hoạt động.
 
-Điểm sư phạm: perfectoid **không** thay thế mọi scheme. Chúng là lớp **mạnh và linh hoạt** nơi nhiều phép so sánh trở nên trong suốt—như “tọa độ tốt” cho vùng khó của bản đồ.
+Điểm cần lưu ý: perfectoid **không** thay thế mọi lược đồ. Đó là một lớp đối tượng **mạnh và linh hoạt**, nơi nhiều phép so sánh trở nên rõ ràng, giống như một "hệ tọa độ tốt" cho vùng khó của bản đồ.
 
 ---
 
-## 3. Tilting: từ điển hai thế giới
+## 3. Phép nghiêng: từ điển giữa hai thế giới
 
-**Tilting** gắn mỗi đối tượng perfectoid mixed characteristic với một đối tượng perfectoid characteristic $$p$$. Ở phía characteristic $$p$$, Frobenius là **đẳng cấu** (sau khi perfect), và nhiều cấu trúc tổ hợp–trường trở nên đơn giản hơn.
+**Phép nghiêng** (tilting) gắn mỗi đối tượng perfectoid ở đặc số hỗn hợp với một đối tượng perfectoid ở đặc số $$p$$. Ở phía đặc số $$p$$, phép Frobenius là **đẳng cấu** (sau khi hoàn hảo hóa), và nhiều cấu trúc tổ hợp và cấu trúc trường trở nên đơn giản hơn.
 
-Khẩu hiệu:
+Tóm tắt:
 
 $$
 \{\text{perfectoid mixed char}\}
@@ -85,124 +85,124 @@ $$
 \{\text{perfectoid char }p\}.
 $$
 
-Quy trình tư duy điển hình:
+Cách suy nghĩ điển hình:
 
-1. Phát biểu câu hỏi ở mixed characteristic.  
-2. Dịch (tilt) sang characteristic $$p$$.  
-3. Giải hoặc đơn giản hóa ở đó.  
-4. Dịch ngược thông tin cần thiết.
+1. Phát biểu câu hỏi ở đặc số hỗn hợp.  
+2. Chuyển (nghiêng) sang đặc số $$p$$.  
+3. Giải hoặc đơn giản hóa bài toán ở đó.  
+4. Chuyển ngược phần thông tin cần thiết.
 
-Tilting **không xóa** số học: nó **tái tổ chức** số học. Sau khi chuyển thông tin, người ta vẫn trở lại bài toán số học ban đầu—nhưng đã mang theo kiến thức mới.
+Phép nghiêng **không xóa bỏ** số học, mà **sắp xếp lại** nó. Sau khi chuyển thông tin, người ta vẫn quay về bài toán số học ban đầu, nhưng đã có thêm hiểu biết mới.
 
-### Vì sao “Frobenius là đẳng cấu” giúp
+### Vì sao "Frobenius là đẳng cấu" lại có ích
 
-Frobenius $$x\mapsto x^p$$ là phép tự nhiên nhất ở characteristic $$p$$. Khi nó là đẳng cấu, nhiều dãy exact, phủ, và đối đồng điều trở nên tuần hoàn / kiểm soát được theo $$p$$. Phân nhánh hoang—thường phá hoại ước lượng—bị “hấp thụ” vào định nghĩa lớp perfectoid thay vì bị xử lý từng trường hợp.
+Phép Frobenius $$x\mapsto x^p$$ là phép biến đổi tự nhiên nhất ở đặc số $$p$$. Khi nó là đẳng cấu, nhiều dãy khớp, phép phủ và đối đồng điều trở nên kiểm soát được theo $$p$$. Hiện tượng phân nhánh hoang, vốn thường làm hỏng các ước lượng, được "hấp thụ" ngay vào định nghĩa của lớp perfectoid thay vì phải xử lý từng trường hợp.
 
 ---
 
 ## 4. Tác động: không chỉ một định lý
 
-Ảnh hưởng của hình học perfectoid bao gồm (danh sách không đầy đủ):
+Ảnh hưởng của hình học perfectoid bao gồm (danh sách chưa đầy đủ):
 
-- tiến bộ lý thuyết **đối đồng điều $$p$$-adic** và so sánh cohomological;  
-- tiếp cận mới với ý tưởng **weight-monodromy** trong các thiết lập địa phương;  
-- ngôn ngữ mới cho **đa tạp Shimura** và hình học gần **local Langlands**;  
-- công cụ cho **prismatic cohomology** và các lý thuyết đồng điều hiện đại (cùng cộng sự, Bhatt–Scholze, … trong các chương trình kế tiếp);  
-- thay đổi thực hành: paper sau 2012 thường giả định độc giả “nói được” perfectoid.
+- tiến bộ trong lý thuyết **đối đồng điều $$p$$-adic** và các định lý so sánh giữa các lý thuyết đối đồng điều;  
+- cách tiếp cận mới cho ý tưởng **đơn đạo trọng số** (weight-monodromy) trong các bối cảnh địa phương;  
+- ngôn ngữ mới cho **đa tạp Shimura** và hình học liên quan đến **Langlands địa phương**;  
+- công cụ cho **đối đồng điều lăng trụ** (prismatic cohomology) và các lý thuyết đồng điều hiện đại (cùng các cộng sự: Bhatt–Scholze, … trong các chương trình tiếp theo);  
+- thay đổi trong thực tế làm toán: các bài báo sau năm 2012 thường mặc định người đọc đã "nói được" ngôn ngữ perfectoid.
 
 ![Tilting bridge]({{ site.baseurl }}/img/chapter_img/scholze_tilting.svg)
 
-*Hình (khái niệm). Tilting như cầu chuyển thông tin giữa hai characteristic.*
+*Hình (minh họa ý tưởng). Phép nghiêng như một cây cầu chuyển thông tin giữa hai đặc số.*
 
-### Nền tảng tiếp diễn: condensed / analytic
+### Nền tảng tiếp theo: toán học cô đặc và hình học giải tích
 
-Sau perfectoid, Scholze (cùng **Dustin Clausen** và cộng sự) phát triển hướng **condensed mathematics** và hình học analytic mới—cố gắng thống nhất tôpô, giải tích và đại số ở mức nền. Fields 2018 **tập trung** perfectoid / $$p$$-adic; condensed là chương trình **tiếp diễn**, không nên gộp mù quáng thành “cùng một định lý”.
+Sau perfectoid, Scholze (cùng **Dustin Clausen** và các cộng sự) phát triển hướng **toán học cô đặc** (condensed mathematics) và một kiểu hình học giải tích mới, nhằm thống nhất tô pô, giải tích và đại số ở tầng nền tảng. Huy chương Fields 2018 **tập trung** vào perfectoid / hình học $$p$$-adic; toán học cô đặc là chương trình **tiếp nối**, không nên gộp chung thành "cùng một định lý".
 
 ---
 
-## 5. Vì sao quan trọng trong chương này
+## 5. Vì sao bài này quan trọng trong chương
 
-Chương 2 nhấn toán học giải thưởng như **cầu nối và viết lại ngôn ngữ**. Perfectoid là ví dụ mẫu:
+Chương 2 nhấn mạnh toán học ở tầm giải thưởng như những **cây cầu và những lần viết lại ngôn ngữ**. Perfectoid là một ví dụ điển hình:
 
-| Kiểu huy chương | Ví dụ |
+| Kiểu thành tựu được trao huy chương | Ví dụ |
 |-----------------|--------|
-| Giải một giả thuyết cổ điển | Perelman (Poincaré/geometrization) |
-| Tối ưu chính xác một cấu hình | Viazovska ($$E_8$$) |
-| Mở khóa bổ đề so sánh | Ngô (Fundamental Lemma) |
+| Giải một giả thuyết cổ điển | Perelman (Poincaré / hình học hóa) |
+| Tìm chính xác cấu hình tối ưu | Viazovska ($$E_8$$) |
+| Chứng minh một bổ đề so sánh then chốt | Ngô (Bổ đề Cơ bản) |
 | **Viết lại nền tảng** | **Scholze (perfectoid)** |
 
-So với [Ngô]({{ site.baseurl }}/contents/vi/chapter02/): cả hai đều đưa hình học vào số học / tự đẳng cấu, nhưng Ngô nhắm một đẳng thức so sánh cụ thể, còn Scholze đổi **tọa độ toàn cục** của hình học $$p$$-adic.
+So với [Ngô]({{ site.baseurl }}/contents/vi/chapter02/): cả hai đều đưa hình học vào số học / dạng tự đẳng cấu, nhưng Ngô nhắm tới một đẳng thức so sánh cụ thể, còn Scholze thay đổi **hệ tọa độ toàn cục** của hình học $$p$$-adic.
 
 ---
 
-## 6. Nghịch lý khái niệm
+## 6. Điều nghịch lý
 
-Phân nhánh “càng dữ” thường càng khó—thế nhưng lớp perfectoid **cố tình** sống ở vùng phân nhánh cực mạnh để có tilting đẹp. Nghịch lý sư phạm: đôi khi phải đi **sâu hơn vào độ khó** để tìm đối xứng đơn giản hóa. Tương tự triết lý “compactify trước khi đếm” hay “nâng lên bao trùm trước khi chiếu”: chọn không gian đúng quan trọng hơn cố tính trên không gian sai.
-
----
-
-## 7. Ghi chú chính xác
-
-- Fields 2018: trọng tâm perfectoid và hình học $$p$$-adic.  
-- Nhiều kết quả **cộng tác**; luôn kiểm tra đồng tác giả cho định lý cụ thể.  
-- “Perfectoid spaces” (Publ. Math. IHÉS, 2012) là mốc văn bản trung tâm.  
-- Không khẳng định perfectoid “thay mọi scheme” hay “xong local Langlands”.
+Phân nhánh "càng mạnh" thường càng khó, vậy mà lớp perfectoid lại **cố ý** nằm ở vùng phân nhánh cực mạnh để có được phép nghiêng đẹp. Điều đáng nhớ: đôi khi phải đi **sâu hơn vào chỗ khó** mới tìm được đối xứng giúp đơn giản hóa. Tương tự các ý tưởng "compact hóa trước khi đếm" hay "nâng lên không gian phủ trước khi chiếu xuống": chọn đúng không gian quan trọng hơn cố tính toán trên không gian sai.
 
 ---
 
-## Nhầm lẫn phổ biến
+## 7. Lưu ý cho chính xác
 
-| Khẳng định | Kết luận | Sửa |
+- Huy chương Fields 2018: trọng tâm là perfectoid và hình học $$p$$-adic.  
+- Nhiều kết quả là **công trình hợp tác**; luôn kiểm tra đồng tác giả của từng định lý cụ thể.  
+- Bài "Perfectoid spaces" (Publ. Math. IHÉS, 2012) là văn bản mốc trung tâm.  
+- Không khẳng định perfectoid "thay thế mọi lược đồ" hay "giải xong Langlands địa phương".
+
+---
+
+## Hiểu lầm thường gặp
+
+| Khẳng định | Đúng/sai | Sửa lại |
 |------------|----------|-----|
-| “Perfectoid thay mọi scheme.” | **Sai** | Là lớp đối tượng mạnh, không thay thế toàn bộ. |
-| “Tilting xóa số học.” | **Sai** | Tái tổ chức; số học trở lại sau chuyển thông tin. |
-| “Chỉ một định lý cô lập.” | **Sai** | Đổi nền tảng và ngôn ngữ lĩnh vực. |
-| “Condensed = toàn bộ Fields 2018.” | **Sai** | Condensed là hướng sau; citation tập trung perfectoid. |
-| “Chỉ thuần đại số, không hình học.” | **Sai** | Không gian, đối đồng điều, và hình học adic trung tâm. |
+| "Perfectoid thay thế mọi lược đồ." | **Sai** | Đây là một lớp đối tượng mạnh, không thay thế toàn bộ. |
+| "Phép nghiêng xóa bỏ số học." | **Sai** | Nó sắp xếp lại; số học quay trở lại sau khi chuyển thông tin. |
+| "Chỉ là một định lý riêng lẻ." | **Sai** | Nó thay đổi nền tảng và ngôn ngữ của cả lĩnh vực. |
+| "Toán học cô đặc là toàn bộ lý do của Fields 2018." | **Sai** | Toán học cô đặc là hướng đi sau này; lời trích dẫn tập trung vào perfectoid. |
+| "Chỉ thuần đại số, không có hình học." | **Sai** | Không gian, đối đồng điều và hình học adic là trung tâm. |
 
 ---
 
 ## Bài tập
 
-1. “Mixed characteristic” là gì trong một câu? Đưa một vành ví dụ.  
-2. Vì sao việc Frobenius trở thành đẳng cấu có thể giúp kiểm soát đối đồng điều?  
-3. Hai miền **ngoài** nền tảng thuần túy dùng ý tưởng perfectoid / $$p$$-adic hiện đại?  
-4. So medal “nền tảng mới” (Scholze) với medal “một bài toán tối ưu” (Viazovska) trong một đoạn.  
-5. Lướt introduction một survey perfectoid; liệt kê ba từ khóa học tiếp (adic space, untilt, pro-étale, …).  
-6. **Nối chương.** Một đoạn nối tilting Scholze với “hình học mở khóa giải tích” của Ngô: điểm giống và khác.  
-7. Giải thích vì sao “phân nhánh mạnh” lại có thể là **lợi thế** trong định nghĩa perfectoid.  
-8. Phân biệt sợi generic và sợi đặc trưng thặng dư trên $$\operatorname{Spec}\mathbb{Z}_p$$ ở mức slogan.
+1. "Đặc số hỗn hợp" là gì, nói trong một câu? Cho một ví dụ về vành.  
+2. Vì sao việc phép Frobenius trở thành đẳng cấu có thể giúp kiểm soát đối đồng điều?  
+3. Kể hai lĩnh vực **ngoài** phần nền tảng thuần túy có dùng ý tưởng perfectoid / hình học $$p$$-adic hiện đại.  
+4. Viết một đoạn so sánh huy chương cho "một nền tảng mới" (Scholze) với huy chương cho "một bài toán tối ưu" (Viazovska).  
+5. Đọc lướt phần mở đầu của một bài tổng quan về perfectoid; liệt kê ba từ khóa nên học tiếp (không gian adic, phép bỏ nghiêng (untilt), vị trí pro-étale, …).  
+6. **Liên hệ trong chương.** Viết một đoạn nối phép nghiêng của Scholze với ý "hình học mở khóa giải tích" của Ngô: điểm giống và điểm khác.  
+7. Giải thích vì sao "phân nhánh mạnh" lại có thể là một **lợi thế** trong định nghĩa perfectoid.  
+8. Phân biệt sơ lược thớ tổng quát và thớ đặc biệt trên $$\operatorname{Spec}\mathbb{Z}_p$$.
 
 ---
 
 
-## Nguồn video (gói math-video-researcher)
+## Nguồn video (bộ tư liệu nghiên cứu video)
 
 Chi tiết: `research/video-research/Scholze_Perfectoid/`.
 
 **Thứ tự xem gợi ý**
 
-1. IMU Fields Scholze: [YouTube](https://www.youtube.com/watch?v=jGHyAqztdLY).  
-2. Weinstein intro perfectoids: [YouTube](https://www.youtube.com/watch?v=RApkRqoiZ1I).  
-3. Quanta profile: [link](https://www.quantamagazine.org/peter-scholze-becomes-one-of-the-youngest-fields-medalists-ever-20180801/).
+1. Video của IMU về Scholze nhận giải Fields: [YouTube](https://www.youtube.com/watch?v=jGHyAqztdLY).  
+2. Weinstein giới thiệu không gian perfectoid: [YouTube](https://www.youtube.com/watch?v=RApkRqoiZ1I).  
+3. Bài chân dung trên Quanta: [link](https://www.quantamagazine.org/peter-scholze-becomes-one-of-the-youngest-fields-medalists-ever-20180801/).
 
-**Nhắc:** Perfectoid là **bộ công cụ** $$p$$-adic, không thay schemes cổ điển.
+**Nhắc lại:** perfectoid là một **bộ công cụ** cho hình học $$p$$-adic, không thay thế các lược đồ cổ điển.
 
 ---
 
 
-### Transcript & frames (batch extract)
+### Phụ đề và khung hình
 
-Transcript caption và unit theo thời gian: `research/video-research/Scholze_Perfectoid/transcripts/` · trạng thái: `research/video-research/Scholze_Perfectoid/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
+Phụ đề và các đoạn theo thời gian: `research/video-research/Scholze_Perfectoid/transcripts/` · trạng thái: `research/video-research/Scholze_Perfectoid/TRANSCRIPT_STATUS.md` · danh sách tổng: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
 
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/Scholze_Perfectoid_jGHyAqztdLY_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính (xem bộ tư liệu để biết mốc thời gian).*
 
 ## Tài liệu tham khảo
 
 
-Danh mục URL đầy đủ (mọi link khi nghiên cứu video): `research/video-research/Scholze_Perfectoid/references.md`.
+Danh sách URL đầy đủ (mọi đường dẫn tìm được khi nghiên cứu video): `research/video-research/Scholze_Perfectoid/references.md`.
 
 ### Danh sách URL đầy đủ
 
@@ -219,27 +219,27 @@ Danh mục URL đầy đủ (mọi link khi nghiên cứu video): `research/vide
 11. https://en.wikipedia.org/wiki/P-adic_number  
 12. https://www.mathematics.uni-bonn.de/people/scholze  
 
-### Gói nghiên cứu
+### Bộ tư liệu nghiên cứu
 
-13. Gói khóa học: `research/video-research/Scholze_Perfectoid/`.
+13. Bộ tư liệu của khóa học: `research/video-research/Scholze_Perfectoid/`.
 
-1. IMU Fields 2018 — Peter Scholze.  
+1. IMU, Huy chương Fields 2018 — Peter Scholze.  
 2. **P. Scholze**, *Perfectoid spaces*, *Publ. Math. IHÉS* (2012).  
-3. Survey / lecture notes perfectoid (Berkeley notes; các series bài giảng).  
-4. Bối cảnh: condensed mathematics (Scholze–Clausen)—đọc sau khi có perfectoid.  
+3. Các bài tổng quan / bài giảng về perfectoid (ghi chú Berkeley; các loạt bài giảng).  
+4. Bối cảnh: toán học cô đặc (Scholze–Clausen); nên đọc sau khi đã hiểu perfectoid.  
 5. Nhập môn: số $$p$$-adic, định giá, mở rộng phân nhánh (mức sơ lược).
 
 ---
 
 ## Hướng đi tiếp
 
-- Khám phá local Langlands và Shimura trong hình học $$p$$-adic.  
-- Đọc profile phổ thông kèm introduction kỹ thuật (hai lớp độc giả).  
-- So với bài [Ngô]({{ site.baseurl }}/contents/vi/chapter02/) và [Venkatesh]({{ site.baseurl }}/contents/vi/chapter02/).  
-- Ghi một câu hỏi chính xác—ví dụ “untilt không duy nhất nghĩa là gì trong thực hành?”  
-- Nếu thích nền tảng: theo dõi một talk ngắn về pro-étale site trước paper nặng.
+- Tìm hiểu Langlands địa phương và đa tạp Shimura trong hình học $$p$$-adic.  
+- Đọc một bài chân dung phổ thông cùng với một phần mở đầu kỹ thuật (hai kiểu người đọc).  
+- So sánh với bài [Ngô]({{ site.baseurl }}/contents/vi/chapter02/) và bài [Venkatesh]({{ site.baseurl }}/contents/vi/chapter02/).  
+- Ghi lại một câu hỏi cụ thể, ví dụ "phép bỏ nghiêng không duy nhất có ý nghĩa gì trong thực tế?"  
+- Nếu thích phần nền tảng: xem một bài giảng ngắn về vị trí pro-étale trước khi đọc các bài báo nặng.
 
 ## Video tham khảo
 
-- **xem trước** — [Fields Medal Winner 2018 Peter Scholze](https://www.youtube.com/watch?v=jGHyAqztdLY) — International Mathematical Union, tiếng Anh. Xem trước. “Fields Medal Winner 2018 Peter Scholze” định hướng cho mục tiêu của bài: Giải thích khó khăn mixed characteristic trong một đoạn mạch lạc (sợi generic char 0 ↔ sợi đặc trưng thặng dư char p).
-- [Fields Medal Symposium 2021: Jared Weinstein introduces Perfectoid Spaces](https://www.youtube.com/watch?v=RApkRqoiZ1I) — Fields Institute, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Giải thích khó khăn mixed characteristic trong một đoạn mạch lạc (sợi generic char 0 ↔ sợi đặc trưng thặng dư char p).
+- **Xem trước:** [Fields Medal Winner 2018 Peter Scholze](https://www.youtube.com/watch?v=jGHyAqztdLY) — International Mathematical Union, tiếng Anh. Video giới thiệu Scholze và công trình được giải Fields; nên xem trước khi đọc bài.
+- [Fields Medal Symposium 2021: Jared Weinstein introduces Perfectoid Spaces](https://www.youtube.com/watch?v=RApkRqoiZ1I) — Fields Institute, tiếng Anh. Jared Weinstein giới thiệu không gian perfectoid; nên xem sau khi đã nắm ý chính của bài.

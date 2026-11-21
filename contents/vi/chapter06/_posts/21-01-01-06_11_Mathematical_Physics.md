@@ -9,9 +9,9 @@ categories:
 - chapter06
 ---
 
-Vật lý sinh phương trình; **vật lý toán** hỏi phương trình nào có nghĩa chặt, cấu trúc nào ẩn bên trong, dự đoán nào sống như định lý chứ không chỉ thao tác formal. Từ ODE Newton qua PDE Maxwell, toán tử lượng tử trên Hilbert, large deviation thống kê, đến QFT còn axiomatize từng phần—đây là đàm phán dài giữa trực giác vật lý và chứng minh toán.
+Vật lý đưa ra các phương trình. **Vật lý toán** hỏi tiếp: phương trình nào có nghĩa chặt chẽ, cấu trúc nào nằm bên trong, và dự đoán nào đứng vững như một định lý chứ không chỉ là phép biến đổi hình thức. Từ phương trình vi phân thường của Newton, phương trình đạo hàm riêng của Maxwell, các toán tử lượng tử trên không gian Hilbert, lý thuyết độ lệch lớn trong cơ học thống kê, đến lý thuyết trường lượng tử mới được tiên đề hóa một phần, đây là một cuộc trao đổi lâu dài giữa trực giác vật lý và chứng minh toán học.
 
-Bài map cho biết đọc tương lai: continuum cổ điển, ngôn ngữ toán tử lượng tử, xác suất thống kê, gauge/hình học, bài mở (kể cả Clay)—gắn nhãn đã chứng / chuẩn vật lý / khát vọng.
+Bài này là bản đồ để bạn đọc tiếp các chủ đề: môi trường liên tục cổ điển, ngôn ngữ toán tử của cơ học lượng tử, xác suất trong cơ học thống kê, hình học và lý thuyết gauge, các bài toán mở (kể cả bài toán Clay). Mỗi chủ đề được ghi rõ: đã chứng minh, chuẩn mực của vật lý, hay mới là mục tiêu.
 
 ---
 
@@ -19,40 +19,40 @@ Bài map cho biết đọc tương lai: continuum cổ điển, ngôn ngữ toá
 
 Sau bài học, bạn có thể:
 
-- Ví dụ bài vật lý toán là **tồn tại/duy nhất/chính quy** PDE hoặc hệ động lực.
-- Giải thích vì sao QM dùng **toán tử tự liên hợp** và phổ (mức slogan); “QM chặt” thêm gì so tính textbook.
-- Mô tả trực giác giới hạn nhiệt động: luật vĩ mô từ xác suất vi mô.
-- Nêu gauge field nhắm gì hình học (connection, curvature) không đòi master QFT.
-- Phân biệt lý thuyết hiệu dụng vật lý, giả thuyết toán, rhetoric “theory of everything” (**LO6**).
-- Nêu ≥2 bài toán mở do vật lý thúc (chính quy NS, Yang–Mills constructive, turbulence…).
+- Cho ví dụ về bài toán vật lý toán dạng **tồn tại, duy nhất, chính quy** cho một phương trình đạo hàm riêng hoặc một hệ động lực.
+- Giải thích (ở mức ý chính) vì sao cơ học lượng tử dùng **toán tử tự liên hợp** và phổ, và cách làm chặt chẽ bổ sung gì so với cách tính trong sách giáo khoa.
+- Mô tả trực giác của giới hạn nhiệt động: định luật vĩ mô xuất hiện từ xác suất vi mô.
+- Nói được trường gauge mô tả đối tượng hình học nào (liên thông, độ cong) mà không cần thành thạo lý thuyết trường lượng tử.
+- Phân biệt lý thuyết hiệu dụng của vật lý, giả thuyết toán học, và cách nói kiểu "lý thuyết của mọi thứ".
+- Nêu ít nhất hai bài toán mở xuất phát từ vật lý (tính chính quy của Navier–Stokes, xây dựng Yang–Mills lượng tử, rối loạn…).
 
-**Kiến thức nền.** Giải tích nhiều biến; đại số tuyến tính; ODE. Nền vật lý giúp nhưng không bắt buộc cho bản đồ cấu trúc.
+**Kiến thức nền.** Giải tích nhiều biến; đại số tuyến tính; phương trình vi phân thường. Biết vật lý thì có lợi nhưng không bắt buộc để theo dõi bản đồ cấu trúc.
 
 ---
 
 ## 1. Vật lý toán là gì?
 
-**Toán được thúc bởi mô hình vật lý**, theo chuẩn chứng minh, và **vật lý được làm sáng bởi cấu trúc toán**. Phân văn hóa: PDE/giải tích, hình học/topology, xác suất, đại số (biểu diễn, vertex algebra).
+Đó là **toán học xuất phát từ mô hình vật lý**, làm theo chuẩn chứng minh, và **vật lý được làm sáng tỏ nhờ cấu trúc toán học**. Có nhiều nhánh: phương trình đạo hàm riêng và giải tích, hình học và tôpô, xác suất, đại số (lý thuyết biểu diễn, đại số đỉnh).
 
-Hình định lý điển hình:
+Các dạng định lý điển hình:
 
-- Well-posedness: tồn tại, duy nhất, phụ thuộc liên tục cho phương trình tiến hóa.  
-- Ổn định và tiệm cận: thư giãn về cân bằng, tán xạ.  
-- Dẫn xuất phương trình hiệu dụng: giới hạn continuum từ hệ hạt.  
-- Phân loại: pha, bất biến tôpô, cấu trúc bảo vệ đối xứng.  
-- Nghiệm exact / tích phân được: viên ngọc hiếm, đại số sâu.
+- Tính đặt chỉnh (well-posedness): tồn tại, duy nhất, phụ thuộc liên tục vào dữ kiện cho phương trình tiến hóa.  
+- Ổn định và dáng điệu tiệm cận: hồi phục về cân bằng, tán xạ.  
+- Suy ra phương trình hiệu dụng: giới hạn liên tục từ hệ nhiều hạt.  
+- Phân loại: các pha, bất biến tôpô, cấu trúc được đối xứng bảo vệ.  
+- Nghiệm chính xác, hệ khả tích: hiếm, và thường dựa trên đại số sâu.
 
 ---
 
-## 2. Trường cổ điển và continuum
+## 2. Trường cổ điển và môi trường liên tục
 
-PDE cho trường $$u(x,t)$$: chất lỏng (Navier–Stokes, Euler), đàn hồi, Maxwell, Einstein. **Tồn tại và trơn Navier–Stokes 3D** là bài Clay: dữ liệu ban đầu trơn năng lượng hữu hạn trên $$\mathbb{R}^3$$ cho nghiệm trơn toàn cục của NS không nén được không? Vật lý dùng phương trình hàng ngày; toán thiếu lý thuyết chính quy toàn cục đầy đủ ở case nổi tiếng nhất.
+Phương trình đạo hàm riêng cho trường $$u(x,t)$$: chất lỏng (Navier–Stokes, Euler), đàn hồi, Maxwell, Einstein. **Sự tồn tại và tính trơn của nghiệm Navier–Stokes 3 chiều** là một bài toán Clay: với dữ kiện ban đầu trơn, năng lượng hữu hạn trên $$\mathbb{R}^3$$, phương trình Navier–Stokes không nén được có luôn có nghiệm trơn toàn cục không? Vật lý dùng phương trình này hằng ngày, nhưng toán học vẫn chưa có lý thuyết chính quy toàn cục đầy đủ cho chính trường hợp nổi tiếng nhất.
 
-**Turbulence:** mô tả thống kê Reynolds cao, cascade năng lượng Kolmogorov—mảnh định lý, chưa lý thuyết đóng. Bảo toàn hyperbolic (sóng xung kích) cần nghiệm yếu và điều kiện entropy—giải tích sinh ra vì nghiệm classical vỡ.
+**Rối loạn (turbulence):** mô tả thống kê ở số Reynolds cao, thác năng lượng Kolmogorov. Đã có một số định lý, nhưng chưa có lý thuyết hoàn chỉnh. Các định luật bảo toàn hyperbolic (sóng xung kích) cần nghiệm yếu và điều kiện entropy; phần giải tích này ra đời vì nghiệm cổ điển bị vỡ.
 
-### Từ Stokes đến Maxwell: exterior calculus trong một trang
+### Từ Stokes đến Maxwell: giải tích trên dạng vi phân trong một trang
 
-Trước câu chuyện gauge đầy đủ ở §5, vật lý continuum đã dùng **từ điển giữa đạo hàm cục bộ và tích phân toàn cục**. **Định lý Stokes** cổ điển (dạng calculus vector): với trường vector trơn $$\mathbf F$$ và bề mặt định hướng $$S$$ có biên $$\partial S$$,
+Trước khi đến lý thuyết gauge ở §5, vật lý môi trường liên tục đã dùng **mối liên hệ giữa đạo hàm cục bộ và tích phân toàn cục**. **Định lý Stokes** cổ điển (dạng giải tích vectơ): với trường vectơ trơn $$\mathbf F$$ và mặt định hướng $$S$$ có biên $$\partial S$$,
 
 $$
 \oint_{\partial S} \mathbf F\cdot d\mathbf r
@@ -60,9 +60,9 @@ $$
 \iint_{S} (\nabla\times\mathbf F)\cdot d\mathbf S.
 $$
 
-**Slogan:** *lưu thông của $$\mathbf F$$ trên biên bằng thông lượng của curl qua bề mặt.* Mọi bề mặt có cùng biên định hướng cho cùng thông lượng của $$\nabla\times\mathbf F$$—đó là sức mạnh của đẳng thức.
+**Ý chính:** *lưu số của $$\mathbf F$$ dọc theo biên bằng thông lượng của rota qua mặt.* Mọi mặt có cùng biên định hướng cho cùng một thông lượng của $$\nabla\times\mathbf F$$. Đó là sức mạnh của đẳng thức này.
 
-**Ví dụ micro (đường tròn đơn vị / chỏm).** Lấy $$\mathbf F=(-y,x,0)$$. Khi đó $$\nabla\times\mathbf F=(0,0,2)$$. Trên đường tròn đơn vị trong mặt phẳng $$xy$$:
+**Ví dụ nhỏ (đường tròn đơn vị và chỏm cầu).** Lấy $$\mathbf F=(-y,x,0)$$. Khi đó $$\nabla\times\mathbf F=(0,0,2)$$. Trên đường tròn đơn vị trong mặt phẳng $$xy$$:
 
 $$
 \oint_{\partial S}\mathbf F\cdot d\mathbf r = 2\pi,
@@ -70,223 +70,217 @@ $$
 \iint_{S}(\nabla\times\mathbf F)\cdot d\mathbf S = 2\pi
 $$
 
-(ví dụ đĩa phẳng bán kính 1: thông lượng $$=2\cdot\mathrm{Area}=2\pi$$; chỏm cầu cùng vành cho cùng số nhờ Stokes). Animation phổ biến thường dừng ở khớp số; điểm vật lý toán là **cấu trúc**.
+(với đĩa phẳng bán kính 1: thông lượng $$=2\cdot\mathrm{Area}=2\pi$$; chỏm cầu có cùng đường biên cũng cho cùng kết quả nhờ định lý Stokes). Các video minh họa phổ biến thường dừng ở chỗ hai con số khớp nhau; điều vật lý toán quan tâm là **cấu trúc** phía sau.
 
 ![Stokes: lưu thông biên vs thông lượng curl]({{ site.baseurl }}/img/chapter_img/stokes_theorem_cap_curl_universomatematico.jpg)
 
-*Hình. Kiểm trực quan Stokes: lưu thông biên (cam) bằng thông lượng curl (xanh) qua bề mặt căng. Trường mẫu $$\mathbf F=(-y,x,0)$$. Nguồn: reel phổ biến (Universo Matematico).*
+*Hình. Kiểm tra trực quan định lý Stokes: lưu số trên biên (màu cam) bằng thông lượng của rota (màu xanh) qua mặt căng trên biên đó. Trường mẫu $$\mathbf F=(-y,x,0)$$. Nguồn: video ngắn phổ biến khoa học (Universo Matematico).*
 
-**Green / Stokes / Gauss cùng một họ.** Bằng ngôn ngữ **dạng vi phân**, các định lý này là thể hiện của **định lý Stokes tổng quát**
+**Green, Stokes, Gauss thuộc cùng một họ.** Trong ngôn ngữ **dạng vi phân**, các định lý này đều là trường hợp riêng của **định lý Stokes tổng quát**
 
 $$
 \int_{M} d\omega = \int_{\partial M} \omega
 $$
 
-với dạng $$\omega$$ trên đa tạp định hướng có biên (phù hợp). Đạo hàm ngoài $$d$$ là toán tử “cục bộ” thống nhất; biên là đối tác “toàn cục.” Cùng moral với nhiều dualty trong chương: dữ liệu cục bộ ràng buộc tích phân toàn cục và ngược lại.
+với dạng vi phân $$\omega$$ trên một đa tạp định hướng có biên (thỏa điều kiện thích hợp). Đạo hàm ngoài $$d$$ là toán tử "cục bộ" chung cho tất cả; biên là phía "toàn cục". Bài học giống nhiều phép đối ngẫu trong chương này: dữ liệu cục bộ ràng buộc tích phân toàn cục và ngược lại.
 
-**Maxwell bằng dạng.** Trường điện từ được đóng gói thành 2-form $$F$$ (cường độ trường). Trong đơn vị và quy ước spacetime phù hợp,
+**Phương trình Maxwell viết bằng dạng vi phân.** Trường điện từ được gói thành một 2-dạng $$F$$ (cường độ trường). Với đơn vị và quy ước không–thời gian thích hợp,
 
 $$
 dF=0,\qquad d\star F = J.
 $$
 
-Ở đây $$dF=0$$ là cặp thuần nhất (không monopole từ / cấu trúc cảm ứng Faraday, tùy đóng gói chiều và signature), còn $$d\star F=J$$ nối với dòng. Vì $$d\circ d=0$$, ta có slogan bảo toàn điện tích từ $$dJ=0$$ (khi $$J=d\star F$$). Exterior calculus không “giải Maxwell miễn phí,” nhưng làm trong suốt nội dung hình học—và chuẩn bị **connection và curvature** ở §5 (nơi $$F$$ trở thành curvature của connection gauge).
+Ở đây $$dF=0$$ là cặp phương trình thuần nhất (không có đơn cực từ; định luật cảm ứng Faraday), còn $$d\star F=J$$ liên hệ trường với dòng. Vì $$d\circ d=0$$, ta suy ra định luật bảo toàn điện tích $$dJ=0$$ (khi $$J=d\star F$$). Giải tích trên dạng vi phân không "giải phương trình Maxwell miễn phí", nhưng làm rõ nội dung hình học và chuẩn bị cho **liên thông và độ cong** ở §5 (ở đó $$F$$ trở thành độ cong của một liên thông gauge).
 
-**Biết đọc.** Dạng vi phân là nâng cấp ngôn ngữ, không thay phân tích well-posedness PDE. Liên kết: [Đối ngẫu như một nguyên lý]({{ site.baseurl }}/contents/vi/chapter06/06_12_Duality_Principle/); [Atiyah–Singer]({{ site.baseurl }}/contents/vi/chapter08/08_11_Atiyah_Singer_Index/).
+**Lưu ý.** Dạng vi phân là một ngôn ngữ tốt hơn, không thay cho việc phân tích tính đặt chỉnh của phương trình. Liên kết: [Đối ngẫu như một nguyên lý]({{ site.baseurl }}/contents/vi/chapter06/06_12_Duality_Principle/); [Atiyah–Singer]({{ site.baseurl }}/contents/vi/chapter08/08_11_Atiyah_Singer_Index/).
 
 ---
 
-## 3. Cơ học lượng tử như lý thuyết toán tử
+## 3. Cơ học lượng tử như một lý thuyết toán tử
 
-Trạng thái: vector đơn vị (hoặc density operator) trên Hilbert $$\mathcal{H}$$; quan sát: toán tử tự liên hợp; động lực: nhóm unitary $$e^{-itH/\hbar}$$ sinh bởi Hamiltonian $$H$$ (định lý Stone nối nhóm unitary liên tục mạnh với generator tự liên hợp). **Định lý phổ** biện minh “đo trị riêng” cho toán tử tốt.
+Trạng thái là vectơ đơn vị (hoặc toán tử mật độ) trên không gian Hilbert $$\mathcal{H}$$. Đại lượng quan sát là toán tử tự liên hợp. Động lực học là nhóm unita $$e^{-itH/\hbar}$$ sinh bởi Hamiltonian $$H$$ (định lý Stone nối nhóm unita liên tục mạnh với toán tử sinh tự liên hợp). **Định lý phổ** giải thích vì sao "kết quả đo là trị riêng" với các toán tử đủ tốt.
 
-QM chặt: domain toán tử unbounded, essential self-adjointness, tán xạ, ổn định vật chất (vì sao vật chất khối không sụp)—giải tích sâu, payoff vật lý. Path integral: heuristic vàng vật lý; measure-theoretic chặt tinh tế (Wiener imaginary time; Feynman real-time khó).
+Cơ học lượng tử chặt chẽ phải xử lý miền xác định của toán tử không bị chặn, tính tự liên hợp cốt yếu, lý thuyết tán xạ, và sự ổn định của vật chất (vì sao vật chất không sụp đổ). Phần giải tích rất sâu, nhưng đem lại hiểu biết vật lý thật. Tích phân đường là công cụ heuristic rất mạnh của vật lý; làm chặt bằng lý thuyết độ đo thì tinh tế (thời gian ảo: độ đo Wiener; thời gian thực kiểu Feynman: khó hơn nhiều).
 
-Nối [Thông tin lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/): Hilbert hữu hạn chiều và vướng víu là mặt thông tin của cùng thế giới tuyến tính.
+Liên hệ với [Thông tin lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/): không gian Hilbert hữu hạn chiều và vướng víu là mặt thông tin của cùng một thế giới tuyến tính.
 
 ---
 
 ## 4. Cơ học thống kê và xác suất
 
-Nhiệt động vĩ mô từ bậc tự do vi mô qua xác suất. Phân hoạch
+Nhiệt động học vĩ mô xuất hiện từ các bậc tự do vi mô thông qua xác suất. Hàm phân hoạch
 
 $$
 Z=\sum_{\text{states}} e^{-\beta E(s)},
 $$
 
-chuyển pha như không giải tích của free energy ở giới hạn nhiệt động, suy giảm tương quan. Ising, percolation: lab chứng minh chuyển pha và (2D) conformal invariance với định lý lớn.
+cho phép mô tả chuyển pha như chỗ năng lượng tự do mất tính giải tích trong giới hạn nhiệt động, và mô tả sự suy giảm tương quan. Mô hình Ising và mô hình thấm (percolation) là nơi người ta chứng minh được chuyển pha và (trong 2 chiều) tính bất biến bảo giác, với nhiều định lý lớn.
 
-Nonequilibrium—sản xuất entropy, fluctuation theorem, giới hạn thủy động—kém hoàn thiện, rất sôi. Large deviations (Cramér, Donsker–Varadhan): nguyên lý chi phí mũ cho sự kiện hiếm.
-
----
-
-## 5. Hình học, topology, gauge
-
-Gauge cổ điển: **connection** trên principal bundle; cường độ trường = curvature; matter = section của bundle liên kết. Chern–Weil: lớp đặc trưng ↔ dạng curvature—topology ràng buộc vật lý (monopole, số instanton).
-
-Donaldson / Seiberg–Witten: PDE gauge → cấu trúc 4-đa tạp trơn—toán được thụ tinh bởi vật lý, rồi trả bất biến mới. String / mirror symmetry: mạng giả thuyết rộng nối hình học đại số và bất biến enumerative; một mảnh là định lý, nhiều mảnh là chương trình.
-
-**Biết đọc.** Ngôn ngữ hình học ≠ unification đã xong. Nó là toolkit chính xác với thành công ngoạn mục và bài phân tích mở (Yang–Mills lượng tử constructive + mass gap: bài Clay khác).
+Vật lý ngoài cân bằng (sinh entropy, định lý thăng giáng, giới hạn thủy động lực) kém hoàn thiện hơn và đang được nghiên cứu sôi nổi. Lý thuyết độ lệch lớn (Cramér, Donsker–Varadhan) cho biết xác suất của sự kiện hiếm giảm theo hàm mũ.
 
 ---
 
-## 6. QFT: chuẩn vật lý, toán từng phần
+## 5. Hình học, tôpô và lý thuyết gauge
 
-QFT nhiễu loạn (Feynman, renormalization) cực thành công thực nghiệm trong vật lý hạt. **Constructive/axiomatic QFT** tìm hiện thực Hilbert/path-integral thỏa tiên đề (Wightman, Osterwalder–Schrader) ở chiều tương tác không tầm thường. Có kết quả chiều thấp/mô hình đặc biệt; lý thuyết 4D thực tế vẫn thách thức lớn.
+Lý thuyết gauge cổ điển: trường gauge là **liên thông** trên một phân thớ chính; cường độ trường là độ cong; trường vật chất là lát cắt của phân thớ liên kết. Lý thuyết Chern–Weil: lớp đặc trưng ↔ các dạng độ cong. Tôpô ràng buộc vật lý (đơn cực từ, số instanton).
 
-Effective field theory: vật lý năng lượng thấp có thể không nhạy chi tiết cao năng chưa biết—nguyên lý tổ chức với toán nhóm renormalization. Pha tôpô vật chất ngưng tụ: đại số toán tử, tensor category, index (ví dụ topological insulator).
+Donaldson và Seiberg–Witten: phương trình gauge cho ta thông tin về cấu trúc trơn của đa tạp 4 chiều. Toán học được vật lý gợi ý, rồi đem lại những bất biến mới. Lý thuyết dây và đối xứng gương: một mạng giả thuyết rộng nối hình học đại số với các bất biến đếm; một phần đã là định lý, phần lớn vẫn là chương trình nghiên cứu.
 
----
-
-## 7. Hệ động lực, chaos, tương đối tổng quát
-
-Cơ học thiên thể / Hamiltonian sinh hệ động lực hiện đại: tích phân được, KAM (bền chuyển động quasiperiodic dưới nhiễu), chaos, ergodicity. Einstein: hình học ↔ vật chất; GR toán: nhân quả toàn cục, định lý kỳ dị Penrose–Hawking, ổn định hố đen (tiến bộ lớn gần đây), kiểm duyệt vũ trụ (conjecture).
-
-Các vùng này minh họa chủ đề khóa: PDE vật lý sinh chương trình toán thuần kéo dài thập niên.
+**Lưu ý.** Có ngôn ngữ hình học không có nghĩa là đã thống nhất vật lý. Đó là một bộ công cụ chính xác với những thành công lớn, và vẫn còn các bài toán giải tích mở (xây dựng Yang–Mills lượng tử và khe khối lượng là một bài toán Clay khác).
 
 ---
 
-## 8. Tiên phong và giao chương
+## 6. Lý thuyết trường lượng tử: chuẩn mực của vật lý, toán học mới có một phần
 
-1. Chính quy/kỳ dị phương trình chất lỏng; chọn nghiệm yếu.  
-2. Many-body lượng tử: entanglement scaling, topological order.  
-3. SPDE (Hairer…): regularity structures làm phương trình formal trước đây thành chặt.  
-4. ML cho PDE và bài ngược—quyền năng thực nghiệm, lý thuyết thiếu (nối bài AI).  
-5. Homogenization và phân tích đa thang vật liệu.  
-6. Nền tảng QI many-body và độ phức tạp (nối complexity/quantum).
+Lý thuyết trường lượng tử nhiễu loạn (giản đồ Feynman, tái chuẩn hóa) thành công vượt bậc trong thực nghiệm vật lý hạt. **Lý thuyết trường lượng tử kiến thiết / tiên đề** tìm cách dựng các mô hình thỏa hệ tiên đề (Wightman, Osterwalder–Schrader) bằng không gian Hilbert hoặc tích phân đường, cho các lý thuyết có tương tác không tầm thường. Đã có kết quả cho số chiều thấp và một số mô hình đặc biệt; các lý thuyết 4 chiều thực tế vẫn là thách thức lớn.
 
-### Heat vs Navier–Stokes
+Lý thuyết trường hiệu dụng: vật lý năng lượng thấp có thể không phụ thuộc vào chi tiết ở năng lượng cao mà ta chưa biết. Đây là một nguyên lý tổ chức, với nền toán học là nhóm tái chuẩn hóa. Các pha tôpô của vật chất ngưng tụ dùng đại số toán tử, phạm trù tensor và lý thuyết chỉ số (ví dụ chất cách điện tôpô).
 
-Heat $$\partial_t u=\Delta u$$ trên $$\mathbb{R}^n$$: công dân mẫu—làm trơn tức thì, duy nhất dưới điều kiện ôn hòa, nguyên lý cực đại, kernel Gaussian tường minh. NS thêm $$(u\cdot\nabla)u$$ và $$\nabla\cdot u=0$$. Bất đẳng thức năng lượng kiểm soát một số norm; kiểm soát mọi đạo hàm toàn cục 3D còn mở (Clay). Số trị và mô hình turbulence kỹ thuật sống trong khoảng trống—**dự đoán hữu ích không có lý thuyết tồn tại đầy đủ** (chỉ loại suy với khoảng trống generalization DL).
+---
 
-### QM chặt mua gì?
+## 7. Hệ động lực, hỗn loạn, thuyết tương đối rộng
 
-Textbook chéo hóa ma trận hữu hạn, bỏ domain. Công việc chặt: Hamiltonian essentially self-adjoint trên domain tự nhiên? Tán xạ tồn tại? Phổ ổn định nhiễu? Định lý ổn định vật chất: năng lượng volume-extensive—lẽ thường vật lý thành giải tích cứng. Path integral, khi chặt, thành công cụ constructive QFT và cơ học thống kê chứ không chỉ ký hiệu formal.
+Cơ học thiên thể và cơ học Hamilton là nguồn gốc của lý thuyết hệ động lực hiện đại: hệ khả tích, định lý KAM (chuyển động tựa tuần hoàn vẫn tồn tại dưới nhiễu nhỏ), hỗn loạn, tính ergodic. Thuyết tương đối rộng của Einstein nối hình học với vật chất. Về mặt toán học, nó đặt ra các câu hỏi về cấu trúc nhân quả toàn cục, các định lý kỳ dị Penrose–Hawking, sự ổn định của lỗ đen (có tiến bộ lớn gần đây), và giả thuyết kiểm duyệt vũ trụ.
 
-| Chủ đề vật lý | Láng giềng Ch.6 |
+Các lĩnh vực này minh họa chủ đề của khóa học: phương trình vật lý tạo ra những chương trình toán thuần túy kéo dài hàng chục năm.
+
+---
+
+## 8. Hướng nghiên cứu và liên hệ với các bài khác
+
+1. Tính chính quy và kỳ dị của phương trình chất lỏng; cách chọn nghiệm yếu.  
+2. Hệ lượng tử nhiều hạt: quy luật vướng víu theo kích thước, trật tự tôpô.  
+3. Phương trình đạo hàm riêng ngẫu nhiên (Hairer và các tác giả khác): lý thuyết cấu trúc chính quy làm chặt chẽ những phương trình trước đây chỉ có nghĩa hình thức.  
+4. Học máy cho phương trình đạo hàm riêng và bài toán ngược: mạnh trong thực nghiệm, thiếu lý thuyết (liên hệ bài Toán học của AI).  
+5. Đồng nhất hóa (homogenization) và phân tích đa thang cho vật liệu.  
+6. Nền tảng của thông tin lượng tử nhiều hạt và độ phức tạp (liên hệ bài độ phức tạp và bài lượng tử).
+
+### Phương trình nhiệt và Navier–Stokes
+
+Phương trình nhiệt $$\partial_t u=\Delta u$$ trên $$\mathbb{R}^n$$ là ví dụ mẫu mực: nghiệm trơn ngay lập tức, duy nhất dưới điều kiện nhẹ, có nguyên lý cực đại, có nhân Gauss tường minh. Navier–Stokes thêm số hạng $$(u\cdot\nabla)u$$ và điều kiện $$\nabla\cdot u=0$$. Bất đẳng thức năng lượng kiểm soát được một số chuẩn, nhưng kiểm soát mọi đạo hàm một cách toàn cục trong 3 chiều vẫn là bài toán mở (bài toán Clay). Tính toán số và mô hình rối loạn trong kỹ thuật hoạt động trong khoảng trống này: **dự đoán hữu ích mà chưa có lý thuyết tồn tại đầy đủ** (có thể so sánh, chỉ như một phép loại suy, với khoảng trống lý thuyết về khả năng tổng quát hóa của học sâu).
+
+### Cơ học lượng tử chặt chẽ đem lại gì?
+
+Sách giáo khoa chéo hóa ma trận hữu hạn và bỏ qua miền xác định. Công việc chặt chẽ hỏi: Hamiltonian có tự liên hợp cốt yếu trên miền tự nhiên không? Các trạng thái tán xạ có tồn tại không? Phổ có ổn định dưới nhiễu không? Định lý ổn định của vật chất nói rằng năng lượng tỉ lệ với thể tích: một điều hiển nhiên về vật lý trở thành một kết quả giải tích khó. Khi được làm chặt, tích phân đường trở thành công cụ của lý thuyết trường lượng tử kiến thiết và cơ học thống kê, chứ không chỉ là ký hiệu hình thức.
+
+| Chủ đề vật lý | Bài liên quan trong Chương 6 |
 |---------------|-----------------|
-| Vướng víu many-body | Thông tin lượng tử |
+| Vướng víu nhiều hạt | Thông tin lượng tử |
 | Khó mô phỏng | Độ phức tạp |
-| Gradient flow continuum | Vận chuyển tối ưu |
-| Surrogate dữ liệu | Toán AI / ML theory |
+| Dòng gradient trong môi trường liên tục | Vận chuyển tối ưu |
+| Mô hình thay thế học từ dữ liệu | Toán học của AI / lý thuyết học máy |
 | Mạng tương tác | Khoa học mạng / sinh học toán |
-| Đối ngẫu (EM, S/T, holography, cầu Langlands) | [Đối ngẫu như một nguyên lý]({{ site.baseurl }}/contents/vi/chapter06/06_12_Duality_Principle/) |
+| Đối ngẫu (điện từ, S/T, nguyên lý toàn ảnh, cầu nối Langlands) | [Đối ngẫu như một nguyên lý]({{ site.baseurl }}/contents/vi/chapter06/06_12_Duality_Principle/) |
 
-### Studio seminar
+### Bài thực hành thảo luận
 
-Đọc mô tả ngắn một bài Clay gốc vật lý (NS hoặc Yang–Mills). Tách LO6: (a) phương trình vật lý dùng hàng ngày; (b) câu hỏi toán còn mở; (c) claim phổ thông nào gộp (a) với “đã giải”. Viết ba câu cho slide seminar: *đã biết / chưa biết / không được nói*.
+Đọc mô tả ngắn của một bài toán Clay có nguồn gốc vật lý (Navier–Stokes hoặc Yang–Mills). Tách ba phần: (a) phương trình vật lý được dùng hằng ngày; (b) câu hỏi toán học còn mở; (c) những cách nói phổ thông nào đánh đồng (a) với "đã giải xong". Viết ba câu cho một slide thảo luận: *đã biết / chưa biết / không được nói*.
 
 ---
 
-## Nhầm lẫn thường gặp
+## Những nhầm lẫn thường gặp
 
-| Tuyên bố | Sửa |
+| Khẳng định | Chỉnh lại |
 |----------|-----|
-| “Vật lý đã giải NS.” | Dùng kỹ thuật ≠ định lý Clay. |
-| “Path integral chặt mọi QFT.” | Heuristic vật lý; toán chưa đủ tổng quát. |
-| “Gauge = ToE đã chứng.” | Framework mạnh; unification là chương trình vật lý. |
-| “QM chỉ ma trận qubit.” | Toán tử vô hạn chiều quan trọng continuum. |
-| “Chuyển pha = simulation nhảy.” | Chuyển pha toán: giới hạn nhiệt động và kỳ dị. |
-| “Vật lý toán = chỉ PDE ứng dụng.” | Hình học, xác suất, đại số ngang hàng. |
-| “$$dF=0$$ chỉ là ký hiệu Maxwell hoa mỹ.” | Exterior calculus thống nhất định lý kiểu Stokes và làm trong suốt $$d^2=0$$ / bảo toàn. |
-| “Khớp số Stokes trên một ví dụ chứng minh Maxwell.” | Ví dụ kiểm Stokes cho một trường; Maxwell là hệ phương trình trường trên spacetime. |
+| "Vật lý đã giải xong Navier–Stokes." | Dùng được trong kỹ thuật không có nghĩa là đã giải bài toán Clay. |
+| "Tích phân đường làm chặt chẽ được mọi lý thuyết trường lượng tử." | Đó là công cụ heuristic của vật lý; toán học chưa đủ tổng quát. |
+| "Lý thuyết gauge = lý thuyết của mọi thứ đã được chứng minh." | Một khung lý thuyết mạnh; thống nhất vật lý vẫn là một chương trình. |
+| "Cơ học lượng tử chỉ là ma trận qubit." | Toán tử trên không gian vô hạn chiều là thiết yếu cho môi trường liên tục. |
+| "Chuyển pha = mô phỏng thấy số liệu nhảy." | Theo nghĩa toán học, chuyển pha là kỳ dị xuất hiện trong giới hạn nhiệt động. |
+| "Vật lý toán chỉ là phương trình đạo hàm riêng ứng dụng." | Hình học, xác suất và đại số quan trọng ngang nhau. |
+| "$$dF=0$$ chỉ là cách viết Maxwell cho đẹp." | Giải tích trên dạng vi phân thống nhất các định lý kiểu Stokes và làm rõ $$d^2=0$$ / định luật bảo toàn. |
+| "Kiểm tra Stokes khớp số trên một ví dụ là chứng minh được Maxwell." | Ví dụ chỉ kiểm tra định lý Stokes cho một trường; Maxwell là hệ phương trình trường trên không–thời gian. |
 
 ---
 
 ## Bài tập
 
-1. ODE Lipschitz: tồn tại/duy nhất cơ bản; đối chiếu độ mở NS.
-2. Vì sao quan sát cần phổ thực; self-adjointness bảo đảm thế nào (slogan).
-3. Hệ hai trạng thái năng lượng $$0,E$$: $$Z$$ và năng lượng trung bình theo $$\beta$$.
-4. **Stokes micro.** Với $$\mathbf F=(-y,x,0)$$, tính $$\nabla\times\mathbf F$$ và giải thích ≤80 từ vì sao tích phân đường quanh đường tròn đơn vị bằng thông lượng curl qua đĩa đơn vị.
-5. **Slogan dạng.** Mỗi ý một câu: $$dF=0$$ đóng gói gì, $$d\star F=J$$ đóng gói gì (Maxwell bằng form)?
-6. Một đoạn: dư thừa pha địa phương ↔ connection (heuristic).
-7. Hai bài Clay gốc vật lý; mỗi bài một câu cẩn thận.
-8. Chọn OT/mạng/QI/dualty: ba câu cầu PDE/xác suất/hình học vật lý.
-9. Đọc phổ thông ổn định hố đen; liệt kê định lý vs ẩn dụ.
+1. Phương trình vi phân thường với vế phải Lipschitz: phát biểu kết quả tồn tại và duy nhất cơ bản; so sánh với tình trạng còn mở của Navier–Stokes.
+2. Vì sao đại lượng quan sát cần có phổ thực, và tính tự liên hợp bảo đảm điều đó như thế nào (ý chính)?
+3. Hệ hai trạng thái với năng lượng $$0,E$$: tính $$Z$$ và năng lượng trung bình theo $$\beta$$.
+4. **Ví dụ Stokes.** Với $$\mathbf F=(-y,x,0)$$, tính $$\nabla\times\mathbf F$$ và giải thích (không quá 80 chữ) vì sao tích phân đường quanh đường tròn đơn vị bằng thông lượng của rota qua đĩa đơn vị.
+5. **Dạng vi phân.** Mỗi ý một câu: $$dF=0$$ chứa nội dung gì, $$d\star F=J$$ chứa nội dung gì (Maxwell viết bằng dạng vi phân)?
+6. Viết một đoạn: sự dư thừa của pha địa phương ↔ liên thông (lập luận gần đúng).
+7. Nêu hai bài toán Clay có nguồn gốc vật lý; mỗi bài một câu phát biểu cẩn thận.
+8. Chọn một trong các chủ đề vận chuyển tối ưu / mạng / thông tin lượng tử / đối ngẫu: viết ba câu nối nó với phương trình đạo hàm riêng, xác suất hoặc hình học trong vật lý.
+9. Đọc một bài phổ biến khoa học về sự ổn định của lỗ đen; liệt kê đâu là định lý, đâu là phép ẩn dụ.
 
 ---
 
+## Kiến thức rút ra từ nghiên cứu video
 
----
-
-## Kiến thức trích từ nghiên cứu video
-
-Tóm tắt cho seminar (đối chiếu nguồn viết; **không bịa transcript**). Gói: `research/video-research/mathematical-physics/analysis.md`.
+Tóm tắt dùng cho thảo luận (đã đối chiếu với nguồn viết; **không bịa nội dung phụ đề**). Gói: `research/video-research/mathematical-physics/analysis.md`.
 
 ### Trạng thái
 
-**Broad interface.** Many physical PDEs have incomplete global theories; Navier–Stokes regularity is a Clay Millennium Problem (**open** as of 2026). QFT axiomatization partial.
+**Lĩnh vực giao thoa rộng.** Nhiều phương trình đạo hàm riêng của vật lý chưa có lý thuyết toàn cục đầy đủ; tính chính quy của Navier–Stokes là một Bài toán Thiên niên kỷ của Viện Clay (vẫn **mở** tính đến 2026). Lý thuyết trường lượng tử mới được tiên đề hóa một phần.
 
-### Phát biểu / slogan cốt lõi
+### Phát biểu cốt lõi
 
-Navier–Stokes (Clay): global existence and smoothness of smooth finite-energy solutions to 3D incompressible NS on $$\mathbb{R}^3$$ is open. Spectral theorem / operator theory underpin QM rigorously in standard settings.
+Navier–Stokes (Clay): sự tồn tại toàn cục và tính trơn của nghiệm trơn, năng lượng hữu hạn cho phương trình Navier–Stokes không nén được 3 chiều trên $$\mathbb{R}^3$$ vẫn là bài toán mở. Định lý phổ và lý thuyết toán tử là nền tảng chặt chẽ của cơ học lượng tử trong các trường hợp chuẩn.
 
-### Định nghĩa cần cố định
+### Định nghĩa cần nắm chắc
 
-- **Mathematical physics.** Rigorous analysis of structures motivated by physics (not the same as theoretical physics practice).
-- **Weak solution.** Solution in a distributional / energy space sense, possibly singular.
+- **Vật lý toán.** Phân tích chặt chẽ các cấu trúc có nguồn gốc vật lý (khác với cách làm việc thường ngày của vật lý lý thuyết).
+- **Nghiệm yếu.** Nghiệm hiểu theo nghĩa hàm suy rộng hoặc trong một không gian năng lượng; có thể có kỳ dị.
 
-### Vệ sinh khái niệm
+### Những hiểu lầm cần tránh
 
-- Thinking physicists' successful numerical NS simulations close the Clay problem.
-- Conflating effective field theory practice with complete constructive QFT.
-
+- Nghĩ rằng các mô phỏng số Navier–Stokes thành công của giới vật lý đã giải quyết bài toán Clay.
+- Đánh đồng việc dùng lý thuyết trường hiệu dụng với một lý thuyết trường lượng tử kiến thiết hoàn chỉnh.
 
 ---
 
-## Nguồn video (gói math-video-researcher)
+## Nguồn video
 
-Dùng video để **định hướng và văn hóa nghiên cứu**, không thay chứng minh/bài báo gốc khi tuyên bố mang tính then chốt. Chi tiết xếp hạng: `research/video-research/mathematical-physics/`.
+Dùng video để **định hướng và hiểu không khí nghiên cứu**, không thay cho chứng minh hay bài báo gốc khi cần khẳng định điều then chốt. Chi tiết xếp hạng: `research/video-research/mathematical-physics/`.
 
 **Thứ tự gợi ý**
 
-1. **Cốt lõi** — Clay — Luis Caffarelli, Navier–Stokes existence and smoothness: [https://www.youtube.com/watch?v=ta6Q70y6YVU](https://www.youtube.com/watch?v=ta6Q70y6YVU).  
-2. **Biên** — Clay — Vladimir Šverak, report on Navier–Stokes: [https://www.youtube.com/watch?v=BaDxv5Z4LkU](https://www.youtube.com/watch?v=BaDxv5Z4LkU).  
-3. **Phụ** — Clay — Peter Constantin on NS: [https://www.youtube.com/watch?v=vw77s3yRlu0](https://www.youtube.com/watch?v=vw77s3yRlu0).  
-4. **Meta** — Millennium series playlist: [https://www.youtube.com/playlist?list=PL0NRmB0fnLJQMoxt798STT8ztdHHHa1TV](https://www.youtube.com/playlist?list=PL0NRmB0fnLJQMoxt798STT8ztdHHHa1TV).  
+1. **Cốt lõi:** Clay, Luis Caffarelli, sự tồn tại và tính trơn của Navier–Stokes: [https://www.youtube.com/watch?v=ta6Q70y6YVU](https://www.youtube.com/watch?v=ta6Q70y6YVU).  
+2. **Hướng nghiên cứu:** Clay, Vladimir Šverak, báo cáo về bài toán Navier–Stokes: [https://www.youtube.com/watch?v=BaDxv5Z4LkU](https://www.youtube.com/watch?v=BaDxv5Z4LkU).  
+3. **Bổ sung:** Clay, Peter Constantin về Navier–Stokes: [https://www.youtube.com/watch?v=vw77s3yRlu0](https://www.youtube.com/watch?v=vw77s3yRlu0).  
+4. **Tổng hợp:** danh sách phát loạt bài Thiên niên kỷ: [https://www.youtube.com/playlist?list=PL0NRmB0fnLJQMoxt798STT8ztdHHHa1TV](https://www.youtube.com/playlist?list=PL0NRmB0fnLJQMoxt798STT8ztdHHHa1TV).  
 
-**Nhắc trạng thái:** **Broad interface.** Many physical PDEs have incomplete global theories; Navier–Stokes regularity is a Clay Millennium Problem (**open** as of 2026). QFT axiomatization partial.
+**Nhắc lại trạng thái:** tính chính quy của Navier–Stokes vẫn là bài toán **mở** (tính đến 2026); lý thuyết trường lượng tử mới được tiên đề hóa một phần.
 
 ---
 
+### Phụ đề và khung hình
 
-### Transcript & frames (batch extract)
-
-Transcript caption và unit theo thời gian: `research/video-research/mathematical-physics/transcripts/` · trạng thái: `research/video-research/mathematical-physics/TRANSCRIPT_STATUS.md` · master: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
+Phụ đề và các đơn vị kiến thức theo thời gian: `research/video-research/mathematical-physics/transcripts/` · trạng thái: `research/video-research/mathematical-physics/TRANSCRIPT_STATUS.md` · danh sách chung: `research/video-research/NONFLAGSHIP_TRANSCRIPTS.md`.
 
 ![Frame mẫu video]({{ site.baseurl }}/img/video_research/nonflagships/mathematical-physics_ta6Q70y6YVU_thumb.jpg)
 
-*Hình. Frame mẫu từ video chính của gói (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính của gói (xem gói để biết mốc thời gian).*
 
 ## Tài liệu tham khảo
 
-1. Reed & Simon — Methods of Modern Mathematical Physics.
-2. Evans — PDE; Arnold — Classical Mechanics.
-3. Glimm & Jaffe — constructive truyền thống.
-4. Mô tả bài Clay (NS; Yang–Mills).
+1. Reed & Simon, *Methods of Modern Mathematical Physics*.
+2. Evans, *Partial Differential Equations*; Arnold, *Mathematical Methods of Classical Mechanics*.
+3. Glimm & Jaffe, truyền thống lý thuyết trường lượng tử kiến thiết.
+4. Mô tả chính thức các bài toán Clay (Navier–Stokes; Yang–Mills).
 5. [Thông tin lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/), [Độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/), [Vận chuyển tối ưu]({{ site.baseurl }}/contents/vi/chapter06/06_09_Optimal_Transport/), [Toán AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/).
 
 ---
-
 
 Danh mục URL đầy đủ: `research/video-research/mathematical-physics/references.md`.
 
 ### Video (lộ trình gợi ý)
 
-- Clay — Luis Caffarelli, Navier–Stokes existence and smoothness (CORE): https://www.youtube.com/watch?v=ta6Q70y6YVU
-- Clay — Vladimir Šverak, report on Navier–Stokes (FRONTIER): https://www.youtube.com/watch?v=BaDxv5Z4LkU
-- Clay — Peter Constantin on NS (SECONDARY): https://www.youtube.com/watch?v=vw77s3yRlu0
-- Millennium series playlist (META): https://www.youtube.com/playlist?list=PL0NRmB0fnLJQMoxt798STT8ztdHHHa1TV
+- Clay, Luis Caffarelli, sự tồn tại và tính trơn của Navier–Stokes (cốt lõi): https://www.youtube.com/watch?v=ta6Q70y6YVU
+- Clay, Vladimir Šverak, báo cáo về bài toán Navier–Stokes (hướng nghiên cứu): https://www.youtube.com/watch?v=BaDxv5Z4LkU
+- Clay, Peter Constantin về Navier–Stokes (bổ sung): https://www.youtube.com/watch?v=vw77s3yRlu0
+- Danh sách phát loạt bài Thiên niên kỷ (tổng hợp): https://www.youtube.com/playlist?list=PL0NRmB0fnLJQMoxt798STT8ztdHHHa1TV
 
-### Bài báo và web (từ gói nghiên cứu)
+### Bài báo và trang web (từ gói nghiên cứu)
 
-- Clay Math — Navier–Stokes equation: https://www.claymath.org/millennium/navier-stokes-equation/
-- Fefferman official Clay description PDF: https://www.claymath.org/wp-content/uploads/2022/06/navierstokes.pdf
-- Wikipedia — Mathematical physics: https://en.wikipedia.org/wiki/Mathematical_physics
-- Wikipedia — Navier–Stokes existence and smoothness: https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_existence_and_smoothness
-- Wikipedia — Yang–Mills existence and mass gap: https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_existence_and_mass_gap
-- Wikipedia — Spectral theorem: https://en.wikipedia.org/wiki/Spectral_theorem
+- Viện Clay, phương trình Navier–Stokes: https://www.claymath.org/millennium/navier-stokes-equation/
+- Mô tả chính thức của Fefferman cho Viện Clay (PDF): https://www.claymath.org/wp-content/uploads/2022/06/navierstokes.pdf
+- Wikipedia, Mathematical physics: https://en.wikipedia.org/wiki/Mathematical_physics
+- Wikipedia, Navier–Stokes existence and smoothness: https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_existence_and_smoothness
+- Wikipedia, Yang–Mills existence and mass gap: https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_existence_and_mass_gap
+- Wikipedia, Spectral theorem: https://en.wikipedia.org/wiki/Spectral_theorem
 
 ### Khóa học
 
@@ -294,15 +288,15 @@ Danh mục URL đầy đủ: `research/video-research/mathematical-physics/refer
 
 ## Hướng đi tiếp
 
-- **Bản đồ đối ngẫu (toán + vật lý):** [Đối ngẫu như một nguyên lý]({{ site.baseurl }}/contents/vi/chapter06/06_12_Duality_Principle/).
+- **Bản đồ đối ngẫu (toán và vật lý):** [Đối ngẫu như một nguyên lý]({{ site.baseurl }}/contents/vi/chapter06/06_12_Duality_Principle/).
 - [Thông tin lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/); [Độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/).
-- [Vận chuyển tối ưu]({{ site.baseurl }}/contents/vi/chapter06/06_09_Optimal_Transport/) cho gradient flow continuum.
-- Thực hành: không thứ nguyên hóa NS hoặc heat; Reynolds/Fourier; “tồn tại chặt” thêm gì cho simulation.
-- Đọc: một chương well-posedness PDE → một chương toán tử QM → phát biểu Clay → bản đồ dualty.
-- Nhật ký ba cột: *mô hình vật lý / định lý toán / khoảng trống mở*.
+- [Vận chuyển tối ưu]({{ site.baseurl }}/contents/vi/chapter06/06_09_Optimal_Transport/) cho dòng gradient trong môi trường liên tục.
+- Thực hành: đưa phương trình Navier–Stokes hoặc phương trình nhiệt về dạng không thứ nguyên; tìm số Reynolds / số Fourier; nghĩ xem "tồn tại theo nghĩa chặt chẽ" bổ sung gì cho mô phỏng.
+- Lộ trình đọc: một chương về tính đặt chỉnh của phương trình đạo hàm riêng → một chương về toán tử trong cơ học lượng tử → phát biểu bài toán Clay → bản đồ đối ngẫu.
+- Ghi chép ba cột: *mô hình vật lý / định lý toán học / khoảng trống còn mở*.
 
 ## Video tham khảo
 
-- **xem trước** — [Luis Caffarelli, Navier-Stokes existence and smoothness](https://www.youtube.com/watch?v=ta6Q70y6YVU) — Clay Mathematics Institute, tiếng Anh. Xem trước. “Luis Caffarelli, Navier-Stokes existence and smoothness” định hướng cho mục tiêu của bài: Ví dụ bài vật lý toán là tồn tại/duy nhất/chính quy PDE hoặc hệ động lực.
-- [Vladimir Šverak, A report on the Navier-Stokes Problem](https://www.youtube.com/watch?v=BaDxv5Z4LkU) — Clay Mathematics Institute, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Ví dụ bài vật lý toán là tồn tại/duy nhất/chính quy PDE hoặc hệ động lực.
-- [Peter Constantin, On the Navier Stokes equations](https://www.youtube.com/watch?v=vw77s3yRlu0) — Clay Mathematics Institute, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Ví dụ bài vật lý toán là tồn tại/duy nhất/chính quy PDE hoặc hệ động lực.
+- **Xem trước:** [Luis Caffarelli, Navier-Stokes existence and smoothness](https://www.youtube.com/watch?v=ta6Q70y6YVU) (Clay Mathematics Institute, tiếng Anh). Caffarelli giới thiệu bài toán Thiên niên kỷ về sự tồn tại và tính trơn của nghiệm Navier–Stokes. Nên xem trước khi đọc mục 2 và 8.
+- [Vladimir Šverak, A report on the Navier-Stokes Problem](https://www.youtube.com/watch?v=BaDxv5Z4LkU) (Clay Mathematics Institute, tiếng Anh). Báo cáo về tình trạng nghiên cứu bài toán Navier–Stokes. Nên xem lần thứ hai, khi đã nắm phát biểu bài toán.
+- [Peter Constantin, On the Navier Stokes equations](https://www.youtube.com/watch?v=vw77s3yRlu0) (Clay Mathematics Institute, tiếng Anh). Một góc nhìn bổ sung về phương trình Navier–Stokes, sau hai video trên.

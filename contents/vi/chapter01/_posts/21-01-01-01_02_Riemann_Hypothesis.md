@@ -9,11 +9,11 @@ categories:
 - chapter01
 ---
 
-**Giả thuyết Riemann (RH)** là một trong các bài toán Thiên niên kỷ của Viện Clay và, với nhiều nhà toán học, là bài toán mở quan trọng nhất của toán học thuần túy. Nó hỏi một câu hỏi chính xác về các không điểm của một hàm phức—**hàm zeta Riemann**—và, qua hàm đó, về cách các số nguyên tố phân bố trong các số nguyên.
+**Giả thuyết Riemann (RH)** là một trong các bài toán Thiên niên kỷ của Viện Clay, và nhiều nhà toán học xem đây là bài toán mở quan trọng nhất của toán học thuần túy. Nó đặt một câu hỏi chính xác về các không điểm của một hàm biến phức, **hàm zeta Riemann**, và thông qua hàm này, về cách các số nguyên tố phân bố trong tập số nguyên.
 
-Đây là bài **flagship Phần 1** của seminar Math Enthusiast: không phải bài báo nghiên cứu, mà là bản đồ cẩn thận về **RH nói gì**, **vì sao số nguyên tố quan tâm**, **bằng chứng nào đã có**, và **toán học nào đã lớn lên quanh câu hỏi đó**.
+Đây là **bài chính của Phần 1** trong khóa Math Enthusiast. Bài không phải một bài báo nghiên cứu, mà là một bản trình bày cẩn thận về **RH nói gì**, **vì sao nó liên quan đến số nguyên tố**, **đã có những bằng chứng nào**, và **những lĩnh vực toán học nào đã phát triển quanh câu hỏi này**.
 
-**Lộ trình:** số nguyên tố và đếm → tích Euler → zeta và thác triển → không điểm không tầm thường → RH → định lý số nguyên tố và sai số → vì sao khó → kết quả từng phần và các analogue → phần mở.
+**Nội dung bài:** số nguyên tố và bài toán đếm → tích Euler → hàm zeta và thác triển giải tích → không điểm không tầm thường → phát biểu RH → định lý số nguyên tố và sai số → vì sao RH khó → các kết quả từng phần và các trường hợp tương tự → những gì còn mở.
 
 ---
 
@@ -21,39 +21,39 @@ categories:
 
 Sau bài học, bạn có thể:
 
-- Phát biểu **giả thuyết Riemann** theo không điểm không tầm thường của $$\zeta(s)$$ và đường thẳng tới hạn $$\operatorname{Re}(s)=1/2$$.
-- Giải thích **tích Euler** nối $$\zeta(s)$$ với số nguyên tố (khi $$\operatorname{Re}(s)>1$$).
-- Phân biệt không điểm **tầm thường** và **không tầm thường**, và vì sao giả thuyết chỉ nói về loại sau.
-- Liên hệ RH với **định lý số nguyên tố** ở mức hạng chính so với hạng sai số (không cần chứng minh đầy đủ).
-- Nêu ít nhất hai dạng **tiến bộ từng phần** (kiểm tra số; vùng không zero / định lý mật độ; analogue trên trường hàm).
-- Tránh nhầm lẫn phổ biến (RH không phải “công thức cho số nguyên tố thứ $$n$$”; kiểm tra nhiều không điểm không phải chứng minh).
+- Phát biểu **giả thuyết Riemann** qua các không điểm không tầm thường của $$\zeta(s)$$ và đường thẳng tới hạn $$\operatorname{Re}(s)=1/2$$.
+- Giải thích cách **tích Euler** nối $$\zeta(s)$$ với các số nguyên tố (khi $$\operatorname{Re}(s)>1$$).
+- Phân biệt không điểm **tầm thường** và **không tầm thường**, và giải thích vì sao giả thuyết chỉ nói về loại thứ hai.
+- Liên hệ RH với **định lý số nguyên tố**: định lý cho số hạng chính, RH cho số hạng sai số (không cần chứng minh đầy đủ).
+- Nêu ít nhất hai loại **kết quả từng phần** (kiểm tra bằng máy tính; vùng không có không điểm và định lý mật độ; trường hợp tương tự trên trường hàm).
+- Tránh các hiểu lầm phổ biến (RH không phải là "công thức cho số nguyên tố thứ $$n$$"; kiểm tra được nhiều không điểm không phải là chứng minh).
 
-**Kiến thức nền.** Số phức như điểm trên mặt phẳng; chuỗi và tích vô hạn như đối tượng hình thức; ý tưởng số nguyên tố thưa dần nhưng không hết. Không cần giáo trình giải tích phức—phần thác triển mang tính khái niệm.
+**Kiến thức cần có.** Biểu diễn số phức như điểm trên mặt phẳng; chuỗi và tích vô hạn như các biểu thức hình thức; biết rằng số nguyên tố thưa dần nhưng không bao giờ hết. Không cần học giải tích phức; phần thác triển giải tích chỉ trình bày ở mức khái niệm.
 
-**Liên kết seminar.** Hỗ trợ **LO1** (giải thích bài toán mở lớn) và một phần **LO2** (các khái niệm “kích thước/đều đặn”). Ghép tự nhiên: sinh đôi nguyên tố; BSD; khám phá về dự đoán số nguyên tố.
+**Liên hệ với mục tiêu khóa học.** Bài hỗ trợ **mục tiêu 1** (giải thích một bài toán mở lớn) và một phần **mục tiêu 2** (các khái niệm về "kích thước" và "tính đều đặn"). Nên đọc kèm: số nguyên tố sinh đôi; BSD; bài thực hành về dự đoán số nguyên tố.
 
 ---
 
 ## 1. RH thực sự hỏi gì về số nguyên tố?
 
-Gọi $$\pi(x)$$ là số lượng số nguyên tố không vượt quá $$x$$. Các số nguyên tố thưa dần nhưng Euclid đã biết có vô hạn. Câu hỏi định lượng hiện đại: **$$\pi(x)$$ tăng như thế nào?**
+Gọi $$\pi(x)$$ là số các số nguyên tố không vượt quá $$x$$. Số nguyên tố thưa dần, nhưng từ thời Euclid người ta đã biết có vô hạn số nguyên tố. Câu hỏi định lượng hiện đại là: **$$\pi(x)$$ tăng như thế nào?**
 
-Gauss và những người khác đoán $$\pi(x)$$ xấp xỉ
+Gauss và một số người khác dự đoán $$\pi(x)$$ xấp xỉ
 
 $$
 \operatorname{li}(x) = \int_2^x \frac{dt}{\log t}
 $$
 
-(hoặc $$x/\log x$$). **Định lý số nguyên tố (PNT)**, do Hadamard và de la Vallée Poussin chứng minh độc lập năm 1896, làm chặt hạng chính:
+(hoặc $$x/\log x$$). **Định lý số nguyên tố (PNT)**, được Hadamard và de la Vallée Poussin chứng minh độc lập năm 1896, khẳng định số hạng chính:
 
 $$
 \pi(x) \sim \operatorname{li}(x) \qquad (x\to\infty).
 $$
 
-RH ở **tầng chính xác tiếp theo**: sau khi trừ hạng chính, **sai số còn lại có thể lớn đến mức nào?** Các không điểm của zeta điều khiển sai số đó. Khẩu hiệu:
+RH nằm ở **mức chính xác tiếp theo**: sau khi trừ đi số hạng chính, **phần sai số còn lại có thể lớn đến đâu?** Các không điểm của hàm zeta quyết định phần sai số đó. Tóm tắt:
 
 - PNT: số nguyên tố có mật độ trung bình dự đoán được.
-- RH: mật độ đó **đều** theo mức tối ưu mà bức tranh giải tích cho phép—không có “bất quy tắc ẩn” từ không điểm lệch đường tới hạn.
+- RH: mật độ đó **đều đặn** ở mức tốt nhất mà lý thuyết giải tích cho phép, không có "bất thường ẩn" nào gây ra bởi các không điểm nằm ngoài đường tới hạn.
 
 ![Đếm nguyên tố: hạng chính và sai số (sơ đồ)]({{ site.baseurl }}/img/chapter_img/riemann_pnt_error.svg)
 
@@ -71,7 +71,13 @@ RH ở **tầng chính xác tiếp theo**: sau khi trừ hạng chính, **sai s�
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/zeta-euler-product_vi.mp4"></video>
 </div>
 
-Cộng 1/n² trên mọi số nguyên n ≤ x và nhân 1/(1 − p⁻²) chỉ trên các số nguyên tố p ≤ x đều tiến tới π²/6 ≈ 1,6449. Đây là đẳng thức Euler (tổng trên số nguyên = tích trên số nguyên tố) tại s = 2.
+Cộng $$1/n^2$$ trên mọi số nguyên $$n \le x$$ và nhân $$1/(1-p^{-2})$$ chỉ trên các số nguyên tố $$p \le x$$ đều tiến tới $$\pi^2/6 \approx 1.6449$$. Đây là đẳng thức Euler (tổng trên số nguyên = tích trên số nguyên tố) tại $$s=2$$.
+
+
+### Tự tay thử: Cộng và nhân: cùng một giới hạn
+
+<div class="mex-explainer" data-mex="zeta" data-lang="vi"></div>
+
 
 
 ## 2. Hàm zeta và tích Euler
@@ -82,26 +88,26 @@ $$
 \zeta(s) = \sum_{n=1}^{\infty} n^{-s} = 1 + 2^{-s} + 3^{-s} + 4^{-s} + \cdots.
 $$
 
-Chuỗi hội tụ tuyệt đối trên nửa mặt phẳng đó. Euler nhận ra cùng một hàm phân tích thành tích trên số nguyên tố:
+Chuỗi này hội tụ tuyệt đối trên nửa mặt phẳng đó. Euler nhận thấy cùng hàm này phân tích được thành tích theo các số nguyên tố:
 
 $$
 \zeta(s) = \prod_{p\ \text{prime}} \bigl(1 - p^{-s}\bigr)^{-1}, \qquad \operatorname{Re}(s)>1.
 $$
 
-Mọi số nguyên có phân tích nguyên tố duy nhất; khai triển tích thu lại chuỗi. Vậy **$$\zeta(s)$$ là từ điển giữa “mọi số nguyên” và “mọi số nguyên tố.”**
+Vì mỗi số nguyên có phân tích thừa số nguyên tố duy nhất, khai triển tích này sẽ cho lại đúng chuỗi ban đầu. Như vậy **$$\zeta(s)$$ là cầu nối giữa "tất cả các số nguyên" và "tất cả các số nguyên tố".**
 
-### Hộp cầu nối — vì sao số nguyên tố “nói chuyện” với không điểm (đọc chậm)
+### Khung giải thích: vì sao số nguyên tố liên quan đến không điểm (nên đọc chậm)
 
-Sinh viên thường gặp hai slogan trông rời: (A) “RH là về không điểm của zeta,” và (B) “RH là về số nguyên tố.” Đây là **mạch một chiều** nối chúng—không cần công thức explicit đầy đủ.
+Người học thường gặp hai câu có vẻ không liên quan: (A) "RH nói về không điểm của hàm zeta" và (B) "RH nói về số nguyên tố". Dưới đây là chuỗi lập luận nối hai câu đó, không cần đến công thức tường minh đầy đủ.
 
-1. **Nguyên tố dựng zeta (tích Euler).** Với $$\operatorname{Re}(s)>1$$, phân tích duy nhất biến chuỗi theo số nguyên thành tích theo nguyên tố. Đổi tập nguyên tố là đổi $$\zeta$$.  
-2. **Zeta thác triển ra ngoài vùng tích.** Thác triển giải tích + phương trình hàm định nghĩa $$\zeta(s)$$ trên cả mặt phẳng (cực tại $$s=1$$). Không điểm không tầm thường nằm trong dải tới hạn dù tích Euler không hội tụ ở đó.  
-3. **Công thức explicit (slogan).** Tổng có trọng trên nguyên tố (hoặc lũy thừa nguyên tố) viết lại được bằng tổng trên không điểm của $$\zeta$$. Mỗi không điểm góp một hạng dao động; phần thực $$\beta=\operatorname{Re}(\rho)$$ kiểm soát biên độ dao động.  
-4. **Sai số đếm nguyên tố.** Định lý số nguyên tố là hạng chính của $$\pi(x)$$ (hoặc $$\psi(x)$$). **Độ lớn phần dư** bị chi phối bởi không điểm cách đường $$\operatorname{Re}(s)=1/2$$ bao xa. RH là khẳng định đều mạnh nhất rằng mọi không điểm không tầm thường có $$\beta=1/2$$, từ đó cho biên sai số cổ điển sạch nhất (kèm nhân tử log trong các phát biểu chuẩn).
+1. **Số nguyên tố xác định hàm zeta (tích Euler).** Với $$\operatorname{Re}(s)>1$$, nhờ phân tích thừa số duy nhất, chuỗi theo các số nguyên trở thành tích theo các số nguyên tố. Thay đổi tập số nguyên tố thì $$\zeta$$ cũng thay đổi.  
+2. **Hàm zeta được mở rộng ra ngoài miền của tích.** Thác triển giải tích cùng phương trình hàm cho phép định nghĩa $$\zeta(s)$$ trên toàn mặt phẳng (với một cực tại $$s=1$$). Các không điểm không tầm thường nằm trong dải tới hạn, nơi tích Euler không hội tụ.  
+3. **Công thức tường minh (nói gọn).** Một tổng có trọng số theo các số nguyên tố (hoặc lũy thừa của số nguyên tố) có thể viết lại thành tổng theo các không điểm của $$\zeta$$. Mỗi không điểm đóng góp một số hạng dao động; phần thực $$\beta=\operatorname{Re}(\rho)$$ quyết định biên độ của dao động đó.  
+4. **Sai số khi đếm số nguyên tố.** Định lý số nguyên tố cho số hạng chính của $$\pi(x)$$ (hoặc $$\psi(x)$$). **Độ lớn của phần dư** phụ thuộc vào việc các không điểm cách đường $$\operatorname{Re}(s)=1/2$$ bao xa. RH là khẳng định mạnh nhất về tính đều đặn: mọi không điểm không tầm thường đều có $$\beta=1/2$$, và từ đó suy ra cận sai số cổ điển tốt nhất (kèm thừa số log trong các phát biểu chuẩn).
 
-**RH *không* là gì.** Không phải công thức “liệt kê nguyên tố tiếp theo.” Đó là **ràng buộc phổ** trên zeta, qua từ điển trên trở thành **ràng buộc mức độ bất quy tắc của việc đếm nguyên tố**.
+**RH *không* phải là gì.** RH không phải công thức "cho số nguyên tố tiếp theo". Nó là một **ràng buộc về phổ** của hàm zeta, và thông qua chuỗi lập luận trên, trở thành **ràng buộc về mức độ bất thường khi đếm số nguyên tố**.
 
-**Kiểm micro.** Với $$\operatorname{Re}(s)>1$$ tích hội tụ và $$\zeta(s)\neq 0$$—vậy các không điểm bí ẩn *không* đọc được bằng cách “cắm nguyên tố vào tích” trong dải tới hạn. Thác triển trước; không điểm sau; nguyên tố lại qua công thức explicit.
+**Kiểm tra nhanh.** Với $$\operatorname{Re}(s)>1$$, tích hội tụ và $$\zeta(s)\neq 0$$. Vì vậy không thể tìm các không điểm trong dải tới hạn bằng cách "thay số nguyên tố vào tích". Thứ tự là: thác triển trước, rồi tìm không điểm, rồi quay lại số nguyên tố qua công thức tường minh.
 
 ![Tích Euler]({{ site.baseurl }}/img/chapter_img/riemann_euler_product.svg)
 
@@ -111,25 +117,25 @@ Sinh viên thường gặp hai slogan trông rời: (A) “RH là về không đ
 
 *Hình. Chuỗi Dirichlet của $$\zeta(s)$$ (Quanta); tích Euler viết lại cùng đối tượng bằng số nguyên tố.*
 
-Nếu chỉ có hữu hạn số nguyên tố, tích sẽ hữu hạn các nhân tử giải tích khác không trên $$\operatorname{Re}(s)>1$$, và $$\zeta$$ không thể có cực tại $$s=1$$. Chuỗi điều hòa $$\sum 1/n$$ phân kỳ nên $$\zeta(s)\to\infty$$ khi $$s\to 1^+$$—một đường khác tới vô hạn số nguyên tố. Lý thuyết số giải tích mài giũa từ điển này xa hơn nhiều so với chỉ “vô hạn.”
+Nếu chỉ có hữu hạn số nguyên tố thì tích chỉ gồm hữu hạn nhân tử giải tích khác 0 trên $$\operatorname{Re}(s)>1$$, và $$\zeta$$ không thể có cực tại $$s=1$$. Nhưng chuỗi điều hòa $$\sum 1/n$$ phân kỳ nên $$\zeta(s)\to\infty$$ khi $$s\to 1^+$$; đây là một cách khác để chứng minh có vô hạn số nguyên tố. Lý thuyết số giải tích khai thác mối liên hệ này sâu hơn rất nhiều so với chỉ khẳng định "có vô hạn".
 
 ---
 
-## 3. Thác triển giải tích và phương trình hàm (chỉ ý tưởng)
+## 3. Thác triển giải tích và phương trình hàm (chỉ nêu ý tưởng)
 
-Chuỗi $$\sum n^{-s}$$ chỉ hội tụ khi $$\operatorname{Re}(s)>1$$. Riemann chỉ ra $$\zeta(s)$$ mở rộng thành hàm **phân hình** trên cả mặt phẳng phức: chỉnh hình khắp nơi trừ **cực đơn tại $$s=1$$**.
+Chuỗi $$\sum n^{-s}$$ chỉ hội tụ khi $$\operatorname{Re}(s)>1$$. Riemann chỉ ra rằng $$\zeta(s)$$ mở rộng được thành một hàm **phân hình** trên toàn mặt phẳng phức: chỉnh hình ở mọi nơi trừ **một cực đơn tại $$s=1$$**.
 
-Còn có **phương trình hàm** nối $$\zeta(s)$$ với $$\zeta(1-s)$$ (thường gói với nhân tử Gamma thành hàm xi hoàn chỉnh, nguyên và đối xứng qua $$\operatorname{Re}(s)=1/2$$). Không cần thuộc lòng công thức. Điều quan trọng:
+Ngoài ra còn có **phương trình hàm** nối $$\zeta(s)$$ với $$\zeta(1-s)$$ (thường được viết gọn cùng thừa số Gamma thành hàm xi đầy đủ, là hàm nguyên và đối xứng qua đường $$\operatorname{Re}(s)=1/2$$). Không cần thuộc công thức. Điều quan trọng là:
 
-1. Zeta được định nghĩa cả bên trái $$\operatorname{Re}(s)=1$$, không chỉ bằng chuỗi.  
-2. Đối xứng của phương trình hàm làm đường $$\operatorname{Re}(s)=1/2$$ đặc biệt.  
-3. Không điểm chia hai họ.
+1. Hàm zeta được định nghĩa cả ở bên trái đường $$\operatorname{Re}(s)=1$$, không chỉ qua chuỗi.  
+2. Tính đối xứng của phương trình hàm làm cho đường $$\operatorname{Re}(s)=1/2$$ trở nên đặc biệt.  
+3. Các không điểm chia thành hai họ.
 
 ![Không điểm tầm thường và không tầm thường]({{ site.baseurl }}/img/chapter_img/riemann_trivial_vs_nontrivial.svg)
 
 *Hình. Không điểm tầm thường đã hiểu; không điểm không tầm thường nằm trong dải tới hạn.*
 
-**Không điểm tầm thường** tại các số chẵn âm $$s=-2,-4,-6,\ldots$$—được “giải thích” bởi nhân tử Gamma; không phải bí ẩn của RH.
+**Không điểm tầm thường** nằm tại các số nguyên chẵn âm $$s=-2,-4,-6,\ldots$$; chúng được giải thích bởi thừa số Gamma và không phải là bí ẩn của RH.
 
 **Không điểm không tầm thường** nằm trong **dải tới hạn**
 
@@ -137,15 +143,15 @@ $$
 0 < \operatorname{Re}(s) < 1.
 $$
 
-Chúng vô hạn về số lượng; phần ảo tăng không bị chặn. RH chỉ nói về chúng.
+Có vô hạn không điểm như vậy, với phần ảo tăng không bị chặn. RH chỉ nói về các không điểm này.
 
 ---
 
 ## 4. Phát biểu giả thuyết Riemann
 
-**Giả thuyết Riemann.** Mọi không điểm không tầm thường của $$\zeta(s)$$ có phần thực đúng bằng $$1/2$$.
+**Giả thuyết Riemann.** Mọi không điểm không tầm thường của $$\zeta(s)$$ đều có phần thực bằng đúng $$1/2$$.
 
-Tương đương: mọi không điểm không tầm thường nằm trên **đường thẳng tới hạn**
+Nói cách khác, mọi không điểm không tầm thường đều nằm trên **đường thẳng tới hạn**
 
 $$
 \operatorname{Re}(s) = \tfrac12.
@@ -165,25 +171,25 @@ $$
 
 **RH *không* nói gì.**
 
-- Không cho công thức sơ cấp đóng cho số nguyên tố thứ $$n$$.  
-- Không khẳng định số nguyên tố “ngẫu nhiên” theo nghĩa ngây thơ—dù mô hình ngẫu nhiên hữu ích.  
-- Không được giải bằng việc tính $$N$$ không điểm đầu trên đường, với mọi $$N$$ hữu hạn.
+- RH không cho một công thức sơ cấp dạng đóng cho số nguyên tố thứ $$n$$.  
+- RH không khẳng định số nguyên tố là "ngẫu nhiên" theo nghĩa thông thường, dù các mô hình ngẫu nhiên rất hữu ích.  
+- RH không thể được chứng minh bằng cách tính $$N$$ không điểm đầu tiên trên đường tới hạn, dù $$N$$ hữu hạn lớn đến đâu.
 
-**RH *có* nói gì.** Trong các không điểm ảnh hưởng phân bố nguyên tố qua công thức tường minh, không có không điểm lệch đường đối xứng. Không điểm lệch đường sẽ bơm dao động lớn hơn vào sai số $$\pi(x)-\operatorname{li}(x)$$.
+**RH *có* nói gì.** Trong số các không điểm ảnh hưởng đến phân bố số nguyên tố qua công thức tường minh, không có không điểm nào nằm ngoài đường đối xứng. Một không điểm nằm ngoài đường sẽ làm sai số $$\pi(x)-\operatorname{li}(x)$$ dao động mạnh hơn.
 
 ---
 
-## 5. Vì sao không điểm điều khiển số nguyên tố
+## 5. Vì sao không điểm quyết định phân bố số nguyên tố
 
-Có vòng ý tưởng gọi là **công thức tường minh** (Riemann, von Mangoldt, và các tinh chỉnh sau): tổng trên số nguyên tố (hoặc lũy thừa nguyên tố) liên hệ với tổng trên không điểm của zeta.
+Có một nhóm kết quả gọi là **công thức tường minh** (Riemann, von Mangoldt, và các cải tiến sau này): chúng liên hệ tổng theo các số nguyên tố (hoặc lũy thừa của số nguyên tố) với tổng theo các không điểm của hàm zeta.
 
-Đại ý: muốn biết $$\pi(x)$$ “lắc” quanh hạng chính bao nhiêu, mỗi không điểm $$\rho=\beta+i\gamma$$ đóng góp một hạng dao động nhạy với phần thực $$\beta$$. Không điểm với $$\beta$$ gần $$1$$ hơn cho phép sai số lớn hơn. RH khẳng định phần thực tệ nhất trong các không điểm không tầm thường là $$1/2$$, dẫn tới chặn sai số gần tối ưu dạng
+Nói đại ý: để biết $$\pi(x)$$ dao động quanh số hạng chính bao nhiêu, ta xét từng không điểm $$\rho=\beta+i\gamma$$; mỗi không điểm đóng góp một số hạng dao động phụ thuộc vào phần thực $$\beta$$. Không điểm có $$\beta$$ càng gần $$1$$ thì sai số càng có thể lớn. RH khẳng định phần thực lớn nhất trong các không điểm không tầm thường là $$1/2$$, dẫn đến cận sai số gần tối ưu dạng
 
 $$
 \pi(x) = \operatorname{li}(x) + O\bigl(x^{1/2}\log x\bigr)
 $$
 
-(theo các phát biểu kỹ thuật chuẩn). Không có RH, vẫn có chặn sai số nhưng yếu hơn, đến từ **vùng không zero** gần $$\operatorname{Re}(s)=1$$—công cụ của chứng minh PNT cổ điển.
+(theo các phát biểu kỹ thuật chuẩn). Không dùng RH, ta vẫn có cận sai số nhưng yếu hơn, suy ra từ **vùng không có không điểm** gần đường $$\operatorname{Re}(s)=1$$; đây là công cụ của chứng minh PNT cổ điển.
 
 Chuỗi logic:
 
@@ -191,9 +197,9 @@ $$
 \text{không điểm của }\zeta \;\longleftrightarrow\; \text{dao động khi đếm nguyên tố} \;\longleftrightarrow\; \text{chất lượng hạng sai số}.
 $$
 
-RH là khẳng định đều đặn mạnh nhất về mắt xích đầu trong bối cảnh zeta cổ điển.
+Trong bối cảnh hàm zeta cổ điển, RH là khẳng định mạnh nhất về tính đều đặn ở mắt xích đầu tiên.
 
-**Hình ảnh “hài hòa” (Quanta / Kontorovich).** Hãy nghĩ thang đếm nguyên tố đã sửa (bước $$\log p$$ tại lũy thừa nguyên tố). Riemann cho thấy thang này được dựng lại bằng tổng **các hài hòa dao động** gắn với không điểm zeta: hạng chính liên quan cực tại $$s=1$$, cộng hiệu chỉnh từ mỗi không điểm không tầm thường. Thêm không điểm làm khớp thang gồ ghề tốt hơn. **Vị trí** không điểm ($$\beta=\operatorname{Re}(\rho)$$ lớn cỡ nào) quyết định sai số có thể lớn đến mức nào—đó là cách RH “nắm” phân bố nguyên tố.
+**Hình ảnh "các họa âm" (Quanta / Kontorovich).** Hãy hình dung hàm đếm số nguyên tố đã điều chỉnh, có dạng bậc thang (nhảy một bước $$\log p$$ tại mỗi lũy thừa của số nguyên tố). Riemann chỉ ra rằng bậc thang này có thể dựng lại bằng tổng của **các dao động điều hòa** gắn với các không điểm của zeta: số hạng chính ứng với cực tại $$s=1$$, cộng thêm phần hiệu chỉnh từ mỗi không điểm không tầm thường. Càng thêm nhiều không điểm, tổng càng khớp với bậc thang gồ ghề. **Vị trí** của các không điểm (giá trị $$\beta=\operatorname{Re}(\rho)$$ lớn đến đâu) quyết định sai số có thể lớn đến mức nào; đó là cách RH chi phối phân bố số nguyên tố.
 
 ![Thang đếm nguyên tố và xấp xỉ trơn]({{ site.baseurl }}/img/chapter_img/rh_prime_counting_harmonics_quanta.jpg)
 
@@ -203,34 +209,34 @@ RH là khẳng định đều đặn mạnh nhất về mắt xích đầu trong
 
 ## 6. Vì sao RH khó?
 
-**Không có sắp xếp sơ cấp ngắn.** Khác chứng minh vô hạn nguyên tố của Euclid, RH không phải lập luận ngắn chỉ về phân tích thừa số.
+**Không có lập luận sơ cấp ngắn gọn.** Khác với chứng minh của Euclid về vô hạn số nguyên tố, RH không phải là một lập luận ngắn chỉ dựa trên phân tích thừa số.
 
-**Kiểm soát toàn cục từ dữ liệu địa phương.** Không điểm là đặc trưng toàn cục của hàm giải tích. Ước lượng một vùng trên dải không tự động ghim mọi không điểm lên đường.
+**Cần kiểm soát toàn cục từ thông tin cục bộ.** Không điểm là đặc trưng toàn cục của một hàm giải tích. Ước lượng trên một vùng của dải tới hạn không tự động đặt được mọi không điểm lên đường tới hạn.
 
-**Rào cản với chiến lược “hiển nhiên”.** Nhiều cách tiếp cận cho thông tin từng phần (hầu hết không điểm gần đường; mật độ; không không điểm trong vùng nào đó) mà không buộc đúng đường cho mọi không điểm.
+**Các chiến lược "hiển nhiên" đều gặp trở ngại.** Nhiều cách tiếp cận cho thông tin từng phần (hầu hết không điểm nằm gần đường tới hạn; ước lượng mật độ; không có không điểm trong một vùng nào đó), nhưng không buộc được mọi không điểm nằm đúng trên đường.
 
-**Độ sâu của các analogue.** Khi các phát biểu song song *được* chứng minh (zeta của đường cong trên trường hữu hạn), chứng minh dùng hình học đại số nặng—không phải khuôn dễ chép sang $$\zeta(s)$$ trên số nguyên.
+**Các trường hợp tương tự rất sâu.** Khi các phát biểu tương tự *đã* được chứng minh (hàm zeta của đường cong trên trường hữu hạn), chứng minh dùng hình học đại số rất nặng, và không thể chuyển dễ dàng sang $$\zeta(s)$$ trên tập số nguyên.
 
-Khó ở đây là **kháng cự của phát biểu đúng bằng**, không phải thiếu tiến bộ. Lĩnh vực giàu định lý giả định RH, tiến gần RH, hoặc thay RH bằng giả thuyết yếu hơn vẫn hữu ích.
+Cái khó ở đây là **phát biểu đòi đẳng thức chính xác rất khó chứng minh**, chứ không phải lĩnh vực này thiếu tiến bộ. Có rất nhiều định lý giả định RH, tiến gần đến RH, hoặc thay RH bằng các giả thuyết yếu hơn nhưng vẫn hữu ích.
 
 ---
 
 ## 7. Bằng chứng và kết quả từng phần
 
-### Bằng chứng số
+### Bằng chứng bằng tính toán
 
-Hàng tỷ—và các dự án hiện đại lên tới hàng nghìn tỷ—không điểm không tầm thường đã được kiểm tra nằm trên đường tới hạn. Đó là bằng chứng mạnh và thành tựu công nghệ; **không** phải chứng minh. Một phản ví dụ ở độ cao khổng lồ sẽ phủ định RH; chưa biết phản ví dụ nào. Máy tính không thể kiểm tra tới vô hạn.
+Hàng tỷ không điểm không tầm thường, và trong các dự án hiện đại là hàng nghìn tỷ, đã được kiểm tra là nằm trên đường tới hạn. Đó là bằng chứng mạnh và là một thành tựu kỹ thuật, nhưng **không** phải chứng minh. Chỉ cần một phản ví dụ ở độ cao rất lớn là RH sai; hiện chưa biết phản ví dụ nào. Máy tính không thể kiểm tra đến vô hạn.
 
 ### Kết quả lý thuyết từng phần
 
-- **Vùng không-không-điểm** gần $$\operatorname{Re}(s)=1$$—suy ra PNT và sai số hiệu quả.  
-- **Định lý mật độ**—chặn số không điểm xa đường tới hạn.  
-- **Tỷ lệ dương trên đường**—một tỷ lệ dương không điểm không tầm thường nằm trên $$\operatorname{Re}(s)=1/2$$ (Selberg; các cải tiến sau).  
-- **Moment và pair correlation**—mô hình thống kê không điểm (gồm heuristic ma trận ngẫu nhiên) khớp dữ liệu đáng kể.
+- **Vùng không có không điểm** gần $$\operatorname{Re}(s)=1$$: suy ra PNT với sai số cụ thể.  
+- **Định lý mật độ**: chặn trên số không điểm nằm xa đường tới hạn.  
+- **Tỷ lệ dương trên đường tới hạn**: một tỷ lệ dương các không điểm không tầm thường nằm trên $$\operatorname{Re}(s)=1/2$$ (Selberg; các cải tiến sau này).  
+- **Mômen và tương quan cặp**: các mô hình thống kê của không điểm (kể cả các lập luận gần đúng từ ma trận ngẫu nhiên) khớp với dữ liệu một cách đáng chú ý.
 
-### Analogue trên trường hàm và hình học
+### Các trường hợp tương tự trên trường hàm và trong hình học
 
-Với zeta gắn đường cong (và đa tạp) trên trường hữu hạn, analogue của RH được **Weil** (đường cong) và **Deligne** (phạm vi rộng hơn) chứng minh. Chúng là trụ cột hình học số học hiện đại—cho thấy phát biểu “kiểu RH” có thể đúng ở thế giới lân cận—trong khi zeta gốc của $$\mathbb{Q}$$ vẫn mở.
+Với hàm zeta của đường cong (và đa tạp) trên trường hữu hạn, phiên bản tương tự của RH đã được **Weil** (cho đường cong) và **Deligne** (cho trường hợp tổng quát hơn) chứng minh. Đây là những trụ cột của hình học số học hiện đại, cho thấy các phát biểu "kiểu RH" có thể đúng trong những bối cảnh gần gũi, trong khi hàm zeta gốc trên $$\mathbb{Q}$$ vẫn còn mở.
 
 ![Dòng thời gian]({{ site.baseurl }}/img/chapter_img/riemann_timeline.svg)
 
@@ -238,144 +244,144 @@ Với zeta gắn đường cong (và đa tạp) trên trường hữu hạn, ana
 
 ---
 
-## 8. Nếu RH đúng thì được gì?
+## 8. Nếu RH đúng thì ta được gì?
 
-Một mạng lưới định lý có điều kiện trong lý thuyết số giải tích giả định RH hoặc RH tổng quát cho hàm $$L$$ Dirichlet. Chủ đề gồm:
+Rất nhiều định lý có điều kiện trong lý thuyết số giải tích giả định RH, hoặc RH tổng quát cho các hàm $$L$$ Dirichlet. Các chủ đề gồm:
 
-- Sai số mạnh khi đếm nguyên tố trong cấp số cộng.  
-- Chặn liên quan non-residue bậc hai nhỏ nhất, số lớp, và thống kê số học khác.  
-- Nhiều ước lượng “gần tối ưu” mà không điều kiện chỉ có dạng yếu hơn.
+- Sai số tốt khi đếm số nguyên tố trong cấp số cộng.  
+- Các cận liên quan đến số không chính phương modulo $$p$$ nhỏ nhất, số lớp, và các đại lượng số học khác.  
+- Nhiều ước lượng "gần tối ưu" mà nếu không có điều kiện thì chỉ chứng minh được ở dạng yếu hơn.
 
-Ngược lại, nhiều ứng dụng chỉ cần thay thế yếu hơn. Lý thuyết số chuyên nghiệp không “ngồi chờ RH mới làm được gì”—nhưng RH vẫn là chuẩn cho các hạng sai số cổ điển mạnh nhất.
+Mặt khác, nhiều ứng dụng chỉ cần những phát biểu thay thế yếu hơn. Các nhà lý thuyết số không "ngồi chờ RH"; nhưng RH vẫn là chuẩn mực cho các cận sai số cổ điển mạnh nhất.
 
 ---
 
-## 9. RH giữa các bài toán lớn khác
+## 9. RH so với các bài toán lớn khác
 
-| Bài toán | Hương vị | Liên hệ RH |
+| Bài toán | Loại câu hỏi | Liên hệ với RH |
 |----------|----------|------------|
-| Sinh đôi nguyên tố | Mẫu cộng tính | Cùng thế giới nguyên tố; công cụ khác (sàng) |
-| BSD | Hạng đường cong elliptic qua hàm $$L$$ | Triết lý chị em: giá trị/không điểm đặc biệt mã hóa số học |
-| P vs NP | Độ phức tạp tính toán | Cơ chế khác; cùng vai trò văn hóa “bài toán trung tâm” |
-| Kakeya (dimension) | Độ đo hình học / giải tích | Lĩnh vực khác; cùng thưởng cho khái niệm kích thước chính xác |
+| Số nguyên tố sinh đôi | Cấu trúc cộng tính | Cùng thế giới số nguyên tố; công cụ khác (phương pháp sàng) |
+| BSD | Hạng của đường cong elliptic qua hàm $$L$$ | Cùng tư tưởng: giá trị đặc biệt và không điểm mã hóa thông tin số học |
+| P vs NP | Độ phức tạp tính toán | Cơ chế khác; cùng vai trò "bài toán trung tâm" của một ngành |
+| Kakeya (số chiều) | Lý thuyết độ đo hình học / giải tích | Lĩnh vực khác; cùng đòi hỏi khái niệm kích thước chính xác |
 
-Với seminar, RH là nguyên mẫu: **một phát biểu giải tích sạch, độ sâu thế kỷ, hệ quả có điều kiện rộng.**
-
----
-
-## 10. Nhầm lẫn thường gặp
-
-1. **“Đã kiểm tra tỷ không điểm nên đúng.”** — Bằng chứng, không phải chứng minh.  
-2. **“RH cho công thức số nguyên tố thứ $$n$$.”** — Nó ràng buộc sai số hàm đếm; không phải công thức sơ cấp đóng cho $$p_n$$.  
-3. **“Không điểm tầm thường phá RH.”** — Không; RH chỉ về không điểm không tầm thường.  
-4. **“Zeta chỉ là chuỗi $$\sum n^{-s}$$. ”** — Chuỗi định nghĩa khi $$\operatorname{Re}(s)>1$$; RH sống trong thác triển giải tích.  
-5. **“Nếu RH sai, không còn định lý nào về nguyên tố.”** — PNT và nhiều kết quả là vô điều kiện.
+Trong khóa học, RH là ví dụ mẫu của **một phát biểu giải tích gọn gàng, đã tồn tại hơn một thế kỷ, với rất nhiều hệ quả có điều kiện.**
 
 ---
 
-## Thách thức và mở rộng
+## 10. Hiểu lầm thường gặp
 
-1. Phát biểu RH một câu không dùng chữ “giả thuyết”, rồi một câu chỉ còn zero, real part, one-half.  
-2. Vì sao đồng nhất với tích Euler cần phân tích thừa số duy nhất?  
-3. Nếu có không điểm phần thực $$0.9$$, dao động của $$\pi(x)-\operatorname{li}(x)$$ kỳ vọng lớn hơn hay nhỏ hơn so với khi có RH?  
-4. RH đúng trên đường cong trường hữu hạn nhưng mở với $$\zeta(s)$$ nghĩa là gì?  
-5. **LO6:** Tìm bài phổ thông về RH; đánh dấu một câu phóng đại bằng chứng số thành chứng minh, hoặc nhầm không điểm tầm thường.
+1. **"Đã kiểm tra hàng tỷ không điểm nên RH đúng."** Đó là bằng chứng, không phải chứng minh.  
+2. **"RH cho công thức tính số nguyên tố thứ $$n$$."** RH ràng buộc sai số của hàm đếm; nó không phải công thức sơ cấp dạng đóng cho $$p_n$$.  
+3. **"Các không điểm tầm thường làm RH sai."** Không; RH chỉ nói về các không điểm không tầm thường.  
+4. **"Hàm zeta chỉ là chuỗi $$\sum n^{-s}$$. "** Chuỗi chỉ định nghĩa hàm khi $$\operatorname{Re}(s)>1$$; RH nói về hàm sau khi thác triển giải tích.  
+5. **"Nếu RH sai thì không còn định lý nào về số nguyên tố."** PNT và nhiều kết quả khác không phụ thuộc vào RH.
+
+---
+
+## Câu hỏi thử thách và mở rộng
+
+1. Phát biểu RH trong một câu không dùng từ "giả thuyết", rồi một câu chỉ dùng các khái niệm không điểm, phần thực và một phần hai.  
+2. Vì sao đẳng thức tích Euler cần đến phân tích thừa số nguyên tố duy nhất?  
+3. Nếu có một không điểm với phần thực $$0.9$$, dao động của $$\pi(x)-\operatorname{li}(x)$$ sẽ lớn hơn hay nhỏ hơn so với khi RH đúng?  
+4. Việc RH đúng cho đường cong trên trường hữu hạn nhưng vẫn mở cho $$\zeta(s)$$ có nghĩa là gì?  
+5. **Mục tiêu 6:** tìm một bài viết phổ thông về RH; đánh dấu một câu xem bằng chứng tính toán như chứng minh, hoặc nhầm lẫn về không điểm tầm thường.
 
 ---
 
 ## Bài tập
 
-1. **Khởi động.** Lấy ba số nguyên tố $$p$$; kiểm tra số rằng $$(1-p^{-2})^{-1}$$ bằng tổng chuỗi hình học $$1+p^{-2}+p^{-4}+\cdots$$.  
+1. **Khởi động.** Chọn ba số nguyên tố $$p$$; kiểm tra bằng số rằng $$(1-p^{-2})^{-1}$$ bằng tổng cấp số nhân $$1+p^{-2}+p^{-4}+\cdots$$.  
 2. **Định nghĩa.** Viết định nghĩa: dải tới hạn; đường tới hạn; không điểm tầm thường; không điểm không tầm thường; RH.  
-3. **PNT và RH.** PNT khẳng định gì, và RH bổ sung thông tin gì?  
-4. **Phản thực.** Ai đó công bố không điểm tại $$s=0.6+1000i$$. Có phủ định RH không? Có phủ định PNT không?  
-5. **Tổng hợp (luyện A3).** ≤400 từ: giải thích RH cho bạn học chỉ biết giải tích một biến: gồm tích Euler, không điểm không tầm thường, và một câu về sai số đếm nguyên tố.  
-6. **Đọc nghiên cứu.** Lướt trang Clay về RH; ghi yêu cầu giải thưởng. Tùy chọn: nêu một survey (Titchmarsh; Edwards; Ivić; hoặc bài phổ biến hiện đại) và đối tượng bạn đọc.
+3. **PNT và RH.** PNT khẳng định điều gì, và RH bổ sung thông tin gì?  
+4. **Giả định ngược.** Có người công bố một không điểm tại $$s=0.6+1000i$$. Điều đó có làm RH sai không? Có làm PNT sai không?  
+5. **Tổng hợp (luyện cho bài A3).** Không quá 400 từ: giải thích RH cho một bạn chỉ mới học giải tích một biến, gồm tích Euler, không điểm không tầm thường, và một câu về sai số khi đếm số nguyên tố.  
+6. **Đọc tài liệu nghiên cứu.** Đọc lướt trang của Viện Clay về RH; ghi lại điều kiện nhận giải. Không bắt buộc: nêu một cuốn sách tổng quan (Titchmarsh; Edwards; Ivić; hoặc một bài phổ biến hiện đại) và đối tượng độc giả của nó.
 
 ---
 
-## Từ lộ trình video / survey: định lý từng phần so với RH đầy đủ
+## Từ các video và bài tổng quan: kết quả từng phần so với RH đầy đủ
 
-Các bài giảng phổ thông (Quanta/Kontorovich; Conrey; Vaaler) và survey (Bombieri/Clay; Conrey Notices) cùng nhấn mạnh một bảng học viên cần giữ:
+Các bài giảng phổ thông (Quanta/Kontorovich; Conrey; Vaaler) và các bài tổng quan (Bombieri/Clay; Conrey trên Notices) đều nhấn mạnh bảng sau mà người học cần nhớ:
 
-| Tầng | Đã biết (khẩu hiệu) | Còn mở |
+| Mức | Đã biết (tóm tắt) | Còn mở |
 |------|---------------------|--------|
-| Không có zero trên $$\operatorname{Re}(s)=1$$ | Liên hệ chuẩn với **định lý số nguyên tố** | — |
-| Vùng không zero gần $$\operatorname{Re}(s)=1$$ | Kiểm soát một phần sai số | Chưa sát đường tới hạn |
-| Tỷ lệ zero *trên* đường tới hạn | Kết quả tỷ lệ dương (Hardy–Littlewood → … → Conrey) | **100%** zero không tầm thường trên đường |
-| Tương tự trường hữu hạn | Weil / Deligne: dạng RH **đã chứng minh** cho zeta đường cong | Không tự động cho $$\zeta(s)$$ |
-| Kiểm tra số | Hàng tỷ zero trên đường | Bằng chứng, **không** phải chứng minh |
+| Không có không điểm trên $$\operatorname{Re}(s)=1$$ | Liên hệ chuẩn với **định lý số nguyên tố** | — |
+| Vùng không có không điểm gần $$\operatorname{Re}(s)=1$$ | Kiểm soát được một phần sai số | Chưa sát được đến đường tới hạn |
+| Tỷ lệ không điểm *trên* đường tới hạn | Kết quả tỷ lệ dương (Hardy–Littlewood → … → Conrey) | **100%** không điểm không tầm thường nằm trên đường |
+| Trường hợp tương tự trên trường hữu hạn | Weil / Deligne: dạng RH **đã được chứng minh** cho hàm zeta của đường cong | Không tự động suy ra cho $$\zeta(s)$$ |
+| Kiểm tra bằng máy tính | Hàng tỷ không điểm nằm trên đường | Là bằng chứng, **không** phải chứng minh |
 
-**Tình trạng (2026):** RH cho zeta cổ điển vẫn **mở**—một trong sáu bài toán Thiên niên kỷ Clay chưa giải.
+**Tình trạng (2026):** RH cho hàm zeta cổ điển vẫn **còn mở**; đây là một trong sáu bài toán Thiên niên kỷ của Viện Clay chưa được giải.
 
-**LO1 / LO6:** sau mọi video, viết hai câu: (1) RH *nói gì*; (2) “bằng chứng” trong video là tính toán, định lý mật độ, hay tương tự—không viết “kiểm nhiều zero ⇒ RH đúng.”
-
----
-
-## Mode C — ghi chú tái dựng từ video flagship
-
-*Tái dựng tri thức (không dán transcript). Đối chiếu các mục trên và survey Clay/Bombieri. Caption: `research/video-research/Riemann_Hypothesis/transcripts/`.*
-
-### C1. Định hướng Quanta / Kontorovich
-
-Ba hình ảnh cần giữ tách:
-
-1. **Tích Euler** ($$\operatorname{Re}(s)>1$$) là lý do zero có thể điều khiển số nguyên tố.  
-2. **Thắc triển giải tích:** định nghĩa chuỗi không phải toàn bộ; cần hàm mở rộng trên dải tới hạn.  
-3. **Đường tới hạn là khẳng định:** hình ảnh nhiều zero trên đường là **bằng chứng hình**, không phải chứng minh. Kiểm số lớn (hàng tỷ/nghìn tỷ zero trong báo cáo tính toán) vẫn là **kiểm hữu hạn**.
-
-**Bẫy LO6:** “Máy tính kiểm nhiều zero ⇒ RH đúng.”
-
-### C2. Nền kiểu Vaaler (bài Millennium)
-
-Thứ tự: phân tích thừa số nguyên tố → tích Euler → $$\pi(x)$$ và sai số → zero. **Định lý số nguyên tố** là định lý; **RH** mạnh hơn và vẫn mở. Đừng để RH nuốt PNT như thể PNT còn là giả thuyết.
-
-### C3. Văn hóa “beyond RH” (clip frontier)
-
-Các kết quả “vượt RH” thường nghĩa: hệ quả số học mạnh hơn, hoặc chứng minh không điều kiện qua rào cũ—**không** nghĩa “RH sai.” “Kỷ lục thế giới” về số nguyên tố trong cấp số / cơ số không phải lời giải RH. Đọc tiêu đề bài báo trước khi trích 23%.
-
-**Nhắc:** RH cổ điển cho $$\zeta(s)$$ vẫn mở (2026).
-
-### C4. Điều hướng
-
-`TRANSCRIPT_STATUS.md` và `*_knowledge_units.json` (~90s). Bài viết chấm điểm phải **tái diễn đạt** bằng ký hiệu bài này.
+**Mục tiêu 1 / mục tiêu 6:** sau mỗi video, viết hai câu: (1) RH *nói gì*; (2) "bằng chứng" trong video là tính toán, định lý mật độ, hay trường hợp tương tự. Đừng viết "kiểm tra nhiều không điểm nên RH đúng".
 
 ---
 
-## Nguồn video (gói math-video-researcher)
+## Phần C: ghi chú tổng hợp từ các video chính
 
-Dùng video cho **định hướng và văn hóa nghiên cứu**, không thay chứng minh (chưa có cho RH cổ điển). Xếp hạng đầy đủ: `research/video-research/Riemann_Hypothesis/`.
+*Phần này tổng hợp lại kiến thức (không chép phụ đề). Hãy đối chiếu với các mục ở trên và bài tổng quan của Clay/Bombieri. Phụ đề: `research/video-research/Riemann_Hypothesis/transcripts/`.*
+
+### C1. Định hướng từ Quanta / Kontorovich
+
+Ba ý cần tách bạch:
+
+1. **Tích Euler** ($$\operatorname{Re}(s)>1$$) là lý do các không điểm có thể chi phối số nguyên tố.  
+2. **Thác triển giải tích:** định nghĩa bằng chuỗi chưa phải là toàn bộ hàm; cần hàm mở rộng trên dải tới hạn.  
+3. **Đường tới hạn là nội dung của giả thuyết:** hình ảnh nhiều không điểm nằm trên đường là **bằng chứng trực quan**, không phải chứng minh. Các đợt kiểm tra lớn (hàng tỷ hay nghìn tỷ không điểm trong các báo cáo tính toán) vẫn chỉ là **kiểm tra hữu hạn**.
+
+**Bẫy cần tránh (mục tiêu 6):** "Máy tính đã kiểm tra nhiều không điểm nên RH đúng."
+
+### C2. Kiến thức nền theo bài giảng của Vaaler (bài giới thiệu chính thức về giải thưởng Thiên niên kỷ)
+
+Thứ tự trình bày: phân tích thừa số nguyên tố → tích Euler → $$\pi(x)$$ và sai số → không điểm. **Định lý số nguyên tố** là một định lý đã được chứng minh; **RH** mạnh hơn và vẫn còn mở. Đừng trình bày như thể PNT vẫn còn là giả thuyết.
+
+### C3. Các kết quả "vượt qua RH" (video về hướng nghiên cứu mới)
+
+Các kết quả "vượt RH" thường có nghĩa là: hệ quả số học mạnh hơn, hoặc chứng minh không điều kiện vượt qua một rào cản cũ; chúng **không** có nghĩa là "RH sai". Một "kỷ lục" về số nguyên tố trong cấp số cộng hay trong một hệ cơ số không phải là lời giải RH. Hãy đọc tiêu đề bài báo trước khi trích dẫn con số 23%.
+
+**Nhắc lại:** RH cổ điển cho $$\zeta(s)$$ vẫn còn mở (2026).
+
+### C4. Tra cứu
+
+`TRANSCRIPT_STATUS.md` và `*_knowledge_units.json` (các đoạn khoảng 90 giây). Bài viết được chấm điểm phải **diễn đạt lại** bằng ký hiệu của bài này.
+
+---
+
+## Nguồn video (bộ tư liệu nghiên cứu video)
+
+Video dùng để **định hướng và làm quen với không khí nghiên cứu**, không thay thế chứng minh (hiện chưa có chứng minh cho RH cổ điển). Đánh giá đầy đủ: `research/video-research/Riemann_Hypothesis/`.
 
 **Thứ tự gợi ý**
 
-1. **Định hướng** — Quanta / Kontorovich, *The Riemann Hypothesis, Explained* (~16 phút): [YouTube](https://www.youtube.com/watch?v=zlm1aajH6gY). Bài kèm: [Quanta](https://www.quantamagazine.org/how-i-learned-to-love-and-fear-the-riemann-hypothesis-20210104/).  
-2. **Văn hóa** — Numberphile, *Riemann Hypothesis* (Frenkel): [YouTube](https://www.youtube.com/watch?v=d6c6uIyieoo).  
-3. **Nền** — Jeff Vaaler, bài giảng Millennium về RH: [YouTube](https://www.youtube.com/watch?v=Lf3gli_fR2c).  
-4. **Survey** — Brian Conrey, *Primes and Zeros* (MoMath): [YouTube](https://www.youtube.com/watch?v=OS2V6FLFmxU).  
-5. **Biên (tùy chọn)** — Numberphile, *23% Beyond the Riemann Hypothesis*: [YouTube](https://www.youtube.com/watch?v=dwe4-OiRw7M).
+1. **Định hướng** — Quanta / Kontorovich, *The Riemann Hypothesis, Explained* (khoảng 16 phút): [YouTube](https://www.youtube.com/watch?v=zlm1aajH6gY). Bài viết đi kèm: [Quanta](https://www.quantamagazine.org/how-i-learned-to-love-and-fear-the-riemann-hypothesis-20210104/).  
+2. **Bối cảnh** — Numberphile, *Riemann Hypothesis* (Frenkel): [YouTube](https://www.youtube.com/watch?v=d6c6uIyieoo).  
+3. **Nền tảng** — Jeff Vaaler, bài giảng giới thiệu RH cho giải thưởng Thiên niên kỷ: [YouTube](https://www.youtube.com/watch?v=Lf3gli_fR2c).  
+4. **Tổng quan** — Brian Conrey, *Primes and Zeros* (MoMath): [YouTube](https://www.youtube.com/watch?v=OS2V6FLFmxU).  
+5. **Hướng mới (không bắt buộc)** — Numberphile, *23% Beyond the Riemann Hypothesis*: [YouTube](https://www.youtube.com/watch?v=dwe4-OiRw7M).
 
-**Sau video:** định lý tỷ lệ dương và kiểm tra số là **tiến bộ từng phần**; RH đầy đủ cho $$\zeta$$ vẫn **mở** năm 2026.
+**Sau khi xem:** các định lý về tỷ lệ dương và các đợt kiểm tra bằng máy tính là **kết quả từng phần**; RH đầy đủ cho $$\zeta$$ vẫn **còn mở** năm 2026.
 
 ---
 
 
 
-### Transcript & frames (extract flagship)
+### Phụ đề và khung hình (trích xuất cho bài chính)
 
-Transcript caption và unit theo thời gian: `research/video-research/Riemann_Hypothesis/transcripts/` · trạng thái: `research/video-research/Riemann_Hypothesis/TRANSCRIPT_STATUS.md` · danh sách master: `research/video-research/FLAGSHIP_TRANSCRIPTS.md`.
+Phụ đề và các đoạn theo thời gian: `research/video-research/Riemann_Hypothesis/transcripts/` · trạng thái: `research/video-research/Riemann_Hypothesis/TRANSCRIPT_STATUS.md` · danh sách tổng hợp: `research/video-research/FLAGSHIP_TRANSCRIPTS.md`.
 
-Caption tải tự động (yt-dlp)—dùng để điều hướng, **không** thay nội dung bài.
+Phụ đề được tải tự động (yt-dlp), chỉ dùng để tra cứu, **không** thay thế nội dung bài.
 
 
 ![Frame mẫu video flagship]({{ site.baseurl }}/img/video_research/flagships/rh_quanta_frame01.jpg)
 
-*Hình. Frame mẫu từ video flagship chính (xem pack cho timestamp).*
+*Hình. Khung hình mẫu từ video chính (xem bộ tư liệu để biết mốc thời gian).*
 
 ## Tài liệu tham khảo
 
-Thư mục URL đầy đủ: `research/video-research/Riemann_Hypothesis/references.md`.
+Danh sách URL đầy đủ: `research/video-research/Riemann_Hypothesis/references.md`.
 
-### Chính thức và survey
+### Tài liệu chính thức và tổng quan
 
 1. **B. Riemann**, *Über die Anzahl der Primzahlen…* (1859).  
 2. **Clay**, [Riemann Hypothesis](https://www.claymath.org/millennium/riemann-hypothesis/) · PDF Bombieri: [riemann.pdf](https://www.claymath.org/wp-content/uploads/2022/05/riemann.pdf).  
@@ -392,21 +398,21 @@ Thư mục URL đầy đủ: `research/video-research/Riemann_Hypothesis/referen
 10. Numberphile 23%: https://www.youtube.com/watch?v=dwe4-OiRw7M  
 11. Quanta essay: https://www.quantamagazine.org/how-i-learned-to-love-and-fear-the-riemann-hypothesis-20210104/  
 
-### Khóa học
+### Trong khóa học
 
-12. Sinh đôi nguyên tố; BSD; [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/); Wang/Kakeya. Gói: `research/video-research/Riemann_Hypothesis/`.
+12. Số nguyên tố sinh đôi; BSD; [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/); Wang/Kakeya. Bộ tư liệu: `research/video-research/Riemann_Hypothesis/`.
 
 ---
 
 ## Hướng đi tiếp
 
-- **A3:** phát biểu RH, độ khó, công cụ xung quanh.  
-- So văn hóa RH với P vs NP hoặc Kakeya.  
-- Tùy chọn: Quanta → Conrey → đọc lại §§2–5.  
-- Mở rộng: hàm $$L$$ Dirichlet và GRH.
+- **Bài A3:** phát biểu RH, giải thích vì sao khó, các công cụ liên quan.  
+- So sánh vị trí của RH với P vs NP hoặc Kakeya.  
+- Không bắt buộc: xem Quanta → Conrey → đọc lại các mục 2–5.  
+- Mở rộng: hàm $$L$$ Dirichlet và RH tổng quát (GRH).
 
 ## Video tham khảo
 
-- **xem trước** — [The Riemann Hypothesis, Explained](https://www.youtube.com/watch?v=zlm1aajH6gY) — Quanta Magazine, tiếng Anh. Xem trước. “The Riemann Hypothesis, Explained” định hướng cho mục tiêu của bài: Phát biểu giả thuyết Riemann theo không điểm không tầm thường của \zeta(s) và đường thẳng tới hạn \operatorname{Re}(s)=1/2.
-- [Riemann Hypothesis - Numberphile](https://www.youtube.com/watch?v=d6c6uIyieoo) — Numberphile, tiếng Anh. Lượt thứ hai, khi luận điểm chính đã rõ: Phát biểu giả thuyết Riemann theo không điểm không tầm thường của \zeta(s) và đường thẳng tới hạn \operatorname{Re}(s)=1/2.
-- [The Riemann Hypothesis - Jeff Vaaler (Millennium Prize Problem, Official Introduction) (2001)](https://www.youtube.com/watch?v=Lf3gli_fR2c) — Graduate Mathematics, tiếng Anh. Góc bổ sung sau hai video đầu, vẫn bám mục tiêu: Phát biểu giả thuyết Riemann theo không điểm không tầm thường của \zeta(s) và đường thẳng tới hạn \operatorname{Re}(s)=1/2.
+- **Xem trước:** [The Riemann Hypothesis, Explained](https://www.youtube.com/watch?v=zlm1aajH6gY) — Quanta Magazine, tiếng Anh. Giới thiệu hàm zeta, các không điểm và mối liên hệ với số nguyên tố; nên xem trước khi đọc bài.
+- [Riemann Hypothesis - Numberphile](https://www.youtube.com/watch?v=d6c6uIyieoo) — Numberphile, tiếng Anh. Edward Frenkel giải thích giả thuyết; nên xem sau khi đã nắm ý chính của bài.
+- [The Riemann Hypothesis - Jeff Vaaler (Millennium Prize Problem, Official Introduction) (2001)](https://www.youtube.com/watch?v=Lf3gli_fR2c) — Graduate Mathematics, tiếng Anh. Xem thêm sau hai video trên, để có phần trình bày đầy đủ hơn về nền tảng.
