@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ku_geometry_discrete_overview",
+    "title": "Hai Khối Hình 'Bất Khả' Của 2025 — Xúc Xắc Gian Lận Và Khối Không Chui Qua Chính",
+    "type": "overview",
+    "summary": "Hai khối hình, hai trực giác sục đổ Hai khối hình, hai trực giác sục đổ trong cùng một năm. Và điều đẹp nhất, cả hai đều được giải thích chỉ bằng hai ý hai đều được giải thích chỉ bằng hai ý tưởng sơ cấp, trọng tâm và hình chiếu. Nhưng với tứ diện, câu chuyện gai gốc hơn với tứ diện, câu chuyện gai gốc hơn nhiều.",
+    "depth": "standard",
+    "concepts": [
+      "geometry_discrete"
+    ]
+  },
+  {
+    "id": "ku_geometry_discrete_ideas",
+    "title": "Key ideas",
+    "type": "intuition",
+    "summary": "Vì có hẳn một định lý cản đường, tứ diện đồng chất không bao giờ tự lật về một đồng chất không bao giờ tự lật về một mặt duy nhất. Chứng minh dựa trên năng lượng, mỗi tư thế ứng với một độ cao của lượng, mỗi tư thế ứng với một độ cao của trọng tâm và với tứ diện đồng chất luôn trọng tâm và với tứ diện đồng chất luôn có ít nhất hai mặt là hai thung lũng có ít nhất hai mặt là hai thung lũng năng lượng riêng biệt. đã rơi vào thung lũng nào thì nằm lại đó đã rơi vào thung lũng nào thì nằm lại đó nên viên xuất sắc đồng chất luôn có ít nên viên xuất sắc đồng chất luôn có ít nhất hai kết cục.",
+    "depth": "intro",
+    "concepts": [
+      "geometry_discrete"
+    ]
+  },
+  {
+    "id": "ku_geometry_discrete_status",
+    "title": "Status / open questions",
+    "type": "overview",
+    "summary": "Dôn Conway phỏng đoán từ 40 năm trước rằng cách này khả thi, nhưng suốt trước rằng cách này khả thi, nhưng suốt 40 năm không ai chế ra được. Những năm gần đây đã vài tàu đổ bộ mặt trăng chạm đất thành công rồi lật mặt trăng chạm đất thành công rồi lật nghiên nằm im vì tin mặt trời và ăn ten nghiên nằm im vì tin mặt trời và ăn ten quay sai hướng.",
+    "depth": "intro",
+    "concepts": [
+      "geometry_discrete"
+    ]
+  }
+]

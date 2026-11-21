@@ -1,0 +1,17 @@
+{
+  "id": "n0KpuJh8wRQ",
+  "url": "https://www.youtube.com/watch?v=n0KpuJh8wRQ",
+  "title": "Thuật Toán Tìm Đường 'Nhanh Nhất' Suốt 70 Năm Vừa Bị Soán Ngôi (STOC 2025)",
+  "tag": "algorithms",
+  "duration": 380.0,
+  "fetched_at": "2026-08-08",
+  "mapping": {
+    "en": "contents/en/chapter09/_posts/21-01-01-09_05_Knuth_Algorithms.md",
+    "vi": "contents/vi/chapter09/_posts/21-01-01-09_05_Knuth_Algorithms.md",
+    "also": [
+      "contents/en/chapter09/_posts/21-01-01-09_10_Hopcroft_Tarjan.md",
+      "contents/vi/chapter09/_posts/21-01-01-09_10_Hopcroft_Tarjan.md"
+    ]
+  },
+  "char_count": 6362
+}

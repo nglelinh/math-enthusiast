@@ -1,0 +1,17 @@
+{
+  "id": "u1p-Cu5hzxQ",
+  "url": "https://www.youtube.com/watch?v=u1p-Cu5hzxQ",
+  "title": "Dữ Liệu Có Hình Dạng — Poincaré, Perelman Và Môn Toán Nhìn Xuyên Nhiễu",
+  "tag": "perelman_tda",
+  "duration": 518.0,
+  "fetched_at": "2026-08-08",
+  "mapping": {
+    "en": "contents/en/chapter02/_posts/21-01-01-02_03_Perelman_Poincare.md",
+    "vi": "contents/vi/chapter02/_posts/21-01-01-02_03_Perelman_Poincare.md",
+    "also": [
+      "contents/en/chapter05/_posts/21-01-01-05_09_Poincare_Proof.md",
+      "contents/vi/chapter05/_posts/21-01-01-05_09_Poincare_Proof.md"
+    ]
+  },
+  "char_count": 8733
+}

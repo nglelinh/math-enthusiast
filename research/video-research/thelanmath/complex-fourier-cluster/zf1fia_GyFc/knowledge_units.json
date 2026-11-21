@@ -1,0 +1,28 @@
+[
+  {
+    "id": "ku_eisenstein",
+    "title": "Eisenstein series as lattice functions",
+    "type": "definition",
+    "t_start": 0,
+    "t_end": 400,
+    "summary": "Invariants g₂,g₃ (or Eisenstein series G_{2k}(τ)) are modular forms of the lattice shape τ in upper half-plane. Fix z vary lattice ↔ modular viewpoint.",
+    "concepts": [
+      "eisenstein_series",
+      "modular_form"
+    ],
+    "depth": "deep"
+  },
+  {
+    "id": "ku_doors",
+    "title": "Doors outward: ECC, E8, modularity",
+    "type": "overview",
+    "t_start": 100,
+    "t_end": 500,
+    "summary": "Popular bridges (LO6 on exact claims): elliptic-curve group law ↔ crypto; modular forms in Wiles/FLT story; E8 packing / Viazovska culture. Course keeps doors labeled, proofs elsewhere.",
+    "concepts": [
+      "elliptic_curve",
+      "modularity"
+    ],
+    "depth": "intro"
+  }
+]

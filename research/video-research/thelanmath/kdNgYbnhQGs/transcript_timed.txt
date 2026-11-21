@@ -1,0 +1,62 @@
+[0001.5-0007.7] Hãy nghe thật kỹ nốt nhạc này.
+[0007.7-0016.1] Ngay từ khoảnh khắc búa đàn chạm vào dây, nó đã bắt đầu tan biến. Mọi nốt piano đều đang chết dần ngay từ lúc vừa
+[0016.1-0019.6] vang lên.
+[0019.6-0028.4] Nhưng điều kỳ lạ là thứ khiến bạn thấy bình yên không phải độ to của nốt nhạc mà là tốc độ nó tan biến.
+[0028.4-0036.4] Và để nhìn thấy tốc độ đó, ta cần một công cụ toán học ra đời từ hơn 300 năm trước. Đây là câu chuyện về đạo hàm của
+[0036.4-0044.2] một nốt nhạc.
+[0044.2-0047.9] Trước hết, hãy mổ sẽ nốt nhạc bạn vừa nghe.
+[0047.9-0047.9] nghe.
+[0047.9-0060.0] Đây không phải hình vẽ minh họa, đây là dữ liệu thật thu một bản piano tự chơi, một nốt ép pha ngân gần 2 giây.
+[0060.0-0072.5] Đặt nó lên hệ trục tọa độ. Trục ngang là thời gian, trục dọc là năng lượng âm thanh. Thứ tài bạn cảm nhận thành độ to.
+[0072.5-0082.3] Đường bao của âm thanh hiện ra với bốn pha vụt lên gần như thẳng đứng khi búa gõ vào dây. Rơi nhanh ngay sau đó rồi
+[0082.3-0091.2] ngân thoải dần và cuối cùng buông. Khi phím được nhả ra.
+[0091.2-0099.1] Giới âm thanh gọi đường cong này là đường bao. Nhưng với một nhà toán học nó là một đồ thị hàm số.
+[0099.1-0111.7] và đồ thị hàm số thì có thể đặt câu hỏi tại mỗi điểm nó đang thay đổi nhanh chậm ra sao?
+[0111.8-0119.4] Câu hỏi đó chính là đạo hàm. Tại một điểm trên đường công, kẻ một đường thẳng vừa khích chạm vào nó.
+[0119.4-0128.6] Đường thẳng ấy gọi là tiếp tuyến và độ dốc của tiếp tuyến chính là tốc độ thay đổi tức thời.
+[0128.6-0136.6] Hãy để tiếp tuyến trượt dọc theo tiếng đàn thật. Ở pha tấn công, nó dựng đứng, năng lượng tăng vọt, tai bạn nghe thành
+[0136.6-0140.8] tiếng gõ sắc.
+[0140.8-0145.6] Qua đỉnh, tiếp tuyến đổ xuống rất dốc, âm thanh rơi nhanh.
+[0145.6-0153.8] Rồi càng về sau độ dốc càng thoải, tiếng đàn mềm dần mềm dần.
+[0153.8-0160.2] Tai người không đo được năng lượng tuyệt đối nhưng tai cực kỳ nhạy với thay đổi.
+[0160.2-0170.9] Nói cách khác, thứ bạn thật sự đang nghe chính là đạo hàm.
+[0170.9-0179.3] Giờ đến câu hỏi đẹp nhất. Vì sao tiếng đàn tắt theo đúng đường cong này mà không phải đường khác?
+[0179.4-0181.9] Bí mật nằm ở một quy luật rất giản dị.
+[0181.9-0194.5] Mỗi giây dây đàn mất đi một tỷ lệ cố định của năng lượng nó đang có. Còn nhiều mất nhiều, còn ít mất ít.
+[0194.5-0201.9] Viết quy luật ấy thành phương trình. Tốc độ thay đổi của năng lượng tỷ lệ thuận với chính năng lượng mang dấu trừ và
+[0201.9-0209.6] toán học chỉ có đúng một nghiệm cho phương trình này. Hàm mũ giảm dần.
+[0209.6-0217.8] Trong tiếng đàn thật của chúng ta, hàng số thời gian đo được là 0,61 giây. Cứ sau chừng ấy thời gian năng lượng lại có
+[0217.8-0223.3] về còn khoảng 37%.
+[0223.4-0233.6] Hãy so sánh, nếu âm thanh giảm đều theo đường thẳng, nó sẽ tắt phục như bị cắt. Còn hàm mũ giảm nhanh lúc đầu rồi buông chậm dần,
+[0233.6-0241.8] không bao giờ vội. Đó chính là nhịp của một hơi thở ra.
+[0241.8-0245.9] Cần nói thật rõ, hàm mũ là mô hình xấp xỉ.
+[0245.9-0246.0] xỉ.
+[0246.0-0254.1] Piano thật còn tinh tế hơn, mỗi nốt có tới hai ba sợi dây, nền đuôi âm gồm hai giai đoạn tắt nhanh chậm khác nhau,
+[0254.1-0263.9] nhưng hình dạng chủ đạo vẫn là hàm mũ.
+[0263.9-0267.0] Đến đây mới là phần bất ngờ nhất.
+[0267.0-0278.9] Một nốt đàn không phải một âm thanh, nó là cả một chồng âm thanh gọi là các họa âm xếp cách đều nhau về tần số.
+[0279.0-0287.0] Phân tích nốt ép pha bạn đã nghe. Ta tách được sáu họa âm đầu tiên. Và đây là điều ít ai ngờ. Năng lượng lớn nhất
+[0287.0-0295.6] không nằm ở nốt gốc mà nằm ở họa âm thứ hai cao đúng một quảng tám.
+[0295.6-0302.9] Vậy mà tai bạn vẫn nghe ra nốt ép pha trầm. Vì não không nghe từng họa âm riêng lẽ, nó đọc khoảng cách đều đặng
+[0302.9-0308.8] giữa chúng rồi tự suy ra nốt gốc.
+[0308.8-0316.9] Quan trọng hơn, mỗi họa âm tắc theo hàm mũ của riêng nó với hằng số thời gian riêng. Trong dữ liệu này, họa âm thứ ba
+[0316.9-0325.9] vục tắc sau chưa đầy 1/3 giây, còn họa âm thứ hai ngân lâu gần gấp ba lần.
+[0325.9-0335.1] Mỗi họa âm liệm đi theo nhịp riêng của nó. Vì thế tiếng piano không chỉ nhỏ dần, nó còn đổi màu trong lúc tan. Màu
+[0335.2-0345.5] âm chính là một bó đạo hàm đang đuổi nhau về không.
+[0345.5-0349.6] Bây giờ hãy chơi một hợp âm nốt cùng vang.
+[0349.6-0349.6] vang.
+[0349.6-0357.1] Về mặt toán, ba đường công hàm mũ cộng lại thành một đường công tổng. Chúng đang vào nhau, nâng đỡ nhau trong lúc
+[0357.1-0361.8] cùng tan biến.
+[0361.8-0369.6] Cách nối các nốt cũng là toán chơi liền tiến, nốt sau vang lên khi nốt trước chưa tắt, đường cong tổng liền mạch,
+[0369.6-0380.9] không một điểm gãy. Chơi nảy tiếng, năng lượng rơi về gần không giữa hai nốt, tạo những khe im lặng sắc nét.
+[0380.9-0389.6] Và khoảng lặng cuối cùng của bản nhạc hóa ra không phải là con số không. Đường hàm mũ tiến về không mãi mãi mà không
+[0389.6-0398.9] bao giờ chạm. Tiếng đàn chỉ chìm dần xuống dưới ngưỡng tai bạn còn nghe được.
+[0398.9-0405.7] Nên khi bạn nín thở chờ dư âm cuối tan hết, bạn đang lắng nghe một giới hạn toán học đang tiệm cận.
+[0405.8-0415.1] Sự im lặng ấy vẫn còn đạo hàm.
+[0415.2-0422.9] Lùi lại mà nhìn, cả bản nhạc là hàng trăm đường công hà mũ mọc lên rồi tan đi, chồng lớp thành một địa hình.
+[0422.9-0433.4] Người nghệ sĩ không giải phương trình nào cả, nhưng bàn tay họ đang điêu khắc chính những đường cong này.
+[0433.4-0442.6] Toán học không tạo ra cảm xúc. Toán học chỉ cho ta thấy cảm xúc có hình dạng gì.
+[0442.6-0451.9] Nốt nhạc nào rồi cũng tắt. Nhưng nhờ đạo hàm ta biết nó tắt đẹp đến thế nào.
+[0452.0-0458.6] Nếu bạn muốn xem thêm những hành trình nơi toán học chạm vào âm nhạc và đời sống, hãy đăng ký the má. Mỗi tuần một
+[0458.6-0463.7] câu chuyện trực quan.
+[0463.7-0465.8] &gt;&gt;

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ku_riemann_mapping",
+    "title": "Riemann mapping theorem (slogan)",
+    "type": "theorem",
+    "t_start": 0,
+    "t_end": 600,
+    "summary": "Any nonempty simply connected proper open subset of C is biholomorphic to the unit disk. Normalization (fix a base point, positive derivative) selects uniqueness. Existence is deep; formula rarely explicit.",
+    "concepts": [
+      "riemann_mapping"
+    ],
+    "depth": "deep"
+  },
+  {
+    "id": "ku_montel",
+    "title": "Montel / normal families in the proof culture",
+    "type": "overview",
+    "t_start": 600,
+    "t_end": 1217,
+    "summary": "Modern proofs use normal families (Montel): locally bounded holomorphic families are normal; extremal stretch-at-center argument among maps into the disk. Course-level: names the toolkit, not full proof.",
+    "concepts": [
+      "montel",
+      "normal_families"
+    ],
+    "depth": "standard"
+  }
+]

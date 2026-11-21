@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ku_quantum_complexity_overview",
+    "title": "Ngẫu Nhiên Lượng Tử Có Chứng Nhận",
+    "type": "overview",
+    "summary": "Làm sao chứng minh một con số là thật sự mới, chứng minh một con số là thật sự mới, thật sự không ai đoán trước được? Bên kia một máy tính lượng tử mạnh nhưng bạn kia một máy tính lượng tử mạnh nhưng bạn không hề tin nó. Trong hai giây đó, kẻ gian cổ điển chỉ Trong hai giây đó, kẻ gian cổ điển chỉ kịp làm được vài phần trăm, phần còn lại kịp làm được vài phần trăm, phần còn lại buộc phải bói.",
+    "depth": "standard",
+    "concepts": [
+      "quantum_complexity"
+    ]
+  },
+  {
+    "id": "ku_quantum_complexity_ideas",
+    "title": "Key ideas",
+    "type": "intuition",
+    "summary": "56 quyếtp mang theo hai mũ 56 biên độ, hơn quyếtp mang theo hai mũ 56 biên độ, hơn 70 triệu tỷ con số phức. Cùng lúc máy cổ điển phải gồng gánh cả cái vũ trụ biên điển phải gồng gánh cả cái vũ trụ biên độ ấy, mấy lượng tử thì ê là ê nó luôn. Cho tới nay không ai biết một lối tắc cổ điển nào đủ ai biết một lối tắc cổ điển nào đủ nhanh.",
+    "depth": "intro",
+    "concepts": [
+      "quantum_complexity"
+    ]
+  },
+  {
+    "id": "ku_quantum_complexity_status",
+    "title": "Status / open questions",
+    "type": "overview",
+    "summary": "Đây là một giả định, độ khó cổ điển chưa được chứng minh, chỉ là khó cổ điển chưa được chứng minh, chỉ là giả thuyết vững. Máy lượng tử thật sẽ nhả ra những kết quả rơi đúng vào các đỉnh xác những kết quả rơi đúng vào các đỉnh xác suất cao.",
+    "depth": "intro",
+    "concepts": [
+      "quantum_complexity"
+    ]
+  }
+]

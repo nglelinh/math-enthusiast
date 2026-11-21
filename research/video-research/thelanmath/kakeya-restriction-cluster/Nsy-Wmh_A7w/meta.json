@@ -1,0 +1,17 @@
+{
+  "id": "Nsy-Wmh_A7w",
+  "url": "https://www.youtube.com/watch?v=Nsy-Wmh_A7w",
+  "title": "Cây Kim Bị Đục Rỗng — Bài Toán Ngay Sau Kakeya",
+  "tag": "kakeya_harmonic",
+  "duration": 639.0,
+  "fetched_at": "2026-08-08",
+  "mapping": {
+    "en": "contents/en/chapter01/_posts/21-01-01-01_08_Kakeya_Conjecture.md",
+    "vi": "contents/vi/chapter01/_posts/21-01-01-01_08_Kakeya_Conjecture.md",
+    "also": [
+      "contents/en/chapter02/_posts/21-01-01-02_15_Wang_Harmonic_Analysis.md",
+      "contents/vi/chapter02/_posts/21-01-01-02_15_Wang_Harmonic_Analysis.md"
+    ]
+  },
+  "char_count": 15204
+}

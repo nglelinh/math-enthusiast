@@ -1,0 +1,72 @@
+[0001.5-0007.4] Xuê một cây kim sao cho nó lần lượt chỉ đủ mọi hướng. Cần ít nhất bao nhiêu diện
+[0007.4-0014.7] tích? Toán học đã mất hơn 100 năm để trả lời. Và câu trả lời là gần như không cần
+[0014.7-0017.8] gì cả.
+[0017.8-0017.8] gì cả.
+[0017.8-0025.5] Cây kim ở đây là một đoạn thẳng dài đúng một đơn vị, mạnh đến mức không có bề dày. Cách hiển nhiên nhất, cắm giữa kim
+[0025.5-0028.3] làm trục quay trọn một vòng.
+[0028.4-0036.6] Kim quét thành một hình tròn đường kính một, diện tích bằng pi chia 4, khoảng 0,785.
+[0036.6-0045.5] Nhưng ai bảo phải quay quanh một điểm cố định? Nếu vừa xoay vừa trượt cây kim thật khéo, vùng bị quét có thể nhỏ hơn.
+[0045.5-0047.7] Nhỏ hơn đến mức nào?
+[0047.7-0055.7] Câu hỏi tưởng như trò chơi ấy sẽ dẫn thẳng vào một trong những bài toán sâu nhất của giải tích hiện đại.
+[0058.0-0066.0] Năm 1917, nhà toán học Nhật Bản Sochi chính thức đặt bài toán tìm hình có diện tích nhỏ nhất mà trong đó cây kim vẫn
+[0066.0-0070.2] xoay được đủ 180 độ.
+[0070.2-0076.9] Ứng viên đẹp nhất là hình Delt, một tam giác cong ba đỉnh, vẽ bằng cách lăn một vòng tròn nhỏ bên trong một vòng tròn
+[0076.9-0083.0] lớn. Bên trong Delti, cây kim vừa trượt vừa xoay, hai đầu kim luôn bám lấy đường
+[0083.0-0088.0] cong và kim lần lượt chỉ đủ mọi hướng.
+[0088.0-0094.5] Diện tích của Delti bằng pi chia 8. Đúng một nửa hình tròn ban đầu.
+[0094.5-0100.5] Gọn đến thế, khéo đến thế, ai cũng nghĩ đây là giới hạn cuối cùng. Nhưng chỉ hai
+[0100.6-0110.3] năm sau, một câu trả lời khác xuất hiện và nó làm sụp đổ toàn bộ trực giác.
+[0110.3-0117.7] Abram Becivic chỉ ra một điều không ai ngờ. Diện tích cần thiết có thể nhỏ tùy ý ý tưởng của ông, lấy một tam giác chẻ
+[0117.8-0125.2] nó thành rất nhiều mảnh nhỏ theo chiều dọc rồi tịnh tiến các mảnh cho chúng chồng lấp lên nhau.
+[0125.2-0132.9] Mỗi mảnh vẫn giữ nguyên các hướng kim của nó, nhưng phần chồng lấp thì chỉ bị đếm một lần. Chẻ càng nhiều mảnh, ép
+[0133.0-0139.3] càng khéo, tổng diện tích càng bé. Cấu trúc này gọi là cây peron.
+[0139.3-0142.1] Đẩy đến giới hạn, ta được tập Bivic.
+[0142.1-0148.8] Diện tích đúng bằng không mà vẫn chứa một đoạn thẳng đơn vị theo mọi hướng.
+[0148.8-0157.7] Cần phân biệt cho chính xác. Nếu đòi cây kim xuôi liên tục, diện tích nhỏ tùy ý nhưng không thể bằng không. Còn nếu chỉ
+[0157.7-0162.1] cần tập hợp chứa kim ở mọi hướng, không cần xuê liên tục từ hướng này sang hướng
+[0162.1-0172.9] kia thì bằng không được. Câu hỏi về diện tích đến đây coi như đã đóng.
+[0173.0-0177.9] Nhưng diện tích bằng không chưa phải hết chuyện. Hai tập cùng có diện tích không
+[0177.9-0183.6] vẫn có thể đậm đặt khác nhau như một sợi chỉ so với một búi chỉ rối. Toán học đo
+[0183.6-0188.5] độ đậm đặt ấy bằng khái niệm chiều phát tô.
+[0188.5-0188.5] tô.
+[0188.5-0196.7] Cách đo rất cụ thể, phủ tập hợp bằng những ô vuông cạnh silon rồi đếm cần bao nhiêu ô cho lân nhỏ dần và theo dõi số ô
+[0196.7-0205.2] tăng nhanh cỡ nào. Số ô tăng theo lũy thừa nào của 1/F thì đó chính là chiều của tập và nó không nhất thiết là số
+[0205.2-0208.0] nguyên.
+[0208.0-0208.0] nguyên.
+[0208.0-0214.9] Giả thuyết Kakia phát biểu trong không gian n chiều, mọi tập chứa kim theo đủ mọi hướng phải có chiều đúng bằng n.
+[0214.9-0220.4] Nghĩa là dù thể tích bằng không nó vẫn phải đậm đặt hết cỡ trong mặt phẳng.
+[0220.4-0229.3] Điều này đã được chứng minh từ năm 1971 chiều đúng bằng 2.
+[0229.4-0236.1] Cũng năm 1971, Charler Fefferman phát hiện các tập Kakia nằm ngay bên dưới những câu hỏi trung tâm của giải tích
+[0236.2-0243.7] điều hòa. Ngành toán phân tích mọi tín hiệu thành các sóng thành phần. Từ trò chơ hình học, Kakia thành bài toán nền
+[0243.7-0246.5] móng.
+[0246.5-0252.3] Nhưng ở không gian ba chiều, bài toán lì lợm đến khó tin. Người ta chỉ biết chặn
+[0252.4-0261.0] dưới và chặn dưới leo từng nất một. Năm 1995, Thomas W chứng minh chịu ít nhất 2,5
+[0261.0-0266.1] 2,5 rồi bài toán đứng im suốt hơn 20 năm.
+[0266.1-0275.0] Mãi đến năm 2019, NC và Yosujan mới nhích lên được 2,5 cộng thêm một lượng nhỏ xíu.
+[0275.0-0275.0] nhỏ xíu.
+[0275.0-0285.9] Nửa thế kỷ tính từ phép FM mà mỗi phần 10 của một chiều phải trả giá bằng cả một thập kỷ.
+[0286.0-0294.9] Tháng 2 năm 2025, Hong Quan ở Đại học New York và Yosuyan ở đại học British Columbia công bố một bản thảo dài 127
+[0294.9-0304.9] trang. Mọi tập Kakia trong không gian ba chiều đều có chiều đúng bằng ba. Giả thuyết được giải trọn vẹn ở ba chiều.
+[0305.0-0312.3] Cơ chế của chứng minh là phản chứng. Giả sử tồn tại một tập Kakia gầy hơn ba chiều.
+[0312.3-0312.3] chiều.
+[0312.3-0320.5] Thay mỗi cây kim bằng một ống mảnh bao quanh nó. Oan và Giang chứng minh nếu tập quá gầy, các ống không thể tản đều,
+[0320.5-0325.9] chúng buộc phải vón lại thành từng cụng đặt gọi là hạt.
+[0326.0-0331.9] Rồi họ đếm số hạt mà cấu trúc vón cục ấy đòi hỏi lại mâu thuẫn với chính giả định
+[0331.9-0337.1] ban đầu về độ gầy. Phản ví dụ tự bóp chết nó.
+[0337.1-0337.2] chết nó.
+[0337.2-0340.6] Nét cát gọi đây là kết quả trăm năm có một.
+[0340.6-0340.6] một.
+[0340.6-0349.2] &gt;&gt; &gt;&gt; &gt;&gt; Ten Sơn Tao và Larig đều xác nhận tầm vóc của nó.
+[0349.2-0357.8] Vì sao một bài toán về cây kim lại khiến cả ngành giải tích trung chuyển? Vì Kakia nằm ở đáy của một tháp giả thuyết.
+[0357.8-0366.3] Bên trên nó là giả thuyết Rechestin rồi Bcher VS. Những câu hỏi trung tâm về sóng và tín hiệu. Móng vững đến đâu,
+[0366.3-0370.2] tháp mới đứng đến đó.
+[0370.2-0376.3] Chứng minh của Oan và Giang không tự động kéo đổ cả tháp nhưng nó đổ móng theo hướng tích cực và trao cho ngành
+[0376.3-0382.9] một bộ công cụ hoàn toàn mới. Ngay sau đó, Hồng Ngoan được nhắc đến như một ứng viên nặng ký cho Huy Chương
+[0382.9-0392.9] Phi năm 2026 như kênh từng kể trong video về Huy Chương Phi.
+[0392.9-0400.1] Từ trò chơi xoay kim năm 1917 đến 127 trang năm 2025.
+[0400.2-0407.4] Một câu hỏi mà một đứa trẻ cũng hiểu được và toán học cần trọn một thế kỷ để trả lời.
+[0407.4-0407.4] trả lời.
+[0407.4-0413.5] Bài học nằm ở chính chỗ đó. Những câu hỏi ngây thơ nhất đôi khi lại chạm vào tầng sâu nhất.
+[0413.5-0421.5] Diện tích tưởng đã hiểu hết từ thời cổ đại, hóa ra vẫn còn giấu cả một thế giới bên dưới.
+[0421.5-0428.0] Nếu bạn thích những câu chuyện nơi một cây kim mở ra cả một ngành toán, hãy đăng ký the má để cùng đi tiếp tới những
+[0428.0-0432.2] biên giới khác của toán học.

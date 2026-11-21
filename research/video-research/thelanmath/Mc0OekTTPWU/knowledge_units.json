@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ku_misc_open_overview",
+    "title": "Cậu Bé Bỏ Học Làm Thơ — Bài Toán 50 Năm",
+    "type": "overview",
+    "summary": "Vẽ bừa một mạng chấm và đường rồi đếm xem có bao nhiêu cách tô màu để hai đầu xem có bao nhiêu cách tô màu để hai đầu mỗi đường không trùng nhau. Không ai tìm nổi một ngoại lệ và suốt Không ai tìm nổi một ngoại lệ và suốt gần 50 năm cũng không ai chứng minh nổi gần 50 năm cũng không ai chứng minh nổi vì sao vì sao người khóa lại được nó cùng hai cộng sự, người khóa lại được nó cùng hai cộng sự, năm 16 tuổi đã bỏ học phổ thông để đi năm 16 tuổi đã bỏ học phổ thông để đi làm thơ. Thứ ông mang tới là hình học, đặt lên Thứ ông mang tới là hình học, đặt lên một vật không hề có hình.",
+    "depth": "standard",
+    "concepts": [
+      "misc_open"
+    ]
+  },
+  {
+    "id": "ku_misc_open_ideas",
+    "title": "Key ideas",
+    "type": "intuition",
+    "summary": "Độ lớn mỗi số bình phương lên phải lớn hơn hoặc bằng tích phương lên phải lớn hơn hoặc bằng tích hai số kể nó. Rích đoán năm 1968 Rích đoán năm 1968 rằng độ lớn các hệ số luôn lên rồi xuống rằng độ lớn các hệ số luôn lên rồi xuống rồi Rota mang câu hỏi sang một thế giới rồi Rota mang câu hỏi sang một thế giới rộng hơn đồ thị rộng hơn đồ thị Heron và Wells siết nó lại thành dạng Heron và Wells siết nó lại thành dạng mạnh hơn chính trái luật vừa gậy kia mạnh hơn chính trái luật vừa gậy kia ba trái tên ấy ghép thành giả thuyết ba trái tên ấy ghép thành giả thuyết Heron Rota Wells Heron Rota Wells còn R là người khơi màu còn R là người khơi màu gần 50 năm ấy trôi qua ngoài kia ở Sư gần 50 năm ấy trôi qua ngoài kia ở Sư một cậu bé sinh năm 1983 đang bỏ học phổ một cậu bé sinh năm 1983 đang bỏ học phổ thông năm 16 tuổi để đi làm thơ. Không phải vì ta vẽ vụng mà vì hình học Không phải vì ta vẽ ",
+    "depth": "intro",
+    "concepts": [
+      "misc_open"
+    ]
+  },
+  {
+    "id": "ku_misc_open_status",
+    "title": "Status / open questions",
+    "type": "overview",
+    "summary": "Năm 2010 khi mới là nghiên cứu sinh năm đầu ở Illinus, ông chứng minh gia thuyết đầu ở Illinus, ông chứng minh gia thuyết rức gần 50 năm độ trong một bại bảo đầu rức gần 50 năm độ trong một bại bảo đầu tay. Hai năm sau cùng Eric Cát, ông xử lý Hai năm sau cùng Eric Cát, ông xử lý được mọi trò còn vẽ được bằng vé tho được mọi trò còn vẽ được bằng vé tho trên trường bất kỳ.",
+    "depth": "intro",
+    "concepts": [
+      "misc_open"
+    ]
+  }
+]

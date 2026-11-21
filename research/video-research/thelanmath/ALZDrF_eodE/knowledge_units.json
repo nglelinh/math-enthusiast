@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ku_transcendental_chaos_overview",
+    "title": "Những Con Số Ẩn · Phần 3 — Nghịch Lý: Gần Như MỌI Số Đều Siêu Việt",
+    "type": "overview",
+    "summary": "Ở phần trước ta thấy Pi và E là số siêu việt, không một phương trình việt, không một phương trình đa thức nào tóm được chúng. Can to chứng minh điều này chỉ bằng một hành động, đếm. Có hai cỡ vô hạn khác nhau và số siêu việt chiếm gần trọn cái vô và số siêu việt chiếm gần trọn cái vô hạn lớn hơn.",
+    "depth": "standard",
+    "concepts": [
+      "transcendental_chaos"
+    ]
+  },
+  {
+    "id": "ku_transcendental_chaos_ideas",
+    "title": "Key ideas",
+    "type": "intuition",
+    "summary": "Toàn bộ phân số mọi căn bậc hai gộp lại Toàn bộ phân số mọi căn bậc hai gộp lại chỉ là một tập có độ đo bằng 0. Chai tin dựng ra một con số ký hiệu là Chai tin dựng ra một con số ký hiệu là Omega nằm đâu đó giữa 0 và 1. Tầng hai tính được nhưng đầy bí ẩn như hằng hai tính được nhưng đầy bí ẩn như hằng số umas cheron hay catalan.",
+    "depth": "intro",
+    "concepts": [
+      "transcendental_chaos"
+    ]
+  },
+  {
+    "id": "ku_transcendental_chaos_status",
+    "title": "Status / open questions",
+    "type": "overview",
+    "summary": "Tầng ba đã chứng minh được là vô tỷ Tầng ba đã chứng minh được là vô tỷ nhưng vẫn cô độc như con số áp. Không tên, không thuật toán, không một ai chạm tới.",
+    "depth": "intro",
+    "concepts": [
+      "transcendental_chaos"
+    ]
+  }
+]

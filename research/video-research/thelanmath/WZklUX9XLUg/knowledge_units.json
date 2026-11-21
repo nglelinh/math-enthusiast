@@ -1,0 +1,28 @@
+[
+  {
+    "id": "ku_double_period",
+    "title": "Doubly periodic functions",
+    "type": "definition",
+    "t_start": 0,
+    "t_end": 300,
+    "summary": "Functions with two R-independent periods live on a torus C/Λ for lattice Λ. Nonconstant elliptic functions must have poles (Liouville-type constraints).",
+    "concepts": [
+      "elliptic_function",
+      "lattice"
+    ],
+    "depth": "deep"
+  },
+  {
+    "id": "ku_weierstrass_p",
+    "title": "Weierstrass ℘",
+    "type": "theorem",
+    "t_start": 300,
+    "t_end": 783,
+    "summary": "℘(z;Λ)=1/z²+∑_{ω≠0}(1/(z−ω)²−1/ω²) is the fundamental even elliptic function with double poles on Λ; satisfies algebraic differential equation leading to cubic relation with invariants g₂,g₃.",
+    "concepts": [
+      "weierstrass_p"
+    ],
+    "depth": "deep",
+    "math": "(℘')² = 4℘³ − g₂ ℘ − g₃."
+  }
+]

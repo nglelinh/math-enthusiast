@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ku_mixing_cutoff_overview",
+    "title": "Xáo Bài Bao Nhiêu Lần Thì Thật Sự Ngẫu Nhiên?",
+    "type": "overview",
+    "summary": "Một bộ bài 52 lá có thể xếp theo 52 giai thừa cách khác nhau. Kiểu sáu ta xét là riffer các bộ bài làm hai phần rồi thả sen kẻ hai phần vào hai phần rồi thả sen kẻ hai phần vào nhau. Ở mỗi bước lá tiếp theo rơi từ một trong lá tiếp theo rơi từ một trong hai tay với xác suất tỷ lệ số lá còn lại hai tay với xác suất tỷ lệ số lá còn lại ở tay đó.",
+    "depth": "standard",
+    "concepts": [
+      "mixing_cutoff"
+    ]
+  },
+  {
+    "id": "ku_mixing_cutoff_ideas",
+    "title": "Key ideas",
+    "type": "intuition",
+    "summary": "Chỉ trong một hai lần kế tiếp, trong một hai lần kế tiếp, Bayer và Diaconic chứng minh con số Bayer và Diaconic chứng minh con số ngưỡng đó là bảy. Trên bản đồ nhiệt đo xác suất hai lá kề Trên bản đồ nhiệt đo xác suất hai lá kề nhau vẫn dính nhau, xuất hiện những điểm nhau vẫn dính nhau, xuất hiện những điểm lạnh vùng mà thứ tự cũ kháng lại việc bị lạnh vùng mà thứ tự cũ kháng lại việc bị trộn. Những điểm lạnh này phai chậm hơn hẳn Những điểm lạnh này phai chậm hơn hẳn phần còn lại.",
+    "depth": "intro",
+    "concepts": [
+      "mixing_cutoff"
+    ]
+  },
+  {
+    "id": "ku_mixing_cutoff_status",
+    "title": "Status / open questions",
+    "type": "overview",
+    "summary": "Làm sao chứng minh điều đó một cách chặt chẽ? Định lý then chốt, hai lá có cùng mã Định lý then chốt, hai lá có cùng mã vạch là hai lá chưa từng bị tách khỏi vạch là hai lá chưa từng bị tách khỏi nhau, chúng vẫn dính thành một khối trật nhau, chúng vẫn dính thành một khối trật tự.",
+    "depth": "intro",
+    "concepts": [
+      "mixing_cutoff"
+    ]
+  }
+]

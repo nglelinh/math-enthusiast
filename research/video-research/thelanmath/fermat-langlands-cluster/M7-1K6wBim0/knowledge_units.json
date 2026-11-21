@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ku_flt_margin",
+    "title": "Fermat 1637 margin claim",
+    "t_start": "0:00",
+    "t_end": "0:35",
+    "type": "overview",
+    "summary": "Fermat annotates Diophantus: no positive solutions to a^n+b^n=c^n for n≥3; 'marvelous proof' too narrow for the margin. Open for 350+ years with only sparse special cases.",
+    "math": "a^n+b^n=c^n, n≥3, a,b,c>0",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_flt_two_continents",
+    "title": "Two continents: elliptic curves vs modular forms",
+    "t_start": "0:35",
+    "t_end": "3:20",
+    "type": "definition",
+    "summary": "Elliptic curves y^2=x^3+Ax+B produce fingerprints a_p by counting points mod primes. Modular forms (esp. weight 2) produce coefficient sequences a_p. Matching sequences are the modularity correspondence.",
+    "math": "a_p = p+1-#E(F_p) (slogan); weight-2 modular form Fourier coefficients",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_flt_frey_ribet",
+    "title": "Frey curve + Ribet level lowering",
+    "t_start": "3:20",
+    "t_end": "5:10",
+    "type": "theorem",
+    "summary": "Hypothetical FLT counterexample builds a Frey elliptic curve. Ribet (Serre's ε-conjecture) forces any modular twin into an extreme space: weight-2 forms of level 2. That space is zero-dimensional—no such form exists—so the curve cannot be modular.",
+    "math": "Frey curve from (a,b,c,n); level lowering to N=2; dim S_2(Γ_0(2))=0",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_flt_wiles_semistable",
+    "title": "Wiles–Taylor: semistable modularity closes the trap",
+    "t_start": "5:10",
+    "t_end": "6:00",
+    "type": "theorem",
+    "summary": "Wiles (with Taylor) proves every semistable elliptic curve over Q is modular. Frey curves from FLT counterexamples are semistable, hence would be modular—contradiction. FLT follows. ~7 years attic work; modularity is the real target, FLT a corollary.",
+    "math": "Semistable modularity ⇒ no Frey curve ⇒ no FLT counterexample",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_flt_status",
+    "title": "What the bridge is worth",
+    "t_start": "6:00",
+    "t_end": "6:35",
+    "type": "overview",
+    "summary": "Modularity is an island of the Langlands dictionary. Full BCDT modularity and broader Langlands remain larger stories. Popular video compresses a multi-hour technical ladder.",
+    "depth": "intro"
+  }
+]

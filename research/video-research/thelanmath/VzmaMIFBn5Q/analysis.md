@@ -1,0 +1,19 @@
+# Những Con Số Ẩn · Phần 2 — π và e Được Phát Hiện, Không Phải Phát Minh
+
+**URL:** https://www.youtube.com/watch?v=VzmaMIFBn5Q  
+**Tag:** `transcendental_chaos`  
+**Duration:** 238.0 s  
+**Extracted:** 2026-08-08
+
+## Knowledge units
+
+### Những Con Số Ẩn · Phần 2 — π và e Được Phát Hiện, Không Phải Phát Minh
+
+Có hai con số mà gần như ai học toán cũng từng gặp. Con số thứ hai đến từ nơi chẳng ai ngờ, tiền lãi. Thứ hai, tổng của một chuỗi vô hạn cộng Thứ hai, tổng của một chuỗi vô hạn cộng 1 - 1/3 cộng 1/5.
+
+### Key ideas
+
+Dưới cùng là số hữu tỷ, những phân số Dưới cùng là số hữu tỷ, những phân số gọn gàng cao hơn một bậc là số đại số vô gọn gàng cao hơn một bậc là số đại số vô tỷ như căn bậc hai của hai tỷ lệ vàng tỷ như căn bậc hai của hai tỷ lệ vàng vẫn còn là nghiệm của một phương trình vẫn còn là nghiệm của một phương trình đa thức. Cao hơn nữa là số siêu việt như 9 pi và Cao hơn nữa là số siêu việt như 9 pi và e không một phương trình đa thức hữu tỷ e không một phương trình đa thức hữu tỷ nào tóm được chúng. Và trên tất cả có những con số ta chưa Và trên tất cả có những con số ta chưa xếp loại xong như hàng số um cheron xếp loại xong như hàng số um cheron 300 năm trưa qua mà chưa ai 300 năm trưa qua mà chưa ai biết nó có vô tỷ hay không.
+
+## LO6
+Popular video — verify against papers/textbooks before using as theorem.

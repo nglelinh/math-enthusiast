@@ -1,0 +1,113 @@
+[00:00:03.439 --> 00:00:05.910] Hãy tưởng tượng hai vũ trụ hoàn toàn khác nhau.
+[00:00:05.920 --> 00:00:09.430] khác nhau. Một vũ trụ nói về các con số nguyên.
+[00:00:09.440 --> 00:00:13.509] Một vũ trụ nói về các con số nguyên. Một vũ trụ nói về các con sống.
+[00:00:13.519 --> 00:00:15.589] Một vũ trụ nói về các con sống. Chúng không chung khái niệm, không chung
+[00:00:15.599 --> 00:00:19.750] Chúng không chung khái niệm, không chung công cụ, không chung lịch sử.
+[00:00:19.760 --> 00:00:21.630] công cụ, không chung lịch sử. Nhưng giữa chúng tồn tại một cuốn từ
+[00:00:21.640 --> 00:00:24.109] Nhưng giữa chúng tồn tại một cuốn từ điển.
+[00:00:24.119 --> 00:00:26.310] điển. Mỗi câu hỏi ở vũ trụ này đều dịch được
+[00:00:26.320 --> 00:00:28.470] Mỗi câu hỏi ở vũ trụ này đều dịch được sang vũ trụ kia.
+[00:00:28.480 --> 00:00:31.349] sang vũ trụ kia. Và điều lạ nhất câu rất khó bên này dịch
+[00:00:31.359 --> 00:00:35.150] Và điều lạ nhất câu rất khó bên này dịch xong lại thành dễ bên kia.
+[00:00:35.160 --> 00:00:37.389] xong lại thành dễ bên kia. Cuốn từ điển đó tên là chương trình lang
+[00:00:37.399 --> 00:00:40.790] Cuốn từ điển đó tên là chương trình lang len. Nó đúng ở mọi nơi người ta kiểm
+[00:00:40.800 --> 00:00:43.270] len. Nó đúng ở mọi nơi người ta kiểm tra,
+[00:00:43.280 --> 00:00:45.869] tra, nhưng vì sao nó tồn tại thì chưa ai
+[00:00:45.879 --> 00:00:51.150] nhưng vì sao nó tồn tại thì chưa ai biết.
+[00:00:54.920 --> 00:00:57.709] Hai vũ trụ đó cụ thể là gì? Bên thứ nhất là số học.
+[00:00:57.719 --> 00:01:00.029] Bên thứ nhất là số học. Nó hỏi những câu như phương trình này có
+[00:01:00.039 --> 00:01:03.229] Nó hỏi những câu như phương trình này có bao nhiêu nghiệm nguyên?
+[00:01:03.239 --> 00:01:04.910] bao nhiêu nghiệm nguyên? Công cụ của nó là [âm nhạc] phép đếm
+[00:01:04.920 --> 00:01:07.990] Công cụ của nó là [âm nhạc] phép đếm trên những chiếc đồng hồ. Đây là đồng hồ
+[00:01:08.000 --> 00:01:10.789] trên những chiếc đồng hồ. Đây là đồng hồ modulo 5 cộng quá 5 thì cuộn vòng về
+[00:01:10.799 --> 00:01:13.270] modulo 5 cộng quá 5 thì cuộn vòng về đầu.
+[00:01:13.280 --> 00:01:17.950] đầu. 3 + 4 = 7 nhưng trên đồng hồ này nó bằng
+[00:01:17.960 --> 00:01:20.350] 3 + 4 = 7 nhưng trên đồng hồ này nó bằng 2.
+[00:01:20.360 --> 00:01:22.789] 2. Bên thứ hai là giải tích điều hòa thế
+[00:01:22.799 --> 00:01:25.630] Bên thứ hai là giải tích điều hòa thế giới của sóng và đối xứng.
+[00:01:25.640 --> 00:01:28.069] giới của sóng và đối xứng. Nó hỏi hình dạng này rung theo những tần
+[00:01:28.079 --> 00:01:30.830] Nó hỏi hình dạng này rung theo những tần số nào?
+[00:01:30.840 --> 00:01:33.550] số nào? Đếm nghiệm trên đồng hồ và đo tần số của
+[00:01:33.560 --> 00:01:35.109] Đếm nghiệm trên đồng hồ và đo tần số của sóng.
+[00:01:35.119 --> 00:01:39.310] sóng. Nghe như hai môn không liên quan gì.
+[00:01:39.320 --> 00:01:42.710] Nghe như hai môn không liên quan gì. Lan Len nói, "Chúng là một cùng một sự
+[00:01:42.720 --> 00:01:49.749] Lan Len nói, "Chúng là một cùng một sự thật viết bằng hai ngôn ngữ.
+[00:01:51.960 --> 00:01:54.389] Nhưng làm sao số học lại chứa sóng bên trong nó?
+[00:01:54.399 --> 00:01:57.670] trong nó? Có một trực giác rất đẹp. Hãy nhìn hàm
+[00:01:57.680 --> 00:02:01.270] Có một trực giác rất đẹp. Hãy nhìn hàm sinh, nó xây được từ các đa thức cộng
+[00:02:01.280 --> 00:02:04.709] sinh, nó xây được từ các đa thức cộng dồn từng mảnh một.
+[00:02:04.719 --> 00:02:07.830] dồn từng mảnh một. Mảnh đầu tiên chỉ là một đường thẳng,
+[00:02:07.840 --> 00:02:11.430] Mảnh đầu tiên chỉ là một đường thẳng, không có gì tuần hoàn cả.
+[00:02:11.440 --> 00:02:15.070] không có gì tuần hoàn cả. Cộng thêm mảnh nữa rồi, mảnh nữa, từng
+[00:02:15.080 --> 00:02:19.670] Cộng thêm mảnh nữa rồi, mảnh nữa, từng đa thức riêng lẽ đều bay vọt ra vô cực.
+[00:02:19.680 --> 00:02:22.150] đa thức riêng lẽ đều bay vọt ra vô cực. Nhưng nhìn xem càng cộng nhiều đường
+[00:02:22.160 --> 00:02:25.990] Nhưng nhìn xem càng cộng nhiều đường công càng ông sát một con sóng.
+[00:02:26.000 --> 00:02:28.670] công càng ông sát một con sóng. Và khi số mảnh tiến tới vô hạn, còn sóng
+[00:02:28.680 --> 00:02:33.670] Và khi số mảnh tiến tới vô hạn, còn sóng lặp lại hoàn hảo cứ mỗi hai pi một lần.
+[00:02:33.680 --> 00:02:35.550] lặp lại hoàn hảo cứ mỗi hai pi một lần. Sự tuần hoàng không nằm trong bất kỳ
+[00:02:35.560 --> 00:02:41.589] Sự tuần hoàng không nằm trong bất kỳ mảnh nào, nó chỉ ló ra ở vô hạn.
+[00:02:41.599 --> 00:02:44.830] mảnh nào, nó chỉ ló ra ở vô hạn. Đó là linh hồn của Lan Len. Từng số
+[00:02:44.840 --> 00:02:48.350] Đó là linh hồn của Lan Len. Từng số nguyên tố trông rời rạt ngẫu nhiên nhưng
+[00:02:48.360 --> 00:02:56.190] nguyên tố trông rời rạt ngẫu nhiên nhưng gom toàn bộ một đối xứng ẩn hiện ra.
+[00:02:58.440 --> 00:03:01.830] Ý tưởng một sự thật. Nhiều ngôn ngữ có một tổ tiên nổi tiếng.
+[00:03:01.840 --> 00:03:05.630] một tổ tiên nổi tiếng. Năm 1940, nhà toán học Andrew ngồi trong
+[00:03:05.640 --> 00:03:08.270] Năm 1940, nhà toán học Andrew ngồi trong tù vì từ chối nhập ngủ.
+[00:03:08.280 --> 00:03:10.589] tù vì từ chối nhập ngủ. Trong thư gửi em gái, ông phát ra một
+[00:03:10.599 --> 00:03:14.789] Trong thư gửi em gái, ông phát ra một tấm đá Roseta của toán học.
+[00:03:14.799 --> 00:03:15.750] tấm đá Roseta của toán học. Đá Rosteta [âm nhạc]
+[00:03:15.760 --> 00:03:17.589] Đá Rosteta [âm nhạc] thật có một văn bản khắc bằng ba thứ
+[00:03:17.599 --> 00:03:20.030] thật có một văn bản khắc bằng ba thứ tiếng, nhờ đó người ta giải mã được chữ
+[00:03:20.040 --> 00:03:22.630] tiếng, nhờ đó người ta giải mã được chữ Ai Cập.
+[00:03:22.640 --> 00:03:26.110] Ai Cập. Đá Roseta của Way có ba cột:
+[00:03:26.120 --> 00:03:30.309] Đá Roseta của Way có ba cột: Công hình học và trường hữu hạn.
+[00:03:30.319 --> 00:03:32.670] Công hình học và trường hữu hạn. Trong thế giới này, đa thức và số nguyên
+[00:03:32.680 --> 00:03:35.070] Trong thế giới này, đa thức và số nguyên giống nhau đến kỳ lạ. Cả hai đều chỉ là
+[00:03:35.080 --> 00:03:38.350] giống nhau đến kỳ lạ. Cả hai đều chỉ là một dãy hệ số.
+[00:03:38.360 --> 00:03:44.550] một dãy hệ số. Số 1234 là dãy 1 2 3 4. Đa thức bậc ba
+[00:03:44.560 --> 00:03:48.270] Số 1234 là dãy 1 2 3 4. Đa thức bậc ba với hệ số ấy cũng vậy.
+[00:03:48.280 --> 00:03:50.550] với hệ số ấy cũng vậy. Loại suy này không hoàn hảo. Số nguyên
+[00:03:50.560 --> 00:03:54.110] Loại suy này không hoàn hảo. Số nguyên có phép nhớ khi cộng đa thức thì không.
+[00:03:54.120 --> 00:03:56.270] có phép nhớ khi cộng đa thức thì không. Nhưng nó đủ mạnh để dịch định lý từ cột
+[00:03:56.280 --> 00:04:02.309] Nhưng nó đủ mạnh để dịch định lý từ cột này sang cột kia.
+[00:04:05.480 --> 00:04:08.830] Cuốn từ điển này không chỉ đẹp, nó là một cổ máy giải toán.
+[00:04:08.840 --> 00:04:10.990] một cổ máy giải toán. Ví dụ nổi tiếng nhất là phỏng đoán ra
+[00:04:11.000 --> 00:04:12.789] Ví dụ nổi tiếng nhất là phỏng đoán ra mang dung [âm nhạc] về một dãy số khét
+[00:04:12.799 --> 00:04:14.910] mang dung [âm nhạc] về một dãy số khét tiếng khó đoán, không bao giờ vượt một
+[00:04:14.920 --> 00:04:17.870] tiếng khó đoán, không bao giờ vượt một ngưỡng nhất định.
+[00:04:17.880 --> 00:04:20.030] ngưỡng nhất định. Hãy vẽ bài toán thành một chấm trên vặt
+[00:04:20.040 --> 00:04:24.790] Hãy vẽ bài toán thành một chấm trên vặt số. Đích ở đây là 1. Ban đầu giới hạn
+[00:04:24.800 --> 00:04:29.310] số. Đích ở đây là 1. Ban đầu giới hạn tốt nhất chứng minh được nằm tận ở 10.
+[00:04:29.320 --> 00:04:32.070] tốt nhất chứng minh được nằm tận ở 10. Lan Len chỉ ra nếu từ điển của ông đúng,
+[00:04:32.080 --> 00:04:34.270] Lan Len chỉ ra nếu từ điển của ông đúng, mỗi mục từ dịch được sẽ kéo cái chấm lại
+[00:04:34.280 --> 00:04:38.029] mỗi mục từ dịch được sẽ kéo cái chấm lại gần đích thêm một bậc căn.
+[00:04:38.039 --> 00:04:40.469] gần đích thêm một bậc căn. Dịch được mục thứ hai, chấm nhảy về căn
+[00:04:40.479 --> 00:04:45.510] Dịch được mục thứ hai, chấm nhảy về căn bậc hai của 10. Mục thứ ba căn bậc 3.
+[00:04:45.520 --> 00:04:48.990] bậc hai của 10. Mục thứ ba căn bậc 3. Rồi cứ thế [âm nhạc] mãi.
+[00:04:49.000 --> 00:04:51.590] Rồi cứ thế [âm nhạc] mãi. Dịch được toàn bộ từ điển chấm chạm hẳn
+[00:04:51.600 --> 00:04:54.990] Dịch được toàn bộ từ điển chấm chạm hẳn vào một. Một lần nữa. Câu trả lời hoàn
+[00:04:55.000 --> 00:04:59.150] vào một. Một lần nữa. Câu trả lời hoàn hảo chỉ hiện ra ở vô hạn.
+[00:04:59.160 --> 00:05:01.870] hảo chỉ hiện ra ở vô hạn. Nhưng hãy trung thực, phần nếu đó gọi là
+[00:05:01.880 --> 00:05:05.550] Nhưng hãy trung thực, phần nếu đó gọi là tính hàm tử, đến nay vẫn là phỏng đoán.
+[00:05:05.560 --> 00:05:12.670] tính hàm tử, đến nay vẫn là phỏng đoán. Mới vài mục từ đầu được dịch xong.
+[00:05:14.840 --> 00:05:17.390] Năm 1967, Robert Lan Len còn là một giáo sư trẻ vô
+[00:05:17.400 --> 00:05:19.790] Robert Lan Len còn là một giáo sư trẻ vô danh.
+[00:05:19.800 --> 00:05:22.590] danh. Ông gửi Andre quay một lá thư 17 trang
+[00:05:22.600 --> 00:05:25.189] Ông gửi Andre quay một lá thư 17 trang kè một dòng rục rè. Nếu ông thấy toàn là
+[00:05:25.199 --> 00:05:27.749] kè một dòng rục rè. Nếu ông thấy toàn là suy đoán vớ vẩn thì chắc ông có sẵn sọc
+[00:05:27.759 --> 00:05:30.469] suy đoán vớ vẩn thì chắc ông có sẵn sọc rác.
+[00:05:30.479 --> 00:05:33.710] rác. Quay không vứt nó đi. Lá thư đó trở
+[00:05:33.720 --> 00:05:38.430] Quay không vứt nó đi. Lá thư đó trở thành tấm bản đồ cho 60 năm toán học.
+[00:05:38.440 --> 00:05:40.550] thành tấm bản đồ cho 60 năm toán học. Ngày nay hàng trăm nhà toán học vẫn đang
+[00:05:40.560 --> 00:05:44.790] Ngày nay hàng trăm nhà toán học vẫn đang xây [âm nhạc] từng nhịp cầu. Năm 2024,
+[00:05:44.800 --> 00:05:46.990] xây [âm nhạc] từng nhịp cầu. Năm 2024, một nhánh lớn là lan len hình học đã
+[00:05:47.000 --> 00:05:50.629] một nhánh lớn là lan len hình học đã được chứng minh trọn vẹn.
+[00:05:50.639 --> 00:05:53.870] được chứng minh trọn vẹn. Nhưng phần lớn chương trình vẫn còn mở.
+[00:05:53.880 --> 00:05:55.430] Nhưng phần lớn chương trình vẫn còn mở. Qu từng viết về những cây [âm nhạc] cầu
+[00:05:55.440 --> 00:05:57.870] Qu từng viết về những cây [âm nhạc] cầu như thế bằng một câu đơn giản. Cây cầu
+[00:05:57.880 --> 00:06:01.110] như thế bằng một câu đơn giản. Cây cầu này tồn tại.
+[00:06:01.120 --> 00:06:03.749] này tồn tại. Chúng ta biết [âm nhạc] nó tồn tại.
+[00:06:03.759 --> 00:06:06.909] Chúng ta biết [âm nhạc] nó tồn tại. Chúng ta đi qua nó mỗi ngày. Chỉ còn một
+[00:06:06.919 --> 00:06:09.150] Chúng ta đi qua nó mỗi ngày. Chỉ còn một câu hỏi không ai trả lời được. Vì sao
+[00:06:09.160 --> 00:06:13.469] câu hỏi không ai trả lời được. Vì sao cuốn từ điển đó tồn tải?
+[00:06:15.360 --> 00:06:17.274] Nếu bạn thích cách nhìn toán học bằng những cây cầu, hãy đăng ký kênh để
+[00:06:17.284 --> 00:06:20.840] những cây cầu, hãy đăng ký kênh để [âm nhạc] cùng đi tiếp.

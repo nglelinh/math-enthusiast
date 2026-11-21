@@ -1,0 +1,41 @@
+[
+  {
+    "id": "ku_i_as_point",
+    "title": "Complex numbers as plane points",
+    "type": "definition",
+    "t_start": 20,
+    "t_end": 90,
+    "summary": "x²+1=0 has no real root; define i as the vertical unit so pairs (a,b) form C with i²=-1. Each complex number is a vector from origin.",
+    "concepts": [
+      "complex_plane"
+    ],
+    "depth": "intro"
+  },
+  {
+    "id": "ku_multiply_rotate",
+    "title": "Multiplication = scale + rotate",
+    "type": "intuition",
+    "t_start": 90,
+    "t_end": 180,
+    "summary": "Multiply moduli; add arguments. Multiply by i is a 90° rotation (modulus fixed). i⁴=1; i²=-1 is half-turn of 1.",
+    "concepts": [
+      "complex_multiplication",
+      "euler_formula"
+    ],
+    "depth": "standard",
+    "math": "z=re^{iθ}; iz rotates by π/2. Euler: e^{iπ}+1=0 as half-turn identity."
+  },
+  {
+    "id": "ku_complex_applications",
+    "title": "Where i appears in tech/physics",
+    "type": "overview",
+    "t_start": 180,
+    "t_end": 270,
+    "summary": "AC phasors; Fourier as sum of rotating vectors; digital audio/images/Wi‑Fi; quantum wavefunctions; iteration → Mandelbrot-like beauty. FTA: every degree-n polynomial splits in C; nth roots of unity equally spaced on circle.",
+    "concepts": [
+      "fourier_transform",
+      "phasor"
+    ],
+    "depth": "intro"
+  }
+]

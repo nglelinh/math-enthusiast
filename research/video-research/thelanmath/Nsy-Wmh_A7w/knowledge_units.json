@@ -1,0 +1,69 @@
+[
+  {
+    "id": "ku_why_needles",
+    "title": "Needles as skeleton of wave concentration",
+    "type": "intuition",
+    "t_start": 0,
+    "t_end": 120,
+    "summary": "Frequency cap of angular width δ on sphere ⇒ spatial tube width ~1/δ and length ~1/δ² (scaling as told). Union of multi-directional tubes is Kakeya-type; restriction becomes geometric tube packing.",
+    "concepts": [
+      "wave_packets",
+      "delta_tubes"
+    ],
+    "depth": "standard",
+    "math": "Cap angular size δ ⇒ tube radius ∝ δ^{-1}, length ∝ δ^{-2} in the video's 3D scaling slogan."
+  },
+  {
+    "id": "ku_furstenberg_def",
+    "title": "Hollow needles: Furstenberg sets",
+    "type": "definition",
+    "t_start": 120,
+    "t_end": 200,
+    "summary": "Relax Kakeya in two ways: (1) on each line keep only an s-dimensional dust (not full segment); (2) take only a t-dimensional family of lines (not every direction). Question: minimal Hausdorff dimension of the union.",
+    "concepts": [
+      "furstenberg_set"
+    ],
+    "depth": "deep",
+    "math": "Parameters s∈[0,1], t∈[0,2] in the plane (lines parameterized by 2 coords)."
+  },
+  {
+    "id": "ku_ren_wang_formula",
+    "title": "Ren–Wang 2023 planar theorem",
+    "type": "theorem",
+    "t_start": 200,
+    "t_end": 320,
+    "summary": "Every planar Furstenberg set has dim ≥ min(S+T, (3S+T)/2, S+1). Three regions of (S,T)-plane: additive regime, grid/middle, saturation. At S=T=1 recover dim≥2 = planar Kakeya (Davies) as special case. Sharp examples known; not mere lower bound culture.",
+    "concepts": [
+      "ren_wang_furstenberg"
+    ],
+    "depth": "deep",
+    "math": "dim ≥ min(s+t, (3s+t)/2, s+1). Boundaries t=s and t=2−s in the video map."
+  },
+  {
+    "id": "ku_two_ends_dictionary",
+    "title": "Two-ends and Restriction dictionary",
+    "type": "overview",
+    "t_start": 320,
+    "t_end": 500,
+    "summary": "Two-ends inequality for line/tube bundles: mass cannot concentrate on a short segment of each line. Plane versions proved (full thickness later); 3D still conjectural. Conditional: two-ends ⇒ full restriction. Exponent↔dimension dictionary: e.g. popular 3.2 ↔ Kakeya 7/3; 22/7 ↔ Wolff 2.5. Solving 3D Kakeya does not automatically set restriction to 3.",
+    "concepts": [
+      "two_ends",
+      "restriction_kakeya_dictionary"
+    ],
+    "depth": "deep"
+  },
+  {
+    "id": "ku_spillover",
+    "title": "Spillover applications",
+    "type": "overview",
+    "t_start": 500,
+    "t_end": 639,
+    "summary": "Tools spill to Fefferman ball multiplier failure, Falconer distance, decoupling/Vinogradov mean value, local smoothing. Industrial slogan: not phone-app math—but each floor moves multiple pure-math fronts.",
+    "concepts": [
+      "falconer",
+      "decoupling",
+      "fefferman_multiplier"
+    ],
+    "depth": "intro"
+  }
+]

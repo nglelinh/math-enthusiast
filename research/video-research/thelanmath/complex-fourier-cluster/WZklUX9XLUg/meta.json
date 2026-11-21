@@ -1,0 +1,14 @@
+{
+  "id": "WZklUX9XLUg",
+  "url": "https://www.youtube.com/watch?v=WZklUX9XLUg",
+  "title": "Giải tích phức — Bài 27: Tuần hoàn kép & hàm ℘ Weierstrass",
+  "tag": "complex_analysis",
+  "duration": 783.0,
+  "fetched_at": "2026-08-08",
+  "mapping": {
+    "en": "contents/en/chapter03/_posts/21-01-01-03_08_Fourier_Signal_Processing.md",
+    "vi": "contents/vi/chapter03/_posts/21-01-01-03_08_Fourier_Signal_Processing.md",
+    "pack_only_series": true
+  },
+  "char_count": 12121
+}

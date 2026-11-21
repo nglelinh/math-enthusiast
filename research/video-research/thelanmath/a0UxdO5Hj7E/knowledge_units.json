@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ku_ai_math_overview",
+    "title": "Một Chứng Minh Đúng Mà Không Ai Hiểu — Có Còn Là Toán Học?",
+    "type": "overview",
+    "summary": "Một cổ máy vừa chứng minh xong một định Một cổ máy vừa chứng minh xong một định lý mà loài người vật lộn cả trăm năm. Nhưng khi bạn đọc không một ai hiểu vì Nhưng khi bạn đọc không một ai hiểu vì sao nó đúng. Vậy xin hỏi một chứng minh đúng mà không Vậy xin hỏi một chứng minh đúng mà không ai hiểu thì có còn là toán học không?",
+    "depth": "standard",
+    "concepts": [
+      "ai_math"
+    ]
+  },
+  {
+    "id": "ku_ai_math_ideas",
+    "title": "Key ideas",
+    "type": "intuition",
+    "summary": "Bởi từ hai điểm, một tiền đề và một kết Bởi từ hai điểm, một tiền đề và một kết luận, luôn có nhiều con đường nối chúng luận, luôn có nhiều con đường nối chúng lại. Cả hai cùng chạm đích, cả hai cùng đúng, Cả hai cùng chạm đích, cả hai cùng đúng, nhưng chỉ một con đường là đẹp. Mỗi chứng minh giống như một cái cây mọc lên từ những tiên đề gốc.",
+    "depth": "intro",
+    "concepts": [
+      "ai_math"
+    ]
+  },
+  {
+    "id": "ku_ai_math_status",
+    "title": "Status / open questions",
+    "type": "overview",
+    "summary": "Mỗi cành là một bước suy luận dẫn dần Mỗi cành là một bước suy luận dẫn dần lên tới ngọn nơi định lý nở ra. Còn cái cây do máy dựng lên có thể bùng Còn cái cây do máy dựng lên có thể bùng thành hàng nghìn nhánh nhỏ, đúng đến thành hàng nghìn nhánh nhỏ, đúng đến từng chi tiết nhưng rậm rạp đến ngột từng chi tiết nhưng rậm rạp đến ngột thở, thở, cùng một ngọn định lý sáng như nhau.",
+    "depth": "intro",
+    "concepts": [
+      "ai_math"
+    ]
+  }
+]

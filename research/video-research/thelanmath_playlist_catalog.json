@@ -1,0 +1,556 @@
+{
+  "playlist": "https://www.youtube.com/playlist?list=PLJktu9fzK0Nk",
+  "channel": "Thelanmath",
+  "total": 62,
+  "extract_count": 48,
+  "done_count": 1,
+  "skip_count": 13,
+  "videos": [
+    {
+      "index": 1,
+      "id": "l0GgjCcMNC4",
+      "duration": 385.0,
+      "title": "Cuốn Từ Điển Bí Mật Của Toán Học | Chương Trình Langlands",
+      "action": "done",
+      "tag": "langlands"
+    },
+    {
+      "index": 2,
+      "id": "s38gVcYH110",
+      "duration": 270.0,
+      "title": "Số Ảo Là Có Thật: Vì Sao Nhân Với i Chính Là Quay 90° | Cơ Chế Của Số Phức",
+      "action": "extract",
+      "tag": "complex_analysis"
+    },
+    {
+      "index": 3,
+      "id": "Z_8rtbgWAD0",
+      "duration": 295.0,
+      "title": "Xáo Bài Bao Nhiêu Lần Thì Thật Sự Ngẫu Nhiên? | Cơ Chế Toán Học Của Cutoff",
+      "action": "extract",
+      "tag": "mixing_cutoff"
+    },
+    {
+      "index": 4,
+      "id": "wwctEIMFenQ",
+      "duration": 309.0,
+      "title": "Va Chạm Hạt, Sóng Thần, Kẹt Xe — Cùng Một Hình Học Kỳ Lạ | Grassmannian Dương",
+      "action": "extract",
+      "tag": "grassmannian"
+    },
+    {
+      "index": 5,
+      "id": "a0UxdO5Hj7E",
+      "duration": 310.0,
+      "title": "Một Chứng Minh Đúng Mà Không Ai Hiểu — Có Còn Là Toán Học? | Toán Học Thời Đại AI",
+      "action": "extract",
+      "tag": "ai_math"
+    },
+    {
+      "index": 6,
+      "id": "aHrBFiX0s5k",
+      "duration": 358.0,
+      "title": "Tiên Đề Chọn: Điều Hiển Nhiên Gây Tranh Cãi Nhất Toán Học",
+      "action": "extract",
+      "tag": "set_theory"
+    },
+    {
+      "index": 7,
+      "id": "TSOqUYPzbf0",
+      "duration": 531.0,
+      "title": "Ai Sẽ Đoạt Huy Chương Fields 2026? · 8 Ứng Viên & 8 Bài Toán Bất Khả",
+      "action": "extract",
+      "tag": "fields_2026"
+    },
+    {
+      "index": 8,
+      "id": "BQktwi8bt1c",
+      "duration": 433.0,
+      "title": "Những Con Số Ẩn · Phần 1 — Hành Trình Ba Con Số π, e, δ",
+      "action": "extract",
+      "tag": "transcendental_chaos"
+    },
+    {
+      "index": 9,
+      "id": "VzmaMIFBn5Q",
+      "duration": 238.0,
+      "title": "Những Con Số Ẩn · Phần 2 — π và e Được Phát Hiện, Không Phải Phát Minh",
+      "action": "extract",
+      "tag": "transcendental_chaos"
+    },
+    {
+      "index": 10,
+      "id": "ALZDrF_eodE",
+      "duration": 248.0,
+      "title": "Những Con Số Ẩn · Phần 3 — Nghịch Lý: Gần Như MỌI Số Đều Siêu Việt",
+      "action": "extract",
+      "tag": "transcendental_chaos"
+    },
+    {
+      "index": 11,
+      "id": "YJpBOPTfo20",
+      "duration": 256.0,
+      "title": "Những Con Số Ẩn · Phần 4 — δ, Con Số Ẩn Trong Hỗn Loạn (Feigenbaum)",
+      "action": "extract",
+      "tag": "transcendental_chaos"
+    },
+    {
+      "index": 12,
+      "id": "bOJNtNF5a-A",
+      "duration": 258.0,
+      "title": "Những Con Số Ẩn · Phần 5 — Làm Sao Toán Học SĂN Một Hằng Số Mới?",
+      "action": "extract",
+      "tag": "transcendental_chaos"
+    },
+    {
+      "index": 13,
+      "id": "KuWJlK_BbYk",
+      "duration": 436.0,
+      "title": "Cây Kim Của Kakeya — Bài Toán 100 Năm Vừa Được Giải (2025)",
+      "action": "extract",
+      "tag": "kakeya_harmonic"
+    },
+    {
+      "index": 14,
+      "id": "p8sbs4c0kFE",
+      "duration": 367.0,
+      "title": "Hai Khối Hình 'Bất Khả' Của 2025 — Xúc Xắc Gian Lận Và Khối Không Chui Qua Chính Nó",
+      "action": "extract",
+      "tag": "geometry_discrete"
+    },
+    {
+      "index": 15,
+      "id": "n0KpuJh8wRQ",
+      "duration": 380.0,
+      "title": "Thuật Toán Tìm Đường 'Nhanh Nhất' Suốt 70 Năm Vừa Bị Soán Ngôi (STOC 2025)",
+      "action": "extract",
+      "tag": "algorithms"
+    },
+    {
+      "index": 16,
+      "id": "kdNgYbnhQGs",
+      "duration": 467.0,
+      "title": "Đạo Hàm Của Một Nốt Nhạc — Vì Sao Tiếng Piano Biết Thở",
+      "action": "extract",
+      "tag": "fourier"
+    },
+    {
+      "index": 17,
+      "id": "u1p-Cu5hzxQ",
+      "duration": 518.0,
+      "title": "Dữ Liệu Có Hình Dạng — Poincaré, Perelman Và Môn Toán Nhìn Xuyên Nhiễu",
+      "action": "extract",
+      "tag": "perelman_tda"
+    },
+    {
+      "index": 18,
+      "id": "58lX6tZ6oeg",
+      "duration": 489.0,
+      "title": "Người Đánh Cắp Vô Hạn? — Cantor, Dedekind Và Lá Thư Thất Lạc 150 Năm",
+      "action": "extract",
+      "tag": "infinity_foundations"
+    },
+    {
+      "index": 19,
+      "id": "uT1JDk6lxg4",
+      "duration": 1657.0,
+      "title": "Số 'Ảo' Thật Ra Là Một Phép XOAY | Số Phức Nhìn Bằng Hình — Complex Analysis Tập 1",
+      "action": "extract",
+      "tag": "complex_analysis"
+    },
+    {
+      "index": 20,
+      "id": "uazZC2DwByE",
+      "duration": 202.0,
+      "title": "Không Có Gì Là Đã Xong · 3 Đột Phá Toán Học 2026 | Ramsey · Condensed · Xáo Bài",
+      "action": "extract",
+      "tag": "mixing_cutoff"
+    },
+    {
+      "index": 21,
+      "id": "hEC0gk3Hl3k",
+      "duration": 193.0,
+      "title": "Trái Tim Định Lý Fermat Vừa Được Nâng Cấp | Modularity, Langlands & Mặt Abelian 2025",
+      "action": "extract",
+      "tag": "langlands_fermat"
+    },
+    {
+      "index": 22,
+      "id": "TcI4DN6EkGA",
+      "duration": 519.0,
+      "title": "Nghịch Lý Người Gác Cổng: Vì Sao Kiểm Tra 10 Lần Vẫn Lọt Lỗi",
+      "action": "extract",
+      "tag": "testing_meta"
+    },
+    {
+      "index": 23,
+      "id": "pPmZsl4Sj8s",
+      "duration": 568.0,
+      "title": "Bản Đồ Ẩn & Những Bức Tường Vừa Sập | 4 Bất Ngờ Toán–Máy Tính 2026",
+      "action": "extract",
+      "tag": "math_cs_2026"
+    },
+    {
+      "index": 24,
+      "id": "OsfdWLiQ6gA",
+      "duration": 281.0,
+      "title": "Ngẫu Nhiên Lượng Tử Có Chứng Nhận | Làm Sao Chứng Minh Một Con Số Thật Sự Ngẫu Nhiên?",
+      "action": "extract",
+      "tag": "quantum_complexity"
+    },
+    {
+      "index": 25,
+      "id": "343VJ6iZl_8",
+      "duration": 261.0,
+      "title": "Khi AI Đi Tìm Định Luật Của Sự Sống | Bên trong hệ thống MEDA",
+      "action": "skip",
+      "tag": "non_math_astrology"
+    },
+    {
+      "index": 26,
+      "id": "M7-1K6wBim0",
+      "duration": 393.0,
+      "title": "Định Lý Cuối Của Fermat: Phiên Tòa Xử Một Con Quái Vật Không Tồn Tại",
+      "action": "extract",
+      "tag": "langlands_fermat"
+    },
+    {
+      "index": 27,
+      "id": "5d1O54SRiU4",
+      "duration": 313.0,
+      "title": "A.I. Vô Tình Làm Lộ Huy Chương Fields 2026 — 4 Bộ Óc Vừa Viết Lại Lịch Sử",
+      "action": "extract",
+      "tag": "fields_2026"
+    },
+    {
+      "index": 28,
+      "id": "znycF6L09sw",
+      "duration": 594.0,
+      "title": "Lá Số Là Một Đồ Thị | Tử Vi, Toán Học Và Xác Suất",
+      "action": "skip",
+      "tag": "non_math_astrology"
+    },
+    {
+      "index": 29,
+      "id": "JdO_WnXEZnA",
+      "duration": 445.0,
+      "title": "Ngôi Sao Vua Chưa Bao Giờ Đứng Yên | Tử Vi, Tuế Sai Và Bầu Trời Thật",
+      "action": "skip",
+      "tag": "non_math_astrology"
+    },
+    {
+      "index": 30,
+      "id": "Kntlu8NInbE",
+      "duration": 492.0,
+      "title": "Tứ Hóa Phần 2: Khi Lá Số Bắt Đầu Chuyển Động | Hàm Hợp, Latin & Census 518.400 Lá Số",
+      "action": "skip",
+      "tag": "non_math_astrology"
+    },
+    {
+      "index": 31,
+      "id": "-c--MRAUYxQ",
+      "duration": 440.0,
+      "title": "Một Đời Người Trong 19 Bit | Tử Vi Dưới Lăng Kính Lý Thuyết Thông Tin (Tập cuối)",
+      "action": "skip",
+      "tag": "non_math_astrology"
+    },
+    {
+      "index": 32,
+      "id": "otZZDq1OGpA",
+      "duration": 355.0,
+      "title": "Đề IMO 2026 Ở Thượng Hải: 6 Bài Toán & Ván Cờ Chia Gậy Của Lưu Bang – Hạng Vũ",
+      "action": "skip",
+      "tag": "non_math_astrology"
+    },
+    {
+      "index": 33,
+      "id": "drNp6cryReg",
+      "duration": 622.0,
+      "title": "Gia Đình Những Cỗ Máy Số Phận | Kinh Dịch, Kỳ Môn, Ấn Độ Dưới Lăng Kính Toán Học",
+      "action": "skip",
+      "tag": "non_math_astrology"
+    },
+    {
+      "index": 34,
+      "id": "kpm4H0MB3qQ",
+      "duration": 2591.0,
+      "title": "Tử Vi Dưới Lăng Kính Khoa Học — Trọn Bộ 5 Tập | Toán · Xác Suất · Thiên Văn · Thông Tin",
+      "action": "skip",
+      "tag": "non_math_astrology"
+    },
+    {
+      "index": 35,
+      "id": "n5hvW1DoK-U",
+      "duration": 419.0,
+      "title": "Calibration — Toán Học Của Sự Khiêm Tốn | Dự Đoán Thật (Tập 1)",
+      "action": "skip",
+      "tag": "non_math_astrology"
+    },
+    {
+      "index": 36,
+      "id": "KQJFzIJW-fc",
+      "duration": 385.0,
+      "title": "Con Người vs A.I. — Ai Đọc Được Tương Lai? | Dự Đoán Thật (Tập 2)",
+      "action": "skip",
+      "tag": "non_math_astrology"
+    },
+    {
+      "index": 37,
+      "id": "t1wHf1oSyvQ",
+      "duration": 417.0,
+      "title": "Ngày Sinh Có Định Mệnh — Nhưng Không Phải Vì Các Vì Sao | Dự Đoán Thật (Tập cuối)",
+      "action": "skip",
+      "tag": "non_math_astrology"
+    },
+    {
+      "index": 38,
+      "id": "G2GdjalAVBY",
+      "duration": 217.0,
+      "title": "Giả Thuyết 87 Năm Vừa Sụp Đổ Bởi Một Đa Thức Bậc 7 (Do Con Người & AI Tìm Ra)",
+      "action": "extract",
+      "tag": "misc_advanced"
+    },
+    {
+      "index": 39,
+      "id": "rxRvOU8gx1A",
+      "duration": 460.0,
+      "title": "Dự Đoán 2026 — Và Chúng Tôi Sẽ Tự Chấm Điểm Mình | Dự Đoán Thật",
+      "action": "skip",
+      "tag": "non_math_astrology"
+    },
+    {
+      "index": 40,
+      "id": "moz5lV5WKGw",
+      "duration": 303.0,
+      "title": "Đi Lang Thang Đủ Lâu Sẽ Biết Cả Vũ Trụ — Định Lý Đẹp Của Lý Thuyết Ergodic",
+      "action": "extract",
+      "tag": "ergodic"
+    },
+    {
+      "index": 41,
+      "id": "sFmIK0t9T1I",
+      "duration": 261.0,
+      "title": "Giả Thuyết 76 Năm Về 'Hình Dạng Hoàn Hảo' Để Truyền Tin Qua Nhiễu Vừa Được Giải",
+      "action": "extract",
+      "tag": "information"
+    },
+    {
+      "index": 42,
+      "id": "Crs215TJHe4",
+      "duration": 350.0,
+      "title": "Splay Tree: 40 Năm Không Ai Chứng Minh Nổi | Bước tiến tháng 7/2026 của Tarjan",
+      "action": "extract",
+      "tag": "algorithms"
+    },
+    {
+      "index": 43,
+      "id": "gcvutoM61Dc",
+      "duration": 580.0,
+      "title": "Sau Cây Kim Kakeya Là Gì? — Giả Thuyết Restriction Và Đường Đua Fields 2030",
+      "action": "extract",
+      "tag": "kakeya_harmonic"
+    },
+    {
+      "index": 44,
+      "id": "vntkYl5loQ8",
+      "duration": 468.0,
+      "title": "Viên Gạch Không Bao Giờ Lặp Lại — Và Bí Mật Nó Giấu Được",
+      "action": "extract",
+      "tag": "geometry_discrete"
+    },
+    {
+      "index": 45,
+      "id": "eu90bfsM-0E",
+      "duration": 635.0,
+      "title": "Phương Trình Dirac — 8 Ký Hiệu Đoán Trước Nửa Vũ Trụ (giải thích bằng toán lớp 9)",
+      "action": "extract",
+      "tag": "dirac"
+    },
+    {
+      "index": 46,
+      "id": "yFwCs6aVgl4",
+      "duration": 398.0,
+      "title": "Vết Nứt Trên Con Đập 44 Năm — Huy Chương Abacus 2026 | TSP, ε ≥ 10⁻³⁶ và hình học của đa thức",
+      "action": "extract",
+      "tag": "algorithms"
+    },
+    {
+      "index": 47,
+      "id": "YpMMMKv2ysA",
+      "duration": 326.0,
+      "title": "Chiếc Sofa Qua Hành Lang — bài toán 58 năm đã có lời giải | Gerver 2,2195… và 119 trang của Baek",
+      "action": "extract",
+      "tag": "geometry_discrete"
+    },
+    {
+      "index": 48,
+      "id": "4kxr8psEvnU",
+      "duration": 301.0,
+      "title": "Tung Xu Suốt 80 Năm — cú nâng cấp đầu tiên cho phương pháp Erdős | Ramsey, mặt cầu và tỉ lệ vàng",
+      "action": "extract",
+      "tag": "ramsey_condensed"
+    },
+    {
+      "index": 49,
+      "id": "A7YRyWNS-GQ",
+      "duration": 169.0,
+      "title": "Một Bóng Ma, Hai Cái Bóng · Vì Sao Bằng Chứng Lượng Tử Mạnh Hơn Giấy Mực? | QMA ≠ QCMA",
+      "action": "extract",
+      "tag": "quantum_complexity"
+    },
+    {
+      "index": 50,
+      "id": "o6rrl1YrGPA",
+      "duration": 171.0,
+      "title": "Một Vết Nứt Trong Nền Móng Toán Học Hiện Đại (Toán Học Ngưng Tụ)",
+      "action": "extract",
+      "tag": "ramsey_condensed"
+    },
+    {
+      "index": 51,
+      "id": "lA9ygcZNNVw",
+      "duration": 103.0,
+      "title": "Bạn Có Thể NGHE Thấy Một Hình Vẽ? | Phép Màu Fourier — Vẽ Bằng Những Vòng Tròn",
+      "action": "extract",
+      "tag": "fourier"
+    },
+    {
+      "index": 52,
+      "id": "EgdaYEjIThY",
+      "duration": 179.0,
+      "title": "AI Bác Bỏ Một Giả Thuyết 80 Năm Của Erdős (Khoảng Cách Đơn Vị)",
+      "action": "extract",
+      "tag": "ramsey_condensed"
+    },
+    {
+      "index": 53,
+      "id": "BPpuiIST5RQ",
+      "duration": 260.0,
+      "title": "17 Tuổi Đánh Sập Giả Thuyết 40 Năm — Từ Một Bài Tập Về Nhà | Hannah Cairo và Mizohata–Takeuchi",
+      "action": "extract",
+      "tag": "kakeya_harmonic"
+    },
+    {
+      "index": 54,
+      "id": "L2bcCBrPeUw",
+      "duration": 1217.0,
+      "title": "Giải tích phức — Bài 25: Định lý ánh xạ Riemann (và Montel)",
+      "action": "extract",
+      "tag": "complex_analysis"
+    },
+    {
+      "index": 55,
+      "id": "D_3uHHwCoY4",
+      "duration": 1187.0,
+      "title": "Giải tích phức — Bài 26: Công thức Schwarz–Christoffel",
+      "action": "extract",
+      "tag": "complex_analysis"
+    },
+    {
+      "index": 56,
+      "id": "4gZRBJFVHBs",
+      "duration": 304.0,
+      "title": "Sau Chén Thánh — Hồng Vương, Huy chương Fields 2026 và 3 mặt trận còn lại của hậu-Kakeya",
+      "action": "extract",
+      "tag": "kakeya_harmonic"
+    },
+    {
+      "index": 57,
+      "id": "eD_wovLnlAM",
+      "duration": 1693.0,
+      "title": "Phép Màu Cauchy — vì sao khả vi MỘT lần thì khả vi VÔ HẠN lần",
+      "action": "extract",
+      "tag": "complex_analysis"
+    },
+    {
+      "index": 58,
+      "id": "WZklUX9XLUg",
+      "duration": 783.0,
+      "title": "Giải tích phức — Bài 27: Tuần hoàn kép & hàm ℘ Weierstrass",
+      "action": "extract",
+      "tag": "complex_analysis"
+    },
+    {
+      "index": 59,
+      "id": "Mc0OekTTPWU",
+      "duration": 546.0,
+      "title": "Cậu Bé Bỏ Học Làm Thơ — Bài Toán 50 Năm",
+      "action": "extract",
+      "tag": "misc_open"
+    },
+    {
+      "index": 60,
+      "id": "Nsy-Wmh_A7w",
+      "duration": 639.0,
+      "title": "Cây Kim Bị Đục Rỗng — Bài Toán Ngay Sau Kakeya",
+      "action": "extract",
+      "tag": "kakeya_harmonic"
+    },
+    {
+      "index": 61,
+      "id": "RkyS4RNOoVE",
+      "duration": null,
+      "title": "NA",
+      "action": "skip",
+      "tag": "unavailable"
+    },
+    {
+      "index": 62,
+      "id": "zf1fia_GyFc",
+      "duration": 1038.0,
+      "title": "Giải tích phức — Bài 28: Chuỗi Eisenstein, phương trình bậc ba & tính modular",
+      "action": "extract",
+      "tag": "complex_analysis"
+    }
+  ],
+  "extract_ids": [
+    "s38gVcYH110",
+    "Z_8rtbgWAD0",
+    "wwctEIMFenQ",
+    "a0UxdO5Hj7E",
+    "aHrBFiX0s5k",
+    "TSOqUYPzbf0",
+    "BQktwi8bt1c",
+    "VzmaMIFBn5Q",
+    "ALZDrF_eodE",
+    "YJpBOPTfo20",
+    "bOJNtNF5a-A",
+    "KuWJlK_BbYk",
+    "p8sbs4c0kFE",
+    "n0KpuJh8wRQ",
+    "kdNgYbnhQGs",
+    "u1p-Cu5hzxQ",
+    "58lX6tZ6oeg",
+    "uT1JDk6lxg4",
+    "uazZC2DwByE",
+    "hEC0gk3Hl3k",
+    "TcI4DN6EkGA",
+    "pPmZsl4Sj8s",
+    "OsfdWLiQ6gA",
+    "M7-1K6wBim0",
+    "5d1O54SRiU4",
+    "G2GdjalAVBY",
+    "moz5lV5WKGw",
+    "sFmIK0t9T1I",
+    "Crs215TJHe4",
+    "gcvutoM61Dc",
+    "vntkYl5loQ8",
+    "eu90bfsM-0E",
+    "yFwCs6aVgl4",
+    "YpMMMKv2ysA",
+    "4kxr8psEvnU",
+    "A7YRyWNS-GQ",
+    "o6rrl1YrGPA",
+    "lA9ygcZNNVw",
+    "EgdaYEjIThY",
+    "BPpuiIST5RQ",
+    "L2bcCBrPeUw",
+    "D_3uHHwCoY4",
+    "4gZRBJFVHBs",
+    "eD_wovLnlAM",
+    "WZklUX9XLUg",
+    "Mc0OekTTPWU",
+    "Nsy-Wmh_A7w",
+    "zf1fia_GyFc"
+  ]
+}

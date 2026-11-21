@@ -1,0 +1,14 @@
+{
+  "id": "s38gVcYH110",
+  "url": "https://www.youtube.com/watch?v=s38gVcYH110",
+  "title": "Số Ảo Là Có Thật: Vì Sao Nhân Với i Chính Là Quay 90° | Cơ Chế Của Số Phức",
+  "tag": "complex_analysis",
+  "duration": 270.0,
+  "fetched_at": "2026-08-08",
+  "mapping": {
+    "en": "contents/en/chapter03/_posts/21-01-01-03_08_Fourier_Signal_Processing.md",
+    "vi": "contents/vi/chapter03/_posts/21-01-01-03_08_Fourier_Signal_Processing.md",
+    "pack_only_series": true
+  },
+  "char_count": 4634
+}

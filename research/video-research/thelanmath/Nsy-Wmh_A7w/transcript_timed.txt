@@ -1,0 +1,101 @@
+[0001.4-0009.9] Một cây kim dài 1 m. Quay nó cho đủ mọi hướng. Cần bao nhiêu diện tích?
+[0009.9-0019.1] Câu trả lời có từ năm 1928 và nó vô lý nhỏ tùy ý. Bạn ra giá bao nhiêu cũng được. 1 phần triệu m²uông vẫn có hình
+[0019.2-0024.8] quay lọt chỉ là không bao giờ xuống tới đúng số không.
+[0024.8-0033.0] Nhưng tập ấy không hề mỏng. Diện tích bằng 0 mà chiều của nó vẫn đầy đủ hai bằng đúng chiều của cả mặt phẳng. Hai
+[0033.0-0040.2] cách đo trả lời ngược nhau và chính chỗ đó đẻ ra cả một ngành. Hôm nay là câu hỏi ngay bên cạnh. Kakia sau khi tháo
+[0040.2-0046.3] hết ràng buộc.
+[0046.3-0051.7] Trước khi tháo cây kim ra phải nói rõ nó dùng để làm gì. Kênh đã kể hai tập. Cây
+[0051.7-0057.8] kim của Kakia rồi giả thuyết Ristin tập hôm nay nằm đúng vào giữa hai tập ấy. Vì
+[0057.8-0067.5] câu hỏi gốc không phải về kim, nó về sóng. Rất nhiều sóng chồng lên nhau thì dồn được vào một chỗ hẹp đến mức nào?
+[0067.6-0071.5] F1 tín hiệu chỉ được dùng những tần số nằm trong một trỏm nhỏ trên mặch cầu.
+[0071.5-0078.7] Tín hiệu ấy không tỏa khắp nơi. Nó sống gần như trọn vẹn trong một cái ống dài và mảnh. Và đây là số đo chứ không phải
+[0078.8-0082.1] hình vẽ.
+[0082.1-0085.6] Trỏm rộng 1/4 radian cho ống rộng 4,02.
+[0085.6-0090.8] Bóp chọm hẹp lại một nửa, ống rộng gấp đúng hai lần và dài gấp đúng bốn lần.
+[0090.8-0097.2] Nghĩa là bề rộng ống tỷ lệ nghịch với bề rộng chóm còn chiều dài thì tỉ lệ với bình phương bề rộng. Bây giờ phụ chõm
+[0097.2-0104.1] khắp mặt cầu, mỗi chọm cho một ống nên ta có một đám ống đủ mọi hướng.
+[0104.1-0111.3] Hợp của đám ống ấy chính là một tập kiểu kakia. Câu hỏi về sóng vừa biến thành câu hỏi hình học. Đám ống đủ mọi hướng
+[0111.3-0115.2] ấy ép lại được nhỏ tới mức nào?
+[0115.2-0123.3] Cây kim là bộ xương của câu hỏi đó. Đó là lý do cả một ngành đổ vào nó một thế kỷ. Còn hôm nay ta hỏi thêm một bậc, nếu
+[0123.3-0127.6] trên mỗi ống ánh sáng không nằm kín cả ống mà chỉ động lại thành bụi thì sao?
+[0127.6-0131.9] Và nếu ta không lấy đủ mọi hướng nữa?
+[0131.9-0137.4] Hai câu hỏi đó đẻ ra tập first.
+[0137.4-0142.4] Kakia đòi hai thứ tuyệt đối, đủ mọi hướng và mỗi hướng một cây kim nguyên.
+[0142.4-0153.3] Nới cả hai ra núm thứ nhất, trên mỗi đường ta không giữ cả cây kim nữa mà đục nó thành bụi. Kiểu tập can to
+[0153.3-0162.9] bụi ấy dài bằng không nhưng vẫn có chiều từ 0 tới 1. Gọi con số đó là S. Giữ nguyên cả kim thì S = 1. Đục càng thưa S
+[0162.9-0167.5] càng nhỏ.
+[0167.5-0174.0] Mọi con số triều trong video này là chiều hosop thước đo dành cho những vật không còn độ dài lẫn diện tích. Núng thứ
+[0174.0-0182.1] hai, hai, một đường thẳng cần hai con số mới xác định được độ dốc và vị trí nên mỗi đường
+[0182.2-0189.8] là một chấm trong một hình vuông hai chiều. Ta chọn một tập chấm dày T trong hình vuông ấy.
+[0189.8-0197.3] Vì thế T vặn được tới hai chứ không phải tới một. Và khi T vượt quá một, ta đã lấy nhiều đường hơn cả mỗi hướng một
+[0197.3-0204.9] cây. Câu hỏi hợp lại thành hình, mỏng nhất có thể là bao nhiêu?
+[0204.9-0210.8] Đoán đầu tiên ai cũng nghĩ tới, cộng lại họ đường dày T, mỗi đường một bụi dày S.
+[0210.8-0220.3] Vậy là S + T. trên 1/4 bản đồ đoán ấy đúng đúng 3/4 còn lại thì không. Ở đó các đường
+[0220.4-0226.3] bắt đầu dùng trung điểm và người ta dựng được những tập mỏng hơn hẳn phép cộng vẫn đủ điều kiện mà chiều thấp hơn S +
+[0226.4-0236.4] T. Ví dụ trên mỗi đường chỉ còn bụi chiều 1/2 họ đường dày 1 cộng thẳng cho 1,5 mỏng nhất thật sự là
+[0236.4-0242.4] 1,25.
+[0242.4-0250.7] Năm 2023, Kevin Ren và Hong Onean đóng lại hoàn toàn câu hỏi này trong mặt phẳng. Đáp số không phải một công thức
+[0250.7-0255.1] là 3 và ta lấy cái nhỏ nhất.
+[0255.1-0262.5] S + T 3s + t chia 2 hoặc S + 1. Ba công thức chia bản đồ thành ba vùng ranh giới
+[0262.5-0271.9] là T = S và T = 2 - S. Vùng thứ nhất X đường. Chúng chưa kịp chạm nhau, cộng thẳng là đúng. Vùng giữa rộng nhất đúng
+[0272.0-0277.9] một nửa bản đồ, các đường bắt đầu dùng chung điểm và tập mỏng nhất ở đó không còn là bụi rãi đều nữa. Nó xếp thành
+[0277.9-0285.8] lưới. Vùng thứ ba, bảo hòa độ thêm bao nhiêu đường nữa, con số cũng không vượt quá chiều của bụi cộng thêm đúng một.
+[0285.8-0289.9] Cái một ấy là chiều của bản thân đường thẳng.
+[0289.9-0289.9] thẳng.
+[0289.9-0297.0] Và phải nói cho đúng chiều. Định lý nói chiều luôn ít nhất bằng con số ấy. Còn ví dụ mọng đúng bằng trừng đó thì đã có
+[0297.0-0306.0] sẵn từ trước. Hai đầu khép lại nên đây là đáp số không phải ước lượng. Tại điểm s = 1, t = 1, cả ba công thức gặp nhau
+[0306.0-0308.8] tại đúng số hai.
+[0308.8-0316.4] Kakia nằm gọn bên trong đó. Mỗi hướng một cây kim nguyên chỉ là một trường hợp riêng. Và thế là định lý cổ điển Kakia
+[0316.4-0322.6] trong mặt phẳng dày hai chiều rơi ra như một hệ quả.
+[0322.6-0332.5] Vì sao mặt trận này lại nóng? Tháng 11 năm 2024, Hongan và Sukun ghép định lý Dolê với các tập First Standb và chỉ ra
+[0332.5-0338.8] chỉ cần một bất đẳng thức hình học về những bó đường thẳng là đủ để Redistin đổ theo. Bất đặng thức ấy đi kèm một
+[0338.8-0345.7] điều kiện tên là hai đầu. Nhìn hai bó ống này lần này dựng thẳng trong không gian ba chiều, đúng chỗ giả thuyết còn
+[0345.7-0348.6] mở.
+[0348.6-0348.6] mở.
+[0348.6-0355.7] 60 ống cùng đi qua một điểm, cùng thắp sáng đúng một lượng như nhau. Bó thứ nhất thắp ở khúc giữa, ngay chỗ tất cả
+[0355.7-0358.7] trồng lên nhau nên chúng dẫm chân nhau.
+[0358.7-0364.9] Đếm trên lưới ô thể tích, cả bó chỉ chiếm 24%.
+[0365.0-0371.9] Bó thứ hai đẩy ánh sáng ra hai đầu nơi các ống đã tách ra và nó chiếm gấp hơn bốn lần. Điều kiện hai đầu chính là câu
+[0371.9-0381.0] cấm cái mèo thứ nhất. Trên mỗi đường phần sáng không được co cụm vào một khúc ngắn, phải còn khối lượng ở cả hai phía.
+[0381.0-0383.8] Đây là chỗ phải nói cho thật chính xác.
+[0383.8-0387.8] Trước hết tách hai thứ rất dễ lẫn.
+[0387.8-0393.7] Cái song năm 2023 là chiều của tập first bớ phẳng, công thức ba nhánh lúc nãy.
+[0393.8-0400.2] Cái đang bàn bây giờ là bất đẳng thức hai đầu, không phải một con số chiều mà một bất đẳng thức về những bó đường.
+[0400.2-0406.8] Trong mặt phẳng, Oan và U chứng minh được bất đẳng thức ấy, nhưng cho họ Đường đã chuẩn hóa. Bạn cho mọi độ dày t
+[0406.8-0415.7] thì mới xong năm 2025 và đang nằm ở khâu phản biện. Còn trong không gian ba chiều, nó vẫn là giả thuyết.
+[0415.7-0422.7] Bài báo của họ có một định lý mang chữ nếu nếu giả thuyết hai đầu ấy đứng vững thì Rristin được chứng minh trọn vẹn.
+[0422.7-0432.2] Một chiều thôi và là một định lý có điều kiện. Không ai đang nói Rristin sắp xong.
+[0432.2-0439.6] Bất đẳng thức Rristin có một con số điều khiển tất cả số mũ P. Chứng minh được cho P càng nhỏ thì càng mạnh và giả
+[0439.6-0446.7] thuyết đòi hạ nó xuống tới ba. Năm 1975, người ta mới ở bốn. Mọi kết quả nửa thế
+[0446.7-0452.7] kỷ sau đó gộp lại đưa được tới 3,2. Cuộc leo dốc ấy kênh đã kể riêng một tập rồi.
+[0452.7-0456.8] Con đường first hai đầu hạ tiếp xuống 22/7.
+[0456.8-0456.8] 22/7.
+[0456.8-0463.5] Đúng cái phân số học trò dùng thay cho số pi tình cờ thôi, không có liên hệ toán học nào.
+[0463.5-0466.4] Nhưng con số ấy không rơi từ trên trời.
+[0466.4-0474.8] Có một từ điển đổi thẳng số mũ Rristin sang chiều của tập Kakia trong không gian. Tra thử 3,2 ứng với 7/3 mức Buger
+[0474.8-0484.6] Gin 91 còn 22/7 ứng đúng 2,5. Cái mức quá đạt được cho Kakia từ năm 95.
+[0484.6-0492.5] Tức là việc vừa làm được thực chất là kéo Ristin đuổi kịp chỗ Kakia đã đứng 30 năm trước và từ điện ấy cũng chỉ chạy
+[0492.5-0498.4] một chiều. Kakia trong không gian thì đã xong năm 2025 nhưng điều đó không tự trả
+[0498.4-0505.4] Ristin về ba còn lại 0,143.
+[0505.4-0512.1] Giờ quay lại đúng câu hỏi đã đặt ở đầu video. Nhiều sóng trồng nhau thì dồn được vào chỗ hẹp đến mức nào? Cả cái
+[0512.1-0519.9] tháp này chỉ để trả lời câu đó. Và khi trả lời được một tầng, thứ rơi ra không nằm yên một chỗ. Hệ ai hạ được cây kim,
+[0520.0-0524.3] thứ đó rơi ngay xuống bốn chỗ khác.
+[0524.3-0533.4] Một năm 1971, Chatler Fefferman dùng đúng tập Bevit để bát một giả thuyết lớn. Từ hai chiều trở lên, cách cộng
+[0533.4-0539.7] chuỗi Furi bằng cách cắt theo hình tròn không hoạt động. Một cây kim diện tích không đã vết một giả thuyết về chuỗi
+[0539.7-0546.4] Furi. Hai bài toán khoảng cách của Fan Coroner.
+[0546.4-0552.1] Một tập điểm phải dày cỡ nào thì tập các khoảng cách giữa chúng mới có độ dài dương. Đây là một trong những mạng được
+[0552.2-0560.5] nêu tên trong bạn Tuyên Dương Huy Trương Phi của Hong Onean. Ba cũngng bộ công cụ ấy. Declin đã bước
+[0560.6-0563.0] sang số học.
+[0563.0-0568.9] Nó dùng để chứng minh dạ thuyết trung bình Vinogrado, một bài toán về tổng mũ mà giới lý thuyết số theo đuổi hàng chục
+[0568.9-0576.8] năm. Bốn năm. Bốn tầng trên cùng Laan Smart nói về nghiệm phương trình sóng. Sóng có thể tụ thành
+[0576.8-0581.1] gai kỳ dị, nhưng lấy trung bình theo thời gian thì gai ấy mượt đi bao nhiêu?
+[0581.2-0588.5] Nói cho sòng phẳn, đây là ứng dụng bên trong toán học, giải tích, số học, phương trình đạo hàm riêng.
+[0588.6-0594.6] Không ai bán được cây kim kakia cho nhà sản xuất điện thoại, &gt;&gt; nhưng mỗi lần một tầng đồ, cả bốn chỗ
+[0594.6-0602.0] kia đều nhúc nhích. Đó là lý do người ta đổ vào đây một thế kỷ.
+[0602.0-0610.5] Một cây kim quay trong mặt phẳng, đục rỗng nó bớt đường đi và ta có cả một họ bài toán. Kênh đã đi qua bốn trặng. Cây
+[0610.5-0617.6] kim của Kakia, giả thuyết Rristin, cây cầu tắc bị sập của Hann Kairo, rồi ba mặt trận sau khi chánh thánh về tay. Hôm
+[0617.6-0623.2] nay là trặng thứ năm và nó nằm ngay dưới chân cả bốn trặng kia.
+[0623.2-0629.0] &gt;&gt; First trong mặt phẳn đã xong. First hai đầu trong không gian thì chưa.
+[0629.0-0633.1] &gt;&gt; Và cái chưa xong ấy hôm nay là con đường ngắn nhất người ta biết để đi lên tầng
+[0633.1-0637.9] trên.
+[0638.0-0640.3] Đ

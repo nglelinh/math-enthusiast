@@ -1,0 +1,17 @@
+{
+  "id": "KuWJlK_BbYk",
+  "url": "https://www.youtube.com/watch?v=KuWJlK_BbYk",
+  "title": "Cây Kim Của Kakeya — Bài Toán 100 Năm Vừa Được Giải (2025)",
+  "tag": "kakeya_harmonic",
+  "duration": 436.0,
+  "fetched_at": "2026-08-08",
+  "mapping": {
+    "en": "contents/en/chapter01/_posts/21-01-01-01_08_Kakeya_Conjecture.md",
+    "vi": "contents/vi/chapter01/_posts/21-01-01-01_08_Kakeya_Conjecture.md",
+    "also": [
+      "contents/en/chapter02/_posts/21-01-01-02_15_Wang_Harmonic_Analysis.md",
+      "contents/vi/chapter02/_posts/21-01-01-02_15_Wang_Harmonic_Analysis.md"
+    ]
+  },
+  "char_count": 9474
+}

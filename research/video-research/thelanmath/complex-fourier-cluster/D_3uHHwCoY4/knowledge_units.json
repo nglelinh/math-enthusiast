@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ku_sc_need",
+    "title": "Why SC after Riemann mapping",
+    "type": "intuition",
+    "t_start": 0,
+    "t_end": 200,
+    "summary": "Riemann mapping guarantees a disk↔region map but rarely writes a formula. Schwarz–Christoffel gives explicit integral maps from half-plane/disk to polygons by prescribing turning angles at prevertices.",
+    "concepts": [
+      "schwarz_christoffel"
+    ],
+    "depth": "standard",
+    "math": "SC form (schematic): f'(z) ∝ ∏ (z−x_k)^{α_k−1} for exterior/interior angles α_k."
+  },
+  {
+    "id": "ku_sc_geometry",
+    "title": "Straight sides + corners as branch factors",
+    "type": "algorithm",
+    "t_start": 200,
+    "t_end": 1187,
+    "summary": "Walk straight edges until a vertex, turn by prescribed angle—encoded by power factors in f'. Applications: conformal maps in engineering (airfoils, electrostatics) at slogan level.",
+    "concepts": [
+      "conformal_map"
+    ],
+    "depth": "standard"
+  }
+]

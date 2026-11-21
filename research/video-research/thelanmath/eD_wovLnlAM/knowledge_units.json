@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ku_real_counterexample",
+    "title": "Real C∞ that is not analytic",
+    "type": "example",
+    "t_start": 0,
+    "t_end": 200,
+    "summary": "Classic bump e^{−1/x²} (extended by 0 at 0) is infinitely differentiable on R but Taylor series at 0 is identically 0—does not recover the function. Real differentiability is weak.",
+    "concepts": [
+      "smooth_vs_analytic"
+    ],
+    "depth": "standard"
+  },
+  {
+    "id": "ku_cauchy_miracle",
+    "title": "Holomorphic once ⇒ analytic",
+    "type": "theorem",
+    "t_start": 200,
+    "t_end": 900,
+    "summary": "Complex differentiability on an open set (holomorphic) implies infinitely differentiable and locally equal to power series (Cauchy integral formula engine). One complex derivative buys infinite smoothness + rigidity.",
+    "concepts": [
+      "holomorphic",
+      "cauchy_integral",
+      "power_series"
+    ],
+    "depth": "deep",
+    "math": "f holomorphic on Ω ⇒ for z in disk, f(z)=(1/2πi)∮ f(ζ)/(ζ−z) dζ and f(z)=∑ a_n (z−z₀)^n."
+  },
+  {
+    "id": "ku_identity",
+    "title": "Identity / continuation teaser",
+    "type": "overview",
+    "t_start": 900,
+    "t_end": 1693,
+    "summary": "Analytic continuation / identity theorem: values on a set with limit point determine the function on a connected domain—popular ‘magic’ of complex analysis. LO6: precise hypotheses matter.",
+    "concepts": [
+      "identity_theorem",
+      "analytic_continuation"
+    ],
+    "depth": "standard"
+  }
+]

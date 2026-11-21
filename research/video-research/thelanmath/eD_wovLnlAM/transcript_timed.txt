@@ -1,0 +1,247 @@
+[0001.8-0008.2] Tôi có một hàm số và nó cãi lại chính chuỗi tay lơ của nó.
+[0008.2-0017.3] Hàm này e mũ của -1/x bình phương tại x = 0 thì cho nó giá trị 0.
+[0017.4-0025.3] Nó trơn tuyệt đối. Đạo hàm được vô hạn lần ở mọi điểm, kể cả tại gốc.
+[0025.3-0029.1] Nhưng tại gốc thì mọi đạo hàm của nó đều bằng không.
+[0029.1-0038.4] Đạo hàm cấp 1 không, cấp hai không, cấp 1000 cũng không.
+[0038.4-0044.1] Lý do rất thô bạo, hàm này tắt về không nhanh hơn mọi đa thức.
+[0044.1-0056.4] Máy đo tại x = 0,1 lấy giá trị hàm chia cho x mũ 20 vẫn ra 3,7 nh 10 mũ tr-24 mà chuỗi tay lơ được dựng từ đúng những
+[0056.4-0064.5] đạo hàm ấy nên chuỗi tay lơ của hàm này tại gốc là hằng số 0.
+[0064.6-0072.0] Còn bản thân hàm số tại x = 1 có giá trị 0,3679.
+[0072.0-0078.5] Chuỗi nói không hàm nói 0,3679.
+[0078.5-0084.8] Chuỗi tay lơ của nó đúng tại đúng một điểm trên toàn bộ trục số.
+[0084.8-0087.8] Đây là chuyện xảy ra trong số thực.
+[0087.8-0094.7] Trong số phức chỉ cần khả vi một lần trên một tập mở là chuyện này không xảy ra được nữa. Và hôm nay ta đi tìm xem vì
+[0094.8-0100.8] sao.
+[0100.8-0106.4] Trước khi sang số phức phải nói rõ số thực hỏng tới mức nào.
+[0106.4-0117.4] Có một cái than. Nất một khả vi một lần, nất hai khả vi hai lần, cứ thế lên tới trơn vô hạn lần.
+[0117.4-0124.9] Và trên cùng là giải tích, tức là bằng đúng chuỗi tay lơ của mình trong một lân cận.
+[0124.9-0127.8] Hàm ở đầu video thủng nất trên cùng.
+[0127.8-0133.8] Nhưng cái thang ấy thủng ở mọi nất, kể cả nất thấp nhất.
+[0133.8-0140.1] Lấy x bình phương nhân sinh của 1/x tại góc cho nó giá trị không.
+[0140.1-0144.8] Hàm này khả vi ở mọi điểm khác gốc theo quy tắc đạo hàm thông thường.
+[0144.8-0153.8] Còn tại chính gốc thì nó bị kẹp giữa tr-x bình và cộng x bình nên tỷ sai phân bị ép về 0 vẫn khả vi.
+[0153.8-0161.1] Vậy đạo hàm tại góc bằng 0. Nhưng đạo hàm ở những điểm khác thì sao?
+[0161.1-0169.6] Nó bằng 2x nh sin 1/x trừ cosin 1/x. Và cái cosin ấy không chịu đứng yên.
+[0169.6-0176.6] Càng tiến về gốc, đạo hàm càng quét đi quét lại cả khoảng từ -1 tới cộng 1, càng lúc càng nhanh.
+[0176.6-0186.4] Máy đo tại tám điểm chọn khéo -1, dương 1, -1 dương 1 và cứ thế tám lần.
+[0186.4-0189.0] Đạo hàm tại góc bằng 0.
+[0189.0-0198.8] Còn ngay sát gốc thì nó quét hết cả khoảng rộng bằng hai. Nó không liên tục mà một hàm không liên tục tại một điểm
+[0198.8-0205.6] thì không thể khả vi tại điểm đó. Nên chính đạo hàm này không khả vi tại gốc, nghĩa là đạo hàm cấp hai tại gốc không
+[0205.6-0217.6] tồn tại. Khả vi một lần không hứa gì cho lần thứ hai. Cái than thủng từ nất đầu tiên.
+[0217.6-0225.6] Bây giờ sang số phức và ở đây có một chuyện mà nhìn công thức thì không thấy.
+[0225.6-0232.5] Định nghĩa đạo hàm nhìn giống hệt, giới hạn của tỷ sai phân khi số gia tiến về không.
+[0232.5-0232.5] không.
+[0232.5-0239.9] Nhưng trong số thực số gia chỉ đi được theo một đường trái sang hoặc từ phải sang.
+[0239.9-0239.9] sang.
+[0239.9-0243.1] hai hướng.
+[0243.1-0243.1] hai hướng.
+[0243.1-0251.8] Trong số phức, số da là một điểm trong mặt phẳng, nó tiến về không được theo vô hạn hướng.
+[0251.8-0251.8] hạn hướng.
+[0251.8-0257.9] Và định nghĩa đòi cả vô hạn hướng ấy phải cho cùng một số.
+[0258.0-0263.8] Nhìn thử, bên trái là một mũi tên quay quanh điểm ta đang xét và nó ngắn dần.
+[0263.8-0268.2] Bên phải là tỷ sai phân tương ứng.
+[0268.2-0277.1] Với một đa thức, vệt bên phải là một đường xoắn ốc. Nó quay và nó thắt dần vào một điểm.
+[0277.2-0279.6] Điểm ấy là đạo hàm.
+[0279.6-0287.8] Máy đo trên tám hướng, cả tám cho cùng một số lệch so với đạo hàm thật cỡ hai phần triệu.
+[0287.8-0297.1] Bây giờ đổi hàm. lấy hàm liên hợp giữ nguyên phần thực, đổi dấu phần ảo, một phép lấy đối xứng qua trục hoành hiền
+[0297.1-0300.8] lành nhất trần đời.
+[0300.8-0309.1] Bên trái không có gì thay đổi, mũi tên vẫn quay và vẫn ngắn dần, nhưng bên phải thì không thắt lại nữa. Nó là một vòng
+[0309.1-0312.5] tròn.
+[0312.5-0321.1] Và đây mới là chỗ đáng sợ. Bán kính vòng tròn ấy đúng bằng một, bất kể mũi tên ngắn tới đâu.
+[0321.1-0332.6] Máy đo ở ba độ dài 0,4 0,1 0,02 bán kính đều đúng bằng 1,00.
+[0332.6-0342.6] Nó không phải hội tụ chậm, nó từ chối hội tụ và từ chối theo cách không sửa được bằng cách thu nhỏ số da.
+[0342.6-0346.0] Còn một ca thứ ba và nó là ca lạ nhất.
+[0346.0-0355.2] Lấy bình phương môun của Z vòng bên phải co lại theo khoảng cách từ điểm ta đang xét tới gốc nên tại đúng
+[0355.2-0364.7] gốc và chỉ tại đúng gốc nó co về không thật. Giữ điểm ở gốc rồi cho mũi tên ngắn dần. Bán kính đo được 0,05 rồi 0,01
+[0364.7-0370.9] rồi 0,002 đúng bằng độ dài mũi tên.
+[0371.0-0379.4] Nghĩa là hàm ấy khả vi phức tại đúng một điểm. Và đó là lý do mọi thứ hôm nay đều phải nói trên một tập mở. Tại một điểm
+[0379.4-0385.1] lẽ thì đạo hàm cấp hai còn không định nghĩa nổi.
+[0385.1-0393.5] Rút gọn cái đòi hỏi vô hạn hướng ấy, ta được đúng hai phương trình, gọi là hệ cao chi vi men.
+[0393.5-0398.9] Nhưng phải rào một câu ngay, thỏa hai phương trình đó tại một điểm thì chưa đủ.
+[0398.9-0399.0] đủ.
+[0399.0-0409.0] Định lý đòi các đạo hàm riêng phải liên tục và thỏa trên cả một miền mở.
+[0409.0-0417.0] Từ chỗ này trở đi là phần mà hầu hết các bài giảng đi lướt. Tôi sẽ đi chậm vì phép màu nằm ở đây chứ không nằm ở chỗ
+[0417.0-0420.6] mọi người tưởng.
+[0420.6-0425.2] Bước đầu tiên tên là Định Lý Gurat.
+[0425.2-0431.9] Nó nói, nếu hàm khả vi phức trên một tập mở chứa cả tam giác lẫn phần trong của nó thì tích phân dọc theo chu vi tam
+[0431.9-0435.6] giác ấy bằng 0.
+[0435.6-0443.6] Cách chứng minh rất đẹp. Chia tam giác thành bốn tam giác con bằng cách nối trung điểm các cạnh.
+[0443.6-0450.1] Tích phân trên tam giác lớn bằng tổng tích phân trên bốn tam giác con. Vì các cạnh trông bị đi hai lần ngược chiều
+[0450.1-0454.5] nhau nên chúng triệt tiêu.
+[0454.5-0463.3] Vậy phải có ít nhất một tam giác con mà độ lớn tích phân trên nó bằng ít nhất 1/4 độ lớn tích phân ban đầu
+[0463.3-0468.7] chọn nó rồi lại chia 4 rồi lại chọn.
+[0468.7-0472.0] Cứ thế mãi.
+[0472.0-0478.5] Ta được một dãy tam giác lồng nhau, mỗi cái có chu vi và đường kính bằng đúng nửa cái trước và tất cả cùng thắt lại về
+[0478.5-0481.8] đúng một điểm.
+[0481.8-0489.6] Tại đúng điểm ấy, ta dùng giả thiết hàm khả vi, nghĩa là quanh điểm đó nó gần bằng một hàm bậc nhất và phần chên lệch
+[0489.6-0496.7] không những nhỏ tùy ý mà còn nhỏ tùy ý nhân với khoảng cách tới điểm đó.
+[0496.7-0505.8] Mà tích phân của một hàm bậc nhất trên một đường khép kính thì bằng 0, chỉ còn lại phần chênh lệch cháy.
+[0505.8-0514.7] Và đây là chỗ phải cẩn thận. Mỗi vòng chia bốn, ta đã nhân cận lên bốn ở bước chọn. Nhưng chu vi và đường kính đều
+[0514.7-0521.1] giảm một nửa nên cận của phần chênh lệch giảm đúng bốn lần.
+[0521.1-0524.9] Hai cái bốn ấy triệt tiêu nhau ở mọi vòng.
+[0524.9-0524.9] vòng.
+[0524.9-0531.6] Cái còn lại chỉ là một hằng số cố định nhân với lượng nhỏ tùy ý kia.
+[0531.6-0536.8] Kết luận tích phân ban đầu bằng 0.
+[0536.8-0549.2] Chỗ đắc giá của Gurak nằm ở giả thiết nó chỉ đòi đúng một thứ. Đạo hàm phức tồn tại ở mỗi điểm không đòi gì thêm.
+[0549.2-0551.9] Và đó không phải chuyện nhỏ.
+[0551.9-0559.1] Cách chứng minh của đi qua hệ cao chien và định lý Green. Nhưng cách ấy phải mua thêm một giả thiết đạo hàm phức phải
+[0559.1-0571.5] liên tục. Stetin để đúng nó xuống làm bài tập số 5. Guras thì không đụng tới hệ cauchi remen và không mua gì thêm.
+[0571.5-0580.1] Đó là lý do cả chương sách của Stiên dựng lên từ định lý này. Ông viết thẳng từ Gurak, ta suy ra hầu hết mọi kết quả
+[0580.2-0584.5] còn lại.
+[0584.5-0592.1] Từ Gurat qua vài bước, ta có định lý cao chi với một hàm khả vi phức trên cả một cái đĩa. Tích phân của nó trên mọi đường
+[0592.2-0595.3] khép kính nằm trong địa ấy đều bằng không.
+[0595.3-0595.3] không.
+[0595.3-0601.9] Và Stetin mở rộng nó cho cả những đường vẽ tay kiểu hình sắp tới. Điều kiện vẫn đúng một câu, hàm phải khả vi trên một
+[0602.0-0607.4] tập mở chứa cả đường ấy lẫn phần trong của nó.
+[0607.4-0615.7] Bây giờ ta muốn cái công thức nổi tiếng kia. Và ở đây có một cái bẫy mà rất nhiều người nhảy qua.
+[0615.7-0624.3] Gọi biến chạy trên đường tròn là ta. Ta muốn xét hàm gốc chia cho de ta. Trừ điểm ta đang xét.
+[0624.3-0631.9] Nhưng cái đó có một kỳ vị đúng tại chính điểm đó nên không áp thẳng định lý cao chi được. Điều kiện vừa nói đòi hàm khả
+[0631.9-0638.1] vi trên cả phần trong mà kỳ dị thì nằm ngay giữa phần trong.
+[0638.1-0645.2] Cách xử lý là một hình vẽ tên là côn tao lỗ khóa. Đi vòng theo đường tròn lớn rồi rẽ vào trong theo một hành lang hẹp đi
+[0645.2-0652.0] một vòng nhỏ quanh cái kỳ dị ấy. Rồi đi ngược hành lang ấy trở ra.
+[0652.0-0662.1] Đường đi ấy khép kính và nó không bao lấy kỳ dị nên cao chi áp được và tích phân trên nó bằng không.
+[0662.1-0671.9] Bây giờ cho hành lang hẹp lại. Hai bờ hành lang được đi hai lần ngược chiều nhau nền chúng triệt tiêu.
+[0672.0-0680.0] Còn lại đúng hai thứ. Tích phân trên đường tròn lớn đi thuận chiều và tích phân trên vòng nhỏ. Vòng nhỏ đi ngược
+[0680.0-0687.8] chiều. Chính vì nó ngược chiều mà cả đường đi mới không bao lấy kỳ dị.
+[0687.8-0693.4] Tách hàm dưới dấu tích phân làm hai phần và chỉ tách trên vòng nhỏ thôi.
+[0693.4-0701.9] Phần thứ nhất chính là tỷ sai phân của hàm gốc tại điểm ấy. Hàm gốc khả vi nên tỷ sai phân đó bị chặn và trên vòng nhỏ
+[0702.0-0706.4] tích phân của nó tiến về không.
+[0706.4-0717.8] Phần thứ hai, vì vòng nhỏ đi ngược chiều cho ra giá trị hàm tại điểm ấy nhân với -2π chuyển vế dấu trừ thành dấu cộng.
+[0717.8-0720.8] Và ta có công thức tích phân cao chi.
+[0720.8-0727.2] Giá trị của hàm ở giữa bằng một tích phân của giá trị hàm trên rìa.
+[0727.2-0732.6] Hãy nhớ kỹ một dòng vừa rồi. Đúng cái dòng nói tỷ sai phân bị chặn.
+[0732.6-0746.5] Đó là chỗ cuối cùng mà tính khả vi của hàm gốc bị đem ra dùng. Từ đây trở đi không một bước nào còn đụng tới nó nữa.
+[0746.5-0751.5] Bây giờ mới tới chỗ ai cũng gọi là phép màu.
+[0751.5-0751.5] màu.
+[0751.5-0753.7] Nhìn kỹ công thức.
+[0753.7-0764.2] Điểm ta đang xét không còn nằm trong hàm gốc nữa, nó chỉ còn nằm trong cái mẫu số ve ta trừ điểm ấy.
+[0764.2-0775.0] Muốn lấy đạo hàm theo điểm ấy, ta không đụng vào hàm gốc. Ta đạo hàm cái mẫu, mà đạo hàm của một trên cái mẫu ấy là
+[0775.0-0780.9] một trên bình phương của nó. Đạo hàm lần nữa ra hai trên lũy thừa ba.
+[0780.9-0792.9] Cứ thế ra ngay. Đạo hàm cấp n bằ n giai thừa chia cho 2 pi nh y nhân tích phân của hàm gốc chia cho cái mẫu ấy nâng lên lũy
+[0792.9-0797.2] thừa n + 1.
+[0797.2-0799.8] Máy kiểm trên một đa thức.
+[0799.8-0817.7] Giá trị hàm và ba đạo hàm đầu tính hoàn toàn từ dữ liệu trên rìa cho 0,202,99 nh y - 2,48 - 0,9 x y 1,8 - 3 x y và 6.
+[0817.7-0829.4] Bốn con số khác nhau lệch so với giá trị thật cỡ 10 mũ trừ15 và không có bước nào bắt hàm gốc phải khả vi thêm một lần nào nữa. Nói thẳng
+[0829.4-0836.8] cái vừa xảy ra, ta chỉ giả thiết hàm gốc khả vi một lần trên một tập mở, mà công thức trả về đạo hàm cấp n với mọi n một
+[0836.8-0841.4] lần thành vô hạn lần.
+[0841.4-0848.4] Và còn một bước nữa cũng chỉ đụng vào cái mẫu. Khai triển một trên cái mẫu ấy thành chuỗi hình học theo hiệu giữa điểm
+[0848.4-0853.1] ta đang xét và tâm của đĩa rồi đổi thứ tự tổng với tích phân.
+[0853.1-0862.0] Ta được hàm gốc bằng một chuỗi lũy thừa mà hệ số bậc n đúng bằng đạo hàm cấp n tại tâm chia cho n giai thừa tức là bằng
+[0862.0-0868.0] đúng chuỗi tay lơ của chính nó trên cả cái đĩa.
+[0868.0-0877.5] Nhớ lại lớp một ở đó trơn vô hạn lần mà chuỗi tay lơ vẫn nói dối. Ở đây thì không còn chỗ để nói dối nữa. Món nợ mở
+[0877.5-0883.0] đầu video trả tại đúng dòng này.
+[0883.0-0889.8] Nhưng khoan, có một cái giá ở đây và nó thường bị nuốt mất.
+[0889.8-0899.1] Vừa rồi ta đã đổi thứ tự hai lần, một lần đạo hàm với tích phân, một lần tổng với tích phân. Không lần nào miễn phí.
+[0899.1-0905.5] Nó không tự động đúng và có những ví dụ nó sai hẳn.
+[0905.5-0912.1] Cả hai được phép ở đây vì cùng một lý do rất cụ thể. Điểm ta đang xét nằm sâu bên trong, cách đường tròn một khoảng cách
+[0912.1-0915.4] dương.
+[0915.4-0923.4] Stin viết đúng chữ ấy trong sách, điểm đó ở một khoảng cách hữu hạn tới đường tròn biên. Hãy ghi món nợ này lại, ta sẽ
+[0923.4-0928.0] trả nó ở phần sau.
+[0928.0-0933.9] Và bây giờ tới chỗ tôi nghĩ hầu hết cách kể đều sai.
+[0934.0-0945.8] Người ta hay nói phép màu là ở chỗ hàm gốc trốn được sau lưng cái mẫu số. Nghe rất hay nhưng nó vinh danh nhầm nữa.
+[0945.8-0954.5] Vì cái mẫu số ấy cho không nó cho mọi dữ liệu liên tục trên rìa, không trừ ai.
+[0954.5-0956.1] Thử luôn.
+[0956.1-0965.2] Lấy một dữ liệu bất kỳ trên đường tròn, tôi lấy môđun của cộng 2. Một hàm nhận giá trị thực liên tục và không khả vi
+[0965.2-0969.2] phức ở đâu cả.
+[0969.2-0977.0] Nhét nó vào đúng công thức ấy, ta được một hàm dựng từ rìa. Và hàm dựng từ rìa ấy khả vi phức. Máy kiểm ba cách khác
+[0977.0-0983.3] nhau, cả ba cho cùng một số, lệch 3/1 tỷ.
+[0983.3-0990.3] Nhưng có một chuyện, hàm dựng từ rìa ấy không bằng dữ liệu ta bỏ vào.
+[0990.3-1003.7] Tại một điểm cụ thể, dữ liệu nói 2,3087 một số thực, còn hàm dựng ra nói 2,269 - 0,09 nh y.
+[1003.7-1014.1] Nó lệch gần 1/10 và nó thậm chí không còn là số thực nữa. Nó trả về một hàm khác hẳn.
+[1014.1-1021.9] Cho nên phép màu không phải là được cái mẫu số gánh hộ. Phép màu là khi hàm gốc khả vi phức, cái tích phân ấy trả lại
+[1021.9-1025.7] đúng nó.
+[1025.7-1035.3] Và quyền được viết dưới dạng ấy không tự có. Nó mua bằng Guras và bằng cái côn tao lỗ khóa vừa nãy.
+[1035.3-1038.6] Cái mẫu số không tặng ta gì cả.
+[1038.6-1047.2] Thứ hiếm là tấm vé được đứng dưới dấu tích phân.
+[1047.2-1056.5] Bây giờ trả món nợ ở phần trước. Cái khoảng cách dương ấy hiện ra thành một con số và nó có tên.
+[1056.6-1063.9] Nếu hàm gốc khả vi phức trên một tập mở chứa trọn cái đĩa đóng bán kính R, kể cả đường tròn biên và trên đường tròn ấy nó
+[1063.9-1076.2] bị chặn bởi một số gọi là m thì đạo hàm cấp n tại tâm bị chặn bởi n giai thừ nhân m tất cả chia cho r mũ n.
+[1076.2-1086.3] Đó là bất đẳng thức cao chi và nó nói một điều hơi buồn. Khả vi vô hạn lần thì có nhưng bị đánh thuế.
+[1086.3-1094.3] Và cái R dưới mẫu chính là khoảng cách dương ta vừa ghi nợ. Muốn ước lượng đạo hàm cấp cao cho tốt, phải có chỗ mà lùi
+[1094.3-1098.2] ra xa biên.
+[1098.2-1106.0] Ở đây có một chỗ tôi muốn nói thẳng, vì tôi từng làm sai đúng chỗ này trong một video trước.
+[1106.0-1114.3] cũng chứa trọn cái đĩa tôi vừa đọc lướt qua, không phải thủ tục, chỉ cần địa ấy chạm tới một điểm mà hàm không khả vi,
+[1114.3-1119.0] bất đẳng thức hết được bảo đảm.
+[1119.0-1128.9] Thử vi phạm xem sao. Lấy hàm 1 chia cho 1 - z, nó khả vi ở mọi nơi trừ điểm z = 1.
+[1128.9-1128.9] 1.
+[1128.9-1134.6] Lấy bán kính 0,9 đĩa chưa chạm kỳ dị, giả thiết còn hiệu lực.
+[1134.6-1140.7] Đạo hàm cấp sáu tại gốc là 720, còn cái trần cho ra 13.00.
+[1140.7-1144.1] Đúng.
+[1144.1-1150.8] Bây giờ lấy bán kính bằng hai cái đĩa nuốt luôn kỳ dị.
+[1150.8-1158.6] Đạo hàm cấp một tại gốc vẫn bằng một, còn cái trần cho ra 0,5.
+[1158.6-1165.1] Trần thấp hơn giá trị thật, bất đẳng thức sập.
+[1165.1-1174.3] Giả thiết là thứ chịu lực, bỏ nó thì công thức không chỉ kém chính xác, nó nói ngược.
+[1174.3-1181.9] Còn một hệ quả nữa rơi ra gần như miễn phí, cho bán kính chạy ra vô cùng.
+[1181.9-1189.9] Nếu hàm khả vi phức trên toàn mặt phẳng và bị chặn thì trần của đạo hàm là m chia r tiến về 0.
+[1189.9-1197.4] Nên đạo hàm bằng không ở mọi nơi. Nên hàm là hàng số.
+[1197.4-1200.1] Đó là định lý liovin.
+[1200.1-1205.8] Và để thấy nó mạnh cỡ nào, hãy nhớ hàm sinh.
+[1205.8-1213.7] Trên trục thực, sinh bị chặn giữa -1 và cộng 1 ai cũng biết. Nhưng đi lên trục ảo thì môđun của sin bằng sin
+[1213.7-1222.8] hyperbolic. tại y = 5 nó là 74, còn tại y = 20 nó là 243 triệu.
+[1222.8-1230.4] Bị chặn trên một đường thẳng là chuyện rẻ, còn khả vi phức trên cả mặt phẳng mà vẫn bị chặn thì bất khả, trừ khi là hàng
+[1230.4-1233.8] số.
+[1233.8-1240.2] Và hãy để ý cái hình dạng vừa xuất hiện, phẳn lặng dọc một đường nổ tung ngay bên cạnh.
+[1240.2-1240.2] cạnh.
+[1240.2-1247.3] Ta sắp gặp lại nó.
+[1247.3-1251.6] Quay lại cái hàm ở đầu video.
+[1251.6-1261.5] E mũ của -1/x bình phương. Trên trục thực nó phẳn lì, tắt về không nhanh hơn mọi đa thức.
+[1261.5-1272.3] Bây giờ thay x thực bằng z phức và đi theo trục ảo. Đặt z = y nh y thì z bìnhươ bằng - bình phương.
+[1272.3-1278.3] nên -1/z bình phương bằng cộng 1/y bình phương.
+[1278.3-1278.3] phương.
+[1278.3-1284.9] Dấu bị lật hàm không tắt nữa nó nổ.
+[1284.9-1292.5] Đo tại khoảng cách 0,12 từ gốc đi theo trục thực 7 x 10 mũ trừ 31.
+[1292.5-1299.2] Đi theo trục ảo 1,4 x 10 mũ cộ 30.
+[1299.2-1308.9] Trên một đường tròn bán kính 0,2 môđun của nó chạy từ cỡ 10 mũ trừ 11 tới cỡ 10 mũ cộng 11.
+[1308.9-1315.5] Cái phẳng lì trên trục thực được mua bằng một vụ nổ ngay bên cạnh. Trong số thực ta không nhìn thấy hóa đơn, vì ta
+[1315.5-1319.7] chỉ đi dọc một đường.
+[1319.7-1329.0] Kỳ vị đó có tên kỳ dị cốt yếu và ta chứng minh được chứ không phải chỉ nhìn.
+[1329.0-1343.0] Khai triển lô ren của nó tính bằng tích phân đường. Hệ số bậc 0 = 1, bậc -2 = -1 bậc -4 = 0,5 bậc -6 = -0,1667
+[1343.0-1352.9] và không phải chỉ bốn cái. Thay vdú bằng -1/z bình vào chuỗi của e mũ v đú, ta được hệ số ở bậc -2k b= -1 mũ k chia k
+[1352.9-1358.8] giai thừa không bao giờ bằng 0.
+[1358.8-1367.5] Vô hạn hệ số âm khác không? Một cực điểm chỉ có hữu hạn nên đây không phải cực điểm. Còn bỏ được thì đã chẳng có hệ số
+[1367.6-1371.7] âm nào mà ở đây hệ số bậc -2 bằng -1.
+[1371.7-1375.9] Nó là cốt yếu.
+[1375.9-1385.2] Bây giờ tới bài học và tôi phải phát biểu nó rất cẩn thận vì cách nói tự nhiên nhất là cách nói sai.
+[1385.2-1392.5] Chiều đúng là chiều này. Nếu một hàm trơn trên trục thực mà có mở rộng khả vi phức ra một lân cận thủng của điểm ấy,
+[1392.6-1399.5] tức một cái đĩa nhỏ quanh điểm ấy, bỏ chính điểm ấy đi và nó vẫn không giải tích tại đó thì kỳ dị bắt buộc phải là
+[1399.5-1403.4] cốt yếu.
+[1403.4-1412.3] Vì sao bắt buộc? Cực điểm bị loại, cực điểm nổ theo mọi hướng, kể cả dọc trục thực nên hàm thực đã không liên tục rồi.
+[1412.3-1418.7] Còn kỳ dị bỏ được cũng bị loại, bỏ được thì đã giải tích.
+[1418.7-1425.0] chỉ còn cốt yếu, không có lựa chọn nào khác.
+[1425.0-1432.2] Còn chiều ngược lại thì sai và phản ví dụ nằm ngay trong sách stên.
+[1432.2-1439.8] Lấy hàm bằng 0 với x nhỏ hơn hoặc bằng 0 và bằng e mũ của -1/x bìnhươ với x dương.
+[1439.8-1439.8] dương.
+[1439.8-1451.3] Hàm này cũng trơn vô hạn, cũng không giải tích tại gốc, nhưng nó không có mở rộng khả vi phước nào quanh gốc. Nếu có mở rộng ấy sẽ
+[1451.3-1462.2] triệt tiêu trên cả nửa trục âm. Một tập có điểm tụ nền theo định lý đồng nhất, nó phải đồng nhất bằng không. Mâu thuẫn
+[1462.2-1466.4] nghĩa là không có kỳ dị nào để chỉ vào cả.
+[1466.4-1466.4] cả.
+[1466.4-1476.1] Trơn mà không giải tích là chuyện phổ biến trong số thực và không phải trường hợp nào cũng có một vụ nổ nấp bên cạnh.
+[1476.1-1487.0] Nên câu chốt phải viết chính xác thế này. Không có hàm nào khả sáu phức trên một tập mở mà lại không giải tích.
+[1487.0-1493.6] Nếu bạn chỉ mang về một ví dụ từ video này, hãy mang ví dụ sau.
+[1493.6-1503.9] hàm 1 chia cho 1 + x bình phương trên toàn bộ trục số thực nó hoàn toàn hiền lành. Mẫu số không bao giờ bằng
+[1503.9-1512.5] không có điểm nào bất thường, không có chỗ nào gãy, không có chỗ nào vô cùng.
+[1512.6-1526.3] Viết chuỗi tay lơ của nó tại góc 1 - x bình c x m 4 - x m 6 và cứ thế tại x = 0,9 lấy 200 số hạn chuỗi cho
+[1526.4-1529.5] 0,552486.
+[1529.5-1534.0] Giá trị thật cũng đúng bằng thế.
+[1534.0-1538.7] Bây giờ nhích sang x = 1,1.
+[1538.7-1552.0] 20 số hạng -20 50 số hạng -6.200 200 số hạng -1,6 nh 10 mũ 16.
+[1552.0-1556.3] Còn giá trị thật của hàm tại đó là 0,452.
+[1556.3-1556.3] 0,452.
+[1556.3-1561.3] Một con số bình thường tới mức tẻ nhạt.
+[1561.3-1571.3] Chuỗi chất đúng tại bán kính bằng một mà trên trục thực không có bất cứ thứ gì ở khoảng cách một để giải thích chuyện đó.
+[1571.3-1581.6] Thứ ở khoảng cách đúng bằng 1 là y và tr- y hai chỗ mà mẫu số triệt tiêu. Hai chỗ nằm ngoài trục thực.
+[1581.6-1589.3] Nói cho chặt, định lý chỉ hứa chuỗi hội tụ ít nhất tới kỳ dị gần nhất. Riêng ở đây bán kính bằng đúng một thì tính
+[1589.3-1594.5] thẳng ra được vì đó là chuỗi hình học.
+[1594.5-1607.1] Một hàm thực, một chuỗi thực, một câu hỏi thực và câu trả lời nằm ở chỗ mà số thực không nhìn tới.
+[1607.2-1620.0] Tóm lại đường đi, Khả Vi phức đòi cùng một số theo vô hạn hướng, rút gọn lại đòi hỏi ý thành hệ cao chi ren.
+[1620.0-1629.5] Nhưng gurc thì không cần tới hệ ấy, nó chỉ cần đạo hàm tồn tại và nó cho tích phân trên tam giác bằng 0. Từ đó ra định
+[1629.6-1638.3] lý cao chi. Từ đó qua côn tao lỗ khóa ra công thức tích phân.
+[1638.3-1644.8] Và một khi hàm đã viết được thành tích phân với cái mẫu số ấy, mọi đạo hàm rơi ra. Vì ta đạo hàm cái mẫu chứ không đạo
+[1644.8-1648.3] hàm hàm gốc.
+[1648.4-1656.1] Nhưng xin nhắc lại lần cuối, cái mẫu số cho không và nó cho mọi dữ liệu liên tục trên rìa. Cái ta phải mua ta đã mua xong
+[1656.1-1660.0] từ lớp G.
+[1660.0-1668.3] Đó là lý do người ta gọi đây là một phép màu. Không phải vì nó bí ẩn mà vì cái giá đã được trả xong ở một chỗ khác.
+[1668.3-1673.9] Trước đó và ta chỉ đến nhận hàng.
+[1673.9-1680.3] Chủ đề sau sẽ đi về một hướng hoàn toàn khác. Bài toán Kakia và câu hỏi một cây kim quay trong mặt phẳng cần bao nhiêu
+[1680.3-1683.6] diện tích?
+[1683.6-1686.4] Hẹn gặp lại.

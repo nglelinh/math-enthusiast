@@ -1,0 +1,68 @@
+[
+  {
+    "id": "ku_restriction_question",
+    "title": "Fourier restriction as curvature vs energy focus",
+    "type": "definition",
+    "t_start": 50,
+    "t_end": 150,
+    "summary": "Restriction asks how much a Fourier transform of a measure supported on a curved hypersurface (sphere) can concentrate. Flat directions allow coherent focusing along lines; curvature forces cancellation. Knapp example: small spherical cap ≈ flat ⇒ energy lives in a thin tube.",
+    "concepts": [
+      "fourier_restriction",
+      "knapp_example",
+      "curvature"
+    ],
+    "depth": "standard",
+    "math": "In R^3, the conjectured critical restriction exponent is often packaged as p=3 in popular accounts; best published range historically far from critical."
+  },
+  {
+    "id": "ku_tubes_from_caps",
+    "title": "Wave packets = tubes; Restriction ⇒ Kakeya",
+    "type": "intuition",
+    "t_start": 150,
+    "t_end": 240,
+    "summary": "Partition sphere into caps → each packet lives in a long thin tube with radius ~ sqrt(length) scaling relative to cap size; all directions appear. Tube-overlap control is needed for restriction, so Kakeya-type geometry is necessary (not sufficient).",
+    "concepts": [
+      "wave_packets",
+      "delta_tubes"
+    ],
+    "depth": "standard"
+  },
+  {
+    "id": "ku_restriction_progress",
+    "title": "Progress ledger toward p=3",
+    "type": "overview",
+    "t_start": 240,
+    "t_end": 380,
+    "summary": "Stein–Tomas 1975: p≥4. Then Bourgain, Tao, Bourgain–Guth, Guth polynomial partitioning, broom structures, Wang collaborators: progressive improvements; late-2024 popular account cites 22/7≈3.143 with remaining gap ≈0.143 to the believed critical 3. Exponents across papers are not always identical formulations—compare carefully.",
+    "concepts": [
+      "stein_tomas",
+      "polynomial_partitioning"
+    ],
+    "depth": "deep"
+  },
+  {
+    "id": "ku_two_ends_program",
+    "title": "Two-ends geometric reduction (Wang–Wu ~2024)",
+    "type": "theorem",
+    "t_start": 380,
+    "t_end": 500,
+    "summary": "Instead of pure analytic inequalities, reduce restriction to a geometric intersection hypothesis for tube families with a two-ends mass condition (mass cannot pile only at one end). If two-ends holds in 3D, restriction would follow. Plane analogues partly settled; 3D open. Links to Furstenberg technology.",
+    "concepts": [
+      "two_ends",
+      "wang_wu"
+    ],
+    "depth": "deep"
+  },
+  {
+    "id": "ku_fields_2030",
+    "title": "Post-Fields open race",
+    "type": "overview",
+    "t_start": 500,
+    "t_end": 580,
+    "summary": "After Kakeya foundation (2025) and Wang Fields 2026, the video frames restriction + related towers as the next decade's prize landscape—not a prediction of winners.",
+    "concepts": [
+      "fields_medal"
+    ],
+    "depth": "intro"
+  }
+]

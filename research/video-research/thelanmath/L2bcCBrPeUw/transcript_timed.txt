@@ -1,0 +1,208 @@
+[0001.7-0007.6] Đây là một miền hình chữ L góc nhọn cạnh thẳng, không có gì tròn trị cả.
+[0007.6-0012.1] Còn đây là đĩa đơn vị tròn hoàn hảo.
+[0012.1-0019.8] Câu hỏi của bài hôm nay có một phép biến hình bảo góc một đối một biến cái này thành cái kia không?
+[0019.8-0025.4] Nghe thì vô lý. Chỗ góc vuông kia phải đi đâu?
+[0025.4-0025.4] đi đâu?
+[0025.4-0032.2] Nhưng có và cách tìm nó thì lạ hơn cả kết quả.
+[0032.2-0044.4] Ta không đi giận nó, ta tổ chức một cuộc thi luật. Mọi hàm chỉnh hình, đơn ánh đưa miền ấy vào trong đĩa và giữ tâm đứng
+[0044.4-0050.1] yên. Ai kéo giảng mạnh nhất tại tâm thì thắng.
+[0050.1-0050.1] thắng.
+[0050.1-0053.1] Tôi đã cho máy chạy cuộc thi ấy thật.
+[0053.1-0058.1] Xuất phát là hàm đồng nhất, độ kéo giảng bằng một.
+[0058.1-0058.1] bằng một.
+[0058.1-0069.1] Sau 60 vòng, độ kéo giãn lên hơn 4,2 và cái miền không ai đụng vào hình dạng của nó đã tự tròn lại.
+[0069.1-0078.8] Lúc đầu chỗ xa tâm nhất gấp 6,67 lần chỗ gần nhất. Sau 60 vòng, tỷ số ấy còn 1,05.
+[0078.8-0078.8] 1,05.
+[0078.8-0086.6] Người thắng cuộc thi chính là phép biến hình ta cần, đó là toàn bộ ý tưởng.
+[0086.6-0095.1] Bài 25, Định lý ánh xạ Ren.
+[0095.1-0101.4] Trước khi chứng minh phải nói vì sao định lý này được gọi là viên đá gốc của cả chương.
+[0101.4-0101.4] cả chương.
+[0101.4-0107.4] Có một bổ đề rất ngắn ở đầu chương Stin đánh số 1.3.
+[0107.4-0113.9] Nó nói một hàm điều hòa hợp với một hàm chỉnh hình thì vẫn điều hòa.
+[0113.9-0119.9] Chứng minh gọn đến mức gần như không phải chứng minh. Hàm điều hòa là phần thực của một hàm chỉnh hình mà hợp của
+[0119.9-0123.7] hai hàm chỉnh hình thì vẫn chỉnh hình.
+[0123.8-0135.2] Tôi đã kiểm bằng số. Lấy một hàm điều hòa trên đĩa hợp với Z bình phương rồi đo toán tử lắp la trên lưới 41 x 41.
+[0135.2-0143.6] Kết quả lớn nhất cỡ 6/1.000 bằng 0 trong phạm vi sai số của phép sai phân.
+[0143.6-0143.6] phân.
+[0143.6-0146.5] Bây giờ ghép hai thứ lại.
+[0146.5-0156.0] Bài toán der cho giá trị trên biên. Tìm hàm điều hòa bên trong là bài toán của truyền nhiệt, của điện thế, của màn căn.
+[0156.0-0162.2] Nếu bạn giải được nó trên đĩa và nếu mọi miền đơn liên khác toàn mặt phẳng đều tương đương bảo giác với đĩa thì bạn
+[0162.2-0167.5] giải được nó trên mọi miền đơn liên khác toàn mặt phẳng.
+[0167.5-0176.8] Chỉ việc kéo bài toán về đĩa dạy ở đó rồi kéo nghiệm ngược trở lại. Bổ đề 1.3 bảo đảm nghiệm không hỏng trên đường đi.
+[0176.8-0180.3] Còn giá trị biên có theo sang được hay không thì lại là một câu chuyện riêng.
+[0180.3-0183.5] Hẹn bài 26.
+[0183.5-0192.0] Định lý hôm nay chính là mệnh đề thứ hai trong câu ấy.
+[0192.0-0197.6] Ta bắt đầu bằng cách hỏi ngược miền như thế nào thì không thể được.
+[0197.6-0201.3] Điều kiện thứ nhất lộ ra gần như miễn phí.
+[0201.3-0201.4] phí.
+[0201.4-0207.0] Giả sử có ánh xạ bảo giác ép từ toàn bộ mặt phẳng phức vào đĩa.
+[0207.0-0213.4] Ép chỉnh hình trên cả mặt phẳng và ảnh nằm trong đĩa nên ép bị chặn bởi một.
+[0213.4-0217.7] Đó đúng là giả thiết của định lý. Bài 9.
+[0217.7-0222.1] Kết luận F là hằng.
+[0222.2-0224.7] Một hàm hằng thì không đơn ánh.
+[0224.7-0229.7] Vậy toàn bộ mặt phẳn phức bị loại.
+[0229.7-0236.7] &gt;&gt; Xin dừng lại ở đây một nhịp vì đây là chỗ dễ hiểu sai nhất của cả bài.
+[0236.7-0249.1] Điều kiện không phải là miền bị chặn nửa mặt phẳng trên vô hạn, cái giải ngang vô hạn, hạn, mặt phẳng bỏ đi một tia cũng vô hạn,
+[0249.1-0251.6] cả ba đều tương đương bảo giác với đĩa.
+[0251.6-0255.9] Tôi đã kiểm từng cái bằng công thức tường minh.
+[0255.9-0263.5] Thứ bị loại vì lý do này chỉ đúng một, toàn bộ mặt phẳng. Nhưng khoan mừng, bỏ đi một điểm thì mới thỏa điều kiện thứ
+[0263.5-0266.7] nhất thôi.
+[0266.7-0266.7] nhất thôi.
+[0266.7-0272.3] Điều kiện thứ hai, miền phải liên thông, vị cái đĩa liên thông.
+[0272.3-0275.7] Điều kiện thứ ba, miền phải đơn liên lỗ.
+[0275.7-0282.2] Vì cái đĩa cũng vậy, và mặt phẳng bỏ đi một điểm rất đúng ở đây.
+[0282.2-0288.1] Ba điều kiện đều tìm ra trong vài dòng, đều hiển nhiên là cần.
+[0288.1-0293.8] &gt;&gt; Và đây là chỗ đáng kinh ngạc, chúng cũng đủ.
+[0293.8-0308.8] Không có điều kiện thứ tư, không có trường hợp lẽ, không có miền nào lọt lưới, phát biểu chính thức. Sting gọi một tập
+[0308.8-0314.9] con của mặt phẳng phức là thực sự nếu nó khác rỗng và không phải toàn bộ mặt phẳng.
+[0314.9-0315.0] phẳng.
+[0315.0-0326.0] Định lý ánh xạ ren cho một miền thực sự và đơn liên cùng một điểm bất kỳ nằm trong miền ấy. Gọi điểm đó là tâm.
+[0326.0-0333.9] Khi ấy tồn tại duy nhất một ánh xạ bảo giác ép từ miền lên đĩa, đưa tâm về gốc tọa độ và có đạo hàm tại tâm là một số
+[0334.0-0336.4] thực dương.
+[0336.4-0346.1] Hệ quả rơi ra ngay. Hai miền đơn liên thực sự bất kỳ đều tương đương bảo giác với nhau, đi vòng qua đĩa là xong.
+[0346.1-0353.7] Hãy để ý cái chuẩn hóa ở cuối phát biểu vì bỏ nó đi là mất luôn chữ duy nhất.
+[0353.7-0357.7] Chứng minh tính duy nhất ngắn tới mức làm luôn ở đây.
+[0357.8-0360.9] Giả sử F và D đều thỏa.
+[0360.9-0365.3] Đặt H bằng F hợp với nghịch đảo của D.
+[0365.3-0370.9] H là một tự đẳng cấu của đĩa và nó giữ gốc tọa độ.
+[0370.9-0378.1] Bài 24 đã liệt kê hết. Tự đẳng cấu giữ gốc thì chỉ có thể là một phép quay.
+[0378.1-0387.0] Phép quay có đạo hàm tại gốc bằng đúng cái số phức đơn vị ấy. Bắt nó phải thực dương thì chỉ còn số 1.
+[0387.0-0389.7] &gt;&gt; Vậy H là hàm đồng nhất tức F bằng D.
+[0389.7-0393.0] Xong.
+[0393.0-0400.0] &gt;&gt; Bỏ chữ dương ấy đi thì còn cả một vòng tròn các phép quay. Bỏ luôn cả điều kiện đưa tâm về gốc thì còn nguyên nhóm tự
+[0400.0-0406.4] đẳng cấu ba tham số.
+[0406.4-0411.8] Bây giờ là phần tồn tại. Nhớ lại cuộc thi ở đầu bài.
+[0411.8-0421.3] Họ dự thi là mọi hàm chỉnh hình đơn ánh từ Omega vào đĩa giữ gốc. Điểm thi là môđun đạo hàm tại gốc.
+[0421.3-0427.6] Câu hỏi thứ nhất. Điểm thi có bị chặn không hay có thể lớn tùy ý?
+[0427.6-0442.1] bị chặn bất đẳng thức cao chi cho đạo hàm từ bài tám áp lên một đĩa nhỏ quanh gốc là ra ngay vậy cận trên đúng tồn tại gọi nó là s
+[0442.1-0451.1] câu hỏi thứ hai và đây là chỗ khó thật sự cận trên đúng ấy có đạt được không ta có một dãy hàm với điểm thi tiến tới
+[0451.1-0457.5] s nhưng dãy hàm thì không tự nhiên hội tụ tới hàm nào cả.
+[0457.5-0462.4] Đây là chỗ định lý Môn Teo bước vào.
+[0462.4-0468.9] Môn Teo nói, "Một họ hàm chỉnh hình bị chặn đều trên mọi tập comp thì luôn rút được dãy con hội tụ đều trên mọi tập
+[0468.9-0471.2] compác.
+[0471.2-0471.2] compác.
+[0471.2-0476.4] Định lý này có hai nữa và chỉ một nửa là chuyện phức.
+[0476.4-0480.1] Nửa thứ nhất bị chặn đều thì đồng liên tục.
+[0480.1-0480.1] tục.
+[0480.1-0487.6] Chứng minh dùng công thức tích phân cao chi và cho hằng số lít chiết bằng chặn B chia bán kính R.
+[0487.6-0496.7] Điểm mấu chốt, hằng số ấy không phụ thuộc vào hàm nào cả. Một hằng số dùng chung cho cả họ.
+[0496.7-0503.7] Tôi đã kiểm trên họ gi mũ n với omega là để đơn vị và k là để bán kính một nửa.
+[0503.8-0512.4] Stin chỉ đòi 3 nhỏ hơn khoảng cách từ K tới biên. Ở đây là 0,5 nên tôi lấy R b= 0,15.
+[0512.4-0512.4] 0,15.
+[0512.4-0518.4] Trần lý thuyết là 6,67 còn đo được lớn nhất chỉ bằng 1.
+[0518.4-0522.8] Sát trần mà không vượt.
+[0522.8-0527.1] Nửa thứ hai, đồng liên tục cộng bị chặn thì rút được dãy con.
+[0527.2-0533.8] Đây là Arel Ascoli và nó thuần thực chứng minh bằng thủ thuật chéo hóa.
+[0533.8-0543.5] Phải tách rạch rồi hai nửa ấy vì có một cám dỗ rất lớn. Nghĩ rằng Môn Teo chỉ là Arel Ascoli. Đổi tên
+[0543.5-0545.4] không phải.
+[0545.4-0547.8] Stein đưa luôn phản ví dụ ngay bên cạnh.
+[0547.8-0552.5] Họ sinh của N nh N nhân X trên khoảng 0 tới 1.
+[0552.5-0552.6] tới 1.
+[0552.6-0556.4] Họ ấy bị chặn đều bởi một không thể tốt hơn.
+[0556.4-0556.4] hơn.
+[0556.4-0559.7] Nhưng nó không đồng liên tục.
+[0559.7-0567.1] Tôi đã đo. Với mỗi khoảng cách Delta tìm nm hiệu lớn nhất.
+[0567.2-0571.7] Delta bằng 1/10 hiệu lên tới 1,98.
+[0571.7-0576.9] Delta bằng 1/.000 hiệu vẫn đúng bằng 2.
+[0577.0-0586.6] Hai là giá trị lớn nhất có thể của hiệu hai giá trị sinh. Nói cách khác, thu nhỏ đen ta bao nhiêu cũng vô ích.
+[0586.6-0592.9] Chỉnh hình là điều kiện thật, không phải chữ thừa trong phát biểu.
+[0593.0-0598.2] Còn một mảnh nữa trước khi ráp mệnh đề 3.5.
+[0598.2-0598.2] 3.5.
+[0598.2-0606.9] Giới hạn của một dãy hàm đơn ánh thì hoặc đơn ánh hoặc hằng không có khả năng thứ ba.
+[0606.9-0607.0] thứ ba.
+[0607.0-0613.5] Chứng minh dùng nguyên lý Agumen của bài 6. Số không điểm bên trong một đường tròn là một tích phân, mà tích phân thì
+[0613.5-0616.6] đi qua được giới hạn.
+[0616.6-0627.8] Dãy các hàm đơn ánh có tích phân ấy bằng 0 ở mọi bước, giới hạn thì không thể bỗng dưng bằng một.
+[0627.8-0632.4] Bây giờ ráp lại chứng minh có đúng ba bước.
+[0632.4-0632.4] bước.
+[0632.4-0637.8] Bước một, đưa miền bất kỳ về một miền con của đĩa chứa gốc.
+[0637.8-0643.8] Vì Omega không phải toàn bộ mặt phẳng chọn được một điểm alpha nằm ngoài nó.
+[0643.8-0649.1] Thế thì Z - Alpha không bao giờ triệt tiêu trên Omega.
+[0649.2-0654.4] Vì Omega đơn liên định nghĩa được logarit của Z - alpha.
+[0654.4-0659.2] Đây là chỗ thứ nhất dùng tới đơn liên.
+[0659.2-0671.0] Hàm logarit ấy đơn ánh vì lấy e mũ nó ra lại z- alpha và nó tránh xa hẳn một điểm. Giá trị tại một điểm vú cộng 2π không những tránh mà
+[0671.0-0674.5] tránh cả một cái đĩa quanh đó.
+[0674.5-0683.2] Vậy nghịch đảo của hiệu ấy bị chặn tịnh tiến và co lại là ra một miền con của đĩa chứa gốc.
+[0683.2-0689.1] Bước hai, mở cuộc thi trên miền ấy và môn teo trao giải.
+[0689.1-0699.4] Cận trên đúng SX nhất bằng 1. Vì hàm đồng nhất đã ở trong họ nên hàm giới hạn không phải hằng, nền nó đơn ánh.
+[0699.4-0707.7] Nguyên lý mô cực đại của bài 11 đẩy nốt ảnh nằm hẳn bên trong đĩa không chạm biên. Vậy người thắng có thật và điểm
+[0707.7-0711.7] thi của nó đúng bằng s.
+[0711.7-0716.3] Bước ba, chứng minh người thắng là toàn ánh.
+[0716.3-0716.3] ánh.
+[0716.3-0721.9] Đây là bước đẹp nhất và nó là một phản chứng.
+[0722.0-0729.8] Giả sử hục nghĩa là có một điểm trong đĩa mà người thắng không bao giờ chạm tới. Tôi gọi nó là điểm hục, đừng lẫn
+[0729.8-0736.3] với Alpha ở bước một. Alpha nằm ngoài miền, còn điểm hụt nằm trong đĩa.
+[0736.3-0743.4] Ta đem cái lỗ hỏng ấy đi chế tạo một thí sinh mới, mạnh hơn người đang thắng.
+[0743.4-0751.0] Dùng tự đẳng cấu của bài 24 để đẩy điểm hụt về gốc. Ảnh bây giờ tránh gốc.
+[0751.0-0762.3] Tránh gốc cộng với đơn liên cho phép lấy căn bậc hai. Đây là chỗ thứ hai và cũng là chỗ cuối cùng dùng tới đơn liên.
+[0762.3-0770.5] Lấy căn xong đẩy ngược về giữ gốc. Ta được một thí sinh mới, vẫn nằm trong họ dự thi.
+[0770.5-0770.5] dự thi.
+[0770.5-0777.0] Và bây giờ có một đẳng thức, người thắng bằng phi hợp với thí sinh mới, trong đó phi là đường đi ngược, có bình phương
+[0777.0-0779.6] nằm giữa.
+[0779.6-0779.6] nằm giữa.
+[0779.6-0789.7] Phi đưa đĩa vào đĩa giữ gốc, nhưng phi không đơn ánh, vì thí sinh mới thì đơn ánh, còn phép bình phương thì không.
+[0789.7-0797.0] Bổ đề soát của bài 24 phần cuối nói đúng một câu, nếu không phải phép quay thì môđun đạo hàm tại góc nhỏ hơn một nghiêm
+[0797.0-0800.3] ngặc.
+[0800.3-0807.8] Đạo hàm của người thắng tại gốc bằng đạo hàm của phi nhân đạo hàm của thí sinh mới nhân với một số nhỏ hơn một thì phải
+[0807.8-0810.3] nhỏ đi.
+[0810.3-0810.3] nhỏ đi.
+[0810.3-0820.2] Nghĩa là thí sinh mới có điểm thi cao hơn người đang thắng. mâu thuẫn &gt;&gt; vậy không có lỗ hỏng nào người thắng phụ
+[0820.2-0830.1] kín cả đĩa còn một nhịp cuối nhân nó với một số phức mô để đạo hàm tại tâm thành thực dương bây giờ mới đúng phát biểu ở
+[0830.2-0845.9] lớp 4 bước ba vừa rồi là một phản chứng nên nó không cho ta cái gì cầm được nhưng đọc xui thì nó là một thuật toán
+[0846.0-0854.0] Đọc lại câu chốt. Nếu còn một điểm hục thì làm được thí sinh mạnh hơn. Bao nhiêu lần mạnh hơn?
+[0854.0-0861.5] Tính ra công thức đóng đúng một cộng môđun điểm hục chia cho hai lần căn môđun điểm hục.
+[0861.5-0865.6] Tôi đã kiểm số công thức ấy trên 32 trường hợp.
+[0865.6-0869.9] sai lệch lớn nhất là 1/n trăm triệu.
+[0869.9-0877.2] Đây chính là bất đẳng thức giữa trung bình cộng và trung bình nhân. Mà lỗ hỏng thì luôn nằm bên trong đĩa, nền bội thu
+[0877.2-0883.2] luôn lớn hơn một thật sự, không có ngoại lệ.
+[0883.2-0883.2] lệ.
+[0883.2-0889.5] Và nó nói một điều rất trực quan, điểm hụt càng gần tâm thì bội thu càng lớn.
+[0889.5-0902.2] Lỗ hỏng ở khoảng cách 0,02 nhân 3,6 lần ở nửa bán kính nhân 1,6 sát biên gần như không được gì.
+[0902.2-0913.9] Bây giờ chạy vòng lập miền chữ L biền lấy 6000 điểm, mỗi vòng tìm điểm gần tâm nhất mà miền chưa với tới. Lấy nó làm điểm hục rồi
+[0913.9-0917.4] chạy đúng ba phép của bước ba.
+[0917.4-0925.2] Vòng đầu điểm hụt ở khoảng cách 0,089 bội thu 1,82.
+[0925.2-0933.5] Vòng thứ tư lỗ hỏng đã lùi ra 0,46 bội thu chỉ còn 1,07.
+[0933.5-0942.2] Vòng thứ 25 lỗ hỏng đã ra tới 0,82 bội thu chỉ còn 1,005.
+[0942.2-0953.5] Độ kéo giãng cộng dồn 1 rồi 1,82 rồi 2,2 rồi 2,7 rồi 3,6 rồi hơn 4,2.
+[0953.5-0962.8] Nó tăng đơn điệu và nó chậm dần rất nhanh. Đó là hình ảnh của một dãy đang bò lên cận trên đúng.
+[0962.8-0970.8] Phải nói thẳng, vòng lập này chậm, 60 vòng vẫn chưa tới nơi.
+[0970.8-0977.7] Nhưng nó không cần nhanh, nó chỉ cần chứng minh rằng cái cận trên đúng ấy là một chỗ có thật chứ không phải một chữ
+[0977.7-0980.4] trong phát biểu.
+[0980.4-0982.6] Còn cái miền thì sao?
+[0982.6-0997.4] Tỷ số giữa chỗ xa tâm nhất và chỗ gần tâm nhất tâm nhất &gt;&gt; ban đầu 6,67 sau 60 vòng còn 1,05 cái góc vuông đang bị bào tròn
+[0997.4-1007.1] &gt;&gt; không ai ra lệnh cho nó tròn nó tròn ra chỉ vì mỗi vòng ta ép nó kéo giảng mạnh hơn tại tâm
+[1007.2-1015.8] vòng lập này có tên lập québ và nó đúng là bước ba của Sting đọc theo chiều xuôi.
+[1015.8-1015.8] xuôi.
+[1015.8-1022.5] Còn bước một thì tính tay thế nào? Lấy Omega là mặt phẳng bỏ đi tia không dương.
+[1022.5-1022.6] dương.
+[1022.6-1031.3] Điểm alpha nằm ngoài miền. Chọn luôn alpha bằng 0. Hàm logarit thành logarit của z.
+[1031.3-1031.3] của z.
+[1031.3-1039.5] Lấy v đú bằng 1 thì điểm phải tránh là 2 pi quét miền bằng lưới cực 600.000 điểm.
+[1039.6-1049.1] Khoảng cách nhỏ nhất từ ảnh tới điểm ấy đúng bằng Pi, không phải xấp xỉ pi bằng Pi.
+[1049.1-1056.1] Lý do thì nhìn ra ngay khi biết logarit trải cái mặt phẳng bị cắt ấy thành một giải ngang cao đúng 2 pi từ tr- pi tới
+[1056.1-1058.5] cộng pi.
+[1058.5-1058.5] cộng pi.
+[1058.5-1062.0] Còn điểm phải tránh nằm ở độ cao 2 pi.
+[1062.0-1067.4] Nó ở ngoài giải cách mép trên đúng pi.
+[1067.4-1072.6] Nên nghịch đảo của hiệu bị chặn bởi một phần pi tức 0,318.
+[1072.6-1090.4] Tịnh tiến và co lại mô đùng lớn nhất là 0,999 nằm gọn trong đĩa. Bước một xong trên một miền vô hạn bằng số thật.
+[1090.4-1095.5] Còn ba điều phải nói cho đúng trước khi kết.
+[1095.5-1095.5] kết.
+[1095.5-1102.0] Thứ nhất, một nhận xét của chính stin ở cuối mục và nó rất đáng để ý.
+[1102.0-1108.8] Trong toàn bộ chứng minh, giả thiết đơn liên chỉ được dùng ở đúng hai chỗ để định nghĩa logarit ở bước một và để định
+[1108.8-1113.0] nghĩa căn bậc hai ở bước ba.
+[1113.0-1123.1] không chỗ nào khác. Thành ra cái điều kiện nghe rất hình học ấy thật ra chỉ là điều kiện để hai hàm ngược ấy tồn tại.
+[1123.2-1128.6] Thứ hai, đơn liền không phải chi tiết kỹ thuật vứt vào cho đủ.
+[1128.6-1136.2] Vành khuyên có một cái lỗ, nền định lý không áp dụng, nhưng chuyện còn đáng nói hơn và tôi chỉ nêu chứ không chứng minh
+[1136.2-1143.8] ở đây vì nó nằm ngoài 13. Hai vành khuyên khác tỷ số bán kính cũng không tương đương bạo giác với nhau.
+[1143.8-1154.3] Tỷ số ấy là một bất biến bảo giác. Nghĩa là bỏ đơn liên thì mất luôn cái kết quả đẹp nhất rằng mọi miền đều giống nhau.
+[1154.3-1160.0] Thứ ba và đây là giới hạn thật của định lý.
+[1160.0-1167.7] &gt;&gt; Nó cho ta biết ánh xạ ấy tồn tại, nó không cho ta công thức.
+[1167.7-1175.5] Stin viết thẳng điều đó ở đầu mục tiếp theo. Định lý này cho rất ít manh mối về hình dạng chính xác của ánh xạ.
+[1175.5-1178.9] Cuộc thi có người thắng ta biết chắc.
+[1178.9-1183.8] Nhưng cuộc thi không đọc tên người thắng ra.
+[1183.8-1183.8] ra.
+[1183.8-1195.8] Trừ vài trường hợp miền có đối xứng thì Stin đã cho công thức ở mục một. Còn một lớp nữa và nó đẹp hơn. đa giác.
+[1195.8-1203.1] Nó tên là công thức xóa crystone và mỗi đỉnh của đa giác góp đúng một thừa số vào tích phân.
+[1203.2-1207.9] Đó là bài 26.
+[1207.9-1211.7] Hẹn gặp lại. Đ

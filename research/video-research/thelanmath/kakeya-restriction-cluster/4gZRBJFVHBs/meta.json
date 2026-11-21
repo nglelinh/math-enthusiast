@@ -1,0 +1,17 @@
+{
+  "id": "4gZRBJFVHBs",
+  "url": "https://www.youtube.com/watch?v=4gZRBJFVHBs",
+  "title": "Sau Chén Thánh — Hồng Vương, Huy chương Fields 2026 và 3 mặt trận còn lại của hậu-Kakeya",
+  "tag": "kakeya_harmonic",
+  "duration": 304.0,
+  "fetched_at": "2026-08-08",
+  "mapping": {
+    "en": "contents/en/chapter01/_posts/21-01-01-01_08_Kakeya_Conjecture.md",
+    "vi": "contents/vi/chapter01/_posts/21-01-01-01_08_Kakeya_Conjecture.md",
+    "also": [
+      "contents/en/chapter02/_posts/21-01-01-02_15_Wang_Harmonic_Analysis.md",
+      "contents/vi/chapter02/_posts/21-01-01-02_15_Wang_Harmonic_Analysis.md"
+    ]
+  },
+  "char_count": 7737
+}

@@ -1,0 +1,14 @@
+{
+  "id": "L2bcCBrPeUw",
+  "url": "https://www.youtube.com/watch?v=L2bcCBrPeUw",
+  "title": "Giải tích phức — Bài 25: Định lý ánh xạ Riemann (và Montel)",
+  "tag": "complex_analysis",
+  "duration": 1217.0,
+  "fetched_at": "2026-08-08",
+  "mapping": {
+    "en": "contents/en/chapter03/_posts/21-01-01-03_08_Fourier_Signal_Processing.md",
+    "vi": "contents/vi/chapter03/_posts/21-01-01-03_08_Fourier_Signal_Processing.md",
+    "pack_only_series": true
+  },
+  "char_count": 22822
+}

@@ -1,0 +1,17 @@
+{
+  "id": "o6rrl1YrGPA",
+  "url": "https://www.youtube.com/watch?v=o6rrl1YrGPA",
+  "title": "Một Vết Nứt Trong Nền Móng Toán Học Hiện Đại (Toán Học Ngưng Tụ)",
+  "tag": "ramsey_condensed",
+  "duration": 171.0,
+  "fetched_at": "2026-08-08",
+  "mapping": {
+    "en": "contents/en/chapter02/_posts/21-01-01-02_11_Modern_Combinatorics_Geometry.md",
+    "vi": "contents/vi/chapter02/_posts/21-01-01-02_11_Modern_Combinatorics_Geometry.md",
+    "also": [
+      "contents/en/chapter02/_posts/21-01-01-02_06_Scholze_Perfectoid.md",
+      "contents/vi/chapter02/_posts/21-01-01-02_06_Scholze_Perfectoid.md"
+    ]
+  },
+  "char_count": 5240
+}

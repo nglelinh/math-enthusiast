@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ku_mt_statement",
+    "title": "Mizohata–Takeuchi slogan",
+    "type": "definition",
+    "t_start": 20,
+    "t_end": 100,
+    "summary": "MT-type inequalities constrain how Fourier energy from a curved frequency support can concentrate: in slogan form, concentration should be no worse than along tubes (straight-line X-ray averages). Origin linked to 1970s dispersive PDE (Mizohata–Takeuchi).",
+    "concepts": [
+      "mizohata_takeuchi"
+    ],
+    "depth": "standard"
+  },
+  {
+    "id": "ku_bridge_role",
+    "title": "Bridge on the analysis tower",
+    "type": "intuition",
+    "t_start": 80,
+    "t_end": 140,
+    "summary": "In popular tower narrative, MT was hoped as a free escalator toward Stein-type restriction/endpoint questions. Partial cases proved over ~40 years; community confidence grew.",
+    "concepts": [
+      "restriction_conjecture"
+    ],
+    "depth": "intro"
+  },
+  {
+    "id": "ku_cairo_counterexample",
+    "title": "Hannah Cairo counterexample (2025)",
+    "type": "example",
+    "t_start": 140,
+    "t_end": 230,
+    "summary": "Hannah Cairo (homeschooled, Bahamas → Berkeley classes as teen) attacks a homework weakening of MT, fails to prove it, then constructs a counterexample: geometrically structured frequency lattice/constellation whose diffraction concentrates energy beyond any straight-tube X-ray control (with quantitative log-loss sharpness in the telling). ArXiv ~Feb 2025, sole author age 17 in popular account.",
+    "concepts": [
+      "hannah_cairo",
+      "counterexample"
+    ],
+    "depth": "deep"
+  },
+  {
+    "id": "ku_aftermath",
+    "title": "What survives after the bridge collapses",
+    "type": "overview",
+    "t_start": 220,
+    "t_end": 260,
+    "summary": "No previously proved theorem is deleted; the optimistic free path closes. Weakened/lossy variants and spherical cases may remain open. Tao blog commentary; same spring as Wang–Zahl Kakeya; Cairo later PhD offers / Davidson Fellows award in popular telling. LO6: verify dates and award details.",
+    "concepts": [
+      "research_culture"
+    ],
+    "depth": "intro"
+  }
+]

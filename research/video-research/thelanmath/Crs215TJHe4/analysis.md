@@ -1,0 +1,23 @@
+# Splay Tree: 40 Năm Không Ai Chứng Minh Nổi | Bước tiến tháng 7/2026 của Tarjan
+
+**URL:** https://www.youtube.com/watch?v=Crs215TJHe4  
+**Tag:** `algorithms`  
+**Duration:** 350.0 s  
+**Extracted:** 2026-08-08
+
+## Knowledge units
+
+### Splay Tree: 40 Năm Không Ai Chứng Minh Nổi
+
+Họ tin rằng cái cây họ vừa tạo ra là tối ư, không cái cây họ vừa tạo ra là tối ư, không phải nhanh nhất trong trường hợp xấu phải nhanh nhất trong trường hợp xấu nhất mà nhanh ngang với mọi cây khác, nhất mà nhanh ngang với mọi cây khác, trên mọi chuỗi truy vấn, kể cả những cây trên mọi chuỗi truy vấn, kể cả những cây được phép biết trước toàn bộ tương lai. 40 năm trôi qua, không ai chứng minh 40 năm trôi qua, không ai chứng minh được, cũng không ai bát bỏ được. Khi chúng gấp khúc, ta xoay hai lần theo hai hướng ngược nhau xoay hai lần theo hai hướng ngược nhau dít ra.
+
+### Key ideas
+
+Đó là một đối thủ không tưởng, nó biết tương lai. Ly to và Ta phỏng đoán rằng Schi thứ chỉ nhìn thấy phỏng đoán rằng Schi thứ chỉ nhìn thấy quá khứ vẫn bám được cây biết trước quá khứ vẫn bám được cây biết trước tương lai, sai khác không quá một hằng tương lai, sai khác không quá một hằng số. Thay vì so trực tiếp với cây tối ưu thứ Thay vì so trực tiếp với cây tối ưu thứ không ai tính nổi họ so với một chặng không ai tính nổi họ so với một chặng dưới dễ đo hơn chặng Interlev của dưới dễ đo hơn chặng Interlev của Willber.
+
+### Status / open questions
+
+Người ta chứng minh được rằng chặn dưới ấy có thể cách chín cây tối ưu chặn dưới ấy có thể cách chín cây tối ưu một khoảng cỡ log loog n. Xếp hạng mỗi nút của Splay Tri bằng chính độ hạng mỗi nút của Splay Tri bằng chính độ sâu của nút đó trong cây tối ư.
+
+## LO6
+Popular video — verify against papers/textbooks before using as theorem.

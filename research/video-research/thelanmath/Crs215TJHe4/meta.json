@@ -1,0 +1,17 @@
+{
+  "id": "Crs215TJHe4",
+  "url": "https://www.youtube.com/watch?v=Crs215TJHe4",
+  "title": "Splay Tree: 40 Năm Không Ai Chứng Minh Nổi | Bước tiến tháng 7/2026 của Tarjan",
+  "tag": "algorithms",
+  "duration": 350.0,
+  "fetched_at": "2026-08-08",
+  "mapping": {
+    "en": "contents/en/chapter09/_posts/21-01-01-09_05_Knuth_Algorithms.md",
+    "vi": "contents/vi/chapter09/_posts/21-01-01-09_05_Knuth_Algorithms.md",
+    "also": [
+      "contents/en/chapter09/_posts/21-01-01-09_10_Hopcroft_Tarjan.md",
+      "contents/vi/chapter09/_posts/21-01-01-09_10_Hopcroft_Tarjan.md"
+    ]
+  },
+  "char_count": 8424
+}

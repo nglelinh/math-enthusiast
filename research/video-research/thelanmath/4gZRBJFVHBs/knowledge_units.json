@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ku_fields_portfolio",
+    "title": "IMU portfolio vs single chalice",
+    "type": "overview",
+    "t_start": 0,
+    "t_end": 60,
+    "summary": "Wang Fields 2026 (third woman): citation spans local smoothing, restriction, Falconer, Furstenberg, and 3D Kakeya—not Kakeya alone. After the chalice: what next?",
+    "concepts": [
+      "fields_medal",
+      "hong_wang"
+    ],
+    "depth": "intro"
+  },
+  {
+    "id": "ku_front_n4",
+    "title": "Front 1: Kakeya in dimension ≥4",
+    "type": "overview",
+    "t_start": 60,
+    "t_end": 120,
+    "summary": "Higher D: more room for tubes to avoid each other. Record lower bounds still far from n (e.g. popular cite ~3.059 in 4D from Katz–Zahl-type work ~2021). 3D weapons may fail on curved hypersurface constraints; no complete ascent path yet.",
+    "concepts": [
+      "kakeya_higher_dim"
+    ],
+    "depth": "standard"
+  },
+  {
+    "id": "ku_front_furstenberg",
+    "title": "Front 2: Furstenberg / two-ends",
+    "type": "overview",
+    "t_start": 110,
+    "t_end": 200,
+    "summary": "Dust-on-lines / Furstenberg in the plane solved by Ren–Wang 2023 with three-branch formula. Two-ends fire-torch metaphor: mass at both ends prevents collapse. Conditional theorem: two-ends in all dimensions ⇒ restriction. Plane proved; 3D key still being forged.",
+    "concepts": [
+      "furstenberg_set",
+      "two_ends"
+    ],
+    "depth": "deep"
+  },
+  {
+    "id": "ku_front_local_smoothing",
+    "title": "Front 3: Local smoothing",
+    "type": "overview",
+    "t_start": 200,
+    "t_end": 304,
+    "summary": "Local smoothing (Sogge ~1991): waves may spike at instants but time-averaged norms improve. 2D settled ~2020 (Guth–Wang–Zhang). Higher-dimensional Euclidean still open; some manifold advances reported. Highest cloudy floor of the tower.",
+    "concepts": [
+      "local_smoothing"
+    ],
+    "depth": "standard"
+  }
+]

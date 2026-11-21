@@ -1,0 +1,81 @@
+[
+  {
+    "id": "ku_langlands_two_universes",
+    "title": "Two universes: arithmetic vs harmonic analysis",
+    "t_start": "00:00",
+    "t_end": "01:40",
+    "type": "overview",
+    "concepts": [
+      "langlands_program",
+      "number_theory",
+      "harmonic_analysis"
+    ],
+    "summary": "Langlands as a dictionary translating hard problems between number theory (integer solutions, modular arithmetic) and harmonic analysis (spectra of vibrating shapes).",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_langlands_wave_infinity",
+    "title": "Periodicity emerges at infinity",
+    "t_start": "01:50",
+    "t_end": "02:55",
+    "type": "intuition",
+    "concepts": [
+      "generating_functions",
+      "fourier_series_analogy",
+      "primes"
+    ],
+    "summary": "Summing polynomial pieces yields a limiting periodic wave; analogy for primes looking random individually but revealing hidden symmetry when assembled.",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_weil_rosetta",
+    "title": "Weil Rosetta stone analogy",
+    "t_start": "02:55",
+    "t_end": "04:05",
+    "type": "overview",
+    "concepts": [
+      "weil_conjectures_culture",
+      "function_fields"
+    ],
+    "summary": "Three-column translation culture: number fields, finite fields/geometry of polynomials, complex geometry; integers vs polynomials as coefficient sequences.",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_functoriality_machine",
+    "title": "Dictionary as problem-solving machine",
+    "t_start": "04:05",
+    "t_end": "05:15",
+    "type": "intuition",
+    "concepts": [
+      "functoriality",
+      "ramanujan_bounds",
+      "modularity"
+    ],
+    "summary": "Each proved dictionary entry can improve analytic bounds stepwise; full functoriality still largely conjectural.",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_langlands_letter_1967",
+    "title": "1967 letter to Weil",
+    "t_start": "05:15",
+    "t_end": "05:40",
+    "type": "overview",
+    "concepts": [
+      "langlands_program"
+    ],
+    "summary": "Langlands sends Weil a long speculative letter; becomes multi-decade research map; Abel 2018 for the program.",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_geometric_2024_status",
+    "title": "Geometric advances and open questions",
+    "t_start": "05:40",
+    "t_end": "06:15",
+    "type": "overview",
+    "concepts": [
+      "geometric_langlands"
+    ],
+    "summary": "Popular claim of major geometric Langlands progress ~2024; arithmetic program largely open; 'why dictionary exists' remains deep.",
+    "depth": "intro"
+  }
+]

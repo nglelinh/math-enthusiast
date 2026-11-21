@@ -1,0 +1,23 @@
+# Va Chạm Hạt, Sóng Thần, Kẹt Xe — Cùng Một Hình Học Kỳ Lạ | Grassmannian Dương
+
+**URL:** https://www.youtube.com/watch?v=wwctEIMFenQ  
+**Tag:** `grassmannian`  
+**Duration:** 309.0 s  
+**Extracted:** 2026-08-08
+
+## Knowledge units
+
+### Va Chạm Hạt, Sóng Thần, Kẹt Xe — Cùng Một Hình Học Kỳ Lạ
+
+Vậy mà cả ba sâu bên dưới lại được vẽ Vậy mà cả ba sâu bên dưới lại được vẽ nên bởi cùng một hình học kỳ lạ. Một hình học mà mãi gần đây các nhà toán Một hình học mà mãi gần đây các nhà toán học mới bắt đầu hiểu. Với hai vcor, định thức chính là diện Với hai vcor, định thức chính là diện tích có dấu của hình bình hành chúng tích có dấu của hình bình hành chúng dựng nên.
+
+### Key ideas
+
+Nhưng hãy nhìn khi ta kéo hai vết tho Nhưng hãy nhìn khi ta kéo hai vết tho trùng hướng nhau, trùng hướng nhau, hình bình hành dẹt lại thành một đường. Đây là chìa khóa định thức bằng không Đây là chìa khóa định thức bằng không đúng khi hai vecor thẳng hạn, đúng khi hai vecor thẳng hạn, tức khi thứ vừa va vào nhau. Nhìn hai con sóng nước tiến lại gần, Nhìn hai con sóng nước tiến lại gần, chừng nào con số còn dương, chúng lướt chừng nào con số còn dương, chúng lướt qua nhau êm ả.
+
+### Status / open questions
+
+Cũng đúng như vậy, với hai chiếc xe, Cũng đúng như vậy, với hai chiếc xe, chúng không bao giờ chiếm cùng một ô và chúng không bao giờ chiếm cùng một ô và với hai hạt trong vụ va chạm. Thế rồi người ta phát hiện tất cả những Thế rồi người ta phát hiện tất cả những biểu đồ ấy có thể gói gọn vào thể tích biểu đồ ấy có thể gói gọn vào thể tích của một khối hình học duy nhất.
+
+## LO6
+Popular video — verify against papers/textbooks before using as theorem.

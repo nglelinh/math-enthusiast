@@ -1,0 +1,14 @@
+{
+  "id": "zf1fia_GyFc",
+  "url": "https://www.youtube.com/watch?v=zf1fia_GyFc",
+  "title": "Giải tích phức — Bài 28: Chuỗi Eisenstein, phương trình bậc ba & tính modular",
+  "tag": "complex_analysis",
+  "duration": 1038.0,
+  "fetched_at": "2026-08-08",
+  "mapping": {
+    "en": "contents/en/chapter03/_posts/21-01-01-03_08_Fourier_Signal_Processing.md",
+    "vi": "contents/vi/chapter03/_posts/21-01-01-03_08_Fourier_Signal_Processing.md",
+    "pack_only_series": true
+  },
+  "char_count": 17054
+}

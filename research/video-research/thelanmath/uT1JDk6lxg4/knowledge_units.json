@@ -1,0 +1,40 @@
+[
+  {
+    "id": "ku_bombelli",
+    "title": "Casus irreducibilis / Bombelli bridge",
+    "type": "history",
+    "t_start": 0,
+    "t_end": 200,
+    "summary": "Cubic with three real roots can force cube roots of complex intermediates in Cardano’s formula; Bombelli (1572) treats them algebraically and recovers real roots—complex as a bridge, not as ‘fake’ answers. Descartes’ pejorative ‘imaginary’ misleads.",
+    "concepts": [
+      "bombelli",
+      "cardano"
+    ],
+    "depth": "standard"
+  },
+  {
+    "id": "ku_geometric_meaning",
+    "title": "Three centuries to geometry",
+    "type": "overview",
+    "t_start": 200,
+    "t_end": 400,
+    "summary": "Wessel–Argand–Gauss make the plane picture precise: numbers as rotations and scalings. Applications: AC/telecom phasors; digital media via Fourier; modern tech stack depends on C.",
+    "concepts": [
+      "argand_plane"
+    ],
+    "depth": "intro"
+  },
+  {
+    "id": "ku_series_roadmap",
+    "title": "Roadmap toward RH-style peaks",
+    "type": "overview",
+    "t_start": 1400,
+    "t_end": 1657,
+    "summary": "Series teases 4D graphing via domain coloring; analytic continuation; journey from rotation idea toward Riemann zeta / RH. LO6: popular arc, not a course proof of RH.",
+    "concepts": [
+      "analytic_continuation",
+      "domain_coloring"
+    ],
+    "depth": "intro"
+  }
+]

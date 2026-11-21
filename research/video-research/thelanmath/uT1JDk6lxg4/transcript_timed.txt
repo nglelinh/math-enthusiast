@@ -1,0 +1,270 @@
+[0001.5-0008.4] Đây là một phương trình bậc 3 hoàn toàn bình thường. Sm 3 = 15x + 4.
+[0008.4-0018.3] Nó có một nghiệm rất đẹp x bằng 4. Thử lại 4 mũ 3 là 64. 15 x 4 + 4 cũng bằng 64.
+[0018.3-0018.3] 64.
+[0018.3-0030.1] Hợp Hợp không có gì bí ẩn ở đây. Một phương trình thực, một nghiệm thực, nhìn thấy được, sờ được.
+[0030.1-0036.8] Nhưng vào thế kỷ 16, khi các nhà toán học dùng công thức tổng quát của các dano để giải nó, một điều kỳ quái xảy
+[0036.8-0039.4] ra.
+[0039.4-0039.4] ra.
+[0039.4-0046.1] Công thức bắt họ viết nghiệm bằng căn bậc 3 của 2 cộng căn của -121 cộng với căn bậc 3 của 2 trừ căn của
+[0046.2-0049.8] -121.
+[0049.8-0056.8] căn của một số âm, một thứ mà theo mọi định nghĩa thời đó không hề tồn tại.
+[0056.8-0062.2] Không số thực nào bình phương lên ra số âm cả.
+[0062.2-0062.2] âm cả.
+[0062.2-0069.5] Và đây mới là điều trớ treo nhất. Phương trình có ba nghiệm thật đàn hoàng nhưng công thức lại bắt buộc phải đi vòng qua
+[0069.5-0073.4] số ảo mới tới được chúng.
+[0073.4-0080.7] Các nhà toán học gọi đây là trường hợp bất khả quy. Số ảo không phải để giải những phương trình vô nghiệm mà là con
+[0080.8-0085.6] đường duy nhất tới những nghiệm hoàn toàn có thật.
+[0085.6-0095.7] Nhiều người bỏ cuộc ngay tại đây. Nhưng năm 1572, năm 1572, Rapel Bombell có một ý nghĩ táo bạo.
+[0095.7-0103.0] Ông nói cứ giả vờ như cái căn âm đó là một con số hợp lệ, tuân theo mọi quy tắc đại số bình thường. rồi tính tới cùng
+[0103.0-0106.0] xem sao.
+[0106.0-0106.0] xem sao.
+[0106.0-0115.2] Và điều kỳ diệu xảy ra, mọi phần chứa căn âm triệt tiêu lẫn nhau và ông nhận lại đúng x = 4 đi qua còi ảo rồi trở về
+[0115.2-0119.3] cõi thực nguyên vẹn.
+[0119.4-0125.6] Con số không tồn tại ấy là cây cầu duy nhất nối hai đáp án có thật.
+[0125.6-0134.4] Chính Decatch là người với giọng chê bai đặt cho chúng cái tên số ảo. Cái tên xui xẻo ấy đã khiến bao thế hệ hiểu lầm bản
+[0134.4-0137.7] chất của chúng.
+[0137.7-0148.4] Hãy nhớ rằng số âm cũng từng bị gọi là số vô lý, số giả tạo. Rồi ta hiểu chúng chỉ là hướng ngược lại trên trục số.
+[0148.4-0156.2] Trong 30 phút tới, tôi sẽ thuyết phục anh rằng số ảo cũng vậy, nó chẳng ảo chút nào. Bản chất của nó đơn
+[0156.2-0161.5] giản đến bất ngờ là một động tác hình học.
+[0161.5-0161.5] học.
+[0161.5-0168.4] Bombell còn viết ra cả một bộ quy tắc tính với những số này. Đó là những dòng đầu tiên của đại số số phức.
+[0168.4-0173.4] Dù lúc ấy chưa ai hiểu chúng thật sự là gì.
+[0173.4-0182.2] phải mất thêm gần ba thế kỷ tới Westel, Ágan và Gaú, người ta mới hiểu ý nghĩa hình học thật sự của chúng. Và đó chính
+[0182.2-0188.9] là điều ta sắp khám phá ngay bây giờ.
+[0188.9-0193.1] Trước khi mổ sẻ, tôi muốn cho anh thấy phần thưởng trước.
+[0193.2-0202.3] Vì ý tưởng coi một con số như một phép xoay hóa ra là động cơ ẩn của gần như toàn bộ công nghệ và vật lý hiện đại.
+[0202.3-0208.0] Hãy điểm qua vài nơi nó đang âm thầm làm việc ngay lúc này.
+[0208.0-0219.1] Thứ nhất, điện và viễn thông. Dòng điện xoay chiều trong nhà anh. Sóng wifi, sóng 5, tất cả đều dao động hình sinh.
+[0219.1-0227.9] Cách gọn gàng nhất để tính chúng là coi mỗi dao động như một ve quay trong mặt phản phức. Cái mà kỹ sư gọi là pha so.
+[0227.9-0235.7] Cộng hai dòng điện lệch pha trở thành cộng hai vé quay. Toàn bộ kỹ thuật điện được viết bằng ngôn ngữ số phức.
+[0235.7-0241.3] Không có nó, không có lưới điện, không có điện thoại.
+[0241.4-0249.5] Thứ hai, mọi thứ số hóa. Khi anh nghe một phai nhạc hay xem một tấm ảnh, máy đang chạy một thuật toán tên là biến đổi
+[0249.5-0252.5] furi nhanh.
+[0252.5-0260.0] Trái tim của nó là những con số đặc biệt gọi là căn bậc n của đơn vị, nằm đều tâm tắp trên một đường tròn.
+[0260.0-0264.8] Ta sẽ tự tay tính chúng ở cuối video.
+[0264.8-0267.9] Thứ ba, cơ học lượng tử.
+[0267.9-0276.7] Ở tầng sâu nhất của thực tại, xác suất tìm thấy một hạt được mã hóa bằng một số phức có độ lớn và một góc pha.
+[0276.7-0285.6] Khi hai khả năng gặp nhau, ta cộng hai vé quay. Chỗ cùng hướng thì tăng cường, ngược hướng thì triệt tiêu. Toàn bộ hiện
+[0285.6-0290.5] tượng giao thoa chính là phép cộng các số phức.
+[0290.5-0290.5] số phức.
+[0290.5-0298.0] Thứ tư và với tôi là đẹp nhất. Cánh máy bay. Người ta tính lực nâng bằng cách dùng một hàm biến phức biến một đường
+[0298.0-0303.7] tròn đơn giản thành hình dạng phức tạp của một biên dạn cánh.
+[0303.7-0310.8] Dòng chảy quanh đường tròn thì ai cũng biết phép biến hình bảo giác mang lời giải đó sang cánh máy bay. Ta sẽ dành
+[0310.8-0315.5] hẳn một chương của mùa cho phép màu này.
+[0315.5-0318.9] Thứ năm, điều khiển và ổn định.
+[0318.9-0326.7] Một cây cầu có rung đến sập không? Một hệ thống có cháy không? Câu trả lời nằm ở chỗ các cực điểm của hệ, nằm ở nửa nào
+[0326.7-0330.0] của mặt phản phức.
+[0330.0-0337.8] Bên trái trục ảo thì ổn định, vượt sang phải thì nổ. Cả một ngành kỹ thuật điều khiển đọc số phận của hệ thống ngay trên
+[0337.8-0340.8] mặt phản phức.
+[0340.8-0347.1] Và ngay cả những hình fractal đẹp mê hoặc như tập Manderb cũng sinh ra chỉ từ một phép lập số phức đơn giản.
+[0347.2-0351.3] &gt;&gt; &gt;&gt; &gt;&gt; Z thành Z bình cộng C.
+[0351.3-0358.5] Cuối cùng, đỉnh cao của toán học thuần túy, sự phân bố của các số nguyên tố thứ tưởng như hỗn loạn nhất bị chi phối bởi
+[0358.5-0362.8] nghiệm phức của hàm ren.
+[0362.8-0371.4] Đó là giả thuyết Ren, bài toán 1 triệu đô chưa ai giải được và là đích đến của cả mùa phim này. Ta sẽ đi từ đây tới tận
+[0371.4-0374.2] đó.
+[0374.2-0374.2] đó.
+[0374.2-0380.5] Tất cả những điều kỳ diệu ấy đều mọc lên từ một hạt giống duy nhất, coi một con số không phải là một điểm nằm im trên
+[0380.5-0388.2] trục mà là một động tác. Bây giờ ta đi vào hạt giống đó.
+[0388.2-0398.9] Điểm chung của tất cả. Ở đâu có dao động, có sóng, có phép quay, có sự tuần hoàn. Ở đó số phức là ngôn ngữ tự nhiên nhất.
+[0398.9-0404.6] Và điều đáng kinh ngạc là cùng một ý tưởng bé nhỏ lại nối liền dòng điện trong tường nhà với bí ẩn sâu nhất của
+[0404.6-0413.5] số học. Đó luôn là dấu hiệu của một chân lý toán học lớn.
+[0413.5-0421.9] Ta quen với các con số nằm trên một đường thẳng, cộng thì trượt qua phải, trừ thì trượt qua trái. Đó là chuyển
+[0422.0-0425.3] động tịnh tiến.
+[0425.3-0431.8] Nhưng hãy hỏi một câu tưởng ngây thơ. Phép nhân trông như thế nào về mặt hình học?
+[0431.8-0441.4] Nhân với hai thì kéo giảng cả trục ra gấp đôi. Nhân với 1/2 thì co lại một nữa. Vậy phép nhân ngay từ đầu đã bí mật
+[0441.4-0448.6] là một phép co giảng toàn bộ đường thẳng còn nhân với -1.
+[0448.6-0452.7] Nó biến 1 thành -1, biến 3 thành -3.
+[0452.8-0457.2] Nó lật mọi điểm qua góc tọa độ.
+[0457.2-0466.1] Nhìn kỹ, lật qua góc chính là xoay đường thẳng đúng 180 độ. Hãy giữ ý này thật chặt nhân với -1 là một phép xoay nửa
+[0466.1-0469.0] vòng.
+[0469.0-0469.0] vòng.
+[0469.0-0479.8] Bây giờ câu hỏi mấu chốt. Nếu nhân -1 là xoay nửa vòng thì có con số nào mà nhân hai lần liên tiếp cho ra nửa vòng không?
+[0479.8-0483.9] Tức là có số nào mà bình phương lên bằng -1?
+[0483.9-0483.9] -1?
+[0483.9-0491.7] trên đường thẳng thực thì tuyệt đối không. Mọi số thực bình phương đều không âm.
+[0491.7-0491.7] âm.
+[0491.7-0498.7] Nhưng nếu phép nhân là phép xoay thì con số ta cần chỉ đơn giản là phép xoay một nửa của nửa vòng, tức 1/4 vòng
+[0498.8-0501.9] 90 độ.
+[0501.9-0501.9] 90 độ.
+[0501.9-0510.6] Chỉ có điều xoay 90 độ đưa điểm một ra khỏi đường thẳng. Đường thẳng không đủ chỗ nữa. Ta buộc phải bước lên một chiều
+[0510.6-0514.9] thứ hai, thêm một trục dọc.
+[0515.0-0521.7] Và đây là lý do vì sao đúng hai chiều, không phải ba hay bốn. Ta chỉ cần thêm vừa đủ chỗ để chứa các phép xoay trong
+[0521.7-0523.6] một mặt phẳng.
+[0523.6-0528.6] Mặt phẳng là sân khấu tự nhiên của phép quay.
+[0528.6-0528.6] quay.
+[0528.6-0537.1] Ta gọi điểm nằm phía trên góc một đơn vị là y và nhân với y chính là phép xoay 90°ộ ấy. Không phải một quy ước tùy tiện
+[0537.1-0541.1] mà là một tất yếu hình học.
+[0541.2-0555.4] Giờ hãy xem điều đẹp đã xảy ra. Bắt đầu từ 1 nhân y. Xoay 90°ộ ta tới y nhân y lần nữa. Xoay thêm 90°ộ ta tới -1.
+[0555.4-0564.0] Anh thấy chưa? y nhân y = -1 không phải vì một điều bịa đặt khó hiểu mà vì xoay 90°ộ hai lần thì đúng bằng xoay nửa
+[0564.0-0566.9] vòng.
+[0566.9-0566.9] vòng.
+[0566.9-0573.3] Cái đẳng thức y bình phương bằng -1 mà bao thế hệ học thuộc lòng như một điều huyền bí. Thật ra hiển nhiên như xoay
+[0573.3-0578.0] hai lần 1/4 thì được một nửa.
+[0578.0-0590.1] Nhân y lần thứ ba tới âm y phía dưới góc lần thứ tư quay về đúng số 1. Cứ bốn lần nhân y là trọn một vòng nên y mũ 4 = 1.
+[0590.1-0594.1] Y mũ 3 = - y.
+[0594.2-0603.6] Số ảo hóa ra chỉ là cái tên xấu số cho một phép xoay góc vuông. Nó có thật y như hướng lên trên có thật.
+[0603.6-0614.4] Và nếu nhân với 2y thì sao? Xoay 90°ộ và kéo dài gấp đôi. Vừa xoay vừa phóng.
+[0614.4-0621.7] Đó là toàn bộ bí mật và ta sẽ dùng nó suốt cả mùa. Mỗi số phức là một mệnh lệnh biến hình. xoay chừng này độ và
+[0621.7-0625.3] phóng chừng này lần.
+[0625.3-0633.5] Có một hệ quả cấu trúc rất đẹp ở đây. Vì xoay rồi xoay nữa chỉ là cộng các góc mà cộng thì không phân biệt thứ tự nên phép
+[0633.6-0638.5] nhân số phức tự động giao hoán và kết hợp.
+[0638.5-0638.5] hợp.
+[0638.5-0643.9] Nói cách khác, toàn bộ luật đại số quen thuộc vẫn đúng nguyên vẹn. Ta chỉ thêm một chiều và một phép
+[0644.0-0648.5] xoay chứ không phá vỡ điều gì.
+[0648.6-0657.4] Nhìn lại trục số thực mà ta học bao năm hóa ra chỉ là cái bóng một chiều của một thế giới hai chiều rộng lớn hơn nhiều.
+[0657.4-0663.4] Và trong thế giới ấy, phép nhân cuối cùng cũng có một ý nghĩa hình học trọn vẹn. Điều mà khi bị nhốt trên
+[0663.4-0669.7] đường thẳng ta không bao giờ thấy hết.
+[0669.7-0677.3] Giờ ta viết ý tưởng đó thành ngôn ngữ chính xác để có thể tính toán chứ không chỉ hình dung.
+[0677.3-0683.4] Một số phức giác b= a + b y ứng với điểm có tọa độ a b trên mặt phẳng.
+[0683.4-0688.1] A là phần thực, b là phần ảo.
+[0688.1-0695.8] Thay vì mô tả bằng tọa độ ngang dọc, ta dùng hai đại lượng tự nhiên hơn cho phép xoay và phóng.
+[0695.8-0704.3] Thứ nhất là độ lớn R, còn gọi là môđun bằng khoảng cách từ góc tới điểm, tức căn của a bình cộng bình.
+[0704.3-0708.4] Đây chính là hệ số phóng.
+[0708.4-0718.5] Thứ hai là góc theta gọi là agumen đo từ trục thực ngược chiều kim đồng hồ. Đây chính là góc xoay.
+[0718.5-0726.8] Lưu ý một điều tinh tế sẽ rất quan trọng về sau. Góc chỉ xác định sai khác một bội của trọn vòng. Xoay 370°ộ cũng như
+[0726.8-0730.2] xoay 10°ộ.
+[0730.2-0741.9] Khi đó z = r nhân cos theta cộng y sin tha. Và theo công thức biểu thức trong ngoặc chính bằng e mũ y.
+[0741.9-0746.9] Ta được dạng gọn tuyệt đẹp. Z = r nh e mũ y.
+[0746.9-0746.9] mũ y.
+[0746.9-0756.9] Chỉ hai con số độ lớn róc theta. Toàn bộ thông tin của một số phức nằm ở đó.
+[0756.9-0765.1] Ở đây cũng nên nhắc tới số phức liên hợp giữ nguyên phần thực, đổi dấu phần ảo, tức lấy ảnh gương qua trục thực. Nó
+[0765.1-0770.3] chính là số có cùng độ lớn nhưng góc ngược lại.
+[0770.3-0770.3] ngược lại.
+[0770.3-0779.0] Điều đẹp là Z nhân số liên hợp của nó bằng đúng r bình phương một số thực. Đây là mẹo để chia hai số phức nhân cả tử và
+[0779.0-0783.2] mẫu với số liên hợp của mẫu.
+[0783.2-0791.8] Nhưng phần thưởng lớn nhất của dạng cực là phép nhân nhân hai số phức z1 nh z2.
+[0791.8-0803.1] Vì e mũ y1 nhân e mũ y2 bằ e mũ y 1 + theta 2 đúng theo quy tắc lũy thừa quen thuộc.
+[0803.1-0803.1] thuộc.
+[0803.1-0811.7] Kết quả độ lớn thì nhân nhau, còn góc thì cộng nhau. Đây chính xác là câu vừa xoay vừa phóng ở lớp trước, giờ đã thành
+[0811.7-0815.6] một công thức chặt chẽ.
+[0815.6-0821.3] Từ đây suy ra ngay một tính chất đẹp, độ lớn của một tích bằng tích các độ lớn.
+[0821.3-0827.0] phép nhân số phức tôn trọng độ dài một cách hoàn hảo.
+[0827.0-0837.9] Một hệ quả nữa cực mạnh nâng zép lên lũy thừa n thì độ lớn mũ n. Còn góc nhân n đó là công thức de mover.
+[0837.9-0846.4] Ví dụ nhỏ cho thấy sức mạnh của nó. Muốn khai triển cos 3 ta chỉ việc lấy phần thực của cos theta cộng y sinθ tất cả mũ
+[0846.4-0848.1] 3.
+[0848.1-0848.1] 3.
+[0848.1-0852.6] Giác khó biến thành đại số dễ.
+[0852.6-0858.9] Và ta trả nợ câu hỏi trước. Số 1 + y có độ lớn căn 2 góc 45°ộ.
+[0858.9-0868.0] Vậy nhân với 1 + y nghĩa là xoay 45°ộ và phóng căn hai lần. Không còn gì bí ẩn.
+[0868.0-0878.7] Hãy thử phép chia cho thật cụ thể. Lấy 1 chia cho 1 + y. Ta nhân cả tử và mẫu với số liên hợp là 1 - y.
+[0878.7-0888.0] Mẫu trở thành 1 + y nhân 1 - y = 1 - y bình phương tức là 2. Một số thực sạch tử là 1 - y. Vậy kết quả là
+[0888.0-0891.8] một nửa trừ một nửa y.
+[0891.8-0901.4] Phép chia phức tưởng đáng sợ quy về một phép nhân với số liên hợp rồi chia cho một số thực. Gọn gàng.
+[0901.4-0903.7] Còn một bất đẳng thức hình học đẹp nữa.
+[0903.8-0909.8] Độ lớn của Z+ VDU không vượt quá tổng hai độ lớn. Đó chỉ là câu quen thuộc.
+[0909.8-0915.2] Đường thẳng là đường ngắn nhất phát biểu cho các vé.
+[0915.2-0921.7] Những tính chất này khiến tập số phức thành một sân chơi hoàn hảo, vừa cộng trừ nhân chia được như số thực, vừa mang
+[0921.7-0931.9] trọng hình học của mặt phẳng. Chính sự hòa quyện ấy là nguồn sức mạnh của cả giải tích phức.
+[0932.0-0935.2] Tôi hứa sẽ không né tránh phần vì sao.
+[0935.2-0941.6] Ta chứng minh hai điều cốt lõi và mỗi bước đều có một hình đi kèm.
+[0941.6-0945.5] Điều thứ nhất, vì sao nhân thì góc cộng lại?
+[0945.5-0945.5] lại?
+[0945.5-0954.7] Ta lấy hai số nằm trên đường tròng đơn vị, một số góc alpha, một số góc beta, độ lớn đều bằng 1.
+[0954.8-0964.8] Ta nhân trực tiếp khai triển như nhân hai nhị thức cos alpha cộng y sin alpha nhân cos beta c beta.
+[0964.8-0973.3] Bung ra bốn số hạng cos alpha cos beta cộng y cos alpha sin beta cộng y sin alpha cos beta cộng y bình phương
+[0973.3-0977.1] sin alpha sin beta.
+[0977.1-0984.0] Nhớ y bình phương bằ -1 nền số hạng cuối đổi dấu và nhập vào phần thực.
+[0984.0-0992.3] Gom lại phần thực là cos alpha cos beta trừ sin alpha sin beta. Phần ảo là sin alpha cos beta cộng cos
+[0992.3-0995.8] alpha sin beta.
+[0995.8-1002.6] Nhưng anh có nhận ra hai biểu thức này không? Đó chính xác là công thức cộng góc của cos và của sin mà ta
+[1002.6-1006.0] học ở phổ thông.
+[1006.0-1015.7] Vậy tích hai số bằng cos alpha cộng beta cộng y sin alpha cộng beta. Một số có góc bằng tổng hai góc. Ta vừa chứng minh
+[1015.8-1020.0] xong nhân thì cộng góc.
+[1020.0-1026.3] Và như một phần thưởng bất ngờ, những công thức lượng giác mà học sinh phải học thuộc hóa ra chỉ là phép nhân hai số
+[1026.3-1028.0] phức viết ra.
+[1028.0-1033.8] Chúng không phải điều cần nhớ mà là điều tất yếu.
+[1033.8-1044.5] Điều thứ hai sâu hơn vì sao e mũ y tha lại bằng cos theta cộng y sin tha? Công thức ơ này từ đâu ra? Tôi sẽ cho anh ba
+[1044.5-1047.5] góc nhìn.
+[1047.5-1047.5] góc nhìn.
+[1047.5-1056.0] Góc nhìn thứ nhất, chuỗi lũy thừa. Thay y ta vào chuỗi khai triển của hàm e mũ x.
+[1056.0-1056.0] x.
+[1056.0-1068.0] Các lũy thừa của y cứ lặp lại theo chu kỳ 4 1 y -1 âm y rồi lại 1. Vì thế chuỗi tự tách làm hai.
+[1068.0-1075.1] Các số hạng thực gột lại thành đúng chuỗi của cos theta. Các số hạng chứa y gột lại thành đúng chuỗi của sin.
+[1075.1-1079.8] Hai hàm lượng giác hiện ra từ hàm mũ.
+[1079.8-1084.8] Góc nhìn thứ hai và có lẽ trực quan nhất phép nhân liên tiếp.
+[1084.8-1093.5] Hàm e mũ x là giới hạn của 1 + x/n tất cả mũ n khi n rất lớn.
+[1093.6-1103.4] Thay x = y. Mỗi thừa số 1 + y/ên n là một phép xoay tí hon. Nhân n phép xoay tí hon ấy lại chính là bồi dần thành một
+[1103.4-1110.0] phép xoay lớn góc theta. Chuyển động tròn hiện ra.
+[1110.0-1114.0] Góc nhìn thứ ba động học chặt chẽ nhất.
+[1114.0-1122.8] Ta định nghĩa điểm Z bằng e mũ Yeta và hỏi khi theta tăng, điểm này di chuyển ra sao?
+[1122.8-1129.4] Lấy đạo hàm theo thêa, ta được vận tốc bằng y nh z nhưng nhân y là xoay 90°ộ.
+[1129.4-1129.4] xoay 90°ộ.
+[1129.4-1135.0] Nghĩa là vét vận tốc luôn vuông góc với vét vị trí.
+[1135.0-1143.6] Một vật mà vận tốc luôn vuông góc với bán kính thì không thể lại gần hay ra xa gốc, nó chỉ có thể đi vòng tròn.
+[1143.6-1150.4] Tại theta bằng 0, điểm ở vị trí 1 cách góc đúng một đơn vị và tốc độ bằng 1.
+[1150.4-1156.1] Vậy nó chạy trên đường tròn đơn vị với tốc độ đều bằng 1.
+[1156.2-1164.9] Sau khi quét một góc theta, nó ở đúng tọa độ cos theta sin tha. Đó chính là công thức ơ hiện ra không phải như phép
+[1164.9-1171.2] màu mà như câu chuyện của một điểm bị nhân y đẩy đi mãi vuông góc.
+[1171.2-1182.2] Và nếu cho theta bằng pi tức nửa vòng tròn điểm dừng ở -1. Viết lại e mũ y + 1 = 0.
+[1182.2-1182.2] = 0.
+[1182.2-1191.1] Cái đẳng thức được mệnh danh đẹp nhất toán học gói gọn e pi 1 và 0. Giờ chỉ có một nghĩa giản dị đi nửa vòng tròn đơn
+[1191.1-1195.2] vị thì tới điểm -1.
+[1195.2-1203.3] Ba góc nhìn ấy, chuỗi, phép nhân liên tiếp và động học cùng chỉ về một sự thật duy nhất. Hàm mũ với số mũ ảo chính là
+[1203.3-1206.6] chuyển động quay.
+[1206.6-1214.9] Đây là lý do các nhà vật lý luôn viết sóng dưới dạng e mũ i omega t thay vì cos không phải để là màu mà vì nhân các
+[1214.9-1220.5] hàm mũ đơn giản hơn nhiều so với cộng các hàm lượng giác.
+[1220.6-1226.8] Nó cũng cho ta cách nhìn mới về chính cos và sin. Chúng chỉ là hình chiếu lên trục thực và trục ảo của một điểm đang
+[1226.8-1230.4] quay đều trên đường tròn.
+[1230.4-1237.9] Toàn bộ lượng giác vốn là một rừng công thức rời rạt, được thống nhất lại dưới một chuyển động tròn duy nhất. Đó là vẻ
+[1237.9-1244.3] đẹp mà ơ đã nhìn thấy.
+[1244.3-1252.3] Lý thuyết là để dùng. Ta làm trọn ba phép tính bằng tay, mỗi cái khó dần.
+[1252.4-1261.9] Ví dụ một. Tính 1 + y tất cả mũ 8. Nếu khai triển nhị thức thì phải nhân tám lần cực khổ và dễ sai.
+[1261.9-1266.2] Nhưng với dạng cực thì nhẹ tên.
+[1266.2-1271.2] Ta đã biết 1 + y = căn2 nh e mũ y pi/4.
+[1271.2-1278.0] Nâng lên mũ 8 độ lớn thành căn 2 mũ 8 = 16.
+[1278.0-1289.5] Góc thành 8 x 45°ộ bằng 360°ộ. Tức trọn một vòng. Mà xoay trọn một vòng thì về đúng chỗ cũ trên trục thực.
+[1289.6-1299.7] Vậy 1 + y mũ 8 = 16. Một số thực sạch sẽ. 8 cú xoay 45°ộ ghép lại thành đúng hai vòng và ta hạ cánh ngay
+[1299.7-1303.8] tại 16 trên trục thực.
+[1303.8-1311.8] Ví dụ hai. Ngược lại tìm căn bậc hai của y nghĩa là tìm số nào bình phương lên bằng y.
+[1311.8-1322.2] bình phương là nhân đôi góc y có góc 90°ộ nền căn của nó phải có góc 45°ộ và độ lớn bằng 1.
+[1322.2-1331.9] Đó là điểm cos 45° c y sin 45°ộ tức 1 + y chia căn 2. Thử lại quả nhiên bình phương ra y và có cả một nghiệm thứ hai
+[1331.9-1337.1] ở góc đối diện 225°ộ.
+[1337.2-1340.8] Ví dụ 3. Tổng quát hơn giải Z mũ 3 = 1.
+[1340.8-1350.8] Tìm ba căn bậc 3 của đơn vị. Viết Z dạng cực r mũ 3 nh E^ Y3 phải bằng 1.
+[1350.8-1364.8] Độ lớn R mũ 3 = 1 nên R = 1. Mọi nghiệm nằm trên đường tròn đơn vị. Còn góc 3 phải bằng một bội nguyên của trọn vòng.
+[1364.8-1374.3] Đây là lúc điều tinh tế lúc nãy phát huy. 3 có thể bằng 0 một vòng hoặc hai vòng. Chia 3 ta được thê ta bằng 0,
+[1374.3-1379.6] 120°ộ hoặc 240°ộ.
+[1379.6-1387.8] Ba điểm cách đều nhau 120°ộ trên đường tròn. Chúng là ba đỉnh của một tam giác đều hoàn hảo.
+[1387.8-1395.1] Và đây là quy luật tổng quát. Nghiệm bậc n của đơn vị luôn là n đỉnh của một đa giác. đều nội tiếp đường tròn, cách nhau
+[1395.1-1399.5] một góc bằng trọn vòng chia n.
+[1399.5-1407.6] Chúng còn có một tính chất tuyệt vời, cộng tất cả n nghiệm lại luôn bằng 0. Vì các ve đối xứng hoàn hảo quanh gốc nên
+[1407.6-1414.9] chúng tự triệt tiêu. Đối xứng hình học nói lên một sự thật đại số.
+[1414.9-1422.2] Chính những điểm này là trái tim của biến đổi Furi nhanh mà tôi hứa ở đầu, nền của nhạc số và ảnh số.
+[1422.2-1426.7] Ta vừa chạm tay vào chúng.
+[1426.7-1434.2] Ta khai thác thêm sức mạnh của nghiệm đơn vị bằng một ví dụ đẹp. Xét năm nghiệm bậc năm của đơn vị, chúng là năm
+[1434.2-1437.9] đỉnh một ngũ giác đều.
+[1437.9-1446.3] Vì tổng của chúng 0, phần thực cũng phải bằng 0. Từ đẳng thức đó, chỉ bằng hình học, ta suy ra được giá trị chính xác
+[1446.3-1452.6] của cos 36 độ, một con số gắn liền với tỷ lệ vàng.
+[1452.6-1460.2] Một bài toán tưởng thuộc về hình học Hy Lạp cổ này giải gọn gẻ bằng vài phép xoay số phức.
+[1460.2-1469.0] Và đây là điều tổng quát cần nhớ. Để lấy căn bậc n của một số phức bất kỳ, ta lấy căn bậc n của độ lớn rồi chia góc cho n.
+[1469.0-1474.0] Nhớ cộng thêm các bội của trọn vòng trước khi chia.
+[1474.0-1480.0] Nhờ đó một số phức luôn có đúng n căn bậc n xếp thành một đa giác đều.
+[1480.0-1492.3] Số thực chỉ cho nhiều nhất hai căn, số phức cho ta trọn bộ. Đại số và hình học lại là hai mặt của cùng một tấm gương.
+[1492.4-1500.3] Hãy mang theo một câu duy nhất khi rời video này. Mỗi số phức là một phép xoay cộng, một phép phóng.
+[1500.3-1507.5] Từ hạt giống đó, y bình phương bằng -1 trở nên hiển nhiên, công thức ưu trở nên tự nhiên và những công thức lượng giác
+[1507.5-1512.0] khô khan trở thành hệ quả tất yếu.
+[1512.0-1515.7] Nhưng đây mới là chỗ mọi thứ thật sự cất cánh.
+[1515.7-1515.7] cánh.
+[1515.7-1522.2] Nếu một con số đã là một phép biến hình thì một hàm biến phức là gì?
+[1522.2-1524.5] Nó là một phép biến dạng cả mặt phẳng.
+[1524.5-1530.9] Nó nhận vào mỗi điểm và uống, xoắn, kéo giãng cả không gian.
+[1530.9-1538.3] Và trong vô số hàm như thế có một lớp đặc biệt đẹp. Những hàm mà nhìn thật gần ở mỗi điểm chỉ xoay và phóng đều, giữ
+[1538.3-1541.5] nguyên mọi góc.
+[1541.5-1549.7] Ta gọi chúng là hàm chỉnh hình và chúng là nhân vật chính của toàn bộ giải tích phức của cả mùa phim này.
+[1549.7-1555.4] Chính cái ràng buộc giữ nguyên gốc ấy khiến hàm chỉnh hình cứng cõi đến kinh ngạc, chỉ cần biết chúng trên một mảnh
+[1555.4-1563.8] nhỏ xíu là biết chúng ở mọi nơi, từ đó sinh ra những định lý đẹp đến khó tin.
+[1563.8-1571.1] Ta sẽ tới định lý cao chi nơi biết viền là biết tất cả tới phép tính thặng dư giải những tích phân tưởng như bất khả
+[1571.2-1580.0] tới ánh xạ bảo giác biến đường tròn thành cánh máy bay và cuối cùng tới hàm dê ta và bí ẩn số nguyên tố
+[1580.0-1588.1] nhưng có một trở ngại phải vượt ngay ở tập sau. Một hàm biến phức cần tới bốn chiều để vẽ đồ thị, hai chiều vào, hai
+[1588.1-1594.5] chiều ra. Làm sao ta nhìn thấy một vật bốn chiều?
+[1594.6-1603.0] Tập hai ta sẽ giải đúng bài toán đó. Học cách tô màu mặt phẳng để vẽ chân dung của một hàm. Và lần đầu tiên anh sẽ thấy
+[1603.0-1607.6] một hàm biến phức bằng chính mắt mình.
+[1607.6-1613.5] Sự cứng cỏi ấy dẫn tới một hiện tượng gần như phép màu gọi là phát triển giải tích. Một hàm chỉnh hình xác
+[1613.6-1621.6] định trên một mẫu nhỏ xíu sẽ tự động lan ra một cách duy nhất tới miền lớn hơn rất nhiều.
+[1621.6-1621.6] rất nhiều.
+[1621.6-1628.7] Chính nhờ nó mà hàm ta ban đầu chỉ là một tổng vô hạn quen thuộc được nới rộng ra toàn mặt phẳng phức để lộ những
+[1628.7-1633.6] nghiệm phức nắm giữ bí mật của số nguyên tố.
+[1633.6-1633.6] tố.
+[1633.6-1642.6] Cả một mùa phim khởi đi từ tập này sẽ là hành trình leo dần từ ý tưởng số bằng phép xoay tới đỉnh núi ấy.
+[1642.6-1648.6] Nếu thấy hữu ích, hãy đăng ký kênh để theo trọn hành trình từ số phức tới giả thuyết RMAN.
+[1648.6-1652.0] Hẹn gặp anh ở tập hai.

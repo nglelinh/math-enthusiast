@@ -1,0 +1,39 @@
+[
+  {
+    "id": "ku_mod_bridge_1994",
+    "title": "Modularity as the bridge that killed FLT",
+    "t_start": "0:00",
+    "t_end": "1:50",
+    "type": "overview",
+    "summary": "Not elementary number theory alone: Frey→Ribet→modularity contradiction. Elliptic curves and modular forms share matching a_p sequences when modularity holds.",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_langlands_context",
+    "title": "Modularity inside Langlands",
+    "t_start": "1:50",
+    "t_end": "2:05",
+    "type": "overview",
+    "summary": "Modularity is one successful dictionary entry in the larger Langlands program (Rosetta between arithmetic and automorphic/analytic worlds).",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_abelian_surfaces_2025",
+    "title": "2025: modularity for a class of abelian surfaces",
+    "t_start": "2:05",
+    "t_end": "3:10",
+    "type": "theorem",
+    "summary": "Popular report (May 2025): four mathematicians, ~decade of work, intensive Bonn 2023 collaboration ('down the mine'), ~230-page proof that a natural class of abelian surfaces (higher-dimensional cousins of elliptic curves / genus-2 data) are modular in a suitable sense. Technical hinge: weak congruence matching (mod-2 vs mod-3 type arithmetic) bridged by a 2020 result (name garbled in ASR—verify literature).",
+    "math": "Abelian surface modularity / Galois representations; compare elliptic modularity",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_why_matters",
+    "title": "Why it matters",
+    "t_start": "2:50",
+    "t_end": "3:15",
+    "type": "overview",
+    "summary": "Opens paths toward arithmetic of abelian surfaces (including BSD-type dreams at higher dimension) and enlarges the Langlands territory beyond elliptic curves. Status: major modularity advance—not 'Langlands finished'.",
+    "depth": "intro"
+  }
+]

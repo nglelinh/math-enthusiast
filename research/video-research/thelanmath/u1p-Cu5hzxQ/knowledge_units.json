@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ku_perelman_tda_overview",
+    "title": "Dữ Liệu Có Hình Dạng — Poincaré, Perelman Và Môn Toán Nhìn Xuyên Nhiễu",
+    "type": "overview",
+    "summary": "Trên màn hình là hai đám mây dữ liệu, 70 điểm mỗi bên cùng phạm vi, cùng độ điểm mỗi bên cùng phạm vi, cùng độ nhiễu. Mọi công cụ thống kê quen thuộc cũng bó tay, trung bình xấp xỉ nhau, phường sai tay, trung bình xấp xỉ nhau, phường sai xấp xỉ nhau. Hồi quy tuyến tính cho ra hai đường thẳng vô nghĩa như nhau.",
+    "depth": "standard",
+    "concepts": [
+      "perelman_tda"
+    ]
+  },
+  {
+    "id": "ku_perelman_tda_ideas",
+    "title": "Key ideas",
+    "type": "intuition",
+    "summary": "Nhưng một trong hai đám mây đang giấu một bí mật, các điểm của nó một bí mật, các điểm của nó nằm quanh một vòng tròn. Mỗi bản số, mỗi biểu đồ hai chiều bạn từng xem đều chỉ là một cái bóng như bạn từng xem đều chỉ là một cái bóng như thế. Cuối thế kỷ 19, Henry Poa khai sinh cả một nhánh 19, Henry Poa khai sinh cả một nhánh toán học mới để trả lời nó.",
+    "depth": "intro",
+    "concepts": [
+      "perelman_tda"
+    ]
+  },
+  {
+    "id": "ku_perelman_tda_status",
+    "title": "Status / open questions",
+    "type": "overview",
+    "summary": "Cả hai đều là một khối có đúng một cái lỗ xuyên qua. Rồi ông làm điều không ai ngờ, từ chối Huy chương phiêu năm 2006 Huy chương phiêu năm 2006 và từ chối luôn 1 triệu đô la của giải và từ chối luôn 1 triệu đô la của giải Thiên Niên Kỷ năm 2010.",
+    "depth": "intro",
+    "concepts": [
+      "perelman_tda"
+    ]
+  }
+]

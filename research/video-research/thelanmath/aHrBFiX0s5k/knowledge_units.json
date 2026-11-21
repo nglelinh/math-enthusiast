@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ku_set_theory_overview",
+    "title": "Tiên Đề Chọn: Điều Hiển Nhiên Gây Tranh Cãi Nhất Toán Học",
+    "type": "overview",
+    "summary": "Nhưng chính mệnh đề này cho phép cắt một Nhưng chính mệnh đề này cho phép cắt một quả cầu thành năm mảnh rồi ghép lại quả cầu thành năm mảnh rồi ghép lại thành hai quả cầu y hệt bản gốc. Và suốt hơn 100 năm không ai chứng minh Và suốt hơn 100 năm không ai chứng minh được nó đúng hay sai. Hai chiếc tất trong một đôi giống hệt nhau, không trái trong một đôi giống hệt nhau, không trái không phải, không có gì phân biệt.",
+    "depth": "standard",
+    "concepts": [
+      "set_theory"
+    ]
+  },
+  {
+    "id": "ku_set_theory_ideas",
+    "title": "Key ideas",
+    "type": "intuition",
+    "summary": "Năm 1924 B và Taski chứng minh một điều nghe như B và Taski chứng minh một điều nghe như ảo thuật. Cắt một quả cầu thành năm mảnh, chỉ xoay Cắt một quả cầu thành năm mảnh, chỉ xoay và dịch chuyển rồi ghép thành và dịch chuyển rồi ghép thành hai quả cầu y hệt bản gốc. Chọn hai phép xoay, ghép chúng thành chuỗi dài tùy ý.",
+    "depth": "intro",
+    "concepts": [
+      "set_theory"
+    ]
+  },
+  {
+    "id": "ku_set_theory_status",
+    "title": "Status / open questions",
+    "type": "overview",
+    "summary": "Từ một cây ta ráp được hai cây nguyên vẹn. Năm 1938, Gel chứng minh thêm Năm 1938, Gel chứng minh thêm tiên đề chọn vào ZF không bao giờ sinh tiên đề chọn vào ZF không bao giờ sinh mâu thuẫn.",
+    "depth": "intro",
+    "concepts": [
+      "set_theory"
+    ]
+  }
+]

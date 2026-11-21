@@ -1,0 +1,17 @@
+{
+  "id": "EgdaYEjIThY",
+  "url": "https://www.youtube.com/watch?v=EgdaYEjIThY",
+  "title": "AI Bác Bỏ Một Giả Thuyết 80 Năm Của Erdős (Khoảng Cách Đơn Vị)",
+  "tag": "ramsey_condensed",
+  "duration": 179.0,
+  "fetched_at": "2026-08-08",
+  "mapping": {
+    "en": "contents/en/chapter02/_posts/21-01-01-02_11_Modern_Combinatorics_Geometry.md",
+    "vi": "contents/vi/chapter02/_posts/21-01-01-02_11_Modern_Combinatorics_Geometry.md",
+    "also": [
+      "contents/en/chapter02/_posts/21-01-01-02_06_Scholze_Perfectoid.md",
+      "contents/vi/chapter02/_posts/21-01-01-02_06_Scholze_Perfectoid.md"
+    ]
+  },
+  "char_count": 4601
+}

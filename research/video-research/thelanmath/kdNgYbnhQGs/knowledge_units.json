@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ku_envelope",
+    "title": "Piano ADSR as a real graph",
+    "type": "example",
+    "t_start": 0,
+    "t_end": 120,
+    "summary": "Real recorded note: attack spike, decay, sustain-ish release. Envelope is a function of time (energy vs t); derivative is instantaneous rate of change—what the ear is highly sensitive to.",
+    "concepts": [
+      "signal_envelope",
+      "derivative"
+    ],
+    "depth": "standard"
+  },
+  {
+    "id": "ku_exp_decay",
+    "title": "Exponential decay ODE",
+    "type": "theorem",
+    "t_start": 120,
+    "t_end": 280,
+    "summary": "If energy loses a fixed fraction per unit time, Ė = −kE ⇒ E(t)=E₀e^{−kt}. Measured time constant ~0.61s for the example (energy to ~37%). Exponential vs linear fade: ‘breathing’ vs abrupt cut. Model is approximate (multi-string partials).",
+    "concepts": [
+      "exponential_decay",
+      "ode"
+    ],
+    "depth": "standard",
+    "math": "dE/dt = −λ E ⇒ E(t)=E₀ e^{−λt}."
+  },
+  {
+    "id": "ku_partials",
+    "title": "Partials / harmonic stack",
+    "type": "intuition",
+    "t_start": 280,
+    "t_end": 467,
+    "summary": "One piano note is a stack of partials at roughly integer frequency multiples; each can decay differently—Fourier content of a ‘single’ note. Silence is practical threshold, not mathematical zero of the exponential.",
+    "concepts": [
+      "fourier_series",
+      "harmonics"
+    ],
+    "depth": "standard"
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "id": "ku_needle_question",
+    "title": "Kakeya needle problem",
+    "type": "overview",
+    "t_start": 0,
+    "t_end": 55,
+    "summary": "Unit needle: reverse through all directions with minimal area. Pivot disk has area π/4≈0.785; smarter continuous motions can do better.",
+    "concepts": [
+      "kakeya_needle",
+      "deltoid"
+    ],
+    "depth": "intro",
+    "math": "Disk radius 1/2: area π/4. Deltoid (three-cusped hypocycloid) candidate area π/8."
+  },
+  {
+    "id": "ku_besicovitch_perron",
+    "title": "Besicovitch zero-area sets via Perron trees",
+    "type": "theorem",
+    "t_start": 100,
+    "t_end": 160,
+    "summary": "Besicovitch: Kakeya *sets* (static unit segment every direction) can have Lebesgue measure zero via Perron-tree cutting-and-sliding. Continuous needle motion can have arbitrarily small positive area but not measure zero.",
+    "concepts": [
+      "besicovitch_set",
+      "perron_tree"
+    ],
+    "depth": "standard",
+    "math": "Distinguish continuous motion (area>0 arbitrary small) vs static Besicovitch set (measure 0 possible)."
+  },
+  {
+    "id": "ku_hausdorff_conjecture",
+    "title": "Hausdorff dimension and Kakeya conjecture",
+    "type": "definition",
+    "t_start": 160,
+    "t_end": 230,
+    "summary": "Zero area ≠ thin: measure with Hausdorff/box dimension. Conjecture: every Kakeya set in R^n has dim_H = dim_M = n. Plane: Davies 1971 dim=2.",
+    "concepts": [
+      "hausdorff_dimension",
+      "kakeya_conjecture"
+    ],
+    "depth": "standard"
+  },
+  {
+    "id": "ku_fefferman_bridge",
+    "title": "Fefferman and harmonic analysis",
+    "type": "intuition",
+    "t_start": 200,
+    "t_end": 250,
+    "summary": "Around 1971 Fefferman links Kakeya geometry to central Fourier questions; Kakeya becomes foundation of an analysis tower.",
+    "concepts": [
+      "fefferman",
+      "harmonic_analysis"
+    ],
+    "depth": "intro"
+  },
+  {
+    "id": "ku_3d_history",
+    "title": "3D lower bounds to Wang–Zahl",
+    "type": "overview",
+    "t_start": 250,
+    "t_end": 340,
+    "summary": "3D stubborn: Wolff ~2.5 (1995); tiny improvements ~2019; Wang–Zahl Feb 2025 arXiv 127pp prove dim=3 for every Kakeya set in R^3 via tube multiscale grains/sticky structure (contradiction if too thin).",
+    "concepts": [
+      "wang_zahl",
+      "sticky_kakeya",
+      "delta_tubes"
+    ],
+    "depth": "deep",
+    "math": "Theorem (Wang–Zahl 2025): every Kakeya set K⊂R^3 has dim_H(K)=dim_M(K)=3. Engine: volume estimates for unions of δ-tubes under convex-containment hypotheses."
+  },
+  {
+    "id": "ku_tower",
+    "title": "Tower above Kakeya",
+    "type": "overview",
+    "t_start": 340,
+    "t_end": 436,
+    "summary": "Kakeya is base of hierarchy: restriction → Bochner–Riesz (and local smoothing nearby). 3D Kakeya does not auto-solve upper floors but supplies new tools. Public narrative: once-in-a-century; Fields context 2026.",
+    "concepts": [
+      "restriction_conjecture",
+      "bochner_riesz"
+    ],
+    "depth": "standard"
+  }
+]

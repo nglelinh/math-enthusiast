@@ -1,0 +1,39 @@
+[0000.2-0007.3] Mỗi lần bạn gọi điện, gửi một tin nhắn hay xem một đoạn video, có một câu hỏi âm thầm được đặt ra. Làm sao để một
+[0007.3-0013.0] thông điệp đi xuyên qua tiếng ồn mà bên kia vẫn không hiểu nhầm? Cách người ta làm là biến mỗi thông điệp thành một
+[0013.0-0017.3] điểm tín hiệu trong không gian, rồi để bên nhận đoán xem điểm nào gần nhất.
+[0017.3-0023.9] Nhưng nên đặt những điểm ấy ở đâu để ít bị nhầm nhất? Suốt 76 năm, cả ngành truyền tinh tin rằng họ đã biết câu trả
+[0024.0-0034.6] lời mà không ai chứng minh được. Mãi tới năm 2026, nó mới được giải. Câu trả lời mà ai cũng tin là hình đơn hình đều. Với
+[0034.6-0042.6] hai thông điệp đó là hai điểm nằm ở hai đầu với ba là một tam giác đều, với bốn là một tứ diện đều. Quy luật chung rất
+[0042.6-0048.5] gọn. Để gửi dê cộng một thông điệp, hãy đặt chúng thành d cộng một đỉnh cách đều nhau, xòe ra xa nhất có thể trong không
+[0048.6-0055.7] gian dê chiều. Trực giác thì quá rõ ràng, các điểm càng xa nhau, nhiễu càng khó để điểm này thành điểm kia.
+[0055.7-0061.2] Ý tưởng ấy đến từ một nhận xét của sa nông được ghi lại từ năm 1950.
+[0061.2-0071.7] Đến năm 1988 đặt cho nó một cái tên giả thuyết đơn hình yếu. Nhưng ở vùng đất này trực giác là một kẻ nguy hiểm. Có một phiên bản
+[0071.7-0078.5] anh em của nó gọi là giả thuyết đơn hình mạnh, nghe cũng hiển nhiên y hệt, chỉ khác ở cách ràn buộc năng lượng. Vậy mà
+[0078.5-0086.3] năm 1994, Michael Stiner đã chứng minh rằng bản mạnh là sai. Cùng một trực giác, một phiên bản đúng, một phiên bản
+[0086.4-0094.0] sai và không ai biết chắc bản yếu thuộc về phía nào. Mô phỏng trên máy tính thì lần nào cũng ủng hộ đơn hình, nhưng mô
+[0094.0-0103.5] phỏng không phải là chứng minh. Suốt 76 năm, bài toán cứ đứng đó mở toan. Bước ngoặc nằm ở chỗ đổi cách nhìn bên nhận
+[0103.6-0110.6] giải mã đúng khi nào? Khi điểm tín hiệu được gửi đi vẫn ăn điểm cao nhất, tức là qua mặt mọi đối thủ, dù nhiễu đã xô đẩy.
+[0110.6-0117.0] Nó viết lại bằng ngôn ngữ xác suất, cả bài toán giải mã thu gọn về đúng một câu hỏi. Cái lớn nhất trong một chùm biến
+[0117.0-0123.1] ngẫu nhiên ga út có nằm dưới một ngưỡng hay không? Nhưng những biến ga út ấy không hề độc lập, chúng dính vào nhau
+[0123.1-0125.6] qua đúng hình dạng của chùm tín hiệu.
+[0125.6-0129.4] Định lý trung tâm của bài báo là một bất đẳng thức tổng quát cho cái lớn nhất đó.
+[0129.4-0134.3] Với đúng kiểu tương quan mà bài toán truyền tinh sinh ra, xác suất để tất cả cùng nằm dưới ngưỡng không bao giờ nhỏ
+[0134.3-0140.2] hơn so với khi các biến hoàn toàn độc lập. Và hình đơn hình đều chính là cấu hình chạm tới điểm cực trị của bất đẳng
+[0140.2-0147.8] thức ấy, tối ưu ở mọi mức nhiễu. Cả một bài toán kỹ thuật 76 năm, rốt cuộc lại là câu chuyện về việc thuần hóa cái lớn
+[0147.8-0155.6] nhất của sự ngẫu nhiên. Chứng minh được điều đó không hề dễ, vì nó phải đúng ở mọi ngưỡng cùng một lúc. Tác giả A Bai
+[0155.6-0162.5] Mun Gung đã ghép lại hai mảnh. Mảnh thứ nhất là một bất đẳng thức tích ga út. Kỳ vọng của một tích các hàm lõm lo thì
+[0162.5-0169.7] không nhỏ hơn tích của từng kỳ vọng riêng. Mảnh thứ hai tinh tế hơn gọi là nghiên thích ứng. Ở mỗi tọa độ ta khéo
+[0169.7-0175.9] léo dịch phân bố đi một chút, sao cho mọi tọa độ cùng chạm đúng một ngưỡng chung. Hai mảnh ghép lại cho ra đúng bất
+[0176.0-0179.0] đẳng thức cần tìm chặt chẽ và tổng quát.
+[0179.0-0184.2] Đáng nói là từng bước đã được hình thức hóa và kiểm bằng máy trong phần mềm linh, không đặt niềm tin vào lời của bất
+[0184.2-0192.0] kỳ hệ thống tự động nào. Trước đó từng có vài nỗ lực công bố lời giải nhưng đều vướng những lỗ hỏng nhỏ chưa vá được.
+[0192.0-0200.1] Lần này lập luận mới thật sự khép kính và có một món quà bất ngờ đi kèm. Cùng một định lý xác suất ấy còn giải luôn
+[0200.1-0206.3] một bài toán tưởng như chẳng liên quan nằm bên hình học. Đó là giả thuyết bề rộng trung bình của đơn hình. Trong tất
+[0206.3-0211.4] cả các đơn hình nội tiếp một quả cầu, đơn hình đều có bề rộng trung bình lớn nhất, tức là cái bóng trung bình rộng
+[0211.4-0218.1] nhất khi ta xoay nó qua đủ mọi hướng. Bí mật là ở chỗ bề rộng trung bình đó chính là kỳ vọng của cái lớn nhất trong một
+[0218.2-0225.0] chùng biến ga út, đúng cái đại lượng vừa nãy. Chỉ một dòng suy ra, kỳ vọng ấy đạt cực đại đúng khi các điểm xếp thành đơn
+[0225.0-0231.4] hình đều. Một định lý duy nhất bắt cầu giữa lý thuyết truyền tinh và hình học lồ, chốt lại cả hai giả thuyết cùng một
+[0231.4-0239.3] lúc. Hóa ra cách an toàn nhất để được lắng nghe giữa tiếng ồn lại là đứng cách nhau xa nhất có thể. Điều mà các kỹ sư
+[0239.3-0246.1] đã đoán từ thời sa Nông nay đã thành một định lý không phải bằng hình học mà bằng cách thuần hóa chính sự ngẫu nhiên và
+[0246.1-0254.2] một giả thiết 76 năm tuổi cuối cùng đã được yên nghĩ. Nếu thấy thú vị bạn hãy để lại một lượt thích, đăng ký kênh và
+[0254.2-0261.3] cho mình biết suy nghĩ của bạn ở phần bình luận nhé. Cảm ơn đã xem và hẹn gặp lại.

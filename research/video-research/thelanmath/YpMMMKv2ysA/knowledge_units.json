@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ku_geometry_discrete_overview",
+    "title": "Chiếc Sofa Qua Hành Lang — bài toán 58 năm đã có lời giải",
+    "type": "overview",
+    "summary": "Ai từng khiê đồ qua góc hành lang đều biết khoảnh khắc này, xoay thế nào cũng biết khoảnh khắc này, xoay thế nào cũng kẹt. Nhưng đoán không phải chứng minh cần một cận đoán không phải chứng minh cần một cận trên. Hàm số của bài toán than 1/ sin cộng 1/ cos cho ngay chặng 2 căn2.",
+    "depth": "standard",
+    "concepts": [
+      "geometry_discrete"
+    ]
+  },
+  {
+    "id": "ku_geometry_discrete_ideas",
+    "title": "Key ideas",
+    "type": "intuition",
+    "summary": "Năm 2018, Calup và Romit dùng máy tính Năm 2018, Calup và Romit dùng máy tính 480 giờ CPU số hữu tỷ chính xác ép tận 480 giờ CPU số hữu tỷ chính xác ép tận trên xuống 2,37 và chứng minh sofa tối trên xuống 2,37 và chứng minh sofa tối ưu phải xoay ít nhất 81,2 độ. Bước hai, điều kiện đơn ánh quỹ đạo của cái hai, điều kiện đơn ánh quỹ đạo của cái góc không được tự thắt nút. Bước ba, đòn quyết định dựng một phím hàm chặn trên quyết định dựng một phím hàm chặn trên qy, toàn phương nhờ lý thuyết berun qy, toàn phương nhờ lý thuyết berun minosi và lõm toàn cục nhờ định lý minosi và lõm toàn cục nhờ định lý maicôn.",
+    "depth": "intro",
+    "concepts": [
+      "geometry_discrete"
+    ]
+  },
+  {
+    "id": "ku_geometry_discrete_status",
+    "title": "Status / open questions",
+    "type": "overview",
+    "summary": "Bài toán 58 năm khép lại và một câu trong trang 58 năm khép lại và một câu trong trang hai khiến giới toán mỉm cười. Chứng minh không cần máy tính ở ngoài những phép không cần máy tính ở ngoài những phép tính làm được trên máy tính khoa học bỏ tính làm được trên máy tính khoa học bỏ túi.",
+    "depth": "intro",
+    "concepts": [
+      "geometry_discrete"
+    ]
+  }
+]

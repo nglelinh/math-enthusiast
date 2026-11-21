@@ -1,0 +1,114 @@
+[0001.8-0009.6] Bài trước khép lại bằng một hình chữ nhật nhật tích phân electric đưa nửa mặt phẳng trên thành đúng trái hột này hại ca nhân
+[0009.6-0019.6] ra phẩy ra phẩy giờ ta làm điều ngược lại lấy hàm ngược của nó của nó và xem chuyện gì xảy ra khi ta lùi
+[0019.6-0033.7] camera ra trái hột tự nhân bản sang phải lên trên xuống dưới là kính trả mặt phẳng Một hàm số lặp lại theo hai hướng khác
+[0033.7-0047.1] nhau, không phải một chu kỳ mà hai giải tích cũng có hoa văn giấy dáng tươm, nhưng có một ô hoa văn bị cấm tồn tại và
+[0047.1-0054.0] đó là truyện chính của tập này.
+[0054.0-0058.8] Trước hết phải nói cho rõ hoa văn ấy được dáng trên trái gì?
+[0058.8-0064.9] Lấy hai số phức số 1 và một số tàu nằm ở nửa mặt phẳng trên.
+[0064.9-0072.7] Mọi tổ hợp N cộng m tâu với n và m chạy khắp số nguyên đó là lưỡi.
+[0072.7-0081.2] Vì sao tàu phải ở nửa trên? Vì nếu t nằm trên trục thực, hai hướng trùng nhau và lưỡi sụp thành một đường.
+[0081.2-0088.5] Đây là hình bình hành cơ bản trắc điểm a + b t với a và b chạy từ 0 tới 1.
+[0088.5-0094.8] Mệnh đề 1.1 nói. Dịch chuyển vô này theo mọi điểm lưới thì các bạn sao phụ kính mặt phẳng và không bản nào trồng lên bản
+[0094.8-0097.8] nào.
+[0097.8-0103.1] Mỗi điểm của mặt phẳng đồng dư với đúng một điểm trong ô.
+[0103.2-0111.7] Hệ quả rất mạnh. Viết hàm trên một ô là viết trên toàn mặt phẳng.
+[0111.7-0117.3] Bây giờ thử hỏi một câu ngâ thơ có hàm chỉnh hình nào tùn hoàn kết không?
+[0117.4-0122.1] Chỉnh hình nghĩa là mược tuyệt đối không một điểm hỏng.
+[0122.2-0130.3] Nhìn cái ô cơ bản nó đóng vào bị chặn nên hàm liên tục trên đó đạt giá trị lớn nhất.
+[0130.3-0130.4] nhất.
+[0130.4-0136.6] Mà ngoài ô ấy chẳng có duy mới, mọi giá trị đều đã xuất hiện bên trong.
+[0136.6-0146.0] Vậy hàm bị chặn trên toàn mặt phẳng và Liovin. Định lý ta đã dùng ở bài 9 rồi lại dùng ở bài 25 để loại mặt phẳng
+[0146.0-0153.9] rồi bài 26 để chốt công thức. Nói bị chặn và chỉnh hình thì phải là hạng số.
+[0153.9-0159.9] Định lý 1.2 mặt số xẹp phẳng.
+[0159.9-0169.9] Muốn có gì đó thú vị ta buộc phải khuếch lỗ, phải cho phép cực điển.
+[0169.9-0176.2] cho phép rồi, nhưng ngay lập tức va vào một luật cấm.
+[0176.2-0184.9] Nhìn biên của ô cơ bản vốn trặn đi vào ngược chiều kim đồng hồ trặn dưới đi từ không tới một trận trên
+[0185.0-0188.6] đi từ một cộng tâu về tâu.
+[0188.6-0195.0] Nhưng hàm tuần hoàn theo tâu nền giá trị trên trặnh trên giống hệ tranh dưới.
+[0195.0-0200.8] Chỉ có điều ta đi ngược chiều hài tích phân trị tiêu nhau.
+[0200.8-0205.5] Tập trành trái phải cũng vậy. Vì tuần hoàng theo số một.
+[0205.5-0218.3] Cả bốn trằng cộng lại bằng 0 mà tích phân quanh biên chính là tổng trắc thằng dư bên trong nhân 2π nên tổng mọi thằng dư trong một ô luôn
+[0218.3-0226.0] bằng 0. Nếu chẳng may có cực rơi đúng trên biên chỉ cần dịch ra ô đi một chút là xong.
+[0226.0-0226.0] là xong.
+[0226.0-0229.1] Giờ giả sử hàm chỉ có đúng một cực đơn.
+[0229.1-0233.2] Một cực đơn thì thằng dư khác 0.
+[0233.2-0236.4] Một số khác 0 mà tổng lại phải bằng 0.
+[0236.4-0239.7] Vô lý.
+[0239.7-0246.3] Định lý 1.3 trong mồi ô tổng số cực ít nhất là 2.
+[0246.3-0246.3] nhất là 2.
+[0246.3-0251.6] Nói cho chính xác vì đây là chỗ rất dễ nói sai.
+[0251.6-0251.6] nói sai.
+[0251.6-0259.4] Không phải hai vị trí khác nhau. Một cực duyên lấp nhưng bội hai thì hoàn toàn hợp lệ.
+[0259.4-0271.2] Stin viết đúng một câu hàm không thể chỉ có một cực đơn và trái cực bội hai ấy chính là nhân vật chính của tập này.
+[0271.2-0277.7] Còn định lý 1.4 thì dùng cùng một mèo triệt tiêu lần này cho đạo hàm chia hàm.
+[0277.7-0288.7] Kết quả số không điểm bằng đúng số cực và hàm nhận mọi giá trị đúng bá nhiêu lần.
+[0288.7-0293.8] Vậy hãy đi xây một hàm chàm đúng trái sàn ấy. Bậc hai.
+[0293.8-0301.3] Ý tưởng thô sơ nhất cộng 1/z omega bình phương lấy trên mọi điểm lưới.
+[0301.3-0310.5] Mỗi điểm lưới góp một cực bồi hai. Tuần hoàng thì hiển nhiên dịch chết đi một điểm lưới tổng chỉ đạo lại thứ tự.
+[0310.5-0316.7] Đẹp quá. Chỉ biết là nó không hồi tụ tuyệt đối.
+[0316.7-0328.1] Đến thử số điện lưới chấp góc cờ R thì tỷ lệ với R mỗi trái góp 1/R bình cộng lại thành chuỗi 1/R chuỗi điều hòa.
+[0328.1-0340.6] Phân kỳ Phân kỳ bộ đề 1.5 chốt ngưỡng. Nếu R lớn hơn 2 thì tổng 1/ega mũ R hồi tụ. Còn chiều ngược lại tin để trong nhận xét và bài
+[0340.6-0353.6] tập tập máy đo được chỗ hậu sát ngường ấy với R bằng đúng 2 tổng trong bán kính R trừ đi 2 p R ổn định quanh 2,58.
+[0353.6-0361.5] Nghĩa là nó phân trị nhưng chỉ phân trị theo logarit hỏng trong gan tất.
+[0361.5-0368.8] Was star chữa bằng một mẹo rất rẻ trừ đi hàng số 1/ega bình ở mỗi số hạng.
+[0368.8-0378.5] Hiệu hai số hạng ấy tắt như 1/ega mũ 3 mà mũ 3 thì lớn hơn 2 hội tụ.
+[0378.5-0384.7] Đó là định nghĩa hàm 1/Z bình tổng tổng tác hiệu đã hiệu chỉnh.
+[0384.8-0391.5] Nhìn trái mèo ấy có giá của nó. Stin nói thẳng trong sách.
+[0391.5-0398.2] Vị đã chèn thêm trách số hàng hiệu chỉnh, việc tuần hoàn kết không còn hiển nhiên nữa.
+[0398.2-0404.6] Ta vừa cứu được hội tụ và vừa đánh mất thứ mình cần nhất.
+[0404.6-0408.8] Đội lại thế nào? Hai bước.
+[0408.8-0416.8] Bước một, lấy đạo hàm. Đạo hàm của hàng số hiệu chỉnh bằng 0 nên chúng biến mất sạch.
+[0416.8-0416.8] sạch.
+[0416.8-0419.6] Vậy trở lại thành tổng thuần trên lưới.
+[0419.6-0423.7] Tuần hoàng chất hiển nhiên.
+[0423.7-0432.9] Nhưng phậy tuần hoàng chỉ cho ta của Z + 1 trừ của Z là một hàng số chưa chắc bằng 0.
+[0432.9-0432.9] bằng 0.
+[0432.9-0444.8] Bước hai và đây là chỗ tài tình dùng tính chẳng tính chẳng là hàm chẳng độ dấu vết thì lưới chỉ so gương lại chính nó.
+[0444.8-0459.8] Giờ đặt Z = -1/2 với trái thành của 1/2 trừ của -1/2 mà hàm chẳng thì hai giá trị ấy bằng nhau, hiệu bằng 0.
+[0459.8-0466.5] Vậy hằng số ấy bằng 0 làm lại với trừ tàu chia 2 cho hướng to lại.
+[0466.5-0475.7] Định lý 1.6 tuần hoan kết đòi lại được.
+[0475.7-0485.7] Nói thì hay, giờ bắt máy kiện từng câu một, một, trước hết phải tính được đã. Cộng thạnh trên lưới thì chậm kinh khủng, bốn vạn
+[0485.8-0498.1] số hạnng, mất gần nửa giây mà sai số vẫn còn 4%.000 nên tôi gọc theo từng hàng của lưới, mỗi hàng thu về một hàm sin bình.
+[0498.2-0508.1] Cách này chỉ mất 30 mây và sai số xuống tới 10 mũ tr-29 nhanh hơn lại chính xác hơn 25 bậc.
+[0508.1-0523.0] Tôm hoàn kép cộng 1 - c đo trên 12 điểm nẫu nhiên lớn nhất là 2,2 x 10 mũ tr-2 theo hướng tàu 3,5 x 10 mũ tr-30
+[0523.0-0534.8] thử luôn một chu kỳ tổng quát 3 - 2 tâu vẫm 10 mũ tr- 30 tính chẳng của tr-z tr- của z ra cỡ 10 mũ tr-31
+[0534.8-0538.8] mũ tr-31 coi như bằng không tuyệt đối.
+[0538.8-0544.9] Toàn vật của cực thì sao? Đây là số tôi thích nhất trong tập.
+[0545.0-0552.2] Cho một điểm bò lại gần điểm lưới, đo độ lớn của rồi khớp đường thẳng trên thang logarit.
+[0552.2-0552.2] logarit.
+[0552.2-0566.1] Hệ số gốc -2,00 không phải -1 cực bồi hai đúng như cấm bắt mô bắt mô và thẳng duy tại điện lưới ấy chính nhân
+[0566.1-0576.7] 10 mũ tr-32 bằng 0 vì khai triển của hàm chẳng không có số hạn vật -1 nó lách luật tấm một cách hoàn hảo một
+[0576.7-0589.7] vị trí duyên nghiện bồi hai và thằng dư bằng Đạo hàm phải triệt tiêu tại ba điểm 1/2 tâu chia 2 và 1+ tâu chia 2. Cả ba đều
+[0589.7-0602.7] gỡ 10 mũ trừ 30 hoặc nhỏ hơn ba nửa chu kỳ và ba giá trị của tại đó gọi là E1 E2 E3.
+[0602.7-0612.9] Với lưới vuông tích tâu bằng y máy trả về cộng 6,8752 - 6,8752 - 6,8752 và số 0.
+[0612.9-0612.9] và số 0.
+[0612.9-0620.2] Lưỡi vuông đối xính đến mức một trong ba giá trị rơi đúng vào không hai giá trị kia đối nhau.
+[0620.2-0627.7] Đổi sang lưới lục giác thì ba giá trị ấy buông ra thành một tam giác đều trong mặt phản phức.
+[0627.7-0636.5] và định lý 1.7 bình phương của phẩy bằng 4 lần tích của -1 - e2 - e3.
+[0636.5-0640.0] Máy điểm là 2 x 10 mũ tr-28.
+[0640.0-0645.8] Đúng.
+[0645.8-0651.4] Còn một điều nữa và nó là lý do quan trọng đến thế.
+[0651.4-0658.4] Ta vừa xây được một hàm elliptic. Câu hỏi tự nhiên còn bao nhiêu hàm khác?
+[0658.4-0664.6] Định lý 1.8 trả lời không còn cái nào thực sự mới trả.
+[0664.6-0671.1] Mọi hàm electric với cùng tập chu kỳ đều là hàm hữu tỷ của va phẩy.
+[0671.2-0677.9] Tố chế thì gọn đến bất ngờ. Tách hàm ra thành phần chẳng và phần lẻ.
+[0677.9-0682.0] Phần lẽ nên chia cho phẩy cũng lẽ thì thành chẳng.
+[0682.0-0690.7] Nên chỉ cần xử lý trường hợp chẳng với hàm chẳng ghép mỗi không điểm và mỗi trực bằng một thừa số của Z tr- của điểm
+[0690.7-0693.3] ấy.
+[0693.3-0693.3] ấy.
+[0693.3-0696.1] Thương của hai bình không còn cực nào.
+[0696.1-0701.9] Không thì theo định lý 1.2 nó là hàng số.
+[0701.9-0711.3] Một hàm duyên nhất và đạo hàm của nó sinh ra toàn bộ thế giới hoa văn ấy.
+[0711.3-0715.7] Nhìn lại định lý 1.7 lần cuối.
+[0715.7-0719.0] Bình phương phẩy bằng 4 lần một tích ba thừa số.
+[0719.0-0719.0] thừa số.
+[0719.0-0722.6] Đó là dạng nhân tựa.
+[0722.6-0733.4] Nên buông ra ta được một đa thức bậc ba của của bốn lập phương trừ d2 nhân trừ d3.
+[0733.4-0740.1] Hai hàng số ấy đến từ khai triển của Quang Rook và chúng chính là chuỗi Esenstin.
+[0740.2-0746.5] Nhưng đó là chương 912 tập sâu.
+[0746.5-0750.9] Tôi chỉ nhé trước một con số cho bạn tò mò.
+[0750.9-0751.0] mò.
+[0751.0-0757.9] Lưỡi vuông có dây 3 bằng 0. Lưỡi lục giác có dây 2 bằng 0.
+[0758.0-0763.8] Hai trái lưỡi đẹp nhất mỗi trái tự xóa đi một hàm số.
+[0763.8-0772.3] Và cái phương trình bậc ba ấy khi ta nhìn nó như một đường tông sẽ mở ra đường công elliptic và nhóm modula.
+[0772.3-0777.8] Bài 28 hẹn gặp lại. Đ

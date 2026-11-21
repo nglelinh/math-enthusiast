@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ku_infinity_foundations_overview",
+    "title": "Người Đánh Cắp Vô Hạn? — Cantor, Dedekind Và Lá Thư Thất Lạc 150 Năm",
+    "type": "overview",
+    "summary": "Tháng năm 2025, trong kho lưu trữ một trường đại học ở Hà Ha Lê, người ta tìm trường đại học ở Hà Ha Lê, người ta tìm lại được một lá thư tưởng đã cháy ruụi lại được một lá thư tưởng đã cháy ruụi trong thế chiến thứ hai. Một định lý bị giấu và câu hỏi ai mới thật sự là người đã đánh cấp vô hạn. Chúng dày đến mức giữa hai số bất kỳ luôn còn vô số số khác, hai số bất kỳ luôn còn vô số số khác, tưởng như đã kín mít đường thẳng, nhưng vẫn còn những khe hở.",
+    "depth": "standard",
+    "concepts": [
+      "infinity_foundations"
+    ]
+  },
+  {
+    "id": "ku_infinity_foundations_ideas",
+    "title": "Key ideas",
+    "type": "intuition",
+    "summary": "Căn hai, số pi rơi vào đúng những khe số pi rơi vào đúng những khe ấy. Cách duy nhất để so hai tập vô hạn là thử ghép cặp. Mỗi phần tử bên này bắt tay đúng một phần tử bên kia, không bắt tay đúng một phần tử bên kia, không ai lẻ bóng.",
+    "depth": "intro",
+    "concepts": [
+      "infinity_foundations"
+    ]
+  },
+  {
+    "id": "ku_infinity_foundations_status",
+    "title": "Status / open questions",
+    "type": "overview",
+    "summary": "&gt;&gt; Mùa thu năm 1873, hai nhà toán học trao đổi thư. Số đại số là mọi nghiệm của phương trình đa thức hệ số nguyên.",
+    "depth": "intro",
+    "concepts": [
+      "infinity_foundations"
+    ]
+  }
+]

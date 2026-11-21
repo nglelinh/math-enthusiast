@@ -1,0 +1,23 @@
+# Những Con Số Ẩn · Phần 1 — Hành Trình Ba Con Số π, e, δ
+
+**URL:** https://www.youtube.com/watch?v=BQktwi8bt1c  
+**Tag:** `transcendental_chaos`  
+**Duration:** 433.0 s  
+**Extracted:** 2026-08-08
+
+## Knowledge units
+
+### Những Con Số Ẩn · Phần 1 — Hành Trình Ba Con Số π, e, δ
+
+Có những con số không ai phát minh ra, chúng chỉ đơn giản là ở đó chờ được tìm chúng chỉ đơn giản là ở đó chờ được tìm thấy. Chờ ai đó đặt đúng câu hỏi để chúng lộ diện. Chu vi hình tròn luôn bị kẹp giữa hai đa Chu vi hình tròn luôn bị kẹp giữa hai đa giác đó.
+
+### Key ideas
+
+Con số đó là ti aim chưa có khái niệm Con số đó là ti aim chưa có khái niệm giới hạn nhưng ông đã làm đúng việc ấy giới hạn nhưng ông đã làm đúng việc ấy bằng tay. Lần này không từ hình học mà từ tiền Lần này không từ hình học mà từ tiền bạc. Ban đầu hệ ổn định ở một giá trị vạn tiếp đầu hệ ổn định ở một giá trị vạn tiếp nó tách làm hai rồi hai thành nó tách làm hai rồi hai thành bốn bốn thành tám ngày càng nhanh trước bốn bốn thành tám ngày càng nhanh trước khi vỡ vụng vào hỗn loạn.
+
+### Status / open questions
+
+Mỗi con số bắt đầu từ một câu hỏi tự Mỗi con số bắt đầu từ một câu hỏi tự nhiên mà ai cũng có thể đặt. Mỗi con số được nắm bắt qua một quá trình giới hạn được nắm bắt qua một quá trình giới hạn vô hạn và mỗi con số hóa ra phổ quát.
+
+## LO6
+Popular video — verify against papers/textbooks before using as theorem.

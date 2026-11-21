@@ -1,0 +1,15 @@
+[
+  {
+    "id": "ku_epicycle",
+    "title": "Fourier as rotating circles",
+    "type": "intuition",
+    "t_start": 0,
+    "t_end": 103,
+    "summary": "Sounds are sums of sinusoids; sinusoids ↔ rotating circles (epicycles). Tip of chained rotors draws closed curves (lotus, heart). Slogan: shapes and sounds are superpositions of waves.",
+    "concepts": [
+      "fourier_series",
+      "epicycle"
+    ],
+    "depth": "intro"
+  }
+]
