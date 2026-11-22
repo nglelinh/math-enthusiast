@@ -136,10 +136,12 @@ Consequently the number of odd-degree vertices is always even. Seeing four odd d
 
 ## 6. Sufficiency, briefly (so the criterion feels complete)
 
+<div class="textbook-theorem" markdown="1">
 **Theorem (classical, idea).** Let $$G$$ be a connected multigraph (more precisely: the edges lie in a single nontrivial connected component). Then:
 
 - $$G$$ has an Eulerian circuit if and only if every vertex has even degree;  
 - $$G$$ has an Eulerian path if and only if exactly zero or two vertices have odd degree (zero for the circuit case).
+</div>
 
 **Sufficiency idea.** Start at an odd vertex if one exists, otherwise anywhere; walk unused edges without repetition until stuck; one can show you are at the appropriate endpoint; if unused edges remain, they form a subgraph with even degrees, and one splices in a circuit (Hierholzer). The details are standard in any first graph theory chapter; the seminar takeaway is that the degree conditions are the true heart.
 

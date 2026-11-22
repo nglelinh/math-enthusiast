@@ -90,11 +90,13 @@ Nếu sau khi sàng, số trung bình các số "gần nguyên tố" trong một
 
 Maynard tối ưu hóa trọng số trên **nhiều dạng tuyến tính cùng lúc**, với một cấu trúc nhiều chiều gắn với các thành phần của chòm. So với GPY cổ điển, khung này cho phép phát hiện các cấu hình với giả thiết phân bố yếu hơn trong một số trường hợp, dễ điều chỉnh theo từng bài toán, và mở đường cho các kết quả mạnh hơn về việc có nhiều số nguyên tố trong một khoảng ngắn.
 
+<div class="textbook-theorem" markdown="1">
 **Định lý (tóm tắt; Zhang–Maynard và cộng đồng).** Tồn tại một hằng số tuyệt đối $$C$$ (hiện nay có thể lấy khá nhỏ nhờ tối ưu bằng số) sao cho
 
 $$
 \liminf_{n\to\infty}(p_{n+1}-p_n)\le C.
 $$
+</div>
 
 ### 3.3. Ghi nhận công lao đúng
 

@@ -111,18 +111,22 @@ Trực giác: lấy quả cầu 4 chiều, gắn thêm một "nắp" đặc dọ
 
 ### 4.2. Bổ đề nhúng (kết quả quen thuộc trong ngành; kiểu Kirby–Melvin)
 
+<div class="textbook-lemma" markdown="1">
 **Bổ đề (dạng dùng cho thảo luận).**  
 Nút $$K$$ slice trơn **khi và chỉ khi** $$X(K)$$ nhúng trơn được vào $$S^4$$.
+</div>
 
 *Ý của một chiều.* Nếu $$K$$ là biên của một đĩa trơn trong quả cầu 4 chiều, ta dán quả cầu còn lại với một lân cận của đĩa để dựng một bản sao nhúng của vết trong $$S^4$$. Chiều ngược lại lấy lại đĩa trơn từ phép nhúng vết, bằng cách "tháo" lõi của 2-handle sau khi bỏ điểm đỉnh nón (cần cẩn thận về mặt PL; trơn ở ngoài một điểm).
 
 ### 4.3. Cùng vết ⇒ cùng tính slice
 
+<div class="textbook-theorem" markdown="1">
 **Hệ quả.** Nếu $$X(K)\cong X(K')$$ như các đa tạp 4 chiều trơn (vi phôi với nhau) thì
 
 $$
 K \text{ smoothly slice} \quad\Longleftrightarrow\quad K' \text{ smoothly slice}.
 $$
+</div>
 
 **Điểm tinh tế quan trọng (trong bài báo).** Nút $$K'$$ như vậy **không cần** *concordant* với $$K$$. Hai nút có cùng vết chỉ chung nhau **tính slice**, không nhất thiết chung lớp concordance. Nhưng thế là đủ để chứng minh một nút không slice.
 
@@ -161,7 +165,9 @@ Cùng với **Allison Miller**, Piccirillo đã chỉ ra rằng hai nút cùng v
 - Với mọi nút, đồng điều Lee trên $$\mathbb{Q}$$ có chiều bằng hai, tập trung ở bậc đồng điều $$0$$.  
 - **Rasmussen** rút ra một số nguyên $$s(K)$$ từ bậc lượng tử của các phần tử sinh đó.
 
+<div class="textbook-theorem" markdown="1">
 **Định lý (Rasmussen).** Nếu $$K$$ slice trơn thì $$s(K)=0$$.
+</div>
 
 (Tổng quát hơn, bất biến này cho cận dưới của giống slice trơn; ở đây ta chỉ cần nó bằng không khi nút slice.)
 

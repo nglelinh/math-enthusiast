@@ -306,8 +306,10 @@ Then $$\mathcal{H}^s(A)\ge \mu(A)/C>0$$, and therefore $$\dim_H(A)\ge s$$.
 | 3 | Proved (**Wang–Zahl**, 2025) |
 | $$\ge 4$$ | Open (partial lower bounds) |
 
+<div class="textbook-theorem" markdown="1">
 **Theorem (Wang–Zahl, 2025).** Every Kakeya set in $$\mathbb{R}^3$$ has Hausdorff and Minkowski dimension 3.  
 Source: [arXiv:2502.17655](https://arxiv.org/abs/2502.17655) (*Volume estimates for unions of convex sets…*).
+</div>
 
 ![Wang–Zahl 2025 statement]({{ site.baseurl }}/img/chapter_img/kakeya_wang_zahl_2025_pmt.jpg)
 

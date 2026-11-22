@@ -125,10 +125,12 @@ Số đỉnh bậc lẻ luôn là số chẵn. Bốn đỉnh bậc lẻ không m
 
 ## 6. Điều kiện đủ, nói ngắn gọn
 
+<div class="textbook-theorem" markdown="1">
 **Định lý (cổ điển, ở mức ý tưởng).** Cho $$G$$ là một đa đồ thị liên thông. Khi đó:
 
 - có chu trình Euler khi và chỉ khi mọi đỉnh có bậc chẵn;
 - có đường Euler khi và chỉ khi có đúng không hoặc hai đỉnh bậc lẻ.
+</div>
 
 **Ý tưởng cho điều kiện đủ.** Bắt đầu từ một đỉnh bậc lẻ nếu có, đi theo các cạnh chưa dùng cho đến khi không đi tiếp được; chứng minh rằng ta dừng đúng ở chỗ cần dừng; nếu còn cạnh chưa đi, ghép thêm các chu trình vào (thuật toán Hierholzer). Điều cần nhớ: điều kiện về bậc mới là cốt lõi.
 

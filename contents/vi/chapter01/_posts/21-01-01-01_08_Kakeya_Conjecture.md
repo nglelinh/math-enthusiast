@@ -285,8 +285,10 @@ Phác thảo: $$\mathcal{H}^{\delta_k}_s(A)\le N_k\delta_k^s$$; nếu $$s$$ lớ
 | 3 | Đã chứng minh (**Wang–Zahl**, 2025) |
 | $$\ge 4$$ | Còn mở (đã có một số chặn dưới) |
 
+<div class="textbook-theorem" markdown="1">
 **Định lý (Wang–Zahl, 2025).** Mọi tập Kakeya trong $$\mathbb{R}^3$$ đều có chiều Hausdorff và chiều Minkowski bằng 3.  
 Nguồn: [arXiv:2502.17655](https://arxiv.org/abs/2502.17655) (*Volume estimates for unions of convex sets…*).
+</div>
 
 Các tác giả **không** khẳng định thể tích dương. Độ đo bằng không vẫn tương thích với số chiều bằng 3; đó là ý chính mà cả bài muốn truyền đạt.
 

@@ -90,7 +90,9 @@ $$
 \textsc{Halt} = \{ \langle M, x \rangle \mid M \text{ is a TM that eventually halts on input } x \}.
 $$
 
+<div class="textbook-theorem" markdown="1">
 **Theorem (Turing).** $$\textsc{Halt}$$ is undecidable: no Turing machine $$H$$ correctly determines, for every pair $$\langle M,x\rangle$$, whether $$M$$ halts on $$x$$.
+</div>
 
 **Idea of the proof (diagonal).** Suppose toward contradiction that a decider $$H$$ exists. Build a machine $$D$$ that on input $$\langle M \rangle$$ runs $$H$$ on $$\langle M, \langle M \rangle \rangle$$ and then does the opposite of $$M$$’s predicted behavior: if $$H$$ says $$M$$ halts on its own description, $$D$$ loops forever; if $$H$$ says $$M$$ does not halt, $$D$$ halts. Now run $$D$$ on $$\langle D \rangle$$. Self-reference produces contradiction either way.
 

@@ -143,8 +143,10 @@ Viazovska constructed an explicit radial Fourier eigenfunction (in a suitable se
 
 The proof is analytic and exact—not a numerical optimization that almost matches. That is why the result is a theorem of *Annals* depth rather than a high-precision conjecture check.
 
+<div class="textbook-theorem" markdown="1">
 **Theorem (Viazovska, 2016/2017).**  
 The $$E_8$$ lattice packing achieves the maximal density among all sphere packings in $$\mathbb{R}^8$$.
+</div>
 
 ---
 

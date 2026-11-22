@@ -47,11 +47,13 @@ Tập tất cả các đặc trưng, với phép nhân từng điểm, tạo th�
 
 ## 2. Đối ngẫu Pontryagin (phát biểu định lý)
 
+<div class="textbook-theorem" markdown="1">
 **Định lý (ý chính).** Với $$G$$ là nhóm abel compact địa phương, ánh xạ lấy giá trị tự nhiên
 
 $$
 G\to \widehat{\widehat G},\qquad g\mapsto\bigl(\chi\mapsto \chi(g)\bigr)
 $$
+</div>
 
 là một **đẳng cấu nhóm tô pô**. Lấy đối ngẫu hai lần thì trở về nhóm ban đầu.
 

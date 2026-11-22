@@ -40,7 +40,9 @@ Các tập vô hạn đếm được quen thuộc gồm $$\mathbb{N}$$, $$\mathb
 
 ## 2. Định lý
 
+<div class="textbook-theorem" markdown="1">
 **Định lý (Cantor).** $$\mathbb{R}$$ không đếm được. Nói cách khác, không có toàn ánh $$\mathbb{N}\to\mathbb{R}$$.
+</div>
 
 Chỉ cần chứng minh khoảng $$(0,1)$$ không đếm được. Thật vậy, vì $$(0,1)\subset\mathbb{R}$$ nên nếu $$\mathbb{R}$$ đếm được thì $$(0,1)$$ cũng đếm được.
 

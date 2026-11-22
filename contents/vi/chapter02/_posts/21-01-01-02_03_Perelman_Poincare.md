@@ -188,10 +188,14 @@ Các bài này ngắn so với độ sâu của lập luận. Cộng đồng to�
 
 ## 7. Đã chứng minh được gì: phát biểu cẩn thận
 
+<div class="textbook-theorem" markdown="1">
 **Định lý (Perelman, 2002–2003; các bản chi tiết do những người khác viết).**  
 Giả thuyết hình học hóa của Thurston là đúng: mọi đa tạp 3 chiều đóng, định hướng được đều phân tách một cách tự nhiên thành các mảnh hình học thuộc tám kiểu mô hình.
+</div>
 
+<div class="textbook-theorem" markdown="1">
 **Hệ quả.** Giả thuyết Poincaré là đúng: mọi đa tạp 3 chiều đóng, đơn liên đều đồng phôi với $$S^3$$.
+</div>
 
 ### Lưu ý cho chính xác
 

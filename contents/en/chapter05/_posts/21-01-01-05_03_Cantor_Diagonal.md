@@ -52,7 +52,9 @@ Countability is not about whether a human can finish counting; it is about the *
 
 ## 2. The theorem
 
+<div class="textbook-theorem" markdown="1">
 **Theorem (Cantor).** The set $$\mathbb{R}$$ of real numbers is uncountable. Equivalently, there is no surjection $$\mathbb{N}\to\mathbb{R}$$, and no sequence of reals includes every real.
+</div>
 
 It is enough to prove that the open unit interval $$(0,1)$$ is uncountable: if $$(0,1)$$ admits no complete listing, then neither does $$\mathbb{R}$$, which contains $$(0,1)$$ as a subset. (If a larger set were countable, every subset would be at most countable.)
 

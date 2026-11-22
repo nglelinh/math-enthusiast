@@ -71,7 +71,9 @@ Coloring regions so that adjacent regions differ is then exactly **vertex colori
 
 *Figure. Dual graph: vertices = regions; edges = shared borders.*
 
+<div class="textbook-theorem" markdown="1">
 **Theorem (4CT, graph form).** Every finite planar graph $$G$$ satisfies $$\chi(G)\le 4$$.
+</div>
 
 This dual viewpoint is not cosmetic. It lets one import Euler’s formula and degree-counting arguments. For a connected simple plane graph with $$v$$ vertices, $$e$$ edges, and $$f$$ faces,
 

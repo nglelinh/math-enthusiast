@@ -143,8 +143,10 @@ Viazovska xây dựng một hàm Fourier đặc biệt bằng **dạng modular**
 
 Đây là một chứng minh giải tích chính xác, không phải tối ưu bằng số cho "gần khớp" rồi làm tròn.
 
+<div class="textbook-theorem" markdown="1">
 **Định lý (Viazovska, 2016/2017).**  
 Cách xếp theo lưới $$E_8$$ đạt mật độ lớn nhất trong **mọi** cách xếp cầu trong $$\mathbb{R}^8$$.
+</div>
 
 Điểm đẹp: dạng modular, vốn là công cụ của số học và lý thuyết hàm tự đẳng cấu, trở thành **công cụ tối ưu trong hình học rời rạc**. Giải tích Fourier cùng tính modular loại trừ mọi đối thủ.
 

@@ -100,7 +100,9 @@ Câu hỏi về tính bị chặn: *Các đa tạp Fano chiều $$n$$ có tạo 
 1. **Sự tồn tại của flip và MMP** trong những trường hợp lớn, cùng với nhóm BCHM (Birkar–Cascini–Hacon–McKernan), về tính hữu hạn sinh và MMP cho đa tạp kiểu tổng quát.
 2. **Tính bị chặn của đa tạp Fano** (các định lý lớn của Birkar): khi cố định số chiều, các đa tạp Fano (với điều kiện kỳ dị thích hợp và các chuẩn hóa kỹ thuật) tạo thành một họ bị chặn.
 
+<div class="textbook-theorem" markdown="1">
 **Định lý (sơ lược, Birkar).** Họ các đa tạp Fano chiều $$n$$ (với điều kiện kỳ dị và các giả thiết chuẩn trong tài liệu) là **bị chặn**: chúng không "tản mát vô hạn" theo nghĩa moduli thô.
+</div>
 
 Hệ quả về mặt tư duy: phân loại ở chiều cao không còn là một danh sách lộn xộn. Sau khi MMP đưa về đa tạp Fano hoặc mô hình tối thiểu, **phía Fano** được kiểm soát toàn cục. Đó là lý do giải Fields nhấn mạnh tính bị chặn: đây không chỉ là một bổ đề kỹ thuật, mà là một **định lý cấu trúc**, làm thay đổi cách ta nghĩ về câu hỏi "có bao nhiêu đa tạp Fano".
 

@@ -178,12 +178,14 @@ Trong không gian ba chiều, các ống có thể cắt chéo nhau, gần song 
 
 ## 6. Wang và Zahl thực sự chứng minh điều gì?
 
+<div class="textbook-theorem" markdown="1">
 **Định lý (Wang–Zahl, 2025).**  
 Mọi tập Kakeya $$K\subset\mathbb{R}^3$$ thỏa
 
 $$
 \dim_H(K) = \dim_M(K) = 3.
 $$
+</div>
 
 Nguồn chính: *Volume estimates for unions of convex sets, and the Kakeya set conjecture in three dimensions* ([arXiv:2502.17655](https://arxiv.org/abs/2502.17655); 127 trang). Phần tóm tắt nêu rõ kết quả kỹ thuật: với một họ ống $$\delta$$ trong $$\mathbb{R}^3$$ mà không có quá nhiều ống nằm trong cùng một tập lồi $$V$$, hợp của chúng có **thể tích gần lớn nhất có thể**. Kết luận số chiều bằng 3 cho tập Kakeya được suy ra từ ước lượng này.
 

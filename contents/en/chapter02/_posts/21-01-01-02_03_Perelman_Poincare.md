@@ -194,10 +194,14 @@ This **verification culture**—independent write-ups checking a deep preprint�
 
 ## 7. What was proved, carefully stated
 
+<div class="textbook-theorem" markdown="1">
 **Theorem (Perelman, 2002–2003; detailed accounts by others).**  
 Thurston’s geometrization conjecture holds: every closed orientable 3-manifold admits a natural decomposition into geometric pieces of the eight model types.
+</div>
 
+<div class="textbook-theorem" markdown="1">
 **Corollary.** Poincaré’s conjecture holds: every closed simply connected 3-manifold is homeomorphic to $$S^3$$.
+</div>
 
 ### Accuracy notes
 

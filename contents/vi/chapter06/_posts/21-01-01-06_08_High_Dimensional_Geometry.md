@@ -40,7 +40,9 @@ $$
 
 đại lượng này đạt cực đại rồi giảm nhanh hơn hàm mũ theo $$n$$. Điều đó gợi ý rằng ở nhiều chiều, "quả cầu đơn vị" là một vật rất "mỏng". Nói theo hình học: với $$r<1$$ gần 1, lớp vỏ $$B_2^n\setminus r B_2^n$$ chứa gần như toàn bộ thể tích khi $$n$$ lớn. Tương tự, hầu hết thể tích nằm trong một dải hẹp quanh "xích đạo" vuông góc với bất kỳ hướng cố định nào.
 
+<div class="textbook-theorem" markdown="1">
 **Hệ quả.** Phương pháp Monte Carlo, tính tích phân, khái niệm "tập điển hình" đều phải tính đến điều này: **điểm điển hình nằm gần mặt**, không nằm gần gốc. Chuẩn của một vectơ Gauss chuẩn tập trung quanh $$\sqrt{n}$$.
+</div>
 
 ---
 

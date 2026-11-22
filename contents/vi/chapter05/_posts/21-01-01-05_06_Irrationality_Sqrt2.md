@@ -40,7 +40,9 @@ Toán học Hy Lạp không dùng khái niệm số thực như ngày nay; phát
 
 ## 2. Định lý và cách đặt vấn đề
 
+<div class="textbook-theorem" markdown="1">
 **Định lý.** $$\sqrt{2}$$ là số vô tỷ: không tồn tại các số nguyên $$p,q$$ với $$q\neq 0$$ sao cho $$\sqrt{2}=p/q$$.
+</div>
 
 Một cách tương đương: phương trình
 

@@ -40,7 +40,9 @@ Greek mathematics did not use modern real-number language; the discovery was oft
 
 ## 2. Theorem and setup
 
+<div class="textbook-theorem" markdown="1">
 **Theorem.** $$\sqrt{2}$$ is irrational: there are no integers $$p,q$$ with $$q\neq 0$$ such that $$\sqrt{2}=p/q$$.
+</div>
 
 Equivalently: the equation
 

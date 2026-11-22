@@ -65,7 +65,9 @@ Hệ quả triết học–toán: lớp hàm tính được **không** phụ thu
 
 **Bài toán dừng (halting problem).** Cho mô tả máy $$\langle M\rangle$$ và input $$x$$, hỏi: $$M$$ có dừng trên $$x$$ không?
 
+<div class="textbook-theorem" markdown="1">
 **Định lý (Turing).** Không tồn tại máy Turing $$H$$ quyết định đúng bài toán dừng cho mọi cặp $$(\langle M\rangle, x)$$.
+</div>
 
 **Ý tưởng chứng minh (đường chéo).** Giả sử, phản chứng, có $$H$$ sao cho $$H(\langle M\rangle, x)=1$$ nếu $$M(x)$$ dừng, và $$=0$$ nếu không. Xây máy $$D$$ hành xử như sau trên input $$\langle M\rangle$$: chạy $$H(\langle M\rangle, \langle M\rangle)$$; nếu $$H$$ báo “dừng,” thì $$D$$ **lặp vô hạn**; nếu $$H$$ báo “không dừng,” thì $$D$$ **dừng**. Xét $$D$$ trên input $$\langle D\rangle$$:
 

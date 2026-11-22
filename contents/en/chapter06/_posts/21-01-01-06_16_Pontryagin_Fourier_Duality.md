@@ -47,11 +47,13 @@ The set of all characters forms a group $$\widehat G$$ under pointwise multiplic
 
 ## 2. Pontryagin duality (theorem slogan)
 
+<div class="textbook-theorem" markdown="1">
 **Theorem (Pontryagin duality, slogan).** For a locally compact abelian group $$G$$, the natural evaluation map
 
 $$
 G\to \widehat{\widehat G},\qquad g\mapsto\bigl(\chi\mapsto \chi(g)\bigr)
 $$
+</div>
 
 is a **topological group isomorphism**. So dualizing twice returns the original group.
 

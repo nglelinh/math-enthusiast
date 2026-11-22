@@ -176,12 +176,14 @@ In three dimensions, tubes can intersect transversely, be nearly parallel, conce
 
 ## 6. What Wang and Zahl proved
 
+<div class="textbook-theorem" markdown="1">
 **Theorem (Wang–Zahl, 2025).**  
 Every Kakeya set $$K\subset\mathbb{R}^3$$ satisfies
 
 $$
 \dim_H(K) = \dim_M(K) = 3.
 $$
+</div>
 
 Primary source: *Volume estimates for unions of convex sets, and the Kakeya set conjecture in three dimensions* ([arXiv:2502.17655](https://arxiv.org/abs/2502.17655); 127 pages). The abstract states the technical engine clearly: for families of $$\delta$$-tubes in $$\mathbb{R}^3$$ such that not too many tubes lie in a common convex set $$V$$, the union has **almost maximal volume**; dimension 3 for Kakeya sets follows as a consequence.
 

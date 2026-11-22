@@ -111,18 +111,22 @@ Intuition: take a 4-ball, sew a solid “cap” along the knot with framing zero
 
 ### 4.2. Embedding lemma (folklore; Kirby–Melvin style)
 
+<div class="textbook-lemma" markdown="1">
 **Lemma (seminar form).**  
 A knot $$K$$ is smoothly slice **if and only if** $$X(K)$$ smoothly embeds in $$S^4$$.
+</div>
 
 *Idea of one direction.* If $$K$$ bounds a smooth disk in a 4-ball, glue the complementary ball to a neighborhood of that disk to build an embedded copy of the trace in $$S^4$$. The converse recovers a smooth disk from an embedding of the trace by “unwinding” the 2-handle core after removing a cone point (piecewise-linear care, smooth away from one point).
 
 ### 4.3. Shared traces share sliceness
 
+<div class="textbook-theorem" markdown="1">
 **Corollary.** If $$X(K)\cong X(K')$$ as smooth 4-manifolds (diffeomorphic), then
 
 $$
 K \text{ is smoothly slice} \quad\Longleftrightarrow\quad K' \text{ is smoothly slice}.
 $$
+</div>
 
 **Important subtlety (from the paper).** Such $$K'$$ need **not** be *concordant* to $$K$$. Trace twins share **sliceness**, not the full concordance class. That is enough for a non-sliceness proof.
 
@@ -161,7 +165,9 @@ With **Allison Miller**, Piccirillo had shown that trace twins need **not** look
 - For any knot, Lee homology is two-dimensional over $$\mathbb{Q}$$, supported in homological grading $$0$$.  
 - **Rasmussen** extracts an integer $$s(K)$$ from the quantum gradings of those generators.
 
+<div class="textbook-theorem" markdown="1">
 **Theorem (Rasmussen).** If $$K$$ is smoothly slice, then $$s(K)=0$$.
+</div>
 
 (The invariant also bounds smooth slice genus more generally; we only need the slice vanishing.)
 
