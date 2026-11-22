@@ -135,6 +135,16 @@ Về các mô hình ngôn ngữ lớn, ông cố ý không lãng mạn hóa. Ch�
 
 Cũng trong buổi nói chuyện đó, ông cho rằng một chứng minh có vòng đời: được sinh ra, được kiểm tra, được viết lại để người đọc thấy chỗ khó nằm ở đâu, được công nhận là thú vị, rồi được đưa vào giáo trình. Điều ông lo là khâu sinh ra và khâu kiểm tra đang tăng tốc, còn khâu tiêu hóa thì không. Cộng đồng sẽ phải đối mặt với **tình trạng không tiêu hóa nổi chứng minh**: có quá nhiều lời giải trông đúng đến mức không phân loại xuể, và có nguy cơ tối ưu nhầm bảng điểm của khoa học. Ông vẫn bênh vực nghiên cứu xuất phát từ sự tò mò, và bênh vực việc truyền thông phải cho thấy *quá trình*, không chỉ tiện ích. Không điều nào ở đây là lời quảng bá sản phẩm cho khóa học; chúng chỉ là một khung để đọc cho tỉnh táo. Trang tổng hợp: [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/).
 
+### Mode khoa học, trực thăng, và khó tiêu chứng minh (theo Tao)
+
+Terence Tao, trong [cuộc trò chuyện Big Think](https://www.youtube.com/watch?v=OOMx2BHHWtE) cho *Six Math Essentials* sắp ra, phác khoa học như chuỗi mode: lý thuyết và thí nghiệm trước, rồi mô phỏng, rồi dữ liệu lớn, và nay hỗ trợ tự động. Mỗi mode có thể chạy nhanh hơn. Điều đó không tự động là khoa học *tiến* theo nghĩa nhà nghiên cứu người vẫn hiểu, dạy, và muốn kết quả.
+
+Ẩn dụ đi bộ của ông là sư phạm, không phải lệnh cấm công cụ. Bạn nghe có thác, lạc một chút, thấy thác khác ở xa mà người đi sau có thể tới. Trực thăng có thể thả bạn đúng thác ban đầu rồi bay về. Bạn có tấm ảnh và không có bản đồ. Hiệu năng tới một mục tiêu đã nêu có thể bỏ qua các hẻm bên—những nối bất ngờ thành lý thuyết kế.
+
+Về mô hình ngôn ngữ lớn ông cố ý ít lãng mạn: chúng là động cơ từ kế được huấn luyện ở quy mô khổng lồ, bổ sung cho **độ sâu** người vì chúng có **độ rộng**. Chỉ chúng vào một nghìn bài khó dễ lẫn và chúng có thể giải một phần mà không chuyên gia đơn nào kịp khớp với một bài báo 1970 khuất. Chỉ chúng vào bài không phương pháp chuẩn nào chạy và, trong bức tranh của ông, chúng vẫn đang đoán. Nhiệm vụ nghề là khớp độ rộng ấy với những bài sâu, chậm mà người vẫn chủ động chọn.
+
+Chứng minh, trong cùng buổi nói, có vòng đời: sinh, kiểm, viết sao người thấy chỗ khó nằm đâu, được nhận là thú vị, tiêu hóa vào giáo trình. Lo của Tao là sinh và kiểm đang tăng tốc trong khi tiêu hóa thì không. Cộng đồng rồi đối mặt **khó tiêu chứng minh**—quá nhiều lời giải trông đúng để phân loại, và rủi ro tối ưu sai bảng điểm khoa học. Ông vẫn biện hộ cho nghiên cứu do tò mò dẫn và cho truyền thông cho thấy *quy trình*, không chỉ tiện ích. Không điều nào ở đây là lời chứng thực sản phẩm của khóa học; đó là khung biết đọc. Hub: [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/).
+
 ---
 
 ## 7. Thổi phồng và cách nói chính xác
@@ -275,6 +285,9 @@ Chú thích tự động của video được tải về chỉ để điều hư
 
 ### Khóa học
 
+- Gói: `research/video-research/mathematics-of-ai/` (đặc biệt `references.md`, `learning_path.md`).
+- Terence Tao — Big Think OOMx2BHHWtE (mode khoa học, trực thăng/đi bộ, khó tiêu chứng minh): https://www.youtube.com/watch?v=OOMx2BHHWtE
+- Hub khóa học: [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/).
 - Terence Tao — Big Think OOMx2BHHWtE (các mode khoa học, trực thăng và đi bộ, tiêu hóa chứng minh): https://www.youtube.com/watch?v=OOMx2BHHWtE
 
 ## Hướng đi tiếp

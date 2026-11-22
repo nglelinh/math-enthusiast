@@ -76,6 +76,14 @@ Khi điện thoại gửi tín hiệu số, mỗi thông điệp là một chu�
 
 Hai điều cần lưu ý khi đọc. Thứ nhất, công trình được giải Fields của Viazovska là về xếp cầu trong không gian Euclid **liên tục** 8 và 24 chiều, không phải định lý nói rằng bà thiết kế mạng 5G. Thứ hai, những chi tiết lịch sử được kể gọn trong một buổi nói chuyện phổ thông (năm tháng, "thủy thủ người Anh", con số hiệu suất chính xác) nên được đối chiếu với tài liệu chuyên ngành khi cần trích dẫn. Trang chính của khóa học: [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/); bài thực hành: [Khám phá xếp cầu]({{ site.baseurl }}/contents/vi/chapter07/07_03_Explore_Sphere_Packing/).
 
+### Từ đạn đại bác tới chuỗi bit (theo Tao)
+
+Terence Tao, trong [cuộc trò chuyện Big Think](https://www.youtube.com/watch?v=OOMx2BHHWtE) cho *Six Math Essentials* sắp ra, kể lại xếp cầu như đường ống tò mò-đến-công nghệ. Một thủy thủ muốn nhiều đạn đại bác nhất trong hầm tàu; khoảng trống quanh quả cầu là cái giá. Kepler đề xuất xếp lục giác kiểu người bán cam—khoảng 74% ở ba chiều—và không chứng minh được đó là tốt nhất. **Giả thuyết Kepler** ấy thành bài hình học dài thế kỷ. Mặt phẳng (đĩa) xong khoảng 1900; ba chiều chờ chứng minh có máy tính hỗ trợ của Hales (công bố 1998) và, sau đó, kiểm chứng hình thức gỡ nghi ngờ trọng tài mà Tao nhớ. Nhà toán học rồi hỏi những câu “vô dụng”: bốn chiều? một không gian *rời rạc* các chuỗi bit?
+
+Khi điện thoại gửi tín hiệu số, mỗi thông điệp là một chuỗi bit. Bạn muốn các tín hiệu khác nhau nằm xa nhau trong khối lập phương cao chiều ấy để nhiễu không nhầm cái này với cái kia. Khẩu hiệu của Tao là đây vẫn là xếp cầu—cao chiều và rời rạc—và toán xếp cung cấp cả xây dựng lẫn **giới hạn lý thuyết** về số bit mỗi giây qua một lát phổ (nên, ở lớp kinh tế, người ta có thể định giá lát phổ ấy thế nào). Ngành viễn thông vô tuyến, trong lời kể ấy, đang xếp cam ở chiều rất cao.
+
+Hai hàng rào biết đọc. Thứ nhất, công trình Fields của Viazovska là xếp Euclid **liên tục** ở chiều 8 và 24, không phải định lý rằng bà thiết kế 5G. Thứ hai, sự nén sử trong buổi nói chuyện phổ thông (năm tháng, “thủy thủ Anh,” hiệu suất đúng) nên đối chiếu tài liệu xếp chuyên khi bạn cần trích dẫn. Hub khóa học: [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/); studio: [Khám phá xếp cầu]({{ site.baseurl }}/contents/vi/chapter07/07_03_Explore_Sphere_Packing/).
+
 ---
 
 ### Video ngắn: Xếp đĩa tròn trong mặt phẳng

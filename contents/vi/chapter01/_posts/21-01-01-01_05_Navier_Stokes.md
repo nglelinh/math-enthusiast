@@ -162,6 +162,8 @@ Cả hai đều quan tâm đến sự truyền năng lượng qua nhiều thang 
 
 Trong [cuộc trò chuyện với Big Think](https://www.youtube.com/watch?v=OOMx2BHHWtE) về cuốn *Six Math Essentials*, Terence Tao đưa ra một ví dụ động lực học nhẹ nhàng hơn: bài toán **hai vật** của Newton giải được chính xác; bài toán **ba vật** đã gây đau đầu, vì quy tắc thì đơn giản nhưng dáng điệu dài hạn lại khó lường, và dự báo trung thực về lâu dài phải chuyển sang xác suất. Navier–Stokes không phải là "bài toán ba vật cho nước". Đó là một chỗ khác mà cả động lực học lẫn giải tích vẫn còn thiếu một định lý chính quy toàn cục. Bài tổng hợp: [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/). Xem thêm [Hỗn độn]({{ site.baseurl }}/contents/vi/chapter04/04_05_Chaos/).
 
+Cùng Tao ấy, trong [cuộc trò chuyện Big Think](https://www.youtube.com/watch?v=OOMx2BHHWtE) cho *Six Math Essentials*, cho một người hàng xóm động lực nhẹ hơn: bài **hai vật** của Newton giải được đúng; bài **ba vật** đã là nhức đầu của quy tắc đơn và bất ngờ dài hạn, sau đó dự báo trung thực nhoè sang xác suất. Navier–Stokes không phải “bài ba vật cho nước.” Đó là chỗ khác mà trụ động lực và trụ giải tích vẫn còn nợ một định lý chính quy toàn cục. Hub: [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/). [Hỗn độn]({{ site.baseurl }}/contents/vi/chapter04/04_05_Chaos/).
+
 ---
 
 ## Hiểu lầm thường gặp
