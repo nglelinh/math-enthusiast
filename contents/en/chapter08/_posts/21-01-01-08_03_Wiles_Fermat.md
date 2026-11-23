@@ -77,6 +77,20 @@ Later, **Breuil–Conrad–Diamond–Taylor** completed modularity for **all** e
 
 ---
 
+### Short video: Andrew Wiles & Fermat’s Last Theorem: From equations to modularity
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/wiles-fermat_en.mp4"></video>
+</div>
+
+1-minute silent overview: Pythagoras n = 2 vs. near-miss n = 12 parity check, the Frey elliptic curve, Ribet’s level-lowering to N = 2, and Wiles’s modularity contradiction.
+
+
+<div class="interactive-demo" markdown="1">
+<div data-demo="fermat-explainer" data-preset="frey" data-lang="en"></div>
+</div>
+<script src="{{ '/public/js/explainers/fermat-explainer.js' | relative_url }}"></script>
+
 ## 4. Logical skeleton (idea of proof)
 
 1. Assume $$a^n + b^n = c^n$$ with $$n\ge 3$$ and $$abc\neq 0$$.  

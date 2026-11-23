@@ -1,66 +1,90 @@
-"""Helper tạo voiceover tiếng Việt qua Gemini TTS (đọc GEMINI_API_KEY từ biến môi trường)."""
+"""Reusable Gemini TTS voiceover synthesis and FFmpeg timeline muxing helper."""
 import base64
-import time
-import urllib.error
 import json
 import os
 import ssl
 import subprocess
+import time
+import urllib.error
 import urllib.request
 import wave
 
+DEFAULT_MODELS = (
+    "gemini-2.5-flash-preview-tts",
+    "gemini-3.1-flash-tts-preview",
+    "gemini-3.8-flash-tts",
+    "gemini-3.8-flash-lite-tts",
+)
 
-def synth_segment(text, out_wav, voice="Orus", model="gemini-2.5-flash-preview-tts"):
+
+def probe_duration(path):
+    out = subprocess.check_output(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path],
+        text=True,
+    ).strip()
+    return float(out)
+
+
+def synth_segment(
+    text,
+    out_wav,
+    voice="Algenib",
+    models=DEFAULT_MODELS,
+    style_prompt=(
+        "Đọc bằng giọng nam tiếng Việt phổ thông miền Bắc, tự nhiên, rõ ràng, "
+        "truyền cảm và gần gũi như một người thầy đang giảng bài. "
+        "Chỉ đọc nguyên văn phần sau dấu hai chấm: "
+    ),
+):
     if os.path.exists(out_wav) and os.path.getsize(out_wav) > 1000:
         return probe_duration(out_wav)
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
         raise RuntimeError("Missing GEMINI_API_KEY in environment")
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
-    prompt = (
-        "Đọc bằng giọng nam tiếng Việt phổ thông miền Bắc, sôi nổi, giàu cảm xúc, nhiệt huyết, "
-        "nhấn nhá tự nhiên và cuốn hút như một người thầy truyền cảm hứng. Chỉ đọc nguyên văn phần sau dấu hai chấm: "
-        + text
-    )
+
+    cafile = "/etc/ssl/certs/ca-certificates.crt"
+    ctx = ssl.create_default_context(cafile=cafile) if os.path.exists(cafile) else ssl.create_default_context()
     payload = {
-        "contents": [{"parts": [{"text": prompt}]}],
+        "contents": [{"parts": [{"text": style_prompt + text}]}],
         "generationConfig": {
             "responseModalities": ["AUDIO"],
-            "speechConfig": {
-                "voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voice}}
-            },
+            "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voice}}},
         },
     }
-    req = urllib.request.Request(
-        url,
-        data=json.dumps(payload).encode("utf-8"),
-        headers={
-            "Content-Type": "application/json",
-            "User-Agent": "Mozilla/5.0 (compatible; Google-Agent; +https://developers.google.com/crawling/docs/crawlers-fetchers/google-agent)",
-        },
-        method="POST",
-    )
-    ctx = ssl.create_default_context(cafile="/etc/ssl/certs/ca-certificates.crt")
-    for attempt in range(6):
+    data = json.dumps(payload).encode("utf-8")
+
+    res = None
+    for model in models:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
+        req = urllib.request.Request(
+            url,
+            data=data,
+            headers={
+                "Content-Type": "application/json",
+                "User-Agent": "Mozilla/5.0 (compatible; Google-Agent; +https://developers.google.com/crawling/docs/crawlers-fetchers/google-agent)",
+            },
+            method="POST",
+        )
         try:
             with urllib.request.urlopen(req, context=ctx, timeout=90) as resp:
                 res = json.loads(resp.read().decode("utf-8"))
             break
         except urllib.error.HTTPError as e:
-            if e.code == 429 and attempt < 5:
-                time.sleep(22 * (attempt + 1))
-            else:
-                raise
-    time.sleep(4)
-    part = res["candidates"][0]["content"]["parts"][0]["inlineData"]
-    pcm = base64.b64decode(part["data"])
+            if e.code == 429:
+                time.sleep(2)
+                continue
+            raise
+    if res is None:
+        raise RuntimeError("All TTS models returned HTTP 429")
+
+    pcm = base64.b64decode(res["candidates"][0]["content"]["parts"][0]["inlineData"]["data"])
     raw_wav = out_wav + ".raw.wav"
     with wave.open(raw_wav, "wb") as wf:
         wf.setnchannels(1)
         wf.setsampwidth(2)
         wf.setframerate(24000)
         wf.writeframes(pcm)
-    # Cắt khoảng lặng đầu/cuối nhẹ và chuẩn hóa âm lượng
+
     subprocess.run(
         [
             "ffmpeg", "-y", "-v", "error", "-i", raw_wav,
@@ -73,16 +97,8 @@ def synth_segment(text, out_wav, voice="Orus", model="gemini-2.5-flash-preview-t
     return probe_duration(out_wav)
 
 
-def probe_duration(path):
-    out = subprocess.check_output(
-        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path],
-        text=True,
-    ).strip()
-    return float(out)
-
-
 def build_vo_track(segments_with_start_sec, total_duration, out_m4a):
-    """Ghép danh sách (wav_path, start_sec) thành 1 track AAC khớp độ dài video."""
+    """Mix (wav_path, start_sec) pairs into one AAC track matching total_duration."""
     inputs = ["-f", "lavfi", "-t", f"{total_duration:.3f}", "-i", "anullsrc=r=24000:cl=mono"]
     filters = []
     mix_labels = ["[0:a]"]

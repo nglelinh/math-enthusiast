@@ -78,6 +78,14 @@ Do đó $$H$$ không thể tồn tại. Đây là anh em của đường chéo C
 
 ---
 
+### Video ngắn: Alan Turing (1936): Máy phổ quát & Bài toán Dừng
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/turing-halting_vi.mp4"></video>
+</div>
+
+Video dài khoảng 2 phút 31 giây (có thuyết minh tiếng Việt giọng Algenib): mô hình máy Turing, máy phổ quát U, dựng máy nghịch đảo D(⟨M⟩) và mâu thuẫn tự tham chiếu D(⟨D⟩).
+
 ## 4. Họ hàng bất khả quyết định
 
 Một khi bài toán dừng không quyết định được, hàng loạt bài toán khác **quy về** nó (reduction theo nghĩa tính được): nếu ta quyết định được bài $$A$$ thì ta quyết định được bài dừng—do đó $$A$$ cũng không quyết định được.

@@ -79,6 +79,20 @@ Sau đó **Breuil–Conrad–Diamond–Taylor** chứng minh tính modular cho *
 
 ---
 
+### Video ngắn: Andrew Wiles & Định lý Fermat: Từ phương trình tới đường cong modular
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/wiles-fermat_vi.mp4"></video>
+</div>
+
+Video dài khoảng 2 phút 09 giây (có thuyết minh tiếng Việt): so sánh bộ ba Pytago n = 2 với bẫy gần đúng n = 12, đường cong Frey, hạ bậc Ribet cấp N = 2 và chứng minh modularity của Wiles.
+
+
+<div class="interactive-demo" markdown="1">
+<div data-demo="fermat-explainer" data-preset="frey" data-lang="vi"></div>
+</div>
+<script src="{{ '/public/js/explainers/fermat-explainer.js' | relative_url }}"></script>
+
 ## 4. Khung lập luận (ý tưởng chứng minh)
 
 1. Giả sử $$a^n+b^n=c^n$$, $$n\ge 3$$, $$abc\neq 0$$.  
