@@ -35,3 +35,12 @@ Output: public/videos/reels/<slug>_<lang>.mp4
 | chsh.py | CHSH | chsh-bell-game |
 
 Every scene asserts its numbers before drawing (e.g. twin counts 8/35/205/1224/8169, deltoid area = pi/8 and chords inside the curve, 5 is a primitive root mod 23, R-pentomino has 116 cells at generation 1103, catenoid limits 0.6627 and Goldschmidt 0.528, CHSH = 2 sqrt 2 via the Phi+ state).
+
+## Batch 3 (uses `common_b.py`; same render/compress recipe)
+
+| scene file | class | slug |
+|---|---|---|
+| pagerank.py | PageRank | pagerank-markov |
+| fourcolor.py | FourColor | four-color-kempe |
+| zkp.py | ZKP | zkp-3color |
+| tarjan.py | TarjanSCC | tarjan-scc |

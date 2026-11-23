@@ -76,6 +76,15 @@ với hệ số damping $$\alpha\in(0,1)$$ và vector cá nhân hóa $$v$$ (bư�
 
 ---
 
+### Video ngắn: PageRank trên đồ thị 4 trang web với nút cụt và teleport α = 0,85
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/pagerank-markov_vi.mp4"></video>
+</div>
+
+Video dài khoảng 2 phút 07 giây: ý tưởng xếp hạng qua liên kết, ma trận chuyển thô P₀ và bẫy nút cụt D, cách thêm teleport α = 0,85, tính tay bước k = 1, lặp lũy thừa hội tụ về π và so sánh α = 0,85 với α = 0,50.
+
+
 ## 5. Độ bền vững, hiệu ứng dây chuyền và điều khiển
 
 Thấm (percolation): mạng vỡ ra khi gỡ bỏ đỉnh hoặc cạnh, ngẫu nhiên hoặc nhắm vào hub. Trong mô hình lý tưởng, mạng đuôi nặng bền với lỗi ngẫu nhiên nhưng mong manh trước tấn công vào hub. Hiệu ứng dây chuyền (lưới điện, tài chính) cần có động lực học của tải chứ không chỉ topology. Khả năng điều khiển theo cấu trúc dùng đến bài toán ghép cặp (matching); còn nói “nút điều khiển là người cần tác động trong xã hội” là một bước nhảy cần có ngữ cảnh nhân quả và thể chế.
