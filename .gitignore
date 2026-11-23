@@ -66,3 +66,6 @@ yarn-error.log*
 .env.*.local
 
 work/
+
+explainers/node_modules/
+manim/reels/media/

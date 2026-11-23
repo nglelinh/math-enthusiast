@@ -102,6 +102,12 @@ ZK protocols underwrite identification schemes, modern proof systems in blockcha
 2 min 06 sec video: the zero-knowledge paradox, Peggy’s 5-vertex 7-edge witness, two independent commit–challenge–open rounds, cheating-prover soundness amplification (>95% after 20 rounds), and the Simulator argument.
 
 
+
+<div class="interactive-demo" markdown="1">
+<div data-demo="zkp-explainer" data-preset="honest" data-lang="en"></div>
+</div>
+<script src="{{ '/public/js/explainers/zkp-explainer.js' | relative_url }}"></script>
+
 ## 5. Interactive proofs more broadly
 
 Classical NP witnesses are **static certificates**. **Interactive proofs** allow back-and-forth coin flips and messages between prover and verifier. Amazingly, interaction plus randomness can verify languages beyond NP in powerful ways; the IP = PSPACE theorem (Shamir; earlier Lund–Fortnow–Karloff–Nisan) is a crown jewel of complexity theory.

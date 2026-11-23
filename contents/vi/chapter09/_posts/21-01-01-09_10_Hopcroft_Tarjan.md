@@ -78,6 +78,12 @@ Vì sao quan trọng toán–CS:
 Video dài khoảng 1 phút 56 giây (có thuyết minh tiếng Việt): định nghĩa SCC và quy tắc cập nhật (disc, low), theo dõi từng bước DFS và ngăn xếp trên đồ thị 6 đỉnh, bẫy kiểm tra on_stack[v] và đồ thị DAG rút gọn.
 
 
+
+<div class="interactive-demo" markdown="1">
+<div data-demo="tarjan-explainer" data-preset="sixNode" data-lang="vi"></div>
+</div>
+<script src="{{ '/public/js/explainers/tarjan-explainer.js' | relative_url }}"></script>
+
 ## 4. Planarity: phẳng hóa như bài toán tuyến tính
 
 ### Câu hỏi

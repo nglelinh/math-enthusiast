@@ -88,6 +88,12 @@ Tô màu đồ thị có phạm vi rộng hơn nhiều so với bản đồ. **�
 Video dài khoảng 1 phút 51 giây (có thuyết minh tiếng Việt): chuyển bản đồ sang đồ thị đối ngẫu, vì sao K₄ buộc dùng 4 màu, chặn Euler e ≤ 3v − 6, hai trường hợp xích Kempe trong định lý năm màu, bẫy lịch sử 1879 và số Heawood H(g) trên mặt phẳng (4) và mặt xuyến (7).
 
 
+
+<div class="interactive-demo" markdown="1">
+<div data-demo="fourcolor-explainer" data-preset="k4" data-lang="vi"></div>
+</div>
+<script src="{{ '/public/js/explainers/fourcolor-explainer.js' | relative_url }}"></script>
+
 ## 2. Giả thuyết, chứng minh và thí nghiệm
 
 | Nhãn | Ví dụ |

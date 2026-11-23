@@ -88,6 +88,12 @@ Graph coloring generalizes far past cartography. **Brooks’ theorem** says that
 2 min 04 sec video: map-to-dual reduction, why K₄ forces 4 colors, Euler’s bound e ≤ 3v − 6, both Kempe-chain cases in the five-color proof, Kempe’s 1879 pitfall, and Heawood numbers H(0) = 4 (plane) and H(1) = 7 (torus).
 
 
+
+<div class="interactive-demo" markdown="1">
+<div data-demo="fourcolor-explainer" data-preset="k4" data-lang="en"></div>
+</div>
+<script src="{{ '/public/js/explainers/fourcolor-explainer.js' | relative_url }}"></script>
+
 ## 2. Conjecture versus proof versus experiment
 
 | Label | Example |

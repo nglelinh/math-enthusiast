@@ -85,6 +85,12 @@ với hệ số damping $$\alpha\in(0,1)$$ và vector cá nhân hóa $$v$$ (bư�
 Video dài khoảng 2 phút 03 giây (có thuyết minh tiếng Việt): ý tưởng xếp hạng qua liên kết, ma trận chuyển thô P₀ và bẫy nút cụt D, cách thêm teleport α = 0,85, tính tay bước k = 1, lặp lũy thừa hội tụ về π và so sánh α = 0,85 với α = 0,50.
 
 
+
+<div class="interactive-demo" markdown="1">
+<div data-demo="pagerank-explainer" data-preset="dangling" data-alpha="0.85" data-lang="vi"></div>
+</div>
+<script src="{{ '/public/js/explainers/pagerank-explainer.js' | relative_url }}"></script>
+
 ## 5. Độ bền vững, hiệu ứng dây chuyền và điều khiển
 
 Thấm (percolation): mạng vỡ ra khi gỡ bỏ đỉnh hoặc cạnh, ngẫu nhiên hoặc nhắm vào hub. Trong mô hình lý tưởng, mạng đuôi nặng bền với lỗi ngẫu nhiên nhưng mong manh trước tấn công vào hub. Hiệu ứng dây chuyền (lưới điện, tài chính) cần có động lực học của tải chứ không chỉ topology. Khả năng điều khiển theo cấu trúc dùng đến bài toán ghép cặp (matching); còn nói “nút điều khiển là người cần tác động trong xã hội” là một bước nhảy cần có ngữ cảnh nhân quả và thể chế.

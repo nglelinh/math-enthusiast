@@ -53,3 +53,7 @@ markdown: kramdown
 
 # Analytics
 google_analytics_id: ""
+
+exclude:
+  - explainers
+  - manim

@@ -97,6 +97,12 @@ Prover chứng minh biết căn bậc hai hoặc chứng minh ciphertext GM mã 
 Video dài khoảng 1 phút 39 giây (có thuyết minh tiếng Việt): nghịch lý chứng minh không tiết lộ, đồ thị bí mật 5 đỉnh 7 cạnh, hai vòng cam kết–thách thức–mở khóa độc lập, bẫy kẻ gian và khuếch đại độ tin cậy (>95% sau 20 vòng), cùng ý tưởng Simulator.
 
 
+
+<div class="interactive-demo" markdown="1">
+<div data-demo="zkp-explainer" data-preset="honest" data-lang="vi"></div>
+</div>
+<script src="{{ '/public/js/explainers/zkp-explainer.js' | relative_url }}"></script>
+
 ## 4. Interactive proof, IP, và bạn hàng độ phức tạp
 
 Zero-knowledge sống trong hệ sinh thái **interactive proof**: prover mạnh (đôi khi không giới hạn) và verifier poly-time trao đổi tin nhắn. Định lý nổi tiếng $$\mathbf{IP}=\mathbf{PSPACE}$$ (Shamir et al.) cho thấy tương tác + randomness tăng sức mạnh kiểm chứng vượt NP. ZK gắn thêm ràng buộc “không rò rỉ.”

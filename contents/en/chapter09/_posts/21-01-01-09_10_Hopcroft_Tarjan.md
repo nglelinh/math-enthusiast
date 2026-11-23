@@ -65,6 +65,12 @@ Many advanced graph algorithms *begin* with a DFS (or BFS) pass that orients edg
 2 min 09 sec video: SCC definition and (disc, low) update rules, step-by-step DFS and stack trace on a 6-vertex graph, the on_stack[v] pitfall, and the condensation DAG.
 
 
+
+<div class="interactive-demo" markdown="1">
+<div data-demo="tarjan-explainer" data-preset="sixNode" data-lang="en"></div>
+</div>
+<script src="{{ '/public/js/explainers/tarjan-explainer.js' | relative_url }}"></script>
+
 ## 3. Planarity: when graphs sit in the plane
 
 A graph is **planar** if it can be drawn in the plane with no edge crossings (equivalently, on a sphere). Kuratowski’s and Wagner’s theorems characterize non-planarity via forbidden subdivisions/minors ($$K_5$$, $$K_{3,3}$$). Characterization is not the same as a fast **test** and **embedding**.

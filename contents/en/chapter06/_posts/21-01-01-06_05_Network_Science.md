@@ -77,6 +77,12 @@ Once a graph is fixed, one studies processes *on* it.
 2 min 07 sec video: link-based ranking intuition, raw transition matrix P₀ and the dead-end trap at D, teleportation α = 0.85, hand-computed step k = 1, power iteration converging to π, and comparing α = 0.85 vs. α = 0.50.
 
 
+
+<div class="interactive-demo" markdown="1">
+<div data-demo="pagerank-explainer" data-preset="dangling" data-alpha="0.85" data-lang="en"></div>
+</div>
+<script src="{{ '/public/js/explainers/pagerank-explainer.js' | relative_url }}"></script>
+
 ## 5. Robustness, cascading failure, and control
 
 Percolation theory asks how a network fragments as vertices or edges are removed—uniformly or targeting hubs. Heavy-tailed networks can be robust to random failure yet fragile to hub attack **in idealized models**. Cascading failures (power grids, finance) add dynamics on loads, not only topology. Controllability of linear systems on graphs (structural controllability) uses matching theory; interpreting driver nodes as “who to influence in society” is a leap that needs causal and institutional context.
