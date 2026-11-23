@@ -94,7 +94,7 @@ Prover chứng minh biết căn bậc hai hoặc chứng minh ciphertext GM mã 
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/zkp-3color_vi.mp4"></video>
 </div>
 
-Video dài 13 giây: Peggy hoán vị màu ngẫu nhiên và khóa cả 5 đỉnh, chỉ mở hai đầu một cạnh do Victor chọn; xác suất phát hiện gian dối vượt 95% sau 20 vòng trên đồ thị 7 cạnh.
+Video dài khoảng 2 phút 06 giây: nghịch lý chứng minh không tiết lộ, đồ thị bí mật 5 đỉnh 7 cạnh, hai vòng cam kết–thách thức–mở khóa độc lập, bẫy kẻ gian và khuếch đại độ tin cậy (>95% sau 20 vòng), cùng ý tưởng Simulator.
 
 
 ## 4. Interactive proof, IP, và bạn hàng độ phức tạp

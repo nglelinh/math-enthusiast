@@ -85,7 +85,7 @@ Tô màu đồ thị có phạm vi rộng hơn nhiều so với bản đồ. **�
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/four-color-kempe_vi.mp4"></video>
 </div>
 
-Video dài 15 giây: đồ thị đối ngẫu K₄ cần đủ 4 màu, chặn Euler e ≤ 3v − 6 cho định lý năm màu qua xích Kempe, và công thức Heawood H(g) cho H(0) = 4 trên mặt phẳng, H(1) = 7 trên mặt xuyến.
+Video dài khoảng 2 phút 04 giây: chuyển bản đồ sang đồ thị đối ngẫu, vì sao K₄ buộc dùng 4 màu, chặn Euler e ≤ 3v − 6, hai trường hợp xích Kempe trong định lý năm màu, bẫy lịch sử 1879 và số Heawood H(g) trên mặt phẳng (4) và mặt xuyến (7).
 
 
 ## 2. Giả thuyết, chứng minh và thí nghiệm

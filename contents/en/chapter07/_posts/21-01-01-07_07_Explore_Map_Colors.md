@@ -85,7 +85,7 @@ Graph coloring generalizes far past cartography. **Brooks’ theorem** says that
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/four-color-kempe_en.mp4"></video>
 </div>
 
-15-second video: the dual graph K₄ forces 4 colors, Euler’s bound e ≤ 3v − 6 drives the Kempe-chain five-color proof, and Heawood’s formula gives H(0) = 4 on the plane and H(1) = 7 on the torus.
+2 min 04 sec video: map-to-dual reduction, why K₄ forces 4 colors, Euler’s bound e ≤ 3v − 6, both Kempe-chain cases in the five-color proof, Kempe’s 1879 pitfall, and Heawood numbers H(0) = 4 (plane) and H(1) = 7 (torus).
 
 
 ## 2. Conjecture versus proof versus experiment

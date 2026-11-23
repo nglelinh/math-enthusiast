@@ -74,7 +74,7 @@ Once a graph is fixed, one studies processes *on* it.
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/pagerank-markov_en.mp4"></video>
 </div>
 
-18-second video: a naive random walk gets trapped at dead-end D, while teleportation α = 0.85 makes power iteration converge to a unique stationary distribution π.
+2 min 07 sec video: link-based ranking intuition, raw transition matrix P₀ and the dead-end trap at D, teleportation α = 0.85, hand-computed step k = 1, power iteration converging to π, and comparing α = 0.85 vs. α = 0.50.
 
 
 ## 5. Robustness, cascading failure, and control

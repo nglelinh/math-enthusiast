@@ -62,7 +62,7 @@ Many advanced graph algorithms *begin* with a DFS (or BFS) pass that orients edg
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/tarjan-scc_en.mp4"></video>
 </div>
 
-15-second video: tracking (disc, low) in a single DFS pass on a 6-vertex graph, popping three SCCs whenever low[u] == disc[u] and contracting them into a DAG.
+2 min 09 sec video: SCC definition and (disc, low) update rules, step-by-step DFS and stack trace on a 6-vertex graph, the on_stack[v] pitfall, and the condensation DAG.
 
 
 ## 3. Planarity: when graphs sit in the plane

@@ -99,7 +99,7 @@ ZK protocols underwrite identification schemes, modern proof systems in blockcha
 <video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/zkp-3color_en.mp4"></video>
 </div>
 
-13-second video: Peggy randomly permutes colors and locks all 5 vertices, opening only the two endpoints of Victor’s chosen edge; soundness exceeds 95% after 20 rounds on a 7-edge graph.
+2 min 06 sec video: the zero-knowledge paradox, Peggy’s 5-vertex 7-edge witness, two independent commit–challenge–open rounds, cheating-prover soundness amplification (>95% after 20 rounds), and the Simulator argument.
 
 
 ## 5. Interactive proofs more broadly
