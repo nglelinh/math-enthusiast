@@ -117,6 +117,12 @@ The list was assumed to contain every element of $$(0,1)$$, yet $$d$$ is missing
 
 ---
 
+
+<div class="interactive-demo" markdown="1">
+<div data-demo="cantor-explainer" data-preset="safeFlip" data-lang="en"></div>
+</div>
+<script src="{{ '/public/js/explainers/cantor-explainer.js' | relative_url }}"></script>
+
 ## 4. Why the idea is so robust
 
 The construction does not need a “natural” formula for $$d$$ independent of the list. On the contrary, $$d$$ is **built from the list**. That dependence is a feature: whatever enumeration a skeptic proposes, the diagonal answers *that* enumeration. There is no single missing real that works against every list; rather, for every list there is a real that list fails to include.

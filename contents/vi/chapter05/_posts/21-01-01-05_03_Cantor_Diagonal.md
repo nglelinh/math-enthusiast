@@ -83,6 +83,12 @@ Khi đó $$d\in(0,1)$$ và $$d\neq r_n$$ với mọi $$n$$, vì hai số khác n
 
 ---
 
+
+<div class="interactive-demo" markdown="1">
+<div data-demo="cantor-explainer" data-preset="safeFlip" data-lang="vi"></div>
+</div>
+<script src="{{ '/public/js/explainers/cantor-explainer.js' | relative_url }}"></script>
+
 ## 4. Vì sao ý tưởng này bền
 
 Số $$d$$ **phụ thuộc vào danh sách**, và đó là điểm mạnh: người hoài nghi đưa ra danh sách nào thì đường chéo trả lời đúng cho danh sách đó. Không có một số thực "vắng mặt" cố định cho mọi danh sách. Điều đúng là: *với mọi danh sách, tồn tại* một số thực không có trong danh sách đó. Thứ tự của các lượng từ ở đây rất quan trọng.

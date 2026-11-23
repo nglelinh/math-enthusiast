@@ -102,6 +102,14 @@ The argument is cousin to Cantor’s diagonal and to Gödel’s self-referential
 
 ---
 
+### Short video: Alan Turing (1936): Universal machine & the Halting Problem
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/turing-halting_en.mp4"></video>
+</div>
+
+1-minute silent overview: Turing machine tape model, universal simulation U(⟨M⟩, x), the diagonal machine D(⟨M⟩), and the self-referential contradiction on D(⟨D⟩).
+
 ## 6. Entscheidungsproblem and the limit of decision methods
 
 Church and Turing showed that the Entscheidungsproblem is unsolvable: there is no general algorithm that decides validity of first-order logic sentences. The modern slogan is: **first-order validity is undecidable**.

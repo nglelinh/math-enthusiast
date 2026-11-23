@@ -44,3 +44,10 @@ Every scene asserts its numbers before drawing (e.g. twin counts 8/35/205/1224/8
 | fourcolor.py | FourColor | four-color-kempe |
 | zkp.py | ZKP | zkp-3color |
 | tarjan.py | TarjanSCC | tarjan-scc |
+
+## Batch 4 (uses `common_b.py` + `vo_gemini.py`)
+
+| scene file | class | slug |
+|---|---|---|
+| wiles.py | WilesFermat | wiles-fermat |
+| halting.py | HaltingProblem | turing-halting |

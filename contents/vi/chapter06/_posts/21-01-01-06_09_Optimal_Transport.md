@@ -70,6 +70,12 @@ Dạng này mở ra đối ngẫu lồi và một lý thuyết tồn tại đã 
 
 ---
 
+
+<div class="interactive-demo" markdown="1">
+<div data-demo="ot-explainer" data-preset="threeBars" data-lang="vi"></div>
+</div>
+<script src="{{ '/public/js/explainers/ot-explainer.js' | relative_url }}"></script>
+
 ## 3. Khoảng cách Wasserstein
 
 Với $$p\ge 1$$ và các độ đo có moment bậc $$p$$ hữu hạn:

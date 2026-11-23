@@ -70,6 +70,12 @@ This formulation unlocked convex duality and a mature existence theory. It is th
 
 ---
 
+
+<div class="interactive-demo" markdown="1">
+<div data-demo="ot-explainer" data-preset="threeBars" data-lang="en"></div>
+</div>
+<script src="{{ '/public/js/explainers/ot-explainer.js' | relative_url }}"></script>
+
 ## 3. Wasserstein distances
 
 For $$p\ge 1$$ and measures with finite $$p$$-th moments, the **$$p$$-Wasserstein distance** is
