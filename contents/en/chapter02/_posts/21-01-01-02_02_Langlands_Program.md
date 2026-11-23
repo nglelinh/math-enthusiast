@@ -61,6 +61,14 @@ Ngô’s Fields work is about a precise analytic–geometric identity needed for
 
 ---
 
+### Short video 1: Ngô Bảo Châu & the Fundamental Lemma (Overview)
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/langlands-fundamental-lemma_en.mp4"></video>
+</div>
+
+86-second silent overview: Langlands program bridging automorphic forms and Galois representations, the endoscopy bottleneck in the Arthur–Selberg trace formula, and translating the problem to algebraic geometry.
+
 ## 2. The trace formula as a comparison engine
 
 The Arthur–Selberg **trace formula** (and its stabilization) equates a **spectral side** (automorphic representations, multiplicities) with a **geometric side** (orbital integrals, conjugacy classes).
@@ -117,6 +125,14 @@ Ngô’s conceptual revolution is not a longer $$p$$-adic calculation. It is a *
 This is why the Fields citation emphasizes **new algebro-geometric methods**: the geometry is not decoration; it is the proof’s engine.
 
 ---
+
+### Short video 2: Hitchin Fibration & Point Counting
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/langlands-hitchin-geometry_en.mp4"></video>
+</div>
+
+62-second silent overview: turning p-adic orbital integrals into point counts via Frobenius traces, Ngô’s support theorem on the Hitchin fibration, and the progression from Laumon–Ngô (2004) to Ngô (2010).
 
 ## 6. Aftermath: what the lemma unlocked
 
@@ -197,6 +213,14 @@ Kapustin–Witten and related work interpret geometric Langlands as organized by
 Use this template: *“Ngô proved the Fundamental Lemma for endoscopic comparison; Langlands remains a web of conjectures; geometric Langlands is a parallel categorical program sharing the dual group $$G^\vee$$.”*
 
 ---
+
+### Short video 3: Arithmetic vs Geometric Langlands & Common Myths
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/langlands-arithmetic-vs-geometric_en.mp4"></video>
+</div>
+
+44-second silent overview: distinguishing arithmetic vs geometric Langlands, the Kapustin–Witten S-duality dictionary, and four common misconceptions about the 2010 Fields Medal.
 
 ## Common misconceptions (fact-check)
 

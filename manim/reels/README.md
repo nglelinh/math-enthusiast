@@ -52,3 +52,6 @@ Every scene asserts its numbers before drawing (e.g. twin counts 8/35/205/1224/8
 | wiles.py | WilesFermat | wiles-fermat |
 | halting.py | HaltingProblem | turing-halting |
 | godel.py | GodelIncompleteness | godel-incompleteness |
+| langlands.py | LanglandsFundamentalLemma | langlands-fundamental-lemma |
+| langlands_hitchin.py | LanglandsHitchinFibration | langlands-hitchin-geometry |
+| langlands_variants.py | LanglandsVariants | langlands-arithmetic-vs-geometric |

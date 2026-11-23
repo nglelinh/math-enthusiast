@@ -59,6 +59,14 @@ Một hình ảnh dễ nhớ: Langlands vẽ bản đồ các cây cầu giữa 
 
 ---
 
+### Video ngắn 1: Ngô Bảo Châu & Bổ đề Cơ bản (Tổng quan)
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/langlands-fundamental-lemma_vi.mp4"></video>
+</div>
+
+Video dài khoảng 1 phút 51 giây (có thuyết minh tiếng Việt giọng Algenib): chương trình Langlands nối giải tích tự đẳng cấu với biểu diễn Galois, nút thắt nội soi trong công thức vết Arthur–Selberg, và hướng chuyển ngôn ngữ sang hình học đại số.
+
 ## 2. Công thức vết như một công cụ so sánh
 
 Công thức vết **Arthur–Selberg** (và dạng ổn định của nó) cân bằng **phía phổ** (các biểu diễn tự đẳng cấu và bội của chúng) với **phía hình học** (các tích phân quỹ đạo, các lớp liên hợp).
@@ -136,6 +144,14 @@ $$
 
 ---
 
+### Video ngắn 2: Phân thớ Hitchin & Đếm điểm trên trường hữu hạn
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/langlands-hitchin-geometry_vi.mp4"></video>
+</div>
+
+Video dài khoảng 1 phút 13 giây (có thuyết minh tiếng Việt giọng Algenib): cách biến tích phân quỹ đạo p-adic thành đếm điểm qua vết Frobenius, vai trò của định lý về giá trên phân thớ Hitchin, và bước nhảy từ Laumon–Ngô (2004) sang Ngô (2010).
+
 ## 6. Hệ quả sau khi có bổ đề
 
 Khi đã có Bổ đề Cơ bản, nhiều định lý có điều kiện trở thành vô điều kiện, theo các hướng:
@@ -209,6 +225,14 @@ Kapustin–Witten và các công trình liên quan diễn giải Langlands hình
 Có thể dùng câu: *"Ngô chứng minh Bổ đề Cơ bản cho phép so sánh nội soi; chương trình Langlands vẫn là một mạng lưới giả thuyết; Langlands hình học là một chương trình song song (ở ngôn ngữ phạm trù) có chung nhóm đối ngẫu $$G^\vee$$."*
 
 ---
+
+### Video ngắn 3: Langlands Số học vs Hình học & 4 Hiểu lầm cần tránh
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/langlands-arithmetic-vs-geometric_vi.mp4"></video>
+</div>
+
+Video dài khoảng 1 phút 8 giây (có thuyết minh tiếng Việt giọng Algenib): phân biệt Langlands số học với Langlands hình học, cầu nối đối ngẫu S của Kapustin–Witten, và 4 hiểu lầm phổ biến về Huy chương Fields 2010.
 
 ## Hiểu lầm thường gặp
 
