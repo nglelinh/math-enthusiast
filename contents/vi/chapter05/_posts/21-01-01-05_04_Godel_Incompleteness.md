@@ -70,6 +70,14 @@ $$
 
 ---
 
+### Video ngắn: Kurt Gödel (1931): Định lý Bất toàn
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/godel-incompleteness_vi.mp4"></video>
+</div>
+
+Video dài khoảng 2 phút 23 giây (có thuyết minh tiếng Việt giọng Algenib): chương trình Hilbert, mã hóa Gödel biến công thức thành số nguyên tố (ví dụ 270 = 2¹·3³·5¹), bổ đề điểm bất động tạo câu tự quy chiếu G ⇔ (T ⊬ G), và vì sao đúng chưa chắc chứng minh được.
+
 ## 4. Tự quy chiếu và câu Gödel
 
 Ý tưởng lớn thứ hai là tự quy chiếu có kiểm soát, thông qua phép dựng đường chéo (điểm bất động). Với công thức $$\psi(x)$$ phù hợp, tồn tại câu $$\varphi$$ sao cho $$T$$ chứng minh

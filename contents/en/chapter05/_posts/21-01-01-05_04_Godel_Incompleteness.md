@@ -70,6 +70,14 @@ At this stage something astonishing is possible: the theory $$T$$, which was sup
 
 ---
 
+### Short video: Kurt Gödel (1931): Incompleteness Theorems
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/godel-incompleteness_en.mp4"></video>
+</div>
+
+94-second silent overview: Hilbert’s program, Gödel numbering encoding formulas via prime exponents (e.g. 270 = 2¹·3³·5¹), the fixed-point lemma constructing G ⇔ (T ⊬ G), and why truth outruns formal provability.
+
 ## 4. Self-reference and the Gödel sentence
 
 The second great idea is a controlled form of self-reference, obtained by a diagonal or fixed-point construction. One shows that for suitable formulas $$\psi(x)$$, there is a sentence $$\varphi$$ such that $$T$$ proves

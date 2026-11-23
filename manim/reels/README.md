@@ -51,3 +51,4 @@ Every scene asserts its numbers before drawing (e.g. twin counts 8/35/205/1224/8
 |---|---|---|
 | wiles.py | WilesFermat | wiles-fermat |
 | halting.py | HaltingProblem | turing-halting |
+| godel.py | GodelIncompleteness | godel-incompleteness |
