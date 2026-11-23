@@ -84,6 +84,14 @@ Chiến lược của thế kỷ XX: chứng minh giả thuyết **lớn hơn** 
 
 ---
 
+### Video ngắn 1: Perelman & Giả thuyết Poincaré (Tổng quan)
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/perelman-poincare_vi.mp4"></video>
+</div>
+
+Video dài khoảng 2 phút 6 giây (có thuyết minh tiếng Việt giọng Algenib): câu hỏi Poincaré 1904, giả thuyết hình học hóa Thurston với 8 mô hình hình học, dòng Ricci có phẫu thuật, và cột mốc từ chối giải Fields 2006.
+
 ## 3. Dòng Ricci của Hamilton: một phương trình truyền nhiệt hình học
 
 Năm 1982, Richard Hamilton đưa ra dòng Ricci: làm biến dạng metric $$g(t)$$ theo phương trình
@@ -135,6 +143,14 @@ Trong 3 chiều, các mô hình điểm kỳ dị dự kiến gồm:
 
 ---
 
+### Video ngắn 2: Dòng Ricci, Phóng to & Phẫu thuật
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/perelman-ricci-surgery_vi.mp4"></video>
+</div>
+
+Video dài khoảng 1 phút 10 giây (có thuyết minh tiếng Việt giọng Algenib): cơ chế truyền nhiệt hình học của dòng Ricci, phép phóng to tại điểm kỳ dị cho mô hình cổ S² × ℝ, và quy trình phẫu thuật cắt cổ — bịt mũ diễn ra hữu hạn lần.
+
 ## 5. Các công cụ mới của Perelman
 
 ### 5.1 Entropy và thể tích rút gọn
@@ -162,6 +178,14 @@ Khi cổ đã thắt đủ hẹp, người ta **cắt** dọc theo một mặt c
 Trên một số đa tạp, dòng Ricci (có phẫu thuật) có thể biến mất sau thời gian hữu hạn (thể tích → 0); điều này ứng với các tổng liên thông của những dạng không gian cầu. Trên các đa tạp khác, phân tích hành vi dài hạn cho ra các mảnh hyperbolic và các đa tạp đồ thị (graph manifold), đúng như giả thuyết hình học hóa.
 
 ---
+
+### Video ngắn 3: Phiếm hàm Entropy & Tính không suy biến κ
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/perelman-entropy-kappa_vi.mp4"></video>
+</div>
+
+Video dài khoảng 57 giây (có thuyết minh tiếng Việt giọng Algenib): vai trò của đại lượng đơn điệu (entropy W, thể tích rút gọn) và định lý không suy biến κ ngăn không gian sụp thể tích khi phóng to.
 
 ## 6. Các bài đăng trên arXiv và quá trình kiểm chứng
 

@@ -84,6 +84,14 @@ So the twentieth-century strategy shifted: prove the **big** conjecture (geometr
 
 ---
 
+### Short video 1: Perelman & the Poincaré Conjecture (Overview)
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/perelman-poincare_en.mp4"></video>
+</div>
+
+85-second silent overview: Poincaré’s 1904 question, Thurston’s 8-geometry picture, Ricci flow with surgery, and the 2006 Fields Medal history.
+
 ## 3. Hamilton’s Ricci flow: a geometric heat equation
 
 In 1982, Richard Hamilton introduced Ricci flow: deform a Riemannian metric $$g(t)$$ by
@@ -139,6 +147,14 @@ Understanding which models can occur requires **noncollapsing** and entropy cont
 
 ---
 
+### Short video 2: Ricci Flow, Rescaling & Surgery
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/perelman-ricci-surgery_en.mp4"></video>
+</div>
+
+47-second silent overview: geometric heat flow, blow-up rescaling to the ancient neck model S² × ℝ, and finite-time surgery cutting and capping.
+
 ## 5. Perelman’s new tools
 
 Perelman’s preprints introduced several pillars that made the Hamilton program complete.
@@ -168,6 +184,14 @@ When a neck becomes sufficiently pinched, one **cuts** along a cross-sectional s
 On manifolds with nontrivial topology of certain types, the flow may become extinct in finite time (volume → 0) after surgeries, corresponding to connected sums of spherical space forms. On other manifolds, long-time analysis produces hyperbolic pieces and graph-manifold pieces matching geometrization.
 
 ---
+
+### Short video 3: Entropy & κ-Noncollapsing
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/perelman-entropy-kappa_en.mp4"></video>
+</div>
+
+47-second silent overview: monotone entropy functionals and κ-noncollapsing preventing volume collapse under rescaling.
 
 ## 6. The preprints and the verification culture
 

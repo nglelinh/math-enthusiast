@@ -55,3 +55,6 @@ Every scene asserts its numbers before drawing (e.g. twin counts 8/35/205/1224/8
 | langlands.py | LanglandsFundamentalLemma | langlands-fundamental-lemma |
 | langlands_hitchin.py | LanglandsHitchinFibration | langlands-hitchin-geometry |
 | langlands_variants.py | LanglandsVariants | langlands-arithmetic-vs-geometric |
+| perelman.py | PerelmanPoincare | perelman-poincare |
+| perelman_ricci.py | PerelmanRicciFlow | perelman-ricci-surgery |
+| perelman_entropy.py | PerelmanEntropyTools | perelman-entropy-kappa |
