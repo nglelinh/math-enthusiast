@@ -79,6 +79,15 @@ Tô màu đồ thị có phạm vi rộng hơn nhiều so với bản đồ. **�
 
 ---
 
+### Video ngắn: Vì sao 3 màu không đủ (K₄) và số Heawood theo giống mặt
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/four-color-kempe_vi.mp4"></video>
+</div>
+
+Video dài 15 giây: đồ thị đối ngẫu K₄ cần đủ 4 màu, chặn Euler e ≤ 3v − 6 cho định lý năm màu qua xích Kempe, và công thức Heawood H(g) cho H(0) = 4 trên mặt phẳng, H(1) = 7 trên mặt xuyến.
+
+
 ## 2. Giả thuyết, chứng minh và thí nghiệm
 
 | Nhãn | Ví dụ |

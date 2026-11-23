@@ -93,6 +93,15 @@ ZK protocols underwrite identification schemes, modern proof systems in blockcha
 
 ---
 
+### Short video: Zero-Knowledge Proof via graph 3-coloring
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/zkp-3color_en.mp4"></video>
+</div>
+
+13-second video: Peggy randomly permutes colors and locks all 5 vertices, opening only the two endpoints of Victor’s chosen edge; soundness exceeds 95% after 20 rounds on a 7-edge graph.
+
+
 ## 5. Interactive proofs more broadly
 
 Classical NP witnesses are **static certificates**. **Interactive proofs** allow back-and-forth coin flips and messages between prover and verifier. Amazingly, interaction plus randomness can verify languages beyond NP in powerful ways; the IP = PSPACE theorem (Shamir; earlier Lund–Fortnow–Karloff–Nisan) is a crown jewel of complexity theory.

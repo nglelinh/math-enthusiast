@@ -69,6 +69,15 @@ Vì sao quan trọng toán–CS:
 
 ---
 
+### Video ngắn: Thuật toán Tarjan tìm thành phần liên thông mạnh trong O(n + m)
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/tarjan-scc_vi.mp4"></video>
+</div>
+
+Video dài 15 giây: theo dõi cặp (disc, low) qua một lần duyệt DFS trên đồ thị 6 đỉnh, tách ba thành phần liên thông mạnh khi low[u] == disc[u] và co lại thành DAG.
+
+
 ## 4. Planarity: phẳng hóa như bài toán tuyến tính
 
 ### Câu hỏi

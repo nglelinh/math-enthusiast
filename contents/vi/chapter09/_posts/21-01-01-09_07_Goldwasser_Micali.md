@@ -88,6 +88,15 @@ Prover chứng minh biết căn bậc hai hoặc chứng minh ciphertext GM mã 
 
 ---
 
+### Video ngắn: Chứng minh không tiết lộ (Zero-Knowledge) qua bài toán 3-tô màu
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/zkp-3color_vi.mp4"></video>
+</div>
+
+Video dài 13 giây: Peggy hoán vị màu ngẫu nhiên và khóa cả 5 đỉnh, chỉ mở hai đầu một cạnh do Victor chọn; xác suất phát hiện gian dối vượt 95% sau 20 vòng trên đồ thị 7 cạnh.
+
+
 ## 4. Interactive proof, IP, và bạn hàng độ phức tạp
 
 Zero-knowledge sống trong hệ sinh thái **interactive proof**: prover mạnh (đôi khi không giới hạn) và verifier poly-time trao đổi tin nhắn. Định lý nổi tiếng $$\mathbf{IP}=\mathbf{PSPACE}$$ (Shamir et al.) cho thấy tương tác + randomness tăng sức mạnh kiểm chứng vượt NP. ZK gắn thêm ràng buộc “không rò rỉ.”

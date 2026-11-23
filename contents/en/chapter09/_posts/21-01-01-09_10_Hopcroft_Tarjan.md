@@ -56,6 +56,15 @@ Many advanced graph algorithms *begin* with a DFS (or BFS) pass that orients edg
 
 ---
 
+### Short video: Tarjan’s strongly connected components algorithm in O(n + m)
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/tarjan-scc_en.mp4"></video>
+</div>
+
+15-second video: tracking (disc, low) in a single DFS pass on a 6-vertex graph, popping three SCCs whenever low[u] == disc[u] and contracting them into a DAG.
+
+
 ## 3. Planarity: when graphs sit in the plane
 
 A graph is **planar** if it can be drawn in the plane with no edge crossings (equivalently, on a sphere). Kuratowski’s and Wagner’s theorems characterize non-planarity via forbidden subdivisions/minors ($$K_5$$, $$K_{3,3}$$). Characterization is not the same as a fast **test** and **embedding**.
