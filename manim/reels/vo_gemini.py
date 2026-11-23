@@ -1,5 +1,7 @@
 """Helper tạo voiceover tiếng Việt qua Gemini TTS (đọc GEMINI_API_KEY từ biến môi trường)."""
 import base64
+import time
+import urllib.error
 import json
 import os
 import ssl
@@ -16,8 +18,8 @@ def synth_segment(text, out_wav, voice="Orus", model="gemini-2.5-flash-preview-t
         raise RuntimeError("Missing GEMINI_API_KEY in environment")
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
     prompt = (
-        "Đọc bằng giọng nam tiếng Việt phổ thông miền Bắc, rõ ràng, tốc độ vừa phải, "
-        "trầm ấm, dễ nghe như giảng viên toán học. Chỉ đọc nguyên văn phần sau dấu hai chấm: "
+        "Đọc bằng giọng nam tiếng Việt phổ thông miền Bắc, sôi nổi, giàu cảm xúc, nhiệt huyết, "
+        "nhấn nhá tự nhiên và cuốn hút như một người thầy truyền cảm hứng. Chỉ đọc nguyên văn phần sau dấu hai chấm: "
         + text
     )
     payload = {
@@ -39,8 +41,17 @@ def synth_segment(text, out_wav, voice="Orus", model="gemini-2.5-flash-preview-t
         method="POST",
     )
     ctx = ssl.create_default_context(cafile="/etc/ssl/certs/ca-certificates.crt")
-    with urllib.request.urlopen(req, context=ctx, timeout=90) as resp:
-        res = json.loads(resp.read().decode("utf-8"))
+    for attempt in range(6):
+        try:
+            with urllib.request.urlopen(req, context=ctx, timeout=90) as resp:
+                res = json.loads(resp.read().decode("utf-8"))
+            break
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < 5:
+                time.sleep(22 * (attempt + 1))
+            else:
+                raise
+    time.sleep(4)
     part = res["candidates"][0]["content"]["parts"][0]["inlineData"]
     pcm = base64.b64decode(part["data"])
     raw_wav = out_wav + ".raw.wav"

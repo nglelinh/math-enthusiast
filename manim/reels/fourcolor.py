@@ -1,4 +1,5 @@
 from common_b import *
+import json
 
 TX = {
     "title": {"vi": "Tô màu bản đồ:\nBốn màu và số Heawood", "en": "Map coloring:\nFour colors & Heawood"},
@@ -31,31 +32,48 @@ def wipe(scene, keep=()):
 
 class FourColor(Scene):
     def construct(self):
+        vo_path = os.environ.get("VO_DUR_JSON", "")
+        vo_durs = json.load(open(vo_path)) if vo_path and os.path.exists(vo_path) else {}
+        timeline = []
+
+        def start_vo(sid):
+            t0 = float(self.time)
+            timeline.append((sid, t0))
+            return t0
+
+        def end_vo(sid, t0, fallback):
+            if sid in vo_durs:
+                rem = vo_durs[sid] - (float(self.time) - t0) + 1.2
+                self.wait(max(0.8, rem))
+            else:
+                self.wait(fallback)
+
         title = line(TX["title"], 38, WHITE, 6.2)
         self.add(title)
 
-        # --- Phần 1: Bản đồ -> Đồ thị đối ngẫu (22s) ---
+        # --- Phần 1 ---
+        t0 = start_vo("s1")
         s1a = line(TX["s1_a"], 28, SKY, 4.6)
         s1b = line(TX["s1_b"], 26, WHITE, 3.0)
         self.play(FadeIn(s1a), run_time=0.8)
-        self.wait(3.0)
+        self.wait(2.5)
         self.play(FadeIn(s1b), run_time=0.8)
-        self.wait(3.5)
-
+        self.wait(2.5)
         r1 = Polygon([-2.5, 0.5, 0], [0, 0.5, 0], [0, -1.8, 0], [-2.5, -1.8, 0], color=SKY, fill_color=CARD, fill_opacity=0.8)
         r2 = Polygon([0, 0.5, 0], [2.5, 0.5, 0], [2.5, -1.8, 0], [0, -1.8, 0], color=PINK, fill_color=CARD, fill_opacity=0.8)
         r3 = Polygon([-2.5, -1.8, 0], [2.5, -1.8, 0], [2.5, -3.2, 0], [-2.5, -3.2, 0], color=SUN, fill_color=CARD, fill_opacity=0.8)
         self.play(Create(r1), Create(r2), Create(r3), run_time=1.2)
-        self.wait(3.5)
+        self.wait(2.5)
         d1 = Dot([-1.25, -0.65, 0], radius=0.18, color=SKY)
         d2 = Dot([1.25, -0.65, 0], radius=0.18, color=PINK)
         d3 = Dot([0.0, -2.5, 0], radius=0.18, color=SUN)
         de = VGroup(Line(d1, d2, color=WHITE), Line(d2, d3, color=WHITE), Line(d1, d3, color=WHITE))
         self.play(FadeIn(d1), FadeIn(d2), FadeIn(d3), Create(de), run_time=1.0)
-        self.wait(6.5)
+        end_vo("s1", t0, 6.5)
         wipe(self, keep=[title])
 
-        # --- Phần 2: Vì sao 3 màu thất bại trên K4 (24s) ---
+        # --- Phần 2 ---
+        t0 = start_vo("s2")
         s2a = line(TX["s2_a"], 32, PINK, 4.8)
         self.play(FadeIn(s2a), run_time=0.7)
         pts = [
@@ -71,30 +89,28 @@ class FourColor(Scene):
             for i, p in enumerate(pts)
         ])
         self.play(Create(edges), FadeIn(nodes), run_time=1.2)
-        self.wait(3.0)
-
+        self.wait(2.5)
         cols = [PINK, SKY, SUN, MINT]
         for i in range(3):
             self.play(nodes[i][0].animate.set_fill(cols[i], opacity=0.9).set_stroke(cols[i]),
                       nodes[i][1].animate.set_color(BLACK), run_time=0.8)
-            self.wait(1.2)
-
+            self.wait(1.0)
         s2b = line(TX["s2_b"], 26, WHITE, -2.2)
         self.play(FadeIn(s2b), run_time=0.8)
-        self.wait(3.0)
+        self.wait(2.0)
         self.play(nodes[3][0].animate.set_fill(cols[3], opacity=0.95).set_stroke(cols[3]),
                   nodes[3][1].animate.set_color(BLACK), run_time=0.9)
-        self.wait(6.5)
+        end_vo("s2", t0, 6.5)
         wipe(self, keep=[title])
 
-        # --- Phần 3: Định lý 5 màu & Chặn Euler (24s) ---
+        # --- Phần 3 ---
+        t0 = start_vo("s3")
         s3a = line(TX["s3_a"], 32, SUN, 4.7)
         s3b = line(TX["s3_b"], 26, WHITE, 2.9)
         self.play(FadeIn(s3a), run_time=0.7)
-        self.wait(3.0)
+        self.wait(2.5)
         self.play(FadeIn(s3b), run_time=0.9)
-        self.wait(5.5)
-
+        self.wait(4.5)
         e_box = RoundedRectangle(corner_radius=0.14, width=7.5, height=2.2,
                                  fill_color=CARD, fill_opacity=1, stroke_color=SUN, stroke_width=2.5).move_to([0, -0.5, 0])
         e_txt = fit(VGroup(
@@ -102,13 +118,13 @@ class FourColor(Scene):
             T("⇒ Luôn tồn tại đỉnh u với deg(u) ≤ 5" if LANG == "vi" else "⇒ A vertex u with deg(u) ≤ 5 must exist", 25, MINT),
         ).arrange(DOWN, buff=0.25), 6.8).move_to(e_box)
         self.play(FadeIn(e_box), FadeIn(e_txt), run_time=1.0)
-        self.wait(8.0)
+        end_vo("s3", t0, 8.0)
         wipe(self, keep=[title])
 
-        # --- Phần 4: Xích Kempe cả 2 trường hợp (36s) ---
+        # --- Phần 4 ---
+        t0 = start_vo("s4")
         s4a = line(TX["s4_a"], 25, MINT, 4.7)
         self.play(FadeIn(s4a), run_time=0.8)
-
         cen = np.array([0, 0.7, 0])
         u_node = VGroup(Circle(0.38, color=WHITE, fill_color=CARD, fill_opacity=1, stroke_width=3).move_to(cen),
                         T("u", 26, WHITE).move_to(cen))
@@ -124,20 +140,16 @@ class FourColor(Scene):
             c = Circle(0.38, color=nb_cols[k], fill_color=nb_cols[k], fill_opacity=0.9, stroke_width=3).move_to(p)
             t = T(str(k + 1), 24, BLACK).move_to(p)
             nb_nodes.add(VGroup(c, t))
-
         self.play(Create(nb_lines), FadeIn(nb_nodes), FadeIn(u_node), run_time=1.2)
-        self.wait(4.5)
-
+        self.wait(4.0)
         s4b = line(TX["s4_b"], 25, SUN, -2.9)
         self.play(FadeIn(s4b), run_time=0.8)
-        self.wait(3.5)
+        self.wait(3.0)
         self.play(nb_nodes[0][0].animate.set_fill(SUN, opacity=0.9).set_stroke(SUN), run_time=1.0)
-        self.wait(2.0)
+        self.wait(1.8)
         self.play(u_node[0].animate.set_fill(PINK, opacity=0.95).set_stroke(PINK),
                   u_node[1].animate.set_color(BLACK), run_time=1.0)
-        self.wait(5.0)
-
-        # TH2: rào chắn 1-3 -> đổi 2 (SKY <-> MINT)
+        self.wait(4.0)
         self.play(FadeOut(s4b), run_time=0.4)
         self.play(nb_nodes[0][0].animate.set_fill(PINK, opacity=0.9).set_stroke(PINK),
                   u_node[0].animate.set_fill(CARD, opacity=1).set_stroke(WHITE),
@@ -145,18 +157,18 @@ class FourColor(Scene):
         barrier = ArcBetweenPoints(nb_pts[0], nb_pts[2], angle=-1.1, color=SUN, stroke_width=5)
         s4c = line(TX["s4_c"], 25, SKY, -2.9)
         self.play(Create(barrier), FadeIn(s4c), run_time=0.9)
-        self.wait(3.0)
+        self.wait(2.5)
         self.play(nb_nodes[1][0].animate.set_fill(MINT, opacity=0.9).set_stroke(MINT), run_time=0.9)
         self.play(u_node[0].animate.set_fill(SKY, opacity=0.95).set_stroke(SKY),
                   u_node[1].animate.set_color(BLACK), run_time=0.9)
-        self.wait(6.0)
+        end_vo("s4", t0, 6.0)
         wipe(self, keep=[title])
 
-        # --- Phần 5: Bẫy Kempe 4 màu & Số Heawood (28s) ---
+        # --- Phần 5 ---
+        t0 = start_vo("s5")
         s5a = line(TX["s5_a"], 25, PINK, 4.7)
         self.play(FadeIn(s5a), run_time=0.8)
         self.wait(6.5)
-
         s5b = line(TX["s5_b"], 26, SKY, 2.5)
         self.play(FadeIn(s5b), run_time=0.8)
         rows = VGroup()
@@ -167,8 +179,12 @@ class FourColor(Scene):
             txt = T(f"g = {g}   ⇒   H({g}) = {H(g)}", 28, SUN if g == 1 else WHITE).move_to([0, y, 0])
             rows.add(VGroup(box, txt))
         self.play(FadeIn(rows, lag_ratio=0.2), run_time=1.2)
-        self.wait(8.5)
-
+        self.wait(6.0)
         end_c = line(TX["end"], 26, WHITE, -4.5)
         self.play(FadeIn(end_c), run_time=0.8)
-        self.wait(9.0)
+        end_vo("s5", t0, 9.0)
+
+        tl_out = os.environ.get("VO_TIMELINE_JSON", "")
+        if tl_out:
+            with open(tl_out, "w") as f:
+                json.dump({"timeline": timeline, "total": float(self.time)}, f, indent=2)

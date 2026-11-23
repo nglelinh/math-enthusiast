@@ -1,4 +1,5 @@
 from common_b import *
+import json
 
 TX = {
     "title": {"vi": "Chứng minh không tiết lộ:\n3-tô màu đồ thị", "en": "Zero-knowledge proof:\nGraph 3-coloring"},
@@ -17,7 +18,7 @@ TX = {
 }
 
 edges = [(0, 1), (0, 2), (1, 2), (1, 3), (2, 4), (3, 4), (0, 3)]
-coloring = [0, 1, 2, 2, 0]  # 0: PINK, 1: SKY, 2: SUN
+coloring = [0, 1, 2, 2, 0]
 assert all(coloring[u] != coloring[v] for u, v in edges)
 m = len(edges)
 assert m == 7
@@ -34,17 +35,33 @@ def wipe(scene, keep=()):
 
 class ZKP(Scene):
     def construct(self):
+        vo_path = os.environ.get("VO_DUR_JSON", "")
+        vo_durs = json.load(open(vo_path)) if vo_path and os.path.exists(vo_path) else {}
+        timeline = []
+
+        def start_vo(sid):
+            t0 = float(self.time)
+            timeline.append((sid, t0))
+            return t0
+
+        def end_vo(sid, t0, fallback):
+            if sid in vo_durs:
+                rem = vo_durs[sid] - (float(self.time) - t0) + 1.2
+                self.wait(max(0.8, rem))
+            else:
+                self.wait(fallback)
+
         title = line(TX["title"], 38, WHITE, 6.2)
         self.add(title)
 
-        # --- Phần 1: Nghịch lý Zero-Knowledge (24s) ---
+        # --- Phần 1 ---
+        t0 = start_vo("s1")
         s1a = line(TX["s1_a"], 28, SKY, 4.5)
         s1b = line(TX["s1_b"], 26, PINK, 2.7)
         self.play(FadeIn(s1a), run_time=0.8)
-        self.wait(3.5)
+        self.wait(3.0)
         self.play(FadeIn(s1b), run_time=0.8)
-        self.wait(5.5)
-
+        self.wait(4.5)
         peggy = VGroup(Circle(0.55, color=PINK, fill_color=CARD, fill_opacity=1).move_to([-2.2, -0.5, 0]),
                        T("Peggy", 24, PINK).move_to([-2.2, -0.5, 0]))
         victor = VGroup(Circle(0.55, color=SKY, fill_color=CARD, fill_opacity=1).move_to([2.2, -0.5, 0]),
@@ -52,13 +69,13 @@ class ZKP(Scene):
         ch_arr = DoubleArrow([-1.4, -0.5, 0], [1.4, -0.5, 0], color=SUN)
         ch_lbl = T("Thách thức ↔ Phản hồi" if LANG == "vi" else "Challenge ↔ Response", 22, SUN).next_to(ch_arr, UP, buff=0.15)
         self.play(FadeIn(peggy), FadeIn(victor), Create(ch_arr), FadeIn(ch_lbl), run_time=1.0)
-        self.wait(8.0)
+        end_vo("s1", t0, 8.0)
         wipe(self, keep=[title])
 
-        # --- Phần 2: Đồ thị bí mật của Peggy (24s) ---
+        # --- Phần 2 ---
+        t0 = start_vo("s2")
         s2a = line(TX["s2_a"], 28, SKY, 4.9)
         self.play(FadeIn(s2a), run_time=0.7)
-
         pts = [
             np.array([ 0.0,  2.7, 0]),
             np.array([-2.2,  1.2, 0]),
@@ -69,7 +86,6 @@ class ZKP(Scene):
         palette = [PINK, SKY, SUN]
         perm1 = [SUN, PINK, SKY]
         perm2 = [SKY, SUN, PINK]
-
         edge_lines = VGroup(*[Line(pts[u], pts[v], color=DIM, stroke_width=3.5) for u, v in edges])
         nodes = VGroup()
         for i, p in enumerate(pts):
@@ -77,24 +93,22 @@ class ZKP(Scene):
             circ = Circle(0.42, color=col, fill_color=col, fill_opacity=0.9, stroke_width=3.5).move_to(p)
             lbl = T(str(i + 1), 26, BLACK).move_to(p)
             nodes.add(VGroup(circ, lbl))
-
         self.play(Create(edge_lines), FadeIn(nodes), run_time=1.4)
         s2b = line(TX["s2_b"], 26, MINT, -2.5)
         self.play(FadeIn(s2b), run_time=0.8)
-        self.wait(12.5)
+        end_vo("s2", t0, 12.5)
 
-        # --- Phần 3: Vòng 1 & Vòng 2 chi tiết (46s) ---
+        # --- Phần 3 ---
         self.play(FadeOut(s2a), FadeOut(s2b), run_time=0.5)
+        t0 = start_vo("s3")
         s3a = line(TX["s3_a"], 25, SUN, 4.9)
         self.play(FadeIn(s3a), run_time=0.7)
-        self.wait(4.0)
-
+        self.wait(3.0)
         self.play(*[nodes[i][0].animate.set_fill(CARD, opacity=1).set_stroke(DIM) for i in range(5)],
                   *[nodes[i][1].animate.set_color(DIM) for i in range(5)], run_time=1.0)
         s3b = line(TX["s3_b"], 25, MINT, -2.5)
         self.play(FadeIn(s3b), run_time=0.8)
-        self.wait(3.0)
-
+        self.wait(2.5)
         hi_1 = Line(pts[1], pts[3], color=MINT, stroke_width=7)
         self.play(Create(hi_1), run_time=0.6)
         for idx in (1, 3):
@@ -103,9 +117,7 @@ class ZKP(Scene):
                       nodes[idx][1].animate.set_color(BLACK), run_time=0.7)
         s3ok = line(TX["s3_ok"], 24, WHITE, -4.1)
         self.play(FadeIn(s3ok), run_time=0.8)
-        self.wait(7.5)
-
-        # Vòng 2 với hoán vị mới & cạnh (0, 2)
+        self.wait(5.5)
         self.play(FadeOut(s3a), FadeOut(s3b), FadeOut(s3ok), FadeOut(hi_1), run_time=0.5)
         for idx in (1, 3):
             self.play(nodes[idx][0].animate.set_fill(CARD, opacity=1).set_stroke(DIM),
@@ -118,20 +130,19 @@ class ZKP(Scene):
             col = perm2[coloring[idx]]
             self.play(nodes[idx][0].animate.set_fill(col, opacity=0.95).set_stroke(col),
                       nodes[idx][1].animate.set_color(BLACK), run_time=0.7)
-        self.wait(12.0)
+        end_vo("s3", t0, 12.0)
 
-        # --- Phần 4: Kẻ gian dối & Khuếch đại Soundness (34s) ---
+        # --- Phần 4 ---
         self.play(FadeOut(s3c), FadeOut(hi_2), run_time=0.5)
+        t0 = start_vo("s4")
         s4a = line(TX["s4_a"], 28, PINK, 4.9)
         self.play(FadeIn(s4a), run_time=0.7)
-
         bad_cols = [SUN, SKY, PINK, SKY, PINK]
         self.play(*[nodes[i][0].animate.set_fill(bad_cols[i], opacity=0.9).set_stroke(bad_cols[i]) for i in range(5)],
                   *[nodes[i][1].animate.set_color(BLACK) for i in range(5)], run_time=0.9)
         bad_edge = Line(pts[2], pts[4], color=PINK, stroke_width=8)
         self.play(Create(bad_edge), run_time=0.6)
-        self.wait(3.5)
-
+        self.wait(3.0)
         s4b = line(TX["s4_b"], 24, WHITE, -2.1)
         self.play(FadeIn(s4b), run_time=0.7)
         rows = VGroup()
@@ -143,10 +154,11 @@ class ZKP(Scene):
                     23, MINT if k >= 20 else WHITE).move_to([0, y, 0])
             rows.add(VGroup(box, txt))
         self.play(FadeIn(rows, lag_ratio=0.18), run_time=1.4)
-        self.wait(14.5)
+        end_vo("s4", t0, 14.5)
 
-        # --- Phần 5: Simulator & Tổng kết (28s) ---
+        # --- Phần 5 ---
         wipe(self, keep=[title])
+        t0 = start_vo("s5")
         s5a = line(TX["s5_a"], 26, SUN, 3.8)
         sim_box = RoundedRectangle(corner_radius=0.16, width=7.5, height=2.7,
                                    fill_color=CARD, fill_opacity=1, stroke_color=SKY, stroke_width=2.5).move_to([0, 0.5, 0])
@@ -156,8 +168,12 @@ class ZKP(Scene):
             T("3. Nếu Victor chọn đúng e ⇒ hợp lệ! Sai ⇒ lặp lại" if LANG == "vi" else "3. If Victor picks e ⇒ valid! Else ⇒ rewind", 24, MINT),
         ).arrange(DOWN, buff=0.25), 6.8).move_to(sim_box)
         self.play(FadeIn(s5a), FadeIn(sim_box), FadeIn(sim_txt), run_time=1.2)
-        self.wait(14.5)
-
+        self.wait(8.0)
         end_c = line(TX["end"], 28, WHITE, -3.2)
         self.play(FadeIn(end_c), run_time=0.8)
-        self.wait(14.5)
+        end_vo("s5", t0, 14.5)
+
+        tl_out = os.environ.get("VO_TIMELINE_JSON", "")
+        if tl_out:
+            with open(tl_out, "w") as f:
+                json.dump({"timeline": timeline, "total": float(self.time)}, f, indent=2)
