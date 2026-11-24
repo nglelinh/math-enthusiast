@@ -10,6 +10,25 @@ categories:
 lesson_type: optional
 ---
 
+The core ideas of Chapter 3—modular arithmetic in RSA, graphs in web search, gradients in optimization, and Fourier transforms in signal processing—are decades to centuries old. Have they settled into museum pieces? Quite the opposite. Between **2022 and 2026**, four technological breakthroughs grew directly out of those classical foundations, reshaping internet security, scientific AI, and physical simulation: lattice-based cryptography became an official U.S. federal standard; Transformers merged with graph neural networks; neural operators began solving PDEs directly in Fourier space; and diffusion models started generating images by integrating stochastic differential equations backward in time.
+
+This optional update places those four 2022–2026 landmarks directly on top of Chapter 3’s mathematical toolkit—showing exactly which classical coordinates stayed fixed and which new layers were built on top.
+
+---
+
+## Background Knowledge Map: How Do 2022–2026 Breakthroughs Extend Classical Chapter 3 Math?
+
+What makes the 2022–2026 wave so illuminating is that it **never discards** Chapter 3’s mathematics—it upgrades either the *coordinate system* or the *underlying hard problem* by one level:
+
+| Classical thread (Chapter 3) | Bottleneck at 2022–2026 scale | Modern leap (2022–2026) |
+|---|---|---|
+| **Number-theoretic crypto** (RSA, ECC) | Threatened by Shor’s algorithm on a future fault-tolerant quantum computer. | **NIST FIPS 203/204/205:** migrates to lattice geometry (Module-LWE) and hash-based signatures. |
+| **Graphs & message-passing GNNs** | Passing messages only to immediate neighbors causes long-range *over-squashing*. | **Graph Transformers (GraphGPS):** fuse local message passing with linear-time global attention $$O(N+E)$$. |
+| **Classical PDE solvers** (FEM, CFD) | Too slow when thousands of forward runs are needed for design or weather ensembles. | **Neural Operators (FNO):** learn maps directly between *function spaces*, running $$100\times$$–$$1000\times$$ faster at inference. |
+| **Fourier analysis & SDEs** | Classical filters are hand-crafted; generative sampling needs stable reverse paths. | **Learned frequency filters** ($$\widehat{K}$$ trained by gradient descent) & **Diffusion models** reversing ODEs/SDEs. |
+
+---
+
 ## Learning objectives
 
 After this optional update you should be able to attach one 2022–2026 citation to each of four Chapter 3 migrations—public-key cryptography, graphs, optimization-adjacent scientific ML, and Fourier-flavored PDE surrogates—without rewriting the required mechanism lectures.
@@ -25,6 +44,20 @@ Chapter 3 already told the migration stories: modular arithmetic became a handsh
 ## Conceptual development
 
 A key-encapsulation mechanism produces a shared secret $$K$$ from public encapsulation. Classically, $$K$$ is protected by factoring or discrete log. After Shor, the hardness assumption moves. Graph learning, meanwhile, still needs a representation of a vertex $$v$$ that mixes *neighbors* with a *global* token mix. Fourier neural operators implement a learned kernel as a multiplier $$\widehat{K}(k)$$ in frequency space—the same dual picture as the Fourier lecture, now trained rather than designed.
+
+### Deep-Dive Explanation: Reading a 2022–2026 Applied Math Paper Without Getting Lost in Jargon (Read Slowly)
+
+Whenever a headline announces a dazzling new architecture or cryptographic standard, you can decode it in four calm steps—and check the mechanism on a concrete miniature calculation:
+
+1. **Name the classical engine underneath:** ML-KEM is still linear algebra modulo $$q$$; GraphGPS is still graph adjacency plus matrix multiplication; FNO is still FFT/IFFT; Diffusion is still numerical ODE/SDE integration.
+2. **Pinpoint the exact bottleneck removed:** Replacing factoring with Module-LWE removes the periodic structure Shor exploits; replacing $$O(N^2)$$ all-pairs attention with $$O(N+E)$$ hybrid attention scales to large graphs; replacing per-instance PDE solving with a learned operator $$\mathcal{G}$$ amortizes cost across thousands of queries.
+3. **Separate what is “hard-coded” from what is “learned”:** Let us verify how a **Fourier Neural Operator (FNO)** layer acts on a 4-sample 1D signal $$u = (1, 0, -1, 0)$$ by hand:
+   - **Fixed FFT step:** Its 4-point DFT is $$\widehat{u} = (0, 2, 0, 2)$$ (pure cosine mode at frequency $$k = \pm 1$$).
+   - **Learned spectral multiplier:** Suppose the network learns a single complex weight $$\widehat{K}_1 = 0.5$$ on the low-frequency mode (damping it by half) and zeros out high modes: $$\widehat{v} = (0, 1, 0, 1)$$.
+   - **Fixed IFFT step:** Transforming back gives $$v = (0.5, 0, -0.5, 0)$$—a global convolution across the entire domain computed in a single multiplication, independent of grid spacing!
+4. **Inspect the validity domain and hardness assumptions:** FIPS standards rest on the conjectured hardness of Module-LWE; learned PDE surrogates are only trustworthy inside the parameter regime (such as the Reynolds-number range) seen during training.
+
+**Quick check:** Modern applied mathematics rarely erases classical mathematics—it builds new optimization and architectural layers directly on top of classical coordinates.
 
 ## Four updates
 

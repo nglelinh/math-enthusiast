@@ -9,15 +9,28 @@ categories:
 - chapter06
 ---
 
-Richard Feynman’s **path integral** rewrites quantum amplitudes as a “sum over histories”: roughly
+In classical mechanics, a tossed baseball follows one single parabolic arc—the unique trajectory that makes the *action* $$S[q]$$ stationary. Rethinking the double-slit experiment in the late 1940s, Richard Feynman pushed that picture to a breathtaking extreme: imagine opening three slits, four slits, then punching infinitely many holes through infinitely many screens between start and finish. A quantum particle traveling from $$(q_i,t_i)$$ to $$(q_f,t_f)$$ **does not pick one path—it explores every conceivable path simultaneously**, weighting each trajectory $$q(\cdot)$$ by a spinning unit complex arrow $$\exp\!\bigl(\tfrac{i}{\hbar}S[q]\bigr)$$:
 
 $$
-\langle q_f,t_f|q_i,t_i\rangle \;\sim\; \int \mathcal{D}q\; \exp\!\Big(\frac{i}{\hbar}S[q]\Big),
+\langle q_f,t_f|q_i,t_i\rangle \;\sim\; \int \mathcal{D}q\; \exp\!\Big(\frac{i}{\hbar}S[q]\Big).
 $$
 
-where $$S[q]$$ is the classical action of a path from $$(q_i,t_i)$$ to $$(q_f,t_f)$$. The idea is physically brilliant—classical paths dominate by stationary phase when $$\hbar$$ is small; interference encodes quantum mechanics—and it organizes perturbation theory, instanton calculus, and large parts of quantum field theory pedagogy.
+As a physical idea, the **path integral** is dazzling: when $$\hbar$$ is small, wildly oscillating phases cancel out away from the classical path, while interference encodes all of quantum mechanics. Yet under the microscope of mathematical analysis, the symbol $$\mathcal{D}q$$ hides a sharp catch: there is **no translation-invariant Lebesgue measure on infinite-dimensional path space**. This lecture cleanly separates **the idea**, **what is already a theorem**, and **what remains heuristic**. Prerequisites: [Hilbert / QM]({{ site.baseurl }}/contents/en/chapter06/06_18_Hilbert_Spectral_QM/); companion: [distributions]({{ site.baseurl }}/contents/en/chapter03/03_12_Distributions_Dirac/).
 
-Mathematically, the object $$\mathcal{D}q$$ is subtle: there is typically **no Lebesgue measure on infinite-dimensional path space** with the properties physicists casually assume. This lecture separates **the idea**, **what can be made rigorous**, and **what remains heuristic**, for Bridge literacy (**LO1**, **LO6**). Prerequisites: [Hilbert / QM]({{ site.baseurl }}/contents/en/chapter06/06_18_Hilbert_Spectral_QM/); companion: [distributions]({{ site.baseurl }}/contents/en/chapter03/03_12_Distributions_Dirac/).
+---
+
+## Background Knowledge Map: What Do Functional Integration, Infinite-Dimensional Measure Theory, and Asymptotics Study?
+
+When the variable of integration is no longer a point $$x \in \mathbb{R}^n$$ but an entire **continuous curve** $$q: [0,T] \to \mathbb{R}^d$$, three branches of analysis meet:
+
+### 1. Infinite-Dimensional Measure Theory and Wiener Measure
+In $$\mathbb{R}^n$$, a cube of side $$2$$ has volume $$2^n \to \infty$$ as $$n \to \infty$$, while a cube of side $$1/2$$ has volume $$(1/2)^n \to 0$$—so **no uniform "volume" (Lebesgue measure) exists on infinite-dimensional path space**. Norbert Wiener's 1923 breakthrough was to absorb the Gaussian kinetic factor $$e^{-\frac{1}{2}\int \dot{q}^2 dt}$$ *into* the measure itself, producing **Wiener measure**—a completely rigorous probability measure on continuous paths that underpins Brownian motion, quantitative finance (Black–Scholes), and the Feynman–Kac formula for imaginary-time quantum mechanics.
+
+### 2. Stationary Phase and Asymptotic Analysis
+For finite-dimensional oscillatory integrals $$\int e^{iS(x)/\hbar} a(x)\,dx$$ as $$\hbar \to 0$$, asymptotic analysis proves that the dominant contribution comes strictly from neighborhoods of **critical points** $$S'(x_0) = 0$$ (or saddles in imaginary time). Physically, this explains how classical least-action trajectories emerge from quantum interference.
+
+### 3. Time-Slicing (Trotter) and Constructive Field Theory
+To give $$\mathcal{D}q$$ precise meaning, mathematicians discretize time (or all of spacetime) into $$N$$ slices—reducing the path integral to an ordinary $$N$$-variable integral—and study the $$N \to \infty$$ limit via the **Trotter product formula** in quantum mechanics or lattice regularization in constructive QFT.
 
 ---
 
@@ -28,7 +41,7 @@ After this lecture you should be able to:
 - State the path-integral slogan and its relation to the classical action $$S$$.
 - Explain stationary-phase / $$\hbar\to 0$$ intuition connecting path integrals to classical mechanics.
 - Distinguish **real-time Feynman integrals**, **imaginary-time (Euclidean) integrals**, and **Wiener measure**.
-- Name at least two rigorous footholds (e.g. Trotter product formula heuristics → Schrödinger; Wiener measure for Brownian motion / imaginary time).
+- Name at least two rigorous footholds (e.g. Trotter product formula → Schrödinger; Wiener measure for Brownian motion / imaginary time).
 - Place path integrals in QFT: generating functionals, Feynman diagrams, and the open constructive status in 4D ([YM mass gap]({{ site.baseurl }}/contents/en/chapter01/01_10_Yang_Mills_Mass_Gap/)).
 - Critique popular claims that “the path integral is fully rigorous mathematics for all QFTs.”
 
@@ -38,7 +51,26 @@ After this lecture you should be able to:
 
 Dirac (1930s) emphasized that short-time propagators relate to $$\exp(iS/\hbar)$$. Feynman (1948) turned the idea into a systematic formulation of quantum mechanics equivalent (under suitable conditions) to the Schrödinger picture: discretize time, integrate over intermediate positions, take a continuum limit.
 
-**One-step mechanism (LO4).** Quantum evolution is assembled from **amplitudes of entire trajectories**, weighted by phase $$e^{iS/\hbar}$$, not only from differential evolution of a wavefunction—though the two pictures match when both are well-defined.
+### Deep-Dive Explanation: Slicing Time and Summing Over Paths by Hand (Read Slowly)
+
+To see that a path integral is not magic, let us compute the imaginary-time (Euclidean) propagator of a 1D free particle ($$m = 1, \hbar = 1$$) traveling from $$q_0 = 0$$ at $$\tau = 0$$ to $$q_2 = x$$ at $$\tau = 2\varepsilon$$ through **one intermediate point** $$q_1 \in \mathbb{R}$$ (summing over all two-segment polygonal paths $$0 \to q_1 \to x$$):
+
+1. **Write the Euclidean action of the polygonal path:** With velocities $$\frac{q_1 - 0}{\varepsilon}$$ and $$\frac{x - q_1}{\varepsilon}$$, the total action $$S_E = \frac{1}{2}\sum v^2 \varepsilon$$ is
+   $$
+   S_E(q_1) = \frac{q_1^2}{2\varepsilon} + \frac{(x - q_1)^2}{2\varepsilon}.
+   $$
+2. **Complete the square in $$q_1$$:**
+   $$
+   q_1^2 + (x - q_1)^2 = 2q_1^2 - 2xq_1 + x^2 = 2\Bigl(q_1 - \frac{x}{2}\Bigr)^2 + \frac{x^2}{2}.
+   $$
+   Notice that the minimum action occurs right at $$q_1^* = \frac{x}{2}$$—the midpoint on the classical straight-line path!
+3. **Integrate over all intermediate positions $$q_1 \in (-\infty,\infty)$$** (using $$\int_{-\infty}^{\infty} e^{-u^2/\varepsilon}\,du = \sqrt{\pi\varepsilon}$$):
+   $$
+   K(0 \to x;\, 2\varepsilon) = \int_{-\infty}^{\infty} \frac{1}{\sqrt{2\pi\varepsilon}}e^{-\frac{q_1^2}{2\varepsilon}} \cdot \frac{1}{\sqrt{2\pi\varepsilon}}e^{-\frac{(x-q_1)^2}{2\varepsilon}}\,dq_1 = \frac{1}{2\pi\varepsilon}\,e^{-\frac{x^2}{4\varepsilon}} \int_{-\infty}^{\infty} e^{-\frac{(q_1 - x/2)^2}{\varepsilon}}\,dq_1 = \frac{1}{\sqrt{4\pi\varepsilon}}\,e^{-\frac{x^2}{4\varepsilon}}.
+   $$
+4. **Check the result:** With $$T = 2\varepsilon$$, $$\frac{1}{\sqrt{2\pi T}}e^{-x^2/(2T)}$$ is **exact**—it is the heat kernel solving $$\partial_T u = \frac{1}{2}\partial_x^2 u$$ (standard Brownian motion)! Repeating with $$N$$ slices and sending $$N \to \infty$$ reproduces Wiener measure rigorously.
+
+**Core mechanism.** Quantum evolution is assembled from **amplitudes of entire trajectories**, weighted by phase $$e^{iS/\hbar}$$ (or $$e^{-S_E/\hbar}$$ in Euclidean time), not only from differential evolution of a wavefunction—though the two pictures match when both are well-defined.
 
 ---
 
@@ -58,7 +90,7 @@ are classical analysis. Stationary phase says leading asymptotics as $$\hbar\to 
 
 Path space $$C([0,T],\mathbb{R}^d)$$ is infinite-dimensional. There is no translation-invariant Lebesgue measure that behaves like finite-dimensional volume. The formal symbol $$\mathcal{D}q$$ must be interpreted as a **limit of finite-dimensional integrals**, a **Gaussian-type measure with a different quadratic form**, or another constructive prescription—not as “Lebesgue measure on paths.”
 
-**Real time** makes the integrand oscillatory ($$e^{iS/\hbar}$$), which is analytically harder than positive integrands. **Wick rotation** $$t\to -i\tau$$ (when justifiable) turns many problems into **Euclidean** integrals with damping $$e^{-S_E/\hbar}$$, closer to statistical mechanics.
+**Real time** makes the integrand oscillatory ($$e^{iS/\hbar}$$), which is analytically harder than positive integrands (Cameron's 1960 theorem proves that even the complex Gaussian weight does not form a countably additive complex measure of bounded variation). **Wick rotation** $$t\to -i\tau$$ (when justifiable) turns many problems into **Euclidean** integrals with damping $$e^{-S_E/\hbar}$$, closer to statistical mechanics.
 
 ---
 
@@ -69,7 +101,7 @@ Path space $$C([0,T],\mathbb{R}^d)$$ is infinite-dimensional. There is no transl
 | Brownian motion | **Wiener measure** on continuous paths | Fully rigorous; expectation of functionals well-defined |
 | Imaginary-time QM | Feynman–Kac formula linking semigroups $$e^{-\tau H/\hbar}$$ to path expectations | Theorems under hypotheses on $$V$$ |
 | Finite-dim lattice QFT | Ordinary integrals over many variables | Well-defined; continuum limit is the hard step |
-| Perturbative QFT | Formal series of Feynman diagrams | Powerful; Borel/ renormalon issues; not a non-perturbative definition |
+| Perturbative QFT | Formal series of Feynman diagrams | Powerful; Borel/renormalon issues; not a non-perturbative definition |
 | Constructive 4D YM | Continuum measure with gap | [Clay open]({{ site.baseurl }}/contents/en/chapter01/01_10_Yang_Mills_Mass_Gap/) |
 
 The **Trotter product formula** and related operator theorems justify some continuum limits for quantum mechanics with reasonable potentials—connecting lattice path sums to $$e^{-itH/\hbar}$$ without pretending $$\mathcal{D}q$$ is elementary Lebesgue measure.
@@ -94,7 +126,7 @@ In QFT, path integrals formally compute correlation functions by integrating ove
 
 ---
 
-## 7. Precision versus hype (LO6)
+## 7. Precision versus hype
 
 | Claim | Verdict | Correction |
 |-------|---------|------------|

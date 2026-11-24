@@ -9,9 +9,9 @@ categories:
 - chapter09
 ---
 
-**John E. Hopcroft** and **Robert E. Tarjan** shared the **A.M. Turing Award 1986** for fundamental achievements in the design and analysis of algorithms and data structures. If Turing essays on complexity and cryptography feel like maps of *impossibility*, this essay is about the complementary craft: **making graph problems fast**, with implementations that scale, proofs that certify asymptotic bounds, and data structures that turn mathematical structure into linear or near-linear time.
+In the early 1970s, as electronic circuit boards grew dense with thousands of tangled wires, engineers faced a make-or-break geometric-combinatorial puzzle: *how quickly can you test whether a circuit graph can be drawn flat on a plane with zero crossing wires?* Everyone knew Kuratowski's theorem forbidding $$K_5$$ and $$K_{3,3}$$ subdivisions, yet searching for forbidden subgraphs naively took $$O(n^6)$$ time—completely unusable on real chips. Then **John E. Hopcroft** and **Robert E. Tarjan** pulled off an algorithmic miracle: with a single clever **depth-first search (DFS)** pass, they tested planarity in **linear time $$O(n)$$**—barely slower than reading the input!
 
-The story is not “graphs are useful in industry” as a slogan. It is that **algorithmic graph theory** became a mature mathematical engineering science: depth-first search (DFS) as a theorem-shaped tool, planarity testing in linear time, connectivity and strong components, and a culture of careful amortization (union-find and friends) that still defines how textbooks teach algorithms. Cross-links: [graph theory & networks]({{ site.baseurl }}/contents/en/chapter03/03_06_Graph_Theory_Networks/), [four color]({{ site.baseurl }}/contents/en/chapter01/01_09_Four_Color_Theorem/) and [four-color proof culture]({{ site.baseurl }}/contents/en/chapter05/05_07_Four_Color_Proof/), [P vs NP]({{ site.baseurl }}/contents/en/chapter01/01_03_P_vs_NP/). Official materials: [amturing.acm.org](https://amturing.acm.org/).
+Hopcroft and Tarjan shared the **A.M. Turing Award in 1986** for fundamental achievements in the design and analysis of algorithms and data structures. If complexity and cryptography essays feel like maps of *impossibility*, this essay is about the complementary craft: **making graph problems fast**, with implementations that scale, proofs that certify asymptotic bounds, and data structures that turn mathematical structure into linear or near-linear time. Cross-links: [graph theory & networks]({{ site.baseurl }}/contents/en/chapter03/03_06_Graph_Theory_Networks/), [four color]({{ site.baseurl }}/contents/en/chapter01/01_09_Four_Color_Theorem/), [four-color proof culture]({{ site.baseurl }}/contents/en/chapter05/05_07_Four_Color_Proof/), [P vs NP]({{ site.baseurl }}/contents/en/chapter01/01_03_P_vs_NP/). Official materials: [amturing.acm.org](https://amturing.acm.org/).
 
 ---
 
@@ -19,7 +19,20 @@ The story is not “graphs are useful in industry” as a slogan. It is that **a
 
 After this lecture you should be able to explain why Hopcroft–Tarjan represent *efficient algorithms and data structures* as a Turing-scale contribution; describe DFS as more than a coding pattern—as a producer of discovery times, low-link values, and structural decompositions; state that planarity testing admits linear-time algorithms (Hopcroft–Tarjan among classical milestones) without reproducing the full algorithm; name union-find / disjoint-set culture as amortized data-structure thinking; and connect algorithmic graph theory to networks, map coloring, and the boundary between polynomial graph algorithms and NP-complete graph problems.
 
-**Prerequisites / seminar links.** Graphs as vertices and edges; adjacency lists; big-O literacy. Recommended: [graphs & networks]({{ site.baseurl }}/contents/en/chapter03/03_06_Graph_Theory_Networks/), [Euler / Königsberg spirit]({{ site.baseurl }}/contents/en/chapter05/05_05_Euler_Konigsberg/), complexity map for hardness contrasts ([Ch.6]({{ site.baseurl }}/contents/en/chapter06/06_07_Complexity_Theory/)). Chapter hub: [Turing overview]({{ site.baseurl }}/contents/en/chapter09/09_00_Overview/).
+**Prerequisites / cross-links.** Graphs as vertices and edges; adjacency lists; big-O literacy. Recommended: [graphs & networks]({{ site.baseurl }}/contents/en/chapter03/03_06_Graph_Theory_Networks/), [Euler / Königsberg spirit]({{ site.baseurl }}/contents/en/chapter05/05_05_Euler_Konigsberg/), complexity map for hardness contrasts ([Ch.6]({{ site.baseurl }}/contents/en/chapter06/06_07_Complexity_Theory/)). Chapter hub: [Turing overview]({{ site.baseurl }}/contents/en/chapter09/09_00_Overview/).
+
+---
+
+## Background Knowledge Map: What Are Algorithmic Graph Theory and Amortized Analysis?
+
+To many computer science undergraduates, **depth-first search (DFS)** looks like ten lines of recursion for visiting nodes. In the hands of **Algorithmic Graph Theory**, however, DFS is a **structural X-ray machine**: in a single $$O(n+m)$$ pass touching each vertex and edge once, it exposes every cycle, single point of failure (bridges and articulation points), and mutually reachable cluster (strongly connected components) in a million-node network—work that compilers, package managers (`npm`/`pip`), and routers execute every second.
+
+Running alongside graph algorithms is a razor-sharp analytical tool perfected by Tarjan: **Amortized Analysis**. To feel the difference between *per-step worst-case* and *amortized* cost, picture a dynamic array (`std::vector` in C++ or `list` in Python):
+- Most `append` operations take $$O(1)$$ (drop into the next free slot).
+- Occasionally, when the array fills up, you allocate a new array of double capacity and copy all $$n$$ elements—one single expensive $$O(n)$$ step.
+- Yet summing the entire sequence of $$n$$ appends yields $$n + (1 + 2 + 4 + \dots + n) < 3n$$, so the **amortized cost per operation is still $$O(1)$$**!
+
+Amortized analysis uses a **potential function**—just like stored energy in physics: cheap operations deposit a little potential into the data structure so that when a rare expensive step hits (like compressing a deep path in Union–Find), stored potential pays the bill automatically. Using this lens, Tarjan proved that $$m$$ Union–Find operations on $$n$$ elements cost only $$O(m\,\alpha(n))$$, where the inverse Ackermann function $$\alpha(n) \le 4$$ even if $$n$$ exceeds the atoms in the observable universe!
 
 ---
 
@@ -45,6 +58,19 @@ Hopcroft’s broader influence also includes automata theory and education (clas
 **Depth-first search** explores a graph by going deep along unused edges before backtracking. Implemented carefully on adjacency lists, DFS runs in $$O(n+m)$$ time and produces a forest of **DFS trees** (plus classification of edges: tree edges, back edges, forward/cross edges depending on directed vs undirected setting).
 
 The mathematical payoff is the **timestamps** and auxiliary values computed during the search. Discovery and finishing times yield parentheses structure: the intervals of active recursion nest or are disjoint. In directed graphs, finishing times support topological ideas and the classical **strongly connected components** algorithms (Kosaraju; Tarjan’s single-pass SCC algorithm using low-link values).
+
+### Worked Example (Step by Step): Hand-Tracing Tarjan's SCC Algorithm on a 4-Vertex Graph
+
+Take a directed graph on 4 vertices $$\{1, 2, 3, 4\}$$ with 4 edges: $$1\to 2,\ 2\to 3,\ 3\to 1$$ (a closed cycle) and $$3\to 4$$ (a dead end). Start DFS at vertex `1`:
+
+| Step | DFS Action | Updated `(disc, low)` | Stack | Emitted SCC |
+|---|---|---|---|---|
+| 1 | Visit `1` → move to `2` → move to `3` | `1:(1,1)`, `2:(2,2)`, `3:(3,3)` | `[1, 2, 3]` | — |
+| 2 | From `3`, see back-edge $$3\to 1$$ (`1` is on stack) | `low[3] = min(3, disc[1]) = 1` | `[1, 2, 3]` | — |
+| 3 | From `3`, visit `4`; `4` has no outgoing edges and `low[4]==disc[4]==4` | `4:(4,4)` | `[1, 2, 3]` (pop `4`) | **SCC #1: `{4}`** |
+| 4 | Backtrack `3→2→1`: propagate `low=1` up to `2` and `1`; at `1`, `low[1]==disc[1]==1` | `2:(2,1)`, `1:(1,1)` | `[]` (pop `3,2,1`) | **SCC #2: `{1, 2, 3}`** |
+
+In a single $$O(n+m)$$ pass touching 4 vertices and 4 edges, Tarjan's algorithm cleanly partitions the graph into 2 SCCs and outputs them in reverse topological order!
 
 ### Low-link values and articulation points
 
@@ -93,6 +119,15 @@ Efficient graph algorithms depend on **data structures** that support operations
 **Disjoint-set union (union-find)** maintains a partition of a universe under operations $$\mathrm{Find}(x)$$ (which set contains $$x$$?) and $$\mathrm{Union}(A,B)$$. With union by rank and path compression, the amortized cost per operation is nearly constant—inverse-Ackermann slow growth, a famous Tarjan analysis landmark. Kruskal’s minimum spanning tree algorithm is the canonical consumer: sort edges, union endpoints if not already connected.
 
 **Amortized analysis** is a mathematical culture: bound total cost of a sequence of operations, not each operation in isolation. Potential functions make the accounting resemble energy in physics—another place algorithms feel like pure math.
+
+### Deep-Dive Explanation: Why Amortized Analysis Proves Union–Find Is Nearly $$O(1)$$ (Read Slowly)
+
+1. **Separate single-step cost from sequence cost:** a single `Find(x)` climbing a deep branch may take many steps, yet while doing so, **path compression** rewires every node on that path straight to the root—making *every subsequent lookup* virtually free!
+2. **Treat a potential function $$\Phi$$ as a savings account:** define amortized cost $$\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})$$. Cheap operations slightly raise $$\Phi$$ (depositing savings); rare expensive compressions drop $$\Phi$$ sharply (withdrawing savings to cover the cost).
+3. **Bound the total cost on the worst-case sequence:** summing over $$m$$ operations telescopes the $$\Phi$$ terms, guaranteeing $$\sum c_i \le \sum \hat{c}_i$$ for **every adversarial sequence of calls** (no random-input assumption needed!).
+4. **The inverse Ackermann function $$\alpha(n)$$ emerges naturally:** combining *union by rank* and *path compression*, Tarjan proved total cost is $$O(m\,\alpha(n))$$, with $$\alpha(n) \le 4$$ for every practical $$n$$ in the universe.
+
+**Quick check.** *Amortized* analysis is a **worst-case guarantee over an entire sequence of operations**, never an "average over random inputs" (*average-case*).
 
 Hopcroft–Tarjan influence is not only “invented algorithm X” but “made rigorous the idea that **data structure + graph structure** yields linear-time miracles.”
 

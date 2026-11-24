@@ -9,9 +9,9 @@ categories:
 - chapter09
 ---
 
-In **1936**, before electronic stored-program computers existed as consumer objects, **Alan Turing** published *On Computable Numbers, with an Application to the Entscheidungsproblem*. The paper did two things that still structure theoretical computer science: it proposed a precise mathematical model of mechanical calculation—the **Turing machine**—and it proved that some natural decision problems are **undecidable**: no algorithm, running forever if needed, can correctly answer every instance.
+In 1928, the great mathematician David Hilbert stood before the International Congress of Mathematicians and voiced an optimistic dream: could there exist a purely **mechanical procedure**—something anyone could execute blindly step by step—that takes any mathematical statement and outputs a definitive *True* or *False*? In German, this was the **Entscheidungsproblem** (the Decision Problem). Eight years later, in **1936**, before electronic stored-program computers existed as consumer objects, twenty-three-year-old **Alan Turing** closed that dream forever with *On Computable Numbers, with an Application to the Entscheidungsproblem*.
 
-This lecture is about **what can be computed at all**, not yet about what can be computed *quickly*. Efficiency and NP-completeness come later. Here the drama is absolute: some well-posed questions about programs and formulas lie beyond every possible general method. That limit is a theorem, not a temporary lack of clever code.
+The paper did two things that still structure theoretical computer science: it proposed a precise mathematical model of mechanical calculation—the **Turing machine**—and it proved that some natural decision problems are **undecidable**: no algorithm, running forever if needed, can correctly answer every instance. This lecture is about **what can be computed at all**, not yet about what can be computed *quickly*. Efficiency and NP-completeness come later. Here the drama is absolute: some well-posed questions about programs and formulas lie beyond every possible general method. That limit is a theorem, not a temporary lack of clever code.
 
 ---
 
@@ -24,12 +24,24 @@ After this lecture you should be able to:
 - State the **Church–Turing thesis** as a working identification of “effectively calculable” with Turing-computable (a thesis, not a theorem).
 - Sketch why the **halting problem** is undecidable (diagonal / self-reference idea).
 - Connect undecidability to Hilbert’s **Entscheidungsproblem** and to the idea of a **universal machine**.
-- Apply **LO6**: distinguish mathematical undecidability from “my laptop is slow” or “this app crashes.”
+- Distinguish mathematical undecidability from “my laptop is slow” or “this app crashes.”
 - Cross-link to [Gödel]({{ site.baseurl }}/contents/en/chapter05/05_04_Godel_Incompleteness/) and [P vs NP]({{ site.baseurl }}/contents/en/chapter01/01_03_P_vs_NP/) without collapsing the three stories.
 
 **Prerequisites.** Comfort with algorithms as finite descriptions of step-by-step processes; basic logic vocabulary (yes/no questions, proof vs computation). No automata theory course required.
 
-**Seminar links.** LO1, LO6; [Gödel incompleteness]({{ site.baseurl }}/contents/en/chapter05/05_04_Godel_Incompleteness/); [P vs NP]({{ site.baseurl }}/contents/en/chapter01/01_03_P_vs_NP/); [Complexity theory]({{ site.baseurl }}/contents/en/chapter06/06_07_Complexity_Theory/); [What Is the Turing Award?]({{ site.baseurl }}/contents/en/chapter09/09_02_What_Is_Turing_Award/).
+**Cross-links.** [Gödel incompleteness]({{ site.baseurl }}/contents/en/chapter05/05_04_Godel_Incompleteness/); [P vs NP]({{ site.baseurl }}/contents/en/chapter01/01_03_P_vs_NP/); [Complexity theory]({{ site.baseurl }}/contents/en/chapter06/06_07_Complexity_Theory/); [What Is the Turing Award?]({{ site.baseurl }}/contents/en/chapter09/09_02_What_Is_Turing_Award/).
+
+---
+
+## Background Knowledge Map: What Is Computability Theory and What Does It Study?
+
+Have you ever wondered while coding why nobody has built a static analyzer or linter that guarantees 100% of the time whether an arbitrary Python script will ever hang in an infinite loop? The obstacle isn't a shortage of clever engineers or faster CPUs—it is an **impossibility theorem** at the heart of **Computability Theory (Recursion Theory)**.
+
+This branch of mathematics asks a crystal-clear question: **if you are granted arbitrarily large (but finite) time and memory, which problems have an algorithm and which have none at all?**
+- To answer *"Yes,"* you only need to exhibit one working program.
+- To answer *"No,"* you must first define mathematically what *"every possible program"* means—and the **Turing machine** is that canonical definition.
+
+To feel how austere yet mighty a Turing machine is, imagine checking whether a binary string (like `10110`) contains an odd number of `1`s. You need just **2 states** (`Even` and `Odd`). The head slides left to right one cell at a time: seeing a `1` flips `Even ↔ Odd`, seeing a `0` leaves the state alone; upon hitting the blank at the end, `Odd` accepts and `Even` rejects. The miracle is that merely by adding more states and letting the head move backward and overwrite symbols, this humble paper-tape device can simulate **every supercomputer on Earth**!
 
 ---
 
@@ -53,6 +65,18 @@ A **Turing machine** consists of:
 - a **transition function** that, given current state and scanned symbol, specifies a new symbol to write, a direction to move (left/right), and a next state.
 
 Computation proceeds in discrete steps. On an input string written on the tape, the machine runs until it enters a designated halting configuration—or it may run forever.
+
+### Worked Example 1 (Step by Step): Hand-Running a 3-State Turing Machine That Adds 1 to Binary `1011` ($$11 \to 12$$)
+
+Let's design a Turing machine with just **3 states** (`FindEnd`, `AddCarry`, `Halt`) that increments any binary integer by 1:
+- In `FindEnd`: seeing `0` or `1`, keep it and move **Right**; seeing blank `_`, move **Left** and switch to `AddCarry`.
+- In `AddCarry`: seeing `1`, write `0` (carry 1) and move **Left**; seeing `0` or `_`, write `1` (carry finished) and enter `Halt`.
+
+Trace each tick of the clock on tape `1011_` (brackets mark the head's current cell):
+1. `FindEnd` glides past all 4 bits to `_`, steps back to the last bit: `101[1]` (state `AddCarry`).
+2. Reads `1` → writes `0`, moves left: `10[1]0` (still `AddCarry`).
+3. Reads `1` → writes `0`, moves left: `1[0]00` (still `AddCarry`).
+4. Reads `0` → writes `1`, halts: `1100` ($$12_{10}$$) — **exact!**
 
 Despite the model’s poverty of hardware, it is astonishingly expressive. With suitable encoding, Turing machines can simulate arithmetic, parse formulas, run any algorithm you can describe carefully, and even simulate other Turing machines. Variants (multi-tape, multi-head, nondeterministic) change constant factors and convenience, not the broad class of computable languages—up to standard equivalences taught in computability courses.
 
@@ -94,9 +118,28 @@ $$
 **Theorem (Turing).** $$\textsc{Halt}$$ is undecidable: no Turing machine $$H$$ correctly determines, for every pair $$\langle M,x\rangle$$, whether $$M$$ halts on $$x$$.
 </div>
 
-**Idea of the proof (diagonal).** Suppose toward contradiction that a decider $$H$$ exists. Build a machine $$D$$ that on input $$\langle M \rangle$$ runs $$H$$ on $$\langle M, \langle M \rangle \rangle$$ and then does the opposite of $$M$$’s predicted behavior: if $$H$$ says $$M$$ halts on its own description, $$D$$ loops forever; if $$H$$ says $$M$$ does not halt, $$D$$ halts. Now run $$D$$ on $$\langle D \rangle$$. Self-reference produces contradiction either way.
+### Worked Example 2 & Deep-Dive Explanation: The Four-Step Diagonal Table Proof of the Halting Problem (Read Slowly)
 
-The argument is cousin to Cantor’s diagonal and to Gödel’s self-referential sentence—different formal settings, shared diagonal spirit.
+Imagine listing every valid program in existence down the rows $$M_1, M_2, M_3, \dots$$ and running each program on the source code of every other program across the columns:
+
+| Machine \ Input | $$\langle M_1 \rangle$$ | $$\langle M_2 \rangle$$ | $$\langle M_3 \rangle$$ | $$\langle M_4 \rangle$$ | $$\cdots$$ |
+|---|:-:|:-:|:-:|:-:|:-:|
+| $$M_1$$ | **Halt** | Loop | Halt | Halt | $$\cdots$$ |
+| $$M_2$$ | Loop | **Loop** | Halt | Loop | $$\cdots$$ |
+| $$M_3$$ | Halt | Halt | **Halt** | Loop | $$\cdots$$ |
+| $$M_4$$ | Loop | Halt | Loop | **Loop** | $$\cdots$$ |
+| **Contrarian machine $$D$$** | **Loop** | **Halt** | **Loop** | **Halt** | $$\cdots$$ |
+
+Follow the four-step chain that destroys any hypothetical halting oracle $$H$$:
+
+1. **Assume an oracle $$H$$ exists:** suppose a program $$H(\langle M\rangle, x)$$ always halts and outputs `1` if $$M(x)$$ halts, and `0` if $$M(x)$$ loops forever—meaning $$H$$ can accurately fill in every cell of the infinite table above.
+2. **Build the diagonal-flipper $$D$$:** given source code $$\langle M\rangle$$, $$D$$ asks $$H(\langle M\rangle, \langle M\rangle)$$ for the diagonal entry and deliberately does the **exact opposite**: if $$H$$ predicts `Halt`, $$D$$ enters an infinite loop; if $$H$$ predicts `Loop`, $$D$$ immediately halts!
+3. **Feed $$D$$ its own source code (the diagonal cell $$D(\langle D\rangle)$$):** because $$D$$ is a valid program, it must appear somewhere as a row in the table. Look at cell $$(D, \langle D\rangle)$$:
+   - If $$D(\langle D\rangle)$$ **halts**, then $$H$$ must say `Halt` → which forces $$D$$ to **loop forever** (contradiction!).
+   - If $$D(\langle D\rangle)$$ **loops forever**, then $$H$$ must say `Loop` → which forces $$D$$ to **halt** (contradiction!).
+4. **Conclusion:** the contradiction can only come from Step 1—no general halting decider $$H$$ can ever exist.
+
+**Quick check.** Notice the uncanny family resemblance to **Cantor's diagonal** (proving the reals are uncountable) and **Gödel's self-referential sentence** (*"this statement has no proof"*): all three flip the diagonal to escape every all-encompassing list!
 
 **Consequences.** Many other problems reduce from halting: virus “does this program ever print 5?”, equivalence of arbitrary programs, and—via suitable encodings—various questions about mathematical theories. Undecidability spreads along reductions just as NP-hardness does in complexity theory, but here the resource is **any finite time**, not polynomial time.
 
@@ -130,7 +173,7 @@ For this course: use the thesis as a **license to think in algorithms** without 
 
 ---
 
-## 8. Physical computers versus mathematical undecidability (LO6)
+## 8. Physical computers versus mathematical undecidability
 
 Students and media often confuse layers:
 

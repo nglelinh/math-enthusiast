@@ -9,9 +9,11 @@ categories:
 - chapter02
 ---
 
-**Pierre-Louis Lions** received the **Fields Medal 1994** at ICM Zürich. The standard ICM account, in S. R. S. Varadhan’s lecture on the work, does not isolate a single named conjecture. It records a *portfolio*: contributions spanning **probability** and **partial differential equations**, with especially beautiful work on **nonlinear equations**, and with problem choices consistently **motivated by applications**. The mathematical slogan this course teaches from that portfolio is **viscosity solutions** for nonlinear elliptic and parabolic PDE—introduced for Hamilton–Jacobi equations by **Crandall–Lions**, developed with **Evans** and others, and organized for second-order equations in the **Crandall–Ishii–Lions** user’s guide.
+Try solving a first-order differential equation that looks like a freshman calculus warmup: $$\vert u'(x) \vert = 1$$ on $$[-1, 1]$$ with boundary values $$u(-1) = u(1) = 0$$. Everyone immediately sketches the triangular tent $$u_1(x) = 1 - \vert x \vert$$—yet that tent has a **sharp peak at $$x = 0$$ and is not differentiable there**! Worse still, once you allow corners (satisfying the equation almost everywhere), you can also draw the upside-down tent $$u_2(x) = \vert x \vert - 1$$, or **infinitely many sawtooth zigzags** with slope $$\pm 1$$ almost everywhere and $$0$$ at both endpoints! Which mathematical law picks out the *one* physically right solution?
 
-This essay is for learners who have met first-order PDE and the classical maximum principle and want to understand why a *weak* notion of solution, defined by touching with test functions rather than by pointwise second derivatives, became a language of modern nonlinear analysis. It does **not** claim that Lions solved the Clay Millennium problem on three-dimensional incompressible Navier–Stokes regularity. Mean field games (Lasry–Lions) appear only as **later** influence.
+That innocent puzzle sparked a revolution in late-twentieth-century nonlinear analysis. At ICM Zürich in 1994, **Pierre-Louis Lions** received the **Fields Medal**—not for one isolated conjecture, as S. R. S. Varadhan’s ICM lecture made clear, but for an extraordinary **portfolio** spanning probability and nonlinear PDE, consistently driven by real-world applications. Its flagship language is **viscosity solutions**—pioneered by **Crandall and Lions** (1983), widened by **Evans**, **Ishii**, and **Souganidis**, and codified for second-order fully nonlinear equations in the classic **Crandall–Ishii–Lions** *User’s Guide* (1992). Beside it stand two other towering pillars: **DiPerna–Lions** theory (Boltzmann and transport equations) and the **concentration-compactness principle**. We also keep two boundaries sharp: Lions did **not** solve the Clay 3D incompressible Navier–Stokes problem, and **mean field games** (Lasry–Lions, 2006) are a major *later* development, not part of the 1994 citation.
+
+**Lesson roadmap:** Background Knowledge Map (fully nonlinear PDEs vs. distributional solutions) → Hand-verifiable worked example: testing the eikonal tent $$\vert u'(x)\vert - 1 = 0$$ with touching test functions and the vanishing-viscosity limit $$-\varepsilon u''$$ → Deep-Dive Explanation (Read Slowly): 4 steps from test-function touching to the comparison principle and stability → Other pillars (DiPerna–Lions & concentration-compactness) → What the 1994 medal is not.
 
 ---
 
@@ -19,100 +21,87 @@ This essay is for learners who have met first-order PDE and the classical maximu
 
 After this lecture you should be able to:
 
-- Restate the 1994 ICM account as a **portfolio** (probability, nonlinear PDE, applications) rather than as a single theorem.
-- Explain why classical $$C^2$$ solutions of Hamilton–Jacobi and fully nonlinear equations can fail, and what a **viscosity solution** is designed to allow.
-- Describe the **comparison / maximum-principle** engine: if a viscosity subsolution lies below a supersolution on the boundary, it remains below inside.
-- Credit **Crandall**, **Ishii**, **Evans**, and **Souganidis** at the right scale, and name the **Crandall–Ishii–Lions** user’s guide as the standard second-order reference.
-- Place **DiPerna–Lions** theory (Boltzmann / transport) and **concentration-compactness** as other pillars of the same nonlinear-PDE portfolio.
-- Keep **mean field games** (Lasry–Lions, mid-2000s) off the 1994 citation, and refuse the slogan “Lions solved Navier–Stokes.”
+- Present the 1994 ICM account as a **portfolio** (probability, nonlinear PDE, applications) rather than a single theorem.
+- Apply the viscosity touching test by hand to $$\vert u'(x) \vert - 1 = 0$$ on $$[-1, 1]$$ to eliminate the upside-down tent and select the unique viscosity solution $$u_1(x) = 1 - \vert x \vert$$.
+- Explain why Hamilton–Jacobi and fully nonlinear PDEs break integration by parts, requiring a weak theory built on the **maximum principle**.
+- Describe the **comparison principle** (via doubling of variables and Ishii’s lemma) and credit **Crandall**, **Ishii**, **Evans**, and **Souganidis** accurately.
+- Place **DiPerna–Lions** (Boltzmann / transport) and **concentration-compactness** alongside viscosity solutions as pillars of the 1994 portfolio.
+- Keep **mean field games** (Lasry–Lions, 2006) off the 1994 citation and reject the claim that Lions solved Clay Navier–Stokes.
 
 **Prerequisites.** Multivariable calculus; the idea of a first-order PDE such as a Hamilton–Jacobi equation $$u_t + H(x,\nabla u)=0$$; the classical maximum principle for harmonic or uniformly elliptic linear equations. Optimal control and kinetic theory are helpful as motivation, not required as formal courses.
 
-**Seminar links.** LO1 (hard programs that reorganize a field’s language) and LO6 (citation hygiene). Analysis neighbors: [Yu Deng / kinetic PDE]({{ site.baseurl }}/contents/en/chapter02/02_12_Deng_PDE/) (Boltzmann as a later kinetic chapter), [Caffarelli]({{ site.baseurl }}/contents/en/chapter08/08_08_Caffarelli_PDE/) (fully nonlinear regularity that *uses* viscosity solutions), and [Navier–Stokes]({{ site.baseurl }}/contents/en/chapter01/01_05_Navier_Stokes/) (to keep the Millennium problem distinct).
+**Seminar links.** Analysis neighbors: [Yu Deng / kinetic PDE]({{ site.baseurl }}/contents/en/chapter02/02_12_Deng_PDE/) (Boltzmann as a later kinetic chapter), [Caffarelli]({{ site.baseurl }}/contents/en/chapter08/08_08_Caffarelli_PDE/) (fully nonlinear regularity that *uses* viscosity solutions), and [Navier–Stokes]({{ site.baseurl }}/contents/en/chapter01/01_05_Navier_Stokes/) (to keep the Millennium problem distinct).
 
 ---
 
-## 1. Why a weak theory was needed
+## Background Knowledge Map: What Are Fully Nonlinear PDEs and Maximum-Principle Weak Solutions?
 
-A Hamilton–Jacobi equation of evolutionary type looks innocent,
+### 1. Why integration by parts fails
+For a linear PDE like Laplace’s equation $$-\Delta u = f$$, if $$u$$ is not $$C^2$$ we multiply by a smooth test function $$\varphi$$ and integrate by parts: $$\int \nabla u \cdot \nabla\varphi = \int f\varphi$$. But in **Hamilton–Jacobi equations** $$u_t + H(x, \nabla u) = 0$$ (optimal control, geometric optics) or **fully nonlinear second-order PDEs** $$F(x, u, \nabla u, D^2 u) = 0$$ (Hamilton–Jacobi–Bellman, Monge–Ampère $$\det D^2 u = f$$), the derivatives of $$u$$ sit trapped inside nonlinear functions—**integration by parts is useless!**
 
-$$
-u_t + H\bigl(x,\nabla u\bigr) = 0,
-$$
-
-and in optimal control or geometric optics the unknown $$u$$ is a value function or an eikonal phase. The method of characteristics produces smooth solutions for a short time. Then characteristics cross: gradients jump, and no $$C^1$$ (let alone $$C^2$$) solution can continue. Fully nonlinear second-order equations
-
-$$
-F\bigl(x,u,\nabla u,D^2 u\bigr) = 0
-$$
-
-are worse. The unknown enters through the Hessian in a nonlinear way (examples include Hamilton–Jacobi–Bellman equations from stochastic control, and some curvature equations). Classical elliptic regularity does not apply off the shelf, and one cannot simply “integrate by parts” as in the linear divergence-form theory that produces Sobolev weak solutions.
-
-The design problem is therefore conceptual: invent a class of **weak solutions** large enough to exist globally, small enough to be unique, and compatible with the **maximum principle** that elliptic and parabolic theory lives on. Distributional solutions are the wrong first language when $$F$$ is not linear in $$D^2 u$$. Viscosity solutions answer that design problem.
+### 2. The replacement engine: transferring derivatives via local extrema
+Suppose $$u$$ is smooth ($$C^2$$) and a smooth test function $$\varphi$$ touches $$u$$ from **above** at $$x_0$$ (so $$u - \varphi$$ has a local maximum at $$x_0$$). Freshman calculus gives $$\nabla u(x_0) = \nabla\varphi(x_0)$$ and $$D^2 u(x_0) \le D^2\varphi(x_0)$$. When $$F$$ is degenerate elliptic (decreasing in the Hessian matrix $$D^2 u$$), $$F(x_0, u, \nabla u, D^2 u) = 0$$ forces $$F(x_0, u(x_0), \nabla\varphi(x_0), D^2\varphi(x_0)) \le 0$$. The masterstroke: **this inequality uses only derivatives of the smooth test function $$\varphi$$, so it makes perfect sense even when $$u$$ is merely continuous with sharp corners!**
 
 ---
 
-## 2. Viscosity solutions: touching instead of differentiating
+## 1. Hand-Verifiable Worked Example: Solving the Eikonal Equation $$\vert u'(x) \vert - 1 = 0$$ on $$[-1, 1]$$
 
-The Crandall–Lions idea (announced and then developed in the early 1980s; the foundational Hamilton–Jacobi paper is **Crandall–Lions, Trans. Amer. Math. Soc. 1983**) is to test a merely continuous function $$u$$ by smooth functions that touch its graph from above or below. Slogan form for a stationary equation $$F(x,u,\nabla u,D^2 u)=0$$: $$u$$ is a viscosity **subsolution** if, whenever a smooth test function $$\varphi$$ touches $$u$$ from above at $$x_0$$, one has
+Consider $$F(u') = \vert u'(x) \vert - 1 = 0$$ on $$[-1, 1]$$ with $$u(-1) = u(1) = 0$$. Test our two obvious continuous candidates right at the corner $$x_0 = 0$$:
+
+1. **The upward tent $$u_1(x) = 1 - \vert x \vert$$ at $$x_0 = 0$$:**
+   - *Subsolution test* (smooth $$\varphi$$ touching $$u_1$$ from **above** at $$0$$): since $$\varphi$$ sits above a peak with left slope $$+1$$ and right slope $$-1$$, its tangent slope at $$0$$ must satisfy $$-1 \le \varphi'(0) \le 1$$, hence $$\vert\varphi'(0)\vert - 1 \le 0$$. **Passes!**
+   - *Supersolution test* (smooth $$\varphi$$ touching $$u_1$$ from **below** at $$0$$): *no* smooth curve can fit underneath a sharp upward peak and touch it at $$0$$! Since the set of such test functions is empty, the condition holds vacuously. **Passes!**
+   - Verdict: **$$u_1(x) = 1 - \vert x \vert$$ is a viscosity solution!**
+
+2. **The upside-down tent $$u_2(x) = \vert x \vert - 1$$ at $$x_0 = 0$$:**
+   - *Supersolution test* (smooth $$\varphi$$ touching $$u_2$$ from **below** at $$0$$): pick the constant function $$\varphi(x) \equiv -1$$! It touches the V-shaped bottom from below at $$x_0 = 0$$ with $$\varphi'(0) = 0$$. Plug into $$F$$:
+     $$
+     \vert\varphi'(0)\vert - 1 = 0 - 1 = -1 < 0 \quad (\text{fails the supersolution requirement } \ge 0!).
+     $$
+   - Verdict: **$$u_2(x) = \vert x \vert - 1$$ is rejected immediately!** (Every sawtooth zigzag with a V-shaped valley fails the exact same test!)
+
+3. **Why the name "viscosity"?** Add a tiny smoothing term $$-\varepsilon u''$$ to get $$-\varepsilon u_\varepsilon''(x) + \vert u_\varepsilon'(x) \vert = 1$$ with $$u_\varepsilon(\pm 1) = 0$$. Its explicit smooth solution rounds off the peak at $$x = 0$$:
+   $$
+   u_\varepsilon(x) = 1 - \vert x \vert - \varepsilon \ln\left(\frac{1 + e^{-2\vert x \vert/\varepsilon}}{1 + e^{-2/\varepsilon}}\right) \xrightarrow{\varepsilon \to 0^+} 1 - \vert x \vert = u_1(x)!
+   $$
+   The name "viscosity solution" commemorates that vanishing-viscosity limit $$\varepsilon \to 0^+$$, even though the modern touching definition needs no fluid and no $$\varepsilon$$!
+
+---
+
+## 2. Deep-Dive Explanation: How Viscosity Theory Works for Second-Order PDEs (Read Slowly)
+
+Following the 1983 Hamilton–Jacobi foundation (**Crandall–Lions**) and extensions by **Evans**, **Ishii**, and **Souganidis**, the second-order theory was organized in the famous **Crandall–Ishii–Lions** *User’s Guide* (*Bull. Amer. Math. Soc.* 1992; [arXiv:math/9207212](https://arxiv.org/abs/math/9207212)) in four steps:
+
+#### Step 1: Touching definition (equivalently, second-order jets)
+A continuous function $$u$$ is a **viscosity subsolution** if $$F(x_0, u(x_0), \nabla\varphi(x_0), D^2\varphi(x_0)) \le 0$$ whenever a smooth $$\varphi$$ touches $$u$$ from above at $$x_0$$; a **viscosity supersolution** if the reverse inequality $$\ge 0$$ holds for touching from below; and a **viscosity solution** if both hold. Any classical $$C^2$$ solution automatically satisfies this definition.
+
+#### Step 2: The Comparison Principle—the engine of uniqueness
+If $$u$$ is a viscosity subsolution and $$v$$ a viscosity supersolution on $$\Omega$$ with $$u \le v$$ on $$\partial\Omega$$, then $$u \le v$$ throughout $$\Omega$$. Immediately, **two viscosity solutions with the same boundary data must be identical!**
+Because $$u$$ and $$v$$ need not be differentiable, the proof uses the **doubling-of-variables** trick: maximize $$u(x) - v(y) - \frac{1}{2\varepsilon}\vert x - y \vert^2$$ to pull $$x$$ and $$y$$ arbitrarily close, then apply **Ishii’s lemma (the theorem on sums)** to manufacture approximate Hessians at $$(x_\varepsilon, y_\varepsilon)$$ that contradict ellipticity of $$F$$ unless $$u \le v$$.
+
+#### Step 3: Perron’s method turns comparison into existence
+Once a comparison principle holds, Perron’s method (taking the pointwise supremum of all viscosity subsolutions lying beneath a supersolution) automatically builds a global viscosity solution—delivering **existence and uniqueness together**!
+
+#### Step 4: Effortless stability under uniform limits
+Unlike classical solutions (which require derivatives to converge), the uniform limit of any sequence of viscosity solutions is **automatically a viscosity solution**! Pairing stability with comparison immediately identifies vanishing-viscosity limits, monotone finite-difference schemes, and optimal-control value functions with the unique viscosity solution.
+
+Summary of the Crandall–Ishii–Lions architecture:
 
 $$
-F\bigl(x_0,u(x_0),\nabla\varphi(x_0),D^2\varphi(x_0)\bigr) \le 0
+\text{Fully nonlinear PDE}
+\;\xrightarrow{\text{touching tests}}\;
+\text{Viscosity solution}
+\;\xrightarrow{\text{doubling + Ishii}}\;
+\text{Comparison + Stability} \implies \text{Existence \& Uniqueness}.
 $$
 
-(with the inequality direction depending on the convention for $$F$$; the user’s guide fixes conventions carefully). A **supersolution** is the opposite touching condition. A **viscosity solution** is both.
-
-Nothing in the definition requires $$u$$ itself to be differentiable. The derivatives that enter $$F$$ are borrowed from the test function at a contact point. If $$u$$ happens to be $$C^2$$, the definition collapses to the classical pointwise equation: that is the consistency check.
-
-**Why “viscosity”?** One historical route approximates a first-order equation by adding a small second-order term $$\varepsilon\Delta u$$ (artificial viscosity) and passing to the limit $$\varepsilon\to 0$$. The inequalities that survive are exactly the touching conditions. The name remembers that vanishing-viscosity limit; the modern definition does not require constructing the approximation every time.
-
-**Evans** (with Crandall and Lions) clarified equivalent formulations and basic properties. **Ishii** was central in extending the theory to fully nonlinear second-order equations. **Souganidis** (often with Lions and others) developed stability, approximation, and front-propagation aspects that made the theory usable in geometric and applied settings. Credit is communal; the 1983 definition and the 1992 guide are the two landmarks a seminar should name.
-
 ---
 
-## 3. Comparison is the engine
+## 3. Other Pillars of 1994 and What the Medal Is Not
 
-Existence without uniqueness is cheap; uniqueness without existence is a slogan. Viscosity theory earns both through **comparison**. In a typical Dirichlet setting: if $$u$$ is a viscosity subsolution and $$v$$ a viscosity supersolution of a uniformly elliptic (or degenerate elliptic, under structural hypotheses) equation, and if $$u\le v$$ on the boundary, then $$u\le v$$ in the domain. Two viscosity solutions with the same boundary data therefore coincide.
-
-The engine is a maximum-principle argument upgraded to non-differentiable functions. One considers a maximum of $$u(x)-v(y)$$ after a penalization that forces $$x$$ and $$y$$ together, applies the touching definition at nearly coincident points, and uses ellipticity of $$F$$ to obtain a contradiction unless the maximum is nonpositive. The **Crandall–Ishii–Lions user’s guide** (*Bull. Amer. Math. Soc.* 1992; also [arXiv:math/9207212](https://arxiv.org/abs/math/9207212)) is the standard exposition of this second-order calculus: jets, the theorem on sums, comparison, and stability under uniform limits.
-
-**Stability** is the other gift. Uniform limits of viscosity solutions are viscosity solutions. That is why vanishing-viscosity approximations, numerical schemes, and control-theoretic value functions can be identified with the unique viscosity solution once a comparison principle is in hand.
-
-**Slogan.** A viscosity solution is a weak solution whose law is the maximum principle, not an integration-by-parts identity.
-
----
-
-## 4. Other pillars: DiPerna–Lions and concentration-compactness
-
-The 1994 account is broader than Hamilton–Jacobi.
-
-**DiPerna–Lions theory.** With **Ronald J. DiPerna**, Lions developed **renormalized solutions** for the Boltzmann equation: global existence and weak stability for large-data Cauchy problems (*Ann. of Math.* **1989**). The collision operator is hard to define on merely integrable densities; renormalization and velocity-averaging compactness restore a meaningful equation. The same circle produced **transport equations** with Sobolev vector fields: characteristics need not be Lipschitz-unique, yet a well-posed continuity equation survives (later extended by Ambrosio and others). Pair with [Deng’s kinetic chapter]({{ site.baseurl }}/contents/en/chapter02/02_12_Deng_PDE/): DiPerna–Lions is well-posedness of the kinetic equation; Deng–Hani–Ma is a particle derivation. Different rungs of Hilbert’s sixth problem.
-
-**Concentration-compactness.** Minimizing sequences on $$\mathbb{R}^n$$ may escape by translation or dilation. Lions’s **concentration-compactness principle** (locally compact case **1984**; dilation/limit case **1985**) classifies those failures and restores compactness when a strict energy inequality prevents dichotomy. Moral: if a variational problem is invariant under a noncompact group, measure *how* compactness fails. Applications include Sobolev extremals and some Yamabe-type geometric problems.
-
-The family resemblance with viscosity solutions is architectural: invent the right weak object, then prove a rigidity that makes it unique or attainable.
-
----
-
-## 5. What the 1994 medal is not
-
-**Not Navier–Stokes regularity.** Lions contributed existence theory for **compressible** Navier–Stokes systems in certain settings (part of the same DiPerna–Lions kinetic/fluid portfolio). That is not a solution of the Clay problem on global regularity of **three-dimensional incompressible** Navier–Stokes. Keep the [Millennium statement]({{ site.baseurl }}/contents/en/chapter01/01_05_Navier_Stokes/) separate.
-
-**Not mean field games as citation.** With **Jean-Michel Lasry**, Lions later introduced **mean field games** (notes and *Comptes Rendus* papers in **2006**): continuum limits of Nash equilibria for many rational agents, typically a coupled Hamilton–Jacobi–Bellman / Fokker–Planck system. The theory uses viscosity solutions and is a major subsequent influence on analysis, economics, and crowd models. It is **later than 1994**. Do not write it into the Fields citation.
-
-**Not a solo invention.** Viscosity solutions are Crandall–Lions at birth, Evans–Ishii–Souganidis in the widening, and a community thereafter. The medal recognizes Lions’s role inside that network and inside a broader nonlinear-PDE portfolio.
-
----
-
-## 6. Why a Fields Medal
-
-Three interlocking reasons, matching Varadhan’s ICM emphasis.
-
-1. **A new language.** Viscosity solutions turned equations without classical solutions into well-posed problems. Entire fields—optimal control, front propagation, some fully nonlinear geometry—could state uniqueness theorems that had been formally out of reach.
-2. **Several deep machines, not one lemma.** Concentration-compactness and DiPerna–Lions theory are independent architectures; together they show a style: diagnose the failure of classical compactness or differentiability, then build a calculus around the failure.
-3. **Applications as a source of theorems.** The ICM text insists that problem choice was motivated by applications. That is not a consolation prize. It is a research method: the Boltzmann collision operator, the value function of a control problem, and a Sobolev extremal on $$\mathbb{R}^n$$ each forced a new notion of solution or compactness.
-
-A later chapter—mean field games, Collège de France lectures—continues the method. The 1994 medal already had enough.
+- **DiPerna–Lions theory (1989):** With **Ronald J. DiPerna**, Lions constructed global **renormalized solutions** for the large-data Boltzmann equation (*Ann. of Math.* 1989) using velocity-averaging compactness, and established well-posedness of **transport equations** with Sobolev $$W^{1,1}$$ vector fields (later extended to BV by Ambrosio). Compare [Deng’s kinetic chapter]({{ site.baseurl }}/contents/en/chapter02/02_12_Deng_PDE/): DiPerna–Lions studies well-posedness of Boltzmann itself, while Deng–Hani–Ma derive Boltzmann from colliding particles.
+- **Concentration-compactness principle (1984–1985):** Classifies exactly how minimizing sequences on non-compact $$\mathbb{R}^n$$ lose compactness—**vanishing**, **dichotomy** (splitting apart), or **compactness** (up to translation/dilation)—turning strict subadditivity energy inequalities into existence of minimizers for Sobolev extremals and Yamabe-type problems.
+- **What the 1994 medal is not:** Lions’s existence results for **compressible** Navier–Stokes do **not** solve the Clay [Millennium problem]({{ site.baseurl }}/contents/en/chapter01/01_05_Navier_Stokes/) for 3D **incompressible** Navier–Stokes; **mean field games** (with **Jean-Michel Lasry**) began in **2006**, more than a decade after 1994; and viscosity theory is a communal achievement of Crandall, Lions, Evans, Ishii, and Souganidis.
 
 ---
 

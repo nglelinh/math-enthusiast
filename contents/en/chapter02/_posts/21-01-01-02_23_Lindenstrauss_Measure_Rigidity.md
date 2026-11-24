@@ -9,14 +9,16 @@ categories:
 - chapter02
 ---
 
-**Elon Lindenstrauss** received the **Fields Medal 2010**
+Play a simple game on the circle $$[0, 1)$$: at each step, multiply your position by $$2$$ and drop the integer part ($$x \mapsto 2x \bmod 1$$). This chaotic map admits a wild zoo of invariant probability measures—Lebesgue measure, periodic point masses, and uncountably many fractal measures supported on Cantor sets. Now add just one extra rule: demand that the measure be invariant *simultaneously* under multiplication by $$2$$ **and** multiplication by $$3$$. Hillel Furstenberg discovered a striking phenomenon called **measure rigidity**: adding a second independent commuting symmetry collapses nearly the entire fractal zoo, leaving only clean algebraic measures!
+
+Even more astonishingly, that question about chaotic dynamics unlocks two of the deepest problems in **number theory** and **quantum physics**—simultaneous Diophantine approximation (**Littlewood’s conjecture**) and the high-energy distribution of quantum waves on negatively curved surfaces (**quantum unique ergodicity**). In 2010, **Elon Lindenstrauss** received the **Fields Medal**:
 
 > “for his results on measure rigidity in ergodic theory, and their applications to number theory.”
 > — [IMU, Fields Medals 2010](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2010)
 
-**Measure rigidity** is the slogan that a group action which looks a priori chaotic often admits **very few** invariant probability measures—and that those few measures are algebraic (Haar measure on a closed orbit, Lebesgue on a subtorus). Once the measures are classified, equidistribution theorems and Diophantine statements become corollaries. Lindenstrauss’s medal recognizes a body of such classifications for **higher-rank diagonalizable actions**, and two celebrated exports: a Hausdorff-dimension-zero theorem for exceptions to **Littlewood’s conjecture** (with Einsiedler and Katok), and **arithmetic quantum unique ergodicity** for compact arithmetic hyperbolic surfaces (in the Hecke–Maass setting of Rudnick–Sarnak).
+The medal honors his measure-classification theorems for **higher-rank diagonalizable actions** on homogeneous spaces, and two headline exports: proving that exceptions to **Littlewood’s conjecture** have **Hausdorff dimension zero** (with Manfred Einsiedler and Anatole Katok), and proving **arithmetic quantum unique ergodicity (QUE)** for Hecke–Maass forms on compact arithmetic hyperbolic surfaces. We place Lindenstrauss inside the landscape built by Furstenberg, Margulis, Ratner, Katok, Einsiedler, and Host–Kra—while staying honest about what remains open (full Littlewood’s conjecture and non-arithmetic QUE).
 
-This essay does **not** say that Littlewood’s conjecture is fully proved. It does **not** treat quantum unique ergodicity as a theorem about every hyperbolic surface. It places Lindenstrauss in a landscape already shaped by Furstenberg, Margulis, Ratner, Katok, Einsiedler, and Host–Kra.
+**Lesson roadmap:** Background Knowledge Map (ergodic theory, homogeneous spaces of lattices, unipotent vs. higher-rank diagonal) → Hand-verifiable worked examples ($$\times 2$$ vs. $$\times 3$$ on the circle and translating Littlewood into a $$3\times 3$$ matrix orbit) → Deep-Dive Explanation (Read Slowly): 4 steps from EKL measure classification to Littlewood and arithmetic QUE → Landscape of contributors & comparison with Abel 2020.
 
 ---
 
@@ -24,12 +26,11 @@ This essay does **not** say that Littlewood’s conjecture is fully proved. It d
 
 After this lecture you should be able to:
 
-- Define measure rigidity as “scarce invariant measures, typically algebraic,” and contrast it with the abundance of measures for a single hyperbolic toral automorphism.
-- Distinguish **unipotent** rigidity (Ratner’s theorems) from **diagonal / higher-rank** rigidity (Furstenberg-type problems; Einsiedler–Katok–Lindenstrauss).
-- State Littlewood’s conjecture and the EKL theorem: it holds except possibly on a set of **Hausdorff dimension zero**.
-- State arithmetic QUE for compact arithmetic hyperbolic surfaces (Hecke–Maass), credit Rudnick–Sarnak for the conjecture, and describe Soundararajan’s role on the non-compact modular surface (no escape of mass).
-- Name Furstenberg, Margulis, Ratner, Katok, Einsiedler, and Host–Kra as landscape, not as a single school with one theorem.
-- Connect the story to the Abel-level dynamics culture in [Chapter 8]({{ site.baseurl }}/contents/en/chapter08/) without claiming the Abel prize is the Fields prize.
+- Define **measure rigidity** and illustrate it concretely by contrasting $$\times 2 \bmod 1$$ (abundant fractal measures) with $$\times 2, \times 3$$ (rigidified measures).
+- Distinguish **unipotent** rigidity (Ratner’s complete algebraic classification) from **higher-rank diagonal** rigidity (Einsiedler–Katok–Lindenstrauss, requiring positive entropy).
+- State **Littlewood’s conjecture**, translate it into bounded diagonal orbits on $$\mathrm{SL}_3(\mathbb{R})/\mathrm{SL}_3(\mathbb{Z})$$, and state the exact EKL theorem (**Hausdorff dimension zero** for exceptions).
+- State **arithmetic QUE** for compact arithmetic hyperbolic surfaces (Lindenstrauss, 2006), crediting Rudnick–Sarnak for the conjecture and Soundararajan (2010) for ruling out escape of mass on the modular surface.
+- Credit Furstenberg, Margulis, Ratner, Katok, Einsiedler, Host–Kra, Bourgain, and Holowinsky–Soundararajan accurately, keeping Fields 2010 distinct from Abel 2020 in [Chapter 8]({{ site.baseurl }}/contents/en/chapter08/).
 
 **Prerequisites.** Group actions; the idea of an invariant measure and of ergodicity; hyperbolic geometry of the upper half-plane at slogan level ($$\mathrm{SL}_2(\mathbb{Z})\backslash\mathbb{H}$$). Homogeneous spaces $$\Gamma\backslash G$$ as “lattices acting on Lie groups” can be taken as a picture rather than a theory.
 
@@ -37,76 +38,89 @@ After this lecture you should be able to:
 
 ---
 
-## 1. Ergodic theory as a classification machine
+## Background Knowledge Map: What Do Ergodic Theory, Homogeneous Dynamics, and Measure Rigidity Study?
 
-A measure-preserving action of a group $$H$$ on a probability space $$(X,\mu)$$ is **ergodic** if every invariant measurable set is trivial. Ergodic theory studies averages along orbits. **Measure rigidity** studies a prior question: *which* measures $$\mu$$ can be invariant in the first place?
+### 1. Ergodic theory and measure rigidity
+Ergodic theory studies long-term statistical averages of a measure-preserving group action $$(X, \mu, H)$$. An invariant probability measure $$\mu$$ is **ergodic** if it cannot be split into two nontrivial invariant pieces—it is a statistical "atom" of the dynamics. **Measure rigidity** asks the deeper prior question: *which ergodic invariant measures can exist at all?*
 
-For a single hyperbolic toral automorphism—say $$x\mapsto 2x$$ on $$\mathbb{R}/\mathbb{Z}$$—invariant measures are plentiful: Lebesgue, Dirac at $$0$$, and a zoo of fractal measures supported on Cantor sets. There is no hope of listing them all. Rigidity appears when the action is richer: several commuting maps, or a unipotent flow, or a higher-rank diagonal subgroup of a Lie group. Extra invariance can force $$\mu$$ to be algebraic.
+### 2. Homogeneous spaces $$\Gamma\backslash G$$—where number theory becomes motion
+Every unit-volume lattice in $$\mathbb{R}^d$$ has the form $$g\mathbb{Z}^d$$ for $$g \in \mathrm{SL}_d(\mathbb{R})$$, and two matrices give the same lattice when they differ by a change of integer basis $$\gamma \in \mathrm{SL}_d(\mathbb{Z})$$. Thus the space of lattices is the **homogeneous space** $$\mathrm{SL}_d(\mathbb{R})/\mathrm{SL}_d(\mathbb{Z})$$. Diophantine approximation translates directly into geometry: *when we stretch and squeeze a lattice with diagonal matrices, does it ever acquire an abnormally short nonzero integer vector (sending its orbit deep into the cusp at infinity)?*
 
-Furstenberg’s $$\times 2,\times 3$$ problem is the model conjecture of this type: the only nonatomic probability measure on the circle invariant under both $$x\mapsto 2x$$ and $$x\mapsto 3x$$ should be Lebesgue. The problem is still open in full; partial results (Rudolph, Johnson, Host, …) already show that positive entropy plus extra invariance is a powerful constraint. Host–Kra later classified the structural factors of multiple ergodic averages, revealing nilsystems as the characteristic obstructions—another rigidity theorem in the same culture, not a lemma in Lindenstrauss’s papers.
-
-Lindenstrauss’s contribution is to push this culture onto **homogeneous spaces** $$\Gamma\backslash G$$, where $$G$$ is a Lie group or an adelic group, and to extract number theory.
-
----
-
-## 2. Unipotent versus diagonal
-
-**Ratner’s theorems** (1990s) classified orbit closures and invariant measures for **unipotent** flows on homogeneous spaces. Unipotent elements (think of strictly upper-triangular matrices) have polynomial orbits; the classification is complete and algebraic. Margulis’s work on unipotent flows and Oppenheim’s conjecture is the celebrated arithmetic ancestor: once orbit closures are understood, values of indefinite quadratic forms at integers become dense.
-
-**Diagonal** actions are different. A split torus—positive diagonal matrices acting by left multiplication on, say, $$\mathrm{SL}_3(\mathbb{R})/\mathrm{SL}_3(\mathbb{Z})$$—is **higher rank** when the torus has dimension at least two. Orbits are exponential, not polynomial. There is no Ratner theorem in the same generality. Furstenberg and Margulis formulated conjectures that invariant measures for such actions should still be scarce. The technical price is extra hypotheses: positive entropy, recurrence in extra directions, compatibility with Hecke correspondences.
-
-**Einsiedler–Katok–Lindenstrauss** (Annals of Mathematics, 2006) proved a measure-classification theorem for higher-rank diagonal actions under a **positive entropy** assumption: an ergodic invariant measure with positive entropy (for some element of the torus) is algebraic. IMU’s 2010 laudation states that this established a Furstenberg–Margulis-type conjecture under that extra hypothesis. Positive entropy is not cosmetic; it rules out the most degenerate fractal measures.
-
-The pedagogical contrast:
+### 3. Unipotent flows vs. higher-rank diagonal actions
+- **Unipotent flows** (like shear matrices $$\begin{pmatrix}1 & t \\ 0 & 1\end{pmatrix}$$): orbits separate slowly at **polynomial** speed. **Marina Ratner** (1990s) proved a complete algebraic classification of all ergodic invariant measures and orbit closures—with no entropy assumption needed! Earlier, **Margulis** used unipotent flows to prove the Oppenheim conjecture.
+- **Higher-rank diagonal actions** (like the 2-parameter positive diagonal torus $$\mathrm{diag}(e^s, e^t, e^{-s-t})$$ on $$\mathrm{SL}_3(\mathbb{R})/\mathrm{SL}_3(\mathbb{Z})$$): orbits diverge **exponentially**, creating wild fractal invariant sets. There is no unconditional Ratner theorem, yet Furstenberg and Margulis conjectured that imposing **positive entropy** eliminates pathological fractals and forces measures to be algebraic!
 
 | Culture | Typical actor | Classification | Arithmetic export |
 |---------|---------------|----------------|-------------------|
 | Ratner / Margulis unipotent | Unipotent one-parameter groups | Complete, algebraic | Oppenheim, many others |
 | Diagonal higher rank | Split tori, $$\times 2\times 3$$ | Partial; entropy hypotheses | Littlewood-type Diophantine |
 
-Lindenstrauss works on the second row, using entropy, recurrence, and sometimes adelic extra symmetries.
+---
+
+## 1. Hand-Verifiable Worked Examples: $$\times 2$$ vs. $$\times 3$$ and the $$3\times 3$$ Littlewood Matrix
+
+### Example 1: Why one map is "soft" while two commuting maps are "rigid"
+Consider $$T_2(x) = 2x \bmod 1$$ on $$[0, 1)$$:
+- Pick $$x = \frac{1}{3}$$: $$T_2(1/3) = \frac{2}{3}$$ and $$T_2(2/3) = \frac{4}{3} \equiv \frac{1}{3}$$. That 2-cycle immediately supports an invariant ergodic measure $$\mu = \frac{1}{2}\delta_{1/3} + \frac{1}{2}\delta_{2/3}$$.
+- Write $$x$$ in binary $$0.b_1 b_2 b_3\ldots$$: $$T_2$$ is just the left shift! Flipping a biased coin with $$P(b_k = 1) = 0.7$$ independently for each bit generates a **fractal singular measure** invariant under $$T_2$$—there are uncountably many.
+- Now impose invariance under $$T_3(x) = 3x \bmod 1$$ as well: $$1/3$$ is sent to $$0$$ (destroying the 2-cycle), and multiplying by $$3$$ scrambles binary digits completely! **Rudolph’s theorem (1990)** proved that any probability measure on the circle invariant under *both* $$T_2$$ and $$T_3$$ with **positive entropy** *must* be Lebesgue measure!
+
+### Example 2: Translating Littlewood’s conjecture into a $$3\times 3$$ matrix orbit
+**Littlewood’s conjecture (1930s)** asks whether every pair of real numbers $$(\alpha, \beta)$$ satisfies
+
+$$
+\liminf_{n\to\infty}\, n\,\|n\alpha\|\,\|n\beta\| = 0,
+$$
+
+where $$\|\cdot\|$$ is distance to the nearest integer. Encode $$(\alpha, \beta)$$ into the $$3\times 3$$ lattice matrix
+
+$$
+u_{\alpha,\beta} = \begin{pmatrix} 1 & 0 & 0 \\ \alpha & 1 & 0 \\ \beta & 0 & 1 \end{pmatrix} \in \mathrm{SL}_3(\mathbb{R}),
+\qquad
+a(s,t) = \begin{pmatrix} e^{-s-t} & 0 & 0 \\ 0 & e^s & 0 \\ 0 & 0 & e^t \end{pmatrix}.
+$$
+
+Act on any integer vector $$(n, -p, -q)^T \in \mathbb{Z}^3$$: the resulting vector is $$\bigl(e^{-s-t} n,\; e^s(n\alpha - p),\; e^t(n\beta - q)\bigr)^T$$, and the product of the absolute values of its three coordinates is **completely independent of $$s, t$$**:
+
+$$
+\vert e^{-s-t} n \vert \cdot \vert e^s(n\alpha - p) \vert \cdot \vert e^t(n\beta - q) \vert = \vert n \vert \cdot \vert n\alpha - p \vert \cdot \vert n\beta - q \vert!
+$$
+
+Look at what just happened: if $$(\alpha, \beta)$$ is a **counterexample** to Littlewood (so $$n\|n\alpha\|\|n\beta\| \ge c > 0$$ for all $$n \ge 1$$), then every nonzero vector in the lattice $$a(s,t)u_{\alpha,\beta}\mathbb{Z}^3$$ has length bounded below by $$c^{1/3} > 0$$ for *all* $$s, t \ge 0$$! By Mahler’s compactness criterion, **its entire diagonal orbit is trapped inside a compact subset**, never escaping into the cusp!
 
 ---
 
-## 3. Littlewood’s conjecture, almost
+## 2. Deep-Dive Explanation: From Measure Rigidity to Littlewood and Arithmetic QUE (Read Slowly)
 
-**Littlewood’s conjecture** (1930s) asks whether every pair of real numbers $$(\alpha,\beta)$$ satisfies
+How does classifying invariant measures on homogeneous spaces crack both Diophantine approximation and quantum chaos? Follow four steps:
+
+#### Step 1: The EKL measure-classification theorem (Einsiedler–Katok–Lindenstrauss, *Annals*, 2006)
+On $$\mathrm{SL}_3(\mathbb{R})/\mathrm{SL}_3(\mathbb{Z})$$ (rank 2), EKL studied probability measures $$\mu$$ invariant and ergodic under the full positive diagonal torus $$A = \{a(s,t)\}$$. Using **coarse Lyapunov foliations** and entropy-decomposition techniques along expanding/contracting directions, they proved: any ergodic $$A$$-invariant measure with **positive entropy** (for some element of $$A$$) must be **algebraic** (Haar measure on a closed orbit of an intermediate subgroup)!
+
+#### Step 2: Deduce Hausdorff dimension zero for Littlewood exceptions
+Suppose the set of counterexamples $$(\alpha, \beta)$$ to Littlewood’s conjecture had positive Hausdorff dimension. By Frostman’s lemma and weak limits along their trapped compact orbits, one could construct an $$A$$-invariant measure supported on that compact set with **positive entropy**—contradicting Step 1! Therefore, **the exceptional set to Littlewood’s conjecture has Hausdorff dimension zero**! (Because a dimension-zero set can still be nonempty, full Littlewood’s conjecture remains open.)
+
+#### Step 3: Microlocal lifts turn quantum waves (QUE) into geodesic-flow measures
+On a hyperbolic surface $$M = \Gamma\backslash\mathbb{H}$$, a Maass form is an $$L^2$$ Laplacian eigenfunction $$-\Delta\phi = \lambda\phi$$ with probability density $$\mu_\phi = \vert\phi\vert^2 d\mathrm{vol}$$. **Quantum unique ergodicity (QUE)**, conjectured by **Rudnick–Sarnak (1994)**, asserts that *every* high-energy sequence $$\mu_\phi$$ converges to uniform volume (no "quantum scars" concentrating along closed geodesics). Via a **microlocal lift**, any weak limit $$\mu$$ lifts to a probability measure on the unit tangent bundle $$\Gamma\backslash\mathrm{SL}_2(\mathbb{R})$$ invariant under the **geodesic flow** (a rank-1 diagonal action!).
+
+#### Step 4: Hecke operators supply the missing "second rank" (Lindenstrauss, *Annals*, 2006)
+A rank-1 geodesic flow alone is too soft for measure rigidity. Lindenstrauss’s masterstroke for **arithmetic** hyperbolic surfaces was to exploit the fact that Hecke–Maass forms are joint eigenfunctions of infinitely many **Hecke operators**: this provides recurrence along extra $$p$$-adic / adelic directions (acting as a second commuting symmetry on $$\Gamma\backslash\mathrm{SL}_2(\mathbb{R}) \times L$$), while earlier joint work of **Bourgain–Lindenstrauss** guaranteed **positive entropy**! Feeding both into his measure-rigidity machine, Lindenstrauss proved that the unique arithmetic quantum limit on any **compact** arithmetic hyperbolic surface is normalized volume—settling **compact arithmetic QUE**!
+
+*(On the non-compact modular surface $$\mathrm{SL}_2(\mathbb{Z})\backslash\mathbb{H}$$, Lindenstrauss’s method showed every limit is $$c\cdot d\mathrm{vol}$$ for $$c \in [0, 1]$$; **Kannan Soundararajan** (*Annals*, 2010) proved $$c = 1$$ (no escape of mass into the cusp), completing modular Hecke–Maass QUE. Parallel QUE for **holomorphic** Hecke cusp forms was proved by **Holowinsky–Soundararajan** (2010) via analytic number theory; general non-arithmetic QUE remains open.)*
+
+Summary of Lindenstrauss’s bridge:
 
 $$
-\liminf_{n\to\infty}\, n\,\|n\alpha\|\,\|n\beta\|=0,
+\text{Number theory (Littlewood / Hecke–Maass)}
+\;\longleftrightarrow\;
+\text{Orbits on } \Gamma\backslash G
+\;\xrightarrow{\text{Higher rank + Entropy } > 0}\;
+\text{Unique algebraic measure}.
 $$
-
-where $$\|\cdot\|$$ is distance to the nearest integer. Equivalently: can one always find integers $$n$$ making $$n\alpha$$ and $$n\beta$$ *simultaneously* unusually close to integers, with a product bound that improves on Dirichlet? The conjecture is still **open**.
-
-The homogeneous-dynamics translation (Cassels, Swinnerton-Dyer, and later the modern school) realizes exceptional $$(\alpha,\beta)$$ as points whose diagonal orbits on a space of lattices stay away from the cusp in a controlled way. If every invariant measure of the relevant torus action is Haar on a closed orbit, exceptions cannot accumulate.
-
-**Einsiedler–Katok–Lindenstrauss** deduced that the set of exceptions has **Hausdorff dimension zero**. Almost every pair (in a very strong fractal sense) satisfies Littlewood; any counterexample set is thinner than every positive-dimensional subset of the plane. That is a theorem. It is not a proof of Littlewood’s conjecture. Popular summaries that say “Littlewood is solved” are wrong.
 
 ---
 
-## 4. Arithmetic quantum unique ergodicity
-
-A Maass form on a hyperbolic surface $$M=\Gamma\backslash\mathbb{H}$$ is an $$L^2$$ eigenfunction of the Laplace–Beltrami operator. The measures
-
-$$
-\mu_\phi=\lvert\phi\rvert^2\,d\mathrm{vol}
-$$
-
-describe how the mass of a high-energy eigenfunction sits on $$M$$. **Quantum ergodicity** (Šnirel’man, Zelditch, Colin de Verdière) says that *almost all* such measures equidistribute toward volume, on compact manifolds of negative curvature. **Quantum unique ergodicity (QUE)**, conjectured by **Rudnick–Sarnak** (1994), asks whether *every* sequence of eigenfunctions equidistributes—no exceptional scarring.
-
-On arithmetic surfaces one has extra Hecke operators. Restricting to joint eigenfunctions (Hecke–Maass forms) is **arithmetic QUE**. It is expected that the Laplacian spectrum is simple, so the Hecke condition would be automatic; that simplicity is not known.
-
-**Lindenstrauss** (*Invariant measures and arithmetic quantum unique ergodicity*, Annals of Mathematics, 163, 2006) proved arithmetic QUE for **compact** arithmetic hyperbolic surfaces: the only arithmetic quantum limit is normalized volume. The proof classifies measures on an extended space $$\Gamma\backslash\mathrm{SL}(2,\mathbb{R})\times L$$ that are invariant under a diagonal flow, have positive entropy, and are recurrent in the extra (Hecke / adelic) directions; microlocal lifts of Hecke–Maass mass measures produce such objects.
-
-For **non-compact** congruence surfaces, including the modular surface $$\mathrm{SL}_2(\mathbb{Z})\backslash\mathbb{H}$$, the same method shows that any arithmetic quantum limit is $$c$$ times volume for some $$c\in[0,1]$$. Mass might escape into the cusp. **Kannan Soundararajan** (*Quantum unique ergodicity for $$\mathrm{SL}_2(\mathbb{Z})\backslash\mathbb{H}$$*, Annals, 2010) ruled out escape of mass for Hecke–Maass forms on the modular surface; combined with Lindenstrauss, this proves arithmetic QUE there. Earlier joint work of Bourgain–Lindenstrauss supplied entropy bounds used in the program.
-
-**Holomorphic** Hecke eigenforms are a parallel QUE problem. **Holowinsky–Soundararajan** (Annals, 2010) proved QUE for holomorphic Hecke cusp forms on the modular surface by analytic number theory, not by measure rigidity. Do not attribute that theorem to Lindenstrauss.
-
-QUE for general (non-arithmetic) compact hyperbolic surfaces remains open.
-
----
-
-## 5. A landscape of names
+## 3. Landscape of Contributors and Why a Fields Medal
 
 | Name | Role in this story |
 |------|---------------------|
@@ -120,15 +134,9 @@ QUE for general (non-arithmetic) compact hyperbolic surfaces remains open.
 | Soundararajan | No escape of mass on $$\mathrm{SL}_2(\mathbb{Z})\backslash\mathbb{H}$$; holomorphic QUE with Holowinsky |
 | Bourgain | Entropy of quantum limits (with Lindenstrauss) |
 
-Lindenstrauss (born 1970) wrote a 1999 PhD at the Hebrew University with Benjamin Weiss. He was a Clay long-term prize fellow (2003–2005), taught at Princeton, returned to Jerusalem, and in 2024 joined the permanent faculty of the Institute for Advanced Study. He was the first Israeli Fields medalist. Biography is not the theorem; the theorem is the scarcity of measures.
+Elon Lindenstrauss (born 1970) earned his 1999 PhD at the Hebrew University under Benjamin Weiss, held a Clay fellowship (2003–2005), taught at Princeton and Jerusalem, and joined the permanent faculty of IAS in 2024—the first Israeli Fields medalist.
 
----
-
-## 6. Why a Fields Medal
-
-IMU’s 2010 text emphasizes two exports—Littlewood-type Diophantine approximation and arithmetic QUE—and the depth of the underlying classification. The medal is not “a conjecture closed.” Littlewood is not closed. QUE is closed in the arithmetic compact case and, with Soundararajan, on the modular surface for Hecke–Maass forms. What is closed is a **method**: entropy plus extra invariance plus homogeneous dynamics as a machine that manufactures arithmetic theorems.
-
-For this course, Lindenstrauss is the Fields-scale counterpart of the Abel story in [Chapter 8]({{ site.baseurl }}/contents/en/chapter08/): dynamics as number theory’s hidden algebra. The prizes differ; the culture is shared.
+**Why a Fields Medal:** Rather than claiming one conjecture closed, the 2010 medal honors a **transformative method**—combining positive entropy, higher-rank/Hecke symmetries, and homogeneous dynamics to manufacture deep arithmetic theorems, carrying forward the Abel 2020 worldview of [Chapter 8]({{ site.baseurl }}/contents/en/chapter08/).
 
 ---
 

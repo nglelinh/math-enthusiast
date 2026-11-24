@@ -10,11 +10,20 @@ categories:
 lesson_type: required
 ---
 
-A model that scores 99% accuracy on a training set can still fail in production. A poll of a thousand people can predict an election—or embarrass its authors. A spam filter that never errs on yesterday’s mail can miss tomorrow’s campaign. **Probability** is the language that turns those failures into objects you can define, measure, and sometimes bound.
+An engineering team proudly ships a fraud detector scoring 99% accuracy on its test set—only to lock thousands of innocent customers’ cards in its first week live. A product team changes a checkout button color, sees an 8% sales bump over two days of A/B testing, rolls it out globally, and watches revenue stay completely flat. A medical screening test with 99% accuracy returns positive, yet the patient’s actual chance of having the disease is under 20%.
 
-**Path:** randomness as modeling → expectation and variance → LLN and CLT → inference → risk in machine learning → causality caution → confusions.
+What went wrong in all three stories? The real world is noisy, every sample is finite, and raw human intuition is famously bad at reasoning under randomness. **Probability and statistics** are the disciplined mathematical languages that turn noisy observations into calibrated decisions, confidence intervals, and honest machine learning guarantees.
 
-This lecture is not a full probability course. It is a map of **why probability became the operating system of data science**: sampling, uncertainty, and learning from incomplete information.
+---
+
+## Background Knowledge Map: What Are Probability Theory and Mathematical Statistics?
+
+Many students meet probability through dice and urns and mistake it for counting tricks. At the university and data-science level, **probability** and **statistics** are the two opposite directions across the exact same bridge:
+
+- **Forward direction — Probability Theory:** *Given a model, predict the data.* Knowing the random mechanism (distribution of $$X$$), probability asks where averages converge (Law of Large Numbers), what shape fluctuations take (Central Limit Theorem), and how tightly finite samples concentrate (Hoeffding and Bernstein inequalities).
+- **Backward direction — Mathematical Statistics & Learning Theory:** *Given noisy data, infer the model.* Outside textbooks, nobody hands you the true click rate $$p$$ or true decision rule $$f$$. Statistics supplies estimators (MLE, Bayes), uncertainty intervals, hypothesis tests, and generalization guarantees from finite samples to the unseen world.
+
+In short: **linear algebra makes computers calculate fast; probability and statistics tell us whether the resulting numbers can be trusted.**
 
 ---
 
@@ -174,6 +183,24 @@ $$
 is the algebraic heart of updating beliefs. Spam filters, medical diagnosis prototypes, and many ranking systems are Bayesian networks or their learned cousins in spirit—even when implemented as neural nets outputting logits.
 
 ---
+
+### Deep-Dive Explanation: From a Finite Data Table to a Real-World Decision—Checked by Hand (Read Slowly)
+
+Follow four disciplined steps whenever turning numbers into action—and verify the classic base-rate trap directly with Bayes’ rule:
+
+1. **Treat today’s dataset as one random draw:** A table of $$n$$ rows is not the whole truth, just one realization of an underlying distribution $$P(X,Y)$$.
+2. **Quantify sampling fluctuation ($$1/\sqrt{n}$$ scaling):** If a 100-user pilot estimates conversion rate $$\hat p = 0.50$$, the standard error is $$\sqrt{0.5(0.5)/100} = 0.05$$ (a $$\pm 10\%$$ 95% margin). Multiplying sample size by $$10\times$$ cuts random error by $$\sqrt{10} \approx 3.16\times$$—but **never** fixes sampling bias or distribution shift.
+3. **Check a 99%-accurate medical test by hand (Bayes’ rule):** Suppose a rare disease affects $$0.2\%$$ of the population ($$P(D)=0.002$$), and a test has $$99\%$$ sensitivity ($$P(+\mid D)=0.99$$) and $$1\%$$ false-positive rate ($$P(+\mid \neg D)=0.01$$). Out of $$100{,}000$$ people:
+   - $$200$$ actually have the disease $$\;\Rightarrow\;$$ $$198$$ test positive.
+   - $$99{,}800$$ are healthy $$\;\Rightarrow\;$$ $$998$$ still trigger a false positive!
+   - Therefore, given a positive test:
+     $$
+     P(D \mid +) = \frac{198}{198 + 998} = \frac{198}{1196} \approx 16.55\%!
+     $$
+   Even with a “99% accurate” test, **more than 5 out of 6 positives are false alarms** because the base rate is tiny—the exact same math behind naive fraud detectors!
+4. **Separate training fit from out-of-sample risk and causality:** Zero empirical risk $$\hat R_n(f)=0$$ never guarantees small true risk $$R(f)$$, and correlation alone never predicts the effect of an intervention.
+
+**Quick check:** More data shrinks random variance, but only careful probability modeling (base rates, shift checks, causal structure) protects you from systematic error.
 
 ## 8. Causality, shift, and the ethics of uncertainty
 

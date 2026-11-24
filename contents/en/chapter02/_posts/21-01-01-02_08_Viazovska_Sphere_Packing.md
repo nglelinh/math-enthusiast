@@ -9,17 +9,15 @@ categories:
 - chapter02
 ---
 
-**Maryna Viazovska** received the **Fields Medal 2022** for the proof that the $$E_8$$ lattice packing achieves the optimal density among sphere packings in dimension 8, and for further contributions to related extremal problems—including the optimality of the Leech lattice packing in dimension 24 with collaborators. She is the **second woman** to receive a Fields Medal (after Maryam Mirzakhani, 2014).
+Walk past any fruit stand and you already know the most efficient way to stack oranges in three dimensions: nest each layer into the triangular hollows of the layer below. Johannes Kepler guessed in 1611 that no tighter arrangement exists, yet proving that humble grocer’s intuition took nearly four centuries and a massive computer-assisted proof by Thomas Hales in 1998.
 
-This essay follows:
+So when mathematicians asked the same question in **eight dimensions**—a space no human eye can picture—everyone expected the proof to be unimaginably harder, if not impossible.
 
-**Packing density → low dimensions → exceptional lattices → Cohn–Elkies bounds → magic functions → modular forms → $$E_8$$ and Leech → Fields 2022.**
+Then, in March 2016, Ukrainian mathematician **Maryna Viazovska** posted a quiet, 23-page preprint on arXiv. Using no brute-force casework and no supercomputer search, she constructed an explicit "magic function" out of **modular forms** and proved in one breathtaking stroke that the symmetric **$$E_8$$ lattice** is the densest possible sphere packing in $$\mathbb{R}^8$$. Within a single week, she and four collaborators—Henry Cohn, Abhinav Kumar, Stephen D. Miller, and Danylo Radchenko—adapted the same idea to settle **dimension 24** for the **Leech lattice**. For these breakthroughs and their wider impact on Fourier interpolation and energy minimization, Viazovska received the **Fields Medal in 2022**, becoming the second woman in history to win the prize (after Maryam Mirzakhani in 2014).
 
-The goal is not to construct the modular form by hand, but to understand **what optimality means**, **why dimensions 8 and 24 are special**, and **how Fourier analysis turns packing into function design**.
+This essay follows the arc from oranges to modular forms:
 
-What is the densest way to pack equal non-overlapping balls in Euclidean space $$\mathbb{R}^n$$? The **Cohn–Elkies linear programming bound** reduces upper bounds on packing density to the existence of special radial functions $$f$$ with sign constraints on $$f$$ and its Fourier transform $$\hat f$$. Sharpness requires a “magic” function attaining equality.
-
-Viazovska (2016) constructed an optimal function in dimension 8 using modular forms, proving $$E_8$$ is densest. With Cohn, Kumar, Miller, and Radchenko, the method extended to the Leech lattice in dimension 24. Fields Medal 2022.
+**Packing density → 2D and 8D hand calculations → exceptional lattices ($$E_8$$ and Leech) → Cohn–Elkies Fourier bounds → Viazovska’s magic function → Fields Medal 2022.**
 
 ---
 
@@ -27,29 +25,73 @@ Viazovska (2016) constructed an optimal function in dimension 8 using modular fo
 
 After this lecture you should be able to:
 
-- Define packing density carefully (limit of covered volume fraction).
-- State the classical solutions in dimensions 2 and 3 at slogan level.
-- Explain why $$E_8$$ and the Leech lattice are natural candidates in dimensions 8 and 24.
-- Describe the Cohn–Elkies bound as an optimization problem over radial functions.
-- Separate Viazovska’s solo $$E_8$$ theorem from the collaborative Leech theorem.
-- Avoid claiming that packing is solved in all dimensions.
-- Retell, in outline, the Kepler-cannonball → high-dimensional discrete packing → wireless-code pipeline from Tao’s Big Think conversation, without treating coding theory as Viazovska’s Fields citation.
+- Define packing density carefully and compute by hand the 2D square vs. hexagonal densities.
+- Count the 240 shortest vectors of the $$E_8$$ lattice and compute its exact packing density $$\pi^4/384$$.
+- Explain why dimensions 8 and 24 stand out as symmetry miracles while generic dimensions remain open.
+- Follow the 4-line Poisson summation derivation of the **Cohn–Elkies linear programming bound**.
+- Explain how Viazovska used modular forms and Laplace transforms to build a "magic function" matching $$E_8$$’s density.
+- Separate Viazovska’s solo $$E_8$$ theorem from the collaborative Leech lattice theorem in dimension 24.
+- Trace Terence Tao’s cannonball → high-dimensional packing → wireless error-correcting code pipeline without confusing continuous Euclidean packing with coding theory.
 
-**Prerequisites.** Volumes of balls, lattices as discrete subgroups of $$\mathbb{R}^n$$, and the idea of the Fourier transform of a radial function (details optional).
+**Prerequisites.** Volumes of balls, lattices as discrete grids in $$\mathbb{R}^n$$, and basic familiarity with the Fourier transform.
 
 ---
 
-## 1. The sphere packing problem
+## Background Knowledge Map: What Fields Converge in Sphere Packing?
+
+A question a child can ask about marbles turns out to sit at the crossroads of three deep branches of mathematics.
+
+### 1. Discrete Geometry & Lattices: The Architecture of Symmetry
+**What is it?** Discrete geometry studies finite or periodic arrangements of geometric objects—points, balls, polytopes—and asks which configurations optimize density, energy, or kissing number (how many spheres can touch one central sphere).
+
+**What does it study?**
+- **Lattices $$\Lambda \subset \mathbb{R}^n$$:** Regular grids generated by integer combinations of $$n$$ linearly independent vectors.
+- **Exceptional symmetries:** In almost every dimension, lattices have modest symmetry; in dimensions $$8$$ ($$E_8$$) and $$24$$ (the Leech lattice $$\Lambda_{24}$$), bizarrely symmetric, self-dual lattices appear that have no analogues in nearby dimensions.
+- **Error-correcting codes:** In digital communications (Wi-Fi, 5G, deep-space probes), packing spheres in high-dimensional space is the geometric dual of spacing codewords far apart so noise does not blur one message into another.
+
+### 2. Harmonic Analysis & Poisson Summation: Seeing Geometry in Frequency Space
+**What is it?** Harmonic analysis decomposes functions into waves via the **Fourier transform** $$\hat{f}(\xi) = \int_{\mathbb{R}^n} f(x) e^{-2\pi i x\cdot \xi}\,dx$$.
+
+**What does it study?**
+- **Poisson summation:** For any lattice $$\Lambda$$ and its dual lattice $$\Lambda^*$$, summing a nice function over $$\Lambda$$ equals summing its Fourier transform over $$\Lambda^*$$ (up to volume scaling).
+- **Linear programming bounds:** Henry Cohn and Noam Elkies turned Poisson summation into an optimization machine: design a radial function $$f$$ whose signs and Fourier signs obey simple inequalities, and you immediately get a rigorous upper bound on **every** sphere packing (lattice or non-lattice!) in $$\mathbb{R}^n$$.
+
+### 3. Modular Forms: Symmetries of the Upper Half-Plane
+**What is it?** Modular forms are holomorphic functions on the complex upper half-plane $$\mathbb{H}$$ that transform almost invariantly under $$\mathrm{SL}_2(\mathbb{Z})$$, especially under the inversion $$\tau \mapsto -1/\tau$$.
+
+**What does it study?**
+- **Theta series of lattices:** Counting lattice vectors of each length produces a modular form (for $$E_8$$, it is the Eisenstein series $$E_4(\tau)$$).
+- **Fourier eigenfunctions:** Because $$\tau \mapsto -1/\tau$$ mirrors the Fourier transform of Gaussians, modular forms secretly encode radial functions with prescribed zeros and exact Fourier symmetry—precisely the missing ingredient Viazovska needed.
+
+---
+
+## 1. The sphere packing problem (and a 2D hand calculation)
 
 Fix dimension $$n$$ and pack non-overlapping closed balls of equal radius in $$\mathbb{R}^n$$. The **density** of a packing is
 
 $$
-\delta=\limsup_{R\to\infty}\frac{\text{volume of balls inside }B(0,R)}{\operatorname{Vol} B(0,R)}.
+\delta = \limsup_{R\to\infty}\frac{\text{volume of balls inside }B(0,R)}{\operatorname{Vol} B(0,R)}.
 $$
 
-Equivalently (for lattice packings), one studies the volume of a fundamental domain versus the number of spheres centered at lattice points.
+For a lattice packing centered at points of $$\Lambda \subset \mathbb{R}^n$$ with minimal nonzero vector length $$d$$, each ball has radius $$r = d/2$$, and one ball sits inside each fundamental cell of volume $$\operatorname{Vol}(\mathbb{R}^n/\Lambda)$$, so
 
-**Question.** What is $$\delta_n$$, the supremum of densities over all packings in dimension $$n$$? Which configurations attain it?
+$$
+\delta(\Lambda) = \frac{\operatorname{Vol}(B_n(r))}{\operatorname{Vol}(\mathbb{R}^n/\Lambda)}.
+$$
+
+### Hand-Verifiable Example 1: Square Grid vs. Hexagonal Packing in 2D
+Place unit-radius discs ($$r=1$$, area $$\pi$$) in the plane $$\mathbb{R}^2$$:
+
+1. **Square lattice ($$\Lambda_{\text{sq}} = 2\mathbb{Z}^2$$):** Each disc sits inside a $$2 \times 2$$ square of area $$4$$. Its packing density is
+   $$
+   \delta_{\text{sq}} = \frac{\pi \cdot 1^2}{4} = \frac{\pi}{4} \approx 78.54\%.
+   $$
+2. **Hexagonal (honeycomb) lattice:** The centers of three mutually tangent discs form an equilateral triangle of side $$2$$. A fundamental parallelogram consists of two such triangles, with area $$2 \times \frac{\sqrt{3}}{4}(2^2) = 2\sqrt{3}$$, and holds exactly one disc’s worth of area. Its density is
+   $$
+   \delta_{\text{hex}} = \frac{\pi}{2\sqrt{3}} \approx 90.69\%.
+   $$
+
+That simple shift—sliding alternating rows into the pockets between discs—gains over $$12\%$$ in covered area, and Thue (1892) / Fejes Tóth (1940) proved that $$\pi/(2\sqrt{3})$$ is the absolute optimum in 2D.
 
 ![Hexagonal packing]({{ site.baseurl }}/img/chapter_img/viazovska_packing_2d.svg)
 
@@ -57,18 +99,18 @@ Equivalently (for lattice packings), one studies the volume of a fundamental dom
 
 ---
 
-## 2. What is known in low dimensions
+## 2. What is known across dimensions
 
 | Dimension | Optimal packing (status) |
 |-----------|---------------------------|
-| $$n=1$$ | Trivial (intervals on a line) |
-| $$n=2$$ | Hexagonal lattice — classical |
-| $$n=3$$ | FCC / HCP density — Kepler’s conjecture, proved by Hales (with computer assistance; now formally verified) |
-| $$n=8$$ | $$E_8$$ lattice — **Viazovska (2016)** |
-| $$n=24$$ | Leech lattice — **Cohn–Kumar–Miller–Radchenko–Viazovska** |
-| generic $$n$$ | Mostly open; asymptotic bounds exist |
+| $$n=1$$ | Trivial (intervals on a line, density $$100\%$$) |
+| $$n=2$$ | Hexagonal lattice ($$\pi/(2\sqrt{3}) \approx 90.69\%$$) — classical |
+| $$n=3$$ | FCC / HCP density ($$\pi/(3\sqrt{2}) \approx 74.05\%$$) — Kepler’s conjecture, proved by Hales (computer-assisted; formally verified) |
+| $$n=8$$ | $$E_8$$ lattice ($$\pi^4/384 \approx 25.37\%$$) — **Viazovska (2016)** |
+| $$n=24$$ | Leech lattice ($$\pi^{12}/12! \approx 0.193\%$$) — **Cohn–Kumar–Miller–Radchenko–Viazovska (2016)** |
+| generic $$n$$ | Mostly open; asymptotic upper and lower bounds still have an exponential gap |
 
-Most dimensions remain unsolved exactly. Dimensions 8 and 24 are miracles of symmetry.
+Most dimensions remain completely unsolved—even dimension 4! Dimensions 8 and 24 are miracles of symmetry.
 
 ### From cannonballs to bit-strings (after Tao)
 
@@ -91,19 +133,39 @@ In the plane a square grid covers about 78.5 percent and the honeycomb arrangeme
 
 ## 3. Lattices, especially $$E_8$$ and Leech
 
-A **lattice** $$\Lambda\subset\mathbb{R}^n$$ is a discrete subgroup spanning $$\mathbb{R}^n$$ (think $$\mathbb{Z}^n$$ after a linear change of variables). The **lattice packing** places balls at lattice points with radius half the minimal nonzero vector length.
+A **lattice** $$\Lambda\subset\mathbb{R}^n$$ is a discrete subgroup spanning $$\mathbb{R}^n$$. What makes $$E_8$$ in dimension 8 so extraordinary that you can actually **count its nearest neighbors by hand**?
 
-### The $$E_8$$ root lattice
+### Hand-Verifiable Example 2: Counting the 240 Shortest Vectors and Density of $$E_8$$
+The $$E_8$$ lattice has a remarkably explicit definition: it consists of all vectors $$(x_1, \dots, x_8) \in \mathbb{R}^8$$ such that
+- either all $$x_i$$ are integers ($$\mathbb{Z}^8$$), **or** all $$x_i$$ are half-integers ($$(\mathbb{Z}+\tfrac{1}{2})^8$$),
+- **and** the coordinate sum $$x_1 + x_2 + \dots + x_8$$ is an **even integer**.
 
-$$E_8\subset\mathbb{R}^8$$ is the unique (up to isometry) even unimodular lattice in dimension 8. It has:
+Let us find the shortest nonzero vectors (squared length $$2$$, so length $$\sqrt{2}$$) by hand:
 
-- minimal vectors of norm 2 forming the $$E_8$$ root system (240 roots);
-- extraordinary symmetry (Weyl group / automorphism group of huge order);
-- long-conjectured optimal packing density among all packings—not only lattices.
+1. **Integer type:** To get $$\sum x_i^2 = 2$$ with integers, pick **2 coordinates** out of 8 to be $$\pm 1$$ and set the remaining 6 to $$0$$ (the sum is automatically even: $$-2, 0,$$ or $$2$$). How many such vectors?
+   $$
+   \binom{8}{2} \times 2^2 = 28 \times 4 = 112.
+   $$
+2. **Half-integer type:** Every coordinate is $$\pm \frac{1}{2}$$, so the squared length is automatically $$8 \times (\frac{1}{2})^2 = 2$$! For the sum of the 8 coordinates to be an even integer, the number of minus signs must be **even** (0, 2, 4, 6, or 8), which is exactly half of all $$2^8 = 256$$ sign choices:
+   $$
+   \frac{2^8}{2} = 128.
+   $$
+
+Adding both families gives the exact kissing number of $$E_8$$:
+
+$$
+112 + 128 = 240 \text{ nearest neighbors touching every single sphere!}
+$$
+
+Now compute the packing density of $$E_8$$! Because $$E_8$$ is unimodular ($$\operatorname{Vol}(\mathbb{R}^8/E_8) = 1$$) and its minimal vector length is $$\sqrt{2}$$, the sphere radius is $$r = \frac{\sqrt{2}}{2}$$. In dimension $$n=2k$$, the volume of a ball of radius $$r$$ is $$\frac{\pi^k}{k!}r^{2k}$$. Setting $$k=4$$ and $$r^2 = \frac{1}{2}$$:
+
+$$
+\delta(E_8) = \frac{\pi^4}{4!}\left(\frac{1}{2}\right)^4 = \frac{\pi^4}{24 \times 16} = \frac{\pi^4}{384} \approx 0.25367 \;(25.37\%).
+$$
 
 ### The Leech lattice $$\Lambda_{24}$$
 
-In dimension 24, the **Leech lattice** is the unique even unimodular lattice with no roots (no norm-2 vectors). It is central to sporadic finite simple groups and was likewise conjectured to give the densest packing.
+In dimension 24, the **Leech lattice** is the unique even unimodular lattice with no roots (no vectors of squared length $$2$$; its shortest vectors have squared length $$4$$, giving $$196{,}560$$ nearest neighbors!). It is deeply tied to sporadic finite simple groups and was likewise conjectured to give the densest packing in $$\mathbb{R}^{24}$$.
 
 ![E8 and Leech]({{ site.baseurl }}/img/chapter_img/viazovska_e8_leech.svg)
 
@@ -113,78 +175,122 @@ In dimension 24, the **Leech lattice** is the unique even unimodular lattice wit
 
 ## 4. Cohn–Elkies: packing meets Fourier analysis
 
-Cohn and Elkies showed that auxiliary radial functions yield **upper bounds** on packing density via linear programming / Poisson summation ideas.
+How can you ever prove that **no** packing—not even a bizarre, non-periodic, irregular cluster of spheres—can beat $$E_8$$’s $$\pi^4/384$$?
 
-**Slogan hypotheses** (schematic, constants suppressed):
+In 2003, Henry Cohn and Noam Elkies discovered a stunningly clean upper bound using **Poisson summation**.
 
-- $$f$$ is a nice radial Schwartz function;  
-- $$f(x)\le 0$$ for $$\|x\|\ge r$$ (outside a ball);  
-- $$\hat f(\xi)\ge 0$$ for all frequencies $$\xi$$;  
-- $$f(0)>0$$ and $$\hat f(0)>0$$.
+### Hand-Verifiable Example 3: The 4-Line Poisson Summation Proof of the Cohn–Elkies Bound
+Suppose $$\Lambda \subset \mathbb{R}^n$$ is a lattice with shortest nonzero vector length $$\ge r$$ (we sketch the lattice case; Cohn–Elkies proved the exact same bound holds for *all* periodic and non-lattice packings too). Choose a radial Schwartz function $$f: \mathbb{R}^n \to \mathbb{R}$$ satisfying:
+1. $$f(0) = \hat{f}(0) = 1$$ (normalized);
+2. $$f(x) \le 0$$ whenever $$\|x\| \ge r$$;
+3. $$\hat{f}(\xi) \ge 0$$ for **all** $$\xi \in \mathbb{R}^n$$.
 
-Then the density of any packing is bounded above by a simple expression involving $$f(0)$$, $$\hat f(0)$$, and the ball volume scale set by $$r$$.
+Now watch Poisson summation do all the work in four lines:
+
+$$
+\begin{aligned}
+1 = f(0)
+&\ge \sum_{x \in \Lambda} f(x) && \text{(every nonzero }x\in\Lambda\text{ has }\|x\|\ge r\text{, so }f(x)\le 0\text{)}\\
+&= \frac{1}{\operatorname{Vol}(\mathbb{R}^n/\Lambda)} \sum_{\xi \in \Lambda^*} \hat{f}(\xi) && \text{(Poisson summation formula)}\\
+&\ge \frac{\hat{f}(0)}{\operatorname{Vol}(\mathbb{R}^n/\Lambda)} = \frac{1}{\operatorname{Vol}(\mathbb{R}^n/\Lambda)} && \text{(every }\hat{f}(\xi)\ge 0\text{, so drop }\xi\ne 0\text{)}.
+\end{aligned}
+$$
+
+Rearranging gives $$\operatorname{Vol}(\mathbb{R}^n/\Lambda) \ge 1$$, which immediately caps the packing density at $$\delta(\Lambda) \le \operatorname{Vol}(B_n(r/2))$$!
 
 ![Cohn–Elkies idea]({{ site.baseurl }}/img/chapter_img/viazovska_cohn_elkies.svg)
 
 *Figure. Sign conditions on $$f$$ and $$\hat f$$ produce packing upper bounds.*
 
-### The equality problem
+### The equality miracle (and the magic function)
+Look closely at the two inequalities above. When can equality hold for a self-dual lattice $$\Lambda = \Lambda^*$$ like $$E_8$$ (where $$r = \sqrt{2}$$)? **Only if every single dropped term is literally zero:**
+- $$f(x) = 0$$ at every nonzero lattice length $$\|x\| = \sqrt{2}, \sqrt{4}, \sqrt{6}, \dots$$ (double zeros so $$f$$ stays $$\le 0$$!),
+- $$\hat{f}(\xi) = 0$$ at every nonzero dual length $$\|\xi\| = \sqrt{2}, \sqrt{4}, \sqrt{6}, \dots$$ (double zeros so $$\hat{f}$$ stays $$\ge 0$$!).
 
-To prove a lattice packing is optimal, one needs a function $$f$$ for which the Cohn–Elkies upper bound **matches** the lattice’s density. Such functions are called **magic functions**. Existence is extremely rigid: most candidates give only non-sharp bounds.
+Cohn and Elkies ran numerical experiments in 2003 and saw that their linear program approached $$\pi^4/384$$ in 8D and $$\pi^{12}/12!$$ in 24D to dozens of decimal places. The **magic function** almost certainly existed—yet for 13 years, nobody knew how to write down an exact formula for it.
 
 ---
 
-## 5. Viazovska’s magic function in dimension 8
+### Deep-Dive Explanation: How Viazovska Built the Magic Function (Read Slowly)
 
-Viazovska constructed an explicit radial Fourier eigenfunction (in a suitable sense) using **modular forms** and Laplace transforms of carefully chosen weakly holomorphic forms, engineered so that:
+How do you engineer a radial function $$f$$ in $$\mathbb{R}^8$$ that has double zeros at $$\sqrt{2}, \sqrt{4}, \sqrt{6}, \dots$$ and whose Fourier transform $$\hat{f}$$ has the exact same double zeros? Follow Viazovska’s four-step masterpiece:
 
-- the required sign conditions hold;  
-- equality is forced for the $$E_8$$ packing data.
+#### Step 1: Split $$f$$ into Fourier eigenfunctions ($$+1$$ and $$-1$$)
+Instead of building $$f$$ directly, write $$f = a + b$$, where $$\hat{a} = +a$$ (a $$+1$$ Fourier eigenfunction) and $$\hat{b} = -b$$ (a $$-1$$ Fourier eigenfunction). Then $$\hat{f} = a - b$$, so requiring $$f$$ and $$\hat{f}$$ to vanish at $$\sqrt{2k}$$ splits into two clean, separate design problems for $$a$$ and $$b$$.
 
-The proof is analytic and exact—not a numerical optimization that almost matches. That is why the result is a theorem of *Annals* depth rather than a high-precision conjecture check.
+#### Step 2: Force double zeros with a sine-squared factor
+Notice that $$\sin^2\!\left(\frac{\pi \|x\|^2}{2}\right)$$ automatically has **double zeros** at $$\|x\|^2 = 2, 4, 6, \dots$$! So Viazovska wrote her eigenfunctions as a **Laplace transform** multiplied by $$\sin^2(\pi \|x\|^2 / 2)$$:
+
+$$
+a(x) = \sin^2\!\left(\frac{\pi \|x\|^2}{2}\right) \int_0^{i\infty} \phi(\tau)\, e^{i\pi \|x\|^2 \tau}\, d\tau.
+$$
+
+Because $$e^{i\pi \|x\|^2 \tau}$$ is a complex Gaussian, taking its 8-dimensional Fourier transform simply replaces $$\tau$$ by $$-1/\tau$$ and multiplies by $$\tau^{-4}$$!
+
+#### Step 3: Turn Fourier symmetry into a modular-form transformation law
+For $$a(x)$$ to satisfy $$\hat{a} = +a$$ (and similarly $$\hat{b} = -b$$), the mystery weight function $$\phi(\tau)$$ inside the integral must obey an exact transformation law under $$\tau \mapsto -1/\tau$$ and $$\tau \mapsto \tau + 1$$. In other words, **$$\phi(\tau)$$ has to be a weakly holomorphic quasimodular form!**
+
+#### Step 4: Write $$\phi(\tau)$$ explicitly out of classical Eisenstein series
+Because the space of modular forms of a given weight is tiny and finite-dimensional, Viazovska wrote $$\phi(\tau)$$ explicitly as a rational combination of classical Eisenstein series $$E_2, E_4, E_6$$ and the Ramanujan discriminant $$\Delta$$. With explicit formulas in hand, verifying the sign conditions $$f(x)\le 0$$ and $$\hat{f}(\xi)\ge 0$$ became a completely rigorous, 23-page analytic proof—zero computer brute force, zero doubt.
+
+In one schematic line:
+
+$$
+\text{Packing in }\mathbb{R}^8
+\;\xrightarrow{\;\text{Cohn–Elkies}\;}\;
+\text{Radial }f,\hat{f}\text{ zeros at }\sqrt{2k}
+\;\xrightarrow{\;\text{Laplace transform}\;}\;
+\text{Quasimodular }\phi(\tau)
+\;\xrightarrow{\;\text{Poisson summation}\;}\;
+\delta_8 = \frac{\pi^4}{384}.
+$$
+
+---
+
+## 5. Viazovska’s theorem in dimension 8
 
 <div class="textbook-theorem" markdown="1">
 **Theorem (Viazovska, 2016/2017).**  
-The $$E_8$$ lattice packing achieves the maximal density among all sphere packings in $$\mathbb{R}^8$$.
+The $$E_8$$ lattice packing achieves the maximal density $$\pi^4/384$$ among all sphere packings in $$\mathbb{R}^8$$.
 </div>
+
+The proof is analytic and exact—not a numerical optimization that almost matches. That is why the result is a theorem of *Annals of Mathematics* depth rather than a high-precision conjecture check.
 
 ---
 
 ## 6. Dimension 24: collaboration
 
-Building on the same philosophy, **Cohn, Kumar, Miller, Radchenko, and Viazovska** produced a magic function for dimension 24, proving optimality of the Leech lattice packing among all packings in $$\mathbb{R}^{24}$$.
+Just one week after Viazovska’s 8D preprint appeared, **Henry Cohn, Abhinav Kumar, Stephen D. Miller, Danylo Radchenko, and Maryna Viazovska** adapted the modular-form construction to dimension 24, proving that the Leech lattice $$\Lambda_{24}$$ achieves the unique optimal sphere packing density $$\pi^{12}/12!$$ in $$\mathbb{R}^{24}$$.
 
-**Credit literacy.**  
-- Dimension 8: Viazovska solo.  
-- Dimension 24: collaborative CKMRV.  
-Popular accounts sometimes blur this; careful teaching should not.
+**Credit literacy.**
+- Dimension 8: **Viazovska solo**.
+- Dimension 24: **collaborative (Cohn–Kumar–Miller–Radchenko–Viazovska)**.
+Popular accounts sometimes blur this distinction; careful teaching keeps it sharp.
 
 ---
 
 ## 7. Beyond a single density number
 
-The Cohn–Elkies / Viazovska circle of ideas connects to:
+The Cohn–Elkies / Viazovska circle of ideas quickly blossomed far beyond hard spheres:
 
-- **universal optimality** and energy minimization for point configurations;  
-- Fourier interpolation formulas (related Radchenko–Viazovska work);  
-- the broader program of exact solutions in discrete geometry via harmonic analysis.
-
-The Fields Medal recognizes both the packing theorems and the surrounding analytic contribution.
+- **Universal optimality:** Cohn, Kumar, Miller, Radchenko, and Viazovska (2019/2022) proved that $$E_8$$ and the Leech lattice minimize **every** completely monotonic potential energy (such as inverse power laws and Gaussians), not just hard-sphere repulsion.
+- **Fourier interpolation:** Radchenko and Viazovska discovered astonishing exact formulas recovering a radial function purely from the values of $$f$$ and $$\hat{f}$$ at $$\sqrt{n}$$.
+- **Exact discrete geometry via harmonic analysis:** A new bridge showing modular forms can solve global geometric optimization problems.
 
 ---
 
 ## 8. Why it matters
 
-- Settles two of the most famous exact packing problems in mathematics.  
-- Demonstrates modular forms as tools of **geometric optimization**, not only of number-theoretic $$L$$-functions.  
-- Complements computer-assisted 3D (Hales) with a pure-analysis miracle in exceptional dimensions.  
-- Gives Chapter 2 another bridge: **analysis ↔ discrete geometry**.
+- Settles two of the most famous exact packing problems in mathematics.
+- Demonstrates modular forms as tools of **geometric optimization**, not only of number-theoretic $$L$$-functions.
+- Complements computer-assisted 3D (Hales) with a pure-analysis miracle in exceptional dimensions.
+- Gives Chapter 2 another unforgettable bridge: **harmonic analysis & modular forms ↔ discrete geometry**.
 
 ---
 
 ## 9. The paradox, restated
 
-In most dimensions we cannot name the densest packing. In dimensions 8 and 24, exceptional lattices not only exist—they are **provably best possible**, because a single Fourier-designed function seals every competing arrangement.
+In most dimensions we cannot even guess the densest packing. In dimensions 8 and 24, exceptional lattices not only exist—they are **provably best possible**, because a single Fourier-designed function seals every competing arrangement.
 
 $$
 \text{symmetry of }E_8/\Lambda_{24}
@@ -200,11 +306,11 @@ $$
 
 | Claim | Verdict | Correction |
 |-------|---------|------------|
-| “Sphere packing is solved in all dimensions.” | **Fail** | Only special dimensions have exact optima. |
-| “$$E_8$$ optimality is numerical.” | **Fail** | It is an exact theorem. |
-| “Viazovska alone proved Leech optimality.” | **Fail** | Dimension 24 is collaborative. |
-| “Lattice optimum automatically means global optimum.” | **Fail** | In general, nonlattice packings might win; the theorems rule that out in 8 and 24. |
-| “This is only about root systems, not analysis.” | **Fail** | Fourier sign conditions are the engine of the upper bound. |
+| “Sphere packing is solved in all dimensions.” | **Fail** | Exact optima are known only in dimensions 1, 2, 3, 8, and 24. |
+| “$$E_8$$ optimality is numerical.” | **Fail** | It is an exact analytic theorem. |
+| “Viazovska alone proved Leech optimality.” | **Fail** | Dimension 24 is collaborative (Cohn–Kumar–Miller–Radchenko–Viazovska). |
+| “Lattice optimum automatically means global optimum.” | **Fail** | In general, non-lattice packings might win; the theorems rule that out in 8 and 24. |
+| “This is only about root systems, not analysis.” | **Fail** | Fourier sign conditions and modular forms are the engine of the upper bound. |
 
 ---
 

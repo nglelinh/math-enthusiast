@@ -9,21 +9,21 @@ categories:
 - chapter02
 ---
 
-How small can the gap between consecutive primes be, infinitely often? Write $$p_n$$ for the $$n$$th prime. The prime number theorem suggests typical gaps near $$x$$ have size about $$\log x$$, which tends to infinity. Yet one can still ask whether
+As you march further out along the number line, prime numbers grow lonelier and lonelier. Near $$10^{100}$$, the average gap between one prime and the next is roughly $$230$$; near $$10^{1000}$$, it is over $$2{,}300$$. Yet every now and then, two primes suddenly appear almost side by side—like $$29$$ and $$31$$, or $$10{,}000{,}000{,}000{,}000{,}061$$ and $$10{,}000{,}000{,}000{,}000{,}063$$.
+
+For centuries, mathematicians wondered: **do primes ever stop coming close together, or is there some fixed ceiling $$H$$ such that infinitely many consecutive primes sit at most $$H$$ apart?** Formally, writing $$p_n$$ for the $$n$$th prime, is
 
 $$
-\liminf_{n\to\infty}(p_{n+1}-p_n)
+\liminf_{n\to\infty}(p_{n+1}-p_n) < \infty?
 $$
 
-is **finite**—that is, whether some fixed bound $$H$$ captures infinitely many consecutive prime pairs with gap at most $$H$$. **Yitang Zhang** shocked the mathematical world in 2013 by proving the liminf is finite. **James Maynard** independently developed a flexible **multidimensional sieve** framework that also yields bounded gaps, often simplifies and strengthens aspects of the argument, and extends to a wider landscape of prime patterns. He received the **Fields Medal 2022** for advances on the structure of the primes and related Diophantine problems—including large gaps and primes with restricted digits—not for a single tweetable number alone.
-
-This essay narrates bounded gaps toward the standard unconditional story with
+In April 2013, **Yitang Zhang** stunned the world by proving the answer is yes—with $$H = 70{,}000{,}000$$. Months later, a young postdoc named **James Maynard** (and independently Terence Tao) unveiled a far simpler, astonishingly flexible **multidimensional sieve** that slashed the bound down to $$600$$—and, via the collaborative **Polymath8b** project, all the way to
 
 $$
-\liminf_{n\to\infty}(p_{n+1}-p_n)\;\le\;246,
+\liminf_{n\to\infty}(p_{n+1}-p_n)\;\le\;246.
 $$
 
-stresses that this is **not** the twin prime conjecture, contrasts sieve methods with [Green–Tao]({{ site.baseurl }}/contents/en/chapter02/02_04_Green_Tao/) arithmetic progressions, and links to the [twin prime lecture]({{ site.baseurl }}/contents/en/chapter01/01_06_Twin_Prime_Conjecture/). **LO6:** “Maynard almost proved twins” is false methodology dressed as numerical proximity.
+Maynard went on to crack major open problems on **large prime gaps**, **primes missing a decimal digit**, and **Duffin–Schaeffer Diophantine approximation**, earning the **Fields Medal in 2022**. This essay unpacks how his sieve actually works (with hand-checkable examples!), why $$246$$ is **not** "almost twin primes," and how sieve theory differs from [Green–Tao]({{ site.baseurl }}/contents/en/chapter02/02_04_Green_Tao/).
 
 ---
 
@@ -31,101 +31,153 @@ stresses that this is **not** the twin prime conjecture, contrasts sieve methods
 
 After this lecture you should be able to:
 
-- State a **bounded-gap** theorem: $$\liminf_n(p_{n+1}-p_n)\le H$$ for an explicit finite $$H$$.
-- Place **Zhang (2013)**, **Maynard**, **Tao**, and **Polymath** in the community narrative.
-- Explain why **sieves** (especially multidimensional GPY-type weights) detect prime patterns.
-- Distinguish **bounded gaps** from the **twin prime conjecture** (gap exactly $$2$$ infinitely often).
-- Describe Maynard’s contributions beyond small gaps: **large gaps**, **primes with restricted digits**.
-- Contrast Maynard’s sieve viewpoint with **Green–Tao** additive combinatorics for long APs.
-- Practice **LO6** on media claims about $$H=246$$ versus twins.
+- State the **bounded-gap theorem**: $$\liminf_n(p_{n+1}-p_n)\le H$$ for an explicit finite $$H$$ (currently $$246$$ unconditionally).
+- Check by hand whether a tuple of shifts $$(h_1,\dots,h_k)$$ is **admissible** (avoiding congruence obstructions).
+- Explain the weighted pigeonhole principle behind **multidimensional sieve weights** on the simplex $$\Delta_k$$.
+- Place **Zhang (2013)**, **Maynard**, **Tao**, and **Polymath8** accurately in the community story.
+- Explain clearly why bounded gaps ($$H=246$$) do **not** almost prove the **twin prime conjecture** (the parity barrier).
+- Describe Maynard’s achievements beyond small gaps: **large gaps** and **primes with restricted digits**.
+- Contrast Maynard’s sieve toolkit with **Green–Tao’s** additive-combinatorics transference.
 
-**Prerequisites.** Primes; modular arithmetic; the idea that primes have density about $$1/\log x$$. No prior sieve theory required—we define “detect almost primes” in prose.
+**Prerequisites.** Primes, modular arithmetic, and the intuition that primes near $$x$$ have density about $$1/\ln x$$. No prior sieve theory is required.
 
-**Seminar links.** **LO1** (open-adjacent breakthroughs), **LO6**. Core pair: [Twin Prime Conjecture]({{ site.baseurl }}/contents/en/chapter01/01_06_Twin_Prime_Conjecture/). Related: [Green–Tao]({{ site.baseurl }}/contents/en/chapter02/02_04_Green_Tao/), [Euclid infinitude]({{ site.baseurl }}/contents/en/chapter05/05_02_Euclid_Infinite_Primes/), [RH]({{ site.baseurl }}/contents/en/chapter01/01_02_Riemann_Hypothesis/) (fine-scale distribution culture), [prime predictability studio]({{ site.baseurl }}/contents/en/chapter07/07_04_Explore_Prime_Predictability/), [crypto number theory]({{ site.baseurl }}/contents/en/chapter03/03_05_Number_Theory_Cryptography/).
+**Related lessons.** Core pair: [Twin Prime Conjecture]({{ site.baseurl }}/contents/en/chapter01/01_06_Twin_Prime_Conjecture/). Related: [Green–Tao]({{ site.baseurl }}/contents/en/chapter02/02_04_Green_Tao/), [Euclid infinitude]({{ site.baseurl }}/contents/en/chapter05/05_02_Euclid_Infinite_Primes/), [Riemann Hypothesis]({{ site.baseurl }}/contents/en/chapter01/01_02_Riemann_Hypothesis/), [prime predictability studio]({{ site.baseurl }}/contents/en/chapter07/07_04_Explore_Prime_Predictability/), and [crypto number theory]({{ site.baseurl }}/contents/en/chapter03/03_05_Number_Theory_Cryptography/).
+
+---
+
+## Background Knowledge Map: What Is Analytic Sieve Theory?
+
+If you remember the Sieve of Eratosthenes from school—crossing out multiples of $$2$$, then $$3$$, then $$5$$—you have already met the ancestor of Maynard’s toolkit. Modern sieve theory turns that childhood algorithm into a precision analytic instrument.
+
+### 1. Sieve Theory: Detecting Primes Without Listing Them
+**What is it?** Directly counting primes is notoriously hard. Sieve theory instead assigns a smooth, non-negative **weight** $$w_n \ge 0$$ to each integer $$n$$, making $$w_n$$ large when $$n$$ (or a cluster $$n+h_1, \dots, n+h_k$$) has no small prime divisors, and tiny otherwise.
+
+**What does it study?**
+- **Almost primes & prime constellations:** Using smooth weights (Selberg’s sieve, GPY, Maynard–Tao) to prove that among $$k$$ shifted numbers $$n+h_1, \dots, n+h_k$$, at least $$m$$ of them are simultaneously prime infinitely often.
+- **The parity barrier:** A fundamental obstruction discovered by Selberg: pure sieve weights built only from divisor information cannot tell the difference between a number with an **odd** number of prime factors (like a prime, $$1$$ factor) and an **even** number of prime factors (like $$p_1 p_2$$, $$2$$ factors).
+
+### 2. Distribution of Primes in Arithmetic Progressions
+**What is it?** Every sieve needs an input telling it how evenly primes are distributed across remainder classes $$a \bmod q$$ (for $$\gcd(a,q)=1$$).
+
+**What does it study?**
+- **Bombieri–Vinogradov theorem (1965):** Proves unconditionally that primes are uniformly distributed in arithmetic progressions "on average" up to moduli $$q \le x^{\theta}$$ with **level of distribution $$\theta = \tfrac{1}{2}$$**—essentially as strong as the Generalized Riemann Hypothesis on average!
+- **Elliott–Halberstam conjecture:** Predicts that $$\theta$$ can be pushed all the way to $$1$$. One of Maynard’s greatest triumphs is that his multidimensional sieve works using **only** Bombieri–Vinogradov ($$\theta = \tfrac{1}{2}$$), requiring no unproven conjecture at all.
+
+### 3. Harmonic Analysis on Digits & Diophantine Approximation
+**What is it?** Beyond prime gaps, Maynard also wields Fourier analysis (the circle method and Markov/Fourier estimates on base-$$10$$ digit expansions) and metric number theory to answer questions like: *Are there infinitely many primes with no digit $$7$$?* and *Which rational approximations occur for almost every real number?*
 
 ---
 
 ## 1. Gaps between primes: typical, small, and large
 
-Let $$p_1=2,p_2=3,p_3=5,\ldots$$. The gap $$g_n=p_{n+1}-p_n$$ satisfies, on average,
+Let $$p_1=2,p_2=3,p_3=5,\ldots$$. By the Prime Number Theorem, the average gap $$g_n=p_{n+1}-p_n$$ up to $$x$$ satisfies
 
 $$
-\frac{1}{\pi(x)}\sum_{p_n\le x} g_n \;\sim\; \log x,
+\frac{1}{\pi(x)}\sum_{p_n\le x} g_n \;\sim\; \ln x,
 $$
 
-so *typical* gaps grow. That does not forbid rare small gaps or rare huge gaps.
+so *typical* gaps grow slowly to infinity. Yet averages hide extremes on both sides:
 
-**Small gaps question.** Is $$\liminf g_n<\infty$$? Even stronger: is $$\liminf g_n=2$$ (twins)?
-
-**Large gaps question.** How fast can $$g_n$$ grow along a subsequence? Classical constructions give gaps $$\gg \log p_n\log\log p_n/\log\log\log p_n$$ (order-of-magnitude form; constants and log-factors refined over decades).
-
-Maynard’s Fields profile includes tools that speak to **both** ends of the gap spectrum, plus pattern theorems beyond consecutive primes.
+- **Small gaps:** Is $$\liminf g_n < \infty$$? Even stronger, is $$\liminf g_n = 2$$ (infinitely many twin primes)?
+- **Large gaps:** How long can a prime-free desert of consecutive composite numbers stretch? Classical constructions give gaps $$\gg \frac{\ln p_n \ln\ln p_n \ln\ln\ln\ln p_n}{(\ln\ln\ln p_n)^2}$$, and Maynard (together with Ford, Green, Konyagin, and Tao) broke a 76-year-old bottleneck to resolve Erdős’s \$10,000 large-gap prize.
 
 ---
 
-## 2. Zhang’s breakthrough and the race to smaller $$H$$
+## 2. Zhang’s breakthrough and the race to $$H=246$$
 
-In 2013, Zhang proved that there exists some finite $$H$$ (his paper gave $$H=70{,}000{,}000$$) such that
+In 2013, **Yitang Zhang** proved that $$\liminf_{n\to\infty}(p_{n+1}-p_n) \le 70{,}000{,}000$$. Using the **GPY method** (Goldston–Pintz–Yıldırım, 2005), which had been stranded right at the edge of Bombieri–Vinogradov’s $$\theta = \tfrac{1}{2}$$ threshold, Zhang ingeniously pushed the level of distribution *slightly past $$\tfrac{1}{2}$$* for smooth moduli using deep algebraic-geometric exponential sum bounds (Deligne).
 
-$$
-p_{n+1}-p_n \le H
-$$
-
-for infinitely many $$n$$. Equivalently,
-
-$$
-\liminf_{n\to\infty}(p_{n+1}-p_n) < \infty
-$$
-
-with an explicit upper bound on the liminf. The proof used a variant of the **GPY method** (Goldston–Pintz–Yıldırım) together with a clever distribution estimate for primes in arithmetic progressions on average—weakening what one needs from Elliott–Halberstam-type hypotheses in a way that became available through deep exponential-sum / bilinear form technology.
-
-Immediately, a worldwide **Polymath** project and independent work (including Maynard and Tao) drove the admissible $$H$$ down dramatically. In the now-standard unconditional narrative from Maynard’s multidimensional weights combined with Polymath optimizations, one reaches
+Immediately, a worldwide **Polymath8** collaboration drove Zhang’s $$70{,}000{,}000$$ down to $$4{,}680$$. Then, in November 2013, **James Maynard** (and independently **Terence Tao**) changed the game completely: instead of pushing past $$\theta = \tfrac{1}{2}$$, they redesigned the sieve weights themselves! Maynard’s first paper immediately yielded $$H \le 600$$ using only the classical 1965 Bombieri–Vinogradov theorem—and proved something Zhang’s method could not: **for every integer $$m \ge 2$$, there exist infinitely many bounded intervals containing at least $$m$$ primes!** Combining Maynard’s weights with Polymath8b optimizations brought the unconditional bound down to
 
 $$
 \liminf_{n\to\infty}(p_{n+1}-p_n)\;\le\;246.
 $$
 
-Under strong distribution conjectures (Elliott–Halberstam), the same circle of ideas can push toward much smaller $$H$$ (even $$H=6$$ in some conditional discussions of admissible tuples)—still **not** automatically $$H=2$$ without further breakthroughs past parity-type barriers.
+Under the unproven generalized Elliott–Halberstam conjecture, the same machinery reaches $$H \le 6$$—yet still cannot reach $$H=2$$ without breaking the parity barrier.
 
-**Credit culture.** Bounded gaps is a **community story**. Zhang opened the door with a finite $$H$$; Maynard’s sieve redesign is a central independent engine; Tao, Polymath, and many others optimized and extended. **LO6:** never write “Maynard alone discovered bounded gaps.”
+**Credit culture.** Bounded gaps is a **community triumph**: Zhang opened the door in 2013; Maynard (and independently Tao) built the cleaner, stronger multidimensional sieve; Polymath8 optimized the bound to $$246$$.
 
 ---
 
-## 3. Multidimensional sieve weights
+## 3. Admissible tuples and multidimensional sieve weights
 
-Sieves detect numbers with few prime factors by weighting residue classes and using inclusion of local densities. The GPY method studies sums roughly of the shape
+Before hunting for prime constellations $$n+h_1, \dots, n+h_k$$, we must make sure simple modular arithmetic does not kill our tuple from the start.
+
+### Hand-Verifiable Example 1: Admissible vs. Inadmissible Tuples
+A tuple $$(h_1, \dots, h_k)$$ is **admissible** if for *every* prime $$p$$, the shifts $$h_i \bmod p$$ miss at least one residue class modulo $$p$$. Check two triples by hand:
+
+- **Inadmissible triple $$(n, n+2, n+4)$$:** Reduce modulo $$3$$! The shifts $$(0, 2, 4)$$ become $$(0, 2, 1) \bmod 3$$—they hit **all three** residue classes modulo $$3$$. That means for *every* integer $$n$$, one of $$n, n+2, n+4$$ is divisible by $$3$$. The only all-prime triple is $$(3, 5, 7)$$; after that, the pattern dies forever!
+- **Admissible triple $$(n, n+2, n+6)$$:**
+  - Mod $$2$$: shifts are $$(0, 0, 0)$$ — misses $$1 \bmod 2$$ (safe whenever $$n$$ is odd).
+  - Mod $$3$$: shifts are $$(0, 2, 0)$$ — misses $$1 \bmod 3$$ (safe whenever $$n \equiv 2 \pmod 3$$).
+  - Mod $$p \ge 5$$: there are only $$3$$ shifts and at least $$5$$ residue classes, so at least two classes are automatically missed!
+
+Check it on small integers $$n \equiv 5 \pmod 6$$:
+- $$n=5 \implies (5, 7, 11)$$ (all 3 prime!)
+- $$n=11 \implies (11, 13, 17)$$ (all 3 prime!)
+- $$n=17 \implies (17, 19, 23)$$ (all 3 prime!)
+- $$n=41 \implies (41, 43, 47)$$ (all 3 prime!)
+
+### Hand-Verifiable Example 2: The Weighted Pigeonhole Principle
+How does a sieve prove that at least two (or $$m$$) entries in an admissible $$k$$-tuple $$(n+h_1, \dots, n+h_k)$$ are prime? Pick non-negative weights $$w_n \ge 0$$ and form the difference
 
 $$
-\sum_n \Bigl(\sum_{i=1}^k \mathbf{1}_{\text{prime}}(n+h_i)\Bigr) w_n,
+S(N) = \sum_{N < n \le 2N} \left(\sum_{i=1}^{k} \mathbf{1}_{\text{prime}}(n+h_i) - (m-1)\right) w_n.
 $$
 
-where $$h_1,\ldots,h_k$$ is an **admissible** tuple of shifts (no fixed prime divides one of the linear forms for every $$n$$), and $$w_n\ge 0$$ are sieve weights concentrated on integers where the product $$\prod_i(n+h_i)$$ has small prime factors in a controlled way.
+Look at the logic—it is pure pigeonhole! If every $$n$$ in $$(N, 2N]$$ had at most $$m-1$$ primes among $$n+h_1, \dots, n+h_k$$, then every term inside the parentheses would be $$\le 0$$, forcing $$S(N) \le 0$$. Therefore, **if you can prove $$S(N) > 0$$ for arbitrarily large $$N$$, there MUST be infinitely many $$n$$ for which at least $$m$$ of the numbers $$n+h_1, \dots, n+h_k$$ are simultaneously prime!**
 
-If the weighted count shows that the inner sum is often at least $$2$$, then at least two of the forms $$n+h_i$$ are prime infinitely often—hence a bounded gap of size at most $$\max h_i-\min h_i$$.
+---
 
-**Maynard’s insight** was to use **multidimensional weights**: optimize a weight depending on the vector of divisor information for several linear forms simultaneously, rather than a more rigid one-dimensional weight structure. This produces stronger detection of constellations and cleaner dependence on distribution theorems. The method is modular: once the weight optimization is set up, one can feed in different levels of prime-distribution input and read off which prime patterns follow.
+### Deep-Dive Explanation: Why Maynard’s Multidimensional Sieve Succeeded (Read Slowly)
 
-Schematically:
+Why did the 2005 GPY sieve stall right at the $$\theta = \tfrac{1}{2}$$ wall, while Maynard’s 2013 sieve sailed effortlessly past it? Follow the four steps slowly:
+
+#### Step 1: The GPY 1D bottleneck
+GPY chose weights $$w_n$$ depending only on the **product** $$\prod_{i=1}^k (n+h_i)$$—a single one-dimensional variable $$t = t_1 + \dots + t_k$$ measuring the total size of divisors across the tuple. Because that 1D weight treats all $$k$$ coordinates rigidly together, its prime-detection ratio (the quotient of the prime sum to the total weight sum) caps out at a limit that is *just barely* too small when $$\theta = \tfrac{1}{2}$$.
+
+#### Step 2: Maynard’s leap to $$k$$ independent variables on the simplex $$\Delta_k$$
+Maynard replaced the single divisor variable with $$k$$ separate divisor variables $$d_1 \mid (n+h_1), \dots, d_k \mid (n+h_k)$$ controlled by a smooth symmetric function $$F(t_1, \dots, t_k)$$ supported on the $$k$$-dimensional simplex
 
 $$
-\text{admissible tuple }(h_i)
+\Delta_k = \left\{(t_1,\dots,t_k) \in [0,1]^k : t_1 + t_2 + \dots + t_k \le 1\right\}.
+$$
+
+Now the sieve can reward integers $$n$$ where individual components $$n+h_i$$ individually avoid small prime divisors, rather than lumping them into one product.
+
+#### Step 3: Turn prime detection into a calculus maximization problem
+Using Bombieri–Vinogradov ($$\theta = \tfrac{1}{2}$$), Maynard evaluated both sums asymptotically in terms of two explicit $$k$$-dimensional integrals $$I_k(F)$$ and $$J_k(F)$$. The pigeonhole condition $$S(N) > 0$$ reduces cleanly to finding a smooth function $$F$$ on $$\Delta_k$$ such that
+
+$$
+\frac{\theta}{2} \cdot \frac{k\, J_k(F)}{I_k(F)} > m - 1.
+$$
+
+#### Step 4: The logarithmic explosion $$M_k \to \infty$$
+Let $$M_k = \sup_F \frac{k\, J_k(F)}{I_k(F)}$$. Whereas the 1D GPY ratio stayed bounded below $$4$$ no matter how huge $$k$$ was, Maynard proved that in $$k$$ dimensions,
+
+$$
+M_k > \ln k - 2\ln\ln k - 2 \;\longrightarrow\; \infty \quad \text{as } k \to \infty!
+$$
+
+That single divergence changes everything: **for ANY positive level of distribution $$\theta > 0$$ and ANY desired number of primes $$m$$**, you simply pick $$k$$ large enough that $$\frac{\theta}{2} M_k > m-1$$! For $$m=2$$ and $$\theta=\tfrac{1}{2}$$, choosing $$k=50$$ (with diameter $$246$$, optimized by Polymath8b) pushes $$\frac{1}{4}M_{50} > 1$$, locking in $$\liminf (p_{n+1}-p_n) \le 246$$.
+
+In one schematic line:
+
+$$
+\text{Admissible }k\text{-tuple}
 \;+\;
-\text{multidimensional weights}
+k\text{-variable weight }F\text{ on }\Delta_k
 \;+\;
-\text{distribution of primes in APs}
+\text{Bombieri–Vinogradov }(\theta=\tfrac{1}{2})
 \;\Longrightarrow\;
-\text{bounded gaps / patterns}.
+M_k \to \infty \implies \text{bounded gaps \& }m\text{-clusters}.
 $$
-
-You do not need the full variational optimization of weights for seminar fluency; you need the **architecture**.
 
 ---
 
 ## 4. Not the twin prime conjecture
 
-The **twin prime conjecture** asserts infinitely many primes $$p$$ with $$p+2$$ also prime: gap **exactly** $$2$$ infinitely often. Bounded gaps assert only that some even number $$H$$ in a fixed finite set occurs as a gap infinitely often (more precisely, that some gap $$\le H$$ occurs infinitely often for consecutive primes).
-
-Implications:
+The **twin prime conjecture** asserts infinitely many primes $$p$$ with $$p+2$$ also prime—gap **exactly** $$2$$ infinitely often. Bounded gaps assert only that some even gap $$\le 246$$ occurs infinitely often.
 
 $$
 \text{twin primes}
@@ -135,19 +187,19 @@ $$
 \liminf g_n \le 246,
 $$
 
-but none of the reverse arrows is known from current theorems. Numerical closeness of $$246$$ to $$2$$ is psychologically tempting and **methodologically misleading**. Sieve methods face **parity problems**: they struggle to distinguish numbers with an even number of prime factors from those with an odd number in ways that block pure “exactly two prime factors that are both size $$n$$” conclusions for twins.
+but none of the reverse arrows follows from current theorems. Seeing $$246$$ and thinking "we are 99% of the way to $$2$$" is a classic trap. Even if you take $$k=2$$ (the twin tuple $$(n, n+2)$$), the **parity barrier** prevents pure sieve weights from proving $$\frac{\theta}{2} M_2 > 1$$ unless you somehow had $$\theta > 1$$—which is impossible! Closing the gap from $$246$$ to $$2$$ requires a genuinely new mechanism outside classical sieve weights.
 
-**Chen’s theorem** (every large even integer is a sum of a prime and an almost-prime with at most two factors, in the classical Goldbach-adjacent form; and related almost-twin statements) illustrates how close sieves get to twins without reaching them. See the [twin prime lecture]({{ site.baseurl }}/contents/en/chapter01/01_06_Twin_Prime_Conjecture/) for Hardy–Littlewood heuristics and parity discussion.
+**Chen’s theorem** (every sufficiently large even integer is $$p + P_2$$, a prime plus a product of at most two primes) illustrates the exact same parity wall from another angle. See the [twin prime lecture]({{ site.baseurl }}/contents/en/chapter01/01_06_Twin_Prime_Conjecture/) for Hardy–Littlewood heuristics and parity discussion.
 
 ---
 
 ## 5. Large gaps and primes with restricted digits
 
-**Large gaps.** Maynard contributed to refined constructions and understandings of long stretches of composite numbers between primes—showing the sieve and covering ideas that force many consecutive integers to be composite can be pushed further. Large-gap theorems complement small-gap theorems: the primes are irregular in both directions.
+Maynard’s Fields Medal recognizes a sweeping body of work on the structure of primes, far beyond $$246$$:
 
-**Restricted digits.** A celebrated result in this circle (Maynard and related work in the literature) constructs infinitely many primes that avoid certain digits in a given base—for example, primes whose decimal expansion misses a fixed digit, under appropriate hypotheses of the method. The surprise is that such a thin set still contains infinitely many primes. The proof uses a sophisticated combination of sieve ideas and harmonic analysis / circle-method-adjacent estimates; seminar takeaway: **modern sieve technology reaches far beyond consecutive gaps**.
-
-These results explain why the Fields citation speaks of the **structure of prime numbers** broadly, not only of the number $$246$$.
+- **Large gaps (with Ford, Green, Konyagin, Tao):** Proved that gaps between consecutive primes can be arbitrarily large multiples of $$\frac{\ln p_n \ln\ln p_n \ln\ln\ln\ln p_n}{(\ln\ln\ln p_n)^2}$$, settling a classic Erdős problem by combining hypergraph covering ideas with Maynard’s multidimensional sieve.
+- **Primes with restricted digits (2019):** Proved there are infinitely many prime numbers whose base-10 expansion **never uses the digit 7** (or any single forbidden digit $$d \in \{0,\dots,9\}$$)! Numbers missing a digit are astonishingly sparse—up to $$10^N$$, only $$9^N = (10^N)^{0.954\dots}$$ integers survive, a zero-density fractal set. Maynard fused sieve theory with delicate Fourier analysis on base-10 expansions to prove primes still thrive inside it.
+- **Duffin–Schaeffer conjecture (with Koukoulopoulos, 2019):** Settled an 80-year-old foundational conjecture in Diophantine approximation using graph-theoretic "GCD graphs" to measure overlap of rational approximations.
 
 ---
 
@@ -155,25 +207,23 @@ These results explain why the Fields citation speaks of the **structure of prime
 
 | Feature | Green–Tao | Zhang–Maynard gaps |
 |---------|-----------|---------------------|
-| Pattern | Arbitrarily long APs of primes | Bounded consecutive gaps (and tuples) |
-| Engine | Transference + pseudorandom majorants + Szemerédi | Multidimensional sieves + distribution in APs |
-| Density issue | Primes have density zero vs Szemerédi | Need primes in many linear forms at once |
-| Open twin-like end | Not about gap $$2$$ | Gap $$2$$ still open |
-| Fields narrative | Tao 2006 (broad work; GT landmark) | Maynard 2022; Zhang not Fields for 2013 (timing/age rules aside—focus on math story) |
+| Pattern | Arbitrarily long APs of primes | Bounded consecutive gaps (and $$m$$-prime clusters) |
+| Engine | Transference + pseudorandom majorants + Szemerédi | Multidimensional sieves + Bombieri–Vinogradov |
+| Density issue | Primes have density zero vs. Szemerédi | Need primes in multiple linear forms simultaneously |
+| Open twin-like end | Not about gap $$2$$ | Gap $$2$$ still open (parity barrier) |
+| Fields narrative | Tao 2006 (broad work; GT landmark) | Maynard 2022; Zhang’s 2013 breakthrough opened the door |
 
-Both show that primes contain highly structured patterns. They answer **different pattern questions** with **different toolkits**. A strong seminar student can explain both without mixing the proofs.
+Both prove primes harbor rich structure, yet they answer **different pattern questions** with **different engines**.
 
 ---
 
 ## 7. Why it matters
 
-Bounded gaps reopened a classical door: questions that felt eternally asymptotic-only became theorems with explicit constants. Maynard’s weights made the technology portable across pattern problems. Together with Green–Tao, the 2000s–2010s rewrote the public and professional sense of what is known about prime patterns.
+Bounded gaps reopened a centuries-old frontier: asymptotic hopes became theorems with explicit constants. Maynard’s multidimensional weights turned a fragile breakthrough into a portable engine powering small gaps, prime clusters, large gaps, and restricted-digit primes alike.
 
 **Accuracy notes.**
-
 - Twin primes remain open.
-- $$H=246$$ is a community-optimized figure in the standard account; always check current surveys for conditional improvements or refinements of related tuple results.
-- Diophantine approximation components of Maynard’s profile are real but de-emphasized here in favor of the prime-structure narrative requested for this course map.
+- $$H=246$$ is the standard unconditional community-optimized figure (Maynard + Polymath8b).
 
 ---
 
@@ -182,11 +232,11 @@ Bounded gaps reopened a classical door: questions that felt eternally asymptotic
 | Claim | Correction |
 |-------|------------|
 | “Bounded gaps = twin prime conjecture.” | Twins need gap $$2$$ infinitely often; bounded gaps allow a larger fixed $$H$$. |
-| “Maynard alone discovered bounded gaps.” | Zhang’s 2013 breakthrough; Maynard, Tao, Polymath, and others developed the story. |
-| “$$H=246$$ means twins are 99% done.” | Numerical gap to $$2$$ is small; parity/method barriers remain large. |
-| “Green–Tao already gave bounded gaps.” | Green–Tao gives long APs, not a uniform bound on consecutive prime gaps. |
-| “Sieves prove numbers are prime.” | Sieves often prove *almost-prime* or *at least two primes among forms*; full primality of a single form is harder. |
-| “Large gaps contradict the prime number theorem.” | PNT controls averages; large gaps are rare spikes compatible with average $$\log x$$. |
+| “Maynard alone discovered bounded gaps.” | Zhang’s 2013 breakthrough opened the field; Maynard, Tao, and Polymath8 simplified and sharpened it. |
+| “$$H=246$$ means twins are 99% done.” | Numerical distance to $$2$$ is small; the parity barrier is a conceptual wall. |
+| “Green–Tao already gave bounded gaps.” | Green–Tao gives long arithmetic progressions, not a uniform bound on consecutive gaps. |
+| “Sieves prove numbers are prime.” | Sieves detect *almost primes* or force *at least $$m$$ primes inside a larger $$k$$-tuple*; isolating one exact prime form hits parity limits. |
+| “Large gaps contradict the prime number theorem.” | PNT controls averages; large gaps are rare spikes compatible with average $$\ln x$$. |
 
 ---
 

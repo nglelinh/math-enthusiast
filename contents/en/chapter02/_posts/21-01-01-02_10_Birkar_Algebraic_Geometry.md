@@ -9,9 +9,13 @@ categories:
 - chapter02
 ---
 
-**Caucher Birkar** received the **Fields Medal 2018** for his proof of the **boundedness of Fano varieties** and for deep contributions to the **minimal model program (MMP)** in higher-dimensional algebraic geometry. The medal recognizes a program, not a single isolated lemma: birational geometry asks how to organize algebraic varieties of arbitrary dimension the way Riemann surfaces and algebraic surfaces were organized a century earlier—by reducing them, step by step, to models whose geometry is controlled.
+Suppose you are handed an infinite zoo of shapes carved out by polynomial equations in four, five, or a hundred complex dimensions. Every time you tweak a degree or add a variable, a brand-new shape appears. How could anyone possibly build a **periodic table of all algebraic shapes**?
 
-This essay is for learners who have seen curves and surfaces in a first algebraic geometry course and want the **architecture** of higher-dimensional classification. It does **not** claim that “all varieties are classified,” nor that Birkar worked alone. It explains slogans carefully: birational equivalence, divisorial contractions and flips, Fano varieties as anticanonical positivity, BAB-type boundedness, and what a Fields-level theorem actually rearranges in the landscape.
+In one complex dimension (curves), nineteenth-century mathematicians solved this completely: every smooth compact Riemann surface is sorted cleanly by a single integer, its **genus** $$g$$ (number of holes)—the sphere ($$g=0$$), the torus ($$g=1$$), or a multi-holed surface ($$g \ge 2$$). In two dimensions (surfaces), Italian and Japanese geometers achieved a celebrated classification by allowing controlled geometric surgeries. Above dimension two, however, the zoo explodes into wild, singular territory.
+
+**Caucher Birkar**—who grew up on a subsistence farm in Iranian Kurdistan during the Iran–Iraq War before seeking asylum in the UK—received the **Fields Medal in 2018** for bringing breathtaking order to that higher-dimensional wilderness. Together with Paolo Cascini, Christopher Hacon, and James McKernan (BCHM), he helped establish core pillars of the **Minimal Model Program (MMP)**; then, in a solo tour de force, he proved the **Borisov–Alexeev–Borisov (BAB) conjecture** on the **boundedness of Fano varieties**—showing that the positively curved "atomic building blocks" of higher-dimensional algebraic geometry cannot run wild to infinity.
+
+This essay unpacks the **architecture** of higher-dimensional classification using concrete, hand-checkable geometric examples—showing what birational equivalence keeps, how blow-ups heal singularities, why Fano varieties are the positively curved atoms, and what Birkar’s theorem really proves.
 
 ---
 
@@ -19,122 +23,191 @@ This essay is for learners who have seen curves and surfaces in a first algebrai
 
 After this lecture you should be able to:
 
-- State the goal of the **minimal model program** in one careful paragraph (reduce birationally toward a minimal model or a Mori fiber space).
-- Explain **birational equivalence** as “same dense open set, different compactification,” and why it is weaker than isomorphism.
-- Define a **Fano variety** at slogan level: the anticanonical class $$-K_X$$ is ample (positive curvature in a complex-geometric sense).
-- Distinguish **existence of flips** from **boundedness of Fanos**—related MMP pillars, different statements.
-- Describe higher-dimensional classification as an **architecture of reduction steps**, not a finished encyclopedia of isomorphism types.
-- Attribute credit carefully: Birkar’s solo Fano boundedness sits inside a long collaborative network (Cascini, Hacon, McKernan, and many others).
+- Explain **birational equivalence** using the concrete circle-to-line stereographic projection, and see what it keeps versus forgets.
+- Perform a **blow-up** by hand on the nodal curve $$y^2 = x^2(x+1)$$ to see how algebraic surgery resolves a singularity.
+- State the goal of the **Minimal Model Program (MMP)**: simplify any projective variety into a minimal model or a Mori fiber space via divisorial contractions and flips.
+- Identify **Fano varieties**, **Calabi–Yau varieties**, and **general-type varieties** on hypersurfaces in $$\mathbb{P}^3$$ using the canonical class $$K_X = (d-n-1)H$$.
+- Distinguish **existence of flips** (collaborative BCHM) from **boundedness of Fano varieties** (Birkar’s solo BAB proof).
+- Describe higher-dimensional classification as a living **reduction architecture**, not a finished encyclopedia of every variety.
 
-**Prerequisites.** Projective varieties over $$\mathbb{C}$$ (or algebraically closed fields of characteristic zero) at the level of a first course; line bundles and ampleness as “positivity”; the idea that a curve has a genus. No prior MMP required.
+**Prerequisites.** Familiarity with polynomials, curves, and basic complex/projective geometry helps; line bundles and canonical classes are introduced intuitively through concrete hypersurface examples.
 
-**Seminar links.** LO1 / LO4 (hard open-adjacent programs; classical classification ↔ modern reduction tools). Pair with [Beautiful Mathematics]({{ site.baseurl }}/contents/en/chapter04/) for “structure first” aesthetics, and with [Scholze / perfectoid geometry]({{ site.baseurl }}/contents/en/chapter02/02_06_Scholze_Perfectoid/) only as a *different* foundational revolution in algebraic geometry—not the same toolbox.
+**Related lessons.** Pair with [Beautiful Mathematics]({{ site.baseurl }}/contents/en/chapter04/) for "structure first" aesthetics, and compare with [Scholze / perfectoid geometry]({{ site.baseurl }}/contents/en/chapter02/02_06_Scholze_Perfectoid/) as a *different* foundational revolution inside algebraic geometry.
+
+---
+
+## Background Knowledge Map: What Is Birational Algebraic Geometry?
+
+If your undergraduate background covered linear algebra and multivariable calculus, "algebraic geometry" can sound forbidding. At heart, its core ideas are vivid and geometric.
+
+### 1. Algebraic Varieties: Shapes Carved by Polynomials
+**What is it?** An algebraic variety is the solution set of polynomial equations—like the unit circle $$x^2 + y^2 = 1$$, a cubic surface in 3D, or a 10-dimensional manifold cut out by polynomials in projective space $$\mathbb{P}^N$$ (ordinary space plus "points at infinity" so parallel lines meet cleanly).
+
+**What does it study?**
+- **Smoothness vs. singularities:** Most points look like flat Euclidean space, while special points can pinch into corners, cusps, or self-intersections.
+- **Curvature via the canonical class $$K_X$$:** In algebraic geometry, the **canonical divisor $$K_X$$** plays the role of curvature (technically, $$-K_X$$ corresponds to Ricci curvature). Just as surfaces split into sphere (positive curvature), torus (flat), and multi-holed donuts (negative curvature), higher-dimensional varieties split into three grand families: **Fano** ($$-K_X > 0$$), **Calabi–Yau** ($$K_X = 0$$), and **general type** ($$K_X > 0$$).
+
+### 2. Birational Geometry: Allowing Clean Surgery
+**What is it?** Classifying varieties up to strict isomorphism is too rigid: you can always "blow up" a single point on a smooth surface into a line, creating infinitely many slightly modified copies of the same shape. **Birational geometry** declares two shapes equivalent if they become isomorphic after deleting thin, lower-dimensional slices.
+
+**What does it study?**
+- **Blow-ups and contractions:** Replacing a point with a projective space of tangent directions (blowing up) to untangle singularities, or collapsing excess curves/divisors back down (contracting).
+- **Minimal models:** Stripping away unnecessary "geometric fat" until a variety reaches its simplest representative.
+
+### 3. Moduli & Boundedness: Can All Shapes Fit in One Finite Catalogue?
+**What is it?** A **moduli space** is a geometric space whose points *are* other geometric shapes (for example, the space of all triangles or all elliptic curves).
+
+**What does it study?**
+- **Boundedness:** A family of shapes is **bounded** if a finite number of polynomial families with finitely many parameters captures every shape in the class. Without boundedness, you cannot even hope to construct a finite-type moduli space or a complete classification table.
 
 ---
 
 ## 1. Why higher dimensions feel different
 
-In complex dimension one, compact Riemann surfaces are classified up to biholomorphism by the **genus** $$g$$: the sphere ($$g=0$$), elliptic curves ($$g=1$$), and higher-genus curves ($$g\ge 2$$) with a moduli space of expected dimension $$3g-3$$. In dimension two, the **Enriques–Kodaira** classification organizes surfaces by Kodaira dimension and a finite list of geometric types (ruled, elliptic, general type, …), after allowing birational modifications and controlled singularities.
+In complex dimension one, compact Riemann surfaces fall into three crisp buckets by genus $$g$$: the sphere ($$g=0$$, positive curvature), elliptic curves ($$g=1$$, flat), and higher-genus curves ($$g\ge 2$$, negative curvature). In dimension two, the **Enriques–Kodaira classification** organizes smooth surfaces by contracting redundant $$(-1)$$-curves until you hit a clean minimal surface.
 
-From dimension three upward, a naive hope—“list all isomorphism types”—collapses. There are simply too many varieties, and even basic invariants (Hodge numbers, canonical rings) interact with singularities in ways that defeat surface-style tables. The modern answer is not a bigger table. It is a **program**: given a reasonably nice projective variety $$X$$, perform a sequence of **birational operations** that improve the pair $$(X,K_X)$$ until one reaches a model whose canonical class is **nef** (non-negative on curves), or a fibration whose fibers carry positive curvature in a precise sense.
+From dimension three upward, two dramatic shocks occur:
+1. Even if you start with a **completely smooth** 3-fold, simplifying it inevitably creates **mild singularities**—so you must widen your category to include controlled singularities (such as **klt**, *Kawamata log terminal* singularities).
+2. Ordinary contractions sometimes get stuck on tiny codimension-$$\ge 2$$ loci, forcing a subtle surgical move called a **flip**.
 
-That program is the **minimal model program**. Birkar’s work is one of its central late chapters.
+The modern answer is therefore not a giant list—it is an algorithm called the **Minimal Model Program (MMP)**.
 
 ---
 
-## 2. Birational geometry: what you keep and what you forget
+## 2. Birational geometry: two hand-verifiable surgeries
 
-Two irreducible varieties $$X$$ and $$Y$$ are **birational** if there exist dense open sets $$U\subset X$$ and $$V\subset Y$$ with an isomorphism $$U\simeq V$$. Equivalently, their function fields are isomorphic. Birational maps may blow up or blow down exceptional loci; they may change the topology of the total space while preserving the “generic” geometry.
+Two irreducible varieties $$X$$ and $$Y$$ are **birational** if they share isomorphic dense open sets $$U \simeq V$$ (equivalently, the same field of rational functions).
 
-What birational equivalence **retains**: the function field; many invariants of the open dense set; in good situations, the plurigenera and the Kodaira dimension
+### Hand-Verifiable Example 1: Why a Circle and a Line Are Birational
+Consider the unit circle $$C: x^2 + y^2 = 1$$ and the straight line $$\mathbb{R}$$ with coordinate $$t$$. Project every point $$(x,y)$$ on the circle from the left pole $$(-1,0)$$ onto the vertical axis $$t$$:
 
 $$
-\kappa(X)=\operatorname{trdeg}\Bigl(\bigoplus_{m\ge 0} H^0(X,mK_X)\Bigr)-1
+t = \frac{y}{1+x}
+\qquad \Longleftrightarrow \qquad
+x = \frac{1-t^2}{1+t^2}, \quad y = \frac{2t}{1+t^2}.
 $$
 
-(with the usual conventions when the ring is zero or finite-dimensional).
+Check by hand: $$x^2 + y^2 = \frac{(1-t^2)^2 + 4t^2}{(1+t^2)^2} = \frac{(1+t^2)^2}{(1+t^2)^2} = 1$$!
+Notice the subtlety: the formula is undefined at the single point $$(-1,0)$$ on the circle, so the circle and the line are **not** isomorphic as affine curves—yet delete that one point, and they match one-to-one via rational functions! They are **birational**.
 
-What it **forgets**: the full isomorphism type; the configuration of exceptional divisors; some singularity data (until one carefully tracks pairs $$(X,\Delta)$$); and, dramatically, the topology of compactifications.
+### Hand-Verifiable Example 2: Healing a Singularity with a Blow-Up
+Now take the nodal cubic curve $$C: y^2 = x^2(x+1)$$ in the plane. At the origin $$(0,0)$$, the curve crosses itself like an "X" (with slopes $$+1$$ and $$-1$$)—a **singularity**.
 
-**Slogan for this course.** Classification *up to birational equivalence* is coarser than classification *up to isomorphism*, but it is deep enough to organize higher-dimensional geometry—and it is the only scale at which a global program currently exists.
+How do algebraic geometers untangle it? **Blow up the origin** by introducing the slope coordinate $$t = y/x$$ (so $$y = tx$$) and substituting into the equation:
 
----
+$$
+(tx)^2 = x^2(x+1) \;\Longrightarrow\; x^2\bigl(t^2 - (x+1)\bigr) = 0.
+$$
 
-## 3. The minimal model program: goals in one page
+Factoring out the vertical exceptional line $$x=0$$ (the set of all slopes through the origin) leaves the **strict transform**
 
-Start with a smooth projective variety $$X$$ of dimension $$n$$ (or, more generally, a klt pair $$(X,\Delta)$$). The MMP attempts to **run a directed process**:
+$$
+\widetilde{C}: t^2 = x + 1,
+$$
 
-1. If the canonical class $$K_X$$ is already **nef**—$$K_X\cdot C\ge 0$$ for every curve $$C$$—stop: one has a **minimal model** (in the smooth case; mild singularities appear in the general theory).
-2. If not, the cone theorem of Mori theory produces a curve on which $$K_X$$ is negative. One contracts (or flips) the extremal ray generated by that curve.
-3. After finitely many such steps (in good situations), one expects either a minimal model or a **Mori fiber space**: a fibration $$X\to Z$$ whose general fiber is Fano-like ($$-K$$ ample on fibers relative to the base).
+a completely **smooth parabola**! The two branches that collided at $$(0,0)$$ had different slopes ($$t=+1$$ and $$t=-1$$), so lifting the curve into $$(x,t)$$-space cleanly separates them at $$(0,1)$$ and $$(0,-1)$$.
 
-In dimension two this story is classical (Castelnuovo contractions, minimal models of surfaces). In dimension three it required the 1980s–1990s theory of flips (Mori and others). In higher dimensions, even the **existence of flips** was a decades-long challenge.
+Birational equivalence preserves the function field and the **Kodaira dimension**
 
-Two kinds of steps appear:
+$$
+\kappa(X)=\operatorname{trdeg}\Bigl(\bigoplus_{m\ge 0} H^0(X,mK_X)\Bigr)-1,
+$$
 
-- **Divisorial contraction.** A morphism that contracts a divisor (codimension-one locus) to something smaller. This changes the Picard number by one in a relatively transparent way.
-- **Flip.** When the locus one wants to “improve” is small (often codimension $$\ge 2$$ on both sides), there is no morphism that simply contracts a divisor. Instead one replaces a small contraction $$X\to Z$$ by another small birational map $$X^+\to Z$$ so that $$K_{X^+}$$ becomes more positive relative to $$Z$$. Flips are harder because one must **construct** $$X^+$$ and prove it exists with the right singularities.
-
-**Slogan.** Contractions remove excess negative directions by shrinking loci you can see as divisors; flips surgically replace bad small loci when no divisorial contraction is available.
-
----
-
-## 4. Fano varieties: the positive-curvature generators
-
-A projective variety $$X$$ is **Fano** if the anticanonical line bundle $$-K_X$$ is **ample**. On smooth complex manifolds this is related to positive Ricci curvature (by Yau and others in related contexts); for this course, take ampleness of $$-K_X$$ as the definition.
-
-Fano varieties generate many birational phenomena:
-
-- They appear as **fibers** of Mori fiber spaces.
-- They are “positively curved,” so their geometry is expected to be more rigid than that of general type varieties (where $$K_X$$ is positive).
-- Families of Fanos control much of the **moduli and boundedness** landscape: if Fanos of fixed dimension are “bounded,” then many moduli problems become finite-type in a precise sense.
-
-**Examples (low dimension).** In dimension one, Fano curves are isomorphic to $$\mathbb{P}^1$$. In dimension two, del Pezzo surfaces form a classical bounded family. In higher dimensions, Fano threefolds were classified by Iskovskikh, Mori, Mukai, and others into finitely many families—already a hint that **boundedness** might be true in general.
+while freeing geometers to reshape singular or bloated compactifications into canonical building blocks.
 
 ---
 
-## 5. Boundedness: the BAB slogan and Birkar’s theorem
+## 3. Fano, Calabi–Yau, and General Type: Reading Curvature by Hand
 
-A class of varieties is **bounded** if its members appear as fibers of a family of finite type—roughly, only “finitely many continuous parameters and discrete types” are needed. For Fano varieties of fixed dimension, the **Borisov–Alexeev–Borisov (BAB) conjecture** predicted that $$\varepsilon$$-klt Fano varieties of dimension $$n$$ form a bounded family (for each fixed $$n$$ and $$\varepsilon>0$$; precise formulations vary slightly by author and context).
+How do you tell whether a smooth variety $$X$$ has positive, zero, or negative curvature?
 
-**Birkar’s breakthrough (around 2016, recognized by Fields 2018)** established the boundedness of Fano varieties in the form needed by modern birational geometry: after fixing dimension (and appropriate singularity thresholds), Fano varieties cannot “escape to infinity” through wilder and wilder families. Combined with earlier and concurrent advances on flips and the MMP (including the landmark **Birkar–Cascini–Hacon–McKernan** work on existence of flips and finite generation of canonical rings in broad settings), this supplies structural control over the positive side of the classification architecture.
+### Hand-Verifiable Example 3: Hypersurfaces of Degree $$d$$ in Projective Space $$\mathbb{P}^n$$
+Take a smooth hypersurface $$X \subset \mathbb{P}^n$$ cut out by a single homogeneous polynomial of degree $$d$$. By the classical **adjunction formula**, its canonical class is simply
 
-**What boundedness buys you.**
+$$
+K_X = (d - n - 1) H,
+$$
 
-- It limits the possible Hilbert polynomials and volumes of anticanonical systems in fixed dimension.
-- It feeds **moduli** constructions: one cannot build a reasonable moduli space of a class that is unbounded in the worst way.
-- It interacts with **complements**, **ACC for log canonical thresholds**, and other MMP pillars that convert local singularity bounds into global finiteness.
+where $$H$$ is the positive hyperplane class! Now test $$n = 3$$ (smooth surfaces in $$\mathbb{P}^3$$):
 
-**Accuracy.** The 2018 medal citation highlights Birkar’s Fano boundedness and related MMP contributions. Always attribute specific theorems carefully: existence of flips in full generality was a community achievement with Birkar as a central author in key papers; Fano boundedness is the result most tightly attached to his solo late work in public accounts.
+- **$$d = 1, 2, 3$$ (planes, quadrics, cubic surfaces):** $$d - 4 < 0 \implies -K_X = (4-d)H > 0$$. These are **Fano varieties** (positive curvature—the higher-dimensional cousins of the sphere $$\mathbb{P}^1$$). For $$d=3$$, a smooth cubic surface famously contains exactly 27 straight lines!
+- **$$d = 4$$ (quartic surfaces, like $$x_0^4 + x_1^4 + x_2^4 + x_3^4 = 0$$):** $$d - 4 = 0 \implies K_X = 0$$. These are **Calabi–Yau varieties** (specifically K3 surfaces, flat curvature—cousins of the torus).
+- **$$d \ge 5$$ (quintics and higher):** $$d - 4 > 0 \implies K_X > 0$$. These are varieties of **general type** (negative curvature—cousins of genus $$\ge 2$$ surfaces).
+
+In every dimension, **Fano varieties** ($$-K_X$$ ample) are the positively curved atoms: they appear as the fibers of Mori fiber spaces and serve as the flexible building blocks of birational geometry.
 
 ---
 
-## 6. Classification architecture—not a finished encyclopedia
+## 4. The Minimal Model Program: Contractions and Flips
 
-It is easy to misread “MMP + boundedness” as “algebraic geometry is finished.” The correct picture is architectural:
+Start with a projective variety $$X$$ (more generally, a klt pair $$(X,\Delta)$$). The MMP runs a directed simplification:
+
+1. If $$K_X$$ is already **nef** ($$K_X \cdot C \ge 0$$ for every curve $$C \subset X$$), stop: you have reached a **minimal model**.
+2. Otherwise, Mori’s Cone Theorem finds an extremal curve $$C$$ with $$K_X \cdot C < 0$$. You simplify $$X$$ along that ray using one of two surgeries:
+   - **Divisorial contraction:** Collapse an entire codimension-1 wall (a divisor) to a smaller locus.
+   - **Flip:** When the negative locus is too thin (codimension $$\ge 2$$), you cannot simply collapse it without destroying the canonical class. Instead, you surgically cut out the bad curve and glue in a different curve $$X^+ \to Z$$ on which $$K_{X^+}$$ becomes **positive**!
+3. After finitely many steps, you expect to land on either a **minimal model** ($$K_X$$ nef) or a **Mori fiber space** $$X \to Z$$ whose general fiber is a **Fano variety**.
+
+In 2010, **Birkar, Cascini, Hacon, and McKernan (BCHM)** proved a landmark theorem establishing the **existence of flips** and the **finite generation of canonical rings** in broad generality—completing a central engine of the MMP that had stalled for decades.
+
+---
+
+### Deep-Dive Explanation: How Birkar Proved Boundedness of Fano Varieties (Read Slowly)
+
+In dimension 1, there is only one Fano curve ($$\mathbb{P}^1$$). In dimension 2, there are 10 deformation families of smooth Fano (del Pezzo) surfaces. In dimension 3, Mori–Mukai classified smooth Fanos into 105 families. What about dimension $$n$$ when mild ($$\varepsilon$$-klt) singularities are allowed? Could wilder and wilder Fano varieties keep popping up with arbitrarily huge degrees and complexity?
+
+The **Borisov–Alexeev–Borisov (BAB) conjecture** predicted **no**: for each fixed dimension $$n$$ and singularity threshold $$\varepsilon > 0$$, all $$\varepsilon$$-klt Fano varieties of dimension $$n$$ form a **bounded family**. Follow the four-step logic of Birkar’s 2016 proof slowly:
+
+#### Step 1: Why Fano boundedness boils down to bounding volume and creating "complements"
+To show a class of Fano varieties fits into finitely many polynomial families, you need two uniform controls: (a) an upper bound on the anticanonical volume $$\operatorname{vol}(-K_X)$$, and (b) a uniform integer $$m$$ (depending *only* on $$n$$ and $$\varepsilon$$) such that the linear system $$\lvert -mK_X \rvert$$ embeds $$X$$ into projective space. Equivalently, you want to find a well-behaved boundary divisor $$B$$ (an **$$N$$-complement**) such that $$N(K_X + B) \sim 0$$ with controlled singularities.
+
+#### Step 2: Use MMP induction on dimension
+Birkar attacked the problem by induction on dimension $$n$$. If you can cut a high-dimensional Fano variety $$X$$ by a carefully chosen hypersurface $$S \subset X$$ with controlled singularities, then $$S$$ is a lower-dimensional variety whose behavior is already controlled by the inductive hypothesis!
+
+#### Step 3: Turn local singularity bounds into global finiteness (ACC for log canonical thresholds)
+How do you stop singularities from secretly blowing up while you slice $$X$$? Earlier breakthrough work (Hacon–McKernan–Xu) proved the **Ascending Chain Condition (ACC) for log canonical thresholds**—meaning singularity sharpness cannot creep upward in an infinite sneaky staircase. Birkar fused this local rigidity with the existence of **bounded complements** to keep every inductive slice uniformly tame.
+
+#### Step 4: Seal the BAB conjecture and unlock Fano moduli
+Combining bounded complements, ACC for thresholds, and delicate birational surgeries (running specialized MMPs on pairs $$(X, B)$$), Birkar proved that **every $$\varepsilon$$-klt Fano variety of dimension $$n$$ lies in a bounded family**. Overnight, the "positive curvature" pillar of higher-dimensional algebraic geometry was locked inside a finite-type architectural frame—laying the foundation for modern K-stability and moduli spaces of Fano varieties.
+
+In one schematic line:
+
+$$
+\text{MMP flips (BCHM)}
+\;+\;
+\text{Bounded complements}
+\;+\;
+\text{ACC for thresholds}
+\;\Longrightarrow\;
+\text{BAB boundedness of Fano varieties}.
+$$
+
+---
+
+## 5. Classification architecture—not a finished encyclopedia
+
+It is easy to misread “MMP + Fano boundedness” as “algebraic geometry is finished.” The real picture is architectural:
 
 | Ingredient | Role |
 |------------|------|
-| Kodaira dimension $$\kappa$$ | Coarse birational invariant splitting cases |
-| Minimal models / Mori fiber spaces | Targets of the reduction process |
-| Flips and divisorial contractions | Elementary steps of the process |
-| Fano boundedness | Control of the “positive” fibers and many families |
-| Canonical rings / finite generation | Algebraic engine behind many existence theorems |
-| Singularities (klt, lc, …) | The language in which steps are legal |
+| Kodaira dimension $$\kappa$$ | Coarse birational invariant splitting varieties into regimes |
+| Minimal models / Mori fiber spaces | Targets of the MMP reduction process |
+| Flips and divisorial contractions | Elementary birational surgery steps |
+| Fano boundedness (BAB) | Global finiteness control over the positively curved building blocks |
+| Canonical rings / finite generation | Algebraic engine powering existence of flips and models |
+| Singularities (klt, lc, …) | The precise language telling us which surgeries are legal |
 
-What remains open or unfinished includes: effective bounds in many cases; characteristic $$p$$ analogues; full moduli compactifications in high dimension; and countless concrete classifications of special Fano manifolds with extra structure (group actions, Hodge-theoretic constraints, …). Birkar’s theorems rearrange the **global map**; they do not list every variety.
+Major open frontiers remain: **termination of flips** in full generality, effective explicit bounds for BAB, characteristic-$$p$$ analogues of the MMP, and explicit classification of special Fano manifolds. Birkar’s theorems redraw the **global map**; they do not list every street address.
 
 ---
 
-## 7. Why a Fields Medal
+## 6. Why a Fields Medal
 
-Three interlocking reasons:
+Three interlocking reasons explain the 2018 medal:
 
-1. **Difficulty.** Higher-dimensional flips and Fano boundedness resisted decades of effort; the proofs combine sophisticated singularity theory, multiplier ideals / discrepancies, and inductive geometry of exceptional loci.
-2. **Centrality.** The MMP is the backbone of modern birational geometry. Progress on its foundations reorganizes the field the way a new bridge reorganizes a city—not by painting one building, but by changing what trips are possible.
-3. **Clarity of slogan with depth of method.** “Fanos of fixed dimension form a bounded family” is a sentence a graduate student can remember; the proof is a monument of contemporary algebraic geometry.
-
-For this course, Birkar sits next to other Fields stories that complete **programs** rather than settle single numerical conjectures: compare the MMP’s multi-decade arc with, for example, the Langlands-inspired or perfectoid-inspired revolutions elsewhere in Chapter 2—different subjects, similar “architectural” impact.
+1. **Difficulty.** Higher-dimensional flips and Fano boundedness resisted decades of effort; the proofs blend singularity theory, multiplier ideals, discrepancies, and deep inductive birational geometry.
+2. **Centrality.** The MMP is the backbone of higher-dimensional algebraic geometry. Proving BAB boundedness reorganized the entire field—much like building the central bridge of a city changes every route across it.
+3. **Clarity of slogan with depth of method.** “$$\varepsilon$$-klt Fano varieties of fixed dimension form a bounded family” is a sentence any graduate student can remember; its proof is a monument of twenty-first-century geometry.
 
 ---
 
@@ -142,12 +215,12 @@ For this course, Birkar sits next to other Fields stories that complete **progra
 
 | Claim | Correction |
 |-------|------------|
-| “All algebraic varieties are Fano.” | Fano is a positivity condition on $$-K$$; most varieties are not Fano. |
-| “Birational means isomorphic.” | Birational is weaker; exceptional loci and singularities intervene. |
-| “Birkar classified all varieties.” | He proved foundational boundedness / MMP results; classification remains a program. |
-| “Flips are the same as blow-downs.” | Flips replace small loci when no divisorial contraction exists; they are not ordinary blow-downs. |
-| “Boundedness means only finitely many varieties.” | It means a family of finite type (continuous moduli allowed); not a finite discrete list. |
-| “The 2018 medal is only solo work.” | The citation highlights Birkar’s contributions inside a long collaborative MMP network. |
+| “All algebraic varieties are Fano.” | Fano means $$-K_X$$ is ample (positive curvature); most varieties are Calabi–Yau or general type. |
+| “Birational means isomorphic.” | Birational is weaker; blow-ups, contractions, and flips change lower-dimensional loci. |
+| “Birkar classified all varieties.” | He proved foundational boundedness and MMP theorems; classification remains an active program. |
+| “Flips are the same as blow-downs.” | Flips surgically replace codimension-$$\ge 2$$ loci when no divisorial contraction exists. |
+| “Boundedness means only finitely many varieties.” | It means a family of finite type (continuous parameters allowed), not a finite discrete set. |
+| “The 2018 medal is only solo work.” | Birkar’s solo BAB proof sits alongside a rich collaborative MMP network (BCHM and many others). |
 
 ---
 

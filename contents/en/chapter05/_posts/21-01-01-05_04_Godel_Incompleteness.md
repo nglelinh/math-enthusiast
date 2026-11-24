@@ -9,9 +9,13 @@ categories:
 - chapter05
 ---
 
-**Kurt Gödel’s incompleteness theorems** (1931) limit what formal axiom systems can achieve. They do not say “math is unreliable” or “nothing can be proved.” They say something sharper and more technical: any sufficiently strong, effectively axiomatized, consistent theory of arithmetic is incomplete—there are statements it can neither prove nor refute—and such a theory cannot prove its own consistency by means formalizable inside itself. This lecture focuses on the **idea of the proofs**, not a full formal derivation in a modern deduction system.
+In September 1930, in the Prussian city of Königsberg—the very birthplace of Euler’s seven bridges—the titan of mathematics **David Hilbert** closed his retirement address with a rallying cry echoed across the century: *"Wir müssen wissen, wir werden wissen"* — *"We must know, we will know."* His lifelong vision (Hilbert’s Program) aimed to build a complete, airtight system of axioms that would never contradict itself and could prove or refute **every** mathematical claim.
 
-Hilbert’s program hoped for a complete, finitary foundation that would certify all of mathematics. Gödel showed that this dream meets a structural obstacle. The obstacle is not a temporary gap in human cleverness; it is built into the relationship between syntax, numbering, and self-reference.
+The irony of history was instantaneous: the very day before, at a quiet roundtable at the same conference, a soft-spoken 24-year-old Viennese logician named **Kurt Gödel** had calmly announced a result that shattered that dream forever.
+
+**Gödel’s incompleteness theorems** (1931) do not say "mathematics is broken" or "nothing can be proved." They state something far sharper: any consistent, effectively axiomatized formal system strong enough to express elementary arithmetic is **necessarily incomplete** (some true arithmetic statements can neither be proved nor refuted inside it), and such a system **cannot prove its own consistency** from within.
+
+**Lesson roadmap:** Background Knowledge Map (syntax vs. semantics, formal systems PA/ZFC, computability) → Formal theories and the two theorems → Deep-Dive Explanation (Read Slowly): hand-encoding and decoding Gödel numbers ($$270$$ and $$808\,500$$) → From the Liar Paradox to the self-referential Gödel sentence $$G$$ → The second theorem → Diagonal kinship with Cantor and Turing.
 
 ---
 
@@ -30,43 +34,90 @@ After this lecture you should be able to:
 
 ---
 
+## Background Knowledge Map: Mathematical Logic, Formal Proofs, and Computability
+
+Many university graduates hear about Gödel’s theorems in philosophy essays yet feel hazy on the mechanics because three pillars of **Mathematical Logic** are rarely laid out side by side:
+
+### 1. Syntax ($$\vdash$$) vs. Semantics ($$\models$$)
+Mathematical logic draws a razor-sharp wall between two worlds:
+- **Syntax ($$\vdash$$):** A purely mechanical symbol game. Starting from a fixed list of starting strings (*axioms*), you apply finite mechanical inference rules to produce new strings. Writing $$T \vdash \varphi$$ means *"there exists a valid step-by-step derivation of $$\varphi$$ inside system $$T$$"*—with no appeal to what the symbols "mean."
+- **Semantics ($$\models$$):** Whether the statement $$\varphi$$ is actually **true** in the real world of natural numbers $$\mathbb{N} = \{0, 1, 2, \ldots\}$$ (written $$\mathbb{N} \models \varphi$$).
+
+### 2. Formal Axiom Systems and Hilbert’s Three Wishes
+A formal system like **Peano Arithmetic (PA)** or **ZFC Set Theory** acts like a strict compiler checking every line of a proof. Hilbert hoped to build one system $$T$$ possessing three properties simultaneously:
+- **Consistency:** Never proves both $$\varphi$$ and $$\neg \varphi$$ (never derives $$0 = 1$$).
+- **Completeness:** For every sentence $$\varphi$$ in the language, proves either $$T \vdash \varphi$$ or $$T \vdash \neg\varphi$$.
+- **Effective axiomatization:** A finite algorithm can tell whether any given string is an axiom.
+
+### 3. Computability and the Permanent Gap Between Truth and Provability
+Gödel’s first theorem proves that *arithmetic truth ($$\models$$) permanently outruns mechanical provability ($$\vdash$$)*. Translated into computer science (Alan Turing, 1936): the set of theorems provable in $$T$$ is recursively enumerable (a computer can print them out one by one), whereas the set of all true arithmetic sentences is not. Far from breaking mathematics, Gödel’s architecture laid the groundwork for theoretical computer science and formal verification.
+
+---
+
 ## 1. What a formal theory is trying to be
 
-A **formal axiom system** (theory) for arithmetic, in the sense relevant here, provides:
+A **formal axiom system** (theory) for arithmetic provides:
 
-- a finite alphabet and a precise language (e.g. symbols for $$0$$, successor, addition, multiplication, quantifiers, logical connectives);  
+- a finite alphabet and a precise language ($$0$$, successor $$S$$, addition, multiplication, quantifiers, logical connectives);  
 - a decidable set of axioms (or an effective axiom schema);  
 - mechanical inference rules.
 
-A **proof** is a finite sequence of formulas, each an axiom or following from earlier lines by a rule. “$$T$$ proves $$\varphi$$” means such a sequence exists with conclusion $$\varphi$$. Because proofs are finite combinatorial objects, questions about provability can—after coding—become questions about numbers.
-
-Hilbert asked, roughly: can we choose a consistent, complete, effectively presented theory that captures arithmetic truth, and can we prove its consistency by finitary means? Completeness would mean: for every sentence $$\varphi$$ in the language, either $$\varphi$$ or $$\neg\varphi$$ is provable. Consistency means one never proves a contradiction.
+A **proof** is a finite sequence of formulas, each an axiom or following from earlier lines by a rule. Because proofs are finite combinatorial objects, questions about provability can—after coding—become questions about numbers.
 
 ---
 
 ## 2. The theorems (idea-level statements)
 
 **First incompleteness theorem (informal).**  
-Let $$T$$ be a consistent, effectively axiomatized theory capable of expressing a sufficient amount of elementary arithmetic (roughly: strong enough to talk about basic facts of addition and multiplication of natural numbers, in the style of Peano arithmetic or similar systems). Then there exists a sentence $$G$$ in the language of $$T$$ such that $$T$$ proves neither $$G$$ nor $$\neg G$$. In particular, $$T$$ is incomplete.
+Let $$T$$ be a consistent, effectively axiomatized theory capable of expressing elementary arithmetic (such as Peano Arithmetic). Then there exists a sentence $$G$$ in the language of $$T$$ such that $$T$$ proves neither $$G$$ nor $$\neg G$$. In particular, $$T$$ is incomplete.
 
 **Second incompleteness theorem (informal).**  
-Under similar hypotheses, $$T$$ cannot prove $$\mathrm{Con}(T)$$, a natural arithmetic sentence expressing the consistency of $$T$$—provided $$T$$ is consistent. Roughly: a sufficiently strong theory cannot certify its own consistency from inside.
-
-These statements have precise modern formulations (with careful hypotheses about representability, provability predicates, and so on). The slogans above are the ones a seminar student should own.
+Under similar hypotheses, if $$T$$ is consistent then $$T$$ cannot prove $$\mathrm{Con}(T)$$, a natural arithmetic sentence expressing the consistency of $$T$$. Roughly: a sufficiently strong theory cannot certify its own consistency from inside.
 
 ---
 
-## 3. Gödel numbering: words become numbers
+## 3. Deep-Dive Explanation (Read Slowly): Hand-Encoding and Decoding Gödel Numbers
 
-The first great idea is **arithmetization of syntax**. Every symbol gets a code number; every finite string of symbols gets a number (e.g. by prime factorization coding or a pairing scheme); every finite sequence of strings (a putative proof) gets a number. There is then an arithmetic relation—call it $$\mathrm{Proof}_T(m,n)$$—that holds when $$m$$ codes a valid $$T$$-proof of the formula coded by $$n$$.
+Gödel’s first great breakthrough is the **arithmetization of syntax**: turning every symbol, every formula, and even an entire multi-line proof into a **single unique natural number**. To see there is zero mysticism involved, build a miniature code table and compute by hand:
 
-Because the axioms are effective and the rules are mechanical, the relation “$$m$$ is a proof of $$n$$” is **decidable** (or at least recursively enumerable in natural setups), and can be represented inside arithmetic. Provability becomes
+| Symbol | `0` | `S` (successor) | `=` | `+` | `(` | `)` |
+|--------|-----|-----------------|-----|-----|-----|-----|
+| **Code** | $$1$$ | $$2$$ | $$3$$ | $$4$$ | $$5$$ | $$6$$ |
+
+To encode a string of $$k$$ symbols with codes $$c_1, c_2, \ldots, c_k$$, raise the first $$k$$ primes $$2, 3, 5, 7, 11, \ldots$$ to those powers and multiply:
 
 $$
-\mathrm{Prov}_T(n) \;:\iff\; \exists m\, \mathrm{Proof}_T(m,n).
+\ulcorner c_1 c_2 \cdots c_k \urcorner \;=\; 2^{c_1} \cdot 3^{c_2} \cdot 5^{c_3} \cdots p_k^{c_k}.
 $$
 
-At this stage something astonishing is possible: the theory $$T$$, which was supposed to talk about numbers, can also talk about **proofs of statements about numbers**, because proofs are numbers. The map from linguistic objects to integers is the bridge.
+### Step 1: Encode Two Real Formulas by Hand
+- **Formula 1:** `0=0` has three symbols with codes $$(1, 3, 1)$$. Its Gödel number is:
+  $$
+  \ulcorner 0=0 \urcorner \;=\; 2^1 \cdot 3^3 \cdot 5^1 \;=\; 2 \cdot 27 \cdot 5 \;=\; 270.
+  $$
+- **Formula 2:** `S0=S0` (meaning $$1 = 1$$) has five symbols with codes $$(2, 1, 3, 2, 1)$$. Its Gödel number is:
+  $$
+  \ulcorner S0=S0 \urcorner \;=\; 2^2 \cdot 3^1 \cdot 5^3 \cdot 7^2 \cdot 11^1 \;=\; 4 \cdot 3 \cdot 125 \cdot 49 \cdot 11.
+  $$
+  Multiply step by step: $$4 \times 3 = 12$$; $$12 \times 125 = 1\,500$$; $$1\,500 \times 49 = 73\,500$$; $$73\,500 \times 11 = 808\,500$$!
+
+### Step 2: Decode Back via Unique Prime Factorization
+Hand someone the integer $$270$$ and ask which formula it encodes: factoring gives $$270 = 2^1 \cdot 3^3 \cdot 5^1$$, reading off the exponents $$(1, 3, 1)$$ immediately recovers `0=0`! By the Fundamental Theorem of Arithmetic, no two distinct formulas can ever collide.
+
+### Step 3: Turn "Provable" Into Pure Arithmetic
+A full proof of $$r$$ lines with Gödel numbers $$g_1, g_2, \ldots, g_r$$ packs into one integer $$m = 2^{g_1} \cdot 3^{g_2} \cdots p_r^{g_r}$$. Because checking each inference rule is purely mechanical, the relation
+
+$$
+\mathrm{Proof}_T(m, n) \;\iff\; \text{"integer } m \text{ encodes a valid } T\text{-proof of the formula coded by } n\text{"}
+$$
+
+becomes a purely arithmetic property expressible using addition, multiplication, and divisibility! Provability inside $$T$$ is then simply:
+
+$$
+\mathrm{Prov}_T(n) \;:\iff\; \exists m\, \mathrm{Proof}_T(m, n).
+$$
+
+Something astonishing has happened: $$T$$, designed only to talk about numbers, can now talk about **proofs of statements about numbers**, because proofs have become numbers.
 
 ---
 
@@ -78,27 +129,40 @@ At this stage something astonishing is possible: the theory $$T$$, which was sup
 
 94-second silent overview: Hilbert’s program, Gödel numbering encoding formulas via prime exponents (e.g. 270 = 2¹·3³·5¹), the fixed-point lemma constructing G ⇔ (T ⊬ G), and why truth outruns formal provability.
 
-## 4. Self-reference and the Gödel sentence
+## 4. From the Liar Paradox to the Self-Referential Gödel Sentence
 
-The second great idea is a controlled form of self-reference, obtained by a diagonal or fixed-point construction. One shows that for suitable formulas $$\psi(x)$$, there is a sentence $$\varphi$$ such that $$T$$ proves
+Start with an ancient everyday paradox—the **Liar Paradox**:
+
+> *"This sentence is false."*
+
+If it is true, it must be false; if it is false, it must be true! In English, self-reference plus "false" explodes into contradiction.
+
+Gödel’s stroke of genius was realizing that while arithmetic *cannot* define its own truth predicate (Tarski’s undefinability theorem), it **can** define *"unprovable in $$T$$"* via Gödel numbering. Swapping "false" for *"unprovable in $$T$$"* turns a logical explosion into a razor-sharp theorem.
+
+How does a formula talk about its own Gödel number without circularity? Philosopher W. V. O. Quine showed the exact trick in plain English:
+
+> *"yields falsehood when preceded by its quotation" yields falsehood when preceded by its quotation.*
+
+Read that carefully: the quoted phrase names a substitution operation, and applying that operation to the phrase itself produces **the exact sentence you just read**! In arithmetic, the **Diagonal (Fixed-Point) Lemma** performs the exact numerical substitution: for any formula $$\psi(x)$$ with one free variable, there exists a sentence $$\varphi$$ such that
 
 $$
-\varphi \;\leftrightarrow\; \psi(\ulcorner\varphi\urcorner),
+T \vdash \varphi \;\leftrightarrow\; \psi(\ulcorner\varphi\urcorner).
 $$
 
-where $$\ulcorner\varphi\urcorner$$ is the Gödel number of $$\varphi$$. Applying this to “unprovability,” one obtains a sentence $$G$$ such that, provably in $$T$$,
+Applying this to $$\psi(x) \equiv \neg\mathrm{Prov}_T(x)$$ produces the **Gödel sentence $$G$$**:
 
 $$
-G \;\leftrightarrow\; \neg\mathrm{Prov}_T(\ulcorner G\urcorner).
+T \vdash G \;\leftrightarrow\; \neg\mathrm{Prov}_T(\ulcorner G\urcorner).
 $$
 
-In words: $$G$$ says “$$G$$ is not provable in $$T$$.” This is the famous **Gödel sentence** for $$T$$.
+In words: $$G$$ asserts *"$$G$$ is not provable in $$T$$."*
 
-### Why consistency implies unprovability of $$G$$
+### Why Consistency Forces $$G$$ to Be True Yet Unprovable
 
-Suppose $$T$$ proves $$G$$. Then there is a proof, so $$\mathrm{Prov}_T(\ulcorner G\urcorner)$$ is true, and under standard representability facts $$T$$ would also prove things that collide with the equivalence $$G\leftrightarrow\neg\mathrm{Prov}_T(\ulcorner G\urcorner)$$, yielding inconsistency. More carefully in classical outlines: if $$T$$ is consistent, $$G$$ is not provable in $$T$$. But if $$G$$ is not provable, what $$G$$ “says” is true (in the standard model of arithmetic). Thus $$G$$ is a true sentence unprovable in $$T$$—so $$T$$ does not capture all arithmetic truths, and is incomplete because $$\neg G$$ is also unprovable if $$T$$ is consistent (in fact, $$\omega$$-consistency or related hypotheses appear in Gödel’s original first theorem; Rosser later sharpened the hypotheses).
+- **Case 1:** Suppose $$T \vdash G$$. Then a concrete proof code $$m$$ exists, so $$T \vdash \mathrm{Prov}_T(\ulcorner G\urcorner)$$. Combined with $$T \vdash G \leftrightarrow \neg\mathrm{Prov}_T(\ulcorner G\urcorner)$$, we get $$T \vdash \neg G$$. Thus $$T$$ proves both $$G$$ and $$\neg G$$—**contradicting consistency**!
+- **Case 2:** Therefore, if $$T$$ is consistent, **$$T \nvdash G$$**. Wait—that is literally what $$G$$ says! So $$G$$ is **true** in the standard natural numbers $$\mathbb{N}$$, yet **unprovable** in $$T$$! (Gödel originally used $$\omega$$-consistency to rule out $$T \vdash \neg G$$; in 1936, J. Barkley Rosser refined the sentence so plain consistency suffices.)
 
-The point for this course is not the sharpest meta-mathematical hypothesis list; it is the architecture:
+The entire proof architecture fits on one line:
 
 **coding → internal provability predicate → diagonal self-reference → true but unprovable sentence.**
 
@@ -106,21 +170,17 @@ The point for this course is not the sharpest meta-mathematical hypothesis list;
 
 ## 5. The second theorem: consistency is not free
 
-The second incompleteness theorem says, roughly, that the sentence $$\mathrm{Con}(T)$$ expressing “there is no proof of a contradiction from $$T$$” is not provable in $$T$$ if $$T$$ is consistent and strong enough. Intuitively, the first theorem’s reasoning can itself be formalized inside $$T$$ far enough to show
+The second incompleteness theorem states that $$\mathrm{Con}(T)$$ (expressing *"$$T$$ proves no contradiction,"* such as $$\neg\mathrm{Prov}_T(\ulcorner 0=1\urcorner)$$) cannot be proved inside $$T$$ whenever $$T$$ is consistent and strong enough. The intuition is wonderfully crisp: the first theorem’s argument (*"if $$T$$ is consistent, then $$G$$ is unprovable"*) can itself be formalized inside $$T$$ as
 
 $$
-T \vdash \mathrm{Con}(T) \rightarrow G,
+T \vdash \mathrm{Con}(T) \rightarrow G.
 $$
 
-so if $$T$$ also proved $$\mathrm{Con}(T)$$ it would prove $$G$$, contradicting the first theorem’s conclusion under consistency. Thus consistency proofs for strong systems must use principles **not available inside the system**—or must move to a stronger meta-theory.
-
-This is the precise sense in which Hilbert’s hope for a finitary consistency proof of all mathematics, carried out inside a weak system, is blocked for systems that already contain a substantial amount of arithmetic.
+If $$T$$ also proved $$\mathrm{Con}(T)$$, then by *modus ponens* $$T$$ would prove $$G$$, contradicting the first theorem! Hence proving a strong system consistent always requires principles **outside** that system (e.g. ZFC can prove Peano Arithmetic consistent, but ZFC cannot certify itself).
 
 ---
 
 ## 6. What incompleteness is *not*
-
-Popular culture sometimes twists Gödel into mysticism. Keep these distinctions:
 
 | Misreading | Correction |
 |------------|------------|
@@ -150,10 +210,6 @@ Understanding Cantor makes Gödel’s strategy feel less like a magic trick and 
 - **Mathematical practice.** Working mathematicians rarely hit Gödel sentences in daily work; they do inherit a culture that distinguishes truth in a model from provability in a theory, and that values relative consistency proofs.  
 - **Computer science.** The boundary between what is formally derivable and what is true feeds into automated theorem proving, proof assistants, and the theory of formal verification—where “the system cannot prove its own consistency” is a living reminder to be careful about trust bases.  
 - **Philosophy.** Debates about platonism, formalism, and the nature of mathematical truth were permanently reshaped.
-
-For this course’s theme—**ideas of proof**—Gödel is a landmark because the idea is architectural rather than computational. One does not “check more cases.” One redesigns what a formal theory can say about its own proofs, then builds a sentence that exploits that self-knowledge. The parallel with Cantor is deliberate pedagogy: once students can narrate “enumerate and escape,” they are ready to narrate “arithmetize and diagonalize.” The objects change (reals → sentences); the geometry of the argument rhymes.
-
-It is also a lesson in **precision under popularization**. Few theorems are as widely quoted and as widely distorted. A good seminar narrative states hypotheses, separates first and second theorems, and refuses mystical inflation. That discipline—saying exactly what was proved—is itself part of mathematical maturity.
 
 ---
 

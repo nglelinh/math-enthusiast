@@ -9,11 +9,11 @@ categories:
 - chapter09
 ---
 
-Until the mid-1970s, practical cryptography was largely **symmetric**: Alice and Bob needed a shared secret *before* they could talk privately. **Whitfield Diffie** and **Martin Hellman** (with contributions in the same intellectual neighborhood by Ralph Merkle) articulated **public-key cryptography** and proposed **Diffie–Hellman key exchange**, allowing two parties to agree on a shared secret over a public channel under hardness assumptions. Soon after, **Ron Rivest, Adi Shamir, and Leonard Adleman** published **RSA**, a public-key encryption and signature scheme whose trapdoor is tied to the difficulty of factoring large integers.
+For thousands of years—from Julius Caesar's shift ciphers to the Enigma machines of World War II—cryptography was trapped by a seemingly unbreakable paradox: to speak privately, two people first had to **meet in advance** (or dispatch a courier with a locked briefcase) to agree on a shared secret key. In the age of the Internet, how could your browser send a credit card number safely to a shop halfway across the planet when you have **never met** and every packet travels across public wires anyone can eavesdrop on?
 
-Rivest, Shamir, and Adleman received the **ACM A.M. Turing Award in 2002**. Diffie and Hellman received the **Turing Award in 2015**. Official citations and biographies: [amturing.acm.org](https://amturing.acm.org/).
+In the mid-1970s, two mathematical breakthroughs shattered that paradox. **Whitfield Diffie** and **Martin Hellman** (with closely related work by Ralph Merkle) articulated **public-key cryptography** and proposed **Diffie–Hellman key exchange**, allowing two strangers to agree on a shared secret in plain view of eavesdroppers. Soon after, **Ron Rivest, Adi Shamir, and Leonard Adleman** published **RSA**, a public-key encryption and digital signature scheme whose trapdoor rests on the difficulty of factoring large integers.
 
-This lecture is a **mathematics-first** tour of the mechanisms at slogan level—modular arithmetic, discrete logarithms, factoring trapdoors—not a cookbook for attacking systems, not legal advice, and not a guide to criminal misuse. Security is computational hardness plus careful engineering; we teach the ideas that make the hardness plausible.
+Rivest, Shamir, and Adleman received the **ACM A.M. Turing Award in 2002**, and Diffie and Hellman received it in **2015** (official materials: [amturing.acm.org](https://amturing.acm.org/)). This lecture is a **mathematics-first** tour of the mechanisms—modular arithmetic, discrete logarithms, factoring trapdoors—not a cookbook for attacking systems, not legal advice, and not a guide to misuse. Security is computational hardness plus careful engineering; we teach the ideas that make that hardness work.
 
 ---
 
@@ -26,12 +26,24 @@ After this lecture you should be able to:
 - State the **discrete logarithm** problem as the hardness intuition behind many DH-style systems.
 - Outline **RSA** at the level of $$n=pq$$, exponents $$e,d$$, and modular exponentiation.
 - Connect these schemes to [number theory → cryptography]({{ site.baseurl }}/contents/en/chapter03/03_05_Number_Theory_Cryptography/).
-- Apply **LO6 / post-quantum caution**: classical public-key assumptions are threatened by large-scale quantum algorithms; migration is an active standardization story.
+- Maintain **post-quantum caution**: classical public-key assumptions are threatened by large-scale quantum algorithms; migration is an active standardization story.
 - Keep ethical framing: educational mechanisms, not operational attack instructions for harm.
 
 **Prerequisites.** Congruences $$a \equiv b \pmod n$$; exponents; primes. Chapter 03’s crypto lecture is ideal preparation.
 
-**Seminar links.** LO4, LO6; [Number theory → cryptography]({{ site.baseurl }}/contents/en/chapter03/03_05_Number_Theory_Cryptography/); [Future cryptography]({{ site.baseurl }}/contents/en/chapter06/06_06_Future_Cryptography/); [P vs NP]({{ site.baseurl }}/contents/en/chapter01/01_03_P_vs_NP/); [Goldwasser–Micali foundations]({{ site.baseurl }}/contents/en/chapter09/09_07_Goldwasser_Micali/).
+**Cross-links.** [Number theory → cryptography]({{ site.baseurl }}/contents/en/chapter03/03_05_Number_Theory_Cryptography/); [Future cryptography]({{ site.baseurl }}/contents/en/chapter06/06_06_Future_Cryptography/); [P vs NP]({{ site.baseurl }}/contents/en/chapter01/01_03_P_vs_NP/); [Goldwasser–Micali foundations]({{ site.baseurl }}/contents/en/chapter09/09_07_Goldwasser_Micali/).
+
+---
+
+## Background Knowledge Map: What Are Public-Key Cryptography and Computational Number Theory?
+
+Behind the little padlock icon in your browser sits a striking reversal of mindset from **Computational Number Theory** and **Public-Key Cryptography**. Normally in computer science, a *hard* problem is an enemy to defeat. In cryptography, **computational asymmetry**—easy forward, brutally hard backward—becomes our most valuable raw material!
+
+The entire public-key edifice revolves around a **trapdoor one-way function**—like mixing two buckets of paint or shattering a ceramic vase: doing it takes a second, undoing it is practically impossible *unless* you hold a secret trapdoor. Two classical mathematical mines launched the field:
+1. **The multiplicative group modulo a prime $$p$$ (Diffie–Hellman):** computing $$g^a \bmod p$$ is lightning fast ($$O(\log a)$$ multiplications via repeated squaring), yet recovering the exponent $$a$$ from $$g^a \bmod p$$ (**the discrete logarithm problem — DLP**) appears extraordinarily hard when $$p$$ has thousands of bits.
+2. **Integer factorization (RSA):** multiplying two 1024-bit primes $$p \times q = n$$ takes microseconds, yet factoring $$n$$ back into $$p$$ and $$q$$ demands massive number-field sieve computations far beyond classical hardware.
+
+Watch a **10-second toy Diffie–Hellman exchange with real numbers**: agree publicly on $$p = 23$$, $$g = 5$$. Alice picks secret $$a = 6$$ and broadcasts $$A = 5^6 \bmod 23 = 8$$. Bob picks secret $$b = 15$$ and broadcasts $$B = 5^{15} \bmod 23 = 19$$. Alice computes $$19^6 \bmod 23 = 2$$; Bob computes $$8^{15} \bmod 23 = 2$$. Both now share the secret $$K = 2$$ without ever transmitting $$a$$, $$b$$, or $$2$$!
 
 ---
 
@@ -106,6 +118,34 @@ $$
 c \equiv m^e \pmod n, \qquad m \equiv c^d \pmod n.
 $$
 
+### Worked Example (Step by Step): Hand-Running RSA ($$n = 55$$) with Repeated Squaring
+
+Pick $$p = 5,\ q = 11 \implies n = 55$$ and $$\varphi(55) = 4 \times 10 = 40$$.
+1. **Compute private exponent $$d$$ via the extended Euclidean algorithm:** pick $$e = 3$$ (since $$\gcd(3,40)=1$$). Dividing $$40$$ by $$3$$:
+$$
+40 = 13 \times 3 + 1 \implies (-13)\cdot 3 \equiv 1 \pmod{40} \implies d = -13 + 40 = 27.
+$$
+2. **Encrypt message $$m = 7$$:**
+$$
+c = 7^3 \bmod 55 = 343 \bmod 55 = 13 \qquad (\text{since } 343 = 6\times 55 + 13).
+$$
+3. **Decrypt $$13^{27} \bmod 55$$ by repeated squaring** (write $$27 = 16 + 8 + 2 + 1$$):
+   - $$13^1 \equiv 13$$,
+   - $$13^2 = 169 = 3\times 55 + 4 \equiv 4$$,
+   - $$13^4 \equiv 4^2 = 16$$,
+   - $$13^8 \equiv 16^2 = 256 = 4\times 55 + 36 \equiv -19$$,
+   - $$13^{16} \equiv (-19)^2 = 361 = 6\times 55 + 31 \equiv 31 \pmod{55}$$.
+   Multiply the four pieces: $$13^{27} \equiv 31 \cdot (-19) \cdot 4 \cdot 13$$. Pair them up: $$31\cdot 4 = 124 \equiv 14$$ and $$(-19)\cdot 13 = -247 = -5\times 55 + 28 \equiv 28$$. Finally, $$14 \cdot 28 = 392 = 7\times 55 + 7 \equiv 7 \pmod{55}$$ — **recovering the exact original message $$m = 7$$!**
+
+### Deep-Dive Explanation: Four Steps Turning Modular Arithmetic into Your HTTPS Padlock (Read Slowly)
+
+1. **Authenticate the server with digital signatures:** your browser verifies the server's certificate (signed via RSA/ECDSA) to be certain you are talking to your real bank and not a man-in-the-middle imposter.
+2. **Negotiate a fresh session key via Diffie–Hellman / ECDHE:** both sides exchange public $$g^a, g^b$$ (on elliptic curves, increasingly hybridized with post-quantum ML-KEM) to derive a one-time shared secret $$K$$.
+3. **Switch to high-speed symmetric encryption:** feed $$K$$ into AES-GCM or ChaCha20 to encrypt the actual webpage, images, and payment data at gigabit speeds.
+4. **Destroy the session key when the tab closes (Forward Secrecy):** even if the server's long-term private key leaks five years later, past recorded traffic remains unreadable.
+
+**Quick check.** Public-key cryptography is **not** used to encrypt a 1 GB video directly (far too slow); it solves *trust bootstrapping and key exchange*, while symmetric ciphers carry the bulk traffic.
+
 Correctness follows from Euler/Fermat-type cancellation when $$\gcd(m,n)=1$$ (and standard fixes handle edge cases). Intuition: anyone can raise to the eth power mod $$n$$; extracting eth roots without $$d$$ appears hard, and knowing $$d$$ is tightly connected to knowing the factorization of $$n$$ in classical treatments.
 
 **Signatures (slogan).** Sign by applying the private exponent to a hashed message representative; verify with the public exponent. Details require padding schemes (e.g. PSS); bare textbook RSA is not a complete secure implementation.
@@ -126,13 +166,13 @@ See [P vs NP]({{ site.baseurl }}/contents/en/chapter01/01_03_P_vs_NP/) for the c
 
 ---
 
-## 6. Post-quantum caution (LO6)
+## 6. Post-quantum caution
 
 Shor’s algorithm (quantum) factors integers and computes discrete logs in polynomial time in the standard models—**if** a large-scale fault-tolerant quantum computer exists. That does not make RSA “already broken” on your laptop today; it **does** mean long-term confidentiality of recorded traffic and future public-key infrastructure must plan migration.
 
 **Post-quantum cryptography (PQC)** studies classical algorithms believed resistant to quantum attack—lattices, codes, hash-based signatures, multivariate systems—now moving through NIST standardization and deployment. **Quantum key distribution** is a different technology family; it is not a drop-in replacement for all public-key use cases.
 
-LO6 media filter:
+Media filter:
 
 | Headline flavor | Careful reading |
 |-----------------|-----------------|

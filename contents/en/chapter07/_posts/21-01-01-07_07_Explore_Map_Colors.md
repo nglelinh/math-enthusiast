@@ -14,9 +14,11 @@ categories:
 > **2. You are here:** Ch.7 map-colors studio  
 > *Prerequisite:* dual graphs + five-color outline from Ch.1.
 
-Four colors suffice for every planar map—**Appel–Haken (1976)** and later simplifications, including computer-checked case analysis. That sentence hides a century of almost-proofs, Kempe’s famous error, the clean **five-color theorem**, and a richer theory of graphs on surfaces via **Heawood numbers**. This studio is hands-on: draw maps, build duals, fail at 3-coloring, compute genus bounds, and write a careful essay on what counts as a proof when machines check cases.
+In October 1852, young student Francis Guthrie was coloring a map of the counties of England when a disarmingly simple question struck him: *Can every planar map—no matter how tangled its borders—be colored with at most four colors so that no two bordering regions share a color?* Passed through his brother Frederick to Augustus De Morgan, the puzzle became a **124-year** obsession. In 1879, lawyer and mathematician Alfred Kempe published a celebrated "proof," and the world applauded for eleven years—until Percy Heawood exposed a subtle flaw in Kempe's color-swapping chains.
 
-You will not re-run the four-color computer search. You will **practice the definitions** that make the theorem meaningful and explore what changes when the surface or the rules change.
+Only in 1976 did Kenneth Appel and Wolfgang Haken finally settle the **Four Color Theorem**, and they did so in a way that sparked decades of philosophical debate: by enlisting a computer to verify thousands of configurations. In this studio, you will not re-run that massive search. Instead, you will **draw maps and convert them into dual graphs**, watch 3 colors fail by hand, walk through the crisp human-readable **five-color proof**, jump onto a donut (torus) where **seven** colors are needed, and articulate your own standard for what counts as a proof in the age of machines.
+
+**Lesson roadmap:** Background Knowledge Map (graph theory, surface topology & computer-assisted proofs) → Dual graphs & the five-color theorem → Deep-Dive Explanation (Read Slowly): hand-checking Euler's bound on $$K_4, K_5, K_7$$ and stepping through a Kempe-chain swap → Appel–Haken & Heawood numbers $$H(g)$$ → Studio experiments & log.
 
 ---
 
@@ -35,47 +37,76 @@ After this studio you should be able to:
 
 ---
 
+## Background Knowledge Map: What Are Graph Theory and Surface Topology?
+
+Behind the childhood pastime of coloring maps stand three pillars of modern mathematics and computer science:
+
+### 1. Graph Theory and Chromatic Number
+
+Graph theory strips away irrelevant geometry (wiggly coastlines, country sizes) and keeps only **adjacency**: each country becomes a *vertex*, and two countries sharing a border segment are linked by an *edge*. Map coloring becomes finding the **chromatic number** $$\chi(G)$$ of the **dual graph** $$G$$. Beyond cartography, graph coloring directly models **exam timetabling** (courses sharing a student cannot share a time slot), **CPU register allocation** in compilers, and **cellular frequency assignment** to prevent signal interference.
+
+### 2. Surface Topology and Genus $$g$$
+
+Why does a flat map (or globe) need at most 4 colors while a map on a donut (torus) can demand **7**? Surface topology studies invariants unchanged by stretching without tearing. The key invariant is the **genus** $$g$$ (number of holes), linked to the **Euler characteristic** $$\chi = v - e + f = 2 - 2g$$. Extra holes let edges "tunnel through the handle" without crossing, letting denser complete graphs like $$K_7$$ embed cleanly on a torus.
+
+### 3. Computer-Assisted Proofs and Formal Verification
+
+The Four Color Theorem marked a cultural turning point: the first major theorem whose proof depended on machine-checked case analysis. Today, proof assistants like **Coq** (used by Georges Gonthier in 2005 to formally verify the entire Four Color Theorem) and **Lean** provide a small, auditable kernel that checks every single logical step with mechanical certainty.
+
+---
+
 ## 1. Background mathematics
 
 ### 1.1 Maps, duals, and chromatic number
 
-A **map** (for four-color purposes) is a division of the plane (or sphere) into finitely many connected regions (“countries”). Two countries are adjacent if they share a positive-length border (a point of contact does not count). A **coloring** assigns colors so that adjacent countries differ.
-
-Form the **dual graph** $$G$$: one vertex per country; an edge when countries share a border. Map coloring ≡ **vertex coloring** of $$G$$. For proper map duals, $$G$$ is planar (and typically bridgeless under mild assumptions). The **chromatic number** $$\chi(G)$$ is the minimum colors needed.
+A **map** (for four-color purposes) is a division of the plane (or sphere) into finitely many connected regions (“countries”). Two countries are adjacent if they share a positive-length border (a point of contact does not count—otherwise a 100-slice pizza meeting at the center would need 100 colors!). Form the **dual graph** $$G$$: one vertex per country; an edge when countries share a border. Map coloring ≡ **vertex coloring** of $$G$$. The **chromatic number** $$\chi(G)$$ is the minimum colors needed.
 
 The **Four Color Theorem (4CT):** every planar graph is 4-colorable; equivalently, every planar map is 4-colorable.
 
 ### 1.2 Why five colors is easier
 
-From Euler’s formula for simple connected plane graphs, together with the handshaking lemma for faces $$2e\ge 3f$$ (each face has at least three edges, each edge bounds at most two faces), one derives $$e\le 3v-6$$ for $$v\ge 3$$. Therefore the average degree satisfies $$2e/v<6$$, so there exists a vertex $$v$$ with $$\deg(v)\le 5$$. The **five-color theorem** proceeds by induction on $$v$$: remove a low-degree vertex, five-color the rest by induction, and if the neighbors of the deleted vertex use five distinct colors, attempt a Kempe-chain recoloring to free a color. The argument is completely human-checkable and is standard in every graph theory course.
+From Euler’s formula for simple connected plane graphs, together with $$2e\ge 3f$$, one derives $$e\le 3v-6$$ for $$v\ge 3$$. Therefore the average degree satisfies $$2e/v<6$$, guaranteeing a vertex $$v$$ with $$\deg(v)\le 5$$.
 
-Kempe’s 1879 attempt for **four** colors had a gap (exposed by Heawood in 1890). The gap is subtle—exactly the sort of thing worth reading once slowly in Ch.1. The moral for your studio is methodological: a beautiful inductive idea can be *almost* right and still fail at a single recoloring case. That is why computer-checked case analysis later entered the four-color story without entering the five-color story.
+#### Deep-Dive Explanation (Read Slowly): Hand-Checking Euler's Bound on $$K_4, K_5, K_7$$ and Running a Kempe Chain
+
+Walk through two short hand calculations that unlock the whole chapter:
+
+**Example 1 — Checking Euler's bound on $$K_4$$, $$K_5$$ (plane) and $$K_7$$ (torus):**
+- **$$K_4$$ (four mutually bordering countries):** $$v = 4$$, $$e = \binom{4}{2} = 6$$. Planar bound: $$3v - 6 = 3(4) - 6 = 6 \ge e$$ → **fits!** Draw three countries $$A, B, C$$ in a ring around a central country $$D$$: $$f = 4$$ faces, $$v - e + f = 4 - 6 + 4 = 2$$, and because all 4 vertices touch pairwise, you are forced to use **4 colors**.
+- **$$K_5$$ in the plane:** $$v = 5$$, $$e = \binom{5}{2} = 10$$. Planar bound allows at most $$3(5) - 6 = 9 < 10$$ edges → **impossible to draw $$K_5$$ flat!**
+- **$$K_7$$ on the torus ($$g = 1$$):** Here $$v - e + f = 2 - 2(1) = 0$$. With $$f \le \frac{2}{3}e$$, we get $$e - v = f \le \frac{2}{3}e \implies \mathbf{e \le 3v}$$. For $$K_7$$: $$v = 7$$ and $$e = \binom{7}{2} = 21 = 3 \times 7$$—**hitting exact equality!** Thus $$K_7$$ embeds cleanly on a donut and forces **7 colors**.
+
+**Example 2 — Stepping through a Kempe chain in the Five-Color Theorem:**
+By induction, delete a vertex $$x$$ of degree $$\le 5$$ and 5-color the remaining graph. Suppose its 5 clockwise neighbors use all 5 colors: $$u_1(\text{Red}), u_2(\text{Blue}), u_3(\text{Yellow}), u_4(\text{Green}), u_5(\text{Purple})$$.
+1. Follow all vertices reachable from $$u_1(\text{Red})$$ using only **Red and Yellow** vertices (the **Red–Yellow Kempe chain**).
+2. **Case 1:** This chain *misses* $$u_3(\text{Yellow})$$. Swap **Red ↔ Yellow** throughout the chain! Now $$u_1$$ becomes Yellow while $$u_3$$ stays Yellow → **Red is freed** for $$x$$!
+3. **Case 2:** The chain *connects* $$u_1$$ to $$u_3$$. Together with $$x$$, that Red–Yellow path forms a **closed loop** in the plane! By the Jordan Curve Theorem, this loop traps $$u_2(\text{Blue})$$ on one side and $$u_4(\text{Green})$$ on the other. Therefore the **Blue–Green** Kempe chain from $$u_2$$ *cannot cross the Red–Yellow wall* to reach $$u_4$$! Swap **Blue ↔ Green** on $$u_2$$'s component → **Blue is freed** for $$x$$!
+
+In 1879, Kempe tried running **two** Kempe chains simultaneously to drop from 5 colors to **4**, and Heawood (1890) proved those two chains can tangle and wreck each other when swapped together.
 
 ### 1.3 What Appel–Haken did
 
-The 4CT proof reduces the problem to a finite (but large) set of **unavoidable configurations** that are **reducible**: each cannot appear in a minimal counterexample. Unavoidability means every minimal counterexample must contain one of the configurations (often proved via discharging: assign charges from Euler’s formula and redistribute until a configuration is forced). Reducibility means a coloring of the rest of the graph can be extended inward after finitely many recoloring checks. Checking reducibility involved computer enumeration of cases. Later work (Robertson, Sanders, Seymour, Thomas, and others) simplified the unavoidable set and rechecked with independent programs; formal verification efforts have further increased confidence. Still, the proof is unlike the five-color proof in length and method: a student can internalize five-color in an afternoon, while four-color is a research-scale case analysis even after simplifications.
+The 4CT proof reduces the problem to a finite (but large) set of **unavoidable configurations** that are **reducible**: each cannot appear in a minimal counterexample. Unavoidability is proved via **discharging** (assigning charges from Euler’s formula and redistributing them until a configuration is forced). Reducibility means every coloring of the exterior extends inward after finitely many recoloring checks—originally 1,936 cases (later 1,476), streamlined by Robertson, Sanders, Seymour, and Thomas (1997) to 633 configurations, and formally verified in Coq by Georges Gonthier (2005).
 
-**Studio question for your log:** does “computer-assisted” mean “not a proof”? Write your standards before and after reading Ch.1’s discussion. A productive middle position many mathematicians hold: a proof is a social object that the community can check in principle; machines are legitimate checkers when their programs and specifications are themselves auditable.
+**Studio question for your log:** does “computer-assisted” mean “not a proof”? Write your standards before and after reading Ch.1’s discussion.
 
 ### 1.4 Surfaces and Heawood
 
-On a surface of genus $$g\ge 1$$, Euler’s formula changes (Euler characteristic $$\chi=2-2g$$ for closed orientable surfaces), and average degree bounds weaken because the inequality relating edges and vertices depends on $$\chi$$. **Heawood’s number**
+On a surface of genus $$g\ge 1$$, Euler’s formula changes (Euler characteristic $$\chi=2-2g$$ for closed orientable surfaces), and **Heawood’s number**
 
 $$
 H(g)=\left\lfloor\frac{7+\sqrt{1+48g}}{2}\right\rfloor
 $$
 
-gives an upper bound on colors for maps on the orientable surface of genus $$g$$ (for $$g=0$$ the formula yields 4, but the classical Heawood argument for the sphere/plane is not a complete 4CT proof—history matters). For the **torus** ($$g=1$$), $$H(1)=7$$, and 7 is sharp: there exist toroidal maps needing 7 colors. Computing $$H(g)$$ for small $$g$$ by hand is a mandatory fluency check in Experiment C.
-
-Complete graphs $$K_n$$ embed on surfaces of sufficiently high genus; the **Ringel–Youngs** map color theorem settled the Heawood conjecture for $$g\ge 1$$, determining the chromatic number of each orientable surface. The contrast with the plane is cultural as well as technical: once genus is positive, the extremal complete-graph embeddings often pin down the sharp color number more cleanly than the planar four.
+gives the chromatic upper bound: $$H(0) = 4$$ (plane/sphere—though Heawood's argument alone does not prove 4CT), $$H(1) = \lfloor(7+\sqrt{49})/2\rfloor = 7$$ (torus), and $$H(2) = \lfloor(7+\sqrt{97})/2\rfloor = 8$$ (double torus). **Ringel and Youngs (1968)** proved that $$H(g)$$ is exact for every $$g \ge 1$$.
 
 ### 1.5 Rule changes that break four
 
-If countries may be **disconnected** (two pieces of the same empire must share a color), one can force arbitrarily many colors already in the plane—identify pieces carefully so duals encode multi-component constraints. A standard construction idea is to take many pairs of regions that must share colors and arrange adjacencies so that those “super-vertices” form a large clique in the conflict graph. If borders can touch in wild ways, or if the map is infinite, statements change. Always freeze the rules in your proposal: connected countries? positive-length borders? finite maps? sphere or plane?
+If countries may be **disconnected** (pieces of the same empire must share a color), one can force arbitrarily many colors already in the plane (if each empire has at most $$m \ge 2$$ pieces, the sharp bound jumps to $$6m$$!). Always freeze the rules in your proposal: connected countries? positive-length borders? finite maps? sphere or plane?
 
 ### 1.6 Beyond maps
 
-Graph coloring generalizes far past cartography. **Brooks’ theorem** says that for a connected graph that is neither complete nor an odd cycle, $$\chi(G)\le \Delta(G)$$, the maximum degree—so local density of edges controls colors except in two famous families. **Chromatic polynomials** count proper $$k$$-colorings as a polynomial in $$k$$. **Hadwiger’s conjecture** proposes that high chromatic number forces a large complete minor. Optional stretch if the dual-graph language feels fluent; none of these is required to complete the studio checkpoint.
+Graph coloring generalizes far past cartography. **Brooks’ theorem** says that for a connected graph that is neither complete nor an odd cycle, $$\chi(G)\le \Delta(G)$$. **Chromatic polynomials** count proper $$k$$-colorings as a polynomial in $$k$$. **Hadwiger’s conjecture** proposes that high chromatic number forces a large complete minor.
 
 ---
 

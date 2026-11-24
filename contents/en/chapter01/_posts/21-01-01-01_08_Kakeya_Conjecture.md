@@ -15,36 +15,50 @@ categories:
 > **3. Then:** [Ch.7 Kakeya studio]({{ site.baseurl }}/contents/en/chapter07/07_02_Explore_Kakeya/) — draw / code / write  
 > *Time guide:* ~45 min map → ~2–3 h lecture → ~1–2 h studio.
 
-Imagine you hold a **pencil**—or a unit needle of length 1. You want to turn it through **every direction**, while using **as little space as possible**. A large enough disk seems to settle the matter. Around **1917**, **Sōichi Kakeya** made the question geometrically sharp in the **plane**: *what is the smallest area of a region that can reverse (or host) a unit segment in every direction?*
+Pick up a pencil—or imagine an idealized needle of length $$1$$ and thickness $$0$$—resting flat on a tabletop. Suppose you want to turn it completely around through **every direction**, while sweeping out **as little area as possible**. Spinning it around its midpoint sweeps a disk of area $$\pi/4 \approx 0.785$$. Sliding and rotating it like a three-point turn in a tight alleyway shrinks the region to a three-cusped **deltoid** of half that area, $$\pi/8 \approx 0.393$$. Around **1917**, **Sōichi Kakeya** asked how low the area can go.
 
-A few years later, **Abram Besicovitch** shocked the field: one can arrange unit segments in **every direction** inside a set of **arbitrarily small area**—in modern language, even of **Lebesgue measure zero**. A set that is “almost empty” in the sense of area can still contain a full set of directions. Everyday intuition about “thick” and “thin” fails.
+A few years later, **Abram Besicovitch** shattered geometric intuition: you can pack a unit segment in **every single direction** inside a planar set of **arbitrarily small area**—in fact, of **Lebesgue measure zero**! A shape that occupies zero area can still point everywhere at once.
 
-That surprise pushed mathematicians to finer notions of size—especially **Hausdorff** and **Minkowski dimension**. The **Kakeya set conjecture** guesses that, even if volume can vanish, a set in $$\mathbb{R}^n$$ that contains a unit segment in every direction must still be “thick enough” geometrically: $$\dim_H=\dim_M=n$$. Partial progress came from many hands—among them **Wolff**, **Bourgain**, **Terence Tao**, and others (lower bounds, structured cases). Only in **2025** did **Hong Wang** and **Joshua Zahl** prove the conjecture in **three dimensions**—a major breakthrough in geometric measure theory and modern harmonic analysis, and a central pillar of the body of work for which Wang received a **Fields Medal in 2026** (alongside related restriction, local smoothing, Falconer, and Furstenberg themes—see the IMU citation and the [Ch.2 Wang lecture]({{ site.baseurl }}/contents/en/chapter02/02_15_Wang_Harmonic_Analysis/)).
+That paradox forced mathematicians to reach for finer rulers than area and volume: **Minkowski** and **Hausdorff dimension**. Even when volume vanishes, the **Kakeya set conjecture** asserts that any set in $$\mathbb{R}^n$$ containing a unit segment in every direction must still be **full-dimensional**: $$\dim_H(K) = \dim_M(K) = n$$. Roy Davies settled the plane ($$n=2$$) in 1971. Then, in **2025**, **Hong Wang** and **Joshua Zahl** proved the conjecture in **three dimensions**—a landmark triumph in geometric measure theory and harmonic analysis, and a central pillar of the work recognized by Wang’s **2026 Fields Medal** (see the [Ch.2 Wang lecture]({{ site.baseurl }}/contents/en/chapter02/02_15_Wang_Harmonic_Analysis/)). Dimensions $$n \ge 4$$ remain wide open.
 
-This page is the **Chapter 1 problem map**: needle story → measure-zero paradox → dimension conjecture → status table (2 / 3 / $$\ge 4$$) → why harmonic analysis cares. Full lecture (δ-tubes, self-improvement, Fields portfolio): step 2 of the path above.
-
-**One formal line.** If $$K\subset\mathbb{R}^n$$ contains a unit segment in every direction, must $$\dim_H(K)=\dim_M(K)=n$$? Davies (1971): dimension 2 in the plane. Wang–Zahl (2025): dimension 3 in space. Higher dimensions remain **open**.
-
-**Early distinction (do not skip).** Continuous **needle motion** (turning one segment inside a region) and a static **Besicovitch set** (hosting a unit segment in every direction, not necessarily as one continuous path) are related but **not** the same object. Both feed the same theme of directional thickness; details sit in §1.
-
-**Path through this essay:** needle intuition → Besicovitch paradox → dimension vs measure → conjecture table → why harmonic analysis cares → Wang–Zahl → open dimensions → exercises.
-
-Modern proofs replace segments by thin **δ-tubes** and estimate how small their union can be when directions vary. Extreme overlap forces geometric structure across scales (stickiness, graininess, planiness).
+**Early distinction (do not skip).** Continuously *turning* one needle inside a region (a Kakeya needle set) and statically *hosting* a unit segment in every direction (a **Besicovitch / Kakeya set**) are closely related but not identical. Both probe the same deep question: how “thick” must a full set of directions be?
 
 ---
 
 ## Learning objectives
 
-- Define a Kakeya (Besicovitch) set in $$\mathbb{R}^n$$.
-- Separate **measure zero** from **dimension $$n$$**.
-- State the conjecture and the status table (2 / 3 / ≥4).
-- Explain the δ-tube picture at slogan level.
-- Credit **Wang–Zahl** jointly; link to the Chapter 2 deep essay and Chapter 7 exploration.
-- Avoid confusions with continuous needle *motion* vs static Besicovitch sets.
+After this lecture you should be able to:
 
-**Prerequisites.** Euclidean space, area/volume intuition, fractal dimension as a slogan. Pair with Ch.2 Wang for full development.
+- Define a **Kakeya (Besicovitch) set** in $$\mathbb{R}^n$$ and distinguish it from continuous needle motion.
+- Explain how a set can have **Lebesgue measure zero** yet positive (or even full) **Hausdorff dimension**, verifying this on the Cantor set and Koch curve.
+- State the Kakeya set conjecture and its current status across dimensions ($$n = 1, 2, 3, \ge 4$$).
+- Explain the **$$\delta$$-tube** reformulation and why heavy tube overlap in 3D is so hard to rule out.
+- Credit **Wang–Zahl (2025)** jointly for $$n=3$$ and connect Kakeya to the **harmonic analysis tower** (Fourier restriction, Bochner–Riesz, local smoothing).
 
-**Seminar link.** LO1 (major problem map). Pairs: Twin Primes (structure in sparse sets); Four Color (solved vs open culture); Explorations — smallest Kakeya set.
+**Prerequisites.** Euclidean geometry, area/volume intuition, and logarithms. No graduate measure theory course is required—Hausdorff dimension and $$\delta$$-tubes are built from concrete examples below.
+
+**Course links.** Continue to the [Ch.2 Wang lecture]({{ site.baseurl }}/contents/en/chapter02/02_15_Wang_Harmonic_Analysis/) and [Ch.7 Kakeya studio]({{ site.baseurl }}/contents/en/chapter07/07_02_Explore_Kakeya/). Compare solved vs. open research culture with the [Four Color Theorem]({{ site.baseurl }}/contents/en/chapter01/01_09_Four_Color_Theorem/).
+
+---
+
+## Background Knowledge Map: What Fields Sit Behind Kakeya?
+
+Why did a playful 1917 needle-turning puzzle turn into the foundation of a Fields Medal a century later? Three intertwined areas of modern analysis live inside Kakeya.
+
+### 1. Geometric Measure Theory (GMT)
+Classical calculus measures smooth curves, surfaces, and solids. **Geometric measure theory** studies rough, fractured, and fractal sets where ordinary length, area, and volume break down—using **Hausdorff measure** and **Hausdorff dimension** to detect fine-scale complexity even when Lebesgue volume is zero.
+- **Core questions:** How small can sets with prescribed geometric projections or directional segments be? When does zero volume still force full dimension?
+- **Real-world reach:** Fractal antenna design, rough-surface physics, porous media, and multiscale image segmentation.
+
+### 2. Harmonic Analysis and Wave Packets
+**Harmonic analysis** decomposes signals and waves into frequencies via the Fourier transform. A localized high-frequency wave packet travels along a thin directional beam—mathematically, a **$$\delta$$-tube**! Asking how intensely waves propagating in all directions can interfere constructively at a single point translates directly into asking how tightly $$\delta$$-tubes can overlap in a Kakeya set.
+- **Core questions:** How does the Fourier transform behave when restricted to curved surfaces like spheres (*Fourier restriction*)? How smoothly do solutions of the wave equation evolve (*local smoothing*)?
+- **Real-world reach:** Medical MRI reconstruction, radar/sonar beamforming, seismic wave imaging, and wireless communications.
+
+### 3. Incidence Geometry and Multiscale Induction
+When you discretize Kakeya into a finite family of $$\delta$$-tubes pointing in separated directions, the problem becomes an **incidence geometry** question: how many tubes can pile onto the same tiny region (“grains”)? Modern proofs (Guth, Wang–Zahl) analyze overlap across a ladder of scales—a technique called **induction on scales**.
+- **Core questions:** What structural patterns (stickiness, planiness, graininess) must appear whenever tubes overlap abnormally heavily?
+- **Real-world reach:** Computational geometry, computer graphics ray-tracing, and combinatorial bounds in theoretical computer science.
 
 ---
 
@@ -64,11 +78,11 @@ A needle of length 1 can turn through 180° inside a deltoid (a three-cusped cur
 
 ## 1. From a spinning needle to a set of directions
 
-Around **1917**, **Sōichi Kakeya** asked—now in formal language—how small a planar region can be if a unit needle can be reversed continuously inside it: the precise form of the “pencil / needle” thought experiment above.
+Around **1917**, **Sōichi Kakeya** asked—now in formal language—how small a planar region can be if a unit needle can be reversed continuously inside it: the precise form of the pencil thought experiment above.
 
-**First improvements before the paradox.**  
-- Fix the needle’s midpoint: it sweeps a disk of radius $$1/2$$ with area $$\pi/4$$.  
-- Allow **rotate-and-slide**: a **deltoid** region already halves that cost to area $$\pi/8$$.
+**First improvements before the paradox:**
+- Fix the needle’s midpoint: it sweeps a disk of radius $$1/2$$ with area $$\pi/4 \approx 0.785$$.  
+- Allow **rotate-and-slide**: a **deltoid** region already halves that cost to area $$\pi/8 \approx 0.393$$.
 
 ![Disk vs deltoid needle regions]({{ site.baseurl }}/img/chapter_img/kakeya_deltoid_besicovitch_pmt.jpg)
 
@@ -90,7 +104,7 @@ A modern **Kakeya set** (also **Besicovitch set**) in $$\mathbb{R}^n$$ is any se
 
 *Figure. Intuition graphic: many unit segments in distinct directions sharing a common region (source: popular explainer).*
 
-**Distinction (important).**  
+**Distinction (important):**
 - **Needle motion:** continuous turning of one segment (Kakeya needle sets).  
 - **Besicovitch set:** a static set hosting all directions at once.  
 
@@ -143,6 +157,37 @@ Besicovitch constructed planar Kakeya sets of Lebesgue measure zero by iterated 
 ![Measure vs dimension]({{ site.baseurl }}/img/chapter_img/measure_vs_dimension.svg)
 
 *Figure. Volume and dimension measure different kinds of size.*
+
+---
+
+### Worked Example 1: Zero Length, Positive Dimension — The Middle-Third Cantor Set by Hand
+
+How can a set have **Lebesgue measure zero** yet still be “rich” enough to have positive Hausdorff dimension? Let’s compute the classic **middle-third Cantor set** $$C \subset [0,1]$$ by hand:
+
+Start with $$C_0 = [0,1]$$ (length $$1$$). At each step $$k$$, remove the open middle third of every remaining interval:
+- Step 1: $$2$$ intervals of length $$1/3$$ → total length $$= 2/3$$.
+- Step 2: $$4$$ intervals of length $$1/9$$ → total length $$= 4/9$$.
+- Step $$k$$: $$N_k = 2^k$$ intervals of length $$\delta_k = 3^{-k}$$ → total length $$= (2/3)^k$$.
+
+Now measure $$C = \bigcap_{k=0}^{\infty} C_k$$ with two different rulers:
+
+1. **Lebesgue measure (1D length):**
+   $$
+   |C| = \lim_{k\to\infty} \left(\frac{2}{3}\right)^k = 0.
+   $$
+   Its total length vanishes completely!
+2. **Hausdorff / box-counting dimension:**
+   At scale $$\delta_k = 3^{-k}$$, we cover $$C$$ by $$N_k = 2^k$$ intervals. Compute the $$s$$-dimensional cover sum:
+   $$
+   \sum_{i=1}^{N_k} (\mathrm{diam}\, C_i)^s = 2^k \cdot (3^{-k})^s = \left(\frac{2}{3^s}\right)^k.
+   $$
+   - If $$s < \dfrac{\log 2}{\log 3}$$, then $$2/3^s > 1$$, so the sum blows up to $$\infty$$.
+   - If $$s > \dfrac{\log 2}{\log 3}$$, then $$2/3^s < 1$$, so the sum collapses to $$0$$.
+   - At the exact jump $$s = \dfrac{\log 2}{\log 3} \approx 0.6309$$, the sum equals $$1$$ for every $$k$$!
+
+**Moral:** Zero length does **not** mean zero dimension. A Besicovitch set in $$\mathbb{R}^3$$ is the three-dimensional cousin of this miracle: its 3D volume can be $$0$$, yet Wang–Zahl (2025) proved its Hausdorff dimension is still **all the way up at $$3$$**.
+
+---
 
 ### What “dimension” means (before Hausdorff)
 
@@ -321,13 +366,42 @@ They do **not** claim positive volume. Measure zero remains compatible with dime
 
 ## 4. Why three dimensions is hard: δ-tubes
 
-Thicken each segment to a tube of radius $$\delta$$. Kakeya becomes: how small can the union of multi-directional tubes be?
+Thicken each zero-width segment to a thin cylinder (**$$\delta$$-tube**) of length $$1$$ and radius $$\delta$$. The Kakeya conjecture becomes a concrete volume question: *how small can the union of many $$\delta$$-tubes pointing in $$\delta$$-separated directions be?*
 
 ![δ-tubes]({{ site.baseurl }}/img/chapter_img/kakeya_delta_tubes.svg)
 
 *Figure. Heavy overlap is the analytic difficulty.*
 
-If tubes barely overlap, volume is large. Massive overlap is possible only with structure; multiscale arguments turn structure into improved volume estimates (self-improvement). The Wang–Zahl paper is ~127 pages of that geometry.
+---
+
+### Worked Example 2: Counting 3D $$\delta$$-Tube Volume at $$\delta = 0.01$$
+
+Let’s put real numbers on the 3D $$\delta$$-tube problem so it feels tangible instead of abstract. Set $$\delta = 0.01 = 10^{-2}$$:
+
+1. **How many $$\delta$$-separated directions exist in 3D?**
+   Directions live on the unit sphere $$S^2$$ (surface area $$4\pi$$). Each directional cap of radius $$\delta$$ has area $$\sim \delta^2 = 10^{-4}$$, so there are roughly
+   $$
+   M \sim \delta^{-2} = 10{,}000 \text{ separated directions.}
+   $$
+2. **Volume of one $$\delta$$-tube:**
+   A cylinder of length $$1$$ and radius $$\delta = 0.01$$ has volume
+   $$
+   \operatorname{Vol}(T) = \pi \delta^2 \cdot 1 \approx 3.14 \times 10^{-4}.
+   $$
+3. **Total raw volume if no tubes overlapped:**
+   $$
+   M \cdot \operatorname{Vol}(T) \approx 10{,}000 \times 3.14 \times 10^{-4} \approx 3.14 \quad (\text{order } \delta^0 = 1).
+   $$
+4. **What does full dimension 3 mean for the union $$U = \bigcup_{i=1}^M T_i$$?**
+   If tubes overlapped heavily enough to crush $$\operatorname{Vol}(U)$$ down to $$\delta^{0.5} = 0.1$$ (meaning an average point is hit by $$\sim 30$$ tubes), that would correspond to dimension $$3 - 0.5 = 2.5$$. Proving **dimension 3** means proving that for every tiny $$\varepsilon > 0$$, no matter how cleverly you slide those $$10{,}000$$ tubes around, their union still satisfies
+   $$
+   \operatorname{Vol}\Bigl(\bigcup_{i=1}^M T_i\Bigr) \ge c_\varepsilon\, \delta^{\varepsilon}.
+   $$
+   You *can* lose a tiny logarithmic factor (that’s how Besicovitch gets measure zero in the limit!), but you can **never** lose a power of $$\delta$$!
+
+---
+
+If tubes barely overlap, volume is automatically large. Massive overlap is possible only when tubes organize into rigid geometric patterns; multiscale arguments turn that forced structure into better volume bounds (self-improvement). The Wang–Zahl paper is ~127 pages of that geometry.
 
 Sticky Kakeya (Wang–Zahl, *J. Amer. Math. Soc.* 2026) was a major intermediate case.
 
@@ -372,6 +446,26 @@ If Kakeya were false in a dimension, large parts of the tower would fail with it
 
 *Figure. Local smoothing (wave equation) near the top of the popular hierarchy (source: Quanta).*
 
+---
+
+### Deep-Dive Explanation: From a Turning Needle to the 2025 Wang–Zahl Proof (Read Slowly)
+
+How do you get from a 1917 geometry riddle to a 127-page breakthrough in 3D? Follow these four steps slowly.
+
+#### Step 1: Why 2D fell in 1971, while 3D stayed open for 54 years
+In the plane ($$\mathbb{R}^2$$), two non-parallel lines **always** intersect at a point! That rigid fact lets you bound tube overlap in 2D by simple double-counting of pairwise intersections (Davies, 1971). In $$\mathbb{R}^3$$, two random lines almost always **miss** each other completely—they are skew. Because 3D tubes have so much extra room to dodge or brush past one another inside thin planes or curved surfaces, pairwise intersection counting stalls far below dimension $$3$$ (Wolff’s famous “hairbrush” argument only reached dimension $$5/2 = 2.5$$).
+
+#### Step 2: Why extreme overlap forces geometric structure ("stickiness" and "grains")
+Suppose someone handed you a hypothetical 3D Kakeya set of dimension $$< 3$$—meaning its $$\delta$$-tubes pack abnormally tightly. Wang and Zahl’s strategy (building on Katz, Tao, and Guth) exploits a dichotomy: tubes can only overlap heavily if they organize into special multiscale structures—either **sticky** (bundles of thin $$\delta$$-tubes clustering inside thicker $$\rho$$-tubes across scales) or **grainy** (tubes piling up inside tiny flat rectangular slabs called *grains*).
+
+#### Step 3: Climbing via induction on scales without losing the signal
+Once you classify how tubes cluster at an intermediate scale $$\rho \in (\delta, 1)$$, you apply an inductive volume bound at the coarse scale (bundles of size $$\rho$$) and another at the fine scale (thin tubes inside each bundle), then multiply the two gains together! The legendary headache—nicknamed the “Chinese whispers” problem—was that tiny efficiency losses at each scale snowballed across many scales. Wang and Zahl’s 2025 breakthrough introduced a cleaner, stronger statement about unions of **convex sets** that closes the induction with zero fatal loss.
+
+#### Step 4: What Wang–Zahl proved—and what remains open
+Their theorem proves $$\dim_H(K) = \dim_M(K) = 3$$ for every Kakeya set in $$\mathbb{R}^3$$. Crucially, it does **not** prove positive 3D volume (Besicovitch sets of volume $$0$$ still exist!), and it does **not** yet settle the Kakeya conjecture in dimensions $$n \ge 4$$, where even higher-dimensional curved algebraic traps (like thin neighborhoods of 3D hypersurfaces) await new ideas.
+
+---
+
 ### 2025 proof ideas (slogan level)
 
 From the same Quanta reconstruction (details in Ch.2 Wang + arXiv:2502.17655):
@@ -393,7 +487,7 @@ From the same Quanta reconstruction (details in Ch.2 Wang + arXiv:2502.17655):
 | Location | Role |
 |----------|------|
 | **Ch.1 (this page)** | Problem map: statement, status, why hard, links |
-| **Ch.2 Wang essay** | Full lecture: history, tubes, strategy outline, portfolio, exercises |
+| **Ch.2 Wang essay** | Full lecture: history, tubes, strategy outline, portfolio |
 | **Ch.7 Kakeya exploration** | Hands-on prompts: draw, code, redefine “small” |
 | **Ch.2 survey (combinatorics)** | Incidence geometry cousins |
 

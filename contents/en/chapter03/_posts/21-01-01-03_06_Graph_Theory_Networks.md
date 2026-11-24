@@ -10,11 +10,24 @@ categories:
 lesson_type: required
 ---
 
-Roads, hyperlinks, molecules, social ties, chip wires, and dependency graphs of software packages are all the same kind of object until labels differ: **vertices** joined by **edges**. Graph theory—once a recreational cousin of combinatorics—now routes packets, ranks web pages, allocates flows, and analyzes epidemics.
+In 1736, the residents of Königsberg enjoyed a Sunday walking puzzle: their city sat on two islands linked to two riverbanks by seven bridges—could you cross *every bridge exactly once* in a single walk? Leonhard Euler realized something revolutionary: the length of the bridges and the shape of the river did not matter at all. Collapse each landmass into a **dot (vertex)** and each bridge into a **line (edge)**, and the puzzle dissolves in three lines of counting. **Graph theory** was born from that afternoon stroll.
 
-**Path:** graphs as models → paths and connectivity → trees and cycles → flows and cuts → random walks and PageRank → expanders and robustness → algorithms that scale → confusions.
+Nearly three centuries later, strip away the physical skin of road maps, web hyperlinks, molecular bonds, circuit layouts, or social ties, and the exact same discrete skeleton appears. This lecture maps how pure connectivity becomes algorithms, spectral geometry, flows, and billion-node network infrastructure.
 
-This lecture maps **mechanisms**: which graph ideas become which network technologies, and why linear algebra on adjacency matrices sits next to discrete algorithms.
+---
+
+## Background Knowledge Map: What Is Graph Theory and What Does It Study?
+
+Unlike Euclidean geometry—which cares about lengths, angles, and continuous coordinates—**graph theory** studies **pure connectivity** among discrete objects. A great subway map ignores geographic scale; passengers only need to know *which station connects to which* and *where lines transfer*.
+
+Across university math and modern engineering, graph theory unfolds along **four complementary pillars**:
+
+1. **Algorithmic Graphs & Combinatorial Optimization:** Shortest paths (Dijkstra, A\*), minimum spanning trees (MST), maximum flow / minimum cut, and optimal matching.
+2. **Spectral Graph Theory:** Encoding a graph as an adjacency matrix $$A$$ or Laplacian $$L = D - A$$ so eigenvalues and eigenvectors power PageRank, spectral clustering, and robust expander networks.
+3. **Random Graphs & Network Science:** Probabilistic models explaining “six degrees of separation” (small worlds) and heavy-tailed hubs.
+4. **Graph Neural Networks (GNNs):** Passing learned messages along edges to predict molecular properties, spot financial fraud, and power recommendations.
+
+In short: **whenever relationships between objects matter more than the objects in isolation, graph theory is the native language.**
 
 ---
 
@@ -120,6 +133,35 @@ Variants power recommendation, academic citation metrics (with caveats), and nod
 **Power iteration culture.** In practice one rarely forms a dense eigen-solver fantasy: repeated sparse matrix–vector products with the Google matrix (or an equivalent linear solve) compute rankings on graphs with billions of edges. Scalability is not an afterthought; it is why the eigenvector formulation won historically over more baroque scoring rules that do not admit fast iteration.
 
 ---
+
+### Deep-Dive Explanation: Why Sparse Linear Algebra Solves Billion-Node PageRank—Checked by Hand (Read Slowly)
+
+How can Google rank billions of webpages without ever inverting a billion-by-billion matrix? Walk through the four-step engine—and check one exact step on a 3-page mini-web:
+
+1. **Pack links into a sparse transition matrix:** Consider 3 pages: Page 1 links to Page 2 and Page 3; Page 2 links only to Page 3; Page 3 links back to Page 1. The column-stochastic link matrix $$P^\top$$ (where column $$j$$ splits Page $$j$$’s vote equally among its outgoing links) is:
+   $$
+   P^\top = \begin{pmatrix}
+   0 & 0 & 1 \\
+   0.5 & 0 & 0 \\
+   0.5 & 1 & 0
+   \end{pmatrix}.
+   $$
+2. **Turn “important pages get links from important pages” into an eigenvector equation:** Add teleportation damping $$\alpha = 0.8$$ (20% chance of jumping uniformly to any of the 3 pages with $$v = (\tfrac{1}{3}, \tfrac{1}{3}, \tfrac{1}{3})^\top$$):
+   $$
+   \pi^{(k+1)} = 0.8\,P^\top \pi^{(k)} + 0.2\,v.
+   $$
+   Because $$0.2\,v > 0$$ makes the transition matrix strictly positive, the **Perron–Frobenius theorem** guarantees a *unique* stationary distribution $$\pi^*$$ regardless of starting point!
+3. **Run one step of sparse power iteration by hand** from uniform $$\pi^{(0)} = (\tfrac{1}{3}, \tfrac{1}{3}, \tfrac{1}{3})^\top$$:
+   - Multiply $$P^\top \pi^{(0)} = \bigl(\tfrac{1}{3},\, \tfrac{1}{6},\, \tfrac{1}{2}\bigr)^\top$$.
+   - Blend with teleportation:
+     $$
+     \pi^{(1)} = 0.8\begin{pmatrix}1/3 \\ 1/6 \\ 1/2\end{pmatrix} + 0.2\begin{pmatrix}1/3 \\ 1/3 \\ 1/3\end{pmatrix}
+     = \begin{pmatrix}0.333 \\ 0.200 \\ 0.467\end{pmatrix}.
+     $$
+   Already after **a single iteration**, Page 3 surges to #1 ($$0.467$$) because both Page 1 and Page 2 point to it!
+4. **Why it scales to 10 billion pages:** Each iteration touches only the nonzero edges—costing $$O(\lvert E\rvert)$$ instead of $$O(N^3)$$—and converges in a few dozen multiplications.
+
+**Quick check:** PageRank does not merely count raw backlinks; it computes the **stationary distribution of a damped random walk**—a global eigenvector emerging cleanly from local link structure.
 
 ## 6. Spectral graph theory: Laplacians and cuts
 

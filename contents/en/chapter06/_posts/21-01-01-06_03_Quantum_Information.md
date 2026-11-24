@@ -9,9 +9,22 @@ categories:
 - chapter06
 ---
 
-Classical bits are $$0$$ or $$1$$. Quantum information begins when the fundamental unit is a **qubit**: a unit vector in a two-dimensional complex Hilbert space (up to global phase), and when joint systems are described by **tensor products** rather than Cartesian products of bit strings. Superposition, entanglement, and measurement are not science-fiction metaphors; they are linear-algebraic and probabilistic structures with theorems, no-go results, and algorithmic consequences.
+For seven decades, every photograph you took, every message you sent, and even the largest AI model has been built from a single elementary brick: the **classical bit**—either $$0$$ or $$1$$, like a light switch with two positions. In the 1980s, Richard Feynman asked a disarmingly simple question: if nature at the microscopic scale obeys quantum mechanics rather than classical physics, what happens when we let a quantum system itself carry information?
 
-This lecture is **frontier literacy** for quantum information science (QIS): what is mathematical fact, what is a plausible engineering roadmap, and what is hype about “quantum supremacy” or “quantum AI.” The goal is not a full course in quantum mechanics, but a map of the objects that make quantum computation and communication different from classical ones.
+The answer opened an entire discipline built around the **qubit**: a unit vector in a two-dimensional complex Hilbert space $$\mathbb{C}^2$$ whose complex amplitudes can interfere constructively or cancel each other out like waves on water. Join multiple qubits together, and the state space multiplies via the **tensor product**, unlocking nature’s strangest resource: **entanglement**.
+
+Superposition, entanglement, and measurement are not science-fiction metaphors. They are crisp structures of complex linear algebra and probability, complete with theorems, no-go results, and dramatic algorithmic consequences. This lecture builds **frontier literacy** for quantum information science: what is solid mathematics, what is an ambitious engineering roadmap, and what is hype about “quantum supremacy” or “quantum AI.”
+
+---
+
+## Background Knowledge Map: What Is Quantum Information Science and What Does It Study?
+
+Where Shannon’s classical information theory asks how to compress, transmit, and protect strings of $$0/1$$ bits over noisy channels, **Quantum Information Science (QIS)** asks the exact same questions when the information carrier obeys quantum laws. You do not need a prior physics course in quantum mechanics to grasp its mathematical backbone—it stands on **four pillars**:
+
+1. **State Geometry & Unitary Dynamics (Complex Linear Algebra):** One qubit lives in $$\mathbb{C}^2$$; $$n$$ qubits live in the exponentially huge space $$\mathbb{C}^{2^n}$$. Quantum gates are unitary matrices (length-preserving complex rotations).
+2. **Quantum Algorithms (Amplitude Interference & Complexity):** Quantum computers do *not* simply “try every answer at once.” Their power comes from choreographing rotations so wrong branches **interfere destructively** (cancelling out like opposite waves) while the right branch **interferes constructively** so measurement hits the answer with high probability.
+3. **Quantum Error Correction (Codes in Hilbert Space):** Physical qubits are fragile—stray heat or electromagnetic noise causes *decoherence*. Because the no-cloning theorem forbids copying an unknown qubit like a classical bit, quantum error correction spreads one logical qubit across an entangled state of many physical qubits to detect errors without reading the secret state.
+4. **Quantum Communication & Cryptography:** Using entanglement and measurement disturbance to distribute secret keys (QKD) where eavesdropping leaves an unavoidable statistical footprint.
 
 ---
 
@@ -75,6 +88,31 @@ is the canonical example: measurement outcomes on the two parties are perfectly 
 **Literacy point.** Entanglement is a precise resource theory in quantum information (measures, conversion rates, monogamy). It is not a synonym for “spooky unlimited bandwidth.” No-communication theorems prevent using entanglement alone to send messages faster than light; classical communication is still needed for teleportation protocols.
 
 ---
+
+### Deep-Dive Explanation: Building a Bell State and Breaking the CHSH Limit by Hand (Read Slowly)
+
+To see that “quantum entanglement” is concrete $$4\times 4$$ linear algebra rather than mysticism, let us turn two unentangled qubits $$\lvert 00\rangle$$ into the Bell state $$\lvert \Phi^+\rangle$$ by hand, then verify directly how it beats the classical CHSH bound of $$2$$.
+
+1. **Build the Bell state with matrices:** In the basis $$\{\lvert 00\rangle, \lvert 01\rangle, \lvert 10\rangle, \lvert 11\rangle\}$$, start at $$\lvert 00\rangle = (1, 0, 0, 0)^\top$$.
+   - **Step 1 — Apply Hadamard to qubit 1 ($$H \otimes I$$):** maps $$\lvert 0\rangle \mapsto \frac{\lvert 0\rangle + \lvert 1\rangle}{\sqrt{2}}$$ while leaving qubit 2 untouched:
+     $$\lvert \psi_1\rangle = \frac{1}{\sqrt{2}}(\lvert 00\rangle + \lvert 10\rangle) = \frac{1}{\sqrt{2}}(1, 0, 1, 0)^\top.$$
+     So far the two qubits are still a product state (unentangled).
+   - **Step 2 — Apply CNOT (flip qubit 2 whenever qubit 1 is 1):** swaps $$\lvert 10\rangle \leftrightarrow \lvert 11\rangle$$ and leaves $$\lvert 00\rangle$$ fixed:
+     $$\mathrm{CNOT}\,\lvert \psi_1\rangle = \begin{pmatrix}1&0&0&0\\0&1&0&0\\0&0&0&1\\0&0&1&0\end{pmatrix}\frac{1}{\sqrt{2}}\begin{pmatrix}1\\0\\1\\0\end{pmatrix} = \frac{1}{\sqrt{2}}\begin{pmatrix}1\\0\\0\\1\end{pmatrix} = \frac{\lvert 00\rangle + \lvert 11\rangle}{\sqrt{2}} = \lvert \Phi^+\rangle.$$
+
+2. **Verify the CHSH violation $$2\sqrt{2} > 2$$ by hand:**
+   - **Classical ceiling:** Suppose Alice pre-commits to $$a_0, a_1 \in \{-1, +1\}$$ and Bob to $$b_0, b_1 \in \{-1, +1\}$$. Factor the CHSH score:
+     $$S = a_0 b_0 + a_0 b_1 + a_1 b_0 - a_1 b_1 = a_0(b_0 + b_1) + a_1(b_0 - b_1).$$
+     Since $$b_0, b_1 \in \{\pm 1\}$$, one of $$(b_0 + b_1)$$ or $$(b_0 - b_1)$$ must be $$0$$ and the other must be $$\pm 2$$. Hence every classical strategy (and any probabilistic mixture of them) obeys $$\lvert S \rvert \le 2$$.
+   - **Quantum strategy on $$\lvert \Phi^+\rangle$$:** Measuring Alice’s qubit at Bloch angle $$\alpha$$ and Bob’s at $$\beta$$ gives correlation $$E(\alpha, \beta) = \cos(\alpha - \beta)$$. Plug in the exact four angles from the video above—$$\alpha_0 = 0^\circ,\ \alpha_1 = 90^\circ,\ \beta_0 = 45^\circ,\ \beta_1 = -45^\circ$$:
+     - $$E(0^\circ, 45^\circ) = \cos(-45^\circ) = \frac{\sqrt{2}}{2}$$,
+     - $$E(0^\circ, -45^\circ) = \cos(45^\circ) = \frac{\sqrt{2}}{2}$$,
+     - $$E(90^\circ, 45^\circ) = \cos(45^\circ) = \frac{\sqrt{2}}{2}$$,
+     - $$E(90^\circ, -45^\circ) = \cos(135^\circ) = -\frac{\sqrt{2}}{2}$$.
+     Sum them into the CHSH expression:
+     $$S = \frac{\sqrt{2}}{2} + \frac{\sqrt{2}}{2} + \frac{\sqrt{2}}{2} - \Bigl(-\frac{\sqrt{2}}{2}\Bigr) = 2\sqrt{2} \approx 2.828 > 2.$$
+
+In four lines of trigonometry, you have verified by hand why quantum correlations cannot be reproduced by any classical local hidden-variable model.
 
 ## 3. Computation model: circuits, oracles, and complexity
 

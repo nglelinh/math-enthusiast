@@ -9,14 +9,16 @@ categories:
 - chapter02
 ---
 
-**Cédric Villani** received the **Fields Medal 2010**
+Set two physical pictures side by side. First, a box of dilute gas: trillions of molecules bounce off one another, generating entropy and relaxing smoothly toward Maxwellian equilibrium. Second, a hot **plasma** cloud in deep space: charged particles are so sparse that they **almost never collide**, their equations of motion are completely time-reversible, and entropy *never increases*. Yet in 1946, **Lev Landau** predicted a stunning paradox: drop an electric-field oscillation into that collisionless plasma, and the macroscopic electric field still **decays exponentially to zero** as if friction were present!
+
+For more than sixty years, whether this collisionless "friction" survives once full **nonlinear** interactions are restored—and how fast a **spatially inhomogeneous** gas equilibrates under the Boltzmann equation—stood as two flagship challenges of kinetic theory. In 2010, **Cédric Villani** received the **Fields Medal**:
 
 > “For his proofs of nonlinear Landau damping and convergence to equilibrium for the Boltzmann equation.”  
 > — [IMU, Fields Medals 2010](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2010)
 
-The citation is kinetic theory, not optimal transport. Villani is also the author of two standard books on optimal transportation—*Topics in Optimal Transportation* (AMS, 2003) and *Optimal Transport: Old and New* (Springer, 2009)—and that face of his work is essential to modern analysis and geometry. It is **not** what the IMU named in 2010. This course therefore treats transport as a neighbouring language: see [Optimal transport]({{ site.baseurl }}/contents/en/chapter06/06_09_Optimal_Transport/) and [Figalli]({{ site.baseurl }}/contents/en/chapter02/02_20_Figalli_Optimal_Transport/). The memoir *Théorème vivant* / *Birth of a Theorem* is a narrative of how a proof felt; it is **not** a research paper and will not be cited as one.
+Let us clear up one ubiquitous myth immediately: although Villani authored two landmark textbooks on **optimal transport**, the 2010 IMU citation is **not** about optimal transport (see [Optimal transport]({{ site.baseurl }}/contents/en/chapter06/06_09_Optimal_Transport/) and [Figalli]({{ site.baseurl }}/contents/en/chapter02/02_20_Figalli_Optimal_Transport/) for that wing of his career). The 2010 medal honors two kinetic PDE theorems: **nonlinear Landau damping** (with **Clément Mouhot**) for Vlasov–Poisson, and **quantitative convergence to equilibrium** for the inhomogeneous Boltzmann equation (with **Laurent Desvillettes**, alongside Villani’s **hypocoercivity** program). Meanwhile, his bestselling memoir *Théorème vivant* / *Birth of a Theorem* is literature about the collaboration with Mouhot, not a research article.
 
-The 2010 medal recognizes two PDE theorems in statistical physics. **Nonlinear Landau damping** (with Clément Mouhot) is a collisionless, Vlasov-theoretic statement: a homogeneous plasma equilibrium can erase macroscopic electric oscillations without collisions, even after the linearization of Lev Landau (1946) is left behind. **Convergence to equilibrium for the Boltzmann equation** (with Laurent Desvillettes and in Villani’s hypocoercivity program) is a collisional statement: entropy production, under regularity and positivity assumptions made explicit in the papers, forces solutions toward a Maxwellian. Neither result is a complete, unconditional theory of global smooth solutions for every physically interesting collision kernel. The medal is about **rates and mechanisms** once one is already in a regular regime, and about a nonlinear damping phenomenon that physicists had trusted for decades without a complete mathematical proof.
+**Lesson roadmap:** Background Knowledge Map (phase space, Vlasov vs. Boltzmann, phase mixing & hypocoercivity) → Hand-verifiable worked example: solving 1D free-transport phase mixing on a circle to watch density decay like $$e^{-t^2/2}$$ with zero collisions → Deep-Dive Explanation (Read Slowly): 4 steps taming plasma echoes (Mouhot–Villani) and inhomogeneous Boltzmann equilibration (Desvillettes–Villani) → Separating 2010 kinetic theory from optimal transport.
 
 ---
 
@@ -24,73 +26,104 @@ The 2010 medal recognizes two PDE theorems in statistical physics. **Nonlinear L
 
 After this lecture you should be able to:
 
-- Distinguish the **Vlasov** (collisionless, mean-field) setting of Landau damping from the **Boltzmann** (collisional) setting of trend to equilibrium.
-- State Landau’s 1946 discovery at slogan level: linearized, collisionless plasmas can damp electric-field oscillations.
-- Credit **Mouhot–Villani** for the nonlinear theorem (analytic, and some Gevrey, regularity; potentials no rougher than Coulomb/Newton).
-- Describe Boltzmann’s $$H$$-theorem as entropy production, and explain why **spatial inhomogeneity** makes trend to equilibrium much harder than the spatially homogeneous case.
-- Explain **hypocoercivity** as a slogan: a degenerate dissipation that still produces a spectral gap after mixing in complementary variables.
-- State Desvillettes–Villani-type convergence results as **conditional** on smoothness, decay, and positivity—not as an unconditional global regularity theory.
-- Separate the 2010 IMU citation from Villani’s **optimal-transport** books and from the popular memoir *Birth of a Theorem*.
+- Contrast the **Vlasov** world (collisionless, reversible, phase mixing) with the **Boltzmann** world (collisional, entropy-increasing via the $$H$$-theorem).
+- Solve 1D free transport on a circle by hand to see how **phase mixing** produces super-exponential decay $$e^{-t^2/2}$$ in spatial density without losing energy or increasing entropy.
+- Credit **Mouhot–Villani** for nonlinear Landau damping (analytic/Gevrey data, taming plasma echoes) and **Desvillettes–Villani** for conditional $$O(t^{-\infty})$$ convergence in the spatially inhomogeneous Boltzmann equation.
+- Explain **hypocoercivity** intuitively: degenerate dissipation in velocity $$v$$ mixed by transport in space $$x$$ produces global decay.
+- Keep the 2010 Fields citation separate from Villani’s **optimal-transport** books and his popular memoir *Birth of a Theorem*.
 
 **Prerequisites.** Ordinary and partial differential equations at the level of a first serious analysis course; the idea of a probability density $$f(t,x,v)$$ on position-velocity space; entropy as a Lyapunov functional. Hamiltonian mechanics and Fourier analysis help for Landau damping but are not assumed in full.
 
-**Seminar links.** LO1 (programs that turn physical mechanisms into estimates). Pair with [optimal transport]({{ site.baseurl }}/contents/en/chapter06/06_09_Optimal_Transport/) and [Figalli]({{ site.baseurl }}/contents/en/chapter02/02_20_Figalli_Optimal_Transport/) for Villani’s other face, and with [mathematical physics]({{ site.baseurl }}/contents/en/chapter06/06_11_Mathematical_Physics/) for the broader culture. Same-year neighbour: [Smirnov]({{ site.baseurl }}/contents/en/chapter02/02_28_Smirnov_Percolation/).
+**Seminar links.** Pair with [optimal transport]({{ site.baseurl }}/contents/en/chapter06/06_09_Optimal_Transport/) and [Figalli]({{ site.baseurl }}/contents/en/chapter02/02_20_Figalli_Optimal_Transport/) for Villani’s other face, and with [mathematical physics]({{ site.baseurl }}/contents/en/chapter06/06_11_Mathematical_Physics/) for the broader culture. Same-year neighbour: [Smirnov]({{ site.baseurl }}/contents/en/chapter02/02_28_Smirnov_Percolation/).
 
 ---
 
-## 1. Two kinetic worlds
+## Background Knowledge Map: What Do Kinetic Theory, Phase Mixing, and Hypocoercivity Study?
 
-A kinetic equation describes a gas or plasma by a density $$f(t,x,v)$$ of particles at time $$t$$, position $$x$$, and velocity $$v$$. Two extreme closures dominate the medal.
+### 1. Two extreme kinetic equations on phase space $$(x, v)$$
+Instead of tracking $$10^{23}$$ individual particles, **kinetic theory** evolves a phase-space density $$f(t,x,v) \ge 0$$ at position $$x$$ and velocity $$v$$, with macroscopic spatial density $$\rho(t,x) = \int f(t,x,v)\,dv$$:
+- **Vlasov–Poisson (collisionless plasma):**
+  $$
+  \partial_t f + v\cdot\nabla_x f + E[f]\cdot\nabla_v f = 0,
+  $$
+  driven by the self-consistent electric field $$E[f]$$ generated by $$\rho - 1$$. Time-reversible, energy-conserving, entropy-conserving!
+- **Boltzmann (collisional gas):**
+  $$
+  \partial_t f + v\cdot\nabla_x f = Q(f,f),
+  $$
+  where the collision operator $$Q(f,f)$$ decreases $$H(f) = \int f\log f$$ (increasing entropy) and drives velocities toward Gaussian Maxwellians.
 
-In the **Vlasov–Poisson** (or Vlasov–Maxwell) world, particles do not collide. They feel a self-consistent field $$E$$ obtained from the charge density $$\rho=\int f\,dv-1$$ (background charge normalized). The schematic equation is
+### 2. Phase mixing—runners on a circular track
+Imagine 10,000 runners starting together at the starting line of a circular track, each running at a different constant speed $$v$$ (no collisions, nobody slows down). After a few laps, fast runners lap slow runners, stretching the crowd into razor-thin filaments in $$(x,v)$$ space. If you only count the **total number of runners at each spot along the track** (averaging over $$v$$), the crowd density looks completely flat! Information was never destroyed—it simply moved into ultra-high velocity oscillations.
 
-$$
-\partial_t f + v\cdot\nabla_x f + E[f]\cdot\nabla_v f = 0.
-$$
-
-Reversibility is obvious at the level of characteristics: there is no Boltzmann collision operator, hence no immediate $$H$$-theorem. Damping, if it occurs, must come from **phase mixing**—filaments in $$(x,v)$$ that average to a quiet spatial density—not from collisions.
-
-In the **Boltzmann** world, particles collide. The schematic equation is
-
-$$
-\partial_t f + v\cdot\nabla_x f = Q(f,f),
-$$
-
-where $$Q$$ is a bilinear collision operator encoding a microscopic collision law (hard spheres, cutoff kernels, Coulomb-type singularities, \ldots). Boltzmann’s $$H$$-functional $$H(f)=\int f\log f$$ decreases (under suitable hypotheses), and the only equilibria are Maxwellians. The mathematical questions are existence, regularity, and **how fast** $$f(t)$$ approaches the Maxwellian compatible with the conserved mass, momentum, and energy.
-
-Villani’s citation lives in both worlds. Mixing them in a single sentence—“he proved gases equilibrate”—erases the distinction the IMU was careful to write.
-
----
-
-## 2. Landau damping: linear then nonlinear
-
-In 1946, Lev Landau analysed the linearized Vlasov–Poisson equation around a homogeneous equilibrium $$f^0(v)$$ (for example a Maxwellian). He found that the electric field can decay exponentially in time even though the equation is reversible and collisionless. The mechanism is not dissipation in the usual $$L^2$$ sense: it is a **phase-mixing** cancellation, visible after Fourier transform in $$x$$ and a careful contour deformation in the complex velocity plane (the Landau contour). Linear Landau damping became a cornerstone of plasma physics.
-
-Nonlinear damping is a different theorem. The nonlinear term $$E[f]\cdot\nabla_v f$$ generates echoes and resonances; for a long time it was unclear whether they would destroy the linear decay. **Clément Mouhot** and **Cédric Villani** proved that, for analytic perturbations of a stable homogeneous equilibrium (and, in an extension, for certain Gevrey classes), and for interaction potentials no more singular than Coulomb or Newton, the nonlinear Vlasov equation exhibits exponential Landau damping: the force field decays, and the density converges to a nearby homogeneous state, while the distribution function itself remains close to a free-transport evolution in suitably adapted analytic norms. The paper is Mouhot–Villani, “On Landau damping,” *Acta Mathematica* 207 (2011), 29–201, arXiv:0904.2760.
-
-The proof reinterprets damping as a **transfer of regularity** between kinetic and spatial variables rather than as an energy loss. It uses analytic norms measured against free transport, estimates on nonlinear echoes, and a Newton scheme with a flavour the authors compare to KAM theory. **Credit Mouhot.** The result is joint; popular accounts that say “Villani proved Landau damping” are incomplete.
-
-**What the theorem does not say.** It is not an unconditional statement for arbitrary Sobolev data, nor a classification of all possible instabilities (two-stream and related linear instabilities remain unstable). It is a nonlinear stability-and-damping theorem in high regularity.
+### 3. Hypocoercivity
+In the Boltzmann equation, collisions only damp irregularities in **velocity $$v$$**, not directly in **position $$x$$**. Yet free transport $$v\cdot\nabla_x$$ continually mixes different positions together, spreading dissipation from $$v$$ into $$x$$ (in the spirit of Hörmander’s commutator theorem). Villani named this mechanism—*degenerate dissipation + conservative mixing $$\Rightarrow$$ explicit decay rates*—**hypocoercivity**.
 
 ---
 
-## 3. Boltzmann: entropy, inhomogeneity, conditionality
+## 1. Hand-Verifiable Worked Example: Solving 1D Phase Mixing on a Circle
 
-For the spatially **homogeneous** Boltzmann equation (no $$x$$-dependence), entropy methods and spectral-gap estimates have a long history; Villani contributed quantitative $$H$$-theorems and work on Cercignani-type inequalities (including “Cercignani’s conjecture is sometimes true and always almost true,” *Comm. Math. Phys.* 234 (2003)). The medal citation’s “convergence to equilibrium” is aimed especially at the **spatially inhomogeneous** equation, where transport $$v\cdot\nabla_x$$ and collisions $$Q$$ interact.
+To see reversible, collisionless damping with your own eyes, switch off $$E = 0$$ and solve 1D free transport on the circle $$x \in [0, 2\pi)$$:
 
-Desvillettes and Villani, “On the trend to global equilibrium for spatially inhomogeneous kinetic systems: The Boltzmann equation,” *Invent. Math.* 159 (2005), 245–316, obtain rates of the form $$O(t^{-\infty})$$—faster than any polynomial—**conditionally** on strong, natural bounds: smoothness, decay at large velocities, and strict positivity. The paper is explicit that those bounds had, at the time, been established only in particular cases. Subsequent work (Guo and school; hypocoercivity estimates of many authors) has enlarged the unconditional territory, but this course will not rewrite the 2005 theorem as a complete global regularity theory for Boltzmann.
+$$
+\partial_t f + v\,\partial_x f = 0, \qquad f(0, x, v) = \frac{1}{\sqrt{2\pi}} e^{-v^2/2}\bigl(1 + \varepsilon\cos x\bigr).
+$$
 
-The strategy combines a quantitative $$H$$-theorem (entropy production controls distance to the local Maxwellian), a quantitative instability of the hydrodynamic description when the Knudsen number is not small (you cannot hide in a slowly evolving fluid for too long), geometric inequalities (including a Korn-type inequality from earlier Desvillettes–Villani work), and a system of differential inequalities that convert local entropy production into global decay.
+At $$t = 0$$, the spatial density has a clear wave: $$\rho(0, x) = \int_{-\infty}^{\infty} f(0,x,v)\,dv = 1 + \varepsilon\cos x$$.
+
+**Step 1 — Exact solution along characteristics:** Each particle keeps constant velocity $$v$$, so:
+
+$$
+f(t, x, v) = \frac{1}{\sqrt{2\pi}} e^{-v^2/2}\bigl(1 + \varepsilon\cos(x - vt)\bigr).
+$$
+
+Notice that the amplitude of $$f$$ is *still* $$\varepsilon$$ (zero energy lost, completely reversible!), yet $$\cos(x - vt)$$ oscillates faster and faster in $$v$$ at frequency $$t$$!
+
+**Step 2 — Integrate over velocity $$v$$:** Using the standard Gaussian integral $$\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty} e^{-v^2/2}\cos(vt)\,dv = e^{-t^2/2}$$:
+
+$$
+\rho(t, x) = \int_{-\infty}^{\infty} f(t,x,v)\,dv = 1 + \varepsilon\,e^{-t^2/2}\cos x!
+$$
+
+The macroscopic density wave (and its electric field) decays **faster than exponentially**—like $$e^{-t^2/2}$$—purely by velocity averaging! (When the self-consistent field $$E[f]$$ is turned back on in linearized Vlasov–Poisson, **Landau (1946)** proved exponential decay $$e^{-\lambda t}$$ via complex contour deformation.)
 
 ---
 
-## 4. Hypocoercivity, transport, and why a Fields Medal
+## 2. Deep-Dive Explanation: From Nonlinear Landau Damping to Inhomogeneous Boltzmann (Read Slowly)
 
-**Hypocoercivity** is Villani’s name (Memoirs of the AMS, 2009) for degenerate dissipation that still yields a coercive estimate after mixing by a conservative part. Collisions may damp only in $$v$$; the bracket with transport produces $$x$$-dissipation, in the spirit of Hörmander’s sum of squares. It is not a single IMU theorem; it is the culture in which “convergence to equilibrium” became constructive rates rather than a compactness argument without a speed. The 2006 ICM lecture already advertised hypocoercive diffusion; the 2010 medal looks back on that program as it met Boltzmann and Landau.
+Why did nonlinear Landau damping stay open for 65 years, and why does inhomogeneous Boltzmann require hypocoercivity? Follow four steps:
 
-Monge’s problem, Kantorovich couplings, and Wasserstein distances $$W_p$$ are a lingua franca that Villani taught a generation, through *Topics in Optimal Transportation* and *Optimal Transport: Old and New*; Lott–Villani (and independently Sturm) synthetic Ricci curvature is a geometric outgrowth; Figalli’s 2018 Fields sits in transport regularity. **None of that is the 2010 sentence.** The seminar habit is a fork: Fields 2010 = Mouhot–Villani damping + Desvillettes–Villani / hypocoercive Boltzmann; parallel oeuvre = transport. Read [optimal transport]({{ site.baseurl }}/contents/en/chapter06/06_09_Optimal_Transport/) and [Figalli]({{ site.baseurl }}/contents/en/chapter02/02_20_Figalli_Optimal_Transport/) for the second fork.
+#### Step 1: The threat of "plasma echoes" in nonlinear Vlasov
+In free transport, filaments oscillate in $$v$$ at frequency $$kt$$. Once the nonlinear term $$E[f]\cdot\nabla_v f$$ is restored, a spatial electric mode $$k_1$$ can beat against a velocity filament $$k_2$$ and **reverse phase mixing**, causing a supposedly dead oscillation to suddenly roar back to life at a resonance time $$t_{\text{echo}}$$—a **plasma echo**! A chain of amplified echoes could shatter linear damping completely.
 
-Kinetic theory had entropy, $$H$$-theorems, and Landau’s contour, but few nonlinear theorems matching the physical slogans at the level of rates. Mouhot–Villani turned a 1946 linear calculation into a nonlinear theorem; Desvillettes–Villani made “entropy increases” quantitative for inhomogeneous gases, with assumptions written in public. The memoir *Birth of a Theorem* is literature about that collaboration. The theorem is the *Acta* paper.
+#### Step 2: The Mouhot–Villani breakthrough (*Acta Mathematica*, 2011; arXiv:0904.2760)
+**Clément Mouhot and Cédric Villani** proved that for small perturbations of a stable homogeneous equilibrium in **analytic** regularity (and certain **Gevrey** classes, with interaction potentials no rougher than Coulomb/Newton) on the torus $$\mathbb{T}^d$$, nonlinear Landau damping **still holds exponentially**! Their proof combines three weapons:
+- Sliding analytic norms measured along free transport—reinterpreting damping as a **transfer of regularity** into high frequencies;
+- Sharp quantitative bounds on chains of nonlinear plasma echoes showing analytic/Gevrey smoothness suppresses them before blow-up;
+- A **Newton–KAM** iteration scheme locking in the global nonlinear solution! *(Always credit **Mouhot–Villani** jointly; in low Sobolev regularity, echoes really can destroy Landau damping!)*
+
+#### Step 3: The "local Maxwellian" trap in inhomogeneous Boltzmann
+In the collisional Boltzmann equation on a box or torus, a density $$f(t,x,v)$$ can be a Gaussian Maxwellian in $$v$$ at *every individual point $$x$$*—making the collision operator $$Q(f,f) = 0$$ and dropping entropy production to **zero**—even while temperature or density varies wildly across $$x$$ (far from global equilibrium)!
+In *Inventiones Mathematicae* (2005), **Laurent Desvillettes and Cédric Villani** escaped this trap by combining a quantitative $$H$$-theorem (far from local Maxwellians $$\implies$$ fast entropy production) with **quantitative instability of the hydrodynamic regime** (near a non-uniform local Maxwellian, free transport $$v\cdot\nabla_x$$ immediately kicks $$f$$ *out* of local equilibrium, switching entropy production back on!) plus Korn-type inequalities—achieving global convergence at rate **$$O(t^{-\infty})$$** (faster than any power of $$t$$)!
+
+#### Step 4: Conditionality and the Hypocoercivity program
+Be precise about hypotheses: **Desvillettes–Villani (2005)** is **conditional**—assuming the solution enjoys uniform smoothness, rapid velocity decay, and strict positivity (not an unconditional global regularity theorem for arbitrary large data). Villani distilled this mechanism into *Hypocoercivity* (Memoirs AMS, 2009), turning "velocity dissipation + spatial transport" into constructive decay rates across kinetic PDEs.
+
+Summary of the 2010 twin theorems:
+
+$$
+\text{Vlasov (collisionless)} \xrightarrow{\text{Phase mixing + KAM (Mouhot–Villani)}} E(t) \sim e^{-\lambda t},
+\qquad
+\text{Boltzmann (collisional)} \xrightarrow{\text{Entropy + Hypocoercivity (Desvillettes–Villani)}} O(t^{-\infty}).
+$$
+
+---
+
+## 3. Optimal Transport and Why a Fields Medal
+
+Alongside kinetic theory, Villani popularized **optimal transport** through two classic books and co-developed **Lott–Villani** synthetic Ricci curvature—mentoring [Alessio Figalli]({{ site.baseurl }}/contents/en/chapter02/02_20_Figalli_Optimal_Transport/) (Fields 2018). Keep the two tracks cleanly separated: **Fields 2010 = nonlinear Landau damping (Mouhot–Villani) + Boltzmann equilibration (Desvillettes–Villani, hypocoercivity)**; optimal transport is a towering parallel oeuvre.
+
+**Why a Fields Medal 2010:** Villani and his collaborators turned two iconic pillars of statistical physics—Landau’s 1946 linear calculation and Boltzmann’s qualitative $$H$$-theorem—into rigorous, quantitative nonlinear PDE theorems with explicit rates.
 
 ---
 

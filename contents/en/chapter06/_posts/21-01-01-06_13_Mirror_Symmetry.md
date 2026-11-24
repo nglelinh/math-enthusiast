@@ -10,11 +10,22 @@ categories:
 lesson_type: deep-dive
 ---
 
-**Mirror symmetry** began as a string-theory surprise: two Calabi–Yau spaces that look different as complex and symplectic geometries can produce the **same physical predictions**. Mathematics absorbed the surprise and turned it into two major programs—**homological mirror symmetry (HMS)** and the **Strominger–Yau–Zaslow (SYZ)** geometric picture—plus a web of enumerative dualities. This deep dive expands the slogan in [Duality as a principle]({{ site.baseurl }}/contents/en/chapter06/06_12_Duality_Principle/); it does **not** prove HMS or construct mirrors by hand.
+In 1991, four string theorists (Candelas, de la Ossa, Green, and Parkes) published a table of numbers that stunned algebraic geometers. For decades, mathematicians had struggled to count rational curves of degree $$d$$ lying on a quintic Calabi–Yau threefold: $$2{,}875$$ lines in degree 1, $$609{,}250$$ conics in degree 2, and a grueling computer calculation in degree 3 (which even had a bug before being corrected to $$317{,}206{,}375$$). The four physicists never counted a single curve—they solved a classical differential equation on a *completely different* manifold and read off the entire infinite sequence for every degree $$d = 1, 2, 3, 4, \dots$$ at once!
 
-**Path:** physics origin → A/B models → Hodge / enumerative flip → SYZ as T-duality geometry → HMS (Kontsevich) → status map → bridges to Langlands → exercises.
+That shockwave launched **Mirror Symmetry**. Born as a string-theory surprise—two topologically different Calabi–Yau spaces yielding the exact same physical theory—it blossomed into two landmark mathematical programs: Kontsevich’s **Homological Mirror Symmetry (HMS)** and the **Strominger–Yau–Zaslow (SYZ)** geometric picture. This deep dive expands [Duality as a principle]({{ site.baseurl }}/contents/en/chapter06/06_12_Duality_Principle/), giving you the conceptual machinery without requiring you to prove HMS or build mirrors by hand.
 
 Pack: `research/video-research/mirror-symmetry/`.
+
+---
+
+## Background Knowledge Map: What Is Mirror Symmetry and What Does It Study?
+
+To grasp what mirror symmetry actually links, separate two kinds of geometry usually taught in different rooms:
+
+1. **Symplectic Geometry (A-Model — measuring *areas* and trajectories):** Born in Hamiltonian mechanics (position–momentum phase space), it carries an oriented area form $$\omega$$ rather than rigid lengths. Its signature questions—counting pseudoholomorphic curves (Gromov–Witten invariants) and Lagrangian intersections (Fukaya categories)—are notoriously hard to compute directly.
+2. **Complex / Algebraic Geometry (B-Model — measuring *shapes* and polynomial equations):** Studies manifolds cut out by holomorphic or polynomial equations, where we vary *complex shape* continuously and compute classical period integrals via differential equations.
+
+**Mirror symmetry** states that many Calabi–Yau manifolds come in pairs $$(X, \check X)$$ whose **symplectic geometry (A-side) on $$X$$ matches the complex geometry (B-side) on $$\check X$$**, and vice versa—turning brutal curve-counting problems into classical integrals.
 
 ---
 
@@ -74,6 +85,28 @@ For Calabi–Yau threefolds, mirror symmetry classically swaps Hodge numbers in 
 **Status.** SYZ is a **research program**, not a single closed theorem for general CY manifolds. Local and toric cases are better understood; global smooth pictures remain delicate.
 
 ---
+
+### Deep-Dive Explanation: Checking Mirror Symmetry on a 2D Torus and the Hodge Diamond by Hand (Read Slowly)
+
+Six-real-dimensional Calabi–Yau threefolds are impossible to picture directly. Fortunately, a **complex 1-dimensional** Calabi–Yau manifold is completely familiar: a flat **2D torus** (an elliptic curve $$E$$), built by gluing opposite edges of a rectangle of dimensions $$L_1 \times L_2$$.
+
+1. **Swapping area (A-side) and shape (B-side) on a 2D torus:**
+   On the rectangle $$L_1 \times L_2$$, the two fundamental geometric moduli are:
+   - **Symplectic / Kähler parameter** (measuring *area*): $$\rho = i\,A = i\,L_1 L_2$$.
+   - **Complex structure parameter** (measuring *aspect ratio / shape*): $$\tau = i\,\frac{L_2}{L_1}$$.
+
+   Now apply **T-duality (the SYZ mechanism)** to the first circle: keep $$L_2$$ fixed and invert $$L_1 \mapsto \check L_1 = \frac{1}{L_1}$$! Compute both parameters of the mirror torus $$\check E$$ by hand:
+   - New area parameter: $$\check\rho = i\,\check L_1 L_2 = i\,\frac{L_2}{L_1} = \tau$$.
+   - New shape parameter: $$\check\tau = i\,\frac{L_2}{\check L_1} = i\,L_1 L_2 = \rho$$.
+
+   **Concrete numerical check:** Take a $$2 \times 6$$ rectangle: area $$A = 12$$, aspect ratio $$6/2 = 3$$. Invert $$2 \mapsto 1/2$$ to get a $$\tfrac{1}{2} \times 6$$ mirror rectangle: its new area is $$\tfrac{1}{2}\cdot 6 = 3$$, and its new aspect ratio is $$6/(1/2) = 12$$! A single reciprocal **swaps area and shape cleanly ($$\rho \leftrightarrow \tau$$)**.
+
+2. **Checking the Euler characteristic flip on a Calabi–Yau threefold:**
+   For any Calabi–Yau threefold, the topological Euler characteristic is determined by its two unfixed Hodge numbers:
+   $$
+   \chi(X) = 2\bigl(h^{1,1}(X) - h^{2,1}(X)\bigr).
+   $$
+   For the quintic threefold $$X \subset \mathbb{P}^4$$, $$h^{1,1}(X) = 1$$ and $$h^{2,1}(X) = 101$$, so $$\chi(X) = 2(1 - 101) = -200$$. Its mirror $$\check X$$ swaps the two numbers to $$h^{1,1}(\check X) = 101,\ h^{2,1}(\check X) = 1$$, giving $$\chi(\check X) = 2(101 - 1) = +200$$. Because their Euler characteristics have opposite signs, $$X$$ and $$\check X$$ are **not even topologically homeomorphic**—mirror symmetry genuinely bridges two distinct geometries.
 
 ## 5. Homological mirror symmetry (Kontsevich)
 

@@ -9,9 +9,11 @@ categories:
 - chapter02
 ---
 
-Number theory often wants geometry over the **$$p$$-adic numbers**—completions of the rationals where divisibility by a prime $$p$$ defines distance. That world mixes two characteristics at once: the “generic” fiber behaves like characteristic $$0$$, while the residue field has characteristic $$p$$. Classical algebraic geometry, born over fields and discrete valuation rings of mild ramification, strains under **wild ramification** and highly ramified towers. **Peter Scholze** received the **Fields Medal 2018** for creating **perfectoid spaces**, a class of objects that turn parts of this chaos into a dictionary: certain mixed-characteristic geometries correspond, via **tilting**, to geometries in characteristic $$p$$ where the Frobenius endomorphism is an isomorphism.
+Some Fields Medals honor the climber who conquers a single legendary peak—a century-old conjecture finally brought down. Others honor the cartographer who invents a **brand-new map and language**, suddenly turning an impassable mountain range into open terrain. The story of **Peter Scholze** and the **2018 Fields Medal** belongs squarely to the second kind.
 
-This essay aims at undergrad-seminar fluency: what “mixed characteristic” means, what the tilting slogan claims, which problem areas felt the impact (weight-monodromy ideas, $$p$$-adic cohomology, arithmetic geometry infrastructure), and how to read Scholze’s prize as a **foundations** award—closer in spirit to rewiring the language than to settling a single named conjecture. **LO6:** “perfectoid spaces solved number theory” is hype; they reorganized a toolkit.
+For decades, arithmetic geometers lived split between two twin worlds separated by a stubborn wall: **characteristic $$0$$** (where ordinary integers and $$p$$-adic numbers live) and **characteristic $$p$$** (where arithmetic happens modulo a prime $$p$$, unlocking a magical symmetry called the *Frobenius map*). Major theorems were already proved in characteristic $$p$$ yet remained completely stuck in characteristic $$0$$. At age 24, in his landmark 2012 paper, Scholze introduced **perfectoid spaces** and a translation engine called **tilting**, turning what had long been regarded as a nightmare (*infinite wild ramification*) into the very bridge linking the two worlds.
+
+**Lesson roadmap:** Background Knowledge Map (hand calculations in $$5$$-adic numbers, Frobenius magic in char $$3$$, why "carrying" builds the wall) → Deep-Dive Explanation (Read Slowly): adjoining $$p$$-power roots, tilting $$X \mapsto X^\flat$$, tilting equivalence, and weight-monodromy → Infrastructure impact & condensed mathematics.
 
 ---
 
@@ -19,119 +21,107 @@ This essay aims at undergrad-seminar fluency: what “mixed characteristic” me
 
 After this lecture you should be able to:
 
-- Explain the **mixed-characteristic** difficulty in one clear paragraph.
-- State the **tilting** slogan: a dictionary between certain mixed-characteristic objects and characteristic-$$p$$ objects with bijective Frobenius.
-- Describe perfectoid rings/spaces as a highly ramified class designed so that tilting works.
-- Name at least two application zones (e.g. weight-monodromy-type results, $$p$$-adic cohomology / period rings).
-- Compare Scholze’s medal narrative to other “infrastructure” prizes (Langlands foundations, representation-theoretic rebuilds) rather than only to “one conjecture” medals.
-- Mention **condensed mathematics** (with Clausen) as a later foundational layer—awareness, not mastery.
-- Practice **LO6**: distinguish IMU citations and technical surveys from popular “young genius rewrote math” tropes.
+- Verify by hand basic $$5$$-adic distances (including $$4 + 4\cdot 5 + 4\cdot 5^2 + \cdots = -1$$) and the Frobenius identity $$(x+y)^p = x^p + y^p$$ in characteristic $$p$$.
+- Explain why **mixed characteristic** and **carrying in addition** separate $$\mathbb{Q}_p$$ from $$\mathbb{F}_p((t))$$.
+- Follow the four-step mechanism of **perfectoid spaces** and **tilting**: why adjoining infinitely many $$p$$-power roots erases the carrying discrepancy.
+- Name major impact zones (weight-monodromy, $$p$$-adic and prismatic cohomology, local Langlands) and distinguish the 2018 Fields work from **condensed mathematics** (with Clausen), which came afterward.
 
-**Prerequisites.** Rings and fields; the idea of completion ($$p$$-adic integers $$\mathbb{Z}_p$$ and field $$\mathbb{Q}_p$$); Frobenius $$x\mapsto x^p$$ on characteristic-$$p$$ rings. Schemes are helpful but not required—think “geometric spaces glued from spectra of rings.”
+**Prerequisites.** Modular arithmetic, binomial expansion, and basic rings/fields. No prior schemes or adic spaces required.
 
-**Seminar links.** **LO1** (deep programs), **LO6** (critique medal hype). Arithmetic geometry neighbors: [Langlands program / Ngô]({{ site.baseurl }}/contents/en/chapter02/02_02_Langlands_Program/), [Birch–Swinnerton-Dyer]({{ site.baseurl }}/contents/en/chapter01/01_04_Birch_Swinnerton_Dyer/), [Tsimerman arithmetic]({{ site.baseurl }}/contents/en/chapter02/02_14_Tsimerman_Arithmetic/), [Wiles / Fermat]({{ site.baseurl }}/contents/en/chapter08/08_03_Wiles_Fermat/), [cryptography applications of number theory]({{ site.baseurl }}/contents/en/chapter03/03_05_Number_Theory_Cryptography/) (motivation for $$p$$-adics, not an application claim for perfectoids). Lifetime-foundations parallel: [Abel Prize overview]({{ site.baseurl }}/contents/en/chapter08/08_02_What_Is_Abel_Prize/).
+**Seminar links.** Arithmetic geometry neighbors: [Langlands program / Ngô]({{ site.baseurl }}/contents/en/chapter02/02_02_Langlands_Program/), [Birch–Swinnerton-Dyer]({{ site.baseurl }}/contents/en/chapter01/01_04_Birch_Swinnerton_Dyer/), [Tsimerman arithmetic]({{ site.baseurl }}/contents/en/chapter02/02_14_Tsimerman_Arithmetic/), [Wiles / Fermat]({{ site.baseurl }}/contents/en/chapter08/08_03_Wiles_Fermat/), [cryptography applications of number theory]({{ site.baseurl }}/contents/en/chapter03/03_05_Number_Theory_Cryptography/) (motivation for $$p$$-adics, not an application claim for perfectoids). Lifetime-foundations parallel: [Abel Prize overview]({{ site.baseurl }}/contents/en/chapter08/08_02_What_Is_Abel_Prize/).
 
 ---
 
-## 1. Why $$p$$-adic geometry is hard
+## Background Knowledge Map: $$p$$-adic Numbers, Characteristic $$p$$, and the "Carrying Wall"
 
-Fix a prime $$p$$. The field $$\mathbb{Q}_p$$ is the completion of $$\mathbb{Q}$$ for the $$p$$-adic absolute value. Its ring of integers is $$\mathbb{Z}_p$$. Finite extensions of $$\mathbb{Q}_p$$ and their integer rings are the local laboratories of arithmetic geometry: elliptic curves over $$\mathbb{Q}_p$$, Galois representations of $$\mathrm{Gal}(\overline{\mathbb{Q}}_p/\mathbb{Q}_p)$$, and special fibers of integral models all live here.
+### 1. What Are $$p$$-adic Numbers? (Calculate by Hand for $$p = 5$$)
+In the **$$5$$-adic** world, two integers are *close* if their difference is divisible by a high power of $$5$$: writing $$n = 5^k m$$ ($$5 \nmid m$$), define $$\vert n\vert_5 = 5^{-k}$$. Check two astonishing facts in the $$5$$-adic integers $$\mathbb{Z}_5$$:
+- **Distance:** $$\vert 26 - 1\vert_5 = \vert 5^2\vert_5 = 1/25 = 0.04$$, and $$\vert 626 - 1\vert_5 = \vert 5^4\vert_5 = 1/625 = 0.0016$$—so $$626$$ sits right next to $$1$$!
+- **An infinite series converging to $$-1$$:** Consider $$S = 4 + 4\cdot 5 + 4\cdot 5^2 + 4\cdot 5^3 + \cdots$$ Over $$\mathbb{R}$$ it diverges, but in $$\mathbb{Z}_5$$ the $$k$$-th term has size $$5^{-k} \to 0$$, so it **converges**! Add $$1$$ to $$S$$ using grade-school base-5 carrying:
+  - Units place: $$1 + 4 = 5 = 0$$ (carry $$1$$).
+  - $$5$$'s place: $$1 + 4 = 5 = 0$$ (carry $$1$$).
+  - Forever onward → $$1 + S = 0 \implies S = -1$$! (Geometric series check: $$4 \cdot \frac{1}{1 - 5} = -1$$!)
 
-**Mixed characteristic** means: the fraction field has characteristic $$0$$, while the residue field (integers modulo the maximal ideal) has characteristic $$p$$. Geometry over $$\mathbb{Z}_p$$ therefore interpolates between a characteristic-$$0$$ generic fiber and a characteristic-$$p$$ special fiber. When extensions are **wildly ramified**, Galois groups and ramification filtrations become complicated; cohomology theories that work smoothly in equal characteristic need new comparison isomorphisms; and “limit” objects of infinite ramification towers are hard to control with classical scheme theory alone.
+Completing $$\mathbb{Q}$$ under $$\vert \cdot\vert_p$$ gives $$\mathbb{Q}_p$$ (power series $$\sum_{k \ge k_0} a_k p^k$$ with $$a_k \in \{0,\dots,p-1\}$$), the local microscope of $$p$$-adic arithmetic geometry.
 
-A cartoon of the difficulty:
+### 2. Characteristic $$p$$ and the Frobenius Miracle (Check for $$p = 3$$)
+Now look at $$\mathbb{Q}_p$$'s twin: the Laurent series field $$\mathbb{F}_p((t))$$ of series $$\sum_{k \ge k_0} a_k t^k$$ with coefficients in $$\mathbb{F}_p$$, where $$p = 0$$ (**characteristic $$p$$**). Here, raising to the $$p$$-th power—the **Frobenius map** $$\varphi(x) = x^p$$—is a ring homomorphism! Check $$p = 3$$:
 
 $$
-\underbrace{\text{char }0}_{\text{generic fiber}}
-\;\longleftrightarrow\;
-\underbrace{\text{integral model}}_{\text{mixed}}
-\;\longleftrightarrow\;
-\underbrace{\text{char }p}_{\text{special fiber}}.
+(x + y)^3 = x^3 + 3x^2 y + 3xy^2 + y^3 \;\equiv\; x^3 + y^3 \pmod 3.
 $$
 
-One wants theorems that move information across the arrows without drowning in ramification.
+Every middle binomial coefficient is divisible by $$p$$ and vanishes!
+
+### 3. The Wall Between Them: Carrying in Mixed Characteristic
+If $$\mathbb{Q}_p$$ (series in $$p$$) and $$\mathbb{F}_p((t))$$ (series in $$t$$) look identical, why can't we just swap $$p \leftrightarrow t$$? Try adding $$3 + 4$$ in base $$5$$:
+- In $$\mathbb{F}_5((t))$$: $$(3 + 0\cdot t) + (4 + 0\cdot t) = 2 + 0\cdot t$$ (**no carry**!).
+- In $$\mathbb{Q}_5$$: $$(3 + 0\cdot 5) + (4 + 0\cdot 5) = 2 + \mathbf{1}\cdot 5$$ (**carries $$1$$ into the next digit**!).
+
+That carrying discrepancy is the essence of **mixed characteristic** (generic fiber $$\mathbb{Q}_p$$ has char $$0$$, special fiber $$\mathbb{F}_p$$ has char $$p$$), and it blocked direct translation between the two worlds for decades.
 
 ---
 
-## 2. Perfectoid rings: Frobenius becomes an isomorphism
+## 1. Deep-Dive Explanation: How Perfectoid Spaces and Tilting Erase Carrying (Read Slowly)
 
-In characteristic $$p$$, every ring $$R$$ has a Frobenius endomorphism $$\varphi:R\to R$$, $$x\mapsto x^p$$. If $$\varphi$$ is an **isomorphism**, $$R$$ is called **perfect** (for reduced rings of characteristic $$p$$, this matches the classical notion). Perfect rings are often more tractable: one can take $$p$$-power roots freely, and certain cohomology theories simplify.
+#### Step 1: Adjoin infinitely many $$p$$-power roots — become "Perfectoid"
+In characteristic $$p$$, a ring is **perfect** if Frobenius $$x \mapsto x^p$$ is bijective—meaning *every element has a $$p$$-th root* (e.g., completing $$\mathbb{F}_p((t^{1/p^\infty}))$$). In characteristic $$0$$, Scholze deliberately steps into **infinite wild ramification** by adjoining every $$p$$-power root of $$p$$:
 
-Scholze isolated **perfectoid** algebras—highly ramified complete topological rings (in a precise nonarchimedean topology) that admit a surjective “Frobenius-like” map with controlled kernel, so that after a tilting construction one lands in the perfect world. The exact algebraic definition involves almost mathematics, Fontaine’s period rings, and completed perfections; seminar fluency needs the design goal more than the full axiom list:
+$$
+K \;=\; \widehat{\mathbb{Q}_p\bigl(p^{1/p},\; p^{1/p^2},\; p^{1/p^3},\; \dots\bigr)}.
+$$
 
-> Perfectoid objects are those for which infinite $$p$$-power roots exist in a coherent way, making them look “as perfect as mixed characteristic allows.”
+This is the prototype **perfectoid field**: a complete mixed-characteristic field with enough $$p$$-power roots that $$x \mapsto x^p$$ is surjective on $$\mathcal{O}_K / p\mathcal{O}_K$$.
 
-**Perfectoid spaces** are geometric objects glued from spectra of perfectoid algebras in the style of adic spaces (Huber’s framework), not classical varieties over a field. They form a category rich enough to host cohomology and Galois actions, yet rigid enough for tilting.
+#### Step 2: Define the Tilt $$K^\flat$$ via Compatible $$p$$-Power Root Sequences
+Build the characteristic-$$p$$ twin $$K^\flat$$ ("$$K$$-flat") as the set of **compatible sequences** of $$p$$-power roots:
+
+$$
+x = \bigl(x^{(0)},\; x^{(1)},\; x^{(2)},\; \dots\bigr) \quad \text{with} \quad \bigl(x^{(n+1)}\bigr)^p = x^{(n)}.
+$$
+
+- **Multiplication** is coordinatewise: $$(x \cdot y)^{(n)} = x^{(n)} y^{(n)}$$.
+- **Addition (the magic trick!):** take the limit of $$p^m$$-th powers:
+
+$$
+(x + y)^{(n)} \;=\; \lim_{m \to \infty} \bigl(x^{(n+m)} + y^{(n+m)}\bigr)^{p^m}.
+$$
+
+**Why carrying vanishes:** Every "carry" error introduced when raising a sum to the $$p^m$$-th power is divisible by $$p^m$$, so in the $$p$$-adic norm it shrinks at rate $$p^{-m} \to 0$$! Better yet, $$p^\flat = (p, p^{1/p}, p^{1/p^2}, \dots)$$ plays the role of $$t$$, and adding $$1$$ to itself $$p$$ times gives $$\lim_{m\to\infty} p^{p^m} = 0$$—so $$K^\flat$$ genuinely has **characteristic $$p$$**! Specifically:
+
+$$
+\widehat{\mathbb{Q}_p(p^{1/p^\infty})}^\flat \;\simeq\; \widehat{\mathbb{F}_p((t^{1/p^\infty}))}.
+$$
+
+#### Step 3: Tilting Equivalence for Perfectoid Spaces (Scholze, 2012)
+Fontaine–Wintenberger (1979) proved that $$K$$ and $$K^\flat$$ have isomorphic Galois groups. Scholze's Fields-level leap was lifting tilting from *fields* to **full geometric spaces** (**perfectoid spaces**, glued from spectra of perfectoid algebras in Huber's adic-space framework): a mixed-characteristic perfectoid space $$X$$ and its char-$$p$$ tilt $$X^\flat$$ share the **exact same underlying topological space** and **equivalent categories of étale covers** (hence the same étale cohomology!).
+
+#### Step 4: Tilt, Solve in Characteristic $$p$$, and Transfer Back
+In his 2012 paper, Scholze immediately demonstrated this power on the **weight-monodromy conjecture** (proved by Deligne in char $$p$$ in 1980, stuck in char $$0$$ for 30 years): embed a char-$$0$$ projective variety into perfectoid projective space $$\mathbb{P}^{n,\mathrm{perf}}$$, **tilt** to char $$p$$, apply Deligne's theorem on the tilted side, and transport the cohomological conclusion back to characteristic $$0$$!
+
+$$
+\text{Mixed char } (\mathbb{Q}_p)
+\;\xrightarrow{\text{Adjoin } p^{1/p^\infty}}\;
+\text{Perfectoid space } X
+\;\xrightarrow{\text{Tilt } (\cdot)^\flat}\;
+\text{Char } p \; (X^\flat)
+\;\xrightarrow{\text{Frobenius}}\;
+\text{Solve \& transfer back}.
+$$
 
 ---
 
-## 3. Tilting: a dictionary between two worlds
+## 2. Infrastructure Impact and Condensed Mathematics
 
-The headline construction is **tilting**. To a perfectoid algebra $$R$$ in mixed characteristic one associates a perfectoid algebra $$R^\flat$$ (“$$R$$ flat”) in characteristic $$p$$. At the level of spaces, there is an equivalence of categories (in the appropriate perfectoid setup):
+Perfectoid geometry rewired modern $$p$$-adic arithmetic geometry: it fueled new comparison theorems in $$p$$-adic Hodge theory, **prismatic cohomology** (with Bhargav Bhatt), geometric **local Langlands** (the Fargues–Scholze program), and Shimura varieties.
 
-$$
-\{\text{perfectoid spaces over a mixed-char base}\}
-\;\simeq\;
-\{\text{perfectoid spaces over the tilted char-$$p$$ base}\}.
-$$
-
-Slogan form used throughout the literature:
-
-$$
-\text{mixed characteristic}
-\quad\xrightarrow{\ \text{tilt}\ }
-\text{characteristic }p\text{ (perfect)},
-\quad
-\text{then transfer theorems back}.
-$$
-
-Why does this help? Many hard questions about ramification and cohomology become easier after tilt, because one works with perfect rings and characteristic-$$p$$ techniques (including Frobenius as an automorphism). Results proved on the tilted side can often be transported back to the original mixed-characteristic side via the equivalence.
-
-**LO6 caution.** Tilting does **not** erase number theory or replace schemes by a single magic category for all purposes. It is a powerful equivalence on a carefully chosen class of objects. Ordinary schemes of finite type over $$\mathbb{Z}$$ are not perfectoid; one often passes to pro-systems, covers, or untilts of characteristic-$$p$$ objects to access classical questions.
-
----
-
-## 4. Weight-monodromy and $$p$$-adic cohomology
-
-Two families of impact are safe to name at seminar level.
-
-**Weight-monodromy-type ideas.** In $$p$$-adic and $$\ell$$-adic cohomology of varieties over local fields, monodromy operators and weight filtrations organize how cohomology behaves under degeneration. Deligne proved the weight-monodromy conjecture for varieties over function fields (equal characteristic). Mixed-characteristic analogues are harder. Perfectoid methods gave new approaches and special cases by moving geometric situations into settings where Frobenius and monodromy interact more cleanly after tilt. Treat precise theorem lists as reading assignments, not exam slogans without citations.
-
-**$$p$$-adic cohomology and periods.** Comparing étale, de Rham, crystalline, and other cohomologies of $$p$$-adic varieties is a classical theme (Fontaine, Faltings, Tsuji, …). Perfectoid geometry supplied new constructions of period sheaves, new proofs and extensions of comparison theorems, and a flexible language for infinitely ramified covers. Again: the medal recognizes infrastructure that makes such comparisons more geometric and more functorial.
-
-Additional touchpoints often appear in surveys: local Shimura varieties, facets of the local Langlands program in geometric language, and prismatic cohomology (Bhatt–Scholze and collaborators)—a later evolution that builds on the perfectoid revolution. For this course, remember the pattern: **new spaces → better cohomology → arithmetic applications**.
-
----
-
-## 5. Infrastructure prizes: parallel to foundations, not only to “solved conjectures”
-
-Fields Medals sometimes highlight a single spectacular theorem (a packing problem, a conjecture closed). Scholze’s 2018 citation centers on transforming arithmetic geometry through perfectoid spaces—closer to **rewiring foundations** so that many theorems become accessible.
-
-Useful comparisons inside this course:
-
-| Style | Example in the course map | What is prized |
+| Style of Fields Achievement | Course Example | What Is Prized |
 |-------|---------------------------|----------------|
-| Close a sharp conjecture | [Viazovska packing]({{ site.baseurl }}/contents/en/chapter02/02_08_Viazovska_Sphere_Packing/) | One decisive theorem (with beautiful method) |
-| Complete a geometric program | [Perelman]({{ site.baseurl }}/contents/en/chapter02/02_03_Perelman_Poincare/) | Ricci flow + surgery finishes geometrization |
-| Foundations / language | Scholze perfectoids; parts of [Langlands]({{ site.baseurl }}/contents/en/chapter02/02_02_Langlands_Program/) | New categories, equivalences, cohomology |
+| Close a sharp optimization conjecture | [Viazovska packing]({{ site.baseurl }}/contents/en/chapter02/02_08_Viazovska_Sphere_Packing/) | Exact optimal configuration via modular forms |
+| Complete a geometric PDE program | [Perelman]({{ site.baseurl }}/contents/en/chapter02/02_03_Perelman_Poincare/) | Ricci flow + surgery settles geometrization |
+| **Foundations / new language** | **Scholze perfectoids**; [Ngô]({{ site.baseurl }}/contents/en/chapter02/02_02_Langlands_Program/) | New categories, equivalences, cohomology |
 
-**Abel / lifetime parallel.** Prizes that honor lifelong foundational impact (e.g. representation theory, algebraic analysis, Langlands-related work in Abel narratives) share the “infrastructure” flavor even when the award ceremony differs. The pedagogical point is not to rank medals, but to recognize **different shapes of mathematical achievement**.
-
----
-
-## 6. Condensed mathematics (light awareness)
-
-With **Dustin Clausen**, Scholze developed **condensed mathematics**, a foundational framework treating topological algebraic objects (topological abelian groups, complete modules, …) via sheaves on profinite sets, aiming to repair poor formal behavior of naive topological algebra in homological settings. Analytic geometry in the condensed/liquid language is an ongoing program.
-
-**Seminar rule.** Know the name and the motivation (topology + algebra + homological algebra need a better base category). Do **not** pretend condensed mathematics is required to state the 2018 Fields citation; it is a sequel chapter of the same foundational ambition.
-
----
-
-## 7. Why it matters for a modern mathematics map
-
-Perfectoid geometry changed how experts talk about highly ramified $$p$$-adic spaces. Students meeting arithmetic geometry after 2012 inherit a language in which infinite ramification is geometric rather than purely Galois-theoretic bookkeeping. Even if you never prove a tilting equivalence, knowing that **mixed characteristic can be tilted** is part of mathematical literacy for the 2020s.
-
-**Accuracy notes.** Many theorems are collaborative; check coauthors. Not every advance in $$p$$-adic Hodge theory after 2012 is “because of perfectoids alone”—the field has many strands—but the perfectoid package is a central strand.
+**Sequel chapter — Condensed Mathematics:** After 2018, Scholze and **Dustin Clausen** developed *condensed mathematics* to unify topology, functional analysis, and homological algebra. Keep them distinct: Fields 2018 honors **perfectoid spaces and $$p$$-adic geometry**; condensed mathematics is a later foundational program.
 
 ---
 
@@ -139,12 +129,11 @@ Perfectoid geometry changed how experts talk about highly ramified $$p$$-adic sp
 
 | Claim | Correction |
 |-------|------------|
-| “Perfectoid spaces replace all schemes.” | They are a powerful class of adic/perfectoid objects, not a total replacement for schemes. |
-| “Tilting erases number theory.” | It reorganizes arguments; arithmetic returns after transfer. |
-| “Everything is now easy in char $$p$$.” | Tilting moves *some* problems; deep arithmetic still remains. |
-| “Fields 2018 = condensed mathematics.” | The medal centers on perfectoid / $$p$$-adic breakthroughs; condensed work is later/parallel foundations. |
-| “Only one person works in this area.” | Large collaborative community; always name coauthors for specific results. |
-| “$$p$$-adic = same as real calculus with $$p$$.” | Nonarchimedean analysis has different topology and geometry. |
+| “Perfectoid spaces replace all schemes.” | They are a powerful class of adic objects complementing schemes, not replacing them. |
+| “Tilting erases number theory.” | It reorganizes arithmetic; deep number theory returns after transfer. |
+| “Fields 2018 = condensed mathematics.” | The 2018 medal centers on perfectoid / $$p$$-adic geometry; condensed math (with Clausen) came later. |
+| “Only one person works in this area.” | A large collaborative community (Bhatt, Fargues, Weinstein, Clausen, …); always credit coauthors. |
+| “$$p$$-adic calculus is the same as real calculus.” | Nonarchimedean analysis has a completely different, tree-like topology. |
 
 ---
 
@@ -207,12 +196,12 @@ Full URL bibliography from video research (including secondary finds): `research
 
 ## Further directions
 
-- Read a non-technical profile *alongside* the first few pages of a technical survey; keep a two-column “media vs math” notebook (LO6 habit).
+- Read a non-technical profile *alongside* the first few pages of a technical survey.
 - Explore how local Langlands and Shimura varieties interact with modern $$p$$-adic geometry—gateway into research seminars.
 - If you enjoy foundations, sample one expository talk on condensed mathematics after you can state tilting correctly.
 - Contrast with [Venkatesh]({{ site.baseurl }}/contents/en/chapter02/02_07_Venkatesh_Number_Theory/): analytic/dynamical synthesis versus geometric/foundational rebuild—two different 2018 Fields styles.
 
 ## Video tham khảo
 
-- **xem trước** — [Fields Medal Winner 2018 Peter Scholze](https://www.youtube.com/watch?v=jGHyAqztdLY) — International Mathematical Union, English. Watch first. “Fields Medal Winner 2018 Peter Scholze” orients the lesson’s aim: Explain the mixed-characteristic difficulty in one clear paragraph.
-- [Fields Medal Symposium 2021: Jared Weinstein introduces Perfectoid Spaces](https://www.youtube.com/watch?v=RApkRqoiZ1I) — Fields Institute, English. A second pass once the main claim is in view: Explain the mixed-characteristic difficulty in one clear paragraph.
+- **xem trước** — [Fields Medal Winner 2018 Peter Scholze](https://www.youtube.com/watch?v=jGHyAqztdLY) — International Mathematical Union, English. Watch first. IMU profile introducing Scholze and perfectoid geometry.
+- [Fields Medal Symposium 2021: Jared Weinstein introduces Perfectoid Spaces](https://www.youtube.com/watch?v=RApkRqoiZ1I) — Fields Institute, English. Clear mathematical introduction to perfectoid spaces and tilting.

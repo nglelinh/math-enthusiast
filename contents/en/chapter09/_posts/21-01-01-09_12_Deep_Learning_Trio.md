@@ -9,17 +9,29 @@ categories:
 - chapter09
 ---
 
-**Yoshua Bengio**, **Geoffrey Hinton**, and **Yann LeCun** shared the **A.M. Turing Award 2018** for conceptual and engineering breakthroughs that made **deep neural networks** a dominant paradigm in machine learning. The citation is not “they invented AI.” It is that a long winter of neural-network research—backpropagation culture, convolutional architectures, representation learning, and persistent scientific bets—became the foundation of modern practice when data, compute, and algorithmic refinements aligned.
+In the mid-1990s, submitting a paper on multi-layer neural networks to a premier machine-learning conference often earned a brisk rejection: *"Nonconvex loss, no clean convergence theorems like SVMs, and far too heavy to train!"* Throughout that "neural network winter," three scientists—**Yoshua Bengio**, **Geoffrey Hinton**, and **Yann LeCun**—kept alive a contrarian bet: instead of hand-crafting features by human intuition, stack many nonlinear layers so machines **learn hierarchical representations** directly from raw data.
 
-This lecture is a **foundations and literacy** piece for Math Enthusiast: how layered models compose linear maps and nonlinearities; what backpropagation is as organized calculus; how CNNs, sequence models, and (lightly) transformers instantiate inductive biases; what “representation learning” claims; and how to practice LO6—**hype versus theorem**—using the same muscles as [Mathematics of AI]({{ site.baseurl }}/contents/en/chapter06/06_02_Mathematics_of_AI/) and [ML theory]({{ site.baseurl }}/contents/en/chapter06/06_10_ML_Theory/). Official materials: [amturing.acm.org](https://amturing.acm.org/).
+Then came 2012: as massive datasets and GPUs finally caught up with their ideas, AlexNet shattered the ImageNet benchmark and ignited the modern AI era. In **2018**, the trio shared the **A.M. Turing Award** for conceptual and engineering breakthroughs that made **deep neural networks** a critical component of computing (official materials: [amturing.acm.org](https://amturing.acm.org/)).
+
+This lecture clears away the marketing fog around AI to examine the **mathematical engine** underneath: composed nonlinear maps, reverse-mode differentiation on computational graphs, inductive biases of convolutions and attention, and the major theoretical puzzles still wide open. Cross-links: [Mathematics of AI]({{ site.baseurl }}/contents/en/chapter06/06_02_Mathematics_of_AI/) and [ML theory]({{ site.baseurl }}/contents/en/chapter06/06_10_ML_Theory/).
 
 ---
 
 ## Learning objectives
 
-After this lecture you should be able to write a layer map $$x\mapsto\sigma(Wx+b)$$ and describe a deep net as composition; explain training as empirical risk minimization with gradient-based updates and backpropagation as chain rule on a computational graph; name CNN, RNN/sequence, and transformer inductive biases at slogan level; define representation learning as learning features rather than only hand-crafting them; and rewrite one popular deep-learning claim into a precise statement about benchmarks, assumptions, or open theory (LO6).
+After this lecture you should be able to write a layer map $$x\mapsto\sigma(Wx+b)$$ and describe a deep net as composition; explain training as empirical risk minimization with gradient-based updates and backpropagation as chain rule on a computational graph; name CNN, RNN/sequence, and transformer inductive biases at slogan level; define representation learning as learning features rather than only hand-crafting them; and rewrite popular deep-learning claims into precise statements about benchmarks, assumptions, or open theory.
 
-**Prerequisites / seminar links.** Vectors/matrices; derivatives as local linear approximation; basic probability. Flagship twins: [Mathematics of AI]({{ site.baseurl }}/contents/en/chapter06/06_02_Mathematics_of_AI/), [ML theory]({{ site.baseurl }}/contents/en/chapter06/06_10_ML_Theory/), [optimization applications]({{ site.baseurl }}/contents/en/chapter03/03_07_Optimization_Operations_AI/). Chapter hub: [Turing overview]({{ site.baseurl }}/contents/en/chapter09/09_00_Overview/).
+**Prerequisites / cross-links.** Vectors/matrices; derivatives as local linear approximation; basic probability. Flagship twins: [Mathematics of AI]({{ site.baseurl }}/contents/en/chapter06/06_02_Mathematics_of_AI/), [ML theory]({{ site.baseurl }}/contents/en/chapter06/06_10_ML_Theory/), [optimization applications]({{ site.baseurl }}/contents/en/chapter03/03_07_Optimization_Operations_AI/). Chapter hub: [Turing overview]({{ site.baseurl }}/contents/en/chapter09/09_00_Overview/).
+
+---
+
+## Background Knowledge Map: What Are Deep Learning and Representation Learning?
+
+Strip away the "artificial brain" metaphor, and to a university graduate a deep neural network is the marriage of three familiar mathematical subjects: **Linear Algebra**, **Multivariable Calculus**, and **Stochastic Optimization**.
+
+1. **Hierarchical Representation Learning:** rather than jumping from raw pixels straight to the label `"Cat"`, a deep network composes simple layers $$f(x) = f_L(\dots f_2(f_1(x))\dots)$$. Early layers detect light–dark edges; middle layers assemble edges into ears and eyes; top layers assemble parts into faces. Each layer acts as a **nonlinear coordinate warp** stretching space until tangled data becomes linearly separable at the final layer.
+2. **Backpropagation:** simply the **multivariable chain rule** applied systematically from the scalar loss backward through the computational graph, yielding exact partial derivatives with respect to millions of weights at the same computational cost as a single forward pass.
+3. **Architectural Inductive Bias:** feel the parameter savings with one crisp comparison—on a tiny $$28 \times 28 = 784$$-pixel image, a fully connected layer outputting $$784$$ neurons demands $$784 \times 784 \approx 614{,}656$$ weights! A $$3 \times 3$$ convolutional filter sliding across the entire image uses just **9 shared weights** (plus 1 bias)—nearly a **70,000-fold reduction** by encoding one geometric fact about vision: *"a cat's ear in the top-left corner is still a cat's ear in the bottom-right."*
 
 ---
 
@@ -73,6 +85,48 @@ $$
 
 **Backpropagation** is reverse-mode automatic differentiation: the chain rule factored through the computational graph so each weight receives $$\partial L/\partial \theta$$ efficiently. It is calculus plus dynamic programming on graphs—not a mysterious AI essence.
 
+### Worked Example (Step by Step): Hand-Running One Backprop Step and One $$2\times 2$$ Convolution
+
+To see firsthand that neural networks contain zero magic, execute both core calculations by hand:
+
+**Part A — One training step of a 2-layer ReLU network via backpropagation.** Take input $$x = 2$$, target $$y = 1$$, initial weights $$w_1 = 0.5$$ and $$w_2 = 1.5$$ (omitting biases), hidden activation $$\mathrm{ReLU}(z) = \max(0, z)$$, and squared loss $$L = \tfrac{1}{2}(\hat{y} - y)^2$$:
+
+1. **Forward pass:**
+   - Layer 1: $$z_1 = w_1 x = 0.5 \times 2 = 1$$, then $$a_1 = \max(0, 1) = 1$$.
+   - Layer 2: $$\hat{y} = w_2 a_1 = 1.5 \times 1 = 1.5$$.
+   - Current loss: $$L = \tfrac{1}{2}(1.5 - 1)^2 = \mathbf{0.125}$$.
+2. **Backward pass (chain rule):**
+   - Output gradient: $$\dfrac{\partial L}{\partial \hat{y}} = \hat{y} - y = 1.5 - 1 = 0.5$$.
+   - Gradient for $$w_2$$: $$\dfrac{\partial L}{\partial w_2} = \dfrac{\partial L}{\partial \hat{y}} \cdot a_1 = 0.5 \times 1 = \mathbf{0.5}$$.
+   - Propagate error back to $$a_1$$: $$\dfrac{\partial L}{\partial a_1} = \dfrac{\partial L}{\partial \hat{y}} \cdot w_2 = 0.5 \times 1.5 = 0.75$$.
+   - Since $$z_1 = 1 > 0$$, $$\mathrm{ReLU}'(z_1) = 1$$, giving $$\dfrac{\partial L}{\partial w_1} = \dfrac{\partial L}{\partial a_1} \cdot \mathrm{ReLU}'(z_1) \cdot x = 0.75 \times 1 \times 2 = \mathbf{1.5}$$.
+3. **Gradient descent update (learning rate $$\eta = 0.1$$):**
+   - $$w_2^{\text{new}} = 1.5 - 0.1 \times 0.5 = \mathbf{1.45}$$,
+   - $$w_1^{\text{new}} = 0.5 - 0.1 \times 1.5 = \mathbf{0.35}$$.
+4. **Verify the new forward pass:** $$z_1^{\text{new}} = 0.35 \times 2 = 0.7$$, $$\hat{y}^{\text{new}} = 1.45 \times 0.7 = \mathbf{1.015}$$, new loss $$L^{\text{new}} = \tfrac{1}{2}(0.015)^2 = \mathbf{0.0001125}$$ — down by over **1,100×** in a single step!
+
+**Part B — A $$2\times 2$$ vertical-edge convolution (LeCun's LeNet in miniature).** Given a $$3 \times 3$$ image patch (bright left half = 10, dark right half = 0) and a $$2 \times 2$$ edge-detector kernel $$K$$:
+
+$$
+X = \begin{pmatrix} 10 & 10 & 0 \\ 10 & 10 & 0 \\ 10 & 10 & 0 \end{pmatrix}, \qquad K = \begin{pmatrix} 1 & -1 \\ 1 & -1 \end{pmatrix}.
+$$
+
+Slide $$K$$ across all four $$2 \times 2$$ windows of $$X$$ and sum elementwise products:
+- Top-left: $$10(1)+10(-1)+10(1)+10(-1) = 0$$ (flat region, no edge).
+- Top-right: $$10(1)+0(-1)+10(1)+0(-1) = \mathbf{20}$$ (strong vertical edge!).
+- Bottom-left: $$0$$; bottom-right: $$\mathbf{20}$$.
+
+The resulting feature map is $$\begin{pmatrix} 0 & 20 \\ 0 & 20 \end{pmatrix}$$: using just **4 shared weights**, the filter automatically flags the vertical light–dark boundary wherever it appears.
+
+### Deep-Dive Explanation: Why "Depth + Nonlinearity + Weight Sharing" Sparked a Revolution (Read Slowly)
+
+1. **Nonlinearity saves depth from collapsing:** without a nonlinear activation (like ReLU in Part A), 100 stacked matrix multiplications collapse into a single linear matrix—depth buys nothing. ReLU folds space at every layer, letting the number of linear regions grow exponentially with depth.
+2. **Backprop turns the chain rule into linear-time accounting:** instead of perturbing each weight separately (millions of forward passes), the backward pass reuses cached activations $$a_1, z_1$$ to compute *every* gradient in one sweep.
+3. **Architecture encodes geometry up front:** the space of all functions from pixels to labels is unimaginably vast. Convolutions (CNNs) restrict search to translation-equivariant maps; attention opens global token-to-token routing—every architecture is a geometric hypothesis about data.
+4. **The theoretical frontier stays wide open:** we just watched SGD slash loss 1,100× on a 2-weight net. Yet why do billion-parameter nets capable of memorizing pure noise still generalize cleanly on real data? That is the open baton the 2018 Turing Award handed to the next generation of mathematicians.
+
+**Quick check.** In Part A, what happens if we initialize $$w_1 = -0.5$$ for $$x = 2$$? Then $$z_1 = -1 < 0$$, so $$\mathrm{ReLU}(z_1) = 0$$ and $$\mathrm{ReLU}'(z_1) = 0$$—the gradient for $$w_1$$ is identically **0** (*dying ReLU*). One minus sign in initialization can freeze a neuron permanently, explaining why careful initialization (He/Xavier) and residual shortcuts (ResNet) are make-or-break.
+
 **Culture.** “Backprop culture” means: define a differentiable scalar loss; rely on autodiff; iterate at scale. Non-differentiable pieces (discrete choices, hard attention historically) require relaxations or other estimators. The 2010s explosion combined this culture with GPUs, large labeled sets (and later web-scale unlabeled data), and architectural priors.
 
 Open mathematics: nonconvex landscapes, implicit bias of SGD, when overparameterized nets interpolate yet generalize ([ML theory]({{ site.baseurl }}/contents/en/chapter06/06_10_ML_Theory/)). Empirical success is real; complete theory is not.
@@ -99,7 +153,7 @@ Classical ML often used hand-crafted features. Deep learning bets that **stacked
 
 ---
 
-## 5. Hype versus theorem (LO6 workshop)
+## 5. Hype versus theorem
 
 Practice rewriting claims:
 
@@ -110,7 +164,7 @@ Practice rewriting claims:
 | “Theory cannot explain deep learning, so theory is useless.” | “Classical capacity bounds can be vacuous; algorithm- and data-dependent theories are active research, not absence of mathematics.” |
 | “Scale is all you need” (absolute). | “Empirical scaling laws describe trends on measured metrics within regimes; they are not theorems about all tasks or safety properties.” |
 
-LO6 skill: cite **what was measured**, **what was assumed**, and **what remains open**. Turing 2018 honors foundations of a technology family; it does not close the mathematics of AI.
+Key habit: cite **what was measured**, **what was assumed**, and **what remains open**. Turing 2018 honors foundations of a technology family; it does not close the mathematics of AI.
 
 ---
 
@@ -138,7 +192,7 @@ Turing 2018 sits at the scientific center of that stack’s research core, not a
 
 ### Self-supervision and foundation models (light)
 
-Next-token prediction and related pretext tasks turn raw sequences into training signal. That is still empirical risk minimization on a surrogate loss; the “foundation” metaphor means transfer to many downstream tasks after large-scale pretraining. Mathematically, one should still ask about distribution shift, calibration, causal misuse, and the gap between benchmark suites and deployment worlds—the same LO6 checklist as in [Mathematics of AI]({{ site.baseurl }}/contents/en/chapter06/06_02_Mathematics_of_AI/).
+Next-token prediction and related pretext tasks turn raw sequences into training signal. That is still empirical risk minimization on a surrogate loss; the “foundation” metaphor means transfer to many downstream tasks after large-scale pretraining. Mathematically, one should still ask about distribution shift, calibration, causal misuse, and the gap between benchmark suites and deployment worlds—the same critical checklist as in [Mathematics of AI]({{ site.baseurl }}/contents/en/chapter06/06_02_Mathematics_of_AI/).
 
 ### Relation to Valiant
 

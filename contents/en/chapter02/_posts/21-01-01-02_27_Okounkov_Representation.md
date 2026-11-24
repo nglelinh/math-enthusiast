@@ -9,13 +9,15 @@ categories:
 - chapter02
 ---
 
-**Andrei Okounkov** received the **Fields Medal 2006** at ICM Madrid. The official IMU citation is a single bridging sentence, and this course keeps it official:
+Picture a game that sounds like pure recreational combinatorics: shuffle a deck of $$n = 1{,}000{,}000$$ numbered cards completely at random, and find the length of its **longest increasing subsequence**. Who would ever guess that the statistical fluctuations of that number follow the **exact same probability law** (the Tracy–Widom distribution) as the largest eigenvalue of a giant random matrix? And harder still to believe: the exact same box diagrams (Young diagrams) governing a shuffled deck of cards are quietly running both **curve counting in algebraic geometry** and **instanton counting in four-dimensional quantum gauge theory**!
+
+The mathematician who saw—and engineered—the bridges connecting those three continents is **Andrei Okounkov**. At ICM Madrid in 2006—alongside **Terence Tao**, **Wendelin Werner**, and **Grigori Perelman**—he received the **Fields Medal** with one razor-sharp sentence:
 
 > For his contributions bridging probability, representation theory and algebraic geometry.
 
-The longer IMU press text (2006) adds that the work is hard to classify because it touches many areas, with two recurring themes: **randomness** and **classical representation theory**, used against problems in algebraic geometry and statistical mechanics. This essay is for learners who have met partitions, symmetric groups, and the idea of a generating function, and who want to see why a measure on Young diagrams can speak to Gromov–Witten invariants or to instanton counting. It does **not** claim that Okounkov classified all representations, invented gauge theory, or replaced algebraic geometry by combinatorics.
+As the IMU press essay candidly observed, Okounkov’s work refuses to sit in a single drawer: two recurring instincts—**randomness** and **classical representation theory** (symmetric groups and Young diagrams)—keep unlocking central problems in enumerative algebraic geometry and statistical mechanics. We start with a hands-on calculation for $$S_3$$, then walk across his three great bridges—melted crystals, Okounkov–Pandharipande Gromov–Witten theory, and Nekrasov–Okounkov instanton counting—while keeping credit sharp: he did not classify all representations of all groups, nor invent gauge theory.
 
-The 2006 class also included **Terence Tao**, **Wendelin Werner**, and **Grigori Perelman** (who declined). Four medals, four styles of “bridge.”
+**Lesson roadmap:** Background Knowledge Map ($$S_n$$ representations, Young diagrams, Fock space) → Hand-verifiable worked example: computing the complete Plancherel distribution on $$S_3$$ and running Robinson–Schensted on $$(2,1,3)$$ → From BDJ to melted crystals and real algebraic curves → Deep-Dive Explanation (Read Slowly): 4 steps linking partitions to Gromov–Witten ($$\mathbb{P}^1$$), Seiberg–Witten instantons, and Schur processes → What Okounkov did not claim.
 
 ---
 
@@ -23,93 +25,98 @@ The 2006 class also included **Terence Tao**, **Wendelin Werner**, and **Grigori
 
 After this lecture you should be able to:
 
-- Restate the 2006 IMU citation as a **bridge**, not as a classification theorem.
-- Describe the **Plancherel measure** on partitions of $$n$$ and the **limit-shape** landscape of Vershik–Kerov and Logan–Shepp.
-- Explain, at slogan level, how representation theory of symmetric groups indexes partitions, and why randomness on those partitions is a probabilistic question.
-- Place **Okounkov–Pandharipande** Gromov–Witten work (and related Hurwitz/completed-cycle generating functions) as enumerative geometry via representation-theoretic operators.
-- Treat **Nekrasov–Okounkov** instanton counting as a **research bridge** to Seiberg–Witten geometry, not as “Okounkov invented gauge theory.”
-- Name **Schur measures / Schur processes** (Okounkov; Borodin–Okounkov–Olshanski and collaborators) and dimer / melted-crystal pictures (including Kenyon–Okounkov) as neighboring combinatorial probability.
-- Avoid the claim that he classified all representations of all groups.
+- State the 2006 IMU citation as a **bridging program** across probability, representation theory, and algebraic geometry.
+- Compute the **Plancherel measure** by hand for all partitions of $$n = 3$$ and trace Robinson–Schensted insertion on a concrete permutation.
+- Explain the link between longest increasing subsequences, random-matrix Tracy–Widom laws, and Okounkov’s geometric bridge via **random surfaces**.
+- Summarize **Okounkov–Pandharipande**: turning equivariant Gromov–Witten generating functions of $$\mathbb{P}^1$$ into Fock-space operator expectations governed by the **2-Toda hierarchy**.
+- Describe **Nekrasov–Okounkov** accurately as a dictionary identifying regularized instanton partition functions with random partitions and Seiberg–Witten prepotentials.
+- Name **Schur measures / Schur processes** (Okounkov, Reshetikhin, Borodin, Olshanski) and **melted crystals / dimers** (Kenyon–Okounkov) without exaggerating scope.
 
 **Prerequisites.** Partitions of an integer; the symmetric group $$S_n$$ at the level “irreducible representations are labelled by Young diagrams”; generating functions. Algebraic geometry at the level “curves in a variety can be counted in a virtual sense” is enough for Gromov–Witten slogans. No quantum field theory required.
 
-**Seminar links.** LO1 (deep bridging programs) and LO6 (citation hygiene). Same-year neighbor: [Perelman]({{ site.baseurl }}/contents/en/chapter02/02_03_Perelman_Poincare/). Geometry of moduli: [Mirzakhani]({{ site.baseurl }}/contents/en/chapter02/02_05_Mirzakhani_Moduli/) (different moduli, similar “spaces of shapes become dynamical or probabilistic”).
+**Seminar links.** Same-year neighbor: [Perelman]({{ site.baseurl }}/contents/en/chapter02/02_03_Perelman_Poincare/). Geometry of moduli: [Mirzakhani]({{ site.baseurl }}/contents/en/chapter02/02_05_Mirzakhani_Moduli/) (different moduli, similar “spaces of shapes become dynamical or probabilistic”).
 
 ---
 
-## 1. Partitions as a common alphabet
+## Background Knowledge Map: What Do $$S_n$$ Representations, Young Diagrams, and Fock Space Study?
 
-A **partition** of a positive integer $$n$$ is a weakly decreasing sequence of positive integers summing to $$n$$. One draws it as a **Young diagram** (a stack of boxes). The same diagrams index:
+### 1. Representation theory of the symmetric group $$S_n$$
+**Representation theory** realizes abstract symmetry groups as invertible matrices and breaks them into indivisible "atoms" called **irreducible representations**. For the symmetric group $$S_n$$ (all $$n!$$ permutations), irreducible representations correspond **1–1** with **partitions** $$\lambda = (\lambda_1 \ge \lambda_2 \ge \cdots)$$ of $$n$$, drawn as **Young diagrams** (rows of stacked boxes).
 
-- conjugacy classes and **irreducible representations** of the symmetric group $$S_n$$;
-- Schur functions in the ring of symmetric functions;
-- many statistical-mechanical configurations (lozenge tilings, plane partitions, dimer coverings after a change of picture).
-
-The **Plancherel measure** on partitions of $$n$$ is the probability
+### 2. Random Young diagrams and limit shapes
+Because $$\sum_{\lambda \vdash n} (\dim\lambda)^2 = n!$$, representation theory hands probability a privileged distribution—the **Plancherel measure**:
 
 $$
-\mathbb{P}(\lambda)=\frac{\bigl(\dim\lambda\bigr)^2}{n!},
+\mathbb{P}(\lambda) = \frac{(\dim\lambda)^2}{n!}.
 $$
 
-where $$\dim\lambda$$ is the dimension of the irreducible representation of $$S_n$$ labelled by $$\lambda$$. It is the most representation-theoretic of the natural measures on diagrams: it is the pushforward of Haar (uniform) measure on $$S_n$$ under the map that records the shape of a random Young tableau, equivalently the Plancherel decomposition of the regular representation.
+In the late 1970s, **Vershik–Kerov** and independently **Logan–Shepp** proved that as $$n \to \infty$$, a Plancherel-random diagram rescaled by $$\sqrt{n}$$ concentrates tightly around a smooth deterministic **limit shape**!
 
-**Vershik–Kerov** and independently **Logan–Shepp** (late 1970s) proved that a Plancherel-random diagram, scaled by $$\sqrt{n}$$, converges to a deterministic **limit shape**—a curve in the plane that looks like a rotated, smoothed staircase. The typical partition is not a long thin hook and not a square; it hugs a specific algebraic-looking profile. Fluctuations about that shape, and the statistics of the longest rows, became a 1990s industry connecting to random matrices.
-
-**Slogan.** Once representations supply a privileged measure on diagrams, asymptotic representation theory *is* a chapter of probability.
-
----
-
-## 2. Okounkov’s refinements: from BDJ to random surfaces
-
-**Baik–Deift–Johansson** determined the fluctuations of the longest increasing subsequence of a random permutation (equivalently, the first row of a Plancherel-random partition) and observed the **Tracy–Widom** law of the largest eigenvalue of a Gaussian Hermitian matrix. They conjectured a matching for the joint law of the first few rows. Okounkov proved that conjecture by a distinctive route: both problems match a third problem about **counting random surfaces** (Feynman diagrams versus ramified coverings). A different proof was given by **Borodin–Okounkov–Olshanski**; Johansson also gave a proof. Credit the landscape, then Okounkov’s geometric comparison.
-
-The IMU 2006 essay highlights this early result as a seed: a direct link among random matrices, random permutations, and algebraic geometry. Later work treats **random plane partitions** and “melted crystals”: if one removes boxes from a corner at random with suitable weights, the macroscopic liquid region is bounded by an **algebraic curve**. **Kenyon–Okounkov** (and related dimer work with Sheffield and others) made that surprising real-algebraic conclusion precise. Again the course slogan is a bridge: a statistical-mechanical shape theorem lands in algebraic geometry.
-
-Okounkov did not invent limit shapes (Vershik–Kerov, Logan–Shepp) and did not invent random-matrix Tracy–Widom laws (Tracy–Widom; BDJ). He *connected* those objects to surfaces, coverings, and later to Gromov–Witten and gauge-theoretic generating functions.
+### 3. Fock space—turning Young diagrams into quantum operators
+Declare every Young diagram $$\lambda$$ (of any size $$n \ge 0$$) to be an orthonormal basis vector $$\vert\lambda\rangle$$ of an infinite-dimensional Hilbert space called **Fock space** (the state space of 1D fermions). Adding or removing a box becomes a creation/annihilation operator—and remarkably, generating functions of **enumerative geometry (Gromov–Witten)** become vacuum matrix elements $$\langle 0 \vert \cdots \vert 0 \rangle$$ of those exact operators!
 
 ---
 
-## 3. Gromov–Witten theory as a generating function
+## 1. Hand-Verifiable Worked Example: Complete Plancherel Measure on $$S_3$$ and Robinson–Schensted
 
-**Gromov–Witten theory** counts (virtually) holomorphic maps from curves to a target variety, with incidence conditions—the modern language of enumerative geometry, enriched by physics. The numbers are packaged as generating functions. Okounkov, especially with **Rahul Pandharipande**, developed an operator formalism in which those generating functions become vacuum expectations in a Fock space (the infinite-wedge representation of the Heisenberg/fermion algebra—the same algebra that organizes Schur functions and partitions).
+Take $$n = 3$$ ($$3! = 6$$ permutations). The integer $$3$$ has exactly **3 partitions**:
 
-A concrete chapter: Gromov–Witten theory of target **curves**, including the **equivariant Gromov–Witten theory of $$\mathbb{P}^1$$**. Okounkov–Pandharipande identified the stationary sector with **Hurwitz theory** with **completed cycle** insertions, and showed that the equivariant theory of $$\mathbb{P}^1$$ is governed by the **2-Toda hierarchy**. The papers (including *Ann. of Math.* **163**, 2006, and the arXiv sequence starting from [math/0207233](https://arxiv.org/abs/math/0207233)) are the seminar-level landmarks.
+| Partition $$\lambda$$ | Young diagram | Standard tableaux ($$\dim\lambda$$) | Plancherel weight $$\frac{(\dim\lambda)^2}{3!}$$ |
+|---|---|---|---|
+| $$(3)$$ | 1 row of 3 boxes | $$1$$ (trivial rep) | $$1^2 / 6 = 1/6$$ |
+| $$(2, 1)$$ | Row of 2 + row of 1 | $$2$$ (standard 2D rep) | $$2^2 / 6 = 4/6 = 2/3$$ |
+| $$(1, 1, 1)$$ | 1 column of 3 boxes | $$1$$ (sign rep) | $$1^2 / 6 = 1/6$$ |
 
-With **Maulik, Nekrasov, and Pandharipande**, Okounkov also formulated well-known conjectures relating **Gromov–Witten** and **Donaldson–Thomas** invariants of threefolds—another bridge, this time between two enumerative theories, not a claim that either theory was invented in 2006.
+Total probability: $$\frac{1}{6} + \frac{4}{6} + \frac{1}{6} = 1$$! Notice how even at $$n = 3$$, the balanced middle shape $$(2, 1)$$ captures **$$2/3$$** of the probability—the miniature seed of the Vershik–Kerov–Logan–Shepp limit shape!
 
-**Slogan.** Enumerative geometry becomes computable when its generating function is recognized as a tau-function or a vacuum matrix element already studied in representation theory.
+**Run Robinson–Schensted insertion on the permutation $$(2, 1, 3) \in S_3$$:**
+- Insert $$2$$ into the empty tableau $$\to$$ row 1: `[2]`.
+- Insert $$1$$: since $$1 < 2$$, $$1$$ bumps $$2$$ down to row 2 $$\to$$ row 1: `[1]`, row 2: `[2]`.
+- Insert $$3$$: since $$3 > 1$$, append $$3$$ to row 1 $$\to$$ row 1: `[1, 3]`, row 2: `[2]`.
 
----
-
-## 4. Nekrasov partition functions: a research bridge
-
-**Nekrasov** (2002) gave a mathematically rigorous regularized definition of the partition function of certain four-dimensional $$\mathcal{N}=2$$ supersymmetric gauge theories, as an equivariant integral on instanton moduli (a localization substitute for a long-distance cutoff). **Nekrasov–Okounkov** showed that this localization integral can be rewritten as a measure on partitions with a periodic potential, and identified the Seiberg–Witten prepotential with the **surface tension of a limit shape**. Okounkov’s ICM-adjacent survey “Random partitions and instanton counting” ([arXiv:math-ph/0601062](https://arxiv.org/abs/math-ph/0601062)) is the readable map.
-
-**Accuracy.** Seiberg–Witten geometry and Nekrasov’s definition precede or sit beside the joint work. Okounkov did not invent gauge theory. The contribution is a dictionary: instanton sums *are* random partitions; their thermodynamics *is* the Seiberg–Witten curve. That is exactly the kind of bridge the IMU citation names.
-
----
-
-## 5. Schur processes, dimers, and what is not claimed
-
-**Schur measures** (Okounkov) generalize Plancherel by weighting diagrams with Schur functions. **Schur processes** (Okounkov–Reshetikhin and the circle of **Borodin, Okounkov, Olshanski**) are measures on *sequences* of partitions with determinantal correlation functions. They model plane partitions, certain growth processes, and, after translation, dimer models and tilings. The course should name collaborators: this is not a solo census of all determinantal processes.
-
-**What Okounkov did not do.**
-
-- He did not classify all irreducible representations of all groups. Symmetric groups, infinite symmetric groups, and related combinatorial representation theory are the home territory; “classification of representations” is a different century-long program (finite groups, Lie groups, p-adic groups, …).
-- He did not replace algebraic geometry. Gromov–Witten invariants remain geometric; the new fact is that their generating functions have representation-theoretic closed forms in important cases.
-- He did not close Seiberg–Witten theory as physics. He supplied a mathematical identification in a regularized instanton model.
+The resulting shape is **$$(2, 1)$$**, and its first row has length $$\lambda_1 = 2$$—**identical to the longest increasing subsequence** `(2, 3)` or `(1, 3)` of `(2, 1, 3)`! Running all 6 permutations of $$S_3$$ yields 1 copy of $$(3)$$, 4 copies of $$(2,1)$$, and 1 copy of $$(1,1,1)$$, matching the Plancherel measure **exactly**!
 
 ---
 
-## 6. Why a Fields Medal
+## 2. From BDJ Fluctuations to Melted Crystals and Algebraic Curves
 
-The 2006 IMU essay is unusually honest about genre: the work is difficult to classify. That is the point. A Fields Medal can reward a **dictionary** that makes three fields compute one another’s answers.
+In 1999, **Baik–Deift–Johansson (BDJ)** proved that fluctuations of $$\lambda_1$$ around $$2\sqrt{n}$$ (scaled by $$n^{1/6}$$) follow the **Tracy–Widom** distribution of the largest eigenvalue of a Gaussian Hermitian random matrix, conjecturing the same match for the joint law of the top $$k$$ rows. **Okounkov (2000)** proved that conjecture via a geometric bridge: both random-matrix moments and Plancherel moments count the same objects—**random surfaces** (ramified covers of the sphere / ribbon graphs)! (Independent determinantal proofs were given by **Borodin–Okounkov–Olshanski** and **Johansson**.)
 
-1. **A privileged measure became a geometric tool.** Plancherel and its Schur deformations moved from asymptotic group theory into random surfaces and enumerative geometry.
-2. **Generating functions as theorems.** Toda hierarchies and vacuum expectations are not decorations; they *are* the GW theory of $$\mathbb{P}^1$$ in the Okounkov–Pandharipande formalism.
-3. **Physics as a source of well-posed math.** Instanton counting, once regularized, became a limit-shape problem. The bridge is research-level and two-way.
+Next, **Kenyon–Okounkov** (and Sheffield) analyzed **random 3D plane partitions** ("melted crystals" and planar **dimer** lozenge tilings): randomly melting unit cubes out of a 3D corner creates frozen flat facets separated from a chaotic liquid core by an *arctic curve*—which Kenyon–Okounkov proved is always a **real algebraic curve** (a Harnack curve)! Once again, statistical mechanics landed squarely inside algebraic geometry.
 
-Giovanni Felder’s Bourbaki-style / ICM exposition “The work of Andrei Okounkov” ([arXiv:math/0609847](https://arxiv.org/abs/math/0609847)) is the recommended next reading after this lecture.
+---
+
+## 3. Deep-Dive Explanation: How Okounkov’s Three Bridges Compute Each Other’s Answers (Read Slowly)
+
+Follow four steps to see how Young diagrams unlock enumerative geometry and 4D gauge theory:
+
+#### Step 1: Equivariant Gromov–Witten theory of $$\mathbb{P}^1$$ via Fock space (Okounkov–Pandharipande)
+**Gromov–Witten theory** virtually counts holomorphic maps from genus-$$g$$ curves into a target variety $$X$$. For target **$$\mathbb{P}^1$$**, **Okounkov and Pandharipande** (*Ann. of Math.* 163, 2006; [arXiv:math/0207233](https://arxiv.org/abs/math/0207233)) identified the stationary sector with **Hurwitz numbers** (counting ramified covers—multiplication in the center of the symmetric group algebra!) modified by **completed cycle** operators. Translated into the Young-diagram basis of Fock space, the entire equivariant Gromov–Witten generating function of $$\mathbb{P}^1$$ becomes a tau-function of the **2-Toda integrable hierarchy**!
+
+#### Step 2: Bridging Gromov–Witten and Donaldson–Thomas (MNOP conjectures)
+With **Maulik, Nekrasov, and Pandharipande**, Okounkov formulated the celebrated MNOP conjectures linking two totally different threefold counting theories: **Gromov–Witten** (counting curves) and **Donaldson–Thomas** (counting ideal sheaves—which on toric threefolds reduces right back to counting **3D plane partitions**!).
+
+#### Step 3: Nekrasov instanton partition functions become random partitions (Nekrasov–Okounkov)
+In 2002, **Nikita Nekrasov** gave a rigorous equivariant localization definition for the instanton partition function of 4D $$\mathcal{N}=2$$ supersymmetric gauge theory. By Atiyah–Bott localization, the fixed points on instanton moduli space are indexed by tuples of **Young diagrams**! **Nekrasov and Okounkov** ([arXiv:math-ph/0601062](https://arxiv.org/abs/math-ph/0601062)) rewrote Nekrasov’s sum as a **random-partition measure** (deforming Plancherel) and used **limit-shape thermodynamics** to prove its surface tension matches the **Seiberg–Witten prepotential**!
+
+#### Step 4: Schur measures and Schur processes unify determinantal probability
+Generalizing Plancherel by weighting diagrams with Schur functions $$s_\lambda(x)s_\lambda(y)$$, **Okounkov** introduced **Schur measures**, and **Okounkov–Reshetikhin** (alongside **Borodin–Okounkov–Olshanski**) developed **Schur processes**—measures on sequences of partitions with exact determinantal correlation functions governing growth models, plane partitions, and dimers.
+
+Summary of Okounkov’s triangle of bridges:
+
+$$
+\text{Probability (Plancherel / Schur)}
+\;\longleftrightarrow\;
+\text{Representations (} S_n\text{, Fock space)}
+\;\longleftrightarrow\;
+\text{Geometry (Gromov–Witten, Seiberg–Witten)}.
+$$
+
+---
+
+## 4. What Okounkov Did Not Claim, and Why a Fields Medal
+
+Okounkov did **not** classify all irreducible representations of all groups, did **not** replace algebraic geometry by combinatorics, and did **not** invent gauge theory or Seiberg–Witten theory. Rather, as Giovanni Felder’s ICM exposition (*"The work of Andrei Okounkov"*, [arXiv:math/0609847](https://arxiv.org/abs/math/0609847)) highlights, the 2006 Fields Medal honors a rare **two-way dictionary** letting probability, representation theory, and algebraic geometry compute one another’s hardest answers.
 
 ---
 

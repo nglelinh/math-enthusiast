@@ -10,12 +10,16 @@ categories:
 lesson_type: required
 ---
 
-**Masaki Kashiwara** (Research Institute for Mathematical Sciences, Kyoto University; Kyoto University Institute for Advanced Study) received the **Abel Prize 2025**
+When faced with a linear differential equation, our natural reflex is to hunt for an explicit solution $$u(x)$$ using integrals, power series, or analytic estimates. Yet in 1970, a 23-year-old master’s student at the University of Tokyo named **Masaki Kashiwara**—working under the visionary Mikio Sato—turned that reflex upside down: *why chase individual solutions when we can study the **algebraic structure** of the system of differential equations itself?*
+
+From that foundational master’s thesis grew a new mathematical language spanning more than half a century, linking partial differential equations to geometric topology and representation theory—and two decades later, Kashiwara discovered a jewel-like combinatorial structure called a **crystal base** by "freezing" quantum symmetries down to absolute zero! In **2025**, **Masaki Kashiwara** (RIMS, Kyoto University; Kyoto University Institute for Advanced Study) became the **first Japanese mathematician** to receive the **Abel Prize**:
 
 > “for his fundamental contributions to algebraic analysis and representation theory, in particular the development of the theory of $$D$$-modules and the discovery of crystal graphs.”  
 > — [Abel Prize Committee citation](https://abelprize.no/citation/citation-abel-prize-committee-masaki-kashiwara)
 
-(Prize materials also speak of **crystal bases**; “crystal graphs” and “crystal bases” name the same combinatorial skeleton of quantum-group representations.) Kashiwara is the first Japanese Abel laureate; materials highlight fifty-plus years reshaping algebraic analysis and representation theory. Official site: [abelprize.no](https://abelprize.no/).
+(Prize materials also speak of **crystal bases**; “crystal graphs” and “crystal bases” name the same combinatorial skeleton of quantum-group representations.) Official site: [abelprize.no](https://abelprize.no/).
+
+**Lesson arc:** Background Knowledge Map (algebraic analysis & $$D$$-modules, representation theory & quantum groups, crystal graphs & Riemann–Hilbert) → Deep-Dive Explanation: verifying the Weyl algebra, monodromy of $$\sqrt{x}$$, and the $$\mathfrak{sl}_2$$ crystal tensor product by hand → $$D$$-modules, Riemann–Hilbert, and crystals in depth → Why infrastructure earns the Abel Prize.
 
 ---
 
@@ -24,6 +28,62 @@ lesson_type: required
 After this lecture you should be able to explain $$D$$-modules as an algebraic language for systems of linear PDE; state the idea of a generalized **Riemann–Hilbert** correspondence (holonomic $$D$$-modules ↔ perverse sheaves) at slogan level; describe **crystal bases** as combinatorial models of quantum-group representations; argue why infrastructure mathematics is Abel-worthy; and compare Kashiwara-style algebraic analysis with other “language-building” prizes (e.g. perfectoid geometry as Fields-era infrastructure).
 
 **Prerequisites.** Linear algebra; the idea of differential operators such as $$\frac{d}{dx}$$ and partial derivatives; willingness to accept sheaves/modules as “spaces of solutions packaged algebraically.” Representation theory beyond “groups act on vector spaces” is not required on a first pass. Cross-links: [Langlands]({{ site.baseurl }}/contents/en/chapter02/02_02_Langlands_Program/), [Scholze perfectoid]({{ site.baseurl }}/contents/en/chapter02/02_06_Scholze_Perfectoid/).
+
+---
+
+## Background Knowledge Map: What Are Algebraic Analysis, $$D$$-Modules, and Representation Theory, and What Do They Study?
+
+The three phrases in Kashiwara’s career usually appear in graduate school, yet their core intuition flows straight from undergraduate linear algebra and differential equations:
+
+### 1. Algebraic Analysis and $$D$$-Modules
+In linear algebra, you do not need to solve $$Ax = 0$$ coordinate by coordinate—you study the matrix $$A$$ and its kernel directly. Likewise, for linear PDEs, the operations "multiply by $$x$$" and "differentiate by $$\partial_x = \frac{d}{dx}$$" form a **noncommutative ring** called the **Weyl algebra** $$D$$ (by the product rule, $$\partial_x(xu) - x(\partial_x u) = u$$, so $$\partial_x x - x\partial_x = 1 \neq 0$$). A **$$D$$-module** is an algebraic object acted on by $$D$$—packaging an entire linear PDE system independently of whether you look for smooth functions, holomorphic functions, or distributions.
+
+### 2. Representation Theory and Quantum Groups
+**Representation theory** is the art of turning abstract symmetry into matrices: a symmetry group or Lie algebra (such as spin symmetry $$\mathfrak{sl}_2$$) acts on a vector space by square matrices. In the 1980s, Drinfeld and Jimbo deformed classical Lie algebras by a parameter $$q$$ (analogous to temperature in statistical mechanics), creating **quantum groups** $$U_q(\mathfrak{g})$$. Setting $$q = 1$$ recovers classical symmetry, but direct calculations at general $$q$$ involve notoriously heavy polynomial algebra.
+
+### 3. Crystal Bases (Crystal Graphs) and the Riemann–Hilbert Correspondence
+- **Crystal bases:** Kashiwara’s brilliant 1990 idea was to send $$q \to 0$$—cooling the quantum representation down to absolute zero so it freezes into a crystal! At $$q = 0$$, the representation collapses cleanly into a **colored directed graph** (**crystal graph**), turning painful algebra (like decomposing tensor products) into an effortless arrow-and-parentheses game.
+- **Riemann–Hilbert correspondence:** A two-way dictionary connecting **algebraic analysis** (holonomic $$D$$-modules with regular singularities, i.e., linear PDE systems) to **geometric topology** (**perverse sheaves** encoding how solutions twist around singularities).
+
+### Deep-Dive Explanation: Hand-Checking the Weyl Algebra, Monodromy of $$\sqrt{x}$$, and the $$\mathfrak{sl}_2$$ Crystal Tensor Product (Read Slowly)
+
+To see that both halves of Kashiwara’s prize are concrete and touchable, walk through two short hand calculations.
+
+**Example 1 — The Weyl algebra and monodromy around a singularity:**  
+Check noncommutativity in $$D = \mathbb{C}\langle x, \partial_x\rangle$$ on any differentiable function $$u(x)$$:
+
+$$
+(\partial_x x - x \partial_x) u(x) = \frac{d}{dx}\big(x u(x)\big) - x \frac{du}{dx} = \big(u(x) + x u'(x)\big) - x u'(x) = u(x).
+$$
+
+Hence $$[\partial_x, x] = \partial_x x - x \partial_x = 1$$.  
+Now take the tiny differential operator $$P = x\partial_x - \frac{1}{2}$$ and solve $$P u = 0$$:
+1. **Analytic solution:** $$x \frac{du}{dx} = \frac{1}{2} u \implies \frac{du}{u} = \frac{1}{2}\frac{dx}{x} \implies u(x) = C x^{1/2} = C\sqrt{x}$$.
+2. **Monodromy around $$x = 0$$:** Walk counterclockwise once around the origin along $$x(\theta) = r e^{i\theta}$$ as $$\theta$$ goes from $$0$$ to $$2\pi$$. Then $$u(x(\theta)) = C\sqrt{r}\,e^{i\theta/2}$$. At $$\theta = 2\pi$$, $$e^{i\pi} = -1$$, so **the solution flips sign**: $$u \mapsto -u$$! The singularity $$x = 0$$ carries the topological monodromy matrix $$[-1]$$.
+3. **$$D$$-module packaging:** Instead of wrestling with branch cuts of $$\sqrt{x}$$, algebraic analysis simply takes the quotient module $$M = D / D\cdot(x\partial_x - \frac{1}{2})$$. The entire singularity and monodromy $$[-1]$$ live inside the single algebraic relation $$x\partial_x \equiv \frac{1}{2}$$—that is 1D Riemann–Hilbert in action!
+
+**Example 2 — Tensor product of two spin-$$\frac{1}{2}$$ crystals ($$B(1) \otimes B(1)$$) via Kashiwara’s signature rule:**  
+For $$\mathfrak{sl}_2$$, the 2-dimensional fundamental representation (spin $$\frac{1}{2}$$) has crystal graph $$B(1)$$ with two vertices and one lowering arrow $$\tilde{f}$$:
+
+$$
+\boxed{+} \;\xrightarrow{\;\tilde{f}\;}\; \boxed{-}
+$$
+
+(here $$\boxed{+}$$ has weight $$+1$$, $$\varepsilon=0$$ raising steps available, $$\varphi=1$$ lowering step; $$\boxed{-}$$ has weight $$-1$$, $$\varepsilon=1, \varphi=0$$).  
+In the tensor product $$B(1) \otimes B(1)$$, there are $$2 \times 2 = 4$$ states. By **Kashiwara’s signature rule**, write $$\varepsilon(b_1)$$ copies of `−` then $$\varphi(b_1)$$ copies of `+` for $$b_1$$, followed by the same for $$b_2$$, then **cancel every adjacent `+-` pair**; the lowering operator $$\tilde{f}$$ flips the leftmost surviving `+`:
+
+| State $$b_1 \otimes b_2$$ | Total weight | Raw signature | After canceling `+-` | Action of $$\tilde{f}$$ |
+|---|---|---|---|---|
+| $$(+, +)$$ | $$+2$$ | `+` and `+` → `++` | `++` | Flip left `+` → $$(-, +)$$ |
+| $$(-, +)$$ | $$0$$ | `−` and `+` → `−+` | `−+` | Flip right `+` → $$(-, -)$$ |
+| $$(-, -)$$ | $$-2$$ | `−` and `−` → `−−` | `−−` | No `+` left → stop! |
+| $$(+, -)$$ | $$0$$ | `+` and `−` → `+-` | *(empty!)* | Neither `+` nor `−` → isolated! |
+
+Read the decomposition straight off the table without touching a single matrix or $$q$$-polynomial:
+- A 3-state chain: $$(+,+) \xrightarrow{\tilde{f}} (-,+) \xrightarrow{\tilde{f}} (-,-)$$ — the crystal $$B(2)$$ (spin 1, dimension 3).
+- An isolated singlet: $$(+,-)$$ — the crystal $$B(0)$$ (spin 0, dimension 1).
+
+Dimension check: $$2 \times 2 = 3 + 1$$, recovering the Clebsch–Gordan rule $$V_1 \otimes V_1 \cong V_2 \oplus V_0$$ purely by canceling `+-` pairs!
 
 ---
 
@@ -37,7 +97,7 @@ $$
 P = a_m(x)\frac{d^m}{dx^m} + \cdots + a_1(x)\frac{d}{dx} + a_0(x).
 $$
 
-Systems in several variables involve the Weyl algebra or sheaves of differential operators on manifolds. Once you package a system as a module, homological algebra, localization, and microlocal geometry become available.
+Systems in several variables involve the Weyl algebra or sheaves of differential operators on manifolds. Once you package a system as a module $$M = D / D\cdot P$$, solutions in any function space $$\mathcal{F}$$ correspond 1–1 to module homomorphisms $$\mathrm{Hom}_D(M, \mathcal{F})$$, unlocking homological algebra, localization, and microlocal geometry.
 
 This is **algebraic analysis**: analysis rewritten so that algebra and geometry can compute.
 
@@ -49,7 +109,7 @@ A **$$D$$-module** is a module over a sheaf (or ring) $$D$$ of differential oper
 
 ### Microlocal viewpoint
 
-Singularities are studied not only on the base manifold but in **cotangent directions**—where in phase space the system is characteristic. Microlocal analysis (including work of Sato, Kashiwara, Kawai, and others) makes singularity theory geometric.
+Singularities are studied not only on the base manifold but in **cotangent directions**—where in phase space $$T^*X$$ the system is characteristic. Microlocal analysis (including work of Sato, Kashiwara, Kawai, and others) makes singularity theory geometric.
 
 ### Homological algebra for PDE
 
@@ -69,7 +129,7 @@ Kashiwara’s development of $$D$$-module theory is foundational infrastructure 
 
 ## 3. Riemann–Hilbert philosophy (deeper map)
 
-Classical Riemann–Hilbert problems reconstruct differential equations from **monodromy** data: how solutions transform when analytic continuation loops around singularities. The modern categorical upgrades equate categories:
+Classical Riemann–Hilbert problems reconstruct differential equations from **monodromy** data: how solutions transform when analytic continuation loops around singularities (just like $$\sqrt{x} \mapsto -\sqrt{x}$$ in our Deep-Dive example above). The modern categorical upgrades equate categories:
 
 $$
 \{\text{holonomic }D\text{-modules with regular singularities}\}

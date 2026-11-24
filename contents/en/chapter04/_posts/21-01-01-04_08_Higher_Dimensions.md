@@ -9,11 +9,11 @@ categories:
 - chapter04
 ---
 
-**Higher dimensions** extend length, area, and volume beyond three coordinates. A point in $$\mathbb{R}^n$$ is an ordered $$n$$-tuple $$(x_1,\ldots,x_n)$$; distance, spheres, cubes, and linear algebra all generalize. The shock is that dimension is not merely “more of the same”: **what is rare in 3D can be typical in 300D**. Concentration of measure, curse of dimensionality in data, and the geometry of hyperspheres reshape intuition for modern analysis, probability, and machine learning.
+Imagine buying an orange whose radius is $$1$$ and whose peel is paper-thin—just $$1\%$$ of the radius, leaving an edible core of radius $$0.99$$. In our familiar 3-dimensional world, that peel is a modest $$1 - 0.99^3 \approx 3\%$$ of the fruit’s volume; $$97\%$$ is juicy orange. Now carry that exact same orange into 100 dimensions. The core volume shrinks to $$0.99^{100} \approx 0.366$$, meaning **$$63.4\%$$ of the entire orange is peel**. Carry it into 1,000 dimensions, and the peel swallows **$$99.996\%$$** of the volume—leaving practically nothing inside!
 
-**Path:** coordinates and distance → hypercubes and hyperspheres → visualization by slices and projections → volume formulas and surprises → concentration of measure → data and algorithms → confusions, exercises, further directions.
+That single calculation reveals the great shock of **higher dimensions**. Moving from $$\mathbb{R}^3$$ to $$\mathbb{R}^n$$ is not just "3D with extra coordinates." As you turn the dimension dial $$n$$ upward, the rules of geometry invert: unit spheres shrink to zero volume, corners of cubes poke far outside inscribed balls, and almost any two randomly chosen directions turn out to be nearly perpendicular. Far from being sci-fi mysticism, this bizarre high-dimensional geometry is the everyday operating system of modern probability, statistical physics, and machine learning—where embeddings routinely live in thousands of dimensions.
 
-A useful attitude: treat dimension $$n$$ as a dial you can turn. At $$n=1,2,3$$ your eyes are expert; at $$n=10$$ linear algebra still works while intuition frays; at $$n=1000$$ probability and concentration often become better guides than pictures. Learning higher-dimensional thinking is less about “seeing the fourth dimension” and more about trusting formulas and limit laws when vision fails.
+**Path:** coordinates and Euclidean norm → hypercubes and the 100D orange → hypersphere volumes and the sphere-in-a-box paradox → slices and projections → concentration of measure and nearly orthogonal vectors → data science and the curse of dimensionality → common confusions and further directions.
 
 ---
 
@@ -21,42 +21,51 @@ A useful attitude: treat dimension $$n$$ as a dial you can turn. At $$n=1,2,3$$ 
 
 After this lecture you should be able to:
 
-- Use coordinates and the Euclidean norm on $$\mathbb{R}^n$$ confidently.
-- Describe **hypercubes** and **hyperspheres** and how their “mass” behaves as $$n$$ grows.
-- Explain **projections and slices** as visualization tools without claiming full visual capture.
-- State a qualitative **concentration of measure** fact: most mass of a high-dimensional sphere sits near an equator / thin shell.
-- Connect high dimension to at least one data-science phenomenon (distances concentrating, curse of dimensionality).
-- Avoid “the fourth dimension is time, so math stops at 3” as a confusion of physics models with $$\mathbb{R}^n$$.
+- Use coordinates and the Euclidean norm on $$\mathbb{R}^n$$ confidently without needing to "picture" four perpendicular axes.
+- Compute volume scaling for **hypercubes** and **hyperspheres**, and explain why the unit ball’s volume peaks at $$n=5$$ before collapsing to $$0$$.
+- Work through the **sphere-in-a-box** calculation showing how a tiny inner sphere pokes *outside* its surrounding box in dimension $$n \ge 10$$.
+- Explain **concentration of measure**: why most volume sits in a thin outer shell and why random high-dimensional vectors are nearly orthogonal.
+- Connect high-dimensional geometry to machine learning phenomena (the **curse of dimensionality**, random projections, and manifold structure).
+- Avoid claiming that "the fourth dimension must be time, so geometry stops at 3."
 
-**Prerequisites.** Vectors in $$\mathbb{R}^2$$ and $$\mathbb{R}^3$$; Pythagoras; basic probability helps for concentration remarks.
+**Prerequisites.** Vectors and dot products in $$\mathbb{R}^2$$ and $$\mathbb{R}^3$$; Pythagorean theorem; basic variance or standard deviation helps for the orthogonality calculation.
+
+---
+
+## Background Knowledge Map: What Is High-Dimensional Geometry and Why Does It Matter?
+
+At $$n=1,2,3$$, your eyes are trustworthy guides. At $$n=10$$, linear algebra still works effortlessly while visual intuition breaks down. At $$n=1000$$, probability and geometry merge. Four pillars carry the subject:
+
+1. **Euclidean Linear Algebra in $$\mathbb{R}^n$$:** Coordinates $$(x_1,\ldots,x_n)$$, inner products $$\langle x,y\rangle$$, and norms $$\|x\|_2$$ work identically for $$n=3$$ and $$n=10{,}000$$. Algebra gives us exact control long after 3D visualization gives out.
+2. **Convex & Asymptotic Geometry:** Comparing simple shapes—balls, cubes, simplices—as $$n\to\infty$$ uncovers startling asymptotic laws. In high dimensions, cubes become "spiky" (almost all volume concentrates in the $$2^n$$ corners), while balls concentrate their mass in a razor-thin equatorial belt and outer crust.
+3. **Concentration of Measure & High-Dimensional Probability:** When you average $$n$$ independent coordinates, fluctuations shrink like $$1/\sqrt{n}$$. On a high-dimensional sphere $$S^{n-1}$$, smooth functions become almost constant everywhere—turning high-dimensional randomness into near-determinism (the engine behind Monte Carlo integration and **Johnson–Lindenstrauss** random projections).
+4. **Data Science & Machine Learning:** A single $$100\times 100$$ grayscale image is a point in $$\mathbb{R}^{10{,}000}$$; a modern language-model token embedding lives in $$\mathbb{R}^{4096}$$ or higher. Understanding why naive distances blur (**curse of dimensionality**) and why real data concentrates on low-dimensional manifolds is essential for building algorithms that actually work.
 
 ---
 
 ## 1. Coordinates without fear
 
-Euclidean $$n$$-space is
+Euclidean $$n$$-space is simply the set of ordered $$n$$-tuples of real numbers:
 
 $$
 \mathbb{R}^n=\{(x_1,x_2,\ldots,x_n):x_i\in\mathbb{R}\},
 $$
 
-with distance
+equipped with the Euclidean distance
 
 $$
 \|x-y\|_2=\sqrt{\sum_{i=1}^n(x_i-y_i)^2}.
 $$
 
-Linear subspaces, orthogonality, and projections work as in three dimensions via the same algebraic formulas. There is nothing mystical about $$n=4$$ or $$n=100$$: the definitions do not require visual imagination of four mutually perpendicular axes in physical space. Visualization is a *tool*, not a prerequisite for truth.
-
-Physics may use 4D spacetime with a different metric signature; that is a model of nature. Pure geometry of $$\mathbb{R}^n$$ is a different project—and the one this lecture emphasizes.
+Linear subspaces, orthogonality ($$\langle x,y\rangle = 0$$), and orthogonal projections obey the exact same formulas in $$\mathbb{R}^{100}$$ as in $$\mathbb{R}^3$$. There is nothing mystical about $$n=4$$ or $$n=100$$: geometry does not require your eyes to hallucinate four mutually perpendicular axes in a room. (Physics models spacetime as 4-dimensional with a non-Euclidean Lorentzian signature, which is a model of nature—separate from pure Euclidean $$\mathbb{R}^n$$.)
 
 ---
 
-## 2. Hypercubes and counting structure
+## 2. Hypercubes and the tyranny of exponents
 
-The unit hypercube $$[0,1]^n$$ has $$2^n$$ vertices, $$n\cdot 2^{n-1}$$ edges, and a rich face lattice. Volume (Lebesgue measure) of a side-length $$a$$ cube is $$a^n$$, which for $$0<a<1$$ collapses toward $$0$$ as $$n\to\infty$$, while for $$a>1$$ it explodes. Already this shows that **exponents in dimension dominate intuition trained on $$n=3$$**.
+The unit hypercube $$[0,1]^n$$ has $$2^n$$ vertices and $$n\cdot 2^{n-1}$$ edges. A cube of side length $$a$$ has volume $$a^n$$: if $$a=0.99$$, $$a^n\to 0$$; if $$a=1.01$$, $$a^n\to\infty$. Already this tells you the #1 rule of high dimensions: **exponents in $$n$$ crush 3D intuition.**
 
-The graph of the hypercube (vertices and edges) is a playground for coding theory and parallel computing: Gray codes walk through vertices flipping one bit at a time—literally a path on the $$n$$-cube.
+The skeleton of the $$n$$-cube is also a workhorse in computer science: every vertex is an $$n$$-bit binary string, and **Gray codes** trace a Hamiltonian path along its edges by flipping one bit at a time.
 
 ---
 
@@ -74,76 +83,119 @@ The volume of the unit ball peaks in dimension 5 (about 5.26) and then falls tow
 <div class="mex-explainer" data-mex="ball" data-lang="en"></div>
 
 
-## 3. Hyperspheres: volume and surface
+## 3. Hyperspheres: vanishing volume and the sphere-in-a-box paradox
 
-The ball and sphere in $$\mathbb{R}^n$$:
-
-$$
-B^n(R)=\{x:\|x\|\le R\},\qquad S^{n-1}(R)=\{x:\|x\|=R\}.
-$$
-
-Their volumes and surface areas involve powers of $$\pi$$ and factorials (or Gamma functions):
+The unit ball $$B^n = \{x\in\mathbb{R}^n : \|x\|_2 \le 1\}$$ sits snugly inside the cube $$[-1,1]^n$$ of volume $$2^n$$. Its exact $$n$$-dimensional volume is
 
 $$
-\mathrm{Vol}(B^n(R))=V_n R^n,\qquad V_n=\frac{\pi^{n/2}}{\Gamma\!\left(\frac{n}{2}+1\right)}.
+V_n = \frac{\pi^{n/2}}{\Gamma\!\left(\frac{n}{2}+1\right)}.
 $$
 
-A famous surprise: for fixed radius $$R=1$$, the volume $$V_n$$ **increases** for small $$n$$ then **tends to zero** as $$n\to\infty$$. Unit balls become tiny in high dimension in the Lebesgue sense, while combinatorics of directions explodes. Geometry and measure part ways with 3D habits.
+Watch what happens to $$V_n$$ and its share of the surrounding cube $$[-1,1]^n$$ as $$n$$ increases:
 
-Most of the volume of a high-dimensional ball sits in a thin shell near the boundary: the “interior” is measure-theoretically negligible compared to a crust of small relative thickness. Oranges in high dimension are almost all peel.
+| Dimension $$n$$ | Unit ball volume $$V_n$$ | Cube volume $$2^n$$ | Share $$V_n / 2^n$$ |
+| :--- | :--- | :--- | :--- |
+| $$2$$ | $$\pi \approx 3.142$$ | $$4$$ | $$78.5\%$$ |
+| $$3$$ | $$\tfrac{4}{3}\pi \approx 4.189$$ | $$8$$ | $$52.4\%$$ |
+| $$5$$ | $$\tfrac{8}{15}\pi^2 \approx 5.264$$ | $$32$$ | $$16.4\%$$ |
+| $$10$$ | $$\tfrac{\pi^5}{120} \approx 2.550$$ | $$1{,}024$$ | $$0.249\%$$ |
+| $$20$$ | $$\tfrac{\pi^{10}}{10!} \approx 0.0258$$ | $$1{,}048{,}576$$ | $$0.0000025\%$$ |
+
+The denominator $$\Gamma(\tfrac{n}{2}+1)$$ grows like a factorial—beating the exponential $$\pi^{n/2}$$ hands down! So after peaking at $$n=5$$, the unit ball’s volume collapses toward **zero**, while almost all the volume of the cube $$[-1,1]^n$$ migrates out into its $$2^n$$ pointy corners.
+
+### Worked example 1: The sphere trapped in the center that pokes *outside* the box
+
+How "spiky" do those cube corners really get? Try this famous calculation:
+1. Take the box $$[-2,2]^n$$ (side length $$4$$, centered at the origin).
+2. Pack $$2^n$$ unit balls of radius $$1$$ into its $$2^n$$ quadrants, centered at $$(\pm 1, \pm 1, \ldots, \pm 1)$$. Every unit ball touches the walls of the box.
+3. Now drop a tiny ball centered at the origin $$(0,0,\ldots,0)$$ and inflate it until it just touches all $$2^n$$ surrounding unit balls. What is its radius $$r_n$$?
+
+The distance from the origin to any corner center $$(\pm 1,\ldots,\pm 1)$$ is $$\sqrt{1^2 + 1^2 + \cdots + 1^2} = \sqrt{n}$$. Subtracting the radius $$1$$ of the corner ball gives the exact radius of the central ball:
+
+$$
+r_n = \sqrt{n} - 1.
+$$
+
+Check the numbers:
+- In **2D** ($$n=2$$): $$r_2 = \sqrt{2} - 1 \approx 0.414$$—a cozy little circle tucked inside the box (half-width $$2$$).
+- In **4D** ($$n=4$$): $$r_4 = \sqrt{4} - 1 = 1$$—already as big as the corner balls!
+- In **9D** ($$n=9$$): $$r_9 = \sqrt{9} - 1 = 2$$—it touches the outer walls of the box $$[-2,2]^9$$!
+- In **10D** ($$n=10$$): $$r_{10} = \sqrt{10} - 1 \approx 2.162 > 2$$—**the central ball, while still wedged tightly between the $$2^{10}$$ corner balls, bulges straight outside the box!**
+
+That is not a trick of algebra; it is a direct window into how vast the diagonal "corners" of a high-dimensional cube become compared to its faces.
 
 ---
 
 ## 4. Seeing the unseen: slices and projections
 
-Humans see 2D projections of 3D objects. For 4D objects we use analogous tricks:
+Humans infer 3D objects from 2D shadows and cross-sections. We explore 4D shapes the exact same way:
 
-- **Projections** onto 2D or 3D subspaces (Schlegel diagrams for polytopes; computer graphics of rotating tesseracts).
-- **Slices:** intersect a 4D object with a 3D hyperplane and watch the 3D slice evolve as the hyperplane moves—analogous to MRI slices of a 3D body.
-- **Analogy chains:** point → segment → square → cube → tesseract, tracking how faces are born.
-
-None of these “show the fourth dimension as it is.” They show **shadows and sections**, which is exactly how science always works with high-dimensional models: measure lower-dimensional statistics of high-dimensional states.
+- **Projections:** Cast a 4D tesseract onto 3D or 2D (Schlegel diagrams, rotating wireframes), just as a cube casts a 2D shadow.
+- **Slices:** Intersect a 4D hypersphere with a moving 3D hyperplane—just like an MRI machine scans a 3D body into 2D slices, a 4D ball appears as a 3D point that inflates into a sphere and shrinks back to a point.
+- **Analogy chains:** Point ($$0$$D) $$\to$$ segment ($$1$$D) $$\to$$ square ($$2$$D) $$\to$$ cube ($$3$$D) $$\to$$ tesseract ($$4$$D), doubling vertices and adding connecting edges at every step.
 
 ---
 
-## 5. Concentration of measure
+## 5. Concentration of measure: why random vectors are nearly orthogonal
 
-On the sphere $$S^{n-1}$$ with uniform measure, Lipschitz functions become nearly constant as $$n$$ grows. In particular, for a typical fixed direction, most of the surface measure lies near the equator orthogonal to that direction. Distances and inner products concentrate: random unit vectors are nearly orthogonal in high dimension, with high probability.
-
-Schematically, if $$X$$ is uniform on the sphere (or a suitable high-dimensional product measure) and $$f$$ is Lipschitz,
+On a high-dimensional sphere $$S^{n-1}$$, smooth (Lipschitz) functions become nearly constant—almost all surface area concentrates near the equator perpendicular to any fixed direction:
 
 $$
-\mathbb{P}\bigl(\lvert f(X)-\mathrm{Med}(f)\rvert>t\bigr)\le 2e^{-c n t^2}
+\mathbb{P}\bigl(\lvert f(X)-\mathrm{Med}(f)\rvert>t\bigr)\le 2e^{-c n t^2}.
 $$
 
-for constants $$c$$ depending on normalization—**exponential concentration**. High dimension is not only bigger; it is **more rigid statistically**.
+### Worked example 2: Picking two random directions in $$\mathbb{R}^n$$
 
-This is why Monte Carlo methods, random projections (Johnson–Lindenstrauss), and geometric functional analysis have a distinctive high-dimensional flavor: probability becomes geometry’s ally.
+Take two random unit vectors $$u, v$$ whose coordinates are chosen independently as $$\pm \frac{1}{\sqrt{n}}$$ with equal probability $$1/2$$. What is the cosine of the angle $$\theta$$ between them?
+
+$$
+\cos\theta = \langle u, v\rangle = \frac{1}{n}\sum_{i=1}^n s_i,
+$$
+
+where each $$s_i = n u_i v_i \in \{-1, +1\}$$ is an independent fair coin flip with mean $$0$$ and variance $$1$$. Compute the mean and standard deviation of $$\cos\theta$$:
+
+$$
+\mathbb{E}[\cos\theta] = 0, \qquad \mathrm{SD}(\cos\theta) = \sqrt{\frac{1}{n^2}\cdot n} = \frac{1}{\sqrt{n}}.
+$$
+
+Watch what happens to the typical angle $$\theta$$ as $$n$$ grows:
+- In **$$n = 2$$**: $$\mathrm{SD}(\cos\theta) = 0.707$$—vectors point every which way.
+- In **$$n = 100$$**: $$\mathrm{SD}(\cos\theta) = 0.10$$—most pairs have $$\cos\theta \in [-0.1, 0.1]$$, meaning $$\theta \in [84^\circ, 96^\circ]$$.
+- In **$$n = 10{,}000$$**: $$\mathrm{SD}(\cos\theta) = 0.01$$—almost every pair of random directions sits within $$0.6^\circ$$ of a perfect $$90^\circ$$ right angle!
+
+In $$\mathbb{R}^3$$ you can fit at most $$3$$ mutually perpendicular directions. In $$\mathbb{R}^{10{,}000}$$, you can pack *millions* of *almost* perpendicular directions—a geometric miracle that powers modern neural-network superposition and high-dimensional vector embeddings!
 
 ---
 
 ## 6. Data, algorithms, and the curse of dimensionality
 
-A dataset of $$N$$ points in $$\mathbb{R}^n$$ with large $$n$$ behaves unlike low-dimensional clouds:
+When a dataset of $$N$$ points lives in $$\mathbb{R}^n$$ with large $$n$$:
 
-- Pairwise distances may concentrate, weakening nearest-neighbor intuition.
-- Volume of space grows so fast that samples become sparse—the **curse of dimensionality**.
-- Linear methods (PCA, random projections) exploit that interesting structure often lies near lower-dimensional subspaces or manifolds.
+- **Sparsity explodes:** To cover $$[0,1]^n$$ with a grid of spacing $$0.1$$ requires $$10^n$$ points—$$100$$ in 2D, but $$10^{100}$$ in 100D (more than the atoms in the observable universe). That is the **curse of dimensionality**.
+- **Distances concentrate:** For random unstructured points in high dimension, the ratio between nearest-neighbor and farthest-neighbor distances approaches $$1$$, breaking naive distance-based search.
+- **Structure rescues algorithms:** Real-world data (images, speech, text) does *not* fill $$\mathbb{R}^n$$ uniformly—it concentrates near lower-dimensional subspaces or curved manifolds, which is why PCA, random projections, and deep representation learning succeed.
 
-Machine learning lives in thousands of dimensions (features, embeddings). The pure geometry of this lecture is not a metaphor; it is the ambient space of modern data. Sphere packing, polytopes, and concentration inequalities reappear as engineering constraints.
+---
 
-A concrete numerical parable: sample many pairs of random points uniformly in the unit cube $$[0,1]^n$$. In low dimension, nearest and farthest distances vary usefully. In high dimension, typical pairwise distances concentrate in a narrow band relative to their mean, so “near” and “far” blur for naive metrics. Algorithms must exploit structure—sparsity, manifolds, kernels, learned metrics—rather than raw Euclidean intuition from $$\mathbb{R}^3$$. Higher-dimensional beauty is therefore also a warning label for practitioners.
+### Deep-Dive Explanation: How Dimension Turns Geometry Inside Out (Read Slowly)
+
+High-dimensional surprises feel like magic until you see they all stem from one engine—**independent coordinates compounding multiplicatively**. Walk through the four steps slowly:
+
+1. **Powers amplify tiny ratios.** Shrink a radius by just $$1\%$$ ($$0.99$$) and raise it to the $$n$$-th power: $$0.99^{100} \approx 0.366$$ and $$0.99^{1000} \approx 0.000043$$. That immediately forces almost all volume into the outer peel.
+2. **Diagonals outgrow sides by $$\sqrt{n}$$.** A cube’s face sits at distance $$1$$ from the center, while its corner sits at distance $$\sqrt{n}$$. Once $$n \ge 10$$, $$\sqrt{n}-1 > 2$$, so the central sphere wedged between corner balls bursts outside the box.
+3. **Independent signs cancel like $$1/\sqrt{n}$$.** Taking a dot product of two random unit vectors averages $$n$$ random $$\pm 1$$ steps, giving standard deviation $$1/\sqrt{n}$$. Hence random high-dimensional directions are almost always perpendicular.
+4. **Algorithms must trade volume for structure.** Because raw volume grows exponentially while random distances concentrate, high-dimensional computing relies on sparsity, low-dimensional manifolds, and concentration inequalities rather than 3D geometric habits.
+
+**Quick check.** For the 100D orange with radius $$1$$, how thin would the peel have to be for the peel and the inner core to have roughly *equal* volume ($$50\%$$ each)? *(Hint: solve $$(1 - \delta)^{100} = 0.5$$, giving $$\delta \approx \frac{\ln 2}{100} \approx 0.0069$$—less than $$0.7\%$$ of the radius!)*
 
 ---
 
 ## 7. Why mathematicians care
 
-- **Linear algebra and analysis.** Function spaces are infinite-dimensional; finite high $$n$$ is the bridge.
-- **Probability.** Limit theorems and measure concentration.
-- **Topology and geometry.** Spheres, exotic structures, curvature in high dimensions.
-- **Applications.** Data science, optimization, coding, statistical physics.
-
-Beautiful mathematics here is the discovery that dimension is a **parameter that transforms what “typical” means**.
+- **Linear algebra and analysis.** Infinite-dimensional function spaces (Hilbert and Banach spaces) are the natural limit of high-dimensional $$\mathbb{R}^n$$.
+- **Probability.** Concentration of measure unifies classical limit theorems with modern random matrix theory.
+- **Geometry and coding.** Sphere packings in dimensions 8 and 24 (see [Viazovska]({{ site.baseurl }}/contents/en/chapter02/02_08_Viazovska_Sphere_Packing/)) govern optimal error-correcting codes.
+- **AI and optimization.** Every modern embedding space is a high-dimensional Euclidean or spherical playground.
 
 ---
 
@@ -155,12 +207,12 @@ Beautiful mathematics here is the discovery that dimension is a **parameter that
 
 ## 8. Common confusions
 
-1. **“Only three dimensions exist.”** — Physical space models may be 3D; mathematical $$\mathbb{R}^n$$ is unrestricted.
-2. **“The fourth dimension must be time.”** — Time is one physical interpretation, not the definition of $$\mathbb{R}^4$$.
-3. **“High-dimensional balls are huge.”** — Unit ball volume tends to $$0$$ as $$n\to\infty$$.
-4. **“Projection shows everything.”** — Projections lose information; different shadows can hide structure.
-5. **“Concentration means all points are the same.”** — Functions of the state concentrate; the state space remains large.
-6. **“Curse of dimensionality means high-D math is useless.”** — It means naive algorithms fail; structured methods thrive.
+1. **“Only three dimensions exist.”** — Physical space models may have 3 spatial dimensions; mathematical $$\mathbb{R}^n$$ exists for every $$n \ge 1$$.
+2. **“The fourth dimension must be time.”** — Time is one physical coordinate in relativity, not the definition of Euclidean $$\mathbb{R}^4$$.
+3. **“High-dimensional unit balls are huge.”** — Their volume peaks at $$n=5$$ and tends to $$0$$ as $$n\to\infty$$.
+4. **“Projection shows everything.”** — Lower-dimensional shadows lose information; different 4D shapes can cast identical 3D shadows.
+5. **“Concentration means all points collapse together.”** — *Functions* of random points concentrate around their median; the space itself remains vast.
+6. **“Curse of dimensionality means high-D math is useless.”** — It warns that naive grid methods fail, while structured and probabilistic methods thrive.
 
 ---
 

@@ -15,9 +15,11 @@ categories:
 > **3. You are here:** Ch.7 studio (lab notebook)  
 > *Prerequisite:* finish steps 1–2, or at least the Ch.1 status table + Ch.2 §§1–6.
 
-This page is a **studio**, not a theorem dump. A Kakeya (Besicovitch) set contains a unit line segment in every direction. The classical shock is that such a set can have **Lebesgue measure zero** in the plane, yet still force **full dimension**. Your job is to **draw, compute, log, and revise** what “small” should mean—and to keep conjecture, construction, numerical observation, and theorem in separate boxes.
+In 1917, Japanese mathematician Sōichi Kakeya posed a question that sounded like a parlor puzzle: *Suppose you have a needle of length 1 lying on a tabletop. What is the smallest area of a mat on which you can continuously rotate the needle $$180^\circ$$ to reverse its direction without ever poking off the edge?* Spin it around its midpoint and you sweep a disk of radius $$1/2$$ (area $$\pi/4 \approx 0.785$$). Use a clever three-point turn—just like reversing a car in a narrow alley—and you can shrink the mat to a three-cusped deltoid of area $$\pi/8 \approx 0.393$$. For years, everyone assumed the minimum area had to be some fixed positive number.
 
-You will not reproduce Wang–Zahl. You will practice the research craft that makes their theorem meaningful: define size carefully, fail at minimization, and update beliefs when constructions outrun intuition.
+Then Abram Besicovitch shattered that intuition: in the plane, there exist sets containing a unit segment in **every** direction whose **area (Lebesgue measure) is literally zero**! Stranger still, even with zero area, such a set is so intricately woven that it must retain **full Hausdorff dimension 2**. This studio invites you inside that paradox—not to reproduce the hundred-page Wang–Zahl (2025) proof, but to **draw, simulate, measure, fail, and rebuild** your definition of "small," while keeping conjecture, construction, numerical observation, and theorem strictly separated.
+
+**Lesson roadmap:** Background Knowledge Map (geometric measure theory, Hausdorff/Minkowski dimension, harmonic analysis & $$\delta$$-tubes) → Needle motion vs. Besicovitch sets → Deep-Dive Explanation (Read Slowly): hand-computing one Perron-tree cut-and-slide → Dimension vs. measure & status in dimensions 2, 3, and $$\ge 4$$ → Studio experiments & log.
 
 ---
 
@@ -36,11 +38,35 @@ After this studio you should be able to:
 
 ---
 
+## Background Knowledge Map: What Are Geometric Measure Theory and Harmonic Analysis?
+
+If you graduated in engineering, physics, or mathematics, you know how to measure length, area, and volume with Riemann or Lebesgue integrals. Yet when you meet razor-thin fractals like the Cantor set or a Besicovitch set, ordinary area simply outputs $$0$$ and shrugs. Three pillars of modern analysis step in where ordinary area stops:
+
+### 1. Geometric Measure Theory (GMT) and Fractal Dimension
+
+GMT studies how to measure the "size" and geometric structure of wildly irregular or measure-zero sets. Instead of asking only *"what is the area?"*, GMT asks: *if we cover a set $$E$$ by small boxes (or balls) of radius $$r$$, how fast does the minimum count $$N(r)$$ grow as $$r \to 0$$?* If $$N(r) \sim r^{-s}$$, that critical exponent $$s$$ defines the **Minkowski (box-counting) dimension** $$\dim_M(E) = \lim_{r \to 0} \frac{\log N(r)}{\log(1/r)}$$, and its refined measure-theoretic sibling is the **Hausdorff dimension** $$\dim_H(E)$$.
+
+**Quick check on the Cantor set:** Start with $$[0, 1]$$ and repeatedly remove the open middle third. At step $$k$$, there are $$2^k$$ tiny intervals of length $$r = 3^{-k}$$. Total length is $$(2/3)^k \to 0$$ (measure zero!), yet $$N(3^{-k}) = 2^k$$, giving
+$$
+\dim_M(\text{Cantor}) = \frac{\log(2^k)}{\log(3^k)} = \frac{\log 2}{\log 3} \approx 0.6309.
+$$
+A planar Kakeya set is far more extreme: area $$0$$, yet Hausdorff dimension a full $$2$$!
+
+### 2. Harmonic Analysis and the $$\delta$$-Tube Bridge
+
+Harmonic analysis decomposes waves and multivariable functions into superpositions of plane waves $$e^{2\pi i x \cdot \xi}$$ via the Fourier transform. Why does turning a needle matter to wave equations and Fourier analysis? By the uncertainty principle, a wave packet whose frequencies live in a tiny cap on the frequency sphere concentrates its spatial energy inside a thin **$$\delta$$-tube**—a cylinder of length $$1$$ and thickness $$\delta$$ pointing in the direction of propagation. Asking how intensely waves from all directions can constructively interfere translates directly into asking how tightly $$\delta$$-tubes pointing in all directions can overlap: the thickened Kakeya conjecture.
+
+### 3. From Besicovitch (1919) to Wang–Zahl (2025)
+
+After Davies (1971) settled dimension $$n = 2$$, generations of analysts (Bourgain, Wolff, Tao, Guth, and many others) pushed partial bounds in higher dimensions. In February 2025, **Hong Wang and Joshua Zahl** posted a landmark proof of the full 3D Kakeya set conjecture using multiscale tube analysis ("sticky," "planar," and "grainy" structures). Dimensions $$n \ge 4$$ remain wide open.
+
+---
+
 ## 1. Background mathematics
 
 ### 1.1 Needle motion versus Besicovitch sets
 
-In 1917, **Sōichi Kakeya** asked roughly: what is the smallest area of a planar region in which a unit-length needle can be **continuously reversed**—turned through every direction until it points the opposite way? Rotation about the midpoint fills a disk of radius $$1/2$$ (area $$\pi/4$$). Cleverer motions improve on the disk; a **deltoid** is a classical improvement. Still, naive intuition expects a **strictly positive** lower bound on area for continuous motion.
+In 1917, **Sōichi Kakeya** asked roughly: what is the smallest area of a planar region in which a unit-length needle can be **continuously reversed**—turned through every direction until it points the opposite way? Rotation about the midpoint fills a disk of radius $$1/2$$ (area $$\pi/4$$). Cleverer motions improve on the disk; a **deltoid** is a classical improvement (area $$\pi/8$$). Still, naive intuition expects a **strictly positive** lower bound on area for continuous motion.
 
 A **Kakeya set** (also called a **Besicovitch set**) in $$\mathbb{R}^n$$ is a set that contains a unit line segment in **every** direction. This is a **static** geometric condition: no continuous motion is required. **Abram Besicovitch** (around 1919–1928) proved that in the plane there exist such sets with **Lebesgue measure zero**. Equivalently, for every $$\varepsilon>0$$ one can build a set of area less than $$\varepsilon$$ that still houses a unit segment in every direction; a suitable limit yields measure exactly zero.
 
@@ -48,9 +74,30 @@ These two problems are related but not identical. Continuous-motion needle sets 
 
 ### 1.2 Why measure can vanish while directions survive
 
-Segment length is fixed at $$1$$. What one can do is force massive **reuse of the same points** across many directions, and pass to a fractal limit of thinner neighborhoods. A length-$$1$$, width-$$\delta$$ rectangle has area about $$\delta$$. As $$\delta\to 0$$ that area vanishes—but there are **infinitely many** directions. Besicovitch’s art is systematic reuse of space through iterated cutting and sliding.
+Segment length is fixed at $$1$$. What one can do is force massive **reuse of the same points** across many directions, and pass to a fractal limit of thinner neighborhoods. Besicovitch’s art is systematic reuse of space through iterated cutting and sliding.
 
-A modern pedagogical picture is the **iterated Venetian-blind** construction: nearly parallel thin strips are tilted, cut, and restacked so directional information survives while total area collapses. Another cartoon is the **Perron tree**: thin triangles overlapped and rearranged so many directions share almost the same ink. A classical “fish” of three trees supports a half-turn story for continuous motion.
+#### Deep-Dive Explanation (Read Slowly): Hand-Computing One Perron-Tree Cut-and-Slide
+
+To convince yourself completely that cutting and sliding genuinely *shrinks area while losing zero directions*, check every coordinate of this elementary 2D calculation:
+
+1. **Start with a triangle $$T$$:** Take the triangle with base $$[0, 2]$$ on the $$x$$-axis and apex $$A = (1, 1)$$.
+   - Initial area: $$\operatorname{Area}(T) = \frac{1}{2} \times 2 \times 1 = 1$$.
+   - Directions covered: segments from the apex $$(1,1)$$ to points $$(t, 0)$$ on the base sweep every angle from $$-45^\circ$$ to $$+45^\circ$$ (all of length $$\ge 1$$).
+2. **Cut in half along $$x = 1$$:** Split $$T$$ into two congruent right triangles of area $$1/2$$ each:
+   - $$T_1$$ has vertices $$(0,0), (1,0), (1,1)$$, described by $$0 \le y \le x \le 1$$.
+   - $$T_2$$ has vertices $$(1,0), (2,0), (1,1)$$.
+3. **Slide $$T_2$$ left by 1 unit onto $$[0, 1]$$:** Call the translated triangle $$T_2'$$, with vertices $$(0,0), (1,0), (0,1)$$, described by $$0 \le y \le 1 - x$$ for $$0 \le x \le 1$$.
+   - Because parallel translation **never changes the direction of any line segment**, the union $$T_1 \cup T_2'$$ still contains a segment of length $$\ge 1$$ in **every** direction from $$-45^\circ$$ to $$+45^\circ$$!
+4. **Compute the new area by hand:** The overlap $$T_1 \cap T_2'$$ satisfies $$y \le x$$ and $$y \le 1-x$$ on $$[0,1]$$—an isosceles triangle with base $$[0,1]$$ (length $$1$$) and top vertex at $$(1/2, 1/2)$$ (height $$1/2$$). Therefore:
+   $$
+   \operatorname{Area}(T_1 \cap T_2') = \frac{1}{2} \times 1 \times \frac{1}{2} = \frac{1}{4},
+   $$
+   so the total area drops immediately to:
+   $$
+   \operatorname{Area}(T_1 \cup T_2') = \frac{1}{2} + \frac{1}{2} - \frac{1}{4} = \frac{3}{4} = 0.75.
+   $$
+
+With **one cut and one slide**, you just shaved off **25% of the area** without losing a single degree of angles! Repeating this split-and-overlap $$k$$ times creates a **Perron tree** (like overlapping Venetian-blind slats) whose total area shrinks toward $$0$$ (roughly as $$1/\log k$$). Stitching three Perron trees into a "fish" covers all $$180^\circ$$ in arbitrarily small positive area.
 
 **Key geometric slogan.** Overlap is not a bug; it is the resource.
 
@@ -62,7 +109,7 @@ $$
 \lvert E\rvert = 0 \quad\text{is possible, yet}\quad \dim_H(E) = 2.
 $$
 
-First great paradox of Kakeya theory: **empty of area, full of dimension**. **Minkowski (box-counting) dimension** is often easiest to estimate experimentally: cover with boxes of side $$r$$ and read the scaling of the box count as $$r\to 0$$. Hausdorff dimension is a refined measure-theoretic cousin. For many “nice” sets they agree; Kakeya theory studies both carefully.
+First great paradox of Kakeya theory: **empty of area, full of dimension**. **Minkowski (box-counting) dimension** is often easiest to estimate experimentally: cover with boxes of side $$r$$ and read the scaling of the box count as $$r\to 0$$. Even when total covered area $$N(r)\cdot r^2$$ shrinks like $$1/\log(1/r) \to 0$$, the box count $$N(r) \approx r^{-2}/\log(1/r)$$ still scales with exponent $$2$$! Hausdorff dimension is a refined measure-theoretic cousin. For many “nice” sets they agree; Kakeya theory studies both carefully.
 
 > **Volume zero does not imply dimension less than the ambient dimension.**  
 > A set in $$\mathbb{R}^3$$ can have Lebesgue measure zero and still have Minkowski dimension 3.

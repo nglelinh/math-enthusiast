@@ -9,9 +9,11 @@ categories:
 - chapter02
 ---
 
-Imagine you hold not one rubber torus with two handles, but a *space of all possible shapes* such surfaces can take once you declare two shapes the same if one can be smoothly deformed into the other without tearing. That space—**moduli space**—is itself a geometric object with its own geodesics, volumes, and dynamical systems. **Maryam Mirzakhani** (1977–2017) received the **Fields Medal 2014**—the first woman to do so—for transforming how mathematicians measure, count, and flow on the moduli spaces of **Riemann surfaces** and hyperbolic metrics. Her work sits where hyperbolic geometry, Teichmüller theory, and ergodic dynamics meet counting problems that sound almost combinatorial: how many simple closed curves of length at most $$L$$ live on a typical surface of genus $$g$$?
+Picture a billiard table shaped like an exotic polygon, and imagine striking a frictionless ball that rolls forever. Will its path close into a periodic loop, or will it eventually paint the entire table evenly? What sounds like a recreational puzzle leads straight into one of the most abstract and breathtaking landscapes of modern mathematics: the geometry of **curved surfaces** and the **space of all possible shapes** they can take—called **moduli space**.
 
-This essay is a seminar map, not a research monograph. We build enough vocabulary to state her geodesic-counting asymptotics and Weil–Petersson volume ideas, sketch the earthquake-flow ergodicity theorem with Alex Eskin, and connect flat surfaces to billiards—while keeping **LO6** discipline about popular accounts that reduce a deep program to a single slogan or a biography alone.
+In 2014, **Maryam Mirzakhani** (1977–2017) became the **first woman** in history to receive the **Fields Medal**, honored for transforming how mathematicians measure, count, and run dynamical systems on **Riemann surfaces** and their moduli spaces. Rather than treating moduli space as an ethereal abstraction, Mirzakhani made this "universe of shapes" both **computable** (exact recursive formulas for its volumes and curve counts) and **dynamical** (ergodic flows and the celebrated *Magic Wand Theorem* with Alex Eskin), uniting hyperbolic geometry, Teichmüller theory, and ergodic dynamics.
+
+**Lesson roadmap:** Background Knowledge Map (hyperbolic geometry, moduli space via tori $$\mathbb{H}/\mathrm{SL}_2(\mathbb{Z})$$, ergodic theory) → Counting the $$6g-6$$ Fenchel–Nielsen coordinates by hand → Counting simple closed geodesics → Deep-Dive Explanation (Read Slowly): Weil–Petersson volumes, $$V_{1,1}(L)$$, and why counting on *one* surface integrates over *all* surfaces → Earthquake flow, billiards, and the Magic Wand Theorem.
 
 ---
 
@@ -19,123 +21,103 @@ This essay is a seminar map, not a research monograph. We build enough vocabular
 
 After this lecture you should be able to:
 
-- Define, informally, a **Riemann surface** of genus $$g\ge 2$$, its **hyperbolic metric**, **Teichmüller space**, and **moduli space**.
-- Explain why moduli space is a “space of shapes,” not a single surface drawn in space.
-- State a counting problem about **simple closed geodesics** and the asymptotic growth Mirzakhani controlled.
-- Describe Weil–Petersson volumes of moduli spaces as geometric measures on the space of shapes.
-- Sketch what **earthquake flow** is and what **ergodicity** means at slogan level (with Eskin).
-- Link flat surfaces / polygonal billiards to the same orbit of ideas.
-- Record accurately that Mirzakhani was the **first woman Fields medalist** (2014), and practice **LO6** caution: the medal cites a body of work, not one tweetable formula.
+- Define informally a **Riemann surface** of genus $$g \ge 2$$, its **hyperbolic metric**, **Teichmüller space**, and **moduli space**.
+- Verify by hand why the moduli space of tori is $$\mathbb{H}/\mathrm{SL}_2(\mathbb{Z})$$ and why a genus-$$g$$ surface has exactly $$6g-6$$ Fenchel–Nielsen coordinates.
+- State Mirzakhani's asymptotic growth law $$N_X(L) \sim c_X L^{6g-6}$$ for **simple closed geodesics**.
+- Follow the four-step bridge connecting **Weil–Petersson volumes** (such as $$V_{1,1}(L) = \frac{1}{24}(L^2 + 4\pi^2)$$) to geodesic counting.
+- Sketch **earthquake flow**, **translation surfaces** (unfolding polygonal billiards), and the **Magic Wand Theorem** with Alex Eskin.
 
-**Prerequisites.** Surfaces of genus $$g$$ (sphere, torus, double torus, …); the idea of a Riemannian metric and geodesic length; comfort with asymptotic notation $$f(L)\sim c L^k$$. No prior Teichmüller theory assumed.
+**Prerequisites.** Surfaces of genus $$g$$ (sphere, torus, double torus), basic complex numbers, and asymptotic notation $$f(L) \sim cL^k$$. No prior Teichmüller theory assumed.
 
-**Seminar links.** Course outcomes **LO1** (hard modern programs) and **LO6** (precision vs hype in medal narratives). Geometry cousins: [Perelman / Ricci flow]({{ site.baseurl }}/contents/en/chapter02/02_03_Perelman_Poincare/) (evolving metrics), [Beautiful Mathematics / infinity and shape]({{ site.baseurl }}/contents/en/chapter04/04_02_Infinity/), [Strange geometry]({{ site.baseurl }}/contents/en/chapter04/04_06_Strange_Geometry/). Dynamics cousins in Ch.08: [Furstenberg–Margulis]({{ site.baseurl }}/contents/en/chapter08/08_05_Furstenberg_Margulis/). Flat surfaces touch explorations in [tilings]({{ site.baseurl }}/contents/en/chapter04/04_10_Tilings/) and billiard intuition.
+**Seminar links.** Geometry cousins: [Perelman / Ricci flow]({{ site.baseurl }}/contents/en/chapter02/02_03_Perelman_Poincare/), [Beautiful Mathematics / infinity and shape]({{ site.baseurl }}/contents/en/chapter04/04_02_Infinity/), [Strange geometry]({{ site.baseurl }}/contents/en/chapter04/04_06_Strange_Geometry/). Dynamics cousins in Ch.08: [Furstenberg–Margulis]({{ site.baseurl }}/contents/en/chapter08/08_05_Furstenberg_Margulis/). Flat surfaces touch [tilings]({{ site.baseurl }}/contents/en/chapter04/04_10_Tilings/) and billiard intuition.
 
 ---
 
-## 1. Riemann surfaces, hyperbolic metrics, and “shape”
+## Background Knowledge Map: Hyperbolic Geometry, Moduli Space, and Ergodic Theory
 
-A **closed Riemann surface** is a compact oriented surface without boundary equipped with a complex structure (locally like open sets in $$\mathbb{C}$$, with holomorphic transition maps). Topologically, for each integer $$g\ge 0$$ there is one closed orientable surface of **genus** $$g$$: sphere ($$g=0$$), torus ($$g=1$$), double torus ($$g=2$$), and so on. The Euler characteristic is
+### 1. What Does Hyperbolic Geometry Study?
+In flat Euclidean geometry, a triangle's angles sum to $$180^\circ$$ (curvature $$0$$). On a sphere, triangles bulge outward so angles sum to $$> 180^\circ$$ (curvature $$+1$$). **Hyperbolic geometry** is the saddle-shaped third world: constant negative curvature $$-1$$, angles summing to $$< 180^\circ$$, and triangle area equal to the angle defect $$\pi - (\alpha + \beta + \gamma)$$! Its standard model is the **upper half-plane** $$\mathbb{H} = \{x + iy : y > 0\}$$ with length element $$ds = \frac{\sqrt{dx^2 + dy^2}}{y}$$, where "straight lines" (**geodesics**) are vertical rays and semicircles meeting the real axis at right angles. By the **Uniformization Theorem**, every closed surface with **two or more holes** (genus $$g \ge 2$$) naturally carries a hyperbolic metric!
 
-$$
-\chi = 2-2g.
-$$
+### 2. What Is Moduli Space? (Two Hand-Verifiable Examples)
+A **moduli space** is a geometric space in which **each point represents an entire shape**:
+- **Example 1 — All rectangles of area 1:** Every unit-area rectangle is determined by its aspect ratio $$r \ge 1$$, so the moduli space of unit-area rectangles is simply the ray $$[1, \infty)$$.
+- **Example 2 — Moduli space of tori ($$g = 1$$):** Glue opposite sides of a parallelogram in $$\mathbb{C}$$ spanned by $$1$$ and $$\tau$$ ($$\operatorname{Im}\tau > 0$$) to form a torus. Two parameters $$\tau, \tau'$$ produce the *same* torus shape (same lattice up to rotation/scaling) precisely when $$\tau' = \frac{a\tau + b}{c\tau + d}$$ for a matrix $$\begin{pmatrix} a & b \\ c & d \end{pmatrix} \in \mathrm{SL}_2(\mathbb{Z})$$! For instance, $$\tau = i$$ (a square) and $$\tau' = i + 1$$ (a $$45^\circ$$ sheared parallelogram) generate the exact same square lattice $$\mathbb{Z}[i]$$, so they represent the **same point** in $$\mathcal{M}_1 = \mathbb{H}/\mathrm{SL}_2(\mathbb{Z})$$!
 
-For $$g\ge 2$$ one has $$\chi<0$$. By the uniformization theorem, every such surface admits a **hyperbolic metric** of constant curvature $$-1$$, unique up to isometry in its conformal class. Geodesics on that metric are the “straightest” curves; a **closed geodesic** is a closed curve that is locally length-minimizing.
-
-**Simple** closed geodesics do not self-intersect. On a hyperbolic surface they are rigid geometric objects: each free homotopy class of essential simple closed curves contains a unique geodesic representative, and its length is a geometric invariant of the marked surface.
-
-Why care? Length spectra encode shape. Counting geodesics of bounded length is a geometric cousin of counting primes of bounded size: both ask how discrete invariants distribute as a continuous parameter grows.
-
----
-
-## 2. Teichmüller space versus moduli space
-
-Two layers of “space of surfaces” must be distinguished carefully.
-
-**Teichmüller space** $$\mathcal{T}_g$$ parametrizes hyperbolic (or complex) structures on a fixed topological surface of genus $$g$$, up to isotopy—equivalently, marked Riemann surfaces. Markings remember how the surface is identified with a reference surface, so $$\mathcal{T}_g$$ is simply connected and contractible in the classical picture; it is a real manifold of dimension
-
-$$
-\dim_{\mathbb{R}}\mathcal{T}_g = 6g-6 \qquad(g\ge 2).
-$$
-
-**Moduli space** $$\mathcal{M}_g$$ is the space of unmarked isomorphism classes: surfaces up to biholomorphism (or isometry of hyperbolic metrics). Formally one may think of
-
-$$
-\mathcal{M}_g \;\simeq\; \mathcal{T}_g / \mathrm{Mod}_g,
-$$
-
-where $$\mathrm{Mod}_g$$ is the **mapping class group** of isotopy classes of orientation-preserving homeomorphisms. Points of $$\mathcal{M}_g$$ are pure shapes; points of $$\mathcal{T}_g$$ are shapes with a labeling of curves and a deformation history.
-
-**LO6 caution.** Popular articles sometimes say “moduli space is the surface.” It is not. A surface is a point; moduli space is a higher-dimensional geometric universe of such points. Confusing the two is the single most common seminar error.
+### 3. Ergodic Theory — Why Step Out of One Surface into Moduli Space?
+Ergodic theory asks whether long-term time averages along a typical orbit equal space averages. Rather than standing on *one* fixed hyperbolic surface $$X$$ and trying to list its tangled simple geodesics by hand, Mirzakhani stepped back into **moduli space $$\mathcal{M}_g$$**, using volume integration and ergodic flows on the space of *all* surfaces to solve the counting problem on $$X$$!
 
 ---
 
-## 3. Counting simple closed geodesics
+## 1. Pairs of Pants and Counting the $$6g - 6$$ Coordinates by Hand
 
-Fix a hyperbolic surface $$X$$ of genus $$g\ge 2$$. Let $$N_X(L)$$ be the number of **simple** closed geodesics on $$X$$ of length at most $$L$$. (There are infinitely many closed geodesics if one allows self-intersections; simplicity makes the count finite for each $$L$$ and geometrically more rigid.)
+For $$g \ge 2$$, **Teichmüller space** $$\mathcal{T}_g$$ parametrizes *marked* hyperbolic surfaces (remembering labels of curves), while **moduli space** $$\mathcal{M}_g = \mathcal{T}_g / \mathrm{Mod}_g$$ quotients out relabelings by the **mapping class group** $$\mathrm{Mod}_g$$.
 
-Mirzakhani proved asymptotic formulas of the shape
+**Verify $$\dim_{\mathbb{R}} \mathcal{T}_g = 6g - 6$$ by hand:** Cut a $$g$$-holed donut along disjoint simple closed curves into the smallest possible pieces: each piece is a **pair of pants** (a sphere with 3 holes removed, Euler characteristic $$\chi = 2 - 3 = -1$$).
+- Since Euler characteristic adds along circles ($$\chi(S^1) = 0$$), a genus-$$g$$ surface ($$\chi = 2 - 2g$$) decomposes into exactly **$$2g - 2$$ pairs of pants**.
+- Those pants have $$3(2g - 2) = 6g - 6$$ boundary cuffs, glued in pairs along **$$3g - 3$$ cutting curves**.
+- A hyperbolic pair of pants is uniquely fixed by its 3 cuff lengths, giving **$$3g - 3$$ length parameters** $$(\ell_1, \dots, \ell_{3g-3})$$. Gluing each cuff pair allows an arbitrary twist angle, adding **$$3g - 3$$ twist parameters** $$(\theta_1, \dots, \theta_{3g-3})$$.
 
-$$
-N_X(L) \;\sim\; c_X\, L^{6g-6} \qquad(L\to\infty),
-$$
-
-where the exponent $$6g-6$$ is exactly the real dimension of Teichmüller / moduli space, and the constant $$c_X$$ is expressed in terms of geometric data of $$X$$ (related to frequencies of curves in the unit ball of a length pairing). More refined counts distinguish topological types of curves (separating vs non-separating, fixed pants decompositions, etc.).
-
-The method is not “draw the surface and list curves.” It integrates geometric measures over moduli space, uses recursive structure of surfaces cut along simple curves (pairs of pants decompositions), and exploits the relationship between length functions and Weil–Petersson symplectic geometry.
-
-**Seminar moral.** A counting problem on one surface is solved by understanding a measure on the *space of all surfaces*. That leap—from object to moduli—is characteristic of Mirzakhani’s style.
+Total: $$(3g - 3) + (3g - 3) = \mathbf{6g - 6}$$ real **Fenchel–Nielsen coordinates**! For a 2-holed torus ($$g = 2$$): **2 pairs of pants**, **3 cuts**, and **6 coordinates**!
 
 ---
 
-## 4. Weil–Petersson volumes of moduli spaces
+## 2. Counting Simple Closed Geodesics
 
-The **Weil–Petersson** (WP) symplectic form endows moduli (and Teichmüller) space with a natural volume element coming from hyperbolic geometry / complex analysis. Let $$V_{g,n}(L_1,\ldots,L_n)$$ denote the WP volume of the moduli space of genus-$$g$$ surfaces with $$n$$ geodesic boundary components of prescribed lengths $$L_i$$ (or equivalently, with punctures and length constraints in the compactification language).
-
-Mirzakhani established recursive formulas for these volumes, relating $$V_{g,n}$$ to volumes of simpler surfaces obtained by cutting along simple closed curves. The recursions are explicit enough to compute volumes for many $$(g,n)$$ and to prove polynomiality in the length variables. Volumes enter counting theorems because integrating “how many curves of length $$\le L$$” against a measure on moduli is dual to asking “how large is the set of surfaces admitting a short curve of a given type.”
-
-A schematic identity of the philosophy (not a full theorem statement) is:
+On a fixed hyperbolic surface $$X$$ of genus $$g \ge 2$$, self-intersecting closed geodesics proliferate exponentially ($$\sim e^L/L$$). Restricting to **simple** (non-self-intersecting) closed geodesics makes them far more rigid, and Mirzakhani proved polynomial growth:
 
 $$
-\text{curve counts on a typical }X
-\quad\longleftrightarrow\quad
-\text{geometry of WP volume on }\mathcal{M}_g.
+N_X(L) \;\sim\; c_X\, L^{6g-6} \qquad (L \to \infty).
 $$
 
-Connection to physics and random surfaces: WP volumes appear in 2D quantum gravity and related matrix-model stories; Mirzakhani’s recursions sharpened the mathematical side of that dictionary. For this seminar, retain the geometric meaning: volumes are not decorative—they are the integration engine for counting.
+The exponent $$6g - 6$$ matches the real dimension of moduli space! Even more remarkably, Mirzakhani determined exact ratios between topological curve types: on a genus-2 surface, a long random simple closed geodesic is **48 times** more likely to be non-separating than to cut the surface into two pieces—a crisp rational ratio read straight off moduli-space volumes!
 
 ---
 
-## 5. Earthquake flow and ergodicity (with Eskin)
+## 3. Deep-Dive Explanation: From Counting on One Surface to Volumes of Moduli Space (Read Slowly)
 
-**Thurston’s earthquake deformations** twist a hyperbolic surface along a measured geodesic lamination, producing a continuous family of new hyperbolic structures. Restricting to suitable laminations and normalizing, one obtains a flow on a bundle over moduli space—the **earthquake flow**—analogous in spirit to geodesic flow on a manifold, but built from shearing along curves rather than walking along a tangent vector of Teichmüller space.
+#### Step 1: The Weil–Petersson Volume Form
+By Wolpert's theorem, the **Weil–Petersson (WP)** symplectic form in Fenchel–Nielsen coordinates is astonishingly simple:
 
-**Ergodicity** of a flow means (roughly) that time averages along almost every orbit equal space averages: the flow mixes the space so thoroughly that long-term statistics are determined by the invariant measure alone.
+$$
+\omega_{\mathrm{WP}} = \sum_{i=1}^{3g-3} d\ell_i \wedge d\theta_i.
+$$
 
-With **Alex Eskin**, Mirzakhani proved that earthquake flow is ergodic (with respect to the natural measure in the setting they treat). The theorem links Thurston’s geometric constructions to measurable dynamics at the level of Fields-depth analysis. It sits in a broader 2010s revolution in **Teichmüller dynamics**: orbit closures of flat surfaces, classification of invariant measures, and rigidity phenomena (Eskin–Mirzakhani–Mohammadi and related work form a major constellation).
+Taking its top exterior power yields a natural volume $$V_{g,n}(L_1, \dots, L_n)$$ on the moduli space $$\mathcal{M}_{g,n}(L_1, \dots, L_n)$$ of genus-$$g$$ surfaces with $$n$$ geodesic boundaries of lengths $$L_1, \dots, L_n$$.
 
-You need not absorb the full measure classification here. Hold the slogan: **deformations that look purely geometric can be studied as dynamical systems with ergodic theorems**, and those theorems feed back into geometric counting and equidistribution.
+#### Step 2: Mirzakhani's Volume Recursion (Check $$V_{1,1}(L)$$ by Hand!)
+Shooting geodesic rays perpendicularly inward from boundary $$L_1$$ and recording which ray first hits itself or a boundary splits $$L_1$$ into a sum over pairs of pants containing $$L_1$$ (a **generalized McShane identity**). Integrating over moduli space yields an explicit **recursion** computing $$V_{g,n}$$ from simpler surfaces! For a one-holed torus ($$g = 1, n = 1$$) with boundary length $$L$$, Mirzakhani's recursion gives the clean quadratic polynomial:
+
+$$
+V_{1,1}(L) = \frac{1}{24}\bigl(L^2 + 4\pi^2\bigr).
+$$
+
+Check the cusp limit $$L \to 0$$: $$V_{1,1}(0) = \frac{\pi^2}{6}$$, recovering the classical WP volume of the modular surface! In general, every $$V_{g,n}(L_1, \dots, L_n)$$ is a **polynomial in $$L_1^2, \dots, L_n^2$$** whose top coefficients encode intersection numbers on moduli space—yielding a breathtaking new geometric proof of the **Witten–Kontsevich conjecture** from 2D quantum gravity.
+
+#### Step 3: Integrating "Curve Counts" Turns into Integrating WP Volumes
+Fix a topological curve type $$\gamma$$. Integrating the count of $$\gamma$$-type curves of length $$\le L$$ over *all* surfaces $$X \in \mathcal{M}_g$$ lets you swap the order of integration: instead of fixing $$X$$ and summing over curves, **cut the surface along a curve of length $$\ell \le L$$** and integrate the volume $$V_{g', n'}(\ell, \ell)$$ of the remaining surface from $$\ell = 0$$ to $$L$$! Since $$V_{g',n'}$$ has degree $$6g - 8$$ in $$\ell$$ (times a twist factor $$\ell$$), $$\int_0^L \ell \cdot \ell^{6g-8}\,d\ell$$ immediately produces the exact exponent **$$L^{6g-6}$$**!
+
+#### Step 4: Ergodicity of Earthquake Flow Pins Down Each Individual Surface $$X$$
+Step 3 computes the *average* over $$\mathcal{M}_g$$. To show the asymptotic holds for every *individual* surface $$X$$, Mirzakhani proved **ergodicity of Thurston's earthquake flow** (shearing a surface along measured laminations like geological fault lines), guaranteeing that long curves equidistribute across moduli space.
+
+$$
+\text{Pants decomposition}
+\;\xrightarrow{\text{Recursion}}\;
+\text{Polynomial } V_{g,n}(L)
+\;\xrightarrow{\text{Swap integrals}}\;
+\text{Average } \sim L^{6g-6}
+\;\xrightarrow{\text{Ergodicity}}\;
+N_X(L) \sim c_X L^{6g-6}.
+$$
 
 ---
 
-## 6. Flat surfaces, strata, and billiards
+## 4. Flat Surfaces, Polygonal Billiards, and the "Magic Wand Theorem"
 
-A parallel language uses **translation surfaces** (flat metrics with conical singularities, equivalently abelian differentials on Riemann surfaces). The moduli space of such flat surfaces decomposes into **strata** by singularity type. $$\mathrm{SL}_2(\mathbb{R})$$ acts by linear post-composition on charts; orbits encode renormalization of the flat structure.
+Return to the polygonal billiard table from the opening: every time the ball bounces off an edge, *reflect the entire table* across that edge so the ball travels in a straight line! Gluing reflected copies together produces a **translation surface** (a flat surface with cone singularities). The matrix group $$\mathrm{SL}_2(\mathbb{R})$$ acts naturally on the space (strata) of translation surfaces by stretching and shearing.
 
-**Polygonal billiards** connect via unfolding: a trajectory in a rational polygon unfolds to a straight line on a translation surface. Questions about periodic billiard paths, diffusion, and ergodicity of the directional flow translate into orbit problems on strata.
+In their landmark 2013 paper—dubbed the **"Magic Wand Theorem"**—**Alex Eskin and Maryam Mirzakhani** (with Amir Mohammadi) proved that every $$\mathrm{SL}_2(\mathbb{R})$$-invariant measure and orbit closure on these strata is remarkably rigid (an affine submanifold), bringing Ratner-style rigidity into Teichmüller dynamics and transforming the study of polygonal billiards.
 
-Mirzakhani’s circle of ideas—moduli, dynamics, counting—interacts with this flat world even when individual papers emphasize hyperbolic rather than flat metrics. Seminar takeaway: “billiards” is not a toy side quest; it is a concrete dynamical laboratory for the same moduli machinery.
-
----
-
-## 7. Fields Medal 2014 and historical notes
-
-The IMU awarded Mirzakhani the Fields Medal in 2014 for outstanding contributions to the dynamics and geometry of Riemann surfaces and their moduli spaces. She was the first woman and the first Iranian mathematician to receive the medal. She died in 2017; her influence continues through the problems she opened and the community she inspired.
-
-**Collaborators.** Major theorems are often joint—especially dynamical results with Eskin and others. **LO6:** always check coauthorship before writing “Mirzakhani alone proved …” for a specific statement.
-
-**What the medal is not.** It is not “she counted curves on a donut.” It is recognition of a program that made moduli spaces computable, dynamical, and countable in precise asymptotic senses.
+**Attribution note:** Mirzakhani was the first woman and first Iranian mathematician to win the Fields Medal (2014). Many major dynamical results are joint—especially with **Alex Eskin**; always check coauthorship for specific theorems.
 
 ---
 
@@ -143,12 +125,11 @@ The IMU awarded Mirzakhani the Fields Medal in 2014 for outstanding contribution
 
 | Claim | Correction |
 |-------|------------|
-| “Moduli space is the surface itself.” | A point of moduli space *is* a surface (up to isomorphism); the space is the collection of all such points. |
-| “Teichmüller space and moduli space are the same.” | Teichmüller remembers markings; moduli quotients by the mapping class group. |
-| “She only counted geodesics.” | Volume recursion, earthquake dynamics, and flat-surface interactions are equally central. |
-| “Simple closed geodesics are just any closed curves.” | Simple means non-self-intersecting; geodesics are length-minimizing representatives. |
-| “Ergodicity means every orbit is dense.” | Ergodicity is a measure-theoretic statement; density of orbits is related but not identical. |
-| “First woman Fields = only story that matters.” | Biography matters culturally; the mathematics is the syllabus reason we are here. |
+| “Moduli space is the surface itself.” | A point of moduli space *is* a surface (up to isomorphism); moduli space is the higher-dimensional universe of all such shapes. |
+| “Teichmüller space and moduli space are the same.” | Teichmüller remembers markings; moduli quotients by the mapping class group: $$\mathcal{M}_g \simeq \mathcal{T}_g/\mathrm{Mod}_g$$. |
+| “She only counted geodesics.” | WP volume recursions, Witten's conjecture, earthquake dynamics, and the Magic Wand Theorem are equally central. |
+| “Simple closed geodesics are just any closed curves.” | Simple means non-self-intersecting; geodesics are locally length-minimizing representatives. |
+| “Ergodicity means every orbit is periodic.” | Ergodicity is a measure-theoretic property: time averages equal space averages for almost every orbit. |
 
 ---
 
@@ -210,13 +191,12 @@ Full URL bibliography from video research (including secondary finds): `research
 
 ## Further directions
 
-- Read a short survey on WP volume recursions and compute a low-genus volume by hand if a formula is supplied in the survey.
+- Read a short survey on WP volume recursions and compute a low-genus volume by hand.
 - Explore flat surfaces and rational billiards as a sister seminar topic; compare counting periodic trajectories with counting simple geodesics.
 - Compare Mirzakhani’s “moduli as a dynamical arena” with homogeneous dynamics in the [Venkatesh]({{ site.baseurl }}/contents/en/chapter02/02_07_Venkatesh_Number_Theory/) essay—different spaces, shared ergodic philosophy.
-- For LO6 practice, contrast a technical introduction with a memorial profile; keep both genres, but grade yourself on not confusing them.
 
 ## Video tham khảo
 
-- **xem trước** — [Maryam Mirzakhani: A Tenacious Explorer of Abstract Surfaces](https://www.youtube.com/watch?v=qNuh4uta8oQ) — Quanta Magazine, English. Watch first. “Maryam Mirzakhani: A Tenacious Explorer of Abstract Surfaces” orients the lesson’s aim: Define, informally, a Riemann surface of genus g\ge 2, its hyperbolic metric, Teichmüller space, and moduli space.
-- [Dynamics on the Moduli Spaces of Curves, I - Maryam Mirzakhani](https://www.youtube.com/watch?v=8Az_W2wv4Zo) — Institute for Advanced Study, English. A second pass once the main claim is in view: Define, informally, a Riemann surface of genus g\ge 2, its hyperbolic metric, Teichmüller space, and moduli space.
-- [Maryam Mirzakhani, Dynamics Moduli Spaces of Curves I](https://www.youtube.com/watch?v=tprlQMClSYQ) — Harvard Mathematics Department, English. Further depth after the first two, still tied to this lesson: Define, informally, a Riemann surface of genus g\ge 2, its hyperbolic metric, Teichmüller space, and moduli space.
+- **xem trước** — [Maryam Mirzakhani: A Tenacious Explorer of Abstract Surfaces](https://www.youtube.com/watch?v=qNuh4uta8oQ) — Quanta Magazine, English. Watch first. Portrait of Mirzakhani and the abstract surfaces she studied.
+- [Dynamics on the Moduli Spaces of Curves, I - Maryam Mirzakhani](https://www.youtube.com/watch?v=8Az_W2wv4Zo) — Institute for Advanced Study, English. Mirzakhani's own lecture on dynamics on moduli spaces of curves.
+- [Maryam Mirzakhani, Dynamics Moduli Spaces of Curves I](https://www.youtube.com/watch?v=tprlQMClSYQ) — Harvard Mathematics Department, English. Further depth from Mirzakhani's lecture series.

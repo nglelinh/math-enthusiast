@@ -10,15 +10,19 @@ categories:
 lesson_type: required
 ---
 
-Once the purest of pure mathematics—Gauss’s “queen of mathematics”—**number theory** now underwrites secure communication on the internet. Every TLS handshake, software signature, and messenger lock icon is a consumer of modular arithmetic, prime generation, and hard problems on groups.
+In 1940, the eminent British mathematician G. H. Hardy wrote a famous boast in *A Mathematician’s Apology*: he was proud to have spent his life on number theory—a branch of mathematics so “pure and useless” that it would never serve war or commerce. History has a sharp sense of humor. Thirty-six years later, those very theorems about prime numbers and modular remainders became the master lock securing the global internet.
 
-This **Section 3 flagship** traces one clean mechanism chain:
+Every time you see the HTTPS padlock in your browser, confirm a bank transfer, or install a signed software update, your phone is quietly running centuries-old number theory. This lecture unpacks how modular arithmetic, primes, discrete logarithms, and elliptic curves power modern public-key cryptography—and why quantum computing is now pushing the frontier toward lattices.
 
-**modular arithmetic → trapdoor functions → public-key cryptography (RSA, Diffie–Hellman, ECC) → protocols on the real internet → quantum shadows and post-quantum lattices.**
+---
 
-The goal is **LO4**: relate a classical field to a named technology with a correct one-step mechanism—not “number theory is used in crypto” as a slogan, but *which* hardness and *how* keys work at a conceptual level.
+## Background Knowledge Map: What Are Number Theory and Modern Cryptography?
 
-**Path:** congruences → symmetric vs public-key → RSA → DH → ECC → signatures/PKI/hybrid → hardness culture → PQC → confusions.
+At first glance, **number theory** sounds elementary because it studies the integers $$1, 2, 3, \dots$$ we learned as children. Yet prime numbers hide some of the deepest structures in all of mathematics, intertwining at the university level with **abstract algebra** (groups, rings, finite fields) and **algebraic geometry** (elliptic curves).
+
+**Modern cryptography**, meanwhile, is no longer the art of inventing secret codes and hoping nobody guesses them. It is the rigorous science of **controlled asymmetry**: constructing operations that run in milliseconds in the forward direction on a smartphone yet require billions of years to invert on classical supercomputers—unless you hold a secret **trapdoor**.
+
+Number theory happened to supply an ideal treasury of trapdoors: multiplying two huge primes is instant while factoring their product is brutally hard; modular exponentiation is fast while inverting it (the discrete logarithm) is brutally hard.
 
 ---
 
@@ -112,6 +116,40 @@ Powers of 5 modulo 23 visit every residue 1 to 22 in a scrambled order. Alice an
 
 <div class="mex-explainer" data-mex="dh" data-lang="en"></div>
 
+
+### Deep-Dive Explanation: Running a Complete Toy RSA Encryption & Decryption by Hand (Read Slowly)
+
+How can two strangers who have never met exchange a secret in front of an entire crowded room? Let us run every single step of RSA by hand with tiny primes $$p = 5$$ and $$q = 11$$:
+
+1. **Key generation (Bob’s private trapdoor):**
+   - Compute modulus $$n = p \cdot q = 5 \times 11 = 55$$ and Euler’s totient $$\varphi(n) = (p-1)(q-1) = 4 \times 10 = 40$$.
+   - Pick public exponent $$e = 3$$ (coprime to $$40$$).
+   - Find private decryption exponent $$d$$ satisfying $$e\cdot d \equiv 1 \pmod{40}$$: since $$3 \times 27 = 81 = 2(40) + 1$$, we have **$$d = 27$$**.
+   - Bob broadcasts the **public key** $$(n, e) = (55, 3)$$ and locks away $$(p, q, d) = (5, 11, 27)$$.
+
+2. **Encryption (Alice sends message $$m = 4$$):**
+   - Anyone with the public key computes $$c = m^e \bmod n$$:
+     $$
+     c = 4^3 \bmod 55 = 64 \bmod 55 = 9.
+     $$
+   - Alice sends ciphertext $$c = 9$$ over the open channel.
+
+3. **Decryption (Bob uses $$d = 27$$ via repeated squaring):**
+   - Write $$27 = 16 + 8 + 2 + 1$$ and square $$9$$ modulo $$55$$ step by step:
+     - $$9^1 \equiv 9$$,
+     - $$9^2 = 81 \equiv 26$$,
+     - $$9^4 \equiv 26^2 = 676 \equiv 16$$,
+     - $$9^8 \equiv 16^2 = 256 \equiv 36$$,
+     - $$9^{16} \equiv 36^2 = 1296 \equiv 31$$.
+   - Multiply the four pieces modulo $$55$$:
+     $$
+     9^{27} \equiv 31 \cdot 36 \cdot 26 \cdot 9 \equiv (1116 \bmod 55)\cdot(234 \bmod 55) \equiv 16 \cdot 14 = 224 \equiv 4 \pmod{55}!
+     $$
+   - Bob recovers **$$m = 4$$** cleanly!
+
+4. **Real-world engineering layer:** In production (HTTPS), 2048-bit RSA/ECC only negotiates a 256-bit session key (with randomized padding like OAEP/PSS), then hands bulk traffic over to fast symmetric AES-GCM.
+
+**Quick check:** RSA’s formula is completely public; its security comes from the **computational hardness** of recovering $$\varphi(n)$$ (i.e., factoring $$n$$) without knowing $$p$$ and $$q$$.
 
 ## 4. Diffie–Hellman and discrete logarithms
 

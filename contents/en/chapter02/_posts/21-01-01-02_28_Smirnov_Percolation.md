@@ -9,14 +9,16 @@ categories:
 - chapter02
 ---
 
-**Stanislav Smirnov** received the **Fields Medal 2010**
+Spread out an enormous honeycomb board made of millions of hexagonal tiles, and flip a fair coin for each tile: heads paints it **yellow**, tails paints it **blue**. Now step far back until the individual hexagons blur into a continuous picture, and ask: what determines the probability of finding a continuous yellow path connecting the left boundary of a shape to the right? Statistical physicists predicted a miracle: right at the critical threshold $$p_c = 1/2$$, the random pattern **forgets** its hexagonal grid completely and becomes **conformally invariant**—bend the domain by any angle-preserving complex-analytic map, and the crossing probability stays unchanged!
+
+For decades, that dream had not a single rigorous proof for any concrete lattice model. In 2001, in a breathtaking **6-page paper**, **Stanislav Smirnov** proved Cardy’s formula and conformal invariance for critical site percolation on the triangular lattice—and then invented **discrete holomorphic fermions** to conquer the **planar Ising model**. In 2010, he received the **Fields Medal**:
 
 > “For the proof of conformal invariance of percolation and the planar Ising model in statistical physics.”  
 > — [IMU, Fields Medals 2010](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2010)
 
-The citation names two lattice models, not a slogan that “all critical 2D models are now theorems.” Physicists had long predicted that at criticality many planar models forget their microscopic lattice and remember only a conformal geometry. Making that prediction into mathematics required observables that stay under analytic control as the mesh tends to zero. Smirnov supplied such observables for **critical site percolation on the triangular lattice** (2001) and, with collaborators, for the **planar Ising model**. The continuum language for the resulting interfaces is **Schramm–Loewner evolution (SLE)**, invented by Oded Schramm and developed by Gregory Lawler, Schramm, and Wendelin Werner—see [Werner / SLE]({{ site.baseurl }}/contents/en/chapter02/02_30_Werner_SLE/). Later phase-transition theorems of Hugo Duminil-Copin sit in the same landscape: [Duminil-Copin]({{ site.baseurl }}/contents/en/chapter02/02_19_Duminil_Copin_Phase_Transitions/).
+Read the citation with precision: it names **two specific lattice models**, not every 2D critical model (even critical bond percolation on the square lattice remains open!). Smirnov’s discrete lattice theorems lock directly into the continuum **SLE** curve language of Oded Schramm and [Wendelin Werner]({{ site.baseurl }}/contents/en/chapter02/02_30_Werner_SLE/) (Fields 2006), and paved the way for his doctoral student [Hugo Duminil-Copin]({{ site.baseurl }}/contents/en/chapter02/02_19_Duminil_Copin_Phase_Transitions/) (Fields 2022).
 
-This essay is for learners who have met complex analysis and elementary probability and want the architecture of the 2010 medal: what Cardy’s formula says, why the triangular lattice is essential, what Ising conformal invariance means at the level of fermionic observables, and which neighbouring statements remain open.
+**Lesson roadmap:** Background Knowledge Map (conformal maps, site vs. bond percolation, discrete complex analysis) → Hand-verifiable worked examples (Hex board symmetry at $$p_c = 1/2$$ & Cardy–Carleson’s linear law on an equilateral triangle) → Deep-Dive Explanation (Read Slowly): 4 steps from color-switching to discrete Cauchy–Riemann, $$\mathrm{SLE}_6$$, and Ising fermions → What remains open (square-lattice bond percolation, self-avoiding walk).
 
 ---
 
@@ -24,43 +26,70 @@ This essay is for learners who have met complex analysis and elementary probabil
 
 After this lecture you should be able to:
 
-- State, at slogan level, what **Bernoulli percolation** is, and distinguish **site** percolation from **bond** percolation.
-- Explain why a **critical** parameter $$p_c$$ is the interesting place to look for a nontrivial scaling limit.
-- Describe **Cardy’s crossing formula** as a prediction for the probability that a critical cluster crosses a conformal rectangle, and name Smirnov’s 2001 theorem as the proof of that prediction for **critical site percolation on the triangular lattice**.
-- Explain why the same result is **not** claimed here for arbitrary lattices, and in particular not for **bond percolation on the square lattice**.
-- Place **SLE** as the scaling-limit language for interfaces, crediting Schramm for the definition and Lawler–Schramm–Werner for the analytic theory.
-- Distinguish the percolation theorem from later **planar Ising** conformal invariance (Smirnov; Chelkak–Smirnov and collaborators).
-- Attribute credit carefully and avoid the hype sentence “Smirnov solved 2D statistical physics.”
+- Distinguish **site** percolation from **bond** percolation, and explain why only the critical point $$p_c$$ yields a nontrivial scaling limit.
+- Compute crossing probabilities on an equilateral triangle via **Cardy–Carleson’s formula** and explain the Hex symmetry argument for $$p_c = 1/2$$.
+- Explain why Smirnov’s 2001 proof relies essentially on the threefold symmetry of the **triangular lattice**, leaving **square-lattice bond percolation** open.
+- Assign credit cleanly: **Schramm** invented SLE, **Lawler–Schramm–Werner** built its analytic theory, and **Smirnov** proved discrete lattice models converge to conformally invariant limits.
+- Describe **discrete holomorphic fermions** for the **planar Ising model** (Smirnov; Chelkak–Smirnov on isoradial graphs) and explain why the Ising result is *more universal* than the 2001 percolation theorem.
 
 **Prerequisites.** Holomorphic functions and conformal maps of plane domains at the level of a first complex-analysis course; Bernoulli random variables and the idea of a scaling limit (mesh $$\delta\to 0$$); the difference between a discrete model and a continuum process. No prior SLE course is required.
 
-**Seminar links.** LO1 / LO4 (a physicists’ conjecture made into a lattice-specific theorem; discrete models ↔ continuum conformal geometry). Pair with [Werner / SLE]({{ site.baseurl }}/contents/en/chapter02/02_30_Werner_SLE/) for the curve language, and with [Duminil-Copin]({{ site.baseurl }}/contents/en/chapter02/02_19_Duminil_Copin_Phase_Transitions/) for later sharp results on phase transitions.
+**Seminar links.** Pair with [Werner / SLE]({{ site.baseurl }}/contents/en/chapter02/02_30_Werner_SLE/) for the curve language, and with [Duminil-Copin]({{ site.baseurl }}/contents/en/chapter02/02_19_Duminil_Copin_Phase_Transitions/) for later sharp results on phase transitions.
 
 ---
 
-## 1. Why statistical physics wanted conformal invariance
+## Background Knowledge Map: What Do Conformal Invariance and Discrete Complex Analysis Study?
 
-A **percolation** configuration on a graph is a random colouring of vertices (site percolation) or edges (bond percolation) as open or closed, independently, with probability $$p$$ of being open. The simplest geometric question is whether open sites form a path connecting two boundary arcs. For extreme $$p$$ the answer is dull; many two-dimensional lattices have a **critical value** $$p_c$$ at which the crossing probability of a large rectangle stays bounded away from both $$0$$ and $$1$$.
+### 1. Conformal maps—angle-preserving geometry
+A holomorphic map $$f: \Omega_1 \to \Omega_2$$ with $$f'(z) \neq 0$$ is **conformal**: locally it only scales and rotates, never distorting angles. By the Riemann mapping theorem, every simply connected planar domain (square, disk, triangle, blob) maps conformally to any other. If a critical lattice model is **conformally invariant**, solving it on one simple shape (an equilateral triangle) immediately gives the exact answer on *every* planar domain!
 
-If one rescales to mesh $$\delta\to 0$$, the cluster geometry is expected to converge to a random continuum object. Two-dimensional conformal field theory suggested something stronger: the limit should be **conformally invariant**. John Cardy, using non-rigorous CFT methods, produced an explicit formula for the limiting crossing probability of a conformal rectangle (*J. Phys. A*, 1992). Lennart Carleson observed that the formula becomes simple on an equilateral triangle. The difficulty was not writing the formula; it was proving that a concrete lattice model converges and that the limit transforms as Cardy predicted.
+### 2. Triangular site percolation vs. square bond percolation
+- **Site percolation on the triangular lattice $$\mathbb{T}$$** (equivalently, coloring hexagonal cells of the dual honeycomb grid yellow with probability $$p$$, blue with $$1-p$$): $$p_c = 1/2$$.
+- **Bond percolation on the square lattice $$\mathbb{Z}^2$$:** each edge is open with probability $$p$$ (also $$p_c = 1/2$$). Physicists expect **universality** (identical conformal limits for both), yet mathematically only the triangular site model is proved!
 
----
-
-## 2. Site percolation on the triangular lattice
-
-Smirnov’s 2001 theorem concerns **critical site percolation on the triangular lattice** $$\mathbb{T}$$, with $$p=1/2$$. The *Comptes Rendus* note (Smirnov, *C. R. Acad. Sci. Paris* 333 (2001); longer account arXiv:0909.4499) introduces discrete harmonic conformal invariants built from crossing and colour-switching probabilities. Those functions are approximately harmonic and satisfy discrete Cauchy–Riemann relations from a **colour-switching identity** special to $$\mathbb{T}$$. They converge to explicit holomorphic functions of a Dirichlet–Neumann problem, yielding conformal invariance of crossings and **Cardy’s formula**. In Carleson’s form, on an equilateral triangle of side one the limiting crossing probability from a side to a point opposite is linear in position.
-
-**Accuracy that must not be blurred.** The argument uses the threefold symmetry of $$\mathbb{T}$$ in an essential way. It is a theorem about **this** lattice model, not a theorem about “percolation in the plane” in full generality. In particular, **critical bond percolation on the square lattice**—the other most famous planar percolation—remains a celebrated open problem at the same level of conformal invariance. Universality is believed, and much partial progress exists, but this course will not pretend that Smirnov 2001 closed every lattice.
+### 3. Discrete complex analysis
+How do you prove a discrete probability function $$F_\delta$$ on a mesh of size $$\delta$$ converges to a holomorphic function as $$\delta \to 0$$? Find an exact combinatorial identity on the lattice forcing $$F_\delta$$ to satisfy **discrete Cauchy–Riemann equations** (contour sums around every tiny cell vanish). Taking $$\delta \to 0$$ forces every subsequential limit to be holomorphic and uniquely fixed by boundary conditions!
 
 ---
 
-## 3. From crossings to curves: SLE as the limit language
+## 1. Hand-Verifiable Worked Examples: The Game of Hex and Cardy–Carleson’s Linear Law
 
-Crossing probabilities are scalar conformal invariants. The richer object is the **interface**: the curve that separates open from closed, or the exploration path that follows the boundary of a cluster. Once crossings are under control, one can ask whether these random curves converge in law to a continuum process.
+### Example 1: Why $$p_c = 1/2$$ on an $$N \times N$$ honeycomb (Hex) board
+Color every hexagon of an $$N \times N$$ rhombus board yellow or blue independently with probability $$p = 1/2$$.
+- A famous topological theorem (equivalent to Brouwer’s fixed-point theorem!) says the game of **Hex can never end in a draw**: either a yellow path connects left to right, or a blue path connects top to bottom—*exactly one* occurs!
+- At $$p = 1/2$$, the two colors are perfectly symmetric, so:
+  $$
+  \mathbb{P}_{1/2}(\text{yellow crosses left–right}) = \mathbb{P}_{1/2}(\text{blue crosses top–bottom}) = \frac{1}{2} \quad \text{for EVERY } N!
+  $$
+Even as $$N \to \infty$$ (mesh $$\delta \to 0$$), the crossing probability stays pinned at $$1/2$$ instead of collapsing to $$0$$ or $$1$$—the unmistakable signature of criticality!
 
-**Schramm–Loewner evolution** $$\mathrm{SLE}_\kappa$$, introduced by Oded Schramm in 2000 (*Israel J. Math.* 118, “Scaling limits of loop-erased random walks and uniform spanning trees”), is a one-parameter family of random growing hulls in a plane domain, generated by driving a Loewner differential equation with Brownian motion of variance $$\kappa$$. Schramm proved that if a chordal scaling limit exists and is conformally invariant (with a Markovian restriction property), it must be $$\mathrm{SLE}_\kappa$$ for some $$\kappa$$. For percolation the predicted value is $$\kappa=6$$.
+### Example 2: Cardy–Carleson’s formula on an equilateral triangle of side $$1$$
+In 1992, **John Cardy** used non-rigorous CFT to guess a hypergeometric crossing formula for any conformal rectangle $$(\Omega; A, B, C, D)$$. **Lennart Carleson** noticed that if you map $$\Omega$$ conformally onto an **equilateral triangle $$ABC$$ of side length $$1$$**, placing $$D$$ on side $$AC$$ at distance $$x \in [0, 1]$$ from $$C$$, Cardy’s hypergeometric formula collapses to pure linearity:
 
-Lawler, Schramm, and Werner developed the analytic theory of SLE: restriction properties, intersection and disconnection exponents, and the geometry of two-dimensional Brownian motion. That development is the subject of Werner’s 2006 Fields Medal and is **not** Smirnov’s citation; it is the language in which Smirnov’s lattice theorems are now read. Subsequent work (notably Camia–Newman, and later interface papers) used Smirnov’s crossing theorem as the gateway to identifying the percolation exploration path with $$\mathrm{SLE}_6$$. For this seminar, keep the division of labour:
+$$
+\mathbb{P}(\text{yellow path connects side } AB \text{ to segment } CD) = x!
+$$
+
+Plug in concrete positions along $$AC$$:
+- $$x = 0.25$$ (one quarter up): limiting crossing probability is **$$25\%$$**.
+- $$x = 0.50$$ (midpoint): limiting crossing probability is **$$50\%$$**.
+- $$x = 0.75$$ (three quarters up): limiting crossing probability is **$$75\%$$**.
+
+---
+
+## 2. Deep-Dive Explanation: How Smirnov Proved Conformal Invariance for Percolation and Ising (Read Slowly)
+
+Both of Smirnov’s Fields breakthroughs follow a crisp 4-step discrete-holomorphicity blueprint:
+
+#### Step 1: The color-switching trick on the triangular lattice (Percolation, 2001)
+In his 6-page *Comptes Rendus* paper (2001; full account [arXiv:0909.4499](https://arxiv.org/abs/0909.4499)), Smirnov defines three probabilities inside a domain $$\Omega$$ with boundary arcs $$AB, BC, CA$$: let $$H_A(z)$$ be the probability of a yellow path separating $$z$$ and $$BC$$ from $$A$$ (and similarly $$H_B, H_C$$).
+Stepping $$z$$ across one hexagonal edge changes $$H_A$$ by the probability of a "three-arm" event (two yellow arms and one blue arm meeting at that edge). Using a dazzling **color-switching bijection**—flipping the colors along one arm at $$p = 1/2$$ while exploiting the exact $$120^\circ$$ threefold symmetry of hexagons—Smirnov proved that the discrete directional derivatives of $$H_A, H_B, H_C$$ along the three lattice axes match!
+
+#### Step 2: Passing to $$\delta \to 0$$ yields Cardy–Carleson’s formula
+The complex combination $$F_\delta(z) = H_A(z) + \tau H_B(z) + \tau^2 H_C(z)$$ (with $$\tau = e^{2\pi i/3}$$) satisfies **discrete Cauchy–Riemann equations**! As $$\delta \to 0$$, Russo–Seymour–Welsh precompactness guarantees subsequential limits that are **holomorphic** and satisfy boundary conditions mapping $$\Omega$$ onto the equilateral triangle—proving **Cardy’s formula** and **conformal invariance** in one stroke!
+
+#### Step 3: Locking into Schramm–Lawler–Werner’s SLE language
+One year earlier, **Oded Schramm (2000)** had defined $$\mathrm{SLE}_\kappa$$ as the unique conformally invariant, domain-Markov candidate for critical interfaces. Armed with Smirnov’s 2001 crossing theorem, Smirnov and **Camia–Newman** proved that the percolation exploration path converges in law to **$$\mathrm{SLE}_6$$**!
 
 | Contribution | Who, at slogan level |
 |--------------|----------------------|
@@ -69,29 +98,31 @@ Lawler, Schramm, and Werner developed the analytic theory of SLE: restriction pr
 | Cardy + conformal invariance for triangular site percolation | Smirnov (2001) |
 | Planar Ising observables / interfaces | Smirnov; Chelkak–Smirnov and later collaborators |
 
----
+#### Step 4: Discrete holomorphic fermions for the planar Ising model (2010–2012)
+For the critical **planar Ising model** (going far beyond Onsager’s 1944 free-energy calculation), **Smirnov** (*Ann. of Math.* 172, 2010) introduced a **discrete holomorphic fermionic observable**: a weighted sum over spin interfaces ending at an edge, multiplied by a complex spinor phase $$e^{-i \cdot \frac{1}{2}\text{winding}}$$. At the exact critical temperature $$\beta_c$$, local cancellations make this observable *s-holomorphic* with Riemann–Hilbert boundary conditions, converging to a conformally invariant holomorphic limit!
+Together with **Dmitry Chelkak** (*Invent. Math.* 189, 2012; [arXiv:0910.2045](https://arxiv.org/abs/0910.2045)), Smirnov proved this limit is **universal across all planar isoradial graphs**—strictly more universal than the 2001 percolation theorem—and follow-up work (with Duminil-Copin, Hongler, Kemppainen) identified Ising spin interfaces with **$$\mathrm{SLE}_3$$**.
 
-## 4. The planar Ising model
+Summary of Smirnov’s discrete-complex-analysis machine:
 
-The **Ising model** assigns spins $$\pm 1$$ to vertices of a planar graph, with a Boltzmann weight favouring aligned neighbours. At a critical temperature the model is expected to have a conformally invariant scaling limit, historically one of the first CFT success stories (Onsager’s exact solution already gave the 2D free energy; conformal invariance of the full geometry is a different, harder claim).
-
-Smirnov introduced discrete **holomorphic fermions** for the critical Ising model (see “Conformal invariance in random cluster models. I. Holomorphic fermions in the Ising model,” *Ann. of Math.* 172 (2010)). With Dmitry Chelkak he proved that these fermionic observables have universal, conformally invariant scaling limits on a large family of planar graphs, not only on one lattice: Chelkak–Smirnov, “Universality in the 2D Ising model and conformal invariance of fermionic observables,” *Invent. Math.* 189 (2012), arXiv:0910.2045. Later work with Chelkak, Duminil-Copin, Hongler, Kemppainen, and others identified Ising interfaces with SLE curves (in particular $$\mathrm{SLE}_3$$ for spin interfaces, in the appropriate setup).
-
-Two pedagogical points matter. First, “conformal invariance of the Ising model” in the medal citation refers to this program of observables and limits, not to Onsager’s 1944 solution of the partition function. Second, the Ising theory is in some respects **more universal** than the 2001 percolation theorem: the Chelkak–Smirnov setting covers a broad class of isoradial graphs, whereas the percolation Cardy theorem remains tied to the triangular lattice.
-
----
-
-## 5. Design of the proofs, and why a Fields Medal
-
-Both stories invent a discrete observable $$F_\delta$$ that encodes the event (a crossing, a spin, an interface), satisfies an approximate holomorphicity relation, and has boundary conditions that pass to a continuum Dirichlet or Riemann–Hilbert problem. Precompactness gives subsequential limits; uniqueness of the continuum problem identifies the limit; conformal covariance is inherited. For triangular percolation, a colour-switching identity equates two three-arm events and supplies discrete Cauchy–Riemann equations. For Ising, the observable is fermionic and discrete holomorphicity comes from integrability. The methods are cousins, not copies: the lattice must offer an identity strong enough to close the system, which is why one lattice can fall and another remain open.
-
-The medal is not “he guessed Cardy’s formula.” A physicists’ conjecture became a theorem with an explicit crossing law; discrete holomorphic observables reorganized 2D statistical mechanics; and once those observables are conformally invariant, the Schramm–Lawler–Werner curve theory can attach $$\mathrm{SLE}_6$$ or $$\mathrm{SLE}_3$$ to a named lattice model. The 2010 class also included Lindenstrauss, Ngô, and Villani—see [Villani]({{ site.baseurl }}/contents/en/chapter02/02_29_Villani_Landau_Boltzmann/) for a kinetic citation from the same congress.
+$$
+\text{Critical lattice model}
+\;\xrightarrow{\text{Color-switching / Fermions}}\;
+\text{Discrete Cauchy–Riemann}
+\;\xrightarrow{\delta \to 0}\;
+\text{Conformally invariant limit}
+\;\longrightarrow\;
+\mathrm{SLE}_6 \text{ \& } \mathrm{SLE}_3.
+$$
 
 ---
 
-## 6. What remains open, honestly
+## 3. What Remains Open and Why a Fields Medal
 
-Critical bond percolation on the square lattice, and conformal invariance of percolation on general planar lattices, are still not theorems in the sense of Smirnov 2001. Many exponents and arm events are known for the triangular site model once conformal invariance is available; the corresponding statements on other lattices often remain conjectural or only partially transferred. Self-avoiding walk, whose predicted scaling limit is $$\mathrm{SLE}_{8/3}$$, is a famous neighbour that is **not** a Smirnov theorem. The Duminil-Copin portrait treats sharpness of phase transitions and related lattice results that complement, rather than repeat, the 2001 conformal-invariance theorem.
+- **Critical bond percolation on the square lattice $$\mathbb{Z}^2$$** (and universality of planar percolation across general lattices) remains open, because Smirnov’s color-switching identity requires the threefold symmetry of $$\mathbb{T}$$.
+- **Self-avoiding walk** (conjecturally $$\mathrm{SLE}_{8/3}$$) remains a famous open problem.
+- Later work by [Duminil-Copin]({{ site.baseurl }}/contents/en/chapter02/02_19_Duminil_Copin_Phase_Transitions/) (Fields 2022) complements this story with 2D FK rotational invariance and 3D/4D phase-transition theorems.
+
+**Why a Fields Medal 2010:** Smirnov turned flagship predictions of 2D statistical physics into rigorous theorems, forged **discrete complex analysis** into a modern powerhouse, and anchored Schramm–Lawler–Werner’s SLE directly to concrete lattice models—alongside 2010 classmates Lindenstrauss, Ngô, and [Villani]({{ site.baseurl }}/contents/en/chapter02/02_29_Villani_Landau_Boltzmann/).
 
 ---
 

@@ -10,11 +10,22 @@ categories:
 lesson_type: required
 ---
 
-A neural network does not “think in words” inside the GPU. It multiplies matrices, adds biases, applies simple nonlinearities, and repeats. Recommendation systems, image classifiers, language models, and PCA dashboards all speak the same mother tongue: **vectors, matrices, and linear maps**—with nonlinear spices.
+When you ask a large language model a question and get a fluent reply one second later, what is actually happening inside those thousands of humming GPU chips? The machine is not “reading English” or “picturing scenes” the way humans imagine. The one operation it executes trillions of times per second is **multiplying huge tables of numbers**, adding a shift vector, bending the result with a simple nonlinearity, and repeating the cycle dozens of times.
 
-**Path:** data as geometry → linear layers → depth and nonlinearity → SVD/PCA → gradients on parameters → structured maps (conv, attention) → what linear algebra does *not* explain → confusions.
+From Netflix movie recommendations and smartphone face unlock to hundred-billion-parameter Transformers, every modern AI system speaks the same nineteenth-century mathematical language: **vectors, matrices, and linear maps**. This lecture shows how linear algebra becomes the geometric skeleton of AI—and where calculus, probability, and optimization step in to finish the job.
 
-This lecture maps the **mechanism chain** from abstract linear algebra to deployed machine learning—not “AI uses math” as a slogan, but *which* operations power training and inference.
+---
+
+## Background Knowledge Map: What Is Linear Algebra and What Does It Study?
+
+Many students first meet linear algebra as a mechanical course on determinants and Gaussian elimination, then forget it after finals. At its heart, **linear algebra** is the mathematics of **high-dimensional geometry** and **transformations that preserve straight lines** (linear maps), organized around **four pillars**:
+
+1. **Vector Spaces & Coordinates:** Representing any complex object—an image, an audio clip, a sentence, a user profile—as a point in $$\mathbb{R}^d$$ so we can add, scale, and measure distances.
+2. **Matrices as Geometric Transformations:** Instead of viewing a matrix $$W$$ as a static grid of numbers, view it as a machine that *rotates, stretches, shears, or projects* an entire cloud of data into coordinates where classes become separable.
+3. **Inner Products & Orthogonality:** Defining *angles* and *similarity* in thousands of dimensions—powering vector search, Transformer attention scores, and least-squares projections.
+4. **Matrix Decompositions (Eigenvalues & SVD):** Extracting the dominant “backbone axes” of a transformation or massive dataset to compress information, denoise signals, and diagnose dynamical stability.
+
+In short: **GPUs excel at parallel addition and multiplication on arrays.** Linear algebra is the bridge turning messy sensory data into clean high-dimensional geometry.
 
 ---
 
@@ -81,6 +92,31 @@ The final layer often is linear (or softmax-linear) for classification: scores $
 **Universal approximation** theorems say shallow wide networks can approximate continuous functions on compact sets, but depth often yields better *inductive bias* and parameter efficiency for the same accuracy. Linear algebra alone does not pick the architecture; it *implements* whatever architecture you chose.
 
 ---
+
+### Deep-Dive Explanation: How Matrix Multiplication + ReLU Solves XOR by Hand (Read Slowly)
+
+Why can a 2-layer neural network separate patterns that no single straight line can separate? Let us watch a concrete 2-layer ReLU network **untangle the classic XOR problem** by hand on the four corners of the unit square: $$(0,0):0,\ (1,1):0,\ (1,0):1,\ (0,1):1$$.
+
+1. **Why one linear layer fails:** No straight line in $$\mathbb{R}^2$$ can put $$(0,0)$$ and $$(1,1)$$ on one side and $$(1,0)$$ and $$(0,1)$$ on the other.
+2. **Layer 1 — Linear map + ReLU folds the plane:** Choose exact integer weights:
+   $$
+   W_1 = \begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix}, \qquad
+   b_1 = \begin{pmatrix} 0 \\ -1 \end{pmatrix}, \qquad
+   h(x) = \mathrm{ReLU}(W_1 x + b_1).
+   $$
+   Evaluate $$h(x)$$ at all four input corners by hand:
+   - $$x = (0,0) \;\mapsto\; W_1 x + b_1 = (0, -1) \;\xrightarrow{\mathrm{ReLU}}\; h = (0, 0)$$.
+   - $$x = (1,0) \;\mapsto\; W_1 x + b_1 = (1, 0) \;\xrightarrow{\mathrm{ReLU}}\; h = (1, 0)$$.
+   - $$x = (0,1) \;\mapsto\; W_1 x + b_1 = (1, 0) \;\xrightarrow{\mathrm{ReLU}}\; h = (1, 0)$$.
+   - $$x = (1,1) \;\mapsto\; W_1 x + b_1 = (2, 1) \;\xrightarrow{\mathrm{ReLU}}\; h = (2, 1)$$.
+   Notice the geometric miracle: **ReLU collapsed the two class-1 points $$(1,0)$$ and $$(0,1)$$ onto the exact same point $$(1,0)$$, while lifting $$(1,1)$$ off the horizontal axis to $$(2,1)$$!**
+3. **Layer 2 — A single linear readout now solves it cleanly:** Take $$w_2 = (1, -2)$$ (zero bias) and compute $$y = w_2 h$$:
+   - At $$(0,0)$$: $$1(0) - 2(0) = 0$$.
+   - At $$(1,0)$$ and $$(0,1)$$: $$1(1) - 2(0) = 1$$.
+   - At $$(1,1)$$: $$1(2) - 2(1) = 0$$.
+   **100% exact classification on all four points!**
+
+**Quick check:** A deep network is not memorizing verbal rules; it is learning a **sequence of geometric folds** that warps entangled input data until a simple flat hyperplane $$w^\top h + b = 0$$ can slice the classes apart at the final layer.
 
 ## 4. SVD, PCA, and low-rank structure
 

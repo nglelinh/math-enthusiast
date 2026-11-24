@@ -9,17 +9,28 @@ categories:
 - chapter09
 ---
 
-**Judea Pearl** received the **A.M. Turing Award 2011** for fundamental contributions to artificial intelligence through the development of a calculus for **probabilistic and causal reasoning**. The medal is not for a faster sorting routine. It is for making **causation** a mathematical object with graphs, interventions, and inference rules—tools that sit between statistics, AI, epidemiology, and the philosophy of science, with enough precision to support algorithms.
+Try confronting a paradox that once baffled both doctors and statisticians (**Simpson's Paradox**): a hospital aggregates kidney-stone treatment records and discovers that Treatment A has a higher recovery rate than Treatment B for **both** small-stone patients and large-stone patients. Yet when all 700 charts are pooled into a single table, Treatment B suddenly beats Treatment A! Looking purely at the numbers, which treatment should you choose? Astonishingly, the answer *does not live inside the data table*—it depends on the **causal story** behind the data (doctors tended to assign the stronger open surgery to harder, large-stone cases).
 
-Popular culture still confuses “correlation” with “cause.” Pearl’s framework gives seminar students something better than a scolding: a language of **causal graphs**, **do-operators**, and (at slogan level) **do-calculus** that distinguishes seeing from doing. Bayesian networks supply the probabilistic backbone. This lecture is literacy for LO6 and for anyone who will read empirical claims in AI or social science. Official materials: [amturing.acm.org](https://amturing.acm.org/). Cross-links: [probability & data science]({{ site.baseurl }}/contents/en/chapter03/03_04_Probability_Data_Science/), [Mathematics of AI]({{ site.baseurl }}/contents/en/chapter06/06_02_Mathematics_of_AI/), [ML theory]({{ site.baseurl }}/contents/en/chapter06/06_10_ML_Theory/).
+For a full century, classical statistics treated the word "cause" as near-taboo, repeating the mantra *"correlation is not causation."* **Judea Pearl** (winner of the **2011 A.M. Turing Award**) broke that silence by giving causality a **complete mathematical language** of directed acyclic graphs (DAGs), the intervention operator $$do(x)$$, and **do-calculus**. The medal is not for a faster sorting routine—it is for making causation a formal object that supports algorithms across AI, epidemiology, and policy. Official materials: [amturing.acm.org](https://amturing.acm.org/). Cross-links: [probability & data science]({{ site.baseurl }}/contents/en/chapter03/03_04_Probability_Data_Science/), [Mathematics of AI]({{ site.baseurl }}/contents/en/chapter06/06_02_Mathematics_of_AI/), [ML theory]({{ site.baseurl }}/contents/en/chapter06/06_10_ML_Theory/).
 
 ---
 
 ## Learning objectives
 
-After this lecture you should be able to distinguish association (conditioning) from intervention (the $$do$$ operator) in slogan form; explain a causal Bayesian network as a directed acyclic graph (DAG) plus local conditional distributions; state what a confounder is and why “control for everything” is not always right; describe do-calculus as a symbolic calculus for reducing interventional queries to observational expressions when the graph permits; and critique a media causal claim with one graph-shaped objection (LO6).
+After this lecture you should be able to distinguish association (conditioning) from intervention (the $$do$$ operator) in slogan form; explain a causal Bayesian network as a directed acyclic graph (DAG) plus local conditional distributions; state what a confounder is and why “control for everything” is not always right; describe do-calculus as a symbolic calculus for reducing interventional queries to observational expressions when the graph permits; and critique a media causal claim with a graph-shaped objection.
 
-**Prerequisites / seminar links.** Basic probability: conditional probability $$\mathbb{P}(A\mid B)$$, chain rule, independence. Graphs as directed edges. No measure-theoretic probability required. Seminar LOs: especially LO6 (hype vs precision) and LO4 (mechanism, not buzzword). Chapter hub: [Turing overview]({{ site.baseurl }}/contents/en/chapter09/09_00_Overview/).
+**Prerequisites / cross-links.** Basic probability: conditional probability $$\mathbb{P}(A\mid B)$$, chain rule, independence. Graphs as directed edges. No measure-theoretic probability required. Chapter hub: [Turing overview]({{ site.baseurl }}/contents/en/chapter09/09_00_Overview/).
+
+---
+
+## Background Knowledge Map: What Are Causal Inference and Probabilistic Graphical Models?
+
+Most data-science and machine-learning graduates are comfortable estimating conditional probabilities $$p(y \mid x)$$—for instance, *"given that a shopper bought diapers, what is the probability they buy beer?"* Yet the moment you step into decision-making—*"if we actively cut the price of drug $$X$$, how will recovery rate $$Y$$ change?"*—observational probability $$p(y \mid x)$$ breaks down, because **seeing $$X=x$$** (passive observation) is fundamentally different from **forcing $$X=x$$** (active intervention)!
+
+That is the arena of **Causal Inference** and **Probabilistic Graphical Models**, resting on three pillars:
+1. **Directed Acyclic Graphs (DAGs) as Mechanism Maps:** instead of treating every column in a flat table symmetrically, we draw arrows $$A \to B$$ to assert that $$A$$ is a direct cause of $$B$$. A DAG factors a massive joint distribution into local conditionals and lets us read off conditional independencies via **d-separation**.
+2. **The $$do(x)$$ Operator and Do-Calculus:** intervening via $$do(X=x)$$ performs "graph surgery": **sever every incoming arrow into $$X$$** (since we now set $$X$$ ourselves rather than letting confounders choose it) and compute the new distribution of $$Y$$. Pearl's **do-calculus** gives exactly three algebraic rewrite rules answering when $$p(y \mid do(x))$$ can be computed purely from observational data without running an expensive randomized controlled trial (RCT).
+3. **Structural Causal Models (SCMs) and Counterfactuals:** at the deepest layer, each variable obeys a structural equation $$X_i := f_i(\mathrm{Pa}_i, U_i)$$ with background noise $$U_i$$. Holding a specific individual's noise $$U_i$$ fixed while altering the equation for $$X$$ defines **counterfactuals** (*"what would have happened to this patient had they skipped the drug?"*)—the mathematical bedrock of personalized medicine and algorithmic fairness.
 
 ---
 
@@ -67,9 +78,50 @@ In a **causal** DAG interpretation, an arrow $$X\to Y$$ asserts a direct mechani
 
 ### Confounding slogan
 
-If $$Z$$ influences both treatment $$X$$ and outcome $$Y$$, the observational association between $$X$$ and $$Y$$ mixes the causal effect with the spurious path through $$Z$$. Adjusting for $$Z$$ (when appropriate) blocks the fork. Adjusting for a collider can open a biasing path. Hence the LO6-ready sentence:
+If $$Z$$ influences both treatment $$X$$ and outcome $$Y$$, the observational association between $$X$$ and $$Y$$ mixes the causal effect with the spurious path through $$Z$$. Adjusting for $$Z$$ (when appropriate) blocks the fork. Adjusting for a collider can open a biasing path. Hence the key rule:
 
 > “Control for all variables” is not a theorem; **which** variables you condition on depends on the causal graph.
+
+### Worked Example (Step by Step): Dissecting Simpson's Paradox on 700 Kidney-Stone Patients
+
+Check the famous kidney-stone dataset (Charig et al., 1986) on **700 patients**—350 given **Treatment A** (open surgery) and 350 given **Treatment B** (percutaneous nephrolithotomy). Stone size $$Z$$ ($$Z=0$$: small, $$Z=1$$: large) is a **confounder** affecting both the doctor's choice $$X$$ and recovery $$Y$$ (graph: $$Z \to X$$, $$Z \to Y$$, $$X \to Y$$):
+
+| Subgroup by Stone Size ($$Z$$) | Treatment A ($$X=A$$) | Treatment B ($$X=B$$) | Subgroup Winner |
+|---|---|---|---|
+| Small stones ($$Z=0$$, $$357$$ total) | $$81 / 87 = 93.1\%$$ | $$234 / 270 = 86.7\%$$ | **A wins** ($$+6.4\%$$) |
+| Large stones ($$Z=1$$, $$343$$ total) | $$192 / 263 = 73.0\%$$ | $$55 / 80 = 68.8\%$$ | **A wins** ($$+4.2\%$$) |
+| **Pooled raw rate (observational $$p(Y=1 \vert X)$$)** | **$$273 / 350 = 78.0\%$$** | **$$289 / 350 = 82.6\%$$** | **B wins** ($$+4.6\%$$)! |
+
+Why does pooling reverse the winner? Look at the denominators: doctors assigned Treatment A to $$263/350 = 75.1\%$$ **large-stone** (harder) cases, while Treatment B got $$270/350 = 77.1\%$$ **small-stone** (easier) cases!
+
+Now apply Pearl's **back-door adjustment formula** $$p(Y=1\mid do(x)) = \sum_z p(Y=1\mid x,z)\,p(z)$$ using the true population proportions of stone sizes:
+
+$$
+p(Z=0) = \frac{87 + 270}{700} = \frac{357}{700} = 51.0\%, \qquad p(Z=1) = \frac{263 + 80}{700} = \frac{343}{700} = 49.0\%.
+$$
+
+Weighting by population $$p(Z)$$ instead of the biased assignment $$p(Z\mid X)$$:
+
+$$
+p(Y=1 \mid do(X=A)) = 0.51 \times 0.931 + 0.49 \times 0.730 \approx 0.4748 + 0.3577 = \mathbf{83.25\%},
+$$
+
+$$
+p(Y=1 \mid do(X=B)) = 0.51 \times 0.867 + 0.49 \times 0.688 \approx 0.4422 + 0.3371 = \mathbf{77.93\%}.
+$$
+
+The reversal vanishes: **Treatment A genuinely beats Treatment B by $$+5.32$$ percentage points** ($$83.25\%$$ vs. $$77.93\%$$)!
+
+And in two lines, here is **Rung 3 (Counterfactual)** on a linear SCM $$Y := 2X + U_Y$$ (study hours $$X$$, exam score $$Y$$, student aptitude $$U_Y$$): observing $$X'=1$$ and $$Y'=7$$ fixes $$U_Y = 7 - 2(1) = 5$$ (*abduction*), so *"had this exact student studied $$X=3$$ hours, their score would have been $$Y_{X=3} = 2(3) + 5 = 11$$."*
+
+### Deep-Dive Explanation: Why Intervention Is "Graph Surgery" (Read Slowly)
+
+1. **Separate *seeing* from *doing*:** computing $$p(Y=1 \mid X=A)$$ filters for patients whom doctors *naturally chose* for A—which leaks information backward up $$Z \to X$$ that they mostly had large stones ($$75.1\%$$).
+2. **Sever all incoming arrows to $$X$$:** performing $$do(X=A)$$ (assigning A to a random patient) **deletes** the arrow $$Z \to X$$ from the graph. Stone size $$Z$$ no longer influences treatment, so $$Z$$'s distribution snaps back to the population mix $$p(Z) = (51\%, 49\%)$$.
+3. **Keep every other mechanism intact:** the biological response $$p(Y=1 \mid X, Z)$$ (arrows $$X \to Y$$ and $$Z \to Y$$) stays unchanged, so averaging stratum rates against $$p(Z)$$ recovers the exact causal effect.
+4. **Watch out when the causal story changes:** if $$Z$$ were *not* pre-treatment stone size, but **post-treatment blood pressure** (a mediator $$X \to Z \to Y$$), there is *no* back-door path into $$X$$—adjusting for $$Z$$ would **block the drug's own effect**! The exact same 700-row table yields opposite medical advice under two different causal graphs.
+
+**Quick check.** If a city's population shifted to $$p(Z=0)=80\%$$ small stones and $$p(Z=1)=20\%$$ large stones, what would $$p(Y=1 \mid do(X=A))$$ become? $$0.8 \times 93.1\% + 0.2 \times 73.0\% = 74.48\% + 14.60\% = \mathbf{89.08\%}$$—the causal population rate tracks $$p(Z)$$ even while the biological stratum rates stay fixed.
 
 ### Identification
 
@@ -99,7 +151,7 @@ Connections to course chapters:
 - [ML theory]({{ site.baseurl }}/contents/en/chapter06/06_10_ML_Theory/): generalization under i.i.d. draws—often the *observational* regime.  
 - [Mathematics of AI]({{ site.baseurl }}/contents/en/chapter06/06_02_Mathematics_of_AI/): systems that act in the world need causal caution when they intervene (recommend, moderate, diagnose).
 
-**Counterfactuals** (what would have happened to *this* unit under another treatment?) sit at a higher layer of Pearl’s hierarchy: association < intervention < counterfactuals. Seminar literacy can stop at intervention vs association and still gain most of the LO6 power.
+**Counterfactuals** (what would have happened to *this* unit under another treatment?) sit at a higher layer of Pearl’s hierarchy: association < intervention < counterfactuals.
 
 ---
 
@@ -115,7 +167,7 @@ Suppose ice-cream sales $$X$$ and drowning incidents $$Y$$ rise together across 
 
 ### Pearl’s ladder (association / intervention / counterfactual)
 
-Pearl often describes a hierarchy: (1) association—what is? (2) intervention—what if we do? (3) counterfactuals—what if we had done otherwise, for a unit that already experienced an outcome? Machine learning products mostly live on rung (1). Policy, medicine, and accountability questions often need rung (2). Legal and moral “but-for” reasoning pushes toward rung (3), which requires stronger assumptions. Seminar LO6 practice: when a demo claims a model “understands causes,” ask which rung has evidence.
+Pearl often describes a hierarchy: (1) association—what is? (2) intervention—what if we do? (3) counterfactuals—what if we had done otherwise, for a unit that already experienced an outcome? Machine learning products mostly live on rung (1). Policy, medicine, and accountability questions often need rung (2). Legal and moral “but-for” reasoning pushes toward rung (3), which requires stronger assumptions. When a demo claims a model “understands causes,” ask which rung has evidence.
 
 ### Compatibility with potential outcomes
 
@@ -194,7 +246,7 @@ Complete list: `research/video-research/pearl-causality/references.md`.
 - Work a tiny three-variable example with numbers: association vs intervention under a known SEM.  
 - Read one explainer on front-door vs back-door criteria.  
 - Compare Pearl graphs with potential-outcomes notation on the same toy experiment.  
-- Apply LO6 to an A/B test writeup vs an observational “AI discovered that…” claim.  
+- Compare an A/B test writeup against an observational “AI discovered that…” claim.  
 - Next: [Bengio, Hinton, LeCun]({{ site.baseurl }}/contents/en/chapter09/09_12_Deep_Learning_Trio/)—learning systems at scale, still needing causal humility when they act.
 
 ## Video tham khảo

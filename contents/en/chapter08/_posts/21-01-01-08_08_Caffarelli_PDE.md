@@ -10,12 +10,16 @@ categories:
 lesson_type: required
 ---
 
-**Luis A. Caffarelli** (University of Texas at Austin) received the **Abel Prize 2023**
+Drop an ice cube into a glass of warm water and watch closely: the boundary between solid ice and liquid water does not sit still—it moves, bends, and shrinks in response to the heat flowing through it. Or stretch an elastic membrane over a smooth pebble: where does the membrane hug the pebble, and where does it lift off into the air? The dividing curve between those two regions is not drawn in advance—it is an **unknown geometric shape** determined by the balance of forces itself. Must that interface stay smooth, or can it suddenly develop sharp corners and cusps?
+
+For more than four decades, **Luis A. Caffarelli** (University of Texas at Austin) turned those deceptively physical questions into some of the deepest regularity theorems in modern analysis. In **2023**, he received the **Abel Prize**:
 
 > “for his seminal contributions to regularity theory for nonlinear partial differential equations including free-boundary problems and the Monge–Ampère equation.”  
 > — [Abel Prize Committee citation](https://abelprize.no/abel-prize-laureates/2023)
 
-This lecture explains what **regularity theory** aims to do; what a **free-boundary problem** is; why the **Monge–Ampère equation** sits at the center of fully nonlinear PDE and optimal transport; and how **Caffarelli–Kohn–Nirenberg partial regularity** for Navier–Stokes relates to—but does not solve—the Clay Millennium problem. Official materials: [abelprize.no](https://abelprize.no/).
+From free-boundary problems like melting ice and elastic membranes, to the fully nonlinear Monge–Ampère equation at the heart of optimal transport, to the landmark **Caffarelli–Kohn–Nirenberg (CKN)** partial regularity theorem for Navier–Stokes fluid flow, Caffarelli taught the entire field how to place a microscope on the exact spots where nonlinear equations threaten to break down. Official materials: [abelprize.no](https://abelprize.no/).
+
+**Lesson arc:** Background Knowledge Map (nonlinear PDEs, regularity theory, free boundaries) → Free boundaries and the obstacle problem → Deep-Dive Explanation: solving the 1D obstacle problem by hand and watching the second derivative jump → The Monge–Ampère equation → CKN partial regularity for Navier–Stokes.
 
 ---
 
@@ -24,6 +28,21 @@ This lecture explains what **regularity theory** aims to do; what a **free-bound
 After this lecture you should be able to define a free-boundary problem and give a physical example; explain regularity theory’s goal (when solutions and interfaces are smooth); locate Monge–Ampère among fully nonlinear equations; state what CKN partial regularity does and does **not** claim about Navier–Stokes; and distinguish derivation of fluid equations (e.g. kinetic bridges) from regularity of continuum NS.
 
 **Prerequisites.** Multivariable calculus; the idea of a PDE such as Laplace’s equation $$\Delta u = 0$$. Cross-links: [Navier–Stokes Millennium]({{ site.baseurl }}/contents/en/chapter01/01_05_Navier_Stokes/), [Deng PDE]({{ site.baseurl }}/contents/en/chapter02/02_12_Deng_PDE/), [DE applications]({{ site.baseurl }}/contents/en/chapter03/03_09_Differential_Equations_Applications/).
+
+---
+
+## Background Knowledge Map: What Are Nonlinear PDEs, Regularity Theory, and Free-Boundary Problems, and What Do They Study?
+
+Most undergraduates meet **linear PDEs** like the heat equation, wave equation, or Laplace’s equation $$\Delta u = u_{xx} + u_{yy} = 0$$. In the linear world, solutions are polite: sums of solutions remain solutions, and smooth data usually produce smooth answers. Nature, however, is rarely linear, and three pillars open the door to Caffarelli’s world:
+
+### 1. Nonlinear and Fully Nonlinear PDEs
+A PDE is nonlinear when the unknown $$u$$ or its derivatives multiply each other or enter nonlinearly (like $$u \cdot \nabla u$$ in Navier–Stokes, or the determinant of the second-derivative matrix $$\det D^2 u = f$$ in Monge–Ampère). You can no longer superpose solutions, and even perfectly smooth initial data can spontaneously form **singularities**—kinks, shock waves, or blowing-up curvature.
+
+### 2. Regularity Theory
+Using calculus of variations, it is often relatively easy to prove that a **"weak solution"** exists—a rough function that may not even have classical derivatives. **Regularity theory** asks the hard follow-up: *is that weak solution actually smooth ($$C^1, C^{1,1}, C^\infty$$)? And if singular points do appear, how small (in Hausdorff dimension) must the bad set be?*
+
+### 3. Free-Boundary Problems
+In a fixed-boundary problem, the domain $$\Omega$$ is handed to you up front (e.g., find the temperature inside a fixed circular plate). In a **free-boundary problem**, the boundary separating two states—ice vs. water, contact vs. non-contact on an obstacle, or hold vs. exercise in an American financial option—is **part of the unknown**, to be solved simultaneously with $$u$$!
 
 ---
 
@@ -47,7 +66,7 @@ Classical examples:
 
 - **Obstacle problem:** an elastic membrane above an obstacle; the contact set’s boundary is free.  
 - **Stefan problem:** melting ice; the solid–liquid interface moves and is free.  
-- **Fluid interfaces:** regions occupied by different phases or fluids.
+- **American options in finance:** the moving threshold separating "keep holding" from "exercise immediately" is a free boundary.
 
 Mathematically one often studies a function $$u$$ satisfying different equations in $$\{u>0\}$$ and $$\{u=0\}$$, with transmission conditions on the free boundary $$\partial\{u>0\}$$.
 
@@ -63,13 +82,27 @@ Almost-optimal smoothness statements and classification of blow-up profiles beca
 
 The classical obstacle problem seeks the equilibrium of a membrane constrained to stay above an obstacle $$\varphi$$. Variationally, one minimizes Dirichlet energy among functions $$v\ge \varphi$$. The solution $$u$$ is harmonic (or solves a related elliptic equation) where it does not touch the obstacle, and the **coincidence set** $$\{u=\varphi\}$$ has a free boundary.
 
-Regularity theory asks:
+### Deep-Dive Explanation: Solving the 1D Obstacle Problem by Hand and Seeing the $$C^{1,1}$$ Jump (Read Slowly)
 
-- How regular is $$u$$?  
-- How regular is the free boundary?  
-- What are possible blow-up shapes at free-boundary points?
+To see concretely what "an unknown free boundary" means—and why optimal regularity stops at $$C^{1,1}$$ rather than $$C^2$$—let us solve a 1D obstacle problem completely by hand!
 
-Caffarelli’s results give deep answers in classical settings and set templates: zoom in, rescale, classify homogeneous limits, feed information back to original scale.
+**Problem:** Stretch an elastic string $$u(x)$$ over the interval $$[-2, 2]$$ pinned to the ground at both ends, $$u(-2) = u(2) = 0$$, constrained to stay above the parabolic bump $$\varphi(x) = 1 - x^2$$ (so $$u(x) \ge 1 - x^2$$), minimizing the elastic energy $$\int_{-2}^2 (u'(x))^2\,dx$$.
+
+1. **Split into two regions by symmetry:** Near the peak ($$\lvert x\rvert \le a$$), the string hugs the parabola: $$u(x) = 1 - x^2$$. Farther out ($$a < \lvert x\rvert \le 2$$), it lifts off and pulls into a straight line ($$u''(x) = 0$$). The lift-off points $$x = \pm a$$ are the **unknown free boundary**!
+2. **Locate $$a$$ by smooth tangency:** If the string left the parabola with a corner, shaving that corner off would lower the energy. Hence at $$x = a$$, the straight segment joining $$(a, 1-a^2)$$ to $$(2, 0)$$ must be **tangent** to the parabola ($$u'(a) = \varphi'(a) = -2a$$):
+   $$
+   \frac{0 - (1 - a^2)}{2 - a} = -2a \iff a^2 - 1 = -4a + 2a^2 \iff a^2 - 4a + 1 = 0.
+   $$
+   Solving this quadratic for $$0 < a < 2$$ pins down the exact free boundary:
+   $$
+   a = 2 - \sqrt{3} \approx 0.268!
+   $$
+3. **Check smoothness right at $$x = a \approx 0.268$$:**
+   - The height $$u$$ is continuous: $$u(a^-) = u(a^+) = 1 - a^2 \approx 0.928$$.
+   - The slope $$u'$$ is continuous: $$u'(a^-) = u'(a^+) = -2a \approx -0.536$$ (so $$u \in C^1$$).
+   - **The second derivative $$u''$$ jumps abruptly:** just left of $$a$$, $$u''(a^-) = \varphi''(a) = \mathbf{-2}$$; just right of $$a$$, the string is straight so $$u''(a^+) = \mathbf{0}$$!
+
+That exact $$-2 \to 0$$ jump explains why the sharpest possible regularity for the obstacle problem is **$$C^{1,1}$$** (Lipschitz first derivative, bounded but discontinuous second derivative)! In higher dimensions ($$n \ge 2$$), Caffarelli’s textbook template takes over: center at a free-boundary point $$x_0$$, zoom in via rescaling, classify the simple homogeneous limit profiles (half-spaces or paraboloids), and feed flatness back to the original scale.
 
 ---
 
@@ -87,7 +120,7 @@ $$
 \det D^2 u = f(x,u,\nabla u)
 $$
 
-(in suitable form) is central in affine geometry, prescribed curvature problems, and **optimal transport** (where convex potentials satisfy Monge–Ampère-type equations relating measures). Caffarelli’s regularity theory for Monge–Ampère and related equations is a pillar of modern geometric analysis and transport.
+(in suitable form) is central in affine geometry, prescribed Gauss curvature problems, and **optimal transport** (where by Brenier’s theorem, the optimal map moving a sandpile $$\mu$$ into a hole $$\nu$$ is $$T(x) = \nabla u(x)$$ for a convex potential $$u$$ solving $$\det D^2 u(x) = \mu(x)/\nu(\nabla u(x))$$). Caffarelli’s regularity theory for Monge–Ampère and related equations is a pillar of modern geometric analysis and transport.
 
 The Abel citation names Monge–Ampère explicitly: not as a side project, but as a flagship of the nonlinear regularity program.
 
@@ -95,7 +128,7 @@ The Abel citation names Monge–Ampère explicitly: not as a side project, but a
 
 ## 5. Navier–Stokes partial regularity (CKN)
 
-With **Robert Kohn** and **Louis Nirenberg**, Caffarelli proved **partial regularity** results for suitable weak solutions of the Navier–Stokes equations: the singular set, if nonempty, is tightly constrained in space-time measure (in particular, it cannot be too large).
+With **Robert Kohn** and **Louis Nirenberg**, Caffarelli proved **partial regularity** results for suitable weak solutions of the Navier–Stokes equations: the singular set, if nonempty, is tightly constrained in space-time measure (its 1-dimensional parabolic Hausdorff measure is $$0$$, so singularities cannot even form a continuous curve in 4D space-time).
 
 This is among the deepest partial results on NS regularity—and still **short of** global smoothness for all smooth initial data in 3D, which remains a [Clay Millennium Problem]({{ site.baseurl }}/contents/en/chapter01/01_05_Navier_Stokes/).
 

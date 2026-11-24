@@ -15,9 +15,11 @@ categories:
 > *Optional:* kissing numbers, lattice vs nonlattice, high-dimensional weirdness.  
 > **Tao / Big Think frame:** cannonballs → Kepler → discrete high-dimensional packing as wireless codes — [Six Math Essentials]({{ site.baseurl }}/contents/en/chapter04/04_01_Six_Math_Essentials/) · [Viazovska essay]({{ site.baseurl }}/contents/en/chapter02/02_08_Viazovska_Sphere_Packing/) · [video](https://www.youtube.com/watch?v=OOMx2BHHWtE).
 
-This studio asks a deceptively physical question: what is the densest way to pack equal non-overlapping balls in $$\mathbb{R}^n$$? In the plane you can settle the dispute with coins. In three dimensions Kepler’s conjecture waited centuries. In dimensions 8 and 24, modular forms and Fourier analysis decide optimality. Most dimensions remain open.
+In the late sixteenth century, explorer Sir Walter Raleigh asked his mathematical assistant Thomas Harriot how many cannonballs could fit in a ship's hold. Harriot forwarded the puzzle to astronomer Johannes Kepler, who conjectured in 1611 that nothing beats the pyramid stack grocers have used for oranges since antiquity. It looked completely obvious—yet humanity needed nearly **400 years**, culminating in Thomas Hales's computer-assisted proof, to settle three dimensions.
 
-Your goal is not to construct Viazovska’s magic function. Your goal is to **define density carefully**, **measure real packings**, **compare candidates**, and practice the difference between a **sharp theorem** in special dimensions and a **heuristic** or **numerical upper/lower bound** elsewhere.
+The real shock, however, lives in spaces our eyes cannot see: in 2016, Maryna Viazovska stunned the mathematical world by solving sphere packing in **dimension 8** (the $$E_8$$ lattice) in roughly twenty pages, and with coauthors settled **dimension 24** (the Leech lattice) the very next week—while dimensions 4, 5, 6, and 7 remain wide open! Your goal in this studio is not to construct Viazovska’s magic function. It is to **define density carefully**, **measure real packings**, **compare lattice matrices**, and see sharply where exact theorems stop and numerical bounds begin.
+
+**Lesson roadmap:** Background Knowledge Map (discrete geometry & lattices, Fourier/Poisson summation, modular forms) → Packing density → Deep-Dive Explanation (Read Slowly): hand-computing 2D lattice matrices and watching Poisson summation lock down density → Dimensions 3, 8, 24 & volume decay $$V_n \to 0$$ → Studio experiments & log.
 
 ---
 
@@ -36,6 +38,30 @@ After this studio you should be able to:
 
 ---
 
+## Background Knowledge Map: What Are Discrete Geometry, Lattice Theory, and Fourier Bounds?
+
+Stacking oranges sounds like carpentry, yet in $$\mathbb{R}^n$$ sphere packing sits at the crossroads of three deep mathematical and engineering disciplines:
+
+### 1. Discrete Geometry and Lattice Theory
+
+A **lattice** $$\Lambda \subset \mathbb{R}^n$$ is the set of all integer combinations $$k_1 v_1 + \dots + k_n v_n$$ ($$k_i \in \mathbb{Z}$$) of $$n$$ linearly independent basis vectors—picture a crystal grid extended into $$n$$ dimensions. Discrete geometry studies how to optimize density, minimum spacing, kissing numbers, and symmetry of such point configurations.
+
+Its most surprising real-world home is **error-correcting codes and wireless communication**: every digital message transmitted over a noisy channel (5G, Wi-Fi, or deep-space probes) is a point in $$\mathbb{R}^n$$, and random noise blurs it into an error ball around that point. Packing more non-overlapping spheres into space means sending more bits reliably without decoding collisions!
+
+### 2. Fourier Analysis and the Poisson Summation Formula
+
+How can anyone prove that *no* infinite packing in $$\mathbb{R}^8$$ beats $$E_8$$ when you cannot possibly list infinitely many arrangements? Henry Cohn and Noam Elkies (2003) moved the problem into **harmonic analysis** via the **Poisson summation formula**:
+$$
+\sum_{x \in \Lambda} f(x) = \frac{1}{\operatorname{Vol}(\mathbb{R}^n/\Lambda)} \sum_{\xi \in \Lambda^*} \hat f(\xi),
+$$
+turning geometric non-overlap constraints into sign constraints on a radial test function $$f$$ and its Fourier transform $$\hat f$$.
+
+### 3. Modular Forms
+
+Modular forms are analytic functions on the upper half-plane possessing extraordinary symmetries under $$\mathrm{SL}_2(\mathbb{Z})$$. Maryna Viazovska's Fields Medal breakthrough was realizing that modular forms can tailor-make the exact auxiliary function $$f$$ whose zeros line up with every shell radius of the $$E_8$$ lattice (dimension 8) and the Leech lattice (dimension 24).
+
+---
+
 ## 1. Background mathematics
 
 ### 1.1 Density
@@ -49,28 +75,49 @@ $$
 For a **lattice packing** with centers at lattice points $$\Lambda$$ and minimal nonzero distance $$2r$$ (so balls of radius $$r$$ just touch), density reduces to the volume of one ball divided by the volume of a fundamental cell:
 
 $$
-\delta(\Lambda)=\frac{\operatorname{Vol}(B(0,r))}{\operatorname{Vol}(\mathbb{R}^n/\Lambda)}.
+\delta(\Lambda)=\frac{\operatorname{Vol}(B(0,r))}{\operatorname{Vol}(\mathbb{R}^n/\Lambda)} = \frac{\operatorname{Vol}(B(0,r))}{\lvert\det M\rvert},
 $$
+
+where $$M$$ is the matrix whose columns are the basis vectors of $$\Lambda$$.
 
 **Question.** What is $$\delta_n$$, the supremum of densities over all packings in dimension $$n$$? Which configurations attain it?
 
 ### 1.2 Two dimensions: square versus hexagon
 
-Place coins on a table.
+#### Deep-Dive Explanation (Read Slowly): Hand-Computing 2D Lattice Matrices and Poisson Bounds
 
-- **Square lattice.** Centers at $$(2r\,i,\,2r\,j)$$. Each ball occupies a square of side $$2r$$, so
+Let us check the exact formula $$\delta(\Lambda) = \frac{\operatorname{Vol}(B(0,r))}{\lvert\det M\rvert}$$ by hand for unit coins of radius $$r = 1$$ (so centers must stay at least $$2r = 2$$ apart):
 
-$$
-\delta_{\square}=\frac{\pi r^2}{4r^2}=\frac{\pi}{4}\approx 0.785.
-$$
+1. **Square lattice $$\Lambda_{\square}$$:** Basis vectors $$v_1 = (2, 0)^T$$ and $$v_2 = (0, 2)^T$$ give
+   $$
+   M_{\square} = \begin{pmatrix} 2 & 0 \\ 0 & 2 \end{pmatrix} \implies \lvert\det M_{\square}\rvert = 4.
+   $$
+   Every nonzero lattice point $$(2i, 2j)$$ has length $$\ge 2$$. Since one coin has area $$\pi \cdot 1^2 = \pi$$,
+   $$
+   \delta_{\square} = \frac{\pi}{4} \approx 0.7854.
+   $$
+   Over $$21.46\%$$ of the tabletop is wasted in the corners between coins.
 
-- **Hexagonal lattice.** Each center has six neighbors at distance $$2r$$. A standard fundamental cell yields
+2. **Hexagonal lattice $$\Lambda_{\mathrm{hex}}$$:** Slide every second row right by $$1$$ unit and snug it into the pockets of the first row. The basis vectors become $$v_1 = (2, 0)^T$$ and $$v_2 = (1, \sqrt{3})^T$$. Check the shortest vectors by hand:
+   - $$\lVert v_1 \rVert = \sqrt{2^2 + 0^2} = 2$$;
+   - $$\lVert v_2 \rVert = \sqrt{1^2 + (\sqrt{3})^2} = \sqrt{4} = 2$$;
+   - $$\lVert v_1 - v_2 \rVert = \lVert (1, -\sqrt{3}) \rVert = \sqrt{1 + 3} = 2$$.
+   All six neighbors $$\pm v_1, \pm v_2, \pm(v_1 - v_2)$$ sit at distance $$2$$ (giving **kissing number 6**!). Now take the determinant:
+   $$
+   M_{\mathrm{hex}} = \begin{pmatrix} 2 & 1 \\ 0 & \sqrt{3} \end{pmatrix} \implies \lvert\det M_{\mathrm{hex}}\rvert = 2\sqrt{3} \approx 3.4641,
+   $$
+   lifting the density to:
+   $$
+   \delta_{\mathrm{hex}} = \frac{\pi}{2\sqrt{3}} \approx 0.9069.
+   $$
+   Empty space drops by more than half—down to just $$9.31\%$$!
 
-$$
-\delta_{\mathrm{hex}}=\frac{\pi}{2\sqrt{3}}\approx 0.907.
-$$
+3. **How Poisson summation locks down density in three lines:** Suppose we find a radial Schwartz function $$f$$ on $$\mathbb{R}^n$$ with $$f(0) = \hat f(0) = 1$$, $$f(x) \le 0$$ whenever $$\lVert x\rVert \ge 2r$$, and $$\hat f(\xi) \ge 0$$ everywhere. Plug any lattice $$\Lambda$$ with minimal spacing $$\ge 2r$$ into Poisson summation:
+   - **Left-hand side:** $$\sum_{x \in \Lambda} f(x) = f(0) + \sum_{x \neq 0} \underbrace{f(x)}_{\le 0} \le f(0) = 1$$.
+   - **Right-hand side:** $$\frac{1}{\operatorname{Vol}(\mathbb{R}^n/\Lambda)}\Bigl(\hat f(0) + \sum_{\xi \neq 0} \underbrace{\hat f(\xi)}_{\ge 0}\Bigr) \ge \frac{1}{\operatorname{Vol}(\mathbb{R}^n/\Lambda)}$$.
+   Comparing both sides yields **$$\operatorname{Vol}(\mathbb{R}^n/\Lambda) \ge 1$$**—an instant, airtight upper bound $$\delta(\Lambda) \le \operatorname{Vol}(B(0,r))$$! To achieve *exact* equality (as Viazovska did for $$E_8$$), $$f$$ must vanish at every shell radius of $$E_8$$ and $$\hat f$$ must vanish at every dual shell radius.
 
-Hexagonal packing is optimal in the plane (classical). Your first experiment should *feel* this gap before you quote the theorem.
+Hexagonal packing is globally optimal in the plane (classical). Your first experiment should *feel* this 0.785 vs. 0.907 gap before you quote the theorem.
 
 ### 1.3 Three dimensions and kissing
 
@@ -80,7 +127,7 @@ $$
 \delta_{\mathrm{FCC}}=\frac{\pi}{3\sqrt{2}}\approx 0.74048.
 $$
 
-**Thomas Hales** proved this (with substantial computer assistance); the result is now also formalized in a proof assistant. The **kissing number** in 3D is 12: a central ball can touch at most twelve equal balls (though the arrangement is subtle—there is “wiggle room” that misled some historical arguments).
+**Thomas Hales** proved this (with substantial computer assistance); the result is now also formalized in a proof assistant (Flyspeck, 2014). The **kissing number** in 3D is 12: a central ball can touch at most twelve equal balls (though the arrangement is subtle—there is “wiggle room” that sparked the famous 1694 Newton–Gregory debate over whether a 13th ball could squeeze in).
 
 ### 1.4 Exceptional dimensions 8 and 24
 
@@ -93,11 +140,11 @@ $$
 | $$n=24$$ | Leech lattice — **Cohn–Kumar–Miller–Radchenko–Viazovska** |
 | generic $$n$$ | Mostly open; asymptotic bounds exist |
 
-The **$$E_8$$** and **Leech** lattices are miracles of symmetry: extremely dense shells of minimal vectors and rich automorphism groups. Viazovska constructed a radial “magic” function whose Fourier sign pattern matches the Cohn–Elkies linear programming bound *exactly* in dimension 8, proving optimality of $$E_8$$ among *all* packings (not only lattices).
+The **$$E_8$$** and **Leech** lattices are miracles of symmetry: kissing numbers leap to **240** in dimension 8 and **196,560** in dimension 24. Viazovska constructed a radial “magic” function whose Fourier sign pattern matches the Cohn–Elkies linear programming bound *exactly* in dimension 8, proving optimality of $$E_8$$ among *all* packings (not only lattices).
 
 ### 1.5 Cohn–Elkies in one paragraph
 
-Roughly: if a radial Schwartz function $$f$$ on $$\mathbb{R}^n$$ satisfies $$f(x)\le 0$$ for $$\lvert x\rvert\ge 1$$ and $$\hat f(\xi)\ge 0$$ for all $$\xi$$, with $$f(0)$$ and $$\hat f(0)$$ positive, then packing density is bounded above by a constant built from $$f(0)/\hat f(0)$$ (after scaling). The Poisson summation formula is the bridge: it relates values of $$f$$ on a lattice to values of $$\hat f$$ on the dual lattice, turning geometric non-overlap constraints into analytic sign constraints. Sharpness needs a function that “touches” the constraints in a way compatible with a lattice’s distance set—vanishing at the right radii so that equality cases can be read off. Modular forms supplied such functions in dimensions 8 and 24. You need not build $$f$$; you should understand that **packing became function design**, which is why a Fields Medal could be awarded for constructing the right auxiliary function rather than for stacking more oranges.
+In short, the geometric problem of stacking spheres becomes the **analytic problem of designing a single auxiliary function $$f$$** with the right signs for $$f$$ and $$\hat f$$. Modular forms supplied those exact magic functions in dimensions 8 and 24. You need not build $$f$$; you should appreciate why a Fields Medal could be awarded for constructing one auxiliary function rather than for stacking more oranges.
 
 ### 1.6 High-dimensional strangeness
 
@@ -107,7 +154,7 @@ $$
 V_n=\frac{\pi^{n/2}}{\Gamma(n/2+1)}
 $$
 
-peaks and then tends to 0. Most of the volume of a high-dimensional cube hides near the boundary; spheres become poor at filling space in naive coordinates. Best known packings, kissing numbers, and the gap between lattice and nonlattice optima behave irregularly. Link this studio to the fourth-dimension exploration if you enjoy volume paradoxes.
+peaks at $$n = 5$$ ($$V_5 \approx 5.264$$) and then plunges toward 0 as $$n\to\infty$$ (at $$n=24$$, $$V_{24} \approx 0.000115$$!). Most of the volume of a high-dimensional cube hides near its corners; spheres become poor at filling space in naive coordinates. Link this studio to the [fourth-dimension exploration]({{ site.baseurl }}/contents/en/chapter07/07_06_Explore_Fourth_Dimension/) if you enjoy volume paradoxes.
 
 ---
 

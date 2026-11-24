@@ -9,9 +9,30 @@ categories:
 - chapter06
 ---
 
-The classical uncertainty principle says a function and its Fourier transform cannot both concentrate near **intervals**. Replace intervals by **fractals**—sets with holes at every scale—and you get a sharper prohibition: they cannot both concentrate near fractal dust either. That upgrade is the **fractal uncertainty principle (FUP)**. It is a theorem about Fourier analysis, and it is a tool in quantum chaos: a wave cannot hide on the fractal trap that a classical billiard ball can occupy forever.
+In the previous lesson, we saw that classical uncertainty forbids a wave and its Fourier transform from squeezing into two small **intervals**. Now imagine a trickier hiding place: instead of a solid interval, let the wave hide on **fractal dust**—like the Cantor set, riddled with gaps at every magnification, spanning the entire unit interval yet having total length zero. A classical billiard ball bouncing between curved obstacles can stay trapped forever on such fractal dust without ever escaping. Can a **quantum wave** do the same?
 
-This is a frontier companion to [uncertainty literacy]({{ site.baseurl }}/contents/en/chapter06/06_29_Uncertainty_Principles/). One-dimensional FUP is Bourgain–Dyatlov (2016). The higher-dimensional statement, under an extra geometric hypothesis called **line porosity**, is due to Alex Cohen (*Annals of Mathematics* 2025; arXiv 2023). Quantum unique ergodicity remains **open**.
+The answer is **no**—and the Fourier-analytic theorem that forces the wave to leak out is the **fractal uncertainty principle (FUP)**. This is live frontier mathematics unfolding right before our eyes: Jean Bourgain and Semyon Dyatlov proved the 1D version in 2016; nearly a decade later, MIT graduate student Alex Cohen proved the higher-dimensional version under the geometric condition of **line porosity** (*Annals of Mathematics* 2025; arXiv 2023), unlocking new breakthroughs in **quantum chaos**—while the field's grand dream, general quantum unique ergodicity (QUE), remains **open**. Companion to [uncertainty literacy]({{ site.baseurl }}/contents/en/chapter06/06_29_Uncertainty_Principles/).
+
+---
+
+## Background Knowledge Map: What Three Pillars Support the Fractal Uncertainty Principle?
+
+With undergraduate Fourier transforms, wave equations, and the Cantor set, three pillars explain why FUP is one of the hottest tools in modern analysis:
+
+### 1. Fractal Geometry and Porosity
+A fractal like the middle-thirds Cantor set has zero length yet spans all of $$[0,1]$$, so classical variance inequalities fail to rule it out! Instead of length or variance, fractal geometry measures **porosity**: zoom in on *any* piece at *any* scale, and you always find a missing gap occupying a fixed fraction of that interval.
+
+### 2. Semiclassical Analysis
+To connect classical phase space (position $$x$$ and momentum $$\xi$$ together) with short-wavelength quantum waves ($$h \ll 1$$), analysts use the semiclassical Fourier transform:
+
+$$
+(\mathcal{F}_h f)(\xi) = \frac{1}{(2\pi h)^{d/2}} \int_{\mathbb{R}^d} e^{-i x \cdot \xi / h} f(x)\,dx.
+$$
+
+At wavelength $$h$$, a fractal $$X$$ is thickened to its $$h$$-neighborhood $$X(h)$$. **FUP** asserts a power-law operator-norm decay $$\|\mathbf{1}_{X(h)}\mathcal{F}_h\mathbf{1}_{Y(h)}\| \le C h^\beta$$ ($$\beta > 0$$) as $$h \to 0$$—a short-wavelength wave cannot simultaneously dodge the gaps in both space and frequency!
+
+### 3. Quantum Chaos and the QUE Conjecture
+On a negatively curved (hyperbolic) manifold, most classical trajectories wander everywhere, yet a porous fractal dust of trapped trajectories remains. Quantum chaos asks whether high-energy eigenfunctions delocalize away from those traps (**Dyatlov–Jin delocalization** is a theorem) or even equidistribute completely (**Rudnick–Sarnak QUE**, still a major open conjecture).
 
 ---
 
@@ -40,7 +61,34 @@ Classical Pauli–Weyl forbids simultaneous concentration on two small intervals
 
 **FUP slogan (1D).** If you try to build a function whose mass lives near a Cantor-like set, its Fourier transform **cannot** also live near a Cantor-like set. Adding together waves whose frequencies sit on fractal dust will not produce another fractal-looking envelope—the holes fill in.
 
-The precise statements quantify “near” by neighborhood size $$h$$ (semiclassical parameter) and “Cantor-like” by dimension and porosity constants; the inequality then says a projection operator onto an $$h$$-neighborhood of the fractal, conjugated by a Fourier (or semiclassical) transform, has operator norm $$O(h^\beta)$$ for some $$\beta>0$$. Literacy is the slogan plus the geometric hypothesis. The estimates are the paper.
+### Deep-Dive Explanation: Measuring Fourier Leakage into Cantor Holes by Hand at $$N = 9$$ (Read Slowly)
+
+To see FUP work with concrete numbers, take the 2nd-generation discrete Cantor set inside $$N = 3^2 = 9$$ points $$\{0, 1, \dots, 8\}$$: delete the middle third $$\{3, 4, 5\}$$ and the middle points $$1$$ and $$7$$ of the remaining thirds, leaving four points $$X = \{0, 2, 6, 8\} = \{0, 6\} + \{0, 2\}$$.
+
+1. **Place a normalized wave entirely on $$X$$:** Take the unit vector $$v \in \mathbb{C}^9$$ with amplitude $$\frac{1}{2}$$ on $$X$$ and $$0$$ in all gaps:
+   $$
+   v = \frac{1}{2}(1,\ 0,\ 1,\ 0,\ 0,\ 0,\ 1,\ 0,\ 1)^T, \qquad \|v\|_2^2 = 4\cdot\frac{1}{4} = 1.
+   $$
+2. **Compute its unitary discrete Fourier transform** $$\hat{v}(k) = \frac{1}{\sqrt{9}}\sum_{j \in X} \frac{1}{2} e^{-2\pi i jk/9}$$: because $$X = \{0,6\} + \{0,2\}$$, the sum factors cleanly:
+   $$
+   \hat{v}(k) = \frac{1}{6}\bigl(1 + e^{-4\pi i k/3}\bigr)\bigl(1 + e^{-4\pi i k/9}\bigr).
+   $$
+3. **Evaluate the energy $$|\hat{v}(k)|^2$$ remaining on $$X = \{0, 2, 6, 8\}$$:**
+   - At $$k = 0$$: $$\hat{v}(0) = \frac{1}{6}(2)(2) = \frac{2}{3} \implies |\hat{v}(0)|^2 = \frac{4}{9} \approx 0.4444$$.
+   - At $$k = 6$$: $$|1 + e^{-8\pi i}| = 2$$ and $$|1 + e^{-8\pi i/3}| = |1 + e^{-2\pi i/3}| = 1 \implies |\hat{v}(6)|^2 = \bigl(\frac{2}{6}\bigr)^2 = \frac{1}{9} \approx 0.1111$$.
+   - At $$k = 2$$: $$|1 + e^{-8\pi i/3}| = 1$$ and $$|1 + e^{-8\pi i/9}| = 2\cos(80^\circ) \approx 0.3473 \implies |\hat{v}(2)|^2 = \frac{1}{9}\cos^2(80^\circ) \approx 0.0034$$.
+   - At $$k = 8$$: $$|1 + e^{-32\pi i/3}| = 1$$ and $$|1 + e^{-32\pi i/9}| = 2\cos(40^\circ) \approx 1.5321 \implies |\hat{v}(8)|^2 = \frac{1}{9}\cos^2(40^\circ) \approx 0.0652$$.
+4. **Sum the surviving energy on $$X$$:**
+   $$
+   \sum_{k \in X} |\hat{v}(k)|^2 \approx 0.4444 + 0.1111 + 0.0034 + 0.0652 = 0.6241 < 1!
+   $$
+   After just **two generations**, nearly **38% of the wave's energy** has leaked straight into the Cantor gaps $$\{1, 3, 4, 5, 7\}$$! As the number of generations grows ($$N = 3^n$$), this leakage compounds across every scale, driving the operator norm down by a power law:
+
+$$
+\|\mathbf{1}_{X(h)}\,\mathcal{F}_h\,\mathbf{1}_{Y(h)}\|_{L^2 \to L^2} \le C h^\beta
+$$
+
+for some improvement exponent $$\beta > 0$$. Literacy is the slogan plus the geometric hypothesis; the estimates live in the paper.
 
 ---
 
@@ -48,7 +96,7 @@ The precise statements quantify “near” by neighborhood size $$h$$ (semiclass
 
 A classical particle in a chaotic billiard usually wanders through the table. In rare cases it can bounce forever among a few obstacles. Mark the hit points on the bumpers over infinite time and you typically see **fractal dust**—the surviving trapped set.
 
-A quantum particle is a wave. Waves leak. The question Dyatlov asked is whether that leak is forced by Fourier geometry: if the trapped set is fractal, can a wavefunction sit on it in both position and frequency? FUP says no. Hence a wave on a compact hyperbolic surface cannot hide in an open region forever: if you deleted every trajectory that entered the forbidden region, the remainder would be fractal dust, which a wave is not allowed to occupy. That is the skeleton of **Dyatlov–Jin** (2017) in two dimensions.
+A quantum particle is a wave. Waves leak. The question Dyatlov asked is whether that leak is forced by Fourier geometry: if the trapped set is fractal, can a wavefunction sit on it in both position and frequency? FUP says no. Hence a wave on a compact hyperbolic surface cannot hide from an open region forever: if you deleted every trajectory that entered the forbidden region, the remainder would be fractal dust, which a wave is not allowed to occupy. That is the skeleton of **Dyatlov–Jin** (2017) in two dimensions.
 
 The same picture is why FUP is not a curiosity about Cantor sets. It is a device that turns **classical trapped sets** into **quantum delocalization**.
 
@@ -100,13 +148,13 @@ That is a theorem, not an announcement. Quanta’s August 2026 article is a narr
 
 Once higher-dimensional FUP exists, delocalization arguments that worked on surfaces can try to move up. In 2025, Elena Kim and Nicholas Miller used Cohen’s theorem to extend “waves cannot hide” results to higher-dimensional hyperbolic spaces (under the geometric hypotheses that make the trapped set line-porous). Peter Sarnak has called this among the most spectacular applications so far.
 
-A stronger dream is **quantum unique ergodicity (QUE)**: chaotic eigenfunctions should not only touch every region, they should **equidistribute**—look uniformly random at large scales, like a Monet that is noisy up close and a flat color from across the room. Rudnick–Sarnak (1994) formulated the arithmetic version; it remains a **major open conjecture**. FUP is an ingredient people hope to use, not a solution.
+A stronger dream is **quantum unique ergodicity (QUE)**: chaotic eigenfunctions should not only touch every region, they should **equidistribute**—look uniformly random at large scales, like a Monet that is noisy up close and a flat color from across the room. Rudnick–Sarnak (1994) formulated the conjecture for compact negatively curved manifolds; the arithmetic case was proved by Elon Lindenstrauss (2006; Soundararajan 2010), while the general geometric case remains a **major open conjecture**. FUP is an ingredient people hope to use, not a solution.
 
 **Neighbor in this course.** The geometric taste—tubes, porosity, forbidding too much concentration on lines—is cousin to the Kakeya / restriction culture in [Wang’s harmonic analysis]({{ site.baseurl }}/contents/en/chapter02/02_15_Wang_Harmonic_Analysis/). FUP is not Kakeya, and Kakeya is not FUP. They share the instinct that **Fourier concentration is a geometric problem**.
 
 ---
 
-## 7. Precision versus hype (LO6)
+## 7. Precision versus hype
 
 | Claim | Verdict | Correction |
 |-------|---------|------------|

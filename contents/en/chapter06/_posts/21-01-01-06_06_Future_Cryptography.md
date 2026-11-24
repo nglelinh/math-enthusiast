@@ -9,9 +9,22 @@ categories:
 - chapter06
 ---
 
-Cryptography is the mathematics of **adversarial communication**: how to compute and interact so that secrets stay secret, authenticity holds, and protocols remain sound even when some parties cheat. Classical public-key systems that secure much of the internet rest on number-theoretic hardness assumptions—factoring, discrete logarithms—that are **believed** hard for classical computers and **known** to be breakable in polynomial time by a large-scale fault-tolerant quantum computer via Shor’s algorithm. That single sentence is why “future cryptography” is not optional fashion; it is migration engineering guided by theorems, reductions, and careful cryptanalysis.
+Every time you see the tiny padlock next to your bank’s URL, that entire session rests on a beautiful mathematical asymmetry: multiplying two huge prime numbers takes microseconds, whereas reversing the product—factoring it back into primes—is believed to take classical supercomputers millions of years. For nearly half a century, public-key cryptography (RSA, Diffie–Hellman, ECC) has protected the internet with that asymmetry.
 
-This lecture separates **symmetric** primitives, **public-key** assumptions, **post-quantum** candidates, **quantum key distribution**, and **advanced protocols** (zero knowledge, FHE, MPC), with relentless attention to what is proved relative to what assumption.
+In 1994, Peter Shor revealed a crack in the foundation: on a sufficiently large fault-tolerant quantum computer, Shor’s algorithm breaks factoring and discrete logarithms in polynomial time. Even though such a machine does not exist today, an adversary can **harvest encrypted traffic now and decrypt it fifteen years later**. That is why post-quantum cryptography is not a passing buzzword; it is the largest cryptographic migration in internet history, guided by theorems, reductions, and relentless cryptanalysis.
+
+**Cryptography** is the mathematics of **adversarial communication**: keeping secrets confidential, authenticating identity, and even letting mutually distrustful parties compute together honestly. This lecture separates symmetric primitives, public-key assumptions, post-quantum families (PQC), QKD, and advanced protocols (ZK, FHE, MPC)—always asking *what is proved, relative to what assumption?*
+
+---
+
+## Background Knowledge Map: What Is Post-Quantum Cryptography and What Does It Study?
+
+With basic linear algebra and modular arithmetic, you can grasp the landscape of **Modern & Post-Quantum Cryptography** through **four pillars**:
+
+1. **Quantum-Resistant Hardness Problems (Lattices, Codes, Hashes):** Shor’s algorithm excels at finding *hidden periods* in abelian groups (the algebraic engine behind RSA and ECC). Post-quantum cryptography shifts to geometric and combinatorial problems without that periodic trapdoor—especially high-dimensional **lattices**, where finding a short vector or solving noisy linear equations (Learning With Errors) resists all known classical and quantum algorithms.
+2. **Provable Security via Reductions:** Cryptographers rarely prove unconditionally that “no attack exists.” Instead, they prove a reduction: *if* someone breaks my cipher, I can use them as a subroutine to solve a famous hard mathematical problem.
+3. **Advanced Cryptographic Protocols (ZK, FHE, MPC):** Moving far beyond locked envelopes, frontier protocols ask seemingly paradoxical questions: how do I prove I know a secret without revealing a single bit of it (Zero-Knowledge)? How can a cloud server compute on *encrypted* data without ever decrypting it (FHE)?
+4. **From Math to Silicon (Side Channels & Crypto-Agility):** A spotless reduction still fails in deployment if a chip leaks key bits through timing or power consumption. Modern cryptography unites algebra and complexity with constant-time hardware engineering.
 
 ---
 
@@ -71,6 +84,43 @@ PQC redesigns classical public-key schemes to resist quantum adversaries. Major 
 Mathematical backbone includes geometry of numbers, algebraic number theory (module lattices), coding theory, and average-case to worst-case reductions for problems like LWE (Regev and followers)—reductions that are jewels of modern theoretical cryptography.
 
 ---
+
+### Deep-Dive Explanation: Encrypting and Decrypting One Bit with LWE by Hand (Read Slowly)
+
+Lattice-based post-quantum cryptography (LWE—*Learning With Errors*, the core idea behind NIST’s ML-KEM standard) sounds intimidating, yet its engine is just modular arithmetic plus tiny random noise. Let us run a complete encryption–decryption cycle by hand modulo $$q = 17$$ (note $$\lfloor q/2 \rfloor = 8$$).
+
+1. **Key generation (Bob):**
+   - Bob picks a random 2D **secret key** $$s = \begin{pmatrix}3\\5\end{pmatrix} \in \mathbb{Z}_{17}^2$$.
+   - Bob builds a **public key** of 3 noisy linear equations $$b_i = a_i^\top s + e_i \pmod{17}$$ using tiny errors $$e_i \in \{-1, 0, 1\}$$:
+     - $$a_1 = (2, 1),\ e_1 = +1 \;\Longrightarrow\; b_1 = 2(3) + 1(5) + 1 = 12 \pmod{17}$$.
+     - $$a_2 = (4, 3),\ e_2 = -1 \;\Longrightarrow\; b_2 = 4(3) + 3(5) - 1 = 26 \equiv 9 \pmod{17}$$.
+     - $$a_3 = (1, 6),\ e_3 = 0 \;\Longrightarrow\; b_3 = 1(3) + 6(5) + 0 = 33 \equiv 16 \pmod{17}$$.
+   - Bob publishes the pairs $$(a_i, b_i)$$ and keeps $$s$$ and $$e_i$$ secret.
+
+2. **Encrypting the bit $$m = 1$$ (Alice → Bob):**
+   - Alice picks a random subset of public equations—say $$\{1, 2\}$$—sums them, and adds $$8 \cdot m$$ to the right-hand side:
+     $$
+     u = a_1 + a_2 = (2+4,\ 1+3) = (6, 4) \pmod{17},
+     $$
+     $$
+     v = b_1 + b_2 + 8\cdot 1 = 12 + 9 + 8 = 29 \equiv 12 \pmod{17}.
+     $$
+   - Alice sends the ciphertext $$(u, v) = \bigl((6, 4),\, 12\bigr)$$.
+
+3. **Decryption (Bob using $$s = (3, 5)^\top$$):**
+   - Bob computes $$d = v - u^\top s \pmod{17}$$:
+     $$
+     u^\top s = 6(3) + 4(5) = 38 \equiv 4 \pmod{17}
+     \;\Longrightarrow\;
+     d = 12 - 4 = 8 \pmod{17}.
+     $$
+   - Why does this land near $$8$$ (for $$m=1$$) or near $$0$$ (for $$m=0$$)? Substituting the definitions cancels $$u^\top s$$ completely:
+     $$
+     v - u^\top s = (e_1 + e_2) + 8m = (1 - 1) + 8(1) = 8.
+     $$
+   - On the circle $$\mathbb{Z}_{17}$$, $$d = 8$$ is right on top of $$8$$ (and 8 steps away from $$0$$), so Bob recovers **$$m = 1$$** cleanly!
+
+**Why does scaling to 500–1000 dimensions defeat both classical and quantum attackers?** Knowing $$s$$ lets Bob strip away the huge $$u^\top s$$ term and read off $$8m$$ above a tiny sum of errors. Without $$s$$, Gaussian elimination amplifies the errors exponentially at every row operation, leaving the attacker with a high-dimensional closest-lattice-vector problem that Shor’s algorithm cannot crack.
 
 ## 5. Quantum key distribution vs PQC
 

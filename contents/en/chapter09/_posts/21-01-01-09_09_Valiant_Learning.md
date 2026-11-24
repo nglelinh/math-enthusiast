@@ -9,17 +9,28 @@ categories:
 - chapter09
 ---
 
-**Leslie Valiant** received the **A.M. Turing Award 2010** for transformative contributions to the theory of computation, notably **PAC learning**—*probably approximately correct* learning—and for foundational work on computational complexity including **counting complexity** (the class **#P**) and later themes such as **holographic algorithms**. The award is a reminder that “machine learning” did not begin as a pile of benchmarks; it began, in part, as a *mathematical question*: when is learning from examples a computationally and statistically well-posed problem?
+When a toddler sees a few dozen photos of cats and immediately recognizes a brand-new cat in the park, we call that "learning." Yet for decades, artificial intelligence lacked a crisp mathematical answer to a basic question: **what does it mean for a concept to be *efficiently learnable* by a computer?** In 1984, **Leslie G. Valiant** laid the cornerstone with the **PAC** (*Probably Approximately Correct*) model, turning "learning from finite examples" into a rigorous branch of computational complexity.
 
-This lecture develops PAC learning as a definition that made learning theory a science; states sample-complexity slogans that every seminar student should own; sketches why **counting** is harder than deciding in Valiant’s #P world; mentions holographic algorithms only as a light frontier pointer; and links explicitly to [ML theory]({{ site.baseurl }}/contents/en/chapter06/06_10_ML_Theory/) and [mathematics of AI]({{ site.baseurl }}/contents/en/chapter06/06_02_Mathematics_of_AI/). Official materials: [amturing.acm.org](https://amturing.acm.org/).
+Valiant received the **A.M. Turing Award in 2010** for transformative contributions across an astonishing range: **PAC learning**, **counting complexity** (the class **#P**), algebraic computation, and **holographic algorithms**. The award is a reminder that machine learning did not start as a pile of benchmarks; it began as a *mathematical question*: when is learning from examples both statistically and computationally tractable?
+
+This lecture develops PAC learning as a definition that made learning theory a science; states sample-complexity slogans that every student should own; sketches why **counting** is dramatically harder than deciding in Valiant’s #P world; and connects directly to [ML theory]({{ site.baseurl }}/contents/en/chapter06/06_10_ML_Theory/) and [mathematics of AI]({{ site.baseurl }}/contents/en/chapter06/06_02_Mathematics_of_AI/). Official materials: [amturing.acm.org](https://amturing.acm.org/).
 
 ---
 
 ## Learning objectives
 
-After this lecture you should be able to explain the PAC learning slogan—return a hypothesis that is *approximately* correct *with high probability* after seeing finitely many samples—and write true risk versus empirical risk at the level of Chapter 6; state a sample-complexity slogan of the form “order $$(1/\varepsilon)\log(1/\delta)$$ times a complexity measure” without claiming a single universal formula for deep nets; define **#P** as counting accepting witnesses rather than deciding existence; relate Valiant’s learning framework to modern ML theory without equating PAC with “how GPT trains”; and critique one popular overstatement about learnability (LO6).
+After this lecture you should be able to explain the PAC learning slogan—return a hypothesis that is *approximately* correct *with high probability* after seeing finitely many samples—and write true risk versus empirical risk at the level of Chapter 6; state a sample-complexity slogan of the form “order $$(1/\varepsilon)\log(1/\delta)$$ times a complexity measure” without claiming a single universal formula for deep nets; define **#P** as counting accepting witnesses rather than deciding existence; relate Valiant’s learning framework to modern ML theory without equating PAC with “how GPT trains”; and critique popular overstatements about learnability.
 
-**Prerequisites / seminar links.** Probability at the level of expectation and “with probability at least $$1-\delta$$”; algorithms literacy. Strongly recommended twins: [ML theory]({{ site.baseurl }}/contents/en/chapter06/06_10_ML_Theory/), [Mathematics of AI]({{ site.baseurl }}/contents/en/chapter06/06_02_Mathematics_of_AI/), [complexity theory]({{ site.baseurl }}/contents/en/chapter06/06_07_Complexity_Theory/). Chapter hub: [Turing overview]({{ site.baseurl }}/contents/en/chapter09/09_00_Overview/).
+**Prerequisites / cross-links.** Probability at the level of expectation and “with probability at least $$1-\delta$$”; algorithms literacy. Strongly recommended twins: [ML theory]({{ site.baseurl }}/contents/en/chapter06/06_10_ML_Theory/), [Mathematics of AI]({{ site.baseurl }}/contents/en/chapter06/06_02_Mathematics_of_AI/), [complexity theory]({{ site.baseurl }}/contents/en/chapter06/06_07_Complexity_Theory/). Chapter hub: [Turing overview]({{ site.baseurl }}/contents/en/chapter09/09_00_Overview/).
+
+---
+
+## Background Knowledge Map: What Are Computational Learning Theory (PAC) and Counting Complexity (#P)?
+
+Valiant's two most celebrated breakthroughs sit in seemingly distant corners yet orbit the exact same question: *where does the frontier of efficient computation lie?*
+
+1. **Computational Learning Theory (COLT):** blends probability and complexity theory. To feel **PAC** intuitively, imagine discovering a hidden **interval** $$[a, b]$$ on the real line (say, the ideal temperature window for a chemical reaction) from $$m$$ random labeled examples ("Good" or "Bad"). The simplest learner picks the tightest interval $$[\hat a, \hat b]$$ covering all "Good" points. Because the sample is random, you can never demand 0% error with 100% certainty—what if the endpoints fell in an unsampled gap? Instead, you ask that with probability at least $$1-\delta$$ (*Probably*, e.g. 99%), the error region has probability mass at most $$\varepsilon$$ (*Approximately*, e.g. 1%). With just $$m \ge \frac{2}{\varepsilon}\ln(2/\delta)$$ samples, the learner succeeds in linear time!
+2. **Counting Complexity (#P) and Algebraic Computation:** class NP asks *"Does a perfect matching exist between $$n$$ engineers and $$n$$ projects?"*—a problem cleanly in **P**. Class **#P** asks *"How **many** perfect matchings exist?"* Valiant proved that count equals the **permanent** of the $$0$$-$$1$$ adjacency matrix, and that computing the permanent is **#P-complete**—harder than the entire polynomial hierarchy by Toda's theorem! Dropping a single minus sign ($$\operatorname{sgn}(\sigma)$$) turns a freshman linear-algebra operation ($$\det$$) into an intractable combinatorial wall ($$\mathrm{per}$$).
 
 ---
 
@@ -32,6 +43,15 @@ Before a definition, “learning” is a word that means everything and therefor
 The power is in the **quantifiers**: for every target in the class, for every distribution on instances (distribution-free in the classical PAC setting), success is only *probable* and only *approximate*. That is not a weakness of the definition; it is fidelity to statistics. Perfect recovery from finite samples is generally impossible; exact identification of an arbitrary function is hopeless.
 
 PAC turned learning into something you can *prove theorems about*: which concept classes are efficiently learnable, which require exponential samples, which become hard under cryptographic assumptions, and how complexity of the hypothesis class governs sample size.
+
+### Deep-Dive Explanation: Understanding PAC Learning and Its Boundary with Deep Learning (Read Slowly)
+
+1. **Accept two unavoidable relaxations ($$\varepsilon, \delta$$):** because training data is a finite random draw, no learner can guarantee 0% error with 100% certainty; we promise error $$\le \varepsilon$$ with confidence $$\ge 1-\delta$$.
+2. **Separate two bottlenecks—samples (statistics) vs. runtime (algorithms):** finite VC dimension guarantees that *enough samples* make empirical risk minimization generalize, yet actually *finding* that empirical minimizer in polynomial time can still be NP-hard!
+3. **Plug in real numbers:** to learn a secret interval $$[a,b]$$ on the real line to within error $$\varepsilon = 0.05$$ (5%) and confidence $$1-\delta = 99\%$$ ($$\delta = 0.01$$), the PAC bound gives $$m \ge \frac{2}{0.05}\ln(200) \approx 40 \times 5.30 = \mathbf{212}$$ samples—**completely independent of the underlying distribution $$\mathcal{D}$$!**
+4. **Recognize the gap with modern Deep Learning:** classical PAC bounds worst-case distributions via the size of the hypothesis class $$\mathcal{H}$$, whereas billion-parameter neural nets still generalize well thanks to SGD's implicit bias and structured real-world data.
+
+**Quick check.** PAC is not "obsolete" in the age of deep learning—it supplies the **exact problem specification** on which every modern generalization framework (PAC-Bayes, Rademacher complexity) builds.
 
 ---
 
@@ -95,6 +115,23 @@ Representation matters: decision trees, DNF formulas, finite automata, neural ne
 
 Valiant also transformed **counting**. The class **#P** consists of functions that count the number of accepting witnesses of a polynomial-time nondeterministic machine—equivalently, count solutions to NP search problems. Example: given a Boolean formula, output the number of satisfying assignments (**#SAT**), not merely whether one exists.
 
+### Worked Example (Step by Step): Determinant vs. Permanent on a $$3\times 3$$ Matching Matrix
+
+Consider 3 engineers (rows 1, 2, 3) and 3 projects (columns 1, 2, 3), where $$a_{ij} = 1$$ means engineer $$i$$ is qualified for project $$j$$:
+
+$$
+A = \begin{pmatrix} 1 & 1 & 0 \\ 1 & 1 & 1 \\ 0 & 1 & 1 \end{pmatrix}.
+$$
+
+Out of all $$3! = 6$$ permutations $$\sigma$$ of $$\{1, 2, 3\}$$, exactly **3 permutations** give a product $$a_{1,\sigma(1)}a_{2,\sigma(2)}a_{3,\sigma(3)} = 1$$:
+- $$\sigma_1 = (1, 2, 3)$$ (even permutation, sign $$+1$$): engineer 1→P1, 2→P2, 3→P3.
+- $$\sigma_2 = (2, 1, 3)$$ (odd permutation, sign $$-1$$): engineer 1→P2, 2→P1, 3→P3.
+- $$\sigma_3 = (1, 3, 2)$$ (odd permutation, sign $$-1$$): engineer 1→P1, 2→P3, 3→P2.
+
+Now compare the two sums:
+- **Determinant (with signs $$\operatorname{sgn}(\sigma)$$):** $$\det(A) = (+1) + (-1) + (-1) = -1$$. Because swapping rows flips the sign, Gaussian elimination computes $$\det(A)$$ in $$O(n^3)$$ time without enumerating $$n!$$ permutations!
+- **Permanent (dropping minus signs):** $$\mathrm{per}(A) = 1 + 1 + 1 = \mathbf{3}$$ — counting the exact **3 perfect matchings**! Yet removing that single minus sign destroys row-operation invariance, collapsing Gaussian elimination and turning the problem **#P-complete**!
+
 **Moral.** Counting can be harder than deciding in a precise sense: Toda’s theorem and related results place the power of #P very high in the polynomial hierarchy landscape. Even for problems whose decision version is in **P**, counting versions may be #P-complete (classic examples include counting perfect matchings in bipartite graphs—related to the permanent).
 
 For this course’s complexity map ([Ch.6]({{ site.baseurl }}/contents/en/chapter06/06_07_Complexity_Theory/)), #P is the postcard: **verification of a count is different from existence**, and approximate counting / sampling became major algorithmic theories of their own.
@@ -103,7 +140,7 @@ For this course’s complexity map ([Ch.6]({{ site.baseurl }}/contents/en/chapte
 
 ## 6. Holographic algorithms (light)
 
-Valiant’s **holographic algorithms** are a surprising positive algorithmic theme: certain counting problems that look #P-hard admit polynomial-time algorithms via linear-algebraic “holographic” reductions and matchgate signatures—an exotic island of tractability. Treat this as a *light* pointer for curiosity, not a technical requirement of the seminar. The LO message is cultural: complexity theory is not only bad news; it also discovers unexpected algorithms when the right algebraic structure appears.
+Valiant’s **holographic algorithms** are a surprising positive algorithmic theme: certain counting problems that look #P-hard admit polynomial-time algorithms via linear-algebraic “holographic” reductions and matchgate signatures—an exotic island of tractability. Treat this as a *light* pointer for curiosity, not a technical requirement of the seminar. The message is cultural: complexity theory is not only bad news; it also discovers unexpected algorithms when the right algebraic structure appears.
 
 ---
 
@@ -116,7 +153,7 @@ Deep learning practice optimizes nonconvex losses over enormous parameter spaces
 - hardness results that police impossible claims;  
 - a research lineage into modern learning theory, online learning, and computational statistics.
 
-[Mathematics of AI]({{ site.baseurl }}/contents/en/chapter06/06_02_Mathematics_of_AI/) stresses optimization and representation; this Valiant lecture stresses **definitions that made learning mathematical**. Both are needed for LO6 literacy: hype collapses when definitions appear.
+[Mathematics of AI]({{ site.baseurl }}/contents/en/chapter06/06_02_Mathematics_of_AI/) stresses optimization and representation; this Valiant lecture stresses **definitions that made learning mathematical**. Both are needed for literacy: hype collapses when definitions appear.
 
 Valiant’s later popular writing on “ecorhythms” and biologically flavored computation is optional context; the Turing core for this course remains PAC + complexity.
 
@@ -184,7 +221,7 @@ Complete list: `research/video-research/valiant-learning/references.md`.
 - Compare agnostic PAC vs realizable PAC after reading ML theory.  
 - Explore Occam algorithms and compression bounds as cousins of sample complexity.  
 - Read a short note on approximate counting and Markov-chain sampling.  
-- Cross-check LO6 skills on a modern foundation-model press release.  
+- Cross-check critical-reading skills on a modern foundation-model press release.  
 - Next: [Hopcroft & Tarjan]({{ site.baseurl }}/contents/en/chapter09/09_10_Hopcroft_Tarjan/)—algorithms as craft, not only classes.
 
 ## Video tham khảo

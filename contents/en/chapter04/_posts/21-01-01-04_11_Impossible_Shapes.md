@@ -9,11 +9,11 @@ categories:
 - chapter04
 ---
 
-**Impossible shapes** look locally consistent but cannot exist globally as ordinary objects in 3D Euclidean space—the Penrose triangle, Reutersvärd’s earlier triangle, Escher’s endless staircases, and endless gallery of “objects” that fool depth perception. They make a deep geometric theme tangible: **local truths need not glue to a global object**. That theme reappears in advanced geometry and topology whenever cocycles fail to be coboundaries—consistency conditions on overlaps.
+Stare at M. C. Escher’s lithograph *Waterfall*. Water tumbles down a stone chute, spins a millwheel, and then glides calmly along a zigzagging aqueduct—right back to the top of the waterfall to fall all over again. Cover any single corner of the aqueduct with your hand, and the masonry looks completely solid, ordinary, and buildable. Lift your hand, follow the water around one full loop, and your brain slams into a quiet, delightful alarm bell: *every single corner is telling the truth, yet the whole building is telling a lie.*
 
-**Path:** what “impossible” means → Penrose triangle and depth cues → Escher and closed paths of inconsistency → projection ambiguity → mathematical models (developments, cohomology idea) → related visual paradoxes → confusions, exercises, further directions.
+**Impossible shapes**—the Penrose triangle, Oscar Reutersvärd’s early tribar, and Escher’s endless staircases—are much more than clever optical illusions. They are the most intuitive visual gateway to one of the deepest principles in modern geometry and topology: **local consistency does not guarantee global realizability.** Cover any two corners of a Penrose triangle, and a carpenter can build it out of wood; demand all three corners at once, and a simple $$3\times 3$$ linear system proves no solid 3D body can exist. In advanced mathematics, that exact failure to glue local pieces around a closed loop has a famous name: **cohomology**.
 
-Impossible figures train a habit that advanced geometry rewards repeatedly: before asking whether an object is beautiful or useful, ask whether the local data you wrote down are *glueable*. Manifolds, fiber bundles, discrete height functions on graphs, and CAD assemblies all face versions of this question. The Penrose triangle is simply the version you can put on a slide.
+**Path:** local consistency vs. global realizability → the Penrose triangle as a $$3\times 3$$ linear system → Escher’s staircases → projection ambiguity and the Necker cube → gluing obstructions and cohomology intuition → common confusions and further directions.
 
 ---
 
@@ -21,96 +21,128 @@ Impossible figures train a habit that advanced geometry rewards repeatedly: befo
 
 After this lecture you should be able to:
 
-- Explain **local consistency vs global realizability** for drawings of solid objects.
-- Describe the **Penrose triangle** and why each corner is fine while the whole is not.
-- Relate impossible figures to **projection** from 3D to 2D and ambiguous depth assignments.
-- State a mathematical moral in terms of gluing local data (optional cohomology slogan).
-- Distinguish impossible *drawings* from non-orientable *surfaces* (Möbius) that do exist.
-- Avoid “Escher proved geometry wrong” and “impossible shapes exist in the fourth dimension” as unexamined slogans.
+- Explain **local consistency vs. global realizability** for 2D line drawings depicting 3D solids.
+- Model the **Penrose triangle** as a $$3\times 3$$ system of depth equations $$D\mathbf{h} = \mathbf{b}$$ and prove algebraically why every pair of corners is solvable while all three together are inconsistent.
+- Relate impossible figures to 3D-to-2D **projection** and ambiguous depth assignments (Necker cube).
+- State the conceptual link between impossible figures and **gluing obstructions** (the intuition behind cohomology $$H^1$$).
+- Distinguish impossible *drawings* from genuinely existing non-orientable *surfaces* like the Möbius band.
+- Avoid claiming that "Escher proved Euclidean geometry wrong" or "fixing one corner removes a global obstruction."
 
-**Prerequisites.** Basic 3D visualization; parallel projection idea. Topology of Möbius bands from strange geometry helps for contrasts.
+**Prerequisites.** Basic 3D visualization, parallel projection, and solving a $$3\times 3$$ system of linear equations.
+
+---
+
+## Background Knowledge Map: Why an Optical Illusion Belongs in Algebraic Topology
+
+Impossible figures sit at the crossroads of four disciplines that all wrestle with the same question: *when can local data be stitched into a single global object?*
+
+1. **Projective Geometry & Computer Vision:** A 2D drawing is the shadow of a 3D scene under projection $$\pi:\mathbb{R}^3\to\mathbb{R}^2$$. Recovering 3D depth from 2D junctions (Y-junctions, T-junctions, arrows) is an inverse problem—formalized in computer vision (Huffman–Clowes labeling, Sugihara’s polyhedral realizability theorems) as systems of linear constraints on vertex depths.
+2. **Linear Algebra & Inconsistent Systems:** Whenever local depth cues specify *differences* between neighboring vertices—like $$h_B - h_A = 1$$—global realizability reduces to checking whether a linear system $$D\mathbf{h} = \mathbf{b}$$ has a solution. If the sum around a cycle is nonzero, the system has no solution even though every subset of edges is consistent.
+3. **Algebraic Topology & Cohomology ($$H^1$$):** In 1992, Roger Penrose explicitly used his impossible triangle to explain **sheaf cohomology**: each local piece has a valid depth coordinate, and on overlaps two coordinates differ by a shift. When the shifts around a closed loop fail to cancel, you get a nontrivial **1-cocycle**—a measurable topological obstruction to global existence.
+4. **Cognitive Science of Perception:** Human vision evolved to infer 3D surfaces from local shading and junctions assuming general viewpoints. Impossible figures expose the exact local heuristics our visual cortex runs before checking global consistency.
 
 ---
 
 ## 1. Locally fine, globally impossible
 
-A drawing of a cube is a 2D arrangement of lines that we interpret as a 3D object. Most line drawings admit a 3D realization: there exist depths and faces in space projecting to the drawing. An **impossible figure** is a drawing that *suggests* a 3D object with locally plausible junctions—yet no solid polyhedral object in Euclidean 3-space projects to the entire figure while respecting the intended face and occlusion structure.
+A drawing of a cube is just ink on flat paper, yet our eyes immediately reconstruct a 3D solid whose projection matches the ink. An **impossible figure** is a 2D line drawing where every local junction matches a genuine 3D corner—yet **no single coherent 3D solid** in Euclidean space projects to the entire drawing while respecting all depicted face incidences and occlusions.
 
-The impossibility is not that the ink cannot be drawn; the ink is flat and real. The impossibility is **realizability as a single coherent 3D body**.
+The ink is completely real and flat; what is impossible is **lifting** that 2D drawing to a single closed 3D object.
 
 ---
 
-## 2. The Penrose triangle
+## 2. The Penrose triangle—and a $$3\times 3$$ linear-algebra proof of impossibility
 
-The **Penrose triangle** (popularized by Roger Penrose; anticipated by Oscar Reutersvärd) shows three beams meeting at right angles in a triangular cycle. Each corner, covered by a hand, looks like a legitimate joint of square beams. The whole figure forces an inconsistent orientation of “out of the page” versus “into the page” as you travel around the loop.
+The **Penrose triangle** (independently drawn by Oscar Reutersvärd in 1934 and analyzed by Lionel and Roger Penrose in 1958) shows three square beams meeting at right angles in a closed triangle. Cover any one of the three corners $$A, B, C$$, and the remaining L-shaped joint is completely buildable.
 
-One way to see the contradiction: assign a height function along the beams consistent with the drawn joints; after a full loop the height fails to match. The obstruction is global—supported on a closed path—while every proper subpath is fine.
+### Worked example: Turning the Penrose triangle into a $$3\times 3$$ matrix contradiction
 
-Physical “Penrose triangles” in sculpture parks work by **forced perspective**: from one viewpoint the projection matches the drawing; walk aside and the beams separate. The 3D object is not a closed triangular prism of beams; it is an open configuration whose projection is special.
+Let $$h_A, h_B, h_C$$ represent the **depth** (distance toward the viewer) of the three corners $$A, B, C$$ along the line of sight. As you trace the beams around the triangle, the visual cues at each beam tell your brain that each beam angles steadily *toward* the viewer by some positive amount—say, $$1$$ unit per beam:
 
-This distinction between **picture plane consistency** and **spatial consistency** is worth lingering on. Every line junction in the drawing may match a catalogue of possible 3D corners (arrow junctions, Y-junctions, T-junctions in the language of line-drawing interpretation). The catalogue is local. Global consistency requires a single depth or orientation assignment that satisfies every junction at once. Impossible figures are drawings whose junction constraints admit no global solution—even though every proper subset of constraints may be fine. They are the visual analogue of an unsatisfiable system of equations with satisfiable subsystems.
+$$
+\begin{cases}
+h_B - h_A = 1 & \text{(beam } A\to B\text{ moves closer)}, \\
+h_C - h_B = 1 & \text{(beam } B\to C\text{ moves closer)}, \\
+h_A - h_C = 1 & \text{(beam } C\to A\text{ moves closer)}.
+\end{cases}
+$$
+
+Write this system in matrix form $$D\mathbf{h} = \mathbf{b}$$:
+
+$$
+\underbrace{\begin{pmatrix}
+-1 & 1 & 0 \\
+0 & -1 & 1 \\
+1 & 0 & -1
+\end{pmatrix}}_{D}
+\begin{pmatrix} h_A \\ h_B \\ h_C \end{pmatrix}
+=
+\underbrace{\begin{pmatrix} 1 \\ 1 \\ 1 \end{pmatrix}}_{\mathbf{b}}.
+$$
+
+Now inspect two facts side by side:
+1. **Local consistency (any 2 equations are solvable!):** Drop the third equation (representing cutting open the loop at corner $$C\to A$$). Choose $$h_A = 0$$; then $$h_B = 1$$ and $$h_C = 2$$ satisfy the first two equations effortlessly! Every proper open path of the triangle exists in 3D—which is why physical "Penrose triangle" sculptures in parks work by **forced perspective**: they are actually *open* 3-beam structures with a hidden gap that aligns only from one exact camera angle.
+2. **Global obstruction (all 3 equations together explode!):** Notice that the three rows of $$D$$ sum to the zero vector:
+   $$
+   (-1+0+1,\; 1-1+0,\; 0+1-1) = (0, 0, 0),
+   $$
+   so $$\operatorname{rank}(D) = 2$$. Adding the left-hand sides of all three equations gives **$$0$$**, whereas adding the right-hand sides gives **$$1 + 1 + 1 = 3$$**:
+   $$
+   0 = (h_B - h_A) + (h_C - h_B) + (h_A - h_C) = 3 \quad \text{(contradiction!)}.
+   $$
+
+That discrepancy—$$3 \neq 0$$—is literally the **cohomology obstruction** around the closed loop! The matrix $$D$$ is the discrete derivative (coboundary operator), the vector $$\mathbf{b} = (1,1,1)^T$$ is a local depth-change prescription (a 1-cocycle), and the impossibility of solving $$D\mathbf{h} = \mathbf{b}$$ means $$\mathbf{b}$$ lies outside the column space of $$D$$ (it is not a coboundary).
 
 ---
 
 ## 3. Escher’s staircases and visual narrative
 
-M. C. Escher’s lithographs (*Ascending and Descending*, *Waterfall*) turn impossible configurations into architectural worlds. Stairs climb endlessly yet return to the start; water falls to power a wheel and flows back uphill. The art is rigorous in a geometric sense: the **projection graph** contains cycles with inconsistent elevation changes.
+M. C. Escher’s *Ascending and Descending* (1960) and *Waterfall* (1961) turn that exact algebraic obstruction into architecture. In *Ascending and Descending*, four flights of stairs form a closed square where every flight climbs upward—a $$4\times 4$$ version of $$D\mathbf{h} = (1,1,1,1)^T$$ whose rows sum to $$0 = 4$$!
 
-Escher collaborated with mathematical ideas (Penrose, Coxeter) without claiming that Euclidean geometry is false. He illustrated **multistable and inconsistent depth assignments**—a human visual system trying to complete local cues into a global 3D model and failing gracefully enough to remain beautiful.
+Escher collaborated directly with Roger Penrose and geometer H. S. M. Coxeter. He never claimed Euclidean geometry was broken; he dramatized how gracefully our visual system builds local 3D models and gets trapped when local rules fail a global cycle condition.
 
 ---
 
 ## 4. Projection, ambiguity, and Necker cousins
 
-Even *possible* objects have ambiguous drawings: the **Necker cube** flips between two depth interpretations. Impossible figures sit further along the spectrum: no single depth assignment works for the whole.
-
-Orthographic or perspective projection
+Even *completely possible* 3D objects lose depth under orthographic or perspective projection
 
 $$
-\pi:\mathbb{R}^3\to\mathbb{R}^2
+\pi:\mathbb{R}^3\to\mathbb{R}^2.
 $$
 
-collapses a dimension. Many preimages share a silhouette. Line drawings underdetermine 3D structure; additional assumptions (planarity of faces, right angles, opacity) still may not admit a solution. Computer vision and geometric constraint solving formalize this as systems of equations on vertex coordinates and incidences—sometimes overconstrained and inconsistent.
+The **Necker cube** is *underdetermined*: two different 3D depth assignments project to the exact same wireframe, so your brain flips back and forth between them. Impossible figures sit at the opposite extreme—they are *overdetermined and inconsistent*: no single depth assignment satisfies all local constraints at once.
 
 ---
 
-## 5. A mathematical language for inconsistency
+### Deep-Dive Explanation: From a Pencil Sketch to Cohomology (Read Slowly)
 
-Think of an impossible figure as an attempt to glue local 3D charts along overlaps (beam segments, faces). On each overlap, two charts related by a rigid motion or height shift. Around a closed loop of overlaps, the composition of transition maps should be the identity if a global object exists. If the composition is a nontrivial translation in depth, **the cocycle is not trivial**—no global section.
+Why do mathematicians get excited about a drawing you can sketch on a napkin? Walk through the four-step translation slowly:
 
-You do not need full sheaf cohomology to own the moral:
+1. **Decode local constraints as differences.** Every beam or staircase in the drawing fixes a *relative* change in depth or elevation between adjacent corners ($$h_j - h_i = b_{ij}$$), never an absolute coordinate.
+2. **Test every open piece locally.** Because no closed loop is formed when you cover one corner, you can always pick $$h_A = 0$$ and integrate the differences step by step along the path—every local patch is 100% realizable in $$\mathbb{R}^3$$.
+3. **Close the loop and sum the differences.** Around any closed cycle, the telescoping sum of true differences $$(h_B-h_A)+(h_C-h_B)+(h_A-h_C)$$ *must* vanish identically ($$\operatorname{rank}(D) = 2$$).
+4. **Measure the mismatch.** The nonzero cycle sum ($$3 \neq 0$$) is an **obstruction class**: the exact mathematical signature (in $$H^1$$) that local data cannot be glued into a global 3D shape.
 
-> **Local geometric data plus transition rules may fail the cycle condition required for global realization.**
-
-The same pattern appears when constructing manifolds from charts, when bundles have nontrivial topology, and when discrete height functions on graphs have inconsistent cycles. Impossible figures are the coffee-table version of an obstruction class.
-
-Related formalisms include:
-
-- inconsistent linear systems for vertex coordinates,
-- non-embeddable polyhedral metrics with given face shapes (Cauchy rigidity contrasts with flexible and impossible complexes),
-- branched coverings and multi-valued depth.
+**Quick check.** In our Penrose matrix $$D\mathbf{h} = \mathbf{b}$$, suppose we change the beam directions so that $$h_B - h_A = 1$$, $$h_C - h_B = 1$$, and $$h_A - h_C = -2$$. Does a globally consistent 3D depth assignment exist now? *(Hint: check the sum of the right-hand side!)*
 
 ---
 
-## 6. What impossible shapes are not
+## 5. What impossible shapes are not
 
-- They are **not** Möbius bands: Möbius bands exist as subsets of $$\mathbb{R}^3$$ (or as abstract surfaces). Impossible triangles do not exist as the closed solid objects they depict.
-- They are **not** automatic proof of higher dimensions: sometimes 4D embeddings can realize configurations that 3D cannot, but each claim needs a precise theorem—not a poster caption.
-- They are **not** failures of logic: they are failures of a *particular* realizability problem.
-
-Contrast with [strange geometric objects]({{ site.baseurl }}/contents/en/chapter04/04_06_Strange_Geometry/) that *do* exist and challenge intuition by existing.
+- **Not Möbius bands:** A Möbius strip genuinely *exists* in $$\mathbb{R}^3$$ as a physical strip of paper (see [Strange geometry]({{ site.baseurl }}/contents/en/chapter04/04_06_Strange_Geometry/)). A closed Penrose triangle does not exist as the rigid solid it depicts.
+- **Not automatic proof of 4D space:** Moving to 4D does not magically make an inconsistent height sum $$0=3$$ vanish—the obstruction is algebraic, not just a lack of elbow room.
+- **Not failures of logic:** They are clean negative answers to a specific 3D realizability problem.
 
 ---
 
-## 7. Why mathematicians and cognitive scientists care
+## 6. Why mathematicians and cognitive scientists care
 
-- **Geometry:** constraints, rigidity, projections.
-- **Topology:** obstruction to gluing.
-- **Vision science:** how brains infer 3D from 2D cues; where inference breaks.
-- **Computer graphics:** reverse engineering 3D from sketches; detecting inconsistency.
-- **Pedagogy:** a visceral introduction to local-to-global principles.
+- **Topology & geometry:** Impossible figures give an unforgettable hands-on picture of cocycles, fiber bundles, and gluing obstructions.
+- **Computer vision & CAD:** Detecting inconsistent line drawings or impossible mechanical assemblies uses the exact same linear-algebraic rank tests.
+- **Vision science:** They reveal that human perception prioritizes fast local junction matching over slow global consistency checks.
 
-Beautiful mathematics here is the precise sense in which a drawing can **lie without any single wrong line**.
+Beautiful mathematics here is the precise sense in which a drawing can **lie globally without containing a single false line**.
 
 ---
 
@@ -120,14 +152,14 @@ Beautiful mathematics here is the precise sense in which a drawing can **lie wit
 - These are not the same as optical brightness illusions; the math issue is **geometric consistency under projection**.
 - Escher’s staircases dramatize closed inconsistent monotony of ascent.
 
-## 8. Common confusions
+## 7. Common confusions
 
-1. **“The Penrose triangle exists as drawn.”** — Only as a 2D figure or as a perspective trick, not as the naive closed solid.
-2. **“Impossible shapes refute Euclidean geometry.”** — They refute an over-interpreted drawing, not Euclid.
-3. **“Same as non-orientable surfaces.”** — Different issues: existence vs inconsistent projection of a depicted solid.
-4. **“Any weird drawing is mathematically deep.”** — Depth comes from clean local rules and a clear obstruction.
-5. **“Escher staircases have infinite height.”** — In the inconsistent interpretation, height is multi-valued, not an actual infinite building.
-6. **“Fixing one corner fixes the figure.”** — Obstructions are global; local edits may move but not remove cycle inconsistency without changing the figure type.
+1. **“The Penrose triangle exists as drawn.”** — Only as a 2D picture or an open forced-perspective sculpture viewed from one special spot, never as a closed rigid tribar.
+2. **“Impossible shapes refute Euclidean geometry.”** — They refute an inconsistent 3D interpretation of a 2D drawing, not Euclid.
+3. **“They are the same as non-orientable surfaces.”** — Möbius bands exist in $$\mathbb{R}^3$$; impossible solids fail a realizability constraint.
+4. **“Any weird drawing is mathematically deep.”** — Depth comes from clean local rules paired with a crisp global obstruction.
+5. **“Escher staircases have infinite height.”** — Height is locally well-defined but globally multi-valued around the loop, not infinitely tall.
+6. **“Tweaking one corner fixes the figure.”** — Obstructions live on the entire cycle; local tweaks only push the mismatch around the loop unless you break the cycle.
 
 ---
 

@@ -12,9 +12,11 @@ categories:
 > **Course links**  
 > [Riemann Hypothesis]({{ site.baseurl }}/contents/en/chapter01/01_02_Riemann_Hypothesis/) · [Twin primes]({{ site.baseurl }}/contents/en/chapter01/01_06_Twin_Prime_Conjecture/) · [Green–Tao]({{ site.baseurl }}/contents/en/chapter02/02_04_Green_Tao/) · [Maynard]({{ site.baseurl }}/contents/en/chapter02/02_09_Maynard_Primes/)
 
-Primes look like coin flips scattered among the integers—until they do not. The **Prime Number Theorem** predicts global density; the **Riemann Hypothesis** would refine error terms; **twin primes** and **bounded gaps** probe local clustering; **Green–Tao** finds arithmetic progressions of arbitrary length. This studio trains you to **separate phenomena**, **run small experiments**, and never confuse a striking plot with a theorem.
+Walk along the positive integers and strike a bell every time you land on a prime—$$2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37\dots$$ Up close, the rhythm feels utterly capricious: two chimes ring almost on top of each other ($$101$$ and $$103$$), and then silence stretches across dozens—or eventually millions—of consecutive composites. Zoom in, and the primes look like coin flips.
 
-You will not prove RH or the twin prime conjecture. You will build a personal map of what is known, what is open, and what your computer can honestly claim.
+Now step far back. Suddenly the noise dissolves into an astonishingly smooth curve. The **Prime Number Theorem** nails their global density; the **Riemann Hypothesis** aims at the sharpest possible error term; **bounded gaps** (Zhang, Maynard) guarantee infinitely many close encounters; and **Green–Tao** uncovers evenly spaced arithmetic progressions of any finite length hiding inside them. So *"Are primes predictable?"* has no simple yes-or-no answer. This studio trains you to **separate phenomena into layers**, **run controlled experiments**, and never mistake a gorgeous plot up to $$10^8$$ for a proof valid to infinity.
+
+**Lesson roadmap:** Background Knowledge Map (analytic number theory, sieve methods & additive combinatorics) → Counting primes, gaps, twins & Green–Tao → Deep-Dive Explanation (Read Slowly): hand-checking all primes $$\le 100$$ and proving why a 6-prime AP must have step divisible by 30 → Layered status table → Studio experiments & log.
 
 ---
 
@@ -33,6 +35,28 @@ After this studio you should be able to:
 
 ---
 
+## Background Knowledge Map: What Is Analytic Number Theory and What Does It Study?
+
+Prime numbers belong to discrete arithmetic, so university graduates are often surprised that the deepest breakthroughs about primes use integrals, complex variables, and waves. That bridge is **Analytic Number Theory**, built on three main pillars:
+
+### 1. From Discrete Primes to Complex Functions via the Zeta Function
+
+Leonhard Euler discovered the identity binding all integers to all primes:
+$$
+\zeta(s) = \sum_{n=1}^{\infty} n^{-s} = \prod_{p\text{ prime}} (1 - p^{-s})^{-1} \qquad (\operatorname{Re}(s) > 1).
+$$
+Bernhard Riemann extended $$\zeta(s)$$ to the complex plane and showed that the oscillations of the prime-counting function $$\pi(x)$$ are encoded by the nontrivial zeros of $$\zeta(s)$$—just as a musical waveform is assembled from harmonic frequencies.
+
+### 2. Sieve Theory
+
+Descending from the ancient Sieve of Eratosthenes (crossing off multiples of 2, 3, 5…), modern sieves (Selberg's sieve, the GPY sieve, and the multidimensional sieve of James Maynard and Terence Tao) estimate how many integers survive after filtering out small prime factors. That machinery proved there are infinitely many pairs of primes separated by at most **246**.
+
+### 3. Additive Combinatorics and Probabilistic Models (Cramér's Model)
+
+To predict additive patterns like twin primes $$(p, p+2)$$ or long arithmetic progressions, number theorists use **Cramér's heuristic**—imagining each integer $$n$$ flips a biased coin with probability $$1/\log n$$ to be "prime"—to guess asymptotic formulas, and then deploy Fourier analysis and structure theory (Green–Tao) to prove genuine theorems.
+
+---
+
 ## 1. Background mathematics
 
 ### 1.1 Counting primes
@@ -43,17 +67,17 @@ $$
 \pi(x)\sim\frac{x}{\log x}\qquad(x\to\infty),
 $$
 
-or equivalently $$p_n\sim n\log n$$. A more refined classical approximation is the logarithmic integral $$\operatorname{li}(x)$$. Empirically, $$\pi(x)$$ tracks these approximations closely for accessible $$x$$—but “closely” is a quantitative statement about error terms, and that is where RH lives.
+or equivalently $$p_n\sim n\log n$$. A sharper classical approximation is the logarithmic integral $$\operatorname{li}(x) = \int_2^x \frac{dt}{\log t}$$. For instance, up to $$x = 10^6$$, there are exactly $$\pi(10^6) = 78\,498$$ primes: $$10^6/\log(10^6) \approx 72\,382$$, while $$\operatorname{li}(10^6) \approx 78\,627.5$$—off by only **130 primes** out of a million!
 
 ### 1.2 Gaps and twins
 
-The **gap** after $$p_n$$ is $$g_n=p_{n+1}-p_n$$. Heuristically, gaps are typically on the order of $$\log p_n$$, yet larger gaps occur; one can force arbitrarily large gaps by factorial constructions:
+The **gap** after $$p_n$$ is $$g_n=p_{n+1}-p_n$$. Heuristically, gaps are typically on the order of $$\log p_n$$, yet arbitrarily large gaps occur via factorials:
 
 $$
 (n+1)!+2,\;(n+1)!+3,\;\ldots,\;(n+1)!+(n+1)
 $$
 
-are $$n$$ consecutive composites. So “gaps stay bounded” is false, while “gaps are *usually* about $$\log p$$” can still be true in an average sense.
+are $$n$$ consecutive composites (for $$n=4$$, $$122, 123, 124, 125$$ are divisible by $$2, 3, 4, 5$$—though in fact four consecutive composites already appear right after $$23$$!).
 
 **Twin primes** are pairs $$(p,p+2)$$ both prime. The twin prime conjecture asserts infinitely many. The **Hardy–Littlewood** heuristic predicts
 
@@ -61,11 +85,29 @@ $$
 \#\{p\le X: p+2\text{ prime}\}\sim 2C_2\int_2^X\frac{dt}{(\log t)^2}
 $$
 
-for a product constant $$C_2>0$$ (the twin prime constant). Numerics often match the shape of this prediction long before a proof exists.
+with twin prime constant $$C_2 \approx 0.66016$$.
+
+#### Deep-Dive Explanation (Read Slowly): Hand-Checking Primes $$\le 100$$ and Proving the "Multiple of 30" Rule
+
+Before running code up to $$10^6$$, spend two minutes with pencil and paper on $$[1, 100]$$ to see both randomness and rigid arithmetic rules side by side:
+
+1. **Direct tally up to $$x = 100$$:** There are exactly **25** primes:
+   $$
+   2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97.
+   $$
+   - **Gaps $$g_n$$:** The unique gap of $$1$$ is $$3 - 2$$; gap $$2$$ appears **8 times**, giving the 8 twin pairs $$(3,5), (5,7), (11,13), (17,19), (29,31), (41,43), (59,61), (71,73)$$. The largest gap below 100 is $$8$$ (between $$89$$ and $$97$$), nearly twice the typical scale $$\log(100) \approx 4.6$$.
+   - **Comparing with Hardy–Littlewood:** At $$X = 100$$, the integral gives $$\approx 13.5$$ (small-$$X$$ noise is large); by $$X = 10^5$$, there are 1,224 twin pairs versus the prediction $$\approx 1{,}249$$—within $$2\%$$!
+
+2. **Hand proof that any 6-term prime AP starting above 5 has common difference $$d$$ divisible by 30:**
+   Suppose $$a, a+d, a+2d, a+3d, a+4d, a+5d$$ are all prime with $$a > 5$$.
+   - *Divisible by 2:* If $$d$$ were odd, one of $$a, a+d$$ would be an even number $$> 2$$ (composite) → contradiction. Hence $$2 \mid d$$.
+   - *Divisible by 3:* If $$3 \nmid d$$, then $$a, a+d, a+2d$$ hit all three residues $$0, 1, 2 \pmod 3$$, forcing a multiple of 3 larger than 3 → contradiction. Hence $$3 \mid d$$.
+   - *Divisible by 5:* Likewise, if $$5 \nmid d$$, the first five terms hit all five residues $$0, 1, 2, 3, 4 \pmod 5$$, forcing a multiple of 5 larger than 5 → contradiction. Hence $$5 \mid d$$.
+   - Conclusion: $$d$$ **must be a multiple of $$2 \times 3 \times 5 = 30$$**! Check the smallest 6-prime AP: $$7, 37, 67, 97, 127, 157$$—common difference literally $$d = 30$$!
 
 ### 1.3 Bounded gaps and Maynard
 
-**Zhang (2013)** proved that $$\liminf (p_{n+1}-p_n)<\infty$$—in fact an explicit (large) bound—using GPY methods and Bombieri–Vinogradov-type ingredients. **Maynard** and Tao (independently, related work) simplified and strengthened the multidimensional sieve approach; the best unconditional numerical bounds on the liminf have been driven down dramatically by Polymath and subsequent work. Bounded gaps say something precise about *occasional* clustering; they do not by themselves yield twins (gap 2).
+**Zhang (2013)** proved that $$\liminf (p_{n+1}-p_n)<\infty$$—initially with bound $$70{,}000{,}000$$—using GPY methods and Bombieri–Vinogradov-type ingredients. **Maynard** and Tao (independently) simplified and strengthened the multidimensional sieve approach; Polymath8 and subsequent work drove the unconditional bound down to **246**. Bounded gaps guarantee *occasional* close pairs; they do not by themselves settle twin primes (gap 2).
 
 ### 1.4 Arithmetic progressions: Green–Tao
 
@@ -75,7 +117,7 @@ $$
 a,\;a+d,\;\ldots,\;a+(k-1)d
 $$
 
-all prime. The proof is a landmark of additive combinatorics and ergodic/structure theory, not elementary sieve play. Finding an explicit AP of length 4 or 5 by hand or machine is a good *exploration*; proving all lengths exist is not your studio task.
+all prime (e.g., $$k=5$$: $$5, 11, 17, 23, 29$$ with $$d=6$$; $$k=6$$: $$7, 37, 67, 97, 127, 157$$ with $$d=30$$). The proof is a landmark of additive combinatorics and ergodic/structure theory, not elementary sieve play. Finding an explicit AP of length 4 or 5 by hand or machine is a great *exploration*; proving all lengths exist is not your studio task.
 
 ### 1.5 Riemann Hypothesis as an error-term statement
 
@@ -85,7 +127,7 @@ $$
 \pi(x)=\operatorname{li}(x)+O\bigl(x^{1/2}\log x\bigr)
 $$
 
-(under RH, in standard forms). Without RH, weaker error terms are known. Connecting zero-free regions to primes is deep analytic number theory—Ch.1’s RH lesson is the companion deep read.
+(under RH, in standard forms). In probabilistic language, $$x^{1/2}$$ is the signature fluctuation scale of a fair coin-flip random walk. Without RH, weaker error terms are known. Connecting zero-free regions to primes is deep analytic number theory—Ch.1’s RH lesson is the companion deep read.
 
 ### 1.6 Predictability is layered
 

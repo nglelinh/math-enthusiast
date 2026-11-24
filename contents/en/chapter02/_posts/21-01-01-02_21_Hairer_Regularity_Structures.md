@@ -9,14 +9,16 @@ categories:
 - chapter02
 ---
 
-**Martin Hairer** received the **Fields Medal 2014**
+Watch the jagged glowing front of a burning sheet of paper, or the rough surface of falling snow piling up on a windowsill. Physicists love writing down partial differential equations driven by "white noise" to capture billions of tiny random kicks. On a chalkboard, those equations look crisp and evocative; to a mathematical analyst, they are a **logical nightmare**: the solutions are so rough that even squaring a derivative or cubing the solution means multiplying two infinite distributions together—an operation that has no meaning at all!
+
+For decades, famous equations like **KPZ** and **dynamical $$\Phi^4_3$$** hung in mathematical limbo: everyone believed they described nature, yet nobody knew how to *define* what a solution even meant. In 2014, **Martin Hairer** received the **Fields Medal**
 
 > “for his outstanding contributions to the theory of stochastic partial differential equations, and in particular for the creation of a theory of regularity structures for such equations.”
 > — [IMU, Fields Medals 2014](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2014)
 
-The citation names a **language**, not a claim that every stochastic PDE is now well-posed. Classical Itô calculus tamed ordinary stochastic differential equations in the 1940s. Singular **stochastic partial differential equations (SPDEs)**—equations whose solutions are so rough that the nonlinear terms are products of distributions—sat outside that calculus. Hairer’s **regularity structures** supply a Taylor-like expansion for those solutions, a reconstruction theorem that turns an abstract jet into a genuine distribution, and a renormalization-and-fixed-point scheme that gives a rigorous meaning to equations that physicists had written for decades.
+This medal honors the creation of a **new language**. By upgrading classical Taylor polynomials—adding abstract "noise monomials" built directly from white noise alongside $$1, x, x^2, \ldots$$—Hairer’s **regularity structures** let analysts multiply rough distributions algebraically, perform **renormalization** rigorously, and then "reconstruct" a genuine solution. Along the way, we place Hairer’s theory beside **Terry Lyons’s rough paths** and the independent **paracontrolled distributions** of Gubinelli–Imkeller–Perkowski, while keeping two boundaries crisp: this does not solve the Clay 3D Navier–Stokes problem, and Hairer’s physics PhD is biography, not the theorem.
 
-This essay aims at seminar fluency: why the product fails, what KPZ and dynamical $$\Phi^4_3$$ look like as test cases, what a regularity structure is trying to be, and how **paracontrolled distributions** (Gubinelli–Imkeller–Perkowski) sit beside Hairer’s theory as a related independent toolkit. It does **not** claim that the Clay Navier–Stokes problem is solved, and it does **not** treat Hairer’s earlier physics doctorate as the medal.
+**Lesson roadmap:** Background Knowledge Map (distributions, white noise, singular SPDEs) → Hand-verifiable worked examples (why $$\delta_0^2$$ blows up & the regularity power-counting table for KPZ and $$\Phi^4_3$$) → Deep-Dive Explanation (Read Slowly): 4 steps from noise-tree Taylor expansions to reconstruction, renormalization, and Banach fixed points → Rough paths & paracontrolled distributions → Scope and limits of the medal.
 
 ---
 
@@ -24,12 +26,11 @@ This essay aims at seminar fluency: why the product fails, what KPZ and dynamica
 
 After this lecture you should be able to:
 
-- Explain, in one paragraph, why a product of distributions is not in general defined, and why that obstruction appears in nonlinear SPDEs with space-time white noise.
-- Name two singular equations (KPZ; dynamical $$\Phi^4_3$$) and say what “singular” means for each.
-- Describe regularity structures as a **graded expansion language**—Taylor polynomials upgraded to include noise-built monomials.
-- State the slogan of the **reconstruction theorem**: an abstract modelled distribution determines a unique actual distribution that looks like the model near every point.
-- Credit **Lyons’s rough paths** as a predecessor and **paracontrolled distributions** as a parallel approach, not as Hairer’s invention.
-- Practice accuracy: the 2014 medal is for SPDE theory / regularity structures; a physics PhD is biographical background; 3D deterministic Navier–Stokes remains open.
+- Compute by hand why $$\delta_\varepsilon(x)^2$$ diverges and use regularity power-counting to explain why $$(\partial_x h)^2$$ in KPZ and $$\Phi^3$$ in $$\Phi^4_3$$ are classically ill-defined.
+- Describe a **regularity structure** $$(\mathcal{A}, T, G)$$ as an upgraded Taylor expansion containing noise-built tree monomials.
+- Explain Hairer’s three-step engine: the **reconstruction theorem**, **model renormalization**, and a deterministic **Banach fixed-point** argument.
+- Credit **Lyons’s rough paths** as a predecessor and **paracontrolled distributions** (Gubinelli–Imkeller–Perkowski) as a parallel independent toolkit.
+- State the exact scope: **subcritical parabolic** singular SPDEs—not all SPDEs, and not the Clay 3D deterministic Navier–Stokes problem.
 
 **Prerequisites.** The heat equation and the idea of a PDE; Brownian motion as a continuous but nowhere differentiable path; distributions as continuous linear functionals on test functions. Stochastic integrals at the level of “white noise is the derivative of Brownian motion” are enough. No prior rough-path course is assumed.
 
@@ -37,104 +38,96 @@ After this lecture you should be able to:
 
 ---
 
-## 1. When the product does not exist
+## Background Knowledge Map: What Do Distributions, White Noise, and Singular SPDEs Study?
 
-A Schwartz distribution $$u\in\mathcal{S}'(\mathbb{R}^d)$$ can be differentiated any number of times, but it cannot always be multiplied by another distribution. Pointwise products require enough regularity: if $$u$$ is a measure and $$v$$ is a continuous function the product is fine; if both are as rough as the derivative of Brownian motion, there is in general **no canonical product**.
+### 1. Distributions: free derivatives at the price of multiplication
+A step function jumping from $$0$$ to $$1$$ at $$x = 0$$ has no classical derivative. Laurent Schwartz’s **theory of distributions** defines generalized functions by testing against smooth functions $$\varphi$$: $$\langle u, \varphi \rangle = \int u(x)\varphi(x)\,dx$$. Integration by parts makes every distribution infinitely differentiable (the step function’s derivative is the Dirac delta $$\delta_0$$), but the price is steep: **two rough distributions cannot generally be multiplied**.
 
-Space-time white noise $$\xi$$ is, informally, a Gaussian distribution whose covariance is a delta function. It is far rougher than a function. Linear SPDEs such as the stochastic heat equation
-
-$$
-\partial_t u=\Delta u+\xi
-$$
-
-still make sense: one convolves $$\xi$$ with the heat kernel and obtains a Hölder distribution (in one space dimension, roughly Hölder-$$1/2-$$ in space). The trouble starts when the equation is **nonlinear** in that solution. Two canonical examples:
-
-**Kardar–Parisi–Zhang (KPZ).** A model for a growing interface,
+### 2. Brownian motion and space-time white noise
+**Brownian motion** $$B_t$$ is continuous everywhere yet nowhere differentiable: $$\vert B_{t+h} - B_t \vert \sim \vert h \vert^{1/2}$$, giving Hölder regularity $$1/2-$$ (meaning $$1/2 - \kappa$$ for every $$\kappa > 0$$). Its distributional derivative is **white noise** $$\xi$$, which has *negative* regularity. In parabolic space-time with $$d$$ spatial dimensions (where time counts double because $$t \sim x^2$$, giving parabolic dimension $$d + 2$$), space-time white noise has regularity:
 
 $$
-\partial_t h=\partial_x^2 h+(\partial_x h)^2+\xi.
+\mathrm{reg}(\xi) = -\frac{d+2}{2}-.
 $$
 
-The solution $$h$$ is expected to be as rough as the stochastic heat equation, so $$\partial_x h$$ is a distribution, and $$(\partial_x h)^2$$ is the illegal product.
-
-**Dynamical $$\Phi^4_3$$.** A stochastic quantization of the $$\Phi^4$$ field in three space dimensions,
-
-$$
-\partial_t\Phi=\Delta\Phi-\Phi^3+\xi.
-$$
-
-Here $$\Phi$$ itself is distribution-valued, and the cube $$\Phi^3$$ is again undefined as a pointwise product.
-
-“Singular” in this literature does not mean “we have not tried hard enough.” It means the naive equation is **not a well-defined PDE** until one specifies a limiting procedure (smooth the noise, subtract divergences, pass to the limit) and proves the limit exists.
+### 3. Why singular SPDEs break Itô calculus
+Classical Itô calculus (1940s) solves ordinary SDEs in 1D time by separating past from future. For nonlinear **SPDEs** in space-time, space has no past/future arrow. When solutions are so rough that nonlinear terms multiply distributions whose regularities sum to $$\le 0$$, the equation is **singular**: making sense of it requires smoothing the noise to $$\xi^\varepsilon$$, subtracting explicit diverging counterterms (**renormalization**), and proving convergence as $$\varepsilon \to 0$$.
 
 ---
 
-## 2. Hairer’s route: from KPZ to a general language
+## 1. Hand-Verifiable Worked Examples: Why $$\delta_0^2$$ Blows Up and Power-Counting KPZ & $$\Phi^4_3$$
 
-Hairer was born in Geneva in 1975, studied mathematics and physics at the University of Geneva, and wrote a **physics** PhD (2001) under Jean-Pierre Eckmann. That background explains his ease with formal field-theoretic calculations. The Fields Medal is for the **mathematical** SPDE theory.
+### Example 1: Squaring a Dirac delta box approximation
+Approximate $$\delta_0$$ by a narrow rectangle of width $$\varepsilon$$ and height $$1/\varepsilon$$ around $$0$$:
 
-Two earlier strands matter. With **Jonathan Mattingly**, he proved ergodicity for **two-dimensional stochastic Navier–Stokes** with degenerate noise (Annals, 2006)—a stochastic fluid theorem, not the Clay problem for deterministic 3D Navier–Stokes. Separately, **Terry Lyons’s rough paths** had shown that ordinary SDEs driven by irregular signals can be solved if one enhances the signal by iterated integrals. IMU’s 2014 note says Hairer built on that idea.
+$$
+\delta_\varepsilon(x) = \frac{1}{\varepsilon}\,\mathbf{1}_{[-\varepsilon/2,\, \varepsilon/2]}(x).
+$$
 
-In *Solving the KPZ equation* (Annals of Mathematics, 2013), Hairer gave a pathwise meaning to KPZ by a regularity structure adapted to that equation (after related Cole–Hopf and uniqueness work in the probability community). The general machine appeared as *A theory of regularity structures* (Inventiones Mathematicae, 2014; arXiv:1303.5113): a framework that treats KPZ, $$\Phi^4_3$$, the parabolic Anderson model, and a large class of **subcritical parabolic** singular SPDEs by the same algebra-plus-analysis pattern.
+Its area is $$\varepsilon \cdot (1/\varepsilon) = 1$$, so $$\delta_\varepsilon \to \delta_0$$. Now **square** it: the box still has width $$\varepsilon$$, but its height shoots to $$1/\varepsilon^2$$, giving total area:
 
-**Subcritical** is a scaling slogan: after a power-counting of the noise and the nonlinearity, the equation becomes less singular at small scales than a critical model would. Regularity structures are not a license to write an arbitrary SPDE and declare it solved.
+$$
+\int_{\mathbb{R}} \delta_\varepsilon(x)^2\,dx = \varepsilon \cdot \frac{1}{\varepsilon^2} = \frac{1}{\varepsilon} \xrightarrow{\varepsilon \to 0} +\infty!
+$$
 
----
+The golden rule of harmonic analysis (Young/Bony) says a canonical product $$u \cdot v$$ exists only when **$$\mathrm{reg}(u) + \mathrm{reg}(v) > 0$$**.
 
-## 3. Regularity structures: Taylor polynomials with noise monomials
+### Example 2: Regularity power-counting for KPZ and dynamical $$\Phi^4_3$$
+The heat inverse $$(\partial_t - \Delta)^{-1}$$ always **adds $$+2$$** to regularity, while a spatial derivative $$\partial_x$$ **subtracts $$-1$$**. Add the numbers directly:
 
-A classical $$C^\gamma$$ function $$f$$ on $$\mathbb{R}^d$$ is one that looks, near every point $$x$$, like a Taylor polynomial of degree $$\lfloor\gamma\rfloor$$, with a Hölder remainder. Hairer’s idea is to keep the “looks like an expansion near $$x$$” but to enlarge the list of allowed monomials.
+| Equation | Spatial dim $$d$$ | Noise $$\xi$$ | Solution regularity (after $$+2$$) | Nonlinear term & sum of regularities |
+|---|---|---|---|---|
+| Stochastic heat $$\partial_t u = \Delta u + \xi$$ | $$d = 1$$ | $$-3/2-$$ | $$u \sim +1/2-$$ | None (linear, well-posed!) |
+| **KPZ**: $$\partial_t h = \partial_x^2 h + (\partial_x h)^2 + \xi$$ | $$d = 1$$ | $$-3/2-$$ | $$h \sim +1/2- \implies \partial_x h \sim -1/2-$$ | $$(\partial_x h)^2$$: $$(-1/2-) + (-1/2-) = \mathbf{-1- < 0}$$ (Illegal!) |
+| **Dynamical $$\Phi^4_3$$**: $$\partial_t\Phi = \Delta\Phi - \Phi^3 + \xi$$ | $$d = 3$$ | $$-5/2-$$ | $$\Phi \sim -1/2-$$ (a distribution!) | $$\Phi^3$$: $$3 \times (-1/2-) = \mathbf{-3/2- < 0}$$ (Illegal!) |
 
-A **regularity structure** is a triple $$(\mathcal{A},T,G)$$: an index set $$\mathcal{A}\subset\mathbb{R}$$ of homogeneities, a graded vector space $$T=\bigoplus_{\alpha\in\mathcal{A}}T_\alpha$$ whose basis elements behave like abstract monomials (ordinary polynomials *and* symbols built from the noise), and a structure group $$G$$ that recenters expansions from one base point to another, the way Taylor polynomials transform under $$x\mapsto y$$.
-
-A **model** $$(\Pi,\Gamma)$$ realizes those symbols as actual distributions: $$\Pi_x\tau$$ is “the concrete jet of the symbol $$\tau$$ based at $$x$$,” and $$\Gamma_{xy}$$ converts an expansion based at $$y$$ into one based at $$x$$. Analytic bounds say that $$\Pi_x\tau$$ scales like $$\lambda^{|\tau|}$$ when tested on a bump of width $$\lambda$$.
-
-A **modelled distribution** is then a map $$x\mapsto f(x)\in T$$ that is Hölder with respect to $$\Gamma$$—an abstract Taylor jet whose coefficients vary in a controlled way. The whole theory is local and algebraic until one reconstructs.
-
-**Slogan.** Ordinary Taylor theory expands in $$1,\,(y-x),\,(y-x)^2,\ldots$$. A regularity structure expands in those *and* in a finite list of “polynomials made from the regularized noise,” chosen so that the PDE’s nonlinearity can be multiplied in the abstract space even when it cannot be multiplied in $$\mathcal{S}'$$.
-
----
-
-## 4. Reconstruction, renormalization, fixed point
-
-**Reconstruction theorem.** Given a model and a modelled distribution $$f$$ of positive regularity, there exists a unique distribution $$\mathcal{R}f$$ such that, near each $$x$$, $$\mathcal{R}f$$ looks like $$\Pi_x f(x)$$ up to the expected Hölder error. Reconstruction is the bridge from algebra back to analysis: it is the reason the abstract jet is not mere bookkeeping.
-
-**Renormalization.** If one smooths the noise as $$\xi^\varepsilon$$ and builds the corresponding model, many products diverge as $$\varepsilon\to 0$$. One subtracts (or, more invariantly, recenters) a finite list of constants or local counterterms—the same instinct as renormalization in quantum field theory, now as a theorem that the renormalized models converge. The reconstructed solutions then converge to a limit that one *defines* to be the solution of the singular SPDE.
-
-**Fixed point.** In the space of modelled distributions, the PDE becomes a contraction mapping for short time (or globally in dissipative cases), exactly as Picard iteration works for ODEs in Banach spaces. Existence and uniqueness are not metaphysical; they are fixed-point theorems in a space designed so that the illegal product is legal.
-
-Hairer’s theory therefore does three jobs at once: it **defines** the equation, it **constructs** solutions, and it **identifies** the limit of natural regularizations. That is why the IMU text says he gave, for the first time, a rigorous intrinsic meaning to many SPDEs arising in physics.
+Those negative sums **$$-1-$$** and **$$-3/2-$$** show immediately why KPZ and $$\Phi^4_3$$ fail classically—and why smoothing the noise to $$\xi^\varepsilon$$ shifts $$(\partial_x h^\varepsilon)^2$$ by a diverging constant $$C_\varepsilon \sim 1/\varepsilon$$ that must be subtracted!
 
 ---
 
-## 5. Paracontrolled distributions: a related independent toolkit
+## 2. Deep-Dive Explanation: How Regularity Structures Tame Infinities (Read Slowly)
 
-Around the same years, **Massimiliano Gubinelli**, **Peter Imkeller**, and **Nicolas Perkowski** developed **paracontrolled distributions** (Forum of Mathematics, *Pi*, 2015; preprint arXiv:1210.2684). The idea is Fourier-analytic rather than jet-theoretic: one uses Bony paraproducts to say that a solution $$u$$ is “controlled” by the linear stochastic objects built from the noise, and one multiplies in the paraproduct calculus.
+Martin Hairer (born 1975 in Geneva, physics PhD 2001 under Jean-Pierre Eckmann) had already proved ergodicity of 2D stochastic Navier–Stokes with degenerate noise (with Jonathan Mattingly, *Annals*, 2006) and drew inspiration from **Terry Lyons’s rough paths**. After solving KPZ pathwise in 2013 (*Annals*), he unveiled the general framework in *A theory of regularity structures* (*Inventiones*, 2014; arXiv:1303.5113) in four clean steps:
 
-This is **not** Hairer’s invention, and it is not a corollary of regularity structures. It is a parallel toolkit that treats overlapping families of singular SPDEs (including KPZ and $$\Phi^4_3$$). Later work has compared, translated, and sometimes combined the two languages; seminar honesty requires naming both.
+#### Step 1: Upgrade Taylor polynomials with "noise trees"
+A smooth function $$f \in C^\gamma$$ looks locally like a Taylor polynomial in $$1, (y-x), (y-x)^2, \ldots$$. A singular SPDE solution does *not* look like a polynomial at tiny scales—it looks like iterated integrals of white noise!
+Hairer defines a **regularity structure** $$(\mathcal{A}, T, G)$$ by adding a finite library of **tree symbols** (such as $$\Xi$$ for $$\xi$$ of degree $$-5/2-$$, $$\mathcal{I}(\Xi)$$ for the linear solution of degree $$-1/2-$$, $$\mathcal{I}(\Xi)^2$$ of degree $$-1-$$, etc.) alongside ordinary polynomials:
+- $$\mathcal{A} \subset \mathbb{R}$$: homogeneity degrees (now allowing negative degrees);
+- $$T = \bigoplus_{\alpha \in \mathcal{A}} T_\alpha$$: graded vector space spanned by polynomials and noise trees;
+- $$G$$: structure group recentering expansions from basepoint $$y$$ to $$x$$ (generalizing the binomial theorem).
 
-A third neighbor, for orientation only, is the theory of **rough paths** (Lyons) and its branched-rough-path extensions: regularity structures can be read as a PDE-scale enrichment of that philosophy.
+Inside the abstract algebra $$T$$, **multiplying two symbols simply grafts their trees together**—completely legal algebraically!
+
+#### Step 2: Models $$(\Pi, \Gamma)$$ and the Reconstruction Theorem (Algebra $$\to$$ Analysis)
+A **model** $$(\Pi, \Gamma)$$ turns each abstract symbol $$\tau \in T$$ at basepoint $$x$$ into an actual distribution $$\Pi_x\tau$$ scaling like $$\lambda^{\vert\tau\vert}$$ at scale $$\lambda$$. A **modelled distribution** $$f(x) \in T$$ is an abstract jet whose coefficients vary smoothly under recentering $$\Gamma_{xy}$$.
+**Reconstruction Theorem:** If $$f$$ has positive regularity $$\gamma > 0$$, there exists a **unique** genuine distribution $$\mathcal{R}f \in \mathcal{S}'$$ that looks like $$\Pi_x f(x)$$ near every point $$x$$ up to error $$\lambda^\gamma$$.
+
+#### Step 3: Renormalizing the model (Isolating all the probability in one place)
+Smoothing $$\xi$$ to $$\xi^\varepsilon$$ produces natural models $$(\Pi^\varepsilon, \Gamma^\varepsilon)$$, whose nonlinear trees blow up as $$\varepsilon \to 0$$. Because the SPDE is **subcritical** (at small scales the nonlinearity weakens relative to the heat operator), only **finitely many** negative-degree trees diverge! Acting by a renormalization group (built from a Hopf algebra of rooted trees) subtracts a finite list of local counterterms (such as $$-C_\varepsilon \Phi$$ in $$\Phi^4_3$$), so the renormalized models $$(\hat{\Pi}^\varepsilon, \hat{\Gamma}^\varepsilon)$$ **converge probabilistically** to a limiting model $$(\hat{\Pi}, \hat{\Gamma})$$. Crucially, this probabilistic work is done *once* for finitely many basis trees!
+
+#### Step 4: A completely deterministic Banach fixed point
+Once the limiting model $$(\hat{\Pi}, \hat{\Gamma})$$ is in hand, everything else is **100% deterministic**: on the Banach space of modelled distributions, the singular SPDE becomes a short-time contraction mapping solved by Picard iteration! Applying $$\mathcal{R}$$ to the fixed point $$f$$ yields the genuine distribution $$\mathcal{R}f$$—giving the singular SPDE a rigorous, intrinsic solution!
+
+Summary of Hairer’s machine:
+
+$$
+\text{Singular SPDE}
+\;\xrightarrow{\text{noise trees}}\;
+\text{Algebra } (\mathcal{A}, T, G)
+\;\xrightarrow{\text{renormalize}}\;
+\text{Model } (\hat{\Pi}, \hat{\Gamma})
+\;\xrightarrow{\text{Picard + } \mathcal{R}}\;
+\text{True solution } \mathcal{R}f.
+$$
 
 ---
 
-## 6. What the medal is not
+## 3. Paracontrolled Distributions, Rough Paths, and Scope of the Medal
 
-Accuracy constraints for this course:
+- **Rough paths (Terry Lyons):** Showed that ODEs driven by rough signals can be solved pathwise once enhanced with iterated integrals; regularity structures extend that philosophy to PDEs.
+- **Paracontrolled distributions (Massimiliano Gubinelli, Peter Imkeller, and Nicolas Perkowski,** *Forum Math. Pi*, 2015; arXiv:1210.2684): An **independent parallel toolkit** built on Fourier analysis and Bony paraproducts that also solves KPZ and $$\Phi^4_3$$—not Hairer’s invention and not a corollary of regularity structures.
 
-- **Not all SPDEs.** The theory targets a class of subcritical parabolic equations. Critical and supercritical models, hyperbolic problems, and many fluid equations remain outside, or only partly inside, the machine.
-- **Not Clay Navier–Stokes.** Hairer–Mattingly ergodicity is for *stochastic* 2D Navier–Stokes. The deterministic 3D regularity problem is untouched by regularity structures as a solution, and the IMU citation does not claim otherwise.
-- **Not “physics PhD therefore Fields.”** The doctorate explains taste and technique; the prize is the SPDE theory.
-- **Not a uniqueness of method.** Paracontrolled calculus, energy methods, and Cole–Hopf transformations solve some of the same equations by other routes.
-
-Later chairs (Warwick, Imperial, EPFL) and the 2021 Breakthrough Prize do not change the 2014 sentence.
-
----
-
-## 7. Why it matters on a modern map
-
-Singular SPDEs sit where probability, PDE, and quantum field theory share a wall: easy to write, hard to interpret. Regularity structures changed the default from “formal” to “renormalized fixed point” for a large, explicitly described class.
-
-For this chapter, Hairer is an **infrastructure** portrait: a new category of expansions that makes old formal objects legal. Some Fields medals reward a language.
+**What the 2014 medal does not claim:** It covers **subcritical parabolic** singular SPDEs (critical models like $$\Phi^4_4$$, supercritical models, and many hyperbolic/fluid equations lie outside); Hairer–Mattingly (2006) is 2D *stochastic* Navier–Stokes, not the Clay 3D deterministic problem; and the physics PhD (plus the later 2021 Breakthrough Prize) is biographical context, not the citation itself.
 
 ---
 

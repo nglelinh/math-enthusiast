@@ -9,9 +9,24 @@ categories:
 - chapter06
 ---
 
-How do you move a pile of sand into the shape of another pile at minimal cost? That ancient-sounding question is the root of **optimal transport (OT)**, now a central language for comparing probability distributions, reshaping shapes, and building generative models. From Monge’s 1781 problem through Kantorovich’s linear programming relaxation to modern entropic regularization and computational geometry, OT sits at the crossroads of analysis, probability, optimization, and data science.
+In 1781, the French military engineer and mathematician Gaspard Monge faced a down-to-earth problem: how to shovel a mound of soil into a set of fortification trenches using the least total hauling work. More than a century and a half later, Soviet mathematician Leonid Kantorovich met the same problem while optimizing freight logistics across factories—and his linear-programming solution eventually won the 1975 Nobel Prize in Economics.
 
-This lecture develops the Monge and Kantorovich formulations, Wasserstein distances, basic duality, computational ideas (including Sinkhorn), and applications—while marking theorems, numerical heuristics, and hype about “Wasserstein GANs solving generative modeling.”
+Few would have guessed that “moving dirt cheaply” would become one of the central languages of modern mathematics and AI. Replace mounds of soil with **probability distributions**, and Monge–Kantorovich transport becomes a geometrically faithful way to compare datasets, morph shapes smoothly, interpret the heat equation as a gradient flow, and train generative models. **Optimal transport (OT)** sits squarely at the crossroads of analysis, probability, convex optimization, and data science.
+
+This lecture traces the arc from Monge’s maps to Kantorovich’s couplings, Wasserstein distances, Kantorovich–Rubinstein duality, and entropic Sinkhorn solvers—while marking theorems, numerical approximations, and hype about “Wasserstein GANs solving generative modeling.”
+
+---
+
+## Background Knowledge Map: What Is Optimal Transport and What Does It Study?
+
+If you learned statistics or information theory at university, you probably compared probability distributions using KL divergence or total variation. Yet those classical divergences compare densities only *point-by-point at the same coordinate*—making them blind to geometry: two identical hills sitting 1 cm apart or 100 km apart both yield KL $$= +\infty$$ as soon as their supports stop overlapping!
+
+**Optimal Transport Theory** fixes this blind spot by asking: *what is the minimum physical work needed to reshape distribution $$\mu$$ into distribution $$\nu$$?* It stands on **four pillars**:
+
+1. **Monge Maps vs. Kantorovich Couplings:** Relaxing deterministic transport maps $$T(x)$$ (which fail whenever mass must split) to joint plans $$\pi(x,y)$$ converts a hard nonlinear problem into a convex linear program.
+2. **Wasserstein Geometry ($$W_p$$):** Endowing the space of probability measures with a true geometric metric—enabling smooth geodesics and Wasserstein barycenters between shapes or datasets.
+3. **Kantorovich–Rubinstein Duality:** Flipping from the shipper’s view (minimizing hauling cost) to the economist’s view (maximizing profit over 1-Lipschitz price tables).
+4. **Computational OT (Sinkhorn Regularization):** Adding an entropy penalty turns an expensive linear program into fast GPU-friendly matrix scaling iterations.
 
 ---
 
@@ -103,6 +118,45 @@ Wasserstein-1 is the dual of Lipschitz functions with constant at most one. This
 More general costs have $$c$$-concave potentials and complementary slackness structures ($$c$$-cyclical monotonicity of supports of optimal plans).
 
 ---
+
+### Deep-Dive Explanation: Solving a $$2\times 2$$ Transport Problem and Checking Duality by Hand (Read Slowly)
+
+To see primal mass transport and dual 1-Lipschitz pricing match down to the last decimal, let us solve a complete $$2\times 2$$ problem on the real line $$\mathbb{R}$$.
+
+Place two sand piles $$\mu$$ at $$x_1 = 0,\ x_2 = 2$$ with masses $$a = (0.5, 0.5)$$, and two holes $$\nu$$ at $$y_1 = 1,\ y_2 = 4$$ with capacities $$b = (0.5, 0.5)$$. For $$W_1$$ ground cost $$c_{ij} = \lvert x_i - y_j \rvert$$, the cost matrix is:
+
+$$
+C = \begin{pmatrix} \lvert 0 - 1\rvert & \lvert 0 - 4\rvert \\ \lvert 2 - 1\rvert & \lvert 2 - 4\rvert \end{pmatrix}
+= \begin{pmatrix} 1 & 4 \\ 1 & 2 \end{pmatrix}.
+$$
+
+1. **Solve the primal (Kantorovich) problem:** Every valid coupling $$\pi \in \Pi(\mu, \nu)$$ (rows and columns summing to $$0.5$$) has just one free parameter $$t \in [0, 0.5]$$ (the mass sent diagonally from $$x_1$$ to $$y_2$$):
+
+   $$
+   \pi(t) = \begin{pmatrix} 0.5 - t & t \\ t & 0.5 - t \end{pmatrix}.
+   $$
+
+   The total hauling cost is a linear function of $$t$$:
+
+   $$
+   \mathrm{Cost}(t) = (0.5 - t)\cdot 1 + t\cdot 4 + t\cdot 1 + (0.5 - t)\cdot 2 = 1.5 + 2t.
+   $$
+
+   Clearly the unique minimum sits at $$t = 0$$ (no crossing paths: $$x_1 \to y_1$$ and $$x_2 \to y_2$$), giving the exact distance:
+
+   $$
+   W_1(\mu, \nu) = 1.5.
+   $$
+
+2. **Check the Kantorovich–Rubinstein dual:** We want a function $$f:\mathbb{R}\to\mathbb{R}$$ with slope at most $$1$$ ($$\|f\|_{\mathrm{Lip}} \le 1$$) maximizing $$\int f\,d\mu - \int f\,d\nu$$. Pick the simplest choice $$f(z) = -z$$ (slope $$-1$$, so $$\lvert f(x) - f(y)\rvert = \lvert x - y\rvert$$):
+
+   $$
+   \int f\,d\mu - \int f\,d\nu
+   = \bigl(0.5(-0) + 0.5(-2)\bigr) - \bigl(0.5(-1) + 0.5(-4)\bigr)
+   = (-1) - (-2.5) = 1.5.
+   $$
+
+**Exact match:** Primal minimum hauling cost ($$1.5$$) equals dual maximum 1-Lipschitz price profit ($$1.5$$)! Every symbol in the Kantorovich–Rubinstein theorem is now concrete and verifiable.
 
 ## 5. Computation: from LP to Sinkhorn
 

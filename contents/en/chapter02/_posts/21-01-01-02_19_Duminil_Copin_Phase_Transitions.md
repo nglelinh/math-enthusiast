@@ -9,9 +9,13 @@ categories:
 - chapter02
 ---
 
-**Hugo Duminil-Copin** received the **Fields Medal 2022** for, in the IMU’s short citation, “solving longstanding problems in the probabilistic theory of **phase transitions** in statistical physics, especially in dimensions **three** and **four**.” The long citation is more precise, and this essay follows it. Together with collaborators he established **continuity** and **sharpness** of the phase transition for Ising-type models in dimension three—questions open since the 1980s. In dimension four, with **Michael Aizenman**, he proved **mean-field critical behavior** of the Ising model and the **triviality** of four-dimensional Euclidean scalar quantum field theory, an old physics conjecture. In two dimensions, for dependent **Fortuin–Kasteleyn (FK)** percolation, he and collaborators determined continuity or discontinuity for all parameter values, proved universality on isoradial graphs, and established **rotational invariance** at large scale as a step toward conformal invariance.
+Think of an ordinary iron bar magnet. As you heat it up, its magnetism weakens steadily; then, at one razor-sharp threshold—the Curie temperature, around $$770^\circ\text{C}$$—its magnetism vanishes completely. Or imagine water seeping through porous rock: nudge the density of open pores across a hair-thin threshold, and water suddenly finds a path all the way across the stone. These abrupt macroscopic shifts emerging from millions of tiny random local interactions are called **phase transitions**.
 
-This essay is for learners who have seen the Ising model as spins on a lattice, or percolation as open and closed edges, and want the architecture of a Fields-level probability paper. It does **not** claim that Duminil-Copin proved conformal invariance of the three-dimensional Ising model. That remains open. It also distinguishes his work from [Smirnov’s]({{ site.baseurl }}/contents/en/chapter02/02_28_Smirnov_Percolation/) 2010 conformal invariance theorems in two dimensions and from [Werner’s]({{ site.baseurl }}/contents/en/chapter02/02_30_Werner_SLE/) SLE program—adjacent portraits, not the same theorems. Duminil-Copin’s doctoral advisor was Smirnov; the 2022 medal is a sequel chapter, not a reprint.
+For decades, the mathematics of phase transitions was trapped in a strange paradox. In **two dimensions**, physicists and mathematicians had Onsager’s exact solution alongside the conformal-invariance machinery of [Smirnov]({{ site.baseurl }}/contents/en/chapter02/02_28_Smirnov_Percolation/) and [Werner]({{ site.baseurl }}/contents/en/chapter02/02_30_Werner_SLE/). In **high dimensions** ($$d \ge 5$$), random paths rarely collide, so mean-field theory and the lace expansion worked smoothly. Yet the two dimensions where physical reality actually lives—**dimension three** (magnets and fluids) and **dimension four** (the spacetime of quantum field theory)—remained a stubborn blind spot packed with problems open since the 1970s and 1980s.
+
+In 2022, **Hugo Duminil-Copin** received the **Fields Medal** for *"solving longstanding problems in the probabilistic theory of **phase transitions** in statistical physics, especially in dimensions **three** and **four**."* Together with collaborators, he proved **continuity** and **sharpness** of the phase transition for 3D Ising-type models; with **Michael Aizenman**, he proved **mean-field critical behavior** of the 4D Ising model and **triviality** of four-dimensional Euclidean scalar quantum field theory; and in 2D, he and collaborators classified continuity vs. discontinuity for dependent **Fortuin–Kasteleyn (FK)** percolation for all parameters, proved universality on isoradial graphs, and established **large-scale rotational invariance** as a step toward conformal invariance. Although Smirnov was his doctoral advisor, the 2022 medal is a sequel chapter in new dimensions, not a replay of 2010—and conformal invariance of the 3D Ising model remains open.
+
+**Lesson roadmap:** Background Knowledge Map (percolation, Ising, and FK random-cluster models) → Hand-verifiable worked examples (a 4-edge 2D percolation cell and a $$2\times 2$$ Ising square) → Why dimensions 3 and 4 resisted for decades → Deep-Dive Explanation (Read Slowly): OSSS sharpness, random-current continuity in 3D, and multiscale triviality in 4D → Honest attribution & boundaries with Smirnov (2010) and Werner (2006).
 
 ---
 
@@ -19,56 +23,114 @@ This essay is for learners who have seen the Ising model as spins on a lattice, 
 
 After this lecture you should be able to:
 
-- State the IMU 2022 short citation and paraphrase the long citation’s three blocks: 3D Ising-type continuity/sharpness; 4D mean-field / triviality with Aizenman; 2D FK continuity-discontinuity, universality, rotation.
-- Define, at slogan level, a **phase transition**, the **critical point**, **continuity vs discontinuity** of an order parameter, and **sharpness** (exponential decay below criticality; percolation above).
-- Explain why dimension **three** was hard for the Ising model even after two-dimensional exact solutions, and why dimension **four** is the mean-field threshold for scalar fields.
-- Attribute the 4D triviality theorem jointly to **Aizenman–Duminil-Copin**, and attribute 3D and 2D results to **named groups of collaborators** rather than to a single author.
-- Distinguish **rotational invariance at large scale** (a 2D step toward conformal invariance) from **full conformal invariance**, and from any claim about 3D Ising CFT.
-- Practice **LO6**: “he solved statistical physics” is hype.
+- State the IMU 2022 short citation and summarize the three blocks of the long citation: 3D Ising continuity/sharpness; 4D mean-field / triviality with Aizenman; 2D FK continuity-discontinuity, universality, and rotational invariance.
+- Compute by hand the crossing polynomial on a small 2D percolation cell and the Boltzmann weights of a $$2\times 2$$ Ising square to see critical thresholds and order parameters in action.
+- Define **phase transition**, **critical point**, **continuity vs. discontinuity** of an order parameter, and **sharpness**.
+- Explain why dimension **three** lacks exact planar solutions and why dimension **four** is the upper critical threshold ($$2 + 2 = 4$$) for scalar fields.
+- Attribute each landmark accurately to its collaborators (**Aizenman–Duminil-Copin**, **Aizenman–Duminil-Copin–Sidoravicius**, **Duminil-Copin–Raoufi–Tassion**, and the 2D FK teams).
+- Distinguish **large-scale rotational invariance** (2D FK) from **full conformal invariance**, and reject claims about 3D Ising conformal field theory.
 
 **Prerequisites.** Independent Bernoulli percolation as a cartoon (edges open with probability $$p$$); the idea of an infinite connected component; a Hamiltonian and a Gibbs measure for the Ising model at inverse temperature $$\beta$$. No prior SLE or constructive QFT is required.
 
-**Seminar links.** Same 2022 class: [Maynard]({{ site.baseurl }}/contents/en/chapter02/02_09_Maynard_Primes/), [Viazovska]({{ site.baseurl }}/contents/en/chapter02/02_08_Viazovska_Sphere_Packing/). Probability-and-physics cousins (future portraits in this chapter): [Smirnov / percolation]({{ site.baseurl }}/contents/en/chapter02/02_28_Smirnov_Percolation/), [Werner / SLE]({{ site.baseurl }}/contents/en/chapter02/02_30_Werner_SLE/). Kinetic statistical physics of a different kind: [Deng]({{ site.baseurl }}/contents/en/chapter02/02_12_Deng_PDE/).
+**Seminar links.** Same 2022 class: [Maynard]({{ site.baseurl }}/contents/en/chapter02/02_09_Maynard_Primes/), [Viazovska]({{ site.baseurl }}/contents/en/chapter02/02_08_Viazovska_Sphere_Packing/). Probability-and-physics cousins: [Smirnov / percolation]({{ site.baseurl }}/contents/en/chapter02/02_28_Smirnov_Percolation/), [Werner / SLE]({{ site.baseurl }}/contents/en/chapter02/02_30_Werner_SLE/). Kinetic statistical physics of a different kind: [Deng]({{ site.baseurl }}/contents/en/chapter02/02_12_Deng_PDE/).
 
 ---
 
-## 1. A history of transitions, exact in two dimensions and stubborn in three
+## Background Knowledge Map: What Does Lattice Statistical Mechanics Study?
 
-A **phase transition** is a sharp change in the large-scale behavior of a system as a parameter varies—temperature, density, or an edge-weight. The **Ising model** on $$\mathbb{Z}^d$$ assigns spins $$\sigma_x=\pm 1$$ to vertices and weights configurations by $$e^{-\beta H}$$ with $$H=-\sum_{\langle x,y\rangle}\sigma_x\sigma_y$$. At high temperature (small $$\beta$$) correlations decay and the **spontaneous magnetization** vanishes; at low temperature a plus-boundary condition can force a nonzero magnetization $$M(\beta)$$. **Onsager** solved the two-dimensional Ising model exactly (1944) and exhibited a continuous transition. **Peierls** had already shown that a transition exists in dimension two and higher. Percolation—opening edges independently at probability $$p$$—has a similarly sharp **critical probability** $$p_c$$, with an infinite cluster for $$p>p_c$$.
+Probabilistic statistical mechanics asks one central question: *how do simple, purely local random rules on an infinite grid conspire to produce sudden global changes?* Three lattice models form the shared language of the field.
 
-By the 1980s the *existence* of a transition for nearest-neighbour Ising models in dimension $$d\ge 2$$ was classical, but several “what kind of transition?” questions were open in dimension three. Does $$M(\beta)$$ tend to $$0$$ as $$\beta\downarrow\beta_c$$ (continuity of the phase transition)? Are correlations exponentially small for all $$\beta<\beta_c$$, with a matching supercritical picture (**sharpness**)? Mean-field heuristics and lace expansion gave answers in *high* dimension; dimension three sat below those methods. Dimension four, the upper critical dimension for the scalar $$\varphi^4$$ theory, was a different embarrassment: physicists expected the scaling limit of critical 4D Ising / $$\varphi^4$$ to be a **Gaussian free field**—no interacting continuum scalar QFT in four Euclidean dimensions—but a complete mathematical proof was missing.
+### 1. Bernoulli percolation
+Take the infinite grid $$\mathbb{Z}^d$$. Open each edge independently with probability $$p \in [0, 1]$$ and close it with probability $$1 - p$$. Does an **infinite connected cluster** of open edges appear? By Kolmogorov’s zero-one law, there is a sharp **critical probability** $$p_c \in (0, 1)$$: for $$p < p_c$$ all clusters are finite almost surely; for $$p > p_c$$ an infinite cluster exists almost surely.
 
-Two-dimensional **dependent** models, notably the **random-cluster (FK)** representation of Potts and Ising, raised a third family of questions. For FK parameter $$q$$, when is the transition continuous and when does the order parameter jump? After [Smirnov]({{ site.baseurl }}/contents/en/chapter02/02_28_Smirnov_Percolation/) proved conformal invariance for site percolation on the triangular lattice and for the 2D Ising model, a program remained: treat *dependent* FK percolation for all $$q$$, on more graphs than the square lattice, and produce the missing symmetries (rotation, then full conformal invariance) that would connect the lattice models to 2D conformal field theory. [Werner]({{ site.baseurl }}/contents/en/chapter02/02_30_Werner_SLE/) and Lawler–Schramm–Werner had already shown how **SLE** describes scaling limits once conformal invariance is known. Duminil-Copin’s 2D work lives in that pipeline; it does not replace Smirnov or SLE.
+### 2. The Ising model
+Place a magnetic spin $$\sigma_x \in \{+1, -1\}$$ at every vertex $$x \in \mathbb{Z}^d$$. Each configuration $$\sigma$$ receives Boltzmann weight proportional to $$e^{-\beta H(\sigma)}$$, where $$\beta = 1/(k_B T)$$ is inverse temperature and the energy is
 
----
+$$
+H(\sigma) = -\sum_{\langle x,y\rangle} \sigma_x \sigma_y.
+$$
 
-## 2. Slogan: read the transition, not only its existence
+Aligned neighbors lower the energy by $$-1$$. At high temperature (small $$\beta$$), thermal noise dominates and spontaneous magnetization $$M(\beta) = 0$$; at low temperature ($$\beta > \beta_c$$), spins align macroscopically so $$M(\beta) > 0$$.
 
-**Slogan.** A modern theorem in this subject does not merely say “$$p_c$$ exists.” It says *how the system approaches* $$p_c$$: continuously or with a jump; with exponential decay or with power laws; with mean-field exponents or with non-classical ones; with rotation invariance at large scale or only with lattice symmetries.
+### 3. The Fortuin–Kasteleyn (FK) random-cluster model
+In the 1970s, Fortuin and Kasteleyn unified percolation and the Ising/Potts models into a two-parameter family $$(p, q)$$: each edge configuration $$\omega$$ has probability proportional to
 
-Three words from the IMU citation deserve definitions.
+$$
+p^{\#(\text{open edges})}(1-p)^{\#(\text{closed edges})} \, q^{k(\omega)},
+$$
 
-**Continuity** of the phase transition means that the order parameter—magnetization for Ising, percolation probability for FK—tends to its critical value without a jump. For 3D Ising, that is the statement that $$M(\beta_c)=0$$ (no residual magnetization at criticality), open since the 1980s in the form the citation names.
-
-**Sharpness** means that the subcritical regime is *uniformly* subcritical: connectivities decay exponentially in distance, and the susceptibility is finite, for every $$\beta<\beta_c$$ or $$p<p_c$$, not merely for $$\beta$$ far below criticality. Duminil-Copin, Raoufi, and Tassion developed randomized-algorithm / OSSS methods that proved sharpness for a wide class of models, including 3D Ising-type settings.
-
-**Mean-field / triviality** in dimension four means that critical exponents match the Gaussian (mean-field) ones and that the scaling limit of the lattice field is Gaussian. In physics language: four-dimensional Euclidean $$\varphi^4$$ theory is **trivial**—it does not yield a nontrivial interacting continuum limit of this type. **Aizenman–Duminil-Copin** (2021) is the paper the citation points to.
-
----
-
-## 3. What the theorems rearrange, with collaborators named
-
-**Dimension 3 (Ising-type).** Continuity of the spontaneous magnetization and sharpness of the transition move 3D Ising from “a transition exists” to “the transition is of the type everyone expected but could not prove.” Credit is collaborative. Continuity of magnetization for the 3D Ising model is associated with work of **Aizenman, Duminil-Copin, and Sidoravicius** (random-current representation). Sharpness is associated with **Duminil-Copin, Raoufi, and Tassion**. Treat any single-name slogan as a mistake.
-
-**Dimension 4 (with Aizenman).** Mean-field critical behavior of Ising and triviality of 4D Euclidean scalar QFT close a conjecture that had lived in constructive field theory and mathematical physics since the 1970s (with earlier partial results in *high* dimension and for other models). Attribute this block **jointly** to Aizenman and Duminil-Copin.
-
-**Dimension 2 (FK / random-cluster).** For the planar random-cluster model, Duminil-Copin and collaborators proved that the transition is continuous or discontinuous for **all** $$q>0$$: continuous for $$q\le 4$$, discontinuous for $$q>4$$, completing a classical picture of Baxter and others at the level of a theorem for the standard lattice models. **Universality** on **isoradial** graphs says that the critical behavior does not depend on the particular isoradial embedding. **Rotational invariance** at large scale (Duminil-Copin, Kozlowski, Krachun, Manolescu, Oulamara, and related works) is, in the IMU’s words, “an important step towards establishing their large-scale conformal invariance,” which would be the missing ingredient for a rigorous link to 2D CFT. It is **not** a complete proof of conformal invariance for all these FK models, and it is **not** a statement about three-dimensional Ising.
-
-**Earlier 2D landmark, for context.** With Smirnov, Duminil-Copin proved that the connective constant of the honeycomb lattice is $$\sqrt{2+\sqrt{2}}$$ (self-avoiding walks). That is part of his formation, not the 2022 citation’s 3D/4D emphasis.
+where $$k(\omega)$$ counts the connected clusters. Setting $$q = 1$$ recovers independent percolation; setting $$q = 2$$ recovers the Ising model (by coloring each cluster independently $$\pm 1$$)!
 
 ---
 
-## 4. Honest attribution and what the medal is not
+## 1. Hand-Verifiable Worked Examples: A 4-Edge Percolation Cell and a $$2\times 2$$ Ising Square
+
+### Example 1: Seeing a sharp threshold emerge from a 4-edge cell
+Take the simplest 2D bridge network: two parallel paths from left to right, each consisting of two edges in series (4 edges total). A single 2-edge series path is open with probability $$p^2$$, so the probability that at least one of the two parallel paths connects left to right is:
+
+$$
+f(p) = 1 - (1 - p^2)^2 = 2p^2 - p^4.
+$$
+
+Now watch what happens when we zoom out—replacing each edge by a 4-edge cell, iterating $$p \mapsto f(p) \mapsto f(f(p)) \mapsto \cdots$$:
+- Starting at $$p = 0.5$$: $$f(0.5) = 0.4375 \to 0.346 \to 0.225 \to 0.099 \to \cdots \to 0$$!
+- Starting at $$p = 0.7$$: $$f(0.7) = 0.7399 \to 0.795 \to 0.865 \to 0.937 \to \cdots \to 1$$!
+- The unstable fixed point solving $$2p^2 - p^4 = p$$ is $$p_c = \frac{\sqrt{5}-1}{2} \approx 0.618$$.
+
+Even in this toy 4-edge cell, you see **sharpness** with your own eyes: nudge $$p$$ slightly below $$p_c$$ and large-scale connectivity collapses exponentially to $$0$$; nudge it slightly above $$p_c$$ and connectivity shoots to $$1$$. (On the true square lattice $$\mathbb{Z}^2$$, Kesten proved in 1980 that $$p_c = 1/2$$.)
+
+### Example 2: A $$2\times 2$$ Ising square (4 vertices, 4 edges)
+There are $$2^4 = 16$$ spin configurations:
+- 2 fully aligned configurations (all $$+1$$ or all $$-1$$): 4 aligned pairs, energy $$H = -4$$, weight $$e^{4\beta}$$.
+- 2 checkerboard configurations: 4 opposite pairs, energy $$H = +4$$, weight $$e^{-4\beta}$$.
+- 12 mixed configurations: energy $$H = 0$$, weight $$1$$.
+
+At high temperature ($$\beta = 0.1$$), aligned states outweigh mixed states by only $$e^{0.4} \approx 1.49$$, so the 12 disordered states dominate. At low temperature ($$\beta = 2$$), aligned states carry weight $$e^8 \approx 2981$$ and swallow almost all the probability! As lattice size $$N \to \infty$$, this tug-of-war between energy and entropy sharpens into a true phase transition at $$\beta_c$$.
+
+---
+
+## 2. Why Dimensions 3 and 4 Resisted for Decades
+
+**Peierls (1936)** proved a transition exists for Ising in every dimension $$d \ge 2$$, and **Onsager (1944)** solved 2D Ising exactly, proving continuity. In **dimension 3**, all planar algebraic tricks fail: by the 1980s, nobody could prove whether 3D Ising magnetization vanished continuously at criticality ($$M(\beta_c) = 0$$) or jumped, nor establish general sharpness across dependent models.
+
+In **dimension 4**, the obstacle sits right at the geometry of quantum field theory. Brownian paths (and the random-current paths representing Ising) have Hausdorff dimension $$2$$. Because $$2 + 2 = 4$$, two independent random paths in $$\mathbb{R}^d$$:
+- collide heavily in $$d = 2, 3$$ (strong non-Gaussian interaction);
+- almost never meet in $$d \ge 5$$ (where Aizenman and Fröhlich proved triviality in the early 1980s);
+- **sit right on the borderline in $$d = 4$$!** At $$d = 4$$, intersection probabilities decay agonizingly slowly—like $$1/\ln L$$ rather than a power law—which blocked a complete proof for 40 years.
+
+---
+
+## 3. Deep-Dive Explanation: Conquering Dimensions 3 and 4 Without Exact Formulas (Read Slowly)
+
+Without an Onsager formula in 3D or 4D, Duminil-Copin and his collaborators forged a four-part probabilistic machine:
+
+#### Step 1: OSSS randomized-algorithm inequality proves Sharpness
+Let $$A$$ be the event that an open cluster connects the origin to the boundary of a box of radius $$n$$. To prove **sharpness** (exponential decay of connectivity for every $$p < p_c$$), one must show the derivative $$\frac{d}{dp}\mathbb{P}_p(A)$$ is large whenever $$\mathbb{P}_p(A)$$ is away from $$0$$ and $$1$$. **Duminil-Copin, Raoufi, and Tassion** imported the **OSSS inequality** from theoretical computer science (O’Donnell–Saks–Schramm–Servedio): any randomized decision tree that determines $$A$$ by querying edges one by one must reveal some edge with large influence. Designing a clever exploration algorithm that reveals clusters layer by layer, they proved a differential inequality forcing exponential decay throughout the entire subcritical phase—settling sharpness for a vast class of dependent models!
+
+#### Step 2: Random currents prove Continuity of 3D Ising magnetization
+**Aizenman, Duminil-Copin, and Sidoravicius (2015)** used the **random-current representation**, which rewrites spin correlations $$\langle \sigma_x \sigma_y \rangle$$ in terms of connectivity in a random graph of even-degree currents. Via the switching lemma, proving $$M(\beta_c) = 0$$ reduces to showing that two independent random currents at $$\beta_c$$ possess **no infinite cluster**. Combining reflection-positivity bounds with geometric percolation arguments, they ruled out an infinite cluster at $$\beta_c$$, proving $$M(\beta_c) = 0$$—the 3D Ising phase transition is **continuous**!
+
+#### Step 3: Multiscale intersection estimates prove 4D Triviality (Aizenman–Duminil-Copin, 2021)
+In *Annals of Mathematics* (2021), **Aizenman and Duminil-Copin** tackled the marginal dimension $$d = 4$$. In the random-current picture, the Ursell 4-point function $$U_4$$—which measures how far the field deviates from a Gaussian—is controlled directly by the probability that two independent random currents intersect. Through a delicate **multiscale analysis**, they proved that in 4D this intersection probability decays at least as $$C / (\ln L)^c \to 0$$ as $$L \to \infty$$! Consequently, every higher correlation function factorizes by Wick’s rule in the continuum scaling limit: critical 4D Ising exhibits **mean-field behavior**, and 4D Euclidean scalar $$\varphi^4$$ quantum field theory is **trivial**.
+
+#### Step 4: Planar FK classification and large-scale rotational invariance
+In 2D, Duminil-Copin and collaborators (Tassion, Manolescu, Sidoravicius, Kozlowski, Krachun, Oulamara, and others) proved that the planar FK transition is **continuous for $$1 \le q \le 4$$** and **discontinuous for $$q > 4$$**, established **universality** on isoradial graphs, and proved **large-scale rotational invariance**—showing that zoomed-out critical FK clusters forget the $$90^\circ$$ axes of the square lattice, a major milestone toward full 2D conformal invariance.
+
+Summary of the breakthrough pipeline:
+
+$$
+\text{Lattice models (Ising / FK)}
+\;\longleftrightarrow\;
+\text{Geometric representations (Random currents / FK)}
+\;\longleftrightarrow\;
+\text{OSSS + Multiscale bounds}
+\;\Longrightarrow\;
+\text{3D Sharp \& Continuous + 4D Trivial}.
+$$
+
+---
+
+## 4. Honest Attribution and What the Medal Does Not Claim
 
 | Result (slogan) | Credit |
 |-----------------|--------|
@@ -80,17 +142,11 @@ Three words from the IMU citation deserve definitions.
 | 2D percolation / Ising conformal invariance | **Smirnov (2010 Fields)** — see [that essay]({{ site.baseurl }}/contents/en/chapter02/02_28_Smirnov_Percolation/) |
 | SLE as the scaling-limit language | **Schramm; Lawler–Schramm–Werner; Werner (2006 Fields)** — see [Werner]({{ site.baseurl }}/contents/en/chapter02/02_30_Werner_SLE/) |
 
-Duminil-Copin was born in 1985 in France, studied at ENS and Paris-Sud, wrote his PhD in Geneva under Smirnov (2011), and holds positions at the University of Geneva and the IHÉS. The biographical colour is optional; the collaborator table is not.
+*(An earlier landmark with Smirnov in 2012 proved the connective constant of self-avoiding walks on the honeycomb lattice is $$\sqrt{2+\sqrt{2}}$$—a gem of his early career, distinct from the 3D/4D emphasis of the 2022 citation.)*
 
-**Do not claim:** full conformal invariance of 3D Ising; a classification of all lattice models; a solution of constructive QFT in dimension three; that SLE was reinvented in 2022.
+Duminil-Copin (born 1985 in France) studied at ENS and Paris-Sud, completed his PhD in Geneva under Smirnov (2011), and holds professorships at the University of Geneva and IHÉS.
 
----
-
-## 5. Why a Fields Medal
-
-Lattice statistical mechanics is full of beautiful predictions and few theorems in the dimensions where physics actually happens. Dimension two had Onsager, conformal field theory, SLE, and Smirnov. High dimension had mean-field and lace expansion. Dimensions three and four were the gap the IMU names. Closing continuity and sharpness in 3D, and triviality in 4D, changed what a “physically realistic dimension” theorem can look like: probabilistic representations (random currents, random-cluster measures), sharp threshold tools from computer science, and classical correlation inequalities, rather than an exact solution.
-
-For this course, Duminil-Copin is a portrait of **inherited language, new dimensions**. He writes in the vocabulary of Smirnov and Werner and Aizenman; the medal is for making that vocabulary prove the 3D and 4D statements that had been advertised as open for decades.
+**Do not claim:** full conformal invariance of 3D Ising; a classification of all lattice models; a solution of 3D constructive QFT; or that SLE was reinvented in 2022.
 
 ---
 

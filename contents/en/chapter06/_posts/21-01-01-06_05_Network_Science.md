@@ -9,9 +9,22 @@ categories:
 - chapter06
 ---
 
-A city is not only buildings; it is roads. A brain is not only neurons; it is synapses. An epidemic is not only a virus; it is who meets whom. **Network science** studies structure and dynamics on graphs—mathematical objects built from vertices and edges—across social systems, infrastructure, biology, and information. The field sits between graph theory, probability, statistical physics, and data analysis. Its successes are real (epidemic thresholds on contact graphs, robustness of power grids, ranking algorithms). Its overclaims are also real (“everything is a scale-free network,” “one centrality measure finds the important people”).
+In 1736, the citizens of Königsberg amused themselves with a walking puzzle: could you stroll across all seven bridges over the Pregel River, crossing each bridge exactly once? Leonhard Euler never took a step outside. He stripped away the city map, collapsed each riverbank and island into a dot, turned each bridge into a line, and proved in a few lines of counting that no such walk exists. Network science was born in that act of abstraction.
 
-This lecture builds a clean ladder: graphs → random models → degree structure → small worlds → dynamics on networks → inference from data → literacy about limitations.
+Nearly three centuries later, the puzzle has grown far beyond seven bridges. A city is not only buildings; it is roads. A brain is not only neurons; it is trillions of synapses. An epidemic is not only a virus; it is who meets whom. **Network science** studies the structure and dynamics of massive graphs across society, infrastructure, biology, and information. Its achievements are genuine—from PageRank organizing the web to epidemic thresholds on contact graphs—and its overclaims are just as real (“everything is scale-free,” “one centrality score identifies the most important person”).
+
+This lecture builds a clear ladder: graphs and matrices → random baselines → heavy tails and small worlds → dynamics on networks → inference from noisy data → limitations of the network lens.
+
+---
+
+## Background Knowledge Map: What Is Network Science and What Does It Study?
+
+Classical graph theory often focuses on small or tightly structured graphs; **Network Science** sits at the crossroads of **graph theory, probability, linear algebra, and statistical physics** to study graphs with thousands to billions of nodes. It revolves around four central questions:
+
+1. **Static Structure (Topology & Matrices):** How do we describe a network we cannot draw on paper? We read it through its adjacency matrix $$A$$, degree distribution $$P(k)$$, path lengths, clustering, and centrality metrics.
+2. **Generative Random Models:** What mechanisms produce real-world network shapes? We compare data against baselines like Erdős–Rényi (independent random edges), Watts–Strogatz (small-world shortcuts), and Barabási–Albert (preferential attachment creating hubs).
+3. **Dynamics on Networks:** How does wiring alter processes running on top—epidemics (SIS/SIR), heat diffusion and consensus via the Laplacian spectrum $$L = D - A$$, and random walks powering PageRank?
+4. **Statistical Inference from Data:** Real-world network data are noisy, incomplete, and biased by sampling. How do we detect communities or reconstruct networks without mistaking sampling artifacts for law?
 
 ---
 
@@ -81,6 +94,34 @@ Once a graph is fixed, one studies processes *on* it.
 <div data-demo="pagerank-explainer" data-preset="dangling" data-alpha="0.85" data-lang="en"></div>
 </div>
 <script src="{{ '/public/js/explainers/pagerank-explainer.js' | relative_url }}"></script>
+
+### Deep-Dive Explanation: Computing the Laplacian Spectrum by Hand on a 4-Node Graph (Read Slowly)
+
+The claim that “the second-smallest eigenvalue $$\lambda_2$$ of the graph Laplacian $$L = D - A$$ detects bottlenecks and splits communities” sounds abstract until you verify every eigenvalue by hand on a concrete 4-node graph with integer answers.
+
+Consider a 4-node graph made of a **triangle** $$\{1, 2, 3\}$$ with one **dangling tail** node $$4$$ attached to node $$3$$ (edges: $$\{1,2\},\ \{2,3\},\ \{1,3\},\ \{3,4\}$$). The vertex degrees are $$(k_1, k_2, k_3, k_4) = (2, 2, 3, 1)$$, so the Laplacian $$L = D - A$$ is:
+
+$$
+L = \begin{pmatrix}
+2 & -1 & -1 & 0 \\
+-1 & 2 & -1 & 0 \\
+-1 & -1 & 3 & -1 \\
+0 & 0 & -1 & 1
+\end{pmatrix}.
+$$
+
+Multiply $$L$$ by the following four integer vectors to check the entire spectrum $$\{0, 1, 3, 4\}$$ by hand:
+
+1. **Smallest eigenvalue $$\lambda_1 = 0$$:** For $$v_1 = (1, 1, 1, 1)^\top$$, every row of $$L$$ sums to $$0$$, so $$Lv_1 = 0$$. Because $$0$$ has multiplicity 1, the graph is connected.
+2. **Algebraic connectivity $$\lambda_2 = 1$$ (the Fiedler vector):** Test $$v_2 = (1, 1, 0, -2)^\top$$:
+   $$
+   Lv_2 = \begin{pmatrix}2(1)-1(1)-1(0)+0\\-1(1)+2(1)-1(0)+0\\-1(1)-1(1)+3(0)-1(-2)\\0+0-1(0)+1(-2)\end{pmatrix}
+   = \begin{pmatrix}1\\1\\0\\-2\end{pmatrix} = 1 \cdot v_2.
+   $$
+   **Look at the signs of $$v_2 = (+1, +1, 0, -2)^\top$$:** the triangle nodes $$\{1, 2\}$$ are **positive**, the tail node $$4$$ is **negative**, and the bridge node $$3$$ sits right at $$0$$! Spectral clustering slices cleanly across the bottleneck $$\{3,4\}$$ without ever “seeing” a drawing.
+3. **The remaining two eigenvalues:** You can check just as quickly that $$v_3 = (1, -1, 0, 0)^\top$$ satisfies $$Lv_3 = 3v_3$$ ($$\lambda_3 = 3$$), and $$v_4 = (1, 1, -3, 1)^\top$$ satisfies $$Lv_4 = 4v_4$$ ($$\lambda_4 = 4$$). Quick trace sanity check: $$\operatorname{tr}(L) = 2+2+3+1 = 8 = 0+1+3+4$$!
+
+In diffusion dynamics $$\dot x = -Lx$$, disagreement along $$v_2$$ decays as $$e^{-\lambda_2 t} = e^{-t}$$—so smaller $$\lambda_2$$ means a tighter bottleneck and slower mixing.
 
 ## 5. Robustness, cascading failure, and control
 

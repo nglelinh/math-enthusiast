@@ -9,9 +9,11 @@ categories:
 - chapter05
 ---
 
-In eighteenth-century Königsberg (now Kaliningrad), seven bridges connected two islands and the mainland banks of the Pregel River. Citizens asked a recreational question with serious mathematical offspring: *Is there a walk through the city that crosses each bridge exactly once?* **Leonhard Euler** proved that no such walk exists—and in doing so helped invent **graph theory**. The geometry of the river almost does not matter; what matters is how land masses are connected. This lecture develops the **idea of the proof**: model, reduce to degrees, and read off an obstruction.
+On Sunday afternoons in eighteenth-century Königsberg (now Kaliningrad), citizens strolling along the Pregel River entertained themselves with a charming wager: *can you walk through the city crossing all seven bridges exactly once, never retracing a single bridge?* Plenty of locals wore out their shoes trying, scribbling routes on tavern napkins, only to find themselves stranded before the seventh bridge every single time.
 
-The moral travels far beyond one city. Whenever a problem is really about incidence and traversal—networks, circuits, routing, molecular graphs—the Königsberg move is available: discard irrelevant geometry, keep the combinatorial skeleton, and reason about parity.
+When the puzzle reached **Leonhard Euler** in St. Petersburg, he initially brushed it off as a trivial pastime with little to do with mathematics. Then a sudden realization struck him: you do not need to visit Königsberg, measure a single bridge, or trace the curve of the river. By **throwing away all metric geometry** and keeping only dots and connecting lines, Euler not only proved the walk impossible in 1736—he founded **graph theory**.
+
+**Lesson roadmap:** Background Knowledge Map (graph theory, adjacency matrices, invariants and early topology) → The historical puzzle & the one-stroke envelope game → Multigraph modeling → Vertex degrees and parity → Deep-Dive Explanation (Read Slowly): hand-checking Königsberg’s $$4\times 4$$ adjacency matrix, adding one bridge, and assembling DNA with a de Bruijn graph → Sufficiency and the Chinese Postman Problem.
 
 ---
 
@@ -30,18 +32,28 @@ After this lecture you should be able to:
 
 ---
 
-## 1. The historical puzzle
+## Background Knowledge Map: Graph Theory, Adjacency Matrices, and Early Topology
 
-Königsberg’s layout can be sketched as four land regions:
+Before 1736, "geometry" meant lengths, angles, areas, and coordinates. Euler’s short memoir opened three foundational pillars that every modern science, engineering, and economics graduate encounters:
 
-- the north bank $$A$$,  
-- the south bank $$B$$,  
-- island $$C$$,  
-- island (or kneiphof-style central island) $$D$$—
+### 1. What Is Graph Theory and What Does It Study?
+**Graph theory** studies pure **connectivity**. A graph $$G = (V, E)$$ consists solely of objects (**vertices** $$V$$) and connections (**edges** $$E$$). Subway maps, social networks, circuit boards, and supply chains are all graphs: stretching a line or rotating a diagram by $$90^\circ$$ changes nothing about the underlying network. Core questions include shortest paths (Dijkstra), maximum network flow, graph coloring (scheduling), and edge/vertex traversals (Eulerian vs. Hamiltonian).
 
-with seven bridges joining them. Different historical maps label regions differently; the combinatorial data that matter are stable: **four regions, seven bridges, and four vertices of odd degree** in the natural model.
+### 2. Combinatorial Invariants and Linear Algebra on Graphs
+To prove a task is *impossible*, you cannot test every candidate path—their number explodes factorially. Instead, you look for an **invariant**: a property every valid solution *must* satisfy (here, degree parity). Moreover, in linear algebra and computer science, any graph encodes cleanly as an **adjacency matrix** $$M$$ (entry $$M_{ij}$$ counts edges between vertex $$i$$ and vertex $$j$$), turning network questions into matrix powers and eigenvalues (the engine behind Google’s PageRank).
 
-The recreational challenge is not to minimize distance or avoid mud. It is a pure existence question about **traversing each bridge once**. Euler’s 1736 memoir is often cited as a founding document of graph theory and of topology’s combinatorial side: properties preserved when shape is ignored.
+### 3. Early Topology (*Geometria Situs*)
+Euler called his approach *"the geometry of position"*—the direct ancestor of **topology**, which studies properties preserved under continuous stretching and bending without tearing. The seven bridges of Königsberg launch the conceptual thread running straight to the Four Color Theorem and the Poincaré Conjecture later in this chapter.
+
+---
+
+## 1. The historical puzzle — and the childhood one-stroke envelope game
+
+Before looking at Königsberg, recall a classic playground puzzle: **draw a house (a square with an X inside and a triangular roof on top) in one continuous stroke without lifting your pen or retracing any line.** If you have ever tried it, you hit an eerie quirk: start at the roof’s peak and you always get stuck; start at either bottom corner and the whole drawing glides smoothly to completion!
+
+Why does the starting corner matter so much? Because every time your pen passes *through* an intermediate junction, it uses **one edge going in** and **one edge going out**—consuming edges in pairs (an even count). Only two points are allowed to have an odd number of incident lines: where you put the pen down and where you lift it up. On the envelope/house, the two bottom corners have degree $$3$$ (odd) while every other junction is even—forcing you to start at one bottom corner and end at the other.
+
+Königsberg is simply the one-stroke drawing game scaled up to a city: four land regions joined by seven bridges, with **all four regions having an odd number of bridges**. Euler’s 1736 memoir turned that walk into the founding theorem of graph theory.
 
 ---
 
@@ -49,7 +61,7 @@ The recreational challenge is not to minimize distance or avoid mud. It is a pur
 
 Replace each land mass by a **vertex**. Replace each bridge by an **edge** joining the vertices of the lands it connects. Multiple bridges between the same pair of lands become **multiple edges**. The city becomes a **multigraph** $$G=(V,E)$$.
 
-A walk that crosses each bridge exactly once becomes a walk that uses each edge exactly once: an **Eulerian path** (also called an Eulerian trail). If the walk starts and ends at the same vertex, it is an **Eulerian circuit** (Eulerian tour).
+A walk that crosses each bridge exactly once becomes an **Eulerian path** (or trail). If it starts and ends at the same vertex, it is an **Eulerian circuit** (or tour).
 
 ![Königsberg bridges graph]({{ site.baseurl }}/img/chapter_img/konigsberg_bridges.svg)
 
@@ -58,7 +70,7 @@ A walk that crosses each bridge exactly once becomes a walk that uses each edge 
 **What the model throws away.** Exact distances, angles, bridge widths, and the embedding in the plane beyond connectivity.  
 **What the model keeps.** Incidence: which regions meet which bridges, and how many times.
 
-This discard-and-keep step *is* the mathematics. Students who try to solve Königsberg by drawing ever more careful city maps are working in the wrong category.
+This discard-and-keep step *is* the mathematics. Anyone trying to solve Königsberg by drawing a more accurate city map is working at the wrong level of abstraction.
 
 ---
 
@@ -78,36 +90,64 @@ Turn land into dots and bridges into edges, then count the degree of each dot. F
 
 ## 3. Degrees and the parity obstruction
 
-The **degree** $$\deg(v)$$ of a vertex $$v$$ is the number of edge ends at $$v$$ (counting multiplicity; loops would contribute two, though Königsberg needs no loops).
+The **degree** $$\deg(v)$$ of a vertex $$v$$ is the number of edge ends at $$v$$ (counting multiplicity). Every pass through an intermediate vertex consumes **two** edge ends (one in, one out), yielding:
 
-### Local necessary condition
+- In an **Eulerian circuit**, every vertex must have **even degree**.  
+- In an **Eulerian path** that is not closed, at most **two** vertices may have odd degree—the start and the finish.
 
-Imagine walking through the graph using each edge once. Every time you enter a vertex by an edge and leave by another, you consume **two** edge ends at that vertex. Therefore, at every intermediate visit pattern, edges at a vertex pair up as enter/leave.
-
-More globally:
-
-- In an **Eulerian circuit**, every vertex must have **even degree**: the tour pairs incident edges perfectly at every vertex.  
-- In an **Eulerian path** that is not closed, exactly **two** vertices may have odd degree—the start and the end—where a single unpaired edge end is used to begin or finish. All other vertices must have even degree.
-
-These conditions are not only necessary but, for connected graphs, essentially sufficient (with the usual connectedness hypothesis on the subgraph of edges). The sufficiency direction is a separate constructive argument (Hierholzer’s algorithm and classical theorems). For Königsberg, **necessity alone** kills the hope.
-
-### Königsberg’s degrees
-
-In the standard model of the seven bridges, all four vertices have odd degree (typically three vertices of degree 3 and one of degree 5, or an equivalent odd-degree multiset depending on exact historical labeling—what matters is that **four degrees are odd**). A connected graph cannot have an Eulerian path if it has more than two odd-degree vertices. Hence Königsberg admits no walk crossing each bridge exactly once.
-
-Euler’s insight is often summarized: *count the odd vertices; if there are more than two, stop.*
+In Königsberg’s standard model, all four vertices have odd degree (three of degree $$3$$ and one of degree $$5$$). Since $$4 > 2$$, no Eulerian path can exist. Euler’s rule in one line: *count the odd vertices; if there are more than two, stop.*
 
 ---
 
-## 4. The idea of the proof, compressed
+## 4. Deep-Dive Explanation (Read Slowly): Hand-Checking Königsberg’s Matrix, Adding One Bridge, and Assembling DNA
 
-1. **Model** land and bridges as a multigraph.  
-2. **Translate** the tourist’s demand into existence of an Eulerian path.  
-3. **Derive** the degree parity constraints from enter/leave pairing.  
-4. **Compute** degrees for Königsberg; observe four odd degrees.  
-5. **Conclude** impossibility.
+To feel how graph theory turns spatial puzzles into crisp algebra and modern algorithms, work through three concrete checks by hand:
 
-No coordinate geometry, no continuous motion, no measurement. The proof is combinatorial and local-to-global: local pairing forces global parity restrictions.
+### Worked Check 1: Königsberg’s $$4 \times 4$$ Adjacency Matrix
+Label the four land masses $$A$$ (central Kneiphof island), $$B$$ (north bank), $$C$$ (south bank), and $$D$$ (eastern island). Record the number of bridges between every pair in a symmetric adjacency matrix $$M$$:
+
+$$
+M \;=\;
+\begin{pmatrix}
+0 & 2 & 2 & 1 \\
+2 & 0 & 0 & 1 \\
+2 & 0 & 0 & 1 \\
+1 & 1 & 1 & 0
+\end{pmatrix}
+\begin{array}{l}
+\leftarrow \text{Row } A:\ 0+2+2+1 = \mathbf{5}\ (\text{odd}) \\
+\leftarrow \text{Row } B:\ 2+0+0+1 = \mathbf{3}\ (\text{odd}) \\
+\leftarrow \text{Row } C:\ 2+0+0+1 = \mathbf{3}\ (\text{odd}) \\
+\leftarrow \text{Row } D:\ 1+1+1+0 = \mathbf{3}\ (\text{odd})
+\end{array}
+$$
+
+Sum all four rows: $$5 + 3 + 3 + 3 = 14 = 2 \times 7$$, matching the **Handshaking Lemma** $$\sum \deg(v) = 2\lvert E\rvert$$! With **4 odd vertices**, no Eulerian path exists.
+
+### Worked Check 2: What If the City Builds Just ONE New Bridge Between $$B$$ and $$C$$?
+Add $$+1$$ to entries $$(B, C)$$ and $$(C, B)$$ of $$M$$. Immediately:
+- $$\deg(A) = 5$$ (odd),
+- $$\deg(B) = 3 + 1 = 4$$ (even!),
+- $$\deg(C) = 3 + 1 = 4$$ (even!),
+- $$\deg(D) = 3$$ (odd).
+
+Now only **2 odd vertices** remain ($$A$$ and $$D$$), so an open Eulerian path covering all 8 bridges is guaranteed! Verify an explicit 8-bridge route by hand:
+
+$$
+A \xrightarrow{\text{bridge } 1} B \xrightarrow{\text{bridge } 2} A \xrightarrow{\text{bridge } 3} C \xrightarrow{\text{bridge } 4} A \xrightarrow{\text{bridge } 5} D \xrightarrow{\text{bridge } 6} B \xrightarrow{\text{new bridge}} C \xrightarrow{\text{bridge } 7} D.
+$$
+
+Count the edges: all 8 bridges crossed exactly once! (Remarkably, bombing during World War II destroyed two of the original bridges in Kaliningrad, reducing the odd-degree count to $$2$$—so today an open Eulerian walk really is possible.)
+
+### Worked Check 3: Assembling DNA Genomes via de Bruijn Graphs
+Modern DNA sequencers shatter a genome into millions of tiny overlapping reads. Suppose a sequencer hands you four unordered 3-letter fragments (3-mers): `TGC`, `AAT`, `GCT`, `ATG`. How do you reconstruct the original strand?
+- **Step 1:** Turn each 3-mer into a **directed edge** from its first two letters to its last two letters:
+  `AAT` ($$AA \to AT$$), `ATG` ($$AT \to TG$$), `TGC` ($$TG \to GC$$), `GCT` ($$GC \to CT$$).
+- **Step 2:** Check in-degrees and out-degrees of the 2-mer vertices: `AA` has (in 0, out 1), `CT` has (in 1, out 0), and every intermediate vertex `AT, TG, GC` has (in 1, out 1).
+- **Step 3:** Follow the unique **directed Eulerian path** from `AA` to `CT`:
+  $$AA \to AT \to TG \to GC \to CT \implies \text{reconstructed DNA: } \mathbf{AATGCT}.$$
+
+Billion-base-pair genome assembly runs directly on Euler’s 1736 insight!
 
 ---
 
@@ -115,22 +155,19 @@ No coordinate geometry, no continuous motion, no measurement. The proof is combi
 
 ### A graph that works
 
-Consider a square cycle: four vertices, four edges, every degree 2. An Eulerian circuit exists: walk around the square.  
-Add one diagonal: two vertices gain degree 3 (odd). An Eulerian path exists starting at one odd vertex and ending at the other, but no Eulerian circuit exists.
+Consider a square cycle: four vertices, four edges, every degree 2. An Eulerian circuit exists: walk around the square. Add one diagonal: two vertices gain degree 3 (odd). An Eulerian path exists starting at one odd vertex and ending at the other, but no Eulerian circuit exists.
 
 ### A graph that fails like Königsberg
 
-Any connected graph with four odd-degree vertices fails the path criterion. You need not inspect all possible walks; the invariant forbids them all at once. That is the power of an obstruction: it is a certificate of impossibility.
+Any connected graph with four odd-degree vertices fails the path criterion. You need not inspect all possible walks; the invariant forbids them all at once.
 
 ### Handshaking lemma (supporting fact)
-
-The sum of degrees equals twice the number of edges:
 
 $$
 \sum_{v\in V}\deg(v) = 2\lvert E\rvert.
 $$
 
-Consequently the number of odd-degree vertices is always even. Seeing four odd degrees is consistent with this lemma; seeing three would be impossible for any graph. Königsberg’s data are graph-theoretically legal—and still non-Eulerian for trails that cover every edge.
+Consequently the number of odd-degree vertices is always even. Seeing four odd degrees is legal—and still non-Eulerian.
 
 ---
 
@@ -143,7 +180,7 @@ Consequently the number of odd-degree vertices is always even. Seeing four odd d
 - $$G$$ has an Eulerian path if and only if exactly zero or two vertices have odd degree (zero for the circuit case).
 </div>
 
-**Sufficiency idea.** Start at an odd vertex if one exists, otherwise anywhere; walk unused edges without repetition until stuck; one can show you are at the appropriate endpoint; if unused edges remain, they form a subgraph with even degrees, and one splices in a circuit (Hierholzer). The details are standard in any first graph theory chapter; the seminar takeaway is that the degree conditions are the true heart.
+**Sufficiency idea.** Start at an odd vertex if one exists, otherwise anywhere; walk unused edges without repetition until stuck; if unused edges remain, splice in a circuit (Hierholzer’s algorithm). The degree criteria are the true heart.
 
 ---
 
@@ -151,18 +188,14 @@ Consequently the number of odd-degree vertices is always even. Seeing four odd d
 
 - **Birth of graph theory.** Problems about networks become theorems about vertices and edges.  
 - **Topology’s combinatorial face.** Properties independent of continuous deformation of the riverbanks.  
-- **Algorithms.** Eulerian tours appear in genome assembly slogans, routing, and plotting machines that should not lift a pen.  
-- **Proof culture.** Impossibility proofs via invariants (parity of degree) are a template: find a quantity every successful object must have; show the instance lacks it.
-
-The pedagogical power of Königsberg is that students can *draw* the obstruction. Unlike many impossibility results that hide behind long calculations, here the certificate is a handful of odd numbers written next to dots. That transparency is why the example still opens graph theory courses three centuries later: it teaches modeling, invariants, and clean negative proofs in one sitting.
-
-A second moral concerns **abstraction ethics**. Throwing away the river’s beauty is not a loss of meaning; it is a gain of transfer. The same degree criterion decides whether a postal worker can traverse every street without retracing, whether a robot can mow every edge of a campus graph, and whether a certain DNA assembly graph has a path that reconstructs a genome. One proof idea, many surface stories.
+- **Algorithms.** Eulerian tours power de Bruijn genome assembly, snowplow and mail routing, PCB plotting, and single-stroke laser cutting.  
+- **Proof culture.** Impossibility proofs via invariants (parity of degree) are a reusable template: find a quantity every successful object must have, then show the instance lacks it.
 
 ---
 
 ## 8. Beyond bridges: Chinese Postman and modern cousins
 
-If all degrees are even, an Eulerian circuit is a perfect postal tour. If odd degrees exist, the **Chinese Postman Problem** asks for the shortest closed walk covering every edge at least once—equivalently, add a minimum-cost set of duplicate edges to pair odd vertices, then run an Eulerian circuit in the augmented graph. Königsberg is the special case where one forbids duplication entirely and asks existence. The generalization shows how a negative classical answer seeds a positive optimization theory.
+If all degrees are even, an Eulerian circuit is a perfect postal tour. If odd degrees exist, the **Chinese Postman Problem** asks for the shortest closed walk covering every edge at least once—equivalently, add a minimum-cost set of duplicate edges to pair odd vertices, then run an Eulerian circuit in the augmented graph. Königsberg is the special case forbidding duplication entirely.
 
 ---
 

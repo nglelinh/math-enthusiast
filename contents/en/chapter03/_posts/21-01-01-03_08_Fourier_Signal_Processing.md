@@ -10,11 +10,23 @@ categories:
 lesson_type: required
 ---
 
-A JPEG image, an MP3-ish audio pipeline, an MRI scan, and a radio tuner all perform a similar intellectual move: **take a signal that lives in time or space and rewrite it as a combination of frequencies**—then keep, discard, filter, or sample those frequencies for a purpose.
+When a pianist strikes a C–E–G chord, the speaker cone vibrates along **one single** wiggly pressure curve. Yet your ear—and a smartphone running Shazam—effortlessly pulls the three individual notes back out of that tangled waveform.
 
-**Path:** frequency intuition → Fourier series → Fourier transform → discrete DFT/FFT → filtering and sampling → JPEG/audio/MRI → uncertainty and windows → confusions.
+That “un-blending a smoothie back into separate fruits” magic is **Fourier Analysis**. Born in the early nineteenth century from Joseph Fourier’s study of heat conduction in a metal bar, the idea of decomposing signals into pure sines and cosines now runs quietly beneath nearly all digital technology: JPEG images, MP3 audio, 4G/5G/Wi-Fi wireless links, and hospital MRI scanners.
 
-This lecture connects classical harmonic analysis to everyday signal processing. For the pure harmonic-analysis frontier (restriction, Kakeya), see [Hong Wang (Ch.2)]({{ site.baseurl }}/contents/en/chapter02/02_15_Wang_Harmonic_Analysis/)—here the emphasis is **technology mechanisms**.
+---
+
+## Background Knowledge Map: What Is Fourier Analysis and What Does It Study?
+
+If linear algebra teaches you to rotate coordinate axes in 3D space so a shape looks simpler, **Fourier analysis (harmonic analysis)** does the exact same thing for **spaces of functions and signals**.
+
+Instead of describing a sound clip by air pressure at every millisecond (the time domain), Fourier analysis projects it onto an orthogonal coordinate system of pure frequencies $$e^{i\omega t}$$ (the frequency domain). That single change of basis is extraordinarily powerful for three reasons:
+
+1. **Calculus becomes algebra:** Differentiation and convolution (filtering) in time turn into ordinary **pointwise multiplication** in frequency.
+2. **Natural signals become sparse:** Photos and speech look dense in pixels or time samples, yet pack almost all their energy into a handful of frequency coefficients—making JPEG and MP3 compression possible.
+3. **The Fast Fourier Transform (FFT):** Drops computational cost from $$O(N^2)$$ to $$O(N\log N)$$, fast enough to run in real time inside wireless earbuds.
+
+Depending on the signal domain, the family splits into four tools: **Fourier series** (periodic continuous), **Fourier transform** (non-periodic continuous), **DFT/FFT** (finite digital arrays), and **STFT/Wavelets** (time-varying frequencies like music).
 
 ---
 
@@ -134,6 +146,26 @@ A continuous signal cannot be recorded as an infinite continuum on a chip. **Sam
 Modern compressed sensing weakens classical sampling under sparsity assumptions—optimization + harmonic analysis ([Optimization]({{ site.baseurl }}/contents/en/chapter03/03_07_Optimization_Operations_AI/)).
 
 ---
+
+### Deep-Dive Explanation: From Continuous Sound to MP3/5G—Plus a 4-Point DFT by Hand (Read Slowly)
+
+Every modern signal pipeline (MP3, JPEG, 5G OFDM, MRI) follows four steps—and you can watch the frequency-domain magic happen by hand on a 4-sample signal $$x = (2, 0, -2, 0)$$:
+
+1. **Sample above the Nyquist rate:** Sample continuous sound at $$f_s > 2B$$ (e.g., 44.1 kHz for 20 kHz human hearing) so high frequencies do not alias onto low ones.
+2. **Compute the 4-point DFT by hand:** Using $$\omega = e^{-2\pi i/4} = -i$$, the formula $$X_k = \sum_{n=0}^3 x_n (-i)^{kn}$$ gives:
+   - $$X_0 = 2 + 0 + (-2) + 0 = 0$$ (zero DC average),
+   - $$X_1 = 2(1) + 0(-i) + (-2)(-1) + 0(i) = 4$$,
+   - $$X_2 = 2(1) + 0(-1) + (-2)(1) + 0(-1) = 0$$,
+   - $$X_3 = 2(1) + 0(i) + (-2)(-1) + 0(-i) = 4$$.
+   All of the signal’s energy collapsed cleanly into just two frequency bins $$X = (0, 4, 0, 4)$$! Check **Parseval’s energy conservation** by hand:
+   $$
+   \sum_{n=0}^3 \lvert x_n\rvert^2 = 2^2 + 0^2 + (-2)^2 + 0^2 = 8
+   \;=\; \frac{1}{4}\bigl(0^2 + 4^2 + 0^2 + 4^2\bigr) = \frac{1}{4}\sum_{k=0}^3 \lvert X_k\rvert^2.
+   $$
+3. **Process cheaply in frequency:** Denoise by zeroing noisy bins; compress JPEG/MP3 by quantizing tiny coefficients our eyes/ears barely notice; pack 5G/Wi-Fi data across orthogonal subcarriers (OFDM) using one IFFT at the transmitter and one FFT at the receiver.
+4. **Invert back to space/time (IFFT/IDCT):** Reconstruct crisp audio, images, or MRI slices.
+
+**Quick check:** FFT is not a different mathematical transform from the DFT—it is a **divide-and-conquer algorithm** computing the exact same DFT tens of thousands of times faster.
 
 ## 6. JPEG, audio, and the compression pipeline
 

@@ -9,11 +9,11 @@ categories:
 - chapter09
 ---
 
-**Donald E. Knuth** received the **ACM A.M. Turing Award in 1974** for major contributions to the analysis of algorithms and the design of programming languages, and in particular for his monumental ongoing work *The Art of Computer Programming* (TAOCP). Official materials: [amturing.acm.org](https://amturing.acm.org/).
+In 1962, Addison-Wesley invited a twenty-four-year-old graduate student named **Donald E. Knuth** to write a slim book on compilers. Knuth accepted, sketched an outline—and promptly realized that before explaining compilers, someone needed to build a rigorous mathematical foundation for *counting steps*, *proving correctness*, and *comparing the speed* of fundamental algorithms. That "slim book" grew into the legendary multi-volume encyclopedia **The Art of Computer Programming (TAOCP)**, still in progress more than sixty years later; when galley proofs came back looking ugly, Knuth even paused his books for nearly a decade to invent **TeX**—the mathematical typesetting system academia still relies on every day!
 
-If Cook and Karp taught the world a language for **hardness**, Knuth taught the world a language for **cost**. Programs ceased to be only engineering artifacts; they became objects of **mathematical analysis**—recurrences, generating functions, asymptotic expansions, average-case models—subject to the same standards of proof one expects in combinatorics or analytic number theory.
+Awarded the **ACM A.M. Turing Award in 1974** at age 36 (official materials: [amturing.acm.org](https://amturing.acm.org/)), Knuth elevated programming from ad-hoc craft into **mathematical analysis**. If Cook and Karp taught the world a language for **hardness**, Knuth taught the world a language for **cost**. Programs became objects of recurrences, generating functions, asymptotic expansions, and average-case models—subject to the same proof standards one expects in combinatorics or analytic number theory.
 
-This lecture is about that cultural and mathematical shift: big-$$O$$ discipline, MIX/MMIX as pedagogical machines, combinatorial algorithms as theorem territory, and the gentle idea of **literate programming**. The permanent LO6: **analysis is not code golf**.
+This lecture traces that cultural and mathematical shift: big-$$O$$ discipline, MIX/MMIX as pedagogical machines, combinatorial algorithms as theorem territory, and **literate programming**. The lasting takeaway: **analysis is not code golf**.
 
 ---
 
@@ -26,12 +26,25 @@ After this lecture you should be able to:
 - Describe Knuth’s role via **TAOCP** and the idea of a rigorous algorithmic encyclopedia.
 - State why a simplified machine model (MIX/MMIX) helps count operations honestly.
 - Distinguish **worst-case**, **average-case**, and empirical benchmarking.
-- Apply **LO6**: faster constants and clever micro-optimizations are not the same as asymptotic understanding.
+- Separate constant-factor micro-optimizations from asymptotic understanding.
 - Connect algorithmic analysis to discrete math and to complexity’s coarser P vs NP lens.
 
 **Prerequisites.** Sums and recurrences at calculus/discrete-math level; comfort with loops and arrays as mental models. No prior reading of TAOCP is assumed.
 
-**Seminar links.** LO1, LO6; [P vs NP]({{ site.baseurl }}/contents/en/chapter01/01_03_P_vs_NP/); [Cook–Karp NP-completeness]({{ site.baseurl }}/contents/en/chapter09/09_04_Cook_Karp_NP/); [graph theory & networks]({{ site.baseurl }}/contents/en/chapter03/03_06_Graph_Theory_Networks/); [complexity theory]({{ site.baseurl }}/contents/en/chapter06/06_07_Complexity_Theory/).
+**Cross-links.** [P vs NP]({{ site.baseurl }}/contents/en/chapter01/01_03_P_vs_NP/); [Cook–Karp NP-completeness]({{ site.baseurl }}/contents/en/chapter09/09_04_Cook_Karp_NP/); [graph theory & networks]({{ site.baseurl }}/contents/en/chapter03/03_06_Graph_Theory_Networks/); [complexity theory]({{ site.baseurl }}/contents/en/chapter06/06_07_Complexity_Theory/).
+
+---
+
+## Background Knowledge Map: What Is Analysis of Algorithms and What Does It Study?
+
+When you time a script on your laptop and see `0.2 seconds`, that number is entangled with your CPU, compiler, cache, and one specific test input. **Analysis of Algorithms** frees us from hardware accidents by turning runtime into a **mathematical function** $$T(n)$$ of input size $$n$$.
+
+The field draws directly on the sharpest tools of **Combinatorics and Asymptotic Analysis**:
+1. **Recurrence Relations:** breaking a problem of size $$n$$ into smaller subproblems (e.g., Mergesort satisfies $$T(n) = 2T(n/2) + \Theta(n)$$, yielding $$T(n) = \Theta(n\log n)$$).
+2. **Generating Functions & Harmonic Numbers:** in average-case analyses of Quicksort or hash tables, the harmonic number $$H_n = \sum_{k=1}^n \frac{1}{k} = \ln n + \gamma + O(1/n)$$ appears everywhere—Knuth's hallmark *analytic combinatorics* style, pinning down not just $$O(n\log n)$$ but the exact leading constant $$2n\ln n \approx 1.386\, n\log_2 n$$ comparisons!
+3. **Information-Theoretic Lower Bounds:** telling us when an algorithm has hit the *logical speed limit*. Classic example: $$n$$ elements have $$n!$$ possible orderings; each yes/no comparison cuts the remaining possibilities at most in half, so any decision tree needs height at least $$\log_2(n!) \approx n\log_2 n - 1.44n$$. Thus *every* comparison-based sort must take $$\Omega(n\log n)$$.
+
+One concrete comparison shows why asymptotic order beats hardware upgrades: for $$n = 1{,}000{,}000$$ records, Insertion Sort ($$O(n^2)$$) needs roughly $$5 \times 10^{11}$$ comparisons (minutes to hours), while Mergesort ($$O(n\log_2 n)$$) needs about $$2 \times 10^7$$—**25,000 times faster** on the exact same computer!
 
 ---
 
@@ -87,6 +100,35 @@ $$
 
 Quicksort’s classic $$\Theta(n \log n)$$ average comparisons (under random permutations) versus $$\Theta(n^2)$$ worst case is the teaching example. Average-case reasoning uses generating functions, indicator variables, and recurrence expectations—probability meeting combinatorics.
 
+### Worked Example (Step by Step): Solving Quicksort's Average Recurrence and Checking Knuth's Closed Form
+
+Let $$C_n$$ be the expected number of comparisons performed by randomized Quicksort on $$n$$ distinct keys (with $$C_0 = C_1 = 0$$). Partitioning around a uniformly random pivot takes $$n-1$$ comparisons and splits the remaining elements into two subarrays of sizes $$k$$ and $$n-1-k$$, each equally likely with probability $$1/n$$:
+
+$$
+C_n = (n-1) + \frac{1}{n}\sum_{k=0}^{n-1}\bigl(C_k+C_{n-1-k}\bigr) = (n-1) + \frac{2}{n}\sum_{k=0}^{n-1} C_k.
+$$
+
+1. **Compute small cases by hand:**
+   - $$n = 2$$: $$C_2 = 1 + \frac{2}{2}(0 + 0) = 1$$ comparison.
+   - $$n = 3$$: $$C_3 = 2 + \frac{2}{3}(0 + 0 + 1) = \frac{8}{3} \approx 2.67$$ comparisons.
+   - $$n = 4$$: $$C_4 = 3 + \frac{2}{4}\left(0 + 0 + 1 + \frac{8}{3}\right) = 3 + \frac{11}{6} = \frac{29}{6} \approx 4.83$$ comparisons.
+2. **Verify Knuth's exact closed form:** solving this recurrence yields $$C_n = 2(n+1)H_n - 4n$$, where $$H_n = 1 + \frac{1}{2} + \dots + \frac{1}{n}$$. Plugging in $$n = 4$$ (with $$H_4 = 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} = \frac{25}{12}$$):
+
+$$
+2(4+1)\cdot\frac{25}{12} - 4(4) = \frac{250}{12} - \frac{192}{12} = \frac{58}{12} = \frac{29}{6} \approx 4.83!
+$$
+
+An exact fraction-for-fraction match! And since $$H_n \approx \ln n$$, we see immediately that Quicksort averages $$2n\ln n \approx 1.386\, n\log_2 n$$ comparisons—within 39% of the information-theoretic lower bound $$\log_2(n!)$$.
+
+### Deep-Dive Explanation: Knuth's Four-Step Method for Analyzing an Algorithm (Read Slowly)
+
+1. **Prove correctness via loop invariants:** before measuring speed, prove the algorithm always halts and returns the right answer on *every* valid input.
+2. **Pick a dominant operation and write the cost function $$T(n)$$:** translate loops and recursive calls into explicit sums or recurrence relations.
+3. **Solve exactly or extract tight asymptotics ($$O, \Theta, \Omega$$):** apply generating functions, harmonic numbers $$H_n$$, and Stirling's approximation to expose both the growth rate and its leading constant.
+4. **Benchmark against lower bounds and data structures:** compare $$T(n)$$ to information-theoretic lower bounds (like $$\Omega(n\log n)$$ for comparison sorting) and check whether upgrading the data structure (array → heap / balanced tree / hash table) drops the complexity class.
+
+**Quick check.** Knuth-style analysis goes deeper than big-$$O$$ slogans: for tiny arrays ($$n \le 20$$), hidden constants and CPU cache locality often let Insertion Sort beat Quicksort, which is why real libraries switch to Insertion Sort on small subarrays.
+
 **Amortized analysis** (later popularized widely in data structures) bounds the average cost per operation over a *sequence*, even if one operation is expensive. Knuth’s broader culture prepared readers to accept such refined cost accounting as normal mathematics.
 
 Empirical benchmarks remain useful; they do not replace theorems. A single laptop timing is a data point, not an asymptotic class membership.
@@ -123,7 +165,7 @@ For a mathematics course, the moral is portable even if you never use WEB: **pro
 
 ---
 
-## 7. Analysis ≠ code golf (LO6)
+## 7. Analysis ≠ code golf
 
 **Code golf** minimizes source characters or shows off language quirks. **Micro-optimization** chases constant factors on a particular compiler and CPU. Both can be fun; neither is the main point of algorithm analysis.
 

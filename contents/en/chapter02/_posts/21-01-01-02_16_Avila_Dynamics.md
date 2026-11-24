@@ -9,9 +9,13 @@ categories:
 - chapter02
 ---
 
-**Artur Avila** received the **Fields Medal 2014** for, in the IMU’s words, “his profound contributions to dynamical systems theory, which have changed the face of the field, using the powerful idea of **renormalization** as a unifying principle.” The citation names a *method*, not a single named conjecture closed in isolation. Avila did not invent renormalization—Wilson’s physics, Feigenbaum’s period-doubling, Sullivan’s holomorphic dynamics, and a long Brazilian and French school of one-dimensional maps were already there. What the medal records is a body of theorems in which looking at a system at a new scale, again and again, became a *dictionary* across one-dimensional maps, quasiperiodic Schrödinger operators, and Teichmüller dynamics.
+Take a humble high-school parabola—$$f_r(x) = r x (1-x)$$—and feed its output back into itself over and over again. For small values of $$r$$, the sequence settles calmly to a single number. Turn the knob past $$r = 3$$, and it bounces forever between two values. Turn it a little further, and it splits into four, then eight, then plunges into full-blown **chaos**—yet hidden inside that chaos are infinitely many tiny windows of calm order!
 
-This essay is for learners who have seen iteration of a map $$f:[0,1]\to[0,1]$$, or a linear recurrence with a varying coefficient, and want the architecture of Avila’s landscape. It does **not** claim that he classified all dynamical systems, nor that the Ten Martini spectrum theorem is a solo result. It explains slogans carefully: regular versus stochastic unimodal maps; cocycles and almost reducibility; Cantor spectrum of the almost Mathieu operator; weak mixing of interval exchanges; and how to attribute credit to collaborators such as Jitomirskaya, Forni, Viana, de Melo, and Lyubich.
+Now jump to a seemingly unrelated world: an electron hopping along a 1D crystal inside a magnetic field (the **almost Mathieu operator**). Plot its allowed quantum energy levels against the magnetic flux, and a surreal fractal emerges—the **Hofstadter butterfly**. Mark Kac famously offered **ten martinis** to anyone who could prove that for every irrational magnetic flux, those energy levels shatter into a **Cantor set**.
+
+What on earth connects a bouncing quadratic map, a quantum electron in a magnetic field, and billiards on a polygonal table? **Artur Avila**—the first Latin American mathematician to win the Fields Medal—received the **Fields Medal in 2014** for turning **renormalization** (the art of zooming in, rescaling, and seeing the same system reborn at a smaller scale) into a universal dictionary linking all three worlds.
+
+This essay unpacks Avila’s unifying lens with hand-verifiable examples—calculating stability of the logistic map, turning the almost Mathieu operator into a $$2\times 2$$ matrix cocycle, and tracing how renormalization solves problems across dynamics while honoring Avila’s rich web of collaborators (Jitomirskaya, Forni, Viana, de Melo, and Lyubich).
 
 ---
 
@@ -19,85 +23,158 @@ This essay is for learners who have seen iteration of a map $$f:[0,1]\to[0,1]$$,
 
 After this lecture you should be able to:
 
-- State the IMU 2014 citation in one careful sentence, with **renormalization** as a unifying tool rather than a personal invention.
-- Explain, at slogan level, what it means to **renormalize** a dynamical system: pass to a first-return or rescaled map and study the new map as an object of the same type.
-- Describe the **almost Mathieu operator** and the **Ten Martini** question (Cantor spectrum), and attribute the resolution jointly to **Avila–Jitomirskaya**.
-- Distinguish one-frequency quasiperiodic Schrödinger **cocycles** from a claim that “all quantum spectra are Cantor sets.”
-- Sketch interval exchange maps / Teichmüller dynamics and the role of **Lyapunov exponents**, naming collaborators (Forni, Viana, and others) rather than a single hero.
-- Practice **LO6**: “Avila classified chaos” is hype; the theorems rearrange specific, hard classes.
+- State the IMU 2014 citation clearly: **renormalization** as a unifying principle across dynamical systems (not a solo invention by Avila).
+- Compute by hand the fixed point and stability of the **logistic map** $$f_r(x) = rx(1-x)$$ at $$r=2.5$$ (attracting) versus $$r=3.2$$ (period-2 bifurcation).
+- Rewrite the **almost Mathieu operator** as a $$2\times 2$$ **$$\mathrm{SL}_2(\mathbb{R})$$ Schrödinger cocycle** and explain what the **Ten Martini problem** (Avila–Jitomirskaya) asserts.
+- Explain **renormalization** intuitively: passing to a first-return or rescaled map to turn a messy system into a simpler copy of itself.
+- Describe **interval exchange transformations (IETs)** and **Teichmüller Lyapunov exponents**, crediting collaborators (**Avila–Forni**, **Avila–Viana**) accurately.
+- Avoid media hype: Avila proved deep measure-theoretic ("almost every") theorems for flagship classes rather than "classifying all chaos."
 
-**Prerequisites.** Iteration of a real map; the idea of an orbit and of sensitive dependence; matrices and eigenvalues enough to hear “Lyapunov exponent” as an exponential growth rate; comfort with a Cantor set as a nowhere-dense perfect subset of the line. No prior Teichmüller theory or spectral theory of ergodic operators is required.
+**Prerequisites.** Iterating functions, basic derivatives, $$2\times 2$$ matrices and eigenvalues, and the basic notion of a Cantor set.
 
-**Seminar links.** Dynamics cousins: [Mirzakhani / moduli and Teichmüller]({{ site.baseurl }}/contents/en/chapter02/02_05_Mirzakhani_Moduli/) (same 2014 class; surfaces rather than spectra). Arithmetic dynamics of a different flavour: [Venkatesh]({{ site.baseurl }}/contents/en/chapter02/02_07_Venkatesh_Number_Theory/). For “unifying languages” elsewhere in the chapter, compare [Scholze / tilting]({{ site.baseurl }}/contents/en/chapter02/02_06_Scholze_Perfectoid/) as infrastructure, not as the same toolbox.
-
----
-
-## 1. A history of looking again at a smaller scale
-
-Dynamical systems theory asks what happens if you iterate a rule. The logistic family $$x\mapsto rx(1-x)$$ already shows the pedagogical shock of the 1970s: a quadratic polynomial, as the parameter $$r$$ varies, can pass from attracting cycles through period-doubling into chaos. **Mitchell Feigenbaum** extracted universal scaling constants from that cascade. In physics, **Kenneth Wilson** had already made renormalization a way to move between scales in statistical mechanics. In holomorphic dynamics, **Dennis Sullivan** and others recast one-dimensional maps so that a first-return map, after affine rescaling, again looks like a map of the same class—an operator on a space of maps, not a single orbit.
-
-By the 1990s the Brazilian school around IMPA (de Melo, Palis, Yoccoz, Lyubich on the quadratic family) had a precise dream: a typical unimodal map should be either **regular** (an attracting cycle organizes the future) or **stochastic** (an absolutely continuous invariant measure). A 2003 paper of **Avila, Welington de Melo, and Mikhail Lyubich** closed that chapter for real-analytic unimodal families. Renormalization compares a small-scale return map with the original family and turns “typical” into a theorem.
-
-**Slogan.** Renormalization is not a new equation of motion. It is a *change of coordinates on the space of systems*: zoom in, rescale, and ask whether the new system is simpler, conjugate to a known model, or itself renormalizable again.
-
-Avila’s later work treats that slogan as portable. The same instinct—compare a cocycle over a rotation with a renormalized cocycle, or a first-return of an interval exchange with a simpler exchange—reappears in spectral theory and in Teichmüller dynamics. That portability is what the IMU means by a unifying principle.
+**Related lessons.** Dynamics cousins: [Mirzakhani / moduli and Teichmüller]({{ site.baseurl }}/contents/en/chapter02/02_05_Mirzakhani_Moduli/) (same 2014 class; flat surfaces and moduli). Arithmetic dynamics: [Venkatesh]({{ site.baseurl }}/contents/en/chapter02/02_07_Venkatesh_Number_Theory/).
 
 ---
 
-## 2. What a renormalization theorem rearranges
+## Background Knowledge Map: What Are Dynamical Systems, Renormalization & Cocycles?
 
-A typical “hard” theorem in this landscape does not list every orbit. It **rearranges the parameter space**. Before the theorem, you have a zoo: Diophantine frequencies and Liouville frequencies; hyperbolic and parabolic combinatorics; maps that renormalize infinitely often and maps that do not. After the theorem, large regions of the zoo are declared equivalent, or are reduced to a model whose Lyapunov exponents, spectra, or mixing properties you already understand.
+If you met differential equations and linear algebra at university, you already hold the starting keys to Avila’s world.
 
-Three rearrangements are safe to name at seminar level.
+### 1. Dynamical Systems: Watching Rules Repeat Forever
+**What is it?** A dynamical system takes a space $$X$$ and a rule $$f: X \to X$$ (discrete time) or a flow $$\phi_t$$ (continuous time), and asks what happens to orbits $$x, f(x), f(f(x)), \dots$$ as time goes to infinity.
 
-**Unimodal maps (with de Melo and Lyubich).** The regular/stochastic dichotomy for typical analytic unimodal maps turns a decades-long case study into a global picture: chaos is not an exotic leftover; it is one of two typical phases, and renormalization organizes the boundary.
+**What does it study?**
+- **Regular vs. chaotic behavior:** Do orbits settle into a periodic cycle (regular), or spread unpredictably with sensitive dependence on initial conditions (stochastic / chaotic)?
+- **Typical ("almost every") behavior:** Because individual orbits can be wildly exotic, modern dynamics asks what happens for *almost every* parameter or initial condition in Lebesgue measure.
 
-**One-frequency Schrödinger operators and cocycles.** A quasiperiodic potential, the simplest being a cosine sampled along an irrational rotation, produces a discrete Schrödinger operator on $$\ell^2(\mathbb{Z})$$. The associated **Schrödinger cocycle** is a map that updates a solution by a $$2\times 2$$ matrix depending on the phase. Avila’s **global theory of one-frequency cocycles** (developed through the 2000s and published in the following decade) uses renormalization and complexification of the energy to divide the energy axis into regimes: in some, the cocycle is close to constant after a change of coordinates (**almost reducibility**); in others, Lyapunov exponents are positive and the spectral measures are more singular. The almost Mathieu family is the emblematic example, not the only one.
+### 2. Renormalization: A Microscope on the Space of Systems
+**What is it?** Originally born in statistical physics (Kenneth Wilson) and period-doubling chaos (Mitchell Feigenbaum), **renormalization** zooms into a small subregion of a dynamical system, waits for orbits to return to that subregion (**first-return map**), and rescales it back to unit size.
 
-**Interval exchanges and Teichmüller flow (with collaborators).** Cutting an interval into subintervals and permuting them—an **interval exchange transformation (IET)**—is the one-dimensional shadow of a translation flow on a flat surface. **Avila–Forni** proved that almost every IET (not a rotation) is weakly mixing. **Avila–Viana** proved the Zorich–Kontsevich conjecture on simplicity of the nontrivial Lyapunov exponents of the Teichmüller geodesic flow on the moduli space of Abelian differentials. These are theorems about *typical* systems in a measure-theoretic sense, not a classification of every surface or every permutation.
+**What does it study?**
+- **An operator on systems:** Renormalization maps one dynamical system $$f$$ to a new dynamical system $$\mathcal{R}(f)$$ of the same type. Repeating $$\mathcal{R}$$ reveals universal scaling laws and simplifies tangled long-time behavior into clean local geometry.
 
-**What is not rearranged.** There is no theorem that “classifies all dynamical systems.” High-dimensional smooth dynamics remains active; Avila later contributed (with Crovisier, Wilkinson, and others) to entropy and ergodicity far from unimodal maps. The citation is a *style of reduction*, not an encyclopedia.
+### 3. Quasiperiodic Schrödinger Operators & Matrix Cocycles
+**What is it?** In quantum mechanics, an electron moving in a crystal with two incommensurate periodicities obeys a discrete Schrödinger equation.
+
+**What does it study?**
+- **Transfer matrices (cocycles):** Rewriting a 2nd-order recurrence equation as a product of $$2\times 2$$ determinant-1 matrices $$A_n \in \mathrm{SL}_2(\mathbb{R})$$.
+- **Lyapunov exponents & spectra:** How fast the norm $$\|A_n \cdots A_1\|$$ grows exponentially (the **Lyapunov exponent**) determines whether quantum wavefunctions localize or spread—and whether the allowed energy spectrum forms smooth intervals or a fractal **Cantor set**.
 
 ---
 
-## 3. The almost Mathieu operator and the Ten Martini problem
+## 1. Looking again at a smaller scale (and a hand calculation)
+
+### Hand-Verifiable Example 1: Order Turning into Period-2 in the Logistic Map
+Take the famous logistic map $$f_r(x) = rx(1-x)$$ on $$[0,1]$$. Find its nonzero fixed point $$f_r(x^*) = x^*$$ by hand:
+
+$$
+r x^*(1 - x^*) = x^* \;\Longrightarrow\; 1 - x^* = \frac{1}{r} \;\Longrightarrow\; x^* = 1 - \frac{1}{r}.
+$$
+
+Is $$x^*$$ stable (attracting nearby orbits) or unstable (repelling them)? Check the derivative $$f_r'(x) = r(1 - 2x)$$ right at $$x^*$$:
+
+$$
+f_r'(x^*) = r\left(1 - 2\left(1 - \frac{1}{r}\right)\right) = 2 - r!
+$$
+
+Now plug in two concrete values of $$r$$:
+1. **$$r = 2.5$$:** Fixed point $$x^* = 1 - \frac{1}{2.5} = 0.6$$, and $$\lvert f'_{2.5}(0.6)\rvert = \lvert 2 - 2.5\rvert = 0.5 < 1$$. Every nearby point is **pulled straight into $$0.6$$** (regular attracting behavior!).
+2. **$$r = 3.2$$:** Fixed point $$x^* = 1 - \frac{1}{3.2} = 0.6875$$, and $$\lvert f'_{3.2}(0.6875)\rvert = \lvert 2 - 3.2\rvert = 1.2 > 1$$! The fixed point turns **repelling**, and orbits split into a stable **period-2 cycle** bouncing forever between $$0.5130\dots$$ and $$0.7995\dots$$!
+
+Keep turning $$r$$ up past $$3.449\dots$$, $$3.544\dots$$, and you witness Feigenbaum’s period-doubling cascade into chaos. In 2003, **Avila, Welington de Melo, and Mikhail Lyubich** used renormalization to prove the celebrated **regular-or-stochastic dichotomy**: for almost every parameter in a real-analytic unimodal family, the map is *either* regular (an attracting cycle) *or* stochastic (chaotic with an absolutely continuous invariant measure).
+
+---
+
+## 2. The almost Mathieu operator and the Ten Martini problem
 
 The **almost Mathieu operator** on $$\ell^2(\mathbb{Z})$$ is
 
 $$
-(H_{\lambda,\alpha}\psi)_n=\psi_{n+1}+\psi_{n-1}+2\lambda\cos\bigl(2\pi n\alpha\bigr)\,\psi_n,
+(H_{\lambda,\alpha}\psi)_n = \psi_{n+1} + \psi_{n-1} + 2\lambda\cos(2\pi n\alpha)\,\psi_n,
 $$
 
-with coupling $$\lambda\in\mathbb{R}$$ and frequency $$\alpha$$. When $$\alpha$$ is rational the spectrum is a finite union of bands. When $$\alpha$$ is irrational the spectrum is independent of a phase parameter (omitted here) and has been expected, since work of Azbel and the numerical **Hofstadter butterfly**, to be a **Cantor set**: closed, nowhere dense, without isolated points. **Mark Kac** offered ten martinis for a proof; **Barry Simon** named the **Ten Martini problem**.
+with coupling $$\lambda \in \mathbb{R}$$ and frequency $$\alpha$$.
 
-Partial results accumulated for decades (Bellissard–Simon, Sinai, Helffer–Sjöstrand, Last, Puig, and others), often under Diophantine conditions on $$\alpha$$ or away from the **critical** coupling $$|\lambda|=1$$. In 2005–2009, **Artur Avila** and **Svetlana Jitomirskaya** proved the complete statement: the spectrum is a Cantor set for **all irrational frequencies and all nonzero couplings**. The non-critical regime $$|\lambda|\neq 1$$ is the cleanest slogan for a first reading; the paper’s difficulty is that Diophantine and Liouville techniques do not mesh automatically, and a thin “interface” of parameters had to be treated by hand. Attribute the theorem **jointly**. Later work by Jitomirskaya and others extends Cantor-spectrum phenomena beyond the exact cosine potential; that is a sequel, not the 2014 citation.
+### Hand-Verifiable Example 2: Turning a Quantum Equation into a $$2\times 2$$ Matrix Cocycle
+How does a quantum eigenvalue equation $$H_{\lambda,\alpha}\psi = E\psi$$ become a dynamical system? Solve for $$\psi_{n+1}$$:
 
-**Accuracy.** Ten Martini is about the *shape* of the spectrum as a subset of $$\mathbb{R}$$. Separate conjectures concern the *measure* of the spectrum (Aubry–André / Lebesgue measure $$|4-4|\lambda||$$) and localization of eigenfunctions. Do not collapse those into one sentence.
+$$
+\psi_{n+1} = \bigl(E - 2\lambda\cos(2\pi n\alpha)\bigr)\psi_n - \psi_{n-1}.
+$$
+
+Stack $$\psi_n$$ and $$\psi_{n-1}$$ into a 2D vector! You instantly get an exact $$2\times 2$$ matrix update:
+
+$$
+\begin{pmatrix} \psi_{n+1} \\ \psi_n \end{pmatrix}
+=
+\underbrace{\begin{pmatrix} E - 2\lambda\cos(2\pi n\alpha) & -1 \\ 1 & 0 \end{pmatrix}}_{A(n\alpha)}
+\begin{pmatrix} \psi_n \\ \psi_{n-1} \end{pmatrix}.
+$$
+
+Check the determinant by hand: $$\det A(n\alpha) = (E - 2\lambda\cos(2\pi n\alpha))\cdot 0 - (-1)(1) = 1$$! So $$A(\theta)$$ always lives in **$$\mathrm{SL}_2(\mathbb{R})$$**! Stepping from $$n$$ to $$n+1$$ simply rotates the angle $$\theta \mapsto \theta + \alpha$$ and multiplies by $$A(\theta)$$—a **quasiperiodic $$\mathrm{SL}_2(\mathbb{R})$$ cocycle**!
+
+In 2009 (*Annals of Mathematics*), **Artur Avila and Svetlana Jitomirskaya** solved Mark Kac’s **Ten Martini problem** completely: for **every irrational $$\alpha$$** and **every nonzero $$\lambda$$**, the spectrum of $$H_{\lambda,\alpha}$$ is a **Cantor set** (closed, nowhere dense, with no isolated points).
 
 ---
 
-## 4. Honest attribution
+### Deep-Dive Explanation: How Renormalization Unifies Avila’s Three Worlds (Read Slowly)
 
-The IMU news release on Avila’s work is unusually explicit: nearly all of it was done with collaborators—on the order of thirty mathematicians. A fair seminar table looks like this.
+Why did the IMU call renormalization a **unifying principle** across Avila’s work? Follow the four-step logic connecting three seemingly separate fields:
+
+#### Step 1: Identify the "microscopic" return or frequency-scaling move
+Every one of Avila’s arenas has a natural zoom-in operation:
+- **Unimodal maps:** Replace $$f$$ by its rescaled return map $$f^2$$ near the critical point.
+- **Interval exchange transformations (IETs):** Cut off the rightmost subinterval and watch the first-return map (**Rauzy–Veech induction**), which is itself a new IET—and geometrically equals stepping forward along the **Teichmüller geodesic flow**!
+- **Schrödinger cocycles:** Replace the irrational rotation $$\alpha$$ by its continued-fraction renormalization (passing to close return times $$q_k$$ where $$q_k \alpha \approx p_k$$).
+
+#### Step 2: Complexify and track Lyapunov exponents (Avila’s global theory)
+For one-frequency cocycles $$A(\theta)$$, Avila had a dazzlingly simple yet revolutionary idea: shift the real phase $$\theta$$ into the complex plane, $$\theta \mapsto \theta + i\varepsilon$$, and study the Lyapunov exponent $$L(\varepsilon)$$ as a function of $$\varepsilon$$! He proved **quantization of acceleration**: the slope $$\frac{dL}{d\varepsilon}$$ is always an **integer**! That single rigidity theorem splits every energy $$E$$ cleanly into three regimes: **subcritical** (almost reducible to constant rotations), **critical**, and **supercritical** (positive Lyapunov exponent).
+
+#### Step 3: Bridge the Diophantine vs. Liouville divide
+In the Ten Martini problem, earlier proofs split in two: "well-approximable" (Liouville) irrationals fell to periodic approximations, while "badly approximable" (Diophantine) irrationals fell to KAM/localization methods—leaving an impossible no-man’s-land in between. Avila and Jitomirskaya used **almost reducibility** (via renormalization) and **Aubry duality** to close the gap across *all* irrationals and *all* couplings $$\lambda \neq 0$$.
+
+#### Step 4: Turn renormalization ergodicity into "almost every" global theorems
+The same renormalization microscope yielded two more landmarks:
+- **Avila–Forni (2007):** Proved that almost every non-rotational interval exchange transformation is **weakly mixing** (no hidden periodic clocks!).
+- **Avila–Viana (2007):** Proved the **Zorich–Kontsevich conjecture**: all nontrivial Lyapunov exponents of the Teichmüller geodesic flow on moduli spaces of Abelian differentials are **distinct (simple)**!
+
+In one schematic line:
+
+$$
+\text{Zoom \& rescale (renormalization)}
+\;\longrightarrow\;
+\begin{cases}
+\text{Unimodal maps: regular or stochastic (Avila–de Melo–Lyubich)} \\
+\text{Schrödinger cocycles: global theory \& Ten Martini (Avila–Jitomirskaya)} \\
+\text{IETs / Teichmüller flow: weak mixing \& simple exponents (Avila–Forni, Avila–Viana)}
+\end{cases}
+$$
+
+---
+
+## 3. Honest attribution
+
+The 2014 IMU news release explicitly highlights Avila’s remarkably collaborative style—working with roughly thirty coauthors across Brazil, France, and the world:
 
 | Result (slogan) | Credit |
 |-----------------|--------|
-| Regular vs stochastic typical unimodal maps | Avila–de Melo–Lyubich (2003) |
+| Regular vs. stochastic typical unimodal maps | Avila–de Melo–Lyubich (2003) |
 | Weak mixing of almost every IET / translation flow | Avila–Forni (2007) |
-| Cantor spectrum of almost Mathieu (Ten Martini) | Avila–Jitomirskaya (Annals, 2009) |
+| Cantor spectrum of almost Mathieu (Ten Martini) | Avila–Jitomirskaya (*Annals*, 2009) |
 | Simplicity of Lyapunov exponents of Teichmüller flow | Avila–Viana (Zorich–Kontsevich) |
-| Global theory of one-frequency Schrödinger operators | Avila (and a long spectral-theory community) |
-| Renormalization as an idea | Wilson, Feigenbaum, Sullivan, Lyubich, Yoccoz, … |
+| Global theory of one-frequency Schrödinger operators | Avila (and a broad spectral-theory community) |
+| Renormalization as a concept | Wilson, Feigenbaum, Sullivan, Lyubich, Yoccoz, … |
 
-Avila grew up in Rio de Janeiro, earned his PhD at **IMPA** in 2001 under **Welington de Melo**, and has been affiliated with the French CNRS and later the University of Zurich. He is the **first Brazilian** Fields Medalist, and in common accounts the first from South America (and more broadly the first Latin American). Those biographical facts explain a public narrative; they do not replace the theorems.
+Avila grew up in Rio de Janeiro, earned his PhD at **IMPA** at age 21 under **Welington de Melo**, and went on to CNRS (Paris) and the University of Zurich—becoming the **first Brazilian** (and first Latin American) Fields Medalist.
 
 ---
 
-## 5. Why a Fields Medal
+## 4. Why a Fields Medal
 
-Three reasons, none of them “he tamed chaos in general.” Quasiperiodic spectral theory splits into Diophantine and Liouville worlds; closing Ten Martini required moving between them. Renormalization already existed—making it a *default language* for several flagship problems changed what a paper is allowed to try. And weak mixing of IETs, or regular/stochastic unimodal maps, are statements about *almost every* system in a natural measure: the modern substitute, in much of dynamics, for a hopeless pointwise classification.
-
-In this course Avila sits next to [Mirzakhani]({{ site.baseurl }}/contents/en/chapter02/02_05_Mirzakhani_Moduli/) as a 2014 story about moduli of surfaces and their flows—adjacent geometry, different questions.
+Three reasons explain the 2014 award without resorting to hype:
+1. Closing the Diophantine–Liouville no-man’s-land to finish **Ten Martini** (with Jitomirskaya).
+2. Turning **renormalization** and **global cocycle theory** into a unified default language across three major branches of dynamics.
+3. Proving sharp measure-theoretic ("almost every") laws—weak mixing of IETs, regular/stochastic unimodal maps, simple Teichmüller Lyapunov exponents—where pointwise classification is hopeless.
 
 ---
 
@@ -105,12 +182,12 @@ In this course Avila sits next to [Mirzakhani]({{ site.baseurl }}/contents/en/ch
 
 | Claim | Correction |
 |-------|------------|
-| “Avila invented renormalization.” | The idea is older (Wilson, Feigenbaum, Sullivan, …). He used it as a unifying tool. |
-| “He classified all dynamical systems.” | He proved deep theorems for specific, central classes. |
-| “Ten Martini is Avila’s alone.” | It is **Avila–Jitomirskaya**. |
-| “The spectrum is a Cantor set for every Schrödinger operator.” | The theorem is for the almost Mathieu family (and later extensions); general one-frequency operators have a richer phase diagram. |
-| “Weak mixing is the same as mixing.” | IETs are never strongly mixing; Avila–Forni is about *weak* mixing of typical exchanges. |
-| “Lyapunov exponents of Teichmüller flow are Avila’s solo theorem.” | Simplicity is Avila–Viana, completing a conjecture of Zorich–Kontsevich; Forni and others are part of the same story. |
+| “Avila invented renormalization.” | The idea is older (Wilson, Feigenbaum, Sullivan, …); Avila unified major branches of dynamics with it. |
+| “He classified all dynamical systems.” | He proved deep measure-theoretic theorems for specific, central classes. |
+| “Ten Martini is Avila’s alone.” | It is joint work: **Avila–Jitomirskaya**. |
+| “The spectrum is a Cantor set for every Schrödinger operator.” | Ten Martini is for the almost Mathieu family (and later extensions); general operators have richer spectra. |
+| “Weak mixing is the same as mixing.” | IETs are never strongly mixing; Avila–Forni proves *weak* mixing for typical exchanges. |
+| “Lyapunov exponents of Teichmüller flow are Avila’s solo theorem.” | Simplicity is **Avila–Viana**, settling the Zorich–Kontsevich conjecture. |
 
 ---
 

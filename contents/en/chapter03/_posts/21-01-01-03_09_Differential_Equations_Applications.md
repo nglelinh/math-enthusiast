@@ -10,11 +10,22 @@ categories:
 lesson_type: required
 ---
 
-Write down how a system changes, and you have written a **differential equation**. Planets, circuits, epidemics, chemical reactors, beams, markets’ toy models, and climate boxes all speak this language. Solving—analytically or numerically—is how prediction and design enter engineering.
+An epidemiologist wants to know whether a flu wave will peak in three weeks or subside if schools close. A meteorologist wants to track a tropical cyclone over the next 72 hours. An electrical engineer wants to verify that a power circuit will not ring and burn out when switched on. None of them owns a crystal ball—yet all three do the exact same thing: **write down the rule stating how the current state determines the rate of change in the very next instant**.
 
-**Path:** what a DE is → ODE catalog → PDE catalog → well-posedness slogan → linear structure and eigenmodes → numerics → multiphysics and control → confusions.
+That rule is a **differential equation**. If calculus is the alphabet, differential equations are the complete sentences describing how the physical, biological, and engineered universe evolves in space and time.
 
-This lecture complements [Calculus → Physics & Engineering]({{ site.baseurl }}/contents/en/chapter03/03_02_Calculus_Physics_Engineering/) with a sharper **equation-type map**, the meaning of well-posed problems, and why computation dominates practice. For an open analytic frontier, see [Navier–Stokes]({{ site.baseurl }}/contents/en/chapter01/01_05_Navier_Stokes/).
+---
+
+## Background Knowledge Map: What Is the Theory of Differential Equations?
+
+Solving an algebraic equation like $$x^2 - 5x + 6 = 0$$ yields a few numbers. Solving a **differential equation** means finding an **entire unknown function** $$x(t)$$ or field $$u(x,y,z,t)$$ describing a system’s whole evolution.
+
+Many students leave undergraduate courses thinking differential equations are a bag of integration tricks for closed-form formulas. In reality, 99% of real-world scientific equations **have no closed-form solution**. Modern differential-equation theory therefore focuses on **four deeper pillars**:
+
+1. **Well-Posedness (Hadamard):** Does a solution exist, is it unique, and does a $$0.1\%$$ measurement error stay small or explode?
+2. **Qualitative Analysis & Dynamical Systems:** Without ever writing a formula, determining whether trajectories settle to stable equilibria, oscillate periodically, or enter chaos.
+3. **Structural Classification (ODEs and Elliptic / Parabolic / Hyperbolic PDEs):** Recognizing the physical character—does the equation smooth information (heat), propagate waves (acoustics), or enforce static equilibrium (Laplace)?
+4. **Numerical Analysis:** Designing discretization schemes that stay stable on computers without letting rounding errors blow up the simulation.
 
 ---
 
@@ -149,6 +160,21 @@ After discretization, one solves large linear or nonlinear algebraic systems—[
 **Order-of-accuracy intuition.** If you refine a mesh by a factor of two and a stable scheme’s global error drops by about four for a second-order method, you are seeing analysis at work. If error stalls, you may be limited by geometry approximation, iterative solver tolerance, or model error—not by “needing more CPU” alone.
 
 ---
+
+### Deep-Dive Explanation: Why a Supercomputer Simulation Can Still Explode—Checked by Hand (Read Slowly)
+
+Even when your physical model is 100% right, choosing the wrong numerical step can ruin the answer. Verify this dramatically by hand on the simple stiff decay ODE $$y'(t) = -10 y(t)$$ with $$y(0) = 1$$ (whose exact solution $$y(t) = e^{-10t}$$ smoothly decays to $$0$$), using time step $$\Delta t = 0.25$$:
+
+1. **Explicit (Forward) Euler blows up:** $$y_{n+1} = y_n + \Delta t\,(-10 y_n) = (1 - 10\cdot 0.25)\,y_n = (-1.5)\,y_n$$.
+   - $$y_0 = 1,\quad y_1 = -1.5,\quad y_2 = +2.25,\quad y_3 = -3.375,\quad y_4 = +5.0625, \dots$$
+   Because $$\lvert 1 - 10\Delta t \rvert = 1.5 > 1$$, the numerical solution **oscillates wildly to $$\pm\infty$$** even though the true solution vanishes!
+2. **Implicit (Backward) Euler stays rock-solid:** $$y_{n+1} = y_n + \Delta t\,(-10 y_{n+1}) \;\Longrightarrow\; y_{n+1} = \frac{y_n}{1 + 10(0.25)} = \frac{y_n}{3.5}$$.
+   - $$y_0 = 1,\quad y_1 \approx 0.286,\quad y_2 \approx 0.082,\quad y_3 \approx 0.023, \dots$$
+   Clean, monotone decay to $$0$$ at the exact same step size!
+3. **Beware ill-posed inverse problems:** Running the heat equation *backward* in time amplifies tiny sensor noise exponentially—refining the mesh actually makes errors worse unless you regularize.
+4. **Separate Verification from Validation:** *Verification* checks “does my code solve the written equations accurately (mesh convergence)?”; *Validation* checks “do those equations match real-world experiments?”
+
+**Quick check:** A gorgeous colorful CFD plot only earns trust after clearing both gates: **numerical stability/convergence** and **experimental validation**.
 
 ## 8. Control, inverse problems, and digital twins
 

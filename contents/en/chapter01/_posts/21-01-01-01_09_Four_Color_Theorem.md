@@ -14,11 +14,11 @@ categories:
 > **2. Next:** [Ch.7 Map-colors studio]({{ site.baseurl }}/contents/en/chapter07/07_07_Explore_Map_Colors/) — draw duals, Heawood, write-up  
 > *Time guide:* ~2 h essay → ~1–2 h studio.
 
-The **Four Color Theorem (4CT)** asserts that every planar map can be colored with at most **four** colors so that regions sharing a positive-length border receive different colors. Equivalently, in graph language: every finite **planar graph** is 4-vertex-colorable. Unlike the Riemann Hypothesis, twin primes, or Collatz, 4CT is **solved**—and that fact is part of its pedagogical value. The solution did not arrive as a short conceptual “aha.” Appel and Haken (1976) completed the first accepted proof with a massive computer-checked case analysis; later simplifications (Robertson–Sanders–Seymour–Thomas and others) still rely on extensive machine verification. Formal proof assistants have since re-checked versions of the argument.
+In October 1852, a young student named Francis Guthrie was coloring a map of the counties of England and noticed something curious: no matter how tangled the borders were, he never seemed to need more than **four** colors to keep neighboring counties distinct. He asked his brother, who asked Augustus De Morgan—and a century-long mathematical obsession was born.
 
-So this essay is both a graph-theory story and a **philosophy-of-proof** story. Solved does not mean trivial. A theorem can be true, accepted, and still reshape what the community means by “we have a proof.”
+The **Four Color Theorem (4CT)** asserts that every planar map can be colored with at most **four** colors so that any two regions sharing a border of positive length receive different colors—or equivalently, that every finite **planar graph** is 4-vertex-colorable. Unlike the Riemann Hypothesis, twin primes, or Collatz, 4CT is **proved**. Yet its solution did not arrive as a sleek five-line miracle. In 1976, Kenneth Appel and Wolfgang Haken delivered the first accepted proof only by pairing a subtle human combinatorial strategy with more than a thousand hours of computer case-checking. Even modern streamlined proofs (Robertson–Sanders–Seymour–Thomas, 1997; Georges Gonthier’s 2005 formalization in Coq) still rely on machine verification.
 
-**Path through this essay:** map coloring folklore → dual graphs → five-color theorem → minimal counterexamples, reducibility, unavoidable sets → discharging and computers → what machine assistance means → Heawood on higher surfaces → culture and course links.
+That makes this lesson both a tour of planar graph theory and a front-row seat to the **philosophy of mathematical proof**. *Solved* does not mean *trivial*—and the Four Color Theorem permanently changed what mathematicians mean when they say, “we have proved it.”
 
 ---
 
@@ -26,34 +26,52 @@ So this essay is both a graph-theory story and a **philosophy-of-proof** story. 
 
 After this lecture you should be able to:
 
-- State 4CT in **map language** and **graph language**, and explain the dual-graph translation.
-- Sketch why **five** colors are classically easier than four (Euler → low-degree vertex → induction / Kempe-style recoloring).
-- Describe **unavoidable sets** and **reducible configurations** at slogan level, and how they combine into a proof strategy.
-- Discuss **computer-assisted proof** as a mathematical and philosophical issue (finite checks vs surveyability; formalization).
-- Contrast planar 4CT with **Heawood’s formula** on higher-genus surfaces.
-- Link to the Chapter 7 map-colors studio and to Euler / Königsberg culture in the course.
-- Internalize: **solved ≠ trivial**—a settled theorem can still be deep, historically hard, and conceptually rich.
+- State the Four Color Theorem in both **map language** and **graph language**, and translate maps into **dual planar graphs**.
+- Use Euler’s formula $$v - e + f = 2$$ and the sparsity bound $$e \le 3v - 6$$ to prove why $$K_5$$ is non-planar and why five colors are dramatically easier than four.
+- Explain **minimal counterexamples**, **unavoidable sets**, **reducible configurations**, and the **discharging method** with concrete hand calculations.
+- Distinguish genuine **computer-assisted proofs** and **formal proof assistants (Coq)** from random simulation or numerical evidence.
+- Contrast planar 4-coloring with **Heawood’s formula** on higher-genus surfaces (such as 7 colors on the torus).
 
-**Prerequisites.** Graphs as vertices and edges; the idea of a planar drawing (edges can be drawn without crossings). No advanced graph theory required; Euler’s formula will be used at slogan level.
+**Prerequisites.** Graphs as vertices and edges, basic counting, and the idea of drawing edges without crossings. Euler’s formula and discharging are built from scratch below.
 
-**Seminar link.** LO1 plus “what is a proof?” discussion. Natural pairings: [Kakeya]({{ site.baseurl }}/contents/en/chapter01/01_08_Kakeya_Conjecture/) (open analytic culture vs solved combinatorial culture); [P vs NP]({{ site.baseurl }}/contents/en/chapter01/01_03_P_vs_NP/) (computation in mathematics); [Explore map colors]({{ site.baseurl }}/contents/en/chapter07/07_07_Explore_Map_Colors/).
+**Course links.** Pair with [Explore map colors]({{ site.baseurl }}/contents/en/chapter07/07_07_Explore_Map_Colors/) (studio), [Kakeya]({{ site.baseurl }}/contents/en/chapter01/01_08_Kakeya_Conjecture/) (open analytic culture vs. solved combinatorial culture), and [P vs NP]({{ site.baseurl }}/contents/en/chapter01/01_03_P_vs_NP/) (computation in mathematics).
+
+---
+
+## Background Knowledge Map: What Fields Sit Behind the Four Color Theorem?
+
+Why did an afternoon map-coloring puzzle spark a century of mathematics and launch formal proof verification? Three major disciplines meet inside 4CT.
+
+### 1. Graph Theory and Structural Combinatorics
+**Graph theory** strips away geography (country shapes, sizes, coastlines) and keeps only pure adjacency: vertices connected by edges. Coloring a map becomes finding the **chromatic number** $$\chi(G)$$ of a **planar graph**—the smallest number of colors needed so no two adjacent vertices share a color.
+- **Core questions:** How does forbidding crossings restrict vertex degrees and local substructures? Which forbidden configurations force a graph to be $$k$$-colorable?
+- **Real-world reach:** Register allocation in compilers, exam/classroom scheduling, wireless frequency assignment, and circuit-board layout.
+
+### 2. Low-Dimensional Topology and Surface Embeddings
+A flat sheet of paper and the surface of a sphere have the same **Euler characteristic** ($$\chi = 2$$), whereas a donut (torus) has $$\chi = 0$$. **Topology** reveals why planarity is such a tight straightjacket: adding even a single handle (genus $$g = 1$$) lets seven mutually touching countries coexist, jumping the color requirement from $$4$$ to $$7$$.
+- **Core questions:** Which graphs can be drawn without crossings on a surface of genus $$g$$? How does topology bound chromatic numbers (*Heawood’s formula*)?
+- **Real-world reach:** Mesh generation in 3D graphics, topological data analysis, and VLSI microchip routing across multiple layers.
+
+### 3. Automated Reasoning and Formal Verification
+When Appel and Haken used a computer to check nearly two thousand reducible configurations in 1976, mathematicians asked: *what if the code has a bug?* That debate accelerated **interactive theorem proving** (Coq, Lean, Isabelle), culminating in Georges Gonthier’s 2005 machine-checked formal proof of 4CT inside Coq.
+- **Core questions:** How can we verify massive combinatorial proofs with absolute logical certainty? Can a tiny trusted proof kernel check every single logical step?
+- **Real-world reach:** Verifying aerospace/automotive control software, cryptographic protocols, CPU microarchitecture, and modern math formalization projects.
 
 ---
 
 ## 1. The mapmakers’ question
 
-Since the mid-nineteenth century—Guthrie, De Morgan, Cayley, and a long line of amateur and professional contributors—people have asked: how many colors suffice for political maps so that neighboring countries differ in color?
+Since the mid-nineteenth century—Guthrie, De Morgan, Cayley, Kempe, and Heawood—mathematicians asked how many colors suffice for any political map so that neighboring countries differ in color.
 
-The question is more subtle than it sounds. Neighboring means sharing a **border of positive length**, not merely meeting at a point (otherwise four countries meeting at a crossroads would incorrectly force four pairwise conflicts from a single point). Standard formulations also treat regions as connected; maps that allow disconnected “countries” (enclaves counted as the same region) change the problem entirely.
+Two ground rules keep the question sharp:
+- **Positive-length borders:** Two regions count as neighbors only if they share a border segment, not merely a single corner point (otherwise a pie sliced into 100 wedges meeting at the center would artificially require 100 colors).
+- **Connected countries:** Each region must be a single connected piece (no disconnected exclaves forced to share one color; allowing disconnected countries lets you force arbitrarily many colors).
 
-Color counts in plain language:
-
-- **Two colors** fail as soon as an odd wheel of mutually adjacent regions appears—think of countries arranged so that an odd cycle of adjacencies forces a third color.
-- **Three colors** fail for some planar maps (a country surrounded by an odd ring of mutually adjacent neighbors, in suitable arrangements, is a classic obstruction).
-- **Four colors** were conjectured to suffice for every planar map.
-- **Five colors** were proved to suffice by classical arguments long before four was settled (Heawood’s five-color theorem and related developments).
-
-The conjecture that four always work became one of the most famous problems in discrete mathematics—easy to explain at a dinner table, resistant for more than a century.
+Quick color checks:
+- **2 colors** fail as soon as three countries touch pairwise (an odd cycle).
+- **3 colors** fail on four mutually adjacent countries (a central country surrounded by a ring of three mutually touching neighbors).
+- **5 colors** were proved to suffice in 1890 by Percy Heawood.
+- **4 colors** always suffice—but proving that final step from 5 down to 4 took another 86 years.
 
 ![Regions needing many colors]({{ site.baseurl }}/img/chapter_img/fourcolor_map_k4.svg)
 
@@ -63,9 +81,7 @@ The conjecture that four always work became one of the most famous problems in d
 
 ## 2. From maps to planar graphs
 
-Graph theory converts geography into combinatorics. Associate to each region a **vertex**. Draw an **edge** between two vertices when the corresponding regions share a border of positive length. Under mild hypotheses on the map, the result is a **planar graph**: it can be drawn in the plane without edge crossings.
-
-Coloring regions so that adjacent regions differ is then exactly **vertex coloring**: assign colors to vertices so that adjacent vertices receive different colors. The least number of colors needed for a graph $$G$$ is its **chromatic number** $$\chi(G)$$.
+Graph theory converts geography into combinatorics via the **dual graph**: place one **vertex** inside each country and draw an **edge** crossing each shared border. Because the map lies on the plane, the dual graph can be drawn without any edges crossing—it is a **planar graph**. Coloring countries is now identical to **vertex coloring**, and the minimum number of colors needed is the **chromatic number** $$\chi(G)$$.
 
 ![Map dual graph]({{ site.baseurl }}/img/chapter_img/fourcolor_graph_dual.svg)
 
@@ -75,126 +91,175 @@ Coloring regions so that adjacent regions differ is then exactly **vertex colori
 **Theorem (4CT, graph form).** Every finite planar graph $$G$$ satisfies $$\chi(G)\le 4$$.
 </div>
 
-This dual viewpoint is not cosmetic. It lets one import Euler’s formula and degree-counting arguments. For a connected simple plane graph with $$v$$ vertices, $$e$$ edges, and $$f$$ faces,
+This dual viewpoint unlocks **Euler’s formula**: for any connected simple planar graph with $$v$$ vertices, $$e$$ edges, and $$f$$ faces,
 
 $$
-v - e + f = 2
+v - e + f = 2.
 $$
 
-(on the sphere / plane). Combined with face-degree inequalities, one obtains the classical sparsity bound $$e \le 3v - 6$$ for simple planar graphs with $$v\ge 3$$. Sparsity implies that planar graphs always have a vertex of small degree—fuel for induction.
+Because every face of a simple planar graph (with $$v \ge 3$$) is bounded by at least $$3$$ edges and each edge borders at most $$2$$ faces, we have $$3f \le 2e$$, i.e., $$f \le \frac{2}{3}e$$. Substituting into Euler’s formula yields the **planar sparsity inequality**:
 
-Historical culture note: Euler’s formula also sits behind the Königsberg bridge story and the birth of graph theory as a subject. Four-color work is part of that same combinatorial lineage, even when the final proof is far from Euler’s original recreational setting.
+$$
+e \le 3v - 6.
+$$
+
+---
+
+### Worked Example 1: Why $$K_4$$ Fits on the Plane, $$K_5$$ Breaks, and $$K_7$$ Fits on a Donut
+
+Why can’t five countries all touch one another on a flat map (which would immediately force 5 colors)? Let’s check the exact numbers using Euler’s sparsity bound!
+
+1. **Test $$K_4$$ (4 mutually adjacent countries):**
+   - Vertices $$v = 4$$, edges $$e = \binom{4}{2} = 6$$.
+   - Planar ceiling: $$3v - 6 = 3(4) - 6 = 6$$.
+   - Check: $$6 \le 6$$! Tight, and indeed $$K_4$$ draws cleanly in the plane (a triangle with one vertex inside), so 4 colors are *sometimes necessary*.
+2. **Test $$K_5$$ (5 mutually adjacent countries):**
+   - Vertices $$v = 5$$, edges $$e = \binom{5}{2} = 10$$.
+   - Planar ceiling: $$3v - 6 = 3(5) - 6 = 9$$.
+   - Check: $$10 > 9$$! **Impossible.** Five countries can never all share borders on a flat map.
+3. **Now move to a torus (donut, genus $$g = 1$$):**
+   - On a torus, Euler’s formula changes from $$2$$ to $$0$$: $$v - e + f = 0$$.
+   - Combining with $$3f \le 2e$$ gives a relaxed bound: $$e \le 3v$$ (we gained 6 extra edges!).
+   - Test **$$K_7$$** (7 mutually adjacent countries): $$v = 7$$, edges $$e = \binom{7}{2} = 21$$, and $$3v = 3(7) = 21$$! Indeed, $$K_7$$ embeds cleanly on a torus—so toroidal maps genuinely require **7 colors**!
+
+**Takeaway:** A single arithmetic constant—the $$2$$ in $$v - e + f = 2$$—explains why $$K_5$$ cannot exist on a plane while $$K_7$$ thrives on a donut. (Note: forbidding $$K_5$$ alone does *not* prove 4CT, because planar graphs without $$K_5$$ could still theoretically have chromatic number 5—that is why 4CT was so much harder!)
 
 ---
 
 ## 3. Why five colors is easier
 
-The **five-color theorem** has short classical proofs that every student should see at least in outline. A typical skeleton:
+The **Five Color Theorem** fits cleanly on half a page:
 
-1. From Euler / sparsity, every simple planar graph has a vertex $$v$$ of degree at most $$5$$.
-2. Remove $$v$$; color the rest by induction with five colors.
-3. Try to extend the coloring to $$v$$. If the neighbors of $$v$$ do not use all five colors, assign a free color.
-4. If they do use all five, use **Kempe-chain** recoloring arguments: swap colors along connected two-color components to free a color for $$v$$. For five colors, the chain arguments can be arranged to work.
+1. From $$e \le 3v - 6$$, the average vertex degree is $$\frac{2e}{v} \le 6 - \frac{12}{v} < 6$$, so every simple planar graph has a vertex $$u$$ of degree at most $$5$$.
+2. Delete $$u$$ and inductively 5-color the smaller graph $$G - u$$.
+3. If $$u$$’s neighbors use at most 4 colors, pick the leftover color for $$u$$.
+4. If $$u$$ has degree $$5$$ and its five neighbors $$v_1, v_2, v_3, v_4, v_5$$ (in cyclic order) use all five colors (say Red, Blue, Green, Yellow, Purple), consider the **Kempe chain** of Red–Green vertices starting at $$v_1$$. Either it fails to reach $$v_3$$ (swap Red/Green in that component to free Red for $$u$$), or it forms a closed Red–Green barrier separating $$v_2$$ (Blue) from $$v_4$$ (Yellow)—in which case the Blue–Yellow chain from $$v_2$$ *cannot* cross that barrier (by planarity!), so swapping Blue/Yellow frees Blue for $$u$$!
 
-Kempe believed in 1879 that he had proved the **four**-color case by similar methods. In 1890 Heawood found a flaw in the four-color argument and salvaged a correct five-color theorem. The gap between five and four hid roughly a century of work. That history is worth remembering: a plausible recoloring idea can fail in subtle configurations; the difference between “almost a proof” and “a proof” can be enormous.
+In 1879, Alfred Kempe tried the exact same trick for **four** colors—and the mathematical world celebrated for eleven years until Percy Heawood (1890) found a fatal flaw: when you try to swap *two* Kempe chains simultaneously in a degree-5 neighborhood with only 4 colors, the chains can tangle and interfere with each other! Heawood salvaged the Five Color Theorem, leaving the Four Color Conjecture wide open for another 86 years.
 
 ---
 
 ## 4. Minimal counterexamples, reducibility, and unavoidable sets
 
-Modern proofs of 4CT are organized around a proof by contradiction that is combinatorial rather than “check every map on Earth.”
+Modern proofs of 4CT do **not** “check every map on Earth.” Instead, they argue by contradiction around a hypothetical **minimal counterexample** $$G$$ (a planar triangulation with the smallest possible number of vertices that cannot be 4-colored).
 
-Assume $$G$$ is a **minimal planar graph that is not 4-colorable**—a smallest counterexample (by number of vertices, after suitable normalizations). Then one can argue structural properties: roughly triangulation-like maximality after reductions; no vertices of degree less than 5; and strong constraints on local neighborhoods.
+Two concepts lock together like jaws of a vise:
 
-Two definitions carry the logic:
+- **Reducible configuration:** A local subgraph $$C$$ that *cannot* appear inside a minimal counterexample (because if $$C$$ appeared in $$G$$, you could delete or simplify $$C$$, 4-color the smaller graph by minimality, and extend the 4-coloring back across $$C$$).
+- **Unavoidable set:** A finite list $$\mathcal{U}$$ of local configurations such that **every** planar triangulation (with minimum degree $$\ge 5$$) *must* contain at least one configuration from $$\mathcal{U}$$.
 
-- A configuration $$C$$ is **reducible** if, whenever it appears in a larger graph, a 4-coloring of the graph with $$C$$ removed (or contracted in a controlled way) can be extended, after possible recoloring, to a 4-coloring of the whole graph. Thus a reducible configuration **cannot appear** in a minimal counterexample: if it did, the remainder would be 4-colorable and the coloring would extend.
-- A set $$\mathcal{U}$$ of configurations is **unavoidable** if every minimal counterexample must contain at least one configuration from $$\mathcal{U}$$.
-
-If you exhibit an unavoidable set $$\mathcal{U}$$ in which **every** member is reducible, you obtain a contradiction: a minimal counterexample would have to contain some $$C\in\mathcal{U}$$, yet no reducible $$C$$ can appear. Therefore no minimal counterexample exists, and every finite planar graph is 4-colorable.
+If you construct an unavoidable set $$\mathcal{U}$$ and verify that **every single configuration in $$\mathcal{U}$$ is reducible**, then no minimal counterexample can exist—so every planar graph is 4-colorable!
 
 ![Proof pipeline]({{ site.baseurl }}/img/chapter_img/fourcolor_proof_pipeline.svg)
 
 *Figure. Unavoidable set + reducibility checks ⇒ no minimal counterexample.*
 
-**Discharging** is the human-designed engine that produces unavoidable sets. One assigns “charges” to vertices (or faces) using Euler’s formula so that total charge is positive (or otherwise constrained), then redistributes charge according to local rules. If every configuration outside a proposed list ends up with nonpositive charge under the rules, something in the list must occur—unavoidability. Designing good discharging rules is deep combinatorial craft; checking reducibility for each listed configuration is finite but enormous.
+---
 
-Appel and Haken produced a large unavoidable set and verified reducibility with a custom computer program, together with substantial hand work. The 1976–77 announcement was a watershed: for the first time, a major theorem’s proof relied on a machine-checked case analysis at a scale no human could survey line by line.
+### Worked Example 2: Watching the Discharging Method Work by Hand
+
+How do mathematicians ever prove a finite list of shapes is **unavoidable** across *all* infinitely many planar triangulations? By turning Euler’s formula into a **bank-account conservation law** called **discharging**!
+
+In any planar triangulation (where every face is a triangle, so $$3f = 2e$$), Euler’s formula $$v - e + f = 2$$ multiplies by $$6$$ and rearranges (using $$2e = \sum_{u} \deg(u)$$) into the **master charge identity**:
+
+$$
+\sum_{u \in V} \bigl(6 - \deg(u)\bigr) = 12.
+$$
+
+Think of each vertex $$u$$ as starting with a bank balance of $$c(u) = 6 - \deg(u)$$ dollars:
+- A degree-5 vertex starts **rich**: $$+1$$ dollar.
+- A degree-6 vertex starts **break-even**: $$0$$ dollars.
+- A degree-7 vertex starts in **debt**: $$-1$$ dollar; a degree-8 vertex at $$-2$$ dollars, and so on.
+- **Conservation law:** No matter how huge the map is—even a billion countries—the sum of all bank balances across the entire map is **always exactly $$+12$$ dollars**!
+
+Let’s test this by hand on two concrete examples:
+1. **The regular icosahedron** (12 vertices, all of degree $$5$$): every vertex has charge $$6 - 5 = +1$$, so the total charge is $$12 \times (+1) = +12$$. Exact match!
+2. **A mini-discharging rule:** Suppose a minimal counterexample has minimum degree $$5$$ and we want to prove it *must* contain either two adjacent degree-5 vertices, or a degree-5 vertex adjacent to a degree-6 vertex.
+   - **Rule:** Every degree-5 vertex ($$+1$$) sends $$\frac{1}{5}$$ dollar to each of its 5 neighbors.
+   - After redistribution, every degree-5 vertex ends with $$1 - 5\cdot\frac{1}{5} = 0$$ (unless it *received* money from an adjacent degree-5 neighbor!).
+   - A degree-7 vertex (starting at $$-1$$) has 7 neighbors; even if all 7 were degree-5, it could reach $$-1 + 7/5 = +2/5 > 0$$—showing that a degree-7 vertex surrounded by many degree-5 neighbors is a configuration that stays positive and must be added to our unavoidable list (or refined by smarter rules)!
+   - Because total money stays $$+12 > 0$$, **some** vertex must finish with a strictly positive balance—guaranteeing that at least one configuration in our finite list $$\mathcal{U}$$ *must* appear in the graph!
+
+---
+
+### Deep-Dive Explanation: How the Four Color Theorem Proof Actually Works (Read Slowly)
+
+To see why 4CT is neither “magic” nor “guessing with a supercomputer,” walk through the four-stage architecture of the Appel–Haken / RSST / Gonthier proof slowly.
+
+#### Step 1: Assume a smallest counterexample $$G$$ and normalize it
+Suppose planar graphs that cannot be 4-colored exist. Pick one with the fewest vertices. Add edges until every face is a triangle (adding edges only makes coloring harder). By Euler’s formula and simple Kempe checks, $$G$$ cannot have any vertex of degree $$\le 4$$, nor any small separating cycles—so every vertex in $$G$$ has degree $$\ge 5$$.
+
+#### Step 2: Design human discharging rules to build a finite unavoidable set $$\mathcal{U}$$
+Assign initial charge $$6 - \deg(u)$$ to every vertex (total charge $$+12$$). Mathematicians craft a finite set of local charge-transfer rules (RSST uses just 32 rules!) and prove—purely by local case accounting—that if a planar triangulation avoids every configuration in their list $$\mathcal{U}$$ (633 configurations in RSST; ~1,936 originally in Appel–Haken), then every vertex ends up with charge $$\le 0$$. That contradicts total charge $$+12$$! Hence $$\mathcal{U}$$ is **unavoidable**.
+
+#### Step 3: Let the computer verify that every configuration in $$\mathcal{U}$$ is reducible
+For each of the 633 configurations $$C \in \mathcal{U}$$, surround $$C$$ with its boundary ring (say 10 to 14 vertices). The computer enumerates all valid 4-colorings of that boundary ring and systematically tests Kempe-chain swaps to prove that *every* coloring of the exterior can be modified to extend across $$C$$. This is finite, exact, deterministic discrete math—not random sampling—just too large (tens of thousands of ring colorings per configuration) for error-free human bookkeeping.
+
+#### Step 4: Close the contradiction—and formalize the entire chain in Coq
+Because $$G$$ must contain some $$C \in \mathcal{U}$$ (Step 2) yet cannot contain any reducible $$C$$ (Step 3), no minimal counterexample can exist. In 2005, Georges Gonthier went one step further: he encoded the *entire* discharging proof, the reducibility checker, and even the topological Jordan-curve planar-graph foundations inside the **Coq proof assistant**, so a tiny, independently audited logical kernel verified every single deduction from first principles.
 
 ---
 
 ## 5. Simplification, still machine-checked
 
-Later work improved the proof’s hygiene without returning to a short hand proof. Robertson, Sanders, Seymour, and Thomas (1997) gave a simplified argument with a much smaller unavoidable set and a clearer logical structure, still relying on computer verification of reducibility. Other presentations and independent checks followed. Formalizations in proof assistants (notably Gonthier’s Coq development of a 4CT proof) addressed a different worry: not only “did the program run?” but “is the mathematical statement of each case correctly formalized and checked by a trusted kernel?”
+Later breakthroughs dramatically cleaned up Appel and Haken’s 1976 proof without finding a short pencil-and-paper replacement:
+- **Robertson, Sanders, Seymour, and Thomas (1997)** slashed the unavoidable set to **633 configurations** with a clean 32-rule discharging procedure and a quadratic-time 4-coloring algorithm.
+- **Georges Gonthier (2005)** formally verified the entire proof inside the **Coq** proof assistant.
 
-The community status is settled: **4CT is a theorem**. What remains lively is methodology—how to design discharging, how to minimize case lists, how to formalize combinatorial arguments—not whether four colors suffice for planar maps.
+The theorem’s truth is completely settled: **4CT is a theorem**. What stays open is a philosophical and aesthetic wish: *does a short, human-surveyable conceptual proof exist?*
 
 ---
 
 ## 6. What “computer-assisted” means here
 
-It is important to distinguish this from Monte Carlo simulation or “the computer guessed the theorem.”
+Never confuse the Four Color proof with Monte Carlo testing or checking millions of random maps!
 
-In the Appel–Haken / RSST tradition:
+- A **human mathematical argument** reduces infinitely many planar graphs to a **finite** checklist of 633 local configurations.
+- The **computer** performs an exact, exhaustive logical verification of finite reducibility cases.
+- **Formalization (Coq)** removes the worry of programmer bugs by verifying the proof inside a minimal logical kernel.
 
-- a **finite** combinatorial checklist is derived from a human-designed discharging method;
-- each case is a finite graph-coloring extension / reducibility problem;
-- the machine enumerates and checks cases too numerous for reliable hand calculation;
-- the overall logic (why the list is unavoidable; why reducibility yields contradiction) is a human mathematical argument.
-
-Philosophical questions remain popular in seminars and essays:
-
-- Must a proof be **surveyable** by a single human mind in a reasonable time?
-- If a proof assistant verifies a formalization, does that restore a form of surveyability at the level of the kernel and the formal text?
-- Are we satisfied with the **existence** of a finite check, or do we still seek a short conceptual reason that makes 4CT “obvious” in hindsight?
-
-Different mathematicians answer differently. Mathematically, 4CT is accepted as proved. Conceptually, it is a landmark in **proof technology**—a precursor to today’s broader world of formal verification and large case analyses in other fields.
+Philosophical questions remain lively in seminars: Must a proof be surveyable by one human mind? Does a formal proof assistant give *higher* certainty than a 300-page human-refereed paper? Either way, 4CT pioneered modern computer-verified mathematics.
 
 ---
 
 ## 7. Beyond the plane: Heawood’s map color theorem
 
-The plane is special. On a surface of genus $$g\ge 1$$, more colors may be needed. **Heawood’s number**
+The plane is special. On a surface with $$g \ge 1$$ handles (like a donut or a multi-hole pretzel), more colors are required. **Heawood’s number**
 
 $$
 H(g)=\left\lfloor\frac{7+\sqrt{1+48g}}{2}\right\rfloor
 $$
 
-gives (in the classical completed story) the maximum chromatic number for graphs embeddable on that surface. For the torus ($$g=1$$), seven colors are tight: some toroidal maps need seven, and seven always suffice. The case $$g=0$$ formally plugs into the formula to give $$4$$, but historically Heawood’s work gave five for the plane; the sharp planar four required the full 4CT.
+gives the exact maximum chromatic number for graphs embeddable on an orientable surface of genus $$g \ge 1$$ (completed by Ringel and Youngs in 1968). Plugging in $$g = 1$$ (the torus) gives $$H(1) = \lfloor(7+7)/2\rfloor = 7$$—matching our Worked Example 1 showing $$K_7$$ embeds on a torus! Remarkably, plugging $$g = 0$$ into the formula gives $$4$$, yet the planar case resisted far longer than every higher-genus surface.
 
 ![Heawood formula]({{ site.baseurl }}/img/chapter_img/fourcolor_heawood.svg)
 
 *Figure. Color needs grow with genus.*
 
-This contrast is excellent pedagogy: **planarity** is a strong geometric constraint that collapses the color bound to four, while a single handle (the torus) jumps the tight bound to seven. In the Chapter 7 studio you can explore duals, small maps that force three or four colors, and the Heawood count as a formula to test on toy surfaces.
-
-**Disconnected regions.** If a “country” may have multiple connected components that must share one color, the problem changes: one can construct maps needing arbitrarily many colors. Standard 4CT assumes connected regions (or treats components carefully). Always state the model when you color maps.
+**Disconnected regions.** Remember: if a “country” is allowed to split into disconnected pieces that must share one color, no finite color bound works. Standard 4CT strictly assumes connected regions.
 
 ---
 
 ## 8. Why it mattered for mathematics
 
-Beyond settling a famous conjecture, 4CT:
-
-- catalyzed **discharging methods** and structural thinking about planar graphs;
-- forced the community to articulate standards for **machine-checked mathematics**;
-- provided a century-long laboratory for recoloring, reducibility, and unavoidable sets;
-- remains a perfect teaching contrast with **open** analytic and arithmetic problems (RH, Kakeya in high dimensions, Collatz).
-
-It also sits near graph minors, Hadwiger’s conjecture (still open), and broader questions about structure and chromatic number.
+Beyond answering Guthrie’s 1852 puzzle, the Four Color Theorem:
+- launched the **discharging method** as a staple tool across structural graph theory;
+- reshaped mathematical standards around **computer-assisted** and **formally verified** proofs;
+- inspired deep open generalizations like **Hadwiger’s conjecture**; and
+- stands as a vivid contrast to open analytic problems like RH and high-dimensional Kakeya.
 
 ---
 
 ## From videos: what “computer-assisted” actually means
 
-Numberphile and Quanta’s map-coloring films, together with Gonthier’s Notices essay and the Thomas FC page, fix the LO1 slogan:
+Numberphile and Quanta’s map-coloring films, together with Gonthier’s Notices essay and Robin Thomas’s page, highlight four essentials:
 
-1. The proof is **not** “try many maps and hope.” It is a classical **discharging / unavoidable set** argument reducing the infinite planar case to a **finite** list of configurations.  
-2. The machine checks **reducibility** (and related combinatorial bookkeeping) for those configurations—Appel–Haken (1976), streamlined by Robertson–Sanders–Seymour–Thomas (~633 configurations).  
-3. **Gonthier’s Coq formalization (2005)** machine-checks a full mathematical development (largely following RSST), so trust concentrates on the proof assistant’s kernel rather than on ad-hoc C programs alone.  
-4. **Five colors** needs no computer; **Heawood** numbers handle higher genus (torus up to seven).
+1. The proof is **not** “try many maps and hope.” It is a **discharging / unavoidable set** argument reducing all planar maps to a **finite** list of configurations.  
+2. The machine checks **reducibility** for those configurations—Appel–Haken (1976), streamlined by Robertson–Sanders–Seymour–Thomas (633 configurations).  
+3. **Gonthier’s Coq formalization (2005)** machine-checks the full proof inside a trusted logical kernel.  
+4. **Five colors** needs no computer; **Heawood** numbers govern higher-genus surfaces (torus needs up to 7).
 
-**Status (as of 2026):** **proved**. Solved ≠ trivial. Contrast with open problems in this chapter (RH, P vs NP, twins, NS, BSD, high-dimensional Kakeya).
+**Status (as of 2026):** **proved**. Solved ≠ trivial.
 
 ---
 
@@ -202,13 +267,13 @@ Numberphile and Quanta’s map-coloring films, together with Gonthier’s Notice
 
 | Claim | Verdict | Correction |
 |-------|---------|------------|
-| “Four colors are sometimes not enough for planar maps.” | Fail | 4CT says four always suffice (standard hypotheses: connected regions, positive-length borders). |
-| “The computer randomly verified lots of maps.” | Fail | Finite reducibility checks inside a designed discharging proof. |
-| “The five-color theorem needs a computer too.” | Fail | Classical short proofs exist. |
-| “4CT decides coloring for every surface.” | Fail | Higher genus uses Heawood-type numbers; torus needs up to seven. |
-| “Any map with four countries needs four colors.” | Fail | Only if every pair shares a border; many four-country maps need fewer. |
-| “Solved problems are trivial.” | Fail | **Solved ≠ trivial**; 4CT was hard for a century and remains deep as proof culture. |
-| “Formalization made the 1976 proof ‘not count.’” | Fail | Formalization strengthens confidence; the theorem was already accepted, with ongoing improvements in presentation. |
+| “Four colors are sometimes not enough for planar maps.” | Fail | 4CT proves four always suffice (connected regions, positive-length borders). |
+| “The computer randomly verified lots of maps.” | Fail | Exhaustive finite reducibility checks inside a discharging proof. |
+| “The five-color theorem needs a computer too.” | Fail | Short classical hand proofs exist (Heawood, 1890). |
+| “4CT decides coloring for every surface.” | Fail | Higher genus uses Heawood’s formula; a torus requires up to 7 colors. |
+| “Any map with four countries needs four colors.” | Fail | Only if every pair shares a border ($$K_4$$); many 4-country maps need just 2 or 3. |
+| “Solved problems are trivial.” | Fail | **Solved ≠ trivial**; 4CT took a century and transformed proof culture. |
+| “Formalization made the 1976 proof ‘not count.’” | Fail | Formalization deepens trust; the theorem was already accepted and refined. |
 
 ---
 
@@ -269,7 +334,7 @@ Full bibliography: `research/video-research/Four_Color_Theorem/references.md`.
 1. Done: Ch.1 Four Color (this page).  
 2. **Next →** [Ch.7 Map-colors studio]({{ site.baseurl }}/contents/en/chapter07/07_07_Explore_Map_Colors/).
 
-Optional: trust in computer-assisted proof; Hadwiger’s conjecture (still open); “solved combinatorial mountain” vs “open analytic mountain” via Kakeya.
+Optional: trust in computer-assisted proof; Hadwiger’s conjecture (still open); “solved combinatorial mountain” vs “open analytic mountain” via [Kakeya]({{ site.baseurl }}/contents/en/chapter01/01_08_Kakeya_Conjecture/).
 
 ## Video tham khảo
 

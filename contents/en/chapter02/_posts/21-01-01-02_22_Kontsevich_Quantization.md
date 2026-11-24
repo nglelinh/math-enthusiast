@@ -9,14 +9,16 @@ categories:
 - chapter02
 ---
 
-**Maxim Kontsevich** received the **Fields Medal 1998**
+In the early 1990s, theoretical physics kept tossing astonishing prophecies across the fence to mathematics: from 2D quantum gravity, Edward Witten predicted that geometric intersection numbers on moduli spaces of curves must obey the shallow-water Korteweg–de Vries (KdV) equation; from Chern–Simons quantum field theory, physicists suggested that formally ill-defined path integrals encode every finite-type invariant of knots in $$\mathbb{R}^3$$; and from quantum mechanics, a 20-year-old algebraic question still stood open—can *every* classical Poisson phase space be deformation-quantized?
+
+**Maxim Kontsevich** stepped straight into that crossroads armed with a single, razor-sharp instinct: **weighted sums over graphs**, where the weights are integrals over configuration spaces. One by one, he turned all three into rigorous theorems, earning the **Fields Medal 1998**:
 
 > “For his contributions to algebraic geometry, topology, and mathematical physics, including the proof of Witten's conjecture of intersection numbers in moduli spaces of stable curves, construction of the universal Vassiliev invariant of knots, and formal quantization of Poisson manifolds.”
 > — IMU citation, ICM 1998 (as recorded in the [Fields Medal](https://www.mathunion.org/imu-awards/fields-medal) record and standard biographical sources)
 
-Three bullets, three subjects. The temptation, looking back from the 2020s, is to replace that list by later slogans—homological mirror symmetry, motivic integration, wall-crossing. Those programs are real, and several of them are Kontsevich’s. They are **not** the 1998 citation. This essay follows the official triad: **Witten’s conjecture** on $$\overline{\mathcal{M}}_{g,n}$$, the **universal Vassiliev invariant**, and **deformation quantization** of Poisson manifolds. Homological mirror symmetry appears only as a related 1994 ICM proposal, not as a claim that mirror symmetry was “solved.”
+Because Kontsevich (born 1964, permanent professor at IHÉS) later launched monumental programs such as **homological mirror symmetry** (HMS), motivic integration, and wall-crossing, it is tempting to rewrite the 1998 list in hindsight. This essay stays faithful to the official triad—**Witten’s conjecture** on $$\overline{\mathcal{M}}_{g,n}$$, the **universal Vassiliev invariant**, and **formal deformation quantization** of Poisson manifolds—while placing homological mirror symmetry in its proper seat: a landmark 1994 ICM proposal, not the third bullet of the 1998 Fields Medal.
 
-Kontsevich (born 1964) is a permanent professor at the Institut des Hautes Études Scientifiques and works across algebraic geometry, topology, and mathematical physics. The medal is a portrait of that crossing in the 1990s, not a lifetime dump.
+**Lesson roadmap:** Background Knowledge Map (Poisson manifolds, moduli spaces $$\overline{\mathcal{M}}_{g,n}$$, Vassiliev knot invariants) → Hand-verifiable worked examples (Moyal star product on $$q \star p$$ and $$q^2 \star p^2$$, plus the first intersection numbers on $$\overline{\mathcal{M}}_{g,n}$$) → Witten’s conjecture & the Kontsevich integral → Deep-Dive Explanation (Read Slowly): Formality theorem and the upper-half-plane graph formula → Homological mirror symmetry (1994) & keeping the 1998 record clean.
 
 ---
 
@@ -24,12 +26,12 @@ Kontsevich (born 1964) is a permanent professor at the Institut des Hautes Étud
 
 After this lecture you should be able to:
 
-- Recite the 1998 citation as **three** results, and refuse to replace the third bullet by homological mirror symmetry.
-- State Witten’s conjecture at slogan level: a generating function of $$\psi$$-class intersections on $$\overline{\mathcal{M}}_{g,n}$$ is a tau-function of the KdV hierarchy; Kontsevich proved it by ribbon graphs / matrix models.
-- Describe the Kontsevich integral as a **universal finite-type (Vassiliev) invariant**, with credit to Vassiliev and Bar-Natan for the surrounding theory.
-- Explain deformation quantization: a star product deforming the pointwise product so that the first commutator recovers a Poisson bracket; Kontsevich’s formality theorem / graph formula produces such a product on any Poisson manifold.
-- Mention homological mirror symmetry as a 1994 program, not as a completed classification and not as the Fields third bullet.
-- Place the work on the [mathematical physics]({{ site.baseurl }}/contents/en/chapter06/06_11_Mathematical_Physics/) map without treating physics as a substitute for proofs.
+- Recite the 1998 citation as **three** distinct theorems, refusing to swap the third bullet for homological mirror symmetry.
+- Compute the Moyal star product by hand up to order $$\hbar^2$$ on $$(q,p)$$ to see associativity and the first-order Poisson bracket in action.
+- State Witten’s conjecture (generating function of $$\psi$$-class intersections on $$\overline{\mathcal{M}}_{g,n}$$ is a KdV tau-function) and explain how Kontsevich proved it via Strebel ribbon graphs and a matrix Airy integral.
+- Describe the Kontsevich integral as the **universal finite-type (Vassiliev) knot invariant**, crediting Vassiliev and Bar-Natan for the combinatorial framework.
+- Explain why general Poisson manifolds are far harder than symplectic manifolds (no Darboux coordinates), and how Kontsevich’s **formality theorem** and graph formula solve the problem formally.
+- Place these results on the [mathematical physics]({{ site.baseurl }}/contents/en/chapter06/06_11_Mathematical_Physics/) map without confusing physical heuristics for proofs.
 
 **Prerequisites.** The idea of a moduli space of curves; Poisson brackets on $$\mathbb{R}^{2n}$$ or on a symplectic manifold; the Jones polynomial as “a knot invariant that is not just the fundamental group.” Complex analysis and a first algebraic geometry course help; quantum field theory is optional atmosphere.
 
@@ -37,87 +39,102 @@ After this lecture you should be able to:
 
 ---
 
-## 1. Why the 1998 list is the right outline
+## Background Knowledge Map: What Do Deformation Quantization, Moduli Spaces, and Knot Theory Study?
 
-ICM prize lectures often outlive their citations. Kontsevich’s later influence is enormous: homological mirror symmetry became a field; motivic integration (a 1995 Orsay lecture, then Denef–Loeser) became a tool in singularity theory; stable maps and Gromov–Witten theory changed enumerative geometry. A course that dumped all of that into “Fields 1998” would be historically false.
+### 1. Deformation quantization of Poisson manifolds
+In classical mechanics, observables are smooth functions $$f(q,p), g(q,p)$$ on phase space multiplied point-by-point ($$fg = gf$$), equipped with an antisymmetric **Poisson bracket** $$\{f, g\}$$ obeying the Jacobi identity and Leibniz rule (a **Poisson manifold**). In quantum mechanics, position and momentum no longer commute: $$[\hat{q}, \hat{p}] = i\hbar$$. **Deformation quantization** asks an algebraic question: *can we deform pointwise multiplication into an **associative** star product $$f \star g = fg + \hbar B_1(f,g) + \hbar^2 B_2(f,g) + \cdots$$ on $$C^\infty(M)[\![\hbar]\!]$$ such that $$f\star g - g\star f = i\hbar\{f,g\} + O(\hbar^2)$$?*
 
-The official sentence is already ambitious enough. It says: one person proved a conjecture of Witten about the tautological intersection theory of the moduli of stable curves; constructed a universal finite-type knot invariant; and quantized every Poisson manifold at the formal level. Algebraic geometry, topology, and mathematical physics are not three hobbies. They are three places where the same graph-and-integral instinct produced theorems.
+### 2. Moduli spaces $$\overline{\mathcal{M}}_{g,n}$$ and intersection theory
+The set of all complex algebraic curves (Riemann surfaces) of genus $$g$$ with $$n$$ marked points forms the **moduli space** $$\mathcal{M}_{g,n}$$; adding degenerate nodal curves yields the compact Deligne–Mumford space $$\overline{\mathcal{M}}_{g,n}$$ of complex dimension $$3g - 3 + n$$. Intersection theory asks what numerical laws govern integrals of natural tautological classes (the **$$\psi$$-classes**) over $$\overline{\mathcal{M}}_{g,n}$$.
 
----
-
-## 2. Witten’s conjecture: intersections on $$\overline{\mathcal{M}}_{g,n}$$
-
-Let $$\overline{\mathcal{M}}_{g,n}$$ be the Deligne–Mumford compactification of the moduli space of genus-$$g$$ curves with $$n$$ marked points. On this space live tautological line bundles $$\mathbb{L}_i$$ whose fibers are cotangent lines at the marked points; their first Chern classes are the **$$\psi$$-classes**. Intersection numbers
-
-$$
-\langle\tau_{d_1}\cdots\tau_{d_n}\rangle_g=\int_{\overline{\mathcal{M}}_{g,n}}\psi_1^{d_1}\cdots\psi_n^{d_n}
-$$
-
-are the simplest numerical invariants of the tautological ring (with the usual vanishing unless the degrees add to the dimension $$3g-3+n$$).
-
-**Witten’s conjecture** (early 1990s) asserted that the generating function of these numbers is a tau-function of the **Korteweg–de Vries (KdV)** hierarchy—equivalently, that the numbers satisfy a system of partial differential equations whose first member is related to the Virasoro constraints / KdV. The conjecture came from two-dimensional quantum gravity: two matrix-model descriptions of random surfaces should agree, one combinatorial and one geometric.
-
-**Kontsevich’s proof** (*Intersection theory on the moduli space of curves and the matrix Airy function*, *Comm. Math. Phys.* 147, 1992) identified the intersection theory with a combinatorial expansion over **ribbon graphs** (via Strebel differentials: a metric that decomposes the curve into fat graphs). The generating function becomes a matrix Airy integral, which is already known to satisfy KdV. Geometry is thereby reduced to a matrix model whose integrable hierarchy is classical.
-
-**Slogan.** Witten guessed that the tautological intersection numbers of moduli of curves know KdV; Kontsevich exhibited a ribbon-graph dictionary that makes the guess a computation.
-
-This is the algebraic-geometry bullet. It is not a classification of all curves; it is a theorem about a specific family of numbers on $$\overline{\mathcal{M}}_{g,n}$$.
+### 3. Finite-type (Vassiliev) knot invariants
+A **knot** is a closed loop in $$\mathbb{R}^3$$. **Vassiliev** organized knot invariants like higher-order derivatives: every time you flip an over-crossing to an under-crossing, you take the difference; an invariant that vanishes after $$m + 1$$ crossing differences has **finite type $$\le m$$**. The key question: *is there one universal invariant from which every finite-type invariant factors?*
 
 ---
 
-## 3. Universal Vassiliev invariants and configuration spaces
+## 1. Hand-Verifiable Worked Examples: The Moyal Star Product and First Intersection Numbers
 
-**Vassiliev** (early 1990s) introduced finite-type invariants of knots: invariants that vanish on singular knots with enough double points, equivalently, invariants whose dependence on crossing changes is polynomial of bounded degree. **Bar-Natan** organized the combinatorial side: weight systems, chord diagrams, and the relationship to Lie algebras and to the Jones polynomial’s coefficients.
+### Example 1: Computing the Moyal star product on $$\mathbb{R}^2$$ by hand
+On the classical phase plane $$(q,p)$$ with the constant Poisson bracket $$\{f,g\} = f_q g_p - f_p g_q$$ (so $$\{q,p\} = 1$$), the **Moyal star product** is:
 
-What was missing was a **universal** analytic machine that produces all finite-type invariants from a single construction. Kontsevich supplied one: the **Kontsevich integral**, built from iterated integrals over configuration spaces of points on the knot (and, in the perturbative Chern–Simons picture, of points in the ambient $$\mathbb{R}^3$$). The integrands are the same graph complexes that appear in Feynman expansions of Chern–Simons theory—now as convergent (after framing and regularization) differential forms.
+$$
+(f \star g)(q,p) = fg + \frac{i\hbar}{2}(f_q g_p - f_p g_q) + \frac{1}{2!}\left(\frac{i\hbar}{2}\right)^2(f_{qq}g_{pp} - 2f_{qp}g_{qp} + f_{pp}g_{qq}) + \cdots
+$$
 
-The output is a knot invariant taking values in a completed diagram algebra. Every finite-type invariant factors through it; that is the meaning of **universal**. Gauss’s classical linking integral is the simplest ancestor.
+Plug in two concrete pairs:
+1. **$$f = q,\; g = p$$:** only first derivatives survive ($$f_q = 1, g_p = 1$$):
+   $$
+   q \star p = qp + \frac{i\hbar}{2}, \qquad p \star q = pq - \frac{i\hbar}{2} \;\Longrightarrow\; q \star p - p \star q = i\hbar = i\hbar\{q, p\}!
+   $$
+2. **$$f = q^2,\; g = p^2$$:** here $$f_q = 2q, f_{qq} = 2$$ and $$g_p = 2p, g_{pp} = 2$$, activating the $$\hbar^2$$ term:
+   $$
+   q^2 \star p^2 = q^2 p^2 + 2i\hbar qp - \frac{\hbar^2}{2}.
+   $$
+   Check associativity on $$(q \star q) \star p = q^2 \star p = q^2 p + i\hbar q$$ versus $$q \star (q \star p) = q \star (qp + \tfrac{i\hbar}{2}) = q^2 p + \tfrac{i\hbar}{2}q + \tfrac{i\hbar}{2}q = q^2 p + i\hbar q$$—exact match!
 
-**Credit.** Vassiliev posed the finite-type filtration; Bar-Natan and others made the combinatorics usable; Witten suggested a Chern–Simons path-integral source of invariants; Kontsevich gave a mathematical construction that realizes the universal object. The Fields bullet is that construction, not a claim that knot theory began in 1993.
+Moyal’s formula works effortlessly *only* because the Poisson bivector $$\pi$$ has constant coefficients! On a general Poisson manifold where $$\pi(x)$$ varies with $$x$$ (such as $$\{x,y\} = xy$$), derivatives of $$\pi$$ break Moyal’s associativity right at order $$\hbar^2$$!
+
+### Example 2: The first two intersection numbers of Witten’s conjecture
+The tautological intersection numbers $$\langle\tau_{d_1}\cdots\tau_{d_n}\rangle_g = \int_{\overline{\mathcal{M}}_{g,n}} \psi_1^{d_1}\cdots\psi_n^{d_n}$$ vanish unless $$\sum d_i = 3g - 3 + n$$:
+- For $$g = 0, n = 3$$: $$\dim\overline{\mathcal{M}}_{0,3} = 0$$ (a single point), so $$\langle\tau_0^3\rangle_0 = 1$$.
+- For $$g = 1, n = 1$$: $$\dim\overline{\mathcal{M}}_{1,1} = 1$$, and the orbifold integral gives $$\langle\tau_1\rangle_1 = \frac{1}{24}$$.
+
+**Witten’s conjecture** asserted that the generating function of *all* these numbers is a tau-function of the **KdV hierarchy**—meaning the KdV / Virasoro recursion uniquely computes every single number in every genus starting solely from $$\langle\tau_0^3\rangle_0 = 1$$!
 
 ---
 
-## 4. Formal quantization of Poisson manifolds
+## 2. The First Two Bullets of Fields 1998: Witten’s Conjecture and the Kontsevich Integral
 
-A **Poisson manifold** $$(M,\pi)$$ carries a bivector $$\pi$$ such that $$\{f,g\}=\langle\pi,df\wedge dg\rangle$$ is a Lie bracket on $$C^\infty(M)$$ satisfying the Leibniz rule. Symplectic manifolds are the nondegenerate case; Lie–Poisson structures on duals of Lie algebras are the linear case.
+**1. Proving Witten’s conjecture (1992).** In *Intersection theory on the moduli space of curves and the matrix Airy function* (*Comm. Math. Phys.* 147), Kontsevich used **Strebel differentials** to cut each marked Riemann surface canonically into a **ribbon graph** ("fat graph"). This cell decomposition converts geometric integrals of $$\psi$$-classes on $$\overline{\mathcal{M}}_{g,n}$$ into a **sum over trivalent ribbon graphs**—which, by Feynman rules, is precisely the asymptotic expansion of a **matrix Airy integral** over $$N\times N$$ Hermitian matrices! Since the matrix Airy integral was already known to satisfy KdV, Witten’s conjecture became a theorem.
 
-**Deformation quantization** asks for a formal star product—a bilinear product on $$C^\infty(M)[\![\hbar]\!]$$—
-
-$$
-f\star g=fg+\hbar B_1(f,g)+\hbar^2 B_2(f,g)+\cdots,
-$$
-
-associative, reducing to the pointwise product at $$\hbar=0$$, and satisfying
-
-$$
-f\star g-g\star f=i\hbar\{f,g\}+O(\hbar^2).
-$$
-
-Existence on symplectic manifolds was known (De Wilde–Lecomte, Fedosov). The Poisson case was open: there is no Darboux chart in which $$\pi$$ is constant, so a local formula is not enough unless it is **natural** in $$\pi$$.
-
-Kontsevich’s **formality theorem** says that the differential graded Lie algebra of Hochschild cochains of $$C^\infty(M)$$ is formal: it is quasi-isomorphic to its cohomology, the Lie algebra of polyvector fields with the Schouten–Nijenhuis bracket. Formality implies that every Poisson structure (a Maurer–Cartan element in polyvector fields) lifts to a star product. The proof supplies an **explicit graph formula**: a sum over certain admissible graphs, each weighted by a configuration-space integral on the upper half-plane, of bidifferential operators built from $$\pi$$.
-
-The paper circulated as a 1997 preprint (arXiv:q-alg/9709040) and appeared in *Letters in Mathematical Physics* 66 (2003). “Formal” means in the formal power-series parameter $$\hbar$$; it is not a claim about analytic convergence of the series, nor about a Hilbert-space quantization of every Poisson manifold.
-
-**Slogan.** Every Poisson bracket is the first-order shadow of a star product; Kontsevich wrote the product as a Feynman expansion whose amplitudes are numbers from configuration spaces.
+**2. The universal Vassiliev invariant (1993).** **Vassiliev** introduced the finite-type filtration and **Bar-Natan** systematized the combinatorics of **chord diagrams** and **weight systems** (linking Lie algebras like $$\mathfrak{sl}_2$$ to the Jones polynomial). Kontsevich supplied the missing **universal** analytic invariant: embedding a knot $$K \subset \mathbb{C} \times \mathbb{R}$$ and taking **iterated integrals** of $$\frac{dz_j - dz'_j}{z_j - z'_j}$$ over configuration spaces of horizontal slice points. At degree $$1$$ it recovers Gauss’s classical linking integral; at all degrees it realizes the perturbative Chern–Simons expansion suggested by Witten, and every finite-type invariant factors through it.
 
 ---
 
-## 5. Related programs that are not the third bullet
+## 3. Deep-Dive Explanation: The Formality Theorem and Poisson Quantization (Read Slowly)
 
-**Homological mirror symmetry (HMS).** In his 1994 ICM address (Zürich; arXiv:alg-geom/9411018), Kontsevich proposed that mirror symmetry should be a categorical equivalence: the derived category of coherent sheaves on a Calabi–Yau $$X$$ equivalent to the Fukaya category of a mirror $$Y$$ (A-model / B-model swap). That proposal organized a generation of symplectic and algebraic geometry; many cases are now theorems (due to many people). It is **not** the 1998 citation’s third item, and saying Kontsevich “solved mirror symmetry” is false. The course already treats HMS as an open-ended program in [Mirror Symmetry]({{ site.baseurl }}/contents/en/chapter06/06_13_Mirror_Symmetry/).
+Why did deformation quantization of general **Poisson manifolds** remain open for 20 years after De Wilde–Lecomte (1983) and Fedosov (1994) solved the symplectic case? Here is Kontsevich’s 4-step breakthrough (1997 preprint arXiv:q-alg/9709040; *Lett. Math. Phys.* 2003):
 
-**Motivic integration.** Kontsevich sketched it in a 1995 Orsay lecture; **Denef–Loeser** developed the published theory. Adjacent and later—not a Fields bullet.
+#### Step 1: Why symplectic gluing fails on Poisson manifolds
+On a symplectic manifold, Darboux’s theorem provides local coordinates where $$\pi$$ is constant, so one can glue local Moyal star products together. On a general Poisson manifold (like $$\{x, y\} = x^2 + y^2$$, where $$\pi$$ vanishes at the origin), no Darboux chart exists—any local formula must be **canonical** for arbitrary varying $$\pi$$.
 
-**Stable maps.** Kontsevich’s compactification of maps from curves is central to Gromov–Witten theory. Taubes’s 1998 ICM report discusses it; the official citation does not make it the third prize item.
+#### Step 2: Recast both sides as Maurer–Cartan equations in two DGLAs
+Kontsevich embedded both "Poisson structures" and "associative star products" as solutions of the **Maurer–Cartan equation** $$d\gamma + \frac{1}{2}[\gamma,\gamma] = 0$$ in two differential graded Lie algebras:
+- **Geometric side ($$T_{\mathrm{poly}}$$):** polyvector fields with the Schouten–Nijenhuis bracket and $$d = 0$$; Maurer–Cartan elements are Poisson bivectors $$[\pi, \pi] = 0$$.
+- **Algebraic side ($$D_{\mathrm{poly}}$$):** Hochschild cochains (multidifferential operators on $$C^\infty(M)$$); Maurer–Cartan elements are **associative star products**!
+
+By the Hochschild–Kostant–Rosenberg (HKR) theorem, $$T_{\mathrm{poly}}$$ is the cohomology of $$D_{\mathrm{poly}}$$, but the linear HKR map fails to preserve the Lie bracket!
+
+#### Step 3: The Formality Theorem ($$L_\infty$$ quasi-isomorphism)
+Kontsevich proved that although the linear HKR map misses the bracket, one can add higher nonlinear maps $$U_1, U_2, U_3, \ldots$$ to build an **$$L_\infty$$ quasi-isomorphism** from $$T_{\mathrm{poly}}$$ to $$D_{\mathrm{poly}}$$! Immediately, every Maurer–Cartan element on the geometric side (every Poisson structure $$\pi$$) maps to a Maurer–Cartan element on the algebraic side (an **associative star product**), classifying star products up to gauge equivalence in 1–1 correspondence with formal Poisson structures!
+
+#### Step 4: The explicit upper-half-plane graph formula
+On $$\mathbb{R}^d$$, Kontsevich wrote down the star product explicitly:
+
+$$
+f \star g = fg + \sum_{n=1}^{\infty} \frac{\hbar^n}{n!} \sum_{\Gamma \in G_n} w_\Gamma \, B_{\Gamma, \pi}(f, g).
+$$
+
+Each admissible directed graph $$\Gamma$$ has $$n$$ interior vertices (carrying $$\pi$$) and $$2$$ boundary vertices (carrying $$f, g$$), defining a bidifferential operator $$B_{\Gamma,\pi}(f,g)$$. Its numerical weight $$w_\Gamma$$ is an explicit integral of hyperbolic angle forms over the configuration space of $$n$$ points in the **Poincaré upper half-plane** $$\mathbb{H}$$! Stokes’s theorem on the compactified configuration-space boundary proves associativity to every order in $$\hbar$$!
+
+Summary of the graph-integral thread uniting all three 1998 theorems:
+
+$$
+\text{Ribbon graphs} \leftrightarrow \text{Witten–KdV}, \qquad
+\text{Chord diagrams} \leftrightarrow \text{Universal Vassiliev}, \qquad
+\text{Graphs on } \mathbb{H} \leftrightarrow \text{Poisson star product}.
+$$
+
+*(Note: "formal" means in formal power series $$\mathbb{R}[\![\hbar]\!]$$; analytic convergence in $$\hbar$$ and Hilbert-space quantization are separate questions.)*
 
 ---
 
-## 6. Why a Fields Medal
+## 4. Related Programs Not in the 1998 Triad, and Why a Fields Medal
 
-The 1998 medal sits among those that reward **dictionaries**: ribbon graphs $$\leftrightarrow$$ tautological intersections; Feynman graphs $$\leftrightarrow$$ knot invariants; admissible graphs $$\leftrightarrow$$ star products. Each dictionary turns a physics-inspired generating function into a proof.
+- **Homological mirror symmetry (HMS):** Proposed in Kontsevich’s famous 1994 ICM address (arXiv:alg-geom/9411018) as an equivalence between the derived category of coherent sheaves on a Calabi–Yau $$X$$ and the Fukaya category of its mirror $$Y$$. Many landmark cases are now theorems by many authors, but it remains an ongoing program (see [Mirror Symmetry]({{ site.baseurl }}/contents/en/chapter06/06_13_Mirror_Symmetry/))—**not** the third bullet of Fields 1998.
+- **Motivic integration** (1995 Orsay lecture, developed by **Denef–Loeser**) and **stable maps** (Gromov–Witten compactification) are major adjacent achievements outside the official 1998 triad.
 
-For this course, Kontsevich is the portrait of mathematical physics as **theorem supply**, not as metaphor. The same graph-integral instinct appears three times, in three IMU clauses. Later programs (HMS, motives) show that the instinct did not stop in 1998; they do not rewrite the citation.
+**Why a Fields Medal:** Kontsevich turned physical intuition into three rigorous graph-integral dictionaries across algebraic geometry, topology, and mathematical physics—demonstrating that mathematical physics can supply complete algebraic structures and proofs, not merely metaphors.
 
 ---
 

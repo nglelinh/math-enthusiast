@@ -9,11 +9,13 @@ categories:
 - chapter01
 ---
 
-The **Riemann Hypothesis (RH)** is one of the Clay Millennium Prize Problems and, for many mathematicians, the most important unsolved problem in pure mathematics. It asks a precise question about the zeros of a single complex function—the **Riemann zeta function**—and, through that function, about how prime numbers are distributed among the integers.
+In the autumn of 1859, the young German mathematician Bernhard Riemann submitted a memoir just eight pages long to the Berlin Academy of Sciences. He could hardly have imagined that those eight pages would become the most celebrated unsolved mystery in pure mathematics. Looking at the prime numbers—the discrete "atoms" of arithmetic scattered seemingly at random along the number line—Riemann heard a symphony. He discovered that the rhythm of the primes is governed by the zeros of a single complex function: the **Riemann zeta function**, $$\zeta(s)$$.
 
-This is the **Section 1 flagship** reading for the Math Enthusiast seminar: not a research paper, but a careful map of **what RH says**, **why primes care**, **what evidence we have**, and **what mathematics grew around the question**.
+More than a century and a half later, the **Riemann Hypothesis (RH)** stands as the crown jewel of the Clay Millennium Prize Problems. It is far more than a million-dollar puzzle about a complex function; it is the decisive question about how much deep order lives inside the integers.
 
-**Path through the essay:** primes and counting → Euler product → zeta and continuation → non-trivial zeros → RH → prime number theorem and error terms → why it is hard → partial results and analogues → open ends.
+This is the **Section 1 flagship** reading for the Math Enthusiast seminar: a careful, intuition-first tour of **what RH says**, **why zeros of a complex function control the primes**, **what evidence and partial theorems exist**, and **what mathematics blossomed around the question**.
+
+**Path through the essay:** Background Knowledge Map → primes and numerical counting → Euler product → analytic continuation (via geometric series & $$\eta(s)$$) → non-trivial zeros → RH → explicit formulas & wave harmonics → why it is hard → partial results & analogues.
 
 ---
 
@@ -28,38 +30,53 @@ After this lecture you should be able to:
 - Name at least two kinds of **partial progress** (numerical checks; zero-free regions / density results; function-field analogues).
 - Avoid common confusions (RH is not “a formula for the $$n$$th prime”; checking many zeros is not a proof).
 
-**Prerequisites.** Complex numbers as points in the plane; infinite series and products as formal objects; the idea that primes become rarer but never stop. No complex analysis course is required—the analytic continuation story is conceptual.
+**Prerequisites.** Complex numbers as points in the plane; infinite series and products as formal objects; the idea that primes become rarer but never stop. No complex analysis course is required—analytic continuation is developed through familiar undergraduate examples.
 
-**Seminar link.** Supports course outcomes **LO1** (explain a major open problem) and parts of **LO2** (different notions of size/regularity: here, how “regular” prime gaps can be). Natural pairings: Twin Primes; BSD (another $$L$$-function story); Explorations on prime predictability.
+**Course connections.** This essay lays the foundation for thinking about "size" and "regularity" across the course. Natural pairings: [Twin Primes]({{ site.baseurl }}/contents/en/chapter01/01_06_Twin_Prime_Conjecture/), [BSD]({{ site.baseurl }}/contents/en/chapter01/01_04_Birch_Swinnerton_Dyer/), and [P vs NP]({{ site.baseurl }}/contents/en/chapter01/01_03_P_vs_NP/).
+
+---
+
+## Background Knowledge Map: Complex Analysis and Analytic Number Theory
+
+A university graduate with real calculus, linear algebra, and probability naturally asks: *if prime numbers are completely discrete positive integers, why on earth do we bring complex numbers and calculus into the room?* The answer sits at the crossroads of three pillars:
+
+### 1. Complex Analysis (Functions $$f: \mathbb{C} \to \mathbb{C}$$)
+In undergraduate calculus you studied differentiable real functions $$f: \mathbb{R} \to \mathbb{R}$$. **Complex analysis** studies functions of a complex variable $$s = \sigma + it$$. Complex differentiability (**holomorphicity**) is dramatically stricter than real differentiability: a function differentiable once in $$\mathbb{C}$$ is automatically infinitely differentiable and equal to its Taylor series! Because of this extraordinary **rigidity**, knowing a holomorphic function on even a tiny patch forces a **unique** extension to the rest of the complex plane—this is **analytic continuation**. Beyond pure math, complex analysis powers Laplace/Fourier transforms in signal processing, 2D aerodynamics, and quantum mechanics.
+
+### 2. Analytic Number Theory
+This is the art of using **continuous tools** (infinite series, integrals, complex functions, asymptotic estimates) to answer **discrete questions** about integers: how many primes lie below $$x$$? How small can prime gaps get? Can every even number $$>2$$ be written as a sum of two primes (Goldbach)?
+
+### 3. The Spectral / Fourier Mindset
+Discrete primes are jagged and hard to manipulate with elementary algebra alone. Packaging all primes into a smooth complex function like $$\zeta(s)$$ turns a discrete counting problem into a **spectral / wave-analysis problem**—just as an electrical engineer uses a Fourier transform to decompose a noisy signal into clean frequencies.
 
 ---
 
 ## 1. What problem about primes is RH really about?
 
-Let $$\pi(x)$$ be the number of primes less than or equal to $$x$$. The primes thin out:
+Let $$\pi(x)$$ be the number of primes less than or equal to $$x$$. The primes thin out—$$2, 3, 5, 7, 11, 13, 17, \ldots$$—yet Euclid proved over two millennia ago that they never run out. The modern quantitative question is: **how fast does $$\pi(x)$$ grow?**
 
-$$
-2,3,5,7,11,13,17,\ldots
-$$
-
-but Euclid already knew there are infinitely many. The modern quantitative question is: **how does $$\pi(x)$$ grow?**
-
-Gauss and others guessed that $$\pi(x)$$ is about
+At age 15, Carl Friedrich Gauss pored over prime tables and noticed an uncanny pattern: near a large number $$t$$, the average density of primes is roughly $$1/\log t$$ (natural logarithm). Integrating that density from $$2$$ to $$x$$ gives the **logarithmic integral**:
 
 $$
 \operatorname{li}(x) = \int_2^x \frac{dt}{\log t}
 $$
 
-(or the simpler cousin $$x/\log x$$). The **prime number theorem (PNT)**, proved independently by Hadamard and de la Vallée Poussin in 1896, makes the main term rigorous:
+(alongside the rougher estimate $$x/\log x$$). Let us check concrete numbers to feel how astonishingly accurate Gauss's guess is:
+
+- At $$x = 100$$: exact count $$\pi(100) = 25$$; $$100/\log 100 \approx 21.7$$; $$\operatorname{li}(100) \approx 30.1$$ (off by about 5).
+- At $$x = 10^6$$ (one million): $$\pi(10^6) = 78\,498$$; $$10^6/\log(10^6) \approx 72\,382$$ (off by over 6,000), while $$\operatorname{li}(10^6) \approx 78\,628$$ — **off by just 130**, less than $$0.17\%$$!
+- At $$x = 10^9$$ (one billion): $$\pi(10^9) = 50\,847\,534$$, while $$\operatorname{li}(10^9) \approx 50\,849\,235$$ — an error of only $$1\,701$$ out of more than 50 million primes!
+
+The **Prime Number Theorem (PNT)**, proved independently by Hadamard and de la Vallée Poussin in 1896, confirms the main term:
 
 $$
 \pi(x) \sim \operatorname{li}(x) \qquad (x\to\infty).
 $$
 
-That is already a triumph. RH is about the **next level of precision**: once you subtract the main term, **how large can the remaining error be?** The zeros of zeta control that error. In slogans:
+RH lives at the **next level of precision**: once you subtract the smooth main term $$\operatorname{li}(x)$$, **how big can the error $$\pi(x) - \operatorname{li}(x)$$ get?** Think of flipping a fair coin $$N$$ times in introductory probability: the number of heads drifts away from $$N/2$$ by roughly $$\sqrt{N}$$. Remarkably, RH asserts that prime counting behaves just as cleanly—the error stays on the scale of $$\sqrt{x}$$ (up to a $$\log x$$ factor)! In slogans:
 
-- PNT says primes have a predictable average density.
-- RH says that density is **as regular as a certain analytic picture allows**—no “hidden irregularities” from zeros off the critical line.
+- **PNT:** primes have a predictable average density.
+- **RH:** that density is **as regular as analysis permits**, with no "hidden surges" caused by zeros off the critical line.
 
 ![Prime counting main term vs error (schematic)]({{ site.baseurl }}/img/chapter_img/riemann_pnt_error.svg)
 
@@ -93,26 +110,40 @@ $$
 \zeta(s) = \sum_{n=1}^{\infty} n^{-s} = 1 + 2^{-s} + 3^{-s} + 4^{-s} + \cdots.
 $$
 
-The series converges absolutely in that half-plane. Euler’s insight is that the same function factors over primes:
+The series converges absolutely in that half-plane (just like the $$p$$-series test in first-year calculus). In the 18th century, Leonhard Euler uncovered an algebraic miracle: the very same function factors as an infinite product over **primes alone**:
 
 $$
 \zeta(s) = \prod_{p\ \text{prime}} \bigl(1 - p^{-s}\bigr)^{-1}, \qquad \operatorname{Re}(s)>1.
 $$
 
-Every integer has a unique prime factorization; expanding the product recovers the series. So **$$\zeta(s)$$ is a dictionary between “all integers” and “all primes.”**
+**Worked Example 1 — Expanding Euler's product by hand:**
+Recall the geometric series $$\frac{1}{1-r} = 1 + r + r^2 + r^3 + \cdots$$ with $$r = p^{-s}$$:
 
-### Bridge box — why primes talk to zeros (read slowly)
+$$
+\prod_{p} \bigl(1 - p^{-s}\bigr)^{-1} = \bigl(1 + 2^{-s} + 4^{-s} + 8^{-s} + \cdots\bigr)\bigl(1 + 3^{-s} + 9^{-s} + \cdots\bigr)\bigl(1 + 5^{-s} + 25^{-s} + \cdots\bigr)\cdots
+$$
 
-Students often meet two slogans that feel disconnected: (A) “RH is about zeros of zeta,” and (B) “RH is about primes.” Here is the **one-way chain** that links them—no full explicit formula required.
+When you multiply these parentheses out, how can you produce the term $$12^{-s}$$? Since $$12 = 2^2 \cdot 3$$ has a **unique prime factorization**, there is **exactly one way**: pick $$4^{-s} = (2^2)^{-s}$$ from the first factor, $$3^{-s}$$ from the second factor, and $$1$$ from every remaining factor! By the Fundamental Theorem of Arithmetic, every $$n^{-s}$$ appears once and only once. Thus **$$\zeta(s)$$ is a golden bridge between "all integers" and "all primes."**
 
-1. **Primes build zeta (Euler product).** For $$\operatorname{Re}(s)>1$$, unique factorization turns the series over integers into a product over primes. If you change the set of primes, you change $$\zeta$$.  
-2. **Zeta continues beyond the product region.** Analytic continuation + functional equation define $$\zeta(s)$$ on the whole plane (pole at $$s=1$$). Non-trivial zeros live in the critical strip even though the Euler product does not converge there.  
-3. **Explicit formulas (slogan).** Weighted sums over primes (or prime powers) can be rewritten using sums over zeros of $$\zeta$$. Each zero contributes an oscillatory term; the real part $$\beta=\operatorname{Re}(\rho)$$ controls how large those oscillations can be.  
-4. **Error terms in prime counting.** The Prime Number Theorem is the main term for $$\pi(x)$$ (or $$\psi(x)$$). The **size of the remainder** is governed by how far zeros sit from the line $$\operatorname{Re}(s)=1/2$$. RH is the strongest uniform claim that all non-trivial zeros have $$\beta=1/2$$, hence the cleanest classical bound on that error (up to logarithmic factors in standard formulations).
+### Deep-Dive Explanation: Why Primes Talk to Zeros (Read Slowly)
 
-**What RH is *not*.** It is not a formula that “lists the next prime.” It is a **spectral constraint** on zeta that, through the dictionary above, becomes a **constraint on how irregular prime counting can be**.
+Students often encounter two slogans that feel worlds apart: (A) "RH is about zeros of zeta," and (B) "RH is about primes." Here is the four-step chain linking them—no full explicit formula required:
 
-**Micro-check.** For $$\operatorname{Re}(s)>1$$ the product converges and $$\zeta(s)\neq 0$$ there—so the mystery zeros are *not* read off by plugging primes into the product in the critical strip. Continuation first; zeros second; primes again via explicit formulas.
+#### Step 1: Primes build zeta (Euler product)
+For $$\operatorname{Re}(s)>1$$, unique prime factorization turns the integer sum into a prime product. Change the primes, and you change $$\zeta(s)$$.
+
+#### Step 2: Zeta extends beyond the product region (Analytic continuation)
+Analytic continuation and the functional equation define $$\zeta(s)$$ across the entire complex plane (with one simple pole at $$s=1$$). The non-trivial zeros live inside the critical strip $$0 < \operatorname{Re}(s) < 1$$, where the Euler product no longer converges.
+
+#### Step 3: Explicit formulas turn zeros into prime-counting waves
+Weighted sums over primes (or prime powers) can be rewritten as a main term plus a sum of oscillatory waves—one wave for each non-trivial zero $$\rho = \beta + i\gamma$$. The real part $$\beta = \operatorname{Re}(\rho)$$ sets the **amplitude** $$x^\beta$$ of that wave!
+
+#### Step 4: Pinning every zero to $$\beta = 1/2$$ minimizes the error
+The Prime Number Theorem gives the main term $$\operatorname{li}(x)$$. How far zeros stray from $$\operatorname{Re}(s)=1/2$$ controls the size of the remainder. RH is the sharpest possible regularity statement: all non-trivial zeros sit at $$\beta = 1/2$$, locking the error to $$O(x^{1/2}\log x)$$.
+
+**What RH is *not*.** It is not a formula that "lists the next prime." It is a **spectral constraint** on zeta that becomes a **regularity constraint** on prime counting.
+
+**Quick check.** For $$\operatorname{Re}(s)>1$$, the Euler product converges and $$\zeta(s)\neq 0$$—so you cannot find critical-strip zeros by plugging primes directly into the product. The order is always: continue first, locate zeros second, return to primes via explicit formulas.
 
 ![Euler product]({{ site.baseurl }}/img/chapter_img/riemann_euler_product.svg)
 
@@ -122,33 +153,47 @@ Students often meet two slogans that feel disconnected: (A) “RH is about zeros
 
 *Figure. The Dirichlet series for $$\zeta(s)$$ (source: Quanta); Euler’s product rewrites the same object using the primes.*
 
-If there were only finitely many primes, the product would be a finite product of analytic non-zero factors for $$\operatorname{Re}(s)>1$$, and $$\zeta(s)$$ could not have a pole at $$s=1$$. The harmonic series $$\sum 1/n$$ diverges, so $$\zeta(s)\to\infty$$ as $$s\to 1^+$$—another route to infinitude of primes. Analytic number theory sharpens this dictionary far beyond infinitude.
+Notice an immediate gem: if there were only finitely many primes, the Euler product would be a finite product of non-zero analytic factors and $$\zeta(s)$$ would stay finite as $$s \to 1^+$$. Yet the harmonic series $$\sum 1/n$$ diverges, so $$\zeta(s)\to\infty$$—Euler's analytic proof that primes are infinite! Analytic number theory pushes this dictionary vastly further.
 
 ---
 
-## 3. Analytic continuation and the functional equation (ideas only)
+## 3. Analytic continuation and the functional equation (with concrete intuition)
 
-The series $$\sum n^{-s}$$ only converges for $$\operatorname{Re}(s)>1$$. Riemann showed that $$\zeta(s)$$ extends to a **meromorphic** function on the whole complex plane: holomorphic everywhere except for a **simple pole at $$s=1$$**.
+The series $$\sum n^{-s}$$ only converges when $$\operatorname{Re}(s)>1$$. Plugging $$s = -1$$ straight into the series produces the nonsense sum $$1 + 2 + 3 + \cdots$$. So how can $$\zeta(s)$$ be defined to the left of $$\operatorname{Re}(s)=1$$?
 
-There is also a **functional equation** relating $$\zeta(s)$$ to $$\zeta(1-s)$$ (usually packaged with a Gamma factor into a completed xi-function that is entire and symmetric about $$\operatorname{Re}(s)=1/2$$). You do not need the formula memorized for this course. What matters:
+**Worked Example 2 — Seeing analytic continuation via two familiar series:**
+1. **The geometric series warm-up:** The series $$f(z) = 1 + z + z^2 + z^3 + \cdots$$ only converges for $$\vert z \vert < 1$$; at $$z = -2$$ it diverges wildly ($$1 - 2 + 4 - 8 + \cdots$$). Yet on $$\vert z \vert < 1$$ it agrees identically with $$F(z) = \frac{1}{1-z}$$, which is smooth everywhere except $$z = 1$$ and gives $$F(-2) = \frac{1}{3}$$. Analytic continuation replaces a local formula (the series) with the **unique global holomorphic function** agreeing with it.
+2. **Stepping into the critical strip with $$\eta(s)$$:** Consider the alternating Dirichlet eta series
+   $$
+   \eta(s) = 1 - 2^{-s} + 3^{-s} - 4^{-s} + 5^{-s} - \cdots
+   $$
+   For $$\operatorname{Re}(s) > 1$$, a quick algebraic check shows $$\eta(s) = (1 - 2^{1-s})\zeta(s)$$, so $$\zeta(s) = \frac{\eta(s)}{1 - 2^{1-s}}$$. Because the signs alternate, $$\eta(s)$$ converges for **all $$\operatorname{Re}(s) > 0$$**! With one line of algebra, the door into the entire critical strip $$0 < \operatorname{Re}(s) < 1$$ swings wide open.
 
-1. Zeta is defined far to the left of $$\operatorname{Re}(s)=1$$, not only by the series.
-2. Symmetry of the functional equation makes the line $$\operatorname{Re}(s)=1/2$$ special.
-3. Zeros come in two families.
+With deeper tools, Riemann extended $$\zeta(s)$$ to a **meromorphic** function on the entire complex plane: holomorphic everywhere except for a **simple pole at $$s=1$$**. He also proved a **functional equation** linking $$\zeta(s)$$ to $$\zeta(1-s)$$ (packaged with a Gamma factor into a completed xi-function symmetric across $$\operatorname{Re}(s)=1/2$$). What matters most:
+
+1. Zeta is well-defined across the entire plane, far beyond the original series.
+2. The reflection symmetry $$s \leftrightarrow 1-s$$ makes the vertical line $$\operatorname{Re}(s)=1/2$$ the natural mirror axis.
+3. The zeros split cleanly into two families.
 
 ![Trivial vs non-trivial zeros]({{ site.baseurl }}/img/chapter_img/riemann_trivial_vs_nontrivial.svg)
 
 *Figure. Trivial zeros are well understood; non-trivial zeros live in the critical strip.*
 
-**Trivial zeros** occur at the negative even integers $$s=-2,-4,-6,\ldots$$. They are “explained” by the Gamma factor in the functional equation and are not the mystery.
+**Trivial zeros** sit at the negative even integers $$s=-2,-4,-6,\ldots$$. They come directly from the sine/Gamma factor in the functional equation and hold no mystery.
 
-**Non-trivial zeros** lie in the **critical strip**
+**Non-trivial zeros** live inside the **critical strip**
 
 $$
 0 < \operatorname{Re}(s) < 1.
 $$
 
-They are infinite in number, and their imaginary parts grow without bound. RH is entirely about these.
+There are infinitely many, arranged symmetrically across the real axis ($$\rho$$ and $$\bar{\rho}$$) and across $$\operatorname{Re}(s)=1/2$$ ($$\rho$$ and $$1-\rho$$). The very first non-trivial zeros sit at
+
+$$
+\rho_1 \approx \frac{1}{2} + 14.1347\,i, \qquad \rho_2 \approx \frac{1}{2} + 21.0220\,i, \qquad \rho_3 \approx \frac{1}{2} + 25.0109\,i.
+$$
+
+RH is entirely about this family.
 
 ---
 
@@ -180,21 +225,31 @@ $$
 - It does not claim that primes are “random” in a naive sense—though random models are useful heuristics.
 - It is not settled by computing the first $$N$$ zeros on the line, for any finite $$N$$.
 
-**What RH *does* say.** Among all zeros that affect prime distribution through explicit formulas, none sit off the line of symmetry. Off-line zeros would inject larger oscillations into the error term of $$\pi(x)-\operatorname{li}(x)$$.
+**What RH *does* say.** Among all zeros that affect prime distribution through explicit formulas, none sit off the line of symmetry. Even a single off-line zero (say at $$\beta = 0.6$$) would inject dramatically larger oscillations into $$\pi(x)-\operatorname{li}(x)$$.
 
 ---
 
 ## 5. Why the zeros control primes
 
-There is a circle of ideas often called **explicit formulas** (Riemann, von Mangoldt, and later refinements): sums over primes (or prime powers) can be related to sums over zeros of zeta.
+**Explicit formulas** (Riemann, von Mangoldt, and later refinements) link weighted sums over prime powers directly to sums over the zeros $$\rho = \beta + i\gamma$$ of $$\zeta(s)$$.
 
-Very roughly: if you want to know how much $$\pi(x)$$ wiggles around its main term, each zero $$\rho=\beta+i\gamma$$ contributes an oscillatory term whose size is sensitive to the real part $$\beta$$. Zeros with $$\beta$$ closer to $$1$$ would allow larger errors. RH asserts that the worst real part you ever meet among non-trivial zeros is $$1/2$$, which translates into an essentially optimal error bound of the shape
+To see the mechanism with undergraduate calculus, look at the term $$x^\rho$$ contributed by a single zero $$\rho = \beta + i\gamma$$. Using Euler's formula $$e^{i\theta} = \cos\theta + i\sin\theta$$:
+
+$$
+x^{\rho} = x^{\beta + i\gamma} = x^{\beta}\, e^{i\gamma \log x} = x^{\beta}\bigl(\cos(\gamma \log x) + i\sin(\gamma \log x)\bigr).
+$$
+
+Pause and admire that single line—it is the heartbeat of the entire lesson:
+- The imaginary part $$\gamma$$ acts as the **frequency** of a wave (in logarithmic scale $$\log x$$).
+- The real part $$\beta$$ controls the **amplitude** $$x^{\beta}$$ of that wave!
+
+If a zero sat at $$\beta = 0.9$$, its wave would have amplitude $$x^{0.9}$$—at $$x = 10^{10}$$, that is $$10^9$$ versus $$10^5$$ for $$\beta = 0.5$$, a factor of **10,000 times larger**! Because zeros come in symmetric pairs $$(\beta, 1-\beta)$$, the smallest possible worst-case amplitude occurs precisely when **every zero is pinned to $$\beta = 1/2$$**, giving the near-optimal bound:
 
 $$
 \pi(x) = \operatorname{li}(x) + O\bigl(x^{1/2}\log x\bigr)
 $$
 
-(up to standard technical formulations). Without RH, one still has error bounds, but weaker ones, coming from **zero-free regions** near $$\operatorname{Re}(s)=1$$ that power the classical proof of PNT.
+(up to standard technical formulations). Without RH, one still has weaker error bounds coming from **zero-free regions** near $$\operatorname{Re}(s)=1$$ that power the classical proof of PNT.
 
 So the logical chain is:
 
@@ -202,9 +257,7 @@ $$
 \text{zeros of }\zeta \;\longleftrightarrow\; \text{oscillations in prime counting} \;\longleftrightarrow\; \text{quality of error terms}.
 $$
 
-RH is the strongest uniform claim about that first link in the classical zeta setting.
-
-**Harmonics picture (Quanta / Kontorovich).** Think of a modified prime-counting staircase (stepping by $$\log p$$ at prime powers). Riemann showed this staircase can be rebuilt by summing **oscillatory harmonics** attached to the zeta zeros: a main contribution associated with the pole at $$s=1$$, plus corrections from each non-trivial zero. Adding more zeros refines the fit to the jagged counting function. **Where** those zeros sit (how large $$\beta=\operatorname{Re}(\rho)$$ can be) controls how large the remaining error can be—hence RH’s grip on prime distribution.
+**Harmonics picture (Quanta / Kontorovich).** Think of a modified prime-counting staircase (stepping by $$\log p$$ at prime powers). Riemann showed this staircase can be rebuilt by summing **oscillatory harmonics** attached to the zeta zeros: a main contribution associated with the pole at $$s=1$$, plus corrections from each non-trivial zero—just like summing sine waves in a Fourier series to reconstruct a step function. **Where** those zeros sit (how large $$\beta=\operatorname{Re}(\rho)$$ can be) controls how large the remaining error can be—hence RH’s grip on prime distribution.
 
 ![Prime-counting staircase vs smooth approximation]({{ site.baseurl }}/img/chapter_img/rh_prime_counting_harmonics_quanta.jpg)
 
@@ -214,15 +267,13 @@ RH is the strongest uniform claim about that first link in the classical zeta se
 
 ## 6. Why is RH hard?
 
-Several complementary reasons:
-
 **No elementary rearrangement.** Unlike Euclid’s infinitude proof, RH is not a short argument about factorizations alone. It lives in the analytic continuation of an infinite object.
 
 **Global control from local data.** Zeros are global features of an analytic function. Estimates that work in one region of the strip do not automatically pin every zero to the line.
 
 **Barriers to “obvious” strategies.** Many natural approaches in analytic number theory produce partial information (most zeros near the line; zeros in density; no zeros in certain regions) without forcing the exact line for all zeros.
 
-**Depth of analogues.** When parallel statements *are* proved (e.g. for zeta functions of curves over finite fields), the proofs use heavy algebraic geometry—not a template one can casually copy to $$\zeta(s)$$ over the integers.
+**Depth of analogues.** When parallel statements *are* proved (for zeta functions of curves over finite fields), the proofs rely on heavy algebraic geometry—where a natural geometric operator (Frobenius acting on étale cohomology) plays the role of a matrix with real eigenvalues. No comparable geometric space has yet been found for $$\zeta(s)$$ over $$\mathbb{Q}$$ (the dream behind the *Hilbert–Pólya conjecture*).
 
 Hardness here means **resistance of the exact statement**, not lack of progress. The subject is rich with theorems that assume RH, theorems that approach RH, and theorems that replace RH by weaker hypotheses still useful in applications.
 
@@ -232,16 +283,14 @@ Hardness here means **resistance of the exact statement**, not lack of progress.
 
 ### Numerical evidence
 
-The first many billions of non-trivial zeros (ordered by imaginary part) have been checked to lie on the critical line, to extraordinary height—modern projects have gone into the trillions of zeros. This is strong evidence and a technological achievement; it is **not** a proof. A single counterexample at enormous height would disprove RH; none is known. Brute-force checking cannot reach infinity.
+More than $$10^{13}$$ (ten trillion) non-trivial zeros have been computed and verified to lie on the critical line. This is strong evidence and a technological achievement; it is **not** a proof. In number theory, patterns can hold up to staggering heights before breaking (remember Littlewood's theorem that $$\pi(x) - \operatorname{li}(x)$$ eventually changes sign!). A single counterexample at enormous height would disprove RH; brute-force checking cannot reach infinity.
 
 ### Theoretical partial results
 
-Without claiming completeness, important flavors include:
-
 - **Zero-free regions.** There is a region near $$\operatorname{Re}(s)=1$$ containing no zeros; such regions imply PNT and effective error terms.
 - **Density theorems.** Bounds on how many zeros can lie far from the critical line.
-- **Positive proportion on the line.** A positive proportion of non-trivial zeros lie on $$\operatorname{Re}(s)=1/2$$ (Selberg; later improvements).
-- **Moments and pair correlation.** Statistical models of zeros (including random matrix heuristics, Montgomery pair correlation) match data strikingly well and guide conjectures beyond RH itself.
+- **Positive proportion on the line.** Over 40% of all non-trivial zeros are proved to lie on $$\operatorname{Re}(s)=1/2$$ (Selberg; Levinson; Conrey and later refinements).
+- **Moments and pair correlation.** Following a famous 1972 tea-time encounter at Princeton between number theorist Hugh Montgomery and physicist Freeman Dyson, mathematicians discovered that the spacing between zeta zeros follows the exact same statistics as **eigenvalues of random Hermitian matrices** (the GUE ensemble from nuclear physics)—one of the deepest clues about the hidden nature of RH.
 
 ### Function-field and geometric analogues
 
@@ -255,13 +304,13 @@ For zeta functions attached to curves (and more generally varieties) over finite
 
 ## 8. What would follow from RH?
 
-A huge web of conditional theorems in analytic number theory assumes RH or a generalized RH for Dirichlet $$L$$-functions. Themes include:
+A huge web of conditional theorems in analytic number theory assumes RH or the Generalized Riemann Hypothesis (GRH) for Dirichlet $$L$$-functions. Themes include:
 
-- Strong error terms in prime counting in arithmetic progressions.
-- Bounds related to the least quadratic non-residue, class numbers, and other arithmetic statistics.
+- Strong error terms in prime counting in arithmetic progressions (e.g., primes congruent to $$1 \pmod 4$$ vs $$3 \pmod 4$$).
+- Sharp bounds on gaps between consecutive primes, the least quadratic non-residue, class numbers, and deterministic polynomial-time primality testing (Miller's test).
 - Many “almost optimal” estimates that are known unconditionally only in weaker form.
 
-Conversely, many applications need only weaker substitutes (zero density estimates, Siegel zeros caveats, etc.). Professional number theory is not “waiting for RH to do anything”—but RH remains the benchmark for the strongest classical error terms.
+Conversely, many applications need only weaker substitutes (such as the Bombieri–Vinogradov theorem, which acts like "GRH on average"). Professional number theory is not “waiting for RH to do anything”—but RH remains the benchmark for the strongest classical error terms.
 
 ---
 
@@ -283,7 +332,7 @@ For the seminar, RH is the prototype of: **one clean analytic statement, century
 1. **“They checked a billion zeros, so it’s true.”** — Evidence, not proof.  
 2. **“RH gives the $$n$$th prime by a formula.”** — It constrains errors in counting functions; it is not a closed elementary formula for $$p_n$$.  
 3. **“Trivial zeros violate RH.”** — No; RH is only about non-trivial zeros.  
-4. **“Zeta is only the series $$\sum n^{-s}$$. ”** — The series is the definition for $$\operatorname{Re}(s)>1$$; RH lives in the analytic continuation.  
+4. **“Zeta is only the series $$\sum n^{-s}$$.”** — The series is the definition for $$\operatorname{Re}(s)>1$$; RH lives in the analytic continuation.  
 5. **“If RH is false, primes are chaotic with no theorems.”** — PNT and much else are unconditional; false RH would worsen certain error terms, not erase the subject.
 
 ---
@@ -298,11 +347,11 @@ Popular lectures (Quanta/Kontorovich; Conrey; Vaaler) and surveys (Bombieri Clay
 | Zero-free regions near $$\operatorname{Re}(s)=1$$ | Classical and modern refinements control some error terms | Width still far from the critical line |
 | Zeros *on* the critical line | Positive proportion results (Hardy–Littlewood → Selberg → Levinson → Conrey lineage) | **100%** of non-trivial zeros on the line |
 | Function-field / finite-field analogues | Weil / Deligne: RH-type statements **proved** for zeta of curves (and more) over finite fields | Does not automatically transfer to $$\zeta(s)$$ |
-| Numerical verification | Billions of zeros checked on the line | Evidence, **not** a proof |
+| Numerical verification | Trillions of zeros checked on the line | Evidence, **not** a proof |
 
 **Status (as of 2026):** the Riemann Hypothesis for the classical zeta function remains **open**—one of the six unsolved Clay Millennium problems.
 
-**Seminar extraction (LO1 / LO6):** write two sentences after any video: (1) what RH *says*; (2) what the video’s “evidence” actually is (computation, density theorem, or analogue)—never “they checked many zeros, so RH is true.”
+**Note-taking tip after videos:** write two sentences after any talk: (1) what RH *says*; (2) what kind of "evidence" the talk presented (computation, density theorem, or analogue)—never "they checked many zeros, so RH is true."
 
 ---
 
@@ -318,7 +367,7 @@ Orientation talks fix three student-facing images that must stay separate:
 2. **Analytic continuation.** The series definition is not the whole story: Riemann needs a function that agrees with the series where both make sense and is meaningful on a larger domain (including the critical strip). Popular “two functions, one identity region” language is a slogan for continuation, not a full uniqueness course.  
 3. **The critical line as a claim.** RH asserts a location for non-trivial zeros. Visualizations of many zeros on the line are **evidence graphics**, not a proof. Large-scale numerical searches (billions or trillions of zeros on the line in computational reports) remain **finite checks**.
 
-**LO6 trap:** “A computer checked many zeros, so RH is true.” → Evidence for those zeros; the universal claim is open.
+**Trap to avoid:** “A computer checked many zeros, so RH is true.” → Evidence for those zeros; the universal claim is open.
 
 ### C2. Vaaler-style foundation (Millennium lectures)
 
@@ -398,7 +447,7 @@ Full URL bibliography from video research: `research/video-research/Riemann_Hypo
 
 11. Quanta companion essay (Kontorovich): https://www.quantamagazine.org/how-i-learned-to-love-and-fear-the-riemann-hypothesis-20210104/  
 12. Clay lectures hub: https://www.claymath.org/lectures/  
-13. Marcus du Sautoy, *The Music of the Primes* — popular history (use with LO6 critique).  
+13. Marcus du Sautoy, *The Music of the Primes* — popular history (read critically).  
 
 ### Course
 

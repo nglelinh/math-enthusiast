@@ -9,9 +9,9 @@ categories:
 - chapter09
 ---
 
-The **A.M. Turing Award** is the highest distinction given by the Association for Computing Machinery (ACM) for contributions of lasting and major technical importance to the computing field. It has been awarded since **1966**, is named after **Alan Mathison Turing** (1912–1954), and is routinely described—sometimes carefully, sometimes as newspaper shorthand—as the **“Nobel Prize of computing.”** Official citations, biographies, lectures, and press materials live at [amturing.acm.org](https://amturing.acm.org/).
+In **1966**, when computers were still room-sized steel cabinets humming in university basements, the Association for Computing Machinery (ACM) decided to create an annual honor making a bold statement: computing was no longer just wiring circuits or writing payroll scripts—it had matured into a science with conceptual foundations rivaling physics and mathematics. They named the prize after **Alan Mathison Turing** (1912–1954), who had died twelve years earlier yet left an enduring mathematical blueprint in his 1936 paper *On Computable Numbers*. (One common trivia trap worth clearing up immediately: Alan Turing himself **never** received the award named after him!)
 
-This lecture is not a hall-of-fame quiz. It is a map of **what the Turing Award is for**, how its citation culture differs from the Fields Medal and the Abel Prize, and why a mathematics enthusiast should treat Turing citations as portals into **mathematical ideas**—computability, complexity, algorithms, cryptography, learning theory—rather than as prestige wallpaper.
+Today, the **A.M. Turing Award** is routinely described—sometimes carefully, sometimes as newspaper shorthand—as the **“Nobel Prize of computing.”** Official citations, biographies, lectures, and press materials live at [amturing.acm.org](https://amturing.acm.org/). This lecture is not a hall-of-fame quiz. It is a map of **what the Turing Award is for**, how its citation culture differs from the Fields Medal and the Abel Prize, and why a mathematics enthusiast should treat Turing citations as portals into **mathematical ideas**—computability, complexity, algorithms, cryptography, learning theory—rather than as prestige wallpaper.
 
 ---
 
@@ -28,7 +28,19 @@ After this lecture you should be able to:
 
 **Prerequisites.** No research background in computer science is required. You should be comfortable reading short technical English and recognizing names of broad fields (algorithms, cryptography, logic, networks). Familiarity with the [Fields chapter overview]({{ site.baseurl }}/contents/en/chapter02/02_00_Overview/) and [Abel Prize overview]({{ site.baseurl }}/contents/en/chapter08/08_02_What_Is_Abel_Prize/) will sharpen comparisons.
 
-**Seminar links.** LO1 (major awards as maps of ideas); LO6 (media slogans vs precise statements). Pair with [Chapter 09 Overview]({{ site.baseurl }}/contents/en/chapter09/09_00_Overview/) and [P vs NP]({{ site.baseurl }}/contents/en/chapter01/01_03_P_vs_NP/).
+**Cross-links.** Pair with [Chapter 09 Overview]({{ site.baseurl }}/contents/en/chapter09/09_00_Overview/) and [P vs NP]({{ site.baseurl }}/contents/en/chapter01/01_03_P_vs_NP/).
+
+---
+
+## Background Knowledge Map: What Is Computational Mathematics and What Do Turing Awards Study?
+
+When a university graduate scans nearly sixty years of Turing Award winners, the list can look wildly eclectic: compiler builders, UNIX pioneers, relational database architects, and pure theorists proving theorems about expander graphs or prime numbers. What deeper thread unites them?
+
+Modern computer science stands on **two interlocking legs**:
+1. **The Theoretical Leg (Computational Mathematics):** constructing formal models of machines, defining complexity classes (P, NP, #P, BPP, IP), proving algorithms correct and fast, designing cryptographic protocols with mathematical security proofs, and establishing statistical and logical foundations for learning and causality.
+2. **The Systems Leg (Computing Engineering):** turning those abstractions into real silicon architectures (RISC, GPUs), global networking (TCP/IP), database engines, computer graphics, and planetary-scale deep learning infrastructure.
+
+In *Math Enthusiast*, Chapter 9 deliberately selects the **most mathematically rich** Turing Awards to spotlight the bridge between pure mathematics and computing. The clearest emblem of that unity is **Avi Wigderson**: he received the **2021 Abel Prize** (pure mathematics) and the **2023 Turing Award** (computer science) for the very same body of work on randomness, complexity, and expander graphs—proving that once a question goes deep enough, the border between the two disciplines dissolves.
 
 ---
 
@@ -54,6 +66,26 @@ Useful student practice:
 4. **Link to a course chapter.** Complexity → Chapters 01 and 06; crypto → Chapters 03 and 06; logic → Chapter 05; discrete math → Chapter 08’s Wigderson arc.
 
 Turing citations sometimes honor **systems that became ambient** (operating systems, languages, the Web’s protocols) and sometimes honor **theorems that became curricula**. Both can be mathematical: an architecture can embody a model of concurrency; a language design can crystallize type theory. Do not assume “systems award” means “no ideas.”
+
+### Worked Example (Step by Step): Dissecting a Turing Citation into Concrete Arithmetic
+
+When you read Shafi Goldwasser and Silvio Micali's 2012 Turing citation (*"transformative work that laid the complexity-theoretic foundations for the science of cryptography"*), don't skim past the adjectives. Peel open one core mechanism inside that sentence—**probabilistic encryption**—using tiny arithmetic modulo $$N = 3 \times 5 = 15$$:
+
+- Suppose you want to encrypt a single secret bit $$b \in \{0, 1\}$$ (say `0 = Buy`, `1 = Sell`).
+- If you use a *deterministic* function (like textbook RSA without random padding), encrypting `0` produces the exact same ciphertext every time—an eavesdropper seeing two identical ciphertexts immediately knows you repeated yesterday's trade!
+- Goldwasser and Micali flipped the script using **quadratic residues modulo $$N = 15$$**: pick a fresh random number $$r$$ coprime to 15 (from $$\{1,2,4,7,8,11,13,14\}$$):
+  - To encrypt bit `0`, send a square: $$c = r^2 \bmod 15$$ (choosing $$r=2 \implies c=4$$; choosing $$r=4 \implies c=1$$).
+  - To encrypt bit `1`, multiply by a fixed non-square $$z = 2$$: send $$c = 2r^2 \bmod 15$$ (choosing $$r=2 \implies c=8$$; choosing $$r=4 \implies c=2$$).
+- Result: encrypting `0` twice produces `4` the first time and `1` the second time! Anyone holding the secret factors $$p=3, q=5$$ checks whether $$c$$ is a square mod 3 and mod 5 in an instant, whereas an eavesdropper facing a 2048-bit modulus $$N$$ cannot distinguish encryptions of `0` from `1`. One crisp Turing citation just unpacked into a transparent mathematical engine.
+
+### Deep-Dive Explanation: A Four-Step Routine for Reading Any Turing Award (Read Slowly)
+
+1. **Underline the technical nouns in the citation:** strip away ceremonial praise to isolate the mathematical objects (Turing machines, reductions, probabilistic encryption, causal graphs, pseudorandom generators).
+2. **Locate the computational layer:** does the work live in *computability* (Turing), the *P vs NP frontier* (Cook–Karp), *efficiency inside P* (Knuth, Hopcroft–Tarjan), *security and interaction* (RSA, Goldwasser–Micali), or *learning and causality* (Valiant, Pearl)?
+3. **Test it by hand on a toy instance:** run a 4-vertex graph, a $$2\times 2$$ matrix, or arithmetic mod 15 so you feel the mechanism click rather than memorizing a slogan.
+4. **Ask what assumptions remain open:** every Turing Award opens a new frontier—identify what is still unproven (such as $$\mathbf{P} \neq \mathbf{NP}$$, hardness of integer factoring, or the derandomization conjecture $$\mathbf{BPP} = \mathbf{P}$$).
+
+**Quick check.** A Turing Award honors **a new foundation or working language for an entire field**, not necessarily the resolution of a Millennium Prize Problem (Cook and Karp won for NP-completeness even though P vs NP remains open).
 
 ---
 

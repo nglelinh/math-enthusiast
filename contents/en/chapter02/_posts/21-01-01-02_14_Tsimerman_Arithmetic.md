@@ -9,12 +9,16 @@ categories:
 - chapter02
 ---
 
-**Jacob Tsimerman** (University of Toronto) received the **Fields Medal 2026** for making **o-minimality** a fundamental method in arithmetic and complex algebraic geometry, and for central roles in major conjectures on period maps and special subvarieties. The story is a pure instance of this chapter’s favorite theme: an unexpected bridge—here from **model theory / tame topology** into **Diophantine geometry and Hodge theory**.
+Suppose you take a curved algebraic surface inside a huge space of geometric shapes, and you notice it happens to pass through infinitely many extraordinarily rare, symmetric "special points"—like a dartboard where a random curve somehow hits infinitely many bullseyes. Common sense whispers: **that cannot be a coincidence!** Something deep must force the curve itself to be special.
+
+In arithmetic geometry, that intuition is formalized as the **André–Oort conjecture**—one of the crown jewels of "unlikely intersections." For decades, number theorists attacked it with heavy algebraic artillery, only to stall out in higher dimensions. Who could have guessed that the missing key was sitting quietly across campus in **mathematical logic**, inside a branch of model theory called **o-minimality** ("tame geometry")?
+
+At ICM 2026 in Philadelphia, **Jacob Tsimerman** (University of Toronto) received the **Fields Medal 2026** for turning **o-minimality** into a powerhouse engine of arithmetic and complex algebraic geometry—and using it to conquer both the **André–Oort conjecture for Siegel modular varieties** and **Griffiths’ conjecture on the algebraicity of images of period maps**.
 
 **IMU short citation (official):**  
 For his contribution in the recasting of o-minimality as a fundamental method of arithmetic and complex algebraic geometry, and his role in the proof of many central conjectures including Griffiths’ conjecture on the algebraicity of images of the period maps, and the André–Oort conjecture for Siegel modular varieties.
 
-This essay is for learners who have met modular curves or elliptic curves and want the slogans of **unlikely intersections** without a full Shimura-variety course. It preserves the official IMU wording and expands around two named pillars: **André–Oort** for Siegel modular varieties and **Griffiths-type algebraicity** of period map images—plus the tame-topology engine that makes the proofs possible.
+This essay unpacks how "tame topology" from logic solves hard Diophantine and Hodge-theoretic conjectures—complete with hand-checkable examples of tame vs. wild sets, CM elliptic curves, and Pila–Wilkie rational point counting.
 
 ---
 
@@ -22,127 +26,131 @@ This essay is for learners who have met modular curves or elliptic curves and wa
 
 After this lecture you should be able to:
 
-- State **André–Oort** at slogan level: atypical collections of special points force special subvarieties.
-- Explain **o-minimality** as “tame geometry” constraining definable sets (no wild oscillation; cell decomposition).
-- Describe **period maps** as bridges from families of algebraic varieties to classifying spaces of Hodge structures.
-- Understand why **model theory** can prove arithmetic theorems (tameness → counting → rigidity).
-- Place **Siegel modular varieties** as a central higher-dimensional case of Shimura geometry, not merely “modular curves.”
-- Attribute the Fields citation carefully: o-minimality as method plus named conjectures as targets.
+- Distinguish **tame (o-minimal)** sets from wild sets using the concrete example of $$\sin x = 0$$ on $$\mathbb{R}$$ versus $$[0, 2\pi]$$.
+- Verify by hand why $$\tau = i$$ is a **CM (special) point** corresponding to the extra-symmetric elliptic curve $$y^2 = x^3 - x$$ with $$j(i) = 1728$$.
+- Check the **Pila–Wilkie counting phenomenon** by hand on the transcendental curve $$y = 2^x$$ (only $$O(\log H)$$ rational points of height $$\le H$$).
+- State the **André–Oort conjecture** (especially for Siegel modular varieties $$\mathcal{A}_g$$) and **Griffiths’ conjecture** on algebraicity of period-map images.
+- Trace the 4-step **Pila–Zannier / o-minimal engine** linking logic, point counting, Galois orbits, and functional transcendence to arithmetic rigidity.
 
-**Prerequisites.** Complex manifolds at a basic level; elliptic curves or modular curves as motivating examples; the idea that transcendental functions can still satisfy algebraic relations. No prior model theory required.
+**Prerequisites.** Basic complex numbers, polynomials vs. transcendental functions (like $$e^x, \sin x$$), and introductory intuition for elliptic curves. No prior model theory is required.
 
-**Seminar links.** LO1 / LO4 (logic tools ↔ arithmetic geometry). Pair with [Langlands program overview]({{ site.baseurl }}/contents/en/chapter02/02_02_Langlands_Program/) for another arithmetic–analytic bridge, with [Venkatesh]({{ site.baseurl }}/contents/en/chapter02/02_07_Venkatesh_Number_Theory/) for automorphic / arithmetic breadth, and with [Chapter 5 famous proofs]({{ site.baseurl }}/contents/en/chapter05/) when you want proof-culture comparisons (different subjects, shared “new language enables old conjectures” pattern).
-
----
-
-## 1. Special points, Shimura varieties, and unlikely intersections
-
-A **modular curve** classifies elliptic curves with level structure; its **CM points** (complex multiplication) are algebraic points of arithmetic origin. Higher-dimensional analogues are **Shimura varieties**: arithmetic quotients of Hermitian symmetric domains that classify abelian varieties with extra structure (polarizations, endomorphisms, level data) or related motives.
-
-Inside a Shimura variety $$S$$ one finds:
-
-- **special points** (e.g. CM points in the modular and Siegel settings);
-- **special subvarieties** (Shimura subvarieties; loci cut out by additional Hodge / endomorphism constraints).
-
-The philosophy of **unlikely intersections** (Zannier, Bombieri, Pila, Habegger, and many others) says: if a subvariety $$V\subset S$$ contains “too many” special points in a way that is atypical for its dimension, then $$V$$ must itself be special—or at least contain a special subvariety accounting for those points.
-
-**André–Oort conjecture (slogan form).** The Zariski closure of a set of special points in a Shimura variety is a finite union of special subvarieties.
-
-For modular curves this is close to classical CM theory; the difficulty explodes in higher dimension. The **Siegel modular varieties** $$A_g$$ (moduli of principally polarized abelian varieties of dimension $$g$$) are a central testing ground: they are Shimura varieties of enormous arithmetic interest, and André–Oort for them was a landmark target.
-
-Tsimerman’s role in the proof of **André–Oort for Siegel modular varieties** (with the surrounding literature of collaborators and prior partial results) is one of the two named achievements in the IMU short citation.
+**Related lessons.** Pair with [Langlands program overview]({{ site.baseurl }}/contents/en/chapter02/02_02_Langlands_Program/) for another arithmetic–analytic bridge, [Venkatesh]({{ site.baseurl }}/contents/en/chapter02/02_07_Venkatesh_Number_Theory/) for automorphic breadth, and [Chapter 5 famous proofs]({{ site.baseurl }}/contents/en/chapter05/) for proof-culture comparisons.
 
 ---
 
-## 2. Period maps and Griffiths algebraicity
+## Background Knowledge Map: How Do Logic, Hodge Theory, and Number Theory Collide?
 
-A second pillar is **period maps**. Given a family of algebraic varieties (or more generally a variation of Hodge structure) over a base $$B$$, the **period map**
+Tsimerman’s Fields Medal is a textbook example of an unexpected mathematical bridge uniting three fields that rarely spoke to one another a generation ago.
+
+### 1. Model Theory & O-Minimality: "Tame Topology"
+**What is it?** Model theory (a branch of mathematical logic) studies which geometric sets can be defined by formulas in a chosen language. An **o-minimal structure** (short for *order-minimal*) on the real numbers $$\mathbb{R}$$ is a collection of definable subsets of $$\mathbb{R}^n$$ obeying one disarmingly simple rule: **every definable subset of the 1D line $$\mathbb{R}$$ is a finite union of points and intervals.**
+
+**What does it study?**
+- **No infinite wiggles:** That single 1D rule miraculously bans fractals, Cantor sets, and infinite oscillations (like $$\sin(1/x)$$ near $$0$$) in *every* dimension $$n$$!
+- **Pila–Wilkie counting theorem (2006):** A transcendental curve definable in an o-minimal structure contains astonishingly **few** rational points of bounded height (subpolynomial in the height $$H$$)—unless it secretly contains an algebraic piece!
+
+### 2. Shimura Varieties & Unlikely Intersections (Arithmetic Geometry)
+**What is it?** A **Shimura variety** is a high-dimensional moduli space classifying algebraic shapes with extra structure. The flagship family is the **Siegel modular variety $$\mathcal{A}_g$$**, which classifies $$g$$-dimensional abelian varieties (higher-dimensional cousins of elliptic curves; for $$g=1$$, $$\mathcal{A}_1$$ is the modular curve of elliptic curves).
+
+**What does it study?**
+- **Special (CM) points:** Points representing shapes with rare extra algebraic symmetries (complex multiplication).
+- **André–Oort conjecture:** Predicts that if an algebraic subvariety $$V \subset \mathcal{A}_g$$ contains a Zariski-dense cloud of special points, then $$V$$ itself must be a **special subvariety**.
+
+### 3. Period Maps & Hodge Theory (Complex Algebraic Geometry)
+**What is it?** As an algebraic variety deforms smoothly over a base $$B$$, its cohomology integrals (periods) trace out a **period map** $$\Phi: B \to \Gamma \backslash D$$ into a curved complex domain.
+
+**What does it study?**
+- **Griffiths’ conjecture:** Even though $$\Phi$$ is defined by transcendental integrals, its image $$\Phi(B)$$ should still be a clean **algebraic variety**, not a wild analytic smudge.
+
+---
+
+## 1. Tame vs. wild geometry: two hand-verifiable examples
+
+### Hand-Verifiable Example 1: Why $$\sin x$$ Is Wild on $$\mathbb{R}$$ Yet Tame on $$[0, 2\pi]$$
+Test the o-minimality rule ("every definable 1D set must be a **finite** union of points and intervals") by hand:
+
+- **Global $$\sin x$$ on all of $$\mathbb{R}$$:** Consider the zero set $$\{x \in \mathbb{R} : \sin x = 0\} = \{\dots, -2\pi, -\pi, 0, \pi, 2\pi, \dots\}$$. That is an **infinite** discrete set of points! Therefore, adding global $$\sin x$$ breaks o-minimality—it is **wild** (in fact, once you can define $$\mathbb{Z}$$, Gödel incompleteness and wild topology rush in!).
+- **Restricted $$\sin x$$ on $$[0, 2\pi]$$:** Now restrict $$\sin x$$ to the compact box $$[0, 2\pi]$$. Its zero set is simply $$\{0, \pi, 2\pi\}$$—just **3 points**, finite!
+- **Global exponential $$e^x$$ on $$\mathbb{R}$$:** Can $$e^x$$ oscillate infinitely? Never—it is strictly increasing! Wilkie proved in 1996 that $$\mathbb{R}_{\mathrm{an},\exp}$$ (combining polynomials, restricted analytic functions on compact boxes, and global $$e^x$$) is **o-minimal**—completely tame!
+
+### Hand-Verifiable Example 2: A Concrete CM Point ($$\tau = i$$)
+What is a "special point" in the modular curve $$\mathcal{A}_1 = \mathrm{SL}_2(\mathbb{Z})\backslash \mathbb{H}$$? Each point $$\tau$$ in the upper half-plane $$\mathbb{H}$$ defines a 2D lattice $$\Lambda_\tau = \mathbb{Z} + \mathbb{Z}\tau \subset \mathbb{C}$$ and an elliptic curve $$E_\tau = \mathbb{C}/\Lambda_\tau$$.
+
+Pick the point **$$\tau = i$$**. Its lattice is the **square grid** of Gaussian integers $$\mathbb{Z}[i]$$!
+- For a generic lattice, the only multiplications sending the lattice into itself are ordinary integers $$n \in \mathbb{Z}$$.
+- For $$\Lambda_i = \mathbb{Z}[i]$$, multiplying by $$i$$ rotates the entire square grid by $$90^\circ$$ onto itself! That extra symmetry is **complex multiplication (CM)**!
+- In algebraic coordinates, $$E_i$$ is the elliptic curve $$y^2 = x^3 - x$$ (check the extra symmetry by hand: $$(x, y) \mapsto (-x, iy)$$ preserves the equation because $$(iy)^2 = -y^2 = -(x^3-x) = (-x)^3 - (-x)$$!), and its modular invariant is the exact integer $$j(i) = 1728$$.
+
+### Hand-Verifiable Example 3: Pila–Wilkie Counting on $$y = 2^x$$
+Why does o-minimality control rational points? Look at the transcendental curve $$C: y = 2^x$$ (definable in $$\mathbb{R}_{\exp}$$) and count its rational points $$(x,y) \in \mathbb{Q}^2$$ of **height** $$\le H$$ (meaning numerator and denominator are at most $$H$$):
+- If $$x = p/q$$ is a non-integer fraction, $$2^{p/q}$$ is irrational! So $$y = 2^x$$ is rational **only** when $$x$$ is an integer!
+- For integer $$x \ge 0$$, $$2^x \le H \implies x \le \log_2 H$$. Including negative integers $$x \ge -\log_2 H$$, the total number of rational points of height $$\le H$$ on $$y = 2^x$$ is at most $$2\log_2 H + 1 = O(\log H)$$—**far smaller** than $$H^\varepsilon$$ for every $$\varepsilon > 0$$!
+- Compare that with an algebraic line like $$y = x$$, which has $$\sim H^2$$ rational points of height $$\le H$$!
+
+The **Pila–Wilkie theorem** proves that this gap is universal: on **any** o-minimal definable set $$X$$, the transcendental part of $$X$$ has at most $$C_\varepsilon H^\varepsilon$$ rational points of height $$\le H$$!
+
+---
+
+## 2. Special points, Siegel modular varieties, and Griffiths’ conjecture
+
+Inside a Shimura variety—especially the **Siegel modular variety $$\mathcal{A}_g$$** classifying $$g$$-dimensional principally polarized abelian varieties—the **André–Oort conjecture** predicts that the Zariski closure of any set of special (CM) points is a finite union of **special subvarieties**.
+
+A second pillar is **period maps**: given a family of algebraic varieties over a base $$B$$, the period map $$\Phi: B \to \Gamma \backslash D$$ tracks how each fiber’s Hodge structure varies. A priori, $$\Phi$$ is purely analytic and transcendental. Yet **Griffiths’ conjecture** predicted that its image $$\Phi(B)$$ must be a bona fide **algebraic variety**.
+
+---
+
+### Deep-Dive Explanation: How Tsimerman Turned O-Minimality into an Arithmetic Engine (Read Slowly)
+
+How do you combine a theorem from mathematical logic (Pila–Wilkie) with number theory to prove André–Oort for $$\mathcal{A}_g$$ and Griffiths’ conjecture? Follow the four-step engine slowly:
+
+#### Step 1: Prove the uniformization / period map is definable in $$\mathbb{R}_{\mathrm{an},\exp}$$
+Period maps and modular uniformizations (like $$j: \mathbb{H} \to \mathbb{C}$$) are periodic, so globally they have infinitely many preimages—which looks wild! The crucial insight (Peterzil–Starchenko for $$\mathcal{A}_g$$, and **Bakker–Brunebarbe–Tsimerman** for arbitrary period maps!) is to restrict the map to a **fundamental domain** $$\mathcal{F}$$! On $$\mathcal{F}$$, the transcendental period map becomes **definable in the o-minimal structure $$\mathbb{R}_{\mathrm{an},\exp}$$**!
+
+#### Step 2: Pit Pila–Wilkie upper bounds against Galois-orbit lower bounds (for André–Oort)
+Suppose an algebraic subvariety $$V \subset \mathcal{A}_g$$ contains infinitely many CM points. Lift $$V$$ back into the fundamental domain $$\mathcal{F}$$ to get an o-minimal definable set $$X$$. Now two opposing forces collide:
+- **Lower bound (Galois theory):** Each CM point of discriminant $$D$$ has a massive **Galois orbit** of size $$\gg \lvert D\rvert^\delta$$—all of which must also lie on $$V$$, producing *polynomially many* algebraic points of bounded height on $$X$$! (Proving this Galois lower bound for all $$g$$ was Tsimerman’s celebrated 2018 breakthrough, building on the Averaged Colmez Conjecture!)
+- **Upper bound (Pila–Wilkie):** The transcendental part of $$X$$ can hold *at most subpolynomially many* ($$O_\varepsilon(H^\varepsilon)$$) such points!
+
+#### Step 3: Force an algebraic curve inside $$X$$, then invoke Ax–Schanuel
+The only way to escape the contradiction between $$\lvert D\rvert^\delta$$ (lower bound) and $$\lvert D\rvert^\varepsilon$$ (upper bound) is if the CM points sit inside genuine **algebraic pieces** inside $$X$$! Next, **functional transcendence** (the hyperbolic **Ax–Schanuel theorem**, proved in general by Mok–Pila–Tsimerman and Bakker–Tsimerman) proves that the only algebraic curves inside the covering space whose image is also algebraic are **special subvarieties**!
+
+#### Step 4: Reclaim algebraicity for Griffiths’ conjecture (Bakker–Brunebarbe–Tsimerman)
+In complex algebraic geometry, once Bakker, Brunebarbe, and Tsimerman proved that **every** period map is definable in $$\mathbb{R}_{\mathrm{an},\exp}$$, they used o-minimal **definable Chow / GAGA theorems** to prove that the image of a period map cannot be a wild transcendental cloud—it must be a **quasi-projective algebraic variety**, settling **Griffiths’ conjecture**!
+
+In one schematic line:
 
 $$
-\Phi:B\dashrightarrow \Gamma\backslash D
+\text{Definability in }\mathbb{R}_{\mathrm{an},\exp}
+\;+\;
+\begin{cases}
+\text{Galois lower bound vs. Pila–Wilkie + Ax–Schanuel} \;\Longrightarrow\; \text{André–Oort for }\mathcal{A}_g \\
+\text{O-minimal GAGA / definable Chow} \;\Longrightarrow\; \text{Griffiths’ conjecture}
+\end{cases}
 $$
 
-sends each fiber to the classifying space of its Hodge structure (a period domain $$D$$, quotiented by monodromy $$\Gamma$$). Classically, for families of curves or Calabi–Yau varieties, period maps encode how the Hodge filtration moves.
-
-A priori, $$\Phi$$ is a **transcendental** analytic map. Yet Hodge theory predicts strong constraints: images should be algebraic (or quasi-projective) in precise senses when the geometric origin is algebraic. **Griffiths’ conjecture** on the **algebraicity of images of period maps**—in the form addressed by modern work—asserts that such images are algebraic objects, not wild transcendental clouds.
-
-The IMU citation credits Tsimerman with a central role in proving **Griffiths’ conjecture on the algebraicity of images of the period maps**. For this course, retain the slogan:
-
-**Transcendental period data, coming from algebraic families, should still land on algebraic loci.**
-
-That is a rigidity statement: analysis produces the map; algebra reclaims the image.
-
 ---
 
-## 3. O-minimality: tame topology as a tool
+## 3. Model theory → arithmetic: why the bridge is surprising
 
-**O-minimality** is a framework from **model theory** describing “tame” structures on the real numbers (and expansions). An o-minimal structure is a collection of definable subsets of $$\mathbb{R}^n$$ (for all $$n$$) closed under the Boolean operations and projections, such that the definable subsets of $$\mathbb{R}$$ are finite unions of points and intervals.
-
-Consequences include:
-
-- **Cell decomposition:** definable sets can be partitioned into finitely many simple pieces (cells).
-- **Dimension theory** that behaves like dimension in algebraic or semialgebraic geometry.
-- Control of **topological complexity**: definable sets cannot oscillate infinitely often in the way the graph of $$\sin(1/x)$$ does near zero, once the structure is o-minimal.
-- Powerful **point-counting** theorems (Pila–Wilkie and refinements): few rational points of bounded height on transcendental definable sets, unless those points lie in algebraic pieces.
-
-Semialgebraic sets (polynomial equalities and inequalities) form the classical o-minimal structure. Expansions by restricted analytic functions, by the exponential, and by other period-friendly functions produce larger o-minimal structures still tame enough for geometry.
-
-**Why arithmetic geometry cares.** Period maps and uniformization maps of Shimura varieties are built from analytic and transcendental functions. If one can show that relevant graphs, images, or preimages are **definable in an o-minimal structure**, then cell decomposition and point counting become available. Combined with functional transcendence results and monodromy inputs, one obtains the finiteness and rigidity needed for unlikely-intersection theorems.
-
-**Slogan.** O-minimality turns “transcendental but not wild” into a theorem-producing hypothesis.
-
-Tsimerman’s Fields recognition emphasizes not only using o-minimality once, but **recasting** it as a **fundamental method** of arithmetic and complex algebraic geometry—a lasting change of toolkit, not a single trick.
-
----
-
-## 4. How the pieces lock: from definable sets to special loci
-
-A modern unlikely-intersections argument often follows a pattern (highly simplified):
-
-1. **Setup.** Encode special points or period images inside a definable set $$X$$ in an o-minimal structure (often after choosing suitable coordinates on a covering domain).
-2. **Counting / height.** Show that if there were infinitely many “independent” special points on a non-special subvariety, then there would be too many rational or algebraic points of controlled height on a transcendental definable set—contradicting Pila–Wilkie-type bounds—unless algebraic pieces absorb them.
-3. **Ax–Schanuel / functional transcendence.** Control algebraic relations among coordinates of the universal cover or period coordinates (a functional transcendence input).
-4. **Monodromy and Hodge-theoretic constraints.** Use the monodromy group and the geometry of the period domain or Shimura datum to conclude that the only algebraic pieces that can appear are the expected special ones.
-5. **Conclusion.** Zariski closures of special-point sets are special; period images are algebraic as predicted.
-
-Different papers implement different subsets of this pattern; some replace steps with arithmetic geometry of Galois orbits (large Galois orbits of special points are another engine in André–Oort). Tsimerman’s contributions sit at critical joints of these arguments for the Siegel and period-map settings named by the IMU.
-
----
-
-## 5. Model theory → arithmetic: why the bridge is surprising
-
-Logic and model theory traditionally study axiomatic systems, decidability, and definable sets in abstract structures. Diophantine geometry traditionally studies rational points, heights, and arithmetic of varieties. For much of the twentieth century they seemed distant.
-
-The Pila–Zannier strategy for unlikely intersections—and the subsequent explosion of o-minimal methods in arithmetic geometry—changed the sociology of the fields. Theorems about **definable sets in expansions of the reals** became lemmas in papers about **CM points on Shimura varieties**. Tsimerman’s medal is a high-water mark of that cultural and technical merger.
-
-Compare with other bridges in this chapter:
+For most of the twentieth century, mathematical logic and Diophantine geometry lived on different planets. The **Pila–Zannier strategy**, elevated by Tsimerman and collaborators (Bakker, Brunebarbe, Mok, Pila, Shankar, Ullmo, Yafaev, and others) into a systematic o-minimal toolkit, permanently reshaped both fields:
 
 | Bridge | From | To |
 |--------|------|-----|
-| O-minimality (Tsimerman et al.) | Tame topology / model theory | Special points, period images |
+| O-minimality (Tsimerman et al.) | Tame topology / model theory | Special points (André–Oort), period images (Griffiths) |
 | [Langlands]({{ site.baseurl }}/contents/en/chapter02/02_02_Langlands_Program/) | Automorphic forms / representation theory | Galois representations, arithmetic |
-| Green–Tao methods | Additive combinatorics / ergodic theory | Patterns in primes |
-| Perfectoid methods ([Scholze]({{ site.baseurl }}/contents/en/chapter02/02_06_Scholze_Perfectoid/)) | $$p$$-adic geometry | Hodge–Tate weights, Galois cohomology |
-
-Each bridge has its own vocabulary tax; each is rewarded when it solves problems the destination field already cared about.
+| [Green–Tao]({{ site.baseurl }}/contents/en/chapter02/02_04_Green_Tao/) | Additive combinatorics / ergodic theory | Patterns in primes |
+| [Scholze]({{ site.baseurl }}/contents/en/chapter02/02_06_Scholze_Perfectoid/) | Perfectoid $$p$$-adic geometry | Hodge–Tate weights, Galois cohomology |
 
 ---
 
-## 6. Why a Fields Medal
+## 4. Why a Fields Medal
 
-The IMU short citation is unusually explicit about **method** and **targets**:
+The 2026 IMU citation highlights both **method** and **targets**:
+1. **Method:** Recasting o-minimality as a fundamental toolkit in arithmetic and complex algebraic geometry.
+2. **Target A:** Griffiths’ conjecture on the algebraicity of images of period maps (with Bakker and Brunebarbe).
+3. **Target B:** The André–Oort conjecture for Siegel modular varieties $$\mathcal{A}_g$$ (and later the full André–Oort conjecture for all Shimura varieties, with Pila, Shankar, Esnault, and Groechenig).
 
-1. **Method:** recasting o-minimality as fundamental in arithmetic and complex algebraic geometry.
-2. **Target A:** Griffiths’ conjecture on algebraicity of period map images.
-3. **Target B:** André–Oort for Siegel modular varieties.
-4. **Scope:** “many central conjectures” beyond the two named highlights.
-
-For learners, the takeaway is dual:
-
-- **Conceptually:** special loci and period images obey rigidity laws that tame topology can detect.
-- **Sociologically:** a Fields Medal can recognize a **change of method** as much as a single equation solved.
-
-What remains open includes André–Oort in full generality for all Shimura varieties in every formulation, many Zilber–Pink-type unlikely-intersection conjectures beyond André–Oort, and effective or quantitative versions of the finiteness statements. The medal closes major cases and legitimizes a toolkit; it does not freeze the subject.
+Open frontiers remain—most famously the sweeping **Zilber–Pink conjectures** (generalizing André–Oort to higher-dimensional unlikely intersections) and effective quantitative bounds.
 
 ---
 
@@ -150,12 +158,12 @@ What remains open includes André–Oort in full generality for all Shimura vari
 
 | Claim | Correction |
 |-------|------------|
-| “O-minimality is only about real algebraic / semialgebraic sets.” | Semialgebraic sets are the prototype; powerful expansions are used in period geometry. |
-| “André–Oort is only about modular curves.” | The general setting is Shimura varieties; Siegel modular varieties are a central higher-dimensional case. |
-| “Period maps are algebraic maps by definition.” | They are analytic a priori; algebraicity of images is a theorem (in the cases proved). |
-| “Model theory cannot prove arithmetic theorems.” | Via o-minimality and point counting, it has become a standard engine. |
-| “Tsimerman’s medal is only André–Oort.” | The citation also names period-map algebraicity and the broader method recasting. |
-| “Unlikely intersections means random points never meet.” | It means atypical excess intersections force geometric structure (special subvarieties). |
+| “O-minimality is only about real polynomials / semialgebraic sets.” | Semialgebraic sets are the prototype; $$\mathbb{R}_{\mathrm{an},\exp}$$ is the powerhouse used in period geometry. |
+| “André–Oort is only about modular curves.” | The general setting is Shimura varieties; Siegel modular varieties $$\mathcal{A}_g$$ are a central higher-dimensional case. |
+| “Period maps are algebraic maps by definition.” | They are analytic/transcendental a priori; algebraicity of images is a deep theorem. |
+| “Model theory cannot prove arithmetic theorems.” | Via o-minimality and Pila–Wilkie counting, it is now a standard arithmetic engine. |
+| “Tsimerman’s medal is only André–Oort.” | The citation also names Griffiths’ conjecture on period-map images and the broader recasting of o-minimality. |
+| “Unlikely intersections means random points never meet.” | It means atypical excess intersections force rigid geometric structure (special subvarieties). |
 
 ---
 

@@ -9,9 +9,11 @@ categories:
 - chapter07
 ---
 
-This **Section 7 flagship** is the seminar’s default **exploration portfolio** (**A5** / **LO5**). You will not prove the Collatz conjecture. You will **design experiments**, **keep a research log**, and **report what you learned**—including failed attempts, dead ends, and revised definitions.
+Pick any positive integer. If it is even, cut it in half; if it is odd, multiply by 3 and add 1. Repeat those two grade-school lines forever. Try $$6$$: $$6 \to 3 \to 10 \to 5 \to 16 \to 8 \to 4 \to 2 \to 1$$—just 8 gentle steps down to $$1$$. Now try $$27$$: instead of falling, it shoots like a roller coaster all the way up to **9,232** and takes **111 steps** before finally touching down at $$1$$! For nearly a century, some of the sharpest minds in mathematics have poked at this rule, prompting Paul Erdős's famous remark: *"Mathematics may not be ready for such problems."*
 
-**Theme.** What happens when a simple deterministic rule is iterated forever?
+Welcome to the **Chapter 7 flagship exploration studio**. Your job is **not** to prove the Collatz conjecture. Instead, you step into a live mathematical workshop with one wide-open question: *What happens when a simple deterministic rule is iterated forever?* You will **design controlled experiments**, **keep a dated research log**, and **report honestly** everything you discover—including killed hypotheses, off-by-one bugs, and the fundamental boundary no supercomputer can cross.
+
+**Lesson roadmap:** Background Knowledge Map (discrete dynamical systems, additive–multiplicative friction & logarithmic density) → The Collatz map & stopping times → Deep-Dive Explanation (Read Slowly): hand-computing the $$\log(3/4)$$ logarithmic drift and 6 layers of the inverse Collatz tree → Tao (2019) & GPU verification → Portfolio structure, experiments & log.
 
 **Companion problem page.** [Collatz conjecture (Ch.1)]({{ site.baseurl }}/contents/en/chapter01/01_07_Collatz_Conjecture/) · Related: [Chaos]({{ site.baseurl }}/contents/en/chapter04/04_05_Chaos/) · [RH]({{ site.baseurl }}/contents/en/chapter01/01_02_Riemann_Hypothesis/) (verification vs proof).
 
@@ -30,6 +32,24 @@ After this studio you should be able to:
 - Transfer the studio method to another Section 7 prompt if you switch topics (with instructor approval).
 
 **Prerequisites.** Integer arithmetic, modular thinking, ability to write a short program (or use a CAS), and willingness to plot data.
+
+---
+
+## Background Knowledge Map: What Are Discrete Dynamical Systems and Experimental Number Theory?
+
+How can a rule built out of multiplying by 3, adding 1, and dividing by 2 stump all of modern mathematics? It sits right at the hardest intersection of three domains:
+
+### 1. Discrete Dynamical Systems and Arithmetic Dynamics
+
+Dynamical systems track orbits $$x, f(x), f(f(x)), \dots$$ under repeated iteration, asking: *Do orbits escape to infinity? Settle into cycles? Separate chaotically from nearby seeds (like $$26$$ vs. $$27$$)?* Over the real numbers (like the logistic map or Newton's method), derivatives and calculus measure stability. Over the **integers**, Collatz lives in **arithmetic dynamics**, where ordinary continuous derivatives do not exist!
+
+### 2. Friction Between Additive and Multiplicative Structure
+
+Dividing by $$2$$ respects prime factorization cleanly—in binary, it simply deletes a trailing `0`. By contrast, $$3n+1$$ adds $$1$$, which **scrambles the entire prime factorization** of $$n$$ in ways we barely know how to track. This same clash between addition and multiplication lies behind the Goldbach conjecture and the $$abc$$ conjecture.
+
+### 3. Experimental Number Theory and Logarithmic Density
+
+When universal proofs remain out of reach, mathematicians combine massive computational checks (hunting for counterexamples and measuring statistical distributions) with **probabilistic number theory**—such as Terence Tao's 2019 breakthrough using logarithmic density and random walks on the 2-adic integers $$\mathbb{Z}_2$$ to control *almost all* Collatz orbits.
 
 ---
 
@@ -59,19 +79,37 @@ Iterate $$n,\;T(n),\;T(T(n)),\;\ldots$$. The **Collatz conjecture** asserts that
 
 Common statistics (define carefully):
 
-- **Total stopping time** $$\sigma_\infty(n)$$: number of applications of $$T$$ needed to reach 1.  
-- **Stopping time** $$\sigma(n)$$: number of steps to reach a value **strictly smaller** than $$n$$.  
-- **Maximum excursion**: largest value appearing in the orbit before descent to 1.
-
-These are empirical probes, not substitutes for a proof. Record formulas in code comments and in the log.
+- **Total stopping time** $$\sigma_\infty(n)$$: number of applications of $$T$$ needed to reach 1 (e.g., $$\sigma_\infty(6) = 8$$, $$\sigma_\infty(7) = 16$$).  
+- **Stopping time** $$\sigma(n)$$: number of steps to reach a value **strictly smaller** than $$n$$ ($$\sigma(6) = 1$$ since $$3<6$$, while $$\sigma(7) = 11$$ since the orbit first drops below $$7$$ at $$5$$).  
+- **Maximum excursion**: largest value appearing in the orbit before descent to 1 ($$52$$ for $$n=7$$; $$9{,}232$$ for $$n=27$$!).
 
 ### 1.3 Why the problem is hard (studio-level)
 
-The map mixes a contracting operation (division by 2) with an expanding one ($$3n+1$$). On average, heuristic models suggest orbits tend to decrease—roughly, an odd step followed by the expected number of factors of 2 multiplies by about $$3/4$$—but heuristics are not proofs, and they can hide rare counterexample-shaped events. The map is deterministic, yet statistics of stopping times look irregular; that is **complexity of orbits**, not randomness of the rule.
+#### Deep-Dive Explanation (Read Slowly): Hand-Computing the $$\log(3/4)$$ Drift and the Inverse Collatz Tree
 
-Partial results exist (density of integers that eventually fall below themselves; verification to enormous bounds; results on almost all integers in various senses). Your studio should **cite** partial results you mention, not invent them.
+Two short calculations explain both why orbits *tend* to fall and why proving it for *every* $$n$$ is so elusive:
 
-**From the video/research pack (must-know slogans for A5 writeups).**
+**Example 1 — Computing the expected log-drift per odd-to-odd (Syracuse) step:**
+Start from a large odd integer $$n$$, form the even number $$3n + 1$$, and divide by $$2$$ repeatedly $$k$$ times until the next odd integer $$n' = \frac{3n+1}{2^k} \approx \frac{3}{2^k}n$$. Modeling $$3n+1$$ as a "random" even number, the probability that it is divisible by *exactly* $$2^k$$ is $$2^{-k}$$ ($$1/2$$ for $$k=1$$, $$1/4$$ for $$k=2$$, etc.). Now compute the expected logarithmic change:
+$$
+\mathbb{E}\!\left[\log\frac{n'}{n}\right] \approx \sum_{k=1}^{\infty} \frac{1}{2^k} \log\!\left(\frac{3}{2^k}\right) = \log 3 \underbrace{\sum_{k=1}^{\infty} \frac{1}{2^k}}_{=\,1} \;-\; \log 2 \underbrace{\sum_{k=1}^{\infty} \frac{k}{2^k}}_{=\,2} = \log 3 - 2\log 2 = \log\!\left(\frac{3}{4}\right) \approx -0.2877 < 0!
+$$
+*(Quick check of $$\sum k/2^k = 2$$: if $$S = \frac{1}{2} + \frac{2}{4} + \frac{3}{8} + \dots$$, then $$2S - S = 1 + \frac{1}{2} + \frac{1}{4} + \dots = 2$$.)*
+The negative drift $$-0.2877$$ means that in geometric mean, every odd-to-odd cycle shrinks $$n$$ by roughly a factor of **$$3/4$$**! Yet this remains a **heuristic**: we assumed powers of 2 stay independent across iterations, which no one knows how to prove for *every* starting integer.
+
+**Example 2 — Building the first 6 layers of the inverse Collatz tree by hand:**
+Running backward from $$1$$: every integer $$m$$ has preimage $$2m$$; additionally, whenever $$m \equiv 4 \pmod 6$$, $$(m-1)/3$$ is an odd positive preimage:
+- Depth 0: $$1$$
+- Depth 1: $$2$$
+- Depth 2: $$4$$ ($$4 \equiv 4 \pmod 6$$ gives $$1$$, the trivial cycle)
+- Depth 3: $$8$$
+- Depth 4: $$16$$ (since $$16 \equiv 4 \pmod 6$$, the **first real branch** appears!)
+- Depth 5: $$32$$ and $$(16-1)/3 = \mathbf{5}$$
+- Depth 6: $$32 \to 64$$; $$5 \to 10$$ (and since $$10 \equiv 4 \pmod 6$$, Depth 7 splits off $$3$$!).
+
+The Collatz conjecture simply asks: *does this backward tree rooted at $$1$$ eventually swallow every positive integer?*
+
+**From the video/research pack (must-know slogans for writeups).**
 
 - **$$\operatorname{Col}_{\min}(N)$$** = smallest value appearing in the forward orbit of $$N$$. Full Collatz: $$\operatorname{Col}_{\min}(N)=1$$ for every positive $$N$$ (**open**).  
 - **Tao (2019):** for almost all $$N$$ (logarithmic density), $$\operatorname{Col}_{\min}(N)<f(N)$$ whenever $$f(N)\to\infty$$—no matter how slowly. This is a **theorem about almost all seeds**, not a proof of the full conjecture. Cite [arXiv:1909.03562](https://arxiv.org/abs/1909.03562) if you mention it.  
@@ -82,22 +120,15 @@ Full extraction: Ch.1 Collatz essay §6–7 and `research/video-research/collatz
 
 ### 1.4 Inverse tree
 
-Working backwards: every $$m$$ has preimage $$2m$$. If $$m\equiv 2\pmod{3}$$ and $$(m-1)/3$$ is a positive odd integer (check conditions carefully for your $$T$$), that may also be a preimage. The tree of numbers flowing to 1 is a rich experimental object: breadth at depth $$k$$, residue patterns, coverage of $$\mathbb{N}$$.
+Working backwards: every $$m$$ has preimage $$2m$$. If $$m\equiv 4\pmod{6}$$, then $$(m-1)/3$$ is also a positive odd preimage. The tree of numbers flowing to 1 is a rich experimental object: breadth at depth $$k$$, residue patterns, coverage of $$\mathbb{N}$$.
 
 ### 1.5 Iteration beyond Collatz
 
-The same studio method applies to:
-
-- logistic map $$x\mapsto rx(1-x)$$ on $$[0,1]$$ (chaos lite);  
-- Syracuse-type maps;  
-- Babylonian square-root iteration;  
-- Newton’s method on a polynomial.
-
-If you switch topic, keep the **portfolio structure** below. Collatz remains the default because it is elementary to code and genuinely open.
+The same studio method applies to the logistic map $$x\mapsto rx(1-x)$$, Syracuse-type maps, Babylonian square-root iteration, or Newton’s method on a polynomial. If you switch topic, keep the **portfolio structure** below. Collatz remains the default because it is elementary to code and genuinely open.
 
 ### 1.6 Verification versus proof
 
-Collatz has been checked for all starting values up to extremely large bounds (cite a reliable source in your report—the bound changes over time). Parallel moral from RH: zeros computed high on the critical line support belief but do not close the problem. **Infinite domains are not exhausted by finite searches.**
+Collatz has been checked for all starting values past $$2^{68} \approx 2.95 \times 10^{20}$$ (cite a reliable source in your report—the bound changes over time). Parallel moral from RH: zeros computed high on the critical line support belief but do not close the problem. **Infinite domains are not exhausted by finite searches.**
 
 ---
 

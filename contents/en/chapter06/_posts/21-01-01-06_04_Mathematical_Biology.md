@@ -9,9 +9,22 @@ categories:
 - chapter06
 ---
 
-Biology is noisy, multi-scale, and historically descriptive—yet every successful quantitative claim eventually becomes mathematics: rates, balances, geometries, stochastic processes, and inference from incomplete data. **Mathematical biology** is not a single theorem; it is a family of modeling languages that turn living systems into objects one can analyze, simulate, and sometimes control. The frontier is honesty about scales: a beautiful ODE can be right for a well-mixed tank and wrong for a tissue; a genome-scale network can be structurally interesting and still underdetermined by measurements.
+In 1952, already famous for laying the foundations of computer science and helping crack Enigma, Alan Turing published a paper that had nothing to do with computers. He asked why leopards have spots, zebras have stripes, and a uniform sphere of embryonic cells spontaneously breaks symmetry into a living body. He wrote down two deceptively simple reaction–diffusion equations—and watched biological patterns emerge from mathematical instability.
 
-This lecture maps core model classes—population dynamics, reaction kinetics, spatial pattern formation, stochastic gene expression, evolutionary games, and network biology—while practicing **theorem vs heuristic vs hype** literacy in a domain flooded with “AI for biology” headlines.
+Biology has long been known as a noisy, multi-scale, exception-filled world, the opposite of physics’ clean symmetries. Yet every quantitative claim in biology—when an epidemic will peak, how a gene bursts on and off inside a single cell, or whether predator and prey coexist—ultimately becomes mathematics: rates of change, equilibria, spatial geometry, stochastic processes, and inference from noisy data. **Mathematical biology** is not a single theorem; it is the craft of matching the right mathematical language to the right biological scale.
+
+The hardest virtue here is **honesty about scales**: a clean ODE may describe a well-stirred flask accurately yet fail in solid tissue, while a genome-scale interaction graph can look impressive structurally yet leave dynamics completely underdetermined. This lecture surveys the core modeling families and sharpens your eye for “AI has solved biology” hype.
+
+---
+
+## Background Knowledge Map: What Is Mathematical Biology and What Does It Study?
+
+Whereas classical physics often searches for one universal equation valid everywhere, **Mathematical Biology** works like a cartographer’s workshop producing maps at different resolutions. Depending on the biological scale, the mathematics shifts completely:
+
+1. **Populations & Epidemics (Ordinary Differential Equations — ODEs):** Ignoring individual spatial locations, we track total counts or fractions over time: logistic growth, Lotka–Volterra predator–prey cycles, and compartmental SIR epidemic models.
+2. **Tissues & Morphogenesis (Partial Differential Equations — PDEs):** When space matters—cells migrating, chemicals diffusing across an embryo—reaction–diffusion PDEs capture traveling waves and Turing pattern formation.
+3. **Inside Single Cells (Stochastic Processes — Markov Chains & Master Equations):** When a cell contains only a handful of mRNA molecules, “continuous concentration” breaks down; each reaction is a random jump governed by the chemical master equation.
+4. **Evolution & Systems (Game Theory & Graphs):** Natural selection is not static optimization—the fitness of a strategy depends on *what everyone else is playing* (replicator dynamics), while gene and protein networks form intricate feedback graphs.
 
 ---
 
@@ -65,6 +78,40 @@ Threshold quantities such as the basic reproduction number $$R_0$$ arise from li
 **What is theorem-shaped here?** Local stability criteria for equilibria of smooth ODEs; threshold theorems in structured epidemic models under explicit assumptions. **What is modeling judgment?** Choice of compartments, contact structure, time-varying parameters, and behavioral feedback. COVID-era public communication often blurred these layers; good literacy separates mathematical consequences of a model from empirical fit and policy.
 
 ---
+
+### Deep-Dive Explanation: Computing the SIR Epidemic Peak and Herd Immunity by Hand (Read Slowly)
+
+People often assume the nonlinear SIR system can only be understood through computer simulation. In fact, one clever division from first-year calculus lets you calculate the **exact height of the epidemic peak** without ever solving for $$I(t)$$ as a function of time!
+
+1. **Find an exact conserved quantity (first integral):** Divide $$\dot I = \beta SI - \gamma I$$ by $$\dot S = -\beta SI$$ to eliminate time $$t$$:
+
+   $$
+   \frac{dI}{dS} = \frac{\beta SI - \gamma I}{-\beta SI} = -1 + \frac{\gamma}{\beta S} = -1 + \frac{1}{R_0 S}, \qquad \text{where } R_0 = \frac{\beta}{\gamma}.
+   $$
+
+   Integrating both sides with respect to $$S$$ gives a quantity that stays constant along the entire epidemic trajectory:
+
+   $$
+   I(t) + S(t) - \frac{1}{R_0}\ln S(t) \;=\; I_0 + S_0 - \frac{1}{R_0}\ln S_0.
+   $$
+
+2. **Plug in concrete numbers (matching the video above):** Take $$R_0 = 3$$, starting with $$3\%$$ infected and $$97\%$$ susceptible ($$S_0 = 0.97,\ I_0 = 0.03,\ S_0 + I_0 = 1$$).
+   - **When does the peak occur?** Exactly when $$\dot I = 0 \Leftrightarrow \beta SI = \gamma I \Leftrightarrow S_{\text{peak}} = \frac{1}{R_0} = \frac{1}{3} \approx 0.333$$.
+   - **How high is the peak?** Substitute $$S_{\text{peak}} = \frac{1}{3}$$ into the conserved quantity:
+     $$
+     I_{\text{peak}} = (S_0 + I_0) - S_{\text{peak}} + \frac{1}{R_0}\ln\Bigl(\frac{S_{\text{peak}}}{S_0}\Bigr)
+     = 1 - \frac{1}{3} + \frac{1}{3}\ln\Bigl(\frac{1/3}{0.97}\Bigr)
+     \approx 0.667 + \frac{1}{3}(-1.068) \approx 0.311.
+     $$
+     More than **31% of the entire population is infected at the exact same moment**—explaining immediately why healthcare systems strain when $$R_0 = 3$$!
+
+3. **Herd immunity threshold:** To prevent an outbreak from growing at $$t=0$$, we need $$\dot I(0) \le 0 \Leftrightarrow S_0 \le \frac{1}{R_0}$$. For $$R_0 = 3$$, the minimum vaccinated fraction is
+
+   $$
+   p_c = 1 - \frac{1}{R_0} = 1 - \frac{1}{3} = \frac{2}{3} \approx 66.7\%.
+   $$
+
+Every number above is an exact theorem *inside the well-mixed SIR model*. In real life, the decisive scientific question is never whether the integral was done right—it is how far real contact networks and changing behavior depart from the well-mixed assumption.
 
 ## 2. Biochemical networks: stoichiometry and kinetics
 

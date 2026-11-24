@@ -9,9 +9,24 @@ categories:
 - chapter06
 ---
 
-A large language model answers a question in under a second. Behind that answer sit vectors in thousands of dimensions, matrices with billions of parameters, a loss surface nobody can draw, and a training process that is **optimization under uncertainty**. Modern AI systems are engineering products—and **mathematical objects**. This flagship lecture maps the mathematics that underwrites deep learning and the questions that remain open, without pretending the subject is settled theory.
+Type a question into a chat box, and in less than a second a large language model replies in fluent prose. Behind that effortless moment runs an astonishing mathematical machine: words become vectors in thousands of dimensions, pass through dozens of matrix layers carrying billions of parameters, and the model’s entire “memory” was sculpted by sliding downhill across a nonconvex loss surface nobody can visualize.
 
-The skill to practice here is **frontier literacy**: separating theorems, empirical regularities, heuristics, and marketing claims. Scale and clever engineering matter; so do linear algebra, probability, optimization, and high-dimensional geometry. The point is not to “solve AI” in one essay, but to see **what kind of mathematics is actually doing the work**.
+The delicious irony of modern AI is that **engineering is sprinting ahead of theory**. Just as the Wright brothers flew before humanity mastered nonlinear aerodynamics, deep learning works remarkably well while its deepest mathematical questions—why stochastic gradient descent avoids bad local minima, and why overparameterized networks generalize instead of memorizing—remain only partly understood. Modern AI systems are simultaneously engineering products and **fascinating mathematical objects**.
+
+This flagship lecture maps the mathematics under the hood of deep learning and the genuine open questions around it, without pretending the subject is settled. The skill to practice is **frontier literacy**: separating theorems, empirical regularities, heuristics, and marketing claims.
+
+---
+
+## Background Knowledge Map: What Is the Mathematics of AI and What Does It Study?
+
+If you took linear algebra, multivariable calculus, and probability at university, you already hold the three main keys to the mathematics of AI. Rather than a single isolated branch, **Mathematics of AI** sits at the intersection of four core questions:
+
+1. **Representation (Linear Algebra & Approximation Theory):** How do we turn images, audio, and text into vectors in $$\mathbb{R}^d$$, and which complex functions can deep compositions of simple layers represent efficiently?
+2. **Optimization (Calculus & Dynamical Systems):** Deep loss landscapes have billions of variables and countless valleys and saddle points. Why does a simple noisy descent rule like SGD reliably land in useful basins?
+3. **Generalization (Probability & High-Dimensional Statistics):** A network with more parameters than training examples can memorize random noise—yet still predicts accurately on unseen structured data. What geometric and probabilistic mechanisms prevent catastrophic overfitting?
+4. **Reliability & Structure (Geometry, Information Theory, Causality):** Why are decision boundaries fragile to tiny adversarial perturbations, and when does a model capture causal structure rather than surface correlation?
+
+Put simply: linear algebra is the **language** of models, calculus and optimization are the **engine** of training, and probability plus high-dimensional geometry are the **microscope** explaining generalization.
 
 ---
 
@@ -84,6 +99,39 @@ Backpropagation is the chain rule organized for computational graphs: automatic 
 **What optimization mathematics asks.** When do methods converge? How do step sizes, momentum, and adaptive methods (Adam and relatives) behave? What is the role of batch size and noise? In deep learning, landscapes are nonconvex and enormous; classical **convex** guarantees rarely apply directly—yet empirically SGD-type methods often find parameters that work. Explaining that gap is a **research program**, not a slogan. Continuous-time limits (gradient flow), mean-field and NTK regimes, and landscape geometry (saddle points, basins, implicit bias) are active interfaces between analysis, probability, and practice.
 
 ---
+
+### Deep-Dive Explanation: One Forward Pass, Loss, and Backprop Step by Hand (Read Slowly)
+
+Backpropagation often feels like a black box inside PyTorch. In reality, it is just the multivariable chain rule organized cleanly on concrete numbers. Let us trace one complete training step by hand on a tiny 2-layer ReLU network with **input** $$x = \begin{pmatrix}1\\-2\end{pmatrix}$$, **target** $$y = 4$$, and activation $$\mathrm{ReLU}(z) = \max(0, z)$$.
+
+Start with explicit weights:
+
+$$
+W_1 = \begin{pmatrix} 1 & -1 \\ 2 & 1 \end{pmatrix}, \qquad
+b_1 = \begin{pmatrix} 0 \\ 1 \end{pmatrix}, \qquad
+w_2 = \begin{pmatrix} 1 & -1 \end{pmatrix}, \qquad
+b_2 = 0.
+$$
+
+1. **Forward pass:**
+   - Pre-activation hidden vector: $$z_1 = W_1 x + b_1 = \begin{pmatrix}1(1) + (-1)(-2) + 0 \\ 2(1) + 1(-2) + 1\end{pmatrix} = \begin{pmatrix}3 \\ 1\end{pmatrix}$$.
+   - After ReLU (both entries are positive, so both pass through): $$h = \mathrm{ReLU}(z_1) = \begin{pmatrix}3 \\ 1\end{pmatrix}$$.
+   - Prediction: $$\hat y = w_2 h + b_2 = 1(3) + (-1)(1) + 0 = 2$$.
+   - Squared loss: $$\ell = \frac{1}{2}(\hat y - y)^2 = \frac{1}{2}(2 - 4)^2 = 2$$.
+
+2. **Backward pass (chain rule from right to left):**
+   - Output derivative: $$\frac{\partial \ell}{\partial \hat y} = \hat y - y = 2 - 4 = -2$$.
+   - Gradient for output weights $$w_2$$: $$\frac{\partial \ell}{\partial w_2} = \frac{\partial \ell}{\partial \hat y}\, h^\top = (-2)\begin{pmatrix}3 & 1\end{pmatrix} = \begin{pmatrix}-6 & -2\end{pmatrix}$$.
+   - Error signal sent back to hidden layer $$h$$: $$\frac{\partial \ell}{\partial h} = w_2^\top \frac{\partial \ell}{\partial \hat y} = \begin{pmatrix}1 \\ -1\end{pmatrix}(-2) = \begin{pmatrix}-2 \\ 2\end{pmatrix}$$.
+   - Through the ReLU derivative (since $$z_{1,1}=3>0$$ and $$z_{1,2}=1>0$$, both slopes equal $$1$$): $$\frac{\partial \ell}{\partial z_1} = \begin{pmatrix}-2 \\ 2\end{pmatrix}$$.
+   - Gradient for $$W_1$$:
+     $$\frac{\partial \ell}{\partial W_1} = \frac{\partial \ell}{\partial z_1}\, x^\top = \begin{pmatrix}-2 \\ 2\end{pmatrix}\begin{pmatrix}1 & -2\end{pmatrix} = \begin{pmatrix}-2 & 4 \\ 2 & -4\end{pmatrix}.$$
+
+3. **One Gradient Descent step (updating $$w_2$$ with learning rate $$\eta = 0.1$$):**
+   - Updated weights: $$w_2^{\text{new}} = w_2 - 0.1\begin{pmatrix}-6 & -2\end{pmatrix} = \begin{pmatrix}1.6 & -0.8\end{pmatrix}$$.
+   - New prediction: $$\hat y^{\text{new}} = 1.6(3) + (-0.8)(1) = 4.0$$—**the loss drops from $$2$$ all the way to $$0$$ in a single step!**
+
+There is no mystery here: backpropagation simply caches intermediate values ($$h, z_1$$) during the forward pass so that computing gradients for a billion weights costs roughly the same as two forward passes instead of a billion separate perturbations.
 
 ## 4. Probability, statistics, and generalization
 
