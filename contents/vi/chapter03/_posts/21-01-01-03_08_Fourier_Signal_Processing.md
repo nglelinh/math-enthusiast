@@ -111,13 +111,59 @@ $$
 x_n=\frac1N\sum_{k=0}^{N-1}\hat x_k e^{2\pi i kn/N}.
 $$
 
+### Ví dụ cầm tay chỉ việc: Tự tay tính Biến đổi Fourier Rời rạc (DFT) 4 điểm bằng ma trận
+
+Xét một tín hiệu rời rạc 4 mẫu $$x = (1,\ 0,\ -1,\ 0)^\top$$ (đúng là một chu kỳ sóng $$\cos(\pi n/2)$$!). Với $$N=4$$, căn bậc 4 của đơn vị là $$\omega = e^{-2\pi i/4} = -i$$. Ma trận DFT $$F_4$$ có phần tử $$(k,n)$$ bằng $$\omega^{kn}$$:
+
+$$
+F_4 = \begin{pmatrix}
+1 & 1 & 1 & 1 \\
+1 & -i & -1 & i \\
+1 & -1 & 1 & -1 \\
+1 & i & -1 & -i
+\end{pmatrix}.
+$$
+
+1. **Nhân ma trận $$\hat{x} = F_4 x$$ để chuyển sang miền tần số:**
+$$
+\hat{x} = \begin{pmatrix}
+1 & 1 & 1 & 1 \\
+1 & -i & -1 & i \\
+1 & -1 & 1 & -1 \\
+1 & i & -1 & -i
+\end{pmatrix}
+\begin{pmatrix} 1 \\ 0 \\ -1 \\ 0 \end{pmatrix}
+=
+\begin{pmatrix}
+1 + 0 - 1 + 0 \\
+1 + 0 + 1 + 0 \\
+1 + 0 - 1 + 0 \\
+1 + 0 + 1 + 0
+\end{pmatrix}
+=
+\begin{pmatrix} 0 \\ 2 \\ 0 \\ 2 \end{pmatrix}.
+$$
+2. **Đọc kết quả phổ:** thành phần trung bình $$\hat{x}_0 = 0$$ và tần số cao nhất $$\hat{x}_2 = 0$$; toàn bộ năng lượng tập trung đúng vào cặp tần số đối xứng $$k=1$$ và $$k=3 \equiv -1 \pmod 4$$ với biên độ bằng $$2$$!
+3. **Biến đổi ngược kiểm chứng:**
+$$
+x_n = \frac{1}{4}\bigl(2e^{i\pi n/2} + 2e^{-i\pi n/2}\bigr) = \cos\Bigl(\frac{\pi n}{2}\Bigr) \implies (1,\ 0,\ -1,\ 0).
+$$
+Không hề mất một giọt thông tin nào — DFT chỉ đơn giản là một phép nhân ma trận đổi cơ sở!
+
 Nếu tính trực tiếp theo định nghĩa (nhân ma trận $$N\times N$$ với vectơ), ta tốn $$O(N^2)$$ phép tính. Năm 1965, Cooley và Tukey công bố thuật toán **Biến đổi Fourier nhanh (FFT)** (vốn đã có mầm mống từ Gauss năm 1805), khai thác tính đối xứng của căn bậc $$N$$ của đơn vị để chia đôi bài toán đệ quy và hạ độ phức tạp xuống còn $$O(N\log N)$$.
 
 **Con số cho thấy bước nhảy vọt kinh khủng của FFT.** Xét một đoạn âm thanh chuẩn CD dài khoảng 24 giây: $$N = 2^{20} \approx 1{.}048{.}576$$ mẫu.
 - Tính DFT trực tiếp: $$N^2 \approx 1{,}1 \times 10^{12}$$ phép tính (hơn **1 nghìn tỷ** phép tính — không thể chạy thời gian thực trên điện thoại).
 - Tính bằng FFT: $$N\log_2 N \approx 2{,}1 \times 10^7$$ phép tính (chỉ **21 triệu** phép tính — **nhanh hơn 50.000 lần**, chạy xong trong vài mili-giây!).
 
-**Cơ chế.** *Xử lý tín hiệu số phủ sóng toàn cầu vì các thuật toán trong miền tần số không chỉ thanh lịch về lý thuyết mà còn siêu rẻ nhờ FFT.*
+### Khung giải thích: Từ sóng âm thanh liên tục đến file MP3/JPEG và sóng 5G (nên đọc chậm)
+
+1. **Lấy mẫu đúng ngưỡng Nyquist:** chuyển tín hiệu liên tục thành dãy số rời rạc với tốc độ $$f_s > 2B$$ (ví dụ 44,1 kHz cho tai người 20 kHz) để không bị chồng phổ.
+2. **Đổi hệ tọa độ siêu tốc bằng FFT/DCT:** chiếu mảng dữ liệu từ miền thời gian/điểm ảnh sang miền tần số chỉ tốn $$O(N\log N)$$ phép tính.
+3. **Xử lý gọn gàng trên miền tần số:** lọc nhiễu bằng cách nhân các tần số xấu với 0; nén ảnh JPEG/nhạc MP3 bằng cách lượng tử hóa (bỏ đi các hệ số tần số năng lượng nhỏ mà mắt/tai ít nhạy); tách kênh Wi-Fi/5G (OFDM) bằng cách đọc từng sóng mang con trực giao.
+4. **Biến đổi ngược (IFFT/IDCT):** tái tạo lại hình ảnh, âm thanh hay lát cắt MRI sắc nét cho con người.
+
+**Kiểm tra nhanh.** FFT không phải là một biến đổi toán học khác với DFT — FFT là **thuật toán chia để trị** tính ra kết quả giống hệt DFT nhưng nhanh hơn hàng chục nghìn lần.
 
 **Ví dụ trong viễn thông (Wi-Fi, 4G, 5G).** Kỹ thuật **OFDM** chia băng thông vô tuyến thành hàng trăm sóng mang con trực giao sát nhau. Thay vì phải lắp hàng trăm bộ dao động tương tự tốn kém, máy phát chỉ cần chạy một phép **IFFT** để ghép dữ liệu lên các sóng mang, và điện thoại của bạn chạy một phép **FFT** để tách dữ liệu ra ở đầu thu!
 

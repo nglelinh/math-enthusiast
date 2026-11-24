@@ -13,7 +13,9 @@ Năm 1801, trong kiệt tác *Disquisitiones Arithmeticae*, Carl Friedrich Gauss
 
 Rồi vào mùa hè năm 1998, một nghiên cứu sinh trẻ tuổi tại Princeton (đồng thời là tay trống tabla cừ khôi) tên là **Manjul Bhargava** ngồi xoay khối lập phương Rubik mini trong phòng ký túc xá và chợt nảy ra một ý tưởng làm rúng động giới lý thuyết số: nếu viết 8 số nguyên lên 8 đỉnh của một **khối lập phương $$2\times 2\times 2$$**, rồi cắt khối lập phương ấy theo 3 hướng (trên–dưới, trước–sau, trái–phải), bạn lập tức thu được đúng 3 dạng toàn phương nhị phân thỏa mãn luật hợp thành Gauss! Từ chiếc chìa khóa trực quan đó, Bhargava không chỉ viết lại Gauss trong vài dòng, mà còn khám phá ra **13 luật hợp thành bậc cao** mới, dùng chúng để đếm các trường số bậc $$2, 3, 4, 5$$, và cùng **Arul Shankar** chứng minh những định lý mang tính bước ngoặt về **hạng trung bình của đường cong elliptic** — thành tựu mang về cho ông **Huy chương Fields 2014**.
 
-Theo lời trích dẫn của IMU, giải thưởng dành cho việc *"phát triển những phương pháp mới mạnh mẽ trong hình học các số, và áp dụng chúng để đếm các vành hạng nhỏ và để chặn hạng trung bình của đường cong elliptic."* Bài này dành cho người đã biết nhóm lớp của một order bậc hai, hoặc nhóm $$E(\mathbb{Q})$$ các điểm hữu tỷ trên đường cong elliptic, và muốn hiểu cấu trúc chương trình đếm của Bhargava. Cần nói rõ ngay từ đầu: Bhargava **không** chứng minh [giả thuyết Birch–Swinnerton-Dyer]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/), nhưng các kết quả của ông về **nhóm Selmer** và hạng trung bình đã lần đầu tiên cho thấy hành vi thống kê của đa số đường cong elliptic khớp ngoạn mục với những gì BSD dự đoán.
+Theo lời trích dẫn của IMU, giải thưởng dành cho việc *"phát triển những phương pháp mới mạnh mẽ trong hình học các số, và áp dụng chúng để đếm các vành hạng nhỏ và để chặn hạng trung bình của đường cong elliptic."* Cần nói rõ ngay từ đầu: Bhargava **không** chứng minh [giả thuyết Birch–Swinnerton-Dyer]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/), nhưng các kết quả của ông về **nhóm Selmer** và hạng trung bình đã lần đầu tiên cho thấy hành vi thống kê của đa số đường cong elliptic khớp ngoạn mục với những gì BSD dự đoán.
+
+**Mạch bài học:** Bản đồ kiến thức nền (tính tay hoàn chỉnh **khối lập phương $$2\times 2\times 2$$ Bhargava** cho biệt thức $$-23$$, hình học các số và ví dụ hạng $$0/1$$ của đường cong elliptic) → Đếm vành hạng $$2, 3, 4, 5$$ → Khung giải thích chậm 4 bước: từ dạng bậc 4 nhị phân đến kích thước 2-Selmer $$= 3$$ và hạng trung bình bị chặn → Ghi nhận công lao & phân biệt với BSD.
 
 ---
 
@@ -21,104 +23,129 @@ Theo lời trích dẫn của IMU, giải thưởng dành cho việc *"phát tri
 
 Sau bài học, bạn có thể:
 
-- Phát biểu lời trích dẫn của IMU năm 2014 trong một đoạn, nêu được **hình học các số**, **vành hạng nhỏ** và **hạng trung bình của đường cong elliptic**.
-- Giải thích luật hợp thành Gauss của dạng toàn phương nhị phân như một luật nhóm trên các dạng có cùng biệt thức, và nói được một **luật hợp thành bậc cao** là gì (một phép tham số hóa đại số, không phải một phép toán hai ngôi bí ẩn trên mọi dạng).
-- Mô tả ở mức ý tưởng cách các quỹ đạo trong những biểu diễn nguyên tham số hóa vành hạng $$2,3,4,5$$ trên $$\mathbb{Z}$$.
-- Phân biệt **kích thước trung bình của nhóm Selmer** với một chứng minh của BSD, và trích dẫn đúng một kết luận về hạng (tỷ lệ dương có hạng $$0$$; hạng trung bình bị chặn).
-- Đặt phương pháp này vào truyền thống **không gian vector tiền thuần nhất** (Sato–Shintani, Wright, Yukie, Datskovsky–Wright).
-- Biết chi tiết tiểu sử thường được nhắc: Bhargava là **người gốc Ấn đầu tiên** nhận Huy chương Fields, và đánh giá tỉnh táo trước những câu nói quá kiểu "ông đã giải xong bài toán đường cong elliptic".
+- Tự tay kiểm tra phép cắt 3 chiều trên một **khối lập phương $$2\times 2\times 2$$ cụ thể** của Bhargava và tính ra ngay 3 dạng toàn phương cùng biệt thức $$D = -23$$.
+- Giải thích **hình học các số** (đếm điểm lưới nguyên qua thể tích miền cơ bản) và vai trò của nó trong việc đếm vành hạng $$2, 3, 4, 5$$.
+- Hiểu mạch 4 bước của **Bhargava–Shankar**: tham số hóa nhóm **2-Selmer** bằng dạng bậc 4 nhị phân → đếm quỹ đạo cho kích thước trung bình $$\#\mathrm{Sel}_2(E) = 3$$ → suy ra hạng trung bình $$\le 1{,}5$$ (rồi $$< 0{,}885$$).
+- Phân biệt rõ **định lý đã chứng minh** (hạng trung bình bị chặn; tỷ lệ dương có hạng $$0$$ và hạng $$1$$) với **giả thuyết chưa chứng minh** (hạng trung bình bằng $$1/2$$; giả thuyết BSD).
 
-**Kiến thức cần có.** Vành và ideal ở mức đại số năm nhất; dạng toàn phương nhị phân $$ax^2+bxy+cy^2$$ và biệt thức $$b^2-4ac$$; biết rằng nhóm điểm hữu tỷ của một đường cong elliptic trên $$\mathbb{Q}$$ là hữu hạn sinh, $$E(\mathbb{Q})\simeq\mathbb{Z}^r\oplus E(\mathbb{Q})_{\mathrm{tors}}$$. Không cần biết trước lý thuyết trường lớp.
+**Kiến thức cần có.** Ma trận $$2\times 2$$, định thức, biệt thức $$b^2 - 4ac$$ và khái niệm nhóm hữu hạn sinh $$E(\mathbb{Q}) \simeq \mathbb{Z}^r \oplus E(\mathbb{Q})_{\mathrm{tors}}$$. Không cần biết trước lý thuyết trường lớp.
 
-**Liên hệ với khóa học.** Câu chuyện về hạng có liên quan chặt với [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/): cùng đối tượng nhưng câu hỏi khác (giá trị trung bình, thay vì hàm $$L$$). Các bài liên quan: [Tsimerman]({{ site.baseurl }}/contents/vi/chapter02/02_14_Tsimerman_Arithmetic/), [Venkatesh]({{ site.baseurl }}/contents/vi/chapter02/02_07_Venkatesh_Number_Theory/), [Langlands / Ngô]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/). Cùng được trao giải năm 2014: [Avila]({{ site.baseurl }}/contents/vi/chapter02/02_16_Avila_Dynamics/), [Mirzakhani]({{ site.baseurl }}/contents/vi/chapter02/02_05_Mirzakhani_Moduli/).
+**Liên hệ với khóa học.** Câu chuyện về hạng gắn chặt với [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/). Các bài liên quan: [Tsimerman]({{ site.baseurl }}/contents/vi/chapter02/02_14_Tsimerman_Arithmetic/), [Venkatesh]({{ site.baseurl }}/contents/vi/chapter02/02_07_Venkatesh_Number_Theory/), [Langlands / Ngô]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/). Cùng năm 2014: [Avila]({{ site.baseurl }}/contents/vi/chapter02/02_16_Avila_Dynamics/), [Mirzakhani]({{ site.baseurl }}/contents/vi/chapter02/02_05_Mirzakhani_Moduli/).
 
 ---
 
 ## Bản đồ kiến thức nền: Hình học các số, Khối lập phương Bhargava và Đường cong elliptic
 
-Ba khái niệm nền tảng giúp bạn nắm trọn ý tưởng của bài học mà không bị lạc vào kỹ thuật đại số:
+### 1. Tự tính tay Khối lập phương $$2\times 2\times 2$$ của Bhargava (Biệt thức $$D = -23$$!)
+Đặt 8 số nguyên lên 8 đỉnh của một khối lập phương $$2\times 2\times 2$$, viết dưới dạng cặp hai mặt trước–sau $$M_1$$ và $$M_2$$:
 
-- **Hình học các số (Geometry of Numbers) nghiên cứu gì?** Bắt nguồn từ Hermann Minkowski cuối thế kỷ XIX, ngành này biến bài toán đếm số nguyên thành bài toán **đo thể tích**: số điểm lưới nguyên $$\mathbb{Z}^n$$ nằm bên trong một miền hình học lớn gần bằng chính *thể tích* của miền đó (sai khác một phần sai số ở biên). Nghe thì đơn giản, nhưng trong lý thuyết số hiện đại, miền cần đếm thường có những "mũi nhọn" dài vô tận (*cusp*), nên việc kiểm soát sai số là cả một nghệ thuật giải tích.
-- **Ví dụ cụ thể về khối lập phương $$2\times 2\times 2$$ của Bhargava:** Hãy tưởng tượng một khối lập phương với 8 đỉnh ghi 8 số nguyên $$(a, b, c, d, e, f, g, h)$$. Cắt khối theo chiều trên–dưới, ta được hai ma trận $$2\times 2$$ là $$M_1$$ và $$M_2$$; lập định thức $$Q_1(x, y) = -\det(M_1 x + M_2 y)$$, ta thu được ngay một dạng toàn phương nhị phân bậc hai! Làm tương tự theo chiều trái–phải và trước–sau, ta được thêm $$Q_2$$ và $$Q_3$$. Điều kỳ diệu là cả ba dạng $$Q_1, Q_2, Q_3$$ đều có **cùng một biệt thức $$D$$**, và trong nhóm lớp các dạng toàn phương, tích của chúng luôn bằng phần tử đơn vị: $$Q_1 \cdot Q_2 \cdot Q_3 = 1$$! Từ đó, muốn "hợp thành" $$Q_1$$ và $$Q_2$$, ta chỉ việc đặt chúng vào hai mặt của khối lập phương rồi đọc ra $$Q_3^{-1}$$ ở mặt thứ ba!
-- **Hạng của đường cong elliptic là gì (qua ví dụ nhỏ)?** Xét phương trình $$y^2 = x^3 + Ax + B$$ và tìm các nghiệm hữu tỷ $$(x, y) \in \mathbb{Q}^2$$. Các nghiệm hữu tỷ tạo thành một nhóm giao hoán hữu hạn sinh $$E(\mathbb{Q}) \simeq \mathbb{Z}^r \oplus E(\mathbb{Q})_{\mathrm{tors}}$$, trong đó số nguyên $$r \ge 0$$ gọi là **hạng** (*rank*). Ví dụ, đường cong $$y^2 = x^3 - x$$ chỉ có hữu hạn nghiệm hữu tỷ ($$(0,0), (1,0), (-1,0)$$ và điểm ở vô cực) nên có hạng $$r = 0$$; còn đường cong $$y^2 = x^3 - 2$$ có vô hạn nghiệm hữu tỷ sinh ra từ điểm cơ bản $$(3, 5)$$ nên có hạng $$r = 1$$. Thay vì hỏi hạng của *một* đường cong cụ thể (bài toán cực khó gắn với BSD), Bhargava và Shankar chuyển ngôn ngữ sang **thống kê số học**: nếu bốc ngẫu nhiên một đường cong elliptic, hạng trung bình của nó bằng bao nhiêu?
+$$
+M_1 = \begin{pmatrix} -1 & 1 \\ 1 & 1 \end{pmatrix}, \qquad M_2 = \begin{pmatrix} 1 & 1 \\ 1 & -2 \end{pmatrix}.
+$$
+
+Bây giờ lập tổ hợp tuyến tính $$M_1 x + M_2 y$$ rồi lấy **âm định thức**:
+
+$$
+Q_1(x, y) \;=\; -\det\begin{pmatrix} -x + y & x + y \\ x + y & x - 2y \end{pmatrix}
+\;=\; -\Bigl[(-x + y)(x - 2y) - (x + y)^2\Bigr]
+\;=\; \mathbf{2x^2 - xy + 3y^2}.
+$$
+
+Hãy kiểm tra biệt thức của $$Q_1$$: $$D = (-1)^2 - 4(2)(3) = 1 - 24 = \mathbf{-23}$$!
+Bây giờ bạn hãy cắt cùng khối lập phương đó theo hai chiều còn lại (trên–dưới và trái–phải): vì 8 số trên được chọn đối xứng hoàn toàn, cả ba lát cắt đều cho ra đúng ba dạng toàn phương $$Q_1 = Q_2 = Q_3 = 2x^2 - xy + 3y^2$$ có cùng biệt thức $$-23$$! Và trong nhóm lớp các dạng bậc hai biệt thức $$-23$$ (nhóm cyclic cấp 3 gồm $$x^2 + xy + 6y^2$$ và $$2x^2 \pm xy + 3y^2$$), tích của chúng đúng bằng phần tử đơn vị:
+
+$$
+Q_1 \cdot Q_2 \cdot Q_3 \;=\; Q_1^3 \;=\; 1!
+$$
+
+Tổng quát, với **mọi** khối lập phương 8 số nguyên bất kỳ, 3 lát cắt theo 3 chiều luôn sinh ra 3 dạng toàn phương nhị phân cùng biệt thức $$D$$ thỏa mãn $$Q_1 \cdot Q_2 \cdot Q_3 = 1$$ — rút gọn hàng chục trang công thức của Gauss thành đúng 3 dòng định thức $$2\times 2$$!
+
+### 2. Hình học các số (Geometry of Numbers) là gì?
+Bắt nguồn từ Hermann Minkowski cuối thế kỷ XIX, **hình học các số** biến bài toán đếm số nguyên thành bài toán **đo thể tích**: số điểm lưới nguyên $$\mathbb{Z}^n$$ nằm bên trong một miền hình học lớn gần bằng chính *thể tích* của miền đó (sai khác một phần sai số ở biên). Khi tham số hóa được các vành hoặc phần tử nhóm Selmer bằng các điểm nguyên trong một không gian vector (với tác động của nhóm $$\mathrm{SL}_n(\mathbb{Z})$$), ta chỉ cần tính thể tích miền cơ bản và khống chế các "đỉnh nhọn" (*cusp*) chạy ra vô tận!
+
+### 3. Hạng của đường cong elliptic — Ví dụ cầm tay hạng $$0$$ và hạng $$1$$
+Xét đường cong elliptic $$E: y^2 = x^3 + Ax + B$$ trên $$\mathbb{Q}$$. Theo Định lý Mordell–Weil, tập nghiệm hữu tỷ tạo thành nhóm giao hoán hữu hạn sinh $$E(\mathbb{Q}) \simeq \mathbb{Z}^{r_E} \oplus E(\mathbb{Q})_{\mathrm{tors}}$$, trong đó $$r_E \ge 0$$ là **hạng đại số**:
+- **Hạng $$r = 0$$:** Đường cong $$y^2 = x^3 - x$$ chỉ có đúng 4 điểm hữu tỷ là $$(0, 0), (1, 0), (-1, 0)$$ và điểm ở vô cực (toàn bộ là phần xoắn!).
+- **Hạng $$r = 1$$:** Đường cong $$y^2 = x^3 - 2$$ có điểm hữu tỷ $$P = (3, 5)$$ (kiểm tra: $$5^2 = 25 = 3^3 - 2$$!). Kẻ tiếp tuyến tại $$P$$ cắt đường cong tại điểm mới $$2P = \left(\frac{129}{100}, -\frac{383}{1000}\right)$$, cứ lặp mãi sinh ra **vô hạn** nghiệm hữu tỷ!
 
 ---
 
-## 1. Lịch sử của luật hợp thành các dạng
+## 1. Đếm các vành hạng $$2, 3, 4, 5$$ bằng Luật hợp thành bậc cao
 
-Năm 1801, **Gauss** mô tả một luật hợp thành cho hai dạng toàn phương nhị phân nguyên thủy có cùng biệt thức (chẳng hạn với biệt thức $$D = -23$$, có đúng 3 lớp dạng là $$x^2 + xy + 6y^2$$, $$2x^2 + xy + 3y^2$$ và $$2x^2 - xy + 3y^2$$, tạo thành nhóm cyclic cấp 3!). Theo ngôn ngữ hiện đại, các lớp dạng như vậy tương ứng với các lớp ideal trong order bậc hai có biệt thức đó, và phép hợp thành chính là luật nhóm của nhóm lớp, viết bằng các hệ số $$(a,b,c)$$. Cách xây dựng của Gauss sơ cấp nhưng nổi tiếng là dài dòng và khó nhớ.
+Một **vành hạng $$n$$** trên $$\mathbb{Z}$$ (như vành số nguyên của trường số bậc $$n$$) có biệt thức $$\mathrm{disc}$$. Bài toán đếm hỏi: có bao nhiêu lớp đẳng cấu với $$\vert\mathrm{disc}\vert < X$$ khi $$X \to \infty$$?
 
-Trong thế kỷ XX, hiện tượng này được viết lại bằng **lý thuyết biểu diễn kết hợp với hình học các số**. Các quỹ đạo nguyên của một nhóm kiểu $$\mathrm{SL}_2(\mathbb{Z})$$ tác động trên một lưới các dạng tham số hóa các đối tượng số học. Hình học các số của Minkowski, và sau đó lý thuyết **không gian vector tiền thuần nhất** (Sato, Shintani, cùng các phát triển số học của Wright, Yukie, Datskovsky–Wright và những người khác), cho cách *đếm* các quỹ đạo có biệt thức bị chặn. Vành bậc ba và trường bậc ba đã được xử lý bằng ngôn ngữ đó. Vành bậc bốn và bậc năm thì khó hơn rất nhiều: không gian các dạng tự nhiên lớn hơn, các nhóm ổn định phức tạp hơn, và khi đi từ một order sang trường các thương, ta mất những thông tin mà phép đếm *trường* vẫn cần.
+Trong luận án tiến sĩ (hướng dẫn bởi Andrew Wiles) và loạt 4 bài báo *Higher composition laws I–IV* trên *Annals of Mathematics* (2004–2008), Bhargava khám phá ra các **tham số hóa bằng quỹ đạo nguyên** cho mọi hạng nhỏ:
+- **Hạng 2:** Khối lập phương $$2\times 2\times 2$$ (thu lại luật Gauss).
+- **Hạng 3:** Dạng bậc ba nhị phân $$ax^3 + bx^2y + cxy^2 + dy^3$$ (mở rộng kết quả cổ điển Davenport–Heilbronn).
+- **Hạng 4:** Cặp dạng toàn phương ba biến (cặp ma trận đối xứng $$3\times 3$$) — lần đầu tiên đếm chính xác tiệm cận mật độ trường bậc 4!
+- **Hạng 5:** Bộ tứ dạng đối xứng lệch $$5\times 5$$ — lần đầu tiên đếm chính xác mật độ trường bậc 5!
 
-Luận án *Higher composition laws* của Bhargava (Princeton, 2001, người hướng dẫn là **Andrew Wiles**) và loạt bài trên *Annals* sau đó (2004–2008) xây dựng lại toàn bộ hệ thống tương ứng. Khối lập phương $$2\times 2\times 2$$ chính là trường hợp hạng $$2$$ của một quy luật tổng quát: các vành bậc $$2, 3, 4, 5$$ xuất hiện tự nhiên như các quỹ đạo nguyên trong những biểu diễn đại số cụ thể (như cặp dạng toàn phương ba biến cho bậc 4, hay bộ tứ dạng đối xứng lệch $$5\times 5$$ cho bậc 5!).
-
-**Ý chính.** Muốn đếm vành hay trường số, trước hết hãy *tham số hóa* chúng bằng các điểm nguyên trong một không gian vector, rồi dùng hình học các số để đếm các điểm đó. Luật hợp thành chính là cấu trúc đại số cho thấy phép tham số hóa đó sâu sắc chứ không hề ngẫu nhiên.
-
----
-
-## 2. Các định lý về vành hạng 2, 3, 4, 5
-
-Một **vành hạng $$n$$** trên $$\mathbb{Z}$$ là một vành có nhóm cộng đẳng cấu với $$\mathbb{Z}^n$$ (trong trường hợp số học điển hình, đó là một order trong một $$\mathbb{Q}$$-đại số étale chiều $$n$$). Biệt thức của vành là một số nguyên. Bài toán đếm hỏi: có bao nhiêu lớp đẳng cấu với $$\vert\mathrm{disc}\vert<X$$, khi $$X\to\infty$$?
-
-Các luật hợp thành bậc cao của Bhargava cho các phép tham số hóa bằng quỹ đạo:
-
-- **Hạng 2.** Vành bậc hai, thu lại từ luật Gauss và từ khối lập phương / cặp dạng.
-- **Hạng 3.** Vành bậc ba, liên quan đến dạng bậc ba nhị phân và cặp dạng toàn phương ba biến, tương tự luật Gauss ở bậc ba (*Higher composition laws II*).
-- **Hạng 4.** Vành bậc bốn, được tham số hóa bởi cặp dạng toàn phương ba biến trong *Higher composition laws III*.
-- **Hạng 5.** Vành bậc năm, được tham số hóa trong *Higher composition laws IV*.
-
-Khi đã có tham số hóa, các ước lượng của hình học các số (thể tích miền cơ bản, xử lý các đỉnh nhọn *cusp*, và sai số trong phép đếm điểm lưới) cho ra **công thức tiệm cận về mật độ biệt thức** của các vành và trường bậc bốn, bậc năm. Đó là ý nghĩa của việc IMU nói ông *đếm* các vành hạng nhỏ: không phải lập một danh sách hữu hạn, mà là tìm số hạng chính theo $$X$$ (cùng sai số được kiểm soát) cho mỗi $$n$$ nhỏ.
-
-**Bức tranh thay đổi thế nào.** Trước các bài báo này, trường bậc ba đã có kết quả về mật độ kiểu Davenport–Heilbronn, còn trường bậc bốn và bậc năm nằm ở giới hạn của những gì phương pháp tiền thuần nhất làm được. Sau các bài báo, trường hợp bậc $$\le 5$$ trở thành một chương thống nhất: cùng một phương pháp đếm quỹ đạo, chỉ khác là biểu diễn phức tạp hơn. Từ bậc $$6$$ trở đi vẫn là bài toán mở lớn (chưa có một tham số hóa bằng quỹ đạo nguyên cùng kiểu và đủ đầy đủ).
-
-**Nói đúng về truyền thống.** Phương pháp này tiếp nối dòng nghiên cứu của Minkowski, Siegel, Davenport–Heilbronn và các phép đếm trên không gian vector tiền thuần nhất của Wright, Yukie, Datskovsky–Wright. Đóng góp của Bhargava là một nguồn tham số hóa mới (đặc biệt là những tham số hóa bất ngờ cho vành bậc bốn và bậc năm) và một mức kiểm soát sai số đủ tốt để sau đó áp dụng được cho đường cong elliptic. Hình học các số không bắt đầu từ năm 2001.
+Từ bậc $$6$$ trở đi hiện vẫn là bài toán mở lớn vì không còn không gian vector tiền thuần nhất tương ứng.
 
 ---
 
-## 3. Hạng trung bình của đường cong elliptic (cùng Shankar)
+## 2. Khung giải thích: Bhargava và Shankar chặn "Hạng trung bình của đường cong elliptic" như thế nào? (nên đọc chậm)
 
-Một đường cong elliptic trên $$\mathbb{Q}$$ có thể viết ở dạng Weierstrass rút gọn $$y^2=x^3+Ax+B$$, và được sắp xếp theo một **độ cao** (*height*) tính từ $$A,B$$ (chẳng hạn $$\max(4\vert A\vert^3, 27B^2)$$). Định lý Mordell–Weil nói
+Làm sao từ các phép tham số hóa đa thức, **Manjul Bhargava và Arul Shankar** lại chặn được hạng trung bình của *tất cả* các đường cong elliptic trên $$\mathbb{Q}$$ (một kết quả mà ngay cả Giả thuyết Riemann mở rộng trước đó cũng chưa chứng minh được)? Hãy theo dõi mạch 4 bước:
 
-$$
-E(\mathbb{Q})\simeq\mathbb{Z}^{r_E}\oplus E(\mathbb{Q})_{\mathrm{tors}},
-$$
-
-trong đó số nguyên $$r_E$$ là **hạng đại số**. [Giả thuyết BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/) dự đoán $$r_E$$ bằng cấp của không điểm của hàm $$L$$ $$L(E,s)$$ tại $$s=1$$. Bhargava **không** chứng minh đẳng thức này.
-
-Điều *làm được*, nếu đếm được các quỹ đạo nguyên của dạng bậc bốn nhị phân (và sau đó dạng bậc ba ba biến, cùng các biểu diễn Selmer bậc cao hơn), là nghiên cứu **nhóm 2-Selmer** $$\mathrm{Sel}_2(E)$$. Nhóm này nằm trong một dãy khớp giúp chặn hạng:
+#### Bước 1: Thay nhóm Mordell–Weil khó tính bằng nhóm 2-Selmer hữu hạn
+Tính trực tiếp hạng $$r_E$$ của đường cong elliptic cực kỳ khó. Thay vào đó, ta xét **nhóm 2-Selmer** $$\mathrm{Sel}_2(E)$$ — một nhóm hữu hạn luôn tính được bằng điều kiện địa phương tại từng số nguyên tố $$p$$, nằm trong dãy khớp cơ bản:
 
 $$
-0\to E(\mathbb{Q})/2E(\mathbb{Q})\to\mathrm{Sel}_2(E)\to\Sha(E)[2]\to 0.
+0 \longrightarrow E(\mathbb{Q})/2E(\mathbb{Q}) \longrightarrow \mathrm{Sel}_2(E) \longrightarrow \Sha(E)[2] \longrightarrow 0.
 $$
 
-Vì vậy, một chặn trên cho kích thước trung bình của $$\mathrm{Sel}_2$$ cũng là một chặn trên cho trung bình của $$2^{r_E}$$ (sai khác phần 2-xoắn, phần này dễ kiểm soát). **Bhargava–Shankar** chứng minh rằng khi sắp các đường cong elliptic trên $$\mathbb{Q}$$ theo độ cao, kích thước trung bình của nhóm 2-Selmer bằng đúng **$$3$$**! Vì $$2^r \ge 2r$$ với mọi số nguyên $$r \ge 0$$ (hoặc chính xác hơn $$r \le \frac{1}{2} \cdot 2^r$$), hệ quả trực tiếp là **hạng trung bình không quá $$1.5$$** — nói riêng là hữu hạn, điều trước đó chưa hề được biết mà không cần giả thiết chưa chứng minh! Các bài báo tiếp theo trong cùng chương trình (dùng 3-Selmer, 4-Selmer, 5-Selmer, cho kích thước trung bình lần lượt bằng $$4, 7, 6$$!) kéo chặn trên của hạng trung bình xuống còn **dưới $$0{,}885$$**, đồng thời chứng minh một **tỷ lệ dương** các đường cong có hạng $$0$$ và phần lớn các đường cong có hạng $$0$$ hoặc $$1$$. Kết hợp với **Christopher Skinner**, Bhargava còn chứng minh một tỷ lệ dương các đường cong có hạng bằng $$1$$ và thỏa mãn BSD!
+Vì kích thước của $$E(\mathbb{Q})/2E(\mathbb{Q})$$ ít nhất bằng $$2^{r_E}$$, ta luôn có bất đẳng thức vàng:
 
-**Những điều không được nói.** Không được nói hạng trung bình *bằng* $$1/2$$ như một định lý. Mô hình ma trận ngẫu nhiên và BSD gợi ý rằng hầu hết các đường cong có hạng $$0$$ hoặc $$1$$, trong đó hạng $$0$$ chiếm khoảng một nửa và hạng $$1$$ chiếm khoảng một nửa, nên hạng trung bình kỳ vọng bằng $$1/2$$. Nhưng đó là giá trị **dự đoán**, không phải định lý Bhargava–Shankar. Cũng không được nói BSD đã được chứng minh. Biết $$r_E\le 1$$ với phần lớn các $$E$$ là phù hợp với BSD và là một kết quả số học quan trọng, nhưng nó không phải là chứng minh rằng $$r_E$$ bằng hạng giải tích với mọi đường cong.
+$$
+2^{r_E} \;\le\; \#\mathrm{Sel}_2(E).
+$$
 
-**Tóm lại.** Nhóm Selmer là *hình ảnh hữu hạn, đếm được* của nhóm Mordell–Weil. Tính kích thước Selmer trung bình là một bài toán hình học các số. Hạng trung bình là phần còn lại sau khi trừ đi phần của nhóm Selmer có thể đến từ nhóm Sha.
+#### Bước 2: Tham số hóa nhóm 2-Selmer bằng dạng bậc 4 nhị phân!
+Birch và Swinnerton-Dyer đã biết từ lâu rằng mỗi phần tử của nhóm 2-Selmer $$\mathrm{Sel}_2(E)$$ ứng với một quỹ đạo của **dạng bậc 4 nhị phân** $$f(x, y) = ax^4 + bx^3y + cx^2y^2 + dxy^3 + ey^4$$ có hai bất biến $$(I, J)$$ đúng bằng hệ số $$(A, B)$$ của đường cong elliptic $$y^2 = x^3 + Ax + B$$! Đếm kích thước trung bình của $$\mathrm{Sel}_2(E)$$ bỗng biến thành bài toán **hình học các số**: đếm số quỹ đạo dạng bậc 4 nhị phân có bất biến bị chặn!
+
+#### Bước 3: Kỹ thuật "lấy trung bình trên nhóm Lie" để diệt đỉnh nhọn (*cusp*)
+Đếm điểm lưới trên miền cơ bản của dạng bậc 4 nhị phân khó hơn nhiều so với dạng bậc 2 vì miền có các "mũi nhọn" (*cusp*) cực mảnh kéo dài ra vô tận. Bhargava và Shankar sáng tạo ra kỹ thuật **lấy trung bình miền cơ bản dọc theo một tập compact của nhóm Lie** kết hợp với phương pháp sàng hình học để chứng minh phần sai số ở đỉnh nhọn triệt tiêu — và tính ra con số tuyệt đẹp:
+
+$$
+\text{Trung bình của } \#\mathrm{Sel}_2(E) \;=\; \mathbf{3}!
+$$
+
+#### Bước 4: Suy ra hạng trung bình bị chặn và tỷ lệ dương có hạng 0 và 1
+Từ $$\mathbb{E}[2^{r_E}] \le \mathbb{E}[\#\mathrm{Sel}_2(E)] = 3$$ và bất đẳng thức sơ cấp $$2r \le 2^r$$ (đúng với mọi số nguyên $$r \ge 0$$: thử $$r=0: 0\le 1$$; $$r=1: 2\le 2$$; $$r=2: 4\le 4$$; $$r=3: 6\le 8$$!), ta lấy kỳ vọng hai vế và thu ngay:
+
+$$
+2\,\mathbb{E}[r_E] \;\le\; \mathbb{E}[2^{r_E}] \;\le\; 3 \;\Longrightarrow\; \mathbb{E}[r_E] \;\le\; \mathbf{1{,}5}!
+$$
+
+Lần đầu tiên trong lịch sử, hạng trung bình của đường cong elliptic được chứng minh là **hữu hạn** vô điều kiện! Sau đó, bằng cách lặp lại chiến lược này cho nhóm 3-Selmer (trung bình $$= 4$$), 4-Selmer ($$= 7$$), 5-Selmer ($$= 6$$), Bhargava–Shankar kéo chặn trên hạng trung bình xuống **dưới $$0{,}885$$**, chứng minh phần lớn đường cong có hạng $$0$$ hoặc $$1$$, và một tỷ lệ dương có hạng $$0$$ (cùng Bhargava–Skinner chứng minh một tỷ lệ dương có hạng $$1$$ và thỏa mãn BSD!).
+
+Tóm tắt mạch chứng minh:
+
+$$
+\text{Đường cong } E(\mathbb{Q})
+\;\xrightarrow{\text{2-Selmer}}\;
+\text{Quỹ đạo dạng bậc 4 nhị phân}
+\;\xrightarrow{\text{Hình học các số}}\;
+\mathbb{E}[\#\mathrm{Sel}_2] = 3
+\;\xrightarrow{2r \le 2^r}\;
+\mathbb{E}[r_E] \le 1{,}5.
+$$
 
 ---
 
-## 4. Ghi nhận công lao và tiểu sử
+## 3. Ghi nhận công lao và phân biệt với Giả thuyết BSD
 
 | Thành phần | Vai trò |
 |------------|---------|
 | Luật hợp thành Gauss | Tiền thân của trường hợp hạng 2 |
 | Sato–Shintani, Wright, Yukie, Datskovsky–Wright | Phép đếm trên không gian tiền thuần nhất; mật độ bậc ba |
-| Bhargava, *Higher composition laws* I–IV | Tham số hóa vành hạng $$2$$–$$5$$ |
-| Bhargava–Shankar | Kích thước 2-Selmer trung bình bằng $$3$$; tỷ lệ dương có hạng $$0$$; hạng trung bình bị chặn |
-| Các bài Selmer sau đó; Bhargava–Skinner và những người khác | Phần lớn đường cong có hạng $$0$$ hoặc $$1$$; tỷ lệ dương có hạng một |
-| BSD (Birch, Swinnerton-Dyer; bài toán Clay) | Vẫn mở: sự bằng nhau giữa hạng đại số và hạng giải tích nói chung |
+| Bhargava, *Higher composition laws* I–IV | Khối lập phương & tham số hóa vành hạng $$2$$–$$5$$ |
+| Bhargava–Shankar | Kích thước 2-Selmer trung bình bằng $$3$$; 3/4/5-Selmer; tỷ lệ dương có hạng $$0$$; hạng trung bình $$< 0{,}885$$ |
+| Bhargava–Skinner và cộng sự | Tỷ lệ dương đường cong có hạng $$1$$ và thỏa mãn BSD |
+| BSD (Birch, Swinnerton-Dyer; bài toán Clay) | **Vẫn còn mở:** sự bằng nhau giữa hạng đại số và hạng giải tích nói chung |
 
-Bhargava sinh năm 1974 tại Hamilton, Ontario (Canada), lớn lên chủ yếu ở Long Island (Mỹ), và gắn bó lâu dài với Ấn Độ qua gia đình và việc học tiếng Phạn. Ông là nhà toán học người Mỹ gốc Ấn, quốc tịch Canada–Mỹ, làm việc tại Princeton. Báo chí thường nhắc ông là **người gốc Ấn đầu tiên** nhận Huy chương Fields. Đó là một chi tiết về lịch sử giải thưởng, không phải một định lý. Người hướng dẫn tiến sĩ của ông là Wiles, nhưng điều đó không có nghĩa luật hợp thành là một phần của chứng minh Định lý lớn Fermat.
-
----
-
-## 5. Vì sao ông nhận Huy chương Fields
-
-Huy chương ghi nhận một *phương pháp có thể sinh ra nhiều kết quả*. Các luật hợp thành bậc cao tự thân đã thú vị về mặt đại số. Chúng đạt tầm Fields khi chính các không gian quỹ đạo dùng để phân loại vành cũng phân loại được các phần tử của nhóm 2-Selmer của đường cong elliptic. Phép đếm sau đó cho ra những định lý mà các nhà lý thuyết số mong muốn ít nhất từ thập niên 1960: Có bao nhiêu trường số? Hạng của một đường cong điển hình lớn đến đâu? Câu trả lời ở dạng tiệm cận và trung bình, đúng là thang đo mà thống kê số học hiện đại quan tâm.
-
-Trong khóa học, hãy so sánh huy chương này với các huy chương "giải một giả thuyết cụ thể". BSD vẫn là bài toán mở hàng đầu ở Chương 1. Công trình năm 2014 của Bhargava *làm rõ bức tranh xung quanh* bài toán đó: ta biết rằng một đường cong elliptic điển hình trên $$\mathbb{Q}$$ có hạng nhỏ. Đây là một kiểu thành tựu khác với việc chứng minh $$L(E,1)\neq 0$$ cho một đường cong cụ thể.
+Bhargava sinh năm 1974 tại Hamilton (Canada), làm việc tại Đại học Princeton, và là **người gốc Ấn đầu tiên** nhận Huy chương Fields (2014).
 
 ---
 
@@ -126,12 +153,11 @@ Trong khóa học, hãy so sánh huy chương này với các huy chương "gi�
 
 | Khẳng định | Sửa lại |
 |------------|-----|
-| "Bhargava giải được BSD." | Ông chặn hạng *đại số* trung bình thông qua nhóm Selmer. BSD vẫn còn mở. |
-| "Hạng trung bình bằng $$1/2$$." | Đó là dự đoán heuristic. Định lý nói hạng trung bình hữu hạn (ví dụ $$\le 1.5$$ từ 2-Selmer) và phần lớn các hạng là $$0$$ hoặc $$1$$. |
-| "Ông phát minh ra hình học các số." | Minkowski, Davenport–Heilbronn và trường phái tiền thuần nhất đã có trước. |
-| "Hợp thành bậc cao là luật áp dụng cho mọi dạng nhị phân ở mọi bậc." | Đó là một họ các phép tham số hóa bằng quỹ đạo, xác định trên những biểu diễn cụ thể. |
-| "Đếm vành nghĩa là liệt kê chúng." | Nghĩa là tìm tiệm cận của số lớp đẳng cấu có biệt thức bị chặn. |
-| "Tỷ lệ dương có hạng 0 chứng minh hàm $$L$$ không triệt tiêu." | Hạng đại số $$0$$ không tự động kéo theo hạng giải tích $$0$$; điều đó là một phần của BSD. |
+| "Bhargava giải được BSD." | Ông chặn hạng *đại số* trung bình thông qua nhóm Selmer và chứng minh BSD cho một tỷ lệ dương đường cong; BSD tổng quát vẫn còn mở. |
+| "Hạng trung bình bằng $$1/2$$." | Đó là dự đoán heuristic. Định lý chứng minh hạng trung bình hữu hạn ($$\le 1{,}5$$ từ 2-Selmer, $$< 0{,}885$$ từ 5-Selmer). |
+| "Ông phát minh ra hình học các số." | Minkowski, Davenport–Heilbronn và trường phái tiền thuần nhất đã đặt nền móng trước. |
+| "Hợp thành bậc cao áp dụng cho mọi đa thức ở mọi bậc." | Đó là một họ các phép tham số hóa bằng quỹ đạo trên những biểu diễn cụ thể (bậc $$\le 5$$). |
+| "Đếm vành nghĩa là liệt kê hết chúng." | Nghĩa là tìm công thức tiệm cận cho số lớp đẳng cấu có biệt thức bị chặn bởi $$X$$. |
 
 ---
 

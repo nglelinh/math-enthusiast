@@ -19,6 +19,8 @@ Hãy hình dung một thí nghiệm giao thoa điện tử kỳ lạ mà Yakir A
 
 Vậy mà thực nghiệm lại cho thấy **vân giao thoa dịch chuyển rõ rệt** mỗi khi ta vặn dòng điện bên trong ống dây! Chẳng lẽ hạt điện tử "cảm nhận từ xa" được từ trường ở nơi nó không hề đi qua? Bí ẩn tưởng như siêu nhiên đó thực ra lại có một lời giải hình học vô cùng trong sáng. Trong bài thực hành này, bạn sẽ không cần đụng tới phương trình Yang–Mills phức tạp. Chỉ bằng một mô hình "đồ chơi" trên đường tròn $$S^1$$ cùng giải tích số phức cơ bản, bạn sẽ tự tay tính chuỗi khái niệm **liên thông → vận chuyển song song → holonomy**, và tận mắt thấy vì sao **độ cong $$F=0$$ tại mọi điểm dọc đường đi vẫn không ngăn được pha lượng tử bị xoay sau một vòng khép kín**.
 
+**Mạch bài học:** Bản đồ kiến thức nền (hình học vi phân, liên thông–độ cong–holonomy & vai trò của tô pô lỗ thủng) → Thiết lập 1-dạng $$A = a\,d\theta$$ trên $$\mathbb{R}^2\setminus\{0\}$$ → Khung giải thích chậm: tự tay giải phương trình vận chuyển song song và kiểm tra biến đổi gauge lớn → Nhiệm vụ tính holonomy & nhật ký.
+
 ---
 
 ## Mục tiêu học tập
@@ -37,14 +39,21 @@ Sau bài này, bạn có thể:
 
 ## Bản đồ kiến thức nền: Hình học vi phân và Lý thuyết Gauge là gì, nghiên cứu những gì?
 
-Khi nghe cụm từ "lý thuyết gauge" hay "holonomy", nhiều người tốt nghiệp đại học dễ thấy choáng ngợp vì thuật ngữ nghe trừu tượng. Nhưng trực giác cốt lõi của **Hình học vi phân (Differential Geometry)** đứng sau nó lại cực kỳ gần gũi:
+Khi nghe cụm từ "lý thuyết gauge" hay "holonomy", nhiều người tốt nghiệp đại học dễ thấy choáng ngợp vì thuật ngữ nghe trừu tượng. Nhưng trực giác cốt lõi đứng sau nó dựa trên ba viên gạch cực kỳ gần gũi:
+
+### 1. Vận chuyển song song và Holonomy trong Hình học vi phân
 
 Hãy tưởng tượng bạn đứng ở Bắc Cực của Trái Đất, cầm một mũi tên chỉ thẳng xuống xích đạo dọc theo kinh tuyến $$0^\circ$$. Bạn đi thẳng xuống xích đạo, rẽ trái đi một phần tư vòng xích đạo ($$90^\circ$$), rồi đi ngược lên lại Bắc Cực — trong suốt chuyến đi, bạn luôn giữ mũi tên "song song với chính nó" (không hề tự xoay cổ tay). Khi về tới Bắc Cực, bạn sẽ ngỡ ngàng thấy mũi tên của mình đã **xoay đi đúng $$90^\circ$$** so với ban đầu! Góc xoay tích lũy được sau khi đi hết một vòng kín đó gọi là **holonomy**, và nguyên nhân của nó là độ cong của mặt cầu bên trong vòng đi.
 
-**Lý thuyết Gauge (Gauge Theory)** lấy chính ý tưởng hình học đó áp dụng cho **pha lượng tử** của hạt cơ bản (thay vì mũi tên tiếp tuyến trên mặt cầu, ta gắn một "mặt đồng hồ pha" $$U(1)$$ — tức đường tròn đơn vị trong $$\mathbb{C}$$ — tại mỗi điểm của không gian):
-- **Liên thông (connection) $$A$$:** chính là quy tắc cho biết mặt đồng hồ pha phải xoay thêm bao nhiêu khi hạt dịch chuyển một đoạn vô cùng nhỏ. Trong điện từ học, đó chính là *thế vectơ từ* $$\mathbf{A}$$.
-- **Độ cong (curvature) $$F = dA$$:** đo tốc độ xoay pha quanh một vòng vuông nhỏ xíu tại chỗ. Trong điện từ học, đó chính là *từ trường* $$\mathbf{B} = \nabla \times \mathbf{A}$$.
-- **Tô pô tạo ra điều kỳ diệu:** Nếu không gian có một "lỗ thủng" (như mặt phẳng khoét đi gốc tọa độ $$\mathbb{R}^2 \setminus \{0\}$$ nơi đặt ống dây), một trường có thể hoàn toàn "phẳng" ở mọi điểm bên ngoài ($$F = 0$$), nhưng một vòng kín ôm quanh lỗ thủng vẫn tích lũy được góc xoay **holonomy** khác tầm thường! Giống như bạn đi quanh một hình nón nhọn: bề mặt bên của hình nón hoàn toàn phẳng (trải ra mặt bàn được), nhưng đi một vòng quanh đỉnh nhọn vẫn bị hụt góc!
+### 2. Lý thuyết Gauge: liên thông $$A$$ và độ cong $$F$$ cho pha lượng tử
+
+**Lý thuyết Gauge (Gauge Theory)** áp dụng chính ý tưởng đó cho **pha lượng tử** của hạt cơ bản: thay vì mũi tên tiếp tuyến trên mặt cầu, ta gắn một "mặt đồng hồ pha" $$U(1)$$ (đường tròn đơn vị trong $$\mathbb{C}$$) tại mỗi điểm của không gian:
+- **Liên thông (connection) $$A$$:** quy tắc cho biết mặt đồng hồ pha phải xoay thêm bao nhiêu khi hạt dịch chuyển một đoạn vô cùng nhỏ (trong điện từ học, chính là *thế vectơ từ* $$\mathbf{A}$$).
+- **Độ cong (curvature) $$F = dA$$:** đo tốc độ xoay pha quanh một vòng vuông nhỏ xíu tại chỗ (trong điện từ học, chính là *từ trường* $$\mathbf{B} = \nabla \times \mathbf{A}$$).
+
+### 3. Vai trò của Tô pô "lỗ thủng" (Đối đồng điều de Rham)
+
+Nếu không gian không có lỗ thủng (như toàn bộ $$\mathbb{R}^2$$), định lý Poincaré bảo đảm mọi 1-dạng đóng ($$dA = 0$$) đều là vi phân toàn phần ($$A = d\lambda$$) nên tích phân vòng luôn bằng 0. Nhưng khi không gian bị khoét một **lỗ thủng** ($$\mathbb{R}^2 \setminus \{0\}$$ nơi đặt ống dây solenoid), một liên thông có thể hoàn toàn "phẳng" ở mọi điểm bên ngoài ($$F = 0$$) mà vẫn có tích phân vòng **khác 0**! Giống như bề mặt bên của một chiếc nón lá: trải phẳng ra mặt bàn được (độ cong bằng 0 ở mọi điểm ngoài đỉnh), nhưng đi một vòng quanh đỉnh nhọn vẫn bị hụt góc!
 
 ---
 
@@ -70,7 +79,31 @@ $$
 \oint_{S^1}A = \int_0^{2\pi} a\,d\theta = 2\pi a.
 $$
 
-Nếu $$a \neq 0$$, điều này chứng tỏ $$A$$ *không thể* viết dưới dạng vi phân toàn phần $$d\lambda$$ của bất kỳ hàm đơn trị trơn $$\lambda(x,y)$$ nào trên toàn bộ $$\mathbb{R}^2\setminus\{0\}$$ (vì nếu viết được thì tích phân vòng đã phải bằng 0!). Về mặt vật lý, định lý Stokes cho thấy tích phân vòng $$2\pi a$$ chính bằng **từ thông $$\Phi$$ tập trung tại gốc** (bên trong ống dây solenoid), hiểu theo nghĩa phân bố Dirac. Phần này cần cẩn thận, xem bài [phân bố]({{ site.baseurl }}/contents/vi/chapter03/03_12_Distributions_Dirac/).
+Nếu $$a \neq 0$$, điều này chứng tỏ $$A$$ *không thể* viết dưới dạng vi phân toàn phần $$d\lambda$$ của bất kỳ hàm đơn trị trơn $$\lambda(x,y)$$ nào trên toàn bộ $$\mathbb{R}^2\setminus\{0\}$$. Về mặt vật lý, định lý Stokes cho thấy tích phân vòng $$2\pi a$$ chính bằng **từ thông $$\Phi$$ tập trung tại gốc** (bên trong ống dây solenoid), hiểu theo nghĩa phân bố Dirac. Phần này cần cẩn thận, xem bài [phân bố]({{ site.baseurl }}/contents/vi/chapter03/03_12_Distributions_Dirac/).
+
+---
+
+### Khung giải thích: Cầm tay giải phương trình vận chuyển song song và kiểm tra biến đổi gauge (nên đọc chậm)
+
+Để thấy công thức holonomy $$U = \exp(iq \oint A)$$ không hề "rơi từ trên trời xuống" mà xuất phát trực tiếp từ phương trình vi phân năm nhất đại học, hãy tự tính từng bước:
+
+1. **Phương trình vận chuyển song song trên $$S^1$$:** Một hàm sóng phức $$\psi(\theta)$$ được gọi là *vận chuyển song song* theo liên thông $$A = a\,d\theta$$ (với điện tích $$q$$) nếu đạo hàm hiệp biến của nó bằng 0:
+   $$
+   \left(\frac{d}{d\theta} - i q a\right)\psi(\theta) = 0 \iff \frac{d\psi}{d\theta} = i q a\,\psi(\theta).
+   $$
+2. **Giải nghiệm tường minh với điều kiện đầu $$\psi(0) = 1$$:** Phương trình vi phân cấp 1 đơn giản này có nghiệm duy nhất:
+   $$
+   \psi(\theta) = e^{i q a \theta}.
+   $$
+3. **Đi hết một vòng ($$\theta = 2\pi$$) và thay số với $$q = 1$$:**
+   - Khi $$a = 0$$: $$\psi(2\pi) = e^{0} = 1$$ (không lệch pha).
+   - Khi $$a = 1/2$$: $$\psi(2\pi) = e^{i\pi} = \mathbf{-1}$$! Hạt quay lại đúng điểm xuất phát nhưng pha lượng tử đã **đảo dấu hoàn toàn** — hai chùm giao thoa vòng hai phía ống dây bị đảo từ cộng hưởng (vân sáng) thành triệt tiêu (vân tối)!
+   - Khi $$a = 1$$: $$\psi(2\pi) = e^{2\pi i} = \mathbf{+1}$$! Dù từ thông $$\Phi = 2\pi$$ khác 0, sự xoay pha đúng một vòng trọn vẹn khiến vân giao thoa khớp lại như cũ (đây chính là hiện tượng **lượng tử hóa từ thông**!).
+4. **Kiểm tra phép biến đổi gauge lớn:** Nếu ta đổi pha theo hàm đơn trị $$g(\theta) = e^{i k \theta}$$ (với $$k \in \mathbb{Z}$$), liên thông mới dịch chuyển một lượng nguyên: $$A' = A + \frac{1}{q} k\,d\theta \implies a' = a + \frac{k}{q}$$. Tính lại holonomy mới:
+   $$
+   U' = e^{i q \cdot 2\pi (a + k/q)} = e^{i q \cdot 2\pi a} \cdot \underbrace{e^{2\pi i k}}_{=\,1} = U!
+   $$
+   Hệ số thế $$a$$ thay đổi, nhưng **holonomy $$U$$ hoàn toàn bất biến** — đó là lý do chỉ $$U$$ (chứ không phải riêng $$A$$) mới là đại lượng đo được trong phòng thí nghiệm!
 
 ---
 
@@ -85,8 +118,6 @@ U=\exp\!\Big(iq\oint_{S^1}A\Big)=\exp(iq\cdot 2\pi a)
 $$
 
 cho $$a=0,\;1/2,\;1$$ (lấy $$q=1$$). Ghi rõ trường hợp nào $$U=1$$ và trường hợp nào $$U=-1$$.
-
-**Gợi ý kiểm tra nhanh:** Với $$q=1$$ và $$a=1/2$$, ta có $$\oint A = \pi$$, nên $$U = e^{i\pi} = -1$$ — pha bị đảo ngược hoàn toàn (tương đương biến vân sáng giao thoa thành vân tối!). Nhưng với $$a=1$$, $$\oint A = 2\pi$$ nên $$U = e^{2\pi i} = 1$$ — dù từ thông khác 0, sự dịch pha đúng một vòng tròn lại làm vân giao thoa trở về vị trí cũ!
 
 **Viết:** với giá trị thông lượng $$\Phi = 2\pi a$$ nào thì holonomy là tầm thường ($$U=1$$)?
 

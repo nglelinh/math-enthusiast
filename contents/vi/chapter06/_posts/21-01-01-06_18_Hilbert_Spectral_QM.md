@@ -15,17 +15,18 @@ Nếu cơ học cổ điển theo dõi một điểm chuyển động trong khô
 
 ---
 
-## Bản đồ kiến thức nền: Giải tích hàm, không gian Hilbert và lý thuyết phổ nghiên cứu những gì?
+## Bản đồ kiến thức nền: Giải tích hàm, Không gian Hilbert và Lý thuyết phổ nghiên cứu những gì?
 
-Bạn đã quen với không gian Euclid $$\mathbb{R}^3$$ từ đại số tuyến tính: ở đó ta biết cộng vectơ, đo độ dài, tính góc vuông qua tích vô hướng, và chéo hóa một ma trận đối xứng để tìm các trục chính (trị riêng và vectơ riêng). Nhưng khi đối tượng không còn là mũi tên 3 tọa độ mà là **một hàm số** $$\psi(x)$$ xác định trên cả trục số thực — tức một vectơ có vô hạn thành phần — thì mọi chuyện tinh tế hơn rất nhiều.
+Với nền tảng đại số tuyến tính (vectơ trong $$\mathbb{R}^3$$, tích vô hướng, trị riêng – vectơ riêng) và giải tích, bạn có thể nhìn rõ ba trụ cột toán học của cơ học lượng tử:
 
-**Giải tích hàm** (functional analysis) và **lý thuyết phổ** (spectral theory) ra đời để trả lời câu hỏi: *điều gì của đại số tuyến tính vẫn còn sống sót ở vô hạn chiều, và điều gì bị gãy đổ?*
+### 1. Giải tích hàm và Không gian Hilbert
+Khi đối tượng không còn là mũi tên 3 tọa độ mà là **một hàm số** $$\psi(x)$$ (vectơ vô hạn thành phần), **giải tích hàm** hỏi: *những tính chất nào của hình học Euclid còn sống sót?* **Không gian Hilbert** là phiên bản vô hạn chiều "ngoan ngoãn" nhất của $$\mathbb{C}^n$$: nó có **tích vô hướng** (nên vẫn có độ dài, góc vuông, định lý Pythagoras và chuỗi trực chuẩn như chuỗi Fourier) và có **tính đầy đủ** (mọi dãy Cauchy đều hội tụ về một phần tử nằm bên trong không gian, không bị "rơi ra lỗ thủng"). Ngoài cơ học lượng tử, không gian Hilbert là nền tảng của phương trình đạo hàm riêng (không gian Sobolev), xử lý tín hiệu và phương pháp hạt nhân (kernel methods) trong học máy.
 
-- **Không gian Hilbert là gì?** Hãy hình dung nó là phiên bản vô hạn chiều "ngoan ngoãn" nhất của không gian Euclid phức $$\mathbb{C}^n$$: nó có **tích vô hướng** (nên ta vẫn đo được độ dài và trực giao, vẫn có định lý Pythagoras và chuỗi trực chuẩn như chuỗi Fourier) và có **tính đầy đủ** (mọi dãy Cauchy — những dãy tiến sát nhau mãi — đều hội tụ về một phần tử *nằm bên trong* không gian, không bị "rơi ra lỗ thủng").
-- **Lý thuyết phổ nghiên cứu gì?** Với ma trận $$n\times n$$, ta tìm trị riêng $$\lambda$$ sao cho $$Av = \lambda v$$. Nhưng ở vô hạn chiều, một toán tử tự nhiên như toán tử vị trí $$(X\psi)(x) = x\psi(x)$$ trên $$L^2(\mathbb{R})$$ lại **không có một vectơ riêng nào nằm trong $$L^2$$**! Thay vì chỉ tìm trị riêng rời rạc, lý thuyết phổ nghiên cứu toàn bộ **phổ** $$\sigma(A)$$ — gồm cả phần rời rạc (như các mức năng lượng liên kết của nguyên tử hydro) lẫn phần liên tục (như năng lượng của hạt tự do bay tự do ngoài không gian).
-- **Vì sao lại dùng số phức?** Trong cơ học lượng tử, không chỉ độ lớn mà cả **pha** $$e^{i\theta}$$ của biên độ cũng tạo ra giao thoa, và toán tử tiến hóa theo thời gian $$U(t) = e^{-itH/\hbar}$$ cần đơn vị ảo $$i$$ để biến một toán tử tự liên hợp $$H$$ (có phổ thực) thành phép quay bảo toàn độ dài $$U(t)$$.
+### 2. Lý thuyết phổ và Toán tử tự liên hợp
+Với ma trận Hermite $$n \times n$$, ta luôn chéo hóa được nó bằng các trị riêng thực. Nhưng ở vô hạn chiều, một toán tử tự nhiên như toán tử vị trí $$(X\psi)(x) = x\psi(x)$$ trên $$L^2(\mathbb{R})$$ lại **không có bất kỳ vectơ riêng nào nằm trong $$L^2$$**! **Lý thuyết phổ** thay tập trị riêng rời rạc bằng **phổ** $$\sigma(A)$$ (gồm cả phần rời rạc như mức năng lượng nguyên tử hydro lẫn phần liên tục như hạt bay tự do), và đòi hỏi điều kiện **tự liên hợp** (chặt hơn đối xứng hình thức về miền xác định) để phổ luôn thực và có độ đo phổ chiếu trực giao.
 
-Nắm được bộ ba **không gian Hilbert – toán tử tự liên hợp – định lý phổ**, bạn có trong tay khung xương toán học của toàn bộ cơ học lượng tử hiện đại.
+### 3. Động lực học unita và Phân bố suy rộng
+Trong cơ học lượng tử, không chỉ độ lớn mà cả **pha** $$e^{i\theta}$$ tạo ra giao thoa, nên ta làm việc trên số phức. **Định lý Stone** nối một–một toán tử năng lượng tự liên hợp $$H$$ với nhóm phép quay bảo toàn độ dài $$U(t) = e^{-itH/\hbar}$$. Còn những đối tượng lý tưởng như hàm delta Dirac $$|x\rangle$$ hay sóng phẳng $$e^{ipx/\hbar}$$ (nằm ngoài $$L^2$$) được đặt trên nền tảng chặt chẽ nhờ **lý thuyết phân bố** của Schwartz và **không gian Hilbert trang bị**.
 
 ---
 
@@ -54,15 +55,13 @@ $$
 \langle\phi|\psi\rangle = \int_{-\infty}^{\infty} \overline{\phi(x)}\,\psi(x)\,dx.
 $$
 
-Chính **tính đầy đủ** (mọi dãy Cauchy đều hội tụ trong $$L^2$$) làm cho không gian này là một **không gian Hilbert**, chứ không chỉ là không gian có tích vô hướng. Để thấy tính đầy đủ quan trọng thế nào, hãy nghĩ tới không gian các hàm liên tục trên $$[0,1]$$ với chuẩn $$L^2$$: ta có thể dựng một dãy hàm liên tục mịn tiến dần về hàm bậc thang nhảy vọt, nghĩa là giới hạn của dãy đã *rơi ra ngoài* không gian các hàm liên tục! Việc mở rộng sang $$L^2$$ lấp đầy mọi "lỗ thủng" đó, nhờ vậy các phép chiếu trực giao và khai triển theo cơ sở trực chuẩn luôn tồn tại. Trong tính toán vật lý nhanh, điều này thường bị ẩn đi; nhưng cơ học lượng tử ở dạng toán học chặt chẽ được xây dựng trên chính nền tảng ấy.
+Chính **tính đầy đủ** (mọi dãy Cauchy đều hội tụ trong $$L^2$$) làm cho không gian này là một **không gian Hilbert**, chứ không chỉ là không gian có tích vô hướng. Để thấy tính đầy đủ quan trọng thế nào, hãy nghĩ tới không gian các hàm liên tục trên $$[0,1]$$ với chuẩn $$L^2$$: ta có thể dựng một dãy hàm liên tục mịn tiến dần về hàm bậc thang nhảy vọt, nghĩa là giới hạn của dãy đã *rơi ra ngoài* không gian các hàm liên tục! Việc mở rộng sang $$L^2$$ lấp đầy mọi "lỗ thủng" đó, nhờ vậy các phép chiếu trực giao và khai triển theo cơ sở trực chuẩn luôn tồn tại.
 
 ---
 
 ## 2. Trạng thái, tia và toán tử mật độ
 
 **Trạng thái thuần** là một vectơ đơn vị $$\psi$$, hay nói chính xác hơn là một **tia** $$\{e^{i\theta}\psi\}$$ (vì nhân toàn bộ vectơ với một số phức có môđun 1 không làm thay đổi bất kỳ xác suất đo nào). Một **đại lượng quan sát** $$A$$ là một ma trận Hermite trên $$\mathbb{C}^n$$, có các trị riêng thực $$a_k$$ và các vectơ riêng trực chuẩn $$u_k$$. Đo $$A$$ ở trạng thái $$\psi$$ cho kết quả $$a_k$$ với xác suất $$|\langle u_k|\psi\rangle|^2$$ (trong trường hợp không suy biến).
-
-Hãy thử một ví dụ cụ thể bằng tay trên $$\mathbb{C}^2$$: xét ma trận Pauli $$A = \sigma_z = \begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}$$ có hai vectơ riêng là $$|0\rangle = (1,0)^T$$ (trị riêng $$+1$$) và $$|1\rangle = (0,1)^T$$ (trị riêng $$-1$$). Nếu hệ ở trạng thái chồng chập $$\psi = \frac{\sqrt{3}}{2}|0\rangle + \frac{i}{2}|1\rangle$$, ta thấy $$\|\psi\|^2 = \frac{3}{4} + \frac{1}{4} = 1$$. Khi đo $$A$$, xác suất thu được $$+1$$ là $$|\langle 0|\psi\rangle|^2 = 3/4$$, còn xác suất thu được $$-1$$ là $$|\langle 1|\psi\rangle|^2 = 1/4$$. Về mặt hình học, quy tắc Born đơn giản là **bình phương độ dài hình chiếu trực giao** của vectơ trạng thái lên từng trục riêng!
 
 **Trạng thái hỗn hợp** xuất hiện khi ta không biết chắc hệ đang ở trạng thái thuần nào (ví dụ do tương tác với môi trường hoặc vướng víu với hệ khác mà ta bỏ qua). Khi đó ta dùng **toán tử mật độ** $$\rho\geq 0$$, $$\operatorname{tr}\rho=1$$, với giá trị kỳ vọng $$\operatorname{tr}(\rho A)$$. Thông tin lượng tử hữu hạn chiều gần như hoàn toàn dùng ngôn ngữ này.
 
@@ -86,7 +85,7 @@ $$
 A = \int_{\sigma(A)} \lambda\,dE(\lambda)
 $$
 
-theo nghĩa thích hợp. Nhờ đó, xác suất để phép đo $$A$$ rơi vào khoảng $$[a,b]$$ được định nghĩa hoàn toàn chặt chẽ là $$\|E([a,b])\psi\|^2$$, kể cả khi phổ là liên tục. Song hành với nó là **định lý Stone**, nối một–một các nhóm unita liên tục mạnh $$U(t)$$ với phần tử sinh tự liên hợp $$H$$ của chúng. Nhờ vậy, động lực học và phép đo dùng chung một ngôn ngữ phổ.
+theo nghĩa thích hợp. Nhờ đó, xác suất để phép đo $$A$$ rơi vào khoảng $$[a,b]$$ được định nghĩa hoàn toàn chặt chẽ là $$\|E([a,b])\psi\|^2$$, kể cả khi phổ là liên tục. Song hành với nó là **định lý Stone**, nối một–một các nhóm unita liên tục mạnh $$U(t)$$ với phần tử sinh tự liên hợp $$H$$ của chúng.
 
 **Sự chặt chẽ cho ta điều gì.** Với các hệ liên tục, những vấn đề như tính tự liên hợp cốt yếu (chọn điều kiện biên đúng tại kỳ dị thế năng Coulomb), sự ổn định của vật chất, lý thuyết tán xạ, hay phổ liên tục không phải là chú thích phụ có thể bỏ qua — chúng quyết định liệu mô hình vật lý có tiên đoán duy nhất hay không.
 
@@ -100,7 +99,35 @@ $$
 i\hbar \frac{d}{dt}\psi(t) = H\psi(t) \quad\Longleftrightarrow\quad \psi(t)= e^{-itH/\hbar}\psi(0)
 $$
 
-với $$\psi(0)$$ nằm trong miền thích hợp (hoặc mở rộng liên tục cho mọi vectơ trong $$\mathcal{H}$$ nhờ nhóm unita $$U(t)=e^{-itH/\hbar}$$). Bảo toàn tổng xác suất theo thời gian chính là tính unita: $$\|\psi(t)\|=\|\psi(0)\|$$. Về trực giác hình học, tiến hóa lượng tử của một hệ cô lập chỉ là một **phép quay đều trong không gian Hilbert phức** — độ dài vectơ trạng thái không bao giờ đổi, chỉ có hướng và pha tương đối giữa các thành phần riêng xoay với các tần số khác nhau $$e^{-iE_k t/\hbar}$$.
+với $$\psi(0)$$ nằm trong miền thích hợp (hoặc mở rộng liên tục cho mọi vectơ trong $$\mathcal{H}$$ nhờ nhóm unita $$U(t)=e^{-itH/\hbar}$$). Bảo toàn tổng xác suất theo thời gian chính là tính unita: $$\|\psi(t)\|=\|\psi(0)\|$$. Về trực giác hình học, tiến hóa lượng tử của một hệ cô lập chỉ là một **phép quay đều trong không gian Hilbert phức** — độ dài vectơ trạng thái không bao giờ đổi, chỉ có pha tương đối giữa các thành phần riêng xoay với các tần số khác nhau $$e^{-iE_k t/\hbar}$$.
+
+### Khung giải thích: từ Hamiltonian đến xác suất đo tại thời điểm $$t$$ (nên đọc chậm)
+
+Hãy tự tay thực hiện trọn vẹn chu trình **định lý phổ → tiến hóa unita → quy tắc Born** trên một hệ 2 mức (qubit trong từ trường ngang) có Hamiltonian:
+
+$$
+H = \hbar\omega\,\sigma_x = \hbar\omega\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \qquad \psi(0) = |0\rangle = \begin{pmatrix} 1 \\ 0 \end{pmatrix}.
+$$
+
+1. **Chéo hóa $$H$$ (Định lý phổ):** Giải $$\det(H - E I) = 0$$ cho hai trị riêng thực $$E_+ = +\hbar\omega$$ và $$E_- = -\hbar\omega$$, với hai vectơ riêng trực chuẩn:
+   $$
+   |+\rangle = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 \\ 1 \end{pmatrix}, \qquad |-\rangle = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 \\ -1 \end{pmatrix}.
+   $$
+2. **Khai triển trạng thái ban đầu theo cơ sở riêng của $$H$$:**
+   $$
+   \psi(0) = \begin{pmatrix} 1 \\ 0 \end{pmatrix} = \frac{1}{\sqrt{2}}|+\rangle + \frac{1}{\sqrt{2}}|-\rangle.
+   $$
+3. **Nhân từng thành phần với pha tiến hóa $$e^{-iE_\pm t/\hbar}$$ (Tiến hóa unita):**
+   $$
+   \psi(t) = \frac{1}{\sqrt{2}}e^{-i\omega t}|+\rangle + \frac{1}{\sqrt{2}}e^{+i\omega t}|-\rangle = \frac{1}{2}\begin{pmatrix} e^{-i\omega t} + e^{i\omega t} \\ e^{-i\omega t} - e^{i\omega t} \end{pmatrix} = \begin{pmatrix} \cos(\omega t) \\ -i\sin(\omega t) \end{pmatrix}.
+   $$
+   Kiểm tra ngay tính bảo toàn chuẩn: $$\|\psi(t)\|^2 = \cos^2(\omega t) + |-i\sin(\omega t)|^2 = 1$$ ở mọi thời điểm $$t$$!
+4. **Đo đại lượng $$A = \sigma_z = \operatorname{diag}(1, -1)$$ tại thời điểm $$t = \frac{\pi}{6\omega}$$ (Quy tắc Born):** Khi đó $$\omega t = \frac{\pi}{6}$$, nên $$\psi(t) = \bigl(\frac{\sqrt{3}}{2},\ -\frac{i}{2}\bigr)^T$$.
+   - Xác suất đo ra $$+1$$ (trạng thái $$|0\rangle$$): $$|\langle 0|\psi(t)\rangle|^2 = \bigl(\frac{\sqrt{3}}{2}\bigr)^2 = \frac{3}{4}$$.
+   - Xác suất đo ra $$-1$$ (trạng thái $$|1\rangle$$): $$|\langle 1|\psi(t)\rangle|^2 = \bigl|-\frac{i}{2}\bigr|^2 = \frac{1}{4}$$.
+   - Giá trị kỳ vọng: $$\langle \sigma_z \rangle = (+1)\cdot\frac{3}{4} + (-1)\cdot\frac{1}{4} = \frac{1}{2} = \cos(2\omega t)$$.
+
+Đó chính là toàn bộ cỗ máy của cơ học lượng tử thu nhỏ trong 4 bước — ở vô hạn chiều, mọi bước vẫn y hệt, chỉ thay tổng $$\sum$$ bằng tích phân theo độ đo phổ $$\int dE(\lambda)$$!
 
 ---
 

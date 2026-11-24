@@ -15,16 +15,18 @@ Trong cơ học lượng tử cho một hạt hay một vài qubit, mọi thứ 
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết đại số toán tử là gì và nghiên cứu những gì?
+## Bản đồ kiến thức nền: Lý thuyết Đại số toán tử đứng trên ba trụ cột nào?
 
-Ở đại học, bạn đã quen với tập $$M_n(\mathbb{C})$$ các ma trận vuông $$n \times n$$: ta cộng được, nhân được (không giao hoán), lấy chuyển vị liên hợp $$A \mapsto A^*$$, và đo kích thước bằng chuẩn toán tử $$\|A\|$$. **Lý thuyết đại số toán tử** (operator algebras) chính là sự mở rộng của giải tích ma trận sang vô hạn chiều — nơi ta nghiên cứu *cấu trúc đại số* và *tô pô* của những tập hợp toán tử tuyến tính bị chặn tác động lên không gian Hilbert.
+Ở đại học, bạn đã quen với tập $$M_n(\mathbb{C})$$ các ma trận vuông $$n \times n$$: ta cộng được, nhân được (không giao hoán), lấy chuyển vị liên hợp $$A \mapsto A^*$$, và đo kích thước bằng chuẩn toán tử $$\|A\|$$. **Lý thuyết đại số toán tử** mở rộng giải tích ma trận sang vô hạn chiều qua ba trụ cột:
 
-Ngành này xoay quanh hai họ đối tượng lớn có "độ mịn" khác nhau:
+### 1. C*-đại số = "Tô pô học không giao hoán"
+Một C*-đại số là đại số Banach có phép liên hợp thỏa đồng nhất thức vàng $$\|a^*a\| = \|a\|^2$$. Khi giao hoán, nó luôn có dạng $$C_0(X)$$ (hàm liên tục trên không gian $$X$$). Khi không giao hoán, nó là ngôn ngữ trừu tượng chuẩn để mô tả tập hợp các đại lượng đo được của một hệ lượng tử mà chưa cần gắn cứng vào một không gian Hilbert duy nhất.
 
-- **C*-đại số (C-star algebra):** Được xem là "tô pô học không giao hoán". Khi giao hoán, một C*-đại số luôn có dạng $$C_0(X)$$ — tập các hàm liên tục trên một không gian tô pô $$X$$. Khi không giao hoán, nó là ngôn ngữ trừu tượng chuẩn để mô tả tập hợp các đại lượng quan sát lượng tử mà chưa cần cố định trước một không gian Hilbert cụ thể.
-- **Đại số von Neumann (hay W*-đại số):** Được xem là "lý thuyết độ đo không giao hoán". Khi giao hoán, nó có dạng $$L^\infty(X, \mu)$$ — tập các hàm đo được bị chặn. Điểm khác biệt sống còn là đại số von Neumann chứa rất nhiều **phép chiếu trực giao** (tương ứng với các câu hỏi "có/không" trong phép đo lượng tử), và có một bảng phân loại kỳ diệu (kiểu I, II, III) làm lộ ra những hiện tượng vô hạn chiều chưa từng tồn tại ở ma trận hữu hạn — chẳng hạn "chiều liên tục" (kiểu II) hay đại số không có dấu vết hữu hạn nào (kiểu III, vốn là kiểu đại số xuất hiện trong mọi vùng không–thời gian của lý thuyết trường lượng tử!).
+### 2. Đại số von Neumann = "Lý thuyết độ đo không giao hoán"
+Đóng theo tô pô yếu hơn (tương đương $$M'' = M$$), đại số von Neumann chứa rất nhiều **phép chiếu trực giao** (tương ứng với các phép đo "có/không"). Bảng phân loại các nhân tử (factor) thành **kiểu I, II, III** của Murray–von Neumann và Connes phát hiện những hiện tượng vô hạn chiều chưa từng có ở ma trận hữu hạn: "chiều liên tục" (kiểu II, nơi sinh ra đa thức nút Jones!) và đại số không có dấu vết hữu hạn nào (kiểu III, xuất hiện trong mọi vùng không–thời gian của lý thuyết trường lượng tử và vật lý hố đen).
 
-Hiểu được cặp đôi **C*-đại số (tô pô không giao hoán)** và **đại số von Neumann (độ đo không giao hoán)** cùng chiếc cầu nối **phép dựng GNS**, bạn đã nắm được bản đồ cốt lõi của toàn ngành.
+### 3. Phép dựng GNS và Lý thuyết trường lượng tử đại số (AQFT)
+Thay vì chọn sẵn không gian Hilbert, **phép dựng GNS** cho phép dựng ra một không gian Hilbert riêng $$\mathcal{H}_\omega$$ trực tiếp từ bất kỳ trạng thái kỳ vọng $$\omega$$ nào — nhờ đó giải thích tự nhiên các pha vật chất và khu vực siêu chọn khác nhau trên cùng một đại số quan sát.
 
 ---
 
@@ -89,7 +91,19 @@ $$
 \omega(a) = \langle \pi_\omega(a)\Omega, \Omega \rangle.
 $$
 
-Hãy xem một ví dụ trực quan: xét một chuỗi vô hạn các spin $$1/2$$ nằm dọc trục số nguyên $$\mathbb{Z}$$. Trạng thái $$\omega_\uparrow$$ (tất cả spin đều chỉ lên) và trạng thái $$\omega_\downarrow$$ (tất cả spin đều chỉ xuống) cùng xác định trên chung một C*-đại số các phép đo cục bộ. Nhưng khi dùng phép dựng GNS, hai không gian Hilbert $$\mathcal{H}_{\omega_\uparrow}$$ và $$\mathcal{H}_{\omega_\downarrow}$$ lại **không tương đương unita** — không có thao tác hữu hạn nào lật được cùng lúc vô hạn spin từ lên sang xuống! Trong ngôn ngữ vật lý, các biểu diễn không tương đương như vậy tách thế giới thành các **khu vực siêu chọn** (superselection sector), giải thích cả hiện tượng phá vỡ đối xứng tự phát lẫn sự bảo toàn tuyệt đối của điện tích.
+### Khung giải thích: tự tay chạy phép dựng GNS trên $$M_2(\mathbb{C})$$ (nên đọc chậm)
+
+Phép dựng GNS nghe rất trừu tượng, nhưng trên đại số ma trận $$2\times 2$$ là $$\mathcal{A} = M_2(\mathbb{C})$$, bạn có thể làm từng bước bằng tay trong 4 dòng:
+
+1. **Chọn một trạng thái thuần $$\omega_1$$:** Với ma trận $$A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$$, đặt $$\omega_1(A) = a$$ (lấy phần tử góc trên trái). Dễ kiểm tra $$\omega_1(I) = 1$$ và $$\omega_1(A^*A) = |a|^2 + |c|^2 \ge 0$$.
+2. **Định nghĩa nửa tích vô hướng và tìm phần tử "có độ dài 0":** Đặt $$\langle A, B\rangle_{\omega_1} = \omega_1(A^*B) = \overline{a_1}a_2 + \overline{c_1}c_2$$ — thực chất chính là tích vô hướng của **cột thứ nhất** của $$A$$ và $$B$$! Các ma trận có "độ dài 0" (tập hạt nhân $$\mathcal{N}_{\omega_1}$$) là những ma trận có $$|a|^2 + |c|^2 = 0$$, tức mọi ma trận dạng $$\begin{pmatrix} 0 & b \\ 0 & d \end{pmatrix}$$ (cột 1 bằng 0).
+3. **Lấy không gian thương $$\mathcal{H}_{\omega_1} = \mathcal{A}/\mathcal{N}_{\omega_1}$$:** Hai ma trận đồng dư nhau khi và chỉ khi có chung cột 1, nên $$\mathcal{H}_{\omega_1} \cong \mathbb{C}^2$$ với vectơ cyclic $$\Omega = [I] = \begin{pmatrix} 1 \\ 0 \end{pmatrix}$$! Phép nhân trái $$\pi_{\omega_1}(A)[B] = [AB]$$ chính là nhân ma trận $$A$$ vào cột 1, và ta kiểm tra ngay:
+   $$
+   \langle \Omega, \pi_{\omega_1}(A)\Omega \rangle = \begin{pmatrix} 1 & 0 \end{pmatrix}\begin{pmatrix} a & b \\ c & d \end{pmatrix}\begin{pmatrix} 1 \\ 0 \end{pmatrix} = a = \omega_1(A)!
+   $$
+4. **Đổi sang trạng thái hỗn hợp $$\omega_{\mathrm{tr}}(A) = \frac{1}{2}\operatorname{tr}(A) = \frac{a+d}{2}$$:** Lúc này $$\omega_{\mathrm{tr}}(A^*A) = \frac{1}{2}(|a|^2+|b|^2+|c|^2+|d|^2) = 0 \iff A = 0$$! Hạt nhân rỗng, nên không gian Hilbert GNS thu được có tới **4 chiều** ($$\mathcal{H}_{\omega_{\mathrm{tr}}} \cong \mathbb{C}^4$$), hoàn toàn khác $$\mathbb{C}^2$$!
+
+Điều kỳ diệu tương tự xảy ra ở vô hạn chiều: xét một chuỗi vô hạn các spin $$1/2$$ nằm dọc trục số nguyên $$\mathbb{Z}$$. Trạng thái $$\omega_\uparrow$$ (tất cả spin đều chỉ lên) và trạng thái $$\omega_\downarrow$$ (tất cả spin đều chỉ xuống) cùng xác định trên chung một C*-đại số các phép đo cục bộ. Nhưng khi dùng phép dựng GNS, hai không gian Hilbert $$\mathcal{H}_{\omega_\uparrow}$$ và $$\mathcal{H}_{\omega_\downarrow}$$ lại **không tương đương unita** — không có thao tác hữu hạn nào lật được cùng lúc vô hạn spin từ lên sang xuống! Trong ngôn ngữ vật lý, các biểu diễn không tương đương như vậy tách thế giới thành các **khu vực siêu chọn** (superselection sector), giải thích cả hiện tượng phá vỡ đối xứng tự phát lẫn sự bảo toàn tuyệt đối của điện tích.
 
 ---
 

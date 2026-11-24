@@ -21,6 +21,8 @@ Hơn ba mươi năm sau, sau bảy năm làm việc gần như bí mật trên c
 
 Điều thú vị nhất của câu chuyện này lại nằm ở vế sau của lời tuyên dương: Wiles không tấn công trực diện phương trình của Fermat bằng những mẹo chia hết hay phân tích thừa số. Ông đi vòng qua một lục địa toán học tưởng chừng chẳng liên quan gì—thế giới của **đường cong elliptic** và **dạng modular**—và mở ra cả một kỷ nguyên mới cho lý thuyết số hiện đại. Tài liệu chính thức: [abelprize.no](https://abelprize.no/).
 
+**Mạch bài học:** Bản đồ kiến thức nền (Lý thuyết số, đường cong elliptic, dạng modular) → Bài toán Fermat 350 năm → Đường cong Frey → Tính modular và khung tính tay "mã ADN trùng khớp" → Mạch phản chứng 5 bước → Biểu diễn Galois và $$R = \mathbb{T}$$ → Lịch sử thực tế và những hiểu lầm.
+
 ---
 
 ## Mục tiêu học tập
@@ -33,13 +35,18 @@ Sau bài học, bạn có thể: phát biểu chính xác Định lý Fermat v�
 
 ## Bản đồ kiến thức nền: Lý thuyết số, đường cong elliptic và dạng modular là gì và nghiên cứu những gì?
 
-Nếu bạn tốt nghiệp đại học ngành kỹ thuật hay khoa học tự nhiên, hẳn bạn quen với giải tích thực và đại số tuyến tính, nhưng nghe đến "đường cong elliptic" hay "dạng modular" có thể thấy như hai thuật ngữ đến từ hành tinh khác. Thật ra, trực giác phía sau chúng vô cùng đẹp và dễ nắm bắt:
+Nếu bạn tốt nghiệp đại học ngành kỹ thuật hay khoa học tự nhiên, hẳn bạn quen với giải tích thực và đại số tuyến tính, nhưng nghe đến "đường cong elliptic" hay "dạng modular" có thể thấy như hai thuật ngữ đến từ hành tinh khác. Thật ra, trực giác phía sau chúng đứng trên ba trụ cột vô cùng đẹp và dễ nắm bắt:
 
-- **Lý thuyết số (Number Theory)** nghiên cứu các quy luật ẩn giấu của số nguyên và số nguyên tố. Một nhánh cổ điển là **phương trình Diophantine**: tìm nghiệm nguyên (hoặc hữu tỷ) của các phương trình đa thức, như $$a^2 + b^2 = c^2$$ (bộ ba Pytago, có vô số nghiệm như $$3^2 + 4^2 = 5^2$$) hay $$a^n + b^n = c^n$$.
-- **Đường cong elliptic (Elliptic Curve)** không phải là hình elip! Nó là tập nghiệm của một phương trình bậc ba dạng $$y^2 = x^3 + Ax + B$$ (không có điểm nhọn hay tự cắt). Trên mặt phẳng thực, nó có hình dạng cong mềm mại; trên số phức, nó giống mặt chiếc bánh donut (hình xuyến). Điều thần kỳ là các điểm trên đường cong này có thể **"cộng" với nhau** bằng quy tắc kẻ đường thẳng cát tuyến, tạo thành một nhóm giao hoán. Hơn nữa, nếu ta lấy phương trình ấy theo modulo một số nguyên tố $$p$$ (tức chỉ làm toán trên các số dư $$0, 1, \dots, p-1$$), ta có thể **đếm số điểm nghiệm** $$N_p$$ và tính độ lệch $$a_p = p + 1 - N_p$$. Dãy số $$(a_2, a_3, a_5, a_7, \dots)$$ giống như **mã ADN số học** của đường cong elliptic.
-- **Dạng modular (Modular Form)** lại thuộc về một thế giới hoàn toàn khác: **giải tích phức**. Đó là những hàm số $$f(z)$$ sống trên nửa mặt phẳng trên của mặt phẳng phức ($$\operatorname{Im}(z) > 0$$) nhưng mang tính đối xứng khổng lồ: giá trị của hàm biến đổi theo một quy luật cực kỳ chặt dưới hàng vô hạn phép biến đổi phân tuyến tính $$z \mapsto \frac{az+b}{cz+d}$$ với $$ad - bc = 1$$. Vì có tính tuần hoàn $$f(z+1) = f(z)$$, dạng modular có thể khai triển thành chuỗi Fourier $$f(z) = \sum_{n=1}^{\infty} c_n q^n$$ (với $$q = e^{2\pi i z}$$). Dãy hệ số $$(c_2, c_3, c_5, c_7, \dots)$$ là **mã ADN giải tích** của dạng modular.
+### 1. Lý thuyết số và phương trình Diophantine
+Lý thuyết số nghiên cứu các quy luật ẩn giấu của số nguyên và số nguyên tố. Một nhánh cổ điển là **phương trình Diophantine**: tìm nghiệm nguyên (hoặc hữu tỷ) của các phương trình đa thức, như $$a^2 + b^2 = c^2$$ (bộ ba Pytago, có vô số nghiệm như $$3^2 + 4^2 = 5^2$$) hay $$a^n + b^n = c^n$$. Cái khó của phương trình nghiệm nguyên là ta không thể dùng đạo hàm hay phương pháp xấp xỉ số thực: chỉ cần nghiệm lệch khỏi số nguyên $$0.00001$$ là hoàn toàn vô nghĩa!
 
-**Cú sốc của thế kỷ XX (Giả thuyết Taniyama–Shimura–Weil / Tính modular):** Hai thế giới hoàn toàn xa lạ—một bên là phương trình bậc ba đếm điểm trên số nguyên, một bên là hàm phức siêu đối xứng—lại có **cùng một bảng mã ADN**! Mọi đường cong elliptic trên $$\mathbb{Q}$$ đều có một dạng modular "song sinh" sao cho $$a_p = c_p$$ với hầu hết mọi số nguyên tố $$p$$. Chính chiếc cầu nối tưởng như phép màu này đã hạ gục Định lý Cuối cùng của Fermat.
+### 2. Đường cong elliptic và "Mã ADN số học" $$a_p$$
+**Đường cong elliptic** không phải là hình elip! Nó là tập nghiệm của một phương trình bậc ba không suy biến dạng $$y^2 = x^3 + Ax + B$$ (hoặc dạng tổng quát $$y^2 + a_1xy + a_3y = x^3 + a_2x^2 + a_4x + a_6$$). Trên mặt phẳng thực, nó có hình dạng cong mềm mại; trên số phức, nó giống mặt chiếc bánh donut (hình xuyến). Điều thần kỳ là các điểm trên đường cong này có thể **"cộng" với nhau** bằng quy tắc kẻ đường thẳng cát tuyến (đây chính là nền tảng của mật mã đường cong elliptic ECC bảo vệ giao dịch ngân hàng ngày nay). Hơn nữa, nếu ta lấy phương trình ấy theo modulo từng số nguyên tố $$p$$, ta có thể **đếm số điểm nghiệm** $$N_p$$ (gồm cả điểm ở vô cùng $$\mathcal{O}$$) và tính độ lệch $$a_p = p + 1 - N_p$$. Dãy số $$(a_2, a_3, a_5, a_7, \dots)$$ giống như **mã ADN số học** của đường cong elliptic.
+
+### 3. Dạng modular và "Mã ADN giải tích" $$c_p$$
+**Dạng modular (Modular Form)** lại thuộc về một thế giới hoàn toàn khác: **giải tích phức**. Đó là những hàm số $$f(z)$$ sống trên nửa mặt phẳng trên của mặt phẳng phức ($$\operatorname{Im}(z) > 0$$) nhưng mang tính đối xứng khổng lồ: giá trị của hàm biến đổi theo một quy luật cực kỳ chặt dưới hàng vô hạn phép biến đổi phân tuyến tính $$z \mapsto \frac{az+b}{cz+d}$$ với $$ad - bc = 1$$. Vì có tính tuần hoàn $$f(z+1) = f(z)$$, dạng modular có thể khai triển thành chuỗi Fourier $$f(z) = \sum_{n=1}^{\infty} c_n q^n$$ (với $$q = e^{2\pi i z}$$). Dãy hệ số $$(c_2, c_3, c_5, c_7, \dots)$$ là **mã ADN giải tích** của dạng modular.
+
+**Cú sốc của thế kỷ XX (Định lý Modular):** Hai thế giới hoàn toàn xa lạ—một bên là phương trình bậc ba đếm điểm trên số nguyên, một bên là hàm phức siêu đối xứng—lại có **cùng một bảng mã ADN**! Mọi đường cong elliptic trên $$\mathbb{Q}$$ đều có một dạng modular "song sinh" sao cho $$a_p = c_p$$ với hầu hết mọi số nguyên tố $$p$$. Chính chiếc cầu nối tưởng như phép màu này đã hạ gục Định lý Cuối cùng của Fermat.
 
 ---
 
@@ -91,13 +98,50 @@ $$
 
 thỏa mãn các quy luật đối xứng cực chặt dưới một nhóm con đồng dư $$\Gamma_0(N)$$ của $$\mathrm{SL}_2(\mathbb{Z})$$, với $$N$$ gọi là **cấp (level)** của dạng modular.
 
-**Ví dụ cụ thể về "mã ADN trùng khớp":** Xét đường cong elliptic rất nổi tiếng có cấp $$N = 11$$ là $$E:\; y^2 + y = x^3 - x^2$$. Nếu bạn đếm số điểm nghiệm của $$E$$ theo modulo các số nguyên tố $$p = 2, 3, 5, 7$$ rồi tính $$a_p = p + 1 - N_p$$, bạn thu được dãy $$-2, -1, 1, -2$$. Ở phía bên kia, hãy lấy tích vô hạn $$f(q) = q \prod_{n=1}^\infty (1 - q^n)^2 (1 - q^{11n})^2$$ và nhân bung ra thành chuỗi lũy thừa:
+### Khung giải thích: Tự tay kiểm chứng "mã ADN trùng khớp" giữa đường cong elliptic và dạng modular (nên đọc chậm)
+
+Để thấy tính modular không phải là phép màu trừu tượng mà là một đẳng thức số học có thể **kiểm tra trực tiếp bằng giấy bút**, hãy xét đường cong elliptic nổi tiếng cấp $$N = 11$$:
 
 $$
-f(q) = q - 2q^2 - q^3 + 2q^4 + q^5 + 2q^6 - 2q^7 + \cdots
+E:\quad y^2 + y = x^3 - x^2.
 $$
 
-Hãy nhìn các hệ số của $$q^2, q^3, q^5, q^7$$: chúng là $$-2, -1, 1, -2$$—trùng khớp từng con số một với dãy $$a_p$$ của đường cong elliptic! Tính modular khẳng định sự trùng khớp kỳ diệu này xảy ra với *mọi* đường cong elliptic trên $$\mathbb{Q}$$.
+#### Bước 1: Tự tay đếm điểm nghiệm $$N_p$$ và tính $$a_p = p + 1 - N_p$$ theo modulo $$p = 2, 3, 5$$
+(Nhớ cộng thêm $$1$$ điểm ở vô cùng $$\mathcal{O}$$ vào số cặp $$(x,y) \in \mathbb{F}_p^2$$ tìm được.)
+
+- **Với $$p = 2$$:** Ta thử $$x, y \in \{0, 1\}$$. Vế trái $$y^2 + y \equiv 0 \pmod 2$$ với cả $$y=0$$ lẫn $$y=1$$; vế phải $$x^3 - x^2 \equiv 0 \pmod 2$$ với cả $$x=0$$ lẫn $$x=1$$. Vậy cả 4 cặp $$(0,0), (0,1), (1,0), (1,1)$$ đều là nghiệm! Cộng điểm $$\mathcal{O}$$ ta có $$N_2 = 4 + 1 = 5$$, suy ra:
+  $$
+  a_2 = 2 + 1 - 5 = -2.
+  $$
+- **Với $$p = 3$$:** Ta lập bảng giá trị theo $$\bmod 3$$:
+  - Vế trái $$y^2 + y$$: $$y=0 \mapsto 0$$; $$y=1 \mapsto 2$$; $$y=2 \mapsto 6 \equiv 0$$.
+  - Vế phải $$x^3 - x^2$$: $$x=0 \mapsto 0$$ (khớp với $$y=0,2$$ → 2 điểm); $$x=1 \mapsto 0$$ (khớp $$y=0,2$$ → 2 điểm); $$x=2 \mapsto 8-4=4\equiv 1$$ (không có $$y$$ nào ra $$1$$ → 0 điểm).
+  - Tổng cộng $$N_3 = 4 + 1 = 5$$, suy ra:
+  $$
+  a_3 = 3 + 1 - 5 = -1.
+  $$
+- **Với $$p = 5$$:** Ta lập bảng theo $$\bmod 5$$:
+  - Vế trái $$y^2 + y$$: $$y=0 \mapsto 0$$; $$y=1 \mapsto 2$$; $$y=2 \mapsto 1$$; $$y=3 \mapsto 2$$; $$y=4 \mapsto 0$$.
+  - Vế phải $$x^3 - x^2$$: $$x=0 \mapsto 0$$ (2 điểm); $$x=1 \mapsto 0$$ (2 điểm); $$x=2 \mapsto 4$$ (0 điểm); $$x=3 \mapsto 18\equiv 3$$ (0 điểm); $$x=4 \mapsto 48\equiv 3$$ (0 điểm).
+  - Tổng cộng $$N_5 = 4 + 1 = 5$$, suy ra:
+  $$
+  a_5 = 5 + 1 - 5 = +1.
+  $$
+
+#### Bước 2: Bung tay tích vô hạn của dạng modular cấp 11
+Ở phía giải tích phức, xét tích vô hạn $$f(q) = q \prod_{n=1}^{\infty} (1 - q^n)^2 (1 - q^{11n})^2$$. Để tìm hệ số đến bậc $$q^5$$, ta chỉ cần giữ các nhân tử có lũy thừa $$\le 4$$ (vì đã có sẵn $$q$$ đứng ngoài):
+
+$$
+\begin{aligned}
+f(q) &= q(1 - q)^2(1 - q^2)^2(1 - q^3)^2(1 - q^4)^2 \cdots \\
+&= q(1 - 2q + q^2)(1 - 2q^2 + q^4)(1 - 2q^3 + \cdots)(1 - 2q^4 + \cdots) \\
+&= q\bigl(1 - 2q - q^2 + 2q^3 + q^4 + \cdots\bigr) \\
+&= q - 2q^2 - q^3 + 2q^4 + q^5 + \cdots
+\end{aligned}
+$$
+
+#### Bước 3: Đối chiếu từng con số!
+Nhìn vào hệ số đứng trước $$q^2, q^3, q^5$$ của $$f(q)$$: chúng là **$$-2,\ -1,\ +1$$** — trùng khớp từng dấu một với $$a_2 = -2,\ a_3 = -1,\ a_5 = +1$$ mà bạn vừa tự tay đếm ở Bước 1! Và sự trùng khớp này tiếp diễn mãi mãi tới mọi số nguyên tố $$p$$!
 
 **Định lý hạ cấp (level-lowering) của Ken Ribet.** Ribet chứng minh rằng nếu đường cong Frey là modular ở một cấp $$N$$ nào đó, thì nhờ biệt thức của nó là lũy thừa bậc $$2p$$, ta có thể liên tục "lột bỏ" các ước nguyên tố khỏi cấp $$N$$ cho đến khi hạ xuống tận **cấp $$N = 2$$**. Thế nhưng một định lý cổ điển đã biết từ lâu: **không hề tồn tại dạng modular nào (loại cusp form trọng số 2) ở cấp $$N = 2$$!** Không gian đó hoàn toàn trống rỗng. Từ đó ta có mũi tên sắc lẹm:
 
@@ -105,7 +149,7 @@ Hãy nhìn các hệ số của $$q^2, q^3, q^5, q^7$$: chúng là $$-2, -1, 1, 
 
 Nhờ Ribet, bài toán Fermat 350 tuổi đột nhiên nối thẳng vào giả thuyết Taniyama–Shimura–Weil: **chỉ cần chứng minh được tính modular cho lớp đường cong chứa đường cong Frey, Định lý Fermat sẽ lập tức trở thành hệ quả.**
 
-**Đột phá của Andrew Wiles.** Wiles đã chứng minh tính modular cho một lớp cực rộng: mọi đường cong elliptic **nửa ổn định** (*semistable*) trên $$\mathbb{Q}$$. Đường cong Frey nằm gọn trong lớp này. Để làm được điều đó, Wiles phát triển **lý thuyết biến dạng của biểu diễn Galois** và thiết lập tiêu chuẩn số học cho **định lý nâng modular** (*modularity lifting*). Khi bản thảo năm 1993 lộ ra một lỗ hổng tinh tế trong ước lượng nhóm Selmer, Wiles đã cùng **Richard Taylor** tạo ra kỹ thuật **ghép Taylor–Wiles (patching)** để khép kín chứng minh vào năm 1994–1995.
+**Đột phá của Andrew Wiles.** Wiles đã chứng minh tính modular cho một lớp cực rộng: mọi đường cong elliptic **nửa ổn định** (*semistable*) trên $$\mathbb{Q}$$. Đường cong Frey nằm gọn trong lớp này. Để làm được đó, Wiles phát triển **lý thuyết biến dạng của biểu diễn Galois** và thiết lập tiêu chuẩn số học cho **định lý nâng modular** (*modularity lifting*). Khi bản thảo năm 1993 lộ ra một lỗ hổng tinh tế trong ước lượng nhóm Selmer, Wiles đã cùng **Richard Taylor** tạo ra kỹ thuật **ghép Taylor–Wiles (patching)** để khép kín chứng minh vào năm 1994–1995.
 
 Vài năm sau, **Breuil–Conrad–Diamond–Taylor (BCDT)** đã mở rộng phương pháp của Wiles để chứng minh tính modular cho **mọi** đường cong elliptic trên $$\mathbb{Q}$$, gỡ bỏ hoàn toàn điều kiện nửa ổn định. Hãy để ý cách Ủy ban Abel viết lời tuyên dương rất chuẩn xác: *"modularity conjecture for **semistable** elliptic curves"*. Đọc kỹ từng chữ như vậy giúp ta phân biệt rạch ròi giữa công trình lịch sử của Wiles và phần tổng quát hóa hoàn tất sau đó.
 

@@ -89,15 +89,38 @@ $$
 \langle \partial_i T,\varphi\rangle = -\langle T,\partial_i \varphi\rangle.
 $$
 
-**Ví dụ chứng minh siêu gọn: đạo hàm của bước nhảy Heaviside chính là xung Dirac!** Xét hàm bậc thang $$H(x) = 0$$ khi $$x < 0$$ và $$H(x) = 1$$ khi $$x \ge 0$$ (không có đạo hàm cổ điển tại $$x=0$$). Áp dụng định nghĩa phân bố cho mọi hàm thử $$\varphi \in C_c^\infty(\mathbb{R})$$:
+### Ví dụ cầm tay chỉ việc: Tự tính đạo hàm bậc 1 và bậc 2 của hàm gãy khúc $$\lvert x \rvert$$
 
+Trong giải tích năm nhất, hàm $$f(x) = \lvert x \rvert$$ có góc nhọn chữ V tại $$x=0$$ nên không có đạo hàm cổ điển. Hãy dùng công thức phân bố để tính tay đạo hàm bậc 1 và bậc 2 cho mọi hàm thử $$\varphi \in C_c^\infty(\mathbb{R})$$:
+
+1. **Tính đạo hàm bậc 1 của hàm bậc thang Heaviside $$H(x)$$** (bằng $$0$$ khi $$x<0$$, bằng $$1$$ khi $$x\ge 0$$):
 $$
-\langle H', \varphi \rangle = -\langle H, \varphi' \rangle = -\int_0^{+\infty} \varphi'(x)\,dx = -\bigl[\varphi(+\infty) - \varphi(0)\bigr] = \varphi(0) = \langle \delta_0, \varphi \rangle.
+\langle H', \varphi \rangle = -\langle H, \varphi' \rangle = -\int_0^{+\infty} \varphi'(x)\,dx = -\bigl[\varphi(+\infty) - \varphi(0)\bigr] = \varphi(0) = \langle \delta_0, \varphi \rangle \implies H' = \delta_0.
 $$
+2. **Tính đạo hàm bậc 1 của $$\lvert x \rvert$$:** tách tích phân tại $$x=0$$ và tích phân từng phần trên mỗi nửa trục (lưu ý $$\varphi(\pm\infty)=0$$):
+$$
+\begin{aligned}
+\langle (\lvert x \rvert)', \varphi \rangle
+&= -\int_{-\infty}^0 (-x)\varphi'(x)\,dx - \int_0^{+\infty} x\varphi'(x)\,dx \\
+&= \Bigl[\left. x\varphi(x)\right|_{-\infty}^0 - \int_{-\infty}^0 \varphi(x)\,dx\Bigr] - \Bigl[\left. x\varphi(x)\right|_0^{+\infty} - \int_0^{+\infty} \varphi(x)\,dx\Bigr] \\
+&= -\int_{-\infty}^0 \varphi(x)\,dx + \int_0^{+\infty} \varphi(x)\,dx = \langle \mathrm{sgn}(x), \varphi \rangle.
+\end{aligned}
+$$
+Vậy $$(\lvert x \rvert)' = \mathrm{sgn}(x) = 2H(x) - 1$$ (hàm dấu nhảy bậc từ $$-1$$ lên $$+1$$ tại $$x=0$$).
+3. **Tính đạo hàm bậc 2 của $$\lvert x \rvert$$:** dùng ngay kết quả bước 1:
+$$
+(\lvert x \rvert)'' = \bigl(2H(x) - 1\bigr)' = 2\delta_0!
+$$
+Hệ quả tuyệt đẹp: hàm $$G(x) = -\frac{1}{2}\lvert x \rvert$$ chính là nghiệm cơ bản (hàm Green) của phương trình $$-u'' = \delta_0$$ trên trục số — một hàm gãy góc hoàn toàn hợp lệ theo nghĩa phân bố!
 
-Vậy $$H' = \delta_0$$ một cách **chặt chẽ 100%**! Hệ quả chấn động: mọi phân bố đều khả vi vô hạn lần theo nghĩa yếu, và khái niệm **nghiệm yếu (weak solution)** của PDE — vốn là nền tảng cho phương pháp phần tử hữu hạn (FEM) lẫn bài toán Thiên niên kỷ [Navier–Stokes]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/) — chính là nghiệm hiểu trong $$\mathcal{D}'$$.
+### Khung giải thích: Lý thuyết phân bố "cứu" phép tính của Dirac theo 4 bước nào? (nên đọc chậm)
 
-**Chuỗi lập luận ngắn.** Nguồn điểm và bước nhảy trở nên hoàn toàn hợp lệ khi ta đẩy gánh nặng lấy đạo hàm sang **hàm thử siêu trơn $$\varphi$$**, thay vì cố lấy đạo hàm trực tiếp lên đối tượng kỳ dị.
+1. **Đổi đối tượng từ "giá trị tại điểm" sang "phiếm hàm đo đạc":** thay vì vẽ đồ thị tại từng điểm $$x$$, ta xác định đối tượng $$T$$ qua kết quả tác động $$\langle T, \varphi\rangle$$ lên mọi hàm thử siêu trơn $$\varphi$$.
+2. **Chuyển đạo hàm sang hàm thử nhờ tích phân từng phần:** công thức $$\langle T', \varphi \rangle = -\langle T, \varphi' \rangle$$ làm cho mọi hàm gián đoạn ($$H$$), hàm gãy khúc ($$\lvert x \rvert$$) và xung $$\delta$$ đều khả vi vô hạn lần.
+3. **Mở rộng biến đổi Fourier sang không gian đối ngẫu $$\mathcal{S}'$$:** nhờ chọn hàm thử giảm nhanh (không gian Schwartz $$\mathcal{S}$$), ta tính được biến đổi Fourier của cả xung $$\delta$$ ($$\widehat{\delta_0}=1$$) lẫn sóng thuần túy.
+4. **Vạch rõ ranh giới an toàn:** mọi phép toán **tuyến tính** với hệ số trơn đều hợp lệ 100%; nhưng **nhân hai phân bố kỳ dị** (như $$\delta^2$$) là vùng cấm trừ khi có thêm điều kiện giải tích vi địa phương hoặc tái chuẩn hóa.
+
+**Kiểm tra nhanh.** Nghiệm yếu trong $$\mathcal{D}'$$ không phải là "nghiệm gần đúng kém chất lượng" — đó là ngôn ngữ chính xác làm nền cho phương pháp phần tử hữu hạn (FEM) và bài toán Thiên niên kỷ [Navier–Stokes]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/).
 
 ---
 

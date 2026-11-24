@@ -122,7 +122,25 @@ $$
 \min_x\, c^\top x \quad\text{s.t.}\quad Ax\le b,\quad x\ge 0.
 $$
 
-**Ví dụ trực quan 2 biến.** Một xưởng mộc đóng bàn ($$x_1$$) và ghế ($$x_2$$), lãi 400 nghìn/bàn và 300 nghìn/ghế, bị giới hạn bởi tổng lượng gỗ ($$2x_1 + x_2 \le 100$$) và tổng giờ công ($$x_1 + 2x_2 \le 80$$). Vẽ hai bất đẳng thức này lên mặt phẳng ta được một đa giác lồi. Vì hàm mục tiêu tuyến tính (các đường đồng mức là những đường thẳng song song), điểm cho lợi nhuận lớn nhất **luôn nằm tại một đỉnh góc của đa giác** (ở đây là giao điểm $$x_1=40, x_2=20$$ cho lãi 22 triệu)!
+### Ví dụ cầm tay chỉ việc: Giải bài toán LP xưởng mộc và tự tay chứng nhận tối ưu bằng Đối ngẫu
+
+Một xưởng mộc đóng $$x_1$$ chiếc bàn (lãi 400 nghìn/bàn) và $$x_2$$ chiếc ghế (lãi 300 nghìn/ghế), bị giới hạn bởi gỗ ($$2x_1 + x_2 \le 100$$) và giờ công ($$x_1 + 2x_2 \le 80$$), với $$x_1, x_2 \ge 0$$. Ta muốn tối đa hóa $$z = 400x_1 + 300x_2$$:
+
+1. **Giải bài toán gốc bằng kiểm tra các đỉnh đa giác lồi:**
+   - Đỉnh $$(0, 0)$$: $$z = 0$$.
+   - Đỉnh $$(50, 0)$$ (hết gỗ): $$z = 400(50) = 20{.}000$$ (20 triệu).
+   - Đỉnh $$(0, 40)$$ (hết giờ công): $$z = 300(40) = 12{.}000$$ (12 triệu).
+   - Giao điểm hai ràng buộc: giải $$\begin{cases} 2x_1 + x_2 = 100 \\ x_1 + 2x_2 = 80 \end{cases} \implies x_1 = 40,\ x_2 = 20$$, cho lợi nhuận $$z^* = 400(40) + 300(20) = 22{.}000$$ (22 triệu đồng).
+2. **Tự xây giấy chứng nhận tối ưu (Đối ngẫu & Giá bóng):** làm sao khẳng định chắc chắn không tồn tại cặp $$(x_1, x_2)$$ nào cho lãi 22,1 triệu? Ta nhân bất đẳng thức gỗ với $$y_1 \ge 0$$ và giờ công với $$y_2 \ge 0$$ rồi cộng lại để chặn trên hàm mục tiêu:
+$$
+(2y_1 + y_2)x_1 + (y_1 + 2y_2)x_2 \le 100y_1 + 80y_2.
+$$
+Chọn $$y_1, y_2$$ khớp hệ số mục tiêu: $$\begin{cases} 2y_1 + y_2 = 400 \\ y_1 + 2y_2 = 300 \end{cases} \implies y_1 = \frac{500}{3} \approx 166{,}7,\quad y_2 = \frac{200}{3} \approx 66{,}7$$.
+3. **Kiểm chứng đối ngẫu mạnh:** thay vào vế phải ta được cận trên cứng:
+$$
+400x_1 + 300x_2 \le 100\left(\frac{500}{3}\right) + 80\left(\frac{200}{3}\right) = \frac{66{.}000}{3} = 22{.}000!
+$$
+Cận trên bằng **đúng tuyệt đối** lợi nhuận tại $$(40, 20)$$ — và ta biết luôn giá bóng của 1 đơn vị gỗ là 166,7 nghìn còn 1 giờ công là 66,7 nghìn!
 
 Trong không gian hàng chục nghìn biến, **phương pháp đơn hình (Simplex)** đi nhảy cóc từ đỉnh này sang đỉnh tốt hơn dọc theo các cạnh đa diện; còn **phương pháp điểm trong (Interior-Point)** đi xuyên thẳng qua ruột đa diện với bảo đảm thời gian đa thức.
 
@@ -154,6 +172,15 @@ Một trong những ý tưởng đẹp nhất của toán học ứng dụng là
 - **Đối ngẫu mạnh** (đúng với LP chấp nhận được và bị chặn, cũng như bài toán lồi thỏa điều kiện Slater): hai giá trị tối ưu **bằng nhau tuyệt đối**. Nghiệm đối ngẫu chính là **tờ giấy chứng nhận toán học** khẳng định không ai trên đời tìm được phương án rẻ hơn nữa.
 
 Với bài toán luồng mạng, định lý luồng cực đại – lát cắt cực tiểu chính là đối ngẫu mạnh dưới lớp áo tổ hợp.
+
+### Khung giải thích: Quy trình 4 bước chọn đúng vũ khí cho một bài toán tối ưu (nên đọc chậm)
+
+1. **Dịch bài toán thực tế thành bộ ba $$(x, f, \mathcal{X})$$:** xác định biến quyết định liên tục hay rời rạc $$0/1$$, hàm mục tiêu cần tối tiểu/tối đại, và danh sách ràng buộc cứng.
+2. **Kiểm tra tính lồi của địa hình:** nếu cả $$f$$ và $$\mathcal{X}$$ đều lồi (LP, QP, bình phương tối thiểu, SVM), bạn có bảo đảm mọi cực tiểu địa phương đều là toàn cục và có chứng nhận đối ngẫu.
+3. **Chọn thuật toán theo kích thước và cấu trúc:** bài toán vận hành rời rạc hàng trăm nghìn biến → dùng bộ giải LP/MIP (điểm trong + nhánh cận); bài toán học sâu không lồi hàng tỷ tham số → dùng phương pháp bậc nhất ngẫu nhiên (SGD, Momentum, Adam).
+4. **Đọc kết quả vượt ra ngoài con số $$x^*$$:** với LP/lồi, đọc thêm **giá bóng (biến đối ngẫu)** để biết tài nguyên nào đang là nút thắt cổ chai; với học sâu, luôn kiểm chứng nghiệm trên tập validation để tách tối ưu hóa khỏi tổng quát hóa.
+
+**Kiểm tra nhanh.** Chữ "tối ưu" trong vận trù học (LP có chứng nhận đối ngẫu) và "huấn luyện hội tụ" trong học sâu (SGD dừng ở một thung lũng phẳng) là hai mức bảo đảm hoàn toàn khác nhau.
 
 ---
 

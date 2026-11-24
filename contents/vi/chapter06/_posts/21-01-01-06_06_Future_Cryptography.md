@@ -91,6 +91,43 @@ Nền tảng toán học gồm hình học số, đại số số (lattice modul
 
 ---
 
+### Khung giải thích: tự tay mã hóa và giải mã 1 bit bằng mật mã lưới LWE (nên đọc chậm)
+
+Mật mã hậu lượng tử dựa trên LWE (*Learning With Errors*, nền tảng của chuẩn NIST ML-KEM) nghe có vẻ rất cao siêu, nhưng cơ chế lõi của nó chỉ dùng phép cộng, nhân số nguyên modulo $$q$$ và một chút nhiễu nhỏ. Hãy tự tay chạy trọn một phiên mã hóa – giải mã với mô-đun tí hon $$q = 17$$ (chú ý $$\lfloor q/2 \rfloor = 8$$).
+
+1. **Tạo khóa (Bob):**
+   - Bob chọn ngẫu nhiên **khóa bí mật** là một vectơ 2 chiều: $$s = \begin{pmatrix}3\\5\end{pmatrix} \in \mathbb{Z}_{17}^2$$.
+   - Bob tạo **khóa công khai** gồm 3 cặp $$(a_i, b_i)$$ bằng công thức $$b_i = a_i^\top s + e_i \pmod{17}$$, trong đó nhiễu $$e_i \in \{-1, 0, 1\}$$ rất nhỏ:
+     - $$a_1 = (2, 1),\ e_1 = +1 \;\Longrightarrow\; b_1 = 2(3) + 1(5) + 1 = 12 \pmod{17}$$.
+     - $$a_2 = (4, 3),\ e_2 = -1 \;\Longrightarrow\; b_2 = 4(3) + 3(5) - 1 = 26 \equiv 9 \pmod{17}$$.
+     - $$a_3 = (1, 6),\ e_3 = 0 \;\Longrightarrow\; b_3 = 1(3) + 6(5) + 0 = 33 \equiv 16 \pmod{17}$$.
+   - Bob công bố ba cặp $$(a_i, b_i)$$, giữ kín $$s$$ và các nhiễu $$e_i$$.
+
+2. **Mã hóa bit $$m = 1$$ (Alice gửi cho Bob):**
+   - Alice chọn ngẫu nhiên một tập con các phương trình công khai, ví dụ tập $$\{1, 2\}$$, rồi cộng chúng lại và cộng thêm $$8 \cdot m$$ vào vế phải:
+     $$
+     u = a_1 + a_2 = (2+4,\ 1+3) = (6, 4) \pmod{17},
+     $$
+     $$
+     v = b_1 + b_2 + 8 \cdot 1 = 12 + 9 + 8 = 29 \equiv 12 \pmod{17}.
+     $$
+   - Alice gửi bản mã $$(u, v) = \bigl((6, 4),\, 12\bigr)$$ qua mạng công khai.
+
+3. **Giải mã (Bob dùng khóa bí mật $$s = (3, 5)^\top$$):**
+   - Bob tính hiệu $$d = v - u^\top s \pmod{17}$$:
+     $$
+     u^\top s = 6(3) + 4(5) = 38 \equiv 4 \pmod{17}
+     \;\Longrightarrow\;
+     d = 12 - 4 = 8 \pmod{17}.
+     $$
+   - Vì sao lại ra gần $$8$$ (nếu $$m=1$$) hoặc gần $$0$$ (nếu $$m=0$$)? Thay biểu thức vào ta thấy ngay:
+     $$
+     v - u^\top s = (e_1 + e_2) + 8m = (1 - 1) + 8(1) = 8.
+     $$
+   - Bob kiểm tra khoảng cách vòng quanh trên $$\mathbb{Z}_{17}$$: $$d = 8$$ nằm sát $$8$$ (cách $$0$$ tới 8 đơn vị), nên kết luận chính xác **$$m = 1$$**!
+
+**Tại sao an toàn khi tăng lên 500–1000 chiều?** Với Bob biết $$s$$, tích vô hướng $$u^\top s$$ triệt tiêu sạch phần lớn, chỉ chừa lại tổng vài số nhiễu rất nhỏ $$e_1 + e_2$$ cộng với $$8m$$. Còn với kẻ nghe lén không biết $$s$$, việc khử nhiễu để tìm $$s$$ từ hàng trăm phương trình tuyến tính nhiễu đồng nghĩa với tìm điểm lưới gần nhất trong không gian hàng trăm chiều — bài toán hiện vẫn đứng vững trước cả máy tính cổ điển lẫn thuật toán Shor.
+
 ## 5. QKD và PQC
 
 **QKD** dùng trạng thái lượng tử để việc nghe lén gây ra nhiễu mà ta phát hiện được bằng thống kê, theo một mô hình vật lý được nêu rõ; thường vẫn cần một kênh cổ điển đã xác thực và các biện pháp chống kênh phụ. **PQC** chạy trên mạng cổ điển với thuật toán mới.

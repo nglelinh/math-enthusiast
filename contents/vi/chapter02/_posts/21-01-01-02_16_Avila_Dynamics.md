@@ -13,7 +13,7 @@ Hãy thử lấy một công thức bậc hai đơn giản hết mức: $$x_{n+1
 
 Câu trả lời của **Artur Avila** — người Brazil và người Mỹ Latinh đầu tiên nhận **Huy chương Fields (2014)** — nằm ở một "chiếc kính hiển vi đổi thang" đầy quyền năng gọi là **tái chuẩn hóa** (*renormalization*). Theo lời trích dẫn của IMU, giải thưởng ghi nhận *"những đóng góp sâu sắc cho lý thuyết hệ động lực, đã làm thay đổi diện mạo của lĩnh vực, lấy ý tưởng mạnh mẽ của tái chuẩn hóa làm nguyên lý thống nhất."* Avila không phát minh ra tái chuẩn hóa (trước ông đã có Wilson trong vật lý, Feigenbaum, Sullivan, và trường phái động lực một chiều ở Brazil–Pháp), nhưng ông đã biến nó thành ngôn ngữ chung để giải quyết hàng loạt bài toán nổi tiếng ở ba vùng đất khác nhau: ánh xạ một chiều, **toán tử Schrödinger tựa tuần hoàn** (bài toán *Ten Martini* cùng Svetlana Jitomirskaya), và **động lực Teichmüller** (cùng Forni, Viana…).
 
-Bài này dành cho người đã biết về phép lặp của một ánh xạ $$f:[0,1]\to[0,1]$$, hoặc về hệ tuyến tính có hệ số thay đổi, và muốn nắm **cấu trúc chung** của các công trình của Avila. Bài **không** nói rằng ông đã phân loại mọi hệ động lực, và cũng không coi định lý về phổ Ten Martini là của riêng ông.
+**Mạch bài học:** Bản đồ kiến thức nền (tính tay ánh xạ logistic nhân đôi chu kỳ và viết ma trận cocycle $$2\times 2$$ cho toán tử almost Mathieu) → Lịch sử tái chuẩn hóa → Khung giải thích chậm 4 bước: tái chuẩn hóa thống nhất ánh xạ 1 chiều, bài toán Ten Martini và dòng Teichmüller → Ghi nhận công lao các cộng sự.
 
 ---
 
@@ -21,76 +21,79 @@ Bài này dành cho người đã biết về phép lặp của một ánh xạ 
 
 Sau bài học, bạn có thể:
 
-- Phát biểu lời trích dẫn của IMU năm 2014 trong một câu cẩn thận, trong đó **tái chuẩn hóa** là công cụ thống nhất chứ không phải phát minh của riêng ông.
-- Giải thích ở mức ý tưởng **tái chuẩn hóa** một hệ động lực nghĩa là gì: chuyển sang ánh xạ quay về lần đầu (first-return map) hoặc ánh xạ đã đổi tỷ lệ, rồi coi đối tượng mới như một phần tử thuộc cùng lớp.
-- Mô tả **toán tử almost Mathieu** và **bài toán Ten Martini** (phổ có phải là tập Cantor không), và ghi nhận lời giải là công trình **chung** của **Avila–Jitomirskaya**.
-- Phân biệt cocycle Schrödinger tựa tuần hoàn một tần số với khẳng định sai "mọi phổ lượng tử đều là tập Cantor".
-- Phác thảo ánh xạ trao đổi khoảng, động lực Teichmüller và vai trò của **số mũ Lyapunov**, kèm tên các cộng sự (Forni, Viana và những người khác).
-- Đánh giá tỉnh táo trước các khẩu hiệu phổ thông: câu "Avila phân loại được hỗn loạn" là nói quá; các định lý của ông sắp xếp lại một số lớp hệ cụ thể và rất khó.
+- Tự tính tay điểm cố định và sự mất ổn định của **ánh xạ logistic** $$x \mapsto rx(1-x)$$, và tự viết lại phương trình **toán tử almost Mathieu** thành **cocycle ma trận $$2\times 2$$** có định thức $$1$$.
+- Giải thích trực giác **tái chuẩn hóa** là toán tử trên không gian các hệ (chuyển sang ánh xạ quay về lần đầu đã đổi tỷ lệ).
+- Hiểu mạch 4 bước kết nối ba nhánh công trình của Avila: ánh xạ đơn mốt (chính quy vs ngẫu nhiên), lý thuyết toàn cục cocycle một tần số & **bài toán Ten Martini** (cùng Jitomirskaya), và **ánh xạ trao đổi khoảng / dòng Teichmüller** (cùng Forni, Viana).
+- Ghi nhận đúng vai trò của các cộng sự và tránh nói quá kiểu "Avila đã phân loại mọi hệ động lực".
 
-**Kiến thức cần có.** Phép lặp của ánh xạ trên đường thẳng thực; quỹ đạo và sự phụ thuộc nhạy vào điều kiện ban đầu; ma trận và trị riêng, đủ để hiểu "số mũ Lyapunov" là tốc độ tăng theo hàm mũ; tập Cantor là tập hoàn hảo, không đâu trù mật trên đường thẳng. Không cần biết trước về lý thuyết Teichmüller hay lý thuyết phổ của toán tử ergodic.
+**Kiến thức cần có.** Đạo hàm cơ bản, ma trận $$2\times 2$$, trị riêng và khái niệm tập Cantor. Không cần biết trước lý thuyết Teichmüller hay lý thuyết phổ.
 
-**Liên hệ với khóa học.** Bài gần nhất về động lực: [Mirzakhani, không gian moduli và Teichmüller]({{ site.baseurl }}/contents/vi/chapter02/02_05_Mirzakhani_Moduli/) (cùng được trao giải năm 2014; bà nghiên cứu mặt, không nghiên cứu phổ). Động lực trong số học theo một hướng khác: [Venkatesh]({{ site.baseurl }}/contents/vi/chapter02/02_07_Venkatesh_Number_Theory/). Về "ngôn ngữ thống nhất" ở chỗ khác trong chương, có thể so với [Scholze và phép tilting]({{ site.baseurl }}/contents/vi/chapter02/02_06_Scholze_Perfectoid/), nhưng đó là hạ tầng cho một lĩnh vực khác, không cùng bộ công cụ.
+**Liên hệ với khóa học.** Bài gần nhất về động lực: [Mirzakhani, không gian moduli và Teichmüller]({{ site.baseurl }}/contents/vi/chapter02/02_05_Mirzakhani_Moduli/) (cùng được trao giải năm 2014). Động lực trong số học theo hướng khác: [Venkatesh]({{ site.baseurl }}/contents/vi/chapter02/02_07_Venkatesh_Number_Theory/).
 
 ---
 
-## Bản đồ kiến thức nền: Hệ động lực, Tái chuẩn hóa và Phổ của toán tử Schrödinger
+## Bản đồ kiến thức nền: Hệ động lực, Tái chuẩn hóa và Cocycle ma trận $$2\times 2$$
 
-Để không bị choáng bởi các thuật ngữ như *cocycle*, *số mũ Lyapunov* hay *tập Cantor*, hãy xem ba hình ảnh trực giác phía sau bài học:
+### 1. Hệ động lực & Nhân đôi chu kỳ — Tự tính tay trên ánh xạ logistic $$f_r(x) = rx(1-x)$$
+Xét quy tắc lặp $$x_{n+1} = f_r(x_n) = r x_n (1 - x_n)$$ trên $$[0, 1]$$. Điểm cố định khác 0 thỏa $$x^* = rx^*(1-x^*) \implies x^* = 1 - \frac{1}{r}$$, và độ ổn định quyết định bởi đạo hàm $$f_r'(x^*) = r(1 - 2x^*) = 2 - r$$:
+- **Với $$r = 2{,}5$$:** $$x^* = 0{,}6$$, đạo hàm $$f'(0{,}6) = -0{,}5$$ có $$\vert -0{,}5\vert < 1 \implies$$ **hút ổn định**! Mọi giá trị ban đầu đều tiến mượt về $$0{,}6$$.
+- **Với $$r = 3{,}2$$:** $$x^* = 0{,}6875$$, đạo hàm $$f'(x^*) = -1{,}2$$ có $$\vert -1{,}2\vert > 1 \implies$$ **đẩy bất ổn**! Quỹ đạo bật ra và khóa vào một **chu kỳ 2** nhảy qua lại giữa $$0{,}513 \leftrightarrow 0{,}799$$.
+- Tăng $$r$$ tiếp, chu kỳ nhân đôi $$2 \to 4 \to 8 \to 16 \to \dots$$ với tỉ số khoảng tham số tiến về hằng số phổ quát **Feigenbaum** $$\delta \approx 4{,}6692\dots$$ rồi lao vào hỗn loạn!
 
-- **Hệ động lực (Dynamical Systems) nghiên cứu gì?** Nghiên cứu hành vi **dài hạn** khi lặp lại một quy tắc tiến hóa vô hạn lần. Thay vì cố giải từng quỹ đạo riêng lẻ (điều bất khả thi khi hệ hỗn loạn), nhà toán học hiện đại hỏi câu hỏi thống kê: một hệ *điển hình* sẽ đi vào chu kỳ ổn định (**chính quy**) hay trộn đều như trò tung xúc xắc (**ngẫu nhiên / ergodic**)?
-- **Tái chuẩn hóa (Renormalization) hoạt động như thế nào?** Tưởng tượng bạn quan sát một quỹ đạo quay về một khung cửa sổ nhỏ sau mỗi $$N$$ bước, rồi **phóng to** khung cửa sổ ấy lên đúng bằng kích thước ban đầu. Nếu quy tắc chuyển động trong khung cửa sổ phóng to trông lại giống một hệ thuộc cùng họ ban đầu (chỉ khác tham số!), thì bạn vừa thực hiện một bước **tái chuẩn hóa**. Lặp lại bước phóng to đó giống như biến chính *toán tử tái chuẩn hóa* thành một hệ động lực trên không gian các hệ — giúp phát hiện những cấu trúc tự đồng dạng tinh vi nhất!
-- **Từ electron trong từ trường đến tập Cantor (Con bướm Hofstadter):** Trong vật lý chất rắn, **toán tử almost Mathieu** mô tả năng lượng của một electron nhảy trên mạng tinh thể 1 chiều đặt trong từ trường có thông lượng tỉ lệ với số $$\alpha$$. Khi $$\alpha = p/q$$ hữu tỷ, các mức năng lượng tạo thành $$q$$ dải liên tục. Nhưng khi $$\alpha$$ là **số vô tỷ**, bức tranh các mức năng lượng (gọi là *con bướm Hofstadter*) bị xé nát thành vô số mảnh nhỏ li ti như bụi — một **tập Cantor** (đóng, không chứa bất kỳ đoạn đặc nào, nhưng cũng không có điểm cô lập). Tại sao lại phải chuyển ngôn ngữ sang hệ động lực? Vì bài toán tìm năng lượng $$E$$ của phương trình Schrödinger rời rạc hóa ra tương đương với việc theo dõi tích của một dãy ma trận $$2\times 2$$ (gọi là **cocycle Schrödinger**) — và tốc độ tăng theo hàm mũ của tích ma trận đó chính là **số mũ Lyapunov**!
-
----
-
-## 1. Lịch sử của ý tưởng nhìn lại hệ ở thang nhỏ hơn
-
-Lý thuyết hệ động lực hỏi điều gì xảy ra khi ta lặp đi lặp lại một quy tắc. Họ ánh xạ logistic $$x\mapsto rx(1-x)$$ gây bất ngờ lớn vào thập niên 1970: chỉ là một đa thức bậc hai, nhưng khi tham số $$r$$ thay đổi, hệ có thể đi từ chu kỳ hút qua dãy nhân đôi chu kỳ để vào hỗn loạn. **Mitchell Feigenbaum** tìm ra các hằng số tỷ lệ phổ quát (như $$\delta \approx 4{,}6692\dots$$) trong dãy nhân đôi đó. Trong vật lý, **Kenneth Wilson** đã dùng tái chuẩn hóa như một cách chuyển thang trong cơ học thống kê. Trong động lực một chiều, **Dennis Sullivan** và những người khác viết lại bài toán sao cho ánh xạ quay về lần đầu, sau khi đổi tỷ lệ bằng một phép afin, lại trông như một ánh xạ cùng lớp. Như vậy tái chuẩn hóa là một toán tử trên *không gian các ánh xạ*, chứ không phải trên một quỹ đạo.
-
-Sang thập niên 1990, trường phái Brazil quanh IMPA (de Melo, Palis, ảnh hưởng của Yoccoz trong động lực một chiều, công trình của Lyubich về họ ánh xạ bậc hai) đặt ra một mục tiêu cụ thể: với ánh xạ đơn mốt (*unimodal* — có đúng một đỉnh lồi như parabol) điển hình, hành vi dài hạn phải hoặc là **chính quy** (một chu kỳ hút quyết định tương lai), hoặc là **ngẫu nhiên** (có độ đo bất biến liên tục tuyệt đối, tức là hỗn loạn mô tả được bằng xác suất). Nhiều trường hợp đặc biệt đã được biết. Bài báo năm 2003 của **Avila, Welington de Melo và Mikhail Lyubich** giải quyết vấn đề cho các họ ánh xạ đơn mốt giải tích thực: một ánh xạ chọn ngẫu nhiên trong họ như vậy hầu chắc chắn là chính quy hoặc ngẫu nhiên. Tái chuẩn hóa là công cụ so sánh ánh xạ quay về ở thang nhỏ với họ ban đầu, và nhờ đó biến câu "điển hình" thành định lý.
-
-**Ý chính.** Tái chuẩn hóa không phải là một phương trình chuyển động mới. Đó là *phép đổi tọa độ trên không gian các hệ*: phóng to, đổi tỷ lệ, rồi hỏi hệ mới có đơn giản hơn không, có liên hợp với một mô hình đã biết không, hay có thể tái chuẩn hóa thêm lần nữa không.
-
-Các công trình sau này của Avila cho thấy ý tưởng đó **dùng được ở nhiều nơi**. Cùng một cách làm (so sánh một cocycle trên phép quay với cocycle đã tái chuẩn hóa, hoặc so sánh ánh xạ quay về của một phép trao đổi khoảng với một phép trao đổi đơn giản hơn) xuất hiện lại trong lý thuyết phổ và trong động lực Teichmüller. Chính khả năng áp dụng rộng này là điều IMU gọi là nguyên lý thống nhất.
-
----
-
-## 2. Các định lý tái chuẩn hóa sắp xếp lại điều gì
-
-Một định lý khó điển hình trong lĩnh vực này không liệt kê mọi quỹ đạo. Nó **sắp xếp lại không gian tham số**. Trước định lý, ta có một tập hỗn tạp các trường hợp: tần số Diophantine (số vô tỷ "xấp xỉ kém" bằng phân số) và tần số Liouville (số vô tỷ "cực gần" số hữu tỷ); hành vi hyperbolic và parabolic; ánh xạ tái chuẩn hóa được vô hạn lần và ánh xạ không tái chuẩn hóa được. Sau định lý, những vùng lớn của tập đó được chứng minh là tương đương nhau, hoặc được đưa về một mô hình mà ta đã hiểu số mũ Lyapunov, phổ hay tính trộn.
-
-Có ba kết quả có thể trình bày an toàn ở mức seminar.
-
-**Ánh xạ đơn mốt (cùng de Melo và Lyubich).** Phân chia chính quy/ngẫu nhiên cho ánh xạ đơn mốt giải tích điển hình biến nhiều thập niên nghiên cứu từng trường hợp thành một bức tranh toàn cục: hỗn loạn không phải là ngoại lệ hiếm hoi, mà là một trong hai trạng thái điển hình, và tái chuẩn hóa mô tả ranh giới giữa hai trạng thái đó.
-
-**Toán tử Schrödinger một tần số và cocycle.** Một thế tựa tuần hoàn, đơn giản nhất là hàm cosin lấy mẫu dọc theo một phép quay vô tỷ, sinh ra một toán tử Schrödinger rời rạc trên $$\ell^2(\mathbb{Z})$$. **Cocycle Schrödinger** tương ứng là ánh xạ cập nhật nghiệm bằng các ma trận $$2\times 2$$ phụ thuộc vào pha. **Lý thuyết toàn cục về cocycle một tần số** của Avila (phát triển trong những năm 2000, công bố trong thập niên sau đó) dùng tái chuẩn hóa và phép phức hóa năng lượng để chia trục năng lượng thành ba chế độ sắc nét (dưới tới hạn, tới hạn, siêu tới hạn). Ở chế độ dưới tới hạn, cocycle gần như hằng sau một phép đổi tọa độ (**tính gần khả quy**, *almost reducibility*). Ở chế độ siêu tới hạn, số mũ Lyapunov dương và hàm riêng bị định xứ. Họ almost Mathieu là ví dụ tiêu biểu, nhưng không phải ví dụ duy nhất.
-
-**Ánh xạ trao đổi khoảng và dòng Teichmüller (cùng cộng sự).** Cắt đoạn $$[0, 1]$$ thành vài khoảng con rồi hoán vị chúng (giống như chia một bộ bài thành vài phần rồi đảo thứ tự các phần mà không xáo từng lá), ta được **ánh xạ trao đổi khoảng** (*interval exchange transformation*, IET). Đây là lát cắt một chiều của dòng tịnh tiến trên mặt phẳng dịch chuyển (bài toán bi-a đa giác). **Avila–Forni** chứng minh hầu hết mọi IET (không phải phép quay đơn giản) đều **trộn yếu** (*weakly mixing*). **Avila–Viana** chứng minh giả thuyết Zorich–Kontsevich rằng các số mũ Lyapunov không tầm thường của dòng trắc địa Teichmüller trên không gian moduli các vi phân Abel đều đơn (khác nhau từng đôi). Đây là các định lý về hệ *điển hình* theo nghĩa độ đo, không phải phân loại mọi mặt hay mọi hoán vị.
-
-**Những gì chưa được sắp xếp lại.** Không có định lý nào, của Avila hay của ai khác, "phân loại mọi hệ động lực". Động lực trơn ở chiều cao, vi phôi bảo toàn thể tích và nhiều vấn đề về hyperbolic từng phần vẫn còn mở. Sau này chính Avila còn đóng góp (cùng Crovisier, Wilkinson và những người khác) vào các vấn đề về entropy và tính ergodic, khá xa ánh xạ đơn mốt. Lời trích dẫn Fields nói về một *cách tiếp cận*, không phải một bộ bách khoa toàn thư.
-
----
-
-## 3. Toán tử almost Mathieu và bài toán Ten Martini
-
-**Toán tử almost Mathieu** trên $$\ell^2(\mathbb{Z})$$ là
+### 2. Toán tử almost Mathieu → Cocycle ma trận $$2\times 2$$ (Viết tay ngay!)
+Trong vật lý chất rắn, **toán tử almost Mathieu** mô tả electron nhảy trên mạng tinh thể 1 chiều trong từ trường đều thông lượng $$\alpha$$:
 
 $$
-(H_{\lambda,\alpha}\psi)_n=\psi_{n+1}+\psi_{n-1}+2\lambda\cos\bigl(2\pi n\alpha\bigr)\,\psi_n,
+(H_{\lambda,\alpha}\psi)_n = \psi_{n+1} + \psi_{n-1} + 2\lambda\cos(2\pi n\alpha)\,\psi_n = E\,\psi_n.
 $$
 
-với hằng số liên kết $$\lambda\in\mathbb{R}$$ và tần số $$\alpha$$. Khi $$\alpha$$ hữu tỷ (ví dụ $$\alpha = 1/3$$), thế năng tuần hoàn chu kỳ 3 và phổ là hợp của hữu hạn đoạn. Khi $$\alpha$$ vô tỷ, phổ không phụ thuộc vào tham số pha (ở đây ta bỏ qua tham số này). Từ công trình của Azbel và hình **con bướm Hofstadter**, người ta dự đoán phổ là một **tập Cantor**: đóng, không đâu trù mật, không có điểm cô lập. Năm 1981, **Mark Kac** vui vẻ treo thưởng mười ly martini cho ai chứng minh được điều này, và **Barry Simon** đặt tên là **bài toán Ten Martini**.
+Chuyển $$\psi_{n-1}$$ và $$2\lambda\cos(2\pi n\alpha)\psi_n$$ sang vế phải, ta viết lại ngay phương trình trị riêng dưới dạng **nhân ma trận $$2\times 2$$** (gọi là **cocycle Schrödinger**):
 
-Các kết quả một phần được tích lũy qua nhiều thập niên (Bellissard–Simon, Sinai, Helffer–Sjöstrand, Last, Puig và những người khác), thường cần điều kiện Diophantine cho $$\alpha$$ hoặc phải tránh hằng số liên kết **tới hạn** $$\vert\lambda\vert=1$$. Trong giai đoạn 2005–2009, **Artur Avila** và **Svetlana Jitomirskaya** chứng minh phát biểu đầy đủ: phổ là tập Cantor với **mọi tần số vô tỷ $$\alpha$$ và mọi hằng số liên kết $$\lambda \neq 0$$**. Cái khó của bài toán là kỹ thuật cho tần số Diophantine và kỹ thuật cho tần số Liouville không tự khớp với nhau, và có một vùng tham số hẹp ở giữa (tần số không quá tốt cũng không quá xấu) phải xử lý riêng bằng lý thuyết định lượng về tính gần khả quy. Cần ghi nhận đây là định lý **chung** của hai tác giả. Các công trình sau đó của Jitomirskaya và những người khác mở rộng hiện tượng phổ Cantor cho các thế khác ngoài hàm cosin; đó là phần tiếp theo, không thuộc lời trích dẫn năm 2014.
+$$
+\begin{pmatrix} \psi_{n+1} \\ \psi_n \end{pmatrix}
+\;=\;
+\underbrace{\begin{pmatrix} E - 2\lambda\cos(2\pi n\alpha) & -1 \\ 1 & 0 \end{pmatrix}}_{A_E(n\alpha) \;\in\; \mathrm{SL}_2(\mathbb{R})}
+\begin{pmatrix} \psi_n \\ \psi_{n-1} \end{pmatrix}.
+$$
 
-**Lưu ý về độ chính xác.** Bài toán Ten Martini nói về *hình dạng tô pô* của phổ như một tập con của $$\mathbb{R}$$. Có những giả thuyết riêng về *độ đo* của phổ (giả thuyết Aubry–André: độ đo Lebesgue bằng $$\vert 4-4\vert\lambda\vert\vert$$) và về tính định xứ của hàm riêng. Đừng gộp chúng thành một câu.
+Tự kiểm tra định thức: $$\det A_E = 0 - (-1)(1) = \mathbf{1}$$! Nhờ cú chuyển ngôn ngữ này, bài toán phổ lượng tử trở thành bài toán **hệ động lực**: tốc độ tăng theo hàm mũ của tích $$n$$ ma trận $$A_E((n-1)\alpha)\cdots A_E(0)$$ chính là **số mũ Lyapunov** $$L(E) = \lim_{n\to\infty} \frac{1}{n}\ln \|A_E^n\|$$!
+
+### 3. Ánh xạ trao đổi khoảng (IET) — Hình ảnh xào bài theo khối
+Cắt đoạn thẳng $$[0, 1]$$ thành $$m$$ đoạn con độ dài $$(\ell_1, \dots, \ell_m)$$ rồi sắp xếp lại chúng theo một hoán vị khác mà giữ nguyên hướng từng đoạn (giống như chia bộ bài thành 4 tụ rồi đổi thứ tự 4 tụ mà không xào lẻ từng lá!). Lặp lại phép cắt–xếp đó tạo thành **ánh xạ trao đổi khoảng** (*interval exchange transformation*, IET) — đúng là lát cắt 1 chiều của quỹ đạo bi-a trong đa giác!
 
 ---
 
-## 4. Ghi nhận công lao một cách trung thực
+## 1. Khung giải thích: "Kính hiển vi tái chuẩn hóa" của Avila hoạt động qua 4 bước như thế nào? (nên đọc chậm)
 
-Bản tin của IMU về công trình của Avila nói rõ: gần như toàn bộ công trình được làm cùng cộng sự, khoảng ba mươi nhà toán học. Một bảng tóm tắt công bằng như sau.
+Tại sao cùng một ý tưởng tái chuẩn hóa lại mở khóa được cả ba thế giới tưởng rất khác nhau (ánh xạ 1D, phổ lượng tử và bi-a đa giác)? Hãy đi chậm qua 4 bước:
+
+#### Bước 1: Định nghĩa toán tử Tái chuẩn hóa (Phóng to ánh xạ quay về lần đầu)
+Chọn một khoảng con nhỏ $$I$$ chứa vùng "thú vị nhất" (ví dụ quanh đỉnh parabol của ánh xạ logistic, hoặc một đoạn con của IET). Thay vì theo dõi từng bước lặp $$f$$, ta chỉ chờ khi quỹ đạo **quay trở về $$I$$ lần đầu tiên**, rồi **phóng to** $$I$$ lên lại kích thước $$[0, 1]$$. Ánh xạ mới $$\mathcal{R}(f)$$ lại thuộc đúng họ ánh xạ ban đầu! Tái chuẩn hóa biến việc theo dõi *một quỹ đạo hỗn loạn* thành việc theo dõi *một toán tử $$\mathcal{R}$$ trên không gian các hệ* — nơi các điểm bất động và cấu trúc ổn định cực kỳ sáng sủa!
+
+#### Bước 2: Phân chia Chính quy / Ngẫu nhiên cho ánh xạ đơn mốt (Avila–de Melo–Lyubich, 2003)
+Hành vi dài hạn của một ánh xạ đơn mốt giải tích (như $$x \mapsto rx(1-x)$$) có thể phức tạp đến đâu? Nhờ kiểm soát chặt chẽ quỹ đạo của toán tử tái chuẩn hóa $$\mathcal{R}$$, **Avila, Welington de Melo và Mikhail Lyubich** chứng minh định lý phân chia toàn cục: với **hầu hết** tham số (theo độ đo Lebesgue), ánh xạ chỉ có thể rơi vào đúng **hai trạng thái**: hoặc **chính quy** (có chu kỳ hút ổn định), hoặc **ngẫu nhiên** (hỗn loạn nhưng mô tả được hoàn hảo bằng một độ đo xác suất liên tục tuyệt đối)!
+
+#### Bước 3: Lý thuyết toàn cục cocycle một tần số & Giải bài toán Ten Martini (Avila–Jitomirskaya, 2009)
+Khi $$\alpha$$ vô tỷ trong toán tử almost Mathieu, bức tranh phổ (hình **con bướm Hofstadter**) được dự đoán là một **tập Cantor** (đóng, không chứa đoạn đặc nào, không có điểm cô lập) — bài toán **Ten Martini** mà Mark Kac treo thưởng 10 ly martini! Suốt nhiều thập kỷ, các công cụ cho tần số Diophantine ("xa" số hữu tỷ) và tần số Liouville ("cực gần" số hữu tỷ) bị tách làm hai thế giới rời nhau. **Avila** phát triển *lý thuyết toàn cục* bằng cách phức hóa pha $$\theta \mapsto \theta + i\varepsilon$$ để phân loại mọi năng lượng thành 3 chế độ (dưới tới hạn — gần khả quy; tới hạn; siêu tới hạn — $$L(E) > 0$$), và cùng **Svetlana Jitomirskaya** khép kín hoàn toàn vùng ranh giới ở giữa, chứng minh phổ là tập Cantor với **mọi $$\alpha$$ vô tỷ và mọi $$\lambda \neq 0$$**!
+
+#### Bước 4: Tái chuẩn hóa Rauzy–Veech cho IET và Dòng Teichmüller (Avila–Forni, Avila–Viana)
+Trên ánh xạ trao đổi khoảng (IET), phép cắt–phóng to quay về lần đầu gọi là **cảm ứng Rauzy–Veech** (chính là dòng trắc địa Teichmüller nhìn từ góc độ tổ hợp!). Nhờ nó, **Avila–Forni (2007)** chứng minh hầu hết IET (không phải phép quay) đều **trộn yếu** (*weakly mixing*), còn **Avila–Viana** chứng minh giả thuyết **Zorich–Kontsevich** rằng các số mũ Lyapunov không tầm thường của dòng Teichmüller đều đôi một khác nhau (tính đơn)!
+
+Tóm tắt nguyên lý thống nhất:
+
+$$
+\text{Hệ động lực phức tạp } f
+\;\xrightarrow{\text{Quay về lần đầu + Phóng to}}\;
+\text{Toán tử tái chuẩn hóa } \mathcal{R}(f)
+\;\longrightarrow\;
+\text{Ánh xạ 1D \;|\; Ten Martini \;|\; Dòng Teichmüller}.
+$$
+
+---
+
+## 2. Ghi nhận công lao một cách trung thực
+
+Bản tin của IMU nhấn mạnh gần như toàn bộ công trình của Avila là thành quả hợp tác với khoảng 30 đồng tác giả:
 
 | Kết quả (tóm tắt) | Tác giả |
 |---------------------|----------|
@@ -101,19 +104,7 @@ Bản tin của IMU về công trình của Avila nói rõ: gần như toàn b�
 | Lý thuyết toàn cục cho toán tử Schrödinger một tần số | Avila (dựa trên truyền thống lâu dài của lý thuyết phổ) |
 | Tái chuẩn hóa như một ý tưởng | Wilson, Feigenbaum, Sullivan, Lyubich, Yoccoz, … |
 
-Avila lớn lên ở Rio de Janeiro, bảo vệ tiến sĩ tại **IMPA** năm 2001 dưới sự hướng dẫn của **Welington de Melo**, sau đó làm việc tại CNRS (Pháp) rồi Đại học Zurich. Ông là **người Brazil đầu tiên** và cũng là người Mỹ Latinh đầu tiên nhận Huy chương Fields. Những chi tiết tiểu sử này giúp hiểu vì sao công chúng quan tâm, nhưng không thay thế được các định lý.
-
----
-
-## 5. Vì sao ông nhận Huy chương Fields
-
-Có ba lý do liên quan với nhau. Không lý do nào là "ông đã chế ngự được hỗn loạn nói chung".
-
-1. **Vượt qua ranh giới giữa các chế độ.** Lý thuyết phổ tựa tuần hoàn bị chia thành hai thế giới Diophantine và Liouville, trông như hai môn khác nhau. Giải bài toán Ten Martini và xây dựng lý thuyết toàn cục cho cocycle đòi hỏi phải làm việc được ở cả hai thế giới, thay vì chọn thế giới nào thuận tiện.
-2. **Một phương pháp dùng được ở nhiều nơi.** Tái chuẩn hóa đã có từ trước. Avila biến nó thành *công cụ mặc định* cho nhiều bài toán hàng đầu, và nhờ đó thay đổi những gì một bài báo về hệ động lực có thể thử làm.
-3. **Các định lý về tính điển hình.** Tính trộn yếu của IET và phân chia chính quy/ngẫu nhiên cho ánh xạ đơn mốt là các phát biểu về hầu hết mọi hệ theo một độ đo tự nhiên. Trong nhiều nhánh của hệ động lực, đây là cách hiện đại thay cho việc phân loại từng hệ một, điều vốn không thể làm được.
-
-Trong khóa học, Avila được đặt cạnh [Mirzakhani]({{ site.baseurl }}/contents/vi/chapter02/02_05_Mirzakhani_Moduli/) như một câu chuyện năm 2014 về không gian moduli của mặt và các dòng trên đó: hình học gần nhau nhưng câu hỏi khác nhau. Ông cũng thuộc nhóm các huy chương cho "một chương trình nghiên cứu" hơn là cho một giả thuyết số học riêng lẻ.
+Avila lớn lên ở Rio de Janeiro, bảo vệ tiến sĩ tại **IMPA** năm 2001 dưới sự hướng dẫn của **Welington de Melo**, sau đó làm việc tại CNRS (Pháp) và Đại học Zurich.
 
 ---
 
@@ -121,12 +112,11 @@ Trong khóa học, Avila được đặt cạnh [Mirzakhani]({{ site.baseurl }}/
 
 | Khẳng định | Sửa lại |
 |------------|-----|
-| "Avila phát minh ra tái chuẩn hóa." | Ý tưởng này có từ trước (Wilson, Feigenbaum, Sullivan, …). Ông dùng nó như một công cụ thống nhất. |
-| "Ông đã phân loại mọi hệ động lực." | Ông chứng minh các định lý sâu cho một số lớp hệ cụ thể và quan trọng. |
-| "Bài toán Ten Martini do một mình Avila giải." | Đó là công trình chung của **Avila–Jitomirskaya**. |
-| "Mọi toán tử Schrödinger đều có phổ là tập Cantor." | Định lý dành cho họ almost Mathieu (và các mở rộng sau này). Toán tử một tần số tổng quát có nhiều chế độ hơn. |
-| "Trộn yếu cũng là trộn." | IET không bao giờ trộn (theo nghĩa mạnh). Avila–Forni chứng minh tính trộn yếu cho phép trao đổi điển hình. |
-| "Kết quả về số mũ Lyapunov của dòng Teichmüller là của riêng Avila." | Tính đơn là kết quả của Avila–Viana, hoàn thành giả thuyết Zorich–Kontsevich; Forni và những người khác cũng có đóng góp trong câu chuyện này. |
+| "Avila phát minh ra tái chuẩn hóa." | Ý tưởng có từ trước (Wilson, Feigenbaum, Sullivan…); ông biến nó thành nguyên lý thống nhất nhiều nhánh lớn. |
+| "Ông đã phân loại mọi hệ động lực." | Ông chứng minh các định lý sâu cho một số lớp hệ cụ thể và quan trọng (đơn mốt, cocycle một tần số, IET). |
+| "Bài toán Ten Martini do một mình Avila giải." | Đó là công trình chung của **Avila–Jitomirskaya** (*Annals*, 2009). |
+| "Mọi toán tử Schrödinger đều có phổ là tập Cantor." | Định lý dành cho họ almost Mathieu (và các mở rộng cụ thể); toán tử tổng quát có nhiều chế độ phổ khác nhau. |
+| "Trộn yếu cũng là trộn mạnh." | IET không bao giờ trộn mạnh; Avila–Forni chứng minh tính **trộn yếu** cho IET điển hình. |
 
 ---
 

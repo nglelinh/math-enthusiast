@@ -19,6 +19,8 @@ Năm 1799, đoàn thám hiểm Pháp tìm thấy phiến đá Rosetta ở Ai C�
 
 Bạn không cần chứng minh tương ứng AdS/CFT hay giả thuyết đối xứng gương đồng điều (HMS) trong một buổi chiều. Thay vào đó, bài thực hành này mời bạn đóng vai một **nhà biên soạn từ điển**: chọn đúng một cặp đối ngẫu, vẽ ra bảng dịch song ngữ hai cột, gắn nhãn trung thực xem dòng nào đã là **định lý** vững chắc và dòng nào mới là **chương trình nghiên cứu** hay **từ điển vật lý**, và giữ một cuốn nhật ký ghi lại cả những lần dịch nhầm cần sửa.
 
+**Mạch bài học:** Bản đồ kiến thức nền (đối ngẫu tuyến tính, Fourier & các đại chương trình thế kỷ XXI) → Bảng tổng hợp các cặp đối ngẫu → Khung giải thích chậm: tự tay tính toán hai cặp đối ngẫu (ánh xạ chuyển vị $$f^*$$ và tích chập DFT cỡ $$n=4$$) → Nhiệm vụ biên soạn từ điển & nhật ký.
+
 ---
 
 ## Mục tiêu học tập
@@ -37,14 +39,21 @@ Sau bài này, bạn có thể:
 
 ## Bản đồ kiến thức nền: Nguyên lý đối ngẫu trong Toán học và Vật lý lý thuyết là gì, nghiên cứu những gì?
 
-Nếu bạn đã từng học đại số tuyến tính hoặc xử lý tín hiệu ở đại học, bạn thực ra đã dùng đối ngẫu hàng ngày mà có thể chưa gọi tên nó:
+Nếu bạn đã từng học đại số tuyến tính hoặc xử lý tín hiệu ở đại học, bạn thực ra đã dùng đối ngẫu hằng ngày mà có thể chưa gọi tên nó. Ba tầng đối ngẫu dưới đây mở đường từ đại học lên thẳng biên giới nghiên cứu hiện đại:
 
-- Trong **đại số tuyến tính**, đối ngẫu nối không gian vectơ $$V$$ với không gian các phép đo tuyến tính $$V^*$$ (vectơ cột ↔ vectơ hàng). Phép lấy chuyển vị $$A \mapsto A^T$$ chính là "cây cầu dịch" đảo ngược chiều mũi tên của ánh xạ tuyến tính!
-- Trong **giải tích Fourier**, phép biến đổi Fourier dịch một bài toán từ *miền thời gian* sang *miền tần số*. Một phép toán cực nặng ở miền thời gian như **tích chập** $$(f * g)(t)$$ hay **đạo hàm** $$f'(t)$$ lập tức biến thành phép **nhân đại số đơn giản** $$\hat f(\xi)\hat g(\xi)$$ và $$2\pi i \xi \hat f(\xi)$$ ở miền tần số. Đó chính là sức mạnh thực dụng nhất của một từ điển đối ngẫu: *biến bài toán khó bên A thành phép tính dễ bên B*.
+### 1. Đối ngẫu đại số và hình học ($$V \leftrightarrow V^*$$ và Đối ngẫu Poincaré)
 
-Ở biên giới của toán học và vật lý lý thuyết thế kỷ XXI, nguyên lý này được nâng lên tầm cỡ những đại chương trình nghiên cứu: **Đối xứng gương (Mirror Symmetry)** nối hình học symplectic (đo diện tích, đếm đường cong) với hình học đại số phức (phương trình đa thức); **AdS/CFT** nối lực hấp dẫn trong không gian $$d+1$$ chiều với lý thuyết lượng tử không có hấp dẫn trên biên $$d$$ chiều; còn **Chương trình Langlands** xây một "từ điển tổng hợp" giữa lý thuyết số (nhóm Galois) và giải tích điều hòa (dạng tự đẳng cấu).
+Trong **đại số tuyến tính**, đối ngẫu nối không gian vectơ $$V$$ (các đối tượng hình học) với không gian các phép đo tuyến tính $$V^* = \mathrm{Hom}(V, \mathbb{R})$$ (vectơ cột ↔ vectơ hàng). Phép lấy chuyển vị $$A \mapsto A^T$$ chính là "cây cầu dịch" đảo ngược chiều mũi tên của ánh xạ tuyến tính! Trong **tô pô đại số**, **Đối ngẫu Poincaré** ghép đôi các lỗ bậc $$k$$ và bậc $$n-k$$ của một đa tạp đóng định hướng $$n$$ chiều ($$H^k(M) \cong H_{n-k}(M)$$).
 
-Một điểm mấu chốt người mới học rất hay nhầm: **đối xứng (symmetry)** là phép biến đổi giữ nguyên *cùng một* lý thuyết (ví dụ xoay một hình vuông $$90^\circ$$), còn **đối ngẫu (duality)** là một cây cầu nối *hai* cách mô tả (thậm chí hai lý thuyết khác hẳn nhau, ví dụ một bên tương tác mạnh và một bên tương tác yếu) nhưng cho ra cùng kết quả vật lý hoặc toán học.
+### 2. Đối ngẫu giải tích (Fourier / Pontryagin)
+
+Phép biến đổi Fourier dịch một tín hiệu từ *miền thời gian* sang *miền tần số*. Sức mạnh thực dụng nhất của một từ điển đối ngẫu hiện ra ở đây: một phép toán cực nặng ở miền thời gian như **tích chập** $$(f * g)(t)$$ hay **đạo hàm** $$f'(t)$$ lập tức biến thành phép **nhân đại số đơn giản** $$\hat f(\xi)\hat g(\xi)$$ và $$2\pi i \xi \hat f(\xi)$$ ở miền tần số!
+
+### 3. Các đại chương trình đối ngẫu của thế kỷ XXI (và phân biệt với Đối xứng)
+
+Ở biên giới toán – vật lý lý thuyết, nguyên lý này nở rộ thành những chương trình đồ sộ: **Đối xứng gương (Mirror Symmetry)** nối hình học symplectic (đo diện tích, đếm đường cong) với hình học đại số phức; **AdS/CFT** nối lực hấp dẫn trong không gian $$d+1$$ chiều với lý thuyết trường lượng tử trên biên $$d$$ chiều; còn **Chương trình Langlands** nối lý thuyết số (biểu diễn Galois) với giải tích điều hòa (dạng tự đẳng cấu).
+
+**Ranh giới dễ nhầm:** **Đối xứng (symmetry)** là phép biến đổi giữ nguyên *cùng một* lý thuyết (ví dụ xoay hình vuông $$90^\circ$$), còn **đối ngẫu (duality)** là cây cầu dịch giữa *hai* cách mô tả khác nhau (thậm chí một bên tương tác mạnh, một bên tương tác yếu) nhưng cho ra cùng một cấu trúc sâu bên dưới.
 
 ---
 
@@ -64,6 +73,31 @@ Hãy xem một **ví dụ minh họa nhỏ** với cặp quen thuộc nhất —
 | Đạo hàm $$f'(x)$$ | Nhân với $$2\pi i \xi \hat f(\xi)$$ | Định lý (với hàm suy giảm nhanh) |
 | Tích chập $$(f*g)(x)$$ | Tích từng điểm $$\hat f(\xi)\hat g(\xi)$$ | Định lý tích chập |
 | Xung hẹp (tập trung trong thời gian) | Phổ trải rộng (dàn trải trên tần số) | Định lý (Nguyên lý bất định) |
+
+#### Khung giải thích: Cầm tay kiểm chứng hai cặp đối ngẫu — Chuyển vị $$f^*$$ và DFT cỡ $$n=4$$ (nên đọc chậm)
+
+Để cảm nhận "dịch từ Phía A sang Phía B" không phải lời nói hoa mỹ mà là một đẳng thức tính tay được, hãy tự kiểm tra hai ví dụ kinh điển sau:
+
+**Ví dụ 1 — Ánh xạ đối ngẫu $$f^*$$ chính là ma trận chuyển vị $$A^T$$:**
+Xét ánh xạ tuyến tính $$f: \mathbb{R}^2 \to \mathbb{R}^2$$ cho bởi $$f(x, y) = (x + 2y,\; 3x)$$, có ma trận $$A = \begin{pmatrix} 1 & 2 \\ 3 & 0 \end{pmatrix}$$.
+Một phép đo tuyến tính $$\alpha \in (\mathbb{R}^2)^*$$ có dạng $$\alpha(u, v) = c_1 u + c_2 v$$ (vectơ tọa độ $$(c_1, c_2)$$). Ánh xạ đối ngẫu $$f^*: (\mathbb{R}^2)^* \to (\mathbb{R}^2)^*$$ được định nghĩa bằng công thức kéo lùi $$(f^*\alpha)(x, y) := \alpha\bigl(f(x, y)\bigr)$$. Thay số trực tiếp:
+$$
+(f^*\alpha)(x, y) = c_1(x + 2y) + c_2(3x) = (c_1 + 3c_2)\, x + (2c_1)\, y.
+$$
+Vậy vectơ tọa độ mới của $$f^*\alpha$$ là $$(c_1 + 3c_2,\; 2c_1) = \begin{pmatrix} 1 & 3 \\ 2 & 0 \end{pmatrix}\begin{pmatrix} c_1 \\ c_2 \end{pmatrix}$$ — ma trận của $$f^*$$ chính xác là **$$A^T$$**!
+
+**Ví dụ 2 — Tích chập vòng ↔ Tích từng điểm trên DFT cỡ $$n = 4$$:**
+Xét hai dãy độ dài 4 trên $$\mathbb{Z}/4\mathbb{Z}$$: $$x = (1, 1, 0, 0)$$ và $$y = (1, 0, 1, 0)$$.
+- **Cách 1 (Tính trực tiếp ở miền thời gian):** Tích chập vòng $$(x * y)_m = \sum_{j=0}^{3} x_j\, y_{(m-j)\bmod 4}$$:
+  - $$m=0$$: $$x_0 y_0 + x_1 y_3 = 1\cdot 1 + 1\cdot 0 = 1$$;
+  - $$m=1$$: $$x_0 y_1 + x_1 y_0 = 1\cdot 0 + 1\cdot 1 = 1$$;
+  - $$m=2$$: $$x_0 y_2 + x_1 y_1 = 1\cdot 1 + 1\cdot 0 = 1$$;
+  - $$m=3$$: $$x_0 y_3 + x_1 y_2 = 1\cdot 0 + 1\cdot 1 = 1$$.
+  Kết quả: $$x * y = (1, 1, 1, 1)$$.
+- **Cách 2 (Dịch sang miền tần số bằng DFT $$\hat u_k = \sum_{j=0}^{3} u_j (-i)^{jk}$$):**
+  - $$\hat x = (1+1,\; 1-i,\; 1-1,\; 1+i) = (2,\; 1-i,\; 0,\; 1+i)$$;
+  - $$\hat y = (1+1,\; 1-1,\; 1+1,\; 1-1) = (2,\; 0,\; 2,\; 0)$$.
+  Nhân từng tọa độ (phép nhân cực gọn!): $$\hat x \odot \hat y = (4,\; 0,\; 0,\; 0)$$. Biến đổi ngược $$\frac{1}{4}\sum_{k=0}^{3} (\hat x \odot \hat y)_k\, i^{mk} = \frac{1}{4}(4, 4, 4, 4) = (1, 1, 1, 1)$$ — **trùng khít từng con số!**
 
 Các cặp lớn đã gặp trong khóa học để bạn lựa chọn:
 

@@ -17,22 +17,18 @@ Bài này thuộc nhánh Cầu nối Vật lý–Toán, đi qua bốn gương m�
 
 ---
 
-## Bản đồ kiến thức nền: Giải tích điều hòa và các nguyên lý bất định nghiên cứu những gì?
+## Bản đồ kiến thức nền: Giải tích điều hòa và Các nguyên lý bất định đứng trên ba trụ cột nào?
 
-Nếu bạn đã quen với biến đổi Fourier trong xử lý tín hiệu và bất đẳng thức Cauchy–Schwarz trong đại số tuyến tính, bạn đã có gần như trọn bộ công cụ để hiểu ngành toán học đứng sau nguyên lý bất định.
+Nếu bạn đã quen với biến đổi Fourier trong xử lý tín hiệu và bất đẳng thức Cauchy–Schwarz trong đại số tuyến tính, hãy nhìn qua ba trụ cột của họ định lý bất định:
 
-Trong **giải tích điều hòa (harmonic analysis)**, mỗi hàm số (hay tín hiệu) $$f(x)$$ có hai bộ mặt song song:
-- **Miền thời gian / vị trí:** cho biết tín hiệu mạnh ở đâu ($$|f(x)|^2$$).
-- **Miền tần số / động lượng:** cho biết tín hiệu được pha trộn từ những sóng sin nào ($$|\hat f(\xi)|^2$$).
+### 1. Giải tích điều hòa: Cặp đối ngẫu thời gian – tần số
+Trong giải tích điều hòa, mọi hàm số $$f(x)$$ có hai gương mặt song song: miền vị trí/thời gian ($$|f(x)|^2$$) và miền tần số/động lượng ($$|\hat f(\xi)|^2$$). Khi đo độ trải bằng phương sai, ta có bất đẳng thức **Heisenberg–Pauli–Weyl** (và dạng lượng tử **Kennard** $$\sigma_x\sigma_p \ge \hbar/2$$), với hàm đạt cực tiểu duy nhất là đường cong hình chuông **Gauss** — một định luật độ phân giải chi phối từ radar, âm thanh đến nén tín hiệu thưa (cảm biến nén Donoho–Stark).
 
-**Các nguyên lý bất định** không chỉ là một công thức duy nhất, mà là cả một họ định lý nghiên cứu câu hỏi tổng quát: *một hàm $$f$$ và biến đổi Fourier $$\hat f$$ của nó bị cấm "cùng tập trung quá chặt" đến mức nào?* Tùy cách đo "độ tập trung" mà ta có những định lý khác nhau:
+### 2. Đại số không giao hoán: Giao hoán tử và Cận Robertson
+Trong không gian Hilbert, bất kỳ cặp đại lượng tự liên hợp nào không giao hoán ($$[A, B] \neq 0$$, như hai thành phần spin $$X, Z$$ của qubit hay cặp vị trí–động lượng $$[X,P] = i\hbar$$) đều chịu chung một cận dưới sinh trực tiếp từ bất đẳng thức Cauchy–Schwarz: **hệ thức Robertson**. Còn câu chuyện miền xác định của toán tử không bị chặn dẫn tới **dạng Weyl** và **định lý duy nhất Stone–von Neumann**.
 
-- **Đo bằng phương sai (độ lệch chuẩn):** Cho ra bất đẳng thức **Heisenberg–Pauli–Weyl** và dạng lượng tử **Kennard** $$\sigma_x\sigma_p \ge \hbar/2$$, với hàm đạt cực tiểu duy nhất là đường cong hình chuông **Gauss**.
-- **Đo bằng giao hoán tử toán tử:** Tổng quát hóa sang mọi cặp đại lượng lượng tử không giao hoán (như hai thành phần spin $$X, Z$$ của một qubit) qua bất đẳng thức **Robertson**.
-- **Đo bằng entropy Shannon:** Khắc phục điểm mù của phương sai (khi phân phối có hai đỉnh hẹp ở xa nhau), dẫn tới bất đẳng thức **Maassen–Uffink** làm nền cho bảo mật mật mã lượng tử.
-- **Đo bằng hình học của tập giá (hỗ trợ):** Dẫn tới định lý **Donoho–Stark** cho tín hiệu rời rạc thưa (nền tảng của cảm biến nén — compressed sensing) và **nguyên lý bất định fractal** ở bài tiếp theo!
-
-Nhìn trên bản đồ này, nguyên lý bất định không phải sự "mù mờ" của tự nhiên, mà là một **định luật hình học về độ phân giải** chi phối từ radar, âm nhạc, nén ảnh đến cơ học lượng tử.
+### 3. Lý thuyết thông tin: Bất định theo entropy Shannon
+Phương sai có một điểm mù: một phân phối có hai mũi nhọn hẹp nằm xa nhau có phương sai rất lớn dù gần như tập trung hoàn toàn! **Bất định entropy** (Hirschman, Beckner, Maassen–Uffink) khắc phục điểm mù này và trở thành nền tảng cho các chứng minh bảo mật trong **mật mã lượng tử** (như giao thức BB84).
 
 ---
 
@@ -179,7 +175,28 @@ $$
 H(A)+H(B)\ge -2\log c,
 $$
 
-trong đó $$H$$ là entropy Shannon của phân bố kết quả đo. Với một qubit đo theo cơ sở tính toán $$\{|0\rangle, |1\rangle\}$$ và cơ sở Hadamard $$\{|+\rangle, |-\rangle\}$$, mọi tích vô hướng đều có độ lớn $$c=1/\sqrt{2}$$, nên $$H(A) + H(B) \ge 1\text{ bit}$$! Đó là tính bổ sung (complementarity) phát biểu như một định lý, và là cầu nối tự nhiên sang [thông tin lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/) cũng như nhiều chứng minh bảo mật trong mật mã lượng tử (như giao thức BB84).
+trong đó $$H$$ là entropy Shannon của phân bố kết quả đo. Với một qubit đo theo cơ sở tính toán $$\{|0\rangle, |1\rangle\}$$ và cơ sở Hadamard $$\{|+\rangle, |-\rangle\}$$, mọi tích vô hướng đều có độ lớn $$c=1/\sqrt{2}$$, nên $$H(A) + H(B) \ge 1\text{ bit}$$!
+
+### Khung giải thích: tự tay so sánh cận Robertson và cận entropy Maassen–Uffink trên một qubit (nên đọc chậm)
+
+Hãy chọn một trạng thái qubit cụ thể: $$\psi = \begin{pmatrix} \sqrt{3}/2 \\ 1/2 \end{pmatrix}$$ (góc $$\theta = \pi/3$$ trên mặt cầu Bloch), và đo hai toán tử Pauli $$Z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$$ và $$X = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$$:
+
+1. **Tính độ lệch chuẩn $$\sigma_Z$$ và $$\sigma_X$$:**
+   - Với $$Z$$: $$\langle Z \rangle = \bigl(\frac{\sqrt{3}}{2}\bigr)^2 - \bigl(\frac{1}{2}\bigr)^2 = \frac{1}{2}$$; vì $$Z^2 = I$$ nên $$\sigma_Z = \sqrt{1 - (1/2)^2} = \frac{\sqrt{3}}{2} \approx 0.866$$.
+   - Với $$X$$: $$\langle X \rangle = 2\cdot\frac{\sqrt{3}}{2}\cdot\frac{1}{2} = \frac{\sqrt{3}}{2}$$; vì $$X^2 = I$$ nên $$\sigma_X = \sqrt{1 - (\sqrt{3}/2)^2} = \frac{1}{2} = 0.5$$.
+   - Tích $$\sigma_X\sigma_Z = \frac{\sqrt{3}}{4} \approx 0.433$$.
+2. **Kiểm tra vế phải của Robertson $$\frac{1}{2}|\langle [X,Z]\rangle| = |\langle Y\rangle|$$:** Vì $$\psi$$ có hai tọa độ thuần thực còn $$Y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}$$ là ma trận thuần ảo phản đối xứng, ta tính ngay $$\langle \psi|Y\psi\rangle = 0$$! Như vậy tại trạng thái này, bất đẳng thức Robertson chỉ nói một điều tầm thường là $$0.433 \ge 0$$ — **cận dưới bị sụp về 0**!
+3. **Bây giờ tính entropy Shannon (cơ số 2) cho cùng trạng thái đó:**
+   - Phép đo $$Z$$ cho hai kết quả với xác suất $$(3/4,\ 1/4)$$:
+     $$
+     H(Z) = -\frac{3}{4}\log_2\frac{3}{4} - \frac{1}{4}\log_2\frac{1}{4} \approx 0.811\text{ bit}.
+     $$
+   - Phép đo $$X$$ (chiếu lên $$|\pm\rangle = \frac{1}{\sqrt{2}}(1, \pm 1)^T$$) cho hai xác suất $$\frac{1 \pm \sqrt{3}/2}{2} \approx (0.933,\ 0.067)$$:
+     $$
+     H(X) \approx -0.933\log_2(0.933) - 0.067\log_2(0.067) \approx 0.355\text{ bit}.
+     $$
+   - Tổng $$H(Z) + H(X) \approx 1.166\text{ bit} \ge 1\text{ bit}$$!
+4. **Bài học rút ra:** Ngay tại trạng thái mà vế phải của Robertson sụp về $$0$$, bất đẳng thức **Maassen–Uffink** vẫn giữ chặt một cận dưới dương độc lập với trạng thái ($$1\text{ bit}$$)! Đó là lý do các chứng minh bảo mật trong [thông tin lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/) và mật mã lượng tử ưu ái dạng bất định entropy.
 
 ---
 

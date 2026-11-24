@@ -99,6 +99,31 @@ là ví dụ chuẩn. Thử kiểm tra nhanh bằng đại số: nếu $$\lvert\
 
 ---
 
+### Khung giải thích: tự tay dựng trạng thái Bell và vượt ngưỡng cổ điển CHSH (nên đọc chậm)
+
+Để thấy "vướng víu lượng tử" không phải là câu chuyện siêu hình mà là phép nhân ma trận $$4	imes 4$$ rất cụ thể, hãy tự tay biến hai qubit độc lập $$\lvert 00angle$$ thành trạng thái vướng víu Bell $$\lvert \Phi^+angle$$, rồi kiểm tra tại sao nó phá vỡ giới hạn $$2$$ của mọi chiến lược cổ điển.
+
+1. **Dựng mạch Bell bằng ma trận:** Trong cơ sở $$\{\lvert 00angle, \lvert 01angle, \lvert 10angle, \lvert 11angle\}$$, trạng thái đầu là $$\lvert 00angle = (1, 0, 0, 0)^	op$$.
+   - **Bước 1 — Cổng Hadamard lên qubit thứ nhất ($$H \otimes I$$):** biến $$\lvert 0angle \mapsto rac{\lvert 0angle + \lvert 1angle}{\sqrt{2}}$$ và giữ nguyên qubit thứ hai:
+     $$\lvert \psi_1angle = rac{1}{\sqrt{2}}(\lvert 00angle + \lvert 10angle) = rac{1}{\sqrt{2}}(1, 0, 1, 0)^	op.$$
+     Lúc này hai qubit vẫn hoàn toàn tách rời (chưa vướng víu).
+   - **Bước 2 — Cổng CNOT (lật qubit 2 nếu qubit 1 bằng 1):** tác động lên $$\lvert 10angle \mapsto \lvert 11angle$$ và giữ nguyên $$\lvert 00angle$$:
+     $$\mathrm{CNOT}\,\lvert \psi_1angle = egin{pmatrix}1&0&0&0\0&1&0&0\0&0&0&1\0&0&1&0\end{pmatrix}rac{1}{\sqrt{2}}egin{pmatrix}1\0\1\0\end{pmatrix} = rac{1}{\sqrt{2}}egin{pmatrix}1\0\0\1\end{pmatrix} = rac{\lvert 00angle + \lvert 11angle}{\sqrt{2}} = \lvert \Phi^+angle.$$
+
+2. **Kiểm tra bằng tay giới hạn CHSH $$2\sqrt{2} > 2$$:**
+   - **Chiến lược cổ điển:** Alice chọn hai số định sẵn $$a_0, a_1 \in \{-1, +1\}$$ và Bob chọn $$b_0, b_1 \in \{-1, +1\}$$. Xét tổ hợp
+     $$S = a_0 b_0 + a_0 b_1 + a_1 b_0 - a_1 b_1 = a_0(b_0 + b_1) + a_1(b_0 - b_1).$$
+     Vì $$b_0, b_1 \in \{\pm 1\}$$, một trong hai ngoặc $$(b_0 + b_1)$$ hoặc $$(b_0 - b_1)$$ bắt buộc bằng $$0$$, ngoặc còn lại bằng $$\pm 2$$. Do đó mọi chiến lược cổ điển (kể cả trộn ngẫu nhiên) luôn thỏa $$\lvert S vert \le 2$$.
+   - **Chiến lược lượng tử trên cặp $$\lvert \Phi^+angle$$:** Nếu Alice đo theo góc $$lpha$$ và Bob đo theo góc $$eta$$ (quy ước góc spin trên mặt phẳng Bloch), kỳ vọng tích hai kết quả đo bằng $$E(lpha, eta) = \cos(lpha - eta)$$. Chọn đúng bốn góc trong video trên: $$lpha_0 = 0^\circ,\ lpha_1 = 90^\circ,\ eta_0 = 45^\circ,\ eta_1 = -45^\circ$$:
+     - $$E(0^\circ, 45^\circ) = \cos(-45^\circ) = rac{\sqrt{2}}{2}$$,
+     - $$E(0^\circ, -45^\circ) = \cos(45^\circ) = rac{\sqrt{2}}{2}$$,
+     - $$E(90^\circ, 45^\circ) = \cos(45^\circ) = rac{\sqrt{2}}{2}$$,
+     - $$E(90^\circ, -45^\circ) = \cos(135^\circ) = -rac{\sqrt{2}}{2}$$.
+     Cộng lại theo công thức CHSH:
+     $$S = rac{\sqrt{2}}{2} + rac{\sqrt{2}}{2} + rac{\sqrt{2}}{2} - \Bigl(-rac{\sqrt{2}}{2}\Bigr) = 2\sqrt{2} pprox 2.828 > 2.$$
+
+Chỉ bằng bốn dòng lượng giác cấp ba, bạn đã tự tay chứng minh điều làm Einstein trăn trở suốt đời: tương quan lượng tử vượt hẳn mọi mô hình biến ẩn cục bộ cổ điển.
+
 ## 3. Mô hình tính toán và độ phức tạp
 
 Mạch lượng tử là một dãy cổng unitary lấy từ một tập phổ quát, tác dụng lên các qubit khởi tạo $$\lvert 0\rangle^{\otimes n}$$, rồi đo. Lớp **BQP** được so với **BPP** và **P**. Ta tách được hai lớp này trong mô hình oracle; còn tách tuyệt đối thì gặp cùng độ khó như tách các lớp cổ điển (ta chưa biết $$\mathbf{P}\neq\mathbf{NP}$$, và cũng chưa có bản đồ đầy đủ về các quan hệ bao hàm với lớp lượng tử).

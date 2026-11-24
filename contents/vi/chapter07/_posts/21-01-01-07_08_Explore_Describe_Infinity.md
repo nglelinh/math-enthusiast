@@ -16,6 +16,8 @@ Cuối thế kỷ XIX, trong lúc nhiều nhà toán học lừng danh vẫn coi
 
 Khi đọc sách báo phổ thông, ta hay bắt gặp những câu đố gây hoang mang như *"vô hạn cộng một có lớn hơn vô hạn không?"* hay *"số chẵn chỉ bằng một nửa số tự nhiên hay nhiều bằng nhau?"*. Sự bối rối không đến từ việc vô hạn "phi logic", mà từ việc người nói đã trộn lẫn nhiều khái niệm khác nhau dưới cùng một chữ "vô hạn": vô hạn tiềm năng trong giải tích, bản số (cardinal) đo kích thước, số thứ tự (ordinal) đo cách xếp hàng, hay điểm vô cực trong hình học xạ ảnh. Bài thực hành này mời bạn tự tay **cầm thước đo của Cantor**: dựng các song ánh tường minh, tự viết chứng minh đường chéo để thấy vì sao số thực không đếm được, và giải mã những nghịch lý nổi tiếng bằng chính định nghĩa chính xác.
 
+**Mạch bài học:** Bản đồ kiến thức nền (lý thuyết tập hợp, hệ tiên đề ZFC & bản số/số thứ tự) → Vô hạn tiềm năng vs. vô hạn thực → Khung giải thích chậm: tự tay kiểm tra song ánh cặp Cantor $$\pi(i,j)$$ và bảng đường chéo $$5\times 5$$ → Khách sạn Hilbert & Giả thuyết Continuum → Thí nghiệm & nhật ký.
+
 ---
 
 ## Mục tiêu học tập
@@ -35,13 +37,21 @@ Sau bài này, bạn cần:
 
 ## Bản đồ kiến thức nền: Lý thuyết tập hợp và Nền tảng toán học là gì, nghiên cứu những gì?
 
-Mọi ngành toán học bạn từng học ở đại học — từ giải tích, đại số tuyến tính đến xác suất — đều đứng trên cùng một nền móng: **Lý thuyết tập hợp (Set Theory)** và **Logic toán / Nền tảng toán học (Foundations of Mathematics)**. Ngành này không chỉ "định nghĩa tập hợp cho gọn", mà trả lời ba câu hỏi cốt lõi về sức mạnh và giới hạn của tư duy toán học:
+Mọi ngành toán học bạn từng học ở đại học — từ giải tích, đại số tuyến tính đến xác suất — đều đứng trên cùng một nền móng: **Lý thuyết tập hợp (Set Theory)** và **Logic toán / Nền tảng toán học (Foundations of Mathematics)**. Ngành này đứng trên ba trụ cột lớn:
 
-1. **Đo đạc vô hạn bằng song ánh:** Với tập hữu hạn, ta đếm bằng số $$1, 2, 3\dots$$ Với tập vô hạn, Cantor đề xuất nguyên tắc ghép cặp 1–1 (**song ánh**): nếu mỗi vị khách trong rạp đều ngồi vừa khít một ghế và không còn ghế trống, ta biết số khách bằng số ghế mà *chẳng cần đếm*. Từ quy tắc đơn giản đó nảy sinh toàn bộ **số học bản số** ($$\aleph_0, \mathfrak{c} = 2^{\aleph_0}, \dots$$) và **số học thứ tự** ($$\omega, \omega+1, \omega^2, \dots$$).
-2. **Hệ tiên đề ZFC (Zermelo–Fraenkel cùng Tiên đề Chọn):** Đầu thế kỷ XX, nghịch lý Russell (*"tập hợp mọi tập hợp không chứa chính nó"*) cho thấy khái niệm tập hợp ngây thơ có thể tự mâu thuẫn. Các nhà toán học bèn xây dựng hệ tiên đề chặt chẽ ZFC làm "hiến pháp" cho toán học hiện đại.
-3. **Tính độc lập và giới hạn của chứng minh:** Kurt Gödel (1940) và Paul Cohen (1963) đã chứng minh một kết quả chấn động: **Giả thuyết Continuum (CH)** — câu hỏi liệu có bậc vô hạn nào chen giữa $$\aleph_0$$ và $$2^{\aleph_0}$$ không — hoàn toàn **độc lập** với ZFC. Tức là từ các tiên đề chuẩn của toán học, ta không thể chứng minh nó đúng mà cũng không thể chứng minh nó sai!
+### 1. Đo đạc vô hạn bằng song ánh: Bản số (Cardinal) và Số thứ tự (Ordinal)
 
-Một ví dụ cụ thể về hai loại vô hạn ngay trên cùng một tập hợp: xét dãy $$1, 2, 3, \dots$$ (kiểu thứ tự $$\omega$$) và dãy $$2, 3, 4, \dots; 1$$ — tức là vẫn đúng các số tự nhiên ấy nhưng đẩy số $$1$$ xuống đứng sau tất cả (kiểu thứ tự $$\omega + 1$$). Xét về *kích thước* (bản số), hai tập có số phần tử y hệt nhau ($$\aleph_0$$). Nhưng xét về *thứ tự* (số thứ tự), chúng khác hẳn nhau: tập thứ hai có phần tử lớn nhất (số $$1$$), còn tập thứ nhất thì không! Chính sự phân biệt rạch ròi này làm tan biến câu đố *"$$\infty + 1$$ có lớn hơn $$\infty$$ không?"*.
+Với tập hữu hạn, ta đếm $$1, 2, 3\dots$$ Với tập vô hạn, Cantor đề xuất nguyên tắc ghép cặp 1–1 (**song ánh**): nếu mỗi vị khách trong rạp ngồi vừa khít một ghế và không còn ghế trống, ta biết số khách bằng số ghế mà *chẳng cần đếm*. Từ đó nảy sinh hai thước đo khác nhau:
+- **Bản số (Cardinal — đo kích thước):** $$\aleph_0 = \lvert\mathbb{N}\rvert$$, $$\mathfrak{c} = 2^{\aleph_0} = \lvert\mathbb{R}\rvert$$. Với bản số, $$\aleph_0 + 1 = \aleph_0$$.
+- **Số thứ tự (Ordinal — đo cách xếp hàng):** xét dãy $$1, 2, 3, \dots$$ (kiểu thứ tự $$\omega$$) và dãy $$2, 3, 4, \dots; 1$$ — đẩy số $$1$$ xuống đứng sau tất cả (kiểu thứ tự $$\omega + 1$$). Hai tập có cùng *kích thước* $$\aleph_0$$, nhưng khác *kiểu thứ tự*: tập sau có phần tử lớn nhất (số $$1$$), còn tập đầu thì không!
+
+### 2. Hệ tiên đề ZFC (Zermelo–Fraenkel cùng Tiên đề Chọn)
+
+Đầu thế kỷ XX, nghịch lý Russell (*"tập hợp $$R = \{x : x \notin x\}$$ có chứa chính nó không?"*) cho thấy khái niệm tập hợp ngây thơ có thể tự mâu thuẫn. Các nhà toán học bèn xây dựng hệ tiên đề chặt chẽ **ZFC** làm "hiến pháp" cho toán học hiện đại, quy định rõ cách dựng tập hợp hợp lệ mà không sinh nghịch lý.
+
+### 3. Tính độc lập và giới hạn của chứng minh hình thức
+
+Kurt Gödel (1940) và Paul Cohen (1963) đã chứng minh một kết quả làm rung chuyển triết học toán học: **Giả thuyết Continuum (CH)** — câu hỏi liệu có bậc vô hạn nào chen giữa $$\aleph_0$$ và $$2^{\aleph_0}$$ không — hoàn toàn **độc lập** với ZFC. Tức là từ các tiên đề chuẩn của toán học, ta không thể chứng minh CH đúng, mà cũng không thể chứng minh CH sai!
 
 ---
 
@@ -49,39 +59,57 @@ Một ví dụ cụ thể về hai loại vô hạn ngay trên cùng một tập
 
 ### 1.1 Vô hạn tiềm năng và vô hạn thực
 
-**Vô hạn tiềm năng** (theo Aristotle) là một quá trình tiếp diễn không dừng: bạn luôn viết được một số tự nhiên lớn hơn, nhưng không nhất thiết phải chấp nhận "tập tất cả các số tự nhiên" như một đối tượng đã hoàn chỉnh. Giải tích hiện đại thường dùng cách nhìn tiềm năng: $$\lim_{n\to\infty}a_n=L$$ nghĩa là với mỗi $$\varepsilon$$ cho trước, ta tìm được $$N$$ hữu hạn phù hợp. Không có số nào tên là $$\infty$$ trong $$\mathbb{R}$$.
+**Vô hạn tiềm năng** (theo Aristotle) là một quá trình tiếp diễn không dừng: bạn luôn viết được một số tự nhiên lớn hơn, nhưng không nhất thiết phải chấp nhận "tập tất cả các số tự nhiên" như một đối tượng đã hoàn chỉnh. Giải tích hiện đại thường dùng cách nhìn tiềm năng: $$\lim_{n\to\infty}a_n=L$$ nghĩa là với mỗi $$\varepsilon > 0$$ cho trước, ta tìm được $$N$$ hữu hạn phù hợp. Không có số nào tên là $$\infty$$ trong $$\mathbb{R}$$.
 
-**Vô hạn thực** coi một tập vô hạn là một đối tượng. Lý thuyết của Cantor gán cho mỗi tập một **lực lượng**: hai tập có cùng lực lượng nếu có một song ánh giữa chúng. Với cách nhìn này, $$\mathbb{N}$$ là một tập vô hạn, và có nhiều cỡ vô hạn khác nhau.
-
-Cả hai cách nhìn đều hữu ích. Nhầm lẫn xảy ra khi ta chuyển từ cách nhìn này sang cách nhìn kia mà không nói ra.
+**Vô hạn thực** coi một tập vô hạn là một đối tượng hoàn chỉnh. Lý thuyết của Cantor gán cho mỗi tập một **lực lượng**: hai tập có cùng lực lượng nếu tồn tại một song ánh giữa chúng. Nhầm lẫn xảy ra khi ta chuyển giữa hai cách nhìn mà không nói ra.
 
 ### 1.2 Vô hạn đếm được
 
-Một tập là **vô hạn đếm được** nếu nó có cùng lực lượng với $$\mathbb{N}=\{0,1,2,\ldots\}$$ (hoặc $$\{1,2,\ldots\}$$; hãy chọn một quy ước và giữ nguyên). Một số song ánh kinh điển:
+Một tập là **vô hạn đếm được** nếu nó có cùng lực lượng với $$\mathbb{N}=\{0,1,2,\ldots\}$$. Một số song ánh kinh điển:
 
-- $$\mathbb{N}\leftrightarrow\mathbb{Z}$$: liệt kê theo thứ tự $$0,1,-1,2,-2,\ldots$$.  
-- $$\mathbb{N}\leftrightarrow\mathbb{N}\times\mathbb{N}$$: đi theo các đường chéo của bảng các cặp $$(i,j)$$, hoặc dùng công thức cặp Cantor tường minh $$\pi(i,j) = \frac{(i+j)(i+j+1)}{2} + j$$.  
-- $$\mathbb{N}\leftrightarrow\mathbb{Q}$$: liệt kê các số hữu tỉ qua cặp số nguyên, chú ý bỏ các phần tử lặp lại (hoặc làm với số dương trước).
+- $$\mathbb{N}\leftrightarrow\mathbb{Z}$$: công thức tường minh
+  $$
+  f(n)=\begin{cases} n/2 & n\text{ chẵn},\\ -(n+1)/2 & n\text{ lẻ},\end{cases}
+  $$
+  cho dãy $$f(0)=0, f(1)=-1, f(2)=1, f(3)=-2, f(4)=2\dots$$
+- $$\mathbb{N}\leftrightarrow\mathbb{N}\times\mathbb{N}$$: hàm cặp Cantor $$\pi(i,j) = \frac{(i+j)(i+j+1)}{2} + j$$.
+- $$\mathbb{N}\leftrightarrow\mathbb{Q}$$: liệt kê phân số $$p/q$$ theo đường chéo và bỏ các phân số trùng nhau.
 
-Công thức tường minh cho song ánh $$\mathbb{N}\to\mathbb{Z}$$ (với $$\mathbb{N}=\{0,1,2,\ldots\}$$):
-
-$$
-f(n)=\begin{cases} n/2 & n\text{ chẵn},\\ -(n+1)/2 & n\text{ lẻ.}\end{cases}
-$$
-
-Hãy tự kiểm tra bằng tay một lần rằng đây là đơn ánh và toàn ánh (ví dụ $$f(0)=0, f(1)=-1, f(2)=1, f(3)=-2, f(4)=2\dots$$). Chứng minh nhỏ này giúp khái niệm "cùng cỡ" trở thành một phép kiểm tra đại số cụ thể, không còn bí ẩn.
-
-Như vậy, câu "số chẵn nhiều bằng số tự nhiên" (nghịch lý Galileo) trở thành một **định lý** về tập vô hạn, không có gì mâu thuẫn. Ánh xạ $$n\mapsto 2n$$ là một song ánh $$\mathbb{N}\to 2\mathbb{N}$$. Trực giác từ tập hữu hạn ("số chẵn chỉ bằng một nửa") không còn đúng, vì với tập vô hạn, bỏ đi một tập con không nhất thiết làm giảm lực lượng.
-
-**Khách sạn Hilbert.** Một khách sạn có các phòng đánh số theo $$\mathbb{N}$$, đã kín phòng, nhưng vẫn nhận thêm được 1 khách (chuyển khách theo quy tắc $$n\mapsto n+1$$), hữu hạn khách, hoặc thậm chí đếm được khách mới (ví dụ chuyển khách ở phòng $$n$$ sang phòng $$2n$$, để trống các phòng lẻ). Thậm chí nếu có *vô hạn đếm được* xe buýt, mỗi xe chở vô hạn đếm được khách đến cùng lúc, người lễ tân vẫn xếp được hết bằng cách dùng số nguyên tố: khách cũ ở phòng $$n$$ chuyển sang phòng $$2^n$$, còn khách thứ $$k$$ trên xe buýt thứ $$b$$ vào phòng $$p_{b+1}^k$$ (với $$p_2=3, p_3=5, p_4=7,\dots$$)! Về mặt số học bản số, câu chuyện này nói rằng $$\aleph_0+1=\aleph_0$$, $$\aleph_0+\aleph_0=\aleph_0$$ và $$\aleph_0 \cdot \aleph_0 = \aleph_0$$.
+**Khách sạn Hilbert.** Một khách sạn có các phòng đánh số theo $$\mathbb{N}$$, đã kín phòng, nhưng vẫn nhận thêm được 1 khách ($$n\mapsto n+1$$), hay vô hạn đếm được khách mới ($$n\mapsto 2n$$, để trống mọi phòng lẻ). Thậm chí nếu có *vô hạn đếm được* xe buýt, mỗi xe chở vô hạn đếm được khách, người lễ tân vẫn xếp được hết bằng lũy thừa số nguyên tố: khách cũ ở phòng $$n$$ chuyển sang phòng $$2^n$$, còn khách thứ $$k$$ trên xe buýt thứ $$b$$ vào phòng $$p_{b+1}^k$$ (với $$p_2=3, p_3=5, p_4=7,\dots$$)! Nhờ phân tích thừa số nguyên tố duy nhất, không bao giờ có hai người vào trùng một phòng!
 
 ### 1.3 Không đếm được
 
-**Phương pháp đường chéo Cantor.** Giả sử $$f:\mathbb{N}\to\{0,1\}^{\mathbb{N}}$$ liệt kê được mọi dãy nhị phân vô hạn. Dựng dãy $$s$$ với $$s_n=1-f(n)_n$$. Khi đó $$s$$ khác mọi dãy trong danh sách (khác dãy thứ $$n$$ ở vị trí thứ $$n$$). Vậy $$\{0,1\}^{\mathbb{N}}$$ không đếm được. Tập các số thực trong $$(0,1)$$ cũng vậy (cần cẩn thận với các số có hai cách biểu diễn nhị phân hoặc thập phân).
+**Phương pháp đường chéo Cantor.** Giả sử $$f:\mathbb{N}\to\{0,1\}^{\mathbb{N}}$$ liệt kê được mọi dãy nhị phân vô hạn. Dựng dãy $$s$$ với $$s_n=1-f(n)_n$$. Khi đó $$s$$ khác mọi dãy trong danh sách (khác dãy thứ $$n$$ ở vị trí thứ $$n$$). Vậy $$\{0,1\}^{\mathbb{N}}$$ (và do đó $$\mathbb{R}$$) **không đếm được**.
 
-Về mặt sư phạm, trước hết nên thấy vì sao đường chéo trong trường hợp *hữu hạn* không chứng minh được gì: nếu bạn mới liệt kê $$N$$ chuỗi nhị phân độ dài $$N$$, thì đường chéo cho một chuỗi mới cũng có độ dài $$N$$, nhưng vì có tất cả $$2^N$$ chuỗi nên bạn chưa bao giờ khẳng định mình đã liệt kê hết. Trường hợp vô hạn khác ở chỗ: danh sách đầy đủ *được giả định* chính là một hàm $$\mathbb{N}\to\{0,1\}^{\mathbb{N}}$$, và đó đúng là đối tượng mà phép đường chéo bác bỏ.
+#### Khung giải thích: Cầm tay kiểm tra song ánh cặp Cantor và bảng đường chéo $$5 \times 5$$ (nên đọc chậm)
 
-Vậy vô hạn có **nhiều bậc**. Ta viết $$\lvert\mathbb{N}\rvert=\aleph_0$$ và $$\lvert\mathbb{R}\rvert=2^{\aleph_0}=\mathfrak{c}$$ (lực lượng continuum). Định lý Cantor: với mọi tập $$X$$ ta có $$\lvert X\rvert<\lvert\mathcal{P}(X)\rvert$$, từ đó sinh ra một dãy bậc vô hạn không dừng. Chính dãy bậc này đã biến lý thuyết tập hợp thành một ngành toán học thực thụ, chứ không chỉ là cách nói hình ảnh.
+Để cảm nhận sự chặt chẽ của Cantor như một phép tính đại số chứ không phải chuyện huyền bí, hãy tự kiểm tra hai bảng số nhỏ sau:
+
+**Ví dụ 1 — Kiểm tra hàm cặp Cantor $$\pi(i, j) = \frac{(i+j)(i+j+1)}{2} + j$$ trên lưới $$3 \times 3$$:**
+Thay từng cặp $$(i, j) \in \{0, 1, 2\}^2$$ vào công thức:
+- Đường chéo $$i + j = 0$$: $$\pi(0,0) = 0$$.
+- Đường chéo $$i + j = 1$$: $$\pi(1,0) = \frac{1\cdot 2}{2} + 0 = 1$$; $$\pi(0,1) = \frac{1\cdot 2}{2} + 1 = 2$$.
+- Đường chéo $$i + j = 2$$: $$\pi(2,0) = 3$$; $$\pi(1,1) = 4$$; $$\pi(0,2) = 5$$.
+- Đường chéo $$i + j = 3$$: $$\pi(2,1) = 7$$; $$\pi(1,2) = 8$$.
+- Đường chéo $$i + j = 4$$: $$\pi(2,2) = \frac{4\cdot 5}{2} + 2 = 12$$.
+
+Nhìn bảng kết quả: mỗi số nguyên không âm xuất hiện **đúng một lần duy nhất**! Ta thậm chí giải ngược được ngay từ một số bất kỳ, ví dụ $$\pi(i,j) = 10$$: tìm số tam giác lớn nhất $$\le 10$$ là $$T_4 = \frac{4\cdot 5}{2} = 10$$, nên $$i+j = 4$$ và phần dư $$j = 10 - 10 = 0 \implies (i, j) = (4, 0)$$! Đó là chứng minh tường minh rằng $$\lvert\mathbb{N} \times \mathbb{N}\rvert = \lvert\mathbb{N}\rvert$$.
+
+**Ví dụ 2 — Tự tay chạy phép đường chéo trên 5 dãy nhị phân đầu tiên:**
+Giả sử ai đó tuyên bố đã liệt kê hết mọi dãy nhị phân vô hạn, bắt đầu bằng 5 dòng sau (in đậm phần tử trên **đường chéo chính**):
+- $$f(1) = (\mathbf{0},\; 1,\; 1,\; 0,\; 1,\; \dots)$$
+- $$f(2) = (1,\; \mathbf{1},\; 0,\; 1,\; 0,\; \dots)$$
+- $$f(3) = (0,\; 0,\; \mathbf{0},\; 1,\; 1,\; \dots)$$
+- $$f(4) = (1,\; 1,\; 1,\; \mathbf{1},\; 0,\; \dots)$$
+- $$f(5) = (0,\; 1,\; 0,\; 0,\; \mathbf{0},\; \dots)$$
+
+Đọc dọc đường chéo chính ta có $$(\mathbf{0}, \mathbf{1}, \mathbf{0}, \mathbf{1}, \mathbf{0}, \dots)$$. Bây giờ **đảo ngược từng bit** ($$0 \leftrightarrow 1$$) để tạo dãy mới $$s$$:
+$$
+s = (\mathbf{1},\; \mathbf{0},\; \mathbf{1},\; \mathbf{0},\; \mathbf{1},\; \dots).
+$$
+Kiểm tra trực tiếp: $$s \neq f(1)$$ (khác bit 1: $$1 \neq 0$$), $$s \neq f(2)$$ (khác bit 2: $$0 \neq 1$$), $$s \neq f(3)$$ (khác bit 3), $$s \neq f(4)$$ (khác bit 4), $$s \neq f(5)$$ (khác bit 5)… Tổng quát $$s \neq f(n)$$ với **mọi** $$n \in \mathbb{N}$$! Vì ta làm trên không gian dãy nhị phân $$\{0,1\}^{\mathbb{N}}$$, ta tránh luôn rắc rối hai cách viết số thực như $$0.1999\dots = 0.2000\dots$$. (Còn nếu muốn chứng minh trên số thực thập phân, chỉ cần chọn chữ số mới là `4` nếu chữ số đường chéo khác `4` và `5` nếu nó bằng `4`, thì dãy mới không bao giờ chứa chữ số `0` hay `9` lặp vô hạn!)
+
+Vậy vô hạn có **nhiều bậc**. Ta viết $$\lvert\mathbb{N}\rvert=\aleph_0$$ và $$\lvert\mathbb{R}\rvert=2^{\aleph_0}=\mathfrak{c}$$ (lực lượng continuum). Định lý Cantor: với mọi tập $$X$$ ta có $$\lvert X\rvert<\lvert\mathcal{P}(X)\rvert$$, từ đó sinh ra một dãy bậc vô hạn không dừng.
 
 ### 1.4 Giả thuyết continuum (về trạng thái của một mệnh đề)
 

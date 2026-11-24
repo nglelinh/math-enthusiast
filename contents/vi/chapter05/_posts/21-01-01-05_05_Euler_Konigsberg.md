@@ -13,7 +13,7 @@ Vào những buổi chiều Chủ nhật thế kỷ XVIII ở thành phố Köni
 
 Khi câu đố ấy được gửi đến **Leonhard Euler** ở St. Petersburg, ban đầu ông nghĩ đây chỉ là một trò tiêu khiển tầm thường không dính dáng gì đến toán học. Nhưng rồi Euler chợt nhận ra: ta chẳng cần đặt chân tới Königsberg, cũng chẳng cần biết cây cầu nào dài bao nhiêu mét hay dòng sông uốn lượn ra sao. Bằng cách **vứt bỏ toàn bộ hình học đo đạc** để chỉ giữ lại các chấm và đoạn nối, Euler không chỉ chứng minh câu đố là bất khả thi vào năm 1736, mà còn khai sinh ra cả một ngành toán học hoàn toàn mới: **lý thuyết đồ thị**.
 
-Bài học này vượt xa bảy cây cầu cổ. Mỗi khi một bài toán thực chất chỉ nói về việc cái gì nối với cái gì (mạng máy tính, mạch điện, lắp ráp DNA, định tuyến giao thông), ta đều dùng đúng nước đi của Euler: gột bỏ chi tiết thừa, giữ lại bộ khung tổ hợp, rồi đọc ra một bất biến ngăn chặn mọi khả năng sai.
+**Mạch bài học:** Bản đồ kiến thức nền (lý thuyết đồ thị, ma trận kề, bất biến và tôpô sơ khai) → Câu đố lịch sử & trò vẽ một nét → Lập mô hình đa đồ thị → Bậc đỉnh và bổ đề bắt tay → Khung giải thích chậm: tự tay tính ma trận kề $$4\times 4$$ của Königsberg, thêm 1 cây cầu và lắp ráp DNA bằng đồ thị de Bruijn → Điều kiện đủ và bài toán người đưa thư Trung Hoa.
 
 ---
 
@@ -32,13 +32,18 @@ Sau bài này, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết đồ thị, bất biến tổ hợp và tôpô sơ khai là gì?
+## Bản đồ kiến thức nền: Lý thuyết đồ thị, Ma trận kề và Tôpô sơ khai là gì?
 
-Trước năm 1736, nhắc tới hình học là người ta nghĩ ngay đến độ dài, góc đo, diện tích và tọa độ của Euclid hay Descartes. Bài báo của Euler mở ra hai hướng tư duy hoàn toàn mới mà mọi sinh viên đại học về khoa học, kỹ thuật hay kinh tế đều sẽ gặp lại:
+Trước năm 1736, nhắc tới hình học là người ta nghĩ ngay đến độ dài, góc đo, diện tích và tọa độ của Euclid hay Descartes. Bài báo của Euler mở ra ba trụ cột tư duy mà mọi sinh viên đại học về khoa học, kỹ thuật hay kinh tế đều sẽ gặp lại:
 
-- **Lý thuyết đồ thị (Graph Theory) là gì?** Đó là ngành toán nghiên cứu thuần túy về **mối quan hệ kết nối**. Một đồ thị $$G = (V, E)$$ chỉ gồm tập các đối tượng (đỉnh $$V$$) và tập các kết nối giữa chúng (cạnh $$E$$). Sơ đồ tàu điện ngầm, mạng xã hội, mạch in điện tử hay mạng lưới cung ứng đều là đồ thị: việc bạn kéo dài một tuyến đường hay xoay bản đồ đi $$90^\circ$$ không làm thay đổi bản chất kết nối của đồ thị.
-- **Bất biến (Invariant) là gì?** Muốn chứng minh một nhiệm vụ là *bất khả thi* (như đi qua bảy cây cầu không lặp), ta không thể thử từng đường đi vì có quá nhiều trường hợp. Thay vào đó, ta tìm một đại lượng **bắt buộc phải đúng** cho mọi lời giải thành công (ở đây là tính chẵn lẻ của bậc đỉnh). Nếu bài toán đang xét vi phạm bất biến đó, ta kết luận ngay lập tức là *không tồn tại lời giải*.
-- **Tôpô học sơ khai (*Geometria Situs*):** Euler gọi cách tiếp cận của mình là "hình học của vị trí" — tiền thân của **tôpô học**, ngành nghiên cứu những tính chất không đổi khi ta co giãn, uốn cong không gian mà không cắt rách.
+### 1. Lý thuyết đồ thị (Graph Theory) là gì và nghiên cứu những gì?
+Đó là ngành toán nghiên cứu thuần túy về **mối quan hệ kết nối**. Một đồ thị $$G = (V, E)$$ chỉ gồm tập các đối tượng (**đỉnh** $$V$$) và tập các kết nối giữa chúng (**cạnh** $$E$$). Sơ đồ tàu điện ngầm, mạng xã hội, mạch in điện tử hay mạng lưới cung ứng đều là đồ thị: việc bạn kéo dài một tuyến đường hay xoay bản đồ đi $$90^\circ$$ không làm thay đổi bản chất kết nối. Ngành này nghiên cứu các bài toán cốt lõi như đường đi ngắn nhất (Dijkstra), luồng cực đại trên mạng, tô màu đồ thị (lập lịch), và tồn tại đường Euler / chu trình Hamilton.
+
+### 2. Bất biến tổ hợp và đại số hóa đồ thị (Ma trận kề)
+Muốn chứng minh một nhiệm vụ là *bất khả thi* (như đi qua bảy cây cầu không lặp), ta không thể thử từng đường đi vì số lượng đường tăng theo giai thừa. Thay vào đó, ta tìm một **bất biến** — một đại lượng bắt buộc phải đúng cho mọi lời giải thành công (ở đây là tính chẵn lẻ của bậc đỉnh). Hơn nữa, trong đại số tuyến tính và khoa học máy tính, mọi đồ thị đều viết gọn thành một **ma trận kề** $$A$$ (ô $$A_{ij}$$ ghi số cạnh nối đỉnh $$i$$ với đỉnh $$j$$), biến các bài toán mạng thành phép nhân ma trận và giá trị riêng (như thuật toán PageRank của Google!).
+
+### 3. Tôpô học sơ khai (*Geometria Situs*)
+Euler gọi phương pháp của mình là *"hình học của vị trí"* — tiền thân trực tiếp của **tôpô học**, ngành nghiên cứu những tính chất không đổi khi ta co giãn, uốn cong không gian mà không cắt rách. Bảy cây cầu Königsberg là bước khởi đầu cho chuỗi tư duy dẫn thẳng tới Định lý Bốn màu và Giả thuyết Poincaré ở cuối chương này.
 
 ---
 
@@ -48,9 +53,7 @@ Trước khi nhìn vào bản đồ Königsberg, hãy nghĩ đến một câu đ
 
 Tại sao điểm xuất phát lại quan trọng đến thế? Vì mỗi khi ngòi bút đi *ngang qua* một giao điểm trung gian, nó phải tốn **một nét đi vào** và **một nét đi ra** — tức là các nét tại mọi giao điểm trung gian luôn bị tiêu thụ thành từng cặp (số chẵn). Chỉ có hai điểm duy nhất được phép có số nét lẻ: điểm đặt bút ban đầu và điểm nhấc bút cuối cùng. Ở hình chiếc phong bì, hai góc đáy có đúng $$3$$ nét (số lẻ), các điểm còn lại đều chẵn — nên bạn *bắt buộc* phải bắt đầu ở một góc đáy và kết thúc ở góc đáy kia.
 
-Bố cục Königsberg cũng chính là bài toán vẽ một nét ở quy mô thành phố: bốn vùng đất (hai bờ sông và hai hòn đảo) nối với nhau bằng bảy cây cầu. Các bản đồ lịch sử đặt tên khác nhau, nhưng dữ liệu tổ hợp thì không đổi: **bốn vùng đất, bảy cây cầu, và cả bốn vùng đều có số cầu lẻ**.
-
-Câu đố này không hỏi về quãng đường ngắn nhất. Đó là một câu hỏi thuần túy về sự tồn tại: **có thể đi qua mỗi cây cầu đúng một lần không?** Bài báo năm 1736 của Euler thường được xem là văn bản đặt nền móng cho lý thuyết đồ thị, và cũng cho khía cạnh tổ hợp của tôpô: những tính chất vẫn giữ nguyên khi ta bỏ qua hình dạng.
+Bố cục Königsberg cũng chính là bài toán vẽ một nét ở quy mô thành phố: bốn vùng đất (hai bờ sông và hai hòn đảo) nối với nhau bằng bảy cây cầu. Bài báo năm 1736 của Euler thường được xem là văn bản đặt nền móng cho lý thuyết đồ thị, và cũng cho khía cạnh tổ hợp của tôpô: những tính chất vẫn giữ nguyên khi ta bỏ qua hình dạng.
 
 ---
 
@@ -96,34 +99,63 @@ Hãy hình dung ta đi trong đồ thị và dùng mỗi cạnh đúng một l�
 - Trong **chu trình Euler**, mọi đỉnh phải có **bậc chẵn**.
 - Trong **đường Euler** không đóng, có đúng **hai** đỉnh bậc lẻ, là điểm đầu và điểm cuối. Mọi đỉnh khác đều có bậc chẵn.
 
-Các điều kiện này không chỉ cần mà với đồ thị liên thông còn là đủ (định lý cổ điển). Với Königsberg, chỉ cần tính bậc là đã loại bỏ hy vọng.
-
 ### Bậc ở Königsberg
 
-Trong mô hình chuẩn của bảy cây cầu, hãy kiểm đếm trực tiếp bốn vùng đất:
-
-| Vùng đất (đỉnh) | Số cây cầu nối tới (bậc) | Tính chẵn lẻ |
-|-----------------|--------------------------|--------------|
-| Bờ Bắc | $$3$$ | Lẻ |
-| Bờ Nam | $$3$$ | Lẻ |
-| Đảo phía Đông | $$3$$ | Lẻ |
-| Đảo Kneiphof (giữa sông) | $$5$$ | Lẻ |
-
-Cả bốn đỉnh đều có bậc lẻ (ba đỉnh bậc $$3$$ và một đỉnh bậc $$5$$). Một đồ thị liên thông có nhiều hơn hai đỉnh bậc lẻ thì không thể có đường Euler. Vậy không có đường đi nào qua mỗi cầu đúng một lần. (Thú vị là trong Thế chiến II, hai cây cầu bị phá hủy và sau này thành phố xây lại hệ cầu khác, khiến số đỉnh bậc lẻ giảm xuống còn $$2$$ — tức là ngày nay ở Kaliningrad bạn *có thể* đi một đường Euler mở, dù vẫn không có chu trình khép kín!)
+Trong mô hình chuẩn của bảy cây cầu, cả bốn đỉnh đều có bậc lẻ (ba đỉnh bậc $$3$$ và một đỉnh bậc $$5$$). Một đồ thị liên thông có nhiều hơn hai đỉnh bậc lẻ thì không thể có đường Euler. Vậy không có đường đi nào qua mỗi cầu đúng một lần.
 
 Có thể nhớ theo Euler: *đếm số đỉnh bậc lẻ; nếu nhiều hơn hai thì dừng.*
 
 ---
 
-## 4. Ý tưởng chứng minh, nói gọn
+## 4. Khung giải thích: tự tay kiểm tra ma trận kề Königsberg, "xây thêm 1 cầu" và lắp ráp DNA (nên đọc chậm)
 
-1. **Lập mô hình** đất và cầu thành một đa đồ thị.
-2. **Dịch** yêu cầu "đi qua mỗi cầu một lần" thành việc tồn tại đường Euler.
-3. **Suy ra** ràng buộc về tính chẵn lẻ của bậc từ việc ghép cặp lượt vào và lượt ra.
-4. **Tính** bậc của các đỉnh ở Königsberg và thấy có bốn đỉnh bậc lẻ.
-5. **Kết luận** là không thể.
+Để cảm nhận sức mạnh của việc đại số hóa đồ thị, hãy tự tay tính ba ví dụ cụ thể dưới đây:
 
-Không cần hình học tọa độ, không cần chuyển động liên tục. Đây là chứng minh tổ hợp: một đại lượng bất biến chặn mọi đường đi cùng một lúc.
+### Ví dụ cầm tay 1: Ma trận kề $$4 \times 4$$ của Königsberg
+Đánh nhãn 4 vùng đất: $$A$$ (đảo Kneiphof ở giữa), $$B$$ (bờ Bắc), $$C$$ (bờ Nam), $$D$$ (đảo phía Đông). Ta ghi số cây cầu nối từng cặp vùng đất vào ma trận kề đối xứng $$M$$:
+
+$$
+M \;=\;
+\begin{pmatrix}
+0 & 2 & 2 & 1 \\
+2 & 0 & 0 & 1 \\
+2 & 0 & 0 & 1 \\
+1 & 1 & 1 & 0
+\end{pmatrix}
+\begin{array}{l}
+\leftarrow \text{Hàng } A:\ 0+2+2+1 = \mathbf{5}\ (\text{lẻ}) \\
+\leftarrow \text{Hàng } B:\ 2+0+0+1 = \mathbf{3}\ (\text{lẻ}) \\
+\leftarrow \text{Hàng } C:\ 2+0+0+1 = \mathbf{3}\ (\text{lẻ}) \\
+\leftarrow \text{Hàng } D:\ 1+1+1+0 = \mathbf{3}\ (\text{lẻ})
+\end{array}
+$$
+
+Cộng tổng cả 4 hàng: $$5 + 3 + 3 + 3 = 14 = 2 \times 7$$ (khớp chuẩn **Bổ đề bắt tay** $$\sum \deg(v) = 2\lvert E\rvert$$!). Vì có tới **4 đỉnh bậc lẻ**, không tồn tại đường Euler.
+
+### Ví dụ cầm tay 2: Nếu thành phố xây thêm ĐÚNG 1 cây cầu nối Bờ Bắc $$B$$ và Bờ Nam $$C$$ thì sao?
+Ta chỉ việc cộng $$+1$$ vào ô $$(B, C)$$ và $$(C, B)$$ trong ma trận $$M$$. Lập tức:
+- $$\deg(A) = 5$$ (lẻ),
+- $$\deg(B) = 3 + 1 = 4$$ (chẵn!),
+- $$\deg(C) = 3 + 1 = 4$$ (chẵn!),
+- $$\deg(D) = 3$$ (lẻ).
+
+Số đỉnh bậc lẻ rút xuống còn **đúng 2 đỉnh** ($$A$$ và $$D$$). Theo định lý Euler, nay *chắc chắn* tồn tại một đường Euler mở đi qua đủ cả 8 cây cầu, bắt đầu ở $$A$$ và kết thúc ở $$D$$! Hãy kiểm tra trực tiếp một hành trình 8 cầu hợp lệ:
+
+$$
+A \xrightarrow{\text{cầu } 1} B \xrightarrow{\text{cầu } 2} A \xrightarrow{\text{cầu } 3} C \xrightarrow{\text{cầu } 4} A \xrightarrow{\text{cầu } 5} D \xrightarrow{\text{cầu } 6} B \xrightarrow{\text{cầu mới}} C \xrightarrow{\text{cầu } 7} D.
+$$
+
+Đếm lại bằng tay: đi qua đúng 8 cạnh không trùng cạnh nào! (Trong Thế chiến II, hai cây cầu thực tế bị phá hủy khiến số đỉnh bậc lẻ ở Kaliningrad hiện đại cũng giảm xuống còn $$2$$, nên ngày nay du khách thực sự đi được một đường Euler mở.)
+
+### Ví dụ cầm tay 3: Lắp ráp bộ gen DNA bằng đồ thị de Bruijn
+Trong tin sinh học hiện đại, máy giải trình tự chỉ đọc được các mảnh DNA ngắn bị cắt vụn, ví dụ ta thu được 4 mảnh độ dài 3 (gọi là 3-mer) không rõ thứ tự: `TGC`, `AAT`, `GCT`, `ATG`. Làm sao ghép lại thành chuỗi DNA gốc?
+- **Bước 1:** Xem mỗi mảnh 3-mer như một **cạnh có hướng** nối 2 ký tự đầu với 2 ký tự cuối:
+  `AAT` ($$AA \to AT$$), `ATG` ($$AT \to TG$$), `TGC` ($$TG \to GC$$), `GCT` ($$GC \to CT$$).
+- **Bước 2:** Kiểm tra bậc vào / bậc ra của các đỉnh 2-mer: `AA` có (vào 0, ra 1), `CT` có (vào 1, ra 0), mọi đỉnh trung gian `AT, TG, GC` đều có (vào 1, ra 1).
+- **Bước 3:** Đi theo **đường Euler có hướng** duy nhất từ `AA` đến `CT`:
+  $$AA \to AT \to TG \to GC \to CT \implies \text{chuỗi DNA gốc: } \mathbf{AATGCT}.$$
+
+Cả một ngành tin sinh học giải mã hàng tỷ cặp bazơ ngày nay chạy trực tiếp trên phát minh năm 1736 của Euler!
 
 ---
 
@@ -144,7 +176,7 @@ $$
 \sum_{v\in V}\deg(v)=2\lvert E\rvert.
 $$
 
-Vì mỗi cạnh đóng góp đúng $$2$$ đầu mút vào tổng bậc (giống như mỗi cái bắt tay trong một bữa tiệc đều liên quan đến $$2$$ bàn tay), tổng bậc mọi đỉnh luôn chẵn, suy ra **số đỉnh bậc lẻ luôn là số chẵn**. Ở Königsberg, tổng bậc là $$3 + 3 + 3 + 5 = 14 = 2 \times 7$$. Bốn đỉnh bậc lẻ hoàn toàn phù hợp với bổ đề bắt tay, nhưng vẫn vượt ngưỡng tối đa $$2$$ của đường Euler.
+Số đỉnh bậc lẻ luôn là số chẵn. Bốn đỉnh bậc lẻ không mâu thuẫn với bổ đề, và vẫn không có đường Euler phủ mọi cạnh.
 
 ---
 
@@ -165,7 +197,7 @@ Vì mỗi cạnh đóng góp đúng $$2$$ đầu mút vào tổng bậc (giống
 
 - **Khai sinh lý thuyết đồ thị.** Một bài toán về mạng lưới trở thành định lý về đỉnh và cạnh.
 - **Khía cạnh tổ hợp của tôpô.** Tính chất không đổi khi biến dạng liên tục bờ sông.
-- **Thuật toán hiện đại — từ bộ gen DNA đến vi mạch.** Trong tin sinh học, máy giải trình tự chỉ đọc được hàng triệu đoạn DNA ngắn ($$k$$-mer) bị cắt vụn. Để ghép lại bộ gen hoàn chỉnh, thuật toán **đồ thị de Bruijn** biến mỗi đoạn đọc thành một *cạnh* và tìm một **đường Euler** đi qua mọi cạnh đúng một lần — biến bài toán ghép hình sinh học thành bài toán giải được trong thời gian tuyến tính!
+- **Thuật toán hiện đại.** Đường Euler xuất hiện trong lắp ráp bộ gen (đồ thị de Bruijn), định tuyến xe quét rác, in mạch PCB và bài toán vẽ một nét không nhấc bút.
 - **Cách làm toán.** Chứng minh bất khả thi bằng bất biến (tính chẵn lẻ của bậc) là một mẫu hình: tìm một đại lượng mà mọi đối tượng thành công đều phải có, rồi chỉ ra trường hợp đang xét không có nó.
 
 ---
@@ -280,12 +312,7 @@ Euler không "vẽ bản đồ đẹp hơn", ông **đổi ngôn ngữ** sang đ
 
 ## Cầu nối hiện đại
 
-Cùng thói quen "mô hình hóa bằng đồ thị" nằm sau [mạng]({{ site.baseurl }}/contents/vi/chapter03/03_06_Graph_Theory_Networks/), định lý bốn màu, và bài thực hành tô màu bản đồ. Khác biệt: Königsberg hỏi về sự tồn tại của một đường đi, còn bốn màu là ràng buộc về màu của các miền.
-
-## Bài thực hành
-
-Vẽ một đồ thị 6 đỉnh có đúng hai đỉnh bậc lẻ; chỉ ra đường Euler mở (nếu có) hoặc giải thích vì sao không có chu trình Euler đóng. Viết một đoạn: vì sao "đi hết các cầu" là bài toán đồ thị chứ không phải bài toán hình học đo đạc của dòng sông.
-
+Cùng thói quen "mô hình hóa bằng đồ thị" nằm sau [mạng]({{ site.baseurl }}/contents/vi/chapter03/03_06_Graph_Theory_Networks/), định lý bốn màu, và bài toán tô màu bản đồ. Khác biệt: Königsberg hỏi về sự tồn tại của một đường đi, còn bốn màu là ràng buộc về màu của các miền.
 
 ## Video tham khảo
 

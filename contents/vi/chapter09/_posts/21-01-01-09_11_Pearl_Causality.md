@@ -32,11 +32,10 @@ Sau bài, bạn có thể phân biệt ba nấc **association / intervention / c
 
 Người tốt nghiệp đại học ngành khoa học dữ liệu hay học máy thường rất thành thạo việc ước lượng xác suất có điều kiện $$p(y \mid x)$$ — ví dụ *"biết khách hàng vừa mua bỉm, xác suất họ mua bia là bao nhiêu?"*. Nhưng ngay khi bạn bước sang câu hỏi ra quyết định — *"nếu ta chủ động giảm giá thuốc $$X$$ thì tỉ lệ khỏi bệnh $$Y$$ thay đổi thế nào?"* — xác suất quan sát $$p(y \mid x)$$ không còn đủ nữa, bởi vì **nhìn thấy $$X=x$$** (quan sát thụ động) khác hoàn toàn với **ép $$X=x$$** (can thiệp chủ động)!
 
-Đó là sân khấu của **Toán học nhân quả (Causal Inference)** và **Mô hình đồ thị xác suất (Probabilistic Graphical Models)**:
+Đó là sân khấu của **Toán học nhân quả (Causal Inference)** và **Mô hình đồ thị xác suất (Probabilistic Graphical Models)**, đứng trên ba trụ cột:
 1. **Đồ thị có hướng không chu trình (DAG) như bản đồ cơ chế:** Thay vì coi mọi biến bình đẳng trong một bảng dữ liệu phẳng, ta vẽ mũi tên $$A \to B$$ để biểu thị $$A$$ là nguyên nhân trực tiếp của $$B$$. Đồ thị đó cho phép phân tích phân phối đồng thời thành tích các xác suất địa phương và đọc ngay quan hệ độc lập có điều kiện bằng tiêu chuẩn **d-separation**.
 2. **Toán tử $$do(x)$$ và Phép tính do-calculus:** Khi can thiệp $$do(X=x)$$, ta thực hiện một ca "phẫu thuật đồ thị": **cắt đứt mọi mũi tên đi vào $$X$$** (vì giờ đây chính ta quyết định giá trị của $$X$$ chứ không phải biến nhiễu nào khác) và tính phân phối mới của $$Y$$. Phép tính **do-calculus** của Pearl cung cấp đúng 3 quy tắc đại số để trả lời câu hỏi: *liệu có thể tính được tác động can thiệp $$p(y \mid do(x))$$ chỉ từ dữ liệu quan sát mà không cần làm thí nghiệm ngẫu nhiên (RCT) tốn kém hay không?*
-
-Một **ví dụ số siêu gọn** minh họa điều chỉnh back-door: giả sử $$50\%$$ bệnh nhân nhẹ ($$Z=0$$) và $$50\%$$ bệnh nhân nặng ($$Z=1$$). Khi dùng thuốc ($$X=1$$), tỉ lệ khỏi là $$90\%$$ ở ca nhẹ và $$50\%$$ ở ca nặng. Nếu bác sĩ chủ yếu cho ca nặng dùng thuốc ($$80\%$$ người dùng thuốc là ca nặng), thì tỉ lệ khỏi quan sát ở nhóm dùng thuốc chỉ là $$p(Y=1 \mid X=1) = 0.2 \times 90\% + 0.8 \times 50\% = 58\%$$ — trông rất thấp! Nhưng nếu ta dùng công thức điều chỉnh back-door (lấy trọng số theo dân số thật $$p(Z)$$ thay vì $$p(Z \mid X=1)$$), tác động nhân quả thật sự của thuốc là $$p(Y=1 \mid do(X=1)) = 0.5 \times 90\% + 0.5 \times 50\% = 70\%$$!
+3. **Mô hình nhân quả cấu trúc (SCM) và Phản thực (Counterfactual):** Ở tầng sâu nhất, mỗi biến được mô tả bằng một phương trình cơ chế $$X_i := f_i(\mathrm{Pa}_i, U_i)$$ với nhiễu nền $$U_i$$. Nhờ giữ nguyên giá trị nhiễu $$U_i$$ của một cá nhân đã quan sát rồi thay phương trình của $$X$$, ta mới định nghĩa được câu hỏi *"giá như bệnh nhân này đã không dùng thuốc đó thì kết quả ra sao?"* — nền tảng của y học cá thể hóa và đánh giá công bằng thuật toán (algorithmic fairness).
 
 ---
 
@@ -94,6 +93,47 @@ $$
 
 (dạng rời rạc). Khác $$p(y\mid x)=\sum_z p(y\mid x,z)p(z\mid x)$$—trọng số $$p(z)$$ vs $$p(z\mid x)$$ là toàn bộ câu chuyện.
 
+### Ví dụ cầm tay chỉ việc: Giải phẫu Nghịch lý Simpson bằng số liệu 700 bệnh nhân
+
+Hãy tự tay kiểm tra chính bộ số liệu điều trị sỏi thận kinh điển (Charig và cộng sự, 1986) trên **700 bệnh nhân**, chia đều 350 ca dùng **Phương pháp A** (phẫu thuật mở) và 350 ca dùng **Phương pháp B** (tán sỏi qua da). Biến nhiễu $$Z$$ là **kích thước sỏi** ($$Z=0$$: sỏi nhỏ, $$Z=1$$: sỏi lớn), ảnh hưởng đến cả quyết định chọn phương pháp $$X$$ của bác sĩ lẫn khả năng khỏi bệnh $$Y$$ (đồ thị $$Z \to X$$, $$Z \to Y$$, $$X \to Y$$):
+
+| Phân nhóm theo kích thước sỏi ($$Z$$) | Phương pháp A ($$X=A$$) | Phương pháp B ($$X=B$$) | Phương pháp thắng trong nhóm |
+|---|---|---|---|
+| Sỏi nhỏ ($$Z=0$$, tổng $$357$$ ca) | $$81 / 87 = 93{,}1\%$$ | $$234 / 270 = 86{,}7\%$$ | **A hơn** ($$+6{,}4\%$$) |
+| Sỏi lớn ($$Z=1$$, tổng $$343$$ ca) | $$192 / 263 = 73{,}0\%$$ | $$55 / 80 = 68{,}8\%$$ | **A hơn** ($$+4{,}2\%$$) |
+| **Gộp thô (quan sát $$p(Y=1 \vert X)$$)** | **$$273 / 350 = 78{,}0\%$$** | **$$289 / 350 = 82{,}6\%$$** | **B lại hơn** ($$+4{,}6\%$$)! |
+
+Vì sao phép gộp thô lại đảo chiều? Nhìn vào mẫu số: bác sĩ chỉ định Phương pháp A cho tới $$263/350 = 75{,}1\%$$ ca **sỏi lớn** (vốn khó chữa), trong khi Phương pháp B nhận tới $$270/350 = 77{,}1\%$$ ca **sỏi nhỏ** (vốn dễ chữa)!
+
+Bây giờ, ta áp dụng **công thức điều chỉnh back-door** của Pearl để tính xác suất khỏi bệnh nếu *chủ động áp dụng* một phương pháp cho toàn bộ dân số. Tỉ lệ dân số thật theo kích thước sỏi là:
+
+$$
+p(Z=0) = \frac{87 + 270}{700} = \frac{357}{700} = 51{,}0\%, \qquad p(Z=1) = \frac{263 + 80}{700} = \frac{343}{700} = 49{,}0\%.
+$$
+
+Ta thế đúng trọng số dân số $$p(Z)$$ (thay vì trọng số bị lệch $$p(Z \mid X)$$) vào công thức can thiệp:
+
+$$
+p(Y=1 \mid do(X=A)) = 0{,}51 \times 0{,}931 + 0{,}49 \times 0{,}730 \approx 0{,}4748 + 0{,}3577 = \mathbf{83{,}25\%},
+$$
+
+$$
+p(Y=1 \mid do(X=B)) = 0{,}51 \times 0{,}867 + 0{,}49 \times 0{,}688 \approx 0{,}4422 + 0{,}3371 = \mathbf{77{,}93\%}.
+$$
+
+Cú đảo chiều biến mất ngay lập tức: **Phương pháp A thực sự hiệu quả hơn Phương pháp B tới $$+5{,}32$$ điểm phần trăm** ($$83{,}25\%$$ so với $$77{,}93\%$$)!
+
+### Khung giải thích: Vì sao can thiệp là "phẫu thuật đồ thị" (nên đọc chậm)
+
+Để không bao giờ lẫn lộn giữa xác suất có điều kiện và tác động nhân quả, hãy đi chậm qua mạch 4 bước sau:
+
+1. **Bước 1 — Phân biệt *quan sát* và *can thiệp*:** Khi bạn tính $$p(Y=1 \mid X=A)$$, bạn đang chọn lọc nhóm bệnh nhân *tự nhiên được bác sĩ cho dùng A*. Biết $$X=A$$ vừa cho biết họ dùng A, vừa "rò rỉ" thông tin ngược lên mũi tên $$Z \to X$$ rằng họ nhiều khả năng bị sỏi lớn ($$75{,}1\%$$).
+2. **Bước 2 — Cắt đứt mũi tên đi vào $$X$$:** Khi bạn thực hiện $$do(X=A)$$ (gán cứng phương pháp A cho bệnh nhân bất kỳ), mũi tên $$Z \to X$$ bị **xóa khỏi đồ thị**. Giờ đây kích thước sỏi $$Z$$ không còn quyết định phương pháp điều trị nữa, nên phân phối của $$Z$$ quay về đúng phân phối tự nhiên $$p(Z) = (51\%, 49\%)$$.
+3. **Bước 3 — Giữ nguyên các cơ chế còn lại:** Cơ chế sinh học $$p(Y=1 \mid X, Z)$$ (mũi tên $$X \to Y$$ và $$Z \to Y$$) không đổi sau ca phẫu thuật đồ thị. Do đó bạn chỉ cần lấy trung bình có trọng số các xác suất tầng theo $$p(Z)$$ — chính là công thức back-door.
+4. **Bước 4 — Cảnh giác khi đổi câu chuyện nhân quả:** Giả sử $$Z$$ *không phải* là kích thước sỏi đo trước điều trị, mà là **huyết áp đo sau khi uống thuốc** (một biến trung gian $$X \to Z \to Y$$). Khi đó *không có* đường back-door từ $$Z$$ vào $$X$$ — nếu bạn vẫn đem $$Z$$ đi điều chỉnh, bạn sẽ **chặn mất chính tác động của thuốc**! Cùng một bảng số liệu 700 dòng, hai đồ thị khác nhau cho ra hai quyết định y khoa trái ngược nhau.
+
+**Kiểm tra nhanh.** Nếu trong ví dụ 700 bệnh nhân trên, tỉ lệ sỏi nhỏ trong toàn thành phố tăng lên $$p(Z=0)=80\%$$ và sỏi lớn giảm còn $$p(Z=1)=20\%$$, hãy nhẩm lại $$p(Y=1 \mid do(X=A))$$: $$0{,}8 \times 93{,}1\% + 0{,}2 \times 73{,}0\% = 74{,}48\% + 14{,}60\% = 89{,}08\%$$. Bạn thấy đấy: tác động can thiệp phụ thuộc trực tiếp vào phân phối quần thể $$p(Z)$$, trong khi hiệu quả từng tầng $$p(Y\mid X,Z)$$ vẫn giữ nguyên.
+
 ### do-calculus
 
 Pearl cho **ba quy tắc** viết lại biểu thức $$do$$ thành xác suất quan sát dưới giả định đồ thị, khi có thể. Đây là **đại số suy diễn**: không phải mọi $$p(y\mid do(x))$$ đều identify từ data quan sát; do-calculus + tiêu chí đồ thị nói *khi nào* identify được và *công thức nào*.
@@ -107,6 +147,8 @@ Identification theory (cũng với instrumental variables, front-door, …) là 
 ### Phương trình cơ chế
 
 Mỗi biến $$X_i:=f_i(\mathrm{Pa}_i,U_i)$$ với nhiễu ngoại sinh $$U_i$$. Joint quan sát sinh từ nhiễu và cơ chế. Can thiệp thay $$f_X$$ bằng hằng. Counterfactual: cố định nhiễu (thế giới đã thực hiện), đổi cơ chế, đọc lại $$Y$$.
+
+Ví dụ phản thực trong 2 dòng: giả sử mô hình tuyến tính $$Y := 2X + U_Y$$ (với $$X$$ là số giờ học thêm, $$Y$$ là điểm thi, $$U_Y$$ là nền tảng sẵn có của thí sinh). Ta quan sát một bạn học $$X'=1$$ giờ và đạt $$Y'=7$$ điểm. Bước **suy ngược (abduction)** cố định $$U_Y = 7 - 2(1) = 5$$. Bước **hành động & dự đoán** thay $$X=3$$ vào phương trình giữ nguyên $$U_Y=5$$ để trả lời câu hỏi phản thực: *"Nếu chính bạn ấy đã học 3 giờ thì điểm sẽ là $$Y_{X=3} = 2(3) + 5 = 11$$."*
 
 Ba nấc tương ứng sức mạnh giả định:
 
@@ -176,7 +218,7 @@ $$
 \mathbb{E}[Y\mid do(x)]=\sum_z \mathbb{E}[Y\mid x,z]\,p(z).
 $$
 
-So sánh với $$\sum_z \mathbb{E}[Y\mid x,z]\,p(z\mid x)$$. Nếu $$Z$$ liên quan $$X$$, hai trọng số khác nhau—**cùng regression nội bộ**, **khác average**. Ở đây có thể tính số trên bảng 2×2×2 nhỏ.
+So sánh với $$\sum_z \mathbb{E}[Y\mid x,z]\,p(z\mid x)$$. Nếu $$Z$$ liên quan $$X$$, hai trọng số khác nhau—**cùng regression nội bộ**, **khác average** — đúng như bảng 700 bệnh nhân ta vừa tự tay tính ở Mục 3.
 
 ---
 

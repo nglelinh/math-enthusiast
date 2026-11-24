@@ -47,6 +47,15 @@ Về phía học trên đồ thị, biểu diễn của một đỉnh $$v$$ cầ
 
 Còn **Toán tử nơ-ron Fourier (FNO)** giữ nguyên định lý tích chập kinh điển — biến đổi tín hiệu sang miền tần số bằng FFT, nhân với một bộ lọc $$\widehat{K}(k)$$, rồi biến đổi ngược lại — điểm khác biệt duy nhất nhưng cực kỳ lợi hại là thay vì kỹ sư tự viết tay công thức lọc $$\widehat{K}(k)$$, mạng nơ-ron **tự học các hệ số $$\widehat{K}(k)$$ từ dữ liệu mô phỏng PDE**!
 
+### Khung giải thích: Cách đọc một công trình toán ứng dụng 2022–2026 mà không bị choáng ngợp bởi thuật ngữ (nên đọc chậm)
+
+1. **Gọi tên cấu trúc cổ điển bên dưới:** ML-KEM vẫn là đại số tuyến tính modulo $$q$$; GraphGPS vẫn là đồ thị cộng phép nhân ma trận; FNO vẫn là FFT/IFFT; Diffusion vẫn là giải số ODE/SDE.
+2. **Chỉ rõ đúng nút thắt được tháo gỡ:** thay phân tích thừa số bằng bài toán lưới LWE để chống Shor; thay attention $$O(N^2)$$ bằng tuyến tính $$O(N+E)$$ cho đồ thị lớn; thay giải PDE từ đầu bằng học toán tử $$\mathcal{G}$$ trên không gian hàm.
+3. **Nhận diện phần nào là "học được" và phần nào là "cứng":** trong FNO, phép biến đổi Fourier $$\mathcal{F}$$ là cố định, chỉ bộ lọc $$\widehat{K}$$ là học bằng gradient descent.
+4. **Soi giới hạn phân phối và giả định độ khó:** chuẩn FIPS dựa trên giả thuyết độ khó của Module-LWE; mô hình AI thay thế PDE chỉ bảo đảm độ chính xác trong miền tham số (ví dụ dải số Reynolds) đã huấn luyện.
+
+**Kiểm tra nhanh.** Toán học hiện đại không xóa sổ toán học cổ điển — nó đặt những lớp tối ưu và kiến trúc mới lên ngay trên các tọa độ cổ điển đó.
+
 ---
 
 ## Bốn cập nhật
@@ -57,6 +66,21 @@ Ngày 13 tháng 8 năm 2024, Viện Tiêu chuẩn và Công nghệ Quốc gia M�
 - **ML-KEM** (xuất phát từ CRYSTALS-Kyber) là cơ chế đóng gói khóa dựa trên bài toán **Module-LWE** trên lưới đại số: khóa công khai cỡ ~1,2 KB (lớn hơn ECC 256-bit nhưng vẫn vừa gọn trong một gói tin mạng) và tốc độ chạy cực nhanh ngay trên CPU thường.
 - **ML-DSA** (Dilithium) là lược đồ chữ ký số dựa trên lưới module.
 - **SLH-DSA** (SPHINCS+) là lược đồ chữ ký dựa thuần trên hàm băm không cần lưu trạng thái — đóng vai trò phương án dự phòng an toàn tuyệt đối ngay cả khi toán học về lưới có bất ngờ.
+
+### Ví dụ cầm tay chỉ việc: Vì sao thêm một chút nhiễu $$\mathbf{e}$$ lại biến hệ phương trình tuyến tính thành khóa hậu lượng tử (LWE)?
+
+Xét modulo $$q = 17$$, vectơ bí mật $$\mathbf{s} = (3,\ 5)^\top$$ và ma trận công khai:
+
+$$
+A = \begin{pmatrix} 2 & 1 \\ 4 & 3 \\ 1 & 6 \end{pmatrix}.
+$$
+
+1. **Khi KHÔNG có nhiễu:** ta tính $$A\mathbf{s} \bmod 17 = \begin{pmatrix} 6+5 \\ 12+15 \\ 3+30 \end{pmatrix} \bmod 17 = \begin{pmatrix} 11 \\ 10 \\ 16 \end{pmatrix}$$. Bất kỳ sinh viên năm nhất nào cũng lấy 2 phương trình đầu khử Gauss và tìm ra ngay $$\mathbf{s} = (3,\ 5)^\top$$ trong một giây!
+2. **Khi cộng thêm nhiễu bí mật nhỏ $$\mathbf{e} = (+1,\ -1,\ +1)^\top$$:** ta chỉ công bố cặp $$(A, \mathbf{b})$$ với
+$$
+\mathbf{b} = A\mathbf{s} + \mathbf{e} \bmod 17 = \begin{pmatrix} 11+1 \\ 10-1 \\ 16+1 \end{pmatrix} \bmod 17 = \begin{pmatrix} 12 \\ 9 \\ 0 \end{pmatrix}.
+$$
+3. **Thử dùng khử Gauss phá khóa từ 2 phương trình đầu:** giải $$\begin{cases} 2s_1 + s_2 \equiv 12 \\ 4s_1 + 3s_2 \equiv 9 \end{cases} \pmod{17}$$. Nhân phương trình 1 với 2 rồi trừ phương trình 2 ta được $$-s_2 \equiv 15 \implies s_2 \equiv 2 \pmod{17}$$, suy ra $$2s_1 \equiv 10 \implies s_1 \equiv 5$$. Kết quả $$(5,\ 2)$$ **trật hoàn toàn** so với bí mật thật $$(3,\ 5)$$ — vì chỉ một sai lệch $$\pm 1$$ bị phép nhân nghịch đảo modulo $$17$$ khuếch đại thành hỗn loạn! Khi số chiều lên tới $$n = 512\text{–}1024$$ (chuẩn FIPS 203 ML-KEM), việc tìm lại $$\mathbf{s}$$ trở thành bài toán lưới khó ngay cả với máy tính lượng tử!
 
 Câu chuyện RSA và Diffie–Hellman của Chương 3 không hề sai; chỉ là từ năm 2024 trở đi chúng không còn là danh sách đầy đủ các thành phần khóa công khai *được phê duyệt*. Các trình duyệt lớn (Chrome, Cloudflare, Apple iMessage) hiện triển khai **chế độ lai (hybrid: X25519 + ML-KEM)** — nghĩa là kẻ tấn công phải phá được *cả hai* hệ mật cùng lúc mới đọc trộm được dữ liệu.
 

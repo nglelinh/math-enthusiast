@@ -55,7 +55,19 @@ Turing chọn hình ảnh máy với:
 
 Máy bắt đầu trên input hữu hạn, chạy theo bảng chuyển. Nó có thể **dừng** với output, hoặc **chạy mãi**. Một ngôn ngữ $$L\subseteq\{0,1\}^*$$ **quyết định được** nếu có máy luôn dừng và chấp nhận đúng các xâu thuộc $$L$$. Một hàm **tính được** nếu có máy, trên mọi input hợp lệ, dừng và in giá trị đúng.
 
-Mô hình cố ý nghèo nàn về kỹ thuật—không cache, không GPU—nhưng giàu về nguyên lý: mọi “thuật toán” ta viết bằng tay hoặc bằng ngôn ngữ lập trình hiện đại đều mô phỏng được bằng máy Turing (với chi phí thời gian–không gian có thể lớn). Đó là điểm mạnh sư phạm: độ khó **không quyết định được** không phụ thuộc vào việc ta chọn C++ hay Python.
+### Ví dụ cầm tay chỉ việc 1: Tự chạy một Máy Turing cộng 1 vào số nhị phân `1011` ($$11 \to 12$$)
+
+Ta thiết kế một máy Turing chỉ có **3 trạng thái** (`TìmCuối`, `CộngNhớ`, `Dừng`) để cộng 1 vào bất kỳ số nhị phân nào:
+- Ở trạng thái `TìmCuối`: gặp `0` hoặc `1` thì giữ nguyên, dịch **Phải**; gặp ô trống `_` thì dịch **Trái** và đổi sang `CộngNhớ`.
+- Ở trạng thái `CộngNhớ`: gặp `1` thì ghi `0` (nhớ 1), dịch **Trái**; gặp `0` hoặc `_` thì ghi `1` (hết nhớ) và chuyển sang `Dừng`.
+
+Hãy theo dõi từng nhịp đồng hồ trên dải băng chứa `1011_` (đầu đọc gạch chân):
+1. `TìmCuối` trượt qua hết 4 bit đến ô trống `_`, lùi về bit cuối: `101[1]` (trạng thái `CộngNhớ`).
+2. Đọc `1` → ghi `0`, lùi trái: `10[1]0` (vẫn `CộngNhớ`).
+3. Đọc `1` → ghi `0`, lùi trái: `1[0]00` (vẫn `CộngNhớ`).
+4. Đọc `0` → ghi `1`, dừng: `1100` ($$12_{10}$$) — **chính xác 100%!**
+
+Mô hình cố ý nghèo nàn về kỹ thuật — không cache, không GPU — nhưng giàu về nguyên lý: mọi thuật toán viết bằng Python hay C++ đều mô phỏng được bằng máy Turing. Đó là điểm mạnh toán học: tính **không quyết định được** là giới hạn bản chất, không phụ thuộc ngôn ngữ lập trình.
 
 ---
 
@@ -81,12 +93,28 @@ Hệ quả triết học–toán: lớp hàm tính được **không** phụ thu
 **Định lý (Turing).** Không tồn tại máy Turing $$H$$ quyết định đúng bài toán dừng cho mọi cặp $$(\langle M\rangle, x)$$.
 </div>
 
-**Ý tưởng chứng minh (đường chéo).** Giả sử, phản chứng, có $$H$$ sao cho $$H(\langle M\rangle, x)=1$$ nếu $$M(x)$$ dừng, và $$=0$$ nếu không. Xây máy $$D$$ hành xử như sau trên input $$\langle M\rangle$$: chạy $$H(\langle M\rangle, \langle M\rangle)$$; nếu $$H$$ báo “dừng,” thì $$D$$ **lặp vô hạn**; nếu $$H$$ báo “không dừng,” thì $$D$$ **dừng**. Xét $$D$$ trên chính mô tả của nó $$\langle D\rangle$$:
+### Ví dụ cầm tay chỉ việc 2 & Khung giải thích: Mạch 4 bước chứng minh Bài toán Dừng bằng bảng đường chéo (nên đọc chậm)
 
-- Nếu $$D(\langle D\rangle)$$ dừng, thì theo xây dựng $$H$$ đã báo không dừng—mâu thuẫn.  
-- Nếu $$D(\langle D\rangle)$$ không dừng, thì $$H$$ đã báo dừng—mâu thuẫn.
+Hãy tưởng tượng ta liệt kê tất cả các chương trình hợp lệ trên đời thành từng hàng $$M_1, M_2, M_3, \dots$$ và cho mỗi chương trình chạy thử với đầu vào là chính mã nguồn của các chương trình khác:
 
-Do đó $$H$$ không thể tồn tại. Đây là anh em của đường chéo Cantor (xây đối tượng thoát mọi liệt kê) và của câu Gödel (tự tham chiếu có kiểm soát). Cùng một **động tác thoát**: với mọi ứng viên “tổng quát,” dựng hành vi lật ngược ngay trên đường chéo.
+| Máy \ Đầu vào | $$\langle M_1 \rangle$$ | $$\langle M_2 \rangle$$ | $$\langle M_3 \rangle$$ | $$\langle M_4 \rangle$$ | $$\cdots$$ |
+|---|:-:|:-:|:-:|:-:|:-:|
+| $$M_1$$ | **Dừng** | Lặp | Dừng | Dừng | $$\cdots$$ |
+| $$M_2$$ | Lặp | **Lặp** | Dừng | Lặp | $$\cdots$$ |
+| $$M_3$$ | Dừng | Dừng | **Dừng** | Lặp | $$\cdots$$ |
+| $$M_4$$ | Lặp | Dừng | Lặp | **Lặp** | $$\cdots$$ |
+| **Máy nghịch đảo $$D$$** | **Lặp** | **Dừng** | **Lặp** | **Dừng** | $$\cdots$$ |
+
+Dưới đây là mạch lập luận 4 bước khiến cỗ máy tiên tri $$H$$ không bao giờ có thể tồn tại:
+
+1. **Giả sử phản chứng có tiên tri $$H$$:** giả sử tồn tại chương trình $$H(\langle M\rangle, x)$$ luôn dừng và in `1` nếu $$M(x)$$ dừng, in `0` nếu $$M(x)$$ lặp vô hạn (tức là $$H$$ điền được chính xác toàn bộ bảng trên).
+2. **Dựng máy nghịch đảo $$D$$ lật ngược đường chéo:** nhận đầu vào là mã nguồn $$\langle M\rangle$$, máy $$D$$ gọi $$H(\langle M\rangle, \langle M\rangle)$$ để xem ô trên đường chéo chính, rồi làm **ngược lại hoàn toàn**: nếu $$H$$ báo `Dừng` thì $$D$$ cố tình chạy vòng lặp vô hạn; nếu $$H$$ báo `Lặp` thì $$D$$ lập tức `Dừng`!
+3. **Đặt chính $$D$$ vào làm đầu vào cho $$D$$ (ô đường chéo $$D(\langle D\rangle)$$):** vì $$D$$ cũng là một chương trình hợp lệ, nó phải xuất hiện đâu đó ở một hàng trong bảng. Nhưng tại ô $$(D, \langle D\rangle)$$:
+   - Nếu $$D(\langle D\rangle)$$ **dừng**, thì theo định nghĩa, $$H$$ phải báo `Dừng` → buộc $$D$$ phải **lặp vô hạn** (mâu thuẫn!).
+   - Nếu $$D(\langle D\rangle)$$ **lặp vô hạn**, thì $$H$$ phải báo `Lặp` → buộc $$D$$ phải **dừng** (mâu thuẫn!).
+4. **Kết luận:** mâu thuẫn chỉ có thể đến từ giả định ban đầu — chương trình tiên tri $$H$$ **tuyệt đối không tồn tại**.
+
+**Kiểm tra nhanh.** Chú ý sự giống nhau kỳ diệu với **đường chéo Cantor** (chứng minh số thực không đếm được) và **định lý bất toàn Gödel** (câu tự tham chiếu "tôi không chứng minh được"): cả ba đều dùng chung một động tác lật ngược trên đường chéo để thoát khỏi mọi danh sách bao trùm!
 
 ---
 

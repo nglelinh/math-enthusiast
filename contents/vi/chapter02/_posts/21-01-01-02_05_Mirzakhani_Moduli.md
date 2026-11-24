@@ -13,11 +13,7 @@ Hãy hình dung một chiếc bàn bi-a hình đa giác kỳ lạ, và bạn đ�
 
 Năm 2014, **Maryam Mirzakhani** trở thành **người phụ nữ đầu tiên** trong lịch sử nhận **Huy chương Fields**, nhờ những đóng góp mang tính đột phá cho **động lực học và hình học** của **mặt Riemann** và **không gian mô-đun** của chúng. Thay vì coi không gian mô-đun như một khái niệm trừu tượng chỉ để định nghĩa, công trình của bà đã biến "vũ trụ của mọi hình dạng" thành một đối tượng vừa **tính toán được** (đo được thể tích, đếm được số đường cong khép kín) vừa **nghiên cứu được bằng hệ động lực** (theo dõi các dòng chuyển động và tính hỗn loạn đều khắp), bắc một cây cầu rực rỡ giữa hình học hyperbolic, lý thuyết Teichmüller và hệ động lực.
 
-Hành trình của bài học này đi qua bảy chặng:
-
-**Mặt hyperbolic → không gian Teichmüller và không gian mô-đun → thể tích Weil–Petersson → đếm đường trắc địa → dòng động đất → động lực trên các tầng (strata) → Fields 2014.**
-
-Mục tiêu không phải là dựng lại toàn bộ luận án hay các bài báo trên *Annals*, mà là hiểu **không gian mô-đun là gì**, **các bài toán đếm và bài toán động lực hỏi gì**, và **vì sao chúng khó nhưng vẫn "tính được"**.
+**Mạch bài học:** Bản đồ kiến thức nền (hình học hyperbolic, không gian mô-đun qua ví dụ mặt xuyến & chiếc quần, lý thuyết ergodic) → Tọa độ Fenchel–Nielsen $$6g-6$$ → Đếm đường trắc địa đóng đơn → Khung giải thích chậm 4 bước: thể tích Weil–Petersson & công thức đệ quy Mirzakhani → Dòng động đất, bi-a đa giác & Định lý Cây đũa thần.
 
 ---
 
@@ -25,175 +21,141 @@ Mục tiêu không phải là dựng lại toàn bộ luận án hay các bài b
 
 Sau bài học, bạn có thể:
 
-- Định nghĩa một cách không hình thức **mặt Riemann** giống $$g\ge 2$$, **metric hyperbolic**, **không gian Teichmüller** và **không gian mô-đun**.
-- Giải thích vì sao không gian mô-đun là "không gian các hình dạng", chứ không phải một mặt được vẽ trong không gian.
-- Phát biểu bài toán đếm **đường trắc địa đóng đơn** và tốc độ tăng tiệm cận mà Mirzakhani xác định được (bậc $$6g-6$$).
-- Mô tả thể tích **Weil–Petersson** như một độ đo hình học trên không gian các hình dạng.
-- Phác thảo ý tưởng **dòng động đất** (earthquake flow) và **tính ergodic** (cùng với Eskin).
-- Liên hệ mặt phẳng dịch chuyển và bi-a trong đa giác với cùng một hệ ý tưởng.
-- Ghi nhận chính xác rằng Mirzakhani là **người phụ nữ đầu tiên đoạt Huy chương Fields** (2014), và thấy được giải thưởng ghi nhận cả một sự nghiệp nghiên cứu rộng lớn, chứ không chỉ một công thức đơn lẻ.
+- Định nghĩa trực quan **mặt Riemann** giống $$g\ge 2$$, **metric hyperbolic**, **không gian Teichmüller** và **không gian mô-đun**.
+- Tự kiểm tra bằng tay vì sao không gian mô-đun mặt xuyến ứng với $$\mathbb{H}/\mathrm{SL}_2(\mathbb{Z})$$ và vì sao mặt giống $$g$$ có đúng $$6g - 6$$ tham số Fenchel–Nielsen.
+- Phát biểu bài toán đếm **đường trắc địa đóng đơn** và tốc độ tăng tiệm cận bậc $$6g-6$$ của Mirzakhani.
+- Hiểu mạch suy luận nối **thể tích Weil–Petersson** (như $$V_{1,1}(L) = \frac{1}{24}(L^2 + 4\pi^2)$$) với bài toán đếm đường cong.
+- Phác thảo ý tưởng **dòng động đất**, **mặt phẳng dịch chuyển** (bi-a đa giác) và **Định lý Cây đũa thần** cùng Alex Eskin.
+- Ghi nhận chính xác rằng Mirzakhani là **người phụ nữ đầu tiên đoạt Huy chương Fields** (2014) cho cả một sự nghiệp nghiên cứu sâu rộng.
 
-**Kiến thức cần có.** Mặt giống $$g$$ (mặt cầu, mặt xuyến, …); metric Riemann và độ dài đường trắc địa; ký hiệu tiệm cận $$f(L)\sim c L^k$$. Không cần biết trước lý thuyết Teichmüller.
+**Kiến thức cần có.** Mặt giống $$g$$ (mặt cầu, mặt xuyến, …); khái niệm đường trắc địa; tích phân và số phức cơ bản. Không cần biết trước lý thuyết Teichmüller.
 
 **Liên hệ trong khóa học.** Các bài liên quan: [Perelman]({{ site.baseurl }}/contents/vi/chapter02/02_03_Perelman_Poincare/), [vô hạn / hình dạng]({{ site.baseurl }}/contents/vi/chapter04/04_02_Infinity/), [Furstenberg–Margulis]({{ site.baseurl }}/contents/vi/chapter08/08_05_Furstenberg_Margulis/).
 
 ---
 
-## Bản đồ kiến thức nền: Hình học hyperbolic, Không gian mô-đun và Lý thuyết ergodic
+## Bản đồ kiến thức nền: Hình học hyperbolic, Không gian mô-đun và Lý thuyết ergodic là gì?
 
-Nếu bạn mới nghe tên những lĩnh vực phía sau công trình của Mirzakhani, hãy tưởng tượng chúng qua ba câu hỏi trực giác:
+### 1. Hình học hyperbolic (Hyperbolic Geometry) nghiên cứu gì?
+Trong hình học phẳng Euclid, tổng ba góc tam giác bằng $$180^\circ$$ (độ cong $$0$$). Trên mặt cầu, tam giác phồng ra nên tổng ba góc $$> 180^\circ$$ (độ cong $$+1$$). **Hình học hyperbolic** là thế giới thứ ba: mọi điểm đều uốn cong như yên ngựa (độ cong âm hằng $$-1$$), tổng ba góc tam giác luôn $$< 180^\circ$$, và diện tích tam giác tỉ lệ thuận với phần thiếu góc: $$\text{Diện tích} = \pi - (\alpha + \beta + \gamma)$$! Mô hình quen thuộc nhất là **nửa mặt phẳng trên** $$\mathbb{H} = \{x + iy : y > 0\}$$ với thước đo độ dài $$ds = \frac{\sqrt{dx^2 + dy^2}}{y}$$, nơi các đường thẳng nhất (**đường trắc địa**) là các tia thẳng đứng và các nửa đường tròn vuông góc với trục thực.
 
-- **Hình học hyperbolic (Hyperbolic Geometry) nghiên cứu gì?** Trong hình học phẳng Euclid, tổng ba góc của một tam giác bằng $$180^\circ$$ và độ cong bằng $$0$$. Trên mặt cầu, tam giác phồng ra nên tổng ba góc lớn hơn $$180^\circ$$ (độ cong dương). **Hình học hyperbolic** là thế giới ngược lại: mọi điểm đều uốn cong như yên ngựa (độ cong âm hằng $$-1$$), tổng ba góc của tam giác nhỏ hơn $$180^\circ$$, và các đường "thẳng nhất" (**đường trắc địa**) tách xa nhau cực nhanh. Điều bất ngờ là hầu hết mọi bề mặt đóng có từ **hai lỗ trở lên** (bánh vòng 2 lỗ, 3 lỗ, ...) đều mang tự nhiên một hình học hyperbolic!
-- **Không gian mô-đun (Moduli Space) là gì?** Hãy nghĩ đến một ví dụ siêu đơn giản: mọi hình chữ nhật có diện tích bằng $$1$$ chỉ khác nhau ở tỉ lệ dài/rộng $$r \ge 1$$. Vậy "không gian mọi hình dạng chữ nhật diện tích 1" chính là tia số $$[1, \infty)$$: mỗi *điểm* trên tia đó là một *hình chữ nhật*! Tương tự, **không gian mô-đun** $$\mathcal{M}_g$$ là không gian mà mỗi *điểm* của nó đại diện cho một *hình dạng hoàn chỉnh* của chiếc bánh vòng $$g$$ lỗ. Khi bạn đi dọc một đường cong trong $$\mathcal{M}_g$$, hình dạng của bề mặt đang biến đổi liên tục.
-- **Lý thuyết ergodic & vì sao lại chuyển ngôn ngữ?** Thay vì đứng trên *một* bề mặt cố định để đếm từng đường cong (việc cực kỳ khó vì các đường cong ngoằn ngoèo đan chéo nhau), Mirzakhani bước lùi ra ngoài, nhìn lên **cả không gian mô-đun $$\mathcal{M}_g$$** chứa tất cả các hình dạng cùng lúc, rồi dùng các phép tính thể tích và các dòng chuyển động (như dòng động đất) trên đó. Một bài toán đếm trên *một* mặt nhờ vậy biến thành bài toán tích phân và hệ động lực trên *không gian mọi mặt*.
+Điều kỳ diệu của **Định lý đơn trị hóa** là: mọi bề mặt đóng có từ **2 lỗ trở lên** (giống $$g \ge 2$$) đều mang tự nhiên một metric hyperbolic!
 
----
+### 2. Không gian mô-đun (Moduli Space) là gì? (Hai ví dụ cầm tay)
+Một **không gian mô-đun** là không gian mà **mỗi điểm của nó là một hình dạng hình học hoàn chỉnh**!
 
-## 1. Mặt Riemann, metric hyperbolic và "hình dạng"
+- **Ví dụ 1 — Không gian mọi hình chữ nhật diện tích 1:** Mọi hình chữ nhật diện tích $$1$$ chỉ khác nhau ở tỉ lệ dài/rộng $$r \ge 1$$. Vậy "không gian mô-đun" của chúng chính là tia số $$[1, \infty)$$.
+- **Ví dụ 2 — Không gian mô-đun các mặt xuyến ($$g = 1$$):** Lấy một hình bình hành trên mặt phẳng phức $$\mathbb{C}$$ sinh bởi hai vectơ $$1$$ và $$\tau$$ (với $$\operatorname{Im}\tau > 0$$), rồi dán các cạnh đối diện lại — ta được một **mặt xuyến**! Khi nào hai tham số $$\tau$$ và $$\tau'$$ cho ra *cùng một hình dạng mặt xuyến*? Chính xác khi chúng sinh ra cùng một lưới (sai khác phép quay–co giãn), tức $$\tau' = \frac{a\tau + b}{c\tau + d}$$ với ma trận $$\begin{pmatrix} a & b \\ c & d \end{pmatrix} \in \mathrm{SL}_2(\mathbb{Z})$$! Chẳng hạn $$\tau = i$$ (hình vuông) và $$\tau' = i + 1$$ (hình bình hành nghiêng $$45^\circ$$) đều sinh ra đúng lưới vuông $$\mathbb{Z}[i]$$ nên là **cùng một điểm** trong không gian mô-đun $$\mathcal{M}_1 = \mathbb{H}/\mathrm{SL}_2(\mathbb{Z})$$!
 
-Một **mặt Riemann đóng** là một mặt compact, định hướng được, không có biên, mang cấu trúc phức (về mặt địa phương giống một miền mở trong $$\mathbb{C}$$, các phép chuyển tọa độ là chỉnh hình). Về tô pô: với mỗi $$g\ge 0$$ có đúng một mặt đóng định hướng được có giống (số lỗ) $$g$$: mặt cầu ($$g=0$$), mặt xuyến ($$g=1$$), mặt xuyến kép ($$g=2$$), … Đặc trưng Euler là:
-
-$$
-\chi=2-2g.
-$$
-
-Với $$g\ge 2$$ thì $$\chi<0$$. Theo **định lý đơn trị hóa** (*uniformization*), mỗi mặt như vậy có một **metric hyperbolic** với độ cong hằng $$-1$$, duy nhất trong lớp bảo giác của nó (sai khác một phép đẳng cự). Đường trắc địa là đường "thẳng nhất"; **đường trắc địa đóng** là đường cong đóng có độ dài cực tiểu địa phương — giống như một sợi dây chun căng ôm chặt quanh một cái eo của bề mặt.
-
-Đường trắc địa đóng **đơn** là đường không tự cắt. Trên mặt hyperbolic, chúng rất "cứng": mỗi lớp đồng luân tự do của một đường cong đơn cốt yếu chứa đúng một đại diện là đường trắc địa; độ dài của nó là một bất biến hình học của mặt được đánh dấu.
-
-Vì sao quan tâm? Phổ độ dài mã hóa hình dạng của mặt. Đếm các đường trắc địa có độ dài bị chặn là "họ hàng" hình học của bài toán đếm số nguyên tố có độ lớn bị chặn: cả hai đều hỏi một bất biến rời rạc phân bố ra sao khi một tham số liên tục tăng dần.
+### 3. Lý thuyết ergodic và lý do chuyển ngôn ngữ
+Lý thuyết ergodic nghiên cứu tính hỗn loạn đều khắp của hệ động lực (trung bình theo thời gian bằng trung bình theo không gian). Thay vì đứng trên *một* mặt hyperbolic $$X$$ cố định để đếm thủ công từng đường trắc địa ngoằn ngoèo, Mirzakhani bước ra ngoài, đặt $$X$$ làm một điểm trong **không gian mô-đun $$\mathcal{M}_g$$**, rồi dùng **tích phân thể tích** và **dòng động lực** trên $$\mathcal{M}_g$$ để giải bài toán đếm!
 
 ---
 
-## 2. Không gian Teichmüller và không gian mô-đun: không gian các hình dạng
+## 1. Mặt Riemann, đường trắc địa đơn và tọa độ $$6g - 6$$
 
-Cần phân biệt cẩn thận hai loại "không gian các mặt".
+Một **mặt Riemann đóng** giống $$g$$ có đặc trưng Euler $$\chi = 2 - 2g$$. Với $$g \ge 2$$, $$\chi < 0$$ nên mặt mang metric hyperbolic độ cong $$-1$$. **Đường trắc địa đóng đơn** là vòng khép kín ngắn nhất địa phương và **không tự cắt** — hãy hình dung một sợi dây chun căng ôm chặt lấy một cái eo trên chiếc bánh vòng nhiều lỗ.
 
-**Không gian Teichmüller** $$\mathcal{T}_g$$ tham số hóa các cấu trúc hyperbolic (hoặc cấu trúc phức) trên một mặt tô pô cố định có giống $$g$$, sai khác phép đồng luân đẳng vị (isotopy); tương đương với các mặt Riemann *được đánh dấu*. Việc đánh dấu ghi nhớ cách đồng nhất mặt với một mặt tham chiếu, nên trong bức tranh cổ điển $$\mathcal{T}_g$$ là đơn liên; nó là một đa tạp thực có số chiều
+**Không gian Teichmüller** $$\mathcal{T}_g$$ tham số hóa các mặt hyperbolic *được đánh dấu* (nhớ rõ nhãn của từng đường cong). **Không gian mô-đun** $$\mathcal{M}_g = \mathcal{T}_g / \mathrm{Mod}_g$$ là thương theo **nhóm lớp ánh xạ** $$\mathrm{Mod}_g$$ (bỏ đi nhãn đánh dấu, chỉ giữ lại hình dạng thuần túy).
 
-$$
-\dim_{\mathbb{R}}\mathcal{T}_g=6g-6\qquad(g\ge 2).
-$$
+### Tự kiểm tra bằng tay: Vì sao $$\dim_{\mathbb{R}} \mathcal{T}_g = 6g - 6$$?
+Hãy cắt chiếc bánh vòng $$g$$ lỗ dọc theo các đường tròn rời nhau thành những mảnh cơ bản nhất không thể cắt tiếp được: mỗi mảnh là một **"chiếc quần"** (*pair of pants* — mặt cầu khoét 3 lỗ có đặc trưng Euler $$\chi = 2 - 3 = -1$$).
+- Vì đặc trưng Euler cộng được khi dán dọc đường tròn ($$\chi(S^1) = 0$$), mặt giống $$g$$ (có $$\chi = 2 - 2g$$) tách thành đúng **$$2g - 2$$ chiếc quần**.
+- Mỗi chiếc quần có 3 ống biên, nên tổng số ống biên là $$3(2g - 2) = 6g - 6$$. Vì cứ 2 ống dán vào nhau tạo thành 1 đường cắt, ta có đúng **$$3g - 3$$ đường cắt**.
+- Hình học hyperbolic của mỗi chiếc quần được xác định duy nhất bởi độ dài 3 đường biên. Vậy $$3g - 3$$ đường cắt cho **$$3g - 3$$ tham số độ dài** $$(\ell_1, \dots, \ell_{3g-3})$$. Khi dán hai ống lại, tại mỗi đường dán ta được quyền *xoay lệch* một góc tùy ý — thêm **$$3g - 3$$ tham số góc xoắn** $$(\theta_1, \dots, \theta_{3g-3})$$.
 
-Từ đâu ra con số $$6g-6$$? Hãy thử ngay với chiếc bánh vòng **2 lỗ** ($$g = 2$$): bạn có thể cắt nó dọc theo **3 đường tròn rời nhau** để tách thành **2 "chiếc quần"** (*pair of pants* — hình cầu khoét 3 lỗ). Hình dạng hyperbolic của mỗi chiếc quần được xác định duy nhất bởi độ dài 3 đường biên của nó! Vậy 3 đường cắt cho ta 3 tham số *độ dài* $$(\ell_1, \ell_2, \ell_3)$$. Khi dán hai chiếc quần lại dọc theo 3 đường cắt ấy, tại mỗi đường dán ta còn được quyền *xoay lệch* một góc tùy ý — thêm 3 tham số *góc xoắn* $$(\theta_1, \theta_2, \theta_3)$$. Tổng cộng $$3 + 3 = 6 = 6(2) - 6$$ tham số thực! Đây chính là **tọa độ Fenchel–Nielsen**.
-
-**Không gian mô-đun** $$\mathcal{M}_g$$ là không gian các lớp đẳng cấu không đánh dấu: các mặt sai khác một song chỉnh hình (hoặc một phép đẳng cự của metric hyperbolic). Viết hình thức:
-
-$$
-\mathcal{M}_g\simeq\mathcal{T}_g/\mathrm{Mod}_g,
-$$
-
-trong đó $$\mathrm{Mod}_g$$ là **nhóm lớp ánh xạ** (*mapping class group*), gồm các lớp đẳng vị của các phép đồng phôi bảo toàn định hướng. Mỗi điểm của $$\mathcal{M}_g$$ là một hình dạng thuần túy; mỗi điểm của $$\mathcal{T}_g$$ là một hình dạng kèm theo nhãn cho các đường cong và lịch sử biến dạng.
+Tổng cộng: $$(3g - 3) + (3g - 3) = \mathbf{6g - 6}$$ tham số thực (**tọa độ Fenchel–Nielsen**)! Thử với mặt 2 lỗ ($$g = 2$$): ta cắt theo **3 đường tròn** thành **2 chiếc quần**, được đúng $$3 + 3 = 6$$ tọa độ!
 
 ![Moduli như không gian hình dạng]({{ site.baseurl }}/img/chapter_img/mirzakhani_moduli_shapes.svg)
 
 *Hình (minh họa ý tưởng). Mỗi điểm của không gian mô-đun là một lớp hình dạng của mặt; một đường cong trong không gian mô-đun là một quá trình biến dạng hình dạng.*
 
-**Lưu ý quan trọng.** Các bài viết phổ thông đôi khi nói "không gian mô-đun là một mặt". Không phải vậy. Mỗi mặt chỉ là một điểm; không gian mô-đun là một không gian hình học nhiều chiều hơn gồm tất cả các điểm đó. Nhầm lẫn giữa hai khái niệm này là lỗi phổ biến nhất khi thảo luận.
+---
 
-Trực giác cho giống thấp: với mặt xuyến ($$g=1$$), ta tạo ra nó bằng cách dán các cạnh đối diện của một hình bình hành trên mặt phẳng phức $$\mathbb{C}$$ sinh bởi $$1$$ và $$\tau$$ (với $$\operatorname{Im}\tau > 0$$). Như vậy mọi hình dạng mặt xuyến tương ứng với một điểm $$\tau$$ trong nửa mặt phẳng trên chia cho tác động của $$\mathrm{SL}_2(\mathbb{Z})$$. Với $$g\ge 2$$, metric Weil–Petersson, các phép compact hóa và hệ động lực trở thành các chủ đề trung tâm.
+## 2. Đếm các đường trắc địa đóng đơn
+
+Cố định một mặt hyperbolic $$X$$ có giống $$g\ge 2$$. Gọi $$N_X(L)$$ là số đường trắc địa đóng **đơn** có độ dài $$\le L$$. Nếu cho phép đường cong tự cắt, số đường tăng theo hàm mũ cực nhanh $$e^L / L$$ (định lý đường trắc địa nguyên tố, tương tự định lý số nguyên tố). Nhưng điều kiện *đơn* (không tự cắt) khiến đường cong cực kỳ "cứng", làm số lượng tăng theo hàm đa thức:
+
+$$
+N_X(L) \;\sim\; c_X\, L^{6g-6} \qquad (L \to \infty).
+$$
+
+Số mũ $$6g-6$$ khớp tuyệt đối với số chiều thực của không gian mô-đun (bậc $$6$$ với mặt 2 lỗ, bậc $$12$$ với mặt 3 lỗ!). Hơn thế nữa, Mirzakhani tính được cả **tỉ lệ chính xác** giữa các kiểu tô pô: chẳng hạn trên mặt 2 lỗ, tỉ lệ giữa đường trắc địa đơn *cắt mặt thành hai mảnh rời* so với đường *không tách mặt* là một con số hữu tỷ đẹp tuyệt đối — đúng bằng **$$1/48$$** (suy trực tiếp từ tỉ số thể tích không gian mô-đun)!
 
 ---
 
-## 3. Đếm các đường trắc địa đóng đơn
+## 3. Khung giải thích: Vì sao đếm đường cong trên MỘT mặt lại đưa về thể tích trên KHÔNG GIAN MỌI MẶT? (nên đọc chậm)
 
-Cố định một mặt hyperbolic $$X$$ có giống $$g\ge 2$$. Gọi $$N_X(L)$$ là số đường trắc địa đóng đơn có độ dài $$\le L$$. (Nếu cho phép đường cong tự cắt nhau, số đường trắc địa đóng tăng theo hàm mũ $$e^L / L$$ — cực nhanh; điều kiện *đơn*, không tự cắt, khiến số lượng tăng chậm hơn nhiều theo hàm đa thức và mang tính cứng hình học hơn.)
+Làm thế nào Mirzakhani vừa tính được thể tích không gian mô-đun, vừa suy ra công thức đếm $$N_X(L) \sim c_X L^{6g-6}$$? Hãy theo dõi mạch 4 bước sau:
 
-Mirzakhani chứng minh một công thức tiệm cận dạng
-
-$$
-N_X(L)\sim c_X\, L^{6g-6}\qquad(L\to\infty),
-$$
-
-trong đó số mũ $$6g-6$$ đúng bằng số chiều thực của không gian Teichmüller / mô-đun (ví dụ bậc $$6$$ với mặt 2 lỗ, bậc $$12$$ với mặt 3 lỗ), và hằng số $$c_X$$ được biểu diễn tường minh qua dữ liệu hình học của $$X$$. Các phép đếm chi tiết hơn còn phân biệt được cả tỉ lệ giữa các kiểu tô pô khác nhau của đường cong — chẳng hạn trên mặt 2 lỗ, một đường trắc địa đóng đơn dài ngẫu nhiên có xác suất cắt mặt thành hai mảnh rời nhau thấp hơn rất nhiều so với đường không tách mặt (tỉ lệ chính xác tính được từ thể tích không gian mô-đun!).
-
-Phương pháp không phải là "vẽ mặt rồi liệt kê các đường cong". Bà lấy tích phân của một độ đo hình học trên không gian mô-đun, dùng cấu trúc đệ quy khi cắt mặt dọc theo các đường cong đơn (phân tách thành các "quần", *pants decomposition*), và khai thác mối liên hệ giữa các hàm độ dài với hình học symplectic Weil–Petersson.
-
-**Bài học.** Một bài toán đếm trên *một* mặt được giải bằng cách hiểu độ đo trên *không gian của mọi mặt*. Bước chuyển từ một đối tượng sang không gian mô-đun của nó là phong cách đặc trưng của Mirzakhani.
-
-Tóm tắt:
+#### Bước 1: Dạng thể tích tự nhiên Weil–Petersson
+Trong tọa độ Fenchel–Nielsen $$(\ell_i, \theta_i)$$, định lý Wolpert cho biết dạng symplectic **Weil–Petersson** có công thức gọn gàng đến khó tin:
 
 $$
-\text{đếm đường cong trên }X
-\;\longleftrightarrow\;
-\text{tích phân / thể tích trên moduli}.
+\omega_{\mathrm{WP}} = \sum_{i=1}^{3g-3} d\ell_i \wedge d\theta_i.
+$$
+
+Lấy lũy thừa ngoài của $$\omega_{\mathrm{WP}}$$ cho ta một phần tử thể tích tự nhiên trên không gian mô-đun $$\mathcal{M}_{g,n}(L_1, \dots, L_n)$$ (các mặt giống $$g$$ có $$n$$ biên độ dài $$L_1, \dots, L_n$$), với tổng thể tích ký hiệu là $$V_{g,n}(L_1, \dots, L_n)$$.
+
+#### Bước 2: Đồng nhất thức McShane tổng quát và Công thức đệ quy Mirzakhani
+Để tính $$V_{g,n}(L_1, \dots, L_n)$$, Mirzakhani chọn một đường biên $$L_1$$, bắn các tia trắc địa vuông góc từ $$L_1$$ vào bên trong mặt và xem tia nào tự cắt trước. Điều đó tách biên $$L_1$$ thành một tổng các khoảng xác suất ứng với các "chiếc quần" chứa $$L_1$$ — cho ra **đồng nhất thức McShane tổng quát**. Lấy tích phân đồng nhất thức này trên toàn bộ không gian mô-đun biến phép cắt một chiếc quần thành **công thức đệ quy** tính $$V_{g,n}$$ từ các mặt đơn giản hơn (giảm $$g$$ hoặc $$n$$)!
+
+**Ví dụ cầm tay để tự kiểm tra:** Với mặt xuyến khoét 1 lỗ ($$g = 1, n = 1$$) có biên dài $$L$$, công thức đệ quy Mirzakhani cho ra đa thức bậc hai tuyệt đẹp:
+
+$$
+V_{1,1}(L) = \frac{1}{24}\bigl(L^2 + 4\pi^2\bigr).
+$$
+
+Thử cho $$L \to 0$$ (lỗ biên co về một đỉnh nhọn cusp): ta thu được $$V_{1,1}(0) = \frac{\pi^2}{6}$$, trùng khít với thể tích cổ điển của không gian mô-đun mặt xuyến! Tổng quát hơn, Mirzakhani chứng minh mọi $$V_{g,n}(L_1, \dots, L_n)$$ đều là **đa thức theo $$L_1^2, \dots, L_n^2$$** — và các hệ số bậc cao nhất của đa thức đó chính là các số giao trên không gian mô-đun (từ đó bà cho một chứng minh hình học mới cực ngắn cho **giả thuyết Witten–Kontsevich** trong vật lý hấp dẫn lượng tử 2D!).
+
+#### Bước 3: Chuyển đổi "đếm trên một mặt" thành "tích phân trên không gian mô-đun"
+Cố định một kiểu tô pô đường cong $$\gamma$$. Trên mỗi mặt $$X \in \mathcal{M}_g$$, hàm $$s_\gamma(X) = \#\{\text{ảnh của } \gamma \text{ có độ dài} \le L\}$$ rất khó tính trực tiếp. Nhưng nếu lấy **tích phân** hàm đó trên toàn bộ $$\mathcal{M}_g$$, ta có thể đổi thứ tự tích phân (giống mở phủ không gian thương): thay vì cố định mặt rồi cộng theo mọi đường cong, ta **cắt mặt dọc theo đường cong độ dài $$\ell \le L$$** rồi lấy tích phân thể tích $$V_{g', n'}(\ell, \ell)$$ của phần mặt còn lại theo $$\ell$$ từ $$0$$ đến $$L$$! Vì $$V_{g', n'}$$ là đa thức bậc $$6g - 8$$ theo $$\ell$$ (cộng thêm yếu tố góc xoắn $$\ell$$ khi dán lại), tích phân $$\int_0^L \ell \cdot \ell^{6g-8}\, d\ell$$ lập tức cho ra đúng bậc **$$L^{6g-6}$$**!
+
+#### Bước 4: Dùng tính ergodic của dòng động đất để quay về đúng mặt $$X$$ ban đầu
+Bước 3 cho ta giá trị *trung bình* trên toàn không gian mô-đun $$\mathcal{M}_g$$. Để chứng minh rằng công thức đó đúng cho **từng mặt $$X$$ cố định**, Mirzakhani sử dụng tính **ergodic** của dòng động đất (*earthquake flow*) trên không gian các lá phân đo được: khi $$L \to \infty$$, quỹ đạo các đường cong dài trên $$X$$ phân bố đều đặn khắp không gian mô-đun nên kết quả trên từng mặt $$X$$ khớp đúng với tích phân thể tích!
+
+Tóm tắt mạch chứng minh:
+
+$$
+\text{Cắt thành quần}
+\;\xrightarrow{\text{Đệ quy}}\;
+\text{Đa thức thể tích } V_{g,n}(L)
+\;\xrightarrow{\text{Đổi tích phân}}\;
+\text{Trung bình } \sim L^{6g-6}
+\;\xrightarrow{\text{Ergodic}}\;
+N_X(L) \sim c_X L^{6g-6}.
 $$
 
 ---
 
-## 4. Thể tích Weil–Petersson của không gian mô-đun
+## 4. Dòng động đất, Bi-a đa giác và Định lý "Cây đũa thần"
 
-Dạng symplectic **Weil–Petersson** (WP) cho không gian mô-đun (và không gian Teichmüller) một phần tử thể tích tự nhiên, xuất phát từ hình học hyperbolic và giải tích phức (trong tọa độ Fenchel–Nielsen, nó có dạng cực kỳ gọn đẹp: $$\omega_{\mathrm{WP}} = \sum d\ell_i \wedge d\theta_i$$ theo định lý Wolpert). Gọi $$V_{g,n}(L_1,\ldots,L_n)$$ là thể tích WP của không gian mô-đun các mặt có giống $$g$$ với $$n$$ thành phần biên là đường trắc địa có độ dài cho trước $$L_i$$.
+Một **phép động đất** (Thurston) biến dạng mặt hyperbolic bằng cách cắt mặt dọc theo một họ đường cong (lá phân đo được), trượt hai mép lệch nhau như đường đứt gãy địa chất rồi dán lại. **Dòng động đất** biến phép trượt đó thành một hệ động lực trên không gian mô-đun, và Mirzakhani chứng minh nó mang tính **ergodic** (quỹ đạo điển hình trải đều khắp không gian theo độ đo).
 
-Mirzakhani thiết lập **công thức đệ quy** cho các thể tích này, liên hệ $$V_{g,n}$$ với thể tích của các mặt đơn giản hơn sau khi cắt dọc một đường cong đơn. Công thức đủ tường minh để tính nhiều trường hợp nhỏ — chẳng hạn với mặt xuyến khoét một lỗ ($$g=1, n=1$$) có biên dài $$L$$, thể tích là một đa thức bậc hai cực gọn $$V_{1,1}(L) = \frac{1}{24}(L^2 + 4\pi^2)$$ — và để chứng minh tổng quát rằng mọi thể tích $$V_{g,n}$$ đều là đa thức theo $$L_1^2, \dots, L_n^2$$. Thể tích xuất hiện trong định lý đếm vì việc lấy tích phân "có bao nhiêu đường cong độ dài $$\le L$$" theo độ đo trên không gian mô-đun tương ứng (theo kiểu đối ngẫu) với câu hỏi "tập các mặt có một đường cong ngắn thuộc kiểu cho trước lớn đến mức nào".
+Song song với đó, hãy quay lại **bàn bi-a đa giác** ở đầu bài: mỗi khi viên bi chạm vào một cạnh bàn, thay vì cho viên bi bật lại, ta *lật phản chiếu* cả chiếc bàn qua cạnh đó để viên bi đi thẳng tắp! Dán các bản sao đối xứng ấy lại (ví dụ với bàn bi-a hình tam giác đều hay hình chữ nhật), ta thu được một **mặt phẳng dịch chuyển** (*translation surface*). Nhóm ma trận $$\mathrm{SL}_2(\mathbb{R})$$ tác động tự nhiên lên không gian các mặt phẳng dịch chuyển (kéo giãn một chiều, nén chiều kia).
 
-Sơ đồ ý tưởng (không phải định lý đầy đủ):
-
-$$
-\text{đếm đường cong trên }X\text{ điển hình}
-\quad\longleftrightarrow\quad
-\text{hình học thể tích WP trên }\mathcal{M}_g.
-$$
-
-Liên hệ với vật lý và mặt ngẫu nhiên: thể tích WP xuất hiện trong lý thuyết hấp dẫn lượng tử 2 chiều (giả thuyết Witten–Kontsevich) và các mô hình ma trận; công thức đệ quy của Mirzakhani không chỉ làm rõ phía toán học của sự tương ứng đó mà còn cho một chứng minh hình học mới, ngắn gọn cho giả thuyết Witten. Điều cần nhớ: thể tích không phải chi tiết phụ, mà là **công cụ tích phân** cho các bài toán đếm.
+Trong kiệt tác mệnh danh là **"Định lý Cây đũa thần"** (*Magic Wand Theorem*, 2013), **Alex Eskin và Maryam Mirzakhani** (cùng Amir Mohammadi) đã chứng minh rằng mọi bao đóng quỹ đạo và độ đo bất biến của tác động $$\mathrm{SL}_2(\mathbb{R})$$ đều cực kỳ đẹp và "cứng" (luôn là các đa tạp con affine) — hoàn toàn tương tự định lý Ratner kinh điển trên không gian thuần nhất, dù không gian mô-đun phức tạp hơn rất nhiều!
 
 ---
 
-## 5. Dòng động đất và tính ergodic
+## 5. Vì sao công trình này quan trọng và bối cảnh con người
 
-Một **phép động đất** (Thurston) là cách biến dạng mặt hyperbolic bằng việc "trượt" dọc các lá của một lá phân đo được (*measured lamination*). Hãy tưởng tượng cắt mặt dọc theo một họ đường cong (giống như một đường đứt gãy địa chất), trượt hai mép lệch nhau rồi dán lại; đây là dạng tổng quát của phép xoắn Fenchel–Nielsen.
-
-**Dòng động đất** biến phép biến dạng đó thành một hệ động lực trên phân thớ đối tiếp xúc / một không gian đo thích hợp gắn với không gian mô-đun. Cùng với **Alex Eskin** (và trong công trình riêng về dòng động đất), Mirzakhani chứng minh **tính ergodic** của dòng động đất: các quỹ đạo "điển hình" lấp đầy không gian theo nghĩa độ đo, không bị kẹt trong các vùng bất biến không tầm thường.
-
-Nói gọn về tính ergodic: trung bình theo thời gian dọc một quỹ đạo bằng trung bình theo không gian đối với độ đo bất biến (giống như việc theo dõi một phân tử khí bay lâu vô hạn trong bình sẽ ghé qua mọi vùng với tỉ lệ thời gian đúng bằng tỉ lệ thể tích vùng đó). Hệ quả: nhiều đại lượng hình học có hành vi thống kê rõ ràng; không có "hòn đảo bất biến" nào với độ đo dương che giấu những hành vi bất thường.
-
-### Mặt phẳng dịch chuyển, bi-a và các tầng
-
-Song song với đó, hãy quay lại chiếc bàn bi-a đa giác ở đầu bài: mỗi khi viên bi đập vào một cạnh, thay vì cho viên bi bật lại, ta có thể *phản chiếu* cả chiếc bàn qua cạnh đó và để viên bi đi thẳng! Khi dán các bản sao đối xứng của bàn bi-a lại với nhau, ta thu được một **mặt phẳng dịch chuyển** (*translation surface*). Các tầng (*strata*) của các vi phân chỉnh hình mang một tác động tự nhiên của nhóm ma trận $$\mathrm{SL}_2(\mathbb{R})$$ (kéo giãn theo một chiều, nén theo chiều kia). Trong bài báo nổi tiếng mệnh danh là **"định lý cây đũa thần"** (*Magic Wand Theorem*), **Eskin và Mirzakhani** (cùng Mohammadi) đã phân loại hoàn toàn các độ đo bất biến và bao đóng quỹ đạo của tác động này — một cuộc cách mạng của thập niên 2010. Chỉ cần nhớ: **cùng một hệ ý tưởng (hình học của mặt + động lực của tác động nhóm) được áp dụng cho không gian mô-đun hyperbolic và cho các tầng của mặt phẳng dịch chuyển**.
-
----
-
-## 6. Vì sao công trình này quan trọng
-
-- Làm cho không gian mô-đun **vừa tính toán được vừa nghiên cứu được bằng hệ động lực**, chứ không chỉ tồn tại một cách trừu tượng.  
-- Nối hình học thuần túy với hệ động lực ở tầm giải Fields.  
-- Tạo ra ngôn ngữ chung cho bài toán đếm đường cong, thể tích và lý thuyết ergodic trên không gian các hình dạng.  
-- Truyền cảm hứng cho cả một thế hệ nghiên cứu về mặt, các tầng, và tác động hình học của nhóm.
-
-Trong Chương 2, Mirzakhani là cây cầu **hệ động lực ↔ không gian mô-đun**, tương ứng với Green–Tao (tổ hợp ↔ số nguyên tố) và Ngô (hình học ↔ dạng tự đẳng cấu).
-
----
-
-## 7. Lưu ý cho chính xác và bối cảnh con người
-
-- Bà là **người phụ nữ đầu tiên** nhận Huy chương Fields (2014). Maryna Viazovska là người thứ hai (2022); xem bài [Viazovska]({{ site.baseurl }}/contents/vi/chapter02/).  
-- Nhiều định lý có đồng tác giả; **luôn kiểm tra** đồng tác giả cho từng phát biểu cụ thể (Eskin là cái tên thường xuyên xuất hiện trong các kết quả về động lực).  
-- Mirzakhani mất năm 2017; ảnh hưởng của bà vẫn tiếp tục qua các học trò và các bài toán bà đã định hình.  
-- Lời trích dẫn giải Fields nhấn mạnh **dynamics and geometry of Riemann surfaces and their moduli spaces** (động lực học và hình học của mặt Riemann và các không gian mô-đun của chúng); đừng thu hẹp thành "chỉ đếm đường trắc địa".
-
----
-
-## 8. Điều nghịch lý
-
-Với người học, không gian mô-đun có vẻ "vô cùng phức tạp" (không gian của các metric / cấu trúc phức), vậy mà:
-
-- thể tích của nó có công thức đệ quy;  
-- số đường cong ngắn có tiệm cận dạng đa thức;  
-- một dòng tự nhiên trên nó có thể ergodic.
-
-Nghịch lý biến mất khi ta nhớ rằng đối xứng của nhóm lớp ánh xạ, cùng cấu trúc symplectic / hyperbolic trên không gian Teichmüller–mô-đun, cung cấp các hệ tọa độ và độ đo đủ cứng để giải tích và hệ động lực có chỗ bám.
+- Làm cho không gian mô-đun **vừa tính toán được vừa nghiên cứu được bằng hệ động lực**, bắc cây cầu **hệ động lực ↔ không gian mô-đun** trong Chương 2.
+- **Maryam Mirzakhani** là **người phụ nữ đầu tiên** nhận Huy chương Fields (2014). Maryna Viazovska là người thứ hai (2022); xem bài [Viazovska]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/).
+- Nhiều định lý lớn là công trình hợp tác (đặc biệt với **Alex Eskin** trong phần động lực học); luôn kiểm tra đồng tác giả khi trích dẫn.
+- Mirzakhani mất năm 2017; ảnh hưởng của bà vẫn tiếp tục lan tỏa mạnh mẽ qua hàng loạt thế hệ nghiên cứu về mặt Riemann và động lực Teichmüller.
 
 ---
 
 ## Hiểu lầm thường gặp
 
 | Khẳng định | Đúng/sai | Sửa lại |
-|------------|----------|-----|
-| "Không gian mô-đun chính là bản thân mặt." | **Sai** | Đó là không gian của các mặt (các hình dạng). |
-| "Bà chỉ đếm đường trắc địa." | **Sai** | Hệ động lực, thể tích và mối liên hệ với các tầng cũng là trung tâm. |
-| "Không gian Teichmüller chính là không gian mô-đun." | **Sai** | Không gian Teichmüller có đánh dấu; không gian mô-đun là thương của nó (nói gần đúng). |
-| "Tính ergodic nghĩa là mọi quỹ đạo đều tuần hoàn." | **Sai** | Đó là một phát biểu về độ đo, liên quan đến trung bình theo thời gian và theo không gian. |
-| "Mọi kết quả đều do một mình bà làm." | **Sai** | Nhiều định lý là công trình hợp tác; hãy kiểm tra tác giả. |
+|------------|----------|---------|
+| "Không gian mô-đun chính là bản thân mặt." | **Sai** | Đó là không gian chứa tất cả các mặt (mỗi mặt là một điểm). |
+| "Bà chỉ đếm đường trắc địa." | **Sai** | Thể tích Weil–Petersson, dòng động đất và Định lý Cây đũa thần cùng Eskin cũng là trung tâm. |
+| "Không gian Teichmüller chính là không gian mô-đun." | **Sai** | Không gian Teichmüller có đánh dấu; không gian mô-đun là thương $$\mathcal{T}_g/\mathrm{Mod}_g$$. |
+| "Tính ergodic nghĩa là mọi quỹ đạo đều tuần hoàn." | **Sai** | Đó là phát biểu về độ đo: trung bình thời gian bằng trung bình không gian. |
+| "Mọi kết quả đều do một mình bà làm." | **Sai** | Nhiều định lý lớn là công trình hợp tác (như Eskin–Mirzakhani). |
 
 ---
 
@@ -258,7 +220,7 @@ Danh sách URL đầy đủ (mọi đường dẫn tìm được khi nghiên c�
 - So sánh với các câu chuyện khác trong khóa học về "hệ động lực gặp hình học".  
 - Đọc một bản trình bày về thể tích Weil–Petersson trước khi đọc bài báo gốc.  
 - Ghi lại một câu hỏi cụ thể, ví dụ "độ đo nào khiến dòng động đất là ergodic?"  
-- Đọc song song bài [Venkatesh]({{ site.baseurl }}/contents/vi/chapter02/) để so sánh hai truyền thống nghiên cứu hệ động lực.
+- Đọc song song bài [Venkatesh]({{ site.baseurl }}/contents/vi/chapter02/02_07_Venkatesh_Number_Theory/) để so sánh hai truyền thống nghiên cứu hệ động lực.
 
 ## Video tham khảo
 

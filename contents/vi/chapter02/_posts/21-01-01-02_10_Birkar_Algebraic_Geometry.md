@@ -9,13 +9,13 @@ categories:
 - chapter02
 ---
 
-Hãy thử tưởng tượng một khu rừng vô tận chứa mọi hình dạng có thể tạo ra từ nghiệm của các phương trình đa thức nhiều biến: từ đường tròn, mặt cầu quen thuộc đến những đa tạp 3 chiều, 10 chiều hay 100 chiều kỳ lạ và xoắn xuýt. Làm sao các nhà toán học có thể đưa ra một **bảng tuần hoàn** — giống như bảng tuần hoàn các nguyên tố hóa học — để sắp xếp trật tự cho khu rừng vô tận ấy?
+Hãy thử tưởng tượng một khu rừng vô tận chứa mọi hình dạng có thể tạo ra từ nghiệm của các phương trình đa thức nhiều biến: từ đường tròn, mặt cầu quen thuộc đến những đa tạp 3 chiều, 10 chiều hay 100 chiều kỳ lạ và xoắn xuýt. Làm sao các nhà toán học có thể lập ra một **"bảng tuần hoàn"** — giống như bảng tuần hoàn các nguyên tố hóa học — để sắp xếp trật tự cho khu rừng vô tận ấy?
 
-Ở chiều 1 (đường cong) và chiều 2 (mặt đại số), các nhà toán học thế kỷ XIX–XX đã vẽ xong bản đồ phân loại. Nhưng khi bước sang chiều 3 trở lên, mọi thứ bỗng trở nên hỗn loạn bởi những kỳ dị phức tạp và các phép "cắt dán" nhiều chiều. **Chương trình mô hình tối thiểu** (*Minimal Model Program*, viết tắt là MMP) ra đời để giải quyết đúng thách thức đó: rút gọn mọi đa tạp đại số về ba "viên gạch cơ bản" — giống như phân tích số tự nhiên ra thừa số nguyên tố — trong đó nhóm "cong dương" được gọi là **đa tạp Fano**.
+Ở chiều 1 (đường cong) và chiều 2 (mặt đại số), các nhà toán học thế kỷ XIX–XX đã vẽ xong bản đồ phân loại. Nhưng khi bước sang chiều 3 trở lên, mọi thứ bỗng trở nên hỗn loạn bởi những kỳ dị phức tạp và các phép "cắt dán" nhiều chiều. **Chương trình mô hình tối thiểu** (*Minimal Model Program*, viết tắt là MMP) ra đời để giải quyết đúng thách thức đó: rút gọn mọi đa tạp đại số về ba "viên gạch cơ bản" theo dấu của độ cong đại số — trong đó nhóm "cong dương" được gọi là **đa tạp Fano**.
 
-Nhưng một nỗi lo lớn kéo dài hàng chục năm: nhỡ đâu ở một số chiều cố định, số kiểu đa tạp Fano lại nhiều vô hạn và ngày càng "hoang dã" đến mức không thể lập danh mục nổi? Năm 2016, **Caucher Birkar** — một nhà toán học gốc Kurd lớn lên giữa chiến tranh và đến Anh tị nạn — đã chứng minh **tính bị chặn của các đa tạp Fano**, khép lại một câu hỏi trung tâm (giả thuyết BAB) và mang về **Huy chương Fields 2018**.
+Nhưng một nỗi lo lớn kéo dài hàng chục năm: nhỡ đâu ở một số chiều cố định, số kiểu đa tạp Fano lại nhiều vô hạn và ngày càng "hoang dã" đến mức không thể lập danh mục nổi? Năm 2016, **Caucher Birkar** — một nhà toán học gốc Kurd lớn lên giữa chiến tranh và đến Anh tị nạn — đã chứng minh **tính bị chặn của các đa tạp Fano** (giả thuyết BAB), khép lại một câu hỏi trung tâm và mang về **Huy chương Fields 2018**.
 
-Mục tiêu không phải là biến bạn thành chuyên gia về flip. Mục tiêu là hiểu **MMP hỏi gì**, **đa tạp Fano là gì** ở mức sơ lược, **tính bị chặn nghĩa là kiểm soát một họ đa tạp như thế nào**, và **vì sao** cộng đồng xem các định lý của Birkar (cùng một chuỗi dài các công trình hợp tác trước đó) như việc khép lại một chương lớn của hình học đại số chiều cao.
+**Mạch bài học:** Bản đồ kiến thức nền (tính tay phép chiếu lập thể & phép nổ, bảng tuần hoàn 3 viên gạch theo $$K_X = (d-n-1)H$$) → Phân loại song hữu tỉ → Khung giải thích chậm 4 bước: từ phép co chiều 2 đến flip, BCHM và tính bị chặn đa tạp Fano của Birkar → Vị trí trong hình học đại số hiện đại.
 
 ---
 
@@ -23,158 +23,125 @@ Mục tiêu không phải là biến bạn thành chuyên gia về flip. Mục t
 
 Sau bài học, bạn có thể:
 
-- Nêu mục tiêu của MMP trong một đoạn: đưa một đa tạp, bằng các phép biến đổi song hữu tỉ, về một mô hình "đơn giản" (mô hình tối thiểu hoặc không gian thớ Mori).
-- Giải thích sơ lược thế nào là đa tạp **Fano**: lớp chính tắc âm, tức lớp phản chính tắc là ample; đó là các đa tạp "dương" theo nghĩa song hữu tỉ.
-- Phân biệt hai loại kết quả: **sự tồn tại của flip** (một bước trong MMP) và **tính bị chặn của đa tạp Fano** (kiểm soát toàn cục cả họ).
-- Nhìn hình học song hữu tỉ như **kiến trúc tổng thể** của hình học đại số chiều cao, chứ không chỉ là một danh sách ví dụ.
-- Ghi nhận công lao cẩn thận: Huy chương Fields 2018 nằm trong mạng lưới công trình BCHM, Hacon–McKernan, Shokurov, Kawamata, Kollár–Mori…; đóng góp nổi bật riêng của Birkar là tính bị chặn của đa tạp Fano và một số trường hợp của MMP.
-- Tránh nhầm "song hữu tỉ = đẳng cấu" và "mọi đa tạp đều là Fano".
+- Tự kiểm tra bằng tay ví dụ về **tương đương song hữu tỉ** (đường tròn ↔ đường thẳng) và **phép nổ** (*blow-up*) gỡ điểm tự cắt của đường cong $$y^2 = x^2(x+1)$$.
+- Dùng công thức $$K_X = (d - n - 1)H$$ để phân loại nhanh siêu mặt bậc $$d$$ trong $$\mathbb{P}^n$$ thành 3 họ: **Fano**, **Calabi–Yau**, và **kiểu tổng quát**.
+- Nêu mục tiêu của MMP: đưa một đa tạp về **mô hình tối thiểu** hoặc **không gian thớ Mori** qua phép co và **flip**.
+- Phân biệt công trình hợp tác **BCHM** (tính hữu hạn sinh vành chính tắc / flip) với đột phá riêng của **Birkar** (**tính bị chặn của đa tạp Fano** — giả thuyết BAB).
+- Tránh nhầm "song hữu tỉ = đẳng cấu" và "bị chặn = chỉ có hữu hạn đa tạp".
 
-**Kiến thức cần có.** Đa tạp đại số, đa tạp xạ ảnh ở mức trực giác; ước (divisor) và lớp chính tắc $$K_X$$ như một kiểu "độ cong đại số"; phân biệt đẳng cấu với các quan hệ thô hơn.
+**Kiến thức cần có.** Phương trình đa thức, mặt cong cơ bản và ý tưởng về không gian xạ ảnh $$\mathbb{P}^n$$. Mọi khái niệm song hữu tỉ, phép nổ và lớp chính tắc $$K_X$$ đều có ví dụ tính tay ngay bên dưới.
 
-**Liên hệ với khóa học.** So sánh với phân loại mặt (Enriques–Kodaira), nơi trường hợp chiều 2 về cơ bản đã xong; MMP là nỗ lực đưa phân loại lên chiều cao hơn. Có thể đọc cùng [Scholze / perfectoid]({{ site.baseurl }}/contents/vi/chapter02/02_06_Scholze_Perfectoid/), nhưng chỉ như *một* mặt khác của hình học đại số hiện đại (hình học số học, p-adic), không đồng nhất với hình học song hữu tỉ phức.
+**Liên hệ với khóa học.** So sánh với phân loại mặt (Enriques–Kodaira), nơi trường hợp chiều 2 về cơ bản đã xong; MMP là nỗ lực đưa phân loại lên chiều cao hơn. Có thể đọc cùng [Scholze / perfectoid]({{ site.baseurl }}/contents/vi/chapter02/02_06_Scholze_Perfectoid/), nhưng chỉ như *một* mặt khác của hình học đại số hiện đại (hình học số học, $$p$$-adic), không đồng nhất với hình học song hữu tỉ phức.
 
 ---
 
 ## Bản đồ kiến thức nền: Hình học đại số song hữu tỉ là gì và nghiên cứu những gì?
 
-Nếu cụm từ "hình học đại số song hữu tỉ" nghe quá trừu tượng, hãy hình dung nó qua hai ví dụ quen thuộc từ hình học giải tích:
+### 1. Tương đương song hữu tỉ & Phép nổ — Hai ví dụ cầm tay tự kiểm tra
+**Hình học đại số** nghiên cứu tập nghiệm của hệ phương trình đa thức (**đa tạp đại số**). Thay vì đòi hỏi hai hình phải giống hệt nhau tại *mọi* điểm (đẳng cấu — quá chặt để phân loại), **hình học song hữu tỉ** (*birational geometry*) coi hai đa tạp là tương đương nếu chúng đẳng cấu trên **hầu hết mọi điểm** (chỉ bỏ đi tập nhỏ có chiều thấp hơn):
 
-- **Đa tạp đại số là gì?** Là tập nghiệm của một hệ phương trình đa thức (ví dụ đường tròn $$x^2 + y^2 = 1$$ hay mặt bậc ba $$x^3 + y^3 + z^3 = 1$$), thường được đặt trong **không gian xạ ảnh** $$\mathbb{P}^n$$ (nơi ta thêm các "điểm ở vô cực" để hai đường song song cũng cắt nhau và mọi hình trở nên khép kín).
-- **Tương đương song hữu tỉ (Birational Equivalence) là gì?** Trong hình học thông thường, hai hình giống nhau khi có phép biến đổi tương ứng 1–1 tại *mọi* điểm (đẳng cấu). Nhưng trong hình học đại số, yêu cầu đó quá chặt! Hãy nhìn đường tròn $$x^2 + y^2 = 1$$ và đường thẳng trục số $$t$$: phép chiếu lập thể $$t \mapsto \left(\frac{1-t^2}{1+t^2}, \frac{2t}{1+t^2}\right)$$ thiết lập một tương ứng 1–1 bằng hàm hữu tỉ giữa **toàn bộ** đường thẳng và **gần như toàn bộ** đường tròn (chỉ trừ đúng 1 điểm $$(-1, 0)$$)! Nói cách khác, đường tròn và đường thẳng **tương đương song hữu tỉ** — chúng có chung "phần lõi" và chỉ khác nhau trên một tập nhỏ không đáng kể. Một thao tác cơ bản khác là **phép nổ** (*blow-up*): thay một điểm duy nhất trên mặt phẳng bằng một đường tròn các hướng đi qua điểm đó — giống như xoay cầu thang xoắn quanh một trục để tách rời các nhánh đường cong cắt nhau tại gốc.
-- **Ba "viên gạch" theo dấu của độ cong đại số $$K_X$$:** Giống như các mặt 2 chiều chia thành 3 kiểu độ cong (mặt cầu cong dương, mặt xuyến phẳng, mặt nhiều lỗ cong âm), trong hình học đại số chiều cao, **lớp chính tắc $$K_X$$** đóng vai trò là thước đo ngược dấu với độ cong:
-  1. **Đa tạp Fano** ($$-K_X > 0$$): tương ứng với "độ cong dương" (như mặt cầu, không gian xạ ảnh $$\mathbb{P}^n$$).
-  2. **Đa tạp Calabi–Yau** ($$K_X \equiv 0$$): tương ứng với "độ cong bằng 0" (như đường cong elliptic / mặt xuyến).
-  3. **Đa tạp kiểu tổng quát** ($$K_X > 0$$): tương ứng với "độ cong âm" (như mặt hyperbolic nhiều lỗ).
-
-  Toàn bộ **Chương trình mô hình tối thiểu (MMP)** chính là nỗ lực chứng minh rằng mọi đa tạp đại số bất kỳ đều có thể cắt tỉa bằng các phép biến đổi song hữu tỉ để xây nên từ đúng ba viên gạch cơ bản này!
-
----
-
-## 1. Phân loại song hữu tỉ: bỏ qua gì, giữ lại gì?
-
-Hai đa tạp xạ ảnh (hoặc tựa xạ ảnh) $$X$$ và $$Y$$ được gọi là **tương đương song hữu tỉ** nếu tồn tại các tập mở trù mật $$U\subset X$$, $$V\subset Y$$ và một đẳng cấu $$U\simeq V$$. Nói nôm na, chúng trùng nhau "ở hầu hết mọi nơi", chỉ khác nhau trên một tập đóng nhỏ hơn, giống như hai cách compact hóa khác nhau của cùng một phần lõi affine, hoặc hai mô hình nhận được bằng các phép nổ (*blow-up*) khác nhau.
-
-**Phép tương đương song hữu tỉ bỏ qua** chi tiết về kỳ dị nhỏ và cách chọn compact hóa.  
-**Nó giữ lại** nhiều bất biến sâu: trường hàm hữu tỉ, chiều Kodaira, và (sau khi chạy MMP) các mô hình chuẩn được sắp xếp theo dấu của $$K_X$$.
-
-So với **đẳng cấu** (toàn cục, tại mọi điểm), tương đương song hữu tỉ thô hơn. So với "có cùng trường hàm", nó chính là cách diễn đạt hình học của quan hệ đó. Phân loại song hữu tỉ là một chiến lược: thay vì liệt kê mọi đa tạp sai khác đẳng cấu (quá nhiều), ta gom chúng thành các lớp song hữu tỉ và tìm một **đại diện đẹp** trong mỗi lớp.
-
-**Ví dụ ở chiều thấp (sơ lược).**
-
-- Đường cong xạ ảnh trơn: mỗi lớp song hữu tỉ chỉ có đúng một đại diện trơn duy nhất, được phân loại bằng giống $$g$$ ($$g=0$$ là $$\mathbb{P}^1$$ kiểu Fano; $$g=1$$ là đường cong elliptic; $$g\ge 2$$ là kiểu tổng quát).  
-- Mặt (chiều 2): phân loại Enriques–Kodaira thu gọn mọi mặt bằng cách liên tục **co** các đường cong ngoại lệ (đường cong $$(-1)$$, giống như đảo ngược phép nổ) cho tới khi không còn gì để co nữa.  
-- Chiều $$\ge 3$$: kỳ dị, flop/flip, và việc "chỉ co các đường cong" không còn đủ, buộc người ta xây dựng một cơ chế trừu tượng hơn, đó là MMP.
-
----
-
-## 2. Chương trình mô hình tối thiểu (MMP) là gì?
-
-Xuất phát từ một đa tạp xạ ảnh $$X$$ (thường giả sử $$\mathbb{Q}$$-giai thừa và có kỳ dị klt sau khi đã "dọn dẹp"), MMP tìm cách cải thiện $$X$$ bằng một chuỗi phép biến đổi song hữu tỉ, hướng tới một trong hai đích:
-
-1. **Mô hình tối thiểu.** Một đa tạp $$X_{\min}$$ tương đương song hữu tỉ với $$X$$ sao cho lớp chính tắc $$K_{X_{\min}}$$ là **nef** (có giao không âm với mọi đường cong). Khi đó không còn hướng nào để "co" theo tính âm của $$K$$.
-2. **Không gian thớ Mori.** Nếu không thể làm $$K$$ thành không âm ở mọi hướng, quá trình dừng ở một phân thớ $$X\to Z$$ mà mỗi thớ là một **đa tạp Fano** (lớp chính tắc âm trên thớ tổng quát). Khi đó đa tạp được hiểu như một họ các đa tạp Fano xếp trên một cơ sở $$Z$$ có chiều thấp hơn.
-
-### 2.1. Hai thao tác: phép co và flip
-
-- **Phép co ước / phép co cực trị.** Khi có một tia cực trị mà trên đó $$K$$ âm, ta co tập tương ứng (đường cong, ước…) xuống một điểm hoặc một tập nhỏ hơn để giảm "độ phức tạp".  
-- **Flip.** Ở chiều $$\ge 3$$, đôi khi tập bị co có chiều quá nhỏ (đối chiều $$\ge 2$$) khiến đa tạp sau khi co mang kỳ dị quá xấu, không thể tính được giao với $$K$$ nữa! Khi đó cần một **flip**: nhổ bỏ một đường cong (hoặc tập nhỏ) có $$K < 0$$ và thay vào đúng chỗ đó một đường cong mới có $$K > 0$$, vẫn giữ tương đương song hữu tỉ nhưng làm đẹp lại kỳ dị. Sự tồn tại của flip từng là thách thức trung tâm trong nhiều thập niên.
-
-Trực giác thô: phép co giống như "bóp" bớt phần thừa; flip giống như một "ca phẫu thuật" định hướng lại phần kỳ dị để $$K$$ dễ kiểm soát hơn. Kết quả không đẳng cấu với ban đầu, nhưng vẫn thuộc cùng một lớp song hữu tỉ.
-
-### 2.2. Vành chính tắc và kỳ dị
-
-MMP hiện đại làm việc với các **kỳ dị được phép** (klt, lc…) và với **vành chính tắc**
+- **Ví dụ 1 — Đường tròn và Đường thẳng tương đương song hữu tỉ:** Xét đường tròn $$x^2 + y^2 = 1$$ và trục số thực $$t$$. Phép chiếu lập thể cho công thức hữu tỉ:
 
 $$
-R(X,K_X)=\bigoplus_{m\ge 0} H^0(X,mK_X).
+x = \frac{1 - t^2}{1 + t^2}, \qquad y = \frac{2t}{1 + t^2} \qquad \Longleftrightarrow \qquad t = \frac{y}{1 + x}.
 $$
 
-Tính hữu hạn sinh của vành chính tắc (các định lý lớn của BCHM và những người đi trước) là xương sống của lý thuyết: nó bảo đảm các bước "lấy $$\operatorname{Proj}$$ của vành" có ý nghĩa hình học. Không cần thuộc định nghĩa klt để hiểu ý chính: *MMP không thể mãi chỉ làm việc với đa tạp trơn; cho phép những kỳ dị nhẹ được kiểm soát là cái giá bắt buộc để cỗ máy phân loại hoạt động ở chiều cao*.
+  Tự kiểm tra bằng tay: $$x^2 + y^2 = \frac{(1 - 2t^2 + t^4) + 4t^2}{(1 + t^2)^2} = \frac{(1 + t^2)^2}{(1 + t^2)^2} = 1$$! Hai chiều ánh xạ là song ánh ở **mọi điểm** trừ duy nhất cực Tây $$(-1, 0)$$ (ứng với $$t = \infty$$). Chúng hoàn toàn tương đương song hữu tỉ!
+- **Ví dụ 2 — Phép nổ (*blow-up*) gỡ điểm tự cắt:** Xét đường cong $$y^2 = x^2(x + 1)$$ có một điểm tự cắt xấu xí tại gốc tọa độ $$(0, 0)$$ (nơi hai nhánh đi qua với hệ số góc $$+1$$ và $$-1$$). Ta thực hiện **phép nổ** tại gốc bằng phép đổi biến cực đơn giản $$y = t x$$ (biến $$t = y/x$$ ghi nhớ *độ dốc* của hướng đi qua gốc!). Thay vào phương trình:
+
+$$
+t^2 x^2 = x^2(x + 1) \;\xrightarrow{\text{chia } x^2}\; t^2 = x + 1.
+$$
+
+  Đường cong mới là một parabol **trơn hoàn hảo**! Hai nhánh từng đâm sầm vào nhau tại $$(0, 0)$$ nay tách hẳn thành hai điểm riêng biệt $$(x, t) = (0, 1)$$ và $$(0, -1)$$!
+
+### 2. Lớp chính tắc $$K_X$$ và "Bảng tuần hoàn" 3 viên gạch (Tính tay với siêu mặt bậc $$d$$)
+Trong hình học đại số, **lớp chính tắc $$K_X$$** đóng vai trò là thước đo ngược dấu với độ cong. Một công thức cầm tay cực kỳ nổi tiếng cho siêu mặt trơn $$X$$ bậc $$d$$ trong không gian xạ ảnh $$\mathbb{P}^n$$ (định nghĩa bởi một đa thức thuần nhất bậc $$d$$) là:
+
+$$
+K_X \;=\; (d - n - 1)\, H \qquad (H \text{ là lớp siêu phẳng dương}).
+$$
+
+Thử ngay với **mặt cong trong $$\mathbb{P}^3$$** ($$n = 3$$, nên $$K_X = (d - 4)H$$):
+- **$$d = 1, 2, 3$$** (mặt phẳng, mặt cầu bậc hai, mặt bậc ba): $$d - 4 < 0 \implies K_X < 0$$ ($$-K_X$$ dương) → **Đa tạp Fano** ("cong dương", chứa rất nhiều đường thẳng hữu tỉ!).
+- **$$d = 4$$** (mặt bậc bốn — *mặt K3*): $$d - 4 = 0 \implies K_X = 0$$ → **Đa tạp Calabi–Yau** ("cong bằng 0", đóng vai trò trung tâm trong lý thuyết dây!).
+- **$$d \ge 5$$**: $$d - 4 > 0 \implies K_X > 0$$ → **Đa tạp kiểu tổng quát** ("cong âm", cứng và ít đối xứng).
+
+### 3. Mục tiêu của Chương trình mô hình tối thiểu (MMP)
+Toàn bộ MMP đặt mục tiêu chứng minh rằng **mọi** đa tạp đại số nhiều chiều bất kỳ đều có thể cắt tỉa bằng hữu hạn bước song hữu tỉ để xây nên từ đúng ba viên gạch trên: hoặc dừng ở **mô hình tối thiểu** ($$K_X \ge 0$$ — Calabi–Yau / kiểu tổng quát), hoặc trở thành **không gian thớ Mori** (một họ các **đa tạp Fano** xếp trên một đáy chiều thấp hơn).
 
 ---
 
-## 3. Đa tạp Fano: "dương" theo nghĩa song hữu tỉ
+## 1. Khung giải thích: Từ phép co chiều 2 đến Flip, BCHM và Đột phá của Birkar (nên đọc chậm)
 
-Một đa tạp xạ ảnh $$X$$ (với kỳ dị thích hợp) được gọi là **Fano** khi lớp phản chính tắc $$-K_X$$ là **ample** (hoặc, trong một số biến thể, big/nef tùy ngữ cảnh kỹ thuật). Nói gọn:
+Tại sao việc nâng phân loại từ chiều 2 (Enriques–Kodaira) lên chiều 3 trở lên lại mất gần 40 năm và cần đến đột phá của Birkar? Hãy đọc chậm chuỗi 4 bước sau:
 
-> Đa tạp Fano là đa tạp có "độ cong dương" theo thước đo chính tắc, tức là $$K_X$$ âm.
+#### Bước 1: Chiều 2 dễ vì chỉ cần "co" đường cong thừa
+Trên mặt 2 chiều, nếu có một đường cong mà trên đó $$K_X < 0$$ (đường cong $$(-1)$$ sinh ra từ một phép nổ), ta chỉ việc **co** nó lại thành một điểm trơn (đảo ngược phép nổ). Lặp lại hữu hạn lần sẽ dừng ở mô hình tối thiểu trơn hoặc mặt có thớ $$\mathbb{P}^1$$.
 
-Ví dụ quen thuộc: không gian xạ ảnh $$\mathbb{P}^n$$; mọi siêu mặt trơn bậc $$d \le n$$ trong $$\mathbb{P}^n$$ (ví dụ mặt bậc hai hoặc mặt bậc ba trong $$\mathbb{P}^3$$); các thớ Fano trong không gian thớ Mori.
+#### Bước 2: Lên chiều $$\ge 3$$, phép co sinh ra kỳ dị hỏng — buộc phải phát minh "Flip"
+Ở chiều 3 trở lên, khi ta co một đường cong có $$K_X < 0$$ (phép co nhỏ, đối chiều $$\ge 2$$), điểm kỳ dị mới sinh ra xấu đến mức không còn định nghĩa nổi giao cắt với $$K_X$$ nữa! Để đi tiếp, Shigefumi Mori (Fields 1990) và các nhà hình học đại số phải chấp nhận cho đa tạp mang những **kỳ dị nhẹ được kiểm soát** (gọi là kỳ dị *klt*), đồng thời thay phép co bằng một ca phẫu thuật gọi là **Flip**: nhổ bỏ đường cong có $$K_X < 0$$ rồi vá lại đúng chỗ đó bằng một đường cong mới có $$K_X > 0$$!
 
-**Vì sao đa tạp Fano giữ vai trò trung tâm.** Trong phân loại, đa tạp Fano xuất hiện như:
+#### Bước 3: Định lý BCHM (2010) — Bảo đảm Flip tồn tại và Vành chính tắc hữu hạn sinh
+Suốt hơn 20 năm, câu hỏi liệu Flip có luôn tồn tại ở chiều $$\ge 4$$ hay không đã treo lơ lửng trên đầu toàn bộ ngành. Năm 2010, bốn nhà toán học **Birkar–Cascini–Hacon–McKernan (BCHM)** gây chấn động khi chứng minh tính **hữu hạn sinh của vành chính tắc**:
 
-- thớ của các không gian thớ Mori;
-- "nguồn gốc" của nhiều hiện tượng song hữu tỉ (câu hỏi về tính hữu tỉ, tính K-ổn định, không gian moduli…);
-- một lớp được kỳ vọng có **tính bị chặn**: khi cố định số chiều (và mức độ kỳ dị cho phép), không có vô hạn họ độc lập "hoang dã".
+$$
+R(X, K_X) = \bigoplus_{m \ge 0} H^0(X, mK_X),
+$$
 
-Câu hỏi về tính bị chặn (giả thuyết **Borisov–Alexeev–Borisov**, viết tắt BAB): *Các đa tạp Fano chiều $$n$$ có tạo thành một họ bị chặn không?* "Bị chặn" ở đây có nghĩa kỹ thuật: chúng đều xuất hiện như thớ của một họ phẳng trên một lược đồ kiểu hữu hạn — nói một cách gần gũi, chỉ cần **hữu hạn** tham số và hữu hạn gia đình đa thức là mô tả được *tất cả* các đa tạp Fano chiều $$n$$, chứ không có một dãy đa tạp có bậc phương trình ngày càng phình to ra vô tận!
+từ đó chứng minh sự tồn tại của Flip và hoàn tất MMP cho lớp khổng lồ các đa tạp kiểu tổng quát ở **mọi số chiều $$n$$**!
 
----
+#### Bước 4: Đột phá riêng của Birkar (2016) — Tính bị chặn của đa tạp Fano (Giả thuyết BAB)
+Sau BCHM, phía mô hình tối thiểu đã rất sáng sủa, nhưng phía còn lại — **đa tạp Fano** (các thớ của không gian thớ Mori) — vẫn còn một bóng mây lớn: **Giả thuyết Borisov–Alexeev–Borisov (BAB)**. Nhỡ đâu ở một số chiều cố định (ví dụ chiều 3 hay chiều 5), tồn tại vô hạn gia đình đa tạp Fano ngày càng "hoang dã" (bậc phương trình tăng ra vô tận) thì bảng tuần hoàn hình học sẽ bị vỡ!
 
-## 4. Đột phá của Birkar: tính bị chặn của đa tạp Fano và MMP chiều cao
-
-**Caucher Birkar** (trong dòng công trình chung với Cascini, Hacon, McKernan, cùng hai bài báo đột phá riêng năm 2016) đã đóng góp vào:
-
-1. **Sự tồn tại của flip và MMP** trong những trường hợp lớn, cùng với nhóm **BCHM** (Birkar–Cascini–Hacon–McKernan, 2010), chứng minh tính hữu hạn sinh của vành chính tắc và MMP cho đa tạp kiểu tổng quát.
-2. **Tính bị chặn của đa tạp Fano** (chứng minh trọn vẹn giả thuyết BAB): khi cố định số chiều $$n$$ và ngưỡng kỳ dị $$\varepsilon > 0$$ ($$\varepsilon$$-lc), họ tất cả các đa tạp Fano chiều $$n$$ tạo thành một **họ bị chặn**.
+Trong hai bài báo đột phá năm 2016, **Caucher Birkar** một mình chứng minh trọn vẹn **giả thuyết BAB**:
 
 <div class="textbook-theorem" markdown="1">
-**Định lý (sơ lược, Birkar).** Họ các đa tạp Fano chiều $$n$$ (với điều kiện kỳ dị $$\varepsilon$$-lc và các giả thiết chuẩn trong tài liệu) là **bị chặn**: chúng không "tản mát vô hạn" theo nghĩa moduli thô.
+**Định lý (Birkar, 2016).**  
+Với mọi số chiều $$n$$ cố định và mọi ngưỡng kỳ dị $$\varepsilon > 0$$ cố định, họ tất cả các đa tạp Fano chiều $$n$$ có kỳ dị $$\varepsilon$$-lc tạo thành một **họ bị chặn** (tức tất cả chúng đều xuất hiện như các thớ của một họ đa thức trên một không gian tham số kiểu hữu hạn).
 </div>
 
-Hệ quả về mặt tư duy: phân loại ở chiều cao không còn là một danh sách lộn xộn. Sau khi MMP đưa về đa tạp Fano hoặc mô hình tối thiểu, **phía Fano** được kiểm soát toàn cục. Đó là lý do giải Fields nhấn mạnh tính bị chặn: đây không chỉ là một bổ đề kỹ thuật, mà là một **định lý cấu trúc**, làm thay đổi cách ta nghĩ về câu hỏi "có bao nhiêu đa tạp Fano".
+Tóm tắt mạch phát triển:
 
-### 4.1. Ghi nhận công lao cẩn thận
+$$
+\text{Đa tạp } X \text{ tùy ý}
+\;\xrightarrow{\text{MMP (Co + Flip, BCHM)}}\;
+\text{Mô hình tối thiểu } (K\ge 0) \;\text{ hoặc }\; \text{Thớ Fano } (-K>0)
+\;\xrightarrow{\text{Birkar (BAB)}}\;
+\text{Họ Fano bị chặn toàn cục}.
+$$
+
+---
+
+## 2. Ghi nhận công lao và so sánh chiều 2 với chiều cao
 
 | Mốc / nhóm | Vai trò (tóm tắt) |
 |------------|---------------------|
 | Mori, Kawamata, Shokurov, Kollár… | Nền tảng của MMP, định lý nón, lý thuyết kỳ dị |
 | Hacon–McKernan và cộng sự | Bước đột phá ở chiều cao, sự tồn tại của flip trong nhiều trường hợp |
-| BCHM | Tính hữu hạn sinh / MMP cho đa tạp kiểu tổng quát và khung tổng quát hơn |
-| Birkar | Tính bị chặn của đa tạp Fano (giả thuyết BAB); các định lý bổ sung về MMP; Fields 2018 |
-
-Tránh viết "một mình Birkar hoàn tất MMP". Cũng tránh viết "tính bị chặn của đa tạp Fano là toàn bộ MMP".
-
----
-
-## 5. Vì sao quan trọng, kể cả ngoài hình học song hữu tỉ?
-
-**Trong hình học đại số.** Tính bị chặn và MMP tạo ra một **kiến trúc**: mọi đa tạp "đủ tốt" đều có thể đưa về một đại diện chuẩn, và các họ đa tạp Fano không hoang dã. Nhiều hướng hiện đại (tính K-ổn định, moduli của đa tạp Fano, lý thuyết kỳ dị, tính cứng song hữu tỉ) dựa vào việc biết đa tạp Fano bị chặn, hoặc biết MMP chạy được.
-
-**Trong bức tranh chung của Chương 2.** Huy chương Fields không chỉ dành cho "một bất đẳng thức" hay "một phương trình đạo hàm riêng". Birkar là ví dụ cho kiểu **toán học mang tính kiến trúc**: những định lý sắp xếp không gian các đối tượng (các đa tạp) thành những ngăn được kiểm soát. So với Maynard (cấu trúc của số nguyên tố) hay Viazovska (bài toán xếp tối ưu), ở đây là cấu trúc **của chính các không gian hình học**.
-
-**Giới hạn, nói thẳng.**
-
-- MMP và tính bị chặn phụ thuộc vào giả thiết về kỳ dị và về đặc số (các định lý kinh điển được trích ở đây thường ở đặc số 0).  
-- Câu hỏi về tính hữu tỉ của đa tạp Fano, moduli chi tiết, và trường hợp đặc số dương vẫn là những hướng nghiên cứu sôi động.  
-- "Đã phân loại xong" không có nghĩa là mọi đa tạp đều có một danh sách tường minh như với đường cong.
-
----
-
-## 6. So sánh nhanh với phân loại mặt
+| **BCHM** (Birkar–Cascini–Hacon–McKernan) | Tính hữu hạn sinh của vành chính tắc / MMP cho đa tạp kiểu tổng quát ở mọi chiều |
+| **Birkar** | Tính bị chặn của đa tạp Fano (giả thuyết BAB); các định lý bổ sung về MMP; Fields 2018 |
 
 | | Mặt (Enriques–Kodaira) | Chiều cao (MMP + Birkar) |
 |--|------------------------|---------------------------|
 | Bất biến chính | Chiều Kodaira, phân thớ | $$K$$ nef hay không gian thớ Mori; thớ Fano |
-| Thao tác | Phép nổ, phân thớ cổ điển | Phép co, flip, tính hữu hạn sinh |
-| Kiểm soát đa tạp Fano / thớ dương | Khá tường minh ở chiều 2 | Tính bị chặn của đa tạp Fano ở chiều cao |
-| Hiện trạng | Cổ điển, khá hoàn chỉnh | Chương trình dài; nhiều phần lớn đã khép lại |
+| Thao tác | Phép co đường cong $$(-1)$$ trơn | Phép co, **flip**, kỳ dị klt, tính hữu hạn sinh |
+| Kiểm soát đa tạp Fano / thớ dương | Khá tường minh ở chiều 2 | **Tính bị chặn** của đa tạp Fano (Birkar) |
 
-Bài học khi lên chiều cao: *cùng một triết lý phân loại theo tính dương của $$K$$*, nhưng công cụ và kỳ dị phức tạp hơn rất nhiều.
+**Giới hạn cần nói thẳng:** MMP và tính bị chặn kinh điển phát biểu ở đặc số $$0$$ (trên $$\mathbb{C}$$); trường hợp đặc số dương $$p$$, bài toán tính hữu tỉ của đa tạp Fano và cấu trúc chi tiết không gian moduli K-ổn định vẫn là những mặt trận nghiên cứu sôi động.
 
 ---
 
 ## Hiểu lầm thường gặp
 
 | Khẳng định | Đúng/sai | Sửa lại |
-|------------|----------|-----|
-| "Mọi đa tạp đều là Fano." | Sai | Fano là một điều kiện về tính dương của $$-K$$; nhiều đa tạp có $$K$$ nef, hoặc dương theo những nghĩa khác. |
-| "Song hữu tỉ = đẳng cấu." | Sai | Tương đương song hữu tỉ yếu hơn; có thể xuất hiện kỳ dị và tập ngoại lệ. |
-| "Flip chỉ là một phép nổ." | Sai | Flip thay một tập theo tia cực trị; không phải một phép nổ cổ điển đơn giản. |
-| "Fields 2018 chỉ nhờ một bài báo về đa tạp Fano." | Sai | Nó dựa trên nền MMP lâu dài; tính bị chặn là điểm nhấn trong nhiều công trình. |
-| "MMP chạy trên mọi đa tạp trơn, không cần đến kỳ dị." | Sai | Kỳ dị klt/lc và tính Q-giai thừa là một phần của khung lý thuyết hiện đại. |
-| "Bị chặn = chỉ có hữu hạn đa tạp Fano sai khác đẳng cấu." | Gần đúng nhưng thô | Nghĩa kỹ thuật là họ bị chặn trong một cách tham số hóa (moduli); tinh tế hơn "hữu hạn điểm". |
+|------------|----------|---------|
+| "Mọi đa tạp đều là Fano." | Sai | Fano là điều kiện $$-K_X$$ dương; nhiều đa tạp là Calabi–Yau ($$K_X=0$$) hoặc kiểu tổng quát ($$K_X>0$$). |
+| "Song hữu tỉ = đẳng cấu." | Sai | Tương đương song hữu tỉ cho phép bỏ qua tập đóng nhỏ (như phép chiếu lập thể đường tròn ↔ đường thẳng). |
+| "Flip chỉ là một phép nổ." | Sai | Flip thay một tập nhỏ có $$K<0$$ bằng tập mới có $$K>0$$; phức tạp hơn nhiều so với phép nổ cổ điển. |
+| "Một mình Birkar hoàn tất toàn bộ MMP." | Sai | Dựa trên nền tảng của Mori, Kawamata, Shokurov, Kollár, Hacon–McKernan và BCHM; đóng góp riêng nổi bật nhất của Birkar là tính bị chặn đa tạp Fano. |
+| "MMP chạy trên mọi đa tạp trơn, không cần đến kỳ dị." | Sai | Cho phép kỳ dị klt/lc là điều kiện bắt buộc ở chiều $$\ge 3$$. |
+| "Bị chặn = chỉ có hữu hạn đa tạp Fano." | Chưa chính xác | Nghĩa kỹ thuật là chúng nằm trong hữu hạn họ tham số hóa (moduli) có bậc bị chặn, không chỉ hữu hạn điểm rời rạc. |
 
 ---
 

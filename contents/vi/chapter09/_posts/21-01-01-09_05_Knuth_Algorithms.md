@@ -80,13 +80,32 @@ Tìm kiếm tuyến tính trên mảng độ dài $$n$$: $$\Theta(n)$$ worst-cas
 
 Insertion sort: $$\Theta(n^2)$$ so sánh/di chuyển ở average và worst điển hình. Mergesort: $$\Theta(n\log n)$$ luôn, không gian phụ $$\Theta(n)$$. Heapsort: $$\Theta(n\log n)$$, tại chỗ hơn. Quicksort: $$\Theta(n\log n)$$ average với pivot tốt, $$\Theta(n^2)$$ worst nếu pivot ác—do đó có randomized pivot hoặc median-of-medians.
 
-Phân tích quicksort average là ví dụ kinh điển kiểu Knuth: thiết lập hệ thức truy hồi cho số so sánh kỳ vọng $$C_n$$,
+### Ví dụ cầm tay chỉ việc: Tự tính số phép so sánh trung bình của Quicksort và kiểm chứng công thức Knuth
+
+Gọi $$C_n$$ là số phép so sánh trung bình của Quicksort khi chọn ngẫu nhiên một phần tử chốt (pivot) trong mảng $$n$$ phần tử phân biệt (với $$C_0 = C_1 = 0$$). Bước phân hoạch tốn đúng $$n-1$$ phép so sánh và chia mảng thành hai mảng con cỡ $$k$$ và $$n-1-k$$ với xác suất đều $$1/n$$:
 
 $$
-C_n = n-1 + \frac{1}{n}\sum_{k=0}^{n-1}\big(C_k+C_{n-1-k}\big),
+C_n = (n-1) + \frac{1}{n}\sum_{k=0}^{n-1}\bigl(C_k+C_{n-1-k}\bigr) = (n-1) + \frac{2}{n}\sum_{k=0}^{n-1} C_k.
 $$
 
-rồi giải ra $$C_n = 2(n+1)H_n - 4n = \Theta(n\log n)$$. Ở đây ta có thể chấp nhận kết quả; điểm là **mô hình xác suất trên input hoặc trên random bit** trở thành phần của chứng minh.
+1. **Tính tay từng mốc nhỏ:**
+   - $$n = 2$$: $$C_2 = 1 + \frac{2}{2}(0 + 0) = 1$$ phép.
+   - $$n = 3$$: $$C_3 = 2 + \frac{2}{3}(0 + 0 + 1) = \frac{8}{3} \approx 2{,}67$$ phép.
+   - $$n = 4$$: $$C_4 = 3 + \frac{2}{4}\left(0 + 0 + 1 + \frac{8}{3}\right) = 3 + \frac{11}{6} = \frac{29}{6} \approx 4{,}83$$ phép.
+2. **Kiểm chứng công thức đóng chính xác của Knuth:** giải hệ thức truy hồi trên cho ra $$C_n = 2(n+1)H_n - 4n$$ với số điều hòa $$H_n = 1 + \frac{1}{2} + \dots + \frac{1}{n}$$. Thay $$n = 4$$ (với $$H_4 = 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} = \frac{25}{12}$$):
+$$
+2(4+1)\cdot\frac{25}{12} - 4(4) = \frac{250}{12} - \frac{192}{12} = \frac{58}{12} = \frac{29}{6} \approx 4{,}83!
+$$
+Khớp từng phân số một! Và vì $$H_n \approx \ln n$$, ta thấy ngay Quicksort trung bình chỉ tốn khoảng $$2n\ln n \approx 1{,}386\,n\log_2 n$$ phép so sánh — chỉ nhiều hơn chặn dưới lý thuyết $$\log_2(n!)$$ khoảng 39%!
+
+### Khung giải thích: Nghệ thuật phân tích thuật toán của Knuth gồm 4 bước nào? (nên đọc chậm)
+
+1. **Chứng minh tính đúng đắn bằng bất biến vòng lặp (loop invariant):** trước khi đếm tốc độ, phải chứng minh thuật toán luôn dừng và trả về đúng kết quả cho *mọi* đầu vào hợp lệ.
+2. **Chọn thao tác cơ bản và lập hàm chi phí $$T(n)$$:** dịch các vòng lặp hoặc lời gọi đệ quy thành tổng đại số hoặc hệ thức truy hồi.
+3. **Giải chính xác hoặc ước lượng tiệm cận ($$O, \Theta, \Omega$$):** dùng hàm sinh, số điều hòa $$H_n$$ và công thức Stirling để thấy rõ cả bậc tăng trưởng lẫn hằng số chính.
+4. **Đối chiếu với chặn dưới và cấu trúc dữ liệu:** so $$T(n)$$ với chặn dưới thông tin (như $$\Omega(n\log n)$$ cho sắp xếp so sánh) và kiểm tra xem thay đổi cấu trúc dữ liệu (mảng → heap / cây cân bằng / bảng băm) có hạ được bậc chi phí hay không.
+
+**Kiểm tra nhanh.** Phân tích Knuth tinh tế hơn câu khẩu hiệu "big-O": trên dữ liệu nhỏ ($$n \le 20$$), hằng số ẩn và bộ nhớ đệm CPU mới là yếu tố quyết định thuật toán nào thắng.
 
 ### Duyệt đồ thị
 

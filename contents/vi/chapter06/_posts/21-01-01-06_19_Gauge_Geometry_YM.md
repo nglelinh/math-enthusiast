@@ -16,17 +16,19 @@ Trong điện từ học cổ điển, các nhà vật lý sớm nhận ra một
 
 ---
 
-## Bản đồ kiến thức nền: Hình học vi phân, phân thớ chính và lý thuyết trường chuẩn nghiên cứu những gì?
+## Bản đồ kiến thức nền: Hình học vi phân, Phân thớ chính và Lý thuyết trường chuẩn nghiên cứu những gì?
 
-Nếu bạn từng học giải tích nhiều biến và thấy quen thuộc với đạo hàm có hướng hay mặt cong trong $$\mathbb{R}^3$$, bạn sẽ dễ dàng bước vào **hình học trường chuẩn (gauge geometry)** bằng một ẩn dụ đời thường: *tỉ giá hối đoái và vận chuyển song song trên mặt cầu*.
+Với hành trang giải tích nhiều biến và ma trận đại học, bạn có thể nắm trọn ba trụ cột của **hình học trường chuẩn (gauge geometry)** qua ẩn dụ tỉ giá hối đoái và vận chuyển song song:
 
-Hãy tưởng tượng mỗi điểm $$x$$ trên bản đồ thế giới (không–thời gian $$M$$) có một "đồng tiền nội tệ" hoặc một "hệ trục quy chiếu nội tại" riêng (được mô tả bởi một nhóm đối xứng Lie $$G$$ — gọi là **thớ** gắn tại điểm $$x$$). Tập hợp toàn bộ các thớ dính mượt mà lên từng điểm của $$M$$ tạo thành một **phân thớ chính** (principal bundle).
+### 1. Phân thớ chính (Principal Bundle) — "hệ quy chiếu nội tại ở từng điểm"
+Hãy tưởng tượng mỗi điểm $$x$$ trên bản đồ không–thời gian $$M$$ có một "đồng tiền nội tệ" hay một "hệ trục quay nội tại" riêng, được mô tả bởi một nhóm Lie $$G$$ (chẳng hạn $$U(1)$$ là vòng tròn pha, $$SU(2)$$ là nhóm quay spin/isospin, $$SU(3)$$ là đối xứng màu). Toàn bộ các bản sao của $$G$$ dính mượt mà lên từng điểm của $$M$$ tạo thành một **phân thớ chính**. Điểm tinh tế của tô pô là ở cấp toàn cục, phân thớ có thể bị "xoắn" (giống dải Möbius khác hình trụ) nên không phải lúc nào cũng chọn được một hệ quy chiếu chung cho cả không gian.
 
-- **Liên thông (connection) là gì?** Nếu bạn muốn so sánh một trạng thái (ví dụ pha của electron hay "màu" của hạt quark) tại điểm $$x$$ với trạng thái tại điểm lân cận $$y$$, bạn không thể trừ trực tiếp vì hai điểm có thể đang chọn hệ quy chiếu nội tại khác nhau! Bạn cần một quy tắc "quy đổi" dọc theo từng bước đi vô cùng nhỏ — quy tắc quy đổi đó chính là **liên thông $$A$$** (thế gauge). Trong bài toán tiền tệ, $$A$$ giống như bảng tỉ giá giữa hai thành phố liền kề.
-- **Độ cong (curvature) là gì?** Giả sử bạn đi du lịch một vòng kín (Hà Nội → Tokyo → New York → Hà Nội) và đổi tiền liên tục dọc đường. Nếu quay về Hà Nội mà số tiền còn lại bị lệch so với ban đầu, thì có cơ hội chênh lệch tỉ giá (arbitrage)! Trong hình học, độ lệch thu được sau khi vận chuyển song song quanh một vòng kín nhỏ vô hạn chính là **độ cong $$F$$** (cường độ trường). Trên mặt cầu Trái Đất, nếu bạn cầm một cây giáo đi từ Bắc Cực xuống Xích Đạo, rẽ ngang $$90^\circ$$ rồi quay lại Bắc Cực mà luôn giữ giáo "song song với chính nó", cây giáo sẽ xoay mất $$90^\circ$$ — đó chính là độ cong của mặt cầu.
-- **Lý thuyết Yang–Mills nghiên cứu gì?** Nó tìm những liên thông $$A$$ có "năng lượng độ cong" tổng thể đạt cực tiểu (phương trình đạo hàm riêng phi tuyến), nghiên cứu hình dáng không gian các nghiệm đó (không gian moduli) để phân biệt các đa tạp 4 chiều, và trong vật lý lượng tử, tìm cách lượng tử hóa toàn bộ không gian các liên thông.
+### 2. Liên thông (Connection) và Độ cong (Curvature)
+Nếu muốn so sánh trạng thái tại điểm $$x$$ với điểm lân cận $$y$$, bạn cần một quy tắc "quy đổi" dọc theo từng bước đi vô cùng nhỏ — đó chính là **liên thông $$A$$** (thế gauge, giống bảng tỉ giá giữa hai thành phố kề nhau). Nếu bạn đi một vòng kín (Hà Nội → Tokyo → New York → Hà Nội) và đổi tiền liên tục dọc đường mà lúc quay về số tiền bị lệch so với ban đầu, độ lệch trên mỗi đơn vị diện tích vòng kín chính là **độ cong $$F$$** (cường độ trường)! Trên mặt cầu Trái Đất, cầm một cây giáo đi từ Bắc Cực xuống Xích Đạo, rẽ ngang $$90^\circ$$ rồi quay lại Bắc Cực mà luôn giữ giáo song song với chính nó, cây giáo sẽ xoay mất $$90^\circ$$ — đó chính là holonomy đo độ cong.
 
-Một khi nắm được bộ ba **phân thớ – liên thông – độ cong**, toàn bộ công thức của điện từ học và Mô hình chuẩn bỗng hiện ra như hình học thuần túy.
+### 3. Lý thuyết Yang–Mills cổ điển vs. lượng tử
+- **Phía hình học cổ điển (toán thuần túy đã chín muồi):** Tìm các liên thông $$A$$ cực tiểu hóa năng lượng độ cong $$\int \operatorname{tr}(F\wedge\star F)$$, giải phương trình đạo hàm riêng phi tuyến, khảo sát không gian nghiệm (moduli) để phân biệt các đa tạp 4 chiều (Uhlenbeck, Donaldson).
+- **Phía vật lý lượng tử (Mô hình chuẩn & bài toán Clay):** Lượng tử hóa toàn bộ không gian các liên thông. Trong vật lý hạt, đây là bộ công cụ dự đoán chuẩn xác nhất lịch sử; nhưng chứng minh chặt chẽ sự tồn tại và khe khối lượng ở 4 chiều vẫn là bài toán Thiên niên kỷ còn mở.
 
 ---
 
@@ -74,7 +76,30 @@ $$
 F = dA + A\wedge A.
 $$
 
-Khi $$G=U(1)$$, các thành phần của $$A$$ là số thực/phức giao hoán với nhau nên số hạng $$A \wedge A$$ triệt tiêu và ta trở lại lý thuyết Maxwell tuyến tính — hai tia sáng đi xuyên qua nhau không tự tương tác. Ngược lại, với $$SU(2)$$ hay $$SU(3)$$, các ma trận trong $$A$$ **không giao hoán**, nên $$A \wedge A$$ (thực chất là giao hoán tử ma trận $$\frac{1}{2}[A_\mu, A_\nu]\,dx^\mu \wedge dx^\nu$$) khác không và làm cho phương trình trường trở thành **phi tuyến**: hạt truyền lực gluon bản thân nó cũng mang điện tích màu và **tự tương tác với chính nó**.
+Khi $$G=U(1)$$, các thành phần của $$A$$ là số thực/phức giao hoán với nhau nên số hạng $$A \wedge A$$ triệt tiêu và ta trở lại lý thuyết Maxwell tuyến tính — hai tia sáng đi xuyên qua nhau không tự tương tác. Ngược lại, với $$SU(2)$$ hay $$SU(3)$$, các ma trận trong $$A$$ **không giao hoán**, nên $$A \wedge A$$ khác không và làm cho phương trình trường trở thành **phi tuyến**: hạt truyền lực gluon bản thân nó cũng mang điện tích màu và **tự tương tác với chính nó**.
+
+### Khung giải thích: vì sao thế gauge hằng số vẫn sinh ra trường khác không? (nên đọc chậm)
+
+Trong điện từ học giao hoán $$U(1)$$, nếu thế vectơ $$\mathbf{A}$$ là hằng số khắp không gian thì mọi đạo hàm đều bằng $$0$$, suy ra cường độ trường $$\mathbf{B} = \nabla \times \mathbf{A} = 0$$. Nhưng trong lý thuyết **Yang–Mills $$SU(2)$$**, điều kỳ diệu xảy ra ngay cả khi thế gauge không hề thay đổi theo tọa độ! Hãy tự tay kiểm tra bằng ma trận $$2 \times 2$$:
+
+1. **Chọn hai thành phần liên thông hằng số** nằm trong đại số Lie $$\mathfrak{su}(2)$$ (các ma trận $$2\times 2$$ phản Hermite có vết bằng 0):
+   $$
+   A_x = \frac{i}{2}\sigma_1 = \begin{pmatrix} 0 & i/2 \\ i/2 & 0 \end{pmatrix}, \qquad A_y = \frac{i}{2}\sigma_2 = \begin{pmatrix} 0 & 1/2 \\ -1/2 & 0 \end{pmatrix}.
+   $$
+2. **Tính phần đạo hàm:** Vì $$A_x$$ và $$A_y$$ là ma trận hằng số, ta có $$\partial_x A_y = 0$$ và $$\partial_y A_x = 0$$.
+3. **Tính phần giao hoán tử $$[A_x, A_y] = A_x A_y - A_y A_x$$:**
+   $$
+   A_x A_y = \begin{pmatrix} 0 & i/2 \\ i/2 & 0 \end{pmatrix}\begin{pmatrix} 0 & 1/2 \\ -1/2 & 0 \end{pmatrix} = \begin{pmatrix} -i/4 & 0 \\ 0 & i/4 \end{pmatrix},
+   $$
+   $$
+   A_y A_x = \begin{pmatrix} 0 & 1/2 \\ -1/2 & 0 \end{pmatrix}\begin{pmatrix} 0 & i/2 \\ i/2 & 0 \end{pmatrix} = \begin{pmatrix} i/4 & 0 \\ 0 & -i/4 \end{pmatrix}.
+   $$
+4. **Đọc ra độ cong $$F_{xy}$$:**
+   $$
+   F_{xy} = \partial_x A_y - \partial_y A_x + [A_x, A_y] = \begin{pmatrix} -i/2 & 0 \\ 0 & i/2 \end{pmatrix} = -\frac{i}{2}\sigma_3 \neq 0!
+   $$
+
+Chỉ bằng 3 dòng nhân ma trận $$2\times 2$$, bạn vừa thấy tận mắt lý do số hạng $$A \wedge A$$ thay đổi toàn bộ vật lý: hai phép vận chuyển song song theo hướng $$x$$ rồi $$y$$ không khớp với đi theo $$y$$ rồi $$x$$, tạo ra độ cong ngay từ sự tự tương tác của bản thân trường gauge!
 
 Tác dụng Yang–Mills
 

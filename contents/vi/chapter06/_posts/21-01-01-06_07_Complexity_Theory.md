@@ -81,6 +81,31 @@ $$A$$ quy dẫn Karp về $$B$$ nếu có hàm $$f$$ tính được trong thời
 
 ---
 
+### Khung giải thích: tự tay kiểm chứng 3-SAT và quy dẫn sang Tập độc lập (nên đọc chậm)
+
+Câu nói *"mọi bài toán trong NP đều quy dẫn được về bài toán khác bằng các mảnh ghép (gadget)"* nghe rất trừu tượng. Hãy tự tay dựng một phép quy dẫn thật từ bài toán logic **3-SAT** sang bài toán đồ thị **Tập độc lập** (*Independent Set* — tìm $$k$$ đỉnh đôi một không có cạnh nối).
+
+Xét công thức 3-SAT gồm 3 biến và $$k = 2$$ mệnh đề:
+
+$$
+\varphi = \underbrace{(x_1 \lor \neg x_2 \lor x_3)}_{C_1} \;\land\; \underbrace{(\neg x_1 \lor x_2 \lor \neg x_3)}_{C_2}.
+$$
+
+1. **Kiểm chứng nhanh (bản chất của lớp NP):** Nếu ai đó đưa cho bạn chứng cứ $$w = (x_1=1,\, x_2=1,\, x_3=0)$$, bạn thay thẳng vào từng mệnh đề:
+   - $$C_1 = (1 \lor 0 \lor 0) = 1$$ (Đúng),
+   - $$C_2 = (0 \lor 1 \lor 1) = 1$$ (Đúng).
+   Toàn bộ phép kiểm tra chỉ mất vài phép đọc — đó là lý do 3-SAT thuộc **NP**.
+
+2. **Dựng đồ thị quy dẫn $$G = f(\varphi)$$ (gồm 6 đỉnh):**
+   - **Mỗi mệnh đề thành một tam giác 3 đỉnh:** Mệnh đề $$C_1$$ tạo tam giác có 3 đỉnh gắn nhãn $$(x_1^{(1)},\, \neg x_2^{(1)},\, x_3^{(1)})$$; mệnh đề $$C_2$$ tạo tam giác $$(\neg x_1^{(2)},\, x_2^{(2)},\, \neg x_3^{(2)})$$. Vì 3 đỉnh trong cùng tam giác nối kín với nhau, bất kỳ tập độc lập nào cũng chọn được **tối đa 1 đỉnh** từ mỗi tam giác.
+   - **Nối cạnh giữa mọi cặp mâu thuẫn:** Nối $$x_1^{(1)}$$ với $$\neg x_1^{(2)}$$, nối $$\neg x_2^{(1)}$$ với $$x_2^{(2)}$$, và nối $$x_3^{(1)}$$ với $$\neg x_3^{(2)}$$. Cạnh này cấm ta chọn đồng thời một biến vừa Đúng vừa Sai!
+
+3. **Kiểm tra sự tương đương hai chiều bằng tay:**
+   - **Chiều thuận:** Từ nghiệm $$(1, 1, 0)$$, chọn một chữ Đúng trong mỗi mệnh đề: đỉnh $$x_1^{(1)}$$ ở tam giác 1 và đỉnh $$x_2^{(2)}$$ ở tam giác 2. Kiểm tra trên đồ thị: giữa $$x_1^{(1)}$$ và $$x_2^{(2)}$$ **không có cạnh nối**, nên $$\{x_1^{(1)},\, x_2^{(2)}\}$$ là tập độc lập kích thước $$k = 2$$!
+   - **Chiều ngược:** Nếu đồ thị có tập độc lập cỡ $$2$$, nó buộc phải lấy đúng 1 đỉnh ở tam giác 1 và 1 đỉnh ở tam giác 2, và hai đỉnh đó không được mâu thuẫn nhau (vì không có cạnh nối). Gán hai chữ được chọn bằng Đúng (các biến chưa dùng gán tùy ý), cả hai mệnh đề lập tức Đúng!
+
+Phép biến đổi từ $$\varphi$$ sang đồ thị $$G$$ chỉ tốn thời gian tuyến tính theo số mệnh đề. Vì vậy, nếu ngày mai có ai tìm ra thuật toán chạy nhanh (thời gian đa thức) cho bài toán Tập độc lập trên đồ thị, ta lập tức giải nhanh được 3-SAT — và kéo theo toàn bộ lớp NP sụp đổ về P.
+
 ## 4. Một số lớp tiêu biểu
 
 | Lớp / ý | Trực giác |

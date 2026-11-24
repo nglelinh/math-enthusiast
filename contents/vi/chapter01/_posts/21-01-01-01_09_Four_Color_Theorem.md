@@ -20,9 +20,7 @@ Lịch sử của **Định lý Bốn Màu (4CT)** đầy những cú ngoặt k�
 
 Khác với [giả thuyết Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) hay [Kakeya trong nhiều chiều]({{ site.baseurl }}/contents/vi/chapter01/01_08_Kakeya_Conjecture/), 4CT **đã được giải**. Nhưng chính cách giải ấy đã làm bùng nổ một cuộc tranh luận triết học lớn về bản chất của chứng minh toán học: *liệu một định lý mà không một con người nào có thể tự tay kiểm tra hết mọi bước trên giấy có thực sự là một chứng minh?* Các bản rút gọn sau đó (Robertson–Sanders–Seymour–Thomas, 1997) và bản hình thức hóa hoàn toàn bằng trợ lý chứng minh **Coq** của Georges Gonthier (2005) đã khép lại nghi ngờ về lỗi lập trình, đồng thời mở ra kỷ nguyên mới của chứng minh có máy tính hỗ trợ.
 
-Bài này phát biểu chặt chẽ 4CT, giải thích vì sao năm màu dễ còn bốn màu cực khó, và phân biệt rành mạch "chứng minh có máy tính hỗ trợ" với mô phỏng ngẫu nhiên.
-
-**Mạch bài học:** bài toán tô bản đồ → đồ thị đối ngẫu → định lý năm màu → phản ví dụ nhỏ nhất → phương pháp phóng điện và tính khả quy → vai trò của máy tính → câu hỏi triết học về chứng minh → các mặt có giống cao hơn (Heawood).
+**Mạch bài học:** Bản đồ kiến thức nền → bài toán tô bản đồ & đồ thị đối ngẫu (ví dụ $$K_4, K_5, K_7$$) → định lý năm màu & chuỗi Kempe → ví dụ kế toán phóng điện trên khối 20 mặt đều & khung giải thích 4 bước của chứng minh 4CT → kiểm chứng hình thức Coq → định lý Heawood.
 
 ---
 
@@ -48,10 +46,16 @@ Sau bài học, bạn có thể:
 
 Đằng sau câu hỏi tô bản đồ có ba trụ cột toán học và tin học cực kỳ hữu dụng mà bất kỳ người học đại học nào cũng nên biết:
 
-- **Lý thuyết đồ thị (Graph Theory):** Thay vì quan tâm một quốc gia có hình thù méo mó hay rộng bao nhiêu km², lý thuyết đồ thị lược bỏ hết chi tiết thừa và chỉ giữ lại **đỉnh** (đối tượng) và **cạnh** (mối quan hệ kề nhau). **Đồ thị phẳng** (*planar graph*) là đồ thị có thể vẽ lên mặt giấy sao cho không có hai cạnh nào cắt nhau. Công cụ nền tảng nhất của đồ thị phẳng là **công thức Euler** $$v - e + f = 2$$ (số đỉnh trừ số cạnh cộng số mặt luôn bằng 2).
-- **Tôpô bề mặt (Surface Topology):** Hình dạng không gian vẽ bản đồ quyết định số màu tối đa! Mặt phẳng và mặt cầu (không có "lỗ thủng", giống $$g=0$$) khác hẳn mặt xuyến hình bánh donut (có 1 lỗ thủng, giống $$g=1$$) — trên mặt bánh donut, ta có thể vẽ 7 quốc gia mà nước nào cũng tiếp giáp với cả 6 nước còn lại!
-- **Kiểm chứng hình thức (Formal Verification):** Các trợ lý chứng minh như **Coq** hay **Lean** cho phép viết một định lý và toàn bộ chứng minh của nó thành mã logic chặt chẽ; một chương trình lõi nhỏ gọn (kernel) sẽ kiểm tra máy móc từng bước suy luận về tận các tiên đề cơ bản để bảo đảm không sót bất kỳ lỗ hổng nào.
-- **Ứng dụng thực tiễn:** Bài toán tô màu đồ thị xuất hiện hằng ngày trong **cấp phát thanh ghi (register allocation)** của trình biên dịch (mỗi biến là một đỉnh, hai biến sống cùng lúc được nối cạnh, mỗi màu là một thanh ghi CPU), **phân bổ tần số trạm phát sóng di động** (hai trạm gần nhau không được trùng tần số), và **xếp lịch thi đại học** (hai môn có chung sinh viên không được thi cùng giờ).
+### 1. Lý thuyết đồ thị & Đồ thị phẳng (Graph Theory)
+Thay vì quan tâm một quốc gia có hình thù méo mó hay diện tích bao nhiêu km², lý thuyết đồ thị lược bỏ hết chi tiết thừa và chỉ giữ lại **đỉnh** (đối tượng) và **cạnh** (mối quan hệ kề nhau). **Đồ thị phẳng** (*planar graph*) là đồ thị có thể vẽ lên mặt giấy sao cho không có hai cạnh nào cắt nhau. Công cụ nền tảng nhất của đồ thị phẳng là **công thức Euler** $$v - e + f = 2$$ (số đỉnh trừ số cạnh cộng số mặt luôn bằng 2).
+
+### 2. Tôpô bề mặt & Giống $$g$$ (Surface Topology)
+Hình dạng không gian vẽ bản đồ quyết định số màu tối đa! Trên mặt có $$g$$ "lỗ thủng" (gọi là **giống** $$g$$), công thức Euler tổng quát trở thành $$v - e + f = 2 - 2g$$. Mặt phẳng và mặt cầu ($$g = 0$$) khác hẳn mặt xuyến hình bánh donut ($$g = 1$$) — trên mặt bánh donut, ta có thể vẽ 7 quốc gia mà nước nào cũng tiếp giáp với cả 6 nước còn lại!
+
+### 3. Kiểm chứng hình thức & Trợ lý chứng minh (Formal Verification)
+Các trợ lý chứng minh như **Coq** hay **Lean** cho phép viết một định lý và toàn bộ chứng minh của nó thành mã logic chặt chẽ; một chương trình lõi nhỏ gọn (*kernel*) sẽ kiểm tra máy móc từng bước suy luận về tận các tiên đề cơ bản để bảo đảm không sót bất kỳ lỗ hổng nào.
+
+**Ứng dụng thực tiễn:** Bài toán tô màu đồ thị xuất hiện hằng ngày trong **cấp phát thanh ghi (register allocation)** của trình biên dịch (mỗi biến là một đỉnh, hai biến sống cùng lúc được nối cạnh, mỗi màu là một thanh ghi CPU), **phân bổ tần số trạm phát sóng di động** (hai trạm gần nhau không được trùng tần số), và **xếp lịch thi đại học** (hai môn có chung sinh viên không được thi cùng giờ).
 
 ---
 
@@ -84,18 +88,20 @@ Tô màu các miền tương đương hoàn toàn với tô màu các đỉnh sa
 
 **Dạng đồ thị của 4CT.** Mọi đồ thị phẳng hữu hạn $$G$$ đều thỏa mãn $$\chi(G)\le 4$$, trong đó **sắc số** $$\chi(G)$$ là số màu tối thiểu cần để tô hợp lệ các đỉnh.
 
-**Vì sao mọi đồ thị phẳng đều phải có một đỉnh "ít hàng xóm" (bậc $$\le 5$$)?**
-Đây là phép tính ngắn tuyệt đẹp từ công thức Euler $$v - e + f = 2$$ cho đồ thị phẳng đơn liên thông có $$v \ge 3$$ đỉnh:
-- Mỗi mặt (kể cả mặt vô hạn bên ngoài) được bao bởi ít nhất 3 cạnh, và mỗi cạnh làm biên cho tối đa 2 mặt, nên $$3f \le 2e \implies f \le \frac{2}{3}e$$.
-- Thay vào công thức Euler: $$2 = v - e + f \le v - e + \frac{2}{3}e = v - \frac{1}{3}e$$, suy ra ngay bất đẳng thức nổi tiếng:
+### Ví dụ cầm tay chỉ việc 1: Từ công thức Euler đến giới hạn cạnh trên mặt phẳng ($$K_4, K_5$$) và mặt xuyến ($$K_7$$)
+
+Với đồ thị phẳng đơn liên thông có $$v \ge 3$$ đỉnh, mỗi mặt (kể cả mặt vô hạn bên ngoài) được bao bởi ít nhất 3 cạnh, và mỗi cạnh làm biên cho tối đa 2 mặt, nên $$3f \le 2e \implies f \le \frac{2}{3}e$$. Thay vào công thức Euler $$v - e + f = 2$$:
 
 $$
-e \le 3v - 6.
+2 = v - e + f \le v - e + \frac{2}{3}e = v - \frac{1}{3}e \quad\Longrightarrow\quad e \le 3v - 6.
 $$
 
-- Vì tổng bậc của tất cả các đỉnh bằng $$2e$$, nên **bậc trung bình** của đồ thị là $$\frac{2e}{v} \le 6 - \frac{12}{v} < 6$$! Một dãy số có trung bình nhỏ hơn 6 thì **chắc chắn phải có ít nhất một đỉnh có bậc $$\le 5$$**!
+Hãy kiểm tra ngay trên 3 đồ thị đầy đủ (mọi cặp đỉnh đều nối nhau):
+1. **$$K_4$$ trên mặt phẳng:** $$v = 4,\, e = \binom{4}{2} = 6$$. Kiểm tra: $$6 \le 3(4) - 6 = 6$$ (vừa khít!). Ta vẽ được $$K_4$$ phẳng và cần đúng 4 màu.
+2. **$$K_5$$ trên mặt phẳng:** $$v = 5,\, e = \binom{5}{2} = 10$$. Kiểm tra: $$10 > 3(5) - 6 = 9$$ → **bất khả thi!** Do đó không bao giờ có 5 nước trên mặt phẳng mà nước nào cũng tiếp giáp cả 4 nước kia.
+3. **$$K_7$$ trên mặt xuyến ($$g = 1$$):** Công thức Euler đổi thành $$v - e + f = 2 - 2(1) = 0 \implies e \le 3v$$! Thử với $$K_7$$ ($$v = 7,\, e = \binom{7}{2} = 21$$): $$21 \le 3(7) = 21$$ — vừa khít! Thực sự vẽ được $$K_7$$ không cắt cạnh trên bánh donut, nên mặt xuyến cần tới 7 màu!
 
-Kết quả nhỏ bé này chính là viên gạch khởi đầu cho cả chứng minh năm màu lẫn bốn màu.
+Ngoài ra, trên mặt phẳng, vì tổng bậc bằng $$2e$$ nên **bậc trung bình** là $$\frac{2e}{v} \le 6 - \frac{12}{v} < 6$$! Một dãy số có trung bình nhỏ hơn 6 thì **chắc chắn có ít nhất một đỉnh bậc $$\le 5$$**. Kết quả nhỏ bé này chính là viên gạch khởi đầu cho cả chứng minh năm màu lẫn bốn màu.
 
 **Lưu ý về mô hình.** 4CT ở dạng chuẩn giả thiết các miền là liên thông (mỗi nước là một mảnh liền). Nếu một nước **không liên thông** (gồm nhiều mảnh rời nhau phải tô cùng màu) thì bài toán thay đổi hẳn và có thể cần nhiều màu tùy ý.
 
@@ -120,29 +126,39 @@ Tóm tắt dễ nhớ: **năm màu = quy nạp + công thức Euler + chuỗi Ke
 
 ## 4. Phản ví dụ nhỏ nhất và chiến lược của Appel–Haken
 
-Vì không thể xử lý chỉ bằng *một* đỉnh bậc 5 cô độc, các nhà toán học chuyển sang nhìn những **cụm đỉnh cục bộ** (gọi là *cấu hình* — configuration) bằng lập luận phản chứng tuyệt đẹp:
+### Ví dụ cầm tay chỉ việc 2: Thử phép kế toán "phóng điện" (Discharging) trên khối 20 mặt đều
 
-Giả sử 4CT sai, khi đó phải tồn tại một **phản ví dụ nhỏ nhất** $$G$$ (đồ thị phẳng ít đỉnh nhất không tô được bằng 4 màu). Sau các bước rút gọn chuẩn, $$G$$ buộc phải có bậc tối thiểu bằng 5 và gần như là một phép tam giác phân. Bây giờ ta tìm cách ghép hai mảnh ghép lại với nhau:
+Với mọi đồ thị phẳng tam giác phân (mọi mặt đều là tam giác, $$3f = 2e$$), thay $$f = \frac{2}{3}e$$ vào $$v - e + f = 2$$ ta có $$6v - 2e = 12$$. Vì $$2e = \sum_{v} \deg(v)$$, ta thu được đẳng thức kế toán vàng:
 
-1. **Tính khả quy (Reducibility):** Một cấu hình cục bộ $$C$$ gọi là *khả quy* nếu mọi cách tô 4 màu cho phần còn lại $$G-C$$ (có thể sau khi đổi màu bằng chuỗi Kempe) đều mở rộng được thành cách tô 4 màu cho cả $$G$$. Hệ quả ngay lập tức: **không một cấu hình khả quy nào có thể xuất hiện trong phản ví dụ nhỏ nhất $$G$$!**
-2. **Tập không tránh được (Unavoidable set):** Một danh sách hữu hạn $$\mathcal{U}$$ các cấu hình gọi là *không tránh được* nếu *mọi* đồ thị phẳng cực đại bậc tối thiểu 5 đều **bắt buộc** phải chứa ít nhất một cấu hình $$C \in \mathcal{U}$$.
+$$
+\sum_{v} \bigl(6 - \deg(v)\bigr) = 12.
+$$
 
-Nếu dựng được một tập không tránh được $$\mathcal{U}$$ mà **mọi** cấu hình trong $$\mathcal{U}$$ đều **khả quy**, ta thu được mâu thuẫn ngay lập tức: phản ví dụ nhỏ nhất $$G$$ vừa *phải chứa* một cấu hình trong $$\mathcal{U}$$, lại vừa *không được phép chứa* cấu hình nào trong $$\mathcal{U}$$! Vậy không có phản ví dụ nào tồn tại — 4CT đúng!
+Hãy kiểm tra ngay trên **khối 20 mặt đều (Icosahedron)**: có $$v = 12$$ đỉnh, $$e = 30$$ cạnh, $$f = 20$$ mặt tam giác, và mọi đỉnh đều có bậc $$\deg(v) = 5$$.
+- Kiểm tra công thức Euler: $$12 - 30 + 20 = 2$$ ✓.
+- Gán cho mỗi đỉnh "điện tích" ban đầu $$q(v) = 6 - \deg(v)$$: mỗi đỉnh bậc 5 nhận $$+1$$, tổng điện tích toàn đồ thị là $$12 \times (+1) = \mathbf{+12}$$!
+
+Bây giờ hãy tưởng tượng một phản ví dụ nhỏ nhất $$G$$ có hàng triệu đỉnh (bậc tối thiểu 5): đỉnh bậc 5 có điện tích $$+1$$ ("người giàu"), đỉnh bậc 6 hòa vốn ($$0$$), đỉnh bậc 7, 8, ... có điện tích $$-1, -2, \ldots$$ ("người nợ"). Khi ta áp dụng các quy tắc **chuyển điện tích cục bộ** từ đỉnh bậc 5 sang các hàng xóm bậc $$\ge 7$$, tổng điện tích toàn đồ thị **bảo toàn và vẫn bằng đúng $$+12 > 0$$**! Do đó *bắt buộc phải tồn tại ít nhất một đỉnh có điện tích cuối cùng dương* — và để điều đó xảy ra, lân cận của đỉnh ấy phải rơi vào một trong các cấu hình của danh sách hữu hạn $$\mathcal{U}$$!
+
+### Khung giải thích: Chuỗi logic 4 bước của chứng minh Định lý Bốn Màu (nên đọc chậm)
+
+Nhiều người tưởng máy tính "thử tô vài tỷ bản đồ rồi kết luận 4CT đúng". Thực tế chứng minh 4CT là một lập luận phản chứng chặt chẽ gồm đúng 4 bước:
+
+#### Bước 1: Giả sử tồn tại một "phản ví dụ nhỏ nhất" $$G$$
+Giả sử có đồ thị phẳng không tô được bằng 4 màu, chọn đồ thị $$G$$ có **số đỉnh ít nhất**. Khi đó *mọi* đồ thị phẳng nhỏ hơn $$G$$ đều tô được bằng 4 màu, và ta dễ dàng rút gọn để $$G$$ là đồ thị tam giác phân có mọi đỉnh bậc $$\ge 5$$.
+
+#### Bước 2: Dùng phương pháp phóng điện tìm "tập không tránh được" $$\mathcal{U}$$ (con người thiết kế)
+Bằng quy tắc chuyển điện tích như ví dụ trên, con người chứng minh bằng tay rằng *mọi* đồ thị phẳng tam giác phân bậc tối thiểu 5 đều **bắt buộc** chứa ít nhất một cấu hình cục bộ nằm trong một danh sách hữu hạn $$\mathcal{U}$$ (Appel–Haken 1976: khoảng 1.500–1.900 cấu hình; RSST 1997 rút gọn xuống đúng **633 cấu hình**).
+
+#### Bước 3: Dùng máy tính chứng minh mọi cấu hình trong $$\mathcal{U}$$ đều "khả quy"
+Một cấu hình $$C$$ là **khả quy (reducible)** nếu mọi cách tô 4 màu cho phần ngoài $$G - C$$ đều kéo dài được (có thể sau khi đảo chuỗi Kempe) thành cách tô 4 màu cho cả $$G$$ — đồng nghĩa $$C$$ **không thể** xuất hiện trong phản ví dụ nhỏ nhất $$G$$! Vì mỗi cấu hình có vòng biên từ 10 đến 14 đỉnh với hàng chục nghìn cách tô vòng biên, máy tính chạy thuật toán kiểm tra *cạn kiệt 100%* toàn bộ 633 cấu hình để xác nhận tất cả đều khả quy.
+
+#### Bước 4: Mâu thuẫn khép lại chứng minh (và khóa chặt bằng Coq)
+Phản ví dụ nhỏ nhất $$G$$ vừa *phải chứa* một $$C \in \mathcal{U}$$ (Bước 2), lại vừa *không được phép chứa* bất kỳ $$C \in \mathcal{U}$$ nào (Bước 3) → **mâu thuẫn!** Vậy không có phản ví dụ nào tồn tại. Năm 2005, Georges Gonthier hình thức hóa toàn bộ 4 bước này trong trợ lý chứng minh **Coq**, loại bỏ hoàn toàn nguy cơ lỗi lập trình.
 
 ![Pipeline]({{ site.baseurl }}/img/chapter_img/fourcolor_proof_pipeline.svg)
 
 *Hình. Tập không tránh được + kiểm tra tính khả quy ⇒ không có phản ví dụ nhỏ nhất.*
-
-**Vì sao lại nghĩ ra "phương pháp phóng điện" (discharging) để chứng minh tập $$\mathcal{U}$$ là không tránh được?**
-Hãy hình dung như một bài toán kế toán cực kỳ khéo léo! Từ công thức Euler cho đồ thị tam giác phân, ta chứng minh được đẳng thức:
-
-$$
-\sum_{v} (6 - \deg(v)) = 12.
-$$
-
-Hãy gán cho mỗi đỉnh $$v$$ một "điện tích" (hay số tiền) ban đầu bằng $$6 - \deg(v)$$. Như vậy đỉnh bậc 5 là "người giàu" (có $$+1$$), đỉnh bậc 6 hòa vốn ($$0$$), còn đỉnh bậc 7, 8, ... đang "nợ" ($$-1, -2, \ldots$$). Tổng điện tích toàn đồ thị là $$+12 > 0$$. Bây giờ con người thiết kế các quy tắc **chuyển tiền cục bộ** từ đỉnh bậc 5 sang các hàng xóm bậc cao hơn. Vì tiền chỉ chuyển qua lại chứ không mất đi, tổng cuối cùng vẫn bằng $$+12 > 0$$, nên *chắc chắn phải còn ít nhất một đỉnh giữ điện tích dương* — và để điều đó xảy ra, khu vực quanh đỉnh đó buộc phải rơi vào một trong các cấu hình của danh sách $$\mathcal{U}$$!
-
-**Appel và Haken (1976)** đã thiết kế một bộ quy tắc phóng điện cho ra gần 1.500–1.900 cấu hình không tránh được, rồi viết chương trình máy tính kiểm tra tính khả quy cho từng cấu hình một. Máy tính không tự "nghĩ ra" định lý, mà đóng vai người kiểm toán kiên nhẫn kiểm tra danh sách hữu hạn mà con người đã thiết kế.
 
 ---
 

@@ -19,18 +19,18 @@ Bài này bóc tách câu chuyện truyền cảm hứng ấy thành đúng cấ
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết nút, tính slice và tô pô 4 chiều nghiên cứu những gì?
+## Bản đồ kiến thức nền: Lý thuyết nút, Tính slice và Tô pô 4 chiều đứng trên ba trụ cột nào?
 
-Nếu bạn tốt nghiệp đại học và từng buộc dây giày, bạn đã nắm được đối tượng cơ bản của **lý thuyết nút (knot theory)**: lấy một sợi dây, thắt lại rồi dán kín hai đầu để tạo thành một vòng tròn nằm trong không gian 3 chiều (hay mặt cầu $$S^3$$). Câu hỏi kinh điển của thế kỷ XX là: *cho hai sơ đồ nút rối rắm, làm sao biết chúng có gỡ thành nhau (hay gỡ thành vòng tròn tầm thường) được không?* Để trả lời, các nhà toán học chế ra các **bất biến nút** — những đa thức (như đa thức Alexander, đa thức Jones) hay cấu trúc đồng điều (như đồng điều Khovanov) không đổi khi ta uốn nắn sợi dây.
+Nếu bạn tốt nghiệp đại học và từng buộc dây giày, bạn có thể nắm ngay ba trụ cột toán học đằng sau định lý của Lisa Piccirillo:
 
-Nhưng nút Conway nằm ở một tầng sâu hơn nữa — giao điểm giữa **lý thuyết nút 3 chiều** và **tô pô 4 chiều**:
+### 1. Lý thuyết nút 3 chiều và Bất biến nút
+Một **nút** là một vòng dây kín nhúng trong không gian 3 chiều (hay mặt cầu $$S^3$$). Câu hỏi kinh điển của ngành là: *cho hai sơ đồ nút rối rắm, làm sao biết chúng có gỡ thành nhau được không?* Các nhà toán học phát minh ra **bất biến nút** — những đa thức (như đa thức Alexander–Conway, đa thức Jones) hay cấu trúc đồng điều (như đồng điều Khovanov) không đổi khi ta uốn nắn sợi dây. Ngoài toán thuần túy, lý thuyết nút còn ứng dụng trong sinh học phân tử (nghiên cứu cách enzyme topoisomerase gỡ rối chuỗi DNA xoắn kép) và hóa học polyme.
 
-- **Thế nào là một nút "slice" (lát cắt)?** Hãy hình dung một quả bóng 3 chiều cắt ngang qua một mặt phẳng 2 chiều: vết cắt là một đường tròn đơn giản. Tương tự, hãy nâng lên thêm một chiều: tưởng tượng một **quả cầu 4 chiều đặc** $$B^4$$ có biên chính là không gian 3 chiều $$S^3$$ nơi nút $$K$$ đang sống. Ta hỏi: *liệu nút $$K$$ có phải là biên (vết cắt) của một **đĩa 2 chiều** $$\Delta$$ nằm trọn trong quả cầu 4 chiều $$B^4$$ mà không tự cắt chính nó hay không?*
-  - Nếu câu trả lời là **có** với một đĩa khả vi trơn (không có nếp gấp hay góc nhọn bệnh lý), ta gọi $$K$$ là **nút slice trơn**.
-  - Ví dụ trực giác: một nút hình số 3 (trefoil) *không* slice, nhưng nếu bạn nối nó với ảnh gương của chính nó (nút vuông — square knot), ta có thể "trượt" vòng dây vào chiều thứ tư rồi cho hai nửa đối xứng tự triệt tiêu nhau thành một đĩa trơn hoàn hảo!
-- **Vì sao lại phải phân biệt slice *trơn* và slice *tô pô*?** Như ta đã thấy ở bài [Donaldson–Seiberg–Witten]({{ site.baseurl }}/contents/vi/chapter06/06_23_Donaldson_Seiberg_Witten/), chiều 4 là chiều duy nhất mà thế giới liên tục (tô pô) và thế giới khả vi (trơn) tách nhau một trời một vực. Một nút có thể bao được một đĩa *tô pô* (nhăn nheo vô hạn ở thang vi mô nhưng vẫn liên tục) mà **không bao giờ** bao được đĩa *trơn* nào. Nút Conway chính là bài kiểm tra sắc bén nhất cho khe nứt kỳ diệu đó giữa tô pô và giải tích trơn ở chiều 4!
+### 2. Nút slice và Khe nứt Trơn vs. Tô pô ở chiều 4
+Hãy hình dung một quả bóng 3D cắt ngang mặt phẳng 2D tạo ra vết cắt là một đường tròn. Nâng lên thêm một chiều: đặt nút $$K$$ trên biên $$S^3$$ của **quả cầu 4 chiều đặc** $$B^4$$ và hỏi liệu $$K$$ có phải là biên của một **đĩa 2 chiều** $$\Delta \subset B^4$$ không tự cắt hay không? Nếu đĩa đó *khả vi trơn*, ta gọi $$K$$ là **slice trơn**; nếu chỉ đòi hỏi đĩa *liên tục phẳng địa phương*, ta gọi $$K$$ là **slice tô pô**. Vì chiều 4 là chiều duy nhất mà thế giới trơn và thế giới tô pô tách biệt sâu sắc, tồn tại những nút slice tô pô nhưng không slice trơn — và nút Conway chính là bài kiểm tra tinh tế nhất cho khe nứt đó.
 
-Với hình ảnh "nút 3D như lát cắt của đĩa 2D trong quả cầu 4D", toàn bộ nước cờ của Piccirillo phía dưới sẽ hiện ra sáng rõ như một ván cờ đẹp mắt.
+### 3. 0-vết (Knot Trace) và Chiến lược nút sinh đôi
+Thay vì nghiên cứu trực tiếp nút $$K$$ trong 3 chiều, các nhà tô pô gắn thêm một "quai cầm" 4 chiều (2-handle) dọc theo $$K$$ lên biên quả cầu $$B^4$$ để tạo ra đa tạp 4 chiều $$X(K)$$ gọi là **0-vết**. Hai nút khác nhau $$K$$ và $$K'$$ vẫn có thể đúc ra cùng một đa tạp 4 chiều $$X(K) \cong X(K')$$ — khi đó chúng **bắt buộc phải cùng slice hoặc cùng không slice**, mở ra cánh cửa chuyển sang nút dễ đo hơn!
 
 ---
 
@@ -61,7 +61,7 @@ Theo nghĩa cổ điển, một nút là tầm thường trong không gian 3 chi
 | **Slice trơn** (các bài báo hiện đại thường chỉ gọi là "slice") | Đĩa nhúng **trơn** $$\Delta\subset B^4$$, $$\partial\Delta=K$$ |
 | **Slice tôpô** | Đĩa **phẳng địa phương** theo nghĩa tôpô (cho phép các đĩa "nhăn" kiểu Freedman) |
 
-Có nhiều nút slice khác nút tầm thường, và có nhiều nút slice tôpô nhưng **không** slice trơn. Sự khác biệt này là dấu hiệu, ở chiều thấp, của cùng hiện tượng làm cho đa tạp 4 chiều trơn "hoang dã" hơn đa tạp tôpô; xem §8 và [Donaldson–SW]({{ site.baseurl }}/contents/vi/chapter06/06_23_Donaldson_Seiberg_Witten/).
+Có nhiều nút slice khác nút tầm thường (chẳng hạn nối nút ba lá với ảnh gương của chính nó tạo thành nút vuông — *square knot* — luôn slice trơn), và có nhiều nút slice tôpô nhưng **không** slice trơn. Sự khác biệt này là dấu hiệu, ở chiều thấp, của cùng hiện tượng làm cho đa tạp 4 chiều trơn "hoang dã" hơn đa tạp tôpô; xem §8 và [Donaldson–SW]({{ site.baseurl }}/contents/vi/chapter06/06_23_Donaldson_Seiberg_Witten/).
 
 **Ý chính.** *Nút slice là nút trở thành "nút tầm thường khi nhìn từ bốn chiều"; nhưng phải nói rõ đĩa có trơn hay không.*
 
@@ -82,6 +82,24 @@ Có nhiều nút slice khác nút tầm thường, và có nhiều nút slice t�
 **Đột biến dương.** Hãy hình dung bạn khoanh một hình cầu nhỏ (gọi là *mặt cầu Conway*) cắt sợi dây nút tại đúng bốn điểm, chia nút thành phần bên trong và phần bên ngoài ("tangle"). Cắt phần bên trong ra, xoay $$180^\circ$$ như lật mặt một đồng xu rồi dán bốn đầu dây trở lại — nút mới thu được gọi là một **đột biến** (mutant). Đột biến dương là đột biến giữ được hướng của sợi dây một cách nhất quán. Điều oái oăm là phép đột biến bảo toàn gần như toàn bộ các bất biến 3 chiều kinh điển (đa thức Alexander, Jones, HOMFLY, Kauffman; thể tích hyperbolic; phủ rẽ nhánh hai lá; …). Thậm chí nhiều bất biến hiện đại còn được *giả thuyết* là không đổi dưới phép đột biến. Vì vậy, xác định tính slice của **một đột biến dương của nút đã slice** (như KT) cực kỳ hóc búa: gần như mọi máy dò đều báo kết quả giống hệt nút slice!
 
 **Vì sao $$\Delta=1$$ gây khó.** Các vật cản abel và hầu hết vật cản metabel đều triệt tiêu. Về tính slice tôpô, định lý đĩa của Freedman đã cho câu trả lời khẳng định cho mọi nút có $$\Delta = 1$$; câu hỏi duy nhất còn lại là về tính **trơn**.
+
+### Khung giải thích: tự tay tính đa thức Alexander–Conway và hiểu điểm mù $$\Delta = 1$$ (nên đọc chậm)
+
+Để tự tay chạm vào cách một bất biến nút phát hiện (hoặc bỏ sót!) nút không slice, hãy tính **đa thức Conway $$\nabla_K(z)$$** — phiên bản gọn gàng do chính John Conway tìm ra cho đa thức Alexander (với $$\Delta_K(t) = \nabla_K(t^{1/2} - t^{-1/2})$$). Đa thức này xác định hoàn toàn bằng đúng 3 quy tắc sơ cấp:
+- $$\nabla_{\text{vòng tròn}}(z) = 1$$;
+- $$\nabla_{\text{2 vòng rời nhau}}(z) = 0$$;
+- **Quan hệ skein tại một điểm giao:** $$\nabla_{L_+}(z) - \nabla_{L_-}(z) = z\,\nabla_{L_0}(z)$$ (trong đó $$L_+$$ là điểm giao dương, $$L_-$$ là đổi chiều trên–dưới tại điểm giao đó, còn $$L_0$$ là tách mượt không cắt nhau).
+
+1. **Bước 1 — Tính cho liên kết Hopf $$H_+$$ (hai vòng móc vào nhau một lần):** Đổi chiều 1 điểm giao khiến hai vòng bung rời nhau ($$\nabla = 0$$); còn tách mượt tại điểm giao đó ghép hai vòng thành 1 vòng tròn tầm thường duy nhất ($$\nabla = 1$$). Thay vào quan hệ skein:
+   $$
+   \nabla_{H_+}(z) - 0 = z \cdot 1 \implies \nabla_{H_+}(z) = z.
+   $$
+2. **Bước 2 — Tính cho nút ba lá phải (trefoil $$3_1$$):** Đổi chiều 1 điểm giao của nút ba lá khiến nó bung thành vòng tròn tầm thường ($$\nabla = 1$$); còn tách mượt tại điểm giao đó biến nó thành chính liên kết Hopf $$H_+$$ ($$\nabla = z$$)! Thay vào quan hệ skein:
+   $$
+   \nabla_{3_1}(z) - 1 = z \cdot z \implies \nabla_{3_1}(z) = 1 + z^2 \quad \bigl(\text{tức } \Delta_{3_1}(t) = t - 1 + t^{-1}\bigr).
+   $$
+3. **Kiểm tra điều kiện slice cổ điển (Fox–Milnor):** Một định lý kinh điển khẳng định nếu nút $$K$$ slice thì đa thức Alexander của nó phải phân tích được thành $$\Delta_K(t) = f(t)f(t^{-1})$$. Với nút ba lá, $$t - 1 + t^{-1}$$ bất khả quy trên $$\mathbb{Z}[t^{\pm 1}]$$ nên **không** viết được dạng $$f(t)f(t^{-1})$$ — ta chứng minh ngay nút ba lá *không slice*!
+4. **Cái bẫy của nút Conway:** Trái ngược hoàn toàn, nút Conway có $$\nabla_C(z) = 1$$ (tức $$\Delta_C(t) = 1 = 1 \cdot 1$$) — giống hệt vòng tròn tầm thường! Cả điều kiện Fox–Milnor lẫn mọi vật cản đại số cổ điển đều hoàn toàn "mù", mở màn cho nước cờ 0-vết của Piccirillo ở Mục 4–6 bên dưới.
 
 **Phát biểu phân loại (trong bài báo).** Giải quyết nút Conway là hoàn tất phân loại **nút slice dưới 13 điểm giao** (bảng Cha–Livingston). Các bài phổ biến khoa học nói: trong các nút có **không quá 12 điểm giao**, chỉ còn tính slice trơn của nút Conway là chưa biết. Hai cách nói cho cùng một bức tranh.
 

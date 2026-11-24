@@ -22,13 +22,22 @@ Sau bài tùy chọn này, bạn kể được ít nhất ba trường hợp mà
 
 Các bài bắt buộc của chương, đặc biệt là [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/), [Navier–Stokes]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/), [Bốn màu]({{ site.baseurl }}/contents/vi/chapter01/01_09_Four_Color_Theorem/), và bài [Collatz]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/). Trang này không nhắc lại các phát biểu đó.
 
-## Bản đồ kiến thức nền: Toán học tính toán, Học máy khoa học và Lý luận hình thức là gì?
+---
 
-Để đọc các bài báo AI và khoa học máy tính hiện đại mà không bị choáng bởi những tiêu đề giật gân, bạn chỉ cần đặt chúng lên ba vùng đất rõ ràng sau:
+## Bản đồ kiến thức nền: Ba trụ cột của Toán học tính toán & AI khoa học (2022–2026)
 
-- **Thuật toán tổ hợp & Lý luận tự động (Automated Reasoning):** Thay vì tìm thuật toán đa thức cho mọi đầu vào (điều lý thuyết độ phức tạp cảnh báo là cực khó), nhánh này thiết kế các bộ giải thông minh (như bộ giải SAT/SMT) khai thác cấu trúc đặc thù của bài toán đời thực. Mỗi lời giải tìm ra đều có **lời chứng kiểm tra được 100%** (không hề đoán mò).
-- **Học máy khoa học (Scientific Machine Learning — SciML):** Trong khi mạng nơ-ron truyền thống học ánh xạ giữa các vector hữu hạn chiều (ảnh $$\to$$ nhãn), các **toán tử nơ-ron (neural operators)** học ánh xạ giữa các *không gian hàm vô hạn chiều* — ví dụ đưa vào trường vận tốc ban đầu $$u_0(x)$$ và xuất ra trường vận tốc $$u(x, T)$$ sau thời gian $$T$$. Điểm mạnh là tốc độ suy luận cực nhanh; điểm yếu là sai số chỉ được đánh giá thực nghiệm trên phân phối dữ liệu huấn luyện, không có bảo đảm định lý toàn cục.
-- **Hệ lai Thần kinh–Ký hiệu (Neuro-Symbolic AI):** Kết hợp trực giác sáng tạo của mạng nơ-ron (giỏi đề xuất nước đi, đường phụ) với bộ máy suy diễn ký hiệu chặt chẽ (không bao giờ bịa đặt logic). Đây là mô hình phía sau AlphaGeometry và các trợ lý chứng minh hiện đại.
+Để đọc các bài báo AI và khoa học máy tính hiện đại mà không bị choáng bởi những tiêu đề giật gân, hãy đặt chúng lên ba trụ cột rõ ràng sau:
+
+### 1. Thuật toán tổ hợp & Lý luận tự động (Automated Reasoning)
+Thay vì tìm thuật toán đa thức cho mọi đầu vào (điều lý thuyết độ phức tạp cảnh báo là cực khó), nhánh này thiết kế các bộ giải thông minh (như bộ giải **SAT/SMT**) khai thác cấu trúc đặc thù của bài toán đời thực. Mọi kết quả tìm ra đều đi kèm **lời chứng kiểm tra được 100%** — được ứng dụng hằng ngày trong kiểm chứng vi mạch CPU, trình biên dịch, lập lịch và chứng minh các bổ đề tổ hợp lớn.
+
+### 2. Học máy khoa học (Scientific Machine Learning — SciML)
+Trong khi mạng nơ-ron truyền thống học ánh xạ giữa các vector hữu hạn chiều (ảnh $$\to$$ nhãn), các **toán tử nơ-ron (neural operators)** học ánh xạ giữa các *không gian hàm vô hạn chiều* — ví dụ đưa vào trường vận tốc ban đầu $$u_0(x)$$ và xuất ra trường vận tốc $$u(x, T)$$ sau thời gian $$T$$. Điểm mạnh là tốc độ suy luận nhanh gấp hàng nghìn lần (ứng dụng mạnh trong dự báo thời tiết toàn cầu, mô phỏng khí động lực học); điểm yếu là sai số chỉ được đánh giá thực nghiệm trên phân phối dữ liệu huấn luyện, không có bảo đảm định lý toàn cục.
+
+### 3. Hệ lai Thần kinh–Ký hiệu (Neuro-Symbolic AI)
+Kết hợp trực giác sáng tạo của mạng nơ-ron (giỏi đề xuất nước đi, đường phụ trong hình học hoặc chiến thuật chứng minh) với bộ máy suy diễn ký hiệu chặt chẽ (không bao giờ bịa đặt logic). Đây là mô hình phía sau AlphaGeometry và làn sóng kết hợp AI với trợ lý chứng minh Lean/Coq hiện nay.
+
+---
 
 ## Mở đầu
 
@@ -36,7 +45,7 @@ Một bài toán của Viện Clay có thể vẫn chưa được giải, trong 
 
 ## Các khái niệm chính
 
-Một bài toán quyết định NP-đầy đủ hỏi xem có tồn tại một chứng chỉ mà bộ kiểm tra xác nhận được trong thời gian đa thức theo kích thước đầu vào $$n$$ hay không. Câu hỏi về trường hợp xấu nhất vẫn chưa có lời giải. Trong thực tế, người ta hỏi một câu khác: với *công thức cụ thể này*, thuật toán tìm kiếm có học mệnh đề xung đột (**CDCL** — Conflict-Driven Clause Learning) có cho kết quả kịp thời hạn không? Ý tưởng khiến CDCL mạnh vượt trội so với vét cạn mù quáng rất tự nhiên: mỗi khi nhánh thử rơi vào mâu thuẫn, thay vì chỉ lùi lại một bước, bộ giải *phân tích nguyên nhân gốc rễ* của mâu thuẫn đó và ghi thêm một mệnh đề ràng buộc mới để vĩnh viễn không lặp lại cùng một sai lầm ở các nhánh khác!
+Một bài toán quyết định NP-đầy đủ hỏi xem có tồn tại một chứng chỉ mà bộ kiểm tra xác nhận được trong thời gian đa thức theo kích thước đầu vào $$n$$ hay không. Câu hỏi về trường hợp xấu nhất vẫn chưa có lời giải. Trong thực tế, người ta hỏi một câu khác: với *công thức cụ thể này*, thuật toán tìm kiếm có học mệnh đề xung đột (**CDCL** — Conflict-Driven Clause Learning) có cho kết quả kịp thời hạn không?
 
 Tương tự, một toán tử nơ-ron cố gắng xấp xỉ một ánh xạ nghiệm
 
@@ -46,11 +55,24 @@ $$
 
 giữa các không gian hàm, chứ không chứng minh rằng $$u$$ vẫn trơn với mọi dữ kiện ban đầu $$u_0$$ trơn và có phân kỳ bằng không.
 
-## Bốn ví dụ gần đây
+---
+
+## Bốn ví dụ gần đây (kèm phép thử cầm tay)
 
 ### 1. Các cuộc thi SAT, "họ hàng" công nghiệp của P vs NP
 
-Trong các kỳ SAT Competition từ 2022 đến 2024, các bộ giải CDCL vẫn đứng đầu trên những bộ bài kiểm tra công nghiệp và nhân tạo rất lớn (nhiều bài có hàng trăm nghìn biến và hàng triệu mệnh đề). Một bộ giải chạy xong một bài **không** có nghĩa bài đó thuộc lớp độ phức tạp $$\mathbf{P}$$, và một họ công thức khó giải **không** chứng minh $$\mathbf{P}\neq\mathbf{NP}$$. Điều các cuộc thi cho thấy, về mặt ứng dụng, là cách nhìn NP qua *chứng chỉ* đã trở thành công cụ thực tế: trình biên dịch, kiểm chứng thiết kế vi mạch phần cứng, lập kế hoạch và thậm chí chứng minh các bổ đề tổ hợp lớn (như bài toán bộ ba Pythagoras Boolean) đều chuyển bài toán về dạng CNF, và tìm kiếm có học mệnh đề xung đột là cách tiếp cận mặc định. Hãy dùng bài P vs NP của chương này cho các định nghĩa, và dùng kết quả của các cuộc thi cho các dữ kiện kỹ thuật.
+Trong các kỳ SAT Competition từ 2022 đến 2024, các bộ giải CDCL vẫn đứng đầu trên những bộ bài kiểm tra công nghiệp và nhân tạo rất lớn (nhiều bài có hàng trăm nghìn biến và hàng triệu mệnh đề). Một bộ giải chạy xong một bài **không** có nghĩa bài đó thuộc lớp độ phức tạp $$\mathbf{P}$$, và một họ công thức khó giải **không** chứng minh $$\mathbf{P}\neq\mathbf{NP}$$.
+
+**Ví dụ cầm tay chỉ việc 1 — Chạy tay 1 vòng CDCL (Học mệnh đề xung đột):**
+Xét một phần nhỏ của công thức SAT gồm 3 mệnh đề:
+$$(1)\ (\neg x_1 \lor x_2), \qquad (2)\ (\neg x_1 \lor \neg x_2 \lor x_3), \qquad (3)\ (\neg x_1 \lor \neg x_3).$$
+1. Bộ giải thử gán quyết định $$x_1 = \text{Đúng}$$.
+2. Từ $$(1)$$, để không sai thì bắt buộc $$x_2 = \text{Đúng}$$.
+3. Từ $$(2)$$, vì $$x_1, x_2$$ đều Đúng nên bắt buộc $$x_3 = \text{Đúng}$$.
+4. Thay vào $$(3)$$: $$\text{Sai} \lor \text{Sai} = \mathbf{\text{Mâu thuẫn!}}$$
+5. Thay vì quay lui mù quáng thử hàng nghìn biến khác, CDCL lần ngược nguyên nhân xung đột, nhận ra *mọi hệ quả đều xuất phát từ $$x_1 = \text{Đúng}$$*, nên **tự động ghi thêm mệnh đề mới** $$(\neg x_1)$$ vào bộ nhớ → lập tức khóa cứng $$x_1 = \text{Sai}$$ mãi mãi, cắt phăng một nửa không gian tìm kiếm $$2^n$$ chỉ sau đúng 1 lần vấp ngã!
+
+Điều các cuộc thi SAT cho thấy là cách nhìn NP qua *chứng chỉ* đã trở thành công cụ thực tế: trình biên dịch, kiểm chứng thiết kế vi mạch phần cứng, lập kế hoạch và chứng minh các bổ đề tổ hợp lớn đều chuyển bài toán về dạng CNF và dùng CDCL làm động cơ mặc định.
 
 ### 2. Toán tử nơ-ron làm mô hình thay thế cho Navier–Stokes
 
@@ -66,9 +88,37 @@ Trên bộ 30 bài hình học IMO, hệ thống giải được **25 bài**, ti
 
 ### 4. Tìm kiếm vét cạn quanh bài toán Collatz
 
-Barina (2021) công bố một phép kiểm tra song song trên GPU cho thấy ánh xạ Collatz đi vào chu trình tầm thường với mọi giá trị ban đầu đến cỡ $$2^{68}$$ (tức gần $$3 \times 10^{20}$$), và các cải tiến kỹ thuật sau đó tiếp tục đẩy mốc này vượt qua $$2^{71}$$. Để đạt tốc độ khủng khiếp đó, thuật toán không tính tuần tự từng số mà dùng kỹ thuật **sàng theo lớp đồng dư modulo $$2^k$$** và bảng tra cứu bit để loại bỏ ngay lập tức phần lớn các số chắc chắn tụt xuống dưới giá trị ban đầu sau vài bước!
+Barina (2021) công bố một phép kiểm tra song song trên GPU cho thấy ánh xạ Collatz đi vào chu trình tầm thường với mọi giá trị ban đầu đến cỡ $$2^{68}$$ (tức gần $$3 \times 10^{20}$$), và các cải tiến kỹ thuật sau đó tiếp tục đẩy mốc này vượt qua $$2^{71}$$.
 
-Nhưng một đoạn đầu hữu hạn, dù dài đến đâu, vẫn chỉ là một đoạn đầu hữu hạn. Định lý "hầu hết" của Tao và phát biểu còn mở cho "mọi $$n$$" vẫn là đối tượng của toán học. Đóng góp của khoa học máy tính là một phép tính đã được kiểm tra kỹ lưỡng, đồng thời nhắc ta rằng năng lực tính toán không thể tự kết thúc một câu hỏi về vô hạn.
+**Ví dụ cầm tay chỉ việc 2 — Kỹ thuật sàng modulo $$2^3 = 8$$ loại ngay 75% số cần kiểm tra!**
+Giả sử bạn đã kiểm tra xong mọi số nhỏ hơn $$n$$ đều về 1; khi đó để kiểm tra $$n$$, bạn chỉ cần thấy quỹ đạo của $$n$$ rơi xuống **nhỏ hơn $$n$$** là dừng được ngay! Hãy xét cả 8 lớp chia dư modulo $$8$$:
+- $$n \equiv 0, 2, 4, 6 \pmod 8$$ (số chẵn): sau 1 bước ra $$n/2 < n$$ → **loại luôn 4 lớp!**
+- $$n = 8k + 1$$: $$8k+1 \to 24k+4 \to 12k+2 \to 6k+1 < 8k+1$$ → **loại luôn!**
+- $$n = 8k + 5$$: $$8k+5 \to 24k+16 \to 12k+8 \to 6k+4 \to 3k+2 < 8k+5$$ → **loại luôn!**
+
+Chỉ riêng phép sàng 3 dòng theo modulo 8 đã **loại sạch 6 trên 8 lớp (75% toàn bộ số nguyên!)**, chỉ còn phải tính cho $$n \equiv 3, 7 \pmod 8$$! Mở rộng đúng ý tưởng đó lên modulo $$2^{32}$$ kết hợp bảng tra cứu bit trên GPU, Barina loại ngay hơn 99% ứng viên trước khi chạy tiếp!
+
+Nhưng một đoạn đầu hữu hạn, dù dài đến đâu, vẫn chỉ là một đoạn đầu hữu hạn. Định lý "hầu hết" của Tao và phát biểu còn mở cho "mọi $$n$$" vẫn là đối tượng của toán học.
+
+---
+
+### Khung giải thích: Vì sao kỳ tích tính toán (2022–2026) không tự động trở thành định lý? (nên đọc chậm)
+
+Mỗi khi báo chí đưa tin *"AI đã giải quyết bài toán X"*, hãy dùng bộ lọc 4 bước sau để đặt kết quả về đúng vị trí:
+
+#### Bước 1: Kiểm tra phạm vi — "trên một bộ mẫu" hay "với mọi đầu vào"?
+Định lý toán học mang lượng từ **$$\forall$$ (với mọi)** trên một tập vô hạn (mọi công thức SAT, mọi dữ liệu đầu trơn $$u_0$$, mọi số nguyên dương $$n$$). Phần mềm thực tế và mô hình AI chỉ đo độ chính xác trên một tập dữ liệu hữu hạn hoặc một phân phối cụ thể.
+
+#### Bước 2: Phân biệt "xấp xỉ nhanh" với "tồn tại và chính quy"
+Toán tử nơ-ron Fourier (FNO) chạy nhanh hơn 1.000 lần với sai số trung bình 1% là kỳ tích kỹ thuật tuyệt vời cho dự báo thời tiết, nhưng sai số 1% hoàn toàn không loại trừ khả năng phương trình liên tục có điểm kỳ dị nổ tung ở thang đo vi mô.
+
+#### Bước 3: Kiểm tra xem có "lời chứng hình thức" đi kèm không
+Bộ giải SAT (như CDCL) và hệ lai ký hiệu (như AlphaGeometry) *có thể* sinh ra lời chứng máy kiểm tra được 100% cho **từng bài toán cụ thể** — đó là lý do chúng hỗ trợ rất mạnh cho chứng minh tổ hợp (kiểu Định lý Bốn Màu). Nhưng giải xong 1 triệu trường hợp riêng lẻ vẫn không chứng minh $$\mathbf{P} = \mathbf{NP}$$ hay Kakeya $$n \ge 4$$.
+
+#### Bước 4: Đọc đúng giá trị thật của công cụ
+Khoa học máy tính hiện đại không cần phải "giải bài toán Thiên niên kỷ" mới có giá trị: nó biến ý tưởng toán học sâu sắc thành công cụ kiểm chứng phần cứng, dự báo khí hậu và trợ lý sáng tạo cho chính các nhà toán học.
+
+---
 
 ## Diễn giải và nhận định
 

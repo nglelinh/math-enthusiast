@@ -228,24 +228,41 @@ chính là nghiệm của phương trình Laplace $$\Delta u = 0$$ (với giả 
 
 Các phần mềm mô phỏng cơ khí như ANSYS, Abaqus hay COMSOL hoạt động thế nào khi tính xem một cánh máy bay có bị gãy không? Câu trả lời là **Phương pháp phần tử hữu hạn (FEM)**.
 
-Quy trình cơ bản gồm bốn bước:
+### Ví dụ cầm tay chỉ việc: Tự tay giải bài toán thanh đàn hồi 1D bằng FEM
 
-1. **Chia lưới (meshing):** chia miền phức tạp (cánh máy bay, khung cầu) thành hàng nghìn đến hàng triệu phần tử đơn giản (đoạn thẳng trong 1D, tam giác trong 2D, tứ diện trong 3D).  
-2. **Xấp xỉ từng mảnh:** thay vì tìm một hàm trơn bất kỳ trong không gian vô hạn chiều, ta chỉ tìm hàm ghép từ các đa thức đơn giản trên từng phần tử (chẳng hạn các "hàm lều" tuyến tính từng mảnh — giống như dựng một ngọn đồi bằng lưới tam giác trong đồ họa 3D).  
-3. **Áp dụng dạng yếu:** yêu cầu nghiệm xấp xỉ thỏa mãn **dạng yếu** (dạng tích phân hay dạng biến phân) của PDE.  
-4. **Lắp ráp và giải hệ:** thu được một hệ phương trình đại số tuyến tính cỡ lớn $$KU=F$$ (trong đó $$K$$ là **ma trận độ cứng** rất thưa vì mỗi nút chỉ nối với vài nút hàng xóm, $$U$$ là vectơ chuyển vị chưa biết tại các nút, $$F$$ là ngoại lực) rồi giao cho máy tính giải.
+Xét một thanh thép dài $$L = 2\text{ m}$$, độ cứng kéo $$EA = 10$$, gắn chặt tường ở đầu trái $$x=0$$ (tức $$u(0)=0$$) và chịu lực kéo $$F = 20\text{ N}$$ ở đầu phải $$x=2$$. Ta muốn tìm độ giãn $$u(x)$$ dọc theo thanh mà **chỉ dùng phép tính ma trận**:
 
-**Ví dụ minh họa siêu gọn (1D).** Xét một thanh đàn hồi dài $$1\text{ m}$$ gắn chặt ở đầu $$x=0$$ và chịu lực kéo ở đầu $$x=1$$. Chia thanh thành chỉ 2 đoạn bằng nhau với 3 nút $$x_0=0, x_1=0{,}5, x_2=1$$. Mỗi đoạn giống như một lò xo có độ cứng $$k$$. Cân bằng lực tại hai nút tự do $$u_1, u_2$$ lập tức cho ra hệ $$2\times 2$$:
-
+1. **Chia lưới:** cắt thanh thành 2 phần tử bằng nhau dài $$h = 1\text{ m}$$, có 3 nút $$x_0=0,\ x_1=1,\ x_2=2$$ với chuyển vị $$u_0, u_1, u_2$$.
+2. **Ma trận độ cứng từng phần tử:** mỗi đoạn dài $$h=1$$ hành xử như một lò xo có độ cứng $$k = \frac{EA}{h} = \frac{10}{1} = 10$$, ứng với ma trận phần tử $$2\times 2$$:
 $$
-\begin{pmatrix} 2k & -k \\ -k & k \end{pmatrix} \begin{pmatrix} u_1 \\ u_2 \end{pmatrix} = \begin{pmatrix} 0 \\ F_{\text{kéo}} \end{pmatrix}.
+K^{(e)} = \begin{pmatrix} 10 & -10 \\ -10 & 10 \end{pmatrix}.
 $$
+3. **Lắp ráp ma trận toàn cục $$3\times 3$$:** cộng đóng góp của phần tử 1 (nối nút 0–1) và phần tử 2 (nối nút 1–2); tại nút giữa $$x_1$$ cả hai phần tử cùng kéo nên hệ số là $$10+10=20$$:
+$$
+\begin{pmatrix} 10 & -10 & 0 \\ -10 & 20 & -10 \\ 0 & -10 & 10 \end{pmatrix}
+\begin{pmatrix} u_0 \\ u_1 \\ u_2 \end{pmatrix}
+=
+\begin{pmatrix} R_0 \\ 0 \\ 20 \end{pmatrix}.
+$$
+4. **Áp điều kiện biên và giải hệ:** vì đầu trái ngàm cứng nên $$u_0 = 0$$. Bỏ hàng 1 và cột 1, ta còn hệ $$2\times 2$$ cho hai ẩn tự do:
+$$
+\begin{pmatrix} 20 & -10 \\ -10 & 10 \end{pmatrix}
+\begin{pmatrix} u_1 \\ u_2 \end{pmatrix}
+=
+\begin{pmatrix} 0 \\ 20 \end{pmatrix}.
+$$
+Từ hàng 1: $$20u_1 - 10u_2 = 0 \implies u_2 = 2u_1$$. Thay vào hàng 2: $$-10u_1 + 10(2u_1) = 10u_1 = 20 \implies u_1 = 2,\ u_2 = 4$$! Thay ngược lại hàng 1 của hệ $$3\times 3$$ ta còn biết luôn phản lực tường $$R_0 = -10u_1 = -20\text{ N}$$ (cân bằng đúng với lực kéo $$+20\text{ N}$$). Kiểm chứng bằng giải tích: $$u(x) = \frac{F}{EA}x = 2x$$ cho đúng $$u(1)=2,\ u(2)=4$$!
 
-Trong thực tế, thay vì 2 nút, kỹ sư dùng 2 triệu nút — nhưng nguyên lý toán học thì hoàn toàn giống hệt ma trận $$2\times 2$$ này!
+Trong công nghiệp, thay vì 3 nút, phần mềm dùng 3 triệu nút tứ diện 3D — nhưng quy trình lắp ráp ma trận thưa $$KU=F$$ thì giống hệt ví dụ 4 bước trên!
 
-**Dạng yếu trong một câu.** Nhân PDE với một hàm thử, lấy tích phân từng phần để chuyển bớt một đạo hàm sang hàm thử. Bước này làm cho xấp xỉ tuyến tính từng mảnh (vốn có góc nhọn tại các đỉnh lưới, không lấy được đạo hàm bậc hai) trở nên hoàn toàn hợp lệ, vì ta chỉ đòi hỏi phương trình đúng theo nghĩa tích phân.
+### Khung giải thích: Từ định luật vật lý liên tục đến phần mềm mô phỏng FEM (nên đọc chậm)
 
-**Tóm tắt.** *FEM không bỏ đi toán học liên tục. Nó chiếu bài toán giải tích vô hạn chiều xuống một bài toán đại số tuyến tính nhiều chiều mà máy tính giải được.*
+1. **Từ cân bằng lực đến PDE:** viết định luật bảo toàn trên một khối nhỏ rồi dùng định lý phân kỳ để thu được phương trình vi phân (như $$-EA u'' = f$$).
+2. **Chuyển sang dạng yếu (tích phân từng phần):** nhân PDE với một hàm thử $$v$$ rồi tích phân từng phần để hạ bậc đạo hàm từ bậc 2 xuống bậc 1 ($$\int EA u'v'\,dx = \int fv\,dx$$). Nhờ hạ bậc đạo hàm, các hàm đa thức gấp khúc từng mảnh trên lưới tam giác trở nên hoàn toàn hợp lệ!
+3. **Chiếu xuống không gian hữu hạn chiều:** viết nghiệm xấp xỉ thành tổ hợp tuyến tính của các "hàm lều" đặt tại $$N$$ nút lưới. Phép tính vi phân vô hạn chiều lập tức biến thành hệ đại số tuyến tính $$KU=F$$ với ma trận $$K$$ đối xứng, thưa và xác định dương.
+4. **Giải số và kiểm chứng vật lý:** máy tính giải $$KU=F$$ bằng phương pháp lặp (như Gradient Liên hợp), rồi kỹ sư kiểm tra xem tổng phản lực có cân bằng ngoại lực không và lưới mịn hơn có làm nghiệm hội tụ không.
+
+**Kiểm tra nhanh.** FEM *không* vứt bỏ giải tích để thay bằng máy tính: dạng yếu và phép tích phân từng phần chính là giải tích, còn việc giải $$KU=F$$ là đại số tuyến tính số.
 
 Các phương pháp cùng họ: sai phân hữu hạn (lưới đều, dễ hình dung), thể tích hữu hạn (bảo toàn thông lượng ở mức rời rạc, rất phổ biến trong mô phỏng dòng chảy CFD), phương pháp phổ (dùng chuỗi Fourier hoặc đa thức trực giao).
 

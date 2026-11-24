@@ -18,7 +18,7 @@ Nghe như một bài tập lớp 3, nhưng nó là chiếc bẫy khét tiếng n
 
 Trong khóa Math Enthusiast, Collatz đóng hai vai trò thú vị: ở trang Chương 1 này, nó là **ví dụ mẫu kinh điển về một bài toán mở sơ cấp**, giúp bạn phân biệt sắc nét giữa bằng chứng tính toán và chứng minh toán học; còn ở [bài thực hành Chương 7]({{ site.baseurl }}/contents/vi/chapter07/07_09_Explore_Iteration/), nó là sân chơi mặc định cho bài **A5**, nơi bạn làm thí nghiệm số học có phương pháp (chứ không phải đi "chứng minh Collatz trong hồ sơ học tập").
 
-**Mạch bài học:** quy tắc → giả thuyết → quỹ đạo và thời gian dừng → kiểm tra so với chứng minh → các kết quả từng phần → vì sao khó → vai trò trong khóa học → hiểu lầm thường gặp.
+**Mạch bài học:** Bản đồ kiến thức nền → quy tắc & ví dụ tính tay quỹ đạo $$N=7, 9$$ → thời gian dừng → kiểm tra so với chứng minh → phép tính kỳ vọng lực hút $$3/4$$ & chu trình âm $$-5$$ → ánh xạ Syracuse → khung giải thích chậm định lý Tao (2019) → vì sao khó & hiểu lầm thường gặp.
 
 ---
 
@@ -41,13 +41,20 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Hệ động lực rời rạc và Lý thuyết Ergodic là gì?
+## Bản đồ kiến thức nền: Hệ động lực rời rạc, Lý thuyết Ergodic và Số học $$p$$-adic là gì?
 
-Ở đại học, bạn có thể đã gặp các dãy truy hồi tuyến tính (như dãy Fibonacci) hay xích Markov trong xác suất. **Lý thuyết hệ động lực rời rạc (Discrete Dynamical Systems)** là ngành toán học tổng quát hóa ý tưởng đó: ta có một không gian trạng thái $$X$$ và một quy tắc tiến hóa cố định $$f: X \to X$$. Xuất phát từ điểm $$x_0$$, ta lặp đi lặp lại $$x_1 = f(x_0),\, x_2 = f(x_1),\, \ldots$$ để tạo thành một **quỹ đạo (orbit)**.
+Collatz phát biểu bằng số học tiểu học, nhưng muốn hiểu những kết quả nghiên cứu sâu nhất về nó, bạn cần nhìn thấy ba trụ cột toán học đứng phía sau:
 
-- **Những câu hỏi lớn của ngành:** Về lâu dài (khi $$k \to \infty$$), quỹ đạo sẽ đi về đâu? Nó hội tụ về một **điểm bất động**, rơi vào một **chu trình tuần hoàn**, phân kỳ ra vô cùng, hay nhảy múa **hỗn loạn (chaotic)** — nhạy cảm cực độ với thay đổi nhỏ ở điều kiện đầu?
-- **Vai trò của Lý thuyết Ergodic và Lý thuyết số xác suất:** Khi một hệ động lực quá rối rắm để giải công thức đóng cho *từng* quỹ đạo riêng lẻ, các nhà toán học chuyển sang hỏi về **hành vi điển hình (hầu hết mọi quỹ đạo)** theo ngôn ngữ xác suất và phân phối dừng. Đó chính là cách Terence Tao đã dùng để đạt đột phá năm 2019 về Collatz!
-- **Ứng dụng thực tiễn:** Hệ động lực rời rạc là nền tảng để mô hình hóa biến động quần thể sinh học (ánh xạ logistic), bộ sinh số giả ngẫu nhiên, tối ưu hóa bằng thuật toán lặp (gradient descent) và các bài toán quyết định dừng (halting problem) trong khoa học máy tính.
+### 1. Hệ động lực rời rạc (Discrete Dynamical Systems)
+Ở đại học, bạn từng gặp các dãy truy hồi tuyến tính (như dãy Fibonacci) hay xích Markov. **Hệ động lực rời rạc** tổng quát hóa ý tưởng đó: cho một tập trạng thái $$X$$ và một ánh xạ $$f: X \to X$$, ta lặp $$x_{k+1} = f(x_k)$$ và hỏi về **số phận dài hạn** của quỹ đạo: nó hội tụ về điểm bất động, rơi vào chu trình tuần hoàn, chạy ra vô cùng, hay hỗn loạn nhạy cảm với điều kiện đầu?
+
+### 2. Lý thuyết Ergodic & Hai kiểu "mật độ" xác suất
+Khi không thể theo dõi *từng* quỹ đạo riêng lẻ, các nhà toán học chuyển sang hỏi về hành vi của **"hầu hết mọi quỹ đạo"**. Để đo tỷ lệ của một tập con $$A \subset \mathbb{N}$$, có hai thước đo phổ biến:
+- **Mật độ tự nhiên:** $$\lim_{X\to\infty} \frac{\#(A \cap [1,X])}{X}$$ (đếm đều mọi số từ 1 đến $$X$$).
+- **Mật độ logarit:** $$\lim_{X\to\infty} \frac{1}{\log X}\sum_{n \in A,\, n \le X} \frac{1}{n}$$ (gán trọng số $$1/n$$ — thước đo mà Terence Tao đã dùng năm 2019!).
+
+### 3. Sự xung đột cơ số 2 và cơ số 3 (Số học $$2$$-adic / $$3$$-adic)
+Phép chia $$n/2$$ cực kỳ "hiền" trong hệ nhị phân (chỉ dịch bỏ một số 0 ở cuối), còn phép $$3n+1$$ lại gắn với cấu trúc chia dư theo lũy thừa của $$3$$ (vành $$\mathbb{Z}/3^k\mathbb{Z}$$). Sự pha trộn giữa cấu trúc nhị phân và tam phân phá hủy hầu hết các bất biến đại số thông thường — đây cũng là nguồn gốc các ứng dụng của hệ động lực rời rạc trong **bộ sinh số giả ngẫu nhiên, lý thuyết hỗn độn (chaos) và bài toán dừng (halting problem)** trong khoa học máy tính.
 
 ---
 
@@ -101,14 +108,25 @@ Cố định số ban đầu $$n$$. **Quỹ đạo** là dãy vô hạn $$n, T(n
 
 Hai đại lượng cổ điển dùng để ghi chép:
 
-- **Thời gian dừng** của $$n$$: bước đầu tiên mà giá trị lặp **nhỏ hơn** giá trị ban đầu $$n$$, tức là cần bao lâu để dãy "tiến bộ" so với điểm xuất phát.
-- **Thời gian dừng toàn phần** của $$n$$: bước đầu tiên chạm $$1$$ (hoặc vào chu trình $$4$$–$$2$$–$$1$$). Đại lượng này đo độ dài cả hành trình đến chu trình đã biết.
+- **Thời gian dừng (stopping time)** của $$n$$: bước đầu tiên $$k$$ mà $$T^k(n) < n$$ (đo xem mất bao lâu dãy mới "chịu thấp hơn" điểm xuất phát).
+- **Thời gian dừng toàn phần (total stopping time)** của $$n$$: bước đầu tiên chạm $$1$$.
 
-Với số nhỏ, có thể tính bằng tay; với số lớn, đây là một thí nghiệm tính toán tự nhiên. Đồ thị thời gian dừng toàn phần theo $$n$$ trông rất gồ ghề, đầy gai nhọn: những đặc điểm số học cục bộ khiến một số đi rất lâu, trong khi các số lân cận lại về nhanh.
+### Ví dụ cầm tay chỉ việc 1: Tính chi tiết quỹ đạo và hai thời gian dừng cho $$n = 7$$ và $$n = 9$$
+
+- **Với $$n = 7$$:**
+  $$
+  7 \xrightarrow{1} 22 \xrightarrow{2} 11 \xrightarrow{3} 34 \xrightarrow{4} 17 \xrightarrow{5} 52 \xrightarrow{6} 26 \xrightarrow{7} 13 \xrightarrow{8} 40 \xrightarrow{9} 20 \xrightarrow{10} 10 \xrightarrow{11} \mathbf{5} \xrightarrow{12} 16 \xrightarrow{13} 8 \xrightarrow{14} 4 \xrightarrow{15} 2 \xrightarrow{16} \mathbf{1}.
+  $$
+  - Đỉnh cao nhất đạt được: **52**.
+  - **Thời gian dừng** = **11** (tại bước 11 chạm $$5 < 7$$ lần đầu tiên).
+  - **Thời gian dừng toàn phần** = **16** (tại bước 16 chạm $$1$$).
+- **Với $$n = 9$$:**
+  $$
+  9 \xrightarrow{1} 28 \xrightarrow{2} 14 \xrightarrow{3} \mathbf{7} \to \cdots \xrightarrow{19} \mathbf{1}.
+  $$
+  - **Thời gian dừng** chỉ bằng **3** (chạm $$7 < 9$$ ngay ở bước thứ 3!), nhưng sau đó nó lại nhập vào đúng quỹ đạo của 7 nên **thời gian dừng toàn phần** = $$3 + 16 = \mathbf{19}$$!
 
 **Vì sao cách gọi tên quan trọng.** "Sau một số bước sẽ chạm 1" là một khẳng định định tính. Thời gian dừng biến nó thành **dữ liệu định lượng** mà bạn có thể vẽ, so sánh, đặt giả thuyết. Trong bài thực hành Chương 7, một hướng khám phá tốt hầu như luôn bắt đầu từ một đại lượng đo được (độ cao lớn nhất, thời gian dừng toàn phần, lớp đồng dư của các số lẻ, …), chứ không chỉ nhìn vào danh sách số thô.
-
-**Bài tập nhanh.** Với $$n=6$$ và $$n=7$$: tính thời gian dừng toàn phần đến $$1$$ và thời gian dừng (lần đầu $$T^k(n)<n$$). Ghi rõ định nghĩa.
 
 ---
 
@@ -150,21 +168,22 @@ Câu nói đúng khi thảo luận: *Collatz đã được kiểm tra đến m�
 
 ## 5. Lập luận gần đúng: vì sao kỳ vọng dãy đi xuống
 
-Nếu giả thuyết đúng, ánh xạ phải "kéo phần lớn quỹ đạo đi xuống về trung bình", dù mỗi khi gặp số lẻ nó lại nhân 3 rồi cộng 1. Ta có thể kiểm tra trực giác này bằng đúng hai dòng tính kỳ vọng xác suất cơ bản!
+### Ví dụ cầm tay chỉ việc 2: Chứng minh trực giác lực hút $$3/4$$ và thử đổi sang số âm!
 
-**Phép tính nhanh theo kỳ vọng.** Xuất phát từ một số lẻ $$N$$ lớn, giá trị $$3N+1$$ luôn là số chẵn nên chia hết cho $$2^1$$ (xác suất $$1$$); nếu các bit nhị phân hành xử gần như ngẫu nhiên thì nó chia hết cho $$2^2 = 4$$ với xác suất $$1/2$$, chia hết cho $$2^3 = 8$$ với xác suất $$1/4$$, v.v. Do đó, số lần chia đôi trung bình ngay sau một bước lẻ là tổng chuỗi hình học quen thuộc:
-
-$$
-\mathbb{E}[a(N)] = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \cdots = 2.
-$$
-
-Nghĩa là trung bình sau một bước lẻ kèm toàn bộ các lần chia đôi theo sau, số $$N$$ bị nhân với hệ số:
-
-$$
-\frac{3}{2^2} = \frac{3}{4} = 0.75 < 1!
-$$
-
-Nói theo thang logarit, kỳ vọng độ thay đổi của $$\log N$$ sau mỗi chu kỳ lẻ là $$\log(3/4) \approx -0.2877 < 0$$ — một "lực hút đi xuống" rất rõ rệt! Chính vì lực kéo trung bình bằng $$3/4$$ này mà hầu hết các quỹ đạo đều sớm tụt về những số nhỏ.
+1. **Tính kỳ vọng lực hút đi xuống:** Xuất phát từ một số lẻ $$N$$ lớn, giá trị $$3N+1$$ luôn là số chẵn nên chia hết cho $$2^1$$ (xác suất $$1$$); nếu các bit nhị phân hành xử như tung đồng xu ngẫu nhiên thì nó chia hết cho $$2^2 = 4$$ với xác suất $$1/2$$, cho $$2^3 = 8$$ với xác suất $$1/4$$, v.v. Do đó, số lần chia đôi trung bình ngay sau một bước lẻ là tổng chuỗi hình học:
+   $$
+   \mathbb{E}[a(N)] = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \cdots = 2.
+   $$
+   Nghĩa là trung bình sau một bước lẻ kèm toàn bộ các lần chia đôi theo sau, số $$N$$ bị nhân với hệ số:
+   $$
+   \frac{3}{2^2} = \frac{3}{4} = 0{,}75 < 1!
+   $$
+   Theo thang logarit, kỳ vọng độ thay đổi của $$\log N$$ sau mỗi chu kỳ lẻ là $$\log(3/4) \approx -0{,}2877 < 0$$ — một "lực hút đi xuống" rất rõ rệt!
+2. **Cảnh báo: lực hút trung bình không cấm được chu trình khác!** Hãy thử áp dụng *chính xác cùng quy tắc $$T$$* cho **số nguyên âm** $$n = -5$$:
+   $$
+   -5 \to 3(-5)+1 = -14 \to -7 \to 3(-7)+1 = -20 \to -10 \to \mathbf{-5}!
+   $$
+   Ta rơi ngay vào một chu trình độ dài 5 hoàn toàn khác với $$-1 \to -2 \to -1$$ (và còn có cả chu trình độ dài 18 xuất phát từ $$-17$$!). Phép thử nhỏ này chứng tỏ lực hút trung bình $$3/4 < 1$$ chỉ là gợi ý xác suất, hoàn toàn **không đủ** để tự động loại trừ các chu trình ẩn!
 
 **Những lưu ý quan trọng.**
 
@@ -172,15 +191,13 @@ Nói theo thang logarit, kỳ vọng độ thay đổi của $$\log N$$ sau mỗ
 - Lập luận về "hầu hết" **không** tự động kiểm soát **mọi** số nguyên. Một tập ngoại lệ siêu thưa thớt vẫn có thể thoát khỏi lực hút trung bình và làm giả thuyết sai.
 - Các dạng ánh xạ rút gọn (gộp các bước chia 2) làm thay đổi hằng số trong lập luận gần đúng, nhưng **không** thay thế được một chứng minh thật sự.
 
-Hãy dùng lập luận gần đúng để định hướng thí nghiệm, và để giải thích vì sao không ngạc nhiên khi chưa tìm thấy phản ví dụ nhỏ. **Đừng** nhầm dự đoán xác suất với chứng minh.
-
 Một hằng số tới hạn thường xuất hiện trong lý thuyết mật độ:
 
 $$
-\frac{\log 3}{\log 4}\approx 0.7925.
+\frac{\log 3}{\log 4}\approx 0{,}7925.
 $$
 
-Nó xuất hiện trong định lý "hầu hết" kiểu Korec (với hầu hết $$N$$, quỹ đạo xuống dưới lũy thừa $$N^\theta$$ khi $$\theta$$ lớn hơn ngưỡng này) và trong lập luận cân bằng giữa phép nhân $$3$$ với phép chia cho lũy thừa của $$2$$ về trung bình. Khóa học không yêu cầu chứng minh hằng số này, nhưng bạn cần **nhận ra** nó khi gặp trong bài tổng quan hay trong slide của Tao.
+Nó xuất hiện trong định lý "hầu hết" kiểu Korec (với hầu hết $$N$$, quỹ đạo xuống dưới lũy thừa $$N^\theta$$ khi $$\theta$$ lớn hơn ngưỡng này) và trong lập luận cân bằng giữa phép nhân $$3$$ với phép chia cho lũy thừa của $$2$$ về trung bình.
 
 ---
 
@@ -196,7 +213,7 @@ $$
 
 trong đó $$2^{a(N)}$$ là lũy thừa lớn nhất của $$2$$ chia hết $$3N+1$$ (kết quả lại là số lẻ). Lặp $$\operatorname{Syr}$$ là theo dõi riêng các "trạm dừng số lẻ" trong quỹ đạo Collatz sau khi đã nén gọn toàn bộ các bước chia 2 liên tiếp.
 
-**Ví dụ cụ thể với $$N = 7$$:**
+**Kiểm tra lại trên $$N = 7$$:**
 - $$3(7)+1 = 22 = 2^1 \cdot 11 \implies \operatorname{Syr}(7) = 11$$ (số mũ $$a=1$$).
 - $$3(11)+1 = 34 = 2^1 \cdot 17 \implies \operatorname{Syr}(11) = 17$$ ($$a=1$$).
 - $$3(17)+1 = 52 = 2^2 \cdot 13 \implies \operatorname{Syr}(17) = 13$$ ($$a=2$$).
@@ -205,9 +222,7 @@ trong đó $$2^{a(N)}$$ là lũy thừa lớn nhất của $$2$$ chia hết $$3N
 
 Quỹ đạo đầy đủ theo $$T$$ mất tới 16 bước mới chạm 1, nhưng qua ống kính Syracuse chỉ còn đúng 5 bước gọn gàng: $$7 \to 11 \to 17 \to 13 \to 5 \to 1$$!
 
-**Vì sao nghiên cứu ưa dùng dạng này.** Các thống kê theo modulo lũy thừa của $$3$$ gọn hơn hẳn; và mô hình xác suất cho số mũ $$a(N)$$ (phân phối hình học có kỳ vọng $$2$$ như ta vừa tính ở mục 5) trở thành trung tâm của các chứng minh "hầu hết" hiện đại. **Lưu ý khi thảo luận:** quỹ đạo theo $$T$$ và theo $$\operatorname{Syr}$$ có số bước khác nhau; chỉ so sánh các nguồn sau khi đã thống nhất quy ước.
-
-Một số bài báo cũ dùng dạng rút gọn khác, gộp "bước lẻ cùng đúng một lần chia 2" thành $$(3n+1)/2$$. Một lần nữa: hãy khớp với định nghĩa của tác giả trước khi đếm bước.
+**Vì sao nghiên cứu ưa dùng dạng này.** Các thống kê theo modulo lũy thừa của $$3$$ gọn hơn hẳn; và mô hình xác suất cho số mũ $$a(N)$$ (phân phối hình học có kỳ vọng $$2$$) trở thành trung tâm của các chứng minh "hầu hết" hiện đại. **Lưu ý khi thảo luận:** quỹ đạo theo $$T$$ và theo $$\operatorname{Syr}$$ có số bước khác nhau; chỉ so sánh các nguồn sau khi đã thống nhất quy ước.
 
 ---
 
@@ -234,20 +249,25 @@ với hầu hết $$N$$ theo mật độ logarit. Ví dụ minh họa: hầu h�
 
 Nguồn chuẩn: [arXiv:1909.03562](https://arxiv.org/abs/1909.03562), [blog Tao](https://terrytao.wordpress.com/2019/09/10/almost-all-collatz-orbits-attain-almost-bounded-values/); bài phổ thông: [Quanta](https://www.quantamagazine.org/mathematician-proves-huge-result-on-dangerous-problem-20191211/).
 
-### 7.2 Cấu trúc chứng minh (tóm tắt, không yêu cầu chép lại)
+### 7.2 Khung giải thích: Ý tưởng phía sau định lý "hầu hết" của Tao (2019) (nên đọc chậm)
 
-1. Chuyển sang ánh xạ **Syracuse** trên các số lẻ.  
-2. Tính bất thường **3-adic** của phép lặp.  
-3. Biến ngẫu nhiên Syracuse trên $$\mathbb{Z}/3^n\mathbb{Z}$$.  
-4. Phân phối ổn định dần khi $$n$$ lớn.  
-5. Lặp lại việc đi xuống hầu chắc chắn ở mức cục bộ để có kết quả gần bị chặn ở mức toàn cục.  
-6. Biến đổi Fourier / hàm đặc trưng cùng **quá trình đổi mới** (renewal process), chi tiết xem bài báo.
+Làm thế nào Terence Tao tiến gần đến Collatz hơn bất kỳ ai trong nhiều thập kỷ mà không bị mắc kẹt ở ngưỡng $$N^{0{,}7925}$$ cũ của Korec? Hãy đi chậm qua 4 bước:
 
-Khi tổng hợp kiến thức, bạn chỉ cần nêu đúng kết luận của định lý chính (Theorem 2 trong bài báo) và nhấn mạnh rằng giả thuyết vẫn còn mở.
+#### Bước 1: Rút gọn về ánh xạ Syracuse và theo dõi modulo $$3^n$$
+Tao chuyển hẳn sang ánh xạ Syracuse trên các số lẻ. Chìa khóa kỹ thuật là nếu bạn biết phân phối của một số ngẫu nhiên theo modulo $$3^n$$, bạn có thể theo dõi biến đổi của phân phối đó sau nhiều bước lặp Syracuse liên tiếp.
+
+#### Bước 2: Dùng mật độ logarit thay vì mật độ tự nhiên
+Với mật độ tự nhiên (đếm đều mọi số), việc "nhân 3 chia $$2^a$$" làm biến dạng xác suất rất khó kiểm soát. Khi chuyển sang **mật độ logarit** (gán trọng số tỉ lệ với $$1/N$$), phép nhân với hằng số $$3/2^a$$ giữ nguyên tính bất biến tỉ lệ theo thang $$\log N$$ — biến bài toán lặp phức tạp thành một quá trình truyền phân phối đẹp mắt!
+
+#### Bước 3: Biến đổi Fourier trên $$\mathbb{Z}/3^n\mathbb{Z}$$ và "tính bất thường 3-adic"
+Bằng phân tích Fourier rời rạc (hàm đặc trưng) trên vành $$\mathbb{Z}/3^n\mathbb{Z}$$ kết hợp quá trình đổi mới (renewal process), Tao chứng minh phân phối của quỹ đạo ổn định dần và chịu lực kéo đi xuống một cách đồng đều: gần như mọi quỹ đạo đều tụt xuống dưới một hàm tăng chậm tùy ý $$f(N)$$ (như $$\log\log\log N$$).
+
+#### Bước 4: Ranh giới cuối cùng còn bỏ ngỏ
+Dù $$f(N)$$ có tăng chậm đến đâu, định lý Tao vẫn **chưa** hạ được $$f(N)$$ xuống hằng số $$1$$, và vẫn cho phép tồn tại một tập ngoại lệ có mật độ logarit bằng $$0$$ (ví dụ các lũy thừa hay một dãy số siêu thưa vẫn có mật độ 0 nhưng chứa vô hạn phần tử!). Vì vậy Collatz vẫn là bài toán mở.
 
 ### 7.3 Chu trình, các dạng tổng quát, tính toán
 
-- **Chu trình:** trong các số dương, chỉ biết chu trình $$4\to 2\to 1$$ (và nếu có một chu trình dương khác thì độ dài của nó đã được chứng minh phải cực kỳ lớn — hàng trăm triệu bước!); với số âm hoặc ánh xạ khác thì có nhiều chu trình khác (ví dụ $$-1 \to -2 \to -1$$ hay $$-5 \to -14 \to -7 \to -20 \to -10 \to -5$$).  
+- **Chu trình:** trong các số dương, chỉ biết chu trình $$4\to 2\to 1$$ (và nếu có một chu trình dương khác thì độ dài của nó đã được chứng minh phải cực kỳ lớn — hàng trăm triệu bước!); với số âm hoặc ánh xạ khác thì có nhiều chu trình khác (như $$-5 \to -14 \to -7 \to -20 \to -10 \to -5$$ ta vừa thử ở trên).  
 - **Dạng tổng quát $$mx+1$$:** John Conway (1972) chứng minh một họ ánh xạ tổng quát kiểu Collatz có thể mô phỏng máy tính phổ quát, dẫn tới tính không quyết định được (undecidability); điều đó **không** có nghĩa là "Collatz cổ điển đã được chứng minh là không quyết định được" (xem video của Easy Theory trong tư liệu).  
 - **Kiểm tra bằng máy tính:** cắt tỉa cây, lọc theo đồng dư; đây là các kỹ thuật tính toán.  
 - **Bài tổng quan của Lagarias** ([arXiv:2111.02635](https://arxiv.org/abs/2111.02635)): điểm bắt đầu để đọc tài liệu.

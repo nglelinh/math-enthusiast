@@ -13,7 +13,7 @@ Hãy nhìn bức tranh *Ascending and Descending* hay *Waterfall* của danh h�
 
 Đó là sức hút của **hình bất khả** (impossible figures): tam giác Penrose, tam giác Reutersvärd (có trước đó năm 1934), cầu thang bất tận của Escher. Đằng sau trò đánh lừa thị giác ấy là một trong những nguyên lý sâu sắc nhất của toán học hiện đại: **những điều hoàn toàn nhất quán ở từng vùng nhỏ không nhất thiết ghép lại được thành một vật thể toàn cục**. Cùng một cấu trúc chướng ngại đó xuất hiện trong tôpô đại số và hình học vi phân dưới cái tên *đối đồng điều* (cohomology) — nơi một chu trình khép kín mang theo một "độ lệch" không thể xóa bỏ.
 
-**Lộ trình:** "bất khả" nghĩa là gì → tam giác Penrose và các dấu hiệu chiều sâu → Escher và những vòng khép kín mâu thuẫn → sự mơ hồ của phép chiếu → mô hình toán học (ghép dán, ý tưởng đối đồng điều) → các ảo giác thị giác liên quan → nhầm lẫn thường gặp, bài tập, hướng đi tiếp.
+**Lộ trình:** "bất khả" nghĩa là gì → tam giác Penrose và các dấu hiệu chiều sâu → Escher và những vòng khép kín mâu thuẫn → sự mơ hồ của phép chiếu → mô hình toán học (ghép dán, ý tưởng đối đồng điều) → các ảo giác thị giác liên quan → nhầm lẫn thường gặp, hướng đi tiếp.
 
 ---
 
@@ -32,11 +32,11 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Nguyên lý cục bộ – toàn cục và đối đồng điều là gì?
+## Bản đồ kiến thức nền: Nguyên lý cục bộ – toàn cục và Đối đồng điều là gì?
 
-Trong nhiều ngành toán học bậc cao — từ hình học vi phân, tôpô đại số đến vật lý lý thuyết — có một câu hỏi lặp đi lặp lại không ngừng: **nếu ta ghép nhiều mảnh lời giải cục bộ hoàn toàn hợp lệ lại với nhau, liệu chúng có khớp thành một lời giải toàn cục không?**
+Trong nhiều ngành toán học bậc cao — từ hình học vi phân, tôpô đại số đến vật lý lý thuyết (lý thuyết trường chuẩn — gauge theory) và thị giác máy tính (dựng hình 3D từ ảnh 2D) — có một câu hỏi lặp đi lặp lại không ngừng: **nếu ta ghép nhiều mảnh lời giải cục bộ hoàn toàn hợp lệ lại với nhau, liệu chúng có khớp thành một lời giải toàn cục không?**
 
-Người tốt nghiệp đại học từng gặp hiện tượng này trong giải tích vectơ: một trường vectơ có thể có $$\mathrm{curl}\, \mathbf{F} = 0$$ ở mọi điểm cục bộ, nhưng nếu đi quanh một lỗ thủng trong miền, tích phân đường $$\oint \mathbf{F}\cdot d\mathbf{r}$$ vẫn khác $$0$$ nên không tồn tại hàm thế toàn cục!
+Người tốt nghiệp đại học từng gặp hiện tượng này trong giải tích vectơ: một trường vectơ có thể có $$\mathrm{curl}\, \mathbf{F} = 0$$ ở mọi điểm cục bộ (nên cục bộ luôn viết được thành gradient $$\mathbf{F} = \nabla \phi$$), nhưng nếu đi quanh một lỗ thủng trong miền, tích phân đường $$\oint \mathbf{F}\cdot d\mathbf{r}$$ vẫn khác $$0$$ nên **không tồn tại hàm thế toàn cục $$\phi$$**!
 
 Hình bất khả chính là **phiên bản trực quan bằng mắt thường** của hiện tượng đó. Khi nhìn một bản vẽ 2D, não người làm bài toán giải ngược từ phép chiếu $$\pi:\mathbb{R}^3 \to \mathbb{R}^2$$: tại mỗi góc nối, ta dựng được một mảnh 3D hoàn toàn hợp lệ. Nhưng khi đi hết một vòng khép kín, độ sâu hoặc độ cao không khớp lại với điểm xuất phát. Trong tôpô đại số, đại lượng đo "sự lệch pha không thể sửa khi đi hết một vòng" đó gọi là **lớp đối đồng điều** (cohomology class) — và Roger Penrose từng viết hẳn một bài báo toán học năm 1992 chứng minh hình bất khả là hiện thân cụ thể của nhóm đối đồng điều thứ nhất $$H^1$$!
 
@@ -54,13 +54,21 @@ Bản vẽ một hình lập phương là một cách sắp xếp các đường
 
 **Tam giác Penrose** (được Roger Penrose phổ biến năm 1958; nghệ sĩ Thụy Điển Oscar Reutersvärd đã vẽ từ năm 1934) gồm ba thanh dầm nối với nhau vuông góc theo một vòng tam giác. Lấy tay che hai góc, góc còn lại trông như một chỗ nối dầm vuông góc hoàn toàn hợp lệ. Nhưng khi đi hết một vòng, cả hình buộc ta phải hiểu các hướng "nhô ra khỏi trang giấy" và "lùi vào trong" một cách mâu thuẫn.
 
-Ta có thể thấy sự mâu thuẫn bằng một hệ phương trình ba dòng cực kỳ đơn giản. Giả sử tại ba góc $$A, B, C$$ ta muốn gán các khoảng cách chiều sâu (hoặc độ cao) $$h_A, h_B, h_C$$ sao cho mỗi thanh dầm đều đi tiến về phía trước thêm $$1$$ đơn vị như hình vẽ gợi ý:
+### Ví dụ ma trận cầm tay chỉ việc: đại số tuyến tính "bắt quả tang" tam giác Penrose!
+
+Giả sử tại ba góc $$A, B, C$$ ta muốn gán các giá trị chiều sâu (hoặc độ cao) $$h_A, h_B, h_C$$ sao cho đi dọc mỗi thanh dầm đều tiến thêm $$+1$$ đơn vị như hình vẽ gợi ý. Hệ phương trình viết dưới dạng ma trận $$D\mathbf{h} = \mathbf{b}$$:
 
 $$
-h_B - h_A = 1, \qquad h_C - h_B = 1, \qquad h_A - h_C = 1.
+\begin{pmatrix} -1 & 1 & 0 \\ 0 & -1 & 1 \\ 1 & 0 & -1 \end{pmatrix}
+\begin{pmatrix} h_A \\ h_B \\ h_C \end{pmatrix}
+=
+\begin{pmatrix} 1 \\ 1 \\ 1 \end{pmatrix}.
 $$
 
-Lấy bất kỳ **hai** phương trình nào (tức cắt hở tam giác ra), hệ luôn có vô số nghiệm! Nhưng cộng cả **ba** phương trình lại: vế trái triệt tiêu hoàn toàn thành $$0$$, còn vế phải bằng $$3 \implies 0 = 3$$, vô lý! Chướng ngại này mang tính toàn cục, nằm trọn trên đường khép kín, trong khi mọi đoạn đường con đều ổn.
+Hãy kiểm tra trực tiếp bằng đại số tuyến tính năm nhất:
+1. **Cục bộ luôn giải được:** Bỏ đi bất kỳ 1 hàng nào (tức cắt hở tam giác thành đoạn gấp khúc), 2 phương trình còn lại có vô số nghiệm — ví dụ bỏ hàng 3, ta chọn ngay $$(h_A, h_B, h_C) = (0, 1, 2)$$.
+2. **Toàn cục vô nghiệm:** Cộng cả 3 hàng của ma trận $$D$$ lại, ta được hàng không $$(0, 0, 0)$$ (do đó $$\operatorname{rank}(D) = 2$$ và mọi vectơ $$\mathbf{y} = D\mathbf{h}$$ trong không gian ảnh $$\operatorname{Im}(D)$$ đều bắt buộc thỏa $$y_1 + y_2 + y_3 = 0$$). Thế nhưng vế phải $$\mathbf{b} = (1, 1, 1)^T$$ lại có tổng $$1 + 1 + 1 = \mathbf{3} \neq 0$$!
+3. **Liên hệ thẳng tới đối đồng điều $$H^1$$:** Không gian thương $$\mathbb{R}^3 / \operatorname{Im}(D) \cong \mathbb{R}$$ chính là **nhóm đối đồng điều thứ nhất $$H^1$$** của đồ thị tam giác, và con số $$3 \neq 0$$ là **lớp đối đồng điều** đo mức độ "bất khả" toàn cục của bản vẽ!
 
 Những "tam giác Penrose" thật trong các công viên điêu khắc hoạt động nhờ **phối cảnh cưỡng bức**: từ một góc nhìn duy nhất, hai đầu hở của khối chữ L khổng lồ trùng khít trên võng mạc nên trông như một vòng kín; bước sang một bên vài bước, các thanh dầm lập tức tách rời nhau.
 
@@ -91,6 +99,17 @@ làm mất một chiều. Nhiều vật thể khác nhau có cùng một cái b�
 ## 5. Ngôn ngữ toán học cho sự mâu thuẫn
 
 Hãy xem hình bất khả như việc cố ghép các "bản đồ" 3 chiều cục bộ dọc theo những phần chồng nhau (các đoạn dầm, các mặt). Trên mỗi phần chồng, hai bản đồ liên hệ với nhau bằng một phép dời hình hoặc một phép dịch độ cao (như độ lệch $$+1$$ trên mỗi cạnh ở Mục 2). Đi quanh một vòng khép kín các phần chồng, hợp của các ánh xạ chuyển tiếp phải là ánh xạ đồng nhất (tổng độ dịch bằng $$0$$) nếu vật thể toàn cục tồn tại. Nếu hợp đó là một phép tịnh tiến chiều sâu khác 0, ta có **một cocycle không tầm thường**, và không có lát cắt (section) toàn cục nào.
+
+### Khung giải thích: vì sao hình bất khả là minh họa trực quan nhất của đối đồng điều (nên đọc chậm)
+
+Để nối từ bức tranh Escher sang công cụ toán học bậc cao mà không bị ngợp thuật ngữ, hãy đi chậm qua 4 bước:
+
+1. **Chia vật thể thành các mảnh cục bộ (phủ mở):** Cắt bản vẽ tam giác Penrose thành 3 góc riêng lẻ $$U_A, U_B, U_C$$. Trên mỗi mảnh riêng, luôn tồn tại vật thể 3D hoàn toàn hợp lệ.
+2. **Ghi lại "độ lệch ghép nối" trên phần chồng nhau (1-cocycle):** Tại mỗi đoạn thanh dầm nối hai góc kề nhau, ta ghi nhận độ chênh chiều sâu mà bản vẽ yêu cầu (ví dụ $$+1$$ trên mỗi cạnh).
+3. **Thử "khử độ lệch" bằng cách gán độ cao $$h_A, h_B, h_C$$ (coboundary):** Một vật thể 3D nhất quán tồn tại khi và chỉ khi toàn bộ các độ lệch trên cạnh đều viết được thành hiệu $$h_j - h_i$$ (tức $$\mathbf{b} \in \operatorname{Im}(D)$$).
+4. **Kiểm tra tổng trên chu trình khép kín (lớp đối đồng điều $$H^1$$):** Tổng các hiệu $$h_j - h_i$$ quanh vòng kín luôn bằng $$0$$. Vì tổng độ lệch của bản vẽ bằng $$3 \neq 0$$, ta gặp một **chướng ngại tôpô toàn cục** — không cách sửa cục bộ nào tại một góc xóa nổi con số $$3$$ đó nếu không cắt đứt vòng kín!
+
+**Kiểm tra nhanh.** Hình lập phương Necker khác tam giác Penrose ở điểm nào trong ngôn ngữ hệ phương trình $$D\mathbf{h} = \mathbf{b}$$? Necker có *nhiều nghiệm* (mơ hồ chiều sâu), còn Penrose *vô nghiệm* (bất khả toàn cục).
 
 Không cần biết đầy đủ về đối đồng điều để nắm bài học:
 

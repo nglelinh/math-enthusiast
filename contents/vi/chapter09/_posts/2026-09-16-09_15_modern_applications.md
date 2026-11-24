@@ -38,6 +38,49 @@ Bài [Chủ đề hiện đại]({{ site.baseurl }}/contents/vi/chapter09/09_14_
 
 Hoffmann và cộng sự (2022) coi số phép tính (FLOPs) là một ngân sách cần chia giữa số tham số $$N$$ và số token $$D$$. AlphaProof coi việc tìm các bước chứng minh (tactic) trong Lean như một môi trường học tăng cường, trong đó phần thưởng là việc kernel của Lean chấp nhận chứng minh. Một Causal Transformer coi quỹ đạo $$(X_t,A_t,Y_t)$$ như một chuỗi và cố ước lượng kết quả phản thực nếu thực hiện một chuỗi hành động khác. Đây chính là ý của Pearl, “can thiệp $$\neq$$ điều kiện hóa”, nay được đưa vào một kiến trúc mạng.
 
+### Ví dụ cầm tay chỉ việc: Chia ngân sách FLOPs theo Chinchilla và ma trận che nhân quả 3×3
+
+Hãy tự tay thực hiện hai phép tính ngắn để thấy các thuật ngữ hiện đại 2022–2026 bám chặt vào đại số và tối ưu hóa sơ cấp như thế nào:
+
+**Phần A — Chia một ngân sách GPU cố định $$C = 6 \times 10^{23}$$ FLOPs.** Với công thức gần đúng $$C \approx 6ND$$, ngân sách cố định tương đương ràng buộc tích $$N \cdot D = 10^{23}$$. Hãy so sánh hai chiến lược phân bổ trên cùng một hóa đơn tiền điện GPU:
+- **Chiến lược A (kiểu Gopher — bơm to mô hình):** Chọn $$N_A = 280 \times 10^9$$ tham số (280 tỉ). Khi đó lượng dữ liệu tối đa còn lại chỉ là $$D_A = \dfrac{10^{23}}{2{,}8 \times 10^{11}} \approx \mathbf{357 \times 10^9}$$ token — tức chỉ khoảng $$1{,}28$$ token cho mỗi tham số (mô hình "đói dữ liệu" nghiêm trọng!).
+- **Chiến lược B (kiểu Chinchilla — giữ tỉ lệ vàng $$D \approx 20N$$):** Thế $$D = 20N$$ vào $$N \cdot D = 10^{23}$$:
+
+$$
+20 N_B^2 = 10^{23} \implies N_B = \sqrt{5 \times 10^{21}} \approx \mathbf{70{,}7 \times 10^9\text{ tham số}} \quad (\approx 70\text{B}),
+$$
+
+$$
+D_B = 20 N_B \approx \mathbf{1{,}41 \times 10^{12}\text{ token}} \quad (\approx 1{,}4\text{T token}).
+$$
+
+Cùng đúng một ngân sách huấn luyện $$C$$, Chiến lược B vừa đạt hàm mất mát thấp hơn rõ rệt, vừa có kích thước nhỏ hơn **4 lần** nên chi phí chạy suy luận (inference) cho người dùng cuối cũng rẻ hơn 4 lần!
+
+**Phần B — Ma trận che nhân quả (Causal Attention Mask) trên hồ sơ 3 ngày điều trị.** Giả sử một Causal Transformer theo dõi bệnh nhân qua 3 ngày $$t = 1, 2, 3$$, với ma trận điểm chú ý thô $$S$$ (hàng $$i$$ chú ý tới cột $$j$$). Để mô hình tại ngày $$t=2$$ **tuyệt đối không nhìn trộm** chỉ số hay kết quả của ngày tương lai $$t=3$$, ta cộng thêm ma trận mặt nạ tam giác dưới $$M$$ (ô phía trên đường chéo bằng $$-\infty$$) trước khi tính softmax theo từng hàng:
+
+$$
+S = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 0 & 5 \\ 1 & 1 & 1 \end{pmatrix}, \qquad M = \begin{pmatrix} 0 & -\infty & -\infty \\ 0 & 0 & -\infty \\ 0 & 0 & 0 \end{pmatrix} \implies S + M = \begin{pmatrix} 1 & -\infty & -\infty \\ 0 & 0 & -\infty \\ 1 & 1 & 1 \end{pmatrix}.
+$$
+
+Tính bằng tay hàng thứ 2 (ngày $$t=2$$) qua hàm $$\mathrm{softmax}(v)_j = \dfrac{e^{v_j}}{\sum_k e^{v_k}}$$: vì $$e^{-\infty} = 0$$ và $$e^0 = 1$$, ta thu được vector trọng số chú ý:
+
+$$
+\mathrm{softmax}(0,\; 0,\; -\infty) = \left(\frac{1}{1+1+0},\; \frac{1}{1+1+0},\; \frac{0}{2}\right) = \mathbf{(0{,}5,\; 0{,}5,\; 0)}.
+$$
+
+Dù điểm thô của tương lai $$S_{2,3} = 5$$ lớn áp đảo, mặt nạ nhân quả đã triệt tiêu hoàn toàn luồng thông tin ngược thời gian xuống đúng **0** — phần còn lại (triệt tiêu biến nhiễu từ quá khứ $$t=1, 2$$) được xử lý tiếp bởi hàm mất mát đối kháng để xấp xỉ phép can thiệp $$do(A_t)$$ của Pearl.
+
+### Khung giải thích: Vì sao giai đoạn 2022–2026 nối thẳng về di sản Giải Turing (nên đọc chậm)
+
+Ba câu chuyện trên không phải ba mốt công nghệ rời rạc, mà là ba nhịp nối dài trực tiếp các ý tưởng nền tảng của Chương 9:
+
+1. **Bước 1 — Tối ưu hóa dưới ràng buộc tài nguyên (di sản Knuth & Bộ ba học sâu):** Quy luật Chinchilla nhắc lại bài học muôn thuở của khoa học máy tính: mọi phép tính đều có ngân sách. Thay vì hỏi *"mạng lớn vô hạn thì sao?"*, kỹ thuật hiện đại giải bài toán cực trị có ràng buộc trên đường đồng mức $$6ND = C$$.
+2. **Bước 2 — Tách bạch *sáng tạo tìm kiếm* và *kiểm chứng tuyệt đối* (di sản Cook–Karp & Kiểm chứng hình thức):** Trong NP, tìm chứng cứ khó nhưng kiểm chứng lại dễ. AlphaProof khai thác đúng sự bất đối xứng này: mạng nơ-ron được tự do đề xuất các nước đi táo bạo (có thể sai), còn hạt nhân Lean đóng vai người kiểm chứng hoàn hảo không bao giờ bị đánh lừa.
+3. **Bước 3 — Đưa cấu trúc nhân quả vào mạng sâu (di sản Pearl & Bengio):** Dự đoán tốt chuỗi quan sát không đủ để bác sĩ đổi phác đồ. Causal Transformer cho thấy cách ghép kiến trúc học sâu (bộ ba 2018) với yêu cầu loại bỏ confounding (Pearl 2011).
+4. **Bước 4 — Giữ tỉnh táo giữa thực nghiệm và định lý:** Chinchilla là đường khớp thực nghiệm (phụ thuộc kiến trúc và chất lượng dữ liệu); AlphaProof vẫn cần người dịch đề sang Lean; Causal Transformer vẫn cần giả định không có biến nhiễu ẩn. Biết rõ giới hạn của mỗi bước tiến mới là dấu hiệu của người hiểu sâu.
+
+**Kiểm tra nhanh.** Nếu ngân sách tính toán tăng gấp **100 lần** ($$C' = 100C$$), theo quy luật Chinchilla $$N \propto \sqrt{C}$$ và $$D \propto \sqrt{C}$$, số tham số tối ưu $$N$$ và số token tối ưu $$D$$ mỗi thứ tăng bao nhiêu lần? Cả hai đều tăng đúng **$$\sqrt{100} = 10$$ lần** (vì $$10 \times 10 = 100$$).
+
 ## Ba cập nhật (không phải một bản khảo sát thứ hai)
 
 ### 1. Huấn luyện tối ưu theo ngân sách tính toán và chủ đề tối ưu

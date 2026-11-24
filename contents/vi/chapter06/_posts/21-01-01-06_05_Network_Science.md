@@ -105,6 +105,34 @@ Video dài khoảng 2 phút 03 giây (có thuyết minh tiếng Việt): ý tư�
 </div>
 <script src="{{ '/public/js/explainers/pagerank-explainer.js' | relative_url }}"></script>
 
+### Khung giải thích: tính tay phổ ma trận Laplacian trên đồ thị 4 đỉnh (nên đọc chậm)
+
+Khẩu hiệu "giá trị riêng thứ hai $$\lambda_2$$ của ma trận Laplacian $$L = D - A$$ phát hiện nút thắt cổ chai và chia cộng đồng" nghe khá trừu tượng cho tới khi bạn tự tay kiểm tra trên một đồ thị nhỏ có nghiệm đẹp tuyệt đối.
+
+Xét đồ thị 4 đỉnh gồm một **tam giác** $$\{1, 2, 3\}$$ gắn thêm một **đỉnh đuôi** $$4$$ nối vào đỉnh $$3$$ (tập cạnh: $$\{1,2\},\ \{2,3\},\ \{1,3\},\ \{3,4\}$$). Dễ thấy bậc của các đỉnh là $$(k_1, k_2, k_3, k_4) = (2, 2, 3, 1)$$, nên ma trận Laplacian $$L = D - A$$ là:
+
+$$
+L = \begin{pmatrix}
+2 & -1 & -1 & 0 \\
+-1 & 2 & -1 & 0 \\
+-1 & -1 & 3 & -1 \\
+0 & 0 & -1 & 1
+\end{pmatrix}.
+$$
+
+Hãy tự nhân ma trận $$L$$ với bốn vectơ nguyên sau để kiểm tra toàn bộ phổ trị riêng $$\{0, 1, 3, 4\}$$:
+
+1. **Trị riêng nhỏ nhất $$\lambda_1 = 0$$:** với $$v_1 = (1, 1, 1, 1)^\top$$, tổng mỗi hàng của $$L$$ đều bằng $$0$$ nên $$Lv_1 = 0$$. Vì chỉ có một hướng cho trị riêng $$0$$, đồ thị liên thông.
+2. **Trị riêng nhỏ thứ hai (độ liên thông đại số) $$\lambda_2 = 1$$:** thử vectơ Fiedler $$v_2 = (1, 1, 0, -2)^\top$$:
+   $$
+   Lv_2 = \begin{pmatrix}2(1)-1(1)-1(0)+0\\-1(1)+2(1)-1(0)+0\\-1(1)-1(1)+3(0)-1(-2)\\0+0-1(0)+1(-2)\end{pmatrix}
+   = \begin{pmatrix}1\\1\\0\\-2\end{pmatrix} = 1 \cdot v_2.
+   $$
+   **Hãy nhìn dấu của các tọa độ trong $$v_2 = (+1, +1, 0, -2)^\top$$:** hai đỉnh thuộc tam giác $$\{1, 2\}$$ mang dấu **dương**, đỉnh đuôi $$4$$ mang dấu **âm**, còn đúng đỉnh cầu nối $$3$$ đứng ngay tại $$0$$! Phân cụm phổ cắt đồ thị ngay tại nút thắt cổ chai $$\{3,4\}$$ mà không cần "nhìn" hình vẽ.
+3. **Hai trị riêng còn lại:** tương tự, bạn có thể nhân tay kiểm tra $$v_3 = (1, -1, 0, 0)^\top$$ cho $$Lv_3 = 3v_3$$ ($$\lambda_3 = 3$$), và $$v_4 = (1, 1, -3, 1)^\top$$ cho $$Lv_4 = 4v_4$$ ($$\lambda_4 = 4$$). Kiểm tra nhanh vết ma trận: $$\operatorname{tr}(L) = 2+2+3+1 = 8 = 0+1+3+4$$, khớp hoàn hảo!
+
+Trong bài toán khuếch tán $$\dot x = -Lx$$, mọi sai lệch dọc theo $$v_2$$ tắt dần theo $$e^{-\lambda_2 t} = e^{-t}$$ — nghĩa là $$\lambda_2$$ càng nhỏ thì thông tin đi qua nút thắt cổ chai càng chậm.
+
 ## 5. Độ bền vững, hiệu ứng dây chuyền và điều khiển
 
 Thấm (percolation): mạng vỡ ra khi gỡ bỏ đỉnh hoặc cạnh, ngẫu nhiên hoặc nhắm vào hub. Trong mô hình lý tưởng, mạng đuôi nặng bền với lỗi ngẫu nhiên (vì phần lớn đỉnh có bậc thấp, mất vài đỉnh ngẫu nhiên ít ảnh hưởng toàn cục) nhưng lại cực kỳ mong manh trước tấn công nhắm thẳng vào hub. Hiệu ứng dây chuyền (lưới điện, tài chính) cần có động lực học của tải chứ không chỉ topology. Khả năng điều khiển theo cấu trúc dùng đến bài toán ghép cặp (matching); còn nói “nút điều khiển là người cần tác động trong xã hội” là một bước nhảy cần có ngữ cảnh nhân quả và thể chế.

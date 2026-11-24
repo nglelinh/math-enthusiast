@@ -22,10 +22,10 @@ Các bài bắt buộc về vẻ đẹp toán học, đặc biệt là [lát g�
 
 ## Bản đồ kiến thức nền: Vẻ đẹp toán học đi vào phần mềm hiện đại như thế nào?
 
-Với người đã qua bậc đại học, khoảng cách giữa một định lý thuần túy và một sản phẩm công nghệ thường nằm ở **khâu mô hình hóa và đo đạc**:
-- **Từ hình học rời rạc sang bộ giải SAT:** Khi không gian cấu hình quá lớn để vẽ tay, các ràng buộc khớp cạnh của bài toán lát gạch được dịch thành công thức logic mệnh đề để máy tính rà soát hàng triệu ứng viên — nhưng chứng minh toàn cục vẫn cần tư duy toán học chặt chẽ.
-- **Từ phương trình vi phân sang mô hình sinh (Generative AI):** Thay vì mô phỏng hành tinh hay thời tiết, các mô hình khuếch tán (diffusion) huấn luyện mạng nơ-ron học chính *trường vectơ* kéo một đám mây nhiễu ngẫu nhiên trôi ngược về bức ảnh sắc nét hoặc cấu trúc protein 3D.
-- **Từ chuyển pha vật lý sang đo lường mô hình ngôn ngữ:** Mượn từ vựng "hiện tượng nảy sinh" của cơ học thống kê vào AI là rất gợi mở, nhưng toán học nhắc ta phải kiểm tra xem "bước nhảy đột ngột" đó là bản chất của hệ hay chỉ là ảo giác do thước đo gây ra.
+Với người đã qua bậc đại học, khoảng cách giữa một định lý thuần túy và một sản phẩm công nghệ không nằm ở phép màu, mà nằm ở **khâu mô hình hóa, thuật toán hóa và đo đạc** — nơi ba nhánh toán học hiện đại gặp khoa học máy tính:
+- **Hình học rời rạc $$\to$$ Bộ giải SAT (Combinatorial Optimization):** Khi không gian cấu hình quá lớn để vẽ tay, các ràng buộc khớp cạnh của bài toán lát gạch được dịch thành công thức logic mệnh đề (Boolean satisfiability) để máy tính rà soát hàng triệu ứng viên — nhưng chứng minh toàn cục vẫn cần tư duy toán học chặt chẽ.
+- **Hệ động lực & Phương trình vi phân $$\to$$ Mô hình sinh (Generative AI):** Thay vì mô phỏng hành tinh hay thời tiết, các mô hình khuếch tán (diffusion) huấn luyện mạng nơ-ron học chính *trường vectơ score* kéo một đám mây nhiễu ngẫu nhiên trôi ngược về bức ảnh sắc nét hoặc cấu trúc protein 3D (như trong AlphaFold 3).
+- **Cơ học thống kê $$\to$$ Đánh giá mô hình ngôn ngữ lớn (AI Evaluation):** Mượn từ vựng "hiện tượng nảy sinh" và "chuyển pha" vào AI là rất gợi mở, nhưng toán học nhắc ta phải kiểm tra xem "bước nhảy đột ngột" đó là bản chất của hệ hay chỉ là ảo giác do thước đo không liên tục gây ra.
 
 ## Mở đầu
 
@@ -45,18 +45,48 @@ Smith, Myers, Kaplan và Goodman-Strauss (2023/2024) giới thiệu "hat", một
 
 Hãy hình dung quá trình "phá hủy" một bức ảnh đẹp $$x_0$$: ở mỗi bước nhỏ, bạn rắc thêm một chút nhiễu Gauss cho đến khi bức ảnh biến thành nhiễu tuyết trắng $$x_T$$ hoàn toàn vô nghĩa. Mô hình khuếch tán làm điều ngược lại: nó huấn luyện một mạng nơ-ron học **hàm score** $$\nabla_x \log p_t(x)$$ — về mặt hình học, đó là một *trường vectơ* chỉ về phía những bức ảnh có xác suất "trông như thật" cao hơn. Khi tạo ảnh mới, ta lấy một điểm nhiễu ngẫu nhiên rồi giải ngược phương trình vi phân theo trường vectơ đó.
 
-Karras, Aittala, Aila và Laine (2022) tách riêng các lựa chọn thiết kế của mô hình sinh dựa trên score (tiền điều kiện, lịch nhiễu, bộ lấy mẫu ODE bậc cao) và đạt chỉ số FID rất tốt chỉ với vài chục lần gọi mạng nơ-ron thay vì hàng nghìn bước như trước. Đối tượng ở đây là một phương trình vi phân (tất định hoặc ngẫu nhiên) có trường vectơ được học. Đó chính là cách nghĩ về hỗn độn và động lực học của chương này, nay trở thành mô hình tạo ảnh trong sản phẩm thật (và sau đó là một phần của mô-đun dựng cấu trúc phân tử trong AlphaFold 3). Nó không thay thế bài thực hành về ánh xạ logistic.
+**Ví dụ tính toán cầm tay chỉ việc — hàm score 1 chiều kéo điểm nhiễu về dữ liệu thật:**
+Giả sử "tập dữ liệu thật" của ta chỉ gồm đúng hai điểm $$x = -1$$ và $$x = +1$$. Sau khi thêm nhiễu Gauss phương sai $$\sigma^2 = 1$$, mật độ xác suất là hỗn hợp hai đường cong hình chuông:
+$$p(x) = \frac{1}{2\sqrt{2\pi}}\left(e^{-(x-1)^2/2} + e^{-(x+1)^2/2}\right).$$
+Lấy đạo hàm của $$\log p(x)$$ (chính là hàm score!), ta rút gọn được công thức cực đẹp:
+
+$$
+s(x) = \frac{d}{dx}\log p(x) = \tanh(x) - x.
+$$
+
+Thử thay ba điểm $$x$$ cụ thể để xem trường vectơ $$s(x)$$ đẩy điểm đi đâu:
+- Tại $$x = +2{,}0$$: $$s(2{,}0) = \tanh(2) - 2 \approx 0{,}964 - 2 = \mathbf{-1{,}036}$$ (đẩy mạnh sang trái về gần điểm dữ liệu $$+1$$!).
+- Tại $$x = +0{,}5$$: $$s(0{,}5) = \tanh(0{,}5) - 0{,}5 \approx 0{,}462 - 0{,}5 = \mathbf{-0{,}038}$$ (gần như cân bằng, nhưng khi giảm nhiễu $$\sigma \to 0$$ nó kéo dứt khoát về $$+1$$!).
+- Tại $$x = -2{,}0$$: $$s(-2{,}0) \approx \mathbf{+1{,}036}$$ (đẩy mạnh sang phải về điểm dữ liệu $$-1$$!).
+
+Mạng nơ-ron tạo ảnh hiện đại làm đúng công việc đó, chỉ thay trục 1 chiều bằng không gian ảnh hàng trăm nghìn chiều! Karras, Aittala, Aila và Laine (2022) tách riêng các lựa chọn thiết kế của mô hình sinh dựa trên score (tiền điều kiện, lịch nhiễu, bộ lấy mẫu ODE bậc cao) và đạt chỉ số FID rất tốt chỉ với vài chục lần gọi mạng nơ-ron thay vì hàng nghìn bước như trước. Đối tượng ở đây là một phương trình vi phân (tất định hoặc ngẫu nhiên) có trường vectơ được học. Đó chính là cách nghĩ về hỗn độn và động lực học của chương này, nay trở thành mô hình tạo ảnh trong sản phẩm thật (và sau đó là một phần của mô-đun dựng cấu trúc phân tử trong AlphaFold 3).
 
 ### 3. Hiện tượng nảy sinh, kèm cảnh báo về thước đo
 
 Wei và cộng sự (2022) liệt kê những nhiệm vụ mà mô hình ngôn ngữ lớn dường như nhảy vọt từ mức gần đoán mò lên độ chính xác dùng được khi quy mô tham số vượt ngưỡng. Schaeffer và cộng sự (2023) phản biện bằng một quan sát toán học cực kỳ sắc bén: nhiều "vách đá" đó thực ra là sản phẩm của **thước đo khắc nghiệt kiểu được ăn cả, ngã về không** (exact-match).
 
-Một phép tính nhỏ giúp thấy rõ ngay: giả sử mô hình làm bài toán cộng số có 4 chữ số, và xác suất đoán đúng từng chữ số độc lập $$p$$ tăng rất mượt khi mô hình lớn dần. Nếu ta chấm điểm theo kiểu *đúng cả 4 chữ số mới được 1 điểm*, xác suất đúng toàn bài là $$p^4$$:
-- Khi $$p = 0{,}50$$: điểm exact-match là $$0{,}5^4 = 6{,}25\%$$ (gần như bằng 0!).
-- Khi $$p = 0{,}70$$: điểm là $$0{,}7^4 \approx 24\%$$.
-- Khi $$p = 0{,}90$$: điểm vọt lên $$0{,}9^4 \approx 65{,}6\%$$!
+**Ví dụ tính toán cầm tay chỉ việc — ảo giác vách đá từ hàm lũy thừa $$p^4$$:**
+Giả sử mô hình làm bài toán cộng số có 4 chữ số, và xác suất đoán đúng từng chữ số độc lập $$p$$ tăng rất đều đặn theo kích thước mô hình. Nếu ta chấm theo kiểu *đúng cả 4 chữ số mới được 1 điểm*, điểm exact-match là $$p^4$$:
+
+| Xác suất đúng từng chữ số $$p$$ | Điểm mượt (trung bình chữ số) | Điểm exact-match $$p^4$$ |
+|---:|---:|---:|
+| $$0{,}50$$ | $$50\%$$ | $$6{,}25\%$$ |
+| $$0{,}70$$ | $$70\%$$ | $$24{,}01\%$$ |
+| $$0{,}85$$ | $$85\%$$ | $$52{,}20\%$$ |
+| $$0{,}95$$ | $$95\%$$ | **$$81{,}45\%$$** |
 
 Độ chính xác từng chữ số tăng đều đặn, không có "chuyển pha" thần kỳ nào cả, nhưng qua hàm lũy thừa $$p^4$$ (hay nặng hơn là $$p^{10}$$), đồ thị bỗng xuất hiện một vách đá dựng đứng! Khi đổi sang thước đo mượt hơn (như xác suất log hoặc tỷ lệ đúng từng token), nhiều "vách đá" lập tức trở thành con dốc thoai thoải. Bài hiện tượng nảy sinh ở Chương 4 đã cảnh báo rằng hành vi tập thể cần một định nghĩa rõ ràng. Cặp bài báo 2022–2023 là cùng lời cảnh báo đó trong bối cảnh học máy: hãy nêu rõ thước đo trước khi nói đến chuyển pha.
+
+### Khung giải thích: từ định lý đẹp đến sản phẩm AI — 4 câu hỏi kiểm định (nên đọc chậm)
+
+Khi đọc báo công nghệ ca ngợi một đột phá AI hay thuật toán mới gắn với toán học đẹp, hãy đi chậm qua 4 bước kiểm định:
+
+1. **Xác định đối tượng toán học lõi:** Sản phẩm đang vận hành trên mô hình nào? (Gạch hat: bài toán thỏa mãn ràng buộc SAT; Diffusion: phương trình vi phân ODE/SDE với trường score $$\nabla_x \log p_t(x)$$; LLM: hàm mất mát xác suất trên chuỗi token.)
+2. **Tách công cụ tính toán khỏi chứng minh:** Bộ giải SAT tìm ra ứng viên và kiểm tra hàng triệu trường hợp cục bộ, nhưng chỉ chứng minh toán học mới kết luận được cho mặt phẳng vô hạn.
+3. **Kiểm tra thước đo trước khi kết luận "chuyển pha":** Một bước nhảy trên đồ thị có còn tồn tại nếu đổi từ thước đo phi tuyến sắc nét (như $$p^k$$ hoặc exact-match) sang thước đo trơn (cross-entropy / Brier score) không?
+4. **Phân biệt mô hình hiệu dụng với bản chất vật lý:** Một mô hình khuếch tán sinh ảnh đẹp không chứng minh thế giới thực được sinh bởi quá trình khuếch tán ngược — nó chỉ chứng tỏ ngôn ngữ hệ động lực cực kỳ hiệu quả để xấp xỉ phân phối dữ liệu phức tạp.
+
+**Kiểm tra nhanh.** Vì sao ví dụ $$p^4$$ ở trên lại quan trọng khi đọc các biểu đồ về AI? Vì nó cho thấy một cải thiện hoàn toàn tuyến tính ở tầng dưới có thể biến thành một "vách đá nảy sinh" giả tạo chỉ do cách ta định nghĩa điểm số ở tầng trên.
 
 ## Diễn giải và nhận định
 

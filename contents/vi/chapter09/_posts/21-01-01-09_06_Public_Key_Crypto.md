@@ -77,9 +77,33 @@ Kẻ nghe lén thấy $$g,g^a,g^b$$ (và $$p$$). **Bài toán log rời rạc (D
 5. Công khai $$(n,e)$$; bí mật $$d$$ (và $$p,q$$).  
 6. Mã (textbook): $$c \equiv m^e \pmod n$$. Giải: $$m \equiv c^d \pmod n$$.
 
-Ví dụ đồ chơi: chọn $$p=5, q=11 \implies n=55$$ và $$\varphi(55) = 4\cdot 10 = 40$$. Chọn $$e=3$$, ta tìm được $$d=27$$ (vì $$3\cdot 27 = 81 \equiv 1 \pmod{40}$$). Để mã hóa thông điệp $$m=7$$, người gửi tính $$c = 7^3 \bmod 55 = 343 \bmod 55 = 13$$. Người nhận dùng khóa bí mật $$d=27$$ tính $$13^{27} \bmod 55 = 7$$ — khôi phục chính xác bản rõ!
+### Ví dụ cầm tay chỉ việc: Tự chạy tay RSA ($$n = 55$$) và kiểm chứng bằng bình phương liên tiếp
 
-Tính đúng dựa trên số học Euler/Carmichael: số mũ nhân modulo $$\lambda(n)$$ triệt tiêu. **Giả định an ninh thô:** từ $$n$$ khó khôi phục $$p,q$$ (factoring semiprime lớn); và các bài RSA đảo (tính căn $$e$$-th modulo $$n$$) khó khi không biết cửa sập.
+Chọn $$p = 5,\ q = 11 \implies n = 55$$ và $$\varphi(55) = 4 \times 10 = 40$$.
+1. **Tìm khóa bí mật $$d$$ bằng Euclid mở rộng:** chọn $$e = 3$$ (vì $$\gcd(3,40)=1$$). Chia $$40$$ cho $$3$$:
+$$
+40 = 13 \times 3 + 1 \implies (-13)\cdot 3 \equiv 1 \pmod{40} \implies d = -13 + 40 = 27.
+$$
+2. **Mã hóa thông điệp $$m = 7$$:**
+$$
+c = 7^3 \bmod 55 = 343 \bmod 55 = 13 \qquad (\text{vì } 343 = 6\times 55 + 13).
+$$
+3. **Giải mã $$13^{27} \bmod 55$$ bằng bình phương liên tiếp** (viết $$27 = 16 + 8 + 2 + 1$$):
+   - $$13^1 \equiv 13$$,
+   - $$13^2 = 169 = 3\times 55 + 4 \equiv 4$$,
+   - $$13^4 \equiv 4^2 = 16$$,
+   - $$13^8 \equiv 16^2 = 256 = 4\times 55 + 36 \equiv -19$$,
+   - $$13^{16} \equiv (-19)^2 = 361 = 6\times 55 + 31 \equiv 31 \pmod{55}$$.
+   Nhân bốn thành phần lại: $$13^{27} \equiv 31 \cdot (-19) \cdot 4 \cdot 13$$. Gom cặp: $$31\cdot 4 = 124 \equiv 14$$ và $$(-19)\cdot 13 = -247 = -5\times 55 + 28 \equiv 28$$. Cuối cùng $$14 \cdot 28 = 392 = 7\times 55 + 7 \equiv 7 \pmod{55}$$ — **trả về chính xác bản gốc $$m = 7$$!**
+
+### Khung giải thích: Bốn bước biến số học đồng dư thành ổ khóa HTTPS (nên đọc chậm)
+
+1. **Dùng chữ ký số xác thực danh tính máy chủ:** trình duyệt kiểm tra chứng chỉ số (ký bằng RSA/ECDSA) để chắc chắn bạn đang nói chuyện với đúng ngân hàng thật chứ không phải kẻ giả mạo xen giữa (MITM).
+2. **Dùng Diffie–Hellman / ECDHE thỏa thuận khóa phiên:** hai bên trao đổi công khai $$g^a, g^b$$ (trên đường cong elliptic, hoặc kèm chuẩn hậu lượng tử ML-KEM) để cùng tính ra khóa bí mật chung $$K$$ chỉ dùng một lần cho phiên hiện tại.
+3. **Chuyển sang mã hóa đối xứng tốc độ cao:** dùng khóa phiên $$K$$ đó cho AES-GCM hoặc ChaCha20 để mã hóa toàn bộ trang web, hình ảnh và dữ liệu thẻ tín dụng ở tốc độ gigabit/giây.
+4. **Hủy khóa phiên khi đóng tab (Forward Secrecy):** kể cả khi khóa dài hạn của máy chủ bị lộ 5 năm sau, toàn bộ phiên trò chuyện cũ vẫn không thể bị giải mã lại.
+
+**Kiểm tra nhanh.** Khóa công khai **không** dùng để mã hóa trực tiếp cả tệp phim 1 GB (quá chậm); nó giải bài toán *khởi tạo niềm tin và trao đổi khóa*, còn mã đối xứng gánh phần lưu lượng lớn.
 
 **Cơ chế một câu.** *Lũy thừa công khai dễ; nghịch đảo số mũ dễ nếu biết $$\varphi(n)$$, được tin là khó nếu chỉ biết $$n$$.*
 

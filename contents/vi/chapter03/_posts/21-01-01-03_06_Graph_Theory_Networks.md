@@ -120,9 +120,45 @@ $$
 
 trong đó $$P$$ là ma trận chuyển xác suất và $$v$$ là vectơ teleport.
 
+### Ví dụ cầm tay chỉ việc: Tự tay tính PageRank cho mạng web 3 trang
+
+Xét một mạng web thu nhỏ chỉ có 3 trang $$A, B, C$$:
+- Trang $$A$$ trỏ sang $$B$$ và $$C$$ (mỗi liên kết nhận xác suất $$1/2$$).
+- Trang $$B$$ chỉ trỏ sang $$C$$ (xác suất $$1$$).
+- Trang $$C$$ chỉ trỏ sang $$A$$ (xác suất $$1$$).
+
+1. **Lập ma trận chuyển $$P^\top$$** (cột $$j$$ ghi xác suất đi ra từ trang $$j$$):
+$$
+P^\top = \begin{pmatrix} 0 & 0 & 1 \\ 1/2 & 0 & 0 \\ 1/2 & 1 & 0 \end{pmatrix}, \qquad v = \begin{pmatrix} 1/3 \\ 1/3 \\ 1/3 \end{pmatrix}, \qquad \alpha = 0{,}85.
+$$
+2. **Bắt đầu từ điểm bằng nhau** $$\pi^{(0)} = (0{,}333,\ 0{,}333,\ 0{,}333)^\top$$, thực hiện vòng lặp 1:
+$$
+P^\top \pi^{(0)} = \begin{pmatrix} 0{,}333 \\ 0{,}167 \\ 0{,}500 \end{pmatrix}
+\implies
+\pi^{(1)} = 0{,}85\begin{pmatrix} 0{,}333 \\ 0{,}167 \\ 0{,}500 \end{pmatrix} + 0{,}15\begin{pmatrix} 0{,}333 \\ 0{,}333 \\ 0{,}333 \end{pmatrix}
+\approx \begin{pmatrix} 0{,}333 \\ 0{,}192 \\ 0{,}475 \end{pmatrix}.
+$$
+3. **Vòng lặp 2:**
+$$
+P^\top \pi^{(1)} = \begin{pmatrix} 0{,}475 \\ 0{,}167 \\ 0{,}358 \end{pmatrix}
+\implies
+\pi^{(2)} = 0{,}85\begin{pmatrix} 0{,}475 \\ 0{,}167 \\ 0{,}358 \end{pmatrix} + \begin{pmatrix} 0{,}050 \\ 0{,}050 \\ 0{,}050 \end{pmatrix}
+\approx \begin{pmatrix} 0{,}454 \\ 0{,}192 \\ 0{,}354 \end{pmatrix}.
+$$
+Lặp tiếp vài chục vòng, vectơ hội tụ về điểm cố định $$\pi^* \approx (0{,}388,\ 0{,}215,\ 0{,}397)^\top$$. Chú ý điều thú vị: dù trang $$A$$ chỉ có **1** liên kết trỏ tới (ít hơn trang $$C$$ có 2 liên kết), $$A$$ vẫn có thứ hạng gần sát $$C$$ ($$0{,}388$$ so với $$0{,}397$$) và vượt xa $$B$$ ($$0{,}215$$) — bởi liên kết duy nhất trỏ tới $$A$$ lại đến từ chính trang quyền lực nhất $$C$$!
+
+### Khung giải thích: Vì sao đại số tuyến tính trên ma trận kề lại giải được bài toán mạng tỷ nút? (nên đọc chậm)
+
+1. **Đóng gói toàn bộ cấu trúc liên kết vào một ma trận thưa:** đồ thị web 10 tỷ trang có ma trận $$P$$ cỡ $$10^{10}\times 10^{10}$$, nhưng mỗi trang trung bình chỉ có vài chục liên kết → ma trận gần như toàn số 0.
+2. **Biến câu hỏi "trang nào quan trọng?" thành bài toán trạng thái cân bằng:** thay vì định nghĩa vòng tròn ("quan trọng là được trang quan trọng trỏ tới"), ta viết thành phương trình vectơ riêng $$\pi = \alpha P^\top\pi + (1-\alpha)v$$.
+3. **Dùng bước nhảy teleport để bảo đảm hội tụ duy nhất:** nhờ thừa số $$(1-\alpha)v > 0$$, định lý Perron–Frobenius khẳng định tồn tại **duy nhất** phân phối dừng $$\pi^*$$ bất kể xuất phát từ đâu.
+4. **Giải bằng phép lặp lũy thừa siêu rẻ:** ta không bao giờ đảo ma trận; chỉ cần lặp phép nhân ma trận thưa với vectơ (chi phí tỉ lệ với số cạnh $$\lvert E\rvert$$) vài chục lần là đạt độ chính xác công nghiệp.
+
+**Kiểm tra nhanh.** PageRank không đếm số liên kết thô; nó tìm **phân phối dừng của bước ngẫu nhiên** — một vectơ riêng toàn cục phản ánh chất lượng liên kết lan truyền khắp mạng.
+
 **Ý chính.** *Mức độ quan trọng toàn cục nảy sinh tự nhiên từ cấu trúc liên kết cục bộ, thông qua vectơ riêng trội của một ma trận thưa khổng lồ, chứ không cần con người chấm điểm bằng tay.*
 
-**Phương pháp lặp lũy thừa.** Với đồ thị web hàng chục tỷ trang, ta không thể đảo ma trận trực tiếp. Thay vào đó, ta chỉ cần bắt đầu từ phân phối đều và lặp lại phép nhân ma trận thưa với vectơ khoảng 50–100 vòng là $$\pi$$ đã hội tụ đủ chính xác. Khả năng mở rộng (scalability) của phép lặp vectơ riêng chính là yếu tố biến ý tưởng đại số tuyến tính này thành công cụ tìm kiếm thống trị thế giới. Các biến thể như **PageRank cá nhân hóa** (teleport ưu tiên về tập nút bạn thích) ngày nay vẫn được dùng rộng rãi trong gợi ý bạn bè và sản phẩm.
+Các biến thể như **PageRank cá nhân hóa** (teleport ưu tiên về tập nút bạn thích) ngày nay vẫn được dùng rộng rãi trong gợi ý bạn bè và sản phẩm.
 
 ---
 

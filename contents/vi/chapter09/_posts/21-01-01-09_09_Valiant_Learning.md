@@ -64,6 +64,15 @@ Hai tham số này tách riêng hai nguồn bất định: sự ngẫu nhiên c�
 
 Mô hình PAC cổ điển thường giả sử **khả thực** (realizable): $$c\in\mathcal{C}$$. **PAC bất khả tri** (agnostic) nhắm đến giả thuyết tốt nhất trong lớp: đo rủi ro vượt so với $$\inf_{h\in\mathcal{H}} R(h)$$. Học máy trong thực tế gần với trường hợp bất khả tri hơn; các định lý về số mẫu và độ khó thay đổi tùy theo từng trường hợp. Xem bài [Lý thuyết học máy]({{ site.baseurl }}/contents/vi/chapter06/06_10_ML_Theory/).
 
+### Khung giải thích: Ba bước hiểu trọn mô hình học PAC và ranh giới với Deep Learning (nên đọc chậm)
+
+1. **Chấp nhận hai mức nới lỏng bắt buộc ($$\varepsilon, \delta$$):** vì dữ liệu chỉ là mẫu ngẫu nhiên hữu hạn, không bao giờ có thể cam kết sai số $$0\%$$ chắc chắn $$100\%$$; ta chỉ cam kết sai số $$\le \varepsilon$$ với độ tin cậy $$\ge 1-\delta$$.
+2. **Tách bạch hai cổ chai: số mẫu (thống kê) vs thời gian (thuật toán):** chiều VC hữu hạn bảo đảm *chỉ cần đủ mẫu* là ERM sẽ tổng quát hóa, nhưng tìm được nghiệm ERM trong thời gian đa thức lại là bài toán thuật toán có thể NP-khó!
+3. **Tính thử cỡ mẫu thực tế:** để học một khoảng bí mật $$[a,b]$$ trên trục số với sai số $$\varepsilon = 0{,}05$$ (5%) và độ tin cậy $$1-\delta = 99\%$$ ($$\delta = 0{,}01$$), công thức PAC cho $$m \ge \frac{2}{0{,}05}\ln(200) \approx 40 \times 5{,}30 = 212$$ mẫu — **không hề phụ thuộc vào phân phối $$\mathcal{D}$$ là gì!**
+4. **Nhận rõ giới hạn trước Deep Learning:** PAC cổ điển đặt cận cho *mọi* phân phối xấu nhất dựa trên kích thước lớp giả thuyết $$\mathcal{H}$$, trong khi mạng sâu hàng tỉ tham số vẫn tổng quát hóa tốt nhờ thiên kiến quy nạp của SGD và cấu trúc dữ liệu thật.
+
+**Kiểm tra nhanh.** PAC không bị "lỗi thời" trước Deep Learning — nó cung cấp **ngôn ngữ đặc tả bài toán học** mà mọi lý thuyết tổng quát hóa hiện đại (PAC-Bayes, Rademacher) đều xây tiếp lên.
+
 ---
 
 ## 2. Số mẫu, chiều VC, và "học được" nghĩa là gì
@@ -106,15 +115,30 @@ Lớp **NP** hỏi: có *tồn tại* lời chứng (witness) không? Lớp **#P
 
 Hệ quả là nhiều bài toán "thống kê tổ hợp" (đếm cặp ghép, đếm số cách tô màu, hàm phân hoạch trong vật lý thống kê) đều khó về mặt đếm, ngay cả khi phiên bản quyết định nằm trong P. Ví dụ tiêu biểu nhất là **permanent**.
 
+### Ví dụ cầm tay chỉ việc: Tự tính Định thức vs Permanent cho ma trận $$3\times 3$$ (đếm ghép cặp hoàn hảo)
+
+Xét 3 kỹ sư (hàng 1, 2, 3) và 3 dự án (cột 1, 2, 3), trong đó $$a_{ij} = 1$$ nếu kỹ sư $$i$$ làm được dự án $$j$$:
+
+$$
+A = \begin{pmatrix} 1 & 1 & 0 \\ 1 & 1 & 1 \\ 0 & 1 & 1 \end{pmatrix}.
+$$
+
+Trong $$3! = 6$$ hoán vị $$\sigma$$ của $$\{1, 2, 3\}$$, chỉ có đúng **3 hoán vị** tạo ra tích $$a_{1,\sigma(1)}a_{2,\sigma(2)}a_{3,\sigma(3)} = 1$$:
+- $$\sigma_1 = (1, 2, 3)$$ (hoán vị chẵn, dấu $$+1$$): kỹ sư 1→DA1, 2→DA2, 3→DA3.
+- $$\sigma_2 = (2, 1, 3)$$ (hoán vị lẻ, dấu $$-1$$): kỹ sư 1→DA2, 2→DA1, 3→DA3.
+- $$\sigma_3 = (1, 3, 2)$$ (hoán vị lẻ, dấu $$-1$$): kỹ sư 1→DA1, 2→DA3, 3→DA2.
+
+Bây giờ so sánh hai đại lượng:
+- **Định thức (có dấu $$\operatorname{sgn}(\sigma)$$):** $$\det(A) = (+1) + (-1) + (-1) = -1$$. Nhờ tính chất đổi dấu khi hoán đổi hàng, ta khử Gauss trong $$O(n^3)$$ bước mà không cần duyệt $$n!$$ hoán vị!
+- **Permanent (bỏ dấu âm):** $$\mathrm{per}(A) = 1 + 1 + 1 = 3$$ — trả về đúng **3 cách ghép cặp hoàn hảo**! Nhưng chỉ vì thiếu dấu trừ, phép cộng hàng làm hỏng permanent, nên khử Gauss sụp đổ hoàn toàn và bài toán biến thành **#P-đầy đủ**!
+
 ### Permanent và định thức
 
 Với ma trận $$A=(a_{ij})$$,
 
 $$
-\mathrm{per}(A)=\sum_{\sigma\in S_n}\prod_{i=1}^n a_{i,\sigma(i)},
+\mathrm{per}(A)=\sum_{\sigma\in S_n}\prod_{i=1}^n a_{i,\sigma(i)}.
 $$
-
-có cùng dạng tổng theo các hoán vị như $$\det$$ nhưng **không** có dấu đan xen (ví dụ với ma trận $$2\times 2$$ là $$\begin{pmatrix}a&b\\c&d\end{pmatrix}$$, ta có $$\det = ad - bc$$ còn $$\mathrm{per} = ad + bc$$). Định thức tính được trong thời gian đa thức (phép khử Gauss nhờ tính bất biến dưới phép cộng hàng); permanent của ma trận 0-1 là #P-đầy đủ (Valiant). Đây là một trong những tương phản đẹp nhất của khoa học máy tính lý thuyết: hai đa thức "gần giống nhau", một cái dễ và một cái khó về độ phức tạp.
 
 Trong vật lý và lấy mẫu: các kết quả về xấp xỉ permanent, thuật toán xấp xỉ ngẫu nhiên thời gian đa thức (FPRAS) cho một số lớp ma trận, và độ khó của bài toán xấp xỉ làm bức tranh chi tiết hơn, đồng thời thúc đẩy các thuật toán ngẫu nhiên và xích Markov.
 

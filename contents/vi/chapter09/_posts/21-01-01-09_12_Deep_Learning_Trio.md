@@ -77,6 +77,50 @@ Các thuật toán SGD và Adam cập nhật $$\theta$$ bằng gradient ước l
 
 Đồ thị tính toán là một đồ thị có hướng. Mỗi nút có ma trận Jacobian cục bộ của riêng nó. Chế độ ngược của đạo hàm tự động (reverse-mode automatic differentiation) nhân các Jacobian này dọc theo chuỗi, đi từ hàm mất mát ngược về các tham số. Chi phí tính toán cùng bậc với một lượt tính xuôi, tức tỉ lệ với số cạnh của đồ thị. Đây là một **kỹ thuật tính đạo hàm tự động**, không phải phép màu tạo ra trí tuệ. Hinton cùng các đồng nghiệp đã phổ biến việc huấn luyện mạng nhiều lớp bằng cách này, còn phương pháp chế độ ngược có lịch sử rộng hơn nhiều, chẳng hạn trong lý thuyết điều khiển với phương pháp liên hợp (adjoint).
 
+### Ví dụ cầm tay chỉ việc: Chạy tay 1 bước lan truyền xuôi–ngược và 1 phép tích chập 2×2
+
+Để thấy rõ mạng nơ-ron không hề có "ma thuật", hãy tự tay thực hiện hai phép tính cốt lõi nhất của học sâu:
+
+**Phần A — Một bước huấn luyện mạng 2 lớp bằng lan truyền ngược.** Xét mạng cực nhỏ đầu vào $$x = 2$$, nhãn mục tiêu $$y = 1$$, hai trọng số khởi tạo $$w_1 = 0{,}5$$ và $$w_2 = 1{,}5$$ (bỏ hệ số lệch để tính nhanh), hàm kích hoạt lớp 1 là $$\mathrm{ReLU}(z) = \max(0, z)$$ và hàm mất mát bình phương $$L = \tfrac{1}{2}(\hat{y} - y)^2$$:
+
+1. **Lượt xuôi (Forward pass):**
+   - Lớp 1: $$z_1 = w_1 x = 0{,}5 \times 2 = 1$$, sau ReLU được $$a_1 = \max(0, 1) = 1$$.
+   - Lớp 2: $$\hat{y} = w_2 a_1 = 1{,}5 \times 1 = 1{,}5$$.
+   - Mất mát hiện tại: $$L = \tfrac{1}{2}(1{,}5 - 1)^2 = \mathbf{0{,}125}$$.
+2. **Lượt ngược (Backward pass — quy tắc hàm hợp):**
+   - Đạo hàm tại đầu ra: $$\dfrac{\partial L}{\partial \hat{y}} = \hat{y} - y = 1{,}5 - 1 = 0{,}5$$.
+   - Gradient theo $$w_2$$: $$\dfrac{\partial L}{\partial w_2} = \dfrac{\partial L}{\partial \hat{y}} \cdot \dfrac{\partial \hat{y}}{\partial w_2} = 0{,}5 \times a_1 = 0{,}5 \times 1 = \mathbf{0{,}5}$$.
+   - Truyền tín hiệu sai số qua lớp 2 về $$a_1$$: $$\dfrac{\partial L}{\partial a_1} = \dfrac{\partial L}{\partial \hat{y}} \cdot w_2 = 0{,}5 \times 1{,}5 = 0{,}75$$.
+   - Vì $$z_1 = 1 > 0$$ nên $$\mathrm{ReLU}'(z_1) = 1$$, suy ra gradient theo $$w_1$$: $$\dfrac{\partial L}{\partial w_1} = \dfrac{\partial L}{\partial a_1} \cdot \mathrm{ReLU}'(z_1) \cdot x = 0{,}75 \times 1 \times 2 = \mathbf{1{,}5}$$.
+3. **Cập nhật hạ gradient (tốc độ học $$\eta = 0{,}1$$):**
+   - $$w_2^{\text{mới}} = 1{,}5 - 0{,}1 \times 0{,}5 = \mathbf{1{,}45}$$,
+   - $$w_1^{\text{mới}} = 0{,}5 - 0{,}1 \times 1{,}5 = \mathbf{0{,}35}$$.
+4. **Kiểm tra lại lượt xuôi mới:** $$z_1^{\text{mới}} = 0{,}35 \times 2 = 0{,}7$$, $$\hat{y}^{\text{mới}} = 1{,}45 \times 0{,}7 = \mathbf{1{,}015}$$, mất mát mới $$L^{\text{mới}} = \tfrac{1}{2}(0{,}015)^2 = \mathbf{0{,}0001125}$$ — giảm hơn **1.100 lần** chỉ sau đúng một bước!
+
+**Phần B — Phép tích chập 2×2 phát hiện cạnh đứng (tinh thần LeNet của LeCun).** Cho một mảng điểm ảnh $$3 \times 3$$ có nửa trái sáng (giá trị 10) và nửa phải tối (giá trị 0), cùng bộ lọc phát hiện cạnh đứng $$K$$ kích thước $$2 \times 2$$:
+
+$$
+X = \begin{pmatrix} 10 & 10 & 0 \\ 10 & 10 & 0 \\ 10 & 10 & 0 \end{pmatrix}, \qquad K = \begin{pmatrix} 1 & -1 \\ 1 & -1 \end{pmatrix}.
+$$
+
+Trượt $$K$$ qua 4 vị trí $$2 \times 2$$ của ảnh $$X$$ rồi nhân từng phần tử cộng lại:
+- Góc trên–trái: $$10(1)+10(-1)+10(1)+10(-1) = 0$$ (vùng phẳng, không có cạnh).
+- Góc trên–phải: $$10(1)+0(-1)+10(1)+0(-1) = \mathbf{20}$$ (phát hiện mạnh cạnh đứng!).
+- Góc dưới–trái: $$0$$; góc dưới–phải: $$\mathbf{20}$$.
+
+Bản đồ đặc trưng thu được là $$\begin{pmatrix} 0 & 20 \\ 0 & 20 \end{pmatrix}$$: chỉ dùng **4 trọng số dùng chung**, bộ lọc đã tự động khoanh đúng ranh giới sáng–tối bất kể nó nằm ở hàng trên hay hàng dưới.
+
+### Khung giải thích: Vì sao "độ sâu + phi tuyến + chia sẻ trọng số" tạo nên cuộc cách mạng (nên đọc chậm)
+
+Để hiểu trọn vẹn công lao của Bengio, Hinton và LeCun mà không rơi vào sùng bái công nghệ, hãy nối 4 mắt xích sau:
+
+1. **Bước 1 — Phi tuyến cứu độ sâu khỏi sụp đổ:** Nếu không có hàm kích hoạt phi tuyến (như ReLU ở Phần A), 100 lớp nhân ma trận liên tiếp vẫn rút gọn về đúng 1 ma trận duy nhất — độ sâu trở nên vô nghĩa. Nhờ ReLU "gấp" không gian ở từng lớp, số vùng tuyến tính mà mạng tạo ra tăng theo hàm mũ theo độ sâu.
+2. **Bước 2 — Lan truyền ngược biến quy tắc hàm hợp thành thuật toán tuyến tính:** Thay vì tính riêng từng đạo hàm bằng sai phân hữu hạn (tốn hàng triệu lượt chạy cho mạng triệu tham số), lượt ngược tái sử dụng giá trị trung gian $$a_1, z_1$$ từ lượt xuôi để lấy **toàn bộ** gradient chỉ trong một lần quét ngược.
+3. **Bước 3 — Kiến trúc là hình học được mã hóa sẵn:** Không gian tất cả các hàm từ ảnh sang nhãn là quá rộng để dữ liệu lấp đầy. Tích chập (CNN) thu hẹp không gian tìm kiếm về các hàm bất biến tịnh tiến; cơ chế chú ý (Attention) mở ra kết nối toàn cục giữa các token — mỗi kiến trúc là một giả thuyết hình học về dữ liệu.
+4. **Bước 4 — Khoảng trống lý thuyết vẫn rộng mở:** Ta vừa thấy SGD giảm mất mát 1.100 lần trên mạng 2 tham số. Nhưng khi mạng có hàng trăm tỉ tham số và đủ sức ghi nhớ cả nhãn nhiễu, vì sao nó vẫn tổng quát hóa tốt trên dữ liệu mới? Đó là nơi thực nghiệm của giải Turing 2018 trao lại bài toán mở cho thế hệ nhà toán học tiếp theo.
+
+**Kiểm tra nhanh.** Trong Phần A, chuyện gì xảy ra nếu ta khởi tạo $$w_1 = -0{,}5$$ với $$x = 2$$? Khi đó $$z_1 = -1 < 0$$, nên $$\mathrm{ReLU}(z_1) = 0$$ và đạo hàm $$\mathrm{ReLU}'(z_1) = 0$$ — toàn bộ gradient theo $$w_1$$ bằng **0** (hiện tượng *dying ReLU*). Chỉ một dấu trừ trong khởi tạo cũng đủ làm nơ-ron "chết" hoàn toàn, giải thích vì sao khởi tạo trọng số (He/Xavier) và kết nối phần dư (ResNet) lại mang tính sống còn.
+
 ---
 
 ## 3. LeCun: tích chập và thiên kiến quy nạp cho thị giác

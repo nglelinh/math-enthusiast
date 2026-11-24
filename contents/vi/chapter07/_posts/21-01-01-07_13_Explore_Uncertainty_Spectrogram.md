@@ -19,6 +19,8 @@ Hãy lắng nghe hai âm thanh quen thuộc: một tiếng vỗ tay dứt khoát
 
 Sự đánh đổi tưởng chừng rất đời thường ấy hóa ra lại là **cùng một định luật toán học sâu xa** với Nguyên lý Bất định Heisenberg trong cơ học lượng tử! Không phải do đồng hồ hay kính hiển vi của ta kém tinh xảo, mà là một giới hạn bất khả xâm phạm của cấu trúc sóng và không gian Hilbert. Trong bài thực hành này, bạn không cần chứng minh bất đẳng thức Pauli–Weyl bằng tay. Thay vào đó, bằng vài chục dòng mã FFT và vài phép nhân ma trận $$2\times 2$$, bạn sẽ **tận mắt chứng kiến** cả ba gương mặt của nguyên lý bất định: xung càng hẹp thì phổ càng rộng; độ dài cửa sổ phổ đồ luôn ép ta phải đánh đổi giữa thời gian và tần số; và hai toán tử không giao hoán (ma trận Pauli $$X, Z$$) không bao giờ có thể cùng lúc sắc nét.
 
+**Mạch bài học:** Bản đồ kiến thức nền (giải tích thời gian–tần số, cơ học lượng tử toán học & bất đẳng thức Robertson) → Khung giải thích chậm: tự tay tính $$\sigma_X \sigma_Z$$ cho qubit thực và qubit phức (đạt dấu bằng!) → Chuẩn bị mã FFT → Các thí nghiệm phổ đồ, chirp & qubit.
+
 ---
 
 ## Mục tiêu học tập
@@ -37,19 +39,51 @@ Sau bài này, bạn có thể:
 
 ## Bản đồ kiến thức nền: Giải tích thời gian–tần số và Cơ học lượng tử toán học là gì, nghiên cứu những gì?
 
-Người học kỹ thuật điện tử gặp nguyên lý bất định trong thiết kế bộ lọc âm thanh, radar và nén ảnh; còn người học vật lý gặp nó ở hạt vi mô. Đứng sau cả hai lĩnh vực là hai nhánh toán học có chung bộ khung giải tích:
+Người học kỹ thuật điện tử gặp nguyên lý bất định trong thiết kế bộ lọc âm thanh, radar và nén ảnh; còn người học vật lý gặp nó ở hạt vi mô. Đứng sau cả hai lĩnh vực là ba trụ cột có chung một nền giải tích:
 
-1. **Giải tích thời gian–tần số (Time–Frequency Analysis):** Một bản nhạc thay đổi cao độ theo từng giây, nên lấy biến đổi Fourier trên toàn bộ bản nhạc sẽ trộn lẫn mọi nốt nhạc lại với nhau. Để biết *nốt nào vang lên lúc nào*, các kỹ sư và nhà toán học cắt tín hiệu bằng một cửa sổ trượt độ dài $$T$$ rồi tính biến đổi Fourier từng đoạn — đó là **biến đổi Fourier thời gian ngắn (STFT)** tạo nên **phổ đồ (spectrogram)**. Định lý bất định Fourier (Gabor / Heisenberg–Pauli–Weyl) khẳng định tích độ trải thời gian và độ trải tần số bị chặn dưới tuyệt đối: $$\Delta t \cdot \Delta \xi \ge \frac{1}{4\pi}$$. Điều đặc biệt là **hàm Gauss** $$e^{-\pi x^2}$$ chính là "nhà vô địch" duy nhất đạt dấu bằng tối ưu!
-2. **Cơ học lượng tử toán học và Toán tử không giao hoán:** Trong cơ học lượng tử, mỗi đại lượng đo được là một toán tử tuyến tính $$A, B$$. Với bất kỳ trạng thái $$\psi$$ nào, **bất đẳng thức Robertson** khẳng định:
+### 1. Giải tích thời gian–tần số (Time–Frequency Analysis) và Phổ đồ
+
+Một bản nhạc thay đổi cao độ theo từng giây, nên lấy biến đổi Fourier trên toàn bộ bản nhạc sẽ trộn lẫn mọi nốt nhạc lại với nhau. Để biết *nốt nào vang lên lúc nào*, các kỹ sư và nhà toán học cắt tín hiệu bằng một cửa sổ trượt độ dài $$T$$ rồi tính biến đổi Fourier từng đoạn — đó là **biến đổi Fourier thời gian ngắn (STFT)** tạo nên **phổ đồ (spectrogram)**. Định lý bất định Fourier (Gabor / Heisenberg–Pauli–Weyl) khẳng định tích độ trải thời gian và độ trải tần số bị chặn dưới tuyệt đối:
+$$
+\Delta t \cdot \Delta \xi \ge \frac{1}{4\pi}.
+$$
+Điều đặc biệt là **hàm Gauss** $$f(x) = e^{-\pi x^2}$$ chính là "nhà vô địch" đạt dấu bằng tối ưu (vì biến đổi Fourier của một hàm Gauss lại là đúng một hàm Gauss!).
+
+### 2. Cơ học lượng tử toán học và Bất đẳng thức Robertson
+
+Trong cơ học lượng tử, mỗi đại lượng đo được là một toán tử tự liên hợp $$A, B$$ trên không gian Hilbert. Với bất kỳ trạng thái chuẩn hóa $$\psi$$ nào, **bất đẳng thức Robertson** (1929) khẳng định:
 $$
 \sigma_A(\psi)\,\sigma_B(\psi) \ge \frac{1}{2}\,\bigl\lvert \langle \psi \vert [A, B] \psi \rangle \bigr\rvert,
 $$
-trong đó giao hoán tử là $$[A, B] = AB - BA$$. Khi hai toán tử **không giao hoán** ($$AB \neq BA$$), không tồn tại trạng thái nào đồng thời làm triệt tiêu cả hai độ bất định (trừ các trường hợp kỳ vọng giao hoán tử bằng 0).
+trong đó giao hoán tử là $$[A, B] = AB - BA$$. Khi $$A$$ và $$B$$ **không giao hoán** ($$AB \neq BA$$), ta có một rào cản đại số ngăn không cho cả hai phép đo đồng thời sắc nét tuyệt đối.
 
-Một **ví dụ tính tay gọn nhẹ** ngay cho Việc C: với hai ma trận Pauli $$X = \begin{pmatrix}0&1\\1&0\end{pmatrix}$$ và $$Z = \begin{pmatrix}1&0\\0&-1\end{pmatrix}$$, ta có $$[X, Z] = XZ - ZX = \begin{pmatrix}0&-2\\2&0\end{pmatrix} = -2iY$$. Với trạng thái thực $$\psi_\theta = (\cos(\theta/2), \sin(\theta/2))^T$$:
-- Tại $$\theta = 0$$ (trạng thái riêng của $$Z$$: $$\psi_0 = (1, 0)^T$$): ta đo $$Z$$ chắc chắn ra $$+1$$ nên $$\sigma_Z = 0$$, còn đo $$X$$ ra $$\pm 1$$ với xác suất $$50\%/50\%$$ nên $$\sigma_X = 1$$. Lúc này tích $$\sigma_X \sigma_Z = 0$$, và vế phải Robertson cũng bằng $$0$$!
-- Tại $$\theta = \pi/2$$ (trạng thái riêng của $$X$$: $$\psi_{\pi/2} = (1/\sqrt{2}, 1/\sqrt{2})^T$$): $$\sigma_X = 0$$ và $$\sigma_Z = 1$$.
-- Còn ở giữa, ví dụ $$\theta = \pi/4$$: cả $$\sigma_X$$ và $$\sigma_Z$$ đều dương (cụ thể $$\sigma_Z = \sin(\pi/4) = \frac{\sqrt{2}}{2}$$ và $$\sigma_X = \cos(\pi/4) = \frac{\sqrt{2}}{2}$$, nên $$\sigma_X \sigma_Z = 0.5$$), trong khi vì $$\psi_\theta$$ có các thành phần hoàn toàn thực nên $$\langle \psi_\theta \vert (-2iY) \psi_\theta \rangle = 0$$! Phát hiện nhỏ này cho thấy một bài học cực hay khi làm thí nghiệm: với trạng thái thực trên vòng tròn $$XZ$$, vế phải Robertson luôn bằng $$0$$ (nếu muốn thấy vế phải khác $$0$$, bạn cần thêm pha phức như $$\psi = (\cos(\theta/2), i\sin(\theta/2))^T$$!).
+### 3. Nguyên lý bất định rời rạc và Fractal (mở rộng hiện đại)
+
+Ngay cả trên tín hiệu rời rạc hữu hạn (DFT cỡ $$N$$), một vectơ có $$s$$ thành phần khác 0 và phổ của nó có $$\hat s$$ thành phần khác 0 luôn phải thỏa $$s \cdot \hat s \ge N$$ (và với $$N$$ nguyên tố, Terence Tao chứng minh chặt hơn: $$s + \hat s \ge N + 1$$). Ý tưởng này là trái tim của công nghệ **nén cảm biến (Compressed Sensing)** trong chụp cộng hưởng từ MRI.
+
+---
+
+### Khung giải thích: Cầm tay kiểm chứng bất đẳng thức Robertson trên một qubit thực và phức (nên đọc chậm)
+
+Hãy tự tay tính tất cả các số hạng cho hai ma trận Pauli quen thuộc:
+$$
+X = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \qquad Z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}, \qquad Y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}.
+$$
+Trước hết, tính giao hoán tử $$[X, Z] = XZ - ZX$$:
+$$
+XZ = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}, \qquad ZX = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix} \implies [X, Z] = \begin{pmatrix} 0 & -2 \\ 2 & 0 \end{pmatrix} = -2iY.
+$$
+Chú ý $$X^2 = I$$ và $$Z^2 = I$$ nên với mọi trạng thái chuẩn hóa $$\psi$$, ta có công thức độ lệch chuẩn cực gọn: $$\sigma_X = \sqrt{1 - \langle X\rangle^2}$$ và $$\sigma_Z = \sqrt{1 - \langle Z\rangle^2}$$. Bây giờ thử trên hai trạng thái cụ thể:
+
+1. **Trạng thái thực $$\psi_\theta = (\cos(\theta/2),\; \sin(\theta/2))^T$$:**
+   - Tại $$\theta = 0$$ ($$\psi_0 = (1, 0)^T$$): $$\langle Z \rangle = 1 \implies \sigma_Z = 0$$; $$\langle X \rangle = 0 \implies \sigma_X = 1$$. Tích $$\sigma_X \sigma_Z = 0$$, và vế phải cũng bằng $$0$$.
+   - Tại $$\theta = \pi/4$$: $$\langle Z \rangle = \cos(\pi/4) = \frac{\sqrt{2}}{2} \implies \sigma_Z = \frac{\sqrt{2}}{2}$$; $$\langle X \rangle = \sin(\pi/4) = \frac{\sqrt{2}}{2} \implies \sigma_X = \frac{\sqrt{2}}{2}$$, nên **vế trái $$\sigma_X \sigma_Z = 0.5$$**. Nhưng hãy tính **vế phải**: vì $$\psi_\theta$$ thuần thực nên $$\langle \psi_\theta \vert (-2iY) \psi_\theta \rangle = -2i \cdot 0 = \mathbf{0}$$! Đây là phát hiện thực nghiệm cực hay: trên vòng tròn thực $$XZ$$, bất đẳng thức vẫn đúng ($$0.5 \ge 0$$) nhưng vế phải bị triệt tiêu bằng 0!
+2. **Trạng thái phức $$\tilde\psi = \frac{1}{\sqrt{2}}(1,\; i)^T$$ (trạng thái riêng của $$Y$$):**
+   - $$\langle Z \rangle = \frac{1}{2}(1 - 1) = 0 \implies \sigma_Z = 1$$;
+   - $$\langle X \rangle = \frac{1}{2}(1\cdot i + (-i)\cdot 1) = 0 \implies \sigma_X = 1$$;
+   - **Vế trái:** $$\sigma_X \sigma_Z = 1 \times 1 = \mathbf{1}$$.
+   - **Vế phải:** $$\frac{1}{2}\bigl\lvert \langle \tilde\psi \vert (-2iY)\tilde\psi \rangle \bigr\rvert = \bigl\lvert \langle \tilde\psi \vert Y \tilde\psi \rangle \bigr\rvert = \bigl\lvert \tfrac{1}{2}(1\cdot 1 + (-i)(i)) \bigr\rvert = \mathbf{1}$$!
+   Ta chạm **đúng dấu bằng $$1 = 1$$** — trạng thái $$\tilde\psi$$ tối đa hóa đồng thời độ bất định của cả $$X$$ và $$Z$$ đúng bằng cận dưới Robertson!
 
 ---
 

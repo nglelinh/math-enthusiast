@@ -17,17 +17,18 @@ Bài tổng quan này đi sâu vào mục 4 của [bài trung tâm về vật l�
 
 ---
 
-## Bản đồ kiến thức nền: Cơ học thống kê toán học là gì và nghiên cứu những gì?
+## Bản đồ kiến thức nền: Cơ học thống kê toán học đứng trên ba trụ cột nào?
 
-Nếu bạn đã học xác suất thống kê ở đại học (luật số lớn, phân phối hàm mũ/softmax trong học máy, kỳ vọng và phương sai), bạn sẽ nhận ra ngay một bí mật thú vị: **công thức softmax trong mạng nơ-ron thực chất chính là phân bố Boltzmann–Gibbs** $$p(s) = \frac{1}{Z} e^{-\beta E(s)}$$ của cơ học thống kê!
+Nếu bạn đã học xác suất thống kê ở đại học (luật số lớn, hàm softmax trong học máy, kỳ vọng và phương sai), bạn có thể nắm trọn ba trụ cột của ngành này:
 
-Điều làm nên sức sâu sắc của **cơ học thống kê toán học** là cuộc giằng co vĩnh cửu giữa **năng lượng** (muốn kéo hệ về trạng thái trật tự có năng lượng thấp nhất) và **entropy** (số lượng áp đảo của các cấu hình hỗn loạn), được điều tiết bởi tham số nhiệt độ nghịch đảo $$\beta = 1/(k_B T)$$:
+### 1. Phân bố Boltzmann–Gibbs và Cuộc giằng co Năng lượng – Entropy
+Công thức softmax quen thuộc trong mạng nơ-ron thực chất chính là **phân bố Boltzmann–Gibbs** $$p(s) = \frac{1}{Z} e^{-\beta E(s)}$$ với nhiệt độ nghịch đảo $$\beta = 1/(k_B T)$$. Mọi hiện tượng cân bằng đều là cuộc giằng co giữa **năng lượng** (kéo hệ về trạng thái trật tự năng lượng thấp) và **entropy** (số lượng áp đảo của các cấu hình hỗn loạn): khi $$T$$ cao ($$\beta \to 0$$) entropy thắng (pha khí/thuận từ); khi $$T$$ thấp ($$\beta \to \infty$$) năng lượng thắng (tinh thể/sắt từ).
 
-- **Khi nhiệt độ cao ($$\beta \to 0$$):** Trọng số $$e^{-\beta E(s)} \approx 1$$ gần như đều nhau; entropy thắng thế, hệ rơi vào pha hỗn loạn (khí, chất thuận từ).
-- **Khi nhiệt độ thấp ($$\beta \to \infty$$):** Cấu hình có năng lượng thấp nhất áp đảo tuyệt đối; năng lượng thắng thế, hệ khóa vào pha trật tự (tinh thể rắn, nam châm sắt từ).
-- **Ngành này nghiên cứu gì?** Không giống xác suất cơ bản chỉ xét các biến ngẫu nhiên *độc lập* (nên luôn mượt mà), cơ học thống kê nghiên cứu các hệ gồm vô số biến ngẫu nhiên **tương tác mạnh với hàng xóm của chúng** trên một đồ thị hay mạng lưới $$\mathbb{Z}^d$$. Câu hỏi lớn nhất là: trong giới hạn thể tích vô hạn ($$N \to \infty$$), khi nào tồn tại *nhiều hơn một* độ đo Gibbs tương thích với cùng quy tắc tương tác (dấu hiệu toán học của **chuyển pha**), tương quan giữa hai điểm xa nhau suy giảm nhanh theo hàm mũ hay chậm theo hàm lũy thừa (điểm tới hạn), và hình dạng ngẫu nhiên ở thang vĩ mô hội tụ về đối tượng liên tục nào?
+### 2. Giới hạn nhiệt động và Chuyển pha như điểm kỳ dị giải tích
+Với hệ hữu hạn $$N$$ hạt, $$Z_N(\beta)$$ là tổng hữu hạn các hàm mũ trơn nên không bao giờ có bước nhảy hay góc nhọn. **Chuyển pha** theo nghĩa toán học chặt chẽ chỉ xuất hiện khi lấy giới hạn $$N \to \infty$$: mật độ năng lượng tự do $$f(\beta) = \lim_{N\to\infty} -\frac{1}{\beta N}\log Z_N(\beta)$$ xuất hiện **điểm không giải tích**, tương ứng với việc xuất hiện *nhiều hơn một* độ đo Gibbs trên thể tích vô hạn.
 
-Với bản đồ đó trong tay, mỗi công thức trong cơ học thống kê đều hiện ra như một bài toán xác suất rất giàu hình ảnh.
+### 3. Xác suất của hệ tương tác mạnh và Kết nối liên ngành
+Khác với xác suất đại học chỉ xét biến ngẫu nhiên *độc lập*, cơ học thống kê nghiên cứu vô số biến **tương tác mạnh với hàng xóm** trên lưới $$\mathbb{Z}^d$$. Từ đây nảy sinh lý thuyết độ lệch lớn, thuật toán lấy mẫu MCMC / mô hình khuếch tán trong khoa học dữ liệu, quá trình SLE trong 2 chiều, và cầu nối trực tiếp sang lý thuyết trường lượng tử Euclid.
 
 ---
 
@@ -57,7 +58,29 @@ $$
 
 **Hàm phân hoạch** $$Z(\beta)$$ không chỉ là hằng số chuẩn hóa cho tổng xác suất bằng 1 — nó là "hàm sinh vạn năng" của cả hệ! Chỉ cần lấy đạo hàm của $$\log Z(\beta)$$ theo $$\beta$$, ta rút ngay ra mọi đại lượng vĩ mô: chẳng hạn $$-\frac{\partial}{\partial \beta}\log Z = \langle E\rangle$$ (năng lượng trung bình) và $$\frac{\partial^2}{\partial \beta^2}\log Z = \operatorname{Var}(E)$$ (phương sai năng lượng, tỉ lệ trực tiếp với nhiệt dung!). Năng lượng tự do $$F=-\beta^{-1}\log Z$$ gói gọn toàn bộ nhiệt động học cân bằng, còn xác suất $$p(s)\propto e^{-\beta E(s)}$$ gọi là trọng số **Boltzmann–Gibbs**.
 
-Hãy thử nhanh với một **hệ 2 trạng thái** đơn giản (một hạt spin trong từ trường có hai mức năng lượng $$0$$ và $$\Delta > 0$$): khi đó $$Z(\beta) = 1 + e^{-\beta\Delta}$$ và năng lượng trung bình là $$\langle E\rangle = \frac{\Delta}{e^{\beta\Delta} + 1}$$. Khi nhiệt độ tiến về $$0$$ ($$\beta \to \infty$$), $$\langle E\rangle \to 0$$ (hệ đóng băng hoàn toàn ở trạng thái cơ bản); khi nhiệt độ rất cao ($$\beta \to 0$$), $$\langle E\rangle \to \Delta/2$$ (hai trạng thái xảy ra đồng đều $$50\%–50\%$$).
+### Khung giải thích: tự tay giải trọn vẹn mô hình Ising 2 spin (nên đọc chậm)
+
+Để thấy tận mắt hàm phân hoạch sinh ra mọi đại lượng vĩ mô như thế nào, hãy tính bằng tay một "nam châm mini" chỉ gồm **2 spin** $$\sigma_1, \sigma_2 \in \{+1, -1\}$$ tương tác với năng lượng $$E(\sigma_1, \sigma_2) = -J\sigma_1\sigma_2$$ (với $$J > 0$$, hai spin thích chỉ cùng chiều):
+
+1. **Liệt kê cả 4 cấu hình và trọng số Boltzmann:**
+   - Hai cấu hình cùng chiều $$(+1, +1)$$ và $$(-1, -1)$$: năng lượng $$E = -J$$, mỗi cấu hình có trọng số $$e^{+\beta J}$$.
+   - Hai cấu hình ngược chiều $$(+1, -1)$$ và $$(-1, +1)$$: năng lượng $$E = +J$$, mỗi cấu hình có trọng số $$e^{-\beta J}$$.
+2. **Tính hàm phân hoạch $$Z(\beta)$$:**
+   $$
+   Z(\beta) = 2e^{\beta J} + 2e^{-\beta J} = 4\cosh(\beta J).
+   $$
+3. **Đọc năng lượng trung bình và tương quan bằng đạo hàm của $$\log Z$$:**
+   $$
+   \langle E \rangle = -\frac{\partial}{\partial\beta}\log\bigl(4\cosh(\beta J)\bigr) = -J\tanh(\beta J).
+   $$
+   Từ $$E = -J\sigma_1\sigma_2$$, ta đọc ra ngay **độ tương quan hai spin**:
+   $$
+   \langle \sigma_1\sigma_2 \rangle = \frac{2e^{\beta J} - 2e^{-\beta J}}{4\cosh(\beta J)} = \tanh(\beta J).
+   $$
+4. **Thử hai mốc nhiệt độ bằng số cụ thể:**
+   - **Nhiệt độ cao ($$\beta J = 0.1$$):** $$\langle \sigma_1\sigma_2 \rangle = \tanh(0.1) \approx 0.10$$ — hai spin gần như chỉ ngẫu nhiên độc lập nhau.
+   - **Nhiệt độ thấp ($$\beta J = 3$$):** $$\langle \sigma_1\sigma_2 \rangle = \tanh(3) \approx 0.995$$ — xác suất hai spin khóa cùng chiều vượt quá $$99.7\%$$!
+   - Nhưng hãy để ý: hàm $$\tanh(\beta J)$$ hoàn toàn trơn nhẵn, không hề có góc nhọn! Điều đó minh họa sống động vì sao chỉ khi cho số spin $$N \to \infty$$ mới có thể xuất hiện bước nhảy chuyển pha sắc lẹm!
 
 **Cơ chế chính.** Một đại lượng vĩ mô ở trạng thái cân bằng là **kỳ vọng theo một phân bố xác suất có trọng số theo năng lượng**, chứ không phải giá trị dọc theo một quỹ đạo cơ học riêng lẻ.
 
@@ -65,7 +88,7 @@ Hãy thử nhanh với một **hệ 2 trạng thái** đơn giản (một hạt 
 
 ## 2. Giới hạn nhiệt động và các pha
 
-Một điểm toán học cực kỳ tinh tế thường bị bỏ qua ở sách nhập môn: với bất kỳ hệ **hữu hạn** nào (dù $$N = 10^{23}$$), hàm phân hoạch $$Z_N(\beta)$$ là một tổng hữu hạn các hàm mũ dương $$e^{-\beta E(s)} > 0$$, nên mật độ năng lượng tự do $$f_N(\beta) = -\frac{1}{\beta N}\log Z_N(\beta)$$ luôn là một **hàm giải tích trơn vô hạn**, không bao giờ có góc nhọn hay bước nhảy! Chỉ khi lấy **giới hạn nhiệt động** $$N \to \infty$$ (với mật độ cố định), giới hạn $$f(\beta) = \lim_{N\to\infty} f_N(\beta)$$ mới có thể xuất hiện **điểm kỳ dị không giải tích** — đó mới là định nghĩa toán học chặt chẽ của **chuyển pha** (chuyển pha loại một ứng với đạo hàm bậc nhất nhảy vọt như nước hóa hơi; chuyển pha loại hai hay điểm tới hạn ứng với đạo hàm bậc hai phân kỳ như nam châm ở nhiệt độ Curie). Vì vậy, ở thể tích vô hạn, ta định nghĩa trạng thái cân bằng thông qua họ các điều kiện tương thích địa phương (phương trình DLR — Dobrushin–Lanford–Ruelle) cho **độ đo Gibbs**; khi phương trình DLR có nhiều hơn một nghiệm, hệ có sự cùng tồn tại của nhiều pha!
+Với bất kỳ hệ **hữu hạn** nào (dù $$N = 10^{23}$$), hàm phân hoạch $$Z_N(\beta)$$ là một tổng hữu hạn các hàm mũ dương $$e^{-\beta E(s)} > 0$$, nên mật độ năng lượng tự do $$f_N(\beta) = -\frac{1}{\beta N}\log Z_N(\beta)$$ luôn là một **hàm giải tích trơn vô hạn**, không bao giờ có góc nhọn hay bước nhảy! Chỉ khi lấy **giới hạn nhiệt động** $$N \to \infty$$ (với mật độ cố định), giới hạn $$f(\beta) = \lim_{N\to\infty} f_N(\beta)$$ mới có thể xuất hiện **điểm kỳ dị không giải tích** — đó mới là định nghĩa toán học chặt chẽ của **chuyển pha** (chuyển pha loại một ứng với đạo hàm bậc nhất nhảy vọt như nước hóa hơi; chuyển pha loại hai hay điểm tới hạn ứng với đạo hàm bậc hai phân kỳ như nam châm ở nhiệt độ Curie). Vì vậy, ở thể tích vô hạn, ta định nghĩa trạng thái cân bằng thông qua họ các điều kiện tương thích địa phương (phương trình DLR — Dobrushin–Lanford–Ruelle) cho **độ đo Gibbs**; khi phương trình DLR có nhiều hơn một nghiệm, hệ có sự cùng tồn tại của nhiều pha!
 
 **Mô hình Ising.** Trên mỗi đỉnh $$i$$ của một mạng lưới (như lưới vuông $$\mathbb{Z}^d$$), ta đặt một spin $$\sigma_i \in \{+1, -1\}$$ với năng lượng $$E(\sigma) = -J\sum_{i\sim j}\sigma_i\sigma_j$$ (các spin hàng xóm thích chỉ cùng chiều để giảm năng lượng).
 - Ở **1 chiều** ($$\mathbb{Z}$$): Ernst Ising chứng minh năm 1925 rằng *không có chuyển pha* ở mọi nhiệt độ dương (chỉ cần một vết đứt gãy cũng đủ phá trật tự toàn dây).

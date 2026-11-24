@@ -19,6 +19,8 @@ Từ luận văn thạc sĩ đặt nền móng ấy, Kashiwara đã xây dựng 
 
 (Tài liệu của giải cũng dùng cụm **crystal base**; “crystal graph” và “crystal base” chỉ cùng một bộ khung tổ hợp của các biểu diễn nhóm lượng tử.) Trang chính thức: [abelprize.no](https://abelprize.no/).
 
+**Mạch bài học:** Ta sẽ xây nền tảng trực giác qua ba trụ cột (giải tích đại số & $$D$$-module, lý thuyết biểu diễn & nhóm lượng tử, đồ thị tinh thể & tương ứng Riemann–Hilbert) → tự tay kiểm tra đại số Weyl, đơn đạo của $$\sqrt{x}$$ và tích tensor đồ thị tinh thể $$\mathfrak{sl}_2$$ trong khung giải thích → đi sâu vào vai trò hạ tầng của Kashiwara trong bản đồ Giải Abel.
+
 ---
 
 ## Mục tiêu học tập
@@ -33,9 +35,56 @@ Sau bài này, bạn có thể giải thích $$D$$-module như ngôn ngữ đạ
 
 Ba cụm từ trong sự nghiệp của Kashiwara thường chỉ xuất hiện ở chương trình sau đại học, nhưng bản chất trực giác của chúng hoàn toàn có thể nắm bắt ngay từ kiến thức đại số tuyến tính và phương trình vi phân đại học:
 
-- **Giải tích đại số (Algebraic Analysis) và $$D$$-module:** Trong đại số tuyến tính, một hệ phương trình tuyến tính $$Ax = 0$$ không cần giải bằng từng tọa độ; ta nghiên cứu chính ma trận $$A$$ và không gian nhân $$\ker A$$. Tương tự, với một hệ phương trình vi phân tuyến tính, các phép toán "nhân với biến $$x$$" và "lấy đạo hàm $$\partial_x = \frac{d}{dx}$$" lập thành một **vành không giao hoán** ký hiệu là $$D$$ (vì theo quy tắc đạo hàm tích, $$\partial_x(x u) - x(\partial_x u) = u$$, tức $$\partial_x x - x \partial_x = 1 \neq 0$$!). Một **$$D$$-module** đơn giản là một đối tượng đại số chịu tác động của vành toán tử vi phân $$D$$—nó đóng gói trọn vẹn một hệ PDE tuyến tính mà không phụ thuộc vào việc bạn chọn nghiệm là hàm trơn, hàm phức hay phân bố!
-- **Lý thuyết biểu diễn (Representation Theory):** Là nghệ thuật "biến đối xứng thành ma trận". Một nhóm đối xứng trừu tượng (như nhóm quay 3D) rất khó tính toán trực tiếp; lý thuyết biểu diễn cho nó tác động lên một không gian vector bằng các ma trận vuông, nhờ đó các bài toán đối xứng trong toán học và cơ học lượng tử trở thành đại số tuyến tính.
-- **Nhóm lượng tử và Đồ thị tinh thể (Crystal Graph / Crystal Base):** Trong vật lý thống kê và lý thuyết biểu diễn hiện đại, người ta "biến dạng" các đại số đối xứng cổ điển theo một tham số $$q$$ (gần giống nhiệt độ trong mô hình vật lý), tạo ra **nhóm lượng tử (quantum group)**. Khi $$q = 1$$ ta quay về đối xứng cổ điển; nhưng công thức với $$q$$ tổng quát cực kỳ cồng kềnh. Ý tưởng thiên tài của Kashiwara: cho $$q \to 0$$ (như hạ nhiệt độ về không độ tuyệt đối để chất lỏng kết tinh thành tinh thể)! Ở giới hạn $$q = 0$$, toàn bộ không gian biểu diễn phức tạp bỗng "đông cứng" thành một **đồ thị có hướng gắn nhãn** (**crystal graph**), biến các phép tính đại số nặng nề thành bài toán đi theo mũi tên và đếm đường đi cực kỳ đơn giản!
+### 1. Giải tích đại số (Algebraic Analysis) và $$D$$-module — nghiên cứu gì?
+Trong đại số tuyến tính, một hệ phương trình tuyến tính $$Ax = 0$$ không cần giải bằng từng tọa độ; ta nghiên cứu chính ma trận $$A$$ và không gian nhân $$\ker A$$. Tương tự, với một hệ phương trình vi phân tuyến tính, các phép toán "nhân với biến $$x$$" và "lấy đạo hàm $$\partial_x = \frac{d}{dx}$$" lập thành một **vành không giao hoán** gọi là **đại số Weyl** $$D$$ (vì theo quy tắc đạo hàm tích, $$\partial_x(x u) - x(\partial_x u) = u$$, tức $$\partial_x x - x \partial_x = 1 \neq 0$$). Một **$$D$$-module** là một đối tượng đại số chịu tác động của vành toán tử vi phân $$D$$—nó đóng gói trọn vẹn một hệ PDE tuyến tính thành một vật thể đại số duy nhất, hoàn toàn độc lập với việc bạn chọn nghiệm là hàm trơn, hàm phức hay phân bố.
+
+### 2. Lý thuyết biểu diễn (Representation Theory) và Nhóm lượng tử — nghiên cứu gì?
+**Lý thuyết biểu diễn** là nghệ thuật "biến đối xứng thành ma trận": thay vì thao tác trực tiếp trên một nhóm đối xứng hay đại số Lie trừu tượng (như đại số đối xứng spin $$\mathfrak{sl}_2$$), ta cho nó tác động lên một không gian vector bằng các ma trận vuông. Trong thập niên 1980, để giải các mô hình vật lý thống kê khả tích và nghiên cứu nút thắt, Drinfeld và Jimbo "biến dạng" các đại số Lie cổ điển theo một tham số $$q$$ (đóng vai trò tương tự nhiệt độ trong cơ học thống kê), tạo ra **nhóm lượng tử (quantum group)** $$U_q(\mathfrak{g})$$. Khi $$q = 1$$ ta trở về đối xứng cổ điển; nhưng tính toán trực tiếp với $$q$$ tổng quát đòi hỏi những công thức đa thức cực kỳ cồng kềnh.
+
+### 3. Đồ thị tinh thể (Crystal Base / Crystal Graph) và Tương ứng Riemann–Hilbert — nghiên cứu gì?
+- **Crystal base (cơ sở tinh thể):** Ý tưởng thiên tài năm 1990 của Kashiwara là cho $$q \to 0$$ (như hạ nhiệt độ về không độ tuyệt đối để chất lỏng kết tinh thành tinh thể). Ở giới hạn $$q = 0$$, toàn bộ không gian biểu diễn phức tạp của nhóm lượng tử bỗng "đông cứng" thành một **đồ thị có hướng gắn nhãn** (**crystal graph**), biến những phép tính đại số nặng nề (như phân rã tích tensor) thành trò chơi đi theo mũi tên và ghép cặp dấu ngoặc cực kỳ gọn nhẹ.
+- **Tương ứng Riemann–Hilbert:** Là cuốn từ điển hai chiều nối **giải tích đại số** (các $$D$$-module holonomic có kỳ dị chính quy—tức hệ PDE tuyến tính) với **tôpô hình học** (các chùm perverse mã hóa cách nghiệm biến đổi khi đi vòng quanh điểm kỳ dị).
+
+### Khung giải thích: Tự tay tính đại số Weyl, đơn đạo của $$\sqrt{x}$$ và tích tensor tinh thể $$\mathfrak{sl}_2$$ (nên đọc chậm)
+
+Để thấy cả hai trụ cột của Kashiwara đều chạm tay vào được mà không cần ngôn ngữ quá cao siêu, ta hãy làm hai phép tính nhỏ hoàn toàn bằng tay.
+
+**Ví dụ 1 — Đại số Weyl và đơn đạo (monodromy) quanh điểm kỳ dị:**  
+Xét vành toán tử vi phân một biến $$D = \mathbb{C}\langle x, \partial_x \rangle$$. Kiểm tra tính không giao hoán bằng cách tác động lên một hàm khả vi $$u(x)$$ bất kỳ:
+
+$$
+(\partial_x x - x \partial_x) u(x) = \frac{d}{dx}\big(x u(x)\big) - x \frac{du}{dx} = \big(u(x) + x u'(x)\big) - x u'(x) = u(x).
+$$
+
+Vì đúng với mọi $$u$$, ta có hệ thức giao hoán nổi tiếng $$[\partial_x, x] = \partial_x x - x \partial_x = 1$$.  
+Bây giờ xét toán tử cực đơn giản $$P = x \partial_x - \frac{1}{2}$$ và phương trình $$P u = 0$$:
+
+1. **Giải giải tích:** $$x \frac{du}{dx} = \frac{1}{2} u \implies \frac{du}{u} = \frac{1}{2}\frac{dx}{x} \implies u(x) = C x^{1/2} = C\sqrt{x}$$.
+2. **Đo đơn đạo (monodromy) quanh $$x = 0$$:** Cho $$x(\theta) = r e^{i\theta}$$ đi một vòng ngược chiều kim đồng hồ quanh gốc tọa độ với $$\theta$$ chạy từ $$0$$ đến $$2\pi$$. Khi đó $$u(x(\theta)) = C\sqrt{r}\,e^{i\theta/2}$$. Tại $$\theta = 2\pi$$, ta nhận được $$e^{i\pi} = -1$$, tức là nghiệm bị **đổi dấu**: $$u \mapsto -u$$! Điểm $$x = 0$$ mang dấu ấn tôpô là ma trận đơn đạo $$[-1]$$.
+3. **Đóng gói bằng $$D$$-module:** Thay vì phải chọn vết cắt nhánh (*branch cut*) cho hàm đa trị $$\sqrt{x}$$, giải tích đại số chỉ cần xét module thương $$M = D / D\cdot(x\partial_x - \frac{1}{2})$$. Toàn bộ hành vi kỳ dị và đơn đạo $$[-1]$$ đã nằm gọn trong quan hệ đại số $$x\partial_x \equiv \frac{1}{2}$$—đó chính là bản chất của tương ứng Riemann–Hilbert ở 1 chiều!
+
+**Ví dụ 2 — Tích tensor của hai tinh thể spin-$$\frac{1}{2}$$ ($$B(1) \otimes B(1)$$) bằng quy tắc dấu ngoặc Kashiwara:**  
+Với đại số Lie $$\mathfrak{sl}_2$$, biểu diễn cơ bản chiều $$2$$ (spin $$\frac{1}{2}$$) có đồ thị tinh thể $$B(1)$$ gồm đúng 2 đỉnh và 1 mũi tên hạ $$\tilde{f}$$:
+
+$$
+\boxed{+} \;\xrightarrow{\;\tilde{f}\;}\; \boxed{-}
+$$
+
+(trong đó $$\boxed{+}$$ có trọng số $$+1$$, nhận tối đa $$\varepsilon=0$$ bước nâng và $$\varphi=1$$ bước hạ; $$\boxed{-}$$ có trọng số $$-1$$, có $$\varepsilon=1, \varphi=0$$).  
+Khi lấy tích tensor $$B(1) \otimes B(1)$$, ta có $$2 \times 2 = 4$$ trạng thái. Theo **quy tắc chữ ký (signature rule)** của Kashiwara, với mỗi cặp $$b_1 \otimes b_2$$, ta ghép chữ ký của $$b_1$$ (viết $$\varepsilon(b_1)$$ dấu `−` rồi $$\varphi(b_1)$$ dấu `+`) với chữ ký của $$b_2$$, sau đó **triệt tiêu mọi cặp `+-` kề nhau**; toán tử hạ $$\tilde{f}$$ sẽ tác động vào dấu `+` đầu tiên từ trái sang còn sót lại:
+
+| Trạng thái $$b_1 \otimes b_2$$ | Trọng số tổng | Chữ ký ghép | Sau khi khử cặp `+-` | Tác động của $$\tilde{f}$$ |
+|---|---|---|---|---|
+| $$(+, +)$$ | $$+2$$ | `+` và `+` → `++` | `++` | Đổi `+` bên trái → $$(-, +)$$ |
+| $$(-, +)$$ | $$0$$ | `−` và `+` → `−+` | `−+` | Đổi `+` bên phải → $$(-, -)$$ |
+| $$(-, -)$$ | $$-2$$ | `−` và `−` → `−−` | `−−` | Không còn `+` → dừng! |
+| $$(+, -)$$ | $$0$$ | `+` và `−` → `+-` | *(rỗng!)* | Không còn `+` lẫn `−` → đứng cô lập! |
+
+Nhìn bảng trên, phép phân rã lập tức hiện ra trước mắt mà không cần một dòng tính ma trận hay biến $$q$$ nào:
+- Một chuỗi 3 trạng thái: $$(+,+) \xrightarrow{\tilde{f}} (-,+) \xrightarrow{\tilde{f}} (-,-)$$ — chính là tinh thể $$B(2)$$ (biểu diễn chiều 3, spin 1).
+- Một điểm cô lập: $$(+,-)$$ — chính là tinh thể $$B(0)$$ (biểu diễn tầm thường chiều 1, spin 0).
+
+Tổng số chiều: $$2 \times 2 = 3 + 1$$, khôi phục chính xác định luật cộng spin Clebsch–Gordan $$V_1 \otimes V_1 \cong V_2 \oplus V_0$$ chỉ bằng trò chơi gạch bỏ cặp `+-`!
 
 ---
 
@@ -49,7 +98,7 @@ $$
 P = a_m(x)\frac{d^m}{dx^m} + \cdots + a_1(x)\frac{d}{dx} + a_0(x).
 $$
 
-**Ví dụ cụ thể giúp thấy $$D$$-module đang làm gì:** Xét phương trình vi phân cực kỳ đơn giản $$P u = 0$$ với $$P = x \frac{d}{dx} - \alpha$$ (trong đó $$\alpha \in \mathbb{C}$$ là một hằng số). Nghiệm của nó là $$u(x) = C x^\alpha$$. Thay vì chỉ giữ hàm $$x^\alpha$$ (vốn đa trị khi vòng quanh điểm kỳ dị $$x = 0$$ trên mặt phẳng phức), giải tích đại số xét thương của vành toán tử $$D$$ cho ideal sinh bởi $$P$$:
+**Góc nhìn đồng cấu nghiệm:** Với phương trình $$P u = 0$$ (chẳng hạn $$P = x \frac{d}{dx} - \alpha$$ có nghiệm $$u(x) = C x^\alpha$$), thay vì chỉ giữ hàm đa trị $$x^\alpha$$, giải tích đại số xét thương của vành toán tử $$D$$ cho ideal sinh bởi $$P$$:
 
 $$
 M = D / D\cdot P.
@@ -83,7 +132,7 @@ Riemann–Hilbert hiện đại nối dữ liệu giải tích của PDE với d
 
 ## 3. Triết lý Riemann–Hilbert (bản đồ sâu hơn)
 
-Bài toán Riemann–Hilbert cổ điển (bài toán thứ 21 của Hilbert) hỏi: nếu ta biết **đơn đạo (monodromy)**—tức cách nghiệm của một phương trình vi phân biến đổi khi ta đi một vòng tròn quanh các điểm kỳ dị—liệu ta có dựng lại được phương trình vi phân ban đầu không? Ví dụ với nghiệm $$u(x) = x^\alpha$$ ở trên, khi $$x$$ đi một vòng ngược chiều kim đồng hồ quanh gốc tọa độ $$0$$ (tức $$x \mapsto e^{2\pi i} x$$), nghiệm bị nhân thêm hằng số $$e^{2\pi i \alpha}$$—đó chính là monodromy.
+Bài toán Riemann–Hilbert cổ điển (bài toán thứ 21 của Hilbert) hỏi: nếu ta biết **đơn đạo (monodromy)**—tức cách nghiệm của một phương trình vi phân biến đổi khi ta đi một vòng tròn quanh các điểm kỳ dị—liệu ta có dựng lại được phương trình vi phân ban đầu không? Như ta vừa tự kiểm tra ở Khung giải thích với nghiệm $$u(x) = \sqrt{x}$$, khi $$x$$ đi một vòng quanh $$0$$, nghiệm bị nhân thêm $$-1$$ (tổng quát với $$x^\alpha$$ là $$e^{2\pi i \alpha}$$).
 
 Kashiwara (và Mebkhout độc lập) đã nâng cấp bài toán cổ điển ấy lên số chiều bất kỳ dưới dạng một **cuốn từ điển tương đương giữa hai phạm trù**:
 
@@ -109,7 +158,7 @@ Năm 1990, Kashiwara tạo ra một ý tưởng làm ngỡ ngàng giới lý thu
 
 > Crystal là “cái bóng” của biểu diễn tại $$q=0$$, giữ trọn linh hồn tổ hợp của đối xứng.
 
-**Ví dụ cụ thể với $$\mathfrak{sl}_2$$ (đối xứng spin cơ bản nhất):** Biểu diễn chiều $$3$$ (spin 1) của $$\mathfrak{sl}_2$$ có 3 trạng thái trọng số $$+2, 0, -2$$. Đồ thị tinh thể của nó đơn giản là một chuỗi 3 đỉnh nối bởi mũi tên: $$\boxed{+2} \xrightarrow{\tilde{f}} \boxed{0} \xrightarrow{\tilde{f}} \boxed{-2}$$. Điều kỳ diệu xảy ra khi bạn lấy **tích tensor** của hai biểu diễn—một phép toán vốn rất rối trong đại số Lie: với crystal graph, quy tắc nhân tensor của Kashiwara trở thành một trò chơi tổ hợp cực kỳ giản đơn (chỉ cần đọc dãy dấu ngoặc và nối mũi tên!), từ đó lập tức đọc ra cách phân rã thành các biểu diễn bất khả quy (như quy tắc Littlewood–Richardson) mà không cần một dòng tính toán $$q$$-đại số nào!
+Ở Khung giải thích phía trên, ta đã thấy trực tiếp quy tắc nhân tensor của Kashiwara cho $$\mathfrak{sl}_2$$ phân rã $$B(1)\otimes B(1) = B(2)\oplus B(0)$$ chỉ bằng cách khử cặp `+-`. Với các đại số Lie lớn hơn như $$\mathfrak{sl}_n$$ (có $$n-1$$ màu mũi tên), cùng một quy tắc tổ hợp đó lập tức sinh ra quy tắc Littlewood–Richardson và các cấu trúc bảng Young mà không cần đụng tới một đa thức nào theo $$q$$!
 
 ---
 
@@ -140,7 +189,7 @@ Wiles và Định lý Fermat (Abel 2016) là câu chuyện chinh phục một ng
 
 ### Cách đọc một citation của Abel
 
-Mở bản PDF citation 2025 trên [abelprize.no](https://abelprize.no/). Gạch chân các danh từ: $$D$$-module, holonomic, crystal base, biểu diễn, kỳ dị. Viết lại citation thành ba gạch đầu dòng bằng lời của bạn, không chép lại. Bài tập đó luyện kỹ năng đọc citation cho cả chương 08.
+Mở bản PDF citation 2025 trên [abelprize.no](https://abelprize.no/). Gạch chân các danh từ: $$D$$-module, holonomic, crystal base, biểu diễn, kỳ dị. Thử diễn đạt lại citation thành ba gạch đầu dòng bằng lời của riêng bạn thay vì chép lại—đó là cách tốt nhất để luyện kỹ năng đọc văn bản chuyên ngành cho cả chương 08.
 
 ---
 

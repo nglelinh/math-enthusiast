@@ -50,6 +50,41 @@ Hoffmann và cộng sự (2022) nhìn việc huấn luyện trước (pretrainin
 
 Ngược lại, AlphaFold 3 là một hệ thống đã huấn luyện, trong đó mô-đun khuếch tán trực tiếp dựng lên tọa độ 3D của các nguyên tử. Những gì nó khẳng định là các con số đo được trên bộ dữ liệu kiểm tra dạng PDB, không phải suy ra cơ chế vật lý nhiệt động lực học của quá trình protein gấp cuộn từ các nguyên lý đầu tiên.
 
+### Khung giải thích: tối ưu ngân sách Chinchilla bằng giải tích một biến (nên đọc chậm)
+
+Khi nghe nói "Chinchilla tối ưu hóa số tham số $$N$$ và số token dữ liệu $$D$$ dưới ngân sách tính toán cố định $$C$$", người đọc dễ tưởng đây là phép toán bí ẩn của siêu máy tính. Thực ra, phần lõi toán học chính là một bài toán cực trị có điều kiện ở giải tích năm nhất — và bạn có thể kiểm tra ngay bằng tay.
+
+Giả sử hàm mất mát thực nghiệm tuân theo định luật lũy thừa đối xứng đơn giản (xấp xỉ gần với số mũ thực nghiệm $$lpha pprox eta pprox 0.5$$ trong bài báo gốc):
+
+$$
+L(N, D) = E + rac{A}{\sqrt{N}} + rac{B}{\sqrt{D}},
+$$
+
+với ngân sách tính toán cố định $$C = 6ND$$ (mỗi token đi qua $$N$$ tham số tốn khoảng $$6N$$ phép tính dấu phẩy động cho lượt tiến và lượt ngược).
+
+1. **Khử biến $$D$$ bằng ràng buộc:** Từ $$6ND = C$$, rút ra $$D = rac{C}{6N}$$. Thay vào hàm mất mát:
+
+   $$
+   L(N) = E + A N^{-1/2} + B \sqrt{rac{6}{C}}\, N^{1/2}.
+   $$
+
+2. **Đặt đạo hàm bằng $$0$$ để tìm cực tiểu:**
+
+   $$
+   rac{dL}{dN} = -rac{A}{2} N^{-3/2} + rac{B}{2}\sqrt{rac{6}{C}}\, N^{-1/2} = 0
+   \;\Longleftrightarrow\;
+   N^* = rac{A}{B}\sqrt{rac{C}{6}}, \qquad
+   D^* = rac{B}{A}\sqrt{rac{C}{6}}.
+   $$
+
+3. **Kiểm tra bằng số cụ thể:** Đặt $$E = 1.69$$, $$A = B = 400$$, và ngân sách $$C = 6 	imes 10^{22}$$ FLOPs (tức $$ND = 10^{22}$$):
+   - **Cách chia cân bằng kiểu Chinchilla** ($$N^* = 10^{11}$$, $$D^* = 10^{11}$$):
+     $$L = 1.69 + rac{400}{\sqrt{10^{11}}} + rac{400}{\sqrt{10^{11}}} pprox 1.69 + 0.00126 + 0.00126 = 1.69253.$$
+   - **Cách chia lệch kiểu "quá lớn, thiếu dữ liệu"** (tăng $$N$$ gấp 4 lần lên $$4	imes 10^{11}$$, nên $$D$$ giảm 4 lần còn $$2.5	imes 10^{10}$$):
+     $$L = 1.69 + rac{400}{\sqrt{4	imes 10^{11}}} + rac{400}{\sqrt{2.5	imes 10^{10}}} pprox 1.69 + 0.00063 + 0.00253 = 1.69316 > 1.69253.$$
+
+**Bài học cần rút ra:** Toàn bộ phép giải tích trên hoàn toàn chặt chẽ, nhưng **đầu vào** (công thức $$L(N,D)$$ và các hằng số $$A, B, lpha, eta$$) lại là đường khớp thực nghiệm từ 400 lần huấn luyện. Đó là lý do Chinchilla là một **quy luật thực nghiệm được tối ưu bằng giải tích**, chứ không phải định lý phổ quát cho mọi kiến trúc hay mọi bộ dữ liệu.
+
 ## Bốn kết quả cụ thể
 
 ### 1. Chinchilla: một quy luật thực nghiệm về phân bổ

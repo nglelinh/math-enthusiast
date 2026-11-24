@@ -10,7 +10,7 @@ categories:
 lesson_type: profile
 ---
 
-Tháng 8 năm 1990, tại Đại hội Toán học Thế giới ở Kyoto, cả hội trường lặng đi khi **Huy chương Fields** — giải thưởng danh giá nhất của toán học thuần túy — được trao cho một nhà vật lý lý thuyết: **Edward Witten** (Viện Nghiên cứu Cao cấp Princeton, IAS). Trong suốt thế kỷ XX, toán học và vật lý đôi khi giống hai người hàng xóm nói hai thứ tiếng khác nhau: một bên đòi hỏi mọi viên gạch chứng minh phải khớp kín kẽ, bên kia lại sẵn sàng nhảy qua vực sâu bằng trực giác vật lý để chạm tới chân lý tự nhiên. Witten đã làm một điều hiếm có trong lịch sử khoa học hiện đại: ông lắng nghe những phép đối ngẫu táo bạo của lý thuyết trường lượng tử và lý thuyết dây, rồi dịch chúng thành những bài toán hình học và tô pô sắc nét đến mức cộng đồng toán học phải đổi cả bản đồ nghiên cứu suốt ba thập kỷ sau đó.
+Tháng 8 năm 1990, tại Đại hội Toán học Thế giới ở Kyoto, cả hội trường lặng đi khi **Huy chương Fields** — giải thưởng danh giá nhất của toán học thuần túy — được trao cho một nhà vật lý lý thuyết: **Edward Witten** (Viện Nghiên cứu Cao cấp Princeton, IAS). Trong suốt thế kỷ XX, toán học và vật lý đôi khi giống hai người hàng xóm nói hai thứ tiếng khác nhau: một bên đòi hỏi mọi viên gạch chứng minh phải khớp kín kẽ, bên kia lại sẵn sàng nhảy qua vực sâu bằng trực giác vật lý để chạm tới chân lý tự nhiên. Witten đã làm một điều hiếm có trong lịch sử khoa học hiện đại: ông lắng nghe những phép đối ngẫu táo bạo của lý thuyết trường lượng tử và lý thuyết dây, rồi dịch chúng thành những bài toán hình học và tô pô sắc nét đến mức cộng đồng toán học phải vẽ lại cả bản đồ nghiên cứu suốt ba thập kỷ sau đó.
 
 Đây là một **chân dung ngắn** về phương pháp làm việc của Witten trong **nhánh đối ngẫu** của khóa học — không phải tiểu sử cá nhân, và cũng không phải giáo trình lý thuyết trường lượng tử. Điều ta muốn giữ lại sau bài này không phải là hào quang quanh một cái tên, mà là *cách một trực giác vật lý biến thành cấu trúc toán học chặt chẽ*.
 
@@ -18,17 +18,16 @@ Tháng 8 năm 1990, tại Đại hội Toán học Thế giới ở Kyoto, cả 
 
 ## Bản đồ kiến thức nền: Vật lý toán kiểu Witten là gì và nghiên cứu những gì?
 
-Nếu bạn tốt nghiệp đại học với hành trang là giải tích nhiều biến, đại số tuyến tính, phương trình vi phân và chút cơ học lượng tử sơ cấp, bạn có thể thắc mắc: *vật lý toán hiện đại* — đặc biệt là phong cách của Witten — thực chất đang nghiên cứu đối tượng nào?
+Nếu bạn tốt nghiệp đại học với hành trang là giải tích nhiều biến, đại số tuyến tính, phương trình vi phân và chút cơ học lượng tử sơ cấp, bạn có thể thắc mắc: *vật lý toán hiện đại* — đặc biệt là phong cách của Witten — thực chất đang nối những nhánh toán học nào lại với nhau?
 
-Hãy tưởng tượng toán học hình học – tô pô giống như nghề nghiên cứu "dáng hình" của các không gian nhiều chiều: chẳng hạn phân biệt hai sợi dây thắt nút xem có gỡ thành nhau được không, hay đếm xem có bao nhiêu đường cong đi qua các điểm cho trước trên một mặt cong phức. Truyền thống cổ điển giải những bài toán này bằng đại số và giải tích thuần túy — đôi khi cực kỳ khó nhằn.
+### 1. Tô pô chiều thấp và lý thuyết bất biến (Nút & Đa tạp 3–4 chiều)
+Tô pô nghiên cứu những tính chất không đổi khi ta kéo giãn, uốn cong nhưng không cắt xé không gian — chẳng hạn phân biệt hai sợi dây thắt nút trong không gian 3 chiều, hay phân biệt hai cấu trúc khả vi khác nhau trên cùng một không gian 4 chiều. Công cụ truyền thống là các bất biến đại số (nhóm cơ bản, đa thức nút). Phong cách Witten tạo ra những bất biến hoàn toàn mới bằng cách đặt một **lý thuyết trường lượng tử tô pô (TQFT)** lên chính đa tạp đó.
 
-**Vật lý toán kiểu Witten** mang tới một góc nhìn đảo ngược đầy bất ngờ: thay vì chỉ đứng ngoài đo đạc một không gian $$M$$, hãy *thả một hệ vật lý lượng tử* (một hạt chuyển động, một trường điện từ tổng quát, hay một sợi dây dao động) vào sống trên không gian $$M$$ đó.
+### 2. Hình học đếm và không gian moduli (Moduli Spaces)
+Một câu hỏi kinh điển của hình học đại số: trên một mặt cong phức (hay đa tạp Calabi–Yau 6 chiều), có bao nhiêu đường cong đại số bậc $$d$$ đi qua một số điểm cho trước? Việc đếm trực tiếp cực kỳ khó khi bậc $$d$$ tăng. Khi nhìn bằng con mắt lý thuyết dây (đối xứng gương), số đường cong đó trở thành hệ số trong khai triển năng lượng của một hệ vật lý — và phép đối ngẫu biến bài toán đếm siêu khó trên không gian $$X$$ thành phép tính tích phân giải tích cổ điển trên không gian gương $$Y$$!
 
-- **Đối tượng nghiên cứu:** Các không gian cong (đa tạp 3 chiều, 4 chiều, đa tạp Calabi–Yau 6 chiều), các nút thắt trong không gian, các phân thớ trường chuẩn (gauge bundle) và các không gian nghiệm (không gian moduli) của những phương trình vi phân xuất phát từ vật lý.
-- **Công cụ trung tâm:** Khi một lý thuyết lượng tử có tính bất biến tô pô (không phụ thuộc vào việc ta kéo giãn hay bóp méo thước đo trên $$M$$), các đại lượng vật lý đo được — như hàm phân hoạch hay giá trị kỳ vọng của một vòng dây — **buộc phải là bất biến tô pô** của chính không gian $$M$$.
-- **Sức mạnh của phép đối ngẫu:** Nếu hai lý thuyết vật lý trông hoàn toàn khác nhau lại mô tả cùng một thế giới lượng tử (gọi là *đối ngẫu*), thì hai đối tượng toán học đứng sau chúng cũng phải tương đương với nhau. Chỉ cần viết lại sự tương đương ấy bằng ngôn ngữ toán học, ta thu được những dự đoán sâu sắc mà cách nhìn thuần túy trước đó rất khó chạm tới.
-
-Nói ngắn gọn, vật lý toán của Witten không thay thế chứng minh toán học; nó đóng vai trò như một **cỗ máy sinh giả thuyết hình học** với độ chính xác đáng kinh ngạc.
+### 3. Lý thuyết trường lượng tử tô pô (TQFT) và đối ngẫu S
+Khác với vật lý thông thường phụ thuộc vào khoảng cách (metric), một **TQFT** chỉ phụ thuộc vào dáng tô pô. Nhờ đó, các đại lượng vật lý (hàm phân hoạch $$Z(M)$$, giá trị kỳ vọng vòng Wilson) **tự động trở thành bất biến tô pô** của đa tạp $$M$$. Còn khi hai lý thuyết vật lý khác hẳn nhau lại đối ngẫu (như đối ngẫu S hoán đổi điện tích–từ tích và tương tác mạnh–yếu), hai đối tượng toán học đứng sau chúng buộc phải tương đương — đóng vai trò một **cỗ máy sinh giả thuyết hình học** với độ chính xác đáng kinh ngạc.
 
 ---
 
@@ -50,9 +49,26 @@ Sau bài này bạn có thể:
 
 Lịch sử giao thoa giữa hình học và vật lý vốn đã rất dài: thuyết tương đối rộng của Einstein đưa hình học Riemann lên sân khấu trung tâm, còn lý thuyết trường chuẩn (gauge) và lý thuyết chỉ số Atiyah–Singer kéo giải tích, tô pô và vật lý hạt lại gần nhau. Nhưng bước ngoặt từ thập niên 1980 mang một sắc thái hoàn toàn mới: **lý thuyết trường lượng tử và lý thuyết dây** bắt đầu sinh ra hàng loạt *từ điển dạng giả thuyết* vô cùng cụ thể — hàm tương quan ứng với số giao của các đa tạp con, đối ngẫu vật lý ứng với tương đương phạm trù, còn dị thường lượng tử ứng với chỉ số tô pô của toán tử vi phân.
 
-Hãy lấy một ví dụ rất trực quan để thấy điều kỳ lạ ấy: năm 1984, nhà toán học Vaughan Jones bất ngờ tìm ra một đa thức mới (đa thức Jones) giúp phân biệt hai nút thắt trong không gian 3 chiều. Khi mới xuất hiện, công thức tổ hợp của đa thức Jones trông như một phép tính đại số thuần túy, khó thấy ý nghĩa hình học 3 chiều của nó ở đâu. Đến năm 1989, Witten chỉ ra rằng nếu ta xét một lý thuyết trường lượng tử tô pô tên là **Chern–Simons** trong không gian 3 chiều, rồi tính giá trị kỳ vọng của một "vòng Wilson" chạy dọc theo chính sợi dây thắt nút đó, kết quả thu được *chính là đa thức Jones* — đồng thời tự động mở rộng sang bất kỳ đa tạp 3 chiều cong nào!
+Hãy lấy ví dụ nổi tiếng nhất dẫn tới Huy chương Fields 1990: năm 1984, nhà toán học Vaughan Jones bất ngờ tìm ra một đa thức mới (đa thức Jones) giúp phân biệt hai nút thắt trong không gian 3 chiều. Khi mới xuất hiện, công thức tổ hợp của đa thức Jones trông như một phép tính đại số thuần túy, khó thấy ý nghĩa hình học 3 chiều của nó ở đâu. Đến năm 1989, Witten chỉ ra rằng nếu ta xét lý thuyết trường lượng tử tô pô **Chern–Simons** trong không gian 3 chiều, rồi tính giá trị kỳ vọng của một "vòng Wilson" chạy dọc theo chính sợi dây thắt nút đó, kết quả thu được *chính là đa thức Jones* — đồng thời tự động mở rộng sang bất kỳ đa tạp 3 chiều cong nào!
 
-Vai trò đặc biệt của Witten, được ghi nhận qua Huy chương Fields 1990, nằm ở khả năng biến những trực giác như vậy thành **các chương trình toán học** có mục tiêu hình học rõ ràng. Các cộng sự và thế hệ nhà toán học sau đó đã chứng minh chặt chẽ được nhiều mảng rất lớn; chính phương pháp tư duy "dịch vật lý thành cấu trúc hình học" ấy có ảnh hưởng lâu dài hơn bất kỳ một bài báo riêng lẻ nào.
+### Khung giải thích: làm sao một TQFT lại "đếm" được hình dáng không gian? (nên đọc chậm)
+
+Để không cảm thấy hai chữ "TQFT" mơ hồ, hãy tự tay tính một **mô hình TQFT 2 chiều** hoàn chỉnh chỉ bằng đại số tuyến tính! Theo định lý phân loại Atiyah–Dijkgraaf, một TQFT 2 chiều tương đương hoàn toàn với một **đại số giao hoán Frobenius** $$(A, \theta)$$: không gian trạng thái trên một đường tròn là đại số $$A$$, phép ghép hai đường tròn thành một ("chiếc quần" — pair of pants) là phép nhân trong $$A$$, còn "nắp đậy" bán cầu là phiếm hàm vết $$\theta: A \to \mathbb{C}$$.
+
+Hãy chọn ví dụ cụ thể nhỏ nhất: lấy $$A = \mathbb{C}e_1 \oplus \mathbb{C}e_2$$ với quy tắc nhân trực giao $$e_1^2 = e_1,\ e_2^2 = e_2,\ e_1 e_2 = 0$$ (đơn vị $$1 = e_1 + e_2$$) và chọn vết $$\theta(e_1) = 1,\ \theta(e_2) = \frac{1}{2}$$.
+
+1. **Dựng "toán tử tay cầm" $$H$$ (gắn thêm một lỗ donut vào mặt cong):** Dạng song tuyến tính $$\eta(a,b) = \theta(ab)$$ là ma trận đường chéo $$\operatorname{diag}(1, \tfrac{1}{2})$$, nên cơ sở đối ngẫu là $$e^1 = e_1$$ và $$e^2 = 2e_2$$. Phép cắt rồi dán lại một tay cầm ứng với phép nhân với phần tử
+   $$
+   H = e_1 e^1 + e_2 e^2 = e_1 + 2e_2.
+   $$
+2. **Tính hàm phân hoạch $$Z(\Sigma_g)$$ cho mặt cong kín có $$g$$ lỗ bằng cách nhân $$H$$ đúng $$g$$ lần rồi lấy vết $$\theta$$:**
+   - **Mặt cầu $$S^2$$ ($$g=0$$ lỗ):** $$Z(S^2) = \theta(1) = \theta(e_1 + e_2) = 1 + \frac{1}{2} = \frac{3}{2}$$.
+   - **Mặt xuyến $$T^2$$ ($$g=1$$ lỗ):** $$Z(T^2) = \theta(H) = \theta(e_1 + 2e_2) = 1 + 2\cdot\frac{1}{2} = 2$$ (đúng bằng $$\dim A = 2$$ — một định lý tổng quát của mọi TQFT: hàm phân hoạch trên mặt xuyến luôn đếm số chiều không gian trạng thái!).
+   - **Mặt 2 lỗ $$\Sigma_2$$ ($$g=2$$):** $$H^2 = (e_1 + 2e_2)^2 = e_1 + 4e_2 \implies Z(\Sigma_2) = \theta(e_1 + 4e_2) = 1 + 4\cdot\frac{1}{2} = 3$$.
+   - **Tổng quát mặt $$g$$ lỗ:** $$Z(\Sigma_g) = 1 + 2^{g-1}$$.
+3. **Nhìn ra nguyên lý:** Chỉ từ một phép nhân đại số cực nhỏ, ta thu được một hàm phân hoạch $$Z(\Sigma_g)$$ không hề biết mặt cong to hay nhỏ, méo hay tròn — nó **chỉ phụ thuộc vào số lỗ $$g$$**! Ở chiều 3 (Chern–Simons) và chiều 4 (Donaldson–Witten), Witten nâng đúng tư duy "cắt–dán–lấy vết" này lên để sinh ra các bất biến nút và bất biến đa tạp 4 chiều.
+
+Vai trò đặc biệt của Witten nằm ở khả năng biến những trực giác như vậy thành **các chương trình toán học** có mục tiêu hình học rõ ràng. Các cộng sự và thế hệ nhà toán học sau đó đã chứng minh chặt chẽ được nhiều mảng rất lớn; chính phương pháp tư duy "dịch vật lý thành cấu trúc hình học" ấy có ảnh hưởng lâu dài hơn bất kỳ một bài báo riêng lẻ nào.
 
 **Bài học.** Khi một phép đối ngẫu xuất hiện trước trong vật lý, hãy hỏi: *phát biểu dạng định lý nào sẽ làm cho nó chặt chẽ?* Câu hỏi đó chính là cây cầu.
 

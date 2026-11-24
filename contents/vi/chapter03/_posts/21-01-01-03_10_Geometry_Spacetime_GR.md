@@ -88,6 +88,15 @@ $$
 
 > **Vật chất cho không–thời gian biết phải cong như thế nào; không–thời gian cong cho vật chất biết phải chuyển động như thế nào.**
 
+### Khung giải thích: Từ nguyên lý tương đương đến quỹ đạo hành tinh và GPS (nên đọc chậm)
+
+1. **Nguyên lý tương đương xóa bỏ "lực hấp dẫn" cục bộ:** trong một khung rơi tự do đủ nhỏ, mọi vật chuyển động thẳng đều như trong không–thời gian phẳng Minkowski.
+2. **Lực thủy triều buộc không–thời gian phải cong toàn cục:** khi ghép nhiều khung rơi tự do ở các vị trí khác nhau quanh Trái Đất lại, chúng không thể khớp thành một mặt phẳng duy nhất → ta cần một **metric cong** $$g_{\mu\nu}(x)$$.
+3. **Phương trình Einstein xác định metric từ vật chất:** mật độ năng lượng – xung lượng $$T_{\mu\nu}$$ quyết định độ cong thông qua hệ PDE $$G_{\mu\nu} = \frac{8\pi G}{c^4}T_{\mu\nu}$$ (ví dụ nghiệm cầu Schwarzschild quanh Trái Đất).
+4. **Đọc trực tiếp tiên đoán vật lý từ metric:** đường đi của hành tinh và tia sáng là đường trắc địa của $$g_{\mu\nu}$$, còn nhịp chạy của đồng hồ GPS đọc thẳng từ thành phần $$g_{00}$$ của metric!
+
+**Kiểm tra nhanh.** "Không–thời gian cong" không có nghĩa là Trái Đất nằm trên một tấm bạt cao su võng xuống một chiều không gian bí ẩn nào khác; độ cong là tính chất **nội tại** mã hóa ngay trong thước đo $$g_{\mu\nu}$$.
+
 ---
 
 ## 4. Phương trình Einstein là một phương trình trường
@@ -113,10 +122,34 @@ Vì hệ số $$\frac{8\pi G}{c^4} \approx 2 \times 10^{-43}\text{ s}^2/(\text{k
 
 ## 5. Từ hình học đến quan sát, mỗi hiện tượng một bước
 
-- **Giãn thời gian do hấp dẫn & GPS (con số thực tế):** đồng hồ đặt sâu trong giếng hấp dẫn chạy chậm hơn đồng hồ ở xa. Với vệ tinh GPS ở độ cao 20.200 km:
-  - Do bay nhanh (~14.000 km/h), hiệu ứng thuyết tương đối hẹp làm đồng hồ vệ tinh chạy **chậm đi 7 micro-giây/ngày**.
-  - Do ở xa Trái Đất (trường hấp dẫn yếu hơn), thuyết tương đối rộng làm đồng hồ vệ tinh chạy **nhanh hơn 45 micro-giây/ngày**.
-  - Tổng hợp lại, đồng hồ GPS chạy nhanh hơn mặt đất **$$+38\text{ }\mu\text{s/ngày}$$**. Vì tín hiệu vô tuyến đi với tốc độ ánh sáng $$c \approx 300\text{ m}/\mu\text{s}$$, nếu không trừ đi $$38\text{ }\mu\text{s}$$ mỗi ngày, sai số định vị sẽ tích lũy **$$38 \times 300 \approx 11{,}4\text{ km}$$ mỗi ngày**!
+### Ví dụ cầm tay chỉ việc: Tự tính độ lệch đồng hồ GPS trực tiếp từ Metric Schwarzschild
+
+Nghiệm chân không đối xứng cầu của phương trình Einstein bên ngoài Trái Đất (khối lượng $$M_\oplus \approx 6\times 10^{24}\text{ kg}$$) là **metric Schwarzschild**:
+
+$$
+ds^2 = -\left(1 - \frac{r_s}{r}\right)c^2\,dt^2 + \left(1 - \frac{r_s}{r}\right)^{-1}dr^2 + r^2\bigl(d\theta^2 + \sin^2\theta\,d\phi^2\bigr),
+$$
+
+trong đó $$r_s = \frac{2GM}{c^2}$$ là bán kính Schwarzschild. Hãy tính tay đúng ba bước:
+
+1. **Tính bán kính Schwarzschild của Trái Đất:**
+$$
+r_s = \frac{2 \times (6{,}67\times 10^{-11}) \times (6\times 10^{24})}{(3\times 10^8)^2} \approx 0{,}0089\text{ m} \approx 9\text{ mm}
+$$
+(nếu ép toàn bộ Trái Đất nhỏ bằng một viên bi đường kính 1,8 cm, nó sẽ trở thành lỗ đen!).
+2. **Đọc nhịp đồng hồ tại độ cao $$r$$:** với đồng hồ đứng yên ($$dr=d\theta=d\phi=0$$), thành phần thời gian của metric cho:
+$$
+d\tau = \sqrt{1 - \frac{r_s}{r}}\,dt \approx \left(1 - \frac{r_s}{2r}\right)dt.
+$$
+3. **So sánh mặt đất với vệ tinh GPS:**
+   - Tại mặt đất ($$r_\oplus \approx 6{.}371\text{ km}$$): $$\frac{r_s}{2r_\oplus} \approx \frac{0{,}0089}{1{,}274\times 10^7} \approx 7{,}0 \times 10^{-10}$$.
+   - Tại quỹ đạo GPS ($$r_{\text{GPS}} \approx 26{.}571\text{ km}$$): $$\frac{r_s}{2r_{\text{GPS}}} \approx \frac{0{,}0089}{5{,}314\times 10^7} \approx 1{,}7 \times 10^{-10}$$.
+   - Chênh lệch nhịp đồng hồ do độ cong hấp dẫn là $$(7{,}0 - 1{,}7)\times 10^{-10} = 5{,}3\times 10^{-10}$$. Nhân với $$86{.}400\text{ giây/ngày}$$ ta thu ngay:
+$$
+\Delta t_{\text{GR}} \approx 5{,}3\times 10^{-10} \times 86{.}400 \approx +45{,}8\text{ }\mu\text{s/ngày}!
+$$
+Trừ đi hiệu ứng chạy chậm $$-7\text{ }\mu\text{s/ngày}$$ do tốc độ bay ~14.000 km/h của thuyết tương đối hẹp, đồng hồ GPS chạy nhanh hơn mặt đất **$$+38\text{ }\mu\text{s/ngày}$$**. Nhân với tốc độ ánh sáng $$c \approx 300\text{ m}/\mu\text{s}$$, nếu không hiệu chỉnh GR, bản đồ sẽ trôi **$$38 \times 300 \approx 11{,}4\text{ km}$$ mỗi ngày**!
+
 - **Ánh sáng bị lệch & Thấu kính hấp dẫn:** tia sáng đi theo đường trắc địa không ($$ds^2=0$$) nên tự uốn cong khi lướt qua gần Mặt Trời hay một cụm thiên hà — được Eddington xác nhận năm 1919 và nay trở thành "kính thiên văn tự nhiên" giúp kính James Webb quan sát các thiên hà sơ khai.
 - **Sóng hấp dẫn:** những gợn sóng nhỏ của chính metric $$g_{\mu\nu}$$ lan truyền với tốc độ ánh sáng $$c$$. Năm 2015, đài quan sát LIGO lần đầu đo được sóng hấp dẫn từ hai lỗ đen sáp nhập cách Trái Đất 1,3 tỷ năm ánh sáng, với độ co giãn cực nhỏ cỡ $$10^{-21}$$ (tương đương đo sự thay đổi chiều dài nhỏ hơn 1/1.000 đường kính một hạt proton trên cánh tay laser dài 4 km!).
 - **Vũ trụ học:** áp dụng phương trình Einstein cho vũ trụ đồng nhất và đẳng hướng (metric FLRW), toàn bộ hệ PDE rút gọn thành các ODE Friedmann mô tả sự giãn nở của vũ trụ từ Big Bang.

@@ -19,6 +19,8 @@ Năm 1975, nhà vật lý Dương Chấn Ninh (C. N. Yang) tình cờ trò chuy�
 
 Nhưng không phải dòng nào trong cây cầu vật lý–toán cũng đã là định lý hoàn chỉnh. Có những mục đã được chứng minh chặt chẽ (như cơ học lượng tử trên không gian Hilbert hay liên thông cổ điển), nhưng cũng có những mục mà vật lý tính ra kết quả khớp thực nghiệm đến 10 chữ số thập phân trong khi toán học vẫn chưa định nghĩa nổi độ đo (như tích phân đường Feynman ở 4 chiều hay bài toán khe khối lượng Yang–Mills trị giá một triệu đô la). Bài thực hành này mời bạn luyện tay nghề "phiên dịch song ngữ": **mô tả cùng một cơ chế bằng cả ngôn ngữ vật lý lẫn ngôn ngữ toán học**, đồng thời giữ sự trung thực tuyệt đối về mức độ chắc chắn của từng dòng.
 
+**Mạch bài học:** Bản đồ kiến thức nền (vật lý toán 2 chiều: nền tảng chặt chẽ ↔ nguồn cảm hứng hình học) → Khung giải thích chậm: đọc một cơ chế bằng hai thứ tiếng trên ma trận Hamilton $$2 \times 2$$ → Bảng cặp gợi ý Wu–Yang & QFT → Nhiệm vụ biên soạn từ điển & nhật ký.
+
 ---
 
 ## Mục tiêu học tập
@@ -37,14 +39,43 @@ Sau bài này, bạn có thể:
 
 ## Bản đồ kiến thức nền: Vật lý toán hiện đại là gì và nghiên cứu những gì?
 
-Nhiều người tốt nghiệp đại học vẫn hiểu nhầm "vật lý toán" chỉ đơn thuần là dùng giải tích hay phương trình vi phân để giải các bài tập vật lý. Trên thực tế, **Vật lý toán (Mathematical Physics)** hiện đại là một cuộc đối thoại hai chiều đầy kịch tính:
+Nhiều người vừa tốt nghiệp đại học vẫn hiểu nhầm "vật lý toán" chỉ đơn thuần là dùng giải tích hay phương trình vi phân để giải các bài tập vật lý. Trên thực tế, **Vật lý toán (Mathematical Physics)** hiện đại là một cuộc đối thoại hai chiều đầy kịch tính, xoay quanh ba trục chính:
 
-1. **Toán học đặt nền móng chặt chẽ cho vật lý:** Vật lý thường đi trước bằng trực giác thực nghiệm và các phép tính hình thức cực nhạy bén (như hàm delta Dirac hay tích phân đường). Toán học bước vào để định nghĩa chặt chẽ chúng (lý thuyết phân bố Schwartz, lý thuyết phổ của toán tử tự liên hợp trên không gian Hilbert) và chỉ ra chính xác khi nào phép tính đó hội tụ hay sụp đổ.
-2. **Vật lý gợi ý những định lý toán học bất ngờ:** Từ thập niên 1980 (với Edward Witten, Simon Donaldson, Nathan Seiberg…), dòng chảy còn đi ngược lại: những khái niệm từ lý thuyết trường lượng tử (instanton, siêu đối xứng, đối ngẫu điện–từ) đã sinh ra các bất biến hoàn toàn mới giúp phân loại đa tạp 4 chiều và giải những bài toán hình học thuần túy từng bế tắc hàng thập kỷ.
+### 1. Toán học đặt nền móng chặt chẽ cho vật lý (Giải tích hàm & Lý thuyết phổ)
 
-Hãy xem một **ví dụ minh họa cách viết cơ chế** để hiểu sự khác biệt giữa "chép từ khóa" và "hiểu bản chất":
-- *Vật lý:* Trong cơ học lượng tử, một đại lượng đo được (như năng lượng $$H$$ hay vị trí $$x$$) luôn cho kết quả là số thực, và xác suất đo các trạng thái phải cộng lại bằng 1.
-- *Toán học:* Đại lượng đó được mô hình hóa bằng một **toán tử tự liên hợp** trên không gian Hilbert, vì theo **định lý phổ**, mọi giá trị riêng (phổ) của toán tử tự liên hợp đều nằm trên trục thực $$\mathbb{R}$$ và các vectơ riêng tạo thành hệ trực giao đầy đủ. (Trạng thái: **Định lý**, nhưng cần cẩn thận miền xác định khi toán tử không bị chặn như toán tử đạo hàm $$-i\hbar\frac{d}{dx}$$.)
+Vật lý thường đi trước bằng trực giác thực nghiệm và các phép tính hình thức cực nhạy bén (như hàm delta Dirac hay cơ học lượng tử). Toán học bước vào để định nghĩa chặt chẽ chúng (lý thuyết phân bố Schwartz, lý thuyết phổ của **toán tử tự liên hợp** trên không gian Hilbert) và chỉ ra chính xác miền xác định nơi phép tính đó hội tụ hay sụp đổ.
+
+### 2. Hình học vi phân làm ngôn ngữ của các lực tự nhiên (Lý thuyết Gauge)
+
+Thế điện từ $$\mathbf{A}$$ và trường điện từ $$\mathbf{E}, \mathbf{B}$$ hóa ra là trường hợp đơn giản nhất (nhóm $$U(1)$$) của **liên thông** và **độ cong** trên phân thớ chính. Khi thay $$U(1)$$ bằng nhóm không giao hoán $$SU(2)$$ hay $$SU(3)$$, ta thu được lý thuyết Yang–Mills mô tả lực hạt nhân yếu và mạnh — nền tảng của Mô hình Chuẩn vật lý hạt.
+
+### 3. Vật lý gợi ý những định lý toán học bất ngờ
+
+Từ thập niên 1980 (Edward Witten, Simon Donaldson, Nathan Seiberg…), dòng chảy còn đi ngược lại: những ý tưởng từ lý thuyết trường lượng tử (instanton, siêu đối xứng, đối ngẫu điện–từ) đã sinh ra các bất biến hoàn toàn mới giúp phân loại đa tạp 4 chiều và mở ra những nhánh mới của hình học đại số. Tuy vậy, trực giác vật lý luôn cần được gắn nhãn phân biệt rõ với **định lý toán học đã chứng minh**.
+
+---
+
+### Khung giải thích: Đọc một cơ chế bằng hai thứ tiếng trên ma trận $$2 \times 2$$ (nên đọc chậm)
+
+Để thấy sự khác biệt giữa "chép từ khóa" và "hiểu cơ chế vật lý ↔ toán", hãy tự tay kiểm tra một hệ lượng tử 2 trạng thái (qubit) với toán tử năng lượng (Hamiltonian):
+
+$$
+H = \begin{pmatrix} 1 & -i \\ i & 1 \end{pmatrix}.
+$$
+
+1. **Kiểm tra tính tự liên hợp (Hermitian):** Lấy chuyển vị liên hợp $$H^\dagger = \overline{H}^T = \begin{pmatrix} 1 & -i \\ i & 1 \end{pmatrix} = H$$.
+2. **Tìm các mức năng lượng (giá trị riêng):** Giải phương trình đặc trưng
+   $$
+   \det(H - \lambda I) = (1 - \lambda)^2 - (-i)(i) = (1 - \lambda)^2 - 1 = \lambda(\lambda - 2) = 0 \implies \lambda_1 = 0,\quad \lambda_2 = 2.
+   $$
+   Cả hai giá trị riêng đều là **số thực**!
+3. **Tìm các trạng thái cơ bản (vectơ riêng đơn vị):**
+   - Với $$\lambda_1 = 0$$: $$v_1 = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 \\ -i \end{pmatrix}$$;
+   - Với $$\lambda_2 = 2$$: $$v_2 = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 \\ i \end{pmatrix}$$.
+   Kiểm tra tính trực giao: $$\langle v_1, v_2 \rangle = \frac{1}{2}\bigl(1\cdot 1 + (i)(i)\bigr) = \frac{1 - 1}{2} = 0$$!
+4. **Đo xác suất trên trạng thái $$\psi = \begin{pmatrix} 1 \\ 0 \end{pmatrix}$$:** Chiếu $$\psi$$ lên hai trạng thái riêng: $$\lvert\langle v_1, \psi \rangle\rvert^2 = \frac{1}{2}$$ và $$\lvert\langle v_2, \psi \rangle\rvert^2 = \frac{1}{2}$$. Tổng xác suất bằng $$\frac{1}{2} + \frac{1}{2} = 1$$!
+
+**Đọc lại cơ chế song ngữ:** *Phía vật lý* đòi hỏi mọi phép đo năng lượng luôn trả về số thực và tổng xác suất mọi kết cục bằng 1; *phía toán học* bảo đảm điều đó bằng **Định lý phổ** cho toán tử tự liên hợp $$H = H^\dagger$$ trên không gian Hilbert (trạng thái: **Định lý**, lưu ý thêm về miền xác định khi chuyển sang không gian vô hạn chiều!).
 
 ---
 
@@ -83,7 +114,7 @@ Cần **ít nhất 8 dòng**. Nếu nhóm bạn chọn liên quan đến lý thu
 
 ### Nhiệm vụ C: Mô tả cơ chế (15 phút)
 
-Viết một đoạn ngắn (không quá 120 chữ) giải thích **cơ chế**: vì sao vai trò vật lý này lại ứng với đối tượng toán học kia (tương tự ví dụ toán tử tự liên hợp ↔ giá trị đo thực ở mục Bản đồ kiến thức nền).
+Viết một đoạn ngắn (không quá 120 chữ) giải thích **cơ chế**: vì sao vai trò vật lý này lại ứng với đối tượng toán học kia (tương tự ví dụ toán tử tự liên hợp ↔ giá trị đo thực ở mục Khung giải thích).
 
 ### Nhiệm vụ D: Sửa một câu sai (15 phút)
 

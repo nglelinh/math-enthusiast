@@ -16,7 +16,7 @@ Về bản chất, đó chỉ là định luật II Newton $$F = ma$$ viết l�
 
 Câu hỏi ở đây **không** phải là "ta có chạy mô phỏng máy tính được không?". Bài học này sẽ tách rạch ròi giữa **thực hành kỹ thuật**, **nghiệm yếu Leray** và **bài toán chính quy Thiên niên kỷ**, đồng thời kết nối với những đột phá gần đây về nguồn gốc động học của phương trình chất lưu.
 
-**Mạch bài học:** phương trình → ý nghĩa vật lý → Viện Clay hỏi gì → những gì đã biết → vì sao khó → công trình của Deng về động học → kỹ thuật và bài toán Thiên niên kỷ → hiểu lầm thường gặp.
+**Mạch bài học:** Bản đồ kiến thức nền → hệ phương trình & kiểm chứng tay dòng Poiseuille → bài toán Clay → những gì đã biết (2D, Leray) → phép tính đổi tỉ lệ siêu tới hạn 2D vs 3D & khung giải thích chậm → tiêu chí chính quy & Deng → kỹ thuật vs bài toán Clay.
 
 ---
 
@@ -40,12 +40,18 @@ Sau bài học, bạn có thể:
 
 ## Bản đồ kiến thức nền: Phương trình đạo hàm riêng (PDE) và Cơ học chất lưu là gì?
 
-Ở bậc đại học, bạn đã gặp **phương trình vi phân thường (ODE)** như $$y'(t) = -ky(t)$$, nơi đại lượng cần tìm chỉ phụ thuộc vào *một* biến (thời gian $$t$$). Thế nhưng thế giới vật lý tồn tại trong cả không gian lẫn thời gian: nhiệt độ trong phòng, sóng âm trong không khí, hay vận tốc nước trong sông đều là các **trường** phụ thuộc đồng thời vào vị trí $$(x,y,z)$$ và thời gian $$t$$.
+Ở bậc đại học, bạn đã gặp **phương trình vi phân thường (ODE)** như $$y'(t) = -ky(t)$$, nơi đại lượng cần tìm chỉ phụ thuộc vào *một* biến (thời gian $$t$$). Thế nhưng thế giới vật lý tồn tại trong cả không gian lẫn thời gian: nhiệt độ, sóng âm, hay vận tốc nước đều là các **trường** phụ thuộc đồng thời vào vị trí $$(x,y,z)$$ và thời gian $$t$$. Ba trụ cột sau đây giúp bạn hiểu toàn bộ bài toán Navier–Stokes:
 
-- **Phương trình đạo hàm riêng (PDE — Partial Differential Equations):** Là ngôn ngữ toán học mô tả mối liên hệ giữa tốc độ biến thiên theo thời gian ($$\partial_t$$) và độ cong/độ dốc theo không gian ($$\nabla, \Delta$$) của một trường. Các phương trình nền tảng nhất của khoa học tự nhiên đều là PDE: phương trình truyền nhiệt, phương trình sóng, hệ Maxwell (điện từ học), phương trình Schrödinger (lượng tử) và Navier–Stokes (chất lưu).
-- **Những câu hỏi lớn của ngành PDE:** Khi viết ra một PDE mô tả tự nhiên, nhà toán học đặt ba câu hỏi của Hadamard về **tính đặt chỉnh (well-posedness)**: (1) Nghiệm có *tồn tại* không? (2) Nghiệm có *duy nhất* không (cùng điều kiện đầu thì tương lai có xác định duy nhất)? (3) Nghiệm có *trơn và ổn định* không? Với PDE tuyến tính (như phương trình nhiệt), ta thường giải được gọn gàng bằng biến đổi Fourier. Nhưng khi xuất hiện **số hạng phi tuyến** (nghiệm tự nhân với đạo hàm của chính nó), các sóng ở nhiều kích cỡ tương tác hỗn loạn với nhau, có thể dồn năng lượng vào một điểm và làm đạo hàm "nổ tung" (blow-up).
-- **Vì sao lại nghĩ ra khái niệm "nghiệm yếu"?** Trong vật lý, sóng xung kích hay xoáy cực sắc có thể khiến đạo hàm cổ điển không tồn tại tại một vài điểm. Thay vì bó tay, các nhà toán học nhân PDE với một hàm thử trơn rồi tích phân từng phần để "chuyển đạo hàm" sang hàm thử. Nhờ đó, khái niệm **nghiệm yếu (weak solution)** ra đời — dễ chứng minh sự tồn tại hơn nhiều, nhưng mở ra bài toán khó mới: *liệu nghiệm yếu ấy có thực sự trơn tru như nghiệm cổ điển không?*
-- **Ứng dụng:** Dự báo thời tiết và khí hậu, thiết kế khí động lực học ô tô–máy bay, mô phỏng tim mạch, truyền nhiệt trong chip bán dẫn và đồ họa hiệu ứng khói–nước trong điện ảnh.
+### 1. Phương trình đạo hàm riêng (PDE) và tính đặt chỉnh Hadamard
+PDE là ngôn ngữ mô tả mối liên hệ giữa tốc độ đổi theo thời gian ($$\partial_t$$) và độ dốc/độ cong theo không gian ($$\nabla, \Delta$$) của một trường. Các định luật nền tảng nhất của vật lý đều là PDE: truyền nhiệt, truyền sóng, hệ Maxwell, phương trình Schrödinger và Navier–Stokes. Khi viết ra một PDE, nhà toán học đặt ba câu hỏi của Hadamard về **tính đặt chỉnh (well-posedness)**: (1) Nghiệm có *tồn tại* không? (2) Có *duy nhất* không? (3) Có *trơn và ổn định* không?
+
+### 2. Giải tích hàm & Nghiệm yếu (Weak Solutions)
+Với PDE phi tuyến, sóng xung kích hay xoáy cực sắc có thể khiến đạo hàm thông thường không tồn tại tại một số điểm. Thay vì bó tay, các nhà toán học nhân phương trình với một hàm thử trơn $$\varphi$$ rồi tích phân từng phần để "đẩy đạo hàm" từ $$u$$ sang $$\varphi$$. Khái niệm **nghiệm yếu** (trong các không gian hàm Sobolev $$L^2, H^1$$) giúp chứng minh *sự tồn tại* dễ hơn nhiều — nhưng mở ra bài toán khó mới: liệu nghiệm yếu đó có thực sự khả vi trơn mượt không?
+
+### 3. Phép đổi tỉ lệ (Scaling) & Tính siêu tới hạn
+Một PDE thường có một phép co giãn không–thời gian giữ nguyên dạng phương trình. So sánh xem đại lượng bảo toàn (như tổng động năng) thay đổi thế nào dưới phép co giãn đó sẽ tiết lộ ngay bài toán là *dưới tới hạn* (dễ kiểm soát ở thang đo nhỏ), *tới hạn* (như Navier–Stokes 2D), hay **siêu tới hạn** (như Navier–Stokes 3D — nơi năng lượng hữu hạn mất quyền kiểm soát khi xoáy thu nhỏ về một điểm!).
+
+**Ứng dụng thực tiễn:** Dự báo thời tiết và khí hậu, thiết kế khí động lực học máy bay–ô tô, mô phỏng dòng máu tim mạch, tản nhiệt chip bán dẫn và đồ họa hiệu ứng khói–nước trong điện ảnh.
 
 ---
 
@@ -78,13 +84,23 @@ $$
 - $$\nabla\cdot u=0$$: **điều kiện không nén**; lượng nước chảy vào một thể tích nhỏ luôn bằng đúng lượng chảy ra (mật độ không đổi).  
 - $$f$$: ngoại lực (trọng lực, lực khuấy trộn, …), thường đặt bằng 0 trong phát biểu thuần túy của Viện Clay.
 
+### Ví dụ cầm tay chỉ việc 1: Tự kiểm chứng từng số hạng trên dòng chảy Poiseuille
+
+Để hệ Navier–Stokes không còn là những ký hiệu xa lạ, hãy thử kiểm tra trực tiếp một nghiệm trơn nổi tiếng — dòng nước chảy êm giữa hai thành ống song song $$y = -1$$ và $$y = 1$$ (dòng **Poiseuille**), với vận tốc parabol $$u(x,y) = \bigl(U(1 - y^2),\, 0\bigr)$$ và áp suất giảm tuyến tính $$p(x,y) = -2\nu U x$$ (không đổi theo thời gian, ngoại lực $$f=0$$):
+
+1. **Điều kiện không nén:** $$\nabla\cdot u = \frac{\partial}{\partial x}\bigl(U(1-y^2)\bigr) + \frac{\partial}{\partial y}(0) = 0 + 0 = 0$$ ✓.
+2. **Số hạng gia tốc cục bộ:** $$\partial_t u = (0, 0)$$.
+3. **Số hạng đối lưu phi tuyến:** $$(u\cdot\nabla)u = u_x \partial_x u + u_y \partial_y u = U(1-y^2)\cdot(0,0) + 0\cdot\partial_y u = (0, 0)$$. (Số hạng phi tuyến rắc rối tự triệt tiêu sạch!)
+4. **Số hạng nhớt:** $$\nu \Delta u = \bigl(\nu \partial_{yy}(U - Uy^2),\, 0\bigr) = (-2\nu U,\, 0)$$.
+5. **Gradient áp suất:** $$-\nabla p = -\bigl(\partial_x(-2\nu U x),\, \partial_y(-2\nu U x)\bigr) = (+2\nu U,\, 0)$$.
+
+Cộng vế phải: $$\nu\Delta u - \nabla p = (-2\nu U + 2\nu U,\, 0) = (0, 0) =$$ vế trái! Lực đẩy từ chênh lệch áp suất cân bằng tuyệt đối với ma sát nhớt. Ta giải được gọn gàng như vậy chỉ vì dòng chảy chảy thẳng nên số hạng phi tuyến $$(u\cdot\nabla)u$$ bằng 0; ngay khi dòng chảy xoáy cuộn trong 3D và $$(u\cdot\nabla)u \neq 0$$, mọi công thức đóng đều biến mất!
+
 Áp suất không phải một trường tự do độc lập như $$u$$: lấy divergence của phương trình động lượng, ta khôi phục được $$p$$ (sai khác một hằng số) qua một phương trình kiểu Poisson $$-\Delta p = \nabla\cdot((u\cdot\nabla)u)$$. Tính không nén là một ràng buộc; áp suất đóng vai trò nhân tử Lagrange tự điều chỉnh tức thời để giữ ràng buộc đó.
 
-**Ý nghĩa vật lý qua số Reynolds.** Để biết số hạng phi tuyến hay độ nhớt đang "làm chủ cuộc chơi", các nhà vật lý dùng một con số không thứ nguyên gọi là **số Reynolds**: $$\mathrm{Re} = \frac{UL}{\nu}$$ (với $$U$$ là vận tốc đặc trưng, $$L$$ là kích thước vật thể).
+**Ý nghĩa vật lý qua số Reynolds.** Để biết số hạng phi tuyến hay độ nhớt đang "làm chủ cuộc chơi", các nhà vật lý dùng **số Reynolds**: $$\mathrm{Re} = \frac{UL}{\nu}$$.
 - Khi mật ong nhỏ giọt chậm ($$\mathrm{Re} \ll 1$$), độ nhớt thắng tuyệt đối: dòng chảy êm ả, mượt mà (chảy tầng).
 - Khi nước chảy từ vòi bếp ($$\mathrm{Re} \sim 10^3\text{–}10^4$$) hay không khí lướt qua cánh máy bay phản lực ($$\mathrm{Re} \sim 10^7$$), quán tính phi tuyến lấn át độ nhớt: dòng chảy vỡ thành vô số xoáy chồng chéo ở nhiều thang đo (chảy rối).
-
-Viện Clay không hỏi "chảy rối trên máy tính trông như thế nào", mà hỏi liệu mô hình liên tục có thể tự sinh ra điểm kỳ dị toán học hay không.
 
 **Năng lượng.** Nhân phương trình động lượng với $$u$$ rồi lấy tích phân trên toàn không gian, số hạng đối lưu phi tuyến và áp suất triệt tiêu đẹp mắt nhờ $$\nabla\cdot u = 0$$, để lại **bất đẳng thức năng lượng**:
 
@@ -92,7 +108,7 @@ $$
 \frac{1}{2}\int \vert u(x,t)\vert^2\,dx + \nu \int_0^t \int \vert \nabla u(x,s)\vert^2\,dx\,ds \le \frac{1}{2}\int \vert u_0(x)\vert^2\,dx
 $$
 
-(khi $$f=0$$). Động năng toàn phần luôn bị chặn và giảm dần do ma sát nhớt. Kiểm soát năng lượng đủ mạnh để xây dựng nghiệm yếu, nhưng trong 3 chiều, tổng năng lượng hữu hạn vẫn không ngăn được kịch bản năng lượng tập trung vào một vùng bé xíu khiến vận tốc cực đại vọt lên vô hạn!
+(khi $$f=0$$). Động năng toàn phần luôn bị chặn và giảm dần do ma sát nhớt.
 
 ---
 
@@ -127,18 +143,39 @@ Tóm lại: "đã biết có nghiệm yếu toàn cục; chưa biết bài toán
 
 ## 4. Vì sao tính chính quy trong 3 chiều khó
 
-Khó khăn lớn nhất nằm ở cuộc kéo co sinh tử giữa hai cơ chế trong không gian 3 chiều:
+### Ví dụ cầm tay chỉ việc 2: Phép đổi tỉ lệ chỉ ra ranh giới sinh tử giữa 2D và 3D!
 
-- **Độ nhớt làm trơn ($$\nu \Delta u$$):** giống như lực cản làm nhòe đi các góc cạnh sắc nhọn của vận tốc.
-- **Kéo giãn xoáy làm tập trung ($$(\omega\cdot\nabla)u$$):** Hãy hình dung một vận động viên trượt băng nghệ thuật đang xoay tròn rồi thu hai tay sát vào người — tốc độ xoay lập tức tăng vọt do bảo toàn mômen động lượng. Trong chất lỏng 3 chiều, một "ống xoáy" (vortex tube) có thể bị dòng chảy xung quanh kéo dài ra và bóp mảnh lại; khi tiết diện ống co nhỏ đi, tốc độ xoáy bên trong tăng vọt — mà xoáy càng mạnh lại càng kéo giãn chính nó mạnh hơn! Trong 2 chiều, không có chiều thứ ba để kéo dài ống xoáy nên cơ chế phản hồi nguy hiểm này hoàn toàn biến mất.
+Hệ Navier–Stokes không có ngoại lực sở hữu một đối xứng co giãn tuyệt đẹp: nếu $$u(x,t)$$ là một nghiệm trên $$\mathbb{R}^d$$, thì với mọi hệ số $$\lambda > 0$$, hàm đổi tỉ lệ
 
-Về mặt toán học, bài toán 3 chiều mang tính **siêu tới hạn (supercritical)**: nếu bạn phóng to một vùng chảy rối cỡ nhỏ $$\lambda$$ để soi kỹ hơn bằng phép đổi tỉ lệ tự nhiên của phương trình $$u_\lambda(x,t) = \lambda u(\lambda x, \lambda^2 t)$$, bất đẳng thức năng lượng mà ta nắm chắc trong tay lại trở nên *yếu đi* ở thang đo càng nhỏ! Nói cách khác, năng lượng toàn phần hữu hạn không đủ sức kiểm soát những gì xảy ra khi xoáy co rút xuống kích thước vi mô.
+$$
+u_\lambda(x, t) = \lambda\, u(\lambda x, \lambda^2 t)
+$$
 
-Hai trực giác trái ngược cùng tồn tại:
-- Độ nhớt *làm trơn*, nên có lẽ không thể có điểm kỳ dị.  
-- Kéo giãn xoáy *làm tập trung*, nên với một số dữ liệu lớn, độ nhớt có thể thua cuộc.
+cũng là một nghiệm chính xác! Bây giờ hãy tính xem **động năng toàn phần** $$E(u_\lambda) = \frac{1}{2}\int_{\mathbb{R}^d} \vert u_\lambda(x,t) \vert^2 \, dx$$ thay đổi ra sao bằng phép đổi biến tích phân năm nhất $$y = \lambda x \implies dx = \lambda^{-d}\,dy$$:
 
-Không trực giác nào là chứng minh. Mô phỏng số về chảy rối rất mạnh, nhưng do rời rạc hóa, độ phân giải hữu hạn hay mô hình đóng, "bùng nổ trên máy tính" không phải là lời giải cho bài toán Clay; và mô phỏng chạy êm cũng không phải định lý chính quy toàn cục.
+$$
+E(u_\lambda) = \frac{1}{2} \int_{\mathbb{R}^d} \lambda^2 \vert u(\lambda x, \lambda^2 t)\vert^2 \, dx = \frac{1}{2}\,\lambda^{2-d} \int_{\mathbb{R}^d} \vert u(y, \tau)\vert^2 \, dy = \lambda^{2-d}\, E(u).
+$$
+
+Hãy nhìn chằm chằm vào số mũ **$$2 - d$$**:
+- **Trong 2 chiều ($$d = 2$$):** $$\lambda^{2-2} = \lambda^0 = 1$$! Động năng **bất biến tỉ lệ** — dù một xoáy có co nhỏ lại gấp 1.000 lần (đặt $$\lambda = 1000$$), nó vẫn phải tốn *nguyên vẹn* một lượng năng lượng như cũ để duy trì cường độ. Kho năng lượng hữu hạn ban đầu đủ sức khóa chặt mọi điểm kỳ dị!
+- **Trong 3 chiều ($$d = 3$$):** $$\lambda^{2-3} = \lambda^{-1}$$! Nếu bạn nén một xoáy vào vùng nhỏ hơn 1.000 lần ($$\lambda = 1000$$, vận tốc cực đại tăng gấp 1.000 lần!), động năng mà nó tiêu tốn lại **giảm đi 1.000 lần** ($$E(u_\lambda) = 10^{-3} E(u)$$)!!
+
+Đó chính xác là ý nghĩa của từ **siêu tới hạn (supercritical)**: trong 3 chiều, một giọt nước có tổng năng lượng bé xíu vẫn có đủ "ngân sách năng lượng" để nuôi một xoáy nhỏ li ti có vận tốc vọt lên vô hạn!
+
+### Khung giải thích: Vì sao có nghiệm yếu toàn cục (1934) mà bài toán Clay vẫn mở? (nên đọc chậm)
+
+#### Bước 1: Cuộc kéo co giữa độ nhớt và kéo giãn xoáy
+Trong 3 chiều, độ nhớt $$\nu \Delta u$$ cố gắng làm phẳng vận tốc, nhưng cơ chế **kéo giãn xoáy** $$(\omega\cdot\nabla)u$$ lại kéo dài và bóp mảnh các ống xoáy — hệt như vận động viên trượt băng thu hai tay sát người để xoay nhanh hơn. Xoáy càng mạnh lại càng tự kéo giãn mình mạnh hơn.
+
+#### Bước 2: Bất đẳng thức năng lượng chỉ cho ta "nghiệm yếu"
+Nhờ tổng năng lượng $$E(t)$$ bị chặn (và tích phân $$\int \vert \nabla u \vert^2$$ hữu hạn), Jean Leray (1934) chứng minh được luôn tồn tại một **nghiệm yếu** kéo dài mãi mãi tới $$t = \infty$$. Nhưng điều kiện tích phân bình phương hữu hạn vẫn cho phép hàm $$u$$ bị "nhọn vọt lên vô hạn" tại một vài điểm cô lập!
+
+#### Bước 3: Bức tường siêu tới hạn cắt đứt lập luận nâng cấp độ trơn
+Để chứng minh nghiệm yếu Leray thực sự trơn (không có điểm nổ), ta cần khống chế vận tốc cực đại $$\|u\|_{L^\infty}$$ hoặc độ xoáy cực đại $$\|\omega\|_{L^\infty}$$. Nhưng phép tính đổi tỉ lệ $$E(u_\lambda) = \lambda^{-1} E(u)$$ ở trên cho thấy: mọi ước lượng chỉ dựa vào định luật bảo toàn năng lượng đều mất tác dụng ở thang đo vi mô!
+
+#### Bước 4: Ranh giới giữa mô phỏng số và định lý liên tục
+Mô phỏng chảy rối trên siêu máy tính hoạt động trên lưới hữu hạn (nên không thể phóng to mãi về kích thước $$0$$). Vì vậy, dù mô phỏng có chạy êm hay bị "tràn số", nó đều không trả lời được câu hỏi giải tích của Viện Clay.
 
 So sánh với [Collatz]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/): kiểm tra hữu hạn trường hợp không chứng minh được một phát biểu về vô hạn trường hợp; ở đây, kiểm tra bằng số trên phương trình rời rạc không chứng minh được một phát biểu về mô hình liên tục. **Bằng chứng không phải là chứng minh.**
 

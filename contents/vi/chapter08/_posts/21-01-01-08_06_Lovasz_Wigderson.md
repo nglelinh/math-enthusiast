@@ -19,6 +19,8 @@ Năm **2021**, **Giải Abel** được trao chung cho **László Lovász** và 
 
 Từ bổ đề địa phương Lovász và thuật toán rút gọn mạng lưới LLL cho đến cuộc cách mạng khử ngẫu nhiên, chứng minh không tiết lộ thông tin (*zero-knowledge*) và đồ thị expander của Wigderson, hai sự nghiệp này đã kéo toán rời rạc và khoa học máy tính lý thuyết (TCS) vào đúng trung tâm của toán học hiện đại—ngay bên cạnh [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/), dù bài toán triệu đô ấy vẫn còn đang mở. Tài liệu chính thức: [abelprize.no](https://abelprize.no/).
 
+**Mạch bài học:** Bản đồ kiến thức nền (Toán rời rạc, Lý thuyết độ phức tạp, Độ khó như tài nguyên) → Lovász và Bổ đề địa phương → Khung giải thích chậm: tính tay so sánh Union Bound với Bổ đề Lovász và khoảng cách phổ đồ thị → Wigderson, khử ngẫu nhiên và expander → Bên cạnh P vs NP và những nhầm lẫn.
+
 ---
 
 ## Mục tiêu học tập
@@ -33,9 +35,14 @@ Sau bài này, bạn có thể giải thích vì sao toán rời rạc và TCS x
 
 Nếu giải tích và hình học vi phân nghiên cứu thế giới **liên tục** (đường cong mượt, dòng chảy, đạo hàm), thì hai lĩnh vực của Lovász và Wigderson nghiên cứu thế giới **rời rạc**—nhưng ở tầng sâu cấu trúc không hề thua kém:
 
-- **Toán rời rạc (Discrete Mathematics):** Nghiên cứu các đối tượng tách biệt có thể đếm được: đồ thị (các đỉnh và cạnh nối, mô hình hóa mạng xã hội, lưới điện hay phân tử), siêu đồ thị, tổ hợp, lưới điểm nguyên (*lattice*) và các bài toán tối ưu rời rạc (như tìm đường đi ngắn nhất, ghép cặp tối ưu, tô màu bản đồ). Điều thú vị mà Lovász chỉ ra là: muốn hiểu sâu một đồ thị rời rạc, cách hiệu quả nhất lại thường là **nhúng nó vào không gian hình học liên tục** (dùng ma trận, trị riêng, đa diện lồi và lập trình nửa xác định dương)!
-- **Khoa học máy tính lý thuyết (Theoretical Computer Science – TCS) và Lý thuyết độ phức tạp (Computational Complexity):** Không quan tâm bạn viết code bằng Python hay C++, hay CPU chạy nhanh bao nhiêu GHz. Thay vào đó, ngành này hỏi về **giới hạn căn bản của tính toán**: một bài toán cần tối thiểu bao nhiêu thời gian, bộ nhớ, số bit ngẫu nhiên hay lượng giao tiếp để giải khi kích thước đầu vào $$n$$ tăng lên? Các lớp độ phức tạp như **P** (giải nhanh trong thời gian đa thức), **NP** (kiểm chứng đáp án nhanh), hay **BPP** (giải nhanh nếu được phép tung đồng xu) là bản đồ phân loại độ khó của toàn bộ vũ trụ bài toán.
-- **Mối liên hệ bất ngờ:** Hóa ra "độ khó tính toán" không phải là điều xui xẻo—nó chính là **tài nguyên** để xây dựng mật mã bảo vệ Internet và tạo ra các bộ sinh số giả ngẫu nhiên đánh lừa được mọi thuật toán hiệu quả!
+### 1. Toán rời rạc và Hình học hóa đồ thị (Lovász)
+Nghiên cứu các đối tượng tách biệt có thể đếm được: đồ thị (mô hình hóa mạng xã hội, lưới điện hay phân tử), siêu đồ thị, tổ hợp, lưới điểm nguyên (*lattice*) và bài toán tối ưu rời rạc. Điều thú vị mà Lovász chỉ ra là: muốn hiểu sâu một đồ thị rời rạc, cách hiệu quả nhất lại thường là **nhúng nó vào không gian hình học liên tục** (dùng ma trận, trị riêng, đa diện lồi và lập trình nửa xác định dương)!
+
+### 2. Lý thuyết độ phức tạp tính toán (TCS)
+Không quan tâm bạn viết code bằng Python hay C++, hay CPU chạy nhanh bao nhiêu GHz. Thay vào đó, ngành này hỏi về **giới hạn căn bản của tính toán**: một bài toán cần tối thiểu bao nhiêu thời gian, bộ nhớ, số bit ngẫu nhiên hay lượng giao tiếp để giải khi kích thước đầu vào $$n$$ tăng lên? Các lớp độ phức tạp như **P** (giải nhanh trong thời gian đa thức), **NP** (kiểm chứng đáp án nhanh), hay **BPP** (giải nhanh nếu được phép tung đồng xu) là bản đồ phân loại độ khó của toàn bộ vũ trụ bài toán.
+
+### 3. Độ khó như một tài nguyên xây dựng (Wigderson)
+Hóa ra "độ khó tính toán" không phải là điều xui xẻo—nó chính là **nguyên liệu** để xây dựng mật mã bảo vệ Internet, tạo ra chứng minh không tiết lộ (*zero-knowledge*) và chế tạo các bộ sinh số giả ngẫu nhiên đánh lừa được mọi thuật toán hiệu quả!
 
 ---
 
@@ -63,7 +70,25 @@ $$
 \mathbb{P}\Big(\bigcap_{i=1}^m A_i^c\Big) > 0.
 $$
 
-**Ví dụ cụ thể (Bài toán $$k$$-SAT):** Giả sử bạn có một triệu mệnh đề logic, mỗi mệnh đề chứa $$k = 10$$ biến đúng/sai, và mỗi biến chỉ xuất hiện trong một vài mệnh đề (nên mỗi mệnh đề chỉ dùng chung biến với tối đa $$d$$ mệnh đề khác). Nếu gán Đúng/Sai ngẫu nhiên cho từng biến, xác suất một mệnh đề bị sai là $$p = 2^{-10} = 1/1024$$. Cộng xác suất cho một triệu mệnh đề sẽ vượt xa 1, nên union bound bó tay. Nhưng miễn là $$d \le 375$$, Bổ đề địa phương Lovász lập tức bảo đảm **chắc chắn tồn tại ít nhất một cách gán giá trị thỏa mãn đồng thời cả một triệu mệnh đề!** Về sau, Moser và Tardos còn biến bổ đề tồn tại này thành một thuật toán cực kỳ đơn giản và nhanh chóng để tìm ra nghiệm thật sự.
+### Khung giải thích: Tự tay so sánh Union Bound với Bổ đề Lovász và khoảng cách phổ đồ thị (nên đọc chậm)
+
+#### Ví dụ 1: Khi nào Union Bound sụp đổ mà Bổ đề Lovász thắng tuyệt đối?
+Xét một bài toán logic **$$10$$-SAT** khổng lồ gồm $$m = 1.000.000$$ mệnh đề, mỗi mệnh đề là phép HOẶC của $$k = 10$$ biến đúng/sai, và mỗi mệnh đề chỉ dùng chung biến với tối đa $$d = 300$$ mệnh đề khác. Ta gán Đúng/Sai ngẫu nhiên độc lập (xác suất $$1/2$$) cho từng biến.
+- Xác suất để một mệnh đề cố định bị *sai* (tất cả 10 biến đều rơi vào giá trị làm sai mệnh đề) là:
+  $$
+  p = 2^{-10} = \frac{1}{1024} \approx 0.0009766.
+  $$
+- **Thử dùng Union Bound cổ điển:** Tổng xác suất các sự kiện xấu là $$m \cdot p = 1\,000\,000 / 1024 \approx \mathbf{976.6 > 1}$$ — hoàn toàn vô dụng, không kết luận được gì!
+- **Thử dùng Bổ đề địa phương Lovász:** Ta chỉ kiểm tra đại lượng cục bộ (hoàn toàn *không* phụ thuộc vào $$m = 1.000.000$$!):
+  $$
+  e \cdot p \cdot (d + 1) \approx 2.7183 \times \frac{301}{1024} \approx \mathbf{0.799 \le 1}!
+  $$
+  Điều kiện thỏa mãn! Bổ đề Lovász lập tức bảo đảm **chắc chắn tồn tại ít nhất một cách gán giá trị thỏa mãn đồng thời cả một triệu mệnh đề**—kể cả khi ta tăng $$m$$ lên một nghìn tỷ mệnh đề miễn là độ chồng lấn cục bộ $$d \le 300$$! Về sau, Moser và Tardos còn biến bổ đề tồn tại này thành một thuật toán cực kỳ đơn giản và nhanh chóng để tìm ra nghiệm thật sự.
+
+#### Ví dụ 2: Cảm nhận "khoảng cách phổ" của đồ thị qua phép tính trị riêng
+Xét ma trận kề $$A$$ của một đồ thị $$d$$-chính quy (mọi đỉnh có bậc $$d$$). Trị riêng lớn nhất luôn bằng $$\lambda_1 = d$$. Trị riêng lớn thứ hai $$\lambda_2$$ càng nhỏ hơn $$d$$ nhiều thì đồ thị càng **giãn nở mạnh** (trộn nhanh):
+- Với **đồ thị vòng $$C_6$$** ($$6$$ đỉnh nối thành vòng tròn, bậc $$d = 2$$): các trị riêng là $$2\cos(2\pi k/6)$$ với $$k=0..5$$, tức $$2, 1, 1, -1, -1, -2$$. Khoảng cách phổ là $$d - \lambda_2 = 2 - 1 = 1$$ (nhưng khi $$n$$ tăng lên $$C_n$$, $$\lambda_2 = 2\cos(2\pi/n) \to 2$$ nên khoảng cách phổ sụp về $$0$$ — vòng tròn **không** phải expander!).
+- Với **đồ thị đầy đủ $$K_4$$** ($$4$$ đỉnh nối hết với nhau, bậc $$d = 3$$): ma trận kề $$J - I$$ có trị riêng $$\lambda_1 = 3$$ và $$\lambda_2 = -1$$, khoảng cách phổ cực lớn! Nhiệm vụ khó của họ **expander** là giữ bậc $$d$$ nhỏ cố định (như $$d=4$$) ngay cả khi $$n \to \infty$$, nhưng vẫn giữ $$\lambda_2 \le d - c$$ tách xa khỏi $$d$$!
 
 ### Xây dựng một lĩnh vực
 

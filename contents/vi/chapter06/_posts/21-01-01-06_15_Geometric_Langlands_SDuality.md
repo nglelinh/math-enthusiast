@@ -99,6 +99,43 @@ Với $$\mathcal N=4$$ SYM bốn chiều, đối ngẫu S đặc biệt rõ: h�
 
 ---
 
+### Khung giải thích: kiểm tra tay phép lật $$\tau \mapsto -1/\tau$$ của đối ngẫu S và phổ điện–từ (nên đọc chậm)
+
+Thuật ngữ "đối ngẫu S biến tương tác mạnh thành yếu và hoán đổi hạt mang điện tích với đơn cực từ" trở nên trong suốt ngay lập tức khi bạn kiểm tra trực tiếp hai công thức đại số số phức ngắn gọn dưới đây.
+
+1. **Kiểm tra phép lật mạnh ↔ yếu:** Trong lý thuyết $$\mathcal N=4$$ super Yang–Mills 4 chiều, hằng số tương tác gauge $$g > 0$$ và góc tôpô $$\theta$$ được gói vào một số phức duy nhất trên nửa mặt phẳng trên:
+
+   $$
+   \tau = \frac{\theta}{2\pi} + i\,\frac{4\pi}{g^2}.
+   $$
+
+   Xét trường hợp đơn giản $$\theta = 0$$, khi đó $$\tau = i\,\frac{4\pi}{g^2}$$. Áp dụng phép biến đổi đối ngẫu S $$\tau \mapsto \tilde\tau = -\frac{1}{\tau}$$:
+
+   $$
+   \tilde\tau = -\frac{1}{i\,(4\pi/g^2)} = i\,\frac{g^2}{4\pi} = i\,\frac{4\pi}{\tilde g^2}
+   \;\Longrightarrow\;
+   \tilde g = \frac{4\pi}{g}.
+   $$
+
+   **Thử bằng số cụ thể:** Giả sử lý thuyết gốc có hằng số tương tác cực mạnh $$g = 40\pi \approx 125.7$$ (mọi chuỗi nhiễu loạn theo lũy thừa của $$g^2$$ đều phân kỳ vô vọng). Sau phép đối ngẫu S, lý thuyết đối ngẫu có hằng số tương tác
+
+   $$
+   \tilde g = \frac{4\pi}{40\pi} = 0.1
+   \;\Longrightarrow\;
+   \tilde g^2 = 0.01!
+   $$
+
+   Từ một bài toán phi nhiễu loạn bất khả thi, ta bước sang một lý thuyết tương tác siêu yếu tính gọn trong vài số hạng đầu tiên!
+
+2. **Kiểm tra sự hoán đổi điện tích $$n_e$$ ↔ từ tích $$n_m$$:** Trong phổ BPS của lý thuyết, khối lượng của một hạt mang cặp điện tích–từ tích $$(n_e, n_m) \in \mathbb{Z}^2$$ tỉ lệ với $$\lvert n_e + n_m \tau \rvert$$. Khi thay $$\tau \mapsto -1/\tau$$, ta nhân gọn biểu thức bằng tay:
+
+   $$
+   \Bigl\lvert n_e + n_m\Bigl(-\frac{1}{\tau}\Bigr)\Bigr\rvert
+   = \frac{1}{\lvert \tau \rvert}\,\lvert -n_m + n_e\tau \rvert.
+   $$
+
+   Nhìn vào cặp hệ số mới $$(n'_e, n'_m) = (-n_m, n_e)$$: một hạt **thuần điện** $$(1, 0)$$ (gắn với đường Wilson) biến thành một **đơn cực thuần từ** $$(0, 1)$$ (gắn với đường 't Hooft), và ngược lại! Khi tổng quát hóa từ nhóm abel $$U(1)$$ lên nhóm ma trận không giao hoán $$G$$, mạng lưới điện tích sinh ra nhóm $$G$$, còn mạng lưới đơn cực từ sinh ra chính xác **nhóm đối ngẫu Langlands $$G^\vee$$** — đó là nhịp cầu tự nhiên dẫn từ vật lý 4 chiều sang Langlands hình học.
+
 ## 5. Hệ Hitchin và đối xứng gương
 
 **Phân thớ Hitchin** biểu diễn không gian moduli các phân thớ Higgs như một hệ khả tích trên một cơ sở gồm các hệ số của đa thức đặc trưng. Với hai nhóm đối ngẫu $$G$$ và $$G^\vee$$, các thớ (trong trường hợp tổng quát) là những đa tạp abel đối ngẫu nhau. Đó là một cặp **gương kiểu SYZ** (Hausel–Thaddeus và các công trình liên quan). Tóm lại:

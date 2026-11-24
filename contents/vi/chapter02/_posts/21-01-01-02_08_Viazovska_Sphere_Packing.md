@@ -15,11 +15,7 @@ Rồi vào một ngày tháng 3 năm 2016, **Maryna Viazovska** đăng lên arXi
 
 Điều kỳ diệu nhất của câu chuyện nằm ở cú chuyển ngôn ngữ: thay vì xếp thử vô số quả cầu trong không gian 8 chiều, Viazovska đã dùng **dạng modular** — một công cụ tưởng chỉ sống trong lý thuyết số — để thiết kế một **"hàm kỳ diệu"** trong giải tích Fourier, tự động loại bỏ mọi đối thủ xếp cầu khác chỉ bằng một bất đẳng thức!
 
-Hành trình của bài học này đi qua tám chặng:
-
-**Mật độ xếp → các chiều thấp → các lưới đặc biệt → chặn Cohn–Elkies → hàm "kỳ diệu" → dạng modular → $$E_8$$ và Leech → Fields 2022.**
-
-Mục tiêu không phải là tự tay dựng dạng modular, mà là hiểu **tối ưu nghĩa là gì**, **vì sao chiều 8 và 24 đặc biệt**, và **giải tích Fourier đã biến bài toán xếp cầu thành bài toán thiết kế hàm như thế nào**.
+**Mạch bài học:** Bản đồ kiến thức nền (tính tay mật độ 2D và đếm đủ 240 vectơ của $$E_8$$, công thức tổng Poisson, dạng modular) → Các chiều đã biết & từ đạn đại bác đến mã 5G → Khung giải thích chậm 4 bước: chặn Cohn–Elkies và cách Viazovska thiết kế "hàm kỳ diệu" → Lưới Leech 24D & tính tối ưu phổ quát.
 
 ---
 
@@ -27,49 +23,53 @@ Mục tiêu không phải là tự tay dựng dạng modular, mà là hiểu **t
 
 Sau bài học, bạn có thể:
 
-- Định nghĩa cẩn thận mật độ của một cách xếp (tỉ lệ thể tích bị phủ).
-- Nêu sơ lược lời giải cổ điển trong 2 và 3 chiều.
-- Giải thích vì sao $$E_8$$ và lưới Leech là những ứng viên tự nhiên trong 8 và 24 chiều.
-- Mô tả chặn Cohn–Elkies như một bài toán tối ưu trên các hàm xuyên tâm.
+- Định nghĩa mật độ xếp cầu và tự tính tay được mật độ trong 2 chiều (ô vuông $$78{,}5\%$$ vs lục giác $$90{,}7\%$$) cũng như số hôn $$240$$ và mật độ $$\pi^4/384$$ của lưới $$E_8$$ trong 8 chiều.
+- Tự kiểm tra được 4 dòng chứng minh chặn trên **Cohn–Elkies** từ công thức tổng Poisson.
+- Hiểu mạch 4 bước Viazovska dùng **dạng modular** và biến đổi Laplace để xây dựng **hàm kỳ diệu** có không điểm kép đúng tại $$\sqrt{2}, \sqrt{4}, \sqrt{6}, \dots$$
 - Phân biệt định lý cho $$E_8$$ (Viazovska một mình) và định lý cho lưới Leech (công trình chung CKMRV).
-- Không khẳng định rằng bài toán xếp cầu đã được giải cho mọi số chiều.
-- Kể lại sơ lược chuỗi ý tưởng từ chồng đạn đại bác của Kepler → xếp rời rạc nhiều chiều → mã hóa tín hiệu vô tuyến trong cuộc trò chuyện của Tao với Big Think, mà không biến lý thuyết mã thành nội dung lời trích dẫn giải Fields của Viazovska.
+- Kể lại sơ lược cầu nối từ chồng đạn đại bác của Kepler đến mã sửa lỗi nhiều chiều mà không đánh đồng với nội dung lời trích dẫn giải Fields.
 
-**Kiến thức cần có.** Thể tích quả cầu, lưới như một nhóm con rời rạc của $$\mathbb{R}^n$$, và ý tưởng về biến đổi Fourier của hàm xuyên tâm (chi tiết không bắt buộc).
-
----
-
-## Bản đồ kiến thức nền: Hình học rời rạc, Giải tích Fourier và Dạng modular
-
-Để thấy rõ vì sao một bài toán "xếp cam trong 8 chiều" lại gặp gỡ lý thuyết số, hãy xem ba ngành toán học giao nhau ở đây:
-
-- **Hình học rời rạc và Lưới (Discrete Geometry & Lattices):** Nghiên cứu các cấu hình điểm, đa diện và cách sắp xếp tối ưu trong không gian $$\mathbb{R}^n$$. Trong mặt phẳng 2 chiều, nếu xếp đồng xu theo lưới ô vuông, diện tích bị phủ là $$\pi / 4 \approx 78{,}5\%$$; nếu xếp lệch thành lưới tổ ong lục giác, mật độ tăng vọt lên $$\pi / \sqrt{12} \approx 90{,}7\%$$. Càng lên số chiều cao, thể tích quả cầu co lại rất nhanh so với hình lập phương bao quanh, nên phần "khoảng trống" phình to ra một cách phản trực giác — trừ những số chiều có lưới đối xứng ngoại lệ như $$8$$ và $$24$$.
-- **Giải tích Fourier và Công thức tổng Poisson:** Biến đổi Fourier $$\hat f$$ phân tích một hàm $$f(x)$$ theo các tần số sóng. **Công thức tổng Poisson** nối trực tiếp tổng giá trị của $$f$$ trên một lưới $$\Lambda$$ với tổng giá trị của $$\hat f$$ trên lưới đối ngẫu $$\Lambda^*$$: $$\sum_{x \in \Lambda} f(x) = \frac{1}{\operatorname{Vol}(\Lambda)} \sum_{\xi \in \Lambda^*} \hat f(\xi)$$. Chính đẳng thức này biến một bài toán hình học (tìm cấu hình xếp cầu) thành bài toán giải tích (tìm một hàm $$f$$ có dấu phù hợp!).
-- **Dạng modular (Modular Forms) và lý do chuyển ngôn ngữ:** Dạng modular là những hàm giải tích sống trên nửa mặt phẳng phức trên, sở hữu một lượng **đối xứng khổng lồ** dưới nhóm $$\mathrm{SL}_2(\mathbb{Z})$$ (kiểu như $$F(-1/z) = z^k F(z)$$). Vì bị ràng buộc bởi quá nhiều đối xứng, không gian các dạng modular cực kỳ nhỏ và cứng — gần như chỉ cần biết vài hệ số đầu là biết toàn bộ hàm! Viazovska nhận ra rằng các điều kiện cực ngặt của "hàm kỳ diệu" (phải triệt tiêu đúng tại mọi bán kính $$\sqrt{2}, \sqrt{4}, \sqrt{6}, \dots$$ của lưới $$E_8$$) có thể được mã hóa chính xác bằng biến đổi Laplace của các dạng modular.
+**Kiến thức cần có.** Thể tích hình tròn/quả cầu, lưới trong $$\mathbb{R}^n$, và khái niệm biến đổi Fourier. Mọi phép tính chính đều được viết tường minh ngay bên dưới.
 
 ---
 
-## 1. Bài toán xếp cầu
+## Bản đồ kiến thức nền: Hình học rời rạc, Lưới $$E_8$$ và Giải tích Fourier
 
-Cố định số chiều $$n$$, xếp các quả cầu đóng có bán kính bằng nhau, **không chồng lên nhau**, trong $$\mathbb{R}^n$$. **Mật độ** của một cách xếp là
+### 1. Xếp cầu và Mật độ — Tính tay từ 2 chiều lên 8 chiều!
+Xếp các quả cầu đồng nhất bán kính $$r$$ không chồng lên nhau trong $$\mathbb{R}^n$$. Với một **lưới** $$\Lambda$$, mỗi ô cơ sở có thể tích $$\operatorname{Vol}(\mathbb{R}^n/\Lambda)$$ chứa đúng một quả cầu, nên mật độ là $$\delta = \frac{\operatorname{Vol}(B_r)}{\operatorname{Vol}(\mathbb{R}^n/\Lambda)}$$.
+
+- **Trong 2 chiều (đĩa tròn):**
+  - *Lưới ô vuông* $$\mathbb{Z}^2$$: khoảng cách ngắn nhất bằng $$1 \implies r = 1/2$$, diện tích ô vuông $$= 1$. Mật độ: $$\delta_{\text{vuông}} = \pi (1/2)^2 = \frac{\pi}{4} \approx \mathbf{78{,}54\%}$$.
+  - *Lưới lục giác (tổ ong)*: các tâm là đỉnh tam giác đều cạnh $$1 \implies r = 1/2$$, ô cơ sở là hình thoi diện tích $$\frac{\sqrt{3}}{2}$$. Mật độ: $$\delta_{\text{lục giác}} = \frac{\pi / 4}{\sqrt{3}/2} = \frac{\pi}{2\sqrt{3}} \approx \mathbf{90{,}69\%}$$ (tối ưu trong 2 chiều!).
+- **Trong 8 chiều — Tự tay đếm 240 hàng xóm và tính mật độ của lưới $$E_8$$:**
+  Lưới $$E_8 \subset \mathbb{R}^8$$ được định nghĩa cực kỳ gọn: gồm mọi điểm $$(x_1, \dots, x_8) \in \mathbb{R}^8$$ có tọa độ **hoặc đều nguyên, hoặc đều bán nguyên** (dạng $$k + \frac{1}{2}$$), sao cho **tổng 8 tọa độ là số chẵn**!
+  - Bình phương độ dài ngắn nhất khác 0 là $$\|x\|^2 = 2$$ (tức độ dài $$\sqrt{2}$$). Hãy tự đếm xem có bao nhiêu vectơ như thế:
+    1. *Tọa độ nguyên:* chọn 2 vị trí mang $$\pm 1$$, 6 vị trí còn lại bằng $$0$$ (tổng luôn chẵn) → $$\binom{8}{2} \times 2^2 = 28 \times 4 = \mathbf{112}$$ vectơ.
+    2. *Tọa độ bán nguyên:* cả 8 tọa độ là $$\pm \frac{1}{2}$$ (bình phương tổng đúng bằng $$8 \times \frac{1}{4} = 2$$!), và tổng là số chẵn khi số dấu trừ là chẵn → $$2^8 / 2 = \mathbf{128}$$ vectơ.
+    - **Tổng cộng:** $$112 + 128 = \mathbf{240}$$ vectơ ngắn nhất! Nghĩa là mỗi quả cầu trong $$E_8$$ chạm khít đồng thời **240** quả cầu hàng xóm!
+  - Khoảng cách ngắn nhất là $$\sqrt{2} \implies$$ bán kính mỗi cầu $$r = \frac{\sqrt{2}}{2}$$. Vì $$E_8$$ có thể tích ô cơ sở đúng bằng $$1$$ và thể tích quả cầu 8D bán kính $$r$$ là $$\frac{\pi^4}{4!} r^8$$, ta tính ngay mật độ:
 
 $$
-\delta=\limsup_{R\to\infty}\frac{\text{thể tích cầu nằm trong }B(0,R)}{\operatorname{Vol} B(0,R)}.
+\delta_{E_8} \;=\; \frac{\pi^4}{24} \left(\frac{\sqrt{2}}{2}\right)^8 \;=\; \frac{\pi^4}{24 \cdot 16} \;=\; \frac{\pi^4}{384} \;\approx\; \mathbf{25{,}37\%}.
 $$
 
-Một cách tương đương (với cách xếp theo lưới), người ta so sánh thể tích của một quả cầu với thể tích của miền cơ bản (ô lưới) chứa tâm của nó.
+### 2. Giải tích Fourier và Công thức tổng Poisson
+Biến đổi Fourier $$\hat{f}(\xi) = \int_{\mathbb{R}^n} f(x) e^{-2\pi i x \cdot \xi}\,dx$$ phân tích hàm $$f$$ theo tần số. **Công thức tổng Poisson** nối tổng của $$f$$ trên lưới $$\Lambda$$ với tổng của $$\hat{f}$$ trên lưới đối ngẫu $$\Lambda^*$$:
 
-**Câu hỏi.** $$\delta_n$$, cận trên đúng của mật độ trên mọi cách xếp trong $$n$$ chiều, bằng bao nhiêu? Cấu hình nào đạt được giá trị đó?
+$$
+\sum_{x \in \Lambda} f(x) \;=\; \frac{1}{\operatorname{Vol}(\mathbb{R}^n/\Lambda)} \sum_{\xi \in \Lambda^*} \hat{f}(\xi).
+$$
+
+### 3. Dạng modular (Modular Forms) — Vũ khí bất ngờ từ lý thuyết số
+Dạng modular là những hàm giải tích sống trên nửa mặt phẳng phức trên $$\mathbb{H}$$, thỏa mãn những phương trình đối xứng cực mạnh dưới phép biến đổi $$\tau \mapsto \tau + 1$$ và $$\tau \mapsto -1/\tau$$ (như chuỗi Eisenstein $$E_4(\tau), E_6(\tau)$$ và hàm $$\Delta(\tau)$$). Vì bị khóa bởi quá nhiều đối xứng, không gian các dạng modular rất nhỏ và cứng — biến chúng thành "xưởng đúc" lý tưởng để tạo ra hàm Fourier có không điểm chính xác tại các khoảng cách của lưới $$E_8$$!
+
+---
+
+## 1. Đã biết gì về các chiều thấp và bài toán xếp cầu?
 
 ![Xếp lục giác]({{ site.baseurl }}/img/chapter_img/viazovska_packing_2d.svg)
 
 *Hình. Cách xếp lục giác trên mặt phẳng, cách xếp tối ưu cổ điển trong 2 chiều.*
-
-Bài toán vừa trực quan vừa khó: khi số chiều tăng, "khoảng trống" hành xử ngược với trực giác; cách xếp tối ưu toàn cục có thể không phải là một lưới; và chứng minh chặn trên thường khó hơn nhiều so với việc tìm ra một ứng viên tốt.
-
----
-
-## 2. Đã biết gì về các chiều thấp?
 
 | Số chiều | Tình trạng |
 |-------|------------|
@@ -78,17 +78,13 @@ Bài toán vừa trực quan vừa khó: khi số chiều tăng, "khoảng trố
 | $$n=3$$ | FCC / HCP ($$\pi/\sqrt{18} \approx 74{,}05\%$$): giả thuyết Kepler, Hales (cùng kiểm chứng hình thức) |
 | $$n=8$$ | $$E_8$$ ($$\pi^4/384 \approx 25{,}37\%$$): **Viazovska (2016)** |
 | $$n=24$$ | Leech ($$\pi^{12}/12! \approx 0{,}193\%$$): **Cohn–Kumar–Miller–Radchenko–Viazovska** |
-| $$n$$ tổng quát | Phần lớn còn mở; đã có các chặn tiệm cận |
-
-Với hầu hết các số chiều (kể cả chiều 4, 5, 6, 7!), ta vẫn chưa biết chứng minh chặt chẽ cho cách xếp tối ưu. Chiều 8 và 24 tỏa sáng như hai "ốc đảo đối xứng" hiếm hoi.
+| $$n$$ tổng quát | Phần lớn còn mở (kể cả chiều 4, 5, 6, 7!); đã có các chặn tiệm cận |
 
 ### Từ đạn đại bác đến chuỗi bit (theo lời kể của Tao)
 
-Trong [cuộc trò chuyện với Big Think](https://www.youtube.com/watch?v=OOMx2BHHWtE) cho loạt *Six Math Essentials*, Terence Tao kể về bài toán xếp cầu như một ví dụ tiêu biểu cho chặng đường từ sự tò mò thuần túy đến công nghệ hiện đại. Một thủy thủ muốn chất được nhiều đạn đại bác nhất trong khoang tàu; khoảng trống quanh các quả cầu là phần bị lãng phí. Kepler đề xuất cách xếp lục giác như người bán cam vẫn xếp, phủ khoảng 74% thể tích trong ba chiều, nhưng không chứng minh được đó là cách tốt nhất. **Giả thuyết Kepler** trở thành một bài toán hình học kéo dài gần bốn thế kỷ. Trường hợp mặt phẳng (các đĩa tròn) được giải khoảng năm 1900; trường hợp ba chiều phải chờ đến chứng minh có máy tính hỗ trợ của Hales (công bố năm 1998), và sau đó là một phép kiểm chứng hình thức hoàn toàn bằng máy tính, xóa bỏ những nghi ngờ của các nhà phản biện. Rồi các nhà toán học đặt ra những câu hỏi tưởng như "vô dụng": bốn chiều thì sao? tám chiều thì sao? một không gian *rời rạc* gồm các chuỗi bit thì sao?
+Trong [cuộc trò chuyện với Big Think](https://www.youtube.com/watch?v=OOMx2BHHWtE) cho loạt *Six Math Essentials*, Terence Tao kể về bài toán xếp cầu như một ví dụ tiêu biểu cho chặng đường từ sự tò mò thuần túy đến công nghệ hiện đại. Từ câu hỏi chất đạn đại bác trên tàu thủy của Kepler đến chứng minh có máy tính hỗ trợ của Hales năm 1998, các nhà toán học hỏi tiếp về xếp cầu trong không gian nhiều chiều và trong không gian *rời rạc* gồm các chuỗi bit.
 
-Khi điện thoại gửi tín hiệu số, mỗi thông điệp là một chuỗi bit. Ta muốn các tín hiệu hợp lệ khác nhau nằm cách đủ xa nhau trong khối lập phương nhiều chiều đó, để nhiễu không làm lẫn tín hiệu này với tín hiệu khác. Ý chính của Tao là đây vẫn là bài toán xếp cầu, chỉ là trong không gian nhiều chiều và rời rạc — và toán học về xếp cầu cung cấp cả các **mã sửa lỗi** lẫn **giới hạn lý thuyết** cho số bit mỗi giây có thể truyền qua một dải tần (từ đó, về mặt kinh tế, người ta định giá được dải tần vô tuyến). Theo lời kể ấy, ngành viễn thông vô tuyến thực chất đang "xếp cam" trong những không gian có số chiều rất lớn.
-
-Hai điều cần lưu ý khi đọc. Thứ nhất, công trình được giải Fields của Viazovska là về xếp cầu trong không gian Euclid **liên tục** 8 và 24 chiều, không phải định lý nói rằng bà thiết kế mạng 5G. Thứ hai, những chi tiết lịch sử được kể gọn trong một buổi nói chuyện phổ thông (năm tháng, "thủy thủ người Anh", con số hiệu suất chính xác) nên được đối chiếu với tài liệu chuyên ngành khi cần trích dẫn. Trang chính của khóa học: [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/); bài thực hành: [Khám phá xếp cầu]({{ site.baseurl }}/contents/vi/chapter07/07_03_Explore_Sphere_Packing/).
+Khi điện thoại gửi tín hiệu số, mỗi thông điệp là một chuỗi bit. Ta muốn các tín hiệu hợp lệ nằm cách đủ xa nhau trong khối lập phương nhiều chiều để nhiễu không làm nhầm lẫn tín hiệu — đó chính là bài toán xếp cầu rời rạc (**mã sửa lỗi**), quyết định giới hạn lý thuyết cho số bit mỗi giây qua một dải tần vô tuyến. Tuy nhiên cần tách bạch: công trình được giải Fields của Viazovska là xếp cầu trong không gian Euclid **liên tục** 8 và 24 chiều, không phải thiết kế mạng 5G. Xem thêm: [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/); bài thực hành: [Khám phá xếp cầu]({{ site.baseurl }}/contents/vi/chapter07/07_03_Explore_Sphere_Packing/).
 
 ---
 
@@ -100,123 +96,100 @@ Hai điều cần lưu ý khi đọc. Thứ nhất, công trình được giải
 
 Trong mặt phẳng, lưới ô vuông phủ khoảng 78,5 phần trăm còn cách xếp tổ ong phủ khoảng 90,7 phần trăm, là mật độ tối ưu trong hai chiều.
 
+---
 
-## 3. Lưới, $$E_8$$ và lưới Leech
-
-Một **lưới** $$\Lambda\subset\mathbb{R}^n$$ là một nhóm con rời rạc sinh ra $$\mathbb{R}^n$$ (có thể hình dung là $$\mathbb{Z}^n$$ sau một phép đổi biến tuyến tính). **Cách xếp theo lưới** đặt tâm các quả cầu tại các điểm của lưới, với bán kính bằng một nửa độ dài của vectơ khác không ngắn nhất.
-
-### Lưới nghiệm $$E_8$$
-
-$$E_8\subset\mathbb{R}^8$$ là lưới **unimodular chẵn** duy nhất (sai khác một phép đẳng cự) trong 8 chiều. Ta có thể mô tả nó cực kỳ gọn: đó là tập tất cả các vectơ trong $$\mathbb{R}^8$$ có tọa độ hoặc đều nguyên hoặc đều bán nguyên (dạng $$k + \frac{1}{2}$$), sao cho tổng 8 tọa độ là một số chẵn! Lưới này có:
-
-- các vectơ ngắn nhất có bình phương độ dài bằng $$2$$ (tức độ dài $$\sqrt{2}$$), tạo thành hệ nghiệm $$E_8$$ gồm đúng **240 vectơ** — nghĩa là mỗi quả cầu trong $$E_8$$ chạm khít đồng thời **240** quả cầu hàng xóm xung quanh nó!  
-- một nhóm đối xứng cực lớn (nhóm Weyl có gần 700 triệu phép đối xứng);  
-- từ lâu đã được dự đoán là cho mật độ xếp tối ưu **toàn cục**, không chỉ trong lớp các lưới.
-
-### Lưới Leech $$\Lambda_{24}$$
-
-Trong 24 chiều, **lưới Leech** là lưới unimodular chẵn duy nhất **không có nghiệm** (không có vectơ nào có bình phương độ dài bằng 2; các vectơ ngắn nhất có bình phương độ dài bằng 4, và có tới **196.560** vectơ như thế!). Nó có vai trò trung tâm trong lý thuyết các nhóm đơn rời rạc (*sporadic groups*) và mã sửa lỗi Golay, và cũng được dự đoán là cách xếp dày nhất trong 24 chiều.
+## 2. Lưới $$E_8$$ và Lưới Leech $$\Lambda_{24}$$
 
 ![E8 và Leech]({{ site.baseurl }}/img/chapter_img/viazovska_e8_leech.svg)
 
 *Hình. Hai lưới đặc biệt mà Viazovska và các cộng sự đã chứng minh là tối ưu.*
 
-**Lưu ý.** Tối ưu trong lớp các lưới **không** tự động là tối ưu toàn cục: ở nhiều số chiều, một cấu hình không tuần hoàn có thể xếp khít hơn mọi lưới. Định lý của Viazovska / CKMRV loại trừ khả năng đó trong 8 và 24 chiều.
+- **Lưới $$E_8 \subset \mathbb{R}^8$$:** lưới unimodular chẵn duy nhất trong 8 chiều, tự đối ngẫu ($$E_8^* = E_8$$), có 240 vectơ ngắn nhất độ dài $$\sqrt{2}$$ và nhóm đối xứng gần 700 triệu phần tử.
+- **Lưới Leech $$\Lambda_{24} \subset \mathbb{R}^{24}$$:** lưới unimodular chẵn duy nhất trong 24 chiều *không có vectơ độ dài $$\sqrt{2}$$*; các vectơ ngắn nhất có độ dài $$2$$ và có tới **196.560** vectơ như thế!
+
+**Lưu ý.** Tối ưu trong lớp các lưới **không** tự động là tối ưu toàn cục (một cấu hình không tuần hoàn có thể xếp khít hơn mọi lưới). Định lý Viazovska / CKMRV loại trừ *mọi* cấu hình, kể cả không tuần hoàn!
 
 ---
 
-## 4. Cohn–Elkies: bài toán xếp cầu gặp giải tích Fourier
+## 3. Khung giải thích: Dạng modular đã "khóa chết" bài toán xếp cầu 8 chiều như thế nào? (nên đọc chậm)
 
-Năm 2003, **Henry Cohn và Noam Elkies** đã mở ra một cánh cửa hoàn toàn mới: đưa việc chặn trên mật độ xếp cầu về sự tồn tại của một **hàm xuyên tâm** đặc biệt (chỉ phụ thuộc vào khoảng cách $$\|x\|$$), với các ràng buộc về dấu trên $$f$$ và trên biến đổi Fourier $$\hat f$$ của nó; ý tưởng xuất phát từ quy hoạch tuyến tính và công thức tổng Poisson.
-
-**Các giả thiết** (dạng sơ đồ, bỏ qua hằng số chuẩn hóa):
-
-- $$f$$ xuyên tâm, thuộc lớp Schwartz (giảm rất nhanh ra vô tận);  
-- $$f(x)\le 0$$ khi $$\|x\|\ge r$$ (ngoài bán kính tối thiểu giữa hai tâm cầu);  
-- $$\hat f(\xi)\ge 0$$ với mọi tần số $$\xi$$;  
-- $$f(0),\hat f(0)>0$$.
-
-Khi đó, mật độ của *mọi* cách xếp (dù tuần hoàn hay hỗn loạn) đều bị chặn trên bởi một biểu thức đơn giản theo $$f(0)/\hat f(0)$$ và $$r$$! Trực giác từ công thức tổng Poisson: nếu ta áp dụng công thức tổng Poisson cho lưới $$\Lambda$$, vế trái là $$f(0) + \sum_{x \neq 0} f(x) \le f(0)$$ (vì mọi điểm khác gốc đều nằm ngoài bán kính $$r$$ nên $$f(x) \le 0$$), còn vế phải là $$\frac{1}{\operatorname{Vol}(\Lambda)}\left(\hat f(0) + \sum_{\xi \neq 0} \hat f(\xi)\right) \ge \frac{\hat f(0)}{\operatorname{Vol}(\Lambda)}$$ (vì $$\hat f \ge 0$$). Ghép hai bất đẳng thức đó lại, ta lập tức có cận dưới cho $$\operatorname{Vol}(\Lambda)$$, tức cận trên cho mật độ!
+Tại sao một chứng minh dài chỉ hơn 20 trang lại loại trừ được *vô hạn* mọi cách xếp cầu có thể trong 8 chiều? Hãy đọc chậm 4 bước cực kỳ trong sáng dưới đây:
 
 ![Ý tưởng Cohn–Elkies]({{ site.baseurl }}/img/chapter_img/viazovska_cohn_elkies.svg)
 
 *Hình. Các điều kiện về dấu trên $$f$$ và $$\hat f$$ cho ta một chặn trên cho bài toán xếp cầu.*
 
-**Bài toán dấu bằng.** Để chứng minh một lưới là tối ưu tuyệt đối, cả hai bất đẳng thức trên phải đồng thời xảy ra **dấu bằng**: nghĩa là $$f(x)$$ phải bằng $$0$$ (và đổi dấu/tiếp xúc với trục hoành thành **không điểm kép**) tại đúng độ dài của mọi vectơ trong lưới ($$\sqrt{2}, \sqrt{4}, \sqrt{6}, \dots$$ với $$E_8$$), đồng thời $$\hat f(\xi)$$ cũng phải có không điểm kép tại mọi vectơ của lưới đối ngẫu! Hàm thỏa mãn điều kiện gắt gao ấy gọi là **hàm kỳ diệu** (*magic function*). Trong hơn 10 năm, các thí nghiệm bằng máy tính của Cohn và Elkies cho thấy chặn trên khớp với mật độ của $$E_8$$ và Leech tới hơn 30 chữ số thập phân — nhưng không ai viết ra được công thức chính xác cho hàm kỳ diệu!
+#### Bước 1: Chứng minh 4 dòng cho Chặn Cohn–Elkies (2003)
+Giả sử ta tìm được một hàm xuyên tâm (chỉ phụ thuộc bán kính $$\|x\|$$) thuộc lớp Schwartz $$f: \mathbb{R}^n \to \mathbb{R}$$ thỏa mãn đúng 3 điều kiện:
+1. $$f(0) = \hat{f}(0) = 1$$;
+2. $$f(x) \le 0$$ với mọi $$\|x\| \ge r$$;
+3. $$\hat{f}(\xi) \ge 0$$ với mọi $$\xi \in \mathbb{R}^n$$.
 
----
+Lấy một lưới xếp cầu bất kỳ $$\Lambda$$ có khoảng cách ngắn nhất $$\ge r$$ (bán kính quả cầu $$r/2$$). Áp dụng **Công thức tổng Poisson** ngay lập tức cho ta:
 
-## 5. Hàm kỳ diệu trong 8 chiều
+$$
+1 \;=\; f(0) \;\ge\; \underbrace{f(0) + \sum_{x \in \Lambda \setminus \{0\}} f(x)}_{\text{vì } f(x) \le 0 \text{ khi } \|x\| \ge r} \;=\; \frac{1}{\operatorname{Vol}(\mathbb{R}^n/\Lambda)} \underbrace{\left(\hat{f}(0) + \sum_{\xi \in \Lambda^* \setminus \{0\}} \hat{f}(\xi)\right)}_{\ge\, \hat{f}(0)\, =\, 1 \text{ vì } \hat{f} \ge 0} \;\ge\; \frac{1}{\operatorname{Vol}(\mathbb{R}^n/\Lambda)}.
+$$
 
-Viazovska đã tìm ra công thức chính xác cho hàm kỳ diệu bằng một cú ngoặt bất ngờ: tách hàm $$f$$ thành tổng của hai phần — một hàm riêng của biến đổi Fourier với trị riêng $$+1$$ và một hàm với trị riêng $$-1$$ — rồi xây dựng chúng qua **biến đổi Laplace** của các **dạng gần modular** (*quasimodular / weakly holomorphic modular forms*) được chọn lọc tinh xảo, bảo đảm đồng thời:
+Suy ra $$\operatorname{Vol}(\mathbb{R}^n/\Lambda) \ge 1$$ — nghĩa là mật độ của **mọi** cách xếp (kể cả không phải lưới, dùng phép lấy trung bình!) đều bị chặn trên bởi $$\operatorname{Vol}(B_{r/2})$$!
 
-- các điều kiện về dấu của Cohn–Elkies;  
-- không điểm kép chính xác tại $$\sqrt{2k}$$ ($$k \ge 1$$) — đúng bằng độ dài các vectơ của $$E_8$$!
+#### Bước 2: Yêu cầu cực ngặt của "Hàm kỳ diệu" (*Magic Function*)
+Để chặn trên này **khớp tuyệt đối** với mật độ của $$E_8$$ (nơi $$r = \sqrt{2}$$ và $$\operatorname{Vol}(\mathbb{R}^8/E_8) = 1$$), cả hai dấu $$\ge$$ ở Bước 1 phải đồng thời trở thành **dấu bằng**! Điều đó ép buộc:
+- $$f(x) = 0$$ tại mọi điểm khác 0 của $$E_8$$ (tức tại mọi bán kính $$\sqrt{2}, \sqrt{4}, \sqrt{6}, \sqrt{8}, \dots$$), và vì $$f(x) \le 0$$ với $$\|x\| \ge \sqrt{2}$$, chúng phải là **không điểm kép** (đồ thị chỉ chạm trục hoành chứ không cắt qua) tại $$\sqrt{4}, \sqrt{6}, \dots$$!
+- $$\hat{f}(\xi) = 0$$ cũng phải có **không điểm kép** tại đúng các bán kính $$\sqrt{2}, \sqrt{4}, \sqrt{6}, \dots$$ (vì $$E_8^* = E_8$$)!
 
-Đây là một chứng minh giải tích chính xác tuyệt đối, không phải tối ưu bằng số cho "gần khớp" rồi làm tròn.
+Hơn 10 năm trời, máy tính xác nhận chặn Cohn–Elkies khớp mật độ $$E_8$$ tới 30 chữ số thập phân, nhưng không ai viết ra được công thức của hàm kỳ diệu $$f$$.
 
+#### Bước 3: Cú xoay chuyển của Viazovska — Tách trị riêng Fourier $$\pm 1$$ và dùng Dạng modular
+Viazovska tách $$f = \frac{1}{2}(a + b)$$, trong đó $$a$$ là **hàm riêng $$+1$$** ($$\hat{a} = +a$$) và $$b$$ là **hàm riêng $$-1$$** ($$\hat{b} = -b$$). Nhờ hệ số $$\sin^2\bigl(\frac{\pi}{2}\|x\|^2\bigr)$$ tự động sinh ra không điểm kép tại mọi $$\sqrt{2k}$$ ($$k \ge 1$$), bà đặt dạng thử bằng **biến đổi Laplace** trên nửa mặt phẳng trên:
+
+$$
+a(x) \;=\; \sin^2\!\left(\frac{\pi \|x\|^2}{2}\right) \int_0^\infty \phi(it)\, e^{-\pi \|x\|^2 t}\, dt.
+$$
+
+Điều kỳ diệu xảy ra: điều kiện $$\hat{a} = +a$$ và $$\hat{b} = -b$$ biến đổi chính xác thành **phương trình biến đổi modular** cho hàm $$\phi(\tau)$$! Và vì không gian các dạng gần modular (sinh bởi $$E_2, E_4, E_6$$ và $$\Delta$$) có số chiều cực nhỏ, Viazovska viết ra **công thức tường minh duy nhất** cho $$\phi(\tau)$$ và kiểm tra chặt chẽ các điều kiện dấu bằng giải tích thuần túy!
+
+#### Bước 4: Định lý tối ưu cho 8D, 24D và Tính tối ưu phổ quát
 <div class="textbook-theorem" markdown="1">
-**Định lý (Viazovska, 2016/2017).**  
-Cách xếp theo lưới $$E_8$$ đạt mật độ lớn nhất trong **mọi** cách xếp cầu trong $$\mathbb{R}^8$$.
+**Định lý (Viazovska, 2016/2017; và CKMRV cho 24 chiều).**  
+Lưới $$E_8$$ đạt mật độ xếp cầu lớn nhất trong **mọi** cách xếp trong $$\mathbb{R}^8$$; lưới Leech $$\Lambda_{24}$$ đạt mật độ lớn nhất trong **mọi** cách xếp trong $$\mathbb{R}^{24}$$.
 </div>
 
-Điểm đẹp: dạng modular, vốn là công cụ của số học và lý thuyết hàm tự đẳng cấu, bất ngờ trở thành **công cụ tối ưu trong hình học rời rạc**. Giải tích Fourier cùng tính modular loại trừ mọi đối thủ.
+Sau đó, nhóm CKMRV còn đẩy kỹ thuật này lên đỉnh cao mới: chứng minh **tính tối ưu phổ quát** (*universal optimality*) — $$E_8$$ và lưới Leech cực tiểu hóa năng lượng của hệ điểm dưới *mọi* hàm thế tương tác hoàn toàn đơn điệu, đồng thời sinh ra **công thức nội suy Fourier** (Radchenko–Viazovska).
+
+Tóm tắt mạch chứng minh:
+
+$$
+\text{Xếp cầu trong } \mathbb{R}^8
+\;\xrightarrow{\text{Poisson + Cohn–Elkies}}\;
+\text{Hàm kỳ diệu } f, \hat{f}
+\;\xrightarrow{\text{Biến đổi Laplace}}\;
+\text{Dạng modular } (E_2, E_4, E_6, \Delta)
+\;\Longrightarrow\;
+E_8 \text{ tối ưu tuyệt đối}.
+$$
 
 ---
 
-## 6. Hai mươi bốn chiều: công trình hợp tác
+## 4. Ghi nhận công lao và điều nghịch lý
 
-Chỉ một tuần sau bài báo về $$E_8$$, **Cohn, Kumar, Miller, Radchenko và Viazovska** cùng nhau xây dựng hàm kỳ diệu trong 24 chiều và chứng minh lưới Leech là tối ưu trong mọi cách xếp trong $$\mathbb{R}^{24}$$.
+- **Chiều 8:** Maryna Viazovska (một mình — bài báo mốc năm 2016, *Annals of Mathematics* 2017).
+- **Chiều 24:** công trình hợp tác **Cohn–Kumar–Miller–Radchenko–Viazovska** (CKMRV).
+- Bà là **người phụ nữ thứ hai** nhận Huy chương Fields (2022).
 
-Ghi nhận công lao cần nhớ:
-
-- **Chiều 8:** Viazovska (một mình; cột mốc trung tâm).  
-- **Chiều 24:** công trình hợp tác CKMRV.
-
-Huy chương Fields 2022 ghi nhận cả nhóm đóng góp liên quan, không chỉ một con số mật độ.
-
----
-
-## 7. Không chỉ là một con số mật độ
-
-Các ý tưởng của Cohn–Elkies / Viazovska được tiếp nối trong:
-
-- **tính tối ưu phổ quát** (*universal optimality*): lưới $$E_8$$ và lưới Leech không chỉ xếp cầu đặc nhất, mà còn cực tiểu hóa năng lượng của hệ điểm dưới **mọi** thế năng tương tác hoàn toàn đơn điệu (giống như cấu trúc tinh thể bền vững nhất mọi lúc);  
-- các **công thức nội suy Fourier** (liên quan đến Radchenko–Viazovska), cho phép tái tạo chính xác một hàm xuyên tâm chỉ từ giá trị của nó và biến đổi Fourier của nó tại các bán kính $$\sqrt{n}$$;  
-- chương trình tìm lời giải chính xác trong hình học rời rạc bằng giải tích điều hòa.
-
-Bài toán xếp cầu trở thành cửa ngõ vào cả một "xưởng" thiết kế các hàm cực trị.
-
----
-
-## 8. Vì sao kết quả này quan trọng
-
-- Giải quyết hai bài toán xếp cầu chính xác nổi tiếng nhất ngoài các chiều thấp.  
-- Dùng dạng modular như một công cụ **tối ưu hình học**.  
-- Bổ sung cho chứng minh có máy tính hỗ trợ trong 3 chiều (Hales) một thành tựu **thuần giải tích** ở các chiều đặc biệt.  
-- Là cây cầu trong Chương 2: **giải tích ↔ hình học rời rạc**.
-
-So với [Green–Tao]({{ site.baseurl }}/contents/vi/chapter02/): cả hai đều kết hợp giải tích mạnh với cấu trúc đặc biệt; một bên là cấp số cộng các số nguyên tố, một bên là cách xếp theo lưới.
-
----
-
-## 9. Nhìn lại điều nghịch lý
-
-Với hầu hết các số chiều, ta không chỉ ra được cách xếp dày nhất. Trong 8 và 24 chiều, các lưới đặc biệt không chỉ tồn tại mà còn **được chứng minh là tốt nhất**, nhờ một hàm được thiết kế bằng giải tích Fourier loại trừ mọi đối thủ. Quy luật "chiều càng cao càng khó" có ngoại lệ khi đối xứng đủ lớn để các dạng modular "biết" được hàm kỳ diệu.
-
-**Số hôn** (*kissing number*, số quả cầu đơn vị có thể cùng chạm một quả cầu cho trước — bằng $$6$$ trong 2 chiều, $$12$$ trong 3 chiều, $$240$$ trong 8 chiều, $$196.560$$ trong 24 chiều) có liên quan nhưng **khác** với mật độ xếp trong toàn không gian: giải được bài toán số hôn không tự động giải được bài toán xếp cầu, và ngược lại.
+**Nghịch lý đáng nhớ:** Quy luật "số chiều càng cao càng khó" bị phá vỡ ngoạn mục ở chiều 8 và 24 — ta vẫn chưa giải nổi chiều 4 hay chiều 5, nhưng lại có chứng minh giải tích tuyệt đối ngắn gọn cho chiều 8 và 24 nhờ tính đối xứng ngoại lệ của $$E_8$$ và Leech! (Lưu ý: **số hôn** — số quả cầu chạm 1 quả cầu, bằng 240 ở 8D và 196.560 ở 24D — có liên hệ nhưng *khác* với mật độ xếp cầu toàn không gian.)
 
 ---
 
 ## Hiểu lầm thường gặp
 
 | Khẳng định | Đúng/sai | Sửa lại |
-|------------|----------|-----|
-| "Bài toán xếp cầu đã giải xong cho mọi số chiều." | **Sai** | Chỉ một số chiều có lời giải tối ưu chính xác. |
-| "Tính tối ưu của $$E_8$$ chỉ là một con số gần đúng." | **Sai** | Đó là một định lý chính xác. |
+|------------|----------|---------|
+| "Bài toán xếp cầu đã giải xong cho mọi số chiều." | **Sai** | Chỉ biết lời giải tối ưu chính xác ở chiều 1, 2, 3, 8 và 24. |
+| "Tính tối ưu của $$E_8$$ chỉ là một con số gần đúng." | **Sai** | Đó là một định lý giải tích chính xác tuyệt đối. |
 | "Một mình Viazovska chứng minh cho lưới Leech." | **Sai** | Trường hợp 24 chiều là công trình hợp tác CKMRV. |
-| "Tối ưu trong lớp lưới thì tự động tối ưu toàn cục." | **Sai** | Nói chung, một cấu hình không phải lưới có thể tốt hơn; định lý loại trừ điều đó trong 8 và 24 chiều. |
-| "Chỉ là chuyện hệ nghiệm, không có giải tích." | **Sai** | Các điều kiện Fourier là công cụ chính để có chặn trên. |
+| "Tối ưu trong lớp lưới thì tự động tối ưu toàn cục." | **Sai** | Nói chung cấu hình không phải lưới có thể tốt hơn; định lý loại trừ điều đó trong 8 và 24 chiều. |
+| "Chỉ là chuyện hệ nghiệm, không có giải tích." | **Sai** | Giải tích Fourier và dạng modular là công cụ quyết định. |
 
 ---
 
@@ -285,7 +258,7 @@ Danh sách URL đầy đủ (mọi đường dẫn tìm được khi nghiên c�
 - Học nhập môn về dạng modular dành cho người làm giải tích.  
 - So sánh với Maynard và Green–Tao: cấu trúc đặc biệt kết hợp giải tích mạnh.  
 - Ghi lại một câu hỏi cụ thể bạn vẫn còn thắc mắc, ví dụ "vì sao dạng modular tạo ra đúng các không điểm của $$f$$?"  
-- Đọc song song bài [Mirzakhani]({{ site.baseurl }}/contents/vi/chapter02/) về một nữ chủ nhân khác của giải Fields, và bài [Green–Tao]({{ site.baseurl }}/contents/vi/chapter02/) về cấu trúc trong không gian thưa / rời rạc.
+- Đọc song song bài [Mirzakhani]({{ site.baseurl }}/contents/vi/chapter02/02_05_Mirzakhani_Moduli/) về một nữ chủ nhân khác của giải Fields, và bài [Green–Tao]({{ site.baseurl }}/contents/vi/chapter02/02_04_Green_Tao/) về cấu trúc trong không gian thưa / rời rạc.
 
 ## Video tham khảo
 

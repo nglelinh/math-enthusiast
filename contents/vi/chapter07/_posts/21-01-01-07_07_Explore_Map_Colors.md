@@ -18,6 +18,8 @@ Tháng 10 năm 1852, chàng sinh viên trẻ Francis Guthrie ngồi tô màu b�
 
 Phải đến năm 1976, Kenneth Appel và Wolfgang Haken mới chốt hạ **Định lý bốn màu**, nhưng lại theo một cách chưa từng có tiền lệ: họ dùng máy tính kiểm tra hàng nghìn cấu hình, làm bùng nổ cuộc tranh luận triết học kéo dài hàng thập kỷ về việc *"thế nào mới được gọi là một chứng minh?"*. Trong bài thực hành này, bạn sẽ không chạy lại chương trình kiểm tra hàng nghìn trường hợp ấy. Thay vào đó, bạn sẽ **tự vẽ bản đồ, biến nó thành đồ thị đối ngẫu**, tận tay trải nghiệm vì sao 3 màu thất bại, tự tay giải chứng minh 5 màu gọn đẹp, bước sang mặt bánh rán (mặt xuyến) nơi cần tới 7 màu, và tự trả lời cho riêng mình câu hỏi về ranh giới của chứng minh toán học trong kỷ nguyên máy tính.
 
+**Mạch bài học:** Bản đồ kiến thức nền (lý thuyết đồ thị, tô pô bề mặt & chứng minh có máy tính hỗ trợ) → Đồ thị đối ngẫu & Định lý năm màu → Khung giải thích chậm: kiểm tra công thức Euler trên $$K_4, K_5, K_7$$ và chạy tay xích Kempe → Appel–Haken & số Heawood $$H(g)$$ → Thí nghiệm & nhật ký.
+
 ---
 
 ## Mục tiêu học tập
@@ -37,12 +39,19 @@ Sau bài này, bạn cần:
 
 ## Bản đồ kiến thức nền: Lý thuyết đồ thị và Tô pô bề mặt là gì, nghiên cứu những gì?
 
-Đằng sau trò chơi tô màu bản đồ là hai ngành toán học nền tảng cực kỳ quen thuộc với sinh viên đại học ngành toán và khoa học máy tính:
+Đằng sau trò chơi tô màu bản đồ là ba trụ cột toán học cực kỳ quen thuộc với sinh viên đại học ngành toán và khoa học máy tính:
 
-1. **Lý thuyết đồ thị (Graph Theory):** Ngành này tước bỏ mọi chi tiết hình học không cần thiết (độ dài đường biên, hình dáng ngoằn ngoèo của các quốc gia) và chỉ giữ lại duy nhất **quan hệ kết nối**: mỗi nước trở thành một *đỉnh*, hai nước chung đường biên nối với nhau bằng một *cạnh*. Khi đã chuyển sang **đồ thị đối ngẫu**, bài toán tô màu bản đồ biến thành bài toán tìm **sắc số** $$\chi(G)$$ — số màu ít nhất để tô các đỉnh sao cho hai đỉnh kề nhau luôn khác màu. Không chỉ dùng để tô bản đồ, tô màu đồ thị là mô hình trực tiếp cho bài toán **xếp lịch thi** (hai môn có chung sinh viên không thể thi cùng ca), **cấp phát thanh ghi trong trình biên dịch** (hai biến sống cùng lúc không thể dùng chung thanh ghi CPU), và **phân bổ tần số trạm phát sóng di động** để tránh nhiễu.
-2. **Tô pô bề mặt (Surface Topology):** Tại sao trên mặt phẳng (hoặc mặt cầu) chỉ cần 4 màu, nhưng nếu vẽ bản đồ lên bề mặt một chiếc bánh rán (mặt xuyến — torus) thì có thể cần tới **7 màu**? Tô pô học nghiên cứu những bất biến không đổi khi ta co giãn, uốn cong bề mặt mà không xé rách. Bất biến quyết định ở đây là **giống (genus)** $$g$$ — số "lỗ thủng" của bề mặt — liên hệ trực tiếp với **đặc trưng Euler** $$\chi = v - e + f = 2 - 2g$$. Với mặt cầu ($$g=0$$), $$\chi = 2$$ nên mọi đồ thị phẳng đều đủ "thưa" ($$e \le 3v-6$$) để tồn tại đỉnh bậc $$\le 5$$. Nhưng trên mặt xuyến ($$g=1$$), $$\chi = 0$$ khiến đồ thị dày hơn ($$e \le 3v$$), cho phép vẽ trọn đồ thị đầy đủ $$K_7$$ (7 nước đôi một giáp nhau) mà không có cạnh nào cắt nhau!
+### 1. Lý thuyết đồ thị (Graph Theory)
 
-Ví dụ nhỏ để thấy trực giác ngay lập tức: hãy tưởng tượng một vòng tròn gồm 3 nước $$A, B, C$$ ôm quanh một nước $$D$$ ở giữa — đó chính là đồ thị đầy đủ $$K_4$$. Ba nước ngoài tạo thành một tam giác nên đã ngốn hết 3 màu (đỏ, xanh, vàng); nước $$D$$ ở tâm chạm cả ba nên buộc phải dùng màu thứ tư! Vậy $$\chi \ge 4$$ ngay cả trên bản đồ chỉ có 4 vùng.
+Ngành này tước bỏ mọi chi tiết hình học không cần thiết (độ dài đường biên, hình dáng ngoằn ngoèo của các quốc gia) và chỉ giữ lại duy nhất **quan hệ kết nối**: mỗi nước trở thành một *đỉnh*, hai nước chung đường biên nối với nhau bằng một *cạnh*. Khi đã chuyển sang **đồ thị đối ngẫu**, bài toán tô màu bản đồ biến thành bài toán tìm **sắc số** $$\chi(G)$$ — số màu ít nhất để tô các đỉnh sao cho hai đỉnh kề nhau luôn khác màu. Trong công nghiệp, tô màu đồ thị là mô hình trực tiếp cho **xếp lịch thi** (hai môn có chung sinh viên không thể thi cùng ca), **cấp phát thanh ghi trong trình biên dịch** (hai biến sống cùng lúc không thể dùng chung thanh ghi CPU), và **phân bổ tần số trạm phát sóng di động** để tránh nhiễu.
+
+### 2. Tô pô bề mặt (Surface Topology) và Giống $$g$$
+
+Tại sao trên mặt phẳng (hoặc mặt cầu) chỉ cần 4 màu, nhưng vẽ lên bề mặt một chiếc bánh rán (mặt xuyến — torus) lại cần tới **7 màu**? Tô pô học nghiên cứu những bất biến không đổi khi ta co giãn, uốn cong bề mặt mà không xé rách. Bất biến quyết định ở đây là **giống (genus)** $$g$$ — số "lỗ thủng" của bề mặt — liên hệ trực tiếp với **đặc trưng Euler** $$\chi = v - e + f = 2 - 2g$$. Khi $$g$$ tăng lên, các cạnh có thể "chui qua lỗ" để nối nhau mà không cắt nhau, cho phép nhúng những đồ thị đầy đủ lớn hơn (như $$K_7$$ trên mặt xuyến).
+
+### 3. Chứng minh có máy tính hỗ trợ và Kiểm chứng hình thức
+
+Định lý bốn màu đánh dấu bước ngoặt lịch sử của khoa học: lần đầu tiên một định lý lớn đòi hỏi máy tính kiểm tra hàng trăm đến hàng nghìn cấu hình. Ngày nay, với các trợ lý chứng minh hình thức như **Coq** hay **Lean** (Georges Gonthier đã hình thức hóa hoàn toàn 4CT bằng Coq năm 2005), toán học đạt tới chuẩn mực mới: một nhân kiểm chứng nhỏ gọn có thể xác thực từng suy luận logic ở mức tuyệt đối.
 
 ---
 
@@ -58,9 +67,24 @@ Ta dựng **đồ thị đối ngẫu** $$G$$: mỗi nước là một đỉnh; 
 
 ### 1.2 Vì sao năm màu dễ hơn
 
-Với đồ thị phẳng đơn, liên thông, từ công thức Euler kết hợp với bất đẳng thức $$2e\ge 3f$$ (mỗi mặt có ít nhất 3 cạnh, mỗi cạnh giáp nhiều nhất 2 mặt), ta suy ra $$e\le 3v-6$$ khi $$v\ge 3$$. Do đó bậc trung bình $$2e/v<6$$, nên luôn có ít nhất một đỉnh $$v$$ với $$\deg(v)\le 5$$. **Định lý năm màu** được chứng minh bằng quy nạp theo số đỉnh $$v$$: bỏ một đỉnh bậc thấp, tô phần còn lại bằng năm màu, và nếu 5 đỉnh kề với đỉnh đã bỏ dùng đủ cả năm màu (giả sử theo chiều kim đồng hồ là Đỏ–Xanh–Vàng–Lục–Tím) thì dùng **xích Kempe** (ví dụ xét thành phần liên thông gồm các đỉnh Đỏ–Vàng): nếu đỉnh Đỏ và đỉnh Vàng không nối nhau bởi đường đi Đỏ–Vàng, ta đổi màu Đỏ↔Vàng trên nhánh chứa đỉnh Đỏ để giải phóng màu Đỏ; còn nếu chúng có nối nhau, đường đi đó tạo thành một vòng kín tách rời đỉnh Xanh khỏi đỉnh Lục nhờ tính phẳng, nên ta chắc chắn đổi được màu Xanh↔Lục để giải phóng màu Xanh! Lập luận này hoàn toàn đọc hiểu được bằng tay và có mặt trong mọi giáo trình lý thuyết đồ thị.
+Với đồ thị phẳng đơn, liên thông, từ công thức Euler kết hợp với bất đẳng thức $$2e\ge 3f$$ (mỗi mặt có ít nhất 3 cạnh, mỗi cạnh giáp nhiều nhất 2 mặt), ta suy ra $$e\le 3v-6$$ khi $$v\ge 3$$. Do đó bậc trung bình $$2e/v<6$$, nên luôn có ít nhất một đỉnh $$v$$ với $$\deg(v)\le 5$$.
 
-Năm 1879, Kempe đưa ra một chứng minh cho **bốn** màu bằng cách dùng *hai* xích Kempe cùng lúc, nhưng có lỗ hổng (Heawood chỉ ra năm 1890): hai xích Kempe có thể đan xen và phá hỏng lẫn nhau khi thực hiện đổi màu đồng thời. Lỗ hổng này rất tinh vi, đáng để đọc chậm một lần ở chương 1. Bài học ở đây là: một ý tưởng quy nạp đẹp có thể *gần* đúng nhưng vẫn sai ở một trường hợp tô lại màu. Đó là lý do việc phân tích trường hợp bằng máy tính sau này xuất hiện trong câu chuyện bốn màu chứ không cần cho năm màu.
+#### Khung giải thích: Cầm tay kiểm tra chặn Euler trên $$K_4, K_5, K_7$$ và chạy từng bước xích Kempe (nên đọc chậm)
+
+Hãy tự kiểm tra hai phép tính ngắn gọn làm nền cho toàn bộ chương này:
+
+**Ví dụ 1 — Kiểm tra công thức Euler trên $$K_4$$, $$K_5$$ (mặt phẳng) và $$K_7$$ (mặt xuyến):**
+- **Đồ thị $$K_4$$ (4 nước đôi một giáp nhau):** $$v = 4$$, $$e = \binom{4}{2} = 6$$. Kiểm tra chặn phẳng: $$3v - 6 = 3(4) - 6 = 6 \ge e$$ → **thỏa mãn!** Thực tế, 3 nước $$A, B, C$$ xếp thành vòng tròn ôm lấy nước $$D$$ ở giữa cho ta đúng $$f = 4$$ mặt, và $$v - e + f = 4 - 6 + 4 = 2$$. Vì 4 đỉnh đôi một nối nhau, ta bắt buộc dùng đủ **4 màu**.
+- **Đồ thị $$K_5$$ trên mặt phẳng:** $$v = 5$$, $$e = \binom{5}{2} = 10$$. Nhưng chặn phẳng chỉ cho phép tối đa $$3v - 6 = 3(5) - 6 = 9 < 10$$ cạnh! Vậy **không thể vẽ $$K_5$$ phẳng** (không có bản đồ phẳng nào gồm 5 nước đôi một giáp nhau).
+- **Đồ thị $$K_7$$ trên mặt xuyến ($$g = 1$$):** Trên mặt xuyến, $$v - e + f = 2 - 2(1) = 0$$. Kết hợp $$2e \ge 3f \implies f \le \frac{2}{3}e$$, ta được $$e - v = f \le \frac{2}{3}e \implies \mathbf{e \le 3v}$$. Với $$K_7$$: $$v = 7$$, $$e = \binom{7}{2} = 21 = 3 \times 7$$ — **vừa khít dấu bằng!** Vì thế $$K_7$$ nhúng được hoàn hảo lên mặt bánh rán và đòi hỏi đúng **7 màu**!
+
+**Ví dụ 2 — Chạy từng bước xích Kempe trong chứng minh Định lý năm màu:**
+Giả sử mọi đồ thị phẳng có $$v-1$$ đỉnh đều tô được bằng 5 màu. Chọn đỉnh $$x$$ có bậc $$\le 5$$, tạm xóa $$x$$ và tô phần còn lại bằng 5 màu. Nếu 5 láng giềng xung quanh $$x$$ (theo chiều kim đồng hồ) mang đủ 5 màu khác nhau là $$u_1(\text{Đỏ}), u_2(\text{Xanh}), u_3(\text{Vàng}), u_4(\text{Lục}), u_5(\text{Tím})$$, ta làm đúng 2 bước:
+1. Xét tập hợp tất cả các đỉnh đi được từ $$u_1(\text{Đỏ})$$ chỉ bằng cách bước qua các đỉnh mang màu **Đỏ hoặc Vàng** (gọi là **xích Kempe Đỏ–Vàng**).
+2. **Trường hợp 1:** Xích này *không* chạm tới $$u_3(\text{Vàng})$$. Ta chỉ việc **đảo màu Đỏ ↔ Vàng** cho mọi đỉnh trong xích này! Khi đó $$u_1$$ biến thành Vàng, còn $$u_3$$ vẫn là Vàng → màu **Đỏ được giải phóng**, tô ngay cho $$x$$!
+3. **Trường hợp 2:** Xích này *có* nối từ $$u_1$$ tới $$u_3$$. Đường đi Đỏ–Vàng đó nối với đỉnh $$x$$ tạo thành một **vòng khép kín** trên mặt phẳng. Theo Định lý đường cong Jordan, vòng kín này nhốt $$u_2(\text{Xanh})$$ ở một bên và $$u_4(\text{Lục})$$ ở bên kia! Do đó xích Kempe **Xanh–Lục** xuất phát từ $$u_2$$ *tuyệt đối không thể vượt tường Đỏ–Vàng* để chạm tới $$u_4$$! Ta đảo màu **Xanh ↔ Lục** trên nhánh của $$u_2$$ → giải phóng màu **Xanh** cho $$x$$!
+
+Năm 1879, Kempe thử dùng **hai** xích Kempe cùng lúc để giảm xuống **4 màu**, nhưng Heawood (1890) chỉ ra rằng hai xích đó có thể cắt ngang và làm hỏng lẫn nhau khi đổi màu đồng thời. Lỗ hổng tinh vi ấy đã khiến bài toán bốn màu kéo dài thêm gần một thế kỷ.
 
 ### 1.3 Appel và Haken đã làm gì
 

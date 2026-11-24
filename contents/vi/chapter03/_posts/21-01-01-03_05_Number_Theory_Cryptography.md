@@ -105,12 +105,35 @@ Với số mũ $$e$$ có 2.048 bit, phương pháp này chỉ cần khoảng $$O
 5. Mã hóa thông điệp (đã đổi thành số $$m < n$$): $$c\equiv m^e\pmod n$$.  
 6. Giải mã: $$m\equiv c^d\pmod n$$.
 
-**Ví dụ số trọn vẹn (RSA thu nhỏ để hiểu cơ chế).**
-- Chọn $$p = 11,\ q = 13 \implies n = 143$$ và $$\varphi(n) = 10 \times 12 = 120$$.
-- Chọn khóa công khai $$e = 7$$ (vì $$\gcd(7,120)=1$$). Tìm $$d$$ sao cho $$7d \equiv 1 \pmod{120}$$ → được $$d = 103$$ (kiểm tra: $$7 \times 103 = 721 = 6 \times 120 + 1$$).
-- Công bố cặp $$(n, e) = (143, 7)$$; cất kỹ $$d = 103$$ (và hủy $$p, q, \varphi(n)$$).
-- **Mã hóa** thông điệp $$m = 9$$: tính $$c = 9^7 \bmod 143 = 48$$. Gửi số $$48$$ qua mạng.
-- **Giải mã:** tính $$48^{103} \bmod 143$$. Nhờ định lý Euler, $$48^{103} \equiv (9^7)^{103} = 9^{721} = (9^{120})^6 \cdot 9^1 \equiv 1^6 \cdot 9 = 9 \pmod{143}$$ — thu lại đúng bản gốc $$m=9$$!
+### Ví dụ cầm tay chỉ việc: Tự chạy trọn vẹn RSA từ sinh khóa đến giải mã
+
+Ta chọn hai số nguyên tố nhỏ $$p = 11,\ q = 13$$ để tính tay từng bước mà không bỏ qua phép chia dư nào:
+
+1. **Sinh khóa công khai:** tính $$n = 11 \times 13 = 143$$ và $$\varphi(n) = (11-1)(13-1) = 120$$. Chọn $$e = 7$$ (vì $$\gcd(7,120)=1$$).
+2. **Tìm khóa bí mật $$d$$ bằng Euclid mở rộng:** cần $$7d \equiv 1 \pmod{120}$$. Chia $$120$$ cho $$7$$:
+$$
+120 = 17 \times 7 + 1 \implies 1 = 120 - 17 \times 7 \implies (-17)\cdot 7 \equiv 1 \pmod{120}.
+$$
+Cộng thêm $$120$$ để lấy số dương: $$d = -17 + 120 = 103$$ (kiểm tra: $$7 \times 103 = 721 = 6 \times 120 + 1$$). Công bố $$(n,e) = (143, 7)$$; cất kỹ $$d = 103$$ và hủy $$p, q, \varphi(n)$$.
+3. **Mã hóa thông điệp $$m = 9$$ bằng bình phương liên tiếp ($$7 = 4+2+1$$):**
+   - $$9^1 \equiv 9$$, $$9^2 = 81$$,
+   - $$9^4 = 81^2 = 6{.}561 = 45 \times 143 + 126 \equiv -17 \pmod{143}$$,
+   - $$9^7 = 9^4 \cdot 9^2 \cdot 9^1 \equiv (-17) \cdot (81 \cdot 9) = (-17) \cdot 729$$. Vì $$729 = 5 \times 143 + 14$$, ta có $$(-17)\cdot 14 = -238 = -2 \times 143 + 48 \equiv 48 \pmod{143}$$.
+   - Bản mã gửi đi trên mạng là $$c = 48$$.
+4. **Giải mã:** tính $$c^d = 48^{103} \bmod 143$$. Nhờ định lý Euler ($$9^{120} \equiv 1 \pmod{143}$$):
+$$
+48^{103} \equiv (9^7)^{103} = 9^{721} = \bigl(9^{120}\bigr)^6 \cdot 9^1 \equiv 1^6 \cdot 9 = 9 \pmod{143}.
+$$
+Đúng y hệt thông điệp gốc $$m = 9$$!
+
+### Khung giải thích: Vì sao hai người lạ mặt có thể trao đổi bí mật giữa chốn đông người? (nên đọc chậm)
+
+1. **Tạo sự bất đối xứng nhờ cấu trúc số học:** nhân hai số nguyên tố 1.024 bit ra tích $$n$$ chỉ mất chưa đầy 1 phần nghìn giây, nhưng tách ngược $$n$$ về $$p,q$$ đòi hỏi thời gian vượt tuổi vũ trụ trên máy tính cổ điển.
+2. **Dùng bí mật cửa sập để tính nghịch đảo số mũ:** chỉ người biết $$p,q$$ mới tính được $$\varphi(n)=(p-1)(q-1)$$, từ đó dùng thuật toán Euclid mở rộng tìm khóa giải mã $$d$$.
+3. **Công bố chiều xuôi, giấu chiều ngược:** mọi người đều có thể tính $$m^e \bmod n$$ bằng bình phương liên tiếp ($$O(\log e)$$), nhưng không có $$d$$ thì không đảo ngược được phép lũy thừa modulo.
+4. **Ghép với mã hóa đối xứng và phần đệm trong thực tế:** RSA/ECC chỉ dùng để thiết lập khóa phiên 256-bit (kèm phần đệm ngẫu nhiên OAEP/PSS), rồi giao toàn bộ dữ liệu lớn cho AES-GCM chạy tốc độ cao.
+
+**Kiểm tra nhanh.** Thuật toán RSA không hề bí mật; độ an toàn của nó đến từ **độ khó tính toán** của bài toán phân tích thừa số (kết hợp cài đặt phần đệm đúng cách), không phải từ việc giấu công thức.
 
 **Tóm tắt trong một câu.**  
 *Mã hóa là lũy thừa theo modulo với số mũ công khai; giải mã cần số mũ nghịch đảo, và số mũ này dễ tìm nếu biết $$\varphi(n)$$ (tức là biết $$p,q$$), nhưng được tin là bất khả thi nếu chỉ biết tích $$n$$.*

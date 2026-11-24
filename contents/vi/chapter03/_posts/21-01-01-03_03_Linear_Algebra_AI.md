@@ -90,6 +90,15 @@ $$
 
 Về mặt phần cứng, quá trình suy luận chỉ là chuỗi phép nhân ma trận xen kẽ các phép phi tuyến cực rẻ, khớp hoàn hảo với kiến trúc song song của GPU và TPU. Vì vậy, "cuộc chạy đua chip AI" về bản chất chính là cuộc chạy đua phần cứng cho phép nhân ma trận.
 
+### Khung giải thích: Vì sao nhân ma trận + ReLU lại tạo ra khả năng phân loại phức tạp? (nên đọc chậm)
+
+1. **Nhúng dữ liệu vào không gian vectơ:** ảnh, âm thanh hay câu chữ được chuyển thành các điểm $$x \in \mathbb{R}^d$$; lúc đầu hai lớp dữ liệu (ví dụ ảnh mèo và ảnh chó) xoắn chặt vào nhau nên không có mặt phẳng nào cắt tách chúng ra được.
+2. **Biến đổi affine + gấp không gian từng lớp:** mỗi lớp $$h^{(\ell+1)} = \mathrm{ReLU}(W^{(\ell)}h^{(\ell)}+b^{(\ell)})$$ xoay, kéo giãn rồi gấp nhẹ không gian dữ liệu. Qua $$L$$ lớp, số mảnh gấp tuyến tính tăng theo cấp số mũ theo độ sâu $$L$$.
+3. **Tách phẳng ở lớp cuối cùng:** mục tiêu của toàn bộ các lớp ẩn chỉ là *gỡ rối* đám mây dữ liệu sao cho đến lớp cuối cùng, mèo nằm hẳn một bên và chó nằm hẳn bên kia của một siêu phẳng $$w^\top h + b = 0$$.
+4. **Cập nhật ma trận bằng đạo hàm:** sai số dự đoán được truyền ngược về từng phần tử của ma trận $$W^{(\ell)}$$ nhờ quy tắc dây chuyền để tinh chỉnh góc xoay và nếp gấp tốt hơn sau mỗi lô dữ liệu.
+
+**Kiểm tra nhanh.** Một mạng sâu không "học luật bằng chữ"; nó đang học một **chuỗi phép biến dạng hình học** trong không gian nhiều chiều sao cho dữ liệu trở nên tách tuyến tính được ở đầu ra.
+
 ---
 
 ## 3. Độ sâu và biểu diễn
@@ -137,7 +146,7 @@ $$
 
 Vì $$L$$ là hàm hợp của các phép nhân ma trận và các hàm phi tuyến đơn giản, **quy tắc dây chuyền (chain rule)** cho phép tính đạo hàm ngược từ lớp cuối về lớp đầu — đó chính là **lan truyền ngược (backpropagation)**.
 
-**Ví dụ số siêu gọn (mạng 2 lớp 1 chiều).** Giả sử mạng có dạng $$y = w_2 \cdot \mathrm{ReLU}(w_1 x)$$ với đầu vào $$x=2$$, nhãn đúng $$y^*=10$$, trọng số khởi tạo $$w_1=1, w_2=3$$, và sai số $$L = \frac{1}{2}(y - y^*)^2$$:
+**Ví dụ cầm tay chỉ việc 1 (Lan truyền ngược trên mạng 2 lớp).** Giả sử mạng có dạng $$y = w_2 \cdot \mathrm{ReLU}(w_1 x)$$ với đầu vào $$x=2$$, nhãn đúng $$y^*=10$$, trọng số khởi tạo $$w_1=1, w_2=3$$, và sai số $$L = \frac{1}{2}(y - y^*)^2$$:
 - **Lượt đi xuôi (forward):** $$h = \mathrm{ReLU}(1\cdot 2)=2$$, dự đoán $$y = 3\cdot 2 = 6$$, mất mát $$L = \frac{1}{2}(6-10)^2 = 8$$.
 - **Lượt đi ngược (backward):** $$\frac{\partial L}{\partial y} = y - y^* = -4$$. Theo quy tắc dây chuyền:
   - $$\frac{\partial L}{\partial w_2} = \frac{\partial L}{\partial y}\cdot h = (-4)\cdot 2 = -8$$.
@@ -167,7 +176,33 @@ $$
 
 trong đó $$Q=XW_Q, K=XW_K, V=XW_V$$ là ba phép chiếu tuyến tính của chuỗi đầu vào.
 
-**Trực giác từng bước của Attention.** Hãy tưởng tượng câu *"Con mèo không ăn cá vì nó đã no"*. Để hiểu chữ *"nó"* chỉ *"con mèo"* chứ không phải *"cá"*, mỗi từ phát ra một câu hỏi (Query $$q_i$$) và một nhãn mô tả (Key $$k_j$$). Tích vô hướng $$q_i^\top k_j$$ đo độ ăn khớp giữa từ $$i$$ và từ $$j$$; chia cho $$\sqrt{d}$$ giữ cho phương sai không bị phình to khi số chiều $$d$$ lớn (tránh làm softmax bão hòa về 0 và 1 khiến gradient chết cứng); rồi softmax biến điểm số thành trọng số trộn dương có tổng bằng 1 để lấy trung bình có trọng số các vectơ nội dung (Value $$V$$). Toàn bộ cơ chế đột phá này vẫn chỉ là **ba phép chiếu tuyến tính, hai phép nhân ma trận và một hàm softmax**.
+### Ví dụ cầm tay chỉ việc 2: Tự tay tính một phép Self-Attention với ma trận $$2\times 2$$
+
+Giả sử câu chỉ có 2 từ (2 hàng) với số chiều $$d = 2$$, và sau khi chiếu tuyến tính ta thu được ba ma trận:
+
+$$
+Q = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}, \qquad
+K = \begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}, \qquad
+V = \begin{pmatrix} 10 & 0 \\ 0 & 20 \end{pmatrix}.
+$$
+
+1. **Tính ma trận điểm ăn khớp $$QK^\top$$:**
+$$
+QK^\top = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}.
+$$
+2. **Chia cho $$\sqrt{d} = \sqrt{2} \approx 1{,}414$$** (giữ phương sai ổn định để softmax không bị bão hòa):
+$$
+\frac{QK^\top}{\sqrt{2}} \approx \begin{pmatrix} 0{,}71 & 0{,}71 \\ 0 & 0{,}71 \end{pmatrix}.
+$$
+3. **Áp $$\mathrm{softmax}$$ lên từng hàng** (dùng $$e^{0{,}71}\approx 2{,}03,\ e^0 = 1$$):
+   - Hàng 1: $$\left(\frac{2{,}03}{2{,}03+2{,}03},\ \frac{2{,}03}{2{,}03+2{,}03}\right) = (0{,}50,\ 0{,}50)$$.
+   - Hàng 2: $$\left(\frac{1}{1+2{,}03},\ \frac{2{,}03}{1+2{,}03}\right) \approx (0{,}33,\ 0{,}67)$$.
+4. **Nhân ma trận trọng số với $$V$$ để trộn thông tin:**
+$$
+\mathrm{Attention}(Q,K,V) \approx \begin{pmatrix} 0{,}50 & 0{,}50 \\ 0{,}33 & 0{,}67 \end{pmatrix}\begin{pmatrix} 10 & 0 \\ 0 & 20 \end{pmatrix} = \begin{pmatrix} 5{,}0 & 10{,}0 \\ 3{,}3 & 13{,}4 \end{pmatrix}.
+$$
+
+Nhìn kết quả ta thấy ngay cơ chế: token 1 chia đều sự chú ý 50%–50% cho cả hai từ, còn token 2 chú ý 67% vào nội dung của chính nó và chỉ lấy 33% từ token 1. Toàn bộ đột phá Transformer vẫn chỉ là **ba phép chiếu tuyến tính, hai phép nhân ma trận và một hàm softmax**.
 
 **Cấu trúc thưa và đồ thị.** Mạng nơ-ron đồ thị (GNN) thay ma trận $$W$$ dày đặc bằng việc truyền thông điệp dọc theo các cạnh của đồ thị (tương đương nhân với ma trận kề chuẩn hóa). Đó là cầu nối trực tiếp sang [lý thuyết đồ thị]({{ site.baseurl }}/contents/vi/chapter03/03_06_Graph_Theory_Networks/).
 

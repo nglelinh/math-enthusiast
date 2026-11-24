@@ -13,7 +13,7 @@ Hơn hai nghìn năm trăm năm trước, trường phái Pythagore ở Hy Lạp
 
 Tương truyền rằng khi Hippasus xứ Metapontum chứng minh được $$\sqrt{2}$$ không thể viết thành tỷ số của hai số nguyên nào, phát hiện "phi lý" (*alogon*) ấy đã gây ra cuộc khủng hoảng nền tảng đầu tiên của lịch sử toán học. Đến tận hôm nay, lập luận ấy vẫn là một trong những chứng minh nhập môn đẹp nhất từng được viết ra: chỉ vài dòng số học sơ cấp dựa trên **tính chẵn lẻ** đã đủ đánh sập hoàn toàn giả thiết "$$\sqrt{2}$$ là số hữu tỷ".
 
-Bài này đi sâu vào bộ khung của lập luận cổ điển đó, đặt nó cạnh phương pháp xuống thang vô hạn và phân tích thừa số nguyên tố, để bạn không chỉ thuộc ba dòng đại số mà còn hiểu vì sao phát hiện này buộc toán học phải mở rộng toàn bộ khái niệm về con số.
+**Mạch bài học:** Bản đồ kiến thức nền (tháp hệ thống số, định giá $$p$$-adic, xuống thang vô hạn) → Nghịch lý cây thước chung và dãy xấp xỉ Pell → Chứng minh cổ điển bằng tính chẵn lẻ → Khung giải thích chậm: tự tay kiểm tra ba cách chứng minh (đại số, định giá $$v_2$$, và xuống thang bằng hai hình vuông) → Mở rộng cho $$\sqrt{p}$$ và bài học về mở rộng hệ thống số.
 
 ---
 
@@ -32,32 +32,37 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Hệ thống số, lý thuyết chia hết và phương pháp xuống thang là gì?
+## Bản đồ kiến thức nền: Hệ thống số, Định giá $$p$$-adic và Phương pháp xuống thang là gì?
 
-Để nhìn ra tầm vóc của chứng minh tưởng như "dễ" này, hãy đặt nó lên bản đồ phát triển của **Lý thuyết số** và **Đại số**:
+Để người tốt nghiệp đại học thấy tầm vóc thực sự của bài toán tưởng như "sơ cấp" này, hãy đặt nó lên ba trụ cột của **Lý thuyết số** và **Đại số**:
 
-- **Tháp mở rộng các hệ thống số:** Mỗi khi một phép toán tự nhiên chạm trần, toán học lại mở rộng vũ trụ số: số tự nhiên $$\mathbb{N}$$ không đủ để trừ sinh ra số nguyên $$\mathbb{Z}$$; số nguyên không đủ để chia sinh ra số hữu tỷ $$\mathbb{Q}$$; số hữu tỷ vẫn còn "lỗ hổng" (như đường chéo $$\sqrt{2}$$) sinh ra số thực $$\mathbb{R}$$; và phương trình $$x^2 + 1 = 0$$ sinh ra số phức $$\mathbb{C}$$.
-- **Số vô tỷ đại số so với số siêu việt:** Trong thế giới số vô tỷ, $$\sqrt{2}$$ là một **số đại số** vì nó là nghiệm của đa thức hệ số nguyên đơn giản $$x^2 - 2 = 0$$. Ngược lại, $$\pi$$ và $$e$$ là **số siêu việt** — không là nghiệm của bất kỳ đa thức hệ số nguyên nào, và chứng minh tính vô tỷ hay siêu việt của chúng khó hơn $$\sqrt{2}$$ gấp nhiều lần.
-- **Tính chia hết và xuống thang vô hạn:** Vũ khí thực sự của chứng minh không phải là phép xấp xỉ thập phân, mà là **tính nguyên tử của số nguyên tố** (số mũ của $$2$$ trong phân tích thừa số, hay định giá $$2$$-adic $$v_2$$) kết hợp với **Nguyên lý sắp thứ tự tốt** của số tự nhiên: *không thể có một dãy số nguyên dương giảm ngặt mãi mãi*. Đó chính là gốc rễ của phương pháp xuống thang vô hạn mà Fermat sẽ dùng hàng nghìn năm sau.
+### 1. Kiến trúc mở rộng các hệ thống số ($$\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R} \subset \mathbb{C}$$)
+Mỗi khi một phép toán tự nhiên chạm trần, toán học lại mở rộng vũ trụ số: số tự nhiên $$\mathbb{N}$$ không đủ để trừ sinh ra số nguyên $$\mathbb{Z}$$; số nguyên không đủ để chia sinh ra số hữu tỷ $$\mathbb{Q}$$; số hữu tỷ vẫn còn vô số "lỗ hổng" (như đường chéo $$\sqrt{2}$$) sinh ra số thực $$\mathbb{R}$$; và phương trình $$x^2 + 1 = 0$$ sinh ra số phức $$\mathbb{C}$$. Trong thế giới số vô tỷ, $$\sqrt{2}$$ là **số đại số** (nghiệm của đa thức $$x^2 - 2 = 0$$), khác với **số siêu việt** như $$\pi$$ hay $$e$$ (không là nghiệm của bất kỳ đa thức hệ số nguyên nào).
+
+### 2. Lý thuyết chia hết và định giá $$p$$-adic ($$v_p$$)
+Trong lý thuyết số hiện đại, thay vì chỉ nói "chẵn hay lẻ", ta đếm **số mũ cao nhất của số nguyên tố $$p$$** chia hết một số nguyên $$n$$ — gọi là **định giá $$p$$-adic** $$v_p(n)$$. Ví dụ $$v_2(12) = v_2(2^2 \cdot 3) = 2$$, $$v_2(24) = v_2(2^3 \cdot 3) = 3$$. Tính chất đẹp nhất của $$v_p$$ là $$v_p(ab) = v_p(a) + v_p(b)$$, nên $$v_p(a^2) = 2v_p(a)$$ **luôn là số chẵn**! Chỉ riêng nhận xét một dòng này lập tức đánh bại phương trình $$p^2 = 2q^2$$.
+
+### 3. Nguyên lý sắp thứ tự tốt và Phương pháp xuống thang vô hạn
+Tập số nguyên dương $$\mathbb{N}^*$$ có một "sàn cứng" ở $$1$$: **không thể có một dãy số nguyên dương giảm ngặt vô hạn** $$a_1 > a_2 > a_3 > \cdots > 0$$. Phương pháp **xuống thang vô hạn** (sau này được Pierre de Fermat hoàn thiện cho $$a^4 + b^4 = c^4$$) khai thác đúng sàn cứng này: nếu từ một nghiệm nguyên dương ta luôn dựng được một nghiệm nguyên dương *nhỏ hơn thực sự*, thì nghiệm ban đầu không thể tồn tại.
 
 ---
 
 ## 1. Từ nghịch lý "cây thước chia nhỏ mãi vẫn không vừa" đến định lý
 
-Trong đời sống và kỹ thuật, ta luôn có cảm giác rằng chỉ cần chia nhỏ vạch thước thêm nữa — từ milimet xuống micromet rồi nanomet — thì sớm muộn gì cũng có một đơn vị siêu nhỏ đo **vừa khít** cả cạnh lẫn đường chéo của hình vuông. Hãy thử kiểm tra bằng những phân số xấp xỉ cực tốt của $$\sqrt{2} \approx 1.41421356\ldots$$:
+Trong đời sống và kỹ thuật, ta luôn có cảm giác rằng chỉ cần chia nhỏ vạch thước thêm nữa — từ milimet xuống micromet rồi nanomet — thì sớm muộn gì cũng có một đơn vị siêu nhỏ đo **vừa khít** cả cạnh lẫn đường chéo của hình vuông. Hãy thử kiểm tra bằng **dãy xấp xỉ Pell** sinh bởi quy tắc $$p_{n+1} = p_n + 2q_n,\ q_{n+1} = p_n + q_n$$ (bắt đầu từ $$p_1 = 1, q_1 = 1$$):
 
-| Phân số thử $$p/q$$ | Giá trị thập phân | $$p^2$$ | $$2q^2$$ | Sai lệch $$p^2 - 2q^2$$ |
-|---------------------|-------------------|---------|----------|-------------------------|
-| $$7/5$$ | $$1.40000$$ | $$49$$ | $$50$$ | $$-1$$ |
-| $$17/12$$ | $$1.41667$$ | $$289$$ | $$288$$ | $$+1$$ |
-| $$41/29$$ | $$1.41379$$ | $$1681$$ | $$1682$$ | $$-1$$ |
-| $$99/70$$ | $$1.41429$$ | $$9801$$ | $$9800$$ | $$+1$$ |
+| Bước $$n$$ | Phân số $$p_n/q_n$$ | Giá trị thập phân | $$p_n^2$$ | $$2q_n^2$$ | Sai lệch $$p_n^2 - 2q_n^2$$ |
+|------------|---------------------|-------------------|-----------|------------|-----------------------------|
+| $$1$$ | $$1/1$$ | $$1.00000$$ | $$1$$ | $$2$$ | $$-1$$ |
+| $$2$$ | $$3/2$$ | $$1.50000$$ | $$9$$ | $$8$$ | $$+1$$ |
+| $$3$$ | $$7/5$$ | $$1.40000$$ | $$49$$ | $$50$$ | $$-1$$ |
+| $$4$$ | $$17/12$$ | $$1.41667$$ | $$289$$ | $$288$$ | $$+1$$ |
+| $$5$$ | $$41/29$$ | $$1.41379$$ | $$1681$$ | $$1682$$ | $$-1$$ |
+| $$6$$ | $$99/70$$ | $$1.41429$$ | $$9801$$ | $$9800$$ | $$+1$$ |
 
-Thật kỳ lạ: ta có thể tiến sát $$\sqrt{2}$$ đến mức sai số nhỏ hơn một phần triệu, nhưng phương trình nguyên $$p^2 = 2q^2$$ thì **luôn luôn lệch ít nhất $$1$$ đơn vị**!
+Thật kỳ lạ: ta có thể tiến sát $$\sqrt{2} \approx 1.41421356\ldots$$ đến bất kỳ độ chính xác nào, nhưng phương trình nguyên $$p^2 = 2q^2$$ thì **luôn luôn lệch ít nhất $$1$$ đơn vị**!
 
-Hai độ dài được gọi là **thông ước** nếu có một đơn vị chung sao cho mỗi độ dài bằng một số nguyên lần đơn vị đó; điều này tương đương với tỷ số của chúng là số hữu tỷ. Đường chéo của hình vuông cạnh 1 dài $$\sqrt{2}$$. Nếu $$\sqrt{2}$$ hữu tỷ thì cạnh và đường chéo thông ước. Chứng minh tính vô tỷ cho thấy điều ngược lại: không có cây thước chung nào — dù tinh vi đến cỡ nguyên tử — đo được cả hai một số nguyên lần.
-
-Toán học Hy Lạp không dùng khái niệm số thực như ngày nay; phát hiện này thường được diễn đạt bằng các đại lượng không thông ước. Cách viết hiện đại dùng số nguyên và bình phương vì đó là cách trình bày đại số gọn nhất của cùng ý tưởng.
+Hai độ dài được gọi là **thông ước** nếu có một đơn vị chung sao cho mỗi độ dài bằng một số nguyên lần đơn vị đó; điều này tương đương với tỷ số của chúng là số hữu tỷ. Chứng minh tính vô tỷ cho thấy không có cây thước chung nào — dù tinh vi đến cỡ nguyên tử — đo được cả cạnh và đường chéo hình vuông một số nguyên lần.
 
 ---
 
@@ -87,34 +92,15 @@ $$
 (2k)^2=2q^2 \implies 4k^2=2q^2 \implies q^2=2k^2.
 $$
 
-Vậy $$q^2$$ chẵn, nên $$q$$ chẵn. Như thế 2 chia hết cả $$p$$ lẫn $$q$$, mâu thuẫn với $$\gcd(p,q)=1$$.
-
-Do đó không có biểu diễn tối giản nào, nghĩa là $$\sqrt{2}$$ vô tỷ.
+Vậy $$q^2$$ chẵn, nên $$q$$ chẵn. Như thế 2 chia hết cả $$p$$ lẫn $$q$$, mâu thuẫn với $$\gcd(p,q)=1$$. Do đó không có biểu diễn tối giản nào, nghĩa là $$\sqrt{2}$$ vô tỷ.
 
 ### Vì sao "bình phương chẵn thì số đó chẵn"
 
-Nếu $$p=2m+1$$ thì
-
-$$
-p^2=4m^2+4m+1
-$$
-
-là số lẻ. Vậy $$p^2$$ chẵn chỉ khi $$p$$ chẵn. Thực chất đây là phép tính modulo 2:
+Nếu $$p=2m+1$$ thì $$p^2=4m^2+4m+1$$ là số lẻ. Thực chất đây là phép tính modulo 2:
 
 $$
 p\equiv 0\ \text{hoặc}\ 1\pmod{2},\qquad p^2\equiv 0\ \text{hoặc}\ 1\pmod{2}.
 $$
-
----
-
-## 4. Ý tưởng cốt lõi *là* gì
-
-- **Giả sử số đó hữu tỷ** và viết ở dạng chuẩn (tối giản).  
-- **Chuyển tính chia hết** từ $$p^2$$ sang $$p$$ nhờ lập luận modulo.  
-- **Lặp lại** cho $$q$$ sau khi thay vào.  
-- **Đi đến mâu thuẫn** với dạng chuẩn (có ước chung 2).
-
-Điều quyết định không phải là phần thập phân mà là **tính chia hết**.
 
 ---
 
@@ -127,6 +113,40 @@ $$
 Một hình minh họa cho phương pháp xuống thang vô hạn: nếu a bình phương bằng hai lần b bình phương, thì đặt hai hình vuông cạnh b vào trong hình vuông cạnh a, phần chồng lên nhau và các phần còn trống sẽ cho ra những hình vuông có cạnh nguyên nhỏ hơn.
 
 
+## 4. Khung giải thích: tự tay kiểm tra ba góc nhìn — định giá $$v_2$$, xuống thang hình học và bài thử $$\sqrt{4}$$ (nên đọc chậm)
+
+Để không chỉ thuộc lòng ba dòng chẵn lẻ mà nhìn xuyên thấu cấu trúc sâu bên dưới, hãy cầm bút kiểm tra ba phép tính nhỏ sau:
+
+### Góc nhìn 1: Định giá $$2$$-adic $$v_2$$ (tính bằng tay ngay trên số cụ thể)
+Thử bất kỳ hai số nguyên dương nào, chẳng hạn $$p = 12 = 2^2 \cdot 3$$ và $$q = 10 = 2^1 \cdot 5$$:
+- Vế trái: $$p^2 = 144 = 2^4 \cdot 9 \implies v_2(p^2) = 4$$ (**số chẵn**).
+- Vế phải: $$2q^2 = 200 = 2^3 \cdot 25 \implies v_2(2q^2) = 1 + 2(1) = 3$$ (**số lẻ**).
+
+Tổng quát, với **mọi** số nguyên dương $$p, q$$, ta luôn có $$v_2(p^2) = 2v_2(p)$$ là **số chẵn**, còn $$v_2(2q^2) = 1 + 2v_2(q)$$ là **số lẻ**. Một số nguyên không thể vừa có số mũ của $$2$$ là chẵn vừa là lẻ! Do đó $$p^2 = 2q^2$$ vô nghiệm tuyệt đối.
+
+### Góc nhìn 2: Kiểm tra đại số chứng minh hình học bằng hai hình vuông (Tennenbaum / Apostol)
+Giả sử có cặp số nguyên dương nhỏ nhất $$(a, b)$$ thỏa $$a^2 = 2b^2$$ (diện tích một hình vuông cạnh $$a$$ bằng tổng diện tích hai hình vuông cạnh $$b$$). Vì $$1 < \sqrt{2} < 2$$ nên $$b < a < 2b$$.
+- Đặt hai hình vuông cạnh $$b$$ vào hai góc đối diện bên trong hình vuông cạnh $$a$$.
+- Hai hình vuông cạnh $$b$$ sẽ **chồng lấn** nhau thành một hình vuông ở giữa có cạnh $$a' = 2b - a > 0$$.
+- Hai góc còn trống chưa được phủ là hai hình vuông nhỏ giống hệt nhau có cạnh $$b' = a - b > 0$$.
+- Vì tổng diện tích hai hình vuông $$b$$ bằng diện tích hình vuông $$a$$, nên diện tích phần chồng lấn **bắt buộc bằng** tổng diện tích hai góc trống:
+  $$
+  (2b - a)^2 \;=\; 2(a - b)^2.
+  $$
+- **Tự tay kiểm tra bằng khai triển:**
+  - Vế trái: $$(2b - a)^2 = 4b^2 - 4ab + a^2$$.
+  - Vế phải: $$2(a - b)^2 = 2a^2 - 4ab + 2b^2$$.
+  - Rút gọn $$-4ab$$ hai vế: $$4b^2 + a^2 = 2a^2 + 2b^2 \iff 2b^2 = a^2$$ (đúng hoàn toàn!).
+- Nhưng $$a' = 2b - a < a$$ và $$b' = a - b < b$$ lại là một cặp nghiệm nguyên dương **nhỏ hơn thực sự** — mâu thuẫn với tính nhỏ nhất của $$(a, b)$$!
+
+### Góc nhìn 3: Bài kiểm tra ngược — vì sao chứng minh gãy ngay với $$\sqrt{4}$$?
+Nếu ta cố áp dụng máy móc lập luận cổ điển cho $$p^2 = 4q^2$$:
+- Vế phải chia hết cho $$4 \implies 4 \mid p^2$.
+- Nhưng bước chuyển "$$4 \mid p^2 \Rightarrow 4 \mid p$$" **SAI!** (Ví dụ $$p = 2, q = 1$$ có $$p^2 = 4$$ chia hết cho $$4$$, nhưng $$p = 2$$ không chia hết cho $$4$$.)
+- Dùng ngôn ngữ định giá $$v_2$$: $$v_2(4q^2) = 2 + 2v_2(q)$$ là **số chẵn**, khớp hoàn toàn với $$v_2(p^2) = 2v_2(p)$$ — không có mâu thuẫn nào xảy ra!
+
+---
+
 ## 5. Cách trình bày bằng xuống thang vô hạn
 
 Ta có thể chứng minh mà không cần nhắc đến ước chung lớn nhất. Giả sử $$p^2=2q^2$$ với $$p,q$$ nguyên dương. Khi đó $$p$$ chẵn, $$p=2k$$, và $$q^2=2k^2$$ nên $$q$$ chẵn, $$q=2\ell$$, và
@@ -135,14 +155,18 @@ $$
 k^2=2\ell^2
 $$
 
-với $$k$$ là số nguyên dương và $$k<p$$. Lặp lại mãi, ta được một dãy số nguyên dương giảm vô hạn $$p > k > \cdots > 0$$, điều này không thể xảy ra.
-
-Đây là phương pháp **xuống thang vô hạn** của Fermat: từ một nghiệm ta tạo ra một nghiệm nhỏ hơn, và cứ thế mãi. Lập luận bằng phân số tối giản và lập luận xuống thang là hai cách trình bày của cùng một mâu thuẫn.
+với $$k$$ là số nguyên dương và $$k<p$$. Lặp lại mãi, ta được một dãy số nguyên dương giảm vô hạn $$p > k > \cdots > 0$$, điều này không thể xảy ra. Đây là phương pháp **xuống thang vô hạn** của Fermat: từ một nghiệm ta tạo ra một nghiệm nhỏ hơn, và cứ thế mãi.
 
 ---
 
-## 6. Ý tưởng cốt lõi *không phải* là gì
+## 6. Ý tưởng cốt lõi *là* gì và *không phải* là gì
 
+**Ý tưởng cốt lõi là gì:**
+- Giả sử số đó hữu tỷ và viết ở dạng tối giản (hoặc chọn nghiệm nguyên dương nhỏ nhất).
+- Chuyển tính chia hết từ $$p^2$$ sang $$p$$ nhờ tính nguyên tố của $$2$$ (hoặc so sánh tính chẵn lẻ của định giá $$v_2$$).
+- Đi đến mâu thuẫn với tính tối giản / tối thiểu.
+
+**Ý tưởng cốt lõi *không phải* là gì:**
 - Không phải "phần thập phân của $$\sqrt{2}$$ không kết thúc nên nó vô tỷ". Nhiều số hữu tỷ có phần thập phân không kết thúc ($$1/3=0.333\ldots$$). Số vô tỷ tương đương với phần thập phân không kết thúc *và không tuần hoàn*, nhưng chứng minh tính không tuần hoàn không hề dễ hơn lập luận chẵn lẻ.  
 - Không phủ nhận việc xấp xỉ: $$\sqrt{2}$$ *là* giới hạn của các số hữu tỷ; tính vô tỷ chỉ nói nó không bằng một tỷ số, chứ không nói nó không xấp xỉ được.  
 - Bản thân chứng minh này không phân loại mọi số vô tỷ và cũng không chứng minh tính siêu việt ($$\sqrt{2}$$ là số đại số).
@@ -155,9 +179,7 @@ Với $$\sqrt{3}$$, giả sử $$p^2=3q^2$$ ở dạng tối giản. Khi đó $$
 
 **Nếu một số nguyên tố chia hết một tích (hoặc một bình phương) thì nó chia hết một thừa số (hoặc cơ số).**
 
-Hãy thử kiểm tra vì sao chứng minh **thất bại một cách hoàn hảo** khi thay $$2$$ bằng $$4$$: nếu $$p^2 = 4q^2$$, từ $$4 \mid p^2$$ ta **không** suy ra được $$4 \mid p$$ (chỉ cần $$p$$ chẵn là $$p^2$$ đã chia hết cho $$4$$ rồi — ví dụ $$p = 2, q = 1$$ cho $$2^2 = 4 \cdot 1^2$$). Bước chuyển "$$4 \mid p^2 \Rightarrow 4 \mid p$$" bị gãy ngay lập tức, cứu $$\sqrt{4} = 2$$ khỏi mâu thuẫn!
-
-Với số nguyên tố $$p$$ bất kỳ, cùng lập luận cho thấy $$\sqrt{p}$$ vô tỷ. Với $$n$$ không phải số chính phương, $$\sqrt{n}$$ vô tỷ; cách chứng minh gọn nhất hiện nay dùng định lý phân tích thừa số nguyên tố duy nhất. Chứng minh cho $$\sqrt{2}$$ là khởi đầu của cả họ kết quả này.
+Với số nguyên tố $$p$$ bất kỳ, cùng lập luận cho thấy $$\sqrt{p}$$ vô tỷ. Với $$n$$ không phải số chính phương, $$\sqrt{n}$$ vô tỷ; cách chứng minh gọn nhất hiện nay dùng định giá $$v_p$$ từ định lý phân tích thừa số nguyên tố duy nhất. Chứng minh cho $$\sqrt{2}$$ là khởi đầu của cả họ kết quả này.
 
 ---
 
@@ -169,12 +191,6 @@ Với số nguyên tố $$p$$ bất kỳ, cùng lập luận cho thấy $$\sqrt{
 - **Ý thức lịch sử.** Sự không thông ước buộc toán học Hy Lạp phải vượt ra ngoài cách đo chỉ bằng số hữu tỷ.
 
 Trong [cuộc trò chuyện với Big Think](https://www.youtube.com/watch?v=OOMx2BHHWtE) về cuốn sách *Six Math Essentials*, Terence Tao đặt cú sốc này vào câu chuyện dài hơn về **việc mở rộng hệ thống số**. Phép đếm dẫn đến phép cộng và phép trừ; phép trừ đòi hỏi phải tạo ra số âm và số không để đẳng thức $$(A-B)+B=A$$ vẫn đúng khi $$B>A$$. Phép chia dẫn đến phân số. Rồi xuất hiện những độ dài nằm giữa mọi phân số: $$\sqrt{2}$$ không thể là một tỷ số, và từ Latin *irrational* phản ánh cảm giác "phi lý" đó. Về sau, căn bậc hai của số âm không nằm trong tập số thực, dẫn đến số phức, và số phức lại trở thành ngôn ngữ tự nhiên của điện từ học và cơ học lượng tử. Bài học ở đây không phải là "phần thập phân kéo dài mãi". Bài học là các loại số mới thường được tạo ra để các quy tắc đại số cũ tiếp tục đúng, và sau đó hóa ra lại mô tả được thế giới thực. Bài tổng hợp: [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/).
-
----
-
-## 9. Phác thảo chứng minh thứ hai (dùng phân tích thừa số nguyên tố)
-
-Giả sử $$p^2=2q^2$$. Phân tích $$p$$ và $$q$$ thành tích các số nguyên tố. Số mũ của 2 ở vế trái là số chẵn (vì là một bình phương); ở vế phải là 1 cộng một số chẵn (thừa số 2 cộng với số mũ chẵn trong $$q^2$$), tức là số lẻ. Mâu thuẫn. Viết bằng định giá $$v_2$$: $$v_2(p^2)$$ chẵn nhưng $$v_2(2q^2)=1+v_2(q^2)$$ lẻ. Tính chẵn lẻ của định giá là cách viết hiện đại của lập luận chẵn lẻ cổ điển.
 
 ---
 
@@ -284,11 +300,6 @@ Giả sử $$\sqrt{2}=p/q$$ tối giản; suy ra $$p$$ và $$q$$ đều chẵn, 
 ## Vì sao một bài "dễ" vẫn nằm trong chương các chứng minh nổi tiếng
 
 Lý do không nằm ở kỹ thuật, mà ở chỗ nó **thay đổi quan niệm về số** của người Hy Lạp: đường chéo không còn là tỷ số của hai số nguyên. Khi thảo luận, nên nhấn mạnh bước ngoặt về khái niệm này, chứ không chỉ ba dòng biến đổi đại số.
-
-## Bài thực hành
-
-Chứng minh $$\sqrt{3}$$ vô tỷ theo cùng khuôn mẫu; chỉ ra bước nào không còn đúng nếu thay bằng $$\sqrt{4}$$. Viết một câu nối kết quả này với tính trù mật của số hữu tỷ và số vô tỷ trên $$\mathbb{R}$$.
-
 
 ## Video tham khảo
 

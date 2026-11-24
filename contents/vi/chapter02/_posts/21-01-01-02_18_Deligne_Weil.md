@@ -9,11 +9,13 @@ categories:
 - chapter02
 ---
 
-Hãy thử tưởng tượng một bài toán tưởng chừng chỉ dành cho máy tính bỏ túi: cho một phương trình đa thức nhiều biến với hệ số nguyên, chẳng hạn $$y^2 = x^3 + x + 1$$, và ta đếm xem nó có bao nhiêu nghiệm trên các trường hữu hạn $$\mathbb{F}_p, \mathbb{F}_{p^2}, \mathbb{F}_{p^3}, \ldots$$. Thoạt nhìn, đây là một dãy số nguyên rời rạc, lộn xộn và chẳng hề có chút bóng dáng nào của hình học liên tục. Ấy vậy mà vào năm 1949, **André Weil** nhìn thấy bên dưới những con số đếm điểm ấy một cấu trúc đáng kinh ngạc: dãy số nghiệm đó hành xử hệt như thể đa tạp đại số trên trường hữu hạn đang sở hữu những "lỗ hổng tôpô" như mặt cầu hay hình xuyến trong không gian phức, và hàm sinh của nó tuân theo một phiên bản hoàn chỉnh của giả thuyết Riemann.
+Hãy thử một thí nghiệm tưởng tượng tưởng chừng chỉ dành cho máy tính bỏ túi: cho một phương trình đa thức với hệ số nguyên, chẳng hạn $$y^2 = x^3 + x + 1$$, và ta ngồi đếm xem nó có bao nhiêu nghiệm trên các trường hữu hạn $$\mathbb{F}_5, \mathbb{F}_{25}, \mathbb{F}_{125}, \ldots$$. Thoạt nhìn, đó chỉ là một dãy số nguyên rời rạc, khô khan và chẳng hề có chút bóng dáng nào của hình học liên tục. Ấy vậy mà năm 1949, **André Weil** đã nhìn thấy bên dưới những con số đếm điểm ấy một cấu trúc đẹp đến rợn người: dãy số nghiệm đó hành xử hệt như thể đa tạp đại số trên trường hữu hạn đang sở hữu những "lỗ hổng tôpô" giống mặt cầu hay hình xuyến trên $$\mathbb{C}$$, và hàm sinh của nó tuân theo một phiên bản hoàn chỉnh của giả thuyết Riemann.
 
-Phải mất đúng một phần tư thế kỷ, qua ba chặng tiếp sức lịch sử, giấc mơ đó mới trở thành định lý. **Bernard Dwork** (1960) chứng minh tính hữu tỷ của hàm zeta bằng giải tích $$p$$-adic. **Alexander Grothendieck**, **Michael Artin** và trường phái **SGA** dựng lên cả một lâu đài mới mang tên **đối đồng điều étale** để biến bài toán đếm điểm thành công thức vết và suy ra phương trình hàm. Nhưng phần sâu và cứng rắn nhất — **tương tự giả thuyết Riemann**, tức chặn chính xác cho môđun của các trị riêng phép Frobenius — vẫn đứng vững. Năm 1974, khi mới 29 tuổi, **Pierre Deligne** công bố *La conjecture de Weil: I*, đi vòng qua các giả thuyết chuẩn còn bỏ ngỏ của người thầy Grothendieck để hoàn tất mảnh ghép cuối cùng, rồi mở rộng thành bộ máy lý thuyết bó trong *Weil II* (1980).
+Phải mất đúng một phần tư thế kỷ, qua ba chặng tiếp sức lịch sử, tầm nhìn ấy mới trở thành định lý. **Bernard Dwork** (1960) chứng minh tính hữu tỷ của hàm zeta bằng giải tích $$p$$-adic. **Alexander Grothendieck**, **Michael Artin** và cộng đồng **SGA** xây dựng cả một tòa lâu đài mới mang tên **đối đồng điều étale** để biến bài toán đếm điểm thành công thức vết và suy ra phương trình hàm. Nhưng phần sâu và cứng rắn nhất — **tương tự giả thuyết Riemann**, tức chặn chính xác cho môđun của các trị riêng phép Frobenius — vẫn kháng cự mọi nỗ lực. Năm 1974, khi mới 29 tuổi, **Pierre Deligne** công bố *La conjecture de Weil: I*, đi vòng qua các giả thuyết chuẩn còn bỏ ngỏ của người thầy Grothendieck để hoàn tất mảnh ghép cuối cùng, rồi mở rộng thành bộ máy lý thuyết bó trong *Weil II* (1980).
 
-Chính bước ngoặt đó đã mang lại cho ông **Huy chương Fields 1978**, với ghi nhận của IMU rằng lời giải các giả thuyết Weil "đã góp phần lớn vào việc thống nhất hình học đại số và lý thuyết số đại số." Cũng cần tách bạch ngay từ đầu: Huy chương Fields 1978 không có nghĩa là một mình Deligne xây dựng đối đồng điều étale, càng không có nghĩa là **các giả thuyết chuẩn** về chu trình đại số hay **giả thuyết Hodge** đã được giải. Và giải thưởng **Giải Abel 2013** sau này là sự tôn vinh dành cho cả sự nghiệp đồ sộ của ông, tách biệt hoàn toàn với huy chương năm 1978.
+Bước ngoặt đó mang về cho ông **Huy chương Fields 1978**, với ghi nhận của IMU rằng lời giải các giả thuyết Weil *"đã góp phần lớn vào việc thống nhất hình học đại số và lý thuyết số đại số."* Cần tách bạch ngay từ đầu: Huy chương Fields 1978 không có nghĩa một mình Deligne xây dựng đối đồng điều étale, càng không có nghĩa **các giả thuyết chuẩn** hay **giả thuyết Hodge** đã được giải. Còn **Giải Abel 2013** sau này là sự tôn vinh cho cả sự nghiệp đồ sộ của ông, tách biệt hoàn toàn với huy chương năm 1978.
+
+**Mạch bài học:** Bản đồ kiến thức nền (hình học đại số, đối đồng điều étale, phép Frobenius) → Ví dụ cầm tay đếm điểm trên $$\mathbb{F}_5$$ và $$\mathbb{F}_{25}$$ → Các giả thuyết Weil và ba chặng lịch sử → Khung giải thích chậm: từ đếm điểm đến tính thuần khiết của trị riêng Frobenius → *Weil II* và chặn Ramanujan–Petersson → Ghi nhận công lao & ranh giới với giả thuyết Riemann cổ điển.
 
 ---
 
@@ -22,11 +24,11 @@ Chính bước ngoặt đó đã mang lại cho ông **Huy chương Fields 1978*
 Sau bài học, bạn có thể:
 
 - Phát biểu ý chính của các giả thuyết Weil: hàm zeta của một đa tạp xạ ảnh trơn trên trường hữu hạn là **hữu tỷ**, thỏa **phương trình hàm**, và có các không điểm, cực điểm nằm trên những đường thẳng đứng xác định (**tương tự giả thuyết Riemann**).
-- Ghi nhận đúng công lao của từng chặng: **Dwork** (tính hữu tỷ), **đối đồng điều étale của Grothendieck–Artin** (biểu diễn bằng đối đồng điều và phương trình hàm), và **Deligne** (tính thuần khiết, tức phần tương tự giả thuyết Riemann; *Weil I* và *Weil II*).
-- Viết hàm sinh zeta theo biến $$T=q^{-s}$$ và hiểu rõ $$N_m$$ là số điểm trên $$\mathbb{F}_{q^m}$$, đồng thời tự kiểm tra trên các ví dụ cơ sở như đường thẳng xạ ảnh $$\mathbb{P}^1$$ hay đường cong elliptic.
-- Giải thích vì sao đối đồng điều étale là *công cụ biến phép đếm thành vết*, còn ước lượng của Deligne cho trị riêng Frobenius là *chặn còn thiếu*.
-- Phát biểu cẩn thận rằng chặn Ramanujan–Petersson cho dạng modular chỉnh hình có trọng số ít nhất $$2$$ được suy ra từ các giả thuyết Weil áp dụng cho những đa tạp chiều cao thích hợp (đa tạp Kuga–Sato), chứ không phải từ một lập luận ngắn trên một đường cong modular duy nhất.
-- Phân biệt rõ ranh giới của định lý: Deligne **không** chứng minh giả thuyết Riemann cổ điển, **không** chứng minh các giả thuyết chuẩn, và **không** chứng minh giả thuyết Hodge.
+- Tự tay đếm điểm và kiểm tra hàm zeta $$Z(X, T)$$ trên đường thẳng xạ ảnh $$\mathbb{P}^1$$ và đường cong elliptic trên $$\mathbb{F}_5$$.
+- Ghi nhận đúng công lao từng chặng: **Dwork** (tính hữu tỷ), **đối đồng điều étale của Grothendieck–Artin** (công thức vết và phương trình hàm), và **Deligne** (tính thuần khiết của trị riêng Frobenius; *Weil I* và *Weil II*).
+- Giải thích vì sao đối đồng điều étale là *công cụ biến phép đếm thành vết*, còn ước lượng của Deligne là *chiếc khóa phổ còn thiếu*.
+- Phát biểu cẩn thận rằng chặn **Ramanujan–Petersson** cho dạng modular chỉnh hình trọng số $$\ge 2$$ suy ra từ các giả thuyết Weil cho đa tạp chiều cao hơn (đa tạp Kuga–Sato), không phải chỉ từ một đường cong modular đơn lẻ.
+- Bác bỏ các hiểu lầm phổ biến: Deligne **không** chứng minh giả thuyết Riemann cổ điển, **không** chứng minh các giả thuyết chuẩn, và **không** chứng minh giả thuyết Hodge.
 
 **Kiến thức cần có.** Trường hữu hạn $$\mathbb{F}_q$$; ý tưởng về đa tạp xạ ảnh và việc đếm điểm hữu tỷ; tích Euler và giả thuyết Riemann cổ điển như *mô hình* cho một phát biểu về không điểm. Không bắt buộc biết lược đồ hay phạm trù dẫn xuất; chỉ cần nghĩ đến "một lý thuyết đối đồng điều có công thức vết Lefschetz".
 
@@ -34,117 +36,172 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Hình học đại số và đối đồng điều étale là gì?
+## Bản đồ kiến thức nền: Hình học đại số, Đối đồng điều étale và Phép Frobenius là gì?
 
-Nếu bạn tốt nghiệp đại học ngành khoa học hay kỹ thuật nhưng chưa từng học qua hình học đại số hiện đại, cụm từ "đối đồng điều étale với hệ số $$\ell$$-adic" nghe rất dễ gây choáng ngợp. Thực ra, bản chất của nó bắt nguồn từ một câu hỏi rất gần gũi.
+Trước khi đi vào hàm zeta của Weil và chứng minh của Deligne, hãy dựng một bản đồ trực giác cho ba khái niệm trụ cột đứng sau bài học.
 
-**1. Hình học đại số nghiên cứu gì?**
-Trong giải tích, ta nghiên cứu các hình cong bằng đạo hàm, giới hạn và khoảng cách (như mặt cầu $$x^2 + y^2 + z^2 = 1$$ trong $$\mathbb{R}^3$$). **Hình học đại số** cũng nghiên cứu tập nghiệm của các hệ phương trình đa thức — gọi là **đa tạp đại số** — nhưng nó không bó buộc mình vào số thực $$\mathbb{R}$$ hay số phức $$\mathbb{C}$$. Ta có thể lấy cùng một hệ phương trình đa thức đó và xét tập nghiệm của nó trên số hữu tỷ $$\mathbb{Q}$$, hoặc trên một **trường hữu hạn** $$\mathbb{F}_q$$ (chẳng hạn tập các số dư theo modulo một số nguyên tố $$p$$). Khi làm việc trên $$\mathbb{F}_q$$, không gian chỉ gồm hữu hạn điểm rời rạc: không có khái niệm "lân cận nhỏ tùy ý", không có đường cong liên tục, và mọi trực giác từ giải tích cổ điển tưởng như sụp đổ.
+### 1. Hình học đại số trên trường hữu hạn nghiên cứu những câu hỏi nào?
+Trong giải tích, ta quen nghiên cứu các hình cong trên số thực $$\mathbb{R}$$ hay số phức $$\mathbb{C}$$ (như đường tròn $$x^2 + y^2 = 1$$) bằng đạo hàm và giới hạn. **Hình học đại số** nghiên cứu tập nghiệm của các hệ phương trình đa thức — gọi là **đa tạp đại số** — nhưng trên *mọi* hệ số, đặc biệt là **trường hữu hạn** $$\mathbb{F}_q$$ (với $$q = p^r$$, chẳng hạn $$\mathbb{F}_5 = \{0, 1, 2, 3, 4\}$$ với phép toán modulo 5).
 
-**2. Đối đồng điều (cohomology) là gì trong hình học thông thường?**
-Trên các không gian quen thuộc như mặt cầu hay hình xuyến (torus), tôpô đại số gắn cho mỗi không gian $$X$$ một dãy các không gian vector hữu hạn chiều $$H^0(X), H^1(X), H^2(X), \ldots$$ gọi là các **nhóm đối đồng điều**. Chiều của $$H^i(X)$$ (gọi là **số Betti** $$b_i$$) đếm số "lỗ hổng $$i$$ chiều":
-- Mặt cầu $$S^2$$ có $$b_0 = 1$$ (1 mảnh liên thông), $$b_1 = 0$$ (không có vòng tròn nào không co được về một điểm), $$b_2 = 1$$ (1 khoảng rỗng bên trong).
-- Hình xuyến $$T^2$$ (cũng là dáng hình của một đường cong elliptic trên $$\mathbb{C}$$) có $$b_0 = 1$$, $$b_1 = 2$$ (hai vòng độc lập: một vòng quanh lỗ, một vòng quanh thân), $$b_2 = 1$$.
+Ngành **hình học số học** (giao điểm của hình học đại số và lý thuyết số) xoay quanh ba câu hỏi lớn:
+- **Đếm điểm:** Một đa tạp $$X$$ có bao nhiêu điểm $$N_m = \#X(\mathbb{F}_{q^m})$$ khi ta mở rộng trường lên $$\mathbb{F}_q, \mathbb{F}_{q^2}, \mathbb{F}_{q^3}, \ldots$$?
+- **Cấu trúc ẩn:** Dãy số nguyên $$N_1, N_2, N_3, \ldots$$ có bị ràng buộc bởi một quy luật hình học (số chiều, số "lỗ" giống $$g$$) như trên $$\mathbb{C}$$ không?
+- **Ước lượng sai số:** Độ lệch giữa $$N_m$$ và giá trị xấp xỉ sơ cấp (như $$q^m + 1$$ với đường cong) lớn nhất là bao nhiêu?
 
-Sức mạnh kỳ diệu của đối đồng điều là **tính hàm tử**: mọi ánh xạ liên tục $$f: X \to X$$ tự động cảm sinh một toán tử tuyến tính $$f^*$$ trên từng không gian vector $$H^i(X)$$. Và **công thức vết Lefschetz** nói rằng số điểm bất động của $$f$$ (những điểm thỏa $$f(x) = x$$) bằng tổng đan dấu các vết (trace) của $$f^*$$ trên các $$H^i(X)$$:
+### 2. Đối đồng điều (Cohomology) và công thức vết Lefschetz
+Trong tôpô đại số trên $$\mathbb{C}$$, ta gắn cho mỗi không gian $$X$$ một dãy không gian vector hữu hạn chiều $$H^0(X), H^1(X), \ldots, H^{2n}(X)$$. Số chiều $$b_i = \dim H^i(X)$$ gọi là **số Betti**, đếm số "lỗ hổng $$i$$ chiều":
+- Mặt cầu $$S^2$$ (tức đường thẳng xạ ảnh $$\mathbb{P}^1(\mathbb{C})$$): $$b_0 = 1, b_1 = 0, b_2 = 1$$.
+- Hình xuyến $$T^2$$ (tức đường cong elliptic $$E(\mathbb{C})$$): $$b_0 = 1, b_1 = 2, b_2 = 1$$.
+
+Điều kỳ diệu là mọi ánh xạ liên tục $$f: X \to X$$ cảm sinh một ma trận $$f^*$$ trên từng $$H^i(X)$$, và **công thức vết Lefschetz** tính số điểm bất động của $$f$$ bằng tổng đan dấu các vết:
 
 $$
-\#\{x \in X : f(x) = x\} = \sum_{i=0}^{2n} (-1)^i\,\mathrm{Tr}\bigl(f^* \mid H^i(X)\bigr).
+\#\{x \in X : f(x) = x\} = \sum_{i=0}^{2n} (-1)^i \operatorname{Tr}\bigl(f^* \;\big\vert\; H^i(X)\bigr).
 $$
 
-**3. Đối đồng điều étale là gì và vì sao cần nó?**
-Trên trường hữu hạn $$\mathbb{F}_q$$, ta có một ánh xạ cực kỳ tự nhiên là **phép Frobenius** $$\mathrm{Frob}: (x_1, \ldots, x_k) \mapsto (x_1^q, \ldots, x_k^q)$$. Nhờ định lý nhỏ Fermat tổng quát ($$a^q = a \iff a \in \mathbb{F}_q$$), một điểm có tọa độ trong bao đóng đại số $$\overline{\mathbb{F}}_q$$ nằm trong $$\mathbb{F}_q$$ **khi và chỉ khi** nó là điểm bất động của $$\mathrm{Frob}$$! Tương tự, số điểm $$N_m$$ trên $$\mathbb{F}_{q^m}$$ chính là số điểm bất động của $$\mathrm{Frob}^m$$.
+### 3. Phép Frobenius và Đối đồng điều étale
+Trên trường hữu hạn $$\mathbb{F}_q$$, ta có sẵn một ánh xạ tự nhiên cực đẹp là **phép Frobenius** $$\mathrm{Frob}_q: (x_1, \ldots, x_k) \mapsto (x_1^q, \ldots, x_k^q)$$. Theo định lý nhỏ Fermat tổng quát, $$a^q = a \iff a \in \mathbb{F}_q$$, nên một điểm trong bao đóng đại số $$X(\overline{\mathbb{F}}_q)$$ nằm trong $$X(\mathbb{F}_{q^m})$$ **khi và chỉ khi** nó là điểm bất động của $$\mathrm{Frob}_q^m$$!
 
-Nhưng tôpô Zariski cổ điển của hình học đại số lại quá "thô" (mọi tập mở khác rỗng đều khổng lồ và giao nhau), nên nó không tạo ra được các nhóm đối đồng điều có số Betti đúng như trên $$\mathbb{C}$$. Ý tưởng thiên tài của Grothendieck và Artin là định nghĩa lại khái niệm "tập mở" thành các **phủ étale** — phiên bản đại số của phép vi phôi địa phương trong giải tích. Thay vì cắt không gian thành những mảnh con nhỏ, ta "soi" không gian bằng các không gian phủ không rẽ nhánh phía trên nó. Lý thuyết đối đồng điều xây dựng trên tôpô mới này gọi là **đối đồng điều étale** $$H^i_{\mathrm{\acute{e}t}}(X_{\overline{k}}, \mathbb{Q}_\ell)$$ (với $$\ell \neq p$$ là một số nguyên tố phụ trợ để các không gian vector có đặc số $$0$$). Nó khôi phục đúng các số Betti cổ điển, có công thức vết Lefschetz, và biến bài toán đếm điểm số học thành bài toán đại số tuyến tính về trị riêng của ma trận Frobenius!
+Vấn đề duy nhất: trên trường hữu hạn không có khái niệm "lân cận nhỏ" kiểu giải tích, còn tôpô Zariski cổ điển lại quá thô để sinh ra các số Betti đúng. **Grothendieck và Michael Artin** đã vượt qua rào cản đó bằng cách thay "tập mở con" bằng các **phủ étale** (phiên bản đại số của phép vi phôi địa phương), xây dựng nên **đối đồng điều étale** $$H^i_{\mathrm{\acute{e}t}}(X_{\overline{k}}, \mathbb{Q}_\ell)$$ (với số nguyên tố phụ trợ $$\ell \neq p$$). Nó khôi phục đúng số Betti cổ điển, sở hữu công thức vết Lefschetz và đối ngẫu Poincaré, biến phép đếm điểm số học thành bài toán đại số tuyến tính về trị riêng của ma trận Frobenius.
 
 ---
 
-## 1. Từ bài toán cổ điển đến ý tưởng đột phá: đếm điểm và dự đoán một hàm zeta
+## 1. Ví dụ cầm tay chỉ việc: đếm điểm trên $$\mathbb{F}_5$$ và thấy tận mắt hàm zeta
 
-Câu chuyện bắt đầu từ đầu thế kỷ XIX, khi Gauss đếm số nghiệm của các phương trình như $$x^3 - y^3 = 1$$ hay $$y^2 = x^4 + 1$$ trên trường hữu hạn $$\mathbb{F}_p$$ để nghiên cứu luật tương hỗ bậc cao. Đến năm 1933, **Helmut Hasse** chứng minh một định lý làm kinh ngạc giới số học cho đường cong elliptic $$E/\mathbb{F}_q$$: số điểm hữu tỷ $$N_1 = \#E(\mathbb{F}_q)$$ luôn dao động rất sát quanh $$q + 1$$ (số điểm của đường thẳng xạ ảnh $$\mathbb{P}^1(\mathbb{F}_q)$$), với sai số không vượt quá $$2\sqrt{q}$$:
+Trước khi phát biểu các giả thuyết Weil ở dạng tổng quát, hãy tự tay tính trên **hai ví dụ cụ thể** để thấy mọi ký hiệu trở nên sống động.
+
+### Ví dụ 1: Đường thẳng xạ ảnh $$\mathbb{P}^1$$ trên $$\mathbb{F}_q$$
+Trên $$\mathbb{F}_{q^m}$$, $$\mathbb{P}^1$$ gồm đúng $$q^m$$ điểm hữu hạn cộng thêm $$1$$ điểm ở vô cực: $$N_m = q^m + 1$$. Thay vào định nghĩa hàm sinh zeta:
 
 $$
-|N_1 - (q+1)| \le 2\sqrt{q}.
+Z(\mathbb{P}^1, T) = \exp\Bigl(\sum_{m\ge 1} (q^m + 1)\frac{T^m}{m}\Bigr).
 $$
 
-Hãy dừng lại một giây để thấy con số $$2\sqrt{q}$$ kỳ diệu thế nào. Nếu ta tung $$q$$ đồng xu ngẫu nhiên để chọn tọa độ, độ lệch chuẩn thống kê cũng cỡ $$\sqrt{q}$$. Chặn Hasse nói rằng số điểm trên đường cong elliptic không hề hỗn loạn: sai số tuyệt đối bị khóa chặt bởi $$2\sqrt{q}$$, mà số $$2$$ ở đây chính là số Betti $$b_1 = 2$$ của hình xuyến!
+Dùng khai triển chuỗi Taylor quen thuộc $$-\ln(1 - u) = \sum_{m \ge 1} \frac{u^m}{m}$$, ta tính ngay:
 
-**André Weil** đã chứng minh định lý tương tự cho đường cong có giống $$g$$ bất kỳ (với sai số bị chặn bởi $$2g\sqrt{q}$$) và cho đa tạp abel. Rồi năm 1949, ông gói gọn toàn bộ dãy số đếm điểm $$N_m = \#X(\mathbb{F}_{q^m})$$ của một đa tạp xạ ảnh trơn $$X$$ chiều $$n$$ trên $$\mathbb{F}_q$$ vào một hàm sinh duy nhất gọi là **hàm zeta địa phương**:
+$$
+\sum_{m\ge 1} (q^m + 1)\frac{T^m}{m} = -\ln(1 - qT) - \ln(1 - T) \;\Longrightarrow\; Z(\mathbb{P}^1, T) = \frac{1}{(1 - T)(1 - qT)}.
+$$
+
+Một chuỗi lũy thừa vô hạn bỗng thu gọn thành một **phân thức hữu tỷ** cực kỳ sạch sẽ! Hai nhân tử ở mẫu là $$P_0(T) = 1 - T$$ (ứng với trị riêng $$1 = q^{0/2}$$ trên $$H^0$$) và $$P_2(T) = 1 - qT$$ (ứng với trị riêng $$q = q^{2/2}$$ trên $$H^2$$).
+
+### Ví dụ 2: Đường cong elliptic $$E: y^2 = x^3 + x + 1$$ trên $$\mathbb{F}_5$$
+Hãy lập bảng thử toàn bộ $$x \in \mathbb{F}_5 = \{0, 1, 2, 3, 4\}$$ và tìm số nghiệm $$y \in \mathbb{F}_5$$ (nhớ các số chính phương modulo $$5$$ là $$0^2=0,\; 1^2=4^2=1,\; 2^2=3^2=4$$):
+
+| $$x \in \mathbb{F}_5$$ | $$x^3 + x + 1 \pmod 5$$ | Nghiệm $$y \in \mathbb{F}_5$$ | Số điểm hữu hạn |
+|---|---|---|---|
+| $$0$$ | $$1$$ | $$y = 1, 4$$ | $$2$$ |
+| $$1$$ | $$3$$ | Vô nghiệm | $$0$$ |
+| $$2$$ | $$8 + 2 + 1 = 11 \equiv 1$$ | $$y = 1, 4$$ | $$2$$ |
+| $$3$$ | $$27 + 3 + 1 = 31 \equiv 1$$ | $$y = 1, 4$$ | $$2$$ |
+| $$4$$ | $$64 + 4 + 1 = 69 \equiv 4$$ | $$y = 2, 3$$ | $$2$$ |
+
+Cộng thêm $$1$$ điểm ở vô cực $$\mathcal{O}$$, ta đếm được đúng:
+
+$$
+N_1 = \#E(\mathbb{F}_5) = 2 + 0 + 2 + 2 + 2 + 1 = 9.
+$$
+
+Hãy kiểm tra **chặn Hasse**: độ lệch so với $$q + 1 = 6$$ là $$a_5 = (5 + 1) - 9 = -3$$, thỏa $$\vert -3 \vert = 3 \le 2\sqrt{5} \approx 4.47$$!
+Tuyệt vời hơn nữa: theo công thức Weil cho đường cong elliptic, đa thức tử số là $$P_1(T) = 1 - a_5 T + 5T^2 = 1 + 3T + 5T^2$$, nên hàm zeta của $$E$$ có dạng:
+
+$$
+Z(E, T) = \frac{1 + 3T + 5T^2}{(1 - T)(1 - 5T)}.
+$$
+
+Phân tích $$1 + 3T + 5T^2 = (1 - \alpha T)(1 - \bar{\alpha} T)$$, ta giải phương trình $$\alpha^2 + 3\alpha + 5 = 0$$ ra cặp số phức liên hợp:
+
+$$
+\alpha, \bar{\alpha} = \frac{-3 \pm i\sqrt{11}}{2}, \qquad \vert \alpha \vert = \sqrt{\frac{9 + 11}{4}} = \sqrt{5} = 5^{1/2}!
+$$
+
+Và chỉ từ con số $$N_1 = 9$$ vừa đếm bằng tay trên $$\mathbb{F}_5$$, ta **lập tức dự đoán chính xác** số điểm trên $$\mathbb{F}_{25}$$ mà không cần thử 25 giá trị của $$x$$:
+
+$$
+N_2 = 1 + 5^2 - (\alpha^2 + \bar{\alpha}^2) = 26 - \bigl((\alpha+\bar{\alpha})^2 - 2\alpha\bar{\alpha}\bigr) = 26 - (9 - 10) = 27!
+$$
+
+Đó chính là phép màu của các giả thuyết Weil: đếm điểm trên $$\mathbb{F}_q$$ mở ra một đa thức đặc trưng với hai trị riêng phức nằm **chính xác trên đường tròn bán kính $$\sqrt{q}$$**!
+
+---
+
+## 2. Các giả thuyết Weil (1949) và ba chặng lịch sử
+
+Tổng quát hóa định lý Hasse cho đường cong elliptic và chứng minh của chính mình cho đường cong có giống $$g$$ bất kỳ (với $$\vert N_1 - (q+1)\vert \le 2g\sqrt{q}$$) cùng đa tạp abel, **André Weil** (1949) phát biểu bộ bốn giả thuyết cho mọi đa tạp xạ ảnh trơn $$X$$ chiều $$n$$ trên $$\mathbb{F}_q$$ qua hàm sinh:
 
 $$
 Z(X,T)=\exp\Bigl(\sum_{m\ge 1}N_m\frac{T^m}{m}\Bigr),\qquad T=q^{-s}.
 $$
 
-**Ví dụ trực quan: đường thẳng xạ ảnh $$\mathbb{P}^1$$.** Trên $$\mathbb{F}_{q^m}$$, đường thẳng xạ ảnh gồm $$q^m$$ điểm hữu hạn cộng thêm $$1$$ điểm ở vô cực, nên $$N_m = q^m + 1$$. Thay vào hàm sinh, ta tính trực tiếp được bằng khai triển $$-\ln(1 - u) = \sum_{m \ge 1} u^m/m$$:
-
-$$
-\sum_{m\ge 1}(q^m + 1)\frac{T^m}{m} = -\ln(1 - qT) - \ln(1 - T) \implies Z(\mathbb{P}^1, T) = \frac{1}{(1 - T)(1 - qT)}.
-$$
-
-Một chuỗi lũy thừa vô hạn lại thu gọn thành một phân thức hữu tỷ đơn giản, với hai cực điểm ứng với hai trị riêng $$1 = q^{0/2}$$ (từ $$H^0$$) và $$q = q^{2/2}$$ (từ $$H^2$$)!
-
-Weil dự đoán rằng điều kỳ diệu tương tự phải đúng cho **mọi** đa tạp xạ ảnh trơn $$X$$ chiều $$n$$ trên $$\mathbb{F}_q$$:
-1. **Tính hữu tỷ:** $$Z(X,T)$$ là một hàm hữu tỷ theo $$T$$.
-2. **Phương trình hàm:** $$Z(X,T)$$ liên hệ đối xứng với $$Z(X, 1/(q^n T))$$.
-3. **Tương tự giả thuyết Riemann (tính thuần khiết):** Khi viết $$Z(X,T)$$ dưới dạng tích đan dấu các đa thức $$P_i(T)$$, mọi nghịch đảo nghiệm $$\alpha$$ của $$P_i(T)$$ đều là số nguyên đại số có môđun đúng bằng $$q^{i/2}$$. Đặt $$T = q^{-s}$$, điều này có nghĩa là mọi không điểm và cực điểm của $$Z(X, q^{-s})$$ đều nằm gọn trên các đường thẳng đứng $$\mathrm{Re}(s) = i/2$$.
-4. **Số Betti:** Nếu $$X$$ là phép rút gọn theo modulo $$p$$ của một đa tạp xạ ảnh trơn trên $$\mathbb{C}$$, thì bậc của $$P_i(T)$$ đúng bằng số Betti $$b_i$$ của đa tạp phức đó.
-
-Sự tương tự với tôpô vừa nổi tiếng vừa gợi mở: trên $$\mathbb{F}_q$$, $$N_m$$ là số điểm bất động của $$\mathrm{Frob}^m$$ trên $$X(\overline{\mathbb{F}}_q)$$. Nếu có một lý thuyết đối đồng điều thỏa công thức vết Lefschetz *và* đối ngẫu Poincaré (để sinh ra phương trình hàm), thì phần tương tự giả thuyết Riemann sẽ lập tức quy về một chặn cho các trị riêng của Frobenius.
-
-**Ba chặng giải quyết:**
-- **Bernard Dwork (1960)** bất ngờ chứng minh **tính hữu tỷ** trước tiên bằng giải tích $$p$$-adic, hoàn toàn không cần xây dựng lý thuyết đối đồng điều nào.
-- **Grothendieck**, **Michael Artin** và cộng đồng **SGA** xây dựng **đối đồng điều étale** với hệ số $$\ell$$-adic, chứng minh công thức vết Lefschetz và đối ngẫu Poincaré, qua đó thu lại tính hữu tỷ, phương trình hàm và liên hệ với số Betti.
-- Grothendieck hy vọng suy ra mảnh ghép cuối cùng — tính thuần khiết — từ **các giả thuyết chuẩn** (*standard conjectures*) về chu trình đại số. Thế nhưng các giả thuyết chuẩn lại quá khó và đến tận ngày nay vẫn còn mở (trừ một số phần như định lý Lefschetz mạnh trong đặc số dương, mà sau này chính Deligne suy ra ngược lại như một hệ quả của giả thuyết Weil). Vì vậy, phần tương tự giả thuyết Riemann cần một con đường đột phá hoàn toàn khác.
-
----
-
-## 2. Ý chính: Frobenius tác động, và các trị riêng của nó là thuần khiết
-
-Khi đã có đối đồng điều étale, công thức vết Lefschetz cho phép viết trực tiếp hàm zeta của một đa tạp xạ ảnh trơn chiều $$n$$ dưới dạng một phân thức rõ ràng:
+1. **Tính hữu tỷ:** $$Z(X,T)$$ là một hàm hữu tỷ theo $$T$$, phân tích thành
 
 $$
 Z(X,T)=\frac{P_1(T)P_3(T)\cdots P_{2n-1}(T)}{P_0(T)P_2(T)\cdots P_{2n}(T)},
 $$
 
-trong đó mỗi đa thức $$P_i(T) = \det\bigl(1 - T\,\mathrm{Frob} \mid H^i_{\mathrm{\acute{e}t}}(X_{\overline{k}},\mathbb{Q}_\ell)\bigr)$$ là đa thức đặc trưng ngược của tác động Frobenius trên nhóm đối đồng điều bậc $$i$$, với $$P_0(T)=1-T$$ và $$P_{2n}(T)=1-q^n T$$. Khai triển logarit hai vế chính là công thức vết:
+với $$P_i(T) \in \mathbb{Z}[T]$$, $$P_0(T) = 1 - T$$ và $$P_{2n}(T) = 1 - q^n T$$.
+2. **Phương trình hàm:** $$Z(X, 1/(q^n T)) = \pm q^{n\chi/2} T^\chi Z(X, T)$$ (với $$\chi$$ là đặc trưng Euler–Poincaré).
+3. **Tương tự giả thuyết Riemann (tính thuần khiết):** Nếu viết $$P_i(T) = \prod_{j=1}^{b_i}(1 - \alpha_{i,j} T)$$, thì mọi trị riêng nghịch đảo $$\alpha_{i,j}$$ đều có môđun phức đúng bằng $$q^{i/2}$$. Đặt $$T = q^{-s}$$, điều này có nghĩa mọi không điểm và cực điểm của $$Z(X, q^{-s})$$ đều nằm gọn trên các đường thẳng đứng $$\mathrm{Re}(s) = i/2$$.
+4. **Liên hệ số Betti:** Nếu $$X$$ là phép rút gọn theo modulo $$p$$ của một đa tạp xạ ảnh trơn trên $$\mathbb{C}$$, thì $$\deg P_i = b_i$$ (số Betti thứ $$i$$ của đa tạp phức đó).
 
-$$
-N_m = \sum_{i=0}^{2n} (-1)^i \sum_{j=1}^{b_i} \alpha_{i,j}^m,
-$$
-
-với $$\alpha_{i,j}$$ là các trị riêng của Frobenius trên $$H^i_{\mathrm{\acute{e}t}}$$. Nhìn vào công thức này, ta thấy ngay vì sao trường hợp đường cong elliptic $$E$$ cho ra chặn Hasse: khi $$n = 1$$, ta có $$b_0 = 1$$ ($$\alpha_{0,1} = 1$$), $$b_2 = 1$$ ($$\alpha_{2,1} = q$$), và $$b_1 = 2$$ (hai trị riêng $$\alpha_1, \alpha_2$$). Do đó $$N_1 = 1 - (\alpha_1 + \alpha_2) + q$$. Nếu $$|\alpha_1| = |\alpha_2| = q^{1/2}$$, bất đẳng thức tam giác lập tức cho $$|N_1 - (q+1)| = |\alpha_1 + \alpha_2| \le 2\sqrt{q}$$!
-
-**Định lý Deligne (Weil I, 1974).** Mọi trị riêng $$\alpha$$ của Frobenius trên $$H^i_{\mathrm{\acute{e}t}}(X_{\overline{k}},\mathbb{Q}_\ell)$$ đều là số đại số và có môđun phức (dưới mọi phép nhúng vào $$\mathbb{C}$$) thỏa $$|\alpha| = q^{i/2}$$. Nói cách khác, các trị riêng của Frobenius trên $$H^i$$ là **thuần khiết với trọng số $$i$$**.
-
-**Ý tưởng đột phá của Deligne để đi vòng qua giả thuyết chuẩn:**
-Thay vì cố gắng chứng minh tính xác định dương của các chu trình đại số như Grothendieck mong đợi, Deligne kết hợp một chuỗi kỹ thuật hết sức khéo léo:
-1. **Cắt lát bằng chùm Lefschetz (Lefschetz pencil):** Ông cắt một đa tạp chiều $$n$$ thành một họ 1-tham số các siêu mặt chiều $$n-1$$, biến bài toán quy nạp theo số chiều thành việc nghiên cứu sự biến thiên của đối đồng điều dọc theo một đường cong cơ sở (tạo ra một nhóm **đơn đạo** — monodromy).
-2. **Thủ thuật Rankin (lũy thừa tenxơ bậc chẵn):** Thay vì ước lượng trực tiếp môđun của một trị riêng $$\alpha$$, Deligne xét lũy thừa tenxơ bậc $$2k$$ của hệ địa phương để mọi số hạng đều trở thành số thực không âm. Nếu có một trị riêng "vượt rào" với $$|\alpha| > q^{i/2}$$, thì khi lấy lũy thừa $$2k$$ rất lớn, sự đóng góp của nó sẽ phình to vượt quá giới hạn hình học của nhóm đơn đạo — một mâu thuẫn giống hệt cách chứng minh bất đẳng thức cổ điển bằng cách nâng lên lũy thừa cao rồi lấy căn bậc $$2k$$!
-3. **Kết hợp với đối ngẫu Poincaré:** Chặn trên $$|\alpha| \le q^{i/2}$$ kết hợp với đối ngẫu giữa $$H^i$$ và $$H^{2n-i}$$ (ghép cặp $$\alpha$$ với $$q^n/\alpha$$) lập tức khóa chặt đẳng thức $$|\alpha| = q^{i/2}$$.
-
-**Tóm lại.** Các giả thuyết Weil biến một bài toán đếm điểm số học thành một bài toán về **phổ**: số điểm là vết, còn phần tương tự giả thuyết Riemann giới hạn chính xác đường tròn mà các trị riêng phải nằm trên đó. Trường phái Grothendieck cung cấp các vết; Deligne cung cấp chiếc khóa phổ còn thiếu. Báo cáo của Katz tại ICM Helsinki (1978) vẫn là tài liệu chuẩn về cấu trúc chứng minh vào thời điểm trao huy chương.
+**Cuộc chạy tiếp sức ba chặng:**
+- **Bernard Dwork (1960):** Gây bất ngờ lớn khi chứng minh **tính hữu tỷ** bằng giải tích $$p$$-adic, hoàn toàn không cần xây dựng đối đồng điều.
+- **Grothendieck, Michael Artin và trường phái SGA (thập niên 1960):** Xây dựng **đối đồng điều étale** $$\ell$$-adic, chứng minh công thức vết Lefschetz và đối ngẫu Poincaré, qua đó hoàn tất tính hữu tỷ, phương trình hàm và liên hệ số Betti. Grothendieck kỳ vọng suy ra mảnh ghép cuối cùng (tính thuần khiết) từ **các giả thuyết chuẩn** về chu trình đại số — nhưng các giả thuyết chuẩn đến nay vẫn còn mở!
+- **Pierre Deligne (*Weil I*, 1974):** Đi một con đường hoàn toàn bất ngờ, vòng qua các giả thuyết chuẩn để chứng minh trọn vẹn **tính thuần khiết** $$|\alpha_{i,j}| = q^{i/2}$$!
 
 ---
 
-## 3. Weil II đã làm được gì và chưa làm được gì
+## 3. Chứng minh của Deligne: từ đếm điểm đến tính thuần khiết của trị riêng Frobenius
 
-Sáu năm sau, trong *La conjecture de Weil: II* (1980), Deligne tiến thêm một bước còn rộng lớn hơn nữa: ông giải phóng định lý khỏi giả thiết đa tạp phải trơn, xạ ảnh và hệ số phải là bó hằng. *Weil II* mở rộng khái niệm trọng số sang **các bó $$\ell$$-adic kiến thiết hỗn hợp** (*mixed constructible sheaves*) trên những lược đồ tùy ý trên trường hữu hạn. Định lý chính của *Weil II* cho thấy phép lấy ảnh trực tiếp có giá compact $$Rf_!$$ bảo toàn bất đẳng thức trọng số (nếu bó đầu vào có trọng số $$\le w$$, thì $$R^i f_!$$ có trọng số $$\le w + i$$). Nhờ một phép biến đổi Fourier $$\ell$$-adic và định lý *Weil II*, lý thuyết bó trở thành ngôn ngữ làm việc hằng ngày của hình học số học hiện đại: một định lý về đa tạp giờ chỉ là trường hợp riêng của một định lý về bó.
+### Khung giải thích: làm sao Deligne khóa chặt môđun của trị riêng Frobenius mà không cần giả thuyết chuẩn? (nên đọc chậm)
 
-**Những gì được làm rõ.** Các tổng mũ phức tạp (như tổng Gauss, tổng Kloosterman nhiều biến), nhóm đơn đạo, và vô số ước lượng vốn thuộc lý thuyết số giải tích nay trở thành những phát biểu hình học về trọng số. Công trình trước đó của Deligne (1969, theo gợi ý của Serre) gắn cho mỗi dạng modular một biểu diễn Galois $$\ell$$-adic, và việc suy ra **giả thuyết Ramanujan–Petersson** cũng nằm trọn trong mạch tư duy này: khi biết trọng số hình học, ta lập tức thu được chặn giải tích sắc bén.
+Nếu đối đồng điều étale đã biến hàm zeta thành phân thức của các đa thức đặc trưng $$P_i(T) = \det\bigl(1 - T\,\mathrm{Frob} \mid H^i_{\mathrm{\acute{e}t}}(X_{\overline{k}}, \mathbb{Q}_\ell)\bigr)$$, tại sao việc chứng minh $$\vert \alpha_{i,j}\vert = q^{i/2}$$ lại khó đến mức cản bước cả trường phái Grothendieck suốt một thập kỷ? Dưới đây là 4 bước đột phá trong chứng minh *Weil I* (1974) của Deligne:
 
-**Ramanujan–Petersson, nói cho cẩn thận.** Xét hàm $$\tau(n)$$ nổi tiếng của Ramanujan — hệ số khai triển của dạng modular biệt thức $$\Delta(q) = q \prod_{m \ge 1}(1 - q^m)^{24} = \sum_{n \ge 1} \tau(n) q^n$$ (trọng số $$k = 12$$). Giả thuyết Ramanujan phát biểu rằng với mọi số nguyên tố $$p$$,
+#### Bước 1: Dùng đối ngẫu Poincaré để rút gọn đẳng thức thành một bất đẳng thức duy nhất
+Theo đối ngẫu Poincaré trong đối đồng điều étale, nếu $$\alpha$$ là một trị riêng của Frobenius trên $$H^i$$ thì $$q^n / \alpha$$ là một trị riêng trên $$H^{2n-i}$$ (như trong ví dụ $$\mathbb{P}^1$$: cặp $$1$$ và $$q$$; trong ví dụ đường cong elliptic: cặp $$\alpha$$ và $$5/\alpha = \bar{\alpha}$$). Do đó, nếu ta chứng minh được một chặn trên tổng quát $$\vert \alpha \vert \le q^{i/2}$$ cho **mọi** bậc $$i$$ và mọi đa tạp trơn, thì áp dụng chặn đó cho $$q^n/\alpha$$ trên $$H^{2n-i}$$ lập tức cho $$q^n/\vert\alpha\vert \le q^{(2n-i)/2} \iff \vert\alpha\vert \ge q^{i/2}$$, khóa chặt đẳng thức $$\vert\alpha\vert = q^{i/2}$$!
+
+#### Bước 2: Cắt lát đa tạp bằng chùm Lefschetz (Lefschetz pencil)
+Để chứng minh quy nạp theo số chiều $$n$$, Deligne cắt đa tạp $$X$$ chiều $$n$$ bằng một họ 1-tham số các siêu phẳng (tạo thành **chùm Lefschetz**): hầu hết các lát cắt là đa tạp trơn chiều $$n-1$$, chỉ trừ hữu hạn lát cắt có điểm kỳ dị nút đơn giản. Khi lát cắt chạy vòng quanh các điểm kỳ dị trên đường thẳng cơ sở $$\mathbb{P}^1$$, các nhóm đối đồng điều $$H^{n-1}$$ biến đổi theo một nhóm đối xứng gọi là **nhóm đơn đạo** (*monodromy group*). Nhờ định lý Kazhdan–Margulis, Deligne biết nhóm đơn đạo này *rất lớn* (nhóm symplectic toàn phần) — đó là đòn bẩy hình học cực mạnh!
+
+#### Bước 3: Thủ thuật Rankin (lũy thừa tenxơ bậc chẵn $$2k$$) để khử triệt tiêu dấu
+Làm sao chứng minh không có trị riêng nào "vượt rào" $$\vert\alpha\vert > q^{i/2}$$? Nếu chỉ cộng các trị riêng lại, số dương và số âm (hay số phức) có thể triệt tiêu lẫn nhau khiến ta không thấy trị riêng lớn. Deligne dùng **thủ thuật Rankin** từ lý thuyết số giải tích: ông nâng hệ địa phương lên **lũy thừa tenxơ bậc chẵn $$2k$$**. Khi lấy lũy thừa $$2k$$, mọi hệ số địa phương đều biến thành **số thực không âm**, không còn sự triệt tiêu dấu nữa! Nếu tồn tại một trị riêng vượt rào $$\vert\alpha\vert > q^{i/2}$$, thì khi $$k \to \infty$$, đóng góp $$\alpha^{2k}$$ sẽ tạo ra một cực điểm vượt quá miền hội tụ cho phép bởi kích thước khổng lồ của nhóm đơn đạo ở Bước 2 — một mâu thuẫn tuyệt đối! Lấy căn bậc $$2k$$ hai vế và cho $$k \to \infty$$, mọi hằng số phụ biến mất, còn lại đúng chặn sắc $$\vert\alpha\vert \le q^{i/2}$$.
+
+#### Bước 4: Mở rộng từ đa tạp sang lý thuyết bó (*Weil II*, 1980)
+Sáu năm sau, trong *La conjecture de Weil: II*, Deligne tổng quát hóa toàn bộ bức tranh từ bó hằng trên đa tạp xạ ảnh trơn sang **các bó $$\ell$$-adic kiến thiết hỗn hợp** trên lược đồ tùy ý trên $$\mathbb{F}_q$$. Ông chứng minh phép lấy ảnh trực tiếp có giá compact $$Rf_!$$ bảo toàn bất đẳng thức trọng số (nếu bó đầu vào có trọng số $$\le w$$ thì $$R^i f_!$$ có trọng số $$\le w + i$$). Nhờ *Weil II*, việc ước lượng các tổng mũ phức tạp trong lý thuyết số giải tích biến thành bài toán tính trọng số của bó!
+
+Tóm tắt chuỗi đột phá của Deligne:
 
 $$
-|\tau(p)| \le 2p^{11/2}.
+\text{Đếm điểm } N_m
+\;\longleftrightarrow\;
+\text{Vết Frobenius (Grothendieck)}
+\;\longleftrightarrow\;
+\text{Chùm Lefschetz + Đơn đạo}
+\;\longleftrightarrow\;
+\text{Lũy thừa } 2k \text{ (Rankin)} \implies \vert\alpha\vert = q^{i/2}.
 $$
 
-Đây chính là tương tự giả thuyết Riemann cho một đối tượng hình học (motive) trọng số $$11$$ gắn với $$\Delta$$. Deligne đã quy bài toán Ramanujan–Petersson cho mọi dạng cusp chỉnh hình trọng số $$k \ge 2$$ về các giả thuyết Weil cho những đa tạp có số chiều cao hơn — cụ thể là **đa tạp Kuga–Sato** (xây dựng bằng cách lấy tích thớ $$(k-2)$$ lần của đường cong elliptic phổ dụng trên một đường cong modular). Vì vậy, *Weil I* (1974) kéo theo ngay chặn $$|\tau(p)| \le 2p^{11/2}$$! Còn trường hợp trọng số $$k = 1$$ là một câu chuyện khác, được hoàn thành trong công trình chung **Deligne–Serre**. Lưu ý một điểm hay bị nhầm: các chặn cổ điển cho tổng Kloosterman một biến cũng dùng ý tưởng Weil nhưng chỉ ở chiều một, nên chúng đã suy ra từ định lý Weil cho đường cong từ trước năm 1974. Đừng nói "Deligne chặn được tổng Kloosterman nên suy ra Ramanujan"; chặn cho dạng modular trọng số cao đòi hỏi tính thuần khiết ở số chiều cao hơn.
-
-**Những gì chưa được chứng minh.** **Các giả thuyết chuẩn** của Grothendieck vẫn còn mở. **Giả thuyết Hodge** vẫn còn mở. Deligne định nghĩa **chu trình Hodge tuyệt đối** như một khái niệm thay thế hữu hiệu trong nhiều lập luận số học, và ông xây dựng lý thuyết **cấu trúc Hodge hỗn hợp** để tổ chức trọng số trong hình học phức — mở rộng trực giác trọng số của *Weil II* sang thế giới số phức. Đó là những công cụ nền tảng cực mạnh, nhưng không phải lời giải cho giả thuyết Hodge. Lý thuyết motive theo nghĩa mạnh mà Grothendieck mơ ước vẫn là một chương trình nghiên cứu đang mở rộng.
+Báo cáo của Nicholas Katz tại ICM Helsinki (1978) vẫn là tài liệu chuẩn về kiến trúc chứng minh vào thời điểm trao huy chương.
 
 ---
 
-## 4. Ghi nhận công lao một cách trung thực
+## 4. Weil II, chặn Ramanujan–Petersson, và những gì vẫn còn mở
+
+**Những gì được khai thông.** Nhờ *Weil I* và *Weil II*, hàng loạt ước lượng sâu trong lý thuyết số giải tích (tổng mũ nhiều biến, tổng Kloosterman tổng quát, nhóm đơn đạo) trở thành các định lý hình học về trọng số. Đặc biệt nổi tiếng là lời giải cho **giả thuyết Ramanujan–Petersson**.
+
+**Ramanujan–Petersson, nói cho cẩn thận.** Xét hàm $$\tau(n)$$ nổi tiếng của Ramanujan — hệ số khai triển của dạng modular biệt thức $$\Delta(q) = q \prod_{m\ge 1}(1 - q^m)^{24} = \sum_{n\ge 1} \tau(n) q^n$$ (trọng số $$k = 12$$). Giả thuyết Ramanujan (1916) khẳng định rằng với mọi số nguyên tố $$p$$:
+
+$$
+\vert\tau(p)\vert \le 2p^{11/2}.
+$$
+
+Đây chính là tương tự giả thuyết Riemann cho một đối tượng hình học (motive) **trọng số $$11$$**. Trước đó năm 1969 (theo gợi ý của Serre), Deligne đã gắn cho mỗi dạng cusp chỉnh hình trọng số $$k \ge 2$$ một biểu diễn Galois $$\ell$$-adic và quy chặn Ramanujan–Petersson về các giả thuyết Weil cho một đa tạp **chiều cao hơn** — cụ thể là **đa tạp Kuga–Sato** (xây bằng cách lấy tích thớ $$(k-2)$$ lần của đường cong elliptic phổ dụng trên đường cong modular, nên với $$\Delta$$ trọng số $$12$$ ta làm việc trên đa tạp chiều $$11$$!). Vì vậy, *Weil I* (1974) lập tức kéo theo $$\vert\tau(p)\vert \le 2p^{11/2}$$! (Trường hợp trọng số $$1$$ là câu chuyện riêng của **Deligne–Serre**; còn chặn cổ điển cho tổng Kloosterman một biến chỉ ở chiều $$1$$ nên đã suy ra từ định lý Weil cho đường cong từ trước năm 1974.)
+
+**Những gì chưa được chứng minh.** **Các giả thuyết chuẩn** của Grothendieck vẫn còn mở (trừ định lý Lefschetz mạnh trong đặc số dương mà Deligne suy ra ngược lại từ *Weil II*). **Giả thuyết Hodge** vẫn còn mở. Deligne xây dựng **cấu trúc Hodge hỗn hợp** (mang trực giác trọng số sang hình học phức) và định nghĩa **chu trình Hodge tuyệt đối** như những công cụ mạnh mẽ, không phải chứng minh giả thuyết Hodge.
+
+---
+
+## 5. Ghi nhận công lao một cách trung thực
 
 | Người đóng góp | Vai trò |
 |----------------|---------|
@@ -157,15 +214,15 @@ $$
 | Deligne, Weil II (1980) | Trọng số cho bó; dạng làm việc của lý thuyết |
 | Các nhà toán học sau đó | Bó perverse (BBD: Beilinson–Bernstein–Deligne, cùng Gabber) và các ứng dụng |
 
-Deligne sinh năm 1944 tại Bỉ, làm luận án dưới sự hướng dẫn của Grothendieck, và làm việc tại IHÉS trong những năm nhận Huy chương Fields, trước khi chuyển sang Institute for Advanced Study (Princeton). Huy chương năm 1978 ghi nhận công trình về giả thuyết Weil và sự thống nhất mà nó mở ra. **Giải Abel 2013**, trao "vì những đóng góp nền tảng cho hình học đại số và ảnh hưởng sâu rộng của chúng đến lý thuyết số, lý thuyết biểu diễn và các lĩnh vực liên quan", là giải cho *cả sự nghiệp*, bao gồm lý thuyết Hodge hỗn hợp, biểu diễn Deligne–Lusztig, không gian moduli của đường cong (cùng Mumford) và nhiều công trình khác. Hãy luôn tách riêng hai giải thưởng này.
+Deligne sinh năm 1944 tại Bỉ, làm luận án dưới sự hướng dẫn của Grothendieck, làm việc tại IHÉS trong những năm nhận Huy chương Fields, trước khi chuyển sang Institute for Advanced Study (Princeton). **Giải Abel 2013**, trao *"vì những đóng góp nền tảng cho hình học đại số và ảnh hưởng sâu rộng của chúng đến lý thuyết số, lý thuyết biểu diễn và các lĩnh vực liên quan"*, là giải cho *cả sự nghiệp* (bao gồm lý thuyết Hodge hỗn hợp, biểu diễn Deligne–Lusztig, không gian moduli đường cong cùng Mumford...). Hãy luôn tách riêng hai giải thưởng này.
 
 ---
 
-## 5. Vì sao ông nhận Huy chương Fields, và vì sao câu chuyện này vẫn quan trọng
+## 6. Vì sao ông nhận Huy chương Fields, và vì sao câu chuyện này vẫn quan trọng
 
-Các giả thuyết Weil đã định hướng cả một thế hệ toán học thế kỷ XX: chúng buộc giới hình học đại số phải xây dựng lại từ gốc một lý thuyết đối đồng điều mới, rồi lại đòi hỏi một ước lượng phổ sâu sắc mà bản thân lý thuyết đó không tự động nhả ra. Việc hoàn thành các giả thuyết đã nối liền hai cách nhìn tưởng như ở hai vũ trụ khác nhau về cùng một dãy số nguyên $$N_m$$ — một bên là phép đếm nghiệm số học, một bên là tôpô và phổ trị riêng trên trường hữu hạn — đồng thời đưa sức mạnh của hình học đại số vào lý thuyết dạng tự đẳng cấu và tổng mũ. Trong khóa học, câu chuyện Deligne là hình mẫu kinh điển về một **chương trình vĩ đại được nhiều người cùng dựng khung**, rồi được chốt lại bằng một ước lượng mang tính quyết định.
+Các giả thuyết Weil đã định hướng cả một thế hệ toán học thế kỷ XX: chúng buộc giới hình học đại số dựng nên đối đồng điều étale, rồi đòi hỏi một ước lượng phổ sâu sắc mà bản thân lý thuyết đó không tự động trao cho. Việc hoàn tất các giả thuyết đã nối liền hai cách nhìn về cùng một dãy số nguyên $$N_m$$ — đếm nghiệm số học và phổ trị riêng trên đối đồng điều — đồng thời trao cho lý thuyết dạng tự đẳng cấu và lý thuyết số giải tích một vũ khí sắc bén.
 
-[Giả thuyết Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) cổ điển cho hàm $$\zeta(s)$$ trên trường số hữu tỷ vẫn còn mở. Điều đó không hề làm giảm tầm vóc của câu chuyện Weil; ngược lại, nó cho thấy vì sao các nhà toán học ngày nay vẫn tìm cách bắt chước chiến lược của Grothendieck và Deligne (tìm một "đối đồng điều" và một "phép Frobenius" cho $$\mathrm{Spec}(\mathbb{Z})$$). Đôi khi trên báo phổ thông ta bắt gặp câu "Deligne đã chứng minh giả thuyết Riemann". Cách nói chính xác phải là: ông đã chứng minh **tương tự giả thuyết Riemann cho hàm zeta của đa tạp đại số trên trường hữu hạn**.
+[Giả thuyết Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) cổ điển cho hàm $$\zeta(s)$$ trên $$\mathbb{Q}$$ vẫn còn mở. Điều đó không hề làm giảm tầm vóc của câu chuyện Weil; trái lại, nó cho thấy vì sao giới toán học vẫn tìm kiếm một "đối đồng điều" và một "phép Frobenius" cho $$\mathrm{Spec}(\mathbb{Z})$$. Đừng bao giờ nói "Deligne đã chứng minh giả thuyết Riemann"; hãy nói chính xác: ông đã chứng minh **tương tự giả thuyết Riemann cho hàm zeta của đa tạp đại số trên trường hữu hạn**.
 
 ---
 

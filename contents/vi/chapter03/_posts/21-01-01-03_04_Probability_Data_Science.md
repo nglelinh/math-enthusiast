@@ -139,6 +139,34 @@ $$
 
 **Hàm hợp lý (Likelihood).** Với mô hình tham số $$p(x\mid\theta)$$, hàm hợp lý $$L(\theta)=\prod_i p(x_i\mid\theta)$$ đo mức độ khớp giữa tham số $$\theta$$ và dữ liệu quan sát. Tìm $$\theta$$ làm cực đại $$L(\theta)$$ chính là **MLE** (thú vị thay, cực tiểu hóa hàm mất mát cross-entropy khi huấn luyện mạng nơ-ron thực chất chính là MLE!). Còn nhân $$L(\theta)$$ với niềm tin ban đầu $$p(\theta)$$ ta được suy diễn **Bayes**: $$p(\theta\mid \text{data})\propto L(\theta)p(\theta)$$.
 
+### Ví dụ cầm tay chỉ việc: Tự tính MLE và sửa bẫy mẫu nhỏ bằng Bayes
+
+Giả sử bạn chạy một mẫu quảng cáo mới $$n = 10$$ lần và thu được $$k = 7$$ lượt nhấp chuột. Xác suất nhấp thật $$p$$ là bao nhiêu?
+
+1. **Viết hàm hợp lý (Likelihood):** xác suất thấy đúng 7 lần nhấp trong 10 lần là $$L(p) = \binom{10}{7} p^7 (1-p)^3$$.
+2. **Lấy logarit rồi tìm cực đại (MLE):**
+$$
+\ell(p) = \ln L(p) = \text{hằng số} + 7\ln p + 3\ln(1-p).
+$$
+Lấy đạo hàm theo $$p$$ và cho bằng $$0$$:
+$$
+\ell'(p) = \frac{7}{p} - \frac{3}{1-p} = 0 \implies 7(1-p) = 3p \implies 10p = 7 \implies \hat{p}_{\mathrm{MLE}} = 0{,}70.
+$$
+3. **Bẫy mẫu nhỏ và cứu cánh Bayes:** điều gì xảy ra nếu bạn mới chỉ hiển thị $$n=2$$ lần và tình cờ cả $$k=2$$ người đều bấm? MLE lập tức kết luận $$\hat{p}_{\mathrm{MLE}} = 2/2 = 100\%$$ — cực kỳ hoang tưởng! Nếu áp thêm một niềm tin tiên nghiệm nhẹ kiểu Bayes (phân phối $$\mathrm{Beta}(2,2)$$, tương đương giả định ban đầu có 2 nhấp giả định và 2 không nhấp giả định), ước lượng hậu nghiệm là:
+$$
+\hat{p}_{\mathrm{Bayes}} = \frac{k + 2}{n + 2 + 2} = \frac{2 + 2}{2 + 4} = \frac{4}{6} \approx 66{,}7\%.
+$$
+Khi dữ liệu còn ít, Bayes kéo ước lượng về mức thận trọng; khi dữ liệu lên tới $$n = 10{.}000$$, số $$+2$$ trở nên không đáng kể và Bayes hội tụ về đúng MLE!
+
+### Khung giải thích: Từ một bảng dữ liệu hữu hạn đến quyết định ngoài đời thật (nên đọc chậm)
+
+1. **Xem dữ liệu là một lần rút mẫu ngẫu nhiên:** bảng dữ liệu hôm nay không phải toàn bộ sự thật, mà chỉ là một thực hiện duy nhất của phân phối ẩn $$P(X,Y)$$.
+2. **Đo độ dao động của ước lượng:** LLN bảo đảm trung bình mẫu hội tụ về giá trị thật, còn CLT và bất đẳng thức Hoeffding cho biết biên độ sai số $$\pm O(1/\sqrt{n})$$ ở cỡ mẫu hiện tại.
+3. **Phân biệt rủi ro thực nghiệm và rủi ro kỳ vọng:** làm mất mát huấn luyện $$\hat{R}_n(f)$$ bằng 0 chưa chắc giúp rủi ro thật $$R(f)$$ nhỏ — ta cần tách tập kiểm tra độc lập và chặn độ phức tạp của mô hình.
+4. **Kiểm tra hai giả định ngầm trước khi hành động:** phân phối lúc triển khai có bị dịch chuyển ($$P_{\mathrm{test}} \neq P_{\mathrm{train}}$$) không, và ta đang dùng tương quan để dự đoán hay đang can thiệp nhân quả?
+
+**Kiểm tra nhanh.** Thêm 10 lần dữ liệu giúp giảm sai số ngẫu nhiên đi $$\sqrt{10} \approx 3{,}16$$ lần, nhưng **không bao giờ** tự sửa được thiên lệch chọn mẫu hay dịch chuyển phân phối.
+
 ---
 
 ## 6. Rủi ro trong học máy: mất mát kỳ vọng

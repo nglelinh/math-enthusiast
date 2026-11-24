@@ -126,6 +126,45 @@ Với chi phí tổng quát hơn, ta có các thế $$c$$-lõm và cấu trúc �
 
 ---
 
+### Khung giải thích: tự tay giải bài toán vận chuyển $$2\times 2$$ và khớp đối ngẫu Kantorovich–Rubinstein (nên đọc chậm)
+
+Để thấy công thức gốc (vận chuyển khối lượng) và công thức đối ngẫu (hàm 1-Lipschitz) khớp nhau từng con số, hãy giải trọn vẹn một bài toán $$2\times 2$$ trên trục số thực $$\mathbb{R}$$.
+
+Cho hai đống cát $$\mu$$ đặt tại $$x_1 = 0,\ x_2 = 2$$ với khối lượng $$a = (0.5, 0.5)$$, và hai cái hố $$\nu$$ đặt tại $$y_1 = 1,\ y_2 = 4$$ với sức chứa $$b = (0.5, 0.5)$$. Với chi phí $$W_1$$ (khoảng cách $$c_{ij} = \lvert x_i - y_j \rvert$$), ma trận chi phí là:
+
+$$
+C = \begin{pmatrix} \lvert 0 - 1\rvert & \lvert 0 - 4\rvert \\ \lvert 2 - 1\rvert & \lvert 2 - 4\rvert \end{pmatrix}
+= \begin{pmatrix} 1 & 4 \\ 1 & 2 \end{pmatrix}.
+$$
+
+1. **Giải bài toán gốc (Kantorovich):** Mọi kế hoạch vận chuyển $$\pi \in \Pi(\mu, \nu)$$ (tổng mỗi hàng và mỗi cột đều bằng $$0.5$$) chỉ phụ thuộc đúng một tham số $$t \in [0, 0.5]$$ (lượng cát đi chéo từ $$x_1$$ sang $$y_2$$):
+
+   $$
+   \pi(t) = \begin{pmatrix} 0.5 - t & t \\ t & 0.5 - t \end{pmatrix}.
+   $$
+
+   Tổng chi phí vận chuyển là một hàm bậc nhất theo $$t$$:
+
+   $$
+   \text{Cost}(t) = (0.5 - t)\cdot 1 + t\cdot 4 + t\cdot 1 + (0.5 - t)\cdot 2 = 1.5 + 2t.
+   $$
+
+   Rõ ràng chi phí đạt cực tiểu duy nhất tại $$t = 0$$ (không cắt chéo: $$x_1 \to y_1$$ và $$x_2 \to y_2$$), cho kết quả chính xác:
+
+   $$
+   W_1(\mu, \nu) = 1.5.
+   $$
+
+2. **Kiểm tra công thức đối ngẫu Kantorovich–Rubinstein:** Ta cần tìm một hàm $$f:\mathbb{R}\to\mathbb{R}$$ có hệ số góc không vượt quá $$1$$ ($$\|f\|_{\mathrm{Lip}} \le 1$$) để cực đại hóa $$\int f\,d\mu - \int f\,d\nu$$. Chọn hàm đơn giản nhất $$f(z) = -z$$ (độ dốc bằng $$-1$$, thỏa $$\lvert f(x) - f(y)\rvert = \lvert x - y\rvert$$):
+
+   $$
+   \int f\,d\mu - \int f\,d\nu
+   = \bigl(0.5(-0) + 0.5(-2)\bigr) - \bigl(0.5(-1) + 0.5(-4)\bigr)
+   = (-1) - (-2.5) = 1.5.
+   $$
+
+**Khớp tuyệt đối:** Chi phí cực tiểu của nhà vận tải ($$1.5$$) bằng đúng lợi nhuận cực đại của bảng giá 1-Lipschitz ($$1.5$$)! Không còn khoảng cách mơ hồ nào giữa định nghĩa tích phân coupling và công thức đối ngẫu.
+
 ## 5. Tính toán: từ LP đến Sinkhorn
 
 Với độ đo rời rạc gồm $$n$$ điểm, OT chính xác là một bài toán LP với $$n^2$$ biến: giải được, nhưng đắt khi $$n$$ lớn. **Điều chuẩn entropy** thêm số hạng $$\varepsilon\mathrm{KL}(\pi\|\mu\otimes\nu)$$ (hoặc tương tự), cho một bài toán lồi chặt giải được bằng **Sinkhorn–Knopp**, tức là co giãn hàng và cột của ma trận. Khi $$\varepsilon\to 0$$ ta tiến về OT; với $$\varepsilon>0$$ kế hoạch bị làm mờ và đại lượng thu được đổi tính chất (phân kỳ Sinkhorn cần khử lệch trong một số cách dùng thống kê).

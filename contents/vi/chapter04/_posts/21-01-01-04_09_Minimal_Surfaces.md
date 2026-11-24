@@ -13,7 +13,7 @@ Hãy uốn một đoạn dây thép thành một vòng cong uốn lượn tùy �
 
 Trong toán học, những hình dạng như thế gọi là **mặt tối thiểu** (minimal surface): mặt có diện tích nhỏ nhất theo nghĩa địa phương. Về mặt giải tích, chúng là nghiệm của một điều kiện duy nhất nhưng cực kỳ sâu sắc: **độ cong trung bình bằng $$0$$**, dẫn tới một phương trình đạo hàm riêng phi tuyến. Hiếm có chủ đề nào nơi giải tích, hình học vi phân và vẻ đẹp thị giác gặp nhau trọn vẹn đến thế: catenoid, helicoid và mặt Costa vừa là định lý sâu sắc vừa như những tác phẩm điêu khắc.
 
-**Lộ trình:** màng xà phòng và bài toán Plateau → độ cong trung bình bằng 0 → các ví dụ cổ điển → tính ổn định và tôpô → lý thuyết tồn tại hiện đại → ứng dụng → nhầm lẫn thường gặp, bài tập, hướng đi tiếp.
+**Lộ trình:** màng xà phòng và bài toán Plateau → độ cong trung bình bằng 0 → các ví dụ cổ điển → tính ổn định và tôpô → lý thuyết tồn tại hiện đại → ứng dụng → nhầm lẫn thường gặp, hướng đi tiếp.
 
 ---
 
@@ -32,9 +32,9 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Phép tính biến phân và giải tích hình học là gì và nghiên cứu những gì?
+## Bản đồ kiến thức nền: Phép tính biến phân và Giải tích hình học là gì và giữ vai trò gì?
 
-Ở giải tích đại cương, để tìm điểm $$x$$ làm cực tiểu hàm số $$f(x)$$, ta giải phương trình đạo hàm $$f'(x) = 0$$. Nhưng nếu ẩn số không còn là một con số $$x$$, mà là **cả một đường cong** (như đường đi ngắn nhất giữa hai điểm) hay **cả một mặt cong $$S$$** (như màng xà phòng có diện tích nhỏ nhất căng trên khung dây), thì ta bước sang **Phép tính biến phân** (Calculus of Variations) và **Giải tích hình học**.
+Ở giải tích đại cương, để tìm điểm $$x$$ làm cực tiểu hàm số $$f(x)$$, ta giải phương trình đạo hàm $$f'(x) = 0$$. Nhưng nếu ẩn số không còn là một con số $$x$$, mà là **cả một đường cong** (như đường đi ngắn nhất giữa hai điểm) hay **cả một mặt cong $$S$$** (như màng xà phòng có diện tích nhỏ nhất căng trên khung dây), thì ta bước sang **Phép tính biến phân** (Calculus of Variations) và **Giải tích hình học**. Đây là ngôn ngữ lõi của cơ học cổ điển (nguyên lý tác dụng tối thiểu), thuyết tương đối rộng (chứng minh định lý khối lượng dương của Schoen–Yau), thiết kế kết cấu kiến trúc siêu nhẹ và xử lý lưới 3D trong đồ họa máy tính.
 
 Tư duy cốt lõi gồm ba bước cực kỳ tự nhiên:
 1. **Định nghĩa phiếm hàm năng lượng:** Gán cho mỗi mặt cong $$S$$ một con số — diện tích $$\mathrm{Area}(S)$$.
@@ -75,7 +75,30 @@ $$
 
 một phương trình đạo hàm riêng elliptic tựa tuyến tính (quasilinear). Nghiệm của nó là đồ thị có diện tích nhỏ nhất so với các đồ thị lân cận có cùng giá trị trên biên (với điều kiện phù hợp). Tính phi tuyến đến từ việc phần tử diện tích là $$\sqrt{1+u_x^2+u_y^2}\,dx\,dy$$.
 
-**Góc nhìn biến phân bậc nhất.** Với một mặt compact có biên cố định, khi ta đẩy mặt theo phương pháp tuyến với tốc độ $$f$$, tốc độ thay đổi diện tích tỉ lệ với $$-\int H f$$. Điểm tới hạn thỏa $$H=0$$. Biến phân bậc hai quyết định tính ổn định: không phải mặt tối thiểu nào cũng cực tiểu diện tích (có những điểm tới hạn không ổn định).
+### Ví dụ tính toán cầm tay chỉ việc: tự tay kiểm tra $$H = 0$$ trên mặt Catenoid!
+
+Xét mặt tròn xoay **catenoid** sinh bởi đường dây xích $$r(z) = a\cosh(z/a)$$ (với $$a > 0$$ là bán kính thắt eo tại $$z = 0$$). Ta có:
+- Đạo hàm bậc nhất: $$r'(z) = \sinh(z/a)$$, suy ra $$\sqrt{1 + (r')^2} = \sqrt{1 + \sinh^2(z/a)} = \cosh(z/a)$$.
+- Đạo hàm bậc hai: $$r''(z) = \frac{1}{a}\cosh(z/a)$$.
+
+Tính trực tiếp hai độ cong chính của mặt tròn xoay tại độ cao $$z$$ bất kỳ:
+1. **Độ cong dọc đường kinh tuyến** (uốn ra ngoài):
+   $$\kappa_1 = \frac{r''}{(1 + r'^2)^{3/2}} = \frac{\frac{1}{a}\cosh(z/a)}{\cosh^3(z/a)} = \frac{1}{a\cosh^2(z/a)}.$$
+2. **Độ cong dọc vòng tròn vĩ tuyến** (uốn ngược vào trục $$z$$):
+   $$\kappa_2 = -\frac{1}{r\sqrt{1 + r'^2}} = -\frac{1}{a\cosh(z/a)\cdot \cosh(z/a)} = -\frac{1}{a\cosh^2(z/a)}.$$
+
+Cộng hai kết quả lại: $$H = \frac{\kappa_1 + \kappa_2}{2} = 0$$ **triệt tiêu tuyệt đối tại mọi điểm $$z$$!** Hai độ uốn ngược chiều nhau vừa khít từng milimét ở khắp mặt catenoid.
+
+### Khung giải thích: từ màng xà phòng đến phương trình đạo hàm riêng $$H = 0$$ (nên đọc chậm)
+
+Tại sao một câu hỏi hình học cực kỳ đơn giản ("diện tích nhỏ nhất") lại biến thành phương trình độ cong trung bình $$H = 0$$? Hãy đi chậm qua 4 bước:
+
+1. **Viết diện tích như một phiếm hàm năng lượng:** Sức căng bề mặt tỉ lệ trực tiếp với diện tích $$A[S] = \iint \sqrt{1 + u_x^2 + u_y^2}\,dx\,dy$$. Màng xà phòng tự co lại để giảm $$A[S]$$.
+2. **Đẩy nhẹ mặt cong theo phương pháp tuyến:** Tạo họ mặt lân cận $$S_t$$ bằng cách dịch chuyển mỗi điểm trên $$S$$ đi một đoạn nhỏ $$t\cdot f$$ theo hướng pháp tuyến (giữ cố định khung dây biên).
+3. **Tính tốc độ thay đổi diện tích ở bậc nhất (Công thức biến phân bậc nhất):** Tích phân từng phần cho thấy $$\left.\frac{d}{dt}\mathrm{Area}(S_t)\right\vert_{t=0} = -2\iint_S H f\,dA$$. Để diện tích dừng với *mọi* cách đẩy $$f$$, bắt buộc $$H \equiv 0$$ khắp mặt!
+4. **Kiểm tra độ bền bằng biến phân bậc hai và cực tiểu toàn cục:** $$H=0$$ mới là điều kiện cần (điểm dừng). Như trong video catenoid bên dưới, khi kéo hai vòng vượt quá $$d \approx 1{,}06$$ bán kính, catenoid vẫn thỏa $$H=0$$ nhưng hai đĩa rời đã có diện tích nhỏ hơn; vượt quá $$d \approx 1{,}325$$, nghiệm catenoid biến mất và màng vỡ tức thì.
+
+**Kiểm tra nhanh.** Một quả bóng bay hay bong bóng xà phòng tròn vo có phải là mặt tối thiểu không? Không — vì nó nhốt không khí bên trong nên áp suất trong lớn hơn ngoài, dẫn đến $$H = 1/R > 0$$ (độ cong trung bình hằng khác 0).
 
 ---
 

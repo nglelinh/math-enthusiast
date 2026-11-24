@@ -170,6 +170,42 @@ Chất cách điện tôpô, anyon và việc khớp dị thường (anomaly mat
 
 ---
 
+### Khung giải thích: hai phép tính tay cho thấy sức mạnh của nguyên lý đối ngẫu (nên đọc chậm)
+
+Để đối ngẫu không chỉ là một triết lý trừu tượng, hãy tự tay thực hiện hai phép tính rất gọn — một của hình học, một của vật lý thống kê — nơi đối ngẫu giải bài toán chỉ trong vài dòng.
+
+1. **Đa diện đối ngẫu và bất biến Euler:** Xét khối lập phương với $$(V, E, F) = (8, 12, 6)$$ (8 đỉnh, 12 cạnh, 6 mặt). Đặt đúng 1 đỉnh mới vào tâm của mỗi mặt lập phương, rồi nối hai đỉnh mới nếu hai mặt tương ứng chung cạnh — ta thu được **khối bát diện đều** với $$(V', E', F') = (6, 12, 8)$$.
+   - Đỉnh và mặt hoán đổi vai trò: $$V' = F = 6$$, $$F' = V = 8$$, còn số cạnh giữ nguyên $$E' = E = 12$$.
+   - Đặc trưng Euler bất biến: $$V - E + F = 8 - 12 + 6 = 2 = 6 - 12 + 8 = V' - E' + F'$$.
+   - Lấy đối ngẫu thêm một lần nữa (tâm 8 mặt bát diện đều), ta quay về đúng khối lập phương ($$D^2 = \mathrm{id}$$).
+
+2. **Đối ngẫu Kramers–Wannier: tìm chính xác nhiệt độ chuyển pha Ising 2D mà không cần giải mô hình!**
+   Trên lưới vuông 2D, mô hình từ tính Ising có tham số tương tác không thứ nguyên $$K = \frac{J}{k_B T}$$ ($$K$$ nhỏ ứng với nhiệt độ cao, $$K$$ lớn ứng với nhiệt độ thấp). Năm 1941, Kramers và Wannier chứng minh hàm phân hoạch ở nhiệt độ thấp $$K$$ tỉ lệ với chính hàm phân hoạch ở nhiệt độ cao $$K^*$$, liên hệ qua phép đối hợp:
+
+   $$
+   \sinh(2K)\,\sinh(2K^*) = 1.
+   $$
+
+   Nếu mô hình có **duy nhất một điểm chuyển pha** $$K_c$$, thì ảnh đối ngẫu của nó cũng phải là điểm chuyển pha, suy ra $$K_c$$ buộc phải là **điểm tự đối ngẫu** $$K_c = K_c^*$$! Giải tay ngay lập tức:
+
+   $$
+   \sinh(2K_c) = 1
+   \;\Longleftrightarrow\;
+   \frac{e^{2K_c} - e^{-2K_c}}{2} = 1
+   \;\Longleftrightarrow\;
+   (e^{2K_c})^2 - 2e^{2K_c} - 1 = 0.
+   $$
+
+   Nghiệm dương duy nhất là $$e^{2K_c} = 1 + \sqrt{2}$$, cho ra con số lịch sử:
+
+   $$
+   K_c = \frac{1}{2}\ln(1 + \sqrt{2}) \approx 0.4407,
+   \qquad
+   \frac{k_B T_c}{J} = \frac{2}{\ln(1 + \sqrt{2})} \approx 2.269.
+   $$
+
+Ba năm sau, Lars Onsager mới giải chính xác toàn bộ mô hình Ising 2D bằng công trình khổng lồ — và nhiệt độ tới hạn khớp đến từng chữ số với phép tính 3 dòng bằng đối ngẫu ở trên!
+
 ## 7. Vì sao đối ngẫu thay đổi cách làm việc
 
 1. **Đòn bẩy tính toán.** Giải bài toán ở phía đối ngẫu dễ hơn, rồi chuyển kết quả về ($$T$$ cao ↔ $$T$$ thấp trong đối ngẫu Kramers–Wannier; yếu ↔ mạnh trong đối ngẫu S).  

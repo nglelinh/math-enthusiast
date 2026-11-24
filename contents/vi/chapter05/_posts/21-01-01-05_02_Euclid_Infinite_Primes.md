@@ -20,6 +20,8 @@ Bạn không cần tranh cãi dài dòng, cũng không cần lật hết từng 
 
 Cả hai chứng minh đều chỉ dài vài dòng, nhưng cả hai đều làm thay đổi tận gốc hiểu biết của nhân loại về số học và sự vô hạn. Nếu chỉ giữ lại một câu duy nhất từ bài này, hãy nhớ: *một chứng minh có thể rất ngắn mà vẫn xoay chuyển cả thế giới, khi phép dựng của nó thoát ra khỏi mọi danh sách được cho là đầy đủ.*
 
+**Mạch bài học:** Bản đồ kiến thức nền (lý thuyết số, lý thuyết tập hợp, phản chứng) → Phần I: Euclid và vô hạn số nguyên tố → Khung giải thích chậm: kiểm tra bằng tay cỗ máy Euclid và biến thể $$4k+3$$ → Phần II: Cantor và tập số thực không đếm được → So sánh hai phép dựng thoát ra → Viết một đoạn trình bày ý tưởng chứng minh.
+
 ---
 
 ## Mục tiêu học tập
@@ -37,13 +39,18 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết số, lý thuyết tập hợp và nghệ thuật chứng minh phản chứng là gì?
+## Bản đồ kiến thức nền: Lý thuyết số, Lý thuyết tập hợp và Nghệ thuật phản chứng là gì?
 
-Trước khi đi vào từng dòng lập luận, hãy đặt hai định lý này lên bản đồ toán học để thấy chúng thuộc về hai lĩnh vực nền tảng nào và dùng chung loại vũ khí tư duy nào:
+Trước khi đi vào từng dòng lập luận, hãy đặt hai định lý này lên bản đồ toán học đại học để thấy rõ mỗi định lý đại diện cho nhánh nào và chúng chia sẻ cùng vũ khí tư duy ra sao:
 
-- **Lý thuyết số (Number Theory) nghiên cứu gì?** Nếu hóa học tìm các nguyên tố cơ bản cấu tạo nên vật chất, thì lý thuyết số nghiên cứu cấu trúc của tập số nguyên $$\mathbb{Z}$$ thông qua các "nguyên tử" của phép nhân là **số nguyên tố**. Định lý Cơ bản của Số học cho biết mọi số nguyên lớn hơn $$1$$ đều phân tích duy nhất thành tích các số nguyên tố. Câu hỏi đầu tiên và sâu sắc nhất của lý thuyết số là: *bảng tuần hoàn các nguyên tử số học này có dừng lại ở đâu không?* Euclid trả lời: không bao giờ.
-- **Lý thuyết tập hợp (Set Theory) nghiên cứu gì?** Đến cuối thế kỷ XIX, toán học không chỉ đếm các tập hữu hạn mà phải đối diện với vô số tập vô hạn (số tự nhiên, số hữu tỷ, điểm trên đoạn thẳng, tập các hàm số). Lý thuyết tập hợp cung cấp ngôn ngữ chung để đo **kích cỡ (lực lượng)** của các tập vô hạn thông qua khái niệm **song ánh** (ghép cặp một-một không thừa, không thiếu). Nhờ chiếc thước đo đó, Cantor phát hiện rằng "vô hạn" không phải một khái niệm đồng nhất mà là một thang bậc có nhiều tầng.
-- **Chứng minh phản chứng và phép dựng thoát ra là gì?** Thay vì đi tìm một bằng chứng trực tiếp trong vô hạn trường hợp, ta tạm giả sử điều ngược lại là đúng ("giả sử có một danh sách đầy đủ"), rồi lấy chính danh sách đó làm nguyên liệu để chế tạo một **đối tượng làm chứng** phá vỡ giả thiết ban đầu. Trong khoa học máy tính và logic hiện đại, cấu trúc "cho tôi bất kỳ danh sách nào, tôi trả về một kẻ ngoại đạo" này trở thành khuôn mẫu cho định lý bất toàn của Gödel và bài toán dừng của Turing.
+### 1. Lý thuyết số (Number Theory) là gì và nghiên cứu những gì?
+Nếu hóa học tìm các nguyên tố cơ bản cấu tạo nên vật chất, thì **lý thuyết số** nghiên cứu cấu trúc của tập số nguyên $$\mathbb{Z}$$ thông qua các "nguyên tử" của phép nhân là **số nguyên tố**. Nhờ **Định lý Cơ bản của Số học**, mọi số nguyên lớn hơn $$1$$ đều phân tích duy nhất thành tích các số nguyên tố. Ngành này đặt ra những câu hỏi sâu sắc: có bao nhiêu số nguyên tố? Chúng phân bố thưa dần theo quy luật nào? Có vô hạn cặp nguyên tố sinh đôi $$(p, p+2)$$ không? Ngoài toán thuần túy, số nguyên tố lớn là xương sống của **mật mã khóa công khai RSA** bảo vệ thương mại điện tử và truyền thông bảo mật.
+
+### 2. Lý thuyết tập hợp (Set Theory) là gì và nghiên cứu những gì?
+Cuối thế kỷ XIX, toán học không chỉ đếm các tập hữu hạn mà phải so sánh kích cỡ của những tập vô hạn (số tự nhiên $$\mathbb{N}$$, số hữu tỷ $$\mathbb{Q}$$, trục số thực $$\mathbb{R}$$, không gian hàm số). **Lý thuyết tập hợp** cung cấp thước đo chuẩn cho kích cỡ vô hạn — gọi là **lực lượng (cardinality)** — thông qua khái niệm **song ánh** (ghép cặp một-một không thừa, không thiếu). Nhờ thước đo này, Cantor phát hiện rằng "vô hạn" không phải một khái niệm đồng nhất mà là cả một thang bậc nhiều tầng.
+
+### 3. Chứng minh phản chứng và Phép dựng thoát ra (Escape Construction)
+Khi muốn chứng minh một danh sách không bao giờ đầy đủ, ta không thể thử vô hạn danh sách. Thay vào đó, ta dùng **phản chứng**: tạm chấp nhận đối thủ có một danh sách "đầy đủ", rồi lấy chính danh sách đó làm nguyên liệu để chế tạo một **đối tượng làm chứng** chắc chắn nằm ngoài danh sách. Chính khuôn mẫu "biến lời khẳng định của đối thủ thành vũ khí chống lại nó" này sẽ tái sinh trong Định lý bất toàn của Gödel và Bài toán dừng của Turing.
 
 ---
 
@@ -53,7 +60,7 @@ Trước khi đi vào từng dòng lập luận, hãy đặt hai định lý nà
 
 Trong đời thường, mọi bảng liệt kê đều có cảm giác hữu hạn: bảng tuần hoàn có hơn một trăm nguyên tố hóa học, bảng chữ cái có vài chục ký tự. Khi quan sát dãy số nguyên tố $$2, 3, 5, 7, 11, 13, \ldots$$ ngày càng thưa dần khi đi lên các số rất lớn, một người hoài nghi hoàn toàn có lý khi đặt câu hỏi: *"Biết đâu đến một ngưỡng khổng lồ nào đó, mọi số nguyên lớn hơn đều chỉ là tổ hợp nhân của các số nguyên tố đã xuất hiện trước đó?"*
 
-Nói cách khác, ta không thể bác bỏ người hoài nghi chỉ bằng cách chạy máy tính tìm thêm vài triệu số nguyên tố mới — vì họ luôn có thể đáp: *"Thế thì danh sách dừng lại ngay sau số bạn vừa tìm!"* Muốn dập tắt nghi ngờ mãi mãi, ta cần một cỗ máy biến **bất kỳ** danh sách hữu hạn nào thành bằng chứng cho thấy nó còn thiếu.
+Ta không thể bác bỏ người hoài nghi chỉ bằng cách chạy máy tính tìm thêm vài triệu số nguyên tố mới — vì họ luôn có thể đáp: *"Thế thì danh sách dừng lại ngay sau số bạn vừa tìm!"* Muốn dập tắt nghi ngờ mãi mãi, ta cần một cỗ máy biến **bất kỳ** danh sách hữu hạn nào thành bằng chứng cho thấy nó còn thiếu.
 
 ### Định lý
 
@@ -81,15 +88,32 @@ Vì $$N>1$$ nên $$N$$ có ít nhất một ước nguyên tố $$q$$. Mỗi $$p
 
 *Hình. Từ mọi danh sách hữu hạn, số $$N$$ dựng được buộc phải có một ước nguyên tố mới.*
 
-### Vì sao "dư 1" là mấu chốt
+### Khung giải thích: kiểm tra bằng tay cỗ máy Euclid và mở rộng sang cấp số cộng (nên đọc chậm)
 
-Viết $$P=p_1\cdots p_k$$, khi đó $$N=P+1$$. Với mỗi số nguyên tố trong danh sách,
+Để thấy rõ vì sao "dư 1" đánh sập mọi danh sách hữu hạn — và vì sao $$N$$ **không cần** phải là số nguyên tố — hãy cầm bút tính trực tiếp từng trường hợp:
 
-$$
-N \equiv 1 \pmod{p_i}.
-$$
+1. **Bước 1 — Chạy thử trên các danh sách nhỏ:**
 
-Không số nguyên tố nào trong danh sách chia hết $$N$$. Dù $$N$$ là số nguyên tố hay hợp số, mọi ước nguyên tố của nó đều nằm ngoài $$p_1,\ldots,p_k$$. Lập luận không cần *tìm ra* số nguyên tố mới bằng một công thức; chỉ cần biết mọi số lớn hơn 1 đều có ước nguyên tố là đủ.
+| Danh sách giả định | Tích $$P$$ | Số $$N = P + 1$$ | Phân tích thừa số của $$N$$ | Số nguyên tố mới thoát ra |
+|--------------------|------------|------------------|-----------------------------|---------------------------|
+| $$\{2\}$$ | $$2$$ | $$3$$ | Nguyên tố | $$3$$ |
+| $$\{2, 3\}$$ | $$6$$ | $$7$$ | Nguyên tố | $$7$$ |
+| $$\{2, 3, 5\}$$ | $$30$$ | $$31$$ | Nguyên tố | $$31$$ |
+| $$\{2, 3, 5, 7, 11\}$$ | $$2310$$ | $$2311$$ | Nguyên tố | $$2311$$ |
+| $$\{2, 3, 5, 7, 11, 13\}$$ | $$30030$$ | $$30031$$ | $$59 \times 509$$ (hợp số!) | $$59$$ và $$509$$ |
+
+2. **Bước 2 — Kiểm tra bằng tay trường hợp hợp số đầu tiên ($$30031$$):**
+   - Nhân thử: $$2 \times 3 = 6$$; $$6 \times 5 = 30$$; $$30 \times 7 = 210$$; $$210 \times 11 = 2310$$; $$2310 \times 13 = 30030$$. Cộng $$1$$ ra $$N = 30031$$.
+   - Kiểm tra chia hết: vì $$30030$$ chia hết cho mọi số trong $$\{2, 3, 5, 7, 11, 13\}$$, nên $$30031$$ chia cho mỗi số ấy đều dư đúng $$1$$ ($$30031 \equiv 1 \pmod{p_i}$$).
+   - Kiểm tra phân tích: $$59 \times 509 = 59 \times 500 + 59 \times 9 = 29500 + 531 = 30031$$. Dù $$N$$ là hợp số, cả hai ước nguyên tố $$59$$ và $$509$$ đều **chắc chắn nằm ngoài danh sách ban đầu**!
+
+3. **Bước 3 — Kiểm tra sức mạnh tổng quát (vô hạn số nguyên tố dạng $$4k + 3$$):**
+   Cùng một chiêu Euclid nhưng chỉ đổi nhẹ công thức: giả sử chỉ có hữu hạn số nguyên tố dạng $$4k+3$$ là $$p_1, p_2, \ldots, p_m$$ (chẳng hạn $$\{3, 7, 11\}$$). Đặt
+   $$
+   M = 4 p_1 p_2 \cdots p_m - 1.
+   $$
+   - Thử bằng tay với $$\{3, 7\}$$: $$M = 4 \cdot 3 \cdot 7 - 1 = 83$$ (nguyên tố dạng $$4k+3$$).
+   - Thử bằng tay với $$\{3, 7, 11\}$$: $$M = 4 \cdot 3 \cdot 7 \cdot 11 - 1 = 923 = 13 \times 71$$. Lưu ý $$13 \equiv 1 \pmod 4$$ nhưng $$71 \equiv 3 \pmod 4$$! Vì tích các số dạng $$4k+1$$ luôn có dạng $$4k+1$$, mà $$M \equiv 3 \pmod 4$$, nên $$M$$ **bắt buộc** phải có ít nhất một ước nguyên tố $$q \equiv 3 \pmod 4$$. Hơn nữa $$M \equiv -1 \pmod{p_i}$$, nên $$q$$ nằm ngoài danh sách! Chỉ một phép kiểm tra tay đã cho thấy kỹ thuật Euclid là cả một phương pháp chứ không phải mẹo dùng một lần.
 
 ### Ý tưởng chứng minh *là* gì
 
@@ -100,30 +124,10 @@ Không số nguyên tố nào trong danh sách chia hết $$N$$. Dù $$N$$ là s
 
 ### Ý tưởng chứng minh *không phải* là gì
 
-- Không khẳng định $$N$$ luôn là số nguyên tố. Đôi khi $$N$$ là hợp số, ví dụ
-
-$$
-2\cdot 3\cdot 5\cdot 7\cdot 11\cdot 13 + 1 = 30031 = 59\cdot 509,
-$$
-
-và cả $$59$$ lẫn $$509$$ đều là số nguyên tố nằm ngoài danh sách.  
+- Không khẳng định $$N$$ luôn là số nguyên tố ($$30031 = 59 \cdot 509$$ là phản ví dụ ngay ở bước thứ 6).  
 - Không sinh ra các số nguyên tố theo thứ tự tăng dần.  
 - Không cho cách kiểm tra tính nguyên tố trong thực tế, cũng không nói gì về mật độ số nguyên tố.  
 - Không cần đến định lý phân tích duy nhất ở dạng đầy đủ: ở mức ý tưởng, chỉ cần "mọi số nguyên $$>1$$ đều có ước nguyên tố".
-
-### Ví dụ cụ thể theo từng bước
-
-Hãy chạy thử "cỗ máy Euclid" trên vài danh sách nhỏ để thấy điều gì thực sự xảy ra:
-
-| Danh sách giả định | Tích $$P$$ | Số $$N = P + 1$$ | Phân tích $$N$$ | Số nguyên tố mới thoát ra |
-|--------------------|------------|------------------|-----------------|---------------------------|
-| $$\{2\}$$ | $$2$$ | $$3$$ | Nguyên tố | $$3$$ |
-| $$\{2, 3\}$$ | $$6$$ | $$7$$ | Nguyên tố | $$7$$ |
-| $$\{2, 3, 5\}$$ | $$30$$ | $$31$$ | Nguyên tố | $$31$$ |
-| $$\{2, 3, 5, 7, 11\}$$ | $$2310$$ | $$2311$$ | Nguyên tố | $$2311$$ |
-| $$\{2, 3, 5, 7, 11, 13\}$$ | $$30030$$ | $$30031$$ | $$59 \times 509$$ (hợp số) | $$59$$ và $$509$$ |
-
-Nhìn dòng cuối cùng: $$N = 30031$$ không hề là số nguyên tố, nhưng các ước nguyên tố $$59$$ và $$509$$ của nó chắc chắn không thể có mặt trong $$\{2, 3, 5, 7, 11, 13\}$$. Bài học không đổi: điều quan trọng là **ước nguyên tố là số mới**, không phải bản thân $$N$$ là số nguyên tố.
 
 ### Vì sao đây là chứng minh mẫu mực
 
@@ -165,6 +169,27 @@ liệt kê mọi số trong $$(0,1)$$ dưới dạng thập phân vô hạn. G�
 
 *Hình. Đổi các chữ số trên đường chéo; số mới khác mọi hàng.*
 
+### Ví dụ cầm tay chỉ việc với 4 số thực cụ thể
+
+Giả sử ai đó đưa ra một danh sách mở đầu bằng bốn số thực quen thuộc trong $$(0,1)$$ (lấy từ $$\pi/10, e/10, \phi/10, \sqrt{2}/10$$):
+
+$$
+\begin{align*}
+r_1 &= 0.\mathbf{3}1415\ldots,\\
+r_2 &= 0.2\mathbf{7}182\ldots,\\
+r_3 &= 0.16\mathbf{1}80\ldots,\\
+r_4 &= 0.141\mathbf{4}2\ldots.
+\end{align*}
+$$
+
+Đọc dọc đường chéo (in đậm): $$d_{11}=3$$, $$d_{22}=7$$, $$d_{33}=1$$, $$d_{44}=4$$. Áp dụng quy tắc an toàn (khác $$4$$ thì chọn $$4$$, bằng $$4$$ thì chọn $$5$$):
+
+$$
+e_1 = 4,\quad e_2 = 4,\quad e_3 = 4,\quad e_4 = 5 \implies d = 0.4445\ldots
+$$
+
+Kiểm tra trực tiếp: $$d \neq r_1$$ (chữ số 1 là $$4 \neq 3$$), $$d \neq r_2$$ (chữ số 2 là $$4 \neq 7$$), $$d \neq r_3$$ (chữ số 3 là $$4 \neq 1$$), $$d \neq r_4$$ (chữ số 4 là $$5 \neq 4$$). Vì $$d$$ chỉ dùng hai chữ số $$4$$ và $$5$$, nó không bao giờ có đuôi toàn $$0$$ hay toàn $$9$$, nên tránh trọn vẹn bẫy biểu diễn kép $$0.1999\ldots = 0.2000\ldots$$.
+
 ### Chi tiết kỹ thuật (một chứng minh chặt chẽ cần lưu ý gì)
 
 - **Biểu diễn thập phân không duy nhất.** Đẳng thức kiểu $$0.1999\ldots=0.2000\ldots$$ cho thấy khác chữ số chưa chắc là khác số thực. Chứng minh cẩn thận sẽ giới hạn các biểu diễn được dùng (ví dụ cấm đuôi toàn chữ số 9), chọn quy tắc đổi chữ số tránh biểu diễn kép (như dùng 4 và 5 ở trên), hoặc dùng một cơ số hay cách mã hóa kiểm soát được sự mơ hồ này.  
@@ -182,27 +207,6 @@ liệt kê mọi số trong $$(0,1)$$ dưới dạng thập phân vô hạn. G�
 - Không có nghĩa là "bạn không đếm được xa". Không đếm được nghĩa là *không tồn tại song ánh với $$\mathbb{N}$$*, không phải con người hết kiên nhẫn.  
 - Không chứng minh tập số thực là "cỡ vô hạn ngay sau đếm được". Có hay không một lực lượng trung gian là **giả thuyết continuum**, và nó độc lập với lý thuyết tập hợp chuẩn theo nghĩa kỹ thuật.  
 - Không đòi hỏi dựng $$d$$ bằng một công thức "tự nhiên" không phụ thuộc danh sách; phép dựng *phụ thuộc vào danh sách được đưa ra*, và đó chính là điểm mấu chốt.
-
-### Ví dụ minh họa với vài số
-
-Giả sử ai đó đưa ra một danh sách mở đầu bằng bốn số thực quen thuộc trong $$(0,1)$$ (chẳng hạn các phần thập phân gần với $$\pi/10, e/10, \phi/10, \sqrt{2}/10$$):
-
-$$
-\begin{align*}
-r_1 &= 0.\mathbf{3}1415\ldots,\\
-r_2 &= 0.2\mathbf{7}182\ldots,\\
-r_3 &= 0.16\mathbf{1}80\ldots,\\
-r_4 &= 0.141\mathbf{4}2\ldots.
-\end{align*}
-$$
-
-Các chữ số nằm trên đường chéo (in đậm) là $$d_{11}=3$$, $$d_{22}=7$$, $$d_{33}=1$$, $$d_{44}=4$$. Áp dụng quy tắc an toàn (khác $$4$$ thì chọn $$4$$, bằng $$4$$ thì chọn $$5$$), ta thu được:
-
-$$
-e_1 = 4,\quad e_2 = 4,\quad e_3 = 4,\quad e_4 = 5 \implies d = 0.4445\ldots
-$$
-
-Số $$d$$ chắc chắn khác $$r_1$$ (ở chữ số thứ 1: $$4 \neq 3$$), khác $$r_2$$ (ở chữ số thứ 2: $$4 \neq 7$$), khác $$r_3$$ (ở chữ số thứ 3: $$4 \neq 1$$), và khác $$r_4$$ (ở chữ số thứ 4: $$5 \neq 4$$). Với danh sách vô hạn, ta thực hiện cùng thao tác ấy ở mọi vị trí thứ $$n$$. Và vì $$d$$ chỉ chứa hai chữ số $$4$$ và $$5$$, nó không bao giờ kết thúc bằng đuôi toàn $$0$$ hay toàn $$9$$, nên tránh trọn vẹn bẫy biểu diễn kép.
 
 ### Những kết quả kế thừa ý tưởng
 
@@ -291,6 +295,7 @@ Dùng video để **định hướng và văn hóa nghiên cứu**, không thay 
 **Nhắc trạng thái:** **Proved** (classical; Euclid, Elements IX.20). Status closed; pedagogy of the *idea* remains active.
 
 ---
+
 
 
 ### Transcript và khung hình (video chính)

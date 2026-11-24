@@ -13,7 +13,7 @@ Hơn 2.200 năm trước, từ thành Syracuse, Archimedes gửi cho người b�
 
 Bài học này giải mã cú sốc đó, đồng thời mở nắp chiếc hộp động cơ đứng sau nó: phương trình $$x^2-dy^2=1$$, luật nhóm đại số biến một nghiệm thành vô hạn nghiệm, và thuật toán phân số liên tục tinh tế để săn tìm nghiệm đầu tiên.
 
-**Lộ trình:** câu đố → phần tuyến tính và các ràng buộc số chính phương/số tam giác → phương trình Pell (và cái tên bị gán nhầm) → phép hợp thành Brahmagupta → phân số liên tục cho $$d=2$$ → vì sao số chữ số tăng vọt → Pell âm và định lý Stevenhagen → nhầm lẫn thường gặp, bài tập.
+**Lộ trình:** câu đố → phần tuyến tính và các ràng buộc số chính phương/số tam giác → phương trình Pell (và cái tên bị gán nhầm) → phép hợp thành Brahmagupta → phân số liên tục cho $$d=2$$ và $$d=7$$ → vì sao số chữ số tăng vọt → Pell âm và định lý Stevenhagen → nhầm lẫn thường gặp.
 
 Nguồn phổ biến: [Toán Khó (7/8/2026)](https://toankho.com/2026/08/07/bai-toan-dan-bo-cua-archimedes-va-phuong-trinh-pell/). Nội dung dưới đây là phần toán học được trình bày lại, không phải bản dịch của trang đó.
 
@@ -34,7 +34,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Phương trình Diophantine và lý thuyết số đại số là gì?
+## Bản đồ kiến thức nền: Phương trình Diophantine và Lý thuyết số đại số là gì và giữ vai trò gì?
 
 Trên tập số thực, phương trình $$x^2 - 61y^2 = 1$$ là chuyện vặt: đó chỉ là một đường hyperbola trơn tru với vô số điểm $$(x, y)$$ dễ dàng tìm bằng cách chọn tùy ý $$y$$ rồi lấy căn. Nhưng chỉ cần thêm một yêu cầu duy nhất — **$$x$$ và $$y$$ phải là số nguyên** — bài toán lập tức trở thành một **phương trình Diophantine**, nơi nghiệm dương nhỏ nhất vọt lên tới 10 chữ số!
 
@@ -44,7 +44,7 @@ $$
 x^2 - dy^2 = (x + y\sqrt{d})(x - y\sqrt{d}) = N(x + y\sqrt{d}).
 $$
 
-Khi ấy, tìm nghiệm nguyên của phương trình Pell chính là đi tìm các **phần tử khả nghịch (đơn vị)** có chuẩn $$+1$$ trong vành $$\mathbb{Z}[\sqrt{d}]$$ — lập tức biến một bài toán đếm số rời rạc thành cấu trúc **nhóm nhân** gọn ghẽ, đồng thời nối trực tiếp với nghệ thuật xấp xỉ số vô tỉ $$\sqrt{d}$$ bằng phân số liên tục!
+Khi ấy, tìm nghiệm nguyên của phương trình Pell chính là đi tìm các **phần tử khả nghịch (đơn vị)** có chuẩn $$+1$$ trong vành $$\mathbb{Z}[\sqrt{d}]$$ — lập tức biến một bài toán đếm số rời rạc thành cấu trúc **nhóm nhân** gọn ghẽ (định lý đơn vị Dirichlet), đồng thời nối trực tiếp với nghệ thuật xấp xỉ số vô tỉ $$\sqrt{d}$$ bằng phân số liên tục. Trong toán học hiện đại, cùng bộ máy vành số nguyên, nhóm đơn vị và nhóm lớp lý tưởng này là nền tảng cho định lý lớn Fermat, chương trình Langlands và lý thuyết mật mã số học.
 
 ---
 
@@ -144,7 +144,7 @@ Vì vậy "tìm được một nghiệm là có vô hạn nghiệm" không phả
 
 ---
 
-## 4. Tìm nghiệm đầu tiên: $$d=2$$
+## 4. Tìm nghiệm đầu tiên: $$d=2$$ và ví dụ cầm tay chỉ việc với $$d=7$$
 
 Viết lại phương trình $$x^2 - dy^2 = 1$$ dưới dạng $$\frac{x}{y} - \sqrt{d} = \frac{1}{y(x+y\sqrt{d})} \approx \frac{1}{2\sqrt{d}\,y^2}$$. Điều này cho thấy mỗi nghiệm $$(x,y)$$ tương ứng với một phân số $$x/y$$ **xấp xỉ cực kỳ sát** số vô tỉ $$\sqrt{d}$$! Và công cụ tìm các phân số xấp xỉ tốt nhất trong toán học chính là **phân số liên tục**.
 
@@ -171,11 +171,40 @@ $$
 
 rồi $$(17,12)\ast(3,2)=(99,70)$$. Dãy nghiệm tiếp tục: $$(1,0),\ (3,2),\ (17,12),\ (99,70),\ (577,408),\ \ldots$$.
 
+### Ví dụ cầm tay chỉ việc: giải trọn vẹn $$x^2 - 7y^2 = 1$$ bằng phân số liên tục
+
+Để thấy thuật toán chạy ra sao khi chu kỳ dài hơn 1, hãy khai triển $$\sqrt{7} \approx 2{,}6457$$ từng bước một:
+1. Tách phần nguyên $$2$$: $$\sqrt{7} = 2 + (\sqrt{7}-2) = 2 + \dfrac{1}{\frac{\sqrt{7}+2}{3}}$$.
+2. Vì $$\frac{\sqrt{7}+2}{3} \approx 1{,}55$$, tách phần nguyên $$1$$: $$\frac{\sqrt{7}+2}{3} = 1 + \frac{\sqrt{7}-1}{3} = 1 + \dfrac{1}{\frac{\sqrt{7}+1}{2}}$$.
+3. Vì $$\frac{\sqrt{7}+1}{2} \approx 1{,}82$$, tách phần nguyên $$1$$: $$\frac{\sqrt{7}+1}{2} = 1 + \frac{\sqrt{7}-1}{2} = 1 + \dfrac{1}{\frac{\sqrt{7}+1}{3}}$$.
+4. Vì $$\frac{\sqrt{7}+1}{3} \approx 1{,}22$$, tách phần nguyên $$1$$: $$\frac{\sqrt{7}+1}{3} = 1 + \frac{\sqrt{7}-2}{3} = 1 + \dfrac{1}{\sqrt{7}+2}$$.
+5. Cuối cùng $$\sqrt{7}+2 = 4 + (\sqrt{7}-2)$$ — quay lại đúng phần dư bước 1! Vậy $$\sqrt{7} = [2;\overline{1, 1, 1, 4}]$$ (chu kỳ dài $$4$$).
+
+Lập bảng các phân số xấp xỉ $$p_n/q_n$$ (dùng công thức truy hồi $$p_n = a_n p_{n-1} + p_{n-2}$$):
+
+| $$n$$ | Hệ số $$a_n$$ | Phân số $$p_n/q_n$$ | $$p_n^2 - 7q_n^2$$ |
+|---:|---:|:---:|---:|
+| 0 | 2 | $$2/1$$ | $$4 - 7 = -3$$ |
+| 1 | 1 | $$3/1$$ | $$9 - 7 = +2$$ |
+| 2 | 1 | $$5/2$$ | $$25 - 28 = -3$$ |
+| 3 | 1 | **$$8/3$$** | **$$64 - 63 = +1$$** |
+
+Ta bắt được ngay nghiệm cơ bản $$(x_1, y_1) = (8, 3)$$! Và bình phương $$(8 + 3\sqrt{7})^2 = (64 + 63) + 48\sqrt{7} = 127 + 48\sqrt{7}$$ lập tức cho nghiệm thứ hai $$(127, 48)$$ (kiểm tra: $$127^2 - 7\cdot 48^2 = 16\,129 - 16\,128 = 1$$!).
+
 ![Điểm nguyên trên hyperbola x² − 2y² = 1]({{ site.baseurl }}/img/chapter_img/pell_hyperbola_d2_toankho.png)
 
 *Hình. Hyperbola $$x^2-2y^2=1$$ và các điểm nguyên. Bảng nghiệm trong hình là đúng. Nhưng công thức đóng khung $$x+y\sqrt{2}=(1+\sqrt{2})^n$$ thì **sai**: $$1+\sqrt{2}$$ có chuẩn $$-1$$, nên các lũy thừa lẻ cho nghiệm của $$x^2-2y^2=-1$$. Nghiệm của phương trình $$+1$$ ứng với lũy thừa chẵn, tức $$(x+y\sqrt{2})=(3+2\sqrt{2})^n=(1+\sqrt{2})^{2n}$$. (Hình nguồn: [Toán Khó](https://toankho.com/2026/08/07/bai-toan-dan-bo-cua-archimedes-va-phuong-trinh-pell/); sinh bằng AI.)*
 
-Ý tưởng chứng minh sự tồn tại: có một phân số xấp xỉ $$p/q$$ của $$\sqrt{d}$$ thỏa $$p^2-dq^2=\pm 1$$; nếu là $$-1$$ thì hợp thành nghiệm đó với chính nó sẽ được một nghiệm $$+1$$.
+### Khung giải thích: vì sao phương trình Pell lại nối phân số liên tục với nhóm đơn vị đại số (nên đọc chậm)
+
+Để hiểu trọn vẹn bộ máy đứng sau bài toán đàn bò mà không bị rối, hãy đọc chậm chuỗi 4 bước sau:
+
+1. **Rút gọn bài toán hình học về phương trình Diophantine:** Hệ 7 tỉ lệ tuyến tính chốt đàn bò theo 1 tham số $$k$$; hai điều kiện "số chính phương" và "số tam giác" ép $$k$$ phải thỏa $$u^2 - 4{,}729{,}494\, v^2 = 1$$.
+2. **Dịch sang ngôn ngữ xấp xỉ số vô tỉ:** Vì $$\lvert x/y - \sqrt{d}\rvert \approx \frac{1}{2\sqrt{d}\,y^2}$$, mọi nghiệm Pell bắt buộc phải nằm trong danh sách các phân số xấp xỉ tốt nhất (tiệm cận phân số liên tục) của $$\sqrt{d}$$.
+3. **Tính tuần hoàn đảm bảo luôn có nghiệm cơ bản (Lagrange):** Khai triển phân số liên tục của $$\sqrt{d}$$ luôn lặp tuần hoàn; điểm kết thúc chu kỳ đầu tiên chắc chắn cho một cặp $$(p, q)$$ có $$p^2 - dq^2 = \pm 1$$ (nếu là $$-1$$ thì bình phương lên để được $$+1$$).
+4. **Cấu trúc nhóm sinh ra vô hạn nghiệm và giải thích sự bùng nổ chữ số:** Trong vành $$\mathbb{Z}[\sqrt{d}]$$, mọi nghiệm dương chỉ là lũy thừa $$(x_1 + y_1\sqrt{d})^n$$ của đơn vị cơ bản. Chu kỳ phân số liên tục càng dài thì nghiệm cơ bản $$x_1$$ tăng theo **hàm mũ** — khiến $$d=61$$ vọt lên 10 chữ số, còn $$d=4{,}729{,}494$$ bùng nổ tới 206.545 chữ số!
+
+**Kiểm tra nhanh.** Vì sao $$x^2 - 3y^2 = -1$$ không có nghiệm nguyên? Chỉ cần xét modulo $$3$$: mọi bình phương $$x^2$$ chia $$3$$ chỉ dư $$0$$ hoặc $$1$$, không bao giờ dư $$-1 \equiv 2$$!
 
 ---
 

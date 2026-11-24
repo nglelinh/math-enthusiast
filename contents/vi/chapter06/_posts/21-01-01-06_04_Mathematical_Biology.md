@@ -78,6 +78,40 @@ $$R_0$$ xuất hiện khi tuyến tính hóa tại điểm cân bằng không c�
 
 ---
 
+### Khung giải thích: tính tay đỉnh dịch SIR và ngưỡng miễn dịch cộng đồng (nên đọc chậm)
+
+Nhiều người nghĩ hệ phương trình phi tuyến SIR chỉ có thể giải bằng mô phỏng máy tính. Thực ra, bằng một phép chia hai phương trình đơn giản của giải tích năm nhất, bạn có thể tính chính xác **đỉnh dịch cao bao nhiêu** mà không cần biết hàm theo thời gian $$I(t)$$!
+
+1. **Tìm bất biến (tích phân đầu) của hệ SIR:** Lấy phương trình $$\dot I = \beta SI - \gamma I$$ chia cho $$\dot S = -\beta SI$$ (khử biến thời gian $$t$$):
+
+   $$
+   \frac{dI}{dS} = \frac{\beta SI - \gamma I}{-\beta SI} = -1 + \frac{\gamma}{\beta S} = -1 + \frac{1}{R_0 S}, \qquad \text{với } R_0 = \frac{\beta}{\gamma}.
+   $$
+
+   Lấy nguyên hàm hai vế theo $$S$$, ta thu được đại lượng bảo toàn dọc theo toàn bộ quỹ đạo dịch:
+
+   $$
+   I(t) + S(t) - \frac{1}{R_0}\ln S(t) \;=\; I_0 + S_0 - \frac{1}{R_0}\ln S_0.
+   $$
+
+2. **Thay số cụ thể (khớp đúng kịch bản video trên):** Giả sử $$R_0 = 3$$, ban đầu có $$3\%$$ người nhiễm và $$97\%$$ người nhạy cảm ($$S_0 = 0.97,\ I_0 = 0.03,\ S_0 + I_0 = 1$$).
+   - **Lúc nào dịch đạt đỉnh?** Khi $$\dot I = 0 \Leftrightarrow \beta SI = \gamma I \Leftrightarrow S_{\text{đỉnh}} = \frac{1}{R_0} = \frac{1}{3} \approx 0.333$$.
+   - **Tỷ lệ người nhiễm ngay tại đỉnh dịch:** Thay $$S_{\text{đỉnh}} = \frac{1}{3}$$ vào bất biến vừa tìm:
+     $$
+     I_{\text{đỉnh}} = (S_0 + I_0) - S_{\text{đỉnh}} + \frac{1}{R_0}\ln\Bigl(\frac{S_{\text{đỉnh}}}{S_0}\Bigr)
+     = 1 - \frac{1}{3} + \frac{1}{3}\ln\Bigl(\frac{1/3}{0.97}\Bigr)
+     \approx 0.667 + \frac{1}{3}(-1.068) \approx 0.311.
+     $$
+     Tức là **hơn 31% dân số bị nhiễm bệnh cùng một thời điểm** — một con số giải thích ngay lập tức vì sao hệ thống y tế dễ quá tải khi $$R_0 = 3$$!
+
+3. **Ngưỡng miễn dịch cộng đồng (tiêm chủng):** Muốn dịch không thể bùng phát ngay từ $$t=0$$, ta cần $$\dot I(0) \le 0 \Leftrightarrow S_0 \le \frac{1}{R_0}$$. Với $$R_0 = 3$$, ta cần tỷ lệ người đã tiêm chủng ít nhất là
+
+   $$
+   p_c = 1 - \frac{1}{R_0} = 1 - \frac{1}{3} = \frac{2}{3} \approx 66.7\%.
+   $$
+
+Tất cả các con số trên đều chặt chẽ tuyệt đối *bên trong mô hình SIR trộn đều*. Khi áp dụng ngoài đời, câu hỏi sinh học quan trọng nhất không phải là kiểm tra lại phép lấy nguyên hàm, mà là kiểm tra xem giả thiết "trộn đều" và "$$R_0$$ không đổi" sai lệch tới đâu.
+
 ## 2. Mạng sinh hóa: ma trận hợp thức
 
 Với nồng độ $$x\in\mathbb{R}^n_{\ge 0}$$ và ma trận hợp thức (stoichiometry) $$\Gamma$$:

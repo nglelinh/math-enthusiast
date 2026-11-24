@@ -11,11 +11,11 @@ categories:
 
 Dãy số nguyên tố càng đi xa càng thưa dần — ở vùng gần $$10^{100}$$, trung bình phải đi qua hàng trăm số tự nhiên mới gặp lại một số nguyên tố. Thế nhưng thỉnh thoảng, hai số nguyên tố vẫn đứng sát rạt cạnh nhau, chỉ cách nhau đúng $$2$$ đơn vị: $$(3, 5)$$, $$(11, 13)$$, $$(29, 31)$$, $$(101, 103)$$, và thậm chí ở tận vùng hàng trăm nghìn chữ số! Liệu những cặp "số nguyên tố sinh đôi" như thế có xuất hiện mãi mãi không?
 
-Đó là một trong những câu hỏi cổ xưa và bướng bỉnh nhất của toán học. Suốt hàng thế kỷ, các nhà toán học thậm chí không chứng minh nổi rằng tồn tại *một hằng số hữu hạn nào đó* — dù là một tỉ! — sao cho có vô hạn cặp số nguyên tố cách nhau không quá hằng số ấy. Rồi mùa xuân năm 2013, bức tường ấy bất ngờ nứt toác khi Yitang Zhang đưa ra mốc 70 triệu; và chỉ vài tháng sau, một nghiên cứu sinh sau tiến sĩ trẻ tuổi tên là **James Maynard** (cùng lúc với Terence Tao) đã giới thiệu một chiếc sàng tinh gọn và mạnh mẽ đến mức kéo sập mốc ấy xuống chỉ còn vài trăm, đồng thời mở khóa hàng loạt bài toán khác về cấu trúc của số nguyên tố: khoảng cách cực lớn, số nguyên tố không chứa chữ số 7, hay xấp xỉ Diophantine.
+Đó là một trong những câu hỏi cổ xưa và bướng bỉnh nhất của toán học. Suốt hàng thế kỷ, các nhà toán học thậm chí không chứng minh nổi rằng tồn tại *một hằng số hữu hạn nào đó* — dù là một tỉ! — sao cho có vô hạn cặp số nguyên tố cách nhau không quá hằng số ấy. Rồi mùa xuân năm 2013, bức tường ấy bất ngờ nứt toác khi Yitang Zhang đưa ra mốc 70 triệu; và chỉ vài tháng sau, một nghiên cứu sinh sau tiến sĩ trẻ tuổi tên là **James Maynard** (cùng lúc với Terence Tao) đã giới thiệu một chiếc sàng tinh gọn và mạnh mẽ đến mức kéo sập mốc ấy xuống chỉ còn vài trăm, đồng thời mở khóa hàng loạt bài toán khác về cấu trúc của số nguyên tố: khoảng cách cực lớn, số nguyên tố không chứa chữ số 7, và giả thuyết Duffin–Schaeffer trong xấp xỉ Diophantine.
 
-Chính sự linh hoạt và chiều sâu ấy đã mang về cho **James Maynard** tấm **Huy chương Fields 2022**. Nếu Green–Tao tìm kiếm những *cấp số cộng dài tùy ý* bằng tổ hợp cộng tính, thì Maynard lại đi theo con đường cổ điển nhưng được làm mới ngoạn mục của **lý thuyết số giải tích** và **phương pháp sàng nhiều chiều**.
+Chính sự sắc bén và linh hoạt ấy đã mang về cho **James Maynard** tấm **Huy chương Fields 2022**.
 
-Bài này dành cho người đã biết sơ lược định lý số nguyên tố, và muốn hiểu *vì sao* kết quả về khoảng cách bị chặn là một đột phá, *vì sao* nó vẫn yếu hơn giả thuyết số nguyên tố sinh đôi, và Maynard đứng *ở đâu* trong cộng đồng Zhang–Tao–Polymath.
+**Mạch bài học:** Bản đồ kiến thức nền (phương pháp sàng, kiểm tra tay chòm chấp nhận được, nguyên lý Dirichlet có trọng số) → Đột phá Zhang (2013) → Khung giải thích chậm 4 bước: trọng số sàng nhiều chiều của Maynard và bài toán cực trị trên đơn hình → Khoảng cách lớn, chữ số bị hạn chế & Duffin–Schaeffer → So sánh với Green–Tao.
 
 ---
 
@@ -23,14 +23,13 @@ Bài này dành cho người đã biết sơ lược định lý số nguyên t�
 
 Sau bài học, bạn có thể:
 
-- Phát biểu định lý về khoảng cách bị chặn của Zhang–Maynard bằng ngôn ngữ $$\liminf$$, và nói được ý nghĩa của một chặn tường minh.
-- Giải thích vì sao **phương pháp sàng** là công cụ tự nhiên để tìm số nguyên tố trong các dạng tuyến tính $$n+h_1,\ldots,n+h_k$$.
+- Phát biểu định lý về khoảng cách bị chặn của Zhang–Maynard bằng ngôn ngữ $$\liminf$$ và tự kiểm tra bằng tay điều kiện **chòm chấp nhận được**.
+- Giải thích vì sao **phương pháp sàng** hiện đại dùng trọng số mượt $$w_n \ge 0$$ thay cho phép đếm bù trừ cứng nhắc.
+- Hiểu mạch 4 bước của **trọng số nhiều chiều Maynard**: vì sao nâng hàm trọng số từ 1 biến (GPY) lên $$k$$ biến độc lập lại cho phép bắt được $$m$$ số nguyên tố tùy ý trong một khoảng ngắn.
 - Phân biệt **khoảng cách bị chặn** với **giả thuyết số nguyên tố sinh đôi** và với **định lý Green–Tao**.
-- Mô tả sơ lược ý tưởng **trọng số nhiều chiều** (từ GPY đến Maynard).
-- Nêu thêm hai hướng khác trong các công trình của Maynard: **khoảng cách lớn** và **số nguyên tố có chữ số bị hạn chế**.
-- Ghi nhận công lao đúng: Zhang năm 2013; Maynard độc lập; cộng đồng hạ dần chặn số; Huy chương Fields 2022 cho cả một loạt công trình.
+- Nêu thêm các hướng nổi bật khác của Maynard: **khoảng cách lớn**, **số nguyên tố có chữ số bị hạn chế**, và **giả thuyết Duffin–Schaeffer**.
 
-**Kiến thức cần có.** Số nguyên tố; định lý số nguyên tố $$\pi(x)\sim x/\log x$$; sàng Eratosthenes; khoảng cách $$p_{n+1}-p_n$$.
+**Kiến thức cần có.** Số nguyên tố, phép chia lấy dư modulo $$p$$, sàng Eratosthenes và định lý số nguyên tố $$\pi(x) \sim x/\ln x$$.
 
 **Liên hệ với khóa học.** Đọc cùng [Green–Tao]({{ site.baseurl }}/contents/vi/chapter02/02_04_Green_Tao/) để so sánh tổ hợp cộng tính với phương pháp sàng; [Giả thuyết Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) chỉ đóng vai trò bối cảnh về phân bố, vì kết quả khoảng cách bị chặn cổ điển không giả sử RH.
 
@@ -38,157 +37,125 @@ Sau bài học, bạn có thể:
 
 ## Bản đồ kiến thức nền: Lý thuyết số giải tích và Phương pháp sàng (Sieve Theory)
 
-Để hiểu "chiếc sàng" của Maynard khác gì với cách tìm số nguyên tố ở trường phổ thông, hãy nhìn vào bản chất của lĩnh vực này:
+### 1. Lý thuyết số giải tích & Phương pháp sàng nghiên cứu gì?
+Vì không có công thức đóng sinh ra số nguyên tố thứ $$n$$, **lý thuyết số giải tích** dùng công cụ giải tích (tích phân, ước lượng tiệm cận, biến đổi Fourier) để nghiên cứu phân bố trung bình của số nguyên tố. Trong đó, **phương pháp sàng** (*sieve theory*) phát triển từ ý tưởng cổ điển của Eratosthenes (gạch bỏ bội của $$2, 3, 5, \dots$$).
 
-- **Lý thuyết số giải tích (Analytic Number Theory) nghiên cứu gì?** Dùng các công cụ của giải tích (tích phân, ước lượng tiệm cận, chuỗi vô hạn, hàm phức) để trả lời các câu hỏi về số nguyên — nhất là sự phân bố của số nguyên tố. Vì ta không có "công thức đóng" sinh ra số nguyên tố thứ $$n$$, nhà toán học nghiên cứu chúng qua các **trung bình** và **xấp xỉ thống kê**.
-- **Phương pháp sàng (Sieve Theory) là gì?** Mọi người đều biết *sàng Eratosthenes*: muốn tìm số nguyên tố, ta gạch bỏ bội của 2, rồi bội của 3, rồi bội của 5... Nhưng nếu thử đếm chính xác còn lại bao nhiêu số bằng nguyên lý bù trừ (cộng–trừ theo từng ước), số lượng số hạng sai số phình lên nhanh theo hàm mũ và phá hỏng mọi ước lượng! **Phương pháp sàng hiện đại** (từ Brun, Selberg đến GPY và Maynard) giải quyết điều đó bằng cách thay phép đếm cứng nhắc ($$0$$ hoặc $$1$$) bằng các **trọng số mượt** $$w_n \ge 0$$: gán điểm cao cho những số *ít khả năng chia hết cho các số nguyên tố nhỏ*, rồi chứng minh tổng số điểm ấy đủ lớn để đảm bảo có số nguyên tố thật sự lọt qua sàng.
-- **Ví dụ nhỏ về "chòm chấp nhận được" (admissible tuple):** Muốn tìm nhiều số nguyên tố nằm sát nhau dạng $$n + h_1, \dots, n + h_k$$, ta không thể chọn bừa độ dời! Ví dụ bộ 3 số $$(n, n+2, n+4)$$ luôn có **ít nhất một số chia hết cho 3** (vì $$0, 2, 4$$ phủ kín mọi số dư modulo 3), nên bộ này chỉ có đúng một lần toàn nguyên tố là $$(3, 5, 7)$$ rồi hết! Trái lại, bộ $$(n, n+2, n+6)$$ tránh được modulo 2 (chỉ toàn số lẻ nếu $$n$$ lẻ) và tránh được modulo 3 (bỏ trống số dư $$1 \pmod 3$$ khi $$n \equiv 5 \pmod 6$$), nên nó **chấp nhận được** — ví dụ $$(5, 7, 11)$$, $$(11, 13, 17)$$, $$(17, 19, 23)$$. Chiếc sàng của Maynard tìm kiếm ít nhất hai (hoặc thậm chí $$m$$) số nguyên tố nằm trong một chòm chấp nhận được đủ lớn!
+Nhưng nếu dùng nguyên lý bù trừ (cộng–trừ từng ước nguyên tố $$\le \sqrt{N}$$) để đếm số nguyên tố còn sót lại, số hạng sai số phình lên thành $$2^{\pi(\sqrt{N})}$$ — lớn hơn cả $$N$$ và nuốt chửng số hạng chính! Các phương pháp sàng hiện đại (Brun, Selberg, GPY, Maynard) thay việc đếm cứng nhắc bằng các **trọng số mượt không âm $$w_n \ge 0$$** (thường viết dạng bình phương $$w_n = (\sum \lambda_d)^2$$ để tự động không âm!) và chấp nhận chỉ sàng các ước nhỏ hơn một ngưỡng $$R = N^{\theta/2}$$.
+
+### 2. Chòm chấp nhận được (Admissible Tuple) — Ví dụ cầm tay tự kiểm tra
+Muốn tìm nhiều số nguyên tố cùng lúc trong một chòm tuyến tính $$n + h_1, \dots, n + h_k$$, ta không thể chọn bừa độ dời $$(h_1, \dots, h_k)$$:
+- **Ví dụ bị loại — Bộ $$(n, n+2, n+4)$$:** Xét theo modulo $$3$$, ba độ dời $$0, 2, 4$$ cho đủ cả ba số dư $$0, 2, 1 \pmod 3$$! Do đó với mọi $$n$$, một trong ba số bắt buộc chia hết cho $$3$$. Bộ này chỉ có đúng một lần toàn nguyên tố là $$(3, 5, 7)$$ rồi không bao giờ lặp lại nữa!
+- **Ví dụ hợp lệ — Bộ $$(n, n+2, n+6)$$:**
+  - Theo modulo $$2$$: độ dời $$0, 2, 6$$ đều chẵn (chỉ chiếm 1/2 số dư → tránh bội của 2 khi $$n$$ lẻ).
+  - Theo modulo $$3$$: độ dời $$0, 2, 6 \equiv 0, 2, 0 \pmod 3$$ (chỉ chiếm 2/3 số dư → tránh bội của 3 khi $$n \equiv 2 \pmod 3$$, tức $$n \equiv 5 \pmod 6$$!).
+  - Theo mọi $$p \ge 5$$: chỉ có 3 số hạng nên không thể phủ hết $$p$$ số dư!
+  - Kết quả: $$(n, n+2, n+6)$$ là **chòm chấp nhận được** — kiểm tra ngay vài giá trị: $$(5, 7, 11)$$, $$(11, 13, 17)$$, $$(17, 19, 23)$$, $$(41, 43, 47)$$.
+
+### 3. Bất đẳng thức Dirichlet có trọng số
+Cho một chòm chấp nhận được $$k$$ phần tử $$(h_1, \dots, h_k)$$ và các trọng số không âm $$w_n \ge 0$$. Nếu ta chứng minh được:
+
+$$
+S \;=\; \sum_{N \le n < 2N} \left(\sum_{j=1}^k \mathbf{1}_{\mathbb{P}}(n + h_j) - (m - 1)\right) w_n \;>\; 0,
+$$
+
+thì **bắt buộc tồn tại ít nhất một $$n \in [N, 2N)$$** sao cho trong chòm $$n+h_1, \dots, n+h_k$$ có **ít nhất $$m$$ số nguyên tố**! (Vì nếu mọi $$n$$ đều có $$\le m - 1$$ số nguyên tố thì mọi số hạng trong tổng đều $$\le 0$$, mâu thuẫn với $$S > 0$$!) Đặt $$m = 2$$, hai số nguyên tố trong cùng chòm cách nhau không quá đường kính $$h_k - h_1$$ — lập tức cho ta **khoảng cách bị chặn**!
 
 ---
 
-## 1. Khoảng cách giữa các số nguyên tố: nhỏ, lớn và các "cấu hình"
+## 1. Khoảng cách giữa các số nguyên tố và cột mốc Zhang (2013)
 
-Ký hiệu $$p_n$$ là số nguyên tố thứ $$n$$. **Khoảng cách liên tiếp** là
+Ký hiệu $$p_n$$ là số nguyên tố thứ $$n$$ và $$g_n = p_{n+1} - p_n$$. Theo Định lý số nguyên tố, khoảng cách trung bình quanh $$x$$ là $$\ln x \to \infty$$, nhưng trung bình lớn không hề cấm việc thỉnh thoảng hai số nguyên tố đứng cực sát nhau!
+
+Năm 2013, **Yitang Zhang** lần đầu tiên trong lịch sử chứng minh vô điều kiện:
 
 $$
-g_n = p_{n+1}-p_n.
+\liminf_{n\to\infty}(p_{n+1}-p_n) \;\le\; 70\,000\,000.
 $$
 
-Định lý số nguyên tố cho thấy khoảng cách "điển hình" ở gần $$x$$ có cỡ $$\log x$$: trung bình của $$g_n$$ tăng không bị chặn. Nhưng điều đó không ngăn được việc **thỉnh thoảng** có khoảng cách rất nhỏ, cũng không ngăn được việc **thỉnh thoảng** có khoảng cách rất lớn so với $$\log x$$.
-
-Ba câu hỏi cổ điển:
-
-1. **Nhỏ, với vô hạn lần.** Có hằng số $$C$$ sao cho $$g_n\le C$$ với vô hạn $$n$$ không? Đó là bài toán **khoảng cách bị chặn** (*bounded gaps*).
-2. **Số nguyên tố sinh đôi.** Có vô hạn $$n$$ với $$g_n=2$$ không? Câu này mạnh hơn nhiều so với "chỉ cần bị chặn bởi *một hằng số nào đó*".
-3. **Lớn.** $$g_n$$ có thể lớn đến mức nào so với $$\log p_n$$?
-
-Ngoài ra, với một bộ độ dời cố định chấp nhận được $$h_1<\cdots<h_k$$, có vô hạn $$n$$ sao cho $$n+h_1,\ldots,n+h_k$$ đều là số nguyên tố (giả thuyết chòm nguyên tố Hardy–Littlewood) hoặc chứa ít nhất $$m$$ số nguyên tố không? Số nguyên tố sinh đôi ứng với $$k=2$$, $$h_2-h_1=2$$. Khoảng cách bị chặn liên quan đến việc một hiệu $$h_j-h_i$$ nào đó xuất hiện vô hạn lần như khoảng cách giữa hai số nguyên tố.
-
-**Một trực giác sai cần tránh.** "Số nguyên tố thưa dần" không có nghĩa là "khoảng cách liên tiếp luôn lớn". Thưa dần là một phát biểu về *trung bình*; các cụm số nguyên tố gần nhau vẫn có thể xuất hiện vô hạn lần.
+Trước đó, Goldston–Pintz–Yıldırım (GPY, 2005) đã chứng minh khung sàng của họ nằm ngay sát mép vạch đích: chỉ cần số nguyên tố phân bố đều trong cấp số cộng với môđun vượt qua ngưỡng **$$1/2$$** (định lý Bombieri–Vinogradov cổ điển đạt đúng $$1/2$$!) là ra khoảng cách bị chặn. Zhang đã làm điều tưởng bất khả thi: vượt qua ngưỡng $$1/2$$ đối với các môđun *trơn* (không có ước nguyên tố lớn), mở tung cánh cửa bị khóa suốt hàng trăm năm.
 
 ---
 
-## 2. Zhang năm 2013: liminf hữu hạn trở thành định lý
+## 2. Khung giải thích: Trọng số nhiều chiều của Maynard tạo nên bước nhảy vọt như thế nào? (nên đọc chậm)
 
-Năm 2013, **Yitang Zhang** — lúc đó là một giảng viên ít tên tuổi tại Đại học New Hampshire — gây chấn động toàn thế giới khi chứng minh
+Chỉ vài tháng sau Zhang, **James Maynard** (và độc lập là Terence Tao) đã khiến giới toán học sững sờ khi không cần đến phần chứng minh siêu khó về môđun trơn của Zhang mà chỉ dùng đúng **Định lý Bombieri–Vinogradov (1965)** đã có sẵn — vừa hạ chặn từ 70 triệu xuống 600 (rồi Polymath8 kéo xuống **246**), vừa chứng minh được tồn tại vô hạn khoảng ngắn chứa **$$m$$ số nguyên tố** với mọi $$m \ge 2$$! Hãy đọc chậm 4 bước cốt lõi:
 
-$$
-\liminf_{n\to\infty}(p_{n+1}-p_n) < \infty,
-$$
-
-với chặn tường minh ban đầu là $$70$$ triệu:
+#### Bước 1: Chỉ ra nút thắt 1 chiều của sàng GPY cổ điển
+Trong sàng GPY (2005), trọng số $$w_n$$ có dạng bình phương phụ thuộc vào **một biến duy nhất** là tích $$d_1 d_2 \cdots d_k$$ của các ước $$d_j \mid (n + h_j)$$:
 
 $$
-\liminf_{n\to\infty}(p_{n+1}-p_n) \le 70\,000\,000.
+w_n^{\text{GPY}} = \left(\sum_{d \mid \prod (n+h_j)} \lambda_d\right)^2.
 $$
 
-Đó là lần đầu tiên có một định lý khẳng định: *có vô hạn cặp số nguyên tố cách nhau không quá một hằng số cố định*. Không cần giả thuyết Riemann. Không cần giả thuyết Elliott–Halberstam đầy đủ. Zhang dùng một dạng kết quả tinh vi về phân bố của số nguyên tố trong cấp số cộng (đánh bại ngưỡng Bombieri–Vinogradov $$1/2$$ đối với các môđun trơn), kết hợp với khung sàng Goldston–Pintz–Yıldırım (GPY).
+Vì chỉ nhìn thấy tích chung $$d = d_1\cdots d_k$$ chứ không phân biệt được ước thuộc về số hạng $$n+h_j$$ nào, tỉ số tối đa $$M_k$$ giữa "phần nguyên tố" và "tổng trọng số" bị **chặn cứng bởi hằng số $$4$$** dù ta chọn chòm dài $$k$$ lớn đến mấy! Do đó GPY không thể vượt ngưỡng khi mức phân bố chỉ là $$\theta = 1/2$$ (vì $$4 \times \frac{1}{2} / 2 = 1$$ — chạm đúng vạch chứ không vượt qua $$1$$!).
 
-**Một bước ngoặt.** Từ lâu người ta đã biết: *nếu* có một giả thuyết phân bố đủ mạnh thì phương pháp GPY cho khoảng cách bị chặn. Zhang chỉ ra rằng *một phần* kết quả phân bố *đã chứng minh được* cũng đủ để đưa phương pháp sàng vượt qua ngưỡng.
-
-Sau Zhang, dự án **Polymath8** (một dự án hợp tác công khai trực tuyến, với Tao và nhiều nhà toán học khác) nhanh chóng hạ chặn số xuống từ 70 triệu xuống vài nghìn, rồi sau đột phá của Maynard xuống còn **246** (một chặn hữu hạn tường minh vô điều kiện, dù vẫn còn xa con số 2).
-
----
-
-## 3. Maynard: khung sàng linh hoạt và trọng số nhiều chiều
-
-**James Maynard**, gần như cùng lúc (và độc lập với Tao), phát triển một biến thể **đơn giản hơn nhưng mạnh hơn hẳn** của phương pháp sàng: không cần dùng đến kết quả cực khó của Zhang về môđun trơn, mà chỉ cần định lý cổ điển Bombieri–Vinogradov từ thập niên 1960 vẫn thu được khoảng cách bị chặn (ban đầu là $$600$$)!
-
-### 3.1. Ý tưởng GPY
-
-Để "bắt" được nhiều số nguyên tố trong bộ $$n+h_1,\ldots,n+h_k$$, người ta không chỉ đếm bằng hàm chỉ thị của số nguyên tố. Thay vào đó, ta xây dựng các **trọng số không âm** $$w_n$$ sao cho tổng trọng số lớn trên miền $$n\sim N$$, nhưng nếu quá nhiều số $$n+h_j$$ là hợp số (chia hết cho số nguyên tố nhỏ) thì trọng số bị **sàng** cho nhỏ đi.
-
-Nếu sau khi sàng, tỉ số giữa "tổng có trọng số của số nguyên tố trong chòm" và "tổng trọng số" vượt quá $$1$$:
+#### Bước 2: Giải phóng trọng số thành hàm $$k$$ biến độc lập (Sàng Maynard–Tao)
+Ý tưởng thiên tài của Maynard là cho hệ số sàng phụ thuộc vào **từng ước riêng biệt** $$(d_1, \dots, d_k)$$ thông qua một hàm mượt $$k$$ biến $$F(t_1, \dots, t_k)$$ xác định trên đơn hình $$\Delta_k = \{t_i \ge 0 : \sum_{i=1}^k t_i \le 1\}$$:
 
 $$
-\frac{\sum_{n} \left(\sum_{j=1}^k \mathbf{1}_{\mathbb{P}}(n+h_j)\right) w_n}{\sum_n w_n} > 1,
+w_n^{\text{Maynard}} = \left(\sum_{\substack{d_i \mid (n+h_i) \\ d_1 \cdots d_k < R}} \mu(d_1)\cdots \mu(d_k)\, F\!\left(\frac{\ln d_1}{\ln R}, \dots, \frac{\ln d_k}{\ln R}\right)\right)^2.
 $$
 
-thì theo nguyên lý Dirichlet (trung bình lớn hơn 1), phải tồn tại vô hạn $$n$$ mà trong chòm $$n+h_1, \dots, n+h_k$$ có **ít nhất hai** số nguyên tố! Hai số nguyên tố nằm cùng một chòm có đường kính $$h_k - h_1$$ lập tức cho ta khoảng cách bị chặn $$\le h_k - h_1$$.
+#### Bước 3: Quy bài toán số học về bài toán cực trị giải tích trên đơn hình $$k$$ chiều
+Áp dụng định lý Bombieri–Vinogradov (mức phân bố $$\theta = 1/2$$), Maynard tính được tường minh tỉ số giữa tử và mẫu của bất đẳng thức Dirichlet qua hai tích phân $$k$$ chiều của hàm $$F$$! Bài toán số nguyên tố bỗng biến thành bài toán biến phân thuần túy: chọn hàm $$F$$ trên đơn hình $$\Delta_k$$ để cực đại hóa tỉ số $$M_k = \sup_F \frac{\sum_{j=1}^k J_k^{(j)}(F)}{I_k(F)}$$.
 
-### 3.2. Trọng số nhiều chiều
+#### Bước 4: Phép màu tăng theo $$\ln k$$ — Bắt được $$m$$ số nguyên tố bất kỳ!
+Maynard chọn một hàm thử cực kỳ khéo léo (dạng tích đối xứng) và chứng minh:
 
-Trong GPY cổ điển, trọng số $$w_n$$ chỉ phụ thuộc vào **một biến duy nhất** là tích $$d_1 d_2 \cdots d_k$$ của các ước của từng số hạng $$n + h_j$$. Điểm thiên tài của Maynard là nhận ra sự ràng buộc 1 chiều đó quá chật chội: ông cho trọng số phụ thuộc vào **một hàm mượt $$k$$ biến độc lập** $$F(t_1, \dots, t_k)$$ theo từng ước $$d_1, \dots, d_k$$ riêng biệt! Nhờ không gian tự do nhiều chiều đó, bài toán cực đại hóa tỉ số ở trên trở thành một bài toán biến phân cổ điển trên đơn hình $$k$$ chiều — và bất ngờ là giá trị tối ưu tăng theo cỡ $$\log k$$ khi $$k \to \infty$$! Điều này không chỉ cho khoảng cách bị chặn giữa **2** số nguyên tố, mà chứng minh rằng với mọi số nguyên $$m \ge 2$$ (ví dụ $$m = 100$$), có vô hạn khoảng có độ dài bị chặn chứa ít nhất $$m$$ số nguyên tố!
+$$
+M_k \;>\; \ln k - 2\ln\ln k - 2 \;\xrightarrow{k \to \infty}\; \infty!
+$$
+
+Thay vì bị kẹt ở $$4$$ như GPY, $$M_k$$ **tiến ra vô cực** khi $$k$$ lớn! Do đó với **mọi** số nguyên $$m \ge 2$$ (dù $$m = 2$$ hay $$m = 1000$$), chỉ cần chọn chòm chấp nhận được đủ dài $$k$$ sao cho $$\frac{\theta}{2} M_k > m - 1$$, ta lập tức có vô hạn khoảng có độ dài bị chặn chứa ít nhất $$m$$ số nguyên tố!
 
 <div class="textbook-theorem" markdown="1">
-**Định lý (tóm tắt; Zhang–Maynard và cộng đồng).** Tồn tại một hằng số tuyệt đối $$C$$ (hiện nay có thể lấy $$C = 246$$ nhờ tối ưu bằng số) sao cho
-
-$$
-\liminf_{n\to\infty}(p_{n+1}-p_n)\le C.
-$$
+**Định lý (Zhang 2013; Maynard 2013; Polymath8).**  
+1. Tồn tại hằng số $$C = 246$$ sao cho $$\liminf_{n\to\infty}(p_{n+1}-p_n) \le 246$$.  
+2. (Maynard–Tao) Với mọi $$m \ge 2$$, tồn tại hằng số $$C_m$$ sao cho $$\liminf_{n\to\infty}(p_{n+m-1} - p_n) \le C_m$$.
 </div>
 
-### 3.3. Ghi nhận công lao đúng
-
-| Vai trò | Nội dung |
-|---------|----------|
-| Zhang (2013) | Lần đầu chứng minh khoảng cách bị chặn mà không cần giả thiết, với chặn tường minh |
-| Maynard | Khung sàng trọng số nhiều chiều độc lập, linh hoạt; nhiều mở rộng ($$m$$ số nguyên tố trong khoảng ngắn) |
-| Tao / Polymath / nhiều tác giả | Hạ chặn số xuống 246, các cải tiến và biến thể |
-| Fields 2022 | Nhiều công trình: khoảng cách nhỏ, khoảng cách lớn, chữ số bị hạn chế, xấp xỉ Diophantine… |
-
-Đừng viết "một mình Maynard phát hiện ra khoảng cách bị chặn".
-
----
-
-## 4. Phương pháp sàng "phát hiện" điều gì?
-
-**Sàng Eratosthenes** loại bỏ các hợp số. **Các phương pháp sàng hiện đại** (Selberg, Brun, GPY, Maynard…) thường không liệt kê mọi số nguyên tố; chúng **ước lượng** số lượng số nguyên tố (hoặc gần nguyên tố) trong một họ, bằng cách cân bằng giữa phần còn lại sau khi loại các số chia hết cho số nguyên tố nhỏ và sai số trong phân bố theo cấp số cộng.
-
-Hãy hình dung $$k$$ "ô" $$n+h_j$$. Ta muốn biết có bao nhiêu lần *ít nhất hai ô* cùng là số nguyên tố. Ta gán trọng số "thưởng" khi các ô có vẻ không chia hết cho số nguyên tố nhỏ nào, rồi chứng minh rằng phần thưởng trung bình quá lớn so với giả định "mỗi chòm có nhiều nhất một số nguyên tố". Đó là một **phép phản chứng định lượng**, không phải thuật toán tìm cặp số nguyên tố.
-
-Phương pháp sàng cho ta **sự tồn tại của vô hạn** đối tượng theo nghĩa trung bình; hiếm khi cho một công thức sinh ra các cặp. Khoảng cách bị chặn là một định lý về cấu trúc, không phải một cách sinh ra các cặp $$p$$ và $$p+C$$.
-
----
-
-## 5. Khoảng cách lớn và số nguyên tố có chữ số bị hạn chế
-
-Các công trình được giải Fields của Maynard không dừng ở khoảng cách nhỏ.
-
-**Khoảng cách lớn.** Từ lâu người ta đã biết có những khoảng trống rất dài không chứa số nguyên tố nào — ví dụ đơn giản nhất là dãy $$(m+1)! + 2, (m+1)! + 3, \dots, (m+1)! + (m+1)$$ gồm $$m$$ hợp số liên tiếp. Nhưng so với độ lớn của $$p_n$$, khoảng trống đó vẫn nhỏ. Câu hỏi khó của Erdős (có treo thưởng 10.000 USD!) là tìm chặn dưới sắc hơn cho
+Tóm tắt mạch chứng minh:
 
 $$
-\limsup_{n\to\infty}\frac{p_{n+1}-p_n}{\log p_n}=\infty.
+\text{Chòm } (n+h_1,\dots,n+h_k)
+\;\xrightarrow{\text{Trọng số } k \text{ biến } F}\;
+\text{Tích phân trên đơn hình } \Delta_k
+\;\xrightarrow{M_k \sim \ln k \to \infty}\;
+\liminf (p_{n+m-1}-p_n) \le C_m.
 $$
-
-Maynard (độc lập, và sau đó cùng Ford–Green–Konyagin–Tao) đã phá vỡ kỷ lục tồn tại gần 80 năm và giải trọn bài toán treo thưởng của Erdős bằng các kỹ thuật sàng và phủ hệ thặng dư tinh tế. "Thỉnh thoảng rất gần" và "thỉnh thoảng rất xa" không mâu thuẫn: đó là hai mặt cực trị của cùng một dãy $$g_n$$.
-
-**Chữ số bị hạn chế.** Có vô hạn số nguyên tố mà trong cách viết thập phân **không hề chứa chữ số 7** (hay bất kỳ chữ số cấm nào cho trước)! Tập các số nguyên không chứa chữ số 7 cực kỳ mỏng (trong đoạn tới $$10^k$$ chỉ có $$9^k$$ số, tức mật độ cỡ $$N^{0{,}954}/N \to 0$$). Bằng cách kết hợp giải tích Fourier (phương pháp đường tròn) với phương pháp sàng, Maynard chứng minh tập mỏng ấy vẫn chứa vô hạn số nguyên tố.
-
-Ngoài ra, cùng với **Dimitris Koukoulopoulos**, Maynard còn chứng minh **giả thuyết Duffin–Schaeffer** (1941) — một bài toán nền tảng tồn tại gần 80 năm trong lý thuyết **xấp xỉ Diophantine** (hỏi khi nào hầu hết số thực đều xấp xỉ tốt được bằng phân số rút gọn $$a/q$$ với sai số cho trước).
 
 ---
 
-## 6. So sánh với Green–Tao
+## 3. Không chỉ khoảng cách nhỏ: Khoảng cách lớn, Chữ số bị hạn chế và Duffin–Schaeffer
+
+Huy chương Fields 2022 ghi nhận hàng loạt đỉnh cao khác của Maynard:
+
+- **Khoảng cách lớn (giải bài toán treo thưởng 10.000 USD của Erdős):** Dễ tạo ra $$m$$ hợp số liên tiếp bằng $$(m+1)! + 2, \dots, (m+1)! + (m+1)$$, nhưng tìm khoảng trống cực lớn so với $$\ln p_n$$ là bài toán cực khó. Maynard (độc lập, và cùng Ford–Green–Konyagin–Tao) đã phá vỡ kỷ lục tồn tại gần 80 năm cho $$\limsup \frac{p_{n+1} - p_n}{\ln p_n}$$.
+- **Số nguyên tố có chữ số bị hạn chế:** Chứng minh có **vô hạn số nguyên tố không chứa chữ số 7** (hay bất kỳ chữ số cấm nào trong hệ thập phân)! Dù tập các số không chứa chữ số 7 cực mỏng (mật độ cỡ $$N^{0{,}954}/N \to 0$$), Maynard kết hợp phương pháp đường tròn Fourier với phương pháp sàng để chứng minh nó vẫn chứa vô hạn số nguyên tố.
+- **Giả thuyết Duffin–Schaeffer (cùng Dimitris Koukoulopoulos, 2019):** Giải quyết bài toán mở gần 80 năm trong lý thuyết **xấp xỉ Diophantine** bằng công cụ đồ thị và lý thuyết số giải tích.
+
+### Ghi nhận công lao và so sánh với Green–Tao
 
 | | Green–Tao | Zhang–Maynard (khoảng cách bị chặn) |
 |--|-----------|------------------------------|
 | Câu hỏi | Cấp số cộng độ dài $$k$$ tùy ý trong tập số nguyên tố | $$p_{n+1}-p_n$$ bị chặn với vô hạn $$n$$ |
-| Công cụ | Định lý Szemerédi tương đối + hàm trội + nguyên lý chuyển | Sàng GPY/Maynard + phân bố trong cấp số cộng |
-| Số nguyên tố sinh đôi | Không giải được khoảng cách = 2 | Không giải được khoảng cách = 2; chỉ có khoảng cách ≤ $$C$$ |
+| Công cụ | Định lý Szemerédi tương đối + hàm trội + nguyên lý chuyển | Sàng đa chiều Maynard + phân bố trong cấp số cộng |
+| Số nguyên tố sinh đôi | Không giải được khoảng cách = 2 | Không giải được khoảng cách = 2 (do rào cản chẵn lẻ của sàng) |
 
-Cả hai đều cho thấy số nguyên tố có cấu trúc. Một bên là cấu trúc cộng tính trải dài; một bên là các cụm cục bộ. Xem [bài Green–Tao]({{ site.baseurl }}/contents/vi/chapter02/02_04_Green_Tao/).
-
----
-
-## 7. Vì sao quan trọng (và giới hạn)
-
-**Tầm quan trọng.** Biến một câu hỏi dễ phát biểu về số nguyên tố thành định lý có chặn tường minh; biến phương pháp sàng thành công cụ có thể lắp ghép và dùng lại; bổ sung cho Green–Tao bằng một công cụ khác; gắn lý thuyết số giải tích với mô hình hợp tác Polymath.
-
-**Giới hạn.** Giả thuyết số nguyên tố sinh đôi vẫn còn mở. Do "rào cản chẵn lẻ" (*parity barrier*) cố hữu của phương pháp sàng — chiếc sàng khó phân biệt số nguyên tố (1 thừa số) với tích của hai số nguyên tố lớn (2 thừa số) — việc đi từ $$246$$ xuống $$2$$ đòi hỏi những ý tưởng mới về bản chất. Kết quả này cũng không giải giả thuyết Riemann.
+**Giới hạn cần nhớ:** Do **rào cản chẵn lẻ** (*parity barrier*) cố hữu của phương pháp sàng — chiếc sàng khó phân biệt số nguyên tố (1 thừa số nguyên tố) với tích của hai số nguyên tố lớn (2 thừa số) — việc đi từ $$246$$ xuống $$2$$ (giả thuyết số nguyên tố sinh đôi) vẫn đòi hỏi những ý tưởng hoàn toàn mới.
 
 ---
 
 ## Hiểu lầm thường gặp
 
 | Khẳng định | Đúng/sai | Sửa lại |
-|------------|----------|-----|
+|------------|----------|---------|
 | "Khoảng cách bị chặn chính là số nguyên tố sinh đôi." | Sai | Giả thuyết sinh đôi đòi hỏi khoảng cách bằng 2 xuất hiện vô hạn lần. |
-| "Một mình Maynard phát hiện ra khoảng cách bị chặn." | Sai | Zhang năm 2013; Maynard độc lập; sau đó là cả cộng đồng. |
-| "Định lý số nguyên tố cấm khoảng cách nhỏ." | Sai | Nó kiểm soát trung bình, không cấm các cụm cục bộ. |
-| "Phương pháp sàng là thuật toán liệt kê các cặp." | Sai | Đó là công cụ ước lượng để chứng minh tồn tại, không phải cách sinh ra các cặp. |
-| "Định lý Green–Tao đã bao gồm khoảng cách bị chặn." | Sai | Cấp số cộng dài không tự cho khoảng cách liên tiếp bị chặn bởi một hằng số nhỏ. |
-| "Giải Fields 2022 chỉ nhờ một bất đẳng thức về khoảng cách." | Sai | Giải ghi nhận nhiều công trình, rộng hơn một định lý về khoảng cách. |
+| "Một mình Maynard phát hiện ra khoảng cách bị chặn." | Sai | Zhang chứng minh đầu tiên năm 2013; Maynard (và Tao) đưa ra sàng đa chiều độc lập sau đó; Polymath8 hạ chặn xuống 246. |
+| "Định lý số nguyên tố cấm khoảng cách nhỏ." | Sai | Nó kiểm soát trung bình $$\ln x$$, không cấm các cụm cục bộ. |
+| "Phương pháp sàng là thuật toán liệt kê các cặp." | Sai | Đó là công cụ ước lượng trung bình để chứng minh tồn tại. |
+| "Định lý Green–Tao đã bao gồm khoảng cách bị chặn." | Sai | Cấp số cộng dài cho phép công sai $$d$$ lớn tùy ý, không chặn khoảng cách liên tiếp. |
+| "Giải Fields 2022 chỉ nhờ một bất đẳng thức về khoảng cách." | Sai | Giải ghi nhận cả khoảng cách lớn, chữ số bị hạn chế và giả thuyết Duffin–Schaeffer. |
 
 ---
 

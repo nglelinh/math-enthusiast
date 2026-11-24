@@ -19,19 +19,18 @@ $$
 
 ---
 
-## Bản đồ kiến thức nền: Tích phân hàm, lý thuyết độ đo vô hạn chiều và tích phân đường nghiên cứu những gì?
+## Bản đồ kiến thức nền: Tích phân hàm, Độ đo vô hạn chiều và Giải tích tiệm cận nghiên cứu những gì?
 
-Ở đại học, bạn quen với tích phân Riemann hay Lebesgue trên $$\mathbb{R}^n$$: muốn lấy tích phân một hàm $$f(x)$$, ta chia miền thành các ô hộp nhỏ có thể tích $$dx_1 \cdots dx_n$$, nhân với giá trị hàm rồi cộng lại. Nhưng khi "biến lấy tích phân" không còn là một điểm $$x \in \mathbb{R}^n$$ mà là **cả một đường cong liên tục** $$q: [0,T] \to \mathbb{R}^d$$ (hay tệ hơn, cả một hàm trường $$\phi(x,t)$$ trên không–thời gian 4 chiều), ta bước vào thế giới **tích phân hàm (functional integration)**.
+Khi "biến lấy tích phân" không còn là một điểm $$x \in \mathbb{R}^n$$ mà là **cả một đường cong liên tục** $$q: [0,T] \to \mathbb{R}^d$$, ta bước vào ba mảng toán học giao thoa với nhau:
 
-Tại sao không thể bê nguyên tích phân $$n$$ chiều lên vô hạn chiều? Hãy thử một phép kiểm tra trực giác rất đơn giản: trong $$\mathbb{R}^n$$, khối lập phương cạnh $$2$$ có thể tích $$2^n$$; khi $$n \to \infty$$, thể tích của nó phình ra $$\infty$$, trong khi khối lập phương cạnh $$1/2$$ lại co về $$0$$! Vì thế, **không có khái niệm "thể tích đều" (độ đo Lebesgue) nào có nghĩa trên không gian vô hạn chiều**.
+### 1. Lý thuyết độ đo vô hạn chiều và Độ đo Wiener
+Trong $$\mathbb{R}^n$$, khối lập phương cạnh $$2$$ có thể tích $$2^n \to \infty$$ khi $$n\to\infty$$, còn khối lập phương cạnh $$1/2$$ có thể tích $$(1/2)^n \to 0$$ — nên **không tồn tại độ đo thể tích đều (Lebesgue) trên không gian vô hạn chiều**. Giải pháp của Norbert Wiener (1923) là gộp luôn thừa số Gauss động năng $$e^{-\frac{1}{2}\int \dot{q}^2 dt}$$ vào trong độ đo để tạo thành **độ đo xác suất Wiener** trên không gian các đường liên tục — đây là nền tảng chặt chẽ của chuyển động Brown, tài chính định lượng (Black–Scholes) và công thức Feynman–Kac cho cơ học lượng tử trong thời gian ảo.
 
-Vậy các nhà toán học làm gì khi không có $$\mathcal{D}q$$ theo nghĩa thông thường? Họ chuyển sang ba chiến lược chính:
+### 2. Phương pháp pha dừng và Giải tích tiệm cận
+Với tích phân dao động $$\int e^{iS(x)/\hbar} a(x)\,dx$$ khi $$\hbar \to 0$$, giải tích tiệm cận chứng minh rằng đóng góp áp đảo chỉ đến từ lân cận các **điểm dừng** $$S'(x_0) = 0$$ (và các điểm yên ngựa trong thời gian ảo). Trong vật lý, điều này giải thích trực tiếp cách cơ học cổ điển (nguyên lý tác dụng cực tiểu) hiện ra từ cơ học lượng tử.
 
-- **Gộp thừa số Gauss vào trong độ đo (độ đo Wiener):** Trong thời gian ảo (Euclid), phần động năng trong $$e^{-S_E/\hbar}$$ có dạng $$e^{-\frac{1}{2}\int \dot{q}^2 dt}$$. Dù $$\mathcal{D}q$$ riêng lẻ không tồn tại, *tích* $$e^{-\frac{1}{2}\int \dot{q}^2 dt}\,\mathcal{D}q$$ lại định nghĩa được hoàn toàn chặt chẽ thành một **độ đo xác suất** trên không gian các đường liên tục — đó chính là **độ đo Wiener** mô tả chuyển động Brown!
-- **Xấp xỉ hữu hạn chiều rồi lấy giới hạn (công thức Trotter & mạng lưới):** Cắt thời gian (hoặc cả không–thời gian) thành $$N$$ lát rời rạc để biến tích phân đường thành tích phân $$N$$ biến thông thường, rồi nghiên cứu giới hạn khi $$N \to \infty$$.
-- **Xử lý tích phân nhiễu loạn như chuỗi hình thức:** Trong lý thuyết trường lượng tử, tách thành phần bậc hai (Gauss) và khai triển phần tương tác thành tổng các giản đồ Feynman — mỗi giản đồ là một tích phân hữu hạn chiều có thể tính (sau khi tái chuẩn hóa), dù tổng cả chuỗi thường chỉ là chuỗi tiệm cận chứ không hội tụ.
-
-Nhìn qua ba chiến lược này, bạn sẽ hiểu ngay vì sao tích phân đường vừa là công cụ tính toán vạn năng của vật lý, vừa là một trong những bài toán nền tảng khó nhất của giải tích hiện đại.
+### 3. Xấp xỉ lưới (Trotter) và Lý thuyết trường kiến thiết
+Để biến ký hiệu hình thức $$\mathcal{D}q$$ thành phép tính có nghĩa, các nhà toán học cắt thời gian (hoặc cả không–thời gian) thành $$N$$ lát rời rạc để lấy tích phân $$N$$ biến thông thường, rồi nghiên cứu giới hạn $$N \to \infty$$ (công thức tích Trotter trong cơ học lượng tử; lý thuyết trường trên mạng lưới và lý thuyết trường kiến thiết ở 2D/3D/4D).
 
 ---
 
@@ -52,13 +51,32 @@ Sau bài học, bạn có thể:
 
 Paul Dirac (thập niên 1930) nhận thấy biên độ chuyển trạng thái trong khoảng thời gian vô cùng ngắn $$\varepsilon$$ tỉ lệ với $$\exp\!\big(\tfrac{i}{\hbar}\varepsilon L(q, \dot{q})\big)$$, trong đó $$L$$ là hàm Lagrange cổ điển. Richard Feynman (1948) biến nhận xét ngắn ngủi đó thành một cách trình bày hoàn chỉnh của cơ học lượng tử: chia khoảng thời gian $$[t_i, t_f]$$ thành $$N$$ đoạn nhỏ $$\varepsilon = (t_f - t_i)/N$$, chèn phép lấy tích phân theo mọi vị trí trung gian $$q_1, q_2, \dots, q_{N-1}$$ (nối thành một đường gấp khúc), rồi cho $$N \to \infty$$. Khi cả hai phía đều được định nghĩa tốt, cách nhìn này dẫn lại đúng phương trình Schrödinger.
 
-**Cơ chế chính.** Sự tiến hóa lượng tử được ghép lại từ **biên độ của toàn bộ quỹ đạo**, mỗi quỹ đạo có trọng số pha $$e^{iS/\hbar}$$, chứ không chỉ từ phương trình vi phân cục bộ cho hàm sóng. Tuy vậy, hai cách nhìn cho cùng kết quả khi cả hai đều được định nghĩa chặt chẽ.
+### Khung giải thích: cắt lát thời gian và lấy tổng mọi đường đi bằng tay (nên đọc chậm)
+
+Để cảm nhận tận tay tích phân đường không hề là "ảo thuật", hãy tự tính biên độ chuyển động của một hạt tự do (khối lượng $$m=1, \hbar=1$$) trong thời gian ảo (Euclid) đi từ $$q_0 = 0$$ tại $$\tau = 0$$ đến $$q_2 = x$$ tại $$\tau = 2\varepsilon$$, chỉ với **1 điểm trung gian** $$q_1 \in \mathbb{R}$$ (tức mọi đường gấp khúc 2 đoạn nối $$0 \to q_1 \to x$$):
+
+1. **Viết tác dụng Euclid của đường gấp khúc:** Vận tốc trên đoạn đầu là $$\frac{q_1 - 0}{\varepsilon}$$, trên đoạn sau là $$\frac{x - q_1}{\varepsilon}$$, nên tổng tác dụng $$S_E = \frac{1}{2}\sum v^2 \varepsilon$$ là:
+   $$
+   S_E(q_1) = \frac{q_1^2}{2\varepsilon} + \frac{(x - q_1)^2}{2\varepsilon}.
+   $$
+2. **Hoàn thiện bình phương theo biến trung gian $$q_1$$:**
+   $$
+   q_1^2 + (x - q_1)^2 = 2q_1^2 - 2xq_1 + x^2 = 2\Bigl(q_1 - \frac{x}{2}\Bigr)^2 + \frac{x^2}{2}.
+   $$
+   Chú ý điểm cực tiểu của tác dụng xảy ra đúng tại $$q_1^* = \frac{x}{2}$$ — trung điểm nằm trên đường thẳng cổ điển nối $$0$$ với $$x$$!
+3. **Lấy tích phân trên mọi vị trí trung gian $$q_1 \in (-\infty, \infty)$$** (nhớ công thức Gauss $$\int_{-\infty}^{\infty} e^{-u^2/\varepsilon}\,du = \sqrt{\pi\varepsilon}$$):
+   $$
+   K(0 \to x;\, 2\varepsilon) = \int_{-\infty}^{\infty} \frac{1}{\sqrt{2\pi\varepsilon}}e^{-\frac{q_1^2}{2\varepsilon}} \cdot \frac{1}{\sqrt{2\pi\varepsilon}}e^{-\frac{(x-q_1)^2}{2\varepsilon}}\,dq_1 = \frac{1}{2\pi\varepsilon}\,e^{-\frac{x^2}{4\varepsilon}} \int_{-\infty}^{\infty} e^{-\frac{(q_1 - x/2)^2}{\varepsilon}}\,dq_1 = \frac{1}{\sqrt{4\pi\varepsilon}}\,e^{-\frac{x^2}{4\varepsilon}}.
+   $$
+4. **Kiểm tra kết quả:** Công thức $$\frac{1}{\sqrt{2\pi T}}e^{-x^2/(2T)}$$ với $$T = 2\varepsilon$$ chính xác là **nhân nhiệt** (nghiệm cơ bản của phương trình khuếch tán $$\partial_T u = \frac{1}{2}\partial_x^2 u$$, hay chuyển động Brown chuẩn)! Lặp lại $$N$$ bước rồi cho $$N \to \infty$$, mọi đường gấp khúc hội tụ thành độ đo Wiener hoàn toàn chặt chẽ.
+
+**Cơ chế chính.** Sự tiến hóa lượng tử được ghép lại từ **biên độ của toàn bộ quỹ đạo**, mỗi quỹ đạo có trọng số pha $$e^{iS/\hbar}$$ (hoặc $$e^{-S_E/\hbar}$$ trong thời gian ảo), chứ không chỉ từ phương trình vi phân cục bộ cho hàm sóng.
 
 ---
 
 ## 2. Thử trước trong trường hợp hữu hạn chiều
 
-Để cảm nhận nguyên lý **pha dừng (stationary phase)** mà không vướng vô hạn chiều, hãy xét tích phân dao động thông thường trên $$\mathbb{R}$$:
+Để cảm nhận nguyên lý **pha dừng (stationary phase)** mà không vướng vô hạn chiều, hãy xét tích phân dao động thông thường trên $$\mathbb{R}^n$$:
 
 $$
 I(\hbar)=\int_{\mathbb{R}^n} e^{iS(x)/\hbar}\,a(x)\,dx.

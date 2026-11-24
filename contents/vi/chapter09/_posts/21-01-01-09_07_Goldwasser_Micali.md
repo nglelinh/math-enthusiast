@@ -70,9 +70,18 @@ Số $$a$$ là **quadratic residue** modulo $$n$$ nếu $$\gcd(a,n)=1$$ và tồ
   Nếu $$b=0$$, $$c$$ là residue; nếu $$b=1$$, $$c$$ là non-residue (loại Jacobi $$+1$$). Nhờ có số ngẫu nhiên $$r$$ mới ở mỗi lần mã hóa, cùng một bit `0` sẽ sinh ra hàng loạt bản mã $$c$$ hoàn toàn khác nhau!
 - Giải bằng cửa sập $$p,q$$: kiểm tra residuality modulo $$p$$ và $$q$$ (hoặc tương đương).
 
-**An ninh:** dưới giả định QRP, ciphertext không tiết lộ $$b$$ cho adversary poly-time—đúng tinh thần semantic security cho bit. **Chi phí:** mỗi bit plaintext phình thành một phần tử modulo $$n$$—không thực dụng throughput, nhưng là **mẫu chuẩn**: định nghĩa + giả định số học + chứng minh reduction.
+### Ví dụ cầm tay chỉ việc: Mã hóa xác suất và nhân đồng cấu XOR trên hệ mật Goldwasser–Micali ($$N = 15$$)
 
-**Homomorphic:** nhân ciphertext (mod $$n$$) tương ứng XOR bit plaintext (vì $$c_1 c_2 \equiv (r_1 r_2)^2 z^{b_1 + b_2} \pmod n$$, mà $$z^2$$ là thặng dư bậc hai nên số mũ cộng theo modulo 2!). Đây là gợi ý sớm cho **mã hóa đồng cấu**—họ hàng xa của FHE hiện đại.
+Chọn $$p = 3,\ q = 5 \implies N = 15$$. Các số bình phương (thặng dư bậc hai) modulo $$3$$ chỉ có $$\{1\}$$; modulo $$5$$ chỉ có $$\{1, 4\}$$.
+1. **Chọn khóa công khai $$z = 2$$:** vì $$2 \not\equiv 1 \pmod 3$$ và $$2 \notin \{1,4\} \pmod 5$$, ta có ký hiệu Legendre $$(2/3)=-1,\ (2/5)=-1 \implies$$ ký hiệu Jacobi $$(2/15)=(-1)(-1)=+1$$. Vậy $$z=2$$ là phi thặng dư "ngụy trang" hoàn hảo!
+2. **Mã hóa hai bit $$b_1 = 0$$ và $$b_2 = 1$$:**
+   - Chọn ngẫu nhiên $$r_1 = 2$$ cho $$b_1 = 0$$: $$c_1 = 2^2 \cdot 2^0 \bmod 15 = 4$$. (Chủ nhân kiểm tra: $$4\equiv 1\pmod 3$$ và $$4\equiv 4\pmod 5$$ → đều là bình phương → giải ra `0`!)
+   - Chọn ngẫu nhiên $$r_2 = 4$$ cho $$b_2 = 1$$: $$c_2 = 4^2 \cdot 2^1 \bmod 15 = 32 \bmod 15 = 2$$. (Chủ nhân kiểm tra: $$2$$ không là bình phương mod 3 → giải ra `1`!)
+3. **Phép màu đồng cấu XOR không cần giải mã:** nhân hai bản mã trực tiếp modulo 15:
+   - $$c_1 \cdot c_2 \bmod 15 = 4 \times 2 = 8$$. Vì $$8 \equiv 2 \pmod 3$$ (không là bình phương), bản mã `8` giải ra bit **`1`** — đúng bằng $$0 \oplus 1$$!
+   - $$c_2 \cdot c_2 \bmod 15 = 2 \times 2 = 4$$. Bản mã `4` là bình phương, giải ra bit **`0`** — đúng bằng $$1 \oplus 1$$!
+
+**An ninh:** dưới giả định QRP, ciphertext không tiết lộ $$b$$ cho adversary poly-time—đúng tinh thần semantic security cho bit. **Chi phí:** mỗi bit plaintext phình thành một phần tử modulo $$n$$—không thực dụng throughput, nhưng là **mẫu chuẩn**: định nghĩa + giả định số học + chứng minh reduction.
 
 ---
 
@@ -86,7 +95,14 @@ Số $$a$$ là **quadratic residue** modulo $$n$$ nếu $$\gcd(a,n)=1$$ và tồ
 2. **Soundness:** nếu statement sai, mọi prover gian (dù mạnh) bị từ chối với xác suất cao (hoặc knowledge soundness: có thể trích witness).  
 3. **Zero-knowledge:** verifier không học gì *ngoài* tính đúng của statement—formal qua **simulator**: mọi thứ verifier thấy có thể mô phỏng mà không cần witness.
 
-Điểm triết học–toán: “không học gì” không phải cảm giác; đó là **tồn tại simulator poly-time** sinh transcript không phân biệt được (computationally) với tương tác thật.
+### Khung giải thích: Ba trụ cột biến "chứng minh" thành giao thức Zero-Knowledge (nên đọc chậm)
+
+1. **Cam kết trước khi bị hỏi (Commitment):** ở mỗi vòng, người chứng minh (Peggy) xáo trộn ngẫu nhiên 3 màu bí mật của đồ thị rồi khóa màu từng đỉnh vào các hộp kín gửi cho Victor — nhờ vậy Peggy không thể đổi màu sau khi biết Victor hỏi cạnh nào.
+2. **Thách thức ngẫu nhiên để bẫy kẻ gian (Soundness):** Victor chọn ngẫu nhiên 1 cạnh $$(u,v)$$ trong $$\lvert E\rvert$$ cạnh và yêu cầu mở 2 hộp đầu mút. Nếu Peggy gian dối (đồ thị không tô được 3 màu), phải có ít nhất 1 cạnh cùng màu nên xác suất bị bắt mỗi vòng ít nhất $$1/\lvert E\rvert$$; lặp $$20\lvert E\rvert$$ vòng khiến xác suất lọt lưới giảm xuống $$e^{-20} < 10^{-8}$$!
+3. **Bản ghi hội thoại không rò rỉ thông tin (Simulator):** trong mỗi vòng, thứ duy nhất Victor thấy là *hai màu ngẫu nhiên khác nhau* (ví dụ Đỏ–Xanh) — một dữ liệu mà bản thân Victor có thể tự tung xu sinh ra ở nhà mà không cần Peggy tồn tại!
+4. **Từ tương tác sang chứng minh ngắn gọn (zk-SNARK / STARK):** thay người hỏi ngẫu nhiên bằng hàm băm (biến đổi Fiat–Shamir), giao thức nhiều vòng trở thành một bằng chứng tĩnh nhỏ gọn gửi lên blockchain hay hệ thống định danh số.
+
+**Kiểm tra nhanh.** Zero-knowledge **không** giấu việc mệnh đề là đúng (Victor học được rằng "đồ thị tô được 3 màu"); thứ nó giấu tuyệt đối là **lời chứng (witness)** — bảng màu cụ thể.
 
 ### Ví dụ: 3-tô màu (Goldreich–Micali–Wigderson)
 

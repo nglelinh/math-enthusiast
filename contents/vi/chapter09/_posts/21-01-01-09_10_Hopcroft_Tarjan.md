@@ -76,7 +76,29 @@ Công thức không cần thuộc máy; cần thuộc **ý**: DFS + một vài s
 
 Đồ thị có hướng phân hoạch thành SCC: trong mỗi khối, mọi cặp đỉnh tới được nhau; đồ thị co các khối thành DAG. **Tarjan’s SCC algorithm** dùng một DFS, stack các đỉnh “đang mở”, và low-link để pop đúng một SCC khi root của component finish (đúng lúc $$\mathrm{low}[u] = d[u]$$). **Kosaraju**: hai DFS (một trên đồ thị ngược) cũng $$O(n+m)$$, dễ dạy hơn, hằng số khác.
 
-Vì sao quan trọng toán–CS:
+### Ví dụ cầm tay chỉ việc: Tự chạy thuật toán Tarjan tìm SCC trên đồ thị 4 đỉnh
+
+Xét đồ thị có hướng 4 đỉnh $$\{1, 2, 3, 4\}$$ gồm 4 cung: $$1\to 2,\ 2\to 3,\ 3\to 1$$ (tạo vòng khép kín) và $$3\to 4$$ (ngõ cụt). Bắt đầu DFS từ đỉnh `1`:
+
+| Bước | Hành động DFS | `(disc, low)` cập nhật | Ngăn xếp (`stack`) | Kết quả SCC |
+|---|---|---|---|---|
+| 1 | Thăm `1` → đi sang `2` → đi sang `3` | `1:(1,1)`, `2:(2,2)`, `3:(3,3)` | `[1, 2, 3]` | — |
+| 2 | Từ `3` gặp cung ngược $$3\to 1$$ (`1` đang trên stack) | `low[3] = min(3, disc[1]) = 1` | `[1, 2, 3]` | — |
+| 3 | Từ `3` đi sang `4`; `4` không có cung ra và `low[4]==disc[4]==4` | `4:(4,4)` | `[1, 2, 3]` (pop `4`) | **SCC #1: `{4}`** |
+| 4 | Quay lui `3→2→1`: truyền `low=1` lên `2` và `1`; tại `1` có `low[1]==disc[1]==1` | `2:(2,1)`, `1:(1,1)` | `[]` (pop `3,2,1`) | **SCC #2: `{1, 2, 3}`** |
+
+Chỉ trong đúng **1 lượt duyệt** qua 4 đỉnh và 4 cung ($$O(n+m)$$), thuật toán tách gọn toàn bộ đồ thị thành 2 SCC và trả về luôn theo thứ tự topo ngược!
+
+### Khung giải thích: Vì sao Phân tích khấu hao chứng minh được Union–Find gần như $$O(1)$$? (nên đọc chậm)
+
+1. **Tách chi phí từng bước khỏi chi phí cả chuỗi:** một lần `Find(x)` đi qua nhánh dài có thể tốn nhiều bước, nhưng chính lúc nó chạy qua, **nén đường dẫn (path compression)** gắn trực tiếp mọi nút trên đường đó vào gốc — làm cho *tất cả các lần gọi sau đó* trở nên siêu rẻ!
+2. **Dùng hàm thế năng $$\Phi$$ như một "tài khoản tiết kiệm":** định nghĩa chi phí khấu hao $$\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})$$. Thao tác rẻ làm tăng nhẹ $$\Phi$$ (gửi tiền tiết kiệm); thao tác nén đường dẫn đắt làm giảm mạnh $$\Phi$$ (rút tiền tiết kiệm ra bù).
+3. **Chặn tổng chi phí trên chuỗi xấu nhất:** cộng dồn $$m$$ bước, các số hạng $$\Phi$$ triệt tiêu nhau (telescoping), nên $$\sum c_i \le \sum \hat{c}_i$$ đúng cho **mọi chuỗi thao tác ác ý nhất** (không cần giả định dữ liệu ngẫu nhiên!).
+4. **Hàm ngược Ackermann $$\alpha(n)$$ xuất hiện tự nhiên:** kết hợp *union by rank* và *path compression*, Tarjan chứng minh tổng chi phí là $$O(m\,\alpha(n))$$ với $$\alpha(n) \le 4$$ cho mọi $$n$$ thực tế trong vũ trụ.
+
+**Kiểm tra nhanh.** *Amortized* là bảo đảm **worst-case trên cả chuỗi thao tác**, tuyệt đối không phải "trung bình trên đầu vào ngẫu nhiên" (*average-case*).
+
+Vì sao SCC quan trọng trong toán–CS:
 
 - Mọi path queries “tồn tại đường” giảm về reachability trên DAG của SCC.  
 - Model checking, dependency analysis, game graphs dùng SCC như preprocess.  

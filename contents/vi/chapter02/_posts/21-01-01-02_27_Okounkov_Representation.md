@@ -9,15 +9,17 @@ categories:
 - chapter02
 ---
 
-Hãy thử một thí nghiệm tưởng tượng kỳ lạ: bạn có một bộ bài gồm $$n = 1{,}000{,}000$$ lá đánh số từ $$1$$ đến $$n$$, xáo trộn hoàn toàn ngẫu nhiên rồi tìm độ dài của **dãy con tăng dài nhất** trong bộ bài đó. Thoạt nhìn, đây chỉ là một bài toán giải trí về tổ hợp và xác suất. Thế nhưng vào cuối thập niên 1990, các nhà toán học bàng hoàng phát hiện rằng dao động của con số này tuân theo **chính xác** cùng một định luật xác suất (luật Tracy–Widom) với trị riêng lớn nhất của một ma trận ngẫu nhiên khổng lồ! Và càng khó tin hơn nữa: cùng những sơ đồ ô vuông (biểu đồ Young) điều khiển bộ bài xáo trộn ấy lại đang âm thầm điều khiển cả việc **đếm đường cong trong hình học đại số** lẫn việc **đếm instanton trong lý thuyết trường lượng tử bốn chiều**!
+Hãy thử một trò chơi tưởng chừng thuần túy giải trí: bạn lấy một bộ bài gồm $$n = 1{,}000{,}000$$ lá đánh số từ $$1$$ đến $$n$$, xáo trộn hoàn toàn ngẫu nhiên rồi tìm độ dài của **dãy con tăng dài nhất**. Ai có thể ngờ rằng dao động thống kê của con số ấy lại tuân theo **chính xác** cùng một định luật xác suất (luật Tracy–Widom) với trị riêng lớn nhất của một ma trận ngẫu nhiên khổng lồ? Và càng khó tin hơn nữa: cùng những bảng ô vuông (biểu đồ Young) điều khiển bộ bài xáo trộn ấy lại đang âm thầm điều khiển cả việc **đếm đường cong trong hình học đại số** lẫn việc **đếm instanton trong lý thuyết trường lượng tử bốn chiều**!
 
-Người đã nhìn thấu và dựng nên những cây cầu vững chắc nối liền các lục địa tưởng chừng cách biệt ấy là **Andrei Okounkov**. Tại ICM Madrid năm 2006 — cùng năm với **Terence Tao**, **Wendelin Werner** và **Grigori Perelman** — ông nhận **Huy chương Fields** với lời trao giải ngắn gọn nhưng đầy sức nặng:
+Người đã nhìn thấu và dựng nên những cây cầu nối liền ba lục địa tưởng chừng cách biệt ấy là **Andrei Okounkov**. Tại ICM Madrid năm 2006 — cùng đợt với **Terence Tao**, **Wendelin Werner** và **Grigori Perelman** — ông nhận **Huy chương Fields** với lời trao giải chỉ một câu đầy cô đọng:
 
 > For his contributions bridging probability, representation theory and algebraic geometry.
 
 *Tạm dịch: vì những đóng góp bắc cầu giữa xác suất, lý thuyết biểu diễn và hình học đại số.*
 
-Thông cáo của IMU năm 2006 thẳng thắn nhận xét rằng công trình của Okounkov rất khó xếp vào một ô phân loại duy nhất, bởi sợi chỉ xuyên suốt sự nghiệp ông là dùng **tính ngẫu nhiên** và **lý thuyết biểu diễn cổ điển** (của nhóm đối xứng và các biểu đồ Young) để giải quyết những bài toán trung tâm của hình học đại số đếm và cơ học thống kê. Bài học này sẽ giúp bạn đi dọc ba cây cầu lớn của ông — từ phân hoạch ngẫu nhiên và tinh thể nóng chảy, sang lý thuyết Gromov–Witten của Okounkov–Pandharipande, đến hàm phân hoạch instanton của Nekrasov–Okounkov — đồng thời giữ sự chính xác: ông không phân loại mọi biểu diễn nhóm, không phát minh lý thuyết gauge, và không thay thế hình học đại số bằng tổ hợp.
+Thông cáo báo chí của IMU năm 2006 thẳng thắn nhận xét công trình của Okounkov khó xếp vào một ngăn tủ truyền thống nào, bởi hai chủ đề xuyên suốt của ông là **tính ngẫu nhiên** và **lý thuyết biểu diễn cổ điển** (nhóm đối xứng, biểu đồ Young), được dùng để giải các bài toán trung tâm của hình học đại số đếm và cơ học thống kê. Bài học này sẽ đi từ một ví dụ cầm tay cho $$n = 3$$ trên nhóm đối xứng $$S_3$$ tới tinh thể nóng chảy, lý thuyết Gromov–Witten của Okounkov–Pandharipande và hàm phân hoạch instanton của Nekrasov–Okounkov — đồng thời giữ ranh giới chính xác: ông không phân loại mọi biểu diễn nhóm và không phát minh lý thuyết gauge.
+
+**Mạch bài học:** Bản đồ kiến thức nền (lý thuyết biểu diễn $$S_n$$, biểu đồ Young, không gian Fock) → Ví dụ cầm tay chỉ việc: tính trọn bộ độ đo Plancherel cho $$S_3$$ và chạy thuật toán Robinson–Schensted → Từ hình dạng giới hạn đến tinh thể nóng chảy và đường cong đại số → Khung giải thích chậm: 4 bước bắc cầu từ biểu đồ Young sang Gromov–Witten ($$\mathbb{P}^1$$) và instanton Seiberg–Witten → Quá trình Schur & những điều không khẳng định.
 
 ---
 
@@ -25,12 +27,12 @@ Thông cáo của IMU năm 2006 thẳng thắn nhận xét rằng công trình c
 
 Sau bài học, bạn có thể:
 
-- Nhắc lại lời trao giải của IMU năm 2006 như một **chương trình bắc cầu** giữa ba lĩnh vực, thay vì một định lý phân loại đơn ngành.
-- Mô tả **độ đo Plancherel** trên các phân hoạch của $$n$$ và kết quả về **hình dạng giới hạn** tất định của Vershik–Kerov và Logan–Shepp.
-- Giải thích trực quan vì sao các biểu diễn bất khả quy của nhóm đối xứng $$S_n$$ được đánh nhãn bằng biểu đồ Young, và vì sao việc chọn ngẫu nhiên một biểu đồ lại trở thành bài toán xác suất giàu cấu trúc.
-- Trình bày ý chính cây cầu **Okounkov–Pandharipande**: biến hàm sinh của lý thuyết Gromov–Witten (đặc biệt trên $$\mathbb{P}^1$$) thành các kỳ vọng toán tử trên không gian Fock gắn với hệ khả tích 2-Toda.
-- Hiểu công trình **Nekrasov–Okounkov** như một cây cầu toán học đồng nhất hàm phân hoạch instanton với mô hình phân hoạch ngẫu nhiên và hình học Seiberg–Witten, không phóng đại thành "Okounkov phát minh lý thuyết gauge".
-- Nhận diện các khái niệm song hành: **độ đo Schur / quá trình Schur** (Okounkov, Reshetikhin, Borodin, Olshanski) và mô hình **dimer / tinh thể nóng chảy** (Kenyon–Okounkov).
+- Nhắc lại lời trao giải của IMU năm 2006 như một **chương trình bắc cầu** giữa xác suất, lý thuyết biểu diễn và hình học đại số.
+- Tự tay tính **độ đo Plancherel** trên tất cả các phân hoạch của $$n = 3$$ và hiểu ý nghĩa của **hình dạng giới hạn** tất định (Vershik–Kerov; Logan–Shepp).
+- Giải thích mối liên hệ giữa dãy con tăng dài nhất của hoán vị ngẫu nhiên, luật Tracy–Widom của ma trận ngẫu nhiên, và cách chứng minh bằng **mặt ngẫu nhiên** của Okounkov.
+- Trình bày cây cầu **Okounkov–Pandharipande**: biến hàm sinh của lý thuyết Gromov–Witten trên $$\mathbb{P}^1$$ thành kỳ vọng chân không trong không gian Fock gắn với hệ khả tích **2-Toda**.
+- Hiểu công trình **Nekrasov–Okounkov** như bộ từ điển đồng nhất hàm phân hoạch instanton đã chính quy hóa với phân hoạch ngẫu nhiên và hình học Seiberg–Witten.
+- Nhận diện **độ đo Schur / quá trình Schur** (Okounkov, Reshetikhin, Borodin, Olshanski) và mô hình **dimer / tinh thể nóng chảy** (Kenyon–Okounkov).
 
 **Kiến thức nền.** Phân hoạch một số nguyên; nhóm đối xứng $$S_n$$ ở mức "các biểu diễn bất khả quy được gắn nhãn bằng biểu đồ Young"; hàm sinh. Về hình học đại số, chỉ cần biết "có thể đếm các đường cong trong một đa tạp theo một nghĩa ảo" là đủ để hiểu ý chính của lý thuyết Gromov–Witten. Không cần lý thuyết trường lượng tử.
 
@@ -38,98 +40,88 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết biểu diễn, biểu đồ Young và hình học đếm là gì?
+## Bản đồ kiến thức nền: Lý thuyết biểu diễn $$S_n$$, Biểu đồ Young và Không gian Fock là gì?
 
-Để thấy ba lĩnh vực "xác suất – biểu diễn – hình học đại số" chạm nhau ở điểm nào, hãy xem ba viên gạch nền rất đơn giản.
+### 1. Lý thuyết biểu diễn nhóm đối xứng $$S_n$$ nghiên cứu gì?
+**Lý thuyết biểu diễn** biến các nhóm đối xứng trừu tượng thành các ma trận vuông khả nghịch, rồi phân tích chúng thành những "nguyên tử" gọi là **biểu diễn bất khả quy**. Với nhóm đối xứng $$S_n$$ (gồm $$n!$$ hoán vị của $$n$$ phần tử), các biểu diễn bất khả quy tương ứng **1–1** với các **phân hoạch** $$\lambda = (\lambda_1 \ge \lambda_2 \ge \cdots)$$ của số $$n$$, vẽ trực quan thành **biểu đồ Young** gồm các hàng ô vuông xếp chồng.
 
-**1. Lý thuyết biểu diễn — biến nhóm trừu tượng thành ma trận.**
-**Lý thuyết biểu diễn** nghiên cứu các nhóm đối xứng bằng cách biểu diễn mỗi phần tử của nhóm thành một ma trận vuông khả nghịch (như phép quay trong mặt phẳng ứng với ma trận $$2 \times 2$$). Giống như mọi số tự nhiên đều phân tích thành tích các số nguyên tố, mọi biểu diễn của một nhóm hữu hạn đều tách thành tổng trực tiếp của các "viên gạch cơ bản" gọi là **biểu diễn bất khả quy**.
-Với **nhóm đối xứng $$S_n$$** (nhóm tất cả $$n!$$ hoán vị của $$n$$ phần tử), một phép màu tổ hợp xảy ra: các biểu diễn bất khả quy của $$S_n$$ tương ứng **1–1** với các **phân hoạch** của số $$n$$ — tức các cách viết $$n = \lambda_1 + \lambda_2 + \cdots + \lambda_k$$ (với $$\lambda_1 \ge \lambda_2 \ge \cdots > 0$$), vẽ trực quan thành **biểu đồ Young** gồm các hàng ô vuông xếp chồng. Ví dụ với $$n = 4$$, phân hoạch $$4 = 2 + 1 + 1$$ là một hình chữ L gồm 4 ô vuông, ứng với một biểu diễn bất khả quy 3 chiều của $$S_4$$.
-
-**2. Khi biểu đồ Young trở nên khổng lồ — xác suất xuất hiện.**
-Khi $$n$$ rất lớn (ví dụ $$n = 10^6$$), số phân hoạch của $$n$$ bùng nổ theo hàm mũ. Nếu ta chọn ngẫu nhiên một biểu đồ Young $$\lambda$$ gồm $$n$$ ô theo một quy luật xác suất tự nhiên (như độ đo Plancherel), liệu đường viền của biểu đồ khổng lồ đó có hỗn loạn không? Không! Giống như định luật số lớn, khi co nhỏ cả hai trục đi $$\sqrt{n}$$ lần, đường viền của hầu hết mọi biểu đồ ngẫu nhiên đều tập trung sít sao quanh một **đường cong mượt tất định** gọi là **hình dạng giới hạn** (*limit shape*).
-
-**3. Hình học đếm (Enumerative Geometry) và không gian Fock.**
-Từ thời cổ đại, hình học đếm đặt những câu hỏi kiểu: "có bao nhiêu đường thẳng đi qua 2 điểm?" (1 đường), "có bao nhiêu đường conic đi qua 5 điểm?" (1 đường), "có bao nhiêu đường cong hữu tỷ bậc $$d$$ trên mặt phẳng đi qua $$3d-1$$ điểm tổng quát?". **Lý thuyết Gromov–Witten** hiện đại gói toàn bộ vô hạn các con số đếm đường cong (hoặc đếm phủ phân nhánh — số Hurwitz) vào một **hàm sinh**. Và phát hiện làm đổi thay cuộc chơi là: các biểu đồ Young đóng vai trò như một **hệ cơ sở trực chuẩn** của một không gian Hilbert gọi là **không gian Fock** (không gian của các hạt fermion 1 chiều trong vật lý lượng tử), khiến các phép đếm hình học phức tạp biến thành phép nhân ma trận và tính kỳ vọng trên không gian Fock!
-
----
-
-## 1. Phân hoạch: bảng chữ cái chung của ba thế giới
-
-Một **phân hoạch** $$\lambda$$ của số nguyên dương $$n$$ (vẽ thành **biểu đồ Young**) chính là viên đá Rosetta nối ba ngành toán học:
-- Trong **lý thuyết biểu diễn**: đánh chỉ số các biểu diễn bất khả quy của $$S_n$$ và các hàm đối xứng **Schur** $$s_\lambda$$.
-- Trong **cơ học thống kê**: nếu chồng thêm ô vuông theo chiều thứ ba trong một góc tường 3D (gọi là **phân hoạch phẳng**, *plane partition*), nhìn từ xa nó chính là hình ảnh một góc tinh thể lập phương hay một phép lát mặt phẳng bằng hình thoi (mô hình **dimer**).
-- Trong **xác suất**: từ đẳng thức cổ điển $$\sum_{\lambda \vdash n} (\dim \lambda)^2 = n!$$ của nhóm $$S_n$$, ta nhận được ngay một phân bố xác suất cực kỳ tự nhiên gọi là **độ đo Plancherel**:
+### 2. Xác suất trên các biểu đồ Young và hình dạng giới hạn
+Từ đẳng thức cơ bản của lý thuyết biểu diễn $$\sum_{\lambda \vdash n} (\dim\lambda)^2 = n!$$, ta có ngay một phân bố xác suất tự nhiên gọi là **độ đo Plancherel**:
 
 $$
-\mathbb{P}(\lambda)=\frac{\bigl(\dim\lambda\bigr)^2}{n!},
+\mathbb{P}(\lambda) = \frac{(\dim\lambda)^2}{n!}.
 $$
 
-trong đó $$\dim\lambda$$ là số chiều của biểu diễn bất khả quy ứng với $$\lambda$$ (tính bằng công thức độ dài móc nổi tiếng). Thuật toán **Robinson–Schensted** biến mỗi hoán vị ngẫu nhiên đều trong $$S_n$$ thành một biểu đồ Young có phân phối đúng là độ đo Plancherel — và chiều dài hàng đầu tiên $$\lambda_1$$ của biểu đồ đó **chính bằng độ dài dãy con tăng dài nhất** của hoán vị!
+Khi $$n \to \infty$$, **Vershik–Kerov** và **Logan–Shepp** (cuối thập niên 1970) chứng minh rằng nếu co nhỏ biểu đồ Young ngẫu nhiên đi $$\sqrt{n}$$ lần, đường viền của nó tập trung chặt quanh một **hình dạng giới hạn** trơn tất định!
 
-Cuối thập niên 1970, **Vershik–Kerov** và độc lập **Logan–Shepp** chứng minh một định lý tuyệt đẹp: khi $$n \to \infty$$, nếu xoay biểu đồ Young ngẫu nhiên đi $$45^\circ$$ và co nhỏ theo tỷ lệ $$\sqrt{n}$$, đường biên trên của nó hội tụ về một **đường cong giới hạn trơn tất định** (có công thức lượng giác ngược tường minh), qua đó suy ra độ dài dãy con tăng dài nhất của một hoán vị ngẫu nhiên cỡ $$n$$ xấp xỉ $$2\sqrt{n}$$.
-
-**Tóm tắt.** Khi lý thuyết biểu diễn cung cấp độ đo tự nhiên trên biểu đồ Young, lý thuyết biểu diễn tiệm cận lập tức hóa thân thành một chương sống động của lý thuyết xác suất.
-
----
-
-## 2. Từ bài toán bộ bài ngẫu nhiên đến tinh thể nóng chảy và đường cong đại số
-
-Năm 1999, **Baik–Deift–Johansson (BDJ)** chứng minh rằng độ lệch của dãy con tăng dài nhất quanh giá trị $$2\sqrt{n}$$ (sau khi chia cho $$n^{1/6}$$) hội tụ về phân phối **Tracy–Widom** — đúng phân phối của trị riêng lớn nhất trong một ma trận ngẫu nhiên Hermite Gauss! Họ dự đoán sự trùng khớp kỳ bí đó còn đúng cho phân phối đồng thời của nhiều hàng dài nhất $$\lambda_1, \lambda_2, \ldots, \lambda_k$$.
-
-**Ý tưởng đột phá của Okounkov (2000):** Thay vì tính toán giải tích trực tiếp bằng đa thức trực giao như BDJ, Okounkov chứng minh sự trùng khớp bằng một **cây cầu hình học**: ông chỉ ra rằng cả mô-men của ma trận ngẫu nhiên lẫn mô-men của biểu đồ Plancherel đều đếm *cùng một đối tượng hình học* — các **mặt ngẫu nhiên** (phủ phân nhánh của mặt cầu, tương ứng với các đồ thị ruy-băng)! (Độc lập với đó, **Borodin–Okounkov–Olshanski** và **Johansson** cũng đưa ra những chứng minh khác theo hướng quá trình điểm định thức.)
-
-Từ hạt giống đó, Okounkov cùng **Richard Kenyon** (và Scott Sheffield) tiến sang mô hình **tinh thể nóng chảy** (*melting crystal*) và **mô hình dimer** (phủ lưới tổ ong bằng hình thoi). Hãy hình dung một góc phòng 3D lấp đầy vô hạn các khối lập phương băng, rồi bạn bắt đầu làm tan chảy ngẫu nhiên từng khối từ góc phòng ra ngoài. Bạn sẽ thấy một hiện tượng gây sững sờ:
-- Xa góc phòng, tinh thể vẫn "đóng băng" cứng nhắc thành các mặt phẳng phẳng lì;
-- Gần góc phòng, tinh thể "tan chảy" thành vùng lỏng hỗn loạn;
-- Và **đường biên phân cách giữa vùng đóng băng và vùng lỏng** (được gọi là *đường cong băng giá* — arctic curve) không phải một đường cong ngẫu nhiên bất kỳ, mà **Kenyon–Okounkov** chứng minh nó luôn là một **đường cong đại số thực** (loại đường cong Harnack)! Từ một bài toán xác suất cơ học thống kê thuần túy, hình học đại số bất ngờ hiện hình ngay trước mắt!
+### 3. Không gian Fock — cầu nối từ biểu đồ Young sang hình học đếm
+Nếu coi mỗi biểu đồ Young $$\lambda$$ (ở mọi kích thước $$n \ge 0$$) là một vector cơ sở trực chuẩn $$\vert\lambda\rangle$$ của một không gian Hilbert vô hạn chiều, ta thu được **không gian Fock** (không gian trạng thái của các hạt fermion 1 chiều). Phép thêm/bớt một ô vuông trên biểu đồ trở thành các toán tử sinh/hủy quen thuộc của vật lý lượng tử — và kỳ diệu thay, các hàm sinh của **hình học đếm (Gromov–Witten)** lại có thể viết gọn thành giá trị kỳ vọng $$\langle 0 \vert \cdots \vert 0 \rangle$$ của đúng các toán tử ấy!
 
 ---
 
-## 3. Lý thuyết Gromov–Witten như những hàm sinh trong không gian Fock
+## 1. Ví dụ cầm tay chỉ việc: tính trọn bộ độ đo Plancherel cho $$S_3$$ và thuật toán Robinson–Schensted
 
-Trong hình học đại số hiện đại, **lý thuyết Gromov–Witten** đếm (theo nghĩa tích phân ảo trên không gian moduli ánh xạ ổn định) số đường cong đại số giống $$g$$ nằm trong một đa tạp đích $$X$$ và đi qua các chu trình cho trước. Những con số này cực kỳ khó tính bằng hình học thuần túy.
+Hãy thử với $$n = 3$$ (nhóm $$S_3$$ có $$3! = 6$$ hoán vị). Số $$3$$ có đúng **3 phân hoạch**:
 
-Trong loạt bài báo kinh điển (*Annals of Mathematics* 163, 2006; bắt đầu từ [arXiv:math/0207233](https://arxiv.org/abs/math/0207233)), **Andrei Okounkov và Rahul Pandharipande** đã giải mã hoàn chỉnh lý thuyết Gromov–Witten khi đa tạp đích là một đường cong — đặc biệt là đường thẳng xạ ảnh $$\mathbb{P}^1$$. Họ xây dựng một **hình thức toán tử trên không gian Fock** (không gian "nêm vô hạn" với cơ sở là các biểu đồ Young):
-- Họ đồng nhất phần dừng của lý thuyết Gromov–Witten trên $$\mathbb{P}^1$$ với **lý thuyết Hurwitz** (đếm phủ phân nhánh của mặt cầu — vốn hoàn toàn biểu diễn được qua tích trong tâm đại số nhóm $$S_n$$!) có chèn thêm các toán tử **chu trình hoàn chỉnh** (*completed cycles*).
-- Từ đó, họ chứng minh toàn bộ hàm sinh Gromov–Witten đẳng biến của $$\mathbb{P}^1$$ là một hàm tau của **hệ phương trình khả tích 2-Toda** (người anh em tổng quát của hệ KdV trong định lý Witten–Kontsevich)!
+| Phân hoạch $$\lambda$$ | Biểu đồ Young | Số bảng chuẩn ($$\dim\lambda$$) | Xác suất Plancherel $$\frac{(\dim\lambda)^2}{3!}$$ |
+|---|---|---|---|
+| $$(3)$$ | 1 hàng 3 ô | $$1$$ (biểu diễn tầm thường) | $$1^2 / 6 = 1/6$$ |
+| $$(2, 1)$$ | Hàng 2 ô + hàng 1 ô | $$2$$ (biểu diễn chuẩn 2D) | $$2^2 / 6 = 4/6 = 2/3$$ |
+| $$(1, 1, 1)$$ | 1 cột 3 ô | $$1$$ (biểu diễn dấu) | $$1^2 / 6 = 1/6$$ |
 
-Tiếp nối mạch tư duy bắc cầu này, **Maulik–Nekrasov–Okounkov–Pandharipande (MNOP)** còn đề xuất bộ giả thuyết nổi tiếng nối liền hai lý thuyết đếm tưởng chừng xa lạ của đa tạp ba chiều: **lý thuyết Gromov–Witten** (đếm đường cong) và **lý thuyết Donaldson–Thomas** (đếm bó lý tưởng — mà ở trường hợp xuyến lại quay về đúng bài toán đếm **phân hoạch phẳng 3D**!).
+Kiểm tra tổng xác suất: $$\frac{1}{6} + \frac{4}{6} + \frac{1}{6} = 1$$! Hãy chú ý điều thú vị ngay ở $$n=3$$: phân hoạch "cân đối ở giữa" $$(2,1)$$ chiếm tới **$$2/3$$ xác suất**, trong khi hai dạng cực đoan dài dẹt $$(3)$$ và $$(1,1,1)$$ chỉ chiếm $$1/6$$ mỗi dạng! (Khi $$n$$ rất lớn, hiện tượng "tập trung vào dáng giữa" này chính là hình dạng giới hạn Vershik–Kerov–Logan–Shepp!)
 
-**Tóm tắt.** Hình học đếm trở nên tính được tường minh khi ta nhận ra hàm sinh của nó chính là một kỳ vọng chân không của các toán tử trên không gian Fock trong lý thuyết biểu diễn.
+**Thử chạy thuật toán Robinson–Schensted trên hoán vị $$(2, 1, 3) \in S_3$$:**
+- Chèn $$2$$ vào bảng rỗng $$\to$$ hàng 1: `[2]`.
+- Chèn $$1$$: vì $$1 < 2$$, số $$1$$ đẩy $$2$$ xuống hàng 2 $$\to$$ hàng 1: `[1]`, hàng 2: `[2]`.
+- Chèn $$3$$: vì $$3 > 1$$, gắn $$3$$ vào cuối hàng 1 $$\to$$ hàng 1: `[1, 3]`, hàng 2: `[2]`.
 
----
-
-## 4. Hàm phân hoạch Nekrasov: cây cầu sang lý thuyết gauge bốn chiều
-
-Năm 2002, nhà vật lý toán **Nikita Nekrasov** đưa ra một định nghĩa toán học chặt chẽ (đã chính quy hóa bằng tác động xuyến) cho **hàm phân hoạch instanton** của lý thuyết trường gauge siêu đối xứng $$\mathcal{N}=2$$ bốn chiều, dưới dạng tích phân định vị đẳng biến trên không gian moduli instanton. Nhờ định lý định vị Atiyah–Bott, các điểm bất động của tác động xuyến trên không gian moduli instanton lại được đánh chỉ số bởi... **các bộ biểu đồ Young**!
-
-Trong công trình chung đột phá **Nekrasov–Okounkov** (xem bài tổng quan dễ đọc của Okounkov [arXiv:math-ph/0601062](https://arxiv.org/abs/math-ph/0601062)), hai tác giả viết lại toàn bộ hàm phân hoạch instanton của Nekrasov thành một **độ đo xác suất trên các phân hoạch ngẫu nhiên** (một biến dạng của độ đo Plancherel), rồi áp dụng chính kỹ thuật **hình dạng giới hạn** kiểu Vershik–Kerov để tính hành vi tiệm cận! Kết quả làm chấn động cả hai giới toán và vật lý: năng lượng tự do (sức căng bề mặt) của hình dạng giới hạn đó **trùng khớp hoàn toàn với hàm thế trước (prepotential) của lý thuyết Seiberg–Witten**, cung cấp chứng minh toán học đầu tiên cho dự đoán nổi tiếng của Nekrasov!
-
-**Nói cho chính xác:** Okounkov không phát minh ra lý thuyết gauge hay phương trình Seiberg–Witten. Đóng góp mang tầm Fields ở đây là một bộ từ điển phi thường: **tổng theo instanton 4D $$\leftrightarrow$$ phân hoạch ngẫu nhiên $$\leftrightarrow$$ hình dạng giới hạn $$\leftrightarrow$$ đường cong Seiberg–Witten**.
+Hình dạng bảng thu được là phân hoạch **$$(2, 1)$$**, với chiều dài hàng đầu tiên $$\lambda_1 = 2$$ — **bằng đúng độ dài dãy con tăng dài nhất** `(2, 3)` hoặc `(1, 3)` của hoán vị `(2, 1, 3)`! Nếu bạn làm tương tự với cả 6 hoán vị của $$S_3$$, sẽ có đúng 1 hoán vị ra $$(3)$$, 4 hoán vị ra $$(2,1)$$, và 1 hoán vị ra $$(1,1,1)$$ — khớp **100%** với phân phối Plancherel!
 
 ---
 
-## 5. Quá trình Schur, dimer, và những điều không nên khẳng định
+## 2. Từ BDJ đến tinh thể nóng chảy và đường cong đại số
 
-Bên cạnh các cây cầu hình học, Okounkov còn tặng cho lý thuyết xác suất hiện đại một công cụ cực mạnh: **độ đo Schur** (Okounkov, 2001) tổng quát hóa độ đo Plancherel bằng cách thay $$(\dim\lambda)^2$$ bằng tích hai hàm Schur $$s_\lambda(x) s_\lambda(y)$$, và **quá trình Schur** (*Schur processes*, **Okounkov–Reshetikhin**, cùng các phát triển của **Borodin–Okounkov–Olshanski**) — một họ các độ đo trên *dãy* phân hoạch có cấu trúc **quá trình điểm định thức** (*determinantal point process*). Chính cấu trúc định thức này giúp ta tính chính xác mọi hàm tương quan của phân hoạch phẳng, mô hình tăng trưởng ngẫu nhiên và mô hình lát dimer.
+Năm 1999, **Baik–Deift–Johansson (BDJ)** chứng minh rằng độ lệch của hàng đầu tiên $$\lambda_1$$ quanh $$2\sqrt{n}$$ (chia cho $$n^{1/6}$$) tuân theo phân phối **Tracy–Widom** của trị riêng lớn nhất trong ma trận ngẫu nhiên Hermite Gauss, và dự đoán điều này đúng đồng thời cho $$k$$ hàng đầu tiên. **Okounkov (2000)** chứng minh dự đoán đó bằng một cây cầu hình học hoàn toàn mới: cả mô-men của ma trận ngẫu nhiên lẫn mô-men của phân hoạch Plancherel đều đếm cùng một đối tượng — **các mặt ngẫu nhiên** (phủ phân nhánh của mặt cầu)! (Song song đó, **Borodin–Okounkov–Olshanski** và **Johansson** đưa ra các chứng minh khác qua quá trình điểm định thức.)
 
-**Những điều Okounkov không làm:**
-- Ông **không** phân loại mọi biểu diễn bất khả quy của mọi nhóm (một chương trình thế kỷ trải khắp nhóm hữu hạn, nhóm Lie, nhóm $$p$$-adic). Công cụ sở trường của ông là nhóm đối xứng, biểu đồ Young và các đại số vô hạn chiều gắn với chúng.
-- Ông **không** thay thế hình học đại số bằng tổ hợp; bất biến Gromov–Witten vẫn có bản chất hình học sâu sắc, chỉ là hàm sinh của chúng nhận công thức toán tử từ lý thuyết biểu diễn.
-- Ông **không** giải quyết toàn bộ lý thuyết trường lượng tử Seiberg–Witten về mặt vật lý, mà chứng minh đẳng thức toán học cho hàm phân hoạch instanton đã chính quy hóa của Nekrasov.
+Tiếp đó, **Kenyon–Okounkov** (và Sheffield) nghiên cứu **phân hoạch phẳng 3D** (mô hình **tinh thể nóng chảy** và phủ **dimer** bằng hình thoi): khi ta làm tan chảy ngẫu nhiên các khối lập phương từ một góc tường 3D, ranh giới vĩ mô giữa vùng đóng băng phẳng lì và vùng lỏng hỗn loạn (*đường cong băng giá*) luôn là một **đường cong đại số thực** (đường cong Harnack)! Một lần nữa, xác suất cơ học thống kê lại dẫn thẳng về hình học đại số.
 
 ---
 
-## 6. Vì sao là Huy chương Fields
+## 3. Khung giải thích: Ba cây cầu lớn của Okounkov vận hành như thế nào? (nên đọc chậm)
 
-Văn bản của IMU năm 2006 thẳng thắn ghi nhận một sự thật hiếm có: công trình của Okounkov không chịu nằm gọn trong một ngăn tủ truyền thống nào. Huy chương Fields 2006 tôn vinh sức mạnh của **những cây cầu**:
+Làm sao cùng một bộ công cụ "biểu đồ Young + độ đo ngẫu nhiên" lại giải được bài toán ở cả hình học đếm lẫn vật lý lý thuyết 4 chiều? Hãy xem chuỗi 4 bước:
 
-1. **Một độ đo xác suất tự nhiên hóa thành công cụ hình học.** Độ đo Plancherel và độ đo Schur đi từ bài toán xáo bài ngẫu nhiên sang mặt ngẫu nhiên, đường cong Harnack và không gian moduli.
-2. **Hàm sinh trở thành định lý cấu trúc.** Hệ phân cấp 2-Toda và không gian Fock biến hình học đếm Gromov–Witten của $$\mathbb{P}^1$$ thành một lý thuyết hoàn toàn tính được.
-3. **Vật lý toán sinh ra toán học tinh khiết hai chiều.** Việc đếm instanton 4D biến thành bài toán hình dạng giới hạn của phân hoạch ngẫu nhiên, vừa xác nhận dự đoán vật lý Seiberg–Witten vừa mở ra cả một nhánh xác suất tích phân mới.
+#### Bước 1: Lý thuyết Gromov–Witten của đường cong qua không gian Fock (Okounkov–Pandharipande)
+**Lý thuyết Gromov–Witten** đếm (theo nghĩa ảo) số ánh xạ chỉnh hình từ đường cong giống $$g$$ vào đa tạp đích $$X$$. Khi đa tạp đích là **$$\mathbb{P}^1$$**, **Okounkov và Pandharipande** (*Ann. of Math.* 163, 2006; [arXiv:math/0207233](https://arxiv.org/abs/math/0207233)) đồng nhất phần dừng với **số Hurwitz** (đếm phủ phân nhánh — vốn là phép nhân trong tâm đại số nhóm $$S_n$$) có chèn các toán tử **chu trình hoàn chỉnh** (*completed cycles*). Khi chuyển sang cơ sở biểu đồ Young trong không gian Fock, toàn bộ hàm sinh Gromov–Witten đẳng biến của $$\mathbb{P}^1$$ hóa thành một hàm tau của **hệ phương trình khả tích 2-Toda**!
 
-Bài giới thiệu của Giovanni Felder tại ICM 2006, *"The work of Andrei Okounkov"* ([arXiv:math/0609847](https://arxiv.org/abs/math/0609847)), là tài liệu tuyệt vời để đọc nối tiếp sau bài này.
+#### Bước 2: Giả thuyết cầu nối Gromov–Witten $$\leftrightarrow$$ Donaldson–Thomas (MNOP)
+Cùng **Maulik, Nekrasov và Pandharipande**, Okounkov đề xuất bộ giả thuyết nối lý thuyết **Gromov–Witten** (đếm đường cong trong đa tạp 3 chiều) với lý thuyết **Donaldson–Thomas** (đếm bó lý tưởng — mà trên không gian xuyến chính là đếm **phân hoạch phẳng 3D**!).
+
+#### Bước 3: Hàm phân hoạch instanton Nekrasov biến thành độ đo trên phân hoạch (Nekrasov–Okounkov)
+Năm 2002, **Nikita Nekrasov** định nghĩa chặt chẽ hàm phân hoạch instanton của lý thuyết gauge siêu đối xứng $$\mathcal{N}=2$$ bốn chiều bằng tích phân định vị đẳng biến trên không gian moduli instanton. Nhờ định vị Atiyah–Bott, các điểm bất động được đánh chỉ số bởi các bộ biểu đồ Young! **Nekrasov và Okounkov** ([arXiv:math-ph/0601062](https://arxiv.org/abs/math-ph/0601062)) viết lại hàm phân hoạch đó thành một **độ đo xác suất trên phân hoạch ngẫu nhiên** (một biến dạng của độ đo Plancherel), rồi dùng phương pháp **hình dạng giới hạn** chứng minh năng lượng tự do (sức căng bề mặt) của hình dạng giới hạn khớp chính xác với **hàm thế trước Seiberg–Witten**!
+
+#### Bước 4: Quá trình Schur — khung xác suất định thức chung
+Để thống nhất tất cả các mô hình tăng trưởng, phân hoạch phẳng và dimer, **Okounkov** giới thiệu **độ đo Schur** (trọng số $$s_\lambda(x)s_\lambda(y)$$), rồi cùng **Reshetikhin** (và nhóm **Borodin–Okounkov–Olshanski**) xây dựng **quá trình Schur** — các độ đo trên dãy phân hoạch có hàm tương quan dạng định thức tính được tường minh.
+
+Tóm tắt tam giác cầu nối của Okounkov:
+
+$$
+\text{Xác suất (Plancherel / Schur)}
+\;\longleftrightarrow\;
+\text{Biểu diễn (} S_n\text{, Không gian Fock)}
+\;\longleftrightarrow\;
+\text{Hình học (Gromov–Witten, Seiberg–Witten)}.
+$$
+
+---
+
+## 4. Những điều Okounkov không làm và vì sao là Huy chương Fields
+
+- Ông **không** phân loại mọi biểu diễn bất khả quy của mọi nhóm (công trình thế kỷ trải rộng trên nhóm hữu hạn, nhóm Lie, nhóm $$p$$-adic); sở trường của ông là nhóm đối xứng và lý thuyết biểu diễn tổ hợp làm cầu nối.
+- Ông **không** thay thế hình học đại số bằng tổ hợp, và **không** phát minh lý thuyết gauge hay Seiberg–Witten (Nekrasov định nghĩa hàm phân hoạch; Nekrasov–Okounkov dựng từ điển nối với phân hoạch ngẫu nhiên).
+
+**Vì sao là Huy chương Fields 2006:** Như Giovanni Felder tổng kết trong bài giới thiệu tại ICM (*"The work of Andrei Okounkov"*, [arXiv:math/0609847](https://arxiv.org/abs/math/0609847)), huy chương tôn vinh một **bộ từ điển phi thường** cho phép ba ngành lớn — xác suất, lý thuyết biểu diễn và hình học đại số — mượn công cụ của nhau để giải những bài toán tưởng chừng bất khả xâm phạm.
 
 ---
 

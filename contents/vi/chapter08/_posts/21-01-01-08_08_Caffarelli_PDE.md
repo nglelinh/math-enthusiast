@@ -19,6 +19,8 @@ Suốt hơn bốn thập niên, **Luis A. Caffarelli** (Đại học Texas tại
 
 Từ những bài toán biên tự do như băng tan và màng đàn hồi, phương trình hoàn toàn phi tuyến Monge–Ampère ở trái tim của vận chuyển tối ưu, cho đến định lý chính quy từng phần nổi tiếng **Caffarelli–Kohn–Nirenberg (CKN)** cho phương trình dòng chảy Navier–Stokes, sự nghiệp của Caffarelli đã dạy cho cả cộng đồng giải tích cách "đặt kính hiển vi" vào những nơi phương trình phi tuyến có nguy cơ gãy vỡ. Tài liệu chính thức: [abelprize.no](https://abelprize.no/).
 
+**Mạch bài học:** Bản đồ kiến thức nền (PDE phi tuyến, lý thuyết chính quy, bài toán biên tự do) → Biên tự do và bài toán chướng ngại → Khung giải thích chậm: tự tay giải bài toán chướng ngại 1D và thấy bước nhảy đạo hàm bậc hai → Phương trình Monge–Ampère → Định lý CKN cho Navier–Stokes.
+
 ---
 
 ## Mục tiêu học tập
@@ -31,11 +33,16 @@ Sau bài này, bạn có thể định nghĩa bài toán biên tự do và cho m
 
 ## Bản đồ kiến thức nền: Phương trình đạo hàm riêng (PDE) phi tuyến và bài toán biên tự do là gì và nghiên cứu những gì?
 
-Hầu hết sinh viên đại học đều từng gặp **phương trình đạo hàm riêng (PDE) tuyến tính** như phương trình nhiệt, phương trình sóng hay phương trình Laplace $$\Delta u = u_{xx} + u_{yy} = 0$$. Trong thế giới tuyến tính, mọi thứ rất "dễ bảo": tổng của hai nghiệm vẫn là nghiệm, và nếu dữ liệu ban đầu trơn tru thì nghiệm thường cũng trơn tru mượt mà. Thế nhưng thế giới thực lại hiếm khi tuyến tính:
+Hầu hết sinh viên đại học đều từng gặp **phương trình đạo hàm riêng (PDE) tuyến tính** như phương trình nhiệt, phương trình sóng hay phương trình Laplace $$\Delta u = u_{xx} + u_{yy} = 0$$. Trong thế giới tuyến tính, mọi thứ rất "dễ bảo": tổng của hai nghiệm vẫn là nghiệm, và dữ liệu trơn thường cho nghiệm trơn. Thế nhưng thế giới thực hiếm khi tuyến tính, và ba trụ cột sau mở ra cánh cửa vào lý thuyết của Caffarelli:
 
-- **PDE phi tuyến (Nonlinear PDE):** Là phương trình trong đó hàm ẩn $$u$$ hoặc các đạo hàm của nó nhân với nhau hay nằm trong một hàm phi tuyến (như $$u \cdot \nabla u$$ trong dòng chảy chất lỏng Navier–Stokes, hay định thức ma trận đạo hàm bậc hai $$\det D^2 u = f$$ trong phương trình Monge–Ampère). Trong thế giới phi tuyến, ta không thể cộng hai nghiệm lại, và nguy hiểm hơn: ngay cả khi dữ liệu ban đầu hoàn toàn trơn tru, nghiệm vẫn có thể đột ngột hình thành **kỳ dị** (vết gãy, sóng xung kích, độ cong bùng nổ lên vô cực).
-- **Lý thuyết chính quy (Regularity Theory):** Trong nhiều bài toán, nhờ phép tính biến phân, người ta dễ chứng minh rằng có tồn tại một **"nghiệm yếu"** (một hàm có thể gồ ghề, thậm chí không có đạo hàm theo nghĩa cổ điển). Nhiệm vụ của lý thuyết chính quy là trả lời: *nghiệm yếu đó thực ra có trơn tru ($$C^1, C^2, C^\infty$$) không? Nếu nó có điểm kỳ dị, tập hợp các điểm xấu đó lớn cỡ nào và hình dáng ra sao?*
-- **Bài toán biên tự do (Free-Boundary Problem):** Trong bài toán cổ điển (biên cố định), miền $$\Omega$$ được cho trước—ví dụ tìm phân bố nhiệt trên một tấm kim loại hình tròn cố định. Trong **bài toán biên tự do**, chính đường biên ngăn cách hai trạng thái (như mặt phân cách băng–nước khi băng tan, hay đường viền vùng tiếp xúc của màng đàn hồi đè lên vật cản) lại là **một phần của ẩn số** phải tìm đồng thời với nghiệm $$u$$!
+### 1. PDE phi tuyến và Hoàn toàn phi tuyến (Nonlinear / Fully Nonlinear PDE)
+Là phương trình trong đó hàm ẩn $$u$$ hoặc các đạo hàm của nó nhân với nhau hay nằm trong một hàm phi tuyến (như $$u \cdot \nabla u$$ trong dòng chảy Navier–Stokes, hay định thức ma trận đạo hàm bậc hai $$\det D^2 u = f$$ trong phương trình Monge–Ampère). Trong thế giới phi tuyến, ta không thể cộng hai nghiệm lại, và ngay cả khi dữ liệu ban đầu hoàn toàn trơn tru, nghiệm vẫn có thể đột ngột hình thành **kỳ dị** (vết gãy, sóng xung kích, độ cong bùng nổ lên vô cực).
+
+### 2. Lý thuyết chính quy (Regularity Theory)
+Trong nhiều bài toán, nhờ phép tính biến phân, người ta dễ chứng minh có tồn tại một **"nghiệm yếu"** (một hàm có thể gồ ghề, chưa chắc có đạo hàm cổ điển). Nhiệm vụ của lý thuyết chính quy là trả lời: *nghiệm yếu đó thực ra có trơn tru ($$C^1, C^{1,1}, C^\infty$$) không? Nếu có điểm kỳ dị, tập hợp các điểm xấu đó có kích thước (chiều Hausdorff) nhỏ đến đâu?*
+
+### 3. Bài toán biên tự do (Free-Boundary Problem)
+Trong bài toán cổ điển (biên cố định), miền $$\Omega$$ được cho trước—ví dụ tìm phân bố nhiệt trên một tấm kim loại hình tròn cố định. Trong **bài toán biên tự do**, chính đường biên ngăn cách hai trạng thái (như mặt phân cách băng–nước khi băng tan, ranh giới tiếp xúc của màng đàn hồi đè lên vật cản, hay ngưỡng thực hiện quyền chọn tài chính kiểu Mỹ) lại là **một phần của ẩn số** phải tìm đồng thời với nghiệm $$u$$!
 
 ---
 
@@ -69,11 +76,27 @@ Trước Caffarelli (thập niên 1970), người ta biết bài toán chướng
 
 ## 3. Bài toán chướng ngại như một mô hình
 
-Hãy nhìn trực giác bài toán chướng ngại ở 1 chiều trước cho dễ hình dung: bạn căng một sợi dây đàn hồi qua một cái gờ cong nhẵn $$\varphi(x)$$. Ở nơi sợi dây không chạm gờ, nó căng thẳng thành đoạn thẳng ($$u'' = 0$$); ở nơi nó ôm theo gờ, $$u = \varphi$$. Tại đúng hai điểm tiếp xúc đầu và cuối (biên tự do trong 1D), sợi dây rời khỏi gờ một cách **tiếp tuyến mượt mà** ($$u' = \varphi'$$), nhưng đạo hàm bậc hai $$u''$$ bị nhảy bước đột ngột từ $$\varphi''$$ về $$0$$!
+### Khung giải thích: Tự tay giải bài toán chướng ngại 1D và nhìn thấy bước nhảy $$C^{1,1}$$ (nên đọc chậm)
 
-Ở nhiều chiều ($$n \ge 2$$), sợi dây trở thành tấm màng cực tiểu hóa năng lượng Dirichlet $$\int \lvert\nabla v\rvert^2 dx$$ dưới ràng buộc $$v \ge \varphi$$. Khi đó độ trơn tối ưu của nghiệm $$u$$ chỉ đạt tối đa $$C^{1,1}$$ (đạo hàm bậc hai bị chặn nhưng nhảy bước qua biên tự do), còn hình dạng của biên tự do $$\partial\{u > \varphi\}$$ phức tạp hơn gấp bội.
+Để thấy tận mắt thế nào là "biên tự do là ẩn số" và vì sao độ trơn tối ưu của nghiệm chỉ đạt $$C^{1,1}$$ chứ không thể đạt $$C^2$$, hãy tự tay giải một bài toán chướng ngại 1 chiều hoàn toàn tường minh!
 
-Mô thức của Caffarelli trở thành sách giáo khoa cho cả ngành: đặt tâm tại một điểm $$x_0$$ trên biên tự do, **phóng to liên tục** (đổi tỉ lệ), phân loại các nghiệm giới hạn thuần nhất cực kỳ đơn giản (chẳng hạn nửa không gian hoặc paraboloid), rồi dùng định lý cải thiện độ phẳng (*improvement of flatness*) để kéo tính trơn trở lại thang ban đầu.
+**Đề bài:** Căng một sợi dây đàn hồi $$u(x)$$ trên đoạn $$[-2, 2]$$ sao cho hai đầu ghim xuống đất $$u(-2) = u(2) = 0$$, đồng thời sợi dây buộc phải nằm phía trên cái gờ parabol $$\varphi(x) = 1 - x^2$$ ($$u(x) \ge 1 - x^2$$) và có năng lượng căng $$\int_{-2}^2 (u'(x))^2\,dx$$ nhỏ nhất.
+
+1. **Chia hai vùng nhờ tính đối xứng:** Gần đỉnh gờ ($$\lvert x\rvert \le a$$), sợi dây ôm khít lấy parabol nên $$u(x) = 1 - x^2$$. Xa hơn ($$a < \lvert x\rvert \le 2$$), sợi dây không chạm gờ nên căng thẳng thành đoạn thẳng ($$u''(x) = 0$$). Điểm $$x = \pm a$$ chính là **biên tự do** chưa biết trước!
+2. **Tìm tọa độ biên tự do $$a$$ bằng điều kiện tiếp xúc mượt:** Nếu sợi dây rời khỏi parabol tạo thành một góc gãy, ta có thể cắt gọn góc đó để giảm năng lượng căng. Vì vậy tại $$x = a$$, đoạn thẳng nối $$(a, 1-a^2)$$ với $$(2, 0)$$ phải **tiếp tuyến** với parabol (tức $$u'(a) = \varphi'(a) = -2a$$):
+   $$
+   \frac{0 - (1 - a^2)}{2 - a} = -2a \iff a^2 - 1 = -4a + 2a^2 \iff a^2 - 4a + 1 = 0.
+   $$
+   Giải phương trình bậc hai với $$0 < a < 2$$, ta tìm ra chính xác vị trí biên tự do:
+   $$
+   a = 2 - \sqrt{3} \approx 0.268!
+   $$
+3. **Kiểm tra độ trơn ngay tại biên tự do $$x = a \approx 0.268$$:**
+   - Giá trị hàm $$u$$ liên tục: $$u(a^-) = u(a^+) = 1 - a^2 \approx 0.928$$.
+   - Đạo hàm bậc nhất $$u'$$ liên tục: $$u'(a^-) = u'(a^+) = -2a \approx -0.536$$ (nên $$u \in C^1$$).
+   - **Đạo hàm bậc hai $$u''$$ bị nhảy bước đột ngột:** ngay bên trái $$a$$, $$u''(a^-) = \varphi''(a) = \mathbf{-2}$$; ngay bên phải $$a$$, sợi dây thẳng nên $$u''(a^+) = \mathbf{0}$$!
+
+Chính bước nhảy $$-2 \to 0$$ ấy giải thích vì sao độ trơn cao nhất có thể của nghiệm bài toán chướng ngại là **$$C^{1,1}$$** (đạo hàm bậc nhất Lipschitz, đạo hàm bậc hai bị chặn nhưng không liên tục)! Ở nhiều chiều ($$n \ge 2$$), sợi dây trở thành tấm màng cực tiểu hóa năng lượng Dirichlet $$\int \lvert\nabla v\rvert^2 dx$$ dưới ràng buộc $$v \ge \varphi$$, và mô thức của Caffarelli trở thành sách giáo khoa cho cả ngành: đặt tâm tại một điểm $$x_0$$ trên biên tự do, **phóng to liên tục** (đổi tỉ lệ), phân loại các nghiệm giới hạn thuần nhất cực kỳ đơn giản (chẳng hạn nửa không gian hoặc paraboloid), rồi dùng định lý cải thiện độ phẳng (*improvement of flatness*) để kéo tính trơn trở lại thang ban đầu.
 
 ---
 

@@ -90,6 +90,28 @@ Sâu hơn, hàm sinh các bất biến Gromov–Witten giống 0 ở một phía
 
 ---
 
+### Khung giải thích: tự tay kiểm tra đối xứng gương trên hình xuyến 2D và kim cương Hodge (nên đọc chậm)
+
+Các đa tạp Calabi–Yau 3 chiều phức (6 chiều thực) quá khó hình dung bằng mắt thường. Nhưng Calabi–Yau **1 chiều phức** lại cực kỳ quen thuộc: đó chính là **hình xuyến 2 chiều** (mặt bánh donut phẳng), tạo ra bằng cách dán các cạnh đối diện của một hình chữ nhật kích thước $$L_1 \times L_2$$.
+
+1. **Hoán đổi diện tích (phía A) và hình dạng (phía B) trên hình xuyến 2D:**
+   Trên hình chữ nhật $$L_1 \times L_2$$, hai đại lượng hình học cơ bản là:
+   - **Tham số symplectic / Kähler** (đo *diện tích*): $$\rho = i\,A = i\,L_1 L_2$$.
+   - **Tham số cấu trúc phức** (đo *hình dạng / tỷ số cạnh*): $$\tau = i\,\frac{L_2}{L_1}$$.
+
+   Bây giờ áp dụng **đối ngẫu T (cơ chế SYZ)** lên đúng vòng tròn thứ nhất: giữ nguyên cạnh $$L_2$$ và nghịch đảo cạnh $$L_1 \mapsto \check L_1 = \frac{1}{L_1}$$! Tính lại hai tham số của hình xuyến gương $$\check E$$ bằng tay:
+   - Diện tích mới: $$\check\rho = i\,\check L_1 L_2 = i\,\frac{L_2}{L_1} = \tau$$.
+   - Hình dạng mới: $$\check\tau = i\,\frac{L_2}{\check L_1} = i\,L_1 L_2 = \rho$$.
+
+   **Thử bằng số cụ thể:** Lấy hình chữ nhật kích thước $$L_1 = 2,\ L_2 = 6$$: diện tích là $$A = 12$$, tỷ số cạnh là $$6/2 = 3$$. Sau khi lật $$L_1 \mapsto 1/2$$ thành hình chữ nhật $$\tfrac{1}{2} \times 6$$: diện tích mới là $$\tfrac{1}{2}\cdot 6 = 3$$, còn tỷ số cạnh mới là $$6/(1/2) = 12$$! Chỉ bằng một phép chia, **diện tích và hình dạng đã đổi chỗ hoàn toàn cho nhau ($$\rho \leftrightarrow \tau$$)**.
+
+2. **Kiểm tra phép lật kim cương Hodge trên Calabi–Yau 3 chiều:**
+   Với mọi Calabi–Yau 3 chiều, đặc trưng Euler tôpô được tính gọn từ hai số Hodge duy nhất chưa cố định:
+   $$
+   \chi(X) = 2\bigl(h^{1,1}(X) - h^{2,1}(X)\bigr).
+   $$
+   Với đa tạp bậc năm quintic $$X \subset \mathbb{P}^4$$, ta có $$h^{1,1}(X) = 1$$ và $$h^{2,1}(X) = 101$$, nên $$\chi(X) = 2(1 - 101) = -200$$. Đa tạp gương $$\check X$$ hoán đổi hai số này thành $$h^{1,1}(\check X) = 101,\ h^{2,1}(\check X) = 1$$, suy ra $$\chi(\check X) = 2(101 - 1) = +200$$. Đặc trưng Euler đổi dấu ngay lập tức chứng tỏ $$X$$ và $$\check X$$ **không thể đồng phôi** với nhau — đối xứng gương thật sự nối hai không gian khác hẳn nhau về tôpô.
+
 ## 5. Đối xứng gương đồng điều (Kontsevich)
 
 **Kontsevich (1994)** nâng sự trùng khớp trong hình học đếm lên thành một phát biểu về phạm trù, gọi là **HMS**:

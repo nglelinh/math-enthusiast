@@ -14,6 +14,8 @@ Tháng 11 năm 2022, David Smith — một kỹ thuật viên in ấn đã ngh�
 
 Đứng trước những công cụ mạnh mẽ đến choáng ngợp ấy, người làm toán hôm nay rất dễ rơi vào một ảo giác nguy hiểm: *liệu máy tính đã có thể làm thay cuốn sổ ghi chép nghiên cứu của chúng ta?* Câu trả lời là **không**. Trái lại, máy tính càng mạnh thì kỷ luật của người cầm bút càng phải sắc bén: biết đặt giả thuyết rõ ràng trước khi bấm nút chạy, ghi chép trung thực phạm vi tính toán, và tuyệt đối không bao giờ đánh tráo một phép tính hữu hạn đã chạy xong thành một chứng minh toán học cho tới vô cùng.
 
+**Mạch bài học:** Bản đồ kiến thức nền (bộ giải SAT & chứng chỉ UNSAT, AI thần kinh–ký hiệu & kiểm chứng GPU) → Khung giải thích chậm: tự tay mã hóa bài toán tô 2 màu tam giác $$K_3$$ thành công thức SAT và chứng minh UNSAT trong 4 dòng → Ba công cụ thực chiến 2022–2026 → Kỷ luật nhật ký studio.
+
 ## Mục tiêu học tập
 
 Sau bài đọc thêm này, bạn sẽ:
@@ -26,13 +28,44 @@ Sau bài đọc thêm này, bạn sẽ:
 
 Khi sinh viên đại học dùng Python hay MATLAB, ta thường nghĩ máy tính chỉ giúp "tính xấp xỉ cho nhanh". Nhưng trong toán học hiện đại, máy tính còn tham gia trực tiếp vào **logic và chứng minh** thông qua ba nhánh giao thoa với Khoa học máy tính:
 
-1. **Bài toán thỏa mãn Boolean (SAT) và Chứng chỉ UNSAT:** Một bộ giải SAT nhận vào hàng nghìn đến hàng triệu mệnh đề logic dạng *VÀ / HOẶC / PHỦ ĐỊNH* (CNF) rồi tìm cách gán Đúng/Sai thỏa mãn tất cả. Điều kỳ diệu là nếu bộ giải trả về **UNSAT (không thỏa được)**, các bộ giải hiện đại (như CaDiCaL, Kissat) có thể xuất ra một tệp **chứng chỉ (proof certificate)** mà một chương trình kiểm chứng độc lập, cực kỳ nhỏ gọn có thể kiểm tra lại từng bước logic! Nhờ đó, một tìm kiếm hữu hạn có thể trở thành một phần chứng minh chặt chẽ (như bài toán bộ ba Pythagoras Boolean hay tính số Heesch của viên lát).
-2. **Trí tuệ nhân tạo thần kinh–ký hiệu (Neuro-Symbolic AI):** Mô hình ngôn ngữ lớn (LLM) rất giỏi trực giác đoán nước đi (chẳng hạn nên vẽ thêm điểm phụ hay đường tròn ngoại tiếp nào trong hình học), nhưng lại hay "ảo giác" khi suy luận dài. Hệ thống như **AlphaGeometry** giải quyết điểm yếu đó bằng cách ghép đôi: mạng nơ-ron chỉ đóng vai trò *gợi ý dựng hình phụ*, còn toàn bộ chuỗi suy diễn logic do một **bộ suy luận ký hiệu tất định** kiểm soát — đảm bảo mọi bước chứng minh sinh ra đều hợp lệ 100%.
-3. **Tính toán kiểm chứng quy mô lớn (Large-Scale Verification):** Dùng GPU hoặc mạng lưới phân tán để quét qua hàng tỉ tỉ trường hợp (như kiểm tra Collatz đến $$2^{68}$$ hay kiểm tra không điểm của hàm zeta Riemann). Phương pháp này cực mạnh để **tìm phản ví dụ** (chỉ cần 1 phản ví dụ là bác bỏ được giả thuyết!), nhưng tự nó **không bao giờ** chứng minh được một mệnh đề đúng cho mọi số tự nhiên.
+### 1. Bài toán thỏa mãn Boolean (SAT) và Chứng chỉ UNSAT
+
+Một bộ giải SAT nhận vào hàng nghìn đến hàng triệu mệnh đề logic dạng *VÀ / HOẶC / PHỦ ĐỊNH* (dạng chuẩn hội CNF) rồi tìm cách gán Đúng/Sai thỏa mãn tất cả. Điều kỳ diệu là nếu bộ giải trả về **UNSAT (không thỏa được)**, các bộ giải hiện đại (như CaDiCaL, Kissat) có thể xuất ra một tệp **chứng chỉ chứng minh (proof certificate)** mà một chương trình kiểm chứng độc lập, cực kỳ nhỏ gọn có thể xác thực từng bước logic! Nhờ đó, một tìm kiếm hữu hạn có thể trở thành một phần chứng minh chặt chẽ (như bài toán bộ ba Pythagoras Boolean hay tính số Heesch của viên lát).
+
+### 2. Trí tuệ nhân tạo thần kinh–ký hiệu (Neuro-Symbolic AI)
+
+Mô hình ngôn ngữ lớn (LLM) rất giỏi trực giác đoán nước đi (chẳng hạn nên vẽ thêm điểm phụ hay đường tròn ngoại tiếp nào trong hình học), nhưng lại dễ "ảo giác" khi suy luận dài. Hệ thống như **AlphaGeometry** giải quyết điểm yếu đó bằng cách ghép đôi: mạng nơ-ron chỉ đóng vai trò *gợi ý dựng hình phụ*, còn toàn bộ chuỗi suy diễn logic do một **bộ suy luận ký hiệu tất định** kiểm soát — đảm bảo mọi bước chứng minh sinh ra đều hợp lệ 100%.
+
+### 3. Tính toán kiểm chứng quy mô lớn (Large-Scale Verification)
+
+Dùng GPU hoặc mạng lưới phân tán để quét qua hàng tỉ tỉ trường hợp (như kiểm tra Collatz đến $$2^{68}$$ hay kiểm tra không điểm của hàm zeta Riemann). Phương pháp này cực mạnh để **tìm phản ví dụ** (chỉ cần 1 phản ví dụ là bác bỏ được giả thuyết!), nhưng tự nó **không bao giờ** chứng minh được một mệnh đề đúng cho mọi số tự nhiên.
 
 ## Kiến thức cần có
 
 Bài tổng quan của phần thực hành và ít nhất một trong các bài: [lặp / Collatz]({{ site.baseurl }}/contents/vi/chapter07/07_09_Explore_Iteration/), [lát mặt phẳng / tô màu bản đồ]({{ site.baseurl }}/contents/vi/chapter07/07_07_Explore_Map_Colors/), [Kakeya]({{ site.baseurl }}/contents/vi/chapter07/07_02_Explore_Kakeya/), hoặc [xếp cầu]({{ site.baseurl }}/contents/vi/chapter07/07_03_Explore_Sphere_Packing/).
+
+---
+
+### Khung giải thích: Cầm tay mã hóa bài toán tô màu thành công thức SAT và chứng minh UNSAT (nên đọc chậm)
+
+Để hiểu cách một bài toán tổ hợp hay lát mặt phẳng được đưa vào bộ giải SAT, hãy tự tay mã hóa bài toán nhỏ nhất có thể: **có thể tô 3 đỉnh của tam giác $$K_3$$ (đỉnh $$1, 2, 3$$) bằng 2 màu (Đỏ = `0`, Xanh = `1`) sao cho hai đỉnh kề nhau luôn khác màu không?**
+
+1. **Chọn biến Boolean:** Vì mỗi đỉnh chỉ có 2 màu, chỉ cần 3 biến $$x_1, x_2, x_3 \in \{\text{Đúng (Xanh)},\; \text{Sai (Đỏ)}\}$$.
+2. **Dịch ràng buộc "hai đỉnh $$u, v$$ khác màu" thành mệnh đề CNF:** Hai đỉnh khác màu nghĩa là *không cùng Xanh* ($$\neg x_u \lor \neg x_v$$) VÀ *không cùng Đỏ* ($$x_u \lor x_v$$).
+3. **Viết toàn bộ công thức cho 3 cạnh $$(1,2), (2,3), (1,3)$$:**
+   $$
+   (\neg x_1 \lor \neg x_2) \;\land\; (x_1 \lor x_2) \;\land\;
+   (\neg x_2 \lor \neg x_3) \;\land\; (x_2 \lor x_3) \;\land\;
+   (\neg x_1 \lor \neg x_3) \;\land\; (x_1 \lor x_3).
+   $$
+4. **Chạy tay suy diễn kiểu bộ giải SAT (phản chứng lan truyền đơn vị):**
+   - Thử nhánh $$x_1 = \text{Đúng}$$: từ $$(\neg x_1 \lor \neg x_2)$$ suy ra $$x_2 = \text{Sai}$$; từ $$(\neg x_1 \lor \neg x_3)$$ suy ra $$x_3 = \text{Sai}$$ → vi phạm mệnh đề $$(x_2 \lor x_3)$$! (**Mâu thuẫn!**)
+   - Thử nhánh $$x_1 = \text{Sai}$$: từ $$(x_1 \lor x_2)$$ suy ra $$x_2 = \text{Đúng}$$; từ $$(x_1 \lor x_3)$$ suy ra $$x_3 = \text{Đúng}$$ → vi phạm mệnh đề $$(\neg x_2 \lor \neg x_3)$$! (**Mâu thuẫn!**)
+   - Cả hai nhánh đều mâu thuẫn → công thức là **UNSAT**, và chính chuỗi 4 dòng suy diễn trên là một **chứng chỉ chứng minh chặt chẽ** rằng $$\chi(K_3) > 2$$!
+
+Trong nghiên cứu thật (như bài toán lát "chiếc mũ" hay tô 3 màu một bản đồ 50 vùng), nguyên lý hoàn toàn y hệt — chỉ là thay 3 biến và 6 mệnh đề bằng hàng chục nghìn biến và hàng trăm nghìn mệnh đề!
+
+---
 
 ## Phát triển khái niệm: Hữu hạn và Vô hạn trong nhật ký studio
 

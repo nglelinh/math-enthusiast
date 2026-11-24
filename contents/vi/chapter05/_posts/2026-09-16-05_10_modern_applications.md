@@ -14,6 +14,8 @@ Tháng 12 năm 2020, nhà toán học đoạt Huy chương Fields **Peter Scholz
 
 Mười tám tháng sau, cộng đồng trợ lý chứng minh **Lean** trả lời bằng một dấu kiểm xanh tuyệt đối. Và chỉ hai năm sau đó (2024), những hệ thống AI kết hợp học sâu với suy diễn ký hiệu như **AlphaGeometry** và **AlphaProof** bắt đầu tự tìm ra lời giải cho các bài toán Olympic Toán học Quốc tế (IMO) rồi gửi trực tiếp cho Lean kiểm duyệt. Câu chuyện từ Euclid, Cantor, Gödel đến Định lý Bốn Màu đang bước sang một chương mới: nơi chứng minh không chỉ nằm trên bảng đen hay giấy in, mà trở thành **mã chương trình được kiểm toán ở cấp độ tiên đề**.
 
+**Mạch bài học:** Bản đồ kiến thức nền (chứng minh hình thức & Curry–Howard, lý thuyết phạm trù, nguyên lý de Bruijn) → Khung giải thích chậm: đọc một chứng minh thật trong Lean 4 và kiểm tra một phạm trù cụ thể bằng tay → Ba cột mốc 2022–2026 (Liquid Tensor Experiment, AlphaGeometry, AlphaProof) → Đối chiếu với giới hạn của Định lý Gödel.
+
 ---
 
 ## Mục tiêu học tập
@@ -22,13 +24,21 @@ Sau bài tùy chọn này, bạn có thể mô tả ba hệ thống tính toán 
 
 ---
 
-## Bản đồ kiến thức nền: Chứng minh hình thức, lý thuyết kiểu và lý thuyết phạm trù là gì?
+## Bản đồ kiến thức nền: Chứng minh hình thức, Lý thuyết kiểu và Lý thuyết phạm trù là gì?
 
-Khi đọc các tin tức về Lean, Liquid Tensor Experiment hay AlphaProof, người tốt nghiệp đại học thường gặp ba thuật ngữ nghe rất "hàn lâm": **chứng minh hình thức**, **lý thuyết kiểu** và **lý thuyết phạm trù**. Dưới đây là trực giác gọn gàng cho cả ba:
+Khi đọc các tin tức về Lean, Liquid Tensor Experiment hay AlphaProof, người tốt nghiệp đại học thường gặp ba thuật ngữ nghe rất "hàn lâm". Dưới đây là trực giác rõ ràng cho cả ba trụ cột:
 
-- **Chứng minh hình thức (Formal Proof) & Lý thuyết kiểu (Type Theory):** Trong lập trình thông thường, một hàm nhận đầu vào kiểu `Int` và trả về kiểu `Bool`, và trình biên dịch kiểm tra kiểu dữ liệu để bắt lỗi. Nhờ **Tương ứng Curry–Howard**, các trợ lý chứng minh như **Lean** hay **Coq** biến toán học thành lập trình: mỗi **mệnh đề toán học $$T$$** là một *kiểu dữ liệu (Type)*, còn một **chứng minh** của $$T$$ chính là một *chương trình / phần tử (Term)* có đúng kiểu $$T$$! Nếu bạn viết ra một lập luận có lỗ hổng nhỏ nhất, chương trình đơn giản là **không biên dịch được**.
-- **Lý thuyết phạm trù (Category Theory):** Nếu đại số nghiên cứu từng cấu trúc riêng lẻ (nhóm, vành, không gian vector), thì lý thuyết phạm trù đứng cao hơn một tầng để nghiên cứu **các cấu trúc và những mũi tên (cấu xạ)** nối giữa chúng. Một phạm trù gồm các *đối tượng* và các *mũi tên* tuân theo luật hợp thành; các cầu nối giữa hai phạm trù gọi là *hàm tử (functor)*. Chính ngôn ngữ phạm trù (cụ thể là *phạm trù Abel* và các *nhóm đối đồng điều $$\mathrm{Ext}$$*) cho phép các nhà toán học ngày nay biểu đạt định lý của Scholze một cách đồng nhất trong thư viện Lean.
-- **Tách biệt "Tìm kiếm" và "Kiểm chứng" — Nghịch lý người gác cổng:** Trong đời thường, khi một hệ thống AI viết ra bài chứng minh dài 5 trang, ta rơi vào nghịch lý: *"AI hay bịa chuyện, vậy ai kiểm tra AI? Nếu dùng AI khác kiểm tra thì ai kiểm tra AI thứ hai?"* Các trợ lý chứng minh giải quyết dứt điểm vòng lặp đó bằng **nguyên lý de Bruijn**: tách hẳn **bộ tìm kiếm** (có thể là con người hoặc mạng nơ-ron khổng lồ hàng tỷ tham số, được phép thử sai thoải mái) khỏi **lõi kiểm chứng (kernel)** cực nhỏ chỉ vài nghìn dòng mã thuần túy. Con người chỉ cần tin đúng lõi nhỏ ấy — nếu kernel gật đầu, chứng minh chắc chắn hợp lệ từ tiên đề!
+### 1. Chứng minh hình thức (Formal Proof) & Lý thuyết kiểu (Curry–Howard)
+Trong lập trình thông thường, một hàm nhận đầu vào kiểu `Int` và trả về kiểu `Bool`, và trình biên dịch kiểm tra kiểu dữ liệu để bắt lỗi. Nhờ **Tương ứng Curry–Howard**, các trợ lý chứng minh như **Lean** hay **Coq** biến toán học thành lập trình kiểu phụ thuộc (*dependent type theory*):
+- Mỗi **mệnh đề toán học $$T$$** là một **kiểu dữ liệu (Type)**.
+- Một **chứng minh** của $$T$$ chính là một **chương trình / phần tử (Term)** có đúng kiểu $$T$$!
+Nếu bạn viết một lập luận có lỗ hổng nhỏ nhất, chương trình đơn giản là **không biên dịch được**.
+
+### 2. Lý thuyết phạm trù (Category Theory) — ngôn ngữ của các cấu trúc và mũi tên
+Nếu đại số đại học nghiên cứu từng cấu trúc riêng lẻ (nhóm, vành, không gian vector), thì **lý thuyết phạm trù** đứng cao hơn một tầng để nghiên cứu **các cấu trúc và những mũi tên (cấu xạ — morphisms)** nối giữa chúng. Một phạm trù gồm: (a) các *đối tượng*, (b) các *mũi tên* giữa chúng, (c) phép *hợp thành* mũi tên có tính kết hợp, và (d) mũi tên *đồng nhất* tại mỗi đối tượng. Các cầu nối bảo toàn cấu trúc giữa hai phạm trù gọi là **hàm tử (functor)** (ví dụ: ánh xạ gán mỗi không gian tôpô với nhóm cơ bản $$\pi_1$$ của nó chính là một hàm tử từ Tôpô sang Đại số!). Chính ngôn ngữ phạm trù (phạm trù Abel, nhóm đối đồng điều $$\mathrm{Ext}$$) là hạ tầng mà Liquid Tensor Experiment phải xây trong Lean.
+
+### 3. Nghịch lý "người gác cổng của người gác cổng" và Nguyên lý de Bruijn
+Trong đời thường, khi AI viết ra một bài chứng minh dài 5 trang, ta rơi vào nghịch lý: *"AI hay ảo giác, vậy ai kiểm tra AI? Nếu dùng AI thứ hai kiểm tra thì ai kiểm tra AI thứ hai?"* Các trợ lý chứng minh dập tắt vòng lặp vô hạn đó bằng **nguyên lý de Bruijn**: tách hẳn **bộ tìm kiếm** (con người hoặc mạng nơ-ron khổng lồ hàng tỷ tham số, được phép thử sai thoải mái) khỏi **lõi kiểm chứng (kernel)** cực nhỏ chỉ vài nghìn dòng mã thuần túy. Con người chỉ cần kiểm toán đúng lõi nhỏ ấy — nếu kernel gật đầu, chứng minh chắc chắn hợp lệ từ tiên đề!
 
 ---
 
@@ -36,11 +46,42 @@ Khi đọc các tin tức về Lean, Liquid Tensor Experiment hay AlphaProof, ng
 
 Các bài chứng minh trước đó, đặc biệt là [Euclid và vô hạn số nguyên tố]({{ site.baseurl }}/contents/vi/chapter05/05_02_Euclid_Infinite_Primes/), [Gödel]({{ site.baseurl }}/contents/vi/chapter05/05_04_Godel_Incompleteness/), [bốn màu]({{ site.baseurl }}/contents/vi/chapter05/05_07_Four_Color_Proof/) và [Fermat]({{ site.baseurl }}/contents/vi/chapter05/05_08_Fermat_Last_Theorem/). Trang này không kể lại các lập luận đó.
 
-## Mở đầu
+---
 
-Một chứng minh là một ý tưởng đã được viết thành lập luận. Các trợ lý chứng minh tương tác biến lập luận đó thành chương trình. Vài năm gần đây, ý này đã thành những tiêu đề cụ thể: Liquid Tensor Experiment hoàn thành trong Lean năm 2022; AlphaGeometry viết được chứng minh cho các bài hình học olympic năm 2024; AlphaProof, được huấn luyện bằng học tăng cường trong Lean, đạt *số điểm* ở mức huy chương bạc tại IMO 2024 (với nhiều ngày tính toán, và đề bài do con người hình thức hóa trước). Điều cần giữ từ chương 5 là phải nhìn thấy rõ *từng bước*: dựng, tìm kiếm, và để kernel kiểm tra, chứ không dùng những lời hô hào kiểu "AI giải toán".
+## Khung giải thích: tự tay đọc một chứng minh thật trong Lean 4 và kiểm tra một phạm trù (nên đọc chậm)
 
-## Phát triển khái niệm
+Để cảm nhận rõ "biến chứng minh thành chương trình" thực tế trông như thế nào, hãy đọc chậm hai ví dụ cầm tay dưới đây:
+
+### Ví dụ cầm tay 1: Một chứng minh thật trong Lean 4 (Tương ứng Curry–Howard)
+Xét định lý logic cơ bản (luật *Modus Ponens*): *"Nếu $$P$$ đúng, và $$P \implies Q$$ đúng, thì $$Q$$ đúng."* Trong ngôn ngữ Lean 4, ta viết nguyên văn như một hàm lập trình:
+
+```lean
+theorem modus_ponens (P Q : Prop) (hp : P) (hpq : P → Q) : Q :=
+  hpq hp
+```
+
+Hãy đọc từng mảnh như một lập trình viên:
+- `P Q : Prop` khai báo hai mệnh đề (hai kiểu dữ liệu).
+- `hp : P` là giả thiết — một "bằng chứng" (phần tử) thuộc kiểu `P`.
+- `hpq : P → Q` là giả thiết thứ hai — một **hàm** nhận bằng chứng của `P` và trả về bằng chứng của `Q`.
+- Kết luận `: Q` yêu cầu ta nộp ra một phần tử thuộc kiểu `Q`.
+- Thân chứng minh `hpq hp` đơn giản là **gọi hàm `hpq` lên đầu vào `hp`**! Kernel của Lean kiểm tra kiểu: `hp` có kiểu `P`, `hpq` có kiểu `P → Q`, suy ra `hpq hp` có đúng kiểu `Q` → **dấu kiểm xanh!**
+
+Tương tự, với bài toán số học *"nếu $$n$$ chẵn thì $$n^2$$ chẵn"*: giả sử ta có bằng chứng $$n = 2k$$, ta chỉ việc cung cấp nhân chứng mới $$m = 2k^2$$ và để kernel kiểm tra đẳng thức đại số $$(2k)^2 = 2(2k^2)$$. Mọi định lý khổng lồ như Liquid Tensor Experiment đều được xây chồng từ hàng nghìn khối gạch nhỏ chặt chẽ y hệt như vậy.
+
+### Ví dụ cầm tay 2: Kiểm tra trực tiếp các tiên đề của một Phạm trù (Category)
+Xét một phạm trù quen thuộc nhất với sinh viên đại học — phạm trù **$$\mathbf{Set}$$**:
+- **Đối tượng:** các tập hợp (ví dụ $$A = \{1, 2\},\ B = \{x, y\},\ C = \{\text{Đỏ}, \text{Xanh}\}$$)
+- **Mũi tên (cấu xạ):** các hàm số $$f: A \to B$$ và $$g: B \to C$$.
+- **Kiểm tra bằng tay hai tiên đề phạm trù:**
+  1. *Mũi tên đồng nhất:* Với mỗi tập $$A$$, hàm $$\mathrm{id}_A(a) = a$$ thỏa $$f \circ \mathrm{id}_A = f$$ và $$\mathrm{id}_B \circ f = f$$.
+  2. *Tính kết hợp:* Với $$f: A \to B$$, $$g: B \to C$$, $$h: C \to D$$, tại mọi $$a \in A$$ ta luôn có $$\bigl((h \circ g) \circ f\bigr)(a) = h\bigl(g(f(a))\bigr) = \bigl(h \circ (g \circ f)\bigr)(a)$$.
+
+Khi thay tập hợp bằng **không gian vector** và hàm bằng **ánh xạ tuyến tính (ma trận)**, ta có phạm trù **$$\mathbf{Vect}$$**. Phép gán một ma trận vuông $$M$$ với định thức $$\det(M)$$ biến phép nhân ma trận thành phép nhân số ($$\det(AB) = \det(A)\det(B)$$, $$\det(I) = 1$$) — đó chính là một **hàm tử** bảo toàn cấu trúc!
+
+---
+
+## Phát triển khái niệm: Lean, AI và giới hạn của Gödel
 
 Một trợ lý chứng minh kiểm tra rằng một hạng tử thuộc về một kiểu nào đó. Nếu $$T$$ là một phát biểu hình thức thì một chứng minh trong Lean là một phần tử của kiểu $$T$$, xét tương đối theo kernel, các tiên đề và các thư viện mà bạn tin tưởng.
 
@@ -53,25 +94,29 @@ Một trợ lý chứng minh kiểm tra rằng một hạng tử thuộc về m�
 
 Bạn hoàn toàn có thể kiểm chứng chắc chắn *định lý này* ngay hôm nay mà vẫn không có một thủ tục quyết định vạn năng cho mọi định lý.
 
-## Ba ví dụ
+---
+
+## Ba ví dụ cột mốc (2022–2026)
 
 ### 1. Liquid Tensor Experiment (2022)
 
 Ngày 14 tháng 7 năm 2022, cộng đồng Lean, do Johan Commelin dẫn đầu và với phần toán học do Scholze đưa ra, thông báo đã hoàn thành Liquid Tensor Experiment: kiểm chứng hình thức một định lý đầy thách thức về các không gian vector "lỏng" (sự triệt tiêu của một số nhóm $$\mathrm{Ext}$$).
 
-**Điểm đáng chú ý về quy trình:** Để "giải thích" được phát biểu của Scholze cho máy tính, nhóm dự án không thể nhảy thẳng vào định lý chính. Họ phải dành nhiều tháng xây dựng hàng chục nghìn dòng thư viện nền trong `mathlib` về **lý thuyết phạm trù** (phạm trù Abel, phức dây chuyền, đối đồng điều) và dùng một "bản đồ phụ thuộc" (*blueprint*) chia bài toán khổng lồ thành hàng trăm bổ đề nhỏ để hàng chục nhà toán học trên thế giới cùng đóng góp song song. Bài học giống với việc hình thức hóa định lý bốn màu và giả thuyết Kepler: một lập luận nghiên cứu mũi nhọn có thể "nói chuyện" được với kernel, nhưng chỉ sau khi đầu tư bài bản vào hạ tầng thư viện. *Ý tưởng* của định lý vẫn là của Scholze và Clausen; *sản phẩm* là một kho mã kiểm chứng được.
+Để "giải thích" được phát biểu của Scholze cho máy tính, nhóm dự án không thể nhảy thẳng vào định lý chính. Họ phải dành nhiều tháng xây dựng hàng chục nghìn dòng thư viện nền trong `mathlib` về **lý thuyết phạm trù** (phạm trù Abel, phức dây chuyền, đối đồng điều) và dùng một "bản đồ phụ thuộc" (*blueprint*) chia bài toán khổng lồ thành hàng trăm bổ đề nhỏ để hàng chục nhà toán học trên thế giới cùng đóng góp song song. Bài học giống với việc hình thức hóa định lý bốn màu và giả thuyết Kepler: một lập luận nghiên cứu mũi nhọn có thể "nói chuyện" được với kernel, nhưng chỉ sau khi đầu tư bài bản vào hạ tầng thư viện. *Ý tưởng* của định lý vẫn là của Scholze và Clausen; *sản phẩm* là một kho mã kiểm chứng được.
 
 ### 2. AlphaGeometry (2024)
 
 Trinh và cộng sự (2024) kết hợp một mô hình ngôn ngữ được huấn luyện trên hàng trăm triệu định lý hình học tổng hợp với một máy suy diễn ký hiệu. Hệ thống này viết ra các chứng minh mà con người đọc được, và giải **25 trên 30** bài hình học olympic trong bộ thử nghiệm của nhóm tác giả.
 
-**Ví dụ về sự phối hợp "trực giác + suy diễn":** Trong hình học phẳng Olympic, máy suy diễn ký hiệu rất giỏi cộng góc hay tìm tam giác đồng dạng, nhưng thường bị "tắc" khi bài toán đòi hỏi phải **vẽ thêm một đường phụ hoặc điểm phụ** (chẳng hạn lấy trung điểm $$M$$ hay dựng đường tròn ngoại tiếp phụ). AlphaGeometry giao đúng phần "trực giác gợi ý điểm phụ" cho mô hình ngôn ngữ, còn phần kiểm tra và suy luận chặt chẽ giao cho động cơ ký hiệu. Đây là tìm kiếm kết hợp với ngôn ngữ thân thiện với bộ kiểm tra, gần với tinh thần của một "nước đi Euclid" được tổ chức tốt hơn là một bài luận của mô hình ngôn ngữ. Nó không thay thế bài học của chứng minh bằng máy trong định lý bốn màu về việc *điều gì được tính* là chứng minh; nó chỉ thêm một bộ sinh ra chứng minh mà con người vẫn đọc được.
+Trong hình học phẳng Olympic, máy suy diễn ký hiệu rất giỏi cộng góc hay tìm tam giác đồng dạng, nhưng thường bị "tắc" khi bài toán đòi hỏi phải **vẽ thêm một đường phụ hoặc điểm phụ** (chẳng hạn lấy trung điểm $$M$$ hay dựng đường tròn ngoại tiếp phụ). AlphaGeometry giao đúng phần "trực giác gợi ý điểm phụ" cho mô hình ngôn ngữ, còn phần kiểm tra và suy luận chặt chẽ giao cho động cơ ký hiệu. Đây là tìm kiếm kết hợp với ngôn ngữ thân thiện với bộ kiểm tra, gần với tinh thần của một "nước đi Euclid" được tổ chức tốt hơn là một bài luận của mô hình ngôn ngữ. Nó không thay thế bài học của chứng minh bằng máy trong định lý bốn màu về việc *điều gì được tính* là chứng minh; nó chỉ thêm một bộ sinh ra chứng minh mà con người vẫn đọc được.
 
 ### 3. AlphaProof và IMO 2024
 
 Thông báo ngày 25 tháng 7 năm 2024 của DeepMind, sau đó được mở rộng trong một bài trên *Nature* năm 2025, mô tả AlphaProof là một tác nhân theo kiểu AlphaZero tìm chứng minh trong Lean, dùng học tăng cường ngay lúc chạy (*test-time reinforcement learning*) với các bài khó: khi gặp một bài toán hóc búa, nó tự sinh hàng triệu biến thể dễ hơn xung quanh bài toán đó để tự luyện tập cho đến khi tìm ra lối đi.
 
 Cùng với AlphaGeometry 2, hệ thống giải được **4 trên 6** bài của IMO 2024 (kể cả bài số 6 cực khó về lý thuyết số/hàm số), đạt **28 trên 42 điểm**, *tương đương huy chương bạc theo bảng điểm*. Có hai chú thích quan trọng: đề bài được chuyên gia hình thức hóa sang ngôn ngữ Lean trước, và thời gian tính toán (lên tới vài ngày) vượt xa thời gian thi 9 giờ của thí sinh. Cách đọc đúng theo tinh thần chương 5 là: **kernel vẫn là trọng tài duy nhất quyết định điều gì là chứng minh**; điều mới là cách các ứng viên chứng minh được đề xuất.
+
+---
 
 ## Diễn giải và nhận định
 

@@ -70,15 +70,18 @@ $$
 
 Khẩu hiệu đúng: **chi phí tối ưu của thuật toán ngẫu nhiên trong worst-case bằng chi phí deterministic tốt nhất khi input được chọn từ phân phối khó nhất**. Hệ quả phương pháp cực mạnh: để chặn dưới randomized complexity, chỉ cần dựng **một** phân phối $$D$$ khó cho *mọi* thuật toán deterministic, rồi lấy min–average. Không cần “đuổi” mọi protocol ngẫu nhiên.
 
+### Khung giải thích: Nguyên lý Minimax của Yao vận hành qua 4 bước nào? (nên đọc chậm)
+
+1. **Chuyển bài toán chặn dưới thành trò chơi tổng bằng 0:** người thiết kế chọn một thuật toán $$A \in \mathcal{A}$$, đối thủ chọn một đầu vào $$x \in \mathcal{X}$$, tiền phạt là chi phí $$C(A, x)$$.
+2. **Xem thuật toán ngẫu nhiên như một chiến lược hỗn hợp:** thay vì cố phân tích vô số cách gieo đồng xu nội bộ, ta coi một thuật toán ngẫu nhiên $$R$$ đơn giản là chọn ngẫu nhiên một thuật toán tất định $$A$$ theo phân phối $$R$$.
+3. **Đảo thứ tự min–max nhờ định lý von Neumann:** chi phí tốt nhất của thuật toán ngẫu nhiên trước đầu vào ác nhất luôn lớn hơn hoặc bằng chi phí trung bình tốt nhất của thuật toán **tất định** trên *bất kỳ* phân phối đầu vào $$D$$ nào bạn tự thiết kế.
+4. **Hạ gục bài toán bằng 1 phân phối duy nhất:** muốn chứng minh mọi thuật toán ngẫu nhiên đều tốn ít nhất $$L$$ bước, chỉ cần chọn khéo 1 phân phối đầu vào $$D$$ và chứng minh mọi thuật toán tất định đều tốn trung bình $$\ge L$$ trên $$D$$!
+
+**Kiểm tra nhanh.** Nguyên lý Yao *không* nói "ngẫu nhiên là vô dụng" — ngược lại, với hàm Equality, ngẫu nhiên hạ số bit từ $$n$$ xuống $$O(\log n)$$; Yao là công cụ để **chứng minh giới hạn không thể vượt qua** của cả thuật toán ngẫu nhiên.
+
 ### Vì sao đây là toán, không chỉ mẹo chứng minh
 
 Minimax của von Neumann (và dạng của Yao cho độ phức tạp) nói rằng trong trò chơi zero-sum, thứ tự “ai đi trước” có thể đổi khi cho phép mixed strategy. Yao biến **algorithm designer vs adversary** thành trò chơi đó. Adversary chọn input (hoặc phân phối); designer chọn thuật toán (hoặc phân phối trên thuật toán). Giá trị trò chơi là complexity. Đây là cầu giữa [lý thuyết trò chơi]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/) (minimax, cân bằng) và chặn dưới thuật toán.
-
-**Cảnh báo đọc.** Nguyên lý Yao *không* nói “randomness vô dụng”. Nó nói: sức mạnh randomness, nếu có, phải thể hiện như lợi thế **trung bình trên phân phối**, và adversary có thể “biết” mixed strategy của bạn theo nghĩa worst-case expectation. Randomness vẫn có thể giảm cost kỳ vọng trên input cố định; minimax so sánh *các đại lượng tối ưu* hai phía.
-
-### Ứng dụng tư duy nhanh
-
-Muốn chứng minh không có thuật toán so sánh ngẫu nhiên tìm phần tử lớn thứ $$k$$ với ít hơn $$c\,n$$ so sánh trong worst-case expectation? Đủ dựng phân phối input làm mọi cây quyết định deterministic trả giá trung bình $$\ge c\,n$$. Nhiều chặn dưới cổ điển (sorting, selection, một phần communication) đi theo khuôn này.
 
 ---
 
@@ -90,25 +93,31 @@ Hai bên **Alice** và **Bob** nhận lần lượt $$x,y\in\{0,1\}^n$$. Họ mu
 
 Điểm khái niệm: đây **không** phải “mạng máy tính chậm”. Đây là **mô hình thông tin tối thiểu** cần để tính $$f$$ khi dữ liệu bị phân mảnh. Chặn dưới giao tiếp là định lý về *cấu trúc* $$f$$—thường qua ma trận truyền thông $$M_f[x,y]=f(x,y)$$, phân hoạch hình chữ nhật, rank, mutual information.
 
-### Equality: ví dụ mở đầu
+### Ví dụ cầm tay chỉ việc: Ma trận truyền thông $$4\times 4$$ cho Equality và Set Disjointness ($$n = 2$$)
 
+Xét các chuỗi $$n = 2$$ bit theo thứ tự `00, 01, 10, 11`. Lập ma trận truyền thông $$M_f[x, y] = f(x, y)$$ kích thước $$4 \times 4$$:
+
+1. **Hàm Equality ($$\mathrm{EQ}(x,y)=1 \iff x=y$$):**
 $$
-\mathrm{EQ}(x,y)=\begin{cases}1 & x=y,\\ 0 & x\neq y.\end{cases}
+M_{\mathrm{EQ}} = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{pmatrix} = I_4 \implies \operatorname{rank}(M_{\mathrm{EQ}}) = 4.
 $$
-
-Deterministic: cần $$\Theta(n)$$ bit trong mô hình chuẩn (vì theo nguyên lý Dirichlet/bồ câu, nếu Alice gửi ít hơn $$n$$ bit thì tồn tại hai chuỗi khác nhau $$x \neq x'$$ tạo ra cùng một bản ghi hội thoại, khiến Bob không thể phân biệt cặp $$(x,x)$$ với $$(x',x)$$!). Randomized (public/private coins tùy chuẩn): **fingerprinting** cho phép chỉ tốn $$O(\log n)$$ bit với lỗi nhỏ—ví dụ Alice coi chuỗi bit $$x$$ như một số nguyên lớn, chọn ngẫu nhiên một số nguyên tố $$p \le n^2$$ rồi gửi $$(p, x \bmod p)$$ cho Bob; nếu $$x \neq y$$, số nguyên tố $$p$$ chia hết hiệu $$\lvert x-y\rvert$$ rất hiếm nên xác suất trùng hash cực nhỏ! Bài học kép: (1) randomness *đổi* complexity giao tiếp từ $$n$$ xuống $$\log n$$; (2) minimax/Yao vẫn áp để chặn dưới randomized protocols qua phân phối hard.
-
-### Set disjointness: chặn dưới “cứng”
-
+Mỗi giao thức tất định tốn $$c$$ bit chia ma trận thành tối đa $$2^c$$ hình chữ nhật đơn sắc (mỗi hình chữ nhật có hạng $$\le 1$$), nên $$2^c \ge \operatorname{rank}(M_{\mathrm{EQ}}) = 4 \implies c \ge \log_2 4 = 2$$ bit (tổng quát là $$n$$ bit)!
+2. **Mẹo dấu vân tay ngẫu nhiên (Fingerprinting) cho Equality:** giả sử Alice giữ $$x = 100$$, Bob giữ $$y = 105$$ (hiệu $$\lvert x - y\rvert = 5$$). Alice chọn ngẫu nhiên một số nguyên tố $$p \in \{2, 3, 5, 7\}$$ rồi gửi $$(p, x \bmod p)$$ cho Bob:
+   - Nếu $$p = 2$$: $$100\bmod 2 = 0 \neq 105\bmod 2 = 1$$ → phát hiện khác nhau!
+   - Nếu $$p = 3$$: $$1 \neq 0$$ → phát hiện khác nhau!
+   - Nếu $$p = 7$$: $$2 \neq 0$$ → phát hiện khác nhau!
+   - Chỉ duy nhất $$p = 5$$ bị trùng ($$0 = 0$$). Khi tệp dài $$n$$ bit, chọn $$p$$ trong khoảng $$O(n^2)$$ chỉ tốn $$O(\log n)$$ bit gửi đi mà xác suất trùng nhỏ tùy ý!
+3. **Hàm Set Disjointness ($$\mathrm{DISJ}(x,y)=1 \iff$$ không có vị trí nào cùng bằng 1):**
 $$
-\mathrm{DISJ}(x,y)=1 \iff \forall i,\; x_i y_i=0
+M_{\mathrm{DISJ}} = \begin{pmatrix} 1 & 1 & 1 & 1 \\ 1 & 1 & 0 & 0 \\ 1 & 0 & 1 & 0 \\ 1 & 0 & 0 & 0 \end{pmatrix} \implies \det(M_{\mathrm{DISJ}}) = 1 \neq 0 \implies \operatorname{rank}(M_{\mathrm{DISJ}}) = 4.
 $$
+Đáng kinh ngạc là khác với Equality, ngay cả khi cho phép tung đồng xu ngẫu nhiên, độ phức tạp giao tiếp của $$\mathrm{DISJ}$$ vẫn bị khóa cứng ở $$\Theta(n)$$ bit — trở thành "hòn đá tảng" chứng minh chặn dưới bộ nhớ cho hầu hết thuật toán luồng dữ liệu!
 
-(hai tập con $$[n]$$ rời nhau). Đây là hàm “nặng” thông tin: ngay cả khi cho phép tung đồng xu ngẫu nhiên, randomized communication complexity vẫn là $$\Theta(n)$$ (kết quả sâu, nhiều proof qua information complexity). Hệ quả lan: nhiều bài streaming và data structure kế thừa chặn dưới gần tuyến tính—bạn không thể tóm tắt stream bằng bộ nhớ quá nhỏ mà vẫn trả lời giao cắt/thống kê liên quan.
+### Equality và Set Disjointness: hai thái cực
 
-### Hình chữ nhật và rank
-
-Protocol deterministic đúng cảm ứng **phân hoạch** không gian $$\{0,1\}^n\times\{0,1\}^n$$ thành hình chữ nhật đơn sắc (cùng giá trị $$f$$). Số hình chữ nhật liên quan số lá/protocol tree và do đó số bit. **Log-rank conjecture** (còn mở ở dạng đầy đủ) nối $$D(f)$$ với $$\log\operatorname{rank}(M_f)$$: rank tuyến tính của ma trận Boolean như proxy độ phức tạp. Ví dụ với $$\mathrm{EQ}$$, ma trận truyền thông $$M_{\mathrm{EQ}}$$ chính là **ma trận đơn vị $$I_{2^n}$$** có hạng $$2^n$$, lập tức cho chặn dưới $$\log_2(2^n) = n$$ bit! Đây là toán tổ hợp–đại số tuyến tính thuần túy sinh từ CS.
+- Với **Equality**: ngẫu nhiên đổi độ phức tạp giao tiếp từ $$\Theta(n)$$ xuống $$O(\log n)$$.
+- Với **Set Disjointness**: ngay cả ngẫu nhiên cũng không thoát nổi $$\Theta(n)$$.
+- **Log-rank conjecture** (còn mở ở dạng đầy đủ) hỏi xem $$D(f)$$ có luôn bị chặn bởi đa thức của $$\log \operatorname{rank}(M_f)$$ hay không — một bài toán đại số tuyến tính – tổ hợp thuần túy sinh ra từ khoa học máy tính!
 
 ---
 
@@ -147,8 +156,6 @@ Giao thức “hai triệu phú” so sánh tài sản mà không lộ số—m�
 ## 6. Minimax trong learning và online algorithms (cầu ngang)
 
 Nguyên lý dạng Yao xuất hiện lại khi phân tích **online learning** và statistical decision: regret minimax, distributional hardness cho estimation. Không phải mọi minimax đều “định lý Yao 1977”, nhưng thói quen tư duy giống nhau: worst-case randomized = best response trên prior khó. [Lý thuyết ML]({{ site.baseurl }}/contents/vi/chapter06/06_10_ML_Theory/) dùng ngôn ngữ đó cho rates; bài này cho bạn gốc complexity.
-
-Bài tập gợi ý: lấy một chặn dưới sorting bằng adversary argument cổ điển; viết lại bằng ngôn ngữ “phân phối $$D$$ làm mọi cây quyết định trả giá trung bình $$\ge \log_2(n!)-o(\cdot)$$”. Đó là tập gym cho nguyên lý Yao.
 
 ---
 

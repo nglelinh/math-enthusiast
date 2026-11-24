@@ -9,7 +9,7 @@ categories:
 - chapter02
 ---
 
-Hãy thử hỏi một câu tưởng chừng ngớ ngẩn trong giải tích nhiều biến: có bao nhiêu cách để định nghĩa phép lấy đạo hàm trên không gian Euclid $$\mathbb{R}^n$$? Nếu $$n = 1, 2, 3$$, câu trả lời là **duy nhất một cách**. Nếu $$n = 5, 6, 7, \ldots, 100$$, câu trả lời vẫn là **duy nhất một cách**! Ta dễ dàng tin rằng chẳng có lý do gì số $$4$$ lại khác biệt. Ấy vậy mà vào mùa xuân năm 1982, một nghiên cứu sinh 24 tuổi tại Oxford tên **Simon Donaldson** — dùng phương trình **Yang–Mills** từ vật lý hạt cơ bản — đã làm chấn động cả thế giới toán học bằng một cú va chạm lịch sử: **riêng không gian bốn chiều $$\mathbb{R}^4$$ lại sở hữu vô hạn (thậm chí không đếm được!) những "cấu trúc vi phân lạ" (exotic $$\mathbb{R}^4$$)** — những không gian hoàn toàn giống $$\mathbb{R}^4$$ về mặt tôpô liên tục nhưng *không thể nào* chuyển đổi trơn mượt sang $$\mathbb{R}^4$$ quen thuộc của chúng ta!
+Hãy thử hỏi một câu tưởng chừng đơn giản trong giải tích nhiều biến: có bao nhiêu cách để định nghĩa phép lấy đạo hàm trên không gian Euclid $$\mathbb{R}^n$$? Nếu $$n = 1, 2, 3$$, câu trả lời là **duy nhất một cách**. Nếu $$n = 5, 6, 7, \ldots, 100$$, câu trả lời vẫn là **duy nhất một cách**! Ấy vậy mà vào mùa xuân năm 1982, một nghiên cứu sinh 24 tuổi ở Oxford tên **Simon Donaldson** — dùng phương trình **Yang–Mills** từ vật lý hạt cơ bản — đã làm chấn động giới toán học bằng một cú va chạm lịch sử: **riêng không gian Euclid bốn chiều $$\mathbb{R}^4$$ lại có vô hạn (thậm chí không đếm được!) những "cấu trúc vi phân lạ" (exotic $$\mathbb{R}^4$$)** — những không gian hoàn toàn giống $$\mathbb{R}^4$$ về mặt tôpô liên tục nhưng *không thể nào* chuyển đổi trơn mượt sang $$\mathbb{R}^4$$ quen thuộc!
 
 Tại ICM Berkeley năm 1986, **Simon Donaldson** nhận **Huy chương Fields**:
 
@@ -18,7 +18,9 @@ Tại ICM Berkeley năm 1986, **Simon Donaldson** nhận **Huy chương Fields**
 
 *Tạm dịch: chủ yếu vì công trình về tôpô của các đa tạp bốn chiều, đặc biệt là việc chỉ ra rằng có một cấu trúc vi phân trên không gian Euclid bốn chiều khác với cấu trúc thông thường.*
 
-Để hiểu trọn vẹn kỳ tích năm 1986, ta phải đặt đúng **ba mảnh ghép** cạnh nhau: (1) định lý phân loại tôpô đa tạp 4 chiều đơn liên của **Michael Freedman** (1982, cũng nhận Huy chương Fields ngay tại ICM Berkeley 1986); (2) nền tảng giải tích về tính compact và "sủi bọt" cho phương trình Yang–Mills của **Karen Uhlenbeck** (xem [Uhlenbeck / lý thuyết gauge]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/)); và (3) định lý ràng buộc trơn chấn động của **Simon Donaldson** (1983) từ không gian moduli instanton. Chính sự **va chạm trực diện** giữa sự linh hoạt kỳ lạ của thế giới tôpô (Freedman) và sự cứng rắn khắc nghiệt của thế giới trơn (Donaldson) mới đẻ ra những đa tạp 4 chiều không thể làm trơn và các $$\mathbb{R}^4$$ lạ! Còn **lý thuyết Seiberg–Witten** (Witten, 1994) là một cuộc cách mạng gauge thứ hai ra đời 8 năm sau đó (xem bối cảnh tại [Vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/)), và việc phân loại toàn bộ đa tạp 4 chiều trơn đến nay vẫn còn mở.
+Để hiểu đúng kỳ tích năm 1986, cần đặt **ba mảnh ghép** cạnh nhau: (1) định lý phân loại tôpô đa tạp 4 chiều đơn liên của **Michael Freedman** (1982, cùng nhận Huy chương Fields tại ICM Berkeley 1986); (2) nền tảng giải tích về tính compact và "sủi bọt" của **Karen Uhlenbeck** (xem [Uhlenbeck / lý thuyết gauge]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/)); và (3) định lý ràng buộc trơn chấn động của **Donaldson** (1983) từ không gian moduli instanton. Chính sự **va chạm trực diện** giữa sự tự do của thế giới tôpô (Freedman) và sự cứng rắn của thế giới trơn (Donaldson) đã đẻ ra những đa tạp 4 chiều không có cấu trúc trơn và các $$\mathbb{R}^4$$ lạ! Còn **lý thuyết Seiberg–Witten** (Witten, 1994) là cuộc cách mạng gauge đến sau 8 năm (xem bối cảnh [Vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/)), và bài toán phân loại mọi đa tạp 4 chiều trơn đến nay vẫn còn mở.
+
+**Mạch bài học:** Bản đồ kiến thức nền (tôpô vs. trơn ở chiều 4, dạng giao $$Q_X$$, phương trình tự đối ngẫu Yang–Mills) → Ví dụ ma trận cầm tay chỉ việc: dạng giao của $$\mathbb{CP}^2$$, $$S^2 \times S^2$$ và ma trận $$8\times 8$$ của lưới $$E_8$$ → Cú va chạm Freedman (1982) + Donaldson (1983) → Khung giải thích chậm: 4 bước dùng không gian moduli instanton 5 chiều để khóa chặt dạng giao $$Q_X$$ → Seiberg–Witten (1994) và những phát triển sau.
 
 ---
 
@@ -26,13 +28,12 @@ Tại ICM Berkeley năm 1986, **Simon Donaldson** nhận **Huy chương Fields**
 
 Sau bài học, bạn có thể:
 
-- Giải thích vì sao **chiều bốn** là số chiều dị biệt nhất trong tôpô: quá nhỏ để mẹo Whitney của chiều cao ($$n \ge 5$$) hoạt động trong phạm trù trơn, nhưng lại quá lớn so với cắt dán của chiều thấp ($$n \le 3$$).
-- Định nghĩa trực quan **dạng giao** $$Q_X$$ của một đa tạp 4 chiều đóng, định hướng (đếm số giao có dấu giữa hai mặt 2 chiều bên trong không gian 4 chiều) và hiểu vì sao nó là dạng song tuyến đối xứng unimodular trên $$\mathbb{Z}$$.
-- Phát biểu **định lý Donaldson (1983)**: mọi dạng giao xác định của một đa tạp 4 chiều **trơn** đóng, định hướng đều phải chéo hóa được trên $$\mathbb{Z}$$.
-- Đối chiếu với **định lý Freedman (1982)**: mọi dạng unimodular đều thực hiện được bởi một đa tạp 4 chiều **tôpô** đơn liên (kéo theo giả thuyết Poincaré 4 chiều tôpô).
-- Giải thích vì sao sự va chạm **Freedman + Donaldson** lập tức sinh ra (i) đa tạp 4 chiều tôpô **không có bất kỳ cấu trúc trơn nào** (như đa tạp $$E_8$$) và (ii) các **$$\mathbb{R}^4$$ lạ**.
-- Mô tả ý tưởng hình học của không gian moduli **instanton** (phương trình Yang–Mills phản tự đối ngẫu) cùng nền tảng giải tích của **Uhlenbeck** (hiện tượng sủi bọt tạo biên).
-- Tách bạch **lý thuyết Seiberg–Witten (1994)** khỏi Huy chương Fields 1986, và không phóng đại rằng Donaldson đã phân loại mọi đa tạp 4 chiều.
+- Giải thích vì sao **chiều bốn** là số chiều dị biệt nhất trong tôpô (mẹo Whitney thất bại trong phạm trù trơn vì $$2 + 2 = 4$$, nhưng vẫn vá được trong phạm trù tôpô bằng tay cầm Casson).
+- Tự viết ma trận **dạng giao** $$Q_X$$ cho $$\mathbb{CP}^2$$, $$S^2 \times S^2$$ và lưới $$E_8$$, và hiểu vì sao $$E_8$$ là dạng xác định dương unimodular *không* chéo hóa được trên $$\mathbb{Z}$$.
+- Phát biểu **định lý Donaldson (1983)** (dạng giao xác định của đa tạp 4 chiều trơn đóng phải chéo hóa được trên $$\mathbb{Z}$$) đối chiếu với **định lý Freedman (1982)** (mọi dạng unimodular đều thực hiện được bằng đa tạp tôpô đơn liên).
+- Giải thích vì sao sự va chạm **Freedman + Donaldson** lập tức tạo ra (i) đa tạp 4 chiều tôpô không có cấu trúc trơn và (ii) các **$$\mathbb{R}^4$$ lạ**.
+- Mô tả vai trò của không gian moduli **instanton** ($$F_A^+ = 0$$) cùng nền tảng giải tích của **Uhlenbeck** (sủi bọt tạo biên).
+- Tách bạch **Seiberg–Witten (1994)** khỏi Huy chương Fields 1986 và tránh tuyên bố rằng Donaldson đã phân loại mọi đa tạp 4 chiều.
 
 **Kiến thức nền.** Đa tạp trơn, đồng điều và tích cup ở mức giáo trình tôpô đại số nhập môn; khái niệm phân thớ vectơ và liên thông. Không cần học trước lý thuyết gauge: có thể hiểu liên thông là một cách lấy đạo hàm các nhát cắt, và độ cong đo mức độ các đạo hàm riêng hỗn hợp không giao hoán.
 
@@ -40,81 +41,107 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Tôpô 4 chiều, dạng giao và lý thuyết trường chuẩn là gì?
+## Bản đồ kiến thức nền: Tôpô 4 chiều, Dạng giao và Lý thuyết trường chuẩn là gì?
 
-Để cảm nhận cú sốc mà Donaldson tạo ra, chỉ cần nắm vững ba khái niệm trực quan sau.
+### 1. Tôpô vs. Trơn — và tại sao chiều 4 lại dị biệt?
+Một **đa tạp tôpô** chỉ cần các phép biến đổi liên tục (đồng phôi — nặn đất sét có góc nhọn); một **đa tạp trơn** đòi hỏi hệ tọa độ khả vi nhất quán ở mọi nơi (vi phôi).
+- Ở chiều $$n \ge 5$$, **mẹo Whitney** có đủ chỗ trống để kéo trượt triệt tiêu các cặp điểm giao ngược dấu của hai đĩa, tạo ra lý thuyết phẫu thuật phân loại đa tạp.
+- Ở chiều $$n \le 3$$, cắt dán và hình học hóa Thurston–Perelman kiểm soát hoàn toàn.
+- Ở **chiều $$n = 4$$**, hai đĩa 2 chiều cắt nhau tại các điểm rời rạc ($$2 + 2 = 4$$), nên kéo trượt để xóa điểm giao cũ lại sinh ra điểm giao mới! Trong phạm trù tôpô, ta đẩy vô hạn các điểm giao mới thành **tay cầm Casson** (vẫn đồng phôi với tay cầm chuẩn); trong phạm trù trơn, tay cầm đó gãy gập hoàn toàn!
 
-**1. Đa tạp "tôpô" khác gì đa tạp "trơn"?**
-- Một **đa tạp tôpô** là không gian mà cục bộ trông giống $$\mathbb{R}^n$$ qua các phép biến đổi **liên tục** (như nặn đất sét dẻo: bạn có thể tạo góc nhọn, nếp gấp miễn không xé rách). Hai đa tạp tôpô giống nhau gọi là **đồng phôi** (*homeomorphic*).
-- Một **đa tạp trơn** (khả vi) được trang bị thêm một hệ tọa độ cho phép **lấy đạo hàm** nhất quán ở mọi nơi (không góc nhọn). Hai đa tạp trơn giống nhau gọi là **vi phôi** (*diffeomorphic*).
-Câu hỏi lớn của tôpô: một đa tạp tôpô có thể có *bao nhiêu* cấu trúc trơn khác nhau (không vi phôi với nhau)? (Ví dụ Milnor năm 1956 từng gây sốc khi tìm thấy 28 cấu trúc trơn khác nhau trên mặt cầu 7 chiều $$S^7$$ — nhưng trên không gian phẳng $$\mathbb{R}^n$$ với mọi $$n \neq 4$$, cấu trúc trơn luôn là duy nhất!)
-
-**2. Dạng giao (Intersection form) — "dấu vân tay" của đa tạp 4 chiều.**
-Trong không gian 3 chiều, hai đường thẳng tổng quát né nhau; trong mặt phẳng 2 chiều, hai đường cong cắt nhau tại hữu hạn điểm. Tương tự, trong một **đa tạp 4 chiều** đóng, định hướng $$X$$, hai mặt 2 chiều tổng quát (như hai mặt cầu hay hai hình xuyến nằm bên trong $$X$$) cắt nhau tại **hữu hạn điểm** (vì $$2 + 2 = 4$$!). Đếm tổng số giao có dấu ($$+1$$ hoặc $$-1$$ tùy định hướng) giữa các lớp mặt 2 chiều trong $$H_2(X; \mathbb{Z})$$ cho ta một ma trận nguyên đối xứng có định thức $$\pm 1$$ (unimodular) gọi là **dạng giao** $$Q_X$$:
+### 2. Dạng giao $$Q_X$$ — "ma trận vân tay" của đa tạp 4 chiều
+Trong đa tạp 4 chiều đóng, định hướng $$X$$, hai mặt 2 chiều tổng quát cắt nhau tại hữu hạn điểm. Đếm tổng số giao có dấu giữa các lớp trong $$H_2(X; \mathbb{Z})/\mathrm{torsion}$$ cho ta một ma trận nguyên đối xứng có định thức $$\pm 1$$ (unimodular):
 
 $$
 Q_X: H_2(X;\mathbb{Z})/\mathrm{torsion}\times H_2(X;\mathbb{Z})/\mathrm{torsion}\to\mathbb{Z}.
 $$
 
-Ví dụ quen thuộc: với mặt phẳng xạ ảnh phức $$\mathbb{CP}^2$$ (chiều thực 4), hai đường thẳng phức luôn cắt nhau tại đúng $$1$$ điểm, nên dạng giao là ma trận $$1 \times 1$$: $$\langle +1 \rangle$$. Ngược lại, trong lý thuyết số có những ma trận unimodular xác định dương **không thể chéo hóa trên $$\mathbb{Z}$$** — nổi tiếng nhất là ma trận $$8 \times 8$$ của **lưới $$E_8$$** (mọi phần tử đường chéo đều là $$2$$, định thức bằng $$1$$, xác định dương, nhưng không có vector nguyên nào có bình phương độ dài bằng $$1$$!).
-
-**3. Lý thuyết trường chuẩn (Gauge Theory) & Instanton — khi vật lý hạt soi chiếu tôpô.**
-Trong vật lý lý thuyết, **phương trình Yang–Mills** mô tả lực tương tác mạnh và yếu thông qua một **liên thông** $$A$$ (thế trường chuẩn) và **độ cong** $$F_A$$ (cường độ trường). Trên đa tạp 4 chiều, nhờ một phép đối xứng kỳ diệu riêng có ở chiều 4 (toán tử sao Hodge $$\star$$ biến 2-dạng thành 2-dạng với $$\star^2 = 1$$), độ cong tách đôi thành phần tự đối ngẫu $$F_A^+$$ và phản tự đối ngẫu $$F_A^-$$. Những liên thông làm cực tiểu hóa năng lượng Yang–Mills thỏa phương trình cấp một **$$F_A^+ = 0$$** gọi là các **instanton**. Trước Donaldson, các nhà toán học tìm cách giải phương trình Yang–Mills *trên một đa tạp cố định*. Ý tưởng đảo ngược thiên tài của Donaldson là: **dùng không gian tất cả các nghiệm instanton như một chiếc máy chụp X-quang để nhìn thấu cấu trúc trơn của chính đa tạp 4 chiều $$X$$!**
+### 3. Phương trình Yang–Mills phản tự đối ngẫu (ASD) & Instanton
+Trên đa tạp 4 chiều trơn $$X$$ với phân thớ chính $$\mathrm{SU}(2)$$, toán tử sao Hodge $$\star$$ biến 2-dạng thành 2-dạng với $$\star^2 = 1$$ — một phép đối xứng **độc quyền của chiều 4**! Nhờ đó độ cong $$F_A$$ tách làm hai phần $$F_A = F_A^+ + F_A^-$$. Các liên thông cực tiểu hóa năng lượng Yang–Mills $$\mathrm{YM}(A) = \int_X \lvert F_A\rvert^2$$ thỏa phương trình đạo hàm riêng cấp một **$$F_A^+ = 0$$**, gọi là các **instanton**.
 
 ---
 
-## 1. Vì sao chiều bốn không chỉ là "thêm một giá trị của $$n$$"
+## 1. Ví dụ ma trận cầm tay chỉ việc: $$\mathbb{CP}^2$$, $$S^2 \times S^2$$ và lưới $$E_8$$
 
-Ở chiều cao ($$n \ge 5$$), **mẹo Whitney** (kéo trượt hai đĩa con để triệt tiêu từng cặp điểm giao ngược dấu) có đủ "khoảng trống" để thực hiện mà không tự cắt, dẫn đến định lý $$h$$-cobordism của Smale và lý thuyết phẫu thuật phân loại đa tạp. Ở chiều thấp ($$n \le 3$$), các mặt cắt đơn giản và hình học hóa Thurston–Perelman kiểm soát toàn bộ không gian.
+Hãy viết tường minh ma trận dạng giao $$Q_X$$ của ba ví dụ kinh điển để thấy ngay bản chất của định lý Donaldson:
 
-**Chiều bốn** rơi đúng vào ranh giới định mệnh: hai đĩa 2 chiều trong không gian 4 chiều ($$2 + 2 = 4$$) cắt nhau tại những điểm cô lập, nên khi cố thực hiện mẹo Whitney để xóa điểm giao cũ, ta lại vô tình đẻ ra **điểm giao mới**! Trong phạm trù tôpô, ta có thể đẩy các điểm giao mới ra vô tận thành một tháp vô hạn gọi là **tay cầm Casson** (*Casson handle*) — vốn vẫn đồng phôi với tay cầm chuẩn. Nhưng trong phạm trù trơn, tháp vô hạn đó gãy gập hoàn toàn! Chính vì vậy, chiều bốn là nơi phạm trù tôpô và phạm trù trơn **xé tách nhau sâu sắc nhất** trong toàn bộ toán học.
+1. **Mặt phẳng xạ ảnh phức $$\mathbb{CP}^2$$ (chiều thực 4):** $$H_2(\mathbb{CP}^2; \mathbb{Z}) \cong \mathbb{Z}$$ sinh bởi một đường thẳng phức $$\mathbb{CP}^1$$. Hai đường thẳng phức khác nhau luôn cắt nhau tại đúng $$1$$ điểm có dấu dương, nên ma trận dạng giao là:
+   $$
+   Q_{\mathbb{CP}^2} = \begin{pmatrix} 1 \end{pmatrix}.
+   $$
+   Đây là dạng **xác định dương**, **lẻ** và **đã chéo hóa**!
 
----
+2. **Tích hai mặt cầu $$S^2 \times S^2$$:** $$H_2(S^2 \times S^2; \mathbb{Z}) \cong \mathbb{Z}^2$$ sinh bởi hai mặt cầu $$A = S^2 \times \{p\}$$ và $$B = \{q\} \times S^2$$. Ta có $$A \cdot A = 0$$ (dịch song song không cắt nhau), $$B \cdot B = 0$$, còn $$A \cdot B = 1$$ (cắt tại đúng điểm $$(q,p)$$), nên ma trận dạng giao là:
+   $$
+   Q_{S^2 \times S^2} = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}.
+   $$
+   Đây là dạng **chẵn** nhưng **không xác định dấu** (một trị riêng $$+1$$, một trị riêng $$-1$$).
 
-## 2. Michael Freedman (1982): sự tự do tuyệt đối của thế giới tôpô 4 chiều
+3. **Ma trận $$E_8$$ (cỡ $$8\times 8$$):** Trong lý thuyết số, ma trận Cartan của hệ nghiệm $$E_8$$ là:
+   $$
+   E_8 = \begin{pmatrix}
+   2 & -1 & 0 & 0 & 0 & 0 & 0 & 0 \\
+   -1 & 2 & -1 & 0 & 0 & 0 & 0 & 0 \\
+   0 & -1 & 2 & -1 & 0 & 0 & 0 & 0 \\
+   0 & 0 & -1 & 2 & -1 & 0 & 0 & 0 \\
+   0 & 0 & 0 & -1 & 2 & -1 & 0 & -1 \\
+   0 & 0 & 0 & 0 & -1 & 2 & -1 & 0 \\
+   0 & 0 & 0 & 0 & 0 & -1 & 2 & 0 \\
+   0 & 0 & 0 & 0 & -1 & 0 & 0 & 2
+   \end{pmatrix}.
+   $$
+   Hãy kiểm tra bằng mắt ba tính chất cực kỳ đặc biệt của $$E_8$$:
+   - Mọi phần tử trên đường chéo đều là **$$2$$** (chẵn), nên với *mọi* vector nguyên $$v \in \mathbb{Z}^8$$, giá trị $$v^T E_8 v$$ luôn là **số chẵn** — **không bao giờ bằng $$1$$**!
+   - Định thức $$\det(E_8) = 1$$ (unimodular) và tất cả các định thức con chính đều dương (**xác định dương**)!
+   - Vì không tồn tại vector nguyên nào có $$v^T E_8 v = 1$$, ma trận $$E_8$$ **không thể nào chéo hóa trên $$\mathbb{Z}$$** về ma trận đơn vị $$I_8$$!
 
-Trong kiệt tác *"The topology of four-dimensional manifolds"* (*J. Differential Geom.* 17, 1982), **Michael Freedman** chứng minh rằng tay cầm Casson thực sự đồng phôi với tay cầm 2 chiều chuẩn $$D^2 \times \mathbb{R}^2$$. Từ đó ông thu được bảng phân loại chấn động cho **mọi đa tạp 4 chiều tôpô đóng, đơn liên**:
-- **Mọi** dạng song tuyến đối xứng unimodular trên $$\mathbb{Z}$$ (kể cả những dạng kỳ lạ như $$E_8$$!) đều là dạng giao của một đa tạp 4 chiều **tôpô** đóng, đơn liên;
-- Nếu dạng giao là **chẵn**, đa tạp tôpô đó là **duy nhất** sai khác đồng phôi; nếu dạng giao là **lẻ**, có đúng **hai** lớp đồng phôi (phân biệt bởi bất biến Kirby–Siebenmann $$\in \mathbb{Z}/2$$).
-- Hệ quả lừng danh: **Giả thuyết Poincaré 4 chiều trong phạm trù tôpô là đúng** — mọi đa tạp 4 chiều tôpô tương đương đồng luân với $$S^4$$ đều đồng phôi với $$S^4$$! (Lưu ý: giả thuyết Poincaré 4 chiều **trơn** đến tận ngày nay vẫn là bài toán mở nổi tiếng nhất của tôpô!)
+Bây giờ hãy đặt hai định lý 1982–1983 cạnh ma trận $$E_8$$ này:
+- **Freedman (1982):** *Mọi* ma trận unimodular đều là dạng giao của một đa tạp 4 chiều **tôpô** đóng, đơn liên $$\implies$$ **tồn tại đa tạp 4 chiều tôpô $$M_{E_8}$$ có dạng giao đúng bằng $$E_8$$!** (Và kéo theo giả thuyết Poincaré 4 chiều **tôpô** là đúng.)
+- **Donaldson (1983):** Dạng giao xác định của mọi đa tạp 4 chiều **trơn** đóng, định hướng đều **chéo hóa được trên $$\mathbb{Z}$$** (về $$\pm I_n$$) $$\implies$$ **đa tạp tôpô $$M_{E_8}$$ hoàn toàn không thể có bất kỳ cấu trúc trơn nào!**
 
----
-
-## 3. Định lý Donaldson (1983): cú sốc trong thế giới trơn và sự ra đời của $$\mathbb{R}^4$$ lạ
-
-Chỉ một năm sau bài báo của Freedman, khi mới là nghiên cứu sinh năm hai ở Oxford (dưới sự hướng dẫn của Nigel Hitchin và Michael Atiyah), **Simon Donaldson** công bố bài báo *"An application of gauge theory to four-dimensional topology"* (*J. Differential Geom.* 18, 1983) với một định lý làm Michael Atiyah phải thốt lên rằng nó *"làm sững sờ cả thế giới toán học"*:
-
-> **Định lý Donaldson (1983).** Nếu $$X$$ là một đa tạp bốn chiều đóng, định hướng, **trơn**, đơn liên và có dạng giao **xác định** (dương hoặc âm), thì dạng giao $$Q_X$$ bắt buộc phải **chéo hóa được trên $$\mathbb{Z}$$**, tức tương đương với $$\langle \pm 1 \rangle \oplus \cdots \oplus \langle \pm 1 \rangle$$.
-
-(Sau đó, năm 1987, Donaldson còn gỡ bỏ luôn cả giả thiết đơn liên!)
-
-Hãy xem **hai hệ quả chấn động** lập tức nổ ra khi định lý Donaldson va chạm trực diện với định lý Freedman:
-
-**Hệ quả 1: Đa tạp 4 chiều tôpô hoàn toàn không thể làm trơn.** Theo Freedman, tồn tại một đa tạp 4 chiều tôpô đóng, đơn liên có dạng giao đúng bằng lưới $$E_8$$ (một dạng xác định dương nhưng *không* chéo hóa được trên $$\mathbb{Z}$$). Theo Donaldson, đa tạp $$E_8$$ đó **không thể mang bất kỳ cấu trúc trơn nào**! (Thậm chí đa tạp $$E_8 \oplus E_8$$ thỏa luôn cả định lý Rokhlin về chỉ số chia hết cho 16, nhưng vẫn bị định lý Donaldson cấm tuyệt đối!)
-
-**Hệ quả 2: Các cấu trúc trơn ngoại lai trên $$\mathbb{R}^4$$ (Exotic $$\mathbb{R}^4$$).** Nếu đặt sự va chạm Freedman–Donaldson vào một đa tạp mở thay vì đa tạp đóng (bằng cách dùng mặt K3 trơn vốn có dạng giao $$2(-E_8) \oplus 3H$$ và khéo léo cắt bỏ một phần bằng kỹ thuật tôpô của Freedman), ta thu được một đa tạp 4 chiều mở **đồng phôi với $$\mathbb{R}^4$$**, nhưng **chứa một tập compact $$K$$ không thể bao trọn bởi bất kỳ mặt cầu 3 chiều $$S^3$$ nhúng trơn nào** (nếu bao được, ta có thể đóng nó lại thành một đa tạp trơn có dạng giao $$-E_8 \oplus (-E_8)$$, trái với định lý Donaldson!). Do đó nó **không thể vi phôi với $$\mathbb{R}^4$$ chuẩn**! Ngay trong cùng tập tạp chí năm 1983, Robert Gompf công bố ba $$\mathbb{R}^4$$ lạ tường minh; về sau Gompf, Taubes và nhiều người khác chứng minh tồn tại **không đếm được** các cấu trúc trơn đôi một không vi phôi ngay trên không gian Euclid 4 chiều thân quen!
-
----
-
-## 4. Instanton như một công cụ tôpô và nền tảng giải tích của Uhlenbeck
-
-Làm thế nào mà một phương trình vật lý ($$F_A^+ = 0$$) lại ép được một ma trận nguyên phải chéo hóa? Chứng minh của Donaldson đẹp như một kiệt tác điêu khắc hình học:
-
-Cho phân thớ chính $$\mathrm{SU}(2)$$ trên đa tạp trơn 4 chiều $$X$$ có dạng giao xác định dương (và số instanton $$k = 1$$). Xét **không gian moduli** $$\mathcal{M}$$ tất cả các nghiệm instanton (liên thông thỏa $$F_A^+ = 0$$, cực tiểu hóa năng lượng Yang–Mills $$\mathrm{YM}(A) = \int_X \lvert F_A \rvert^2$$) lấy thương theo nhóm biến đổi gauge.
-1. **Chiều của không gian moduli:** Theo định lý chỉ số Atiyah–Singer, $$\mathcal{M}$$ là một đa tạp **5 chiều** trơn (trừ một số hữu hạn điểm kỳ dị dạng nón trên $$\mathbb{CP}^2$$, tương ứng chính xác với số cặp vector $$\pm \alpha$$ trong $$H_2(X;\mathbb{Z})$$ có tự giao $$\alpha \cdot \alpha = 1$$!).
-2. **Biên sủi bọt (Bubbling) tái hiện chính $$X$$:** Khi năng lượng của một instanton tập trung dồn vào đúng một điểm $$x \in X$$ với bán kính thu về $$0$$ (hiện tượng **sủi bọt** — giống hệt không gian moduli instanton trên $$S^4$$ là một quả cầu đặc 5 chiều có biên là chính $$S^4$$!), phần biên ở vô cực của $$\mathcal{M}$$ chính là một bản sao nguyên vẹn của đa tạp **$$X$$**!
-3. **Nền tảng giải tích của Karen Uhlenbeck:** Nhờ **định lý compact của Uhlenbeck** và **định lý kỳ dị khử được** (xem [Uhlenbeck]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/)), ta đảm bảo được rằng sủi bọt tại một điểm là kiểu suy biến duy nhất có thể xảy ra, giúp compact hóa $$\mathcal{M}$$ thành một **cobordism 5 chiều** nối liền $$X$$ với tổng rời của các $$\mathbb{CP}^2$$ (từ các điểm kỳ dị nón)!
-4. **Cú chốt tôpô:** Vì hai đa tạp cobordant có cùng chỉ số (signature), nên số điểm kỳ dị nón (số lớp có tự giao $$+1$$) phải đủ lớn để sinh ra toàn bộ hạng của $$Q_X$$ — buộc dạng giao $$Q_X$$ phải là ma trận đơn vị chéo hóa!
-
-Sau đó, Donaldson tiếp tục khai thác không gian moduli instanton bậc cao để định nghĩa các **đa thức Donaldson** (*Topology* 29, 1990) — phân biệt được vô số cấu trúc trơn khác nhau trên cùng một đa tạp 4 chiều tôpô đóng (như các mặt Dolgachev).
+Và khi đặt chính sự va chạm đó vào phần "đầu mở" của mặt K3 trơn (vốn có dạng giao $$2(-E_8) \oplus 3H$$) bằng kỹ thuật vá tôpô của Freedman, ta sinh ra một đa tạp mở **đồng phôi với $$\mathbb{R}^4$$** nhưng chứa một tập compact không bao giờ nhốt được bên trong bất kỳ mặt cầu $$S^3$$ nhúng trơn nào — tức là một **$$\mathbb{R}^4$$ lạ (exotic $$\mathbb{R}^4$$)**! (Ngay năm 1983, Robert Gompf chỉ ra 3 $$\mathbb{R}^4$$ lạ tường minh; về sau Gompf và Taubes chứng minh có **không đếm được** các $$\mathbb{R}^4$$ lạ đôi một không vi phôi!)
 
 ---
 
-## 5. Những phát triển về sau, không thuộc huy chương 1986
+## 2. Khung giải thích: Làm sao phương trình Yang–Mills ép dạng giao phải chéo hóa? (nên đọc chậm)
 
-Năm 1994, **Edward Witten** (dựa trên công trình vật lý của Nathan Seiberg và Witten về lý thuyết gauge siêu đối xứng $$\mathcal{N}=2$$) giới thiệu **phương trình monopole Seiberg–Witten**. Vì nhóm gauge là nhóm giao hoán $$\mathrm{U}(1)$$ thay vì $$\mathrm{SU}(2)$$, không gian moduli Seiberg–Witten tự động compact (không còn hiện tượng sủi bọt!) và dễ tính toán hơn đa thức Donaldson gấp nhiều lần — lập tức cho chứng minh ngắn gọn lại định lý Donaldson cùng vô số kết quả mới (như giả thuyết Thom của Kronheimer–Mrowka). Cần nhớ rõ: Seiberg–Witten là cuộc cách mạng tiếp nối năm **1994**, không thuộc Huy chương Fields **1986**.
+Tại sao một phương trình PDE vật lý hạt cơ bản ($$F_A^+ = 0$$) lại đọc được một ma trận nguyên trên $$H_2(X; \mathbb{Z})$$? Hãy theo dõi 4 bước kỳ diệu trong chứng minh năm 1983 của Donaldson:
 
-Các công trình lừng danh khác sau này của Donaldson (định lý Donaldson–Uhlenbeck–Yau về metric Hermite–Einstein, chùm Lefschetz symplectic, hay định lý Chen–Donaldson–Sun về metric Kähler–Einstein trên đa tạp Fano) cũng là những chương kế tiếp của sự nghiệp đồ sộ của ông. Tại ICM Berkeley 1986, ba tấm Huy chương Fields thuộc về **Simon Donaldson** (đa tạp 4 chiều trơn qua lý thuyết gauge), **Michael Freedman** (đa tạp 4 chiều tôpô) và **Gerd Faltings** (giả thuyết Mordell trong hình học số học) — một trong những kỳ đại hội rực rỡ nhất lịch sử toán học.
+#### Bước 1: Dựng không gian moduli instanton $$\mathcal{M}$$ — một đa tạp 5 chiều
+Cho đa tạp 4 chiều trơn, đóng, đơn liên $$X$$ có dạng giao xác định dương. Trên phân thớ chính $$\mathrm{SU}(2)$$ có số instanton $$k = 1$$, xét không gian moduli $$\mathcal{M}$$ của tất cả các nghiệm phương trình $$F_A^+ = 0$$ chia cho nhóm biến đổi gauge. Theo định lý chỉ số Atiyah–Singer, $$\mathcal{M}$$ là một **đa tạp 5 chiều** trơn ở hầu khắp nơi!
+
+#### Bước 2: Đếm các điểm kỳ dị bên trong $$\mathcal{M}$$ — dấu vết của dạng giao $$Q_X$$
+Những chỗ duy nhất $$\mathcal{M}$$ bị mất tính trơn (kỳ dị) là các **liên thông khả quy** (nhóm đối xứng thu gọn từ $$\mathrm{SU}(2)$$ về $$\mathrm{U}(1)$$). Hóa ra số điểm kỳ dị đó tương ứng **1–1** với số cặp lớp $$\pm\alpha \in H_2(X;\mathbb{Z})$$ thỏa mãn $$\alpha \cdot \alpha = 1$$! Và lân cận của mỗi điểm kỳ dị trong không gian 5 chiều $$\mathcal{M}$$ có hình dáng chính xác là một **hình nón trên $$\mathbb{CP}^2$$**!
+
+#### Bước 3: Hiện tượng "sủi bọt" (Uhlenbeck) tạo ra biên của $$\mathcal{M}$$ là chính $$X$$!
+Không gian 5 chiều $$\mathcal{M}$$ không compact vì một instanton có thể co năng lượng dồn hết về **một điểm duy nhất** $$x \in X$$ với bán kính tiến về $$0$$ (hiện tượng **sủi bọt**, *bubbling* — giống hệt không gian moduli instanton trên $$S^4$$ là quả cầu đặc 5 chiều có biên là chính $$S^4$$). Nhờ **định lý compact của Karen Uhlenbeck** và **định lý kỳ dị khử được** (xem [Uhlenbeck]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/)), Donaldson chứng minh sủi bọt tại điểm là kiểu suy biến duy nhất có thể xảy ra: khi bổ sung các instanton sủi bọt đó vào, phần biên ở vô cực của $$\mathcal{M}$$ chính là một bản sao nguyên vẹn của đa tạp **$$X$$**!
+
+#### Bước 4: Cắt bỏ đỉnh nón $$\implies$$ cobordism 5 chiều khóa chặt dạng giao $$Q_X$$
+Cắt bỏ một lân cận nhỏ quanh từng điểm kỳ dị nón (lộ ra $$m$$ bản sao biên là $$\pm\mathbb{CP}^2$$), không gian 5 chiều $$\overline{\mathcal{M}}$$ trở thành một **cobordism 5 chiều** nối liền đa tạp $$X$$ với tổng rời của $$m$$ bản sao $$\pm\mathbb{CP}^2$$!
+Vì chỉ số (signature) là bất biến qua cobordism và $$Q_X$$ xác định dương (chỉ số bằng hạng $$b_2$$), ta lập tức có $$m \ge b_2$$ — nghĩa là tồn tại ít nhất $$b_2$$ lớp độc lập có tự giao $$\alpha_i \cdot \alpha_i = 1$$! Một bài toán đại số tuyến tính ngắn gọn lập tức ép dạng giao $$Q_X$$ phải **chéo hóa hoàn toàn về ma trận đơn vị $$I_{b_2}$$**!
+
+Tóm tắt cầu nối chấn động của Donaldson:
+
+$$
+\text{Đa tạp trơn 4D } X
+\;\xrightarrow{F_A^+ = 0}\;
+\text{Moduli 5D } \mathcal{M}
+\;\xrightarrow{\text{Sủi bọt (Uhlenbeck)}}\;
+\text{Cobordism: } X \sim \bigsqcup \pm\mathbb{CP}^2
+\;\Longrightarrow\;
+Q_X \cong I_{b_2}.
+$$
+
+*(Về sau, năm 1990, Donaldson khai thác tiếp không gian moduli instanton bậc cao để tạo ra **đa thức Donaldson**, phân biệt được vô số cấu trúc trơn khác nhau trên cùng một đa tạp 4 chiều tôpô đóng.)*
+
+---
+
+## 3. Những phát triển về sau và vì sao là Huy chương Fields 1986
+
+- **Lý thuyết Seiberg–Witten (1994):** Tám năm sau huy chương của Donaldson, **Edward Witten** giới thiệu phương trình monopole Seiberg–Witten (nhóm gauge giao hoán $$\mathrm{U}(1)$$ thay vì $$\mathrm{SU}(2)$$), có không gian moduli tự động compact (không cần sủi bọt!) và dễ tính toán hơn nhiều, tái chứng minh ngắn gọn định lý Donaldson và mở ra hàng loạt định lý mới. Đây là bước kế thừa năm 1994, không thuộc huy chương 1986.
+- **Các chương sau của Donaldson:** Định lý Donaldson–Uhlenbeck–Yau về metric Hermite–Einstein, chùm Lefschetz symplectic, và định lý Chen–Donaldson–Sun về metric Kähler–Einstein trên đa tạp Fano.
+
+**Vì sao là Huy chương Fields 1986:** Không ai từng ngờ phương trình Yang–Mills của vật lý hạt lại có thể đọc thấu tôpô trơn của không gian 4 chiều, đập vỡ hoàn toàn sự đồng nhất giữa tôpô và vi phân bằng sự ra đời của đa tạp không làm trơn được và các $$\mathbb{R}^4$$ lạ. Tại ICM Berkeley 1986, ba tấm Huy chương Fields thuộc về **Simon Donaldson**, **Michael Freedman** và **Gerd Faltings**.
 
 ---
 

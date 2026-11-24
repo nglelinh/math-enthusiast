@@ -19,6 +19,8 @@ Năm 1917, nhà toán học Nhật Bản Sōichi Kakeya đặt ra một câu h�
 
 Thế rồi Abram Besicovitch xuất hiện và làm đảo lộn hoàn toàn trực giác ấy: trong mặt phẳng, tồn tại những tập hợp chứa đủ một đoạn thẳng dài 1 theo **mọi** hướng nhưng có **diện tích (độ đo Lebesgue) bằng đúng 0**! Cú sốc chưa dừng lại ở đó: dù diện tích bằng 0, một tập như vậy vẫn "rậm rạp" đến mức mang **số chiều Hausdorff bằng trọn vẹn 2**. Bài thực hành này mời bạn bước vào phòng thí nghiệm của nghịch lý ấy — không phải để chép lại chứng minh dài hơn một trăm trang của Wang–Zahl (2025), mà để tự tay **vẽ, lập mô phỏng, đo đạc, vấp ngã và chỉnh sửa lại** chính khái niệm "nhỏ" trong đầu mình, giữ kỷ luật phân biệt rạch ròi giữa giả thuyết, cách dựng, quan sát bằng số và định lý.
 
+**Mạch bài học:** Bản đồ kiến thức nền (GMT, số chiều Hausdorff/Minkowski, giải tích điều hòa & ống $$\delta$$) → Cây kim quay và tập Besicovitch → Khung giải thích chậm: tự tay tính diện tích cắt–trượt tam giác Perron → Số chiều khác độ đo và trạng thái chiều 2/3/$$\ge 4$$ → Thiết kế thí nghiệm & nhật ký.
+
 ---
 
 ## Mục tiêu học tập
@@ -38,12 +40,28 @@ Sau bài thực hành, bạn cần:
 
 ## Bản đồ kiến thức nền: Lý thuyết độ đo hình học và Giải tích điều hòa là gì, nghiên cứu những gì?
 
-Nếu bạn tốt nghiệp đại học ngành kỹ thuật hay khoa học tự nhiên, bạn đã quen đo độ dài, diện tích và thể tích bằng tích phân Riemann hoặc Lebesgue. Nhưng khi gặp những tập hợp mỏng tang như bụi Cantor hay tập Besicovitch, độ đo thông thường đều trả về con số $$0$$ bất lực. Đó là lúc hai ngành toán học lớn đứng sau bài toán Kakeya bước lên sân khấu:
+Nếu bạn vừa tốt nghiệp đại học ngành kỹ thuật hay khoa học tự nhiên, bạn đã quen đo độ dài, diện tích và thể tích bằng tích phân Riemann hoặc Lebesgue. Nhưng khi gặp những tập hợp mỏng tang như bụi Cantor hay tập Besicovitch, độ đo thông thường đều trả về con số $$0$$ bất lực. Đó là lúc ba trụ cột toán học đứng sau bài toán Kakeya bước lên sân khấu:
 
-1. **Lý thuyết độ đo hình học (Geometric Measure Theory — GMT):** Ngành này nghiên cứu cách đo "kích thước" và cấu trúc hình học của những tập hợp cực kỳ gồ ghề hoặc có độ đo Lebesgue bằng 0. Thay vì chỉ hỏi "diện tích bằng bao nhiêu?", GMT hỏi: *nếu ta phủ tập $$E$$ bằng các quả cầu bán kính nhỏ $$r$$, số quả cầu cần dùng tăng theo quy luật $$r^{-s}$$ với số mũ $$s$$ bằng bao nhiêu?* Giá trị tới hạn của $$s$$ cho ta **số chiều Minkowski** (đếm hộp) và **số chiều Hausdorff** $$\dim_H(E)$$. Ví dụ cụ thể: tập Cantor chuẩn trong $$[0,1]$$ có độ dài bằng 0, nhưng ở bước thứ $$k$$ ta cần $$2^k$$ đoạn độ dài $$3^{-k}$$ để phủ nó, nên số chiều của nó là $$\frac{\log 2}{\log 3} \approx 0.631$$ — lớn hơn một điểm (chiều 0) nhưng nhỏ hơn một đoạn thẳng (chiều 1). Tập Kakeya còn cực đoan hơn nữa: diện tích bằng 0 nhưng số chiều Hausdorff vẫn đạt trọn vẹn $$n$$!
-2. **Giải tích điều hòa (Harmonic Analysis):** Ngành này phân tích hàm số và sóng thành tổng (hoặc tích phân) của các sóng phẳng hình sin có tần số và hướng khác nhau (biến đổi Fourier). Vì sao bài toán xoay cây kim lại liên quan mật thiết đến sóng và Fourier? Hãy hình dung một gói sóng ánh sáng truyền theo một hướng nhất định: theo nguyên lý bất định, một bó sóng có tần số nằm trong một đĩa nhỏ sẽ tập trung năng lượng trong không gian dọc theo một **ống mỏng độ dày $$\delta$$** (gọi là ống $$\delta$$, hay *$$\delta$$-tube*) hướng theo phương truyền sóng. Khi nhiều sóng từ mọi hướng giao thoa với nhau, câu hỏi "năng lượng sóng có thể tập trung bất thường tại một vùng nhỏ đến mức nào?" biến thành câu hỏi hình học: *nếu xếp hàng loạt ống $$\delta$$ theo mọi hướng khác nhau, chúng có thể chồng lấn lên nhau chặt đến đâu?* Đó chính là phiên bản "làm dày" của giả thuyết Kakeya.
+### 1. Lý thuyết độ đo hình học (Geometric Measure Theory — GMT) là gì?
 
-Hiểu được cầu nối này, bạn sẽ thấy vì sao giải quyết giả thuyết Kakeya ở chiều 3 (Wang–Zahl, 2025) không chỉ là lời giải cho một câu đố hình học cổ điển, mà còn là bước ngoặt mở khóa hàng loạt bài toán về sóng, phương trình đạo hàm riêng và biến đổi Fourier nhiều chiều.
+GMT là ngành nghiên cứu cách đo "kích thước", độ cong và cấu trúc của những tập hợp cực kỳ gồ ghề, không trơn, hoặc có độ đo Lebesgue bằng 0. Thay vì chỉ hỏi *"diện tích bằng bao nhiêu?"*, GMT hỏi: *nếu ta phủ tập $$E$$ bằng các hộp (hoặc quả cầu) bán kính nhỏ $$r$$, số lượng hộp tối thiểu $$N(r)$$ tăng nhanh theo quy luật $$r^{-s}$$ với số mũ $$s$$ bằng bao nhiêu?*
+
+- **Số chiều Minkowski (đếm hộp):** $$\dim_M(E) = \lim_{r \to 0} \frac{\log N(r)}{\log(1/r)}$$.
+- **Số chiều Hausdorff ($$\dim_H(E)$$):** tinh tế hơn nữa, cho phép phủ $$E$$ bằng các quả cầu có bán kính *khác nhau* $$r_i \le \varepsilon$$ và xét tổng $$\sum r_i^s$$.
+
+**Ví dụ kiểm tra nhanh trên tập Cantor:** Bắt đầu từ đoạn $$[0, 1]$$, mỗi bước ta bỏ đi phần ba ở giữa. Ở bước thứ $$k$$, còn lại $$2^k$$ đoạn nhỏ, mỗi đoạn dài $$r = 3^{-k}$$. Tổng độ dài là $$(2/3)^k \to 0$$ (độ đo bằng 0!), nhưng số hộp cạnh $$r = 3^{-k}$$ cần dùng là $$N(r) = 2^k$$, nên
+$$
+\dim_M(\text{Cantor}) = \frac{\log(2^k)}{\log(3^k)} = \frac{\log 2}{\log 3} \approx 0.6309.
+$$
+Tập Kakeya còn cực đoan hơn: diện tích bằng 0, nhưng số chiều Hausdorff vẫn đạt trọn vẹn $$n$$!
+
+### 2. Giải tích điều hòa (Harmonic Analysis) và cầu nối "ống $$\delta$$"
+
+Giải tích điều hòa phân tích sóng và hàm số nhiều biến thành chồng chập các sóng phẳng $$e^{2\pi i x \cdot \xi}$$ (biến đổi Fourier). Vì sao bài toán xoay cây kim lại là bài toán sống còn của giải tích điều hòa? Theo nguyên lý bất định, một gói sóng có tần số tập trung trong một đĩa nhỏ trên mặt cầu tần số sẽ tập trung năng lượng trong không gian dọc theo một **ống mỏng dài 1, bán kính $$\delta$$** (gọi là **$$\delta$$-tube**), định hướng theo phương truyền sóng. Khi nhiều gói sóng từ mọi hướng giao thoa với nhau (như trong bài toán hạn chế Fourier hay phương trình sóng), câu hỏi *"năng lượng sóng có thể cộng hưởng bất thường tại một điểm không?"* dịch thẳng sang câu hỏi hình học: *nếu xếp hàng loạt ống $$\delta$$ theo mọi hướng phân biệt, chúng có thể chồng lấn lên nhau chặt đến mức nào?*
+
+### 3. Bức tranh lịch sử từ Besicovitch (1919) đến Wang–Zahl (2025)
+
+Bài toán Kakeya cho thấy một tập hợp có thể "rỗng" về thể tích nhưng vẫn "đầy" về số chiều. Sau chứng minh của Davies (1971) cho chiều $$n=2$$, suốt hơn nửa thế kỷ các nhà giải tích hàng đầu (Bourgain, Wolff, Tao, Guth…) liên tục cải thiện cận dưới cho chiều $$n \ge 3$$. Tháng 2 năm 2025, **Hong Wang và Joshua Zahl** công bố chứng minh trọn vẹn Giả thuyết Kakeya cho chiều $$n = 3$$ bằng phân tích đa thang đo tinh vi trên các cấu trúc ống $$\delta$$ ("sticky", "planar", "grainy"). Chiều $$n \ge 4$$ hiện vẫn còn mở.
 
 ---
 
@@ -51,7 +69,7 @@ Hiểu được cầu nối này, bạn sẽ thấy vì sao giải quyết giả
 
 ### 1.1 Cây kim quay và tập Besicovitch
 
-Năm 1917, **Sōichi Kakeya** hỏi: vùng phẳng nhỏ nhất nào cho phép một cây kim dài 1 quay liên tục để đổi ngược chiều? Quay quanh trung điểm cần một hình tròn bán kính $$1/2$$ (diện tích $$\pi/4$$). Hình deltoid cho diện tích nhỏ hơn ($$\pi/8$$); trực giác vẫn cho rằng phải có một **cận dưới dương**.
+Năm 1917, **Sōichi Kakeya** hỏi: vùng phẳng nhỏ nhất nào cho phép một cây kim dài 1 quay liên tục để đổi ngược chiều? Quay quanh trung điểm cần một hình tròn bán kính $$1/2$$ (diện tích $$\pi/4 \approx 0.785$$). Hình deltoid cho diện tích nhỏ hơn ($$\pi/8 \approx 0.393$$); trực giác vẫn cho rằng phải có một **cận dưới dương**.
 
 Một **tập Kakeya (tập Besicovitch)** trong $$\mathbb{R}^n$$ chứa một đoạn thẳng dài 1 theo **mọi** hướng; đây là điều kiện **tĩnh**. **Abram Besicovitch** (khoảng 1919–1928) chứng minh rằng trong mặt phẳng tồn tại tập như vậy có **độ đo 0**: với mọi $$\varepsilon>0$$ có một tập diện tích $$<\varepsilon$$ vẫn chứa đủ mọi hướng, và qua giới hạn ta được tập có độ đo đúng bằng 0.
 
@@ -61,11 +79,31 @@ Hai bài toán này liên quan nhưng không giống nhau. Có những vùng cho
 
 Độ dài mỗi đoạn luôn bằng 1. Nhưng ta có thể **dùng chung các điểm** cho nhiều hướng và lấy giới hạn kiểu fractal của các lân cận rất mỏng. Một hình chữ nhật dài 1, rộng $$\delta$$ có diện tích cỡ $$\delta$$. Khi $$\delta\to 0$$ diện tích tiến về 0, nhưng ta lại cần vô hạn hướng. Cái khéo của Besicovitch là dùng lại không gian bằng cách cắt và trượt lặp đi lặp lại.
 
-Hãy xem một **ví dụ nhỏ bằng số** để thấy phép màu của việc cắt và trượt (cây Perron): bắt đầu từ một tam giác đều đáy $$1$$, cao $$1$$ (diện tích $$1/2$$), chứa mọi hướng góc trong khoảng $$[-30^\circ, 30^\circ]$$ đi qua đỉnh. Nếu bạn cắt tam giác này theo đường cao thành 2 tam giác nhỏ rồi trượt một nửa sang chồng lên nửa kia một đoạn bằng $$1/4$$ đáy, phần hợp mới vẫn chứa nguyên vẹn mọi đoạn thẳng từ đỉnh xuống đáy (chỉ là chúng bị dịch song song sang hai đỉnh mới), nhưng tổng diện tích giảm hẳn đi vì phần giao hình tam giác ở giữa được dùng chung! Lặp lại thao tác chia đôi và chồng lấn $$k$$ lần (tạo thành **cây Perron** với $$2^k$$ nhánh mảnh như chiếc lược), tổng diện tích giảm theo cấp số nhân tiến dần về 0, trong khi tập các hướng vẫn giữ nguyên vẹn.
+#### Khung giải thích: Tự tay tính một bước cắt–trượt cây Perron (nên đọc chậm)
 
-Một hình minh họa hay dùng hiện nay là **mành sáo**: các dải gần song song, nghiêng, được cắt ra rồi xếp lại. Ghép ba cây Perron lại với nhau thành hình "con cá" để bao phủ trọn $$180^\circ$$ hướng, ta minh họa được việc quay nửa vòng trong diện tích nhỏ tùy ý. Khi vẽ tay, hãy thử cố ý chồng hai hướng gần song song lên cùng một dải mực và tự hỏi: so với vẽ hai dải riêng, ta tiết kiệm được bao nhiêu?
+Để tin hoàn toàn rằng việc cắt và trượt thực sự *giảm diện tích mà không làm mất bất kỳ hướng nào*, hãy lấy giấy bút kiểm tra từng tọa độ của phép biến đổi đơn giản nhất:
 
-**Ý chính.** Chồng lấn không phải là lỗi; đó là cách tiết kiệm diện tích.
+1. **Hình ban đầu:** Xét tam giác $$T$$ có đáy là đoạn $$[0, 2]$$ trên trục hoành và đỉnh tại $$A = (1, 1)$$.
+   - Diện tích ban đầu: $$\operatorname{Area}(T) = \frac{1}{2} \times 2 \times 1 = 1$$.
+   - Tập các hướng chứa trong $$T$$: mọi đoạn thẳng nối từ đỉnh $$A(1,1)$$ xuống một điểm $$(t, 0)$$ trên đáy $$[0, 2]$$ đều dài $$\ge 1$$ và quét kín toàn bộ góc nghiêng từ $$-45^\circ$$ đến $$+45^\circ$$.
+2. **Bước cắt đôi:** Cắt $$T$$ dọc theo đường cao $$x = 1$$ thành hai tam giác vuông bằng nhau:
+   - $$T_1$$ có 3 đỉnh $$(0,0), (1,0), (1,1)$$, mô tả bởi bất đẳng thức $$0 \le y \le x \le 1$$, diện tích $$1/2$$.
+   - $$T_2$$ có 3 đỉnh $$(1,0), (2,0), (1,1)$$, diện tích $$1/2$$.
+3. **Bước trượt chồng lấn:** Giữ nguyên $$T_1$$, và **trượt $$T_2$$ sang trái đúng 1 đơn vị** để đáy của nó nằm đè khít lên đoạn $$[0, 1]$$! Gọi tam giác mới là $$T_2'$$:
+   - 3 đỉnh của $$T_2'$$ là $$(0,0), (1,0), (0,1)$$, mô tả bởi $$0 \le y \le 1 - x$$ với $$0 \le x \le 1$$.
+   - Vì phép tịnh tiến song song **không làm đổi hướng của bất kỳ đoạn thẳng nào**, tập hợp mới $$E_1 = T_1 \cup T_2'$$ vẫn chứa trọn vẹn mọi hướng từ $$-45^\circ$$ đến $$+45^\circ$$!
+4. **Tính diện tích mới bằng tay:** Phần giao nhau $$T_1 \cap T_2'$$ là tập các điểm thỏa mãn đồng thời $$y \le x$$ và $$y \le 1 - x$$ trên $$[0, 1]$$ — đó chính là một tam giác cân có đáy $$[0, 1]$$ (độ dài $$1$$) và đỉnh giao nhau tại $$(1/2, 1/2)$$ (chiều cao $$1/2$$). Do đó:
+   $$
+   \operatorname{Area}(T_1 \cap T_2') = \frac{1}{2} \times 1 \times \frac{1}{2} = \frac{1}{4},
+   $$
+   suy ra diện tích hợp mới tụt xuống ngay:
+   $$
+   \operatorname{Area}(T_1 \cup T_2') = \frac{1}{2} + \frac{1}{2} - \frac{1}{4} = \frac{3}{4} = 0.75.
+   $$
+
+Chỉ sau **một nhát cắt và một cú trượt**, bạn đã giảm ngay **25% diện tích** mà không đánh mất một độ góc nào! Nếu tiếp tục chia nhỏ đáy thành $$2^k$$ tam giác mảnh và trượt chồng chúng theo quy tắc **cây Perron** (giống như xếp các nan mành sáo đan chéo nhau), tổng diện tích có thể co nhỏ hơn bất kỳ $$\varepsilon > 0$$ nào (giảm chậm theo cỡ $$1/\log k$$). Ghép ba cây Perron thành hình "con cá" để phủ đủ $$180^\circ$$, ta thu được vùng quay cây kim có diện tích nhỏ tùy ý.
+
+**Ý chính.** Chồng lấn không phải là lỗi; đó là cơ chế hình học để tiết kiệm diện tích.
 
 ### 1.3 Số chiều khác với độ đo
 

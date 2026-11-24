@@ -105,6 +105,35 @@ giữ mọi khoảng cách giữa các cặp điểm trong phạm vi $$1\pm\vare
 
 ---
 
+### Khung giải thích: nghịch lý quả cầu trung tâm "chọc thủng" hình lập phương (nên đọc chậm)
+
+Để cảm nhận cú sốc thực sự của hình học cao chiều chỉ bằng định lý Pytago, hãy tự tay làm một thí nghiệm hình học nổi tiếng trong khối lập phương $$[-2, 2]^n$$ (cạnh dài $$4$$, khoảng cách từ tâm $$0$$ tới mỗi mặt tường đúng bằng $$2$$).
+
+1. **Xếp $$2^n$$ quả cầu đơn vị vào các góc:** Đặt $$2^n$$ quả cầu bán kính $$1$$ có tâm tại tất cả các điểm $$(\pm 1, \pm 1, \dots, \pm 1)$$. Ở chiều $$n=2$$, đó là 4 hình tròn bán kính 1 xếp khít trong hình vuông $$[-2, 2]^2$$. Ở chiều $$n=3$$, đó là 8 quả cầu xếp trong hộp lập phương $$[-2, 2]^3$$.
+2. **Nhét một quả cầu nhỏ vào chính giữa gốc tọa độ $$0$$** sao cho nó chạm vừa khít tất cả $$2^n$$ quả cầu ở góc. Bán kính $$r_n$$ của quả cầu ở giữa bằng khoảng cách từ gốc $$0$$ đến tâm $$(\pm 1,\dots,\pm 1)$$ trừ đi bán kính $$1$$ của quả cầu góc:
+   $$
+   r_n = \sqrt{1^2 + 1^2 + \cdots + 1^2} - 1 = \sqrt{n} - 1.
+   $$
+3. **Thay từng giá trị $$n$$ vào công thức siêu ngắn ấy:**
+   - $$n = 2$$: $$r_2 = \sqrt{2} - 1 \approx 0.41$$ (lọt thỏm giữa 4 hình tròn).
+   - $$n = 4$$: $$r_4 = \sqrt{4} - 1 = 1$$ (to đúng bằng các quả cầu ở góc!).
+   - $$n = 9$$: $$r_9 = \sqrt{9} - 1 = 2$$ (vừa chạm mặt tường của hình lập phương $$[-2, 2]^9$$!).
+   - $$n = 16$$: $$r_{16} = \sqrt{16} - 1 = 3 > 2$$ — **quả cầu bị kẹp ở chính giữa các quả cầu góc bỗng phình to chọc thủng ra hẳn bên ngoài khối lập phương $$[-2, 2]^{16}$$!**
+
+4. **Kiểm tra nhanh một phép chiếu Johnson–Lindenstrauss bằng tay:** Xét hai vectơ trực giao $$x = (1, 0, 0, 0)^\top$$ và $$y = (0, 1, 0, 0)^\top$$ trong $$\mathbb{R}^4$$ (bình phương khoảng cách $$\|x - y\|_2^2 = 2$$). Chiếu chúng xuống $$\mathbb{R}^2$$ bằng ma trận ngẫu nhiên chuẩn hóa
+
+   $$
+   R = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 & -1 & 1 & 1 \\ 1 & 1 & -1 & 1 \end{pmatrix}.
+   $$
+
+   Ta có $$Rx = \frac{1}{\sqrt{2}}\begin{pmatrix}1\\1\end{pmatrix}$$, $$Ry = \frac{1}{\sqrt{2}}\begin{pmatrix}-1\\1\end{pmatrix}$$, và bình phương khoảng cách mới là
+
+   $$
+   \|Rx - Ry\|_2^2 = \frac{1}{2}\bigl((1 - (-1))^2 + (1 - 1)^2\bigr) = \frac{4}{2} = 2.
+   $$
+
+   Khoảng cách được giữ nguyên dù số chiều giảm một nửa! Trong thực tế, phép chiếu ngẫu nhiên bảo toàn khoảng cách theo kỳ vọng đúng bằng $$1$$, và hiện tượng tập trung độ đo đảm bảo độ lệch quanh $$1$$ rất nhỏ khi số chiều đích $$k = O(\varepsilon^{-2}\log N)$$.
+
 ## 5. Nhiều "lời nguyền", không phải một
 
 | Hiện tượng | Nội dung đại thể |

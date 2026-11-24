@@ -19,6 +19,8 @@ Cuối thế kỷ XVI, nhà thám hiểm Sir Walter Raleigh nhờ trợ lý toá
 
 Thế nhưng câu chuyện kỳ diệu nhất lại xảy ra ở những không gian ta không thể nhìn thấy: năm 2016, Maryna Viazovska gây chấn động giới toán học khi giải quyết trọn vẹn bài toán xếp cầu ở **chiều 8** (bằng lưới $$E_8$$) chỉ trong khoảng hai mươi trang giấy, rồi cùng các đồng tác giả chinh phục **chiều 24** (bằng lưới Leech) ngay tuần sau đó — trong khi chiều 4, 5, 6, 7 cho tới hôm nay vẫn đang bỏ ngỏ! Trong bài thực hành này, bạn không cần tự dựng "hàm kỳ diệu" của Viazovska. Thay vào đó, bạn sẽ **tự định nghĩa mật độ**, **trải đồng xu ra đo**, **viết mã so sánh các cấu hình**, và tập nhìn rõ ranh giới giữa định lý chính xác ở những số chiều đặc biệt với các cận số ở phần còn lại của không gian Euclid.
 
+**Mạch bài học:** Bản đồ kiến thức nền (hình học rời rạc & lưới, biến đổi Fourier/Poisson, dạng modula) → Mật độ xếp cầu → Khung giải thích chậm: tính tay mật độ qua ma trận lưới 2D và công thức tổng Poisson → Chiều 3, 8, 24 & nghịch lý thể tích $$V_n \to 0$$ → Thí nghiệm & nhật ký.
+
 ---
 
 ## Mục tiêu học tập
@@ -40,11 +42,23 @@ Sau bài thực hành, bạn có thể:
 
 Thoạt nghe, xếp cam hay xếp đạn đại bác giống chuyện thủ công hơn là toán học cao cấp. Nhưng khi nâng lên $$\mathbb{R}^n$$, bài toán xếp cầu lại là giao lộ của ba nhánh toán học và kỹ thuật cực kỳ mạnh mẽ:
 
-1. **Hình học rời rạc và Lý thuyết lưới (Discrete Geometry & Lattice Theory):** Một **lưới (lattice)** $$\Lambda \subset \mathbb{R}^n$$ là tập hợp các tổ hợp nguyên $$k_1 v_1 + \dots + k_n v_n$$ của $$n$$ vectơ cơ sở độc lập tuyến tính — hãy hình dung mạng tinh thể muối ăn trong 3D nhưng mở rộng ra $$n$$ chiều. Ngành này hỏi: làm sao tối ưu hóa mật độ, khoảng cách cực tiểu và tính đối xứng của các cấu hình điểm rời rạc? Ứng dụng bất ngờ nhất nằm ngay trong **kỹ thuật viễn thông và mật mã học**: mỗi tín hiệu số gửi qua kênh nhiễu (như 5G hay tàu thăm dò vũ trụ) là một điểm trong $$\mathbb{R}^n$$; nhiễu ngẫu nhiên biến điểm đó thành một quả cầu sai số quanh nó. Xếp càng nhiều quả cầu không giao nhau vào không gian thì ta càng truyền được nhiều thông tin mà không bị nhầm mã!
-2. **Giải tích Fourier và Công thức tổng Poisson:** Làm sao chứng minh được rằng *không tồn tại bất kỳ cách xếp vô hạn nào* dày hơn lưới $$E_8$$, khi ta không thể liệt kê hết vô hạn cấu hình? Henry Cohn và Noam Elkies (2003) chuyển bài toán hình học sang **giải tích điều hòa**: dùng biến đổi Fourier để thiết kế một "hàm kiểm tra" xuyên tâm $$f$$ đóng vai trò như một chứng chỉ chặn trên. Nếu hàm $$f$$ thỏa điều kiện dấu thích hợp trên không gian gốc và trên không gian tần số, công thức tổng Poisson tự động khóa chặt mật độ của *mọi* cách xếp.
-3. **Dạng modula (Modular Forms):** Đây là những hàm giải tích phức có độ đối xứng gần như không tưởng dưới tác động của nhóm $$\mathrm{SL}_2(\mathbb{Z})$$. Đột phá của Viazovska chính là phát hiện rằng dạng modula cho phép "may đo" đúng hàm phụ trợ $$f$$ khớp hoàn hảo với tập bán kính của lưới $$E_8$$ (chiều 8) và lưới Leech (chiều 24).
+### 1. Hình học rời rạc và Lý thuyết lưới (Discrete Geometry & Lattice Theory)
 
-Một ví dụ nhanh để thấy trực giác 2D đã khác biệt ra sao: nếu bạn xếp 100 đồng xu thành hình vuông $$10\times 10$$, khoảng trống ở góc giữa 4 đồng xu chiếm gần $$21.5\%$$ diện tích. Chỉ cần trượt các hàng so le nhau nửa đường kính thành lưới lục giác, phần khoảng trống tụt ngay xuống còn chưa tới $$9.3\%$$ — tiết kiệm hơn một nửa không gian thừa!
+Một **lưới (lattice)** $$\Lambda \subset \mathbb{R}^n$$ là tập hợp tất cả các tổ hợp nguyên $$k_1 v_1 + \dots + k_n v_n$$ ($$k_i \in \mathbb{Z}$$) của $$n$$ vectơ cơ sở độc lập tuyến tính — hãy hình dung mạng tinh thể muối ăn trong 3D nhưng mở rộng ra $$n$$ chiều. Ngành này nghiên cứu cách tối ưu hóa mật độ, khoảng cách cực tiểu, số tiếp xúc (*kissing number*) và tính đối xứng của cấu hình điểm rời rạc.
+
+Ứng dụng thực tế bất ngờ nhất nằm ngay trong **viễn thông và mật mã học**: mỗi bản tin số gửi qua kênh nhiễu (5G, Wi-Fi, hay tín hiệu từ tàu Voyager) là một điểm mã trong $$\mathbb{R}^n$$; nhiễu Gaussian biến điểm đó thành một quả cầu sai số quanh nó. Xếp càng nhiều quả cầu không giao nhau vào không gian thì ta càng truyền được nhiều bit thông tin mà bên nhận vẫn giải mã chính xác!
+
+### 2. Giải tích Fourier và Công thức tổng Poisson
+
+Làm sao chứng minh được rằng *không tồn tại bất kỳ cách xếp vô hạn nào* dày hơn lưới $$E_8$$, khi ta không thể liệt kê hết vô hạn cấu hình? Henry Cohn và Noam Elkies (2003) chuyển bài toán hình học sang **giải tích điều hòa**: dùng **công thức tổng Poisson**
+$$
+\sum_{x \in \Lambda} f(x) = \frac{1}{\operatorname{Vol}(\mathbb{R}^n/\Lambda)} \sum_{\xi \in \Lambda^*} \hat f(\xi)
+$$
+để biến điều kiện hình học "các quả cầu không chồng lên nhau" thành điều kiện về dấu của một hàm xuyên tâm $$f$$ và biến đổi Fourier $$\hat f$$ của nó.
+
+### 3. Dạng modula (Modular Forms)
+
+Đây là những hàm giải tích phức có độ đối xứng gần như không tưởng dưới tác động của nhóm $$\mathrm{SL}_2(\mathbb{Z})$$. Đột phá mang về Huy chương Fields 2022 cho Maryna Viazovska chính là phát hiện rằng dạng modula cho phép "may đo" chính xác hàm phụ trợ $$f$$ sao cho nó triệt tiêu đúng tại mọi khoảng cách bán kính của lưới $$E_8$$ (chiều 8) và lưới Leech (chiều 24).
 
 ---
 
@@ -64,7 +78,7 @@ $$
 \delta(\Lambda)=\frac{\operatorname{Vol}(B(0,r))}{\operatorname{Vol}(\mathbb{R}^n/\Lambda)}.
 $$
 
-Ở đây $$\operatorname{Vol}(\mathbb{R}^n/\Lambda)$$ là thể tích của một **ô cơ sở** (hình hộp sinh bởi các vectơ cơ sở của lưới), và mỗi ô cơ sở chứa đúng tương đương 1 quả cầu.
+Ở đây $$\operatorname{Vol}(\mathbb{R}^n/\Lambda) = \lvert\det M\rvert$$ là thể tích của một **ô cơ sở** (hình hộp sinh bởi ma trận $$M$$ có các cột là vectơ cơ sở của lưới), và mỗi ô cơ sở chứa đúng tương đương 1 quả cầu.
 
 **Câu hỏi.** $$\delta_n=\sup$$ của mật độ trên mọi cách xếp trong chiều $$n$$ bằng bao nhiêu? Cấu hình nào đạt được giá trị đó?
 
@@ -72,19 +86,38 @@ Hiệu ứng biên rất quan trọng: nếu chỉ đếm "có bao nhiêu quả 
 
 ### 1.2 Hai chiều: lưới vuông và lưới lục giác
 
-Xếp đồng xu trên mặt bàn.
+#### Khung giải thích: Tính tay mật độ qua ma trận lưới 2D và trực giác Poisson (nên đọc chậm)
 
-- **Lưới vuông.** Tâm tại $$(2r\,i,\,2r\,j)$$. Ô cơ sở là hình vuông cạnh $$2r$$ có diện tích $$4r^2$$, nên
+Hãy tự tay kiểm tra công thức $$\delta(\Lambda) = \frac{\operatorname{Vol}(B(0,r))}{\lvert\det M\rvert}$$ cho các đồng xu bán kính $$r = 1$$ (nên khoảng cách tâm tối thiểu phải là $$2r = 2$$):
 
-$$
-\delta_{\square}=\frac{\pi r^2}{4r^2}=\frac{\pi}{4}\approx 0.7854.
-$$
+1. **Lưới vuông $$\Lambda_{\square}$$:** Chọn hai vectơ cơ sở $$v_1 = (2, 0)^T$$ và $$v_2 = (0, 2)^T$$. Ma trận cơ sở là
+   $$
+   M_{\square} = \begin{pmatrix} 2 & 0 \\ 0 & 2 \end{pmatrix} \implies \lvert\det M_{\square}\rvert = 4.
+   $$
+   Mọi điểm khác $$0$$ dạng $$(2i, 2j)$$ đều có độ dài $$\ge 2$$. Diện tích một đồng xu là $$\pi \cdot 1^2 = \pi$$, nên
+   $$
+   \delta_{\square} = \frac{\pi}{4} \approx 0.7854.
+   $$
+   Khoảng trống lãng phí chiếm tới $$21.46\%$$ diện tích!
 
-- **Lưới lục giác.** Hai vectơ cơ sở là $$v_1=(2r,0)$$ và $$v_2=(r, r\sqrt{3})$$. Mỗi tâm có sáu tâm láng giềng cách nó $$2r$$. Ô cơ sở là hình bình hành diện tích $$2r \cdot r\sqrt{3} = 2\sqrt{3}\,r^2$$, nên
+2. **Lưới lục giác $$\Lambda_{\mathrm{hex}}$$:** Trượt hàng thứ hai sang phải đúng $$1$$ đơn vị và kéo xuống sát hàng thứ nhất. Ta có hai vectơ cơ sở $$v_1 = (2, 0)^T$$ và $$v_2 = (1, \sqrt{3})^T$$. Kiểm tra bằng tay độ dài các vectơ ngắn nhất:
+   - $$\lVert v_1 \rVert = \sqrt{2^2 + 0^2} = 2$$;
+   - $$\lVert v_2 \rVert = \sqrt{1^2 + (\sqrt{3})^2} = \sqrt{4} = 2$$;
+   - $$\lVert v_1 - v_2 \rVert = \lVert (1, -\sqrt{3}) \rVert = \sqrt{1 + 3} = 2$$.
+   Cả sáu điểm $$\pm v_1, \pm v_2, \pm(v_1 - v_2)$$ đều cách gốc đúng bằng $$2$$ (số tiếp xúc bằng **6**!). Ma trận cơ sở là
+   $$
+   M_{\mathrm{hex}} = \begin{pmatrix} 2 & 1 \\ 0 & \sqrt{3} \end{pmatrix} \implies \lvert\det M_{\mathrm{hex}}\rvert = 2\sqrt{3} \approx 3.4641.
+   $$
+   Suy ra mật độ tăng vọt lên:
+   $$
+   \delta_{\mathrm{hex}} = \frac{\pi}{2\sqrt{3}} \approx 0.9069.
+   $$
+   Phần khoảng trống giảm ngay hơn một nửa, chỉ còn $$9.31\%$$!
 
-$$
-\delta_{\mathrm{hex}}=\frac{\pi r^2}{2\sqrt{3}\,r^2}=\frac{\pi}{2\sqrt{3}}\approx 0.9069.
-$$
+3. **Công thức tổng Poisson hoạt động như thế nào để khóa mật độ?** Xét một hàm xuyên tâm $$f$$ trên $$\mathbb{R}^n$$ sao cho $$f(0) = \hat f(0) = 1$$, đồng thời $$f(x) \le 0$$ với mọi $$\lVert x \rVert \ge 2r$$ và $$\hat f(\xi) \ge 0$$ với mọi $$\xi$$. Áp dụng công thức tổng Poisson cho lưới $$\Lambda$$ bất kỳ có khoảng cách cực tiểu $$\ge 2r$$:
+   - **Vế trái:** $$\sum_{x \in \Lambda} f(x) = f(0) + \sum_{x \neq 0} \underbrace{f(x)}_{\le 0} \le f(0) = 1$$.
+   - **Vế phải:** $$\frac{1}{\operatorname{Vol}(\mathbb{R}^n/\Lambda)} \Bigl(\hat f(0) + \sum_{\xi \neq 0} \underbrace{\hat f(\xi)}_{\ge 0}\Bigr) \ge \frac{1}{\operatorname{Vol}(\mathbb{R}^n/\Lambda)}$$.
+   Ghép hai vế lập tức ta thu được **$$\operatorname{Vol}(\mathbb{R}^n/\Lambda) \ge 1$$**, tức là **mật độ bị chặn trên tức thì bởi $$\operatorname{Vol}(B(0,r))$$!** Muốn đạt dấu bằng (chứng minh tối ưu tuyệt đối như Viazovska làm cho $$E_8$$), hàm $$f$$ phải khéo léo bằng $$0$$ đúng tại mọi bán kính $$\lVert x\rVert$$ của lưới $$E_8$$ và $$\hat f(\xi)$$ bằng $$0$$ đúng tại mọi bán kính của lưới đối ngẫu!
 
 Cách xếp lục giác là tối ưu trong mặt phẳng (kết quả cổ điển của Thue và Fejes Tóth). Thí nghiệm đầu tiên nên giúp bạn **tự thấy** sự chênh lệch giữa 0.785 và 0.907 trước khi dẫn định lý.
 
@@ -115,7 +148,7 @@ Lưới $$E_8$$ và lưới Leech có tính đối xứng đặc biệt: số ve
 
 ### 1.5 Ý tưởng Cohn–Elkies trong một đoạn
 
-Nói gần đúng: nếu một hàm Schwartz xuyên tâm $$f$$ trên $$\mathbb{R}^n$$ thỏa mãn $$f(x)\le 0$$ khi $$\lvert x\rvert\ge 1$$ và $$\hat f(\xi)\ge 0$$ với mọi $$\xi$$, trong đó $$f(0)$$ và $$\hat f(0)$$ dương, thì mật độ xếp cầu bị chặn trên bởi một hằng số tính từ $$f(0)/\hat f(0)$$ (sau khi đổi tỉ lệ). Công thức tổng Poisson là cầu nối: nó liên hệ tổng giá trị của $$f$$ trên lưới với tổng giá trị của $$\hat f$$ trên lưới đối ngẫu, biến điều kiện hình học "không chồng lên nhau" thành điều kiện về dấu trong giải tích. Để cận này chính xác, cần một hàm "vừa khít" với tập các khoảng cách của lưới, tức là triệt tiêu đúng tại những bán kính cần thiết. Dạng modula cung cấp những hàm như vậy ở chiều 8 và 24. Bạn không cần dựng $$f$$; điều cần hiểu là **bài toán xếp cầu đã trở thành bài toán thiết kế hàm**. Đó là lý do một Huy chương Fields có thể được trao cho việc dựng đúng một hàm phụ trợ, chứ không phải cho việc xếp thêm cam.
+Nói gọn lại: bài toán hình học "xếp quả cầu sao cho dày nhất" đã được dịch thành **bài toán thiết kế một hàm giải tích $$f$$** thỏa điều kiện dấu của $$f$$ và $$\hat f$$. Để cận này khớp khít với một lưới cho trước, $$f$$ cần triệt tiêu đúng tại các khoảng cách của lưới đó. Dạng modula cung cấp đúng những hàm kỳ diệu như vậy ở chiều 8 và chiều 24. Bạn không cần tự dựng $$f$$; điều cốt lõi cần nắm là **tư duy chuyển đổi ngôn ngữ** từ hình học rời rạc sang giải tích điều hòa.
 
 ### 1.6 Những điều lạ trong không gian nhiều chiều
 

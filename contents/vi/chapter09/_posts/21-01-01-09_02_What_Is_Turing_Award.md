@@ -63,7 +63,25 @@ Mở bất kỳ lời trích dẫn nào trên [amturing.acm.org](https://amturin
 
 Các động từ hay gặp là *mở ra*, *tiên phong*, *định hình*, *đặt nền tảng*. Giải Turing ghi nhận những thay đổi cả một lĩnh vực tính toán, chứ không chỉ một sản phẩm phần mềm.
 
-**Ví dụ cách "giải mã" một lời trích dẫn:** Khi đọc trích dẫn năm 2012 của Goldwasser và Micali (*"transformative work that laid the complexity-theoretic foundations for the science of cryptography"*), thay vì chỉ gật gù khen hay, bạn hãy khoanh tròn đối tượng toán học bên trong: **định nghĩa an ninh ngữ nghĩa (semantic security)**, **mã hóa xác suất**, **phép quy dẫn an ninh (security reduction)** và **chứng minh không tiết lộ (zero-knowledge)**. Mỗi danh từ đó dẫn thẳng tới một định nghĩa và một định lý cụ thể!
+### Ví dụ cầm tay chỉ việc: "Giải phẫu" một lời trích dẫn Giải Turing thành phép tính cụ thể
+
+Khi đọc trích dẫn Giải Turing 2012 của Shafi Goldwasser và Silvio Micali (*"transformative work that laid the complexity-theoretic foundations for the science of cryptography"*), đừng chỉ đọc lướt qua các tính từ khen ngợi. Hãy bóc tách đúng một ý tưởng cốt lõi bên trong — **mã hóa xác suất** — bằng phép tính số nhỏ modulo $$N = 3 \times 5 = 15$$:
+
+- Giả sử bạn muốn mã hóa một bit bí mật $$b \in \{0, 1\}$$ (ví dụ `0 = Mua`, `1 = Bán`).
+- Nếu dùng hàm tất định (như RSA thuần không phần đệm), lần nào mã hóa `0` cũng ra đúng một số cố định — kẻ nghe lén chỉ cần thấy hai bản mã giống nhau là biết ngay hôm nay bạn lặp lại lệnh hôm qua!
+- Goldwasser–Micali đảo ngược cách làm bằng **thặng dư bậc hai modulo $$N = 15$$**: chọn ngẫu nhiên một số $$r$$ nguyên tố cùng nhau với 15 (tập $$\{1,2,4,7,8,11,13,14\}$$):
+  - Để mã hóa bit `0`, gửi $$c = r^2 \bmod 15$$ (với $$r=2 \implies c=4$$; với $$r=4 \implies c=1$$).
+  - Để mã hóa bit `1`, nhân thêm một số không phải bình phương $$z = 2$$: gửi $$c = 2r^2 \bmod 15$$ (với $$r=2 \implies c=8$$; với $$r=4 \implies c=2$$).
+- Kết quả: cùng gửi bit `0` hai lần nhưng bản mã lúc ra `4`, lúc ra `1`! Người biết thừa số $$p=3, q=5$$ kiểm tra bình phương modulo 3 và 5 trong chớp mắt, còn kẻ chỉ biết $$N$$ lớn hàng nghìn bit không thể phân biệt nổi bản mã của `0` và `1`. Từ một câu trích dẫn ngắn của Giải Turing, ta chạm thẳng vào một cơ chế toán học rõ mồn một!
+
+### Khung giải thích: Quy trình 4 bước đọc một Giải Turing bằng con mắt người làm toán–tin (nên đọc chậm)
+
+1. **Gạch chân các danh từ kỹ thuật trong lời trích dẫn:** tách khỏi lời khen xã giao để tìm đúng đối tượng toán học (máy Turing, phép quy dẫn, mã hóa xác suất, đồ thị nhân quả, bộ sinh giả ngẫu nhiên).
+2. **Xác định tầng câu hỏi mà công trình trả lời:** nó thuộc tầng *tính được* (Turing), tầng *ranh giới P vs NP* (Cook–Karp), tầng *tối ưu bên trong P* (Knuth, Hopcroft–Tarjan), tầng *bảo mật/tương tác* (RSA, Goldwasser–Micali), hay tầng *học & nhân quả* (Valiant, Pearl)?
+3. **Thử trên một ví dụ cỡ nhỏ bằng tay:** tự chạy một đồ thị 4 đỉnh, một ma trận $$2\times 2$$ hay một phép chia dư modulo 15 để thấy cơ chế thực sự vận hành chứ không chỉ nhớ khẩu hiệu.
+4. **Kiểm tra giới hạn và câu hỏi còn mở:** mọi Giải Turing đều mở ra biên giới mới — hỏi xem giả định nào vẫn chưa chứng minh được (ví dụ $$\mathbf{P}\neq\mathbf{NP}$$, độ khó phân tích thừa số hay giả thiết khử ngẫu nhiên $$\mathbf{BPP}=\mathbf{P}$$).
+
+**Kiểm tra nhanh.** Giải Turing vinh danh **nền tảng và ngôn ngữ làm việc mới của cả ngành**, không nhất thiết là lời giải của một bài toán Thiên niên kỷ (như Cook–Karp nhận giải dù P vs NP vẫn còn mở).
 
 ---
 
@@ -136,7 +154,7 @@ Năm 1936, Turing định nghĩa **hàm tính được** qua máy với băng v�
 
 Hãy dùng video để làm quen với bối cảnh và văn hóa nghiên cứu, không dùng thay cho chứng minh.
 
-Video gợi ý: danh sách các bài giảng nhận giải Turing của ACM: [https://www.youtube.com/playlist?list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6](https://www.youtube.com/playlist?v=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6).
+Video gợi ý: danh sách các bài giảng nhận giải Turing của ACM: [https://www.youtube.com/playlist?list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6](https://www.youtube.com/playlist?list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6).
 
 Trang chính thức và tài liệu:
 

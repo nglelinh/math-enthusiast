@@ -133,6 +133,35 @@ Vật lý ngoài cân bằng (sinh entropy, định lý thăng giáng, giới h�
 
 ---
 
+### Khung giải thích: giải tay phương trình nhiệt và hàm phân hoạch 2 trạng thái (nên đọc chậm)
+
+Để không bị lạc giữa hàng loạt tên gọi lớn (Navier–Stokes, không gian Hilbert, hàm phân hoạch), hãy tự tay thực hiện hai phép tính mini nhưng chạm đúng tim của hai trụ cột vật lý toán: **PDE làm mịn** và **cơ học thống kê**.
+
+1. **PDE — Tại sao phương trình nhiệt làm mịn tức thì (còn Navier–Stokes thì khó)?**
+   Xét phương trình nhiệt 1 chiều $$\partial_t u = \partial_{xx} u$$ trên đoạn $$[0, \pi]$$ với biên giữ ở $$0$$ và dữ kiện đầu có một gợn sóng tần số cao:
+   $$
+   u(x, 0) = \sin(x) + \sin(10x).
+   $$
+   Kiểm tra bằng cách lấy đạo hàm trực tiếp: hàm $$u(x, t) = e^{-t}\sin(x) + e^{-100t}\sin(10x)$$ thỏa đúng $$\partial_t u = -e^{-t}\sin(x) - 100e^{-100t}\sin(10x) = \partial_{xx} u$$!
+   Thay $$t = 0.1$$ vào xem điều gì xảy ra:
+   - Sóng nền chậm: $$e^{-0.1} \approx 0.905$$ (còn hơn 90% biên độ).
+   - Gợn sóng tần số cao $$k=10$$: $$e^{-100(0.1)} = e^{-10} \approx 0.000045$$ (**biến mất gần như hoàn toàn** chỉ sau 0.1 giây!).
+   Toán tử Laplace $$\Delta$$ dập tắt tần số cao theo thừa số $$e^{-k^2 t}$$. Trong bài toán Clay về **Navier–Stokes 3D**, số hạng phi tuyến $$(u\cdot\nabla)u$$ lại liên tục bơm năng lượng ngược lên các tần số $$k$$ cao hơn — toàn bộ bài toán 1 triệu đô la quy về câu hỏi: *liệu hiệu ứng dập tắt $$e^{-k^2 t}$$ của độ nhớt có luôn thắng nổi lực bơm năng lượng phi tuyến hay không?*
+
+2. **Cơ học thống kê — Tính tay hàm phân hoạch 2 mức năng lượng:**
+   Xét một hạt spin chỉ có 2 trạng thái với năng lượng $$E_0 = 0$$ và $$E_1 = \Delta > 0$$ ở nhiệt độ nghịch đảo $$\beta = \frac{1}{k_B T}$$. Hàm phân hoạch là:
+   $$
+   Z(\beta) = e^{-\beta \cdot 0} + e^{-\beta \Delta} = 1 + e^{-\beta \Delta}.
+   $$
+   Năng lượng trung bình tính gọn bằng đạo hàm logarit:
+   $$
+   \langle E \rangle = -\frac{\partial}{\partial \beta}\ln Z(\beta) = \frac{\Delta e^{-\beta \Delta}}{1 + e^{-\beta \Delta}} = \frac{\Delta}{e^{\beta \Delta} + 1}.
+   $$
+   Kiểm tra hai giới hạn vật lý bằng tay:
+   - Nhiệt độ rất thấp ($$T \to 0 \Rightarrow \beta \to +\infty$$): $$e^{\beta\Delta} \to \infty \Rightarrow \langle E\rangle \to 0$$ (hệ đóng băng ở trạng thái cơ bản).
+   - Nhiệt độ rất cao ($$T \to \infty \Rightarrow \beta \to 0$$): $$e^{\beta\Delta} \to 1 \Rightarrow \langle E\rangle \to \frac{\Delta}{2}$$ (hai trạng thái ngang xác suất 50/50).
+   Nhìn vào công thức $$\frac{\Delta}{e^{\beta\Delta}+1}$$, bạn thấy nó **trơn vô hạn với mọi $$\beta > 0$$** — không có bất kỳ điểm gãy sắc nét nào! Đây chính là bằng chứng trực quan nhất giải thích vì sao định nghĩa toán học của **chuyển pha** bắt buộc phải lấy giới hạn nhiệt động $$N \to \infty$$.
+
 ## 5. Hình học, tôpô và lý thuyết gauge
 
 Lý thuyết gauge cổ điển: trường gauge là **liên thông** trên một phân thớ chính; cường độ trường là độ cong; trường vật chất là lát cắt của phân thớ liên kết. Để có trực giác hình học, hãy nghĩ tới việc bạn cầm một mũi tên đi dọc một tam giác trên mặt Trái Đất (từ Bắc Cực xuống Xích Đạo, đi dọc Xích Đạo $$90^\circ$$ rồi quay lại Bắc Cực) mà luôn giữ mũi tên "song song với chính nó": khi về tới nơi, mũi tên đã tự xoay đi $$90^\circ$$ vì mặt cầu có độ cong! Trong lý thuyết gauge, pha lượng tử của hạt đi qua vùng có từ trường cũng bị xoay một góc y hệt như vậy (hiệu ứng Aharonov–Bohm): **từ trường chính là độ cong của không gian pha nội tại**. Lý thuyết Chern–Weil nối lớp đặc trưng với các dạng độ cong; tôpô ràng buộc vật lý (đơn cực từ, số instanton).

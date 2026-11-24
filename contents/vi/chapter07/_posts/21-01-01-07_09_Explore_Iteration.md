@@ -13,6 +13,8 @@ Hãy chọn một số nguyên dương bất kỳ. Nếu nó chẵn, hãy chia �
 
 Chào mừng bạn đến với **bài thực hành chính** của Chương 7. Nhiệm vụ của bạn **không phải** là chứng minh giả thuyết Collatz. Thay vào đó, bạn sẽ bước vào xưởng thực nghiệm với một câu hỏi mở lớn: *Điều gì xảy ra khi ta lặp đi lặp lại một quy tắc tất định đơn giản?* Bạn sẽ **thiết kế thí nghiệm**, **viết nhật ký nghiên cứu có ngày tháng**, và **báo cáo trung thực** tất cả những gì mình khám phá được — kể cả những giả thuyết bị bác bỏ, những lần tràn số hay lỗi mã nguồn, và những ranh giới mà máy tính mạnh nhất cũng không thể vượt qua.
 
+**Mạch bài học:** Bản đồ kiến thức nền (hệ động lực rời rạc, xung đột cộng–nhân & xác suất logarit) → Quy tắc Collatz & thời gian dừng → Khung giải thích chậm: tính tay độ trôi logarit $$\log(3/4)$$ và cây ngược Collatz → Kết quả Tao (2019) & kiểm tra GPU → Hồ sơ thí nghiệm, nhật ký & báo cáo.
+
 **Bài liên quan.** [Collatz (Chương 1)]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/) · [Hỗn độn]({{ site.baseurl }}/contents/vi/chapter04/04_05_Chaos/) · [Giả thuyết Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) (kiểm tra bằng máy tính khác với chứng minh).
 
 ---
@@ -33,12 +35,19 @@ Chào mừng bạn đến với **bài thực hành chính** của Chương 7. N
 
 ## Bản đồ kiến thức nền: Hệ động lực rời rạc và Lý thuyết số thực nghiệm là gì, nghiên cứu những gì?
 
-Tại sao một phép toán chỉ dùng phép nhân 3, cộng 1 và chia 2 lại thách thức cả nền toán học hiện đại? Bởi vì nó nằm đúng giao điểm khó nhằn nhất giữa hai lĩnh vực:
+Tại sao một phép toán chỉ dùng phép nhân 3, cộng 1 và chia 2 lại thách thức cả nền toán học hiện đại? Bởi vì nó nằm đúng giao điểm khó nhằn nhất giữa ba lĩnh vực:
 
-1. **Hệ động lực rời rạc (Discrete Dynamical Systems):** Ngành này nghiên cứu quỹ đạo $$x, f(x), f(f(x)), \dots$$ khi áp dụng lặp đi lặp lại một hàm $$f$$. Các câu hỏi trung tâm luôn là: *Quỹ đạo có tiến ra vô cùng không? Có bị hút vào một điểm cố định hay chu trình tuần hoàn không? Và hai điểm xuất phát rất gần nhau (như $$26$$ và $$27$$) có tách xa nhau hỗn loạn không?* Khi $$f$$ tác động lên số thực (như ánh xạ logistic $$x \mapsto rx(1-x)$$ hay phương pháp Newton), ta có giải tích và đạo hàm để nghiên cứu. Nhưng khi $$f$$ tác động lên **số nguyên** như ánh xạ Collatz, ta bước vào lãnh địa của **động lực số học (arithmetic dynamics)** — nơi không có đạo hàm liên tục thông thường!
-2. **Xung đột giữa cấu trúc cộng và cấu trúc nhân:** Phép chia $$n/2$$ hoàn toàn tôn trọng phân tích thừa số nguyên tố (nó chỉ xóa đi chữ số `0` ở cuối biểu diễn nhị phân). Ngược lại, phép $$3n+1$$ lại cộng thêm $$1$$ — hành động tưởng nhỏ bé này **xáo trộn toàn bộ cấu trúc nhân** của số $$n$$ theo cách cực kỳ khó lần theo. Chính sự giằng co giữa phép cộng và phép nhân là lý do nhiều bài toán số học kinh điển (như giả thuyết Goldbach, giả thuyết abc, và Collatz) vẫn còn bỏ ngỏ.
+### 1. Hệ động lực rời rạc và Động lực số học (Arithmetic Dynamics)
 
-Một phép tính nhẩm trực giác cho thấy vì sao các quỹ đạo *có vẻ* sẽ giảm: xuất phát từ một số lẻ $$n$$, ta biến nó thành $$3n+1$$ (chắc chắn chẵn). Nếu giả sử số chẵn này "ngẫu nhiên" chia hết cho $$2$$ đúng $$k$$ lần (với xác suất $$2^{-k}$$), thì trung bình ta chia cho $$2$$ đúng $$2$$ lần (tức chia cho $$4$$). Sau một chu kỳ lẻ→lẻ, số mới có kích thước cỡ $$\frac{3}{4}n < n$$ — mỗi bước giảm khoảng $$25\%$$ theo trung bình hình học! Thế nhưng đó mới chỉ là **lập luận gần đúng**: chưa ai loại trừ được khả năng tồn tại một số nguyên khổng lồ nào đó "né" được quy luật trung bình để chạy mãi ra vô cùng hoặc rơi vào một chu trình kín khác $$4 \to 2 \to 1$$.
+Hệ động lực nghiên cứu quỹ đạo $$x, f(x), f(f(x)), \dots$$ khi áp dụng lặp đi lặp lại một ánh xạ $$f$$. Các câu hỏi cốt lõi luôn là: *Quỹ đạo có tiến ra vô cùng không? Có bị hút vào điểm cố định hay chu trình tuần hoàn không? Hai điểm sát nhau (như $$26$$ và $$27$$) có tách xa hỗn loạn không?* Khi $$f$$ tác động lên số thực (như ánh xạ logistic hay phương pháp Newton), ta có đạo hàm và giải tích để đo độ ổn định. Nhưng khi $$f$$ tác động lên **số nguyên** như Collatz, ta bước vào **động lực số học** — nơi không có đạo hàm liên tục thông thường!
+
+### 2. Xung đột giữa cấu trúc cộng và cấu trúc nhân của số nguyên
+
+Phép chia $$n/2$$ hoàn toàn "ngoan ngoãn" theo hệ nhị phân (nó chỉ xóa đi chữ số `0` ở cuối). Ngược lại, phép $$3n+1$$ lại cộng thêm $$1$$ — hành động tưởng nhỏ bé ấy **xáo trộn toàn bộ phân tích thừa số nguyên tố** của số $$n$$ theo cách cực kỳ khó lần theo. Chính sự xung đột cộng–nhân này cũng là gốc rễ khiến giả thuyết Goldbach và giả thuyết $$abc$$ vẫn còn mở.
+
+### 3. Lý thuyết số thực nghiệm và Mật độ logarit
+
+Trong các bài toán khó như Collatz, giới toán học vừa dùng mô phỏng máy tính quy mô lớn (tìm phản ví dụ và đo phân bố thống kê), vừa dùng **xác suất trên số nguyên** (như định lý năm 2019 của Terence Tao dùng mật độ logarit và bước đi ngẫu nhiên trên $$\mathbb{Z}_2$$) để chứng minh hành vi của "hầu hết mọi số" — ngay cả khi trường hợp "mọi số không ngoại lệ" vẫn còn vượt ngoài tầm với.
 
 ---
 
@@ -74,7 +83,35 @@ Hãy ghi rõ định nghĩa bạn dùng trong mã nguồn và trong nhật ký.
 
 ### 1.3 Vì sao bài toán khó
 
-Ánh xạ này vừa làm số nhỏ đi (chia 2) vừa làm số lớn lên ($$3n+1$$). Một lập luận gần đúng về trung bình cho thấy quỹ đạo thường giảm dần, nhưng lập luận gần đúng không phải là chứng minh. Quy tắc hoàn toàn tất định, vậy mà số liệu thời gian dừng vẫn rất thất thường. Đã có một số kết quả từng phần (về mật độ các số rơi xuống dưới chính nó, về kiểm tra đến những cận rất lớn). Khi dùng các kết quả này, hãy **trích dẫn nguồn**, không tự bịa.
+#### Khung giải thích: Tự tay tính độ trôi logarit $$\log(3/4)$$ và cấu trúc cây ngược (nên đọc chậm)
+
+Tại sao hầu hết mọi quỹ đạo Collatz đều rơi về 1, nhưng con người vẫn chưa chứng minh được cho *mọi* $$n$$? Hãy tự kiểm tra hai phép tính ngắn sau:
+
+**Ví dụ 1 — Tính kỳ vọng mức giảm sau mỗi chu kỳ lẻ → lẻ (Ánh xạ Syracuse):**
+Xuất phát từ một số lẻ $$n$$ lớn, ta tính $$3n + 1$$ (chắc chắn chẵn) rồi chia cho $$2$$ liên tiếp $$k$$ lần cho đến khi gặp số lẻ tiếp theo $$n' = \frac{3n+1}{2^k} \approx \frac{3}{2^k} n$$.
+Nếu mô hình hóa $$3n+1$$ như một số chẵn "ngẫu nhiên":
+- Xác suất nó chỉ chia hết cho $$2^1$$ (không chia hết cho 4) là $$1/2$$;
+- Xác suất nó chia hết cho đúng $$2^2 = 4$$ là $$1/4$$;
+- Tổng quát, xác suất chia hết cho đúng $$2^k$$ là $$2^{-k}$$.
+
+Hãy tính **kỳ vọng độ thay đổi logarit** $$\mathbb{E}[\log(n'/n)]$$ sau một bước lẻ → lẻ:
+$$
+\mathbb{E}\!\left[\log\frac{n'}{n}\right] \approx \sum_{k=1}^{\infty} \frac{1}{2^k} \log\!\left(\frac{3}{2^k}\right) = \log 3 \underbrace{\sum_{k=1}^{\infty} \frac{1}{2^k}}_{=\,1} \;-\; \log 2 \underbrace{\sum_{k=1}^{\infty} \frac{k}{2^k}}_{=\,2} = \log 3 - 2\log 2 = \log\!\left(\frac{3}{4}\right) \approx -0.2877 < 0!
+$$
+(Mẹo kiểm tra nhanh $$\sum_{k=1}^\infty k/2^k = 2$$: đặt $$S = \frac{1}{2} + \frac{2}{4} + \frac{3}{8} + \dots$$, thì $$2S - S = 1 + \frac{1}{2} + \frac{1}{4} + \dots = 2$$.)
+Dấu **âm** ($$-0.2877$$) cho thấy theo trung bình hình học, mỗi chu kỳ lẻ → lẻ làm số $$n$$ thu nhỏ đi khoảng **$$3/4$$ lần**! Nhưng hãy nhớ đây chỉ là **lập luận gần đúng**: ta *giả sử* số dư theo lũy thừa của 2 là độc lập ở mỗi bước — điều chưa ai chứng minh được cho mọi quỹ đạo!
+
+**Ví dụ 2 — Dựng bằng tay 6 tầng đầu của cây ngược Collatz:**
+Đi ngược từ $$1$$: mọi số $$m$$ luôn có tiền ảnh $$2m$$; ngoài ra nếu $$m \equiv 4 \pmod 6$$ (tức $$m-1$$ chia hết cho 3 và kết quả là số lẻ) thì $$m$$ còn có tiền ảnh lẻ là $$(m-1)/3$$:
+- Tầng 0: $$1$$
+- Tầng 1: $$2$$
+- Tầng 2: $$4$$ (chú ý $$4 \equiv 4 \pmod 6$$ nhưng cho tiền ảnh $$1$$ là chu trình cũ)
+- Tầng 3: $$8$$
+- Tầng 4: $$16$$ (vì $$16 \equiv 4 \pmod 6$$, **nhánh rẽ đầu tiên xuất hiện!**)
+- Tầng 5: $$32$$ và $$(16-1)/3 = \mathbf{5}$$
+- Tầng 6: từ $$32 \to 64$$; từ $$5 \to 10$$ (vì $$10 \equiv 4 \pmod 6$$ nên tầng 7 lại tách thêm $$3$$!).
+
+Giả thuyết Collatz tương đương với câu hỏi: *liệu cái cây ngược mọc từ gốc $$1$$ này có chứa trọn vẹn mọi số nguyên dương không?*
 
 **Những điểm cần nắm khi viết hồ sơ (rút ra từ tư liệu video và nghiên cứu).**
 

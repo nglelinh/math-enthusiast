@@ -104,6 +104,39 @@ Giải thích chặt chẽ khoảng cách giữa lý thuyết lồi cổ điển
 
 ---
 
+### Khung giải thích: chạy tay một bước lan truyền tiến và backpropagation (nên đọc chậm)
+
+Nhiều người thấy backpropagation giống như một "hộp đen" trong PyTorch. Thực chất, nó chỉ là quy tắc đạo hàm hàm hợp (chain rule) trên từng con số cụ thể. Hãy tự kiểm tra toàn bộ vòng lặp học trên một mạng 2 lớp tí hon với **đầu vào** $$x = egin{pmatrix}1\-2\end{pmatrix}$$, **nhãn thật** $$y = 4$$, và hàm kích hoạt $$\mathrm{ReLU}(z) = \max(0, z)$$.
+
+Cho trọng số ban đầu:
+
+$$
+W_1 = egin{pmatrix} 1 & -1 \ 2 & 1 \end{pmatrix}, \qquad
+b_1 = egin{pmatrix} 0 \ 1 \end{pmatrix}, \qquad
+w_2 = egin{pmatrix} 1 & -1 \end{pmatrix}, \qquad
+b_2 = 0.
+$$
+
+1. **Lan truyền tiến (Forward pass):**
+   - Lớp ẩn trước kích hoạt: $$z_1 = W_1 x + b_1 = egin{pmatrix}1(1) + (-1)(-2) + 0 \ 2(1) + 1(-2) + 1\end{pmatrix} = egin{pmatrix}3 \ 1\end{pmatrix}$$.
+   - Sau ReLU (vì cả 3 và 1 đều dương nên giữ nguyên): $$h = \mathrm{ReLU}(z_1) = egin{pmatrix}3 \ 1\end{pmatrix}$$.
+   - Dự đoán đầu ra: $$\hat y = w_2 h + b_2 = 1(3) + (-1)(1) + 0 = 2$$.
+   - Hàm mất mát bình phương: $$\ell = rac{1}{2}(\hat y - y)^2 = rac{1}{2}(2 - 4)^2 = 2$$.
+
+2. **Lan truyền ngược (Backpropagation — đi từ phải sang trái):**
+   - Đạo hàm theo đầu ra: $$rac{\partial \ell}{\partial \hat y} = \hat y - y = 2 - 4 = -2$$.
+   - Đạo hàm theo lớp cuối $$w_2$$: $$rac{\partial \ell}{\partial w_2} = rac{\partial \ell}{\partial \hat y}\, h^	op = (-2)egin{pmatrix}3 & 1\end{pmatrix} = egin{pmatrix}-6 & -2\end{pmatrix}$$.
+   - Truyền tín hiệu lỗi về lớp ẩn $$h$$: $$rac{\partial \ell}{\partial h} = w_2^	op rac{\partial \ell}{\partial \hat y} = egin{pmatrix}1 \ -1\end{pmatrix}(-2) = egin{pmatrix}-2 \ 2\end{pmatrix}$$.
+   - Qua đạo hàm ReLU (vì $$z_{1,1}=3>0$$ và $$z_{1,2}=1>0$$ nên đạo hàm đều bằng $$1$$): $$rac{\partial \ell}{\partial z_1} = egin{pmatrix}-2 \ 2\end{pmatrix}$$.
+   - Đạo hàm theo ma trận $$W_1$$:
+     $$rac{\partial \ell}{\partial W_1} = rac{\partial \ell}{\partial z_1}\, x^	op = egin{pmatrix}-2 \ 2\end{pmatrix}egin{pmatrix}1 & -2\end{pmatrix} = egin{pmatrix}-2 & 4 \ 2 & -4\end{pmatrix}.$$
+
+3. **Một bước cập nhật Gradient Descent (chỉ cập nhật $$w_2$$ với bước học $$\eta = 0.1$$ để dễ kiểm tra):**
+   - Trọng số mới: $$w_2^{	ext{mới}} = w_2 - 0.1egin{pmatrix}-6 & -2\end{pmatrix} = egin{pmatrix}1.6 & -0.8\end{pmatrix}$$.
+   - Dự đoán mới: $$\hat y^{	ext{mới}} = 1.6(3) + (-0.8)(1) = 4.0$$ — **mất mát sụp từ $$2$$ xuống đúng $$0$$ chỉ sau một bước!**
+
+Nhìn vào phép tính trên, bạn thấy ngay: backpropagation không hề có phép màu nào, nó chỉ lưu sẵn $$h$$ và $$z_1$$ từ lượt tiến để tránh tính đi tính lại đạo hàm khi mạng có hàng tỷ tham số.
+
 ## 4. Xác suất, thống kê và khả năng tổng quát hóa
 
 Dữ liệu là mẫu lấy từ một phân phối $$\mathcal{D}$$ chưa biết. **Rủi ro thật** là kỳ vọng của mất mát trên mẫu mới; **rủi ro thực nghiệm** là mất mát trung bình trên tập huấn luyện:
