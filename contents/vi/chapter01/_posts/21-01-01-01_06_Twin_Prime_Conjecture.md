@@ -10,15 +10,13 @@ categories:
 lesson_type: required
 ---
 
-**Số nguyên tố sinh đôi** là các cặp số nguyên tố cách nhau đúng 2 đơn vị: $$(3,5)$$, $$(5,7)$$, $$(11,13)$$, $$(17,19)$$, $$(29,31)$$, $$(101,103)$$, …  
+Hãy thử bước dọc theo trục số nguyên dương càng lúc càng xa. Khi bạn tiến tới những con số hàng trăm chữ số, các số nguyên tố trở nên thưa thớt đến cô quạnh — trung bình phải đi qua vài trăm số mới gặp lại một số nguyên tố mới. Ấy vậy mà kỳ lạ thay, thỉnh thoảng hai số nguyên tố vẫn xuất hiện sát rạt bên nhau, chỉ cách nhau đúng một số chẵn ở giữa: $$(3,5)$$, $$(5,7)$$, $$(11,13)$$, $$(17,19)$$, $$(29,31)$$, $$(101,103)$$, và thậm chí ở tận những con số khổng lồ có gần 400.000 chữ số! Những cặp đứng cạnh nhau như thế được gọi là **số nguyên tố sinh đôi**, và **Giả thuyết số nguyên tố sinh đôi** đặt một câu hỏi tưởng như trẻ con: *liệu những cặp bạn đồng hành ấy có xuất hiện mãi mãi đến vô cùng không?*
 
-**Giả thuyết số nguyên tố sinh đôi** khẳng định có **vô hạn** cặp như vậy.
+Dù không nằm trong danh sách triệu đô của Viện Clay, đây là một trong những câu hỏi mở nổi tiếng và quyến rũ nhất của lý thuyết số. Mùa xuân năm 2013, cả thế giới toán học chấn động khi Yitang Zhang — một giảng viên ít tên tuổi khi ấy ở Đại học New Hampshire — bất ngờ gửi một bài báo phá vỡ bức tường tồn tại hàng thế kỷ: ông chứng minh được rằng tồn tại một khoảng cách chẵn *hữu hạn* (dưới 70 triệu) xuất hiện vô hạn lần giữa hai số nguyên tố liên tiếp. Chỉ trong vòng một năm sau đó, James Maynard, Terence Tao và dự án cộng tác mở Polymath đã kéo kỷ lục ấy rơi thẳng từ 70 triệu xuống còn **246**!
 
-Đây không phải bài toán Thiên niên kỷ, nhưng là một trong những câu hỏi mở nổi tiếng nhất của lý thuyết số, và là nơi có những tiến bộ ấn tượng trong thập niên 2010 về **khoảng cách bị chặn** giữa các số nguyên tố liên tiếp. Zhang (2013), Maynard và dự án Polymath đã chứng minh rằng có *một* khoảng cách chẵn bị chặn xuất hiện vô hạn lần; còn **khoảng cách đúng bằng 2** thì vẫn chưa chứng minh được.
+Thế nhưng bước nhảy cuối cùng — từ **246** xuống đúng **2** — vẫn đang chắn trước mặt nhân loại như một vách đá dựng đứng. Bài này sẽ giúp bạn phát biểu giả thuyết thật chuẩn xác, hiểu trực giác xác suất của Hardy–Littlewood, thấy rõ vì sao phương pháp sàng hiện đại bị kẹt ở "rào cản chẵn lẻ", và phân biệt rạch ròi giữa "khoảng cách bị chặn" đã được chứng minh với "sinh đôi" vẫn còn mở.
 
-Bài này giúp bạn phát biểu giả thuyết cho chính xác, hiểu lập luận gần đúng của Hardy–Littlewood, phân biệt "khoảng cách bị chặn" với "sinh đôi", và kể lại câu chuyện về phương pháp sàng mà không ngộ nhận rằng giả thuyết đã được giải.
-
-**Nội dung bài:** phát biểu → lập luận gần đúng → rào cản của phương pháp sàng → Zhang, Maynard, Polymath → những gì còn mở → toán học xung quanh → hiểu lầm thường gặp.
+**Mạch bài học:** phát biểu → lập luận gần đúng → rào cản của phương pháp sàng → Zhang, Maynard, Polymath → những gì còn mở → toán học xung quanh → hiểu lầm thường gặp.
 
 ---
 
@@ -32,11 +30,26 @@ Sau bài học, bạn có thể:
 - Kể về **Zhang (2013)** và **Maynard** (cùng các cải tiến của Polymath); cận không điều kiện thường được nêu trong khóa học là **$$H=246$$**.
 - Giải thích vì sao khoảng cách 2 vẫn nằm ngoài khả năng của các phương pháp sàng hiện nay (vấn đề chẵn lẻ, ở mức ý tưởng).
 - Liên hệ cấu trúc chi tiết của số nguyên tố với bài [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) và bài [Maynard]({{ site.baseurl }}/contents/vi/chapter02/02_09_Maynard_Primes/).
-- Tránh lỗi (mục tiêu 6): "Zhang đã chứng minh giả thuyết sinh đôi."
+- Tránh lỗi phổ biến như "Zhang đã chứng minh giả thuyết sinh đôi".
 
 **Kiến thức cần có.** Số nguyên tố; đồng dư cơ bản. Biết rằng mật độ của số nguyên tố gần $$x$$ vào khoảng $$1/\log x$$ sẽ giúp hiểu lập luận gần đúng.
 
-**Liên hệ với khóa học.** **Mục tiêu 1**; [Maynard / Giải Fields]({{ site.baseurl }}/contents/vi/chapter02/02_09_Maynard_Primes/); [Euclid và vô hạn số nguyên tố]({{ site.baseurl }}/contents/vi/chapter05/05_02_Euclid_Infinite_Primes/); [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/).
+**Kết nối trong khóa học.** Bạn nên đọc kèm [Maynard / Giải Fields]({{ site.baseurl }}/contents/vi/chapter02/02_09_Maynard_Primes/), [Euclid và vô hạn số nguyên tố]({{ site.baseurl }}/contents/vi/chapter05/05_02_Euclid_Infinite_Primes/) và [Giả thuyết Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/).
+
+---
+
+## Bản đồ kiến thức nền: Lý thuyết sàng và Lý thuyết số cộng tính là gì?
+
+Vì sao những câu hỏi trông cực kỳ đơn giản như số nguyên tố sinh đôi ($$p$$ và $$p+2$$) hay giả thuyết Goldbach (mọi số chẵn $$>2$$ là tổng hai số nguyên tố) lại khó hơn nhiều so với Định lý số nguyên tố? Bí mật nằm ở **cuộc xung đột giữa phép nhân và phép cộng**:
+
+- Số nguyên tố được định nghĩa hoàn toàn bằng **phép nhân** (không chia hết cho số nào ngoài 1 và chính nó).
+- Nhưng cặp sinh đôi $$(p, p+2)$$ lại nối hai số nguyên tố bằng **phép cộng** ($$+2$$)! Khi bạn cộng 2 vào một số nguyên tố $$p$$, cấu trúc thừa số nguyên tố của $$p+2$$ thay đổi hỗn loạn hoàn toàn.
+
+Để tấn công vùng giao thoa khó chịu đó, hai nhánh lớn của lý thuyết số đã phát triển:
+
+- **Lý thuyết sàng (Sieve Theory):** Bạn chắc hẳn từng học *Sàng Eratosthenes* thời tiểu học: viết các số từ $$2$$ đến $$N$$, gạch bỏ bội của 2, rồi bội của 3, bội của 5... những số còn sót lại là số nguyên tố. Lý thuyết sàng hiện đại biến trò gạch số đơn giản ấy thành một cỗ máy giải tích tinh vi: thay vì gạch từng số bằng tay, ta gán các **trọng số mượt mà** (như sàng Selberg hay sàng đa chiều Maynard) và dùng nguyên lý bù trừ để *ước lượng* có ít nhất bao nhiêu số nguyên tố (hoặc số có rất ít ước nguyên tố) lọt qua lưới lọc.
+- **Lý thuyết số cộng tính (Additive Number Theory):** Nghiên cứu cấu trúc cộng của các tập hợp số nguyên — như cấp số cộng trong tập số nguyên tố (định lý Green–Tao), biểu diễn số thành tổng các số nguyên tố (Goldbach) hay tổng các lũy thừa (bài toán Waring).
+- **Câu hỏi lớn và ứng dụng:** Lý thuyết sàng và lý thuyết số cộng tính giúp ta hiểu mức độ ngẫu nhiên và tính cấu trúc sâu của số học rời rạc, đồng thời đóng vai trò trực tiếp trong các thuật toán phân tích thừa số nguyên tố (như Sàng trường số — Number Field Sieve — nền tảng đánh giá độ an toàn của mật mã RSA).
 
 ---
 
@@ -46,9 +59,9 @@ Sau bài học, bạn có thể:
 
 Nói cách khác: phương trình $$p'-p=2$$ có vô hạn nghiệm trong tập số nguyên tố.
 
-Giả thuyết tổng quát hơn của **Polignac** dự đoán rằng mọi khoảng cách chẵn cố định $$2k$$ đều xuất hiện vô hạn lần giữa các cặp số nguyên tố. Sinh đôi là trường hợp $$k=1$$, khoảng cách chẵn nhỏ nhất có thể (hai số nguyên tố lẻ luôn cách nhau một số chẵn; khoảng cách lẻ chỉ xuất hiện ở cặp có chứa số 2).
+Giả thuyết tổng quát hơn của **Polignac** dự đoán rằng mọi khoảng cách chẵn cố định $$2k$$ đều xuất hiện vô hạn lần giữa các cặp số nguyên tố. Sinh đôi là trường hợp $$k=1$$, khoảng cách chẵn nhỏ nhất có thể (hai số nguyên tố lẻ luôn cách nhau một số chẵn; khoảng cách lẻ chỉ xuất hiện duy nhất ở cặp $$(2,3)$$ vì 2 là số nguyên tố chẵn duy nhất).
 
-**Euclid đã biết có vô hạn số nguyên tố**; chứng minh cổ điển xét $$N=P!+1$$ hoặc $$N=p_1\cdots p_k+1$$ để buộc phải có một số nguyên tố mới. Lập luận đó **không** tạo ra được cặp cách nhau 2. Có vô hạn "điểm" không tự động cho vô hạn "cặp điểm gần nhau".
+**Euclid đã biết có vô hạn số nguyên tố**; chứng minh cổ điển xét $$N=p_1\cdots p_k+1$$ để buộc phải có một số nguyên tố mới không nằm trong danh sách hữu hạn ban đầu. Lập luận đó **không** tạo ra được cặp cách nhau 2. Có vô hạn "điểm" trên trục số không hề tự động kéo theo có vô hạn "cặp điểm sát nhau" — chẳng hạn tập các lũy thừa của 2 ($$2, 4, 8, 16, \ldots$$) có vô hạn phần tử nhưng khoảng cách giữa chúng lớn dần ra vô cùng!
 
 ---
 
@@ -68,54 +81,70 @@ Lưới đánh dấu 8 cặp số nguyên tố sinh đôi dưới 100. Biểu đ
 
 ## 2. Lập luận gần đúng: vì sao người ta tin
 
-Số nguyên tố thưa dần với mật độ khoảng $$1/\log x$$ (định lý số nguyên tố). Theo lập luận gần đúng, xác suất để cả $$n$$ và $$n+2$$ đều là số nguyên tố vào cỡ $$1/(\log n)^2$$ (sau khi điều chỉnh hệ số theo các ràng buộc đồng dư với các số nguyên tố nhỏ, như Hardy–Littlewood đã làm). Chuỗi
+Theo Định lý số nguyên tố, quanh vị trí $$n$$, xác suất "ngẫu nhiên" để một số là nguyên tố vào khoảng $$1/\log n$$. Nếu $$n$$ và $$n+2$$ hoàn toàn độc lập với nhau như hai lần tung xúc xắc, xác suất để *cả hai* cùng là số nguyên tố sẽ là $$1/(\log n)^2$$.
+
+Nhưng chúng **không** độc lập! Hãy xem điều gì xảy ra với các số nguyên tố nhỏ:
+- **Modulo 2:** Nếu $$n$$ lẻ (không chia hết cho 2, xác suất $$1/2$$), thì $$n+2$$ *chắc chắn* cũng lẻ (xác suất có điều kiện là $$1$$ thay vì $$1/2$$!). So với mô hình độc lập $$(1/2 \times 1/2 = 1/4)$$, xác suất thực tế $$1/2$$ **cao gấp đôi**!
+- **Modulo 3:** Để cả $$n$$ và $$n+2$$ không chia hết cho 3, $$n$$ chỉ được phép rơi vào đúng **1** lớp đồng dư là $$n \equiv 2 \pmod 3$$ (xác suất $$1/3$$), thay vì $$\frac{2}{3}\times\frac{2}{3} = \frac{4}{9}$$ nếu độc lập. Hệ số hiệu chỉnh tại $$p=3$$ là $$\frac{1/3}{4/9} = \frac{3}{4}$$.
+- **Tổng quát với mọi số nguyên tố lẻ $$p$$:** Hệ số hiệu chỉnh là $$\frac{p(p-2)}{(p-1)^2}$$.
+
+Nhân tất cả các hệ số hiệu chỉnh địa phương ấy lại, Hardy và Littlewood thu được **hằng số số nguyên tố sinh đôi** $$2C_2 = 2\prod_{p\ge 3}\frac{p(p-2)}{(p-1)^2} \approx 1.32032$$, và dự đoán số cặp sinh đôi không vượt quá $$x$$ xấp xỉ:
 
 $$
-\sum_n \frac{1}{(\log n)^2}
+\pi_2(x) \sim 2C_2 \int_2^x \frac{dt}{(\log t)^2}.
 $$
 
-**phân kỳ**, nên người ta kỳ vọng có vô hạn cặp sinh đôi; dáng điệu tiệm cận chính xác hơn được dự đoán qua **hằng số số nguyên tố sinh đôi** trong giả thuyết Hardy–Littlewood về các bộ số nguyên tố.
+Vì chuỗi $$\sum_n \frac{1}{(\log n)^2}$$ **phân kỳ** ra vô cùng, mô hình dự đoán có vô hạn cặp sinh đôi — và con số thực tế khớp đến rợn người (tại $$x = 10^6$$: có đúng $$8\,169$$ cặp thật so với dự đoán $$\approx 8\,248$$!).
 
-Lập luận gần đúng **không phải chứng minh**, nhưng nó giúp sắp xếp dữ liệu: các cặp sinh đôi vẫn tiếp tục xuất hiện khi tính đến những số rất lớn, và thưa dần đúng như dự đoán. Điều này cũng giống với việc kiểm tra không điểm của hàm zeta: bằng chứng mạnh, nhưng chưa phải định lý.
-
-**Ghi chú trực quan.** Coi "số nguyên tố là ngẫu nhiên" với mật độ $$1/\log n$$ chỉ là một mô hình; các điều kiện đồng dư (ví dụ không chia hết cho 2, 3, …) tạo ra tương quan, và hằng số số nguyên tố sinh đôi điều chỉnh các tương quan đó. Bạn không cần thuộc công thức để nắm ý chính.
+Lập luận gần đúng **không phải chứng minh**, nhưng nó giúp sắp xếp dữ liệu và khẳng định rằng không có trở ngại đồng dư ẩn nào ngăn các cặp sinh đôi tiếp tục xuất hiện. Điều này giống như việc kiểm tra không điểm của hàm zeta: bằng chứng cực mạnh, nhưng chưa phải định lý.
 
 ---
 
 ## 3. Vì sao phương pháp sàng khó bắt được đúng hai số nguyên tố
 
-Phương pháp **sàng** rất giỏi tìm các **số gần nguyên tố** (số có ít thừa số nguyên tố). Nhưng để chuyển từ "gần nguyên tố" sang "cả *hai* số đều đúng là nguyên tố" thì vướng **vấn đề chẵn lẻ** (parity problem): trong một số tình huống, sàng cổ điển khó phân biệt một số có số chẵn hay số lẻ thừa số nguyên tố, trong khi giả thuyết sinh đôi đòi hỏi cả hai vị trí đều phải là số nguyên tố thật sự.
+Phương pháp **sàng** rất giỏi tìm các **số gần nguyên tố** (số có rất ít thừa số nguyên tố, gọi là số $$P_r$$ nếu có tối đa $$r$$ thừa số). Nhưng khi cố ép sàng phân biệt *đúng* số nguyên tố (1 thừa số) với tích hai số nguyên tố (2 thừa số), ta đụng phải một bức tường nổi tiếng mang tên **vấn đề chẵn lẻ (parity problem)** do Atle Selberg phát hiện vào cuối thập niên 1940.
 
-Vì vậy, sàng cổ điển cho các kết quả kiểu **định lý Chen**: có vô hạn số nguyên tố $$p$$ sao cho $$p+2$$ là số nguyên tố *hoặc* tích của hai số nguyên tố. Kết quả này rất gần, nhưng vẫn chưa phải giả thuyết sinh đôi.
+**Trực giác của vấn đề chẵn lẻ:** Một bộ sàng chỉ dùng thông tin "chia hết cho các số nguyên tố nhỏ" giống như một chiếc cân chỉ đo được tổng trọng lượng mà không phân biệt được chẵn hay lẻ số quả cân bên trong. Nói cụ thể hơn, bằng các công cụ sàng cổ điển, ta rất khó tách bạch tập các số có *số lẻ* thừa số nguyên tố (như số nguyên tố $$p$$, hay $$p_1 p_2 p_3$$) với tập các số có *số chẵn* thừa số nguyên tố (như tích hai số nguyên tố $$q_1 q_2$$).
 
-Điều cần nhớ: **gần nguyên tố không phải là nguyên tố**; khoảng cách giữa "gần như" và "đúng là" có thể đòi hỏi cả một thời kỳ phát triển kỹ thuật.
+Vì vậy, đỉnh cao mà sàng cổ điển chạm tới được là **định lý Chen (1966/1973)**: có vô hạn số nguyên tố $$p$$ sao cho $$p+2$$ là số nguyên tố *hoặc* tích của đúng hai số nguyên tố (ví dụ $$7 + 2 = 9 = 3 \times 3$$, hay $$13 + 2 = 15 = 3 \times 5$$). Kết quả này sát nút giả thuyết sinh đôi một cách đáng kinh ngạc, nhưng vẫn chưa gỡ bỏ được khả năng tích hai số nguyên tố!
+
+Điều cần nhớ: **gần nguyên tố không phải là nguyên tố**; khoảng cách giữa "1 hoặc 2 thừa số" và "đúng 1 thừa số" có thể đòi hỏi cả một kỷ nguyên công cụ mới.
 
 ---
 
 ## 4. Khoảng cách bị chặn: Zhang, Maynard, Polymath
 
-Năm **2013**, **Yitang Zhang** chứng minh
+Nếu không thể chứng minh ngay $$p_{n+1} - p_n = 2$$ xảy ra vô hạn lần, các nhà toán học đặt câu hỏi lùi lại một bước nhưng vẫn vô cùng táo bạo: *có tồn tại một con số hữu hạn $$H$$ nào đó — dù là một triệu hay một tỷ — sao cho $$p_{n+1} - p_n \le H$$ xảy ra vô hạn lần không?*
+
+**Vì sao họ lại nghĩ ra "bộ chấp nhận được" (admissible tuples)?**
+Thay vì chỉ nhìn vào đúng 2 vị trí $$(n, n+2)$$, hãy nhìn vào một "chùm" $$k$$ vị trí dịch chuyển $$\{n + h_1, n + h_2, \ldots, n + h_k\}$$. Điều kiện tối thiểu để cả $$k$$ vị trí có cơ hội đồng thời là số nguyên tố là tập $$\{h_1, \ldots, h_k\}$$ không được phủ kín mọi lớp đồng dư modulo bất kỳ số nguyên tố $$p$$ nào (gọi là **bộ chấp nhận được**).
+- Ví dụ **không** chấp nhận được: $$\{n, n+2, n+4\}$$. Vì theo modulo 3, ba số này chia dư lần lượt là $$0, 1, 2$$ — luôn có ít nhất một số chia hết cho 3! Nên ngoài bộ $$(3, 5, 7)$$, không bao giờ có thêm bộ ba nguyên tố nào dạng này.
+- Ví dụ **chấp nhận được**: $$\{n, n+2, n+6\}$$. Theo modulo 3, $$h = 0, 2, 6 \equiv 0, 2, 0 \pmod 3$$, bỏ trống lớp dư 1 (nên khi $$n \equiv 2 \pmod 3$$ thì không số nào chia hết cho 3, như $$(5, 7, 11)$$ hay $$(11, 13, 17)$$).
+
+Ý tưởng của **Goldston–Pintz–Yıldırım (GPY, 2005)** là: nếu chọn một chùm chấp nhận được đủ lớn gồm $$k$$ số, thay vì đòi *tất cả* $$k$$ số đều nguyên tố, ta chỉ cần sàng chứng minh **ít nhất 2 số trong chùm** là nguyên tố — thế là hai số đó cách nhau không quá đường kính $$H = h_k - h_1$$ của chùm! Làm vậy giúp "lách" qua rào cản chẵn lẻ mà vẫn thu được khoảng cách hữu hạn!
+
+Năm **2013**, **Yitang Zhang** đã vượt qua nút thắt cuối cùng của GPY và chứng minh:
 
 $$
 \liminf_{n\to\infty}(p_{n+1}-p_n) < 70{,}000{,}000.
 $$
 
-Nghĩa là: trong các khoảng cách giữa hai số nguyên tố liên tiếp, có một khoảng cách nhỏ hơn bảy mươi triệu xuất hiện **vô hạn lần**. Con số lớn, nhưng **hữu hạn**; đây là định lý đầu tiên thuộc loại này. Trước Zhang, người ta chỉ biết khoảng cách trung bình tăng như $$\log n$$, và chưa biết liminf của khoảng cách giữa hai số nguyên tố liên tiếp có hữu hạn hay không; về nguyên tắc, các số nguyên tố có thể ngày càng xa nhau theo nghĩa liminf.
+Nghĩa là có một khoảng cách chẵn nhỏ hơn bảy mươi triệu xuất hiện **vô hạn lần** giữa hai số nguyên tố liên tiếp. Trước Zhang, người ta thậm chí chưa chứng minh được giới hạn dưới này hữu hạn — về mặt lý thuyết thuần túy, khoảng cách giữa các số nguyên tố liên tiếp có thể tăng ra vô cùng!
 
-Phương pháp của Zhang dựa trên ý tưởng của **Goldston–Pintz–Yıldırım (GPY)** về việc tìm số nguyên tố trong các bộ dạng tuyến tính chấp nhận được, kết hợp với các ước lượng tinh tế về phân bố trung bình của số nguyên tố trong cấp số cộng. Điểm đột phá của Zhang là chứng minh được mức phân bố đủ dùng mà không cần đến giả thuyết mạnh nhất.
+Điểm đột phá của Zhang là chứng minh được một phiên bản tinh tế về mức phân bố trung bình của số nguyên tố trong cấp số cộng (vượt nhẹ qua ngưỡng $$1/2$$ của định lý Bombieri–Vinogradov cho các môđun "trơn").
 
-Các cải tiến nhanh chóng theo sau:
+Ngay lập tức, một làn sóng cải tiến ngoạn mục bùng nổ:
 
-- **Polymath** (Polymath8) tối ưu cách tiếp cận của Zhang, giảm mạnh cận nhờ sự cộng tác của cả cộng đồng.  
-- **James Maynard** (và độc lập, các ý tưởng liên quan của Tao) đưa ra **trọng số sàng nhiều chiều** linh hoạt hơn, cho phép đặt trọng số đồng thời lên nhiều dạng tuyến tính một cách hiệu quả hơn. Khung của Maynard thường làm các kết quả về khoảng cách vừa đơn giản hơn vừa mạnh hơn, và mở rộng sang các cấu trúc số nguyên tố phong phú hơn.
+- **Polymath (Polymath8):** dự án cộng tác mở do Terence Tao khởi xướng trên blog đã tối ưu hóa từng chi tiết trong chứng minh của Zhang, kéo cận từ 70 triệu xuống chỉ còn 4.680.
+- **James Maynard** (và độc lập là **Terence Tao**) phát minh ra **trọng số sàng nhiều chiều** linh hoạt và gọn nhẹ hơn hẳn GPY — cho phép đặt trọng số riêng cho từng biến trong chùm $$k$$ số. Không những chỉ cần định lý Bombieri–Vinogradov cổ điển (không cần bước ước lượng nặng của Zhang), phương pháp Maynard còn chứng minh được có vô hạn cụm gồm $$m$$ số nguyên tố (3 số, 4 số, 100 số...) nằm trong một khoảng bị chặn!
 
-Sau các bước tối ưu, cận không điều kiện
+Sau các bước tối ưu của Polymath8b, cận không điều kiện
 
 $$
 \liminf_{n\to\infty}(p_{n+1}-p_n)\le H
 $$
 
-hiện đứng ở **$$H=246$$** theo các tài liệu chuẩn về kết quả của Maynard–Polymath (đây là mốc tham chiếu cho khóa học; tài liệu kỹ thuật có thể có tinh chỉnh, nên hãy trích dẫn bài tổng quan khi viết bài A3). Nếu giả sử giả thuyết mạnh kiểu **Elliott–Halberstam** về phân bố số nguyên tố trong cấp số cộng, phương pháp có thể đưa khoảng cách xuống một số chẵn có một chữ số (ví dụ 6). Nhưng để **đạt $$H=2$$**, tức là giả thuyết sinh đôi thật sự, có vẻ cần những ý tưởng vượt ra ngoài các mô hình sàng hiện nay. **Rào cản chẵn lẻ** là cách nói thường dùng để giải thích vì sao số 2 đặc biệt khó.
+hiện đứng ở **$$H=246$$** (ứng với một bộ chấp nhận được gồm $$k=50$$ vị trí có đường kính 246). Nếu giả sử giả thuyết mạnh **Elliott–Halberstam** về phân bố số nguyên tố trong cấp số cộng, phương pháp Maynard–Polymath kéo được $$H$$ xuống tận **6**. Nhưng để **đạt $$H=2$$** (chỉ còn đúng $$k=2$$ vị trí), ngay cả khi giả sử Elliott–Halberstam, trọng số sàng hiện tại vẫn bất lực trước **rào cản chẵn lẻ**.
 
 Các công trình của Maynard về khoảng cách nhỏ, khoảng cách lớn và phương pháp sàng là một phần lý do ông nhận **Huy chương Fields năm 2022**. Xem bài [Maynard]({{ site.baseurl }}/contents/vi/chapter02/02_09_Maynard_Primes/).
 
@@ -134,7 +163,7 @@ Các công trình của Maynard về khoảng cách nhỏ, khoảng cách lớn 
 | Công thức tiệm cận Hardy–Littlewood cho số cặp sinh đôi | **Còn mở** (giả thuyết) |
 | Giả thuyết Polignac cho mọi $$2k$$ | **Còn mở** (sinh đôi là trường hợp $$k=1$$) |
 
-**Khoảng cách bị chặn** cho thấy số nguyên tố tạo thành các cụm gần nhau vô hạn lần. **Giả thuyết sinh đôi** đòi hỏi cụm chặt nhất có thể. Từ 246 xuống 2 trông có vẻ nhỏ nếu chỉ nhìn con số, nhưng rất lớn nếu xét rào cản về phương pháp. Đừng gộp hai dòng này khi thảo luận hay khi viết bài A3.
+**Khoảng cách bị chặn** cho thấy số nguyên tố tạo thành các cụm gần nhau vô hạn lần. **Giả thuyết sinh đôi** đòi hỏi cụm chặt nhất có thể. Từ 246 xuống 2 trông có vẻ nhỏ nếu chỉ nhìn con số, nhưng là cả một vực sâu về phương pháp. Đừng gộp hai dòng này khi thảo luận hay khi viết bài A3.
 
 ---
 
@@ -142,7 +171,7 @@ Các công trình của Maynard về khoảng cách nhỏ, khoảng cách lớn 
 
 - **Lý thuyết sàng:** sàng Selberg, sàng tổ hợp, GPY, trọng số Maynard.  
 - **Số nguyên tố trong cấp số cộng:** định lý Bombieri–Vinogradov (về trung bình, mạnh ngang GRH); giả thuyết Elliott–Halberstam (phân bố mạnh hơn).  
-- **Bộ chấp nhận được** và bài toán tối ưu đường kính (bộ có thể hẹp đến đâu mà vẫn chấp nhận được?).  
+- **Bộ chấp nhận được** và bài toán tối ưu đường kính (bộ $$k$$ phần tử có thể hẹp đến đâu mà vẫn chấp nhận được?).  
 - **Lý thuyết số tính toán:** tìm các cặp sinh đôi lớn; so sánh lập luận gần đúng với dữ liệu.
 
 Không cần thành thạo các công cụ này mới phát biểu đúng được giả thuyết, nhưng biết tên chúng giúp tránh ảo tưởng rằng "chỉ cần thử chia đến $$N$$ lớn".
@@ -155,7 +184,7 @@ Có thể làm toán "xung quanh" giả thuyết sinh đôi cả đời (sàng, 
 
 **Giả thuyết de Polignac:** mọi số chẵn dương $$2k$$ đều xuất hiện vô hạn lần dưới dạng hiệu của hai số nguyên tố. Sinh đôi là trường hợp $$k=1$$. Các định lý về khoảng cách bị chặn cho thấy *ít nhất một* hiệu chẵn trong một tập chấp nhận được hữu hạn xuất hiện vô hạn lần, nhưng chưa xác định được hiệu đó bằng 2.
 
-**Bộ số nguyên tố.** Tổng quát hơn: xét bộ $$n+h_1,\ldots,n+h_m$$ đồng thời là số nguyên tố, với các độ dịch $$h_i$$ chấp nhận được (chấp nhận được nghĩa là các độ dịch không phủ hết mọi lớp thặng dư modulo một số nguyên tố nhỏ nào). Hardy–Littlewood dự đoán công thức tiệm cận cho số bộ như vậy. Định lý Green–Tao (có cấp số cộng dài tùy ý gồm toàn số nguyên tố) là một thành công khác, dựa nhiều vào tổ hợp cộng tính hơn là sàng thuần túy, nhưng cùng thuộc chủ đề "số nguyên tố chứa nhiều cấu trúc phong phú".
+**Bộ số nguyên tố.** Tổng quát hơn: xét bộ $$n+h_1,\ldots,n+h_m$$ đồng thời là số nguyên tố, với các độ dịch $$h_i$$ chấp nhận được (không phủ hết mọi lớp thặng dư modulo một số nguyên tố nhỏ nào). Hardy–Littlewood dự đoán công thức tiệm cận cho số bộ như vậy. Định lý Green–Tao (có cấp số cộng dài tùy ý gồm toàn số nguyên tố) là một thành công rực rỡ khác, dựa nhiều vào tổ hợp cộng tính hơn là sàng thuần túy, nhưng cùng thuộc chủ đề "số nguyên tố chứa nhiều cấu trúc phong phú".
 
 **Bài thực hành nhẹ (không bắt buộc):** đếm số cặp sinh đôi đến $$N$$ và so sánh với
 
@@ -185,9 +214,9 @@ $$
 1. Liệt kê năm cặp sinh đôi lớn hơn 100.  
 2. Vì sao $$(2,4)$$ không phải cặp sinh đôi? Còn $$(2,3)$$ thì sao?  
 3. Phát biểu định lý Zhang bằng lời mà **không** cần nhắc con số 70 triệu ("tồn tại một cận hữu hạn…").  
-4. **Mục tiêu 1 (không quá 300 từ):** giả thuyết sinh đôi, vì sao khó, toán học xung quanh (phương pháp sàng / khoảng cách bị chặn).  
+4. **Tổng hợp (không quá 300 từ):** trình bày giả thuyết sinh đôi, vì sao khó, và toán học xung quanh (phương pháp sàng / khoảng cách bị chặn).  
 5. So sánh với [Collatz]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/): phát biểu sơ cấp nhưng đòi hỏi kỹ thuật sâu.  
-6. **Mục tiêu 6:** sửa tiêu đề sai "Nhà toán học Trung Quốc chứng minh có vô hạn cặp sinh đôi (2013)".  
+6. **Phản biện thông tin:** sửa tiêu đề sai "Nhà toán học Trung Quốc chứng minh có vô hạn cặp sinh đôi (2013)".  
 7. Đọc một bài phổ thông về kết quả của Zhang năm 2013; liệt kê ba thành phần toán học được nhắc đến (sàng, GPY, phân bố trong cấp số cộng, …).  
 8. Mở rộng: giải thích trong năm dòng vì sao giả thuyết Elliott–Halberstam giúp giảm $$H$$ nhưng không tự động cho $$H=2$$ (ở mức ý tưởng).
 
@@ -195,7 +224,7 @@ $$
 
 ## Từ các video: chuỗi sự kiện 2013–2014 tóm tắt
 
-Các video của Numberphile (Zhang, Maynard), bài giảng của Maynard và bài viết của Quanta năm 2013 cho ta câu chuyện sau (mục tiêu 1):
+Các video của Numberphile (Zhang, Maynard), bài giảng của Maynard và bài viết của Quanta năm 2013 cho ta câu chuyện sau:
 
 1. **GPY** dựng một khung sàng *sẽ* cho khoảng cách bị chặn nếu số nguyên tố phân bố trong cấp số cộng tốt hơn một chút so với định lý Bombieri–Vinogradov.  
 2. **Zhang (2013)** chứng minh một mức phân bố yếu hơn nhưng đủ mạnh để có $$\liminf(p_{n+1}-p_n)\le 70{,}000{,}000$$ (sau đó Polymath tối ưu thêm).  

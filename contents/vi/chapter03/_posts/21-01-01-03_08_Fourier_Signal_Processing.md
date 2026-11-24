@@ -10,11 +10,13 @@ categories:
 lesson_type: required
 ---
 
-Ảnh JPEG, các hệ thống nén âm thanh, máy chụp MRI và bộ dò đài radio đều dựa trên cùng một ý tưởng: **lấy một tín hiệu biến thiên theo thời gian hoặc không gian và viết lại nó thành tổng của các thành phần tần số**, rồi giữ lại, bỏ đi, lọc hoặc lấy mẫu các tần số đó tùy theo mục đích.
+Khi một nghệ sĩ bấm cùng lúc ba phím Đô–Mi–Sol trên đàn piano, màng loa chỉ rung theo **một** đường sóng áp suất duy nhất trông cực kỳ ngoằn ngoèo. Vậy mà tai người — và chiếc điện thoại đang chạy ứng dụng nhận diện bài hát Shazam — lại tách ngay ra được ba nốt nhạc riêng biệt ẩn bên trong đường sóng hỗn độn ấy.
 
-**Nội dung bài:** trực giác về tần số → chuỗi Fourier → biến đổi Fourier → DFT/FFT → lọc và lấy mẫu → JPEG, âm thanh, MRI → nguyên lý bất định và cửa sổ → hiểu lầm thường gặp.
+Phép màu "tách sinh tố ngược lại thành từng loại trái cây" đó có tên là **Phân tích Fourier**. Ra đời vào đầu thế kỷ XIX từ bài toán nghiên cứu sự truyền nhiệt trong thanh kim loại của Joseph Fourier, ý tưởng tách mọi tín hiệu thành tổng các sóng sin và cosin ngày nay âm thầm vận hành gần như toàn bộ thế giới số: nén ảnh JPEG, nhạc MP3, truyền thông không dây 4G/5G/Wi-Fi và máy chụp cộng hưởng từ MRI trong bệnh viện.
 
-Bài này nối giải tích điều hòa cổ điển với xử lý tín hiệu trong đời sống. Về các hướng nghiên cứu thuần túy (bài toán hạn chế, Kakeya), xem [Hong Wang (Chương 2)]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/); ở đây ta tập trung vào **cơ chế trong công nghệ**.
+Bài này nối giải tích điều hòa cổ điển với xử lý tín hiệu trong đời sống. Về các hướng nghiên cứu thuần túy hiện đại (bài toán hạn chế, Kakeya), xem [Hong Wang (Chương 2)]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/); ở đây ta mở nắp máy để xem **cơ chế cụ thể trong công nghệ**.
+
+**Nội dung bài:** bản đồ giải tích Fourier → trực giác về tần số → chuỗi Fourier → biến đổi Fourier → DFT và bước nhảy vọt FFT → lấy mẫu Nyquist → nén JPEG, âm thanh, MRI → nguyên lý bất định và phổ đồ → hiểu lầm thường gặp.
 
 ---
 
@@ -33,9 +35,23 @@ Sau bài học, bạn có thể:
 
 ---
 
+## Bản đồ kiến thức nền: Giải tích Fourier (Giải tích điều hòa) là gì và nghiên cứu những gì?
+
+Nếu đại số tuyến tính dạy ta cách xoay hệ trục tọa độ trong không gian 3D để nhìn một hình khối dễ hơn, thì **giải tích Fourier (Fourier analysis / harmonic analysis)** làm đúng việc đó cho **không gian các hàm số và tín hiệu**.
+
+Thay vì mô tả một đoạn âm thanh bằng giá trị áp suất tại từng phần nghìn giây (miền thời gian), giải tích Fourier chiếu tín hiệu đó lên một "hệ trục tọa độ trực giao" đặc biệt gồm các sóng thuần túy $$e^{i\omega t}$$ ở từng tần số $$\omega$$ (miền tần số). Phép đổi góc nhìn này cực kỳ quyền lực vì ba lý do:
+
+1. **Làm đơn giản hóa phép tính:** phép lấy đạo hàm (vi phân) và phép tích chập (lọc tín hiệu) vốn phức tạp trong miền thời gian bỗng biến thành **phép nhân đại số thông thường** trong miền tần số.
+2. **Nén chặt thông tin:** ảnh chụp tự nhiên và tiếng nói trông dày đặc ở miền điểm ảnh/thời gian, nhưng sang miền tần số thì năng lượng tập trung vào rất ít hệ số quan trọng.
+3. **Tồn tại thuật toán siêu tốc (FFT):** khiến phép đổi hệ tọa độ này đủ rẻ để chạy thời gian thực ngay trong con chip tai nghe Bluetooth.
+
+Tùy loại tín hiệu, ngành này chia thành bốn công cụ cùng một họ: **Chuỗi Fourier** (tín hiệu tuần hoàn liên tục), **Biến đổi Fourier** (tín hiệu không tuần hoàn liên tục), **DFT/FFT** (tín hiệu số hữu hạn trên máy tính), và **STFT/Wavelet** (khi tần số thay đổi theo thời gian, như một bản nhạc).
+
+---
+
 ## 1. Tần số như một hệ tọa độ
 
-Một âm thanh thuần là một sóng sin. Một mẫu sọc thuần trong không gian là một sóng sin hai chiều. Tín hiệu thật là tổ hợp của nhiều sóng như vậy. Giải tích Fourier cho ta một **cơ sở gồm các dao động** cùng với hệ số cho biết mỗi tần số đóng góp bao nhiêu. Phép đổi cơ sở này không làm mất thông tin vì nó khả nghịch; nó chỉ **sắp xếp lại** thông tin, giúp việc nén, khử nhiễu, điều chế tín hiệu hay giải phương trình đạo hàm riêng hệ số hằng trở nên dễ hơn.
+Một âm thanh thuần là một sóng sin. Một mẫu sọc thuần trong ảnh là một sóng sin hai chiều. Tín hiệu thật là tổ hợp của nhiều sóng như vậy. Giải tích Fourier cho ta một **cơ sở trực giao gồm các dao động** cùng với hệ số cho biết mỗi tần số đóng góp bao nhiêu biên độ và pha. Phép đổi cơ sở này hoàn toàn khả nghịch (không làm mất một bit thông tin nào); nó chỉ **sắp xếp lại** thông tin sao cho những gì ta cần làm (lọc nhiễu rè ở tần số cao, nén ảnh, giải phương trình vi phân) trở nên cực kỳ dễ dàng.
 
 **Ý chính.** *Nhiều phép toán phức tạp trong miền thời gian hoặc không gian trở thành phép nhân hay phép che (mask) đơn giản trong miền tần số, và ngược lại (định lý tích chập).*
 
@@ -43,12 +59,16 @@ Một âm thanh thuần là một sóng sin. Một mẫu sọc thuần trong kh�
 
 ## 2. Chuỗi Fourier: tín hiệu tuần hoàn
 
+Với một hàm tuần hoàn chu kỳ $$2\pi$$:
+
 $$
 f(\theta)\sim\sum_n \hat f(n)e^{in\theta},\qquad
 \hat f(n)=\frac1{2\pi}\int_0^{2\pi}f(\theta)e^{-in\theta}\,d\theta.
 $$
 
-Tổng riêng là một xấp xỉ chỉ chứa các tần số đến một mức nhất định. Gần điểm gián đoạn xuất hiện hiện tượng Gibbs: cắt bỏ tần số cao tạo ra phần vọt lố trong miền không gian. **Phương trình nhiệt:** khai triển Fourier biến $$\partial_t u=\kappa\partial_{xx}u$$ thành các phương trình vi phân thường độc lập cho từng thành phần tần số; tần số càng cao thì tắt càng nhanh. Xem bài [Phương trình vi phân]({{ site.baseurl }}/contents/vi/chapter03/03_09_Differential_Equations_Applications/).
+Tổng riêng là một xấp xỉ chỉ chứa các tần số đến một mức nhất định. Gần điểm gián đoạn (như góc vuông của sóng vuông) xuất hiện **hiện tượng Gibbs**: dù cộng bao nhiêu sóng sin trơn, chỗ gãy vẫn có phần vọt lố khoảng 9%.
+
+**Vì sao Fourier lại phát minh ra chuỗi này từ bài toán truyền nhiệt?** Xét phương trình nhiệt $$\partial_t u=\kappa\partial_{xx}u$$. Khi viết $$u(x,t)$$ thành tổng các sóng $$c_n(t)e^{inx}$$, đạo hàm bậc hai theo $$x$$ chỉ nhân thêm $$-n^2$$, biến PDE khó thành vô số ODE độc lập có nghiệm ngay lập tức: $$c_n(t) = c_n(0)e^{-\kappa n^2 t}$$. Nhìn vào thừa số $$e^{-\kappa n^2 t}$$ ta thấy ngay bản chất vật lý: tần số càng cao ($$n$$ càng lớn, các chỗ nóng-lạnh gồ ghề sắc nhọn) tắt càng nhanh theo bình phương $$n^2$$ — nhiệt độ tự động được làm mịn gần như tức thì! Xem thêm [Phương trình vi phân]({{ site.baseurl }}/contents/vi/chapter03/03_09_Differential_Equations_Applications/).
 
 ---
 
@@ -68,18 +88,22 @@ Cộng các sóng sin có tần số lẻ với biên độ giảm dần, ta d�
 
 ## 3. Biến đổi Fourier: tín hiệu không tuần hoàn
 
+Khi tín hiệu không lặp lại tuần hoàn mà trải trên cả trục số, tổng rời rạc trở thành tích phân:
+
 $$
 \hat f(\xi)=\int f(x)e^{-2\pi i x\xi}\,dx,\qquad
 f(x)=\int\hat f(\xi)e^{2\pi i x\xi}\,d\xi
 $$
 
-(với các giả thiết phù hợp; vị trí của hệ số $$2\pi$$ tùy theo quy ước). Phép lấy đạo hàm tương ứng với phép nhân với đa thức theo $$\xi$$; tích chập tương ứng với tích; phép tịnh tiến tương ứng với nhân với một thừa số pha. **Lọc tín hiệu** là nhân $$\hat f$$ với một hàm $$H(\xi)$$ (lọc thông thấp, thông cao, thông dải); radio và bộ chỉnh âm (equalizer) đều hoạt động theo cách này.
+(với các giả thiết phù hợp; vị trí của hệ số $$2\pi$$ tùy quy ước). Dưới lăng kính này: lấy đạo hàm biến thành nhân với $$2\pi i \xi$$; tích chập biến thành phép nhân; dịch chuyển thời gian biến thành xoay pha.
+
+**Lọc tín hiệu.** Muốn loại bỏ tiếng ù điện 50 Hz trong một bản thu âm phỏng vấn, ta chỉ cần biến đổi Fourier đoạn thu âm, nhân các hệ số quanh tần số 50 Hz với $$0$$ (lọc chắn dải — notch filter), rồi biến đổi ngược lại! Radio, bộ chỉnh âm (equalizer) và tai nghe chống ồn đều vận hành theo đúng nguyên lý đó.
 
 ---
 
 ## 4. Trong thực tế rời rạc: DFT và FFT
 
-Với các mẫu $$x_0,\ldots,x_{N-1}$$:
+Trên máy tính, tín hiệu chỉ là một mảng hữu hạn $$N$$ con số $$x_0,\ldots,x_{N-1}$$:
 
 $$
 \hat x_k=\sum_{n=0}^{N-1}x_n e^{-2\pi i kn/N},
@@ -87,64 +111,78 @@ $$
 x_n=\frac1N\sum_{k=0}^{N-1}\hat x_k e^{2\pi i kn/N}.
 $$
 
-Tính trực tiếp mất $$O(N^2)$$ phép tính. **FFT** tính DFT trong $$O(N\log N)$$; đây là một trong những kết quả thuật toán quan trọng nhất của thế kỷ XX. Xử lý âm thanh thời gian thực, viễn thông băng rộng, nhân số nguyên lớn và tính toán khoa học đều dựa vào hiệu năng của FFT.
+Nếu tính trực tiếp theo định nghĩa (nhân ma trận $$N\times N$$ với vectơ), ta tốn $$O(N^2)$$ phép tính. Năm 1965, Cooley và Tukey công bố thuật toán **Biến đổi Fourier nhanh (FFT)** (vốn đã có mầm mống từ Gauss năm 1805), khai thác tính đối xứng của căn bậc $$N$$ của đơn vị để chia đôi bài toán đệ quy và hạ độ phức tạp xuống còn $$O(N\log N)$$.
 
-**Cơ chế.** *Xử lý tín hiệu số phổ biến vì các thuật toán trong miền tần số không chỉ đẹp về lý thuyết mà còn đủ rẻ để chạy ở quy mô lớn nhờ FFT.*
+**Con số cho thấy bước nhảy vọt kinh khủng của FFT.** Xét một đoạn âm thanh chuẩn CD dài khoảng 24 giây: $$N = 2^{20} \approx 1{.}048{.}576$$ mẫu.
+- Tính DFT trực tiếp: $$N^2 \approx 1{,}1 \times 10^{12}$$ phép tính (hơn **1 nghìn tỷ** phép tính — không thể chạy thời gian thực trên điện thoại).
+- Tính bằng FFT: $$N\log_2 N \approx 2{,}1 \times 10^7$$ phép tính (chỉ **21 triệu** phép tính — **nhanh hơn 50.000 lần**, chạy xong trong vài mili-giây!).
 
-**Ví dụ trong viễn thông.** OFDM, nền tảng của Wi-Fi và lớp vật lý của mạng di động hiện đại, truyền dữ liệu trên nhiều sóng mang con cách đều nhau và trực giao với nhau trong một chu kỳ ký hiệu. Ở đầu thu, FFT tách các sóng mang này ra. Một lần nữa, kỹ thuật vô tuyến trong công nghiệp chính là giải tích Fourier được viết thành tiêu chuẩn kỹ thuật.
+**Cơ chế.** *Xử lý tín hiệu số phủ sóng toàn cầu vì các thuật toán trong miền tần số không chỉ thanh lịch về lý thuyết mà còn siêu rẻ nhờ FFT.*
+
+**Ví dụ trong viễn thông (Wi-Fi, 4G, 5G).** Kỹ thuật **OFDM** chia băng thông vô tuyến thành hàng trăm sóng mang con trực giao sát nhau. Thay vì phải lắp hàng trăm bộ dao động tương tự tốn kém, máy phát chỉ cần chạy một phép **IFFT** để ghép dữ liệu lên các sóng mang, và điện thoại của bạn chạy một phép **FFT** để tách dữ liệu ra ở đầu thu!
 
 ---
 
 ## 5. Lấy mẫu và ý tưởng Nyquist
 
-Không thể lưu một tín hiệu liên tục với vô hạn giá trị trên một con chip. **Lấy mẫu** là ghi lại giá trị của tín hiệu với tốc độ $$f_s$$ mẫu mỗi giây. Ý tưởng của định lý **Nyquist–Shannon:** để ghi được các tần số đến $$B$$ Hz mà không bị chồng phổ, cần lấy mẫu nhanh hơn $$2B$$ (với giả thiết lý tưởng là tín hiệu có dải tần giới hạn).
+Để lưu sóng âm thanh liên tục vào bộ nhớ số, micro phải **lấy mẫu** (đo biên độ) định kỳ với tốc độ $$f_s$$ lần mỗi giây. Câu hỏi sinh tử là: *cần lấy mẫu nhanh bao nhiêu để không mất thông tin?*
 
-**Chồng phổ** (aliasing) là hiện tượng một tần số cao "giả dạng" thành tần số thấp sau khi lấy mẫu, ví dụ bánh xe quay ngược trong video hay vân moiré trong ảnh. Bộ lọc chống chồng phổ (lọc thông thấp trước khi lấy mẫu) là một kỹ thuật Fourier thiết yếu, không phải chi tiết phụ.
+**Định lý lấy mẫu Nyquist–Shannon** đưa ra câu trả lời chính xác đến kinh ngạc: nếu tín hiệu không chứa tần số nào vượt quá $$B\text{ Hz}$$, chỉ cần lấy mẫu nhanh hơn $$2B$$ lần/giây là có thể **khôi phục lại chính xác 100%** đường cong liên tục ban đầu!
 
-Cảm biến nén (compressed sensing) hiện đại cho phép lấy ít mẫu hơn mức cổ điển khi tín hiệu thưa, nhờ kết hợp tối ưu hóa và giải tích điều hòa ([Tối ưu hóa]({{ site.baseurl }}/contents/vi/chapter03/03_07_Optimization_Operations_AI/)). Không phải lúc nào lấy mẫu nhanh hơn cũng tốt hơn: lấy mẫu vượt quá nhu cầu Nyquist của dải tần là tốn kém, và vẫn cần chống chồng phổ.
+**Ví dụ số quen thuộc: vì sao nhạc CD lấy mẫu ở 44,1 kHz?** Tai người khỏe mạnh nghe được âm thanh tối đa khoảng $$B = 20\text{ kHz}$$. Theo Nyquist, tốc độ lấy mẫu tối thiểu là $$2 \times 20 = 40\text{ kHz}$$. Kỹ sư âm thanh chọn $$44{,}1\text{ kHz}$$ để có thêm khoảng đệm an toàn cho bộ lọc chống chồng phổ thực tế.
+
+Nếu lấy mẫu chậm hơn $$2B$$, xảy ra hiện tượng **chồng phổ (aliasing)**: tần số cao "đóng giả" thành tần số thấp — đó là lý do bánh xe ô tô trong phim (quay ở 24 khung hình/giây) đôi khi trông như đang quay ngược chiều!
+
+Cảm biến nén (compressed sensing) hiện đại còn cho phép lấy ít mẫu hơn cả ngưỡng Nyquist nếu ta biết trước tín hiệu *thưa* trong một cơ sở nào đó, kết hợp Fourier với [tối ưu hóa]({{ site.baseurl }}/contents/vi/chapter03/03_07_Optimization_Operations_AI/).
 
 ---
 
 ## 6. JPEG, âm thanh và các hệ thống nén
 
-**JPEG (ý tưởng).** Chia ảnh thành các khối; áp dụng biến đổi cosin rời rạc (DCT), một biến thể của biến đổi Fourier dùng cơ sở cosin, phù hợp với tín hiệu thực và điều kiện biên; lượng tử hóa các hệ số (bỏ bớt chi tiết tần số cao mà mắt ít nhạy cảm); sau đó mã hóa entropy phần còn lại. Khi giải nén, thực hiện biến đổi ngược.
+Tại sao một bức ảnh chụp điện thoại gốc nặng 15 MB lại có thể nén thành file JPEG chỉ còn 1 MB mà mắt thường khó nhận ra khác biệt?
+
+**Cơ chế JPEG từng bước:**
+1. Chia ảnh thành từng ô vuông nhỏ $$8\times 8$$ điểm ảnh (64 con số).
+2. Áp dụng **Biến đổi Cosin Rời rạc (DCT)** — họ hàng gần của Fourier dùng hàm cosin thực — đổi 64 giá trị độ sáng thành 64 hệ số tần số (từ độ sáng trung bình ở góc trên-trái đến các chi tiết sọc cực mịn ở góc dưới-phải).
+3. **Lượng tử hóa:** chia và làm tròn các hệ số. Vì mắt người rất nhạy với sự thay đổi màu sắc chậm nhưng lại rất kém nhạy với dao động tần số siêu cao, hàng loạt hệ số tần số cao ở góc dưới-phải bị làm tròn về **đúng số 0**!
+4. Mã hóa nén chuỗi số 0 dài dằng dặc đó (Huffman/RLE).
 
 **Cơ chế trong một câu.**  
-*Ảnh tự nhiên thường thưa (nén được tốt) trong một cơ sở kiểu tần số; lượng tử hóa giữ lại các hệ số có năng lượng lớn và bỏ các hệ số có năng lượng nhỏ.*
+*Ảnh tự nhiên cực kỳ thưa trong miền tần số; nén JPEG không "xóa bừa điểm ảnh" mà bỏ đi những hệ số tần số cao năng lượng nhỏ mà mắt người khó nhận biết.*
 
-**Âm thanh.** Các bộ mã hóa âm thanh dựa trên cảm nhận biến đổi từng đoạn ngắn (MDCT, …), phân bổ số bit dựa trên hiệu ứng che lấp của tai người, rồi biến đổi ngược. Các hệ thống đơn giản hơn dùng biến đổi Fourier thời gian ngắn (STFT) để phân tích và lọc.
-
-**MP3 không phải là "dùng Fourier để xóa bớt nhạc".** Đó là mã hóa dựa trên cảm nhận trong miền tần số, được thiết kế kỹ thuật và chuẩn hóa cẩn thận.
+**Âm thanh (MP3, AAC).** Các bộ mã hóa âm thanh chia bản nhạc thành từng lát ngắn (dùng MDCT), phân tích phổ tần số và lợi dụng hiệu ứng sinh lý của tai người (một âm thanh to ở tần số này sẽ che lấp âm thanh nhỏ ở tần số kế cận) để chỉ cấp nhiều bit cho những tần số tai thật sự nghe thấy.
 
 ---
 
 ## 7. MRI và ảnh khoa học
 
-Máy cộng hưởng từ thu được dữ liệu vốn là các mẫu của **biến đổi Fourier** của ảnh cần chụp (gọi là không gian k). Việc tái tạo ảnh về cơ bản là biến đổi Fourier ngược bằng FFT (cộng thêm các hiệu chỉnh vật lý, xử lý lấy mẫu không đều, độ nhạy của cuộn thu). MRI lấy mẫu thưa dùng phương pháp tái tạo có ràng buộc, lại dựa trên tính thưa và tối ưu hóa.
+Máy chụp cộng hưởng từ (MRI) không hề "chụp ảnh trực tiếp" bên trong cơ thể như máy ảnh thường. Bằng cách đặt cơ thể trong từ trường mạnh và tạo các dốc từ trường biến thiên theo không gian, tần số cộng hưởng của các hạt nhân hydro sẽ mã hóa đúng vị trí của chúng. Dữ liệu thô mà cuộn dây MRI thu được thực chất chính là các mẫu trong **miền tần số Fourier** của lát cắt cơ thể (y học gọi là **không gian k**).
 
-**Cơ chế.** *Tính chất vật lý của spin mã hóa thông tin vị trí thành tần số; giải tích điều hòa là ngôn ngữ để giải mã.*
+Để bác sĩ nhìn thấy hình ảnh não hay khớp gối trên màn hình, máy tính thực hiện **biến đổi Fourier ngược 2D bằng FFT**! Các kỹ thuật MRI tăng tốc hiện đại dùng cảm biến nén (lấy mẫu thưa hơn trong không gian k rồi khôi phục bằng tối ưu hóa) giúp rút ngắn thời gian bệnh nhân phải nằm bất động trong lồng máy từ hàng chục phút xuống còn vài phút.
 
-Các ứng dụng liên quan: tái tạo ảnh CT (biến đổi Radon, phương pháp chiếu ngược có lọc, cũng dựa trên tích phân và Fourier), radar, tinh thể học (ảnh nhiễu xạ cho biết độ lớn của biến đổi Fourier, và việc khôi phục pha là bài toán khó).
+**Cơ chế.** *Vật lý của spin mã hóa không gian thành tần số; giải tích Fourier là chìa khóa dịch ngược tần số thành hình ảnh giải phẫu.*
+
+Các ứng dụng anh em: chụp cắt lớp CT (biến đổi Radon và chiếu ngược có lọc), radar, và tinh thể học tia X (ảnh nhiễu xạ là biên độ của biến đổi Fourier cấu trúc phân tử — chính là cách khám phá cấu trúc xoắn kép DNA!).
 
 ---
 
 ## 8. Nguyên lý bất định, cửa sổ và phân tích thời gian–tần số
 
-Một sóng sin vô hạn xác định hoàn toàn tần số nhưng không cho biết gì về thời điểm. Xung Dirac thì ngược lại: xác định chính xác thời điểm nhưng trải đều trên mọi tần số. **Nguyên lý bất định kiểu Heisenberg** (phiên bản trong giải tích điều hòa) giới hạn khả năng tập trung đồng thời: không thể vừa chính xác tùy ý về thời gian vừa chính xác tùy ý về tần số.
+Một sóng sin thuần kéo dài từ $$-\infty$$ đến $$+\infty$$ có tần số sắc nét tuyệt đối, nhưng hoàn toàn không cho biết sự kiện xảy ra *lúc nào*. Ngược lại, một tiếng vỗ tay cực ngắn (xung Dirac) xác định chính xác khoảnh khắc, nhưng phổ của nó lại trải đều khắp mọi tần số. **Nguyên lý bất định kiểu Heisenberg** trong giải tích điều hòa khẳng định một giới hạn toán học cứng rắn: một hàm số và biến đổi Fourier của nó không thể đồng thời bị nén hẹp tùy ý cả hai đầu.
 
-**Biến đổi Fourier có cửa sổ (STFT)** và **wavelet** cho phép thay đổi độ phân giải theo tỉ lệ. STFT trượt một cửa sổ theo thời gian, lấy biến đổi Fourier của từng đoạn ngắn và xếp lại thành **phổ đồ** (spectrogram), công cụ hình ảnh để phân tích tiếng nói, âm nhạc hay chẩn đoán rung động. Cửa sổ dài thì tần số rõ nhưng thời gian mờ; cửa sổ ngắn thì ngược lại. Sự đánh đổi này không phải là lựa chọn giao diện, mà chính là nguyên lý bất định trong thực tế.
+Vì âm nhạc và tiếng nói thay đổi cao độ liên tục theo thời gian, ta dùng **Biến đổi Fourier thời gian ngắn (STFT)**: trượt một khung cửa sổ nhỏ dọc theo trục thời gian, chạy FFT trên từng khung rồi xếp thành **phổ đồ (spectrogram)** — tấm bản đồ 2D với trục ngang là thời gian, trục dọc là tần số và màu sắc là cường độ. Cửa sổ dài cho độ phân giải tần số sắc nét nhưng thời gian bị nhòe; cửa sổ ngắn bắt thời điểm nhạy nhưng tần số bị mờ.
 
-Wavelet (một họ cơ sở khác) giúp nén và khử nhiễu tốt hơn trong một số trường hợp, nhờ khả năng định vị ở nhiều tỉ lệ, phù hợp với các cạnh và xung; JPEG 2000 dùng wavelet. Ý tưởng chung của Fourier: chọn cơ sở phù hợp với loại tín hiệu và mức sai số chấp nhận được. Hệ số nhỏ không phải lúc nào cũng "không quan trọng": pha và sự kết hợp của nhiều hệ số có thể khiến các hệ số nhỏ mang thông tin cấu trúc.
+**Wavelet (sóng nhỏ)** tiến thêm một bước thông minh: tự động dùng cửa sổ ngắn cho tần số cao (để bắt gọn các cạnh sắc hay tiếng trống đột ngột) và cửa sổ dài cho tần số thấp (để đo chuẩn nốt trầm). Đó là nền tảng của chuẩn nén ảnh JPEG 2000 và nhiều công cụ khử nhiễu y sinh.
 
 ---
 
 ## 9. Phương trình đạo hàm riêng và nghiên cứu thuần túy
 
-Biến đổi Fourier biến nhiều phương trình đạo hàm riêng tuyến tính hệ số hằng trên $$\mathbb{R}^n$$ thành phương trình đại số theo tần số. Một toán tử vi phân hệ số hằng trở thành phép nhân với ký hiệu $$p(\xi)$$; giải phương trình (khi hợp lệ) là chia cho ký hiệu rồi biến đổi ngược. Nghiệm cơ bản và các ước lượng tán sắc là nội dung nâng cao. Các phần mềm phần tử hữu hạn trong kỹ thuật có thể không dùng FFT trên toàn miền với lưới không đều, nhưng việc phân tích dao động trong kết cấu và âm học (tần số riêng, dạng dao động, đáp ứng cưỡng bức) vẫn là tư duy tần số, sau khi rời rạc hóa thành bài toán trị riêng của ma trận.
+Biến đổi Fourier biến nhiều phương trình đạo hàm riêng tuyến tính hệ số hằng trên $$\mathbb{R}^n$$ thành phương trình đại số đơn giản theo biến tần số $$\xi$$: toán tử vi phân trở thành phép nhân với đa thức ký hiệu $$p(\xi)$$, nên giải PDE chỉ còn là chia cho $$p(\xi)$$ rồi biến đổi ngược. Trong kỹ thuật kết cấu và âm học, phân tích dao động riêng của một cây cầu hay thân xe (tần số cộng hưởng, dạng dao động) cũng chính là tư duy tần số ở dạng bài toán trị riêng ma trận.
 
-Lý thuyết thuần túy, như sự hội tụ của chuỗi Fourier, định lý Carleson về hội tụ hầu khắp nơi, hay giả thuyết hạn chế nối các mặt cong trong miền tần số với ước lượng không-thời gian, sâu hơn rất nhiều so với những gì một bộ mã hóa cần. Bài [Wang (Chương 2)]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/) giới thiệu hướng nghiên cứu nơi giải tích điều hòa gặp lý thuyết độ đo hình học; bài này giải thích vì sao cùng một môn học lại xuất hiện trong thư viện ảnh, radio điện thoại và phòng chụp MRI.
+Lý thuyết thuần túy về giải tích điều hòa — như sự hội tụ hầu khắp nơi của chuỗi Fourier (định lý Carleson) hay giả thuyết hạn chế kết nối hình học các mặt cong với ước lượng sóng — còn sâu thẳm hơn nhiều so với những gì một bộ mã hóa MP3 cần. Bài [Hong Wang (Chương 2)]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/) mở ra biên giới nghiên cứu hiện đại ấy; còn bài này cho thấy cùng một hệ tọa độ tần số đang vận hành từ phòng chụp MRI đến điện thoại trong túi bạn.
 
-**Tóm tắt cơ chế của bài.** Tính trực giao của các hàm mũ → thuật toán rẻ (FFT) → hạ tầng cho nén, cảm biến và truyền thông. Lý thuyết đẹp và vi mạch dùng chung một hệ tọa độ.
+**Tóm tắt cơ chế của bài.** Tính trực giao của các sóng điều hòa → thuật toán siêu tốc (FFT) → hạ tầng cho nén dữ liệu, chẩn đoán y khoa và truyền thông không dây.
 
 ---
 

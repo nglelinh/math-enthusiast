@@ -15,24 +15,22 @@ categories:
 > **3. Bài tiếp:** [Studio Kakeya, Chương 7]({{ site.baseurl }}/contents/vi/chapter07/07_02_Explore_Kakeya/)  
 > *Nếu đây là lần đầu bạn gặp bài toán Kakeya, nên đọc bài ở Chương 1 trước.*
 
-**Hong Wang** (NYU Courant; giáo sư thường trực tại IHES) được trao **Huy chương Fields 2026** tại ICM Philadelphia. Trích dẫn ngắn của IMU:
+Câu chuyện bắt đầu năm 1917 từ một câu đố tưởng như để giải trí trong giờ trà: cần diện tích nhỏ nhất là bao nhiêu trên mặt bàn để xoay ngược đầu một chiếc kim dài 1 đơn vị? Chẳng ai ngờ câu đố chiếc kim của Sōichi Kakeya lại dẫn đến một kết quả phản trực giác đến kinh ngạc (có thể xoay chiếc kim trong diện tích nhỏ tùy ý, thậm chí có tập chứa đoạn thẳng dài 1 theo *mọi* hướng mà diện tích bằng đúng 0!), và rồi biến thành một trong những nút thắt trung tâm suốt cả thế kỷ của **giải tích điều hòa** và **lý thuyết sóng**.
+
+Đầu năm 2025, **Hong Wang** (NYU Courant; giáo sư thường trực tại IHES) cùng **Joshua Zahl** đã gây chấn động giới toán học khi công bố chứng minh dài 127 trang giải trọn **giả thuyết tập Kakeya trong không gian ba chiều**. Không chỉ dừng ở Kakeya, suốt nhiều năm trước đó, Hong Wang đã liên tiếp tạo ra những đột phá lớn về bài toán làm trơn địa phương cho phương trình sóng, tập khoảng cách Falconer, tập Furstenberg và bài toán hạn chế Fourier. Thành tựu toàn diện ấy đã mang về cho bà **Huy chương Fields 2026** tại ICM Philadelphia — đưa Hong Wang trở thành **người phụ nữ thứ ba** trong lịch sử nhận giải thưởng danh giá này (sau Maryam Mirzakhani năm 2014 và Maryna Viazovska năm 2022).
+
+**Trích dẫn ngắn của IMU:**
 
 > For her work in harmonic analysis and geometric measure theory, including applications of multiscale and decoupling techniques to the local smoothing conjecture for the planar wave equation, and major advances in Fourier restriction, Falconer distance sets, Furstenberg sets in the plane, and the Kakeya problem in three dimensions.  
 > — [IMU, Fields Medal 2026](https://www.mathunion.org/fileadmin/documents/2026-07/Hong_Wang_Citations.pdf)
 
 *Tạm dịch:* Cho các công trình về giải tích điều hòa và lý thuyết độ đo hình học, gồm việc áp dụng kỹ thuật đa thang và kỹ thuật tách (decoupling) vào giả thuyết làm trơn địa phương cho phương trình sóng trên mặt phẳng, cùng những tiến bộ lớn về bài toán hạn chế Fourier, tập khoảng cách Falconer, tập Furstenberg trên mặt phẳng và bài toán Kakeya ba chiều.
 
-Bà là **người phụ nữ thứ ba** nhận Huy chương Fields (sau Maryam Mirzakhani năm 2014 và Maryna Viazovska năm 2022). Kết quả được báo chí nhắc đến nhiều nhất là chứng minh **giả thuyết tập Kakeya trong không gian ba chiều**, thực hiện cùng **Joshua Zahl** (arXiv:2502.17655, 2025). Tuy vậy, huy chương ghi nhận **toàn bộ các công trình** của bà, không chỉ một bài báo.
+Hành trình của bài học này đi qua bảy chặng:
 
-Bài học đi theo trình tự:
-
-**Bài toán chiếc kim → Tập Besicovitch → độ đo và số chiều → ống δ → định lý Wang–Zahl → giải tích điều hòa → các công trình được nêu trong lời trích dẫn.**
+**Bài toán chiếc kim → Tập Besicovitch → độ đo và số chiều → ống $$\delta$$ → định lý Wang–Zahl → giải tích điều hòa → các công trình được nêu trong lời trích dẫn.**
 
 Mục tiêu không phải là trình bày lại chứng minh dài 127 trang, mà là hiểu **bài toán hỏi gì**, **vì sao nó khó suốt một thế kỷ**, và **những lĩnh vực toán học nào liên quan**.
-
-Câu hỏi chính: một tập trong $$\mathbb{R}^n$$ có thể nhỏ đến mức nào mà vẫn chứa một đoạn thẳng dài 1 theo mọi hướng? Câu hỏi liên quan: cách các hướng sắp xếp ở nhiều thang khác nhau ảnh hưởng thế nào đến bài toán hạn chế Fourier, tập khoảng cách Falconer, tập Furstenberg và tính làm trơn địa phương của sóng?
-
-Cách tiếp cận hiện đại chuyển hình học của các hướng thành bài toán ước lượng cho các họ **ống δ** (δ-tube) rất mảnh. Sau đó người ta phân tích cấu trúc ở nhiều thang (sự tụ cụm, tính "hạt", tính "phẳng", kỹ thuật tách) để chứng minh rằng khi các ống chồng lên nhau quá nhiều thì chúng buộc phải có một cấu trúc hình học khai thác được, chứ không thể sắp xếp tùy ý. Kết quả chính cùng Zahl là một ước lượng thể tích: nếu "không có quá nhiều ống nằm trong cùng một tập lồi $$V$$" thì hợp của các ống có thể tích gần lớn nhất có thể. Từ đó suy ra mọi tập Kakeya trong $$\mathbb{R}^3$$ có chiều Hausdorff và chiều Minkowski bằng 3. Lời trích dẫn dài của IMU còn nêu: tính làm trơn địa phương của phương trình sóng trên mặt phẳng (cùng Guth và Zhang); kết quả về bài toán Falconer (cùng Guth, Iosevich và Ou); tập Furstenberg trên mặt phẳng (cùng Ren); và các tiến bộ về bài toán hạn chế Fourier.
 
 ---
 
@@ -43,7 +41,7 @@ Sau bài học, bạn có thể:
 - Phát biểu bài toán chiếc kim của Kakeya và cách Besicovitch xây dựng một tập có độ đo bằng 0 trên mặt phẳng.
 - Giải thích vì sao **độ đo Lebesgue bằng 0** không kéo theo **chiều Hausdorff (hay Minkowski)** nhỏ hơn số chiều của không gian.
 - Phát biểu **giả thuyết tập Kakeya** trong $$\mathbb{R}^n$$ và nêu các kết quả đã biết cho $$n=2$$ và $$n=3$$.
-- Mô tả hình ảnh các **ống δ** và giải thích vì sao sự chồng lấp mạnh giữa các ống mới là khó khăn thật sự.
+- Mô tả hình ảnh các **ống $$\delta$$** và giải thích vì sao sự chồng lấp mạnh giữa các ống mới là khó khăn thật sự.
 - Đặt kết quả **Wang–Zahl (2025)** và **Huy chương Fields của Wang (2026)** vào bối cảnh lịch sử dài hơn.
 - Tóm tắt, kèm tên các cộng sự, những đóng góp của Wang **ngoài** bài toán Kakeya (làm trơn địa phương, Falconer, Furstenberg, bài toán hạn chế).
 - Tránh các nhầm lẫn thường gặp (chuyển động của chiếc kim và tập Besicovitch; công lao chung; thể tích và số chiều).
@@ -52,11 +50,21 @@ Sau bài học, bạn có thể:
 
 ---
 
+## Bản đồ kiến thức nền: Giải tích điều hòa và Lý thuyết độ đo hình học là gì?
+
+Vì sao câu đố xoay một chiếc kim lại trở thành bài toán trung tâm của các nhà giải tích nghiên cứu sóng và biến đổi Fourier? Hãy nhìn vào hai ngành toán học giao nhau trong công trình của Hong Wang:
+
+- **Lý thuyết độ đo hình học (Geometric Measure Theory) nghiên cứu gì?** Trong hình học sơ cấp, ta đo kích thước bằng chiều dài, diện tích hay thể tích (độ đo Lebesgue). Nhưng với các tập **fractal** tinh vi, thể tích có thể bằng $$0$$ dù tập vẫn rất "dày"! Ví dụ kinh điển: **tập Cantor** trên đoạn $$[0, 1]$$ (liên tục bỏ phần ba ở giữa) có tổng chiều dài bằng $$0$$, nhưng khi phủ bằng các đoạn nhỏ cỡ $$3^{-k}$$ ta cần tới $$2^k$$ đoạn, nên **chiều Hausdorff** của nó là $$\log 2 / \log 3 \approx 0{,}631$$. Lý thuyết độ đo hình học nghiên cứu chính những tập mảnh dẻ như thế: độ lớn fractal, hình chiếu, tập khoảng cách giữa các điểm (*Falconer*), và cách các đoạn thẳng hay ống mảnh chồng lấp nhau (*Kakeya*, *Furstenberg*).
+- **Giải tích điều hòa (Harmonic Analysis) nghiên cứu gì?** Nghiên cứu cách phân tích hàm số và nghiệm của phương trình sóng thành tổng các sóng cơ bản (phân tích Fourier). Trong không gian nhiều chiều, khi bạn chồng rất nhiều sóng truyền theo mọi hướng khác nhau, mỗi sóng cục bộ hóa theo một hướng sẽ tập trung năng lượng trong một **ống mảnh** (gọi là *bó sóng*, wave packet). Nếu các ống mảnh theo mọi hướng có thể nén chồng khít lên nhau vào một tập cực nhỏ, thì các sóng có thể giao thoa tăng cường dữ dội tại một điểm kỳ dị!
+- **Vì sao Kakeya là viên đá tảng?** Chuyển bài toán từ hình học đoạn thẳng sang các **ống $$\delta$$** (bán kính $$\delta$$, dài 1) biến bài toán Kakeya thành thước đo chuẩn cho mức độ tập trung cực đại của các bó sóng. Hiểu được sự chồng lấp đa thang của các ống $$\delta$$ chính là chìa khóa cho cả chuỗi giả thuyết lớn của giải tích điều hòa: từ bài toán hạn chế Fourier đến tính làm trơn địa phương của phương trình sóng!
+
+---
+
 ## 1. Bài toán chiếc kim: phát biểu đơn giản, kết quả bất ngờ
 
-Năm 1917, **Sōichi Kakeya** hỏi (đại ý): một chiếc kim dài 1 cần được **xoay liên tục** trong một miền phẳng sao cho cuối cùng đầu và đuôi đổi chỗ cho nhau. Miền đó phải có diện tích nhỏ nhất là bao nhiêu?
+Năm 1917, **Sōichi Kakeya** hỏi (đại ý): một chiếc kim dài 1 cần được **xoay liên tục** trong một miền phẳng sao cho cuối cùng đầu và đuôi đổi chỗ cho nhau (quay $$180^\circ$$). Miền đó phải có diện tích nhỏ nhất là bao nhiêu?
 
-Theo trực giác, chiếc kim dài 1 phải quét qua một vùng "đáng kể". Xoay quanh trung điểm thì cần một hình tròn bán kính $$1/2$$ (diện tích $$\pi/4$$). Có những cách di chuyển khéo hơn cần ít diện tích hơn, ví dụ cổ điển là hình **deltoid**. Dù vậy, người ta vẫn nghĩ rằng diện tích phải có **một chặn dưới dương**.
+Theo trực giác, chiếc kim dài 1 phải quét qua một vùng "đáng kể". Xoay quanh trung điểm thì cần một hình tròn bán kính $$1/2$$ (diện tích $$\pi/4 \approx 0{,}785$$). Dùng kỹ thuật quay ba điểm kiểu đỗ xe, ta hạ diện tích xuống một hình **deltoid** (diện tích $$\pi/8 \approx 0{,}393$$). Dù vậy, người ta vẫn đinh ninh rằng diện tích phải có **một chặn dưới dương**.
 
 Besicovitch chứng minh một điều mạnh hơn nhiều so với việc "diện tích có thể nhỏ hơn một chút".
 
@@ -72,7 +80,7 @@ Một **tập Kakeya** (còn gọi là **tập Besicovitch**) trong $$\mathbb{R}
 
 **Abram Besicovitch** (khoảng 1919–1928) chứng minh rằng trên mặt phẳng tồn tại những tập như vậy có **độ đo Lebesgue bằng 0**. Nói cách khác, với mọi $$\varepsilon>0$$ ta có thể dựng một tập có diện tích nhỏ hơn $$\varepsilon$$ mà vẫn chứa đoạn dài 1 theo mọi hướng; qua một phép lấy giới hạn thích hợp, ta được một tập có độ đo đúng bằng 0.
 
-Về lịch sử, Besicovitch ban đầu nghiên cứu vấn đề này vì một câu hỏi về **tích phân lặp** trong lý thuyết tích phân Riemann. Cách dựng của ông sau đó cũng giải luôn bài toán chiếc kim của Kakeya: kết hợp với một kỹ thuật của Pál, ta có thể xoay chiếc kim trong một miền có diện tích nhỏ tùy ý. Vì vậy, tên gọi **tập Besicovitch** là hợp lý.
+Về lịch sử, Besicovitch ban đầu nghiên cứu vấn đề này vì một câu hỏi về **tích phân lặp** trong lý thuyết tích phân Riemann. Cách dựng của ông sau đó cũng giải luôn bài toán chiếc kim của Kakeya: kết hợp với một kỹ thuật của Pál (tịnh tiến chiếc kim dọc theo đường thẳng mất diện tích nhỏ tùy ý), ta có thể xoay chiếc kim trong một miền có diện tích nhỏ tùy ý. Vì vậy, tên gọi **tập Besicovitch** là hoàn toàn hợp lý.
 
 ### Làm sao diện tích có thể bằng 0?
 
@@ -82,7 +90,7 @@ Về lịch sử, Besicovitch ban đầu nghiên cứu vấn đề này vì mộ
 
 *Hình. Minh họa kinh điển: cắt một tam giác thành nhiều phần, trượt các phần để chúng chồng lên nhau nhiều hơn, rồi lặp lại.*
 
-Một hình ảnh hay dùng khi giảng dạy là **rèm sáo lặp lại**: các dải mỏng gần song song được nghiêng, cắt và xếp lại sao cho vẫn giữ được mọi hướng trong khi tổng diện tích giảm mạnh.
+Một hình ảnh hay dùng khi giảng dạy là **rèm sáo lặp lại** (cây Perron): cắt một tam giác lớn thành nhiều tam giác mảnh có chung đỉnh, rồi trượt chúng chồng lấn lên nhau dọc theo đáy. Mỗi mảnh vẫn giữ nguyên tập hợp hướng của nó, nhưng tổng diện tích hợp lại giảm đi đáng kể sau mỗi lần cắt–trượt!
 
 ![Venetian blind]({{ site.baseurl }}/img/chapter_img/venetian_blinds_kakeya.svg)
 
@@ -106,9 +114,9 @@ $$
 
 Hình học thông thường chỉ dùng số chiều nguyên. Với fractal, số chiều có thể là các giá trị ở giữa ($$1.5$$, $$2.7$$, …).
 
-**Chiều Minkowski (chiều đếm hộp)** dễ hình dung: phủ tập bằng các hộp cạnh $$r$$ và xem số hộp cần dùng tăng theo lũy thừa nào của $$1/r$$ khi $$r\to 0$$.
+**Chiều Minkowski (chiều đếm hộp)** dễ hình dung: phủ tập bằng các hộp cạnh $$r$$ và xem số hộp cần dùng tăng theo lũy thừa nào của $$1/r$$ khi $$r\to 0$$ (nếu cần khoảng $$r^{-d}$$ hộp thì chiều Minkowski bằng $$d$$).
 
-**Chiều Hausdorff** được định nghĩa tinh tế hơn bằng lý thuyết độ đo. Với nhiều tập "đủ đẹp", hai khái niệm này trùng nhau. Bài toán Kakeya nghiên cứu cả hai.
+**Chiều Hausdorff** được định nghĩa tinh tế hơn bằng lý thuyết độ đo (cho phép dùng các quả cầu có kích thước *khác nhau* để phủ tập). Với nhiều tập "đủ đẹp", hai khái niệm này trùng nhau. Bài toán Kakeya nghiên cứu cả hai.
 
 > **Thể tích bằng 0 không buộc số chiều phải nhỏ hơn 3.**  
 > Một tập trong $$\mathbb{R}^3$$ có thể có độ đo Lebesgue bằng 0 mà vẫn có chiều Minkowski bằng 3.
@@ -139,15 +147,15 @@ Từ cách dựng của Besicovitch, ta biết ở mọi số chiều đều có
 
 ---
 
-## 5. Vì sao trường hợp 3 chiều khó? Các ống δ
+## 5. Vì sao trường hợp 3 chiều khó? Các ống $$\delta$$
 
-Thay mỗi đoạn thẳng dài 1 bằng một **ống** mảnh dài khoảng 1, bán kính $$\delta$$ (gọi là ống δ, δ-tube). Khi nhìn ở thang $$\delta$$, một tập Kakeya giống như một họ rất lớn các ống, mỗi ống theo một hướng (hoặc theo một lưới hướng rất mịn).
+Thay mỗi đoạn thẳng dài 1 bằng một **ống** mảnh dài khoảng 1, bán kính $$\delta$$ (gọi là ống $$\delta$$, $$\delta$$-tube). Khi nhìn ở thang $$\delta$$, một tập Kakeya trong $$\mathbb{R}^3$$ giống như một họ gồm khoảng $$N \approx \delta^{-2}$$ ống, mỗi ống theo một hướng riêng biệt trên mặt cầu đơn vị $$S^2$$.
 
 ![δ-tube chồng lấp]({{ site.baseurl }}/img/chapter_img/kakeya_delta_tubes.svg)
 
-*Hình. Nhiều ống δ; những vùng các ống chồng lên nhau nhiều là nơi hình học trở nên phức tạp.*
+*Hình. Nhiều ống $$\delta$$; những vùng các ống chồng lên nhau nhiều là nơi hình học trở nên phức tạp.*
 
-Nếu các ống gần như không chồng lên nhau, thể tích của hợp trong $$\mathbb{R}^3$$ vào cỡ $$N\cdot \delta^{2}$$. Trường hợp khó là khi các ống **chồng lên nhau rất nhiều**:
+Nếu các ống gần như không chồng lên nhau, vì mỗi ống có thể tích cỡ $$\delta^2$$, thể tích của hợp trong $$\mathbb{R}^3$$ vào cỡ $$N\cdot \delta^{2} \approx 1$$. Trường hợp khó là khi các ống **chồng lên nhau rất nhiều**:
 
 $$
 \bigl\lvert \bigcup_i T_i\bigr\rvert \;\ll\; \sum_i \lvert T_i\rvert.
@@ -160,19 +168,19 @@ $$
 Hãy tưởng tượng hàng triệu sợi mì spaghetti rất mảnh, mỗi sợi theo một hướng, cần được nhét vào một vùng nhỏ nhất có thể.
 
 - **Nếu để tản ra**, chúng chiếm nhiều không gian và số chiều rõ ràng là lớn.  
-- **Nếu bó chặt**, chúng tạo thành những bó dày. Nhưng sự tập trung cực mạnh như vậy không thể tùy ý: các sợi phải gần song song, tập trung quanh một đường hay một mặt, hoặc tạo thành cấu hình kiểu **regulus** (họ đường thẳng trên một mặt hyperboloid một tầng).
+- **Nếu bó chặt**, chúng tạo thành những bó dày. Nhưng sự tập trung cực mạnh như vậy không thể tùy ý: các sợi phải gần song song, tập trung quanh một đường hay một mặt phẳng, hoặc tạo thành cấu hình kiểu **regulus** (họ đường thẳng chéo nhau cùng nằm trên một mặt cong hyperboloid một tầng — giống khung chiếc tháp làm mát hay giỏ mây đan chéo!).
 
 Ý tưởng trong phân tích của Wang–Zahl: **khi các ống chồng lên nhau quá nhiều, chúng buộc phải có cấu trúc hình học**, và cấu trúc đó có thể khai thác ở một thang khác.
 
 ### Tính "hạt" ở nhiều thang
 
-Ở thang thô, tập có thể trông như một khối đặc. Phóng to lên, ta thấy các ống mảnh. Phóng to thêm nữa lại thấy các cấu trúc "hạt" mới. Bài toán vì thế có bản chất đa thang:
+Ở thang thô, tập có thể trông như một khối đặc. Phóng to lên, ta thấy các ống mảnh. Phóng to thêm nữa lại thấy các cấu trúc "hạt" (*grain*) mới. Bài toán vì thế có bản chất đa thang:
 
 $$
 1 \;\to\; \delta \;\to\; \delta^{2} \;\to\; \cdots
 $$
 
-Trong không gian ba chiều, các ống có thể cắt chéo nhau, gần song song, tập trung theo đường hoặc mặt, hoặc tạo thành cấu hình regulus. Các phương pháp cho mặt phẳng không mở rộng một cách đơn giản lên ba chiều. Các bản tóm tắt của chuyên gia (ví dụ của Larry Guth) nhấn mạnh rằng chứng minh dài vì phải theo dõi cấu trúc ở nhiều thang cùng một lúc.
+Trong không gian ba chiều, các ống có thể cắt chéo nhau, gần song song, tập trung theo đường hoặc mặt, hoặc tạo thành cấu hình regulus. Các phương pháp cho mặt phẳng (nơi hai đường thẳng không song song *bắt buộc* cắt nhau tại đúng một điểm) không mở rộng được lên ba chiều. Các bản tóm tắt của chuyên gia (ví dụ của Larry Guth) nhấn mạnh rằng chứng minh dài vì phải theo dõi đồng thời cấu trúc ở vô số thang lồng nhau.
 
 ---
 
@@ -187,7 +195,7 @@ $$
 $$
 </div>
 
-Nguồn chính: *Volume estimates for unions of convex sets, and the Kakeya set conjecture in three dimensions* ([arXiv:2502.17655](https://arxiv.org/abs/2502.17655); 127 trang). Phần tóm tắt nêu rõ kết quả kỹ thuật: với một họ ống $$\delta$$ trong $$\mathbb{R}^3$$ mà không có quá nhiều ống nằm trong cùng một tập lồi $$V$$, hợp của chúng có **thể tích gần lớn nhất có thể**. Kết luận số chiều bằng 3 cho tập Kakeya được suy ra từ ước lượng này.
+Nguồn chính: *Volume estimates for unions of convex sets, and the Kakeya set conjecture in three dimensions* ([arXiv:2502.17655](https://arxiv.org/abs/2502.17655); 127 trang). Phần tóm tắt nêu rõ kết quả kỹ thuật: với một họ ống $$\delta$$ trong $$\mathbb{R}^3$$ thỏa điều kiện **không tập trung bất thường** (không có quá nhiều ống nằm gọn trong cùng một tập lồi $$V$$), hợp của chúng có **thể tích gần lớn nhất có thể** (tức $$\ge c_\varepsilon \delta^\varepsilon$$). Kết luận số chiều bằng 3 cho tập Kakeya được suy ra từ ước lượng này.
 
 Định lý **không** nói tập Kakeya ba chiều phải có thể tích dương; tập có độ đo bằng 0 kiểu Besicovitch vẫn tồn tại. Nội dung định lý là:
 
@@ -199,7 +207,7 @@ Nguồn chính: *Volume estimates for unions of convex sets, and the Kakeya set 
 2. Phân tích các giao điểm và sự tụ cụm của các ống.  
 3. Nếu các ống chồng lên nhau rất nhiều, chứng minh chúng phải có **cấu trúc hình học** (tính "dính", tính "hạt", tính "phẳng", là các chủ đề trong chương trình của Katz–Tao).  
 4. Dùng cấu trúc đó để chứng minh cấu hình phải **giãn ra** ở một thang khác (**tự cải thiện**).  
-5. Lập luận **quy nạp theo thang**.  
+5. Lập luận **quy nạp theo thang** (nối các ước lượng cho họ ống thành ước lượng tổng quát cho hợp của các tập lồi).  
 6. Kết luận số chiều không thể nhỏ hơn 3.
 
 **Ý tưởng tự cải thiện.**
@@ -212,7 +220,7 @@ $$
 \text{cấu hình tốt hơn ở thang khác}.
 $$
 
-Công trình trước đó của Wang–Zahl về tập Kakeya **dính** (sticky) là một bước chuẩn bị quan trọng. Tập dính có tính tự đồng dạng gần đúng ở nhiều thang và đã xuất hiện trong công trình của Katz–Łaba–Tao (1999). Wang–Zahl chứng minh giả thuyết Kakeya cho tập dính trong không gian ba chiều ([arXiv:2210.09581](https://arxiv.org/abs/2210.09581); *J. Amer. Math. Soc.* **39** (2026), 515–585).
+Công trình trước đó của Wang–Zahl về tập Kakeya **dính** (*sticky*) là một bước chuẩn bị quan trọng. Tập dính có tính tự đồng dạng gần đúng ở nhiều thang và đã xuất hiện trong công trình của Katz–Łaba–Tao (1999). Wang–Zahl chứng minh giả thuyết Kakeya cho tập dính trong không gian ba chiều ([arXiv:2210.09581](https://arxiv.org/abs/2210.09581); *J. Amer. Math. Soc.* **39** (2026), 515–585).
 
 **Ghi nhận công lao.** Đây là **công trình chung** của hai tác giả. Kết quả này là đỉnh cao của cả một thế kỷ nghiên cứu, dựa trên công trình của nhiều người đi trước.
 
@@ -230,7 +238,7 @@ Bài toán Kakeya nằm ở chỗ giao nhau của:
 - **giải tích điều hòa** (bài toán hạn chế Fourier, hàm cực đại, tích phân dao động),
 - **phương trình đạo hàm riêng** (tính làm trơn địa phương của phương trình sóng, sự tập trung của nghiệm).
 
-**Biến đổi Fourier** cho tương ứng hàm $$f(x)$$ với phổ tần số $$\hat f(\xi)$$ của nó. Khi nghiên cứu các sóng có cùng bước sóng nhưng theo nhiều hướng, hay khi hạn chế biến đổi Fourier lên một mặt cong, năng lượng thường chia thành các **bó sóng** (wave packet) nằm trên những ống dài và mảnh. Cách các ống này chồng lên nhau quyết định năng lượng có thể **tập trung** lại hay buộc phải **lan ra**.
+**Biến đổi Fourier** cho tương ứng hàm $$f(x)$$ với phổ tần số $$\hat f(\xi)$$ của nó. Khi nghiên cứu các sóng có cùng bước sóng nhưng theo nhiều hướng, hay khi hạn chế biến đổi Fourier lên một mặt cong, năng lượng thường chia thành các **bó sóng** (*wave packet*) nằm trên những ống dài và mảnh. Cách các ống này chồng lên nhau quyết định năng lượng có thể **tập trung** lại hay buộc phải **lan ra**.
 
 ![Từ Kakeya đến harmonic analysis]({{ site.baseurl }}/img/chapter_img/kakeya_to_harmonic_analysis.svg)
 
@@ -253,7 +261,7 @@ Lời trích dẫn của huy chương cố ý rộng hơn một định lý. B�
 | **Kakeya ba chiều** | Joshua Zahl | Trường hợp tập dính (JAMS 2026) và số chiều đầy đủ bằng 3 (arXiv:2502.17655) |
 
 **Vì sao.** Cách các hướng sắp xếp theo kiểu fractal quyết định năng lượng và độ đo có thể tập trung đến mức nào.  
-**Bằng cách nào.** Phân tích đa thang, kỹ thuật tách, hình học liên thuộc và hình học các ống.  
+**Bằng cách nào.** Phân tích đa thang, kỹ thuật tách (*decoupling*), hình học liên thuộc và hình học các ống.  
 **Kết quả.** Một loạt định lý sắc; Kakeya ba chiều là kết quả được công chúng biết đến nhiều nhất.
 
 ### Tiểu sử ngắn
@@ -308,11 +316,11 @@ Các kết quả của Besicovitch và Davies (dùng hình chữ nhật hay ốn
 
 ### C3. Chiều Hausdorff (kiến thức bổ trợ)
 
-Độ đo Hausdorff, định nghĩa qua một hàm cỡ (gauge function), đo "độ lớn" của một tập khi thể tích của nó bằng 0. Một tập có thể có độ đo bằng 0 nhưng $$\dim_H$$ vẫn bằng số chiều của không gian. **LO2:** độ đo bằng 0 **không** kéo theo số chiều bằng 0; số chiều đầy đủ **không** kéo theo độ đo Lebesgue dương.
+Độ đo Hausdorff, định nghĩa qua một hàm cỡ (*gauge function*), đo "độ lớn" của một tập khi thể tích của nó bằng 0. Một tập có thể có độ đo bằng 0 nhưng $$\dim_H$$ vẫn bằng số chiều của không gian. Cần nhớ rạch ròi: độ đo bằng 0 **không** kéo theo số chiều bằng 0; số chiều đầy đủ **không** kéo theo độ đo Lebesgue dương.
 
 ### C4. Kakeya ba chiều và Wang–Zahl (theo Quanta và các nguồn phổ thông)
 
-Giả thuyết ba chiều (dạng phổ thông) nói rằng mọi tập Kakeya trong $$\mathbb{R}^3$$ có số chiều đầy đủ bằng 3. Wang và Zahl đã chứng minh điều này; các bài tường thuật nhấn mạnh việc phân tích ống δ ở nhiều thang và các cấu hình dính. Khi trình bày, cần lưu ý:
+Giả thuyết ba chiều (dạng phổ thông) nói rằng mọi tập Kakeya trong $$\mathbb{R}^3$$ có số chiều đầy đủ bằng 3. Wang và Zahl đã chứng minh điều này; các bài tường thuật nhấn mạnh việc phân tích ống $$\delta$$ ở nhiều thang và các cấu hình dính. Khi trình bày, cần lưu ý:
 
 | Nên nói | Không nên nói |
 |----------|-----------|
@@ -323,11 +331,11 @@ Giả thuyết ba chiều (dạng phổ thông) nói rằng mọi tập Kakeya t
 
 ### C5. Video tiếng Việt
 
-Dùng để làm quen với chủ đề. Phụ đề tự động hoặc chỗ ghi sai tên, sai năm là cơ hội luyện mục tiêu **LO6**: đối chiếu với arXiv và IMU trước khi trích dẫn.
+Dùng để làm quen với chủ đề. Phụ đề tự động hoặc chỗ ghi sai tên, sai năm là dịp tốt để rèn thói quen kiểm chứng: luôn đối chiếu với arXiv và IMU trước khi trích dẫn.
 
 ### C6. Tài liệu hỗ trợ
 
-Xem `TRANSCRIPT_STATUS.md` và các tệp `*_knowledge_units.json`. Khi làm bài có chấm điểm, hãy dùng ký hiệu và thuật ngữ của bài học (ống δ, chiều Hausdorff, tập dính), đừng chép nguyên phụ đề.
+Xem `TRANSCRIPT_STATUS.md` và các tệp `*_knowledge_units.json`. Khi làm bài có chấm điểm, hãy dùng ký hiệu và thuật ngữ của bài học (ống $$\delta$$, chiều Hausdorff, tập dính), đừng chép nguyên phụ đề.
 
 ---
 
@@ -442,7 +450,7 @@ Danh mục URL đầy đủ (gồm mọi link dùng khi tìm video): `research/v
 2. Đã xong: bài về Wang (trang này).  
 3. **Bài tiếp →** [Studio Kakeya, Chương 7]({{ site.baseurl }}/contents/vi/chapter07/07_02_Explore_Kakeya/).  
 
-- Cách nghĩ nên giữ: các ống δ như một bài toán về sự tụ cụm ở nhiều thang.  
+- Cách nghĩ nên giữ: các ống $$\delta$$ như một bài toán về sự tụ cụm ở nhiều thang.  
 - Các câu hỏi còn mở: bài toán Kakeya ở chiều cao hơn; bài toán hạn chế và làm trơn địa phương (tính đến năm 2026).
 
 ## Video tham khảo

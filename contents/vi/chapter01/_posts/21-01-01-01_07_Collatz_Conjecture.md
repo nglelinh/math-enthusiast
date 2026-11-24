@@ -10,11 +10,15 @@ categories:
 lesson_type: required
 ---
 
-**Giả thuyết Collatz** (còn gọi là bài toán $$3x+1$$) có phát biểu cực kỳ sơ cấp nhưng đến nay vẫn chưa giải được. Người ta kể rằng Paul Erdős từng nói toán học có lẽ chưa sẵn sàng cho những bài toán như thế này; Jeffrey Lagarias thì gọi nó là bài toán cực kỳ khó dù bề ngoài đơn giản.
+Hãy chơi một trò chơi số học chỉ gồm đúng hai dòng luật: chọn một số nguyên dương bất kỳ; nếu là số chẵn thì chia đôi, nếu là số lẻ thì nhân ba rồi cộng một. Cứ lặp đi lặp lại mãi.
 
-Trong khóa Math Enthusiast, Collatz có hai vai trò. Ở trang Chương 1 này, nó là **ví dụ mẫu về một bài toán mở sơ cấp**, dùng để luyện mục tiêu 1 và để hiểu rằng kiểm tra không phải là chứng minh. Ở [bài thực hành Chương 7]({{ site.baseurl }}/contents/vi/chapter07/07_09_Explore_Iteration/), nó là đề tài mặc định cho bài **A5**, để làm thí nghiệm có phương pháp, chứ không phải để "chứng minh Collatz trong hồ sơ học tập".
+Thử với số $$6$$: $$6 \to 3 \to 10 \to 5 \to 16 \to 8 \to 4 \to 2 \to 1$$ — êm ả rơi về số 1 sau 8 bước. Bây giờ thử số $$27$$ xem sao! Thay vì đi xuống ngay, số $$27$$ nhỏ bé bỗng vọt lên $$82 \to 41 \to 124 \to \cdots$$, leo điên cuồng lên tận đỉnh **9.232** như một hạt mưa đá bị cuốn lên xuống trong đám mây giông, rồi mới chịu rơi dần về số 1 sau đúng **111 bước**! Câu hỏi mang tên **Giả thuyết Collatz** (hay bài toán $$3x+1$$) chỉ hỏi một điều duy nhất: *có phải mọi số nguyên dương, không trừ một số nào, cuối cùng đều rơi vào vòng lặp $$4 \to 2 \to 1$$ hay không?*
 
-**Nội dung bài:** quy tắc → giả thuyết → quỹ đạo và thời gian dừng → kiểm tra so với chứng minh → các kết quả từng phần → vì sao khó → vai trò trong khóa học → hiểu lầm thường gặp.
+Nghe như một bài tập lớp 3, nhưng nó là chiếc bẫy khét tiếng nhất của toán học hiện đại. Người ta kể rằng nhà toán học huyền thoại Paul Erdős từng lắc đầu cảnh báo: *"Toán học có lẽ vẫn chưa sẵn sàng cho những bài toán như thế này"*; còn Jeffrey Lagarias thì ví nó như một căn bệnh dễ lây trong giới nghiên cứu vì ai cũng tưởng mình sắp giải được.
+
+Trong khóa Math Enthusiast, Collatz đóng hai vai trò thú vị: ở trang Chương 1 này, nó là **ví dụ mẫu kinh điển về một bài toán mở sơ cấp**, giúp bạn phân biệt sắc nét giữa bằng chứng tính toán và chứng minh toán học; còn ở [bài thực hành Chương 7]({{ site.baseurl }}/contents/vi/chapter07/07_09_Explore_Iteration/), nó là sân chơi mặc định cho bài **A5**, nơi bạn làm thí nghiệm số học có phương pháp (chứ không phải đi "chứng minh Collatz trong hồ sơ học tập").
+
+**Mạch bài học:** quy tắc → giả thuyết → quỹ đạo và thời gian dừng → kiểm tra so với chứng minh → các kết quả từng phần → vì sao khó → vai trò trong khóa học → hiểu lầm thường gặp.
 
 ---
 
@@ -29,11 +33,21 @@ Sau bài học, bạn có thể:
 - Phát biểu ngắn gọn **định lý "hầu hết" của Tao (2019)** và giải thích vì sao nó **không** phải chứng minh đầy đủ giả thuyết Collatz.
 - Phân biệt ánh xạ chuẩn $$T$$ với dạng **rút gọn / Syracuse** khi so sánh các nguồn tài liệu.
 - Dùng Collatz làm đề tài **A5** mà không tuyên bố đã giải được; phân biệt trang Chương 1 (giải thích) với bài thực hành Chương 7 (thí nghiệm).
-- Tránh các lỗi (mục tiêu 6): "đã kiểm tra đến $$10^{20}$$ nên đúng", "Tao đã giải Collatz", "dãy số là ngẫu nhiên", các tin đồn trên mạng về việc bác bỏ giả thuyết.
+- Tránh các lỗi phổ biến như "đã kiểm tra đến $$10^{20}$$ nên đúng", "Tao đã giải Collatz", "dãy số là ngẫu nhiên", hay tin đồn trên mạng về việc bác bỏ giả thuyết.
 
 **Kiến thức cần có.** Số nguyên và tính chẵn lẻ. Không cần giải tích; chỉ cần quen với việc lặp lại một phép toán và đọc đồ thị là đủ cho bài thực hành.
 
-**Liên hệ với khóa học.** **Mục tiêu 1** và **mục tiêu 5**; [Bài thực hành về phép lặp Collatz]({{ site.baseurl }}/contents/vi/chapter07/07_09_Explore_Iteration/); [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) (kiểm tra so với chứng minh); so sánh về độ sơ cấp và độ sâu với [số nguyên tố sinh đôi]({{ site.baseurl }}/contents/vi/chapter01/01_06_Twin_Prime_Conjecture/).
+**Kết nối trong khóa học.** Bài này đi liền với [Bài thực hành về phép lặp Collatz]({{ site.baseurl }}/contents/vi/chapter07/07_09_Explore_Iteration/), đối chiếu bài học "kiểm tra không phải chứng minh" với [Giả thuyết Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/), và so sánh về độ sơ cấp lẫn độ sâu với [Số nguyên tố sinh đôi]({{ site.baseurl }}/contents/vi/chapter01/01_06_Twin_Prime_Conjecture/).
+
+---
+
+## Bản đồ kiến thức nền: Hệ động lực rời rạc và Lý thuyết Ergodic là gì?
+
+Ở đại học, bạn có thể đã gặp các dãy truy hồi tuyến tính (như dãy Fibonacci) hay xích Markov trong xác suất. **Lý thuyết hệ động lực rời rạc (Discrete Dynamical Systems)** là ngành toán học tổng quát hóa ý tưởng đó: ta có một không gian trạng thái $$X$$ và một quy tắc tiến hóa cố định $$f: X \to X$$. Xuất phát từ điểm $$x_0$$, ta lặp đi lặp lại $$x_1 = f(x_0),\, x_2 = f(x_1),\, \ldots$$ để tạo thành một **quỹ đạo (orbit)**.
+
+- **Những câu hỏi lớn của ngành:** Về lâu dài (khi $$k \to \infty$$), quỹ đạo sẽ đi về đâu? Nó hội tụ về một **điểm bất động**, rơi vào một **chu trình tuần hoàn**, phân kỳ ra vô cùng, hay nhảy múa **hỗn loạn (chaotic)** — nhạy cảm cực độ với thay đổi nhỏ ở điều kiện đầu?
+- **Vai trò của Lý thuyết Ergodic và Lý thuyết số xác suất:** Khi một hệ động lực quá rối rắm để giải công thức đóng cho *từng* quỹ đạo riêng lẻ, các nhà toán học chuyển sang hỏi về **hành vi điển hình (hầu hết mọi quỹ đạo)** theo ngôn ngữ xác suất và phân phối dừng. Đó chính là cách Terence Tao đã dùng để đạt đột phá năm 2019 về Collatz!
+- **Ứng dụng thực tiễn:** Hệ động lực rời rạc là nền tảng để mô hình hóa biến động quần thể sinh học (ánh xạ logistic), bộ sinh số giả ngẫu nhiên, tối ưu hóa bằng thuật toán lặp (gradient descent) và các bài toán quyết định dừng (halting problem) trong khoa học máy tính.
 
 ---
 
@@ -63,7 +77,7 @@ Có những phát biểu tương đương nói về việc đi đến số 1, ho
 
 **Thời gian dừng.** *Thời gian dừng toàn phần* của $$n$$ thường được hiểu là số bước cho đến khi chạm 1 (hoặc vào chu trình tầm thường); hãy cố định định nghĩa chính xác một lần trong báo cáo A5 của bạn. *Thời gian dừng* đôi khi lại chỉ số bước cho đến khi có một giá trị nhỏ hơn $$n$$. Hãy dùng thuật ngữ nhất quán trong toàn bộ hồ sơ học tập.
 
-**Số ban đầu 27.** Quỹ đạo của 27 nổi tiếng vì leo lên rất cao trước khi về 1; đếm số bước là một bài tập quen thuộc. Hiện tượng "số nhỏ mà đi rất xa" là một lý do trực quan khiến người ta không tin rằng kiểm tra tay vài chục số là đủ.
+**Số ban đầu 27.** Quỹ đạo của 27 nổi tiếng vì leo lên tận 9.232 rồi mới về 1 sau 111 bước (theo ánh xạ $$T$$). Trong khi đó, hai người hàng xóm ngay cạnh nó là $$26$$ (10 bước) và $$28$$ (18 bước) lại rơi về 1 cực nhanh! Hiện tượng "số nhỏ mà đi cực xa, hàng xóm sát nhau mà số phận khác hẳn" là trực quan đầu tiên khiến ta thấy bài toán không hề đơn giản.
 
 ---
 
@@ -83,7 +97,7 @@ Hãy theo dõi quỹ đạo Collatz của số 97: nó leo lên 9232 rồi mới
 
 ## 2. Quỹ đạo, thời gian dừng và thời gian dừng toàn phần
 
-Cố định số ban đầu $$n$$. **Quỹ đạo** là dãy vô hạn $$n, T(n), T^2(n),\ldots$$. Phần lớn nghiên cứu về Collatz là để hiểu các quỹ đạo: chúng leo cao đến đâu, đi lòng vòng bao lâu, có vào chu trình không, có tiến ra vô cùng không.
+Cố định số ban đầu $$n$$. **Quỹ đạo** là dãy vô hạn $$n, T(n), T^2(n),\ldots$$. Phần lớn nghiên cứu về Collatz là để hiểu các quỹ đạo: chúng leo cao đến đâu, đi lòng vòng bao lâu, có vào chu trình khác không, có tiến ra vô cùng không.
 
 Hai đại lượng cổ điển dùng để ghi chép:
 
@@ -104,7 +118,7 @@ Với số nhỏ, có thể tính bằng tay; với số lớn, đây là một 
 
 **Sâu mà không cần thuật ngữ.** Khác với BSD hay giải tích điều hòa, Collatz không cần một học kỳ kiến thức nền mới *phát biểu* được. Nhưng các kết quả từng phần tốt nhất lại dùng lý thuyết ergodic, xác suất và tổ hợp số học. Cái khó ở đây không nằm ở ngôn ngữ khó hiểu, mà ở chỗ một hệ động lực sơ cấp trên tập số nguyên lại **chống lại** mọi cố gắng chứng minh.
 
-**Đặc điểm của bài toán mở (mục tiêu 6).** Độ phức tạp của phát biểu và độ khó của lời giải **không** nhất thiết đi cùng nhau. Một công thức truy hồi một dòng có thể tồn tại qua nhiều thế hệ kỹ thuật. Hãy so sánh với ngôn ngữ của bài [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/).
+**Đặc điểm của bài toán mở.** Độ phức tạp của phát biểu và độ khó của lời giải **không** nhất thiết đi cùng nhau. Một công thức truy hồi một dòng có thể tồn tại qua nhiều thế hệ kỹ thuật. Hãy so sánh với ngôn ngữ trừu tượng của bài [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/).
 
 **Toán học thực nghiệm.** Thống kê theo lớp đồng dư, cây ngược, kỷ lục độ cao, biểu đồ tần suất thời gian dừng đều là đối tượng toán học chính đáng khi giả thuyết đầy đủ còn mở. Bài toán này đánh giá cao việc ghi nhật ký cẩn thận và báo cáo trung thực kết quả âm, không kém gì một đồ thị đẹp.
 
@@ -116,7 +130,7 @@ Collatz là "bài toán cửa ngõ": dễ bước vào, khó đi ra. Khóa học
 
 ## 4. Kiểm tra không phải là chứng minh
 
-Giả thuyết đã được kiểm tra với mọi số ban đầu đến một giới hạn **cực lớn**. Các dự án tính toán đã vượt qua $$2^{68}$$, $$2^{70}$$, $$2^{71}$$ và các mốc liên quan; con số này thay đổi theo thời gian, nên khi viết bài A3 hoặc A5, hãy trích dẫn một bài tổng quan hoặc một bài kiểm tra mới nhất (ví dụ các công trình của Barina và những người tiếp theo) thay vì nhớ một con số cố định.
+Giả thuyết đã được kiểm tra với mọi số ban đầu đến một giới hạn **cực lớn**. Các dự án tính toán đã vượt qua $$2^{68}$$, $$2^{70}$$, $$2^{71}$$ và các mốc liên quan (tức hơn $$2{,}3 \times 10^{21}$$); con số này thay đổi theo thời gian, nên khi viết bài A3 hoặc A5, hãy trích dẫn một bài tổng quan hoặc một bài kiểm tra mới nhất (ví dụ các công trình của Barina và những người tiếp theo) thay vì nhớ một con số cố định.
 
 Trong phạm vi đã kiểm tra, chưa tìm thấy phản ví dụ nào.
 
@@ -136,14 +150,26 @@ Câu nói đúng khi thảo luận: *Collatz đã được kiểm tra đến m�
 
 ## 5. Lập luận gần đúng: vì sao kỳ vọng dãy đi xuống
 
-Nếu giả thuyết đúng, ánh xạ phải "kéo phần lớn quỹ đạo đi xuống về trung bình", dù mỗi bước với số lẻ là nhân 3 rồi cộng 1. Các mô hình gần đúng giúp định lượng trực giác đó.
+Nếu giả thuyết đúng, ánh xạ phải "kéo phần lớn quỹ đạo đi xuống về trung bình", dù mỗi khi gặp số lẻ nó lại nhân 3 rồi cộng 1. Ta có thể kiểm tra trực giác này bằng đúng hai dòng tính kỳ vọng xác suất cơ bản!
 
-**Lập luận quen thuộc.** Áp dụng $$3n+1$$ cho một số lẻ luôn cho kết quả chẵn, nên sau đó có ít nhất một lần chia 2, và thường là nhiều hơn. Nếu coi số thừa số $$2$$ sau mỗi bước lẻ gần với phân phối hình học (mô hình chẵn lẻ ngẫu nhiên thường dùng), thì kỳ vọng thay đổi của logarit sau mỗi bước lẻ là **âm**. Trong các mô hình xác suất như vậy, hầu hết quỹ đạo được dự đoán sẽ đến các giá trị nhỏ; đó là lý do nhiều người tin giả thuyết đúng.
+**Phép tính nhanh theo kỳ vọng.** Xuất phát từ một số lẻ $$N$$ lớn, giá trị $$3N+1$$ luôn là số chẵn nên chia hết cho $$2^1$$ (xác suất $$1$$); nếu các bit nhị phân hành xử gần như ngẫu nhiên thì nó chia hết cho $$2^2 = 4$$ với xác suất $$1/2$$, chia hết cho $$2^3 = 8$$ với xác suất $$1/4$$, v.v. Do đó, số lần chia đôi trung bình ngay sau một bước lẻ là tổng chuỗi hình học quen thuộc:
+
+$$
+\mathbb{E}[a(N)] = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \cdots = 2.
+$$
+
+Nghĩa là trung bình sau một bước lẻ kèm toàn bộ các lần chia đôi theo sau, số $$N$$ bị nhân với hệ số:
+
+$$
+\frac{3}{2^2} = \frac{3}{4} = 0.75 < 1!
+$$
+
+Nói theo thang logarit, kỳ vọng độ thay đổi của $$\log N$$ sau mỗi chu kỳ lẻ là $$\log(3/4) \approx -0.2877 < 0$$ — một "lực hút đi xuống" rất rõ rệt! Chính vì lực kéo trung bình bằng $$3/4$$ này mà hầu hết các quỹ đạo đều sớm tụt về những số nhỏ.
 
 **Những lưu ý quan trọng.**
 
 - Ánh xạ là **tất định**. Gọi các thống kê là "ngẫu nhiên" là **một lựa chọn mô hình**, không phải vì $$T$$ tung đồng xu.
-- Lập luận về "hầu hết" **không** tự động kiểm soát **mọi** số nguyên. Một tập ngoại lệ thưa thớt vẫn có thể làm giả thuyết sai.
+- Lập luận về "hầu hết" **không** tự động kiểm soát **mọi** số nguyên. Một tập ngoại lệ siêu thưa thớt vẫn có thể thoát khỏi lực hút trung bình và làm giả thuyết sai.
 - Các dạng ánh xạ rút gọn (gộp các bước chia 2) làm thay đổi hằng số trong lập luận gần đúng, nhưng **không** thay thế được một chứng minh thật sự.
 
 Hãy dùng lập luận gần đúng để định hướng thí nghiệm, và để giải thích vì sao không ngạc nhiên khi chưa tìm thấy phản ví dụ nhỏ. **Đừng** nhầm dự đoán xác suất với chứng minh.
@@ -168,11 +194,20 @@ $$
 \operatorname{Syr}(N)=\frac{3N+1}{2^{a(N)}},
 $$
 
-trong đó $$2^{a(N)}$$ là lũy thừa lớn nhất của $$2$$ chia hết $$3N+1$$ (kết quả lại là số lẻ). Lặp $$\operatorname{Syr}$$ là theo dõi các số lẻ trong quỹ đạo Collatz sau khi đã thực hiện hết các phép chia 2 bắt buộc.
+trong đó $$2^{a(N)}$$ là lũy thừa lớn nhất của $$2$$ chia hết $$3N+1$$ (kết quả lại là số lẻ). Lặp $$\operatorname{Syr}$$ là theo dõi riêng các "trạm dừng số lẻ" trong quỹ đạo Collatz sau khi đã nén gọn toàn bộ các bước chia 2 liên tiếp.
 
-**Vì sao nghiên cứu ưa dùng dạng này.** Các thống kê theo modulo lũy thừa của $$3$$ gọn hơn; mô hình xác suất cho số mũ $$a(N)$$ của 2 (trong mô hình ngẫu nhiên, thường là phân phối hình học với kỳ vọng $$2$$) là trung tâm của các chứng minh "hầu hết" hiện đại. **Lưu ý khi thảo luận:** quỹ đạo theo $$T$$ và theo $$\operatorname{Syr}$$ trông khác nhau; chỉ so sánh các nguồn sau khi đã thống nhất quy ước.
+**Ví dụ cụ thể với $$N = 7$$:**
+- $$3(7)+1 = 22 = 2^1 \cdot 11 \implies \operatorname{Syr}(7) = 11$$ (số mũ $$a=1$$).
+- $$3(11)+1 = 34 = 2^1 \cdot 17 \implies \operatorname{Syr}(11) = 17$$ ($$a=1$$).
+- $$3(17)+1 = 52 = 2^2 \cdot 13 \implies \operatorname{Syr}(17) = 13$$ ($$a=2$$).
+- $$3(13)+1 = 40 = 2^3 \cdot 5 \implies \operatorname{Syr}(13) = 5$$ ($$a=3$$).
+- $$3(5)+1 = 16 = 2^4 \cdot 1 \implies \operatorname{Syr}(5) = 1$$ ($$a=4$$).
 
-Một số bài báo cũ dùng dạng rút gọn khác, gộp "bước lẻ cùng ít nhất một lần chia 2" thành một công thức. Một lần nữa: hãy khớp với định nghĩa của tác giả trước khi đếm bước.
+Quỹ đạo đầy đủ theo $$T$$ mất tới 16 bước mới chạm 1, nhưng qua ống kính Syracuse chỉ còn đúng 5 bước gọn gàng: $$7 \to 11 \to 17 \to 13 \to 5 \to 1$$!
+
+**Vì sao nghiên cứu ưa dùng dạng này.** Các thống kê theo modulo lũy thừa của $$3$$ gọn hơn hẳn; và mô hình xác suất cho số mũ $$a(N)$$ (phân phối hình học có kỳ vọng $$2$$ như ta vừa tính ở mục 5) trở thành trung tâm của các chứng minh "hầu hết" hiện đại. **Lưu ý khi thảo luận:** quỹ đạo theo $$T$$ và theo $$\operatorname{Syr}$$ có số bước khác nhau; chỉ so sánh các nguồn sau khi đã thống nhất quy ước.
+
+Một số bài báo cũ dùng dạng rút gọn khác, gộp "bước lẻ cùng đúng một lần chia 2" thành $$(3n+1)/2$$. Một lần nữa: hãy khớp với định nghĩa của tác giả trước khi đếm bước.
 
 ---
 
@@ -193,9 +228,9 @@ $$
 \operatorname{Col}_{\min}(N)<f(N)
 $$
 
-với hầu hết $$N$$ theo mật độ logarit. Ví dụ minh họa: hầu hết quỹ đạo có giá trị nhỏ nhất bé hơn $$\log\log\log\log N$$.
+với hầu hết $$N$$ theo mật độ logarit. Ví dụ minh họa: hầu hết quỹ đạo có giá trị nhỏ nhất bé hơn $$\log\log\log\log N$$ — nói nôm na là "hầu hết mọi quỹ đạo Collatz đều đạt tới các giá trị gần như bị chặn".
 
-**Định lý này không phải là:** mọi $$N$$ đều về 1; một kết quả chỉ dựa trên kiểm tra; một kết quả về mật độ tự nhiên; "video đã giải Collatz".
+**Định lý này không phải là:** mọi $$N$$ đều về 1; một kết quả chỉ dựa trên kiểm tra; một kết quả về mật độ tự nhiên; hay "Tao đã giải xong Collatz".
 
 Nguồn chuẩn: [arXiv:1909.03562](https://arxiv.org/abs/1909.03562), [blog Tao](https://terrytao.wordpress.com/2019/09/10/almost-all-collatz-orbits-attain-almost-bounded-values/); bài phổ thông: [Quanta](https://www.quantamagazine.org/mathematician-proves-huge-result-on-dangerous-problem-20191211/).
 
@@ -208,12 +243,12 @@ Nguồn chuẩn: [arXiv:1909.03562](https://arxiv.org/abs/1909.03562), [blog Tao
 5. Lặp lại việc đi xuống hầu chắc chắn ở mức cục bộ để có kết quả gần bị chặn ở mức toàn cục.  
 6. Biến đổi Fourier / hàm đặc trưng cùng **quá trình đổi mới** (renewal process), chi tiết xem bài báo.
 
-Bài viết theo mục tiêu khóa học chỉ cần nêu kết luận của định lý chính (Theorem 2 trong bài báo) và nhấn mạnh rằng giả thuyết vẫn còn mở.
+Khi tổng hợp kiến thức, bạn chỉ cần nêu đúng kết luận của định lý chính (Theorem 2 trong bài báo) và nhấn mạnh rằng giả thuyết vẫn còn mở.
 
 ### 7.3 Chu trình, các dạng tổng quát, tính toán
 
-- **Chu trình:** trong các số dương, chỉ biết chu trình $$4\to 2\to 1$$; với số âm hoặc ánh xạ khác thì có thể khác.  
-- **Dạng tổng quát $$mx+1$$:** một số biến thể liên quan đến tính không quyết định được; điều đó **không** có nghĩa là "Collatz cổ điển đã được chứng minh là không quyết định được" (xem video của Easy Theory trong tư liệu).  
+- **Chu trình:** trong các số dương, chỉ biết chu trình $$4\to 2\to 1$$ (và nếu có một chu trình dương khác thì độ dài của nó đã được chứng minh phải cực kỳ lớn — hàng trăm triệu bước!); với số âm hoặc ánh xạ khác thì có nhiều chu trình khác (ví dụ $$-1 \to -2 \to -1$$ hay $$-5 \to -14 \to -7 \to -20 \to -10 \to -5$$).  
+- **Dạng tổng quát $$mx+1$$:** John Conway (1972) chứng minh một họ ánh xạ tổng quát kiểu Collatz có thể mô phỏng máy tính phổ quát, dẫn tới tính không quyết định được (undecidability); điều đó **không** có nghĩa là "Collatz cổ điển đã được chứng minh là không quyết định được" (xem video của Easy Theory trong tư liệu).  
 - **Kiểm tra bằng máy tính:** cắt tỉa cây, lọc theo đồng dư; đây là các kỹ thuật tính toán.  
 - **Bài tổng quan của Lagarias** ([arXiv:2111.02635](https://arxiv.org/abs/2111.02635)): điểm bắt đầu để đọc tài liệu.
 
@@ -223,7 +258,7 @@ Các kết quả "từng phần" về Collatz mang tính *cấu trúc và mật 
 
 ## 8. Vì sao khó, nói bằng lời
 
-Ánh xạ trộn lẫn phép **nhân** ($$3n+1$$) và phép **chia cho 2**, làm mất đi nhiều bất biến đơn giản. Quỹ đạo đi lòng vòng không theo quy luật; thời gian dừng thay đổi rất mạnh theo số ban đầu. Không có hàm Lyapunov hiển nhiên nào giảm sau *mọi* bước với *mọi* $$n$$. Các kỹ thuật cho hệ động lực trơn không dễ áp dụng cho hệ lai trên số nguyên này.
+Ánh xạ trộn lẫn hai cấu trúc số học "không đội trời chung": **phép nhân với 3 cộng 1** (cấu trúc cơ số 3 kết hợp phép cộng) và **phép chia cho 2** (cấu trúc cơ số 2). Phép cộng $$+1$$ phá hủy hoàn toàn biểu diễn thừa số nguyên tố của số trước đó, làm mất đi các bất biến đại số đơn giản. Không có hàm năng lượng (hàm Lyapunov) hiển nhiên nào giảm đều sau *mọi* bước với *mọi* $$n$$. Các kỹ thuật giải tích cho hệ động lực trơn không dễ áp dụng cho hệ lai trên tập số nguyên này.
 
 Nói cách khác: mỗi bước đều đơn giản, nhưng **bức tranh tổng thể** của vô hạn quỹ đạo thì không. Đó là khoảng cách giữa "một quy tắc trẻ em cũng hiểu" và "một định lý".
 
@@ -236,7 +271,7 @@ So với [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/): ở
 | Trang này (Chương 1) | Bài thực hành ([Chương 7]({{ site.baseurl }}/contents/vi/chapter07/07_09_Explore_Iteration/)) |
 |------------------|---------------|
 | Phát biểu, bối cảnh, tình trạng | Thí nghiệm, nhật ký, hồ sơ học tập |
-| Giải thích (mục tiêu 1) | Sáng tạo, khám phá (mục tiêu 5) |
+| Giải thích bản chất bài toán mở | Tự sáng tạo, khám phá bằng dữ liệu |
 | Không bắt buộc viết mã | Khuyến khích viết mã, vẽ đồ thị |
 | Không giải giả thuyết | Không giải giả thuyết, nhưng có quy trình kiểm tra các giả thuyết nhỏ |
 
@@ -276,10 +311,10 @@ Khi so sánh đồ thị với bạn bè hay với một bài báo, trước h�
 1. Tính quỹ đạo của 27 cho đến khi về 1; đếm số bước (ghi rõ ánh xạ bạn dùng).  
 2. Định nghĩa thời gian dừng toàn phần trong một câu, và cố định thuật ngữ này cho bài A5.  
 3. Nêu một lý do vì sao kiểm tra không phải là chứng minh, áp dụng cho Collatz.  
-4. **Mục tiêu 1 (không quá 250 từ):** phát biểu giả thuyết Collatz, vì sao khó, toán học xung quanh (lập luận gần đúng / mật độ / chu trình).  
+4. **Tổng hợp (không quá 250 từ):** phát biểu giả thuyết Collatz, vì sao khó, toán học xung quanh (lập luận gần đúng / mật độ / chu trình).  
 5. Phác thảo một giả thuyết cho bài A5 **có thể bác bỏ** bằng đồ thị (ví dụ về thời gian dừng trung bình).  
 6. Đọc tóm tắt một bài tổng quan của Lagarias; liệt kê ba chủ đề con.  
-7. **Mục tiêu 6:** sửa câu "Collatz đúng vì máy tính đã kiểm tra mọi số cần thiết".  
+7. **Phản biện thông tin:** sửa câu "Collatz đúng vì máy tính đã kiểm tra mọi số cần thiết".  
 8. Mở rộng: viết một đoạn so sánh Collatz với [số nguyên tố sinh đôi]({{ site.baseurl }}/contents/vi/chapter01/01_06_Twin_Prime_Conjecture/): cả hai đều sơ cấp; các kết quả từng phần khác nhau như thế nào?  
 9. **Nói đúng về kết quả của Tao (không quá 200 từ):** viết hai câu "Tao đã chứng minh…" và "Tao **không** chứng minh…", có nhắc đến mật độ logarit và $$\operatorname{Col}_{\min}$$.  
 10. **Biến thể ánh xạ:** tính bốn số lẻ đầu tiên trong quỹ đạo của $$7$$ theo $$T$$; tính $$\operatorname{Syr}(7)$$; giải thích vì sao số bước khác nhau.

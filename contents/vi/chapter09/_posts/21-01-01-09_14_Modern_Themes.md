@@ -9,7 +9,9 @@ categories:
 - chapter09
 ---
 
-Giải Turing đặt một sự nghiệp dưới ánh đèn, nhưng biên giới của toán học và tính toán không dừng lại theo từng năm trao giải. Bài kết chương 09 là **bản đồ các chủ đề hiện đại**, nơi thuật toán, hệ thống, học máy, mật mã, tính toán lượng tử và kiểm chứng hình thức gặp nhau. Bài đủ sâu để bạn biết nên đọc tiếp những gì, và không giả vờ là một bản tổng quan đầy đủ. Hãy đọc bài này sau các bài về Yao, Valiant, Hopcroft–Tarjan, Pearl, bộ ba học sâu và Wigderson, rồi nối lại với [Chương 6]({{ site.baseurl }}/contents/vi/chapter06/06_00_Tong_quan/), [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/) và [Abel / Fields]({{ site.baseurl }}/contents/vi/chapter08/08_01_Tong_quan/).
+Mỗi mùa xuân, khi Hội đồng ACM công bố tên người nhận Giải Turing mới, ánh đèn sân khấu thường chiếu rọi vào những ý tưởng đã được kiểm nghiệm suốt 20 hay 30 năm. Nhưng ở ngay ngoài rìa ánh đèn ấy, trong các phòng thí nghiệm và trên arXiv tuần này, biên giới giữa **Toán học** và **Khoa học máy tính** đang dịch chuyển với tốc độ chóng mặt: các nhà mật mã chạy đua chuẩn hóa thuật toán chống máy tính lượng tử; các nhà toán học dùng trợ lý chứng minh Lean để kiểm chứng những chứng minh dài hàng trăm trang; còn các nhà tối ưu hóa đang cố gắng giải mã vì sao mạng nơ-ron hàng trăm tỉ tham số lại không bị quá khớp!
+
+Bài kết Chương 9 này đóng vai trò một **tấm bản đồ hàng hải** cho vùng biên giới thập niên 2020. Sau khi đi qua các cột mốc của Yao, Valiant, Hopcroft–Tarjan, Pearl, bộ ba học sâu và Wigderson, bạn sẽ nhìn thấy những sợi chỉ đó đang đan xen vào đâu hôm nay — cùng một bộ câu hỏi phản biện sắc bén giúp bạn đọc tin tức công nghệ mà không bị cuốn theo các khẩu hiệu giật gân. Liên kết: [Chương 6]({{ site.baseurl }}/contents/vi/chapter06/06_00_Tong_quan/), [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/) và [Abel / Fields]({{ site.baseurl }}/contents/vi/chapter08/08_01_Tong_quan/).
 
 ---
 
@@ -24,6 +26,16 @@ Sau bài này, bạn có thể:
 - phác thảo một lộ trình đọc cá nhân trong 3–6 tháng, đi từ chương 09 ra bên ngoài.
 
 **Kiến thức nền.** Các bài 09.08–09.13 hoặc kiến thức tương đương; quen với P/NP, đồ thị, xác suất và gradient.
+
+---
+
+## Bản đồ kiến thức nền: Vùng biên Toán–Khoa học máy tính hiện đại là gì và nghiên cứu những gì?
+
+Nếu khoa học máy tính thế kỷ XX có ranh giới khá rõ giữa *lý thuyết* (chứng minh trên bảng đen) và *hệ thống* (viết mã chạy trên máy thật), thì ở thế kỷ XXI ranh giới đó đang mờ dần và tạo ra **vùng biên Toán–CS** đầy sức sống. Áp lực từ thực tiễn triển khai ở quy mô tỉ người dùng liên tục sinh ra những bài toán toán học mới tinh, và ngược lại những định lý toán học mới lập tức định hình kiến trúc hệ thống:
+
+- **Từ phân loại thô (P vs NP) sang phân loại tinh (Fine-Grained Complexity):** Với dữ liệu gen dài hàng tỉ ký tự, một thuật toán $$O(n^2)$$ (tính khoảng cách chỉnh sửa giữa hai chuỗi ADN) là *quá chậm* dù nó thuộc lớp P! Độ phức tạp chi tiết chứng minh có điều kiện rằng ta không thể hạ số mũ từ $$n^2$$ xuống $$n^{1.99}$$ trừ khi giả thuyết mạnh về SAT (SETH) bị sụp đổ.
+- **Từ thống kê cổ điển sang tối ưu không lồi và quyền riêng tư toán học:** Làm sao huấn luyện mô hình AI trên dữ liệu bệnh án mà *đảm bảo toán học* rằng không ai có thể lần ngược ra thông tin của một bệnh nhân cụ thể? Đó là **Quyền riêng tư vi phân (Differential Privacy)** — nơi bất đẳng thức tập trung xác suất gặp kỹ nghệ dữ liệu lớn.
+- **Từ chứng minh trên giấy sang "chứng minh như phần mềm":** Các trợ lý chứng minh như **Lean** và **Coq** biến chứng minh toán học thành chương trình được kiểm tra kiểu (type-checking) tự động, mở ra kỷ nguyên cộng tác giữa nhà toán học, phần mềm kiểm chứng và AI.
 
 ---
 

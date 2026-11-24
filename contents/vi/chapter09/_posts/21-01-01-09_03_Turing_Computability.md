@@ -9,9 +9,9 @@ categories:
 - chapter09
 ---
 
-Năm **1936**, trước khi máy tính điện tử phổ biến, **Alan Turing** công bố *On Computable Numbers, with an Application to the Entscheidungsproblem*. Bài báo không “phát minh ra máy tính xách tay”. Nó làm một việc toán học chính xác hơn: đưa ra mô hình chính xác cho **thủ tục hữu hạn, máy móc, từng bước** mà ta gọi là tính toán, rồi chứng minh rằng **không phải mọi bài toán đều giải được** bởi bất kỳ thủ tục nào thuộc lớp đó. Cùng thời kỳ, Church, Kleene, Post và những người khác xây dựng các hình thức tương đương; luận đề **Church–Turing** tóm tắt sự hội tụ: mọi khái niệm hợp lý về “tính được bằng thuật toán” đều trùng với lớp hàm máy Turing tính được.
+Năm 1928, nhà toán học vĩ đại David Hilbert đứng trước Đại hội Toán học Quốc tế với một giấc mơ lạc quan: liệu có tồn tại một **thủ tục máy móc** — thứ mà bất kỳ ai làm theo từng bước mù quáng cũng thực hiện được — để nhập vào một phát biểu toán học bất kỳ rồi nhận ra câu trả lời dứt khoát *Đúng* hay *Sai* không? Người Đức gọi đó là **Entscheidungsproblem** (Bài toán Quyết định). Tám năm sau, năm **1936**, khi chưa có chiếc máy tính điện tử hiện đại nào ra đời, chàng trai 23 tuổi **Alan Turing** đã khép lại giấc mơ ấy bằng bài báo kinh điển *On Computable Numbers, with an Application to the Entscheidungsproblem*.
 
-Bài này là chân dung **ý tưởng**, không phải tiểu sử đầy đủ. Ta đi từ máy Turing, qua tính phổ quát và bài toán dừng, tới họ hàng với đường chéo Cantor và bất toàn Gödel, rồi ranh giới với **độ phức tạp hiệu quả** (P vs NP) ở các bài sau. Liên kết: [Giải Turing là gì?]({{ site.baseurl }}/contents/vi/chapter09/09_02_What_Is_Turing_Award/), [Định lý bất toàn Gödel]({{ site.baseurl }}/contents/vi/chapter05/05_04_Godel_Incompleteness/), [Đường chéo Cantor]({{ site.baseurl }}/contents/vi/chapter05/05_03_Cantor_Diagonal/), [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/).
+Turing không ngồi chế tạo một chiếc máy tính xách tay. Ông làm một việc toán học táo bạo hơn nhiều: lần đầu tiên **định nghĩa chặt chẽ** thế nào là một "thủ tục tính toán hữu hạn bước" thông qua mô hình chiếc máy dùng băng giấy, xây dựng **máy phổ quát** (hạt nhân của khái niệm phần mềm ngày nay), rồi chứng minh bằng một cú lật đường chéo cực kỳ sắc bén rằng **Bài toán Dừng là không thể giải quyết được bằng bất kỳ thuật toán nào**. Cùng thời điểm đó, Alonzo Church (với phép tính lambda), Kleene và Post cũng đi tới đúng cùng một lớp hàm — hội tụ thành **Luận đề Church–Turing**. Bài học này đi theo dấu chân ý tưởng năm 1936 ấy, nối sang đường chéo Cantor, bất toàn Gödel và ranh giới với P vs NP. Liên kết: [Giải Turing là gì?]({{ site.baseurl }}/contents/vi/chapter09/09_02_What_Is_Turing_Award/), [Định lý bất toàn Gödel]({{ site.baseurl }}/contents/vi/chapter05/05_04_Godel_Incompleteness/), [Đường chéo Cantor]({{ site.baseurl }}/contents/vi/chapter05/05_03_Cantor_Diagonal/), [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/).
 
 ---
 
@@ -27,6 +27,18 @@ Sau bài học, bạn có thể:
 - Tránh nhầm: “máy Turing chậm nên vô dụng,” “mọi thứ toán học đều quyết định được,” “bất khả quyết định = chưa tìm ra thuật toán.”
 
 **Tiên quyết.** Quen ý thuật toán như quy trình hữu hạn bước; số nguyên và xâu bit; đọc được ký hiệu tập hợp cơ bản. Không cần đã học ôtômat hình thức; ta ở mức ý tưởng. Toán rời rạc ở mức quan hệ và hàm là đủ.
+
+---
+
+## Bản đồ kiến thức nền: Lý thuyết tính toán được (Computability Theory) là gì và nghiên cứu những gì?
+
+Khi lập trình, bạn có bao giờ tự hỏi: *Tại sao không ai viết nổi một công cụ kiểm tra mã nguồn (linter) có thể đảm bảo 100% rằng bất kỳ chương trình Python nào đưa vào sẽ không bao giờ bị treo vào vòng lặp vô hạn?* Câu trả lời không phải vì lập trình viên chưa đủ giỏi hay máy tính chưa đủ nhanh — mà là một **định luật bất khả thi** của **Lý thuyết tính toán được (Computability Theory / Recursion Theory)**.
+
+Ngành toán học này nghiên cứu một câu hỏi cực kỳ trong sáng: **nếu cho bạn thời gian và bộ nhớ lớn tùy ý (miễn là hữu hạn), bài toán nào có thuật toán giải và bài toán nào tuyệt đối không có?**
+- Để trả lời *"Có"*, bạn chỉ cần viết ra một chương trình.
+- Để trả lời *"Không"*, bạn bắt buộc phải có một **mô hình toán học** định nghĩa thế nào là "mọi chương trình có thể có" — và **máy Turing** chính là mô hình chuẩn mực đó.
+
+Hãy hình dung một ví dụ siêu nhỏ về máy Turing để thấy nó giản dị đến mức nào: muốn kiểm tra xem một chuỗi nhị phân (như `10110`) có chứa số lẻ bit `1` hay không, máy chỉ cần **2 trạng thái** (`Chẵn` và `Lẻ`). Đầu đọc trượt từ trái sang phải từng ô một: cứ gặp `1` thì đổi trạng thái `Chẵn ↔ Lẻ`, gặp `0` thì giữ nguyên; đến ô trống cuối chuỗi, nếu đang ở trạng thái `Lẻ` thì báo *Chấp nhận*, ngược lại báo *Từ chối*. Kỳ diệu ở chỗ, chỉ cần thêm nhiều trạng thái hơn và cho phép đầu đọc quay lại ghi đè lên băng, cỗ máy thô sơ ấy có thể mô phỏng **mọi siêu máy tính trên hành tinh**!
 
 ---
 
@@ -55,7 +67,7 @@ $$
 U\big(\langle M\rangle, x\big) \;\text{mô phỏng}\; M(x).
 $$
 
-Đây là hạt nhân khái niệm của **chương trình như dữ liệu**. Phần cứng cố định; phần mềm là mô tả; máy phổ quát diễn giải mô tả. Lịch sử kỹ thuật sau này—von Neumann, hệ điều hành, máy ảo, container—là hiện thực hóa kỹ nghệ của ý tưởng đã có trong lý thuyết 1936.
+Đây là hạt nhân khái niệm của **chương trình như dữ liệu**. Trước Turing, muốn giải một bài toán mới, người ta thường phải lắp ráp hoặc đấu dây lại một cỗ máy mới (giống máy cộng cơ khí chỉ biết cộng). Máy phổ quát đảo ngược tư duy đó: **phần cứng cố định; phần mềm chỉ là một chuỗi bit mô tả bảng chuyển; máy phổ quát đọc chuỗi bit đó và biến thân thành bất kỳ cỗ máy nào**. Lịch sử kỹ thuật sau này—kiến trúc von Neumann, hệ điều hành, trình thông dịch Python, máy ảo, container—đều là hiện thực hóa kỹ nghệ của ý tưởng đã có trong bài báo năm 1936.
 
 Hệ quả triết học–toán: lớp hàm tính được **không** phụ thuộc việc ta “mua thêm opcode.” Thêm cú pháp ngôn ngữ lập trình không vượt ra ngoài lớp đệ quy (recursive functions) nếu vẫn trong khuôn khổ thuật toán chuẩn. Muốn vượt, phải đổi mô hình theo hướng khác (oracle, không tất định với tài nguyên, lượng tử với chi phí khác, v.v.)—và ngay cả khi đó, câu chuyện **bất khả quyết định** vẫn còn nhiều biến thể.
 
@@ -69,12 +81,12 @@ Hệ quả triết học–toán: lớp hàm tính được **không** phụ thu
 **Định lý (Turing).** Không tồn tại máy Turing $$H$$ quyết định đúng bài toán dừng cho mọi cặp $$(\langle M\rangle, x)$$.
 </div>
 
-**Ý tưởng chứng minh (đường chéo).** Giả sử, phản chứng, có $$H$$ sao cho $$H(\langle M\rangle, x)=1$$ nếu $$M(x)$$ dừng, và $$=0$$ nếu không. Xây máy $$D$$ hành xử như sau trên input $$\langle M\rangle$$: chạy $$H(\langle M\rangle, \langle M\rangle)$$; nếu $$H$$ báo “dừng,” thì $$D$$ **lặp vô hạn**; nếu $$H$$ báo “không dừng,” thì $$D$$ **dừng**. Xét $$D$$ trên input $$\langle D\rangle$$:
+**Ý tưởng chứng minh (đường chéo).** Giả sử, phản chứng, có $$H$$ sao cho $$H(\langle M\rangle, x)=1$$ nếu $$M(x)$$ dừng, và $$=0$$ nếu không. Xây máy $$D$$ hành xử như sau trên input $$\langle M\rangle$$: chạy $$H(\langle M\rangle, \langle M\rangle)$$; nếu $$H$$ báo “dừng,” thì $$D$$ **lặp vô hạn**; nếu $$H$$ báo “không dừng,” thì $$D$$ **dừng**. Xét $$D$$ trên chính mô tả của nó $$\langle D\rangle$$:
 
 - Nếu $$D(\langle D\rangle)$$ dừng, thì theo xây dựng $$H$$ đã báo không dừng—mâu thuẫn.  
 - Nếu $$D(\langle D\rangle)$$ không dừng, thì $$H$$ đã báo dừng—mâu thuẫn.
 
-Do đó $$H$$ không thể tồn tại. Đây là anh em của đường chéo Cantor (xây đối tượng thoát mọi liệt kê) và của câu Gödel (tự tham chiếu có kiểm soát). Cùng một **động tác thoát**: với mọi ứng viên “tổng quát,” dựng hành vi lật trên đường chéo.
+Do đó $$H$$ không thể tồn tại. Đây là anh em của đường chéo Cantor (xây đối tượng thoát mọi liệt kê) và của câu Gödel (tự tham chiếu có kiểm soát). Cùng một **động tác thoát**: với mọi ứng viên “tổng quát,” dựng hành vi lật ngược ngay trên đường chéo.
 
 ---
 
@@ -88,12 +100,12 @@ Video dài khoảng 2 phút 31 giây (có thuyết minh tiếng Việt giọng A
 
 ## 4. Họ hàng bất khả quyết định
 
-Một khi bài toán dừng không quyết định được, hàng loạt bài toán khác **quy về** nó (reduction theo nghĩa tính được): nếu ta quyết định được bài $$A$$ thì ta quyết định được bài dừng—do đó $$A$$ cũng không quyết định được.
+Một khi bài toán dừng không quyết định được, hàng loạt bài toán khác **quy về** nó (reduction theo nghĩa tính được): nếu ta quyết định được bài $$A$$ thì ta quyết định được bài dừng—do đó $$A$$ cũng không quyết định được. (Định lý Rice thậm chí còn khái quát hóa mạnh mẽ: *mọi* tính chất không tầm thường về hành vi vào–ra của chương trình đều không quyết định được!)
 
 Một số ví dụ cổ điển (nêu ở mức ý tưởng):
 
 - **Bài toán trống (emptiness)** cho một số lớp máy/chương trình đủ mạnh: “chương trình có bao giờ chấp nhận input nào không?”  
-- **Bài toán tương đương** chương trình: “hai chương trình có cùng hành vi trên mọi input không?”  
+- **Bài toán tương đương** chương trình: “hai chương trình có cùng hành vi trên mọi input không?” (đây là lý do không thể có trình tối ưu hóa mã nguồn hoàn hảo tuyệt đối!).  
 - **Bài toán dừng với input rỗng.**  
 - Trong logic: tính thỏa mãn của một số lớp công thức đủ biểu đạt (liên hệ Entscheidungsproblem).  
 - Trong hình học rời rạc: **lát Wang** toàn phẳng—Berger chứng minh bất khả quyết định bằng cách nhúng mô phỏng tính toán vào quy tắc màu cạnh; xem hương vị ở [Lát gạch]({{ site.baseurl }}/contents/vi/chapter04/04_10_Tilings/).
@@ -104,7 +116,7 @@ Reduction ở tầng tính được khác reduction poly-time ở tầng NP-đ�
 
 ## 5. Số tính được và Church–Turing
 
-**Số thực tính được** có thủ tục in chữ số/xấp xỉ theo yêu cầu. Chỉ đếm được nhiều chương trình, trong khi $$\mathbb{R}$$ không đếm được—hầu hết số thực không tính được ([vô hạn]({{ site.baseurl }}/contents/vi/chapter04/04_02_Infinity/), [Cantor]({{ site.baseurl }}/contents/vi/chapter05/05_03_Cantor_Diagonal/)). Tồn tại cổ điển ≠ tồn tại **có thuật toán**.
+**Số thực tính được** có thủ tục in chữ số/xấp xỉ theo yêu cầu (như $$\pi, e, \sqrt{2}$$). Chỉ đếm được nhiều chương trình (vì mỗi chương trình là một chuỗi ký tự hữu hạn), trong khi $$\mathbb{R}$$ không đếm được—hầu hết số thực trên trục số là **không tính được** ([vô hạn]({{ site.baseurl }}/contents/vi/chapter04/04_02_Infinity/), [Cantor]({{ site.baseurl }}/contents/vi/chapter05/05_03_Cantor_Diagonal/)). Tồn tại cổ điển ≠ tồn tại **có thuật toán**.
 
 **Luận đề Church–Turing:** “thuật toán” trực giác trùng máy Turing / lambda / đệ quy mu—tuyên bố mô hình đã kiểm chứng bằng tương đương nhiều hình thức, không phải định lý ZFC thông thường. Máy lượng tử **không** phá luận đề về lớp hàm tính được; chúng nhắm tăng tốc (BQP), không tính hàm không đệ quy. Xem [thông tin lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/).
 

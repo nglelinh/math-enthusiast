@@ -12,9 +12,9 @@ categories:
 > **Liên kết**  
 > [Thực hành: Collatz]({{ site.baseurl }}/contents/vi/chapter07/07_09_Explore_Iteration/) · [Thực hành: số nguyên tố]({{ site.baseurl }}/contents/vi/chapter07/07_04_Explore_Prime_Predictability/) · [Chiều thứ tư]({{ site.baseurl }}/contents/vi/chapter07/07_06_Explore_Fourth_Dimension/)
 
-Vô hạn không chỉ có một loại. Toán học có **nhiều cách nói chặt chẽ** về những quá trình không kết thúc và những tập có kích thước vô hạn: vô hạn tiềm năng trong khái niệm giới hạn, tập vô hạn hoàn chỉnh trong lý thuyết tập hợp của Cantor, số thứ tự (ordinal), bản số (cardinal, chỉ đo kích thước), vô hạn trong giải tích (khái niệm "hầu khắp nơi"), hình học xạ ảnh… Bài thực hành này giúp bạn **nói rõ mình đang nói về loại vô hạn nào**, tự chứng minh một tập đếm được hay không đếm được bằng song ánh và phương pháp đường chéo, và nhận ra lỗi nhầm loại khi sách báo phổ thông nói "vô hạn cộng một".
+Cuối thế kỷ XIX, trong lúc nhiều nhà toán học lừng danh vẫn coi "vô hạn" là thứ chỉ nên ngắm từ xa qua các phép lấy giới hạn, Georg Cantor đã làm một việc táo bạo chưa từng có: ông đặt vô hạn lên bàn cân để **so sánh kích thước** của chúng. Và ông phát hiện ra một sự thật khiến cả người thầy cũ Leopold Kronecker lẫn nhiều đồng nghiệp phải choáng váng: không chỉ có *một* vô hạn, mà có hẳn một **tháp vô tận các bậc vô hạn lớn nhỏ khác nhau** — tập số thực $$\mathbb{R}$$ thực sự "đông" hơn tập số tự nhiên $$\mathbb{N}$$ một cách không thể san lấp!
 
-Bài này không nhằm giải quyết câu hỏi triết học "vô hạn hoàn chỉnh có thật sự tồn tại không". Bài chỉ cho thấy rằng **trong toán học**, các cấu trúc vô hạn có thể mô tả được, so sánh được, và đôi khi rất dễ làm việc. Giống các bài thực hành khác, bạn gắn nhãn rõ: định lý, mệnh đề độc lập, nghịch lý đã được giải thích, hay chỉ là phép so sánh.
+Khi đọc sách báo phổ thông, ta hay bắt gặp những câu đố gây hoang mang như *"vô hạn cộng một có lớn hơn vô hạn không?"* hay *"số chẵn chỉ bằng một nửa số tự nhiên hay nhiều bằng nhau?"*. Sự bối rối không đến từ việc vô hạn "phi logic", mà từ việc người nói đã trộn lẫn nhiều khái niệm khác nhau dưới cùng một chữ "vô hạn": vô hạn tiềm năng trong giải tích, bản số (cardinal) đo kích thước, số thứ tự (ordinal) đo cách xếp hàng, hay điểm vô cực trong hình học xạ ảnh. Bài thực hành này mời bạn tự tay **cầm thước đo của Cantor**: dựng các song ánh tường minh, tự viết chứng minh đường chéo để thấy vì sao số thực không đếm được, và giải mã những nghịch lý nổi tiếng bằng chính định nghĩa chính xác.
 
 ---
 
@@ -33,6 +33,18 @@ Sau bài này, bạn cần:
 
 ---
 
+## Bản đồ kiến thức nền: Lý thuyết tập hợp và Nền tảng toán học là gì, nghiên cứu những gì?
+
+Mọi ngành toán học bạn từng học ở đại học — từ giải tích, đại số tuyến tính đến xác suất — đều đứng trên cùng một nền móng: **Lý thuyết tập hợp (Set Theory)** và **Logic toán / Nền tảng toán học (Foundations of Mathematics)**. Ngành này không chỉ "định nghĩa tập hợp cho gọn", mà trả lời ba câu hỏi cốt lõi về sức mạnh và giới hạn của tư duy toán học:
+
+1. **Đo đạc vô hạn bằng song ánh:** Với tập hữu hạn, ta đếm bằng số $$1, 2, 3\dots$$ Với tập vô hạn, Cantor đề xuất nguyên tắc ghép cặp 1–1 (**song ánh**): nếu mỗi vị khách trong rạp đều ngồi vừa khít một ghế và không còn ghế trống, ta biết số khách bằng số ghế mà *chẳng cần đếm*. Từ quy tắc đơn giản đó nảy sinh toàn bộ **số học bản số** ($$\aleph_0, \mathfrak{c} = 2^{\aleph_0}, \dots$$) và **số học thứ tự** ($$\omega, \omega+1, \omega^2, \dots$$).
+2. **Hệ tiên đề ZFC (Zermelo–Fraenkel cùng Tiên đề Chọn):** Đầu thế kỷ XX, nghịch lý Russell (*"tập hợp mọi tập hợp không chứa chính nó"*) cho thấy khái niệm tập hợp ngây thơ có thể tự mâu thuẫn. Các nhà toán học bèn xây dựng hệ tiên đề chặt chẽ ZFC làm "hiến pháp" cho toán học hiện đại.
+3. **Tính độc lập và giới hạn của chứng minh:** Kurt Gödel (1940) và Paul Cohen (1963) đã chứng minh một kết quả chấn động: **Giả thuyết Continuum (CH)** — câu hỏi liệu có bậc vô hạn nào chen giữa $$\aleph_0$$ và $$2^{\aleph_0}$$ không — hoàn toàn **độc lập** với ZFC. Tức là từ các tiên đề chuẩn của toán học, ta không thể chứng minh nó đúng mà cũng không thể chứng minh nó sai!
+
+Một ví dụ cụ thể về hai loại vô hạn ngay trên cùng một tập hợp: xét dãy $$1, 2, 3, \dots$$ (kiểu thứ tự $$\omega$$) và dãy $$2, 3, 4, \dots; 1$$ — tức là vẫn đúng các số tự nhiên ấy nhưng đẩy số $$1$$ xuống đứng sau tất cả (kiểu thứ tự $$\omega + 1$$). Xét về *kích thước* (bản số), hai tập có số phần tử y hệt nhau ($$\aleph_0$$). Nhưng xét về *thứ tự* (số thứ tự), chúng khác hẳn nhau: tập thứ hai có phần tử lớn nhất (số $$1$$), còn tập thứ nhất thì không! Chính sự phân biệt rạch ròi này làm tan biến câu đố *"$$\infty + 1$$ có lớn hơn $$\infty$$ không?"*.
+
+---
+
 ## 1. Kiến thức toán nền
 
 ### 1.1 Vô hạn tiềm năng và vô hạn thực
@@ -48,7 +60,7 @@ Cả hai cách nhìn đều hữu ích. Nhầm lẫn xảy ra khi ta chuyển t�
 Một tập là **vô hạn đếm được** nếu nó có cùng lực lượng với $$\mathbb{N}=\{0,1,2,\ldots\}$$ (hoặc $$\{1,2,\ldots\}$$; hãy chọn một quy ước và giữ nguyên). Một số song ánh kinh điển:
 
 - $$\mathbb{N}\leftrightarrow\mathbb{Z}$$: liệt kê theo thứ tự $$0,1,-1,2,-2,\ldots$$.  
-- $$\mathbb{N}\leftrightarrow\mathbb{N}\times\mathbb{N}$$: đi theo các đường chéo của bảng các cặp $$(i,j)$$.  
+- $$\mathbb{N}\leftrightarrow\mathbb{N}\times\mathbb{N}$$: đi theo các đường chéo của bảng các cặp $$(i,j)$$, hoặc dùng công thức cặp Cantor tường minh $$\pi(i,j) = \frac{(i+j)(i+j+1)}{2} + j$$.  
 - $$\mathbb{N}\leftrightarrow\mathbb{Q}$$: liệt kê các số hữu tỉ qua cặp số nguyên, chú ý bỏ các phần tử lặp lại (hoặc làm với số dương trước).
 
 Công thức tường minh cho song ánh $$\mathbb{N}\to\mathbb{Z}$$ (với $$\mathbb{N}=\{0,1,2,\ldots\}$$):
@@ -57,11 +69,11 @@ $$
 f(n)=\begin{cases} n/2 & n\text{ chẵn},\\ -(n+1)/2 & n\text{ lẻ.}\end{cases}
 $$
 
-Hãy tự kiểm tra bằng tay một lần rằng đây là đơn ánh và toàn ánh. Chứng minh nhỏ này giúp khái niệm "cùng cỡ" trở thành một phép kiểm tra đại số cụ thể, không còn bí ẩn.
+Hãy tự kiểm tra bằng tay một lần rằng đây là đơn ánh và toàn ánh (ví dụ $$f(0)=0, f(1)=-1, f(2)=1, f(3)=-2, f(4)=2\dots$$). Chứng minh nhỏ này giúp khái niệm "cùng cỡ" trở thành một phép kiểm tra đại số cụ thể, không còn bí ẩn.
 
 Như vậy, câu "số chẵn nhiều bằng số tự nhiên" (nghịch lý Galileo) trở thành một **định lý** về tập vô hạn, không có gì mâu thuẫn. Ánh xạ $$n\mapsto 2n$$ là một song ánh $$\mathbb{N}\to 2\mathbb{N}$$. Trực giác từ tập hữu hạn ("số chẵn chỉ bằng một nửa") không còn đúng, vì với tập vô hạn, bỏ đi một tập con không nhất thiết làm giảm lực lượng.
 
-**Khách sạn Hilbert.** Một khách sạn có các phòng đánh số theo $$\mathbb{N}$$, đã kín phòng, nhưng vẫn nhận thêm được 1 khách (chuyển khách theo quy tắc $$n\mapsto n+1$$), hữu hạn khách, hoặc thậm chí đếm được khách mới (ví dụ chuyển khách ở phòng $$n$$ sang phòng $$2n$$, để trống các phòng lẻ). Về mặt số học bản số, câu chuyện này nói rằng $$\aleph_0+1=\aleph_0$$ và $$\aleph_0+\aleph_0=\aleph_0$$.
+**Khách sạn Hilbert.** Một khách sạn có các phòng đánh số theo $$\mathbb{N}$$, đã kín phòng, nhưng vẫn nhận thêm được 1 khách (chuyển khách theo quy tắc $$n\mapsto n+1$$), hữu hạn khách, hoặc thậm chí đếm được khách mới (ví dụ chuyển khách ở phòng $$n$$ sang phòng $$2n$$, để trống các phòng lẻ). Thậm chí nếu có *vô hạn đếm được* xe buýt, mỗi xe chở vô hạn đếm được khách đến cùng lúc, người lễ tân vẫn xếp được hết bằng cách dùng số nguyên tố: khách cũ ở phòng $$n$$ chuyển sang phòng $$2^n$$, còn khách thứ $$k$$ trên xe buýt thứ $$b$$ vào phòng $$p_{b+1}^k$$ (với $$p_2=3, p_3=5, p_4=7,\dots$$)! Về mặt số học bản số, câu chuyện này nói rằng $$\aleph_0+1=\aleph_0$$, $$\aleph_0+\aleph_0=\aleph_0$$ và $$\aleph_0 \cdot \aleph_0 = \aleph_0$$.
 
 ### 1.3 Không đếm được
 
@@ -81,10 +93,10 @@ Bản số đo kích thước. **Số thứ tự** đo kiểu thứ tự: $$\ome
 
 ### 1.6 Vô hạn trong giải tích và hình học
 
-- Chuỗi $$\sum 1/n^2$$ hội tụ: tổng của vô hạn số dương có thể hữu hạn.  
-- Chuỗi điều hòa phân kỳ: tổng vô hạn có thể bằng vô cùng.  
+- Chuỗi $$\sum 1/n^2 = \pi^2/6$$ hội tụ: tổng của vô hạn số dương có thể hữu hạn.  
+- Chuỗi điều hòa $$\sum 1/n$$ phân kỳ: tổng vô hạn có thể bằng vô cùng dù từng số hạng tiến về 0.  
 - Tích phân suy rộng và lý thuyết độ đo cho phép giá trị $$\infty$$ như một giá trị mở rộng.  
-- Hình học xạ ảnh thêm vào một đường thẳng ở vô cực.  
+- Hình học xạ ảnh thêm vào một đường thẳng ở vô cực để hai đường song song cũng cắt nhau.  
 - Một fractal có thể có chu vi vô hạn nhưng bao một diện tích hữu hạn (ví dụ bông tuyết Koch).
 
 Mỗi trường hợp là một công cụ hình thức khác nhau. Trong nhật ký, hãy gọi đúng tên công cụ.

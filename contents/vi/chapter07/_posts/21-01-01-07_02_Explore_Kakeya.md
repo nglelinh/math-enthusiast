@@ -15,9 +15,9 @@ categories:
 > **3. Bạn đang ở đây:** Bài thực hành Chương 7 (sổ thí nghiệm)  
 > *Cần có trước:* đã học xong bước 1–2, hoặc ít nhất đã đọc bảng trạng thái ở Chương 1 và các mục 1–6 của bài Wang.
 
-Trang này là **bài thực hành**, không phải nơi tập hợp định lý. Một tập Kakeya (tập Besicovitch) chứa một đoạn thẳng dài 1 theo **mọi** hướng. Điều bất ngờ kinh điển là: trong mặt phẳng, tập như vậy có thể có **độ đo Lebesgue bằng 0** nhưng vẫn có **số chiều đầy đủ**. Việc của bạn là **vẽ, tính toán, ghi nhật ký và chỉnh lại** định nghĩa thế nào là "nhỏ", đồng thời luôn phân biệt rõ giả thuyết, cách dựng, quan sát bằng số và định lý.
+Năm 1917, nhà toán học Nhật Bản Sōichi Kakeya đặt ra một câu hỏi nghe tưởng như trò đố vui trên bàn trà: *Giả sử bạn có một cây kim dài đúng 1 đơn vị đặt trên mặt bàn. Bạn cần một tấm thảm có diện tích nhỏ nhất bằng bao nhiêu để có thể xoay cây kim đó quay ngược đầu $$180^\circ$$ mà không bao giờ thò ra ngoài mép thảm?* Nếu xoay quanh trung điểm, ta cần một hình tròn bán kính $$1/2$$ với diện tích $$\pi/4 \approx 0.785$$. Khéo léo hơn một chút — giống như lái xe quay đầu theo kiểu ba đỏ trong ngõ hẹp — bạn có thể thu gọn tấm thảm thành hình tam giác cong ba cạnh (deltoid) với diện tích chỉ còn $$\pi/8 \approx 0.393$$. Suốt nhiều năm, ai cũng tin chắc rằng diện tích nhỏ nhất phải là một số dương cố định.
 
-Bạn không cần tái tạo chứng minh của Wang–Zahl. Mục đích là tập làm nghiên cứu: định nghĩa kích thước cho cẩn thận, chấp nhận thất bại khi cố làm tập nhỏ nhất, và thay đổi suy nghĩ khi một cách dựng cho kết quả trái với trực giác. Bài thực hành đòi hỏi kỷ luật giống phòng thí nghiệm vật lý: mỗi thí nghiệm phải có giả thuyết trước khi đo, mỗi số liệu phải nói rõ phạm vi, mỗi cách diễn giải phải được gắn nhãn rõ ràng.
+Thế rồi Abram Besicovitch xuất hiện và làm đảo lộn hoàn toàn trực giác ấy: trong mặt phẳng, tồn tại những tập hợp chứa đủ một đoạn thẳng dài 1 theo **mọi** hướng nhưng có **diện tích (độ đo Lebesgue) bằng đúng 0**! Cú sốc chưa dừng lại ở đó: dù diện tích bằng 0, một tập như vậy vẫn "rậm rạp" đến mức mang **số chiều Hausdorff bằng trọn vẹn 2**. Bài thực hành này mời bạn bước vào phòng thí nghiệm của nghịch lý ấy — không phải để chép lại chứng minh dài hơn một trăm trang của Wang–Zahl (2025), mà để tự tay **vẽ, lập mô phỏng, đo đạc, vấp ngã và chỉnh sửa lại** chính khái niệm "nhỏ" trong đầu mình, giữ kỷ luật phân biệt rạch ròi giữa giả thuyết, cách dựng, quan sát bằng số và định lý.
 
 ---
 
@@ -36,21 +36,34 @@ Sau bài thực hành, bạn cần:
 
 ---
 
+## Bản đồ kiến thức nền: Lý thuyết độ đo hình học và Giải tích điều hòa là gì, nghiên cứu những gì?
+
+Nếu bạn tốt nghiệp đại học ngành kỹ thuật hay khoa học tự nhiên, bạn đã quen đo độ dài, diện tích và thể tích bằng tích phân Riemann hoặc Lebesgue. Nhưng khi gặp những tập hợp mỏng tang như bụi Cantor hay tập Besicovitch, độ đo thông thường đều trả về con số $$0$$ bất lực. Đó là lúc hai ngành toán học lớn đứng sau bài toán Kakeya bước lên sân khấu:
+
+1. **Lý thuyết độ đo hình học (Geometric Measure Theory — GMT):** Ngành này nghiên cứu cách đo "kích thước" và cấu trúc hình học của những tập hợp cực kỳ gồ ghề hoặc có độ đo Lebesgue bằng 0. Thay vì chỉ hỏi "diện tích bằng bao nhiêu?", GMT hỏi: *nếu ta phủ tập $$E$$ bằng các quả cầu bán kính nhỏ $$r$$, số quả cầu cần dùng tăng theo quy luật $$r^{-s}$$ với số mũ $$s$$ bằng bao nhiêu?* Giá trị tới hạn của $$s$$ cho ta **số chiều Minkowski** (đếm hộp) và **số chiều Hausdorff** $$\dim_H(E)$$. Ví dụ cụ thể: tập Cantor chuẩn trong $$[0,1]$$ có độ dài bằng 0, nhưng ở bước thứ $$k$$ ta cần $$2^k$$ đoạn độ dài $$3^{-k}$$ để phủ nó, nên số chiều của nó là $$\frac{\log 2}{\log 3} \approx 0.631$$ — lớn hơn một điểm (chiều 0) nhưng nhỏ hơn một đoạn thẳng (chiều 1). Tập Kakeya còn cực đoan hơn nữa: diện tích bằng 0 nhưng số chiều Hausdorff vẫn đạt trọn vẹn $$n$$!
+2. **Giải tích điều hòa (Harmonic Analysis):** Ngành này phân tích hàm số và sóng thành tổng (hoặc tích phân) của các sóng phẳng hình sin có tần số và hướng khác nhau (biến đổi Fourier). Vì sao bài toán xoay cây kim lại liên quan mật thiết đến sóng và Fourier? Hãy hình dung một gói sóng ánh sáng truyền theo một hướng nhất định: theo nguyên lý bất định, một bó sóng có tần số nằm trong một đĩa nhỏ sẽ tập trung năng lượng trong không gian dọc theo một **ống mỏng độ dày $$\delta$$** (gọi là ống $$\delta$$, hay *$$\delta$$-tube*) hướng theo phương truyền sóng. Khi nhiều sóng từ mọi hướng giao thoa với nhau, câu hỏi "năng lượng sóng có thể tập trung bất thường tại một vùng nhỏ đến mức nào?" biến thành câu hỏi hình học: *nếu xếp hàng loạt ống $$\delta$$ theo mọi hướng khác nhau, chúng có thể chồng lấn lên nhau chặt đến đâu?* Đó chính là phiên bản "làm dày" của giả thuyết Kakeya.
+
+Hiểu được cầu nối này, bạn sẽ thấy vì sao giải quyết giả thuyết Kakeya ở chiều 3 (Wang–Zahl, 2025) không chỉ là lời giải cho một câu đố hình học cổ điển, mà còn là bước ngoặt mở khóa hàng loạt bài toán về sóng, phương trình đạo hàm riêng và biến đổi Fourier nhiều chiều.
+
+---
+
 ## 1. Kiến thức toán nền
 
 ### 1.1 Cây kim quay và tập Besicovitch
 
-Năm 1917, **Sōichi Kakeya** hỏi: vùng phẳng nhỏ nhất nào cho phép một cây kim dài 1 quay liên tục để đổi ngược chiều? Quay quanh trung điểm cần một hình tròn bán kính $$1/2$$ (diện tích $$\pi/4$$). Hình deltoid cho diện tích nhỏ hơn; trực giác vẫn cho rằng phải có một **cận dưới dương**.
+Năm 1917, **Sōichi Kakeya** hỏi: vùng phẳng nhỏ nhất nào cho phép một cây kim dài 1 quay liên tục để đổi ngược chiều? Quay quanh trung điểm cần một hình tròn bán kính $$1/2$$ (diện tích $$\pi/4$$). Hình deltoid cho diện tích nhỏ hơn ($$\pi/8$$); trực giác vẫn cho rằng phải có một **cận dưới dương**.
 
 Một **tập Kakeya (tập Besicovitch)** trong $$\mathbb{R}^n$$ chứa một đoạn thẳng dài 1 theo **mọi** hướng; đây là điều kiện **tĩnh**. **Abram Besicovitch** (khoảng 1919–1928) chứng minh rằng trong mặt phẳng tồn tại tập như vậy có **độ đo 0**: với mọi $$\varepsilon>0$$ có một tập diện tích $$<\varepsilon$$ vẫn chứa đủ mọi hướng, và qua giới hạn ta được tập có độ đo đúng bằng 0.
 
-Hai bài toán này liên quan nhưng không giống nhau. Có những vùng cho phép cây kim quay với diện tích **dương nhưng nhỏ tùy ý** (nhờ phép rút gọn của Pál và cách sắp xếp lại của Besicovitch). Tập Besicovitch có độ đo 0 là một đối tượng giới hạn, và không nhất thiết cho phép cây kim quay nửa vòng liên tục mà không ra khỏi tập. Trong mỗi thí nghiệm, hãy ghi rõ bạn đang trả lời câu hỏi nào.
+Hai bài toán này liên quan nhưng không giống nhau. Có những vùng cho phép cây kim quay với diện tích **dương nhưng nhỏ tùy ý** (nhờ phép rút gọn của Pál và cách sắp xếp lại của Besicovitch — kỹ thuật trượt cây kim sang xa theo đường thẳng chỉ tốn diện tích nhỏ tùy ý rồi xoay một góc rất nhỏ). Tập Besicovitch có độ đo 0 là một đối tượng giới hạn, và không nhất thiết cho phép cây kim quay nửa vòng liên tục mà không ra khỏi tập. Trong mỗi thí nghiệm, hãy ghi rõ bạn đang trả lời câu hỏi nào.
 
 ### 1.2 Vì sao độ đo có thể bằng 0
 
 Độ dài mỗi đoạn luôn bằng 1. Nhưng ta có thể **dùng chung các điểm** cho nhiều hướng và lấy giới hạn kiểu fractal của các lân cận rất mỏng. Một hình chữ nhật dài 1, rộng $$\delta$$ có diện tích cỡ $$\delta$$. Khi $$\delta\to 0$$ diện tích tiến về 0, nhưng ta lại cần vô hạn hướng. Cái khéo của Besicovitch là dùng lại không gian bằng cách cắt và trượt lặp đi lặp lại.
 
-Một hình minh họa hay dùng hiện nay là **mành sáo**: các dải gần song song, nghiêng, được cắt ra rồi xếp lại. Một hình minh họa khác là **cây Perron**: các tam giác mỏng chồng lên nhau; ghép ba cây thành hình "con cá" để minh họa việc quay nửa vòng. Khi vẽ tay, hãy thử cố ý chồng hai hướng gần song song lên cùng một dải mực và tự hỏi: so với vẽ hai dải riêng, ta tiết kiệm được bao nhiêu?
+Hãy xem một **ví dụ nhỏ bằng số** để thấy phép màu của việc cắt và trượt (cây Perron): bắt đầu từ một tam giác đều đáy $$1$$, cao $$1$$ (diện tích $$1/2$$), chứa mọi hướng góc trong khoảng $$[-30^\circ, 30^\circ]$$ đi qua đỉnh. Nếu bạn cắt tam giác này theo đường cao thành 2 tam giác nhỏ rồi trượt một nửa sang chồng lên nửa kia một đoạn bằng $$1/4$$ đáy, phần hợp mới vẫn chứa nguyên vẹn mọi đoạn thẳng từ đỉnh xuống đáy (chỉ là chúng bị dịch song song sang hai đỉnh mới), nhưng tổng diện tích giảm hẳn đi vì phần giao hình tam giác ở giữa được dùng chung! Lặp lại thao tác chia đôi và chồng lấn $$k$$ lần (tạo thành **cây Perron** với $$2^k$$ nhánh mảnh như chiếc lược), tổng diện tích giảm theo cấp số nhân tiến dần về 0, trong khi tập các hướng vẫn giữ nguyên vẹn.
+
+Một hình minh họa hay dùng hiện nay là **mành sáo**: các dải gần song song, nghiêng, được cắt ra rồi xếp lại. Ghép ba cây Perron lại với nhau thành hình "con cá" để bao phủ trọn $$180^\circ$$ hướng, ta minh họa được việc quay nửa vòng trong diện tích nhỏ tùy ý. Khi vẽ tay, hãy thử cố ý chồng hai hướng gần song song lên cùng một dải mực và tự hỏi: so với vẽ hai dải riêng, ta tiết kiệm được bao nhiêu?
 
 **Ý chính.** Chồng lấn không phải là lỗi; đó là cách tiết kiệm diện tích.
 
@@ -62,7 +75,7 @@ $$
 \lvert E\rvert = 0 \quad\text{có thể, nhưng}\quad \dim_H(E) = 2.
 $$
 
-Đây là điều nghịch lý đầu tiên: **diện tích bằng 0 nhưng số chiều vẫn đầy đủ**. **Số chiều Minkowski** (đếm hộp) dễ ước lượng bằng thực nghiệm hơn: phủ tập bằng các hộp cạnh $$r$$ và xem số hộp tăng theo quy luật nào khi $$r\to 0$$. Số chiều Hausdorff là khái niệm tinh hơn, xây dựng từ lý thuyết độ đo. Với nhiều tập "đủ đẹp", hai số chiều này bằng nhau; lý thuyết Kakeya nghiên cứu cẩn thận cả hai.
+Đây là điều nghịch lý đầu tiên: **diện tích bằng 0 nhưng số chiều vẫn đầy đủ**. **Số chiều Minkowski** (đếm hộp) dễ ước lượng bằng thực nghiệm hơn: phủ tập bằng các hộp cạnh $$r$$ và xem số hộp $$N(r)$$ tăng theo quy luật nào khi $$r\to 0$$, cụ thể $$\dim_M(E) = \lim_{r\to 0} \frac{\log N(r)}{\log(1/r)}$$. Ví dụ, với một đoạn thẳng dài 1, $$N(r) \approx 1/r$$ nên số chiều là 1; với một hình vuông cạnh 1, $$N(r) \approx 1/r^2$$ nên số chiều là 2. Điều kỳ lạ của tập Kakeya trong mặt phẳng là dù tổng diện tích $$N(r)\cdot r^2$$ có thể nhỏ tùy ý (chẳng hạn giảm chậm như $$1/\log(1/r)$$), số hộp $$N(r)$$ vẫn phải lớn cỡ $$r^{-2}/\log(1/r)$$, khiến số mũ tiệm cận vẫn đúng bằng $$2$$! Số chiều Hausdorff là khái niệm tinh hơn, xây dựng từ lý thuyết độ đo. Với nhiều tập "đủ đẹp", hai số chiều này bằng nhau; lý thuyết Kakeya nghiên cứu cẩn thận cả hai.
 
 > **Thể tích bằng 0 không bắt buộc số chiều phải nhỏ hơn số chiều của không gian chứa nó.**  
 > Một tập trong $$\mathbb{R}^3$$ có thể có độ đo 0 nhưng vẫn có số chiều Minkowski bằng 3.

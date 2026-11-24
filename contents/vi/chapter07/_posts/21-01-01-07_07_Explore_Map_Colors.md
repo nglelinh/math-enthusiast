@@ -14,9 +14,9 @@ categories:
 > **2. Bạn đang ở đây:** bài thực hành tô màu bản đồ, chương 7  
 > *Kiến thức cần có:* đồ thị đối ngẫu và phác thảo chứng minh định lý năm màu ở chương 1.
 
-Bốn màu là đủ để tô mọi bản đồ phẳng. Điều này được **Appel và Haken (1976)** chứng minh, sau đó được người khác đơn giản hóa, và đều dựa vào việc dùng máy tính kiểm tra từng trường hợp. Đằng sau câu phát biểu ngắn đó là gần một thế kỷ với nhiều chứng minh suýt thành công, lỗi sai của Kempe, **định lý năm màu** có chứng minh gọn gàng, và lý thuyết tô màu đồ thị trên các mặt cong thông qua **số Heawood**. Trong bài thực hành này, bạn sẽ vẽ bản đồ, dựng đồ thị đối ngẫu, thấy vì sao 3 màu không đủ, tính chặn theo giống của mặt, và viết một đoạn cẩn thận về việc thế nào là "chứng minh" khi máy tính kiểm tra các trường hợp.
+Tháng 10 năm 1852, chàng sinh viên trẻ Francis Guthrie ngồi tô màu bản đồ các hạt của nước Anh và bỗng nảy ra một câu hỏi tưởng chừng ngây thơ: *Liệu có phải mọi bản đồ phẳng — bất kể rắc rối, ngoằn ngoèo đến đâu — đều chỉ cần tối đa bốn màu để không có hai vùng giáp biên nào trùng màu?* Câu hỏi ấy truyền từ cậu em Frederick tới giáo sư Augustus De Morgan, rồi trở thành cơn ám ảnh kéo dài suốt **124 năm**. Năm 1879, luật sư kiêm nhà toán học Alfred Kempe công bố lời giải và cả thế giới đã reo mừng suốt 11 năm — cho đến khi Percy Heawood vạch ra một lỗ hổng cực kỳ tinh vi trong lập luận đổi màu của ông.
 
-Bạn không cần chạy lại chương trình máy tính của chứng minh bốn màu. Bạn **tập dùng định nghĩa cho chính xác**, vì chính định nghĩa làm cho định lý có nghĩa, và tìm hiểu điều gì thay đổi khi đổi mặt hoặc đổi quy tắc. Giống các bài thực hành khác: cố định quy tắc trước khi vẽ, và gắn nhãn rõ: định lý, lịch sử (chứng minh suýt đúng), cách dựng, hay suy ngẫm.
+Phải đến năm 1976, Kenneth Appel và Wolfgang Haken mới chốt hạ **Định lý bốn màu**, nhưng lại theo một cách chưa từng có tiền lệ: họ dùng máy tính kiểm tra hàng nghìn cấu hình, làm bùng nổ cuộc tranh luận triết học kéo dài hàng thập kỷ về việc *"thế nào mới được gọi là một chứng minh?"*. Trong bài thực hành này, bạn sẽ không chạy lại chương trình kiểm tra hàng nghìn trường hợp ấy. Thay vào đó, bạn sẽ **tự vẽ bản đồ, biến nó thành đồ thị đối ngẫu**, tận tay trải nghiệm vì sao 3 màu thất bại, tự tay giải chứng minh 5 màu gọn đẹp, bước sang mặt bánh rán (mặt xuyến) nơi cần tới 7 màu, và tự trả lời cho riêng mình câu hỏi về ranh giới của chứng minh toán học trong kỷ nguyên máy tính.
 
 ---
 
@@ -35,11 +35,22 @@ Sau bài này, bạn cần:
 
 ---
 
+## Bản đồ kiến thức nền: Lý thuyết đồ thị và Tô pô bề mặt là gì, nghiên cứu những gì?
+
+Đằng sau trò chơi tô màu bản đồ là hai ngành toán học nền tảng cực kỳ quen thuộc với sinh viên đại học ngành toán và khoa học máy tính:
+
+1. **Lý thuyết đồ thị (Graph Theory):** Ngành này tước bỏ mọi chi tiết hình học không cần thiết (độ dài đường biên, hình dáng ngoằn ngoèo của các quốc gia) và chỉ giữ lại duy nhất **quan hệ kết nối**: mỗi nước trở thành một *đỉnh*, hai nước chung đường biên nối với nhau bằng một *cạnh*. Khi đã chuyển sang **đồ thị đối ngẫu**, bài toán tô màu bản đồ biến thành bài toán tìm **sắc số** $$\chi(G)$$ — số màu ít nhất để tô các đỉnh sao cho hai đỉnh kề nhau luôn khác màu. Không chỉ dùng để tô bản đồ, tô màu đồ thị là mô hình trực tiếp cho bài toán **xếp lịch thi** (hai môn có chung sinh viên không thể thi cùng ca), **cấp phát thanh ghi trong trình biên dịch** (hai biến sống cùng lúc không thể dùng chung thanh ghi CPU), và **phân bổ tần số trạm phát sóng di động** để tránh nhiễu.
+2. **Tô pô bề mặt (Surface Topology):** Tại sao trên mặt phẳng (hoặc mặt cầu) chỉ cần 4 màu, nhưng nếu vẽ bản đồ lên bề mặt một chiếc bánh rán (mặt xuyến — torus) thì có thể cần tới **7 màu**? Tô pô học nghiên cứu những bất biến không đổi khi ta co giãn, uốn cong bề mặt mà không xé rách. Bất biến quyết định ở đây là **giống (genus)** $$g$$ — số "lỗ thủng" của bề mặt — liên hệ trực tiếp với **đặc trưng Euler** $$\chi = v - e + f = 2 - 2g$$. Với mặt cầu ($$g=0$$), $$\chi = 2$$ nên mọi đồ thị phẳng đều đủ "thưa" ($$e \le 3v-6$$) để tồn tại đỉnh bậc $$\le 5$$. Nhưng trên mặt xuyến ($$g=1$$), $$\chi = 0$$ khiến đồ thị dày hơn ($$e \le 3v$$), cho phép vẽ trọn đồ thị đầy đủ $$K_7$$ (7 nước đôi một giáp nhau) mà không có cạnh nào cắt nhau!
+
+Ví dụ nhỏ để thấy trực giác ngay lập tức: hãy tưởng tượng một vòng tròn gồm 3 nước $$A, B, C$$ ôm quanh một nước $$D$$ ở giữa — đó chính là đồ thị đầy đủ $$K_4$$. Ba nước ngoài tạo thành một tam giác nên đã ngốn hết 3 màu (đỏ, xanh, vàng); nước $$D$$ ở tâm chạm cả ba nên buộc phải dùng màu thứ tư! Vậy $$\chi \ge 4$$ ngay cả trên bản đồ chỉ có 4 vùng.
+
+---
+
 ## 1. Kiến thức toán nền
 
 ### 1.1 Bản đồ, đồ thị đối ngẫu, sắc số
 
-Một **bản đồ** (theo nghĩa của bài toán bốn màu) là một cách chia mặt phẳng (hoặc mặt cầu) thành hữu hạn vùng liên thông, gọi là các "nước". Hai nước kề nhau nếu chúng có chung một đoạn biên có độ dài dương (chỉ chạm nhau tại một điểm thì không tính). Một cách **tô màu** là gán màu cho các nước sao cho hai nước kề nhau luôn khác màu.
+Một **bản đồ** (theo nghĩa của bài toán bốn màu) là một cách chia mặt phẳng (hoặc mặt cầu) thành hữu hạn vùng liên thông, gọi là các "nước". Hai nước kề nhau nếu chúng có chung một đoạn biên có độ dài dương (chỉ chạm nhau tại một điểm như ngã tư biên giới thì không tính — nếu tính, một chiếc bánh pizza cắt thành 100 miếng gặp nhau ở tâm sẽ cần tới 100 màu!). Một cách **tô màu** là gán màu cho các nước sao cho hai nước kề nhau luôn khác màu.
 
 Ta dựng **đồ thị đối ngẫu** $$G$$: mỗi nước là một đỉnh; hai đỉnh nối với nhau khi hai nước có chung biên. Tô màu bản đồ chính là **tô màu đỉnh** của $$G$$. Với bản đồ hợp lệ, $$G$$ là đồ thị phẳng (và là đồ thị đơn dưới các giả thiết thông thường). **Sắc số** $$\chi(G)$$ là số màu ít nhất cần dùng.
 
@@ -47,13 +58,13 @@ Ta dựng **đồ thị đối ngẫu** $$G$$: mỗi nước là một đỉnh; 
 
 ### 1.2 Vì sao năm màu dễ hơn
 
-Với đồ thị phẳng đơn, liên thông, từ công thức Euler kết hợp với bất đẳng thức $$2e\ge 3f$$ (mỗi mặt có ít nhất 3 cạnh, mỗi cạnh giáp nhiều nhất 2 mặt), ta suy ra $$e\le 3v-6$$ khi $$v\ge 3$$. Do đó bậc trung bình $$2e/v<6$$, nên có một đỉnh $$v$$ với $$\deg(v)\le 5$$. **Định lý năm màu** được chứng minh bằng quy nạp theo số đỉnh $$v$$: bỏ một đỉnh bậc thấp, tô phần còn lại bằng năm màu, và nếu các đỉnh kề với đỉnh đã bỏ dùng đủ cả năm màu thì dùng xích Kempe để giải phóng một màu. Lập luận này hoàn toàn đọc hiểu được bằng tay và có mặt trong mọi giáo trình lý thuyết đồ thị.
+Với đồ thị phẳng đơn, liên thông, từ công thức Euler kết hợp với bất đẳng thức $$2e\ge 3f$$ (mỗi mặt có ít nhất 3 cạnh, mỗi cạnh giáp nhiều nhất 2 mặt), ta suy ra $$e\le 3v-6$$ khi $$v\ge 3$$. Do đó bậc trung bình $$2e/v<6$$, nên luôn có ít nhất một đỉnh $$v$$ với $$\deg(v)\le 5$$. **Định lý năm màu** được chứng minh bằng quy nạp theo số đỉnh $$v$$: bỏ một đỉnh bậc thấp, tô phần còn lại bằng năm màu, và nếu 5 đỉnh kề với đỉnh đã bỏ dùng đủ cả năm màu (giả sử theo chiều kim đồng hồ là Đỏ–Xanh–Vàng–Lục–Tím) thì dùng **xích Kempe** (ví dụ xét thành phần liên thông gồm các đỉnh Đỏ–Vàng): nếu đỉnh Đỏ và đỉnh Vàng không nối nhau bởi đường đi Đỏ–Vàng, ta đổi màu Đỏ↔Vàng trên nhánh chứa đỉnh Đỏ để giải phóng màu Đỏ; còn nếu chúng có nối nhau, đường đi đó tạo thành một vòng kín tách rời đỉnh Xanh khỏi đỉnh Lục nhờ tính phẳng, nên ta chắc chắn đổi được màu Xanh↔Lục để giải phóng màu Xanh! Lập luận này hoàn toàn đọc hiểu được bằng tay và có mặt trong mọi giáo trình lý thuyết đồ thị.
 
-Năm 1879, Kempe đưa ra một chứng minh cho **bốn** màu nhưng có lỗ hổng (Heawood chỉ ra năm 1890). Lỗ hổng này rất tinh vi, đáng để đọc chậm một lần ở chương 1. Bài học ở đây là: một ý tưởng quy nạp đẹp có thể *gần* đúng nhưng vẫn sai ở một trường hợp tô lại màu. Đó là lý do việc phân tích trường hợp bằng máy tính sau này xuất hiện trong câu chuyện bốn màu chứ không cần cho năm màu.
+Năm 1879, Kempe đưa ra một chứng minh cho **bốn** màu bằng cách dùng *hai* xích Kempe cùng lúc, nhưng có lỗ hổng (Heawood chỉ ra năm 1890): hai xích Kempe có thể đan xen và phá hỏng lẫn nhau khi thực hiện đổi màu đồng thời. Lỗ hổng này rất tinh vi, đáng để đọc chậm một lần ở chương 1. Bài học ở đây là: một ý tưởng quy nạp đẹp có thể *gần* đúng nhưng vẫn sai ở một trường hợp tô lại màu. Đó là lý do việc phân tích trường hợp bằng máy tính sau này xuất hiện trong câu chuyện bốn màu chứ không cần cho năm màu.
 
 ### 1.3 Appel và Haken đã làm gì
 
-Chứng minh 4CT đưa bài toán về một tập hữu hạn (nhưng rất lớn) các **cấu hình không tránh được** (unavoidable) và **khử được** (reducible): không cấu hình nào trong số đó có thể xuất hiện trong một phản ví dụ nhỏ nhất. Không tránh được nghĩa là mọi phản ví dụ nhỏ nhất đều phải chứa ít nhất một cấu hình trong tập (thường chứng minh bằng phương pháp phóng điện, discharging: gán "điện tích" dựa trên công thức Euler rồi phân phối lại cho đến khi buộc phải có một cấu hình). Khử được nghĩa là mọi cách tô phần bên ngoài đều có thể mở rộng vào bên trong sau hữu hạn bước tô lại. Việc kiểm tra tính khử được dùng máy tính liệt kê các trường hợp. Các công trình sau đó (Robertson, Sanders, Seymour, Thomas, …) đơn giản hóa tập cấu hình và kiểm tra lại bằng chương trình độc lập; việc hình thức hóa chứng minh trên máy càng tăng độ tin cậy. Dù vậy, chứng minh này vẫn khác hẳn chứng minh năm màu về độ dài và phương pháp: sinh viên có thể hiểu chứng minh năm màu trong một buổi chiều, còn chứng minh bốn màu vẫn là một phân tích trường hợp ở quy mô nghiên cứu, kể cả sau khi đã đơn giản hóa.
+Chứng minh 4CT đưa bài toán về một tập hữu hạn (nhưng rất lớn) các **cấu hình không tránh được** (unavoidable) và **khử được** (reducible): không cấu hình nào trong số đó có thể xuất hiện trong một phản ví dụ nhỏ nhất. Không tránh được nghĩa là mọi phản ví dụ nhỏ nhất đều phải chứa ít nhất một cấu hình trong tập (thường chứng minh bằng phương pháp phóng điện, discharging: gán "điện tích" dựa trên công thức Euler rồi phân phối lại cho đến khi buộc phải có một cấu hình). Khử được nghĩa là mọi cách tô phần bên ngoài đều có thể mở rộng vào bên trong sau hữu hạn bước tô lại. Việc kiểm tra tính khử được dùng máy tính liệt kê các trường hợp (ban đầu là gần 1.936, sau giảm còn 1.476 cấu hình). Các công trình sau đó (Robertson, Sanders, Seymour, Thomas năm 1997 rút xuống 633 cấu hình) đơn giản hóa tập cấu hình và kiểm tra lại bằng chương trình độc lập; việc hình thức hóa chứng minh trên máy (Georges Gonthier bằng Coq năm 2005) càng tăng độ tin cậy. Dù vậy, chứng minh này vẫn khác hẳn chứng minh năm màu về độ dài và phương pháp: sinh viên có thể hiểu chứng minh năm màu trong một buổi chiều, còn chứng minh bốn màu vẫn là một phân tích trường hợp ở quy mô nghiên cứu, kể cả sau khi đã đơn giản hóa.
 
 **Câu hỏi cho nhật ký:** "có máy tính hỗ trợ" có nghĩa là "không phải chứng minh" không? Viết quan điểm của bạn trước và sau khi đọc phần thảo luận ở chương 1. Nhiều nhà toán học giữ quan điểm trung dung: chứng minh là thứ mà cộng đồng có thể kiểm tra được về nguyên tắc; máy tính là công cụ kiểm tra hợp lệ khi chương trình và đặc tả của nó có thể được kiểm tra lại.
 
@@ -65,13 +76,16 @@ $$
 H(g)=\left\lfloor\frac{7+\sqrt{1+48g}}{2}\right\rfloor
 $$
 
-là chặn trên cho số màu cần để tô bản đồ trên mặt định hướng được có giống $$g$$. Với $$g=0$$ công thức cho giá trị 4, nhưng lập luận cổ điển của Heawood cho mặt cầu và mặt phẳng **không** chứng minh được 4CT; điểm này quan trọng về mặt lịch sử. Với **mặt xuyến** ($$g=1$$): $$H(1)=7$$ và chặn này là đúng, tức là có bản đồ trên mặt xuyến cần đủ 7 màu. Tính tay $$H(g)$$ cho các giống nhỏ là yêu cầu bắt buộc ở thí nghiệm C.
+là chặn trên cho số màu cần để tô bản đồ trên mặt định hướng được có giống $$g$$. Hãy thử thay vài số nhỏ để thấy quy luật:
+- Mặt cầu / mặt phẳng ($$g=0$$): $$H(0) = \lfloor (7+1)/2 \rfloor = 4$$ — nhưng lập luận cổ điển của Heawood cho mặt cầu **không** chứng minh được 4CT; điểm này rất quan trọng về mặt lịch sử.
+- **Mặt xuyến** ($$g=1$$, một lỗ): $$H(1) = \lfloor (7+\sqrt{49})/2 \rfloor = 7$$, và chặn này là đúng, tức là có bản đồ trên mặt xuyến cần đủ 7 màu.
+- Mặt hai lỗ ($$g=2$$): $$H(2) = \lfloor (7+\sqrt{97})/2 \rfloor = \lfloor (7+9.848\dots)/2 \rfloor = 8$$.
 
-Đồ thị đầy đủ $$K_n$$ nhúng được vào các mặt có giống đủ lớn. **Ringel và Youngs** đã chứng minh giả thuyết Heawood cho $$g\ge 1$$, tức là xác định chính xác sắc số của mọi mặt định hướng được. Sự khác biệt so với mặt phẳng vừa mang tính kỹ thuật vừa thú vị về lịch sử: khi giống dương, cách nhúng $$K_n$$ tối ưu xác định số màu một cách gọn gàng hơn nhiều so với con số "bốn" trên mặt phẳng.
+Đồ thị đầy đủ $$K_n$$ nhúng được vào các mặt có giống đủ lớn. **Ringel và Youngs** (1968) đã chứng minh giả thuyết Heawood cho mọi $$g\ge 1$$, tức là xác định chính xác sắc số của mọi mặt định hướng được. Sự khác biệt so với mặt phẳng vừa mang tính kỹ thuật vừa thú vị về lịch sử: khi giống dương, cách nhúng $$K_n$$ tối ưu xác định số màu một cách gọn gàng hơn nhiều so với con số "bốn" trên mặt phẳng.
 
 ### 1.5 Đổi quy tắc thì con số bốn không còn đúng
 
-Nếu một nước được phép gồm **nhiều mảnh rời nhau** (các mảnh của cùng một "đế quốc" phải cùng màu), thì có thể buộc phải dùng nhiều màu tùy ý ngay trên mặt phẳng. Khi đó đồ thị đối ngẫu phải gộp các mảnh lại để thể hiện ràng buộc nhiều thành phần. Ý tưởng dựng chuẩn: lấy nhiều nhóm vùng bắt buộc cùng màu và sắp xếp chúng kề nhau sao cho các "siêu đỉnh" tạo thành một clique lớn trong đồ thị xung đột. Nếu biên giới có hình dạng quá bất thường, hoặc bản đồ có vô hạn nước, phát biểu cũng thay đổi. Vì vậy luôn cố định quy tắc trong đề xuất: các nước có liên thông không? biên chung có độ dài dương không? bản đồ có hữu hạn không? trên mặt cầu hay mặt phẳng?
+Nếu một nước được phép gồm **nhiều mảnh rời nhau** (các mảnh của cùng một "đế quốc" — chẳng hạn lục địa chính và thuộc địa hải ngoại — phải cùng màu), thì có thể buộc phải dùng nhiều màu tùy ý ngay trên mặt phẳng. Khi đó đồ thị đối ngẫu phải gộp các mảnh lại để thể hiện ràng buộc nhiều thành phần. Ý tưởng dựng chuẩn: lấy nhiều nhóm vùng bắt buộc cùng màu và sắp xếp chúng kề nhau sao cho các "siêu đỉnh" tạo thành một clique lớn trong đồ thị xung đột (ví dụ: nếu mỗi đế quốc có tối đa $$m$$ mảnh rời nhau, chặn màu tăng vọt lên tới $$6m$$ khi $$m \ge 2$$!). Nếu biên giới có hình dạng quá bất thường, hoặc bản đồ có vô hạn nước, phát biểu cũng thay đổi. Vì vậy luôn cố định quy tắc trong đề xuất: các nước có liên thông không? biên chung có độ dài dương không? bản đồ có hữu hạn không? trên mặt cầu hay mặt phẳng?
 
 ### 1.6 Ngoài bản đồ (mở rộng)
 

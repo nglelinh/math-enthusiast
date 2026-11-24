@@ -9,9 +9,11 @@ categories:
 - chapter05
 ---
 
-Georg Cantor chứng minh rằng tập số thực **không đếm được**: không thể xếp mọi số thực thành một dãy $$r_1,r_2,r_3,\ldots$$. Lập luận rất ngắn, nhưng nó làm thay đổi hẳn cách các nhà toán học nhìn về vô hạn. Bài này đi vào **ý tưởng chứng minh** đủ kỹ để bạn dùng được, tránh cái bẫy về cách biểu diễn số thập phân, và thấy vì sao cùng một động tác "đường chéo" xuất hiện lại trong logic và khoa học máy tính. Bài Euclid–Cantor đã so sánh hai chứng minh; ở đây ta xét riêng phương pháp đường chéo.
+Vào cuối thế kỷ XIX, khi nhà toán học Đức **Georg Cantor** tuyên bố rằng có những cái vô hạn *lớn hơn hẳn* những cái vô hạn khác, giới toán học đã nổ ra một cuộc tranh cãi dữ dội. Leopold Kronecker gọi ông là "kẻ làm hư hỏng thanh niên", còn Henri Poincaré ví lý thuyết tập hợp của ông như một "căn bệnh" mà toán học sẽ sớm khỏi. Nhưng David Hilbert lại thốt lên câu nói bất hủ: *"Không ai có thể đuổi chúng ta ra khỏi thiên đường mà Cantor đã tạo nên."*
 
-Có thể nhớ bằng một câu: *với bất kỳ danh sách số thực nào được cho là đầy đủ, ta dựng một số thực khác phần tử thứ $$n$$ ở đúng vị trí thứ $$n$$.*
+Điều gì khiến một lập luận chỉ dài chưa đầy nửa trang giấy lại gây chấn động đến thế? Cantor đặt ra một câu hỏi tưởng chừng ngây thơ: trên một đoạn thẳng bé xíu từ $$0$$ đến $$1$$, liệu có nhiều điểm hơn toàn bộ tập hợp các số đếm $$1, 2, 3, \ldots$$ trải dài tới vô cùng hay không? Câu trả lời của ông — **lập luận đường chéo** — chứng minh rằng tập số thực **không đếm được**: mọi nỗ lực xếp các số thực thành một dãy $$r_1, r_2, r_3, \ldots$$ đều chắc chắn bỏ sót. Bài này đi sâu vào động cơ của phép dựng đường chéo, cách né cái bẫy tinh vi của biểu diễn thập phân, và vì sao cùng một động tác ấy lại tái xuất trong logic học và khoa học máy tính.
+
+Có thể nhớ toàn bộ tinh thần bài học bằng một câu: *với bất kỳ danh sách số thực nào được cho là đầy đủ, ta dựng một số thực khác phần tử thứ $$n$$ ở đúng vị trí thứ $$n$$.*
 
 ---
 
@@ -30,11 +32,27 @@ Sau bài này, bạn có thể:
 
 ---
 
-## 1. "Đếm được" nghĩa là gì
+## Bản đồ kiến thức nền: Lý thuyết tập hợp và tập vô hạn Cantor là gì?
 
-Tập $$S$$ **đếm được** nếu nó hữu hạn, hoặc có song ánh giữa $$S$$ và tập số tự nhiên $$\mathbb{N}$$. Với tập vô hạn, điều đó có nghĩa là có thể viết các phần tử thành một dãy $$s_1,s_2,s_3,\ldots$$ sao cho mỗi phần tử xuất hiện ít nhất một lần.
+Để người tốt nghiệp đại học nắm chắc ngữ cảnh mà không bị ngợp bởi ký hiệu, hãy hình dung **Lý thuyết tập hợp (Set Theory)** như "hệ điều hành nền" của toán học hiện đại: hầu hết mọi đối tượng toán học (số, hàm số, đồ thị, không gian hình học) đều có thể được xây dựng từ tập hợp.
 
-Các tập vô hạn đếm được quen thuộc gồm $$\mathbb{N}$$, $$\mathbb{Z}$$ (liệt kê $$0,1,-1,2,-2,\ldots$$) và $$\mathbb{Q}$$ (xếp các phân số theo tổng tử số và mẫu số, bỏ những phân số trùng). "Đếm được" không có nghĩa là ai đó kiên nhẫn đếm xong, mà là *tồn tại* một cách liệt kê theo nghĩa toán học. Điều bất ngờ của định lý dưới đây là có những tập vô hạn không thể liệt kê theo cách nào.
+- **Cách đo kích cỡ mà không cần biết đếm:** Một người chăn cừu thời cổ đại không cần biết số đếm vẫn kiểm tra được đàn cừu có bị mất con nào không: mỗi con cừu đi qua cổng, ông bỏ một viên sỏi vào túi; chiều về, mỗi con cừu lại lấy ra một viên sỏi. Nếu vừa khít không thừa không thiếu, số cừu và số sỏi bằng nhau. Toán học gọi phép ghép cặp một-một đó là **song ánh (bijection)**, và kích cỡ đo bằng song ánh gọi là **lực lượng (cardinality)**.
+- **Cú sốc khi áp dụng cho tập vô hạn:** Với tập hữu hạn, một tập con thực sự luôn nhỏ hơn tập mẹ. Với tập vô hạn, quy luật ấy vỡ vụn: tập số chẵn $$\{2, 4, 6, \ldots\}$$ có thể ghép cặp một-một với toàn bộ $$\mathbb{N} = \{1, 2, 3, \ldots\}$$ qua quy tắc $$n \mapsto 2n$$! Điều này dẫn đến cảm giác rằng có lẽ mọi tập vô hạn đều có cùng một lực lượng (ký hiệu $$\aleph_0$$ — đọc là *aleph-không*).
+- **Tháp vô hạn của Cantor:** Lập luận đường chéo của Cantor đập tan giả định ấy. Nó chứng minh $$\lvert\mathbb{R}\rvert = 2^{\aleph_0} > \aleph_0$$, và tổng quát hơn, với *mọi* tập $$X$$, tập lũy thừa $$\mathcal{P}(X)$$ luôn lớn hơn $$X$$ thực sự. Nghĩa là có một chuỗi vô tận các tầng vô hạn ngày càng khổng lồ:
+
+$$
+\aleph_0 < 2^{\aleph_0} < 2^{2^{\aleph_0}} < \cdots
+$$
+
+---
+
+## 1. "Đếm được" nghĩa là gì — và nghịch lý của sự liệt kê
+
+Tập $$S$$ **đếm được** nếu nó hữu hạn, hoặc có song ánh giữa $$S$$ và tập số tự nhiên $$\mathbb{N}$$. Với tập vô hạn, điều đó có nghĩa là ta có thể phát "số thứ tự phòng" $$1, 2, 3, \ldots$$ cho các phần tử thành một dãy $$s_1, s_2, s_3, \ldots$$ sao cho không một phần tử nào bị bỏ rơi mãi mãi.
+
+Hãy nhìn một nghịch lý đời thường quen thuộc: **Khách sạn Vô hạn Hilbert**. Dù tất cả các phòng đánh số $$1, 2, 3, \ldots$$ đã đầy khách, người lễ tân vẫn xếp chỗ được cho mọi số nguyên $$\mathbb{Z}$$ (xếp $$0, 1, -1, 2, -2, \ldots$$) và thậm chí cho toàn bộ tập số hữu tỷ dương $$\mathbb{Q}^+$$ (xếp các phân số $$p/q$$ vào bảng lưới hai chiều rồi đi theo đường zíc-zắc bỏ các phân số chưa tối giản: $$1/1, 1/2, 2/1, 1/3, 3/1, 1/4, \ldots$$).
+
+"Đếm được" không có nghĩa là con người đủ kiên nhẫn đếm đến hết, mà là *tồn tại* một sơ đồ đánh số theo nghĩa toán học. Điều bất ngờ của định lý dưới đây là: tập số thực $$\mathbb{R}$$ lớn đến mức không một sơ đồ đánh số nào — dù khéo léo đến đâu — có thể chứa nổi.
 
 ---
 
@@ -77,6 +95,18 @@ $$
 
 Khi đó $$d\in(0,1)$$ và $$d\neq r_n$$ với mọi $$n$$, vì hai số khác nhau ở chữ số thứ $$n$$. Vậy danh sách không đầy đủ. Suy ra $$(0,1)$$ không đếm được, và do đó $$\mathbb{R}$$ cũng không đếm được.
 
+Hãy quan sát một minh họa cụ thể trên 5 hàng đầu tiên của một danh sách giả định:
+
+| Thứ tự $$n$$ | Số thực $$r_n$$ | Chữ số đường chéo $$d_{nn}$$ | Chữ số mới $$e_n$$ |
+|--------------|-----------------|------------------------------|--------------------|
+| $$1$$ | $$0.\mathbf{7}1828\ldots$$ | $$7$$ | $$4$$ |
+| $$2$$ | $$0.3\mathbf{4}159\ldots$$ | $$4$$ | $$5$$ |
+| $$3$$ | $$0.50\mathbf{0}00\ldots$$ | $$0$$ | $$4$$ |
+| $$4$$ | $$0.123\mathbf{4}5\ldots$$ | $$4$$ | $$5$$ |
+| $$5$$ | $$0.9876\mathbf{5}\ldots$$ | $$5$$ | $$4$$ |
+
+Số mới dựng được bắt đầu bằng $$d = 0.45454\ldots$$. Nó không thể là $$r_1$$ (khác ở vị trí 1), không thể là $$r_2$$ (khác ở vị trí 2),..., và không thể là bất kỳ $$r_n$$ nào vì ngay tại vị trí thứ $$n$$ ta đã cố ý "lệch pha" so với $$r_n$$.
+
 ![Đường chéo]({{ site.baseurl }}/img/chapter_img/cantor_diagonal.svg)
 
 *Hình. Đổi các chữ số trên đường chéo; số mới không trùng với dòng nào.*
@@ -93,25 +123,25 @@ Khi đó $$d\in(0,1)$$ và $$d\neq r_n$$ với mọi $$n$$, vì hai số khác n
 
 Số $$d$$ **phụ thuộc vào danh sách**, và đó là điểm mạnh: người hoài nghi đưa ra danh sách nào thì đường chéo trả lời đúng cho danh sách đó. Không có một số thực "vắng mặt" cố định cho mọi danh sách. Điều đúng là: *với mọi danh sách, tồn tại* một số thực không có trong danh sách đó. Thứ tự của các lượng từ ở đây rất quan trọng.
 
-Cùng tinh thần với Euclid: số $$N=P+1$$ phụ thuộc vào danh sách số nguyên tố ta giả định, và các ước nguyên tố của nó nằm *ngoài* danh sách ấy. Đó là một số được dựng ra theo danh sách, không phải một số đặc biệt có sẵn từ trước.
+Nếu người hoài nghi phản biện: *"Thế thì tôi nhét thêm số $$d$$ của bạn lên đầu danh sách thành $$r_0$$ là xong chứ gì?"* — thì ta chỉ việc chạy lại đúng thao tác đường chéo trên danh sách mới, và một số $$d'$$ mới tinh lại thoát ra! Cùng tinh thần với Euclid: số $$N=P+1$$ phụ thuộc vào danh sách số nguyên tố ta giả định, và các ước nguyên tố của nó nằm *ngoài* danh sách ấy. Đó là một đối tượng được chế tạo theo danh sách, không phải một hằng số đặc biệt có sẵn từ trước.
 
 ---
 
 ## 5. Một chi tiết cần cẩn thận: cách viết thập phân không duy nhất
 
-Có số thực viết được theo hai cách thập phân, ví dụ $$0.1999\ldots=0.2000\ldots$$. Nếu đổi chữ số một cách bất cẩn, ta có thể được một dãy chữ số khác nhưng cùng giá trị với một $$r_n$$. Có mấy cách xử lý:
+Có số thực viết được theo hai cách thập phân, ví dụ $$0.1999\ldots=0.2000\ldots$$. Nếu đổi chữ số một cách bất cẩn (chẳng hạn dùng quy tắc cộng 1 modulo 10), ta có thể dựng ra dãy $$0.1999\ldots$$ khác mọi hàng về mặt *ký tự*, nhưng lại bằng đúng số $$0.2000\ldots$$ vốn đã nằm đâu đó trong danh sách! Có mấy cách xử lý dứt điểm:
 
 - Quy ước chỉ dùng một dạng (cấm đuôi toàn chữ số 9, hoặc cấm đuôi toàn chữ số 0).
-- Chỉ dùng chữ số trong $$\{4,5\}$$ cho số mới, như quy tắc ở mục 3.
+- Chỉ dùng chữ số trong $$\{4,5\}$$ cho số mới, như quy tắc ở mục 3 — vì một số chỉ gồm $$4$$ và $$5$$ không bao giờ có đuôi toàn $$0$$ hay toàn $$9$$, nên biểu diễn thập phân của nó là **duy nhất tuyệt đối**.
 - Làm việc với các dãy $$\{0,1\}^{\mathbb{N}}$$ trước, rồi chuyển sang số thực một cách cẩn thận.
 
-Biểu diễn nhị phân gặp vấn đề tương tự (đuôi toàn chữ số 1). Ở mức ý tưởng, chiến lược đường chéo vẫn đúng sau các sửa chữa này. Khi viết "ý tưởng chứng minh", bạn nên nêu vấn đề này ra chứ đừng làm như nó không tồn tại.
+Biểu diễn nhị phân gặp vấn đề tương tự (đuôi toàn chữ số 1, như $$0.0111\ldots_2 = 0.1000\ldots_2$$). Ở mức ý tưởng, chiến lược đường chéo vẫn đúng sau các sửa chữa này. Khi viết "ý tưởng chứng minh", bạn nên nêu vấn đề này ra chứ đừng làm như nó không tồn tại.
 
 ---
 
 ## 6. $$\mathbb{Q}$$ đếm được còn $$\mathbb{R}$$ thì không
 
-Phương pháp đường chéo **không** chứng minh được $$\mathbb{Q}$$ không đếm được: các số hữu tỉ đếm được (liệt kê xen kẽ theo dạng phân số tối giản). Lập luận ở trên chỉ nhắm vào danh sách *mọi số thực*, và số $$d$$ được dựng ra nói chung không phải số hữu tỉ, nên nó không mâu thuẫn với việc mọi số hữu tỉ có thể được liệt kê trong một danh sách khác.
+Phương pháp đường chéo **không** chứng minh được $$\mathbb{Q}$$ không đếm được: các số hữu tỉ đếm được (liệt kê xen kẽ theo dạng phân số tối giản). Nếu bạn thử áp dụng lập luận đường chéo lên một danh sách chứa mọi số hữu tỷ trong $$(0,1)$$, bạn vẫn dựng ra được một số $$d$$ nằm ngoài danh sách — nhưng **không có gì đảm bảo $$d$$ là số hữu tỷ** (thực tế, vì danh sách đã chứa mọi số hữu tỷ rồi, nên $$d$$ chắc chắn là một số vô tỷ!). Vì $$d \notin \mathbb{Q}$$, không hề có mâu thuẫn nào xảy ra.
 
 | Tập | Kích cỡ | Ý tưởng chứng minh điển hình |
 |-----|-----|------------------------------|
@@ -121,15 +151,24 @@ Phương pháp đường chéo **không** chứng minh được $$\mathbb{Q}$$ k
 
 ---
 
-## 7. Đường chéo thứ hai: tập lũy thừa
+## 7. Đường chéo thứ hai: tập lũy thừa và nghịch lý anh thợ cạo
 
-Cantor còn chứng minh: với mọi tập $$X$$, không có toàn ánh từ $$X$$ lên $$\mathcal{P}(X)$$ (tập lũy thừa, tức tập mọi tập con của $$X$$). Ý tưởng: với một hàm $$f:X\to\mathcal{P}(X)$$, đặt
+Cantor còn chứng minh một định lý tổng quát hơn nhiều: với mọi tập $$X$$, không có toàn ánh từ $$X$$ lên $$\mathcal{P}(X)$$ (tập lũy thừa, tức tập mọi tập con của $$X$$).
+
+Để thấy trực giác của chứng minh này, hãy nghĩ đến **Nghịch lý anh thợ cạo của Bertrand Russell**: tại một ngôi làng nọ, anh thợ cạo tuyên bố sẽ cạo râu cho *tất cả và chỉ những người không tự cạo râu cho mình*. Câu hỏi: anh thợ cạo có tự cạo râu cho mình không? Nếu có thì anh thuộc nhóm tự cạo nên không được phép cạo cho mình; nếu không thì anh thuộc nhóm không tự cạo nên buộc phải cạo cho mình! Mâu thuẫn ngay lập tức chứng tỏ *anh thợ cạo đó không thể tồn tại*.
+
+Phép chứng minh định lý tập lũy thừa của Cantor dùng đúng logic ấy. Giả sử có một hàm $$f:X\to\mathcal{P}(X)$$ gán cho mỗi "người dân" $$x \in X$$ một "nhóm" $$f(x) \subseteq X$$. Ta đặt tập các "người không thuộc nhóm của chính mình":
 
 $$
 D=\{x\in X:x\notin f(x)\}.
 $$
 
-Với mỗi $$x$$, tập $$D$$ khác $$f(x)$$ ở đúng phần tử $$x$$ (phần tử này thuộc đúng một trong hai tập $$D$$ và $$f(x)$$), nên $$D$$ không nằm trong ảnh của $$f$$. Khi $$X=\mathbb{N}$$, đây chính là đường chéo trên các dãy bit, cùng hình học với việc đổi chữ số thập phân. Hệ quả: không có "tập lớn nhất", và các lực lượng vô hạn tăng mãi không dừng.
+Nếu $$D$$ nằm trong ảnh của $$f$$, tức là tồn tại một phần tử $$a \in X$$ sao cho $$f(a) = D$$, thì ta hỏi: liệu $$a \in D$$ hay $$a \notin D$$?
+
+- Nếu $$a \in D$$ thì theo định nghĩa của $$D$$, ta phải có $$a \notin f(a) = D$$ (mâu thuẫn).
+- Nếu $$a \notin D$$ thì $$a \notin f(a)$$, nên theo định nghĩa của $$D$$, ta lại có $$a \in D$$ (mâu thuẫn).
+
+Nói ngắn gọn: với mỗi $$x$$, tập $$D$$ khác $$f(x)$$ ở đúng phần tử $$x$$ (phần tử này thuộc đúng một trong hai tập $$D$$ và $$f(x)$$), nên $$D$$ không bao giờ nằm trong ảnh của $$f$$. Khi $$X=\mathbb{N}$$, đây chính là đường chéo trên các dãy bit, cùng hình học với việc đổi chữ số thập phân. Hệ quả: không có "tập lớn nhất", và các lực lượng vô hạn tăng mãi không dừng.
 
 ---
 
@@ -138,7 +177,7 @@ Với mỗi $$x$$, tập $$D$$ khác $$f(x)$$ ở đúng phần tử $$x$$ (ph�
 - **Các cỡ vô hạn khác nhau.** Đây là bước ngoặt của Cantor: "vô hạn" không chỉ có một cỡ.
 - **Bất khả quyết định.** Trong bài toán dừng của Turing, ta đảo ngược hành vi của máy thứ $$e$$ trên đầu vào $$e$$, đó là đường chéo trên cặp (máy, đầu vào).
 - **Bất toàn.** Câu của Gödel mã hóa ý "tôi không chứng minh được" và cũng dựa trên tinh thần đường chéo.
-- **Khoa học máy tính.** Nhiều kết quả kiểu "không có thuật toán tổng quát" thực chất là đường chéo trá hình.
+- **Khoa học máy tính.** Nhiều kết quả kiểu "không có thuật toán tổng quát" (và định lý phân cấp thời gian trong lý thuyết độ phức tạp) thực chất là đường chéo trá hình.
 - **Liên hệ với bài Euclid.** Cùng khung "giả sử có danh sách, rồi dựng phần tử nằm ngoài" (xem [bài Euclid–Cantor]({{ site.baseurl }}/contents/vi/chapter05/05_02_Euclid_Infinite_Primes/)).
 
 ---
@@ -274,7 +313,7 @@ Lập luận đường chéo của Cantor không chỉ là chuyện "đếm đư
 
 ## Bài thực hành
 
-Viết lại chứng minh $$|\mathbb{N}| < |\mathbb{R}|$$ bằng các chuỗi nhị phân; chỉ rõ bước nào dùng giả thiết đã liệt kê được và bước nào dựng chuỗi trên đường chéo. Thêm một câu so sánh với bài thực hành [mô tả vô hạn]({{ site.baseurl }}/contents/vi/chapter07/07_08_Explore_Describe_Infinity/).
+Viết lại chứng minh $$\lvert\mathbb{N}\rvert < \lvert\mathbb{R}\rvert$$ bằng các chuỗi nhị phân; chỉ rõ bước nào dùng giả thiết đã liệt kê được và bước nào dựng chuỗi trên đường chéo. Thêm một câu so sánh với bài thực hành [mô tả vô hạn]({{ site.baseurl }}/contents/vi/chapter07/07_08_Explore_Describe_Infinity/).
 
 
 ## Video tham khảo

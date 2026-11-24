@@ -9,14 +9,18 @@ categories:
 - chapter02
 ---
 
-**John Pardon** (Stony Brook / Simons Center) nhận **Huy chương Fields 2026** cho các thành tựu trong hình học symplectic và những đóng góp cho hình học và tôpô nói chung. Nhiều huy chương Fields gắn với *một* định lý dễ kể tên (giả thuyết Poincaré, bài toán xếp cầu, khoảng cách bị chặn giữa các số nguyên tố). Lời trích dẫn cho Pardon thì nhấn mạnh phần **nền tảng**: làm sao đếm đường cong chỉnh hình và xây dựng các bất biến dạng phạm trù khi điều kiện hoành (transversality) cổ điển không còn đúng. Bên cạnh đó là các kết quả về tôpô chiều thấp: tác động nhóm trên đa tạp 3 chiều và lý thuyết nút.
+Nếu hình học Euclid cho ta thước đo *độ dài* và *góc*, thì **hình học symplectic** — ngôn ngữ hình học của cơ học cổ điển Hamilton — lại chỉ quan tâm đến *diện tích có hướng* trong không gian pha. Trong thế giới kỳ lạ ấy, mọi đa tạp symplectic cùng số chiều nhìn cục bộ đều giống hệt nhau (định lý Darboux), nên không có khái niệm "độ cong cục bộ" để phân biệt chúng. Muốn khám phá hình dạng toàn cục của một không gian symplectic, các nhà toán học thả vào đó những "đầu dò" gọi là **đường cong chỉnh hình** rồi đếm xem có bao nhiêu đường cong thỏa điều kiện cho trước.
+
+Nghe thì tưởng gọn gàng, nhưng suốt nhiều thập kỷ, cả một tòa lâu đài lý thuyết (bất biến Gromov–Witten, đồng điều Floer, **phạm trù Fukaya** của đối xứng gương) đứng trước một vết nứt nền móng nguy hiểm: tập hợp mọi đường cong chỉnh hình (không gian moduli) hiếm khi trơn tru và đúng số chiều như kỳ vọng! Nếu không có một cách "đếm" chặt chẽ khi không gian moduli bị méo mó hay có điểm kỳ dị, rất nhiều định lý quan trọng chỉ dừng lại ở mức phác thảo.
+
+**John Pardon** (Stony Brook / Simons Center) nhận **Huy chương Fields 2026** chính vì đã gia cố và xây lại tầng nền móng ấy: phát triển các cách tiếp cận mới cho **chu trình cơ bản ảo** (*virtual fundamental cycle*), xây dựng chặt chẽ **phạm trù Fukaya** cho những lớp đa tạp rộng lớn, và đồng thời đóng góp những kết quả nổi bật cho tôpô chiều thấp như tác động nhóm trên đa tạp 3 chiều và lý thuyết nút.
 
 **Trích dẫn ngắn của IMU:**  
 For his achievements in symplectic geometry including new approaches to virtual fundamental cycles, Fukaya categories of certain manifolds and counting holomorphic curves, and for his contributions to other areas of geometry and topology, including group actions on 3-manifolds and knot theory.
 
 *Tạm dịch:* Cho các thành tựu trong hình học symplectic, gồm những cách tiếp cận mới cho chu trình cơ bản ảo, phạm trù Fukaya của một số đa tạp và việc đếm đường cong chỉnh hình, cùng những đóng góp cho các lĩnh vực khác của hình học và tôpô, gồm tác động nhóm trên đa tạp 3 chiều và lý thuyết nút.
 
-Bài này dành cho người học đã biết tôpô vi phân cơ bản và muốn hiểu: *vì sao* việc "đếm đường cong" lại cần đến kỹ thuật ảo, *phạm trù Fukaya* là loại bất biến gì, và *cách* đọc slide ICM 2026 về tính chính quy dẫn xuất loga (log derived regularity) mà không nhầm nó với nội dung đã được trao giải.
+Bài này dành cho người học đã biết tôpô vi phân cơ bản và muốn hiểu: *vì sao* việc "đếm đường cong" lại cần đến kỹ thuật ảo, *phạm trù Fukaya* là loại bất biến gì, và *cách* đọc slide ICM 2026 về tính chính quy dẫn xuất loga (*log derived regularity*) mà không nhầm nó với nội dung đã được trao giải.
 
 ---
 
@@ -37,14 +41,24 @@ Sau bài học, bạn có thể:
 
 ---
 
+## Bản đồ kiến thức nền: Hình học symplectic và Không gian pha là gì?
+
+Để hình dung rõ ngành toán học phía sau công trình của Pardon, hãy quay về một hình ảnh rất quen thuộc của vật lý đại học:
+
+- **Không gian pha và dạng symplectic $$\omega$$:** Khi mô tả một hạt chuyển động trong không gian $$n$$ chiều, trạng thái của nó tại mỗi thời điểm được xác định bởi $$n$$ tọa độ vị trí $$(q_1, \dots, q_n)$$ và $$n$$ tọa độ động lượng $$(p_1, \dots, p_n)$$ — tổng cộng là $$2n$$ chiều (luôn là **số chiều chẵn**!). Dạng symplectic chuẩn $$\omega = \sum_{i=1}^n dq_i \wedge dp_i$$ đo tổng diện tích có hướng của hình chiếu lên từng mặt phẳng $$(q_i, p_i)$$. Trong cơ học cổ điển, khi hệ tiến hóa theo phương trình Hamilton, thể tích không gian pha không chỉ được bảo toàn, mà chính 2-dạng $$\omega$$ cũng được bảo toàn tuyệt đối.
+- **"Cứng" hay "mềm"? Định lý con lạc đà symplectic của Gromov:** Trong không gian bảo toàn thể tích thông thường, bạn luôn có thể bóp một quả cầu cao su bán kính $$R$$ thành một sợi dây dài vô tận để luồn vừa khít vào một ống trụ bán kính $$r$$ nhỏ tùy ý. Nhưng năm 1985, Mikhail Gromov gây chấn động khi chứng minh **định lý không ép được** (*nonsqueezing theorem*): nếu chỉ dùng các phép biến đổi bảo toàn dạng symplectic $$\omega$$, bạn **không bao giờ** nhét được quả cầu 4 chiều bán kính $$R$$ vào ống trụ symplectic bán kính $$r < R$$ — dù thể tích của ống trụ là vô hạn! Điều này cho thấy hình học symplectic mang một kiểu "độ cứng toàn cục" bí ẩn, nằm giữa hình học Riemann (rất cứng) và tô pô bảo toàn thể tích (rất mềm).
+- **Vì sao cần "đếm đường cong ảo"?** Gromov đã chứng minh định lý trên bằng cách cho các **đường cong chỉnh hình** (phiên bản 2 chiều của đường trắc địa) đi qua đa tạp symplectic. Muốn biến kỹ thuật đó thành các bất biến đếm được (đếm số đĩa chỉnh hình căng giữa các đa tạp con Lagrange để lập nên *phạm trù Fukaya*), ta cần giao cắt đẹp (**điều kiện hoành**, giống như hai đường thẳng trên mặt phẳng cắt nhau tại 1 điểm rõ ràng thay vì trùng khít lên nhau). Khi hai đường cong lại cứ trùng nhau (như hiện tượng *phủ bội* — một đường cong quấn nhiều vòng quanh chính nó), phép đếm ngây thơ hỏng hoàn toàn, và đó là lúc **chu trình cơ bản ảo** ra tay.
+
+---
+
 ## 1. Hình học symplectic tóm tắt trong một trang
 
 Một **đa tạp symplectic** $$(M,\omega)$$ là một đa tạp có 2-dạng $$\omega$$ thỏa:
 
 1. **Đóng:** $$d\omega=0$$;  
-2. **Không suy biến:** tại mỗi điểm, $$\omega_p$$ là dạng song tuyến tính không suy biến trên $$T_pM$$ (từ đó suy ra số chiều phải chẵn).
+2. **Không suy biến:** tại mỗi điểm, $$\omega_p$$ là dạng song tuyến tính đối xứng lệch không suy biến trên $$T_pM$$ (từ đại số tuyến tính suy ra số chiều của $$M$$ bắt buộc phải chẵn).
 
-**Ví dụ cơ bản.** Phân thớ đối tiếp xúc $$T^*Q$$ với dạng symplectic chính tắc (lấy vi phân của dạng Liouville); không gian Euclid chiều chẵn với dạng chuẩn. Cơ học Hamilton được phát biểu tự nhiên trên đa tạp symplectic: mỗi hàm Hamilton $$H$$ sinh ra một trường vector $$X_H$$ theo công thức
+**Ví dụ cơ bản.** Phân thớ đối tiếp xúc $$T^*Q$$ với dạng symplectic chính tắc (lấy vi phân của dạng Liouville); không gian Euclid chiều chẵn $$\mathbb{R}^{2n}$$ với dạng chuẩn $$\sum dq_i \wedge dp_i$$. Cơ học Hamilton được phát biểu tự nhiên trên đa tạp symplectic: mỗi hàm năng lượng Hamilton $$H$$ sinh ra một trường vector $$X_H$$ theo công thức
 
 $$
 \iota_{X_H}\omega = dH,
@@ -52,13 +66,13 @@ $$
 
 và dòng của $$X_H$$ bảo toàn $$\omega$$ (dạng hình học của định lý Liouville).
 
-**Cấu trúc gần phức.** Người ta thường chọn một cấu trúc gần phức (almost complex structure) $$J$$ tương thích với $$\omega$$ để định nghĩa **đường cong chỉnh hình**: đó là ánh xạ $$u:(\Sigma,j)\to(M,J)$$ thỏa phương trình Cauchy–Riemann
+**Cấu trúc gần phức.** Người ta thường chọn một cấu trúc gần phức (*almost complex structure*) $$J$$ tương thích với $$\omega$$ (tức $$J^2 = -\mathrm{Id}$$) để định nghĩa **đường cong chỉnh hình**: đó là ánh xạ $$u:(\Sigma,j)\to(M,J)$$ thỏa phương trình Cauchy–Riemann phi tuyến
 
 $$
 du\circ j = J\circ du.
 $$
 
-Từ công trình của Gromov, đường cong chỉnh hình (và các biến thể trong lý thuyết Floer) trở thành **công cụ dò tôpô symplectic toàn cục**. Theo định lý Darboux, mọi đa tạp symplectic nhìn cục bộ đều giống nhau, nên tọa độ cục bộ không phân biệt được chúng. Đường cong chỉnh hình phát hiện được những ràng buộc toàn cục mà tọa độ cục bộ không thấy.
+Từ công trình của Gromov, đường cong chỉnh hình (và các biến thể trong lý thuyết Floer) trở thành **công cụ dò tôpô symplectic toàn cục**. Theo định lý Darboux, mọi đa tạp symplectic nhìn cục bộ đều giống hệt $$\mathbb{R}^{2n}$$ chuẩn, nên tọa độ cục bộ không phân biệt được chúng. Đường cong chỉnh hình phát hiện được những ràng buộc toàn cục mà tọa độ cục bộ không thấy.
 
 **Tóm lại.** Hình học symplectic nghiên cứu "diện tích có hướng" cho bởi một 2-dạng không suy biến, các động lực bảo toàn nó, và dùng đường cong chỉnh hình để xây dựng bất biến.
 
@@ -71,44 +85,44 @@ Từ công trình của Gromov, đường cong chỉnh hình (và các biến th
 Trong trường hợp lý tưởng:
 
 - toán tử tuyến tính hóa là toán tử Fredholm;
-- điều kiện hoành đảm bảo $$\mathcal{M}$$ là đa tạp trơn có số chiều bằng chỉ số Fredholm;
+- điều kiện hoành (*transversality*) đảm bảo $$\mathcal{M}$$ là đa tạp trơn có số chiều bằng chỉ số Fredholm;
 - một phép compact hóa tốt cho phép lấy **lớp cơ bản** $$[\mathcal{M}]\in H_*(\overline{\mathcal{M}})$$ rồi tích phân hoặc đếm trên đó.
 
-**Trên thực tế.** Với cấu trúc gần phức tổng quát, điều kiện hoành có thể đạt được trong một số trường hợp. Nhưng trên nhiều đa tạp đáng quan tâm, khi có điều kiện biên Lagrange, khi có các đường cong phủ bội (multiple cover), hay khi đường cong suy biến, không gian moduli **không** phải là đa tạp trơn với số chiều như dự kiến. Nó có thể có điểm kỳ dị kiểu orbifold, có thành phần với số chiều sai, và có các phân thớ cản trở (obstruction bundle).
+**Trên thực tế.** Với cấu trúc gần phức tổng quát, điều kiện hoành có thể đạt được trong một số trường hợp đơn giản. Nhưng trên nhiều đa tạp đáng quan tâm, khi có điều kiện biên Lagrange, khi có các đường cong **phủ bội** (*multiple cover*, kiểu như ánh xạ $$z \mapsto z^2$$ quấn hai vòng lên cùng một hình cầu), hay khi đường cong suy biến thành nhiều mảnh nối nhau, không gian moduli **không** phải là đa tạp trơn với số chiều như dự kiến. Nó có thể có điểm kỳ dị kiểu orbifold, có thành phần với số chiều lớn hơn dự kiến, và có các phân thớ cản trở (*obstruction bundle*).
 
 Nếu không có một lớp cơ bản đáng tin cậy, các "số đếm Gromov–Witten hay Floer" có thể **không được định nghĩa** một cách nhất quán.
 
 ### 2.1. Chu trình cơ bản ảo
 
-**Lớp (hay chu trình) cơ bản ảo** (virtual fundamental class/cycle) là một lớp đồng điều (hoặc một xích) thay thế, xác định trên phép compact hóa của không gian moduli. Nó cho phép tích phân và đếm *như thể* điều kiện hoành được thỏa, với điều kiện hệ thống nhiễu (dùng cấu trúc Kuranishi, polyfold hay hình học dẫn xuất) được xây dựng đúng.
+**Lớp (hay chu trình) cơ bản ảo** (*virtual fundamental class/cycle*) là một lớp đồng điều (hoặc một xích) thay thế, xác định trên phép compact hóa của không gian moduli. Hãy hình dung một ví dụ siêu đơn giản trong mặt phẳng: nếu hai đường tròn cắt nhau ngang (hoành) tại 2 điểm, ta đếm được 2; nếu chúng *tiếp xúc* nhau tại 1 điểm (mất tính hoành), hoặc thậm chí *trùng khít* lên nhau (sai hẳn số chiều!), thì nhiễu nhẹ một đường tròn sẽ giúp đọc ra số giao "ảo" có dấu không phụ thuộc vào cách nhiễu. Trên không gian moduli vô hạn chiều, việc thực hiện phép "nhiễu có hệ thống" này cực kỳ gian nan (đòi hỏi cấu trúc Kuranishi, polyfold hay hình học dẫn xuất).
 
-Đây không phải chi tiết phụ. Nó là **ranh giới giữa định lý và phát biểu chưa chứng minh**. Nhiều bất biến chỉ thực sự trở thành toán học khi kỹ thuật ảo được xây dựng chặt chẽ.
+Đây không phải chi tiết phụ. Nó là **ranh giới giữa định lý và phát biểu chưa chứng minh**. Nhiều bất biến chỉ thực sự trở thành toán học chặt chẽ khi kỹ thuật ảo được xây dựng hoàn hảo.
 
-**Đóng góp của Pardon được nêu trong trích dẫn.** Những cách tiếp cận mới cho chu trình cơ bản ảo và cho việc đếm đường cong chỉnh hình trong các trường hợp khó, làm nền cho các bất biến đáng tin cậy.
+**Đóng góp của Pardon được nêu trong trích dẫn.** Pardon đưa ra khung **implicit atlas** (tập bản đồ ẩn) thuần túy đại số–tô pô cực kỳ sáng sủa để xây dựng chu trình cơ bản ảo và đếm đường cong chỉnh hình trong các trường hợp khó, làm nền vững chắc cho đồng điều Floer và đồng điều tiếp xúc.
 
 ---
 
 ## 3. Phạm trù Fukaya: biến các đa tạp con Lagrange thành bất biến
 
-Một **đa tạp con Lagrange** $$L\subset(M,\omega)$$ có số chiều bằng một nửa $$\dim M$$ và thỏa $$\omega|_L=0$$. Trong cơ học, chúng liên quan đến các điều kiện biên và điều kiện ban đầu có "một nửa số chiều". Trong đối xứng gương, chúng là các đối tượng ở phía mô hình A (A-model).
+Một **đa tạp con Lagrange** $$L\subset(M,\omega)$$ có số chiều bằng một nửa $$\dim M$$ và thỏa $$\omega\vert_L=0$$ (chẳng hạn trong không gian pha $$2n$$ chiều, không gian cấu hình $$n$$ chiều gồm các tọa độ vị trí $$(q_1, \dots, q_n)$$ là một đa tạp con Lagrange mẫu mực). Trong đối xứng gương, chúng là các đối tượng ở phía mô hình A (*A-model*).
 
 **Phạm trù Fukaya** (và các biến thể) được tổ chức như sau:
 
-- đối tượng: các đa tạp con Lagrange (kèm dữ liệu phân bậc, cấu trúc spin, nhiễu…);
-- cấu xạ: phức Floer, sinh bởi các giao điểm của hai Lagrange (hoặc các đường cong có biên nằm trên chúng);
-- phép hợp thành: đếm các đĩa chỉnh hình có biên nằm trên các Lagrange liên quan.
+- **đối tượng:** các đa tạp con Lagrange (kèm dữ liệu phân bậc, cấu trúc spin, nhiễu…);
+- **cấu xạ:** phức Floer, sinh bởi các giao điểm của hai đa tạp con Lagrange (hoặc các đường cong có biên nằm trên chúng);
+- **phép hợp thành:** đếm các đĩa chỉnh hình có biên nằm trên các Lagrange liên quan (ví dụ 3 Lagrange $$L_0, L_1, L_2$$ cắt nhau tại $$p, q, r$$, ta đếm số tam giác chỉnh hình nối 3 giao điểm ấy!).
 
-Kết quả là một **bất biến dạng phạm trù** (thường là phạm trù $$A_\infty$$) của đa tạp symplectic. Nó mạnh hơn một nhóm đồng điều đơn lẻ, vì nó ghi lại cách các Lagrange giao nhau và liên hệ với nhau qua các đường cong chỉnh hình.
+Kết quả là một **bất biến dạng phạm trù** (thường là phạm trù $$A_\infty$$) của đa tạp symplectic. Nó mạnh hơn một nhóm đồng điều đơn lẻ, vì nó ghi lại toàn bộ mạng lưới cách các Lagrange giao nhau và liên hệ với nhau qua các đường cong chỉnh hình.
 
-**Đối xứng gương (nói ngắn gọn).** Phía mô hình B là hình học phức, với phạm trù các bó nhất quán (coherent sheaf). Phía mô hình A là phạm trù Fukaya. Giả thuyết đối xứng gương đồng điều dự đoán hai phía này tương đương, tạo ra một cầu nối sâu giữa hình học phức và hình học symplectic.
+**Đối xứng gương (nói ngắn gọn).** Phía mô hình B là hình học phức, với phạm trù các bó nhất quán (*coherent sheaf*). Phía mô hình A là phạm trù Fukaya. Giả thuyết **đối xứng gương đồng điều** của Kontsevich dự đoán hai phạm trù từ hai thế giới hoàn toàn khác nhau này lại tương đương với nhau!
 
-**Vì sao điều này liên quan đến giải Fields.** Xây dựng phạm trù Fukaya một cách **chặt chẽ** trên những đa tạp đáng quan tâm (không chỉ các ví dụ đơn giản) đòi hỏi chính các nền tảng về chu trình ảo, tính compact và điều kiện hoành ở trên. Trích dẫn của IMU ghi rõ là "phạm trù Fukaya của một số đa tạp" (Fukaya categories of certain manifolds), không phải một phát biểu chung chung.
+**Vì sao điều này liên quan đến giải Fields.** Xây dựng phạm trù Fukaya một cách **chặt chẽ** trên những đa tạp đáng quan tâm (và tính toán chúng bằng kỹ thuật địa phương hóa/cắt dán như công trình của Ganatra–Pardon–Shende về *Liouville sectors*) đòi hỏi chính các nền tảng về chu trình ảo, tính compact và điều kiện hoành ở trên. Trích dẫn của IMU ghi rõ là "phạm trù Fukaya của một số đa tạp" (*Fukaya categories of certain manifolds*), không phải một phát biểu chung chung.
 
 ---
 
 ## 4. Tôpô chiều thấp: tác động nhóm và lý thuyết nút
 
-Lời trích dẫn không chỉ nói về hình học symplectic. Pardon còn được ghi nhận vì các đóng góp về **tác động nhóm trên đa tạp 3 chiều** và **lý thuyết nút**. Điều này cho thấy cùng một nhà toán học có thể dùng trực giác của tôpô hình học cổ điển (tác động nhóm, cấu trúc của đa tạp 3 chiều, nút) cả trong lẫn ngoài lĩnh vực đường cong chỉnh hình.
+Lời trích dẫn không chỉ nói về hình học symplectic. Pardon còn được ghi nhận vì các đóng góp sâu sắc về **tác động nhóm trên đa tạp 3 chiều** (chứng minh **giả thuyết Hilbert–Smith** trong 3 chiều — một bài toán mở hàng chục năm hỏi liệu nhóm số nguyên $$p$$-adic có thể tác động hữu hiệu lên một đa tạp 3 chiều không!) và **lý thuyết nút** (cùng những kết quả nối lý thuyết nút với đồng điều tiếp xúc). Điều này cho thấy cùng một nhà toán học có thể kết hợp nhuần nhuyễn trực giác của tôpô hình học cổ điển cả trong lẫn ngoài lĩnh vực đường cong chỉnh hình.
 
 Lời khuyên cho người học: đừng nghĩ "Fields cho hình học symplectic nghĩa là chỉ có bất biến Gromov–Witten". Hãy đọc cả hai nửa của lời trích dẫn.
 
@@ -193,7 +207,7 @@ Khi đó:
 | "Log Derived Regularity đã là định lý hoàn chỉnh được trao giải." | Sai | Slide ghi rõ **in progress** (đang thực hiện). |
 | "Reel trên Facebook là toàn bộ bài giảng." | Sai | Đó là đoạn clip ngắn khoảng 24 giây, chỉ có một slide. |
 | "Hình học symplectic chỉ là cơ học Hamilton cổ điển." | Sai | Cơ học là xuất phát điểm. Bất biến từ đường cong và phạm trù Fukaya là phần cấu trúc toàn cục. |
-| "Mọi đa tạp con có một nửa số chiều đều là Lagrange." | Sai | Cần thêm điều kiện $$\omega|_L=0$$ (và thường cần thêm dữ liệu khác). |
+| "Mọi đa tạp con có một nửa số chiều đều là Lagrange." | Sai | Cần thêm điều kiện $$\omega\vert_L=0$$ (và thường cần thêm dữ liệu khác). |
 
 ---
 

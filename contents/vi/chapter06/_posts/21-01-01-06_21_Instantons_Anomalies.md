@@ -9,9 +9,22 @@ categories:
 - chapter06
 ---
 
-Có những hiệu ứng lượng tử không xuất hiện ở bất kỳ bậc hữu hạn nào của khai triển giản đồ Feynman, nhưng lại được **tô pô** kiểm soát: số instanton, số vòng quấn (winding number) của một ánh xạ, chỉ số của toán tử Dirac. Một số hiệu ứng khác là **dị thường** (anomaly): một đối xứng cổ điển không còn được bảo toàn khi lượng tử hóa, và thường được tính bằng chính phép đếm chỉ số mà toán học thuần túy rất coi trọng.
+Nếu bạn khai triển hàm $$f(g) = e^{-1/g^2}$$ thành chuỗi Taylor quanh $$g = 0$$, bạn sẽ nhận được một kết quả trêu ngươi: **mọi đạo hàm ở mọi bậc đều bằng 0**, nên chuỗi Taylor của nó chỉ là $$0 + 0g + 0g^2 + \dots$$ — hoàn toàn mù tịt trước sự tồn tại của chính hàm số đó! Trong lý thuyết trường lượng tử, các giản đồ Feynman đóng vai trò giống hệt chuỗi Taylor theo hằng số tương tác $$g$$: chúng cực kỳ sắc bén cho những dao động nhỏ quanh chân không, nhưng lại hoàn toàn "mù" trước một tầng sâu hơn của tự nhiên — những hiệu ứng phi nhiễu loạn mang cỡ $$e^{-c/g^2}$$ được **tô pô** khóa cứng.
 
-Bài trong nhánh Cầu nối này gom ba bài [hình học gauge]({{ site.baseurl }}/contents/vi/chapter06/06_19_Gauge_Geometry_YM/), [tích phân đường]({{ site.baseurl }}/contents/vi/chapter06/06_20_Path_Integrals_Math_Status/), và [định lý chỉ số Atiyah–Singer]({{ site.baseurl }}/contents/vi/chapter08/08_11_Atiyah_Singer_Index/) thành một bản đồ chung, ở mức ý tưởng, không phải giáo trình lý thuyết trường lượng tử đầy đủ.
+Hai nhân vật chính của tầng sâu ấy là **instanton** (những cấu hình trường mang số nguyên tô pô không thể làm phẳng đi được, tạo ra hiệu ứng đường hầm giữa các chân không) và **dị thường lượng tử (anomaly)** — hiện tượng một đối xứng hoàn hảo của phương trình cổ điển bỗng bị phá vỡ khi ta lượng tử hóa, và kỳ diệu thay, độ lớn của sự phá vỡ ấy lại trùng khớp với **chỉ số tô pô của toán tử Dirac**. Bài trong nhánh Cầu nối này gom ba bài [hình học gauge]({{ site.baseurl }}/contents/vi/chapter06/06_19_Gauge_Geometry_YM/), [tích phân đường]({{ site.baseurl }}/contents/vi/chapter06/06_20_Path_Integrals_Math_Status/), và [định lý chỉ số Atiyah–Singer]({{ site.baseurl }}/contents/vi/chapter08/08_11_Atiyah_Singer_Index/) thành một bản đồ chung ở mức ý tưởng, không phải giáo trình lý thuyết trường lượng tử đầy đủ.
+
+---
+
+## Bản đồ kiến thức nền: Tô pô trường chuẩn, instanton và lý thuyết chỉ số nghiên cứu những gì?
+
+Với nền tảng toán đại học (giải tích nhiều biến, đại số tuyến tính và chút khái niệm về mặt cong), hai chữ *instanton* và *dị thường* nghe có vẻ rất "vật lý hạt", nhưng xương sống của chúng lại là những ý tưởng tô pô cực kỳ trực quan.
+
+Hãy bắt đầu bằng hình ảnh một sợi dây thun buộc kín quanh một cái trụ (đường tròn $$S^1$$). Bạn có thể quấn sợi dây 0 vòng, 1 vòng, hoặc 2 vòng rồi nối hai đầu lại. Dù bạn kéo giãn hay uốn éo sợi dây thế nào, bạn **không thể** biến sợi dây quấn 1 vòng thành 0 vòng mà không cắt đứt nó. Số nguyên đó gọi là **số vòng quấn (winding number)** — một bất biến tô pô.
+
+- **Instanton nghiên cứu gì?** Trong không–thời gian Euclid 4 chiều, các cấu hình trường gauge (liên thông Yang–Mills) có năng lượng hữu hạn cũng tự phân chia thành các "ngăn" rời nhau đánh số bằng một số nguyên $$k \in \mathbb{Z}$$ (số Chern thứ hai, giống hệt số vòng quấn nâng lên 4 chiều). Trong mỗi ngăn $$k \neq 0$$, cấu hình đạt năng lượng thấp nhất có thể chính là một **instanton**. Ngành hình học gauge nghiên cứu hình dáng không gian tất cả các instanton (không gian moduli), trong khi vật lý dùng chúng để tính xác suất hạt hoặc trường "xuyên hầm" từ chân không này sang chân không khác.
+- **Dị thường và lý thuyết chỉ số nghiên cứu gì?** Trong đại số tuyến tính hữu hạn chiều, nếu $$M$$ là ma trận vuông $$n \times n$$, thì số chiều của không gian nghiệm $$\ker M$$ luôn bằng $$\dim \ker M^\dagger$$ (nên hiệu số bằng $$0$$). Nhưng với **toán tử vi phân trên không gian vô hạn chiều** — cụ thể là toán tử Dirac $$D_A$$ ghép với trường gauge $$A$$ — hiệu số $$\operatorname{ind} D_A = \dim\ker D_A - \dim\ker D_A^\dagger$$ **không nhất thiết bằng 0**! Điều kỳ diệu của **định lý chỉ số Atiyah–Singer** là hiệu số đếm nghiệm giải tích này bằng đúng một tích phân tô pô (chẳng hạn số instanton $$k$$). Trong vật lý lượng tử, sự lệch pha giữa số nghiệm thuận tay trái và tay phải ấy phá vỡ đối xứng cổ điển ngay trong độ đo tích phân đường — đó chính là **dị thường lượng tử**.
+
+Nói gọn lại: tô pô không chỉ là vật trang trí của hình học, mà là người gác cổng kiểm soát cả những bước nhảy lượng tử phi nhiễu loạn lẫn những đối xứng nào được phép sống sót ở thế giới vi mô.
 
 ---
 
@@ -38,27 +51,27 @@ $$
 k = \frac{1}{8\pi^2}\int \operatorname{tr}(F\wedge F)
 $$
 
-(tùy cách chuẩn hóa). Các liên thông tự đối ngẫu, tức là đạt đúng chặn dưới tô pô của tác dụng, được gọi là **instanton**.
+(tùy cách chuẩn hóa). Một bất đẳng thức sơ cấp kiểu hằng đẳng thức bình phương (chặn Bogomol'nyi) cho thấy tác dụng Yang–Mills luôn thỏa mãn $$S_E[A] \ge \frac{8\pi^2}{g^2}|k|$$, và dấu bằng xảy ra đúng khi độ cong thỏa điều kiện tự đối ngẫu (hoặc phản tự đối ngẫu) $$F = \pm \star F$$. Những liên thông đạt đúng chặn dưới tô pô của tác dụng ấy được gọi là **instanton** (tên gọi do Gerard 't Hooft đặt vì chúng định xứ cả trong không gian lẫn trong thời gian Euclid — xuất hiện như một "khoảnh khắc" chuyển pha ngắn ngủi).
 
-**Trong vật lý.** Trong tích phân đường Euclid, instanton là các điểm yên ngựa phi nhiễu loạn, đóng góp một thừa số dạng $$e^{-8\pi^2/g^2}$$. Chúng mô tả hiệu ứng đường hầm giữa các chân không cổ điển và sinh ra các hiện tượng vật lý phụ thuộc vào tham số $$\theta$$.
+**Trong vật lý.** Trong tích phân đường Euclid, instanton là các điểm yên ngựa phi nhiễu loạn, đóng góp một thừa số dạng $$e^{-8\pi^2/g^2}$$. Chúng mô tả hiệu ứng đường hầm giữa các chân không cổ điển có số vòng quấn khác nhau và sinh ra cấu trúc chân không phụ thuộc vào góc tham số $$\theta$$ (gọi là chân không $$\theta$$).
 
-**Trong toán học.** Không gian moduli các instanton là một đối tượng hình học. Việc nghiên cứu nó cần các kết quả compact kiểu Uhlenbeck ([Uhlenbeck]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/)) và là nền tảng cho lý thuyết Donaldson ([Donaldson–Seiberg–Witten]({{ site.baseurl }}/contents/vi/chapter06/06_23_Donaldson_Seiberg_Witten/)).
+**Trong toán học.** Không gian moduli các instanton là một đối tượng hình học tuyệt đẹp. Việc nghiên cứu biên và tính compact của nó đòi hỏi định lý nổi bọt của Karen Uhlenbeck ([Uhlenbeck]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/)) và là nền tảng trực tiếp cho lý thuyết Donaldson phân biệt đa tạp 4 chiều ([Donaldson–Seiberg–Witten]({{ site.baseurl }}/contents/vi/chapter06/06_23_Donaldson_Seiberg_Witten/)).
 
 ---
 
 ## 2. Vì sao tô pô không thấy được ở từng bậc
 
-Lý thuyết nhiễu loạn khai triển quanh một chân không theo lũy thừa của hằng số tương tác. Việc chuyển giữa các lớp tô pô và nhiều hiệu ứng toàn cục khác là **phi nhiễu loạn**: chúng nằm trong các thừa số dạng $$e^{-c/g^2}$$.
+Lý thuyết nhiễu loạn khai triển quanh một chân không duy nhất theo chuỗi lũy thừa của hằng số tương tác $$g$$. Hãy hình dung bạn đang đứng trong một thung lũng của dãy núi và chỉ đo độ cong mặt đất ngay dưới chân mình bằng khai triển Taylor: dù bạn tính đạo hàm tới bậc thứ một trăm, bạn vẫn không thể biết bên kia dãy núi còn có một thung lũng giống hệt và một đường hầm nối sang đó! Việc chuyển giữa các lớp tô pô và nhiều hiệu ứng toàn cục khác là **phi nhiễu loạn**: chúng nằm trong các thừa số dạng $$e^{-c/g^2}$$, nhỏ hơn bất kỳ lũy thừa dương nào $$g^n$$ khi $$g \to 0^+$$.
 
-**Cơ chế chính.** Tô pô chia không gian các cấu hình trường thành các thành phần liên thông (các lớp). Biên độ lượng tử có thể là tổng trên các lớp này, với những trọng số mà chuỗi lũy thừa quanh một điểm không thể thấy được.
+**Cơ chế chính.** Tô pô chia không gian các cấu hình trường thành các thành phần liên thông rời nhau (các lớp đánh số bởi $$k \in \mathbb{Z}$$). Biên độ lượng tử là tổng trên tất cả các lớp này, với những trọng số dạng $$e^{ik\theta} e^{-8\pi^2|k|/g^2}$$ mà chuỗi lũy thừa quanh một điểm không bao giờ nhìn thấy được.
 
 ---
 
 ## 3. Dị thường: khi đối xứng cổ điển bị phá vỡ ở mức lượng tử
 
-**Một đối xứng của tác dụng cổ điển** không nhất thiết còn tồn tại sau khi lượng tử hóa. Dị thường gauge làm lý thuyết mất tính nhất quán; còn dị thường toàn cục và dị thường chiral có thể là hiện tượng vật lý thật và đo được.
+**Một đối xứng của tác dụng cổ điển** $$S[\phi]$$ không nhất thiết còn tồn tại sau khi lượng tử hóa: trong tích phân đường $$\int \mathcal{D}\phi\, e^{iS[\phi]/\hbar}$$, ngay cả khi $$S[\phi]$$ bất biến dưới một phép biến đổi, thì chính "độ đo" $$\mathcal{D}\phi$$ (hay quy trình chính quy hóa các vòng lượng tử) vẫn có thể biến đổi! Cần phân biệt hai hệ quả rất khác nhau: **dị thường gauge** (phá vỡ đối xứng địa phương vốn dùng để loại bỏ các trạng thái phi vật lý) làm lý thuyết mất tính nhất quán và buộc phải triệt tiêu hoàn toàn — thực tế, yêu cầu triệt tiêu dị thường gauge trong Mô hình chuẩn khớp một cách kỳ diệu giữa điện tích của quark và lepton! Ngược lại, **dị thường toàn cục** và **dị thường chiral** hoàn toàn hợp lệ và là hiện tượng vật lý thật, đo được.
 
-Ví dụ nổi tiếng: **dị thường chiral (ABJ)**. Dòng axial không còn bảo toàn ở mức lượng tử, dù Lagrangian cổ điển trông có đối xứng axial. Giản đồ tam giác trong lý thuyết nhiễu loạn phát hiện ra hiện tượng này; hình học hiện đại hiểu cùng một vật cản đó qua các lớp đặc trưng.
+Ví dụ nổi tiếng nhất là **dị thường chiral (Adler–Bell–Jackiw, ABJ)**: Lagrangian cổ điển của fermion không khối lượng có đối xứng quay pha riêng biệt cho hạt thuận tay trái và tay phải, nhưng ở mức lượng tử dòng axial không còn bảo toàn. Chính dị thường này giải thích tốc độ phân rã thực nghiệm của hạt pion trung hòa thành hai photon ($$\pi^0 \to \gamma\gamma$$) — một chiến thắng lừng lẫy của lý thuyết trường lượng tử. Giản đồ tam giác trong lý thuyết nhiễu loạn phát hiện ra hiện tượng này bằng phép tính trực tiếp; còn hình học hiện đại hiểu cùng một vật cản đó qua các lớp đặc trưng tô pô.
 
 **Liên hệ với chỉ số.** Với toán tử Dirac $$D_A$$ ghép với trường gauge nền $$A$$, chỉ số giải tích
 
@@ -66,7 +79,7 @@ $$
 \operatorname{ind} D_A = \dim\ker D_A - \dim\ker D_A^\dagger
 $$
 
-bằng chỉ số tô pô (định lý Atiyah–Singer). Trong ngôn ngữ vật lý: sự chênh lệch giữa số mode không thuận tay trái và tay phải gắn với hệ số dị thường và với các quy tắc chọn cho hàm tương quan trong nền instanton (đỉnh 't Hooft).
+bằng đúng chỉ số tô pô (định lý Atiyah–Singer). Trong ngôn ngữ vật lý: $$\ker D_A$$ đếm số mode không (zero mode) thuận tay trái, $$\ker D_A^\dagger$$ đếm số mode không thuận tay phải; sự chênh lệch $$n_L - n_R$$ bị khóa cứng bằng số instanton $$k$$. Điều đó giải thích trực tiếp hệ số của dị thường chiral và sinh ra các quy tắc chọn bất ngờ cho hàm tương quan trong nền instanton (đỉnh tương tác 't Hooft).
 
 Bài học rút ra:
 
@@ -76,9 +89,9 @@ Bài học rút ra:
 
 ## 4. Bài toán $$U(1)$$ và instanton (mức đọc hiểu)
 
-Nếu chỉ dựa vào đối xứng chiral một cách ngây thơ, QCD sẽ dự đoán một hạt nhẹ thứ chín giống boson Goldstone, nhưng thực tế không quan sát thấy. Một phần lời giải liên quan đến bản chất dị thường của đối xứng $$U(1)$$ axial đơn tuyến và cấu trúc tô pô của chân không gauge. Bài giảng "The uses of instantons" (Các ứng dụng của instanton) của Coleman là tài liệu vật lý kinh điển về chủ đề này; còn nền tảng toán học của việc đếm mode không là lý thuyết chỉ số.
+Trong sắc động lực học lượng tử (QCD), vì khối lượng các quark nhẹ ($$u, d, s$$) rất nhỏ, nếu áp dụng định lý Goldstone cho đối xứng chiral một cách ngây thơ, lý thuyết sẽ dự đoán phải có chín hạt meson nhẹ (gồm pion, kaon, $$\eta$$ và một hạt thứ chín nhẹ cỡ pion). Nhưng thực nghiệm chỉ thấy tám hạt nhẹ, còn hạt thứ chín ($$\eta'$$) lại nặng hơn nhiều! Lời giải (gắn với tên tuổi 't Hooft, Witten và Veneziano) liên quan mật thiết đến bản chất dị thường của đối xứng $$U(1)$$ axial đơn tuyến và cấu trúc tô pô của chân không gauge có instanton. Bài giảng *"The uses of instantons"* (Các ứng dụng của instanton) của Sidney Coleman là tài liệu vật lý kinh điển về chủ đề này; còn nền tảng toán học của việc đếm mode không chính là lý thuyết chỉ số.
 
-**Cần thận trọng.** Những câu như "instanton giải thích khối lượng proton" là nói quá; câu chuyện có nhiều tầng (giam hãm, phá vỡ đối xứng chiral, tính toán trên mạng lưới, lý thuyết trường hiệu dụng).
+**Cần thận trọng.** Những câu như "instanton giải thích toàn bộ khối lượng proton" là nói quá; câu chuyện khối lượng hadron có nhiều tầng phối hợp (giam hãm màu, phá vỡ đối xứng chiral tự phát, tính toán QCD trên mạng lưới, và lý thuyết trường hiệu dụng).
 
 ---
 

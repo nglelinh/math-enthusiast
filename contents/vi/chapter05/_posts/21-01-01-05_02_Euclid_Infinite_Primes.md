@@ -9,12 +9,16 @@ categories:
 - chapter05
 ---
 
-Đây là bài **trọng tâm của Phần 5**, nói về **ý tưởng chứng minh**, không phải về bản chứng minh kỹ thuật dài nhất. Hai kiệt tác được đặt cạnh nhau:
+Hãy hình dung một người tự tin đặt lên bàn hai cuốn danh bạ khổng lồ. Cuốn thứ nhất, họ tuyên bố, liệt kê **tất cả các số nguyên tố** trong vũ trụ — không thiếu một số nào. Cuốn thứ hai, dày vô tận với các trang đánh số $$1, 2, 3, \ldots$$, liệt kê **tất cả các số thực** nằm giữa $$0$$ và $$1$.
 
-1. **Euclid**: có vô hạn số nguyên tố (từ một danh sách hữu hạn, tìm ra một số nguyên tố mới).  
-2. **Cantor**: tập số thực không đếm được (từ mọi danh sách, tìm ra một số thực nằm ngoài danh sách).
+Bạn không cần tranh cãi dài dòng, cũng không cần lật hết từng trang để kiểm tra. Với mỗi cuốn danh bạ, toán học trao cho bạn đúng một "chiêu thoát ra" gọn gàng đến lạnh người: dùng chính cuốn danh bạ đó để chế tạo ra một đối tượng **chắc chắn không có mặt trong sách**.
 
-Cả hai đều ngắn. Cả hai đều thay đổi hiểu biết toán học. Cả hai rèn cùng một kỹ năng: dựng lại bộ khung của chứng minh để người học theo dõi được mà không bị chìm trong các điều kiện phụ. Nếu chỉ nhớ một câu: *một chứng minh có thể rất ngắn mà vẫn thay đổi thế giới, khi phép dựng của nó thoát ra khỏi mọi danh sách được cho là đầy đủ.*
+Đó là câu chuyện của hai kiệt tác cách nhau hơn hai nghìn năm, được đặt cạnh nhau làm bài trọng tâm của Chương 5:
+
+1. **Euclid (khoảng 300 TCN):** từ bất kỳ danh sách hữu hạn nào các số nguyên tố, ta luôn tìm ra một số nguyên tố mới nằm ngoài danh sách.
+2. **Georg Cantor (cuối thế kỷ XIX):** từ bất kỳ danh sách đếm được nào các số thực, ta luôn dựng được một số thực nằm ngoài danh sách.
+
+Cả hai chứng minh đều chỉ dài vài dòng, nhưng cả hai đều làm thay đổi tận gốc hiểu biết của nhân loại về số học và sự vô hạn. Nếu chỉ giữ lại một câu duy nhất từ bài này, hãy nhớ: *một chứng minh có thể rất ngắn mà vẫn xoay chuyển cả thế giới, khi phép dựng của nó thoát ra khỏi mọi danh sách được cho là đầy đủ.*
 
 ---
 
@@ -33,7 +37,23 @@ Sau bài học, bạn có thể:
 
 ---
 
+## Bản đồ kiến thức nền: Lý thuyết số, lý thuyết tập hợp và nghệ thuật chứng minh phản chứng là gì?
+
+Trước khi đi vào từng dòng lập luận, hãy đặt hai định lý này lên bản đồ toán học để thấy chúng thuộc về hai lĩnh vực nền tảng nào và dùng chung loại vũ khí tư duy nào:
+
+- **Lý thuyết số (Number Theory) nghiên cứu gì?** Nếu hóa học tìm các nguyên tố cơ bản cấu tạo nên vật chất, thì lý thuyết số nghiên cứu cấu trúc của tập số nguyên $$\mathbb{Z}$$ thông qua các "nguyên tử" của phép nhân là **số nguyên tố**. Định lý Cơ bản của Số học cho biết mọi số nguyên lớn hơn $$1$$ đều phân tích duy nhất thành tích các số nguyên tố. Câu hỏi đầu tiên và sâu sắc nhất của lý thuyết số là: *bảng tuần hoàn các nguyên tử số học này có dừng lại ở đâu không?* Euclid trả lời: không bao giờ.
+- **Lý thuyết tập hợp (Set Theory) nghiên cứu gì?** Đến cuối thế kỷ XIX, toán học không chỉ đếm các tập hữu hạn mà phải đối diện với vô số tập vô hạn (số tự nhiên, số hữu tỷ, điểm trên đoạn thẳng, tập các hàm số). Lý thuyết tập hợp cung cấp ngôn ngữ chung để đo **kích cỡ (lực lượng)** của các tập vô hạn thông qua khái niệm **song ánh** (ghép cặp một-một không thừa, không thiếu). Nhờ chiếc thước đo đó, Cantor phát hiện rằng "vô hạn" không phải một khái niệm đồng nhất mà là một thang bậc có nhiều tầng.
+- **Chứng minh phản chứng và phép dựng thoát ra là gì?** Thay vì đi tìm một bằng chứng trực tiếp trong vô hạn trường hợp, ta tạm giả sử điều ngược lại là đúng ("giả sử có một danh sách đầy đủ"), rồi lấy chính danh sách đó làm nguyên liệu để chế tạo một **đối tượng làm chứng** phá vỡ giả thiết ban đầu. Trong khoa học máy tính và logic hiện đại, cấu trúc "cho tôi bất kỳ danh sách nào, tôi trả về một kẻ ngoại đạo" này trở thành khuôn mẫu cho định lý bất toàn của Gödel và bài toán dừng của Turing.
+
+---
+
 ## Phần I. Euclid: có vô hạn số nguyên tố
+
+### Từ nghịch lý "bảng nguyên tố khép kín" đến định lý
+
+Trong đời thường, mọi bảng liệt kê đều có cảm giác hữu hạn: bảng tuần hoàn có hơn một trăm nguyên tố hóa học, bảng chữ cái có vài chục ký tự. Khi quan sát dãy số nguyên tố $$2, 3, 5, 7, 11, 13, \ldots$$ ngày càng thưa dần khi đi lên các số rất lớn, một người hoài nghi hoàn toàn có lý khi đặt câu hỏi: *"Biết đâu đến một ngưỡng khổng lồ nào đó, mọi số nguyên lớn hơn đều chỉ là tổ hợp nhân của các số nguyên tố đã xuất hiện trước đó?"*
+
+Nói cách khác, ta không thể bác bỏ người hoài nghi chỉ bằng cách chạy máy tính tìm thêm vài triệu số nguyên tố mới — vì họ luôn có thể đáp: *"Thế thì danh sách dừng lại ngay sau số bạn vừa tìm!"* Muốn dập tắt nghi ngờ mãi mãi, ta cần một cỗ máy biến **bất kỳ** danh sách hữu hạn nào thành bằng chứng cho thấy nó còn thiếu.
 
 ### Định lý
 
@@ -91,10 +111,19 @@ và cả $$59$$ lẫn $$509$$ đều là số nguyên tố nằm ngoài danh sá
 - Không cho cách kiểm tra tính nguyên tố trong thực tế, cũng không nói gì về mật độ số nguyên tố.  
 - Không cần đến định lý phân tích duy nhất ở dạng đầy đủ: ở mức ý tưởng, chỉ cần "mọi số nguyên $$>1$$ đều có ước nguyên tố".
 
-### Ví dụ nhỏ
+### Ví dụ cụ thể theo từng bước
 
-Với $$\{2,3,5\}$$: $$P=30$$, $$N=31$$ là một số nguyên tố mới.  
-Với $$\{2,3,5,7,11,13\}$$: $$N$$ là hợp số nhưng các ước nguyên tố của nó vẫn là số mới. Bài học không đổi: điều quan trọng là **ước nguyên tố là số mới**, không phải $$N$$ là số nguyên tố.
+Hãy chạy thử "cỗ máy Euclid" trên vài danh sách nhỏ để thấy điều gì thực sự xảy ra:
+
+| Danh sách giả định | Tích $$P$$ | Số $$N = P + 1$$ | Phân tích $$N$$ | Số nguyên tố mới thoát ra |
+|--------------------|------------|------------------|-----------------|---------------------------|
+| $$\{2\}$$ | $$2$$ | $$3$$ | Nguyên tố | $$3$$ |
+| $$\{2, 3\}$$ | $$6$$ | $$7$$ | Nguyên tố | $$7$$ |
+| $$\{2, 3, 5\}$$ | $$30$$ | $$31$$ | Nguyên tố | $$31$$ |
+| $$\{2, 3, 5, 7, 11\}$$ | $$2310$$ | $$2311$$ | Nguyên tố | $$2311$$ |
+| $$\{2, 3, 5, 7, 11, 13\}$$ | $$30030$$ | $$30031$$ | $$59 \times 509$$ (hợp số) | $$59$$ và $$509$$ |
+
+Nhìn dòng cuối cùng: $$N = 30031$$ không hề là số nguyên tố, nhưng các ước nguyên tố $$59$$ và $$509$$ của nó chắc chắn không thể có mặt trong $$\{2, 3, 5, 7, 11, 13\}$$. Bài học không đổi: điều quan trọng là **ước nguyên tố là số mới**, không phải bản thân $$N$$ là số nguyên tố.
 
 ### Vì sao đây là chứng minh mẫu mực
 
@@ -103,6 +132,12 @@ Cần rất ít định nghĩa mà hiệu quả về khái niệm thì rất l�
 ---
 
 ## Phần II. Cantor: tập số thực không đếm được
+
+### Từ nghịch lý Khách sạn Vô hạn đến định lý
+
+Trước thế kỷ XIX, ngay cả những bộ óc vĩ đại cũng thường coi "vô hạn" là một khối duy nhất: đã vô hạn thì cái nào cũng lớn như nhau. Trực giác này càng được củng cố bởi **Nghịch lý Khách sạn Hilbert**: một khách sạn có vô hạn phòng đánh số $$1, 2, 3, \ldots$$ dù đã kín chỗ vẫn luôn đón thêm được một khách mới (mỗi khách ở phòng $$n$$ dọn sang phòng $$n+1$$), thậm chí đón thêm được cả một chuyến xe buýt chở vô hạn khách mới (mỗi khách cũ dọn sang phòng $$2n$$, nhường toàn bộ phòng lẻ cho khách mới). Bằng cách sắp xếp khéo léo như thế, ta nhét gọn cả tập số nguyên $$\mathbb{Z}$$ lẫn tập số hữu tỷ $$\mathbb{Q}$$ vào đúng những căn phòng đánh số $$1, 2, 3, \ldots$$.
+
+Câu hỏi tự nhiên nảy sinh: *liệu có thể làm điều tương tự cho mọi số thực trong khoảng $$(0,1)$$ không?* Georg Cantor chứng minh rằng **không** — có một loại vô hạn "dày đặc" đến mức làm vỡ tung cả Khách sạn Hilbert.
 
 ### Định lý
 
@@ -150,17 +185,24 @@ liệt kê mọi số trong $$(0,1)$$ dưới dạng thập phân vô hạn. G�
 
 ### Ví dụ minh họa với vài số
 
-Giả sử ai đó chỉ liệt kê ba "số thực" trong $$(0,1)$$ để minh họa:
+Giả sử ai đó đưa ra một danh sách mở đầu bằng bốn số thực quen thuộc trong $$(0,1)$$ (chẳng hạn các phần thập phân gần với $$\pi/10, e/10, \phi/10, \sqrt{2}/10$$):
 
 $$
 \begin{align*}
-r_1 &= 0.31415\ldots,\\
-r_2 &= 0.27182\ldots,\\
-r_3 &= 0.16180\ldots.
+r_1 &= 0.\mathbf{3}1415\ldots,\\
+r_2 &= 0.2\mathbf{7}182\ldots,\\
+r_3 &= 0.16\mathbf{1}80\ldots,\\
+r_4 &= 0.141\mathbf{4}2\ldots.
 \end{align*}
 $$
 
-Các chữ số trên đường chéo là $$3,7,1$$. Chọn $$e_1=4$$, $$e_2=4$$, $$e_3=4$$, ta được $$d=0.444\ldots$$, khác mỗi hàng ở vị trí tương ứng. Với danh sách vô hạn, ta làm cùng thao tác đó mãi mãi.
+Các chữ số nằm trên đường chéo (in đậm) là $$d_{11}=3$$, $$d_{22}=7$$, $$d_{33}=1$$, $$d_{44}=4$$. Áp dụng quy tắc an toàn (khác $$4$$ thì chọn $$4$$, bằng $$4$$ thì chọn $$5$$), ta thu được:
+
+$$
+e_1 = 4,\quad e_2 = 4,\quad e_3 = 4,\quad e_4 = 5 \implies d = 0.4445\ldots
+$$
+
+Số $$d$$ chắc chắn khác $$r_1$$ (ở chữ số thứ 1: $$4 \neq 3$$), khác $$r_2$$ (ở chữ số thứ 2: $$4 \neq 7$$), khác $$r_3$$ (ở chữ số thứ 3: $$4 \neq 1$$), và khác $$r_4$$ (ở chữ số thứ 4: $$5 \neq 4$$). Với danh sách vô hạn, ta thực hiện cùng thao tác ấy ở mọi vị trí thứ $$n$$. Và vì $$d$$ chỉ chứa hai chữ số $$4$$ và $$5$$, nó không bao giờ kết thúc bằng đuôi toàn $$0$$ hay toàn $$9$$, nên tránh trọn vẹn bẫy biểu diễn kép.
 
 ### Những kết quả kế thừa ý tưởng
 

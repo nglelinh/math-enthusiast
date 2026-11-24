@@ -10,14 +10,16 @@ categories:
 lesson_type: required
 ---
 
-**Sir Andrew J. Wiles** (Đại học Oxford) nhận **Giải Abel năm 2016**
+Năm 1963, một cậu bé mười tuổi ở Cambridge tình cờ rút một cuốn sách toán học trên kệ thư viện địa phương và đọc thấy một câu đố ngắn đến mức học sinh tiểu học cũng hiểu: có tồn tại bộ ba số nguyên dương nào thỏa mãn $$a^n + b^n = c^n$$ khi $$n \ge 3$$ không? Ba trăm năm trước đó, Pierre de Fermat đã viết nguệch ngoạc bên lề một cuốn sách cổ rằng ông có lời giải tuyệt đẹp, nhưng lề giấy quá hẹp. Suốt hơn ba thế kỷ, hàng nghìn nhà toán học—từ những bậc thầy vĩ đại nhất đến những người nghiệp dư say mê—đều bó tay. Cậu bé mười tuổi ấy, **Andrew Wiles**, tự nhủ rằng một ngày nào đó mình sẽ giải được nó.
+
+Hơn ba mươi năm sau, sau bảy năm làm việc gần như bí mật trên căn gác mái ở Princeton và một năm căng thẳng nghẹt thở sửa lỗ hổng cùng người học trò cũ Richard Taylor, Wiles đã làm được điều không tưởng. Năm **2016**, **Sir Andrew J. Wiles** (Đại học Oxford) nhận **Giải Abel**:
 
 > “for his stunning proof of Fermat’s Last Theorem by way of the modularity conjecture for semistable elliptic curves, opening a new era in number theory.”  
 > — [Lời trao giải của Ủy ban Abel](https://abelprize.no/abel-prize-laureates/2016)
 
 (Tạm dịch: "vì chứng minh xuất sắc Định lý Cuối cùng của Fermat thông qua giả thuyết modular cho các đường cong elliptic nửa ổn định, mở ra một kỷ nguyên mới cho lý thuyết số.")
 
-Bài này đi sâu vào các câu hỏi: Định lý Fermat nói gì; làm thế nào một phát biểu về phương trình nghiệm nguyên lại trở thành phát biểu về đường cong elliptic và dạng modular; Wiles thực sự chứng minh gì về **tính modular của đường cong nửa ổn định**; và vì sao Ủy ban Abel coi đó là **một phương pháp mở ra kỷ nguyên mới**, chứ không chỉ là lời giải của một phương trình. Tài liệu chính thức: [abelprize.no](https://abelprize.no/).
+Điều thú vị nhất của câu chuyện này lại nằm ở vế sau của lời tuyên dương: Wiles không tấn công trực diện phương trình của Fermat bằng những mẹo chia hết hay phân tích thừa số. Ông đi vòng qua một lục địa toán học tưởng chừng chẳng liên quan gì—thế giới của **đường cong elliptic** và **dạng modular**—và mở ra cả một kỷ nguyên mới cho lý thuyết số hiện đại. Tài liệu chính thức: [abelprize.no](https://abelprize.no/).
 
 ---
 
@@ -29,6 +31,18 @@ Sau bài học, bạn có thể: phát biểu chính xác Định lý Fermat v�
 
 ---
 
+## Bản đồ kiến thức nền: Lý thuyết số, đường cong elliptic và dạng modular là gì và nghiên cứu những gì?
+
+Nếu bạn tốt nghiệp đại học ngành kỹ thuật hay khoa học tự nhiên, hẳn bạn quen với giải tích thực và đại số tuyến tính, nhưng nghe đến "đường cong elliptic" hay "dạng modular" có thể thấy như hai thuật ngữ đến từ hành tinh khác. Thật ra, trực giác phía sau chúng vô cùng đẹp và dễ nắm bắt:
+
+- **Lý thuyết số (Number Theory)** nghiên cứu các quy luật ẩn giấu của số nguyên và số nguyên tố. Một nhánh cổ điển là **phương trình Diophantine**: tìm nghiệm nguyên (hoặc hữu tỷ) của các phương trình đa thức, như $$a^2 + b^2 = c^2$$ (bộ ba Pytago, có vô số nghiệm như $$3^2 + 4^2 = 5^2$$) hay $$a^n + b^n = c^n$$.
+- **Đường cong elliptic (Elliptic Curve)** không phải là hình elip! Nó là tập nghiệm của một phương trình bậc ba dạng $$y^2 = x^3 + Ax + B$$ (không có điểm nhọn hay tự cắt). Trên mặt phẳng thực, nó có hình dạng cong mềm mại; trên số phức, nó giống mặt chiếc bánh donut (hình xuyến). Điều thần kỳ là các điểm trên đường cong này có thể **"cộng" với nhau** bằng quy tắc kẻ đường thẳng cát tuyến, tạo thành một nhóm giao hoán. Hơn nữa, nếu ta lấy phương trình ấy theo modulo một số nguyên tố $$p$$ (tức chỉ làm toán trên các số dư $$0, 1, \dots, p-1$$), ta có thể **đếm số điểm nghiệm** $$N_p$$ và tính độ lệch $$a_p = p + 1 - N_p$$. Dãy số $$(a_2, a_3, a_5, a_7, \dots)$$ giống như **mã ADN số học** của đường cong elliptic.
+- **Dạng modular (Modular Form)** lại thuộc về một thế giới hoàn toàn khác: **giải tích phức**. Đó là những hàm số $$f(z)$$ sống trên nửa mặt phẳng trên của mặt phẳng phức ($$\operatorname{Im}(z) > 0$$) nhưng mang tính đối xứng khổng lồ: giá trị của hàm biến đổi theo một quy luật cực kỳ chặt dưới hàng vô hạn phép biến đổi phân tuyến tính $$z \mapsto \frac{az+b}{cz+d}$$ với $$ad - bc = 1$$. Vì có tính tuần hoàn $$f(z+1) = f(z)$$, dạng modular có thể khai triển thành chuỗi Fourier $$f(z) = \sum_{n=1}^{\infty} c_n q^n$$ (với $$q = e^{2\pi i z}$$). Dãy hệ số $$(c_2, c_3, c_5, c_7, \dots)$$ là **mã ADN giải tích** của dạng modular.
+
+**Cú sốc của thế kỷ XX (Giả thuyết Taniyama–Shimura–Weil / Tính modular):** Hai thế giới hoàn toàn xa lạ—một bên là phương trình bậc ba đếm điểm trên số nguyên, một bên là hàm phức siêu đối xứng—lại có **cùng một bảng mã ADN**! Mọi đường cong elliptic trên $$\mathbb{Q}$$ đều có một dạng modular "song sinh" sao cho $$a_p = c_p$$ với hầu hết mọi số nguyên tố $$p$$. Chính chiếc cầu nối tưởng như phép màu này đã hạ gục Định lý Cuối cùng của Fermat.
+
+---
+
 ## 1. Bài toán chờ hơn ba thế kỷ
 
 **Định lý Cuối cùng của Fermat.** Với mọi số nguyên $$n \ge 3$$, không tồn tại các số nguyên dương $$a,b,c$$ thỏa mãn
@@ -37,45 +51,63 @@ $$
 a^n + b^n = c^n.
 $$
 
-Khoảng năm 1637, Pierre de Fermat ghi bên lề một cuốn sách rằng ông có "một chứng minh tuyệt vời" nhưng lề sách quá hẹp để viết ra. Trước thập niên 1990, không có chứng minh tổng quát nào được giới toán học chấp nhận. Qua nhiều thế kỷ, người ta chứng minh được từng trường hợp riêng: Fermat với $$n=4$$ (phương pháp xuống thang vô hạn); Euler và những người khác với các số mũ nhỏ; Kummer dùng lý thuyết số đại số cho các số nguyên tố chính quy; máy tính kiểm tra cho nhiều khoảng số mũ. Nhưng không phần nào trong số đó là một chứng minh chung cho mọi $$n\ge 3$$.
+Với $$n = 2$$, mọi thứ thật hào phóng: ta có vô hạn bộ ba Pytago như $$(3,4,5)$$, $$(5,12,13)$$, $$(8,15,17)$$. Thế nhưng chỉ cần nâng số mũ lên $$n = 3$$, cánh cửa bỗng đóng sập lại. Khoảng năm 1637, Pierre de Fermat ghi bên lề cuốn *Arithmetica* của Diophantus rằng ông có "một chứng minh tuyệt vời" nhưng lề sách quá hẹp để viết ra.
 
-Lời giải cuối cùng **không** quy về đại số sơ cấp. Nó viết lại bài toán nghiệm nguyên bằng ngôn ngữ **đường cong elliptic** và **dạng modular**, rồi dùng các công cụ sâu của hình học số học. Giải Abel 2016 ghi nhận cả định lý lẫn việc đổi mới phương pháp. Đây là loại thành tựu cả đời mà chương này muốn giúp bạn nhận ra: công chúng nhớ đến phương trình, còn lời trao giải nhấn mạnh **phương pháp mở ra một kỷ nguyên**.
+Qua hơn ba thế kỷ, các nhà toán học chỉ chinh phục được từng mảnh rời rạc: Fermat chứng minh được $$n=4$$ bằng phương pháp xuống thang vô hạn; Euler xử lý $$n=3$$; Sophie Germain mở ra hướng đi mới cho cả một lớp số nguyên tố; Ernst Kummer phát minh ra lý thuyết số đại số hiện đại (lý thuyết ideal) để giải quyết các "số nguyên tố chính quy"; máy tính hiện đại kiểm tra hàng triệu số mũ mà không tìm thấy phản ví dụ nào. Nhưng cộng tất cả lại vẫn không thể vét cạn vô hạn số mũ $$n \ge 3$$.
+
+Lời giải cuối cùng **không** quay về đại số sơ cấp. Nó dịch bài toán nghiệm nguyên sang ngôn ngữ **đường cong elliptic** và **dạng modular**, rồi huy động toàn bộ cỗ máy tinh vi của hình học số học. Giải Abel 2016 tôn vinh cả chiến thắng lịch sử lẫn cỗ máy đó: công chúng nhớ đến phương trình $$a^n + b^n = c^n$$, còn giới toán học nhớ đến **phương pháp đã làm đổi thay cả một ngành**.
 
 ---
 
 ## 2. Đường cong elliptic xuất hiện
 
-Sau một phép biến đổi chuẩn, một đường cong elliptic trên $$\mathbb{Q}$$ có thể viết dưới dạng một đường bậc ba không suy biến
+Sau một phép biến đổi chuẩn, một đường cong elliptic trên $$\mathbb{Q}$$ có thể viết dưới dạng phương trình bậc ba không suy biến
 
 $$
 y^2 = x^3 + Ax + B
 $$
 
-với $$A,B\in\mathbb{Q}$$ (biệt thức khác 0). Các điểm hữu tỷ cùng với điểm ở vô cùng tạo thành một nhóm abel hữu hạn sinh; đó là **định lý Mordell–Weil**. Mỗi đường cong elliptic còn có một **hàm $$L$$** $$L(E,s)$$ chứa thông tin số học về nó; tính modular nối đối tượng giải tích này với một dạng modular.
+với $$A,B\in\mathbb{Q}$$ và biệt thức $$\Delta = -16(4A^3 + 27B^2) \neq 0$$. Các điểm hữu tỷ cùng với điểm ở vô cùng tạo thành một nhóm abel hữu hạn sinh—đó là **định lý Mordell–Weil**. Mỗi đường cong elliptic còn sở hữu một **hàm $$L$$**, ký hiệu $$L(E,s)$$, được lắp ghép từ dãy đếm điểm $$a_p$$ qua tất cả các số nguyên tố $$p$$.
 
-**Ý tưởng của Frey (thập niên 1980).** Giả sử phương trình $$a^n+b^n=c^n$$, $$n\ge 3$$ có nghiệm không tầm thường. Từ nghiệm đó ta dựng được **đường cong Frey**, có tính chất số học bất thường đến mức (theo giả thuyết modular) nó không thể là modular. Để biến lập luận gần đúng này thành định lý cần đến công trình của Serre, Ribet và nhiều người khác.
+**Ý tưởng táo bạo của Gerhard Frey (thập niên 1980).** Giả sử Định lý Fermat *sai*, tức là tồn tại một phản ví dụ $$a^p + b^p = c^p$$ với số nguyên tố lẻ $$p \ge 5$$ và $$a, b, c$$ nguyên dương, đôi một nguyên tố cùng nhau. Thay vì nhìn mãi vào phương trình đó, Frey dùng chính bộ ba giả định $$(a, b, c)$$ để nặn ra một đường cong elliptic cụ thể—gọi là **đường cong Frey**:
 
-Bước chuyển quan trọng về tư duy là: câu hỏi "phương trình có nghiệm nguyên hay không" trở thành câu hỏi "**những đường cong elliptic nào có thể tồn tại**" trong bức tranh phân loại theo tính modular. Khi thảo luận trong nhóm, nên dừng lại ở điểm này: đây không chỉ là một mẹo kỹ thuật, mà là viết lại bài toán bằng ngôn ngữ hình học số học.
+$$
+E_{a,b,c}:\quad y^2 = x(x - a^p)(x + b^p).
+$$
+
+Điểm kỳ dị nằm ở biệt thức của đường cong này: $$\Delta = 16 (abc)^{2p}$$, một lũy thừa bậc $$2p$$ gần như hoàn hảo! Trong thế giới các đường cong elliptic, sự "đẹp quá mức bất thường" của biệt thức ấy lại là một dấu hiệu bệnh lý. Frey linh cảm rằng một đường cong quái dị như vậy **không thể nào là modular**—nó không thể có "song sinh" trong thế giới dạng modular. Để biến linh cảm thiên tài ấy thành một định lý chặt chẽ cần đến công trình sâu sắc của Jean-Pierre Serre (giả thuyết epsilon) và chứng minh xuất sắc của Ken Ribet năm 1986.
+
+Hãy dừng lại một nhịp để cảm nhận bước ngoặt tư duy ở đây: câu hỏi khô khan *"phương trình $$a^p + b^p = c^p$$ có nghiệm nguyên hay không?"* đã lột xác thành câu hỏi hình học số học: *"liệu một sinh vật bất thường như đường cong Frey có được phép tồn tại trong bảng phân loại modular hay không?"*.
 
 ---
 
 ## 3. Tính modular là động lực chính
 
-**Định lý modular** (trước đây là giả thuyết Taniyama–Shimura–Weil) nói rằng, nói một cách đại khái, mỗi đường cong elliptic $$E$$ trên $$\mathbb{Q}$$ tương ứng với một dạng modular, tức là một hàm giải tích trên nửa mặt phẳng trên
+**Định lý modular** (trước đây gọi là giả thuyết Taniyama–Shimura–Weil) khẳng định rằng mọi đường cong elliptic $$E$$ định nghĩa trên $$\mathbb{Q}$$ đều tương ứng với một **dạng modular** $$f$$—tức một hàm giải tích trên nửa mặt phẳng trên
 
 $$
 \mathbb{H} = \{ z\in\mathbb{C} : \operatorname{Im}(z)>0 \}
 $$
 
-thỏa mãn các quy luật biến đổi rất chặt dưới các nhóm con đồng dư của $$\mathrm{SL}_2(\mathbb{Z})$$. Qua tương ứng này, tính chất số học của đường cong được phản ánh trong các hệ số Fourier và hàm $$L$$ của dạng modular.
+thỏa mãn các quy luật đối xứng cực chặt dưới một nhóm con đồng dư $$\Gamma_0(N)$$ của $$\mathrm{SL}_2(\mathbb{Z})$$, với $$N$$ gọi là **cấp (level)** của dạng modular.
 
-**Ken Ribet** chứng minh định lý hạ mức (level-lowering), cho thấy đường cong Frey dựng từ một phản ví dụ của Định lý Fermat **không thể là modular**. Do đó:
+**Ví dụ cụ thể về "mã ADN trùng khớp":** Xét đường cong elliptic rất nổi tiếng có cấp $$N = 11$$ là $$E:\; y^2 + y = x^3 - x^2$$. Nếu bạn đếm số điểm nghiệm của $$E$$ theo modulo các số nguyên tố $$p = 2, 3, 5, 7$$ rồi tính $$a_p = p + 1 - N_p$$, bạn thu được dãy $$-2, -1, 1, -2$$. Ở phía bên kia, hãy lấy tích vô hạn $$f(q) = q \prod_{n=1}^\infty (1 - q^n)^2 (1 - q^{11n})^2$$ và nhân bung ra thành chuỗi lũy thừa:
 
-> Nếu chứng minh được tính modular cho lớp đường cong liên quan, Định lý Fermat sẽ suy ra.
+$$
+f(q) = q - 2q^2 - q^3 + 2q^4 + q^5 + 2q^6 - 2q^7 + \cdots
+$$
 
-**Wiles** chứng minh tính modular cho lớp then chốt là các đường cong **nửa ổn định** (semistable) trên $$\mathbb{Q}$$. Tính nửa ổn định là một điều kiện về kiểu rút gọn tại các số nguyên tố; đường cong Frey thuộc lớp này. Phương pháp của ông, gồm **lý thuyết biến dạng của biểu diễn Galois** và tiêu chuẩn số cho **định lý nâng modular** (modularity lifting), đã trở thành công cụ chuẩn của ngành. Lỗ hổng trong bản chứng minh đầu tiên được sửa cùng với **Richard Taylor** (phương pháp Taylor–Wiles).
+Hãy nhìn các hệ số của $$q^2, q^3, q^5, q^7$$: chúng là $$-2, -1, 1, -2$$—trùng khớp từng con số một với dãy $$a_p$$ của đường cong elliptic! Tính modular khẳng định sự trùng khớp kỳ diệu này xảy ra với *mọi* đường cong elliptic trên $$\mathbb{Q}$$.
 
-Sau đó **Breuil–Conrad–Diamond–Taylor** chứng minh tính modular cho **mọi** đường cong elliptic trên $$\mathbb{Q}$$, không chỉ các đường cong nửa ổn định. Lời trao giải Abel viết rất cẩn thận: "modularity conjecture for **semistable** elliptic curves", đúng với lịch sử. Mục tiêu 6 của phần thảo luận: đọc kỹ lời trao giải là một kỹ năng, không phải chi tiết trang trí.
+**Định lý hạ cấp (level-lowering) của Ken Ribet.** Ribet chứng minh rằng nếu đường cong Frey là modular ở một cấp $$N$$ nào đó, thì nhờ biệt thức của nó là lũy thừa bậc $$2p$$, ta có thể liên tục "lột bỏ" các ước nguyên tố khỏi cấp $$N$$ cho đến khi hạ xuống tận **cấp $$N = 2$$**. Thế nhưng một định lý cổ điển đã biết từ lâu: **không hề tồn tại dạng modular nào (loại cusp form trọng số 2) ở cấp $$N = 2$$!** Không gian đó hoàn toàn trống rỗng. Từ đó ta có mũi tên sắc lẹm:
+
+> Nếu đường cong Frey là modular, ta sẽ suy ra một đối tượng không thể tồn tại. Vậy đường cong Frey **không thể là modular**.
+
+Nhờ Ribet, bài toán Fermat 350 tuổi đột nhiên nối thẳng vào giả thuyết Taniyama–Shimura–Weil: **chỉ cần chứng minh được tính modular cho lớp đường cong chứa đường cong Frey, Định lý Fermat sẽ lập tức trở thành hệ quả.**
+
+**Đột phá của Andrew Wiles.** Wiles đã chứng minh tính modular cho một lớp cực rộng: mọi đường cong elliptic **nửa ổn định** (*semistable*) trên $$\mathbb{Q}$$. Đường cong Frey nằm gọn trong lớp này. Để làm được điều đó, Wiles phát triển **lý thuyết biến dạng của biểu diễn Galois** và thiết lập tiêu chuẩn số học cho **định lý nâng modular** (*modularity lifting*). Khi bản thảo năm 1993 lộ ra một lỗ hổng tinh tế trong ước lượng nhóm Selmer, Wiles đã cùng **Richard Taylor** tạo ra kỹ thuật **ghép Taylor–Wiles (patching)** để khép kín chứng minh vào năm 1994–1995.
+
+Vài năm sau, **Breuil–Conrad–Diamond–Taylor (BCDT)** đã mở rộng phương pháp của Wiles để chứng minh tính modular cho **mọi** đường cong elliptic trên $$\mathbb{Q}$$, gỡ bỏ hoàn toàn điều kiện nửa ổn định. Hãy để ý cách Ủy ban Abel viết lời tuyên dương rất chuẩn xác: *"modularity conjecture for **semistable** elliptic curves"*. Đọc kỹ từng chữ như vậy giúp ta phân biệt rạch ròi giữa công trình lịch sử của Wiles và phần tổng quát hóa hoàn tất sau đó.
 
 ---
 
@@ -95,53 +127,61 @@ Video dài khoảng 2 phút 09 giây (có thuyết minh tiếng Việt): so sán
 
 ## 4. Khung lập luận (ý tưởng chứng minh)
 
-1. Giả sử $$a^n+b^n=c^n$$, $$n\ge 3$$, $$abc\neq 0$$.  
-2. Dựng đường cong Frey từ $$(a,b,c)$$.  
-3. Theo Ribet: đường cong này không modular.  
-4. Theo Wiles (trường hợp nửa ổn định): đường cong này phải modular.  
-5. Mâu thuẫn. Vậy không tồn tại $$(a,b,c)$$ như vậy.
+Toàn bộ kiến trúc chứng minh Định lý Cuối cùng của Fermat có thể thu gọn thành một mạch phản chứng năm bước trong suốt:
 
-Đây là **ý tưởng**. Phần kỹ thuật nặng nằm ở bước 4: kiểm soát biểu diễn Galois gắn với đường cong, nâng tính modular từ modulo một số nguyên tố lên, và kiểm tra các giả thiết để áp dụng được định lý nâng. Khi thảo luận, trình bày rõ ràng các bước 1–5 đã đủ để phân biệt hiểu thật với chỉ nhắc lại khẩu hiệu. Bài tập A4 kiểu "ý tưởng chứng minh" trong khóa học chính là để luyện khung này, chứ không phải giả vờ đã đọc hết bài báo trên Annals năm 1995.
+1. **Giả sử phản chứng:** tồn tại bộ ba số nguyên dương $$a, b, c$$ thỏa mãn $$a^p + b^p = c^p$$ với số nguyên tố lẻ $$p \ge 5$$ (các trường hợp $$n=3, 4$$ đã biết từ thế kỷ XVII–XVIII).  
+2. **Dựng đường cong Frey:** từ $$(a, b, c)$$ lập đường cong elliptic $$E: y^2 = x(x - a^p)(x + b^p)$$, một đường cong **nửa ổn định** có biệt thức bất thường.  
+3. **Định lý hạ cấp Ribet:** chứng minh rằng nếu $$E$$ là modular thì nó kéo theo sự tồn tại của một dạng modular cấp $$2$$—điều vô lý. Suy ra $$E$$ **không modular**.  
+4. **Định lý Wiles (và Taylor–Wiles):** mọi đường cong elliptic nửa ổn định trên $$\mathbb{Q}$$ đều **phải modular**. Suy ra $$E$$ **modular**.  
+5. **Mâu thuẫn:** hai kết luận đối nghịch nhau chứng tỏ giả thiết ban đầu sai—không tồn tại nghiệm $$(a, b, c)$$ nào cả.
+
+Đó là **khung ý tưởng** thanh thoát ở tầm cao. Toàn bộ sức nặng kỹ thuật—hơn một trăm trang báo trên *Annals of Mathematics* năm 1995—dồn vào **Bước 4**: làm sao kiểm soát các biểu diễn Galois gắn với đường cong, "nâng" tính modular từ modulo một số nguyên tố nhỏ lên toàn bộ số học đặc số 0. Nắm vững năm bước này giúp bạn thật sự hiểu cấu trúc của chứng minh thay vì chỉ lặp lại một giai thoại lịch sử.
 
 ---
 
 ## 5. Biểu diễn Galois: nhìn sâu hơn
 
-Phương pháp của Wiles nghiên cứu **biểu diễn Galois** gắn với đường cong elliptic, tức là đồng cấu
+Tại sao Wiles có thể chứng minh một đường cong elliptic là modular mà không cần mò mẫm tìm ra dạng modular tương ứng bằng tay? Bí quyết nằm ở việc dịch cả hai đối tượng sang một ngôn ngữ chung: **biểu diễn Galois**.
+
+Nhóm Galois tuyệt đối $$\operatorname{Gal}(\overline{\mathbb{Q}}/\mathbb{Q})$$ chứa toàn bộ các phép đối xứng của nghiệm các phương trình đa thức hữu tỷ—nó là đối tượng vừa khổng lồ vừa bí ẩn bậc nhất của lý thuyết số. Để "soi" nhóm này bằng đại số tuyến tính, ta cho nó tác động lên các điểm xoắn bậc $$\ell^k$$ của đường cong elliptic $$E$$, thu được một đồng cấu vào nhóm ma trận $$2 \times 2$$:
 
 $$
 \rho_{E,\ell} : \operatorname{Gal}(\overline{\mathbb{Q}}/\mathbb{Q}) \to \mathrm{GL}_2(\mathbb{Z}_\ell)
 $$
 
-(hoặc phiên bản rút gọn modulo $$\ell$$), và hỏi khi nào chúng đến từ một dạng modular. **Định lý nâng modular** nói: nếu một biểu diễn có vẻ modular khi xét modulo một số nguyên tố thì, với các giả thiết phù hợp, nó modular ở đặc số 0.
+(cùng phiên bản rút gọn modulo $$\ell$$ là $$\bar{\rho}_{E,\ell} : \operatorname{Gal}(\overline{\mathbb{Q}}/\mathbb{Q}) \to \mathrm{GL}_2(\mathbb{F}_\ell)$$). Khi đó, câu hỏi "đường cong $$E$$ có modular không?" trở thành câu hỏi "biểu diễn ma trận $$\rho_{E,\ell}$$ có xuất phát từ một dạng modular hay không?".
 
-Ý tưởng này nay là cơ sở cho phần lớn chương trình Langlands với $$\mathrm{GL}_2$$ và xa hơn nữa. Chứng minh Định lý Fermat hiện đại là **lý thuyết biểu diễn**, không phải mẹo phân tích thừa số. Cụm "opening a new era" trong lời trao giải nói về phương pháp, không chỉ về việc phương trình $$a^n+b^n=c^n$$ vô nghiệm.
+**Chiến lược nâng modular (*modularity lifting*, hay định lý $$R = \mathbb{T}$$):** Wiles bắt đầu từ một điểm tựa đã biết từ trước (định lý Langlands–Tunnell cho $$\ell = 3$$, kết hợp thủ thuật chuyển đổi sang $$\ell = 5$$): biểu diễn *rút gọn modulo 3* của $$E$$ đã là modular rồi! Từ đó ông so sánh hai cái vành: vành biến dạng phổ quát $$R$$ (đếm *tất cả* các cách nâng biểu diễn modulo 3 lên đặc số 0) và đại số Hecke $$\mathbb{T}$$ (chỉ đếm các cách nâng *đến từ dạng modular*). Bằng kỹ thuật ghép Taylor–Wiles, ông chứng minh $$R \cong \mathbb{T}$$—nghĩa là **không còn chỗ cho bất kỳ cách nâng phi-modular nào cả!**
 
-Về sau, định lý modular đầy đủ hỗ trợ lý thuyết giải tích của hàm $$L$$ của đường cong elliptic trong bối cảnh [BSD]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/): khi so sánh hạng số học với hạng giải tích, tính modular là một phần của "từ điển" giúp giả thuyết đó có nghĩa.
+Nhìn ở tầng này, ta thấy chứng minh Định lý Fermat hiện đại thực chất là một kiệt tác của **lý thuyết biểu diễn**. Cụm *"opening a new era"* trong lời trao giải Abel chính là nói về cỗ máy $$R = \mathbb{T}$$ này, nền tảng cho phần lớn các bước tiến của Chương trình Langlands với $$\mathrm{GL}_2$$ và các nhóm bậc cao hơn. Về sau, định lý modular đầy đủ còn trực tiếp mở đường cho việc định nghĩa và nghiên cứu hàm $$L(E,s)$$ trên toàn mặt phẳng phức trong [Giả thuyết Birch và Swinnerton-Dyer (BSD)]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/).
 
 ---
 
 ## 6. Vì sao Ủy ban Abel nói đến "kỷ nguyên mới"
 
-Có ba lý do cho cách nói đó.
+Có ba lý do thuyết phục cho nhận định ấy:
 
-**Phương pháp mới.** Vành biến dạng, kỹ thuật ghép Taylor–Wiles (patching), định lý nâng modular là những công cụ cốt lõi. Nhiều định lý về sau bắt đầu từ bộ công cụ Wiles để lại.
+**Bộ công cụ mới trở thành chuẩn mực.** Vành biến dạng, định lý nâng modular $$R = \mathbb{T}$$ và kỹ thuật ghép Taylor–Wiles nhanh chóng vượt ra ngoài Định lý Fermat để giải quyết hàng loạt giả thuyết lớn khác (như Giả thuyết Sato–Tate về phân bố thống kê của dãy $$a_p$$, hay Giả thuyết Serre về tính modular).
 
-**Niềm tin mới.** Các bài toán nghiệm nguyên khó có thể được tấn công bằng tính modular và các công cụ gần với chương trình Langlands. Cách nhìn của ngành thay đổi: một số phương trình "có vẻ bất khả" lại có thể là cửa ngõ dẫn vào hình học.
+**Niềm tin mới vào cầu nối hình học–số học.** Trước thập niên 1990, nhiều người vẫn nghi ngờ liệu những cầu nối trừu tượng kiểu Langlands có đủ sức giải quyết các phương trình nghiệm nguyên cụ thể hay không. Chiến thắng của Wiles chứng minh rằng những phương trình tưởng như "bất khả xâm phạm" lại có thể mở khóa bằng hình học và đối xứng.
 
-**Chương trình học mới.** Lý thuyết số ở bậc sau đại học được tổ chức lại quanh tính modular, biểu diễn Galois và dạng tự đẳng cấu. Giải Abel 2016 ghi nhận cả định lý lẫn **sự đổi mới của hình học số học**.
+**Tổ chức lại chương trình đào tạo.** Lý thuyết số ở bậc cao học trên toàn thế giới được tái cấu trúc xoay quanh biểu diễn Galois, tính modular và dạng tự đẳng cấu. Giải Abel 2016 vinh danh cả một định lý lừng danh lẫn **sự tái sinh của hình học số học**.
 
 ---
 
 ## 7. Bối cảnh lịch sử (không huyền thoại hóa)
 
-Wiles công bố chứng minh năm 1993; sau đó một lỗ hổng được phát hiện; bản sửa cùng Taylor ra đời giữa thập niên 1990 (*Annals of Mathematics*, 1995). Sách báo phổ thông đôi khi phóng đại sự đơn độc của Wiles hoặc xem nhẹ những người đi trước: Frey, Serre, Ribet, Mazur, Langlands, Taniyama, Shimura, Weil và nhiều người khác đã xây nền cho bức tranh mà Wiles hoàn tất bằng trường hợp nửa ổn định. Tài liệu của Giải Abel và các nghiên cứu lịch sử nghiêm túc đều ghi nhận chuỗi đóng góp đó.
+Wiles công bố chứng minh lần đầu tại Viện Isaac Newton (Cambridge) vào tháng 6 năm 1993, tạo nên cơn địa chấn truyền thông hiếm thấy cho toán học thuần túy. Vài tháng sau, trong quá trình phản biện, một lỗ hổng nghiêm trọng được phát hiện. Suốt một năm đầy áp lực, Wiles đã mời Richard Taylor sang Princeton cùng tháo gỡ, và vào sáng ngày 19 tháng 9 năm 1994, ông nhận ra chính phần lý thuyết biến dạng cũ kết hợp với kỹ thuật ghép mới có thể vá kín hoàn toàn lỗ hổng. Hai bài báo kinh điển ra mắt trên *Annals of Mathematics* năm 1995.
 
-Máy tính **không** đóng vai trò cốt lõi trong chứng minh. Việc kiểm tra bằng số các trường hợp riêng có ý nghĩa lịch sử, nhưng lời trao giải Abel nói về định lý modular, một chứng minh do con người viết.
+Sách báo phổ thông đôi khi lãng mạn hóa hình ảnh Wiles như một "nhà ẩn sĩ đơn độc". Thực tế đẹp hơn và trung thực hơn nhiều: dù Wiles thực sự làm việc trong bí mật để tránh phân tâm, ông đứng trên đôi vai của cả một thế hệ khổng lồ—từ Taniyama, Shimura, Weil, Langlands, Mazur cho đến Frey, Serre, Ribet, Tunnell và Taylor. Tài liệu của Giải Abel luôn nhấn mạnh chuỗi tiếp sức tập thể ấy.
+
+Cần lưu ý thêm: máy tính **không** đóng vai trò cốt lõi trong chứng minh. Việc kiểm tra bằng máy tính cho hàng triệu số mũ có giá trị lịch sử, nhưng chứng minh của Wiles là một công trình lý thuyết thuần túy do trí tuệ con người kiến tạo.
 
 ### "Nửa ổn định" nghĩa là gì, nói ngắn gọn
 
-Tại mỗi số nguyên tố $$p$$, một đường cong elliptic trên $$\mathbb{Q}$$ có một kiểu rút gọn, mô tả thớ đặc biệt của mô hình tối tiểu. Rút gọn **nửa ổn định** (nói gọn là khi rút gọn xấu thì đường cong có điểm nút chứ không có điểm lùi) là một điều kiện về tính chính quy của các phép rút gọn đó. Đường cong Frey dựng từ phản ví dụ của Định lý Fermat là nửa ổn định; vì vậy chứng minh tính modular cho lớp nửa ổn định chính là điều mà định lý Ribet cần. Định lý modular đầy đủ bỏ điều kiện nửa ổn định, áp dụng cho mọi đường cong elliptic trên $$\mathbb{Q}$$, gọn hơn về khái niệm và mạnh hơn cho lý thuyết hàm $$L$$; nhưng về mặt lịch sử, Định lý Fermat đã được giải quyết ngay khi có kết quả cho trường hợp nửa ổn định.
+Khi bạn xét một đường cong elliptic trên $$\mathbb{Q}$$ theo modulo một số nguyên tố $$p$$, hình dạng của nó có thể vẫn mượt mà (**rút gọn tốt**), hoặc bị suy biến tại một điểm (**rút gọn xấu**). Có hai kiểu điểm kỳ dị khi rút gọn xấu: một là **điểm nút (node)**—nơi đường cong tự cắt nhau như hình số 8 với hai tiếp tuyến phân biệt; hai là **điểm lùi (cusp)**—nơi đường cong nhọn hoắt như đầu mũi tên $$y^2 = x^3$$. Một đường cong được gọi là **nửa ổn định** (*semistable*) nếu tại mọi số nguyên tố mà nó rút gọn xấu, nó chỉ có điểm nút nhẹ nhàng chứ không bao giờ có điểm lùi sắc nhọn.
+
+Đường cong Frey dựng từ phản ví dụ của Định lý Fermat luôn là nửa ổn định; vì vậy chứng minh của Wiles cho lớp nửa ổn định đã khớp hoàn hảo với định lý Ribet để khép lại Định lý Fermat. Định lý modular đầy đủ (BCDT) về sau loại bỏ điều kiện này, áp dụng cho mọi đường cong elliptic trên $$\mathbb{Q}$$.
 
 ---
 
@@ -151,7 +191,7 @@ Tại mỗi số nguyên tố $$p$$, một đường cong elliptic trên $$\math
 |------------|-------|
 | "Wiles chỉ kiểm tra bằng máy tính." | Cốt lõi là định lý modular do con người chứng minh. |
 | "Fermat đã có chứng minh tổng quát." | Trước Wiles không có chứng minh nào được chấp nhận. |
-| "Wiles chứng minh tính modular cho mọi đường cong elliptic trên $$\mathbb{Q}$$. " | Ông chứng minh trường hợp **nửa ổn định**, đủ cho Định lý Fermat; trường hợp đầy đủ được chứng minh sau (BCDT). |
+| "Wiles chứng minh tính modular cho mọi đường cong elliptic trên $$\mathbb{Q}$$." | Ông chứng minh trường hợp **nửa ổn định**, đủ cho Định lý Fermat; trường hợp đầy đủ được chứng minh sau (BCDT). |
 | "Tính modular nghĩa là chương trình Langlands đã xong." | Đó là một trường hợp lớn trong một chương trình rộng hơn nhiều. |
 | "Định lý Fermat giải quyết mọi bài toán nghiệm nguyên." | Còn rất nhiều bài toán mở (BSD, hình học Diophantine ở chiều cao hơn, …). |
 

@@ -9,9 +9,9 @@ categories:
 - chapter09
 ---
 
-**Giải A.M. Turing** (A.M. Turing Award) là vinh dự cao nhất của **Hiệp hội Máy tính ACM** (Association for Computing Machinery), thường được gọi là **"giải Nobel của tin học"**. Giải được trao từ năm **1966**, mang tên **Alan Mathison Turing** (1912–1954), người đặt nền móng khái niệm cho tính toán hiện đại qua bài báo “On Computable Numbers” (1936) và để lại dấu ấn sâu đậm trong mật mã, triết học về máy móc và ý tưởng về máy thông minh. Turing **không** nhận giải mang tên mình: ông mất năm 1954, còn giải đầu tiên trao năm 1966. Tài liệu chính thức: [amturing.acm.org](https://amturing.acm.org/).
+Năm 1966, khi máy tính vẫn còn là những tủ sắt khổng lồ chiếm trọn cả căn phòng ở các trường đại học, Hiệp hội Máy tính ACM quyết định lập ra một giải thưởng thường niên để khẳng định rằng tin học không chỉ là nghề lắp ráp mạch điện hay viết mã thuê — nó đã trở thành một ngành khoa học có nền tảng lý thuyết ngang hàng với vật lý hay toán học. Họ đặt tên giải theo **Alan Mathison Turing** (1912–1954), người qua đời mười hai năm trước đó nhưng đã để lại di sản khái niệm vĩnh cửu qua bài báo *"On Computable Numbers"* (1936). (Vì vậy, cần nhớ một chi tiết lịch sử hay bị nhầm: chính Alan Turing **chưa từng** nhận giải thưởng mang tên mình!)
 
-Bài này **không** liệt kê toàn bộ người đoạt giải. Mục đích là trả lời giải Turing dùng để làm gì, nó bổ sung cho Fields và Abel như thế nào, và cách **đọc lời trích dẫn** như một người học toán–tin chứ không như một khán giả chỉ quan tâm danh tiếng. Giải thưởng chỉ là ánh đèn sân khấu; điều đáng học là **toán học của tính toán**.
+Ngày nay, **Giải A.M. Turing** được báo chí quen gọi là **"giải Nobel của tin học"**, với hồ sơ chính thức lưu trữ tại [amturing.acm.org](https://amturing.acm.org/). Nhưng bài viết này không nhằm liệt kê danh sách người đoạt giải. Mục đích của chúng ta là học cách **đọc một lời trích dẫn giải Turing bằng con mắt của người làm toán–tin**: hiểu giải này bổ sung gì cho Huy chương Fields và Giải Abel, nhận ra *đối tượng toán học* ẩn sau những câu khen trang trọng, và tránh bị cuốn vào hào quang danh tiếng mà bỏ quên cơ chế.
 
 ---
 
@@ -26,6 +26,18 @@ Sau bài này bạn có thể:
 - áp dụng cách đọc của chương (trích dẫn → đối tượng → một ý giải thích được → liên hệ với khóa học) cho bất kỳ người đoạt giải gần đây nào.
 
 **Kiến thức cần có.** Không cần chuyên sâu. Chỉ cần đọc được một đoạn tiếng Anh kỹ thuật ngắn và nhận ra tên các lĩnh vực lớn (độ phức tạp, thuật toán, mật mã, học máy, đồ thị, logic). [Tổng quan chương]({{ site.baseurl }}/contents/vi/chapter09/09_00_Tong_quan/), [Giải Abel là gì?]({{ site.baseurl }}/contents/vi/chapter08/08_02_Giai_Abel_la_gi/) và [Tổng quan Fields]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/) giúp so sánh, nhưng không bắt buộc đọc trước.
+
+---
+
+## Bản đồ kiến thức nền: Toán học tính toán là gì và các Giải Turing nghiên cứu những gì?
+
+Khi một người tốt nghiệp đại học nhìn vào danh sách Giải Turing gần 60 năm qua, họ thường thấy một bức tranh tưởng chừng rất phân mảnh: người làm trình biên dịch, người làm hệ điều hành UNIX, người làm cơ sở dữ liệu quan hệ, người lại chứng minh định lý về đồ thị giãn hay số nguyên tố. Điểm chung sâu xa của họ là gì?
+
+Khoa học máy tính hiện đại đứng trên **hai chân** bổ sung chặt chẽ cho nhau:
+1. **Chân lý thuyết (Toán học tính toán):** xây dựng mô hình hình thức cho máy tính, định nghĩa lớp độ phức tạp (P, NP, #P, BPP, IP), chứng minh thuật toán đúng và nhanh, thiết kế giao thức mật mã có chứng minh an ninh, và đặt nền móng thống kê–logic cho học máy và suy luận nhân quả.
+2. **Chân hệ thống (Kỹ nghệ tính toán):** hiện thực hóa những ý tưởng đó thành kiến trúc phần cứng (RISC, GPU), mạng Internet (TCP/IP), hệ quản trị dữ liệu, đồ họa máy tính và các thư viện học sâu chạy ở quy mô toàn cầu.
+
+Trong khóa học *Math Enthusiast*, Chương 9 cố ý chọn lọc những Giải Turing **giàu cấu trúc toán học nhất** để làm nổi bật sợi dây nối giữa toán thuần túy và khoa học máy tính. Ví dụ rõ nhất là trường hợp **Avi Wigderson**: ông nhận **Giải Abel 2021** (toán thuần túy) và **Giải Turing 2023** (khoa học máy tính) cho cùng một cụm công trình về tính ngẫu nhiên, độ phức tạp và đồ thị giãn — chứng minh rằng khi câu hỏi đủ sâu, ranh giới giữa hai ngành tự khắc tan biến.
 
 ---
 
@@ -51,7 +63,7 @@ Mở bất kỳ lời trích dẫn nào trên [amturing.acm.org](https://amturin
 
 Các động từ hay gặp là *mở ra*, *tiên phong*, *định hình*, *đặt nền tảng*. Giải Turing ghi nhận những thay đổi cả một lĩnh vực tính toán, chứ không chỉ một sản phẩm phần mềm.
 
-Một bài tập hữu ích: khoanh tròn **đối tượng toán–tin** trong lời trích dẫn (máy Turing, NP-đầy đủ, hàm một chiều, zero-knowledge, expander, attention, …) rồi viết một câu mà bạn cùng lớp hiểu được. Lời trích dẫn chỉ là cánh cửa đi vào, chưa phải là sự hiểu biết.
+**Ví dụ cách "giải mã" một lời trích dẫn:** Khi đọc trích dẫn năm 2012 của Goldwasser và Micali (*"transformative work that laid the complexity-theoretic foundations for the science of cryptography"*), thay vì chỉ gật gù khen hay, bạn hãy khoanh tròn đối tượng toán học bên trong: **định nghĩa an ninh ngữ nghĩa (semantic security)**, **mã hóa xác suất**, **phép quy dẫn an ninh (security reduction)** và **chứng minh không tiết lộ (zero-knowledge)**. Mỗi danh từ đó dẫn thẳng tới một định nghĩa và một định lý cụ thể!
 
 ---
 
@@ -137,7 +149,7 @@ Năm 1936, Turing định nghĩa **hàm tính được** qua máy với băng v�
 
 Hãy dùng video để làm quen với bối cảnh và văn hóa nghiên cứu, không dùng thay cho chứng minh.
 
-Video gợi ý: danh sách các bài giảng nhận giải Turing của ACM: [https://www.youtube.com/playlist?list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6](https://www.youtube.com/playlist?list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6).
+Video gợi ý: danh sách các bài giảng nhận giải Turing của ACM: [https://www.youtube.com/playlist?list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6](https://www.youtube.com/playlist?v=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6).
 
 Trang chính thức và tài liệu:
 

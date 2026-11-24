@@ -15,7 +15,9 @@ categories:
 > **3. Bạn đang ở đây:** lập một **từ điển vật lý ↔ toán**, mỗi dòng có ghi rõ mức độ chắc chắn  
 > *Thời gian:* khoảng 90–150 phút làm trong sổ tay.
 
-Bài thực hành này rèn một kỹ năng: mô tả **một cơ chế bằng hai ngôn ngữ** (vật lý và toán) và **nói trung thực** về mức độ chắc chắn của từng mối liên hệ. Bạn không cần lượng tử hóa lý thuyết Yang–Mills. Bạn chỉ cần lập một bảng mà bạn cùng lớp có thể đọc và chấm được.
+Năm 1975, nhà vật lý Dương Chấn Ninh (C. N. Yang) tình cờ trò chuyện với nhà hình học Trần Tỉnh Thân (S. S. Chern) tại Stony Brook và cả hai cùng sững sờ nhận ra một sự trùng hợp kỳ lạ: suốt hai mươi năm, các nhà vật lý hạt nói về *"thế gauge và cường độ trường Yang–Mills"* còn các nhà toán học lại nói về *"liên thông và độ cong trên phân thớ chính"* — hóa ra họ đang mô tả **cùng một đối tượng duy nhất bằng hai thứ tiếng khác nhau**! Ngay lúc đó, Dương Chấn Ninh đã viết ra một bảng "từ điển Wu–Yang" nổi tiếng ghép đôi từng thuật ngữ giữa hai ngành.
+
+Nhưng không phải dòng nào trong cây cầu vật lý–toán cũng đã là định lý hoàn chỉnh. Có những mục đã được chứng minh chặt chẽ (như cơ học lượng tử trên không gian Hilbert hay liên thông cổ điển), nhưng cũng có những mục mà vật lý tính ra kết quả khớp thực nghiệm đến 10 chữ số thập phân trong khi toán học vẫn chưa định nghĩa nổi độ đo (như tích phân đường Feynman ở 4 chiều hay bài toán khe khối lượng Yang–Mills trị giá một triệu đô la). Bài thực hành này mời bạn luyện tay nghề "phiên dịch song ngữ": **mô tả cùng một cơ chế bằng cả ngôn ngữ vật lý lẫn ngôn ngữ toán học**, đồng thời giữ sự trung thực tuyệt đối về mức độ chắc chắn của từng dòng.
 
 ---
 
@@ -33,14 +35,27 @@ Sau bài này, bạn có thể:
 
 ---
 
+## Bản đồ kiến thức nền: Vật lý toán hiện đại là gì và nghiên cứu những gì?
+
+Nhiều người tốt nghiệp đại học vẫn hiểu nhầm "vật lý toán" chỉ đơn thuần là dùng giải tích hay phương trình vi phân để giải các bài tập vật lý. Trên thực tế, **Vật lý toán (Mathematical Physics)** hiện đại là một cuộc đối thoại hai chiều đầy kịch tính:
+
+1. **Toán học đặt nền móng chặt chẽ cho vật lý:** Vật lý thường đi trước bằng trực giác thực nghiệm và các phép tính hình thức cực nhạy bén (như hàm delta Dirac hay tích phân đường). Toán học bước vào để định nghĩa chặt chẽ chúng (lý thuyết phân bố Schwartz, lý thuyết phổ của toán tử tự liên hợp trên không gian Hilbert) và chỉ ra chính xác khi nào phép tính đó hội tụ hay sụp đổ.
+2. **Vật lý gợi ý những định lý toán học bất ngờ:** Từ thập niên 1980 (với Edward Witten, Simon Donaldson, Nathan Seiberg…), dòng chảy còn đi ngược lại: những khái niệm từ lý thuyết trường lượng tử (instanton, siêu đối xứng, đối ngẫu điện–từ) đã sinh ra các bất biến hoàn toàn mới giúp phân loại đa tạp 4 chiều và giải những bài toán hình học thuần túy từng bế tắc hàng thập kỷ.
+
+Hãy xem một **ví dụ minh họa cách viết cơ chế** để hiểu sự khác biệt giữa "chép từ khóa" và "hiểu bản chất":
+- *Vật lý:* Trong cơ học lượng tử, một đại lượng đo được (như năng lượng $$H$$ hay vị trí $$x$$) luôn cho kết quả là số thực, và xác suất đo các trạng thái phải cộng lại bằng 1.
+- *Toán học:* Đại lượng đó được mô hình hóa bằng một **toán tử tự liên hợp** trên không gian Hilbert, vì theo **định lý phổ**, mọi giá trị riêng (phổ) của toán tử tự liên hợp đều nằm trên trục thực $$\mathbb{R}$$ và các vectơ riêng tạo thành hệ trực giao đầy đủ. (Trạng thái: **Định lý**, nhưng cần cẩn thận miền xác định khi toán tử không bị chặn như toán tử đạo hàm $$-i\hbar\frac{d}{dx}$$.)
+
+---
+
 ## 1. Các cặp gợi ý (chọn một nhóm)
 
 | Thuật ngữ vật lý | Khái niệm toán (điểm xuất phát) | Điều cần thận trọng |
 |-----------|-------------------|-----------|
-| Trạng thái / biên độ | Vectơ trong không gian Hilbert / tia | Pha tổng thể không mang ý nghĩa vật lý |
+| Trạng thái / biên độ | Vectơ trong không gian Hilbert / tia | Pha tổng thể $$e^{i\alpha}$$ không mang ý nghĩa vật lý |
 | Đại lượng quan sát được | Toán tử tự liên hợp | Phải chú ý miền xác định nếu toán tử không bị chặn |
 | Thế gauge $$A$$ | Liên thông (connection) | Các thế thuộc cùng một quỹ đạo gauge mô tả cùng một trạng thái vật lý |
-| Cường độ trường $$F$$ | Độ cong | Trường hợp giao hoán khác với trường hợp có thêm số hạng $$A\wedge A$$ |
+| Cường độ trường $$F$$ | Độ cong | Trường hợp giao hoán ($$F=dA$$) khác với trường hợp không giao hoán có thêm số hạng $$A\wedge A$$ |
 | Số instanton | Số Chern | Đây là tô pô cổ điển |
 | Tích phân đường $$\mathcal{D}\phi$$ | Độ đo / giới hạn của các xấp xỉ hữu hạn chiều | Ở 4 chiều thường chỉ là lập luận trực quan, chưa chặt chẽ |
 | Khe khối lượng (mass gap) | Khe phổ của toán tử Hamilton | Với Yang–Mills liên tục, đây là bài toán Clay còn mở |
@@ -68,11 +83,11 @@ Cần **ít nhất 8 dòng**. Nếu nhóm bạn chọn liên quan đến lý thu
 
 ### Nhiệm vụ C: Mô tả cơ chế (15 phút)
 
-Viết một đoạn ngắn (không quá 120 chữ) giải thích **cơ chế**: vì sao vai trò vật lý này lại ứng với đối tượng toán học kia.
+Viết một đoạn ngắn (không quá 120 chữ) giải thích **cơ chế**: vì sao vai trò vật lý này lại ứng với đối tượng toán học kia (tương tự ví dụ toán tử tự liên hợp ↔ giá trị đo thực ở mục Bản đồ kiến thức nền).
 
 ### Nhiệm vụ D: Sửa một câu sai (15 phút)
 
-Chép một câu phổ biến nhưng nói không chính xác (tự đặt ra hoặc lấy từ sách báo), rồi viết lại cho đúng.
+Chép một câu phổ biến nhưng nói không chính xác (tự đặt ra hoặc lấy từ sách báo, ví dụ *"Tích phân đường Feynman chỉ là tích phân Riemann trên không gian vô hạn chiều"*), rồi viết lại cho đúng.
 
 ### Nhiệm vụ E: Nhật ký
 
@@ -93,7 +108,7 @@ Ghi ngày, thời gian đã làm, và một lần đi sai hướng (ví dụ m�
 
 ## 4. Mở rộng (không bắt buộc)
 
-Lập thêm một từ điển nhỏ (4 dòng) so sánh **hình học gauge cổ điển** với **phát biểu bài toán Clay về Yang–Mills lượng tử**. Cùng một thuật ngữ nhưng trạng thái hai bên khác hẳn nhau.
+Lập thêm một từ điển nhỏ (4 dòng) so sánh **hình học gauge cổ điển** với **phát biểu bài toán Clay về Yang–Mills lượng tử**. Cùng một thuật ngữ nhưng trạng thái hai bên khác hẳn nhau: ở phía cổ điển, phương trình Yang–Mills là hệ phương trình đạo hàm riêng hoàn toàn xác định trên phân thớ chính; còn ở phía lượng tử trong 4 chiều, việc xây dựng lý thuyết trường thỏa tiên đề Wightman/Osterwalder–Schrader kèm khe khối lượng dương vẫn là một trong bảy Bài toán Thiên niên kỷ chưa có lời giải.
 
 ---
 

@@ -9,7 +9,9 @@ categories:
 - chapter04
 ---
 
-**Hình bất khả** (impossible figures) là những hình vẽ trông hợp lý ở từng phần nhưng không thể tồn tại trọn vẹn như một vật thể bình thường trong không gian Euclid ba chiều. Ví dụ: tam giác Penrose, tam giác Reutersvärd (có trước đó), cầu thang bất tận của Escher, và cả một bộ sưu tập "vật thể" đánh lừa cảm nhận chiều sâu. Chúng cho ta thấy tận mắt một ý tưởng hình học sâu sắc: **những điều đúng ở từng vùng nhỏ không nhất thiết ghép lại được thành một vật thể toàn cục**. Ý tưởng này xuất hiện lại trong hình học và tôpô nâng cao mỗi khi một cocycle không phải là coboundary, tức là khi các điều kiện tương thích trên phần chồng nhau không thể thỏa mãn đồng thời.
+Hãy nhìn bức tranh *Ascending and Descending* hay *Waterfall* của danh họa M. C. Escher. Từng góc tường vuông vức, từng bậc cầu thang đá, từng dòng nước đổ xuống bánh xe gỗ đều trông vững chãi và hợp lý đến từng milimét. Thế nhưng các tu sĩ cứ leo cầu thang đi lên mãi mà vẫn quay lại đúng bậc ban đầu, còn dòng nước đổ xuống lại chảy ngược lên đỉnh thác. Làm thế nào một bức vẽ có thể **nói dối trắng trợn đến thế mà không hề có lấy một nét mực nào sai**?
+
+Đó là sức hút của **hình bất khả** (impossible figures): tam giác Penrose, tam giác Reutersvärd (có trước đó năm 1934), cầu thang bất tận của Escher. Đằng sau trò đánh lừa thị giác ấy là một trong những nguyên lý sâu sắc nhất của toán học hiện đại: **những điều hoàn toàn nhất quán ở từng vùng nhỏ không nhất thiết ghép lại được thành một vật thể toàn cục**. Cùng một cấu trúc chướng ngại đó xuất hiện trong tôpô đại số và hình học vi phân dưới cái tên *đối đồng điều* (cohomology) — nơi một chu trình khép kín mang theo một "độ lệch" không thể xóa bỏ.
 
 **Lộ trình:** "bất khả" nghĩa là gì → tam giác Penrose và các dấu hiệu chiều sâu → Escher và những vòng khép kín mâu thuẫn → sự mơ hồ của phép chiếu → mô hình toán học (ghép dán, ý tưởng đối đồng điều) → các ảo giác thị giác liên quan → nhầm lẫn thường gặp, bài tập, hướng đi tiếp.
 
@@ -30,6 +32,16 @@ Sau bài học, bạn có thể:
 
 ---
 
+## Bản đồ kiến thức nền: Nguyên lý cục bộ – toàn cục và đối đồng điều là gì?
+
+Trong nhiều ngành toán học bậc cao — từ hình học vi phân, tôpô đại số đến vật lý lý thuyết — có một câu hỏi lặp đi lặp lại không ngừng: **nếu ta ghép nhiều mảnh lời giải cục bộ hoàn toàn hợp lệ lại với nhau, liệu chúng có khớp thành một lời giải toàn cục không?**
+
+Người tốt nghiệp đại học từng gặp hiện tượng này trong giải tích vectơ: một trường vectơ có thể có $$\mathrm{curl}\, \mathbf{F} = 0$$ ở mọi điểm cục bộ, nhưng nếu đi quanh một lỗ thủng trong miền, tích phân đường $$\oint \mathbf{F}\cdot d\mathbf{r}$$ vẫn khác $$0$$ nên không tồn tại hàm thế toàn cục!
+
+Hình bất khả chính là **phiên bản trực quan bằng mắt thường** của hiện tượng đó. Khi nhìn một bản vẽ 2D, não người làm bài toán giải ngược từ phép chiếu $$\pi:\mathbb{R}^3 \to \mathbb{R}^2$$: tại mỗi góc nối, ta dựng được một mảnh 3D hoàn toàn hợp lệ. Nhưng khi đi hết một vòng khép kín, độ sâu hoặc độ cao không khớp lại với điểm xuất phát. Trong tôpô đại số, đại lượng đo "sự lệch pha không thể sửa khi đi hết một vòng" đó gọi là **lớp đối đồng điều** (cohomology class) — và Roger Penrose từng viết hẳn một bài báo toán học năm 1992 chứng minh hình bất khả là hiện thân cụ thể của nhóm đối đồng điều thứ nhất $$H^1$$!
+
+---
+
 ## 1. Từng phần thì ổn, toàn thể thì bất khả
 
 Bản vẽ một hình lập phương là một cách sắp xếp các đường 2 chiều mà ta hiểu thành một vật 3 chiều. Phần lớn bản vẽ nét đều có một vật 3 chiều tương ứng: có một cách gán chiều sâu và các mặt trong không gian sao cho chiếu xuống thì được đúng hình vẽ. **Hình bất khả** là bản vẽ *gợi ra* một vật 3 chiều với các chỗ nối hợp lý ở từng chỗ, nhưng không có khối đa diện rắn nào trong không gian Euclid 3 chiều chiếu xuống thành toàn bộ hình vẽ mà vẫn giữ đúng cấu trúc các mặt và cách che khuất như hình vẽ muốn thể hiện.
@@ -40,11 +52,17 @@ Bản vẽ một hình lập phương là một cách sắp xếp các đường
 
 ## 2. Tam giác Penrose
 
-**Tam giác Penrose** (được Roger Penrose phổ biến; Reutersvärd đã vẽ trước đó) gồm ba thanh dầm nối với nhau vuông góc theo một vòng tam giác. Lấy tay che phần còn lại, mỗi góc trông như một chỗ nối dầm vuông góc hoàn toàn hợp lệ. Nhưng khi đi hết một vòng, cả hình buộc ta phải hiểu các hướng "nhô ra khỏi trang giấy" và "lùi vào trong" một cách mâu thuẫn.
+**Tam giác Penrose** (được Roger Penrose phổ biến năm 1958; nghệ sĩ Thụy Điển Oscar Reutersvärd đã vẽ từ năm 1934) gồm ba thanh dầm nối với nhau vuông góc theo một vòng tam giác. Lấy tay che hai góc, góc còn lại trông như một chỗ nối dầm vuông góc hoàn toàn hợp lệ. Nhưng khi đi hết một vòng, cả hình buộc ta phải hiểu các hướng "nhô ra khỏi trang giấy" và "lùi vào trong" một cách mâu thuẫn.
 
-Một cách để thấy mâu thuẫn: gán một hàm độ cao dọc theo các thanh dầm sao cho phù hợp với các chỗ nối trong hình vẽ; đi hết một vòng, độ cao không khớp với lúc xuất phát. Chướng ngại này mang tính toàn cục, nằm trên đường khép kín, trong khi mọi đoạn đường con đều ổn.
+Ta có thể thấy sự mâu thuẫn bằng một hệ phương trình ba dòng cực kỳ đơn giản. Giả sử tại ba góc $$A, B, C$$ ta muốn gán các khoảng cách chiều sâu (hoặc độ cao) $$h_A, h_B, h_C$$ sao cho mỗi thanh dầm đều đi tiến về phía trước thêm $$1$$ đơn vị như hình vẽ gợi ý:
 
-Những "tam giác Penrose" thật trong các công viên điêu khắc hoạt động nhờ **phối cảnh cưỡng bức**: từ một góc nhìn duy nhất, hình chiếu khớp với bản vẽ; bước sang một bên, các thanh dầm tách rời nhau. Vật thể 3 chiều đó không phải là một vòng dầm tam giác khép kín, mà là một cấu hình hở có hình chiếu đặc biệt.
+$$
+h_B - h_A = 1, \qquad h_C - h_B = 1, \qquad h_A - h_C = 1.
+$$
+
+Lấy bất kỳ **hai** phương trình nào (tức cắt hở tam giác ra), hệ luôn có vô số nghiệm! Nhưng cộng cả **ba** phương trình lại: vế trái triệt tiêu hoàn toàn thành $$0$$, còn vế phải bằng $$3 \implies 0 = 3$$, vô lý! Chướng ngại này mang tính toàn cục, nằm trọn trên đường khép kín, trong khi mọi đoạn đường con đều ổn.
+
+Những "tam giác Penrose" thật trong các công viên điêu khắc hoạt động nhờ **phối cảnh cưỡng bức**: từ một góc nhìn duy nhất, hai đầu hở của khối chữ L khổng lồ trùng khít trên võng mạc nên trông như một vòng kín; bước sang một bên vài bước, các thanh dầm lập tức tách rời nhau.
 
 ---
 
@@ -58,7 +76,7 @@ Escher lấy ý tưởng từ các nhà toán học (Penrose, Coxeter) mà khôn
 
 ## 4. Phép chiếu, sự mơ hồ và hình lập phương Necker
 
-Ngay cả vật *có thật* cũng có thể có bản vẽ mơ hồ: **hình lập phương Necker** lật qua lại giữa hai cách hiểu chiều sâu. Hình bất khả còn đi xa hơn: không có cách gán chiều sâu nào khớp với cả hình.
+Ngay cả vật *có thật* cũng có thể có bản vẽ mơ hồ: **hình lập phương Necker** lật qua lại giữa hai cách hiểu chiều sâu (mặt nào ở phía trước, mặt nào ở phía sau — hệ phương trình có *nhiều nghiệm*). Hình bất khả còn đi xa hơn: hệ ràng buộc bị *quá xác định* nên **không có nghiệm nào**.
 
 Phép chiếu vuông góc hoặc phép chiếu phối cảnh
 
@@ -66,19 +84,19 @@ $$
 \pi:\mathbb{R}^3\to\mathbb{R}^2
 $$
 
-làm mất một chiều. Nhiều vật thể khác nhau có cùng một cái bóng. Bản vẽ nét không đủ thông tin để xác định cấu trúc 3 chiều; nhưng khi thêm giả thiết (các mặt phẳng, góc vuông, vật đặc không trong suốt) thì có thể lại không còn nghiệm nào. Thị giác máy tính và các phương pháp giải ràng buộc hình học viết điều này thành hệ phương trình theo tọa độ các đỉnh và quan hệ liên thuộc, đôi khi bị ràng buộc quá mức và vô nghiệm.
+làm mất một chiều. Nhiều vật thể khác nhau có cùng một cái bóng. Bản vẽ nét không đủ thông tin để xác định cấu trúc 3 chiều; nhưng khi thêm giả thiết (các mặt phẳng, góc vuông, vật đặc không trong suốt) thì có thể lại không còn nghiệm nào. Thị giác máy tính và các phương pháp giải ràng buộc hình học (như thuật toán gắn nhãn đường Huffman–Clowes) viết điều này thành hệ phương trình theo tọa độ các đỉnh và quan hệ liên thuộc, đôi khi bị ràng buộc quá mức và vô nghiệm.
 
 ---
 
 ## 5. Ngôn ngữ toán học cho sự mâu thuẫn
 
-Hãy xem hình bất khả như việc cố ghép các "bản đồ" 3 chiều cục bộ dọc theo những phần chồng nhau (các đoạn dầm, các mặt). Trên mỗi phần chồng, hai bản đồ liên hệ với nhau bằng một phép dời hình hoặc một phép dịch độ cao. Đi quanh một vòng khép kín các phần chồng, hợp của các ánh xạ chuyển tiếp phải là ánh xạ đồng nhất nếu vật thể toàn cục tồn tại. Nếu hợp đó là một phép tịnh tiến chiều sâu khác 0, ta có **một cocycle không tầm thường**, và không có lát cắt (section) toàn cục nào.
+Hãy xem hình bất khả như việc cố ghép các "bản đồ" 3 chiều cục bộ dọc theo những phần chồng nhau (các đoạn dầm, các mặt). Trên mỗi phần chồng, hai bản đồ liên hệ với nhau bằng một phép dời hình hoặc một phép dịch độ cao (như độ lệch $$+1$$ trên mỗi cạnh ở Mục 2). Đi quanh một vòng khép kín các phần chồng, hợp của các ánh xạ chuyển tiếp phải là ánh xạ đồng nhất (tổng độ dịch bằng $$0$$) nếu vật thể toàn cục tồn tại. Nếu hợp đó là một phép tịnh tiến chiều sâu khác 0, ta có **một cocycle không tầm thường**, và không có lát cắt (section) toàn cục nào.
 
 Không cần biết đầy đủ về đối đồng điều để nắm bài học:
 
 > **Dữ liệu hình học cục bộ cùng với các quy tắc chuyển tiếp có thể vi phạm điều kiện vòng khép kín, vốn là điều kiện cần để hiện thực hóa toàn cục.**
 
-Cùng một mô thức xuất hiện khi dựng đa tạp từ các bản đồ, khi một phân thớ (bundle) có tôpô không tầm thường, hay khi một hàm độ cao rời rạc trên đồ thị có chu trình không nhất quán. Hình bất khả là phiên bản "bàn cà phê" của các lớp chướng ngại.
+Cùng một mô thức xuất hiện khi dựng đa tạp từ các bản đồ, khi một phân thớ (bundle) có tôpô không tầm thường (như dải Möbius xoắn một vòng trên đường tròn), hay khi một hàm độ cao rời rạc trên đồ thị có chu trình không nhất quán. Hình bất khả là phiên bản "bàn cà phê" của các lớp chướng ngại.
 
 Các cách hình thức hóa liên quan: hệ phương trình tuyến tính vô nghiệm cho tọa độ các đỉnh; metric đa diện không nhúng được với hình dạng mặt cho trước; phủ phân nhánh và chiều sâu đa trị.
 

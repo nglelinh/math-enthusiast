@@ -9,9 +9,25 @@ categories:
 - chapter06
 ---
 
-Một hệ vật lý trông khác nhau khi nhìn ở các độ phóng đại khác nhau. Chất lỏng là tập hợp phân tử ở thang nhỏ, nhưng là một trường vận tốc liên tục ở thang lớn. Nam châm là các spin nguyên tử khi nhìn gần, nhưng là một trường từ hóa trơn khi nhìn từ xa. **Nhóm tái chuẩn hóa (RG)** là tập hợp các ý tưởng giải thích **mô tả hiệu dụng thay đổi thế nào theo thang đo**, và vì sao nhiều chi tiết trở nên không quan trọng, trong khi chỉ vài hằng số tương tác quyết định hành vi ở khoảng cách lớn.
+Hãy thử một thí nghiệm tưởng tượng quen thuộc: đặt một cốc nước sôi và một thanh nam châm sắt cạnh nhau, rồi đun cả hai tới đúng điểm tới hạn chuyển pha của chúng (điểm tới hạn lỏng–khí của nước ở $$374^\circ\text{C}$$, và nhiệt độ Curie của sắt ở $$770^\circ\text{C}$$). Ở cấp độ vi mô, nước và sắt chẳng có gì giống nhau — một bên là các phân tử $$\text{H}_2\text{O}$$ va chạm hỗn loạn, bên kia là mạng tinh thể nguyên tử sắt với các spin lượng tử. Thế nhưng khi đo cách các đại lượng vật lý biến đổi gần điểm tới hạn, ta lại thu được **chính xác cùng những con số mũ tới hạn giống hệt nhau**! Tại sao tự nhiên lại "quên sạch" toàn bộ chi tiết vi mô để chỉ giữ lại vài con số phổ quát như vậy?
 
-RG ra đời từ những khó khăn với các đại lượng vô hạn trong lý thuyết trường lượng tử, và trưởng thành trong lý thuyết hiện tượng tới hạn của Kenneth Wilson. Ngày nay nó là ngôn ngữ chung của lý thuyết trường lượng tử, cơ học thống kê, và cả một phần của xác suất và hình học. Bài trong nhánh Cầu nối này trình bày ý chính, bức tranh điểm bất động, và phân biệt phần nào là định lý, phần nào là phép tính của vật lý. Bài liên quan: [tích phân đường]({{ site.baseurl }}/contents/vi/chapter06/06_20_Path_Integrals_Math_Status/), [bài toán khe khối lượng Yang–Mills]({{ site.baseurl }}/contents/vi/chapter01/01_10_Yang_Mills_Mass_Gap/), [vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/).
+Câu trả lời nằm ở một trong những ý tưởng sâu sắc nhất của vật lý toán thế kỷ XX: **nhóm tái chuẩn hóa (renormalization group — RG)**. Thay vì cố mô tả thế giới ở một độ phóng đại duy nhất, RG biến **tỉ lệ (scale)** thành một phép biến đổi động lực: khi ta lùi ra xa dần và "làm mờ" các chi tiết nhỏ, mô tả hiệu dụng của hệ chảy đi trong không gian các lý thuyết như thế nào? Ra đời từ cuộc vật lộn với các tích phân vô hạn trong lý thuyết trường lượng tử và trưởng thành qua lý thuyết hiện tượng tới hạn của Kenneth Wilson (giải Nobel 1982), RG ngày nay là ngôn ngữ chung của lý thuyết trường lượng tử, cơ học thống kê, xác suất và hình học. Bài liên quan: [tích phân đường]({{ site.baseurl }}/contents/vi/chapter06/06_20_Path_Integrals_Math_Status/), [bài toán khe khối lượng Yang–Mills]({{ site.baseurl }}/contents/vi/chapter01/01_10_Yang_Mills_Mass_Gap/), [vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/).
+
+---
+
+## Bản đồ kiến thức nền: Lý thuyết nhóm tái chuẩn hóa (RG) là gì và nghiên cứu những gì?
+
+Nếu bạn đã học giải tích phương trình vi phân (hệ động lực, điểm cân bằng ổn định và không ổn định) và định lý giới hạn trung tâm trong xác suất, bạn thực ra đã chạm vào **tinh thần của nhóm tái chuẩn hóa** mà chưa gọi đúng tên!
+
+Hãy nghĩ ngay tới **định lý giới hạn trung tâm** (CLT) ở bậc đại học: bạn lấy hàng nghìn biến ngẫu nhiên độc lập $$X_1, X_2, \dots$$ có phân phối bất kỳ (đồng đều, mũ, nhị thức, hay hình thù kỳ quái miễn có phương sai hữu hạn), cộng gộp từng khối lại và chia cho $$\sqrt{N}$$ để giữ nguyên độ rộng. Lặp lại phép "gộp khối rồi co giãn" đó, mọi phân phối ban đầu đều chảy về **một điểm bất động duy nhất**: phân phối chuẩn Gauss! Mọi chi tiết về hình dạng ban đầu (mômen bậc 3, bậc 4, bậc 5...) đều tắt dần — chúng là những hướng *không liên quan* — chỉ còn đúng hai tham số (kỳ vọng và phương sai) quyết định bức tranh ở thang lớn.
+
+**Nhóm tái chuẩn hóa** chính là sự tổng quát hóa vĩ đại của ý tưởng ấy cho các hệ có **tương tác mạnh** (nơi các biến không độc lập nên định lý giới hạn trung tâm thông thường bị phá vỡ):
+
+- **Không gian trạng thái của RG:** Không phải là vị trí của một hạt, mà là **không gian các lý thuyết** — mỗi điểm trong không gian này ứng với một bộ tham số/hằng số tương tác $$g = (g_1, g_2, \dots)$$ (như nhiệt độ, từ trường, hằng số ghép điện từ hay sắc động lực).
+- **Phép biến đổi RG (thực ra là nửa nhóm):** Gồm hai nhịp *làm thô* (gộp nhiều bậc tự do ở khoảng cách nhỏ thành một biến trung bình, hay tích phân hết các dao động bước sóng ngắn) + *co giãn lại thước đo* để so sánh được với hệ ban đầu. (Gọi là "nhóm" vì lý do lịch sử, nhưng vì làm thô làm mất thông tin chi tiết nên phép biến đổi thường không khả nghịch — chính xác hơn là một *nửa nhóm*.)
+- **Điều RG nghiên cứu:** Tìm các **điểm bất động** $$R(g_*) = g_*$$ (những lý thuyết trông y hệt chính nó ở mọi độ phóng đại — bất biến thang đo), tuyến tính hóa dòng chảy quanh điểm bất động để phân loại hướng nào phình to ra (quyết định pha vĩ mô) và hướng nào co tắt đi (tạo ra **tính phổ quát**).
+
+Nắm được ẩn dụ "định lý giới hạn trung tâm cho các hệ tương tác + hệ động lực trên không gian tham số", bạn sẽ thấy RG cực kỳ tự nhiên và mạch lạc.
 
 ---
 
@@ -32,30 +48,30 @@ Sau bài học, bạn có thể:
 
 ## 1. Vì sao thang đo đi vào toán học
 
-Một lý thuyết trường liên tục có bậc tự do ở mọi độ dài. Nếu không tổ chức lại thì có vô hạn mode. Tự nhiên thường cho thấy **tính tách rời** (decoupling): người quan sát ở thang vĩ mô không cần biết toàn bộ Hamiltonian vi mô, mà chỉ cần một vài tham số hiệu dụng.
+Một lý thuyết trường liên tục có bậc tự do ở mọi độ dài — từ quy mô thiên hà xuống tới $$10^{-35}$$ mét. Nếu muốn dự đoán dòng chảy nước trong ống dẫn mà buộc phải giải phương trình Schrödinger cho từng hạt quark trong mỗi nguyên tử oxy, khoa học sẽ tê liệt hoàn toàn. May mắn thay, tự nhiên thường có **tính tách rời thang đo** (decoupling): người quan sát ở thang vĩ mô không cần biết toàn bộ Hamiltonian vi mô, mà chỉ cần một vài tham số hiệu dụng (như mật độ và độ nhớt của chất lỏng).
 
-RG đặt câu hỏi một cách chính xác: **nếu thay đổi độ phân giải, cần điều chỉnh các tham số thế nào để các đại lượng quan sát ở khoảng cách lớn không thay đổi?**
+RG đặt câu hỏi một cách chính xác: **nếu thay đổi độ phân giải (thang năng lượng $$\mu$$ hay bước lưới $$a$$), cần điều chỉnh các tham số thế nào để các đại lượng quan sát ở khoảng cách lớn không thay đổi?**
 
 ---
 
 ## 2. Mức cắt và tham số trần
 
-Ta chính quy hóa bằng một mức cắt $$\Lambda$$ (bước mạng lưới $$a\sim 1/\Lambda$$, mức cắt xung lượng, …). Hằng số trần (bare) $$g_0(\Lambda)$$ phụ thuộc vào mức cắt. Các đại lượng vật lý ở thang $$\mu\ll\Lambda$$ cần có giới hạn hữu hạn khi $$\Lambda\to\infty$$, sau khi điều chỉnh $$g_0$$ thích hợp. Đó là ý tưởng cổ điển về **tính tái chuẩn hóa được** (bao gồm Yang–Mills 4 chiều, theo nghĩa nhiễu loạn).
+Để tránh các tích phân phân kỳ ở khoảng cách bằng $$0$$ (xung lượng vô hạn), ta chính quy hóa lý thuyết bằng một **mức cắt $$\Lambda$$** (chẳng hạn đặt trường lên mạng lưới có bước $$a \sim 1/\Lambda$$, hoặc chỉ giữ các sóng có xung lượng nhỏ hơn $$\Lambda$$). Hằng số "trần" (bare) $$g_0(\Lambda)$$ xuất hiện trong Lagrangian ở thang cắt sẽ phụ thuộc vào $$\Lambda$$. Các đại lượng vật lý đo được ở thang thí nghiệm $$\mu \ll \Lambda$$ cần có giới hạn hữu hạn khi $$\Lambda \to \infty$$, sau khi ta điều chỉnh $$g_0(\Lambda)$$ thích hợp. Đó là ý tưởng cổ điển về **tính tái chuẩn hóa được** (bao gồm điện động lực học lượng tử QED và Yang–Mills 4 chiều, theo nghĩa nhiễu loạn).
 
-**Liên hệ với phân bố và giới hạn liên tục.** Bỏ mức cắt là lấy giới hạn trong một không gian hàm; vấn đề tích các phân bố không xác định xuất hiện trở lại, giống như trong bài về giới hạn liên tục.
+**Liên hệ với phân bố và giới hạn liên tục.** Dưới góc nhìn giải tích, bỏ mức cắt ($$\Lambda \to \infty$$) là lấy giới hạn trong một không gian hàm suy rộng; vấn đề "nhân hai phân bố tại cùng một điểm không xác định" xuất hiện trở lại chính dưới dạng các vòng phân kỳ tử ngoại cần phản số hạng (counterterm) để điều chỉnh.
 
 ---
 
 ## 3. Bức tranh của Wilson: gộp khối và điểm bất động
 
-RG theo Wilson (cho hiện tượng tới hạn, thập niên 1970), nói đại khái, gồm các bước:
+RG theo Kenneth Wilson (cho hiện tượng tới hạn, thập niên 1970) biến quá trình "lùi ra xa nhìn ảnh" thành một phép lặp rõ ràng (ví dụ kinh điển là phép **gộp khối spin Kadanoff** trên mô hình nam châm Ising 2 chiều: gộp mỗi ô vuông $$3\times 3$$ mũi tên spin thành 1 mũi tên đại diện theo luật đa số, rồi thu nhỏ bản đồ đi 3 lần):
 
 1. Bắt đầu với một lý thuyết trường thống kê hoặc mô hình spin trên mạng lưới ở khoảng cách ngắn.  
-2. **Làm thô** (gộp các spin thành khối, hoặc lấy tích phân các xung lượng cao).  
+2. **Làm thô** (gộp các spin thành khối, hoặc lấy tích phân loại bỏ các mode xung lượng cao giữa $$\Lambda/b$$ và $$\Lambda$$).  
 3. Co giãn lại độ dài để đơn vị mạng lưới trở về như cũ.  
 4. Đọc ra các hằng số hiệu dụng mới $$g'$$, xem như một ánh xạ $$g\mapsto R(g)$$.  
 
-Lặp lại $$R$$ cho ta một **dòng chảy**. Một **điểm bất động** $$R(g_*)=g_*$$ mô tả một lý thuyết bất biến theo thang đo. Gần $$g_*$$, các trị riêng của RG tuyến tính hóa phân loại các nhiễu loạn:
+Lặp lại $$R$$ cho ta một **dòng chảy** trong không gian lý thuyết. Một **điểm bất động** $$R(g_*)=g_*$$ mô tả một lý thuyết bất biến theo thang đo — phóng to hay thu nhỏ bao nhiêu lần bức tranh thống kê trông vẫn y nguyên (đúng như mô hình Ising ở nhiệt độ tới hạn $$T_c$$, nơi có các cụm spin đủ mọi kích cỡ!). Gần $$g_*$$, tuyến tính hóa ánh xạ $$R$$ cho ta các trị riêng (giống ma trận Jacobian quanh điểm cân bằng của hệ động lực) phân loại mọi nhiễu loạn thành ba nhóm:
 
 | Loại | Hành vi khi thang đo tăng (vùng hồng ngoại) | Vai trò |
 |------|--------------------------|---------|
@@ -63,31 +79,39 @@ Lặp lại $$R$$ cho ta một **dòng chảy**. Một **điểm bất động**
 | Không liên quan (irrelevant) | Tắt dần | Chi tiết vi mô bị quên đi → **tính phổ quát** |
 | Biên (marginal) | Thay đổi chậm (theo logarit) | Tinh tế; hằng số "chạy" |
 
-**Cơ chế chính.** Các lớp phổ quát tồn tại vì nhiều mô hình vi mô khác nhau cùng chảy về **một** điểm bất động; chỉ các hướng liên quan mới phân biệt các pha vĩ mô.
+**Cơ chế chính.** Các lớp phổ quát tồn tại vì vô số mô hình vi mô khác nhau (nước, $$\text{CO}_2$$, hợp kim từ tính một trục...) chỉ khác nhau ở các thành phần *không liên quan*, nên khi lùi ra xa chúng cùng bị hút về **cùng một** điểm bất động; chỉ một vài hướng *liên quan* (như nhiệt độ và áp suất/từ trường) mới cần tinh chỉnh để đặt hệ đúng vào điểm tới hạn.
 
 ---
 
 ## 4. Phương trình Callan–Symanzik và hằng số chạy (ý chính trong lý thuyết trường lượng tử)
 
-Trong ngôn ngữ lý thuyết trường lượng tử liên tục, sự phụ thuộc của các hàm tương quan vào thang tái chuẩn hóa $$\mu$$ bị ràng buộc bởi một phương trình vi phân (phương trình Callan–Symanzik). **Hàm beta** $$\beta(g)=\mu\partial_\mu g$$ cho biết hằng số tương tác thay đổi thế nào.
+Trong ngôn ngữ lý thuyết trường lượng tử liên tục, việc các dự đoán vật lý không được phụ thuộc vào thang đo tái chuẩn hóa nhân tạo $$\mu$$ dẫn tới một phương trình vi phân gọi là **phương trình Callan–Symanzik**. Nhân vật trung tâm của nó là **hàm beta**:
 
-**Tính tự do tiệm cận.** Với lý thuyết gauge không giao hoán (QCD), $$\beta(g)<0$$ khi tương tác yếu: tương tác càng yếu đi ở khoảng cách ngắn. Đây là nền tảng khái niệm để hiểu các thí nghiệm tán xạ không đàn hồi sâu. Cùng ý tưởng này giải thích vì sao có thể hy vọng tiếp cận giới hạn liên tục từ mạng lưới, nhưng nó không tự chứng minh được định lý khe khối lượng của Clay.
+$$
+\beta(g) = \mu \frac{\partial g}{\partial \mu},
+$$
+
+cho biết hằng số tương tác hiệu dụng $$g(\mu)$$ tăng hay giảm khi ta dò ở năng lượng $$\mu$$ cao hơn (tức khoảng cách ngắn hơn).
+
+Hãy so sánh hai lực cơ bản nổi tiếng nhất để thấy sức mạnh của dấu hàm beta:
+- Trong **QED (điện từ học)**, $$\beta(e) > 0$$: các cặp electron–positron ảo trong chân không che chắn điện tích gốc, nên nhìn càng xa thì điện tích hiệu dụng càng nhỏ, còn càng lại gần ($$\mu$$ lớn) thì lực điện càng mạnh.
+- Trong **QCD (lý thuyết gauge không giao hoán $$SU(3)$$)**, David Gross, Frank Wilczek và David Politzer (giải Nobel 2004) phát hiện $$\beta(g) < 0$$ khi $$g$$ nhỏ: gluon tự tương tác gây hiệu ứng *phản che chắn*, khiến tương tác mạnh lại **càng yếu đi ở khoảng cách cực ngắn**! Hiện tượng **tính tự do tiệm cận (asymptotic freedom)** này giải thích vì sao các thí nghiệm bắn phá proton ở năng lượng cao lại thấy các quark bên trong gần như bay tự do. Cùng ý tưởng đó giải thích vì sao ta có cơ sở hy vọng xây dựng giới hạn liên tục từ mạng lưới cho Yang–Mills, nhưng nó không tự chứng minh được định lý khe khối lượng của Clay.
 
 ---
 
 ## 5. Cầu nối với cơ học thống kê và xác suất
 
-Mô hình Ising, thấm (percolation), mô hình $$\phi^4$$ là những phòng thí nghiệm nơi các ý tưởng RG đã trở thành định lý, ở một số chiều đặc biệt hoặc bằng phương pháp kiến thiết. Lý thuyết trường bảo giác (CFT) tại điểm tới hạn (đặc biệt trong 2 chiều) nâng tính bất biến theo thang đo lên thành đối xứng bảo giác. Liên hệ với xác suất gồm các giới hạn tỉ lệ của hệ ngẫu nhiên (SLE trong 2 chiều), nơi đối tượng liên tục xuất hiện sau một quá trình lấy giới hạn kiểu tái chuẩn hóa.
+Mô hình Ising, lý thuyết thấm (percolation), và mô hình trường vô hướng $$\phi^4$$ là những phòng thí nghiệm nơi các ý tưởng RG đã được chứng minh thành định lý chặt chẽ ở nhiều số chiều (bằng phương pháp nhóm tái chuẩn hóa kiến thiết của Glimm–Jaffe, Gawędzki–Kupiainen, Brydges, Bauerschmidt...). Tại điểm tới hạn (đặc biệt trong 2 chiều), tính bất biến thang đo được nâng cấp thành đối xứng bảo giác toàn cục, mở ra **lý thuyết trường bảo giác (CFT)**. Ở nhánh xác suất hiện đại, giới hạn tỉ lệ của các giao diện ngẫu nhiên trên mạng lưới 2 chiều hội tụ về **quá trình tiến hóa Schramm–Loewner (SLE)** — một thắng lợi toán học trực tiếp mang tinh thần tái chuẩn hóa.
 
 ---
 
 ## 6. Những gì RG *không* tự động cho ta
 
 - Một định nghĩa kiến thiết đầy đủ cho QCD liên tục 4 chiều.  
-- Chứng minh hiện tượng giam hãm hay khe khối lượng ([bài toán Clay về Yang–Mills]({{ site.baseurl }}/contents/vi/chapter01/01_10_Yang_Mills_Mass_Gap/)).  
+- Chứng minh hiện tượng giam hãm màu hay khe khối lượng ([bài toán Clay về Yang–Mills]({{ site.baseurl }}/contents/vi/chapter01/01_10_Yang_Mills_Mass_Gap/)).  
 - Quyền bỏ qua dị thường, tô pô, hay các lớp phi nhiễu loạn ([instanton]({{ site.baseurl }}/contents/vi/chapter06/06_21_Instantons_Anomalies/)).  
 
-RG là **một nguyên lý tổ chức và một khung tính toán**. Đôi khi nó được nâng lên thành định lý, nhưng thường được dùng như một phép tính vật lý có kiểm soát.
+RG là **một nguyên lý tổ chức và một khung tính toán**. Đôi khi nó được nâng lên thành định lý chặt chẽ (như với mô hình $$\phi^4$$ ở chiều thấp hoặc quanh điểm bất động Gauss), nhưng trong nhiều bài toán biên giới, nó được dùng như một phép tính vật lý có kiểm soát.
 
 ---
 

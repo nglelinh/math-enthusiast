@@ -15,7 +15,9 @@ categories:
 > **3. Bạn đang ở đây:** bài thực hành chương 7, **lập một từ điển đối ngẫu**  
 > *Thời lượng gợi ý:* khoảng 90–150 phút (đây không phải bài học chứng minh).
 
-Đây là một **bài thực hành**, không phải danh sách định lý. Đối ngẫu xuất hiện dưới nhiều dạng khác nhau. Nhiệm vụ của bạn là: **chọn một cặp đối ngẫu**, lập một từ điển hai cột, ghi rõ dòng nào là **định lý** và dòng nào là **giả thuyết**, và giữ một nhật ký ngắn. Bạn không chứng minh AdS/CFT hay giả thuyết đối xứng gương đồng điều (HMS). Bạn tập trình bày các chương trình nghiên cứu đó sao cho người khác **đọc hiểu được**.
+Năm 1799, đoàn thám hiểm Pháp tìm thấy phiến đá Rosetta ở Ai Cập. Nhờ cùng một sắc lệnh được khắc bằng hai hệ chữ khác nhau, các học giả đã giải mã được chữ tượng hình cổ đại vốn bị đóng băng suốt hơn một thiên niên kỷ. Trong toán học và vật lý hiện đại, những "phiến đá Rosetta" vĩ đại nhất được gọi là **đối ngẫu (duality)**: hai lý thuyết thoạt nhìn thuộc hai thế giới hoàn toàn xa lạ, nhưng lại mô tả cùng một thực tại toán học sâu xa — đến mức một bài toán cực khó ở phía bên này bỗng biến thành một phép tính gọn nhẹ ở phía bên kia.
+
+Bạn không cần chứng minh tương ứng AdS/CFT hay giả thuyết đối xứng gương đồng điều (HMS) trong một buổi chiều. Thay vào đó, bài thực hành này mời bạn đóng vai một **nhà biên soạn từ điển**: chọn đúng một cặp đối ngẫu, vẽ ra bảng dịch song ngữ hai cột, gắn nhãn trung thực xem dòng nào đã là **định lý** vững chắc và dòng nào mới là **chương trình nghiên cứu** hay **từ điển vật lý**, và giữ một cuốn nhật ký ghi lại cả những lần dịch nhầm cần sửa.
 
 ---
 
@@ -33,6 +35,19 @@ Sau bài này, bạn có thể:
 
 ---
 
+## Bản đồ kiến thức nền: Nguyên lý đối ngẫu trong Toán học và Vật lý lý thuyết là gì, nghiên cứu những gì?
+
+Nếu bạn đã từng học đại số tuyến tính hoặc xử lý tín hiệu ở đại học, bạn thực ra đã dùng đối ngẫu hàng ngày mà có thể chưa gọi tên nó:
+
+- Trong **đại số tuyến tính**, đối ngẫu nối không gian vectơ $$V$$ với không gian các phép đo tuyến tính $$V^*$$ (vectơ cột ↔ vectơ hàng). Phép lấy chuyển vị $$A \mapsto A^T$$ chính là "cây cầu dịch" đảo ngược chiều mũi tên của ánh xạ tuyến tính!
+- Trong **giải tích Fourier**, phép biến đổi Fourier dịch một bài toán từ *miền thời gian* sang *miền tần số*. Một phép toán cực nặng ở miền thời gian như **tích chập** $$(f * g)(t)$$ hay **đạo hàm** $$f'(t)$$ lập tức biến thành phép **nhân đại số đơn giản** $$\hat f(\xi)\hat g(\xi)$$ và $$2\pi i \xi \hat f(\xi)$$ ở miền tần số. Đó chính là sức mạnh thực dụng nhất của một từ điển đối ngẫu: *biến bài toán khó bên A thành phép tính dễ bên B*.
+
+Ở biên giới của toán học và vật lý lý thuyết thế kỷ XXI, nguyên lý này được nâng lên tầm cỡ những đại chương trình nghiên cứu: **Đối xứng gương (Mirror Symmetry)** nối hình học symplectic (đo diện tích, đếm đường cong) với hình học đại số phức (phương trình đa thức); **AdS/CFT** nối lực hấp dẫn trong không gian $$d+1$$ chiều với lý thuyết lượng tử không có hấp dẫn trên biên $$d$$ chiều; còn **Chương trình Langlands** xây một "từ điển tổng hợp" giữa lý thuyết số (nhóm Galois) và giải tích điều hòa (dạng tự đẳng cấu).
+
+Một điểm mấu chốt người mới học rất hay nhầm: **đối xứng (symmetry)** là phép biến đổi giữ nguyên *cùng một* lý thuyết (ví dụ xoay một hình vuông $$90^\circ$$), còn **đối ngẫu (duality)** là một cây cầu nối *hai* cách mô tả (thậm chí hai lý thuyết khác hẳn nhau, ví dụ một bên tương tác mạnh và một bên tương tác yếu) nhưng cho ra cùng kết quả vật lý hoặc toán học.
+
+---
+
 ## 1. Kiến thức nền (một trang)
 
 Một từ điển đối ngẫu là một bảng như sau:
@@ -41,7 +56,16 @@ Một từ điển đối ngẫu là một bảng như sau:
 |--------|--------|-----------------|
 | đối tượng / phát biểu | đối tượng tương ứng | định lý / … |
 
-Các ví dụ đã gặp trong khóa học:
+Hãy xem một **ví dụ minh họa nhỏ** với cặp quen thuộc nhất — **Biến đổi Fourier trên $$\mathbb{R}$$** — để thấy một từ điển tốt trông như thế nào:
+
+| Phía A (Miền thời gian $$x$$) | Phía B (Miền tần số $$\xi$$) | Nhãn trạng thái |
+|-------------------------------|------------------------------|-----------------|
+| Tín hiệu $$f(x)$$ | Phổ $$\hat f(\xi)$$ | Định nghĩa |
+| Đạo hàm $$f'(x)$$ | Nhân với $$2\pi i \xi \hat f(\xi)$$ | Định lý (với hàm suy giảm nhanh) |
+| Tích chập $$(f*g)(x)$$ | Tích từng điểm $$\hat f(\xi)\hat g(\xi)$$ | Định lý tích chập |
+| Xung hẹp (tập trung trong thời gian) | Phổ trải rộng (dàn trải trên tần số) | Định lý (Nguyên lý bất định) |
+
+Các cặp lớn đã gặp trong khóa học để bạn lựa chọn:
 
 | Cặp | Cái được hoán đổi | Lưu ý về trạng thái |
 |-----|--------------|----------------------|
@@ -74,7 +98,7 @@ Làm tốt bài này **không** có nghĩa là "chứng minh được kết qu�
 
 ### A. Chọn cặp (15 phút)
 
-Chọn **đúng một** cặp chính trong bảng ở mục 1 (có thể chọn một biến thể nếu bạn cẩn thận). Tránh nhầm loại: "RSA và bài toán phân tích thừa số" **không** phải là một cặp đối ngẫu.
+Chọn **đúng một** cặp chính trong bảng ở mục 1 (có thể chọn một biến thể nếu bạn cẩn thận). Tránh nhầm loại: "RSA và bài toán phân tích thừa số" **không** phải là một cặp đối ngẫu (đó là quan hệ quy dẫn độ phức tạp tính toán).
 
 Viết ba câu: (1) về phía A; (2) về phía B; (3) điều bạn **không** khẳng định.
 
@@ -92,9 +116,9 @@ Dòng nào cũng phải có nhãn. Đánh dấu dòng **kém chắc chắn nhấ
 
 Chọn **một** trong các việc sau:
 
-1. **Đối ngẫu tuyến tính.** Với $$V=\mathbb{R}^2$$, tìm ánh xạ đối ngẫu của $$f(x,y)=(x+y,x)$$.  
-2. **Fourier đơn giản.** DFT trên $$\mathbb{Z}/n\mathbb{Z}$$: tích chập ↔ tích từng điểm (phát biểu, không cần chứng minh đầy đủ).  
-3. **Mô hình điện từ.** Phương trình Maxwell trong chân không và phép đối xứng $$E\leftrightarrow B$$ (lập luận trực quan).  
+1. **Đối ngẫu tuyến tính.** Với $$V=\mathbb{R}^2$$, tìm ánh xạ đối ngẫu $$f^*: (\mathbb{R}^2)^* \to (\mathbb{R}^2)^*$$ của $$f(x,y)=(x+y,x)$$ (gợi ý: biểu diễn dưới dạng ma trận và kiểm tra phép chuyển vị).  
+2. **Fourier đơn giản.** DFT trên $$\mathbb{Z}/n\mathbb{Z}$$: kiểm tra bằng một ví dụ nhỏ (ví dụ $$n=4$$) rằng tích chập vòng ↔ tích từng điểm.  
+3. **Mô hình điện từ.** Phương trình Maxwell trong chân không và phép đối xứng $$E\leftrightarrow B$$ (chú ý dấu trừ trong định luật Faraday và định luật Ampère–Maxwell).  
 4. **Phân biệt hai loại Langlands.** Lập hai cột: Langlands số học và Langlands hình học (chỉ liệt kê đối tượng), trích từ chương 2 và bài đọc sâu về Langlands hình học.
 
 ### E. Nhật ký (ít nhất 5 mục có ghi ngày)

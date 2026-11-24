@@ -9,16 +9,16 @@ categories:
 - chapter02
 ---
 
-**Stanislav Smirnov** nhận **Huy chương Fields 2010**
+Hãy trải một bàn cờ tổ ong khổng lồ gồm hàng triệu ô lục giác, rồi với mỗi ô bạn tung một đồng xu công bằng: ngửa thì tô **vàng**, sấp thì tô **xanh**. Bây giờ bạn lùi ra thật xa cho đến khi từng ô lục giác nhỏ li ti hòa vào nhau như một bức tranh điểm ảnh, và tự hỏi: xác suất để có một con đường liên tục toàn ô màu vàng nối từ cạnh trái sang cạnh phải của một hình vẽ bất kỳ phụ thuộc vào điều gì? Các nhà vật lý thống kê dự đoán một phép màu kinh ngạc: ở đúng ngưỡng tới hạn $$p = 1/2$$, bức tranh ngẫu nhiên đó **quên sạch** hình dáng lục giác ban đầu và trở nên **bất biến bảo giác** — nếu bạn uốn cong khung tranh bằng bất kỳ ánh xạ bảo toàn góc nào (như ánh xạ giải tích phức), xác suất nối xuyên vẫn giữ nguyên không đổi!
+
+Dự đoán ấy đẹp như mơ, nhưng suốt nhiều thập niên không ai biết cách chứng minh cho dù chỉ một mô hình lưới cụ thể. Năm 2001, bằng một bài báo ngắn gọn đến mức sững sờ chỉ dài **6 trang**, **Stanislav Smirnov** đã chứng minh công thức Cardy và tính bất biến bảo giác cho mô hình thấm đỉnh trên lưới tam giác — rồi tiếp tục phát minh ra **fermion chỉnh hình rời rạc** để chinh phục **mô hình Ising phẳng**. Năm 2010, ông nhận **Huy chương Fields**:
 
 > “For the proof of conformal invariance of percolation and the planar Ising model in statistical physics.”  
 > — [IMU, Fields Medals 2010](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2010)
 
 *Tạm dịch: vì chứng minh tính bất biến bảo giác của mô hình thấm (percolation) và mô hình Ising phẳng trong vật lý thống kê.*
 
-Lời trao giải nêu tên **hai mô hình trên lưới** của vật lý thống kê. Nó không nói rằng "mọi mô hình hai chiều ở điểm tới hạn đều đã thành định lý". Từ lâu, các nhà vật lý đã dự đoán rằng ở điểm tới hạn, nhiều mô hình phẳng "quên" mất cấu trúc lưới vi mô và chỉ còn giữ lại một hình học bảo giác. Cụ thể, trong giới hạn thang đo (scaling limit), các sự kiện có đường nối xuyên qua miền, các đường biên phân cách và các hàm tương quan đều biến đổi một cách hiệp biến dưới ánh xạ bảo giác của miền. Muốn biến dự đoán này thành toán học, cần tìm những đại lượng quan sát được (observable) vẫn kiểm soát được khi bước lưới tiến về không. Smirnov tìm ra những đại lượng như vậy cho **mô hình thấm đỉnh tới hạn trên lưới tam giác** (2001) và, cùng các cộng sự, cho **mô hình Ising phẳng**. Ngôn ngữ liên tục để mô tả các đường biên là **tiến hóa Schramm–Loewner (SLE)**, do Oded Schramm đưa ra và được Gregory Lawler, Schramm và Wendelin Werner phát triển; xem [Werner / SLE]({{ site.baseurl }}/contents/vi/chapter02/02_30_Werner_SLE/). Các định lý về chuyển pha của Hugo Duminil-Copin về sau thuộc cùng lĩnh vực: [Duminil-Copin]({{ site.baseurl }}/contents/vi/chapter02/02_19_Duminil_Copin_Phase_Transitions/).
-
-Bài này dành cho người đã học giải tích phức và xác suất cơ bản, và muốn nắm **cấu trúc** của huy chương năm 2010: công thức Cardy nói gì, vì sao lưới tam giác là thiết yếu, tính bất biến bảo giác của mô hình Ising nghĩa là gì khi nói qua các "fermion", và những bài toán gần đó nào vẫn còn mở.
+Cần đọc lời trao giải với con mắt thật tinh tường: IMU nêu chính xác **hai mô hình trên lưới**, không nói mọi mô hình phẳng tới hạn đều đã thành định lý (ngay cả mô hình thấm cạnh trên lưới vuông đến nay vẫn còn mở!). Công trình của Smirnov ghép khít với ngôn ngữ đường cong liên tục **SLE** của Oded Schramm và [Wendelin Werner]({{ site.baseurl }}/contents/vi/chapter02/02_30_Werner_SLE/) (Fields 2006), và mở đường cho các định lý chuyển pha ở chiều cao của học trò ông là [Hugo Duminil-Copin]({{ site.baseurl }}/contents/vi/chapter02/02_19_Duminil_Copin_Phase_Transitions/) (Fields 2022).
 
 ---
 
@@ -26,13 +26,12 @@ Bài này dành cho người đã học giải tích phức và xác suất cơ 
 
 Sau bài học, bạn có thể:
 
-- Nói ngắn gọn **mô hình thấm Bernoulli** là gì, và phân biệt thấm **đỉnh** (site) với thấm **cạnh** (bond).
-- Giải thích vì sao giá trị **tới hạn** $$p_c$$ là nơi nên tìm một giới hạn thang đo không tầm thường.
-- Mô tả **công thức Cardy** như một dự đoán về xác suất để một cụm tới hạn nối xuyên qua một "hình chữ nhật bảo giác", và biết rằng định lý của Smirnov năm 2001 chứng minh dự đoán đó cho **mô hình thấm đỉnh tới hạn trên lưới tam giác**.
-- Giải thích vì sao **không** được khẳng định cùng kết quả cho mọi lưới, đặc biệt là cho **mô hình thấm cạnh trên lưới vuông**.
-- Đặt **SLE** làm ngôn ngữ cho giới hạn thang đo của các đường biên, ghi công Schramm cho định nghĩa và Lawler–Schramm–Werner cho lý thuyết giải tích.
-- Phân biệt định lý về mô hình thấm với kết quả về tính bất biến bảo giác của **mô hình Ising phẳng** đến sau (Smirnov; Chelkak–Smirnov và các cộng sự).
-- Ghi công cẩn thận và tránh những câu phóng đại như "Smirnov đã giải xong vật lý thống kê hai chiều".
+- Phân biệt rõ **mô hình thấm đỉnh** (*site percolation*) với **mô hình thấm cạnh** (*bond percolation*), và giải thích vì sao chỉ tại điểm tới hạn $$p_c$$ mới xuất hiện giới hạn thang đo không tầm thường.
+- Mô tả trực quan **công thức Cardy** (và dạng tam giác đều cực gọn của Carleson) về xác suất nối xuyên, và biết định lý năm 2001 của Smirnov chứng minh nó cho **mô hình thấm đỉnh tới hạn trên lưới tam giác**.
+- Giải thích vì sao đối xứng bậc ba của lưới tam giác đóng vai trò sống còn trong chứng minh năm 2001, và vì sao **mô hình thấm cạnh trên lưới vuông** vẫn còn mở về tính bất biến bảo giác.
+- Phân định rành mạch vai trò: **Schramm** định nghĩa SLE, **Lawler–Schramm–Werner** xây dựng lý thuyết giải tích của SLE, còn **Smirnov** chứng minh các mô hình lưới rời rạc hội tụ về giới hạn bất biến bảo giác.
+- Giải thích ý chính của **fermion chỉnh hình rời rạc** trong chứng minh tính bất biến bảo giác và tính phổ quát của **mô hình Ising phẳng** (Smirnov; Chelkak–Smirnov trên đồ thị đẳng bán kính).
+- Tránh những tuyên bố quá mức như "Smirnov đã giải xong vật lý thống kê hai chiều" hay nhầm định lý bất biến bảo giác với lời giải Onsager (1944).
 
 **Kiến thức nền.** Hàm chỉnh hình và ánh xạ bảo giác giữa các miền phẳng ở mức giáo trình giải tích phức nhập môn; biến ngẫu nhiên Bernoulli và ý tưởng giới hạn thang đo (bước lưới $$\delta\to 0$$); sự khác nhau giữa mô hình rời rạc và quá trình liên tục. Không cần học trước về SLE.
 
@@ -40,29 +39,58 @@ Sau bài học, bạn có thể:
 
 ---
 
-## 1. Vì sao vật lý thống kê quan tâm tới tính bất biến bảo giác
+## Bản đồ kiến thức nền: Tính bất biến bảo giác và giải tích phức rời rạc là gì?
 
-Một cấu hình **thấm** trên một đồ thị là cách tô màu ngẫu nhiên các đỉnh (site) hoặc các cạnh (bond) thành "mở" hoặc "đóng", độc lập với nhau, mỗi phần tử mở với xác suất $$p$$. Câu hỏi hình học đơn giản nhất: các đỉnh mở có tạo thành một đường nối hai cung trên biên hay không. Khi $$p$$ rất nhỏ hoặc rất lớn, câu trả lời không có gì thú vị. Nhiều lưới hai chiều có một **giá trị tới hạn** $$p_c$$, tại đó xác suất có đường nối xuyên qua một hình chữ nhật lớn vẫn bị chặn xa khỏi cả $$0$$ lẫn $$1$$.
+Tại sao giải tích phức — ngành toán học về những hàm trơn mượt nhất — lại đột ngột trở thành vũ khí tối thượng để nghiên cứu các trò chơi tung đồng xu rời rạc trên lưới?
 
-Khi co bước lưới $$\delta\to 0$$, người ta dự đoán hình học của các cụm sẽ hội tụ về một đối tượng ngẫu nhiên liên tục. Lý thuyết trường bảo giác (CFT) hai chiều gợi ý một điều mạnh hơn: giới hạn đó phải **bất biến bảo giác**. John Cardy, dùng các phương pháp CFT chưa chặt chẽ, đưa ra công thức tường minh cho xác suất nối xuyên trong giới hạn, cho một "hình chữ nhật bảo giác" (*J. Phys. A*, 1992). Lennart Carleson nhận thấy công thức trở nên rất đơn giản nếu dùng tam giác đều. Cái khó không phải là viết ra công thức. Cái khó là chứng minh rằng một mô hình lưới cụ thể thực sự hội tụ, và giới hạn biến đổi đúng như Cardy dự đoán.
+**1. Ánh xạ bảo giác (Conformal map) — phép biến dạng giữ nguyên góc.**
+Trong giải tích phức, một hàm chỉnh hình $$f: \Omega_1 \to \Omega_2$$ có đạo hàm $$f'(z) \neq 0$$ là một **ánh xạ bảo giác**: ở thang rất nhỏ quanh mỗi điểm, nó chỉ phóng to/thu nhỏ và xoay chứ **không làm méo góc** giữa hai đường cong cắt nhau. Theo định lý ánh xạ Riemann, bất kỳ miền đơn liên nào (như hình vuông, hình tròn, hình tam giác, hay hình quả đậu) đều có thể biến đổi bảo giác sang đĩa đơn vị! Nếu một mô hình vật lý tới hạn trên mặt phẳng có **tính bất biến bảo giác**, điều đó có nghĩa là ta chỉ cần giải bài toán trên một hình cực đơn giản (như tam giác đều), rồi dùng ánh xạ bảo giác để tự động suy ra đáp số cho *mọi* hình dạng miền khác!
+
+**2. Thấm đỉnh (Site) và Thấm cạnh (Bond) — hai biến thể của cùng một trò chơi.**
+- **Thấm đỉnh trên lưới tam giác $$\mathbb{T}$$** (tương đương tô màu các ô lục giác của lưới tổ ong đối ngẫu): mỗi ô lục giác được tô vàng với xác suất $$p$$ hoặc xanh với xác suất $$1-p$$. Điểm tới hạn chính xác là $$p_c = 1/2$$: tại đúng $$p = 1/2$$, có sự đối xứng hoàn hảo giữa hai màu (hoặc có đường vàng nối trái–phải, hoặc có đường xanh chắn trên–dưới, không bao giờ xảy ra cả hai!).
+- **Thấm cạnh trên lưới vuông $$\mathbb{Z}^2$$:** ta mở/đóng từng cạnh nối hai đỉnh vuông với xác suất $$p$$ (cũng có $$p_c = 1/2$$). Trực giác vật lý tin rằng ở giới hạn bước lưới $$\delta \to 0$$, cả hai lưới đều cho *cùng một* giới hạn bảo giác (**tính phổ quát**), nhưng toán học hiện tại mới chứng minh được cho lưới tam giác!
+
+**3. Chiến lược "đại lượng chỉnh hình rời rạc" (Discrete holomorphic observable).**
+Làm thế nào để chứng minh một xác suất trên lưới hội tụ về một hàm chỉnh hình (hoặc điều hòa) khi bước lưới $$\delta \to 0$$? Ý tưởng thiên tài của Smirnov là xây dựng ngay trên lưới rời rạc một hàm $$F_\delta$$ (đo xác suất nối xuyên hoặc tương quan spin) sao cho nó thỏa mãn **phương trình Cauchy–Riemann rời rạc** (tổng các giá trị xung quanh mỗi ô nhỏ bằng $$0$$)! Khi cho $$\delta \to 0$$, hàm giới hạn tự động thỏa phương trình Cauchy–Riemann liên tục — tức là một **hàm chỉnh hình** xác định duy nhất bởi điều kiện biên!
 
 ---
 
-## 2. Mô hình thấm đỉnh trên lưới tam giác
+## 1. Từ bài toán cổ điển đến ý tưởng đột phá: công thức Cardy và dự đoán CFT
 
-Định lý năm 2001 của Smirnov nói về **mô hình thấm đỉnh tới hạn trên lưới tam giác** $$\mathbb{T}$$, với $$p=1/2$$. Bài báo ngắn trên *Comptes Rendus* (Smirnov, *C. R. Acad. Sci. Paris* 333 (2001); bản dài hơn là arXiv:0909.4499) đưa ra các hàm rời rạc xây từ xác suất nối xuyên, cùng một lập luận đổi màu. Các hàm này gần như điều hòa và thỏa một hệ Cauchy–Riemann rời rạc, nhờ một **đẳng thức đổi màu** chỉ có trên $$\mathbb{T}$$. Chúng hội tụ về các hàm chỉnh hình tường minh, là nghiệm của một bài toán biên hỗn hợp Dirichlet–Neumann. Từ đó suy ra tính bất biến bảo giác của xác suất nối xuyên và **công thức Cardy**. Dạng của Carleson: trên tam giác đều cạnh bằng một, xác suất (trong giới hạn) để có đường mở nối một cạnh với một đoạn trên cạnh khác tỉ lệ tuyến tính với độ dài đoạn đó.
+Khi tô màu ngẫu nhiên một hình chữ nhật lớn với xác suất $$p$$:
+- Nếu $$p < p_c$$, mọi cụm mở đều nhỏ xíu, xác suất có đường nối xuyên từ trái sang phải tiến nhanh về $$0$$ khi lưới mịn dần ($$\delta \to 0$$).
+- Nếu $$p > p_c$$, có cụm khổng lồ phủ khắp nơi, xác suất nối xuyên tiến về $$1$$.
+- Chỉ tại đúng **điểm tới hạn** $$p = p_c$$, xác suất nối xuyên giữ giá trị không tầm thường nằm strictly trong $$(0,1)$$!
 
-**Không được nói mơ hồ ở chỗ này.** Lập luận dùng đối xứng bậc ba của $$\mathbb{T}$$ một cách thiết yếu. Đây là định lý về **mô hình trên lưới này**, không phải định lý về "mô hình thấm trên mặt phẳng" nói chung. Đặc biệt, **mô hình thấm cạnh tới hạn trên lưới vuông**, mô hình thấm phẳng nổi tiếng còn lại, vẫn là một bài toán mở nổi tiếng về tính bất biến bảo giác. Người ta tin vào tính phổ quát, và đã có nhiều tiến bộ từng phần, nhưng khóa học không giả vờ rằng kết quả năm 2001 của Smirnov đã giải quyết mọi lưới.
+Năm 1992, bằng các công cụ vật lý (chưa chặt chẽ về toán học) của **lý thuyết trường bảo giác (CFT)**, nhà vật lý **John Cardy** đưa ra một công thức tường minh (dùng hàm siêu bội) cho xác suất nối xuyên trong giới hạn của bất kỳ miền đơn liên $$\Omega$$ nào có 4 điểm đánh dấu $$A, B, C, D$$ trên biên (gọi là một "hình chữ nhật bảo giác"). Không lâu sau, **Lennart Carleson** phát hiện một điều kỳ diệu: nếu dùng ánh xạ bảo giác để biến miền $$(\Omega; A, B, C, D)$$ thành một **tam giác đều** $$ABC$$ có cạnh bằng $$1$$, với điểm $$D$$ nằm trên cạnh $$AC$$ cách $$C$$ một đoạn $$x \in [0, 1]$$, thì công thức siêu bội rắc rối của Cardy bỗng sụp gọn thành một biểu thức đơn giản đến khó tin:
+
+$$
+\mathbb{P}(\text{có đường mở nối cung } AB \text{ với cung } CD) = x!
+$$
+
+Xác suất nối xuyên đơn giản chỉ bằng **tỷ lệ độ dài đoạn $$CD$$**! Thử nghiệm mô phỏng máy tính của Langlands–Pouliot–Saint-Aubin khớp hoàn hảo với công thức này. Nhưng suốt một thập kỷ, việc *chứng minh toán học* rằng giới hạn đó tồn tại và bằng đúng $$x$$ vẫn là bức tường không ai vượt qua được.
+
+---
+
+## 2. Đột phá năm 2001: mô hình thấm đỉnh trên lưới tam giác
+
+Năm 2001, trên *Comptes Rendus de l'Académie des Sciences* (bản mở rộng là [arXiv:0909.4499](https://arxiv.org/abs/0909.4499)), **Stanislav Smirnov** tung ra một chứng minh đẹp như một bản giao hưởng ngắn. Xét mô hình thấm đỉnh tới hạn ($$p = 1/2$$) trên lưới tam giác $$\mathbb{T}$$ (tô màu vàng/xanh các ô lục giác) trong một miền $$\Omega$$ có ba cung biên $$AB, BC, CA$$. Với mỗi điểm $$z$$ bên trong miền, Smirnov xét ba hàm xác suất:
+- $$H_A(z)$$: xác suất tồn tại đường vàng tách điểm $$z$$ và cung $$BC$$ khỏi đỉnh $$A$$;
+- Tương tự cho $$H_B(z)$$ và $$H_C(z)$$.
+
+Nhờ phép **đổi màu khéo léo** (*color-switching trick*) — một phép song ánh tổ hợp dựa trực tiếp vào hình học đối xứng bậc ba (góc $$120^\circ$$) của các ô lục giác — Smirnov chứng minh rằng sai phân của $$H_A, H_B, H_C$$ dọc theo các cạnh của lưới lục giác thỏa mãn đúng một hệ phương trình **Cauchy–Riemann rời rạc**! Khi cho bước lưới $$\delta \to 0$$, tổ hợp tuyến tính phức $$H_A + \tau H_B + \tau^2 H_C$$ (với $$\tau = e^{2\pi i/3}$$) hội tụ về ánh xạ bảo giác đưa $$\Omega$$ thành tam giác đều — và ngay tại biên $$AC$$, giá trị của $$H_C(D)$$ rơi ra chính xác bằng tọa độ tuyến tính $$x$$ trong **công thức Cardy–Carleson**!
+
+**Điểm cần nhấn mạnh để không nói sai:** Đẳng thức đổi màu của Smirnov tận dụng chặt chẽ đối xứng bậc ba của lưới tam giác $$\mathbb{T}$$. Vì thế định lý 2001 chỉ chứng minh cho **mô hình thấm đỉnh tới hạn trên lưới tam giác**. Trường hợp nổi tiếng còn lại — **mô hình thấm cạnh tới hạn trên lưới vuông $$\mathbb{Z}^2$$** — đến tận ngày nay vẫn là một bài toán mở lớn về tính bất biến bảo giác!
 
 ---
 
 ## 3. Từ xác suất nối xuyên tới đường cong: SLE là ngôn ngữ của giới hạn
 
-Xác suất nối xuyên là một đại lượng vô hướng bất biến bảo giác. Đối tượng phong phú hơn là các **đường biên**: đường phân cách vùng mở với vùng đóng, hay đường "thám hiểm" chạy dọc biên các cụm. Khi đã kiểm soát được xác suất nối xuyên, người ta hỏi tiếp: các đường ngẫu nhiên này có hội tụ theo phân phối về một quá trình liên tục hay không.
+Xác suất nối xuyên là một con số bất biến bảo giác; còn bức tranh hình học sống động hơn nhiều là **đường thám hiểm** (*exploration path*) — đường biên zíc-zắc chạy len lỏi giữa cụm ô màu vàng bên trái và cụm ô màu xanh bên phải.
 
-**Tiến hóa Schramm–Loewner** $$\mathrm{SLE}_\kappa$$, do Oded Schramm đưa ra năm 2000 (*Israel J. Math.* 118, "Scaling limits of loop-erased random walks and uniform spanning trees"), là một họ một tham số các tập (hull) ngẫu nhiên lớn dần trong một miền phẳng. Chúng được sinh ra bằng cách cho phương trình Loewner được điều khiển bởi một chuyển động Brown có phương sai $$\kappa$$. Schramm chứng minh: nếu một giới hạn thang đo dạng dây cung (chordal) tồn tại và bất biến bảo giác (cùng với một tính chất Markov miền), thì nó phải là $$\mathrm{SLE}_\kappa$$ với một giá trị $$\kappa$$ nào đó. Với mô hình thấm, giá trị dự đoán là $$\kappa=6$$.
+Chỉ một năm trước bài báo của Smirnov, **Oded Schramm** (2000) đã đặt ra họ quá trình ngẫu nhiên **tiến hóa Schramm–Loewner** $$\mathrm{SLE}_\kappa$$ (điều khiển bởi chuyển động Brown với phương sai $$\kappa$$), và chứng minh: nếu giới hạn thang đo của đường thám hiểm tồn tại, bất biến bảo giác và có tính chất Markov miền, thì nó *bắt buộc* phải là $$\mathrm{SLE}_\kappa$$ với một tham số $$\kappa$$ nào đó (với mô hình thấm là $$\kappa = 6$$). Tiếp đó, **Lawler–Schramm–Werner** xây dựng toàn bộ lý thuyết giải tích của SLE (nội dung Huy chương Fields 2006 của [Werner]({{ site.baseurl }}/contents/vi/chapter02/02_30_Werner_SLE/)).
 
-Lawler, Schramm và Werner phát triển lý thuyết giải tích của SLE: tính chất hạn chế (restriction), các số mũ giao và số mũ tách rời, và hình học của chuyển động Brown hai chiều. Đó là nội dung Huy chương Fields 2006 của Werner, **không** phải nội dung lời trao giải cho Smirnov; nó là ngôn ngữ để đọc các định lý trên lưới của Smirnov. Các công trình sau (đáng chú ý là Camia–Newman, và các bài về đường biên) dùng định lý nối xuyên của Smirnov làm điểm xuất phát để chứng minh đường thám hiểm của mô hình thấm hội tụ về $$\mathrm{SLE}_6$$. Khi trình bày, cần phân công rõ:
+Ngay khi Smirnov chứng minh được công thức Cardy (2001), mảnh ghép còn thiếu lập tức khớp vào nhau: chính Smirnov (và chi tiết hóa bởi **Camia–Newman**) chứng minh rằng đường thám hiểm của mô hình thấm đỉnh trên lưới tam giác thực sự hội tụ theo phân phối về **$$\mathrm{SLE}_6$$** — và nhờ đó, toàn bộ các số mũ tới hạn nổi tiếng của mô hình thấm 2D (như chiều Hausdorff của biên cụm bằng $$7/4$$, xác suất đường đi xuyên không cắt nhau) lần đầu tiên trở thành định lý toán học chặt chẽ!
 
 | Đóng góp | Của ai, nói ngắn gọn |
 |----------|---------------------|
@@ -73,27 +101,35 @@ Lawler, Schramm và Werner phát triển lý thuyết giải tích của SLE: t�
 
 ---
 
-## 4. Mô hình Ising phẳng
+## 4. Mô hình Ising phẳng và fermion chỉnh hình rời rạc
 
-**Mô hình Ising** gán spin $$\pm 1$$ cho các đỉnh của một đồ thị phẳng, với trọng số Boltzmann ưu tiên các đỉnh kề nhau cùng hướng. Ở nhiệt độ tới hạn, người ta dự đoán mô hình có giới hạn thang đo bất biến bảo giác; đây là một trong những thành công sớm nhất của CFT về mặt vật lý. (Lời giải chính xác của Onsager cho năng lượng tự do hai chiều; còn tính bất biến bảo giác của toàn bộ hình học là một khẳng định khác, khó hơn.)
+Thành tựu lớn thứ hai trong lời trao giải năm 2010 của Smirnov là **mô hình Ising phẳng** (các spin $$\sigma_x = \pm 1$$ đặt trên đỉnh đồ thị phẳng, tương tác với hàng xóm ở đúng nhiệt độ tới hạn $$\beta_c$$). Dù **Lars Onsager** (1944) đã tính chính xác năng lượng tự do của mô hình Ising 2D trên lưới vuông, việc chứng minh **toàn bộ hình học tới hạn** (hàm tương quan spin và đường biên giữa cụm spin $$+1$$ và $$-1$$) có giới hạn bất biến bảo giác lại là một thách thức ở tầm mức hoàn toàn khác.
 
-Smirnov đưa ra các **fermion chỉnh hình rời rạc** cho mô hình Ising tới hạn (xem "Conformal invariance in random cluster models. I. Holomorphic fermions in the Ising model", *Ann. of Math.* 172 (2010)). Cùng Dmitry Chelkak, ông chứng minh rằng các đại lượng fermion này có giới hạn thang đo phổ quát và bất biến bảo giác trên một họ lớn các đồ thị phẳng, không chỉ trên một lưới: Chelkak–Smirnov, "Universality in the 2D Ising model and conformal invariance of fermionic observables", *Invent. Math.* 189 (2012), arXiv:0910.2045. Các công trình sau cùng Chelkak, Duminil-Copin, Hongler, Kemppainen và những người khác chứng minh đường biên của mô hình Ising hội tụ về đường SLE (cụ thể là $$\mathrm{SLE}_3$$ cho đường biên spin, trong bối cảnh thích hợp).
+Năm 2010 (*Annals of Mathematics*), **Smirnov** đưa ra **đại lượng quan sát fermion chỉnh hình rời rạc** (*discrete holomorphic fermionic observable*) cho mô hình Ising và mô hình cụm ngẫu nhiên FK $$q = 2$$: ông gán cho mỗi cạnh trên lưới một số phức tính bằng tổng có trọng số trên tất cả các cấu hình đường biên kết thúc tại cạnh đó, nhân với một pha phức $$e^{-i \cdot \frac{1}{2} \text{góc quấn}}$$ (hệ số $$1/2$$ mang bản chất spinor/fermion!). Nhờ phép triệt tiêu cục bộ kỳ diệu tại đúng nhiệt độ tới hạn, đại lượng fermion này thỏa phương trình **Cauchy–Riemann rời rạc (tính s-chỉnh hình)** với điều kiện biên kiểu Riemann–Hilbert — và khi bước lưới $$\delta \to 0$$, nó hội tụ về một hàm chỉnh hình bất biến bảo giác tường minh!
 
-Có hai điểm cần lưu ý. Thứ nhất, cụm "tính bất biến bảo giác của mô hình Ising" trong lời trao giải nói về chương trình đại lượng quan sát được và giới hạn này, không phải lời giải năm 1944 của Onsager cho hàm phân hoạch. Thứ hai, theo một nghĩa nào đó, lý thuyết cho mô hình Ising **phổ quát hơn** định lý về mô hình thấm năm 2001: khung Chelkak–Smirnov áp dụng cho một lớp rộng các đồ thị đẳng bán kính (isoradial), còn định lý Cardy cho mô hình thấm vẫn gắn với lưới tam giác.
+Bước tiến ngoạn mục hơn nữa diễn ra trong công trình chung **Dmitry Chelkak và Stanislav Smirnov** (*Inventiones Mathematicae*, 2012; [arXiv:0910.2045](https://arxiv.org/abs/0910.2045)): họ chứng minh đại lượng fermion chỉnh hình hoạt động không chỉ trên lưới vuông mà trên **toàn bộ lớp đồ thị đẳng bán kính (isoradial)** — tức là **tính phổ quát** (*universality*) và bất biến bảo giác cho mô hình Ising 2D trên vô số dạng lưới khác nhau! Tiếp theo đó, Chelkak, Duminil-Copin, Hongler, Kemppainen và Smirnov chứng minh các đường biên spin của mô hình Ising 2D hội tụ về **$$\mathrm{SLE}_3$$** (và đường biên FK hội tụ về $$\mathrm{SLE}_{16/3}$$).
+
+Như vậy, có một điểm đối lập rất thú vị: với mô hình **Ising 2D**, lý thuyết fermion chỉnh hình đã chứng minh được tính phổ quát trên cả họ đồ thị đẳng bán kính rộng lớn; trong khi với **mô hình thấm**, định lý bất biến bảo giác vẫn chỉ mới khóa chặt được trên lưới tam giác!
 
 ---
 
 ## 5. Cách xây dựng chứng minh, và vì sao được Fields
 
-Cả hai câu chuyện đều bắt đầu bằng việc nghĩ ra một đại lượng rời rạc $$F_\delta$$ mã hóa sự kiện cần nghiên cứu (nối xuyên, spin, đường biên), thỏa một hệ gần như chỉnh hình, và có điều kiện biên chuyển thành một bài toán Dirichlet hoặc Riemann–Hilbert liên tục. Tính tiền compact cho ta các giới hạn theo dãy con; tính duy nhất nghiệm của bài toán liên tục xác định được giới hạn; và tính hiệp biến bảo giác được thừa hưởng từ đó. Với mô hình thấm trên lưới tam giác, đẳng thức đổi màu đồng nhất hai sự kiện "ba nhánh" và cho ta hệ Cauchy–Riemann rời rạc. Với mô hình Ising, đại lượng quan sát được là một fermion, và tính chỉnh hình rời rạc đến từ tính khả tích của mô hình. Hai phương pháp có họ hàng nhưng không giống hệt nhau: lưới phải cung cấp một đẳng thức đủ mạnh để khép kín hệ phương trình. Vì vậy có lưới giải được, có lưới vẫn còn mở.
+Cả hai đột phá của Smirnov đều vận hành theo một sơ đồ giải tích phức rời rạc cực kỳ sáng sủa:
+1. Thiết kế một đại lượng rời rạc $$F_\delta$$ trên lưới mã hóa đúng sự kiện xác suất cần tìm (nối xuyên hoặc đường biên spin);
+2. Khai thác một đẳng thức tổ hợp tinh tế của lưới tại đúng điểm tới hạn (đổi màu trên lưới tam giác; tính khả tích fermion của Ising) để chứng minh $$F_\delta$$ thỏa **hệ Cauchy–Riemann rời rạc**;
+3. Dùng tính tiền compact để trích dãy con hội tụ khi $$\delta \to 0$$, rồi dùng tính duy nhất nghiệm của bài toán biên liên tục (Dirichlet hoặc Riemann–Hilbert) để khẳng định giới hạn là duy nhất và **bất biến bảo giác**.
 
-Huy chương không phải vì "ông đoán đúng công thức Cardy". Một dự đoán vật lý đã thành định lý với công thức nối xuyên tường minh; các đại lượng chỉnh hình rời rạc đã tổ chức lại cơ học thống kê hai chiều; và khi chúng bất biến bảo giác, lý thuyết đường cong của Schramm–Lawler–Werner có thể gắn $$\mathrm{SLE}_6$$ hoặc $$\mathrm{SLE}_3$$ với một mô hình lưới cụ thể. Những người cùng nhận huy chương năm 2010 là Lindenstrauss, Ngô Bảo Châu và Villani; xem [Villani]({{ site.baseurl }}/contents/vi/chapter02/02_29_Villani_Landau_Boltzmann/) cho lời trao giải về phương trình động học tại cùng đại hội.
+Huy chương Fields 2010 không phải phần thưởng cho việc "đoán đúng công thức Cardy". Nó tôn vinh việc Smirnov đã biến các tiên đoán sâu sắc nhất của vật lý thống kê hai chiều thành định lý chặt chẽ, khai sinh phương pháp **giải tích phức rời rạc** làm thay đổi bộ mặt cơ học thống kê, và tạo ra cầu nối thực sự để gắn $$\mathrm{SLE}_6$$ và $$\mathrm{SLE}_3$$ với các mô hình lưới cụ thể. (Cùng nhận Huy chương Fields năm 2010 là Elon Lindenstrauss, Ngô Bảo Châu và [Cédric Villani]({{ site.baseurl }}/contents/vi/chapter02/02_29_Villani_Landau_Boltzmann/).)
 
 ---
 
 ## 6. Những gì vẫn còn mở
 
-Mô hình thấm cạnh tới hạn trên lưới vuông, và tính bất biến bảo giác của mô hình thấm trên các lưới phẳng tổng quát, vẫn chưa thành định lý theo nghĩa của Smirnov 2001. Với mô hình thấm đỉnh trên lưới tam giác, khi đã có tính bất biến bảo giác thì nhiều số mũ và xác suất "nhánh" (arm events) đã được tính; nhưng các phát biểu tương ứng trên các lưới khác thường vẫn là giả thuyết hoặc chỉ chuyển sang được một phần. Bước đi tự tránh (self-avoiding walk), với giới hạn thang đo được dự đoán là $$\mathrm{SLE}_{8/3}$$, là một bài toán gần gũi nổi tiếng nhưng **không** phải định lý của Smirnov. Bài về Duminil-Copin nói về tính sắc nét của chuyển pha và các kết quả trên lưới khác; các kết quả đó bổ sung, chứ không lặp lại, định lý bất biến bảo giác năm 2001.
+Sau hai thập kỷ, nhiều bài toán lớn ngay sát cạnh định lý của Smirnov vẫn đang chờ lời giải:
+- **Mô hình thấm cạnh tới hạn trên lưới vuông $$\mathbb{Z}^2$$** (và tính phổ quát cho mô hình thấm trên mọi lưới phẳng) vẫn chưa có chứng minh bất biến bảo giác.
+- **Đường đi tự tránh (Self-Avoiding Walk)** trong mặt phẳng, dự đoán có giới hạn thang đo là $$\mathrm{SLE}_{8/3}$$, vẫn là một giả thuyết mở nổi tiếng (dù Duminil-Copin và Smirnov đã tính chính xác hằng số liên thông trên lưới tổ ong năm 2012).
+- Các mô hình cụm ngẫu nhiên FK với $$q \in (1, 4)$$ nói chung (ngoài $$q = 2$$) mới đạt đến tính bất biến quay (Duminil-Copin và cộng sự), chưa đạt tính bất biến bảo giác đầy đủ.
 
 ---
 

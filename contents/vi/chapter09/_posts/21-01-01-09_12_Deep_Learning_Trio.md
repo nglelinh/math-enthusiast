@@ -9,14 +9,16 @@ categories:
 - chapter09
 ---
 
-**Yoshua Bengio**, **Geoffrey Hinton** và **Yann LeCun** cùng nhận **Giải Turing (A.M. Turing Award) năm 2018**, với lời ghi nhận như sau:
+Giữa thập niên 1990, nếu bạn nộp một bài báo về mạng nơ-ron nhiều lớp tới các hội nghị học máy hàng đầu, rất có thể nó sẽ bị từ chối thẳng thừng với lời nhận xét: *"Hàm mất mát không lồi, không có định lý hội tụ đẹp như SVM, lại quá nặng để huấn luyện!"* Giữa "mùa đông mạng nơ-ron" ấy, ba nhà khoa học **Yoshua Bengio**, **Geoffrey Hinton** và **Yann LeCun** vẫn bền bỉ giữ lửa cho một niềm tin tưởng chừng ngược dòng: thay vì con người tự thiết kế đặc trưng bằng tay, hãy xếp nhiều lớp biến đổi phi tuyến chồng lên nhau để cỗ máy **tự học biểu diễn phân tầng** từ dữ liệu thô.
+
+Thế rồi năm 2012, khi dữ liệu quy mô lớn và card đồ họa GPU bắt kịp ý tưởng của họ, mạng tích chập sâu AlexNet tạo ra cú nhảy vọt ngoạn mục trên cuộc thi ImageNet và mở màn cuộc cách mạng AI hiện đại. Năm **2018**, bộ ba cùng nhận **Giải A.M. Turing**:
 
 > “for conceptual and engineering breakthroughs that have made deep neural networks a critical component of computing.”  
 > — [ACM Turing Award](https://amturing.acm.org/)
 
-Tạm dịch: vì những đột phá về khái niệm lẫn kỹ thuật đã đưa mạng nơ-ron sâu trở thành một thành phần thiết yếu của ngành tính toán.
+(Tạm dịch: "vì những đột phá về khái niệm lẫn kỹ thuật đã đưa mạng nơ-ron sâu trở thành một thành phần thiết yếu của ngành tính toán.")
 
-Giải thưởng này không dành cho một ứng dụng trò chuyện nào. Nó dành cho ba người đã theo đuổi suốt nhiều thập niên một niềm tin: biểu diễn phân tầng, lan truyền ngược gradient, phép tích chập và học không giám sát (tự mã hóa) có thể trở thành hạ tầng tính toán, miễn là dữ liệu, GPU và kỹ thuật huấn luyện theo kịp ý tưởng. Bài này tách phần cơ chế toán học (các lớp mạng, hàm mất mát, lan truyền ngược, thiên kiến quy nạp) ra khỏi sự quảng cáo sản phẩm. Bài cũng đặt ba người này bên cạnh [toán học của AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/), [lý thuyết học máy]({{ site.baseurl }}/contents/vi/chapter06/06_10_ML_Theory/), [Valiant]({{ site.baseurl }}/contents/vi/chapter09/09_09_Valiant_Learning/) và [Pearl]({{ site.baseurl }}/contents/vi/chapter09/09_11_Pearl_Causality/).
+Bài học này gạt bỏ lớp sương mù quảng cáo quanh AI để nhìn thẳng vào **cơ chế toán học** phía dưới: hợp thành ánh xạ phi tuyến, đạo hàm ngược trên đồ thị tính toán, thiên kiến quy nạp của tích chập và cơ chế chú ý, cùng những câu hỏi lý thuyết lớn vẫn còn mở. Liên kết: [toán học của AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/), [lý thuyết học máy]({{ site.baseurl }}/contents/vi/chapter06/06_10_ML_Theory/), [Valiant]({{ site.baseurl }}/contents/vi/chapter09/09_09_Valiant_Learning/) và [Pearl]({{ site.baseurl }}/contents/vi/chapter09/09_11_Pearl_Causality/).
 
 ---
 
@@ -32,6 +34,16 @@ Sau bài này, bạn có thể:
 - phê phán những khẩu hiệu như “học sâu giải xong P vs NP” hay “học sâu thay thế khoa học”.
 
 **Kiến thức nền.** Vector và ma trận, đạo hàm, bài toán học có giám sát ở mức cơ bản. Bài [Đại số tuyến tính cho AI]({{ site.baseurl }}/contents/vi/chapter03/03_03_Linear_Algebra_AI/) sẽ giúp ích.
+
+---
+
+## Bản đồ kiến thức nền: Học sâu (Deep Learning) và Học biểu diễn là gì, nghiên cứu những gì?
+
+Khi tước bỏ ẩn dụ "bộ não nhân tạo", một mạng nơ-ron sâu dưới con mắt của người tốt nghiệp đại học thực chất là sự kết hợp của ba môn toán quen thuộc: **Đại số tuyến tính**, **Giải tích nhiều biến** và **Tối ưu hóa ngẫu nhiên**.
+
+1. **Học biểu diễn phân tầng (Representation Learning):** Thay vì viết một hàm cực phức tạp ngay từ điểm ảnh thô sang nhãn `"Con mèo"`, mạng sâu ghép nối nhiều lớp đơn giản: $$f(x) = f_L(\dots f_2(f_1(x))\dots)$$. Lớp đầu học cách phát hiện cạnh sáng–tối, lớp giữa ghép cạnh thành mắt–tai–mũi, lớp cuối ghép bộ phận thành khuôn mặt. Mỗi lớp đóng vai trò một **phép biến đổi tọa độ phi tuyến** kéo giãn không gian sao cho dữ liệu vốn đan xen phức tạp trở nên tách biệt tuyến tính ở lớp cuối.
+2. **Lan truyền ngược (Backpropagation):** Thực chất là **quy tắc đạo hàm hàm hợp (chain rule)** áp dụng có hệ thống từ cuối đồ thị tính toán ngược về đầu để tính cùng lúc đạo hàm riêng theo hàng triệu tham số mà chỉ tốn chi phí ngang một lượt tính xuôi.
+3. **Thiên kiến quy nạp (Inductive Bias) qua kiến trúc:** Hãy xem một con số cụ thể cho sự khác biệt giữa mạng kết nối đầy đủ và mạng tích chập (CNN): với một ảnh nhỏ cỡ $$28 \times 28 = 784$$ điểm ảnh, một lớp kết nối đầy đủ ra $$784$$ nút cần tới $$784 \times 784 \approx 614.656$$ trọng số! Trong khi đó, một bộ lọc tích chập $$3 \times 3$$ trượt khắp bức ảnh chỉ dùng đúng **9 trọng số** (cộng 1 hệ số lệch) — giảm gần **70.000 lần** số tham số nhờ mã hóa sẵn quy luật hình học của thế giới thực: *"một cái tai mèo ở góc trái hay góc phải bức ảnh vẫn là tai mèo"*.
 
 ---
 
@@ -51,7 +63,7 @@ $$
 h^{(\ell)}=\sigma\big(W^{(\ell)} h^{(\ell-1)}+b^{(\ell)}\big),\qquad h^{(0)}=x.
 $$
 
-Hàm $$\sigma$$ là hàm phi tuyến áp dụng lên từng tọa độ (ReLU, sigmoid theo cách dùng trong lịch sử, tanh, ...). Nếu bỏ phi tuyến, nhiều lớp tuyến tính xếp chồng chỉ còn là một ánh xạ affine duy nhất. Độ sâu làm thay đổi lớp hàm mà mạng biểu diễn được một cách hiệu quả. Mạng nông cũng xấp xỉ được mọi hàm liên tục trên tập compact (định lý xấp xỉ phổ quát), nhưng mức độ hiệu quả và quá trình tối ưu thì phụ thuộc nhiều vào độ sâu và kiến trúc.
+Hàm $$\sigma$$ là hàm phi tuyến áp dụng lên từng tọa độ (ReLU $$\max(0,z)$$, sigmoid, tanh, ...). Nếu bỏ phi tuyến, nhiều lớp tuyến tính xếp chồng chỉ còn là một ánh xạ affine duy nhất ($$W^{(2)}(W^{(1)}x) = (W^{(2)}W^{(1)})x$$). Độ sâu làm thay đổi lớp hàm mà mạng biểu diễn được một cách hiệu quả. Mạng nông cũng xấp xỉ được mọi hàm liên tục trên tập compact (định lý xấp xỉ phổ quát), nhưng mức độ hiệu quả và quá trình tối ưu thì phụ thuộc nhiều vào độ sâu và kiến trúc.
 
 ### Học là tối ưu hóa tham số
 

@@ -9,14 +9,28 @@ categories:
 - chapter06
 ---
 
-Michael Atiyah từng viết:
+Hãy tưởng tượng hai nhà thám hiểm bước vào cùng một căn phòng tối từ hai cánh cửa khác nhau và viết ra hai cuốn sổ tay bằng hai thứ tiếng hoàn toàn xa lạ. Một người đo đạc góc cạnh và đường cong hình học; người kia chỉ viết phương trình đại số. Thế nhưng khi có một "từ điển dịch thuật" đặt hai cuốn sổ cạnh nhau, mỗi bài toán hóc búa đến mức tuyệt vọng trong sổ của người thứ nhất lại hóa thành một phép tính gọn lỏn trong sổ của người thứ hai.
+
+Trong toán học và vật lý hiện đại, hiện tượng "từ điển hai thế giới" ấy không phải chuyện tình cờ hiếm gặp — nó xuất hiện ở khắp mọi nơi, đến mức Michael Atiyah từng nhận xét:
 
 > "Duality in mathematics is not a theorem, but a 'principle'."  
 > *(Đối ngẫu trong toán học là một "nguyên lý", chứ không phải một định lý.)*
 
-Từ "đối ngẫu" (duality) cũng xuất hiện trong vật lý với tầm quan trọng tương đương. Hai lý thuyết trông rất khác nhau có thể mô tả cùng một hiện tượng, và chế độ khó tính ở phía này có thể là chế độ dễ ở phía kia. Bài này là **bản đồ của nguyên lý đó**: từ không gian đối ngẫu và biến đổi Fourier, đến đối ngẫu Poincaré, nhóm đối ngẫu Langlands, đối xứng gương, đối ngẫu điện–từ và AdS/CFT. Mỗi mục được ghi rõ trạng thái: định lý, giả thuyết sâu, hay chỉ là một khẩu hiệu dùng trong seminar.
+Từ "đối ngẫu" (duality) mang tầm vóc tương đương trong vật lý: hai lý thuyết có hình hài, chiều không gian hay hằng số tương tác khác hẳn nhau lại mô tả cùng một thực tại vật lý, và chế độ tương tác mạnh khó tính ở bên này lại biến thành chế độ tương tác yếu dễ tính ở bên kia. Bài này là **bản đồ toàn cảnh của nguyên lý đối ngẫu**: từ không gian đối ngẫu và biến đổi Fourier, qua đối ngẫu Poincaré và đại số–hình học, đến nhóm đối ngẫu Langlands, đối xứng gương, đối ngẫu điện–từ và AdS/CFT. Mỗi mục đều ghi rõ trạng thái: định lý đã đóng đinh, giả thuyết sâu, hay khẩu hiệu dẫn đường trong seminar.
 
 Nên đọc sau bài [Vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/). Bài có liên kết sang [chương trình Langlands]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/), [Atiyah–Singer]({{ site.baseurl }}/contents/vi/chapter08/08_11_Atiyah_Singer_Index/), và giải tích gauge ([Uhlenbeck]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/)). Các bài đọc sâu (đối xứng gương, AdS/CFT, Langlands hình học) nằm ở sau; ở đây mục tiêu là **nhìn tất cả dưới một mái nhà** và biết đọc đúng từng loại.
+
+---
+
+## Bản đồ kiến thức nền: Nguyên lý đối ngẫu là gì và nghiên cứu những gì?
+
+Khác với giải tích hay đại số tuyến tính là một *ngành* cụ thể, **Nguyên lý Đối ngẫu** (Duality Principle) là một **kiến trúc tư duy xuyên ngành** trải khắp toán học và vật lý lý thuyết. Để một người tốt nghiệp đại học không bị choáng trước hàng chục cái tên (Pontryagin, Poincaré, Gelfand, Langlands, S/T, AdS/CFT), hãy gom chúng về **ba cấp độ tăng dần**:
+
+1. **Đối ngẫu tuyến tính và giải tích (Cấp độ công cụ):** Không gian đối ngẫu $$V^*$$ (vectơ ↔ phép đo tuyến tính), quy hoạch tuyến tính gốc–đối ngẫu (phân bổ nguồn lực ↔ đặt giá bóng), và biến đổi Fourier / Pontryagin (thời gian/vị trí ↔ tần số).
+2. **Đối ngẫu cấu trúc trong toán thuần túy (Cấp độ hình học – đại số):** Đối ngẫu Poincaré ghép các bậc đồng điều–đối đồng điều bù nhau trên đa tạp; đối ngẫu Gelfand và $$\mathrm{Spec}$$ biến *không gian hình học* thành *đại số các hàm* trên nó và ngược lại; lý thuyết Galois đảo ngược thứ tự giữa trường mở rộng và nhóm đối xứng.
+3. **Đối ngẫu giữa hai lý thuyết (Cấp độ biên giới Toán – Vật lý):** Đối xứng gương (hình học symplectic ↔ hình học phức), Chương trình Langlands (tự đẳng cấu ↔ Galois), đối ngẫu S và T trong lý thuyết trường/dây (mạnh ↔ yếu, lớn ↔ nhỏ), và AdS/CFT (hấp dẫn trong khối ↔ lý thuyết trường trên biên).
+
+Một ví dụ kinh điển giúp thấy ngay sức mạnh của đối ngẫu: năm 1941, Kramers và Wannier phát hiện mô hình từ tính Ising 2D ở **nhiệt độ cao** (dễ khai triển gần đúng) lại đối ngẫu chính xác với chính nó ở **nhiệt độ thấp**. Nếu hệ chỉ có đúng một điểm chuyển pha, thì điểm đó bắt buộc phải là **điểm tự đối ngẫu** — nhờ đó họ tính ra chính xác nhiệt độ tới hạn $$T_c$$ mà *không hề cần giải mô hình*!
 
 ---
 
@@ -64,19 +78,19 @@ $$
 V^* = \mathrm{Hom}(V,K) = \{\text{ánh xạ tuyến tính }\varphi:V\to K\}.
 $$
 
-Mỗi ánh xạ tuyến tính $$f:V\to W$$ sinh ra $$f^*:W^*\to V^*$$ bằng phép kéo lùi (pullback): **mũi tên đảo chiều**. Không gian hữu hạn chiều thỏa $$V\cong V^{**}$$ một cách chính tắc (qua phép lấy giá trị). Với không gian vô hạn chiều, ta cần thêm tôpô (đối ngẫu liên tục, không gian Banach phản xạ, không gian Hilbert qua định lý Riesz).
+Mỗi ánh xạ tuyến tính $$f:V\to W$$ sinh ra $$f^*:W^*\to V^*$$ bằng phép kéo lùi (pullback) $$(f^*\psi)(v) = \psi(f(v))$$: **mũi tên đảo chiều**. Không gian hữu hạn chiều thỏa $$V\cong V^{**}$$ một cách chính tắc (qua phép lấy giá trị). Với không gian vô hạn chiều, ta cần thêm tôpô (đối ngẫu liên tục, không gian Banach phản xạ, không gian Hilbert qua định lý Riesz).
 
 **Vì sao quan trọng.** Phép đo là đối ngẫu của trạng thái. Trong cơ học lượng tử, bra và ket là hai ngôn ngữ đối ngẫu: đại lượng quan sát đóng vai đối ngẫu với vectơ trạng thái. Đối ngẫu trong tối ưu (bài toán gốc ↔ bài toán đối ngẫu của quy hoạch tuyến tính) là họ hàng gần: mỗi biến ở phía này ứng với một ràng buộc ở phía kia, và hai giá trị tối ưu bằng nhau dưới các giả thiết chuẩn.
 
 ### Biến đổi Fourier và đối ngẫu Pontryagin
 
-Biến đổi Fourier đổi "vị trí" thành "tần số". Về mặt cấu trúc, **đối ngẫu Pontryagin** nói rằng một nhóm abel compact địa phương $$G$$ được khôi phục từ nhóm các đặc trưng
+Biến đổi Fourier đổi "vị trí" thành "tần số" — một tín hiệu rất hẹp trong thời gian (xung nhọn) sẽ trải rộng trong miền tần số, và ngược lại. Về mặt cấu trúc, **đối ngẫu Pontryagin** nói rằng một nhóm abel compact địa phương $$G$$ được khôi phục từ nhóm các đặc trưng
 
 $$
 \widehat G = \mathrm{Hom}(G,S^1)
 $$
 
-qua đẳng cấu tự nhiên $$G\cong\widehat{\widehat G}$$. Nhóm rời rạc đối ngẫu với nhóm compact và ngược lại. Đây là nền tảng cấu trúc của giải tích điều hòa cổ điển, và là khuôn mẫu cho ý "không gian ↔ hàm trên đối ngẫu".
+qua đẳng cấu tự nhiên $$G\cong\widehat{\widehat G}$$. Nhóm rời rạc đối ngẫu với nhóm compact và ngược lại (chẳng hạn vòng tròn $$S^1$$ đối ngẫu với tập số nguyên $$\mathbb{Z}$$ — đó chính là lý do hàm tuần hoàn khai triển thành chuỗi Fourier rời rạc!). Đây là nền tảng cấu trúc của giải tích điều hòa cổ điển, và là khuôn mẫu cho ý "không gian ↔ hàm trên đối ngẫu".
 
 ---
 
@@ -84,7 +98,7 @@ qua đẳng cấu tự nhiên $$G\cong\widehat{\widehat G}$$. Nhóm rời rạc 
 
 ### Đa diện đều đối ngẫu và hình học xạ ảnh
 
-Lập phương ↔ bát diện, thập nhị diện ↔ nhị thập diện, tứ diện tự đối ngẫu: **mặt của hình này là đỉnh của hình kia**. Hình học xạ ảnh đổi điểm thành đường thẳng và vẫn giữ quan hệ liên thuộc; nhờ đó nhiều định lý đi theo cặp, chứng minh một là có ngay định lý đối ngẫu.
+Lập phương (8 đỉnh, 6 mặt) ↔ bát diện đều (6 đỉnh, 8 mặt), thập nhị diện ↔ nhị thập diện, tứ diện tự đối ngẫu: **mặt của hình này là đỉnh của hình kia**, còn số cạnh giữ nguyên. Hình học xạ ảnh đổi điểm thành đường thẳng và vẫn giữ quan hệ liên thuộc ("hai điểm xác định duy nhất một đường thẳng" ↔ "hai đường thẳng cắt nhau tại duy nhất một điểm"); nhờ đó nhiều định lý đi theo cặp, chứng minh một là có ngay định lý đối ngẫu.
 
 ### Đối ngẫu Poincaré
 
@@ -104,11 +118,11 @@ $$
 
 ### Gelfand và hình học đại số
 
-**Đối ngẫu Gelfand** (ý chính): mỗi không gian Hausdorff compact tương ứng với C*-đại số giao hoán các hàm liên tục trên nó, và không gian được khôi phục như phổ các đặc trưng của đại số. **Hình học đại số** ghép vành giao hoán với lược đồ affine qua $$\mathrm{Spec}$$: đại số hàm ↔ không gian hình học. Hình học không giao hoán cố ý giữ lại phía đại số ngay cả khi không còn không gian cổ điển nào.
+**Đối ngẫu Gelfand** (ý chính): mỗi không gian Hausdorff compact tương ứng với C*-đại số giao hoán các hàm liên tục trên nó, và không gian được khôi phục như phổ các đặc trưng của đại số. **Hình học đại số** ghép vành giao hoán với lược đồ affine qua $$\mathrm{Spec}$$: đại số hàm ↔ không gian hình học (điểm của không gian ứng với iđêan cực đại của vành hàm!). Hình học không giao hoán cố ý giữ lại phía đại số ngay cả khi không còn không gian cổ điển nào.
 
 ### Galois và thứ tự
 
-Lý thuyết Galois: các trường trung gian ↔ các nhóm con đóng của nhóm Galois, với **thứ tự bị đảo ngược**. Lý thuyết thứ tự có các cặp đối ngẫu min/max, iđêan/lọc, mở/đóng (qua phần bù). Đó là những phép đối ngẫu "nhỏ", nhưng rèn cùng một phản xạ như các phép đối ngẫu lớn.
+Lý thuyết Galois: các trường trung gian ↔ các nhóm con đóng của nhóm Galois, với **thứ tự bị đảo ngược** (trường càng lớn thì nhóm đối xứng giữ cố định nó càng nhỏ). Lý thuyết thứ tự có các cặp đối ngẫu min/max, iđêan/lọc, mở/đóng (qua phần bù). Đó là những phép đối ngẫu "nhỏ", nhưng rèn cùng một phản xạ như các phép đối ngẫu lớn.
 
 ---
 
@@ -132,7 +146,7 @@ Một số phát biểu đã là định lý cho các họ đặc biệt; chươ
 
 ### Đối ngẫu điện–từ
 
-Lý thuyết Maxwell (trong chân không, với đơn vị thích hợp) đối xử đối xứng giữa điện và từ. Toán tử sao Hodge trên cường độ trường phát biểu điều này chính xác: $$F$$ và $$\star F$$. **Montonen–Olive** và các công trình sau mở rộng đối ngẫu điện–từ sang lý thuyết gauge không giao hoán: điện tích và đơn cực từ đổi vai cho nhau, thường kèm theo **mạnh ↔ yếu**. Đó là mầm mống của **đối ngẫu S**.
+Lý thuyết Maxwell (trong chân không, với đơn vị thích hợp) đối xử đối xứng giữa điện và từ: thay $$(\mathbf{E}, \mathbf{B}) \mapsto (\mathbf{B}, -\mathbf{E})$$, hệ phương trình vẫn y nguyên! Toán tử sao Hodge trên cường độ trường phát biểu điều này chính xác: $$F$$ và $$\star F$$. **Montonen–Olive** và các công trình sau mở rộng đối ngẫu điện–từ sang lý thuyết gauge không giao hoán: điện tích và đơn cực từ đổi vai cho nhau, thường kèm theo **mạnh ↔ yếu**. Đó là mầm mống của **đối ngẫu S**.
 
 ### Đối ngẫu S và đối ngẫu T (ý chính trong lý thuyết dây / lý thuyết trường lượng tử)
 

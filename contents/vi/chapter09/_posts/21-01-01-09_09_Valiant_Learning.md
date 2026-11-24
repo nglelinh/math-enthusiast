@@ -9,14 +9,16 @@ categories:
 - chapter09
 ---
 
-**Leslie G. Valiant** nhận **Giải Turing năm 2010** (A.M. Turing Award)
+Khi một đứa trẻ nhìn thấy vài chục bức ảnh về con mèo rồi tự nhận ra một con mèo hoàn toàn mới ngoài công viên, ta gọi đó là "học". Nhưng trong suốt nửa đầu thế kỷ XX, trí tuệ nhân tạo thiếu một định nghĩa toán học rõ ràng cho câu hỏi: **thế nào là một khái niệm "học được" một cách hiệu quả bằng máy tính?** Năm 1984, **Leslie G. Valiant** đã đặt viên gạch nền móng bằng mô hình **PAC** (*Probably Approximately Correct* — đúng xấp xỉ với xác suất cao), biến việc "học từ dữ liệu" thành một bài toán độ phức tạp tính toán chặt chẽ.
+
+Năm **2010**, Valiant nhận **Giải A.M. Turing** cho những đóng góp đa dạng hiếm thấy:
 
 > “for transformative contributions to the theory of computation, including the theory of probably approximately correct (PAC) learning, the complexity of enumeration and of algebraic computation, and the theory of parallel and distributed computing.”  
 > — [ACM Turing Award](https://amturing.acm.org/)
 
-(Tạm dịch: "vì những đóng góp mang tính thay đổi cho lý thuyết tính toán, gồm lý thuyết học PAC (đúng xấp xỉ với xác suất cao), độ phức tạp của bài toán đếm và của tính toán đại số, và lý thuyết tính toán song song và phân tán.")
+(Tạm dịch: "vì những đóng góp mang tính thay đổi cho lý thuyết tính toán, gồm lý thuyết học PAC, độ phức tạp của bài toán đếm và của tính toán đại số, và lý thuyết tính toán song song và phân tán.")
 
-Trước Valiant, "học máy" có thể được hiểu là một kỹ thuật thống kê hoặc một cách mô phỏng nơ-ron. Sau khi có mô hình **PAC** (*Probably Approximately Correct*, tức "đúng xấp xỉ với xác suất cao"), việc học trở thành một **bài toán tính toán** có định nghĩa chính xác: cần bao nhiêu mẫu, với lớp khái niệm nào, trong thời gian đa thức nào, và với độ tin cậy và độ xấp xỉ bao nhiêu. Cũng trong sự nghiệp đó, Valiant đưa ra lớp **#P** (đếm số nghiệm) đặt cạnh lớp NP, và nối hàm permanent với độ khó trong tính toán đại số. Bài này trình bày ba trụ cột đó, tập trung vào PAC và liên hệ với các bài [lý thuyết học máy]({{ site.baseurl }}/contents/vi/chapter06/06_10_ML_Theory/) và [toán học của AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/).
+Không chỉ đặt khung cho học máy, chính Valiant cũng khai sinh lớp **#P** (độ khó của bài toán *đếm* số nghiệm) và chứng minh hàm **permanent** — người anh em song sinh của định thức chỉ khác đúng dấu cộng/trừ — lại khó ở cấp độ #P-đầy đủ! Bài này đi qua ba trụ cột ấy và nối sang [lý thuyết học máy]({{ site.baseurl }}/contents/vi/chapter06/06_10_ML_Theory/) cùng [toán học của AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/).
 
 ---
 
@@ -25,6 +27,15 @@ Trước Valiant, "học máy" có thể được hiểu là một kỹ thuật 
 Sau bài học, bạn có thể: phát biểu định nghĩa **học được theo PAC** cho một lớp khái niệm $$\mathcal{C}$$: tồn tại một thuật toán chạy trong thời gian đa thức (theo $$n,1/\varepsilon,1/\delta$$ như thường lệ), nhận các mẫu độc lập cùng phân phối (i.i.d.) từ $$\mathcal{D}$$ và, với xác suất $$\ge 1-\delta$$, trả về một giả thuyết $$h$$ sao cho $$R(h)\le\varepsilon$$ trong trường hợp khả thực; giải thích vai trò của **$$\varepsilon$$ (độ xấp xỉ)** và **$$\delta$$ (độ tin cậy)**, ứng với hai chữ "approximately" và "probably"; nêu **chiều VC** (hoặc một đại lượng đo độ phức tạp của lớp) như một cận cho số mẫu cần thiết; nêu ý tưởng của lớp **#P** và vì sao bài toán đếm khác bài toán quyết định; mô tả sự tương phản giữa permanent và định thức như một biểu tượng của độ khó trong tính toán đại số; bác bỏ các nhận định sai "PAC đã chứng minh deep learning hoạt động" và "#P-đầy đủ nghĩa là trong thực tế không đếm được bất kỳ trường hợp nào".
 
 **Kiến thức cần có.** Xác suất cơ bản; thời gian đa thức; khái niệm lớp giả thuyết. Nên đọc kèm các bài [Độ phức tạp tính toán]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/) và [Lý thuyết học máy]({{ site.baseurl }}/contents/vi/chapter06/06_10_ML_Theory/).
+
+---
+
+## Bản đồ kiến thức nền: Lý thuyết học tính toán (PAC) và Độ phức tạp bài toán đếm (#P) là gì, nghiên cứu những gì?
+
+Hai đóng góp nổi tiếng nhất của Valiant nằm ở hai mảng tưởng như xa nhau nhưng cùng xoay quanh một câu hỏi: *đâu là ranh giới của tính toán hiệu quả?*
+
+1. **Lý thuyết học tính toán (Computational Learning Theory — COLT):** Kết hợp xác suất thống kê với lý thuyết độ phức tạp. Để thấy trực giác của mô hình **PAC**, hãy hình dung bài toán tìm một **khoảng bí mật** $$[a, b]$$ trên trục số (ví dụ khoảng nhiệt độ lý tưởng cho một phản ứng hóa học). Bạn được xem $$m$$ điểm mẫu ngẫu nhiên đã gán nhãn "Tốt" hoặc "Xấu". Thuật toán đơn giản nhất là lấy khoảng nhỏ nhất $$[\hat a, \hat b]$$ bao gọn tất cả các điểm "Tốt". Vì mẫu là ngẫu nhiên, ta không thể đòi hỏi sai số bằng $$0$$ tuyệt đối — nhỡ hai đầu mút rơi vào vùng chưa có mẫu? Nên ta chỉ yêu cầu: với xác suất ít nhất $$1-\delta$$ (*Probably*, ví dụ $$99\%$$), tổng xác suất rơi vào vùng sai lệch không vượt quá $$\varepsilon$$ (*Approximately*, ví dụ $$1\%$$). Chỉ với $$m \ge \frac{2}{\varepsilon}\ln(2/\delta)$$ mẫu, thuật toán học được khoảng bí mật trong thời gian tuyến tính!
+2. **Độ phức tạp bài toán đếm (#P) và Tính toán đại số:** Lớp NP hỏi *"Có tồn tại cách ghép cặp hoàn hảo giữa $$n$$ kỹ sư và $$n$$ dự án không?"* — bài toán này dễ, giải được trong thời gian đa thức (lớp P). Nhưng lớp **#P** hỏi *"Có **bao nhiêu** cách ghép cặp hoàn hảo như vậy?"*. Valiant chứng minh con số đó chính là **permanent** của ma trận kề $$0$$-$$1$$, và bài toán đếm này là **#P-đầy đủ** — khó hơn cả toàn bộ tầng lớp NP theo định lý Toda! Chỉ một thay đổi nhỏ — bỏ dấu $$\operatorname{sgn}(\sigma)$$ khỏi công thức định thức — đã biến một phép tính đại số tuyến tính năm nhất ($$\det$$) thành một bức tường tổ hợp khổng lồ ($$\mathrm{per}$$).
 
 ---
 
@@ -67,7 +78,7 @@ $$
 
 gần với $$R(h)$$ một cách đều theo $$h$$ khi $$m$$ lớn. Khi đó phương pháp cực tiểu rủi ro thực nghiệm (ERM, chọn $$h$$ làm $$\hat R_S$$ nhỏ nhất) cho phép học PAC về mặt thống kê, **với điều kiện** ERM tính được.
 
-**Chiều VC** $$\mathrm{VCdim}(\mathcal{H})$$ đo khả năng tách mọi cách gán nhãn (shatter) của lớp; ta có cận số mẫu dạng
+**Chiều VC** $$\mathrm{VCdim}(\mathcal{H})$$ đo khả năng tách mọi cách gán nhãn (shatter) của lớp (ví dụ: đường thẳng trên mặt phẳng 2D tách được mọi cách gán nhãn của 3 điểm không thẳng hàng nhưng không thể tách nổi 4 điểm đặt thành hình vuông với hai cặp đối diện cùng màu, nên chiều VC của nửa mặt phẳng 2D bằng đúng $$3$$); ta có cận số mẫu dạng
 
 $$
 m = O\Big(\frac{1}{\varepsilon}\big(\mathrm{VCdim}(\mathcal{H})\log(1/\varepsilon)+\log(1/\delta)\big)\Big)
@@ -77,7 +88,7 @@ $$
 
 ### Học về mặt tính toán và học về mặt thống kê
 
-Valiant nhấn mạnh điểm (2). Một lớp có thể có chiều VC hữu hạn nhưng **bài toán ERM lại NP-khó**. Khi đó "học được về mặt thống kê" không đồng nghĩa với "học được theo PAC trong thời gian đa thức". Có những kết quả về độ khó không phụ thuộc cách biểu diễn: với các giả thiết mật mã, một số lớp tự nhiên không thể học PAC một cách hiệu quả. Đây là điểm cần nhớ (mục tiêu 6) khi ai đó nói "chiều VC nhỏ thì mạng sâu an toàn": cận số mẫu có thể rất lỏng, và thuật toán lại là một chuyện khác.
+Valiant nhấn mạnh điểm (2). Một lớp có thể có chiều VC hữu hạn nhưng **bài toán ERM lại NP-khó**. Khi đó "học được về mặt thống kê" không đồng nghĩa với "học được theo PAC trong thời gian đa thức". Có những kết quả về độ khó không phụ thuộc cách biểu diễn: với các giả thiết mật mã, một số lớp tự nhiên không thể học PAC một cách hiệu quả. Đây là điểm cần tỉnh táo khi ai đó nói "chiều VC nhỏ thì mạng sâu an toàn": cận số mẫu có thể rất lỏng, và khả năng tối ưu bằng thuật toán lại là một chuyện hoàn toàn khác.
 
 ### Ví dụ về các lớp
 
@@ -103,7 +114,7 @@ $$
 \mathrm{per}(A)=\sum_{\sigma\in S_n}\prod_{i=1}^n a_{i,\sigma(i)},
 $$
 
-có cùng dạng tổng theo các hoán vị như $$\det$$ nhưng **không** có dấu đan xen. Định thức tính được trong thời gian đa thức (phép khử Gauss); permanent của ma trận 0-1 là #P-đầy đủ (Valiant). Đây là một trong những tương phản đẹp nhất của khoa học máy tính lý thuyết: hai đa thức "gần giống nhau", một cái dễ và một cái khó về độ phức tạp.
+có cùng dạng tổng theo các hoán vị như $$\det$$ nhưng **không** có dấu đan xen (ví dụ với ma trận $$2\times 2$$ là $$\begin{pmatrix}a&b\\c&d\end{pmatrix}$$, ta có $$\det = ad - bc$$ còn $$\mathrm{per} = ad + bc$$). Định thức tính được trong thời gian đa thức (phép khử Gauss nhờ tính bất biến dưới phép cộng hàng); permanent của ma trận 0-1 là #P-đầy đủ (Valiant). Đây là một trong những tương phản đẹp nhất của khoa học máy tính lý thuyết: hai đa thức "gần giống nhau", một cái dễ và một cái khó về độ phức tạp.
 
 Trong vật lý và lấy mẫu: các kết quả về xấp xỉ permanent, thuật toán xấp xỉ ngẫu nhiên thời gian đa thức (FPRAS) cho một số lớp ma trận, và độ khó của bài toán xấp xỉ làm bức tranh chi tiết hơn, đồng thời thúc đẩy các thuật toán ngẫu nhiên và xích Markov.
 

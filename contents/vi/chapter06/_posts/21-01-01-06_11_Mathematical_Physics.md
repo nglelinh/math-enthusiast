@@ -9,9 +9,22 @@ categories:
 - chapter06
 ---
 
-Vật lý đưa ra các phương trình. **Vật lý toán** hỏi tiếp: phương trình nào có nghĩa chặt chẽ, cấu trúc nào nằm bên trong, và dự đoán nào đứng vững như một định lý chứ không chỉ là phép biến đổi hình thức. Từ phương trình vi phân thường của Newton, phương trình đạo hàm riêng của Maxwell, các toán tử lượng tử trên không gian Hilbert, lý thuyết độ lệch lớn trong cơ học thống kê, đến lý thuyết trường lượng tử mới được tiên đề hóa một phần, đây là một cuộc trao đổi lâu dài giữa trực giác vật lý và chứng minh toán học.
+Mỗi ngày, hàng trăm nghìn kỹ sư hàng không và khí tượng vẫn chạy mô phỏng phương trình Navier–Stokes trên siêu máy tính để thiết kế cánh máy bay và dự báo bão. Phương trình chạy êm ru, dự đoán cực kỳ chính xác. Thế nhưng Viện Toán học Clay vẫn đang treo giải thưởng **một triệu đô-la** chỉ để trả lời một câu hỏi tưởng chừng ngớ ngẩn: *liệu phương trình Navier–Stokes 3 chiều có luôn có nghiệm trơn toàn cục hay không, hay một dòng nước bình thường bỗng dưng có thể "nổ" thành vận tốc vô hạn trong thời gian hữu hạn?*
 
-Bài này là bản đồ để bạn đọc tiếp các chủ đề: môi trường liên tục cổ điển, ngôn ngữ toán tử của cơ học lượng tử, xác suất trong cơ học thống kê, hình học và lý thuyết gauge, các bài toán mở (kể cả bài toán Clay). Mỗi chủ đề được ghi rõ: đã chứng minh, chuẩn mực của vật lý, hay mới là mục tiêu.
+Câu chuyện đó gói gọn bản chất của **Vật lý Toán học** (Mathematical Physics). Vật lý lý thuyết giỏi viết ra những phương trình tiên tri và tính ra con số khớp thực nghiệm tới mười chữ số thập phân; còn vật lý toán dừng lại, soi kỹ bản nhạc ấy và hỏi: *phương trình này có nghĩa chặt chẽ không, cấu trúc hình học hay giải tích nào ẩn bên dưới, và dự đoán nào đứng vững như một định lý thực thụ chứ không chỉ là phép biến đổi hình thức?* Từ phương trình chuyển động của Newton, trường điện từ của Maxwell, toán tử lượng tử trên không gian Hilbert, chuyển pha trong cơ học thống kê, cho tới lý thuyết gauge và lý thuyết trường lượng tử, đây là cuộc đối thoại kéo dài nhiều thế kỷ nơi trực giác vật lý liên tục sinh ra những chương toán thuần túy mới — và ngược lại.
+
+Bài này vẽ bản đồ những lãnh địa chính của vật lý toán học: môi trường liên tục và dạng vi phân, cơ học lượng tử bằng toán tử, xác suất trong cơ học thống kê, hình học của lý thuyết gauge và các bài toán mở lớn — luôn ghi rõ đâu là định lý đã chứng minh, đâu là chuẩn mực tính toán của vật lý và đâu vẫn là đích đến.
+
+---
+
+## Bản đồ kiến thức nền: Vật lý toán học là gì và nghiên cứu những gì?
+
+Nhiều người hay nhầm **Vật lý Toán học** với "vật lý lý thuyết nhiều công thức" hay "toán ứng dụng giải PDE". Thực chất, Vật lý Toán học là **toán học thuần túy lấy nguồn cảm hứng và đối tượng trực tiếp từ vật lý**, tuân theo tiêu chuẩn chứng minh chặt chẽ của toán học. Bốn trụ cột lớn của ngành gồm:
+
+1. **Giải tích & Phương trình đạo hàm riêng (PDE — Môi trường liên tục):** Nghiên cứu tính đặt chỉnh (tồn tại, duy nhất, tính trơn, kỳ dị) của các phương trình mô tả chất lỏng (Euler, Navier–Stokes), sóng, điện từ (Maxwell) và hấp dẫn (Einstein).
+2. **Giải tích hàm & Lý thuyết toán tử (Cơ học lượng tử):** Đưa đại lượng quan sát và năng lượng của hệ lượng tử vô hạn chiều vào khung không gian Hilbert, toán tử tự liên hợp và định lý phổ, xử lý cẩn thận miền xác định và sự ổn định của vật chất.
+3. **Xác suất & Cơ học thống kê:** Giải thích làm sao những định luật vĩ mô sắc nét (như nước đóng băng đúng ở $$0^\circ\mathrm{C}$$) lại nảy sinh từ chuyển động ngẫu nhiên của $$10^{23}$$ phân tử vi mô thông qua hàm phân hoạch, chuyển pha và giới hạn nhiệt động.
+4. **Hình học vi phân & Tôpô (Lý thuyết Gauge & Trường lượng tử):** Phát hiện rằng các lực cơ bản trong tự nhiên (điện từ, tương tác yếu và mạnh) chính là *liên thông* và *độ cong* trên các phân thớ hình học — một cây cầu kỳ diệu đã sinh ra cả những bất biến mới cho đa tạp 4 chiều (Donaldson, Seiberg–Witten).
 
 ---
 
@@ -98,9 +111,9 @@ $$
 
 ## 3. Cơ học lượng tử như một lý thuyết toán tử
 
-Trạng thái là vectơ đơn vị (hoặc toán tử mật độ) trên không gian Hilbert $$\mathcal{H}$$. Đại lượng quan sát là toán tử tự liên hợp. Động lực học là nhóm unita $$e^{-itH/\hbar}$$ sinh bởi Hamiltonian $$H$$ (định lý Stone nối nhóm unita liên tục mạnh với toán tử sinh tự liên hợp). **Định lý phổ** giải thích vì sao "kết quả đo là trị riêng" với các toán tử đủ tốt.
+Trạng thái là vectơ đơn vị (hoặc toán tử mật độ) trên không gian Hilbert $$\mathcal{H}$$. Đại lượng quan sát là toán tử tự liên hợp. Động lực học là nhóm unita $$e^{-itH/\hbar}$$ sinh bởi Hamiltonian $$H$$ (định lý Stone nối nhóm unita liên tục mạnh với toán tử sinh tự liên hợp). **Định lý phổ** giải thích vì sao "kết quả đo là trị riêng" với các toán tử đủ tốt — đồng thời xử lý cả phổ liên tục (như hạt chuyển động tự do không có hàm riêng bình phương khả tích!).
 
-Cơ học lượng tử chặt chẽ phải xử lý miền xác định của toán tử không bị chặn, tính tự liên hợp cốt yếu, lý thuyết tán xạ, và sự ổn định của vật chất (vì sao vật chất không sụp đổ). Phần giải tích rất sâu, nhưng đem lại hiểu biết vật lý thật. Tích phân đường là công cụ heuristic rất mạnh của vật lý; làm chặt bằng lý thuyết độ đo thì tinh tế (thời gian ảo: độ đo Wiener; thời gian thực kiểu Feynman: khó hơn nhiều).
+Cơ học lượng tử chặt chẽ phải xử lý miền xác định của toán tử không bị chặn (chẳng hạn toán tử động lượng $$-i\hbar\frac{d}{dx}$$ trên đoạn $$[0,1]$$ có thể cho ra vật lý hoàn toàn khác nhau tùy điều kiện biên bạn đặt ở hai đầu!), tính tự liên hợp cốt yếu, lý thuyết tán xạ, và sự ổn định của vật chất (vì sao nguyên tử không sụp đổ thành hố năng lượng $$-\infty$$). Phần giải tích rất sâu, nhưng đem lại hiểu biết vật lý thật. Tích phân đường là công cụ heuristic rất mạnh của vật lý; làm chặt bằng lý thuyết độ đo thì tinh tế (thời gian ảo: độ đo Wiener; thời gian thực kiểu Feynman: khó hơn nhiều).
 
 Liên hệ với [Thông tin lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/): không gian Hilbert hữu hạn chiều và vướng víu là mặt thông tin của cùng một thế giới tuyến tính.
 
@@ -114,7 +127,7 @@ $$
 Z=\sum_{\text{states}} e^{-\beta E(s)},
 $$
 
-cho phép mô tả chuyển pha như chỗ năng lượng tự do mất tính giải tích trong giới hạn nhiệt động, và mô tả sự suy giảm tương quan. Mô hình Ising và mô hình thấm (percolation) là nơi người ta chứng minh được chuyển pha và (trong 2 chiều) tính bất biến bảo giác, với nhiều định lý lớn.
+cho phép mô tả chuyển pha như chỗ năng lượng tự do mất tính giải tích trong giới hạn nhiệt động, và mô tả sự suy giảm tương quan. Một điểm cực kỳ tinh tế về toán: trên một mạng hữu hạn $$N$$ nguyên tử, $$Z$$ chỉ là tổng hữu hạn các hàm mũ $$e^{-\beta E(s)}$$ nên nó *luôn giải tích và trơn vô hạn* — nghĩa là về mặt toán học chặt chẽ, **không bao giờ có chuyển pha sắc nét trong hệ hữu hạn**! Chỉ khi lấy giới hạn nhiệt động $$N \to \infty$$, các điểm không phức của $$Z$$ mới ép sát vào trục thực và tạo nên điểm gãy sắc nét của chuyển pha. Mô hình Ising và mô hình thấm (percolation) là nơi người ta chứng minh được chuyển pha và (trong 2 chiều) tính bất biến bảo giác, với nhiều định lý lớn.
 
 Vật lý ngoài cân bằng (sinh entropy, định lý thăng giáng, giới hạn thủy động lực) kém hoàn thiện hơn và đang được nghiên cứu sôi nổi. Lý thuyết độ lệch lớn (Cramér, Donsker–Varadhan) cho biết xác suất của sự kiện hiếm giảm theo hàm mũ.
 
@@ -122,7 +135,7 @@ Vật lý ngoài cân bằng (sinh entropy, định lý thăng giáng, giới h�
 
 ## 5. Hình học, tôpô và lý thuyết gauge
 
-Lý thuyết gauge cổ điển: trường gauge là **liên thông** trên một phân thớ chính; cường độ trường là độ cong; trường vật chất là lát cắt của phân thớ liên kết. Lý thuyết Chern–Weil: lớp đặc trưng ↔ các dạng độ cong. Tôpô ràng buộc vật lý (đơn cực từ, số instanton).
+Lý thuyết gauge cổ điển: trường gauge là **liên thông** trên một phân thớ chính; cường độ trường là độ cong; trường vật chất là lát cắt của phân thớ liên kết. Để có trực giác hình học, hãy nghĩ tới việc bạn cầm một mũi tên đi dọc một tam giác trên mặt Trái Đất (từ Bắc Cực xuống Xích Đạo, đi dọc Xích Đạo $$90^\circ$$ rồi quay lại Bắc Cực) mà luôn giữ mũi tên "song song với chính nó": khi về tới nơi, mũi tên đã tự xoay đi $$90^\circ$$ vì mặt cầu có độ cong! Trong lý thuyết gauge, pha lượng tử của hạt đi qua vùng có từ trường cũng bị xoay một góc y hệt như vậy (hiệu ứng Aharonov–Bohm): **từ trường chính là độ cong của không gian pha nội tại**. Lý thuyết Chern–Weil nối lớp đặc trưng với các dạng độ cong; tôpô ràng buộc vật lý (đơn cực từ, số instanton).
 
 Donaldson và Seiberg–Witten: phương trình gauge cho ta thông tin về cấu trúc trơn của đa tạp 4 chiều. Toán học được vật lý gợi ý, rồi đem lại những bất biến mới. Lý thuyết dây và đối xứng gương: một mạng giả thuyết rộng nối hình học đại số với các bất biến đếm; một phần đã là định lý, phần lớn vẫn là chương trình nghiên cứu.
 

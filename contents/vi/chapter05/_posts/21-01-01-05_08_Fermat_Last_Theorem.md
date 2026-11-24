@@ -9,17 +9,19 @@ categories:
 - chapter05
 ---
 
-**Định lý lớn Fermat (FLT)** khẳng định: với mọi số nguyên $$n\ge 3$$, không có số nguyên dương $$a,b,c$$ nào thỏa
+Khoảng năm 1637, bên lề cuốn sách *Arithmetica* của Diophantus, vị thẩm phán kiêm nhà toán học người Pháp **Pierre de Fermat** nguệch ngoạc một dòng ghi chú ngắn ngủi đã trở thành lời thách thức nổi tiếng nhất lịch sử toán học: với mọi số nguyên $$n \ge 3$$, phương trình
 
 $$
-a^n + b^n = c^n.
+a^n + b^n = c^n
 $$
 
-Pierre de Fermat tuyên bố trong một ghi chú nổi tiếng ở lề sách rằng ông có chứng minh; không còn chứng minh nào của ông được lưu lại. Suốt ba thế kỷ, mệnh đề này thu hút vô số kết quả bộ phận, những nỗ lực thất bại, và nhiều ngành toán mới. Chứng minh hiện đại hoàn tất vào những năm 1990 bởi **Andrew Wiles**, với phần sửa chữa then chốt cùng **Richard Taylor**, và không còn nằm trong lý thuyết số sơ cấp. **Ý tưởng** của nó là một chiếc cầu nối các lĩnh vực:
+không có nghiệm nguyên dương $$a, b, c$$ nào — và ông viết thêm: *"Tôi đã tìm ra một chứng minh thực sự kỳ diệu cho mệnh đề này, nhưng lề sách quá hẹp để viết vào."*
+
+Dòng ghi chú bên lề ấy đã ám ảnh nhân loại suốt **358 năm**. Hàng nghìn lời giải sai đổ về các viện hàn lâm; những bộ óc vĩ đại như Euler, Sophie Germain, Kummer khai sinh cả những ngành đại số mới chỉ để chinh phục từng phần nhỏ của nó. Mãi đến thập niên 1990, sau bảy năm làm việc bí mật trên căn gác mái ở Princeton, **Andrew Wiles** (cùng phần sửa chữa bước ngoặt với **Richard Taylor**) mới khép lại câu chuyện. Nhưng điều làm giới toán học kinh ngạc nhất không phải độ dài của bản chứng minh, mà là **chiếc cầu nối xuyên lục địa** giữa hai thế giới tưởng chừng không liên quan gì đến nhau:
 
 **Phương trình Diophantine → đường cong elliptic Frey → tính modular → mâu thuẫn.**
 
-Bài này dựng lại chiếc cầu đó ở mức đủ để kể được chiến lược, gọi đúng tên các định lý chính, và biết "tính modular của đường cong elliptic" dùng để làm gì. Ta không giả vờ tái hiện toàn bộ lập luận về vành biến dạng.
+Bài này dựng lại chiếc cầu đó ở mức đủ để bạn kể rành mạch chiến lược chứng minh, gọi đúng tên các định lý trụ cột, và hiểu "tính modular của đường cong elliptic" thực sự đóng vai trò gì — mà không bị sa lầy vào hàng trăm trang đại số về vành biến dạng.
 
 ---
 
@@ -38,17 +40,36 @@ Sau bài này, bạn có thể:
 
 ---
 
-## 1. Phát biểu, những nhận xét hiển nhiên, và các thắng lợi ban đầu
+## Bản đồ kiến thức nền: Lý thuyết số đại số, đường cong elliptic và Chương trình Langlands là gì?
 
-Nếu $$n=1$$, phương trình $$a+b=c$$ có rất nhiều nghiệm nguyên dương. Nếu $$n=2$$, có vô số bộ ba Pythagore ($$3^2+4^2=5^2$$). FLT bắt đầu từ số mũ 3.
+Vì sao một phương trình lớp 6 lại phải huy động đến toán học đỉnh cao cuối thế kỷ XX? Hãy nhìn lên bản đồ bốn khái niệm nền tảng giúp người tốt nghiệp đại học hiểu "vũ trụ" phía sau chứng minh của Wiles:
 
-Người ta nhanh chóng quy bài toán về số mũ nguyên tố và một vài trường hợp đặc biệt: một phản ví dụ với $$n$$ hợp số sẽ cho một phản ví dụ với một ước của $$n$$, nên chỉ cần loại trừ các số mũ nguyên tố và $$n=4$$. Chính Fermat chứng minh trường hợp $$n=4$$ bằng phép xuống thang vô hạn. Euler và những người sau đó xử lý $$n=3$$ và các số nguyên tố nhỏ với kỹ thuật ngày càng tinh vi. Công trình của Kummer về các số nguyên tố chính quy và các trường chia đường tròn đã loại trừ những họ vô hạn số mũ, và đồng thời khai sinh lý thuyết số đại số. Tuy vậy, một chứng minh chung cho mọi $$n$$ vẫn còn bỏ ngỏ.
+- **Phương trình Diophantine & Lý thuyết số đại số:** Phương trình nghiệm nguyên gọi là phương trình Diophantine. Vào thế kỷ XIX, các nhà toán học thử tách $$a^p + b^p$$ thành nhân tử bằng cách mở rộng số nguyên sang các vành số phức (như $$\mathbb{Z}[\zeta_p]$$). Thế nhưng họ đụng phải cú sốc lớn: trong nhiều vành mở rộng, **phân tích thừa số nguyên tố không còn duy nhất**! Ví dụ trong $$\mathbb{Z}[\sqrt{-5}]$$, số $$6$$ có hai cách phân tích khác hẳn nhau: $$6 = 2 \cdot 3 = (1 + \sqrt{-5})(1 - \sqrt{-5})$$. Nỗ lực khắc phục sự đổ vỡ đó của Ernst Kummer đã khai sinh **Lý thuyết số đại số** (với khái niệm *ideal*), nhưng vẫn không quét sạch được mọi số mũ $$n$$.
+- **Đường cong elliptic (Elliptic Curve):** Không phải hình elip! Đó là nghiệm của phương trình bậc ba trơn $$y^2 = x^3 + Ax + B$$. Điều kỳ diệu là tập các điểm trên đường cong này có một **phép cộng hình học** biến chúng thành một nhóm giao hoán — và ta có thể đếm số nghiệm của nó theo modulo từng số nguyên tố $$p = 2, 3, 5, 7, \ldots$$ để lập thành "dấu vân tay số học" ($$L$$-hàm) của đường cong.
+- **Dạng modular (Modular Form):** Sống ở một lục địa hoàn toàn khác — **giải tích phức**. Đó là những hàm số phức cực kỳ đối xứng trên nửa mặt phẳng trên, tuân theo vô số phép biến đổi đối xứng giống như các bức tranh lát gạch vô hạn của M. C. Escher. Mỗi dạng modular cũng có chuỗi hệ số Fourier — tức một "dấu vân tay giải tích".
+- **Định lý Modular & Chương trình Langlands:** Giả thuyết Taniyama–Shimura–Weil (nay là Định lý Modular) khẳng định một điều gần như thần thoại: *mọi đường cong elliptic trên $$\mathbb{Q}$$ đều có dấu vân tay trùng khớp hoàn toàn với một dạng modular!* Đây là một mũi nhọn rực rỡ của **Chương trình Langlands** — "phiến đá Rosetta" vĩ đại kết nối lý thuyết số, đại số và giải tích hiện đại.
+
+---
+
+## 1. Từ chiếc ê-ke thợ mộc đến bức tường tuyệt đối ở bậc 3
+
+Trong đời thường, bất kỳ người thợ mộc nào cũng biết bộ ba Pythagore $$3^2 + 4^2 = 5^2$$ (cùng vô hạn bộ khác như $$5^2 + 12^2 = 13^2$$ hay $$8^2 + 15^2 = 17^2$$) để dựng góc vuông chuẩn xác. Thậm chí ở bậc cao hơn, tồn tại những bộ số "suýt đúng" kỳ lạ đến mức từng đánh lừa cả máy tính bỏ túi thông thường — nổi tiếng nhất là trò đùa toán học trong phim *The Simpsons*:
+
+$$
+1782^{12} + 1841^{12} \;\approx\; 1922^{12}
+$$
+
+(Nếu bấm máy tính 10 chữ số, hai vế hiện ra giống hệt nhau; nhưng thực chất chỉ cần kiểm tra tính chẵn lẻ là thấy ngay nó sai: vế trái là chẵn $$+$$ lẻ $$=$$ **lẻ**, còn vế phải là **chẵn**!).
+
+Đó chính là nghịch lý quyến rũ của Định lý lớn Fermat: với $$n = 1$$ ($$a + b = c$$) và $$n = 2$$ ($$a^2 + b^2 = c^2$$), nghiệm nguyên dương nhiều vô kể; nhưng chỉ cần nhích số mũ từ $$2$$ lên $$3$$ — và mọi $$n \ge 3$$ sau đó — thì cánh cửa đóng sập hoàn toàn, không còn lấy một nghiệm nguyên dương nào.
+
+Người ta nhanh chóng quy bài toán về số mũ nguyên tố và một vài trường hợp đặc biệt: một phản ví dụ với $$n$$ hợp số sẽ cho một phản ví dụ với một ước của $$n$$ (ví dụ nếu $$a^6 + b^6 = c^6$$ thì $$(a^2)^3 + (b^2)^3 = (c^2)^3$$), nên chỉ cần loại trừ các số mũ nguyên tố lẻ và $$n=4$$. Chính Fermat chứng minh trường hợp $$n=4$$ bằng phép xuống thang vô hạn. Euler và những người sau đó xử lý $$n=3$$ và các số nguyên tố nhỏ với kỹ thuật ngày càng tinh vi. Công trình của Kummer về các số nguyên tố chính quy và các trường chia đường tròn đã loại trừ những họ vô hạn số mũ, và đồng thời khai sinh lý thuyết số đại số. Tuy vậy, một chứng minh chung cho mọi $$n$$ vẫn còn bỏ ngỏ.
 
 ---
 
 ## 2. Thế kỷ phương pháp sơ cấp không làm được gì
 
-Phương trình thì đơn giản, nhưng việc chứng minh tập nghiệm rỗng thì không. Phép xuống thang trực tiếp chạy được với một số số mũ đặc biệt nhờ các hằng đẳng thức phân tích hoặc nhờ vành có phân tích duy nhất ra nhân tử (UFD). Với $$n$$ tổng quát, các vành mà người ta muốn phân tích không nhất thiết là UFD. Lý thuyết ideal của Kummer sửa được một phần, nhưng các số nguyên tố không chính quy chặn đường. Sang thế kỷ XX, FLT không còn là câu đố giải trí nữa mà là một **thước đo**: phương pháp nào đủ mạnh để xử lý mọi số mũ có lẽ sẽ sắp xếp lại phần lớn lý thuyết số.
+Phương trình thì đơn giản, nhưng việc chứng minh tập nghiệm rỗng thì không. Phép xuống thang trực tiếp chạy được với một số số mũ đặc biệt nhờ các hằng đẳng thức phân tích hoặc nhờ vành có phân tích duy nhất ra nhân tử (UFD). Với $$n$$ tổng quát, các vành mà người ta muốn phân tích không nhất thiết là UFD. Lý thuyết ideal của Kummer sửa được một phần, nhưng các số nguyên tố không chính quy chặn đường (chẳng hạn ngay tại $$p = 37$$!). Sang thế kỷ XX, FLT không còn là câu đố giải trí nữa mà là một **thước đo**: phương pháp nào đủ mạnh để xử lý mọi số mũ có lẽ sẽ sắp xếp lại phần lớn lý thuyết số.
 
 ---
 
@@ -60,19 +81,19 @@ $$
 y^2 = x^3 + Ax + B
 $$
 
-(với biệt thức khác không), cùng với một luật nhóm trên các điểm của nó. Các nhà lý thuyết số nghiên cứu điểm hữu tỉ, phép rút gọn theo modulo một số nguyên tố, và các bất biến số học như **conductor**. Đường cong elliptic là đối tượng trung tâm; FLT chỉ trở thành định lý về chúng sau phép dựng của Frey.
+(với biệt thức khác không), cùng với một luật nhóm trên các điểm của nó. Các nhà lý thuyết số nghiên cứu điểm hữu tỉ, phép rút gọn theo modulo một số nguyên tố, và các bất biến số học như **conductor** (đo mức độ "phức tạp" hay "suy biến" của đường cong tại các số nguyên tố). Đường cong elliptic là đối tượng trung tâm; FLT chỉ trở thành định lý về chúng sau phép dựng của Frey.
 
 ---
 
-## 4. Đường cong Frey: biến phản ví dụ thành một đường cong
+## 4. Đường cong Frey: biến phản ví dụ thành một "con quái vật"
 
-Giả sử có một nghiệm không tầm thường $$a^n+b^n=c^n$$ với $$n\ge 3$$ ($$a,b,c$$ nguyên tố cùng nhau, với quy ước chẵn lẻ thích hợp). **Gerhard Frey** gắn với nó một đường cong về cơ bản có dạng
+Giả sử có một nghiệm không tầm thường $$a^n+b^n=c^n$$ với $$n\ge 5$$ nguyên tố ($$a,b,c$$ nguyên tố cùng nhau, với quy ước chẵn lẻ thích hợp). Năm 1984, **Gerhard Frey** (nối tiếp ý tưởng của Yves Hellegouarch) gắn với nghiệm giả định ấy một đường cong elliptic có dạng
 
 $$
 y^2 = x(x-a^n)(x+b^n)
 $$
 
-(cách chuẩn hóa chính xác khác nhau tùy tài liệu). **Đường cong Frey** này là đường cong elliptic trên $$\mathbb{Q}$$ với tính chất khác thường: biệt thức và conductor của nó bị $$a,b,c$$ kiểm soát chặt, và hành vi khi rút gọn của nó sẽ không tương thích với bất kỳ dạng modular nào lẽ ra phải ứng với nó, **nếu** ta tin vào sự tương ứng sâu sắc giữa đường cong elliptic và dạng modular.
+(cách chuẩn hóa chính xác khác nhau tùy tài liệu). **Đường cong Frey** này có biệt thức tối giản tỉ lệ với $$(abc)^{2n}$$ — một lũy thừa bậc $$2n$$ khổng lồ so với conductor của nó! Trong thế giới các đường cong elliptic, nó giống như một **sinh vật đột biến quá kỳ dị**: hành vi khi rút gọn modulo các số nguyên tố của nó không tương thích với bất kỳ dạng modular nào lẽ ra phải ứng với nó, **nếu** ta tin vào sự tương ứng sâu sắc giữa đường cong elliptic và dạng modular.
 
 Nói gọn: một phản ví dụ của FLT sẽ sinh ra một đường cong elliptic đặc biệt đến mức không thể tồn tại trong thế giới modular.
 
@@ -80,23 +101,23 @@ Nói gọn: một phản ví dụ của FLT sẽ sinh ra một đường cong el
 
 ## 5. Tính modular: ý tưởng Taniyama–Shimura–Weil
 
-**Giả thuyết modular** (nay là định lý, đầu tiên trong các trường hợp cần thiết, rồi tổng quát nhờ các công trình sau đó) nói rằng mọi đường cong elliptic trên $$\mathbb{Q}$$ đều **modular**: nó ứng với một dạng modular (đối tượng giải tích có tính đối xứng cao trên nửa mặt phẳng trên) có $$L$$-hàm trùng với $$L$$-hàm của đường cong.
+**Giả thuyết modular** (nay là định lý, đầu tiên trong các trường hợp cần thiết, rồi tổng quát nhờ các công trình sau đó của Breuil–Conrad–Diamond–Taylor) nói rằng mọi đường cong elliptic trên $$\mathbb{Q}$$ đều **modular**: nó ứng với một dạng modular có $$L$$-hàm trùng với $$L$$-hàm của đường cong.
 
-Wiles chứng minh tính modular cho một lớp quan trọng (các đường cong semistable trên $$\mathbb{Q}$$), đúng lớp cần cho đường cong Frey sinh ra từ một phản ví dụ của FLT. Phương pháp Taylor–Wiles đưa vào một kỹ thuật mạnh của lý thuyết biến dạng các biểu diễn Galois, nay là công cụ cơ bản của lý thuyết số hiện đại, vượt xa phạm vi FLT.
+Wiles chứng minh tính modular cho một lớp quan trọng (các đường cong **semistable** trên $$\mathbb{Q}$$), đúng lớp chứa đường cong Frey sinh ra từ một phản ví dụ của FLT. Phương pháp Taylor–Wiles đưa vào một kỹ thuật mạnh của lý thuyết biến dạng các biểu diễn Galois, nay là công cụ cơ bản của lý thuyết số hiện đại, vượt xa phạm vi FLT.
 
 ---
 
 ## 6. Định lý Ribet: đóng cái bẫy
 
-Khi đã có tính modular, ta cần biết đường cong Frey sẽ ứng với dạng modular nào, và dạng đó có tính chất về level không thể xảy ra. **Ken Ribet** chứng minh giả thuyết ε của Serre trong các trường hợp liên quan: nếu đường cong Frey là modular thì sau khi hạ level, ta được một dạng cusp trọng số 2 ở level 2. Nhưng không có dạng cusp khác không nào như vậy. Do đó đường cong Frey modular không thể tồn tại.
+Khi đã có tính modular, ta cần biết đường cong Frey sẽ ứng với dạng modular nào, và dạng đó có tính chất về *level* (mức đối xứng) không thể xảy ra. Năm 1986, **Ken Ribet** chứng minh giả thuyết $$\varepsilon$$ của Jean-Pierre Serre trong các trường hợp liên quan: nếu đường cong Frey là modular thì nhờ tính chất "lũy thừa bậc $$n$$" kỳ dị của biệt thức, ta có thể **hạ level** liên tục xuống còn một dạng cusp trọng số 2 ở **level 2**. Nhưng không gian các dạng cusp trọng số 2 ở level 2 có số chiều bằng **0** — tức là **không có dạng cusp khác không nào như vậy tồn tại**!
 
-Chuỗi logic:
+Chiếc gọng kìm logic khép chặt không lối thoát:
 
 1. Giả sử có $$a^n+b^n=c^n$$ không tầm thường.
-2. Dựng đường cong Frey $$E$$.
-3. Theo Wiles–Taylor, $$E$$ là modular.
-4. Theo Ribet, việc $$E$$ modular là không thể.
-5. Mâu thuẫn: không tồn tại $$a,b,c$$ như vậy.
+2. Dựng đường cong Frey $$E$$ (semistable).
+3. Theo **Wiles–Taylor**, mọi đường cong elliptic semistable đều modular $$\implies E$$ **phải là modular**.
+4. Theo **Ribet**, đường cong Frey $$E$$ **không thể là modular** (vì kéo theo tồn tại dạng cusp trọng số 2, level 2 khác không).
+5. Mâu thuẫn tuyệt đối: không tồn tại bộ số $$a,b,c$$ nào như vậy!
 
 Frey cung cấp đối tượng làm cầu nối; Serre đặt khung cho ràng buộc modular; Ribet chứng minh phép hạ level; Wiles (cùng Taylor) chứng minh đủ phần tính modular. "Định lý lớn" thực chất là một định lý về số học của đường cong elliptic và biểu diễn Galois.
 

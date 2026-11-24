@@ -9,16 +9,16 @@ categories:
 - chapter02
 ---
 
-**Alessio Figalli** nhận **Huy chương Fields 2018**
+Năm 1781, kỹ sư quân sự Pháp **Gaspard Monge** đứng trước một bài toán hết sức trần tục: làm thế nào để xúc một đống đất lớn và đổ đầy một công sự gần đó sao cho tổng công vận chuyển là nhỏ nhất? Hơn hai thế kỷ sau, bài toán xúc đất tưởng chừng tầm thường ấy đã lớn lên thành một trong những ngôn ngữ thống nhất mạnh mẽ nhất của toán học hiện đại — **lý thuyết vận chuyển tối ưu** (*optimal transport*, OT) — kết nối từ hình dạng tinh thể, chuyển động của các front khí quyển, đến hình học của không gian cong và học máy.
+
+Nhưng giữa việc biết "tồn tại một cách vận chuyển tối ưu" và việc thực sự *dùng* được ánh xạ vận chuyển đó trong phương trình đạo hàm riêng hay hình học lại có một vực thẳm: liệu ánh xạ vận chuyển có **trơn** không, hay nó xé rách đống đất thành từng mảng gãy khúc? Năm 2018, **Alessio Figalli** nhận **Huy chương Fields**
 
 > “for contributions to the theory of optimal transport and its applications in partial differential equations, metric geometry and probability.”
 > — [IMU, Fields Medals 2018](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2018)
 
 *Tạm dịch:* Cho các đóng góp vào lý thuyết vận chuyển tối ưu và các ứng dụng của nó trong phương trình đạo hàm riêng, hình học metric và xác suất.
 
-Lời trích dẫn này ghi nhận đóng góp trong một **chương trình nghiên cứu**, không nói rằng một người đã tạo ra cả một lĩnh vực. **Vận chuyển tối ưu (optimal transport, OT)** có từ trước Figalli rất lâu. Monge đặt bài toán tìm ánh xạ vận chuyển năm 1781. Kantorovich phát biểu lại nó thành một bài toán quy hoạch tuyến tính trên các phép ghép (coupling). Brenier chứng minh rằng với chi phí bình phương, ánh xạ tối ưu là gradient của một hàm thế lồi. Caffarelli xây dựng lý thuyết chính quy sâu sắc đầu tiên cho các hàm thế đó. Ambrosio, Villani và nhiều người khác biến OT thành một ngôn ngữ chung cho PDE, hình học metric và xác suất. Huy chương của Figalli ghi nhận những gì ông làm *bên trong* ngôn ngữ đó: ông phát triển lý thuyết về tính chính quy, tính ổn định và biên tự do (free boundary) của các ánh xạ vận chuyển đủ mạnh để áp dụng vào các bất đẳng thức hình học, mô hình khí quyển và giải tích định lượng.
-
-Bài này dành cho người đã đọc phần giới thiệu Monge–Kantorovich trong bài [Vận chuyển tối ưu]({{ site.baseurl }}/contents/vi/chapter06/06_09_Optimal_Transport/) và muốn tìm hiểu phần **tính chính quy** mà bài đó chỉ nhắc qua. Bài **không** coi Figalli là người sáng lập OT, và **không** nhầm Huy chương Fields 2018 của ông với huy chương năm 2010 của Villani. Công trình về phương trình động học của Villani được trình bày ở bài [Villani / Landau–Boltzmann]({{ site.baseurl }}/contents/vi/chapter02/02_29_Villani_Landau_Boltzmann/).
+Hãy đặt ngay một cột mốc trung thực: **Figalli không phát minh ra vận chuyển tối ưu.** Monge đặt bài toán, Kantorovich nới lỏng nó bằng quy hoạch tuyến tính, Brenier nối nó với hàm lồi, Caffarelli đặt nền móng đầu tiên cho lý thuyết chính quy, còn Ambrosio và Villani biến nó thành ngôn ngữ chung. Đóng góp mang tầm Fields của Figalli nằm ở phần lõi khó nhất bên trong ngôn ngữ đó: ông cùng các cộng sự (đặc biệt là Guido De Philippis) đã bóc tách **tính chính quy từng phần**, **tính ổn định định lượng** và cấu trúc **tập kỳ dị** của ánh xạ vận chuyển tối ưu khi các giả thiết hình học đẹp đẽ bị gỡ bỏ — biến lý thuyết chính quy thành cây cầu vững chắc sang bất đẳng thức hình học, khí tượng học và xác suất. Bài học này tiếp nối phần giới thiệu Monge–Kantorovich trong [Vận chuyển tối ưu]({{ site.baseurl }}/contents/vi/chapter06/06_09_Optimal_Transport/), đồng thời tách bạch Huy chương Fields 2018 của Figalli với huy chương năm 2010 của người thầy Villani về phương trình động học trong [Villani / Landau–Boltzmann]({{ site.baseurl }}/contents/vi/chapter02/02_29_Villani_Landau_Boltzmann/).
 
 ---
 
@@ -26,12 +26,12 @@ Bài này dành cho người đã đọc phần giới thiệu Monge–Kantorovi
 
 Sau bài học, bạn có thể:
 
-- Đặt lời trích dẫn năm 2018 cho Figalli vào lịch sử dài của OT (Monge, Kantorovich, Brenier, Caffarelli, Ambrosio, Villani) mà không quy cả lịch sử đó về một người.
-- Phát biểu định lý Brenier: với chi phí bình phương, ánh xạ tối ưu là gradient của một hàm thế lồi, và hàm thế đó thỏa phương trình **Monge–Ampère**.
-- Giải thích vì sao **tính chính quy của ánh xạ** là một câu hỏi về PDE, và vì sao lý thuyết của Caffarelli là nền tảng chứ không phải chi tiết phụ.
-- Mô tả ở mức ý tưởng tính chính quy bên trong, tính ổn định, và tính chính quy từng phần (kiểm soát tập kỳ dị) của ánh xạ OT, có ghi nhận đóng góp của De Philippis và các cộng sự khác.
-- Nêu hai lĩnh vực ứng dụng (bất đẳng thức đẳng chu định lượng; phương trình bán địa chuyển (semigeostrophic)) và giải thích vì sao tính chính quy của ánh xạ là cầu nối.
-- Phân biệt **Figalli 2018 (OT và ứng dụng)** với **Villani 2010 (tắt dần Landau / phương trình Boltzmann)**.
+- Đặt lời trích dẫn năm 2018 cho Figalli vào lịch sử dài của vận chuyển tối ưu (Monge, Kantorovich, Brenier, Caffarelli, Ambrosio, Villani) mà không quy cả lĩnh vực về một cá nhân.
+- Phát biểu định lý Brenier: với chi phí bình phương khoảng cách, ánh xạ tối ưu là gradient của một hàm thế lồi, và hàm thế đó thỏa phương trình **Monge–Ampère**.
+- Giải thích vì sao **tính chính quy của ánh xạ** là một bài toán PDE phi tuyến hoàn toàn, và vì sao lý thuyết của Caffarelli là nền tảng trực tiếp chứ không phải chi tiết phụ.
+- Mô tả trực quan ba trụ cột của Figalli và các cộng sự (đặc biệt là De Philippis): tính chính quy Sobolev $$W^{2,1}$$, tính chính quy từng phần (kiểm soát tập kỳ dị có độ đo không), và tính ổn định định lượng.
+- Nêu hai lĩnh vực ứng dụng lớn (bất đẳng thức đẳng chu không đẳng hướng định lượng; phương trình bán địa chuyển trong khí tượng học) và giải thích vì sao tính chính quy của ánh xạ là chìa khóa.
+- Phân biệt rõ **Figalli 2018 (vận chuyển tối ưu và ứng dụng)** với **Villani 2010 (tắt dần Landau và phương trình Boltzmann)**.
 
 **Kiến thức cần có.** Bài toán Monge và Kantorovich cùng khái niệm đẩy tiến độ đo (push-forward) $$T_\#\mu=\nu$$, như trong bài OT ở Chương 6; hàm lồi và ma trận Hessian; biết rằng một PDE elliptic phi tuyến hoàn toàn (fully nonlinear) có thể có lý thuyết chính quy. Không cần học trước về phương trình Monge–Ampère.
 
@@ -39,96 +39,121 @@ Sau bài học, bạn có thể:
 
 ---
 
+## Bản đồ kiến thức nền: Vận chuyển tối ưu Monge–Kantorovich và tính chính quy là gì?
+
+Trước khi bước vào phương trình Monge–Ampère, hãy hình dung bài toán bằng một ví dụ cực kỳ trực quan.
+
+**1. Từ đống cát của Monge đến kế hoạch vận chuyển của Kantorovich.**
+Giả sử bạn có một phân bố khối lượng ban đầu $$\mu$$ (ví dụ các tiệm bánh nằm rải rác trong thành phố) và một phân bố đích $$\nu$$ (các quán cà phê cần nhận bánh). Chi phí chuyển một đơn vị khối lượng từ điểm $$x$$ đến điểm $$y$$ là $$c(x,y)$$ (thường lấy $$c(x,y) = \|x - y\|^2$$).
+- **Bài toán Monge** tìm một **ánh xạ** $$T$$ sao cho toàn bộ khối lượng ở điểm $$x$$ được chở gọn sang đúng một điểm $$y = T(x)$$, bảo toàn khối lượng (ký hiệu $$T_\# \mu = \nu$$), với tổng chi phí $$\int c(x, T(x))\,d\mu(x)$$ nhỏ nhất. Bài toán này rất khó về mặt giải tích vì điều kiện "không được tách khối lượng" làm không gian nghiệm không lồi.
+- **Bài toán Kantorovich (1942)** nới lỏng yêu cầu: cho phép chia nhỏ khối lượng ở $$x$$ gửi đến nhiều điểm $$y$$ khác nhau, biểu diễn bằng một **kế hoạch vận chuyển** (hay **phép ghép**, *coupling*) $$\pi(x,y)$$ có biên là $$\mu$$ và $$\nu$$. Nhờ sự nới lỏng này, bài toán trở thành một bài toán tối ưu tuyến tính trên tập lồi compact, nên nghiệm tối ưu luôn tồn tại!
+
+**2. Khi nào ánh xạ vận chuyển bị "xé rách"?**
+Hãy thử một thí nghiệm tưởng tượng trong mặt phẳng $$\mathbb{R}^2$$: phân bố ban đầu $$\mu$$ là một **đĩa tròn** đồng nhất, còn phân bố đích $$\nu$$ là **hai nửa đĩa tròn tách rời nhau** (ví dụ nửa bên trái dịch sang trái một đoạn, nửa bên phải dịch sang phải một đoạn — một miền *không lồi*).
+Để tốn ít công nhất, ánh xạ tối ưu $$T$$ buộc phải cắt đôi đĩa tròn ban đầu dọc theo đường kính ở giữa: nửa bên trái bay sang trái, nửa bên phải bay sang phải! Ngay dọc theo đường kính đó, ánh xạ $$T$$ **nhảy cóc (gián đoạn)** — hai hạt cát ban đầu nằm sát rạt nhau hai bên đường kính bỗng bị tách xa nhau hàng mét sau khi vận chuyển.
+
+Đó chính là trực giác cốt lõi của **tính chính quy** (*regularity*) trong vận chuyển tối ưu:
+- Khi miền đích lồi và các mật độ trơn, liệu ánh xạ $$T$$ có mượt mà không bị xé rách ở đâu không? (Câu trả lời: có — đó là định lý Caffarelli.)
+- Khi miền đích **không lồi** (như hai nửa đĩa trên), hoặc khi chi phí không còn là bình phương khoảng cách, chắc chắn sẽ xuất hiện "đường xé" (gọi là **tập kỳ dị** $$\Sigma$$). Nhưng tập kỳ dị đó có nhỏ bé (chỉ như một đường cắt mỏng có diện tích bằng $$0$$) để bên ngoài nó ánh xạ vẫn hoàn toàn trơn tru không? Đó chính là câu hỏi **tính chính quy từng phần** mà Figalli và De Philippis đã chinh phục!
+
+---
+
 ## 1. Figalli không phát minh ra lĩnh vực này
 
-Phần mở đầu có một nhiệm vụ đơn giản: nếu chỉ nhớ một câu từ các bài báo phổ thông, hãy nhớ câu này: **Figalli không phát minh ra vận chuyển tối ưu.**
+Nếu chỉ nhớ một điều để tránh sai lầm phổ biến trên báo chí đại chúng, hãy nhớ: **Figalli không phát minh ra vận chuyển tối ưu.** Ông đứng trên vai một truyền thống dài hơn 230 năm:
 
-Monge hỏi làm thế nào để chuyển một đống đất đến một vị trí cho trước với chi phí nhỏ nhất, và tìm một **ánh xạ** $$T$$. Kantorovich cho phép khối lượng được tách ra, thay ánh xạ bằng một **phép ghép** $$\pi$$ có các phân bố biên cố định, và từ đó có bài toán đối ngẫu lồi. Trong những năm 1980–1990, Brenier chứng minh rằng với chi phí $$c(x,y)=\|x-y\|^2$$ (dưới các giả thiết thông thường về mô-men), tồn tại ánh xạ tối ưu dạng
+- **Monge (1781)** đặt bài toán tìm ánh xạ vận chuyển $$T$$ tối ưu.
+- **Kantorovich (1942)** thay ánh xạ bằng phép ghép $$\pi$$, mở ra lý thuyết đối ngẫu lồi (và sau này nhận giải Nobel Kinh tế 1975).
+- **Yann Brenier (1987–1991)** tạo ra bước ngoặt giải tích: với chi phí bình phương $$c(x,y)=\|x-y\|^2$$ (và $$\mu$$ không gán khối lượng cho các tập nhỏ), nghiệm tối ưu của Kantorovich thực ra tập trung trên đồ thị của một ánh xạ Monge duy nhất có dạng cực kỳ thanh lịch:
 
 $$
 T=\nabla\phi,
 $$
 
-với $$\phi$$ là hàm lồi. McCann, Gangbo và những người khác mở rộng kết quả này sang hình học Riemann và các hàm chi phí tổng quát hơn. Sau đó Caffarelli đặt câu hỏi của nhà giải tích: nếu các mật độ đủ tốt, thì $$\phi$$ tốt đến mức nào? Ambrosio phát triển OT như một công cụ cho dòng gradient và lý thuyết hàm biến phân bị chặn (BV). Villani viết các cuốn sách biến chủ đề thành ngôn ngữ chung, và dùng nó cho các bất đẳng thức hình học và độ cong Ricci. Tuy vậy, **Huy chương Fields 2010** của Villani là về phương trình động học, không phải vì đã sáng lập OT.
+trong đó $$\phi$$ là một **hàm lồi**. McCann, Gangbo và nhiều nhà toán học khác mở rộng kết quả này sang đa tạp Riemann và các hàm chi phí tổng quát.
+- **Luis Caffarelli** đặt câu hỏi trung tâm của nhà giải tích PDE: nếu mật độ nguồn và đích đều trơn, thì hàm thế lồi $$\phi$$ trơn đến mức nào?
+- **Luigi Ambrosio** biến vận chuyển tối ưu thành công cụ cho dòng gradient và hàm biến phân bị chặn (BV). **Cédric Villani** hệ thống hóa toàn bộ lĩnh vực trong hai chuyên khảo kinh điển và nối nó với độ cong Ricci cùng các bất đẳng thức hàm. Tuy vậy, **Huy chương Fields 2010** của Villani được trao cho phương trình động học (tắt dần Landau và Boltzmann), không phải vì sáng lập vận chuyển tối ưu.
 
-Figalli học với **Luigi Ambrosio** (Pisa) và **Cédric Villani** (ENS Lyon), bảo vệ tiến sĩ năm 2007, và làm việc tại ETH Zürich từ năm 2016. Huy chương của ông ghi nhận các kết quả về tính chính quy và ứng dụng bên trong một lĩnh vực đã phát triển.
+Figalli học tiến sĩ dưới sự hướng dẫn đồng thời của **Luigi Ambrosio** (Scuola Normale Superiore di Pisa) và **Cédric Villani** (ENS Lyon), bảo vệ luận án năm 2007 chỉ sau một năm nghiên cứu, và giữ vị trí giáo sư tại ETH Zürich từ năm 2016. Huy chương năm 2018 ghi nhận những đột phá sắc bén về tính chính quy, tính ổn định và ứng dụng bên trong một lĩnh vực đã trưởng thành.
 
 ---
 
 ## 2. Từ ánh xạ Brenier đến phương trình Monge–Ampère
 
-Giả sử $$\mu=f\,dx$$ và $$\nu=g\,dy$$ là các độ đo xác suất liên tục tuyệt đối trên (một miền của) $$\mathbb{R}^n$$, và $$T=\nabla\phi$$ đẩy $$\mu$$ thành $$\nu$$. Phép đổi biến (một cách hình thức) cho đẳng thức Jacobian
+Giả sử $$\mu=f\,dx$$ và $$\nu=g\,dy$$ là hai độ đo xác suất liên tục tuyệt đối trên $$\mathbb{R}^n$$, và ánh xạ Brenier $$T=\nabla\phi$$ đẩy $$\mu$$ thành $$\nu$$. Theo công thức đổi biến trong tích phân bội, tỷ số thể tích địa phương do phép biến đổi $$y = \nabla\phi(x)$$ gây ra chính là định thức ma trận Jacobian của $$\nabla\phi$$ — tức định thức của **ma trận Hessian** $$D^2\phi(x)$$. Vì $$\phi$$ lồi nên $$D^2\phi \ge 0$$, và ta thu được một phương trình đạo hàm riêng nổi tiếng:
 
 $$
 f(x)=g\bigl(\nabla\phi(x)\bigr)\,\det D^2\phi(x).
 $$
 
-Đây là phương trình **Monge–Ampère** cho hàm thế lồi $$\phi$$. Phương trình này phi tuyến hoàn toàn: ẩn hàm xuất hiện trong định thức của các đạo hàm cấp hai. Các khái niệm nghiệm yếu (nghiệm Alexandrov, nghiệm nhớt) đã có từ rất lâu trước khi người ta biết $$\phi$$ có thuộc $$C^2$$ hay không.
+Đây là **phương trình Monge–Ampère** cho hàm thế lồi $$\phi$$. Hãy để ý cấu trúc đáng gờm của nó: ẩn hàm $$\phi$$ không xuất hiện tuyến tính như trong phương trình Laplace $$\Delta \phi = \mathrm{Tr}(D^2\phi) = f$$, mà nằm bên trong **định thức** của ma trận đạo hàm cấp hai (tích của tất cả các trị riêng của $$D^2\phi$$). Đó là một phương trình elliptic **phi tuyến hoàn toàn** (*fully nonlinear*). Ở chiều $$n = 2$$, phương trình viết ra là $$\phi_{xx}\phi_{yy} - \phi_{xy}^2 = f / g(\nabla\phi)$$. Chỉ cần một trị riêng tiến sát $$0$$ và trị riêng kia phình ra vô cực, tích của chúng vẫn có thể bằng hằng số — chính sự suy biến đó làm các kỹ thuật PDE cổ điển dễ dàng mất tác dụng!
 
-Vì sao tính chính quy quan trọng? Nếu $$\phi$$ chỉ là hàm lồi, thì $$T=\nabla\phi$$ xác định hầu khắp nơi nhưng có thể có bước nhảy, có nếp gấp, hoặc không khả vi trên một tập lớn. Các ứng dụng hình học cần nhiều hơn thế: chúng cần ánh xạ là vi phôi trên những tập mở lớn, hoặc cần kiểm soát định lượng xem ánh xạ lệch bao xa so với một ánh xạ mẫu (phép tịnh tiến, phép đẳng cự tuyến tính, ánh xạ đồng nhất). Trong mô hình khí quyển, chính ánh xạ đó là một phép đổi tọa độ; nếu nó quá thô, PDE trong không gian vật lý thậm chí không có nghĩa theo nghĩa phân bố.
+Các khái niệm nghiệm yếu (nghiệm Alexandrov, nghiệm nhớt) đã có từ lâu trước khi người ta biết liệu $$\phi$$ có thuộc lớp $$C^2$$ hay không. Nhưng vì sao tính chính quy lại sống còn đến thế? Nếu $$\phi$$ chỉ là hàm lồi, thì $$T=\nabla\phi$$ xác định hầu khắp nơi nhưng có thể có nếp gấp, vết đứt, hoặc không khả vi trên một tập phức tạp. Trong khi đó:
+- Các ứng dụng hình học cần $$T$$ là vi phôi trên những tập mở lớn, hoặc cần ước lượng định lượng xem $$T$$ lệch bao xa so với phép tịnh tiến hay phép đẳng cự.
+- Trong khí tượng học, chính ánh xạ $$T$$ đóng vai trò là phép đổi tọa độ từ không gian "địa chuyển" về không gian vật lý; nếu $$T$$ quá thô, trường vận tốc trong không gian vật lý thậm chí không đủ chính quy để viết phương trình theo nghĩa phân bố.
 
-Vì vậy, nghiên cứu tính chính quy trong OT không chỉ để làm đẹp kết quả. Nó lấp khoảng cách giữa "có ánh xạ xác định hầu khắp nơi" và "ánh xạ dùng được như một phép đổi biến".
+Vì vậy, nghiên cứu tính chính quy trong vận chuyển tối ưu không phải chuyện đánh bóng kỹ thuật: nó là cầu nối quyết định giữa "có một ánh xạ trừu tượng hầu khắp nơi" và "có một phép đổi biến thực sự dùng được".
 
 ---
 
 ## 3. Lý thuyết chính quy của Caffarelli: nền tảng đi trước
 
-Lý thuyết chính quy sâu sắc đầu tiên cho ánh xạ OT với chi phí bình phương là của **Caffarelli**. Đầu thập niên 1990, ông chứng minh rằng nghiệm Alexandrov của phương trình Monge–Ampère thuộc $$C^{1,\alpha}$$ bên trong miền, và với điều kiện miền đích lồi cùng mật độ trơn, nghiệm còn chính quy hơn nữa, cho đến $$C^\infty$$ bên trong khi dữ liệu trơn và miền thỏa điều kiện thích hợp. Tính chính quy tại biên đòi hỏi thêm nhiều điều kiện hình học.
+Lý thuyết chính quy sâu sắc đầu tiên cho ánh xạ vận chuyển tối ưu với chi phí bình phương là kiệt tác của **Luis Caffarelli** đầu thập niên 1990. Ông chứng minh rằng nếu miền đích **lồi** và các mật độ $$f, g$$ bị chặn dương hai phía, thì nghiệm Alexandrov của phương trình Monge–Ampère tự động đạt tính chính quy $$C^{1,\alpha}$$ bên trong miền (tức ánh xạ $$T = \nabla\phi$$ liên tục Hölder, không hề có vết xé); và khi $$f, g$$ trơn $$C^\infty$$, $$\phi$$ cũng trơn $$C^\infty$$ bên trong miền. (Ví dụ hai nửa đĩa rời ở mục Bản đồ kiến thức nền chính là minh chứng sống động vì sao giả thiết *miền đích lồi* của Caffarelli là không thể thiếu cho tính trơn toàn cục!)
 
-Lời trích dẫn Giải Abel 2023 cho Caffarelli nói đúng về truyền thống này: tính chính quy của PDE phi tuyến, biên tự do, và phương trình Monge–Ampère. Figalli tiếp nối truyền thống đó. Có thể tóm tắt công bằng như sau:
+Lời trích dẫn Giải Abel 2023 cho Caffarelli tôn vinh đúng truyền thống nghiên cứu tính chính quy của PDE phi tuyến, biên tự do và phương trình Monge–Ampère này. Mối quan hệ kế thừa giữa Caffarelli và Figalli có thể tóm gọn trong một câu:
 
-> Caffarelli chứng minh rằng trong trường hợp Euclid, miền lồi và chi phí bình phương, ánh xạ tối ưu chính quy như các mật độ cho phép; Figalli và các cộng sự hỏi điều gì còn đúng khi tính lồi, hàm chi phí hay hình học nền không còn thuộc loại đó.
+> Caffarelli chứng minh rằng trong trường hợp Euclid, miền đích lồi và chi phí bình phương, ánh xạ tối ưu chính quy tối đa như các mật độ cho phép; Figalli và các cộng sự hỏi điều gì còn đúng khi tính lồi, hàm chi phí hay hình học nền không còn thuộc trường hợp lý tưởng đó.
 
-Về sau, điều kiện Ma–Trudinger–Wang (MTW) đưa ra một giả thiết cấu trúc cho hàm chi phí tổng quát, đủ để khôi phục tính trơn hoàn toàn. Khi điều kiện này không thỏa, hoặc khi giá không lồi, người ta không còn kỳ vọng ánh xạ trơn trên toàn miền. Câu hỏi hiện đại trở thành **tính chính quy từng phần**: tập các điểm kỳ dị có nhỏ không?
+Về sau, điều kiện **Ma–Trudinger–Wang (MTW)** đưa ra một giả thiết cấu trúc (kiểu độ cong) cho hàm chi phí tổng quát $$c(x,y)$$ đủ để khôi phục tính trơn toàn cục. Nhưng trong thực tế hình học — chẳng hạn trên đa tạp Riemann có độ cong âm, hay khi miền đích không lồi — điều kiện MTW bị vi phạm và ánh xạ chắc chắn có điểm kỳ dị. Câu hỏi trung tâm của thế kỷ XXI chuyển sang **tính chính quy từng phần** (*partial regularity*): tập các điểm kỳ dị đó có đủ nhỏ để ánh xạ vẫn trơn hầu khắp nơi không?
 
 ---
 
 ## 4. Tính chính quy bên trong, tính ổn định và tập kỳ dị của ánh xạ
 
-Các kết quả về OT của Figalli, thường cùng **Guido De Philippis**, và trong các bài khác cùng Kim, Loeper và những người khác, xoay quanh ba ý chính.
+Các đột phá của Figalli trong vận chuyển tối ưu — thường hợp tác chặt chẽ với **Guido De Philippis**, cùng Kim, Loeper và nhiều cộng sự khác — xoay quanh ba trụ cột lớn:
 
-**Tính khả tích bậc cao và tính chính quy Sobolev.** Với nghiệm Alexandrov lồi, ban đầu ta chỉ biết $$D^2\phi$$ thuộc $$L^1_{\mathrm{loc}}$$. De Philippis–Figalli chứng minh tính chính quy $$W^{2,1}$$ cho phương trình Monge–Ampère (Inventiones, 2013). Kết quả này nghe có vẻ kỹ thuật, nhưng $$W^{2,1}$$ cho phép lấy đạo hàm ánh xạ theo nghĩa $$L^1$$ và chuyển qua giới hạn trong các biểu thức phi tuyến. Các công trình tiếp theo cho tính ổn định cấp hai: nếu các mật độ hội tụ, thì các ánh xạ hội tụ mạnh theo chuẩn Sobolev, không chỉ hội tụ yếu.
+**1. Tính khả tích bậc cao và tính chính quy Sobolev $$W^{2,1}$$.** Với nghiệm Alexandrov lồi của phương trình Monge–Ampère, ma trận Hessian $$D^2\phi$$ ban đầu chỉ là một độ đo Radon (có thể chứa phần kỳ dị kiểu hàm delta). Câu hỏi mở lâu năm là: khi vế phải bị chặn dương hai phía, liệu $$D^2\phi$$ có thực sự là một hàm khả tích địa phương $$L^1_{\mathrm{loc}}$$ (tức $$\phi \in W^{2,1}_{\mathrm{loc}}$$) không? Năm 2013 (*Inventiones Mathematicae*), **De Philippis và Figalli** chứng minh câu trả lời là **có** — thậm chí $$D^2\phi \in L \log^k L$$! Thoạt nghe có vẻ rất kỹ thuật, nhưng việc đẩy $$D^2\phi$$ từ độ đo lên hàm $$L^1$$ là ranh giới sống còn: nó cho phép lấy đạo hàm của ánh xạ $$T = \nabla\phi$$ theo nghĩa hàm thông thường và chuyển qua giới hạn trong các phương trình phi tuyến. Các công trình tiếp nối còn thiết lập tính ổn định cấp hai: nếu các mật độ hội tụ, các ánh xạ tối ưu hội tụ mạnh theo chuẩn Sobolev chứ không chỉ hội tụ yếu.
 
-**Tính chính quy từng phần.** Trong bài *Partial regularity for optimal transport maps* (Publ. Math. IHÉS, 2015), De Philippis–Figalli chứng minh rằng với hàm chi phí tổng quát trên $$\mathbb{R}^n$$, hoặc với $$c=d^2/2$$ trên đa tạp Riemann, ánh xạ tối ưu giữa các mật độ trơn là trơn **bên ngoài một tập kỳ dị đóng có độ đo bằng không**. Kết quả này không cần điều kiện MTW và không cần giá lồi. Về bản chất, đây là một định lý về tập kỳ dị: ánh xạ là vi phôi trên một tập mở lớn, còn tập điểm xấu là tập đóng và có độ đo không. Các kết quả $$C^1$$ trong hai chiều trước đó (Figalli–Loeper) và tính chính quy từng phần cho nghiệm Brenier (Figalli–Kim) thuộc cùng nhóm kết quả này.
+**2. Tính chính quy từng phần (kiểm soát tập kỳ dị).** Trong bài báo bước ngoặt *Partial regularity for optimal transport maps* (*Publ. Math. IHÉS*, 2015), **De Philippis và Figalli** chứng minh rằng với hàm chi phí tổng quát thỏa điều kiện xoắn trên $$\mathbb{R}^n$$, hoặc với chi phí $$c = d^2/2$$ trên một đa tạp Riemann bất kỳ, ánh xạ tối ưu giữa hai mật độ trơn luôn trơn $$C^\infty$$ **bên ngoài một tập kỳ dị đóng $$\Sigma$$ có độ đo bằng không**. Định lý này không cần điều kiện MTW và không cần miền đích lồi! Nói cách khác, dù thế giới không lý tưởng, ánh xạ vận chuyển tối ưu vẫn là một phép vi phôi trơn trên một tập mở chiếm 100% thể tích, chỉ trừ một tập "vết xé" đóng có thể tích bằng không. Các kết quả $$C^1$$ hai chiều trước đó (Figalli–Loeper) và tính chính quy từng phần cho nghiệm Brenier (Figalli–Kim) nằm trong cùng mạch đột phá này.
 
-**Tính ổn định của bất đẳng thức.** Tính chính quy và tính ổn định đi cùng nhau. Nếu ánh xạ gần ánh xạ mẫu, thì các phiếm hàm hình học (chu vi, hằng số Sobolev, sự sinh entropy) phải gần giá trị tối ưu, với độ lệch (deficit) được ước lượng cụ thể. Đó là cầu nối từ ước lượng PDE sang hình học định lượng.
+**3. Tính ổn định định lượng của bất đẳng thức.** Tính chính quy và tính ổn định luôn đi cặp với nhau. Nếu một hình gần đạt cực tiểu cho một đại lượng hình học (như chu vi), ta có thể dùng ánh xạ vận chuyển tối ưu đẩy nó sang hình chuẩn tối ưu: độ lệch của phiếm hàm hình học biến thành độ lệch của ánh xạ $$T$$ khỏi phép đồng nhất, và các ước lượng chính quy–ổn định sẽ dịch độ lệch đó thành khoảng cách hình học thực sự.
 
-Các công trình sau này về bài toán vật cản và bài toán Stefan (Figalli–Serra, Figalli–Ros-Oton–Serra) là giải tích về biên tự do ở lĩnh vực lân cận, không phải là phần thứ ba của lời trích dẫn năm 2018. Lời trích dẫn chỉ nói về OT và các ứng dụng của nó.
+Lưu ý thêm: các công trình rất nổi tiếng sau này của Figalli về bài toán vật cản (*obstacle problem*) và bài toán Stefan (cùng Serra, Ros-Oton) thuộc giải tích biên tự do ở lĩnh vực lân cận, bổ sung cho sự nghiệp của ông chứ không phải nội dung chính của lời trích dẫn Huy chương Fields 2018 (vốn tập trung vào vận chuyển tối ưu và ứng dụng).
 
 ---
 
 ## 5. Ứng dụng: bất đẳng thức, khí quyển, xác suất
 
-**Bất đẳng thức đẳng chu định lượng.** Figalli–Maggi–Pratelli (Inventiones, 2010) dùng phép vận chuyển khối lượng để chứng minh dạng định lượng sắc của bất đẳng thức đẳng chu **không đẳng hướng** (anisotropic): nếu một tập gần như cực tiểu hóa chu vi không đẳng hướng, thì nó gần (theo một khoảng cách được định nghĩa chính xác) một phép tịnh tiến của hình Wulff. Phương pháp này thuộc về OT: một ánh xạ vận chuyển từ tập đã cho tới một hình mẫu biến độ lệch về chu vi thành độ lệch của ánh xạ, rồi tính chính quy và tính ổn định biến điều đó thành độ gần về hình học. Đây là phần "hình học metric" trong lời trích dẫn của IMU, được làm cụ thể.
+**1. Bất đẳng thức đẳng chu định lượng và hình dạng tinh thể.** Bất đẳng thức đẳng chu cổ điển nói rằng trong mọi hình có cùng thể tích, hình cầu có diện tích bề mặt nhỏ nhất. Trong vật lý chất rắn, năng lượng bề mặt của một tinh thể phụ thuộc vào hướng của mặt phẳng (không đẳng hướng), nên hình cân bằng cực tiểu hóa chu vi không đẳng hướng không phải hình cầu mà là một đa diện/hình lồi đặc trưng gọi là **hình Wulff** (*Wulff shape*). Năm 2010 (*Inventiones*), **Figalli–Maggi–Pratelli** dùng ánh xạ vận chuyển Brenier để chứng minh phiên bản **định lượng sắc** của bất đẳng thức đẳng chu không đẳng hướng: nếu một tập $$E$$ có chu vi không đẳng hướng chỉ lớn hơn chu vi hình Wulff một lượng nhỏ $$\delta$$, thì thể tích phần sai khác giữa $$E$$ và một phép tịnh tiến của hình Wulff bị chặn bởi $$C\sqrt{\delta}$$ (số mũ $$1/2$$ là tối ưu). Đây là minh họa rực rỡ nhất cho phần "hình học metric" trong lời trích dẫn của IMU.
 
-**Phương trình bán địa chuyển.** Hệ phương trình bán địa chuyển (semigeostrophic, SG) là mô hình cho sự hình thành front thời tiết trong khoa học khí quyển. Sau khi đổi sang tọa độ địa chuyển, hàm thế áp suất là hàm lồi và gradient của nó là ánh xạ vận chuyển tối ưu giữa mật độ chất lưu và một độ đo tham chiếu. Benamou–Brenier và Cullen làm cho cách phát biểu này trở thành chuẩn. Sau đó Ambrosio–Colombo–De Philippis–Figalli dùng các ước lượng Sobolev mới cho phương trình Monge–Ampère để chứng minh sự tồn tại nghiệm Euler yếu toàn cục trên xuyến hai chiều và, với giả thiết lồi, trên miền lồi ba chiều. Ở đây tính chính quy của OT không phải hệ quả phụ, mà là lý do khiến vận tốc trong không gian vật lý là một phân bố được xác định đúng.
+**2. Phương trình bán địa chuyển (Semigeostrophic) trong khí tượng học.** Hệ phương trình bán địa chuyển mô tả chuyển động quy mô lớn của khí quyển và sự hình thành các **front thời tiết** (nơi hai khối khí nóng–lạnh ép sát nhau tạo ra sự thay đổi đột ngột về gió và nhiệt độ). Khi đổi sang "tọa độ địa chuyển" do Cullen và Purser đề xuất (và được Benamou–Brenier kết nối với OT), hàm thế áp suất trở thành một hàm lồi mà gradient của nó chính là ánh xạ vận chuyển tối ưu từ phân bố mật độ trong không gian vật lý sang không gian địa chuyển. Nhờ định lý chính quy $$W^{2,1}$$ mới cho phương trình Monge–Ampère, **Ambrosio–Colombo–De Philippis–Figalli** đã chứng minh sự tồn tại nghiệm yếu Euler toàn cục của hệ bán địa chuyển trên xuyến hai chiều và trên miền lồi ba chiều. Ở đây, ước lượng $$W^{2,1}$$ chính là mảnh ghép cho phép chuyển ngược từ tọa độ địa chuyển về trường vận tốc thực trong không gian vật lý!
 
-**Bất đẳng thức hàm và xác suất.** Cùng Carlen, Figalli chứng minh tính ổn định cho bất đẳng thức Gagliardo–Nirenberg và bất đẳng thức log-HLS (có ứng dụng cho mô hình Keller–Segel). Cùng Guionnet, ông dùng các ánh xạ vận chuyển xấp xỉ để chứng minh tính phổ quát trong các mô hình nhiều ma trận. Đó là phần "xác suất" của lời trích dẫn: vận chuyển như một công cụ so sánh các độ đo, không chỉ là ánh xạ giữa các đống cát.
+**3. Bất đẳng thức hàm và xác suất.** Cùng **Eric Carlen**, Figalli chứng minh tính ổn định định lượng cho bất đẳng thức Gagliardo–Nirenberg và bất đẳng thức log-HLS (gắn chặt với mô hình Keller–Segel về sự tụ tập của vi sinh vật). Cùng **Alice Guionnet**, ông xây dựng các ánh xạ vận chuyển xấp xỉ để chứng minh tính phổ quát của phổ trị riêng trong các mô hình nhiều ma trận ngẫu nhiên. Đó là phần "xác suất" trong lời trích dẫn: vận chuyển tối ưu hoạt động như một thước đo hình học để so sánh hai phân bố xác suất phức tạp.
 
 ---
 
 ## 6. Hai Huy chương Fields, hai trọng tâm khác nhau
 
-Vì Figalli là học trò của Villani, người ta dễ nhầm hai huy chương làm một. Đây là hai giải thưởng khác nhau.
+Vì Figalli là học trò tiến sĩ của Villani và cả hai đều là những tên tuổi lớn của vận chuyển tối ưu, người ngoài rất dễ gộp hai huy chương làm một. Thực tế, đây là hai ghi nhận có trọng tâm khác hẳn nhau:
 
 | Huy chương | Trọng tâm của lời trích dẫn | Ngôn ngữ chung | Kết quả riêng |
 |------------|-------------------|---------------|------------------|
 | Villani, 2010 | Tắt dần Landau phi tuyến; hội tụ về cân bằng cho phương trình Boltzmann | Entropy, bất đẳng thức, OT như bộ công cụ mà Villani cũng phát triển | Các định lý về hồi phục trong phương trình động học |
 | Figalli, 2018 | Lý thuyết OT và ứng dụng vào PDE, hình học metric, xác suất | Monge–Ampère, ánh xạ, tính ổn định | Tính chính quy và tính ổn định của phép vận chuyển, cùng các hệ quả hình học |
 
-Văn bản của IMU năm 2010 về Villani có nhắc đến việc ông đi đầu trong ứng dụng OT vào các bất đẳng thức và viết sách về vận chuyển khối lượng; đó là bối cảnh, không phải nội dung chính của huy chương. Còn lời trích dẫn năm 2018 cho Figalli *chính là* về OT. Bài [Villani / Landau–Boltzmann]({{ site.baseurl }}/contents/vi/chapter02/02_29_Villani_Landau_Boltzmann/) trình bày riêng các định lý về phương trình động học.
+Văn bản của IMU năm 2010 về Villani có nhắc đến việc ông tiên phong ứng dụng vận chuyển tối ưu vào các bất đẳng thức và viết hai bộ sách kinh điển; đó là bối cảnh bổ trợ, không phải trụ cột chính của huy chương năm 2010. Ngược lại, lời trích dẫn năm 2018 cho Figalli đặt **chính vận chuyển tối ưu** vào trung tâm. Bài [Villani / Landau–Boltzmann]({{ site.baseurl }}/contents/vi/chapter02/02_29_Villani_Landau_Boltzmann/) sẽ đi sâu riêng vào các định lý động học của Villani.
 
 ---
 
 ## 7. Vì sao ông nhận Huy chương Fields
 
-Có ba lý do, và không lý do nào cần gọi OT là "lý thuyết của Figalli".
+Có ba lý do thuyết phục, và không lý do nào cần phóng đại rằng OT là "lý thuyết của riêng Figalli":
 
-1. **Độ khó.** Tính chính quy từng phần và ngưỡng Sobolev cho phương trình phi tuyến hoàn toàn nằm ở giới hạn của những gì giải tích lồi và lý thuyết Calderón–Zygmund làm được. Các chứng minh kết hợp nguyên lý cực đại Alexandrov, tính bất biến afin và lý thuyết độ đo hình học.
-2. **Được dùng ở nơi khác.** Khi đã biết ánh xạ thuộc $$W^{2,1}$$ hoặc trơn ngoài một tập có độ đo không, các lĩnh vực khác có thể dùng kết quả đó: hình Wulff, front trong mô hình SG, mô hình ma trận, mô hình Keller–Segel.
-3. **Làm rõ những gì còn lại.** Sau Caffarelli, người ta hiểu trường hợp Euclid với miền lồi. Sau Figalli–De Philippis và các nhà nghiên cứu xung quanh, người ta biết một định lý trông như thế nào khi hàm chi phí tổng quát, miền là đa tạp, hoặc ứng dụng chỉ cần ánh xạ thuộc không gian Sobolev.
+1. **Độ khó giải tích ở biên giới.** Tính chính quy từng phần và ngưỡng Sobolev $$W^{2,1}$$ cho phương trình phi tuyến hoàn toàn Monge–Ampère nằm ngay sát giới hạn của giải tích lồi và lý thuyết Calderón–Zygmund. Các chứng minh kết hợp tinh tế nguyên lý cực đại Alexandrov, tính bất biến afin và lý thuyết độ đo hình học.
+2. **Sức lan tỏa sang các ngành khác.** Ngay khi biết ánh xạ tối ưu thuộc $$W^{2,1}$$ hoặc trơn ngoài một tập đóng có độ đo không, hàng loạt bài toán ở lĩnh vực lân cận lập tức được khai thông: độ ổn định của tinh thể Wulff, nghiệm Euler của front khí quyển bán địa chuyển, tính phổ quát của ma trận ngẫu nhiên, và bất đẳng thức trong mô hình Keller–Segel.
+3. **Định hình bức tranh tổng quát sau Caffarelli.** Sau Caffarelli, giới toán học hiểu rõ thế giới lý tưởng (không gian Euclid, miền lồi, chi phí bình phương). Sau Figalli–De Philippis và các cộng sự, ta biết chính xác một định lý chính quy trông như thế nào khi rời khỏi thế giới lý tưởng đó.
 
-Trong khóa học, Figalli là ví dụ về **tính chính quy như hạ tầng**: không phải giải một giả thuyết có tên, mà là xây dựng một bộ công cụ đủ mạnh để các định lý khác trở nên chặt chẽ.
+Trong bức tranh toàn khóa học, Figalli là hình mẫu kinh điển về **tính chính quy như hạ tầng của toán học hiện đại**: không chỉ giải một bài toán đơn lẻ có tên gọi, mà xây dựng một bộ công cụ giải tích đủ sắc bén để hàng loạt định lý hình học và vật lý trở nên chặt chẽ.
 
 ---
 

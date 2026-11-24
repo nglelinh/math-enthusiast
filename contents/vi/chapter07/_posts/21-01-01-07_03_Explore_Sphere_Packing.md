@@ -15,9 +15,9 @@ categories:
 > *Tùy chọn:* số tiếp xúc (kissing number), xếp theo lưới và không theo lưới, những điều lạ trong không gian nhiều chiều.  
 > **Theo cách trình bày của Tao (Big Think):** từ cách xếp đạn đại bác → giả thuyết Kepler → xếp rời rạc trong không gian nhiều chiều để làm mã truyền tín hiệu vô tuyến — [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/) · [bài về Viazovska]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/) · [video](https://www.youtube.com/watch?v=OOMx2BHHWtE).
 
-Bài thực hành đặt ra một câu hỏi nghe như vật lý: xếp các quả cầu bằng nhau, không chồng lên nhau, trong $$\mathbb{R}^n$$ thì cách nào dày đặc nhất? Trong mặt phẳng, có thể tìm câu trả lời bằng cách xếp đồng xu. Trong không gian ba chiều, giả thuyết Kepler phải chờ hàng thế kỷ mới được chứng minh. Ở chiều 8 và 24, dạng modula và giải tích Fourier cho phép xác định cách xếp tối ưu. Với hầu hết các số chiều khác, bài toán vẫn còn mở.
+Cuối thế kỷ XVI, nhà thám hiểm Sir Walter Raleigh nhờ trợ lý toán học Thomas Harriot tính xem trên boong tàu có thể xếp được bao nhiêu quả đạn đại bác trong một khoang cố định. Harriot gửi câu hỏi đó cho nhà thiên văn Johannes Kepler, và năm 1611, Kepler mạnh dạn phỏng đoán: không có cách xếp nào dày đặc hơn kiểu kim tự tháp mà người bán cam ngoài chợ vẫn dùng từ hàng nghìn năm nay. Nghe thật hiển nhiên, vậy mà nhân loại phải mất gần **400 năm** — tới tận công trình kết hợp máy tính của Thomas Hales — mới chứng minh xong cho không gian ba chiều.
 
-Bạn không cần dựng lại "hàm kỳ diệu" của Viazovska. Bạn sẽ **định nghĩa mật độ**, **đo mật độ của các cách xếp thật**, **so sánh các phương án**, và phân biệt giữa định lý chính xác ở những chiều đặc biệt với các lập luận gần đúng hay cận số ở những chiều khác. Cách ghi nhãn giống bài thực hành về Kakeya: giả thuyết, cách dựng, quan sát, định lý, không trộn lẫn.
+Thế nhưng câu chuyện kỳ diệu nhất lại xảy ra ở những không gian ta không thể nhìn thấy: năm 2016, Maryna Viazovska gây chấn động giới toán học khi giải quyết trọn vẹn bài toán xếp cầu ở **chiều 8** (bằng lưới $$E_8$$) chỉ trong khoảng hai mươi trang giấy, rồi cùng các đồng tác giả chinh phục **chiều 24** (bằng lưới Leech) ngay tuần sau đó — trong khi chiều 4, 5, 6, 7 cho tới hôm nay vẫn đang bỏ ngỏ! Trong bài thực hành này, bạn không cần tự dựng "hàm kỳ diệu" của Viazovska. Thay vào đó, bạn sẽ **tự định nghĩa mật độ**, **trải đồng xu ra đo**, **viết mã so sánh các cấu hình**, và tập nhìn rõ ranh giới giữa định lý chính xác ở những số chiều đặc biệt với các cận số ở phần còn lại của không gian Euclid.
 
 ---
 
@@ -33,6 +33,18 @@ Sau bài thực hành, bạn có thể:
 - Nêu ngắn gọn ý tưởng của Cohn–Elkies: chặn trên mật độ bằng một hàm xuyên tâm và biến đổi Fourier của nó.
 
 **Kiến thức cần có.** Diện tích và thể tích hình cầu; vectơ trong 2D/3D; khái niệm lưới như một nhóm con rời rạc sinh ra toàn không gian.
+
+---
+
+## Bản đồ kiến thức nền: Hình học rời rạc, Lý thuyết lưới và Giải tích Fourier nghiên cứu những gì?
+
+Thoạt nghe, xếp cam hay xếp đạn đại bác giống chuyện thủ công hơn là toán học cao cấp. Nhưng khi nâng lên $$\mathbb{R}^n$$, bài toán xếp cầu lại là giao lộ của ba nhánh toán học và kỹ thuật cực kỳ mạnh mẽ:
+
+1. **Hình học rời rạc và Lý thuyết lưới (Discrete Geometry & Lattice Theory):** Một **lưới (lattice)** $$\Lambda \subset \mathbb{R}^n$$ là tập hợp các tổ hợp nguyên $$k_1 v_1 + \dots + k_n v_n$$ của $$n$$ vectơ cơ sở độc lập tuyến tính — hãy hình dung mạng tinh thể muối ăn trong 3D nhưng mở rộng ra $$n$$ chiều. Ngành này hỏi: làm sao tối ưu hóa mật độ, khoảng cách cực tiểu và tính đối xứng của các cấu hình điểm rời rạc? Ứng dụng bất ngờ nhất nằm ngay trong **kỹ thuật viễn thông và mật mã học**: mỗi tín hiệu số gửi qua kênh nhiễu (như 5G hay tàu thăm dò vũ trụ) là một điểm trong $$\mathbb{R}^n$$; nhiễu ngẫu nhiên biến điểm đó thành một quả cầu sai số quanh nó. Xếp càng nhiều quả cầu không giao nhau vào không gian thì ta càng truyền được nhiều thông tin mà không bị nhầm mã!
+2. **Giải tích Fourier và Công thức tổng Poisson:** Làm sao chứng minh được rằng *không tồn tại bất kỳ cách xếp vô hạn nào* dày hơn lưới $$E_8$$, khi ta không thể liệt kê hết vô hạn cấu hình? Henry Cohn và Noam Elkies (2003) chuyển bài toán hình học sang **giải tích điều hòa**: dùng biến đổi Fourier để thiết kế một "hàm kiểm tra" xuyên tâm $$f$$ đóng vai trò như một chứng chỉ chặn trên. Nếu hàm $$f$$ thỏa điều kiện dấu thích hợp trên không gian gốc và trên không gian tần số, công thức tổng Poisson tự động khóa chặt mật độ của *mọi* cách xếp.
+3. **Dạng modula (Modular Forms):** Đây là những hàm giải tích phức có độ đối xứng gần như không tưởng dưới tác động của nhóm $$\mathrm{SL}_2(\mathbb{Z})$$. Đột phá của Viazovska chính là phát hiện rằng dạng modula cho phép "may đo" đúng hàm phụ trợ $$f$$ khớp hoàn hảo với tập bán kính của lưới $$E_8$$ (chiều 8) và lưới Leech (chiều 24).
+
+Một ví dụ nhanh để thấy trực giác 2D đã khác biệt ra sao: nếu bạn xếp 100 đồng xu thành hình vuông $$10\times 10$$, khoảng trống ở góc giữa 4 đồng xu chiếm gần $$21.5\%$$ diện tích. Chỉ cần trượt các hàng so le nhau nửa đường kính thành lưới lục giác, phần khoảng trống tụt ngay xuống còn chưa tới $$9.3\%$$ — tiết kiệm hơn một nửa không gian thừa!
 
 ---
 
@@ -52,6 +64,8 @@ $$
 \delta(\Lambda)=\frac{\operatorname{Vol}(B(0,r))}{\operatorname{Vol}(\mathbb{R}^n/\Lambda)}.
 $$
 
+Ở đây $$\operatorname{Vol}(\mathbb{R}^n/\Lambda)$$ là thể tích của một **ô cơ sở** (hình hộp sinh bởi các vectơ cơ sở của lưới), và mỗi ô cơ sở chứa đúng tương đương 1 quả cầu.
+
 **Câu hỏi.** $$\delta_n=\sup$$ của mật độ trên mọi cách xếp trong chiều $$n$$ bằng bao nhiêu? Cấu hình nào đạt được giá trị đó?
 
 Hiệu ứng biên rất quan trọng: nếu chỉ đếm "có bao nhiêu quả trong hộp", phần sát thành hộp sẽ làm sai lệch kết quả. Định nghĩa bằng giới hạn được đưa ra chính vì lý do này. Khi làm thí nghiệm với đồng xu, hãy chỉ đo trên một vùng lớn nằm phía trong để giảm sai lệch.
@@ -60,19 +74,19 @@ Hiệu ứng biên rất quan trọng: nếu chỉ đếm "có bao nhiêu quả 
 
 Xếp đồng xu trên mặt bàn.
 
-- **Lưới vuông.** Tâm tại $$(2r\,i,\,2r\,j)$$. Mỗi đồng xu chiếm một hình vuông cạnh $$2r$$, nên
+- **Lưới vuông.** Tâm tại $$(2r\,i,\,2r\,j)$$. Ô cơ sở là hình vuông cạnh $$2r$$ có diện tích $$4r^2$$, nên
 
 $$
-\delta_{\square}=\frac{\pi r^2}{4r^2}=\frac{\pi}{4}\approx 0.785.
+\delta_{\square}=\frac{\pi r^2}{4r^2}=\frac{\pi}{4}\approx 0.7854.
 $$
 
-- **Lưới lục giác.** Mỗi tâm có sáu tâm láng giềng cách nó $$2r$$. Tính trên ô cơ sở chuẩn, ta được
+- **Lưới lục giác.** Hai vectơ cơ sở là $$v_1=(2r,0)$$ và $$v_2=(r, r\sqrt{3})$$. Mỗi tâm có sáu tâm láng giềng cách nó $$2r$$. Ô cơ sở là hình bình hành diện tích $$2r \cdot r\sqrt{3} = 2\sqrt{3}\,r^2$$, nên
 
 $$
-\delta_{\mathrm{hex}}=\frac{\pi}{2\sqrt{3}}\approx 0.907.
+\delta_{\mathrm{hex}}=\frac{\pi r^2}{2\sqrt{3}\,r^2}=\frac{\pi}{2\sqrt{3}}\approx 0.9069.
 $$
 
-Cách xếp lục giác là tối ưu trong mặt phẳng (kết quả cổ điển). Thí nghiệm đầu tiên nên giúp bạn **tự thấy** sự chênh lệch giữa 0.78 và 0.91 trước khi dẫn định lý.
+Cách xếp lục giác là tối ưu trong mặt phẳng (kết quả cổ điển của Thue và Fejes Tóth). Thí nghiệm đầu tiên nên giúp bạn **tự thấy** sự chênh lệch giữa 0.785 và 0.907 trước khi dẫn định lý.
 
 ### 1.3 Ba chiều và số tiếp xúc
 
@@ -82,7 +96,9 @@ $$
 \delta_{\mathrm{FCC}}=\frac{\pi}{3\sqrt{2}}\approx 0.74048.
 $$
 
-**Thomas Hales** đã chứng minh giả thuyết này (với sự hỗ trợ đáng kể của máy tính); kết quả sau đó đã được kiểm chứng hình thức bằng phần mềm chứng minh. **Số tiếp xúc** trong 3D bằng 12: một quả cầu ở giữa có thể chạm tối đa mười hai quả cầu bằng nó. (Các quả cầu xung quanh vẫn còn chỗ để xê dịch, và điều này từng gây tranh cãi trong lịch sử; chỉ nhìn khối hai mươi mặt thì chưa đủ để kết luận.)
+Điều thú vị là có **vô số** cách xếp khác nhau cùng đạt mật độ tối ưu $$74.05\%$$ này: khi đặt từng lớp cam hình lục giác chồng lên nhau, tại mỗi lớp mới ta luôn có hai lựa chọn vị trí khe hở (kiểu `ABCABC...` cho FCC, kiểu `ABABAB...` cho HCP, hoặc trộn lẫn ngẫu nhiên).
+
+**Thomas Hales** đã chứng minh giả thuyết này (với sự hỗ trợ đáng kể của máy tính); kết quả sau đó đã được kiểm chứng hình thức bằng phần mềm chứng minh (dự án Flyspeck, 2014). **Số tiếp xúc** trong 3D bằng 12: một quả cầu ở giữa có thể chạm tối đa mười hai quả cầu bằng nó. (Các quả cầu xung quanh vẫn còn chỗ để xê dịch — cuộc tranh luận nổi tiếng năm 1694 giữa Isaac Newton và David Gregory chính là về việc liệu có nhét thêm được quả thứ 13 hay không; chỉ nhìn khối hai mươi mặt thì chưa đủ để kết luận, và phải đến năm 1953 Schütte và van der Waerden mới chứng minh chặt chẽ rằng 12 là tối đa.)
 
 ### 1.4 Hai chiều đặc biệt: 8 và 24
 
@@ -95,11 +111,11 @@ $$
 | 24 | Lưới Leech — **Cohn–Kumar–Miller–Radchenko–Viazovska** |
 | các chiều khác | Phần lớn còn mở; có các cận tiệm cận |
 
-Lưới $$E_8$$ và lưới Leech có tính đối xứng đặc biệt: số vectơ có độ dài nhỏ nhất rất lớn và nhóm tự đẳng cấu rất phong phú. Viazovska đã dựng được một hàm xuyên tâm "kỳ diệu" mà dấu của nó và của biến đổi Fourier khớp chính xác với cận quy hoạch tuyến tính Cohn–Elkies ở chiều 8, qua đó chứng minh $$E_8$$ là tối ưu trong **mọi** cách xếp (không chỉ trong các cách xếp theo lưới).
+Lưới $$E_8$$ và lưới Leech có tính đối xứng đặc biệt: số vectơ có độ dài nhỏ nhất rất lớn (số tiếp xúc ở chiều 8 là **240**, còn ở chiều 24 vọt lên **196.560**) và nhóm tự đẳng cấu rất phong phú. Viazovska đã dựng được một hàm xuyên tâm "kỳ diệu" mà dấu của nó và của biến đổi Fourier khớp chính xác với cận quy hoạch tuyến tính Cohn–Elkies ở chiều 8, qua đó chứng minh $$E_8$$ là tối ưu trong **mọi** cách xếp (không chỉ trong các cách xếp theo lưới).
 
 ### 1.5 Ý tưởng Cohn–Elkies trong một đoạn
 
-Nói gần đúng: nếu một hàm Schwartz xuyên tâm $$f$$ trên $$\mathbb{R}^n$$ thỏa mãn $$f(x)\le 0$$ khi $$\lvert x\rvert\ge 1$$ và $$\hat f(\xi)\ge 0$$ với mọi $$\xi$$, trong đó $$f(0)$$ và $$\hat f(0)$$ dương, thì mật độ xếp cầu bị chặn trên bởi một hằng số tính từ $$f(0)/\hat f(0)$$ (sau khi đổi tỉ lệ). Công thức tổng Poisson là cầu nối: nó liên hệ giá trị của $$f$$ trên lưới với giá trị của $$\hat f$$ trên lưới đối ngẫu, biến điều kiện hình học "không chồng lên nhau" thành điều kiện về dấu trong giải tích. Để cận này chính xác, cần một hàm "vừa khít" với tập các khoảng cách của lưới, tức là triệt tiêu đúng tại những bán kính cần thiết. Dạng modula cung cấp những hàm như vậy ở chiều 8 và 24. Bạn không cần dựng $$f$$; điều cần hiểu là **bài toán xếp cầu đã trở thành bài toán thiết kế hàm**. Đó là lý do một Huy chương Fields có thể được trao cho việc dựng đúng một hàm phụ trợ, chứ không phải cho việc xếp thêm cam.
+Nói gần đúng: nếu một hàm Schwartz xuyên tâm $$f$$ trên $$\mathbb{R}^n$$ thỏa mãn $$f(x)\le 0$$ khi $$\lvert x\rvert\ge 1$$ và $$\hat f(\xi)\ge 0$$ với mọi $$\xi$$, trong đó $$f(0)$$ và $$\hat f(0)$$ dương, thì mật độ xếp cầu bị chặn trên bởi một hằng số tính từ $$f(0)/\hat f(0)$$ (sau khi đổi tỉ lệ). Công thức tổng Poisson là cầu nối: nó liên hệ tổng giá trị của $$f$$ trên lưới với tổng giá trị của $$\hat f$$ trên lưới đối ngẫu, biến điều kiện hình học "không chồng lên nhau" thành điều kiện về dấu trong giải tích. Để cận này chính xác, cần một hàm "vừa khít" với tập các khoảng cách của lưới, tức là triệt tiêu đúng tại những bán kính cần thiết. Dạng modula cung cấp những hàm như vậy ở chiều 8 và 24. Bạn không cần dựng $$f$$; điều cần hiểu là **bài toán xếp cầu đã trở thành bài toán thiết kế hàm**. Đó là lý do một Huy chương Fields có thể được trao cho việc dựng đúng một hàm phụ trợ, chứ không phải cho việc xếp thêm cam.
 
 ### 1.6 Những điều lạ trong không gian nhiều chiều
 
@@ -109,7 +125,7 @@ $$
 V_n=\frac{\pi^{n/2}}{\Gamma(n/2+1)}
 $$
 
-tăng lên rồi $$\to 0$$ khi $$n\to\infty$$. Phần lớn thể tích của một khối lập phương nhiều chiều nằm gần biên; quả cầu chiếm ngày càng ít không gian. Mật độ xếp tốt nhất, số tiếp xúc, và sự chênh lệch giữa cách xếp theo lưới và không theo lưới thay đổi không đều theo số chiều. Nếu bạn thích các nghịch lý về thể tích, hãy xem bài thực hành [chiều thứ tư]({{ site.baseurl }}/contents/vi/chapter07/07_06_Explore_Fourth_Dimension/).
+tăng lên đến cực đại tại $$n=5$$ ($$V_5 \approx 5.264$$) rồi $$\to 0$$ khi $$n\to\infty$$ (chẳng hạn ở chiều 24, $$V_{24} \approx 0.000115$$ dù bán kính vẫn bằng 1!). Phần lớn thể tích của một khối lập phương nhiều chiều nằm gần các góc nhọn; quả cầu chiếm ngày càng ít không gian. Mật độ xếp tốt nhất, số tiếp xúc, và sự chênh lệch giữa cách xếp theo lưới và không theo lưới thay đổi không đều theo số chiều. Nếu bạn thích các nghịch lý về thể tích, hãy xem bài thực hành [chiều thứ tư]({{ site.baseurl }}/contents/vi/chapter07/07_06_Explore_Fourth_Dimension/).
 
 ---
 
@@ -194,7 +210,7 @@ Lập bảng hoặc vẽ đồ thị $$V_n$$ với $$n=1..20$$; liên hệ với
 
 1. "Cách xếp lục giác chỉ tối ưu cục bộ." Trong 2D, nó tối ưu toàn cục trong mọi cách xếp.  
 2. "Viazovska đã giải cho mọi số chiều." Chỉ chiều 8 và (cùng các đồng tác giả) chiều 24; không phải mọi $$n$$.  
-3. "Xếp theo lưới luôn tốt nhất." Điều này chưa biết trong trường hợp tổng quát; ở một số chiều, cách xếp không theo lưới có thể tốt hơn.  
+3. "Xếp theo lưới luôn tốt nhất." Điều này chưa biết trong trường hợp tổng quát; ở một số chiều (ví dụ chiều 10), cách xếp không theo lưới đã biết tốt hơn mọi lưới đã biết.  
 4. "Số tiếp xúc bằng số láng giềng trong cách xếp dày nhất." Hai đại lượng liên quan nhưng không tự động bằng nhau.  
 5. "Mật độ là đếm xem có bao nhiêu quả trong hộp." Hiệu ứng biên rất quan trọng; định nghĩa bằng giới hạn có lý do của nó.
 

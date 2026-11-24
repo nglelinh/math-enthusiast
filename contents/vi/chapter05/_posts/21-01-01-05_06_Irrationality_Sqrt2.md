@@ -9,9 +9,11 @@ categories:
 - chapter05
 ---
 
-Số $$\sqrt{2}$$ không phải là tỷ số của hai số nguyên. Phát hiện này thuộc về truyền thống Pythagore và thường được kể như một cuộc khủng hoảng của niềm tin rằng mọi độ dài đều thông ước với nhau. Đến nay nó vẫn là một trong những chứng minh nhập môn hay nhất trong giáo dục toán học. Lập luận rất ngắn nhưng **ý tưởng** sâu: giả sử có một biểu diễn tối giản, chỉ ra rằng tử và mẫu cùng chia hết cho 2, và như vậy mâu thuẫn với tính tối giản. Tính chẵn lẻ là chìa khóa để bác bỏ giả thiết "$$\sqrt{2}$$ hữu tỷ".
+Hơn hai nghìn năm trăm năm trước, trường phái Pythagore ở Hy Lạp cổ đại tôn thờ một niềm tin gần như tôn giáo: *"Vạn vật đều là số"* — nghĩa là mọi độ dài, mọi giai điệu âm nhạc và mọi tỷ lệ trong vũ trụ đều có thể diễn đạt trọn vẹn bằng **tỷ số của hai số nguyên**. Thế nhưng, ngay bên trong hình khối đơn giản nhất mà bất kỳ đứa trẻ nào cũng vẽ được — một hình vuông cạnh bằng $$1$$ — lại ẩn giấu một kẻ phá bĩnh: độ dài đường chéo $$\sqrt{2}$$.
 
-Bài này trình bày kỹ ý tưởng đó, so sánh với các cách trình bày tương đương (xuống thang vô hạn, phân tích thừa số nguyên tố đơn giản), và đặt kết quả cạnh các chứng minh tính vô tỷ khác. Mục tiêu là bạn có được một khung chứng minh có thể giảng trên bảng trong mười phút, và đủ vững để trả lời câu hỏi trong một giờ.
+Tương truyền rằng khi Hippasus xứ Metapontum chứng minh được $$\sqrt{2}$$ không thể viết thành tỷ số của hai số nguyên nào, phát hiện "phi lý" (*alogon*) ấy đã gây ra cuộc khủng hoảng nền tảng đầu tiên của lịch sử toán học. Đến tận hôm nay, lập luận ấy vẫn là một trong những chứng minh nhập môn đẹp nhất từng được viết ra: chỉ vài dòng số học sơ cấp dựa trên **tính chẵn lẻ** đã đủ đánh sập hoàn toàn giả thiết "$$\sqrt{2}$$ là số hữu tỷ".
+
+Bài này đi sâu vào bộ khung của lập luận cổ điển đó, đặt nó cạnh phương pháp xuống thang vô hạn và phân tích thừa số nguyên tố, để bạn không chỉ thuộc ba dòng đại số mà còn hiểu vì sao phát hiện này buộc toán học phải mở rộng toàn bộ khái niệm về con số.
 
 ---
 
@@ -30,9 +32,30 @@ Sau bài học, bạn có thể:
 
 ---
 
-## 1. Thông ước và cách nhìn hình học
+## Bản đồ kiến thức nền: Hệ thống số, lý thuyết chia hết và phương pháp xuống thang là gì?
 
-Hai độ dài được gọi là **thông ước** nếu có một đơn vị chung sao cho mỗi độ dài bằng một số nguyên lần đơn vị đó; điều này tương đương với tỷ số của chúng là số hữu tỷ. Đường chéo của hình vuông cạnh 1 dài $$\sqrt{2}$$. Nếu $$\sqrt{2}$$ hữu tỷ thì cạnh và đường chéo thông ước. Chứng minh tính vô tỷ cho thấy điều ngược lại: không có cây thước chung nào đo được cả hai một số nguyên lần.
+Để nhìn ra tầm vóc của chứng minh tưởng như "dễ" này, hãy đặt nó lên bản đồ phát triển của **Lý thuyết số** và **Đại số**:
+
+- **Tháp mở rộng các hệ thống số:** Mỗi khi một phép toán tự nhiên chạm trần, toán học lại mở rộng vũ trụ số: số tự nhiên $$\mathbb{N}$$ không đủ để trừ sinh ra số nguyên $$\mathbb{Z}$$; số nguyên không đủ để chia sinh ra số hữu tỷ $$\mathbb{Q}$$; số hữu tỷ vẫn còn "lỗ hổng" (như đường chéo $$\sqrt{2}$$) sinh ra số thực $$\mathbb{R}$$; và phương trình $$x^2 + 1 = 0$$ sinh ra số phức $$\mathbb{C}$$.
+- **Số vô tỷ đại số so với số siêu việt:** Trong thế giới số vô tỷ, $$\sqrt{2}$$ là một **số đại số** vì nó là nghiệm của đa thức hệ số nguyên đơn giản $$x^2 - 2 = 0$$. Ngược lại, $$\pi$$ và $$e$$ là **số siêu việt** — không là nghiệm của bất kỳ đa thức hệ số nguyên nào, và chứng minh tính vô tỷ hay siêu việt của chúng khó hơn $$\sqrt{2}$$ gấp nhiều lần.
+- **Tính chia hết và xuống thang vô hạn:** Vũ khí thực sự của chứng minh không phải là phép xấp xỉ thập phân, mà là **tính nguyên tử của số nguyên tố** (số mũ của $$2$$ trong phân tích thừa số, hay định giá $$2$$-adic $$v_2$$) kết hợp với **Nguyên lý sắp thứ tự tốt** của số tự nhiên: *không thể có một dãy số nguyên dương giảm ngặt mãi mãi*. Đó chính là gốc rễ của phương pháp xuống thang vô hạn mà Fermat sẽ dùng hàng nghìn năm sau.
+
+---
+
+## 1. Từ nghịch lý "cây thước chia nhỏ mãi vẫn không vừa" đến định lý
+
+Trong đời sống và kỹ thuật, ta luôn có cảm giác rằng chỉ cần chia nhỏ vạch thước thêm nữa — từ milimet xuống micromet rồi nanomet — thì sớm muộn gì cũng có một đơn vị siêu nhỏ đo **vừa khít** cả cạnh lẫn đường chéo của hình vuông. Hãy thử kiểm tra bằng những phân số xấp xỉ cực tốt của $$\sqrt{2} \approx 1.41421356\ldots$$:
+
+| Phân số thử $$p/q$$ | Giá trị thập phân | $$p^2$$ | $$2q^2$$ | Sai lệch $$p^2 - 2q^2$$ |
+|---------------------|-------------------|---------|----------|-------------------------|
+| $$7/5$$ | $$1.40000$$ | $$49$$ | $$50$$ | $$-1$$ |
+| $$17/12$$ | $$1.41667$$ | $$289$$ | $$288$$ | $$+1$$ |
+| $$41/29$$ | $$1.41379$$ | $$1681$$ | $$1682$$ | $$-1$$ |
+| $$99/70$$ | $$1.41429$$ | $$9801$$ | $$9800$$ | $$+1$$ |
+
+Thật kỳ lạ: ta có thể tiến sát $$\sqrt{2}$$ đến mức sai số nhỏ hơn một phần triệu, nhưng phương trình nguyên $$p^2 = 2q^2$$ thì **luôn luôn lệch ít nhất $$1$$ đơn vị**!
+
+Hai độ dài được gọi là **thông ước** nếu có một đơn vị chung sao cho mỗi độ dài bằng một số nguyên lần đơn vị đó; điều này tương đương với tỷ số của chúng là số hữu tỷ. Đường chéo của hình vuông cạnh 1 dài $$\sqrt{2}$$. Nếu $$\sqrt{2}$$ hữu tỷ thì cạnh và đường chéo thông ước. Chứng minh tính vô tỷ cho thấy điều ngược lại: không có cây thước chung nào — dù tinh vi đến cỡ nguyên tử — đo được cả hai một số nguyên lần.
 
 Toán học Hy Lạp không dùng khái niệm số thực như ngày nay; phát hiện này thường được diễn đạt bằng các đại lượng không thông ước. Cách viết hiện đại dùng số nguyên và bình phương vì đó là cách trình bày đại số gọn nhất của cùng ý tưởng.
 
@@ -112,7 +135,7 @@ $$
 k^2=2\ell^2
 $$
 
-với $$k$$ là số nguyên dương và $$k<p$$. Lặp lại mãi, ta được một dãy số nguyên dương giảm vô hạn, điều này không thể xảy ra.
+với $$k$$ là số nguyên dương và $$k<p$$. Lặp lại mãi, ta được một dãy số nguyên dương giảm vô hạn $$p > k > \cdots > 0$$, điều này không thể xảy ra.
 
 Đây là phương pháp **xuống thang vô hạn** của Fermat: từ một nghiệm ta tạo ra một nghiệm nhỏ hơn, và cứ thế mãi. Lập luận bằng phân số tối giản và lập luận xuống thang là hai cách trình bày của cùng một mâu thuẫn.
 
@@ -132,6 +155,8 @@ Với $$\sqrt{3}$$, giả sử $$p^2=3q^2$$ ở dạng tối giản. Khi đó $$
 
 **Nếu một số nguyên tố chia hết một tích (hoặc một bình phương) thì nó chia hết một thừa số (hoặc cơ số).**
 
+Hãy thử kiểm tra vì sao chứng minh **thất bại một cách hoàn hảo** khi thay $$2$$ bằng $$4$$: nếu $$p^2 = 4q^2$$, từ $$4 \mid p^2$$ ta **không** suy ra được $$4 \mid p$$ (chỉ cần $$p$$ chẵn là $$p^2$$ đã chia hết cho $$4$$ rồi — ví dụ $$p = 2, q = 1$$ cho $$2^2 = 4 \cdot 1^2$$). Bước chuyển "$$4 \mid p^2 \Rightarrow 4 \mid p$$" bị gãy ngay lập tức, cứu $$\sqrt{4} = 2$$ khỏi mâu thuẫn!
+
 Với số nguyên tố $$p$$ bất kỳ, cùng lập luận cho thấy $$\sqrt{p}$$ vô tỷ. Với $$n$$ không phải số chính phương, $$\sqrt{n}$$ vô tỷ; cách chứng minh gọn nhất hiện nay dùng định lý phân tích thừa số nguyên tố duy nhất. Chứng minh cho $$\sqrt{2}$$ là khởi đầu của cả họ kết quả này.
 
 ---
@@ -143,9 +168,7 @@ Với số nguyên tố $$p$$ bất kỳ, cùng lập luận cho thấy $$\sqrt{
 - **Văn hóa chứng minh.** Đưa về dạng chuẩn (tối giản), bổ đề chẵn lẻ, phương pháp xuống thang là những công cụ dùng lại được nhiều lần.  
 - **Ý thức lịch sử.** Sự không thông ước buộc toán học Hy Lạp phải vượt ra ngoài cách đo chỉ bằng số hữu tỷ.
 
-Trong [cuộc trò chuyện với Big Think](https://www.youtube.com/watch?v=OOMx2BHHWtE) về cuốn sách sắp ra mắt *Six Math Essentials*, Terence Tao đặt cú sốc này vào câu chuyện dài hơn về **việc mở rộng hệ thống số**. Phép đếm dẫn đến phép cộng và phép trừ; phép trừ đòi hỏi phải tạo ra số âm và số không để đẳng thức $$(A-B)+B=A$$ vẫn đúng khi $$B>A$$. Phép chia dẫn đến phân số. Rồi xuất hiện những độ dài nằm giữa mọi phân số: $$\sqrt{2}$$ không thể là một tỷ số, và từ Latin *irrational* phản ánh cảm giác "phi lý" đó. Về sau, căn bậc hai của số âm không nằm trong tập số thực, dẫn đến số phức, và số phức lại trở thành ngôn ngữ tự nhiên của điện từ học và cơ học lượng tử. Bài học ở đây không phải là "phần thập phân kéo dài mãi". Bài học là các loại số mới thường được tạo ra để các quy tắc đại số cũ tiếp tục đúng, và sau đó hóa ra lại mô tả được thế giới thực. Bài tổng hợp: [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/).
-
-Terence Tao, trong [cuộc trò chuyện Big Think](https://www.youtube.com/watch?v=OOMx2BHHWtE) cho *Six Math Essentials* sắp ra, đặt cú sốc ấy vào câu chuyện **mở rộng hệ thống số** dài hơn. Đếm gợi cộng và trừ; phép trừ phát minh số âm và số không để $$(A-B)+B=A$$ vẫn đúng khi $$B>A$$. Phép chia phát minh phân số. Rồi xuất hiện độ dài nằm giữa mọi phân số: $$\sqrt{2}$$ không thể là tỉ số, và từ Latin *irrational* ghi lại cảm giác vô lý. Về sau, căn bậc hai không chịu ở lại số thực sinh số phức, rồi số phức trở thành ngôn ngữ tự nhiên cho điện từ và cơ học lượng tử. Đạo lý không phải “thập phân kéo dài mãi.” Đạo lý là số mới thường được bịa để các luật đại số cũ khép lại—rồi hóa ra mô tả được thế giới. Hub: [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/).
+Trong [cuộc trò chuyện với Big Think](https://www.youtube.com/watch?v=OOMx2BHHWtE) về cuốn sách *Six Math Essentials*, Terence Tao đặt cú sốc này vào câu chuyện dài hơn về **việc mở rộng hệ thống số**. Phép đếm dẫn đến phép cộng và phép trừ; phép trừ đòi hỏi phải tạo ra số âm và số không để đẳng thức $$(A-B)+B=A$$ vẫn đúng khi $$B>A$$. Phép chia dẫn đến phân số. Rồi xuất hiện những độ dài nằm giữa mọi phân số: $$\sqrt{2}$$ không thể là một tỷ số, và từ Latin *irrational* phản ánh cảm giác "phi lý" đó. Về sau, căn bậc hai của số âm không nằm trong tập số thực, dẫn đến số phức, và số phức lại trở thành ngôn ngữ tự nhiên của điện từ học và cơ học lượng tử. Bài học ở đây không phải là "phần thập phân kéo dài mãi". Bài học là các loại số mới thường được tạo ra để các quy tắc đại số cũ tiếp tục đúng, và sau đó hóa ra lại mô tả được thế giới thực. Bài tổng hợp: [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/).
 
 ---
 

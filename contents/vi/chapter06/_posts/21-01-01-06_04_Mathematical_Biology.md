@@ -9,9 +9,22 @@ categories:
 - chapter06
 ---
 
-Sinh học là một thế giới ồn ào, nhiều tầng thang đo, và từng thiên về mô tả. Nhưng mọi khẳng định định lượng thành công cuối cùng đều trở thành toán: tốc độ, trạng thái cân bằng, hình học, quá trình ngẫu nhiên, suy luận từ dữ liệu thiếu. **Sinh học toán** không phải là một định lý; nó là một họ ngôn ngữ mô hình hóa, biến hệ sống thành những đối tượng có thể phân tích, mô phỏng và đôi khi điều khiển được. Điều khó là phải trung thực về thang đo: một hệ phương trình vi phân đẹp có thể đúng cho một bể trộn đều nhưng sai cho mô; một mạng ở quy mô toàn hệ gene có thể thú vị về cấu trúc mà vẫn không được xác định đủ bởi dữ liệu đo.
+Vào năm 1952, khi tên tuổi đã gắn liền với máy tính và mật mã Enigma, Alan Turing bất ngờ công bố một bài báo chẳng liên quan gì đến máy tính: ông hỏi tại sao con báo có đốm, ngựa vằn có vằn, và một quả cầu tế bào đồng nhất ban đầu lại tự phân chia thành hình hài phức tạp của sinh vật sống. Ông viết xuống hai phương trình phản ứng–khuếch tán đơn giản — và thấy hoa văn tự hiện ra từ sự mất ổn định toán học.
 
-Bài này điểm qua các lớp mô hình cốt lõi: động lực quần thể, động học phản ứng, hình thành mẫu trong không gian, biểu hiện gene ngẫu nhiên, trò chơi tiến hóa, mạng sinh học. Đồng thời luyện cách phân biệt định lý, heuristic và lời thổi phồng trong thời đại “AI cho sinh học”.
+Từ lâu, sinh học vẫn nổi tiếng là thế giới ồn ào, nhiều tầng thang đo và đầy ngoại lệ, trái ngược hẳn với vẻ sạch sẽ của vật lý. Thế nhưng hễ muốn trả lời một câu hỏi định lượng nghiêm túc — dịch bệnh sẽ đạt đỉnh vào tuần nào, một gen có thể bật/tắt ngẫu nhiên ra sao, hay loài ăn thịt và con mồi có cùng tồn tại nổi không — ta đều phải tìm đến toán học: tốc độ biến thiên, trạng thái cân bằng, hình học không gian, quá trình ngẫu nhiên và suy luận từ dữ liệu nhiễu. **Sinh học toán học** không phải là một định lý duy nhất; nó là nghệ thuật chọn đúng ngôn ngữ toán cho đúng thang đo của sự sống.
+
+Điều khó nhất trong ngành này là sự **trung thực về thang đo**: một hệ phương trình vi phân đẹp có thể mô tả tốt một bể vi khuẩn khuấy đều nhưng hoàn toàn sai cho một khối mô rắn; một mạng lưới tương tác ở quy mô toàn bộ hệ gen trông rất ấn tượng về mặt đồ thị nhưng vẫn không đủ tham số để dự đoán điều gì sẽ xảy ra khi tế bào nhận thuốc. Bài này điểm qua những lớp mô hình cốt lõi của sinh học toán học và giúp bạn giữ đầu óc tỉnh táo trước làn sóng “AI đã giải xong sinh học”.
+
+---
+
+## Bản đồ kiến thức nền: Sinh học toán học là gì và nghiên cứu những gì?
+
+Nếu vật lý cổ điển thường đi tìm *một* phương trình nền tảng đúng ở mọi nơi, thì **Sinh học Toán học** (Mathematical Biology) lại hoạt động giống như một xưởng chế tác bản đồ ở nhiều tỷ lệ khác nhau. Tùy vào câu hỏi sinh học bạn đang hỏi, ngôn ngữ toán học thay đổi hoàn toàn:
+
+1. **Ở thang quần thể và dịch tễ (Phương trình vi phân thường — ODE):** Bỏ qua vị trí từng cá thể, ta theo dõi tổng số lượng (hoặc tỷ lệ) các nhóm theo thời gian: mô hình tăng trưởng logistic, thú ăn thịt–con mồi Lotka–Volterra, hay mô hình dịch bệnh SIR.
+2. **Ở thang mô và hình thái học (Phương trình đạo hàm riêng — PDE):** Khi không gian đóng vai trò quyết định — tế bào di chuyển, hóa chất khuếch tán qua mô phôi — ta cần PDE phản ứng–khuếch tán để giải thích sóng lan truyền và sự hình thành mẫu (mẫu Turing).
+3. **Ở thang bên trong tế bào (Quá trình ngẫu nhiên — Xích Markov & Phương trình Master):** Trong một tế bào đơn lẻ, có những loại phân tử mRNA chỉ tồn tại vài bản sao. Lúc này khái niệm "nồng độ liên tục" sụp đổ; từng phản ứng hóa học riêng lẻ là một cú tung xúc xắc ngẫu nhiên.
+4. **Ở thang tiến hóa và hệ thống (Lý thuyết trò chơi & Đồ thị):** Chọn lọc tự nhiên không chỉ là bài toán tối ưu hóa tĩnh, mà là trò chơi nhiều bên nơi độ thích nghi của một chiến lược phụ thuộc vào việc *những cá thể khác đang chơi chiến lược gì*; còn mạng lưới gen và protein tạo nên các đồ thị phản hồi phức tạp.
 
 ---
 
@@ -51,7 +64,7 @@ $$
 \frac{dN}{dt}=rN\Bigl(1-\frac{N}{K}\Bigr).
 $$
 
-mô tả tăng trưởng bị giới hạn bởi sức chứa $$K$$. Mô hình **SIR** chia quần thể thành ba nhóm: nhạy cảm (susceptible), nhiễm (infected), hồi phục (recovered), với lây nhiễm theo định luật tác dụng khối lượng:
+mô tả tăng trưởng bị giới hạn bởi sức chứa $$K$$: khi $$N \ll K$$, quần thể tăng gần như theo hàm mũ với tốc độ $$r$$; khi $$N$$ tiến gần $$K$$, nguồn lực cạn dần khiến tốc độ tăng chậm lại và dừng ở $$K$$. Mô hình **SIR** chia quần thể thành ba nhóm: nhạy cảm (susceptible), nhiễm (infected), hồi phục (recovered), với lây nhiễm theo định luật tác dụng khối lượng (tỷ lệ gặp gỡ giữa người nhạy cảm và người nhiễm tỉ lệ với tích $$SI$$):
 
 $$
 \dot S=-\beta SI,\quad
@@ -59,7 +72,7 @@ $$
 \dot R=\gamma I.
 $$
 
-$$R_0$$ xuất hiện khi tuyến tính hóa tại điểm cân bằng không có bệnh: nếu $$R_0>1$$ thì dịch có thể xâm nhập, trong mô hình đã được lý tưởng hóa.
+$$R_0$$ xuất hiện khi tuyến tính hóa tại điểm cân bằng không có bệnh: nếu $$R_0>1$$ thì dịch có thể xâm nhập, trong mô hình đã được lý tưởng hóa. Hãy thử một con số cụ thể để có cảm giác: nếu trung bình một người nhiễm mất 5 ngày để hồi phục ($$\gamma = 0.2$$ mỗi ngày) và tốc độ lây $$\beta = 0.6$$ mỗi ngày, thì $$R_0 = \beta/\gamma = 3$$. Khi quần thể ban đầu gần như hoàn toàn nhạy cảm ($$S \approx 1$$), số ca nhiễm tăng vọt cho tới khi tỷ lệ người chưa miễn dịch tụt xuống dưới ngưỡng $$S = 1/R_0 = 1/3$$ — lúc đó $$\dot I = 0$$ và dịch đạt đỉnh!
 
 **Phần là định lý:** tiêu chí ổn định địa phương cho điểm cân bằng của ODE trơn; các định lý ngưỡng trong mô hình dịch có cấu trúc với giả thiết nêu rõ. **Phần là phán đoán khi xây mô hình:** chọn các ngăn, cấu trúc tiếp xúc, tham số thay đổi theo thời gian, phản ứng hành vi của con người. Truyền thông về dịch bệnh (thời COVID) dễ trộn các lớp này với nhau. Người đọc cần tách hệ quả toán học của mô hình khỏi việc khớp số liệu và khỏi chính sách.
 
@@ -73,7 +86,7 @@ $$
 \dot x=\Gamma\, v(x),
 $$
 
-trong đó $$v(x)$$ là tốc độ phản ứng (đa thức theo định luật tác dụng khối lượng, Michaelis–Menten, Hill, …). Lý thuyết mạng phản ứng hóa học (CRNT, lý thuyết deficiency) cho những kết quả cấu trúc về sự tồn tại và duy nhất của điểm cân bằng dương, hoặc về việc không có nhiều trạng thái dừng, với một số lớp mạng. Những kết quả này đọc được một phần từ đồ thị của mạng, không phụ thuộc vào hằng số tốc độ.
+trong đó $$v(x)$$ là tốc độ phản ứng (đa thức theo định luật tác dụng khối lượng, Michaelis–Menten, Hill, …). Trực giác của ma trận $$\Gamma$$ rất gọn: mỗi cột là một phản ứng hóa học, ghi rõ phản ứng đó tiêu thụ bao nhiêu phân tử chất nào (số âm) và sinh ra bao nhiêu phân tử chất nào (số dương). Lý thuyết mạng phản ứng hóa học (CRNT, lý thuyết deficiency) cho những kết quả cấu trúc về sự tồn tại và duy nhất của điểm cân bằng dương, hoặc về việc không có nhiều trạng thái dừng, với một số lớp mạng. Những kết quả này đọc được một phần từ đồ thị của mạng, không phụ thuộc vào hằng số tốc độ.
 
 Sinh học hệ thống xây dựng những mạng lớn (chuyển hóa, truyền tín hiệu). Các định luật bảo toàn và elementary flux mode là phần toán; còn dự đoán bằng số cần tham số, mà nhiều tham số lại ít được biết. Tính xác định được của tham số (identifiability) và hiện tượng “sloppiness” của mô hình nhiều tham số là vùng biên giao nhau giữa đại số, thống kê và thiết kế thí nghiệm.
 
@@ -87,7 +100,7 @@ $$
 \partial_t u=D\Delta u+f(u),
 $$
 
-với ma trận khuếch tán $$D$$ và động học cục bộ $$f$$. **Turing** (1952) chỉ ra rằng khuếch tán, vốn thường được nghĩ là làm mịn, lại có thể **làm mất ổn định** trạng thái cân bằng đồng nhất và tạo ra mẫu không gian, nếu động học có dạng activator–inhibitor. Đây là một cơ chế dựa trên ổn định tuyến tính; nó không phải lời giải chung cho vằn ngựa vằn, phôi thai hay hình dạng đô thị.
+với ma trận khuếch tán $$D$$ và động học cục bộ $$f$$. **Turing** (1952) chỉ ra rằng khuếch tán, vốn thường được nghĩ là làm mịn (như giọt mực loang đều trong cốc nước), lại có thể **làm mất ổn định** trạng thái cân bằng đồng nhất và tạo ra mẫu không gian, nếu động học có dạng activator–inhibitor. Hãy hình dung một đám cháy nhỏ trên đồng cỏ khô: lửa là chất *kích hoạt* (activator) tự lan chậm ở cục bộ, còn đội cứu hỏa cơ động bằng xe là chất *ức chế* (inhibitor) do lửa gọi tới nhưng di chuyển nhanh hơn nhiều. Đội cứu hỏa chạy ra xa dập tắt các vùng lân cận, để lại những đốm lửa cách đều nhau — chính sự chênh lệch tốc độ khuếch tán giữa chất kích hoạt chậm và chất ức chế nhanh đã tạc nên đốm và vằn! Tuy nhiên, đây là một cơ chế dựa trên ổn định tuyến tính; nó không phải lời giải chung cho vằn ngựa vằn, phôi thai hay hình dạng đô thị.
 
 Sinh thái học không gian, gradient morphogen và biofilm đều thuộc về vùng này. Điều kiện biên, miền đang tăng trưởng và mô hình không gian ngẫu nhiên (dựa trên từng cá thể) đều có thể làm đổi kết luận. Lý thuyết PDE (tồn tại, tính chính quy, hành vi dài hạn) cho ta định lý; còn khớp chúng với phôi thật mới cho ta khoa học.
 
@@ -95,7 +108,7 @@ Sinh thái học không gian, gradient morphogen và biofilm đều thuộc về
 
 ## 4. Ngẫu nhiên: khi số phân tử ít
 
-Trong tế bào, có những loài chỉ có vài chục bản sao. Khi đó ODE liên tục có thể đánh lừa ta. **Phương trình master hóa học** mô tả sự tiến hóa của $$P(n,t)$$, xác suất có $$n$$ bản sao; thuật toán Gillespie lấy mẫu các quỹ đạo. Biểu hiện gene theo kiểu “bùng nổ” tạo phân bố mRNA và protein có phương sai lớn hơn Poisson. Nhiễu có thể là một tính năng (chiến lược phòng hờ rủi ro) hoặc một lỗi (làm hệ dễ vỡ).
+Trong tế bào, có những loài chỉ có vài chục bản sao — thậm chí chỉ có 1 hoặc 2 bản sao của một gen. Khi đó ODE liên tục có thể đánh lừa ta: nghiệm trung bình nói rằng nồng độ vẫn dương nhẹ, trong khi thực tế một quỹ đạo ngẫu nhiên có thể chạm đúng số 0 và tuyệt chủng hẳn. **Phương trình master hóa học** mô tả sự tiến hóa của $$P(n,t)$$, xác suất có $$n$$ bản sao; thuật toán Gillespie lấy mẫu các quỹ đạo. Biểu hiện gene theo kiểu “bùng nổ” (gen thỉnh thoảng mở ra sản xuất liền một mẻ lớn mRNA rồi lại đóng im lìm) tạo phân bố mRNA và protein có phương sai lớn hơn phân bố Poisson. Nhiễu có thể là một tính năng (chiến lược phòng hờ rủi ro giúp một nhóm nhỏ vi khuẩn sống sót trước kháng sinh) hoặc một lỗi (làm hệ dễ vỡ).
 
 Về toán, đây là xích Markov thời gian liên tục trên không gian đếm được, cùng với đóng moment, các lập luận heuristic về độ lệch lớn, và mô hình lai ghép giữa công tắc rời rạc với nồng độ liên tục. **Định lý và xấp xỉ:** nghiệm chính xác của phương trình master hiếm khi có được; các xấp xỉ khuếch tán (Fokker–Planck, Langevin) kiểm soát được trong một số chế độ tỷ lệ, còn ở chế độ khác thì chỉ là kinh nghiệm.
 
@@ -109,7 +122,9 @@ $$
 \dot x_i=x_i\bigl((Ax)_i-x^\top Ax\bigr)
 $$
 
-với $$x$$ là tần số các chiến lược và $$A$$ là ma trận lợi ích. Cảnh quan thích nghi (fitness landscape), động lực thích nghi, các mô hình đa locus nối hệ động lực với xác suất. Dữ liệu genome còn thêm vào suy luận thống kê: phát sinh loài (cây cùng mô hình Markov về thay thế), kiểm định chọn lọc, lịch sử nhân khẩu. Mỗi lớp đều có hàm hợp lý và nguy cơ chọn sai mô hình.
+với $$x$$ là tần số các chiến lược và $$A$$ là ma trận lợi ích. Đọc phương trình này bằng lời rất tự nhiên: chiến lược thứ $$i$$ tăng tỷ lệ trong quần thể đúng khi lợi ích kỳ vọng của nó $$(Ax)_i$$ cao hơn mức trung bình toàn quần thể $$x^\top Ax$$. Chẳng hạn, trong trò chơi Kéo–Búa–Bao của ba chủng vi khuẩn *E. coli* (chủng tiết độc tố, chủng kháng độc tố, chủng nhạy cảm), không chiến lược nào thống trị tuyệt đối mà ba quần thể rượt đuổi nhau theo chu kỳ.
+
+Cảnh quan thích nghi (fitness landscape), động lực thích nghi, các mô hình đa locus nối hệ động lực với xác suất. Dữ liệu genome còn thêm vào suy luận thống kê: phát sinh loài (cây cùng mô hình Markov về thay thế), kiểm định chọn lọc, lịch sử nhân khẩu. Mỗi lớp đều có hàm hợp lý và nguy cơ chọn sai mô hình.
 
 ---
 

@@ -9,15 +9,15 @@ categories:
 - chapter03
 ---
 
-Nếu hình học là ngôn ngữ của không – thời gian, thì **đối xứng** là ngôn ngữ của các định luật bảo toàn và của việc phân loại hạt. Vật lý hạt thế kỷ 20 đã đặt cược vào một ý tưởng chính xác: các lực cơ bản và các nhóm hạt vật chất (multiplet) được tổ chức bởi các **nhóm liên tục**, đặc biệt là các nhóm Lie compact như $$U(1)$$, $$SU(2)$$, $$SU(3)$$, đóng vai trò **đối xứng gauge** hoặc đối xứng vị (flavor) toàn cục.
+Vào đầu thập niên 1960, các máy gia tốc hạt khiến giới vật lý bối rối khi liên tục bắn ra hàng chục loại hạt hạ nguyên tử mới trông lộn xộn chẳng khác gì một "sở thú hạt" không có quy luật. Thế rồi năm 1962, nhà vật lý Murray Gell-Mann thử xếp các hạt này theo **lý thuyết biểu diễn của một nhóm đối xứng toán học liên tục có tên $$SU(3)$$**. Khi vẽ xong hình tam giác phân loại gồm 10 vị trí, ông thấy 9 vị trí đã có hạt lấp đầy — còn đúng **một ô trống duy nhất ở đỉnh dưới cùng**. Chỉ dựa vào tính đối xứng của nhóm $$SU(3)$$, Gell-Mann mạnh dạn tiên đoán khối lượng, điện tích và độ lạ của hạt còn thiếu (hạt $$\Omega^-$$). Hai năm sau, phòng thí nghiệm Brookhaven tìm thấy hạt $$\Omega^-$$ đúng y hệt các con số toán học đã chỉ ra!
 
-Bài này nối các ý tưởng toán học về nhóm Lie và biểu diễn với những kết quả vật lý: dòng bảo toàn Noether, quy tắc chọn lọc, và nhóm gauge của Mô hình Chuẩn
+Nếu hình học là ngôn ngữ của không–thời gian và hấp dẫn, thì **đối xứng liên tục** chính là bản thiết kế kiến trúc của các định luật bảo toàn và bảng tuần hoàn của thế giới hạ nguyên tử. Toàn bộ **Mô hình Chuẩn (Standard Model)** của vật lý hạt hiện đại được dựng trên một biểu thức nhóm Lie cực kỳ cô đọng:
 
 $$
-G_{\mathrm{SM}} = U(1)_Y \times SU(2)_L \times SU(3)_c
+G_{\mathrm{SM}} = U(1)_Y \times SU(2)_L \times SU(3)_c.
 $$
 
-ở mức ý tưởng. Nên đọc kèm bài về vẻ đẹp của [Đối xứng]({{ site.baseurl }}/contents/vi/chapter04/04_04_Symmetry/) và bài về các lực [Gauge như hình học]({{ site.baseurl }}/contents/vi/chapter06/06_19_Gauge_Geometry_YM/).
+Bài học này giải mã biểu thức tưởng chừng bí hiểm ấy ở mức trực giác đại học: nhóm Lie là gì, vì sao vật lý cần lý thuyết biểu diễn, định lý Noether nối đối xứng với bảo toàn ra sao, và sự khác biệt then chốt giữa đối xứng toàn cục với đối xứng gauge. Nên đọc kèm bài [Đối xứng]({{ site.baseurl }}/contents/vi/chapter04/04_04_Symmetry/) và [Gauge như hình học]({{ site.baseurl }}/contents/vi/chapter06/06_19_Gauge_Geometry_YM/).
 
 ---
 
@@ -36,80 +36,110 @@ Sau bài học, bạn có thể:
 
 ---
 
+## Bản đồ kiến thức nền: Lý thuyết nhóm Lie và lý thuyết biểu diễn là gì, nghiên cứu những gì?
+
+Khi nhắc đến "đối xứng", ta thường nghĩ đến một bông tuyết hay hình vuông: xoay $$90^\circ$$ nó trùng khít chính nó — đó là **nhóm hữu hạn (đối xứng rời rạc)**. Nhưng một hình tròn hay quả cầu có thể xoay đi một góc **bất kỳ** $$\theta \in [0, 2\pi)$$ một cách mượt mà, liên tục không đứt quãng!
+
+Cuối thế kỷ XIX, nhà toán học Na Uy Sophus Lie đã kết hợp hai ngành tưởng chừng tách biệt — **đại số** (cấu trúc nhóm) và **giải tích/hình học** (đa tạp trơn để lấy đạo hàm) — để tạo ra **nhóm Lie (Lie group)**:
+
+1. **Nhóm Lie:** một họ các phép biến đổi đối xứng thay đổi trơn tru theo tham số liên tục (như tập mọi phép quay 3D $$SO(3)$$, hay tập các ma trận unita $$SU(n)$$).
+2. **Đại số Lie:** thay vì phải xử lý cả nhóm Lie cong phức tạp, ta chỉ cần phóng to sát quanh phép biến đổi đơn vị (xoay một góc vô cùng bé $$\varepsilon$$). Tập các "vận tốc xoay tức thời" đó lập thành một không gian vectơ phẳng gọi là **đại số Lie**, nơi mọi thứ trở lại tuyến tính gọn gàng — kèm theo phép giao hoán tử $$[X,Y] = XY - YX$$ ghi nhớ việc thứ tự xoay có quan trọng hay không!
+3. **Lý thuyết biểu diễn (Representation Theory):** nghiên cứu mọi cách có thể để hiện thực hóa một nhóm trừu tượng thành các **ma trận** tác động lên không gian vectơ $$V$$. Nhờ đó ta phân rã được không gian phức tạp thành những "khối nguyên tử" bất khả quy — và trong cơ học lượng tử, mỗi khối bất khả quy đó chính là một **họ hạt cơ bản**!
+
+---
+
 ## 1. Nhóm, họ liên tục và đại số Lie
 
-**Nhóm** là một tập hợp có phép nhân kết hợp, có phần tử đơn vị và phần tử nghịch đảo; đó là cấu trúc của các phép đối xứng có thể ghép nối tiếp nhau. **Nhóm Lie** là nhóm đồng thời là một đa tạp trơn, nên các phép đối xứng tạo thành một họ liên tục: các phép quay $$SO(3)$$, các ma trận unita $$U(n)$$, các ma trận unita đặc biệt $$SU(n)$$ (định thức bằng 1).
+**Nhóm** là một tập hợp có phép nhân kết hợp, có phần tử đơn vị và phần tử nghịch đảo; đó là ngôn ngữ đại số của mọi phép đối xứng có thể ghép nối tiếp nhau. **Nhóm Lie** là nhóm đồng thời là một đa tạp trơn, tiêu biểu là:
+- $$U(1)$$: các số phức có mô-đun bằng 1 ($$e^{i\theta}$$, hình học là một đường tròn).
+- $$SO(3)$$: các ma trận quay $$3\times 3$$ trong không gian 3D.
+- $$SU(n)$$: các ma trận phức unita $$n\times n$$ ($$U^\dagger U = I$$) có định thức bằng 1.
 
-Gần phần tử đơn vị, nhóm Lie được mô tả bởi **đại số Lie**: không gian tiếp xúc tại đơn vị, với móc Lie $$[X,Y]$$ đo mức độ không giao hoán của các phép biến đổi vô cùng bé. Với nhóm ma trận, đại số Lie gồm các ma trận đóng kín với phép lấy giao hoán tử.
+**Ví dụ trực quan bằng ma trận: từ Đại số Lie sang Nhóm Lie.** Xét nhóm quay 2D $$SO(2)$$: mọi phép quay góc $$\theta$$ là ma trận
+$$
+R(\theta) = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}.
+$$
+Lấy đạo hàm tại $$\theta = 0$$ (phép quay vô cùng bé), ta thu được đúng một ma trận sinh duy nhất của đại số Lie: $$J = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$$. Phép lũy thừa ma trận nối ngược lại từ đại số phẳng về nhóm cong: $$R(\theta) = \exp(\theta J)$$!
 
-**Ví dụ.** $$SU(2)$$ là nhóm các ma trận unita $$2\times 2$$ có định thức 1. Đại số Lie của nó có 3 chiều và đẳng cấu với đại số của mômen động lượng, nên spin-$$1/2$$ và lưỡng tuyến (doublet) spin đồng vị dùng chung một bộ máy toán học.
+**Ví dụ $$SU(2)$$ và bí ẩn spin-$$1/2$$.** Nhóm $$SU(2)$$ gồm các ma trận phức unita $$2\times 2$$ định thức 1. Đại số Lie của nó có 3 chiều (sinh bởi 3 ma trận Pauli), và có cấu trúc móc Lie **đẳng cấu hoàn toàn** với đại số của phép quay 3D $$SO(3)$$. Tuy nhiên, $$SU(2)$$ phủ $$SO(3)$$ tới **2 lần** (hai ma trận $$+I$$ và $$-I$$ trong $$SU(2)$$ ứng với cùng một phép quay $$0^\circ$$ trong 3D). Đó là lý do toán học sâu xa khiến một hạt electron (spin-$$1/2$$) khi quay đủ $$360^\circ$$ vẫn bị đổi dấu hàm sóng ($$\psi \to -\psi$$), phải quay đủ **$$720^\circ$$** mới trở lại đúng trạng thái ban đầu!
 
 ---
 
 ## 2. Biểu diễn: nơi các hạt "sống"
 
-Một nhóm trừu tượng trở thành vật lý khi nó **tác động lên không gian trạng thái**. Một **biểu diễn** tuyến tính là một đồng cấu
+Một nhóm trừu tượng tự nó chưa nói lên vật lý; nó chỉ trở thành vật lý khi **tác động lên không gian trạng thái lượng tử**. Một **biểu diễn tuyến tính** là một đồng cấu
 
 $$
 \rho: G \to GL(V)
 $$
 
-vào nhóm các ánh xạ tuyến tính khả nghịch trên một không gian vectơ $$V$$.
+gán cho mỗi phép đối xứng $$g\in G$$ một ma trận khả nghịch tác động lên không gian vectơ $$V$$.
 
-- **Biểu diễn bất khả quy** đóng vai trò "multiplet cơ bản".  
-- Tích tensor cho các tổ hợp nhiều hạt, nhiều quark.  
-- Đặc trưng (character) và trọng số cao nhất phân loại các biểu diễn của nhóm compact; đây là toán học thuần túy mà vật lý hạt dùng như một danh mục.
+- **Biểu diễn bất khả quy (irreducible representation):** những khối không gian con không thể tách nhỏ hơn nữa dưới tác động của $$G$$ — trong vật lý hạt, đây chính là các **họ hạt cơ bản (multiplet)**.
+- **Tích tensor:** mô tả cách ghép nhiều hạt lại với nhau (chẳng hạn ghép 3 quark trong biểu diễn 3 chiều của $$SU(3)$$ cho ra phân rã $$\mathbf{3} \otimes \mathbf{3} \otimes \mathbf{3} = \mathbf{10} \oplus \mathbf{8} \oplus \mathbf{8} \oplus \mathbf{1}$$ — con số **10** đó chính là tam giác 10 hạt mà Gell-Mann dùng để tiên đoán hạt $$\Omega^-$$!).
 
-**Chuỗi lập luận ngắn.** Xác định một loại hạt thường có nghĩa là đo **các nhãn của một biểu diễn** (spin, điện tích, chỉ số màu); chính các nhãn này quyết định những kiểu tương tác mà đối xứng cho phép.
+**Chuỗi lập luận ngắn.** Nhận diện một loại hạt cơ bản trong vật lý thực chất là đo **bộ nhãn của một biểu diễn bất khả quy** (khối lượng, spin, điện tích, chỉ số màu); chính các nhãn đại số này khóa chặt những phản ứng tương tác nào được phép xảy ra và những phản ứng nào bị cấm tuyệt đối.
 
 ---
 
 ## 3. Định lý Noether (phát biểu ý chính)
 
-Nếu định luật chuyển động không đổi dưới một họ biến đổi liên tục, thì có một dòng được bảo toàn. Tịnh tiến theo thời gian ứng với bảo toàn năng lượng; tịnh tiến trong không gian ứng với bảo toàn động lượng; phép quay ứng với bảo toàn mômen động lượng; đối xứng pha $$U(1)$$ toàn cục của một trường phức ứng với bảo toàn điện tích (trong lý thuyết thích hợp).
+Năm 1918, Emmy Noether chứng minh một trong những định lý sâu sắc nhất toàn bộ vật lý toán: **mỗi đối xứng liên tục của định luật tự nhiên (tác dụng) luôn tương ứng 1-1 với một định luật bảo toàn.**
 
-Trong lý thuyết trường, phát biểu này mang tính địa phương (phương trình liên tục $$\partial_\mu j^\mu=0$$). Định lý Noether là cầu nối từ **hình học của đối xứng** sang **việc kiểm kê các đại lượng bảo toàn**.
+| Đối xứng liên tục | Ý nghĩa trực quan | Đại lượng bảo toàn tương ứng |
+|---|---|---|
+| Tịnh tiến theo thời gian | Thí nghiệm hôm nay giống hệt hôm qua | **Năng lượng** |
+| Tịnh tiến trong không gian | Thí nghiệm ở Hà Nội giống hệt ở Paris | **Động lượng** |
+| Phép quay trong không gian ($$SO(3)$$) | Vũ trụ không có hướng ưu tiên | **Mômen động lượng** |
+| Xoay pha phức toàn cục ($$U(1)$$) | Đổi pha hàm sóng $$\psi \mapsto e^{i\alpha}\psi$$ | **Điện tích** |
+
+Trong lý thuyết trường, bảo toàn mang dạng phương trình liên tục địa phương $$\partial_\mu j^\mu=0$$ (diện tích hay năng lượng không thể biến mất ở đây rồi đột ngột hiện ra ở thiên hà khác mà phải chảy liên tục qua biên). Định lý Noether là cây cầu vàng nối **hình học đối xứng** với **bảng kiểm kê bảo toàn**.
 
 ---
 
 ## 4. Đối xứng gauge và đối xứng toàn cục
 
-| | Đối xứng toàn cục | Đối xứng gauge |
+| | Đối xứng toàn cục | Đối xứng gauge (địa phương) |
 |--|-------------------|-----------------|
-| Phép biến đổi | Cùng một phần tử nhóm cho toàn bộ không gian (cố định) | $$g(x)$$ thay đổi theo điểm không – thời gian |
-| Ý nghĩa | Đối xứng vật lý của hệ | Thường là **phần dư thừa** trong cách mô tả (cả một quỹ đạo gauge ứng với một cấu hình vật lý) |
-| Hệ quả | Tích được bảo toàn; cấu trúc multiplet | Lực xuất hiện như trường bù (liên thông) |
+| Phép biến đổi | Cùng một phần tử nhóm $$g$$ cố định cho toàn bộ vũ trụ | $$g(x)$$ thay đổi tự do theo từng điểm không–thời gian |
+| Ý nghĩa | Đối xứng vật lý thật sự của hệ | **Sự dư thừa trong cách chọn tọa độ/quy ước** (cả một quỹ đạo gauge mô tả đúng một trạng thái vật lý) |
+| Hệ quả | Đại lượng bảo toàn (Noether); phân nhóm hạt | Đòi hỏi xuất hiện **trường liên thông (trường lực)** để so sánh pha giữa các điểm |
 
-Lý thuyết Maxwell đã có đối xứng gauge $$U(1)$$: $$A_\mu\mapsto A_\mu+\partial_\mu\lambda$$. Lý thuyết Yang–Mills tổng quát hóa điều này cho nhóm $$G$$ không giao hoán. Mô hình Chuẩn kết hợp ba thành phần gauge với các biểu diễn xác định cho các fermion.
+**Trực giác cực đẹp: vì sao đối xứng gauge lại gắn liền với các lực?** Giả sử bạn có thể tự do xoay pha $$e^{i\lambda(x)}$$ của trường electron độc lập tại *mỗi điểm* $$x$$ khác nhau trong không–thời gian. Khi lấy đạo hàm $$\partial_\mu \psi$$ (so sánh $$\psi$$ ở hai điểm sát nhau), đạo hàm thường sẽ hỏng vì hai điểm đang dùng hai quy ước pha khác nhau! Muốn phép đạo hàm có ý nghĩa hình học, bạn *bắt buộc* phải đưa thêm một trường bù $$A_\mu$$ biến đổi theo $$A_\mu \mapsto A_\mu + \partial_\mu \lambda$$ vào đạo hàm hiệp biến $$D_\mu = \partial_\mu - ieA_\mu$$. Trường bù $$A_\mu$$ ấy hóa ra chính là **trường điện từ (hạt photon)**! Lý thuyết Yang–Mills tổng quát hóa chính ý tưởng này từ nhóm giao hoán $$U(1)$$ sang các nhóm không giao hoán $$SU(2), SU(3)$$.
 
-**Cơ chế Higgs (trong một câu).** Sự phá vỡ tự phát đối xứng gauge điện yếu cho các hạt $$W^\pm$$, $$Z$$ khối lượng, trong khi photon vẫn không có khối lượng; ở đây cần phân biệt đối xứng của phương trình với đối xứng của trạng thái chân không.
+**Cơ chế Higgs (trong một câu).** Các phương trình của lực điện yếu hoàn toàn đối xứng, nhưng trạng thái chân không năng lượng thấp nhất lại tự chọn một hướng cụ thể (phá vỡ đối xứng tự phát), trao khối lượng cho các hạt truyền lực yếu $$W^\pm, Z^0$$ trong khi vẫn giữ cho hạt photon không khối lượng.
 
 ---
 
 ## 5. Nhóm của Mô hình Chuẩn
 
+Toàn bộ ba lực phi hấp dẫn đã biết trong vũ trụ được tổ chức bởi tích trực tiếp của ba nhóm Lie compact:
+
 $$
 \begin{aligned}
-SU(3)_c &\quad \text{lực mạnh / màu (QCD)}\\
-SU(2)_L &\quad \text{isospin yếu (fermion trái)}\\
-U(1)_Y &\quad \text{hypercharge (trộn với }W^3\text{ thành EM)}
+SU(3)_c &\quad \text{lực mạnh / màu (QCD — giữ các quark dính chặt trong proton, neutron)}\\
+SU(2)_L &\quad \text{isospin yếu (tác động lên các fermion tay trái)}\\
+U(1)_Y &\quad \text{siêu tích (trộn với thành phần trung hòa của }SU(2)_L\text{ tạo thành điện từ)}
 \end{aligned}
 $$
 
-Quark biến đổi theo biểu diễn tam tuyến (triplet) màu; lepton là đơn tuyến (singlet) màu; tương tác yếu đối xử khác nhau với trường tay trái và tay phải (tính chiral). Đây là dữ liệu về biểu diễn, không phải chi tiết trang trí.
+**Một phép đếm đẹp đến kinh ngạc từ số chiều đại số Lie!** Với mỗi nhóm gauge $$G$$, số loại hạt boson truyền lực bằng đúng **số chiều của đại số Lie** ($$\dim U(1) = 1$$ và $$\dim SU(n) = n^2 - 1$$):
+- $$U(1)_Y$$ có $$1$$ phần tử sinh, $$SU(2)_L$$ có $$2^2 - 1 = 3$$ phần tử sinh → sau cơ chế Higgs trộn lại thành đúng **4 hạt truyền lực điện yếu**: photon ($$\gamma$$), $$W^+$$, $$W^-$$ và $$Z^0$$.
+- $$SU(3)_c$$ có $$3^2 - 1 = 8$$ phần tử sinh → tương ứng đúng **8 loại hạt gluon** truyền lực hạt nhân mạnh!
+Tổng cộng đúng **12 hạt truyền lực cơ bản** của tự nhiên, đọc ra trực tiếp từ công thức $$1 + 3 + 8 = 12$$ của lý thuyết nhóm Lie!
 
-Đây là **lý thuyết biểu diễn được áp dụng ở quy mô rất lớn**: một khi nhóm và các biểu diễn đã cố định, các đỉnh tương tác bị ràng buộc rất chặt.
+Quark sống trong biểu diễn tam tuyến màu (3 chiều) của $$SU(3)_c$$, còn lepton (như electron, neutrino) là đơn tuyến màu (1 chiều, nên không cảm nhận lực mạnh). Đây không phải chi tiết trang trí mà là **lý thuyết biểu diễn chạy ở quy mô toàn vũ trụ**.
 
 ---
 
 ## 6. Những lĩnh vực toán học được nuôi dưỡng bởi cùng ý tưởng
 
-- Lý thuyết cấu trúc của đại số Lie nửa đơn (Cartan, Killing, sơ đồ Dynkin).  
-- Vành biểu diễn, phạm trù tensor (về sau dùng cho anyon và các pha tôpô).  
-- Các nhóm và đại số vô hạn chiều trong lý thuyết trường bảo giác (CFT) và hệ khả tích.  
-- Đối ngẫu giữa nhóm $$G$$ và nhóm đối ngẫu $$G^\vee$$ trong chương trình Langlands và trong các đối ngẫu gauge ([Nguyên lý đối ngẫu]({{ site.baseurl }}/contents/vi/chapter06/06_12_Duality_Principle/)).
+- Lý thuyết cấu trúc và phân loại hoàn chỉnh các đại số Lie nửa đơn (Cartan, Killing, sơ đồ Dynkin — một trong những thành tựu đẹp nhất thế kỷ XX).  
+- Vành biểu diễn và phạm trù tensor (nay dùng cho hạt giả anyon và điện toán lượng tử tôpô).  
+- Các nhóm và đại số vô hạn chiều (đại số Virasoro, Kac–Moody) trong lý thuyết trường bảo giác (CFT).  
+- Đối ngẫu giữa nhóm $$G$$ và nhóm đối ngẫu Langlands $$G^\vee$$ kết nối vật lý đối ngẫu điện–từ với lý thuyết số ([Nguyên lý đối ngẫu]({{ site.baseurl }}/contents/vi/chapter06/06_12_Duality_Principle/)).
 
-Vật lý hạt không phát minh ra lý thuyết Lie. Nhưng suốt một thế kỷ, nó đã **chọn lọc và làm nổi bật** cách đọc dữ liệu qua biểu diễn, và trả lại cho toán học những bài toán mới (dị thường, đối xứng lượng tử).
+Vật lý hạt không phát minh ra lý thuyết Lie, nhưng suốt một thế kỷ nó đã biến lý thuyết biểu diễn thành kính hiển vi sắc bén nhất để đọc mã nguồn tự nhiên, đồng thời tặng lại cho toán học vô số bài toán sâu sắc mới.
 
 ---
 

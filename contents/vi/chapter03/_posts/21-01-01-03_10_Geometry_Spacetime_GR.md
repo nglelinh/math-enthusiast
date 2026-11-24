@@ -9,9 +9,11 @@ categories:
 - chapter03
 ---
 
-Newton xem hấp dẫn là một lực tác dụng xuyên qua một không gian tuyệt đối, với một thời gian chung cho mọi nơi. **Thuyết tương đối rộng (GR)** của Einstein thay bức tranh đó bằng một cơ chế hình học: vật chất và năng lượng làm cong không – thời gian, và một vật rơi tự do chuyển động theo đường trắc địa (geodesic) của một metric. Khái niệm "lực hấp dẫn" được hiểu lại bằng hình học.
+Ngay lúc này, ở độ cao hơn 20.000 km phía trên đầu bạn, hàng chục vệ tinh GPS đang bay quanh Trái Đất với vận tốc khoảng 14.000 km/giờ. Mỗi vệ tinh mang theo một đồng hồ nguyên tử siêu chính xác để phát tín hiệu định vị xuống điện thoại của bạn. Một sự thật ít người ngờ tới: nếu các kỹ sư không lập trình **phương trình không–thời gian cong của Einstein** vào hệ thống GPS, đồng hồ trên vệ tinh sẽ chạy nhanh hơn đồng hồ dưới mặt đất khoảng 38 micro-giây mỗi ngày — và chỉ sau 24 giờ, bản đồ trên điện thoại bạn sẽ định vị **sai lệch tới hơn 11 kilômét**!
 
-Bài này là bản đồ ở bậc đại học cho cơ chế đó, không phải một giáo trình GR. Bạn sẽ gặp metric, ý tưởng về độ cong, phương trình Einstein như một phương trình đạo hàm riêng nối hình học với tensor năng lượng – xung lượng, và một bảng phân biệt đâu là định lý, đâu là vật lý chuẩn, đâu là hình ảnh ví von phổ biến. Bài cũng chuẩn bị trực giác hình học sẽ được dùng lại trong [lý thuyết gauge]({{ site.baseurl }}/contents/vi/chapter06/06_19_Gauge_Geometry_YM/): **vật lý là các trường trên một nền hình học**, và độ cong mô tả tương tác.
+Trước năm 1915, Isaac Newton xem hấp dẫn là một "lực kéo vô hình" truyền tức thời xuyên qua không gian phẳng tuyệt đối. **Thuyết tương đối rộng (GR)** của Albert Einstein đã đảo lộn hoàn toàn bức tranh đó bằng một cú nhảy hình học táo bạo: không có "sợi dây vô hình" nào kéo Trái Đất quanh Mặt Trời cả. Vật chất và năng lượng làm **cong chính tấm vải không–thời gian**, còn hành tinh, quả táo rơi hay tia sáng chỉ đơn giản đang đi theo con đường "thẳng nhất có thể" (**đường trắc địa**) trong hình học cong ấy.
+
+Bài học này vẽ một tấm bản đồ trực giác ở bậc đại học cho cơ chế kỳ diệu đó: từ không–thời gian phẳng Minkowski, nguyên lý tương đương, metric và độ cong, đến phương trình Einstein và các kiểm chứng quan sát. Bài cũng chuẩn bị trực giác hình học sẽ được dùng lại trong [lý thuyết gauge]({{ site.baseurl }}/contents/vi/chapter06/06_19_Gauge_Geometry_YM/): **vật lý là các trường sống trên một nền hình học**, và độ cong chính là biểu hiện của tương tác.
 
 ---
 
@@ -21,7 +23,7 @@ Sau bài học, bạn có thể:
 
 - Phát biểu ý chính của **nguyên lý tương đương** và giải thích vì sao nó dẫn đến việc thay lực hấp dẫn bằng hình học của chuyển động rơi tự do.
 - Giải thích metric $$g_{\mu\nu}$$ chứa những thông tin gì (khoảng cách, góc, cấu trúc nhân quả; ở mức ý tưởng).
-- Phân biệt **thuyết tương đối hẹp** (không – thời gian Minkowski phẳng) và **thuyết tương đối rộng** (không – thời gian cong và thay đổi theo vật chất).
+- Phân biệt **thuyết tương đối hẹp** (không–thời gian Minkowski phẳng) và **thuyết tương đối rộng** (không–thời gian cong và thay đổi theo vật chất).
 - Viết phương trình Einstein dạng sơ lược $$\mathrm{Ric}-\tfrac12 Rg=8\pi T$$ và nói mỗi vế biểu diễn điều gì.
 - Trình bày **chuỗi lập luận ngắn** từ hình học đến một dự đoán (ánh sáng bị lệch, giãn thời gian do hấp dẫn) mà không cần tính toán tensor đầy đủ.
 - Tránh các cách nói sai: "mọi thứ đều tương đối", "GR chỉ là chuyện viễn tưởng về lỗ đen", "không gian cong nghĩa là một bề mặt nằm trong không gian lớn hơn mà ta luôn nhìn thấy được".
@@ -30,76 +32,96 @@ Sau bài học, bạn có thể:
 
 ---
 
+## Bản đồ kiến thức nền: Hình học vi phân và hình học Riemann là gì, nghiên cứu những gì?
+
+Ở phổ thông, hình học Euclid diễn ra trên mặt giấy phẳng: tổng ba góc tam giác luôn bằng $$180^\circ$$ và hai đường thẳng song song không bao giờ cắt nhau. Nhưng mặt Trái Đất là hình cầu — nếu hai máy bay cùng xuất phát từ Xích Đạo bay thẳng về hướng Bắc (ban đầu song song nhau), chúng vẫn sẽ đâm sầm vào nhau tại Bắc Cực, và tổng ba góc một tam giác lớn trên địa cầu luôn **lớn hơn $$180^\circ$$**!
+
+Vào thế kỷ XIX, Carl Friedrich Gauss và học trò Bernhard Riemann đã xây dựng **hình học vi phân (differential geometry)** và **hình học Riemann** để nghiên cứu những không gian cong tổng quát ở mọi số chiều thông qua ba ý tưởng cốt lõi:
+
+1. **Đa tạp (Manifold):** một không gian mà nếu phóng to cực sát quanh bất kỳ điểm nào thì trông nó phẳng như $$\mathbb{R}^n$$ (giống mặt Trái Đất nhìn từ sân nhà bạn), nhưng ghép toàn cục lại thì có thể cong và khép kín.
+2. **Tensor Metric $$g_{\mu\nu}$$:** một "cây thước đo cục bộ" đặt tại mỗi điểm, cho phép tính độ dài cung đường, góc giữa hai hướng và diện tích mà không cần hệ tọa độ vuông góc toàn cục.
+3. **Độ cong nội tại (Intrinsic Curvature):** định lý tuyệt vời của Gauss (*Theorema Egregium*) chứng minh rằng một chú kiến sống trên mặt cầu hoàn toàn có thể **tự đo được độ cong của vũ trụ mình** (bằng cách đo tổng ba góc tam giác hoặc chu vi hình tròn so với $$2\pi r$$) mà **không hề cần bước ra không gian 3 chiều bên ngoài để nhìn vào**.
+
+Khi Einstein đi tìm ngôn ngữ toán học cho thuyết tương đối rộng vào đầu thập niên 1910, toàn bộ bộ máy hình học Riemann đã nằm sẵn trên giá sách — chỉ cần đổi một dấu trừ cho chiều thời gian (hình học Lorentz)!
+
+---
+
 ## 1. Thuyết tương đối hẹp là hình học phẳng
 
-**Không – thời gian Minkowski** là $$\mathbb{R}^4$$ với một tích vô hướng không xác định dấu (quy ước về dấu có thể khác nhau giữa các sách)
+**Không–thời gian Minkowski** là $$\mathbb{R}^4$$ trang bị một "tích vô hướng" có dấu hỗn hợp (quy ước dấu có thể khác nhau giữa các giáo trình):
 
 $$
 ds^2 = -c^2\,dt^2 + dx^2 + dy^2 + dz^2.
 $$
 
-Khoảng không – thời gian, nón ánh sáng và việc tốc độ ánh sáng không đổi đều là các khái niệm hình học. Phép biến đổi Lorentz là phép đẳng cự tuyến tính của metric này. Ở đây **chưa có hấp dẫn**: không – thời gian chỉ là một sân khấu cố định.
+Chính dấu trừ trước $$c^2\,dt^2$$ tạo ra toàn bộ vật lý kỳ diệu của thuyết tương đối hẹp:
+- Với tia sáng di chuyển với tốc độ $$c$$, ta có $$ds^2 = 0$$ (**nón ánh sáng** chia quá khứ – tương lai nhân quả khỏi những sự kiện không thể tác động tới nhau).
+- Phép biến đổi Lorentz chính là các phép "quay hyperbolic" bảo toàn khoảng $$ds^2$$.
 
-**Hiểu đúng.** "Tương đối" có nghĩa là các định luật **có cùng dạng dưới một nhóm đối xứng xác định**, cùng với cách định nghĩa thời gian và độ dài bằng phép đo. Nó không có nghĩa là "muốn hiểu sao cũng được".
+Ở đây **chưa có hấp dẫn**: không–thời gian Minkowski giống như một sân khấu cứng, phẳng và cố định vĩnh viễn.
+
+**Hiểu đúng.** "Tương đối" không có nghĩa là "mọi thứ đều tùy quan điểm". Ngược lại, nó khẳng định các định luật vật lý và những đại lượng hình học bất biến (tốc độ ánh sáng $$c$$, khoảng $$ds^2$$, cấu trúc nhân quả) là **tuyệt đối giống nhau** dưới nhóm đối xứng Lorentz.
 
 ---
 
-## 2. Từ nguyên lý tương đương đến không – thời gian cong
+## 2. Từ nguyên lý tương đương đến không–thời gian cong
 
-Phát biểu đơn giản: trong một phòng thí nghiệm nhỏ đang rơi tự do, không thể phân biệt hấp dẫn tại chỗ với trạng thái không có hấp dẫn (trừ hiệu ứng thủy triều). Einstein biến điều này thành nguyên lý xây dựng lý thuyết: **hấp dẫn không phải là một trường lực trên một sân khấu cứng; chính sân khấu có hình học, và vật rơi tự do đi theo hình học đó.**
+Năm 1907, Einstein có cái ông gọi là "ý nghĩ hạnh phúc nhất đời mình": nếu một người rơi tự do trong thang máy đứt cáp, anh ta sẽ không cảm thấy trọng lượng của chính mình — quả táo buông tay ra sẽ lơ lửng ngay trước mặt anh ta hệt như đang trôi ngoài vũ trụ không trọng lực!
 
-Lực thủy triều, tức là gia tốc tương đối giữa các quỹ đạo rơi tự do gần nhau, trở thành **độ cong**. Nếu có thể "làm thẳng" mọi quỹ đạo rơi tự do cùng lúc ở khắp nơi, thì độ cong bằng không và ta quay về thuyết tương đối hẹp.
+Từ **nguyên lý tương đương** đó, Einstein rút ra bước ngoặt: *tại một vùng đủ nhỏ, ta không thể phân biệt rơi tự do trong trường hấp dẫn với việc trôi lơ lửng trong không gian phẳng.* Vậy thì dấu vết thật sự, không thể xóa nhòa của hấp dẫn nằm ở đâu?
+
+**Trực giác về lực thủy triều = Độ cong.** Hãy thả hai quả táo cách nhau 1 mét rơi tự do về phía Trái Đất. Vì cả hai đều hướng về **tâm Trái Đất**, quỹ đạo của chúng không song song mãi mà sẽ **xích lại gần nhau dần** (tương tự hai người đi thẳng từ Xích Đạo về Bắc Cực!). Hiện tượng các quỹ đạo rơi tự do lân cận tự kéo sát vào nhau hoặc tách xa nhau đó gọi là **lực thủy triều** — và trong ngôn ngữ hình học, đó chính là định nghĩa của **độ cong không–thời gian**!
 
 ---
 
 ## 3. Metric, đường trắc địa, độ cong (các định nghĩa cơ bản)
 
-**Metric Lorentz** $$g$$ gán cho mỗi sự kiện một tích vô hướng trên các vectơ tiếp xúc, với dấu $$(-,+,+,+)$$ (hoặc ngược lại). Thời gian riêng dọc theo một đường thế giới kiểu thời gian $$\gamma$$ về cơ bản là
+**Metric Lorentz** $$g_{\mu\nu}(x)$$ gán cho mỗi sự kiện $$x$$ một ma trận đối xứng $$4\times 4$$ với dấu $$(-,+,+,+)$$, đóng vai trò bộ thước đo độ dài và thời gian tại điểm đó. Thời gian riêng (thời gian đo bằng đồng hồ đeo tay của một phi hành gia) dọc theo đường thế giới $$\gamma$$ là:
 
 $$
 \tau = \int \sqrt{-g(\dot\gamma,\dot\gamma)}\,dt
 $$
 
-(sai khác hằng số và cách tham số hóa). **Đường trắc địa** là đường làm cực trị thời gian riêng (tương đương: thỏa mãn phương trình trắc địa với các ký hiệu Christoffel tính từ $$g$$ và $$\partial g$$).
+(sai khác hằng số $$c$$ và cách tham số hóa). **Đường trắc địa (geodesic)** là đường làm cực trị thời gian riêng (tương đương: đường "không bẻ lái", thỏa mãn phương trình trắc địa với các ký hiệu Christoffel tính từ $$g$$ và đạo hàm $$\partial g$$).
 
-**Các tensor độ cong** (Riemann, Ricci, độ cong vô hướng $$R$$) đo mức độ không giao hoán của đạo hàm hiệp biến bậc hai, và mức độ một chùm đường trắc địa bị méo về thể tích. Không cần tính từng thành phần; chỉ cần nhớ ý chính:
+**Các tensor độ cong** (tensor Riemann $$R^\rho{}_{\sigma\mu\nu}$$, tensor Ricci $$R_{\mu\nu}$$, độ cong vô hướng $$R$$) đo mức độ không giao hoán khi dời song song một vectơ quanh một vòng khép kín và mức độ thể tích của một đám mây hạt rơi tự do bị co bóp. Không cần thuộc lòng công thức chỉ số; chỉ cần khắc cốt câu tổng kết nổi tiếng của nhà vật lý John Wheeler:
 
-> **Vật chất cho không – thời gian biết phải cong như thế nào; không – thời gian cong cho vật chất biết phải chuyển động như thế nào.**
+> **Vật chất cho không–thời gian biết phải cong như thế nào; không–thời gian cong cho vật chất biết phải chuyển động như thế nào.**
 
 ---
 
 ## 4. Phương trình Einstein là một phương trình trường
 
-Dạng sơ lược:
+Dạng gọn của **phương trình trường Einstein**:
 
 $$
 G_{\mu\nu} := R_{\mu\nu} - \tfrac12 R g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu},
 $$
 
-trong đó $$G_{\mu\nu}$$ là tensor Einstein, được xây dựng từ độ cong của metric, và $$T_{\mu\nu}$$ là **tensor năng lượng – xung lượng** của vật chất và các trường không phải hấp dẫn.
+trong đó $$G_{\mu\nu}$$ là tensor Einstein xây dựng hoàn toàn từ metric và các đạo hàm bậc hai của nó, còn $$T_{\mu\nu}$$ là **tensor năng lượng – xung lượng** mô tả mật độ khối lượng, năng lượng, áp suất và dòng động lượng của vật chất.
 
 | Vế | Ý nghĩa |
 |----|---------|
-| Trái | Hoàn toàn là hình học |
-| Phải | Năng lượng, động lượng, áp suất, ứng suất của vật chất |
+| Trái ($$G_{\mu\nu}$$) | Hoàn toàn là **hình học** (độ cong không–thời gian) |
+| Phải ($$T_{\mu\nu}$$) | **Vật chất & năng lượng** (nguồn gây cong) |
 
-Trong chân không ($$T=0$$), ta nghiên cứu các metric có tensor Ricci bằng không; nghiệm lỗ đen Schwarzschild và Kerr thuộc loại này.
+Vì hệ số $$\frac{8\pi G}{c^4} \approx 2 \times 10^{-43}\text{ s}^2/(\text{kg}\cdot\text{m})$$ vô cùng nhỏ, không–thời gian thực chất **cực kỳ cứng**: phải cần khối lượng cỡ cả một ngôi sao mới bẻ cong nó đáng kể! Trong chân không ($$T_{\mu\nu}=0$$), phương trình rút về $$R_{\mu\nu}=0$$ — các nghiệm nổi tiếng như lỗ đen **Schwarzschild** (không quay) và **Kerr** (đang quay) đều nằm ở đây.
 
-**Là một PDE.** Phương trình Einstein là một hệ phương trình đạo hàm riêng phi tuyến cho metric. Tính đặt chỉnh của bài toán Cauchy, tính ổn định của lỗ đen, giả thuyết kiểm duyệt vũ trụ là các chương trình nghiên cứu toán học về GR; một số đã có tiến bộ lớn gần đây, một số vẫn còn mở.
+**Dưới góc nhìn PDE.** Khai triển ra thành phần, phương trình Einstein là một hệ gồm 10 phương trình đạo hàm riêng phi tuyến bậc hai cho ẩn số là 10 thành phần của metric $$g_{\mu\nu}(x)$$. Tính đặt chỉnh của bài toán giá trị ban đầu (Cauchy), tính ổn định phi tuyến của lỗ đen Kerr và giả thuyết kiểm duyệt vũ trụ là những mũi nhọn rực rỡ của giải tích hình học hiện đại.
 
 ---
 
 ## 5. Từ hình học đến quan sát, mỗi hiện tượng một bước
 
-**Giãn thời gian do hấp dẫn.** Đồng hồ nằm sâu trong giếng thế hấp dẫn chạy chậm hơn so với người quan sát ở xa (hệ thống GPS phải hiệu chỉnh hiệu ứng này, cùng với hiệu ứng của thuyết tương đối hẹp).
+- **Giãn thời gian do hấp dẫn & GPS (con số thực tế):** đồng hồ đặt sâu trong giếng hấp dẫn chạy chậm hơn đồng hồ ở xa. Với vệ tinh GPS ở độ cao 20.200 km:
+  - Do bay nhanh (~14.000 km/h), hiệu ứng thuyết tương đối hẹp làm đồng hồ vệ tinh chạy **chậm đi 7 micro-giây/ngày**.
+  - Do ở xa Trái Đất (trường hấp dẫn yếu hơn), thuyết tương đối rộng làm đồng hồ vệ tinh chạy **nhanh hơn 45 micro-giây/ngày**.
+  - Tổng hợp lại, đồng hồ GPS chạy nhanh hơn mặt đất **$$+38\text{ }\mu\text{s/ngày}$$**. Vì tín hiệu vô tuyến đi với tốc độ ánh sáng $$c \approx 300\text{ m}/\mu\text{s}$$, nếu không trừ đi $$38\text{ }\mu\text{s}$$ mỗi ngày, sai số định vị sẽ tích lũy **$$38 \times 300 \approx 11{,}4\text{ km}$$ mỗi ngày**!
+- **Ánh sáng bị lệch & Thấu kính hấp dẫn:** tia sáng đi theo đường trắc địa không ($$ds^2=0$$) nên tự uốn cong khi lướt qua gần Mặt Trời hay một cụm thiên hà — được Eddington xác nhận năm 1919 và nay trở thành "kính thiên văn tự nhiên" giúp kính James Webb quan sát các thiên hà sơ khai.
+- **Sóng hấp dẫn:** những gợn sóng nhỏ của chính metric $$g_{\mu\nu}$$ lan truyền với tốc độ ánh sáng $$c$$. Năm 2015, đài quan sát LIGO lần đầu đo được sóng hấp dẫn từ hai lỗ đen sáp nhập cách Trái Đất 1,3 tỷ năm ánh sáng, với độ co giãn cực nhỏ cỡ $$10^{-21}$$ (tương đương đo sự thay đổi chiều dài nhỏ hơn 1/1.000 đường kính một hạt proton trên cánh tay laser dài 4 km!).
+- **Vũ trụ học:** áp dụng phương trình Einstein cho vũ trụ đồng nhất và đẳng hướng (metric FLRW), toàn bộ hệ PDE rút gọn thành các ODE Friedmann mô tả sự giãn nở của vũ trụ từ Big Bang.
 
-**Ánh sáng bị lệch, thấu kính hấp dẫn.** Đường trắc địa của ánh sáng (đường trắc địa không) bị uốn cong khi đi gần một khối lượng lớn.
-
-**Sóng hấp dẫn.** Những nhiễu động nhỏ (tuyến tính hóa) của metric lan truyền với tốc độ $$c$$; LIGO/Virgo đo độ biến dạng (strain) do các vụ sáp nhập ở rất xa gây ra.
-
-**Vũ trụ học.** Với metric đồng nhất và đẳng hướng (FLRW), phương trình Einstein rút gọn thành các ODE cho hệ số tỉ lệ $$a(t)$$.
-
-Mỗi mục trên là một **cơ chế** đi từ hình học đến một đại lượng quan sát được, không phải một danh sách từ khóa.
+Mỗi hiện tượng trên đều là một **cơ chế định lượng** đi thẳng từ hình học đến con số đo đạc được, không phải phép ví von văn chương.
 
 ---
 
@@ -113,7 +135,7 @@ Mỗi mục trên là một **cơ chế** đi từ hình học đến một đ�
 | Tôpô vi phân | Tôpô của chân trời sự kiện, định lý khối lượng dương |
 | Giải tích hình học | Tính ổn định của nghiệm Kerr, sóng phi tuyến trên nền lỗ đen |
 
-GR vừa là một **ứng dụng của hình học làm thay đổi vật lý**, vừa **sinh ra những chương trình nghiên cứu toán học thuần túy**. Đây chính là vai trò hai chiều mà Chương 3 muốn nhấn mạnh.
+GR vừa là một **ứng dụng của hình học làm thay đổi tận gốc vật lý**, vừa **nuôi dưỡng những chương trình nghiên cứu toán học thuần túy** đồ sộ (như chứng minh Định lý Khối lượng Dương của Schoen–Yau và Witten). Đây chính là tương tác hai chiều tuyệt đẹp mà Chương 3 nhấn mạnh.
 
 ---
 
@@ -122,9 +144,9 @@ GR vừa là một **ứng dụng của hình học làm thay đổi vật lý**
 | Khẳng định | Đánh giá | Sửa lại |
 |------------|------|-----|
 | "Einstein chứng minh mọi thứ đều tương đối." | Gây hiểu nhầm | Vẫn có những cấu trúc tuyệt đối (quan hệ nhân quả, tốc độ $$c$$, các đại lượng vô hướng của độ cong). |
-| "Không gian cong giống một quả bóng nhìn từ bên ngoài." | Chỉ là hình ảnh ví von | Độ cong của không – thời gian là tính chất nội tại, không cần không gian bên ngoài. |
+| "Không gian cong giống một quả bóng nhìn từ bên ngoài." | Chỉ là hình ảnh ví von | Độ cong của không–thời gian là tính chất nội tại, không cần không gian bên ngoài. |
 | "Lỗ đen phá vỡ vật lý." | Nói quá | Lỗ đen là nghiệm, là vùng trong GR (còn các câu hỏi lượng tử ở chân trời sự kiện là một hướng nghiên cứu riêng). |
-| "GR và cơ học lượng tử đã được thống nhất." | Sai | Đã có lý thuyết bán cổ điển (trường lượng tử trên nền không – thời gian cong); lý thuyết hấp dẫn lượng tử đầy đủ vẫn còn mở. |
+| "GR và cơ học lượng tử đã được thống nhất." | Sai | Đã có lý thuyết bán cổ điển (trường lượng tử trên nền không–thời gian cong); lý thuyết hấp dẫn lượng tử đầy đủ vẫn còn mở. |
 | "GPS chạy được nên phương trình Einstein đã được hiểu hết với tư cách PDE." | Nhầm phạm trù | Công nghệ dùng các hiệu chỉnh của GR; lý thuyết toàn cục của GR vẫn còn các bài toán mở. |
 
 ---

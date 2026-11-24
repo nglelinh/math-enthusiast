@@ -9,12 +9,14 @@ categories:
 - chapter09
 ---
 
-**Andrew Chi-Chih Yao** nhận **A.M. Turing Award 2000**
+Hãy thử tưởng tượng hai nhà khoa học dữ liệu ở hai châu lục khác nhau: Alice giữ một tệp tin khổng lồ gồm $$1$$ tỉ bit $$x$$, Bob giữ một tệp $$1$$ tỉ bit $$y$$. Họ chỉ muốn trả lời đúng một câu hỏi: *hai tệp của chúng ta có giống hệt nhau từng bit một hay không?* Nếu yêu cầu câu trả lời chắc chắn 100% không bao giờ sai, họ gần như buộc phải gửi toàn bộ $$1$$ tỉ bit qua đường truyền. Nhưng nếu cho phép tung vài đồng xu ngẫu nhiên và chấp nhận sai sót nhỏ hơn một phần tỉ, Alice chỉ cần gửi một mã băm ngắn vài chục bit là đủ!
+
+Chính câu hỏi tưởng chừng giản dị đó đã khai sinh ra cả một đế chế nghiên cứu trong khoa học máy tính lý thuyết do **Andrew Chi-Chih Yao** đặt nền móng. Năm **2000**, ông nhận **Giải A.M. Turing** với lời trích dẫn:
 
 > “in recognition of his fundamental contributions to the theory of computation, including the complexity-based theory of pseudorandom number generation, cryptography, and communication complexity.”  
 > — [ACM Turing Award](https://amturing.acm.org/)
 
-Bài này không liệt kê CV. Nó dựng **ba ý tưởng Yao** đã trở thành ngôn ngữ chung của theoretical computer science: (1) **nguyên lý minimax** nối thuật toán ngẫu nhiên với phân tích deterministic worst-case trên phân phối; (2) **độ phức tạp giao tiếp** như mô hình tài nguyên nơi bit trao đổi—không phải chu kỳ CPU—là “thời gian”; (3) cầu sang **pseudorandomness** và mật mã, nơi hardness tính toán biến thành bit “gần ngẫu nhiên”. Đọc vì cơ chế; năm giải chỉ là đèn spotlight. Liên kết nền: [độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/), [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/), [Wigderson]({{ site.baseurl }}/contents/vi/chapter09/09_13_Wigderson_Complexity/).
+Bài này không liệt kê lý lịch sự nghiệp của Yao, mà dựng lên **ba ý tưởng lớn** đã trở thành công cụ mặc định của ngành: (1) **Nguyên lý Minimax của Yao** giúp chứng minh chặn dưới cho mọi thuật toán ngẫu nhiên bằng tư duy lý thuyết trò chơi; (2) **Độ phức tạp giao tiếp** coi *số bit trao đổi* là tài nguyên cốt lõi thay vì thời gian CPU; và (3) cây cầu **tính giả ngẫu nhiên & tính toán bảo mật đa bên**. Liên kết nền: [độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/), [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/), [Wigderson]({{ site.baseurl }}/contents/vi/chapter09/09_13_Wigderson_Complexity/).
 
 ---
 
@@ -23,6 +25,17 @@ Bài này không liệt kê CV. Nó dựng **ba ý tưởng Yao** đã trở th�
 Sau bài, bạn có thể phát biểu **nguyên lý Yao** (minimax) ở mức tóm tắt chính xác: cost tối ưu randomized worst-case bằng cost tối ưu deterministic trung bình theo phân phối khó nhất; định nghĩa **độ phức tạp giao tiếp** hai bên cho hàm $$f:\{0,1\}^n\times\{0,1\}^n\to\{0,1\}$$ và giải thích vì sao nó khác thời gian máy Turing; nêu một chặn dưới giao tiếp kinh điển (ví dụ equality hoặc set disjointness) và ý nghĩa “thông tin phải đi qua kênh”; mô tả vì sao mô hình giao tiếp nuôi streaming, data structure, circuit depth và multiparty; nối Yao với [ngẫu nhiên–derandomization]({{ site.baseurl }}/contents/vi/chapter09/09_13_Wigderson_Complexity/) mà không tuyên bố mọi thuật toán ngẫu nhiên đã bị “giải mã” deterministic.
 
 **Kiến thức nền.** Xác suất cơ bản (kỳ vọng, phân phối); runtime poly vs mũ; ý minimax trong lý thuyết trò chơi (giá trị maximin/minimax). Biết [đồ thị]({{ site.baseurl }}/contents/vi/chapter03/03_06_Graph_Theory_Networks/) giúp ví dụ, không bắt buộc.
+
+---
+
+## Bản đồ kiến thức nền: Độ phức tạp giao tiếp và Nguyên lý Minimax trong tính toán là gì, nghiên cứu những gì?
+
+Khi chứng minh một bài toán *khó* trong mô hình máy Turing thông thường (như P vs NP), ta thường đâm đầu vào ngõ cụt vì thời gian CPU quá phức tạp để phân tích. **Lý thuyết độ phức tạp giao tiếp (Communication Complexity)** do Yao đề xuất năm 1979 mở ra một góc nhìn thông minh đến bất ngờ: **cho phép Alice và Bob có sức mạnh tính toán vô hạn, chỉ đếm đúng số bit họ phải gửi cho nhau!**
+
+Tại sao mô hình tưởng chừng "phi thực tế" này lại cực kỳ quyền năng? Bởi vì chặn dưới về **lượng thông tin tối thiểu phải đi qua một lát cắt** dễ chứng minh hơn nhiều (dùng đại số tuyến tính như hạng ma trận, tổ hợp hình chữ nhật, hay lý thuyết thông tin), rồi sau đó **lan truyền** sang hàng loạt bài toán thực tế:
+- **Thuật toán luồng dữ liệu (Streaming):** muốn biết bộ nhớ RAM tối thiểu cần dùng để đếm số phần tử phân biệt trong một luồng 10 tỉ bản ghi? Hãy cắt đôi luồng thành nửa đầu (Alice) và nửa sau (Bob) — toàn bộ trạng thái bộ nhớ RAM chuyển giao ở điểm cắt chính là tin nhắn Alice gửi cho Bob!
+- **Thiết kế vi mạch và cấu trúc dữ liệu:** số dây dẫn nối giữa hai nửa con chip chính là kênh giao tiếp.
+- **Nguyên lý Minimax của Yao:** Mượn thẳng định lý Minimax của John von Neumann trong lý thuyết trò chơi tổng bằng 0 (như trò Kéo–Búa–Bao), Yao biến cuộc chiến giữa *Người thiết kế thuật toán* và *Kẻ chọn dữ liệu đầu vào ác ý* thành một ván cờ toán học. Muốn chứng minh *mọi* thuật toán ngẫu nhiên đều chậm, bạn không cần phân tích từng thuật toán ngẫu nhiên một — bạn chỉ cần thiết kế **một phân phối dữ liệu đầu vào khó** rồi chứng minh mọi thuật toán *tất định* đều chậm trên phân phối đó!
 
 ---
 
@@ -83,7 +96,7 @@ $$
 \mathrm{EQ}(x,y)=\begin{cases}1 & x=y,\\ 0 & x\neq y.\end{cases}
 $$
 
-Deterministic: cần $$\Theta(n)$$ bit trong mô hình chuẩn (Alice không thể nén $$x$$ thành ít bit mà vẫn phân biệt mọi khả năng Bob). Randomized (public/private coins tùy chuẩn): fingerprinting cho phép $$O(\log n)$$ bit với lỗi nhỏ—hash ngẫu nhiên so khớp. Bài học kép: (1) randomness *đổi* complexity giao tiếp; (2) minimax/Yao vẫn áp để chặn dưới randomized protocols qua phân phối hard.
+Deterministic: cần $$\Theta(n)$$ bit trong mô hình chuẩn (vì theo nguyên lý Dirichlet/bồ câu, nếu Alice gửi ít hơn $$n$$ bit thì tồn tại hai chuỗi khác nhau $$x \neq x'$$ tạo ra cùng một bản ghi hội thoại, khiến Bob không thể phân biệt cặp $$(x,x)$$ với $$(x',x)$$!). Randomized (public/private coins tùy chuẩn): **fingerprinting** cho phép chỉ tốn $$O(\log n)$$ bit với lỗi nhỏ—ví dụ Alice coi chuỗi bit $$x$$ như một số nguyên lớn, chọn ngẫu nhiên một số nguyên tố $$p \le n^2$$ rồi gửi $$(p, x \bmod p)$$ cho Bob; nếu $$x \neq y$$, số nguyên tố $$p$$ chia hết hiệu $$\lvert x-y\rvert$$ rất hiếm nên xác suất trùng hash cực nhỏ! Bài học kép: (1) randomness *đổi* complexity giao tiếp từ $$n$$ xuống $$\log n$$; (2) minimax/Yao vẫn áp để chặn dưới randomized protocols qua phân phối hard.
 
 ### Set disjointness: chặn dưới “cứng”
 
@@ -91,11 +104,11 @@ $$
 \mathrm{DISJ}(x,y)=1 \iff \forall i,\; x_i y_i=0
 $$
 
-(hai tập con $$[n]$$ rời nhau). Đây là hàm “nặng” thông tin: randomized communication complexity $$\Theta(n)$$ (kết quả sâu, nhiều proof qua information complexity). Hệ quả lan: nhiều bài streaming và data structure kế thừa chặn dưới gần tuyến tính—bạn không thể tóm tắt stream bằng bộ nhớ quá nhỏ mà vẫn trả lời giao cắt/thống kê liên quan.
+(hai tập con $$[n]$$ rời nhau). Đây là hàm “nặng” thông tin: ngay cả khi cho phép tung đồng xu ngẫu nhiên, randomized communication complexity vẫn là $$\Theta(n)$$ (kết quả sâu, nhiều proof qua information complexity). Hệ quả lan: nhiều bài streaming và data structure kế thừa chặn dưới gần tuyến tính—bạn không thể tóm tắt stream bằng bộ nhớ quá nhỏ mà vẫn trả lời giao cắt/thống kê liên quan.
 
 ### Hình chữ nhật và rank
 
-Protocol deterministic đúng cảm ứng **phân hoạch** không gian $$\{0,1\}^n\times\{0,1\}^n$$ thành hình chữ nhật đơn sắc (cùng giá trị $$f$$). Số hình chữ nhật liên quan số lá/protocol tree và do đó số bit. **Log-rank conjecture** (còn mở ở dạng đầy đủ) nối $$D(f)$$ với $$\log\operatorname{rank}(M_f)$$: rank tuyến tính của ma trận Boolean như proxy độ phức tạp. Đây là toán tổ hợp–đại số tuyến tính thuần túy sinh từ CS.
+Protocol deterministic đúng cảm ứng **phân hoạch** không gian $$\{0,1\}^n\times\{0,1\}^n$$ thành hình chữ nhật đơn sắc (cùng giá trị $$f$$). Số hình chữ nhật liên quan số lá/protocol tree và do đó số bit. **Log-rank conjecture** (còn mở ở dạng đầy đủ) nối $$D(f)$$ với $$\log\operatorname{rank}(M_f)$$: rank tuyến tính của ma trận Boolean như proxy độ phức tạp. Ví dụ với $$\mathrm{EQ}$$, ma trận truyền thông $$M_{\mathrm{EQ}}$$ chính là **ma trận đơn vị $$I_{2^n}$$** có hạng $$2^n$$, lập tức cho chặn dưới $$\log_2(2^n) = n$$ bit! Đây là toán tổ hợp–đại số tuyến tính thuần túy sinh từ CS.
 
 ---
 
@@ -127,7 +140,7 @@ Khẩu hiệu khóa học: **hardness không chỉ là rào cản; hardness là 
 
 ### Yao’s millionaires và secure computation (bối cảnh)
 
-Giao thức “hai triệu phú” so sánh tài sản mà không lộ số—mầm của secure multiparty computation. Ở đây complexity giao tiếp gặp mật mã: bao nhiêu bit, dưới giả thiết số học nào, leakage nào chấp nhận được. Bài học Math Enthusiast: cùng một người có thể vừa chứng minh *chặn dưới thông tin thuần*, vừa thiết kế *giao thức dương* dưới giả thiết crypto.
+Giao thức “hai triệu phú” so sánh tài sản mà không lộ số—mầm của secure multiparty computation (MPC) và kỹ thuật mạch xáo trộn (*garbled circuits*). Ở đây complexity giao tiếp gặp mật mã: bao nhiêu bit, dưới giả thiết số học nào, leakage nào chấp nhận được. Bài học Math Enthusiast: cùng một người có thể vừa chứng minh *chặn dưới thông tin thuần*, vừa thiết kế *giao thức dương* dưới giả thiết crypto.
 
 ---
 

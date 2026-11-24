@@ -9,9 +9,9 @@ categories:
 - chapter09
 ---
 
-**Shafi Goldwasser** và **Silvio Micali** nhận Giải Turing **2012** cho các đóng góp cách mạng tạo nên **nền tảng lý thuyết độ phức tạp** của mật mã hiện đại—gồm định nghĩa an ninh có thể chứng minh, mã hóa xác suất, và đặc biệt văn hóa **zero-knowledge proof**. Nếu Diffie–Hellman và RSA mang **paradigm khóa công khai** vào thế giới, Goldwasser–Micali (và trường phái đồng hành) mang **ngôn ngữ chứng minh**: an ninh không còn là khẩu hiệu engineering mà là định lý dạng “mọi adversary poly-time thành công với xác suất không đáng kể dưới giả định X.”
+Đầu thập niên 1980, mật mã khóa công khai (như RSA) vừa ra đời đã tạo nên cơn sốt — nhưng giới nghiên cứu sớm nhận ra một lỗ hổng đáng lo ngại trong cách tư duy cũ. Giả sử bạn gửi đi một thông điệp mật chỉ có hai khả năng: `"MUA"` hoặc `"BÁN"`, và bạn dùng RSA nguyên bản (tất định) để mã hóa. Kẻ nghe lén chẳng cần phân tích thừa số số $$n$$ khổng lồ làm gì cả: hắn chỉ việc lấy khóa công khai của bạn, tự mã thử chữ `"MUA"` rồi so sánh với bản mã bạn vừa gửi đi — khớp là biết ngay!
 
-Bài này đọc citation 2012 như bản đồ khái niệm: semantic security, scheme Goldwasser–Micali dựa trên quadratic residuosity, zero-knowledge, và cầu sang interactive proof / randomness. Liên kết: [Khóa công khai]({{ site.baseurl }}/contents/vi/chapter09/09_06_Public_Key_Crypto/), [mật mã ch.03]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/), [độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/), [Wigderson]({{ site.baseurl }}/contents/vi/chapter08/08_06_Lovasz_Wigderson/).
+Trong hai bài báo làm rung chuyển khoa học máy tính (1982–1985), hai nghiên cứu sinh trẻ lúc bấy giờ là **Shafi Goldwasser** và **Silvio Micali** (Giải Turing **2012**) đã biến mật mã học từ một nghệ thuật "vá lỗ hổng theo cảm tính" thành một **ngành khoa học có định nghĩa chặt chẽ và chứng minh toán học**. Họ chứng minh rằng mã hóa an toàn *bắt buộc phải dùng tính ngẫu nhiên* (mã hóa xác suất), định nghĩa chuẩn mực **an ninh ngữ nghĩa**, và cùng Charles Rackoff khai sinh ra một trong những ý tưởng kỳ diệu nhất của toán học hiện đại: **chứng minh không tiết lộ tri thức (zero-knowledge proof)** — thuyết phục ai đó rằng bạn biết một bí mật mà không hề làm rò rỉ dù chỉ một bit về bí mật đó! Liên kết: [Khóa công khai]({{ site.baseurl }}/contents/vi/chapter09/09_06_Public_Key_Crypto/), [mật mã ch.03]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/), [độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/), [Wigderson]({{ site.baseurl }}/contents/vi/chapter08/08_06_Lovasz_Wigderson/).
 
 ---
 
@@ -27,6 +27,16 @@ Sau bài học, bạn có thể:
 - Tránh nhầm: “zero-knowledge = mã hóa,” “có ZK ⇒ P = NP,” “an ninh có chứng minh = không thể bị phá trên implementation.”
 
 **Tiên quyết.** RSA/DH ở mức cơ chế; xác suất sơ cấp; ý poly-time adversary. Đồng dư và ký hiệu Jacobi/quadratic residue hữu ích; ta giải thích lại ngắn.
+
+---
+
+## Bản đồ kiến thức nền: Mật mã học chứng minh được và Hệ chứng minh tương tác là gì, nghiên cứu những gì?
+
+Nếu bạn đã quen với các định lý truyền thống trong toán học — nơi "chứng minh" là một văn bản tĩnh viết sẵn trên giấy, đọc từ trên xuống dưới — thì trường phái Goldwasser–Micali sẽ mở rộng hoàn toàn cách bạn hiểu về **an ninh** và **chứng minh**:
+
+1. **Mật mã học chứng minh được (Provable Security):** Thay vì nói mơ hồ *"hệ mật này khó phá"*, các nhà mật mã định nghĩa an ninh dưới dạng một **trò chơi toán học (security game)** giữa Người thách thức (Challenger) và Kẻ tấn công thời gian đa thức (Adversary). Ví dụ trong trò chơi **IND-CPA**: kẻ tấn công được quyền chọn hai thông điệp $$m_0, m_1$$, nhận về bản mã của một trong hai thông điệp được tung xu chọn ngẫu nhiên, và phải đoán xem đó là $$m_0$$ hay $$m_1$$. Hệ mật được gọi là an toàn nếu xác suất đoán đúng của kẻ tấn công chỉ nhỉnh hơn $$50\%$$ một lượng không đáng kể (giảm nhanh hơn mọi đa thức nghịch đảo $$1/\lambda^c$$).
+2. **Chứng minh bằng quy dẫn an ninh (Security Reduction):** Làm sao chứng minh một hệ mật thắng được *mọi* kẻ tấn công thời gian đa thức có thể tồn tại trong tương lai? Ta dùng đúng kỹ thuật quy dẫn của Karp theo chiều phản chứng: *"Giả sử có một kẻ tấn công $$A$$ phá được hệ mật của tôi; tôi sẽ bọc $$A$$ vào một chương trình để giải bài toán số học khó (như phân tích thừa số hay thặng dư bậc hai)!"*.
+3. **Hệ chứng minh tương tác và Zero-Knowledge:** Thay vì đưa thẳng lời giải (ví dụ đưa bản đồ đã tô 3 màu — làm lộ sạch bí mật), Người chứng minh (Prover) và Người kiểm chứng (Verifier) đối thoại qua nhiều vòng hỏi–đáp ngẫu nhiên. Trực giác quen thuộc là câu chuyện **hang động Ali Baba** (hoặc thí nghiệm hai quả bóng khác màu cho người mù màu): nếu tôi đưa bạn hai quả bóng đỏ và xanh sau lưng rồi tráo ngẫu nhiên, một người phân biệt được màu sẽ luôn nói đúng 100% bạn có tráo hay không; sau 20 lần thử liên tiếp, xác suất đoán mò trúng hết chỉ còn $$2^{-20} < 10^{-6}$$ — đủ để bạn tin chắc hai quả bóng khác màu mà tôi không hề giải thích "màu đỏ trông như thế nào"!
 
 ---
 
@@ -57,12 +67,12 @@ Số $$a$$ là **quadratic residue** modulo $$n$$ nếu $$\gcd(a,n)=1$$ và tồ
   $$
   c \equiv r^2 \cdot z^b \pmod n.
   $$  
-  Nếu $$b=0$$, $$c$$ là residue; nếu $$b=1$$, $$c$$ là non-residue (loại Jacobi $$+1$$).  
+  Nếu $$b=0$$, $$c$$ là residue; nếu $$b=1$$, $$c$$ là non-residue (loại Jacobi $$+1$$). Nhờ có số ngẫu nhiên $$r$$ mới ở mỗi lần mã hóa, cùng một bit `0` sẽ sinh ra hàng loạt bản mã $$c$$ hoàn toàn khác nhau!
 - Giải bằng cửa sập $$p,q$$: kiểm tra residuality modulo $$p$$ và $$q$$ (hoặc tương đương).
 
 **An ninh:** dưới giả định QRP, ciphertext không tiết lộ $$b$$ cho adversary poly-time—đúng tinh thần semantic security cho bit. **Chi phí:** mỗi bit plaintext phình thành một phần tử modulo $$n$$—không thực dụng throughput, nhưng là **mẫu chuẩn**: định nghĩa + giả định số học + chứng minh reduction.
 
-**Homomorphic:** nhân ciphertext (mod $$n$$) tương ứng XOR bit plaintext (khi cẩn thận). Đây là gợi ý sớm cho **mã hóa đồng cấu**—họ hàng xa của FHE hiện đại.
+**Homomorphic:** nhân ciphertext (mod $$n$$) tương ứng XOR bit plaintext (vì $$c_1 c_2 \equiv (r_1 r_2)^2 z^{b_1 + b_2} \pmod n$$, mà $$z^2$$ là thặng dư bậc hai nên số mũ cộng theo modulo 2!). Đây là gợi ý sớm cho **mã hóa đồng cấu**—họ hàng xa của FHE hiện đại.
 
 ---
 
@@ -80,7 +90,7 @@ Số $$a$$ là **quadratic residue** modulo $$n$$ nếu $$\gcd(a,n)=1$$ và tồ
 
 ### Ví dụ: 3-tô màu (Goldreich–Micali–Wigderson)
 
-Prover biết tô màu $$\chi$$. Mỗi vòng: random permute màu, cam kết (commitment) màu đỉnh; verifier chọn một cạnh; prover mở màu hai đầu cạnh; verifier kiểm tra khác màu. Lặp nhiều vòng. Gian dối trên cạnh xấu bị bắt với xác suất dương mỗi vòng; honest verifier gần như không học tô màu toàn cục nhờ permute + commitment. Chi tiết commitment và mô hình cần sách chuyên khảo; ở đây ta chỉ cần nắm **hình dạng chung**: thách thức ngẫu nhiên + mở cục bộ + lặp để khuếch đại soundness.
+Prover biết tô màu $$\chi$$. Mỗi vòng: random permute màu, cam kết (commitment) màu đỉnh; verifier chọn một cạnh; prover mở màu hai đầu cạnh; verifier kiểm tra khác màu. Lặp nhiều vòng. Gian dối trên cạnh xấu bị bắt với xác suất dương (ít nhất $$1/\lvert E\rvert$$) mỗi vòng; honest verifier gần như không học tô màu toàn cục nhờ permute + commitment (hai đầu cạnh mở ra luôn chỉ là một cặp màu ngẫu nhiên khác nhau, ví dụ Đỏ–Xanh!). Chi tiết commitment và mô hình cần sách chuyên khảo; ở đây ta chỉ cần nắm **hình dạng chung**: thách thức ngẫu nhiên + mở cục bộ + lặp để khuếch đại soundness.
 
 ### Ví dụ số học: residuality / square root
 

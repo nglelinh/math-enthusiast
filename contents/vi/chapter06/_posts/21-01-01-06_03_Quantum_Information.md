@@ -9,9 +9,22 @@ categories:
 - chapter06
 ---
 
-Bit cổ điển là $$0$$ hoặc $$1$$. Thông tin lượng tử bắt đầu khi đơn vị cơ bản là **qubit**: một vector đơn vị trong không gian Hilbert phức hai chiều (sai khác một pha toàn cục), và hệ nhiều phần được mô tả bằng **tích tensor** chứ không chỉ là một chuỗi bit. Chồng chập, vướng víu và phép đo không phải ẩn dụ viễn tưởng. Chúng là những cấu trúc của đại số tuyến tính và xác suất, với định lý, kết quả cấm và hệ quả thuật toán rõ ràng.
+Suốt bảy thập niên qua, mọi bức ảnh bạn chụp, mọi dòng tin nhắn bạn gửi đi, và cả mô hình AI phức tạp nhất đều được dựng nên từ một viên gạch duy nhất: **bit cổ điển** — hoặc $$0$$, hoặc $$1$$, giống như một công tắc đèn chỉ có hai trạng thái bật và tắt. Nhưng vào những năm 1980, Richard Feynman đặt ra một câu hỏi ngược đời: nếu tự nhiên ở tầng vi mô vận hành theo cơ học lượng tử chứ không phải cơ học cổ điển, thì điều gì xảy ra khi ta dùng chính một hệ lượng tử làm đơn vị mang thông tin?
 
-Bài này giúp bạn **đọc được vùng biên** của khoa học thông tin lượng tử: đâu là toán, đâu là lộ trình kỹ thuật, đâu là lời thổi phồng kiểu “thượng đẳng lượng tử” hay “AI lượng tử”. Mục tiêu không phải là một khóa cơ học lượng tử đầy đủ, mà là bản đồ các đối tượng làm cho tính toán và truyền thông lượng tử khác với cổ điển.
+Câu trả lời mở ra cả một thế giới mới: **qubit**. Không còn là một công tắc hai nấc, qubit là một vector đơn vị trong không gian phức hai chiều $$\mathbb{C}^2$$, nơi hai trạng thái $$0$$ và $$1$$ có thể chồng chập với biên độ là *số phức*, có thể cộng hưởng tăng cường hoặc triệt tiêu lẫn nhau như sóng nước. Và khi ghép nhiều qubit lại, không gian trạng thái không cộng lại mà nhân lên theo **tích tensor**, mở đường cho hiện tượng kỳ lạ nhất của tự nhiên: **vướng víu lượng tử** (entanglement).
+
+Chồng chập, vướng víu và phép đo hoàn toàn không phải phép thuật khoa học viễn tưởng. Chúng là những cấu trúc trong sáng của đại số tuyến tính và xác suất, đi kèm những định lý rõ ràng, các kết quả cấm bất khả xâm phạm và những hệ quả thuật toán chấn động. Bài này giúp bạn **đọc tỉnh táo vùng biên** của khoa học thông tin lượng tử: đâu là toán học vững chắc, đâu là lộ trình kỹ thuật đầy thách thức, và đâu chỉ là lời thổi phồng kiểu “thượng đẳng lượng tử” hay “AI lượng tử”.
+
+---
+
+## Bản đồ kiến thức nền: Thông tin lượng tử là gì và nghiên cứu những gì?
+
+Nếu lý thuyết thông tin cổ điển của Shannon nghiên cứu cách nén, truyền và bảo vệ các chuỗi bit $$0/1$$ qua kênh nhiễu, thì **Khoa học Thông tin Lượng tử** (Quantum Information Science) đặt lại đúng những câu hỏi đó khi vật mang tin tuân theo định luật lượng tử. Bạn không cần học trước cơ học lượng tử vật lý để nắm trục xương sống toán học của ngành này — cốt lõi của nó đứng trên **bốn trụ cột**:
+
+1. **Hình học trạng thái & tiến hóa (Đại số tuyến tính trên $$\mathbb{C}$$):** Một qubit là vector đơn vị trong $$\mathbb{C}^2$$; $$n$$ qubit sống trong không gian khổng lồ $$\mathbb{C}^{2^n}$$. Các phép biến đổi (cổng lượng tử) là ma trận unitary bảo toàn độ dài, giống như phép xoay trong không gian phức.
+2. **Thuật toán lượng tử (Giao thoa biên độ & Độ phức tạp):** Điểm mạnh của máy tính lượng tử không phải là "thử mọi đáp án cùng lúc", mà là thiết kế phép xoay sao cho các nhánh sai **giao thoa triệt tiêu** (như hai con sóng ngược pha gặp nhau thành phẳng lặng), còn nhánh đúng **giao thoa cộng hưởng** để khi đo ta trúng đáp án với xác suất cao.
+3. **Sửa sai lượng tử (Mã hóa trên không gian Hilbert):** Qubit ngoài đời rất mong manh — chỉ một rung động nhiệt nhỏ cũng làm mất pha (decoherence). Khác với bit cổ điển có thể chép thành 3 bản để bỏ phiếu đa số, định lý không nhân bản cấm ta sao chép qubit. Ngành sửa sai lượng tử tìm cách "trải" một qubit logic vào trạng thái vướng víu của nhiều qubit vật lý để phát hiện lỗi mà không cần đọc trực tiếp trạng thái.
+4. **Truyền thông & mật mã lượng tử:** Dùng vướng víu và phép đo để phân phối khóa bí mật (QKD) sao cho mọi nỗ lực nghe lén đều để lại dấu vết thống kê không thể che giấu.
 
 ---
 
@@ -40,11 +53,21 @@ $$
 \lvert\alpha\rvert^2+\lvert\beta\rvert^2=1.
 $$
 
-$$\lvert 0\rangle,\lvert 1\rangle$$ là cơ sở trực chuẩn của $$\mathbb{C}^2$$. Pha toàn cục $$e^{i\phi}\lvert\psi\rangle$$ không làm thay đổi trạng thái thuần. Khi có nhiễu, trạng thái là trạng thái hỗn hợp, được mô tả bằng **toán tử mật độ**: ma trận Hermitian nửa xác định dương, có vết bằng 1.
+$$\lvert 0\rangle,\lvert 1\rangle$$ là cơ sở trực chuẩn của $$\mathbb{C}^2$$. Pha toàn cục $$e^{i\phi}\lvert\psi\rangle$$ không làm thay đổi trạng thái thuần; nhưng **pha tương đối** giữa $$\alpha$$ và $$\beta$$ lại quyết định toàn bộ hiện tượng giao thoa. Khi có nhiễu, trạng thái là trạng thái hỗn hợp, được mô tả bằng **toán tử mật độ**: ma trận Hermitian nửa xác định dương, có vết bằng 1.
 
 Đo trong cơ sở tính toán cho kết quả $$0$$ hoặc $$1$$ với xác suất bằng bình phương môđun của biên độ (quy tắc Born); sau một phép đo lý tưởng, trạng thái trở thành vector cơ sở tương ứng. Đo trong cơ sở khác sẽ cho thống kê khác. Nói gọn: biên độ là số phức, còn xác suất là bình phương môđun của nó.
 
 **Tiến hóa unitary.** Giữa hai lần đo, hệ kín tiến hóa theo một ma trận $$U$$ thỏa $$U^\dagger U=I$$. Cổng lượng tử là (xấp xỉ) một ma trận unitary; ghép các cổng nối tiếp là nhân ma trận, còn các dây chạy song song là tích tensor.
+
+**Một ví dụ trực quan về giao thoa.** Xét cổng Hadamard $$H = \frac{1}{\sqrt{2}}\begin{pmatrix}1 & 1\\ 1 & -1\end{pmatrix}$$. Nếu bạn bắt đầu từ $$\lvert 0\rangle$$ và áp dụng $$H$$ một lần, bạn thu được $$\frac{1}{\sqrt{2}}(\lvert 0\rangle + \lvert 1\rangle)$$ — đo lúc này sẽ ra $$0$$ hoặc $$1$$ với xác suất 50/50 như tung đồng xu. Nhưng nếu bạn *không đo* mà áp dụng $$H$$ thêm một lần nữa, trạng thái trở thành:
+
+$$
+H\Bigl(\frac{\lvert 0\rangle + \lvert 1\rangle}{\sqrt{2}}\Bigr)
+= \frac{1}{2}\bigl((\lvert 0\rangle + \lvert 1\rangle) + (\lvert 0\rangle - \lvert 1\rangle)\bigr)
+= \lvert 0\rangle.
+$$
+
+Hai nhánh dẫn tới $$\lvert 1\rangle$$ mang dấu trái ngược nhau ($$+1/2$$ và $$-1/2$$) nên **tự triệt tiêu hoàn toàn**, đẩy xác suất ra $$\lvert 0\rangle$$ về 100%! Một đồng xu xác suất cổ điển tung hai lần chỉ cho ra 50/50 mãi mãi; chỉ nhờ biên độ mang dấu âm (và số phức) mà phép tính lượng tử làm được điều không tưởng đó.
 
 ---
 
@@ -70,7 +93,7 @@ $$
 \lvert\Phi^+\rangle=\frac{1}{\sqrt{2}}(\lvert 00\rangle+\lvert 11\rangle)
 $$
 
-là ví dụ chuẩn: kết quả đo ở hai phía tương quan theo cách mà không thể mô phỏng chỉ bằng ngẫu nhiên cổ điển dùng chung, nếu giữ ràng buộc về tính địa phương (định lý Bell và các thí nghiệm vi phạm bất đẳng thức Bell).
+là ví dụ chuẩn. Thử kiểm tra nhanh bằng đại số: nếu $$\lvert\Phi^+\rangle = (\alpha_1\lvert 0\rangle + \beta_1\lvert 1\rangle)\otimes(\alpha_2\lvert 0\rangle + \beta_2\lvert 1\rangle)$$, thì hệ số của $$\lvert 01\rangle$$ và $$\lvert 10\rangle$$ buộc $$\alpha_1\beta_2 = 0$$ và $$\beta_1\alpha_2 = 0$$, suy ra tích $$(\alpha_1\alpha_2)(\beta_1\beta_2) = 0$$ — mâu thuẫn vì cả hệ số của $$\lvert 00\rangle$$ lẫn $$\lvert 11\rangle$$ đều bằng $$1/\sqrt{2}\neq 0$$! Về vật lý, kết quả đo ở hai phía tương quan theo cách mà không thể mô phỏng chỉ bằng ngẫu nhiên cổ điển dùng chung (như hai chiếc găng tay trái–phải bỏ vào hai hộp kín), nếu giữ ràng buộc về tính địa phương (định lý Bell và các thí nghiệm vi phạm bất đẳng thức Bell).
 
 **Cần hiểu đúng.** Vướng víu là một tài nguyên có thể đo lường, có tỷ lệ chuyển đổi và tính “monogamy”; nó không phải “băng thông vô hạn”. Định lý không-giao-tiếp cấm dùng riêng vướng víu để gửi tin nhanh hơn ánh sáng; teleportation vẫn cần một kênh cổ điển.
 
@@ -80,9 +103,9 @@ là ví dụ chuẩn: kết quả đo ở hai phía tương quan theo cách mà 
 
 Mạch lượng tử là một dãy cổng unitary lấy từ một tập phổ quát, tác dụng lên các qubit khởi tạo $$\lvert 0\rangle^{\otimes n}$$, rồi đo. Lớp **BQP** được so với **BPP** và **P**. Ta tách được hai lớp này trong mô hình oracle; còn tách tuyệt đối thì gặp cùng độ khó như tách các lớp cổ điển (ta chưa biết $$\mathbf{P}\neq\mathbf{NP}$$, và cũng chưa có bản đồ đầy đủ về các quan hệ bao hàm với lớp lượng tử).
 
-**Shor** phân tích thừa số và tính logarit rời rạc trong thời gian đa thức trên một máy lượng tử chịu lỗi lý tưởng (biến đổi Fourier lượng tử và tìm chu kỳ). Hệ quả: RSA, Diffie–Hellman trên trường hữu hạn và ECC phổ biến sẽ bị phá *trong mô hình đó*. Điều này không có nghĩa là máy như vậy đã tồn tại hôm nay.
+**Shor** phân tích thừa số và tính logarit rời rạc trong thời gian đa thức trên một máy lượng tử chịu lỗi lý tưởng. Ý tưởng thiên tài của Shor là biến bài toán phân tích số $$N$$ thành bài toán **tìm chu kỳ** $$r$$ của hàm mũ mô-đun $$f(x) = a^x \bmod N$$: một bài toán cổ điển đòi hỏi thử rất nhiều điểm, nhưng Biến đổi Fourier Lượng tử (QFT) lại phát hiện tần số tuần hoàn $$1/r$$ chỉ trong vài bước nhờ giao thoa biên độ. Hệ quả: RSA, Diffie–Hellman trên trường hữu hạn và ECC phổ biến sẽ bị phá *trong mô hình đó*. Điều này không có nghĩa là máy như vậy đã tồn tại hôm nay.
 
-**Grover** tìm một phần tử trong tập không có cấu trúc kích thước $$N$$ với $$O(\sqrt{N})$$ truy vấn (và chặn dưới trong mô hình hộp đen cùng bậc). Đó là tăng tốc **bậc hai**, không phải tăng tốc mũ, cho bài toán tìm kiếm tổng quát; với thuật toán đã biết, nó không “giải bài toán NP-đầy đủ trong thời gian đa thức”.
+**Grover** tìm một phần tử trong tập không có cấu trúc kích thước $$N$$ với $$O(\sqrt{N})$$ truy vấn (và chặn dưới trong mô hình hộp đen cùng bậc). Về hình học, mỗi bước Grover xoay vector trạng thái trong một mặt phẳng 2 chiều hướng dần về phía đáp án đúng. Với $$N = 10^6$$ mục, thay vì trung bình $$500{,}000$$ lượt kiểm tra cổ điển, Grover chỉ cần khoảng $$1{,}000$$ bước. Tuy nhiên, đó là tăng tốc **bậc hai**, không phải tăng tốc mũ, cho bài toán tìm kiếm tổng quát; với thuật toán đã biết, nó không “giải bài toán NP-đầy đủ trong thời gian đa thức”.
 
 **Mô phỏng Hamiltonian và đại số tuyến tính lượng tử.** Nhiều đề xuất ứng dụng quy về mô phỏng động lực lượng tử hoặc ước lượng tính chất của toán tử. Các thuật toán này tồn tại, kèm ước lượng tài nguyên khá chặt trong mô hình lý tưởng; còn trong thực tế, các hằng số, tỷ lệ lỗi và chi phí nạp dữ liệu mới là thứ chi phối.
 

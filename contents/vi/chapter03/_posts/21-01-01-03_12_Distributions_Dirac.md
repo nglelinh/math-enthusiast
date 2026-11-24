@@ -9,9 +9,13 @@ categories:
 - chapter03
 ---
 
-"Hàm $$\delta$$" của Paul Dirac, theo cách hiểu hình thức là bằng vô cùng tại 0, bằng 0 ở mọi nơi khác, và có tích phân bằng 1, đã là công cụ không thể thiếu trong cơ học lượng tử và điện từ học từ rất lâu trước khi nó trở thành một đối tượng hợp lệ của giải tích. Kỹ sư vẫn viết $$\delta(t)$$ cho một xung; nhà vật lý viết $$\langle x|x'\rangle=\delta(x-x')$$. **Lý thuyết phân bố** (còn gọi là hàm suy rộng) của Laurent Schwartz (thập niên 1940–50) biến những thao tác đó thành một mở rộng chặt chẽ của giải tích: mọi hàm khả tích địa phương đều xác định một phân bố, đạo hàm luôn tồn tại theo nghĩa yếu, và phép biến đổi Fourier được mở rộng ra ngoài lớp $$L^1$$ cổ điển.
+Năm 1930, khi viết cuốn sách kinh điển về cơ học lượng tử, nhà vật lý Paul Dirac thản nhiên giới thiệu một "hàm số" kỳ quái ký hiệu là $$\delta(x)$$: nó bằng $$0$$ ở mọi điểm khác $$0$$, vọt lên $$+\infty$$ ngay tại $$x=0$$, thế nhưng diện tích nằm dưới chiếc gai nhọn vô hạn ấy lại bằng đúng $$1$$!
 
-Đây là bài đầu tiên trong mạch bài Cầu nối về chủ đề "kiểm soát cái vô hạn": **vật lý cần gì, toán học cung cấp gì, và khi thảo luận ta được phép làm gì một cách an toàn**. Nên đọc kèm [Fourier]({{ site.baseurl }}/contents/vi/chapter03/03_08_Fourier_Signal_Processing/), [Hilbert / cơ học lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_18_Hilbert_Spectral_QM/), và [bài tổng quan về vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/).
+Các nhà toán học giải tích cổ điển lập tức phản đối kịch liệt: theo lý thuyết tích phân Lebesgue chặt chẽ, một hàm số bằng $$0$$ khắp nơi trừ đúng một điểm *bắt buộc* phải có tích phân bằng $$0$$, tuyệt đối không thể bằng $$1$$! Thế nhưng trớ trêu thay, "hàm bất hợp lệ" của Dirac lại hoạt động mượt mà đến kinh ngạc — không chỉ trong cơ học lượng tử mà còn trong toàn bộ kỹ thuật điện, xử lý tín hiệu và điện từ học.
+
+Hai mươi năm sau, nhà toán học Pháp Laurent Schwartz đã giành Huy chương Fields (1950) khi chứng minh rằng Dirac không hề phá vỡ toán học — ông chỉ vô tình mở cánh cửa bước vào một thế giới rộng lớn hơn hàm số thông thường: **Lý thuyết phân bố (hay hàm suy rộng)**. Trong thế giới mới ấy, mọi hàm khả tích địa phương đều có đạo hàm đến vô hạn cấp, xung Dirac $$\delta$$ trở thành một đối tượng hoàn toàn hợp pháp, và biến đổi Fourier được giải phóng khỏi những điều kiện hội tụ chật hẹp.
+
+Đây là bài mở đầu cho mạch Cầu nối về chủ đề "kiểm soát cái vô hạn": **vật lý cần gì, toán học cung cấp gì, và đâu là ranh giới an toàn khi tính toán**. Nên đọc kèm [Fourier]({{ site.baseurl }}/contents/vi/chapter03/03_08_Fourier_Signal_Processing/), [Hilbert / cơ học lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_18_Hilbert_Spectral_QM/), và [bài tổng quan về vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/).
 
 ---
 
@@ -30,67 +34,106 @@ Sau bài học, bạn có thể:
 
 ---
 
-## 1. Nhu cầu từ vật lý
+## Bản đồ kiến thức nền: Lý thuyết phân bố (Hàm suy rộng) là gì và nghiên cứu những gì?
 
-Lực xung, điện tích điểm, hàm Green, "trạng thái riêng" của vị trí: tất cả đều vượt quá khả năng của hàm số thông thường. Nếu $$G$$ thỏa mãn $$-\Delta G=\delta$$ trên $$\mathbb{R}^n$$ (theo nghĩa thích hợp), thì tích chập với $$G$$ giải được phương trình Laplace với nhiều loại nguồn khác nhau. Đây là xương sống của lý thuyết thế vị và PDE tuyến tính.
+Trong giải tích cổ điển, ta định nghĩa một hàm số $$f$$ bằng cách chỉ rõ **giá trị của nó tại từng điểm riêng lẻ** $$x \mapsto f(x)$$. Cách nhìn này gặp bế tắc ngay lập tức với những đối tượng vật lý cực kỳ tự nhiên: một cú gõ búa tức thời (lực xung), một hạt electron coi như điện tích điểm, hay một công tắc bật tắt đột ngột (bước nhảy không có đạo hàm tại $$t=0$$).
 
-Ký hiệu Dirac giúp viết gọn những điều đó. Cái giá phải trả: theo nghĩa cổ điển, câu "$$\delta$$ là một hàm số" là sai. Cách sửa của toán học là **đổi loại đối tượng**, chứ không cố ép $$\delta$$ vào $$L^1$$.
+Ý tưởng thiên tài của **lý thuyết phân bố (distribution theory)** là **đảo ngược cách định nghĩa** giống hệt cách các thiết bị đo vật lý thực tế hoạt động:
+- Một chiếc nhiệt kế thật không bao giờ đo được nhiệt độ tại *một điểm toán học có thể tích bằng 0*; nó luôn đo **trung bình có trọng số** trên một vùng nhỏ trơn tru quanh đầu cảm biến: $$\int f(x)\,\varphi(x)\,dx$$.
+- Thay vì hỏi *"đối tượng $$T$$ có giá trị bao nhiêu tại điểm $$x$$?"*, ta định nghĩa $$T$$ hoàn toàn thông qua **kết quả đo $$\langle T, \varphi \rangle$$ khi cho nó tương tác với mọi "cảm biến siêu trơn" (hàm thử $$\varphi$$)**.
+
+Nhờ cú xoay góc nhìn đối ngẫu này, toàn bộ giải tích được nới rộng mà không mất đi một chút chặt chẽ nào: những đối tượng "nhọn vô hạn" hay "gãy khúc" giờ đều được cộng, lấy đạo hàm vô hạn lần và biến đổi Fourier một cách hoàn toàn hợp pháp.
+
+---
+
+## 1. Nhu cầu từ vật lý và kỹ thuật
+
+Lực xung khi vợt tennis đập vào bóng, mật độ điện tích của một hạt điểm, **hàm Green**, hay "trạng thái riêng của vị trí" trong cơ học lượng tử đều vượt khỏi phạm vi hàm số cổ điển.
+
+**Ví dụ trực quan trong kỹ thuật âm thanh (Đáp ứng xung).** Làm sao một kỹ sư âm thanh đo được đặc tính vang dội của một nhà hát lớn để giả lập nó trong phần mềm? Họ nổ một quả bóng bay (một tiếng nổ cực ngắn xấp xỉ xung Dirac $$\delta(t)$$) rồi ghi âm lại tiếng vọng — đó chính là **đáp ứng xung** $$h(t)$$ (hay hàm Green của hệ). Vì mọi bản nhạc $$u(t)$$ đều có thể xem là tổng của vô số xung $$\delta$$ dịch chuyển nối tiếp nhau, âm thanh phát ra trong nhà hát chỉ đơn giản là phép **tích chập** $$u * h$$! Tương tự trong PDE, nếu tìm được hàm Green $$G$$ thỏa mãn $$-\Delta G = \delta$$, ta giải được phương trình Poisson $$-\Delta u = f$$ cho *mọi* nguồn $$f$$ chỉ bằng tích chập $$u = G * f$$.
+
+Ký hiệu Dirac giúp viết gọn những điều đó một cách thần kỳ. Cái giá phải trả là câu "$$\delta$$ là một hàm số" bị sai về mặt logic cổ điển. Cách giải quyết của toán học là **nâng cấp khái niệm đối tượng**, chứ không cố ép $$\delta$$ vào $$L^1$$.
 
 ---
 
 ## 2. Hàm thử và phân bố
 
-Cố định một tập mở $$\Omega\subset\mathbb{R}^n$$. **Hàm thử** là các phần tử của $$\mathcal{D}(\Omega)=C_c^\infty(\Omega)$$, tức là các hàm trơn có giá compact. Một **phân bố** $$T\in\mathcal{D}'(\Omega)$$ là một ánh xạ tuyến tính liên tục $$T:\mathcal{D}(\Omega)\to\mathbb{C}$$.
+Cố định một tập mở $$\Omega\subset\mathbb{R}^n$$. **Không gian hàm thử** $$\mathcal{D}(\Omega)=C_c^\infty(\Omega)$$ gồm tất cả các hàm trơn vô hạn lần và bằng $$0$$ ở bên ngoài một tập đóng bị chặn (giá compact) — bạn có thể xem mỗi $$\varphi\in\mathcal{D}(\Omega)$$ như một "cảm biến đo đạc cực kỳ êm dịu" tắt hẳn ở xa.
 
-Mọi $$f\in L^1_{\mathrm{loc}}(\Omega)$$ xác định một phân bố chính quy
+Một **phân bố** $$T\in\mathcal{D}'(\Omega)$$ là một phiếm hàm tuyến tính liên tục $$T:\mathcal{D}(\Omega)\to\mathbb{C}$$.
 
+- **Mọi hàm số thông thường đều là phân bố:** với bất kỳ hàm khả tích địa phương $$f\in L^1_{\mathrm{loc}}(\Omega)$$, ta gắn nó với phiếm hàm:
 $$
 \langle f,\varphi\rangle = \int_\Omega f(x)\,\varphi(x)\,dx.
 $$
-
-Phân bố Dirac tại điểm $$a\in\Omega$$:
-
+- **Phân bố Dirac tại điểm $$a\in\Omega$$:** thay vì cố viết một công thức tích phân bất khả thi, ta định nghĩa trực tiếp tác động của nó lên cảm biến $$\varphi$$ là **đọc đúng giá trị của $$\varphi$$ tại điểm $$a$$**:
 $$
 \langle \delta_a,\varphi\rangle = \varphi(a).
 $$
 
-Phân bố này không cho bởi tích phân với một hàm cổ điển nào, nhưng nó là một phiếm hàm tuyến tính liên tục hoàn toàn hợp lệ.
+**Trực giác giới hạn bằng hình chuông Gauss.** Xét họ hàm chuông chuẩn $$g_\varepsilon(x) = \frac{1}{\sqrt{2\pi}\,\varepsilon}e^{-x^2/(2\varepsilon^2)}$$. Với mọi $$\varepsilon > 0$$, $$g_\varepsilon$$ là hàm trơn bình thường có diện tích luôn bằng $$1$$. Khi $$\varepsilon \to 0^+$$, chuông co hẹp lại và nhọn vút lên tại $$0$$; giới hạn điểm của nó không ra hàm cổ điển nào, nhưng giới hạn *tác động lên mọi hàm thử* lại hội tụ đẹp tuyệt đối: $$\lim_{\varepsilon\to 0^+} \int g_\varepsilon(x)\varphi(x)\,dx = \varphi(0) = \langle \delta_0, \varphi\rangle$$!
 
 ---
 
 ## 3. Đạo hàm luôn tồn tại
 
-Định nghĩa
+Làm sao lấy đạo hàm một hàm bị đứt gãy hay một xung $$\delta$$? Bí quyết lấy thẳng từ **tích phân từng phần** ở giải tích năm nhất! Với hai hàm trơn $$f$$ và $$\varphi$$ (biết $$\varphi$$ bằng 0 ở xa vô cực nên số hạng biên triệt tiêu), ta luôn có:
+
+$$
+\int f'(x)\,\varphi(x)\,dx = -\int f(x)\,\varphi'(x)\,dx.
+$$
+
+Laurent Schwartz biến đẳng thức đó thành **định nghĩa đạo hàm phân bố** cho mọi $$T \in \mathcal{D}'$$:
 
 $$
 \langle \partial_i T,\varphi\rangle = -\langle T,\partial_i \varphi\rangle.
 $$
 
-Hệ quả: mọi phân bố đều khả vi vô hạn lần theo nghĩa yếu; hàm Heaviside $$H$$ thỏa mãn $$H'=\delta$$; nghiệm yếu của một PDE là nghiệm của phương trình trong $$\mathcal{D}'$$. Đây là ngôn ngữ đứng sau nhiều định lý tồn tại và khái niệm "nghiệm yếu" của phương trình Navier–Stokes ([bài NS]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/)).
+**Ví dụ chứng minh siêu gọn: đạo hàm của bước nhảy Heaviside chính là xung Dirac!** Xét hàm bậc thang $$H(x) = 0$$ khi $$x < 0$$ và $$H(x) = 1$$ khi $$x \ge 0$$ (không có đạo hàm cổ điển tại $$x=0$$). Áp dụng định nghĩa phân bố cho mọi hàm thử $$\varphi \in C_c^\infty(\mathbb{R})$$:
 
-**Chuỗi lập luận ngắn.** Nguồn điểm và bước nhảy trở nên hợp lệ khi phép lấy đạo hàm được chuyển sang **hàm thử**, chứ không tác động trực tiếp lên đối tượng kỳ dị.
+$$
+\langle H', \varphi \rangle = -\langle H, \varphi' \rangle = -\int_0^{+\infty} \varphi'(x)\,dx = -\bigl[\varphi(+\infty) - \varphi(0)\bigr] = \varphi(0) = \langle \delta_0, \varphi \rangle.
+$$
+
+Vậy $$H' = \delta_0$$ một cách **chặt chẽ 100%**! Hệ quả chấn động: mọi phân bố đều khả vi vô hạn lần theo nghĩa yếu, và khái niệm **nghiệm yếu (weak solution)** của PDE — vốn là nền tảng cho phương pháp phần tử hữu hạn (FEM) lẫn bài toán Thiên niên kỷ [Navier–Stokes]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/) — chính là nghiệm hiểu trong $$\mathcal{D}'$$.
+
+**Chuỗi lập luận ngắn.** Nguồn điểm và bước nhảy trở nên hoàn toàn hợp lệ khi ta đẩy gánh nặng lấy đạo hàm sang **hàm thử siêu trơn $$\varphi$$**, thay vì cố lấy đạo hàm trực tiếp lên đối tượng kỳ dị.
 
 ---
 
 ## 4. Phép nhân, tập sóng trước và vùng nguy hiểm
 
-Nhân một phân bố với một hàm trơn là an toàn. Nhân **hai** phân bố bất kỳ với nhau thì không phải lúc nào cũng định nghĩa được ($$\delta^2$$ là ví dụ nổi tiếng). Giải tích vi địa phương (tập sóng trước, wavefront set, của Hörmander) cho biết khi nào tích và phép hạn chế có nghĩa. Đây là lĩnh vực nâng cao mà việc tái chuẩn hóa trong lý thuyết trường lượng tử phải đụng đến khi nhân các phân bố có giá trị toán tử tại cùng một điểm.
+Dù lý thuyết phân bố cực kỳ mạnh, nó vẫn có một giới hạn quan trọng cần nhớ để không tính sai:
+- **An toàn:** cộng hai phân bố, lấy đạo hàm cấp bất kỳ, tích chập với hàm trơn, hoặc **nhân một phân bố với một hàm trơn** (ví dụ $$f(x)\delta_0 = f(0)\delta_0$$).
+- **Vùng nguy hiểm:** **nhân hai phân bố kỳ dị với nhau** nói chung không xác định được (ví dụ $$\delta(x)^2$$ vô nghĩa trong $$\mathcal{D}'$$!).
 
-**Quy tắc khi thảo luận.** Toán tử tuyến tính với hệ số trơn: an toàn trong khuôn khổ phân bố. Phép toán phi tuyến và tích tại điểm của các đối tượng kỳ dị: cần thêm cấu trúc.
+Giải tích vi địa phương (khái niệm **tập sóng trước — wavefront set** của Lars Hörmander) cho biết chính xác điều kiện hình học khi nào tích hai phân bố có nghĩa. Đây chính là rào cản toán học sâu xa mà kỹ thuật **tái chuẩn hóa (renormalization)** trong lý thuyết trường lượng tử phải vượt qua khi nhân các trường lượng tử tại cùng một điểm không–thời gian.
+
+**Quy tắc khi thảo luận.** Toán tử tuyến tính với hệ số trơn: hoàn toàn an toàn trong khuôn khổ phân bố. Phép toán phi tuyến và tích tại điểm của các đối tượng kỳ dị: bắt buộc phải có thêm cấu trúc giải tích.
 
 ---
 
 ## 5. Phân bố tăng chậm và biến đổi Fourier
 
-Trên không gian Schwartz $$\mathcal{S}$$, biến đổi Fourier là một tự đẳng cấu; không gian đối ngẫu $$\mathcal{S}'$$ gồm các **phân bố tăng chậm**, trong đó có đa thức, các hàm tăng không nhanh hơn đa thức, và $$\delta$$. Nhờ vậy biến đổi Fourier áp dụng được cho những đối tượng thô hơn nhiều so với tín hiệu cổ điển ([Fourier]({{ site.baseurl }}/contents/vi/chapter03/03_08_Fourier_Signal_Processing/)).
+Trong giải tích cổ điển, biến đổi Fourier đòi hỏi hàm phải khả tích ($$f \in L^1$$) — nên thậm chí một hàm hằng $$f(x)=1$$ hay sóng sin $$\cos(x)$$ thuần túy cũng không có biến đổi Fourier cổ điển!
+
+Giải pháp của Schwartz là chọn không gian hàm thử rộng hơn một chút gọi là **không gian Schwartz $$\mathcal{S}$$** (các hàm trơn giảm nhanh hơn mọi lũy thừa khi $$\lvert x\rvert \to \infty$$, như hàm Gauss $$e^{-x^2}$$). Biến đổi Fourier biến $$\mathcal{S}$$ thành chính $$\mathcal{S}$$. Không gian đối ngẫu $$\mathcal{S}'$$ gồm các **phân bố tăng chậm (tempered distributions)** — bao trùm cả đa thức, sóng sin/cosin lẫn xung $$\delta$$!
+
+Bằng định nghĩa đối ngẫu $$\langle \widehat{T}, \varphi \rangle = \langle T, \widehat{\varphi} \rangle$$, ta thu ngay đẳng thức kinh điển của kỹ thuật tín hiệu:
+
+$$
+\widehat{\delta_0}(\xi) = 1 \qquad \text{và} \qquad \widehat{1}(\xi) = \delta_0(\xi).
+$$
+
+Ý nghĩa vật lý tuyệt đẹp: một tiếng nổ siêu ngắn $$\delta(t)$$ chứa **đều tất cả mọi tần số** với biên độ bằng $$1$$; ngược lại một tín hiệu hằng bất biến theo thời gian chỉ tập trung toàn bộ năng lượng tại đúng tần số $$0$$! ([Fourier]({{ site.baseurl }}/contents/vi/chapter03/03_08_Fourier_Signal_Processing/)).
 
 ---
 
 ## 6. Ký hiệu trong cơ học lượng tử và lý thuyết trường
 
-Ket vị trí $$|x\rangle$$ và đẳng thức $$\langle x|x'\rangle=\delta(x-x')$$ là các ký hiệu hình thức. Cách hiểu chặt chẽ dùng độ đo phổ, hoặc không gian Hilbert được trang bị (rigged Hilbert space) $$\mathcal{S}\subset L^2\subset\mathcal{S}'$$ ([Hilbert / cơ học lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_18_Hilbert_Spectral_QM/)).
+Trong sách vật lý lượng tử, ket vị trí $$\lvert x\rangle$$ và đẳng thức trực giao liên tục $$\langle x\vert x'\rangle=\delta(x-x')$$ thực chất là các đối tượng nằm ngoài không gian Hilbert $$L^2$$ (không thể chuẩn hóa tích phân bình phương bằng 1). Cách đặt nền móng chặt chẽ là dùng định lý phổ (độ đo giá trị phép chiếu) hoặc **không gian Hilbert được trang bị (rigged Hilbert space)** kẹp giữa ba tầng: $$\mathcal{S}\subset L^2\subset\mathcal{S}'$$ ([Hilbert / cơ học lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_18_Hilbert_Spectral_QM/)).
 
-Trong lý thuyết trường lượng tử, các phân bố Wightman và tích sắp xếp theo thời gian cũng được viết bằng ngôn ngữ phân bố. Khó khăn giải tích thường nằm ở việc **định nghĩa các phiếm hàm phi tuyến** (tái chuẩn hóa); xem [tích phân đường]({{ site.baseurl }}/contents/vi/chapter06/06_20_Path_Integrals_Math_Status/) và [nhóm tái chuẩn hóa]({{ site.baseurl }}/contents/vi/chapter06/06_22_Renormalization_Group/).
+Trong lý thuyết trường lượng tử, các trường lượng tử tự bản thân chúng cũng là các **phân bố có giá trị toán tử** (tiên đề Wightman). Khó khăn lớn nhất về mặt toán học luôn nằm ở khâu nhân các phân bố đó lại với nhau (tái chuẩn hóa); xem thêm [tích phân đường]({{ site.baseurl }}/contents/vi/chapter06/06_20_Path_Integrals_Math_Status/) và [nhóm tái chuẩn hóa]({{ site.baseurl }}/contents/vi/chapter06/06_22_Renormalization_Group/).
 
 ---
 

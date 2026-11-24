@@ -9,9 +9,22 @@ categories:
 - chapter06
 ---
 
-Mật mã là toán học của **giao tiếp trong môi trường có đối thủ**: tính toán và tương tác sao cho bí mật được giữ, tính xác thực đứng vững, và giao thức vẫn đúng khi có bên gian lận. Hệ mật khóa công khai cổ điển bảo vệ phần lớn internet nhờ các giả thiết khó về số học, như phân tích thừa số và logarit rời rạc. Ta **tin** là chúng khó với máy tính cổ điển, và **biết** là chúng bị phá trong thời gian đa thức bởi một máy lượng tử chịu lỗi đủ lớn, qua thuật toán Shor. Vì vậy “mật mã cho tương lai” không phải một mốt nhất thời; đó là một cuộc chuyển đổi kỹ thuật được dẫn dắt bởi định lý, phép quy dẫn (reduction) và phân tích mật mã.
+Mỗi lần bạn mở trình duyệt và thấy biểu tượng ổ khóa nhỏ bên cạnh địa chỉ ngân hàng, toàn bộ phiên giao dịch đó đang đứng trên một niềm tin toán học: rằng nhân hai số nguyên tố khổng lồ thì mất một phần triệu giây, nhưng làm ngược lại — phân tích tích đó ra hai thừa số nguyên tố — sẽ khiến mọi siêu máy tính cổ điển mất hàng triệu năm. Suốt gần nửa thế kỷ, hệ mật khóa công khai (RSA, Diffie–Hellman, ECC) đã bảo vệ hầu như toàn bộ internet bằng chính sự bất đối xứng tuyệt đẹp ấy.
 
-Bài này tách riêng các nhóm: nguyên thủy **đối xứng**, giả thiết **khóa công khai**, các ứng viên **hậu lượng tử**, **QKD**, và các giao thức nâng cao (ZK, FHE, MPC), với một lưu ý xuyên suốt: ta chứng minh được điều gì, *dựa trên* giả thiết nào.
+Thế nhưng vào năm 1994, Peter Shor chỉ ra một vết nứt sâu trong nền móng đó: nếu một ngày con người xây dựng được máy tính lượng tử chịu lỗi đủ lớn, thuật toán Shor sẽ phá vỡ bài toán phân tích thừa số và logarit rời rạc trong thời gian đa thức. Điều đáng lo không chỉ là ngày mai có máy lượng tử hay chưa, mà là kẻ tấn công có thể **thu thập dữ liệu mã hóa ngay hôm nay và đợi mười lăm năm sau mới giải mã**. Bởi vậy, “mật mã cho tương lai” không phải một trào lưu tiếp thị; đó là cuộc di cư hạ tầng lớn nhất trong lịch sử an ninh mạng, được dẫn dắt bởi định lý, phép quy dẫn (reduction) và phân tích mật mã nghiêm ngặt.
+
+**Mật mã học** là toán học của **giao tiếp trong môi trường có đối thủ**: làm sao để bí mật được giữ kín, danh tính được xác thực, và thậm chí nhiều bên không tin nhau vẫn tính toán chung được kết quả đúng. Bài này tách bạch rõ các lớp của bức tranh hiện đại: nguyên thủy **đối xứng**, mật mã **khóa công khai**, các họ **hậu lượng tử (PQC)**, **QKD**, và những giao thức tưởng như phép thuật như **ZK, FHE, MPC** — luôn kèm câu hỏi cốt lõi: ta chứng minh được điều gì, và *dựa trên* giả thiết nào?
+
+---
+
+## Bản đồ kiến thức nền: Mật mã hậu lượng tử là gì và nghiên cứu những gì?
+
+Nếu bạn đã quen với đại số tuyến tính và số học cơ bản, bạn có thể nắm ngay bức tranh của **Mật mã Học Hiện Đại & Hậu Lượng Tử** (Modern & Post-Quantum Cryptography) qua **bốn câu hỏi cốt lõi**:
+
+1. **Tìm bài toán "khó ngay cả với máy lượng tử" (Lattice, Mã sửa lỗi, Hàm băm):** Thuật toán Shor chỉ giỏi tìm *chu kỳ ẩn* trên nhóm abel (như số học modulo trong RSA hay đường cong elliptic). Mật mã hậu lượng tử (PQC) chuyển sang những bài toán hình học và tổ hợp không có cấu trúc tuần hoàn kiểu đó — nổi bật nhất là **mạng tinh thể chiều cao (lattice)**, nơi việc tìm một vector ngắn trong lưới 500–1000 chiều hoặc giải hệ phương trình tuyến tính bị trộn thêm một chút nhiễu nhỏ (LWE) được tin là khó với cả máy cổ điển lẫn máy lượng tử.
+2. **Chứng minh bằng phép quy dẫn (Provable Security):** Trong mật mã, ta hiếm khi chứng minh tuyệt đối rằng "không ai phá được". Thay vào đó, ta chứng minh: *nếu* có kẻ phá được hệ mật của tôi, tôi có thể dùng chính kẻ đó làm hộp đen để giải một bài toán toán học nổi tiếng là khó.
+3. **Giao thức bảo mật nâng cao (ZK, FHE, MPC):** Vượt xa chuyện "khóa hộp gửi thư", mật mã biên giới hỏi những câu tưởng như nghịch lý: làm sao chứng minh tôi biết mật khẩu mà không hé lộ một bit nào của nó (Zero-Knowledge)? Làm sao nhờ máy chủ đám mây tính toán trên dữ liệu *đang bị mã hóa* mà máy chủ không đọc được nội dung (FHE)?
+4. **Cầu nối từ toán học đến phần cứng (Side-Channel & Crypto-Agility):** Một định lý hoàn hảo vẫn có thể sụp đổ ngoài đời thực nếu chip xử lý mất thêm vài nano giây khi xử lý bit `1` so với bit `0`. Vì vậy mật mã hiện đại vừa là đại số và độ phức tạp, vừa là kỹ thuật chống rò rỉ kênh phụ.
 
 ---
 
@@ -40,7 +53,7 @@ An ninh được chứng minh thường có dạng quy dẫn: *nếu* phá đư�
 
 ## 2. Mật mã đối xứng: vẫn là xương sống
 
-Mã khối, mã dòng, hàm băm và MAC bảo vệ lượng dữ liệu lớn sau khi hai bên đã có khóa. Người ta không biết AES hay họ hàm băm SHA bị sụp đổ kiểu Shor như bài toán phân tích thừa số. Grover tăng tốc bậc hai cho việc tìm kiếm vét cạn, nên trong một số mô hình đe dọa người ta khuyến nghị khóa dài hơn (ví dụ AES-256 thay cho AES-128).
+Mã khối, mã dòng, hàm băm và MAC bảo vệ lượng dữ liệu lớn sau khi hai bên đã có khóa. Người ta không biết AES hay họ hàm băm SHA bị sụp đổ kiểu Shor như bài toán phân tích thừa số. Grover tăng tốc bậc hai cho việc tìm kiếm vét cạn, nên trong một số mô hình đe dọa người ta khuyến nghị khóa dài hơn (ví dụ AES-256 thay cho AES-128 — tăng gấp đôi độ dài khóa là đủ triệt tiêu lợi thế căn bậc hai của Grover).
 
 Mã đối xứng không tự giải quyết việc phân phối khóa, nên mới có mật mã công khai và QKD. Các tấn công vào khâu triển khai (đo thời gian, đo năng lượng, gây lỗi) phá được hệ thống mà không phá nguyên thủy toán học.
 
@@ -63,6 +76,14 @@ RSA dựa trên giả thiết liên quan đến phân tích thừa số; Diffie�
 | Chữ ký dựa trên hàm băm | An ninh của hàm băm | Bảo thủ; loại có trạng thái và không trạng thái |
 | Đa biến | Hệ đa thức bậc hai | Lịch sử nhiều biến động (một số đề xuất đã bị phá); cần phân tích kỹ |
 | Isogeny | Ánh xạ giữa các đường cong elliptic | Một số hệ đã bị phá (SIDH); lĩnh vực vẫn tiếp tục |
+
+**Một ví dụ trực quan về LWE (Learning With Errors).** Nếu ai đó cho bạn một hệ phương trình tuyến tính sạch sẽ $$A s = b \pmod{q}$$, bạn chỉ cần khử Gauss học từ năm nhất đại học là tìm ngay ra vector bí mật $$s$$ trong tích tắc. Nhưng giờ hãy cộng thêm một vector **nhiễu rất nhỏ** $$e$$ vào vế phải:
+
+$$
+b = A s + e \pmod{q}.
+$$
+
+Chỉ một chút nhiễu nhỏ ấy làm phép khử Gauss sụp đổ hoàn toàn: mỗi bước cộng trừ hàng lại khuếch đại nhiễu lên theo cấp số nhân cho tới khi mọi thông tin chìm nghỉm trong hỗn loạn. Việc tìm lại $$s$$ từ $$(A, b)$$ tương đương với việc tìm điểm lưới gần nhất trong một mạng tinh thể hàng trăm chiều — bài toán mà cho đến nay cả máy tính cổ điển lẫn máy tính lượng tử đều chưa có thuật toán hiệu quả.
 
 Việc NIST chuẩn hóa (và các quy trình tương đương ở từng quốc gia) là một quá trình kéo dài nhiều năm, gồm phân tích mật mã và đánh giá kỹ thuật, không phải một cuộc thi toán thuần túy. Việc chọn tham số phải cân bằng giữa ước lượng độ an toàn, kích thước khóa và hiệu năng. “Lattice” không tự động an toàn: tham số sai, triển khai yếu hay một thuật toán mới vẫn có thể phá được.
 
@@ -87,11 +108,11 @@ Hai công nghệ này cùng trả lời nỗi lo về bảo mật, nhưng dựa 
 
 ## 6. Giao thức nâng cao: ZK, FHE, MPC
 
-**Zero-knowledge:** chứng minh một phát biểu là đúng mà không để lộ chứng cứ (ngoài những hệ quả logic của chính phát biểu), theo mô hình mô phỏng. Các chứng minh ngắn hiện đại là nền cho blockchain và các ứng dụng riêng tư; nhưng giả thiết mật mã, bước thiết lập đáng tin (ở một số hệ) và lỗi triển khai vẫn là nguy cơ.
+**Zero-knowledge:** chứng minh một phát biểu là đúng mà không để lộ chứng cứ (ngoài những hệ quả logic của chính phát biểu), theo mô hình mô phỏng. Hình dung cổ điển: bạn muốn chứng minh với một người bạn mù màu rằng hai quả bóng trong tay bạn có màu khác nhau. Bạn để bạn ấy giấu hai quả bóng ra sau lưng, có thể tráo tay hoặc không, rồi đưa ra trước mặt để bạn đoán xem họ vừa tráo hay giữ nguyên. Nếu hai quả bóng khác màu thật, bạn đoán đúng 100%; nếu chúng cùng màu, bạn chỉ đoán mò với xác suất $$1/2$$. Lặp lại 20 lần, xác suất ăn may tụt xuống $$2^{-20} < 10^{-6}$$, bạn ấy hoàn toàn tin hai quả bóng khác màu mà vẫn chẳng biết quả nào màu gì! Các chứng minh ngắn hiện đại (zk-SNARK, zk-STARK) nâng ý tưởng đó lên thành nền cho blockchain và ứng dụng riêng tư; nhưng giả thiết mật mã, bước thiết lập đáng tin (ở một số hệ) và lỗi triển khai vẫn là nguy cơ.
 
-**FHE:** tính trực tiếp trên bản mã: $$\mathsf{Dec}(f(\mathsf{Enc}(x)))=f(x)$$ với một lớp hàm $$f$$ rộng. Đột phá dựa trên lattice (Gentry và các thế hệ sau); chi phí vẫn còn cao với nhiều ứng dụng, dù đang được cải thiện.
+**FHE:** tính trực tiếp trên bản mã: $$\mathsf{Dec}(f(\mathsf{Enc}(x)))=f(x)$$ với một lớp hàm $$f$$ rộng. Hãy tưởng tượng một chiếc hộp găng tay khóa kín bằng kính trong suốt: bạn bỏ nguyên liệu vào hộp, khóa lại, rồi đưa cho người thợ kim hoàn (máy chủ đám mây) thò tay qua đôi găng gắn liền với hộp để chế tác thành món trang sức. Người thợ làm xong việc mà không bao giờ chạm tay hay lấy được vàng ra ngoài; chỉ bạn có chìa khóa mới mở hộp lấy kết quả. Đột phá FHE dựa trên lattice (Gentry và các thế hệ sau); chi phí vẫn còn cao với nhiều ứng dụng, dù đang được cải thiện.
 
-**MPC:** nhiều bên cùng tính một hàm chung mà không lộ đầu vào của mình ngoài kết quả. Các mô hình đa số trung thực và đa số không trung thực dùng những công cụ khác nhau (chia sẻ bí mật, mạch garbled, OT).
+**MPC:** nhiều bên cùng tính một hàm chung mà không lộ đầu vào của mình ngoài kết quả (ví dụ: năm công ty cùng tính mức lương trung bình của ngành mà không công ty nào phải tiết lộ bảng lương của riêng mình). Các mô hình đa số trung thực và đa số không trung thực dùng những công cụ khác nhau (chia sẻ bí mật, mạch garbled, OT).
 
 Đây là **lý thuyết giao thức** đã có triển khai thật, và khoảng cách giữa “khả thi về mặt tiệm cận” với “dùng rẻ ở mọi nơi” còn rất rộng. Những lời quảng cáo kiểu “FHE giải quyết mọi vấn đề riêng tư” bỏ qua hiệu năng, rò rỉ qua mẫu truy cập và việc quản lý khóa.
 

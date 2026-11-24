@@ -9,12 +9,14 @@ categories:
 - chapter09
 ---
 
-**Judea Pearl** nhận **A.M. Turing Award 2011**
+Hãy thử đối mặt với một nghịch lý từng khiến cả giới y khoa và thống kê đau đầu (**Nghịch lý Simpson**): một bệnh viện tổng hợp dữ liệu điều trị sỏi thận và thấy Phương pháp A có tỉ lệ khỏi bệnh cao hơn Phương pháp B ở **cả** nhóm bệnh nhân sỏi nhỏ lẫn nhóm bệnh nhân sỏi lớn. Thế nhưng khi gộp chung toàn bộ hồ sơ lại, Phương pháp B lại bất ngờ có tỉ lệ khỏi cao hơn Phương pháp A! Nếu chỉ nhìn vào bảng số liệu thống kê thuần túy, bạn nên chọn phương pháp nào? Câu trả lời hóa ra *không nằm trong bảng dữ liệu* — nó phụ thuộc vào **câu chuyện nhân quả** đằng sau dữ liệu (bác sĩ có xu hướng chỉ định phương pháp mạnh hơn cho ca bệnh nặng hơn).
+
+Suốt một thế kỷ, thống kê cổ điển gần như cấm kỵ chữ "nguyên nhân" và chỉ lặp lại câu thần chú *"tương quan không phải nhân quả"*. **Judea Pearl** (Giải A.M. Turing **2011**) đã phá vỡ sự im lặng ấy bằng cách trao cho quan hệ nhân quả một **ngôn ngữ toán học đầy đủ** gồm đồ thị nhân quả (DAG), toán tử can thiệp $$do(x)$$ và phép tính **do-calculus**:
 
 > “for fundamental contributions to artificial intelligence through the development of a calculus for probabilistic and causal reasoning.”  
 > — [ACM Turing Award](https://amturing.acm.org/)
 
-Thống kê cổ điển giỏi mô tả **liên kết** dưới phân phối quan sát. Pearl đặt câu hỏi cứng hơn: **nếu can thiệp**, hệ đổi thế nào? **Nếu ngược lại quá khứ**, điều gì đã xảy ra? Ông đưa **đồ thị**, **do-calculus**, và **nấc thang nhân quả** vào AI và khoa học dữ liệu, biến “correlation ≠ causation” từ khẩu hiệu thành **đại số suy diễn**. Bài này dựng toán–logic của nhân quả cho Math Enthusiast: Bayesian networks, $$do(x)$$, confounding, counterfactual—và ranh giới khi data + graph giả định không đủ. Cầu: [xác suất]({{ site.baseurl }}/contents/vi/chapter03/03_04_Probability_Data_Science/), [toán AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/), [ML theory]({{ site.baseurl }}/contents/vi/chapter06/06_10_ML_Theory/).
+Bài này dẫn bạn qua cấu trúc toán–logic của nhân quả: mạng Bayes, nấc thang ba tầng (quan sát – can thiệp – phản thực), biến nhiễu (confounder) và những giới hạn không thể vượt qua bằng dữ liệu lớn đơn thuần. Liên kết: [xác suất]({{ site.baseurl }}/contents/vi/chapter03/03_04_Probability_Data_Science/), [toán AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/), [ML theory]({{ site.baseurl }}/contents/vi/chapter06/06_10_ML_Theory/).
 
 ---
 
@@ -23,6 +25,18 @@ Thống kê cổ điển giỏi mô tả **liên kết** dưới phân phối qu
 Sau bài, bạn có thể phân biệt ba nấc **association / intervention / counterfactual**; đọc **Bayesian network** như factorization $$p(x_1,\ldots,x_n)=\prod_i p(x_i\mid \mathrm{pa}(i))$$ trên DAG; giải thích **confounder** và vì sao hồi quy quan sát có thể lệch tác động nhân quả; phát biểu ý toán tử $$do(X=x)$$ và khác conditioning $$p(y\mid x)$$; nêu **backdoor** ở mức khẩu hiệu (chặn mọi đường back-door từ $$X$$ sang $$Y$$ không tạo đường mới); mô tả counterfactual như lớp suy diễn cần mô hình cấu trúc; phê slogan “big data thay nhân quả” và “DAG = sự thật thế giới”.
 
 **Kiến thức nền.** Xác suất có điều kiện; độc lập; đồ thị có hướng cơ bản. Không cần measure theory.
+
+---
+
+## Bản đồ kiến thức nền: Toán học nhân quả và Mô hình đồ thị xác suất là gì, nghiên cứu những gì?
+
+Người tốt nghiệp đại học ngành khoa học dữ liệu hay học máy thường rất thành thạo việc ước lượng xác suất có điều kiện $$p(y \mid x)$$ — ví dụ *"biết khách hàng vừa mua bỉm, xác suất họ mua bia là bao nhiêu?"*. Nhưng ngay khi bạn bước sang câu hỏi ra quyết định — *"nếu ta chủ động giảm giá thuốc $$X$$ thì tỉ lệ khỏi bệnh $$Y$$ thay đổi thế nào?"* — xác suất quan sát $$p(y \mid x)$$ không còn đủ nữa, bởi vì **nhìn thấy $$X=x$$** (quan sát thụ động) khác hoàn toàn với **ép $$X=x$$** (can thiệp chủ động)!
+
+Đó là sân khấu của **Toán học nhân quả (Causal Inference)** và **Mô hình đồ thị xác suất (Probabilistic Graphical Models)**:
+1. **Đồ thị có hướng không chu trình (DAG) như bản đồ cơ chế:** Thay vì coi mọi biến bình đẳng trong một bảng dữ liệu phẳng, ta vẽ mũi tên $$A \to B$$ để biểu thị $$A$$ là nguyên nhân trực tiếp của $$B$$. Đồ thị đó cho phép phân tích phân phối đồng thời thành tích các xác suất địa phương và đọc ngay quan hệ độc lập có điều kiện bằng tiêu chuẩn **d-separation**.
+2. **Toán tử $$do(x)$$ và Phép tính do-calculus:** Khi can thiệp $$do(X=x)$$, ta thực hiện một ca "phẫu thuật đồ thị": **cắt đứt mọi mũi tên đi vào $$X$$** (vì giờ đây chính ta quyết định giá trị của $$X$$ chứ không phải biến nhiễu nào khác) và tính phân phối mới của $$Y$$. Phép tính **do-calculus** của Pearl cung cấp đúng 3 quy tắc đại số để trả lời câu hỏi: *liệu có thể tính được tác động can thiệp $$p(y \mid do(x))$$ chỉ từ dữ liệu quan sát mà không cần làm thí nghiệm ngẫu nhiên (RCT) tốn kém hay không?*
+
+Một **ví dụ số siêu gọn** minh họa điều chỉnh back-door: giả sử $$50\%$$ bệnh nhân nhẹ ($$Z=0$$) và $$50\%$$ bệnh nhân nặng ($$Z=1$$). Khi dùng thuốc ($$X=1$$), tỉ lệ khỏi là $$90\%$$ ở ca nhẹ và $$50\%$$ ở ca nặng. Nếu bác sĩ chủ yếu cho ca nặng dùng thuốc ($$80\%$$ người dùng thuốc là ca nặng), thì tỉ lệ khỏi quan sát ở nhóm dùng thuốc chỉ là $$p(Y=1 \mid X=1) = 0.2 \times 90\% + 0.8 \times 50\% = 58\%$$ — trông rất thấp! Nhưng nếu ta dùng công thức điều chỉnh back-door (lấy trọng số theo dân số thật $$p(Z)$$ thay vì $$p(Z \mid X=1)$$), tác động nhân quả thật sự của thuốc là $$p(Y=1 \mid do(X=1)) = 0.5 \times 90\% + 0.5 \times 50\% = 70\%$$!
 
 ---
 

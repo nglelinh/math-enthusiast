@@ -10,17 +10,29 @@ categories:
 lesson_type: optional
 ---
 
+Nếu một nhà khoa học máy tính từ năm 2018 — đúng năm bộ ba học sâu nhận Giải Turing — bước vào phòng thí nghiệm năm 2025, họ sẽ bất ngờ trước ba cảnh tượng diễn ra song song. Ở phòng thứ nhất, các kỹ sư không còn đua nhau bơm kích thước mô hình ngôn ngữ lớn nhất có thể, mà tính toán cực kỳ chi li cách chia một ngân sách phép tính (FLOPs) cố định giữa số tham số và lượng dữ liệu theo **quy luật Chinchilla**. Ở phòng thứ hai, một tác nhân học tăng cường mang tên **AlphaProof** ngồi viết chứng minh toán học cho đề thi Olympic Toán Quốc tế (IMO) bằng ngôn ngữ hình thức **Lean** — và từng dòng suy luận đều bị hạt nhân logic kiểm duyệt gắt gao không thể "ảo giác". Ở phòng thứ ba, kiến trúc **Transformer** không chỉ dự đoán từ tiếp theo mà còn đang học cách ước lượng kết quả *phản thực* cho bệnh nhân theo từng ngày điều trị, đưa tinh thần nhân quả của Pearl vào chuỗi thời gian sâu!
+
+Bài đọc thêm này đóng vai trò một **bản cập nhật giai đoạn 2022–2026** bổ sung trực tiếp vào tấm bản đồ ở bài [Chủ đề hiện đại]({{ site.baseurl }}/contents/vi/chapter09/09_14_Modern_Themes/): không lặp lại các chủ đề về quyền riêng tư vi phân, mã sửa lỗi hay lượng tử, mà soi kính lúp vào chính ba điểm giao cắt mới mẻ ấy giữa tối ưu hóa, kiểm chứng hình thức và suy luận nhân quả.
+
 ## Mục tiêu học tập
 
-Sau bài tùy chọn này, bạn có thể thêm ba ví dụ cụ thể giai đoạn 2022–2026 vào bản đồ ở bài [Chủ đề hiện đại]({{ site.baseurl }}/contents/vi/chapter09/09_14_Modern_Themes/): huấn luyện tối ưu theo ngân sách tính toán, tác nhân giải toán olympic dùng Lean, và mô hình chuỗi nhân quả. Bài này không viết lại những điều đã nói ở bài đó về quyền riêng tư vi phân, lý thuyết mã hay thuật toán lượng tử.
+Sau bài tùy chọn này, bạn có thể:
+
+- Thêm ba ví dụ cụ thể giai đoạn 2022–2026 vào bản đồ vùng biên Toán–CS: huấn luyện tối ưu theo ngân sách tính toán (Chinchilla), tác nhân giải toán Olympic dùng trợ lý chứng minh Lean (AlphaProof), và mô hình chuỗi nhân quả (Causal Transformer).
+- Phân biệt rõ đâu là *quy luật thực nghiệm*, đâu là *kiểm chứng hình thức bằng kernel*, và đâu là *kiến trúc xấp xỉ nguyên lý nhân quả*.
+- Nối cả ba bước tiến hiện đại này về các nền tảng của Chương 9 (Valiant, bộ ba học sâu, Pearl và văn hóa kiểm chứng).
+
+## Bản đồ kiến thức nền: Quy luật mở rộng quy mô, Chứng minh hình thức bằng AI và Học máy nhân quả là gì, nghiên cứu những gì?
+
+Ba cập nhật trong bài đại diện cho ba câu hỏi toán–tin sắc bén nhất của giai đoạn 2022–2026:
+
+1. **Tối ưu hóa dưới ràng buộc ngân sách tính toán (Compute-Optimal Scaling):** Huấn luyện một mô hình ngôn ngữ có $$N$$ tham số trên $$D$$ token tốn xấp xỉ $$C \approx 6ND$$ phép tính dấu phẩy động (FLOPs). Thay vì tối ưu không ràng buộc, Hoffmann và cộng sự (2022) giải bài toán tối ưu có ràng buộc: *với ngân sách $$C$$ cố định, chọn cặp $$(N, D)$$ nào để hàm mất mát đạt cực tiểu?* Kết quả thực nghiệm cho thấy $$N$$ và $$D$$ cần tăng theo tỉ lệ cân bằng (khoảng **20 token cho mỗi tham số** — do đó mô hình Chinchilla 70 tỉ tham số huấn luyện trên 1.4 nghìn tỉ token đánh bại hoàn toàn mô hình Gopher 280 tỉ tham số nhưng thiếu dữ liệu!).
+2. **Học tăng cường trong môi trường chứng minh hình thức (Formal Mathematical Reasoning):** Điểm yếu cố hữu của LLM khi làm toán bằng tiếng tự nhiên là khó kiểm soát bước suy luận sai. Khi chuyển sang ngôn ngữ trợ lý chứng minh như **Lean 4**, mỗi bước chứng minh (tactic) là một nước đi trong trò chơi logic, và **kernel** (hạt nhân kiểm chứng nhỏ gọn) trả về tín hiệu Đúng/Sai tuyệt đối chính xác. Học tăng cường (như AlphaProof) tận dụng chính tín hiệu không-ảo-giác này để tìm kiếm chứng minh ở tầm huy chương bạc IMO 2024.
+3. **Học máy nhân quả trên dữ liệu chuỗi thời gian (Sequential Causal Inference):** Trong y khoa (như hồ sơ ICU theo từng giờ), liều thuốc $$A_t$$ tại giờ $$t$$ phụ thuộc vào chỉ số bệnh nhân $$X_t$$ và các liều trước đó — tạo nên mạng lưới biến nhiễu phụ thuộc thời gian (*time-varying confounding*). **Causal Transformer** kết hợp cơ chế tự chú ý với hàm mất mát đối kháng để học biểu diễn ẩn trung hòa biến nhiễu, giúp ước lượng câu hỏi phản thực *"nếu đổi phác đồ điều trị từ giờ thứ 3 thì diễn biến bệnh nhân sẽ ra sao?"*.
 
 ## Kiến thức cần có
 
 Bài [Chủ đề hiện đại]({{ site.baseurl }}/contents/vi/chapter09/09_14_Modern_Themes/), cùng các bài về giải thưởng làm điểm xuất phát: [bộ ba học sâu]({{ site.baseurl }}/contents/vi/chapter09/09_12_Deep_Learning_Trio/), [Pearl]({{ site.baseurl }}/contents/vi/chapter09/09_11_Pearl_Causality/), [Valiant]({{ site.baseurl }}/contents/vi/chapter09/09_09_Valiant_Learning/).
-
-## Mở đầu
-
-Bài chủ đề hiện đại giống một chiếc la bàn: quyền riêng tư, tối ưu và lý thuyết học máy, mã hóa, tính toán lượng tử, kiểm chứng hình thức. Bài này là một *báo cáo cập nhật* giai đoạn 2022–2026 về ba hướng đã có thêm kết quả mới. Các quy luật về quy mô (scaling) đã trở thành cách phân bổ tài nguyên trong thực tế. Kiểm chứng hình thức gặp học tăng cường trong Lean. Đồ thị nhân quả gặp transformer trên dữ liệu theo thời gian. Các bài về giải thưởng vẫn là lối vào; đây là những căn phòng mở ra phía sau.
 
 ## Phát triển khái niệm
 
@@ -34,7 +46,7 @@ Quy luật Chinchilla (tăng số token cùng với số tham số) đã thay đ
 
 ### 2. AlphaProof và chủ đề kiểm chứng
 
-Kết quả đánh giá ở IMO 2024 (mức tương đương huy chương bạc) và bài báo trên *Nature* năm 2025 (Hubert và cộng sự) cho thấy một tác nhân có thể đề xuất chứng minh bằng Lean và được kernel chấm. Đây là khẩu hiệu của kiểm chứng hình thức được đưa vào thực tế: kiểm thử chỉ có thể không tìm thấy lỗi, còn kernel thì chấp nhận một chứng minh cụ thể. Các lưu ý ở Chương 5 vẫn đúng (chuyên gia vẫn phải hình thức hóa phát biểu, vẫn cần thêm tính toán, và bài tổ hợp vẫn chưa giải được). Điều Chương 9 muốn nhấn mạnh là cách nhìn theo *hệ thống*: một kernel đáng tin cộng với một bộ đề xuất học được là một kiến trúc mới ở biên giới toán–tin, chứ không phải một lời trích dẫn giải Turing.
+Kết quả đánh giá ở IMO 2024 (mức tương đương huy chương bạc, giải 4/6 bài kết hợp cùng AlphaGeometry 2) và bài báo trên *Nature* năm 2025 (Hubert và cộng sự) cho thấy một tác nhân có thể đề xuất chứng minh bằng Lean và được kernel chấm. Đây là khẩu hiệu của kiểm chứng hình thức được đưa vào thực tế: kiểm thử chỉ có thể không tìm thấy lỗi, còn kernel thì chấp nhận một chứng minh cụ thể. Các lưu ý ở Chương 5 vẫn đúng (chuyên gia vẫn phải hình thức hóa phát biểu, vẫn cần thêm tính toán, và bài tổ hợp vẫn chưa giải được). Điều Chương 9 muốn nhấn mạnh là cách nhìn theo *hệ thống*: một kernel đáng tin cộng với một bộ đề xuất học được là một kiến trúc mới ở biên giới toán–tin, chứ không phải một lời trích dẫn giải Turing.
 
 ### 3. Causal Transformer và Pearl
 

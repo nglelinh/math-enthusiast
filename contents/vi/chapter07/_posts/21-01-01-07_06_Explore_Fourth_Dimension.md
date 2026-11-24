@@ -12,15 +12,15 @@ categories:
 > **Bài liên quan**  
 > [Viazovska / xếp cầu]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/) · [Thực hành xếp cầu]({{ site.baseurl }}/contents/vi/chapter07/07_03_Explore_Sphere_Packing/) · [Vô hạn]({{ site.baseurl }}/contents/vi/chapter07/07_08_Explore_Describe_Infinity/)
 
-Chiều thứ tư không có gì bí ẩn. Đó là **$$\mathbb{R}^4$$**: tập các bộ bốn số thực có thứ tự, với khoảng cách Euclid
+Năm 1884, nhà văn kiêm giáo sĩ Edwin A. Abbott xuất bản cuốn tiểu thuyết ngắn nổi tiếng *Flatland* (Xứ Phẳng): một sinh vật hình Vuông sống trên mặt phẳng hai chiều bỗng một ngày gặp một Quả Cầu đến từ không gian ba chiều. Trong mắt Hình Vuông, Quả Cầu không hề có hình dáng trọn vẹn mà chỉ hiện ra như một chuỗi lát cắt tròn: thoạt đầu là một điểm, lớn dần thành đĩa tròn, rồi thu nhỏ lại và biến mất tăm! Nếu ta gặp một sinh vật đến từ **không gian bốn chiều**, chính chúng ta cũng sẽ là "Hình Vuông" của câu chuyện ấy.
+
+May mắn thay, toán học không bị trói buộc bởi đôi mắt sinh học của con người. Trong hình học hiện đại, chiều thứ tư không có gì huyền bí hay siêu nhiên: đó đơn giản là **$$\mathbb{R}^4$$** — tập các bộ bốn số thực có thứ tự, trang bị khoảng cách Euclid quen thuộc
 
 $$
 \lVert x\rVert=\sqrt{x_1^2+x_2^2+x_3^2+x_4^2}.
 $$
 
-Mắt người quen với không gian ba chiều, nhưng **tọa độ, đại số tuyến tính và phép đếm** thì không bị giới hạn bởi số chiều. Bài thực hành này giúp bạn xây dựng trực giác thông qua siêu lập phương, phép chiếu, lát cắt và những kết quả bất ngờ về thể tích, sau đó nối hình học nhiều chiều với bài toán xếp cầu và xác suất.
-
-Bạn sẽ không "nhìn thấy" không gian bốn chiều như nhìn một cái ghế. Thay vào đó, bạn sẽ **tính toán** để biết không gian bốn chiều có những tính chất gì. Cách làm giống các bài thực hành khác: nêu dự đoán trực giác trước khi đo; mỗi hình vẽ phải ghi rõ phép biến đổi toán học tạo ra nó; nhật ký phân biệt định nghĩa, định lý và quan sát.
+Nơi thị giác dừng lại, **tọa độ, đại số tuyến tính và phép đếm** lại bước tiếp một cách nhẹ nhàng. Bài thực hành này mời bạn xây dựng "đôi mắt đại số" cho không gian bốn chiều và nhiều chiều hơn nữa: từ việc đếm đỉnh, cạnh, mặt của siêu lập phương (tesseract), chiếu và cắt lát nó xuống 3D/2D, cho tới chứng kiến cú sốc khi thể tích quả cầu đơn vị biến mất về 0 ở số chiều cao — điều làm đảo lộn toàn bộ trực giác hình học 3D của ta.
 
 ---
 
@@ -39,6 +39,17 @@ Sau bài thực hành, bạn có thể:
 
 ---
 
+## Bản đồ kiến thức nền: Hình học nhiều chiều và Xác suất hình học là gì, nghiên cứu những gì?
+
+Vì sao người học đại học ngành kỹ thuật, khoa học dữ liệu hay toán ứng dụng lại cần hiểu không gian 4 chiều, 100 chiều, hay 10.000 chiều khi ta sống trong thế giới 3D? Câu trả lời đến từ hai lĩnh vực hiện đại gắn liền với nhau:
+
+1. **Hình học nhiều chiều (High-Dimensional Geometry):** Mỗi tham số độc lập của một hệ thống (nhiệt độ, áp suất, độ ẩm, tốc độ gió; hay giá trị của 1.000 điểm ảnh trong một bức hình; hay 768 tọa độ embedding của một từ trong mô hình AI) đều là **một chiều không gian**. Ngành này nghiên cứu hình dạng của đa diện lồi (polytope), quả cầu, phép quay và thể tích trong $$\mathbb{R}^n$$. Điều gây ngạc nhiên nhất là hình học ở chiều lớn khác *về bản chất* chứ không chỉ khác về quy mô so với 2D và 3D.
+2. **Xác suất hình học và Hiện tượng tập trung độ đo (Concentration of Measure):** Khi chọn ngẫu nhiên hai vectơ độc lập trong $$\mathbb{R}^{1000}$$, chúng gần như **luôn vuông góc với nhau**! Và nếu bạn gọt đi chỉ $$1\%$$ lớp vỏ ngoài của một quả cam $$1000$$ chiều (tức giữ lại bán kính $$0.99$$), phần ruột còn lại chỉ chiếm $$(0.99)^{1000} \approx 0.000043$$ — tức hơn **$$99.995\%$$ thể tích quả cam nằm gọn trong lớp vỏ dày $$1\%$$ ngoài cùng**!
+
+Một ví dụ cụ thể khác ngay ở chiều 4 và chiều 10: trong hình vuông $$[-1,1]^2$$, đặt 4 hình tròn bán kính $$1/2$$ ở 4 góc thì quả cầu ở tâm còn chạm vừa khít bán kính $$\sqrt{2}-1 \approx 0.414$$. Làm tương tự trong khối lập phương $$[-1,1]^n$$ với $$2^n$$ quả cầu ở góc, bán kính quả cầu lọt vào khe giữa là $$\sqrt{n}-1$$. Đến chiều $$n=4$$, $$\sqrt{4}-1 = 1$$ (quả cầu ở giữa chạm đúng thành hộp!); còn đến chiều $$n=10$$, $$\sqrt{10}-1 \approx 2.16 > 1$$ — quả cầu nằm ở "khe hở trung tâm" lại **phình to vượt ra ngoài cả khối hộp**! Đó là lý do trực giác 3D dễ phản bội ta nếu không có tính toán tọa độ dẫn đường.
+
+---
+
 ## 1. Kiến thức toán nền
 
 ### 1.1 Số chiều là số bậc tự do
@@ -51,7 +62,7 @@ $$
 
 là một đa tạp có số chiều $$n-1$$. Không có gì thần bí ở đây: tọa độ thứ tư cũng hợp lệ như tọa độ thứ ba.
 
-Trong vật lý, thời gian đôi khi được gọi là "chiều thứ tư" (trong không-thời gian). Nhưng **không-thời gian Minkowski** không phải là không gian Euclid $$\mathbb{R}^4$$, vì metric có dấu khác. Trong nhật ký, hãy tách riêng hình học Euclid và mô hình vật lý, trừ khi bạn cố ý so sánh hai thứ.
+Trong vật lý, thời gian đôi khi được gọi là "chiều thứ tư" (trong không-thời gian). Nhưng **không-thời gian Minkowski** không phải là không gian Euclid $$\mathbb{R}^4$$, vì metric có dấu khác ($$\Delta s^2 = -c^2\Delta t^2 + \Delta x^2 + \Delta y^2 + \Delta z^2$$, cho phép khoảng cách bằng 0 dọc theo tia sáng). Trong nhật ký, hãy tách riêng hình học Euclid và mô hình vật lý, trừ khi bạn cố ý so sánh hai thứ.
 
 ### 1.2 Siêu lập phương $$I^n$$
 
@@ -65,11 +76,11 @@ Siêu lập phương đơn vị $$I^n=[0,1]^n$$ có:
 
 Giải thích số cạnh: mỗi đỉnh ứng với một chuỗi $$n$$ bit; đổi đúng một bit là đi dọc một cạnh. Mỗi đỉnh có $$n$$ cạnh, và khi cộng bậc của mọi đỉnh thì mỗi cạnh được đếm hai lần, nên $$E=\tfrac12\cdot 2^n\cdot n=n2^{n-1}$$. Giải thích số mặt $$k$$ chiều: chọn $$k$$ tọa độ được thay đổi trong $$[0,1]$$, và cố định mỗi tọa độ trong $$n-k$$ tọa độ còn lại bằng 0 hoặc 1.
 
-Với $$n=4$$ (**tesseract**): 16 đỉnh, 32 cạnh, 24 mặt vuông, 8 ô lập phương. Hãy tự lập bảng trước khi tin vào video. Cách xây dựng quy nạp sẽ giúp ích: để có $$I^{n+1}$$, lấy hai bản sao của $$I^n$$ và nối các đỉnh tương ứng bằng cạnh mới. Đây là phép "kéo dài" (extrude), giúp ta hình dung khối bốn chiều như một chuỗi khối ba chiều nối tiếp nhau.
+Với $$n=4$$ (**tesseract**): 16 đỉnh, 32 cạnh, 24 mặt vuông, 8 ô lập phương. Hãy tự lập bảng trước khi tin vào video. Cách xây dựng quy nạp sẽ giúp ích: để có $$I^{n+1}$$, lấy hai bản sao của $$I^n$$ và nối các đỉnh tương ứng bằng cạnh mới. Đây là phép "kéo dài" (extrude), giúp ta hình dung khối bốn chiều như một chuỗi khối ba chiều nối tiếp nhau. Ngoài ra, đường chéo dài nhất của $$I^n$$ nối $$(0,\dots,0)$$ với $$(1,\dots,1)$$ có độ dài $$\sqrt{n}$$: với $$n=4$$, đường chéo dài đúng bằng $$2$$ — gấp đôi cạnh của siêu lập phương!
 
 ### 1.3 Phép chiếu và hình bóng
 
-Một ánh xạ tuyến tính $$P:\mathbb{R}^4\to\mathbb{R}^3$$ (hoặc vào $$\mathbb{R}^2$$) biến tesseract thành một đa diện hoặc một hình phẳng. Mỗi cạnh trở thành một đoạn thẳng; những chỗ cắt nhau trên hình vẽ thường **không** phải là giao điểm thật trong không gian bốn chiều. Sơ đồ Schlegel và phép quay kép (đồng thời trong hai mặt phẳng tọa độ $$(x_1x_2)$$ và $$(x_3x_4)$$) tạo ra những hình động tesseract xoay quen thuộc.
+Một ánh xạ tuyến tính $$P:\mathbb{R}^4\to\mathbb{R}^3$$ (hoặc vào $$\mathbb{R}^2$$) biến tesseract thành một đa diện hoặc một hình phẳng. Mỗi cạnh trở thành một đoạn thẳng; những chỗ cắt nhau trên hình vẽ thường **không** phải là giao điểm thật trong không gian bốn chiều. Sơ đồ Schlegel (chiếu phối cảnh từ một điểm sát tâm một ô lập phương, tạo ra hình ảnh "lập phương nhỏ lồng trong lập phương lớn") và phép quay kép (đồng thời trong hai mặt phẳng tọa độ $$(x_1x_2)$$ và $$(x_3x_4)$$) tạo ra những hình động tesseract xoay quen thuộc.
 
 **Yêu cầu khi thực hành.** Khi xem video, hãy ghi lại phép biến đổi toán học: tọa độ nào bị bỏ đi hoặc bị trộn với nhau? Nếu không làm được điều đó, hình động chỉ để giải trí chứ chưa phải là hình học.
 
@@ -77,7 +88,7 @@ Một ánh xạ tuyến tính $$P:\mathbb{R}^4\to\mathbb{R}^3$$ (hoặc vào $$\
 
 Cắt tesseract bằng siêu phẳng ba chiều $$\{x_4=t\}$$ ta được một khối lập phương, có thể thay đổi theo $$t$$. Điều này tương tự như cắt một khối ba chiều bằng mặt phẳng để được hình chữ nhật, lục giác, v.v. Khi muốn biết "cái gì xuất hiện", lát cắt thường đáng tin hơn phép chiếu.
 
-Ví dụ: với $$t=0$$ hoặc $$t=1$$, lát cắt là ô "đáy" hoặc ô "nắp", tức là lập phương $$[0,1]^3$$. Với $$t\in(0,1)$$, lát cắt cũng là khối $$[0,1]^3$$ đầy. (Với tesseract đơn vị đặt theo tọa độ chuẩn như vậy, lát cắt rất đơn giản; với siêu phẳng nghiêng, lát cắt có thể là những đa diện phức tạp hơn. Hãy ghi rõ siêu phẳng bạn chọn.)
+Ví dụ: với $$t=0$$ hoặc $$t=1$$, lát cắt là ô "đáy" hoặc ô "nắp", tức là lập phương $$[0,1]^3$$. Với $$t\in(0,1)$$, lát cắt cũng là khối $$[0,1]^3$$ đầy. (Với tesseract đơn vị đặt theo tọa độ chuẩn như vậy, lát cắt rất đơn giản; với siêu phẳng nghiêng như $$x_1+x_2+x_3+x_4=t$$, lát cắt sẽ biến hóa kỳ thú từ một điểm thành tứ diện, rồi khối bát diện đều tại $$t=2$$, rồi thu về tứ diện và điểm. Hãy ghi rõ siêu phẳng bạn chọn.)
 
 ### 1.5 Thể tích quả cầu đơn vị
 
@@ -87,7 +98,7 @@ $$
 V_n=\frac{\pi^{n/2}}{\Gamma\!\left(\frac{n}{2}+1\right)}.
 $$
 
-Các giá trị: $$V_1=2$$, $$V_2=\pi$$, $$V_3=\frac{4}{3}\pi$$; sau đó $$V_n$$ tăng thêm một đoạn rồi giảm dần về 0 khi $$n\to\infty$$. Trong khi đó khối lập phương $$[-1,1]^n$$ có thể tích $$2^n\to\infty$$. Như vậy quả cầu đơn vị chỉ chiếm một phần ngày càng nhỏ của khối lập phương ngoại tiếp: trong không gian nhiều chiều, thể tích tập trung ở các góc của khối lập phương và gần "đường xích đạo" của quả cầu.
+Các giá trị: $$V_1=2$$, $$V_2=\pi \approx 3.142$$, $$V_3=\frac{4}{3}\pi \approx 4.189$$, $$V_4=\frac{\pi^2}{2} \approx 4.935$$, đạt cực đại tại $$V_5 = \frac{8\pi^2}{15} \approx 5.264$$, rồi giảm dần về 0 khi $$n\to\infty$$ (chẳng hạn $$V_{10} \approx 2.550$$, $$V_{20} \approx 0.0258$$). Trong khi đó khối lập phương $$[-1,1]^n$$ có thể tích $$2^n\to\infty$$ (với $$n=20$$ đã hơn một triệu!). Như vậy quả cầu đơn vị chỉ chiếm một phần ngày càng nhỏ của khối lập phương ngoại tiếp: trong không gian nhiều chiều, thể tích tập trung ở các góc của khối lập phương và gần "đường xích đạo" của quả cầu.
 
 Có một hiện tượng liên quan: phần lớn thể tích của $$B^n$$ nằm trong một lớp vỏ mỏng gần bán kính 1. Vì vậy nhiều câu hỏi hình học trong xác suất nhiều chiều được quy về câu hỏi trên mặt cầu, và trực giác quen thuộc từ $$n=2,3$$ (như "xếp cam vào hộp") dễ làm ta đoán sai trong thí nghiệm xếp cầu ở bài thực hành đi kèm.
 

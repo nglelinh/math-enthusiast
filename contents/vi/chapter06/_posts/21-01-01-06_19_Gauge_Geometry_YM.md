@@ -10,9 +10,23 @@ categories:
 lesson_type: bridge_flagship
 ---
 
-Lý thuyết điện từ của Maxwell chứa một điều bí mật về hình học: thế vectơ $$A$$ không được xác định duy nhất bởi vật lý, vì $$A$$ và $$A+d\lambda$$ cho cùng một cường độ trường $$F=dA$$. Sự dư thừa đó gọi là **đối xứng gauge**. Năm 1954, Yang và Mills mở rộng ý tưởng này từ nhóm đường tròn $$U(1)$$ sang các nhóm không giao hoán như $$SU(2)$$, $$SU(3)$$. Hình học vi phân hiện đại nhận ra khuôn mẫu chung: **trường gauge là một liên thông trên phân thớ chính; cường độ trường là độ cong của liên thông đó.**
+Trong điện từ học cổ điển, các nhà vật lý sớm nhận ra một "sự dư thừa kỳ lạ": cùng một điện trường và từ trường vật lý đo được, nhưng thế vectơ $$A$$ lại không duy nhất — bạn có thể cộng thêm gradient của một hàm tùy ý ($$A \mapsto A + d\lambda$$) mà cường độ trường $$F = dA$$ vẫn y nguyên. Thoạt nhìn, người ta tưởng đó chỉ là chuyện tiện lợi về ký hiệu toán học. Nhưng năm 1954, Dương Chấn Ninh (Chen-Ning Yang) và Robert Mills đặt một câu hỏi táo bạo: điều gì xảy ra nếu ta mở rộng sự tự do đổi hệ quy chiếu nội tại ấy từ nhóm đường tròn giao hoán $$U(1)$$ sang các nhóm quay không giao hoán như $$SU(2)$$ hay $$SU(3)$$? Hai mươi năm sau, cộng đồng toán học và vật lý sửng sốt nhận ra hai bên đang nói về cùng một đối tượng: **trường gauge chính là một liên thông (connection) trên phân thớ chính, còn cường độ trường chính là độ cong (curvature) của liên thông đó.**
 
-Đây là **bài cầu nối chính** của nhánh Vật lý–Toán: một cơ chế làm nền cho Mô hình chuẩn, cho giải tích hình học cổ điển (Uhlenbeck, Donaldson), và cho bài toán còn mở [khe khối lượng Yang–Mills]({{ site.baseurl }}/contents/vi/chapter01/01_10_Yang_Mills_Mass_Gap/). Nên đọc sau bài [nhóm Lie]({{ site.baseurl }}/contents/vi/chapter03/03_11_Lie_Groups_Particle_Physics/) và đọc song song với bài [vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/).
+Đây là **bài cầu nối chính** của nhánh Vật lý–Toán: một cơ chế hình học duy nhất làm khung xương cho Mô hình chuẩn của vật lý hạt, cho giải tích hình học cổ điển (Uhlenbeck, Donaldson), và cho bài toán Thiên niên kỷ còn mở [khe khối lượng Yang–Mills]({{ site.baseurl }}/contents/vi/chapter01/01_10_Yang_Mills_Mass_Gap/). Nên đọc sau bài [nhóm Lie]({{ site.baseurl }}/contents/vi/chapter03/03_11_Lie_Groups_Particle_Physics/) và đọc song song với bài [vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/).
+
+---
+
+## Bản đồ kiến thức nền: Hình học vi phân, phân thớ chính và lý thuyết trường chuẩn nghiên cứu những gì?
+
+Nếu bạn từng học giải tích nhiều biến và thấy quen thuộc với đạo hàm có hướng hay mặt cong trong $$\mathbb{R}^3$$, bạn sẽ dễ dàng bước vào **hình học trường chuẩn (gauge geometry)** bằng một ẩn dụ đời thường: *tỉ giá hối đoái và vận chuyển song song trên mặt cầu*.
+
+Hãy tưởng tượng mỗi điểm $$x$$ trên bản đồ thế giới (không–thời gian $$M$$) có một "đồng tiền nội tệ" hoặc một "hệ trục quy chiếu nội tại" riêng (được mô tả bởi một nhóm đối xứng Lie $$G$$ — gọi là **thớ** gắn tại điểm $$x$$). Tập hợp toàn bộ các thớ dính mượt mà lên từng điểm của $$M$$ tạo thành một **phân thớ chính** (principal bundle).
+
+- **Liên thông (connection) là gì?** Nếu bạn muốn so sánh một trạng thái (ví dụ pha của electron hay "màu" của hạt quark) tại điểm $$x$$ với trạng thái tại điểm lân cận $$y$$, bạn không thể trừ trực tiếp vì hai điểm có thể đang chọn hệ quy chiếu nội tại khác nhau! Bạn cần một quy tắc "quy đổi" dọc theo từng bước đi vô cùng nhỏ — quy tắc quy đổi đó chính là **liên thông $$A$$** (thế gauge). Trong bài toán tiền tệ, $$A$$ giống như bảng tỉ giá giữa hai thành phố liền kề.
+- **Độ cong (curvature) là gì?** Giả sử bạn đi du lịch một vòng kín (Hà Nội → Tokyo → New York → Hà Nội) và đổi tiền liên tục dọc đường. Nếu quay về Hà Nội mà số tiền còn lại bị lệch so với ban đầu, thì có cơ hội chênh lệch tỉ giá (arbitrage)! Trong hình học, độ lệch thu được sau khi vận chuyển song song quanh một vòng kín nhỏ vô hạn chính là **độ cong $$F$$** (cường độ trường). Trên mặt cầu Trái Đất, nếu bạn cầm một cây giáo đi từ Bắc Cực xuống Xích Đạo, rẽ ngang $$90^\circ$$ rồi quay lại Bắc Cực mà luôn giữ giáo "song song với chính nó", cây giáo sẽ xoay mất $$90^\circ$$ — đó chính là độ cong của mặt cầu.
+- **Lý thuyết Yang–Mills nghiên cứu gì?** Nó tìm những liên thông $$A$$ có "năng lượng độ cong" tổng thể đạt cực tiểu (phương trình đạo hàm riêng phi tuyến), nghiên cứu hình dáng không gian các nghiệm đó (không gian moduli) để phân biệt các đa tạp 4 chiều, và trong vật lý lượng tử, tìm cách lượng tử hóa toàn bộ không gian các liên thông.
+
+Một khi nắm được bộ ba **phân thớ – liên thông – độ cong**, toàn bộ công thức của điện từ học và Mô hình chuẩn bỗng hiện ra như hình học thuần túy.
 
 ---
 
@@ -34,33 +48,33 @@ Sau bài học, bạn có thể:
 
 ## 1. Maxwell: ví dụ mẫu trường hợp giao hoán
 
-Với hệ đơn vị và cách viết không–thời gian thích hợp, cường độ trường điện từ là một 2-dạng $$F$$ dựng từ thế là một 1-dạng $$A$$:
+Với hệ đơn vị và cách viết không–thời gian thích hợp, cường độ trường điện từ là một 2-dạng $$F$$ (chứa cả điện trường $$\mathbf{E}$$ và từ trường $$\mathbf{B}$$) dựng từ thế là một 1-dạng $$A$$:
 
 $$
 F = dA.
 $$
 
-Phép biến đổi gauge $$A'=A+d\lambda$$ giữ nguyên $$F$$ vì $$d\circ d=0$$. Phương trình Maxwell thuần nhất $$dF=0$$ tự động thỏa mãn khi $$F=dA$$ (trên miền có tô pô tầm thường). Để ghép với vật chất mang điện, ta cần đạo hàm hiệp biến
+Phép biến đổi gauge $$A'=A+d\lambda$$ giữ nguyên $$F$$ vì đạo hàm ngoài thỏa mãn $$d\circ d=0$$ (chính là đồng nhất thức quen thuộc $$\nabla \times (\nabla \lambda) = 0$$ trong giải tích vectơ 3 chiều). Phương trình Maxwell thuần nhất $$dF=0$$ tự động thỏa mãn khi $$F=dA$$ (trên miền có tô pô tầm thường). Để ghép với vật chất mang điện (một hàm sóng phức $$\psi(x)$$), ta cần đạo hàm hiệp biến
 
 $$
 D = d - iqA
 $$
 
-sao cho phép quay pha cục bộ của hàm sóng phức được $$A$$ bù lại. Đây là cách hình học giải thích nguồn gốc của "ghép tối thiểu" (minimal coupling).
+sao cho khi ta xoay pha của hàm sóng tùy ý tại từng điểm, $$\psi(x) \mapsto e^{iq\lambda(x)}\psi(x)$$, số hạng thừa sinh ra từ đạo hàm của $$\lambda(x)$$ được chính phép dịch $$A \mapsto A + d\lambda$$ triệt tiêu hoàn hảo. Đây là cách hình học giải thích nguồn gốc của "ghép tối thiểu" (minimal coupling).
 
-**Cơ chế chính.** Việc được tự do quay pha $$U(1)$$ cục bộ của trường mang điện **buộc** phải có một liên thông bù $$A$$; trong lý thuyết lượng tử, photon là lượng tử của trường đó.
+**Cơ chế chính.** Việc đòi hỏi vật lý bất biến dưới phép quay pha $$U(1)$$ cục bộ của trường mang điện **buộc** phải có một liên thông bù $$A$$; trong lý thuyết lượng tử, photon chính là lượng tử của trường liên thông đó.
 
 ---
 
 ## 2. Yang–Mills: độ cong không giao hoán
 
-Với một nhóm Lie compact $$G$$ và một liên thông $$A$$ nhận giá trị trong đại số Lie,
+Với một nhóm Lie compact $$G$$ (như $$SU(2)$$ hay $$SU(3)$$) và một liên thông $$A$$ nhận giá trị trong đại số Lie (có thể nghĩ cụ thể là các ma trận phản Hermite), công thức độ cong mang thêm một số hạng phi tuyến:
 
 $$
 F = dA + A\wedge A.
 $$
 
-Khi $$G=U(1)$$, móc Lie triệt tiêu và ta trở lại lý thuyết Maxwell. Với $$SU(2)$$ hay $$SU(3)$$, số hạng bậc hai làm cho phương trình trường trở thành **phi tuyến**: gluon mang màu và tự tương tác với nhau.
+Khi $$G=U(1)$$, các thành phần của $$A$$ là số thực/phức giao hoán với nhau nên số hạng $$A \wedge A$$ triệt tiêu và ta trở lại lý thuyết Maxwell tuyến tính — hai tia sáng đi xuyên qua nhau không tự tương tác. Ngược lại, với $$SU(2)$$ hay $$SU(3)$$, các ma trận trong $$A$$ **không giao hoán**, nên $$A \wedge A$$ (thực chất là giao hoán tử ma trận $$\frac{1}{2}[A_\mu, A_\nu]\,dx^\mu \wedge dx^\nu$$) khác không và làm cho phương trình trường trở thành **phi tuyến**: hạt truyền lực gluon bản thân nó cũng mang điện tích màu và **tự tương tác với chính nó**.
 
 Tác dụng Yang–Mills
 
@@ -68,7 +82,7 @@ $$
 S[A]\propto \int \operatorname{tr}(F\wedge\star F)
 $$
 
-là một phiếm hàm năng lượng cổ điển, có các điểm tới hạn là các liên thông Yang–Mills. Ở bốn chiều, các liên thông tự đối ngẫu (instanton) làm cực tiểu tác dụng trong từng lớp tô pô, ứng với các số Chern.
+là một phiếm hàm năng lượng cổ điển (tổng quát hóa trực tiếp của tích phân $$\int (|\mathbf{E}|^2 + |\mathbf{B}|^2)$$ trong điện từ học), có các điểm tới hạn là các liên thông Yang–Mills. Ở bốn chiều, các liên thông tự đối ngẫu (instanton) làm cực tiểu tác dụng trong từng lớp tô pô, ứng với các số Chern.
 
 ---
 
@@ -83,9 +97,9 @@ là một phiếm hàm năng lượng cổ điển, có các điểm tới hạn
 | Vận chuyển song song | Mũ sắp thứ tự theo đường đi của $$A$$ |
 | Vòng Wilson | Holonomy quanh một đường cong kín |
 
-**Độ cong như holonomy.** Vận chuyển một "hệ khung" nội tại quanh một vòng rất nhỏ cho một phần tử nhóm dạng $$1+F+\cdots$$. Độ cong khác không nghĩa là vận chuyển song song phụ thuộc vào đường đi. Hãy so sánh với độ cong thủy triều trong thuyết tương đối rộng (ở đó là phân thớ tiếp xúc và liên thông metric), khác với phân thớ gauge nội tại.
+**Độ cong như holonomy.** Vận chuyển một "hệ khung" nội tại quanh một vòng rất nhỏ diện tích $$\Delta S$$ cho một phần tử nhóm dạng $$1 + F\,\Delta S + \cdots$$. Độ cong khác không nghĩa là vận chuyển song song phụ thuộc vào đường đi. Hãy so sánh với độ cong thủy triều trong thuyết tương đối rộng (ở đó là phân thớ tiếp xúc và liên thông metric), khác với phân thớ gauge nội tại.
 
-**Phân thớ** giúp xử lý chặt chẽ các vấn đề toàn cục: đơn cực từ, số instanton, việc "không chọn được một gauge toàn cục" là chuyện tô pô, không chỉ là bất tiện về tọa độ.
+**Phân thớ** giúp xử lý chặt chẽ các vấn đề toàn cục: đơn cực từ Dirac (không thể viết một thế $$A$$ trơn duy nhất trên cả mặt cầu $$S^2$$ mà phải vá từ hai mảnh Bắc bán cầu và Nam bán cầu qua một phép biến đổi gauge ở Xích Đạo), số instanton, hay việc "không chọn được một gauge toàn cục" là chuyện tô pô thật sự, không chỉ là bất tiện về tọa độ.
 
 ---
 
@@ -97,7 +111,7 @@ là một phiếm hàm năng lượng cổ điển, có các điểm tới hạn
 | $$SU(2)_L$$ | Isospin yếu | Bộ đôi thuận tay trái |
 | $$U(1)_Y$$ | Siêu tích yếu | Gán giá trị $$Y$$; trộn lại để cho điện từ |
 
-Câu chuyện lượng tử đầy đủ còn cần tái chuẩn hóa, phá vỡ đối xứng tự phát (cơ chế Higgs), và biểu diễn chiral của fermion. Nhưng **khung xương hình học** vẫn là: mỗi lực ↔ một liên thông cho nhóm $$G$$, cùng với các biểu diễn được chỉ định.
+Câu chuyện lượng tử đầy đủ còn cần tái chuẩn hóa, phá vỡ đối xứng tự phát (cơ chế Higgs), và biểu diễn chiral của fermion. Nhưng **khung xương hình học** vẫn giữ nguyên một nguyên tắc thống nhất: mỗi lực cơ bản ↔ một liên thông cho nhóm $$G$$, cùng với các biểu diễn được chỉ định cho các hạt vật chất.
 
 ---
 
@@ -109,11 +123,11 @@ $$
 k = \frac{1}{8\pi^2}\int \operatorname{tr}(F\wedge F)
 $$
 
-là một bất biến tô pô nhận giá trị nguyên (số Chern thứ hai, hay số instanton, tùy quy ước chuẩn hóa). Một liên thông tự đối ngẫu với $$k\neq 0$$ là một **instanton**: một nghiệm có tác dụng hữu hạn, không thể biến dạng liên tục về liên thông tầm thường trong lớp tô pô của nó.
+là một bất biến tô pô nhận giá trị nguyên (số Chern thứ hai, hay số instanton, tùy quy ước chuẩn hóa). Nó giống như công thức Gauss–Bonnet quen thuộc trên mặt 2 chiều ($$\frac{1}{2\pi}\int K\,dA = 2 - 2g$$): dù bạn bóp méo hình học cục bộ ra sao, tổng độ cong vẫn khóa cứng ở một số nguyên tô pô! Một liên thông tự đối ngẫu với $$k\neq 0$$ là một **instanton**: một nghiệm có tác dụng hữu hạn, không thể biến dạng liên tục về liên thông tầm thường ($$F=0$$) trong lớp tô pô của nó.
 
-**Về vật lý.** Instanton mô tả hiệu ứng đường hầm giữa các chân không, tạo nên cấu trúc chân không $$\theta$$, và tham gia vào các quy tắc chọn liên quan đến dị thường. **Về toán học.** Cũng số nguyên đó đánh dấu các thành phần liên thông của không gian moduli và là nền tảng cho các phép dựng kiểu Donaldson.
+**Về vật lý.** Instanton mô tả hiệu ứng đường hầm lượng tử giữa các chân không khác nhau, tạo nên cấu trúc chân không $$\theta$$, và tham gia vào các quy tắc chọn liên quan đến dị thường. **Về toán học.** Cũng số nguyên đó đánh dấu các thành phần liên thông của không gian moduli và là nền tảng cho các phép dựng kiểu Donaldson.
 
-Bạn không cần học đầy đủ lý thuyết Chern–Weil, chỉ cần nắm bài học: **một phiếm hàm năng lượng trên các liên thông "nhìn thấy" được tô pô**, vì vậy giải tích và tô pô đại số phải làm việc cùng nhau.
+Bạn không cần học đầy đủ lý thuyết Chern–Weil, chỉ cần nắm bài học cốt lõi: **một phiếm hàm năng lượng trên các liên thông "nhìn thấy" được tô pô**, vì vậy giải tích và tô pô đại số phải làm việc cùng nhau.
 
 ---
 
@@ -134,7 +148,7 @@ Cả hai đều nói "tương tác ↔ hình học", nhưng hình học hóa tr�
 
 ## 7. Giải tích cổ điển: những gì toán học thuần túy đã nắm được
 
-**Định lý compact của Uhlenbeck.** Một dãy liên thông có năng lượng Yang–Mills bị chặn chỉ có thể bùng nổ theo cách được kiểm soát; các "bọt" (instanton) có thể tập trung tại một điểm ([Uhlenbeck]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/)).
+**Định lý compact của Uhlenbeck.** Một dãy liên thông có năng lượng Yang–Mills bị chặn chỉ có thể bùng nổ theo cách được kiểm soát; năng lượng có thể tập trung tại hữu hạn điểm thành các "bọt" (instanton) mang lượng năng lượng rời rạc ([Uhlenbeck]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/)).
 
 **Lý thuyết Donaldson.** Không gian moduli các liên thông phản tự đối ngẫu cho ta các bất biến của đa tạp trơn 4 chiều: tô pô được viết lại bằng phương trình đạo hàm riêng của lý thuyết gauge. Sau đó, phương trình Seiberg–Witten làm đơn giản nhiều phần của bức tranh này. Đây là câu chuyện "vật lý viết lại tô pô" tiêu biểu nhất cuối thế kỷ 20, và được trình bày kỹ hơn trong bài tổng quan về Donaldson–Seiberg–Witten.
 
@@ -178,9 +192,9 @@ Lượng tử hóa bức tranh hình học nghĩa là định nghĩa một lý t
 
 ## 11. Ví dụ nhỏ: pha thu được sau một vòng (trường hợp giao hoán)
 
-Giả sử $$A$$ là một liên thông $$U(1)$$ trên mặt phẳng bỏ gốc tọa độ, với $$\int_{S^1}A=2\pi\alpha$$. Vận chuyển song song pha của một hạt điện tích $$q$$ quanh đường tròn đơn vị nhân hàm sóng với $$e^{iq\oint A}$$. Dù $$F=0$$ trên mặt phẳng bỏ gốc, holonomy vẫn có thể không tầm thường. Đó là ý chính của hiệu ứng **Aharonov–Bohm**: thế và tô pô có thể quan trọng ngay cả ở nơi $$F$$ triệt tiêu cục bộ.
+Giả sử $$A$$ là một liên thông $$U(1)$$ trên mặt phẳng bỏ gốc tọa độ $$\mathbb{R}^2 \setminus \{0\}$$ (ví dụ bên ngoài một ống dây từ mảnh đặt tại gốc tọa độ), với $$\int_{S^1}A=2\pi\alpha$$. Vận chuyển song song pha của một hạt điện tích $$q$$ quanh đường tròn đơn vị nhân hàm sóng với thừa số pha $$e^{iq\oint A} = e^{2\pi i q\alpha}$$. Dù độ cong $$F=0$$ tại mọi điểm hạt đi qua (từ trường bằng không ngoài ống dây), holonomy vẫn khác $$1$$ nếu $$q\alpha \notin \mathbb{Z}$$ và làm dịch chuyển vân giao thoa đo được! Đó là ý chính của hiệu ứng **Aharonov–Bohm**: thế gauge và tô pô của miền (lỗ thủng ở gốc tọa độ) có tác động vật lý thực sự ngay cả ở nơi $$F$$ triệt tiêu cục bộ.
 
-Với holonomy không giao hoán, pha được thay bằng một ma trận trong $$G$$; mũ sắp thứ tự theo đường đi không giao hoán phản ánh cấu trúc $$A\wedge A$$.
+Với holonomy không giao hoán, thừa số pha vô hướng được thay bằng một ma trận trong $$G$$; mũ sắp thứ tự theo đường đi không giao hoán phản ánh chính cấu trúc $$A\wedge A$$.
 
 ---
 

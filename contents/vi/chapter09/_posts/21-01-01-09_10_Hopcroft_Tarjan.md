@@ -9,12 +9,14 @@ categories:
 - chapter09
 ---
 
-**John E. Hopcroft** và **Robert E. Tarjan** nhận **A.M. Turing Award 1986**
+Đầu thập niên 1970, khi bảng mạch điện tử bắt đầu chứa hàng nghìn linh kiện nối dây chằng chịt, các kỹ sư đau đầu trước một bài toán hình học–tổ hợp sống còn: *làm sao kiểm tra thật nhanh xem một sơ đồ mạch có vẽ được lên mặt phẳng mà không có hai sợi dây nào cắt nhau hay không?* Ai cũng biết định lý Kuratowski cấm $$K_5$$ và $$K_{3,3}$$, nhưng đi dò tìm các đồ thị con ấy tốn thời gian $$O(n^6)$$ — hoàn toàn vô dụng cho mạch thật. Thế rồi hai nhà khoa học **John E. Hopcroft** và **Robert E. Tarjan** xuất hiện và tung ra một phép màu thuật toán: chỉ cần **một lượt duyệt sâu (DFS)** khéo léo, ta kiểm tra được tính phẳng trong thời gian tuyến tính **$$O(n)$$** — nhanh gần bằng đúng thời gian đọc dữ liệu vào máy!
+
+Nhận **Giải A.M. Turing năm 1986** với lời trích dẫn:
 
 > “for fundamental achievements in the design and analysis of algorithms and data structures.”  
 > — [ACM Turing Award](https://amturing.acm.org/)
 
-Nếu Cook–Karp dạy ta *độ khó*, Hopcroft–Tarjan dạy ta *cái vẫn làm được—và làm nhanh có cấu trúc*. DFS không chỉ “duyệt đồ thị trong giáo trình năm nhất”: với **đúng metadata** (discovery time, low-link, stack), nó tách thành phần liên thông mạnh, tìm khớp cầu/khớp, kiểm tra planar, dựng cây bao trùm có thứ tự. Tarjan gắn với **union–find**, **splay**, **Fibonacci heap** văn hóa amortized analysis. Hopcroft gắn với automata, matching, planarity, và chuẩn “phân tích thuật toán nghiêm”. Bài này là chân dung **thuật toán đồ thị như toán rời rạc hiệu quả**, cầu [đồ thị & mạng]({{ site.baseurl }}/contents/vi/chapter03/03_06_Graph_Theory_Networks/) và [độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/).
+Nếu Cook–Karp cho ta thấy bức tường của những bài toán NP-đầy đủ, thì Hopcroft–Tarjan mở ra cánh cửa rực rỡ ở phía ngược lại: những bài toán cấu trúc đồ thị có thể giải **tuyệt đẹp và gần như tức thời**. Chỉ bằng việc gắn thêm vài con số phụ vào DFS (thời điểm thăm, giá trị `low-link`, ngăn xếp), Tarjan tìm ra thành phần liên thông mạnh (SCC), cầu và khớp trong $$O(n+m)$$, rồi cùng phân tích **khấu hao (amortized)** chứng minh cấu trúc Union–Find chạy gần như hằng số $$O(\alpha(n))$$. Liên kết: [đồ thị & mạng]({{ site.baseurl }}/contents/vi/chapter03/03_06_Graph_Theory_Networks/) và [độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/).
 
 ---
 
@@ -23,6 +25,19 @@ Nếu Cook–Karp dạy ta *độ khó*, Hopcroft–Tarjan dạy ta *cái vẫn 
 Sau bài, bạn có thể mô tả **DFS** như quy nạp trên cây đệ quy + cạnh back/forward/cross và giải thích vì sao timestamps cho phép suy cấu trúc; phác thuật toán **Tarjan** (hoặc Kosaraju) tìm **SCC** (strongly connected components) trong $$O(n+m)$$; nêu ý **cầu (bridge)** / **khớp (articulation point)** qua giá trị low; giải thích **planarity testing** tuyến tính như thành tựu “cấu trúc phẳng = thuật toán gần tối ưu”; mô tả **union–find** với union by rank + path compression và bound gần $$\alpha(n)$$ (hàm ngược Ackermann); nối amortized analysis với thiết kế cấu trúc dữ liệu hiện đại mà không nhầm “amortized = trung bình ngẫu nhiên”.
 
 **Kiến thức nền.** Đồ thị có hướng/vô hướng; danh sách kề; $$O$$-notation. Biết BFS/DFS mức nhập môn là đủ để nâng cấp.
+
+---
+
+## Bản đồ kiến thức nền: Thuật toán đồ thị và Phân tích khấu hao (Amortized Analysis) là gì, nghiên cứu những gì?
+
+Với sinh viên đại học ngành công nghệ, **duyệt theo chiều sâu (DFS)** thường chỉ là 10 dòng đệ quy để đi thăm hết các đỉnh. Nhưng trong tay các nhà lý thuyết đồ thị thuật toán (Algorithmic Graph Theory), DFS là một chiếc **máy chụp X-quang cấu trúc**: chỉ trong đúng một lượt đi qua mỗi đỉnh và mỗi cạnh một lần ($$O(n+m)$$), nó phơi bày toàn bộ chu trình, điểm yếu sinh tử (cầu, khớp) và các cụm phụ thuộc vòng tròn (SCC) của một mạng lưới triệu nút — thứ mà trình biên dịch, trình quản lý gói (như `npm`/`pip`) và hệ thống định tuyến mạng chạy mỗi giây.
+
+Song hành với thuật toán đồ thị là một công cụ toán học cực kỳ tinh tế do Tarjan hoàn thiện: **Phân tích khấu hao (Amortized Analysis)**. Để hình dung sự khác biệt giữa *worst-case từng bước* và *amortized*, hãy nghĩ tới một chiếc mảng động (`std::vector` trong C++ hoặc `list` trong Python):
+- Hầu hết các lần thêm phần tử (`append`) chỉ tốn $$O(1)$$ (ghi thẳng vào ô trống cuối mảng).
+- Thỉnh thoảng khi mảng đầy, ta phải cấp phát mảng mới gấp đôi kích thước và chép toàn bộ $$n$$ phần tử sang — một bước duy nhất đó tốn $$O(n)$$.
+- Nhưng nếu bạn cộng tổng chi phí của cả chuỗi $$n$$ lần thêm: $$n + (1 + 2 + 4 + \dots + n) < 3n$$, tức **chi phí khấu hao mỗi thao tác vẫn chỉ là $$O(1)$$**!
+
+Phân tích khấu hao dùng **hàm thế năng (potential function)** — giống hệt thế năng trong vật lý: mỗi thao tác rẻ "nạp" một ít thế năng vào cấu trúc dữ liệu, để khi gặp thao tác đắt hiếm hoi (như nén đường dẫn dài trong Union–Find), thế năng tích trữ sẽ tự động "trả hóa đơn" cho nó. Nhờ đó, Tarjan chứng minh $$m$$ thao tác Union–Find trên $$n$$ phần tử chỉ tốn $$O(m\,\alpha(n))$$, trong đó hàm ngược Ackermann $$\alpha(n) \le 4$$ ngay cả khi $$n$$ lớn hơn số nguyên tử trong vũ trụ quan sát được!
 
 ---
 
@@ -50,8 +65,8 @@ Chạy DFS trên đồ thị có hướng, gán $$d[v]$$ (discovery) và $$f[v]$
 
 Trên vô hướng, $$\mathrm{low}[v]$$ theo dõi discovery nhỏ nhất chạm được từ subtree $$v$$ qua tối đa một back edge. So sánh $$\mathrm{low}$$ với $$d$$ của cha cho phép nhận diện:
 
-- **Cầu:** cạnh cây mà subtree không chạm ngược trên cha.  
-- **Khớp:** đỉnh mà việc xóa làm tăng số thành phần liên thông—đặc trưng bằng con có $$\mathrm{low}$$ không đủ nhỏ.
+- **Cầu:** cạnh cây $$(u,v)$$ mà subtree của $$v$$ không có đường vòng ngược lên $$u$$ hay tổ tiên của $$u$$ (tức $$\mathrm{low}[v] > d[u]$$).  
+- **Khớp:** đỉnh mà việc xóa làm tăng số thành phần liên thông—đặc trưng bằng việc có ít nhất một con $$v$$ thỏa $$\mathrm{low}[v] \ge d[u]$$ (riêng gốc cây DFS là khớp khi nó có từ 2 con trở lên).
 
 Công thức không cần thuộc máy; cần thuộc **ý**: DFS + một vài số nguyên phụ = chứng nhận cấu trúc cắt.
 
@@ -59,7 +74,7 @@ Công thức không cần thuộc máy; cần thuộc **ý**: DFS + một vài s
 
 ## 3. Thành phần liên thông mạnh (SCC)
 
-Đồ thị có hướng phân hoạch thành SCC: trong mỗi khối, mọi cặp đỉnh tới được nhau; đồ thị co các khối thành DAG. **Tarjan’s SCC algorithm** dùng một DFS, stack các đỉnh “đang mở”, và low-link để pop đúng một SCC khi root của component finish. **Kosaraju**: hai DFS (một trên đồ thị ngược) cũng $$O(n+m)$$, dễ dạy hơn, hằng số khác.
+Đồ thị có hướng phân hoạch thành SCC: trong mỗi khối, mọi cặp đỉnh tới được nhau; đồ thị co các khối thành DAG. **Tarjan’s SCC algorithm** dùng một DFS, stack các đỉnh “đang mở”, và low-link để pop đúng một SCC khi root của component finish (đúng lúc $$\mathrm{low}[u] = d[u]$$). **Kosaraju**: hai DFS (một trên đồ thị ngược) cũng $$O(n+m)$$, dễ dạy hơn, hằng số khác.
 
 Vì sao quan trọng toán–CS:
 
@@ -88,7 +103,7 @@ Video dài khoảng 1 phút 56 giây (có thuyết minh tiếng Việt): định
 
 ### Câu hỏi
 
-Cho đồ thị đơn $$G=(V,E)$$, $$|V|=n$$, có nhúng mặt phẳng không cắt cạnh? Kuratowski/Wagner cho đặc trưng cấm $$K_5,K_{3,3}$$ minors—đẹp lý thuyết nhưng naive search minor không phải thuật toán tuyến tính hiển nhiên.
+Cho đồ thị đơn $$G=(V,E)$$, $$\lvert V\rvert=n$$, có nhúng mặt phẳng không cắt cạnh? Kuratowski/Wagner cho đặc trưng cấm $$K_5,K_{3,3}$$ minors—đẹp lý thuyết nhưng naive search minor không phải thuật toán tuyến tính hiển nhiên.
 
 ### Hopcroft–Tarjan planarity
 

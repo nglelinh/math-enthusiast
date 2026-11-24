@@ -9,9 +9,30 @@ categories:
 - chapter06
 ---
 
-Một tiếng trống ngắn không có cao độ xác định. Một nốt nhạc thuần kéo dài không có thời điểm bắt đầu xác định. Hai câu đó đã là một nguyên lý bất định, và chúng không hề nhắc đến nguyên tử. Cơ học lượng tử thừa hưởng cùng giới hạn này vì hàm sóng theo vị trí và hàm sóng theo động lượng là một **cặp Fourier**. Hằng số $$\hbar$$ chỉ đổi đơn vị; bản thân bất đẳng thức là một kết quả giải tích.
+Hãy lắng nghe hai âm thanh quen thuộc: một tiếng vỗ tay sắc gọn kéo dài vài phần nghìn giây, và một tiếng sáo thổi ngân dài êm ái. Với tiếng vỗ tay, bạn biết *chính xác* nó xảy ra vào tích tắc nào, nhưng không ai có thể hát lại "nốt nhạc" của tiếng vỗ tay — nó chẳng có cao độ xác định nào cả! Ngược lại, với tiếng sáo ngân dài, bạn đọc ngay được cao độ (tần số $$440\text{ Hz}$$ — nốt La), nhưng hỏi "nốt nhạc đó nằm ở đúng khoảnh khắc nào?" thì lại trở nên vô nghĩa. Hai nhận xét âm nhạc đời thường ấy **chính là một nguyên lý bất định**, và chúng không hề cần đến một nguyên tử nào!
 
-Bài này thuộc nhánh Cầu nối Vật lý–Toán. Bài trình bày dạng Fourier, dạng Heisenberg–Kennard, cận dưới qua giao hoán tử của Robertson, và một phiên bản theo lý thuyết thông tin. Nên đọc sau bài [cơ học lượng tử trên không gian Hilbert]({{ site.baseurl }}/contents/vi/chapter06/06_18_Hilbert_Spectral_QM/) và cùng lúc với bài [Fourier trong thế giới]({{ site.baseurl }}/contents/vi/chapter03/03_08_Fourier_Signal_Processing/). Phiên bản fractal (2025) nằm ở bài đi kèm.
+Khi Werner Heisenberg công bố nguyên lý bất định nổi tiếng năm 1927, nhiều người tưởng nó chỉ xuất phát từ sự "vụng về" của chiếc kính hiển vi lượng tử làm xô lệch hạt electron khi chiếu sáng. Nhưng bản chất toán học của nó sâu hơn nhiều: cơ học lượng tử thừa hưởng trực tiếp giới hạn sóng từ **giải tích Fourier**, bởi hàm sóng theo vị trí và hàm sóng theo động lượng là một **cặp biến đổi Fourier** của nhau. Hằng số Planck $$\hbar$$ chỉ làm nhiệm vụ quy đổi đơn vị; bản thân bất đẳng thức là một định lý giải tích bất biến.
+
+Bài này thuộc nhánh Cầu nối Vật lý–Toán, đi qua bốn gương mặt của cùng một định luật: dạng **Fourier**, dạng **Heisenberg–Kennard**, cận dưới qua **giao hoán tử của Robertson**, và phiên bản **lý thuyết thông tin (entropy)**. Nên đọc sau bài [cơ học lượng tử trên không gian Hilbert]({{ site.baseurl }}/contents/vi/chapter06/06_18_Hilbert_Spectral_QM/) và cùng lúc với bài [Fourier trong thế giới]({{ site.baseurl }}/contents/vi/chapter03/03_08_Fourier_Signal_Processing/). Phiên bản fractal (2025) nằm ở bài đi kèm.
+
+---
+
+## Bản đồ kiến thức nền: Giải tích điều hòa và các nguyên lý bất định nghiên cứu những gì?
+
+Nếu bạn đã quen với biến đổi Fourier trong xử lý tín hiệu và bất đẳng thức Cauchy–Schwarz trong đại số tuyến tính, bạn đã có gần như trọn bộ công cụ để hiểu ngành toán học đứng sau nguyên lý bất định.
+
+Trong **giải tích điều hòa (harmonic analysis)**, mỗi hàm số (hay tín hiệu) $$f(x)$$ có hai bộ mặt song song:
+- **Miền thời gian / vị trí:** cho biết tín hiệu mạnh ở đâu ($$|f(x)|^2$$).
+- **Miền tần số / động lượng:** cho biết tín hiệu được pha trộn từ những sóng sin nào ($$|\hat f(\xi)|^2$$).
+
+**Các nguyên lý bất định** không chỉ là một công thức duy nhất, mà là cả một họ định lý nghiên cứu câu hỏi tổng quát: *một hàm $$f$$ và biến đổi Fourier $$\hat f$$ của nó bị cấm "cùng tập trung quá chặt" đến mức nào?* Tùy cách đo "độ tập trung" mà ta có những định lý khác nhau:
+
+- **Đo bằng phương sai (độ lệch chuẩn):** Cho ra bất đẳng thức **Heisenberg–Pauli–Weyl** và dạng lượng tử **Kennard** $$\sigma_x\sigma_p \ge \hbar/2$$, với hàm đạt cực tiểu duy nhất là đường cong hình chuông **Gauss**.
+- **Đo bằng giao hoán tử toán tử:** Tổng quát hóa sang mọi cặp đại lượng lượng tử không giao hoán (như hai thành phần spin $$X, Z$$ của một qubit) qua bất đẳng thức **Robertson**.
+- **Đo bằng entropy Shannon:** Khắc phục điểm mù của phương sai (khi phân phối có hai đỉnh hẹp ở xa nhau), dẫn tới bất đẳng thức **Maassen–Uffink** làm nền cho bảo mật mật mã lượng tử.
+- **Đo bằng hình học của tập giá (hỗ trợ):** Dẫn tới định lý **Donoho–Stark** cho tín hiệu rời rạc thưa (nền tảng của cảm biến nén — compressed sensing) và **nguyên lý bất định fractal** ở bài tiếp theo!
+
+Nhìn trên bản đồ này, nguyên lý bất định không phải sự "mù mờ" của tự nhiên, mà là một **định luật hình học về độ phân giải** chi phối từ radar, âm nhạc, nén ảnh đến cơ học lượng tử.
 
 ---
 
@@ -32,13 +53,13 @@ Sau bài học, bạn có thể:
 
 ## 1. Không chỉ là chuyện lượng tử
 
-Một sóng sin kéo dài vô hạn có tần số tuyệt đối chính xác nhưng hoàn toàn không định vị được trong thời gian. Một xung Dirac định vị thời gian hoàn hảo nhưng có phổ phẳng. Mọi tín hiệu thực tế nằm ở giữa: làm gói sóng hẹp hơn ở một miền **buộc** nó phải trải rộng ra ở miền đối ngẫu.
+Một sóng sin kéo dài vô hạn có tần số tuyệt đối chính xác nhưng hoàn toàn không định vị được trong thời gian. Một xung Dirac định vị thời gian hoàn hảo nhưng có phổ phẳng trải đều mọi tần số. Mọi tín hiệu thực tế nằm ở giữa: ép gói sóng hẹp lại ở miền này **buộc** nó phải phình rộng ra ở miền đối ngẫu — một tính chất co giãn trực tiếp của tích phân Fourier: nếu co hàm $$f(x)$$ thành $$f(ax)$$ (hẹp đi $$a$$ lần), thì biến đổi Fourier của nó giãn ra thành $$\frac{1}{|a|}\hat f(\xi/a)$$ (rộng ra đúng $$a$$ lần!).
 
 ![Xung hẹp có phổ rộng; nốt dài có phổ sắc]({{ site.baseurl }}/img/chapter_img/uncertainty_time_freq_pairs.png)
 
 *Hình. Không thể sắc nét đồng thời ở cả hai miền. Trên: một xung ngắn và biến đổi Fourier trải rộng của nó. Dưới: một nốt gần thuần, kéo dài, và hai đỉnh tần số (hàm cosin).*
 
-Đây là thông điệp của video 3Blue1Brown, và là cách vào đề đúng. Xung radar, nốt nhạc, và phổ đồ dùng cửa sổ trong [bài Fourier ứng dụng]({{ site.baseurl }}/contents/vi/chapter03/03_08_Fourier_Signal_Processing/) có cùng một cấu trúc hình học. Cơ học lượng tử là trường hợp biến đối ngẫu là **động lượng**.
+Đây là thông điệp cốt lõi của video 3Blue1Brown, và là cách vào đề chuẩn xác nhất. Xung radar đo đồng thời khoảng cách và vận tốc Doppler, nốt nhạc, và phổ đồ dùng cửa sổ trong [bài Fourier ứng dụng]({{ site.baseurl }}/contents/vi/chapter03/03_08_Fourier_Signal_Processing/) đều có cùng một cấu trúc hình học. Cơ học lượng tử là trường hợp đặc biệt mà biến đối ngẫu tần số mang ý nghĩa vật lý là **động lượng**.
 
 ---
 
@@ -66,7 +87,7 @@ Nếu $$f$$ đã được căn tâm (trung bình của $$x$$ và của $$\xi$$ �
 
 *Hình. Các hàm Gauss (sai khác các phép biến đổi nói trên) là những hàm định vị tốt nhất mà bất đẳng thức cho phép.*
 
-**Trực giác.** Sau biến đổi Fourier, phép lấy đạo hàm theo $$x$$ trở thành phép nhân với tần số. Bất đẳng thức Cauchy–Schwarz áp dụng cho $$xf$$ và $$f'$$ đã cho một cận dưới; đẳng thức $$f'\leftrightarrow 2\pi i\xi\hat f$$ biến nó thành bất đẳng thức ở trên.
+**Trực giác chứng minh.** Sau biến đổi Fourier, phép lấy đạo hàm theo $$x$$ trở thành phép nhân với tần số ($$f'\leftrightarrow 2\pi i\xi\hat f$$). Lấy tích phân từng phần cho thấy $$\|f\|_2^2 = -2\operatorname{Re}\langle xf, f'\rangle \le 2\|xf\|_2 \|f'\|_2$$ theo bất đẳng thức Cauchy–Schwarz — và định lý Plancherel đổi $$\|f'\|_2$$ thành $$2\pi\|\xi\hat f\|_2$$, cho ra ngay hệ số $$1/(4\pi)$$!
 
 ---
 
@@ -86,7 +107,7 @@ $$
 
 Ở đây $$\sigma_x^2=\langle X^2\rangle-\langle X\rangle^2$$, với $$X$$ là phép nhân với $$x$$; $$\sigma_p$$ được định nghĩa tương tự cho $$P=-i\hbar\frac{d}{dx}$$. Sách phổ thông đôi khi viết $$h/4\pi$$; đó là cùng một phát biểu vì $$\hbar=h/2\pi$$.
 
-Hằng số này không phải một hệ số đo trong phòng thí nghiệm. Một khi chấp nhận (i) trạng thái là vectơ đơn vị trong $$L^2$$, (ii) quy tắc Born, và (iii) hệ thức de Broglie đồng nhất động lượng với tần số, thì bất đẳng thức là một định lý.
+Hằng số này không phải một hệ số sai số đo trong phòng thí nghiệm. Một khi chấp nhận (i) trạng thái là vectơ đơn vị trong $$L^2$$, (ii) quy tắc Born, và (iii) hệ thức de Broglie đồng nhất động lượng với tần số, thì bất đẳng thức là một định lý toán học tất yếu.
 
 ---
 
@@ -124,7 +145,7 @@ $$
 [X,P]=i\hbar I
 $$
 
-không thể đúng với các toán tử bị chặn trên không gian Hilbert (trong trường hợp hữu hạn chiều, lấy vết hai vế sẽ thấy mâu thuẫn; trường hợp tổng quát cũng có lập luận riêng khi cả hai toán tử bị chặn). Vậy $$X$$ và $$P$$ là **toán tử không bị chặn**, và đẳng thức trên chỉ là đẳng thức toán tử trên một miền xác định cụ thể. Cách phát biểu an toàn hơn là **dạng Weyl**: các nhóm unita một tham số $$U(a)=e^{-iaP/\hbar}$$ (tịnh tiến) và $$V(b)=e^{-ibX/\hbar}$$ (điều biến) thỏa
+không thể đúng với các toán tử bị chặn trên không gian Hilbert (trong trường hợp hữu hạn chiều, chỉ cần lấy vết hai vế: $$\operatorname{tr}(XP - PX) = 0 \neq i\hbar n$$ là thấy ngay mâu thuẫn!; trường hợp tổng quát cũng có lập luận riêng khi cả hai toán tử bị chặn). Vậy $$X$$ và $$P$$ buộc phải là **toán tử không bị chặn**, và đẳng thức trên chỉ là đẳng thức toán tử trên một miền xác định cụ thể. Cách phát biểu an toàn hơn là **dạng Weyl**: các nhóm unita một tham số $$U(a)=e^{-iaP/\hbar}$$ (tịnh tiến) và $$V(b)=e^{-ibX/\hbar}$$ (điều biến) thỏa
 
 $$
 U(a)V(b)=e^{-iab/\hbar}\,V(b)U(a).
@@ -140,17 +161,17 @@ $$
 
 ## 6. Năng lượng–thời gian là một định lý khác
 
-Không có **toán tử thời gian** tự liên hợp $$T$$ trên không gian Hilbert thông thường thỏa $$[H,T]=i\hbar$$ khi Hamiltonian bị chặn dưới. Pauli đã chỉ ra vật cản: hệ thức Weyl sẽ buộc phổ của $$H$$ phải là toàn bộ $$\mathbb{R}$$. Công thức phổ thông $$\Delta E\,\Delta t\ge\hbar/2$$ **không** phải là hệ thức Robertson áp dụng cho cặp $$(H,T)$$.
+Không có **toán tử thời gian** tự liên hợp $$T$$ trên không gian Hilbert thông thường thỏa $$[H,T]=i\hbar$$ khi Hamiltonian bị chặn dưới (vì mọi hệ vật lý bền vững đều phải có mức năng lượng thấp nhất — trạng thái cơ bản). Wolfgang Pauli đã chỉ ra vật cản gọn ghẽ: hệ thức Weyl sinh ra bởi $$T$$ sẽ dịch phổ của $$H$$ đi một lượng tùy ý sang trái lẫn sang phải, buộc phổ của $$H$$ phải là toàn bộ trục thực $$\mathbb{R}$$! Do đó, công thức phổ thông $$\Delta E\,\Delta t\ge\hbar/2$$ **không** phải là hệ thức Robertson áp dụng cho cặp $$(H,T)$$.
 
-Có những phát biểu thay thế hữu ích, và chúng là các định lý khác. Chẳng hạn, **Mandelstam–Tamm** chặn tốc độ một trạng thái trở nên trực giao với chính nó: nếu $$\tau$$ là thời gian để tích vô hướng giữa trạng thái ban đầu và trạng thái hiện tại giảm về không, thì $$\tau\,\sigma_H\ge\hbar/2$$ (hằng số tốt nhất là $$\pi\hbar/2$$). Đó là một giới hạn tốc độ, không phải khẳng định về việc đo đồng thời một "đại lượng thời gian".
+Có những phát biểu thay thế hữu ích, và chúng là các định lý khác. Chẳng hạn, **Mandelstam–Tamm** chặn tốc độ một trạng thái trở nên trực giao với chính nó: nếu $$\tau$$ là thời gian để tích vô hướng giữa trạng thái ban đầu và trạng thái hiện tại giảm về không, thì $$\tau\,\sigma_H\ge\hbar/2$$ (hằng số tốt nhất là $$\pi\hbar/2$$). Đó là một giới hạn tốc độ tiến hóa lượng tử, không phải khẳng định về việc đo đồng thời một "đại lượng thời gian".
 
-**Độ trải của trạng thái và nhiễu do phép đo.** Câu chuyện kính hiển vi tia γ của Heisenberg (1927) nói về việc phép đo làm xáo trộn hạt. Bất đẳng thức Kennard/Robertson nói về **độ trải của một trạng thái đã được chuẩn bị** đối với hai đại lượng quan sát không giao hoán; trong phát biểu không có máy đo nào. Các bất đẳng thức hiện đại về sai số và nhiễu của phép đo (Ozawa và các tác giả sau) là một chủ đề kỹ thuật riêng; khóa học này chỉ nêu tên, không chứng minh.
+**Độ trải của trạng thái và nhiễu do phép đo.** Câu chuyện kính hiển vi tia γ của Heisenberg (1927) nói về việc phép đo làm xáo trộn hạt. Bất đẳng thức Kennard/Robertson nói về **độ trải nội tại của một trạng thái đã được chuẩn bị** đối với hai đại lượng quan sát không giao hoán; trong phát biểu không có máy đo nào cả. Các bất đẳng thức hiện đại về sai số và nhiễu của phép đo (Ozawa và các tác giả sau) là một chủ đề kỹ thuật riêng; khóa học này chỉ nêu tên, không chứng minh.
 
 ---
 
 ## 7. Tính bổ sung theo entropy
 
-Phương sai có thể gây hiểu lầm. Một mật độ có hai đỉnh nằm xa nhau có phương sai lớn, dù xác suất vẫn "tập trung trên một tập nhỏ". **Entropy** đo kích thước miền tập trung trung thực hơn. Hirschman đưa ra phỏng đoán, Beckner và Białynicki-Birula–Mycielski chứng minh một bất đẳng thức entropy cho biến đổi Fourier: entropy Shannon của $$|\psi|^2$$ và của $$|\phi|^2$$ không thể cùng nhỏ.
+Phương sai có thể gây hiểu lầm. Hãy tưởng tượng một mật độ xác suất gồm hai mũi nhọn cực hẹp đặt ở $$x = -100$$ và $$x = +100$$: phương sai của nó khổng lồ ($$\sigma_x \approx 100$$), dù thực chất hạt gần như chắc chắn nằm trong hai chấm tí hon! **Entropy** đo độ bất định và kích thước miền tập trung trung thực hơn nhiều. Hirschman đưa ra phỏng đoán, Beckner và Białynicki-Birula–Mycielski chứng minh một bất đẳng thức entropy cho biến đổi Fourier: entropy vi phân của $$|\psi|^2$$ và của $$|\phi|^2$$ không thể cùng nhỏ.
 
 Trong trường hợp hữu hạn chiều, phát biểu gọn nhất là bất đẳng thức **Maassen–Uffink**. Nếu đo một trạng thái theo hai cơ sở trực chuẩn $$\{|a_i\rangle\}$$ và $$\{|b_j\rangle\}$$, và đặt $$c=\max_{i,j}|\langle a_i|b_j\rangle|$$, thì
 
@@ -158,7 +179,7 @@ $$
 H(A)+H(B)\ge -2\log c,
 $$
 
-trong đó $$H$$ là entropy Shannon của phân bố kết quả đo. Với một qubit đo theo cơ sở tính toán và cơ sở Hadamard, $$c=1/\sqrt{2}$$, nên tổng hai entropy ít nhất là một bit. Đó là tính bổ sung (complementarity) phát biểu như một định lý, và là cầu nối tự nhiên sang [thông tin lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/) cũng như một số chứng minh trong mật mã lượng tử.
+trong đó $$H$$ là entropy Shannon của phân bố kết quả đo. Với một qubit đo theo cơ sở tính toán $$\{|0\rangle, |1\rangle\}$$ và cơ sở Hadamard $$\{|+\rangle, |-\rangle\}$$, mọi tích vô hướng đều có độ lớn $$c=1/\sqrt{2}$$, nên $$H(A) + H(B) \ge 1\text{ bit}$$! Đó là tính bổ sung (complementarity) phát biểu như một định lý, và là cầu nối tự nhiên sang [thông tin lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/) cũng như nhiều chứng minh bảo mật trong mật mã lượng tử (như giao thức BB84).
 
 ---
 
@@ -181,7 +202,7 @@ trong đó $$H$$ là entropy Shannon của phân bố kết quả đo. Với m�
 | Khẳng định | Đánh giá | Chỉnh lại |
 |------------|------|-----|
 | "Đo vị trí làm xáo trộn hạt, nên $$\sigma_x\sigma_p\ge\hbar/2$$." | Sai lý do | Bất đẳng thức nói về hai độ trải của một trạng thái đã chuẩn bị. Nhiễu do phép đo là một định lý khác. |
-| "Mọi cặp đại lượng đều bất định cỡ $$h/2$$." | Sai | Chỉ các cặp không giao hoán; cận dưới là $$\tfrac12|\langle[A,B]\rangle|$$. |
+| "Mọi cặp đại lượng đều bất định cỡ $$h/2$$." | Sai | Chỉ các cặp không giao hoán; cận dưới là $$\tfrac12\vert\langle[A,B]\rangle\vert$$. |
 | "Năng lượng–thời gian cũng là hệ thức giao hoán như $$x,p$$." | Sai | Không có toán tử thời gian tự liên hợp theo nghĩa chuẩn. Dùng Mandelstam–Tamm hoặc nói rõ biến thể nào. |
 | "Bất định là hỗn loạn / định luật 2 nhiệt động học." | Sai | Sự phụ thuộc nhạy vào điều kiện ban đầu và entropy nhiệt là chủ đề khác ([hỗn loạn]({{ site.baseurl }}/contents/vi/chapter04/04_05_Chaos/)). |
 | "Hàm Gauss chỉ là một ví dụ tiện tính." | Thiếu | Chúng là các hàm **đạt cực tiểu**. |

@@ -10,51 +10,90 @@ categories:
 lesson_type: optional
 ---
 
+Khi khép lại hành trình qua hàng chục chân dung Huy chương Fields — từ những đa tạp 4 chiều kỳ lạ đến phương trình Monge–Ampère, lưới xếp cầu 8 chiều hay chuyển pha thống kê — một câu hỏi rất tự nhiên nảy ra: *những ý tưởng trừu tượng đỉnh cao này đi đâu khi bước ra khỏi giảng đường toán thuần túy?* Thú vị là, khi đi vào công nghiệp và khoa học máy tính giai đoạn 2022–2026, thứ được mang theo hiếm khi là tiểu sử hay một định lý nguyên khối, mà là **cấu trúc đối tượng toán học**: một mạng nơ-ron học cách xấp xỉ phương án vận chuyển tối ưu để dịch ảnh không cần dữ liệu ghép cặp, một bài toán hình học trên lưới nhiều chiều bảo vệ mọi kết nối Internet trước kỷ nguyên máy tính lượng tử, hay trực giác về ngưỡng chuyển pha giúp thiết kế bộ giải SAT và kiến trúc mạng đồ thị hiện đại.
+
+Bài học tùy chọn này là cầu nối giúp bạn nhìn thấy ba dòng chảy sống động đó — đồng thời giữ vững sự tỉnh táo khoa học: **toán học đoạt Huy chương Fields làm sáng tỏ cấu trúc và chứng minh định lý chặt chẽ; còn khoa học máy tính và kỹ thuật hệ thống biến các cấu trúc ấy thành thuật toán đủ nhanh, đủ rẻ để chạy trên dữ liệu thật.**
+
+---
+
 ## Mục tiêu học tập
 
-Sau bài tùy chọn này, bạn có thể nêu được ba ứng dụng trong khoa học máy tính giai đoạn 2022–2026 có dùng lại các đối tượng toán học đã gặp trong chương: vận chuyển tối ưu, lưới (lattice) nhiều chiều, và cách tư duy về chuyển pha. Bài không kể thêm tiểu sử người đoạt Fields, và cũng không lặp lại bài tổng hợp sáu trụ cột của Tao ở Chương 4.
+Sau bài tùy chọn này, bạn có thể:
 
-## Kiến thức cần có
+- Nêu và giải thích ba ứng dụng tiêu biểu trong khoa học máy tính giai đoạn 2022–2026 kế thừa trực tiếp ngôn ngữ toán học của Chương 2: **vận chuyển tối ưu bằng mạng nơ-ron**, **mật mã hậu lượng tử dựa trên lưới module**, và **tư duy ngưỡng chuyển pha trong bài toán SAT và học sâu trên đồ thị**.
+- Phân biệt rành mạch ranh giới ghi công: đâu là định lý toán học chặt chẽ của các công trình Huy chương Fields ([Figalli]({{ site.baseurl }}/contents/vi/chapter02/02_20_Figalli_Optimal_Transport/), [Viazovska]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/), Duminil-Copin, Smirnov), và đâu là xấp xỉ tính toán, giả thiết độ khó hay kiến trúc kỹ thuật của khoa học máy tính hiện đại.
+- Hiểu bài này là phần mở rộng định hướng ứng dụng, không kể thêm tiểu sử Fields và không lặp lại bài tổng hợp sáu trụ cột của Terence Tao ở Chương 4.
 
-Lướt qua bản đồ chủ đề trong [tổng quan]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/). Bạn **không** cần đọc từng bài về các huy chương mới dùng được trang này. Tuy nhiên, trang này không thay thế được các bài [Figalli / vận chuyển tối ưu]({{ site.baseurl }}/contents/vi/chapter02/02_20_Figalli_Optimal_Transport/), [Viazovska / xếp cầu]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/), hay các bài về vật lý thống kê.
+**Kiến thức cần có.** Lướt qua bản đồ chủ đề trong [tổng quan]({{ site.baseurl }}/contents/vi/chapter02/02_00_Tong_quan/). Bạn **không** cần đọc hết từng bài chân dung mới đọc được trang này; ngược lại, trang này cũng không thay thế các bài chuyên sâu như [Figalli / vận chuyển tối ưu]({{ site.baseurl }}/contents/vi/chapter02/02_20_Figalli_Optimal_Transport/), [Viazovska / xếp cầu]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/), hay các bài về vật lý thống kê.
 
-## Mở đầu
+---
 
-Các bài về Huy chương Fields trong chương này kể về con người và định lý. Khi sang công nghiệp, cái được mang theo hiếm khi là câu chuyện về một người. Thứ được mang theo là một đối tượng tính toán: một mạng nơ-ron xấp xỉ một phương án vận chuyển, một bài toán trên lưới được tin là khó ngay cả với máy tính lượng tử, hay một bộ giải SAT chạy nhanh hoặc chậm tùy vào vị trí so với ngưỡng chuyển pha. Điều cần cẩn thận là ghi công cho đúng. Công trình đoạt huy chương làm cho các đối tượng này trở nên rõ ràng, chính xác. Các hệ thống tin học làm cho chúng *đủ rẻ để chạy được*.
+## Bản đồ kiến thức nền: Từ đối tượng toán thuần túy đến bài toán tính toán
 
-## Phát triển khái niệm
+Trước khi đi vào từng ứng dụng giai đoạn 2022–2026, hãy nhìn cách ba khái niệm toán học thuần túy của Chương 2 được "dịch" sang ngôn ngữ của kỹ sư AI và mật mã học:
 
-Bài toán vận chuyển tối ưu (với chi phí bậc hai) tìm một phép ghép (coupling) $$\pi$$ giữa hai độ đo $$\mu,\nu$$ sao cho $$\int c(x,y)\,d\pi$$ nhỏ nhất. Lý thuyết chính quy hỏi khi nào nghiệm tối ưu là một ánh xạ. Học máy thì thường hỏi khi nào một mạng nơ-ron *tham số hóa* được một ánh xạ hoặc một phương án vận chuyển đủ tốt để dùng cho bài toán dịch ảnh không cặp.
+1. **Vận chuyển tối ưu (Optimal Transport):**
+   - *Trong giải tích thuần túy (Figalli, Brenier, Caffarelli):* cho hai phân bố xác suất $$\mu, \nu$$, tìm phép ghép $$\pi$$ cực tiểu hóa $$\int c(x,y)\,d\pi(x,y)$$ và chứng minh khi nào nghiệm là ánh xạ trơn $$T = \nabla\phi$$.
+   - *Trong học máy (AI):* ta chỉ có tập mẫu rời rạc (ví dụ 100.000 ảnh mặt người và 100.000 ảnh tranh vẽ anime, không hề ghép cặp!). Thay vì giải phương trình Monge–Ampère trên không gian hàng chục nghìn chiều, ta dùng **mạng nơ-ron** $$T_\theta$$ để tham số hóa trực tiếp ánh xạ hoặc phương án vận chuyển giữa hai phân bố dữ liệu!
 
-Một bài toán khác hẳn là bài toán trên lưới module, chẳng hạn Module-LWE: tìm bí mật $$s$$ khi biết các mẫu có nhiễu
+2. **Hình học lưới nhiều chiều (High-dimensional Lattices):**
+   - *Trong toán thuần túy (Viazovska):* tìm cách xếp các quả cầu đặc khít nhất trong chiều 8 (lưới $$E_8$$) và chiều 24 (lưới Leech) nhờ dạng modular.
+   - *Trong mật mã hậu lượng tử:* không dùng $$E_8$$ hay lưới Leech, mà dùng các **lưới module** ngẫu nhiên trong chiều hàng trăm (như $$n = 512, 768, 1024$$) và bài toán **Module-LWE** (*Learning With Errors*): tìm vector bí mật $$s$$ khi chỉ quan sát được các mẫu đã bị trộn nhiễu
 
 $$
-(A,\, As+e \bmod q),
+(A,\, As+e \bmod q).
 $$
 
-và hình học kiểu xếp cầu cho biết sai số $$e$$ được phép lớn đến đâu trước khi việc giải mã không còn duy nhất. Không đoạn nào ở trên là tiểu sử.
+   Chính trực giác **hình học xếp cầu** cho biết biên độ nhiễu $$e$$ được phép lớn đến đâu (bán kính giải mã quanh mỗi điểm lưới) để người nhận có khóa bí mật vẫn giải mã đúng duy nhất, trong khi kẻ tấn công (kể cả sở hữu máy tính lượng tử) phải đối mặt với bài toán tìm vector ngắn nhất cực kỳ khó!
 
-## Ba ứng dụng bổ sung
+3. **Ngưỡng chuyển pha (Phase Transitions):**
+   - *Trong vật lý thống kê (Smirnov, Duminil-Copin):* khi mật độ cạnh mở $$p$$ vượt qua ngưỡng sắc $$p_c$$, mạng lưới đột ngột chuyển từ rời rạc sang liên thông toàn cục.
+   - *Trong khoa học máy tính:* một hệ ràng buộc logic ngẫu nhiên (như $$3$$-SAT với tỷ lệ mệnh đề/biến $$\alpha = m/n$$) cũng có một **ngưỡng chuyển pha sắc nét** quanh $$\alpha_c \approx 4.26$$: dưới ngưỡng gần như chắc chắn có nghiệm và dễ tìm; trên ngưỡng gần như chắc chắn vô nghiệm; còn **ngay tại ngưỡng** là nơi mọi thuật toán tìm kiếm gặp độ khó cực đại!
 
-### 1. Vận chuyển tối ưu bằng mạng nơ-ron
+---
 
-Korotin, Selikhanovych và Burnaev (2023) huấn luyện mạng nơ-ron để biểu diễn các phương án vận chuyển tối ưu (OT) theo nghĩa mạnh và nghĩa yếu, đồng thời chứng minh một kết quả xấp xỉ phổ quát cho phương án vận chuyển. Các thí nghiệm gồm bài toán dịch ảnh không cặp. Đối tượng ở đây vẫn là phương án Kantorovich mà bài Figalli nghiên cứu bằng giải tích. Bài báo không chứng minh kết quả chính quy mới nào cho ánh xạ trên $$\mathbb{R}^n$$. Nó chỉ cho thấy một mô hình khả vi có thể thay thế một phương án vận chuyển ở quy mô dữ liệu ảnh. Nếu muốn tìm hiểu câu chuyện huy chương, hãy đọc bài Figalli. Nếu muốn xem một sản phẩm tin học năm 2023, hãy bắt đầu từ bài báo này.
+## Ba ứng dụng bổ sung (2022–2026)
 
-### 2. Lưới module trong mật mã hậu lượng tử
+### 1. Vận chuyển tối ưu bằng mạng nơ-ron (Neural Optimal Transport)
 
-Tiêu chuẩn NIST FIPS 203 (tháng 8 năm 2024) chuẩn hóa ML-KEM, một cơ chế đóng gói khóa dựa trên lưới module, phát triển từ CRYSTALS-Kyber, với các bộ tham số ML-KEM-512/768/1024. Độ an toàn của nó dựa vào độ khó của bài toán Module-LWE, không liên quan đến lời giải bài toán xếp cầu ở chiều 8 hay 24. Mối liên hệ với chương này nằm ở hình học: lưới nhiều chiều, độ khó của bài toán tìm vectơ ngắn nhất, và bán kính giải mã kiểu xếp cầu là *ngôn ngữ* dùng để viết tiêu chuẩn. Muốn tìm hiểu các chiều đặc biệt 8 và 24 cùng dạng modular, hãy đọc bài Viazovska.
+Trong học sâu sinh ảnh, bài toán **dịch ảnh không cặp** (*unpaired image-to-image translation* — ví dụ biến ảnh chụp ban ngày thành ban đêm, hay ảnh khuôn mặt thành tranh sơn dầu mà không cần cặp ảnh khớp nhau sẵn) về bản chất chính là bài toán vận chuyển tối ưu giữa hai phân bố ảnh $$\mu$$ và $$\nu$$.
 
-### 3. Tư duy chuyển pha trong SAT và học trên đồ thị
+Công trình của **Korotin, Selikhanovych và Burnaev (ICLR 2023)** đề xuất khung **Neural Optimal Transport (NOT)**: họ huấn luyện mạng nơ-ron theo bài toán minimax đối ngẫu Kantorovich để biểu diễn trực tiếp các phương án vận chuyển tối ưu (theo cả nghĩa mạnh lẫn nghĩa yếu, cho phép một đầu vào sinh ra nhiều đầu ra đa dạng), đồng thời chứng minh định lý xấp xỉ phổ quát cho phương án vận chuyển.
 
-Bài toán $$k$$-SAT ngẫu nhiên và mô hình thấm (percolation) đều có ngưỡng sắc. Dưới một mật độ nhất định, trường hợp điển hình thì dễ giải (với SAT) hoặc liên thông (với thấm); vượt quá ngưỡng thì không còn như vậy. Các cuộc thi SAT ngày nay vẫn dùng những bộ đề nhân tạo và đề công nghiệp nằm gần các ngưỡng này. Các graph transformer như GraphGPS (Rampášek, Galkin, Dwivedi, Luu, Wolf và Beaini, 2022) kết hợp truyền tin cục bộ với cơ chế chú ý (attention) toàn cục có độ phức tạp $$O(N+E)$$. Chúng kế thừa cùng một trực giác từ vật lý thống kê: sự cân bằng giữa các lân cận cục bộ và một chế độ toàn cục. Đây không phải tiểu sử của Duminil-Copin hay Smirnov. Đây là một *thói quen*: tìm mật độ tới hạn trước khi tin vào một bộ giải hay một mạng nơ-ron đồ thị (GNN).
+**Ranh giới cần giữ rõ:** Đối tượng toán học vẫn là bài toán đối ngẫu Kantorovich trong bài [Figalli]({{ site.baseurl }}/contents/vi/chapter02/02_20_Figalli_Optimal_Transport/), nhưng bài báo ICLR 2023 không chứng minh kết quả chính quy mới nào cho phương trình Monge–Ampère trên $$\mathbb{R}^n$$. Giá trị của nó nằm ở khía cạnh tính toán: chứng tỏ một mô hình mạng nơ-ron khả vi có thể xấp xỉ hiệu quả phương án vận chuyển ở quy mô ảnh thực tế độ phân giải cao.
+
+### 2. Lưới module trong mật mã hậu lượng tử (NIST FIPS 203 — ML-KEM)
+
+Thuật toán Shor trên máy tính lượng tử đủ lớn có thể phá vỡ hệ mật mã khóa công khai RSA và đường cong elliptic (ECC) hiện đang bảo vệ hầu hết giao dịch Internet. Tháng 8 năm 2024, Viện Tiêu chuẩn và Công nghệ Quốc gia Hoa Kỳ (NIST) chính thức ban hành tiêu chuẩn **FIPS 203** chuẩn hóa **ML-KEM** (*Module-Lattice-Based Key-Encapsulation Mechanism*, phát triển từ thuật toán CRYSTALS-Kyber) với ba mức bảo mật **ML-KEM-512 / 768 / 1024**.
+
+**Ranh giới cần giữ rõ:** Độ an toàn của ML-KEM dựa trên giả thiết độ khó tính toán của bài toán **Module-LWE** trên lưới chiều cao, **không** sử dụng định lý xếp cầu chiều 8 hay chiều 24 của [Viazovska]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/) (vốn dùng các lưới cực kỳ đối xứng và dạng modular). Cầu nối với Chương 2 là **ngôn ngữ hình học chung**: lưới nhiều chiều, độ khó của bài toán tìm vector ngắn nhất (SVP), và hình học bán kính giải mã kiểu xếp cầu để cân bằng giữa tỷ lệ lỗi giải mã và độ an toàn lượng tử.
+
+### 3. Tư duy chuyển pha trong bài toán SAT và học sâu trên đồ thị (GraphGPS)
+
+Trong lý thuyết độ phức tạp và trí tuệ nhân tạo, tư duy về **ngưỡng tới hạn sắc nét** từ vật lý thống kê đã trở thành một nguyên lý thiết kế thực chiến:
+- **Trong các cuộc thi giải SAT (SAT Competition):** Những bộ đề kiểm thử khó nhất để phân loại sức mạnh của các bộ giải SAT hiện đại (CDCL, tìm kiếm cục bộ) thường được tạo ra đúng tại **vùng chuyển pha** — nơi cấu trúc không gian nghiệm vỡ vụn thành các cụm rời rạc (hiện tượng tương tự thủy tinh spin trong vật lý thống kê!).
+- **Trong học sâu trên đồ thị (Graph Neural Networks):** Các mạng truyền tin cục bộ (MPNN) truyền thông tin giữa các nút kề nhau (giống tương tác láng giềng gần nhất trong mô hình Ising/thấm), nhưng thường bị nghẽn cổ chai (*over-squashing*) khi cần truyền thông tin đường dài qua toàn đồ thị. Kiến trúc **GraphGPS** của **Rampášek, Galkin, Dwivedi, Luu, Wolf và Beaini (NeurIPS 2022)** kết hợp truyền tin cục bộ với cơ chế chú ý (*attention*) toàn cục có độ phức tạp tuyến tính $$O(N+E)$$.
+
+**Ranh giới cần giữ rõ:** Đây không phải là chứng minh định lý chuyển pha của Duminil-Copin hay Smirnov trên mô hình liên tục; đó là một **thói quen tư duy khoa học** kế thừa từ vật lý thống kê — luôn khảo sát cân bằng giữa tương tác cục bộ và chế độ toàn cục, cũng như xác định ngưỡng tới hạn trước khi tin tưởng vào hiệu năng của một bộ giải hay một kiến trúc mạng đồ thị.
+
+---
 
 ## Diễn giải và nhận định
 
-Một mạng vận chuyển "chạy tốt" trên tập ảnh CelebA không phải là một định lý về tính chính quy của phương trình Monge–Ampère. Một cơ chế đóng gói khóa vượt qua quy trình tuyển chọn của NIST không phải là một định lý xếp cầu. Một GNN đạt điểm cao trên tập ZINC không chứng minh được gì về chuyển pha trong mô hình liên tục. Các kết quả gắn với Huy chương Fields là những phát biểu toán học chặt chẽ; các hệ thống tin học là những xấp xỉ đã được tinh chỉnh.
+Giữ ranh giới rõ ràng giữa toán học thuần túy và kỹ thuật tính toán giúp ta trân trọng đúng giá trị của cả hai thế giới:
+- Một mạng vận chuyển tối ưu dịch ảnh đẹp mắt trên tập dữ liệu CelebA **không** phải là một định lý về tính chính quy $$W^{2,1}$$ của phương trình Monge–Ampère.
+- Một cơ chế đóng gói khóa vượt qua 8 năm thẩm định khắt khe của NIST **không** phải là một định lý xếp cầu tối ưu.
+- Một kiến trúc Graph Transformer đạt điểm cao nhất trên tập phân tử ZINC **không** chứng minh tính sắc hay bất biến bảo giác của chuyển pha.
+
+Các công trình Huy chương Fields cung cấp **nền tảng chân lý và ngôn ngữ cấu trúc**; các hệ thống khoa học máy tính 2022–2026 cung cấp **những xấp xỉ tinh tế có thể vận hành ở quy mô toàn cầu**.
+
+---
 
 ## Giới hạn và hướng mở rộng
 
-Bài này cố ý không bàn về Hong Wang và bài toán Kakeya hay Yu Deng, và không kể lại công trình về cảm biến nén (compressed sensing) của Candès–Tao. Các nội dung đó đã có ở những trang khác. Bài cũng không khảo sát các huy chương năm 2026.
+Bài tùy chọn này chủ ý không lặp lại câu chuyện về Hong Wang và bài toán Kakeya, Yu Deng và phương trình Boltzmann, hay cảm biến nén (*compressed sensing*) của Candès–Tao (đã được trình bày chi tiết ở các bài và chương khác), và cũng không mở rộng sang khảo sát các Huy chương Fields năm 2026.
+
+---
 
 ## Bài tập
 

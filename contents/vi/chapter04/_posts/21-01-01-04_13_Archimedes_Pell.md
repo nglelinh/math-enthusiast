@@ -9,9 +9,9 @@ categories:
 - chapter04
 ---
 
-Archimedes gửi cho Eratosthenes một bài thơ tiếng Hy Lạp dài 44 câu, hỏi đàn bò của thần Mặt Trời có bao nhiêu con. Nửa đầu bài thơ trông như một bài toán tỉ lệ ở trường phổ thông. Nửa sau biến nó thành một trong những **phương trình Pell** nổi tiếng nhất lịch sử. Đàn bò nhỏ nhất thỏa mọi điều kiện có **206.545 chữ số**; in ra sẽ tốn hàng chục trang giấy.
+Hơn 2.200 năm trước, từ thành Syracuse, Archimedes gửi cho người bạn Eratosthenes ở Alexandria một bài thơ tiếng Hy Lạp dài 44 câu với lời thách đố hóm hỉnh: hãy tính xem đàn bò linh thiêng của thần Mặt Trời đang gặm cỏ trên đảo Sicily có tất cả bao nhiêu con. Đọc nửa đầu bài thơ, ai cũng nghĩ đây chỉ là một bài toán giải hệ tỉ lệ bậc phổ thông. Nhưng hai câu cuối bất ngờ thả vào hai điều kiện hình học tưởng chừng vô hại — biến bài thơ cổ thành một con quái vật **phương trình Pell**. Đàn bò nhỏ nhất thỏa mọi điều kiện có tới **206.545 chữ số**: một con số khổng lồ đến mức phải in kín hàng chục trang giấy và lớn hơn số nguyên tử trong vũ trụ quan sát được hàng trăm nghìn bậc lũy thừa!
 
-Bài này nói về cú sốc đó, và về bộ máy đứng sau nó: phương trình $$x^2-dy^2=1$$, luật nhóm sinh ra vô hạn nghiệm từ một nghiệm, và thuật toán phân số liên tục để tìm nghiệm đầu tiên.
+Bài học này giải mã cú sốc đó, đồng thời mở nắp chiếc hộp động cơ đứng sau nó: phương trình $$x^2-dy^2=1$$, luật nhóm đại số biến một nghiệm thành vô hạn nghiệm, và thuật toán phân số liên tục tinh tế để săn tìm nghiệm đầu tiên.
 
 **Lộ trình:** câu đố → phần tuyến tính và các ràng buộc số chính phương/số tam giác → phương trình Pell (và cái tên bị gán nhầm) → phép hợp thành Brahmagupta → phân số liên tục cho $$d=2$$ → vì sao số chữ số tăng vọt → Pell âm và định lý Stevenhagen → nhầm lẫn thường gặp, bài tập.
 
@@ -34,6 +34,20 @@ Sau bài học, bạn có thể:
 
 ---
 
+## Bản đồ kiến thức nền: Phương trình Diophantine và lý thuyết số đại số là gì?
+
+Trên tập số thực, phương trình $$x^2 - 61y^2 = 1$$ là chuyện vặt: đó chỉ là một đường hyperbola trơn tru với vô số điểm $$(x, y)$$ dễ dàng tìm bằng cách chọn tùy ý $$y$$ rồi lấy căn. Nhưng chỉ cần thêm một yêu cầu duy nhất — **$$x$$ và $$y$$ phải là số nguyên** — bài toán lập tức trở thành một **phương trình Diophantine**, nơi nghiệm dương nhỏ nhất vọt lên tới 10 chữ số!
+
+**Lý thuyết số đại số** chinh phục những phương trình "bướng bỉnh" như thế bằng một nước đi tư duy thiên tài: thay vì bó buộc mình trong tập số nguyên $$\mathbb{Z}$$, ta **mở rộng sang vành số đại số** $$\mathbb{Z}[\sqrt{d}] = \{x + y\sqrt{d} : x, y \in \mathbb{Z}\}$$. Nhờ đó, biểu thức bậc hai $$x^2 - dy^2$$ tách đẹp đẽ thành tích
+
+$$
+x^2 - dy^2 = (x + y\sqrt{d})(x - y\sqrt{d}) = N(x + y\sqrt{d}).
+$$
+
+Khi ấy, tìm nghiệm nguyên của phương trình Pell chính là đi tìm các **phần tử khả nghịch (đơn vị)** có chuẩn $$+1$$ trong vành $$\mathbb{Z}[\sqrt{d}]$$ — lập tức biến một bài toán đếm số rời rạc thành cấu trúc **nhóm nhân** gọn ghẽ, đồng thời nối trực tiếp với nghệ thuật xấp xỉ số vô tỉ $$\sqrt{d}$$ bằng phân số liên tục!
+
+---
+
 ## 1. Bài thơ không phải câu đố dân gian
 
 Gọi $$W,B,Y,D$$ là số **bò đực** màu trắng, đen, vàng, đốm, và $$w,b,y,d$$ là số **bò cái** cùng màu. Bảy điều kiện tỉ lệ của Archimedes đều là tuyến tính:
@@ -50,13 +64,13 @@ y &= \tfrac{13}{42}(W+w).
 \end{aligned}
 $$
 
-Tám ẩn nguyên dương với bảy quan hệ độc lập cho ta một **họ nghiệm phụ thuộc một tham số**. Riêng nghiệm dương nhỏ nhất đã có tổng đàn là
+Tám ẩn nguyên dương với bảy quan hệ độc lập cho ta một **họ nghiệm phụ thuộc một tham số** (mọi ẩn đều tỉ lệ với một số nguyên dương $$k$$). Riêng nghiệm dương nhỏ nhất (ứng với $$k=1$$) đã có tổng đàn là
 
 $$
 W+B+Y+D+w+b+y+d = 50{,}389{,}082
 $$
 
-(với $$W=10{,}366{,}482$$, $$B=7{,}460{,}514$$, $$Y=4{,}149{,}387$$, $$D=7{,}358{,}060$$). Con số này lớn so với một bài toán ở trường, nhưng vẫn viết ra được.
+(với $$W=10{,}366{,}482$$, $$B=7{,}460{,}514$$, $$Y=4{,}149{,}387$$, $$D=7{,}358{,}060$$). Con số 50 triệu này lớn so với một bài toán ở trường, nhưng vẫn viết gọn trên một dòng.
 
 Bài thơ thêm hai ràng buộc **hình học**:
 
@@ -110,6 +124,14 @@ $$
 (x_1,y_1)\ast(x_2,y_2) = (x_1x_2+d y_1y_2,\ x_1y_2+x_2y_1).
 $$
 
+Thử ngay với $$d=3$$: ta thấy bằng mắt thường $$(2,1)$$ là nghiệm vì $$2^2 - 3\cdot 1^2 = 1$$. Bình phương phần tử $$2+\sqrt{3}$$:
+
+$$
+(2+\sqrt{3})^2 = (4+3) + (2+2)\sqrt{3} = 7 + 4\sqrt{3},
+$$
+
+và kiểm tra lại: $$7^2 - 3\cdot 4^2 = 49 - 48 = 1$$! Nhân thêm một lần nữa với $$2+\sqrt{3}$$ cho $$(26, 15)$$, vì $$26^2 - 3\cdot 15^2 = 676 - 675 = 1$$.
+
 Về mặt đại số, đây là tính nhân tính của chuẩn
 
 $$
@@ -123,6 +145,8 @@ Vì vậy "tìm được một nghiệm là có vô hạn nghiệm" không phả
 ---
 
 ## 4. Tìm nghiệm đầu tiên: $$d=2$$
+
+Viết lại phương trình $$x^2 - dy^2 = 1$$ dưới dạng $$\frac{x}{y} - \sqrt{d} = \frac{1}{y(x+y\sqrt{d})} \approx \frac{1}{2\sqrt{d}\,y^2}$$. Điều này cho thấy mỗi nghiệm $$(x,y)$$ tương ứng với một phân số $$x/y$$ **xấp xỉ cực kỳ sát** số vô tỉ $$\sqrt{d}$$! Và công cụ tìm các phân số xấp xỉ tốt nhất trong toán học chính là **phân số liên tục**.
 
 Phân số liên tục của căn bậc hai một số không chính phương luôn tuần hoàn từ một lúc nào đó. Với $$d=2$$,
 
@@ -157,15 +181,17 @@ rồi $$(17,12)\ast(3,2)=(99,70)$$. Dãy nghiệm tiếp tục: $$(1,0),\ (3,2),
 
 ## 5. Vì sao các con số tăng vọt
 
-Nhìn hình dạng của $$x^2-dy^2=1$$, không có gì báo trước $$x_1$$ sẽ lớn đến đâu. Độ lớn được quyết định bởi **regulator** $$\log(x_1+y_1\sqrt{d})$$, và đại lượng này có thể nhảy nhiều bậc độ lớn khi $$d$$ chỉ thay đổi 1 đơn vị.
+Nhìn hình dạng của $$x^2-dy^2=1$$, không có gì báo trước $$x_1$$ sẽ lớn đến đâu. Độ lớn được quyết định bởi **regulator** $$\log(x_1+y_1\sqrt{d})$$ (gắn chặt với độ dài chu kỳ phân số liên tục của $$\sqrt{d}$$), và đại lượng này có thể nhảy nhiều bậc độ lớn khi $$d$$ chỉ nhích lên đúng 1 đơn vị!
 
-Thách đố của Fermat năm 1657, $$x^2-61y^2=1$$, có nghiệm cơ bản
+Hãy so sánh hai người hàng xóm sát cạnh nhau:
+- Với $$d = 60$$: nghiệm cơ bản nhỏ xíu là $$(x_1, y_1) = (31, 4)$$ vì $$31^2 - 60\cdot 4^2 = 961 - 960 = 1$$.
+- Chỉ tăng $$d$$ lên $$61$$ (thách đố nổi tiếng của Fermat năm 1657), chu kỳ phân số liên tục của $$\sqrt{61}$$ kéo dài ra và nghiệm cơ bản vọt thẳng lên:
 
 $$
 x_1 = 1{,}766{,}319{,}049, \qquad y_1 = 226{,}153{,}980.
 $$
 
-Mười chữ số và chín chữ số, trong khi hệ số $$d$$ chỉ đếm trên hai bàn tay là đủ.
+Mười chữ số và chín chữ số, trong khi hệ số $$d$$ chỉ tăng thêm đúng một đơn vị!
 
 Bài toán đàn bò là cùng hiện tượng đó ở quy mô lớn hơn nhiều. A. Amthor (1880) xác định được tổng đàn nhỏ nhất xấp xỉ
 
@@ -191,7 +217,7 @@ một số nguyên có **206.545 chữ số**, lớn hơn rất nhiều so với
 | $$x^2-dy^2=-1$$ giải được với mọi $$d$$ như vậy | **Sai** (cản trở địa phương và toàn cục) |
 | Trong họ $$d$$ không chính phương đủ điều kiện của Stevenhagen, mật độ những $$d$$ mà $$-1$$ giải được | **Định lý** (giả thuyết Stevenhagen 1993; Koymans–Pagano 2022, [arXiv:2201.13424](https://arxiv.org/abs/2201.13424)). Hằng số $$\approx 58{,}06\%$$, **không** phải “58% mọi $$d$$.” |
 
-Pell âm $$x^2-dy^2=-1$$ hỏi đơn vị cơ bản của $$\mathbb{Q}(\sqrt{d})$$ có chuẩn $$-1$$ hay không. Đây là câu hỏi về 2-phần của nhóm lớp và ký hiệu Rédei, không phải một bản sao của định lý Lagrange.
+Pell âm $$x^2-dy^2=-1$$ hỏi đơn vị cơ bản của $$\mathbb{Q}(\sqrt{d})$$ có chuẩn $$-1$$ hay không. Cản trở địa phương rất dễ thấy trên một ví dụ nhỏ: với $$d = 3$$, phương trình $$x^2 - 3y^2 = -1$$ suy ra $$x^2 \equiv -1 \equiv 2 \pmod{3}$$, điều này vô lý vì bình phương một số nguyên chia $$3$$ chỉ có thể dư $$0$$ hoặc $$1$$! Tổng quát, nếu $$d$$ có ước nguyên tố dạng $$4k+3$$ thì Pell âm chắc chắn vô nghiệm. Ngay cả khi vượt qua mọi cản trở địa phương đó (họ đủ điều kiện của Stevenhagen), vẫn có những giá trị như $$d = 34$$ mà Pell âm vô nghiệm do cản trở toàn cục tinh tế hơn — gắn với 2-phần của nhóm lớp và ký hiệu Rédei, không phải một bản sao của định lý Lagrange.
 
 **Đừng phóng đại ứng dụng.** Đơn vị của trường toàn phương thực (Pell) và **nhóm lớp** của trường toàn phương ảo (bối cảnh của CSIDH và một số hàm trì hoãn kiểm chứng được, VDF, dựa trên nhóm lớp) cùng nằm trong lý thuyết số đại số. Nhưng chúng không phải là một đối tượng. Phương trình Pell không phải là một hệ mật mã hậu lượng tử.
 

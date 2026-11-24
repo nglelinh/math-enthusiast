@@ -10,11 +10,13 @@ categories:
 lesson_type: required
 ---
 
-Đường sá, siêu liên kết, phân tử, quan hệ xã hội, dây dẫn trong chip, đồ thị phụ thuộc giữa các gói phần mềm: bỏ nhãn đi thì tất cả đều là cùng một loại đối tượng, gồm các **đỉnh** nối với nhau bởi các **cạnh**. Lý thuyết đồ thị từng chỉ là một nhánh tổ hợp mang tính giải trí. Ngày nay nó định tuyến gói tin, xếp hạng trang web, phân bổ luồng hàng và phân tích dịch bệnh.
+Năm 1736, cư dân thành phố Königsberg (Đông Phổ) thích đố nhau một câu đố giải trí cuối tuần: thành phố có hai hòn đảo nối với hai bờ sông bằng bảy cây cầu — liệu có thể đi dạo một vòng qua *đúng mỗi cây cầu một lần* rồi quay về không? Leonhard Euler nhận ra một điều thiên tài: chiều dài cây cầu hay hình dáng con sông hoàn toàn vô nghĩa. Nếu gom mỗi vùng đất thành một **chấm tròn (đỉnh)** và mỗi cây cầu thành một **nét nối (cạnh)**, lời giải hiện ra ngay trong vài dòng — và **lý thuyết đồ thị** ra đời từ câu đố dạo phố đó.
 
-**Lộ trình:** đồ thị làm mô hình → đường đi và tính liên thông → cây và chu trình → luồng và lát cắt → bước ngẫu nhiên và PageRank → đồ thị giãn nở (expander) → thuật toán cho mạng quy mô lớn → nhầm lẫn thường gặp.
+Gần ba thế kỷ sau, khi ta bóc bỏ lớp vỏ vật lý của bản đồ giao thông, mạng lưới siêu liên kết trên web, cấu trúc phân tử thuốc, sơ đồ dây dẫn trong vi mạch hay mạng xã hội hàng tỷ người, tất cả đều hiện nguyên hình là cùng một đối tượng toán học của Euler: các đỉnh nối với nhau bằng cạnh. Từ một trò tiêu khiển tổ hợp, lý thuyết đồ thị ngày nay định tuyến từng gói tin Internet, xếp hạng hàng tỷ trang web, điều phối chuỗi cung ứng và dự báo đường lây lan của dịch bệnh.
 
-Bài này chỉ ra **cơ chế**: ý tưởng nào trong lý thuyết đồ thị trở thành công nghệ mạng nào, và vì sao đại số tuyến tính trên ma trận kề lại đi cùng các thuật toán rời rạc.
+Bài này mở rõ **cơ chế**: chính xác ý tưởng nào của lý thuyết đồ thị biến thành công nghệ mạng nào, và vì sao đại số tuyến tính trên ma trận kề lại bắt tay chặt chẽ với các thuật toán rời rạc.
+
+**Lộ trình:** bản đồ lý thuyết đồ thị → đồ thị làm mô hình → đường đi và tính liên thông → cây và chu trình → luồng và lát cắt → bước ngẫu nhiên và PageRank → phổ đồ thị (Laplacian) → đồ thị giãn nở (expander) → mạng thực tế và độ phức tạp → nhầm lẫn thường gặp.
 
 ---
 
@@ -35,9 +37,24 @@ Sau bài học, bạn có thể:
 
 ---
 
+## Bản đồ kiến thức nền: Lý thuyết đồ thị là gì và nghiên cứu những gì?
+
+Khác với hình học cổ điển vốn quan tâm đến độ dài, góc nhọn và tọa độ trong không gian liên tục, **lý thuyết đồ thị (graph theory)** nghiên cứu **tính kết nối thuần túy** giữa các đối tượng rời rạc. Một sơ đồ tàu điện ngầm đẹp không cần vẽ đúng tỉ lệ địa lý; điều hành khách cần biết chỉ là *ga nào nối với ga nào* và *đổi tuyến ở đâu*.
+
+Ở bậc đại học và trong công nghệ, lý thuyết đồ thị phát triển theo bốn hướng lớn bổ trợ nhau:
+
+1. **Đồ thị thuật toán & Tối ưu tổ hợp:** tìm đường đi ngắn nhất (Dijkstra, A\*), cây khung rẻ nhất (MST), luồng vận chuyển cực đại (Max-Flow), ghép cặp tối ưu.
+2. **Lý thuyết đồ thị phổ (Spectral Graph Theory):** viết đồ thị thành ma trận (ma trận kề $$A$$, ma trận Laplace $$L$$) rồi dùng giá trị riêng và vectơ riêng để xếp hạng nút (PageRank), chia cụm cộng đồng và thiết kế mạng bền vững (expander).
+3. **Đồ thị ngẫu nhiên & Khoa học mạng:** dùng xác suất để giải thích vì sao mạng xã hội hay Internet có quy luật "sáu bước phân cách" (thế giới nhỏ) và xuất hiện những nút siêu kết nối (hub).
+4. **Học sâu trên đồ thị (GNN):** truyền thông điệp giữa các nút lân cận để dự đoán tính chất của phân tử thuốc, phát hiện gian lận tài chính hay gợi ý bạn bè.
+
+Nói ngắn gọn: **bất cứ khi nào mối quan hệ giữa các đối tượng quan trọng hơn bản thân từng đối tượng đứng riêng lẻ, lý thuyết đồ thị là ngôn ngữ tự nhiên nhất.**
+
+---
+
 ## 1. Đồ thị: ngôn ngữ của sự kết nối
 
-$$G=(V,E)$$ gồm tập đỉnh và tập cạnh (mỗi cạnh là một cặp đỉnh, hoặc một cặp có thứ tự nếu đồ thị có hướng). Cạnh có thể mang **trọng số** (khoảng cách, dung lượng, mức độ gắn kết).
+Một đồ thị $$G=(V,E)$$ gồm tập đỉnh $$V$$ và tập cạnh $$E$$ (mỗi cạnh là một cặp đỉnh vô hướng, hoặc một mũi tên có hướng). Cạnh thường gắn thêm **trọng số** biểu diễn khoảng cách, thời gian đi lại, dung lượng đường truyền hay chi phí.
 
 | Hệ thống | Đỉnh | Cạnh |
 |----|------|------|
@@ -49,15 +66,15 @@ $$G=(V,E)$$ gồm tập đỉnh và tập cạnh (mỗi cạnh là một cặp �
 
 **Ý chính.** *Khi câu hỏi "cái gì nối với cái gì" quan trọng hơn câu hỏi "nằm ở đâu trong không gian", ngôn ngữ đồ thị là hệ tọa độ phù hợp.*
 
-Với ma trận kề $$A$$: lũy thừa $$A^k$$ đếm số đường đi độ dài $$k$$; khoảng cách phổ (spectral gap) quyết định tốc độ trộn của bước ngẫu nhiên.
+Biểu diễn đồ thị bằng **ma trận kề** $$A$$ ($$A_{ij}=1$$ nếu có cạnh nối $$i$$ tới $$j$$) mở ra một phép màu đại số: phần tử $$(i,j)$$ của lũy thừa $$A^k$$ đếm *chính xác* số đường đi có độ dài $$k$$ bước từ $$i$$ tới $$j$$!
 
 ---
 
 ## 2. Đường đi, khoảng cách và tính liên thông
 
-**Khoảng cách** $$d(u,v)$$ là độ dài của đường đi ngắn nhất. **Tính liên thông** hỏi mọi cặp đỉnh có được nối bởi một đường đi hay không; với đồ thị có hướng, ta phân biệt thành phần liên thông mạnh và liên thông yếu. Cầu và đỉnh khớp là những điểm mà chỉ cần một chỗ hỏng là mạng bị tách rời.
+**Khoảng cách** $$d(u,v)$$ là tổng trọng số nhỏ nhất của đường đi từ $$u$$ đến $$v$$. **Tính liên thông** hỏi mọi cặp đỉnh có thể đi tới nhau hay không. Những cạnh hay đỉnh mà chỉ cần cắt bỏ là đồ thị bị đứt đôi gọi là **cầu (bridge)** và **đỉnh khớp (articulation point)** — trong kỹ thuật viễn thông và điện lực, đây chính là các điểm lỗi đơn (single points of failure) bắt buộc phải có phương án dự phòng.
 
-**Các thuật toán nền tảng.** BFS (đồ thị không trọng số); Dijkstra (trọng số không âm, là lõi của hệ thống chỉ đường GPS); A\* (dùng thêm hàm ước lượng heuristic); Bellman–Ford và Floyd–Warshall (tổng quát hơn nhưng tốn kém hơn).
+**Vì sao không thể chỉ đếm số bước?** Hãy tưởng tượng bạn đi từ nhà tới sân bay: tuyến đường thẳng xuyên trung tâm chỉ qua 1 giao lộ nhưng kẹt xe mất 45 phút; tuyến đường vành đai qua 3 giao lộ nhưng chạy thông thoáng chỉ mất 20 phút. Nếu không có trọng số, tìm kiếm theo chiều rộng (**BFS**) chọn tuyến 1 bước. Khi gắn trọng số thời gian, **thuật toán Dijkstra** (lõi của Google Maps và giao thức định tuyến OSPF trên Internet) và **A\*** (kết hợp thêm ước lượng khoảng cách chim bay để tìm nhanh hơn nhiều lần) luôn chọn tuyến 20 phút. Với mạng có trọng số âm (như chênh lệch tỉ giá tiền tệ để tìm cơ hội kinh doanh chênh lệch giá), ta dùng **Bellman–Ford**.
 
 **Ý chính.** *Định tuyến là tìm kiếm tối ưu trên đồ thị; "đường tốt nhất" là một bài toán tối ưu tổ hợp được đặt đúng, không phải chuyện nhìn bản đồ cho đẹp.*
 
@@ -65,101 +82,110 @@ Với ma trận kề $$A$$: lũy thừa $$A^k$$ đếm số đường đi độ 
 
 ## 3. Cây, cây khung và chu trình
 
-**Cây:** đồ thị liên thông, không có chu trình; khi đó $$|E|=|V|-1$$. **Cây khung nhỏ nhất (MST)** (thuật toán Kruskal, Prim) dùng để thiết kế hạ tầng kết nối với chi phí thấp nhất. Chu trình tạo ra đường dự phòng (tốt cho khả năng chịu lỗi) nhưng cũng làm bài toán phức tạp hơn. Bài toán chu trình Hamilton là NP-đầy đủ, xem bối cảnh trong bài [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/).
+**Cây** là đồ thị liên thông, không chứa chu trình nào; nó là cấu trúc kết nối tiết kiệm tối đa với đúng $$\lvert E\rvert = \lvert V\rvert - 1$$ cạnh (bỏ bớt 1 cạnh là đứt mạng, thêm 1 cạnh là sinh chu trình).
+
+**Cây khung nhỏ nhất (MST — thuật toán Kruskal, Prim).** Giả sử một công ty viễn thông cần kéo cáp quang nối 4 trung tâm dữ liệu với chi phí lắp đặt giữa từng cặp đã biết. Ta chỉ cần đúng 3 tuyến cáp tạo thành một cây nối cả 4 trung tâm sao cho tổng chi phí nhỏ nhất. Điều kỳ diệu là chiến lược tham lam cực đơn giản của Kruskal — *cứ chọn dần tuyến cáp rẻ nhất chưa tạo thành vòng khép kín* — lại được chứng minh luôn cho nghiệm tối ưu toàn cục!
+
+Ngược lại, **chu trình** tạo ra đường dự phòng giúp mạng chịu lỗi (nếu 1 tuyến cáp biển đứt, gói tin đi vòng theo chiều còn lại), nhưng cũng làm bài toán phức tạp hơn hẳn: tìm chu trình đi qua mỗi đỉnh đúng một lần (**chu trình Hamilton**, nền tảng của bài toán người giao hàng TSP) là NP-đầy đủ — xem [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/).
 
 ---
 
 ## 4. Luồng và lát cắt
 
-Gán cho mỗi cạnh một **dung lượng** $$c(e)\ge 0$$. Một **luồng** đi từ nguồn $$s$$ đến đích $$t$$, không vượt quá dung lượng của từng cạnh, và được bảo toàn tại mọi nút trung gian. **Định lý luồng cực đại – lát cắt cực tiểu:**
+Gán cho mỗi cạnh một **dung lượng** $$c(e)\ge 0$$ (ví dụ số xe tối đa mỗi giờ trên một đoạn đường, hay băng thông tối đa của tuyến cáp). Một **luồng** đi từ nguồn $$s$$ đến đích $$t$$ không được vượt dung lượng từng cạnh và phải bảo toàn (vào bằng ra) tại mọi nút trung gian.
+
+**Định lý luồng cực đại – lát cắt cực tiểu (Ford–Fulkerson):**
 
 $$
 \max\mathrm{flow}(s,t)=\min\mathrm{cut}(s,t).
 $$
 
-Ứng dụng: giao thông, logistics; bài toán ghép cặp trên đồ thị hai phía; phân vùng ảnh (graph cut); đánh giá độ tin cậy của mạng.
+**Ví dụ số trực quan.** Giả sử bạn chuyển hàng từ kho $$s$$ đến cảng $$t$$ qua hai trạm trung chuyển $$A, B$$: đường $$s\to A$$ chở tối đa 10 tấn/ngày, $$s\to B$$ chở tối đa 10 tấn/ngày, nhưng từ $$A\to t$$ cầu yếu chỉ chịu 3 tấn/ngày và $$B\to t$$ chịu 2 tấn/ngày. Dù hai đường đầu rất rộng, lát cắt tách $$\{s,A,B\}$$ khỏi $$\{t\}$$ có tổng dung lượng chỉ là $$3+2=5$$ tấn/ngày. Vì vậy không tài nào chuyển quá 5 tấn/ngày — và lát cắt cực tiểu chính là **chứng nhận toán học** chỉ đích danh nút thắt cổ chai cần nâng cấp!
 
-**Ý chính.** *Nút thắt cổ chai chính là một lát cắt; thuật toán liên tục tìm cách tăng luồng cho đến khi một lát cắt chứng nhận rằng luồng đã tối ưu.*
-
-Đây cùng tinh thần đối ngẫu như trong bài [tối ưu]({{ site.baseurl }}/contents/vi/chapter03/03_07_Optimization_Operations_AI/).
+Định lý này không chỉ dành cho đường ống: bài toán **ghép cặp tối ưu** trên đồ thị hai phía (ghép tài xế với hành khách, ghép sinh viên với ký túc xá) và **phân tách nền/vật thể trong ảnh (graph cut)** đều quy gọn về tìm luồng cực đại. Nó mang đúng tinh thần đối ngẫu trong bài [tối ưu hóa]({{ site.baseurl }}/contents/vi/chapter03/03_07_Optimization_Operations_AI/).
 
 ---
 
 ## 5. Bước ngẫu nhiên và PageRank
 
-Một bước ngẫu nhiên trên đồ thị có hướng đi từ một nút sang nút khác theo các cạnh đi ra (chọn đều, hoặc theo trọng số). Với các điều kiện khá nhẹ, bước ngẫu nhiên có **phân phối dừng** $$\pi$$ thỏa mãn $$\pi^\top=\pi^\top P$$, trong đó $$P$$ là ma trận chuyển. Đây là bài toán tìm vectơ riêng trái ứng với giá trị riêng $$1$$.
+Trước khi Google ra đời năm 1998, các công cụ tìm kiếm xếp hạng trang web chủ yếu bằng cách đếm số lần từ khóa xuất hiện — và lập tức bị đánh lừa bởi những trang nhồi nhét hàng nghìn từ khóa ẩn. Larry Page và Sergey Brin đã đặt ra một góc nhìn đồ thị đột phá: **một siêu liên kết từ trang A sang trang B là một phiếu bầu tín nhiệm** — và phiếu bầu từ một trang uy tín phải nặng ký hơn phiếu bầu từ một trang vô danh.
 
-**PageRank** (Brin và Page) mô hình hóa một người lướt web: phần lớn thời gian người đó đi theo liên kết, thỉnh thoảng nhảy (teleport) sang một trang ngẫu nhiên. Vectơ xếp hạng là phân phối dừng, tương đương với nghiệm của hệ tuyến tính
+Họ mô hình hóa một "người lướt web ngẫu nhiên": với xác suất $$\alpha$$ (thường chọn $$\alpha = 0{,}85$$), người đó bấm ngẫu nhiên vào một liên kết trên trang hiện tại; với xác suất $$1-\alpha = 0{,}15$$, người đó chán và nhảy thẳng (teleport) sang một trang bất kỳ trên web (nhờ bước nhảy 15% này, người lướt web không bao giờ bị mắc kẹt ở trang cụt không có link ra ngoài).
+
+Tỉ lệ thời gian dài hạn người đó có mặt tại mỗi trang chính là phân phối dừng $$\pi$$ của chuỗi Markov — tức là nghiệm của phương trình vectơ riêng:
 
 $$
 \pi=\alpha P^\top\pi+(1-\alpha)v,
 $$
 
-với hệ số tắt dần (damping) $$\alpha$$ và vectơ teleport $$v$$. Mức độ quan trọng của một trang không phải là số liên kết trỏ đến nó: một liên kết từ trang có thứ hạng cao có trọng lượng lớn hơn, và cấu trúc liên thông của đồ thị ảnh hưởng đến kết quả của bước ngẫu nhiên.
+trong đó $$P$$ là ma trận chuyển xác suất và $$v$$ là vectơ teleport.
 
-**Ý chính.** *Mức độ quan trọng toàn cục nảy sinh từ cấu trúc liên kết cục bộ, thông qua vectơ riêng hay một hệ phương trình tuyến tính, chứ không phải từ một bảng điểm do người viết tay.*
+**Ý chính.** *Mức độ quan trọng toàn cục nảy sinh tự nhiên từ cấu trúc liên kết cục bộ, thông qua vectơ riêng trội của một ma trận thưa khổng lồ, chứ không cần con người chấm điểm bằng tay.*
 
-Các biến thể của PageRank được dùng trong hệ gợi ý, các chỉ số trích dẫn học thuật (cần thận trọng), và các độ đo trung tâm trong khoa học mạng ([Ch.6]({{ site.baseurl }}/contents/vi/chapter06/06_05_Network_Science/)). PageRank cá nhân hóa (teleport ưu tiên về một tập nút xuất phát) là công cụ chủ lực cho phân cụm đồ thị cục bộ và tính năng "trang liên quan".
-
-**Phương pháp lặp lũy thừa.** Trong thực tế, người ta hiếm khi giải trực tiếp một hệ dày đặc. Thay vào đó, họ lặp lại phép nhân ma trận thưa với vectơ dùng ma trận Google (hoặc giải một hệ tuyến tính tương đương) để tính thứ hạng trên đồ thị hàng tỷ cạnh. Khả năng mở rộng không phải chuyện phụ: đó chính là lý do cách tiếp cận vectơ riêng thắng thế so với những quy tắc chấm điểm phức tạp không lặp nhanh được.
+**Phương pháp lặp lũy thừa.** Với đồ thị web hàng chục tỷ trang, ta không thể đảo ma trận trực tiếp. Thay vào đó, ta chỉ cần bắt đầu từ phân phối đều và lặp lại phép nhân ma trận thưa với vectơ khoảng 50–100 vòng là $$\pi$$ đã hội tụ đủ chính xác. Khả năng mở rộng (scalability) của phép lặp vectơ riêng chính là yếu tố biến ý tưởng đại số tuyến tính này thành công cụ tìm kiếm thống trị thế giới. Các biến thể như **PageRank cá nhân hóa** (teleport ưu tiên về tập nút bạn thích) ngày nay vẫn được dùng rộng rãi trong gợi ý bạn bè và sản phẩm.
 
 ---
 
 ## 6. Phổ của đồ thị: ma trận Laplace và lát cắt
 
-Ma trận Laplace tổ hợp $$L=D-A$$ (ma trận bậc trừ ma trận kề) của đồ thị vô hướng là nửa xác định dương và thỏa mãn $$L\mathbf{1}=0$$. Giá trị riêng nhỏ thứ hai (độ liên thông đại số, hay giá trị Fiedler) đo mức độ "gắn kết" của đồ thị; vectơ riêng tương ứng gợi ý cách chia đồ thị thành hai phần.
+Ma trận Laplace tổ hợp $$L=D-A$$ (ma trận đường chéo chứa bậc của các đỉnh trừ đi ma trận kề) của đồ thị vô hướng luôn đối xứng, nửa xác định dương và thỏa mãn $$L\mathbf{1}=0$$.
 
-Phân cụm phổ, vẽ đồ thị và xử lý tín hiệu trên đồ thị dùng cơ sở gồm các vectơ riêng của $$L$$, giống như phân tích Fourier dùng các hàm mũ phức. Thực ra đây là một sự tương tự chính xác (biến đổi Fourier trên đồ thị). Các thuật toán làm thưa đồ thị (sparsifier) xấp xỉ dạng toàn phương $$x^\top Lx$$ bằng một đồ thị có ít cạnh hơn; đây là nơi lý thuyết đồ thị thuật toán gặp đại số tuyến tính số.
-
-Một công thức hữu ích:
+**Ví dụ 3 đỉnh nối thẳng ($$1 - 2 - 3$$):** bậc của ba đỉnh là $$(1,2,1)$$, nên
 
 $$
-x^\top Lx=\sum_{ij\in E}(x_i-x_j)^2
+L = \begin{pmatrix} 1 & -1 & 0 \\ -1 & 2 & -1 \\ 0 & -1 & 1 \end{pmatrix}.
 $$
 
-đo mức độ hàm $$x$$ trên các đỉnh "nhảy" giá trị dọc theo các cạnh: hàm càng trơn trên đồ thị thì dạng toàn phương càng nhỏ.
+Với bất kỳ hàm gán giá trị $$x = (x_1, x_2, x_3)$$ lên các đỉnh, dạng toàn phương của $$L$$ có công thức cực kỳ đẹp mắt:
+
+$$
+x^\top Lx=\sum_{ij\in E}(x_i-x_j)^2.
+$$
+
+Công thức này đo **độ gồ ghề** của tín hiệu $$x$$ trên đồ thị: nếu hai đỉnh nối nhau có giá trị gần nhau thì $$x^\top Lx$$ nhỏ. Giá trị riêng nhỏ thứ hai $$\lambda_2$$ (gọi là **độ liên thông đại số** hay giá trị Fiedler) bằng 0 khi và chỉ khi đồ thị bị đứt thành ít nhất 2 mảnh rời nhau; còn dấu âm/dương của vectơ riêng ứng với $$\lambda_2$$ tự động gợi ý đường cắt tối ưu chia mạng lưới thành hai cộng đồng ít liên kết nhất! Đây là nền tảng của **phân cụm phổ (spectral clustering)** và biến đổi Fourier trên đồ thị.
 
 ---
 
 ## 7. Đồ thị giãn nở: thưa mà liên thông rất tốt
 
-Một họ **đồ thị giãn nở (expander)** là một dãy đồ thị thưa nhưng liên thông rất mạnh: mọi tập đỉnh (không quá lớn) đều có số cạnh đi ra ngoài lớn so với kích thước của nó (độ giãn nở theo cạnh). Các cách phát biểu gần tương đương: bước ngẫu nhiên trộn nhanh; khoảng cách phổ bị chặn dưới, tránh xa 0.
+Hãy đặt một câu hỏi thiết kế hạ tầng tưởng như mâu thuẫn: *làm sao xây một mạng máy chủ ít dây nối (để rẻ tiền, mỗi nút chỉ nối với 4 hay 6 nút khác) nhưng lại cực kỳ khó bị cô lập — muốn cắt tách một nhóm nút ra khỏi phần còn lại phải cắt rất nhiều dây?*
+
+Câu trả lời là **đồ thị giãn nở (expander graph)**: một họ đồ thị thưa nhưng mọi tập con đỉnh (không quá nửa đồ thị) đều có rất nhiều cạnh vươn ra bên ngoài. Về mặt đại số, điều này tương đương với việc **khoảng cách phổ (spectral gap)** bị chặn dưới cách xa 0, khiến bước ngẫu nhiên trên đồ thị trộn đều chỉ sau $$O(\log n)$$ bước!
 
 **Vì sao ngành công nghệ quan tâm.**
 
-- Mạng bền vững: ít cạnh nhưng khó bị cắt rời.  
-- Giảm dùng tính ngẫu nhiên trong thuật toán (derandomization) và lý thuyết mã.  
-- Cấu trúc mạng truyền thông hiệu quả.  
-- Chặn thời gian trộn cho các thuật toán MCMC.
+- **Mạng truyền thông & trung tâm dữ liệu bền vững:** ít cáp nối nhưng không có nút thắt cổ chai.  
+- **Lý thuyết mã sửa sai & giảm ngẫu nhiên (derandomization):** giúp tiết kiệm bit ngẫu nhiên trong thuật toán và xây dựng mã sửa sai tốc độ cao.  
+- **Thuật toán MCMC:** đảm bảo quá trình lấy mẫu hội tụ nhanh.
 
-Bạn không cần thuộc các cách xây dựng đồ thị giãn nở (Margulis, đồ thị Ramanujan LPS, đồ thị chính quy ngẫu nhiên) để hiểu ý chính: **độ giãn nở là cách định lượng của "không có nút thắt cổ chai".** Thêm cạnh không phải lúc nào cũng làm mạng tốt hơn, vì chi phí, tắc nghẽn và bề mặt tấn công đều tăng; đồ thị giãn nở cân bằng tối ưu giữa các yếu tố này.
+Tóm gọn: **độ giãn nở là thước đo định lượng của một mạng lưới "không có nút thắt cổ chai".**
 
 ---
 
 ## 8. Quy mô, thế giới nhỏ và khoa học mạng
 
-Các mạng thực tế thường có:
+Các mạng lưới tự nhiên ngoài đời (Internet, mạng xã hội, mạng tương tác protein, mạng sân bay) hiếm khi trông như lưới ô vuông đều đặn. Chúng thường đồng thời mang ba đặc trưng:
 
-- **Phân phối bậc có đuôi nặng** (có các nút trung tâm, hub),  
-- **Khoảng cách kiểu thế giới nhỏ** (đường đi ngắn dù các nút có xu hướng tụ cụm),  
-- **Cấu trúc cộng đồng** (dày đặc bên trong, thưa thớt giữa các nhóm).
+- **Phân phối bậc có đuôi nặng:** phần lớn nút có rất ít kết nối, nhưng tồn tại vài "siêu nút" (hub) có hàng triệu kết nối (như sân bay quốc tế lớn hay người nổi tiếng) — khiến mạng rất bền trước lỗi ngẫu nhiên nhưng lại cực kỳ dễ sập nếu tấn công có chủ đích vào các hub.  
+- **Hiệu ứng thế giới nhỏ:** dù mạng có hàng tỷ nút và cụm bạn bè rất chặt, đường đi trung bình giữa hai người bất kỳ trên Trái Đất chỉ khoảng 5–6 bước.  
+- **Cấu trúc cộng đồng:** kết nối dày đặc trong nhóm, thưa thớt giữa các nhóm.
 
-Để mô tả những điều này, ta cần các mô hình đồ thị ngẫu nhiên (Erdős–Rényi, mô hình cấu hình, gắn kết ưu tiên, mô hình khối ngẫu nhiên) không kém gì lý thuyết đồ thị thuần túy; [xác suất]({{ site.baseurl }}/contents/vi/chapter03/03_04_Probability_Data_Science/) lại xuất hiện. Ngưỡng bùng phát dịch, tiếp thị lan truyền, sụp đổ dây chuyền đều là các quá trình động lực diễn ra *trên* đồ thị.
-
-**Mạng nơ-ron đồ thị (GNN)** học đặc trưng bằng cách truyền thông tin dọc theo các cạnh, tức là đại số tuyến tính có cấu trúc theo $$E$$. Điều này nối bài này với học máy hiện đại ([Đại số tuyến tính → AI]({{ site.baseurl }}/contents/vi/chapter03/03_03_Linear_Algebra_AI/)). Xem thêm [Khoa học mạng]({{ site.baseurl }}/contents/vi/chapter06/06_05_Network_Science/).
+Để mô hình hóa những hiện tượng này (như ngưỡng bùng phát dịch bệnh hay lan truyền tin giả), lý thuyết đồ thị kết hợp với [xác suất]({{ site.baseurl }}/contents/vi/chapter03/03_04_Probability_Data_Science/) tạo ra các mô hình đồ thị ngẫu nhiên (Erdős–Rényi, gắn kết ưu tiên Barabási–Albert, mô hình khối ngẫu nhiên). Và ở giao điểm với AI, **Mạng nơ-ron đồ thị (GNN)** học biểu diễn của từng nút bằng cách tổng hợp đặc trưng từ các nút hàng xóm dọc theo cạnh — nối trực tiếp sang [Đại số tuyến tính → AI]({{ site.baseurl }}/contents/vi/chapter03/03_03_Linear_Algebra_AI/) và [Khoa học mạng]({{ site.baseurl }}/contents/vi/chapter06/06_05_Network_Science/).
 
 ---
 
 ## 9. Nói thật về độ phức tạp
 
-Nhiều bài toán trên đồ thị là dễ (liên thông, cây khung nhỏ nhất, ghép cặp trên đồ thị hai phía, luồng cực đại với các thuật toán tốt). Nhiều bài toán khác là khó (chu trình Hamilton, lát cắt cực đại tổng quát, nhiều mục tiêu phát hiện cộng đồng). Bài toán đẳng cấu đồ thị từ lâu có vị trí đặc biệt, và nay đã có thuật toán thời gian tựa đa thức (quasi-polynomial). Trong thực tế, kỹ thuật vượt qua khó khăn bằng cách:
+Trên cùng một đồ thị, ranh giới giữa "dễ" và "cực khó" đôi khi chỉ cách nhau một từ khóa: tìm **đường đi ngắn nhất** giải trong vài mili-giây (đa thức), nhưng tìm **đường đi dài nhất** (không lặp đỉnh) lại là bài toán NP-khó! Tương tự, tìm chu trình đi qua mọi *cạnh* (chu trình Euler) thì dễ, còn đi qua mọi *đỉnh* (chu trình Hamilton) lại là NP-đầy đủ.
 
-1. Nhận ra đúng các trường hợp đặc biệt,  
-2. Dùng thuật toán xấp xỉ,  
-3. Khai thác cấu trúc (đồ thị phẳng, độ rộng cây nhỏ, đồ thị thưa),  
-4. Dùng heuristic có kiểm chứng.
+Trong thực tế, kỹ sư vượt qua rào cản độ phức tạp bằng bốn vũ khí:
 
-Lý thuyết đồ thị vừa cung cấp các thuật toán thời gian đa thức, vừa vẽ ra bản đồ những bài toán khó.
+1. Nhận diện cấu trúc đặc biệt (đồ thị phẳng, cây, đồ thị hai phía),  
+2. Dùng thuật toán xấp xỉ có bảo đảm sai số,  
+3. Khai thác độ thưa của mạng thực tế,  
+4. Dùng heuristic kết hợp kiểm chứng chặt chẽ.
+
+Lý thuyết đồ thị vừa trao cho ta những thuật toán chạy trên hàng tỷ đỉnh, vừa vẽ rõ tấm bản đồ ranh giới để ta không lãng phí công sức đi tìm thuật toán đa thức cho một bài toán NP-khó.
 
 ---
 

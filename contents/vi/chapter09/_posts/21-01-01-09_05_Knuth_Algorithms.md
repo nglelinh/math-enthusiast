@@ -9,9 +9,9 @@ categories:
 - chapter09
 ---
 
-**Donald E. Knuth** nhận Giải Turing **1974** ở độ tuổi còn tương đối trẻ so với nhiều laureate “trọn đời,” cho đóng góp nền tảng vào **phân tích thuật toán** và thiết kế ngôn ngữ lập trình—và, rộng hơn, cho việc biến việc viết chương trình thành **nghệ thuật có kỷ luật toán**. Bộ *The Art of Computer Programming* (TAOCP) không chỉ là sách tham khảo; nó là tuyên bố văn hóa: thuật toán xứng đáng được **đếm**, **chứng minh**, **so sánh tiệm cận**, và trình bày với chuẩn mực của sách toán nghiêm.
+Năm 1962, nhà xuất bản Addison-Wesley mời chàng nghiên cứu sinh 24 tuổi **Donald E. Knuth** viết một cuốn sách nhỏ về trình biên dịch. Knuth nhận lời, ngồi phác thảo dàn ý — rồi nhận ra trước khi nói về trình biên dịch, cần có một nền tảng toán học nghiêm túc để *đếm số bước*, *chứng minh tính đúng đắn* và *so sánh tốc độ* của các thuật toán cơ bản. Cuốn sách "nhỏ" ấy dần phình thành bộ bách khoa huyền thoại **The Art of Computer Programming (TAOCP)** vẫn đang được ông viết tiếp suốt hơn 60 năm; thậm chí khi bản in thử bị xấu, ông dừng viết sách gần một thập kỷ để tự tay sáng chế ra **TeX** — hệ thống sắp chữ toán học mà toàn thế giới học thuật vẫn dùng hằng ngày!
 
-Bài này không tóm tắt hàng nghìn trang TAOCP. Đó là bản đồ **ý tưởng Knuth mang vào khóa học**: phân tích thời gian–không gian, ký hiệu $$O$$–$$\Theta$$–$$\Omega$$ trong thực hành sư phạm, cấu trúc dữ liệu cổ điển, sinh số ngẫu nhiên, và tinh thần “literate programming.” Liên kết: [Cook–Karp]({{ site.baseurl }}/contents/vi/chapter09/09_04_Cook_Karp_NP/), [độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/), [đồ thị & mạng]({{ site.baseurl }}/contents/vi/chapter03/03_06_Graph_Theory_Networks/).
+Nhận Giải Turing năm **1974** ở tuổi 36, Knuth là người đã nâng lập trình từ một nghề "mẹo vặt thủ công" lên thành **một nhánh toán học tổ hợp có kỷ luật chặt chẽ**. Bài này không tóm tắt hàng nghìn trang TAOCP, mà vẽ ra bản đồ những công cụ Knuth mang vào tư duy của mọi người làm toán–tin: ký hiệu tiệm cận $$O, \Theta, \Omega$$, phân tích trường hợp trung bình bằng hàm sinh và hệ thức truy hồi, cấu trúc dữ liệu như định lý giao diện, và triết lý "đúng đắn trước, tối ưu sau". Liên kết: [Cook–Karp]({{ site.baseurl }}/contents/vi/chapter09/09_04_Cook_Karp_NP/), [độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/), [đồ thị & mạng]({{ site.baseurl }}/contents/vi/chapter03/03_06_Graph_Theory_Networks/).
 
 ---
 
@@ -27,6 +27,19 @@ Sau bài học, bạn có thể:
 - Tránh nhầm: “$$O(n^2)$$ luôn chậm hơn $$O(n\log n)$$ trên mọi $$n$$,” “Knuth chỉ viết sách,” “big-O là duy nhất thước đo thực tế.”
 
 **Tiên quyết.** Tổng, tích, logarit; vòng lặp lồng nhau; ý đồ thị (đỉnh, cạnh). Đã thấy P vs NP thì tốt nhưng không bắt buộc: bài này sống chủ yếu **bên trong** thế giới thuật toán hiệu quả và so sánh đa thức.
+
+---
+
+## Bản đồ kiến thức nền: Phân tích thuật toán và Toán học tổ hợp ứng dụng là gì, nghiên cứu những gì?
+
+Khi bạn chạy thử một đoạn mã trên máy tính và bấm đồng hồ thấy nó mất 0.2 giây, con số đó phụ thuộc vào CPU, ngôn ngữ lập trình, bộ nhớ đệm và đúng một dữ liệu đầu vào cụ thể. **Phân tích thuật toán (Analysis of Algorithms)** giải phóng ta khỏi sự phụ thuộc đó bằng cách biến thời gian chạy thành một **hàm toán học** $$T(n)$$ theo kích thước đầu vào $$n$$.
+
+Ngành này mượn trực tiếp những công cụ sắc bén nhất của **Toán học tổ hợp và Giải tích tiệm cận**:
+1. **Hệ thức truy hồi (Recurrence Relations):** chia bài toán cỡ $$n$$ thành các bài toán con nhỏ hơn (như Mergesort thỏa $$T(n) = 2T(n/2) + \Theta(n)$$, cho ra $$T(n) = \Theta(n\log n)$$).
+2. **Hàm sinh và Số điều hòa (Generating Functions & Harmonic Numbers):** khi phân tích trung bình của Quicksort hay bảng băm, số điều hòa $$H_n = \sum_{k=1}^n \frac{1}{k} = \ln n + \gamma + O(1/n)$$ xuất hiện liên tục — đây là phong cách "giải tích tổ hợp" đặc trưng của Knuth, nơi ta không chỉ biết bậc $$O(n\log n)$$ mà còn tính ra chính xác hệ số $$2n\ln n \approx 1.386\, n\log_2 n$$ phép so sánh!
+3. **Chặn dưới thông tin (Information-Theoretic Lower Bounds):** để biết một thuật toán đã đạt *tới hạn vật lý của logic* chưa. Ví dụ kinh điển: có $$n!$$ hoán vị khác nhau của $$n$$ phần tử; mỗi phép so sánh Đúng/Sai chia đôi số khả năng, nên cây quyết định phải có chiều cao ít nhất $$\log_2(n!) \approx n\log_2 n - 1.44n$$. Vậy bất kỳ thuật toán sắp xếp dựa trên so sánh nào cũng *bắt buộc* tốn $$\Omega(n\log n)$$!
+
+Một con số cụ thể để thấy sức mạnh của việc đổi bậc thuật toán: với $$n = 1.000.000$$ bản ghi, Insertion Sort ($$O(n^2)$$) cần khoảng $$5 \times 10^{11}$$ phép so sánh (mất hàng phút đến hàng giờ), trong khi Mergesort ($$O(n\log_2 n)$$) chỉ cần khoảng $$2 \times 10^7$$ phép — **nhanh hơn 25.000 lần** mà không cần nâng cấp phần cứng!
 
 ---
 
@@ -53,7 +66,7 @@ Cho $$f,g:\mathbb{N}\to\mathbb{R}_{\ge 0}$$.
 
 Ví dụ: $$3n^2+10n= \Theta(n^2)$$; $$\log(n!)=\Theta(n\log n)$$ theo Stirling. Sắp xếp so sánh cần $$\Omega(n\log n)$$ so sánh trong worst-case trên mô hình quyết định tree—chặn dưới thông tin, không chỉ “chưa ai nhanh hơn.”
 
-**Cảnh báo sư phạm.** $$O$$ nuốt hằng số: $$10^{12}n$$ và $$n$$ cùng $$O(n)$$. Trên dữ liệu vừa, hằng số và locality thắng lý thuyết thô. Phân tích Knuth cổ điển quan tâm cả hệ số chính và phân phối trường hợp trung bình—mỏng hơn slogan “$$O(n\log n)$$.”
+**Cảnh báo sư phạm.** $$O$$ nuốt hằng số: $$10^{12}n$$ và $$n$$ cùng $$O(n)$$. Trên dữ liệu nhỏ (chẳng hạn $$n \le 20$$), Insertion Sort ($$O(n^2)$$) thực tế lại chạy *nhanh hơn* Mergesort ($$O(n\log n)$$) vì vòng lặp gọn và tận dụng tốt bộ nhớ đệm — đó là lý do các thư viện sắp xếp thực tế như Timsort (Python) hay Introsort (C++) đều chuyển sang Insertion Sort khi mảng con đủ nhỏ! Phân tích Knuth cổ điển quan tâm cả hệ số chính và phân phối trường hợp trung bình—tinh tế hơn nhiều so với khẩu hiệu “$$O(n\log n)$$.”
 
 ---
 
@@ -61,7 +74,7 @@ Ví dụ: $$3n^2+10n= \Theta(n^2)$$; $$\log(n!)=\Theta(n\log n)$$ theo Stirling.
 
 ### Tìm kiếm
 
-Tìm kiếm tuyến tính trên mảng độ dài $$n$$: $$\Theta(n)$$ worst-case. Tìm kiếm nhị phân trên mảng **đã sắp**: $$\Theta(\log n)$$ so sánh. Cấu trúc tiên quyết (sắp xếp) đổi logarithm.
+Tìm kiếm tuyến tính trên mảng độ dài $$n$$: $$\Theta(n)$$ worst-case. Tìm kiếm nhị phân trên mảng **đã sắp**: $$\Theta(\log n)$$ so sánh (trên 1 tỉ phần tử chỉ cần tối đa 30 phép so sánh!). Cấu trúc tiên quyết (sắp xếp) đổi logarithm.
 
 ### Sắp xếp
 
@@ -73,11 +86,11 @@ $$
 C_n = n-1 + \frac{1}{n}\sum_{k=0}^{n-1}\big(C_k+C_{n-1-k}\big),
 $$
 
-rồi giải ra $$C_n = \Theta(n\log n)$$. Ở đây ta có thể chấp nhận kết quả; điểm là **mô hình xác suất trên input hoặc trên random bit** trở thành phần của chứng minh.
+rồi giải ra $$C_n = 2(n+1)H_n - 4n = \Theta(n\log n)$$. Ở đây ta có thể chấp nhận kết quả; điểm là **mô hình xác suất trên input hoặc trên random bit** trở thành phần của chứng minh.
 
 ### Duyệt đồ thị
 
-BFS/DFS trên đồ thị $$G=(V,E)$$ với biểu diễn danh sách kề: thời gian $$\Theta(|V|+|E|)$$. Đây là mẫu “tuyến tính theo kích thước input”—nền cho shortest paths không trọng số, kiểm tra liên thông, sắp xếp topo. Trên đồ thị dày $$|E|\sim |V|^2$$, chi phí là $$\Theta(|V|^2)$$; cấu trúc thưa cứu thời gian.
+BFS/DFS trên đồ thị $$G=(V,E)$$ với biểu diễn danh sách kề: thời gian $$\Theta(\lvert V\rvert+\lvert E\rvert)$$. Đây là mẫu “tuyến tính theo kích thước input”—nền cho shortest paths không trọng số, kiểm tra liên thông, sắp xếp topo. Trên đồ thị dày $$\lvert E\rvert\sim \lvert V\rvert^2$$, chi phí là $$\Theta(\lvert V\rvert^2)$$; cấu trúc thưa cứu thời gian.
 
 ---
 
@@ -148,7 +161,7 @@ Fine-grained complexity hiện đại (SETH, 3SUM, APSP) nằm giữa: chặn d�
 
 1. Chứng minh sơ bộ $$5n^3+2n = O(n^3)$$ bằng định nghĩa (chỉ ra $$C,n_0$$).  
 2. Giải thích vì sao mergesort là $$\Theta(n\log n)$$: cây đệ quy độ sâu và công việc mỗi tầng.  
-3. BFS: lập luận $$\Theta(|V|+|E|)$$ với danh sách kề (mỗi đỉnh/cạnh xử lý hằng lần).  
+3. BFS: lập luận $$\Theta(\lvert V\rvert+\lvert E\rvert)$$ với danh sách kề (mỗi đỉnh/cạnh xử lý hằng lần).  
 4. Viết bất biến vòng lặp cho insertion sort (phần mảng bên trái đã sắp) và giải thích vì sao thuật toán vừa đúng vừa chạy trong $$O(n^2)$$.  
 5. So 10 dòng: phân tích thuật toán kiểu Knuth vs chứng minh NP-đầy đủ kiểu Karp—khác input câu hỏi.  
 6. **≤200 từ:** Vì sao chặn dưới $$\Omega(n\log n)$$ cho sắp xếp so sánh quan trọng hơn việc “chưa ai viết nhanh hơn”?  

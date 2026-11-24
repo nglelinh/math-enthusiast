@@ -10,12 +10,16 @@ categories:
 lesson_type: required
 ---
 
-**Giải Abel 2020** được trao chung cho **Hillel Furstenberg** (Đại học Hebrew Jerusalem) và **Gregory Margulis** (Yale)
+Hãy thử tưởng tượng một trò chơi tưởng chừng chẳng liên quan gì đến vật lý hay chuyển động: bạn chọn tùy ý một tập hợp các số nguyên dương chiếm ít nhất 1% mật độ của trục số—dù bạn cố tình chọn chúng lộn xộn đến đâu, liệu trong tập đó có luôn ẩn chứa một cấp số cộng dài 100 số hạng cách đều nhau không? Hoặc một câu hỏi khác: nếu bạn lấy ba số nguyên $$x, y, z$$ bất kỳ và tính $$x^2 + y^2 - \sqrt{2}\,z^2$$, tập các giá trị thu được có thể tiến sát *mọi* số thực tùy ý hay không?
+
+Suốt nhiều thập niên, những câu hỏi thuần túy về số nguyên và tổ hợp ấy đã làm nản lòng bao thế hệ dùng công cụ đếm cổ điển. Thế rồi hai nhà toán học xuất hiện với một ý tưởng táo bạo đến mức làm thay đổi bản đồ của toán học thuần túy: **hãy biến các con số tĩnh lặng ấy thành chuyển động!** Thay vì đếm từng phần tử, hãy nhìn chúng như quỹ đạo của một điểm đang chạy trong một không gian có đối xứng, dưới sự dẫn dắt của xác suất và hệ động lực.
+
+Năm **2020**, **Giải Abel** được trao chung cho **Hillel Furstenberg** (Đại học Hebrew Jerusalem) và **Gregory Margulis** (Đại học Yale):
 
 > “for pioneering the use of methods from probability and dynamics in group theory, number theory and combinatorics.”  
 > — [Citation của ủy ban Abel](https://abelprize.no/abel-prize-laureates/2020)
 
-Bài này giải thích citation đó nói gì: **lý thuyết ergodic** và **động lực thuần nhất** đã trở thành động cơ cho số học và tổ hợp như thế nào; hiện tượng tái hồi nhiều lần theo kiểu Furstenberg cho ta biết gì về cấu trúc của các tập lớn; **tính siêu cứng (superrigidity)** và **tính số học (arithmeticity)** kiểu Margulis cho ta biết gì về các nhóm rời rạc; và vì sao việc ghép hai sự nghiệp trong cùng một năm của giải Abel gửi đi một thông điệp văn hóa. Tài liệu: [abelprize.no](https://abelprize.no/).
+Việc trao chung giải thưởng cho hai sự nghiệp mang phong cách rất khác nhau gửi đi một thông điệp rõ ràng: xác suất và hệ động lực không còn đứng bên lề toán học ứng dụng, mà đã trở thành động cơ giải mã những bí mật sâu nhất của số học, tổ hợp và lý thuyết nhóm. Tài liệu chính thức: [abelprize.no](https://abelprize.no/).
 
 ---
 
@@ -27,35 +31,43 @@ Bài này giải thích citation đó nói gì: **lý thuyết ergodic** và **�
 
 ---
 
+## Bản đồ kiến thức nền: Lý thuyết Ergodic, hệ động lực và nhóm Lie là gì và nghiên cứu những gì?
+
+Nếu bạn tốt nghiệp đại học và từng học xác suất hay phương trình vi phân, ba khái niệm dưới đây sẽ giúp bạn mở khóa toàn bộ thế giới của Furstenberg và Margulis mà không cần giáo trình cao học:
+
+- **Hệ động lực (Dynamical System):** Là bất kỳ quy tắc nào mô tả trạng thái của một hệ thay đổi theo thời gian. Ở dạng rời rạc, ta có một không gian $$X$$ và một ánh xạ $$T: X \to X$$; bắt đầu từ một điểm $$x$$, ta đi theo quỹ đạo $$x, Tx, T^2x, T^3x, \dots$$. Ví dụ đơn giản nhất là **phép quay trên đường tròn**: mỗi bước nhảy ta quay góc vô tỉ $$\alpha$$ (chẳng hạn $$\alpha = \sqrt{2}$$ vòng). Quỹ đạo của một điểm sẽ không bao giờ lặp lại đúng chỗ cũ, mà dần dần phủ kín và trải đều khắp đường tròn.
+- **Lý thuyết Ergodic (Ergodic Theory):** Bắt nguồn từ vật lý thống kê của Boltzmann (nghiên cứu các phân tử khí chuyển động trong bình), lý thuyết ergodic hỏi: *nếu ta theo dõi một hạt duy nhất trong thời gian rất dài (trung bình theo thời gian), kết quả có trùng với việc chụp ảnh toàn bộ các trạng thái có thể của bình khí tại một thời điểm (trung bình theo không gian) hay không?* Một hệ có tính chất "không thể tách đôi thành hai vùng độc lập mà quỹ đạo không bao giờ đi qua nhau" gọi là hệ **ergodic**. Khi hệ là ergodic, định lý ergodic bảo đảm rằng hầu hết mọi quỹ đạo đều ghé thăm mọi vùng với tần suất đúng bằng kích thước (độ đo) của vùng đó.
+- **Nhóm Lie, Lattice và Không gian thuần nhất (Homogeneous Space):** Một **nhóm Lie** $$G$$ là một nhóm đối xứng vừa có cấu trúc đại số, vừa là một không gian cong trơn tru—ví dụ nhóm các phép quay 3D $$\mathrm{SO}(3)$$ hay nhóm ma trận $$\mathrm{SL}_3(\mathbb{R})$$ có định thức bằng 1. Bên trong $$G$$ có thể chứa một nhóm con rời rạc đều đặn $$\Gamma$$ gọi là **lattice** (giống như lưới số nguyên $$\mathbb{Z}^n$$ nằm gọn trong không gian thực $$\mathbb{R}^n$$, hoặc $$\mathrm{SL}_3(\mathbb{Z})$$ nằm trong $$\mathrm{SL}_3(\mathbb{R})$$). Khi ta "gấp" không gian $$G$$ theo lưới đối xứng $$\Gamma$$, ta thu được **không gian thuần nhất** $$G/\Gamma$$ (giống như gấp mặt phẳng $$\mathbb{R}^2$$ theo lưới $$\mathbb{Z}^2$$ để ra mặt bánh donut $$\mathbb{T}^2$$). **Động lực thuần nhất** nghiên cứu các dòng chuyển động tự nhiên trên không gian $$G/\Gamma$$—và kỳ diệu thay, quỹ đạo của chúng lại chứa lời giải cho các bài toán số học cổ điển!
+
+---
+
 ## 1. Một cuộc cách mạng chung
 
-Lý thuyết số cổ điển thường đếm và ước lượng: điểm nguyên của lưới, số nguyên tố trong cấp số cộng, giá trị của dạng toàn phương. Furstenberg và Margulis chỉ ra rằng nhiều bài toán trở nên trong suốt, hoặc ít nhất tiếp cận được theo cách mới, khi viết lại thành **bài toán về quỹ đạo** của một nhóm tác động lên một không gian, trong đó một **độ đo bất biến** kiểm soát hành vi tiệm cận.
+Lý thuyết số cổ điển vốn quen với việc đếm và ước lượng từng bước: đếm điểm nguyên trong một hình cầu, tìm số nguyên tố nằm trong một cấp số cộng, hay khảo sát tập giá trị của một dạng toàn phương. Furstenberg và Margulis đã mở ra một cánh cửa bất ngờ: nhiều bài toán số học và tổ hợp hóc búa bỗng trở nên trong suốt khi ta dịch chúng sang **bài toán về quỹ đạo** của một nhóm tác động lên một không gian, nơi một **độ đo bất biến** kiểm soát hành vi dài hạn.
 
-Thông điệp chung vừa mang tính kỹ thuật vừa mang tính văn hóa:
+Thông điệp chung của hai ông vừa mang chiều sâu kỹ thuật, vừa tạo ra một cuộc dịch chuyển văn hóa trong toán học:
 
 > Xác suất và động lực học là **toán thuần túy cốt lõi**, không chỉ là phụ lục ứng dụng.
 
-Thông điệp đó nay đã thấm vào lý thuyết số giải tích, lý thuyết nhóm hình học và một phần của tổ hợp. Giải Abel 2020 vinh danh những người đi đầu trong cuộc di cư ấy.
+Ngày nay, ngôn ngữ ergodic và động lực thuần nhất đã thấm sâu vào lý thuyết số giải tích, lý thuyết nhóm hình học và tổ hợp cộng tính. Giải Abel 2020 ghi nhận hai người mở đường cho cuộc hội tụ lịch sử ấy.
 
 ---
 
 ## 2. Lý thuyết ergodic trong một trang
 
-Một **hệ động lực** bảo toàn độ đo gồm: không gian $$X$$, một độ đo xác suất $$\mu$$, một phép biến đổi $$T:X\to X$$ (hoặc một nhóm các phép biến đổi) bảo toàn $$\mu$$. **Quỹ đạo** của $$x$$ là:
+Một **hệ động lực bảo toàn độ đo** gồm bộ ba $$(X, \mu, T)$$: một không gian trạng thái $$X$$, một độ đo xác suất $$\mu$$ (với $$\mu(X) = 1$$), và một phép biến đổi $$T: X \to X$$ bảo toàn độ đo (tức $$\mu(T^{-1}A) = \mu(A)$$ với mọi tập đo được $$A$$). **Quỹ đạo** của một điểm $$x \in X$$ là dãy:
 
 $$
 \{ x,\, Tx,\, T^2x,\, T^3x,\, \dots \}.
 $$
 
-**Định lý ergodic** nối trung bình theo thời gian dọc quỹ đạo với trung bình trong không gian theo $$\mu$$. Nếu hệ là ergodic (không phân rã được), thì “hầu hết các quỹ đạo đều đi khắp không gian” theo nghĩa trung bình:
+**Định lý ergodic Birkhoff** kết nối trung bình theo thời gian dọc quỹ đạo với trung bình theo không gian: nếu hệ là ergodic (không thể phân rã thành hai tập bất biến nhỏ hơn có độ đo dương), thì với mọi hàm khả tích $$f$$ và với hầu hết mọi điểm khởi đầu $$x$$,
 
 $$
-\lim_{N\to\infty}\frac{1}{N}\sum_{k=0}^{N-1} f(T^k x) = \int_X f\, d\mu
+\lim_{N\to\infty}\frac{1}{N}\sum_{k=0}^{N-1} f(T^k x) = \int_X f\, d\mu.
 $$
 
-với $$f$$ khả tích, đúng với hầu hết $$x$$ theo $$\mu$$.
-
-Vì sao lý thuyết số quan tâm đến điều này? Nhiều cấu hình số học có thể mã hóa thành việc quỹ đạo ghé thăm một vùng nào đó; các định lý tái hồi buộc những mẫu hình tổ hợp phải xuất hiện.
+**Ví dụ trực quan:** Xét phép quay vô tỉ $$Tx = (x + \sqrt{2}) \bmod 1$$ trên đường tròn $$[0, 1)$$. Lấy $$f$$ là hàm chỉ thị của một cung nhỏ $$I$$ dài $$0{,}1$$. Định lý ergodic nói rằng tỷ lệ số bước nhảy rơi vào cung $$I$$ sẽ hội tụ đúng về $$0{,}1$$. Vì sao lý thuyết số lại say mê điều này? Bởi nhiều cấu hình số học (như việc một tập số nguyên chứa cấp số cộng) có thể mã hóa thành sự kiện **quỹ đạo đồng thời quay lại cùng một vùng $$A$$** tại những thời điểm cách đều nhau!
 
 ---
 
@@ -63,59 +75,69 @@ Vì sao lý thuyết số quan tâm đến điều này? Nhiều cấu hình s�
 
 ### Tái hồi nhiều lần và cấu trúc kiểu Szemerédi
 
-Định lý Szemerédi: mọi tập con của các số nguyên có mật độ trên dương đều chứa các cấp số cộng dài hữu hạn tùy ý. Furstenberg đã đưa ra một chứng minh ergodic bằng cách dịch mật độ và cấp số cộng thành **tái hồi nhiều lần**: với một hệ bảo toàn độ đo và một tập $$A$$ có độ đo dương, tồn tại một thời điểm quay lại $$n$$ sao cho
+Năm 1975, Endre Szemerédi chứng minh một định lý tổ hợp lừng danh: *mọi tập con $$E \subset \mathbb{N}$$ có mật độ trên dương (ví dụ chứa ít nhất 0,001% các số tự nhiên) đều chứa những cấp số cộng dài $$k$$ tùy ý.* Chứng minh gốc của Szemerédi là một kiệt tác tổ hợp nhưng vô cùng dài và phức tạp.
+
+Chỉ hai năm sau (1977), **Hillel Furstenberg** gây chấn động khi tìm ra một chứng minh hoàn toàn mới bằng **lý thuyết ergodic**. Qua **nguyên lý tương ứng Furstenberg**, ông dịch tập số nguyên $$E$$ thành một hệ động lực $$(X, \mu, T)$$ cùng một tập $$A \subset X$$ có độ đo dương $$\mu(A) > 0$$ (đóng vai trò mật độ của $$E$$). Khi đó, việc $$E$$ chứa một cấp số cộng $$k$$ số hạng $$a, a+n, a+2n, \dots, a+(k-1)n$$ tương đương với **Định lý tái hồi nhiều lần Furstenberg**: tồn tại bước thời gian $$n \ge 1$$ sao cho
 
 $$
-\mu\big(A \cap T^{-n}A \cap T^{-2n}A \cap \cdots \cap T^{-(k-1)n}A\big) > 0
+\mu\big(A \cap T^{-n}A \cap T^{-2n}A \cap \cdots \cap T^{-(k-1)n}A\big) > 0.
 $$
 
-dưới giả thiết thích hợp. Điều này bắt được một cấp số cộng $$k$$ số hạng bằng ngôn ngữ động lực.
+Nếu định lý tái hồi Poincaré cổ điển (thế kỷ XIX) chỉ bảo đảm một điểm sẽ quay lại vùng $$A$$ một lần (ứng với $$k=2$$), thì Furstenberg chứng minh nó sẽ quay lại **liên tiếp $$k$$ lần theo những nhịp thời gian đều đặn**!
 
-Ý tưởng sâu xa: **sự tái hồi của quỹ đạo mã hóa các cấu hình tổ hợp**. Định lý cấu trúc của hệ động lực trở thành định lý cấu trúc của các tập số nguyên lớn.
+Ý tưởng sâu xa phía sau rất đẹp: **sự tái hồi của quỹ đạo mã hóa các mẫu hình tổ hợp.** Để chứng minh định lý tái hồi, Furstenberg xây dựng một định lý cấu trúc phân tách mọi hệ động lực thành phần "có trật tự" (compact / gần tuần hoàn) và phần "trộn mạnh" (weakly mixing)—và chính tư tưởng phân tách cấu trúc–ngẫu nhiên này về sau trở thành linh hồn của chứng minh Định lý Green–Tao về cấp số cộng trong các số nguyên tố!
 
 ### Ứng dụng số học và biên
 
-Furstenberg phát triển lý thuyết cấu trúc và các ứng dụng nối hệ động lực với lý thuyết số và tổ hợp. Lý thuyết biên của bước đi ngẫu nhiên và của các tác động nhóm là một chủ đề lớn khác của ông.
-
-Phong cách chung: biến một câu hỏi rời rạc khó thành một câu hỏi liên tục có độ đo, rồi thu hoạch tính cứng hoặc tính tái hồi.
+Ngoài tái hồi nhiều lần, Furstenberg còn đặt nền móng cho **lý thuyết biên (Furstenberg boundary)** của các bước đi ngẫu nhiên trên nhóm Lie và nhóm rời rạc—biến việc nghiên cứu xác suất của bước đi ngẫu nhiên thành công cụ khám phá cấu trúc hình học ở vô cùng của nhóm. Phong cách của ông mang dấu ấn không thể lẫn: dịch một câu hỏi rời rạc khô cứng thành bài toán động lực có độ đo, rồi thu hoạch tính tái hồi và cấu trúc.
 
 ---
 
 ## 4. Margulis: tính cứng, tính số học, động lực thuần nhất
 
-### Siêu cứng
+Nếu Furstenberg là bậc thầy của những hệ động lực trừu tượng, thì **Gregory Margulis** là kiến trúc sư của thế giới đối xứng hình học: nhóm Lie, lattice và không gian thuần nhất.
 
-Định lý **siêu cứng** (Margulis và các kết quả liên quan): các đồng cấu từ một lattice hạng cao vào một nhóm đại số bị ràng buộc rất chặt, về bản chất có nguồn gốc đại số. Trực giác: hình học hạng cao buộc các ánh xạ phải mang tính đại số, không thể hoang dại.
+### Siêu cứng (Superrigidity)
 
-### Tính số học
+Định lý **siêu cứng** của Margulis là một trong những kết quả gây kinh ngạc nhất của thế kỷ XX: nếu $$\Gamma$$ là một lattice trong một nhóm Lie nửa đơn "hạng cao" (như $$\mathrm{SL}_3(\mathbb{Z}) \subset \mathrm{SL}_3(\mathbb{R})$$), thì hầu như mọi đồng cấu nhóm từ $$\Gamma$$ vào một nhóm ma trận đại số khác đều không thể hành xử tùy tiện—nó buộc phải mở rộng thành một ánh xạ đại số trơn trên toàn bộ nhóm Lie $$G$$! Trực giác: khi số chiều đối xứng đủ cao, cấu trúc hình học trở nên "cứng như kim cương", khóa chặt mọi phép biến dạng hoang dại.
 
-Các kết quả về **tính số học**: một số nhóm con rời rạc của nhóm Lie nửa đơn bắt buộc phải xuất phát từ các nhóm đại số trên trường số. Hình học rời rạc bị buộc phải mang tính số học.
+### Tính số học (Arithmeticity)
 
-### Động lực thuần nhất
+Từ định lý siêu cứng, Margulis suy ra **Định lý tính số học** nổi tiếng (đã mang về cho ông Huy chương Fields năm 1978): mọi lattice bất khả quy trong nhóm Lie nửa đơn hạng cao đều bắt buộc có nguồn gốc **số học** (tức xây dựng từ các ma trận có phần tử nguyên hoặc nguyên đại số, giống như $$\mathrm{SL}_n(\mathbb{Z})$$). Một đối tượng hoàn toàn hình học–rời rạc lại bị ép phải mang bản chất lý thuyết số!
 
-**Không gian thuần nhất** là thương $$G/\Gamma$$ của một nhóm Lie $$G$$ cho một nhóm con rời rạc $$\Gamma$$. Các dòng trên không gian đó, đặc biệt là dòng unipotent, có bao đóng quỹ đạo rất cứng (lý thuyết Ratner nằm gần đó). Các ý tưởng kiểu Margulis khai thác tính cứng này để ràng buộc các tập số học: giá trị của các dạng, bao đóng quỹ đạo, phân bố đều.
+### Động lực thuần nhất và Giả thuyết Oppenheim
 
-Câu chuyện nổi tiếng ở gần đó là **giả thuyết Oppenheim** về giá trị của các dạng toàn phương không xác định, được tiếp cận bằng động lực (chứng minh của Margulis). Khẩu hiệu: xấp xỉ Diophantine và giá trị của dạng trở thành các câu hỏi về bao đóng quỹ đạo.
+Đỉnh cao minh họa cho sức mạnh của động lực thuần nhất là chứng minh của Margulis năm 1986 cho **Giả thuyết Oppenheim** (tồn tại gần 60 năm). Xét dạng toàn phương ba biến không xác định:
+
+$$
+Q(x, y, z) = x^2 + y^2 - \sqrt{2}\, z^2.
+$$
+
+Vì hệ số $$\sqrt{2}$$ là số vô tỉ, ta có thể làm cho $$\lvert Q(x, y, z)\rvert$$ nhỏ tùy ý (chẳng hạn nhỏ hơn $$10^{-100}$$) bằng cách chọn các số nguyên $$(x, y, z) \neq (0,0,0)$$ không? Phương pháp lý thuyết số giải tích truyền thống chỉ làm được khi số biến từ 5 trở lên, và hoàn toàn bó tay ở 3 biến.
+
+Margulis đã xoay chuyển cục diện chỉ bằng vài trang lập luận tuyệt đẹp: ông xét không gian thuần nhất $$X = \mathrm{SL}_3(\mathbb{R})/\mathrm{SL}_3(\mathbb{Z})$$ (chính là không gian của tất cả các mạng lưới 3 chiều có thể tích đơn vị) và cho nhóm đối xứng $$H = \mathrm{SO}(2,1)$$ bảo toàn dạng $$Q$$ tác động lên đó. Câu hỏi về giá trị của $$Q$$ tại điểm nguyên hóa ra tương đương với việc hỏi **quỹ đạo của nhóm $$H$$ trong $$X$$ có bị chặn hay lan ra trù mật**. Bằng cách khai thác tính cứng của các dòng unipotent (mà Marina Ratner sau này hoàn thiện thành bộ định lý tổng quát), Margulis chứng minh quỹ đạo ấy không thể thu gọn lại một cách bệnh lý—và Giả thuyết Oppenheim lập tức sụp đổ!
 
 ### Expander và giao diện giữa toán thuần túy và khoa học máy tính
 
-Margulis cũng dựng ra các **đồ thị expander** tường minh bằng phương pháp nhóm: đồ thị thưa nhưng giãn rất mạnh, trung tâm của khoa học máy tính, lý thuyết mã và toán thuần túy. Giải Abel 2020 chạm đến vùng giáp ranh giữa toán thuần túy và khoa học máy tính, mà giải Abel 2021 (Lovász–Wigderson) sẽ vinh danh từ góc nhìn rời rạc và khoa học máy tính lý thuyết.
+Năm 1973, Margulis còn tạo ra một bước ngoặt khác: ông dùng tính chất (T) của Kazhdan trong lý thuyết nhóm để xây dựng họ **đồ thị expander tường minh đầu tiên** trong lịch sử. Đồ thị expander là những mạng lưới rất thưa (mỗi đỉnh chỉ nối với vài đỉnh lân cận) nhưng kết nối cực kỳ chắc chắn và trộn thông tin nhanh chóng. Ngày nay expander là viên gạch nền của lý thuyết mã sửa lỗi, mật mã học, mạng truyền thông và khoa học máy tính lý thuyết—nối trực tiếp Giải Abel 2020 sang Giải Abel 2021 của Lovász và Wigderson.
 
 ---
 
 ## 5. Khẩu hiệu của động lực thuần nhất (bản đồ sâu hơn)
 
-Các dòng unipotent trên không gian thuần nhất thường có bao đóng quỹ đạo **cứng**: bao đóng tự nó là thuần nhất, không hỗn độn kiểu fractal. Tính cứng đó là món quà cho lý thuyết số. Thay vì ước lượng sai số bằng tay cho từng bài, đôi khi ta chỉ cần nhận ra hệ động lực mà bao đóng quỹ đạo của nó phân loại các khả năng số học.
+Trong hệ động lực hỗn độn thông thường (như ánh xạ logistic hay thời tiết), quỹ đạo có thể tạo ra những tập fractal rối rắm không sao phân loại nổi. Ngược lại, các **dòng unipotent** trên không gian thuần nhất $$G/\Gamma$$ lại có bao đóng quỹ đạo cực kỳ **cứng**: bao đóng của mỗi quỹ đạo luôn là một không gian con thuần nhất mượt mà, không bao giờ biến thành fractal kỳ dị.
 
-Furstenberg và Margulis không dùng cùng một cỗ máy. Furstenberg nghiêng về cấu trúc và tái hồi trong các hệ bảo toàn độ đo trừu tượng (thu được kết quả tổ hợp). Margulis nghiêng về nhóm đại số, lattice và không gian thuần nhất (thu được kết quả số học và hình học). Giải Abel ghép hai người vì cả hai đều làm cho **động lực học trở thành một ngôn ngữ của toán thuần túy**.
+Tính cứng ấy là món quà vô giá cho lý thuyết số. Thay vì phải vật lộn ước lượng từng sai số nhỏ bằng tay, nhà toán học chỉ cần tìm ra đúng không gian thuần nhất mã hóa bài toán: sự cứng rắn của quỹ đạo sẽ tự động phân loại mọi khả năng số học có thể xảy ra.
+
+Dù Furstenberg (nghiêng về hệ bảo toàn độ đo trừu tượng và tổ hợp) và Margulis (nghiêng về nhóm Lie, lattice và không gian thuần nhất) vận hành hai cỗ máy khác nhau, Giải Abel 2020 đặt họ đứng cạnh nhau vì cả hai đều chứng minh rằng **động lực học là một ngôn ngữ bản địa của toán thuần túy**.
 
 ---
 
 ## 6. Vì sao Abel ghép hai người
 
-Phong cách khác nhau, thông điệp như nhau. Sau Furstenberg và Margulis, nhà lý thuyết số nói rằng độ đo bất biến là chuyện bình thường; nhà tổ hợp trích dẫn các chứng minh ergodic; nhà hình học nhóm rời rạc sống trong động lực thuần nhất. Xác suất không còn “chỉ là ứng dụng”; động lực học không còn “chỉ là những hình ảnh hỗn độn”.
+Hai phong cách khác biệt, một cuộc cách mạng chung. Sau Furstenberg và Margulis, các nhà lý thuyết số xem độ đo bất biến như công cụ hằng ngày; các nhà tổ hợp trích dẫn định lý tái hồi ergodic; và các nhà hình học nhóm rời rạc sống trong động lực thuần nhất. Xác suất không còn bị gán mác "chỉ để thống kê", còn động lực học không còn bị đóng khung là "chỉ vẽ hình hỗn độn".
 
-So với [Green–Tao]({{ site.baseurl }}/contents/vi/chapter02/02_04_Green_Tao/): các cấp số cộng trong số nguyên tố dùng ý tưởng của tổ hợp cộng tính và văn hóa gần với ergodic, trong câu chuyện Fields ở chương 02. Giải Abel 2020 nói về những người đi tiên phong đã đưa cuộc di cư đó lên thành quy mô lớn.
+Đặt cạnh [Định lý Green–Tao]({{ site.baseurl }}/contents/vi/chapter02/02_04_Green_Tao/) (trong câu chuyện Huy chương Fields ở Chương 02): việc tìm cấp số cộng dài tùy ý trong tập số nguyên tố sử dụng tư duy tổ hợp cộng tính kết hợp chặt chẽ với tinh thần cấu trúc–ngẫu nhiên xuất phát từ chứng minh ergodic của Furstenberg. Giải Abel 2020 vinh danh hai người mở đường đã khởi phát toàn bộ làn sóng ấy.
 
 ---
 

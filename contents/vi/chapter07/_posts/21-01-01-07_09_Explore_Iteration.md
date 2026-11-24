@@ -9,9 +9,9 @@ categories:
 - chapter07
 ---
 
-Đây là **bài thực hành chính** của Chương 7, dùng cho hồ sơ khám phá của seminar (**A5** / **LO5**). Bạn **không** phải chứng minh giả thuyết Collatz. Việc của bạn là **thiết kế thí nghiệm**, **ghi nhật ký nghiên cứu**, và **báo cáo những gì đã học được**, kể cả những lần thất bại, những hướng đi bế tắc và những định nghĩa phải sửa lại.
+Hãy chọn một số nguyên dương bất kỳ. Nếu nó chẵn, hãy chia đôi; nếu nó lẻ, hãy nhân 3 rồi cộng 1. Lặp lại đúng hai dòng quy tắc học sinh tiểu học ấy mãi mãi. Thử với số $$6$$: $$6 \to 3 \to 10 \to 5 \to 16 \to 8 \to 4 \to 2 \to 1$$ — chỉ mất 8 bước là rơi gọn về $$1$$. Nhưng hãy thử với số $$27$$: thay vì giảm ngay, nó nhảy vọt như tàu lượn siêu tốc lên tới tận **9.232** và mất **111 bước** mới chịu đáp xuống $$1$$! Gần một thế kỷ qua, hàng loạt bộ óc lớn đã thử sức và Paul Erdős từng thốt lên: *"Toán học vẫn chưa sẵn sàng cho những bài toán kiểu này."*
 
-**Câu hỏi chủ đề.** Điều gì xảy ra khi ta lặp đi lặp lại một quy tắc tất định đơn giản?
+Chào mừng bạn đến với **bài thực hành chính** của Chương 7. Nhiệm vụ của bạn **không phải** là chứng minh giả thuyết Collatz. Thay vào đó, bạn sẽ bước vào xưởng thực nghiệm với một câu hỏi mở lớn: *Điều gì xảy ra khi ta lặp đi lặp lại một quy tắc tất định đơn giản?* Bạn sẽ **thiết kế thí nghiệm**, **viết nhật ký nghiên cứu có ngày tháng**, và **báo cáo trung thực** tất cả những gì mình khám phá được — kể cả những giả thuyết bị bác bỏ, những lần tràn số hay lỗi mã nguồn, và những ranh giới mà máy tính mạnh nhất cũng không thể vượt qua.
 
 **Bài liên quan.** [Collatz (Chương 1)]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/) · [Hỗn độn]({{ site.baseurl }}/contents/vi/chapter04/04_05_Chaos/) · [Giả thuyết Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) (kiểm tra bằng máy tính khác với chứng minh).
 
@@ -28,6 +28,17 @@ categories:
 - Áp dụng cùng phương pháp cho một đề thực hành khác của Chương 7 nếu đổi đề (cần giảng viên đồng ý).
 
 **Kiến thức cần có.** Số nguyên, phép chia lấy dư, viết chương trình ngắn hoặc dùng phần mềm tính toán, vẽ đồ thị.
+
+---
+
+## Bản đồ kiến thức nền: Hệ động lực rời rạc và Lý thuyết số thực nghiệm là gì, nghiên cứu những gì?
+
+Tại sao một phép toán chỉ dùng phép nhân 3, cộng 1 và chia 2 lại thách thức cả nền toán học hiện đại? Bởi vì nó nằm đúng giao điểm khó nhằn nhất giữa hai lĩnh vực:
+
+1. **Hệ động lực rời rạc (Discrete Dynamical Systems):** Ngành này nghiên cứu quỹ đạo $$x, f(x), f(f(x)), \dots$$ khi áp dụng lặp đi lặp lại một hàm $$f$$. Các câu hỏi trung tâm luôn là: *Quỹ đạo có tiến ra vô cùng không? Có bị hút vào một điểm cố định hay chu trình tuần hoàn không? Và hai điểm xuất phát rất gần nhau (như $$26$$ và $$27$$) có tách xa nhau hỗn loạn không?* Khi $$f$$ tác động lên số thực (như ánh xạ logistic $$x \mapsto rx(1-x)$$ hay phương pháp Newton), ta có giải tích và đạo hàm để nghiên cứu. Nhưng khi $$f$$ tác động lên **số nguyên** như ánh xạ Collatz, ta bước vào lãnh địa của **động lực số học (arithmetic dynamics)** — nơi không có đạo hàm liên tục thông thường!
+2. **Xung đột giữa cấu trúc cộng và cấu trúc nhân:** Phép chia $$n/2$$ hoàn toàn tôn trọng phân tích thừa số nguyên tố (nó chỉ xóa đi chữ số `0` ở cuối biểu diễn nhị phân). Ngược lại, phép $$3n+1$$ lại cộng thêm $$1$$ — hành động tưởng nhỏ bé này **xáo trộn toàn bộ cấu trúc nhân** của số $$n$$ theo cách cực kỳ khó lần theo. Chính sự giằng co giữa phép cộng và phép nhân là lý do nhiều bài toán số học kinh điển (như giả thuyết Goldbach, giả thuyết abc, và Collatz) vẫn còn bỏ ngỏ.
+
+Một phép tính nhẩm trực giác cho thấy vì sao các quỹ đạo *có vẻ* sẽ giảm: xuất phát từ một số lẻ $$n$$, ta biến nó thành $$3n+1$$ (chắc chắn chẵn). Nếu giả sử số chẵn này "ngẫu nhiên" chia hết cho $$2$$ đúng $$k$$ lần (với xác suất $$2^{-k}$$), thì trung bình ta chia cho $$2$$ đúng $$2$$ lần (tức chia cho $$4$$). Sau một chu kỳ lẻ→lẻ, số mới có kích thước cỡ $$\frac{3}{4}n < n$$ — mỗi bước giảm khoảng $$25\%$$ theo trung bình hình học! Thế nhưng đó mới chỉ là **lập luận gần đúng**: chưa ai loại trừ được khả năng tồn tại một số nguyên khổng lồ nào đó "né" được quy luật trung bình để chạy mãi ra vô cùng hoặc rơi vào một chu trình kín khác $$4 \to 2 \to 1$$.
 
 ---
 
@@ -55,9 +66,9 @@ Lặp lại: $$n,T(n),T(T(n)),\ldots$$. **Giả thuyết Collatz** nói rằng v
 
 ### 1.2 Thời gian dừng
 
-- **Thời gian dừng toàn phần** $$\sigma_\infty(n)$$: số lần áp dụng $$T$$ để đến 1.  
-- **Thời gian dừng** $$\sigma(n)$$: số bước để đến một giá trị **nhỏ hơn hẳn** $$n$$.  
-- **Giá trị cực đại của quỹ đạo:** giá trị lớn nhất mà quỹ đạo đạt được trước khi về 1.
+- **Thời gian dừng toàn phần** $$\sigma_\infty(n)$$: số lần áp dụng $$T$$ để đến 1. Ví dụ: với $$n=6$$, quỹ đạo là $$6 \to 3 \to 10 \to 5 \to 16 \to 8 \to 4 \to 2 \to 1$$ nên $$\sigma_\infty(6) = 8$$.  
+- **Thời gian dừng** $$\sigma(n)$$: số bước để đến một giá trị **nhỏ hơn hẳn** $$n$$. Với $$n=6$$, chỉ sau 1 bước ta đã được $$3 < 6$$ nên $$\sigma(6) = 1$$; nhưng với $$n=7$$ ($$7 \to 22 \to 11 \to 34 \to 17 \to 52 \to 26 \to 13 \to 40 \to 20 \to 10 \to 5 < 7$$), ta có $$\sigma(7) = 11$$ và $$\sigma_\infty(7) = 16$$.  
+- **Giá trị cực đại của quỹ đạo:** giá trị lớn nhất mà quỹ đạo đạt được trước khi về 1 (với $$n=7$$ là $$52$$; với $$n=27$$ vọt lên $$9232$$!).
 
 Hãy ghi rõ định nghĩa bạn dùng trong mã nguồn và trong nhật ký.
 
@@ -65,7 +76,7 @@ Hãy ghi rõ định nghĩa bạn dùng trong mã nguồn và trong nhật ký.
 
 Ánh xạ này vừa làm số nhỏ đi (chia 2) vừa làm số lớn lên ($$3n+1$$). Một lập luận gần đúng về trung bình cho thấy quỹ đạo thường giảm dần, nhưng lập luận gần đúng không phải là chứng minh. Quy tắc hoàn toàn tất định, vậy mà số liệu thời gian dừng vẫn rất thất thường. Đã có một số kết quả từng phần (về mật độ các số rơi xuống dưới chính nó, về kiểm tra đến những cận rất lớn). Khi dùng các kết quả này, hãy **trích dẫn nguồn**, không tự bịa.
 
-**Những điểm cần nắm khi viết bài A5 (rút ra từ tư liệu video và nghiên cứu).**
+**Những điểm cần nắm khi viết hồ sơ (rút ra từ tư liệu video và nghiên cứu).**
 
 - **$$\operatorname{Col}_{\min}(N)$$** là giá trị nhỏ nhất trên quỹ đạo xuất phát từ $$N$$. Giả thuyết Collatz đầy đủ nói rằng giá trị này $$=1$$ với mọi $$N$$ dương (**còn mở**).  
 - **Tao (2019):** với hầu hết $$N$$ (theo mật độ logarit), $$\operatorname{Col}_{\min}(N)<f(N)$$ với mọi hàm $$f\to\infty$$. Đây là **định lý về "hầu hết" các số**, không phải lời giải giả thuyết Collatz. Nếu nhắc đến, hãy trích [arXiv:1909.03562](https://arxiv.org/abs/1909.03562).  
@@ -76,7 +87,7 @@ Chi tiết: bài Collatz ở Chương 1, mục 4–5, và `research/video-resear
 
 ### 1.4 Cây ngược
 
-Mọi số $$m$$ đều có tiền ảnh $$2m$$; ngoài ra $$(m-1)/3$$ cũng có thể là tiền ảnh nếu thỏa thêm điều kiện, tùy quy ước của $$T$$. Cây gồm các số chảy về 1 là một đối tượng thí nghiệm phong phú: có thể khảo sát số lượng nút ở mỗi độ sâu $$k$$, hay các quy luật theo đồng dư.
+Mọi số $$m$$ đều có tiền ảnh $$2m$$; ngoài ra $$(m-1)/3$$ cũng có thể là tiền ảnh nếu $$m \equiv 4 \pmod 6$$ (để $$(m-1)/3$$ là số nguyên dương lẻ). Cây gồm các số chảy về 1 là một đối tượng thí nghiệm phong phú: có thể khảo sát số lượng nút ở mỗi độ sâu $$k$$, hay các quy luật theo đồng dư.
 
 ### 1.5 Các phép lặp khác ngoài Collatz
 
@@ -84,11 +95,11 @@ Ví dụ: ánh xạ logistic $$x\mapsto rx(1-x)$$; phương pháp Newton; phươ
 
 ### 1.6 Kiểm tra bằng máy tính và chứng minh
 
-Giả thuyết Collatz đã được kiểm tra cho mọi số đến một cận rất lớn (hãy trích nguồn tin cậy, vì cận này thay đổi theo thời gian). Bài học giống với giả thuyết Riemann: việc kiểm tra rất nhiều không điểm nằm trên đường tới hạn làm ta tin hơn, nhưng không giải quyết được bài toán. **Không thể kiểm tra hết vô hạn trường hợp bằng một tìm kiếm hữu hạn.**
+Giả thuyết Collatz đã được kiểm tra cho mọi số đến một cận rất lớn (hãy trích nguồn tin cậy, vì cận này thay đổi theo thời gian, chẳng hạn vượt mốc $$2^{68} \approx 2.95 \times 10^{20}$$). Bài học giống với giả thuyết Riemann: việc kiểm tra rất nhiều không điểm nằm trên đường tới hạn làm ta tin hơn, nhưng không giải quyết được bài toán. **Không thể kiểm tra hết vô hạn trường hợp bằng một tìm kiếm hữu hạn.**
 
 ---
 
-## 2. Cấu trúc hồ sơ (mốc A5)
+## 2. Cấu trúc hồ sơ thực hành
 
 | Mốc | Tuần (theo lịch học) | Sản phẩm |
 |-----|-----------------|----------|

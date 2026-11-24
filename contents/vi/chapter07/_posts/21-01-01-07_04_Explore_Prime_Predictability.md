@@ -12,9 +12,9 @@ categories:
 > **Bài liên quan trong khóa học**  
 > [Giả thuyết Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) · [Số nguyên tố sinh đôi]({{ site.baseurl }}/contents/vi/chapter01/01_06_Twin_Prime_Conjecture/) · [Green–Tao]({{ site.baseurl }}/contents/vi/chapter02/02_04_Green_Tao/) · [Maynard]({{ site.baseurl }}/contents/vi/chapter02/02_09_Maynard_Primes/)
 
-Nhìn qua, các số nguyên tố có vẻ xuất hiện ngẫu nhiên như tung đồng xu, nhưng thực ra chúng tuân theo nhiều quy luật. **Định lý số nguyên tố** cho biết mật độ của chúng trên toàn bộ trục số; **giả thuyết Riemann** cho biết sai số của ước lượng đó; **giả thuyết số nguyên tố sinh đôi** và **định lý khoảng cách bị chặn** nói về việc các số nguyên tố đứng gần nhau; **định lý Green–Tao** khẳng định có những cấp số cộng các số nguyên tố dài tùy ý. Bài thực hành này giúp bạn **phân biệt các hiện tượng**, **làm thí nghiệm nhỏ**, và không nhầm một đồ thị đẹp với một định lý.
+Nếu bạn bước dọc theo trục số nguyên dương và gõ một tiếng chuông mỗi khi gặp một số nguyên tố — $$2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37\dots$$ — âm thanh bạn nghe thấy sẽ vô cùng khó đoán. Có lúc hai tiếng chuông vang lên sát nhau chỉ cách 2 đơn vị (như $$101$$ và $$103$$), có lúc bạn phải bước qua hàng chục, thậm chí hàng triệu hợp số im ắng mới nghe thấy tiếng tiếp theo. Nhìn gần, các số nguyên tố hành xử bất kham chẳng khác nào trò tung đồng xu.
 
-Bạn không phải chứng minh giả thuyết Riemann hay giả thuyết số nguyên tố sinh đôi. Bạn sẽ tự lập một bảng tổng hợp: điều gì đã biết, điều gì còn mở, và máy tính cho phép ta khẳng định đến đâu. "Có dự đoán được không" không phải câu hỏi có hay không; sản phẩm của bài thực hành là một **bảng phân tầng**, không phải một khẩu hiệu.
+Nhưng hãy lùi thật xa ra và nhìn toàn cảnh: sự hỗn loạn bỗng nhường chỗ cho một đường cong mượt mà đến kinh ngạc. **Định lý số nguyên tố** mô tả chính xác mật độ của chúng; **giả thuyết Riemann** nhắm tới độ chính xác gần như tuyệt đối của sai số; **định lý khoảng cách bị chặn** (Zhang, Maynard) khẳng định chúng không bao giờ thôi đứng sát nhau; còn **định lý Green–Tao** chứng minh bên trong dãy số tưởng chừng ngẫu hứng ấy ẩn chứa những cấp số cộng đều tăm tắp dài tùy ý. Câu hỏi *"Số nguyên tố có dự đoán được không?"* vì thế không có câu trả lời Có hay Không đơn giản. Trong bài thực hành này, bạn sẽ tự tay **chạy thí nghiệm trên số nguyên tố**, xây dựng một **bảng phân tầng hiện tượng**, và rèn thói quen tỉnh táo nhất của người làm số học: không bao giờ đánh đồng một đồ thị khớp đẹp đến $$10^8$$ với một định lý đúng cho tới vô cùng.
 
 ---
 
@@ -33,6 +33,20 @@ Sau bài thực hành, bạn có thể:
 
 ---
 
+## Bản đồ kiến thức nền: Lý thuyết số giải tích là gì và nghiên cứu những gì?
+
+Khi nghe tới số nguyên tố, nhiều người nghĩ ngay tới đại số rời rạc hay phép chia hết ở bậc phổ thông. Vậy tại sao những đột phá lớn nhất về số nguyên tố lại gắn với tích phân, biến số phức và sóng? Câu trả lời nằm ở **Lý thuyết số giải tích (Analytic Number Theory)** — ngành toán dùng công cụ liên tục (giải tích phức, chuỗi, biến đổi Fourier, xác suất) để trả lời những câu hỏi rời rạc về số nguyên.
+
+Bức tranh lớn của ngành này xoay quanh ba trụ cột mà bạn sẽ chạm tới trong bài thực hành:
+
+1. **Từ rời rạc sang liên tục qua hàm Zeta:** Leonard Euler phát hiện đẳng thức kỳ diệu nối mọi số nguyên dương với mọi số nguyên tố: $$\zeta(s) = \sum_{n=1}^{\infty} n^{-s} = \prod_{p} (1 - p^{-s})^{-1}$$. Sau đó Bernhard Riemann mở rộng $$s$$ sang mặt phẳng phức và chứng minh rằng dao động của hàm đếm số nguyên tố $$\pi(x)$$ được "mã hóa" hoàn toàn bởi vị trí các không điểm của $$\zeta(s)$$ — giống như một bản nhạc (phân bố số nguyên tố) được ghép từ các tần số cơ bản (các không điểm của hàm zeta).
+2. **Phương pháp sàng (Sieve Theory):** Bắt nguồn từ sàng Eratosthenes cổ đại, các phương pháp sàng hiện đại (như sàng Selberg hay sàng nhiều chiều của Maynard–Tao) tìm cách ước lượng số lượng phần tử còn sót lại sau khi loại bỏ các bội số, từ đó chứng minh tồn tại vô hạn cặp số nguyên tố cách nhau không quá $$246$$ đơn vị.
+3. **Tổ hợp cộng tính và mô hình xác suất:** Khi hỏi về các mẫu hình cộng tính (như bộ ba số nguyên tố cách đều $$3, 5, 7$$ hay bộ 5 số $$5, 11, 17, 23, 29$$), các nhà toán học dùng mô hình xác suất (mô hình Cramér: coi mỗi số $$n$$ có "xác suất" là số nguyên tố cỡ $$1/\log n$$) để dự đoán, rồi dùng giải tích Fourier và lý thuyết cấu trúc để chứng minh.
+
+Một con số cụ thể để bạn cảm nhận sức mạnh của xấp xỉ: dưới $$x = 1.000.000$$, có chính xác $$\pi(10^6) = 78.498$$ số nguyên tố. Công thức sơ cấp $$x/\log x$$ dự đoán khoảng $$72.382$$ (lệch khoảng $$7.8\%$$), nhưng tích phân logarit $$\operatorname{li}(10^6)$$ cho ra $$78.627{,}5$$ — sai lệch chỉ **130 số** trên một triệu!
+
+---
+
 ## 1. Kiến thức toán nền
 
 ### 1.1 Đếm số nguyên tố
@@ -43,7 +57,7 @@ $$
 \pi(x)\sim\frac{x}{\log x}\qquad(x\to\infty),
 $$
 
-tương đương với $$p_n\sim n\log n$$. Một xấp xỉ cổ điển chính xác hơn là tích phân logarit $$\operatorname{li}(x)$$. Trên thực nghiệm, với những giá trị $$x$$ ta tính được, $$\pi(x)$$ khá gần các xấp xỉ này. Nhưng "khá gần" là một phát biểu định lượng về sai số, và đó chính là nội dung của giả thuyết Riemann.
+tương đương với $$p_n\sim n\log n$$. Một xấp xỉ cổ điển chính xác hơn là tích phân logarit $$\operatorname{li}(x) = \int_2^x \frac{dt}{\log t}$$. Trên thực nghiệm, với những giá trị $$x$$ ta tính được, $$\pi(x)$$ khá gần các xấp xỉ này. Nhưng "khá gần" là một phát biểu định lượng về sai số, và đó chính là nội dung của giả thuyết Riemann.
 
 ### 1.2 Khoảng cách và số nguyên tố sinh đôi
 
@@ -53,9 +67,9 @@ $$
 (n+1)!+2,\;(n+1)!+3,\;\ldots,\;(n+1)!+(n+1)
 $$
 
-là $$n$$ hợp số liên tiếp. Vậy khẳng định "khoảng cách luôn bị chặn" là sai, trong khi "khoảng cách *thường* có độ lớn cỡ $$\log p$$" vẫn có thể đúng theo nghĩa trung bình.
+là $$n$$ hợp số liên tiếp (vì số hạng thứ $$k$$ chia hết cho $$k+1$$). Chẳng hạn với $$n=4$$, ta có $$5!+2 = 122, 123, 124, 125$$ lần lượt chia hết cho $$2, 3, 4, 5$$ — dù thực tế trên trục số, khoảng trống 4 hợp số liên tiếp đã xuất hiện sớm hơn nhiều (ngay sau $$23$$ là $$24, 25, 26, 27, 28$$). Vậy khẳng định "khoảng cách luôn bị chặn" là sai, trong khi "khoảng cách *thường* có độ lớn cỡ $$\log p$$" vẫn có thể đúng theo nghĩa trung bình.
 
-**Số nguyên tố sinh đôi** là cặp $$(p,p+2)$$ mà cả hai đều là số nguyên tố. Giả thuyết cho rằng có vô số cặp như vậy. Lập luận gần đúng của **Hardy–Littlewood** dự đoán
+**Số nguyên tố sinh đôi** là cặp $$(p,p+2)$$ mà cả hai đều là số nguyên tố (như $$(3,5), (11,13), (29,31)$$). Giả thuyết cho rằng có vô số cặp như vậy. Lập luận gần đúng của **Hardy–Littlewood** dự đoán
 
 $$
 \#\{p\le X: p+2\text{ nguyên tố}\}\sim 2C_2\int_2^X\frac{dt}{(\log t)^2},
@@ -65,7 +79,7 @@ với hằng số số nguyên tố sinh đôi $$C_2\approx 0.66016$$. Số li�
 
 ### 1.3 Khoảng cách bị chặn và Maynard
 
-**Zhang (2013):** $$\liminf(p_{n+1}-p_n)<\infty$$, cụ thể là với một cận số (rất lớn) được nêu rõ, dựa trên phương pháp GPY và các công cụ kiểu Bombieri–Vinogradov. **Maynard**, và độc lập là Tao, đã đơn giản hóa và làm mạnh phương pháp bằng sàng nhiều chiều; dự án Polymath và các công trình sau đó hạ cận này xuống nhiều. Định lý khoảng cách bị chặn nói rằng *thỉnh thoảng* có các số nguyên tố đứng gần nhau; nó không suy ra được giả thuyết số nguyên tố sinh đôi (khoảng cách bằng 2).
+**Zhang (2013):** $$\liminf(p_{n+1}-p_n)<\infty$$, cụ thể là với một cận số ban đầu là $$70.000.000$$, dựa trên phương pháp GPY và các công cụ kiểu Bombieri–Vinogradov. **Maynard**, và độc lập là Tao, đã đơn giản hóa và làm mạnh phương pháp bằng sàng nhiều chiều; dự án Polymath8 và các công trình sau đó hạ cận này xuống còn **246** (không cần giả thuyết bổ sung). Định lý khoảng cách bị chặn nói rằng *thỉnh thoảng* có các số nguyên tố đứng gần nhau; nó chưa suy ra được giả thuyết số nguyên tố sinh đôi (khoảng cách bằng 2).
 
 ### 1.4 Định lý Green–Tao
 
@@ -75,7 +89,7 @@ $$
 a,\;a+d,\;\ldots,\;a+(k-1)d
 $$
 
-đều là số nguyên tố. Chứng minh là một cột mốc của tổ hợp cộng tính và lý thuyết ergodic/cấu trúc, không dùng phương pháp sàng sơ cấp. Tìm cấp số cộng dài 4–5 bằng tay hoặc bằng máy là một bài khám phá tốt; chứng minh cho mọi $$k$$ không phải là nhiệm vụ của bài thực hành.
+đều là số nguyên tố. Ví dụ, với $$k=5$$ ta có ngay $$5, 11, 17, 23, 29$$ (công sai $$d=6$$); với $$k=6$$ ta có $$7, 37, 67, 97, 127, 157$$ (công sai $$d=30$$ — bạn có nhận ra vì sao $$d$$ luôn chia hết cho $$2\cdot 3\cdot 5 = 30$$ không?). Chứng minh là một cột mốc của tổ hợp cộng tính và lý thuyết ergodic/cấu trúc, không dùng phương pháp sàng sơ cấp. Tìm cấp số cộng dài 4–5 bằng tay hoặc bằng máy là một bài khám phá tốt; chứng minh cho mọi $$k$$ không phải là nhiệm vụ của bài thực hành.
 
 ### 1.5 Giả thuyết Riemann dưới dạng sai số
 
@@ -85,7 +99,7 @@ $$
 \pi(x)=\operatorname{li}(x)+O\bigl(x^{1/2}\log x\bigr)
 $$
 
-(dạng chuẩn, nếu giả thuyết Riemann đúng). Không cần giả thuyết Riemann, ta vẫn có những cận sai số yếu hơn. Mối liên hệ giữa miền không có không điểm và phân bố số nguyên tố thuộc về lý thuyết số giải tích sâu; bài giả thuyết Riemann ở Chương 1 là bài đọc kỹ đi kèm.
+(dạng chuẩn, nếu giả thuyết Riemann đúng). Nói theo ngôn ngữ xác suất, sai số cỡ $$\sqrt{x}$$ chính là mức dao động đặc trưng của một **bước đi ngẫu nhiên** (giống độ lệch chuẩn khi tung đồng xu $$x$$ lần). Không cần giả thuyết Riemann, ta vẫn có những cận sai số yếu hơn. Mối liên hệ giữa miền không có không điểm và phân bố số nguyên tố thuộc về lý thuyết số giải tích sâu; bài giả thuyết Riemann ở Chương 1 là bài đọc kỹ đi kèm.
 
 ### 1.6 Dự đoán có nhiều tầng
 

@@ -9,7 +9,9 @@ categories:
 - chapter04
 ---
 
-**Mặt tối thiểu** (minimal surface) là mặt có diện tích nhỏ nhất theo nghĩa địa phương, giống như màng xà phòng căng trên một khung dây. Nhúng một vòng dây kín vào nước xà phòng, lớp màng hình thành chính là "lời giải" mà tự nhiên đưa ra cho một bài toán tối ưu hình học. Về mặt toán học, mặt tối thiểu là mặt có **độ cong trung bình bằng 0**, một điều kiện được viết bằng một phương trình đạo hàm riêng phi tuyến. Giải tích, hình học và vẻ đẹp thị giác gặp nhau ở đây: catenoid, helicoid, mặt Costa vừa là định lý vừa là tác phẩm điêu khắc.
+Hãy uốn một đoạn dây thép thành một vòng cong uốn lượn tùy ý, nhúng vào chậu nước xà phòng rồi nhẹ nhàng nhấc lên. Trong chớp mắt, chẳng cần giải một phương trình vi phân nào, lớp màng xà phòng óng ánh tự co lại thành một mặt cong hình yên ngựa tuyệt đẹp — một "máy tính tương tự" của tự nhiên đang giải bài toán tối ưu hình học để cực tiểu hóa năng lượng sức căng bề mặt.
+
+Trong toán học, những hình dạng như thế gọi là **mặt tối thiểu** (minimal surface): mặt có diện tích nhỏ nhất theo nghĩa địa phương. Về mặt giải tích, chúng là nghiệm của một điều kiện duy nhất nhưng cực kỳ sâu sắc: **độ cong trung bình bằng $$0$$**, dẫn tới một phương trình đạo hàm riêng phi tuyến. Hiếm có chủ đề nào nơi giải tích, hình học vi phân và vẻ đẹp thị giác gặp nhau trọn vẹn đến thế: catenoid, helicoid và mặt Costa vừa là định lý sâu sắc vừa như những tác phẩm điêu khắc.
 
 **Lộ trình:** màng xà phòng và bài toán Plateau → độ cong trung bình bằng 0 → các ví dụ cổ điển → tính ổn định và tôpô → lý thuyết tồn tại hiện đại → ứng dụng → nhầm lẫn thường gặp, bài tập, hướng đi tiếp.
 
@@ -30,11 +32,22 @@ Sau bài học, bạn có thể:
 
 ---
 
+## Bản đồ kiến thức nền: Phép tính biến phân và giải tích hình học là gì và nghiên cứu những gì?
+
+Ở giải tích đại cương, để tìm điểm $$x$$ làm cực tiểu hàm số $$f(x)$$, ta giải phương trình đạo hàm $$f'(x) = 0$$. Nhưng nếu ẩn số không còn là một con số $$x$$, mà là **cả một đường cong** (như đường đi ngắn nhất giữa hai điểm) hay **cả một mặt cong $$S$$** (như màng xà phòng có diện tích nhỏ nhất căng trên khung dây), thì ta bước sang **Phép tính biến phân** (Calculus of Variations) và **Giải tích hình học**.
+
+Tư duy cốt lõi gồm ba bước cực kỳ tự nhiên:
+1. **Định nghĩa phiếm hàm năng lượng:** Gán cho mỗi mặt cong $$S$$ một con số — diện tích $$\mathrm{Area}(S)$$.
+2. **Đẩy nhẹ mặt cong và cho "đạo hàm" bằng $$0$$:** Nếu mặt đang ở trạng thái dừng, mọi biến dạng nhỏ giữ nguyên khung biên sẽ không làm thay đổi diện tích ở bậc nhất. Điều kiện "đạo hàm bằng $$0$$" trong thế giới mặt cong hóa ra lại chính là **độ cong trung bình $$H = 0$$** tại mọi điểm!
+3. **Phân biệt điểm dừng, cực tiểu địa phương và cực tiểu toàn cục:** Giống như $$f'(x)=0$$ có thể là cực tiểu, cực đại hay điểm uốn, điều kiện $$H=0$$ chỉ đảm bảo *diện tích dừng* — còn muốn biết màng xà phòng có vỡ hay nhảy sang dạng khác hay không, ta phải xét tính ổn định (biến phân bậc hai) và so sánh diện tích toàn cục.
+
+---
+
 ## 1. Màng xà phòng và bài toán Plateau
 
 **Joseph Plateau** làm thí nghiệm với màng xà phòng vào thế kỷ XIX. Phiên bản toán học, **bài toán Plateau**, hỏi: cho một đường cong đóng $$\Gamma$$ trong $$\mathbb{R}^3$$ (khung dây), có tồn tại mặt $$S$$ có biên $$\Gamma$$ với diện tích nhỏ nhất không, và mặt đó trơn đến mức nào?
 
-Màng xà phòng gợi ý rằng lời giải tồn tại và trơn, ngoại trừ có thể dọc những đường nơi các màng gặp nhau theo quy tắc hình học (góc $$120^\circ$$ trong bọt xà phòng). Việc chứng minh sự tồn tại và độ trơn cần đến giải tích sâu của thế kỷ XX: Douglas và Radó giải được các trường hợp quan trọng; sau đó lý thuyết độ đo hình học mở rộng sang số chiều cao hơn và các tập có điểm kỳ dị.
+Màng xà phòng gợi ý rằng lời giải tồn tại và trơn, ngoại trừ có thể dọc những đường nơi các màng gặp nhau theo quy tắc hình học (luôn chụm ba màng tạo góc $$120^\circ$$ trong bọt xà phòng). Việc chứng minh sự tồn tại và độ trơn cần đến giải tích sâu của thế kỷ XX: Jesse Douglas (nhờ đó ông đoạt một trong hai Huy chương Fields đầu tiên năm 1936) và Tibor Radó giải được các trường hợp quan trọng; sau đó lý thuyết độ đo hình học mở rộng sang số chiều cao hơn và các tập có điểm kỳ dị.
 
 Màng xà phòng thật chỉ là cực tiểu năng lượng **địa phương**; toán học phân biệt cực tiểu địa phương, cực tiểu toàn cục, và điểm tới hạn của phiếm hàm diện tích.
 
@@ -42,15 +55,19 @@ Màng xà phòng thật chỉ là cực tiểu năng lượng **địa phương*
 
 ## 2. Độ cong trung bình và phương trình mặt tối thiểu
 
-Với một mặt trơn có định hướng, hai độ cong chính $$\kappa_1,\kappa_2$$ đo mức uốn theo hai hướng chính. **Độ cong trung bình** là
+Với một mặt trơn có định hướng, tại mỗi điểm ta xét các lát cắt vuông góc với mặt: độ uốn lớn nhất và nhỏ nhất dọc hai phương trực giao gọi là hai **độ cong chính** $$\kappa_1,\kappa_2$$. **Độ cong trung bình** là
 
 $$
 H=\frac{\kappa_1+\kappa_2}{2}
 $$
 
-(tùy theo quy ước chuẩn hóa). Mặt là **tối thiểu** khi $$H\equiv 0$$ ở mọi điểm. Nói nôm na, độ uốn lồi theo một hướng cân bằng với độ uốn lõm theo hướng vuông góc, và đạo hàm bậc nhất của diện tích bằng 0.
+(tùy theo quy ước chuẩn hóa). Mặt là **tối thiểu** khi $$H\equiv 0$$ ở mọi điểm.
 
-Nếu mặt là đồ thị $$z=u(x,y)$$, điều kiện tối thiểu trở thành **phương trình mặt tối thiểu**
+Hãy kiểm tra trực giác ngay bằng hai ví dụ quen thuộc:
+- **Mặt cầu bán kính $$R$$:** uốn cong về cùng một phía theo mọi hướng, nên $$\kappa_1 = \kappa_2 = 1/R \implies H = 1/R \neq 0$$. Vậy mặt cầu *không* phải là mặt tối thiểu! (Bong bóng xà phòng có dạng hình cầu chỉ vì nó phải nhốt một thể tích không khí cố định bên trong, tạo chênh lệch áp suất — nên nó có độ cong trung bình là *hằng số khác $$0$$*, chứ không bằng $$0$$.)
+- **Mặt yên ngựa (hoặc màng xà phòng mở):** hai bên màng đều tiếp xúc cùng áp suất khí quyển, nên để lực căng cân bằng, nếu mặt uốn lên theo hướng này ($$\kappa_1 > 0$$) thì nó buộc phải uốn xuống với đúng cường độ đó theo hướng vuông góc ($$\kappa_2 = -\kappa_1 < 0$$), khiến $$H = 0$$!
+
+Nếu mặt là đồ thị $$z=u(x,y)$$, điều kiện $$H=0$$ trở thành **phương trình mặt tối thiểu**
 
 $$
 \mathrm{div}\!\left(\frac{\nabla u}{\sqrt{1+|\nabla u|^2}}\right)=0,
@@ -80,13 +97,13 @@ Giữa hai vòng bán kính 1, màng là một catenoid. Khi hai vòng tách ra,
 
 **Mặt phẳng.** Cả hai độ cong chính đều bằng 0; mặt phẳng là mặt tối thiểu.
 
-**Catenoid.** Mặt tròn xoay sinh ra bởi đường dây xích (catenary). Hai vòng tròn đồng trục nhúng trong nước xà phòng có thể giữ một màng hình catenoid, cho đến khi kéo quá xa thì màng sụp thành hai đĩa phẳng (một bước nhảy giữa các điểm tới hạn có tôpô khác nhau).
+**Catenoid.** Mặt tròn xoay sinh ra khi quay đường dây xích $$r(z) = a\cosh(z/a)$$ quanh trục $$z$$. Hai vòng tròn đồng trục bán kính $$1$$ nhúng vào nước xà phòng sẽ giữ một màng hình catenoid thắt eo ở giữa. Khi kéo hai vòng tách dần ra, diện tích catenoid tăng lên: vượt quá khoảng cách $$d \approx 1{,}06$$, hai đĩa tròn phẳng rời nhau (tổng diện tích $$2\pi \approx 6{,}28$$) đã có diện tích nhỏ hơn (catenoid trở thành cực tiểu *địa phương* giả bền); và khi vượt quá ngưỡng tới hạn $$d \approx 1{,}325$$, phương trình không còn nghiệm catenoid nào nữa nên màng vỡ đột ngột thành hai đĩa phẳng — một bước nhảy tôpô ngoạn mục ngay trước mắt ta!
 
-**Helicoid.** Mặt tối thiểu kẻ (ruled) có dạng cầu thang xoắn ốc; có thể hình dung nó như vết quét của một đường thẳng vừa tịnh tiến vừa quay như con vít. Helicoid và catenoid là cặp đôi cổ điển: có một họ biến dạng đẳng cự gồm toàn mặt tối thiểu nối giữa chúng (họ liên kết, associate family; Bonnet).
+**Helicoid.** Mặt tối thiểu kẻ (ruled) có dạng cầu thang xoắn ốc; có thể hình dung nó như vết quét của một đường thẳng vừa tịnh tiến vừa quay như con vít. Helicoid và catenoid là cặp đôi cổ điển: có một họ biến dạng đẳng cự (không hề kéo giãn hay nhăn nheo khoảng cách trên mặt!) gồm toàn mặt tối thiểu nối liền mạch giữa chúng (họ liên kết, associate family; Bonnet).
 
 **Mặt Scherk, mặt Enneper** và nhiều ví dụ khác. Biểu diễn Weierstrass–Enneper tạo ra mặt tối thiểu từ dữ liệu chỉnh hình: giải tích phức khoác áo hình học.
 
-**Mặt Costa (1982).** Celso Costa tìm ra một mặt tối thiểu đầy đủ, có tôpô hữu hạn, khác với mặt phẳng, catenoid và helicoid; Hoffman và Meeks sau đó chứng minh mặt này nhúng (không tự cắt). Kết quả này lật đổ một kỳ vọng tồn tại từ lâu và mở ra thời kỳ hiện đại của việc xây dựng và phân loại mặt tối thiểu. Lý thuyết mặt tối thiểu không phải là một bảo tàng đã đóng cửa; đó là một lĩnh vực vẫn đang phát triển.
+**Mặt Costa (1982).** Suốt hai trăm năm, người ta tin rằng chỉ có đúng ba mặt tối thiểu đầy đủ, không tự cắt, có tôpô hữu hạn trong $$\mathbb{R}^3$$: mặt phẳng, catenoid và helicoid. Năm 1982, Celso Costa tìm ra một công thức mới cho một mặt tối thiểu đầy đủ giống như mặt phẳng đâm xuyên qua catenoid với một "tay cầm" xuyến ở giữa; sau đó David Hoffman và William Meeks (nhờ trực quan hóa bằng đồ họa máy tính) đã chứng minh mặt này thực sự nhúng không tự cắt. Kết quả này lật đổ niềm tin tồn tại hai thế kỷ và mở ra kỷ nguyên hiện đại của việc xây dựng và phân loại mặt tối thiểu.
 
 ---
 
@@ -106,8 +123,8 @@ Các định lý của Fischer-Colbrie, do Carmo, Schoen và những người kh
 ## 5. Ngoài màng xà phòng: ứng dụng và các khái niệm liên quan
 
 - **Khoa học vật liệu:** mặt phân cách có năng lượng cực tiểu; biên hạt; mặt mao dẫn (độ cong trung bình được ấn định, không nhất thiết bằng 0).
-- **Kiến trúc:** kết cấu căng và phương pháp tìm hình (form-finding) lấy cảm hứng từ màng xà phòng.
-- **Thuyết tương đối rộng:** chân trời biểu kiến và các kỹ thuật mặt tối thiểu trong toán học của thuyết tương đối.
+- **Kiến trúc:** kết cấu căng và phương pháp tìm hình (form-finding) lấy cảm hứng từ màng xà phòng (như mái vòm Sân vận động Olympic Munich của Frei Otto).
+- **Thuyết tương đối rộng:** chân trời biểu kiến và các kỹ thuật mặt tối thiểu trong toán học của thuyết tương đối (như chứng minh định lý khối lượng dương của Schoen–Yau).
 - **Giải tích hình học:** siêu mặt tối thiểu là công cụ để nghiên cứu đa tạp chứa nó (phương pháp min-max; sự tồn tại của nhiều siêu mặt tối thiểu).
 - **Hình học calibrated:** phiên bản nhiều chiều, liên quan đến hình học lấy cảm hứng từ lý thuyết dây.
 

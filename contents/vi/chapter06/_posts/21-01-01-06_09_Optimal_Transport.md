@@ -9,9 +9,24 @@ categories:
 - chapter06
 ---
 
-Làm thế nào để chuyển một đống cát thành một đống khác có hình dạng khác với chi phí nhỏ nhất? Câu hỏi nghe có vẻ cổ xưa ấy là gốc của **vận chuyển tối ưu (OT)**, hiện là ngôn ngữ trung tâm để so sánh các phân phối xác suất, đo độ biến dạng của hình và xây dựng các mô hình sinh. Từ Monge (1781), qua bản nới lỏng tuyến tính của Kantorovich, đến điều chuẩn entropy và hình học tính toán, OT nằm ở giao điểm của giải tích, xác suất, tối ưu và khoa học dữ liệu.
+Năm 1781, kỹ sư quân sự kiêm nhà toán học người Pháp Gaspard Monge đứng trước một bài toán rất trần tục: cần san một đống đất lớn sang lấp những hố công sự gần đó sao cho tổng công gánh đất là nhỏ nhất. Hơn một thế kỷ rưỡi sau, nhà toán học Liên Xô Leonid Kantorovich gặp lại đúng bài toán ấy khi tối ưu hóa mạng lưới vận tải nguyên liệu giữa các nhà máy — và lời giải quy hoạch tuyến tính của ông đã mang về giải Nobel Kinh tế năm 1975.
 
-Bài này trình bày công thức Monge và Kantorovich, khoảng cách Wasserstein, đối ngẫu cơ bản, ý tưởng tính toán (Sinkhorn) và các ứng dụng. Cùng lúc, ta gắn nhãn cái nào là định lý, cái nào là heuristic số, và cái nào là lời thổi phồng kiểu “Wasserstein GAN giải quyết xong mô hình sinh”.
+Ít ai ngờ rằng câu hỏi "chuyển cát lấp hố" tưởng chừng cổ xưa ấy ngày nay lại trở thành một trong những ngôn ngữ trung tâm của toán học hiện đại và trí tuệ nhân tạo. Khi thay "đống cát" bằng **phân phối xác suất**, bài toán của Monge–Kantorovich biến thành công cụ tuyệt vời để đo khoảng cách giữa hai đám mây dữ liệu, biến hình mượt mà giữa hai bức ảnh, mô tả phương trình nhiệt như một dòng chảy tối ưu, và thiết kế các mô hình sinh. **Vận chuyển tối ưu (Optimal Transport — OT)** nằm đúng ngã tư nơi giải tích, xác suất, tối ưu lồi và khoa học dữ liệu bắt tay nhau.
+
+Bài này trình bày hành trình từ bài toán Monge, bản nới lỏng của Kantorovich, khoảng cách Wasserstein, đối ngẫu Kantorovich–Rubinstein, đến thuật toán Sinkhorn và các ứng dụng hiện đại — luôn giữ thói quen phân biệt rạch ròi đâu là định lý, đâu là xấp xỉ số và đâu là lời thổi phồng kiểu “Wasserstein GAN đã giải xong mô hình sinh”.
+
+---
+
+## Bản đồ kiến thức nền: Vận chuyển tối ưu là gì và nghiên cứu những gì?
+
+Nếu bạn đã quen với xác suất và tối ưu hóa bậc đại học, có lẽ bạn từng dùng phân kỳ KL (Kullback–Leibler) hay sai số bình phương để so sánh hai phân phối xác suất. Nhưng các thước đo truyền thống chỉ so sánh chiều cao của hai đồ thị *tại cùng một tọa độ*, nên chúng hoàn toàn mù trước hình học không gian: hai ngọn đồi giống hệt nhau nằm cách nhau 1 cm hay 100 km đều cho cùng một giá trị KL bằng vô cùng nếu chúng không chồng lên nhau!
+
+**Lý thuyết Vận chuyển Tối ưu** (Optimal Transport) khắc phục điểm mù đó bằng cách hỏi: *"Tốn ít nhất bao nhiêu công sức để đẩy khối lượng của phân phối $$\mu$$ thành hình dạng của phân phối $$\nu$$?"* Ngành này đứng trên **bốn trụ cột**:
+
+1. **Bài toán Monge và bản nới lỏng Kantorovich:** Từ ánh xạ đẩy từng điểm $$T(x)$$ (đôi khi không tồn tại vì không cho phép chia nhỏ khối lượng) đến kế hoạch ghép nối (*coupling*) $$\pi(x,y)$$ — biến một bài toán phi tuyến cực khó thành quy hoạch tuyến tính lồi.
+2. **Khoảng cách Wasserstein ($$W_p$$) và hình học không gian độ đo:** Biến tập hợp tất cả các phân phối xác suất thành một không gian hình học thực thụ, nơi ta có thể lấy trung bình hình học của hai phân phối (Wasserstein barycenter) và định nghĩa các đường trắc địa biến hình mượt mà.
+3. **Đối ngẫu Kantorovich–Rubinstein:** Thay vì tìm kế hoạch vận chuyển (góc nhìn nhà vận tải), ta tìm bảng giá mua–bán tại từng địa điểm sao cho chênh lệch giá không vượt quá chi phí chở hàng (góc nhìn nhà kinh tế).
+4. **OT tính toán (Computational OT — Sinkhorn):** Thêm điều chuẩn entropy để biến bài toán quy hoạch tuyến tính nặng nề thành phép nhân–chia ma trận siêu nhanh chạy mượt trên GPU.
 
 ---
 
@@ -52,7 +67,7 @@ $$
 \int c\bigl(x,T(x)\bigr)\,d\mu(x).
 $$
 
-Mỗi “hạt” ở $$x$$ đi đến đúng một chỗ $$T(x)$$. Ánh xạ như vậy có thể không tồn tại (chẳng hạn khi phải tách khối lượng của một nguyên tử ra thành hai phần). Ngay cả khi tồn tại, việc mô tả nó cũng không tầm thường. Với $$c=\|x-y\|^2$$ trên $$\mathbb{R}^d$$, dưới điều kiện chính quy, định lý Brenier liên hệ ánh xạ tối ưu với gradient của một thế lồi: $$T=\nabla\phi$$.
+Mỗi “hạt” ở $$x$$ đi đến đúng một chỗ $$T(x)$$. Ánh xạ như vậy có thể không tồn tại: hãy tưởng tượng một kho hàng duy nhất ở vị trí $$0$$ chứa 1 tấn cát ($$\mu = \delta_0$$), còn đích đến là hai hố ở $$-1$$ và $$+1$$, mỗi hố cần 0.5 tấn ($$\nu = \frac{1}{2}\delta_{-1} + \frac{1}{2}\delta_1$$). Vì một hàm số $$T$$ chỉ có thể gửi điểm $$0$$ tới *một* giá trị duy nhất $$T(0)$$, bài toán Monge vô nghiệm! Ngay cả khi tồn tại, việc mô tả $$T$$ cũng không tầm thường. Với $$c=\|x-y\|^2$$ trên $$\mathbb{R}^d$$, dưới điều kiện chính quy ($$\mu$$ có mật độ liên tục), định lý Brenier liên hệ ánh xạ tối ưu với gradient của một thế lồi: $$T=\nabla\phi$$.
 
 ---
 
@@ -64,7 +79,7 @@ $$
 \inf_{\pi\in\Pi(\mu,\nu)}\int c(x,y)\,d\pi(x,y),
 $$
 
-với $$\Pi(\mu,\nu)$$ là tập các coupling. Đây là một bài toán quy hoạch tuyến tính vô hạn chiều. Kế hoạch tối ưu là $$\pi$$; khi $$\pi$$ tập trung trên đồ thị của một ánh xạ thì ta quay về bài toán Monge.
+với $$\Pi(\mu,\nu)$$ là tập các coupling. Quay lại ví dụ kho hàng ở $$0$$ và hai hố ở $$\pm 1$$: kế hoạch Kantorovich đơn giản chia đôi khối lượng, đặt $$\pi(0, -1) = 0.5$$ và $$\pi(0, 1) = 0.5$$. Đây là một bài toán quy hoạch tuyến tính vô hạn chiều. Kế hoạch tối ưu là $$\pi$$; khi $$\pi$$ tập trung trên đồ thị của một ánh xạ thì ta quay về bài toán Monge.
 
 Dạng này mở ra đối ngẫu lồi và một lý thuyết tồn tại đã chín muồi; nó là điểm xuất phát mặc định của OT hiện đại.
 
@@ -84,7 +99,12 @@ $$
 W_p(\mu,\nu)=\Bigl(\inf_{\pi\in\Pi(\mu,\nu)}\int\|x-y\|^p\,d\pi\Bigr)^{1/p}
 $$
 
-(trên $$\mathbb{R}^d$$ với chi phí Euclid; trên không gian metric khác thì dùng $$d(x,y)^p$$). $$W_p$$ metric hóa sự hội tụ yếu cộng với hội tụ moment (với điều kiện phù hợp), và phản ánh hình học trung thực hơn TV hay KL khi các giá của hai phân phối lệch nhau. Dịch một cái bump nhỏ qua không gian tốn chi phí cỡ khoảng cách dịch trong $$W_1$$; còn KL có thể bằng vô cùng nếu hai giá không khớp.
+(trên $$\mathbb{R}^d$$ với chi phí Euclid; trên không gian metric khác thì dùng $$d(x,y)^p$$). $$W_p$$ metric hóa sự hội tụ yếu cộng với hội tụ moment (với điều kiện phù hợp), và phản ánh hình học trung thực hơn khoảng cách biến thiên toàn phần (TV) hay phân kỳ KL khi các giá của hai phân phối lệch nhau.
+
+Hãy so sánh trực tiếp hai phân phối điểm $$\delta_0$$ và $$\delta_\theta$$ (với $$\theta > 0$$):
+- Phân kỳ KL giữa chúng bằng $$+\infty$$ với mọi $$\theta \neq 0$$, rồi đột ngột rơi về $$0$$ đúng lúc $$\theta = 0$$ — gradient gần như vô ích!
+- Khoảng cách biến thiên toàn phần bằng $$1$$ với mọi $$\theta \neq 0$$, cũng phẳng lỳ không cho biết phải đẩy $$\theta$$ về hướng nào.
+- Trong khi đó, $$W_1(\delta_0, \delta_\theta) = \lvert\theta\rvert$$ — giảm tuyến tính và mượt mà đúng bằng khoảng cách hình học khi $$\theta \to 0$$.
 
 **Hình học của không gian các độ đo.** Không gian các độ đo có moment bậc hai hữu hạn với khoảng cách $$W_2$$ có cấu trúc rất giàu (giải tích Otto, tính lồi trắc địa của một số phiếm hàm). Đây là biên giới giữa giải tích và PDE (dòng nhiệt là dòng gradient của entropy trong không gian Wasserstein).
 
@@ -98,7 +118,9 @@ $$
 W_1(\mu,\nu)=\sup_{\|f\|_{\mathrm{Lip}}\le 1}\Bigl(\int f\,d\mu-\int f\,d\nu\Bigr).
 $$
 
-$$W_1$$ chính là đối ngẫu qua các hàm Lipschitz với hằng số không quá 1. Đối ngẫu này là cơ sở cho các chặn thống kê, cho cách diễn giải tối ưu bền vững, và cho một số công thức của mô hình sinh (critic Lipschitz, **về mặt lý thuyết**; trong thực hành, ràng buộc chỉ được xấp xỉ).
+$$W_1$$ chính là đối ngẫu qua các hàm Lipschitz với hằng số không quá 1. Trực giác kinh tế của công thức này rất dễ nhớ: thay vì tự chở cát từ $$x$$ sang $$y$$ với chi phí $$\|x-y\|$$, bạn thuê một công ty trung gian mua cát tại $$x$$ với giá $$f(x)$$ và bán lại tại $$y$$ với giá $$f(y)$$. Để không ai tự chở rẻ hơn, công ty phải đặt bảng giá sao cho $$f(x) - f(y) \le \|x-y\|$$ (chính là điều kiện 1-Lipschitz!). Lợi nhuận tối đa mà công ty có thể thu về đúng bằng chi phí vận chuyển tối ưu $$W_1(\mu,\nu)$$.
+
+Đối ngẫu này là cơ sở cho các chặn thống kê, cho cách diễn giải tối ưu bền vững, và cho một số công thức của mô hình sinh (critic Lipschitz, **về mặt lý thuyết**; trong thực hành, ràng buộc chỉ được xấp xỉ).
 
 Với chi phí tổng quát hơn, ta có các thế $$c$$-lõm và cấu trúc độ lệch bù (complementary slackness), tức tính $$c$$-đơn điệu theo chu trình của giá của kế hoạch tối ưu.
 

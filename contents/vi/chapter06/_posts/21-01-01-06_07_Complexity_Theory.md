@@ -9,9 +9,24 @@ categories:
 - chapter06
 ---
 
-Có bài toán khó chỉ vì ta kém may mắn. Có bài toán khó vì **mọi thuật toán** dường như đều phải trả giá theo hàm mũ. **Lý thuyết độ phức tạp tính toán** phân loại bài toán theo tài nguyên (thời gian, bộ nhớ, tính ngẫu nhiên, tương tác, cổng lượng tử) và nghiên cứu các phép quy dẫn, tức cách chuyển độ khó từ bài này sang bài khác. Đó là toán học của *độ khó nội tại*, làm chỗ dựa cho mật mã, thiết kế thuật toán, và cho việc đánh giá những tuyên bố “thần kỳ” về AI hay máy tính lượng tử.
+Hãy nghĩ về một bảng Sudoku cỡ lớn $$100\times 100$$. Nếu ai đó đưa cho bạn một bảng đã điền kín số, bạn chỉ mất vài phút để kiểm tra xem mỗi hàng, mỗi cột và mỗi ô vuông con có đủ các số từ 1 đến 100 không. Nhưng nếu người ta đưa bạn một bảng trống với vài chục gợi ý và bảo "giải đi", thời gian tìm ra lời giải có thể phình to đến mức vượt cả tuổi của vũ trụ. Liệu sự chênh lệch giữa **kiểm tra một lời giải** và **tự tìm ra lời giải** có phải là một quy luật bất biến của tự nhiên, hay chỉ vì ta chưa đủ thông minh để tìm ra đường tắt?
 
-Bài này là bản đồ các lớp bài toán và các ý tưởng chính: **P**, **NP**, NP-đầy đủ, tính ngẫu nhiên, chứng minh tương tác, các rào cản, các lớp lượng tử. Mục đích là giúp bạn đọc được vùng biên, không phải để thay cho cuốn Garey–Johnson.
+Có những bài toán khó vì ta kém may mắn chọn nhầm thuật toán. Nhưng có những bài toán dường như khó vì **mọi thuật toán có thể tồn tại** đều buộc phải trả giá theo hàm mũ. **Lý thuyết độ phức tạp tính toán** không nghiên cứu một thuật toán cụ thể, mà nghiên cứu *bản thân bài toán*: phân loại chúng theo tài nguyên tối thiểu cần thiết (thời gian, bộ nhớ, tính ngẫu nhiên, tương tác, cổng lượng tử) và nối chúng lại bằng các phép quy dẫn. Đó là toán học của **độ khó nội tại** — nền tảng của mật mã hiện đại, thiết kế thuật toán, và là chiếc thước đo tỉnh táo để soi những tuyên bố “thần kỳ” về AI hay máy tính lượng tử.
+
+Bài này phác họa bản đồ các lớp độ phức tạp và ý tưởng cốt lõi: **P**, **NP**, NP-đầy đủ, tính ngẫu nhiên, chứng minh tương tác, các rào cản chứng minh và độ phức tạp lượng tử. Mục tiêu là giúp bạn đọc vững vàng ở vùng biên, chứ không thay cho giáo trình chuyên sâu như Garey–Johnson.
+
+---
+
+## Bản đồ kiến thức nền: Lý thuyết độ phức tạp là gì và nghiên cứu những gì?
+
+Nếu khoa học máy tính ứng dụng hỏi *"làm sao viết chương trình chạy nhanh hơn?"*, thì **Lý thuyết Độ phức tạp Tính toán** (Computational Complexity Theory) hỏi câu hỏi ngược lại — và khó hơn nhiều: *"làm sao chứng minh rằng KHÔNG CÓ chương trình nào trên đời chạy nhanh hơn một ngưỡng nhất định?"*
+
+Ngành này xoay quanh **bốn trụ cột tư duy**:
+
+1. **Phân loại theo tài nguyên (Complexity Classes):** Gom các bài toán vào những "vùng đất" như **P** (giải nhanh), **NP** (kiểm chứng nhanh), **PSPACE** (tốn ít bộ nhớ), **BPP** (dùng tung xúc xắc ngẫu nhiên), **BQP** (dùng máy lượng tử).
+2. **Phép quy dẫn và tính đầy đủ (Reductions & Completeness):** Vì chứng minh trực tiếp một bài toán là "không thể giải nhanh" quá khó, các nhà khoa học xây dựng một mạng lưới quy đổi: chứng minh rằng nếu bạn giải nhanh được bài toán $$B$$, bạn lập tức giải nhanh được cả nghìn bài toán khác. Đỉnh cao của tư duy này là lớp **NP-đầy đủ** — những bài toán "khó ngang nhau" và khó nhất trong NP.
+3. **Các rào cản siêu toán học (Barriers):** Tại sao câu hỏi $$\mathbf{P} \stackrel{?}{=} \mathbf{NP}$$ đã đứng vững hơn nửa thế kỷ với giải thưởng 1 triệu USD? Lý thuyết độ phức tạp thậm chí còn chứng minh được *những giới hạn của chính các kỹ thuật chứng minh* (relativization, natural proofs, algebrization).
+4. **Độ khó như một tài nguyên (Hardness as a Resource):** Độ khó không chỉ là tin xấu! Trong mật mã học và khử ngẫu nhiên, độ khó tính toán lại chính là *nguyên liệu quý* để khóa bí mật và tạo ra tính giả ngẫu nhiên.
 
 ---
 
@@ -34,7 +49,7 @@ Sau bài này, bạn có thể:
 
 Bài toán quyết định là một ngôn ngữ $$L\subseteq\{0,1\}^*$$: với đầu vào $$x$$, thuật toán chấp nhận nếu $$x\in L$$. Độ phức tạp nhóm các ngôn ngữ theo chi phí của thuật toán tốt nhất trong một mô hình (máy Turing tất định, họ mạch, mạch lượng tử, …). Thời gian $$T(n)$$ là hàm của độ dài đầu vào $$n=|x|$$.
 
-**P** là lớp các bài toán quyết định giải được tất định trong thời gian đa thức, nghĩa là tồn tại $$c$$ và một máy chạy trong $$O(n^c)$$. Thời gian đa thức là một thước đo thô nhưng bền cho khái niệm “hiệu quả”, giữ nguyên giữa các mô hình hợp lý (luận đề Cobham–Edmonds, không phải một định lý phổ quát).
+**P** là lớp các bài toán quyết định giải được tất định trong thời gian đa thức, nghĩa là tồn tại $$c$$ và một máy chạy trong $$O(n^c)$$. Thời gian đa thức là một thước đo thô nhưng bền cho khái niệm “hiệu quả”, giữ nguyên giữa các mô hình hợp lý (luận đề Cobham–Edmonds, không phải một định lý phổ quát). Hãy cảm nhận khoảng cách giữa đa thức và hàm mũ: với $$n = 60$$, một thuật toán $$O(n^2)$$ chỉ cần $$3{,}600$$ bước (chưa tới một phần triệu giây), trong khi thuật toán $$O(2^n)$$ đòi $$2^{60} \approx 10^{18}$$ bước (hàng chục năm trên một CPU đơn lẻ).
 
 Bài toán tìm kiếm và tối ưu gắn với phiên bản quyết định của chúng (ví dụ “đồ thị có clique cỡ $$k$$ không?”). Thuật toán xấp xỉ và độ khó của việc xấp xỉ cho ta bức tranh tinh hơn khi nghiệm chính xác là quá khó.
 
@@ -42,9 +57,17 @@ Bài toán tìm kiếm và tối ưu gắn với phiên bản quyết định c�
 
 ## 2. NP và việc kiểm chứng
 
-**NP** là lớp các bài toán có **chứng cứ** (witness) ngắn mà ta kiểm tra được tất định trong thời gian đa thức. Chính xác hơn: $$x\in L$$ khi và chỉ khi tồn tại $$w$$ với $$|w|\le\operatorname{poly}(|x|)$$ sao cho bộ kiểm tra $$V(x,w)$$ chấp nhận trong thời gian đa thức. Với SAT, một phép gán thỏa mãn chính là chứng cứ.
+**NP** là lớp các bài toán có **chứng cứ** (witness) ngắn mà ta kiểm tra được tất định trong thời gian đa thức. Chính xác hơn: $$x\in L$$ khi và chỉ khi tồn tại $$w$$ với $$|w|\le\operatorname{poly}(|x|)$$ sao cho bộ kiểm tra $$V(x,w)$$ chấp nhận trong thời gian đa thức.
 
-**Lưu ý quan trọng:** NP *không* có nghĩa là “non-polynomial” như cách hiểu thông thường trong tiếng Anh. Mọi ngôn ngữ trong P đều nằm trong NP (bỏ qua chứng cứ). Câu hỏi $$\mathbf{P}=\mathbf{NP}?$$ vẫn còn mở.
+Ví dụ cụ thể với bài toán **3-SAT**: cho một công thức logic như
+
+$$
+(x_1 \lor \neg x_2 \lor x_3) \land (\neg x_1 \lor x_2 \lor x_4) \land \cdots
+$$
+
+gồm hàng trăm biến và hàng nghìn mệnh đề. Tìm ra một bộ giá trị Đúng/Sai cho các biến sao cho toàn bộ công thức đúng có vẻ như mò kim đáy bể trong $$2^n$$ khả năng. Nhưng nếu ai đó đưa cho bạn một bộ gán cụ thể (chứng cứ $$w$$), bạn chỉ cần thay từng biến vào rồi kiểm tra từng mệnh đề — mất thời gian tuyến tính!
+
+**Lưu ý quan trọng:** NP *không* có nghĩa là “non-polynomial” như cách hiểu thông thường trong tiếng Anh (chữ viết tắt đúng là *Nondeterministic Polynomial time*). Mọi ngôn ngữ trong P đều nằm trong NP (chỉ cần bỏ qua chứng cứ và tự giải). Câu hỏi $$\mathbf{P}=\mathbf{NP}?$$ vẫn còn mở.
 
 ---
 
@@ -52,7 +75,7 @@ Bài toán tìm kiếm và tối ưu gắn với phiên bản quyết định c�
 
 $$A$$ quy dẫn Karp về $$B$$ nếu có hàm $$f$$ tính được trong thời gian đa thức sao cho $$x\in A\Leftrightarrow f(x)\in B$$. Nếu $$B\in\mathbf{P}$$ và $$A$$ quy dẫn về $$B$$ thì $$A\in\mathbf{P}$$. Độ khó lan **lên** theo chiều quy dẫn.
 
-**Cook–Levin:** SAT là **NP-đầy đủ**, nghĩa là nó thuộc NP và mọi ngôn ngữ trong NP đều quy dẫn về nó. Hàng nghìn bài toán tự nhiên là NP-đầy đủ (tô màu đồ thị, chu trình Hamilton, phiên bản quyết định của quy hoạch nguyên, …). Đây là lý thuyết về độ khó **có điều kiện**: nếu một bài toán NP-đầy đủ thuộc P thì $$\mathbf{P}=\mathbf{NP}$$.
+**Cook–Levin:** SAT là **NP-đầy đủ**, nghĩa là nó thuộc NP và mọi ngôn ngữ trong NP đều quy dẫn về nó. Hàng nghìn bài toán tự nhiên là NP-đầy đủ (tô màu đồ thị, chu trình Hamilton, phiên bản quyết định của quy hoạch nguyên, …). Đây là lý thuyết về độ khó **có điều kiện**: nếu một bài toán NP-đầy đủ thuộc P thì $$\mathbf{P}=\mathbf{NP}$$. Nói một cách hình ảnh, toàn bộ hàng nghìn bài toán NP-đầy đủ được buộc chặt vào nhau bằng dây leo núi: chỉ cần *một* bài rơi xuống lớp P, cả dây chuyền sẽ kéo nhau rơi theo.
 
 **Cần hiểu đúng.** NP-đầy đủ nghĩa là khó nhất trong NP theo phép quy dẫn thời gian đa thức. Nó không có nghĩa là “không giải được”, không có nghĩa là “mọi thể hiện thực tế đều bất khả”, và độ khó trong trường hợp xấu nhất không phải là độ khó trung bình. Các thể hiện có cấu trúc có thể dễ; heuristic có thể chạy tốt; trường hợp trung bình có thể khác.
 
@@ -76,7 +99,7 @@ Nhiều quan hệ tách giữa các lớp vẫn còn mở. Relativization, natur
 
 ## 5. Tính ngẫu nhiên và khử ngẫu nhiên
 
-Các thuật toán ngẫu nhiên (kiểm tra đồng nhất thức đa thức, một số thuật toán đồ thị trong lịch sử) nằm trong BPP. Về khử ngẫu nhiên: nếu giả thiết có những chặn dưới đủ mạnh cho mạch, thì tính ngẫu nhiên có lẽ không làm tăng nhiều sức mạnh của thời gian đa thức ($$\mathbf{P}=\mathbf{BPP}$$ trong một số thế giới được giả định). Bộ sinh giả ngẫu nhiên nối độ khó với tính ngẫu nhiên, và là cầu nối sang mật mã.
+Các thuật toán ngẫu nhiên (kiểm tra đồng nhất thức đa thức, kiểm tra số nguyên tố Miller–Rabin trong lịch sử) nằm trong BPP. Về khử ngẫu nhiên: nếu giả thiết có những chặn dưới đủ mạnh cho mạch, thì tính ngẫu nhiên có lẽ không làm tăng nhiều sức mạnh của thời gian đa thức ($$\mathbf{P}=\mathbf{BPP}$$ trong một số thế giới được giả định). Bộ sinh giả ngẫu nhiên nối độ khó với tính ngẫu nhiên, và là cầu nối sang mật mã.
 
 ---
 
@@ -94,7 +117,7 @@ Khi việc tối ưu chính xác là NP-khó, ta hỏi về nghiệm xấp xỉ 
 
 ## 7. Độ phức tạp lượng tử
 
-**BQP** gồm các bài toán giải hiệu quả trên máy lượng tử với lỗi bị chặn. Phân tích thừa số thuộc BQP (Shor); người ta không biết nó có thuộc P hay không; và không tin rằng nó là NP-đầy đủ. Không ai biết máy lượng tử giải bài toán NP-đầy đủ trong thời gian đa thức; Grover tăng tốc bậc hai cho tìm kiếm không cấu trúc nhưng vẫn để lại độ tăng theo hàm mũ trên không gian $$2^n$$.
+**BQP** gồm các bài toán giải hiệu quả trên máy lượng tử với lỗi bị chặn. Phân tích thừa số thuộc BQP (Shor); người ta không biết nó có thuộc P hay không; và không tin rằng nó là NP-đầy đủ. Không ai biết máy lượng tử giải bài toán NP-đầy đủ trong thời gian đa thức; Grover tăng tốc bậc hai cho tìm kiếm không cấu trúc nhưng vẫn để lại độ tăng theo hàm mũ trên không gian $$2^n$$ (từ $$2^n$$ xuống $$2^{n/2}$$ vẫn là hàm mũ).
 
 Xem [Thông tin lượng tử]({{ site.baseurl }}/contents/vi/chapter06/06_03_Quantum_Information/), [Mật mã biên giới]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/).
 

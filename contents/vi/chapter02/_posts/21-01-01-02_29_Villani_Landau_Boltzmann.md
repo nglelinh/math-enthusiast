@@ -9,16 +9,16 @@ categories:
 - chapter02
 ---
 
-**Cédric Villani** nhận **Huy chương Fields 2010**
+Hãy đặt hai bức tranh vật lý tưởng chừng trái ngược nhau cạnh nhau. Bức tranh thứ nhất là một bình khí loãng: hàng tỷ tỷ phân tử bay hỗn loạn và va chạm chan chát vào nhau, sinh ra entropy và dần dàn phẳng nhiệt độ về trạng thái cân bằng Maxwell. Bức tranh thứ hai là một đám mây **plasma** nóng rực ngoài không gian (hoặc trong lò phản ứng nhiệt hạch): các hạt điện tích loãng đến mức **hầu như không bao giờ va chạm trực tiếp với nhau**, phương trình chuyển động hoàn toàn thuận nghịch theo thời gian và entropy *không hề tăng*. Ấy vậy mà vào năm 1946, nhà vật lý **Lev Landau** tiên đoán một hiện tượng nghịch lý: chỉ cần thả một dao động điện trường vào đám mây plasma không va chạm đó, điện trường vĩ mô vẫn tự động **tắt dần theo hàm mũ** như thể có ma sát!
+
+Suốt hơn sáu thập kỷ, câu hỏi liệu "ma sát không va chạm" kỳ lạ đó có còn sống sót khi đưa số hạng **phi tuyến** thực sự vào phương trình hay không — và tốc độ hội tụ về cân bằng của một chất khí **không thuần nhất** theo phương trình Boltzmann nhanh đến mức nào — vẫn là hai thách thức lớn của lý thuyết động học. Năm 2010, **Cédric Villani** nhận **Huy chương Fields**:
 
 > “For his proofs of nonlinear Landau damping and convergence to equilibrium for the Boltzmann equation.”  
 > — [IMU, Fields Medals 2010](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2010)
 
 *Tạm dịch: vì các chứng minh về hiện tượng tắt dần Landau phi tuyến và sự hội tụ về trạng thái cân bằng của phương trình Boltzmann.*
 
-Lời trao giải nói về lý thuyết động học (kinetic theory), không nói về vận chuyển tối ưu. Villani cũng là tác giả hai cuốn sách chuẩn về vận chuyển tối ưu, *Topics in Optimal Transportation* (AMS, 2003) và *Optimal Transport: Old and New* (Springer, 2009), và mảng này rất quan trọng với giải tích và hình học hiện đại. Nhưng đó **không** phải điều IMU nêu năm 2010. Vì vậy khóa học xem vận chuyển tối ưu là một chủ đề lân cận; xem [Vận chuyển tối ưu]({{ site.baseurl }}/contents/vi/chapter06/06_09_Optimal_Transport/) và [Figalli]({{ site.baseurl }}/contents/vi/chapter02/02_20_Figalli_Optimal_Transport/). Cuốn hồi ký *Théorème vivant* (bản tiếng Anh *Birth of a Theorem*) kể lại trải nghiệm làm ra một chứng minh. Đó **không** phải bài báo nghiên cứu và sẽ không được trích dẫn như một bài báo.
-
-Huy chương 2010 ghi nhận hai định lý về phương trình đạo hàm riêng trong vật lý thống kê. **Tắt dần Landau phi tuyến** (cùng Clément Mouhot) là kết quả cho trường hợp không va chạm, thuộc phương trình Vlasov: một trạng thái cân bằng thuần nhất của plasma có thể làm các dao động điện trường vĩ mô tắt đi mà không cần va chạm, kể cả khi vượt ra ngoài phép tuyến tính hóa của Lev Landau (1946). **Hội tụ về cân bằng cho phương trình Boltzmann** (cùng Laurent Desvillettes, và trong chương trình "hypocoercivity" của Villani) là kết quả cho trường hợp có va chạm: dưới các giả thiết về độ trơn và tính dương được nêu rõ trong các bài báo, sự sinh entropy buộc nghiệm tiến về phân bố Maxwell. Không kết quả nào trong hai kết quả là một lý thuyết đầy đủ, không điều kiện, về nghiệm trơn toàn cục cho mọi nhân va chạm có ý nghĩa vật lý. Huy chương ghi nhận **tốc độ và cơ chế** khi đã ở trong chế độ đủ chính quy, và một hiện tượng tắt dần phi tuyến mà các nhà vật lý tin là đúng trong nhiều thập niên nhưng chưa có chứng minh toán học đầy đủ.
+Có một hiểu lầm rất phổ biến cần làm sáng tỏ ngay đầu bài: dù Villani nổi tiếng khắp thế giới nhờ hai bộ sách kinh điển về **vận chuyển tối ưu** (*Topics in Optimal Transportation* và *Optimal Transport: Old and New*), lời trao giải năm 2010 của IMU **không** nói về vận chuyển tối ưu (mảng đó được trình bày ở [Vận chuyển tối ưu]({{ site.baseurl }}/contents/vi/chapter06/06_09_Optimal_Transport/) và [Figalli]({{ site.baseurl }}/contents/vi/chapter02/02_20_Figalli_Optimal_Transport/)). Huy chương 2010 tôn vinh hai kiệt tác về **phương trình động học**: chứng minh **tắt dần Landau phi tuyến** (cùng **Clément Mouhot**) cho phương trình Vlasov–Poisson, và chứng minh **tốc độ hội tụ về cân bằng** cho phương trình Boltzmann không thuần nhất (cùng **Laurent Desvillettes**, cùng chương trình **hypocoercivity** của Villani). Đồng thời, cuốn sách bán chạy *Théorème vivant* (*Birth of a Theorem*) là một tác phẩm hồi ký hấp dẫn về quá trình nghiên cứu cùng Mouhot, không phải bài báo khoa học.
 
 ---
 
@@ -26,13 +26,13 @@ Huy chương 2010 ghi nhận hai định lý về phương trình đạo hàm ri
 
 Sau bài học, bạn có thể:
 
-- Phân biệt khung **Vlasov** (không va chạm, trường tự hợp) của tắt dần Landau với khung **Boltzmann** (có va chạm) của xu hướng về cân bằng.
-- Nêu ngắn gọn phát hiện năm 1946 của Landau: một plasma không va chạm, sau khi tuyến tính hóa, có thể làm dao động điện trường tắt dần.
-- Ghi công **Mouhot–Villani** cho định lý phi tuyến (với dữ kiện giải tích, và một số lớp Gevrey; thế tương tác không kỳ dị hơn thế Coulomb/Newton).
-- Mô tả định lý $$H$$ của Boltzmann như một phát biểu về sự sinh entropy, và giải thích vì sao trường hợp **không thuần nhất theo không gian** khiến xu hướng về cân bằng khó hơn nhiều so với trường hợp thuần nhất.
-- Giải thích ngắn gọn **hypocoercivity**: một quá trình tiêu tán suy biến vẫn có thể tạo ra khe phổ khi kết hợp với một cơ chế trộn các biến còn lại.
-- Nêu rằng các kết quả hội tụ kiểu Desvillettes–Villani là **có điều kiện** về độ trơn, độ suy giảm và tính dương, không phải một lý thuyết chính quy toàn cục không điều kiện.
-- Tách lời trao giải của IMU năm 2010 khỏi các sách về **vận chuyển tối ưu** của Villani và khỏi cuốn hồi ký phổ thông *Birth of a Theorem*.
+- Phân biệt rành mạch hai khung vật lý đối lập: phương trình **Vlasov** (không va chạm, thuận nghịch, trường tự hợp) của tắt dần Landau và phương trình **Boltzmann** (có va chạm, tăng entropy) của xu hướng về cân bằng.
+- Giải thích trực quan cơ chế **trộn pha** (*phase mixing*) đằng sau phát hiện năm 1946 của Landau: vì sao điện trường vĩ mô có thể tắt dần mà không cần va chạm hay mất năng lượng.
+- Ghi công đúng cho **Mouhot–Villani** trong định lý tắt dần Landau phi tuyến (với dữ kiện giải tích / Gevrey, vượt qua hiện tượng "tiếng vọng plasma").
+- Mô tả định lý $$H$$ của Boltzmann và giải thích vì sao trường hợp **không thuần nhất theo không gian** lại khó hơn rất nhiều so với trường hợp thuần nhất.
+- Giải thích trực quan ý tưởng **hypocoercivity**: khi sự tiêu tán chỉ tác động lên vận tốc $$v$$, quá trình vận chuyển theo không gian $$x$$ giúp "trộn" sự tiêu tán sang cả không gian pha.
+- Nhận rõ rằng định lý hội tụ của **Desvillettes–Villani** là một định lý **có điều kiện** (giả thiết trước về độ trơn, suy giảm và tính dương), không phải lý thuyết chính quy toàn cục không điều kiện.
+- Tách bạch lời trao giải năm 2010 khỏi các chuyên khảo về **vận chuyển tối ưu** và cuốn hồi ký *Birth of a Theorem*.
 
 **Kiến thức nền.** Phương trình vi phân thường và phương trình đạo hàm riêng ở mức một giáo trình giải tích nghiêm túc đầu tiên; hàm mật độ xác suất $$f(t,x,v)$$ trên không gian vị trí–vận tốc; entropy như một hàm Lyapunov. Biết cơ học Hamilton và biến đổi Fourier sẽ giúp hiểu tắt dần Landau, nhưng không bắt buộc.
 
@@ -40,59 +40,82 @@ Sau bài học, bạn có thể:
 
 ---
 
+## Bản đồ kiến thức nền: Lý thuyết động học, trộn pha và hypocoercivity là gì?
+
+Trước khi đi vào các phương trình, hãy nắm ba hình ảnh trực quan cực kỳ gần gũi cho thấy điều gì thực sự xảy ra bên trong chất khí và plasma.
+
+**1. Không gian pha $$(x, v)$$ — tấm bản đồ của chất khí.**
+Thay vì theo dõi từng phân tử trong $$10^{23}$$ hạt (điều bất khả thi), **lý thuyết động học** mô tả cả đám mây hạt bằng một hàm mật độ $$f(t, x, v) \ge 0$$: tại thời điểm $$t$$, có bao nhiêu hạt đang ở quanh vị trí $$x$$ và bay với vận tốc $$v$$. Khi lấy tích phân theo mọi vận tốc, $$\rho(t,x) = \int f(t,x,v)\,dv$$ cho ta mật độ vật chất quan sát được ở vị trí $$x$$.
+
+**2. Trộn pha (Phase mixing) — hình ảnh đoàn vận động viên chạy quanh sân vận động.**
+Hãy tưởng tượng 10.000 vận động viên xuất phát cùng lúc tại vạch xuất phát trên một đường chạy vòng tròn, nhưng mỗi người chạy với một vận tốc không đổi $$v$$ khác nhau (phân bố mượt quanh một vận tốc trung bình). Họ **không hề va chạm** vào nhau và **không ai chạy chậm lại** cả! Thế nhưng chỉ sau vài vòng, người nhanh vượt xa người chậm, đám đông bị kéo giãn thành những dải xoắn ốc ngày càng mảnh trong không gian $$(x,v)$$. Nếu bạn đứng ở khán đài chỉ đếm **tổng số người ở mỗi đoạn đường chạy** (tức lấy trung bình theo vận tốc $$v$$), bạn sẽ thấy mật độ vận động viên dọc theo vòng chạy phẳng lỳ đều tăm tắp — mọi dao động đám đông ban đầu đã **tắt hẳn**! Đó chính xác là cơ chế của **tắt dần Landau**: thông tin không biến mất mà bị đẩy dần sang các tần số vận tốc cực cao!
+
+**3. Hypocoercivity — khuấy một tách cà phê sữa chỉ chạm thìa ở một chiều.**
+Trong phương trình Boltzmann, va chạm giữa các phân tử chỉ làm mượt và đưa phân bố **vận tốc $$v$$** về hình chuông Maxwell, chứ không trực tiếp di chuyển các hạt từ đầu phòng này sang đầu phòng kia (biến **vị trí $$x$$**). Vậy tại sao một căn phòng có góc nóng, góc lạnh cuối cùng vẫn đạt nhiệt độ đều khắp nơi? Vì các hạt bay tự do theo số hạng vận chuyển $$v \cdot \nabla_x$$, liên tục trộn lẫn các vị trí với nhau rồi lại bị va chạm hãm vận tốc! Trong giải tích, một hệ có thành phần tiêu tán bị "khuyết chiều" (chỉ hãm theo $$v$$) nhưng nhờ kết hợp với thành phần bảo toàn không giao hoán (vận chuyển theo $$x$$) mà vẫn suy giảm toàn cục về cân bằng được Villani đặt tên là **hypocoercivity**.
+
+---
+
 ## 1. Hai thế giới của lý thuyết động học
 
-Một phương trình động học mô tả chất khí hoặc plasma bằng mật độ $$f(t,x,v)$$ của các hạt tại thời điểm $$t$$, vị trí $$x$$, vận tốc $$v$$. Huy chương liên quan tới hai mô hình ở hai thái cực.
+Huy chương Fields 2010 kết nối hai phương trình nền tảng nằm ở hai thái cực của lý thuyết động học:
 
-Trong mô hình **Vlasov–Poisson** (hoặc Vlasov–Maxwell), các hạt không va chạm. Chúng chịu tác dụng của trường tự hợp $$E$$, tính từ mật độ điện tích $$\rho=\int f\,dv-1$$ (đã trừ điện tích nền chuẩn hóa). Phương trình có dạng
+**Thế giới không va chạm — Phương trình Vlasov–Poisson:** Mô tả các hạt tích điện trong plasma (hoặc các ngôi sao trong thiên hà tương tác bằng lực hấp dẫn). Các hạt không đụng nhau trực tiếp mà cùng chuyển động trong trường lực tự hợp $$E[f]$$ sinh ra bởi mật độ tổng $$\rho(t,x) = \int f\,dv - 1$$:
 
 $$
 \partial_t f + v\cdot\nabla_x f + E[f]\cdot\nabla_v f = 0.
 $$
 
-Phương trình này thuận nghịch, thấy ngay khi nhìn dọc các đường đặc trưng: không có toán tử va chạm Boltzmann nên không có định lý $$H$$ nào cho ta sự tắt dần ngay lập tức. Nếu có tắt dần, nó phải đến từ **trộn pha**: hàm $$f$$ bị kéo thành các sợi mảnh trong không gian $$(x,v)$$, và khi lấy trung bình theo vận tốc thì mật độ trong không gian trở nên đều. Tắt dần không đến từ va chạm.
+Phương trình này hoàn toàn **thuận nghịch theo thời gian** và bảo toàn mọi chuẩn $$L^p$$ cũng như entropy $$\int f \log f$$! Không có định lý $$H$$ nào kéo $$f$$ về cân bằng theo nghĩa mạnh; sự tắt dần duy nhất có thể xảy ra là hội tụ yếu do **trộn pha** (điện trường $$E[f]$$ tắt về $$0$$ khi $$f$$ bị kéo thành sợi mảnh).
 
-Trong mô hình **Boltzmann**, các hạt va chạm với nhau. Phương trình có dạng
+**Thế giới có va chạm — Phương trình Boltzmann:** Mô tả chất khí trung hòa nơi các phân tử va chạm từng đôi một theo toán tử va chạm song tuyến tính $$Q(f,f)$$:
 
 $$
-\partial_t f + v\cdot\nabla_x f = Q(f,f),
+\partial_t f + v\cdot\nabla_x f = Q(f,f).
 $$
 
-trong đó $$Q$$ là toán tử va chạm song tuyến tính, mã hóa định luật va chạm vi mô (quả cầu cứng, nhân có cắt (cutoff), kỳ dị kiểu Coulomb, …). Phiếm hàm $$H$$ của Boltzmann, $$H(f)=\int f\log f$$, giảm theo thời gian (dưới các giả thiết thích hợp), và các trạng thái cân bằng duy nhất là các phân bố Maxwell. Câu hỏi toán học là sự tồn tại, tính chính quy, và $$f(t)$$ tiến **nhanh đến mức nào** về phân bố Maxwell tương thích với các đại lượng bảo toàn (khối lượng, động lượng, năng lượng).
-
-Lời trao giải cho Villani bao gồm cả hai thế giới. Nếu gộp chúng vào một câu như "ông chứng minh chất khí đạt cân bằng", ta sẽ xóa mất sự phân biệt mà IMU đã viết rất cẩn thận.
+Tại đây, **định lý $$H$$ của Boltzmann** khẳng định phiếm hàm $$H(f) = \int f \log f\,dx\,dv$$ luôn giảm (tức entropy vật lý luôn tăng), và $$H(f)$$ chỉ ngừng giảm khi $$f$$ là một **phân bố cân bằng Maxwell** (hình chuông Gauss theo vận tốc). Câu hỏi toán học lớn là: nghiệm tiến về cân bằng Maxwell *nhanh đến mức nào* khi chất khí ban đầu không đồng nhất trong không gian?
 
 ---
 
-## 2. Tắt dần Landau: từ tuyến tính đến phi tuyến
+## 2. Tắt dần Landau: từ bài toán tuyến tính 1946 đến đột phá phi tuyến
 
-Năm 1946, Lev Landau phân tích phương trình Vlasov–Poisson tuyến tính hóa quanh một trạng thái cân bằng thuần nhất $$f^0(v)$$ (ví dụ một phân bố Maxwell). Ông phát hiện điện trường có thể giảm theo hàm mũ theo thời gian, dù phương trình thuận nghịch và không có va chạm. Cơ chế ở đây không phải tiêu tán theo nghĩa $$L^2$$ thông thường. Đó là sự triệt tiêu do **trộn pha**, nhìn thấy được sau khi lấy biến đổi Fourier theo $$x$$ và dịch chuyển đường lấy tích phân một cách cẩn thận trên mặt phẳng vận tốc phức (đường tích phân Landau). Tắt dần Landau tuyến tính trở thành một trụ cột của vật lý plasma.
+Năm 1946, **Lev Landau** tuyến tính hóa phương trình Vlasov–Poisson quanh một trạng thái cân bằng thuần nhất $$f^0(v)$$ (như phân bố Maxwell). Bằng biến đổi Fourier theo không gian và giải tích phức trên mặt phẳng vận tốc (đường tích phân Landau), ông chứng minh rằng nếu $$f^0$$ thỏa điều kiện ổn định Penrose, thì điện trường $$E(t,x)$$ tắt nhanh theo hàm mũ $$e^{-\lambda t}$$ — mặc dù không có chút va chạm nào!
 
-Tắt dần phi tuyến là một định lý khác. Số hạng phi tuyến $$E[f]\cdot\nabla_v f$$ sinh ra các hiện tượng "tiếng vọng" (echo) và cộng hưởng, và trong thời gian dài người ta không biết chúng có phá vỡ sự suy giảm tuyến tính hay không. **Clément Mouhot** và **Cédric Villani** chứng minh rằng với nhiễu giải tích của một trạng thái cân bằng thuần nhất ổn định (và, trong một mở rộng, với một số lớp Gevrey), và với thế tương tác không kỳ dị hơn thế Coulomb hay Newton, phương trình Vlasov phi tuyến có tắt dần Landau với tốc độ hàm mũ. Trường lực giảm dần, mật độ hội tụ về một trạng thái thuần nhất gần đó, còn hàm phân bố vẫn gần với một nghiệm của phương trình vận chuyển tự do, đo bằng các chuẩn giải tích được điều chỉnh thích hợp. Bài báo là Mouhot–Villani, "On Landau damping", *Acta Mathematica* 207 (2011), 29–201, arXiv:0904.2760.
+**Vì sao bài toán phi tuyến lại đứng vững suốt 65 năm?** Khi giữ lại số hạng phi tuyến $$E[f] \cdot \nabla_v f$$, các sợi mảnh trong không gian pha có thể tự tương tác ngược lại với nhau và tạo ra hiện tượng vật lý nổi tiếng gọi là **tiếng vọng plasma** (*plasma echoes*): một dao động tưởng đã tắt lịm bỗng "sống dậy" mạnh mẽ sau một khoảng thời gian nhờ cộng hưởng tần số! Nếu chuỗi tiếng vọng này khuếch đại nối tiếp nhau, chúng sẽ phá tan hoàn toàn sự tắt dần tuyến tính.
 
-Chứng minh hiểu sự tắt dần là sự **chuyển tính chính quy** từ biến động học sang biến không gian, chứ không phải sự mất năng lượng. Nó dùng các chuẩn giải tích đo so với vận chuyển tự do, các đánh giá cho tiếng vọng phi tuyến, và một sơ đồ lặp kiểu Newton mà chính các tác giả so sánh với lý thuyết KAM. **Hãy ghi công Mouhot.** Đây là kết quả chung; các bài phổ biến viết "Villani chứng minh tắt dần Landau" là chưa đủ.
+Trong bài báo đồ sộ dài gần 200 trang *"On Landau damping"* (*Acta Mathematica* 207, 2011; [arXiv:0904.2760](https://arxiv.org/abs/0904.2760)), **Clément Mouhot và Cédric Villani** đã chinh phục hoàn toàn bài toán phi tuyến cho plasma tuần hoàn (trên hình xuyến $$\mathbb{T}^d$$): với mọi nhiễu ban đầu đủ nhỏ có độ chính quy **giải tích** (hoặc trong lớp **Gevrey** đủ cao — mở rộng về sau của Bedrossian–Masmoudi–Mouhot còn sắc nét hơn), và với thế tương tác không kỳ dị hơn thế Coulomb/Newton, điện trường $$E(t)$$ vẫn **tắt theo hàm mũ** về $$0$$, mật độ không gian hội tụ về hằng số, còn hàm phân bố $$f(t)$$ hội tụ yếu về một trạng thái cân bằng thuần nhất gần đó!
 
-**Định lý không khẳng định gì.** Nó không phải một phát biểu không điều kiện cho mọi dữ kiện Sobolev, cũng không phân loại mọi bất ổn định có thể có (bất ổn định hai dòng (two-stream) và các trường hợp tương tự vẫn bất ổn định ngay ở mức tuyến tính). Đó là một định lý về ổn định và tắt dần phi tuyến khi dữ kiện có độ chính quy cao.
+**Ý tưởng đột phá của Mouhot–Villani:**
+1. **Đánh đổi tính chính quy lấy sự suy giảm:** Họ theo dõi chuẩn giải tích *giảm dần bán kính hội tụ theo thời gian* đo dọc theo chuyển động vận chuyển tự do — biến "trộn pha" thành sự chuyển dịch năng lượng sang tần số cao.
+2. **Thuần hóa tiếng vọng plasma:** Họ thiết lập các đánh giá tinh vi chứng minh chuỗi tiếng vọng phi tuyến tuy có xuất hiện nhưng bị kìm hãm bởi lớp chính quy giải tích/Gevrey, không kịp bùng nổ trước khi trộn pha dập tắt điện trường.
+3. **Sơ đồ lặp kiểu Newton–KAM:** Họ giải phương trình phi tuyến bằng phép lặp giống lý thuyết KAM (Kolmogorov–Arnold–Moser) trong cơ học thiên thể.
 
----
-
-## 3. Phương trình Boltzmann: entropy, tính không thuần nhất, và các điều kiện
-
-Với phương trình Boltzmann **thuần nhất theo không gian** (không phụ thuộc $$x$$), phương pháp entropy và các đánh giá khe phổ đã có lịch sử lâu dài. Villani đóng góp các định lý $$H$$ định lượng và các kết quả về bất đẳng thức kiểu Cercignani (trong đó có bài "Cercignani’s conjecture is sometimes true and always almost true", *Comm. Math. Phys.* 234 (2003)). Cụm "hội tụ về cân bằng" trong lời trao giải nhắm cụ thể vào phương trình **không thuần nhất theo không gian**, nơi số hạng vận chuyển $$v\cdot\nabla_x$$ và toán tử va chạm $$Q$$ tương tác với nhau.
-
-Desvillettes và Villani, trong bài "On the trend to global equilibrium for spatially inhomogeneous kinetic systems: The Boltzmann equation", *Invent. Math.* 159 (2005), 245–316, thu được tốc độ hội tụ dạng $$O(t^{-\infty})$$, tức nhanh hơn mọi lũy thừa của $$t$$. Kết quả này **có điều kiện**: cần các đánh giá mạnh và tự nhiên về độ trơn, độ suy giảm khi vận tốc lớn, và tính dương chặt. Bài báo nói rõ rằng vào thời điểm đó các đánh giá này mới được chứng minh trong một số trường hợp đặc biệt. Các công trình sau (trường phái của Guo; các đánh giá hypocoercivity của nhiều tác giả) đã mở rộng vùng kết quả không điều kiện, nhưng khóa học sẽ không biến định lý năm 2005 thành một lý thuyết chính quy toàn cục đầy đủ cho phương trình Boltzmann.
-
-Chiến lược chứng minh kết hợp nhiều thành phần: định lý $$H$$ định lượng (sự sinh entropy kiểm soát khoảng cách tới phân bố Maxwell địa phương); một kết quả định lượng rằng nghiệm không thể mãi mãi trông như một chất lưu tiến hóa chậm (mô tả thủy động lực không ổn định); các bất đẳng thức hình học (trong đó có bất đẳng thức kiểu Korn từ công trình trước đó của Desvillettes–Villani); và một hệ bất đẳng thức vi phân chuyển sự sinh entropy địa phương thành sự suy giảm toàn cục.
+(Lưu ý quan trọng: định lý yêu cầu độ chính quy cao — với dữ kiện chỉ thuộc không gian Sobolev bậc thấp, tiếng vọng thực sự *có thể* phá hủy tắt dần Landau! Và cần luôn ghi công song song **Mouhot–Villani**, không chỉ một mình Villani.)
 
 ---
 
-## 4. Hypocoercivity, vận chuyển tối ưu, và vì sao được Fields
+## 3. Phương trình Boltzmann: entropy, tính không thuần nhất và các điều kiện
 
-**Hypocoercivity** là tên Villani đặt (Memoirs of the AMS, 2009) cho hiện tượng một quá trình tiêu tán suy biến vẫn cho đánh giá coercive (suy giảm có tốc độ) nhờ được trộn bởi một phần bảo toàn. Va chạm có thể chỉ làm tắt dần theo biến $$v$$; khi ghép với số hạng vận chuyển, sự tiêu tán lan sang biến $$x$$, theo tinh thần của định lý tổng bình phương Hörmander. Đây không phải một định lý riêng được IMU nêu tên. Đây là một cách tiếp cận, trong đó "hội tụ về cân bằng" trở thành một tốc độ tường minh, chứ không còn là một lập luận compact không cho tốc độ. Báo cáo của ông tại ICM 2006 đã giới thiệu các toán tử khuếch tán hypocoercive; huy chương năm 2010 nhìn lại chương trình đó khi nó được áp dụng cho Boltzmann và Landau.
+Với phương trình Boltzmann **thuần nhất theo không gian** ($$f$$ chỉ phụ thuộc $$t, v$$, không phụ thuộc $$x$$), lý thuyết định lượng về định lý $$H$$ đã phát triển mạnh từ lâu (trong đó chính Villani chứng minh bài báo nổi tiếng *"Cercignani's conjecture is sometimes true and always almost true"*, 2003, lượng hóa tốc độ sinh entropy $$D(f) \ge c (H(f) - H(M))^{1+\varepsilon}$$).
 
-Bài toán Monge, phép ghép Kantorovich và khoảng cách Wasserstein $$W_p$$ là ngôn ngữ chung mà Villani đã dạy cho cả một thế hệ, qua hai cuốn *Topics in Optimal Transportation* và *Optimal Transport: Old and New*. Độ cong Ricci tổng hợp của Lott–Villani (và độc lập là Sturm) là nhánh hình học; Huy chương Fields 2018 của Figalli thuộc về tính chính quy của ánh xạ vận chuyển. **Không điều nào trong số này nằm trong lời trao giải năm 2010.** Cách nhớ đơn giản là chia hai nhánh: Fields 2010 = tắt dần Landau (Mouhot–Villani) + phương trình Boltzmann (Desvillettes–Villani, hypocoercivity); còn sự nghiệp song song là vận chuyển tối ưu. Đọc [vận chuyển tối ưu]({{ site.baseurl }}/contents/vi/chapter06/06_09_Optimal_Transport/) và [Figalli]({{ site.baseurl }}/contents/vi/chapter02/02_20_Figalli_Optimal_Transport/) cho nhánh thứ hai.
+Nhưng với chất khí **không thuần nhất theo không gian** ($$f(t,x,v)$$ trong một hộp kín hoặc trên hình xuyến), một bẫy lớn xuất hiện: có thể tồn tại những trạng thái **cân bằng địa phương** — tại mỗi điểm $$x$$, phân bố vận tốc đã là hình chuông Maxwell nên toán tử va chạm $$Q(f,f) = 0$$ (sự sinh entropy bằng $$0$$!), nhưng nhiệt độ hay mật độ giữa các điểm $$x$$ khác nhau vẫn chưa đều nhau! Một phân bố như vậy không nằm ở cân bằng toàn cục, nhưng tại đúng thời điểm đó entropy lại tạm thời ngừng tăng!
 
-Lý thuyết động học đã có entropy, định lý $$H$$ và đường tích phân Landau, nhưng có rất ít định lý phi tuyến khớp với các khẳng định vật lý ở mức có tốc độ cụ thể. Mouhot–Villani biến phép tính tuyến tính năm 1946 thành một định lý phi tuyến. Desvillettes–Villani biến câu "entropy tăng" thành một kết quả định lượng cho chất khí không thuần nhất, với các giả thiết được viết rõ. Cuốn hồi ký *Birth of a Theorem* là văn chương về sự cộng tác đó. Còn định lý thì nằm trong bài báo trên *Acta*.
+Trong bài báo bước ngoặt năm 2005 (*Inventiones Mathematicae* 159), **Laurent Desvillettes và Cédric Villani** giải bài toán này và chứng minh rằng nghiệm hội tụ về cân bằng Maxwell toàn cục với tốc độ **nhanh hơn mọi lũy thừa của thời gian** ($$O(t^{-\infty})$$). Chiến lược của họ cực kỳ sắc sảo:
+- Kết hợp định lý $$H$$ định lượng (nếu $$f$$ xa cân bằng địa phương thì entropy tăng nhanh);
+- Với một định lý về **tính không ổn định của chế độ thủy động lực** (nếu $$f$$ tiến sát một cân bằng địa phương *không đồng nhất*, số hạng vận chuyển $$v \cdot \nabla_x$$ lập tức kéo nó *rời khỏi* lớp cân bằng địa phương, buộc sự sinh entropy phải bật sáng trở lại!);
+- Cùng các bất đẳng thức hình học (kiểu bất đẳng thức Korn) để biến sự bật-tắt liên hồi đó thành tốc độ suy giảm toàn cục $$O(t^{-\infty})$$.
+
+Cần lưu ý tính trung thực của định lý: kết quả Desvillettes–Villani là **có điều kiện** — họ giả thiết trước rằng nghiệm đang xét có độ trơn đều, suy giảm tốt theo vận tốc và có chặn dưới dương (những tính chất vốn cực khó chứng minh không điều kiện cho dữ kiện ban đầu lớn). Đó là định lý về **cơ chế và tốc độ hội tụ**, không phải lời giải cho bài toán mở về tính chính quy toàn cục của phương trình Boltzmann với dữ kiện lớn bất kỳ.
+
+---
+
+## 4. Hypocoercivity, vận chuyển tối ưu và vì sao được Fields
+
+Từ kinh nghiệm với phương trình Boltzmann và Fokker–Planck động học, Villani khái quát hóa cơ chế "tiêu tán suy biến + trộn vận chuyển $$\Rightarrow$$ suy giảm về cân bằng" thành một lý thuyết hệ thống mang tên **Hypocoercivity** (*Memoirs of the AMS*, 2009), lấy cảm hứng từ định lý hypoellipticity của Hörmander (dùng giao hoán tử $$[A, B]$$ để sinh ra hướng tiêu tán còn thiếu). Hypocoercivity không chỉ cho thấy hệ tiến về cân bằng, mà còn cho **tốc độ tường minh** (như hàm mũ hoặc $$O(t^{-\infty})$$) thay vì lập luận compact định tính không rõ nhanh chậm.
+
+Còn về **vận chuyển tối ưu** (khoảng cách Wasserstein $$W_p$$, hai cuốn sách kinh điển, và lý thuyết độ cong Ricci tổng hợp **Lott–Villani** / Sturm): đó là một trụ cột song song cực kỳ đồ sộ trong sự nghiệp Villani, ảnh hưởng sâu sắc tới cả hình học lẫn giải tích (và nối trực tiếp tới học trò của ông là [Alessio Figalli]({{ site.baseurl }}/contents/vi/chapter02/02_20_Figalli_Optimal_Transport/), Fields 2018). Hãy luôn tách rõ hai ngăn: **Fields 2010 = tắt dần Landau phi tuyến (Mouhot–Villani) + hội tụ về cân bằng của phương trình Boltzmann (Desvillettes–Villani, hypocoercivity)**; còn **vận chuyển tối ưu** là mảng đóng góp lớn song hành ngoài lời trao giải năm 2010.
+
+Lý do Villani nhận Huy chương Fields 2010 rất rõ ràng: suốt hơn nửa thế kỷ, lý thuyết động học có hai trụ cột vật lý nổi tiếng (tắt dần Landau 1946 và định lý $$H$$ của Boltzmann) nhưng lại thiếu những định lý phi tuyến định lượng tương xứng. Mouhot–Villani đã biến phép tính tuyến tính của Landau thành một định lý phi tuyến chặt chẽ bằng kỹ thuật giải tích KAM; còn Desvillettes–Villani đã biến câu nói định tính "entropy tăng" thành một định lý tốc độ hội tụ tường minh cho chất khí không thuần nhất.
 
 ---
 

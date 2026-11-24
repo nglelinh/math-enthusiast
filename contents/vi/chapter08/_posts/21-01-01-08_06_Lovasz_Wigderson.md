@@ -10,12 +10,14 @@ categories:
 lesson_type: required
 ---
 
-**Giải Abel 2021** được trao chung cho **László Lovász** và **Avi Wigderson**
+Có một thời, trong những giảng đường toán học cổ điển, các bài toán về đồ thị, mạng lưới hay tốc độ thuật toán từng bị xem là "vùng ngoại ô"—hữu ích cho kỹ sư máy tính, nhưng kém phần uy nghi so với hình học đại số hay giải tích hàm. Thế nhưng chính từ vùng ngoại ô ấy lại nảy sinh một trong những câu hỏi sâu sắc nhất của nhân loại ($$P \text{ vs } NP$$), cùng những cấu trúc làm rung chuyển cả mật mã học, tối ưu hóa và chính toán học thuần túy: làm sao chứng minh một cấu hình tổ hợp tồn tại giữa hàng triệu ràng buộc chồng chéo? Và liệu việc tung đồng xu có thật sự giúp máy tính thông minh hơn không?
+
+Năm **2021**, **Giải Abel** được trao chung cho **László Lovász** và **Avi Wigderson** như một tuyên ngôn lịch sử của cộng đồng toán học:
 
 > “for their foundational contributions to theoretical computer science and discrete mathematics, and their leading role in shaping them into central fields of modern mathematics.”  
 > — [Citation của ủy ban Abel](https://abelprize.no/abel-prize-laureates/2021)
 
-Bài này giải thích vì sao toán rời rạc và khoa học máy tính lý thuyết (TCS) được trao một giải thưởng “toán thuần túy cốt lõi” cho cả sự nghiệp: **bổ đề địa phương** của Lovász, lý thuyết đồ thị và tối ưu tổ hợp đóng góp gì; **tính ngẫu nhiên, khử ngẫu nhiên, expander và độ phức tạp** trong thế giới của Wigderson đóng góp gì; và đặt giải thưởng này cạnh [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/), bài toán vẫn còn mở, mà không nhầm lẫn hai việc. Tài liệu: [abelprize.no](https://abelprize.no/).
+Từ bổ đề địa phương Lovász và thuật toán rút gọn mạng lưới LLL cho đến cuộc cách mạng khử ngẫu nhiên, chứng minh không tiết lộ thông tin (*zero-knowledge*) và đồ thị expander của Wigderson, hai sự nghiệp này đã kéo toán rời rạc và khoa học máy tính lý thuyết (TCS) vào đúng trung tâm của toán học hiện đại—ngay bên cạnh [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/), dù bài toán triệu đô ấy vẫn còn đang mở. Tài liệu chính thức: [abelprize.no](https://abelprize.no/).
 
 ---
 
@@ -27,33 +29,45 @@ Sau bài này, bạn có thể giải thích vì sao toán rời rạc và TCS x
 
 ---
 
+## Bản đồ kiến thức nền: Toán rời rạc và Lý thuyết độ phức tạp tính toán là gì và nghiên cứu những gì?
+
+Nếu giải tích và hình học vi phân nghiên cứu thế giới **liên tục** (đường cong mượt, dòng chảy, đạo hàm), thì hai lĩnh vực của Lovász và Wigderson nghiên cứu thế giới **rời rạc**—nhưng ở tầng sâu cấu trúc không hề thua kém:
+
+- **Toán rời rạc (Discrete Mathematics):** Nghiên cứu các đối tượng tách biệt có thể đếm được: đồ thị (các đỉnh và cạnh nối, mô hình hóa mạng xã hội, lưới điện hay phân tử), siêu đồ thị, tổ hợp, lưới điểm nguyên (*lattice*) và các bài toán tối ưu rời rạc (như tìm đường đi ngắn nhất, ghép cặp tối ưu, tô màu bản đồ). Điều thú vị mà Lovász chỉ ra là: muốn hiểu sâu một đồ thị rời rạc, cách hiệu quả nhất lại thường là **nhúng nó vào không gian hình học liên tục** (dùng ma trận, trị riêng, đa diện lồi và lập trình nửa xác định dương)!
+- **Khoa học máy tính lý thuyết (Theoretical Computer Science – TCS) và Lý thuyết độ phức tạp (Computational Complexity):** Không quan tâm bạn viết code bằng Python hay C++, hay CPU chạy nhanh bao nhiêu GHz. Thay vào đó, ngành này hỏi về **giới hạn căn bản của tính toán**: một bài toán cần tối thiểu bao nhiêu thời gian, bộ nhớ, số bit ngẫu nhiên hay lượng giao tiếp để giải khi kích thước đầu vào $$n$$ tăng lên? Các lớp độ phức tạp như **P** (giải nhanh trong thời gian đa thức), **NP** (kiểm chứng đáp án nhanh), hay **BPP** (giải nhanh nếu được phép tung đồng xu) là bản đồ phân loại độ khó của toàn bộ vũ trụ bài toán.
+- **Mối liên hệ bất ngờ:** Hóa ra "độ khó tính toán" không phải là điều xui xẻo—nó chính là **tài nguyên** để xây dựng mật mã bảo vệ Internet và tạo ra các bộ sinh số giả ngẫu nhiên đánh lừa được mọi thuật toán hiệu quả!
+
+---
+
 ## 1. Một giải thưởng về văn hóa cũng như về khoa học
 
-Đồ thị, thuật toán và độ phức tạp từng bị coi là ngoại vi của “toán thuần túy cốt lõi” trong một số văn hóa thể chế: quan trọng, nhưng thuộc về khoa Khoa học máy tính. Giải Abel 2021 khẳng định công khai: các lĩnh vực này chứa **những định lý cấu trúc sâu** và tương tác với hình học, đại số, xác suất ở mức cao nhất.
+Trong nhiều thập niên, đồ thị, thuật toán và độ phức tạp từng bị xem là địa hạt riêng của khoa Khoa học máy tính, tách khỏi "toán thuần túy cốt lõi". Giải Abel 2021 chính thức khép lại ranh giới nhân tạo ấy: toán rời rạc và TCS chứa **những định lý cấu trúc sâu sắc** và tương tác bình đẳng với hình học, đại số, giải tích và xác suất ở trình độ cao nhất.
 
-Vế thứ hai của citation rất đáng chú ý: “shaping them into central fields.” Đó là việc xây dựng lĩnh vực: dìu dắt người đi sau, viết sách, lập danh sách các bài toán, và nhiều thập niên định lý, chứ không phải một dòng tít. Đọc citation của Abel 2021 là một bài luyện tập để phân biệt: giải vinh danh việc **định hình**, không nên nhầm với việc “đã chinh phục đỉnh Everest của lĩnh vực”.
+Hãy đọc kỹ vế thứ hai của lời tuyên dương: *"shaping them into central fields."* Đây là sự vinh danh dành cho những người **kiến tạo lĩnh vực**—qua hàng thập niên định lý nền tảng, những cuốn sách kinh điển, việc đào tạo thế hệ mới và dựng nên các cây cầu liên ngành. Cũng vì thế, đọc citation của Abel 2021 là một bài học về sự tỉnh táo: giải thưởng tôn vinh việc **định hình cả một ngành**, hoàn toàn khác với tin đồn rằng "bài toán P vs NP đã có lời giải".
 
 ---
 
 ## 2. Lovász: toán rời rạc như một khoa học toán học
 
-### Đồ thị, tối ưu, hình học
+### Đồ thị, tối ưu, hình học và thuật toán LLL
 
-Công trình của Lovász trải khắp lý thuyết đồ thị, tối ưu tổ hợp và biểu diễn hình học của đồ thị. Chủ đề lặp lại: các đối tượng rời rạc mang bóng dáng của cái liên tục, như phép nhúng, nới lỏng nửa xác định dương, thuật toán lattice, và về sau là văn hóa **giới hạn của đồ thị** (graphon) mà ông góp phần mở ra. Tối ưu trên các cấu trúc tổ hợp trở thành một khoa học toán học nghiêm túc, có đối ngẫu, thuật toán và các kết quả về độ khó.
+Sự nghiệp của László Lovász trải rộng từ lý thuyết đồ thị, tối ưu tổ hợp đến biểu diễn hình học của đồ thị. Một sợi chỉ đỏ xuyên suốt công trình của ông là đưa các công cụ liên tục vào giải quyết cấu trúc rời rạc: **hàm theta Lovász** (dùng lập trình nửa xác định dương để chặn dung lượng Shannon của đồ thị), **thuật toán LLL** (Lenstra–Lenstra–Lovász, tìm cơ sở ngắn cho lưới điểm nguyên—một công cụ lừng danh trong phân tích đa thức, phá mã RSA yếu và xây dựng mật mã hậu lượng tử), và lý thuyết **giới hạn của đồ thị (graphon)** giúp nhìn một đồ thị hàng tỷ đỉnh như một hàm giải tích liên tục.
 
-### Bổ đề địa phương Lovász
+### Bổ đề địa phương Lovász (Lovász Local Lemma)
 
-**Bổ đề địa phương** (Erdős–Lovász) là một nguyên lý tồn tại sâu sắc. Giả sử có nhiều “sự kiện xấu” $$A_i$$, mỗi sự kiện có xác suất nhỏ và chỉ phụ thuộc vào hữu hạn sự kiện khác. Dưới các giả thiết định lượng, xác suất để **không** sự kiện xấu nào xảy ra vẫn dương:
+Trong tổ hợp, một vũ khí cực mạnh là **phương pháp xác suất** của Paul Erdős: muốn chứng minh tồn tại một cấu hình "tốt" (ví dụ một cách tô màu đồ thị không có tam giác đơn sắc), ta cứ tô màu ngẫu nhiên rồi chứng minh xác suất xảy ra "sự kiện xấu" nhỏ hơn 1. Nhưng phương pháp ngây thơ (dùng bất đẳng thức cộng xác suất—*union bound*) lập tức thất bại khi số sự kiện xấu lên đến hàng tỷ!
+
+**Bổ đề địa phương** (Erdős–Lovász, 1975) giải quyết ngoạn mục thế bế tắc này. Giả sử có rất nhiều "sự kiện xấu" $$A_1, A_2, \dots, A_m$$, mỗi sự kiện có xác suất xảy ra nhỏ ($$\le p$$) và chỉ phụ thuộc vào tối đa $$d$$ sự kiện xấu khác (tức là *phụ thuộc cục bộ*). Bổ đề khẳng định: miễn là $$e \cdot p \cdot (d + 1) \le 1$$, thì dù $$m$$ lớn đến hàng nghìn tỷ đi nữa, xác suất để **không một sự kiện xấu nào xảy ra** vẫn chắc chắn dương:
 
 $$
-\mathbb{P}\Big(\bigcap_i A_i^c\Big) > 0.
+\mathbb{P}\Big(\bigcap_{i=1}^m A_i^c\Big) > 0.
 $$
 
-Chặn hợp (union bound) thất bại khi có quá nhiều sự kiện; độc lập hoàn toàn thất bại khi tồn tại phụ thuộc. Bổ đề địa phương sống ở chế độ giữa hai cực này: **phụ thuộc có giới hạn**. Nó là công cụ chủ lực của tổ hợp, phương pháp xác suất, và thiết kế thuật toán (kể cả các phiên bản thuật toán về sau).
+**Ví dụ cụ thể (Bài toán $$k$$-SAT):** Giả sử bạn có một triệu mệnh đề logic, mỗi mệnh đề chứa $$k = 10$$ biến đúng/sai, và mỗi biến chỉ xuất hiện trong một vài mệnh đề (nên mỗi mệnh đề chỉ dùng chung biến với tối đa $$d$$ mệnh đề khác). Nếu gán Đúng/Sai ngẫu nhiên cho từng biến, xác suất một mệnh đề bị sai là $$p = 2^{-10} = 1/1024$$. Cộng xác suất cho một triệu mệnh đề sẽ vượt xa 1, nên union bound bó tay. Nhưng miễn là $$d \le 375$$, Bổ đề địa phương Lovász lập tức bảo đảm **chắc chắn tồn tại ít nhất một cách gán giá trị thỏa mãn đồng thời cả một triệu mệnh đề!** Về sau, Moser và Tardos còn biến bổ đề tồn tại này thành một thuật toán cực kỳ đơn giản và nhanh chóng để tìm ra nghiệm thật sự.
 
 ### Xây dựng một lĩnh vực
 
-Ngoài các định lý, ông còn định hình toán rời rạc với chuẩn mực chứng minh, các cây cầu sang hình học và tối ưu, và một cộng đồng toàn cầu. Cụm “leading role” của Abel chỉ vào chính điều này. Một sự nghiệp toán rời rạc trọn đời không chỉ là “chứng minh được nhiều bổ đề”, mà là làm cho ngôn ngữ của ngành trở thành mặc định cho thế hệ sau.
+Vượt lên từng định lý cụ thể, Lovász đã thiết lập chuẩn mực chứng minh, xây cầu nối vững chắc giữa toán rời rạc với hình học, tối ưu và giải tích, đồng thời dẫn dắt cộng đồng toán học quốc tế (ông từng là Chủ tịch Liên đoàn Toán học Quốc tế IMU). Cụm *"leading role"* trong lời trao giải Abel chính là sự ghi nhận xứng đáng cho tầm vóc đó.
 
 ---
 
@@ -61,49 +75,45 @@ Ngoài các định lý, ông còn định hình toán rời rạc với chuẩn
 
 ### Tính ngẫu nhiên như một tài nguyên
 
-Chủ đề trung tâm của Wigderson: khi nào **thuật toán ngẫu nhiên** vượt trội thuật toán tất định, và sức mạnh của tính ngẫu nhiên như một tài nguyên tính toán là gì? Nhiều thuật toán tung đồng xu: kiểm tra số nguyên tố kiểu Monte Carlo trong lịch sử, băm, lấy mẫu, các giao thức giao tiếp. Độ phức tạp hỏi: tính ngẫu nhiên có thực sự cần thiết hay chỉ tiện lợi.
+Câu hỏi lớn xuyên suốt sự nghiệp của Avi Wigderson nghe rất giản dị nhưng đầy thách thức: **liệu tung đồng xu có thật sự làm cho máy tính mạnh hơn không?** Nhiều thuật toán nổi tiếng trong thực tế dùng đến sự ngẫu nhiên—ví dụ kiểm tra xem một số 500 chữ số có phải số nguyên tố không (kiểu Miller–Rabin), kiểm tra hai đa thức khổng lồ có đồng nhất không bằng cách thay số ngẫu nhiên, hay băm dữ liệu (*hashing*). Lý thuyết độ phức tạp gọi lớp các bài toán giải nhanh bằng thuật toán ngẫu nhiên là **BPP**, và đặt câu hỏi: liệu $$\mathrm{BPP} = \mathrm{P}$$?
 
-### Khử ngẫu nhiên
+### Khử ngẫu nhiên và nguyên lý "Độ khó đổi lấy Ngẫu nhiên"
 
-**Khử ngẫu nhiên** hỏi khi nào có thể gỡ bỏ tính ngẫu nhiên, thường dưới **giả thiết về độ khó**: một hàm đủ khó suy ra có bộ sinh giả ngẫu nhiên. Nếu thế giới có đủ độ khó tính toán thì có thể có những mô phỏng tất định hiệu quả cho thuật toán ngẫu nhiên. Cách nhìn này nối các chặn dưới của độ phức tạp với thiết kế thuật toán một cách sâu sắc: độ khó không chỉ là rào cản mà còn là nguyên liệu để xây bộ sinh giả ngẫu nhiên.
+**Khử ngẫu nhiên (Derandomization)** là chương trình tìm cách thay thế đồng xu ngẫu nhiên thật bằng một **bộ sinh giả ngẫu nhiên (pseudorandom generator)** hoàn toàn tất định. Đột phá tư tưởng mang dấu ấn Wigderson (cùng Nisan, Impagliazzo và nhiều cộng sự) là nguyên lý **Hardness vs. Randomness**: *nếu tồn tại những bài toán thực sự khó tính toán (đòi hỏi mạch logic kích thước hàm mũ), ta có thể dùng chính độ khó đó để tạo ra các chuỗi bit giả ngẫu nhiên đủ tốt để đánh lừa mọi thuật toán thời gian đa thức!*
 
-### Expander, chứng minh tương tác, và các cây cầu sang toán thuần túy
+Nói cách khác, dưới các giả thiết độ phức tạp rất tự nhiên, **mọi thuật toán ngẫu nhiên nhanh đều có thể chuyển thành thuật toán tất định nhanh** ($$\mathrm{BPP} = \mathrm{P}$$). Thật trớ trêu và tuyệt đẹp: "độ khó tính toán"—thứ tưởng như rào cản của khoa học máy tính—lại biến thành nguyên liệu để loại bỏ nhu cầu tung đồng xu!
 
-**Đồ thị expander** thưa nhưng liên thông rất mạnh: trộn giống như ngẫu nhiên mà chỉ cần ít cạnh. Chúng xuất hiện trong khử ngẫu nhiên, lý thuyết mã, mạng, và cả lý thuyết nhóm thuần túy (các cách dựng tường minh trong lịch sử gồm expander kiểu Margulis). Thế giới của Wigderson coi expander và các họ hàng của nó là **sự giả ngẫu nhiên hiện hình**.
+### Expander, chứng minh tương tác và Zero-Knowledge
 
-Chứng minh tương tác, zero-knowledge và cấu trúc của các lớp độ phức tạp là những cây cầu nối logic, đại số và thuật toán. Cuốn sách *Mathematics and Computation* trình bày TCS như toán học dành cho cộng đồng toán học rộng.
+Wigderson cùng cộng sự còn phát minh ra **tích zig-zag** cho đồ thị—một cách dựng hoàn toàn tổ hợp cho họ **đồ thị expander**, dẫn tới lời giải nổi tiếng về không gian bộ nhớ logarit cho bài toán liên thông đồ thị vô hướng ($$\mathrm{SL} = \mathrm{L}$$ của Reingold). Ông cũng là một trong những kiến trúc sư của **chứng minh tương tác** và **chứng minh không tiết lộ thông tin (Zero-Knowledge Proofs)**: chứng minh rằng mọi khẳng định trong lớp NP đều có thể thuyết phục người kiểm tra tin là đúng **mà không tiết lộ bất kỳ một bit bí mật nào về lời giải** (dưới giả thiết mật mã cơ bản)—ý tưởng ngày nay nằm ở trái tim của mật mã học hiện đại và công nghệ bảo mật riêng tư. Cuốn sách *Mathematics and Computation* của ông là bản tuyên ngôn tuyệt đẹp giới thiệu TCS như một nhánh toán học thuần túy cho toàn thể cộng đồng toán học.
 
 ---
 
 ## 4. Expander: bản đồ các giao điểm
 
-Một họ vô hạn các đồ thị $$d$$-chính quy $$\{G_n\}$$ là một **họ expander** nếu khoảng cách phổ (hoặc hằng số Cheeger) bị chặn dưới độc lập với $$n$$. Tương đương: các tập nhỏ giãn ra, tức lân cận của chúng lớn lên theo một hệ số xác định.
+Một họ vô hạn các đồ thị $$d$$-chính quy $$\{G_n\}$$ (mỗi đỉnh chỉ nối với đúng $$d$$ đỉnh khác, ví dụ $$d = 4$$, dù số đỉnh $$n$$ tăng lên hàng triệu) được gọi là **họ expander** nếu mọi tập con đỉnh nhỏ $$S$$ (chiếm không quá một nửa đồ thị) đều có số cạnh đi ra ngoài $$S$$ tỷ lệ thuận với kích thước $$\lvert S\rvert$$—tương đương với việc **khoảng cách phổ** giữa trị riêng lớn nhất và trị riêng lớn thứ hai của ma trận kề bị chặn dưới bởi một hằng số dương độc lập với $$n$$.
 
-Hệ quả: bước đi ngẫu nhiên trộn nhanh; lý thuyết mã và khử ngẫu nhiên có các đối tượng tường minh; toán thuần túy có lý thuyết đồ thị phổ và các phép dựng từ nhóm.
+Hãy tưởng tượng một mạng truyền thông gồm 1 triệu nút, nhưng mỗi nút chỉ có đúng 4 sợi dây cáp nối ra ngoài. Nếu là lưới vuông thông thường, chỉ cần cắt vài nghìn sợi dây là mạng bị chia đôi; nhưng nếu đó là một **đồ thị expander**, bạn phải cắt tới hàng trăm nghìn sợi dây mới cô lập được một nửa mạng, và một bước đi ngẫu nhiên chỉ cần khoảng $$O(\log n)$$ bước đã lan tỏa gần như đều khắp cả triệu nút!
 
-Lý thuyết đồ thị cấu trúc và hình học của Lovász gặp tính giả ngẫu nhiên của Wigderson ở expander. Giải Abel 2021 nằm ngay tại giao điểm đó, và giải Abel 2020 của Margulis cũng đã chạm vào expander từ phía động lực học và nhóm. Trong seminar có thể vẽ một tam giác: **cấu trúc đồ thị, tính ngẫu nhiên, động lực học/nhóm**.
+Hệ quả lan tỏa khắp nơi: bước đi ngẫu nhiên trộn cực nhanh; lý thuyết mã sửa lỗi và khử ngẫu nhiên có những công cụ tường minh; toán thuần túy có lý thuyết đồ thị phổ và các phép dựng từ lý thuyết nhóm. Đây chính là ngã tư nơi ba thế giới gặp nhau: **cấu trúc đồ thị (Lovász)**, **tính giả ngẫu nhiên (Wigderson)**, và **nhóm Lie / động lực học (Margulis, Abel 2020)**.
 
 ---
 
 ## 5. Bên cạnh P vs NP
 
-[P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/) vẫn còn mở. Giải Abel 2021 **không** giải bài toán đó. Công trình của Lovász và Wigderson là **bộ công cụ và cách nhìn** xoay quanh độ khó tính toán: các kết quả khẳng định, lý thuyết cấu trúc, tính ngẫu nhiên, tối ưu, và việc khẳng định tính chính đáng toán học của độ phức tạp rời rạc.
-
-Một thói quen lành mạnh trong seminar: liệt kê ba định lý “khẳng định” của TCS mà không cần lời giải của P vs NP (các ứng dụng của bổ đề địa phương; việc dựng expander; chứng minh tương tác; xấp xỉ dưới các giả thiết độ phức tạp; …). Toán học của cả một sự nghiệp gồm cả việc xây dựng kiến trúc cho lĩnh vực, không chỉ là leo lên đỉnh Everest.
+[P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/) vẫn là bài toán Thiên niên kỷ chưa có lời giải, và Giải Abel 2021 **không** giải quyết bài toán đó. Thay vào đó, sự nghiệp của Lovász và Wigderson cho thấy một chân lý sâu sắc về khoa học: **một bài toán lớn còn mở không hề làm cho cả lĩnh vực trở nên trống rỗng.** Xung quanh P vs NP là cả một nền văn minh toán học trưởng thành với vô số định lý khẳng định giá trị độc lập: Bổ đề địa phương, thuật toán LLL, tích zig-zag dựng expander, chứng minh tương tác và zero-knowledge, hay định lý PCP về giới hạn xấp xỉ.
 
 ### Độ khó như một đối tượng toán học
 
-Dù P vs NP chưa ngã ngũ, độ phức tạp coi **độ khó** là thứ có thể *sử dụng*: phép quy dẫn, tính đầy đủ, các chặn dưới có điều kiện, các giả thiết mật mã. Chương trình của Wigderson thường biến độ khó thành một tài nguyên xây dựng, ví dụ bộ sinh giả ngẫu nhiên đánh lừa được mọi bài kiểm tra hiệu quả; nhờ đó thiết kế thuật toán và tư duy chặn dưới trở thành hai mặt của một chủ đề. Tối ưu tổ hợp của Lovász cũng nhìn các cấu trúc rời rạc như hình học: đa diện, đối ngẫu, các ngưỡng xấp xỉ là định lý chứ không chỉ là heuristic.
-
-Đạo lý của khóa học khớp với chương 01: **một bài toán lớn còn mở không làm cho cả lĩnh vực trống rỗng**. Xung quanh P vs NP là cả một nền văn minh toán học trưởng thành.
+Dù P vs NP chưa ngã ngũ, lý thuyết độ phức tạp đối xử với **độ khó** như một đối tượng toán học có cấu trúc chặt chẽ và có thể *khai thác*: phép quy dẫn, tính đầy đủ, hàm một chiều cho mật mã, và nguyên lý biến độ khó thành tính giả ngẫu nhiên. Tương tự, tối ưu tổ hợp của Lovász biến các cấu trúc rời rạc thành hình học đa diện và đối ngẫu với những định lý chặt chẽ thay vì mẹo phỏng đoán (*heuristic*).
 
 ---
 
 ## 6. Vì sao đáng một giải Abel
 
-Hai sự nghiệp, một thông điệp: toán rời rạc và TCS không phải công dân hạng hai của toán thuần túy. Chúng có những định lý sâu mang nội dung hình học và đại số; những phương pháp được xuất khẩu sang nơi khác; những bài toán mở tầm cỡ Hilbert (P vs NP là một trong số đó); và một hạ tầng (expander, bộ sinh giả ngẫu nhiên, các bổ đề tổ hợp) được dùng xuyên suốt các ngành khoa học.
+Hai sự nghiệp, một thông điệp chung: toán rời rạc và khoa học máy tính lý thuyết không phải công dân hạng hai của toán học. Chúng sở hữu những định lý cấu trúc sâu mang nội dung hình học và đại số; xuất khẩu công cụ sang các ngành toán cổ điển; đặt ra những câu hỏi tầm cỡ Hilbert (như P vs NP); và cung cấp hạ tầng thiết yếu (expander, LLL, bộ sinh giả ngẫu nhiên, zero-knowledge) cho toàn bộ thời đại số.
 
-Lời của ủy ban, “central fields of modern mathematics”, chính là luận điểm của bài này. Giải Abel không “nâng cấp khoa học máy tính thành toán học”; nó **ghi nhận** rằng các lĩnh vực này đã là toán học trung tâm từ lâu, và sự nghiệp của hai laureate giúp cộng đồng toán học rộng hơn thấy rõ điều đó.
+Cụm từ *"central fields of modern mathematics"* trong lời trao giải không phải là sự "nâng hạng" cho khoa học máy tính—mà là sự **công nhận chính thức** cho vị thế trung tâm mà hai lĩnh vực này đã xác lập suốt nửa thế kỷ qua nhờ những người dẫn đường như Lovász và Wigderson.
 
 ---
 

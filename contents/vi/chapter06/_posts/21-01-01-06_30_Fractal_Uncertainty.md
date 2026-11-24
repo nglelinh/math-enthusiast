@@ -9,9 +9,25 @@ categories:
 - chapter06
 ---
 
-Nguyên lý bất định cổ điển nói rằng một hàm và biến đổi Fourier của nó không thể cùng tập trung gần một **khoảng** nhỏ. Thay khoảng bằng một **fractal**, tức một tập có lỗ ở mọi thang đo, ta được một điều cấm mạnh hơn: chúng cũng không thể cùng tập trung gần một "bụi" fractal. Phiên bản mạnh hơn này là **nguyên lý bất định fractal** (fractal uncertainty principle, viết tắt FUP). Đó là một định lý của giải tích Fourier, và là công cụ trong hỗn loạn lượng tử: sóng không thể ẩn mãi trên một "bẫy" fractal, trong khi hạt bi-a cổ điển thì có thể ở đó mãi.
+Trong bài trước, ta biết nguyên lý bất định cổ điển cấm một làn sóng và biến đổi Fourier của nó cùng chui vào một **khoảng** nhỏ hẹp. Nhưng điều gì xảy ra nếu ta không nhốt sóng vào một khoảng liền mạch, mà cho nó "lẩn trốn" trên một đám **bụi fractal** — giống tập Cantor bị khoét thủng vô số lỗ hổng ở mọi độ phóng đại, trải rộng ra cả đoạn thẳng nhưng tổng độ dài bằng không? Nếu là một viên bi cổ điển nảy giữa các bức tường cong hỗn loạn, nó hoàn toàn có thể bị giam giữ mãi mãi trên một bụi fractal như vậy mà không bao giờ thoát ra ngoài. Còn một **làn sóng lượng tử** thì sao? Liệu nó có thể co mình ẩn nấp mãi trên đám bụi fractal ấy không?
 
-Đây là bài về hướng nghiên cứu mới, đi kèm [bài nguyên lý bất định]({{ site.baseurl }}/contents/vi/chapter06/06_29_Uncertainty_Principles/). FUP một chiều do Bourgain–Dyatlov chứng minh (2016). Phát biểu cho nhiều chiều, với một giả thiết hình học bổ sung gọi là **tính xốp theo đường thẳng** (line porosity), thuộc về Alex Cohen (*Annals of Mathematics* 2025; bản arXiv 2023). Giả thuyết tính ergodic duy nhất lượng tử (QUE) trong trường hợp tổng quát vẫn còn **mở**.
+Câu trả lời là **không** — và định lý giải tích Fourier khẳng định điều đó mang tên **nguyên lý bất định fractal** (fractal uncertainty principle, viết tắt **FUP**). Đây là một câu chuyện toán học đang diễn ra ngay trước mắt chúng ta: phiên bản 1 chiều do Jean Bourgain và Semyon Dyatlov chứng minh năm 2016; rồi gần một thập kỷ sau, nghiên cứu sinh Alex Cohen (MIT) giải được phiên bản nhiều chiều dưới điều kiện hình học **tính xốp theo đường thẳng** (*Annals of Mathematics* 2025; bản arXiv 2023), mở đường cho những đột phá mới trong **hỗn loạn lượng tử (quantum chaos)** — dù giả thuyết lớn nhất của ngành là tính ergodic duy nhất lượng tử (QUE) trong trường hợp tổng quát vẫn còn **mở**. Bài đi kèm [nguyên lý bất định]({{ site.baseurl }}/contents/vi/chapter06/06_29_Uncertainty_Principles/).
+
+---
+
+## Bản đồ kiến thức nền: Giải tích bán cổ điển, hỗn loạn lượng tử và bất định fractal nghiên cứu những gì?
+
+Nếu bạn đã quen với biến đổi Fourier, phương trình sóng và hình ảnh tập Cantor từ toán đại học, hãy ghép ba mảnh ghép sau lại để nhìn trọn vẹn ngành toán học đằng sau FUP:
+
+- **Hỗn loạn lượng tử (quantum chaos) nghiên cứu gì?** Khi một hạt cổ điển chuyển động trên một mặt cong có độ cong âm (như mặt yên ngựa ghép kín — mặt hyperbolic) hay trong bàn bi-a hình sân vận động, quỹ đạo của nó cực kỳ hỗn loạn: hầu hết quỹ đạo đi qua khắp mọi ngóc ngách, nhưng vẫn còn lại một tập "bụi fractal" cực hiếm gồm những quỹ đạo mắc kẹt mãi không bao giờ chạm tới một vùng nào đó. Hỗn loạn lượng tử hỏi: *các hàm sóng riêng năng lượng cao (tương ứng với bước sóng cực ngắn $$h \to 0$$) có "quên" các bẫy fractal cổ điển đó để phân bố đều khắp không gian hay không?*
+- **Giải tích bán cổ điển (semiclassical analysis) là cầu nối:** Để nối quỹ đạo cổ điển (vị trí $$x$$ và động lượng $$\xi$$ cùng lúc) với sóng lượng tử, các nhà toán học dùng biến đổi Fourier bán cổ điển với tham số bước sóng nhỏ $$h \ll 1$$:
+  $$
+  (\mathcal{F}_h f)(\xi) = \frac{1}{(2\pi h)^{d/2}} \int_{\mathbb{R}^d} e^{-i x \cdot \xi / h} f(x)\,dx.
+  $$
+  Ở thang bước sóng $$h$$, "độ mờ" của một điểm trong không gian pha cỡ $$h$$, nên một tập fractal $$X$$ được thay bằng lân cận dày $$h$$ quanh nó (ký hiệu $$X(h)$$).
+- **FUP phát biểu điều gì?** Thay vì hỏi "khoảng nhỏ", FUP hỏi: nếu ta cắt hàm sóng lên lân cận $$X(h)$$ của một tập fractal xốp, biến đổi Fourier bán cổ điển, rồi lại cắt lên lân cận $$Y(h)$$ của một tập fractal xốp khác, thì biên độ sống sót có bị suy giảm theo **một lũy thừa dương $$O(h^\beta)$$** ($$\beta > 0$$) khi $$h \to 0$$ hay không? Nói ngắn gọn: một sóng bước sóng ngắn không thể cùng lúc "tránh hết các lỗ hổng" ở cả miền không gian lẫn miền tần số!
+
+Hiểu sự kết hợp giữa **tính xốp hình học của fractal** và **độ rò rỉ của biến đổi Fourier**, bạn sẽ thấy ngay vì sao một bài toán giải tích điều hòa thuần túy lại trở thành vũ khí sắc bén nhất cho vật lý hỗn loạn lượng tử hiện đại.
 
 ---
 
@@ -32,25 +48,31 @@ Sau bài học, bạn có thể:
 
 ## 1. Từ khoảng đến lỗ ở mọi thang đo
 
-Bất đẳng thức Pauli–Weyl cổ điển cấm một hàm tập trung đồng thời trên hai khoảng nhỏ, một trong không gian và một trong tần số. Một fractal có thể có **độ đo bằng không** mà vẫn "lớn" theo nghĩa số chiều: tập Cantor bỏ một phần ba ở giữa là không đếm được, có độ dài bằng không, và bị khoét lỗ ở mọi thế hệ.
+Bất đẳng thức Pauli–Weyl cổ điển cấm một hàm tập trung đồng thời trên hai khoảng nhỏ, một trong không gian và một trong tần số. Nhưng một tập fractal có thể có **độ đo (độ dài) bằng không** mà vẫn trải rộng khắp đoạn $$[0,1]$$ — khiến phương sai của nó không hề nhỏ! Lấy ví dụ **tập Cantor bỏ một phần ba ở giữa**: sau bước $$n$$, ta chỉ còn $$2^n$$ đoạn nhỏ độ dài $$3^{-n}$$, tổng độ dài là $$(2/3)^n \to 0$$, nhưng bên trong *bất kỳ* khoảng con nào ta phóng to lên, luôn có ít nhất một phần ba bị khoét rỗng. Tính chất "luôn có một khoảng trống tỉ lệ cố định ở mọi thang đo từ $$h$$ đến $$1$$" được gọi là **tính xốp (porosity)**.
 
 ![Xây Cantor bỏ phần ba giữa, sáu thế hệ]({{ site.baseurl }}/img/chapter_img/fup_cantor_porosity.png)
 
 *Hình. Ở mọi thang đo, tập thiếu một tỉ lệ cố định của mỗi khoảng còn lại. Đó là tính xốp, chứ không chỉ là "nhỏ".*
 
-**Ý chính của FUP (một chiều).** Nếu bạn cố dựng một hàm có khối lượng tập trung gần một tập kiểu Cantor, thì biến đổi Fourier của nó **không thể** cũng tập trung gần một tập kiểu Cantor. Cộng các sóng có tần số nằm trên một bụi fractal sẽ không cho ra một đường bao trông như fractal: các lỗ bị lấp đầy.
+**Ý chính của FUP (một chiều).** Nếu bạn cố dựng một hàm có khối lượng tập trung gần một tập kiểu Cantor, thì biến đổi Fourier của nó **không thể** cũng tập trung gần một tập kiểu Cantor. Cộng các sóng có tần số nằm trên một bụi fractal sẽ không thể tạo ra một đường bao khớp sạch vào các khoảng còn lại của fractal: các lỗ hổng tất yếu bị sóng "tràn vào" lấp đầy.
 
-Phát biểu chính xác đo "gần" bằng bán kính lân cận $$h$$ (tham số bán cổ điển), và đo "kiểu Cantor" bằng số chiều và hằng số xốp. Khi đó bất đẳng thức nói rằng toán tử chiếu lên $$h$$-lân cận của fractal, kết hợp với biến đổi Fourier (hoặc biến đổi bán cổ điển), có chuẩn toán tử $$O(h^\beta)$$ với một $$\beta>0$$ nào đó. Ở mức bài học, chỉ cần nắm ý chính cùng các giả thiết hình học; các ước lượng nằm trong bài báo.
+Phát biểu chính xác đo "gần" bằng bán kính lân cận $$h$$ (tham số bán cổ điển), và đo "kiểu Cantor" bằng hằng số xốp $$\nu > 0$$. Khi đó bất đẳng thức khẳng định rằng toán tử chiếu lên $$h$$-lân cận $$X(h)$$ của fractal, kết hợp với biến đổi Fourier bán cổ điển $$\mathcal{F}_h$$ rồi chiếu lên $$Y(h)$$, thỏa mãn ước lượng suy giảm:
+
+$$
+\|\mathbf{1}_{X(h)}\,\mathcal{F}_h\,\mathbf{1}_{Y(h)}\|_{L^2 \to L^2} \le C h^\beta
+$$
+
+với một số mũ cải thiện $$\beta > 0$$ nào đó (càng nhỏ $$h$$, năng lượng sống sót càng tắt về $$0$$!). Ở mức bài học, chỉ cần nắm ý chính cùng các giả thiết hình học; các ước lượng kỹ thuật nằm trong bài báo.
 
 ---
 
 ## 2. Vì sao nhà vật lý quan tâm: bụi bị giam giữ
 
-Một hạt cổ điển trong bàn bi-a hỗn loạn thường đi khắp bàn. Trong những trường hợp hiếm, nó có thể nảy mãi giữa vài chướng ngại vật. Nếu đánh dấu các điểm va chạm trên thành bàn trong thời gian vô hạn, ta thường thấy một **bụi fractal**: tập các quỹ đạo bị giam giữ, không bao giờ thoát ra.
+Một hạt cổ điển trong bàn bi-a hỗn loạn thường đi khắp bàn. Nhưng trong những trường hợp cực hiếm, nó có thể nảy đi nảy lại mãi giữa vài chướng ngại vật (giống một tia sáng kẹt giữa ba chiếc gương hình tròn). Nếu đánh dấu tất cả các điểm xuất phát tạo ra quỹ đạo không bao giờ thoát ra ngoài, ta thu được một **bụi fractal** xốp: tập các quỹ đạo bị giam giữ.
 
-Hạt lượng tử là sóng, và sóng thì rò rỉ. Câu hỏi Dyatlov đặt ra là liệu sự rò rỉ đó có bị hình học Fourier ép buộc hay không: nếu tập bị giam là fractal, hàm sóng có thể tập trung trên nó cả về vị trí lẫn tần số không? FUP trả lời là không. Do đó sóng trên một mặt hyperbolic compact không thể né mãi một miền mở: nếu xóa mọi quỹ đạo đi vào miền đó, phần còn lại là một bụi fractal, và sóng không được phép tập trung trên đó. Đây là khung lập luận của **Dyatlov–Jin** (2017) trong hai chiều.
+Hạt lượng tử là sóng, và sóng thì nhiễu xạ, rò rỉ qua khe hở. Câu hỏi Semyon Dyatlov đặt ra là liệu sự rò rỉ đó có bị hình học Fourier ép buộc bằng một định lý chặt chẽ hay không: nếu tập bị giam giữ là fractal xốp, hàm sóng có thể tập trung trên nó cả về vị trí lẫn tần số không? FUP trả lời dứt khoát là **không**. Do đó, trên một mặt hyperbolic compact, một hàm sóng riêng năng lượng cao **không bao giờ có thể né tránh hoàn toàn một miền mở** (dù nhỏ đến đâu): bởi nếu xóa bỏ mọi quỹ đạo cổ điển đi vào miền mở đó, phần còn lại chỉ là một bụi fractal xốp, và FUP cấm sóng co cụm lên phần còn lại ấy! Đây chính là khung lập luận nổi tiếng của **Dyatlov–Jin** (2017) trong hai chiều.
 
-Bức tranh này cũng cho thấy FUP không chỉ là một sự tò mò về tập Cantor. Nó là công cụ biến **tập bị giam giữ cổ điển** thành **tính không định xứ lượng tử**.
+Bức tranh này cũng cho thấy FUP không chỉ là một sự tò mò về tập Cantor. Nó là cỗ máy biến **tập bị giam giữ cổ điển** thành **tính không định xứ lượng tử**.
 
 ---
 
@@ -62,47 +84,47 @@ Jean Bourgain và Semyon Dyatlov chứng minh nguyên lý bất định fractal 
 2. Mỗi đỉnh tách ra có biến đổi Fourier **trải rộng**.
 3. Các phần trải rộng này không thể "cùng nhau" triệt tiêu trên một tập xốp đủ thường xuyên để $$\hat f$$ trông giống fractal.
 
-Bước khó là dựng hàm làm tắt. Nó có họ hàng với định lý nhân tử **Beurling–Malliavin** từ những năm 1960: cần một hàm có kích thước và tốc độ giảm Fourier rất đặc biệt, được dựng bằng đường vòng qua giải tích phức. Bourgain mất năm 2018; các ghi chú chưa công bố của ông sau này đã giúp mở khóa trường hợp nhiều chiều.
+Bước khó nhất của toàn chứng minh là dựng hàm làm tắt. Nó có họ hàng trực tiếp với định lý nhân tử **Beurling–Malliavin** lừng danh từ thập niên 1960: cần dựng một hàm giải tích có biên độ và tốc độ giảm Fourier cực kỳ khắt khe, phải đi đường vòng tinh vi qua giải tích phức (hàm nguyên loại mũ). Bourgain qua đời năm 2018; nhưng các ghi chú chưa công bố ông để lại sau đó đã truyền cảm hứng trực tiếp giúp mở khóa trường hợp nhiều chiều.
 
-**Trạng thái.** FUP một chiều là định lý. Nó đã dẫn đến các kết quả về khe phổ cốt yếu trong một số bối cảnh hyperbolic, và kết quả không định xứ của Dyatlov–Jin cho các mặt.
+**Trạng thái.** FUP một chiều là định lý. Nó đã dẫn đến các kết quả về khe phổ cốt yếu trong một số bối cảnh tán xạ hyperbolic, và kết quả không định xứ của Dyatlov–Jin cho các mặt cong âm.
 
 ---
 
 ## 4. Nhiều chiều: đường thẳng phá vỡ phát biểu ngây thơ
 
-Trong mặt phẳng, một đường thẳng có diện tích bằng không và "đầy lỗ" nếu chỉ nhìn vào diện tích. Biến đổi Fourier của nó (xem như một độ đo, hoặc xét một lân cận hình ống) tập trung trên đường thẳng vuông góc. Vậy **một đường thẳng và đường thẳng đối ngẫu của nó đều "xốp" theo nghĩa ngây thơ**, và chúng là phản ví dụ cho mọi khẩu hiệu cẩu thả kiểu "không thể có hai fractal".
+Khi bước từ đường thẳng $$\mathbb{R}$$ lên mặt phẳng $$\mathbb{R}^2$$, một cái bẫy hình học bất ngờ lập tức xuất hiện! Xét một đường thẳng đứng $$X = \{(0, y) : y \in \mathbb{R}\}$$. Xét về diện tích 2 chiều, đường thẳng này có diện tích bằng không và trông "đầy lỗ" ở mọi quả cầu 2 chiều! Thế nhưng biến đổi Fourier của một hàm chỉ sống trên đường thẳng đứng $$x = 0$$ lại tập trung hoàn toàn trên **đường thẳng ngang** $$\xi_2 = 0$$ (vì hàm hằng theo $$y$$ có tần số $$\xi_2 = 0$$, còn xung hẹp theo $$x$$ trải rộng theo $$\xi_1$$). Như vậy, **một đường thẳng và đường thẳng vuông góc với nó đều "xốp theo quả cầu"**, nhưng chuẩn toán tử của chúng không hề suy giảm — chúng là phản ví dụ phá vỡ ngay mọi khẩu hiệu cẩu thả kiểu "không thể có hai fractal"!
 
-Tam giác Sierpiński và nhiều thảm Sierpiński chứa các đoạn thẳng. Những tập đó có thể rất xốp trong mặt phẳng nhưng vẫn làm FUP thất bại, chính vì lý do này.
+Tam giác Sierpiński và nhiều thảm Sierpiński quen thuộc chứa trọn các đoạn thẳng dài (như cạnh đáy). Những tập đó trông rất thưa thớt trong mặt phẳng nhưng vẫn làm FUP ngây thơ thất bại, chính vì hiệu ứng đường thẳng này.
 
 ![Gasket Sierpiński với cạnh đáy tô như một đường đầy đủ]({{ site.baseurl }}/img/chapter_img/fup_sierpinski_line_obstruction.png)
 
 *Hình. Một tập có thể trông đầy lỗ nhưng vẫn chứa một đường thẳng. Biến đổi Fourier đưa đường thẳng đó sang một đường thẳng khác. Vì vậy FUP ngây thơ không thể đúng cho mọi fractal ở chiều $$\ge 2$$.*
 
-Cách Cohen vượt qua là **loại các phản ví dụ này bằng một giả thiết**, chứ không bỏ qua chúng.
+Cách Alex Cohen vượt qua là **loại trừ chính xác họ phản ví dụ đường thẳng này bằng một giả thiết hình học sắc bén**, chứ không bỏ qua chúng.
 
 ---
 
 ## 5. Tính xốp theo đường thẳng và định lý Cohen
 
-**Tính xốp theo đường thẳng (ý chính).** Vẽ một đường thẳng bất kỳ. Đường đó phải gặp tập một cách xốp: khi đi dọc theo đường, ta liên tục gặp những lỗ có kích thước xác định, ở mọi thang đo, với các hằng số định lượng. Tập không được chứa trọn một đường thẳng. Một thảm Sierpiński bị xóa thêm một số ô có thể thỏa điều kiện này; thảm thông thường thì không nhất thiết.
+**Tính xốp theo đường thẳng (line porosity — ý chính).** Thay vì chỉ đòi hỏi mỗi hình tròn chứa một lỗ trống, hãy vẽ **một đường thẳng bất kỳ** theo mọi phương cắt qua tập fractal. Tập được gọi là *xốp theo đường thẳng* nếu trên mọi đường thẳng thử ấy, ở mọi thang đo, ta đều liên tục bắt gặp những đoạn trống có tỉ lệ kích thước cố định. Điều kiện này lập tức cấm tập chứa trọn bất kỳ đường thẳng hay đoạn thẳng dài nào! Một thảm Sierpiński nếu bị đục bỏ thêm một số ô để phá vỡ mọi đường thẳng xuyên suốt thì có thể thỏa mãn tính xốp theo đường thẳng; còn thảm thông thường thì không nhất thiết.
 
 ![Trái: đường nằm trong tập. Phải: mọi đường thử đều bị khuyết]({{ site.baseurl }}/img/chapter_img/fup_line_porosity.png)
 
 *Hình. Giả thiết hình học bổ sung làm cho FUP nhiều chiều trở nên khả thi. (Đây là sơ đồ; định nghĩa trong bài báo mang tính định lượng.)*
 
-**Định lý (Cohen, arXiv:2305.05022; *Annals of Mathematics* **202** (2025)).** Một tập fractal trong $$\mathbb{R}^d$$ thỏa tính xốp theo đường thẳng thì tuân theo một nguyên lý bất định fractal. Nguyên liệu mới chính là **định lý nhân tử Beurling–Malliavin nhiều chiều**: hàm làm tắt được dựng lại cho nhiều biến.
+**Định lý (Cohen, arXiv:2305.05022; *Annals of Mathematics* **202** (2025)).** Một tập fractal trong $$\mathbb{R}^d$$ thỏa tính xốp theo đường thẳng thì tuân theo một nguyên lý bất định fractal (với chuẩn suy giảm $$O(h^\beta)$$). Nguyên liệu đột phá chính là **định lý nhân tử Beurling–Malliavin nhiều chiều**: hàm làm tắt được dựng lại cho hàm nhiều biến — điều từng bị nhiều chuyên gia bi quan cho là bất khả thi tại hội thảo IAS năm 2016!
 
-Đây là một định lý đã công bố, không phải một thông báo. Bài viết trên Quanta tháng 8/2026 kể lại lịch sử chứng minh (ghi chú của Bourgain, sự bi quan tại hội thảo IAS năm 2016, luận án của Cohen). Trong khóa học, ta chỉ cần nắm phát biểu và giả thiết, không cần dựng lại hàm nhân tử.
+Đây là một định lý đã công bố chính thức, không phải tin đồn hay thông báo sơ bộ. Bài viết trên Quanta kể lại lịch sử thú vị của chứng minh (từ ghi chú của Bourgain đến luận án của Cohen). Trong khóa học, ta chỉ cần nắm phát biểu và giả thiết hình học, không cần dựng lại hàm nhân tử.
 
 ---
 
 ## 6. Những gì đã mở ra, và những gì còn mở
 
-Khi đã có FUP nhiều chiều, các lập luận không định xứ vốn dùng cho mặt có thể được thử ở số chiều cao hơn. Năm 2025, Elena Kim và Nicholas Miller dùng định lý Cohen để mở rộng kết quả "sóng không thể ẩn" sang không gian hyperbolic nhiều chiều (với giả thiết hình học bảo đảm tập bị giam giữ xốp theo đường thẳng). Peter Sarnak gọi đây là một trong những ứng dụng ấn tượng nhất cho đến nay.
+Khi đã có FUP nhiều chiều, các lập luận không định xứ vốn chỉ chạy được trên mặt 2 chiều lập tức được đẩy lên không gian nhiều chiều hơn. Năm 2025, Elena Kim và Nicholas Miller dùng định lý Cohen để mở rộng kết quả "sóng không thể ẩn" sang không gian hyperbolic nhiều chiều (với giả thiết hình học bảo đảm tập bị giam giữ xốp theo đường thẳng). Peter Sarnak gọi đây là một trong những ứng dụng ấn tượng nhất của FUP cho đến nay.
 
-Mục tiêu mạnh hơn là **tính ergodic duy nhất lượng tử** (quantum unique ergodicity, QUE): các hàm riêng của hệ hỗn loạn không chỉ chạm tới mọi miền, mà còn phải **phân bố đều**. Nhìn gần thì chúng lộn xộn, nhìn xa thì đều như một mảng màu phẳng, giống tranh Monet. Rudnick–Sarnak (1994) phỏng đoán QUE cho mọi đa tạp compact có độ cong âm. Trường hợp số học (các hàm riêng Hecke) đã được Lindenstrauss chứng minh (2006; Soundararajan hoàn tất cho mặt modular năm 2010). Trường hợp tổng quát vẫn là **một giả thuyết lớn còn mở**. FUP là một nguyên liệu người ta hy vọng sẽ dùng được, không phải lời giải.
+Mục tiêu mạnh hơn nữa là **tính ergodic duy nhất lượng tử** (quantum unique ergodicity, **QUE**): các hàm riêng năng lượng cao của hệ hỗn loạn không chỉ buộc phải *chạm tới* mọi miền mở (không định xứ), mà còn phải **phân bố đều tuyệt đối** — nhìn gần thì sóng gợn hỗn loạn, nhìn xa thì mật độ năng lượng đều tăm tắp như một mảng màu phẳng, giống tranh ấn tượng của Monet. Rudnick và Sarnak (1994) phỏng đoán QUE cho mọi đa tạp compact có độ cong âm. Trường hợp số học (các hàm riêng Hecke trên mặt số học) đã được Elon Lindenstrauss chứng minh năm 2006 (mang về Huy chương Fields 2010; Kannan Soundararajan hoàn tất trường hợp mặt modular không compact năm 2010). Nhưng trường hợp hình học tổng quát vẫn là **một giả thuyết lớn còn mở**. FUP là một nguyên liệu quý giá người ta hy vọng sẽ tiến gần hơn tới lời giải, chứ chưa phải lời giải trọn vẹn.
 
-**Bài liên quan trong khóa học.** Cách nghĩ hình học (hình ống, tính xốp, cấm tập trung quá nhiều trên đường thẳng) có họ hàng với bài toán Kakeya và bài toán hạn chế (restriction) trong [giải tích điều hòa của Wang]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/). FUP không phải bài toán Kakeya, và ngược lại. Chúng chung một trực giác: **sự tập trung của biến đổi Fourier là một bài toán hình học**.
+**Bài liên quan trong khóa học.** Cách nghĩ hình học (hình ống, tính xốp, cấm tập trung quá nhiều trên đường thẳng) có họ hàng gần với bài toán Kakeya và bài toán hạn chế (restriction) trong [giải tích điều hòa của Wang]({{ site.baseurl }}/contents/vi/chapter02/02_15_Wang_Harmonic_Analysis/). FUP không phải bài toán Kakeya, và ngược lại. Chúng chung một trực giác cốt lõi: **sự tập trung của biến đổi Fourier thực chất là một bài toán hình học**.
 
 ---
 

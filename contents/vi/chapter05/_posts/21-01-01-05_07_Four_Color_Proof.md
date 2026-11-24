@@ -9,9 +9,11 @@ categories:
 - chapter05
 ---
 
-**Định lý Bốn Màu** khẳng định rằng mọi bản đồ phẳng đều có thể tô bằng nhiều nhất bốn màu sao cho các vùng kề nhau có màu khác nhau. Phát biểu này xuất hiện từ thế kỷ XIX và mãi đến năm 1976 mới được **Kenneth Appel** và **Wolfgang Haken** chứng minh. Đây là định lý lớn đầu tiên mà chứng minh **cần đến máy tính một cách thiết yếu**. Phần đóng góp của con người không mất đi, nhưng được tổ chức lại. Bài này trình bày **ý tưởng chứng minh**: đưa một họ vô hạn các bản đồ về một danh sách kiểm tra hữu hạn các cấu hình; chỉ ra rằng mọi phản ví dụ tối thiểu đều phải chứa một cấu hình trong một "tập không tránh được"; và mỗi cấu hình đó "rút gọn được", nên không thể xuất hiện trong phản ví dụ tối thiểu.
+Năm 1852 tại London, chàng sinh viên trẻ **Francis Guthrie** ngồi tô màu bản đồ các hạt của nước Anh sao cho không hai hạt nào chung biên giới bị trùng màu. Một câu hỏi đơn giản đến mức đứa trẻ mười tuổi cũng hiểu chợt lóe lên: *liệu bốn màu có luôn luôn đủ cho **mọi** bản đồ phẳng vẽ được hay không?*
 
-Hệ quả triết học vẫn còn nguyên giá trị: thế nào là chứng minh khi không ai đọc hết mọi trường hợp? Các chứng minh hình thức hóa về sau trong các trình hỗ trợ chứng minh trả lời một phần bằng cách kiểm tra lập luận hữu hạn đó trong một lõi logic đáng tin cậy.
+Chẳng ai ngờ câu đố màu sắc ấy lại hành hạ giới toán học suốt **124 năm**. Năm 1879, luật sư kiêm nhà toán học Alfred Kempe công bố một lời giải thanh lịch và cả thế giới reo mừng — cho đến 11 năm sau, Percy Heawood phát hiện một lỗ hổng tinh vi giấu kín trong lập luận đổi màu chuỗi của Kempe (lập luận đó đủ chứng minh **Năm màu**, nhưng không đủ cho Bốn màu!). Phải đến năm 1976, **Kenneth Appel** và **Wolfgang Haken** mới khép lại bài toán bằng cách nhờ máy tính kiểm tra hàng nghìn cấu hình — tạo ra định lý lớn đầu tiên trong lịch sử mà chứng minh **cần đến máy tính một cách thiết yếu**.
+
+Bài này trình bày **ý tưởng chứng minh** phía sau cuộc cách mạng đó: đưa một vũ trụ vô hạn các bản đồ về một danh sách kiểm tra hữu hạn các cấu hình; dùng phương pháp *discharging* để chứng minh mọi phản ví dụ tối thiểu đều chứa một cấu hình trong "tập không tránh được"; và chỉ ra mọi cấu hình ấy đều "rút gọn được". Hệ quả triết học vẫn còn nóng hổi đến tận hôm nay: *điều gì được gọi là chứng minh khi không một con người nào có thể tự mắt đọc hết từng trường hợp?*
 
 ---
 
@@ -30,13 +32,32 @@ Sau bài này, bạn có thể:
 
 ---
 
-## 1. Phát biểu và đồ thị đối ngẫu
+## Bản đồ kiến thức nền: Lý thuyết đồ thị phẳng, đối ngẫu và chứng minh có máy tính hỗ trợ là gì?
 
-**Định lý Bốn Màu.** Các "nước" trên mọi bản đồ chính trị vẽ trên mặt phẳng (hoặc mặt cầu) có thể được tô bằng bốn màu sao cho hai nước kề nhau có màu khác nhau. Ở đây mỗi nước là một miền liên thông, và "kề nhau" nghĩa là có chung một đoạn biên có độ dài dương (không chỉ chung một điểm).
+Để người tốt nghiệp đại học nắm ngay bức tranh toàn cảnh trước khi đi vào kỹ thuật *discharging*, đây là bốn khái niệm trụ cột đứng sau Định lý Bốn Màu:
+
+- **Đồ thị phẳng (Planar Graph) & Đồ thị đối ngẫu (Dual Graph):** Một đồ thị gọi là *phẳng* nếu ta vẽ được nó trên mặt giấy mà không có hai cạnh nào cắt chéo nhau. Mỗi bản đồ chính trị đều biến thành một đồ thị phẳng bằng cách đặt một **đỉnh** vào thủ đô mỗi nước và vẽ một **cạnh** nối hai nước chung đường biên. Nhờ phép đối ngẫu này, bài toán "tô màu các miền bản đồ" tương đương tuyệt đối với bài toán "tô màu các đỉnh sao cho hai đỉnh nối cạnh khác màu".
+- **Công thức Euler cho đồ thị phẳng ($$V - E + F = 2$$):** Với mọi đồ thị phẳng liên thông có $$V$$ đỉnh, $$E$$ cạnh và $$F$$ miền (kể cả miền vô hạn bên ngoài), hiệu $$V - E + F$$ luôn bằng $$2$$. Một hệ quả thần kỳ của công thức này là: **mọi đồ thị phẳng đơn đều có ít nhất một đỉnh bậc $$\le 5$$** (tức là trên mọi bản đồ phẳng, luôn tồn tại ít nhất một quốc gia có nhiều nhất $$5$$ nước láng giềng!). Chính định lý nhỏ này làm động cơ cho cả chứng minh Năm màu lẫn chiến lược Bốn màu.
+- **Sắc số (Chromatic Number $$\chi(G)$$):** Số màu tối thiểu cần để tô hợp lệ các đỉnh của $$G$$. Định lý Bốn Màu nói gọn: mọi đồ thị phẳng đều có $$\chi(G) \le 4$$. (Lưu ý: đồ thị không phẳng có thể cần tùy ý nhiều màu; ví dụ đồ thị đầy đủ $$K_n$$ cần đúng $$n$$ màu.)
+- **Chứng minh có máy tính hỗ trợ vs. Chứng minh hình thức (Formal Proof):** Năm 1976, Appel–Haken viết chương trình máy tính kiểm tra 1.936 cấu hình, nhưng người đọc phải tin rằng mã nguồn không có lỗi lập trình. Đến năm 2005, Georges Gonthier hình thức hóa toàn bộ chứng minh trong trợ lý chứng minh **Coq**, nơi một lõi logic (*kernel*) cực nhỏ kiểm tra từng bước suy diễn từ tiên đề — biến nỗi lo "lỗi phần mềm" thành sự kiểm toán chặt chẽ bậc nhất.
+
+---
+
+## 1. Phát biểu, đồ thị đối ngẫu — và bẫy trực giác đời thường
+
+### Từ câu đố bản đồ đến bẫy của Kempe
+
+Hãy thử tự tay vẽ một bản đồ cần nhiều màu nhất có thể trên tờ giấy. Bạn đặt 3 nước đôi một tiếp giáp nhau (dễ, cần 3 màu). Bạn bao bọc chúng bằng nước thứ 4 chạm cả 3 nước kia (tạo thành đồ thị đầy đủ $$K_4$$ — cần đúng 4 màu). Bây giờ hãy thử thêm nước thứ 5 sao cho nó chạm *cả 4* nước cũ mà không nhảy qua biên giới hay đục hầm xuyên giấy: bạn sẽ bị nhốt ngay lập tức, vì đồ thị đầy đủ $$K_5$$ **không thể vẽ phẳng** trên tờ giấy!
+
+Điều này sinh ra một trực giác rất hấp dẫn nhưng lại **sai**: nhiều người nghĩ *"không có 5 nước đôi một chạm nhau thì chắc chắn 4 màu là đủ"*. Thực tế, trong lý thuyết đồ thị tồn tại những đồ thị thậm chí không có hình tam giác ($$K_3$$) nào mà vẫn cần 4, 5 hay 100 màu! Bản đồ phẳng phức tạp hơn thế nhiều: các ràng buộc màu lan truyền dây chuyền từ đầu này sang đầu kia của bản đồ. Chính vì những chuỗi lan truyền màu (*chuỗi Kempe*) có thể đan chéo và vô hiệu hóa lẫn nhau nên chứng minh nổi tiếng năm 1879 của Kempe đã sụp đổ ở bước tưởng như hiển nhiên nhất.
+
+### Phát biểu chuẩn
+
+**Định lý Bốn Màu.** Các "nước" trên mọi bản đồ chính trị vẽ trên mặt phẳng (hoặc mặt cầu) có thể được tô bằng bốn màu sao cho hai nước kề nhau có màu khác nhau. Ở đây mỗi nước là một miền liên thông, và "kề nhau" nghĩa là có chung một đoạn biên có độ dài dương (không chỉ chung một điểm, như bốn bang tại điểm Four Corners của Mỹ).
 
 Theo ngôn ngữ đồ thị: đặt một đỉnh trong mỗi nước và nối hai đỉnh bằng một cạnh nếu hai nước chung biên. Ta được một **đồ thị phẳng**, và định lý trở thành: mọi đồ thị phẳng đều **tô được bằng 4 màu**. Các chi tiết kỹ thuật (cạnh bội, tính liên thông của nước, nghĩa chính xác của "kề") có thể xử lý ổn thỏa; phát biểu ở mức ý tưởng không thay đổi.
 
-Năm màu thì đủ theo định lý cổ điển của Heawood (xuất phát từ hướng của Kempe). Ba màu **không** đủ cho mọi đồ thị phẳng. Vậy bốn là con số chính xác cho mặt phẳng.
+Năm màu thì đủ theo định lý cổ điển của Heawood (xuất phát từ hướng của Kempe). Ba màu **không** đủ cho mọi đồ thị phẳng (vì $$K_4$$ là đồ thị phẳng nhưng cần 4 màu). Vậy bốn là con số chính xác cho mặt phẳng.
 
 ---
 
@@ -51,6 +72,8 @@ Chứng minh của Appel–Haken (và các chứng minh sau đó) đi theo hư�
 ## 3. Phản ví dụ tối thiểu
 
 Giả sử (để đi đến mâu thuẫn) có một đồ thị phẳng không tô được bằng 4 màu. Trong các phản ví dụ, chọn cái **tối thiểu**, thường là cái có ít đỉnh nhất. Phản ví dụ tối thiểu có một tính chất hữu ích: bản thân nó không tô được, nhưng mọi đồ thị phẳng nhỏ hơn nó *đều* tô được bằng 4 màu. Do đó, nếu ta chỉ ra một mảnh cục bộ có thể co lại hoặc tô lại bằng cách dùng màu của đồ thị nhỏ hơn, thì mảnh đó không thể xuất hiện trong phản ví dụ tối thiểu.
+
+**Ví dụ nhỏ về tính rút gọn được:** Trong phản ví dụ tối thiểu $$G$$, không thể có đỉnh $$v$$ nào bậc $$\le 3$$. Vì sao? Nếu có đỉnh $$v$$ chỉ có nhiều nhất $$3$$ láng giềng, ta xóa tạm $$v$$ đi để được đồ thị $$G - v$$ nhỏ hơn; theo tính tối thiểu, $$G - v$$ tô được bằng 4 màu; bây giờ lắp $$v$$ trở lại, $$3$$ láng giềng của nó dùng nhiều nhất $$3$$ màu nên vẫn còn thừa ít nhất $$1$$ màu trống cho $$v$$ — suy ra $$G$$ tô được bằng 4 màu, mâu thuẫn! Như vậy cấu hình "đỉnh bậc $$\le 3$$" là **rút gọn được**. Tương tự, kỹ thuật đổi màu chuỗi Kempe dễ dàng loại luôn đỉnh bậc $$4$$. Mọi rắc rối dồn hết vào đỉnh bậc $$5$$ và các cụm xung quanh nó.
 
 Đó là logic của **tính rút gọn được**: một cấu hình là rút gọn được nếu sự có mặt của nó cho phép dựng một cách tô 4 màu toàn cục từ cách tô 4 màu của đồ thị nhỏ hơn, mâu thuẫn với tính tối thiểu của phản ví dụ chứa nó.
 
@@ -73,15 +96,23 @@ Khẳng định 2, với danh sách dài, là nơi máy tính phát huy: mỗi c
 
 ## 5. Discharging (cỗ máy do con người thiết kế)
 
-Discharging là một lập luận phân phối lại cục bộ, hữu hạn. Ta gán "điện tích" cho đỉnh và mặt (cổ điển là dựa vào công thức Euler
+Discharging là một lập luận phân phối lại cục bộ, hữu hạn — bạn có thể hình dung nó như một **bài toán kế toán ngân sách**.
+
+Từ công thức Euler $$V - E + F = 2$$ cho đồ thị phẳng đã tam giác hóa, ta dễ dàng biến đổi thành đẳng thức:
 
 $$
-V-E+F=2
+\sum_{v \in V} (6 - \deg(v)) = 12 > 0.
 $$
 
-cho đồ thị phẳng liên thông) sao cho tổng điện tích là một hằng số dương đã biết. Sau đó phân phối lại điện tích theo các quy tắc cục bộ. Sau khi phân phối, điện tích ở mọi vị trí chỉ không âm nếu có xuất hiện một cấu hình dày nào đó; nếu không, sẽ có chỗ mang điện tích âm, điều này không thể xảy ra. Vậy một cấu hình trong danh sách được thiết kế là không tránh được.
+Hãy gán cho mỗi đỉnh $$v$$ một "số tiền" (hay **điện tích**) ban đầu bằng $$6 - \deg(v)$$. Khi đó:
+- Đỉnh bậc $$5$$ có điện tích dương $$+1$$ (giàu).
+- Đỉnh bậc $$6$$ có điện tích $$0$$ (hòa vốn).
+- Đỉnh bậc $$7, 8, \ldots$$ có điện tích âm $$-1, -2, \ldots$$ (nợ).
+- Nhưng **tổng điện tích toàn đồ thị luôn dương bằng $$+12$$**!
 
-Thiết kế các quy tắc discharging và danh sách cấu hình là công việc tổ hợp thủ công rất sâu. Việc kiểm tra các quy tắc có chạy đúng và mỗi cấu hình có rút gọn được hay không dẫn đến một khối lượng trường hợp lớn mà máy kiểm tra được: gần hai nghìn cấu hình trong chứng minh của Appel–Haken (1.936 cấu hình), danh sách gọn hơn nhiều (633 cấu hình) trong chứng minh của Robertson–Sanders–Seymour–Thomas (1997), và cuối cùng là một chứng minh hình thức trong Coq (Gonthier và cộng sự).
+Tiếp theo, ta thiết kế các quy tắc chuyển điện tích cục bộ (ví dụ: các đỉnh bậc $$5$$ "chia bớt" một phần điện tích dương sang cho các láng giềng bậc lớn đang âm). Vì tổng điện tích toàn đồ thị được bảo toàn bằng $$+12 > 0$$, nên sau khi chia xong **chắc chắn vẫn phải còn ít nhất một đỉnh mang điện tích dương**. Bằng cách thiết kế luật chia khéo léo, ta chứng minh rằng bất kỳ đỉnh nào còn điện tích dương sau khi chia đều buộc phải nằm trong một cụm cục bộ thuộc danh sách $$\mathcal{U}$$!
+
+Thiết kế các quy tắc discharging và danh sách cấu hình là công việc tổ hợp thủ công rất sâu. Việc kiểm tra các quy tắc có chạy đúng và mỗi cấu hình có rút gọn được hay không dẫn đến một khối lượng trường hợp lớn mà máy kiểm tra được: **1.936 cấu hình** trong chứng minh của Appel–Haken (1976), danh sách gọn hơn nhiều (**633 cấu hình**) trong chứng minh của Robertson–Sanders–Seymour–Thomas (1997), và cuối cùng là một chứng minh hình thức hoàn chỉnh trong **Coq** (Georges Gonthier và cộng sự, 2005).
 
 ---
 
@@ -113,7 +144,7 @@ Bài học về phương pháp: *ý tưởng chứng minh có thể bao gồm vi
 
 ## 8. Định lý *không* nói gì
 
-- Nó không khẳng định mọi bản đồ trên mọi mặt đều tô được bằng 4 màu; số màu cần thiết thay đổi theo giống của mặt (công thức Heawood cho giống cao hơn).
+- Nó không khẳng định mọi bản đồ trên mọi mặt đều tô được bằng 4 màu; số màu cần thiết thay đổi theo giống của mặt (công thức Heawood cho giống cao hơn — ví dụ trên bề mặt chiếc bánh donut/hình xuyến, có những bản đồ cần tới **7 màu**!).
 - Nó không cho một thuật toán thực tế nhanh nhất cho mọi trường hợp.
 - Nó không nói mọi bản đồ *cần* bốn màu; chỉ nói bốn màu luôn đủ, còn ba màu thì không phải lúc nào cũng đủ.
 - Nó không đồng nhất với **Định lý Năm Màu**, vốn có một chứng minh cổ điển ngắn.

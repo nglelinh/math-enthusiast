@@ -10,9 +10,11 @@ categories:
 lesson_type: deep-dive
 ---
 
-**Langlands hình học** (geometric Langlands) là một chương trình đối ngẫu trong toán thuần túy: các phạm trù bó (sheaf) trên không gian moduli các phân thớ $$G$$ trên một đường cong tương ứng với dữ liệu phổ, tức các hệ địa phương (local system), của **nhóm đối ngẫu Langlands** $$G^\vee$$. Một cách độc lập, vật lý phát triển **đối ngẫu S** (đối ngẫu điện–từ, hay mạnh–yếu) cho các lý thuyết gauge siêu đối xứng bốn chiều; phép đối ngẫu này cũng đổi $$G$$ thành $$G^\vee$$. **Kapustin–Witten (2006)** đề xuất rằng Langlands hình học là hình bóng toán học của đối ngẫu S của lý thuyết $$\mathcal N=4$$ super Yang–Mills đã được xoắn (twist) và compact hóa trên một mặt Riemann. Cơ chế hình học bên trong là **đối xứng gương của hệ Hitchin**.
+Vào năm 1967, Robert Langlands viết một bức thư tay dài 17 trang gửi André Weil, đề xuất một mạng lưới đối ngẫu đầy tham vọng nối lý thuyết số với giải tích điều hòa thông qua một đối tượng kỳ lạ gọi là **nhóm đối ngẫu** $$G^\vee$$. Mười năm sau, ở một vũ trụ hoàn toàn khác — vật lý hạt cơ bản — hai nhà vật lý Claus Montonen và David Olive tìm cách tổng quát hóa tính đối xứng điện–từ của Maxwell sang lý thuyết gauge không giao hoán, và họ tình cờ gặp lại **chính xác cùng một nhóm đối ngẫu $$G^\vee$$ đó**!
 
-Bài đọc sâu này nằm ở chỗ giao nhau của:
+Suốt gần ba thập kỷ, sự trùng hợp kỳ lạ ấy giống như hai đoàn thợ đào hầm từ hai sườn núi khác nhau nghe tiếng cuốc của nhau vọng qua vách đá. Cho đến năm 2006, Anton Kapustin và Edward Witten đã đục thông vách đá đó bằng một bài báo kinh điển: họ chỉ ra rằng **Langlands hình học** (phiên bản hình học đại số của chương trình Langlands trên một mặt Riemann) chính là hình bóng toán học của **đối ngẫu S** (đối ngẫu điện–từ, hay mạnh–yếu) trong lý thuyết gauge siêu đối xứng bốn chiều $$\mathcal N=4$$ super Yang–Mills, với cơ chế bên trong là **đối xứng gương của hệ Hitchin**.
+
+Bài đọc sâu này nằm ngay tại ngã ba lớn nhất của toán và vật lý hiện đại, nơi giao nhau của:
 
 - [Đối ngẫu như một nguyên lý]({{ site.baseurl }}/contents/vi/chapter06/06_12_Duality_Principle/)  
 - [Langlands / Ngô]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/) (chương trình số học; nhóm đối ngẫu)  
@@ -21,6 +23,16 @@ Bài đọc sâu này nằm ở chỗ giao nhau của:
 **Đừng** nhầm Bổ đề cơ bản của Ngô với "chương trình Langlands đã xong", và đừng nhầm từ điển vật lý với chứng minh đầy đủ mọi tương ứng hình học.
 
 Gói nghiên cứu: `research/video-research/geometric-langlands-sduality/`.
+
+---
+
+## Bản đồ kiến thức nền: Langlands hình học và đối ngẫu S là gì và nghiên cứu những gì?
+
+Thoạt nhìn, thuật ngữ trong bài này ("stack moduli $$\mathrm{Bun}_G(C)$$", "bó riêng Hecke", "$$\mathcal N=4$$ SYM") có thể khiến người mới choáng ngợp. Nhưng bạn chỉ cần nắm **ba mảnh ghép trực giác** là đọc thông toàn bộ bài:
+
+1. **Nhóm đối ngẫu Langlands $$G^\vee$$:** Mọi nhóm ma trận đối xứng quen thuộc $$G$$ (nhóm Lie khử được) đều có một "bản song sinh đối ngẫu" $$G^\vee$$ thu được bằng cách đảo ngược lưới nghiệm của nó. Đôi khi $$G$$ tự đối ngẫu ($$\mathrm{GL}_n^\vee = \mathrm{GL}_n$$), đôi khi hai họ khác nhau lại là cặp đối ngẫu của nhau (nhóm trực giao lẻ $$\mathrm{SO}_{2n+1}$$ đối ngẫu với nhóm symplectic $$\mathrm{Sp}_{2n}$$, còn $$\mathrm{SU}(n)$$ đối ngẫu với $$\mathrm{PSU}(n)$$).
+2. **Langlands hình học (Thế giới Toán):** Thay vì nghiên cứu số nguyên tố trên trường số $$\mathbb{Q}$$ như Langlands số học, ta làm việc trên một **đường cong đại số / mặt Riemann** $$C$$ (như mặt cầu hay mặt bánh donut). Bên trái là thế giới "hàm sóng / bó" sống trên không gian tất cả các phân thớ $$G$$ trên $$C$$ (ký hiệu $$\mathrm{Bun}_G(C)$$); bên phải là thế giới "phổ / liên thông phẳng" của nhóm đối ngẫu $$G^\vee$$ trên $$C$$. Phép đối ngẫu nối hai phạm trù đó giống như một phép **biến đổi Fourier phi tuyến khổng lồ**.
+3. **Đối ngẫu S (Thế giới Vật lý):** Mở rộng tính đối xứng điện ↔ từ của phương trình Maxwell sang các lý thuyết trường lượng tử 4 chiều: khi ta đổi hằng số tương tác mạnh $$g$$ thành yếu $$1/g$$, các hạt mang *điện tích* của nhóm $$G$$ biến thành các *đơn cực từ* của đúng nhóm đối ngẫu $$G^\vee$$!
 
 ---
 
@@ -59,7 +71,7 @@ Cố định một đường cong xạ ảnh trơn $$C$$ và một nhóm khử �
 
 > Phạm trù các bó (thích hợp) trên stack moduli $$\mathrm{Bun}_G(C)$$ đối ngẫu với một phạm trù dựng từ các $$G^\vee$$-hệ địa phương (hoặc dữ liệu phổ liên quan) trên $$C$$.
 
-Dạng cổ điển nhấn mạnh **bó riêng Hecke** (Hecke eigensheaf): bó là vectơ riêng của các toán tử Hecke, với "giá trị riêng" là một hệ địa phương của $$G^\vee$$. Cách phát biểu hiện đại dùng hình học đại số dẫn xuất và các tương đương phạm trù tinh tế hơn; phát biểu chính xác thay đổi theo từng tài liệu.
+Dạng cổ điển nhấn mạnh **bó riêng Hecke** (Hecke eigensheaf): bó là vectơ riêng của các toán tử Hecke, với "giá trị riêng" là một hệ địa phương của $$G^\vee$$. Hãy liên hệ với điều bạn đã biết ở đại số tuyến tính và giải tích: với một nhóm abel $$G = \mathbb{C}^\times$$, Langlands hình học thực chất rút về **biến đổi Fourier–Mukai** trên đa tạp Jacobian của đường cong $$C$$ (biến hàm/bó trên một xuyến thành hàm/bó trên xuyến đối ngẫu!). Cái khó vĩ đại của Langlands hình học nằm ở chỗ khi $$G$$ không giao hoán (như $$\mathrm{GL}_n$$ với $$n\ge 2$$), không gian $$\mathrm{Bun}_G(C)$$ không còn là nhóm nữa mà là một không gian moduli phức tạp hơn nhiều. Cách phát biểu hiện đại dùng hình học đại số dẫn xuất và các tương đương phạm trù tinh tế hơn; phát biểu chính xác thay đổi theo từng tài liệu.
 
 **Gợi ý học.** Hãy nhớ **hình dạng** của phát biểu: hình học tự đẳng cấu của $$G$$ đối ngẫu với hình học phổ của $$G^\vee$$. Không cần định nghĩa đầy đủ stack.
 
@@ -69,7 +81,7 @@ Dạng cổ điển nhấn mạnh **bó riêng Hecke** (Hecke eigensheaf): bó l
 
 Phương trình **Maxwell** đã có đối ngẫu điện–từ. **Montonen–Olive** và các công trình sau mở rộng thành **đối ngẫu S** không giao hoán: hằng số tương tác mạnh được ánh xạ thành hằng số tương tác yếu của lý thuyết đối ngẫu, và nhóm gauge được thay bằng **nhóm đối ngẫu Langlands** $$G^\vee$$.
 
-Với $$\mathcal N=4$$ SYM bốn chiều, đối ngẫu S đặc biệt rõ: hằng số tương tác $$\tau$$ biến đổi theo nhóm kiểu $$\mathrm{SL}(2,\mathbb{Z})$$, và hai lý thuyết đối ngẫu có cùng phổ BPS trong các chế độ kiểm soát được.
+Với $$\mathcal N=4$$ SYM bốn chiều, đối ngẫu S đặc biệt rõ: hằng số tương tác phức $$\tau = \frac{\theta}{2\pi} + \frac{4\pi i}{g^2}$$ biến đổi theo nhóm kiểu $$\mathrm{SL}(2,\mathbb{Z})$$ (trong đó phép biến đổi $$S: \tau \mapsto -1/\tau$$ lật ngược hằng số tương tác $$g \leftrightarrow 1/g$$ khi $$\theta=0$$!), và hai lý thuyết đối ngẫu có cùng phổ BPS trong các chế độ kiểm soát được.
 
 ---
 
@@ -78,8 +90,8 @@ Với $$\mathcal N=4$$ SYM bốn chiều, đối ngẫu S đặc biệt rõ: h�
 **Kapustin–Witten** (arXiv:hep-th/0604151) lập luận, nói gần đúng:
 
 1. Bắt đầu từ phiên bản xoắn tôpô của $$\mathcal N=4$$ SYM bốn chiều với nhóm $$G$$.  
-2. Compact hóa trên mặt Riemann $$C$$ (chính là đường cong trong Langlands hình học).  
-3. Lý thuyết hiệu dụng là một mô hình sigma với đích là không gian moduli Higgs (Hitchin), kèm theo **phạm trù các brane** trên không gian đó.  
+2. Compact hóa trên mặt Riemann $$C$$ (chính là đường cong trong Langlands hình học) — tức là cho hai trong bốn chiều không–thời gian cuộn lại thành mặt $$C$$ có kích thước rất nhỏ.  
+3. Lý thuyết hiệu dụng trên 2 chiều còn lại là một mô hình sigma với đích là không gian moduli Higgs (Hitchin), kèm theo **phạm trù các brane** trên không gian đó.  
 4. **Đối ngẫu S** của lý thuyết 4 chiều trở thành một đối ngẫu giữa các phạm trù 2 chiều, khớp với Langlands hình học cho $$G$$ và $$G^\vee$$.  
 5. Trên đường đi, **đối xứng gương** của hệ Hitchin (A-brane ↔ B-brane) xuất hiện như cơ chế hình học. Điều này nối bài này với bài đối xứng gương.
 

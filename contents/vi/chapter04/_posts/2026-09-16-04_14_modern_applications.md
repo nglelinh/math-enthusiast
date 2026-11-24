@@ -10,6 +10,8 @@ categories:
 lesson_type: optional
 ---
 
+Khi bước vào Chương 4, ta từng hỏi: *những ý tưởng nào đẹp và lạ đến mức các nhà toán học vẫn nghiên cứu chúng dù chẳng cần ứng dụng ngay?* Thật bất ngờ, chỉ trong giai đoạn 2022–2026, ba ý tưởng từng có vẻ "bay bổng" nhất của chương — phép lát không tuần hoàn, hệ động lực phi tuyến, và hiện tượng nảy sinh — đã đồng loạt bước ra khỏi bảng đen để xuất hiện trực tiếp trong công trình giải thưởng, phần mềm tạo ảnh AI và những tranh luận sôi nổi nhất về mô hình ngôn ngữ lớn.
+
 ## Mục tiêu học tập
 
 Sau bài tùy chọn này, bạn liên hệ được ba chủ đề "đẹp" đã gặp trong chương (trật tự không tuần hoàn, mô hình sinh dựa trên động lực học, và hiện tượng nảy sinh) với các thành tựu khoa học máy tính giai đoạn 2022–2026. Bài này không lặp lại bài tổng quan [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/) và không kể lại sáu trụ cột trong bài nói Big Think của Tao.
@@ -17,6 +19,13 @@ Sau bài tùy chọn này, bạn liên hệ được ba chủ đề "đẹp" đ�
 ## Kiến thức cần có
 
 Các bài bắt buộc về vẻ đẹp toán học, đặc biệt là [lát gạch]({{ site.baseurl }}/contents/vi/chapter04/04_10_Tilings/), [hỗn độn]({{ site.baseurl }}/contents/vi/chapter04/04_05_Chaos/) và động lực học, và [hiện tượng nảy sinh]({{ site.baseurl }}/contents/vi/chapter04/04_12_Emergence/). Bài tổng quan về Tao vẫn là bản đồ chính; bài này là một lối rẽ sang các ứng dụng gần đây.
+
+## Bản đồ kiến thức nền: Vẻ đẹp toán học đi vào phần mềm hiện đại như thế nào?
+
+Với người đã qua bậc đại học, khoảng cách giữa một định lý thuần túy và một sản phẩm công nghệ thường nằm ở **khâu mô hình hóa và đo đạc**:
+- **Từ hình học rời rạc sang bộ giải SAT:** Khi không gian cấu hình quá lớn để vẽ tay, các ràng buộc khớp cạnh của bài toán lát gạch được dịch thành công thức logic mệnh đề để máy tính rà soát hàng triệu ứng viên — nhưng chứng minh toàn cục vẫn cần tư duy toán học chặt chẽ.
+- **Từ phương trình vi phân sang mô hình sinh (Generative AI):** Thay vì mô phỏng hành tinh hay thời tiết, các mô hình khuếch tán (diffusion) huấn luyện mạng nơ-ron học chính *trường vectơ* kéo một đám mây nhiễu ngẫu nhiên trôi ngược về bức ảnh sắc nét hoặc cấu trúc protein 3D.
+- **Từ chuyển pha vật lý sang đo lường mô hình ngôn ngữ:** Mượn từ vựng "hiện tượng nảy sinh" của cơ học thống kê vào AI là rất gợi mở, nhưng toán học nhắc ta phải kiểm tra xem "bước nhảy đột ngột" đó là bản chất của hệ hay chỉ là ảo giác do thước đo gây ra.
 
 ## Mở đầu
 
@@ -30,15 +39,24 @@ Một viên gạch đơn không tuần hoàn (aperiodic monotile) là một hìn
 
 ### 1. Viên gạch hat và lát gạch có SAT hỗ trợ
 
-Smith, Myers, Kaplan và Goodman-Strauss (2023/2024) giới thiệu "hat", một hình ghép từ các hình cánh diều (polykite) lát mặt phẳng chỉ theo cách không tuần hoàn, cùng với một họ liên tục các đa giác liên quan và một lập luận tổ hợp có máy tính hỗ trợ. Phần mềm dùng SAT của Kaplan để tính số Heesch trước đó đã góp phần vào phát hiện này. Đây là lúc bài lát gạch của Chương 4 bỗng trở nên cụ thể, và cũng là một câu chuyện khoa học máy tính: tìm kiếm vét cạn và mã hóa SAT được dùng như công cụ nghiên cứu, chứ không phải một trụ cột mới của Tao.
+Smith, Myers, Kaplan và Goodman-Strauss (2023/2024) giới thiệu "hat", một hình ghép từ 8 hình cánh diều (polykite) lát mặt phẳng chỉ theo cách không tuần hoàn, cùng với một họ liên tục các đa giác liên quan và một lập luận tổ hợp có máy tính hỗ trợ. Trước khi viên hat xuất hiện, Craig Kaplan đã xây dựng phần mềm dùng bộ giải SAT để tính **số Heesch** (số vòng tròn đồng tâm tối đa có thể xếp bao quanh một mảnh trước khi bị kẹt) nhằm săn tìm những đa giác có hành vi lát bất thường. Khi David Smith phát hiện viên hat, chính công cụ SAT và kiểm tra vét cạn cục bộ giúp nhóm nhanh chóng xác nhận các ràng buộc ghép cạnh và xây dựng chứng minh phân tầng siêu mảnh. Đây là lúc bài lát gạch của Chương 4 bỗng trở nên cụ thể, và cũng là một câu chuyện khoa học máy tính: tìm kiếm vét cạn và mã hóa SAT được dùng như công cụ nghiên cứu, chứ không phải một trụ cột mới của Tao.
 
 ### 2. Khuếch tán như một hệ động lực được huấn luyện
 
-Karras, Aittala, Aila và Laine (2022) tách riêng các lựa chọn thiết kế của mô hình sinh dựa trên score (tiền điều kiện, lịch nhiễu, bộ lấy mẫu) và đạt chỉ số FID rất tốt chỉ với vài chục lần gọi mạng nơ-ron. Đối tượng ở đây là một phương trình vi phân (tất định hoặc ngẫu nhiên) có trường vectơ được học. Đó chính là cách nghĩ về hỗn độn và động lực học của chương này, nay trở thành mô hình tạo ảnh trong sản phẩm thật (và sau đó là một phần của mô-đun dựng cấu trúc trong AlphaFold 3). Nó không thay thế bài thực hành về ánh xạ logistic.
+Hãy hình dung quá trình "phá hủy" một bức ảnh đẹp $$x_0$$: ở mỗi bước nhỏ, bạn rắc thêm một chút nhiễu Gauss cho đến khi bức ảnh biến thành nhiễu tuyết trắng $$x_T$$ hoàn toàn vô nghĩa. Mô hình khuếch tán làm điều ngược lại: nó huấn luyện một mạng nơ-ron học **hàm score** $$\nabla_x \log p_t(x)$$ — về mặt hình học, đó là một *trường vectơ* chỉ về phía những bức ảnh có xác suất "trông như thật" cao hơn. Khi tạo ảnh mới, ta lấy một điểm nhiễu ngẫu nhiên rồi giải ngược phương trình vi phân theo trường vectơ đó.
+
+Karras, Aittala, Aila và Laine (2022) tách riêng các lựa chọn thiết kế của mô hình sinh dựa trên score (tiền điều kiện, lịch nhiễu, bộ lấy mẫu ODE bậc cao) và đạt chỉ số FID rất tốt chỉ với vài chục lần gọi mạng nơ-ron thay vì hàng nghìn bước như trước. Đối tượng ở đây là một phương trình vi phân (tất định hoặc ngẫu nhiên) có trường vectơ được học. Đó chính là cách nghĩ về hỗn độn và động lực học của chương này, nay trở thành mô hình tạo ảnh trong sản phẩm thật (và sau đó là một phần của mô-đun dựng cấu trúc phân tử trong AlphaFold 3). Nó không thay thế bài thực hành về ánh xạ logistic.
 
 ### 3. Hiện tượng nảy sinh, kèm cảnh báo về thước đo
 
-Wei và cộng sự (2022) liệt kê những nhiệm vụ mà mô hình ngôn ngữ lớn dường như nhảy vọt từ mức gần đoán mò lên độ chính xác dùng được. Schaeffer và cộng sự (2023) cho thấy khi đổi sang một thước đo mượt hơn, nhiều "vách đá" như vậy trở thành những con dốc thoai thoải. Bài hiện tượng nảy sinh ở Chương 4 đã cảnh báo rằng hành vi tập thể cần một định nghĩa rõ ràng. Cặp bài báo 2022–2023 là cùng lời cảnh báo đó trong bối cảnh học máy: hãy nêu rõ thước đo trước khi nói đến chuyển pha.
+Wei và cộng sự (2022) liệt kê những nhiệm vụ mà mô hình ngôn ngữ lớn dường như nhảy vọt từ mức gần đoán mò lên độ chính xác dùng được khi quy mô tham số vượt ngưỡng. Schaeffer và cộng sự (2023) phản biện bằng một quan sát toán học cực kỳ sắc bén: nhiều "vách đá" đó thực ra là sản phẩm của **thước đo khắc nghiệt kiểu được ăn cả, ngã về không** (exact-match).
+
+Một phép tính nhỏ giúp thấy rõ ngay: giả sử mô hình làm bài toán cộng số có 4 chữ số, và xác suất đoán đúng từng chữ số độc lập $$p$$ tăng rất mượt khi mô hình lớn dần. Nếu ta chấm điểm theo kiểu *đúng cả 4 chữ số mới được 1 điểm*, xác suất đúng toàn bài là $$p^4$$:
+- Khi $$p = 0{,}50$$: điểm exact-match là $$0{,}5^4 = 6{,}25\%$$ (gần như bằng 0!).
+- Khi $$p = 0{,}70$$: điểm là $$0{,}7^4 \approx 24\%$$.
+- Khi $$p = 0{,}90$$: điểm vọt lên $$0{,}9^4 \approx 65{,}6\%$$!
+
+Độ chính xác từng chữ số tăng đều đặn, không có "chuyển pha" thần kỳ nào cả, nhưng qua hàm lũy thừa $$p^4$$ (hay nặng hơn là $$p^{10}$$), đồ thị bỗng xuất hiện một vách đá dựng đứng! Khi đổi sang thước đo mượt hơn (như xác suất log hoặc tỷ lệ đúng từng token), nhiều "vách đá" lập tức trở thành con dốc thoai thoải. Bài hiện tượng nảy sinh ở Chương 4 đã cảnh báo rằng hành vi tập thể cần một định nghĩa rõ ràng. Cặp bài báo 2022–2023 là cùng lời cảnh báo đó trong bối cảnh học máy: hãy nêu rõ thước đo trước khi nói đến chuyển pha.
 
 ## Diễn giải và nhận định
 

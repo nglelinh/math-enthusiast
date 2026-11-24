@@ -12,9 +12,9 @@ categories:
 > **Liên kết**  
 > [Green–Tao]({{ site.baseurl }}/contents/vi/chapter02/02_04_Green_Tao/) · [Thực hành: số nguyên tố]({{ site.baseurl }}/contents/vi/chapter07/07_04_Explore_Prime_Predictability/) · [Hỗn độn]({{ site.baseurl }}/contents/vi/chapter04/04_05_Chaos/)
 
-Thoạt nhìn, ngẫu nhiên có vẻ ngược với cấu trúc: tung đồng xu thì không ra được một đường thẳng. Toán học thế kỷ XX cho thấy hai điều. Thứ nhất, một đối tượng ngẫu nhiên **điển hình** sẽ tránh được một số mẫu nhất định. Thứ hai, **phương pháp xác suất** có thể *chứng minh* sự tồn tại của những đối tượng đặc biệt, có cấu trúc, bằng cách chỉ ra rằng một cách dựng ngẫu nhiên thành công với xác suất dương. Ngoài ra còn khái niệm **giả ngẫu nhiên** (pseudorandomness): một đối tượng "trông giống ngẫu nhiên" khi xét bằng một họ phép kiểm định nào đó, dù bên trong có cấu trúc sâu. Ví dụ tiêu biểu nhất là các số nguyên tố.
+Hãy thử tưởng tượng bạn rải ngẫu nhiên các hạt đậu lên một tờ giấy kẻ ô, hoặc tung một đồng xu công bằng để quyết định giữ hay bỏ từng số nguyên từ $$1$$ đến $$1000$$. Trực giác thường ngày mách bảo rằng ngẫu nhiên là kẻ thù của trật tự: tung đồng xu làm sao có thể tạo ra một hàng thẳng tắp hay một mô hình đều đặn? Ấy thế nhưng, năm 1947, Paul Erdős đã làm giới toán học sững sờ khi dùng chính hành động "tô màu ngẫu nhiên bằng tung đồng xu" để chứng minh sự tồn tại của những đồ thị có cấu trúc tinh vi mà không ai xây dựng nổi bằng tay suốt nhiều thập kỷ.
 
-Bài thực hành này vừa có phần suy nghĩ vừa có phần thí nghiệm: chạy vài mô phỏng nhỏ, định nghĩa khái niệm cho cẩn thận, và liên hệ với bài học từ định lý Green–Tao. Cấu trúc và ngẫu nhiên không hoàn toàn đối lập nhau. Vai trò của chúng thay đổi tùy theo thang đo và phép kiểm định ta dùng. Vì vậy, mỗi lần nói "ngẫu nhiên tạo ra trật tự", bạn cần nói rõ ý mình là gì.
+Toán học hiện đại còn đi xa hơn thế: giữa hai thái cực "trật tự tuyệt đối" và "hỗn loạn hoàn toàn" tồn tại một vùng đất cực kỳ thú vị mang tên **giả ngẫu nhiên (pseudorandomness)** — những đối tượng hoàn toàn tất định như tập số nguyên tố, nhưng lại vượt qua hàng loạt phép kiểm định thống kê giống hệt như thể chúng được tung đồng xu mà ra. Trong bài thực hành này, bạn sẽ bước vào phòng thí nghiệm mô phỏng để tự tay đo lường ranh giới giữa hai thái cực ấy: khi nào sự ngẫu nhiên phá hủy cấu trúc, khi nào mật độ buộc trật tự phải xuất hiện, và vì sao một câu khẩu hiệu như *"ngẫu nhiên tạo ra trật tự"* chỉ có ý nghĩa khi bạn chỉ rõ thang đo và phép kiểm định đi kèm.
 
 ---
 
@@ -33,6 +33,17 @@ Sau bài này, bạn cần:
 
 ---
 
+## Bản đồ kiến thức nền: Tổ hợp cộng tính và Phương pháp xác suất là gì, nghiên cứu những gì?
+
+Người tốt nghiệp đại học thường học xác suất như một công cụ thống kê để phân tích dữ liệu ồn ào, và học tổ hợp như nghệ thuật đếm chỉnh hợp, tổ hợp. Nhưng trong toán học hiện đại, sự kết hợp giữa chúng đã khai sinh ra hai lĩnh vực cực kỳ sống động đứng sau bài học này:
+
+1. **Phương pháp xác suất (The Probabilistic Method):** Do Paul Erdős khởi xướng, đây là nghệ thuật *dùng xác suất để chứng minh những định lý hoàn toàn tất định*. Thay vì vất vả vẽ ra một cấu hình thỏa mãn tính chất $$P$$, ta tạo ra một không gian các cấu hình ngẫu nhiên và tính kỳ vọng số "lỗi" (số chỗ vi phạm tính chất $$P$$). Nếu kỳ vọng số lỗi nhỏ hơn $$1$$, thì chắc chắn phải tồn tại ít nhất một cấu hình có **0 lỗi** — dù ta chưa cần biết mặt mũi nó ra sao! Cách tư duy này ngày nay là xương sống của khoa học máy tính lý thuyết, lý thuyết đồ thị ngẫu nhiên và thiết kế thuật toán.
+2. **Tổ hợp cộng tính (Additive Combinatorics):** Ngành này nghiên cứu mối quan hệ giữa *kích thước* của một tập số nguyên và *cấu trúc cộng* của nó (ví dụ: tổng $$A+A$$ lớn cỡ nào? Tập $$A$$ có bắt buộc chứa cấp số cộng $$a, a+d, a+2d$$ không?). Định lý **Ramsey**, **Roth** và **Szemerédi** đều mang cùng một triết lý sâu sắc: *"Hỗn loạn hoàn toàn là bất khả thi."* Chỉ cần một hệ thống đủ lớn hoặc một tập con đủ dày, những mẫu hình trật tự (như cấp số cộng hay đồ thị con đơn sắc) buộc phải hiện ra.
+
+Một ví dụ bằng số giúp bạn cảm nhận ngay sự phân đôi này: trong tập $$\{1, \dots, 100\}$$, có chính xác $$2450$$ bộ ba tạo thành cấp số cộng 3 số hạng (3-AP). Nếu bạn giữ lại ngẫu nhiên mỗi số với xác suất $$p = 0.2$$ (chỉ khoảng 20 số), kỳ vọng số 3-AP còn sót lại vẫn là $$2450 \times 0.2^3 \approx 19.6$$ bộ! Ngược lại, nếu bạn cố tình chọn 20 số *có cấu trúc* như các lũy thừa $$1, 2, 4, 8\dots$$ hoặc các số chỉ viết bằng chữ số $$0, 1$$ trong hệ cơ số 3, số 3-AP bằng đúng **0**. Như vậy, trên cùng một kích thước, tập ngẫu nhiên lại *giàu* cấp số cộng hơn nhiều tập có cấu trúc đặc biệt!
+
+---
+
 ## 1. Kiến thức toán nền
 
 ### 1.1 "Trật tự" nghĩa là gì?
@@ -48,21 +59,21 @@ Trong bài này, **trật tự** là sự xuất hiện của một mẫu nhận
 
 ### 1.2 Ngẫu nhiên phá vỡ một số cấu trúc
 
-Xét tập $$A\subset\{1,\ldots,N\}$$, trong đó mỗi số $$n$$ được giữ lại độc lập với xác suất $$p$$. Kỳ vọng số 3-AP xấp xỉ bằng số cặp $$(a,d)$$ có thể chọn nhân với $$p^3$$. Nếu $$p$$ rất nhỏ, ví dụ $$p=N^{-0.9}$$, kỳ vọng này có thể $$\ll 1$$. Khi đó, với xác suất cao, $$A$$ **không chứa cấp số cộng nào** (hoặc gần như không). Tập càng thưa và càng ngẫu nhiên thì cấu trúc cộng càng biến mất.
+Xét tập $$A\subset\{1,\ldots,N\}$$, trong đó mỗi số $$n$$ được giữ lại độc lập với xác suất $$p$$. Kỳ vọng số 3-AP xấp xỉ bằng số cặp $$(a,d)$$ có thể chọn nhân với $$p^3$$. Nếu $$p$$ rất nhỏ, ví dụ $$p=N^{-0.9}$$, kỳ vọng này có độ lớn cỡ $$N^2 \cdot (N^{-0.9})^3 = N^{-0.7} \ll 1$$. Khi đó, với xác suất cao, $$A$$ **không chứa cấp số cộng nào** (hoặc gần như không). Tập càng thưa và càng ngẫu nhiên thì cấu trúc cộng càng biến mất.
 
-Tương tự, đồ thị ngẫu nhiên $$G(n,1/2)$$ hầu chắc chắn không có tập độc lập lớn (lớn hơn khoảng 2 log₂ n đỉnh), nhưng lại hầu chắc chắn chứa mọi đồ thị con nhỏ cố định. Như vậy ngẫu nhiên vừa loại bỏ một số mẫu, vừa buộc một số mẫu khác phải xuất hiện.
+Tương tự, đồ thị ngẫu nhiên $$G(n,1/2)$$ hầu chắc chắn không có tập độc lập lớn (lớn hơn khoảng $$2 \log_2 n$$ đỉnh), nhưng lại hầu chắc chắn chứa mọi đồ thị con nhỏ cố định. Như vậy ngẫu nhiên vừa loại bỏ một số mẫu, vừa buộc một số mẫu khác phải xuất hiện.
 
 ### 1.3 Phương pháp xác suất chứng minh sự tồn tại
 
 **Phương pháp xác suất của Erdős:** để chứng minh có tồn tại một đối tượng có tính chất $$P$$, ta định nghĩa một đối tượng ngẫu nhiên và chứng minh $$\Pr[P]>0$$. Cách này có thể không chỉ ra cụ thể đối tượng đó. Lập luận chỉ dùng lý thuyết độ đo đơn giản, thường trên không gian xác suất hữu hạn: nếu tất cả các sự kiện xấu đều tránh được trên một tập có xác suất dương, thì trong không gian mẫu có ít nhất một kết quả tốt.
 
-Ví dụ kinh điển: tồn tại đồ thị vừa có chu trình ngắn nhất dài tùy ý (girth lớn) vừa có sắc số lớn. Điều này được chứng minh bằng phương pháp xác suất từ rất lâu trước khi có cách dựng tường minh. Ví dụ khác: chặn dưới cho số Ramsey bằng cách tô ngẫu nhiên các cạnh bằng 2 màu. Nếu kỳ vọng số clique cùng màu nhỏ hơn 1 thì phải có một cách tô không có clique cùng màu nào. Một ví dụ gần lý thuyết số: tồn tại tập không chứa tổng (sum-free) lớn trong $$\{1,\ldots,N\}$$ (lấy các số lẻ, hoặc một biến thể ngẫu nhiên).
+Ví dụ kinh điển về chặn dưới số Ramsey $$R(k,k)$$: tô ngẫu nhiên mỗi cạnh của đồ thị đầy đủ $$K_n$$ bằng đỏ hoặc xanh với xác suất $$1/2$$. Xác suất một nhóm $$k$$ đỉnh cố định cùng màu là $$2 \cdot 2^{-\binom{k}{2}}$$. Do đó kỳ vọng số clique $$K_k$$ đơn sắc là $$\binom{n}{k} 2^{1-\binom{k}{2}}$$. Chẳng hạn với $$k=4$$ và $$n=8$$, ta có $$\binom{8}{4} 2^{1-6} = 70 / 32 > 1$$ nên chưa kết luận được; nhưng với $$n=6$$, $$\binom{6}{4} / 32 = 15/32 < 1$$, lập tức chứng minh tồn tại cách tô $$K_6$$ không có $$K_4$$ đơn sắc nào mà không cần vẽ một nét nào! Một ví dụ kinh điển khác: tồn tại đồ thị vừa có chu trình ngắn nhất dài tùy ý (girth lớn) vừa có sắc số lớn, được chứng minh bằng phương pháp xác suất từ rất lâu trước khi có cách dựng tường minh. Một ví dụ gần lý thuyết số: tồn tại tập không chứa tổng (sum-free) lớn trong $$\{1,\ldots,N\}$$ (lấy các số lẻ, hoặc một biến thể ngẫu nhiên).
 
 Ở đây, ngẫu nhiên không phải là sự lộn xộn. Nó là **một công cụ chứng minh**. Thí nghiệm D giúp bạn thấy rõ điều này: tính kỳ vọng bằng tay, suy ra sự tồn tại, rồi với $$n$$ nhỏ thì tìm vét cạn để thấy đối tượng cụ thể.
 
 ### 1.4 Định lý cấu trúc: mật độ buộc phải có trật tự
 
-**Định lý Roth:** với mọi $$\delta>0$$, nếu $$N$$ đủ lớn (phụ thuộc $$\delta$$) thì mọi tập con của $$\{1,\ldots,N\}$$ có mật độ ≥$$\delta>0$$ đều chứa một 3-AP. Chính mật độ, chứ không phải tính ngẫu nhiên, buộc phải có cấu trúc cộng. **Định lý Szemerédi** mở rộng kết quả này cho $$k$$-AP với mọi $$k$$ cố định. Câu hỏi định lượng "mật độ nhỏ đến mức nào thì vẫn buộc có 3-AP" vẫn đang được nghiên cứu (Bloom–Sisask và nhiều người khác). Trong bài này, bạn chỉ cần ý định tính và cảm nhận về thang đo qua mô phỏng.
+**Định lý Roth:** với mọi $$\delta>0$$, nếu $$N$$ đủ lớn (phụ thuộc $$\delta$$) thì mọi tập con của $$\{1,\ldots,N\}$$ có mật độ ≥$$\delta>0$$ đều chứa một 3-AP. Chính mật độ, chứ không phải tính ngẫu nhiên, buộc phải có cấu trúc cộng. **Định lý Szemerédi** mở rộng kết quả này cho $$k$$-AP với mọi $$k$$ cố định. Câu hỏi định lượng "mật độ nhỏ đến mức nào thì vẫn buộc có 3-AP" vẫn đang được nghiên cứu sôi nổi (Bloom–Sisask, Kelley–Meka 2023 và nhiều người khác). Trong bài này, bạn chỉ cần ý định tính và cảm nhận về thang đo qua mô phỏng.
 
 **Định lý Green–Tao** đưa ý tưởng này sang số nguyên tố. Dù số nguyên tố có mật độ bằng 0, chúng vẫn đủ dày *bên trong một hàm trội giả ngẫu nhiên* (pseudorandom majorant) để có các cấu hình kiểu Szemerédi. Ý tưởng sâu xa là sự phân đôi giữa cấu trúc và giả ngẫu nhiên: một tập hoặc có tính gần tuần hoàn (có cấu trúc), hoặc trông ngẫu nhiên khi đo bằng các chuẩn Gowers (giả ngẫu nhiên). Trong cả hai trường hợp đều có cấp số cộng, nhưng theo những cơ chế khác nhau.
 
@@ -74,7 +85,7 @@ $$
 \sum_{d=1}^{\lfloor(N-1)/2\rfloor}(N-2d)=\Theta(N^2).
 $$
 
-Vậy trong mô hình Bernoulli, kỳ vọng số cấp số cộng là $$\Theta(p^3 N^2)$$. Chỉ một ước lượng tiệm cận này đã đủ để thiết kế thí nghiệm A và B hợp lý: bạn biết khi nào kỳ vọng còn lớn hơn 1 khi giảm dần $$p$$.
+Cụ thể, tổng này bằng $$\frac{N(N-2)}{4}$$ nếu $$N$$ chẵn và $$\frac{(N-1)^2}{4}$$ nếu $$N$$ lẻ (ví dụ $$N=100$$ cho đúng $$2450$$). Vậy trong mô hình Bernoulli, kỳ vọng số cấp số cộng là $$\Theta(p^3 N^2)$$. Chỉ một ước lượng tiệm cận này đã đủ để thiết kế thí nghiệm A và B hợp lý: bạn biết ngay ngưỡng $$p \approx (4/N^2)^{1/3}$$ nơi kỳ vọng bắt đầu rơi xuống dưới 1 khi giảm dần $$p$$.
 
 ### 1.5 Giả ngẫu nhiên: vùng ở giữa
 

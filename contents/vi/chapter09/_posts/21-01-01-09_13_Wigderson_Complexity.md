@@ -9,9 +9,9 @@ categories:
 - chapter09
 ---
 
-**Avi Wigderson** nhận **Giải Turing (A.M. Turing Award) năm 2023** vì những đóng góp nền tảng cho lý thuyết tính toán, đặc biệt là vai trò của **tính ngẫu nhiên trong tính toán**, lý thuyết độ phức tạp, và việc ông đưa khoa học máy tính lý thuyết trở thành một ngành toán học đúng nghĩa. Trước đó, ông đã cùng László Lovász chia sẻ **Giải Abel năm 2021**. Hiếm có ai nhận được cả hai: một bên là vinh dự cao nhất của ngành tính toán, bên kia là giải thưởng trọn đời của toán thuần túy, và hai bên cùng đặt trên một vùng tri thức chồng lấn nhau.
+Có một câu hỏi tưởng chừng nghịch lý từng chia đôi giới khoa học máy tính suốt nhiều thập kỷ: *Việc tung một đồng xu công bằng có thực sự giúp máy tính giải bài toán nhanh hơn không?* Khi bạn muốn kiểm tra xem một số 1.000 chữ số có phải số nguyên tố hay không, thuật toán ngẫu nhiên (Miller–Rabin) chỉ cần chọn vài chục số thử ngẫu nhiên là kết luận trong chớp mắt với xác suất sai nhỏ hơn $$10^{-30}$$; trong khi phải mất gần 30 năm sau (2002) nhân loại mới tìm ra thuật toán tất định thời gian đa thức (AKS)! Thế nhưng **Avi Wigderson** lại chứng minh một điều còn gây kinh ngạc hơn: dưới những giả thiết rất tự nhiên về độ cứng tính toán, **mọi thuật toán ngẫu nhiên hiệu quả đều có thể bị "khử ngẫu nhiên" thành thuật toán tất định** — đồng xu ngẫu nhiên, xét cho cùng, có thể được thay thế bằng chính *độ khó tính toán*!
 
-Bài này trình bày các chủ đề của Wigderson ở mức nhập môn: tính ngẫu nhiên như một loại tài nguyên; khử ngẫu nhiên (derandomization) và mô hình “độ cứng đổi lấy tính ngẫu nhiên” (hardness versus randomness); **chứng minh tương tác** và sức mạnh của việc kết hợp tương tác với ngẫu nhiên khi kiểm chứng; đồ thị giãn (expander) và tính giả ngẫu nhiên như cầu nối sang toán rời rạc; và cách đọc câu chuyện giải Turing *cùng với* [bài về giải Abel của Lovász và Wigderson]({{ site.baseurl }}/contents/vi/chapter08/08_06_Lovasz_Wigderson/). Tài liệu chính thức: [amturing.acm.org](https://amturing.acm.org/), [abelprize.no](https://abelprize.no/).
+Với những đóng góp định hình toàn bộ ngành khoa học máy tính lý thuyết, Avi Wigderson làm nên lịch sử khi trở thành người đầu tiên nhận cả hai vinh dự đỉnh cao: **Giải Abel năm 2021** (cùng László Lovász, đỉnh cao của toán thuần túy) và **Giải A.M. Turing năm 2023** (đỉnh cao của khoa học máy tính). Bài học này mở ra bản đồ tư tưởng của Wigderson: tính ngẫu nhiên như một tài nguyên, mô hình “độ cứng đổi lấy tính ngẫu nhiên”, **chứng minh tương tác & không tiết lộ**, và **đồ thị giãn (expander)** — những viên ngọc tổ hợp tất định nhưng hành xử y hệt đồ thị ngẫu nhiên. Đọc song hành với [bài về giải Abel của Lovász và Wigderson]({{ site.baseurl }}/contents/vi/chapter08/08_06_Lovasz_Wigderson/). Tài liệu chính thức: [amturing.acm.org](https://amturing.acm.org/), [abelprize.no](https://abelprize.no/).
 
 ---
 
@@ -26,6 +26,17 @@ Sau bài học, bạn có thể:
 - nối giải Turing 2023 với giải Abel 2021 mà không nói rằng giải nào đã giải được [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/).
 
 **Kiến thức cần có và các bài liên quan.** [Lý thuyết độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/), [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/), [Yao: giao tiếp và minimax]({{ site.baseurl }}/contents/vi/chapter09/09_08_Yao_Complexity/), [giải Abel của Lovász–Wigderson]({{ site.baseurl }}/contents/vi/chapter08/08_06_Lovasz_Wigderson/), [lý thuyết đồ thị]({{ site.baseurl }}/contents/vi/chapter03/03_06_Graph_Theory_Networks/). Trang tổng quan của chương: [Tổng quan Turing]({{ site.baseurl }}/contents/vi/chapter09/09_00_Tong_quan/).
+
+---
+
+## Bản đồ kiến thức nền: Lý thuyết tính ngẫu nhiên trong tính toán và Đồ thị giãn là gì, nghiên cứu những gì?
+
+Khi sinh viên đại học lập trình thuật toán ngẫu nhiên (như Quicksort chọn trục ngẫu nhiên hay kiểm tra đồng nhất thức đa thức $$P(x_1,\dots,x_n) \equiv 0$$ bằng cách thay giá trị ngẫu nhiên), ta thường coi hàm `random()` như một hộp đen miễn phí. Nhưng trong **Lý thuyết tính ngẫu nhiên (Theory of Pseudorandomness & Derandomization)**, bit ngẫu nhiên là một **tài nguyên đắt giá** cần đo đếm và tiết kiệm như thời gian CPU hay RAM.
+
+Ba viên gạch toán học làm nên thế giới của Wigderson:
+1. **Độ cứng đổi lấy tính ngẫu nhiên (Hardness vs. Randomness — Nisan–Wigderson, Impagliazzo–Wigderson):** Nếu tồn tại một hàm $$f$$ đủ khó đối với các mạch logic nhỏ, ta có thể dùng chính $$f$$ để xây một **bộ sinh giả ngẫu nhiên (PRG)** kéo dài một hạt giống cực ngắn (cỡ $$O(\log n)$$ bit) thành $$n$$ bit trông giống hệt ngẫu nhiên đối với mọi thuật toán thời gian đa thức. Khi hạt giống chỉ dài $$c\log n$$ bit, ta chỉ cần **thử vét cạn cả $$2^{c\log n} = n^c$$ hạt giống** rồi lấy đa số — biến thuật toán ngẫu nhiên **BPP** thành thuật toán tất định **P** mà không cần tung một đồng xu nào!
+2. **Đồ thị giãn (Expander Graphs):** Hãy tưởng tượng một mạng lưới triệu nút nhưng mỗi nút chỉ nối với đúng $$d=4$$ hàng xóm (cực kỳ thưa), vậy mà bất kỳ nhóm nút nào cũng có rất nhiều cạnh vươn ra ngoài (không có "nút thắt cổ chai" nào cả). Nếu bạn đi dạo ngẫu nhiên trên đồ thị giãn, chỉ sau $$O(\log n)$$ bước bạn đã gần như phân bố đều khắp toàn bộ mạng lưới! Trong **khuếch đại xác suất**, thay vì chạy lại một thuật toán $$k$$ lần với $$k$$ chuỗi bit ngẫu nhiên độc lập tốn $$k \cdot r$$ bit, ta chỉ cần chọn 1 điểm xuất phát ($$r$$ bit) rồi đi bộ $$k$$ bước trên đồ thị giãn (mỗi bước chỉ tốn $$\log_2 d$$ bit — tức vài bit!) mà sai số vẫn giảm theo hàm mũ $$2^{-\Omega(k)}$$!
+3. **Chứng minh như một giao thức:** Cùng Goldreich và Micali (1986), Wigderson chứng minh rằng **mọi bài toán trong NP đều có chứng minh không tiết lộ tri thức (ZKP)** dưới giả thiết hàm một chiều — mở ra cả ngành mật mã chứng minh hiện đại (zk-SNARK/STARK).
 
 ---
 
@@ -61,7 +72,7 @@ Một **bộ sinh giả ngẫu nhiên** (PRG) kéo dài một hạt giống (see
 
 Một ý tưởng sâu sắc của độ phức tạp hiện đại:
 
-> **Độ cứng tính toán** có thể được biến thành **tính giả ngẫu nhiên**. Nếu có một hàm đủ khó đối với các mạch, ta dựng được PRG đánh lừa được các mạch nhỏ hơn, và suy ra hệ quả khử ngẫu nhiên, chẳng hạn $$\mathbf{BPP}$$ nằm trong lớp thời gian tất định dưới mũ, hoặc thậm chí thời gian đa thức, với giả thiết đủ mạnh.
+> **Độ cứng tính toán** có thể được biến thành **tính giả ngẫu nhiên**. Nếu có một hàm đủ khó đối với các mạch, ta dựng được PRG đánh lừa được các mạch nhỏ hơn, và suy ra hệ quả khử ngẫu nhiên, chẳng hạn $$\mathbf{BPP}$$ nằm trong lớp thời gian tất định dưới mũ, hoặc thậm chí thời gian đa thức ($$\mathbf{P}=\mathbf{BPP}$$), với giả thiết đủ mạnh.
 
 Ngược lại, việc khử ngẫu nhiên không tầm thường thường kéo theo chặn dưới cho mạch. Độ cứng và tính ngẫu nhiên là hai mặt của cùng một lý thuyết.
 
@@ -87,7 +98,7 @@ Trong khoa học máy tính lý thuyết, “chứng minh” không chỉ là m�
 
 ## 5. Đồ thị giãn và các đối tượng giả ngẫu nhiên
 
-Một họ vô hạn các đồ thị $$d$$-chính quy là **họ đồ thị giãn** (expander) nếu mọi tập đỉnh nhỏ đều giãn nở với một hệ số xác định. Điều này tương đương với việc khoảng cách phổ (spectral gap) bị chặn dưới, không phụ thuộc kích thước đồ thị. Đồ thị giãn làm bước đi ngẫu nhiên trộn rất nhanh dù đồ thị thưa. Chúng là những đối tượng tất định nhưng **cư xử như thể ngẫu nhiên**.
+Một họ vô hạn các đồ thị $$d$$-chính quy là **họ đồ thị giãn** (expander) nếu mọi tập đỉnh nhỏ đều giãn nở với một hệ số xác định. Điều này tương đương với việc khoảng cách phổ (spectral gap) bị chặn dưới, không phụ thuộc kích thước đồ thị. Đồ thị giãn làm bước đi ngẫu nhiên trộn rất nhanh dù đồ thị thưa. Chúng là những đối tượng tất định nhưng **cư xử như thể ngẫu nhiên**. (Cùng Omer Reingold và Salil Vadhan, Wigderson còn sáng chế ra **tích zig-zag** — một phép nhân đồ thị tổ hợp cực kỳ khéo léo cho phép xây dựng tường minh đồ thị giãn và chứng minh bài toán tìm đường trong đồ thị vô hướng chỉ cần bộ nhớ logarit: $$\mathbf{SL}=\mathbf{L}$$!)
 
 Ứng dụng gồm:
 

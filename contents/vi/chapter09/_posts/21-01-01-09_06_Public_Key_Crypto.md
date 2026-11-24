@@ -9,9 +9,9 @@ categories:
 - chapter09
 ---
 
-Trước giữa thập niên 1970, mật mã thực dụng chủ yếu là **mật mã đối xứng**: hai bên phải có sẵn một bí mật chung. Vấn đề phân phối khóa (làm sao hai người chưa từng gặp nhau thỏa thuận được một bí mật trên kênh có thể bị nghe lén) thoạt nhìn giống một nghịch lý. **Whitfield Diffie** và **Martin Hellman** (công bố ý tưởng năm 1976; giải Turing **2015** cho công trình về khóa công khai) cùng **Ron Rivest, Adi Shamir và Leonard Adleman** với **RSA** (1977/78; giải Turing **2002**) đã biến nghịch lý ấy thành **giao thức toán học**: công khai một phần thông tin, giữ lại một cửa sập, dựa trên bài toán số học được tin là khó. Lưu ý về lịch sử: các nhà mật mã của GCHQ (Anh) đã nghĩ ra những ý tưởng tương tự từ trước, nhưng giữ bí mật; giải Turing không trao chung cho GCHQ.
+Suốt hàng nghìn năm — từ mật mã Caesar của La Mã cổ đại cho tới cỗ máy Enigma thời Thế chiến II — mật mã học luôn vướng phải một nghịch lý tưởng chừng không thể tháo gỡ: muốn gửi thư mật cho nhau, hai người phải **gặp nhau trước** (hoặc cử giao liên xách va-li khóa) để thống nhất một chìa khóa chung. Thế nhưng trong kỷ nguyên Internet, làm sao trình duyệt của bạn có thể gửi số thẻ tín dụng an toàn tới một cửa hàng ở nửa bên kia Trái Đất mà hai bên **chưa từng gặp mặt**, trong khi mọi gói tin truyền đi đều chạy qua đường dây công cộng có kẻ nghe lén?
 
-Bài này là chân dung **cơ chế** Diffie–Hellman và RSA trong khung chương Turing, bổ sung cho bài [Lý thuyết số và mật mã]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/) bằng góc giải thưởng và giả định độ khó. Liên kết: [Cook–Karp]({{ site.baseurl }}/contents/vi/chapter09/09_04_Cook_Karp_NP/), [Goldwasser–Micali]({{ site.baseurl }}/contents/vi/chapter09/09_07_Goldwasser_Micali/), [Mật mã tương lai]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/).
+Giữa thập niên 1970, hai bước ngoặt toán học đã đập tan nghịch lý ấy. Năm 1976, **Whitfield Diffie** và **Martin Hellman** (Giải Turing **2015**) công bố giao thức trao đổi khóa công khai — cho phép hai người hét to các con số qua một căn phòng đầy tai mắt mà cuối cùng vẫn tính ra được một bí mật chỉ riêng hai người biết! Một năm sau, **Ron Rivest, Adi Shamir và Leonard Adleman** (Giải Turing **2002**) dựng nên hệ mật **RSA** biến phép nhân hai số nguyên tố lớn thành một chiếc ổ khóa mở công khai cho cả thế giới khóa lại, nhưng chỉ chủ nhân mới có chìa mở ra. (Lịch sử sau này mới tiết lộ các nhà mật mã ở GCHQ của Anh từng tìm ra ý tưởng tương tự trước đó vài năm nhưng phải giữ bí mật tuyệt đối; Giải Turing tôn vinh những công trình công khai đã thay đổi cả nhân loại.) Bài này bổ sung cho [Lý thuyết số và mật mã]({{ site.baseurl }}/contents/vi/chapter03/03_05_Number_Theory_Cryptography/) góc nhìn về cơ chế cửa sập và giả định độ khó. Liên kết: [Cook–Karp]({{ site.baseurl }}/contents/vi/chapter09/09_04_Cook_Karp_NP/), [Goldwasser–Micali]({{ site.baseurl }}/contents/vi/chapter09/09_07_Goldwasser_Micali/), [Mật mã tương lai]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/).
 
 ---
 
@@ -27,6 +27,18 @@ Sau bài học, bạn có thể:
 - Tránh nhầm: “RSA = nhân hai nguyên tố là đủ,” “công khai ⇒ ai cũng giải mã được,” “khóa công khai tuyệt đối an toàn.”
 
 **Tiên quyết.** Đồng dư, nguyên tố, lũy thừa; ý nhóm nhân modulo $$p$$. Nếu đã đọc phần mật mã ở ch.03 thì bài này nhắc lại cơ chế có chủ ý để gắn với giải Turing. Euclid gcd và nghịch đảo modulo là bạn đồng hành.
+
+---
+
+## Bản đồ kiến thức nền: Mật mã học khóa công khai và Lý thuyết số tính toán là gì, nghiên cứu những gì?
+
+Đằng sau biểu tượng ổ khóa màu xanh trên thanh địa chỉ trình duyệt là một sự đảo ngược tư duy ngoạn mục của **Lý thuyết số tính toán (Computational Number Theory)** và **Mật mã học khóa công khai (Public-Key Cryptography)**. Thông thường trong khoa học máy tính, bài toán *khó* là kẻ thù cần tiêu diệt. Nhưng trong mật mã học, **sự bất đối xứng về độ phức tạp** — dễ làm theo chiều xuôi, cực khó làm theo chiều ngược — lại là nguồn tài nguyên quý giá nhất!
+
+Toàn bộ kiến trúc khóa công khai xoay quanh khái niệm **hàm một chiều có cửa sập (trapdoor one-way function)** — giống như việc pha trộn hai thùng sơn hay đập vỡ một chiếc bình gốm: làm xuôi mất một giây, làm ngược gần như bất khả thi *trừ khi* bạn nắm trong tay một "cửa sập bí mật". Có hai mỏ toán học kinh điển tạo nên kỷ nguyên đầu tiên:
+1. **Nhóm nhân modulo số nguyên tố $$p$$ (Diffie–Hellman):** tính lũy thừa $$g^a \bmod p$$ cực nhanh (chỉ tốn $$O(\log a)$$ phép nhân nhờ bình phương lặp), nhưng cho trước $$g^a \bmod p$$ mà tìm ngược lại số mũ $$a$$ (**bài toán logarit rời rạc — DLP**) lại cực kỳ khó khi $$p$$ có vài nghìn bit.
+2. **Phân tích thừa số nguyên tố (RSA):** nhân hai số nguyên tố 1024-bit $$p \times q = n$$ chỉ mất vài micro-giây, nhưng từ $$n$$ tách ngược ra $$p, q$$ đòi hỏi những thuật toán sàng trường số khổng lồ vượt quá khả năng máy tính cổ điển hiện nay.
+
+Hãy xem một **ví dụ đồ chơi bằng số thật** cho Diffie–Hellman để cảm nhận phép màu trong 10 giây: chọn công khai $$p = 23$$, $$g = 5$$. Alice bí mật chọn $$a = 6$$, gửi công khai $$A = 5^6 \bmod 23 = 8$$. Bob bí mật chọn $$b = 15$$, gửi công khai $$B = 5^{15} \bmod 23 = 19$$. Alice tính $$19^6 \bmod 23 = 2$$; Bob tính $$8^{15} \bmod 23 = 2$$. Cả hai cùng thu được bí mật chung $$K = 2$$ mà chưa từng gửi $$a, b$$ hay $$2$$ qua mạng!
 
 ---
 
@@ -65,6 +77,8 @@ Kẻ nghe lén thấy $$g,g^a,g^b$$ (và $$p$$). **Bài toán log rời rạc (D
 5. Công khai $$(n,e)$$; bí mật $$d$$ (và $$p,q$$).  
 6. Mã (textbook): $$c \equiv m^e \pmod n$$. Giải: $$m \equiv c^d \pmod n$$.
 
+Ví dụ đồ chơi: chọn $$p=5, q=11 \implies n=55$$ và $$\varphi(55) = 4\cdot 10 = 40$$. Chọn $$e=3$$, ta tìm được $$d=27$$ (vì $$3\cdot 27 = 81 \equiv 1 \pmod{40}$$). Để mã hóa thông điệp $$m=7$$, người gửi tính $$c = 7^3 \bmod 55 = 343 \bmod 55 = 13$$. Người nhận dùng khóa bí mật $$d=27$$ tính $$13^{27} \bmod 55 = 7$$ — khôi phục chính xác bản rõ!
+
 Tính đúng dựa trên số học Euler/Carmichael: số mũ nhân modulo $$\lambda(n)$$ triệt tiêu. **Giả định an ninh thô:** từ $$n$$ khó khôi phục $$p,q$$ (factoring semiprime lớn); và các bài RSA đảo (tính căn $$e$$-th modulo $$n$$) khó khi không biết cửa sập.
 
 **Cơ chế một câu.** *Lũy thừa công khai dễ; nghịch đảo số mũ dễ nếu biết $$\varphi(n)$$, được tin là khó nếu chỉ biết $$n$$.*
@@ -75,7 +89,7 @@ Tính đúng dựa trên số học Euler/Carmichael: số mũ nhân modulo $$\l
 
 ## 4. ECC: cùng hình, nhóm khác
 
-**Mật mã đường cong elliptic** chuyển DH/DSA sang nhóm điểm trên đường cong over finite field. Nhân vô hướng $$P\mapsto aP$$ dễ; ECDLP được tin khó trên đường cong chọn tốt. Khóa ngắn hơn cho mức an ninh cổ điển tương đương khuyến nghị—lý do điện thoại ưu tiên ECDHE. Cơ chế cửa sập **cùng hình** Diffie–Hellman; chỉ thay “nhóm nào.”
+**Mật mã đường cong elliptic** chuyển DH/DSA sang nhóm điểm trên đường cong over finite field. Nhân vô hướng $$P\mapsto aP$$ dễ; ECDLP được tin khó trên đường cong chọn tốt. Khóa ngắn hơn cho mức an ninh cổ điển tương đương khuyến nghị (chẳng hạn khóa ECC 256-bit tương đương khóa RSA 3072-bit)—lý do điện thoại ưu tiên ECDHE. Cơ chế cửa sập **cùng hình** Diffie–Hellman; chỉ thay “nhóm nào.”
 
 ---
 

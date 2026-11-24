@@ -9,16 +9,16 @@ categories:
 - chapter02
 ---
 
-**Maxim Kontsevich** nhận **Huy chương Fields 1998**
+Vào đầu thập niên 1990, vật lý lý thuyết liên tục ném sang giới toán học những "lời tiên tri" gây choáng váng: từ hấp dẫn lượng tử hai chiều, Edward Witten dự đoán các số giao hình học trên không gian moduli đường cong phải tuân theo phương trình sóng nước nông KdV; từ lý thuyết trường lượng tử Chern–Simons, các nhà vật lý gợi ý những tích phân đường tưởng chừng vô nghĩa lại mã hóa toàn bộ bất biến của các nút thắt trong không gian ba chiều; và từ cơ học lượng tử, một câu hỏi mở suốt hàng chục năm vẫn treo lơ lửng: liệu *mọi* không gian pha Poisson cổ điển đều có thể "lượng tử hóa biến dạng" được hay không?
+
+**Maxim Kontsevich** bước vào đúng ngã ba giông bão ấy với một thứ vũ khí vừa quen thuộc vừa sắc lẹm: **đồ thị và tích phân trên không gian cấu hình**. Ông biến từng lời tiên tri rời rạc đó thành định lý toán học chặt chẽ, và nhận **Huy chương Fields 1998**:
 
 > “For his contributions to algebraic geometry, topology, and mathematical physics, including the proof of Witten's conjecture of intersection numbers in moduli spaces of stable curves, construction of the universal Vassiliev invariant of knots, and formal quantization of Poisson manifolds.”
 > — Citation IMU, ICM 1998 (như được ghi trong hồ sơ [Fields Medal](https://www.mathunion.org/imu-awards/fields-medal) và các nguồn tiểu sử chuẩn)
 
 *Tạm dịch: vì những đóng góp cho hình học đại số, tôpô và vật lý toán, trong đó có chứng minh giả thuyết Witten về số giao trên không gian moduli các đường cong ổn định, xây dựng bất biến Vassiliev phổ dụng của nút, và lượng tử hóa hình thức các đa tạp Poisson.*
 
-Lời trao giải nêu ba kết quả. Nhìn lại từ những năm 2020, người ta dễ thay danh sách này bằng những chủ đề nổi tiếng về sau như đối xứng gương đồng điều, tích phân motivic, hiện tượng vượt tường (wall-crossing). Các chương trình đó có thật, và một số là của Kontsevich. Nhưng chúng **không** nằm trong lời trao giải năm 1998. Bài này đi theo đúng ba kết quả chính thức: **giả thuyết Witten** trên $$\overline{\mathcal{M}}_{g,n}$$, **bất biến Vassiliev phổ dụng**, và **lượng tử hóa biến dạng** các đa tạp Poisson. Đối xứng gương đồng điều chỉ được nhắc như một đề xuất liên quan tại ICM 1994, không phải như một bài toán "đã được giải".
-
-Kontsevich (sinh năm 1964) là giáo sư thường trực tại Institut des Hautes Études Scientifiques (IHÉS). Ông làm việc ở chỗ giao nhau của hình học đại số, tôpô và vật lý toán. Huy chương ghi nhận các công trình ở vùng giao đó trong thập niên 1990, chứ không phải toàn bộ sự nghiệp của ông.
+Vì Kontsevich (sinh năm 1964, giáo sư thường trực tại IHÉS) sau này còn nổi tiếng với hàng loạt chương trình đồ sộ khác như **đối xứng gương đồng điều** (*homological mirror symmetry*), tích phân motivic hay hiện tượng vượt tường (*wall-crossing*), người đọc ngày nay rất dễ nhầm lẫn. Bài học này bám sát đúng ba cột mốc lịch sử của lời trao giải năm 1998 — **giả thuyết Witten** trên $$\overline{\mathcal{M}}_{g,n}$$, **bất biến Vassiliev phổ dụng** (tích phân Kontsevich), và **lượng tử hóa biến dạng** các đa tạp Poisson — đồng thời đặt đối xứng gương đồng điều đúng vị trí của nó: một chương trình lớn từ ICM 1994, không phải kết quả thứ ba của Huy chương Fields 1998.
 
 ---
 
@@ -26,12 +26,12 @@ Kontsevich (sinh năm 1964) là giáo sư thường trực tại Institut des Ha
 
 Sau bài học, bạn có thể:
 
-- Nhớ lời trao giải năm 1998 gồm **ba** kết quả, và không thay kết quả thứ ba bằng đối xứng gương đồng điều.
-- Phát biểu ý chính của giả thuyết Witten: hàm sinh các số giao của lớp $$\psi$$ trên $$\overline{\mathcal{M}}_{g,n}$$ là một hàm tau của hệ KdV. Kontsevich chứng minh điều này bằng đồ thị ruy-băng và mô hình ma trận.
-- Mô tả tích phân Kontsevich như **bất biến kiểu hữu hạn (Vassiliev) phổ dụng**, đồng thời ghi công Vassiliev và Bar-Natan cho phần lý thuyết xung quanh.
-- Giải thích lượng tử hóa biến dạng: một tích sao làm biến dạng tích thông thường của hàm, sao cho số hạng bậc nhất của giao hoán tử cho lại móc Poisson. Định lý hình thức (formality) và công thức đồ thị của Kontsevich tạo ra tích này trên mọi đa tạp Poisson.
-- Nhắc đến đối xứng gương đồng điều như một chương trình từ năm 1994, chưa hoàn thành, và không phải kết quả thứ ba của giải Fields.
-- Đặt các công trình này lên bản đồ [vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/), nhưng không coi trực giác vật lý là chứng minh.
+- Nhớ lời trao giải năm 1998 gồm **ba** kết quả cụ thể, và không thay kết quả thứ ba bằng đối xứng gương đồng điều.
+- Phát biểu ý chính của giả thuyết Witten: hàm sinh các số giao của lớp $$\psi$$ trên $$\overline{\mathcal{M}}_{g,n}$$ là một hàm tau của hệ KdV, và giải thích cách Kontsevich chứng minh bằng đồ thị ruy-băng và mô hình ma trận Airy.
+- Mô tả tích phân Kontsevich như **bất biến kiểu hữu hạn (Vassiliev) phổ dụng**, đồng thời ghi công Vassiliev và Bar-Natan cho phần khung tổ hợp.
+- Giải thích trực quan **lượng tử hóa biến dạng**: một tích sao không giao hoán làm biến dạng tích thông thường của hàm sao cho bậc nhất của giao hoán tử khôi phục móc Poisson, và cách định lý hình thức (formality) của Kontsevich dựng tích sao trên mọi đa tạp Poisson.
+- Phân biệt đối xứng gương đồng điều (một chương trình lớn đề xuất từ năm 1994, nhiều trường hợp đã có định lý nhưng chưa khép lại toàn bộ) với ba kết quả chính thức của giải Fields 1998.
+- Đặt các công trình này lên bản đồ [vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/) mà không đánh đồng trực giác vật lý với chứng minh toán học.
 
 **Kiến thức nền.** Khái niệm không gian moduli của đường cong; móc Poisson trên $$\mathbb{R}^{2n}$$ hoặc trên đa tạp symplectic; đa thức Jones như một ví dụ về bất biến nút ngoài nhóm cơ bản. Biết giải tích phức và một giáo trình nhập môn hình học đại số sẽ có ích. Lý thuyết trường lượng tử thì không bắt buộc.
 
@@ -39,87 +39,108 @@ Sau bài học, bạn có thể:
 
 ---
 
-## 1. Vì sao nên bám theo danh sách năm 1998
+## Bản đồ kiến thức nền: Lượng tử hóa biến dạng, không gian moduli và nút thắt là gì?
 
-Ảnh hưởng của một người đoạt giải thường kéo dài hơn lời trao giải. Ảnh hưởng về sau của Kontsevich rất lớn: đối xứng gương đồng điều thành một lĩnh vực riêng; tích phân motivic (bài giảng ở Orsay năm 1995, rồi Denef–Loeser phát triển) thành công cụ trong lý thuyết kỳ dị; ánh xạ ổn định và lý thuyết Gromov–Witten làm thay đổi hình học đếm. Nếu một khóa học gộp tất cả vào "Fields 1998" thì sẽ sai về lịch sử.
+Ba kết quả của Kontsevich thuộc ba nhánh toán học có tên gọi rất khác nhau, nhưng trực giác phía sau mỗi nhánh đều rất sáng rõ.
 
-Lời trao giải chính thức đã đủ tham vọng. Nó ghi nhận ba việc: chứng minh một giả thuyết của Witten về lý thuyết giao trên không gian moduli các đường cong ổn định; xây dựng một bất biến nút kiểu hữu hạn phổ dụng; và lượng tử hóa mọi đa tạp Poisson ở mức hình thức. Hình học đại số, tôpô và vật lý toán ở đây không phải ba sở thích rời nhau. Cả ba kết quả đều đến từ cùng một kỹ thuật: tổng trên đồ thị, với trọng số là tích phân.
+**1. Cơ học cổ điển vs. cơ học lượng tử và "lượng tử hóa biến dạng".**
+Trong cơ học cổ điển, trạng thái của một hạt chuyển động được mô tả bằng điểm $$(q, p)$$ trong **không gian pha** (vị trí $$q$$ và động lượng $$p$$). Các đại lượng quan sát được (như năng lượng, động lượng góc) là các hàm trơn $$f(q,p), g(q,p)$$ nhân với nhau theo phép nhân thông thường có tính giao hoán: $$f \cdot g = g \cdot f$$. Để mô tả chuyển động theo thời gian, cơ học Hamilton trang bị thêm cho không gian pha một phép toán phản đối xứng gọi là **móc Poisson** $$\{f, g\}$$ — ở trường hợp chuẩn trên $$\mathbb{R}^2$$ là $$\{f, g\} = \frac{\partial f}{\partial q}\frac{\partial g}{\partial p} - \frac{\partial f}{\partial p}\frac{\partial g}{\partial q}$$, đặc biệt $$\{q, p\} = 1$$. Một không gian có móc Poisson thỏa đồng nhất thức Jacobi và quy tắc Leibniz gọi là **đa tạp Poisson**.
+
+Khi sang **cơ học lượng tử**, vị trí $$\hat{q}$$ và động lượng $$\hat{p}$$ không còn giao hoán nữa: $$\hat{q}\hat{p} - \hat{p}\hat{q} = i\hbar$$ (với $$\hbar$$ là hằng số Planck rút gọn). **Lượng tử hóa biến dạng** đặt một câu hỏi hoàn toàn đại số: thay vì xây không gian Hilbert, liệu ta có thể thay phép nhân giao hoán $$fg$$ trên tập các hàm trơn bằng một phép nhân mới gọi là **tích sao** $$f \star g$$ phụ thuộc theo tham số $$\hbar$$, sao cho khi $$\hbar \to 0$$ nó quay về tích cổ điển $$fg$$, còn sai khác bậc nhất của nó đúng bằng móc Poisson?
+
+**2. Không gian moduli $$\overline{\mathcal{M}}_{g,n}$$ — "bản đồ của mọi mặt có $$g$$ lỗ".**
+Một đường cong đại số phức trơn giống $$g$$ thực chất là một **mặt Riemann** (một mặt cầu có $$g$$ quai, như hình xuyến khi $$g=1$$ hay bánh vòng hai lỗ khi $$g=2$$). Tập tất cả các cấu trúc phức không đẳng cấu trên mặt có $$g$$ lỗ cùng $$n$$ điểm đánh dấu tạo thành **không gian moduli** $$\mathcal{M}_{g,n}$$. Để có thể tích phân và đếm số giao trên không gian này mà không bị "rơi ra mép", Deligne và Mumford bổ sung thêm các mặt suy biến (bị bóp thắt thành điểm nút) để thu được không gian compact $$\overline{\mathcal{M}}_{g,n}$$.
+
+**3. Nút thắt và bất biến kiểu hữu hạn (Vassiliev).**
+Một **nút** (*knot*) là một vòng dây khép kín nhúng trong không gian $$\mathbb{R}^3$$ không tự cắt. Bài toán kinh điển của tôpô là nhận diện hai nút có biến dạng liên tục về nhau được không, thông qua các **bất biến nút** (như đa thức Alexander hay đa thức Jones). **Vassiliev** tổ chức vô số bất biến nút thành một hệ phân cấp giống như "đạo hàm bậc cao": mỗi lần cho hai sợi dây xuyên qua nhau (đổi chỗ bắt chéo), ta lấy hiệu giá trị của bất biến; bất biến nào triệt tiêu sau $$m+1$$ lần đổi chỗ như vậy gọi là **bất biến kiểu hữu hạn bậc $$\le m$$**.
+
+---
+
+## 1. Từ bài toán cổ điển đến ý tưởng đột phá: vì sao nên bám theo danh sách năm 1998
+
+Ảnh hưởng của một nhà toán học tầm cỡ thường lan xa hơn nhiều so với lời trao giải ban đầu. Sau năm 1998, tên tuổi Kontsevich gắn chặt với đối xứng gương đồng điều, tích phân motivic (phác thảo trong bài giảng Orsay 1995, sau đó Denef–Loeser phát triển hoàn chỉnh), và lý thuyết ánh xạ ổn định (Gromov–Witten). Nếu gộp tất cả vào "Fields 1998" sẽ làm sai lệch lịch sử.
+
+Thực ra, chỉ riêng ba kết quả chính thức năm 1998 đã đủ tạo nên một kỳ tích thống nhất: chúng không phải ba sở thích rời rạc ở hình học đại số, tôpô và vật lý toán, mà là **ba biểu hiện của cùng một trực giác đột phá** — dùng **tổng có trọng số trên các đồ thị**, trong đó trọng số là những tích phân trên không gian cấu hình, để biến các cấu trúc hình học–tôpô phức tạp thành những phép tính đại số và giải tích rõ ràng.
 
 ---
 
 ## 2. Giả thuyết Witten: số giao trên $$\overline{\mathcal{M}}_{g,n}$$
 
-Gọi $$\overline{\mathcal{M}}_{g,n}$$ là compact hóa Deligne–Mumford của không gian moduli các đường cong giống $$g$$ với $$n$$ điểm đánh dấu. Trên không gian này có các phân thớ đường tautological $$\mathbb{L}_i$$, với thớ là đường đối tiếp xúc (cotangent line) tại điểm đánh dấu thứ $$i$$. Lớp Chern thứ nhất của chúng gọi là các **lớp $$\psi$$**. Các số giao
+Trên không gian moduli compact hóa $$\overline{\mathcal{M}}_{g,n}$$, tại mỗi điểm đánh dấu thứ $$i$$ ta gắn không gian đường đối tiếp xúc của đường cong tại điểm đó, tạo nên phân thớ đường $$\mathbb{L}_i$$. Lớp Chern thứ nhất của nó ký hiệu là $$\psi_i = c_1(\mathbb{L}_i)$$. Lấy tích phân tích của các lớp $$\psi_i$$ trên toàn không gian moduli, ta thu được các **số giao tautological**:
 
 $$
 \langle\tau_{d_1}\cdots\tau_{d_n}\rangle_g=\int_{\overline{\mathcal{M}}_{g,n}}\psi_1^{d_1}\cdots\psi_n^{d_n}
 $$
 
-là những bất biến số đơn giản nhất của vành tautological (quy ước: số giao bằng $$0$$ trừ khi tổng các bậc bằng số chiều $$3g-3+n$$).
+(quy ước số giao bằng $$0$$ trừ khi tổng các bậc $$d_1 + \cdots + d_n$$ bằng đúng số chiều phức $$3g-3+n$$ của $$\overline{\mathcal{M}}_{g,n}$$). Ví dụ cơ bản nhất là ở giống $$g=0$$ với $$n=3$$ điểm đánh dấu: $$\overline{\mathcal{M}}_{0,3}$$ chỉ là một điểm duy nhất, nên $$\langle\tau_0^3\rangle_0 = 1$$; còn ở giống $$g=1, n=1$$, ta có con số nổi tiếng $$\langle\tau_1\rangle_1 = 1/24$$.
 
-**Giả thuyết Witten** (đầu thập niên 1990) khẳng định hàm sinh của các số này là một hàm tau của hệ **Korteweg–de Vries (KdV)**. Nói cách khác, các số giao thỏa một hệ phương trình đạo hàm riêng, liên quan đến các ràng buộc Virasoro. Giả thuyết xuất phát từ hấp dẫn lượng tử hai chiều: hai cách mô tả mặt ngẫu nhiên, một bằng mô hình ma trận (tổ hợp) và một bằng hình học, phải cho cùng kết quả.
+**Giả thuyết Witten (1990–1991).** Xuất phát từ hai cách tính độc lập cùng một lý thuyết vật lý (hấp dẫn lượng tử 2D: một cách dùng tích phân trên mặt Riemann, cách kia dùng giới hạn của các mô hình ma trận ngẫu nhiên), **Edward Witten** dự đoán rằng hàm sinh của toàn bộ vô hạn các số giao $$\langle\tau_{d_1}\cdots\tau_{d_n}\rangle_g$$ phải là một **hàm tau** của hệ phương trình sóng phi tuyến **Korteweg–de Vries (KdV)**! Nói cách khác, các số giao hình học tưởng chừng rời rạc này bị khóa chặt bởi một hệ phương trình vi phân đệ quy (tương đương các ràng buộc đại số Virasoro) đến mức chỉ từ giá trị ban đầu $$\langle\tau_0^3\rangle_0 = 1$$, ta có thể tính ra *tất cả* các số giao khác ở mọi giống $$g$$!
 
-**Chứng minh của Kontsevich** (*Intersection theory on the moduli space of curves and the matrix Airy function*, *Comm. Math. Phys.* 147, 1992) đồng nhất lý thuyết giao với một khai triển tổ hợp trên **đồ thị ruy-băng**. Công cụ là vi phân Strebel: một mêtric đặc biệt cắt đường cong thành một đồ thị "béo". Khi đó hàm sinh trở thành tích phân ma trận Airy, mà tích phân này đã được biết là thỏa KdV. Như vậy bài toán hình học được đưa về một mô hình ma trận có tính khả tích cổ điển.
+**Chứng minh đột phá của Kontsevich (1992).** Trong bài báo kinh điển *Intersection theory on the moduli space of curves and the matrix Airy function* (*Comm. Math. Phys.* 147), Kontsevich đã bắc một cây cầu táo bạo từ hình học liên tục sang tổ hợp đồ thị:
+1. Nhờ định lý về **vi phân Strebel**, mỗi mặt Riemann có điểm đánh dấu và các tham số chu vi $$p_1, \ldots, p_n$$ được phân mảnh duy nhất thành một **đồ thị ruy-băng** (*ribbon graph* — đồ thị có thứ tự vòng quanh mỗi đỉnh, dày lên thành dải băng ghép lại đúng thành mặt Riemann đó).
+2. Nhờ phép chia ô bằng đồ thị ruy-băng, tích phân hình học của các lớp $$\psi$$ trên $$\overline{\mathcal{M}}_{g,n}$$ biến đổi trực tiếp thành một **tổng trên tất cả các đồ thị ruy-băng bậc 3**, mà theo quy tắc Feynman, tổng này chính là khai triển tiệm cận của một **tích phân ma trận Airy** trên không gian ma trận Hermite $$N \times N$$!
+3. Tích phân ma trận Airy lại là một đối tượng cổ điển của lý thuyết hệ khả tích, vốn đã thỏa mãn hệ KdV.
 
-**Tóm tắt.** Witten dự đoán các số giao tautological trên không gian moduli đường cong tuân theo hệ KdV. Kontsevich đưa ra một bộ từ điển bằng đồ thị ruy-băng, biến dự đoán đó thành một phép tính.
-
-Đây là kết quả thuộc hình học đại số. Nó không phân loại mọi đường cong. Nó là định lý về một họ số cụ thể trên $$\overline{\mathcal{M}}_{g,n}$$.
+**Tóm tắt.** Witten tiên đoán các số giao trên không gian moduli đường cong bị chi phối bởi hệ phương trình KdV. Kontsevich dựng bộ từ điển **mặt Riemann $$\leftrightarrow$$ đồ thị ruy-băng $$\leftrightarrow$$ tích phân ma trận Airy**, biến lời tiên đoán vật lý thành một định lý hình học đại số chặt chẽ.
 
 ---
 
 ## 3. Bất biến Vassiliev phổ dụng và không gian cấu hình
 
-**Vassiliev** (đầu thập niên 1990) đưa ra các bất biến kiểu hữu hạn của nút. Đó là các bất biến bằng $$0$$ trên mọi nút kỳ dị có đủ nhiều điểm kép; tương đương, sự phụ thuộc của bất biến vào các lần đổi chỗ bắt chéo là đa thức có bậc bị chặn. **Bar-Natan** hệ thống hóa phần tổ hợp: hệ trọng số, sơ đồ dây (chord diagram), và mối liên hệ với đại số Lie cũng như với các hệ số của đa thức Jones.
+Đầu thập niên 1990, **Victor Vassiliev** giới thiệu hệ thống **bất biến kiểu hữu hạn** của nút, còn **Dror Bar-Natan** chuyển hóa nó thành một ngôn ngữ tổ hợp tuyệt đẹp gồm **sơ đồ dây** (*chord diagrams* — những vòng tròn có các dây cung nối cặp điểm) và **hệ trọng số** (*weight systems*) gắn liền với các đại số Lie (như $$\mathfrak{sl}_2$$ sinh ra các hệ số khai triển của đa thức Jones). Câu hỏi định lý cơ bản của lý thuyết Vassiliev đặt ra là: liệu mọi hệ trọng số đại số có thực sự tích phân ngược lại được thành một bất biến nút tôpô hay không?
 
-Điều còn thiếu là một công cụ giải tích **phổ dụng**, tạo ra mọi bất biến kiểu hữu hạn từ một cách xây dựng duy nhất. Kontsevich đưa ra công cụ đó: **tích phân Kontsevich**, xây từ các tích phân lặp trên không gian cấu hình các điểm nằm trên nút (và, trong cách nhìn nhiễu loạn của lý thuyết Chern–Simons, cả các điểm trong $$\mathbb{R}^3$$ xung quanh). Biểu thức dưới dấu tích phân dùng đúng các đồ thị xuất hiện trong khai triển Feynman của lý thuyết Chern–Simons, nhưng giờ là những dạng vi phân hội tụ thật sự (sau khi chọn framing và chính quy hóa).
+Chính tại đây **tích phân Kontsevich** (1993) xuất hiện như một công cụ giải tích **phổ dụng**. Hãy hình dung nút thắt $$K$$ nằm trong $$\mathbb{C} \times \mathbb{R}$$ (mặt phẳng phức ngang $$z$$ và trục cao độ thực $$t$$). Khi cắt ngang nút tại $$m$$ cao độ $$t_1 < t_2 < \cdots < t_m$$, mỗi cặp nhánh cắt tại cùng độ cao $$t_j$$ cho một dạng vi phân logarit $$\frac{dz_j - dz'_j}{z_j - z'_j}$$. Lấy tích phân lặp của các dạng vi phân này trên không gian cấu hình các điểm dọc theo nút (và tổng hóa theo các sơ đồ dây ghép cặp nhánh), Kontsevich thu được một đại lượng bất biến nút nhận giá trị thẳng trong đại số các sơ đồ dây!
 
-Kết quả là một bất biến nút nhận giá trị trong một đại số sơ đồ đầy đủ. Mọi bất biến kiểu hữu hạn đều đi qua nó; đó là nghĩa của chữ **phổ dụng**. Tích phân số móc nối (linking number) cổ điển của Gauss là ví dụ đơn giản nhất của kiểu công thức này.
+Ví dụ đơn giản nhất (bậc $$m = 1$$) chính là công thức tích phân **số móc nối (linking number)** cổ điển của Gauss cho hai vòng dây trong $$\mathbb{R}^3$$; tích phân Kontsevich là sự tổng quát hóa bậc cao vô hạn của tích phân Gauss đó, hiện thực hóa chặt chẽ chuỗi nhiễu loạn Feynman của lý thuyết Chern–Simons mà Witten từng gợi ý. Vì **mọi** bất biến kiểu hữu hạn (kể cả mọi hệ số của đa thức Jones, HOMFLY-PT, Kauffman) đều thu được bằng cách ghép một hệ trọng số vào tích phân Kontsevich, nó xứng đáng với tên gọi **bất biến Vassiliev phổ dụng**.
 
-**Ghi công.** Vassiliev đưa ra lọc kiểu hữu hạn; Bar-Natan và nhiều người khác phát triển phần tổ hợp để dùng được; Witten gợi ý rằng các bất biến có nguồn gốc từ tích phân đường Chern–Simons; Kontsevich cho một cách xây dựng toán học hiện thực hóa đối tượng phổ dụng. Huy chương ghi nhận cách xây dựng đó, không phải nói rằng lý thuyết nút bắt đầu từ năm 1993.
+**Ghi công.** Vassiliev phát hiện hệ phân cấp kiểu hữu hạn; Bar-Natan hệ thống hóa tổ hợp sơ đồ dây; Witten gợi ý nguồn gốc từ lý thuyết trường lượng tử Chern–Simons; còn Kontsevich xây dựng đối tượng giải tích phổ dụng biến mọi hệ trọng số thành bất biến nút thực sự.
 
 ---
 
 ## 4. Lượng tử hóa hình thức các đa tạp Poisson
 
-Một **đa tạp Poisson** $$(M,\pi)$$ có một song vectơ (bivector) $$\pi$$ sao cho $$\{f,g\}=\langle\pi,df\wedge dg\rangle$$ là một móc Lie trên $$C^\infty(M)$$ thỏa quy tắc Leibniz. Đa tạp symplectic là trường hợp không suy biến. Cấu trúc Lie–Poisson trên không gian đối ngẫu của một đại số Lie là trường hợp tuyến tính.
+Một **đa tạp Poisson** $$(M,\pi)$$ được trang bị một song vector (bivector) $$\pi$$ sao cho $$\{f,g\}=\langle\pi,df\wedge dg\rangle$$ là một móc Lie trên $$C^\infty(M)$$ thỏa quy tắc Leibniz. Đa tạp symplectic là trường hợp $$\pi$$ không suy biến ở mọi điểm (như không gian pha cổ điển $$\mathbb{R}^{2n}$$), còn cấu trúc Lie–Poisson trên không gian đối ngẫu $$\mathfrak{g}^*$$ của một đại số Lie là ví dụ kinh điển có điểm suy biến (tại gốc $$0$$, $$\pi = 0$$!).
 
-**Lượng tử hóa biến dạng** đi tìm một tích sao hình thức, tức là một tích song tuyến tính trên $$C^\infty(M)[\![\hbar]\!]$$,
+Bài toán **lượng tử hóa biến dạng** (Bayen–Flato–Fronsdal–Lichnerowicz–Sternheimer, 1978) hỏi: với mọi đa tạp Poisson $$(M,\pi)$$, có tồn tại hay không một **tích sao** (*star product*) hình thức trên $$C^\infty(M)[\![\hbar]\!]$$,
 
 $$
 f\star g=fg+\hbar B_1(f,g)+\hbar^2 B_2(f,g)+\cdots,
 $$
 
-có tính kết hợp, trở về tích thông thường khi $$\hbar=0$$, và thỏa
+có tính **kết hợp** $$(f \star g) \star h = f \star (g \star h)$$, khôi phục tích thông thường khi $$\hbar=0$$, và thỏa
 
 $$
-f\star g-g\star f=i\hbar\{f,g\}+O(\hbar^2).
+f\star g-g\star f=i\hbar\{f,g\}+O(\hbar^2)?
 $$
 
-Trên đa tạp symplectic, sự tồn tại đã được biết (De Wilde–Lecomte, Fedosov). Trường hợp Poisson thì còn mở. Lý do: không có tọa độ Darboux trong đó $$\pi$$ là hằng, nên một công thức địa phương là chưa đủ, trừ khi công thức đó **tự nhiên** theo $$\pi$$.
+**Từ trường hợp cổ điển đến nút thắt Poisson:** Trên $$\mathbb{R}^{2n}$$ với móc Poisson hằng, ta đã biết **tích Moyal** từ giữa thế kỷ XX. Trên đa tạp **symplectic** tổng quát, vì mọi điểm đều có tọa độ địa phương Darboux đưa $$\pi$$ về dạng hằng, De Wilde–Lecomte (1983) và Fedosov (1994) đã ghép được các tích Moyal địa phương thành tích sao toàn cục. Nhưng trên đa tạp **Poisson tổng quát**, hạng của $$\pi$$ có thể nhảy bậc từ điểm này sang điểm khác — không hề có tọa độ Darboux! Bài toán tồn tại tích sao cho đa tạp Poisson tổng quát đứng vững suốt 20 năm.
 
-**Định lý hình thức (formality)** của Kontsevich nói rằng đại số Lie vi phân phân bậc của các đối xích Hochschild của $$C^\infty(M)$$ là hình thức: nó tựa đẳng cấu (quasi-isomorphic) với đối đồng điều của chính nó, tức là đại số Lie các trường đa vectơ với móc Schouten–Nijenhuis. Từ đó suy ra mọi cấu trúc Poisson (một phần tử Maurer–Cartan trong các trường đa vectơ) đều nâng được thành một tích sao. Chứng minh còn cho một **công thức đồ thị tường minh**: tổng trên các đồ thị "chấp nhận được" (admissible), mỗi đồ thị có trọng số là một tích phân trên không gian cấu hình ở nửa mặt phẳng trên, nhân với một toán tử song vi phân xây từ $$\pi$$.
+**Ý tưởng đột phá: Định lý hình thức (Formality Theorem) của Kontsevich (1997).** Thay vì cố ghép các mảnh địa phương bằng tay, Kontsevich nhúng câu hỏi vào một bức tranh đại số đồng điều cao hơn: ông chứng minh rằng đại số Lie vi phân phân bậc (DGLA) của các đối xích Hochschild trên $$C^\infty(M)$$ (nơi sống các tích sao) là **hình thức** (*formal*), tức tựa đẳng cấu $$L_\infty$$ với đối đồng điều của chính nó là đại số Lie các trường đa vector với móc Schouten–Nijenhuis (nơi sống các cấu trúc Poisson $$\pi$$ thỏa $$[\pi, \pi] = 0$$). Hệ quả lập tức: mọi cấu trúc Poisson đều nâng được thành một tích sao kết hợp, và lớp tương đương của tích sao tương ứng 1–1 với lớp tương đương của các cấu trúc Poisson hình thức!
 
-Bài báo được lưu hành dưới dạng bản thảo năm 1997 (arXiv:q-alg/9709040) và in trên *Letters in Mathematical Physics* 66 (2003). "Hình thức" ở đây nghĩa là làm việc với chuỗi lũy thừa hình thức theo $$\hbar$$. Kết quả không nói gì về sự hội tụ của chuỗi, cũng không nói về lượng tử hóa trên không gian Hilbert cho mọi đa tạp Poisson.
+Hơn thế nữa, trên $$\mathbb{R}^d$$, Kontsevich viết ra một **công thức đồ thị tường minh** đẹp đến ngỡ ngàng: mỗi số hạng $$\hbar^n B_n(f,g)$$ là tổng trên các đồ thị có hướng "chấp nhận được" (*admissible graphs*) gồm $$n$$ đỉnh nội (đặt song vector $$\pi$$) và $$2$$ đỉnh biên (đặt hàm $$f$$ và $$g$$); trọng số $$w_\Gamma$$ của mỗi đồ thị là một tích phân hoàn toàn tường minh trên không gian cấu hình các điểm trong **nửa mặt phẳng trên Poincaré** $$\mathbb{H}$$ (cũng chính là khai triển nhiễu loạn của mô hình sigma Poisson hai chiều trong vật lý!).
 
-**Tóm tắt.** Mọi móc Poisson là phần bậc nhất của một tích sao. Kontsevich viết tích này như một khai triển Feynman, với các hệ số là những con số lấy từ tích phân trên không gian cấu hình.
+Bài báo xuất hiện dưới dạng bản thảo năm 1997 (arXiv:q-alg/9709040) và công bố trên *Letters in Mathematical Physics* 66 (2003). Lưu ý chữ **"hình thức"**: kết quả làm việc trên vành chuỗi lũy thừa hình thức $$\mathbb{R}[\![\hbar]\!]$$, không khẳng định chuỗi hội tụ theo giá trị số thực của $$\hbar$$, và không đồng nghĩa với việc lượng tử hóa trên không gian Hilbert cho mọi đa tạp Poisson.
 
 ---
 
 ## 5. Các chương trình liên quan nhưng không phải kết quả thứ ba
 
-**Đối xứng gương đồng điều (HMS).** Trong báo cáo tại ICM 1994 (Zürich; arXiv:alg-geom/9411018), Kontsevich đề xuất rằng đối xứng gương nên được hiểu là một tương đương phạm trù: phạm trù dẫn xuất các bó chỉnh hình trên một đa tạp Calabi–Yau $$X$$ tương đương với phạm trù Fukaya của một đa tạp gương $$Y$$ (đổi vai mô hình A và mô hình B). Đề xuất này định hướng cho cả một thế hệ nghiên cứu hình học symplectic và đại số. Nhiều trường hợp nay đã thành định lý, do nhiều tác giả chứng minh. Nhưng nó **không** phải mục thứ ba của lời trao giải năm 1998, và nói Kontsevich "đã giải đối xứng gương" là sai. Khóa học xem HMS là một chương trình còn mở trong bài [Đối xứng gương]({{ site.baseurl }}/contents/vi/chapter06/06_13_Mirror_Symmetry/).
+**Đối xứng gương đồng điều (HMS).** Trong báo cáo chấn động tại ICM 1994 (Zürich; arXiv:alg-geom/9411018), Kontsevich đề xuất rằng hiện tượng đối xứng gương từ lý thuyết dây thực chất là một tương đương giữa hai phạm trù: phạm trù dẫn xuất các bó kết hợp trên đa tạp Calabi–Yau $$X$$ (hình học đại số, mô hình B) tương đương với phạm trù Fukaya của đa tạp gương $$Y$$ (hình học symplectic, mô hình A). Đề xuất này đã định hình cả một kỷ nguyên nghiên cứu, với hàng loạt trường hợp lớn đã được chứng minh bởi Seidel, Sheridan, Abouzaid và nhiều tác giả khác. Tuy nhiên, nó **không** phải kết quả thứ ba của lời trao giải năm 1998, và vẫn là một chương trình mở được trình bày riêng trong [Đối xứng gương]({{ site.baseurl }}/contents/vi/chapter06/06_13_Mirror_Symmetry/).
 
-**Tích phân motivic.** Kontsevich phác thảo ý tưởng trong bài giảng ở Orsay năm 1995; **Denef–Loeser** phát triển và công bố lý thuyết hoàn chỉnh. Đây là công trình liên quan và đến sau, không thuộc giải Fields.
+**Tích phân motivic.** Kontsevich phác thảo ý tưởng năm 1995 tại Orsay; **Jan Denef và François Loeser** phát triển thành một lý thuyết hoàn chỉnh. Đây là nhánh công trình ra đời sau, không nằm trong danh sách năm 1998.
 
-**Ánh xạ ổn định.** Cách compact hóa không gian các ánh xạ từ đường cong của Kontsevich là trung tâm của lý thuyết Gromov–Witten. Báo cáo của Taubes tại ICM 1998 có bàn về nó, nhưng lời trao giải chính thức không đưa nó thành một mục riêng.
+**Ánh xạ ổn định.** Cách compact hóa không gian các ánh xạ từ đường cong của Kontsevich đặt nền móng cho lý thuyết Gromov–Witten. Báo cáo của Taubes tại ICM 1998 có bàn đến nó như một đóng góp quan trọng khác, nhưng lời trao giải chính thức không tách nó thành một mục riêng.
 
 ---
 
 ## 6. Vì sao là Huy chương Fields
 
-Huy chương năm 1998 ghi nhận những bộ **từ điển**: đồ thị ruy-băng $$\leftrightarrow$$ số giao tautological; đồ thị Feynman $$\leftrightarrow$$ bất biến nút; đồ thị chấp nhận được $$\leftrightarrow$$ tích sao. Mỗi từ điển biến một hàm sinh do vật lý gợi ý thành một chứng minh.
+Huy chương năm 1998 tôn vinh những bộ **từ điển kỳ diệu** biến trực giác vật lý thành định lý toán học:
+- **Đồ thị ruy-băng** $$\leftrightarrow$$ số giao tautological trên $$\overline{\mathcal{M}}_{g,n}$$ (giải giả thuyết Witten);
+- **Đồ thị Feynman / sơ đồ dây** $$\leftrightarrow$$ bất biến nút kiểu hữu hạn (tích phân Kontsevich phổ dụng);
+- **Đồ thị chấp nhận được trên nửa mặt phẳng trên** $$\leftrightarrow$$ tích sao lượng tử hóa mọi đa tạp Poisson (định lý hình thức).
 
-Trong khóa học này, Kontsevich là ví dụ cho thấy vật lý toán có thể **sinh ra định lý**, chứ không chỉ cho phép so sánh hình ảnh. Cùng một kỹ thuật đồ thị và tích phân xuất hiện ba lần, trong ba mệnh đề của IMU. Các chương trình về sau (HMS, motive) cho thấy hướng suy nghĩ đó còn tiếp tục sau năm 1998, nhưng chúng không thay đổi lời trao giải.
+Trong bức tranh Chương 2, Kontsevich là minh chứng sống động rằng vật lý toán hiện đại không chỉ gợi cảm hứng bằng những ẩn dụ mơ hồ, mà có thể **trực tiếp sản sinh ra cấu trúc đại số và chứng minh chặt chẽ**. Các chương trình sau năm 1998 như HMS hay tích phân motivic tiếp tục khẳng định tầm vóc đó, nhưng bản thân ba cột mốc trong lời trao giải năm 1998 đã là một kiệt tác trọn vẹn.
 
 ---
 

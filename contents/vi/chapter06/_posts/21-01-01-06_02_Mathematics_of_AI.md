@@ -9,9 +9,24 @@ categories:
 - chapter06
 ---
 
-Một mô hình ngôn ngữ lớn trả lời câu hỏi trong chưa đầy một giây. Phía sau là các vector hàng nghìn chiều, những ma trận có hàng tỷ tham số, một mặt mất mát không thể vẽ ra, và quá trình huấn luyện thực chất là bài toán **tối ưu dưới sự bất định**. Hệ thống AI hiện đại vừa là sản phẩm kỹ thuật vừa là một **đối tượng toán học**. Bài này vẽ bản đồ phần toán nằm dưới học sâu, cùng các câu hỏi còn mở, và không giả vờ rằng lĩnh vực này đã “đóng sổ”.
+Bạn gõ một câu hỏi bất kỳ vào khung trò chuyện, và chưa đầy một giây sau, một mô hình ngôn ngữ lớn trả về câu trả lời mạch lạc. Đằng sau khoảnh khắc tưởng chừng nhẹ tênh đó là một cỗ máy toán học khổng lồ đang vận hành: từng chữ được biến thành vector hàng nghìn chiều, đi qua hàng chục lớp ma trận với hàng tỷ tham số, và toàn bộ "trí nhớ" của mô hình được khắc vào các con số ấy thông qua một cuộc leo dốc ngược khổng lồ trên mặt mất mát không ai vẽ nổi.
 
-Kỹ năng cần luyện là **biết đọc ở vùng biên**: phân biệt đâu là định lý, đâu là quy luật rút ra từ thực nghiệm, đâu là heuristic và đâu chỉ là quảng cáo. Quy mô và kỹ thuật dĩ nhiên quan trọng, nhưng đại số tuyến tính, xác suất, tối ưu và hình học chiều cao cũng quan trọng không kém.
+Điều trớ trêu thú vị của trí tuệ nhân tạo hiện đại là **kỹ thuật đang chạy nhanh hơn lý thuyết**. Giống như anh em nhà Wright đã cho máy bay cất cánh trước khi con người giải quyết trọn vẹn khí động lực học phi tuyến, học sâu (deep learning) đang hoạt động cực kỳ ấn tượng trong khi nhiều câu hỏi toán học cốt lõi — vì sao nó học được, vì sao nó không học vẹt dù thừa mứa tham số — vẫn đang bỏ ngỏ. Hệ thống AI ngày nay vừa là một sản phẩm kỹ thuật, vừa là một **đối tượng toán học** đầy bí ẩn.
+
+Bài này không giả vờ rằng lĩnh vực đã "đóng sổ". Thay vào đó, ta sẽ mở nắp ca-pô để nhìn thấy bản đồ toán học nằm dưới học sâu, đồng thời rèn kỹ năng **đọc ở vùng biên**: biết tách bạch đâu là định lý, đâu là quy luật thực nghiệm, đâu là kinh nghiệm gần đúng (*heuristic*) và đâu chỉ là lời quảng cáo.
+
+---
+
+## Bản đồ kiến thức nền: Toán học của AI là gì và nghiên cứu những gì?
+
+Nếu bạn từng học đại số tuyến tính, giải tích nhiều biến và xác suất thống kê ở đại học, bạn đã nắm trong tay đúng ba viên gạch nền của toán học AI. Ngành **Toán học của AI** (Mathematics of AI / Mathematical Foundations of Deep Learning) không phải một nhánh toán tách biệt, mà là nơi bốn câu hỏi lớn giao nhau:
+
+1. **Biểu diễn (Representation — Đại số tuyến tính & Lý thuyết xấp xỉ):** Làm thế nào biểu diễn ảnh, âm thanh, văn bản thành vector trong $$\mathbb{R}^d$$, và một mạng nơ-ron nhiều lớp có thể biểu diễn được những hàm số phức tạp đến mức nào?
+2. **Tối ưu hóa (Optimization — Giải tích & Hệ động lực):** Hàm mất mát của mạng sâu có hàng tỷ biến và vô số thung lũng lồi lõm (không lồi). Tại sao một thuật toán tưởng chừng đơn giản như trượt theo độ dốc ngẫu nhiên (SGD) lại không bị mắc kẹt ở những điểm cực tiểu vô dụng?
+3. **Tổng quát hóa (Generalization — Xác suất & Thống kê chiều cao):** Một mô hình có nhiều tham số hơn cả số mẫu dữ liệu vẫn dự đoán tốt trên dữ liệu chưa từng thấy. Quy luật xác suất và hình học nào đang âm thầm ngăn nó "học thuộc lòng"?
+4. **Độ tin cậy và cấu trúc (Reliability & Structure — Hình học, Thông tin, Nhân quả):** Điều gì làm nên biên quyết định mong manh trước nhiễu đối kháng, và mô hình học được mối liên hệ nhân quả hay chỉ là tương quan thống kê?
+
+Nói một cách hình ảnh: đại số tuyến tính là **ngôn ngữ** để viết ra mô hình, giải tích và tối ưu là **động cơ** giúp mô hình học, còn xác suất và hình học chiều cao là **kính hiển vi** giúp ta hiểu vì sao mô hình hoạt động được ngoài thế giới thật.
 
 ---
 
@@ -35,9 +50,9 @@ Sau bài này, bạn có thể:
 
 Một ảnh xám cỡ $$28\times 28$$ là một vector trong $$\mathbb{R}^{784}$$. Một khung hình video màu, một embedding của token, hay một hồ sơ biểu hiện gen cũng là vector, trong những không gian còn nhiều chiều hơn. Bộ dữ liệu là một đám mây điểm, còn một batch là một ma trận. **Đại số tuyến tính** vì thế là ngôn ngữ tự nhiên ở đây: cơ sở, phép chiếu, giá trị suy biến, cấu trúc hạng thấp, ánh xạ tuyến tính.
 
-**Một ví dụ cụ thể.** Phân tích thành phần chính (PCA) và phân tích giá trị suy biến (SVD) tìm những hướng có phương sai lớn nhất, để nén dữ liệu hoặc khử nhiễu bằng cách chiếu lên không gian con chính. Nếu $$X$$ là ma trận dữ liệu thì các vector suy biến phải đứng đầu của phiên bản đã được trừ trung bình chính là các hướng chính.
+**Một ví dụ cụ thể.** Phân tích thành phần chính (PCA) và phân tích giá trị suy biến (SVD) tìm những hướng có phương sai lớn nhất, để nén dữ liệu hoặc khử nhiễu bằng cách chiếu lên không gian con chính. Nếu $$X$$ là ma trận dữ liệu thì các vector suy biến phải đứng đầu của phiên bản đã được trừ trung bình chính là các hướng chính. Chẳng hạn, với tập ảnh chữ số viết tay trong $$\mathbb{R}^{784}$$, chỉ cần giữ lại khoảng 30–50 hướng chính đầu tiên là bạn đã tái tạo lại hình dáng chữ số rất rõ nét — bởi dữ liệu thật không trải đều khắp $$\mathbb{R}^{784}$$, mà thường nằm bám gần một "tờ giấy cong" (đa tạp) có số chiều nội tại thấp hơn nhiều.
 
-Nhiều chiều không đơn giản là “thêm vài tọa độ”. Hiện tượng tập trung của độ đo, tập điển hình và hình học của mặt cầu nhiều chiều làm thay đổi trực giác về khoảng cách và góc: phần lớn thể tích của quả cầu nhiều chiều nằm trong một lớp vỏ mỏng gần xích đạo, và hai vector ngẫu nhiên gần như vuông góc nhau với xác suất rất cao. Những điều này giúp giải thích vì sao các mô hình quá tham số vẫn chạy được và vì sao phương pháp láng giềng gần nhất “ngây thơ” dễ sai. (Bài hình học nhiều chiều trong chương này đi sâu hơn.)
+Nhiều chiều không đơn giản là “thêm vài tọa độ”. Hiện tượng tập trung của độ đo, tập điển hình và hình học của mặt cầu nhiều chiều làm thay đổi trực giác về khoảng cách và góc: phần lớn thể tích của quả cầu nhiều chiều nằm trong một lớp vỏ mỏng gần bề mặt và gần xích đạo, còn hai vector ngẫu nhiên độc lập trong $$\mathbb{R}^{1000}$$ gần như vuông góc nhau với xác suất rất cao. Những điều này giúp giải thích vì sao các mô hình quá tham số vẫn chạy được và vì sao phương pháp láng giềng gần nhất “ngây thơ” dễ sai. (Bài [Hình học cao chiều]({{ site.baseurl }}/contents/vi/chapter06/06_08_High_Dimensional_Geometry/) trong chương này đi sâu hơn.)
 
 ---
 
@@ -49,7 +64,9 @@ $$
 x \mapsto \sigma(Wx + b),
 $$
 
-trong đó $$W$$ là ma trận trọng số, $$b$$ là bias, $$\sigma$$ là hàm kích hoạt (ReLU, GELU, sigmoid, …). Mạng sâu **ghép** nhiều lớp như vậy. Mạng tích chập (CNN) dùng lại các bộ lọc tuyến tính cục bộ có tính bất biến tịnh tiến. Mạng residual viết mỗi lớp thành $$x \mapsto x + f_\theta(x)$$. Transformer dùng **attention**: một ánh xạ có cấu trúc gồm query, key, value, dạng song tuyến tính, với trọng số chuẩn hóa bằng softmax. Nhờ đó mỗi token được trộn thành một tổ hợp tuyến tính của các token khác, với hệ số phụ thuộc vào dữ liệu.
+trong đó $$W$$ là ma trận trọng số, $$b$$ là bias, $$\sigma$$ là hàm kích hoạt (ReLU, GELU, sigmoid, …). Hãy hình dung bằng hình học: phép biến đổi tuyến tính $$Wx + b$$ chỉ có thể xoay, kéo giãn và dịch chuyển không gian. Chính hàm phi tuyến — chẳng hạn $$\mathrm{ReLU}(z) = \max(0, z)$$ — mới là nhát **gấp không gian** dọc theo các siêu phẳng. Ghép 10 lớp như vậy giống như gấp một tờ giấy liên tiếp 10 lần: từ vài nhát gấp đơn giản, số vùng tuyến tính tăng theo hàm mũ, cho phép mạng uốn nắn ranh giới phân loại cực kỳ phức tạp.
+
+Mạng sâu **ghép** nhiều lớp như vậy với nhiều kiến trúc chuyên biệt. Mạng tích chập (CNN) dùng lại các bộ lọc tuyến tính cục bộ có tính bất biến tịnh tiến — rất khớp với cấu trúc ảnh. Mạng residual viết mỗi lớp thành $$x \mapsto x + f_\theta(x)$$, giúp tín hiệu và gradient đi thẳng qua hàng trăm lớp mà không bị suy hao. Transformer dùng **attention**: một ánh xạ có cấu trúc gồm query, key, value, dạng song tuyến tính, với trọng số chuẩn hóa bằng softmax. Nhờ đó mỗi token được trộn thành một tổ hợp tuyến tính của các token khác, với hệ số phụ thuộc vào chính ngữ cảnh của dữ liệu đầu vào.
 
 **Xấp xỉ phổ quát (định lý và thực hành).** Với giả thiết nhẹ, một mạng nông đủ rộng có thể xấp xỉ một lớp rất rộng các hàm liên tục trên tập compact (định lý xấp xỉ phổ quát cổ điển). Đây là kết quả về **biểu diễn**: nó nói rằng *tồn tại* tham số để xấp xỉ hàm mục tiêu, **chứ không** nói gradient descent tìm ra các tham số đó một cách hiệu quả. Độ sâu làm thay đổi *hiệu quả* biểu diễn và inductive bias. Còn lý thuyết giải thích *vì sao mạng sâu thường thắng mạng rộng trong thực hành* thì tinh tế hơn và vẫn đang được phát triển: lý thuyết xấp xỉ, giải tích điều hòa của phép ghép hàm và quy luật mở rộng quy mô (scaling) thực nghiệm đều góp một phần.
 
@@ -75,13 +92,15 @@ $$
 \theta_{t+1} = \theta_t - \eta \widehat{\nabla L}(\theta_t).
 $$
 
-Backpropagation là quy tắc chuỗi được tổ chức theo đồ thị tính toán. Nhờ tự động vi phân, ta có gradient chính xác của hàm hợp theo từng trọng số (chỉ sai khác do làm tròn số thực).
+Backpropagation là quy tắc chuỗi được tổ chức theo đồ thị tính toán. Nhờ tự động vi phân, ta có gradient chính xác của hàm hợp theo từng trọng số (chỉ sai khác do làm tròn số thực). Nếu phải tính đạo hàm số bằng cách nhích từng trọng số một trong 1 tỷ tham số, ta sẽ mất 1 tỷ lượt chạy tiến; backpropagation tái sử dụng các giá trị trung gian để tính trọn bộ 1 tỷ đạo hàm riêng chỉ với chi phí xấp xỉ một lượt chạy tiến và một lượt chạy ngược.
 
 ![Cảnh quan mất mát (phác)]({{ site.baseurl }}/img/chapter_img/ai_loss_landscape.svg)
 
 *Hình. Cảnh quan không lồi: nhiều chậu; thực hành vẫn tìm được chậu hữu ích.*
 
-**Toán học đặt ra câu hỏi gì?** Khi nào phương pháp hội tụ? Bước học, momentum và các phương pháp thích nghi (Adam và họ hàng) hoạt động ra sao? Kích thước batch và nhiễu đóng vai trò gì? Trong học sâu, cảnh quan mất mát không lồi và rất lớn, nên các bảo đảm cổ điển cho bài toán **lồi** hiếm khi áp dụng trực tiếp. Tuy vậy, các phương pháp kiểu SGD trong thực nghiệm thường vẫn tìm được tham số **dùng tốt**. Giải thích khoảng cách này là một **chương trình nghiên cứu** thực sự chứ không phải khẩu hiệu. Giới hạn thời gian liên tục (gradient flow), chế độ mean-field/NTK và hình học của cảnh quan (điểm yên ngựa, các “chậu”, implicit bias) là những chỗ giải tích, xác suất và thực hành đang gặp nhau.
+**Toán học đặt ra câu hỏi gì?** Khi nào phương pháp hội tụ? Bước học, momentum và các phương pháp thích nghi (Adam và họ hàng) hoạt động ra sao? Kích thước batch và nhiễu đóng vai trò gì? Trong học sâu, cảnh quan mất mát không lồi và rất lớn, nên các bảo đảm cổ điển cho bài toán **lồi** hiếm khi áp dụng trực tiếp. Một trực giác hữu ích từ hình học chiều cao: ở không gian hàng triệu chiều, một điểm dừng có gradient bằng không gần như luôn là **điểm yên ngựa** (lõm theo vài hướng, lồi theo các hướng khác) hơn là cực tiểu cục bộ tệ — vì để là cực tiểu cục bộ, mọi trong số hàng triệu hướng đều phải uốn lên cùng lúc! Nhiễu từ mini-batch giúp SGD trượt khỏi các điểm yên ngựa ấy và tìm thấy những "chậu" phẳng, rộng.
+
+Giải thích chặt chẽ khoảng cách giữa lý thuyết lồi cổ điển và thành công thực nghiệm của SGD là một **chương trình nghiên cứu** thực sự chứ không phải khẩu hiệu. Giới hạn thời gian liên tục (gradient flow), chế độ mean-field/NTK và hình học của cảnh quan (điểm yên ngựa, các “chậu”, implicit bias) là những chỗ giải tích, xác suất và thực hành đang gặp nhau.
 
 ---
 
@@ -91,7 +110,9 @@ Dữ liệu là mẫu lấy từ một phân phối $$\mathcal{D}$$ chưa biết
 
 > Mất mát huấn luyện thấp không tự động có nghĩa là rủi ro thật thấp.
 
-Lý thuyết học thống kê cổ điển chặn khoảng cách tổng quát hóa bằng độ phức tạp của lớp hàm (VC, Rademacher). Mạng hiện đại thì **quá tham số**, có thể khớp cả nhãn nhiễu, nhưng vẫn thường tổng quát hóa tốt trên dữ liệu có cấu trúc. **Double descent** cho thấy câu chuyện quen thuộc về đường cong chữ U giữa bias và variance là quá đơn giản. Đây là vùng mà nhiều lời giải thích phổ thông không đủ dùng.
+Lý thuyết học thống kê cổ điển chặn khoảng cách tổng quát hóa bằng độ phức tạp của lớp hàm (VC, Rademacher): theo bức tranh cổ điển, nếu mô hình quá phức tạp, nó sẽ khớp cả nhiễu và dự đoán kém trên dữ liệu mới (đường cong chữ U giữa bias và variance). Thế nhưng mạng hiện đại thì **quá tham số** — một mạng có hàng triệu trọng số có thể học thuộc lòng cả tập ảnh bị tráo nhãn ngẫu nhiên — nhưng khi huấn luyện trên nhãn thật, nó vẫn thường tổng quát hóa rất tốt.
+
+Hiện tượng **double descent** (giảm kép) cho thấy câu chuyện chữ U quen thuộc mới chỉ là nửa đầu của bức tranh: khi số tham số vượt xa ngưỡng nội suy (nơi lỗi huấn luyện chạm 0), lỗi kiểm tra lại *tiếp tục giảm xuống* lần thứ hai. Lý do trực giác là khi có vô số hàm đi qua mọi điểm huấn luyện, thuật toán tối ưu có đủ không gian để chọn ra **hàm trơn nhất, đơn giản nhất** trong số đó thay vì phải gồng mình uốn éo sát ngưỡng vừa đủ. Đây là vùng mà nhiều lời giải thích phổ thông không đủ dùng.
 
 Xác suất còn xuất hiện trong gradient ngẫu nhiên, quan điểm Bayes và PAC-Bayes, hiệu chuẩn xác suất, và các mô hình sinh (likelihood, các phân kỳ, score matching, và mối liên hệ với vận chuyển tối ưu).
 
@@ -134,16 +155,6 @@ Trong [buổi nói chuyện Big Think](https://www.youtube.com/watch?v=OOMx2BHHW
 Về các mô hình ngôn ngữ lớn, ông cố ý không lãng mạn hóa. Chúng là những “cỗ máy” thống kê được huấn luyện ở quy mô khổng lồ, và bổ sung cho **chiều sâu** của con người nhờ có **chiều rộng**. Đưa cho chúng một nghìn bài toán có độ khó lẫn lộn, chúng có thể giải được một phần, trong khi không chuyên gia nào kịp nhớ ra rằng bài đó khớp với một bài báo năm 1970 ít người biết. Nhưng đưa cho chúng bài mà chưa phương pháp chuẩn nào giải được, thì theo ông, chúng vẫn chỉ đang đoán. Việc của nghề toán là ghép chiều rộng ấy với những bài toán sâu và chậm mà con người vẫn chủ động chọn.
 
 Cũng trong buổi nói chuyện đó, ông cho rằng một chứng minh có vòng đời: được sinh ra, được kiểm tra, được viết lại để người đọc thấy chỗ khó nằm ở đâu, được công nhận là thú vị, rồi được đưa vào giáo trình. Điều ông lo là khâu sinh ra và khâu kiểm tra đang tăng tốc, còn khâu tiêu hóa thì không. Cộng đồng sẽ phải đối mặt với **tình trạng không tiêu hóa nổi chứng minh**: có quá nhiều lời giải trông đúng đến mức không phân loại xuể, và có nguy cơ tối ưu nhầm bảng điểm của khoa học. Ông vẫn bênh vực nghiên cứu xuất phát từ sự tò mò, và bênh vực việc truyền thông phải cho thấy *quá trình*, không chỉ tiện ích. Không điều nào ở đây là lời quảng bá sản phẩm cho khóa học; chúng chỉ là một khung để đọc cho tỉnh táo. Trang tổng hợp: [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/).
-
-### Mode khoa học, trực thăng, và khó tiêu chứng minh (theo Tao)
-
-Terence Tao, trong [cuộc trò chuyện Big Think](https://www.youtube.com/watch?v=OOMx2BHHWtE) cho *Six Math Essentials* sắp ra, phác khoa học như chuỗi mode: lý thuyết và thí nghiệm trước, rồi mô phỏng, rồi dữ liệu lớn, và nay hỗ trợ tự động. Mỗi mode có thể chạy nhanh hơn. Điều đó không tự động là khoa học *tiến* theo nghĩa nhà nghiên cứu người vẫn hiểu, dạy, và muốn kết quả.
-
-Ẩn dụ đi bộ của ông là sư phạm, không phải lệnh cấm công cụ. Bạn nghe có thác, lạc một chút, thấy thác khác ở xa mà người đi sau có thể tới. Trực thăng có thể thả bạn đúng thác ban đầu rồi bay về. Bạn có tấm ảnh và không có bản đồ. Hiệu năng tới một mục tiêu đã nêu có thể bỏ qua các hẻm bên—những nối bất ngờ thành lý thuyết kế.
-
-Về mô hình ngôn ngữ lớn ông cố ý ít lãng mạn: chúng là động cơ từ kế được huấn luyện ở quy mô khổng lồ, bổ sung cho **độ sâu** người vì chúng có **độ rộng**. Chỉ chúng vào một nghìn bài khó dễ lẫn và chúng có thể giải một phần mà không chuyên gia đơn nào kịp khớp với một bài báo 1970 khuất. Chỉ chúng vào bài không phương pháp chuẩn nào chạy và, trong bức tranh của ông, chúng vẫn đang đoán. Nhiệm vụ nghề là khớp độ rộng ấy với những bài sâu, chậm mà người vẫn chủ động chọn.
-
-Chứng minh, trong cùng buổi nói, có vòng đời: sinh, kiểm, viết sao người thấy chỗ khó nằm đâu, được nhận là thú vị, tiêu hóa vào giáo trình. Lo của Tao là sinh và kiểm đang tăng tốc trong khi tiêu hóa thì không. Cộng đồng rồi đối mặt **khó tiêu chứng minh**—quá nhiều lời giải trông đúng để phân loại, và rủi ro tối ưu sai bảng điểm khoa học. Ông vẫn biện hộ cho nghiên cứu do tò mò dẫn và cho truyền thông cho thấy *quy trình*, không chỉ tiện ích. Không điều nào ở đây là lời chứng thực sản phẩm của khóa học; đó là khung biết đọc. Hub: [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/).
 
 ---
 

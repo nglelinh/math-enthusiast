@@ -9,9 +9,22 @@ categories:
 - chapter06
 ---
 
-Thành phố không chỉ có nhà mà còn có đường. Não không chỉ có nơ-ron mà còn có synapse. Dịch bệnh không chỉ là virus mà còn là chuyện ai gặp ai. **Khoa học mạng** nghiên cứu cấu trúc và động lực trên đồ thị (đỉnh và cạnh) trong xã hội, hạ tầng, sinh học và thông tin. Lĩnh vực này nằm giữa lý thuyết đồ thị, xác suất, vật lý thống kê và phân tích dữ liệu. Thành công có thật (ngưỡng dịch trên đồ thị tiếp xúc, xếp hạng trang web), và những khẳng định quá đà cũng có thật (“mọi thứ đều scale-free”, “một chỉ số centrality tìm ra người quan trọng nhất”).
+Năm 1736, cư dân thành phố Königsberg đố nhau một câu đố vui: liệu có thể đi dạo qua cả bảy cây cầu bắc qua sông Pregel, mỗi cây cầu đúng một lần rồi quay về không? Leonhard Euler không cần đi bộ một bước nào. Ông gạt bỏ bản đồ phố phường, rút gọn mỗi bờ sông và hòn đảo thành một chấm tròn, mỗi cây cầu thành một nét nối — và chỉ bằng vài dòng đếm số nét chạm vào mỗi chấm, ông chứng minh chuyến đi ấy bất khả thi. Khoa học về mạng lưới ra đời từ khoảnh khắc trừu tượng hóa giản dị đó.
 
-Lộ trình của bài: đồ thị → mô hình ngẫu nhiên → bậc → small world → động lực trên mạng → suy luận từ dữ liệu → giới hạn.
+Gần ba thế kỷ sau, bài toán không còn dừng ở bảy cây cầu. Thành phố không chỉ có nhà mà còn có mạng giao thông. Não không chỉ có nơ-ron mà còn có hàng trăm nghìn tỷ khớp nối synapse. Dịch bệnh không chỉ là câu chuyện của virus mà là câu chuyện *ai gặp ai*. **Khoa học mạng** (Network Science) nghiên cứu cấu trúc và các quá trình động lực diễn ra trên những đồ thị khổng lồ của xã hội, hạ tầng, sinh học và thông tin. Lĩnh vực này có những thành tựu rất thật — từ thuật toán PageRank định hình internet đến lý thuyết ngưỡng dịch trên đồ thị tiếp xúc — nhưng cũng đầy những khẩu hiệu bị phóng đại quá mức kiểu “mọi mạng trong tự nhiên đều scale-free” hay “một chỉ số độ trung tâm là đủ tìm ra người quan trọng nhất”.
+
+Bài này đi dọc theo trục chính của ngành: đồ thị và ma trận → mô hình ngẫu nhiên → phân bố bậc và small world → động lực học trên mạng → suy luận đồ thị từ dữ liệu → giới hạn của cách nhìn mạng lưới.
+
+---
+
+## Bản đồ kiến thức nền: Khoa học mạng là gì và nghiên cứu những gì?
+
+Nếu lý thuyết đồ thị cổ điển trong toán rời rạc thường xét các đồ thị nhỏ hoặc có cấu trúc đối xứng chặt chẽ, thì **Khoa học Mạng** (Network Science) lại đứng ở ngã tư của **lý thuyết đồ thị, xác suất, đại số tuyến tính và vật lý thống kê** để nghiên cứu các mạng có hàng nghìn đến hàng tỷ đỉnh. Ngành này xoay quanh bốn câu hỏi trung tâm:
+
+1. **Cấu trúc tĩnh (Topology & Ma trận):** Một mạng lưới trông như thế nào khi ta không thể vẽ hết nó lên giấy? Ta dùng ma trận kề $$A$$, phân bố bậc $$P(k)$$, độ dài đường đi ngắn nhất, hệ số cụm (mức độ "bạn của bạn cũng là bạn") và các chỉ số độ trung tâm (centrality).
+2. **Mô hình sinh ngẫu nhiên (Random Graph Models):** Cơ chế nào sinh ra hình dạng của mạng thực? Ta so sánh dữ liệu thật với các "mô hình chuẩn" như Erdős–Rényi (nối hoàn toàn ngẫu nhiên), Watts–Strogatz (thế giới nhỏ) và Barabási–Albert (gắn kết ưu tiên tạo hub).
+3. **Động lực trên mạng (Dynamics on Networks):** Cấu trúc kết nối làm thay đổi quá trình diễn ra trên nó ra sao? Đó là sự lan truyền dịch bệnh (SIS/SIR), khuếch tán nhiệt và đồng thuận thông qua phổ của ma trận Laplacian $$L = D - A$$, hay bước đi ngẫu nhiên dẫn đến PageRank.
+4. **Suy luận từ dữ liệu (Network Inference):** Ngoài đời, ta hiếm khi thấy trọn vẹn đồ thị thật — dữ liệu đo luôn thiếu cạnh, nhiễu và có thiên lệch lấy mẫu. Làm sao phát hiện cộng đồng (community detection) hay khôi phục mạng gốc mà không bị đánh lừa bởi nhiễu?
 
 ---
 
@@ -34,23 +47,25 @@ Sau bài này, bạn có thể:
 
 Đồ thị đơn vô hướng $$G=(V,E)$$; bậc $$k_i$$ là số cạnh nối với đỉnh $$i$$; ma trận kề $$A$$ có $$A_{ij}=1$$ nếu $$\{i,j\}\in E$$, và đối xứng khi đồ thị vô hướng. Đường đi, thành phần liên thông, khoảng cách $$d(i,j)$$, đường kính và hệ số cụm mô tả hình học rời rạc trên $$(V,E)$$.
 
+Một chi tiết thú vị của ma trận kề là lũy thừa của nó có ý nghĩa tổ hợp ngay lập tức: phần tử $$(A^2)_{ij}$$ đếm đúng số đường đi độ dài 2 từ đỉnh $$i$$ đến đỉnh $$j$$, còn $$(A^3)_{ii}$$ đếm số tam giác đi qua đỉnh $$i$$. Nhờ cầu nối này, những câu hỏi hình học về đường đi và cụm trên đồ thị biến thành phép tính đại số tuyến tính.
+
 Đồ thị có hướng, có trọng số, có cạnh theo thời gian, hay siêu đồ thị làm mô hình phong phú hơn. Việc quyết định “cạnh nghĩa là gì” đã là một lựa chọn khoa học: “mạng xã hội” có thể là bạn bè, cuộc gọi, đồng tác giả hoặc cùng địa điểm, và mỗi lựa chọn cho ra một đồ thị khác nhau.
 
 ---
 
 ## 2. Đồ thị ngẫu nhiên: các mô hình chuẩn
 
-**Erdős–Rényi** $$G(n,p)$$: mỗi cạnh trong $$\binom{n}{2}$$ cạnh xuất hiện độc lập với xác suất $$p$$; bậc kỳ vọng là $$\lambda=(n-1)p$$. Ngưỡng nổi tiếng: xuất hiện thành phần liên thông khổng lồ khi $$\lambda$$ vượt qua $$1$$ (theo nghĩa tiệm cận, được phát biểu chặt chẽ bằng xác suất). Phân bố bậc có dạng Poisson khi $$\lambda$$ cố định; hệ số cụm thường yếu so với nhiều dữ liệu xã hội.
+**Erdős–Rényi** $$G(n,p)$$: mỗi cạnh trong $$\binom{n}{2}$$ cạnh xuất hiện độc lập với xác suất $$p$$; bậc kỳ vọng là $$\lambda=(n-1)p$$. Ngưỡng nổi tiếng: xuất hiện **thành phần liên thông khổng lồ** khi $$\lambda$$ vượt qua $$1$$ (theo nghĩa tiệm cận, được phát biểu chặt chẽ bằng xác suất). Hãy hình dung bạn có 10.000 nút áo rải trên sàn và buộc ngẫu nhiên từng sợi dây giữa các cặp nút: khi trung bình mỗi nút mới có $$0.8$$ sợi dây, bạn chỉ thấy các cụm nhỏ rời rạc; nhưng vừa vượt qua ngưỡng trung bình $$1$$ sợi dây mỗi nút, một "mạng lưới khổng lồ" đột ngột kết tụ và gom một phần đáng kể toàn bộ số nút vào cùng một khối — giống hệt hiện tượng chuyển pha từ nước sang băng! Phân bố bậc của $$G(n,p)$$ có dạng Poisson khi $$\lambda$$ cố định (hiếm khi có đỉnh siêu nổi trội); hệ số cụm cũng thường rất thấp so với mạng xã hội thực.
 
-**Mô hình cấu hình** lấy mẫu theo một dãy bậc cho trước, nên cho phép đuôi nặng. Gắn kết ưu tiên (Barabási–Albert và các mô hình cùng họ) tạo ra các hub và đuôi gần giống lũy thừa, dưới giả thiết của mô hình: đỉnh mới ưu tiên gắn vào đỉnh có bậc cao.
+**Mô hình cấu hình** lấy mẫu theo một dãy bậc cho trước, nên cho phép đuôi nặng. Gắn kết ưu tiên (Barabási–Albert và các mô hình cùng họ) tạo ra các hub và đuôi gần giống lũy thừa, dưới giả thiết của mô hình: đỉnh mới ưu tiên gắn vào đỉnh có bậc cao ("kẻ giàu càng giàu thêm").
 
-**Cần đọc cho kỹ.** “Scale-free” bị lạm dụng khá nhiều. Một khẳng định thực nghiệm cần thống kê cẩn thận (kích thước hữu hạn, khớp bằng hàm hợp lý, so với các họ đuôi nặng khác). Một đồ thị log-log trông thẳng **không** phải là định lý $$P(k)\propto k^{-\gamma}$$.
+**Cần đọc cho kỹ.** “Scale-free” bị lạm dụng khá nhiều. Một khẳng định thực nghiệm cần thống kê cẩn thận (kích thước hữu hạn, khớp bằng hàm hợp lý, so với các họ đuôi nặng khác như log-normal). Một đồ thị log-log trông thẳng **không** phải là định lý $$P(k)\propto k^{-\gamma}$$.
 
 ---
 
 ## 3. Small world và cấu trúc trung bình
 
-Nhiều mạng thực có đường đi ngắn và hệ số cụm cao: đó là **small world** (Watts–Strogatz: lấy mạng vòng, nối lại ngẫu nhiên một phần cạnh; độ dài đường đi giảm mạnh còn hệ số cụm giảm chậm hơn). “Sáu bước” là hình bóng văn hóa của hiện tượng đường đi ngắn; con số cụ thể phụ thuộc vào định nghĩa cạnh và cách lấy mẫu.
+Nhiều mạng thực vừa có **đường đi rất ngắn** (giống đồ thị ngẫu nhiên), vừa có **hệ số cụm cao** (giống mạng lưới láng giềng địa phương): đó là **small world**. Mô hình Watts–Strogatz giải thích cơ chế này cực kỳ gọn: bắt đầu từ một vòng tròn nơi mỗi người chỉ quen hàng xóm cạnh nhà (cụm rất cao, nhưng đường đi vòng quanh rất dài), rồi chỉ cần nối lại ngẫu nhiên một tỷ lệ nhỏ cạnh thành vài "đường tắt" xuyên qua vòng tròn. Kết quả thật bất ngờ: độ dài đường đi trung bình sụp xuống theo hàm logarit gần như ngay lập tức, trong khi hệ số cụm gần như chưa kịp giảm! “Sáu bước xa cách” là hình bóng văn hóa của hiện tượng đường đi ngắn này; con số cụ thể phụ thuộc vào định nghĩa cạnh và cách lấy mẫu.
 
 **Cộng đồng:** độ module (modularity), phân cụm phổ, mô hình khối ngẫu nhiên (SBM). SBM là mô hình sinh có nhãn nhóm; ngưỡng để khôi phục nhãn nối với ma trận ngẫu nhiên và lý thuyết thông tin. Không phải cực đại nào của modularity cũng là “cộng đồng thật”: giới hạn độ phân giải và việc chia quá nhỏ là những vấn đề đã biết.
 
@@ -58,11 +73,11 @@ Nhiều mạng thực có đường đi ngắn và hệ số cụm cao: đó là
 
 ## 4. Động lực trên mạng
 
-**Dịch** SIS/SIR: bệnh đi theo các cạnh. Các xấp xỉ trường trung bình và truyền thông điệp cho ngưỡng liên quan đến các moment của bậc; mạng không đồng đều có thể dễ bị lan dịch vì có hub. Với mô hình cấu hình, heuristic thường dùng liên quan đến $$\langle k^2\rangle/\langle k\rangle$$. Đây là **một xấp xỉ có miền hợp lệ**, không phải luật chung cho mọi khảo sát tiếp xúc.
+**Dịch** SIS/SIR: bệnh đi theo các cạnh. Các xấp xỉ trường trung bình và truyền thông điệp cho ngưỡng liên quan đến các moment của bậc; mạng không đồng đều có thể dễ bị lan dịch vì có hub. Một trực giác nổi tiếng ở đây là **nghịch lý tình bạn**: trung bình, bạn bè của bạn có *nhiều bạn hơn chính bạn* — đơn giản vì người có 100 bạn xuất hiện trong danh sách bạn bè của 100 người, còn người có 1 bạn chỉ xuất hiện 1 lần. Do đó, virus khi đi dọc theo một cạnh ngẫu nhiên có xác suất rất cao va ngay vào một hub. Với mô hình cấu hình, heuristic thường dùng liên quan đến $$\langle k^2\rangle/\langle k\rangle$$. Đây là **một xấp xỉ có miền hợp lệ**, không phải luật chung cho mọi khảo sát tiếp xúc.
 
 **Khuếch tán và đồng thuận:** $$\dot x=-Lx$$ với Laplacian $$L=D-A$$; phổ của nó quyết định tốc độ về cân bằng; độ liên thông đại số (giá trị riêng nhỏ thứ hai) đo mức “gắn kết” đối với khuếch tán.
 
-**Bước ngẫu nhiên và xếp hạng:** phân phối dừng của bước ngẫu nhiên là nền tảng của việc xếp hạng (PageRank là bước ngẫu nhiên có damping); độ trung tâm vector riêng dùng vector riêng chính của $$A$$. Nói chung, bậc cao không kéo theo betweenness cao, và cũng không kéo theo PageRank cao.
+**Bước ngẫu nhiên và xếp hạng:** phân phối dừng của bước ngẫu nhiên là nền tảng của việc xếp hạng (PageRank là bước ngẫu nhiên có damping); độ trung tâm vector riêng dùng vector riêng chính của $$A$$. Nói chung, bậc cao không kéo theo betweenness cao, và cũng không kéo theo PageRank cao — một đỉnh chỉ có bậc 2 nhưng là cây cầu duy nhất nối hai thành phố lớn sẽ có betweenness cực lớn dù bậc rất nhỏ.
 
 ### PageRank dưới góc nhìn đại số tuyến tính
 
@@ -93,7 +108,7 @@ Video dài khoảng 2 phút 03 giây (có thuyết minh tiếng Việt): ý tư�
 
 ## 5. Độ bền vững, hiệu ứng dây chuyền và điều khiển
 
-Thấm (percolation): mạng vỡ ra khi gỡ bỏ đỉnh hoặc cạnh, ngẫu nhiên hoặc nhắm vào hub. Trong mô hình lý tưởng, mạng đuôi nặng bền với lỗi ngẫu nhiên nhưng mong manh trước tấn công vào hub. Hiệu ứng dây chuyền (lưới điện, tài chính) cần có động lực học của tải chứ không chỉ topology. Khả năng điều khiển theo cấu trúc dùng đến bài toán ghép cặp (matching); còn nói “nút điều khiển là người cần tác động trong xã hội” là một bước nhảy cần có ngữ cảnh nhân quả và thể chế.
+Thấm (percolation): mạng vỡ ra khi gỡ bỏ đỉnh hoặc cạnh, ngẫu nhiên hoặc nhắm vào hub. Trong mô hình lý tưởng, mạng đuôi nặng bền với lỗi ngẫu nhiên (vì phần lớn đỉnh có bậc thấp, mất vài đỉnh ngẫu nhiên ít ảnh hưởng toàn cục) nhưng lại cực kỳ mong manh trước tấn công nhắm thẳng vào hub. Hiệu ứng dây chuyền (lưới điện, tài chính) cần có động lực học của tải chứ không chỉ topology. Khả năng điều khiển theo cấu trúc dùng đến bài toán ghép cặp (matching); còn nói “nút điều khiển là người cần tác động trong xã hội” là một bước nhảy cần có ngữ cảnh nhân quả và thể chế.
 
 ---
 

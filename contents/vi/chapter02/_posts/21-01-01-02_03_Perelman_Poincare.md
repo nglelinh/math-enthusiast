@@ -9,19 +9,17 @@ categories:
 - chapter02
 ---
 
-**Grigori Perelman** được trao **Huy chương Fields 2006** (và ông đã **từ chối nhận**) vì những đóng góp cho hình học và những hiểu biết mang tính cách mạng về cấu trúc giải tích và hình học của **dòng Ricci** (Ricci flow). Thành tựu gắn với giải thưởng nhất là chứng minh **giả thuyết hình học hóa của Thurston** (geometrization), từ đó suy ra **giả thuyết Poincaré** cổ điển trong 3 chiều. Về sau, cũng công trình đó mang lại cho ông Giải thưởng Thiên niên kỷ của Viện Clay (và ông cũng từ chối).
+Hãy tưởng tượng bạn sống trong một vũ trụ ba chiều hữu hạn, không có biên giới, và muốn biết hình dạng tổng thể của nó mà không thể bước ra ngoài để nhìn. Năm 1904, Henri Poincaré đặt ra một câu hỏi tưởng như rất giản dị: nếu ta thả bất kỳ sợi dây vòng kín nào trong không gian ba chiều ấy và đều có thể kéo thắt nó lại về một điểm mà không bị vướng vào "lỗ" nào, thì không gian đó có chắc chắn là một mặt cầu ba chiều $$S^3$$ bị bóp méo hay không?
 
-Nội dung bài:
+Suốt gần một thế kỷ, câu hỏi ấy đã đánh bại hết thế hệ nhà tô pô này đến thế hệ khác — ngay cả khi các phiên bản ở chiều 4, 5, 6 trở lên đều lần lượt được giải quyết. Rồi vào giai đoạn 2002–2003, một nhà toán học ẩn dật người Nga, **Grigori Perelman**, lặng lẽ đăng lên arXiv ba bài báo ngắn gọn, không gửi tạp chí, không quảng bá. Bên trong vài chục trang giấy súc tích đó là lời giải hoàn chỉnh không chỉ cho **giả thuyết Poincaré**, mà cho cả **giả thuyết hình học hóa của Thurston** — một định lý phân loại mọi không gian ba chiều đóng.
+
+Điều khiến giới toán học chấn động không chỉ là kết quả, mà là *cách giải*: thay vì cố cắt ghép bằng các công cụ tô pô thuần túy, Perelman đã hoàn thiện chương trình **dòng Ricci** của Richard Hamilton — thả một "phương trình truyền nhiệt hình học" lên không gian để nó tự làm phẳng mình, rồi thực hiện những ca **phẫu thuật** chính xác khi không gian sắp đứt gãy. Thành tựu này mang về cho ông **Huy chương Fields 2006** và sau đó là Giải thưởng Thiên niên kỷ một triệu đô-la của Viện Clay — cả hai ông đều **từ chối nhận**.
+
+Hành trình của bài học này đi qua bảy chặng:
 
 **Câu hỏi tô pô → đa tạp 3 chiều → dòng Ricci → điểm kỳ dị → phẫu thuật → hình học hóa → Fields (bị từ chối).**
 
 Mục tiêu không phải là dựng lại toàn bộ chứng minh giải tích, mà là hiểu **bài toán hỏi gì**, **vì sao một thế kỷ tô pô lại cần đến một "phương trình truyền nhiệt" hình học**, và **phần toán học nào nằm bên dưới**.
-
-Trong số các câu hỏi về phân loại đa tạp 3 chiều đóng, có câu: mọi đa tạp 3 chiều đóng, đơn liên có đồng phôi với mặt cầu 3 chiều $$S^3$$ không (Poincaré, 1904)? Cách tiếp cận hiện đại cho metric Riemann biến đổi theo **dòng Ricci**
-$$\partial_t g_{ij} = -2\operatorname{Ric}_{ij}(g),$$
-một phương trình phi tuyến kiểu phương trình truyền nhiệt do **Richard Hamilton** đưa ra (1982). Trong điều kiện thuận lợi, metric trở nên đều hơn; khi xuất hiện điểm kỳ dị, phải hiểu các mô hình của chúng và cắt bỏ chúng bằng **phẫu thuật** (*surgery*).
-
-Perelman đưa vào **phiếm hàm entropy**, lý thuyết về **nghiệm cổ xưa** (ancient solution) và tính chất **không suy biến κ** (κ-noncollapsing), cùng một quy trình **phẫu thuật** chi tiết để tiếp tục dòng Ricci qua các điểm kỳ dị. Loạt bài đăng trên arXiv (2002–2003) hoàn tất chứng minh giả thuyết hình học hóa. Huy chương Fields 2006 (bị từ chối).
 
 ---
 
@@ -40,13 +38,23 @@ Sau bài học, bạn có thể:
 
 ---
 
+## Bản đồ kiến thức nền: Tô pô 3 chiều, Hình học vi phân và Giải tích hình học
+
+Để hiểu vì sao một bài toán về "hình dạng cao su" lại được giải bằng một phương trình đạo hàm riêng, ta cần phân biệt rõ ba ngôn ngữ toán học gặp nhau trong bài này:
+
+- **Tô pô (Topology) nghiên cứu gì?** Tô pô là hình học của những vật thể làm bằng cao su mềm: bạn có thể kéo giãn, bóp méo tự do, miễn là không xé rách hay dán dính lại. Trong mắt nhà tô pô, chiếc cốc có quai và chiếc bánh vòng (mặt xuyến $$T^2$$) là như nhau vì đều có một "lỗ"; còn quả bóng (mặt cầu $$S^2$$) thì khác hẳn. Công cụ cơ bản để phát hiện lỗ là **nhóm cơ bản** $$\pi_1(M)$$: tập hợp các kiểu vòng dây không thể biến đổi liên tục sang nhau. Một không gian gọi là **đơn liên** ($$\pi_1 = 0$$) nếu mọi vòng dây đều co được về một điểm — giống như vòng dây quấn quanh quả bóng luôn trượt tuột ra được, còn vòng dây luồn qua lỗ chiếc bánh vòng thì bị kẹt.
+- **Hình học vi phân (Differential Geometry) nghiên cứu gì?** Nếu tô pô bỏ qua khoảng cách và góc, thì hình học vi phân đặt lên đa tạp $$M$$ một **metric Riemann** $$g$$ — hiểu đơn giản là một thước đo khoảng cách và góc nhỏ tại từng điểm. Khi đã có thước đo, ta đo được **độ cong** (chẳng hạn độ cong Ricci $$\operatorname{Ric}$$, đo xem thể tích của một quả cầu nhỏ trong không gian cong lệch bao nhiêu so với quả cầu trong không gian phẳng Euclid).
+- **Giải tích hình học (Geometric Analysis) và lý do chuyển ngôn ngữ:** Bài toán Poincaré thuần túy là một câu hỏi tô pô: chỉ biết $$\pi_1(M) = 0$$, làm sao chứng minh $$M$$ đồng phôi với $$S^3$$? Tô pô thuần túy không có cách nào "chỉnh" một đa tạp 3 chiều méo mó về hình dạng chuẩn. Vì vậy Hamilton và Perelman chọn cách **mượn hình học vi phân và phương trình đạo hàm riêng (PDE)**: đặt đại một metric $$g$$ lên $$M$$, rồi để metric đó tiến hóa theo phương trình dòng Ricci $$\partial_t g_{ij} = -2\operatorname{Ric}_{ij}(g)$$. Thay vì tự tay chứng minh không gian này là mặt cầu, ta để phương trình vi phân tự "là phẳng" mọi nếp nhăn cho đến khi hình dạng chuẩn hiện nguyên hình!
+
+---
+
 ## 1. Câu hỏi của Poincaré: phát biểu đơn giản, nhưng rất khó
 
 Năm 1904, Henri Poincaré hỏi (theo ngôn ngữ hiện đại):
 
 > Nếu $$M$$ là một đa tạp 3 chiều đóng có nhóm cơ bản tầm thường, thì $$M$$ có đồng phôi với $$S^3$$ không?
 
-"Đóng" nghĩa là compact và không có biên. "Đơn liên" nghĩa là mọi vòng kín đều co liên tục được về một điểm: $$\pi_1(M)=\{e\}$$. Mặt cầu 3 chiều là tập các vectơ đơn vị trong $$\mathbb{R}^4$$, ví dụ mẫu của một đa tạp 3 chiều đơn liên.
+"Đóng" nghĩa là compact (hữu hạn, không trải dài ra vô tận) và không có biên. "Đơn liên" nghĩa là mọi vòng kín đều co liên tục được về một điểm: $$\pi_1(M)=\{e\}$$. Mặt cầu 3 chiều $$S^3 = \{(x_1, x_2, x_3, x_4) \in \mathbb{R}^4 : x_1^2 + x_2^2 + x_3^2 + x_4^2 = 1\}$$ là tập các vectơ đơn vị trong $$\mathbb{R}^4$$, ví dụ mẫu của một đa tạp 3 chiều đóng và đơn liên.
 
 ![3-đa tạp đơn liên và 3-cầu]({{ site.baseurl }}/img/chapter_img/poincare_sphere_simply_connected.svg)
 
@@ -54,9 +62,9 @@ Năm 1904, Henri Poincaré hỏi (theo ngôn ngữ hiện đại):
 
 ### Vì sao chiều 3 đặc biệt
 
-- Chiều 2: các mặt đóng được phân loại theo giống; điều kiện đơn liên chỉ để lại mặt cầu 2 chiều.
-- Chiều $$\ge 5$$: giả thuyết Poincaré tổng quát được Smale chứng minh (và được hoàn thiện về sau); chiều 4 được Freedman chứng minh trong phạm trù tô pô.
-- Chiều **3** là khó nhất: đủ thấp để xuất hiện những hiện tượng "kỳ quặc", nhưng đủ cao để các công cụ cổ điển dùng cho mặt không còn hiệu quả.
+- **Chiều 2:** các mặt đóng định hướng được phân loại hoàn toàn theo số lỗ (giống $$g$$: cầu, bánh vòng, bánh vòng hai lỗ, ...); điều kiện đơn liên chỉ để lại mặt cầu 2 chiều $$S^2$$.
+- **Chiều $$\ge 5$$:** nghe thật ngược đời, nhưng không gian nhiều chiều lại *dễ* hơn — vì có đủ "chỗ trống" để gỡ rối các đường cong tự cắt nhau! Giả thuyết Poincaré tổng quát ở chiều $$\ge 5$$ được Stephen Smale chứng minh từ năm 1961; chiều 4 được Michael Freedman chứng minh năm 1982 trong phạm trù tô pô.
+- **Chiều 3** là vùng giao thoa hiểm hóc nhất: đủ chật để các nút thắt và vòng dây cản đường nhau, nhưng đủ rộng để các công cụ cổ điển dùng cho mặt 2 chiều không còn hiệu quả.
 
 Câu hỏi này trở thành một trong **bảy Bài toán Thiên niên kỷ của Viện Clay** (2000).
 
@@ -64,7 +72,9 @@ Câu hỏi này trở thành một trong **bảy Bài toán Thiên niên kỷ c�
 
 ## 2. Giả thuyết hình học hóa của Thurston: một bức tranh lớn hơn
 
-Một nguyên lý mạnh hơn là **giả thuyết hình học hóa của Thurston** (thập niên 1980): mọi đa tạp 3 chiều đóng đều có thể cắt dọc theo các mặt cầu và mặt xuyến cốt yếu thành các mảnh, mỗi mảnh mang một trong **tám hình học thuần nhất** (cầu, Euclid, hyperbolic, và năm hình học khác như $$\mathrm{Nil}$$, $$\mathrm{Sol}$$, các hình học tích, và phủ phổ dụng của $$\mathrm{SL}_2(\mathbb{R})$$).
+Một nguyên lý mạnh hơn nhiều là **giả thuyết hình học hóa của William Thurston** (thập niên 1980): mọi đa tạp 3 chiều đóng đều có thể cắt dọc theo các mặt cầu và mặt xuyến cốt yếu thành các mảnh, mỗi mảnh mang một trong **tám hình học thuần nhất** (cầu, Euclid, hyperbolic, và năm hình học khác như $$\mathrm{Nil}$$, $$\mathrm{Sol}$$, các hình học tích $$S^2 \times \mathbb{R}$$, $$H^2 \times \mathbb{R}$$, và phủ phổ dụng của $$\mathrm{SL}_2(\mathbb{R})$$).
+
+Hãy so sánh với chiều 2: mọi mặt đóng 2 chiều chỉ cần **ba** hình học mẫu là đủ — hình học cầu (mặt cầu $$S^2$$, độ cong $$+1$$), hình học phẳng Euclid (mặt xuyến $$T^2$$, độ cong $$0$$), và hình học hyperbolic (mặt có từ 2 lỗ trở lên, độ cong $$-1$$). Ở chiều 3, bức tranh phong phú hơn: một đa tạp 3 chiều có thể là sự ghép nối của nhiều mảnh mang các hình học khác nhau trong 8 hình học chuẩn của Thurston.
 
 ![Tám hình học (nhãn)]({{ site.baseurl }}/img/chapter_img/geometrization_eight.svg)
 
@@ -78,9 +88,9 @@ $$
 \text{Giả thuyết Poincaré}.
 $$
 
-Nếu $$\pi_1(M)=0$$ thì không thể có một phân tách hình học phức tạp nào tránh được hình học cầu; mô hình đóng, đơn liên duy nhất là mặt cầu, do đó $$M\cong S^3$$.
+Nếu $$\pi_1(M)=0$$ thì không thể có mặt xuyến cốt yếu hay mảnh hyperbolic nào (vì các cấu trúc đó luôn sinh ra những vòng dây không co được về một điểm); mô hình đóng, đơn liên duy nhất còn lại trong tám hình học là hình học cầu, do đó $$M\cong S^3$$.
 
-Chiến lược của thế kỷ XX: chứng minh giả thuyết **lớn hơn** (hình học hóa), và Poincaré sẽ là hệ quả.
+Chiến lược của thế kỷ XX: chứng minh giả thuyết **lớn hơn** (hình học hóa), và Poincaré sẽ rơi ra như một hệ quả tự nhiên.
 
 ---
 
@@ -94,16 +104,16 @@ Video dài khoảng 2 phút 6 giây (có thuyết minh tiếng Việt giọng Al
 
 ## 3. Dòng Ricci của Hamilton: một phương trình truyền nhiệt hình học
 
-Năm 1982, Richard Hamilton đưa ra dòng Ricci: làm biến dạng metric $$g(t)$$ theo phương trình
+Năm 1982, Richard Hamilton đưa ra **dòng Ricci**: làm biến dạng metric $$g(t)$$ theo phương trình
 
 $$
 \frac{\partial}{\partial t} g_{ij} = -2 R_{ij},
 $$
 
-trong đó $$R_{ij}$$ là độ cong Ricci. Một cách hình dung gần đúng:
+trong đó $$R_{ij}$$ là tensor độ cong Ricci. Hãy hình dung phương trình truyền nhiệt cổ điển $$\partial_t u = \Delta u$$: chỗ nào quá nóng thì nhiệt tỏa ra, chỗ nào quá lạnh thì nhiệt chảy tới, cuối cùng nhiệt độ dàn đều khắp vật. Dòng Ricci làm điều tương tự với **độ cong của không gian**:
 
-- vùng có độ cong Ricci **dương** có xu hướng **co lại**;
-- vùng có độ cong Ricci **âm** có xu hướng **giãn ra**;
+- vùng có độ cong Ricci **dương** (như một mặt cầu tròn) có xu hướng **co lại**; chẳng hạn một mặt cầu bán kính $$r_0$$ trong 3 chiều có độ cong Ricci tỉ lệ với $$1/r^2$$, nên dưới dòng Ricci nó co đều lại và biến mất thành một điểm sau thời gian hữu hạn $$T = r_0^2 / 4$$;
+- vùng có độ cong Ricci **âm** (như mặt yên ngựa hyperbolic) có xu hướng **giãn ra**;
 - metric có xu hướng trở nên **đều** hơn, giống như nhiệt làm cân bằng nhiệt độ.
 
 ![Sơ đồ Ricci flow làm mượt]({{ site.baseurl }}/img/chapter_img/ricci_flow_smoothing.svg)
@@ -114,12 +124,12 @@ trong đó $$R_{ij}$$ là độ cong Ricci. Một cách hình dung gần đúng:
 
 - sự tồn tại trong thời gian ngắn và tính duy nhất với metric ban đầu trơn;
 - nguyên lý cực đại cho các đại lượng độ cong;
-- các định lý hội tụ khi **độ cong Ricci dương**, trong một số bối cảnh đặc biệt;
-- một chương trình: chạy dòng Ricci trên đa tạp 3 chiều tổng quát và đọc ra tô pô từ hình học sau thời gian dài.
+- các định lý hội tụ khi **độ cong Ricci dương**, trong một số bối cảnh đặc biệt (năm 1982 Hamilton chứng minh mọi đa tạp 3 chiều đóng có độ cong Ricci dương chặt đều đồng phôi với một thương của $$S^3$$);
+- một chương trình đầy tham vọng: chạy dòng Ricci trên đa tạp 3 chiều tổng quát và đọc ra tô pô từ hình học sau thời gian dài.
 
 ### Trở ngại: các điểm kỳ dị
 
-Với metric ban đầu tổng quát, dòng Ricci có thể tạo ra **điểm kỳ dị sau thời gian hữu hạn**: độ cong tiến ra vô cùng, thể tích của những vùng nhỏ sụp xuống, và phương trình cho metric trơn không còn ý nghĩa theo nghĩa cổ điển. Nếu không có lý thuyết về điểm kỳ dị và cách đi tiếp, chương trình không phân loại được mọi đa tạp 3 chiều.
+Với metric ban đầu tổng quát, dòng Ricci không phải lúc nào cũng êm ả. Hãy tưởng tượng một **quả tạ** ba chiều gồm hai đầu cầu to nối nhau bằng một cái cổ mảnh ở giữa. Cái cổ hình trụ $$S^2 \times \mathbb{R}$$ có độ cong dương rất lớn theo hướng vòng tròn quanh cổ, nên nó co lại nhanh hơn nhiều so với hai đầu cầu! Kết quả là cổ thắt lại thành một điểm trước khi hai đầu kịp co xong: **điểm kỳ dị sau thời gian hữu hạn** xuất hiện, độ cong tiến ra vô cùng và phương trình cổ điển ngừng chạy. Nếu không hiểu hết mọi kiểu điểm kỳ dị có thể xảy ra và không có cách đi tiếp qua chúng, chương trình của Hamilton bị kẹt cứng suốt hai mươi năm.
 
 > Các điểm kỳ dị trông như thế nào, và làm sao đi tiếp sau chúng?
 
@@ -127,19 +137,19 @@ Với metric ban đầu tổng quát, dòng Ricci có thể tạo ra **điểm k
 
 ## 4. Phóng to, nghiệm cổ xưa và mô hình thắt cổ chai
 
-Khi độ cong trở nên lớn gần thời điểm kỳ dị $$T$$, người ta **đổi tỉ lệ** metric và thời gian để chuẩn hóa độ cong. Giới hạn thu được (nếu tồn tại) là một **nghiệm cổ xưa**: một dòng Ricci xác định trên một khoảng thời gian kéo dài vô hạn về quá khứ.
+Khi độ cong trở nên cực lớn gần thời điểm kỳ dị $$T$$, người ta dùng một "chiếc kính hiển vi toán học": **đổi tỉ lệ** metric (nhân độ dài với $$\lambda \gg 1$$) và thời gian (nhân với $$\lambda^2$$) để chuẩn hóa độ cong tại điểm nóng về mức $$1$$. Vì thời điểm bắt đầu $$t = 0$$ bị đẩy lùi về $$-\lambda^2 T \to -\infty$$, giới hạn thu được (nếu tồn tại) là một **nghiệm cổ xưa** (*ancient solution*): một dòng Ricci đã tồn tại từ quá khứ vô tận $$(-\infty, 0]$$.
 
 Trong 3 chiều, các mô hình điểm kỳ dị dự kiến gồm:
 
 - mặt cầu tròn co lại (một thành phần dạng cầu biến mất);
-- **thắt cổ chai**, có mô hình là hình trụ $$S^2\times\mathbb{R}$$ đang co lại;
-- các cấu trúc "mũ" hoặc cấu trúc suy biến tinh tế hơn, bị các ước lượng của Perelman ràng buộc.
+- **thắt cổ chai** (*neck pinch*), có mô hình là hình trụ $$S^2\times\mathbb{R}$$ đang co lại;
+- các cấu trúc "mũ" (như *Bryant soliton*) hoặc cấu trúc suy biến tinh tế hơn, bị các ước lượng của Perelman ràng buộc chặt chẽ.
 
 ![Thắt cổ chai và phẫu thuật]({{ site.baseurl }}/img/chapter_img/ricci_surgery_neck.svg)
 
 *Hình. Minh họa thắt cổ chai: độ cong tăng vọt trên một cổ hẹp; phẫu thuật cắt bỏ rồi bịt lại.*
 
-Để hiểu mô hình nào có thể xảy ra, cần tính **không suy biến** và entropy, sao cho giới hạn sau khi đổi tỉ lệ vẫn còn thể tích có nghĩa.
+Nhưng trước Perelman, có một nỗi sợ lớn: khi phóng to bằng kính hiển vi, nhỡ không gian bị "xẹp lép" thành một đường thẳng hay một mặt phẳng (thể tích sụp xuống 0 nhanh hơn tốc độ phóng đại) — một hiện tượng gọi là **suy biến cục bộ** (như cái cổ hình xuyến hay "xì gà" biến mất thể tích)? Để loại trừ nỗi sợ đó, cần một đại lượng đơn điệu hoàn toàn mới.
 
 ---
 
@@ -155,27 +165,27 @@ Video dài khoảng 1 phút 10 giây (có thuyết minh tiếng Việt giọng A
 
 ### 5.1 Entropy và thể tích rút gọn
 
-Perelman định nghĩa các phiếm hàm đơn điệu dọc theo dòng Ricci, nổi tiếng nhất là **entropy** và **thể tích rút gọn** (reduced volume). Tính đơn điệu cho phép kiểm soát toàn cục: các hành vi xấu bị loại trừ vì chúng sẽ làm giảm một đại lượng không thể giảm.
+Lấy cảm hứng từ vật lý thống kê và lý thuyết trường, Perelman định nghĩa các phiếm hàm **đơn điệu** dọc theo dòng Ricci, nổi tiếng nhất là **entropy $$\mathcal{W}$$** và **thể tích rút gọn** (*reduced volume*). Tính đơn điệu là vũ khí tối thượng trong giải tích: nó hoạt động như một mũi tên thời gian không bao giờ quay ngược, lập tức loại trừ những hành vi hỗn loạn hay suy biến vì chúng sẽ buộc một đại lượng không giảm lại bị tụt xuống.
 
-### 5.2 Tính không suy biến κ
+### 5.2 Tính không suy biến $$\kappa$$
 
-Định lý **không suy biến** (đại ý): nếu độ cong bị chặn bởi $$r^{-2}$$ trên một quả cầu bán kính $$r$$ thì thể tích của quả cầu nhỏ hơn cùng tâm bị chặn dưới bởi một bội của $$r^3$$. Điều này ngăn metric co thể tích quá nhanh so với thang độ cong, và là điều kiện thiết yếu để lấy được các giới hạn phóng to trơn.
+Từ công thức entropy, Perelman chứng minh định lý **không suy biến $$\kappa$$** (*$$\kappa$$-noncollapsing*): nếu độ cong bị chặn bởi $$r^{-2}$$ trên một quả cầu bán kính $$r$$ thì thể tích của quả cầu đó bị chặn dưới bởi $$\kappa r^3$$ (với một hằng số $$\kappa > 0$$). Điều này ngăn không gian xẹp lép thành chiều thấp hơn khi phóng to, đảm bảo giới hạn phóng to là một đa tạp 3 chiều trơn có nghĩa — và ngay lập tức loại bỏ mô hình "xì gà" từng ám ảnh chương trình của Hamilton.
 
 ### 5.3 Ràng buộc trong việc phân loại nghiệm cổ xưa
 
-Nhờ tính không suy biến và entropy, Perelman ràng buộc được các giới hạn cổ xưa trong 3 chiều, từ đó biện minh cho bức tranh hình học (cầu, cổ, mũ) dùng trong phẫu thuật.
+Nhờ tính không suy biến và entropy, Perelman phân loại được mọi giới hạn cổ xưa trong 3 chiều (định lý về lân cận chuẩn tắc), chứng minh rằng bất cứ nơi nào độ cong nổ tung thì hình học cục bộ chỉ có thể trông giống một mặt cầu, một cái cổ $$S^2 \times \mathbb{R}$$, hoặc một cái mũ tròn.
 
 ### 5.4 Dòng Ricci có phẫu thuật
 
-Khi cổ đã thắt đủ hẹp, người ta **cắt** dọc theo một mặt cầu cắt ngang, bỏ đi phần "sừng" có độ cong lớn, gắn vào một cái mũ chuẩn, và được một đa tạp trơn mới (có thể không liên thông) để chạy tiếp dòng Ricci. Phần kỹ thuật cốt lõi:
+Khi cổ đã thắt đủ hẹp, người ta **cắt** dọc theo mặt cầu cắt ngang $$S^2$$, bỏ đi phần "sừng" có độ cong quá lớn, gắn vào hai đầu cắt hai cái mũ tròn chuẩn, và thu được một đa tạp trơn mới (có thể tách thành hai mảnh rời nhau, giống như cắt đôi quả tạ thành hai quả bóng) để tiếp tục chạy dòng Ricci. Phần kỹ thuật cốt lõi:
 
-- phẫu thuật được xác định tốt và chỉ thay đổi tô pô một cách có kiểm soát;
-- trên đa tạp 3 chiều đóng, trong mọi khoảng thời gian hữu hạn chỉ có **hữu hạn** lần phẫu thuật;
-- sau thời gian dài, các mảnh còn lại mang những cấu trúc hình học nằm trong danh sách của Thurston.
+- phẫu thuật được xác định tốt và chỉ thay đổi tô pô một cách có kiểm soát (ngược lại với phép nối hai đa tạp bằng một cái ống — tức tổng liên thông);
+- trên đa tạp 3 chiều đóng, trong mọi khoảng thời gian hữu hạn chỉ có **hữu hạn** lần phẫu thuật (tránh hiện tượng phẫu thuật tích tụ dày đặc đến vô hạn);
+- sau thời gian dài, các mảnh còn lại mang những cấu trúc hình học nằm trong danh sách tám hình học của Thurston.
 
 ### 5.5 Biến mất sau thời gian hữu hạn và hành vi dài hạn
 
-Trên một số đa tạp, dòng Ricci (có phẫu thuật) có thể biến mất sau thời gian hữu hạn (thể tích → 0); điều này ứng với các tổng liên thông của những dạng không gian cầu. Trên các đa tạp khác, phân tích hành vi dài hạn cho ra các mảnh hyperbolic và các đa tạp đồ thị (graph manifold), đúng như giả thuyết hình học hóa.
+Trên một số đa tạp — đặc biệt là khi $$\pi_1(M) = 0$$ (giả thuyết Poincaré) — Perelman chứng minh dòng Ricci có phẫu thuật **biến mất hoàn toàn sau thời gian hữu hạn** (thể tích $$\to 0$$). Vì mỗi mảnh biến mất là một mặt cầu tròn, lần ngược lại hữu hạn bước phẫu thuật cho thấy đa tạp ban đầu chỉ có thể là tổng liên thông của các mặt cầu — tức chính là $$S^3$$! Trên các đa tạp tổng quát không đơn liên, phân tích hành vi khi $$t \to \infty$$ tách không gian thành các mảnh "dày" mang hình học hyperbolic và các mảnh "mỏng" là đa tạp đồ thị (graph manifold), hoàn tất trọn vẹn giả thuyết hình học hóa.
 
 ---
 
@@ -195,7 +205,7 @@ Ba bài nổi tiếng trên arXiv:
 2. *Ricci flow with surgery…* (math/0303109, 2003).  
 3. *Finite extinction time…* (math/0307245, 2003).
 
-Các bài này ngắn so với độ sâu của lập luận. Cộng đồng toán học đã viết các bản trình bày chi tiết:
+Các bài này cực kỳ ngắn gọn so với độ sâu của lập luận. Cộng đồng toán học đã dành nhiều năm viết các bản trình bày chi tiết từng bước để kiểm tra mọi mắt xích:
 
 - ghi chú của Kleiner–Lott;
 - sách *Ricci Flow and the Poincaré Conjecture* của Morgan–Tian;
@@ -366,7 +376,7 @@ Danh sách URL đầy đủ (mọi đường dẫn tìm được khi nghiên c�
 - Xem lại phần **Các bài toán lớn** nếu khóa học có bàn rộng hơn về các Bài toán Thiên niên kỷ.  
 - So sánh với câu chuyện **chứng minh có máy tính hỗ trợ** (bốn màu) và **công thức chính xác** (bài toán xếp cầu của Viazovska).  
 - Bước kỹ thuật tiếp theo nếu muốn đi sâu: nguyên lý cực đại cho tensor của Hamilton, rồi công thức entropy của Perelman.  
-- Ghi lại một câu hỏi cụ thể bạn vẫn còn thắc mắc; đặt được câu hỏi tốt là một phần của việc làm toán.
+- Ghi lại một câu hỏi cụ thể bạn vẫn còn thắc mắc; đặt được câu hỏi tốt cũng là một phần của việc làm toán.
 
 ## Video tham khảo
 
