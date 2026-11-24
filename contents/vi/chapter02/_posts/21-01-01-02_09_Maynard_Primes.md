@@ -192,19 +192,6 @@ Cả hai đều cho thấy số nguyên tố có cấu trúc. Một bên là c�
 
 ---
 
-## Bài tập
-
-1. Viết phát biểu dạng $$\liminf$$ cho khoảng cách giữa các số nguyên tố liên tiếp, và giải thích vì sao liminf hữu hạn mạnh hơn "có một lần khoảng cách nhỏ".
-2. Vì sao khoảng cách ≤ 246 yếu hơn giả thuyết sinh đôi? Viết một câu đúng và một câu phóng đại sai.
-3. Phương pháp sàng "phát hiện" điều gì? Viết không quá 120 từ, không dùng ký hiệu; rồi viết một đoạn có dùng chòm $$n+h_j$$.
-4. Lập bảng so sánh Green–Tao (cấp số cộng) với Maynard (khoảng cách): câu hỏi, công cụ, liên hệ với số nguyên tố sinh đôi.
-5. Đọc lướt một bài tổng quan về khoảng cách bị chặn; liệt kê ba người có đóng góp ngoài Zhang và Maynard.
-6. **Đọc tài liệu nghiên cứu.** Viết một phát biểu về khoảng cách lớn (dạng limsup) và giải thích vì sao nó không mâu thuẫn với khoảng cách bị chặn.
-7. **Thảo luận.** Trong 3 phút: nếu giả thuyết Elliott–Halberstam đầy đủ được chứng minh, kết quả khoảng cách bị chặn sẽ được cải thiện thế nào (nói sơ lược)?
-
----
-
-
 ## Nguồn video (bộ tư liệu nghiên cứu video)
 
 Chi tiết: `research/video-research/Maynard_Primes/`.

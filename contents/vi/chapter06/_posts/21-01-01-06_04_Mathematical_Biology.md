@@ -188,18 +188,6 @@ Chọn một phần tóm tắt bài báo kiểu “AI cho khám phá thuốc” 
 
 ---
 
-## Bài tập
-
-1. Phác thảo đồ thị $$N(t)$$ của mô hình logistic; diễn giải ý nghĩa của $$r,K$$.
-2. Tuyến tính hóa SIR tại $$(1,0,0)$$ (đã chuẩn hóa); liên hệ điều kiện xâm nhập với $$R_0=\beta/\gamma$$.
-3. Với phản ứng $$A+B\to C$$ theo định luật tác dụng khối lượng, viết phần đóng góp vào ODE cho $$\dot a,\dot b,\dot c$$.
-4. Vì sao các đợt bùng nổ tạo protein có thể có phương sai lớn hơn phân bố Poisson?
-5. Cho một ví dụ cho thấy đỉnh có bậc cao không có nghĩa là quan trọng về chức năng.
-6. Với phần tóm tắt một bài dự đoán cấu trúc protein: đâu là số đo, đâu là phương pháp, đâu là khẳng định sinh học còn cần kiểm chứng?
-7. Không thứ nguyên hóa mô hình logistic hoặc SIR; nêu các nhóm không thứ nguyên.
-
----
-
 ## Tóm tắt từ phần nghiên cứu video
 
 Phần này dùng cho buổi seminar; hãy đối chiếu với nguồn gốc và không coi là bản chép lời.

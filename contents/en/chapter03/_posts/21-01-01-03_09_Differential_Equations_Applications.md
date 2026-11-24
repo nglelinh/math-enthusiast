@@ -196,18 +196,6 @@ Primary university path: [Strang & Moler Learn DE](https://ocw.mit.edu/courses/r
 
 ---
 
-## Exercises
-
-1. **Classify.** ODE or PDE? (a) $$\dot{I}+I/RC=0$$; (b) $$\partial_t u=u_{xx}$$; (c) Maxwell’s equations in vacuum.  
-2. **Lipschitz.** Show $$f(x)=x^2$$ is locally but not globally Lipschitz on $$\mathbb{R}$$. Why does that matter for Picard theory?  
-3. **Linear system.** For $$\dot{x}=Ax$$ with $$A=\mathrm{diag}(-1,2)$$, which component blows up as $$t\to+\infty$$?  
-4. **Well-posedness.** In your own words, why is continuous dependence on data an engineering requirement?  
-5. **Heat vs wave.** Which smooths rough initial data instantly (in the idealized equation), and which propagates singularities along characteristics?  
-6. **Numerics.** Explain the CFL idea: why might a time step be forced small when the grid is fine for a wave equation?  
-7. **Stretch.** Reduce $$\ddot{x}+\omega^2 x=0$$ to a first-order system and state the period of solutions.
-
----
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and geometric/algorithmic intuition**, not as substitutes for proofs or standards documents. Full ranking and Mode B notes: `research/video-research/differential-equations-applications/`.

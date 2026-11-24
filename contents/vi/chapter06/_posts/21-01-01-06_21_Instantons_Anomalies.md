@@ -118,16 +118,6 @@ Trong sắc động lực học lượng tử (QCD), vì khối lượng các qu
 
 ---
 
-## Bài tập
-
-1. **Instanton.** Trong không quá 50 chữ: tác dụng hữu hạn và số tô pô.  
-2. **Dị thường.** Phân biệt đối xứng của phương trình chuyển động với đối xứng của lý thuyết lượng tử.  
-3. **Chỉ số.** Nếu $$\dim\ker D=2$$ và $$\dim\ker D^\dagger=0$$ thì $$\operatorname{ind} D$$ bằng bao nhiêu?  
-4. **Nói chính xác.** Viết lại một câu thổi phồng, gán toàn bộ QCD cho "phép màu instanton".  
-5. **Giải thích nguyên lý.** Trong không quá 150 chữ: trình bày *ý tưởng* vì sao chỉ số giải tích bằng chỉ số tô pô (không cần chứng minh).
-
----
-
 ## Tài liệu tham khảo
 
 1. Coleman, "The uses of instantons" (Các ứng dụng của instanton).  

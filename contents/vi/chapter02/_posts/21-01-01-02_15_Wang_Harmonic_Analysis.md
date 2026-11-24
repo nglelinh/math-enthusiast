@@ -349,21 +349,6 @@ Xem `TRANSCRIPT_STATUS.md` và các tệp `*_knowledge_units.json`. Khi làm bà
 
 ---
 
-## Bài tập
-
-1. **Khởi động.** Vì sao một đoạn thẳng trên mặt phẳng có diện tích 0 nhưng không phải là tập Kakeya?  
-2. **Định nghĩa.** Viết định nghĩa: tập Kakeya trong $$\mathbb{R}^n$$; chiều Hausdorff (ở mức trực giác); ống δ.  
-3. **Davies và Besicovitch.** Vì sao kết quả của Davies **bổ sung** chứ không mâu thuẫn với kết quả của Besicovitch?  
-4. **Ước lượng thể tích.** Nếu có $$N$$ ống, mỗi ống thể tích $$c\delta^{2}$$, đôi một rời nhau, hãy ước lượng thể tích của hợp. Kết quả thay đổi thế nào nếu mọi cặp ống giao nhau với thể tích $$\approx\delta^{3}$$?  
-5. **Tổng hợp.** Vẽ sơ đồ  
-   `Kakeya → tubes → cấu trúc đa thang → Fourier / PDE`  
-   và giải thích mỗi mũi tên bằng một câu.  
-6. **Đọc bài nghiên cứu.** Mở [arXiv:2502.17655](https://arxiv.org/abs/2502.17655), chỉ đọc phần tóm tắt và phần mở đầu: chép lại phát biểu chính về thể tích và liệt kê ba hướng nghiên cứu đi trước.  
-7. **Đọc lời trích dẫn.** So sánh [trích dẫn ngắn của IMU](https://www.mathunion.org/fileadmin/documents/2026-07/Hong_Wang_Citations.pdf) với một bài báo phổ biến khoa học. Cộng sự nào chỉ được nhắc đến trong văn bản chính thức?
-
----
-
-
 ## Nguồn video và tài liệu đọc
 
 Chi tiết: `research/video-research/Wang_Harmonic_Analysis/`.
@@ -379,7 +364,6 @@ Chi tiết: `research/video-research/Wang_Harmonic_Analysis/`.
 **Ghi nhớ:** Bài toán Kakeya ba chiều **đã được chứng minh**; ở chiều cao hơn vẫn **còn mở**.
 
 ---
-
 
 
 ### Bản ghi lời và khung hình (video chính)

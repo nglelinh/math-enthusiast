@@ -108,17 +108,6 @@ Fields-era culture (Chapter 2) shares the “new tools from unexpected equations
 
 ---
 
-## Exercises
-
-1. **Move.** In ≤60 words: how can a space of connections detect smooth structure?  
-2. **ASD.** What does $$F_A^+=0$$ ask of the curvature?  
-3. **Analysis.** Why does bubbling threaten a naive count of solutions?  
-4. **SW vs Donaldson.** Name one practical advantage of Seiberg–Witten (seminar slogan).  
-5. **LO6.** Rewrite: “Physics discovered that four-dimensional topology is wrong.”  
-6. **LO3 narrative.** Outline a 5-sentence proof-idea story: equation → moduli → invariant → theorem about manifolds.
-
----
-
 ## References and further reading
 
 1. Donaldson & Kronheimer — *The Geometry of Four-Manifolds*.  

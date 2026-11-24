@@ -137,17 +137,6 @@ TCS coi độ khó tính toán là một cấu trúc lý thuyết: hàm một ch
 
 ---
 
-## Bài tập
-
-1. Phát biểu bổ đề địa phương trong một câu cho người ngoài ngành.  
-2. Cho một ví dụ trong đó tính ngẫu nhiên giúp chứng minh sự tồn tại hoặc cho một thuật toán (ví dụ đơn giản cũng được).  
-3. Khử ngẫu nhiên muốn đạt được điều gì? Không quá 100 từ.  
-4. **Không quá 250 từ:** lập luận rằng TCS là toán thuần túy bằng chính ngôn ngữ của citation Abel 2021.  
-5. Nối với [đồ thị và mạng]({{ site.baseurl }}/contents/vi/chapter03/03_06_Graph_Theory_Networks/): một câu về expander và độ tin cậy của mạng.  
-6. Sau bài P vs NP: nêu ba định lý TCS khẳng định mà không cần P ≠ NP.
-
----
-
 ## Nguồn video
 
 Hãy dùng video để **định hướng và làm quen với văn hóa nghiên cứu**, đừng dùng thay cho chứng minh.

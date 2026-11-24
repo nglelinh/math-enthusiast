@@ -123,19 +123,6 @@ BSD remains a flagship open problem in Chapter 1. Bhargava’s 2014 work *rearra
 
 ---
 
-## Exercises
-
-1. In one paragraph, what does Gauss composition *do* for quadratic orders? Use the words “class group” and “discriminant.”
-2. Why does a $$2\times 2\times 2$$ cube of integers have *three* natural pairs of binary quadratic forms? (Slicing directions.) No need for the full identities.
-3. What is a ring of rank $$4$$ over $$\mathbb{Z}$$, at slogan level? Why is counting them harder than counting quadratic orders?
-4. Write the exact sequence that relates $$E(\mathbb{Q})/2E(\mathbb{Q})$$, $$\mathrm{Sel}_2(E)$$, and $$\Sha(E)[2]$$. Where does average rank hide?
-5. **Accuracy practice.** A headline reads “Mathematician solves 350-year-old elliptic curve mystery.” Rewrite it in two sentences that could appear in this course.
-6. How would a proof of BSD *plus* Bhargava–Shankar change the meaning of “average analytic rank”? One careful paragraph.
-7. Skim the IMU 2014 news release on Bhargava and list two results that are *not* about elliptic curves (e.g. hyperelliptic points, the 290 theorem with Hanke).
-8. **Seminar stretch.** Compare “average rank of elliptic curves” with [Avila’s]({{ site.baseurl }}/contents/en/chapter02/02_16_Avila_Dynamics/) “typical unimodal map”: both replace classification by a measure on a space of objects. What is the measure here?
-
----
-
 ## Video and reading links
 
 No course video-research pack is attached to this lesson.

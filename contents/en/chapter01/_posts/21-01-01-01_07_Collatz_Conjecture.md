@@ -292,20 +292,6 @@ That is how open problems teach scientific maturity.
 
 ---
 
-## Exercises
-
-1. Compute the orbit of $$27$$ until $$1$$. Count the number of steps (total stopping time) and record the maximum value attained.
-2. Define **stopping time** and **total stopping time** in one sentence each, and compute both for $$n=6$$ and $$n=7$$.
-3. Give two independent reasons that finite verification cannot prove Collatz for all positive integers.
-4. **LO1 (≤250 words):** state the Collatz conjecture, explain why it is hard in plain language, and name one surrounding idea (heuristics, density results, or cycle constraints).
-5. **LO6 (short paragraph):** contrast Collatz with a problem that is hard primarily because of specialized language (e.g. BSD). What pedagogical role does each play in Chapter 1?
-6. Draft one **A5 hypothesis** you could falsify with a plot or table (example: “for $$n\le N$$, total stopping time is at most $$c\log n$$”—pick something you can actually test and revise).
-7. Stretch: read an abstract (or introduction) of a Lagarias survey on the $$3x+1$$ problem and list three subtopics that go beyond naive iteration.
-8. **Tao hygiene (≤200 words):** Write two sentences of the form “Tao proved …” and “Tao did **not** prove …,” naming logarithmic density and $$\operatorname{Col}_{\min}$$.
-9. **Map variants:** Compute the first four *odd* terms of the orbit of $$7$$ under $$T$$, then write $$\operatorname{Syr}(7)$$ using the definition in §6. Explain in one sentence why step counts differ.
-
----
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as substitutes for a proof (none is known). Full ranking and Mode B notes: `research/video-research/collatz/`.

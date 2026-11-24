@@ -158,19 +158,6 @@ Trong mạch khóa học, Lindenstrauss là chương tiếp nối ở tầm Fiel
 
 ---
 
-## Bài tập
-
-1. Viết một đoạn giải thích độ đo bất biến là gì, và vì sao *phân loại* chúng có thể khó hơn chứng minh một định lý ergodic riêng lẻ.
-2. So sánh dòng lũy đơn với tác động xuyến chéo theo ba tiêu chí: hình dạng quỹ đạo, tình trạng phân loại, ứng dụng số học điển hình.
-3. Viết giả thuyết Littlewood. Viết kết luận của EKL. Khoanh tròn những cụm từ không được bỏ ("có thể trừ", "chiều Hausdorff bằng không").
-4. Cấu trúc bổ sung nào làm QUE trở thành bài toán *số học*? Vì sao tính compact loại bỏ được vấn đề thoát khối lượng mà Soundararajan phải xử lý sau đó?
-5. Vì sao giả thuyết QUE của Rudnick–Sarnak không suy ra được từ định lý ergodic lượng tử (Šnirel’man–Zelditch–Colin de Verdière)?
-6. **Luyện phát biểu chính xác.** Viết lại câu "một nhà toán học Israel giải được Littlewood và hỗn loạn lượng tử" thành ba câu chính xác.
-7. Đọc lướt tóm tắt bài của Lindenstrauss, Annals 163 (2006), hoặc của EKL, Annals 164 (2006), và liệt kê các giả thiết bạn cần tra cứu thêm (entropy, hồi quy, lưới đồng dư, nâng vi địa phương).
-8. **Mở rộng.** So sánh bài toán $$\times 2,\times 3$$ của Furstenberg với EKL: cùng tư tưởng độ cứng, nhưng khác nhóm. Trong trường hợp đường tròn, điều gì vẫn còn mở?
-
----
-
 ## Liên kết
 
 - IMU Fields Medals 2010: [https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2010](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2010)

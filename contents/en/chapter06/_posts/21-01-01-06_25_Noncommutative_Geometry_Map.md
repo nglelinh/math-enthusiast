@@ -80,15 +80,6 @@ Distance formulas reconstruct metric data from $$D$$ in the commutative case (Co
 
 ---
 
-## Exercises
-
-1. **Gelfand slogan.** Commutative C* ↔ ?  
-2. **Spectral triple.** List $$(A,\mathcal{H},D)$$ roles in one line each.  
-3. **LO6.** Rewrite: “Connes geometrized particle physics, so the LHC is pure NCG.”  
-4. **Bridge.** How is a gauge connection on a bundle different from a noncommutative algebra replacing the base space? (Slogan OK.)
-
----
-
 ## References and further reading
 
 1. Connes — *Noncommutative Geometry* (advanced).  

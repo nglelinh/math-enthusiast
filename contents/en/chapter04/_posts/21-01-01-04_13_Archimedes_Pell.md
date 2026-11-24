@@ -210,18 +210,6 @@ The negative Pell equation $$x^2-dy^2=-1$$ asks whether the fundamental unit of 
 
 ---
 
-## Exercises
-
-1. **Linear stage.** Using the seven ratio equations, check that the 8-tuple with $$W=10{,}366{,}482$$, $$B=7{,}460{,}514$$, $$Y=4{,}149{,}387$$, $$D=7{,}358{,}060$$ can be completed by cows so that all seven hold. (You may look the cows up; the point is to see the bookkeeping.)
-2. **Composition.** From $$(3,2)$$ for $$d=2$$, compute the next two positive solutions by hand and verify the Pell relation.
-3. **Norm $$-1$$.** Show that $$1^2-2\cdot 1^2=-1$$, and that composing $$(1,1)$$ with itself recovers $$(3,2)$$.
-4. **Why not every $$d$$.** Explain in two sentences why $$x^2-3y^2=-1$$ cannot have an integer solution. (Hint: modulo 3, or norms.)
-5. **Size literacy.** Fermat’s $$d=61$$ solution has 10-digit $$x$$. Why does this *not* contradict Lagrange’s existence theorem?
-6. **Popular-math audit (LO6).** List two factual errors or overclaims on the source page or its poster (naming, $$d=226$$, CSIDH, Lean). Rewrite one sentence so a seminar peer could trust it.
-7. **Companion.** In at most eight sentences, connect this lecture to the continued-fraction remark at the end of the [$$\sqrt{2}$$ proof]({{ site.baseurl }}/contents/en/chapter05/05_06_Irrationality_Sqrt2/).
-
----
-
 ## References
 
 - Source page: [Bài toán đàn bò của Archimedes và phương trình Pell](https://toankho.com/2026/08/07/bai-toan-dan-bo-cua-archimedes-va-phuong-trinh-pell/) (Toán Khó, accessed 2026-08-13). Figures are AI-generated; treat numbers in the art as untrusted.

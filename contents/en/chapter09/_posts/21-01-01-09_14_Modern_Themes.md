@@ -176,20 +176,6 @@ This survey ends the numbered Turing-arc lessons; your map should now be usable 
 
 ---
 
-## Exercises
-
-1. Write the pure DP inequality and explain “neighboring datasets” in one sentence.  
-2. Give one theorem-shaped question and one benchmark-shaped question about deep learning.  
-3. Rate vs distance for codes: why is there a tradeoff at slogan level?  
-4. Name a problem in BQP of cryptographic interest and one misconception about BQP.  
-5. What does a model checker need as input besides the system model?  
-6. Using amturing.acm.org, pick any laureate not essayed in this chapter; fill the five-point reading method.  
-7. **≤250 words:** Draw a personal map from this survey to three earlier course chapters with mechanism sentences (LO4 practice).  
-8. **LO6:** Find a product claim about “private,” “quantum-secure,” or “verified” and rewrite it with missing definitions inserted.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as proof substitutes. Full ranking and notes: `research/video-research/modern-themes/`.

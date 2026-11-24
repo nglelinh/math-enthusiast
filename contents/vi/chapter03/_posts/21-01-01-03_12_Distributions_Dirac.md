@@ -148,16 +148,6 @@ Trong lý thuyết trường lượng tử, các trường lượng tử tự b�
 
 ---
 
-## Bài tập
-
-1. **Định nghĩa.** Viết không quá 80 từ định nghĩa $$\delta_0$$ như một phiếm hàm, không phải như một đồ thị.  
-2. **Hàm Heaviside.** Dùng định nghĩa đạo hàm theo nghĩa phân bố, chứng minh $$H'=\delta$$ trên $$\mathbb{R}$$.  
-3. **Fourier.** Vì sao câu "biến đổi Fourier của $$\delta$$ bằng 1" có nghĩa trong $$\mathcal{S}'$$?  
-4. **Sửa câu sai.** Viết lại câu: "Dirac bịa ra một hàm không hợp lệ mà vật lý vẫn dùng, nên vật lý mâu thuẫn."  
-5. **Cầu nối.** Viết một đoạn nối lý thuyết phân bố với nghiệm yếu của PDE, hoặc với ký hiệu vị trí trong cơ học lượng tử.
-
----
-
 ## Tài liệu tham khảo
 
 1. Strichartz — *A Guide to Distribution Theory and Fourier Transforms*.  

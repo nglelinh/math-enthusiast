@@ -187,19 +187,6 @@ The same Tao, in a later [Big Think conversation](https://www.youtube.com/watch?
 
 ---
 
-## Exercises
-
-1. In the incompressible NS system, identify the nonlinear term and the viscous term. Which one is linear?
-2. What does $$\nabla\cdot u = 0$$ mean physically for a fluid parcel?
-3. Contrast a Leray weak solution with a classical smooth solution in two sentences each.
-4. Why is the 2D theory easier at slogan level (vortex stretching)?
-5. **LO1 synthesis (≤300 words):** state the Millennium NS problem, why it is hard, and one partial result family (Leray; BKM; CKN; small data—pick one and explain).
-6. **LO6 table practice.** Fill in your own one-line distinction for: (a) DNS simulation, (b) Leray weak solution, (c) smooth classical solution on $$[0,\infty)$$.
-7. After reading Deng: write three sentences distinguishing *derivation* of NS from *regularity* of NS.
-8. Stretch: read Fefferman’s Clay official problem description and list the function-space setting he uses for initial data (names of spaces or decay conditions, as stated there).
-
----
-
 ## Video sources (math-video-researcher pack)
 
 Full ranking and notes: `research/video-research/Navier_Stokes/`.

@@ -151,17 +151,6 @@ GR vừa là một **ứng dụng của hình học làm thay đổi tận gốc
 
 ---
 
-## Bài tập
-
-1. **So sánh.** Viết không quá 100 từ so sánh lực hấp dẫn của Newton với chuyển động rơi tự do theo hình học của Einstein.  
-2. **Ý nghĩa của metric.** $$ds^2$$ cho ta biết điều gì mà việc xét riêng "ba khoảng cách và một thời gian" không cho?  
-3. **Phương trình Einstein.** Trong $$G_{\mu\nu}=8\pi T_{\mu\nu}$$ (bỏ qua hằng số), mỗi ký hiệu thuộc về hình học hay vật chất?  
-4. **Cơ chế.** Giải thích việc hiệu chỉnh thời gian trong GPS như một hiệu ứng của GR, không quá 80 từ.  
-5. **Cầu nối.** Viết một đoạn: "độ cong của liên thông" trong lý thuyết gauge giống và khác "độ cong của metric" trong GR như thế nào?  
-6. **Sửa câu sai.** Sửa câu: "Thuyết tương đối nói rằng không có sự thật, chỉ có quan điểm."
-
----
-
 ## Tài liệu tham khảo
 
 1. Hartle — *Gravity*.  

@@ -160,18 +160,6 @@ Chọn một tít báo kiểu “AI giải bài toán NP-khó”. Phân tích: (
 
 ---
 
-## Bài tập
-
-1. Chỉ ra chứng cứ cho “đồ thị có chu trình Hamilton” và cách kiểm tra nó trong thời gian đa thức.
-2. Vì sao một thuật toán thời gian đa thức cho SAT kéo theo mọi bài toán trong NP thuộc P.
-3. Sắp xếp có thuộc P không? Cờ vua $$n\times n$$ có cùng câu hỏi P vs NP không? (cẩn thận)
-4. Viết một câu dùng NP đúng, và một câu sai phổ biến cùng cách sửa.
-5. Vì sao Shor không đặt SAT vào BQP?
-6. Độ khó trung bình là gì; vì sao hàm một chiều cần nhiều hơn quan niệm “NP-đầy đủ trong trường hợp xấu nhất”?
-7. Chọn một bài toán NP-đầy đủ; viết phiên bản quyết định một cách hình thức.
-
----
-
 ## Tóm tắt từ phần nghiên cứu video
 
 Phần này dùng cho buổi seminar; hãy đối chiếu với nguồn gốc và không coi là bản chép lời.

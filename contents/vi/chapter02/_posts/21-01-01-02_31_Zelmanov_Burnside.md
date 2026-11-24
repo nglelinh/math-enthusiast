@@ -156,19 +156,6 @@ Giữa một lĩnh vực vốn lừng danh vì những phản ví dụ vô hạn
 
 ---
 
-## Bài tập
-
-1. Viết ba câu, mỗi câu cho một bài toán Burnside (tổng quát, bị chặn, hạn chế), rõ đến mức bạn cùng lớp không thể nhầm lẫn.
-2. Vì sao tính vô hạn của $$B(d,n)$$ **không** mâu thuẫn với tính hữu hạn của nhóm Burnside hạn chế $$B_0(d,n)$$?
-3. Golod–Shafarevich xây dựng được gì, và nó trả lời câu hỏi Burnside nào?
-4. Kostrikin và Zelmanov: viết cho mỗi người một câu, có dùng các cụm "số mũ nguyên tố" và "mọi số mũ".
-5. Nói ngắn gọn: một đồng nhất thức trong đại số Lie mã hóa điều kiện $$x^n=1$$ như thế nào? (Không cần công thức chính xác; chỉ cần ý "đại số phân bậc liên kết + đồng nhất thức Engel / sandwich".)
-6. Đọc lướt bài giảng ICM 1994 của Feit hoặc trang Wikipedia về bài toán Burnside, và liệt kê **ba** tên người, ngoài Zelmanov, phải có mặt trong mọi bài lịch sử trung thực.
-7. **Luyện phát biểu chính xác.** Viết lại câu "Zelmanov chỉ ra các nhóm Burnside là hữu hạn" thành hai câu đúng, phù hợp với khóa học.
-8. **Thảo luận.** So sánh hai kiểu kết quả: kiểu "phản ví dụ" (các nhóm vô hạn kỳ quặc) và kiểu "hữu hạn" (bài toán Burnside hạn chế). Vì sao cùng một họ câu hỏi lại sinh ra cả hai?
-
----
-
 ## Liên kết
 
 - IMU Fields Medals 1994: [https://www.mathunion.org/imu-awards/fields-medal/fields-medals-1994](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-1994)

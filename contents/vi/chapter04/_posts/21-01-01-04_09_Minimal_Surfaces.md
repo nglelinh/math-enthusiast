@@ -155,19 +155,6 @@ Cùng một điều kiện $$H=0$$ sinh ra những hình dạng đa dạng đế
 - **Độ cong trung bình bằng 0** là định nghĩa giải tích thường dùng.
 - Catenoid và helicoid là những ví dụ mặt tối thiểu đầy đủ đầu tiên.
 
-## Bài tập
-
-1. Giải thích bài toán Plateau bằng hai câu cho người không học toán, dùng ví dụ màng xà phòng.
-2. Nếu hai độ cong chính là $$+1$$ và $$-1$$, $$H$$ bằng bao nhiêu? Điều đó phù hợp với hình dạng uốn của mặt như thế nào?
-3. Vì sao mặt phẳng là mặt tối thiểu? Vì sao mặt cầu tròn *không* phải là mặt tối thiểu?
-4. Mô tả định tính catenoid và helicoid; nêu một tính chất chung (cả hai đều tối thiểu).
-5. Viết không quá 200 từ: so sánh điểm tới hạn địa phương của diện tích với cực tiểu diện tích toàn cục.
-6. (Mở rộng) Viết phiếm hàm diện tích của đồ thị $$u$$ trên miền $$\Omega$$ và suy ra một cách hình thức phương trình dạng div ở trên.
-7. (Mở rộng) Viết một câu về mặt Costa–Hoffman–Meeks và vì sao nó gây bất ngờ.
-8. Liên hệ tư duy biến phân với [tối ưu hóa]({{ site.baseurl }}/contents/vi/chapter03/03_07_Optimization_Operations_AI/) trong ba câu.
-
----
-
 ## Nguồn video (gói math-video-researcher)
 
 Dùng video để **định hướng và trực giác**, không thay chứng minh hay tài liệu chuẩn. Chi tiết xếp hạng: `research/video-research/minimal-surfaces/`.

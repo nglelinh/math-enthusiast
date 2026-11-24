@@ -123,16 +123,6 @@ Trong lý thuyết trường lượng tử, tích phân đường hình thức t
 
 ---
 
-## Bài tập
-
-1. **Ý chính.** Giải thích tích phân đường trong không quá 60 chữ cho một người bạn chỉ biết phương trình Schrödinger.  
-2. **Pha dừng.** Vì sao đường cổ điển chiếm ưu thế khi $$\hbar\to 0$$?  
-3. **Euclid và thời gian thực.** Viết một đoạn giải thích vì sao phép quay Wick giúp ích cho giải tích.  
-4. **Nói chính xác.** Phản biện câu: "Nhà toán học không chấp nhận tích phân đường vì họ ghét vật lý."  
-5. **Cầu nối.** Viết một đoạn cẩn thận nối điểm yên ngựa của tích phân đường với tô pô của instanton.
-
----
-
 ## Tài liệu tham khảo
 
 1. Feynman & Hibbs, *Quantum Mechanics and Path Integrals* (Cơ học lượng tử và tích phân đường).  

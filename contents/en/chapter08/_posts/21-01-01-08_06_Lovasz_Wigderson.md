@@ -128,18 +128,6 @@ The Abel committee’s wording—“central fields of modern mathematics”—is
 
 ---
 
-## Exercises
-
-1. State the Lovász local lemma in one sentence for a non-specialist.  
-2. Give an example where randomness helps an existence proof or algorithm (even a toy example).  
-3. What is derandomization trying to achieve? ≤100 words.  
-4. **≤250 words:** Argue that TCS is pure mathematics using Abel 2021’s citation language.  
-5. Link to [graphs & networks]({{ site.baseurl }}/contents/en/chapter03/03_06_Graph_Theory_Networks/) and write one sentence connecting expanders to network reliability intuition.  
-6. After the P vs NP lesson: list three positive TCS theorems that do not require P ≠ NP.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as proof substitutes. Full ranking and notes: `research/video-research/lovasz-wigderson/`.

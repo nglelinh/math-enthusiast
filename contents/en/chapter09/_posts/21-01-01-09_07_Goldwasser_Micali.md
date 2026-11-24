@@ -102,7 +102,6 @@ ZK protocols underwrite identification schemes, modern proof systems in blockcha
 2 min 06 sec video: the zero-knowledge paradox, Peggy’s 5-vertex 7-edge witness, two independent commit–challenge–open rounds, cheating-prover soundness amplification (>95% after 20 rounds), and the Simulator argument.
 
 
-
 <div class="interactive-demo" markdown="1">
 <div data-demo="zkp-explainer" data-preset="honest" data-lang="en"></div>
 </div>
@@ -154,20 +153,6 @@ A mathematically perfect IND-CPA scheme can still be misused if the product need
 | “Turing 2012 replaced RSA.” | It foundationally *explained and strengthened* what security means; primitives remain complementary. |
 
 ---
-
-## Exercises
-
-1. Give a one-paragraph argument that deterministic public-key encryption leaks equality of messages.  
-2. State semantic security in your own words without symbols, then with the IND-CPA game sketch.  
-3. List completeness, soundness, and zero-knowledge in one sentence each.  
-4. **≤200 words:** How do interactive proofs differ from NP certificates?  
-5. Connect one idea here to Diffie–Hellman or RSA from [09_06]({{ site.baseurl }}/contents/en/chapter09/09_06_Public_Key_Crypto/) (e.g. why DH still needs authentication; why RSA needs padding/randomness).  
-6. **LO6:** Critique the phrase “zero-knowledge blockchain = total privacy” in five careful sentences.  
-7. Read the ACM citation abstract for Goldwasser–Micali at [amturing.acm.org](https://amturing.acm.org/) and underline every definitional noun (security, proof, encryption, …).  
-8. Write a bridge paragraph from this lecture to [Wigderson/randomness]({{ site.baseurl }}/contents/en/chapter08/08_06_Lovasz_Wigderson/) or [complexity]({{ site.baseurl }}/contents/en/chapter06/06_07_Complexity_Theory/).
-
----
-
 
 ## Video sources (math-video-researcher pack)
 

@@ -107,19 +107,6 @@ For this course, Duminil-Copin is a portrait of **inherited language, new dimens
 
 ---
 
-## Exercises
-
-1. In your own words: what is a **phase transition** for percolation, and what extra information does **sharpness** add beyond the existence of $$p_c$$?
-2. Why is dimension 2 “exactly solvable” in a way that dimension 3 is not, at slogan level? (Onsager vs no closed-form 3D Ising.)
-3. State the 4D triviality result in one sentence, and name **both** authors.
-4. Continuity vs discontinuity: draw a cartoon of $$M(\beta)$$ with a jump and without a jump. Which cartoon is 2D FK for $$q>4$$?
-5. **Accuracy practice.** A headline: “Mathematician proves 3D magnets are conformal.” Rewrite in two sentences for this course.
-6. Compare [Smirnov]({{ site.baseurl }}/contents/en/chapter02/02_28_Smirnov_Percolation/) and Duminil-Copin in a four-line table: dimension, model, what was proved, what remains.
-7. Why would **rotational invariance** be a necessary step toward conformal invariance, yet not a sufficient one? One paragraph.
-8. **Seminar stretch.** The IMU mentions “non-integrable cases in dimension 2.” What does “integrable” mean as a warning (exact formulas exist only for special $$q$$ or special lattices), and why is a proof that avoids those formulas more valuable?
-
----
-
 ## Video and reading links
 
 No course video-research pack is attached to this lesson.

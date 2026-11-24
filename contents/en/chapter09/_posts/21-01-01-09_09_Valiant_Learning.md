@@ -135,20 +135,6 @@ Valiant’s later popular writing on “ecorhythms” and biologically flavored 
 
 ---
 
-## Exercises
-
-1. State PAC learning in one carefully quantified sentence.  
-2. Write formulas for true error and empirical error for 0–1 loss.  
-3. Why does $$\log(1/\delta)$$ appear in sample bounds (union bound / concentration intuition)?  
-4. Give one reason a computationally efficient PAC algorithm might not exist even if samples suffice statistically.  
-5. What does #SAT ask for, and how does it differ from SAT?  
-6. **≤200 words:** Connect Valiant’s PAC to one section of [ML theory]({{ site.baseurl }}/contents/en/chapter06/06_10_ML_Theory/).  
-7. **LO6:** Rewrite a vague headline “AI has solved learning theory” into a precise claim or a clear non-claim.  
-8. Optional: look up one holographic algorithm slogan and write two sentences on why unexpected tractability matters culturally in TCS.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as proof substitutes. Full ranking and notes: `research/video-research/valiant-learning/`.

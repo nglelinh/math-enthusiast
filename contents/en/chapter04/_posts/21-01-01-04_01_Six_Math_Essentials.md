@@ -135,18 +135,6 @@ On **AI**, Tao lists successive modes of science—theory, experiment, simulatio
 
 ---
 
-## Exercises
-
-1. For each of the six pillars, write one sentence that a classmate who has not watched the video could use.
-2. Sketch the extension $$\mathbb{N}\subset\mathbb{Z}\subset\mathbb{Q}\subset\mathbb{R}\subset\mathbb{C}$$ and mark where $$\sqrt{2}$$ and $$i$$ enter. Then read the [$$\sqrt{2}$$]({{ site.baseurl }}/contents/en/chapter05/05_06_Irrationality_Sqrt2/) proof essay and add one sentence on *why* the Greeks’ shock was a number-system event, not only a decimal event.
-3. Explain, without formulas, the difference between “the monkey almost surely types this sentence” and “we should wait for it this afternoon.”
-4. In ≤250 words, retell either the parallel-postulate story or the packing-to-coding story as a curiosity-to-application pipeline. Label what is theorem, what is history, and what is analogy.
-5. Pick one course essay from the table in Section 8 and write a four-line “pillar tag”: which pillar(s) it uses, and which it only borrows.
-6. (Stretch) After [Mathematics of AI]({{ site.baseurl }}/contents/en/chapter06/06_02_Mathematics_of_AI/), contrast helicopter efficiency with hike insight in one paragraph. What scientific good is at risk if only the waterfall photo counts?
-7. (Stretch) Watch the Big Think video and add one timestamped note (topic + minutes) that this lecture *does not* cover; bring it to seminar as a question, not as a new official pillar.
-
----
-
 ## Video sources
 
 Use the conversation for **orientation and stories**, not as a substitute for theorems proved elsewhere in the course.

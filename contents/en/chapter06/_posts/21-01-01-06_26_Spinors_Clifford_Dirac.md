@@ -87,19 +87,6 @@ In noncommutative geometry, $$D$$ is elevated to a primary geometric datum in sp
 
 ---
 
-## Exercises
-
-1. **Double cover.** Why is a $$360^\circ$$ rotation not always identity on spinors?  
-2. **Clifford.** What anticommutator relation do $$\gamma^\mu$$ satisfy?  
-3. **Gauge.** How does minimal coupling appear in the Dirac operator?  
-4. **Bridge.** One paragraph: Dirac operator as link from particle spin to Atiyah–Singer.  
-5. **LO6.** Rewrite: “Spin is proof that quantum mechanics is contradictory.”
-
----
-
-
-
-<!-- THELANMATH_BATCH_EXTRACTS -->
 ## Thelanmath playlist extracts (advanced math)
 
 

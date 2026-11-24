@@ -133,19 +133,6 @@ Beautiful mathematics here is the disciplined shock: each object is a theorem-sh
 - Möbius demos ([Tokieda](https://www.youtube.com/watch?v=wKV0GYvR2X8)) train non-orientability better than definitions alone.
 - Space-filling curves: continuous + surjective can still be nowhere injective-friendly; dimension theory is subtle.
 
-## Exercises
-
-1. Explain how to build a Möbius band from paper and what happens when you draw a longitudinal line until you return.
-2. Why does a continuous surjection $$[0,1]\to[0,1]^2$$ not give a homeomorphism? Give one topological reason (e.g. removing a point).
-3. In ≤200 words, contrast intrinsic topology of $$S^2$$ with wild embedding phenomena.
-4. State Banach–Tarski carefully and list two hypotheses/ingredients (choice; rotations in 3D).
-5. Distinguish constructive fractal strangeness from choice-based paradoxes with one example each.
-6. (Stretch) Look up Lakes of Wada and explain the shared-boundary phenomenon in one paragraph.
-7. (Stretch) How do exotic spheres (Milnor) change the slogan “homeomorphic implies same smooth shape”?
-8. Connect this lecture to [Paradoxes]({{ site.baseurl }}/contents/en/chapter04/04_07_Paradoxes/) and [Fractals]({{ site.baseurl }}/contents/en/chapter04/04_03_Fractals/) in three sentences.
-
----
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and geometric/algorithmic intuition**, not as substitutes for proofs or standards documents. Full ranking and Mode B notes: `research/video-research/strange-geometry/`.

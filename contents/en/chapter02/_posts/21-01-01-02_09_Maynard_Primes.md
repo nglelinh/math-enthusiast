@@ -190,20 +190,6 @@ Bounded gaps reopened a classical door: questions that felt eternally asymptotic
 
 ---
 
-## Exercises
-
-1. Write the liminf statement for consecutive prime gaps and explain each symbol.
-2. Why is “$$\liminf g_n\le 246$$” weaker than the twin prime conjecture? Two sentences.
-3. What does a sieve “detect,” intuitively, when applied to several linear forms $$n+h_i$$?
-4. In one table row each, contrast Green–Tao APs with Maynard-style gaps (pattern vs method).
-5. Explain admissibility of a tuple $$(h_1,\ldots,h_k)$$ with a small example that fails (e.g. $$(0,1)$$) and one that works (e.g. $$(0,2)$$).
-6. **LO6 (≤250 words):** Find a popular article on Zhang or Maynard. Flag any sentence that equates bounded gaps with twin primes; rewrite it correctly.
-7. Stretch: if consecutive gaps are $$\le 246$$ infinitely often, must some *even* number $$\le 246$$ occur as a difference of primes infinitely often? Why is that still weaker than twins?
-8. Seminar synthesis: connect this lecture to [Twin Primes Ch.01]({{ site.baseurl }}/contents/en/chapter01/01_06_Twin_Prime_Conjecture/) and [Green–Tao]({{ site.baseurl }}/contents/en/chapter02/02_04_Green_Tao/) in a ≤300-word map of prime patterns (APs, bounded gaps, twins).
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos and primary sources for **orientation and research culture**. Full ranking and Mode B notes: `research/video-research/Maynard_Primes/`.

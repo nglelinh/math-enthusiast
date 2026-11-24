@@ -77,16 +77,6 @@ Haag–Kastler nets assign to spacetime regions algebras of local observables, w
 
 ---
 
-## Exercises
-
-1. **Algebra.** Why is the set of Hermitian matrices *not* closed under product $$AB$$, and what closure do physicists still use?  
-2. **C* slogan.** What does $$\|a^*a\|=\|a\|^2$$ buy you intuitively?  
-3. **GNS.** In one sentence: state → representation.  
-4. **LO6.** Rewrite: “Operator algebras are philosophy, not math used in physics.”  
-5. **Bridge.** How does “local algebra of observables” differ from “one global Hilbert space of the universe”?
-
----
-
 ## References and further reading
 
 1. Bratteli & Robinson — *Operator Algebras and Quantum Statistical Mechanics*.  

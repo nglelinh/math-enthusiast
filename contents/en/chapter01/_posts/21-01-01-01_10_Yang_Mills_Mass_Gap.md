@@ -119,17 +119,6 @@ Tools invented nearby include lattice gauge theory, constructive field theory, r
 
 ---
 
-## Exercises
-
-1. **Statement practice (≤120 words).** Write the Clay YM problem for a classmate who knows Maxwell but not QFT.  
-2. **Abelian vs non-abelian.** Why does $$A\wedge A$$ vanish for $$U(1)$$ but not for $$SU(2)$$?  
-3. **Mass gap slogan.** In ≤60 words, relate exponential decay of correlations to a spectral gap.  
-4. **LO6.** Find a popular sentence about “unsolved Yang–Mills” and rewrite it so it does not attack experimental particle physics.  
-5. **Compare open problems.** One paragraph: how is YM mass gap similar to and different from Navier–Stokes regularity as a Millennium problem?  
-6. **Bridge.** List three mathematical objects that appear both in classical gauge geometry and in the quantum problem (even if at different levels of rigor).
-
----
-
 ## References and further reading
 
 1. Clay Mathematics Institute — official Yang–Mills and mass gap description (Jaffe–Witten overview).  

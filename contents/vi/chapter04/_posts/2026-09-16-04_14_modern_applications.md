@@ -66,13 +66,6 @@ Một hình lát gạch hat làm hình nền máy tính không phải là bảng
 
 Bài này không nhắc lại số học, đại số, hình học, xác suất, giải tích và động lực học. Nếu cần phần nền tảng đó, hãy quay lại [Sáu Điều Cốt Yếu]({{ site.baseurl }}/contents/vi/chapter04/04_01_Six_Math_Essentials/). Fractal, hình bất khả và mặt tối thiểu được dành cho các bài riêng.
 
-## Bài tập
-
-1. Vì sao mã hóa SAT giúp ích *trước khi* biết hat lát được mặt phẳng, và vì sao nó vẫn không thay thế được chứng minh tính không tuần hoàn?
-2. Trong bộ lấy mẫu EDM, đối tượng nào gần nhất với trường vectơ trong bài hỗn độn?
-3. Chọn một nhiệm vụ được chấm bằng độ chính xác khớp tuyệt đối (exact-match accuracy). Theo Schaeffer và cộng sự, hãy đề xuất một thước đo mượt hơn và mô tả "hiện tượng nảy sinh" sẽ trông thế nào với thước đo đó.
-4. Viết một câu phù hợp với bài này và một câu chỉ phù hợp với bài tổng quan về Tao.
-
 ## Tài liệu tham khảo
 
 - Smith, D., Myers, J. S., Kaplan, C. S., & Goodman-Strauss, C. (2024). An aperiodic monotile. *Combinatorial Theory*, 4(1). [arXiv:2303.10798](https://arxiv.org/abs/2303.10798).

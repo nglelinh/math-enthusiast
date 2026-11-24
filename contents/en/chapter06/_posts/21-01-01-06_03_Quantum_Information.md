@@ -162,21 +162,6 @@ Deutsch’s (and Deutsch–Jozsa) problem is a teaching classic: determine wheth
 
 ---
 
-## Exercises
-
-1. **Normalize.** Find $$\alpha,\beta$$ (up to phase) for a qubit with $$P(0)=1/3$$ in the computational basis; write one valid state vector.
-2. **Product vs entangled.** Show that $$\lvert\Phi^+\rangle$$ cannot be written as $$\lvert\psi\rangle\otimes\lvert\phi\rangle$$.
-3. **Unitary check.** Verify that the Hadamard matrix $$H=\frac{1}{\sqrt{2}}\begin{pmatrix}1&1\\1&-1\end{pmatrix}$$ is unitary.
-4. **Shor literacy.** In two sentences: what problem does Shor solve asymptotically, and what cryptographic schemes are threatened *if* large fault-tolerant devices exist?
-5. **Grover literacy.** If $$N=10^6$$, compare naive classical query count to Grover’s $$O(\sqrt{N})$$ order of magnitude (constants ignored).
-6. **QKD vs PQC.** One paragraph distinguishing quantum key distribution from post-quantum public-key algorithms.
-7. **Critique.** Find a popular article claiming quantum advantage; label each major claim as theorem / experiment / roadmap / hype.
-
----
-
-
----
-
 ## Knowledge extracted from video research
 
 Seminar-facing distillation (cross-checked against written sources; **no fabricated transcripts**). Pack: `research/video-research/quantum-information/analysis.md`.

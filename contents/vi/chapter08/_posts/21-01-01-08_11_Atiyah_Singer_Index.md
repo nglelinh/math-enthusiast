@@ -243,20 +243,6 @@ Việc so sánh trong seminar luôn đáng làm: **lý thuyết chỉ số tính
 
 ---
 
-## Bài tập
-
-1. Viết chỉ số giải tích của $$D$$ bằng một dòng công thức và một câu tiếng Việt.  
-2. Vì sao tính compact của $$M$$ quan trọng cho khẩu hiệu hạt nhân và đối hạt nhân hữu hạn chiều? (không quá 100 từ)  
-3. Kể hai định lý cổ điển xuất hiện lại như trường hợp đặc biệt của lý thuyết chỉ số, và nêu (gần đúng) toán tử liên quan.  
-4. **Không quá 200 từ:** vì sao “cầu nối tôpô, hình học, giải tích và vật lý” là một tuyên bố tầm cỡ Abel chứ không phải lời hoa mỹ ở hội thảo?  
-5. Phân biệt rõ: tính $$\mathrm{ind}(D)$$ với việc chỉ ra một cơ sở của $$\ker D$$.  
-6. Tính $$V-E+F$$ cho tứ diện (hoặc khối lập phương) và giải thích vì sao kết quả khớp với $$\chi(S^2)=2$$. Viết một câu nối với khẩu hiệu Hairy Ball và Poincaré–Hopf.  
-7. **Không quá 150 từ:** vì sao torus có thể “chải mượt” mà không có điểm không, còn mặt cầu thì không? Dùng ngôn ngữ đặc trưng Euler.  
-8. Lướt tài liệu Abel 2004 tại [abelprize.no](https://abelprize.no/abel-prize-laureates/2004) và liệt kê ba từ khóa mới (K-lý thuyết, hạt nhân nhiệt, Â-genus, symbol, …).  
-9. **Tùy chọn:** đọc một bài phổ biến về định lý chỉ số và viết năm câu nối nó với đẳng thức khẩu hiệu của bài này, và nếu muốn, với câu chuyện quả cầu lông ở mục 2b.
-
----
-
 ## Nguồn video
 
 Hãy dùng video để **định hướng và làm quen với văn hóa nghiên cứu**, đừng dùng thay cho việc học chứng minh.

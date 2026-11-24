@@ -147,21 +147,6 @@ A fair popular account therefore sounds like this: *Fermat’s equation, if solv
 
 ---
 
-## Exercises
-
-1. Show that a counterexample for exponent $$6$$ would yield a counterexample for exponent $$3$$ (hint: rewrite powers). Why does this help reduce FLT?  
-2. Explain in three sentences why $$n=2$$ is fundamentally different.  
-3. Write the logical chain Frey → Ribet → Wiles as a five-line outline suitable for a slide.  
-4. What does it mean, at slogan level, that an elliptic curve is modular?  
-5. **Credit literacy.** Write a popular-audience paragraph that names Wiles and Taylor without erasing Frey and Ribet.  
-6. **Narrative (≤400 words).** Explain the bridge idea to a classmate who has never heard of modular forms (use analogies carefully).  
-7. Optional: read the introduction to a survey on modularity lifting and list three nouns you need defined next.
-
----
-
-
----
-
 ## Knowledge extracted from video research
 
 Seminar-facing distillation (cross-checked against written sources; **no fabricated transcripts**). Pack: `research/video-research/fermat-last-theorem/analysis.md`.

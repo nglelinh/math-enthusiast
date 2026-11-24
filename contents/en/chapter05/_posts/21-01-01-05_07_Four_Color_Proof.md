@@ -137,21 +137,6 @@ Historically, resistance to computer proof often mixed two concerns that should 
 
 ---
 
-## Exercises
-
-1. Explain dualization: why map coloring becomes vertex coloring of a planar graph.  
-2. Show that $$K_4$$ is planar and needs 4 colors; explain why that does not yet prove sharpness for the whole theorem (need some planar graph with chromatic number 4—$$K_4$$ works).  
-3. Why does a minimal counterexample help? Write five sentences.  
-4. In your own words, define unavoidable set and reducible configuration.  
-5. Look up (externally) the number of configurations in Appel–Haken vs Robertson et al.; record the numbers and one sentence on why reduction of the list matters.  
-6. **Philosophy (≤250 words).** When is a computer-assisted proof acceptable to you? Name one criterion.  
-7. **Narrative (≤350 words).** Explain the four-color proof idea to a classmate without listing all configurations.
-
----
-
-
----
-
 ## Knowledge extracted from video research
 
 Seminar-facing distillation (cross-checked against written sources; **no fabricated transcripts**). Pack: `research/video-research/four-color-proof/analysis.md`.

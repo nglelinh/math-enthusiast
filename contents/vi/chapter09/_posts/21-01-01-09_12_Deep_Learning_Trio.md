@@ -202,25 +202,11 @@ Hiểu giới hạn của một kết quả quan trọng hơn việc thuộc tê
 
 ---
 
-## Bài tập
-
-1. Viết lượt tính xuôi cho mạng hai lớp kết nối đầy đủ với ReLU, đầu vào $$x\in\mathbb{R}^d$$.  
-2. Giải thích ngắn gọn vì sao giữa các lớp tuyến tính bắt buộc phải có phi tuyến.  
-3. So sánh lớp kết nối đầy đủ trên ảnh $$28\times 28$$ với lớp tích chập 3×3: số tham số khác nhau cỡ bao nhiêu (chỉ cần bậc độ lớn)?  
-4. Dropout làm gì lúc huấn luyện và lúc kiểm tra (tóm tắt ngắn)?  
-5. **Tối đa 250 từ:** giải Turing 2018 ghi nhận “khái niệm và kỹ thuật” (conceptual and engineering). Với mỗi từ, hãy nêu một ví dụ lấy từ bài.  
-6. Liên hệ với [lý thuyết học máy]({{ site.baseurl }}/contents/vi/chapter06/06_10_ML_Theory/): vì sao hàm mất mát trên tập huấn luyện bằng 0 vẫn không bảo đảm rủi ro thấp.  
-7. Chọn một bản tóm tắt trên arXiv (2024–26) về “lý thuyết cho mô hình nền tảng”, rồi gắn nhãn từng phát biểu là định lý, định luật mở rộng quy mô hay suy đoán.
-
----
-
-
 ## Video và tài liệu
 
 Các video gợi ý nằm ở phần *Video tham khảo* cuối bài. Hãy dùng video để làm quen với bối cảnh, không dùng thay cho chứng minh.
 
 ## Tài liệu tham khảo trực tuyến
-
 
 
 1. Trang giải Turing của Hinton — https://amturing.acm.org/award_winners/hinton_4791679.cfm  

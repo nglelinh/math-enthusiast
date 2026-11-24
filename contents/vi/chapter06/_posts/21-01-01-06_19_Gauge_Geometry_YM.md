@@ -198,18 +198,6 @@ Với holonomy không giao hoán, thừa số pha vô hướng được thay b�
 
 ---
 
-## Bài tập
-
-1. **Phép biến đổi gauge.** Chứng minh $$F=dA$$ không đổi khi $$A\mapsto A+d\lambda$$.  
-2. **Số hạng không giao hoán.** Vì sao $$A\wedge A$$ triệt tiêu khi $$A$$ là vô hướng (giao hoán) nhưng không triệt tiêu khi $$A$$ là ma trận?  
-3. **Từ điển.** Ghép cặp: liên thông, độ cong, holonomy, phân thớ liên kết ↔ $$A$$, $$F$$, vòng Wilson, trường vật chất.  
-4. **Mô hình chuẩn.** Nhóm gauge thành phần nào gắn với màu?  
-5. **Các tầng.** Trong không quá 100 chữ, phân biệt giải tích Yang–Mills cổ điển với bài toán lượng tử của Clay.  
-6. **Nói chính xác.** Viết lại câu: "Toán học vẫn chưa hiểu lý thuyết gauge nên vật lý hạt đứng trên một nền móng lung lay."  
-7. **Cầu nối.** Viết một đoạn nối bài này với định lý Atiyah–Singer hoặc với kết quả của Uhlenbeck.
-
----
-
 ## Tài liệu tham khảo
 
 1. Baez & Muniain, *Gauge Fields, Knots and Gravity* (Trường gauge, nút và hấp dẫn).  

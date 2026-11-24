@@ -134,19 +134,6 @@ For this course, Kontsevich is the portrait of mathematical physics as **theorem
 
 ---
 
-## Exercises
-
-1. Write the 1998 citation from memory as three bullets. Which subject area is each bullet?
-2. What is a $$\psi$$-class on $$\overline{\mathcal{M}}_{g,n}$$, at slogan level? Why does an intersection number need a compactification?
-3. In the ribbon-graph proof, what is being identified with what? (Geometry of metrics / Strebel vs a matrix integral.)
-4. What does **universal** mean for a Vassiliev invariant? Credit Vassiliev and Bar-Natan in your answer.
-5. Write the first two axioms of a star product ($$ \hbar=0$$ limit; commutator vs Poisson). Why is the Poisson case harder than the symplectic case?
-6. **Accuracy practice.** Take a sentence that says Kontsevich “proved mirror symmetry.” Replace it by two sentences: one about HMS 1994, one about the 1998 third bullet.
-7. Skim the first two pages of arXiv:q-alg/9709040 or arXiv:alg-geom/9411018 (choose one) and list five keywords.
-8. **Seminar stretch.** How does a “graph complex with configuration-space integrals” appear in *both* the knot invariant and the star product? One careful paragraph; do not invent a theorem that identifies them.
-
----
-
 ## Links
 
 - IMU Fields Medal page: [https://www.mathunion.org/imu-awards/fields-medal](https://www.mathunion.org/imu-awards/fields-medal)

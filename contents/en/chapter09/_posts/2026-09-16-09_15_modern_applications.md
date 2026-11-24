@@ -48,13 +48,6 @@ The modern-themes lecture already warned: deployment pressure creates definition
 
 Do not skip the survey and read only this page. Privacy, coding, and quantum did not freeze in 2021; they are omitted here because the survey already carries them, and because FIPS 203 is treated in Chapters 3 and 6.
 
-## Exercises
-
-1. Add a sixth row to the modern-themes “walk back through the course” table for *compute-optimal training*. Which chapters does it point to?
-2. Why is “kernel accepted” closer to Hoare-style verification than to a unit test, and why is it still relative to a spec?
-3. In the Causal Transformer, which Pearl object is the adversarial loss trying to imitate?
-4. A slide says “Turing Award ideas peaked in 2018 with deep learning.” Using this page, name two post-2018 math–CS objects that are not just bigger nets.
-
 ## References
 
 - Hoffmann, J., et al. (2022). Training compute-optimal large language models. *NeurIPS*. [arXiv:2203.15556](https://arxiv.org/abs/2203.15556).

@@ -104,17 +104,6 @@ RG is an **organizing principle and computational framework**, sometimes elevate
 
 ---
 
-## Exercises
-
-1. **Effective theory.** Give a non-physics example of a coarse description with few parameters (e.g. traffic flow, economics)—≤80 words.  
-2. **Relevant vs irrelevant.** At a ferromagnetic critical point, which kind of perturbation drives you off criticality (slogan)?  
-3. **Beta function.** If $$\beta(g)<0$$ for small $$g>0$$, does the coupling grow or shrink as $$\mu$$ increases?  
-4. **Universality.** Why might water and a magnet share critical exponents?  
-5. **LO6.** Rewrite: “Because of renormalization, quantum field theory is not real mathematics.”  
-6. **Bridge.** One paragraph connecting RG flow to lattice → continuum ambitions for Yang–Mills.
-
----
-
 ## References and further reading
 
 1. Wilson & Kogut — Renormalization group and the $$\epsilon$$-expansion (classic).  

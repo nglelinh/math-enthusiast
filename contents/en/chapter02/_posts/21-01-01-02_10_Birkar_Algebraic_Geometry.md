@@ -151,20 +151,6 @@ For this course, Birkar sits next to other Fields stories that complete **progra
 
 ---
 
-## Exercises
-
-1. In your own words: what does birational equivalence **forget** and **retain**? Give one geometric example (e.g. blowing up a point in a surface).
-2. Why are **flips** harder than **divisorial contractions**, at slogan level? What fails if you try to “just contract” a small locus?
-3. State a one-sentence definition of a **Fano variety**. Check it on $$\mathbb{P}^n$$: why is projective space Fano?
-4. Why would **boundedness** of a class of varieties matter for moduli theory? Answer in at most eight sentences.
-5. Distinguish carefully: “existence of flips” vs “boundedness of Fanos.” Which is about a process step, and which is about a class of varieties?
-6. Skim an ICM or survey exposition of the MMP and list **three milestones before Birkar 2018** (e.g. Mori’s 3-fold flips, BCHM, surface classification).
-7. **Accuracy practice.** Find a popular science sentence that says Birkar “classified all shapes.” Rewrite it in two precise sentences suitable for this course.
-8. **Seminar stretch.** Compare Enriques–Kodaira surface classification with the higher-dimensional MMP: what becomes a “type” in each story?
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Full ranking: `research/video-research/Birkar_Algebraic_Geometry/`.

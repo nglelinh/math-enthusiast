@@ -175,18 +175,6 @@ Lấy mẫu 200 vectơ Gauss ở các chiều $$d\in\{2,20,200\}$$. Vẽ biểu 
 
 ---
 
-## Bài tập
-
-1. Vì sao $$r^n$$ với $$r=0.9$$ rất nhỏ khi $$n$$ lớn (tỉ lệ thể tích)?
-2. Với $$X_i\sim\mathcal{N}(0,1)$$ i.i.d.: tính $$\mathbb{E}\|X\|_2^2$$. Vì sao $$\|X\|_2\approx\sqrt{n}$$?
-3. Giải thích vì sao cosin của góc có bậc $$n^{-1/2}$$.
-4. Với $$N=10^6$$, $$\varepsilon=0.1$$: ước lượng bậc của $$k$$ từ $$O(\varepsilon^{-2}\log N)$$.
-5. Nêu hai "lời nguyền" khác nhau: ước lượng bằng biểu đồ tần suất và tìm láng giềng gần nhất.
-6. Tạo dữ liệu trong $$\mathbb{R}^{1000}$$ có số chiều nội tại bằng 2; thuật toán nào "nhận ra" điều đó?
-7. Tìm phát biểu chính xác của bổ đề JL; tính ngẫu nhiên tham gia vào chứng minh như thế nào (phương pháp xác suất)?
-
----
-
 ## Kiến thức rút ra từ nghiên cứu video
 
 Tóm tắt dùng cho thảo luận (đã đối chiếu với nguồn viết; **không bịa nội dung phụ đề**). Gói: `research/video-research/high-dimensional-geometry/analysis.md`.

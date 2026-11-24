@@ -154,17 +154,6 @@ Vật lý hạt không phát minh ra lý thuyết Lie, nhưng suốt một thế
 
 ---
 
-## Bài tập
-
-1. **Định nghĩa.** Giải thích bằng lời sự khác nhau giữa nhóm, nhóm Lie và đại số Lie.  
-2. **$$SU(2)$$.** Vì sao các ma trận unita $$2\times 2$$ có định thức 1 là "ngôi nhà" tự nhiên của spin-1/2?  
-3. **Noether.** Ghép cặp: tịnh tiến thời gian, phép quay, pha toàn cục với năng lượng, mômen động lượng, điện tích.  
-4. **Toàn cục và gauge.** Mô tả mỗi loại trong một câu.  
-5. **Mô hình Chuẩn.** Thành phần nào chủ yếu ứng với "màu"? Thành phần nào ứng với "spin đồng vị yếu"?  
-6. **Cầu nối.** Một biểu diễn của $$G$$ trở thành "trường vật chất trong một phân thớ liên kết" trong bài gauge như hình học như thế nào? (Chỉ cần trả lời ở mức ý tưởng.)
-
----
-
 ## Tài liệu tham khảo
 
 1. Hall — *Lie Groups, Lie Algebras, and Representations*.  

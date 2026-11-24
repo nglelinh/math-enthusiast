@@ -189,18 +189,6 @@ Trong 20 phút: (1) mỗi nhóm viết một tuyên bố báo chí về “AI l�
 
 ---
 
-## Bài tập
-
-1. Tìm $$\alpha,\beta$$ (sai khác một pha) sao cho $$P(0)=1/3$$; viết một vector trạng thái hợp lệ.
-2. Chứng minh $$\lvert\Phi^+\rangle$$ không phải trạng thái tích.
-3. Kiểm tra rằng cổng Hadamard $$H=\frac{1}{\sqrt{2}}\begin{pmatrix}1&1\\1&-1\end{pmatrix}$$ là unitary.
-4. Viết hai câu: thuật toán Shor giải bài toán gì khi kích thước tăng; nếu có máy chịu lỗi lớn thì nó đe dọa loại mật mã nào.
-5. Với $$N=10^6$$, so sánh số truy vấn của thuật toán cổ điển và của Grover (bỏ qua hằng số).
-6. Viết một đoạn văn phân biệt QKD và PQC.
-7. Tìm một bài báo về “quantum advantage” và gắn nhãn các mệnh đề: định lý, thí nghiệm, lộ trình hay quảng cáo.
-
----
-
 ## Tóm tắt từ phần nghiên cứu video
 
 Phần này dùng cho buổi seminar; hãy đối chiếu với nguồn gốc và không coi là bản chép lời.

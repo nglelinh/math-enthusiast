@@ -160,18 +160,6 @@ Ba điểm sáng mà Varadhan nêu bật trong diễn văn ICM 1994 vẫn còn n
 
 ---
 
-## Bài tập
-
-1. Bằng lời của bạn: vì sao các đường đặc trưng của $$u_t+H(\nabla u)=0$$ có thể làm gradient bị nhảy sau một thời gian hữu hạn? Vì sao điều đó buộc ta cần một lý thuyết nghiệm yếu?
-2. Viết định nghĩa nghiệm dưới nhớt cho $$u_t+H(\nabla u)=0$$ bằng hàm thử chạm từ trên, rồi kiểm tra tính nhất quán: nếu $$u$$ thuộc $$C^1$$ thì định nghĩa trở về bất đẳng thức cổ điển.
-3. Vì sao **nguyên lý so sánh** quý hơn một cách xây dựng nghiệm chỉ mang tính hình thức? Trả lời trong tối đa sáu câu.
-4. Đọc lướt vài trang đầu bài của Crandall–Ishii–Lions (BAMS 1992 hoặc arXiv:math/9207212). Chọn ba thuật ngữ (ví dụ jet, hàm thử, elliptic suy biến) và giải thích mỗi thuật ngữ trong một dòng.
-5. Lập một bảng so sánh **nghiệm nhớt**, **nghiệm tái chuẩn hóa DiPerna–Lions** và **nguyên lý tập trung–compact**. Mỗi công cụ xử lý chỗ thất bại nào của lý thuyết cổ điển?
-6. **Luyện phát biểu chính xác.** Tìm một câu nói huy chương 1994 được trao "vì trò chơi trường trung bình". Viết lại thành hai câu chính xác.
-7. **Mở rộng.** So sánh nguyên lý so sánh cho nghiệm nhớt với nguyên lý cực đại cho hàm điều hòa: điều gì được giữ lại, và điều gì phải xây dựng lại khi $$u$$ không khả vi?
-
----
-
 ## Liên kết
 
 - Trang Huy chương Fields của IMU: [https://www.mathunion.org/imu-awards/fields-medal](https://www.mathunion.org/imu-awards/fields-medal)

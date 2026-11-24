@@ -209,19 +209,6 @@ $$
 
 ---
 
-## Bài tập
-
-1. Liệt kê năm cặp sinh đôi lớn hơn 100.  
-2. Vì sao $$(2,4)$$ không phải cặp sinh đôi? Còn $$(2,3)$$ thì sao?  
-3. Phát biểu định lý Zhang bằng lời mà **không** cần nhắc con số 70 triệu ("tồn tại một cận hữu hạn…").  
-4. **Tổng hợp (không quá 300 từ):** trình bày giả thuyết sinh đôi, vì sao khó, và toán học xung quanh (phương pháp sàng / khoảng cách bị chặn).  
-5. So sánh với [Collatz]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/): phát biểu sơ cấp nhưng đòi hỏi kỹ thuật sâu.  
-6. **Phản biện thông tin:** sửa tiêu đề sai "Nhà toán học Trung Quốc chứng minh có vô hạn cặp sinh đôi (2013)".  
-7. Đọc một bài phổ thông về kết quả của Zhang năm 2013; liệt kê ba thành phần toán học được nhắc đến (sàng, GPY, phân bố trong cấp số cộng, …).  
-8. Mở rộng: giải thích trong năm dòng vì sao giả thuyết Elliott–Halberstam giúp giảm $$H$$ nhưng không tự động cho $$H=2$$ (ở mức ý tưởng).
-
----
-
 ## Từ các video: chuỗi sự kiện 2013–2014 tóm tắt
 
 Các video của Numberphile (Zhang, Maynard), bài giảng của Maynard và bài viết của Quanta năm 2013 cho ta câu chuyện sau:

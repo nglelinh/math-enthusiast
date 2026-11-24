@@ -232,18 +232,6 @@ Trình tự xem: 3Blue1Brown [mạng nơ-ron](https://www.youtube.com/watch?v=ai
 
 ---
 
-## Bài tập
-
-1. Cho $$W=\begin{pmatrix}1&2\\0&1\end{pmatrix}$$, $$x=\begin{pmatrix}1\\1\end{pmatrix}$$: tính $$Wx$$. Phép biến đổi này có tác dụng hình học gì?  
-2. Chứng minh hợp của các ánh xạ affine vẫn là ánh xạ affine. Vì sao cần phi tuyến giữa các lớp?  
-3. Viết hai câu giải thích vì sao thành phần chính đầu tiên giữ lại được nhiều phương sai nhất.  
-4. Với $$L(\theta)=(\theta-3)^2$$ và $$\eta=0.1$$, thực hiện hai bước gradient bắt đầu từ $$0$$.  
-5. Viết một câu nối việc GPU nhân ma trận với quá trình suy luận của mạng nơ-ron.  
-6. Phép tích chập $$3\times 3$$ có phải là một ánh xạ tuyến tính thưa có cấu trúc không?  
-7. Nâng cao: chỉ ra mối liên hệ giữa các vectơ kỳ dị phải của $$X$$ và các vectơ riêng của $$X^\top X$$.
-
----
-
 ## Nguồn video (gói math-video-researcher)
 
 Dùng video để **định hướng và trực giác**, không thay chứng minh hay tài liệu chuẩn. Chi tiết xếp hạng: `research/video-research/linear-algebra-ai/`.

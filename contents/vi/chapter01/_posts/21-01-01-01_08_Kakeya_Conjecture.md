@@ -410,21 +410,6 @@ Thứ tự đọc gợi ý: bài tổng quan này → bài chính về Wang → 
 
 ---
 
-## Bài tập
-
-1. Định nghĩa tập Kakeya trong $$\mathbb{R}^n$$ bằng một câu.  
-2. Kết quả của Davies phù hợp thế nào với việc tập Besicovitch có độ đo bằng không?  
-3. Viết $$\dim_H(A)$$ dưới dạng inf/sup theo $$\mathcal{H}^s$$; giải thích bước nhảy "$$\infty\to 0$$" với hình vuông đặc.  
-4. Phát biểu chặn trên bằng số mảnh phủ và nguyên lý phân bố khối lượng (mỗi cái một câu).  
-5. Phác thảo lý do vì sao trong giải tích người ta dùng ống thay cho đoạn thẳng.  
-6. Kể ba tầng của "tháp" giải tích điều hòa phía trên Kakeya (bài toán hạn chế, Bochner–Riesz, làm trơn cục bộ).  
-7. Viết lại bảng tình trạng cho $$n=1,2,3,\ge 4$$ mà không nhìn bài.  
-8. Mở bài về Wang ở Chương 2 và trích câu tóm tắt về lập luận tự cải thiện.  
-9. Đọc hiểu: đọc phần tóm tắt của arXiv:2502.17655; diễn đạt lại ước lượng thể tích bằng lời.  
-10. Khám phá: thử đề bài "tập Kakeya nhỏ nhất" ở Chương 7 trong 30 phút; ghi lại một điều làm bạn bất ngờ.
-
----
-
 ## Video phổ thông (nguồn)
 
 Dùng để có **trực giác**; định lý chính xác xem bài về Wang ở Chương 2 và bài trên arXiv.
@@ -487,7 +472,6 @@ Các video phổ thông ở trên đã được xếp theo thứ tự nên xem. 
 **Nhắc lại tình trạng (2026):** giả thuyết *tập* Kakeya trong 3 chiều **đã được chứng minh** (Wang–Zahl 2025); với $$n\ge 4$$ và với dạng hàm cực đại mạnh hơn, phần lớn vẫn **còn mở**. Video giúp có trực giác và hiểu bối cảnh, không thay thế bài ở Chương 2 hay bài trên arXiv.
 
 ---
-
 
 
 ### Phụ đề và khung hình (trích từ video chính)

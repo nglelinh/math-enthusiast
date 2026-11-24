@@ -58,13 +58,6 @@ A FIPS number is a policy object built on a hardness conjecture. A GraphGPS abla
 
 This page does not redo JPEG, simplex, or RSA arithmetic. Deeper PQC algorithms live also in [future cryptography]({{ site.baseurl }}/contents/en/chapter06/06_06_Future_Cryptography/).
 
-## Exercises
-
-1. Explain, in two sentences, why deploying ML-KEM *alongside* TLS 1.3’s classical handshake is consistent with Chapter 3’s “mechanism, not slogan” rule.
-2. GraphGPS claims $$O(N+E)$$ with linear attention. Which graph algorithm from the networks lecture is still the right tool if you need a *certificate* of connectivity, not an embedding?
-3. Write the Fourier-multiplier layer above and mark which symbol is learned and which is the same DFT you already met.
-4. A PINN and a neural operator both “solve PDEs.” Which one approximates a *function*, and which one approximates a *map between functions*?
-
 ## References
 
 - NIST. (2024). FIPS 203, 204, 205. [Announcement](https://www.nist.gov/news-events/news/2024/08/announcing-approval-three-federal-information-processing-standards-fips); [FIPS 203](https://doi.org/10.6028/NIST.FIPS.203).

@@ -99,7 +99,6 @@ Cộng $$1/n^2$$ trên mọi số nguyên $$n \le x$$ và nhân $$1/(1-p^{-2})$$
 <div class="mex-explainer" data-mex="zeta" data-lang="vi"></div>
 
 
-
 ## 2. Hàm zeta và tích Euler
 
 Với số phức $$s=\sigma+it$$ có phần thực $$\sigma>1$$, đặt
@@ -352,17 +351,6 @@ Trong khóa học, RH là ví dụ mẫu của **một phát biểu giải tích
 
 ---
 
-## Bài tập
-
-1. **Khởi động.** Chọn ba số nguyên tố $$p$$; kiểm tra bằng số rằng $$(1-p^{-2})^{-1}$$ bằng tổng cấp số nhân $$1+p^{-2}+p^{-4}+\cdots$$.  
-2. **Định nghĩa.** Viết định nghĩa: dải tới hạn; đường tới hạn; không điểm tầm thường; không điểm không tầm thường; RH.  
-3. **PNT và RH.** PNT khẳng định điều gì, và RH bổ sung thông tin gì?  
-4. **Giả định ngược.** Có người công bố một không điểm tại $$s=0.6+1000i$$. Điều đó có làm RH sai không? Có làm PNT sai không?  
-5. **Tổng hợp (luyện cho bài A3).** Không quá 400 từ: giải thích RH cho một bạn chỉ mới học giải tích một biến, gồm tích Euler, không điểm không tầm thường, và một câu về sai số khi đếm số nguyên tố.  
-6. **Đọc tài liệu nghiên cứu.** Đọc lướt trang của Viện Clay về RH; ghi lại điều kiện nhận giải. Không bắt buộc: nêu một cuốn sách tổng quan (Titchmarsh; Edwards; Ivić; hoặc một bài phổ biến hiện đại) và đối tượng độc giả của nó.
-
----
-
 ## Từ các video và bài tổng quan: kết quả từng phần so với RH đầy đủ
 
 Các bài giảng phổ thông (Quanta/Kontorovich; Conrey; Vaaler) và các bài tổng quan (Bombieri/Clay; Conrey trên Notices) đều nhấn mạnh bảng sau mà người học cần nhớ:
@@ -426,7 +414,6 @@ Video dùng để **định hướng và làm quen với không khí nghiên c�
 **Sau khi xem:** các định lý về tỷ lệ dương và các đợt kiểm tra bằng máy tính là **kết quả từng phần**; RH đầy đủ cho $$\zeta$$ vẫn **còn mở** năm 2026.
 
 ---
-
 
 
 ### Phụ đề và khung hình (trích xuất cho bài chính)

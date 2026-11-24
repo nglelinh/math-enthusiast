@@ -313,20 +313,6 @@ Primary intuition video: [Brain Station — Gradient, Divergence and Curl](https
 
 ---
 
-## Exercises
-
-1. **Warm-up.** If $$s(t)=\frac12 gt^2$$, compute velocity and acceleration. Interpret each derivative physically.  
-2. **FTC narrative.** In three sentences, explain why “local rate” and “accumulated change” must be linked for modeling to work.  
-3. **ODE vs PDE.** Classify as ODE or PDE and name the independent variables: (a) RC circuit voltage vs time; (b) temperature in a rod vs position and time; (c) planetary position vs time.  
-4. **Mechanism sentence.** Write one sentence linking Fourier’s law to the heat equation (conservation + constitutive law).  
-5. **Vector calculus.** For $$f(x,y)=x^2+y^2$$ compute $$\nabla f$$ at $$(1,2)$$. For $$\mathbf{v}=(x,y)$$ and $$\mathbf{w}=(-y,x)$$ compute $$\nabla\cdot\mathbf{v}$$ and $$\nabla\cdot\mathbf{w}$$; interpret signs.  
-6. **FEM sketch.** Why does integrating by parts (weak form) allow piecewise-linear approximations that are not twice classically differentiable?  
-7. **Engineering audit.** Pick a device you use (phone speaker, elevator, AC). Name one quantity that is differentiated or integrated in its design model.  
-8. **Stretch.** Look up the weak form of $$-u''=f$$ on $$(0,1)$$ with $$u(0)=u(1)=0$$ and derive the bilinear form $$a(u,v)=\int_0^1 u'v'\,dx$$.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and geometric/algorithmic intuition**, not as substitutes for proofs or standards documents. Full ranking and Mode B notes: `research/video-research/calculus-physics-engineering/`.

@@ -280,29 +280,6 @@ $$
 
 ---
 
-## Thử thách và mở rộng
-
-1. **Nhóm cơ bản.** Vì sao điều kiện $$\pi_1=0$$ loại bỏ các mặt xuyến cốt yếu trong bức tranh hình học hóa (giải thích sơ lược)?  
-2. **Đổi tỉ lệ.** Nếu nhân độ dài với $$\lambda$$ thì độ cong và thời gian của dòng phải đổi tỉ lệ thế nào?  
-3. **Tô pô của phẫu thuật.** Khi cắt một cổ dạng $$S^2$$ rồi bịt lại, nhóm $$\pi_1$$ của các thành phần thay đổi ra sao?  
-4. **Tám hình học.** Chọn hai hình học không có độ cong hằng ($$\mathrm{Nil}$$, $$\mathrm{Sol}$$) và tìm một tính chất phân biệt chúng với $$H^3$$.  
-5. **Kiểm chứng.** Vì sao một bài đăng 40 trang có thể cần cả một cuốn sách ghi chú 500 trang?
-
----
-
-## Bài tập
-
-1. **Khởi động.** Giải thích khái niệm "đơn liên" bằng cách so sánh các vòng kín trên mặt cầu và trên mặt xuyến.  
-2. **Định nghĩa.** Viết định nghĩa trực quan cho: đa tạp đóng; độ cong Ricci (sơ lược); thời điểm kỳ dị của dòng Ricci.  
-3. **Logic.** Chứng minh bằng lời: hình học hóa kéo theo Poincaré, với giả thiết rằng đa tạp 3 chiều hình học đóng, đơn liên duy nhất là mặt cầu.  
-4. **So sánh với phương trình truyền nhiệt.** Nêu hai điểm giống và một điểm khó hơn (tính phi tuyến / điểm kỳ dị).  
-5. **Trục thời gian.** Đặt Hamilton (1982), Thurston, Perelman (2002–03), ICM 2006 lên một trục thời gian và chú thích.  
-6. **Đọc tài liệu nghiên cứu.** Mở arXiv:math/0211159; chỉ đọc hai trang đầu của phần mở đầu; liệt kê ba công cụ mà Perelman nói sẽ dùng.  
-7. **Ghi nhận công lao.** Viết một đoạn mô tả quan hệ giữa đóng góp của Hamilton và của Perelman mà không xem nhẹ bên nào.
-
----
-
-
 ## Nguồn video (bộ tư liệu nghiên cứu video)
 
 Chi tiết: `research/video-research/Perelman_Poincare/`. Tài liệu gốc: ba bài của Perelman trên arXiv.

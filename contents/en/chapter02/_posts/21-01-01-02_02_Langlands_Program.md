@@ -236,29 +236,6 @@ Use this template: *“Ngô proved the Fundamental Lemma for endoscopic comparis
 
 ---
 
-## Challenges and extensions
-
-1. What is “endoscopy” trying to compare, in one sentence?  
-2. Why might a singular conjugacy class create harder integrals than a regular one?  
-3. What does a fibration buy you that a single variety does not (hint: families, support theorems)?  
-4. Compare Wiles’s modularity theorem and Ngô’s lemma as two different Langlands-adjacent victories.  
-5. Why is the Lie-algebra version of the lemma often the technical core?
-
----
-
-## Exercises
-
-1. **Warm-up.** In your own words: what two worlds does Langlands try to connect?  
-2. **Roles.** Fill three boxes: spectral side / geometric side / Fundamental Lemma.  
-3. **History.** Timeline: Langlands (1960s–70s) → partial FL results → Laumon–Ngô (2004) → Ngô general → Fields 2010.  
-4. **Geometry.** Why might cohomology of fibers encode an equality of numbers (integrals)?  
-5. **Credit.** Write a two-sentence popular explanation that mentions both Laumon–Ngô and Ngô’s general theorem.  
-6. **Research literacy.** Open a survey talk abstract on the Fundamental Lemma; list three terms to look up next (e.g. transfer factor, stable conjugacy, endoscopy).  
-7. **Chapter link.** One paragraph connecting Ngô’s “geometry unlocks analysis” with Scholze’s perfectoid rewrite of $$p$$-adic geometry (different tools, shared moral).
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos and primary sources for **orientation and research culture**, not as substitutes for reading the course essay or primary papers. Full ranking and Mode B notes: `research/video-research/Langlands_Program/`.

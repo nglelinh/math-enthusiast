@@ -170,19 +170,6 @@ Trong bức tranh toàn khóa học, Figalli là hình mẫu kinh điển về *
 
 ---
 
-## Bài tập
-
-1. Trong hai câu, định lý Brenier bổ sung điều gì cho lý thuyết tồn tại của Kantorovich khi chi phí là bình phương khoảng cách?
-2. Viết phương trình Monge–Ampère (dạng hình thức) liên hệ các mật độ $$f,g$$ với hàm thế lồi $$\phi$$. Số hạng nào là phi tuyến, và vì sao điều đó ngăn ta áp dụng trực tiếp lý thuyết chính quy elliptic thông thường?
-3. Vì sao **tính lồi của miền đích** xuất hiện trong các định lý chính quy đầy đủ của Caffarelli? Trả lời ở mức ý tưởng, không cần chứng minh.
-4. Phát biểu kết quả chính quy từng phần của De Philippis–Figalli (trơn bên ngoài một tập đóng có độ đo không). So với khung cổ điển của Caffarelli, kết quả này *bỏ* được những giả thiết nào?
-5. Giải thích, trong không quá tám câu, ánh xạ tối ưu xuất hiện thế nào trong cách phát biểu mô hình bán địa chuyển. Vì sao tính chính quy $$W^{2,1}$$ của hàm thế quan trọng cho nghiệm Euler yếu?
-6. **Luyện độ chính xác.** Tìm một câu nói Figalli "tạo ra vận chuyển tối ưu". Viết lại bằng hai câu chính xác, phù hợp với khóa học này.
-7. So sánh Figalli 2018 với Villani 2010 bằng một bảng bốn hàng do bạn tự lập: lời trích dẫn, phương trình, vai trò của OT, điều không được khẳng định.
-8. **Seminar mở rộng.** Đọc lướt phần mở đầu bài của De Philippis–Figalli, *The Monge–Ampère equation and its link to optimal transportation* (Bull. AMS, 2014), và liệt kê năm thuật ngữ cần học tiếp (ví dụ nghiệm Alexandrov, điều kiện MTW, tính c-lồi, hình Wulff, tọa độ Cullen–Purser).
-
----
-
 ## Liên kết
 
 - IMU Fields Medals 2018: [https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2018](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2018)

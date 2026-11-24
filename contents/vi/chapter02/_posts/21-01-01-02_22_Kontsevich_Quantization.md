@@ -157,19 +157,6 @@ Trong bức tranh Chương 2, Kontsevich là minh chứng sống động rằng 
 
 ---
 
-## Bài tập
-
-1. Viết lại lời trao giải năm 1998 thành ba ý. Mỗi ý thuộc lĩnh vực nào?
-2. Nói ngắn gọn: lớp $$\psi$$ trên $$\overline{\mathcal{M}}_{g,n}$$ là gì? Vì sao muốn có số giao thì cần compact hóa?
-3. Trong chứng minh bằng đồ thị ruy-băng, đối tượng nào được đồng nhất với đối tượng nào? (Hình học mêtric / vi phân Strebel so với tích phân ma trận.)
-4. Với bất biến Vassiliev, **phổ dụng** nghĩa là gì? Trong câu trả lời, ghi công Vassiliev và Bar-Natan.
-5. Viết hai tiên đề đầu tiên của tích sao (giới hạn khi $$\hbar=0$$; giao hoán tử so với móc Poisson). Vì sao trường hợp Poisson khó hơn trường hợp symplectic?
-6. **Luyện phát biểu chính xác.** Lấy câu "Kontsevich chứng minh đối xứng gương". Thay bằng hai câu: một câu về HMS năm 1994, một câu về kết quả thứ ba năm 1998.
-7. Đọc lướt hai trang đầu của arXiv:q-alg/9709040 hoặc arXiv:alg-geom/9411018 (chọn một) và liệt kê năm từ khóa.
-8. **Mở rộng.** Ý tưởng "tổng trên đồ thị với tích phân trên không gian cấu hình" xuất hiện trong *cả* bất biến nút *lẫn* tích sao như thế nào? Viết một đoạn cẩn thận; đừng bịa ra một định lý đồng nhất hai thứ này.
-
----
-
 ## Liên kết
 
 - Trang IMU Fields Medal: [https://www.mathunion.org/imu-awards/fields-medal](https://www.mathunion.org/imu-awards/fields-medal)

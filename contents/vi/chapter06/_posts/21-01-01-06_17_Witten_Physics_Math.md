@@ -115,15 +115,6 @@ Lời tuyên dương Fields dành cho Witten gần với ý "mở ra con đườ
 
 ---
 
-## Bài tập
-
-1. Nêu ba *đối tượng* toán học gắn với các chương trình chịu ảnh hưởng của Witten (ba đối tượng, không phải ba tính từ).  
-2. **Không quá 120 chữ:** vật lý như nguồn cảm hứng so với vật lý như chứng minh, lấy Kapustin–Witten làm ví dụ.  
-3. So sánh Fields 1990 của Witten với Abel 2004 của Atiyah–Singer: một điểm giống và một điểm khác về văn hóa trao giải.  
-4. Thêm một dòng liên quan đến Witten vào [bài thực hành từ điển đối ngẫu]({{ site.baseurl }}/contents/vi/chapter07/07_10_Explore_Duality_Dictionary/), ghi trạng thái trung thực.
-
----
-
 ## Tài liệu
 
 1. Tư liệu của IMU về Huy chương Fields 1990 trao cho Witten.  

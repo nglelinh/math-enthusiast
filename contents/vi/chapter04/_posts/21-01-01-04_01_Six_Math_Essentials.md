@@ -174,18 +174,6 @@ Về **AI**, Tao liệt kê các phương thức làm khoa học nối tiếp nh
 
 ---
 
-## Bài tập
-
-1. Với mỗi trụ cột trong sáu trụ cột, viết một câu mà một bạn cùng lớp chưa xem video vẫn hiểu được.
-2. Vẽ sơ đồ mở rộng $$\mathbb{N}\subset\mathbb{Z}\subset\mathbb{Q}\subset\mathbb{R}\subset\mathbb{C}$$ và đánh dấu vị trí của $$\sqrt{2}$$ và $$i$$. Sau đó đọc bài chứng minh [$$\sqrt{2}$$]({{ site.baseurl }}/contents/vi/chapter05/05_06_Irrationality_Sqrt2/) và viết thêm một câu giải thích *vì sao* cú sốc của người Hy Lạp là một sự kiện về hệ thống số, chứ không chỉ là chuyện về chữ số thập phân.
-3. Không dùng công thức, hãy giải thích sự khác nhau giữa "con khỉ hầu chắc chắn sẽ gõ ra câu này" và "ta nên ngồi chờ nó gõ xong trong chiều nay".
-4. Trong không quá 250 từ, kể lại câu chuyện tiên đề song song hoặc câu chuyện từ xếp cầu đến mã truyền tin như một đường ống từ tò mò đến ứng dụng. Ghi rõ đâu là định lý, đâu là lịch sử, đâu là hình ảnh so sánh.
-5. Chọn một bài trong bảng ở Mục 8 và viết một "thẻ trụ cột" bốn dòng: bài đó dùng trụ cột nào làm chính, trụ cột nào chỉ mượn.
-6. (Nâng cao) Sau khi đọc [Toán học của AI]({{ site.baseurl }}/contents/vi/chapter06/06_02_Mathematics_of_AI/), viết một đoạn so sánh hiệu quả của việc "đi trực thăng" với sự hiểu biết có được khi "đi bộ". Lợi ích khoa học nào có nguy cơ bị mất nếu chỉ tấm ảnh chụp thác nước được tính đến?
-7. (Nâng cao) Xem video Big Think và ghi lại một chủ đề kèm mốc thời gian (chủ đề + phút) mà bài này *không* đề cập; mang đến buổi thảo luận như một câu hỏi, không phải như một trụ cột chính thức mới.
-
----
-
 ## Nguồn video
 
 Dùng cuộc trò chuyện để **định hướng và lấy câu chuyện**, không thay thế cho các định lý được chứng minh ở những bài khác trong khóa học.

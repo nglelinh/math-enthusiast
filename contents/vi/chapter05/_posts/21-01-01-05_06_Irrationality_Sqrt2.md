@@ -188,22 +188,6 @@ Giả sử $$p^2=2q^2$$. Phân tích $$p$$ và $$q$$ thành tích các số nguy
 
 ---
 
-## Bài tập
-
-1. Viết đầy đủ chứng minh cổ điển cho tính vô tỷ của $$\sqrt{2}$$, kể cả bổ đề về bình phương số lẻ.  
-2. Chứng minh $$\sqrt{3}$$ vô tỷ theo cùng cách.  
-3. Nếu thử chứng minh $$\sqrt{4}$$ vô tỷ thì lập luận sai ở đâu? (Số này *hữu tỷ*.)  
-4. Viết lại chứng minh cho $$\sqrt{2}$$ chỉ bằng phương pháp xuống thang, không dùng ước chung lớn nhất.  
-5. Dùng phân tích thừa số nguyên tố, giải thích mâu thuẫn về định giá với $$p^2=2q^2$$.  
-6. Đúng hay sai: nếu $$x^2$$ chia hết cho 4 thì $$x$$ chia hết cho 4? Chứng minh hoặc đưa phản ví dụ; so sánh với trường hợp chia hết cho 2.  
-7. **Viết giải thích (không quá 300 từ).** Giải thích cho một học sinh đã biết chẵn/lẻ nhưng chưa biết khái niệm "vô tỷ".  
-8. Không bắt buộc: chứng minh $$\sqrt[3]{2}$$ vô tỷ bằng một lập luận chia hết tương tự.
-
----
-
-
----
-
 ## Kiến thức rút ra từ nghiên cứu video
 
 Tóm tắt để thảo luận (đã đối chiếu với tài liệu viết; **không bịa nội dung video**). Bộ tư liệu: `research/video-research/irrationality-sqrt2/analysis.md`.

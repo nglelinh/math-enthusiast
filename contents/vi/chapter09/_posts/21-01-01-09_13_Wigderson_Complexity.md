@@ -148,20 +148,6 @@ Ngoài IP = PSPACE, **không tiết lộ tri thức** là cách hình thức hó
 
 ---
 
-## Bài tập
-
-1. Nêu (ở mức tóm tắt) một bài toán mà thuật toán ngẫu nhiên đơn giản hơn hoặc nhanh hơn.  
-2. PRG đang cố đánh lừa điều gì, và vì sao điều đó giúp khử ngẫu nhiên một thuật toán?  
-3. Độ cứng và tính ngẫu nhiên: giải thích con đường hai chiều giữa chúng trong không quá 150 từ.  
-4. Chứng minh tương tác khác việc kiểm tra chứng cứ NP cổ điển ở điểm nào?  
-5. Định nghĩa họ đồ thị giãn trong một câu (theo độ giãn nở hoặc theo khoảng cách phổ).  
-6. **Tối đa 250 từ:** vì sao cùng một người có thể nhận cả giải Abel và giải Turing cho những công trình liên quan? Hãy dựa vào lời ghi nhận của hai giải.  
-7. Liệt kê ba định lý của khoa học máy tính lý thuyết vẫn thú vị ngay cả khi P = NP (dùng lại cách nghĩ ở bài về giải Abel).  
-8. Xem trang giải Turing của Wigderson tại [amturing.acm.org](https://amturing.acm.org/) và tài liệu về giải Abel 2021; viết ra bốn từ khóa xuất hiện ở cả hai nơi.
-
----
-
-
 ## Video và tài liệu
 
 Video gợi ý, dùng để làm quen với bối cảnh chứ không thay cho chứng minh. Lưu ý: giải Turing của Wigderson là năm **2023** (không phải 2021); giải Abel chung với Lovász là năm **2021**.

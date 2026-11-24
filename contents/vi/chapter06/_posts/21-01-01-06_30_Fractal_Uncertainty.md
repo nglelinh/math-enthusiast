@@ -140,16 +140,6 @@ Mục tiêu mạnh hơn nữa là **tính ergodic duy nhất lượng tử** (qu
 
 ---
 
-## Bài tập
-
-1. **Vẽ tập Cantor.** Vẽ các thế hệ $$n=0,1,2$$ của tập Cantor bỏ một phần ba ở giữa. Viết một câu: vì sao "độ dài bằng không" khác với "không có chỗ cho hàm ẩn"?
-2. **Vật cản đường thẳng.** Giải thích bằng lời: vì sao một đường thẳng đứng trong mặt phẳng, cùng với đối ngẫu Fourier của nó, phá vỡ FUP nhiều chiều phát biểu ngây thơ?
-3. **Hiểu giả thiết.** Cho một ví dụ (định tính) về một tập phẳng trông đầy lỗ nhưng không xốp theo đường thẳng, và một cách sửa có thể khôi phục tính chất đó.
-4. **Bảng trạng thái.** Lập bảng bốn hàng, ghi định lý hay còn mở: FUP một chiều; FUP nhiều chiều của Cohen; tính không định xứ của Dyatlov–Jin trên mặt hyperbolic; QUE của Rudnick–Sarnak.
-5. **Đoạn nối.** Viết một đoạn nối tính xốp ở đây với tập Cantor trong bài [fractal]({{ site.baseurl }}/contents/vi/chapter04/04_03_Fractals/), mà không khẳng định FUP chỉ là một phát biểu về chiều Hausdorff.
-
----
-
 ## Tài liệu tham khảo
 
 - Alex Cohen — [Fractal uncertainty in higher dimensions](https://arxiv.org/abs/2305.05022), *Annals of Mathematics* **202** (2025).

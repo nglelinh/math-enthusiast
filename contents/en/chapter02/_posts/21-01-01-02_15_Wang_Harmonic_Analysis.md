@@ -337,31 +337,6 @@ See `TRANSCRIPT_STATUS.md` and `*_knowledge_units.json` for time chunks. Graded 
 
 ---
 
-## Challenges and extensions
-
-1. Distinguish continuous **needle motion** from a **static Besicovitch set**.  
-2. What lower bounds hold for $$\lvert\bigcup T_i\rvert$$ in terms of $$\delta$$ and the number of directions?  
-3. Why might the **sticky** case be a natural enemy of the conjecture?  
-4. Rephrase Kakeya as a statement about possible concentration of wave packets.  
-5. List two geometric difficulties that worsen in dimension 4.
-
----
-
-## Exercises
-
-1. **Warm-up.** Why is a line segment in the plane area zero but not a Kakeya set?  
-2. **Definitions.** Define: Kakeya set in $$\mathbb{R}^n$$; Hausdorff dimension (informal OK); δ-tube.  
-3. **Davies vs Besicovitch.** Why is Davies a **refinement** of Besicovitch rather than a contradiction?  
-4. **Volume heuristic.** If $$N$$ tubes of volume $$c\delta^{2}$$ are pairwise disjoint, estimate the union. What changes if every pair intersects in volume $$\approx\delta^{3}$$?  
-5. **Synthesis.** Draw  
-   `Kakeya → tubes → multi-scale structure → Fourier / PDE`  
-   and annotate each arrow with one sentence.  
-6. **Research literacy.** Open [arXiv:2502.17655](https://arxiv.org/abs/2502.17655); from abstract and introduction only, quote the main volume statement and list three prior directions the authors build on.  
-7. **Citation literacy.** Compare the [IMU short citation](https://www.mathunion.org/fileadmin/documents/2026-07/Hong_Wang_Citations.pdf) with a popular-science summary; which collaborators appear only in the official text?
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Full ranking and Mode B notes: `research/video-research/Wang_Harmonic_Analysis/`. (Popular Kakeya path already woven through this essay’s references.)
@@ -377,7 +352,6 @@ Full ranking and Mode B notes: `research/video-research/Wang_Harmonic_Analysis/`
 **Status reminder:** 3D Kakeya **proved**. Higher-dimensional Kakeya and sharp restriction largely **open**.
 
 ---
-
 
 
 ### Transcript & frames (flagship extract)

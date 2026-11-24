@@ -164,17 +164,6 @@ Sự nghiệp của Sullivan lập luận rằng phân loại các không gian v
 
 ---
 
-## Bài tập
-
-1. Hệ động lực bằng phép lặp: một câu.  
-2. Vì sao tôpô quan tâm đến việc lặp ánh xạ trên mặt cầu? Không quá 100 từ.  
-3. So sánh Sullivan với [Perelman]({{ site.baseurl }}/contents/vi/chapter02/02_03_Perelman_Poincare/) theo các trục của bảng, bằng lời của bạn.  
-4. Đọc một bài phổ thông về Sullivan của giải Abel hoặc Quanta; liệt kê ba lĩnh vực nghiên cứu.  
-5. **Không quá 200 từ:** sự nghiệp của một bậc thầy so với một định lý, dùng giải Abel và một ví dụ từ Fields.  
-6. Phát biểu cẩn thận miền lang thang là gì, và Sullivan đã chứng minh điều *không* tồn tại nào cho ánh xạ hữu tỉ.
-
----
-
 ## Nguồn video
 
 Hãy dùng video để **định hướng và làm quen với văn hóa nghiên cứu**, đừng dùng thay cho chứng minh.

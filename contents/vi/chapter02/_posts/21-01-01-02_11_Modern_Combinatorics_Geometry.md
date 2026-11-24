@@ -225,19 +225,6 @@ Với người học về dữ liệu và mạng: bổ đề chính quy là tổ
 
 ---
 
-## Bài tập
-
-1. Nêu **một** phát biểu tổ hợp có chứng minh hình học hoặc đại số (ví dụ Dvir hoặc Guth–Katz, nói sơ lược).
-2. Nêu **một** phát biểu hình học hoặc giải tích có bước tổ hợp hoặc bước cực trị rời rạc (ví dụ các ống Kakeya, hoặc chặn cho bài toán xếp cầu).
-3. "Cấu trúc và ngẫu nhiên" trong tổ hợp cộng tính nghĩa là gì? Viết không quá 150 từ.
-4. Liên thuộc giống "chồng ống" ở điểm nào? Viết một đoạn liên hệ với Kakeya, không dùng công thức.
-5. Chọn một từ khóa trong {liên thuộc, đồ thị mở rộng, phương pháp đa thức, cơ sở cộng tính}; tìm một bài tổng quan nhập môn và tóm tắt trong 5 câu.
-6. Lập bảng 3 hàng: Green–Tao / Maynard / Szemerédi–Trotter, với các cột câu hỏi và công cụ chính.
-7. **Thảo luận.** Đề xuất một bài tập nhỏ cho chương Khám phá (thử nghiệm điểm–đường thẳng hoặc đồ thị ngẫu nhiên) gắn với một ý trong bài này.
-
----
-
-
 ## Nguồn video (bộ tư liệu nghiên cứu video)
 
 Chi tiết: `research/video-research/Modern_Combinatorics_Geometry/`.

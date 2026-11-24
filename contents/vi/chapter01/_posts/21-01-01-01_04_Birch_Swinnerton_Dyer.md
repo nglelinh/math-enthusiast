@@ -202,19 +202,6 @@ Hàm zeta Riemann chứa thông tin về số nguyên tố; hàm $$L$$ của đ�
 
 ---
 
-## Bài tập
-
-1. Với $$y^2=x^3-2$$, kiểm tra $$(3,5)$$ là điểm hữu tỷ. Viết một câu: "hạng ít nhất bằng 1" nghĩa là gì nếu $$(3,5)$$ có cấp vô hạn.  
-2. Phát biểu định lý Mordell–Weil bằng lời, không dùng ký hiệu, rồi viết lại $$E(\mathbb{Q})\cong\mathbb{Z}^r\oplus E(\mathbb{Q})_{\mathrm{tors}}$$.  
-3. Theo BSD, $$\operatorname{ord}_{s=1}L(E,s)=0$$ dự đoán điều gì về các điểm cấp vô hạn?  
-4. Vì sao điều kiện $$\Delta\neq 0$$ quan trọng cho phép cộng điểm?  
-5. **Tổng hợp (không quá 350 từ):** phát biểu BSD (phần hạng), giải thích vì sao khó, nêu hai công cụ liên quan (tính modular; điểm Heegner / Kolyvagin).  
-6. **Phân định ranh giới:** viết ba câu phân biệt "đường cong elliptic trong mật mã" với "BSD như một bài toán Thiên niên kỷ".  
-7. Viết một câu nối BSD với cách tư duy về không điểm và bậc của hàm $$L$$ trong bài [Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/).  
-8. Mở rộng: mở LMFDB hoặc bảng của Cremona, chọn một đường cong, ghi lại hạng, phần xoắn, và $$L(E,1)$$ bằng 0 hay khác 0.
-
----
-
 ## Từ các bài giảng: trường hợp hạng ≤ 1 cho ta gì, BSD đầy đủ còn thiếu gì
 
 Bhargava (Giải Abel) và Mazur (Clay/CMSA 2026) đều nhấn mạnh cách phân lớp sau:

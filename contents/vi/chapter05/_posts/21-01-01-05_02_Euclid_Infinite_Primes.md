@@ -252,21 +252,6 @@ Chấm điểm dựa trên *độ rõ ràng của bộ khung*, không dựa trê
 
 ---
 
-## Bài tập
-
-1. Áp dụng lập luận Euclid cho $$\{2,3,5\}$$ và $$\{2,3,5,7,11\}$$; phân tích $$N$$ ra thừa số nếu nó là hợp số.  
-2. Viết chứng minh Euclid hoàn toàn bằng lời, rồi hoàn toàn bằng ký hiệu; so sánh độ rõ ràng.  
-3. Lập một bảng chữ số $$4\times 4$$; tạo một dãy chữ số thoát ra khỏi bảng theo một quy tắc rõ ràng.  
-4. Vì sao chỉ riêng lập luận đường chéo không chứng minh được có vô hạn số nguyên tố?  
-5. Giải thích trong ba câu vì sao $$0.1999\ldots=0.2000\ldots$$ có thể làm hỏng một lập luận đường chéo thiếu cẩn thận.  
-6. **Bài A4 thu nhỏ (không quá 400 từ):** trình bày ý tưởng chứng minh của Euclid *hoặc* Cantor theo mẫu 6 phần.  
-7. Tùy chọn: liên hệ với bài Vô hạn (Chương 4) bằng một câu về lực lượng.
-
----
-
-
----
-
 ## Kiến thức rút ra từ phần tìm hiểu video
 
 Tóm tắt dùng khi thảo luận (đối chiếu với nguồn viết; **không bịa nội dung transcript**). Gói: `research/video-research/euclid-infinite-primes/analysis.md`.
@@ -306,7 +291,6 @@ Dùng video để **định hướng và văn hóa nghiên cứu**, không thay 
 **Nhắc trạng thái:** **Proved** (classical; Euclid, Elements IX.20). Status closed; pedagogy of the *idea* remains active.
 
 ---
-
 
 
 ### Transcript và khung hình (video chính)

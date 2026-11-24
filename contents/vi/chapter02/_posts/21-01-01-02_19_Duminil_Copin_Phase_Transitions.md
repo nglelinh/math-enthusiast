@@ -140,19 +140,6 @@ Trong mạch khóa học, Duminil-Copin là hình mẫu về việc **đưa sứ
 
 ---
 
-## Bài tập
-
-1. Diễn đạt bằng lời của bạn: **chuyển pha** trong mô hình thấm là gì, và **tính sắc** cho thêm thông tin gì ngoài việc $$p_c$$ tồn tại?
-2. Ở mức ý tưởng, vì sao chiều 2 "giải chính xác được" còn chiều 3 thì không? (So sánh lời giải của Onsager với việc chưa có lời giải dạng đóng cho mô hình Ising ba chiều.)
-3. Phát biểu kết quả về tính tầm thường ở chiều bốn trong một câu, và nêu tên **cả hai** tác giả.
-4. Liên tục hay gián đoạn: vẽ phác đồ thị $$M(\beta)$$ có bước nhảy và không có bước nhảy. Hình nào ứng với mô hình FK hai chiều khi $$q>4$$?
-5. **Luyện độ chính xác.** Một bài báo đặt tiêu đề: "Nhà toán học chứng minh nam châm ba chiều có tính bảo giác". Viết lại thành hai câu phù hợp với khóa học này.
-6. So sánh [Smirnov]({{ site.baseurl }}/contents/vi/chapter02/02_28_Smirnov_Percolation/) và Duminil-Copin bằng một bảng bốn dòng: số chiều, mô hình, điều đã chứng minh, điều còn lại.
-7. Vì sao **tính bất biến dưới phép quay** là một bước cần thiết để đi tới tính bất biến bảo giác, nhưng chưa đủ? Viết một đoạn.
-8. **Seminar mở rộng.** IMU nhắc đến "các trường hợp không khả tích ở chiều 2". Chữ "khả tích" ở đây là một lời cảnh báo nói về điều gì (công thức chính xác chỉ có khi $$q$$ đặc biệt hoặc lưới đặc biệt), và vì sao một chứng minh không cần đến những công thức đó lại có giá trị hơn?
-
----
-
 ## Nguồn video và đọc thêm
 
 Bài này không có bộ tài liệu video riêng của khóa học.

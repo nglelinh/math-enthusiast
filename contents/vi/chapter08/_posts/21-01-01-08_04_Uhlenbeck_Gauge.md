@@ -154,17 +154,6 @@ Một so sánh rất đáng nhớ: dòng Ricci biến dạng *metric* của khô
 
 ---
 
-## Bài tập
-
-1. Liên thông và độ cong: mỗi khái niệm một câu (không công thức cũng được).  
-2. “Bubbling” là gì đối với PDE hình học tới hạn năng lượng? Hai câu.  
-3. Vì sao tôpô cần giải tích trong lý thuyết gauge? Không quá 150 từ.  
-4. **Không quá 250 từ:** so sánh giải ghi nhận hạ tầng (phân tích của Uhlenbeck) với bản anh hùng ca về một định lý (ví dụ một bài toán Millennium).  
-5. Nêu ba từ chung giữa PDE hình học và mặt cực tiểu; và một từ đặc trưng hơn cho gauge (liên thông, độ cong, cố định gauge).  
-6. Lướt qua tài liệu về Abel 2019 trên [abelprize.no](https://abelprize.no/); liệt kê ba từ khóa định lý mới đối với bạn.
-
----
-
 ## Nguồn video
 
 Hãy dùng video để **định hướng và làm quen với văn hóa nghiên cứu**, đừng dùng thay cho chứng minh.

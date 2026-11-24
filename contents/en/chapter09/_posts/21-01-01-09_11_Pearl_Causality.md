@@ -136,20 +136,6 @@ Statisticians often write potential outcomes $$Y(1),Y(0)$$ for treatment and con
 
 ---
 
-## Exercises
-
-1. Give a real-life pair of variables that are associated but where intervening on one may not change the other as association suggests.  
-2. Draw a fork, a chain, and a collider; mark where conditioning biases.  
-3. In words, what does $$P(Y\mid do(X=x))$$ mean?  
-4. Why might a high-performing predictive model fail under a policy change?  
-5. State the back-door idea in one paragraph (block confounding paths without opening bad ones).  
-6. **LO6 (≤200 words):** Critique a news headline that says a study “proves $$X$$ causes $$Y$$” using graph vocabulary.  
-7. How does a Bayesian network factorization encode conditional independence?  
-8. Skim Pearl’s Turing page at [amturing.acm.org](https://amturing.acm.org/); list three citation phrases and one book title to know (*Causality*).
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as proof substitutes. Full ranking and notes: `research/video-research/pearl-causality/`.

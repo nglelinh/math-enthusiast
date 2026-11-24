@@ -208,18 +208,6 @@ với mất mát cross-entropy; gradient descent cập nhật $$(w,b)$$ trên t�
 
 ---
 
-## Bài tập
-
-1. Nhân một ma trận $$2\times 2$$ với một vector bằng tay, và hiểu nó như một lớp tuyến tính không có bias.
-2. Định nghĩa rủi ro thực nghiệm và rủi ro thật; viết một câu giải thích vì sao chúng lệch nhau.
-3. (Tối đa 250 từ) Mô tả chuỗi dữ liệu → mô hình → loss → cập nhật → triển khai, và nêu một lỗi toán học có thể xảy ra ở mỗi bước.
-4. Viết ba câu: đại số tuyến tính, xác suất và tối ưu xuất hiện như thế nào khi huấn luyện một bộ phân loại.
-5. Tìm một tin tức về AI và viết lại thành hai câu, tách phần đo được khỏi phần suy đoán.
-6. Chọn một mục trong Mục 6; viết một câu hỏi thực nghiệm và một câu hỏi toán học liên quan.
-7. Đọc phần tóm tắt của một bài báo về double descent hoặc NTK; liệt kê ba thuật ngữ cần tra cứu.
-
----
-
 ## Tóm tắt từ phần nghiên cứu video
 
 Phần này dùng cho buổi seminar; hãy đối chiếu với nguồn gốc và không coi là bản chép lời.

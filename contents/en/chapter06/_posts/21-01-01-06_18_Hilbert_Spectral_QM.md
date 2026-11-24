@@ -129,18 +129,6 @@ von Neumann’s axiomatization turned heuristic matrix/wave mechanics into a fra
 
 ---
 
-## Exercises
-
-1. **Inner product.** Verify that $$\langle\phi|\psi\rangle=\sum_i \overline{\phi_i}\psi_i$$ on $$\mathbb{C}^n$$ is linear in $$\psi$$ and conjugate-linear in $$\phi$$.  
-2. **Born rule.** For $$\psi=(1/\sqrt{2},1/\sqrt{2})$$ and $$A=\operatorname{diag}(1,-1)$$, compute outcome probabilities.  
-3. **Self-adjoint slogan.** Why is a non-Hermitian matrix a bad model for a textbook observable with real outcomes?  
-4. **$$L^2$$.** Why is the constant function $$1$$ not in $$L^2(\mathbb{R})$$?  
-5. **Unitary evolution.** Show that if $$U(t)=e^{-itH/\hbar}$$ with $$H$$ Hermitian on $$\mathbb{C}^n$$, then $$\|U(t)\psi\|=\|\psi\|$$.  
-6. **Bridge.** One paragraph connecting this lecture to qubits in the quantum information essay.  
-7. **Commutator pointer.** Why is a non-Hermitian matrix the wrong *kind* of problem for uncertainty, and where do you go next to see $$[X,P]=i\hbar$$?
-
----
-
 ## References and further reading
 
 1. Hall — *Quantum Theory for Mathematicians*.  

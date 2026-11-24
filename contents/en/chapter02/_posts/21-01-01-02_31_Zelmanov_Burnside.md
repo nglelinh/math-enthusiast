@@ -129,19 +129,6 @@ The 1994 class also included Bourgain, Lions, and Yoccoz. Zelmanov’s portrait 
 
 ---
 
-## Exercises
-
-1. Write three sentences, one for each Burnside problem (general, bounded, restricted), that a fellow student could not mix up.
-2. Why does infiniteness of $$B(d,n)$$ **not** contradict finiteness of the restricted Burnside group $$B_0(d,n)$$?
-3. What did Golod–Shafarevich construct, and which Burnside question does it answer?
-4. Kostrikin versus Zelmanov: one sentence each, including the words “prime exponent” and “all exponents.”
-5. At slogan level, how can a Lie algebra identity encode $$x^n=1$$? (You need not write a correct formula; you need the idea “associated graded + Engel/sandwich.”)
-6. Skim Feit’s ICM 1994 lecture or the Wikipedia page on the Burnside problem and list **three** names other than Zelmanov that must appear in any honest history.
-7. **Accuracy practice.** Rewrite “Zelmanov showed that Burnside groups are finite” as two sentences this course would accept.
-8. **Seminar stretch.** Compare this medal with a “counterexample medal” story (infinite monsters) versus a “finiteness medal” story (restricted Burnside). Why does the same family of questions produce both?
-
----
-
 ## Links
 
 - IMU Fields Medals 1994: [https://www.mathunion.org/imu-awards/fields-medal/fields-medals-1994](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-1994)

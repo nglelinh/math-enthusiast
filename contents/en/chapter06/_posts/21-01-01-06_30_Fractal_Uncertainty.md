@@ -118,16 +118,6 @@ A stronger dream is **quantum unique ergodicity (QUE)**: chaotic eigenfunctions 
 
 ---
 
-## Exercises
-
-1. **Cantor by hand.** Draw generations $$n=0,1,2$$ of the middle-thirds Cantor set. In one sentence: why is “length zero” not the same as “no room for a function to hide”?
-2. **Line obstruction.** In words, why does a vertical line in the plane, together with its Fourier dual, break a naive higher-dimensional FUP?
-3. **Hypothesis literacy.** Give an example (qualitative) of a planar set that looks holey but fails line porosity, and one modification that might restore it.
-4. **Status table.** In four rows, label as theorem / open: 1D FUP; Cohen’s higher-D FUP; Dyatlov–Jin delocalization on hyperbolic surfaces; Rudnick–Sarnak QUE.
-5. **Bridge.** One paragraph connecting porosity here to the Cantor set in the [fractals]({{ site.baseurl }}/contents/en/chapter04/04_03_Fractals/) lecture, without claiming FUP is a statement about Hausdorff dimension alone.
-
----
-
 ## References and further reading
 
 - Alex Cohen — [Fractal uncertainty in higher dimensions](https://arxiv.org/abs/2305.05022), *Annals of Mathematics* **202** (2025).

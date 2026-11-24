@@ -120,16 +120,6 @@ Và hãy tránh hai cái bẫy quen thuộc: một là **kể chuyện anh hùng
 
 ---
 
-## Bài tập
-
-1. Viết hai câu so sánh Abel và Fields chỉ dựa trên các sự kiện thể chế, không nhắc tên laureate nào.  
-2. Mở [abelprize.no](https://abelprize.no/), chọn một laureate không nằm trong các bài chuyên sâu của chương, và liệt kê ba danh từ chỉ đối tượng toán học trong citation.  
-3. Viết không quá 150 từ: “toán học hạ tầng” là gì, kèm một ví dụ từ chương.  
-4. Vì sao nói Abel 2021 “giải xong P vs NP” là sai? Giải đó nhấn mạnh điều gì?  
-5. **Không quá 300 từ:** lập luận rằng việc xây dựng một bộ công cụ cả đời quan trọng không kém một định lý nổi tiếng.
-
----
-
 ## Nguồn video
 
 Hãy dùng video để **định hướng và làm quen với văn hóa nghiên cứu**, đừng dùng thay cho chứng minh.

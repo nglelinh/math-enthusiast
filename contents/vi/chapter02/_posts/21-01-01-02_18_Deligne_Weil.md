@@ -182,19 +182,6 @@ Các giả thuyết Weil đã định hướng cả một thế hệ toán học
 
 ---
 
-## Bài tập
-
-1. Viết $$Z(X,T)$$ và nói bằng lời $$N_m$$ đếm gì. Kiểm tra công thức cho $$\mathbb{P}^1$$: $$N_m=q^m+1$$.
-2. Với đường cong elliptic, chặn Hasse $$|N_1-(q+1)|\le 2\sqrt{q}$$ là tương tự giả thuyết Riemann cho $$n=1$$. Vì sao hai số phức có môđun $$\sqrt{q}$$ cho ra bất đẳng thức đó?
-3. Ai chứng minh phần nào: tính hữu tỷ, phương trình hàm, tính thuần khiết? Điền bảng ba hàng mà không nhìn lại bài.
-4. Vì sao các giả thuyết chuẩn của Grothendieck *trông như* một con đường dẫn đến tính thuần khiết, và vì sao việc Deligne không cần đến chúng lại quan trọng?
-5. **Ramanujan, nói cho cẩn thận.** Phát biểu $$|\tau(p)|\le 2p^{11/2}$$ và viết hai câu giải thích vì sao đây là chặn kiểu Weil, chứ không phải một ước lượng sơ cấp chỉ dùng đường cong modular $$X_0(1)$$.
-6. **LO6.** Tìm một câu trên báo phổ thông nói "Deligne chứng minh giả thuyết Riemann". Viết lại cho đúng trong khóa học này.
-7. Đọc lướt vài trang đầu của Weil I hoặc một bài tổng quan (Katz, ICM 1978) và liệt kê năm thuật ngữ cần học tiếp (ví dụ chùm Lefschetz, chu trình triệt tiêu, trọng số, $$\ell$$-adic, đối ngẫu Poincaré).
-8. **Seminar mở rộng.** So sánh "tính thuần khiết của trọng số" ở đây với các lý thuyết đối đồng điều $$p$$-adic sau này của [Scholze]({{ site.baseurl }}/contents/vi/chapter02/02_06_Scholze_Perfectoid/): cả hai đều nói về việc chuyển thông tin giữa các lý thuyết đối đồng điều. Bài toán nào thuộc trường hữu hạn, bài toán nào thuộc đặc số hỗn hợp?
-
----
-
 ## Nguồn video và đọc thêm
 
 Bài này không có bộ tài liệu video riêng của khóa học.

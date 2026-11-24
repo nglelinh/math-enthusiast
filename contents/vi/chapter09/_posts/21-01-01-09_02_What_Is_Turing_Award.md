@@ -132,19 +132,6 @@ Năm 1936, Turing định nghĩa **hàm tính được** qua máy với băng v�
 
 ---
 
-## Bài tập
-
-1. Viết hai câu so sánh giải Turing và Fields chỉ dựa trên các sự kiện về thể chế, không nêu tên người đoạt giải.  
-2. Mở [amturing.acm.org](https://amturing.acm.org/), chọn một người đoạt giải **không** nằm trong sáu bài chuyên sâu đầu chương, rồi liệt kê ba danh từ chỉ đối tượng toán–tin trong lời trích dẫn.  
-3. Trong tối đa 150 từ: "nền tảng tính toán" là gì? Lấy một ví dụ bạn đã gặp ở ch.01 hoặc ch.03.  
-4. Vì sao nói giải Turing 1982 "giải P vs NP" là sai? Giải đó nhấn mạnh điều gì?  
-5. Lập bảng 3 cột so sánh giải Turing / Abel / Clay: đối tượng được vinh danh, chu kỳ, một ví dụ.  
-6. **Tối đa 300 từ:** lập luận rằng việc xây dựng công cụ (lớp NP, chuẩn phân tích thuật toán, giao thức khóa công khai) quan trọng không kém một định lý nổi tiếng.  
-7. Viết một câu trích dẫn giả cho một ý tưởng bạn thích trong khóa học (không cần đúng lịch sử), rồi gạch chân đối tượng toán học trong đó.  
-8. Chọn hai năm trao giải Turing và lập bảng 4 cột: năm – tên – một câu về thành tựu – loại (tính toán được / độ phức tạp / thuật toán / mật mã / hệ thống / học máy).
-
----
-
 ## Video và tài liệu
 
 Hãy dùng video để làm quen với bối cảnh và văn hóa nghiên cứu, không dùng thay cho chứng minh.

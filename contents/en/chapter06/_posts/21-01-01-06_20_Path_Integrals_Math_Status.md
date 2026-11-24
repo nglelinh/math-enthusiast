@@ -105,17 +105,6 @@ In QFT, path integrals formally compute correlation functions by integrating ove
 
 ---
 
-## Exercises
-
-1. **Slogan.** Write the path-integral idea in ≤60 words for a classmate who knows the Schrödinger equation only.  
-2. **Stationary phase.** Why do classical paths dominate as $$\hbar\to 0$$ in the formal integral?  
-3. **Euclidean vs real time.** One paragraph on why Wick rotation helps analysis.  
-4. **Wiener.** What probability measure makes Brownian-path expectations rigorous?  
-5. **LO6.** Critique: “Mathematicians refuse path integrals because they dislike physics.”  
-6. **Bridge.** Link path-integral saddles to instanton topology in one careful paragraph.
-
----
-
 ## References and further reading
 
 1. Feynman & Hibbs — *Quantum Mechanics and Path Integrals* (physics classic).  

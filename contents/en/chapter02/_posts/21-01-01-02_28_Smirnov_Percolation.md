@@ -108,19 +108,6 @@ Critical bond percolation on the square lattice, and conformal invariance of per
 
 ---
 
-## Exercises
-
-1. In two sentences, distinguish **site** percolation from **bond** percolation. Why might a proof that uses a colour-switching identity on triangles fail to copy onto the square lattice?
-2. What is a **crossing probability** of a conformal rectangle? Why is the critical value $$p_c$$ the only place where one expects a nontrivial, mesh-independent limit in $$(0,1)$$?
-3. State Cardy’s formula at slogan level, and write one sentence on Carleson’s equilateral-triangle simplification.
-4. Credit practice: assign **Schramm**, **Lawler–Schramm–Werner**, and **Smirnov** each one sentence that could appear in a referee’s report.
-5. Skim the abstract of Chelkak–Smirnov (arXiv:0910.2045). What is the observable, and in what sense is the result more “universal” than Smirnov 2001?
-6. Why is “the interface converges to $$\mathrm{SLE}_6$$” a stronger statement than “crossing probabilities converge to Cardy’s formula”? What extra compactness or identification work is needed, at slogan level?
-7. **Accuracy practice.** Rewrite the popular sentence “Smirnov showed that 2D phase transitions are conformal” as two precise sentences suitable for this course.
-8. **Seminar stretch.** Compare this medal with [Werner]({{ site.baseurl }}/contents/en/chapter02/02_30_Werner_SLE/): who supplied the curve process, and who supplied a lattice model that converges to it?
-
----
-
 ## Links
 
 - IMU Fields Medals 2010 (requested index): [mathunion.org/…/fields-medals-2010](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2010)

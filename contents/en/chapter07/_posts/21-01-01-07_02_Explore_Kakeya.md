@@ -199,16 +199,6 @@ Imagine tubes of length $$1$$ and radius $$\delta$$. Rough volume of one tube is
 
 ---
 
-## 6. Exercises
-
-1. Compute the area of a unit disk of radius $$1/2$$ and of a deltoid (look up the classical formula). Why is the deltoid still “large” compared to Besicovitch’s arbitrarily small sets?  
-2. Explain in three sentences why a single unit segment has Hausdorff dimension 1, while a Kakeya set must be “directionally full.”  
-3. On a $$20\times 20$$ grid, place segments in the four axis and diagonal directions through the center; count cells. Then allow translates to maximize shared cells; compare.  
-4. Write a falsifiable hypothesis about your grid experiment (e.g., “greedy overlap reduces covered cells by at least 30% for $$K=16$$”). Run it; report alive or dead.  
-5. Draft a 150–200 word studio proposal: question, definition of small, methods, success criteria, risks.
-
----
-
 ## 7. Checkpoint rubric
 
 | Done? | Item |

@@ -66,13 +66,6 @@ Máy tính rất giỏi điền số liệu vào bảng và kiểm tra hàng t�
 
 Bạn có thể áp dụng cùng kỷ luật "máy tính là kính hiển vi, không phải thẩm phán" cho các bài về mật độ xếp cầu, đồ thị khoảng cách giữa các số nguyên tố, và thí nghiệm ngẫu nhiên – trật tự. Riêng với từ điển đối ngẫu và từ điển vật lý–toán, hãy nhớ rằng nếu dùng mô hình ngôn ngữ để điền sẵn bảng thì đó mới chỉ là một **bản nháp thô** cần kiểm chứng từng dòng trạng thái, chưa thể gọi là từ điển nghiên cứu của chính bạn.
 
-## Bài tập
-
-1. Mô tả bằng lời một câu hỏi SAT có thể giúp ích cho bài thực hành *tô màu bản đồ*, mà không coi định lý bốn màu là kết quả của bạn.
-2. Lấy một chứng minh kiểu AlphaGeometry cho một bài toán đồng quy đơn giản. Hai dòng nào nên ghi vào nhật ký nghiên cứu của bạn?
-3. Thêm một dòng vào bảng Collatz: $$N=2^{68}$$, phương pháp = tìm kiếm bằng GPU, trạng thái = kiểm tra hữu hạn. Viết dòng tương ứng cho "mọi số nguyên dương".
-4. Vì sao kết quả "bộ giải trả về UNSAT (không thỏa được)" gần với một chứng minh hơn kết quả "hàm mất mát của mạng nơ-ron nhỏ"? Khi nào nó vẫn chưa phải là chứng minh cho phát biểu vô hạn mà bạn quan tâm?
-
 ## Tài liệu tham khảo
 
 - Smith, D., Myers, J. S., Kaplan, C. S., & Goodman-Strauss, C. (2024). An aperiodic monotile. *Combinatorial Theory*, 4(1). [arXiv:2303.10798](https://arxiv.org/abs/2303.10798).

@@ -102,7 +102,6 @@ Tô màu đồ thị có phạm vi rộng hơn nhiều so với bản đồ. **�
 Video dài khoảng 1 phút 51 giây (có thuyết minh tiếng Việt): chuyển bản đồ sang đồ thị đối ngẫu, vì sao K₄ buộc dùng 4 màu, chặn Euler e ≤ 3v − 6, hai trường hợp xích Kempe trong định lý năm màu, bẫy lịch sử 1879 và số Heawood H(g) trên mặt phẳng (4) và mặt xuyến (7).
 
 
-
 <div class="interactive-demo" markdown="1">
 <div data-demo="fourcolor-explainer" data-preset="k4" data-lang="vi"></div>
 </div>
@@ -178,16 +177,6 @@ Sau khi đọc phần về Appel–Haken ở chương 1, viết 5–8 câu: Ch�
 3. "Công thức Heawood suy ra 4CT." Sai: với $$g=0$$ công thức cho 4, nhưng kỹ thuật cổ điển của Heawood không giải quyết được trường hợp mặt phẳng, khác với việc Ringel–Youngs giải quyết các giống dương.  
 4. "Chạm góc thì phải khác màu." Sai: quy tắc chuẩn đòi hỏi có đoạn biên chung.  
 5. "Mọi đồ thị đều là đồ thị đối ngẫu của một bản đồ." Sai: đồ thị đối ngẫu của bản đồ phẳng có cấu trúc riêng; đồ thị tùy ý có thể không phẳng ($$\chi$$ có thể lớn tùy ý).
-
----
-
-## 6. Bài tập
-
-1. Từ $$v-e+f=2$$ và $$2e\ge 3f$$ (mỗi mặt có ít nhất 3 cạnh), suy ra $$e\le 3v-6$$.  
-2. Chứng minh tồn tại đỉnh bậc $$\le 5$$.  
-3. Giải thích vì sao việc $$K_5$$ không phẳng (lập luận chuẩn) **không** tự nó chứng minh được 4CT.  
-4. Tính $$H(1)$$, $$H(2)$$, chú ý phần nguyên.  
-5. Viết đề xuất (không quá 150 chữ): sản phẩm, quy tắc cố định, tiêu chí.
 
 ---
 

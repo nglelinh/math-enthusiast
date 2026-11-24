@@ -206,18 +206,6 @@ Thứ tự xem: [3B1B về chuỗi Fourier](https://www.youtube.com/watch?v=r6sG
 
 ---
 
-## Bài tập
-
-1. Viết $$\cos\theta$$ dưới dạng hàm mũ phức.  
-2. Vì sao một hàm tuần hoàn trơn cần ít hệ số Fourier lớn hơn một hàm gián đoạn?  
-3. Lọc bằng tích chập trong miền thời gian tương ứng với phép toán gì trong miền tần số?  
-4. So sánh độ phức tạp của DFT $$O(N^2)$$ và FFT $$O(N\log N)$$ với $$N=2^{20}$$.  
-5. Viết không quá 5 câu: DCT theo khối kết hợp lượng tử hóa thực hiện việc nén như thế nào?  
-6. Tai người nghe được đến khoảng 20 kHz; vì sao đĩa CD dùng tần số lấy mẫu 44.1 kHz?  
-7. Nâng cao: ma trận DFT và $$F^*F=NI$$ (unita sai khác một hệ số).
-
----
-
 ## Nguồn video (bộ tư liệu nghiên cứu video)
 
 Video dùng để **định hướng và xây dựng trực giác**, không thay thế chứng minh hay tài liệu chuẩn. Đánh giá chi tiết: `research/video-research/fourier-signal-processing/`.

@@ -201,16 +201,6 @@ Giải thích vì sao phép so sánh thứ hai dẫn đến hiểu sai.
 
 ---
 
-## 6. Bài tập
-
-1. Chứng minh bằng quy nạp: $$I^n$$ có $$2^n$$ đỉnh.  
-2. Chứng minh số cạnh là $$n2^{n-1}$$.  
-3. Kiểm tra $$V_2$$, $$V_3$$ từ công thức.  
-4. Tính khoảng cách Euclid giữa $$(0,0,0,0)$$ và $$(1,1,1,1)$$; so sánh với đường chéo của khối lập phương đơn vị 3D.  
-5. Viết đề xuất không quá 150 từ: thí nghiệm chính của bạn và tiêu chí thành công.
-
----
-
 ## 7. Danh sách kiểm tra theo tiêu chí chấm
 
 | ☐ | Bảng siêu lập phương $$n=1..4$$ |

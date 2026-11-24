@@ -204,16 +204,6 @@ Look up (reliable source) how far twin primes or prime gaps have been tabulated.
 
 ---
 
-## 6. Exercises
-
-1. Prove that there are arbitrarily large gaps (factorial construction).  
-2. Show that except for $$(3,5,7)$$ there is no prime triple $$(p,p+2,p+4)$$. Why does mod 3 kill it?  
-3. Compute $$\pi(100)$$ and $$\pi(1000)$$ by hand or code; compare to $$x/\log x$$.  
-4. Find an AP of length 4; verify each term prime.  
-5. Write a 150-word proposal: which layer of predictability will you study, with what range and success criteria?
-
----
-
 ## 7. Checkpoint rubric
 
 | Done? | Item |

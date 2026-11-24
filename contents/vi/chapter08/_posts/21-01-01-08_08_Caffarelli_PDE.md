@@ -168,18 +168,6 @@ Các chương trình CFD “giải Navier–Stokes” hằng ngày bằng rời 
 
 ---
 
-## Bài tập
-
-1. Cho một ví dụ vật lý về biên tự do; chỉ ra mặt phân cách ẩn.  
-2. Chính quy từng phần và chính quy hoàn toàn: hai câu.  
-3. Ba trục: suy ra phương trình (Deng) / từng phần (CKN) / Millennium còn mở. Mỗi trục một cụm từ.  
-4. **Không quá 250 từ:** vì sao tính chính quy của biên tự do vừa mang tính hình học vừa mang tính giải tích?  
-5. Nối với [ứng dụng của phương trình vi phân]({{ site.baseurl }}/contents/vi/chapter03/03_09_Differential_Equations_Applications/) bằng một câu về ứng dụng.  
-6. Lướt qua trang Abel 2023 trên [abelprize.no](https://abelprize.no/); ghi ba từ khóa.  
-7. **Seminar:** không dùng công thức, giải thích vì sao phóng to có thể biến một biên tự do cong thành bài toán hình nón hay nửa không gian, dễ phân loại hơn.
-
----
-
 ## Nguồn video
 
 Hãy dùng video để **định hướng và làm quen với văn hóa nghiên cứu**, đừng dùng thay cho chứng minh.

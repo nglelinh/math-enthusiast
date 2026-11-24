@@ -159,20 +159,6 @@ Next-token prediction and related pretext tasks turn raw sequences into training
 
 ---
 
-## Exercises
-
-1. Write a two-layer network explicitly as nested maps with matrices $$W_1,W_2$$.  
-2. In one paragraph, explain backpropagation as chain rule + computational graph.  
-3. What inductive bias does weight sharing in a CNN encode?  
-4. Empirical risk vs true risk: why can a net with near-zero training loss still fail in deployment?  
-5. **LO6 (≤200 words):** Rewrite a breathless popular paragraph about “AI understanding” into measurable claims.  
-6. Name one open mathematical question about deep learning (optimization, generalization, or approximation).  
-7. Connect next-token prediction to representation learning in two sentences.  
-8. Skim the 2018 Turing pages at [amturing.acm.org](https://amturing.acm.org/); list one contribution associated with each of Bengio, Hinton, and LeCun.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as proof substitutes. Full ranking and notes: `research/video-research/deep-learning-trio/`.

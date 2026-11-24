@@ -100,7 +100,6 @@ với hệ số damping $$\alpha\in(0,1)$$ và vector cá nhân hóa $$v$$ (bư�
 Video dài khoảng 2 phút 03 giây (có thuyết minh tiếng Việt): ý tưởng xếp hạng qua liên kết, ma trận chuyển thô P₀ và bẫy nút cụt D, cách thêm teleport α = 0,85, tính tay bước k = 1, lặp lũy thừa hội tụ về π và so sánh α = 0,85 với α = 0,50.
 
 
-
 <div class="interactive-demo" markdown="1">
 <div data-demo="pagerank-explainer" data-preset="dangling" data-alpha="0.85" data-lang="vi"></div>
 </div>
@@ -167,18 +166,6 @@ Tải (hoặc vẽ) một mạng nhỏ với $$n\le 30$$: (a) vẽ phân bố b�
 | “Gỡ hub luôn chặn được dịch.” | Phụ thuộc vào mô hình và cách vận hành. |
 | “Đồ thị quan sát được là đầy đủ.” | Thiên lệch do lấy mẫu là chuyện bình thường. |
 | “Mạng thay thế cho cơ chế của chuyên ngành.” | Topology đặt ràng buộc; cơ chế của chuyên ngành vẫn cần. |
-
----
-
-## Bài tập
-
-1. Vẽ một đồ thị 5 đỉnh; tính bậc các đỉnh và một ma trận khoảng cách.
-2. Vì sao bậc trung bình bằng $$1$$ là giá trị đặc biệt đối với tính liên thông của đồ thị ER lớn?
-3. Dựng một đồ thị nhỏ có đỉnh bậc lớn nhất khác với đỉnh có betweenness lớn nhất.
-4. Viết $$L$$ cho đường đi 3 đỉnh; nhận xét về nhân và chiều của không gian riêng ứng với giá trị riêng 0.
-5. Vì sao $$\langle k^2\rangle$$ lớn có thể làm giảm ngưỡng dịch trong xấp xỉ trường trung bình?
-6. Nêu ba lý do vì sao đồ thị theo dõi trên Twitter không phải là “mạng xã hội của cả quốc gia”.
-7. Đọc một bài báo về luật lũy thừa; ghi lại phương pháp khớp và các phân bố thay thế.
 
 ---
 

@@ -157,18 +157,6 @@ Lấy một tuyên bố của nhà cung cấp kiểu “quantum-safe” hoặc �
 
 ---
 
-## Bài tập
-
-1. Ghép: bảo mật dữ liệu lớn / trao đổi khóa / chống chối bỏ với: mã đối xứng / KEM / chữ ký.
-2. Viết ba câu: vì sao bí mật dài hạn khiến phải chuyển sang PQC trước khi có máy lượng tử lớn.
-3. Viết một đoạn so sánh Shor và Grover (mật mã công khai và mật mã đối xứng).
-4. Phép quy dẫn từ LWE đến một hệ mật cho thấy điều gì và không cho thấy điều gì?
-5. Tự dựng lại bảng so sánh QKD và PQC từ trí nhớ.
-6. Kể một câu chuyện ZK đơn giản: chứng minh “tôi biết tiền ảnh của một giá trị băm”.
-7. Nhận xét một tuyên bố “quantum-safe” của nhà cung cấp: còn thiếu những gì?
-
----
-
 ## Tóm tắt từ phần nghiên cứu video
 
 Phần này dùng cho buổi seminar; hãy đối chiếu với nguồn gốc và không coi là bản chép lời.

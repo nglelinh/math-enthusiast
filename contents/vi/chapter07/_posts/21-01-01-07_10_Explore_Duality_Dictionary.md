@@ -155,15 +155,6 @@ Mỗi mục gồm: dự định → việc đã làm → kết quả → nhãn �
 
 ---
 
-## Bài tập cuối buổi
-
-1. Viết một câu: cặp đối ngẫu của bạn **hoán đổi** cái gì?  
-2. Chỉ ra một dòng là **định lý** và một dòng chỉ là **chương trình nghiên cứu**.  
-3. Tìm một khẳng định phổ biến nhầm lẫn giữa đối xứng và đối ngẫu.  
-4. **Không quá 100 chữ:** vì sao việc gắn nhãn trạng thái giúp tránh nói quá?
-
----
-
 ## Tài liệu
 
 1. Nhánh đối ngẫu, chương 6, các bài 12–17.  

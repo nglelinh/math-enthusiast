@@ -107,17 +107,6 @@ Keep the layers separate when you write A3/A6.
 
 ---
 
-## Exercises
-
-1. **Instanton slogan.** ≤50 words: finite action + topological charge.  
-2. **Integer charge.** Why is $$\int\operatorname{tr}(F\wedge F)$$ insensitive to small continuous deformations of $$A$$ (slogan: closed form / characteristic class)?  
-3. **Anomaly.** Distinguish “symmetry of equations of motion” from “symmetry of the quantum theory.”  
-4. **Index.** If $$\dim\ker D=2$$ and $$\dim\ker D^\dagger=0$$, what is $$\operatorname{ind} D$$?  
-5. **LO6.** Rewrite a hype sentence that attributes all of QCD to “instanton magic.”  
-6. **Proof-idea (LO3).** In ≤150 words, narrate why analytic index equals topological index *as a principle* (not a proof).
-
----
-
 ## References and further reading
 
 1. Coleman — “The uses of instantons” (Erice lectures).  

@@ -167,21 +167,6 @@ It is also a lesson in **precision under popularization**. Few theorems are as w
 
 ---
 
-## Exercises
-
-1. In your own words, distinguish *consistency*, *completeness*, and *decidability* for a formal theory.  
-2. Explain why it matters that the set of axioms is effective (computably enumerable). What goes wrong for the theorem’s intent if axioms are an arbitrary non-effective truth set?  
-3. Sketch how a string could be coded by a number (invent a small alphabet and encode a 3-symbol word).  
-4. Why is the sentence “this sentence is false” a different animal from Gödel’s $$G$$? (Truth vs provability; natural language vs formal arithmetic.)  
-5. State the first incompleteness theorem carefully enough to include the hypotheses “consistent,” “effectively axiomatized,” and “sufficiently strong.”  
-6. **Narrative (≤400 words).** Explain the architecture coding → provability predicate → diagonal sentence to a classmate.  
-7. Optional: read a popular account of Gödel and list two places where it overclaims; rewrite those sentences accurately.
-
----
-
-
----
-
 ## Knowledge extracted from video research
 
 Seminar-facing distillation (cross-checked against written sources; **no fabricated transcripts**). Pack: `research/video-research/godel-incompleteness/analysis.md`.

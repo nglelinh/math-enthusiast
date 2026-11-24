@@ -197,18 +197,6 @@ Hiểu Cantor rồi thì chiến lược của Gödel bớt giống ảo thuật
 
 ---
 
-## Bài tập
-
-1. Phân biệt *nhất quán*, *đầy đủ* và *quyết định được* đối với một lý thuyết hình thức.
-2. Vì sao yêu cầu tập tiên đề hiệu quả lại quan trọng? Điều gì hỏng nếu tiên đề là một tập chân lý tùy ý, không hiệu quả?
-3. Phác thảo cách mã hóa một chuỗi gồm 3 ký hiệu thành một số (tự đặt một bảng ký hiệu nhỏ).
-4. Vì sao câu "câu này sai" khác với câu $$G$$ của Gödel? (Gợi ý: chân lý so với tính chứng minh được; ngôn ngữ tự nhiên so với số học hình thức.)
-5. Phát biểu định lý thứ nhất đủ để có các điều kiện "nhất quán", "tiên đề hóa hiệu quả" và "đủ mạnh".
-6. **Viết tự luận (không quá 400 từ).** Giải thích cấu trúc: mã hóa → vị từ chứng minh được → câu đường chéo.
-7. Tùy chọn: đọc một bài phổ biến về Gödel, liệt kê hai chỗ nói quá và viết lại cho đúng.
-
----
-
 ## Kiến thức rút ra từ phần tìm hiểu video
 
 Tóm tắt dùng khi thảo luận (đối chiếu với nguồn viết; **không bịa nội dung transcript**). Gói: `research/video-research/godel-incompleteness/analysis.md`.

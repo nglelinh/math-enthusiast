@@ -173,22 +173,6 @@ Suppose $$p^2=2q^2$$. Factor $$p$$ and $$q$$ into primes. The exponent of 2 in t
 
 ---
 
-## Exercises
-
-1. Write the full classical proof that $$\sqrt{2}$$ is irrational, including the odd-square lemma.  
-2. Prove $$\sqrt{3}$$ is irrational by the same template.  
-3. Where does the argument fail if you try to prove $$\sqrt{4}$$ is irrational? (It *is* rational.)  
-4. Reformulate the $$\sqrt{2}$$ proof purely as infinite descent with no gcd words.  
-5. Using prime factorizations, explain the valuation contradiction for $$p^2=2q^2$$.  
-6. True or false: if $$x^2$$ is divisible by 4, then $$x$$ is divisible by 4? Prove or give a counterexample; contrast with divisibility by 2.  
-7. **Narrative (≤300 words).** Explain the proof to a high-school student who knows even/odd but not the word “irrational.”  
-8. Optional: show $$\sqrt[3]{2}$$ is irrational by a related divisibility argument.
-
----
-
-
----
-
 ## Knowledge extracted from video research
 
 Seminar-facing distillation (cross-checked against written sources; **no fabricated transcripts**). Pack: `research/video-research/irrationality-sqrt2/analysis.md`.

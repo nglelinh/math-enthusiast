@@ -197,20 +197,6 @@ Nghịch lý biến mất khi ta nhớ rằng đối xứng của nhóm lớp á
 
 ---
 
-## Bài tập
-
-1. Giải thích ý "không gian các hình dạng" bằng trực giác về mặt xuyến / nửa mặt phẳng trên.  
-2. Đường trắc địa đóng đơn trên mặt hyperbolic là gì? Nó khác một đường cong đóng tô pô như thế nào?  
-3. Vì sao thể tích của không gian mô-đun quan trọng cho bài toán đếm đường cong?  
-4. Tính ergodic của một dòng có nghĩa gì (nói gần đúng)? Đưa ra một hệ quả về "trung bình".  
-5. Phân biệt không gian Teichmüller và không gian mô-đun trong hai câu.  
-6. Đọc một bài tổng quan / bài tưởng niệm; liệt kê **ba** định lý khác nhau gắn với tên Mirzakhani (đếm, thể tích, động lực, …).  
-7. **Liên hệ trong chương.** Viết một đoạn so sánh "động lực trên không gian các hình dạng" (Mirzakhani) với "động lực thuần nhất trong lý thuyết số" (Venkatesh).  
-8. Phác thảo lý do vì sao bài toán bi-a trong đa giác có thể chuyển thành bài toán về mặt phẳng dịch chuyển / các tầng.
-
----
-
-
 ## Nguồn video (bộ tư liệu nghiên cứu video)
 
 Chi tiết: `research/video-research/Mirzakhani_Moduli/`.

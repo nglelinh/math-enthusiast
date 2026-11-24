@@ -133,21 +133,6 @@ Complexity theory is asymptotic and model-relative. It does not tell you the con
 
 ---
 
-## Exercises
-
-1. **Witness.** Give an explicit witness for “this graph has a Hamiltonian cycle” and describe a poly-time check.
-2. **Reduction idea.** Explain why a poly-time algorithm for SAT would yield poly-time algorithms for all of NP.
-3. **Class placement.** Is sorting in P? Is chess-on-$$n\times n$$-board complexity the same question as P vs NP? (Comment carefully.)
-4. **Not synonym.** Write one sentence using NP correctly and one common incorrect usage; correct the latter.
-5. **BQP literacy.** Why does Shor’s result not place SAT in BQP by itself?
-6. **Crypto link.** What is average-case hardness, and why do one-way functions need more than worst-case NP-completeness folklore?
-7. **Stretch.** Skim a list of NP-complete problems; pick one and state its decision version formally.
-
----
-
-
----
-
 ## Knowledge extracted from video research
 
 Seminar-facing distillation (cross-checked against written sources; **no fabricated transcripts**). Pack: `research/video-research/complexity-theory/analysis.md`.

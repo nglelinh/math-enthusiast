@@ -111,15 +111,6 @@ Một ví dụ cực nhỏ để thấy sức sống của bộ ba phổ: lấy 
 
 ---
 
-## Bài tập
-
-1. **Định lý Gelfand.** C*-đại số giao hoán ↔ ?  
-2. **Bộ ba phổ.** Nêu vai trò của $$A$$, $$\mathcal{H}$$, $$D$$, mỗi thứ một dòng.  
-3. **Nói chính xác.** Viết lại câu: "Connes đã hình học hóa vật lý hạt nên mọi thứ ở LHC đều thuần túy là NCG."  
-4. **Cầu nối.** Một liên thông gauge trên một phân thớ khác với việc dùng đại số không giao hoán thay cho không gian nền như thế nào? (Trả lời ở mức ý tưởng là được.)
-
----
-
 ## Tài liệu tham khảo
 
 1. Connes, *Noncommutative Geometry* (Hình học không giao hoán).  

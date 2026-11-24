@@ -174,16 +174,6 @@ Choose Collatz, primes, or Kakeya. Write a half page: which infinite quantifiers
 
 ---
 
-## 6. Exercises
-
-1. Prove that a countable union of countable sets is countable (sketch; assume countable choice if you mention it).  
-2. Prove that the set of finite binary strings is countable, but the set of infinite binary strings is not.  
-3. Show there are infinitely many primes (Euclid) and identify the infinite mode used.  
-4. Explain why “the probability a random integer is even is 1/2” needs a limiting process, not a uniform measure on $$\mathbb{N}$$.  
-5. Proposal (≤150 words): which infinity language will you master in this studio and how will you demonstrate it?
-
----
-
 ## 7. Checkpoint rubric
 
 | Done? | Item |

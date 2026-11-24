@@ -95,13 +95,6 @@ Bài tùy chọn này chủ ý không lặp lại câu chuyện về Hong Wang v
 
 ---
 
-## Bài tập
-
-1. Viết một câu dùng đúng từ "phương án vận chuyển" (plan) cho bài báo của Korotin và cộng sự, và một câu chỉ phù hợp với bài Figalli.
-2. ML-KEM-768 được khuyến nghị cho nhiều ứng dụng thực tế. Giả thiết về độ khó của nó dựa trên đối tượng toán học nào? Định lý xếp cầu đoạt Fields nào *không* cần dùng đến?
-3. Một đồng nghiệp nói GraphGPS "giải được bài toán thấm". Trên một đồ thị hữu hạn có thuộc tính, đại lượng nào thực sự đang được tối ưu?
-4. Vì sao trang này không thêm một đoạn tiểu sử nữa vào loạt bài chân dung?
-
 ## Tài liệu tham khảo
 
 - Korotin, A., Selikhanovych, D., & Burnaev, E. (2023). Neural optimal transport. *ICLR*. [arXiv:2201.12220](https://arxiv.org/abs/2201.12220).

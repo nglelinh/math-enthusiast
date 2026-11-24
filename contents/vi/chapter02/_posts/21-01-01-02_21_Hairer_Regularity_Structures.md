@@ -182,19 +182,6 @@ Trong bức tranh Chương 2, Martin Hairer là hình mẫu tiêu biểu cho m�
 
 ---
 
-## Bài tập
-
-1. Vì sao $$(\partial_x h)^2$$ không xác định nếu $$h$$ chỉ chính quy như nghiệm phương trình nhiệt ngẫu nhiên một chiều? Trả lời bằng ngôn ngữ tích các phân phối.
-2. Viết phương trình $$\Phi^4_3$$ động lực và đánh dấu số hạng không xác định. Chỉ số dưới "3" nói về điều gì?
-3. Trong một đoạn, hãy cho biết **mô hình** bổ sung dữ liệu gì vào cấu trúc chính quy trừu tượng $$(A,T,G)$$.
-4. Phát biểu ý chính của định lý tái dựng mà không dùng chữ "ma thuật". Vì sao tính duy nhất của $$\mathcal{R}f$$ quan trọng khi định nghĩa nghiệm của PDE?
-5. Trong câu chuyện này, **tái chuẩn hóa** làm gì: triệt tiêu một lực vật lý, hay chỉ ra giới hạn của các phương trình đã làm trơn?
-6. Nêu một điểm **chung** của cấu trúc chính quy và phân phối paracontrol, và một điểm **khác nhau** (chỉ cần so khai triển Taylor trừu tượng với paraproduct).
-7. **Luyện phát biểu chính xác.** Viết lại câu "Hairer giải mọi phương trình có nhiễu, kể cả rối loạn (turbulence)" thành hai câu đúng, có thể dùng trong khóa học này.
-8. **Mở rộng.** Đọc lướt vài trang đầu bài của Hairer, arXiv:1303.5113, và liệt kê năm thuật ngữ cần học tiếp (ví dụ: phân phối được mô hình hóa, nhóm cấu trúc, dưới tới hạn, đại số Hopf của cây, nhóm tái chuẩn hóa).
-
----
-
 ## Liên kết
 
 - IMU Fields Medals 2014: [https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2014](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2014)

@@ -160,20 +160,6 @@ Hàm $$L$$ nằm trên mặt phẳng phức; điểm nguyên nằm trong $$\math
 
 ---
 
-## Bài tập
-
-1. Nói một cách trực quan, không gian thuần nhất là gì? Cho một ví dụ $$G/\Gamma$$.  
-2. Vì sao sự phân bố đều có thể dẫn tới kết quả đếm trong số học?  
-3. Chặn lồi cho hàm $$L$$ (nói sơ lược) là gì, và ước lượng dưới lồi tốt hơn ở chỗ nào?  
-4. Kể hai lĩnh vực mà Venkatesh nối với nhau, nói cụ thể hơn "số học" và "hình học".  
-5. Đọc một bài chân dung phổ thông / bài ca ngợi tại lễ trao giải; liệt kê ba lĩnh vực có định lý được nhắc đến.  
-6. **Liên hệ trong chương.** Viết một đoạn so sánh: hệ động lực trên không gian mô-đun (Mirzakhani) và động lực học thuần nhất (Venkatesh).  
-7. Giải thích vì sao dãy **thưa** khiến bài toán phân bố đều khó hơn so với dãy dày.  
-8. Phác thảo mối liên hệ giữa đối đồng điều của đa tạp số học và dạng tự đẳng cấu (hai đến ba câu).
-
----
-
-
 ## Nguồn video (bộ tư liệu nghiên cứu video)
 
 Chi tiết: `research/video-research/Venkatesh_Number_Theory/`.

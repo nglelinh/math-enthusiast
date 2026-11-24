@@ -208,29 +208,6 @@ $$
 
 ---
 
-## Challenges and extensions
-
-1. Why does increasing dimension make naive packing intuition fail?  
-2. What does “even unimodular” buy you as a lattice designer?  
-3. If $$\hat f$$ had a negative dip, how could a packing “escape” the bound?  
-4. Compare proof cultures: Hales (3D, formal verification) vs Viazovska (modular forms).  
-5. Kissing numbers vs packing density—related but not identical; explain one difference.
-
----
-
-## Exercises
-
-1. **Warm-up.** Compute the density of the integer lattice packing in $$\mathbb{R}^2$$ (unit balls at $$\mathbb{Z}^2$$ after suitable scaling discussion).  
-2. **Definitions.** Define lattice packing density using fundamental volume.  
-3. **Candidates.** Why are 240 roots a hint that $$E_8$$ is “tight”?  
-4. **Cohn–Elkies.** In one paragraph, explain why Fourier positivity of $$\hat f$$ controls global arrangements.  
-5. **Credit.** Write two sentences distinguishing the $$E_8$$ and Leech theorems’ authorship.  
-6. **Research literacy.** Open Viazovska’s *Annals* paper (or a detailed survey); from the introduction, list the analytic ingredients named before modular forms appear.  
-7. **Chapter link.** One paragraph comparing Viazovska’s “design a function to prove optimality” with Wang’s “control tubes to prove dimension.”
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Full ranking: `research/video-research/Viazovska_Sphere_Packing/`.

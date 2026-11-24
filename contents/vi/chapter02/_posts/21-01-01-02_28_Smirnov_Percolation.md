@@ -146,19 +146,6 @@ Sau hai thập kỷ, nhiều bài toán lớn ngay sát cạnh định lý của
 
 ---
 
-## Bài tập
-
-1. Trong hai câu, phân biệt mô hình thấm **đỉnh** và thấm **cạnh**. Vì sao một chứng minh dùng đẳng thức đổi màu trên lưới tam giác có thể không chuyển được sang lưới vuông?
-2. **Xác suất nối xuyên** của một hình chữ nhật bảo giác là gì? Vì sao chỉ tại $$p_c$$ người ta mới kỳ vọng có một giới hạn không tầm thường, không phụ thuộc bước lưới, nằm trong $$(0,1)$$?
-3. Nêu ý chính của công thức Cardy, và viết một câu về dạng tam giác đều của Carleson.
-4. Luyện ghi công: viết cho **Schramm**, **Lawler–Schramm–Werner** và **Smirnov** mỗi người một câu, đủ chính xác để dùng trong một báo cáo phản biện.
-5. Đọc lướt tóm tắt bài Chelkak–Smirnov (arXiv:0910.2045). Đại lượng quan sát được là gì, và theo nghĩa nào kết quả này "phổ quát" hơn Smirnov 2001?
-6. Vì sao "đường biên hội tụ về $$\mathrm{SLE}_6$$" mạnh hơn "xác suất nối xuyên hội tụ về công thức Cardy"? Nói ngắn gọn: cần thêm những bước nào về tính compact hoặc nhận dạng giới hạn?
-7. **Luyện phát biểu chính xác.** Viết lại câu phổ biến "Smirnov chỉ ra chuyển pha hai chiều là bảo giác" thành hai câu chính xác cho khóa học này.
-8. **Thảo luận.** So sánh huy chương này với [Werner]({{ site.baseurl }}/contents/vi/chapter02/02_30_Werner_SLE/): ai cung cấp quá trình đường cong, ai cung cấp mô hình lưới hội tụ về nó?
-
----
-
 ## Liên kết
 
 - IMU Fields Medals 2010 (chỉ mục được yêu cầu): [mathunion.org/…/fields-medals-2010](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2010)

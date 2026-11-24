@@ -138,18 +138,6 @@ Both connect geometry/analysis to topology. Neither should be flattened into the
 
 ---
 
-## Exercises
-
-1. Define a dynamical system by iteration in one sentence.  
-2. Why might topology care about iteration of maps on the sphere? ≤100 words.  
-3. Compare Sullivan with [Perelman]({{ site.baseurl }}/contents/en/chapter02/02_03_Perelman_Poincare/) using the table’s axes in your own words.  
-4. Read Abel/Quanta popular notes on Sullivan; list three distinct research areas named.  
-5. **≤200 words:** Virtuoso career vs single theorem—argue using Abel vs a Fields example.  
-6. State carefully what a wandering domain is, and what Sullivan proved does *not* exist for rational maps.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as proof substitutes. Full ranking and notes: `research/video-research/sullivan-topology/`.

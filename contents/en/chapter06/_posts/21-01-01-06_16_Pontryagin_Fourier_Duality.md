@@ -120,16 +120,6 @@ Characters are roots of unity. The **discrete Fourier transform (DFT)** is the f
 
 ---
 
-## Exercises
-
-1. List three characters of $$\mathbb{Z}/4\mathbb{Z}$$.  
-2. Why is $$\widehat{\mathbb{Z}}$$ a circle, not another copy of $$\mathbb{Z}$$?  
-3. State convolution ↔ product as a slogan and name one application.  
-4. **≤100 words:** Compare dual space $$V^*$$ with dual group $$\widehat G$$.  
-5. **Studio link:** Add a Fourier/Pontryagin row set to your [duality dictionary studio]({{ site.baseurl }}/contents/en/chapter07/07_10_Explore_Duality_Dictionary/).
-
----
-
 ## Course landscape
 
 | Lesson | Link |

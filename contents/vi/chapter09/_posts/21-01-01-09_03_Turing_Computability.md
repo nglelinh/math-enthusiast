@@ -151,20 +151,6 @@ Gödel và Turing họ hàng đường chéo nhưng **không đồng nhất**. G
 
 ---
 
-## Bài tập
-
-1. Liệt kê năm thành phần của máy Turing và giải thích trong một câu vì sao bảng chuyển phải hữu hạn.  
-2. Viết ≤120 từ giải thích máy phổ quát cho người chưa học tin học, dùng ẩn dụ “công thức nấu ăn + đầu bếp.”  
-3. Phác thảo (không cần formal) bước đường chéo trong chứng minh bài dừng: chỉ rõ chỗ nào $$D$$ “lật” câu trả lời của $$H$$.  
-4. Cho ví dụ về phép quy dẫn (ở mức ý tưởng): nếu quyết định được bài toán X thì quyết định được bài dừng—do đó X không quyết định được. Tự chọn X ở mức ý tưởng (ví dụ tương đương chương trình).  
-5. Phân biệt bằng bảng 2×2: quyết định được / không; hiệu quả (poly-time) / không hiệu quả—đặt P vs NP và bài dừng vào đúng ô.  
-6. Đọc lại [Gödel]({{ site.baseurl }}/contents/vi/chapter05/05_04_Godel_Incompleteness/): viết ba câu về họ hàng đường chéo **và** một câu về khác biệt.  
-7. **≤250 từ:** Vì sao “thêm RAM, thêm core” không giải quyết bài toán dừng?  
-8. Mô phỏng bằng tay một máy Turing 2–3 trạng thái cộng hai số unary nhỏ; ghi cấu hình từng bước.
-
----
-
-
 ## Video và tài liệu
 
 Video gợi ý: [https://www.youtube.com/watch?v=macM_MtS_w4](https://www.youtube.com/watch?v=macM_MtS_w4) (Computerphile, về Turing và bài toán dừng). Hãy dùng video để làm quen với bối cảnh, không dùng thay cho chứng minh.

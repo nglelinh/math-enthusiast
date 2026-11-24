@@ -237,17 +237,6 @@ Nộp đề xuất trước khi viết mã lớn, để tránh việc nhìn đ�
 
 ---
 
-## 9. Bài tập khởi động (làm trước khi viết đề xuất)
-
-1. Viết quỹ đạo đầy đủ của $$27$$; đếm số bước theo quy ước $$T$$ của bạn.  
-2. Chứng minh mọi lũy thừa của 2 đều về 1 và tính đúng số bước.  
-3. Chứng minh không có bộ ba $$(p,p+2,p+4)$$ đều là số nguyên tố ngoài $$(3,5,7)$$, và giải thích vì sao bài này **không** liên quan đến Collatz (công cụ của bài thực hành về số nguyên tố là khác).  
-4. Viết giả mã cho `stopping_time(n)` kèm cách xử lý khi chạy quá lâu hoặc tràn số.  
-5. Đưa ra một giả thuyết về thời gian dừng có thể kiểm tra là sai.  
-6. Phác thảo mục 1–2 của đề xuất, không quá 200 từ.
-
----
-
 ## 10. Danh sách kiểm tra theo tiêu chí chấm
 
 | ☐ | Đề xuất + định nghĩa cố định + tiêu chí |

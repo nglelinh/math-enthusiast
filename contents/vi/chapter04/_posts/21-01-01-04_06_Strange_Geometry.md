@@ -144,19 +144,6 @@ Bài học chung: **trực giác Euclid đơn giản chỉ là phần ít phức
 - Các thí nghiệm với dải Möbius ([Tokieda](https://www.youtube.com/watch?v=wKV0GYvR2X8)) giúp hiểu tính không định hướng tốt hơn là chỉ đọc định nghĩa.
 - Đường cong lấp đầy: liên tục và toàn ánh vẫn không đủ để kết luận về số chiều.
 
-## Bài tập
-
-1. Làm một dải Möbius bằng giấy; vẽ một đường dọc theo dải cho đến khi quay về điểm đầu.
-2. Vì sao một toàn ánh liên tục $$[0,1]\to[0,1]^2$$ không phải là phép đồng phôi? Nêu một lý do tôpô (ví dụ: bỏ đi một điểm).
-3. Viết không quá 200 từ: so sánh tôpô nội tại của $$S^2$$ với hiện tượng nhúng hoang dại.
-4. Phát biểu cẩn thận nghịch lý Banach–Tarski; nêu hai yếu tố then chốt (tiên đề chọn; các phép quay trong 3D).
-5. Phân biệt đối tượng lạ kiểu fractal dựng được với nghịch lý dựa vào tiên đề chọn; mỗi loại cho một ví dụ.
-6. (Mở rộng) Mô tả hiện tượng biên chung của hồ Wada trong một đoạn văn.
-7. (Mở rộng) Mặt cầu lạ của Milnor làm thay đổi khẳng định "đồng phôi thì có cùng cấu trúc trơn" như thế nào?
-8. Viết ba câu nối bài này với [Nghịch lý]({{ site.baseurl }}/contents/vi/chapter04/04_07_Paradoxes/) và [Fractal]({{ site.baseurl }}/contents/vi/chapter04/04_03_Fractals/).
-
----
-
 ## Nguồn video (bộ tư liệu nghiên cứu video)
 
 Video dùng để **định hướng và xây dựng trực giác**, không thay thế chứng minh hay tài liệu chuẩn. Đánh giá chi tiết: `research/video-research/strange-geometry/`.

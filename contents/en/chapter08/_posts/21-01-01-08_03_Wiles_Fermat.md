@@ -155,18 +155,6 @@ An elliptic curve over $$\mathbb{Q}$$ has, at each prime $$p$$, a reduction type
 
 ---
 
-## Exercises
-
-1. Write FLT for exponent $$4$$ in words and as an equation. Explain why special cases do not constitute a general proof.  
-2. Give the Frey–Ribet–Wiles chain in four bullets, without technical jargon beyond “modular” and “elliptic curve.”  
-3. What does “semistable” buy you in the Abel story (one paragraph slogan)?  
-4. **≤300 words:** Restate the official Abel 2016 citation in your own words, naming methods not only FLT.  
-5. Compare this lecture with the course [FLT page]({{ site.baseurl }}/contents/en/chapter05/05_08_Fermat_Last_Theorem/) and list two differences in emphasis (proof ideas vs lifetime methods).  
-6. **Stretch:** In one paragraph, explain what a Galois representation is trying to package (symmetry of arithmetic vs linear algebra).
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as proof substitutes. Full ranking and notes: `research/video-research/wiles-fermat/`.

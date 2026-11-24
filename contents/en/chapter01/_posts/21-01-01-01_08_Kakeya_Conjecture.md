@@ -412,21 +412,6 @@ Read order suggestion: this map → Wang flagship → exploration studio.
 
 ---
 
-## Exercises
-
-1. Define Kakeya set in $$\mathbb{R}^n$$ in one sentence.  
-2. Why is Davies compatible with Besicovitch’s measure-zero sets?  
-3. Write $$\dim_H(A)$$ as an inf/sup over $$\mathcal{H}^s$$; explain the “$$\infty\to 0$$ jump” for a filled square.  
-4. State the covering upper bound for $$\dim_H$$ and the Mass Distribution Principle (one sentence each).  
-5. Sketch why tubes replace segments for analysis.  
-6. Name three levels of the harmonic-analysis “tower” above Kakeya (restriction / Bochner–Riesz / local smoothing).  
-7. Write the status table from memory.  
-8. Open the Wang Ch.2 essay and extract the self-improvement slogan.  
-9. Research literacy: read the abstract of arXiv:2502.17655; quote the volume statement in your own words.  
-10. Exploration: attempt Ch.7 “smallest Kakeya set” prompts for 30 minutes and log one surprise.
-
----
-
 ## Popular video sources
 
 Use for **intuition only**; theorems live in Ch.2 Wang + arXiv.
@@ -492,7 +477,6 @@ The section above already ranks orientation videos. Canonical pack (all URLs, Mo
 **Status reminder (as of 2026):** 3D Kakeya *set* conjecture **proved** (Wang–Zahl 2025); dimensions $$n\ge 4$$ and stronger maximal-function forms largely **open**. Videos are for intuition and culture—not a substitute for Ch.2 / arXiv.
 
 ---
-
 
 
 ### Transcript & frames (flagship extract)

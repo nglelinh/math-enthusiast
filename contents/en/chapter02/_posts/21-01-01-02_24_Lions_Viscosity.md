@@ -130,18 +130,6 @@ A later chapter—mean field games, Collège de France lectures—continues the 
 
 ---
 
-## Exercises
-
-1. In your own words: why can characteristics of $$u_t+H(\nabla u)=0$$ produce a gradient jump in finite time? Why does that force a weak theory?
-2. Write the touching definition of a viscosity subsolution for $$u_t+H(\nabla u)=0$$, then check consistency: if $$u$$ is $$C^1$$, the definition reduces to the classical inequality.
-3. Why is **comparison** more valuable than a formal existence construction? Answer in at most six sentences.
-4. Skim the first pages of Crandall–Ishii–Lions (BAMS 1992 or arXiv:math/9207212). List three words of jargon (jet, test function, degenerate ellipticity) and give a one-line gloss for each.
-5. Distinguish, in a table of your own, **viscosity solutions**, **DiPerna–Lions renormalized solutions**, and **concentration-compactness**. Which failure of classical theory does each address?
-6. **Accuracy practice.** Find a sentence that says the 1994 medal was “for mean field games.” Rewrite it in two precise sentences.
-7. **Seminar stretch.** Compare viscosity comparison with the maximum principle for harmonic functions: what is inherited, and what must be rebuilt for non-differentiable $$u$$?
-
----
-
 ## Links
 
 - IMU Fields Medal page: [https://www.mathunion.org/imu-awards/fields-medal](https://www.mathunion.org/imu-awards/fields-medal)

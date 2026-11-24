@@ -78,13 +78,6 @@ Trong mỗi trường hợp, bài toán lớn cung cấp một *khuôn mẫu kh�
 
 Bài này không biến RH, BSD hay giả thuyết số nguyên tố sinh đôi thành sản phẩm mật mã; những câu chuyện đó thuộc về số hạng sai số và bài lý thuyết số ở Chương 3. Bài cũng không đi sâu vào độ phức tạp của SAT hơn những gì đã nói trong bài P vs NP.
 
-## Bài tập
-
-1. Một nhà cung cấp tuyên bố: "bộ giải SAT của chúng tôi cho thấy P = NP trên mạch (netlist) của khách hàng." Hãy viết lại tuyên bố này cho khớp với các định nghĩa trong bài P vs NP.
-2. Một công ty khởi nghiệp về khí hậu quảng cáo rằng toán tử nơ-ron của họ đã "giải Navier–Stokes." Bạn cần hai thông tin nào (phân phối dữ liệu huấn luyện; một chứng nhận về độ trơn) trước khi chấp nhận một phát biểu yếu hơn?
-3. AlphaGeometry giải được 25 trên 30 bài hình học olympic. Vì sao điều đó không mâu thuẫn với việc Kakeya vẫn còn mở?
-4. Nếu một phép tìm kiếm Collatz đi tới $$2^{80}$$, câu nào trong bài Collatz vẫn đúng y như hôm nay?
-
 ## Tài liệu tham khảo
 
 - Kovachki, N., Li, Z., Liu, B., Azizzadenesheli, K., Bhattacharya, K., Stuart, A., & Anandkumar, A. (2023). Neural operator: Learning maps between function spaces with applications to PDEs. *JMLR*, 24(89), 1–97. [jmlr.org/papers/v24/21-1524.html](https://jmlr.org/papers/v24/21-1524.html).

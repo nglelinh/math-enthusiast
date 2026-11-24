@@ -198,16 +198,6 @@ Using the formula for $$V_n$$, plot or tabulate unit-ball volume for $$n=1,\ldot
 
 ---
 
-## 6. Exercises
-
-1. Derive $$\delta_{\square}=\pi/4$$ carefully from first principles.  
-2. Derive or look up and *re-explain* $$\delta_{\mathrm{hex}}=\pi/(2\sqrt{3})$$ with a clear fundamental cell.  
-3. Show that if you scale all lengths by $$\lambda>0$$, density is unchanged. Why is that important for the definition?  
-4. Explain in your own words why a Fourier upper bound can rule out packings denser than a given lattice even if you never list all packings.  
-5. Draft a studio proposal (≤200 words): question, methods, success criteria, risks (boundary bias, unit conversion, software bugs).
-
----
-
 ## 7. Checkpoint rubric
 
 | Done? | Item |

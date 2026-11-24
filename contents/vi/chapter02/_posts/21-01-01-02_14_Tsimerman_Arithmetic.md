@@ -185,19 +185,6 @@ Không có bộ công cụ nào tốt hơn tất cả. Mỗi bộ công cụ gi�
 
 ---
 
-## Bài tập
-
-1. Chữ "không điển hình" trong "giao không điển hình" nghĩa là gì? Viết bằng ngôn ngữ số chiều và bao đóng Zariski, dùng từ "xác suất" không quá một lần.
-2. Vì sao một ánh xạ siêu việt lại có thể có ảnh là tập đại số? Viết một đoạn ngắn về ánh xạ chu kỳ và đơn đạo.
-3. Nêu hai thành phần **ngoài** tính o-tối tiểu thường được dùng trong các chứng minh này.
-4. So sánh bộ công cụ của Tsimerman với công cụ endoscopy và công thức vết trong chương trình Langlands (công trình của Ngô Bảo Châu) bằng một bảng hai hàng (câu hỏi / công cụ chính), không cần chi tiết kỹ thuật.
-5. Đọc lời trích dẫn của IMU, chỉ ra **hai** giả thuyết được nêu tên và diễn giải mỗi giả thuyết bằng một câu tiếng Việt.
-6. **Pila–Wilkie.** Vì sao một tập o-tối tiểu, sau khi bỏ phần đại số, chỉ chứa ít điểm hữu tỷ có độ cao bị chặn? Trả lời ở mức ý tưởng.
-7. **Seminar (tối đa 200 từ).** Giải thích cho một bạn học giải tích câu: "o-tối tiểu nghĩa là cấm những tập hoang như $$\mathbb{Z}$$ xuất hiện trong các tập định nghĩa được".
-
----
-
-
 ## Nguồn video và tài liệu đọc
 
 Chi tiết: `research/video-research/Tsimerman_Arithmetic/`.

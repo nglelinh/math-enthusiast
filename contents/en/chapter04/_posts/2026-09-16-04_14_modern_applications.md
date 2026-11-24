@@ -48,13 +48,6 @@ A hat tiling on a laptop wallpaper is not a classification of all aperiodic mono
 
 This page does not re-list numbers, algebra, geometry, probability, analysis, and dynamics. If you want that grammar, return to [Six Math Essentials]({{ site.baseurl }}/contents/en/chapter04/04_01_Six_Math_Essentials/). Fractals, impossible figures, and minimal surfaces are left to their own essays.
 
-## Exercises
-
-1. Why did a SAT encoding help *before* the hat was known to tile, and why is that still not a substitute for the aperiodicity proof?
-2. In the EDM sampler, which object is closest to a vector field from the chaos lecture?
-3. Take a task scored by exact-match accuracy. Following Schaeffer et al., propose one smoother metric and say what “emergence” would look like on it.
-4. Write one sentence that could appear on this page and one that belongs only on the Tao hub.
-
 ## References
 
 - Smith, D., Myers, J. S., Kaplan, C. S., & Goodman-Strauss, C. (2024). An aperiodic monotile. *Combinatorial Theory*, 4(1). [arXiv:2303.10798](https://arxiv.org/abs/2303.10798).

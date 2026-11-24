@@ -124,17 +124,6 @@ Particle physics did not invent Lie theory, but it **selected and stressed** rep
 
 ---
 
-## Exercises
-
-1. **Definition.** In your own words: group vs Lie group vs Lie algebra.  
-2. **$$SU(2)$$.** Why are $$2\times 2$$ unitary determinant-1 matrices a natural home for spin-1/2?  
-3. **Noether.** Match: time translation, rotation, global phase ↔ energy, angular momentum, charge.  
-4. **Global vs gauge.** Give one sentence each.  
-5. **SM literacy.** Which factor is primarily “color”? Which is “weak isospin”?  
-6. **Bridge.** How does a representation of $$G$$ become “matter fields in an associated bundle” in the gauge geometry essay? (Slogan OK.)
-
----
-
 ## References and further reading
 
 1. Hall — *Lie Groups, Lie Algebras, and Representations* (math-first).  

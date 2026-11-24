@@ -116,19 +116,6 @@ The classical [Riemann hypothesis]({{ site.baseurl }}/contents/en/chapter01/01_0
 
 ---
 
-## Exercises
-
-1. Write $$Z(X,T)$$ and say in words what $$N_m$$ counts. Check the formula for $$\mathbb{P}^1$$: $$N_m=q^m+1$$.
-2. In the elliptic-curve case, Hasse’s bound $$|N_1-(q+1)|\le 2\sqrt{q}$$ is the RH analogue for $$n=1$$. Why do two complex numbers of absolute value $$\sqrt{q}$$ produce that inequality?
-3. Who proved which piece: rationality, functional equation, purity? Fill a three-row table without looking.
-4. Why did Grothendieck’s standard conjectures *look like* a path to purity, and why is it important that Deligne avoided needing them?
-5. **Ramanujan, carefully.** State $$|\tau(p)|\le 2p^{11/2}$$ and write two sentences on why this is a Weil-type bound rather than an elementary estimate on the modular curve $$X_0(1)$$ alone.
-6. **LO6.** Find a popular sentence that says “Deligne proved the Riemann hypothesis.” Rewrite it for this course.
-7. Skim the first pages of Weil I or a survey (Katz, ICM 1978) and list five words to learn next (e.g. Lefschetz pencil, vanishing cycle, weight, $$\ell$$-adic, Poincaré duality).
-8. **Seminar stretch.** Compare “purity of weights” here with [Scholze’s]({{ site.baseurl }}/contents/en/chapter02/02_06_Scholze_Perfectoid/) later $$p$$-adic cohomology languages: both are about moving information between cohomology theories. What problem is finite-field, and what problem is mixed-characteristic?
-
----
-
 ## Video and reading links
 
 No course video-research pack is attached to this lesson.

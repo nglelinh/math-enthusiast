@@ -204,18 +204,6 @@ Xem [3B1B gradient descent](https://www.youtube.com/watch?v=IHZwWFHWa-w) cùng v
 
 ---
 
-## Bài tập
-
-1. Một nhà máy sản xuất hai sản phẩm A, B với lợi nhuận và giới hạn tài nguyên cho trước. Viết bài toán LP bằng ký hiệu.  
-2. Hàm $$x^4$$ có lồi trên $$\mathbb{R}$$ không? Còn $$-x^2$$?  
-3. Với $$f(x,y)=x^2+10y^2$$, thực hiện một bước gradient từ $$(1,1)$$ với $$\eta=0.05$$.  
-4. Viết bài toán "khớp đường thẳng bằng bình phương tối thiểu" thành một bài toán tối ưu. Bài toán có lồi không?  
-5. Viết hai câu: một nghiệm chấp nhận được của bài đối ngẫu cho ta biết gì về bài toán cực tiểu gốc?  
-6. Biểu diễn điều kiện "chọn nhiều nhất hai trong ba kho hàng" bằng biến nhị phân.  
-7. Nâng cao: vì sao entropy chéo với softmax trên một mô hình tuyến tính là hàm lồi theo trọng số, còn với mạng sâu nói chung thì không?
-
----
-
 ## Nguồn video (gói math-video-researcher)
 
 Dùng video để **định hướng và trực giác**, không thay chứng minh hay tài liệu chuẩn. Chi tiết xếp hạng: `research/video-research/optimization-operations-ai/`.

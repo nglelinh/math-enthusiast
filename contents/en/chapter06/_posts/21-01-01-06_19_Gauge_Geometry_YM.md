@@ -184,18 +184,6 @@ Non-abelian holonomies replace phases by matrices in $$G$$; noncommuting path-or
 
 ---
 
-## Exercises
-
-1. **Gauge transform.** Show $$F=dA$$ is invariant under $$A\mapsto A+d\lambda$$.  
-2. **Non-abelian term.** Why does $$A\wedge A$$ vanish for scalar abelian $$A$$ but not for matrix-valued $$A$$?  
-3. **Dictionary.** Match: connection, curvature, holonomy, associated bundle ↔ $$A$$, $$F$$, Wilson loop, matter field.  
-4. **SM.** Which gauge factor is associated with color?  
-5. **Layers.** In ≤100 words, separate classical YM analysis from the Clay quantum problem.  
-6. **LO6.** Rewrite: “Math still doesn’t understand gauge theory, so particle physics is on shaky ground.”  
-7. **Bridge.** One paragraph linking this essay to Atiyah–Singer or Uhlenbeck.
-
----
-
 ## References and further reading
 
 1. Baez & Muniain — *Gauge Fields, Knots and Gravity*.  

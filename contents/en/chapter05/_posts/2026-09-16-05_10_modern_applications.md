@@ -48,13 +48,6 @@ A green Lean check is a guarantee relative to a spec, as Chapter 9’s verificat
 
 This note does not formalize FLT or Poincaré. It does not claim that combinatorics problems are now easy for Lean agents (the 2024 IMO combinatorics items were not solved by the system).
 
-## Exercises
-
-1. In the style of the Euclid essay, name the *move* in LTE: what is being reduced to a kernel check, and what had to be built first?
-2. Why is “human-readable geometry proof” a different guarantee from “Lean kernel accepts a term”?
-3. List three ways the IMO 2024 AlphaProof evaluation differed from the human contest, using only facts from the DeepMind note or the 2025 paper.
-4. State Gödel incompleteness in one sentence that remains true after AlphaProof.
-
 ## References
 
 - Lean community. (2022). Completion of the Liquid Tensor Experiment. [leanprover-community.github.io/blog/posts/lte-final](https://leanprover-community.github.io/blog/posts/lte-final/).

@@ -131,15 +131,6 @@ Intent → action → result → label → next step. Include at least one **rev
 
 ---
 
-## Exercises (seminar exit ticket)
-
-1. In one sentence: what did your dual pair **swap**?  
-2. Name one dictionary row that is a **theorem** and one that is only a **program**.  
-3. Give an example of a popular claim that confuses symmetry with duality.  
-4. **≤100 words:** Why does status labeling protect you from overclaiming?
-
----
-
 ## References
 
 1. Course duality track — Ch.6 lessons 12–17.  

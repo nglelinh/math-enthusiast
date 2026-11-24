@@ -174,16 +174,6 @@ Làm lại chứng minh chặn dưới số Ramsey trong sách giáo khoa, hoặ
 
 ---
 
-## 6. Bài tập
-
-1. Đếm số cặp $$(a,d)$$ với $$d>0$$, $$a+2d\le N$$. Công thức chính xác là gì?  
-2. Tính kỳ vọng số 3-AP khi mỗi số được giữ độc lập với xác suất $$p$$.  
-3. Giải thích vì sao một tập có mật độ dương khác hẳn một tập cực thưa.  
-4. Viết một đoạn trình bày một ví dụ về phương pháp xác suất (đồ thị hoặc số học).  
-5. Đề xuất (không quá 200 chữ) một thí nghiệm: tham số, tiêu chí, rủi ro (định nghĩa không thống nhất, sai lệch do seed).
-
----
-
 ## 7. Bảng tự đánh giá
 
 | ☐ | Bảng mô phỏng có ghi tham số |

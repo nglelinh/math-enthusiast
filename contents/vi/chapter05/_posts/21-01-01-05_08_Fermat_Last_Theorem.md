@@ -163,18 +163,6 @@ Frey cung cấp đối tượng làm cầu nối; Serre đặt khung cho ràng b
 
 ---
 
-## Bài tập
-
-1. Chỉ ra rằng một phản ví dụ với số mũ $$6$$ cho một phản ví dụ với số mũ $$3$$. Điều này giúp quy bài toán FLT như thế nào?
-2. Trong ba câu, giải thích vì sao $$n=2$$ khác căn bản.
-3. Viết chuỗi Frey → Ribet → Wiles thành bản phác năm dòng cho một slide.
-4. Tính modular của đường cong elliptic, nói gọn, nghĩa là gì?
-5. **Ghi công đúng người.** Viết một đoạn cho độc giả phổ thông nêu tên Wiles và Taylor mà không bỏ quên Frey và Ribet.
-6. **Viết tự luận (không quá 400 từ).** Giải thích ý tưởng bắc cầu cho một bạn học chưa từng nghe về dạng modular.
-7. Tùy chọn: đọc phần mở đầu của một bài tổng quan về nâng tính modular; liệt kê ba danh từ cần định nghĩa thêm.
-
----
-
 ## Kiến thức rút ra từ phần tìm hiểu video
 
 Tóm tắt dùng khi thảo luận (đối chiếu với nguồn viết; **không bịa nội dung transcript**). Gói: `research/video-research/fermat-last-theorem/analysis.md`.

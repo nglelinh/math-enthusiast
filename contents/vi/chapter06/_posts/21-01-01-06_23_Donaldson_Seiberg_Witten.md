@@ -120,16 +120,6 @@ Vì sao giới tô pô lại vỡ òa? Với phương trình Donaldson, nhóm ga
 
 ---
 
-## Bài tập
-
-1. **Bước then chốt.** Trong không quá 60 chữ: không gian các liên thông phát hiện cấu trúc trơn như thế nào?  
-2. **ASD.** Điều kiện $$F_A^+=0$$ đòi hỏi gì ở độ cong?  
-3. **Seiberg–Witten và Donaldson.** Nêu một lợi thế thực hành của Seiberg–Witten.  
-4. **Nói chính xác.** Viết lại câu: "Vật lý đã phát hiện ra rằng tô pô bốn chiều bị sai."  
-5. **Giải thích nguyên lý.** Phác thảo trong 5 câu: phương trình → không gian moduli → bất biến → định lý về đa tạp.
-
----
-
 ## Tài liệu tham khảo
 
 1. Donaldson & Kronheimer, *The Geometry of Four-Manifolds* (Hình học của đa tạp bốn chiều).  

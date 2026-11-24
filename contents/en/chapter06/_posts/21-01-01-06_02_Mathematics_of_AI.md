@@ -195,21 +195,6 @@ Accuracy on a test set is an **empirical estimate**, not a PAC bound. Calibratio
 
 ---
 
-## Exercises
-
-1. **Warm-up.** Write a $$2\times 2$$ matrix–vector product by hand; interpret it as a linear layer without bias.
-2. **Definitions.** Define empirical risk and true risk; give one sentence on why they can diverge.
-3. **Mechanism (≤250 words).** Chain: data → model → loss → gradient update → deployed predictor. Name one mathematical failure mode at each step.
-4. **Three fields.** One sentence each: how linear algebra, probability, and optimization appear when training a classifier.
-5. **Precision vs hype.** Find a news claim about AI; rewrite it in two sentences separating measurement from speculation.
-6. **Open question literacy.** Pick one item from Section 6; write a falsifiable *empirical* question and a *mathematical* question related to it (they need not be the same).
-7. **Stretch.** Skim an abstract on double descent or neural tangent kernels; list three terms to look up and one claim that is theorem-shaped versus one that is experiment-shaped.
-
----
-
-
----
-
 ## Knowledge extracted from video research
 
 Seminar-facing distillation (cross-checked against written sources; **no fabricated transcripts**). Pack: `research/video-research/mathematics-of-ai/analysis.md`.
@@ -250,7 +235,6 @@ Use videos for **orientation and research culture**, not as substitutes for prim
 **Status reminder:** **Active research field.** Core engineering practice is mature; mathematical understanding of deep learning (generalization, optimization landscapes, feature learning) remains partial as of 2026.
 
 ---
-
 
 
 ### Transcript & frames (flagship extract)

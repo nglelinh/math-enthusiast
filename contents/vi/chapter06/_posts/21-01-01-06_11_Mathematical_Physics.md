@@ -206,20 +206,6 @@ Sách giáo khoa chéo hóa ma trận hữu hạn và bỏ qua miền xác đị
 
 ---
 
-## Bài tập
-
-1. Phương trình vi phân thường với vế phải Lipschitz: phát biểu kết quả tồn tại và duy nhất cơ bản; so sánh với tình trạng còn mở của Navier–Stokes.
-2. Vì sao đại lượng quan sát cần có phổ thực, và tính tự liên hợp bảo đảm điều đó như thế nào (ý chính)?
-3. Hệ hai trạng thái với năng lượng $$0,E$$: tính $$Z$$ và năng lượng trung bình theo $$\beta$$.
-4. **Ví dụ Stokes.** Với $$\mathbf F=(-y,x,0)$$, tính $$\nabla\times\mathbf F$$ và giải thích (không quá 80 chữ) vì sao tích phân đường quanh đường tròn đơn vị bằng thông lượng của rota qua đĩa đơn vị.
-5. **Dạng vi phân.** Mỗi ý một câu: $$dF=0$$ chứa nội dung gì, $$d\star F=J$$ chứa nội dung gì (Maxwell viết bằng dạng vi phân)?
-6. Viết một đoạn: sự dư thừa của pha địa phương ↔ liên thông (lập luận gần đúng).
-7. Nêu hai bài toán Clay có nguồn gốc vật lý; mỗi bài một câu phát biểu cẩn thận.
-8. Chọn một trong các chủ đề vận chuyển tối ưu / mạng / thông tin lượng tử / đối ngẫu: viết ba câu nối nó với phương trình đạo hàm riêng, xác suất hoặc hình học trong vật lý.
-9. Đọc một bài phổ biến khoa học về sự ổn định của lỗ đen; liệt kê đâu là định lý, đâu là phép ẩn dụ.
-
----
-
 ## Kiến thức rút ra từ nghiên cứu video
 
 Tóm tắt dùng cho thảo luận (đã đối chiếu với nguồn viết; **không bịa nội dung phụ đề**). Gói: `research/video-research/mathematical-physics/analysis.md`.

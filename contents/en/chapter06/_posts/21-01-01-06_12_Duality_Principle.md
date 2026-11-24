@@ -206,19 +206,6 @@ AdS/CFT                 bulk gravity ↔ boundary QFT
 
 ---
 
-## Exercises
-
-1. **Dual space.** For $$V=\mathbb{R}^2$$, describe $$V^*$$ and explain why a linear map $$f:V\to W$$ induces a map the **other** way on duals.  
-2. **Pairing slogan.** In ≤80 words, what does a “perfect pairing” $$A\times B\to K$$ buy you conceptually?  
-3. **Poincaré shape.** For a closed oriented surface ($$n=2$$), what does Poincaré duality say about $$H^1$$ vs $$H_1$$ at slogan level?  
-4. **EM duality.** Write Maxwell’s equations in vacuum in a form that makes $$E\leftrightarrow B$$ symmetry visible (heuristic OK), or explain Hodge dual of $$F$$ in one paragraph.  
-5. **S vs T.** In a table of two rows, contrast S-duality and T-duality (what is swapped; one payoff each).  
-6. **Langlands literacy.** What is the Langlands dual group for, at slogan level, and what must you **not** claim about the program’s status?  
-7. **≤200 words:** Why is “two theories, one physics” a different intellectual move from “one theory with a large symmetry group”?  
-8. **Optional stretch.** Skim a popular AdS/CFT explainer and list three dictionary entries (bulk object ↔ boundary object) with a caution note on status.
-
----
-
 ## References and further reading
 
 1. Wikipedia — [Duality (mathematics)](https://en.wikipedia.org/wiki/Duality_(mathematics)) (structured survey of patterns).  

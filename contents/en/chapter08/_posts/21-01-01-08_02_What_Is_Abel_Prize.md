@@ -134,17 +134,6 @@ Reading them as a set, you should feel the Abel clock: long arcs, toolkits, and 
 
 ---
 
-## Exercises
-
-1. In two sentences, contrast Abel and Fields using only institutional facts (cadence, age, emphasis)—no named laureates.  
-2. Open [abelprize.no](https://abelprize.no/), pick any laureate not in this chapter’s deep essays, and write the citation’s mathematical objects as a bullet list of three nouns.  
-3. Explain in ≤150 words what “infrastructure mathematics” means, using one example from the mini-tour above.  
-4. Why is it inaccurate to say that Abel 2021 “solved P vs NP”? What *did* that prize emphasize?  
-5. **≤300 words:** Argue that lifetime tool-building can be as important as a single famous theorem. Cite one Abel year from this chapter.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as proof substitutes. Full ranking and notes: `research/video-research/what-is-abel-prize/`.

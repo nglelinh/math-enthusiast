@@ -147,18 +147,6 @@ Hệ tiên đề của von Neumann đã biến cơ học ma trận và cơ học
 
 ---
 
-## Bài tập
-
-1. **Tích vô hướng.** Kiểm tra rằng $$\langle\phi|\psi\rangle=\sum_i\overline{\phi_i}\psi_i$$ trên $$\mathbb{C}^n$$ tuyến tính theo $$\psi$$ và phản tuyến tính (liên hợp tuyến tính) theo $$\phi$$.  
-2. **Quy tắc Born.** Với $$\psi=(1/\sqrt{2},1/\sqrt{2})$$ và $$A=\operatorname{diag}(1,-1)$$, tính xác suất của từng kết quả đo.  
-3. **Tự liên hợp.** Vì sao một ma trận không Hermite là mô hình không phù hợp cho một đại lượng quan sát có kết quả đo là số thực?  
-4. **$$L^2$$.** Vì sao hàm hằng $$1$$ không thuộc $$L^2(\mathbb{R})$$?  
-5. **Tiến hóa unita.** Chứng minh rằng nếu $$U(t)=e^{-itH/\hbar}$$ với $$H$$ là ma trận Hermite trên $$\mathbb{C}^n$$ thì $$\|U(t)\psi\|=\|\psi\|$$.  
-6. **Cầu nối.** Viết một đoạn nối bài này với qubit trong bài thông tin lượng tử.  
-7. **Giao hoán tử.** Vì sao dùng ma trận không Hermite là sai *loại* công cụ khi bàn về nguyên lý bất định, và bạn sẽ gặp $$[X,P]=i\hbar$$ ở bài nào tiếp theo?
-
----
-
 ## Tài liệu tham khảo
 
 1. Hall, *Quantum Theory for Mathematicians* (Lý thuyết lượng tử cho nhà toán học).  

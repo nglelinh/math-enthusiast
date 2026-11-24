@@ -134,21 +134,6 @@ Even perfect reductions fail if implementations leak keys through timing, cache,
 
 ---
 
-## Exercises
-
-1. **Roles.** Match: confidentiality of bulk data, key exchange, non-repudiation—to symmetric encryption, KEM/key exchange, signatures.
-2. **Harvest now.** Explain in three sentences why long-lived secrets motivate PQC before large quantum computers exist.
-3. **Shor vs Grover.** One paragraph each on public-key vs symmetric impact.
-4. **Reduction literacy.** What does a reduction from LWE to a scheme’s security claim to show? What does it *not* show?
-5. **QKD vs PQC table.** Fill the comparison table from memory, then check Section 5.
-6. **ZK idea.** Invent a toy “I know a password hash preimage” story and say what should not leak.
-7. **Critique.** Find a vendor “quantum-safe” claim; list missing details (parameters, scheme name, side channels, hybrid mode).
-
----
-
-
----
-
 ## Knowledge extracted from video research
 
 Seminar-facing distillation (cross-checked against written sources; **no fabricated transcripts**). Pack: `research/video-research/future-cryptography/analysis.md`.

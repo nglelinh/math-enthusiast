@@ -140,18 +140,6 @@ $$
 
 ---
 
-## Bài tập
-
-1. Viết một đoạn so sánh mô hình A và mô hình B.  
-2. Việc lật kim cương Hodge giúp ích gì cho tính toán?  
-3. Phát biểu SYZ trong không quá 3 câu; nêu một khó khăn.  
-4. Viết ý chính của HMS như một tương đương phạm trù (viết không hình thức cũng được).  
-5. **Không quá 150 chữ:** vì sao đối xứng gương là một phép *đối ngẫu* theo nghĩa của bài nguyên lý?  
-6. Đọc hiểu trạng thái: nêu một định lý cho trường hợp cụ thể và một chương trình còn mở.  
-7. **Không bắt buộc:** đọc lướt phần tóm tắt bài của Auroux về phạm trù Fukaya; liệt kê ba thuật ngữ mới.
-
----
-
 ## Ghi chú viết lại từ video chính
 
 *Viết lại từ phụ đề tự động của bài nói của Witten (Fields Medal Symposium 2012). Phụ đề: `research/video-research/mirror-symmetry/transcripts/`. Các đơn vị kiến thức: `knowledge_units_mode_c.json`. Đây là phần viết lại, không chép nguyên văn phụ đề.*

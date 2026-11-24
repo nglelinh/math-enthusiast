@@ -309,19 +309,6 @@ Video trực quan chính: [Brain Station — Gradient, Divergence and Curl](http
 
 ---
 
-## Bài tập
-
-1. Với $$s(t)=\frac12 gt^2$$, tính vận tốc và gia tốc, rồi giải thích ý nghĩa.  
-2. Viết ba câu giải thích vì sao "tốc độ thay đổi tức thời" và "sự tích lũy" phải gắn liền với nhau.  
-3. Phân loại ODE hay PDE: mạch RC; sự truyền nhiệt trên một thanh kim loại; quỹ đạo của một hành tinh.  
-4. Viết một câu nối định luật Fourier với phương trình nhiệt.  
-5. **Giải tích vectơ.** Với $$f=x^2+y^2$$, tính $$\nabla f$$ tại $$(1,2)$$. Với $$\mathbf{v}=(x,y)$$ và $$\mathbf{w}=(-y,x)$$, tính divergence và giải thích ý nghĩa của dấu.  
-6. Vì sao dạng yếu cho phép dùng xấp xỉ tuyến tính từng mảnh?  
-7. Chọn một thiết bị bạn hay dùng; nêu một đại lượng được lấy đạo hàm hoặc tích phân trong mô hình thiết kế của nó.  
-8. Nâng cao: viết dạng yếu của $$-u''=f$$ trên $$(0,1)$$ với $$u(0)=u(1)=0$$.
-
----
-
 ## Video phổ thông
 
 - **Nguồn:** [Best Explanation of Gradient, Divergence and Curl — Brain Station Advanced](https://www.youtube.com/watch?v=m_Psx7CdvDk) (khoảng 15 phút; 2026-08-03).  

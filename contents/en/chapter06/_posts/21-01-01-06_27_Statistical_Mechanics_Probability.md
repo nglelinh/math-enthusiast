@@ -82,16 +82,6 @@ Euclidean quantum field theory formally looks like a continuum statistical field
 
 ---
 
-## Exercises
-
-1. **Two-state system.** Energies $$0$$ and $$E$$: write $$Z$$ and mean energy vs $$\beta$$.  
-2. **Thermodynamic limit.** Why might $$F$$ be smooth for finite $$N$$ but not in the limit?  
-3. **Gibbs.** In ≤40 words, what does $$p(s)\propto e^{-\beta E(s)}$$ encode?  
-4. **Bridge.** One paragraph: Euclidean QFT as “statistical mechanics of fields.”  
-5. **LO6.** Rewrite: “Simulations show a jump, so we proved a phase transition theorem.”
-
----
-
 ## References and further reading
 
 1. Baxter — *Exactly Solved Models in Statistical Mechanics*.  

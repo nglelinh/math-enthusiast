@@ -212,19 +212,6 @@ Numberphile and Quanta’s map-coloring films, together with Gonthier’s Notice
 
 ---
 
-## Exercises
-
-1. Draw a planar map that needs **three** colors and argue carefully why two colors fail.
-2. Translate your map into a dual graph and 3-color the vertices.
-3. From $$e\le 3v-6$$ for simple planar graphs with $$v\ge 3$$, prove that some vertex has degree at most $$5$$.
-4. Outline the five-color induction in four bullet points (low-degree vertex → remove → color → extend / recolor).
-5. In your own words: what is an **unavoidable set**, and what does it mean for a configuration to be **reducible**? How do the two notions combine?
-6. Research literacy: read a short history of Appel–Haken; list one historical criticism of computer proof and one response (e.g. independent checks, RSST simplification, Coq formalization).
-7. Exploration: try the [Ch.7 map-color studio]({{ site.baseurl }}/contents/en/chapter07/07_07_Explore_Map_Colors/) prompts; compute Heawood’s number for $$g=1$$ and $$g=2$$.
-8. Compare proof cultures in one paragraph: 4CT’s finite case explosion vs Perelman’s Ricci-flow approach to the Poincaré conjecture (community verification without the same style of machine case list).
-
----
-
 ## Video sources (math-video-researcher pack)
 
 Full ranking and notes: `research/video-research/Four_Color_Theorem/`.

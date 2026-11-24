@@ -214,18 +214,6 @@ Watch [3B1B Bayes](https://www.youtube.com/watch?v=HZGCoVF3YvM) and [Veritasium 
 
 ---
 
-## Exercises
-
-1. **Warm-up.** A fair die is rolled. Compute $$\mathbb{E}[X]$$ and $$\mathrm{Var}(X)$$ for the face value $$X$$.  
-2. **LLN narrative.** Explain in three sentences why polling averages stabilize as sample size grows—and name one assumption that can fail.  
-3. **CLT use.** If i.i.d. measurements have $$\sigma=2$$, how does the SE of the mean scale from $$n=100$$ to $$n=400$$?  
-4. **Risk vs empirical risk.** Write definitions of $$R(f)$$ and $$\hat{R}_n(f)$$ and one sentence on why minimizing the second is not automatically optimal for the first.  
-5. **$$p$$-value literacy.** Rewrite a wrong popular sentence about $$p$$-values into a correct one.  
-6. **Shift.** Give a real-world example where training and deployment distributions differ.  
-7. **Stretch.** State Hoeffding’s inequality (look up if needed) and interpret the exponent’s dependence on $$n$$.
-
----
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and geometric/algorithmic intuition**, not as substitutes for proofs or standards documents. Full ranking and Mode B notes: `research/video-research/probability-data-science/`.

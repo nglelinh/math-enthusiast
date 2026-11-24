@@ -131,20 +131,6 @@ Beyond IP = PSPACE, **zero knowledge** formalizes convincing without teaching. T
 
 ---
 
-## Exercises
-
-1. State one problem where a randomized algorithm is simpler or faster at slogan level.  
-2. What is a PRG trying to fool, and why would that derandomize algorithms?  
-3. Hardness vs randomness: explain the two-way street in ≤150 words.  
-4. How does an interactive proof differ from a classical NP witness check?  
-5. Define expander family in one sentence (expansion or spectral gap).  
-6. **≤250 words:** Why can the same person win both Abel and Turing for related work? Use citation themes.  
-7. List three TCS theorems that remain interesting even if P = NP (reuse Abel lecture discipline).  
-8. Skim Wigderson’s Turing page at [amturing.acm.org](https://amturing.acm.org/) and Abel 2021 materials; write four keywords that appear in both narratives.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as proof substitutes. Full ranking and notes: `research/video-research/wigderson-complexity/`.

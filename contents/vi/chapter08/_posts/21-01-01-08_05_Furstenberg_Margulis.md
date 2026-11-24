@@ -153,17 +153,6 @@ Hai phong cách khác biệt, một cuộc cách mạng chung. Sau Furstenberg v
 
 ---
 
-## Bài tập
-
-1. Tìm một ẩn dụ đời thường cho trung bình theo quỹ đạo.  
-2. Vì sao mật độ dương của một tập số nguyên có thể liên quan đến tái hồi? Không quá 120 từ.  
-3. So với [Green–Tao]({{ site.baseurl }}/contents/vi/chapter02/02_04_Green_Tao/): một điểm giống và một điểm khác.  
-4. **Không quá 200 từ:** “tính cứng” gợi lên điều gì trong thế giới của Margulis?  
-5. Nêu một tác động của Margulis ở gần khoa học máy tính (expander) và một tác động số học.  
-6. Đọc tài liệu về Abel 2020 trên [abelprize.no](https://abelprize.no/); trích ra ba danh từ chỉ đối tượng toán học.
-
----
-
 ## Nguồn video
 
 Hãy dùng video để **định hướng và làm quen với văn hóa nghiên cứu**, đừng dùng thay cho chứng minh.

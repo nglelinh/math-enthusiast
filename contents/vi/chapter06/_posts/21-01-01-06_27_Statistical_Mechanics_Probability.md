@@ -103,16 +103,6 @@ Về mặt hình thức, lý thuyết trường lượng tử Euclid trông gi�
 
 ---
 
-## Bài tập
-
-1. **Hệ hai trạng thái.** Với năng lượng $$0$$ và $$E$$, viết $$Z$$ và năng lượng trung bình theo $$\beta$$.  
-2. **Giới hạn nhiệt động.** Vì sao $$F$$ có thể trơn khi $$N$$ hữu hạn nhưng không còn trơn trong giới hạn?  
-3. **Phân bố Gibbs.** Trong không quá 40 chữ: công thức $$p(s)\propto e^{-\beta E(s)}$$ mô tả điều gì?  
-4. **Cầu nối.** Viết một đoạn: lý thuyết trường lượng tử Euclid như là "cơ học thống kê của trường".  
-5. **Nói chính xác.** Viết lại câu: "Mô phỏng thấy có bước nhảy, vậy là ta đã chứng minh định lý về chuyển pha."
-
----
-
 ## Tài liệu tham khảo
 
 1. Baxter, *Exactly Solved Models in Statistical Mechanics* (Các mô hình giải được chính xác trong cơ học thống kê).  

@@ -140,21 +140,6 @@ The verification story also matters pedagogically. Perelman’s preprints were t
 
 ---
 
-## Exercises
-
-1. Explain simply connectedness with two examples: $$S^2$$ (yes) and the torus $$T^2$$ (no).  
-2. Why does the 2-dimensional analogue of Poincaré’s question follow from surface classification?  
-3. Write a five-line outline of Ricci flow with surgery as a strategy.  
-4. Distinguish Poincaré’s conjecture from Thurston’s geometrization in a two-column table (your own words).  
-5. **Credit literacy.** Write four sentences suitable for a general audience naming both Hamilton and Perelman.  
-6. **Narrative (≤400 words).** Explain how a heat-equation metaphor for shape can prove a topological theorem.  
-7. Optional: skim a survey (Kleiner–Lott notes introduction) and list three technical terms to look up next.
-
----
-
-
----
-
 ## Knowledge extracted from video research
 
 Seminar-facing distillation (cross-checked against written sources; **no fabricated transcripts**). Pack: `research/video-research/poincare-proof/analysis.md`.

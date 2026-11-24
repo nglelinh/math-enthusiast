@@ -218,19 +218,6 @@ Bhargava’s Abel exposition and Mazur’s Clay/CMSA lecture (2026) both emphasi
 
 ---
 
-## Exercises
-
-1. For $$y^2 = x^3 - 2$$, verify that $$(3,5)$$ is a rational point. Explain in one sentence what “rank at least 1” would mean if $$(3,5)$$ has infinite order.
-2. Restate the Mordell–Weil theorem in plain English without symbols, then rewrite it with the isomorphism $$E(\mathbb{Q})\cong \mathbb{Z}^r \oplus E(\mathbb{Q})_{\mathrm{tors}}$$.
-3. What does $$\operatorname{ord}_{s=1} L(E,s) = 0$$ predict about rational points of infinite order, according to BSD?
-4. Why does the discriminant condition $$\Delta \ne 0$$ matter for the group law story?
-5. **LO1 synthesis (≤350 words):** state BSD (rank part), say why it is hard, and name two surrounding tools (modularity; Heegner points / Kolyvagin).
-6. **LO6 boundary.** In three sentences, distinguish “elliptic curves in cryptography” from “BSD as a Millennium problem.”
-7. One sentence linking BSD to RH-style thinking about zeros or orders of vanishing of $$L$$-functions.
-8. Stretch: open LMFDB or Cremona tables, pick one curve, and record its rank, torsion, and whether $$L(E,1)$$ is reported as zero or nonzero.
-
----
-
 ## Video sources (math-video-researcher pack)
 
 Full ranking and notes: `research/video-research/Birch_Swinnerton_Dyer/`.

@@ -195,18 +195,6 @@ Tìm một bài báo ML có chữ “Wasserstein”. Kiểm tra theo danh sách:
 
 ---
 
-## Bài tập
-
-1. Tính $$W_p(\delta_a,\delta_b)$$.
-2. Vì sao việc chuyển $$\delta_0\to\frac12\delta_{-1}+\frac12\delta_1$$ không có ánh xạ cổ điển nào mà không tách khối lượng.
-3. Viết $$\Pi(\mu,\nu)$$ cho hai độ đo hai điểm.
-4. Dùng đối ngẫu: vì sao $$W_1$$ lớn nếu kỳ vọng của hai phân phối lệch nhau trên $$\mathbb{R}$$?
-5. Nêu một lợi ích về tính toán và một cái giá về thống kê hoặc toán học của OT entropy.
-6. Tìm một bài báo “Wasserstein”: chi phí, rời rạc hay liên tục, bộ giải chính xác hay xấp xỉ.
-7. Đọc phát biểu của định lý Brenier; chi phí nào?
-
----
-
 ## Tóm tắt từ phần nghiên cứu video
 
 Phần này dùng cho buổi seminar; hãy đối chiếu với nguồn gốc và không coi là bản chép lời.

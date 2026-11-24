@@ -147,18 +147,6 @@ Bài giới thiệu của Giovanni Felder tại ICM 2006, *"The work of Andrei O
 
 ---
 
-## Bài tập
-
-1. Viết trọng số Plancherel $$\mathbb{P}(\lambda)$$ và giải thích trong một câu vì sao nó đến từ lý thuyết biểu diễn chứ không phải phân phối đều.
-2. Một **hình dạng giới hạn** bỏ qua điều gì, và giữ lại điều gì, về một biểu đồ Young ngẫu nhiên cỡ $$n$$?
-3. Baik–Deift–Johansson, Okounkov, Borodin–Okounkov–Olshanski: trong ba dòng, cho biết ai làm gì với bài toán dãy con tăng dài nhất / hàng đầu tiên.
-4. Tóm tắt trong một câu kết quả của Okounkov–Pandharipande về $$\mathbb{P}^1$$, dùng các từ: hàm sinh, toán tử, hệ phân cấp khả tích.
-5. Vì sao câu "Nekrasov–Okounkov nghĩa là Okounkov phát minh instanton" là sai? Viết lại thành hai câu đúng.
-6. **Luyện phát biểu chính xác.** Viết lại câu "Okounkov phân loại các biểu diễn và giải lý thuyết dây" thành hai câu chính xác, phù hợp với khóa học.
-7. **Mở rộng.** So sánh cây cầu này (xác suất $$\leftrightarrow$$ lý thuyết biểu diễn $$\leftrightarrow$$ hình học đếm) với cây cầu của [Mirzakhani]({{ site.baseurl }}/contents/vi/chapter02/02_05_Mirzakhani_Moduli/) (hình học hyperbolic $$\leftrightarrow$$ không gian moduli $$\leftrightarrow$$ động lực học). Trong mỗi câu chuyện, "hình dạng ngẫu nhiên" là gì?
-
----
-
 ## Liên kết
 
 - Huy chương Fields 2006 của IMU: [https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2006](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2006)

@@ -176,21 +176,6 @@ If all degrees are even, an Eulerian circuit is a perfect postal tour. If odd de
 
 ---
 
-## Exercises
-
-1. Draw the Königsberg multigraph, label degrees, and write a three-sentence impossibility proof.  
-2. Invent a connected multigraph with exactly two odd-degree vertices and exhibit an Eulerian path.  
-3. Prove that the number of odd-degree vertices in any finite graph is even, using $$\sum\deg=2\lvert E\rvert$$.  
-4. Does there exist a graph with exactly one odd-degree vertex? Why or why not?  
-5. Distinguish carefully: Eulerian path vs Hamiltonian path. Give a tiny graph that has one but not the other.  
-6. **Modeling.** Translate a floor-plan with corridors into a graph so that “walk each corridor once” becomes an Eulerian question.  
-7. **Narrative (≤300 words).** Explain to a tourist why no bridge tour exists without using the word “theorem.”
-
----
-
-
----
-
 ## Knowledge extracted from video research
 
 Seminar-facing distillation (cross-checked against written sources; **no fabricated transcripts**). Pack: `research/video-research/euler-konigsberg/analysis.md`.

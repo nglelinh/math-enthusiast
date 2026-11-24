@@ -135,19 +135,6 @@ Trong khóa học, hãy so sánh huy chương này với các huy chương "gi�
 
 ---
 
-## Bài tập
-
-1. Trong một đoạn, luật hợp thành Gauss *làm gì* cho các order bậc hai? Dùng các từ "nhóm lớp" và "biệt thức".
-2. Vì sao một khối lập phương $$2\times 2\times 2$$ các số nguyên cho ra *ba* dạng toàn phương nhị phân một cách tự nhiên? (Gợi ý: các hướng cắt.) Không cần viết hết các đồng nhất thức.
-3. Ở mức ý tưởng, vành hạng $$4$$ trên $$\mathbb{Z}$$ là gì? Vì sao đếm chúng khó hơn đếm các order bậc hai?
-4. Viết dãy khớp liên hệ $$E(\mathbb{Q})/2E(\mathbb{Q})$$, $$\mathrm{Sel}_2(E)$$ và $$\Sha(E)[2]$$. Hạng xuất hiện ở đâu trong dãy này?
-5. **Luyện độ chính xác.** Một bài báo đặt tiêu đề "Nhà toán học giải bí ẩn 350 năm về đường cong elliptic". Viết lại thành hai câu có thể xuất hiện trong khóa học này.
-6. Nếu có chứng minh BSD, *kết hợp với* kết quả Bhargava–Shankar, thì ta sẽ biết thêm gì về "hạng giải tích trung bình"? Viết một đoạn cẩn thận.
-7. Đọc lướt bản tin của IMU năm 2014 về Bhargava và liệt kê hai kết quả *không* liên quan đến đường cong elliptic (ví dụ về điểm trên đường cong siêu elliptic, định lý 290 cùng Hanke).
-8. **Seminar mở rộng.** So sánh "hạng trung bình của đường cong elliptic" với "ánh xạ đơn mốt điển hình" của [Avila]({{ site.baseurl }}/contents/vi/chapter02/02_16_Avila_Dynamics/): cả hai đều thay việc phân loại từng đối tượng bằng một độ đo trên không gian các đối tượng. Ở đây độ đo đó là gì?
-
----
-
 ## Nguồn video và đọc thêm
 
 Bài này không có bộ tài liệu video riêng của khóa học.

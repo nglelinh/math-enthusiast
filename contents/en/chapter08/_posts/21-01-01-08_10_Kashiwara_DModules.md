@@ -145,18 +145,6 @@ That is why algebraic analysis is not a cosmetic rewrite: **the category of $$D$
 
 ---
 
-## Exercises
-
-1. Distinguish a differential operator from multiplication by a function, in one sentence each.  
-2. Why might algebra help analysis? ≤120 words.  
-3. State what a crystal base is in one sentence for a classmate who knows matrices but not quantum groups.  
-4. Cross-link [Langlands]({{ site.baseurl }}/contents/en/chapter02/02_02_Langlands_Program/) or [Scholze]({{ site.baseurl }}/contents/en/chapter02/02_06_Scholze_Perfectoid/): one similarity (dictionary/infrastructure), one difference (objects).  
-5. **≤200 words:** Infrastructure prize vs problem prize—use Abel 2025 and one Millennium or FLT-style story.  
-6. Open [abelprize.no](https://abelprize.no/) Kashiwara materials; quote the official short citation and underline mathematical nouns.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as proof substitutes. Full ranking and notes: `research/video-research/kashiwara-dmodules/`.

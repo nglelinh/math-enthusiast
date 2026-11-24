@@ -112,18 +112,6 @@ The same sensibility later appears in McMullen’s students’ work—including 
 
 ---
 
-## Exercises
-
-1. Define Fatou and Julia sets of a rational map in two sentences. Why is $$J(f)$$ usually the “interesting” set for rigidity?
-2. What is a quadratic-like map (Douady–Hubbard slogan)? Why does renormalization produce one?
-3. State Bers’s density-of-cusps conjecture in one careful sentence that includes the words **boundary** and **Teichmüller**.
-4. Kra’s conjecture is an operator-norm inequality $$\|\Theta\|<1$$. Why might a *strict* contraction on Teichmüller space be geometrically useful?
-5. Write four sentences that a classmate could use: McMullen vs Perelman on “geometrization.”
-6. Read the official citation aloud. Which two conjectures are named? Which two subject headings surround them?
-7. **Seminar stretch.** Compare Teichmüller space here with moduli space in the [Mirzakhani lecture]({{ site.baseurl }}/contents/en/chapter02/02_05_Mirzakhani_Moduli/): what is remembered, what is forgotten, and why dynamics can live on both.
-
----
-
 ## Links
 
 - IMU Fields Medal page: [https://www.mathunion.org/imu-awards/fields-medal](https://www.mathunion.org/imu-awards/fields-medal)

@@ -114,19 +114,6 @@ In this course Avila sits next to [Mirzakhani]({{ site.baseurl }}/contents/en/ch
 
 ---
 
-## Exercises
-
-1. In your own words: what does a **renormalization step** forget, and what does it retain, when you pass from a unimodal map to a rescaled first-return map?
-2. Why might physicists and mathematicians both care whether a spectrum is a Cantor set? Separate “pretty picture (Hofstadter)” from “theorem (closed set with empty interior, no isolated points).”
-3. Write the almost Mathieu operator and mark the **coupling** and the **frequency**. What happens, at slogan level, if the frequency is rational?
-4. Ten Martini: state the theorem in one sentence and name **both** authors. Then write one sentence you would *refuse* to print (“Avila showed all quantum spectra are fractal”).
-5. Interval exchanges: explain with a sketch why cutting-and-stacking need not mix like a riffle shuffle, and what “weak mixing” is trying to salvage.
-6. **Attribution practice.** Take any popular sentence that says Avila “solved chaos.” Rewrite it in two precise sentences suitable for this course.
-7. Skim the IMU 2014 text on Avila (or the news-release PDF) and list **three** results that are *not* Ten Martini.
-8. **Seminar stretch.** Compare Avila’s “typical unimodal map” theorems with [Mirzakhani’s]({{ site.baseurl }}/contents/en/chapter02/02_05_Mirzakhani_Moduli/) theorems about typical geodesics on moduli space: both are about *spaces of systems*. What is the space in each story?
-
----
-
 ## Video and reading links
 
 No course video-research pack is attached to this lesson. Use official and encyclopedia sources first.

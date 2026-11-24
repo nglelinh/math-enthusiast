@@ -192,20 +192,6 @@ $$
 
 ---
 
-## Exercises
-
-1. What is a homogeneous space, informally? Why is $$\mathrm{SL}_2(\mathbb{R})/\mathrm{SL}_2(\mathbb{Z})$$ a natural home for modular forms?
-2. Why might equidistribution of orbits imply arithmetic counting or averaging results? Give a one-paragraph analogy with $$\{\,n\alpha\,\}$$ on the circle.
-3. What is a convexity bound for an $$L$$-function (slogan)? What does “subconvex” add?
-4. Name three fields Venkatesh bridges and one theorem *class* (not paper ID) in each.
-5. Compare homogeneous dynamics here with Teichmüller dynamics in the [Mirzakhani]({{ site.baseurl }}/contents/en/chapter02/02_05_Mirzakhani_Moduli/) lecture: same philosophy, different spaces—list two similarities and two differences.
-6. **LO6 (≤250 words):** Read the IMU citation for Venkatesh (or a reliable survey abstract) and rewrite it in your own words without using “deep,” “profound,” or “remarkable.”
-7. How does the Langlands worldview ([Ch.02 Langlands]({{ site.baseurl }}/contents/en/chapter02/02_02_Langlands_Program/)) provide ambient language for automorphic $$L$$-functions that Venkatesh analyzes?
-8. Stretch: look up “Duke–Rudnick–Sarnak equidistribution” and explain in three sentences how it is an ancestor of modern arithmetic equidistribution.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Full ranking: `research/video-research/Venkatesh_Number_Theory/`.

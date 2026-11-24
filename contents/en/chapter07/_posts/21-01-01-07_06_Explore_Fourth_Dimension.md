@@ -188,16 +188,6 @@ Explain the failure mode of the misleading one.
 
 ---
 
-## 6. Exercises
-
-1. Prove that $$I^n$$ has $$2^n$$ vertices by induction.  
-2. Show that the number of edges is $$n 2^{n-1}$$.  
-3. Using the formula for $$V_n$$, verify $$V_2$$ and $$V_3$$ by hand.  
-4. Compute the Euclidean distance between $$(0,0,0,0)$$ and $$(1,1,1,1)$$. Compare to the 3D body diagonal of the unit cube.  
-5. Proposal (≤150 words): which experiment will be your centerpiece and what counts as success?
-
----
-
 ## 7. Checkpoint rubric
 
 | Done? | Item |

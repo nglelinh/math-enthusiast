@@ -201,19 +201,6 @@ Nói ngắn gọn: với mỗi $$x$$, tập $$D$$ khác $$f(x)$$ ở đúng ph�
 
 ---
 
-## Bài tập
-
-1. Viết chứng minh ở mức ý tưởng rằng $$(0,1)$$ không đếm được, kèm quy tắc đổi chữ số.
-2. Viết một đoạn giải thích vì sao $$(0,1)$$ không đếm được thì suy ra $$\mathbb{R}$$ không đếm được.
-3. Phác thảo cách liệt kê $$\mathbb{Z}$$ và giải thích vì sao các số hữu tỉ dương đếm được.
-4. Tự lập một bảng $$5\times5$$ chữ số và tính số $$d$$ theo quy tắc dùng $$\{4,5\}$$.
-5. Vì sao việc đổi $$0\leftrightarrow 9$$ có thể gây rắc rối?
-6. Nêu ý tưởng chứng minh rằng không có toàn ánh $$X\to\mathcal{P}(X)$$.
-7. **Viết tự luận (không quá 350 từ).** Giải thích phương pháp đường chéo cho một bạn đã biết khái niệm dãy nhưng chưa biết thuật ngữ về tập hợp.
-8. Tùy chọn: tìm trong một giáo trình về tính toán được một chỗ gọi là "lập luận đường chéo".
-
----
-
 ## Kiến thức rút ra từ phần tìm hiểu video
 
 Tóm tắt dùng khi thảo luận (đối chiếu với nguồn viết; **không bịa nội dung transcript**). Gói: `research/video-research/cantor-diagonal/analysis.md`.

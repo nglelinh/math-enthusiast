@@ -48,13 +48,6 @@ A PAC–Bayes number on a lab notebook is not Talagrand’s inequality. A pretty
 
 Uhlenbeck gauge theory, Kashiwara $$D$$-modules, and Atiyah–Singer are left to their essays; their CS exports (index computations, computational algebraic analysis) are real but thinner in 2022–2026 product stacks than concentration, PDEs, and graphs.
 
-## Exercises
-
-1. Write a PAC–Bayes-shaped sentence that uses concentration correctly and a sentence that overclaims “we proved generalization of GPT.”
-2. A neural operator is trained on smooth forcing. Which Caffarelli-style question remains unasked?
-3. Name one GPS ingredient that is graph theory and one that is linear algebra (attention). Why does the Abel discrete-math essay care that both are mathematics?
-4. Why does this page avoid another paragraph of prize-year narrative?
-
 ## References
 
 - Alquier, P. (2024). User-friendly introduction to PAC–Bayes bounds. *Foundations and Trends in Machine Learning*. [arXiv:2110.11216](https://arxiv.org/abs/2110.11216).

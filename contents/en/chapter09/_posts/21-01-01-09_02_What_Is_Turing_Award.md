@@ -131,20 +131,6 @@ Avoid two failure modes. The first is **celebrity without content**: listing awa
 
 ---
 
-## Exercises
-
-1. In two sentences, contrast Turing and Fields using only institutional facts (home, cadence, age, stage)—no named laureates.  
-2. Open [amturing.acm.org](https://amturing.acm.org/), pick any laureate **not** deep-dived in this chapter, and list three mathematical or computational **objects** named in the citation materials.  
-3. Explain in ≤150 words why “Nobel of computing” is a useful metaphor and where it becomes misleading.  
-4. Fill a three-row personal table: Fields / Abel / Turing — one sentence each on *what signal the prize optimizes*.  
-5. **≤250 words:** Argue that a mathematics enthusiast should read at least one Turing citation per term. Tie your argument to one course chapter outside Chapter 09.  
-6. From the mini-tour above, pick two essays and write the **bridge sentence** connecting their mathematical themes.  
-7. Why is it inaccurate to say Abel 2021 and Turing awards “solved” complexity’s central open problem? What *do* those honors typically emphasize instead?  
-8. Restate the core idea of the Turing Award in one paragraph aimed at a non-mathematician who already knows what a Nobel Prize is.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as proof substitutes. Full ranking and notes: `research/video-research/what-is-turing-award/`.

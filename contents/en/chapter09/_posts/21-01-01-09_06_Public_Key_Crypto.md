@@ -162,20 +162,6 @@ Public-key mathematics protects hospitals, journalists, and ordinary users; the 
 
 ---
 
-## Exercises
-
-1. In two sentences, contrast symmetric and public-key cryptography’s bootstrap problems.  
-2. Write the Diffie–Hellman messages and the shared secret algebraically.  
-3. Define the discrete log problem in $$\mathbb{Z}/p\mathbb{Z}^\times$$ in one line.  
-4. Given tiny pedagogical primes (classroom toy sizes only), compute an RSA key pair and encrypt a small integer—then explain why toy sizes teach mechanisms but not security.  
-5. **≤200 words:** Why is “factoring is NP-complete” the wrong slogan for RSA?  
-6. **LO6:** Rewrite a hyperbolic quantum-crypto headline into three precise sentences.  
-7. Link one mechanism here to a concrete lemma in [Chapter 03]({{ site.baseurl }}/contents/en/chapter03/03_05_Number_Theory_Cryptography/) (Fermat/Euler, gcd, modular inverse).  
-8. What problem does hybrid encryption solve that pure RSA message encryption does not solve well at internet scale?
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as proof substitutes. Full ranking and notes: `research/video-research/public-key-crypto/`.

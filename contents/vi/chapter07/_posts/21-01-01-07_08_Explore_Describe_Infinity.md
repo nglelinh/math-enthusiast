@@ -186,16 +186,6 @@ Chọn Collatz, số nguyên tố, hoặc Kakeya. Viết nửa trang: những l�
 
 ---
 
-## 6. Bài tập
-
-1. Hợp của đếm được tập đếm được là đếm được (phác thảo chứng minh; nếu cần, nhắc đến tiên đề chọn đếm được).  
-2. Tập các chuỗi nhị phân hữu hạn là đếm được; tập các dãy nhị phân vô hạn thì không.  
-3. Chứng minh của Euclid rằng có vô hạn số nguyên tố dùng loại vô hạn nào?  
-4. Giải thích vì sao câu "xác suất một số là số chẵn bằng 1/2" cần một quá trình lấy giới hạn, vì không có độ đo xác suất đều trên $$\mathbb{N}$$.  
-5. Viết đề xuất (không quá 150 chữ): bạn muốn thành thạo cách nói nào về vô hạn và sẽ thể hiện điều đó ra sao.
-
----
-
 ## 7. Bảng tự đánh giá
 
 | ☐ | Khách sạn Hilbert và quy tắc chuyển phòng |

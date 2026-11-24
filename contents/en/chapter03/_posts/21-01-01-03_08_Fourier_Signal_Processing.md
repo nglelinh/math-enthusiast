@@ -200,18 +200,6 @@ Primary path: [3B1B Fourier series](https://www.youtube.com/watch?v=r6sGWTCMz2k)
 
 ---
 
-## Exercises
-
-1. **Warm-up.** Using $$e^{i\theta}=\cos\theta+i\sin\theta$$, write $$\cos\theta$$ as a sum of complex exponentials.  
-2. **Series idea.** Why might a smooth periodic function need fewer large Fourier coefficients than a discontinuous one?  
-3. **Convolution theorem slogan.** Filtering by convolution in time equals what in frequency?  
-4. **FFT complexity.** Compare operations for $$N=2^{20}$$ between $$O(N^2)$$ DFT and $$O(N\log N)$$ FFT (order of magnitude).  
-5. **JPEG mechanism.** In ≤5 sentences, explain block DCT + quantization as compression.  
-6. **Nyquist.** If human hearing goes to ~20 kHz, why do CDs use 44.1 kHz sampling?  
-7. **Stretch.** Look up the DFT matrix $$F_{kn}=e^{-2\pi i kn/N}$$ and verify $$F^*F=N I$$ (unitary up to scaling).
-
----
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and geometric/algorithmic intuition**, not as substitutes for proofs or standards documents. Full ranking and Mode B notes: `research/video-research/fourier-signal-processing/`.

@@ -129,20 +129,6 @@ Do not confuse “Yao worked on quantum foundations” with “Yao invented Shor
 
 ---
 
-## Exercises
-
-1. In one paragraph, explain Yao’s minimax principle to a classmate who knows only expected value.  
-2. Why does exhibiting a hard input distribution give a lower bound on randomized algorithms?  
-3. Define two-party communication complexity of $$f$$ in your own words (≤80 words).  
-4. Equality vs disjointness: which is “easy with randomness” at slogan level, and which remains hard?  
-5. Draw (or describe) why a protocol transcript yields combinatorial rectangles $$A\times B$$.  
-6. Write one correct sentence connecting communication lower bounds to streaming or distributed algorithms.  
-7. **LO6 (≤150 words):** Find a popular sentence about “random algorithms always beat deterministic ones” and rewrite it with Yao-style precision.  
-8. Skim Yao’s Turing page at [amturing.acm.org](https://amturing.acm.org/); list three citation keywords and one paper theme you would read next.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as proof substitutes. Full ranking and notes: `research/video-research/yao-complexity/`.

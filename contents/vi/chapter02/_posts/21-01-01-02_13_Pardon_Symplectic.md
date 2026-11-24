@@ -211,20 +211,6 @@ Khi đó:
 
 ---
 
-## Bài tập
-
-1. Về mặt đại số tuyến tính, 2-dạng không suy biến nghĩa là gì? Viết điều kiện trên một không gian vector và suy ra số chiều phải chẵn.
-2. Vì sao không gian moduli "thường" không thỏa điều kiện hoành? Nêu ít nhất hai hiện tượng (đường cong phủ bội, cản trở, điều kiện biên…).
-3. Đa tạp con Lagrange là gì? Viết một câu dùng $$\omega$$ và một câu không dùng ký hiệu.
-4. Nêu hai chủ đề trong lời trích dẫn cho Pardon **không** thuần túy thuộc hình học symplectic.
-5. Đọc lướt một bài tổng quan về Fukaya/Floer và liệt kê ba kiến thức cần có mà bạn chưa nắm.
-6. **Từ slide ICM:** Tách riêng (a) các giả thiết về $$W\to C\to B$$ và (b) hai kết luận (tính biểu diễn được; đẳng cấu so sánh).
-7. **Đọc hiểu nghiên cứu:** Vì sao hình học "log" xuất hiện khi nghiên cứu không gian moduli gần các điểm suy biến hoặc các tầng biên?
-8. **So sánh hai huy chương.** Nêu một điểm giống nhau giữa Pardon và Scholze ở mức "xây dựng ngôn ngữ nền tảng", dù hai người làm ở hai lĩnh vực khác nhau.
-
----
-
-
 ## Nguồn video và tài liệu đọc
 
 Chi tiết: `research/video-research/Pardon_Symplectic/`.

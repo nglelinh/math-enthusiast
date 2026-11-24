@@ -145,18 +145,6 @@ Margulis-type slogans run differently: identify a homogeneous space and a flow; 
 
 ---
 
-## Exercises
-
-1. Give an everyday analogy for orbit averages (e.g. average weather along a path vs global climate average).  
-2. Why might positive density of a set of integers relate to recurrence in a dynamical system? Write ≤120 words.  
-3. Compare this lecture with [Green–Tao]({{ site.baseurl }}/contents/en/chapter02/02_04_Green_Tao/): one similarity, one difference.  
-4. **≤200 words:** What does “rigidity” suggest in Margulis’s world?  
-5. Name one CS-adjacent Margulis impact (expanders) and one arithmetic impact (e.g. Oppenheim-type dynamics).  
-6. Read the Abel 2020 materials at [abelprize.no](https://abelprize.no/) and extract three nouns naming mathematical objects from the popular note.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as proof substitutes. Full ranking and notes: `research/video-research/furstenberg-margulis/`.

@@ -140,18 +140,6 @@ Concentration is a **strengthening and geometric deepening** of the intuition th
 
 ---
 
-## Exercises
-
-1. Why does a Lipschitz condition control sensitivity of $$f$$ to its inputs? One paragraph.  
-2. Concentration vs LLN: one similarity, one difference.  
-3. Write one ML/statistics sentence that correctly uses concentration.  
-4. What is a spin glass in a physics slogan, and what does mathematics add?  
-5. Skim Abel 2024 materials at [abelprize.no](https://abelprize.no/); list three theorem keywords.  
-6. **≤200 words:** Why might concentration be called a “high-dimensional theorem” even when dimension does not appear explicitly in a tail bound?
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as proof substitutes. Full ranking and notes: `research/video-research/talagrand-probability/`.

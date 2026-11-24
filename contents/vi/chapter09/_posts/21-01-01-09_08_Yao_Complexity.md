@@ -181,19 +181,6 @@ Khi paper nói “$$R_{1/3}(\mathrm{DISJ})=\Omega(n)$$”, checklist:
 
 ---
 
-## Bài tập
-
-1. Phát biểu nguyên lý Yao ≤80 từ; nêu một hệ quả phương pháp (“để chặn dưới randomized, đủ…”).  
-2. Vì sao deterministic EQ cần $$\Omega(n)$$ bit trong mô hình chuẩn? Lập luận thông tin / pigeonhole một đoạn.  
-3. Mô tả fingerprinting randomized cho EQ: Alice gửi hash $$h(x)$$; Bob so $$h(y)$$. Lỗi từ đâu?  
-4. Viết định nghĩa DISJ; giải thích một câu vì sao chặn dưới gần tuyến tính “đau” cho streaming giao cắt.  
-5. **≤200 từ:** So minimax Yao với minimax lý thuyết trò chơi zero-sum: giống ở đâu, đối tượng $$C(A,x)$$ khác gì payoff cổ điển.  
-6. Nối [độ phức tạp]({{ site.baseurl }}/contents/vi/chapter06/06_07_Complexity_Theory/): communication complexity có “giải” P vs NP không? Vì sao không.  
-7. Chọn một lower bound data structure (cell-probe) trên survey; chỉ ra bước reduce về communication (ai nói với ai).
-
----
-
-
 ## Video và tài liệu
 
 Các video gợi ý nằm ở phần *Video tham khảo* cuối bài. Hãy dùng video để làm quen với bối cảnh, không dùng thay cho chứng minh.

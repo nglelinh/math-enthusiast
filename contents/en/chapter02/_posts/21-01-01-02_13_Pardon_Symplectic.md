@@ -209,20 +209,6 @@ For this course, compare foundational medals (Pardon; also [Scholze]({{ site.bas
 
 ---
 
-## Exercises
-
-1. What does **nondegeneracy** of a 2-form mean linearly (at a single tangent space)?
-2. Why do moduli spaces of holomorphic curves fail transversality “often”? Name two independent reasons.
-3. What is a **Lagrangian** submanifold, slogan-level? Check the definition on the zero section of $$T^*Q$$.
-4. Name **two non-symplectic** topics in Pardon’s official citation.
-5. Skim a survey of Fukaya categories and list three prerequisites you would need for a serious reading course.
-6. **From the ICM slide:** In one paragraph, separate (a) hypotheses on $$W\to C\to B$$ from (b) the two conclusions (representability; comparison isomorphism).
-7. **Research literacy:** Why might “log” geometry appear when studying moduli of maps near degenerations or boundary strata?
-8. **Comparison.** In at most twelve sentences, compare Pardon’s “virtual class for moduli” problem with Perelman’s “control singularities of a geometric flow” problem—as two styles of making a geometric process legal.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Full ranking: `research/video-research/Pardon_Symplectic/`. Full ICM lecture may supersede the short reel.

@@ -93,7 +93,6 @@ Vì sao quan trọng toán–CS:
 Video dài khoảng 1 phút 56 giây (có thuyết minh tiếng Việt): định nghĩa SCC và quy tắc cập nhật (disc, low), theo dõi từng bước DFS và ngăn xếp trên đồ thị 6 đỉnh, bẫy kiểm tra on_stack[v] và đồ thị DAG rút gọn.
 
 
-
 <div class="interactive-demo" markdown="1">
 <div data-demo="tarjan-explainer" data-preset="sixNode" data-lang="vi"></div>
 </div>
@@ -196,25 +195,11 @@ Papers Hopcroft–Tarjan-era viết invariant rõ: stack chứa gì, low thỏa 
 
 ---
 
-## Bài tập
-
-1. Trên đồ thị có hướng nhỏ (5–6 đỉnh), chạy DFS tay; gán $$d,f$$; liệt kê SCC.  
-2. Định nghĩa cầu; giải thích một câu low-link phát hiện cầu.  
-3. Chứng minh phác: đồ thị phẳng đơn $$n\ge 3$$ có $$m\le 3n-6$$ (Euler).  
-4. Mô tả path compression; đưa ví dụ Find đắt một lần nhưng chuỗi rẻ.  
-5. **≤200 từ:** So Kosaraju và Tarjan SCC—giống output, khác kỹ thuật.  
-6. Nối [đồ thị mạng]({{ site.baseurl }}/contents/vi/chapter03/03_06_Graph_Theory_Networks/): một ứng dụng SCC hoặc cầu trong mạng thật (dependency, single point of failure).  
-7. Đọc phần tóm tắt của bài báo Hopcroft–Karp; so brute bipartite matching $$O(VE)$$.
-
----
-
-
 ## Video và tài liệu
 
 Các video gợi ý nằm ở phần *Video tham khảo* cuối bài. Hãy dùng video để làm quen với bối cảnh, không dùng thay cho chứng minh.
 
 ## Tài liệu tham khảo trực tuyến
-
 
 
 1. Trang giải Turing của Hopcroft — https://amturing.acm.org/award_winners/hopcroft_1053917.cfm  

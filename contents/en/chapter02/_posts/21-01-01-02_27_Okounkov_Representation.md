@@ -127,18 +127,6 @@ Giovanni Felder’s Bourbaki-style / ICM exposition “The work of Andrei Okounk
 
 ---
 
-## Exercises
-
-1. Write the Plancherel weight $$\mathbb{P}(\lambda)$$ and explain in one sentence why it is representation-theoretic rather than uniform.
-2. What does a **limit shape** forget, and what does it retain, about a random Young diagram of size $$n$$?
-3. Baik–Deift–Johansson vs Okounkov vs Borodin–Okounkov–Olshanski: in three lines, who did what to the longest-increasing-subsequence / first-row problem?
-4. State a one-sentence slogan for Okounkov–Pandharipande on $$\mathbb{P}^1$$: generating functions, operators, integrable hierarchy.
-5. Why is “Nekrasov–Okounkov = Okounkov invented instantons” false? Write a two-sentence correction.
-6. **Accuracy practice.** Rewrite “Okounkov classified representations and solved string theory” as two precise sentences suitable for this course.
-7. **Seminar stretch.** Compare this bridge (probability $$\leftrightarrow$$ representations $$\leftrightarrow$$ enumerative geometry) with [Mirzakhani’s]({{ site.baseurl }}/contents/en/chapter02/02_05_Mirzakhani_Moduli/) bridge (hyperbolic geometry $$\leftrightarrow$$ moduli $$\leftrightarrow$$ dynamics). What is a “random shape” in each story?
-
----
-
 ## Links
 
 - IMU Fields Medals 2006: [https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2006](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2006)

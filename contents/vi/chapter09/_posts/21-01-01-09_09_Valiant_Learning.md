@@ -190,19 +190,6 @@ Học ngoài lớp, tức là trả về $$h$$ không thuộc $$\mathcal{C}$$, �
 
 ---
 
-## Bài tập
-
-1. Viết định nghĩa PAC trong trường hợp khả thực bằng ký hiệu $$m(\varepsilon,\delta)$$ và $$R(h)$$.  
-2. Giải thích trong một đoạn: tăng $$\varepsilon$$ ảnh hưởng thế nào đến số mẫu cần thiết; tăng $$\delta$$ thì sao?  
-3. Ước lượng bậc độ lớn số đơn thức bậc $$\le k$$ theo $$n$$ biến. Liên hệ với ý "lớp càng phong phú thì càng cần nhiều mẫu và thời gian".  
-4. Tính tay permanent của ma trận $$2\times 2$$; so sánh với định thức.  
-5. **Không quá 200 từ:** vì sao theo tinh thần lý thuyết độ phức tạp, #SAT "khó hơn" SAT (không cần chứng minh đầy đủ)?  
-6. Liên hệ với bài [Lý thuyết học máy]({{ site.baseurl }}/contents/vi/chapter06/06_10_ML_Theory/): viết một câu về cách độ phức tạp Rademacher hoặc chiều VC bổ sung cho PAC.  
-7. **Thảo luận:** chọn một lớp (các khoảng trên $$\mathbb{R}$$, các hình chữ nhật, các nửa không gian). Phác thảo việc tách mọi cách gán nhãn và tính chiều VC; thảo luận xem ERM có "dễ" không.
-
----
-
-
 ## Nguồn video (bộ tư liệu nghiên cứu video)
 
 Video dùng để **định hướng và làm quen với không khí nghiên cứu**, không thay thế chứng minh. Chi tiết: `research/video-research/valiant-learning/`.

@@ -54,13 +54,6 @@ A transport network that “works” on CelebA is not a theorem about Monge–Am
 
 This note deliberately skips Hong Wang / Kakeya and Yu Deng portraits, and it does not retell Green–Tao compressed sensing. Those pages already exist. It also does not survey the 2026 medal citations.
 
-## Exercises
-
-1. Write one sentence that uses the word “plan” correctly for Korotin et al. and one sentence that would belong only in the Figalli essay.
-2. ML-KEM-768 is recommended for many deployments. Which mathematical object is the hardness assumption, and which Fields packing theorem does *not* have to be invoked?
-3. A teammate says GraphGPS “solves percolation.” What quantity on a finite attributed graph is actually being optimized?
-4. Why does this page refuse to add another biographical paragraph to the gallery?
-
 ## References
 
 - Korotin, A., Selikhanovych, D., & Burnaev, E. (2023). Neural optimal transport. *ICLR*. [arXiv:2201.12220](https://arxiv.org/abs/2201.12220).

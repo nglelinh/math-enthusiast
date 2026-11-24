@@ -219,19 +219,6 @@ Khi viết bài so sánh ba giải thưởng, hãy tránh bảng kiểu “Field
 
 ---
 
-## Bài tập
-
-1. Viết ra sáu trục biên giới hiện đại (do bạn chọn); mỗi trục kèm một câu hỏi mở.  
-2. Độ phức tạp chi tiết so với NP-đầy đủ: viết một đoạn phân biệt hai khái niệm.  
-3. Áp bảy câu hỏi trong danh sách ở Mục 10 lên một tiêu đề báo thật mà bạn tìm được trong tuần này.  
-4. **Tối đa 250 từ:** vì sao độ phức tạp giao tiếp vẫn “thực dụng” trong học máy phân tán.  
-5. Chọn một lộ trình A–E; lập lịch đọc 4 tuần (tuần nào, tài liệu gì, kết quả đầu ra).  
-6. Nối [giải Abel của Wigderson]({{ site.baseurl }}/contents/vi/chapter08/08_06_Lovasz_Wigderson/) với [giải Turing của Wigderson]({{ site.baseurl }}/contents/vi/chapter09/09_13_Wigderson_Complexity/): viết một câu cho mỗi nhóm độc giả khác nhau.  
-7. **Làm việc nhóm:** mỗi người chọn một trục trong Mục 2–9; thuyết trình 5 phút và nêu một bài toán mở.
-
----
-
-
 ## Video và tài liệu
 
 Video gợi ý, dùng để làm quen với bối cảnh chứ không thay cho chứng minh: Quanta về P vs NP, [https://www.youtube.com/watch?v=pQsdygaYcE4](https://www.youtube.com/watch?v=pQsdygaYcE4).

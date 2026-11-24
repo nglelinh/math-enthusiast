@@ -107,7 +107,6 @@ Prover chứng minh biết căn bậc hai hoặc chứng minh ciphertext GM mã 
 Video dài khoảng 1 phút 39 giây (có thuyết minh tiếng Việt): nghịch lý chứng minh không tiết lộ, đồ thị bí mật 5 đỉnh 7 cạnh, hai vòng cam kết–thách thức–mở khóa độc lập, bẫy kẻ gian và khuếch đại độ tin cậy (>95% sau 20 vòng), cùng ý tưởng Simulator.
 
 
-
 <div class="interactive-demo" markdown="1">
 <div data-demo="zkp-explainer" data-preset="honest" data-lang="vi"></div>
 </div>
@@ -151,20 +150,6 @@ Lời trích dẫn giải Turing 2012 vinh danh **nền tảng**. Goldwasser và
 | “Mã hóa tất định đủ nếu modulus lớn.” | Tất định xung đột IND-CPA khi adversary mã hóa thử được. |
 
 ---
-
-## Bài tập
-
-1. Giải thích ≤80 từ vì sao RSA textbook tất định không IND-CPA nếu adversary có $$pk$$ và chọn được $$m_0,m_1$$.  
-2. Viết công thức mã bit GM và chỉ ra vai trò của $$r$$ ngẫu nhiên.  
-3. Định nghĩa completeness / soundness / zero-knowledge mỗi cái một câu.  
-4. Mô tả simulator *ý*: vì sao tồn tại simulator khiến “verifier không học witness” thành toán?  
-5. So 1 đoạn: reduction Karp (NP-đầy đủ) vs reduction an ninh mật mã—giống và khác.  
-6. **≤250 từ:** Quadratic residuosity đóng vai trò “mỏ” thế nào trong GM, song song factoring trong RSA.  
-7. Đọc thêm một nguồn phổ biến về zk-SNARK (mức sơ đồ) và viết 5 câu nối về di sản ZK 1980s.  
-8. Chơi thử protocol 3-tô màu trên đồ thị 4 đỉnh (giấy): một người prover, một verifier, 3 vòng challenge cạnh.
-
----
-
 
 ## Video và tài liệu
 

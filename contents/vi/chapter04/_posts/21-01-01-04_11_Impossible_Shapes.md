@@ -141,19 +141,6 @@ So sánh với [những đối tượng hình học lạ]({{ site.baseurl }}/con
 - Khác với ảo giác về độ sáng; vấn đề toán học ở đây là **tính nhất quán hình học qua phép chiếu**.
 - Cầu thang Escher làm nổi bật một vòng đi lên không nhất quán.
 
-## Bài tập
-
-1. Che hai góc của bản phác tam giác Penrose; giải thích vì sao góc còn lại trông có vẻ khả thi.
-2. Giải thích trong một đoạn văn cách làm tượng hình bất khả bằng phối cảnh cưỡng bức.
-3. Hình lập phương Necker khác tam giác Penrose ở điểm nào?
-4. Viết không quá 200 từ: bài học cục bộ – toàn cục qua lập luận hàm độ cao đi quanh một vòng.
-5. So sánh hình bất khả với dải Möbius: cái nào tồn tại trong $$\mathbb{R}^3$$ đúng như đối tượng được gọi tên?
-6. (Mở rộng) Một hệ nhỏ vô nghiệm: ba cạnh có độ cao thay đổi $$+1,+1,+1$$ quanh vòng tam giác dầm.
-7. (Mở rộng) Tìm một bức tranh của Escher và chỉ ra đường khép kín có độ cao không nhất quán.
-8. Liên hệ [phép lát]({{ site.baseurl }}/contents/vi/chapter04/04_10_Tilings/) (quy tắc khớp cục bộ) với [nghịch lý]({{ site.baseurl }}/contents/vi/chapter04/04_07_Paradoxes/) trong ba câu.
-
----
-
 ## Nguồn video (gói math-video-researcher)
 
 Dùng video để **định hướng và trực giác**, không thay chứng minh hay tài liệu chuẩn. Chi tiết xếp hạng: `research/video-research/impossible-shapes/`.

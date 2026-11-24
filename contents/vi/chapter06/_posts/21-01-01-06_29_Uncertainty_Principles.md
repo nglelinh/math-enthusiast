@@ -209,17 +209,6 @@ trong đó $$H$$ là entropy Shannon của phân bố kết quả đo. Với m�
 
 ---
 
-## Bài tập
-
-1. **Quy ước.** Từ $$\hbar=h/2\pi$$, kiểm tra $$\hbar/2=h/4\pi$$. Viết cận Kennard theo cả hai cách.
-2. **Hàm Gauss (giải tích).** Với $$f(x)=e^{-\pi x^2}$$, chứng tỏ (tra cứu hoặc tính biến đổi đã biết) rằng $$\hat f=f$$ theo quy ước ở §2, và tích Pauli–Weyl đạt đúng $$1/4\pi$$ sau khi tính các moment bậc hai.
-3. **Robertson cho qubit.** Cho $$X,Z$$ là các ma trận Pauli và $$\psi=(\cos(\theta/2),\sin(\theta/2))$$. Tính $$\sigma_X$$, $$\sigma_Z$$ và $$\tfrac12|\langle[X,Z]\rangle|$$ theo $$\theta$$. Với trạng thái này, khi nào dấu bằng xảy ra?
-4. **Vì sao không có toán tử thời gian.** Viết ba câu: nếu $$T$$ tự liên hợp và thỏa hệ thức Weyl với Hamiltonian $$H$$, phổ của $$H$$ bị buộc phải thế nào, và vì sao điều đó mâu thuẫn với một Hamiltonian thông thường có trạng thái liên kết?
-5. **Entropy và phương sai.** Phác họa một mật độ xác suất trên $$\mathbb{R}$$ có hai đỉnh hẹp nằm xa nhau. Vì sao phương sai lớn, trong khi câu hỏi "xác suất nằm ở đâu?" vẫn có câu trả lời khá định vị? Bất đẳng thức nào phản ánh đúng điều này?
-6. **Đoạn nối.** Nối bài này với sự đánh đổi khi chọn cửa sổ trong biến đổi Fourier thời gian ngắn (bài Fourier ứng dụng) *và* với phần thảo luận về tính tự liên hợp trong bài Hilbert / cơ học lượng tử.
-
----
-
 ## Tài liệu tham khảo
 
 - 3Blue1Brown — [The more general uncertainty principle](https://www.youtube.com/watch?v=MBnnXbOM5S4) (2018); [trang bài](https://www.3blue1brown.com/lessons/uncertainty-principle/).

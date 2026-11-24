@@ -288,27 +288,6 @@ For the seminar, RH is the prototype of: **one clean analytic statement, century
 
 ---
 
-## Challenges and extensions
-
-1. **Restate RH** in one sentence without the word “hypothesis,” then in one sentence with only the words zero, real part, and one-half.  
-2. **Euler product test.** Why does the identity with the Euler product require unique factorization?  
-3. **Error terms.** If a zero had real part $$0.9$$, would you expect larger or smaller oscillations in $$\pi(x)-\operatorname{li}(x)$$ than under RH? Why?  
-4. **Analogue literacy.** What does it mean that RH is proved for curves over finite fields but open for $$\zeta(s)$$?  
-5. **Critique practice (LO6).** Find a popular article on RH and mark one sentence that overstates numerical evidence as proof, or confuses trivial zeros with the hypothesis.
-
----
-
-## Exercises
-
-1. **Warm-up.** List three primes $$p$$ and verify numerically that $$(1-p^{-2})^{-1}$$ is the sum of the geometric series $$1+p^{-2}+p^{-4}+\cdots$$.  
-2. **Definitions.** Write precise definitions of: critical strip; critical line; trivial zero; non-trivial zero; RH.  
-3. **PNT vs RH.** In your own words, what does the prime number theorem assert, and what extra information does RH concern?  
-4. **Counterfactual.** Suppose someone announces a zero at $$s=0.6+1000i$$. Does that disprove RH? Does it disprove PNT?  
-5. **Synthesis (seminar A3 practice).** In ≤400 words, explain RH to a classmate who knows calculus but not complex analysis: include Euler product, non-trivial zeros, and one sentence on prime counting errors.  
-6. **Research literacy.** Skim the Clay Mathematics Institute official RH problem description and list the prize rules’ requirement (proof must be…?). Optional: identify one survey (Titchmarsh; Edwards; Ivić; or a modern expository article) and note its intended audience.
-
----
-
 ## From the video / survey path: partial theorems vs full RH
 
 Popular lectures (Quanta/Kontorovich; Conrey; Vaaler) and surveys (Bombieri Clay description; Conrey Notices) share a clean split students should keep:
@@ -382,7 +361,6 @@ Use videos for **orientation and research culture**, not as a substitute for a p
 **After videos, remember:** positive-proportion theorems and numerical checks are **partial progress**; full RH for $$\zeta$$ is still **open** as of 2026.
 
 ---
-
 
 
 ### Transcript & frames (flagship extract)

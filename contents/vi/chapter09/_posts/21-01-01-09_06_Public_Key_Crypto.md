@@ -134,20 +134,6 @@ Cần phân biệt: “RSA vỡ ngày mai trên laptop” là sai; “RSA không
 
 ---
 
-## Bài tập
-
-1. Viết giao thức DH theo từng bước (chọn nhóm, $$a$$, $$A$$, $$b$$, $$B$$, $$K$$) và khoanh chỗ kẻ nghe lén nhìn thấy gì.  
-2. Với $$p=23$$, $$g=5$$, $$a=6$$, $$b=15$$ (ví dụ đồ chơi): tính $$A,B,K$$ modulo $$23$$.  
-3. RSA đồ chơi: $$p=5$$, $$q=11$$, $$n=55$$, chọn $$e=3$$, tìm $$d$$, mã $$m=7$$. (Chỉ đồ chơi—không phải an ninh.)  
-4. Giải thích ≤100 từ vì sao $$\gcd(e,\varphi(n))=1$$ cần cho sự tồn tại $$d$$.  
-5. So sánh 1 đoạn: DLP vs factoring—mỗi cái đỡ primitive nào (DH vs RSA).  
-6. **≤250 từ:** Vì sao NP-đầy đủ của SAT không tự cho bạn hệ RSA.  
-7. Liệt kê ba tầng an ninh: toán primitive / giao thức / triển khai—mỗi tầng một rủi ro.  
-8. Đọc một citation Turing liên quan (RSA 2002 hoặc Diffie–Hellman 2015) và gạch chân danh từ toán.
-
----
-
-
 ## Video và tài liệu
 
 Các video gợi ý nằm ở phần *Video tham khảo* cuối bài. Hãy dùng video để làm quen với bối cảnh, không dùng thay cho chứng minh.

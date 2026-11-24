@@ -205,19 +205,6 @@ Numberphile’s Zhang and Maynard videos, plus Maynard’s colloquium and the 20
 
 ---
 
-## Exercises
-
-1. List five twin prime pairs with both members larger than $$100$$.
-2. Why is $$(2,4)$$ not a twin prime pair? Why is $$(7,9)$$ not?
-3. State Zhang’s theorem in your own words without the number seventy million (use “some finite bound”).
-4. Explain in two sentences the difference between “$$\liminf (p_{n+1}-p_n) \le 246$$” and “infinitely many twin primes.”
-5. **LO1 synthesis (≤300 words):** twin prime conjecture, why it is hard, surrounding math (heuristics; sieves; bounded gaps).
-6. Compare twin primes with [Collatz]({{ site.baseurl }}/contents/en/chapter01/01_07_Collatz_Conjecture/): both elementary to state—how do their “surrounding toolkits” differ in one short paragraph?
-7. One sentence: why does a divergent series of $$1/(\log n)^2$$ *suggest* infinitely many twins without proving it?
-8. Stretch: read a Quanta-style account of Zhang 2013 (or the Maynard Fields citation) and list three mathematical ingredients named there (e.g. GPY, distribution in AP, sieve weights).
-
----
-
 ## Video sources (math-video-researcher pack)
 
 Full ranking and notes: `research/video-research/Twin_Prime_Conjecture/`.

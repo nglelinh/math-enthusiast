@@ -306,20 +306,6 @@ Khi so sánh đồ thị với bạn bè hay với một bài báo, trước h�
 
 ---
 
-## Bài tập
-
-1. Tính quỹ đạo của 27 cho đến khi về 1; đếm số bước (ghi rõ ánh xạ bạn dùng).  
-2. Định nghĩa thời gian dừng toàn phần trong một câu, và cố định thuật ngữ này cho bài A5.  
-3. Nêu một lý do vì sao kiểm tra không phải là chứng minh, áp dụng cho Collatz.  
-4. **Tổng hợp (không quá 250 từ):** phát biểu giả thuyết Collatz, vì sao khó, toán học xung quanh (lập luận gần đúng / mật độ / chu trình).  
-5. Phác thảo một giả thuyết cho bài A5 **có thể bác bỏ** bằng đồ thị (ví dụ về thời gian dừng trung bình).  
-6. Đọc tóm tắt một bài tổng quan của Lagarias; liệt kê ba chủ đề con.  
-7. **Phản biện thông tin:** sửa câu "Collatz đúng vì máy tính đã kiểm tra mọi số cần thiết".  
-8. Mở rộng: viết một đoạn so sánh Collatz với [số nguyên tố sinh đôi]({{ site.baseurl }}/contents/vi/chapter01/01_06_Twin_Prime_Conjecture/): cả hai đều sơ cấp; các kết quả từng phần khác nhau như thế nào?  
-9. **Nói đúng về kết quả của Tao (không quá 200 từ):** viết hai câu "Tao đã chứng minh…" và "Tao **không** chứng minh…", có nhắc đến mật độ logarit và $$\operatorname{Col}_{\min}$$.  
-10. **Biến thể ánh xạ:** tính bốn số lẻ đầu tiên trong quỹ đạo của $$7$$ theo $$T$$; tính $$\operatorname{Syr}(7)$$; giải thích vì sao số bước khác nhau.
----
-
 ## Nguồn video (bộ tư liệu nghiên cứu video)
 
 Video dùng để **định hướng và làm quen với không khí nghiên cứu**, không thay thế chứng minh (hiện chưa có chứng minh). Đánh giá chi tiết: `research/video-research/collatz/`.

@@ -157,20 +157,6 @@ A problem can be decidable yet infeasible (try brute-force SAT on huge formulas)
 
 ---
 
-## Exercises
-
-1. In your own words, list the components of a Turing machine and what one step does.  
-2. Why does countability of machines imply most reals are non-computable? ≤100 words.  
-3. Explain the role of the **universal** machine in the diagonal argument for $$\textsc{Halt}$$ at slogan level.  
-4. Distinguish **decidable** from **recognizable** with one sentence each and one example class of phenomena (even toy examples).  
-5. **≤250 words:** Compare Hilbert’s Entscheidungsproblem with a modern “can we automate all math checks?” headline using LO6.  
-6. Write three bullet points separating undecidability, P vs NP, and “the server timed out.”  
-7. After reading [Gödel]({{ site.baseurl }}/contents/en/chapter05/05_04_Godel_Incompleteness/), name one similarity and one difference between incompleteness and undecidability.  
-8. (Optional.) Look up a reduction from $$\textsc{Halt}$$ to another classic undecidable problem (e.g. the Post correspondence problem) and summarize the idea in five sentences.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as proof substitutes. Full ranking and notes: `research/video-research/turing-computability/`.

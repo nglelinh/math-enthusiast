@@ -186,18 +186,6 @@ Nếu mọi đỉnh có bậc chẵn, chu trình Euler là một lộ trình đ�
 
 ---
 
-## Bài tập
-
-1. Vẽ đa đồ thị Königsberg, ghi bậc từng đỉnh, và viết chứng minh không thể đi qua mỗi cầu một lần trong ba câu.
-2. Tự dựng một đa đồ thị liên thông có đúng hai đỉnh bậc lẻ và chỉ ra một đường Euler.
-3. Chứng minh số đỉnh bậc lẻ luôn chẵn từ $$\sum\deg=2\lvert E\rvert$$.
-4. Có đồ thị nào có đúng một đỉnh bậc lẻ không? Vì sao?
-5. Phân biệt đường Euler với đường Hamilton; cho một đồ thị nhỏ có đường này mà không có đường kia.
-6. **Mô hình hóa.** Chuyển sơ đồ các hành lang của một tòa nhà thành đồ thị sao cho "đi qua mỗi hành lang đúng một lần" trở thành câu hỏi về đường Euler.
-7. **Viết tự luận (không quá 300 từ).** Giải thích cho một du khách vì sao không có lộ trình đi qua mỗi cầu một lần, không dùng từ "định lý".
-
----
-
 ## Kiến thức rút ra từ phần tìm hiểu video
 
 Tóm tắt dùng khi thảo luận (đối chiếu với nguồn viết; **không bịa nội dung transcript**). Gói: `research/video-research/euler-konigsberg/analysis.md`.

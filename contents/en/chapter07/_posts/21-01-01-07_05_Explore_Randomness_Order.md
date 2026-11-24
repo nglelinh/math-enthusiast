@@ -163,16 +163,6 @@ Read the Green–Tao Ch.2 section on structure vs randomness (or an expository p
 
 ---
 
-## 6. Exercises
-
-1. Count the number of triples $$(a,d)$$ with $$d>0$$ and $$a+2d\le N$$. Exact formula?  
-2. If each point is kept with probability $$p$$ independently, what is the expected number of 3-APs?  
-3. Explain why a positive-density subset of integers cannot look like an extremely sparse random set.  
-4. Give a one-paragraph example of the probabilistic method from graphs or number theory.  
-5. Proposal (≤200 words): which experiment, parameters, success criteria, risks (definition drift, seed bias).
-
----
-
 ## 7. Checkpoint rubric
 
 | Done? | Item |

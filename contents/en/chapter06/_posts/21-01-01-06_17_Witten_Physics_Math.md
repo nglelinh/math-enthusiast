@@ -89,15 +89,6 @@ Witten’s Fields citation culture is closer to “opened highways between physi
 
 ---
 
-## Exercises
-
-1. Name three mathematical *objects* associated with Witten-influenced programs (not three adjectives).  
-2. **≤120 words:** Physics as muse vs physics as proof—using Kapustin–Witten as example.  
-3. Place Witten 1990 next to Atiyah–Singer 2004: one similarity, one difference in prize culture.  
-4. Add one “Witten-track” row to your [duality studio]({{ site.baseurl }}/contents/en/chapter07/07_10_Explore_Duality_Dictionary/) with honest status.
-
----
-
 ## References
 
 1. IMU / Fields Medal 1990 materials on Witten.  

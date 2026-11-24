@@ -208,18 +208,6 @@ Lý thuyết đồ thị vừa trao cho ta những thuật toán chạy trên h�
 
 ---
 
-## Bài tập
-
-1. Vẽ 4 trang web với 6 liên kết; chỉ ra đỉnh không có liên kết nào trỏ đến.  
-2. Vì sao BFS tìm được đường đi ngắn nhất trên đồ thị không trọng số?  
-3. Viết hai câu về định lý luồng cực đại – lát cắt cực tiểu: lát cắt cực tiểu chứng nhận điều gì?  
-4. Vì sao một trang có ít liên kết trỏ đến vẫn có thể xếp hạng cao hơn một trang có nhiều liên kết từ các trang kém chất lượng?  
-5. Mô hình hóa một bản đồ tàu điện nhỏ bằng đồ thị. Với hành khách, "ngắn nhất" nghĩa là gì?  
-6. Đại lượng $$x^\top Lx=\sum_{ij\in E}(x_i-x_j)^2$$ đo điều gì?  
-7. Nâng cao: giải thích độ giãn nở theo cạnh và thế nào là "đồ thị giãn nở tốt" bằng lời thường.
-
----
-
 ## Nguồn video (gói math-video-researcher)
 
 Dùng video để **định hướng và trực giác**, không thay chứng minh hay tài liệu chuẩn. Chi tiết xếp hạng: `research/video-research/graph-theory-networks/`.

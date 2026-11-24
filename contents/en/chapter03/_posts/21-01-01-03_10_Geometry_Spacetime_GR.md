@@ -129,17 +129,6 @@ GR is thus a **world-changing application of geometry** and a **generator of pur
 
 ---
 
-## Exercises
-
-1. **Contrast.** In ≤100 words, distinguish Newton’s gravitational force from Einstein’s geometric free fall.  
-2. **Metric slogan.** What does $$ds^2$$ tell you that “three distances and one time” separately do not?  
-3. **Einstein schematic.** Label each symbol in $$G_{\mu\nu}=8\pi T_{\mu\nu}$$ (ignore constants) as geometry or matter.  
-4. **Mechanism.** Explain GPS time correction as a GR effect in ≤80 words.  
-5. **Bridge forward.** One paragraph: how is “curvature of a connection” in gauge theory analogous to / different from “curvature of a metric” in GR?  
-6. **LO6 rewrite.** Correct: “Relativity says there is no truth, only viewpoints.”
-
----
-
 ## References and further reading
 
 1. Hartle — *Gravity* (physics-first, undergraduate friendly).  

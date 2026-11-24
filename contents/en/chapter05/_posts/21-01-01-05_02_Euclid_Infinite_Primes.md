@@ -222,21 +222,6 @@ Grade the *clarity of the skeleton*, not ornamental history. A beautiful paragra
 
 ---
 
-## Exercises
-
-1. Run Euclid’s construction on $$\{2,3,5\}$$ and on $$\{2,3,5,7,11\}$$; factor $$N$$ if composite and exhibit a new prime.  
-2. Write Euclid’s proof with no symbols, then with only symbols—compare clarity for a non-mathematical friend versus a classmate.  
-3. Build a $$4\times 4$$ digit table of “listed” decimals and produce a diagonal escape string with an explicit digit rule.  
-4. Why does diagonalization alone fail to show “infinitely many primes”? (Wrong domain: primes are not free infinite digit strings.)  
-5. Explain in three sentences why $$0.1999\ldots=0.2000\ldots$$ threatens a careless diagonal argument, and how a digit rule using only digits $$\{4,5\}$$ helps.  
-6. **A4 micro-draft (≤400 words):** proof-idea narrative for *either* Euclid *or* Cantor using the six-part template above.  
-7. Optional: read the dedicated Cantor page in this chapter and the Infinity flagship in Chapter 4; add one sentence connecting cardinality language to diagonalization.
-
----
-
-
----
-
 ## Knowledge extracted from video research
 
 Seminar-facing distillation (cross-checked against written sources; **no fabricated transcripts**). Pack: `research/video-research/euclid-infinite-primes/analysis.md`.
@@ -276,7 +261,6 @@ Use videos for **orientation and research culture**, not as substitutes for prim
 **Status reminder:** **Proved** (classical; Euclid, Elements IX.20). Status closed; pedagogy of the *idea* remains active.
 
 ---
-
 
 
 ### Transcript & frames (flagship extract)

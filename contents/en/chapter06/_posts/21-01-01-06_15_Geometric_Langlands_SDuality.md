@@ -140,18 +140,6 @@ That diagram is the seminar heart of the Kapustin–Witten culture.
 
 ---
 
-## Exercises
-
-1. Two columns: arithmetic vs geometric Langlands—base, objects, dual group.  
-2. State geometric Langlands in ≤3 sentences.  
-3. What does S-duality swap (coupling and group)?  
-4. Sketch Kapustin–Witten compactification in 4 bullet points.  
-5. Why do Hitchin systems for $$G$$ and $$G^\vee$$ matter for mirror symmetry?  
-6. **≤150 words:** Why is “bridge, not proof” the right slogan for physics → geometric Langlands?  
-7. **Optional:** Open Kapustin–Witten abstract and list five keywords.
-
----
-
 ## Mode C — reconstructed notes from flagship videos
 
 *Reconstructed from auto-captions of Kapustin, Gukov, and Frenkel. Captions: `research/video-research/geometric-langlands-sduality/transcripts/`. Units: `knowledge_units_mode_c.json`. Reconstruct; do not paste ASR.*

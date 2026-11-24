@@ -72,13 +72,6 @@ Một cận PAC–Bayes tính ra trong phòng thí nghiệm không phải là b�
 
 Lý thuyết gauge của Uhlenbeck, $$D$$-môđun của Kashiwara và định lý Atiyah–Singer được trình bày ở các bài riêng. Chúng cũng có ứng dụng trong khoa học máy tính (tính chỉ số, đại số tính toán, mạng nơ-ron đẳng biến theo nhóm gauge), nhưng trong các sản phẩm giai đoạn 2022–2026 thì ít thấy phổ biến rộng rãi bằng bộ ba hiện tượng tập trung, PDE và đồ thị.
 
-## Bài tập
-
-1. Viết một câu về PAC–Bayes dùng hiện tượng tập trung đúng cách, và một câu nói quá, kiểu “chúng tôi đã chứng minh khả năng tổng quát hóa của GPT”.
-2. Một neural operator được huấn luyện trên lực cưỡng bức trơn. Câu hỏi nào theo kiểu Caffarelli vẫn chưa được đặt ra?
-3. Chỉ ra một thành phần của GPS thuộc lý thuyết đồ thị và một thành phần thuộc đại số tuyến tính (attention). Vì sao toán rời rạc trong giải Abel lại quan tâm đến việc cả hai đều là toán?
-4. Vì sao bài này không thêm một đoạn kể lại các năm trao giải?
-
 ## Tài liệu tham khảo
 
 - Alquier, P. (2024). User-friendly introduction to PAC–Bayes bounds. *Foundations and Trends in Machine Learning*. [arXiv:2110.11216](https://arxiv.org/abs/2110.11216).

@@ -140,18 +140,6 @@ A fruitful comparison for seminars: Ricci flow deforms *metrics*; Yang–Mills s
 
 ---
 
-## Exercises
-
-1. Define connection vs curvature in one sentence each, without formulas if needed.  
-2. What is “bubbling” for an energy-critical geometric PDE? Give a two-sentence answer.  
-3. Why does topology need analysis in gauge theory? Write ≤150 words.  
-4. **≤250 words:** Compare infrastructure prizes (Uhlenbeck-style analysis) with one-theorem epics (e.g. a single Millennium solution).  
-5. List three geometric PDE words shared with minimal surface theory (energy, regularity, blow-up, …) and one word more special to gauge theory (connection, curvature, gauge fixing).  
-6. Skim the Abel 2019 popular materials at [abelprize.no](https://abelprize.no/) and list three theorem keywords you did not know before.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as proof substitutes. Full ranking and notes: `research/video-research/uhlenbeck-gauge/`.

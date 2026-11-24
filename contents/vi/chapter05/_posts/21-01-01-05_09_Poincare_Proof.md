@@ -162,18 +162,6 @@ Các tiêu đề báo chí thường nói "Perelman chứng minh giả thuyết 
 
 ---
 
-## Bài tập
-
-1. Giải thích đơn liên bằng hai ví dụ: $$S^2$$ (có) và torus $$T^2$$ (không).
-2. Vì sao phiên bản 2 chiều của câu hỏi Poincaré suy ra từ bài toán phân loại các mặt?
-3. Viết một bản phác năm dòng về dòng Ricci có phẫu thuật như một chiến lược chứng minh.
-4. Phân biệt giả thuyết Poincaré với giả thuyết hình học hóa của Thurston trong một bảng hai cột (bằng lời của bạn).
-5. **Ghi công đúng người.** Viết bốn câu cho độc giả phổ thông nhắc đến cả Hamilton lẫn Perelman.
-6. **Viết tự luận (không quá 400 từ).** Giải thích vì sao ẩn dụ phương trình nhiệt cho hình dạng có thể dùng để chứng minh một định lý tôpô.
-7. Tùy chọn: đọc lướt một bài tổng quan (phần mở đầu của ghi chú Kleiner–Lott) và liệt kê ba thuật ngữ kỹ thuật cần tra cứu thêm.
-
----
-
 ## Kiến thức rút ra từ phần tìm hiểu video
 
 Tóm tắt dùng khi thảo luận (đối chiếu với nguồn viết; **không bịa nội dung transcript**). Gói: `research/video-research/poincare-proof/analysis.md`.

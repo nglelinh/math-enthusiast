@@ -249,17 +249,6 @@ Submit the proposal before major coding so the question is not reverse-engineere
 
 ---
 
-## 9. Exercises (warm-up before proposal)
-
-1. Compute the full orbit of $$27$$ until 1; count steps under your frozen $$T$$.  
-2. Prove that every power of 2 reaches 1; give exact step count.  
-3. Show that there is no prime triple $$(p,p+2,p+4)$$ except $$(3,5,7)$$—and explain why this exercise is *not* Collatz (toolkit separation from the primes studio).  
-4. Write pseudocode for `stopping_time(n)` with an explicit overflow/timeout policy.  
-5. Formulate one falsifiable hypothesis about stopping times.  
-6. Draft A5 proposal Sections 1–2 (question + definitions) in ≤200 words.
-
----
-
 ## 10. Checkpoint rubric
 
 | Done? | Item |

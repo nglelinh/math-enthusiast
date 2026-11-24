@@ -236,18 +236,6 @@ Pell âm $$x^2-dy^2=-1$$ hỏi đơn vị cơ bản của $$\mathbb{Q}(\sqrt{d})
 
 ---
 
-## Bài tập
-
-1. **Tầng tuyến tính.** Với bảy phương trình tỉ lệ, kiểm tra rằng bộ số bắt đầu bằng $$W=10{,}366{,}482$$, $$B=7{,}460{,}514$$, $$Y=4{,}149{,}387$$, $$D=7{,}358{,}060$$ có thể bổ sung số bò cái để cả bảy phương trình đều đúng. (Được phép tra số bò cái; mục tiêu là thấy cách tính toán.)
-2. **Hợp thành.** Từ $$(3,2)$$ với $$d=2$$, tự tính hai nghiệm dương tiếp theo và kiểm tra lại phương trình Pell.
-3. **Chuẩn $$-1$$.** Chỉ ra rằng $$1^2-2\cdot 1^2=-1$$, và hợp thành $$(1,1)$$ với chính nó thì được $$(3,2)$$.
-4. **Không phải mọi $$d$$.** Giải thích trong hai câu vì sao $$x^2-3y^2=-1$$ không có nghiệm nguyên. (Gợi ý: xét modulo 3, hoặc dùng chuẩn.)
-5. **Đọc độ lớn.** Nghiệm của Fermat cho $$d=61$$ có $$x$$ gồm 10 chữ số. Vì sao điều đó *không* mâu thuẫn với định lý tồn tại của Lagrange?
-6. **Đọc phê phán tài liệu phổ thông.** Liệt kê hai lỗi hoặc chỗ phóng đại trên trang nguồn hoặc poster (tên gọi, $$d=226$$, CSIDH, Lean). Viết lại một câu sao cho bạn cùng lớp có thể tin được.
-7. **Nối bài.** Trong tối đa tám câu, liên hệ bài này với nhận xét về phân số liên tục ở cuối bài [chứng minh $$\sqrt{2}$$ vô tỉ]({{ site.baseurl }}/contents/vi/chapter05/05_06_Irrationality_Sqrt2/).
-
----
-
 ## Tài liệu tham khảo
 
 - Trang nguồn: [Bài toán đàn bò của Archimedes và phương trình Pell](https://toankho.com/2026/08/07/bai-toan-dan-bo-cua-archimedes-va-phuong-trinh-pell/) (Toán Khó, truy cập 2026-08-13). Hình sinh bằng AI; đừng tin số viết trên poster.

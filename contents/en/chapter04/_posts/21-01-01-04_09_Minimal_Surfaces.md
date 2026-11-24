@@ -144,19 +144,6 @@ The same condition $$H=0$$ produces shapes of startling variety—from the humbl
 - **Mean curvature zero** is the analytic definition most essays use.
 - Catenoid and helicoid are the first museum of complete examples.
 
-## Exercises
-
-1. Explain Plateau’s problem in two sentences to a non-mathematician using soap films.
-2. If principal curvatures are $$+1$$ and $$-1$$, what is $$H$$? Why is this compatible with bending?
-3. Why is a plane minimal? Why is a round sphere *not* minimal?
-4. Describe the catenoid and helicoid qualitatively; mention one shared property (minimality).
-5. In ≤200 words, contrast local critical points of area with global area minimizers.
-6. (Stretch) Write the area functional for a graph $$u$$ over a domain $$\Omega$$ and formally derive that critical points satisfy the divergence-form equation above.
-7. (Stretch) Look up one sentence on the Costa–Hoffman–Meeks surfaces and why they surprised the field.
-8. Connect variational thinking here to [optimization]({{ site.baseurl }}/contents/en/chapter03/03_07_Optimization_Operations_AI/) in three sentences (energy minimization theme).
-
----
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and geometric/algorithmic intuition**, not as substitutes for proofs or standards documents. Full ranking and Mode B notes: `research/video-research/minimal-surfaces/`.

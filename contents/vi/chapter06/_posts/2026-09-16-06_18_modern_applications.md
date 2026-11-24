@@ -93,13 +93,6 @@ Khi các nhãn này bị trộn lẫn — chẳng hạn gọi một đường kh
 
 Bài này không trình bày lại cách suy ra cơ chế attention, các chặn PAC, hay AdS/CFT. Các bài đọc sâu về đối ngẫu vẫn giữ nguyên. Các tin tức về sửa lỗi lượng tử sau năm 2024 nên được đọc với cùng sự thận trọng như trong bài về thông tin lượng tử: phân biệt rõ điều đã chứng minh, điều đã đo được trong phòng thí nghiệm và điều chỉ mới là kỳ vọng kỹ thuật.
 
-## Bài tập
-
-1. Viết một câu về Chinchilla mà câu đó sẽ trở thành sai nếu bạn thay "khớp thực nghiệm" bằng "định lý".
-2. AlphaFold 3 dùng một mô-đun khuếch tán. Đó là đối tượng nào trong chương 4 hoặc chương 6? Một điểm tin cậy cao *không* bảo đảm điều gì?
-3. Vì sao một toán tử nơ-ron có thể có định lý xấp xỉ phổ quát mà vẫn dự đoán sai ở một số Reynolds mới?
-4. Nêu tên bài toán khó làm nền cho ML-KEM, và giải thích vì sao một thông cáo về máy *ủ lượng tử* (quantum annealer) không làm ML-KEM trở nên lỗi thời.
-
 ## Tài liệu tham khảo
 
 - Hoffmann, J., et al. (2022). Training compute-optimal large language models. *NeurIPS*. [arXiv:2203.15556](https://arxiv.org/abs/2203.15556).

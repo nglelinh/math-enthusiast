@@ -164,19 +164,6 @@ Beautiful mathematics here is the discovery that dimension is a **parameter that
 
 ---
 
-## Exercises
-
-1. Compute distances between opposite vertices of the unit cube in $$\mathbb{R}^2$$, $$\mathbb{R}^3$$, and $$\mathbb{R}^n$$.
-2. How many vertices and edges does the $$n$$-cube have?
-3. Explain why volume $$a^n$$ of a cube of side $$a\in(0,1)$$ vanishes as $$n\to\infty$$.
-4. Describe one slice-based visualization of a tesseract (4-cube).
-5. In ≤200 words, state a concentration-of-measure idea and why it surprises 3D intuition.
-6. Give one reason nearest-neighbor search can degrade in high dimension.
-7. (Stretch) Look up the Johnson–Lindenstrauss lemma at slogan level: what does it say about distances under random projection?
-8. (Stretch) Connect to [sphere packing]({{ site.baseurl }}/contents/en/chapter02/02_08_Viazovska_Sphere_Packing/) or [explore fourth dimension]({{ site.baseurl }}/contents/en/chapter07/07_06_Explore_Fourth_Dimension/).
-
----
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and geometric/algorithmic intuition**, not as substitutes for proofs or standards documents. Full ranking and Mode B notes: `research/video-research/higher-dimensions/`.

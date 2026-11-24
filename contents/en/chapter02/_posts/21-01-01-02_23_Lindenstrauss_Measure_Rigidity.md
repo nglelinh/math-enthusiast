@@ -145,19 +145,6 @@ For this course, Lindenstrauss is the Fields-scale counterpart of the Abel story
 
 ---
 
-## Exercises
-
-1. In one paragraph, what is an invariant measure, and why might *classifying* them be harder than proving a single ergodic theorem?
-2. Contrast unipotent flows with diagonal torus actions in three slogans: orbit shape, status of classification, typical arithmetic corollary.
-3. Write Littlewood’s conjecture. Write the EKL conclusion. Circle the words that must not be deleted (“except possibly,” “Hausdorff dimension zero”).
-4. What extra structure makes QUE *arithmetic*? Why does compactness remove the escape-of-mass issue that Soundararajan later treated?
-5. Why does Rudnick–Sarnak QUE not follow from quantum ergodicity (Šnirel’man–Zelditch–Colin de Verdière)?
-6. **Accuracy practice.** Rewrite “an Israeli mathematician solved Littlewood and quantum chaos” as three precise sentences.
-7. Skim the abstract of Lindenstrauss, Annals 163 (2006), or of EKL, Annals 164 (2006), and list the hypotheses you would need to look up next (entropy, recurrence, congruence lattice, microlocal lift).
-8. **Seminar stretch.** Compare Furstenberg’s $$\times 2,\times 3$$ problem with EKL: same rigidity instinct, different groups. What is still open in the circle case?
-
----
-
 ## Links
 
 - IMU Fields Medals 2010: [https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2010](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2010)

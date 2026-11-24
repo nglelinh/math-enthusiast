@@ -132,16 +132,6 @@ Các đặc trưng là các căn bậc $$n$$ của đơn vị $$\chi_k(m) = e^{2
 
 ---
 
-## Bài tập
-
-1. Tìm các đặc trưng của $$\mathbb{Z}/4\mathbb{Z}$$.  
-2. Vì sao $$\widehat{\mathbb{Z}}$$ là đường tròn, chứ không phải một bản sao của $$\mathbb{Z}$$?  
-3. Phát biểu ý chính "tích chập ↔ tích" và nêu một ứng dụng.  
-4. **Không quá 100 chữ:** so sánh $$V^*$$ với $$\widehat G$$.  
-5. **Thực hành:** thêm một dòng Fourier/Pontryagin vào [bài thực hành từ điển đối ngẫu]({{ site.baseurl }}/contents/vi/chapter07/07_10_Explore_Duality_Dictionary/).
-
----
-
 ## Bản đồ khóa học
 
 | Bài | Liên hệ |

@@ -240,19 +240,6 @@ Các video của Numberphile, Quanta, bài viết của Gonthier trên Notices v
 
 ---
 
-## Bài tập
-
-1. Vẽ một bản đồ phẳng **cần ba màu**; giải thích vì sao hai màu không đủ.  
-2. Chuyển bản đồ đó sang đồ thị đối ngẫu và tô các đỉnh bằng 3 màu.  
-3. Từ $$e\le 3v-6$$, suy ra mọi đồ thị phẳng đơn với $$v\ge 3$$ đều có một đỉnh bậc $$\le 5$$.  
-4. Phác thảo phép quy nạp trong chứng minh năm màu bằng bốn gạch đầu dòng.  
-5. Giải thích bằng lời của bạn: tập không tránh được và cấu hình khả quy khác nhau thế nào.  
-6. Tìm hiểu lịch sử: đọc một bài kể ngắn về công trình của Appel–Haken; nêu một lời phê bình và một câu trả lời (ví dụ việc hình thức hóa).  
-7. Thử đề bài ở [bài thực hành tô màu, Chương 7]({{ site.baseurl }}/contents/vi/chapter07/07_07_Explore_Map_Colors/) với công thức cho mặt xuyến.  
-8. So sánh cách cộng đồng chấp nhận chứng minh: 4CT và bản thảo về dòng Ricci của Perelman (việc kiểm chứng ở đó không phải là xét một số khổng lồ trường hợp).
-
----
-
 ## Nguồn video (bộ tư liệu nghiên cứu video)
 
 Đánh giá chi tiết: `research/video-research/Four_Color_Theorem/`.

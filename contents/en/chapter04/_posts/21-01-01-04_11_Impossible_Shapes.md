@@ -131,19 +131,6 @@ Beautiful mathematics here is the precise sense in which a drawing can **lie wit
 
 ---
 
-## Exercises
-
-1. Cover two corners of a Penrose triangle sketch and describe why each visible corner looks possible.
-2. Explain forced perspective sculptures of impossible figures in one paragraph.
-3. How does the Necker cube differ from a Penrose triangle?
-4. In ≤200 words, state the local-to-global moral with a height-function argument around a loop.
-5. Contrast an impossible figure with a Möbius band: which exists in $$\mathbb{R}^3$$ as the object named?
-6. (Stretch) Formalize a tiny inconsistent system: three edges with height changes $$+1,+1,+1$$ around a triangle of beams.
-7. (Stretch) Find one Escher print and identify a closed path of inconsistent elevation.
-8. Link to [tilings]({{ site.baseurl }}/contents/en/chapter04/04_10_Tilings/) (local matching rules) and [paradoxes]({{ site.baseurl }}/contents/en/chapter04/04_07_Paradoxes/) in three sentences.
-
----
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and geometric/algorithmic intuition**, not as substitutes for proofs or standards documents. Full ranking and Mode B notes: `research/video-research/impossible-shapes/`.

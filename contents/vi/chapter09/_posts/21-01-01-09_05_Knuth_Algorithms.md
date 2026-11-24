@@ -157,20 +157,6 @@ Fine-grained complexity hiện đại (SETH, 3SUM, APSP) nằm giữa: chặn d�
 
 ---
 
-## Bài tập
-
-1. Chứng minh sơ bộ $$5n^3+2n = O(n^3)$$ bằng định nghĩa (chỉ ra $$C,n_0$$).  
-2. Giải thích vì sao mergesort là $$\Theta(n\log n)$$: cây đệ quy độ sâu và công việc mỗi tầng.  
-3. BFS: lập luận $$\Theta(\lvert V\rvert+\lvert E\rvert)$$ với danh sách kề (mỗi đỉnh/cạnh xử lý hằng lần).  
-4. Viết bất biến vòng lặp cho insertion sort (phần mảng bên trái đã sắp) và giải thích vì sao thuật toán vừa đúng vừa chạy trong $$O(n^2)$$.  
-5. So 10 dòng: phân tích thuật toán kiểu Knuth vs chứng minh NP-đầy đủ kiểu Karp—khác input câu hỏi.  
-6. **≤200 từ:** Vì sao chặn dưới $$\Omega(n\log n)$$ cho sắp xếp so sánh quan trọng hơn việc “chưa ai viết nhanh hơn”?  
-7. Thảo luận một cấu trúc dữ liệu bạn biết: thao tác, bất biến, chi phí.  
-8. Đếm số so sánh insertion sort trên một hoán vị $$n=6$$ cụ thể; so với $$n^2$$ và $$n\log n$$.
-
----
-
-
 ## Video và tài liệu
 
 Video gợi ý, dùng để làm quen với bối cảnh chứ không thay cho chứng minh: bài giảng của Knuth ở Stanford, [https://www.youtube.com/watch?v=PUJ_XdmSDZw](https://www.youtube.com/watch?v=PUJ_XdmSDZw).

@@ -125,16 +125,6 @@ RG là **một nguyên lý tổ chức và một khung tính toán**. Đôi khi 
 
 ---
 
-## Bài tập
-
-1. **Lý thuyết hiệu dụng.** Nêu một ví dụ ngoài vật lý về một mô tả thô chỉ cần ít tham số (không quá 80 chữ).  
-2. **Hàm beta.** Nếu $$\beta(g)<0$$ với $$g>0$$ nhỏ, hằng số tương tác tăng hay giảm khi $$\mu$$ tăng?  
-3. **Tính phổ quát.** Vì sao nước (tại điểm tới hạn lỏng–khí) và nam châm có thể có cùng số mũ tới hạn?  
-4. **Nói chính xác.** Viết lại câu: "Vì phải tái chuẩn hóa nên lý thuyết trường lượng tử không phải toán học thật."  
-5. **Cầu nối.** Viết một đoạn nối dòng RG với mục tiêu đi từ mạng lưới đến giới hạn liên tục cho Yang–Mills.
-
----
-
 ## Tài liệu tham khảo
 
 1. Wilson & Kogut, về RG và khai triển $$\epsilon$$.  

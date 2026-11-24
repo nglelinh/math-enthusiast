@@ -166,18 +166,6 @@ Chernoff và Hoeffding (thập niên 1950–1960) kiểm soát tổng của các
 
 ---
 
-## Bài tập
-
-1. Vì sao tính Lipschitz kiểm soát độ nhạy của $$f$$? Một đoạn.  
-2. Hiện tượng tập trung và luật số lớn: một điểm giống, một điểm khác.  
-3. Viết một câu về ML hoặc thống kê dùng đúng hiện tượng tập trung.  
-4. Khẩu hiệu của vật lý về spin glass là gì, và toán học đã bổ sung điều gì?  
-5. Lướt qua trang Abel 2024 trên [abelprize.no](https://abelprize.no/); ghi ba từ khóa định lý.  
-6. **Không quá 200 từ:** vì sao hiện tượng tập trung có thể gọi là “định lý của số chiều cao”, dù số chiều không phải lúc nào cũng xuất hiện tường minh trong chặn đuôi?  
-7. **Seminar:** nêu bất đẳng thức Hoeffding ở mức khẩu hiệu và chỉ ra một chỗ trong chứng minh của lý thuyết học sẽ dùng một đuôi tương tự.
-
----
-
 ## Nguồn video
 
 Hãy dùng video để **định hướng và làm quen với văn hóa nghiên cứu**, đừng dùng thay cho chứng minh.

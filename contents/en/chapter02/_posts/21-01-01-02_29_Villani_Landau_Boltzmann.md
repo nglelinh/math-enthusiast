@@ -107,19 +107,6 @@ Kinetic theory had entropy, $$H$$-theorems, and Landau’s contour, but few nonl
 
 ---
 
-## Exercises
-
-1. Write four sentences that a physicist would accept: what is linearized Landau damping, and why is reversibility of Vlasov not an immediate contradiction?
-2. Why does the nonlinear term threaten the linear decay? Answer at slogan level (echoes / resonances), without pretending to reconstruct the *Acta* paper.
-3. State the difference between a **conditional** trend-to-equilibrium theorem and a **global regularity** theorem. Which one is Desvillettes–Villani 2005?
-4. Hypocoercivity in one paragraph: degenerate dissipation + mixing $$\Rightarrow$$ decay. Give a cartoon (transport in $$x$$, collisions in $$v$$).
-5. Open *Topics in Optimal Transportation* or the course chapter on [optimal transport]({{ site.baseurl }}/contents/en/chapter06/06_09_Optimal_Transport/) and write three sentences on Monge versus Kantorovich. Then write one sentence explaining why that material is **not** the 2010 citation.
-6. Credit practice: assign **Landau (1946)**, **Mouhot**, **Desvillettes**, and **Villani** each one accurate clause.
-7. **Accuracy practice.** Rewrite “Villani proved that entropy always kills chaos instantly” as two sentences this course would accept.
-8. **Seminar stretch.** Compare this medal with [Smirnov]({{ site.baseurl }}/contents/en/chapter02/02_28_Smirnov_Percolation/): both are “statistical physics,” but one is lattice/conformal and one is kinetic/PDE. What counts as a “scaling limit” in each story?
-
----
-
 ## Links
 
 - IMU Fields Medals 2010 (requested index): [mathunion.org/…/fields-medals-2010](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2010)

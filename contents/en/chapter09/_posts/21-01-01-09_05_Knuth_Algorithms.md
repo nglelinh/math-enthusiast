@@ -160,20 +160,6 @@ For Math Enthusiast, Knuth is a bridge character: the same student who loves ele
 
 ---
 
-## Exercises
-
-1. Formally unwind the definition of $$f(n)=O(g(n))$$ and show $$3n^2+5n=O(n^2)$$.  
-2. Explain in ≤100 words why worst-case and average-case can disagree, with sorting as example.  
-3. Write a recurrence for a divide-and-conquer algorithm you know and solve it at $$\Theta$$ level.  
-4. **≤200 words:** What intellectual purpose does MIX/MMIX serve that pure pseudocode might not?  
-5. Give one example where a lower bound (not only an upper bound) changes how you design algorithms.  
-6. **LO6:** Critique a social-media claim “I reduced my script from 40 lines to 5, so it is more optimal.”  
-7. Connect one TAOCP-style theme (hashing, trees, random generation) to a discrete math concept you already know.  
-8. Compare the *grain* of analysis here with the *grain* of NP-completeness: when would you use each lens?
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as proof substitutes. Full ranking and notes: `research/video-research/knuth-algorithms/`.

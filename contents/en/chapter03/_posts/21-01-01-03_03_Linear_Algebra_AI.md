@@ -204,18 +204,6 @@ Recommended path: 3Blue1Brown [neural network](https://www.youtube.com/watch?v=a
 
 ---
 
-## Exercises
-
-1. **Warm-up.** Let $$W=\begin{pmatrix}1&2\\0&1\end{pmatrix}$$, $$x=\begin{pmatrix}1\\1\end{pmatrix}$$. Compute $$Wx$$. What geometric effect does $$W$$ have?  
-2. **Collapse.** Prove that a composition of affine maps is affine. Why does that force nonlinearities between layers?  
-3. **PCA slogan.** In two sentences, why do top principal components maximize captured variance?  
-4. **Gradient step.** If $$L(\theta)=(\theta-3)^2$$ and $$\eta=0.1$$, perform two gradient updates from $$\theta_0=0$$.  
-5. **Mechanism sentence.** Write one sentence linking GPU matrix multiplies to neural inference.  
-6. **Architecture literacy.** Is a $$3\times 3$$ convolution a sparse structured linear map? Explain.  
-7. **Stretch.** For a centered data matrix $$X$$, relate the right singular vectors of $$X$$ to eigenvectors of $$X^\top X$$.
-
----
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and geometric/algorithmic intuition**, not as substitutes for proofs or standards documents. Full ranking and Mode B notes: `research/video-research/linear-algebra-ai/`.

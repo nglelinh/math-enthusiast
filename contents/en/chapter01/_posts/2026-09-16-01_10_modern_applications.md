@@ -58,13 +58,6 @@ In each case the great problem supplies a *shape*—certificates, continuum regu
 
 This note does not treat RH, BSD, or twin primes as crypto products; those stories belong with error terms and with Chapter 3’s number-theory essay. It also does not formalize SAT complexity beyond the slogan already in the P vs NP lecture.
 
-## Exercises
-
-1. A vendor says “our SAT solver shows P = NP on our customers’ netlists.” Rewrite the claim so that it is consistent with the definitions in the P vs NP essay.
-2. A climate-start-up advertises a neural operator as having “solved Navier–Stokes.” Which two quantities would you demand (training distribution; a smoothness certificate) before you accept any weaker sentence?
-3. AlphaGeometry solves 25 of 30 olympiad geometry problems. Why is that compatible with Kakeya remaining open?
-4. If a Collatz search reaches $$2^{80}$$, what sentence in the Collatz essay remains exactly as true as it is today?
-
 ## References
 
 - Kovachki, N., Li, Z., Liu, B., Azizzadenesheli, K., Bhattacharya, K., Stuart, A., & Anandkumar, A. (2023). Neural operator: Learning maps between function spaces with applications to PDEs. *JMLR*, 24(89), 1–97. [jmlr.org/papers/v24/21-1524.html](https://jmlr.org/papers/v24/21-1524.html).

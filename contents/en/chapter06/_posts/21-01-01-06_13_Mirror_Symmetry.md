@@ -125,18 +125,6 @@ $$
 
 ---
 
-## Exercises
-
-1. In one paragraph, contrast A-model and B-model data.  
-2. What does the Hodge diamond flip buy computationally?  
-3. State SYZ in ≤3 sentences; name one difficulty.  
-4. Write the HMS slogan as an equivalence of categories (informal OK).  
-5. **≤150 words:** Why is mirror symmetry a *duality* in the sense of the parent lesson?  
-6. Status literacy: list one theorematic island and one open program.  
-7. **Optional:** Skim Auroux’s Fukaya intro abstract and list three words new to you.
-
----
-
 ## Mode C — reconstructed notes from flagship video
 
 *Reconstructed from auto-captions of Witten (Fields Medal Symposium 2012). Captions: `research/video-research/mirror-symmetry/transcripts/`. Units: `knowledge_units_mode_c.json`. Reconstruct; do not paste ASR.*

@@ -266,20 +266,6 @@ Video dài khoảng 1 phút 8 giây (có thuyết minh tiếng Việt giọng Al
 
 ---
 
-## Bài tập
-
-1. **Khởi động.** Bằng lời của bạn: chương trình Langlands muốn nối hai thế giới nào?  
-2. **Vai trò.** Điền vào ba ô: phía phổ / phía hình học / Bổ đề Cơ bản.  
-3. **Lịch sử.** Vẽ trục thời gian: Langlands (thập niên 1960–1970) → các trường hợp riêng của Bổ đề Cơ bản → Laumon–Ngô (2004) → Ngô, trường hợp tổng quát → Fields 2010.  
-4. **Hình học.** Vì sao đối đồng điều của các thớ có thể mã hóa một đẳng thức giữa các con số (tích phân)?  
-5. **Ghi nhận công lao.** Viết hai câu theo văn phong phổ thông, nhắc đến cả Laumon–Ngô lẫn định lý tổng quát của Ngô.  
-6. **Đọc tài liệu nghiên cứu.** Mở phần tóm tắt của một bài tổng quan về Bổ đề Cơ bản; liệt kê ba thuật ngữ cần tra tiếp (ví dụ hệ số chuyển, liên hợp ổn định, nội soi).  
-7. **Liên hệ trong chương.** Viết một đoạn so sánh ý "hình học mở khóa giải tích" của Ngô với cách Scholze viết lại hình học $$p$$-adic bằng không gian perfectoid (công cụ khác nhau, cùng một tinh thần).  
-8. **So sánh.** Nêu một khác biệt giữa thành công kiểu Wiles (tính modular) và thành công kiểu Ngô (Bổ đề Cơ bản) trong chương trình Langlands.
-
----
-
-
 ## Nguồn video (bộ tư liệu nghiên cứu video)
 
 Video và tài liệu gốc dùng để **định hướng và làm quen với không khí nghiên cứu**. Chi tiết: `research/video-research/Langlands_Program/`.

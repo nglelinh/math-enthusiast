@@ -114,16 +114,6 @@ Hạt, tán xạ và trường được dựng lại từ chính cấu trúc c�
 
 ---
 
-## Bài tập
-
-1. **Đại số.** Vì sao tập các ma trận Hermite *không* đóng với phép nhân $$AB$$?  
-2. **C*-đại số.** Điều kiện $$\|a^*a\|=\|a\|^2$$ cho ta trực giác gì?  
-3. **GNS.** Viết một câu: từ trạng thái đến biểu diễn.  
-4. **Nói chính xác.** Viết lại câu: "Đại số toán tử là triết học, không phải toán học dùng trong vật lý."  
-5. **Cầu nối.** "Đại số các đại lượng quan sát địa phương" khác "một không gian Hilbert toàn cục cho cả vũ trụ" như thế nào?
-
----
-
 ## Tài liệu tham khảo
 
 1. Bratteli & Robinson, *Operator Algebras and Quantum Statistical Mechanics* (Đại số toán tử và cơ học thống kê lượng tử).  

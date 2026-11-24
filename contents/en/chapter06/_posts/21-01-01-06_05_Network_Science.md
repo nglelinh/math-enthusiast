@@ -77,7 +77,6 @@ Once a graph is fixed, one studies processes *on* it.
 2 min 07 sec video: link-based ranking intuition, raw transition matrix P₀ and the dead-end trap at D, teleportation α = 0.85, hand-computed step k = 1, power iteration converging to π, and comparing α = 0.85 vs. α = 0.50.
 
 
-
 <div class="interactive-demo" markdown="1">
 <div data-demo="pagerank-explainer" data-preset="dangling" data-alpha="0.85" data-lang="en"></div>
 </div>
@@ -150,21 +149,6 @@ The Laplacian eigenvalues $$0=\lambda_1\le\lambda_2\le\cdots\le\lambda_n$$ encod
 | “Removing hubs always stops epidemics.” | Model-dependent | Targeting helps in some models; real contact tracing is operationally hard. |
 | “The graph is fully observed.” | Rarely | Sampling bias is the norm. |
 | “Network science replaces mechanism.” | Fail | Topology constrains; domain mechanisms still needed. |
-
----
-
-## Exercises
-
-1. **Hand graph.** Draw a 5-vertex graph; compute degrees and one path-length matrix by hand.
-2. **ER threshold.** Explain in words why average degree $$1$$ is special for connectivity in large ER graphs.
-3. **Centrality clash.** Construct a small graph where the highest-degree vertex is not the highest betweenness vertex.
-4. **Laplacian.** For a path of 3 nodes, write $$L$$ and find its eigenvalues (or argue the kernel dimension).
-5. **Epidemic literacy.** Why might high $$\langle k^2\rangle$$ lower an epidemic threshold in a mean-field heterogeneous model?
-6. **Data caution.** List three ways a Twitter “follower graph” is not “the social network of a country.”
-7. **Stretch.** Read a paper claiming power-law degrees; note the fitting method and any alternative distributions considered.
-
----
-
 
 ---
 

@@ -164,17 +164,6 @@ Một số giải thưởng vinh danh những bài toán đã được giải. G
 
 ---
 
-## Bài tập
-
-1. Phân biệt toán tử vi phân với phép nhân với một hàm: mỗi cái một câu.  
-2. Vì sao đại số có thể giúp giải tích? Không quá 120 từ.  
-3. Viết một câu về crystal base cho một bạn biết ma trận nhưng chưa biết nhóm lượng tử.  
-4. Nối với [Langlands]({{ site.baseurl }}/contents/vi/chapter02/02_02_Langlands_Program/) hoặc [Scholze]({{ site.baseurl }}/contents/vi/chapter02/02_06_Scholze_Perfectoid/): một điểm giống (từ điển, hạ tầng), một điểm khác (đối tượng).  
-5. **Không quá 200 từ:** giải hạ tầng và giải bài toán, dùng Abel 2025 và một câu chuyện về Millennium hoặc FLT.  
-6. Mở tài liệu về Kashiwara trên [abelprize.no](https://abelprize.no/); trích citation ngắn chính thức và gạch chân các danh từ toán học.
-
----
-
 ## Nguồn video
 
 Hãy dùng video để **định hướng và làm quen với văn hóa nghiên cứu**, đừng dùng thay cho chứng minh.

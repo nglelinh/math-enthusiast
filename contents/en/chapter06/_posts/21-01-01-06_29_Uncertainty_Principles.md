@@ -186,17 +186,6 @@ Pontryagin duality’s smoothness-versus-decay row in the [Fourier/Pontryagin br
 
 ---
 
-## Exercises
-
-1. **Convention.** Starting from $$\hbar=h/2\pi$$, check that $$\hbar/2=h/4\pi$$. Write Kennard both ways.
-2. **Gaussian (analysis).** For $$f(x)=e^{-\pi x^2}$$, convince yourself (by looking up or computing the known transform) that $$\hat f=f$$ in the convention of §2, and that the Pauli–Weyl product saturates $$1/4\pi$$ after you insert the second moments.
-3. **Robertson on a qubit.** Let $$X,Z$$ be Pauli matrices and $$\psi=(\cos(\theta/2),\sin(\theta/2))$$. Compute $$\sigma_X$$, $$\sigma_Z$$, and $$\tfrac12|\langle[X,Z]\rangle|$$ as functions of $$\theta$$. Where is the bound tight?
-4. **Why no time operator.** In three sentences: if a self-adjoint $$T$$ satisfied the Weyl relations with a Hamiltonian $$H$$, what would that force on the spectrum of $$H$$, and why do ordinary bound-state Hamiltonians refuse?
-5. **Entropy vs variance.** Sketch a probability density on $$\mathbb{R}$$ with two narrow distant bumps. Why is variance large while “where is the mass?” still looks localized? Which inequality cares?
-6. **Bridge paragraph.** Connect this lecture to the STFT window trade-off in the Fourier applications essay *and* to the self-adjointness discussion in Hilbert / QM.
-
----
-
 ## References and further reading
 
 - 3Blue1Brown — [The more general uncertainty principle](https://www.youtube.com/watch?v=MBnnXbOM5S4) (2018); [lesson page](https://www.3blue1brown.com/lessons/uncertainty-principle/).

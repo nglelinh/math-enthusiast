@@ -109,19 +109,6 @@ Trong hình học không giao hoán, $$D$$ được nâng lên thành thước �
 
 ---
 
-## Bài tập
-
-1. **Phủ kép.** Vì sao phép quay $$360^\circ$$ không phải lúc nào cũng là phép đồng nhất trên spinor?  
-2. **Đại số Clifford.** Viết quan hệ phản giao hoán của các $$\gamma^\mu$$.  
-3. **Gauge.** Phép ghép tối thiểu (minimal coupling) xuất hiện trong phương trình Dirac như thế nào?  
-4. **Cầu nối.** Viết một đoạn: phương trình Dirac như cầu nối từ spin của hạt đến định lý Atiyah–Singer.  
-5. **Nói chính xác.** Viết lại câu: "Spin chứng minh cơ học lượng tử tự mâu thuẫn."
-
----
-
-
-
-<!-- THELANMATH_BATCH_EXTRACTS -->
 ## Trích từ danh sách video Thelanmath (toán cao cấp)
 
 

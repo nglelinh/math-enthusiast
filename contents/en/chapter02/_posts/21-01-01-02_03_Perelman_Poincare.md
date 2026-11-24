@@ -276,29 +276,6 @@ $$
 
 ---
 
-## Challenges and extensions
-
-1. **Fundamental group.** Why does $$\pi_1=0$$ rule out essential tori in the geometrization picture (slogan-level)?  
-2. **Scaling.** If lengths scale by $$\lambda$$, how do curvatures and the flow time need to rescale?  
-3. **Surgery topology.** Cutting an $$S^2$$ neck and capping: what happens to $$\pi_1$$ of components?  
-4. **Eight geometries.** Pick two non-constant-curvature geometries (e.g. $$\mathrm{Nil}$$, $$\mathrm{Sol}$$) and find one property that distinguishes them from $$H^3$$.  
-5. **Verification.** Why might a 40-page preprint require a 500-page book of notes?
-
----
-
-## Exercises
-
-1. **Warm-up.** Explain “simply connected” using loops on a sphere versus on a torus.  
-2. **Definitions.** Write informal definitions of: closed manifold; Ricci curvature (slogan); singularity time of Ricci flow.  
-3. **Logic.** Prove (in words) that geometrization implies Poincaré, assuming the only closed simply connected geometric 3-manifold is spherical.  
-4. **Heat analogy.** List two ways Ricci flow resembles heat flow and one way it is harder (nonlinearity / singularities).  
-5. **Timeline.** Place Hamilton (1982), Thurston (geometrization conjecture), Perelman (2002–03), and ICM 2006 on a line and annotate each.  
-6. **Research literacy.** Open arXiv:math/0211159; read only the first two pages of the introduction and list three tools Perelman says he will use.  
-7. **Credit literacy.** In one paragraph, describe the relationship between Hamilton’s contribution and Perelman’s contribution without diminishing either.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation**; the primary sources remain Perelman’s arXiv preprints and major expositions. Full ranking: `research/video-research/Perelman_Poincare/`.

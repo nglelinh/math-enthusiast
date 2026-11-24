@@ -216,16 +216,6 @@ Lập bảng hoặc vẽ đồ thị $$V_n$$ với $$n=1..20$$; liên hệ với
 
 ---
 
-## 6. Bài tập
-
-1. Suy ra $$\delta_{\square}=\pi/4$$ từ định nghĩa.  
-2. Giải thích $$\delta_{\mathrm{hex}}=\pi/(2\sqrt{3})$$, chỉ rõ ô cơ sở.  
-3. Vì sao nhân mọi độ dài với $$\lambda>0$$ không làm thay đổi mật độ, và vì sao điều này quan trọng với định nghĩa?  
-4. Giải thích bằng lời của bạn: cận trên bằng giải tích Fourier loại trừ những cách xếp dày hơn lưới như thế nào, mà không cần liệt kê mọi cách xếp?  
-5. Viết đề xuất không quá 200 từ: câu hỏi, phương pháp, tiêu chí, rủi ro (hiệu ứng biên, đơn vị đo, lỗi phần mềm).
-
----
-
 ## 7. Danh sách kiểm tra theo tiêu chí chấm
 
 | ☐ | Mật độ lưới vuông và lục giác (bằng đồng xu hoặc mô phỏng) |

@@ -139,18 +139,6 @@ Cùng nhận Huy chương Fields năm 1998 tại Berlin với McMullen là **Ric
 
 ---
 
-## Bài tập
-
-1. Định nghĩa tập Fatou và tập Julia của một ánh xạ hữu tỷ trong hai câu. Vì sao $$J(f)$$ thường là nơi "đáng chú ý" khi nghiên cứu tính cứng?
-2. Ánh xạ dạng bậc hai (quadratic-like) là gì, theo cách nói của Douady–Hubbard? Vì sao phép tái chuẩn hóa tạo ra một ánh xạ như vậy?
-3. Phát biểu giả thuyết trù mật cusp của Bers trong một câu cẩn thận, có các từ **biên** và **Teichmüller**.
-4. Giả thuyết Kra là bất đẳng thức về chuẩn toán tử $$\|\Theta\|<1$$. Vì sao một phép *co chặt* trên không gian Teichmüller có thể hữu ích về mặt hình học?
-5. Viết bốn câu mà một bạn học có thể dùng để phân biệt McMullen với Perelman về chuyện "hình học hóa".
-6. Đọc lại lời trao giải chính thức. Hai giả thuyết nào được nêu tên? Hai chủ đề lớn nào bao quanh chúng?
-7. **Mở rộng.** So sánh không gian Teichmüller ở đây với không gian moduli trong [bài Mirzakhani]({{ site.baseurl }}/contents/vi/chapter02/02_05_Mirzakhani_Moduli/): thông tin nào được giữ, thông tin nào bị bỏ, và vì sao có thể nghiên cứu động lực học trên cả hai?
-
----
-
 ## Liên kết
 
 - Trang Huy chương Fields của IMU: [https://www.mathunion.org/imu-awards/fields-medal](https://www.mathunion.org/imu-awards/fields-medal)

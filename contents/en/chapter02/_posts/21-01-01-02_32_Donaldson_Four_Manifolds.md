@@ -112,19 +112,6 @@ Dimension four was expected to be hard; that Yang–Mills analysis would force �
 
 ---
 
-## Exercises
-
-1. What does it mean for a bilinear form over $$\mathbb{Z}$$ to be **unimodular**? Why does Poincaré duality give that for $$Q_X$$?
-2. State Donaldson’s definite-form theorem and Freedman’s realization theorem. Deduce, in three sentences, that a topological $$E_8$$-manifold cannot be smoothed.
-3. Why is “homeomorphic but not diffeomorphic to $$\mathbb{R}^4$$” possible only after one has **both** a topological flexibility and a smooth rigidity?
-4. Instanton moduli in one paragraph: ASD equation, gauge quotient, bubbling at points, compactification involving $$X$$. What topological conclusion is drawn for definite $$X$$?
-5. Credit practice: one accurate clause each for **Donaldson**, **Freedman**, **Uhlenbeck**, **Witten (1994)**.
-6. The smooth four-dimensional Poincaré conjecture is open. How does that differ from Freedman’s theorem?
-7. **Accuracy practice.** Rewrite “Donaldson found a weird smooth $$\mathbb{R}^4$$ by solving Yang–Mills” as two sentences this course would accept.
-8. **Seminar stretch.** Compare this 1986 gauge-theory story with [Perelman]({{ site.baseurl }}/contents/en/chapter02/02_03_Perelman_Poincare/): Ricci flow in dimension three versus instantons in dimension four. What is being compactified or degenerated in each?
-
----
-
 ## Links
 
 - IMU Fields Medals 1986: [https://www.mathunion.org/imu-awards/fields-medal/fields-medals-1986](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-1986)

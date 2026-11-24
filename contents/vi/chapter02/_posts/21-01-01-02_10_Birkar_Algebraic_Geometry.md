@@ -178,19 +178,6 @@ Bài học khi lên chiều cao: *cùng một triết lý phân loại theo tín
 
 ---
 
-## Bài tập
-
-1. Tương đương song hữu tỉ **bỏ qua** và **giữ lại** điều gì? Viết hai câu, rồi nêu sơ lược một ví dụ phép nổ để minh họa sự khác biệt với đẳng cấu.
-2. Theo trực giác, vì sao flip khó hơn phép co? Không cần chứng minh, chỉ cần lập luận: "khi phép co không cho một cấu xạ đẹp thì cần gì?".
-3. Định nghĩa sơ lược của đa tạp Fano là gì? Viết bằng ngôn ngữ "$$-K_X$$ ample", rồi bằng một câu không có ký hiệu.
-4. Vì sao **tính bị chặn** của một lớp đa tạp quan trọng cho phân loại? Liên hệ với ý "không có dãy ngày càng hoang dã".
-5. Đọc lướt một bài tổng quan ICM hoặc một bài giới thiệu về MMP; liệt kê **ba mốc** trước Birkar 2018 (tên và một dòng mô tả).
-6. **So sánh.** Nêu một điểm giống và một điểm khác giữa "mô hình tối thiểu" và "không gian thớ Mori".
-7. **Thảo luận (không quá 200 từ).** Giải thích cho một bạn học giải tích câu: "MMP là thuật toán rút gọn hình học theo dấu của $$K$$". Nêu giới hạn của cách so sánh với thuật toán.
-
----
-
-
 ## Nguồn video (bộ tư liệu nghiên cứu video)
 
 Chi tiết: `research/video-research/Birkar_Algebraic_Geometry/`.

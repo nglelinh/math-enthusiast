@@ -175,18 +175,6 @@ Lộ trình bậc đại học: [Strang & Moler Learn DE](https://ocw.mit.edu/co
 
 ---
 
-## Bài tập
-
-1. ODE hay PDE? (a) $$\dot{I}+I/RC=0$$; (b) $$\partial_t u=u_{xx}$$; (c) phương trình Maxwell trong chân không.  
-2. Hàm $$f(x)=x^2$$ Lipschitz địa phương nhưng không Lipschitz toàn cục. Vì sao điều này quan trọng khi áp dụng định lý Picard?  
-3. Với $$\dot{x}=Ax$$, $$A=\mathrm{diag}(-1,2)$$: thành phần nào tăng vô hạn khi $$t\to+\infty$$?  
-4. Vì sao phụ thuộc liên tục vào dữ liệu là một yêu cầu kỹ thuật?  
-5. Phương trình nhiệt và phương trình sóng: phương trình nào làm trơn tức thì dữ liệu ban đầu thô ráp (với phương trình lý tưởng), phương trình nào truyền các điểm kỳ dị dọc theo đường đặc trưng?  
-6. Điều kiện CFL: vì sao với phương trình sóng, khi lưới không gian mịn hơn thì bước thời gian có thể bị buộc phải nhỏ hơn?  
-7. Nâng cao: đưa $$\ddot{x}+\omega^2 x=0$$ về hệ bậc nhất; tìm chu kỳ của nghiệm.
-
----
-
 ## Nguồn video (gói math-video-researcher)
 
 Dùng video để **định hướng và trực giác**, không thay chứng minh hay tài liệu chuẩn. Chi tiết xếp hạng: `research/video-research/differential-equations-applications/`.

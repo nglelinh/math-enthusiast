@@ -141,18 +141,6 @@ and pass to limits as $$r\to 0$$. Limits are often homogeneous solutions of a mo
 
 ---
 
-## Exercises
-
-1. Give one physical free-boundary example and identify the unknown interface.  
-2. Distinguish partial regularity from full regularity in two sentences.  
-3. Build a three-axis comparison: derivation (Deng) / partial regularity (CKN) / Millennium openness—one phrase each.  
-4. **≤250 words:** Why is free-boundary regularity a geometric as well as analytic subject?  
-5. Link to [DE applications]({{ site.baseurl }}/contents/en/chapter03/03_09_Differential_Equations_Applications/) with one applied sentence.  
-6. Skim Abel 2023 materials at [abelprize.no](https://abelprize.no/) and list three keywords from the popular note.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as proof substitutes. Full ranking and notes: `research/video-research/caffarelli-pde/`.

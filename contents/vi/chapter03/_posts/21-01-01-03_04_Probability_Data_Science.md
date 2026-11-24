@@ -235,18 +235,6 @@ Xem [3B1B Bayes](https://www.youtube.com/watch?v=HZGCoVF3YvM) và [Veritasium �
 
 ---
 
-## Bài tập
-
-1. Với một con xúc xắc cân đối, tính $$\mathbb{E}[X]$$ và $$\mathrm{Var}(X)$$.  
-2. Viết ba câu giải thích vì sao kết quả trung bình của một cuộc thăm dò ổn định dần khi $$n$$ tăng, và nêu một giả thiết có thể không đúng.  
-3. Với $$\sigma=2$$: sai số chuẩn của trung bình mẫu thay đổi thế nào khi $$n$$ tăng từ $$n=100$$ lên $$400$$?  
-4. Viết công thức $$R(f)$$ và $$\hat{R}_n(f)$$; giải thích trong một câu vì sao cực tiểu hóa đại lượng sau không tự động tối ưu đại lượng trước.  
-5. Tìm và sửa một câu báo chí hiểu sai về giá trị $$p$$.  
-6. Cho một ví dụ trong đó dữ liệu huấn luyện và dữ liệu khi triển khai có phân phối khác nhau.  
-7. Nâng cao: bất đẳng thức Hoeffding và sự phụ thuộc theo hàm mũ vào $$n$$.
-
----
-
 ## Nguồn video (gói math-video-researcher)
 
 Dùng video để **định hướng và trực giác**, không thay chứng minh hay tài liệu chuẩn. Chi tiết xếp hạng: `research/video-research/probability-data-science/`.

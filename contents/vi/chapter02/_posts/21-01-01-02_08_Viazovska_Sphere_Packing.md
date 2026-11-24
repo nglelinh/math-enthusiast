@@ -220,20 +220,6 @@ Với hầu hết các số chiều, ta không chỉ ra được cách xếp dà
 
 ---
 
-## Bài tập
-
-1. Thảo luận về mật độ của cách xếp theo lưới nguyên trong $$\mathbb{R}^2$$ (sau khi đổi tỉ lệ thích hợp).  
-2. Định nghĩa mật độ của cách xếp theo lưới qua thể tích miền cơ bản.  
-3. Vì sao con số 240 nghiệm gợi ý rằng $$E_8$$ rất "chật" ở mức số hôn / lân cận?  
-4. Viết một đoạn: tính dương của biến đổi Fourier kiểm soát cấu hình toàn cục như thế nào?  
-5. Viết hai câu phân biệt tác giả của định lý cho $$E_8$$ và cho lưới Leech.  
-6. Đọc phần mở đầu bài báo của Viazovska / một bài tổng quan; liệt kê các thành phần giải tích xuất hiện trước khi dạng modular được đưa vào.  
-7. **Liên hệ trong chương.** Viết một đoạn so sánh "thiết kế hàm để chứng minh tính tối ưu" (Viazovska) với "kiểm soát nhiều thang đo" trong giải tích điều hòa (Wang).  
-8. Nêu một khác biệt giữa cách chứng minh của Hales (Kepler, 3 chiều) và của Viazovska ($$E_8$$).
-
----
-
-
 ## Nguồn video (bộ tư liệu nghiên cứu video)
 
 Chi tiết: `research/video-research/Viazovska_Sphere_Packing/`.

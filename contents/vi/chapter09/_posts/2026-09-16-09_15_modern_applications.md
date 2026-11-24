@@ -60,13 +60,6 @@ Bài chủ đề hiện đại đã nhắc rằng áp lực triển khai tạo r
 
 Đừng bỏ qua bản khảo sát mà chỉ đọc bài này. Quyền riêng tư, lý thuyết mã và tính toán lượng tử không hề dừng lại từ năm 2021; chúng không được nhắc ở đây vì bản khảo sát đã đề cập, và vì FIPS 203 đã được nói đến ở Chương 3 và 6.
 
-## Bài tập
-
-1. Thêm hàng thứ sáu vào bảng “đi ngược khóa học” của bài chủ đề hiện đại cho *huấn luyện tối ưu theo ngân sách tính toán*. Hàng đó dẫn đến chương nào?
-2. Vì sao “kernel chấp nhận” gần với kiểm chứng kiểu Hoare hơn là kiểm thử đơn vị, và vì sao nó vẫn phụ thuộc vào đặc tả?
-3. Trong Causal Transformer, hàm mất mát đối kháng đang cố mô phỏng đối tượng nào của Pearl?
-4. Một slide viết “ý tưởng của giải Turing đạt đỉnh năm 2018 với học sâu”. Dựa vào bài này, hãy nêu hai đối tượng toán–tin sau năm 2018 không chỉ là mạng lớn hơn.
-
 ## Tài liệu tham khảo
 
 - Hoffmann, J., et al. (2022). Training compute-optimal large language models. *NeurIPS*. [arXiv:2203.15556](https://arxiv.org/abs/2203.15556).

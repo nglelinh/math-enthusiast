@@ -159,20 +159,6 @@ What remains open includes André–Oort in full generality for all Shimura vari
 
 ---
 
-## Exercises
-
-1. What is “unlikely” about **unlikely intersections**? Answer with one modular-curve intuition and one higher-dimensional caution.
-2. Why might a **transcendental** period map still have **algebraic** image constraints? Write at most one paragraph.
-3. Name **two ingredients besides o-minimality** often used in these proofs (e.g. monodromy, Galois orbits, Ax–Schanuel-type inputs).
-4. Compare Tsimerman’s toolset with a geometric endoscopic / trace-formula bridge ([Langlands]({{ site.baseurl }}/contents/en/chapter02/02_02_Langlands_Program/))—different bridges to arithmetic. Four to eight sentences.
-5. Read the IMU citation and identify the **two named conjectures**. Restate each in your own words without looking.
-6. What does **cell decomposition** buy you geometrically, even before point counting?
-7. **Accuracy practice.** Find a popular article that says “logic solves number theory.” Rewrite the headline in two precise sentences.
-8. **Seminar stretch.** Skim a survey on Pila–Wilkie point counting and list three hypotheses of the counting theorem you do not yet understand.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Full ranking: `research/video-research/Tsimerman_Arithmetic/`.

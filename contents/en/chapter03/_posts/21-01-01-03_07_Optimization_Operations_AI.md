@@ -208,18 +208,6 @@ Pair [3B1B gradient descent](https://www.youtube.com/watch?v=IHZwWFHWa-w) with B
 
 ---
 
-## Exercises
-
-1. **Formulate.** A factory makes products A,B with profits and resource limits. Write an LP in symbols.  
-2. **Convexity check.** Is $$f(x)=x^4$$ convex on $$\mathbb{R}$$? Is $$f(x)=-x^2$$? Justify with the definition or second derivative test.  
-3. **Gradient step.** For $$f(x,y)=x^2+10y^2$$, write one gradient step from $$(1,1)$$ with step $$\eta=0.05$$.  
-4. **ERM link.** Express “fit a line by least squares” as an optimization problem. Is it convex?  
-5. **Duality slogan.** In two sentences, what does a dual feasible solution buy you for a minimization primal?  
-6. **MIP modeling.** Encode “choose at most two of three warehouses” with binary variables.  
-7. **Stretch.** Explain why softmax cross-entropy with a linear model is convex in the weights, but a deep net is generally not.
-
----
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and geometric/algorithmic intuition**, not as substitutes for proofs or standards documents. Full ranking and Mode B notes: `research/video-research/optimization-operations-ai/`.

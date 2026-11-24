@@ -148,20 +148,6 @@ Perfectoid geometry changed how experts talk about highly ramified $$p$$-adic sp
 
 ---
 
-## Exercises
-
-1. In one sentence, what is “mixed characteristic”?
-2. Why might making Frobenius an isomorphism (perfect rings) simplify cohomology or ramification arguments?
-3. State the tilting slogan without using the word “magic.”
-4. Name two problem areas influenced by perfectoid methods and one area you should *not* casually claim is “solved by perfectoids” without a citation.
-5. Compare, in a short table of your own, a “one conjecture” Fields story with Scholze’s infrastructure story (use another lecture from Ch.02).
-6. **LO6 (≤250 words):** Critique a popular profile of Scholze for precision vs hype. Does it state a theorem or only adjectives?
-7. Skim the introduction of Scholze’s *Perfectoid spaces* (or a survey) and list five keywords to learn next (e.g. adic space, untilt, almost mathematics, period sheaf, prism).
-8. Stretch: how does the desire for better foundations here resemble—and differ from—the desire for better foundations in [category-flavored modern geometry]({{ site.baseurl }}/contents/en/chapter02/02_13_Pardon_Symplectic/) or algebraic topology? One careful paragraph.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Full ranking: `research/video-research/Scholze_Perfectoid/`.

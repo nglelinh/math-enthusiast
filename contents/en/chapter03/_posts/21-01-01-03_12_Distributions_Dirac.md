@@ -117,17 +117,6 @@ In quantum field theory, Wightman distributions and time-ordered products again 
 
 ---
 
-## Exercises
-
-1. **Definition.** In ≤80 words, define $$\delta_0$$ as a functional, not as a graph.  
-2. **Heaviside.** Using the distributional derivative definition, show $$H'=\delta$$ on $$\mathbb{R}$$.  
-3. **Regular distributions.** Why does $$f(x)=1/|x|$$ on $$\mathbb{R}$$ fail to define an $$L^1_{\mathrm{loc}}$$ regular distribution near 0, while principal-value distributions repair related singular integrals? (Slogan OK.)  
-4. **Fourier.** Why is “Fourier transform of $$\delta$$ is 1” meaningful in $$\mathcal{S}'$$?  
-5. **LO6.** Rewrite: “Dirac invented an illegal function and physicists still use it, so physics is inconsistent.”  
-6. **Bridge.** One paragraph linking distributions to weak PDE solutions or to QM position notation.
-
----
-
 ## References and further reading
 
 1. Strichartz — *A Guide to Distribution Theory and Fourier Transforms* (gentle).  

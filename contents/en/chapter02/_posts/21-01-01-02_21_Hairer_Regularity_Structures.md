@@ -151,19 +151,6 @@ For this chapter, Hairer is an **infrastructure** portrait: a new category of ex
 
 ---
 
-## Exercises
-
-1. Why is $$(\partial_x h)^2$$ undefined if $$h$$ is only as regular as the one-dimensional stochastic heat equation? Answer in the language of products of distributions.
-2. Write the dynamical $$\Phi^4_3$$ equation and mark the illegal term. What does “3” in the subscript refer to?
-3. In one paragraph, what extra data does a **model** add to the abstract regularity structure $$(A,T,G)$$?
-4. State the reconstruction slogan without using the word “magic.” Why is uniqueness of $$\mathcal{R}f$$ important for defining a PDE?
-5. What is **renormalization** doing in this story—cancelling a physical force, or specifying a limit of regularized equations?
-6. Name one thing regularity structures and paracontrolled distributions **share**, and one way they **differ** (jets vs paraproducts is enough).
-7. **Accuracy practice.** Rewrite “Hairer solved all noisy equations, including turbulence” as two sentences that could appear in this course.
-8. **Seminar stretch.** Skim the first pages of Hairer, arXiv:1303.5113, and list five words to learn next (e.g. modelled distribution, structure group, subcritical, Hopf algebra of trees, renormalization group).
-
----
-
 ## Links
 
 - IMU Fields Medals 2014: [https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2014](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2014)

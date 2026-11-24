@@ -96,13 +96,6 @@ Một tiêu chuẩn FIPS là một quyết định kỹ thuật – thể chế 
 
 Trang này không trình bày lại JPEG, phương pháp đơn hình hay số học RSA. Các thuật toán mật mã hậu lượng tử được bàn sâu hơn ở bài [mật mã tương lai]({{ site.baseurl }}/contents/vi/chapter06/06_06_Future_Cryptography/).
 
-## Bài tập
-
-1. Giải thích trong hai câu vì sao việc triển khai ML-KEM *cùng với* phần bắt tay cổ điển của TLS 1.3 phù hợp với nguyên tắc "nói rõ cơ chế, không nói khẩu hiệu" của Chương 3.
-2. GraphGPS đạt độ phức tạp $$O(N+E)$$ nhờ attention tuyến tính. Nếu bạn cần *chứng nhận* tính liên thông, chứ không phải một biểu diễn nhúng, thì thuật toán đồ thị nào trong bài mạng vẫn là công cụ đúng?
-3. Viết lại công thức lớp hệ số nhân Fourier ở trên và đánh dấu ký hiệu nào được học, ký hiệu nào chính là DFT bạn đã gặp.
-4. Một PINN và một toán tử nơ-ron đều "giải PDE". Cái nào xấp xỉ một *hàm số*, cái nào xấp xỉ một *ánh xạ giữa các hàm số*?
-
 ## Tài liệu tham khảo
 
 - NIST. (2024). FIPS 203, 204, 205. [Thông báo](https://www.nist.gov/news-events/news/2024/08/announcing-approval-three-federal-information-processing-standards-fips); [FIPS 203](https://doi.org/10.6028/NIST.FIPS.203).

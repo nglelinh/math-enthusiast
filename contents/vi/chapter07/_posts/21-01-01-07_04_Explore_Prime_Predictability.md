@@ -212,16 +212,6 @@ Tra nguồn tin cậy: các cặp sinh đôi và khoảng cách đã được l�
 
 ---
 
-## 6. Bài tập
-
-1. Chứng minh có khoảng cách lớn tùy ý (dùng giai thừa).  
-2. Chứng minh không có bộ ba $$(p,p+2,p+4)$$ đều nguyên tố ngoài $$(3,5,7)$$. Vì sao xét môđun 3 là đủ?  
-3. Tính $$\pi(100)$$, $$\pi(1000)$$ và so sánh với $$x/\log x$$.  
-4. Tìm một cấp số cộng độ dài 4 và kiểm tra từng số hạng.  
-5. Viết đề xuất 150 từ: bạn chọn tầng dự đoán nào, phạm vi và tiêu chí ra sao.
-
----
-
 ## 7. Danh sách kiểm tra theo tiêu chí chấm
 
 | ☐ | Đồ thị/bảng khoảng cách (ít nhất 200 số nguyên tố) |

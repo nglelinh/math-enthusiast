@@ -280,20 +280,6 @@ Cùng loại câu hỏi (nhúng trơn trong chiều 4), nhưng công cụ khác 
 
 ---
 
-## Bài tập
-
-1. **Định nghĩa (mỗi định nghĩa không quá 80 chữ).** Slice trơn và slice tôpô.  
-2. **Vì sao khó?** Nêu ba lý do khiến nút Conway vượt qua các phép thử slice tiêu chuẩn.  
-3. **Bổ đề vết.** Phát biểu đặc trưng của tính slice bằng phép nhúng; viết một câu giải thích trực giác cho một chiều.  
-4. **Chuyển.** Nếu $$X(K)\cong X(K')$$ và $$s(K')=2$$, vì sao $$K$$ không slice trơn? Viết lập luận trong ba dòng.  
-5. **Đột biến.** Đột biến dương là gì, và vì sao nó quan trọng khi nút anh em là slice?  
-6. **$$s$$ và $$\tau$$.** Không quá 60 chữ: vì sao có thể cần $$s$$ khi $$\tau=0$$ trên cả họ nút cùng vết?  
-7. **Nói chính xác.** Sửa câu: "Một nghiên cứu sinh giải câu đố nút dễ trong một cuối tuần, chứng tỏ tôpô 4 chiều bị đánh giá quá cao."  
-8. **Đoạn nối.** Nối câu chuyện này với ý "cấu trúc trơn ở chiều 4 phát hiện được bằng các bất biến tinh tế", mà không khẳng định Piccirillo dùng không gian moduli Yang–Mills.  
-9. **Mở rộng.** Xem bài nói của Borcherds (liên kết bên dưới); liệt kê ba định nghĩa ông nhấn mạnh có liên quan đến bài này.
-
----
-
 ## Nguồn video
 
 Dùng để định hướng; các khẳng định mang tính định lý vẫn dựa vào bài báo.

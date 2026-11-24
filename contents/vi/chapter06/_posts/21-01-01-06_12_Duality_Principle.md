@@ -225,19 +225,6 @@ AdS/CFT                 hấp dẫn bulk ↔ QFT biên
 
 ---
 
-## Bài tập
-
-1. **Không gian đối ngẫu.** Với $$V=\mathbb{R}^2$$, mô tả $$V^*$$ và giải thích vì sao $$f:V\to W$$ sinh ra một ánh xạ **theo chiều ngược lại** giữa các không gian đối ngẫu.  
-2. **Ghép cặp.** Không quá 80 chữ: một "ghép cặp hoàn hảo" $$A\times B\to K$$ cho ta điều gì về mặt khái niệm?  
-3. **Đối ngẫu Poincaré.** Với một mặt đóng, định hướng ($$n=2$$), đối ngẫu Poincaré nói gì về $$H^1$$ và $$H_1$$ (ở mức ý chính)?  
-4. **Đối ngẫu điện–từ.** Viết phương trình Maxwell trong chân không dưới dạng làm lộ rõ $$E\leftrightarrow B$$ (lập luận gần đúng cũng được), hoặc giải thích toán tử sao Hodge của $$F$$ trong một đoạn.  
-5. **S và T.** Lập bảng hai hàng so sánh đối ngẫu S và đối ngẫu T (đổi gì; mỗi loại một lợi ích).  
-6. **Nói đúng về Langlands.** Nhóm đối ngẫu Langlands dùng để làm gì (ý chính), và bạn **không** được khẳng định điều gì về trạng thái của chương trình?  
-7. **Không quá 200 chữ:** vì sao "hai lý thuyết, một vật lý" khác với "một lý thuyết có nhóm đối xứng lớn"?  
-8. **Không bắt buộc.** Đọc lướt một bài phổ biến khoa học về AdS/CFT; liệt kê ba mục trong từ điển (đối tượng trong khối ↔ trên biên), kèm lưu ý về trạng thái.
-
----
-
 ## Tài liệu tham khảo
 
 1. Wikipedia — [Duality (mathematics)](https://en.wikipedia.org/wiki/Duality_(mathematics)).  

@@ -210,22 +210,6 @@ A useful exercise in taste is to rewrite each of those applications in the same 
 
 ---
 
-## Exercises
-
-1. Write a complete idea-level proof that $$(0,1)$$ is uncountable, including an explicit digit-flip rule.  
-2. Explain in one paragraph why proving $$(0,1)$$ uncountable yields the result for $$\mathbb{R}$$.  
-3. Give an explicit listing scheme for all integers; then sketch why positive rationals are countable.  
-4. Using a $$5\times 5$$ digit table of your own invention, compute the diagonal escape number with the $$\{4,5\}$$ rule.  
-5. Why might flipping $$0\leftrightarrow 9$$ be a dangerous digit rule for hygiene purposes?  
-6. Prove, at idea level, that there is no surjection from a set $$X$$ onto $$\mathcal{P}(X)$$.  
-7. **Narrative (≤350 words).** Explain diagonalization to a classmate who knows sequences but not set theory jargon.  
-8. Optional research literacy: find one sentence in a computability text that is openly described as a diagonal argument; quote it and name the theorem.
-
----
-
-
----
-
 ## Knowledge extracted from video research
 
 Seminar-facing distillation (cross-checked against written sources; **no fabricated transcripts**). Pack: `research/video-research/cantor-diagonal/analysis.md`.
@@ -264,7 +248,6 @@ Use videos for **orientation and research culture**, not as substitutes for prim
 **Status reminder:** **Proved** (Cantor). Uncountability of $$\mathbb{R}$$ / power set of $$\mathbb{N}$$ is standard theorem; representation hygiene is the main student pitfall.
 
 ---
-
 
 
 ### Transcript & frames (flagship extract)

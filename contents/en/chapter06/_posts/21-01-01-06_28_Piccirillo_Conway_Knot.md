@@ -267,20 +267,6 @@ Same category (smooth embeddings in dimension 4); different machines. The course
 
 ---
 
-## Exercises
-
-1. **Definitions (≤80 words each).** Smoothly slice vs topologically slice.  
-2. **Why hard?** List three reasons Conway defeated standard slice tests.  
-3. **Trace lemma.** State the embedding characterization of sliceness; give one-sentence intuition for one direction.  
-4. **Transfer.** If $$X(K)\cong X(K')$$ and $$s(K')=2$$, why is $$K$$ not smoothly slice? Write the three-line chain.  
-5. **Mutation literacy.** What is a positive mutant, and why does that matter when the sibling is slice?  
-6. **$$s$$ vs $$\tau$$.** In ≤60 words: why might one need $$s$$ even if $$\tau=0$$ on an entire trace family?  
-7. **LO6 rewrite.** Correct: “A grad student casually solved an easy knot puzzle over a weekend, proving 4D topology was overrated.”  
-8. **Bridge paragraph.** Connect this story to the slogan “smooth structure in dimension 4 is detectable by refined invariants” without claiming Piccirillo used Yang–Mills moduli.  
-9. **Stretch.** Watch Borcherds’s expository talk (link below); list three definitions he emphasizes that match this essay.
-
----
-
 ## Video sources
 
 Use for orientation; claims load-bearing for theorems still rest on the paper.

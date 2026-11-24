@@ -156,21 +156,6 @@ To preserve distances among $$N$$ points, JL-scale targets $$k\sim C\varepsilon^
 
 ---
 
-## Exercises
-
-1. **Shell.** For large $$n$$, argue why $$\mathrm{Vol}(r B_2^n)/\mathrm{Vol}(B_2^n)=r^n$$ becomes tiny if $$r=0.9$$.
-2. **Norm.** If $$X_i$$ are i.i.d. standard normal, what is $$\mathbb{E}\|X\|_2^2$$? Why is $$\|X\|_2\approx\sqrt{n}$$?
-3. **Angle.** Explain the $$n^{-1/2}$$ cosine scale for independent random vectors.
-4. **JL numbers.** For $$N=10^6$$ and $$\varepsilon=0.1$$, what order of $$k$$ does $$O(\varepsilon^{-2}\log N)$$ suggest?
-5. **Curse taxonomy.** Give two different “curses” that could hurt a naive histogram estimator vs a nearest-neighbor classifier.
-6. **Intrinsic dimension.** Invent a data set in $$\mathbb{R}^{1000}$$ with intrinsic dimension 2; say which algorithms should notice.
-7. **Stretch.** Look up a precise statement of JL; identify where randomness enters the proof idea (existence via probabilistic method).
-
----
-
-
----
-
 ## Knowledge extracted from video research
 
 Seminar-facing distillation (cross-checked against written sources; **no fabricated transcripts**). Pack: `research/video-research/high-dimensional-geometry/analysis.md`.

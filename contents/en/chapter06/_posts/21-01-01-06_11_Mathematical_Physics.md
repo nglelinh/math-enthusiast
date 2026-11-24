@@ -191,23 +191,6 @@ Textbook calculations often diagonalize finite matrices or ignore domains of unb
 
 ---
 
-## Exercises
-
-1. **Well-posedness.** For the ODE $$\dot x = f(x)$$ with $$f$$ Lipschitz, state a basic existence/uniqueness theorem you know; contrast with NS openness.
-2. **Self-adjoint slogan.** Why do observables need real spectra in textbook QM, and how does self-adjointness secure that?
-3. **Partition function.** For a two-state system with energies $$0$$ and $$E$$, write $$Z$$ and mean energy as functions of $$\beta$$.
-4. **Stokes micro.** For $$\mathbf F=(-y,x,0)$$, compute $$\nabla\times\mathbf F$$ and explain in ≤80 words why the line integral around the unit circle equals the flux of the curl through the unit disk.
-5. **Forms slogan.** In one sentence each: what does $$dF=0$$ package, and what does $$d\star F=J$$ package (Maxwell in forms)?
-6. **Gauge idea.** In one paragraph, connect “local phase redundancy” of a complex wavefunction to a connection/compensating field (heuristic OK).
-7. **Clay literacy.** Name two Clay problems with physics origin and state each in one careful sentence.
-8. **Interface.** Pick one topic from this chapter (OT, networks, quantum info, dualities) and write three sentences on a physics PDE/probability/geometry bridge.
-9. **Stretch.** Read a popular account of a recent black-hole stability result; list what is theorem vs analogy.
-
----
-
-
----
-
 ## Knowledge extracted from video research
 
 Seminar-facing distillation (cross-checked against written sources; **no fabricated transcripts**). Pack: `research/video-research/mathematical-physics/analysis.md`.

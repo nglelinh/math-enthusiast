@@ -65,7 +65,6 @@ Many advanced graph algorithms *begin* with a DFS (or BFS) pass that orients edg
 2 min 09 sec video: SCC definition and (disc, low) update rules, step-by-step DFS and stack trace on a 6-vertex graph, the on_stack[v] pitfall, and the condensation DAG.
 
 
-
 <div class="interactive-demo" markdown="1">
 <div data-demo="tarjan-explainer" data-preset="sixNode" data-lang="en"></div>
 </div>
@@ -145,20 +144,6 @@ The seminar payoff is intellectual honesty about three layers: existence theorem
 | “Turing 1986 is only about asymptotic theory.” | It is about design *and* analysis—implementable algorithms with proofs. |
 
 ---
-
-## Exercises
-
-1. Explain discovery/finishing times in DFS and the parentheses property in ≤120 words.  
-2. What is an articulation point? Why might a network operator care?  
-3. State Kuratowski’s characterization of planar graphs at slogan level.  
-4. Why does $$m=O(n)$$ for simple planar graphs (Euler intuition)?  
-5. Describe union-find operations and one graph algorithm that uses them.  
-6. List two graph problems in P and two NP-complete graph problems (names suffice).  
-7. **≤200 words:** Connect this lecture to [graphs & networks]({{ site.baseurl }}/contents/en/chapter03/03_06_Graph_Theory_Networks/) with one concrete algorithmic task.  
-8. Skim Hopcroft and Tarjan’s Turing pages at [amturing.acm.org](https://amturing.acm.org/); write three bullet themes from the citations.
-
----
-
 
 ## Video sources (math-video-researcher pack)
 

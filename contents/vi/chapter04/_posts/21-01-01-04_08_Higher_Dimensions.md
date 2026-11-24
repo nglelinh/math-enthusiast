@@ -180,19 +180,6 @@ Học máy làm việc trong hàng nghìn chiều (các đặc trưng, các embe
 - Tỉ lệ thể tích siêu cầu theo số chiều là cú sốc kinh điển; hãy tự lập một bảng.
 - Sự tập trung độ đo giải thích vì sao xác suất ở số chiều cao thường gần như tất định.
 
-## Bài tập
-
-1. Tính khoảng cách giữa hai đỉnh đối diện của hình lập phương đơn vị trong $$\mathbb{R}^2$$, $$\mathbb{R}^3$$, $$\mathbb{R}^n$$.
-2. Hình $$n$$-lập phương có bao nhiêu đỉnh và bao nhiêu cạnh?
-3. Vì sao thể tích $$a^n$$ của hình lập phương cạnh $$a\in(0,1)$$ tiến về 0 khi $$n\to\infty$$?
-4. Mô tả một cách hình dung tesseract bằng lát cắt.
-5. Viết không quá 200 từ: ý tưởng của sự tập trung độ đo và vì sao nó trái với trực giác 3 chiều.
-6. Nêu một lý do khiến việc tìm láng giềng gần nhất kém hiệu quả ở số chiều cao.
-7. (Mở rộng) Phát biểu bổ đề Johnson–Lindenstrauss bằng một câu.
-8. (Mở rộng) Liên hệ với [xếp cầu]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/) hoặc [khám phá chiều thứ tư]({{ site.baseurl }}/contents/vi/chapter07/07_06_Explore_Fourth_Dimension/).
-
----
-
 ## Nguồn video (gói math-video-researcher)
 
 Dùng video để **định hướng và trực giác**, không thay chứng minh hay tài liệu chuẩn. Chi tiết xếp hạng: `research/video-research/higher-dimensions/`.

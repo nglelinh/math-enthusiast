@@ -167,20 +167,6 @@ Modern combinatorics is a **trading zone**. Analysts import extremal examples; c
 
 ---
 
-## Exercises
-
-1. Give **one** example of a combinatorial statement with a geometric or analytic proof (from this essay or your own reading).
-2. Give **one** example of a geometric statement with a combinatorial proof or combinatorial formulation.
-3. What is “structure vs randomness” in additive combinatorics? Illustrate with sumset size.
-4. How might **incidences** resemble **tube overlaps**? Write at most one paragraph.
-5. State Szemerédi–Trotter in words (no need for the sharp exponent) and explain why a grid nearly saturates it.
-6. What does a spectral gap buy you for a random walk on a graph?
-7. Pick **one** keyword from this map (incidence, expander, polynomial method, sumset, packing) and find a short survey introduction (≤15 pages). List three definitions you needed to look up.
-8. **Routing exercise.** Choose two Chapter 2 essays linked above and write four sentences on a method that appears in both.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Use videos and primary sources for **orientation and research culture**. Full ranking and Mode B notes: `research/video-research/Modern_Combinatorics_Geometry/`.

@@ -161,18 +161,6 @@ Bài học về phương pháp: *ý tưởng chứng minh có thể bao gồm vi
 
 ---
 
-## Bài tập
-
-1. Giải thích đồ thị đối ngẫu: vì sao bài toán tô màu bản đồ trở thành bài toán tô màu đỉnh của đồ thị phẳng.
-2. Chỉ ra rằng $$K_4$$ là đồ thị phẳng và cần 4 màu; vì sao điều đó cho thấy con số bốn là chính xác.
-3. Vì sao phản ví dụ tối thiểu lại hữu ích? Trả lời trong năm câu.
-4. Tự định nghĩa tập không tránh được và cấu hình rút gọn được.
-5. Tra cứu (bên ngoài) số cấu hình của Appel–Haken và của Robertson cùng cộng sự; ghi lại các con số và một câu giải thích vì sao việc rút ngắn danh sách quan trọng.
-6. **Thảo luận triết học (không quá 250 từ).** Khi nào bạn chấp nhận một chứng minh có máy tính? Nêu một tiêu chí.
-7. **Viết tự luận (không quá 350 từ).** Giải thích ý tưởng chứng minh bốn màu cho một bạn học, không liệt kê hết các cấu hình.
-
----
-
 ## Kiến thức rút ra từ phần tìm hiểu video
 
 Tóm tắt dùng khi thảo luận (đối chiếu với nguồn viết; **không bịa nội dung transcript**). Gói: `research/video-research/four-color-proof/analysis.md`.

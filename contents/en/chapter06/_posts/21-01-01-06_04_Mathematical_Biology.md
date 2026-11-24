@@ -172,21 +172,6 @@ Before trusting a simulation, nondimensionalize. Logistic growth has a natural t
 
 ---
 
-## Exercises
-
-1. **Logistic.** Solve or sketch $$N(t)$$ for logistic growth; interpret $$r$$ and $$K$$.
-2. **SIR threshold.** Linearize SIR at $$(S,I,R)=(1,0,0)$$ (normalized) and relate invasion to $$R_0=\beta/\gamma$$ under standard scaling.
-3. **Mass action.** For $$A+B \xrightarrow{k} C$$, write the ODE contribution to $$\dot a,\dot b,\dot c$$ under mass-action kinetics.
-4. **Noise intuition.** If protein production occurs in rare bursts, why might the protein distribution be overdispersed relative to Poisson?
-5. **Network caution.** Give an example where high degree does not imply functional importance.
-6. **Literacy.** Read an abstract on protein structure prediction; list one measurement, one computational method, and one biological claim that still needs separate validation.
-7. **Stretch.** Nondimensionalize logistic or SIR and identify dimensionless groups.
-
----
-
-
----
-
 ## Knowledge extracted from video research
 
 Seminar-facing distillation (cross-checked against written sources; **no fabricated transcripts**). Pack: `research/video-research/mathematical-biology/analysis.md`.

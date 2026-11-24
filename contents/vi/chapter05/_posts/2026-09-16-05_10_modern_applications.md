@@ -81,13 +81,6 @@ Một dấu kiểm xanh của Lean là sự bảo đảm tương đối so với
 
 Bài này không hình thức hóa FLT hay giả thuyết Poincaré (dù một dự án cộng đồng lớn do Kevin Buzzard khởi xướng đang tiến hành hình thức hóa Định lý lớn Fermat trong Lean!). Nó cũng không khẳng định các bài tổ hợp nay đã dễ với các tác nhân dùng Lean (cả hai bài tổ hợp của IMO 2024 đều không được hệ thống giải).
 
-## Bài tập
-
-1. Theo phong cách bài Euclid, hãy gọi tên các *bước đi* trong LTE: điều gì được đưa về việc kernel kiểm tra, và điều gì phải xây dựng trước?
-2. Vì sao "một chứng minh hình học mà người đọc được" là một loại bảo đảm khác với "kernel Lean chấp nhận một hạng tử"?
-3. Liệt kê ba điểm khiến việc đánh giá AlphaProof tại IMO 2024 khác với kỳ thi dành cho con người, chỉ dùng các dữ kiện trong ghi chú của DeepMind hoặc bài báo năm 2025.
-4. Phát biểu định lý bất toàn của Gödel trong một câu mà vẫn đúng sau AlphaProof.
-
 ## Tài liệu tham khảo
 
 - Cộng đồng Lean. (2022). Completion of the Liquid Tensor Experiment. [leanprover-community.github.io/blog/posts/lte-final](https://leanprover-community.github.io/blog/posts/lte-final/).

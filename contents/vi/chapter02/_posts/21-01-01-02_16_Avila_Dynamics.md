@@ -130,19 +130,6 @@ Trong khóa học, Avila được đặt cạnh [Mirzakhani]({{ site.baseurl }}/
 
 ---
 
-## Bài tập
-
-1. Diễn đạt bằng lời của bạn: khi đi từ một ánh xạ đơn mốt sang ánh xạ quay về lần đầu đã đổi tỷ lệ, một **bước tái chuẩn hóa** bỏ đi thông tin gì và giữ lại thông tin gì?
-2. Vì sao cả nhà vật lý lẫn nhà toán học đều quan tâm phổ có phải là tập Cantor hay không? Tách riêng "hình vẽ đẹp (con bướm Hofstadter)" và "định lý (tập đóng, phần trong rỗng, không có điểm cô lập)".
-3. Viết toán tử almost Mathieu, đánh dấu **hằng số liên kết** và **tần số**. Điều gì xảy ra (ở mức ý tưởng) khi tần số hữu tỷ?
-4. Bài toán Ten Martini: phát biểu định lý trong một câu và nêu tên **cả hai** tác giả. Sau đó viết một câu mà bạn *không chấp nhận* in ra (ví dụ "Avila chứng minh mọi phổ lượng tử đều là fractal").
-5. Ánh xạ trao đổi khoảng: dùng một hình vẽ để giải thích vì sao việc cắt và xếp lại không nhất thiết trộn đều như khi xào bài, và khái niệm "trộn yếu" nhằm nắm bắt điều gì.
-6. **Luyện ghi nhận công lao.** Lấy một câu trên báo phổ thông nói rằng Avila "giải được bài toán hỗn loạn". Viết lại thành hai câu chính xác cho khóa học này.
-7. Đọc lướt văn bản của IMU năm 2014 về Avila (hoặc bản tin PDF) và liệt kê **ba** kết quả *không phải* bài toán Ten Martini.
-8. **Seminar mở rộng.** So sánh các định lý của Avila về "ánh xạ đơn mốt điển hình" với các định lý của [Mirzakhani]({{ site.baseurl }}/contents/vi/chapter02/02_05_Mirzakhani_Moduli/) về đường trắc địa điển hình trên không gian moduli. Cả hai đều nói về *một không gian các hệ*. Trong mỗi trường hợp, không gian đó là gì?
-
----
-
 ## Nguồn video và đọc thêm
 
 Bài này không có bộ tài liệu video riêng của khóa học. Nên ưu tiên các nguồn chính thức và bách khoa.

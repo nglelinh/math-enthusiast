@@ -152,18 +152,6 @@ Sơ đồ này là nội dung cốt lõi trong cách nhìn của Kapustin–Witt
 
 ---
 
-## Bài tập
-
-1. Lập bảng hai cột so sánh Langlands số học và hình học: nền, đối tượng, nhóm đối ngẫu.  
-2. Phát biểu Langlands hình học trong không quá 3 câu.  
-3. Đối ngẫu S đổi những gì (hằng số tương tác và nhóm)?  
-4. Phác họa phép compact hóa Kapustin–Witten bằng 4 gạch đầu dòng.  
-5. Vì sao hệ Hitchin của $$G$$ và $$G^\vee$$ quan trọng đối với đối xứng gương?  
-6. **Không quá 150 chữ:** vì sao nói "cầu nối, không phải chứng minh" là đúng cho quan hệ vật lý → Langlands hình học?  
-7. **Không bắt buộc:** mở phần tóm tắt bài báo Kapustin–Witten; ghi năm từ khóa.
-
----
-
 ## Ghi chú viết lại từ các video chính
 
 *Viết lại từ phụ đề tự động các bài giảng của Kapustin, Gukov, Frenkel. Phụ đề: `research/video-research/geometric-langlands-sduality/transcripts/`. Các đơn vị kiến thức: `knowledge_units_mode_c.json`. Đây là phần viết lại, không chép phụ đề.*

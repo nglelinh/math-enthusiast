@@ -223,18 +223,6 @@ Primary popular path: [Numberphile RSA](https://www.youtube.com/watch?v=M7kEpw1t
 
 ---
 
-## Exercises
-
-1. Compute $$17 \bmod 5$$, $$2^8 \bmod 7$$, and find $$x$$ with $$3x\equiv 1 \pmod{7}$$.  
-2. Explain public vs private key in two sentences to a non-math friend.  
-3. Why does publishing $$n=pq$$ not immediately publish $$p$$ and $$q$$ for large primes?  
-4. Diffie–Hellman: if an eavesdropper sees $$g^a$$ and $$g^b$$, what would discrete log allow them to do?  
-5. **LO4 synthesis (≤300 words).** State the one-step mechanism linking modular exponentiation to public-key encryption.  
-6. Critique a popular article on “unbreakable crypto” for one overclaim (precision practice).  
-7. **Stretch.** Why is hybrid encryption used on the web instead of encrypting all bulk traffic with RSA alone?
-
----
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and geometric/algorithmic intuition**, not as substitutes for proofs or standards documents. Full ranking and Mode B notes: `research/video-research/number-theory-cryptography/`.
@@ -249,7 +237,6 @@ Use videos for **orientation and geometric/algorithmic intuition**, not as subst
 6. **FOUNDATION** — Khan Academy — Journey into cryptography (hub): [https://www.khanacademy.org/computing/computer-science/cryptography](https://www.khanacademy.org/computing/computer-science/cryptography).
 
 Complete URL bibliography: `research/video-research/number-theory-cryptography/references.md`.
-
 
 
 ### Transcript & frames (flagship extract)

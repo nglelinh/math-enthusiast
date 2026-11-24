@@ -143,19 +143,6 @@ For this course, Figalli is **regularity as infrastructure**: not one named conj
 
 ---
 
-## Exercises
-
-1. In two sentences, what does Brenier’s theorem add to Kantorovich’s existence theory for quadratic cost?
-2. Write the formal Monge–Ampère equation relating densities $$f,g$$ to a convex potential $$\phi$$. Which term is nonlinear, and why does that obstruct naive elliptic regularity?
-3. Why does **convexity of the target** appear in Caffarelli’s full-regularity theorems? Give a slogan, not a proof.
-4. State the De Philippis–Figalli partial-regularity slogan (smooth off a closed null set). What hypotheses does it *drop* relative to Caffarelli’s classical setting?
-5. Explain, in at most eight sentences, how an optimal map enters the semigeostrophic dictionary. Why would $$W^{2,1}$$ regularity of the potential matter for a weak Eulerian formulation?
-6. **Accuracy practice.** Find a sentence that says Figalli “created optimal transport.” Rewrite it in two precise sentences suitable for this course.
-7. Compare Figalli 2018 with Villani 2010 in a four-row table of your own: citation, equations, role of OT, what not to claim.
-8. **Seminar stretch.** Skim the introduction of De Philippis–Figalli, *The Monge–Ampère equation and its link to optimal transportation* (Bull. AMS, 2014), and list five keywords to learn next (e.g. Alexandrov solution, MTW, c-convexity, Wulff shape, Cullen–Purser coordinates).
-
----
-
 ## Links
 
 - IMU Fields Medals 2018: [https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2018](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2018)

@@ -255,18 +255,6 @@ Trình tự xem phổ biến: [Numberphile RSA](https://www.youtube.com/watch?v=
 
 ---
 
-## Bài tập
-
-1. Tính $$17\bmod 5$$ và $$2^8\bmod 7$$; tìm $$x$$ sao cho $$3x\equiv 1\pmod 7$$.  
-2. Giải thích khóa công khai và khóa bí mật trong hai câu cho một người không học toán.  
-3. Vì sao công bố $$n=pq$$ không làm lộ ngay $$p,q$$ khi các số nguyên tố đủ lớn?  
-4. Trong Diffie–Hellman, kẻ nghe lén thấy $$g^a,g^b$$. Nếu giải được logarit rời rạc, kẻ đó làm được gì?  
-5. **Bài viết ngắn (≤300 từ).** Trình bày cơ chế nối lũy thừa theo modulo với mã hóa khóa công khai, từng bước một.  
-6. Tìm một bài báo nói "mật mã không thể bị phá" và chỉ ra một câu nói quá.  
-7. Nâng cao: vì sao web dùng mã hóa lai thay vì dùng RSA cho toàn bộ dữ liệu?
-
----
-
 ## Nguồn video (gói math-video-researcher)
 
 Dùng video để **định hướng và trực giác**, không thay chứng minh hay tài liệu chuẩn. Chi tiết xếp hạng: `research/video-research/number-theory-cryptography/`.
@@ -281,7 +269,6 @@ Dùng video để **định hướng và trực giác**, không thay chứng min
 6. **FOUNDATION** — Khan Academy — Journey into cryptography (hub): [https://www.khanacademy.org/computing/computer-science/cryptography](https://www.khanacademy.org/computing/computer-science/cryptography).
 
 Danh mục URL đầy đủ: `research/video-research/number-theory-cryptography/references.md`.
-
 
 
 ### Transcript & frames (extract flagship)

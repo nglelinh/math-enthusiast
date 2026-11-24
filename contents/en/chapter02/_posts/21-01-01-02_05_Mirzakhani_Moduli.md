@@ -152,20 +152,6 @@ The IMU awarded Mirzakhani the Fields Medal in 2014 for outstanding contribution
 
 ---
 
-## Exercises
-
-1. For $$g=2$$, compute $$6g-6$$ and interpret it as a dimension of the space of shapes. Why is the exponent in geodesic counting the same number?
-2. Explain “space of shapes” to a classmate using the torus of revolution: what data might distinguish two different flat (or hyperbolic, after punching) geometries?
-3. Define a simple closed geodesic in one careful sentence. Give an example of a closed curve that is *not* simple.
-4. Why might a recursive formula for WP volumes of moduli with boundary help count curves on a closed surface?
-5. State what ergodicity of a flow means in informal language (time average = space average). Why would one care for earthquake deformations?
-6. **LO6 (≤250 words):** Find a popular article about Mirzakhani’s medal. Quote one sentence that is precise and one that is vague or overclaimed; rewrite the vague sentence accurately.
-7. Sketch how unfolding a square billiard produces a flat torus; then ask (without solving) what harder polygons force higher-genus translation surfaces.
-8. Stretch: look up “pairs of pants decomposition” and explain in three sentences how cutting a genus-$$g$$ surface into pants organizes length coordinates.
-
----
-
-
 ## Video sources (math-video-researcher pack)
 
 Full ranking: `research/video-research/Mirzakhani_Moduli/`.

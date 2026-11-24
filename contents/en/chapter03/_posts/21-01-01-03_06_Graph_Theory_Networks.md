@@ -191,18 +191,6 @@ Graph theory supplies both the poly-time engines and the hardness maps.
 
 ---
 
-## Exercises
-
-1. **Warm-up.** Draw a directed graph of 4 web pages with 6 links. Identify a node with in-degree 0.  
-2. **Paths.** Explain why BFS finds unweighted shortest paths (invariant of the queue).  
-3. **Flow slogan.** In two sentences, state max-flow min-cut and what a min cut certifies.  
-4. **PageRank mechanism.** Why can a page with few in-links outrank a page with many low-quality in-links?  
-5. **Model.** Encode a small subway map as a weighted graph; define what “shortest” should mean for a rider.  
-6. **Spectral.** What does $$x^\top Lx=\sum_{ij\in E}(x_i-x_j)^2$$ measure about a function $$x$$ on vertices?  
-7. **Stretch.** Look up the definition of edge expansion and interpret “good expander” in plain language.
-
----
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and geometric/algorithmic intuition**, not as substitutes for proofs or standards documents. Full ranking and Mode B notes: `research/video-research/graph-theory-networks/`.

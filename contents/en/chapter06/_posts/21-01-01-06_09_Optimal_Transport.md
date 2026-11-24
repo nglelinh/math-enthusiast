@@ -169,21 +169,6 @@ Training a generative model is, abstractly, making a pushforward measure $$G_\#\
 
 ---
 
-## Exercises
-
-1. **Two Diracs.** Compute $$W_p(\delta_a,\delta_b)$$ for $$a,b\in\mathbb{R}$$.
-2. **Why maps fail.** Explain why transporting $$\delta_0$$ to $$\tfrac12\delta_{-1}+\tfrac12\delta_{1}$$ cannot use a classical map without splitting.
-3. **Coupling.** Write the set $$\Pi(\mu,\nu)$$ explicitly for two two-point discrete measures.
-4. **Dual slogan.** Using Kantorovich–Rubinstein, why is $$W_1$$ large if means differ for measures on $$\mathbb{R}$$?
-5. **Sinkhorn tradeoff.** Name one computational gain and one statistical/mathematical cost of entropic OT.
-6. **Literacy.** Find a paper using “Wasserstein”; identify cost, discrete vs continuous, and exact vs approximate solver.
-7. **Stretch.** Look up Brenier’s theorem statement; identify the cost function it targets.
-
----
-
-
----
-
 ## Knowledge extracted from video research
 
 Seminar-facing distillation (cross-checked against written sources; **no fabricated transcripts**). Pack: `research/video-research/optimal-transport/analysis.md`.

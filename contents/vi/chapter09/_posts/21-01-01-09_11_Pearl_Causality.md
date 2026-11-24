@@ -192,19 +192,6 @@ Khi không identify được từ quan sát, trung thực khoa học là nói *p
 
 ---
 
-## Bài tập
-
-1. Viết một ví dụ đời thường ba nấc association / intervention / counterfactual.  
-2. Cho joint factorization theo chain $$X\to Y\to Z$$; viết $$p(x,y,z)$$.  
-3. Giải thích một đoạn vì sao $$p(y\mid x)$$ khác $$p(y\mid do(x))$$ khi có confounder $$Z\to X$$, $$Z\to Y$$.  
-4. Phát biểu back-door criterion ở mức tóm tắt; áp vào ví dụ điều trị–bệnh nền–outcome.  
-5. **≤200 từ:** Vì sao equivalence class cản “học duy nhất một DAG” từ quan sát.  
-6. Nối [xác suất–data]({{ site.baseurl }}/contents/vi/chapter03/03_04_Probability_Data_Science/): một câu độc lập có điều kiện vs d-separation.  
-7. Chọn một tiêu đề báo kiểu “AI finds what causes Y”. Kiểm tra: nấc thang nào? graph assumed? RCT? only observational?
-
----
-
-
 ## Video và tài liệu
 
 Video gợi ý, dùng để làm quen với bối cảnh chứ không thay cho chứng minh: [https://www.youtube.com/watch?v=iNm4nFBFmvo](https://www.youtube.com/watch?v=iNm4nFBFmvo).

@@ -52,13 +52,6 @@ Frontier literacy is a labeling exercise. Chinchilla: regularity. AlphaFold 3: m
 
 This page does not redo attention derivations, PAC bounds, or AdS/CFT. Duality deep dives stay where they are. Quantum error-correction headlines after 2024 should be read with the same LO6 hygiene as the quantum lecture.
 
-## Exercises
-
-1. Write one Chinchilla sentence that would be false if you replaced “empirical fit” by “theorem.”
-2. AlphaFold 3 uses a diffusion module. Which Chapter 4 or Chapter 6 object is that, and what does a high confidence score *not* guarantee?
-3. Why can a neural operator have a universal-approximation theorem and still fail on a new Reynolds number?
-4. Name the hardness object behind ML-KEM and say why a quantum *annealer* press release does not retire it.
-
 ## References
 
 - Hoffmann, J., et al. (2022). Training compute-optimal large language models. *NeurIPS*. [arXiv:2203.15556](https://arxiv.org/abs/2203.15556).

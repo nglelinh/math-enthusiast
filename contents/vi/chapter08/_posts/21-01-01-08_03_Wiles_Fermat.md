@@ -197,18 +197,6 @@ Khi bạn xét một đường cong elliptic trên $$\mathbb{Q}$$ theo modulo m�
 
 ---
 
-## Bài tập
-
-1. Viết Định lý Fermat với số mũ 4 bằng lời và bằng phương trình; giải thích vì sao chứng minh một trường hợp riêng chưa phải là chứng minh tổng quát.  
-2. Tóm tắt chuỗi Frey–Ribet–Wiles trong bốn gạch đầu dòng, chỉ dùng hai thuật ngữ chuyên môn là "modular" và "đường cong elliptic".  
-3. Điều kiện "nửa ổn định" giúp được gì trong câu chuyện này (viết một đoạn ngắn)?  
-4. **Không quá 300 từ:** diễn giải lời trao giải Abel 2016 bằng lời của bạn, nêu được phương pháp chứ không chỉ Định lý Fermat.  
-5. So sánh với [bài về Định lý Fermat]({{ site.baseurl }}/contents/vi/chapter05/05_08_Fermat_Last_Theorem/): nêu hai điểm khác nhau về trọng tâm (ý tưởng chứng minh so với phương pháp của cả một sự nghiệp).  
-6. **Mở rộng:** viết một đoạn giải thích biểu diễn Galois cố gắng ghi lại điều gì (đối xứng số học được biểu diễn bằng đại số tuyến tính).
-
----
-
-
 ## Nguồn video (bộ tư liệu nghiên cứu video)
 
 Video dùng để **định hướng và làm quen với không khí nghiên cứu**, không thay thế chứng minh. Chi tiết: `research/video-research/wiles-fermat/`.

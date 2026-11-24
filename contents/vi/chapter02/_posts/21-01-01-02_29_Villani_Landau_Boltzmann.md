@@ -132,19 +132,6 @@ Lý do Villani nhận Huy chương Fields 2010 rất rõ ràng: suốt hơn nử
 
 ---
 
-## Bài tập
-
-1. Viết bốn câu mà một nhà vật lý có thể chấp nhận: tắt dần Landau tuyến tính là gì, và vì sao tính thuận nghịch của phương trình Vlasov không mâu thuẫn ngay với nó?
-2. Vì sao số hạng phi tuyến đe dọa sự suy giảm tuyến tính? Trả lời ngắn gọn (tiếng vọng / cộng hưởng), không cần dựng lại bài báo trên *Acta*.
-3. Nêu sự khác nhau giữa một định lý **có điều kiện** về xu hướng tiến tới cân bằng và một định lý về **tính chính quy toàn cục**. Kết quả Desvillettes–Villani năm 2005 thuộc loại nào?
-4. Giải thích hypocoercivity trong một đoạn: tiêu tán suy biến + trộn $$\Rightarrow$$ suy giảm. Vẽ một hình minh họa (vận chuyển theo $$x$$, va chạm theo $$v$$).
-5. Mở cuốn *Topics in Optimal Transportation* hoặc bài [vận chuyển tối ưu]({{ site.baseurl }}/contents/vi/chapter06/06_09_Optimal_Transport/), viết ba câu so sánh bài toán Monge với bài toán Kantorovich, rồi thêm một câu giải thích vì sao nội dung đó **không** thuộc lời trao giải năm 2010.
-6. Luyện ghi công: viết cho **Landau (1946)**, **Mouhot**, **Desvillettes** và **Villani** mỗi người một mệnh đề chính xác.
-7. **Luyện phát biểu chính xác.** Viết lại câu "Villani chứng minh entropy luôn dập tắt hỗn loạn ngay lập tức" thành hai câu đúng, phù hợp với khóa học.
-8. **Thảo luận.** So sánh huy chương này với [Smirnov]({{ site.baseurl }}/contents/vi/chapter02/02_28_Smirnov_Percolation/): cả hai đều thuộc "vật lý thống kê", nhưng một bên là mô hình lưới / hình học bảo giác, bên kia là phương trình động học / phương trình đạo hàm riêng. Trong mỗi câu chuyện, "giới hạn thang đo" nghĩa là gì?
-
----
-
 ## Liên kết
 
 - IMU Fields Medals 2010 (chỉ mục được yêu cầu): [mathunion.org/…/fields-medals-2010](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2010)

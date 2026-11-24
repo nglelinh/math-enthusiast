@@ -179,16 +179,6 @@ Thể tích một ống dài 1, bán kính $$\delta$$ cỡ $$\delta^{n-1}$$; n�
 
 ---
 
-## 6. Bài tập
-
-1. Tính diện tích hình tròn bán kính $$1/2$$ và hình deltoid (tra công thức kinh điển); vì sao chúng vẫn "lớn" so với tập Besicovitch?  
-2. Viết ba câu: đoạn thẳng dài 1 có số chiều 1, còn tập Kakeya thì "đầy hướng".  
-3. Trên lưới $$20\times 20$$ với 4+4 hướng, so sánh cách giữ cố định tâm với cách dịch để chồng lấn nhiều nhất.  
-4. Đưa ra một giả thuyết có thể bác bỏ cho thí nghiệm lưới (ví dụ "cách tham lam giảm ít nhất 30% số ô khi $$K=16$$"); chạy thử và kết luận giả thuyết đứng vững hay bị bác bỏ.  
-5. Viết đề xuất 150–200 từ: câu hỏi, định nghĩa "nhỏ", phương pháp, tiêu chí, rủi ro.
-
----
-
 ## 7. Bảng tự kiểm tra
 
 | ☐ | Sản phẩm với ít nhất 12 hướng |

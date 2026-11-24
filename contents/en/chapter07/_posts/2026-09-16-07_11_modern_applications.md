@@ -48,13 +48,6 @@ Computers are outstanding at filling tables. They are average at noticing that t
 
 Sphere-packing numerics, prime-gap plots, and randomness-vs-order coin-flip labs can use the same pattern. Duality dictionaries (the last studio) are still hand-drawn maps; a language model that fills the table is a draft, not a dictionary.
 
-## Exercises
-
-1. Encode, in words, a SAT question that would help a *map-color* studio without claiming four color as your result.
-2. Take an AlphaGeometry-style proof of a simple concurrence. What two lines belong in your exploration log?
-3. Add a row to a Collatz table: $$N=2^{68}$$, method = GPU search, status = finite check. Write the adjacent row for “every positive integer.”
-4. Why is “the solver returned UNSAT” closer to a proof than “the neural net’s loss is small”—and when is it still not a proof of the infinite statement you care about?
-
 ## References
 
 - Smith, D., Myers, J. S., Kaplan, C. S., & Goodman-Strauss, C. (2024). An aperiodic monotile. *Combinatorial Theory*, 4(1). [arXiv:2303.10798](https://arxiv.org/abs/2303.10798).

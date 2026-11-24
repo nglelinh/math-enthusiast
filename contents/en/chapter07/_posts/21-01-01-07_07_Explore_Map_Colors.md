@@ -88,7 +88,6 @@ Graph coloring generalizes far past cartography. **Brooks’ theorem** says that
 2 min 04 sec video: map-to-dual reduction, why K₄ forces 4 colors, Euler’s bound e ≤ 3v − 6, both Kempe-chain cases in the five-color proof, Kempe’s 1879 pitfall, and Heawood numbers H(0) = 4 (plane) and H(1) = 7 (torus).
 
 
-
 <div class="interactive-demo" markdown="1">
 <div data-demo="fourcolor-explainer" data-preset="k4" data-lang="en"></div>
 </div>
@@ -164,16 +163,6 @@ After Ch.1 on Appel–Haken, write 5–8 sentences answering: What is a proof? M
 3. **“Heawood’s formula proves 4CT.”** — For $$g=0$$ the formula gives 4, but the classical Heawood proof technique does not settle the planar case the way Ringel–Youngs settles higher genus.  
 4. **“Touching at a corner forces different colors.”** — Standard rules require shared boundary arcs.  
 5. **“Any graph is a map dual.”** — Duals of proper maps are planar and have structure; arbitrary graphs may be nonplanar ($$\chi$$ can be huge).
-
----
-
-## 6. Exercises
-
-1. From $$v-e+f=2$$ and $$2e\ge 3f$$ (assuming ≥3 edges per face), derive $$e\le 3v-6$$.  
-2. Deduce existence of a vertex of degree $$\le 5$$.  
-3. Show that $$K_5$$ is nonplanar (any standard argument) and explain why that does **not** by itself prove 4CT.  
-4. Compute $$H(1)$$ and $$H(2)$$ carefully with the floor function.  
-5. Proposal (≤150 words): artifact goals, rules frozen, success criteria.
 
 ---
 

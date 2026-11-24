@@ -174,20 +174,6 @@ Phân nhánh "càng mạnh" thường càng khó, vậy mà lớp perfectoid l�
 
 ---
 
-## Bài tập
-
-1. "Đặc số hỗn hợp" là gì, nói trong một câu? Cho một ví dụ về vành.  
-2. Vì sao việc phép Frobenius trở thành đẳng cấu có thể giúp kiểm soát đối đồng điều?  
-3. Kể hai lĩnh vực **ngoài** phần nền tảng thuần túy có dùng ý tưởng perfectoid / hình học $$p$$-adic hiện đại.  
-4. Viết một đoạn so sánh huy chương cho "một nền tảng mới" (Scholze) với huy chương cho "một bài toán tối ưu" (Viazovska).  
-5. Đọc lướt phần mở đầu của một bài tổng quan về perfectoid; liệt kê ba từ khóa nên học tiếp (không gian adic, phép bỏ nghiêng (untilt), vị trí pro-étale, …).  
-6. **Liên hệ trong chương.** Viết một đoạn nối phép nghiêng của Scholze với ý "hình học mở khóa giải tích" của Ngô: điểm giống và điểm khác.  
-7. Giải thích vì sao "phân nhánh mạnh" lại có thể là một **lợi thế** trong định nghĩa perfectoid.  
-8. Phân biệt sơ lược thớ tổng quát và thớ đặc biệt trên $$\operatorname{Spec}\mathbb{Z}_p$$.
-
----
-
-
 ## Nguồn video (bộ tư liệu nghiên cứu video)
 
 Chi tiết: `research/video-research/Scholze_Perfectoid/`.

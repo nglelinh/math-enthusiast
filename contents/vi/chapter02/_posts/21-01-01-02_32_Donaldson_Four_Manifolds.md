@@ -131,19 +131,6 @@ Các công trình lừng danh khác sau này của Donaldson (định lý Donald
 
 ---
 
-## Bài tập
-
-1. Một dạng song tuyến trên $$\mathbb{Z}$$ là **unimodular** nghĩa là gì? Vì sao đối ngẫu Poincaré cho ta tính chất đó với $$Q_X$$?
-2. Phát biểu định lý về dạng xác định của Donaldson và định lý thực hiện của Freedman. Từ đó suy ra, trong ba câu, rằng đa tạp tôpô có dạng giao $$E_8$$ không có cấu trúc trơn.
-3. Vì sao "đồng phôi nhưng không vi phôi với $$\mathbb{R}^4$$" chỉ chứng minh được khi có **cả** sự linh hoạt tôpô lẫn sự cứng nhắc của phạm trù trơn?
-4. Mô tả không gian moduli instanton trong một đoạn: phương trình ASD, thương theo gauge, hiện tượng sủi bọt tại điểm, compact hóa chứa $$X$$. Ta rút ra kết luận tôpô nào cho $$X$$ có dạng giao xác định?
-5. Luyện ghi công: viết một mệnh đề chính xác cho mỗi người: **Donaldson**, **Freedman**, **Uhlenbeck**, **Witten (1994)**.
-6. Giả thuyết Poincaré bốn chiều trơn vẫn còn mở. Nó khác định lý của Freedman ở điểm nào?
-7. **Luyện phát biểu chính xác.** Viết lại câu "Donaldson tìm ra một $$\mathbb{R}^4$$ trơn kỳ lạ bằng cách giải Yang–Mills" thành hai câu đúng, phù hợp với khóa học.
-8. **Thảo luận.** So sánh câu chuyện lý thuyết gauge năm 1986 với [Perelman]({{ site.baseurl }}/contents/vi/chapter02/02_03_Perelman_Poincare/): dòng Ricci ở chiều ba và instanton ở chiều bốn. Trong mỗi câu chuyện, đối tượng nào được compact hóa hoặc bị suy biến?
-
----
-
 ## Liên kết
 
 - IMU Fields Medals 1986: [https://www.mathunion.org/imu-awards/fields-medal/fields-medals-1986](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-1986)

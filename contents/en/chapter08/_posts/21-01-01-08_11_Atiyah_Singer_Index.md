@@ -234,20 +234,6 @@ A seminar comparison that always pays: **index theory computes dimensions topolo
 
 ---
 
-## Exercises
-
-1. Write the analytic index of an elliptic operator $$D$$ in one line of math and one sentence of English.  
-2. Why does compactness of $$M$$ matter for finite-dimensional kernel/cokernel slogans? (≤100 words)  
-3. Name two classical theorems that reappear as special cases of index theory and say which operators they involve (even roughly).  
-4. **≤200 words:** Why is “bridges topology, geometry, analysis, and physics” an Abel-scale claim rather than a conference abstract flourish?  
-5. Distinguish carefully: computing $$\mathrm{ind}(D)$$ vs exhibiting a basis of $$\ker D$$.  
-6. Compute $$V-E+F$$ for a tetrahedron (or cube) and state why the answer matches $$\chi(S^2)=2$$. In one sentence, connect this to the Hairy Ball / Poincaré–Hopf slogan.  
-7. **≤150 words:** Why can a torus be “combed” with no zeros while a sphere cannot? Use Euler characteristic language.  
-8. Skim the 2004 Abel materials at [abelprize.no](https://abelprize.no/abel-prize-laureates/2004) and list three keywords new to you (e.g. K-theory, heat kernel, Â-genus, symbol).  
-9. **Optional stretch:** Read a popular-science note on the index theorem (Plus Magazine / Abel popular articles) and write five sentences connecting it to this lecture’s slogan equality—and, if you wish, to the Hairy Ball story of §2b.
-
----
-
 ## Video sources (math-video-researcher pack)
 
 Use videos for **orientation and research culture**, not as a substitute for a proof course. Full ranking and notes: `research/video-research/atiyah-singer-index/`.

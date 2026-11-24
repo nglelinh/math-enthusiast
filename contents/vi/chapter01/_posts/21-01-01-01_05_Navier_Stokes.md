@@ -209,19 +209,6 @@ Trong [cuộc trò chuyện với Big Think](https://www.youtube.com/watch?v=OOM
 
 ---
 
-## Bài tập
-
-1. Trong hệ Navier–Stokes, chỉ ra số hạng phi tuyến và số hạng nhớt; viết một câu về vai trò của mỗi số hạng.  
-2. Ràng buộc $$\nabla\cdot u=0$$ có ý nghĩa vật lý gì trong mô hình không nén?  
-3. So sánh nghiệm yếu Leray với nghiệm trơn cổ điển (về tồn tại, chính quy, duy nhất).  
-4. **Tổng hợp (không quá 300 từ):** phát biểu bài toán Clay về Navier–Stokes, giải thích vì sao khó, nêu một kết quả từng phần có tên.  
-5. Sau khi đọc bài [Deng]({{ site.baseurl }}/contents/vi/chapter02/02_12_Deng_PDE/): viết ba câu phân biệt việc *suy ra* hệ Navier–Stokes với *tính chính quy* của nó.  
-6. **Phản biện thông tin:** sửa câu trên báo "Nhà toán học mô phỏng chảy rối 3 chiều, sắp nhận giải thưởng Clay".  
-7. Nêu hai lý do vì sao tính toán số không chứng minh được sự bùng nổ của mô hình liên tục.  
-8. Mở rộng: đọc mô tả bài toán của Fefferman trên trang Viện Clay và ghi lại (ngắn gọn) các không gian hàm ông sử dụng.
-
----
-
 ## Từ các bài giảng: hướng bùng nổ (Tao) và hướng chính quy (Caffarelli)
 
 Video của Numberphile (Crawford), bài giảng của Caffarelli cho Viện Clay và bài giảng Einstein của Tao bổ sung các ý sau:

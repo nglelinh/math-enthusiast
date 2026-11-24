@@ -148,17 +148,6 @@ Nhiều công cụ sâu sắc đã phát triển xung quanh bài toán: lý thuy
 
 ---
 
-## Bài tập
-
-1. **Luyện phát biểu (không quá 120 từ).** Viết lại bài toán Clay về Yang–Mills cho một người bạn biết lý thuyết Maxwell nhưng chưa học lý thuyết trường lượng tử.  
-2. **Giao hoán và không giao hoán.** Vì sao $$A\wedge A$$ bằng không với $$U(1)$$ nhưng không bằng không với $$SU(2)$$?  
-3. **Tóm tắt về khe khối lượng.** Trong không quá 60 từ: liên hệ giữa sự giảm theo hàm mũ của hàm tương quan và khe trong phổ.  
-4. **Phản biện thông tin.** Tìm một câu viết phổ thông về chuyện "Yang–Mills chưa được giải" và viết lại sao cho không phủ nhận vật lý thực nghiệm.  
-5. **So sánh.** Viết một đoạn: bài toán khe khối lượng Yang–Mills giống và khác bài toán Navier–Stokes thế nào, xét như hai Bài toán Thiên niên kỷ.  
-6. **Liên hệ.** Liệt kê ba đối tượng toán học xuất hiện cả trong hình học trường chuẩn cổ điển lẫn trong bài toán lượng tử.
-
----
-
 ## Tài liệu tham khảo
 
 1. Viện Toán học Clay — mô tả chính thức bài toán Yang–Mills và khe khối lượng (Jaffe–Witten).  
