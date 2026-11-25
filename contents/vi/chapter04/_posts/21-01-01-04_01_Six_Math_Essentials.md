@@ -35,7 +35,7 @@ Sau bài này, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Sáu trụ cột toán học là gì và giữ vai trò gì trong toán học hiện đại?
+## Kiến thức cần nhớ: Sáu trụ cột toán học là gì và giữ vai trò gì trong toán học hiện đại?
 
 Ở đại học, ta thường học Giải tích 1, Đại số tuyến tính, Xác suất thống kê như những môn thi độc lập. Cách nhìn của Terence Tao giúp người đã qua bậc đại học ghép các mảnh rời đó lại thành một bức tranh thống nhất: **mỗi trụ cột thực chất là một thói quen trừu tượng hóa khác nhau** trước cùng một thế giới thực, và cả sáu hợp lại thành khung xương của khoa học hiện đại:
 
@@ -86,7 +86,7 @@ $$
 
 Ma trận không giao hoán như số thường, nhưng chúng vẫn thỏa mãn tính kết hợp $$(AB)C = A(BC)$$ và tính phân phối $$A(B+C) = AB + AC$$. Nhờ giữ được phần lớn cấu trúc đại số đó, hàng loạt kỹ thuật giải hệ phương trình hay biến đổi biểu thức từ thời phổ thông được nâng cấp lên các mảng số khổng lồ — đúng loại mảng mà các mô hình ngôn ngữ lớn nhân với nhau ở quy mô công nghiệp. Xem [đại số tuyến tính và AI]({{ site.baseurl }}/contents/vi/chapter03/03_03_Linear_Algebra_AI/).
 
-### Ví dụ cầm tay chỉ việc: Bài toán thùng rượu của Kepler
+### Ví dụ làm từng bước: Bài toán thùng rượu của Kepler
 
 Câu chuyện lịch sử Tao kể diễn ra ở chợ rượu Áo năm 1613: người bán đo thể tích thùng rượu chỉ bằng cách cắm một cây thước thẳng qua lỗ rót chính giữa thân thùng đến mép đáy xa nhất (đọc được một con số duy nhất là chiều dài $$d$$). Về lý thuyết, một độ dài $$d$$ làm sao xác định được thể tích? Hãy tự tay kiểm tra bằng giải tích năm nhất:
 
@@ -156,7 +156,7 @@ Newton giải được bài toán **hai vật** dưới lực hấp dẫn tỉ l
 
 ---
 
-### Khung giải thích: vì sao ý tưởng "tò mò thuần túy" lại đi thành đường ống tới công nghệ (nên đọc chậm)
+### Giải thích: vì sao ý tưởng "tò mò thuần túy" lại đi thành đường ống tới công nghệ
 
 Nhiều người thắc mắc: *tại sao toán học tạo ra chỉ vì tò mò (như số phức, không gian cong, xếp cầu 8 chiều) lại liên tục trở thành công cụ của vật lý và công nghệ nhiều thập kỷ sau?* Dưới đây là chuỗi 4 bước giải thích góc nhìn của Terence Tao:
 

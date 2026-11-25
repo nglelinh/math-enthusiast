@@ -29,7 +29,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết tính ngẫu nhiên trong tính toán và Đồ thị giãn là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Lý thuyết tính ngẫu nhiên trong tính toán và Đồ thị giãn là gì, nghiên cứu những gì?
 
 Khi sinh viên đại học lập trình thuật toán ngẫu nhiên (như Quicksort chọn trục ngẫu nhiên hay kiểm tra đồng nhất thức đa thức $$P(x_1,\dots,x_n) \equiv 0$$ bằng cách thay giá trị ngẫu nhiên), ta thường coi hàm `random()` như một hộp đen miễn phí. Nhưng trong **Lý thuyết tính ngẫu nhiên (Theory of Pseudorandomness & Derandomization)**, bit ngẫu nhiên là một **tài nguyên đắt giá** cần đo đếm và tiết kiệm như thời gian CPU hay RAM.
 
@@ -78,7 +78,7 @@ Ngược lại, việc khử ngẫu nhiên không tầm thường thường kéo
 
 **Lưu ý.** Đây là các định lý **có điều kiện** và là một chương trình nghiên cứu. Bản thân chúng **không** giải được P vs NP. Chúng cho thấy: nếu sống trong một thế giới có chặn dưới thì ta được lợi ích về thuật toán; ngược lại, tham vọng khử ngẫu nhiên thuật toán lại chồng lên nghiên cứu về chặn dưới.
 
-### Ví dụ cầm tay chỉ việc: Bổ đề Schwartz–Zippel và tiết kiệm bit ngẫu nhiên trên đồ thị giãn
+### Ví dụ làm từng bước: Bổ đề Schwartz–Zippel và tiết kiệm bit ngẫu nhiên trên đồ thị giãn
 
 Hãy tự tay tính hai ví dụ nhỏ để cảm nhận trực tiếp cả hai mặt của chương trình Wigderson: **sức mạnh của đồng xu ngẫu nhiên** và **cách thay đồng xu bằng đồ thị giãn tất định**.
 
@@ -103,7 +103,7 @@ $$
 
 Vì sao đồ thị giãn trộn nhanh đến vậy? Hãy kiểm tra phổ của đồ thị đầy đủ $$K_4$$ (3-chính quy, ma trận bước đi ngẫu nhiên $$W = \frac{1}{3}(J - I)$$ có các giá trị riêng $$1, -\tfrac{1}{3}, -\tfrac{1}{3}, -\tfrac{1}{3}$$). Khoảng cách phổ là $$1 - \lambda = 1 - \tfrac{1}{3} = \tfrac{2}{3}$$; sai lệch so với phân bố đều sau $$t$$ bước giảm như $$\lambda^t = (1/3)^t$$: sau chỉ $$t=3$$ bước đã còn $$(1/3)^3 \approx 3{,}7\%$$! Với đồ thị giãn tường minh (như tích zig-zag của Reingold–Vadhan–Wigderson), ta giữ được bậc $$d$$ hằng số mà $$\lambda$$ vẫn bị chặn chặt dưới $$1$$ dù số đỉnh tăng lên $$2^{100}$$.
 
-### Khung giải thích: Con đường biến "độ khó" thành "đồng xu giả ngẫu nhiên" (nên đọc chậm)
+### Giải thích: Con đường biến "độ khó" thành "đồng xu giả ngẫu nhiên"
 
 Để nắm trọn triết lý **"Hardness vs. Randomness"** — viên ngọc vương miện của Giải Turing 2023 — hãy đi qua 4 bước suy luận sau:
 

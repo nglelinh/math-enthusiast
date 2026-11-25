@@ -15,7 +15,7 @@ Bài này giống như một buổi seminar định hướng trong một giờ, 
 
 ---
 
-## Bản đồ kiến thức nền: Hình học không giao hoán (NCG) đứng trên ba trụ cột nào?
+## Kiến thức cần nhớ: Hình học không giao hoán (NCG) đứng trên ba trụ cột nào?
 
 Nếu bạn đã quen với phép nhân hàm số thông thường ($$(fg)(x) = f(x)g(x) = g(x)f(x)$$) và phép nhân ma trận không giao hoán ($$AB \neq BA$$), hãy nhìn qua ba trụ cột tạo nên cuốn "từ điển dịch ngược" của NCG:
 
@@ -80,7 +80,7 @@ Từ đó ra đời khái niệm trung tâm của NCG — một **bộ ba phổ 
 - một toán tử tự liên hợp $$D$$ (kiểu Dirac) có giải thức compact, dưới các giả thiết thích hợp (đóng vai trò "thước đo nghịch đảo vi phân $$ds = D^{-1}$$"),  
 - các điều kiện tương thích (giao hoán tử $$[D,a]$$ bị chặn cho mọi $$a \in A$$, đảm bảo "đạo hàm" của phần tử trong $$A$$ hữu hạn).
 
-### Khung giải thích: tự tay tính khoảng cách trong bộ ba phổ 2 điểm (nên đọc chậm)
+### Giải thích: tự tay tính khoảng cách trong bộ ba phổ 2 điểm
 
 Xét một không gian rời rạc chỉ gồm đúng **2 điểm** $$X = \{p_1, p_2\}$$ (giữa hai điểm không hề có đường nối nào!). Hãy dùng công thức Connes để tính khoảng cách giữa chúng chỉ bằng ma trận $$2\times 2$$:
 

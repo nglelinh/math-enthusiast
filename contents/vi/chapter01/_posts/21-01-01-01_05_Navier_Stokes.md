@@ -16,7 +16,7 @@ Về bản chất, đó chỉ là định luật II Newton $$F = ma$$ viết l�
 
 Câu hỏi ở đây **không** phải là "ta có chạy mô phỏng máy tính được không?". Bài học này sẽ tách rạch ròi giữa **thực hành kỹ thuật**, **nghiệm yếu Leray** và **bài toán chính quy Thiên niên kỷ**, đồng thời kết nối với những đột phá gần đây về nguồn gốc động học của phương trình chất lưu.
 
-**Mạch bài học:** Bản đồ kiến thức nền → hệ phương trình & kiểm chứng tay dòng Poiseuille → bài toán Clay → những gì đã biết (2D, Leray) → phép tính đổi tỉ lệ siêu tới hạn 2D vs 3D & khung giải thích chậm → tiêu chí chính quy & Deng → kỹ thuật vs bài toán Clay.
+**Mạch bài học:** Kiến thức cần nhớ → hệ phương trình & kiểm chứng tay dòng Poiseuille → bài toán Clay → những gì đã biết (2D, Leray) → phép tính đổi tỉ lệ siêu tới hạn 2D vs 3D & khung giải thích chậm → tiêu chí chính quy & Deng → kỹ thuật vs bài toán Clay.
 
 ---
 
@@ -38,7 +38,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Phương trình đạo hàm riêng (PDE) và Cơ học chất lưu là gì?
+## Kiến thức cần nhớ: Phương trình đạo hàm riêng (PDE) và Cơ học chất lưu là gì?
 
 Ở bậc đại học, bạn đã gặp **phương trình vi phân thường (ODE)** như $$y'(t) = -ky(t)$$, nơi đại lượng cần tìm chỉ phụ thuộc vào *một* biến (thời gian $$t$$). Thế nhưng thế giới vật lý tồn tại trong cả không gian lẫn thời gian: nhiệt độ, sóng âm, hay vận tốc nước đều là các **trường** phụ thuộc đồng thời vào vị trí $$(x,y,z)$$ và thời gian $$t$$. Ba trụ cột sau đây giúp bạn hiểu toàn bộ bài toán Navier–Stokes:
 
@@ -84,7 +84,7 @@ $$
 - $$\nabla\cdot u=0$$: **điều kiện không nén**; lượng nước chảy vào một thể tích nhỏ luôn bằng đúng lượng chảy ra (mật độ không đổi).  
 - $$f$$: ngoại lực (trọng lực, lực khuấy trộn, …), thường đặt bằng 0 trong phát biểu thuần túy của Viện Clay.
 
-### Ví dụ cầm tay chỉ việc 1: Tự kiểm chứng từng số hạng trên dòng chảy Poiseuille
+### Ví dụ làm từng bước 1: Tự kiểm chứng từng số hạng trên dòng chảy Poiseuille
 
 Để hệ Navier–Stokes không còn là những ký hiệu xa lạ, hãy thử kiểm tra trực tiếp một nghiệm trơn nổi tiếng — dòng nước chảy êm giữa hai thành ống song song $$y = -1$$ và $$y = 1$$ (dòng **Poiseuille**), với vận tốc parabol $$u(x,y) = \bigl(U(1 - y^2),\, 0\bigr)$$ và áp suất giảm tuyến tính $$p(x,y) = -2\nu U x$$ (không đổi theo thời gian, ngoại lực $$f=0$$):
 
@@ -143,7 +143,7 @@ Tóm lại: "đã biết có nghiệm yếu toàn cục; chưa biết bài toán
 
 ## 4. Vì sao tính chính quy trong 3 chiều khó
 
-### Ví dụ cầm tay chỉ việc 2: Phép đổi tỉ lệ chỉ ra ranh giới sinh tử giữa 2D và 3D!
+### Ví dụ làm từng bước 2: Phép đổi tỉ lệ chỉ ra ranh giới sinh tử giữa 2D và 3D!
 
 Hệ Navier–Stokes không có ngoại lực sở hữu một đối xứng co giãn tuyệt đẹp: nếu $$u(x,t)$$ là một nghiệm trên $$\mathbb{R}^d$$, thì với mọi hệ số $$\lambda > 0$$, hàm đổi tỉ lệ
 
@@ -163,7 +163,7 @@ Hãy nhìn chằm chằm vào số mũ **$$2 - d$$**:
 
 Đó chính xác là ý nghĩa của từ **siêu tới hạn (supercritical)**: trong 3 chiều, một giọt nước có tổng năng lượng bé xíu vẫn có đủ "ngân sách năng lượng" để nuôi một xoáy nhỏ li ti có vận tốc vọt lên vô hạn!
 
-### Khung giải thích: Vì sao có nghiệm yếu toàn cục (1934) mà bài toán Clay vẫn mở? (nên đọc chậm)
+### Giải thích: Vì sao có nghiệm yếu toàn cục (1934) mà bài toán Clay vẫn mở?
 
 #### Bước 1: Cuộc kéo co giữa độ nhớt và kéo giãn xoáy
 Trong 3 chiều, độ nhớt $$\nu \Delta u$$ cố gắng làm phẳng vận tốc, nhưng cơ chế **kéo giãn xoáy** $$(\omega\cdot\nabla)u$$ lại kéo dài và bóp mảnh các ống xoáy — hệt như vận động viên trượt băng thu hai tay sát người để xoay nhanh hơn. Xoáy càng mạnh lại càng tự kéo giãn mình mạnh hơn.

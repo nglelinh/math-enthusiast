@@ -16,7 +16,7 @@ Trong điện từ học cổ điển, các nhà vật lý sớm nhận ra một
 
 ---
 
-## Bản đồ kiến thức nền: Hình học vi phân, Phân thớ chính và Lý thuyết trường chuẩn nghiên cứu những gì?
+## Kiến thức cần nhớ: Hình học vi phân, Phân thớ chính và Lý thuyết trường chuẩn nghiên cứu những gì?
 
 Với hành trang giải tích nhiều biến và ma trận đại học, bạn có thể nắm trọn ba trụ cột của **hình học trường chuẩn (gauge geometry)** qua ẩn dụ tỉ giá hối đoái và vận chuyển song song:
 
@@ -78,7 +78,7 @@ $$
 
 Khi $$G=U(1)$$, các thành phần của $$A$$ là số thực/phức giao hoán với nhau nên số hạng $$A \wedge A$$ triệt tiêu và ta trở lại lý thuyết Maxwell tuyến tính — hai tia sáng đi xuyên qua nhau không tự tương tác. Ngược lại, với $$SU(2)$$ hay $$SU(3)$$, các ma trận trong $$A$$ **không giao hoán**, nên $$A \wedge A$$ khác không và làm cho phương trình trường trở thành **phi tuyến**: hạt truyền lực gluon bản thân nó cũng mang điện tích màu và **tự tương tác với chính nó**.
 
-### Khung giải thích: vì sao thế gauge hằng số vẫn sinh ra trường khác không? (nên đọc chậm)
+### Giải thích: vì sao thế gauge hằng số vẫn sinh ra trường khác không?
 
 Trong điện từ học giao hoán $$U(1)$$, nếu thế vectơ $$\mathbf{A}$$ là hằng số khắp không gian thì mọi đạo hàm đều bằng $$0$$, suy ra cường độ trường $$\mathbf{B} = \nabla \times \mathbf{A} = 0$$. Nhưng trong lý thuyết **Yang–Mills $$SU(2)$$**, điều kỳ diệu xảy ra ngay cả khi thế gauge không hề thay đổi theo tọa độ! Hãy tự tay kiểm tra bằng ma trận $$2 \times 2$$:
 

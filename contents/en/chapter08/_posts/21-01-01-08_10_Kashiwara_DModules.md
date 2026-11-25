@@ -19,7 +19,7 @@ From that foundational master’s thesis grew a new mathematical language spanni
 
 (Prize materials also speak of **crystal bases**; “crystal graphs” and “crystal bases” name the same combinatorial skeleton of quantum-group representations.) Official site: [abelprize.no](https://abelprize.no/).
 
-**Lesson arc:** Background Knowledge Map (algebraic analysis & $$D$$-modules, representation theory & quantum groups, crystal graphs & Riemann–Hilbert) → Deep-Dive Explanation: verifying the Weyl algebra, monodromy of $$\sqrt{x}$$, and the $$\mathfrak{sl}_2$$ crystal tensor product by hand → $$D$$-modules, Riemann–Hilbert, and crystals in depth → Why infrastructure earns the Abel Prize.
+**Lesson arc:** Key ideas (algebraic analysis & $$D$$-modules, representation theory & quantum groups, crystal graphs & Riemann–Hilbert) → Explanation: verifying the Weyl algebra, monodromy of $$\sqrt{x}$$, and the $$\mathfrak{sl}_2$$ crystal tensor product by hand → $$D$$-modules, Riemann–Hilbert, and crystals in depth → Why infrastructure earns the Abel Prize.
 
 ---
 
@@ -31,7 +31,7 @@ After this lecture you should be able to explain $$D$$-modules as an algebraic l
 
 ---
 
-## Background Knowledge Map: What Are Algebraic Analysis, $$D$$-Modules, and Representation Theory, and What Do They Study?
+## Key ideas: What Are Algebraic Analysis, $$D$$-Modules, and Representation Theory, and What Do They Study?
 
 The three phrases in Kashiwara’s career usually appear in graduate school, yet their core intuition flows straight from undergraduate linear algebra and differential equations:
 
@@ -45,7 +45,7 @@ In linear algebra, you do not need to solve $$Ax = 0$$ coordinate by coordinate�
 - **Crystal bases:** Kashiwara’s brilliant 1990 idea was to send $$q \to 0$$—cooling the quantum representation down to absolute zero so it freezes into a crystal! At $$q = 0$$, the representation collapses cleanly into a **colored directed graph** (**crystal graph**), turning painful algebra (like decomposing tensor products) into an effortless arrow-and-parentheses game.
 - **Riemann–Hilbert correspondence:** A two-way dictionary connecting **algebraic analysis** (holonomic $$D$$-modules with regular singularities, i.e., linear PDE systems) to **geometric topology** (**perverse sheaves** encoding how solutions twist around singularities).
 
-### Deep-Dive Explanation: Hand-Checking the Weyl Algebra, Monodromy of $$\sqrt{x}$$, and the $$\mathfrak{sl}_2$$ Crystal Tensor Product (Read Slowly)
+### Explanation: Hand-Checking the Weyl Algebra, Monodromy of $$\sqrt{x}$$, and the $$\mathfrak{sl}_2$$ Crystal Tensor Product
 
 To see that both halves of Kashiwara’s prize are concrete and touchable, walk through two short hand calculations.
 

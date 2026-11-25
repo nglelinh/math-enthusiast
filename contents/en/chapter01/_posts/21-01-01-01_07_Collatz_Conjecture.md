@@ -35,7 +35,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Fields Sit Behind Collatz?
+## Key ideas: What Fields Sit Behind Collatz?
 
 Why does a two-branch arithmetic rule pull in some of the deepest machinery of modern mathematics? Collatz sits at the crossroads of three distinct fields.
 
@@ -225,7 +225,7 @@ Lagarias’s surveys ([arXiv:2111.02635](https://arxiv.org/abs/2111.02635)) docu
 
 ---
 
-### Deep-Dive Explanation: How Tao (2019) Reached "Almost Bounded" Orbits (Read Slowly)
+### Explanation: How Tao (2019) Reached "Almost Bounded" Orbits
 
 Before 2019, mathematicians already knew that almost all integers drop below $$N^{0.7925}$$. Why couldn’t you simply apply that theorem again and again until you hit $$1$$? Follow these four steps to see the exact bottleneck Tao broke.
 

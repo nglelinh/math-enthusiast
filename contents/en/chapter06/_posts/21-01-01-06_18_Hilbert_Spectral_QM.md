@@ -15,7 +15,7 @@ Where classical mechanics tracks a point moving through phase space, quantum mec
 
 ---
 
-## Background Knowledge Map: What Do Functional Analysis, Hilbert Spaces, and Spectral Theory Study?
+## Key ideas: What Do Functional Analysis, Hilbert Spaces, and Spectral Theory Study?
 
 With undergraduate linear algebra (inner products, eigenvalues, orthonormal bases) and calculus in hand, the mathematical backbone of quantum mechanics rests on three clear pillars:
 
@@ -99,7 +99,7 @@ $$
 
 for $$\psi(0)$$ in a suitable domain (or by continuous extension for all vectors via the unitary group). Conservation of probability is unitarity: $$\|\psi(t)\|=\|\psi(0)\|$$. Geometrically, isolated quantum evolution is simply a **steady rotation in complex Hilbert space**—the length of the state never changes while its eigencomponents spin at frequencies $$e^{-iE_k t/\hbar}$$.
 
-### Deep-Dive Explanation: From Hamiltonian to Measurement Probabilities at Time $$t$$ (Read Slowly)
+### Explanation: From Hamiltonian to Measurement Probabilities at Time $$t$$
 
 Let us run the complete **spectral theorem → unitary evolution → Born rule** pipeline by hand on a single qubit in a transverse magnetic field:
 

@@ -18,7 +18,7 @@ Gói nghiên cứu: `research/video-research/mirror-symmetry/`.
 
 ---
 
-## Bản đồ kiến thức nền: Đối xứng gương là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Đối xứng gương là gì và nghiên cứu những gì?
 
 Để một người tốt nghiệp đại học hiểu rõ "đối xứng gương" đang ghép hai thế giới nào với nhau, hãy phân biệt hai loại hình học thường được dạy tách rời nhau:
 
@@ -90,7 +90,7 @@ Sâu hơn, hàm sinh các bất biến Gromov–Witten giống 0 ở một phía
 
 ---
 
-### Khung giải thích: tự tay kiểm tra đối xứng gương trên hình xuyến 2D và kim cương Hodge (nên đọc chậm)
+### Giải thích: tự tay kiểm tra đối xứng gương trên hình xuyến 2D và kim cương Hodge
 
 Các đa tạp Calabi–Yau 3 chiều phức (6 chiều thực) quá khó hình dung bằng mắt thường. Nhưng Calabi–Yau **1 chiều phức** lại cực kỳ quen thuộc: đó chính là **hình xuyến 2 chiều** (mặt bánh donut phẳng), tạo ra bằng cách dán các cạnh đối diện của một hình chữ nhật kích thước $$L_1 \times L_2$$.
 

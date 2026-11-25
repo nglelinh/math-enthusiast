@@ -17,7 +17,7 @@ This lecture develops the core effects—thin shells and equators, near-orthogon
 
 ---
 
-## Background Knowledge Map: What Is High-Dimensional Geometry and What Does It Study?
+## Key ideas: What Is High-Dimensional Geometry and What Does It Study?
 
 Whereas Euclidean geometry studies triangles, circles, and polyhedra in 2–3 dimensions, **High-Dimensional Geometry** (and Geometric Functional Analysis) studies how volumes, distances, angles, and convex bodies behave in $$\mathbb{R}^n$$ as $$n \to \infty$$. Tightly linked to **High-Dimensional Probability**, it rests on **four pillars**:
 
@@ -99,7 +99,7 @@ that preserves all pairwise distances up to a factor $$1\pm\varepsilon$$. Random
 
 ---
 
-### Deep-Dive Explanation: The Central Sphere That Bursts Out of a Hypercube (Read Slowly)
+### Explanation: The Central Sphere That Bursts Out of a Hypercube
 
 To feel the shock of high-dimensional geometry using nothing more than the Pythagorean theorem, try a famous thought experiment inside the $$n$$-dimensional hypercube $$[-2, 2]^n$$ (side length $$4$$, distance from the origin $$0$$ to every wall equal to $$2$$).
 

@@ -21,7 +21,7 @@ Hơn ba mươi năm sau, sau bảy năm làm việc gần như bí mật trên c
 
 Điều thú vị nhất của câu chuyện này lại nằm ở vế sau của lời tuyên dương: Wiles không tấn công trực diện phương trình của Fermat bằng những mẹo chia hết hay phân tích thừa số. Ông đi vòng qua một lục địa toán học tưởng chừng chẳng liên quan gì—thế giới của **đường cong elliptic** và **dạng modular**—và mở ra cả một kỷ nguyên mới cho lý thuyết số hiện đại. Tài liệu chính thức: [abelprize.no](https://abelprize.no/).
 
-**Mạch bài học:** Bản đồ kiến thức nền (Lý thuyết số, đường cong elliptic, dạng modular) → Bài toán Fermat 350 năm → Đường cong Frey → Tính modular và khung tính tay "mã ADN trùng khớp" → Mạch phản chứng 5 bước → Biểu diễn Galois và $$R = \mathbb{T}$$ → Lịch sử thực tế và những hiểu lầm.
+**Mạch bài học:** Kiến thức cần nhớ (Lý thuyết số, đường cong elliptic, dạng modular) → Bài toán Fermat 350 năm → Đường cong Frey → Tính modular và khung tính tay "mã ADN trùng khớp" → Mạch phản chứng 5 bước → Biểu diễn Galois và $$R = \mathbb{T}$$ → Lịch sử thực tế và những hiểu lầm.
 
 ---
 
@@ -33,7 +33,7 @@ Sau bài học, bạn có thể: phát biểu chính xác Định lý Fermat v�
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết số, đường cong elliptic và dạng modular là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Lý thuyết số, đường cong elliptic và dạng modular là gì và nghiên cứu những gì?
 
 Nếu bạn tốt nghiệp đại học ngành kỹ thuật hay khoa học tự nhiên, hẳn bạn quen với giải tích thực và đại số tuyến tính, nhưng nghe đến "đường cong elliptic" hay "dạng modular" có thể thấy như hai thuật ngữ đến từ hành tinh khác. Thật ra, trực giác phía sau chúng đứng trên ba trụ cột vô cùng đẹp và dễ nắm bắt:
 
@@ -98,7 +98,7 @@ $$
 
 thỏa mãn các quy luật đối xứng cực chặt dưới một nhóm con đồng dư $$\Gamma_0(N)$$ của $$\mathrm{SL}_2(\mathbb{Z})$$, với $$N$$ gọi là **cấp (level)** của dạng modular.
 
-### Khung giải thích: Tự tay kiểm chứng "mã ADN trùng khớp" giữa đường cong elliptic và dạng modular (nên đọc chậm)
+### Giải thích: Tự tay kiểm chứng "mã ADN trùng khớp" giữa đường cong elliptic và dạng modular
 
 Để thấy tính modular không phải là phép màu trừu tượng mà là một đẳng thức số học có thể **kiểm tra trực tiếp bằng giấy bút**, hãy xét đường cong elliptic nổi tiếng cấp $$N = 11$$:
 

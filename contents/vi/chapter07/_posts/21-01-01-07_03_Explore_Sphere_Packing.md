@@ -19,7 +19,7 @@ Cuối thế kỷ XVI, nhà thám hiểm Sir Walter Raleigh nhờ trợ lý toá
 
 Thế nhưng câu chuyện kỳ diệu nhất lại xảy ra ở những không gian ta không thể nhìn thấy: năm 2016, Maryna Viazovska gây chấn động giới toán học khi giải quyết trọn vẹn bài toán xếp cầu ở **chiều 8** (bằng lưới $$E_8$$) chỉ trong khoảng hai mươi trang giấy, rồi cùng các đồng tác giả chinh phục **chiều 24** (bằng lưới Leech) ngay tuần sau đó — trong khi chiều 4, 5, 6, 7 cho tới hôm nay vẫn đang bỏ ngỏ! Trong bài thực hành này, bạn không cần tự dựng "hàm kỳ diệu" của Viazovska. Thay vào đó, bạn sẽ **tự định nghĩa mật độ**, **trải đồng xu ra đo**, **viết mã so sánh các cấu hình**, và tập nhìn rõ ranh giới giữa định lý chính xác ở những số chiều đặc biệt với các cận số ở phần còn lại của không gian Euclid.
 
-**Mạch bài học:** Bản đồ kiến thức nền (hình học rời rạc & lưới, biến đổi Fourier/Poisson, dạng modula) → Mật độ xếp cầu → Khung giải thích chậm: tính tay mật độ qua ma trận lưới 2D và công thức tổng Poisson → Chiều 3, 8, 24 & nghịch lý thể tích $$V_n \to 0$$ → Thí nghiệm & nhật ký.
+**Mạch bài học:** Kiến thức cần nhớ (hình học rời rạc & lưới, biến đổi Fourier/Poisson, dạng modula) → Mật độ xếp cầu → Giải thích: tính tay mật độ qua ma trận lưới 2D và công thức tổng Poisson → Chiều 3, 8, 24 & nghịch lý thể tích $$V_n \to 0$$ → Thí nghiệm & nhật ký.
 
 ---
 
@@ -38,7 +38,7 @@ Sau bài thực hành, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Hình học rời rạc, Lý thuyết lưới và Giải tích Fourier nghiên cứu những gì?
+## Kiến thức cần nhớ: Hình học rời rạc, Lý thuyết lưới và Giải tích Fourier nghiên cứu những gì?
 
 Thoạt nghe, xếp cam hay xếp đạn đại bác giống chuyện thủ công hơn là toán học cao cấp. Nhưng khi nâng lên $$\mathbb{R}^n$$, bài toán xếp cầu lại là giao lộ của ba nhánh toán học và kỹ thuật cực kỳ mạnh mẽ:
 
@@ -86,7 +86,7 @@ Hiệu ứng biên rất quan trọng: nếu chỉ đếm "có bao nhiêu quả 
 
 ### 1.2 Hai chiều: lưới vuông và lưới lục giác
 
-#### Khung giải thích: Tính tay mật độ qua ma trận lưới 2D và trực giác Poisson (nên đọc chậm)
+#### Giải thích: Tính tay mật độ qua ma trận lưới 2D và trực giác Poisson
 
 Hãy tự tay kiểm tra công thức $$\delta(\Lambda) = \frac{\operatorname{Vol}(B(0,r))}{\lvert\det M\rvert}$$ cho các đồng xu bán kính $$r = 1$$ (nên khoảng cách tâm tối thiểu phải là $$2r = 2$$):
 

@@ -13,7 +13,7 @@ Nếu hỏi một nhà lý thuyết số cổ điển đang nghiên cứu điề
 
 **Akshay Venkatesh** nhận **Huy chương Fields 2018** không vì hạ gục một giả thuyết đơn lẻ nào, mà nhờ tài **kết hợp** bậc thầy giữa lý thuyết số giải tích, **động lực học thuần nhất** (*homogeneous dynamics*), tô pô và lý thuyết biểu diễn. Phong cách làm toán của ông giống như một nhà phiên dịch xuất chúng: đặt một bài toán khó về đếm điểm nguyên hay ước lượng hàm $$L$$ lên một không gian hình học giàu đối xứng (thương số học của nhóm Lie $$G/\Gamma$$), dùng sức mạnh của tính trộn (*mixing*) và khe phổ để giải mã cấu trúc ẩn, rồi mang kết quả trở về phá vỡ những rào cản tồn tại hàng thập kỷ trong lý thuyết số.
 
-**Mạch bài học:** Bản đồ kiến thức nền (tính tay không gian lưới $$\mathrm{SL}_2(\mathbb{R})/\mathrm{SL}_2(\mathbb{Z})$$, chặn lồi $$1/4$$ của hàm zeta và tổng ba bình phương) → Phân bố đều & dãy thưa → Khung giải thích chậm 4 bước: từ bài toán số học đến khe phổ trên $$G/\Gamma$$ và ước lượng dưới lồi → Tô pô của không gian đối xứng địa phương.
+**Mạch bài học:** Kiến thức cần nhớ (tính tay không gian lưới $$\mathrm{SL}_2(\mathbb{R})/\mathrm{SL}_2(\mathbb{Z})$$, chặn lồi $$1/4$$ của hàm zeta và tổng ba bình phương) → Phân bố đều & dãy thưa → Giải thích 4 bước: từ bài toán số học đến khe phổ trên $$G/\Gamma$$ và ước lượng dưới lồi → Tô pô của không gian đối xứng địa phương.
 
 ---
 
@@ -23,7 +23,7 @@ Sau bài học, bạn có thể:
 
 - Tự kiểm tra bằng tay tác động ma trận trên không gian lưới $$\mathrm{SL}_2(\mathbb{R})/\mathrm{SL}_2(\mathbb{Z})$$ và lý do chặn lồi của hàm zeta Riemann có số mũ $$1/4$$.
 - Giải thích mối liên hệ giữa **phân bố đều** (như nghiệm nguyên của $$x^2 + y^2 + z^2 = D$$ trên mặt cầu) và bài toán đếm số học.
-- Nêu vì sao **ước lượng dưới lồi** (*subconvexity*) cho hàm $$L$$ là ngưỡng cửa sống còn chứ không phải một cải thiện nhỏ.
+- Nêu vì sao **ước lượng dưới lồi** (*subconvexity*) cho hàm $$L$$ là ngưỡng cửa quan trọng chứ không phải một cải thiện nhỏ.
 - Mô tả vai trò của **tô pô và phần xoắn** trên không gian đối xứng địa phương trong bức tranh của Venkatesh.
 - Nhìn phong cách của Venkatesh như một sự **kết hợp nhiều lĩnh vực** ngang hàng với các cây cầu lớn khác trong Chương 2.
 
@@ -31,7 +31,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Động lực học thuần nhất, Hàm $$L$$ và Phân bố đều là gì?
+## Kiến thức cần nhớ: Động lực học thuần nhất, Hàm $$L$$ và Phân bố đều là gì?
 
 ### 1. Không gian thuần nhất $$G/\Gamma$$ là gì? (Tính tay với ma trận $$2\times 2$$)
 Một **lưới** (*lattice*) trên mặt phẳng $$\mathbb{R}^2$$ có diện tích ô cơ sở bằng $$1$$ là tập hợp các tổ hợp nguyên $$\mathbb{Z}v_1 + \mathbb{Z}v_2$$ với hai vectơ cơ sở $$(v_1, v_2)$$ có định thức $$\det(v_1, v_2) = 1$$. Mọi lưới như vậy đều nhận được từ lưới vuông chuẩn $$\mathbb{Z}^2$$ bằng cách nhân với một ma trận $$g \in \mathrm{SL}_2(\mathbb{R})$$.
@@ -78,7 +78,7 @@ Công trình của Venkatesh (và các cộng sự) cho thấy nhiều câu hỏ
 
 ---
 
-## 2. Khung giải thích: Động lực học thuần nhất phá vỡ "bức tường lồi" như thế nào? (nên đọc chậm)
+## 2. Giải thích: Động lực học thuần nhất phá vỡ "bức tường lồi" như thế nào?
 
 Tại sao chuyển một bài toán hàm $$L$$ hay đếm điểm nguyên sang không gian $$G/\Gamma$$ lại tạo ra đột phá? Hãy đi chậm qua mạch 4 bước đặc trưng của phong cách **Venkatesh** (và công trình mốc **Michel–Venkatesh** năm 2010):
 

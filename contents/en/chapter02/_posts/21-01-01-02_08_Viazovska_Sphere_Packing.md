@@ -37,7 +37,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Fields Converge in Sphere Packing?
+## Key ideas: What Fields Converge in Sphere Packing?
 
 A question a child can ask about marbles turns out to sit at the crossroads of three deep branches of mathematics.
 
@@ -211,7 +211,7 @@ Cohn and Elkies ran numerical experiments in 2003 and saw that their linear prog
 
 ---
 
-### Deep-Dive Explanation: How Viazovska Built the Magic Function (Read Slowly)
+### Explanation: How Viazovska Built the Magic Function
 
 How do you engineer a radial function $$f$$ in $$\mathbb{R}^8$$ that has double zeros at $$\sqrt{2}, \sqrt{4}, \sqrt{6}, \dots$$ and whose Fourier transform $$\hat{f}$$ has the exact same double zeros? Follow Viazovska’s four-step masterpiece:
 

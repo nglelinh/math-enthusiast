@@ -35,7 +35,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết xác suất và thống kê toán học là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Lý thuyết xác suất và thống kê toán học là gì, nghiên cứu những gì?
 
 Nhiều người từng học xác suất qua vài bài toán rút bi trong hộp hay tung xúc xắc và tưởng ngành này chỉ xoay quanh tổ hợp. Ở bậc đại học và trong khoa học dữ liệu, **xác suất (probability)** và **thống kê (statistics)** là hai chiều ngược nhau của cùng một cây cầu:
 
@@ -139,7 +139,7 @@ $$
 
 **Hàm hợp lý (Likelihood).** Với mô hình tham số $$p(x\mid\theta)$$, hàm hợp lý $$L(\theta)=\prod_i p(x_i\mid\theta)$$ đo mức độ khớp giữa tham số $$\theta$$ và dữ liệu quan sát. Tìm $$\theta$$ làm cực đại $$L(\theta)$$ chính là **MLE** (thú vị thay, cực tiểu hóa hàm mất mát cross-entropy khi huấn luyện mạng nơ-ron thực chất chính là MLE!). Còn nhân $$L(\theta)$$ với niềm tin ban đầu $$p(\theta)$$ ta được suy diễn **Bayes**: $$p(\theta\mid \text{data})\propto L(\theta)p(\theta)$$.
 
-### Ví dụ cầm tay chỉ việc: Tự tính MLE và sửa bẫy mẫu nhỏ bằng Bayes
+### Ví dụ làm từng bước: Tự tính MLE và sửa bẫy mẫu nhỏ bằng Bayes
 
 Giả sử bạn chạy một mẫu quảng cáo mới $$n = 10$$ lần và thu được $$k = 7$$ lượt nhấp chuột. Xác suất nhấp thật $$p$$ là bao nhiêu?
 
@@ -158,7 +158,7 @@ $$
 $$
 Khi dữ liệu còn ít, Bayes kéo ước lượng về mức thận trọng; khi dữ liệu lên tới $$n = 10{.}000$$, số $$+2$$ trở nên không đáng kể và Bayes hội tụ về đúng MLE!
 
-### Khung giải thích: Từ một bảng dữ liệu hữu hạn đến quyết định ngoài đời thật (nên đọc chậm)
+### Giải thích: Từ một bảng dữ liệu hữu hạn đến quyết định ngoài đời thật
 
 1. **Xem dữ liệu là một lần rút mẫu ngẫu nhiên:** bảng dữ liệu hôm nay không phải toàn bộ sự thật, mà chỉ là một thực hiện duy nhất của phân phối ẩn $$P(X,Y)$$.
 2. **Đo độ dao động của ước lượng:** LLN bảo đảm trung bình mẫu hội tụ về giá trị thật, còn CLT và bất đẳng thức Hoeffding cho biết biên độ sai số $$\pm O(1/\sqrt{n})$$ ở cỡ mẫu hiện tại.
@@ -215,13 +215,13 @@ $$
 P(H\mid E) = \frac{99}{99 + 495} = \frac{99}{594} \approx 16{,}7\%!
 $$
 
-Con số gây sốc này không phải nghịch lý mà là lời nhắc nhở sống còn của tư duy Bayes: **luôn nhân bằng chứng mới với tỉ lệ nền (base rate)** trước khi kết luận. Bộ lọc thư rác, phát hiện gian lận ngân hàng và chẩn đoán y khoa đều dựa trên chính phép tính này.
+Con số gây sốc này không phải nghịch lý mà là lời nhắc nhở quan trọng của tư duy Bayes: **luôn nhân bằng chứng mới với tỉ lệ nền (base rate)** trước khi kết luận. Bộ lọc thư rác, phát hiện gian lận ngân hàng và chẩn đoán y khoa đều dựa trên chính phép tính này.
 
 ---
 
 ## 8. Nhân quả, dịch chuyển phân phối và trách nhiệm khi có bất định
 
-**Tương quan không phải nhân quả.** Dữ liệu cho thấy số kem bán ra và số vụ đuối nước tăng giảm song hành cực chặt, nhưng cấm bán kem chẳng cứu được ai — biến ẩn "nhiệt độ mùa hè" mới là nguyên nhân chung. Suy diễn nhân quả (đồ thị nhân quả DAG, thí nghiệm ngẫu nhiên có đối chứng RCT, biến công cụ) mở rộng xác suất bằng phép toán "can thiệp" ($$\mathrm{do}(X=x)$$). Trước khi ra quyết định chính sách hay kinh doanh từ dữ liệu, phân biệt tương quan với nhân quả là kỹ năng sống còn.
+**Tương quan không phải nhân quả.** Dữ liệu cho thấy số kem bán ra và số vụ đuối nước tăng giảm song hành cực chặt, nhưng cấm bán kem chẳng cứu được ai — biến ẩn "nhiệt độ mùa hè" mới là nguyên nhân chung. Suy diễn nhân quả (đồ thị nhân quả DAG, thí nghiệm ngẫu nhiên có đối chứng RCT, biến công cụ) mở rộng xác suất bằng phép toán "can thiệp" ($$\mathrm{do}(X=x)$$). Trước khi ra quyết định chính sách hay kinh doanh từ dữ liệu, phân biệt tương quan với nhân quả là kỹ năng cần có.
 
 **Dịch chuyển phân phối (distribution shift).** Mọi bảo đảm của học máy đều giả định dữ liệu lúc chạy thật $$P_{\mathrm{test}}$$ giống dữ liệu lúc huấn luyện $$P_{\mathrm{train}}$$. Khi hành vi người dùng thay đổi (như lúc dịch bệnh bùng phát làm đảo lộn thói quen mua sắm) hoặc kẻ tấn công đổi chiêu thức lừa đảo, $$P_{\mathrm{test}} \neq P_{\mathrm{train}}$$ và mô hình tụt dốc không phanh.
 

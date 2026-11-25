@@ -26,7 +26,7 @@ Gói nghiên cứu: `research/video-research/geometric-langlands-sduality/`.
 
 ---
 
-## Bản đồ kiến thức nền: Langlands hình học và đối ngẫu S là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Langlands hình học và đối ngẫu S là gì và nghiên cứu những gì?
 
 Thoạt nhìn, thuật ngữ trong bài này ("stack moduli $$\mathrm{Bun}_G(C)$$", "bó riêng Hecke", "$$\mathcal N=4$$ SYM") có thể khiến người mới choáng ngợp. Nhưng bạn chỉ cần nắm **ba mảnh ghép trực giác** là đọc thông toàn bộ bài:
 
@@ -99,7 +99,7 @@ Với $$\mathcal N=4$$ SYM bốn chiều, đối ngẫu S đặc biệt rõ: h�
 
 ---
 
-### Khung giải thích: kiểm tra tay phép lật $$\tau \mapsto -1/\tau$$ của đối ngẫu S và phổ điện–từ (nên đọc chậm)
+### Giải thích: kiểm tra tay phép lật $$\tau \mapsto -1/\tau$$ của đối ngẫu S và phổ điện–từ
 
 Thuật ngữ "đối ngẫu S biến tương tác mạnh thành yếu và hoán đổi hạt mang điện tích với đơn cực từ" trở nên trong suốt ngay lập tức khi bạn kiểm tra trực tiếp hai công thức đại số số phức ngắn gọn dưới đây.
 

@@ -37,7 +37,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Đại số tuyến tính là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Đại số tuyến tính là gì và nghiên cứu những gì?
 
 Ở năm nhất đại học, nhiều sinh viên học đại số tuyến tính như một môn "tính định thức và giải hệ phương trình bằng khử Gauss" rồi quên sạch sau kỳ thi. Thực chất, **đại số tuyến tính (linear algebra)** là ngành toán học nghiên cứu **hình học của các không gian nhiều chiều** và **các phép biến đổi giữ nguyên cấu trúc đường thẳng** (ánh xạ tuyến tính).
 
@@ -90,7 +90,7 @@ $$
 
 Về mặt phần cứng, quá trình suy luận chỉ là chuỗi phép nhân ma trận xen kẽ các phép phi tuyến cực rẻ, khớp hoàn hảo với kiến trúc song song của GPU và TPU. Vì vậy, "cuộc chạy đua chip AI" về bản chất chính là cuộc chạy đua phần cứng cho phép nhân ma trận.
 
-### Khung giải thích: Vì sao nhân ma trận + ReLU lại tạo ra khả năng phân loại phức tạp? (nên đọc chậm)
+### Giải thích: Vì sao nhân ma trận + ReLU lại tạo ra khả năng phân loại phức tạp?
 
 1. **Nhúng dữ liệu vào không gian vectơ:** ảnh, âm thanh hay câu chữ được chuyển thành các điểm $$x \in \mathbb{R}^d$$; lúc đầu hai lớp dữ liệu (ví dụ ảnh mèo và ảnh chó) xoắn chặt vào nhau nên không có mặt phẳng nào cắt tách chúng ra được.
 2. **Biến đổi affine + gấp không gian từng lớp:** mỗi lớp $$h^{(\ell+1)} = \mathrm{ReLU}(W^{(\ell)}h^{(\ell)}+b^{(\ell)})$$ xoay, kéo giãn rồi gấp nhẹ không gian dữ liệu. Qua $$L$$ lớp, số mảnh gấp tuyến tính tăng theo cấp số mũ theo độ sâu $$L$$.
@@ -146,7 +146,7 @@ $$
 
 Vì $$L$$ là hàm hợp của các phép nhân ma trận và các hàm phi tuyến đơn giản, **quy tắc dây chuyền (chain rule)** cho phép tính đạo hàm ngược từ lớp cuối về lớp đầu — đó chính là **lan truyền ngược (backpropagation)**.
 
-**Ví dụ cầm tay chỉ việc 1 (Lan truyền ngược trên mạng 2 lớp).** Giả sử mạng có dạng $$y = w_2 \cdot \mathrm{ReLU}(w_1 x)$$ với đầu vào $$x=2$$, nhãn đúng $$y^*=10$$, trọng số khởi tạo $$w_1=1, w_2=3$$, và sai số $$L = \frac{1}{2}(y - y^*)^2$$:
+**Ví dụ làm từng bước 1 (Lan truyền ngược trên mạng 2 lớp).** Giả sử mạng có dạng $$y = w_2 \cdot \mathrm{ReLU}(w_1 x)$$ với đầu vào $$x=2$$, nhãn đúng $$y^*=10$$, trọng số khởi tạo $$w_1=1, w_2=3$$, và sai số $$L = \frac{1}{2}(y - y^*)^2$$:
 - **Lượt đi xuôi (forward):** $$h = \mathrm{ReLU}(1\cdot 2)=2$$, dự đoán $$y = 3\cdot 2 = 6$$, mất mát $$L = \frac{1}{2}(6-10)^2 = 8$$.
 - **Lượt đi ngược (backward):** $$\frac{\partial L}{\partial y} = y - y^* = -4$$. Theo quy tắc dây chuyền:
   - $$\frac{\partial L}{\partial w_2} = \frac{\partial L}{\partial y}\cdot h = (-4)\cdot 2 = -8$$.
@@ -176,7 +176,7 @@ $$
 
 trong đó $$Q=XW_Q, K=XW_K, V=XW_V$$ là ba phép chiếu tuyến tính của chuỗi đầu vào.
 
-### Ví dụ cầm tay chỉ việc 2: Tự tay tính một phép Self-Attention với ma trận $$2\times 2$$
+### Ví dụ làm từng bước 2: Tự tay tính một phép Self-Attention với ma trận $$2\times 2$$
 
 Giả sử câu chỉ có 2 từ (2 hàng) với số chiều $$d = 2$$, và sau khi chiếu tuyến tính ta thu được ba ma trận:
 

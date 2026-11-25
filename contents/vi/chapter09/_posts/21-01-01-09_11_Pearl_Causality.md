@@ -28,7 +28,7 @@ Sau bài, bạn có thể phân biệt ba nấc **association / intervention / c
 
 ---
 
-## Bản đồ kiến thức nền: Toán học nhân quả và Mô hình đồ thị xác suất là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Toán học nhân quả và Mô hình đồ thị xác suất là gì, nghiên cứu những gì?
 
 Người tốt nghiệp đại học ngành khoa học dữ liệu hay học máy thường rất thành thạo việc ước lượng xác suất có điều kiện $$p(y \mid x)$$ — ví dụ *"biết khách hàng vừa mua bỉm, xác suất họ mua bia là bao nhiêu?"*. Nhưng ngay khi bạn bước sang câu hỏi ra quyết định — *"nếu ta chủ động giảm giá thuốc $$X$$ thì tỉ lệ khỏi bệnh $$Y$$ thay đổi thế nào?"* — xác suất quan sát $$p(y \mid x)$$ không còn đủ nữa, bởi vì **nhìn thấy $$X=x$$** (quan sát thụ động) khác hoàn toàn với **ép $$X=x$$** (can thiệp chủ động)!
 
@@ -93,7 +93,7 @@ $$
 
 (dạng rời rạc). Khác $$p(y\mid x)=\sum_z p(y\mid x,z)p(z\mid x)$$—trọng số $$p(z)$$ vs $$p(z\mid x)$$ là toàn bộ câu chuyện.
 
-### Ví dụ cầm tay chỉ việc: Giải phẫu Nghịch lý Simpson bằng số liệu 700 bệnh nhân
+### Ví dụ làm từng bước: Giải phẫu Nghịch lý Simpson bằng số liệu 700 bệnh nhân
 
 Hãy tự tay kiểm tra chính bộ số liệu điều trị sỏi thận kinh điển (Charig và cộng sự, 1986) trên **700 bệnh nhân**, chia đều 350 ca dùng **Phương pháp A** (phẫu thuật mở) và 350 ca dùng **Phương pháp B** (tán sỏi qua da). Biến nhiễu $$Z$$ là **kích thước sỏi** ($$Z=0$$: sỏi nhỏ, $$Z=1$$: sỏi lớn), ảnh hưởng đến cả quyết định chọn phương pháp $$X$$ của bác sĩ lẫn khả năng khỏi bệnh $$Y$$ (đồ thị $$Z \to X$$, $$Z \to Y$$, $$X \to Y$$):
 
@@ -123,7 +123,7 @@ $$
 
 Cú đảo chiều biến mất ngay lập tức: **Phương pháp A thực sự hiệu quả hơn Phương pháp B tới $$+5{,}32$$ điểm phần trăm** ($$83{,}25\%$$ so với $$77{,}93\%$$)!
 
-### Khung giải thích: Vì sao can thiệp là "phẫu thuật đồ thị" (nên đọc chậm)
+### Giải thích: Vì sao can thiệp là "phẫu thuật đồ thị"
 
 Để không bao giờ lẫn lộn giữa xác suất có điều kiện và tác động nhân quả, hãy đi chậm qua mạch 4 bước sau:
 

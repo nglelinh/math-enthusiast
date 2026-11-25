@@ -22,7 +22,7 @@ $$
 
 Where visual imagination hits a wall, **coordinates, linear algebra, and counting** walk right through. This studio builds your "algebraic eyes" for 4D and beyond: counting the faces of a tesseract, projecting and slicing it into 3D/2D, and witnessing the shock of high-dimensional volume collapsing to zero—an effect that turns everyday 3D intuition upside down.
 
-**Lesson roadmap:** Background Knowledge Map (high-dimensional geometry, concentration of measure & Euclidean $$\mathbb{R}^4$$ vs. Minkowski spacetime) → Hypercubes $$I^n$$, projections & slices → Deep-Dive Explanation (Read Slowly): hand-computing a 4D→2D projection matrix, catching a false crossing, and solving the sphere-in-the-center-gap paradox → Unit-ball volume $$V_n \to 0$$ → Studio experiments & log.
+**Lesson roadmap:** Key ideas (high-dimensional geometry, concentration of measure & Euclidean $$\mathbb{R}^4$$ vs. Minkowski spacetime) → Hypercubes $$I^n$$, projections & slices → Explanation: hand-computing a 4D→2D projection matrix, catching a false crossing, and solving the sphere-in-the-center-gap paradox → Unit-ball volume $$V_n \to 0$$ → Studio experiments & log.
 
 ---
 
@@ -41,7 +41,7 @@ After this studio you should be able to:
 
 ---
 
-## Background Knowledge Map: What Are High-Dimensional Geometry and Geometric Probability?
+## Key ideas: What Are High-Dimensional Geometry and Geometric Probability?
 
 Why should a university graduate in engineering, data science, or applied math care about 4, 100, or 10,000 dimensions when we live in 3D? Three modern pillars explain why:
 
@@ -89,7 +89,7 @@ For $$n=4$$ (the **tesseract**): 16 vertices, 32 edges, 24 square faces, 8 cubic
 
 A linear map $$P:\mathbb{R}^4\to\mathbb{R}^3$$ (or to $$\mathbb{R}^2$$) sends the tesseract to a polyhedron or planar figure. Edges map to segments; crossings in the drawing are often **not** intersections in 4D. Slicing by a 3D hyperplane $$\{x_4=t\}$$ (or a slanted hyperplane $$x_1+x_2+x_3+x_4=t$$) yields a movie of 3D cross-sections.
 
-#### Deep-Dive Explanation (Read Slowly): Hand-Computing a 4D→2D Projection and the Center-Sphere Paradox
+#### Explanation: Hand-Computing a 4D→2D Projection and the Center-Sphere Paradox
 
 Let us make 4D concrete with two quick calculations you can verify line by line:
 

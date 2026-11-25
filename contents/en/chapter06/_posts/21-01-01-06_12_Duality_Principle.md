@@ -21,7 +21,7 @@ Read it after [Mathematical physics]({{ site.baseurl }}/contents/en/chapter06/06
 
 ---
 
-## Background Knowledge Map: What Is the Principle of Duality and What Does It Study?
+## Key ideas: What Is the Principle of Duality and What Does It Study?
 
 Unlike analysis or linear algebra, the **Principle of Duality** is not a single subfield—it is a **cross-disciplinary architecture of thought** spanning mathematics and physics. To keep dozens of famous names organized, group them into **three ascending layers**:
 
@@ -167,7 +167,7 @@ Topological insulators, anyons, and anomaly matching reuse dual and index ideas:
 
 ---
 
-### Deep-Dive Explanation: Two Hand Calculations Showing the Power of Duality (Read Slowly)
+### Explanation: Two Hand Calculations Showing the Power of Duality
 
 To feel duality as a working engine rather than a philosophy, work two short hand calculations—one geometric, one from statistical physics—where duality solves a hard problem in three lines.
 

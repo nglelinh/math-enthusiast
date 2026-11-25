@@ -19,7 +19,7 @@ Tại ICM Berlin năm 1998, **Curtis T. McMullen** nhận **Huy chương Fields*
 
 Bài học này dẫn bạn từ những ví dụ lặp hàm bậc hai cầm tay đến **không gian Teichmüller**, **biên Bers**, toán tử chuỗi Poincaré của **Kra**, và cầu nối sang **đa tạp hyperbolic ba chiều phân thớ trên đường tròn**. Cần phân định rõ ngay từ đầu: McMullen đóng góp các công cụ sắc bén *bên trong* chương trình hình học hóa của Thurston, chứ **không** phải người hoàn tất toàn bộ giả thuyết hình học hóa hay giả thuyết Poincaré — kỳ tích đó thuộc về [Grigori Perelman]({{ site.baseurl }}/contents/vi/chapter02/02_03_Perelman_Poincare/).
 
-**Mạch bài học:** Bản đồ kiến thức nền (động lực chỉnh hình, không gian Teichmüller, từ điển Sullivan) → Ví dụ cầm tay chỉ việc: lặp $$z^2 + c$$ tại $$c = 0, -2, -1$$ và hình ảnh bóp thắt vòng eo mặt giống $$g=2$$ thành cusp → Giả thuyết Bers & Giả thuyết hàm theta của Kra → Khung giải thích chậm: tái chuẩn hóa nối tập Mandelbrot với đa tạp 3 chiều phân thớ trên đường tròn → Liên hệ tới Mirzakhani và Perelman.
+**Mạch bài học:** Kiến thức cần nhớ (động lực chỉnh hình, không gian Teichmüller, từ điển Sullivan) → Ví dụ làm từng bước: lặp $$z^2 + c$$ tại $$c = 0, -2, -1$$ và hình ảnh bóp thắt vòng eo mặt giống $$g=2$$ thành cusp → Giả thuyết Bers & Giả thuyết hàm theta của Kra → Giải thích: tái chuẩn hóa nối tập Mandelbrot với đa tạp 3 chiều phân thớ trên đường tròn → Liên hệ tới Mirzakhani và Perelman.
 
 ---
 
@@ -39,7 +39,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Động lực chỉnh hình, Không gian Teichmüller và Từ điển Sullivan là gì?
+## Kiến thức cần nhớ: Động lực chỉnh hình, Không gian Teichmüller và Từ điển Sullivan là gì?
 
 ### 1. Động lực học chỉnh hình (Holomorphic Dynamics) nghiên cứu gì?
 Cho một hàm hữu tỷ $$f: \widehat{\mathbb{C}} \to \widehat{\mathbb{C}}$$ (đơn giản nhất là $$f_c(z) = z^2 + c$$). Lặp $$z \mapsto f(z) \mapsto f^{\circ 2}(z) \mapsto \cdots$$ chia mặt cầu Riemann thành hai tập bất biến:
@@ -55,7 +55,7 @@ Một **nhóm Klein** (nhóm con rời rạc các phép biến đổi Möbius tr
 
 ---
 
-## 1. Ví dụ cầm tay chỉ việc: lặp $$f_c(z) = z^2 + c$$ và hình ảnh bóp thắt tạo cusp
+## 1. Ví dụ làm từng bước: lặp $$f_c(z) = z^2 + c$$ và hình ảnh bóp thắt tạo cusp
 
 ### Ví dụ 1: Ba giá trị $$c$$ giúp thấy ngay Tập Julia và Tập Mandelbrot
 Hãy thử tự tính quỹ đạo lặp của $$f_c(z) = z^2 + c$$ với ba giá trị $$c$$ rất đơn giản:
@@ -92,7 +92,7 @@ Vì nhóm cơ bản của mặt hyperbolic kiểu hữu hạn chứa nhóm tự 
 
 ---
 
-## 3. Khung giải thích: Tái chuẩn hóa nối Động lực học phức với Đa tạp 3 chiều như thế nào? (nên đọc chậm)
+## 3. Giải thích: Tái chuẩn hóa nối Động lực học phức với Đa tạp 3 chiều như thế nào?
 
 Tại sao hai chuyên khảo kinh điển của McMullen — *Complex Dynamics and Renormalization* (1994) và *Renormalization and 3-Manifolds Which Fiber over the Circle* (1996) — lại là hai mặt của cùng một đồng xu? Hãy đi chậm qua 4 bước song song:
 

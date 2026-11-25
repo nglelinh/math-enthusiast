@@ -34,7 +34,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Phương trình Diophantine và Lý thuyết số đại số là gì và giữ vai trò gì?
+## Kiến thức cần nhớ: Phương trình Diophantine và Lý thuyết số đại số là gì và giữ vai trò gì?
 
 Trên tập số thực, phương trình $$x^2 - 61y^2 = 1$$ là chuyện vặt: đó chỉ là một đường hyperbola trơn tru với vô số điểm $$(x, y)$$ dễ dàng tìm bằng cách chọn tùy ý $$y$$ rồi lấy căn. Nhưng chỉ cần thêm một yêu cầu duy nhất — **$$x$$ và $$y$$ phải là số nguyên** — bài toán lập tức trở thành một **phương trình Diophantine**, nơi nghiệm dương nhỏ nhất vọt lên tới 10 chữ số!
 
@@ -144,7 +144,7 @@ Vì vậy "tìm được một nghiệm là có vô hạn nghiệm" không phả
 
 ---
 
-## 4. Tìm nghiệm đầu tiên: $$d=2$$ và ví dụ cầm tay chỉ việc với $$d=7$$
+## 4. Tìm nghiệm đầu tiên: $$d=2$$ và ví dụ làm từng bước với $$d=7$$
 
 Viết lại phương trình $$x^2 - dy^2 = 1$$ dưới dạng $$\frac{x}{y} - \sqrt{d} = \frac{1}{y(x+y\sqrt{d})} \approx \frac{1}{2\sqrt{d}\,y^2}$$. Điều này cho thấy mỗi nghiệm $$(x,y)$$ tương ứng với một phân số $$x/y$$ **xấp xỉ cực kỳ sát** số vô tỉ $$\sqrt{d}$$! Và công cụ tìm các phân số xấp xỉ tốt nhất trong toán học chính là **phân số liên tục**.
 
@@ -171,7 +171,7 @@ $$
 
 rồi $$(17,12)\ast(3,2)=(99,70)$$. Dãy nghiệm tiếp tục: $$(1,0),\ (3,2),\ (17,12),\ (99,70),\ (577,408),\ \ldots$$.
 
-### Ví dụ cầm tay chỉ việc: giải trọn vẹn $$x^2 - 7y^2 = 1$$ bằng phân số liên tục
+### Ví dụ làm từng bước: giải trọn vẹn $$x^2 - 7y^2 = 1$$ bằng phân số liên tục
 
 Để thấy thuật toán chạy ra sao khi chu kỳ dài hơn 1, hãy khai triển $$\sqrt{7} \approx 2{,}6457$$ từng bước một:
 1. Tách phần nguyên $$2$$: $$\sqrt{7} = 2 + (\sqrt{7}-2) = 2 + \dfrac{1}{\frac{\sqrt{7}+2}{3}}$$.
@@ -195,7 +195,7 @@ Ta bắt được ngay nghiệm cơ bản $$(x_1, y_1) = (8, 3)$$! Và bình ph�
 
 *Hình. Hyperbola $$x^2-2y^2=1$$ và các điểm nguyên. Bảng nghiệm trong hình là đúng. Nhưng công thức đóng khung $$x+y\sqrt{2}=(1+\sqrt{2})^n$$ thì **sai**: $$1+\sqrt{2}$$ có chuẩn $$-1$$, nên các lũy thừa lẻ cho nghiệm của $$x^2-2y^2=-1$$. Nghiệm của phương trình $$+1$$ ứng với lũy thừa chẵn, tức $$(x+y\sqrt{2})=(3+2\sqrt{2})^n=(1+\sqrt{2})^{2n}$$. (Hình nguồn: [Toán Khó](https://toankho.com/2026/08/07/bai-toan-dan-bo-cua-archimedes-va-phuong-trinh-pell/); sinh bằng AI.)*
 
-### Khung giải thích: vì sao phương trình Pell lại nối phân số liên tục với nhóm đơn vị đại số (nên đọc chậm)
+### Giải thích: vì sao phương trình Pell lại nối phân số liên tục với nhóm đơn vị đại số
 
 Để hiểu trọn vẹn bộ máy đứng sau bài toán đàn bò mà không bị rối, hãy đọc chậm chuỗi 4 bước sau:
 

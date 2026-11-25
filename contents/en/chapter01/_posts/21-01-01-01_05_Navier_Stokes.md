@@ -35,7 +35,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Fields Sit Behind Navier–Stokes?
+## Key ideas: What Fields Sit Behind Navier–Stokes?
 
 To understand why a classic nineteenth-century physics equation still defies twenty-first-century mathematics, it helps to see the three mathematical disciplines that meet inside Navier–Stokes.
 
@@ -199,7 +199,7 @@ Even without a full solution, analysts have mapped out a rich landscape of parti
 
 ---
 
-### Deep-Dive Explanation: From Vortex Stretching to the Supercriticality Barrier (Read Slowly)
+### Explanation: From Vortex Stretching to the Supercriticality Barrier
 
 If you want to carry the whole mathematical plot of 3D Navier–Stokes in your head without getting lost in functional-analysis notation, follow these four steps slowly.
 

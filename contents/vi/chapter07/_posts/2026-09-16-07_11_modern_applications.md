@@ -14,7 +14,7 @@ Tháng 11 năm 2022, David Smith — một kỹ thuật viên in ấn đã ngh�
 
 Đứng trước những công cụ mạnh mẽ đến choáng ngợp ấy, người làm toán hôm nay rất dễ rơi vào một ảo giác nguy hiểm: *liệu máy tính đã có thể làm thay cuốn sổ ghi chép nghiên cứu của chúng ta?* Câu trả lời là **không**. Trái lại, máy tính càng mạnh thì kỷ luật của người cầm bút càng phải sắc bén: biết đặt giả thuyết rõ ràng trước khi bấm nút chạy, ghi chép trung thực phạm vi tính toán, và tuyệt đối không bao giờ đánh tráo một phép tính hữu hạn đã chạy xong thành một chứng minh toán học cho tới vô cùng.
 
-**Mạch bài học:** Bản đồ kiến thức nền (bộ giải SAT & chứng chỉ UNSAT, AI thần kinh–ký hiệu & kiểm chứng GPU) → Khung giải thích chậm: tự tay mã hóa bài toán tô 2 màu tam giác $$K_3$$ thành công thức SAT và chứng minh UNSAT trong 4 dòng → Ba công cụ thực chiến 2022–2026 → Kỷ luật nhật ký studio.
+**Mạch bài học:** Kiến thức cần nhớ (bộ giải SAT & chứng chỉ UNSAT, AI thần kinh–ký hiệu & kiểm chứng GPU) → Giải thích: tự tay mã hóa bài toán tô 2 màu tam giác $$K_3$$ thành công thức SAT và chứng minh UNSAT trong 4 dòng → Ba công cụ thực chiến 2022–2026 → Kỷ luật nhật ký studio.
 
 ## Mục tiêu học tập
 
@@ -24,7 +24,7 @@ Sau bài đọc thêm này, bạn sẽ:
 - Biết cách tích hợp kết quả tính toán vào cuốn nhật ký nghiên cứu mà vẫn giữ chuẩn mực khoa học: tách bạch rạch ròi giữa *phép kiểm tra hữu hạn*, *chứng chỉ UNSAT*, và *định lý toán học*.
 - Nhận diện giới hạn bản chất của từng công cụ để không đưa ra những kết luận vượt quá phạm vi chứng minh.
 
-## Bản đồ kiến thức nền: Chứng minh hình thức, SAT và Toán học có máy tính hỗ trợ là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Chứng minh hình thức, SAT và Toán học có máy tính hỗ trợ là gì, nghiên cứu những gì?
 
 Khi sinh viên đại học dùng Python hay MATLAB, ta thường nghĩ máy tính chỉ giúp "tính xấp xỉ cho nhanh". Nhưng trong toán học hiện đại, máy tính còn tham gia trực tiếp vào **logic và chứng minh** thông qua ba nhánh giao thoa với Khoa học máy tính:
 
@@ -46,7 +46,7 @@ Bài tổng quan của phần thực hành và ít nhất một trong các bài:
 
 ---
 
-### Khung giải thích: Cầm tay mã hóa bài toán tô màu thành công thức SAT và chứng minh UNSAT (nên đọc chậm)
+### Giải thích: Cầm tay mã hóa bài toán tô màu thành công thức SAT và chứng minh UNSAT
 
 Để hiểu cách một bài toán tổ hợp hay lát mặt phẳng được đưa vào bộ giải SAT, hãy tự tay mã hóa bài toán nhỏ nhất có thể: **có thể tô 3 đỉnh của tam giác $$K_3$$ (đỉnh $$1, 2, 3$$) bằng 2 màu (Đỏ = `0`, Xanh = `1`) sao cho hai đỉnh kề nhau luôn khác màu không?**
 

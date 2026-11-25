@@ -15,7 +15,7 @@ Hãy thử tưởng tượng một khu rừng vô tận chứa mọi hình dạn
 
 Nhưng một nỗi lo lớn kéo dài hàng chục năm: nhỡ đâu ở một số chiều cố định, số kiểu đa tạp Fano lại nhiều vô hạn và ngày càng "hoang dã" đến mức không thể lập danh mục nổi? Năm 2016, **Caucher Birkar** — một nhà toán học gốc Kurd lớn lên giữa chiến tranh và đến Anh tị nạn — đã chứng minh **tính bị chặn của các đa tạp Fano** (giả thuyết BAB), khép lại một câu hỏi trung tâm và mang về **Huy chương Fields 2018**.
 
-**Mạch bài học:** Bản đồ kiến thức nền (tính tay phép chiếu lập thể & phép nổ, bảng tuần hoàn 3 viên gạch theo $$K_X = (d-n-1)H$$) → Phân loại song hữu tỉ → Khung giải thích chậm 4 bước: từ phép co chiều 2 đến flip, BCHM và tính bị chặn đa tạp Fano của Birkar → Vị trí trong hình học đại số hiện đại.
+**Mạch bài học:** Kiến thức cần nhớ (tính tay phép chiếu lập thể & phép nổ, bảng tuần hoàn 3 viên gạch theo $$K_X = (d-n-1)H$$) → Phân loại song hữu tỉ → Giải thích 4 bước: từ phép co chiều 2 đến flip, BCHM và tính bị chặn đa tạp Fano của Birkar → Vị trí trong hình học đại số hiện đại.
 
 ---
 
@@ -35,7 +35,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Hình học đại số song hữu tỉ là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Hình học đại số song hữu tỉ là gì và nghiên cứu những gì?
 
 ### 1. Tương đương song hữu tỉ & Phép nổ — Hai ví dụ cầm tay tự kiểm tra
 **Hình học đại số** nghiên cứu tập nghiệm của hệ phương trình đa thức (**đa tạp đại số**). Thay vì đòi hỏi hai hình phải giống hệt nhau tại *mọi* điểm (đẳng cấu — quá chặt để phân loại), **hình học song hữu tỉ** (*birational geometry*) coi hai đa tạp là tương đương nếu chúng đẳng cấu trên **hầu hết mọi điểm** (chỉ bỏ đi tập nhỏ có chiều thấp hơn):
@@ -72,7 +72,7 @@ Toàn bộ MMP đặt mục tiêu chứng minh rằng **mọi** đa tạp đại
 
 ---
 
-## 1. Khung giải thích: Từ phép co chiều 2 đến Flip, BCHM và Đột phá của Birkar (nên đọc chậm)
+## 1. Giải thích: Từ phép co chiều 2 đến Flip, BCHM và Đột phá của Birkar
 
 Tại sao việc nâng phân loại từ chiều 2 (Enriques–Kodaira) lên chiều 3 trở lên lại mất gần 40 năm và cần đến đột phá của Birkar? Hãy đọc chậm chuỗi 4 bước sau:
 

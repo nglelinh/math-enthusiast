@@ -28,7 +28,7 @@ Sau bài, bạn có thể phát biểu **nguyên lý Yao** (minimax) ở mức t
 
 ---
 
-## Bản đồ kiến thức nền: Độ phức tạp giao tiếp và Nguyên lý Minimax trong tính toán là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Độ phức tạp giao tiếp và Nguyên lý Minimax trong tính toán là gì, nghiên cứu những gì?
 
 Khi chứng minh một bài toán *khó* trong mô hình máy Turing thông thường (như P vs NP), ta thường đâm đầu vào ngõ cụt vì thời gian CPU quá phức tạp để phân tích. **Lý thuyết độ phức tạp giao tiếp (Communication Complexity)** do Yao đề xuất năm 1979 mở ra một góc nhìn thông minh đến bất ngờ: **cho phép Alice và Bob có sức mạnh tính toán vô hạn, chỉ đếm đúng số bit họ phải gửi cho nhau!**
 
@@ -70,7 +70,7 @@ $$
 
 Khẩu hiệu đúng: **chi phí tối ưu của thuật toán ngẫu nhiên trong worst-case bằng chi phí deterministic tốt nhất khi input được chọn từ phân phối khó nhất**. Hệ quả phương pháp cực mạnh: để chặn dưới randomized complexity, chỉ cần dựng **một** phân phối $$D$$ khó cho *mọi* thuật toán deterministic, rồi lấy min–average. Không cần “đuổi” mọi protocol ngẫu nhiên.
 
-### Khung giải thích: Nguyên lý Minimax của Yao vận hành qua 4 bước nào? (nên đọc chậm)
+### Giải thích: Nguyên lý Minimax của Yao vận hành qua 4 bước nào?
 
 1. **Chuyển bài toán chặn dưới thành trò chơi tổng bằng 0:** người thiết kế chọn một thuật toán $$A \in \mathcal{A}$$, đối thủ chọn một đầu vào $$x \in \mathcal{X}$$, tiền phạt là chi phí $$C(A, x)$$.
 2. **Xem thuật toán ngẫu nhiên như một chiến lược hỗn hợp:** thay vì cố phân tích vô số cách gieo đồng xu nội bộ, ta coi một thuật toán ngẫu nhiên $$R$$ đơn giản là chọn ngẫu nhiên một thuật toán tất định $$A$$ theo phân phối $$R$$.
@@ -93,7 +93,7 @@ Hai bên **Alice** và **Bob** nhận lần lượt $$x,y\in\{0,1\}^n$$. Họ mu
 
 Điểm khái niệm: đây **không** phải “mạng máy tính chậm”. Đây là **mô hình thông tin tối thiểu** cần để tính $$f$$ khi dữ liệu bị phân mảnh. Chặn dưới giao tiếp là định lý về *cấu trúc* $$f$$—thường qua ma trận truyền thông $$M_f[x,y]=f(x,y)$$, phân hoạch hình chữ nhật, rank, mutual information.
 
-### Ví dụ cầm tay chỉ việc: Ma trận truyền thông $$4\times 4$$ cho Equality và Set Disjointness ($$n = 2$$)
+### Ví dụ làm từng bước: Ma trận truyền thông $$4\times 4$$ cho Equality và Set Disjointness ($$n = 2$$)
 
 Xét các chuỗi $$n = 2$$ bit theo thứ tự `00, 01, 10, 11`. Lập ma trận truyền thông $$M_f[x, y] = f(x, y)$$ kích thước $$4 \times 4$$:
 

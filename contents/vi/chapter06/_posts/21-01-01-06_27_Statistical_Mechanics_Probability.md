@@ -17,7 +17,7 @@ Bài tổng quan này đi sâu vào mục 4 của [bài trung tâm về vật l�
 
 ---
 
-## Bản đồ kiến thức nền: Cơ học thống kê toán học đứng trên ba trụ cột nào?
+## Kiến thức cần nhớ: Cơ học thống kê toán học đứng trên ba trụ cột nào?
 
 Nếu bạn đã học xác suất thống kê ở đại học (luật số lớn, hàm softmax trong học máy, kỳ vọng và phương sai), bạn có thể nắm trọn ba trụ cột của ngành này:
 
@@ -58,7 +58,7 @@ $$
 
 **Hàm phân hoạch** $$Z(\beta)$$ không chỉ là hằng số chuẩn hóa cho tổng xác suất bằng 1 — nó là "hàm sinh vạn năng" của cả hệ! Chỉ cần lấy đạo hàm của $$\log Z(\beta)$$ theo $$\beta$$, ta rút ngay ra mọi đại lượng vĩ mô: chẳng hạn $$-\frac{\partial}{\partial \beta}\log Z = \langle E\rangle$$ (năng lượng trung bình) và $$\frac{\partial^2}{\partial \beta^2}\log Z = \operatorname{Var}(E)$$ (phương sai năng lượng, tỉ lệ trực tiếp với nhiệt dung!). Năng lượng tự do $$F=-\beta^{-1}\log Z$$ gói gọn toàn bộ nhiệt động học cân bằng, còn xác suất $$p(s)\propto e^{-\beta E(s)}$$ gọi là trọng số **Boltzmann–Gibbs**.
 
-### Khung giải thích: tự tay giải trọn vẹn mô hình Ising 2 spin (nên đọc chậm)
+### Giải thích: tự tay giải trọn vẹn mô hình Ising 2 spin
 
 Để thấy tận mắt hàm phân hoạch sinh ra mọi đại lượng vĩ mô như thế nào, hãy tính bằng tay một "nam châm mini" chỉ gồm **2 spin** $$\sigma_1, \sigma_2 \in \{+1, -1\}$$ tương tác với năng lượng $$E(\sigma_1, \sigma_2) = -J\sigma_1\sigma_2$$ (với $$J > 0$$, hai spin thích chỉ cùng chiều):
 

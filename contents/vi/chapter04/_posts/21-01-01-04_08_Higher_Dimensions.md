@@ -32,7 +32,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Hình học nhiều chiều là gì và giữ vai trò gì trong toán học hiện đại?
+## Kiến thức cần nhớ: Hình học nhiều chiều là gì và giữ vai trò gì trong toán học hiện đại?
 
 Người đã tốt nghiệp đại học thực ra làm việc trong không gian nhiều chiều hằng ngày mà đôi khi không để ý: một bức ảnh đen trắng $$100 \times 100$$ pixel là một điểm trong $$\mathbb{R}^{10\,000}$$; một vectơ nhúng (embedding) của mô hình ngôn ngữ lớn sống trong $$\mathbb{R}^{4096}$$; một hồ sơ khách hàng với 50 chỉ số là một điểm trong $$\mathbb{R}^{50}$$.
 
@@ -101,7 +101,7 @@ $$
 \mathrm{Vol}(B^n(R))=V_n R^n,\qquad V_n=\frac{\pi^{n/2}}{\Gamma\!\left(\frac{n}{2}+1\right)}.
 $$
 
-### Ví dụ tính toán cầm tay chỉ việc: quả cầu biến mất bên trong hình lập phương ngoại tiếp
+### Ví dụ tính toán làm từng bước: quả cầu biến mất bên trong hình lập phương ngoại tiếp
 
 So sánh thể tích quả cầu đơn vị $$V_n$$ với thể tích hình lập phương ngoại tiếp $$[-1,1]^n$$ (bằng $$2^n$$):
 
@@ -135,7 +135,7 @@ Không cách nào trong số này "cho thấy chiều thứ tư đúng như nó 
 
 Trên mặt cầu $$S^{n-1}$$ với độ đo đều, các hàm Lipschitz gần như là hằng số khi $$n$$ lớn. Đặc biệt, với một hướng cố định bất kỳ, phần lớn diện tích mặt cầu nằm gần "đường xích đạo" vuông góc với hướng đó.
 
-**Ví dụ cầm tay chỉ việc — vì sao hai vectơ ngẫu nhiên trong $$\mathbb{R}^n$$ gần như vuông góc?**
+**Ví dụ làm từng bước — vì sao hai vectơ ngẫu nhiên trong $$\mathbb{R}^n$$ gần như vuông góc?**
 Chọn ngẫu nhiên hai vectơ đơn vị từ các góc siêu lập phương: $$u = \frac{1}{\sqrt{n}}(u_1, \dots, u_n)$$ và $$v = \frac{1}{\sqrt{n}}(v_1, \dots, v_n)$$, với mỗi tọa độ $$u_i, v_i \in \{-1, +1\}$$ độc lập như tung đồng xu. Cosin góc $$\theta$$ giữa chúng là:
 
 $$
@@ -155,7 +155,7 @@ $$
 
 Đây là **sự tập trung theo hàm mũ**. Không gian nhiều chiều không chỉ lớn hơn; nó **ổn định hơn về mặt thống kê**.
 
-### Khung giải thích: vì sao hình học nhiều chiều đảo ngược trực giác 3 chiều (nên đọc chậm)
+### Giải thích: vì sao hình học nhiều chiều đảo ngược trực giác 3 chiều
 
 Nếu bạn cảm thấy "não hơi lag" khi quả cầu 20 chiều gần như không có thể tích còn hai vectơ ngẫu nhiên lại vuông góc với nhau, hãy đi chậm qua 4 bước:
 

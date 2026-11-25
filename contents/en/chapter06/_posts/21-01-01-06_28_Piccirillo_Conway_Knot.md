@@ -19,7 +19,7 @@ This lecture turns that inspiring story into sharp seminar mathematics: what sli
 
 ---
 
-## Background Knowledge Map: What Three Pillars Connect Knot Theory, Sliceness, and 4D Topology?
+## Key ideas: What Three Pillars Connect Knot Theory, Sliceness, and 4D Topology?
 
 If you have ever tied a shoelace, you can grasp all three pillars behind Piccirillo's theorem:
 
@@ -83,7 +83,7 @@ There are many slice knots that are not the unknot (for instance, connecting a t
 
 **Why Alexander polynomial $$1$$ hurts.** Classical abelian and most metabelian sliceness obstructions vanish. For topological sliceness, Freedman’s disk theorem already gives the answer for such knots; the remaining drama is **smooth**.
 
-### Deep-Dive Explanation: Computing the Alexander–Conway Polynomial by Hand and Seeing the $$\Delta = 1$$ Blind Spot (Read Slowly)
+### Explanation: Computing the Alexander–Conway Polynomial by Hand and Seeing the $$\Delta = 1$$ Blind Spot
 
 To feel firsthand how a knot invariant catches (or misses!) non-slice knots, compute the **Conway polynomial $$\nabla_K(z)$$**—John Conway's streamlined normalization of the Alexander polynomial ($$\Delta_K(t) = \nabla_K(t^{1/2} - t^{-1/2})$$). Three elementary rules determine it completely:
 - $$\nabla_{\text{unknot}}(z) = 1$$;

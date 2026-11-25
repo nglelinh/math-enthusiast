@@ -16,7 +16,7 @@ Imagine tossing a fair coin for every integer from $$1$$ to $$1000$$ to decide w
 
 Modern mathematics pushes the paradox even further. Between rigid order and pure noise lies a fascinating middle country called **pseudorandomness**—completely deterministic objects (like the prime numbers) that pass battery after battery of statistical tests as if they had been rolled by dice. This studio invites you into a simulation lab to measure that boundary firsthand: when randomness erases structure, when density forces order to emerge, and why a slogan like *"randomness creates order"* only becomes real mathematics once you specify the scale and the test.
 
-**Lesson roadmap:** Background Knowledge Map (Erdős's probabilistic method, additive combinatorics & structure vs. pseudorandomness) → When randomness destroys vs. proves existence → Deep-Dive Explanation (Read Slowly): hand-counting 3-APs in $$\{1..10\}$$, building an AP-free base-3 set, and proving $$R(4,4) > 6$$ by expectation → Roth, Szemerédi & Green–Tao → Studio experiments & log.
+**Lesson roadmap:** Key ideas (Erdős's probabilistic method, additive combinatorics & structure vs. pseudorandomness) → When randomness destroys vs. proves existence → Explanation: hand-counting 3-APs in $$\{1..10\}$$, building an AP-free base-3 set, and proving $$R(4,4) > 6$$ by expectation → Roth, Szemerédi & Green–Tao → Studio experiments & log.
 
 ---
 
@@ -35,7 +35,7 @@ After this studio you should be able to:
 
 ---
 
-## Background Knowledge Map: What Are the Probabilistic Method and Additive Combinatorics?
+## Key ideas: What Are the Probabilistic Method and Additive Combinatorics?
 
 Most undergraduates learn probability as a tool for noisy data and combinatorics as counting permutations. In modern research, fusing the two created three vibrant pillars behind this studio:
 
@@ -76,7 +76,7 @@ Similarly, a random graph $$G(n,1/2)$$ almost surely has no independent set larg
 
 **Erdős’s probabilistic method:** to prove an object with property $$P$$ exists, define a random object and show $$\Pr[P]>0$$. The logic is ordinary finite probability theory: if every bad event is avoided on a set of positive probability, a good outcome sits in the sample space.
 
-#### Deep-Dive Explanation (Read Slowly): Hand-Checking 3-APs, an AP-Free Base-3 Set, and Ramsey $$R(4,4) > 6$$
+#### Explanation: Hand-Checking 3-APs, an AP-Free Base-3 Set, and Ramsey $$R(4,4) > 6$$
 
 Work through two short hand calculations to see structure, randomness, and probabilistic existence collide in real numbers:
 

@@ -21,7 +21,7 @@ Khám phá thực nghiệm táo bạo đó đã trở thành **Giả thuyết Bi
 
 Ý chính của BSD cùng chung một tinh thần sâu sắc với Giả thuyết Riemann: *giá trị đặc biệt của một hàm giải tích có thể "ghi nhớ" những bí mật số học tinh vi nhất.* Bài này không giả sử bạn đã học hình học đại số; chúng ta sẽ cùng đi từ trực giác hình học đến phát biểu chính xác, xem vì sao tính modular là bước ngoặt, và phân định rõ ranh giới giữa BSD với mật mã đường cong elliptic.
 
-**Mạch bài học:** Bản đồ kiến thức nền → đường cong elliptic & ví dụ nhân đôi điểm bằng tay → đếm nghiệm modulo $$p$$ bằng tay & hàm $$L$$ → khung giải thích chậm nối cục bộ với toàn cục → phát biểu BSD → vì sao khó & kết quả từng phần → ECC vs BSD.
+**Mạch bài học:** Kiến thức cần nhớ → đường cong elliptic & ví dụ nhân đôi điểm bằng tay → đếm nghiệm modulo $$p$$ bằng tay & hàm $$L$$ → khung giải thích chậm nối cục bộ với toàn cục → phát biểu BSD → vì sao khó & kết quả từng phần → ECC vs BSD.
 
 ---
 
@@ -43,7 +43,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Hình học đại số, Hình học số học và Hàm $$L$$ là gì?
+## Kiến thức cần nhớ: Hình học đại số, Hình học số học và Hàm $$L$$ là gì?
 
 Với người tốt nghiệp đại học đã quen đại số tuyến tính và giải tích, cụm từ *hình học đại số* hay *hình học số học* nghe có vẻ trừu tượng, nhưng thực ra chúng đứng trên ba trụ cột rất dễ nắm:
 
@@ -70,7 +70,7 @@ với $$A,B\in\mathbb{Q}$$ và biệt thức $$\Delta = -16(4A^3 + 27B^2) \neq 0
 
 Điều kỳ diệu khiến đường cong bậc ba trở thành "ngôi sao" của hình học số học là: tập các điểm hữu tỷ $$E(\mathbb{Q})$$, cùng với một **điểm ở vô cùng** $$\mathcal{O}$$ (đóng vai trò số 0), tạo thành một **nhóm abel** với **phép cộng dây cung–tiếp tuyến**. Quy tắc hình học cực kỳ đẹp mắt: kẻ đường thẳng đi qua hai điểm hữu tỷ $$P, Q$$; vì phương trình là bậc ba, đường thẳng này sẽ cắt đường cong tại đúng một điểm thứ ba $$R$$ (cũng có tọa độ hữu tỷ!); lấy đối xứng $$R$$ qua trục hoành $$x$$, ta được tổng $$P + Q$$. (Nếu $$P = Q$$, ta dùng tiếp tuyến tại $$P$$ để tính $$2P$$.)
 
-### Ví dụ cầm tay chỉ việc 1: Nhân đôi một điểm hữu tỷ trên $$y^2 = x^3 - 2$$
+### Ví dụ làm từng bước 1: Nhân đôi một điểm hữu tỷ trên $$y^2 = x^3 - 2$$
 
 Xét đường cong $$E: y^2 = x^3 - 2$$. Ta thấy ngay một điểm nguyên gọn gàng là $$P = (3, 5)$$, vì $$5^2 = 25 = 3^3 - 2$$. Hãy dùng phép tiếp tuyến để "nhân đôi" điểm $$P$$ thành $$2P$$:
 1. **Tìm hệ số góc tiếp tuyến:** Lấy đạo hàm ẩn hai vế $$2y\,y' = 3x^2 \implies m = \frac{3\cdot 3^2}{2\cdot 5} = \frac{27}{10}$$.
@@ -103,7 +103,7 @@ Với ví dụ $$y^2=x^3-2$$ ở trên, vì $$P=(3,5)$$ có cấp vô hạn nên
 
 ## 2. Hàm $$L$$ của đường cong elliptic
 
-### Ví dụ cầm tay chỉ việc 2: Đếm nghiệm modulo $$p$$ bằng tay trên $$y^2 = x^3 - 2$$
+### Ví dụ làm từng bước 2: Đếm nghiệm modulo $$p$$ bằng tay trên $$y^2 = x^3 - 2$$
 
 Tìm điểm hữu tỷ trên $$\mathbb{Q}$$ là bài toán toàn cục cực khó, nhưng đếm điểm **modulo một số nguyên tố $$p$$** thì hoàn toàn hữu hạn và làm được ngay bằng bút chì! Hãy thử trên chính $$E: y^2 = x^3 - 2$$ với $$p = 5$$ và $$p = 7$$:
 
@@ -126,7 +126,7 @@ $$
 L(E, s) = \prod_{p \text{ xấu}} (\text{nhân tử xấu}) \cdot \prod_{p \text{ tốt}} \frac{1}{1 - a_p p^{-s} + p^{1-2s}}.
 $$
 
-### Khung giải thích: Vì sao đếm nghiệm modulo $$p$$ lại "tiết lộ" số nghiệm hữu tỷ? (nên đọc chậm)
+### Giải thích: Vì sao đếm nghiệm modulo $$p$$ lại "tiết lộ" số nghiệm hữu tỷ?
 
 Làm sao việc đếm số nghiệm chia dư theo từng số nguyên tố riêng lẻ lại biết được đường cong có bao nhiêu nghiệm hữu tỷ độc lập trên $$\mathbb{Q}$$? Hãy đọc chậm chuỗi 4 bước này:
 

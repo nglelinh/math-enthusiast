@@ -16,7 +16,7 @@ On the surface, airline scheduling, hospital shifts, delivery routing, and train
 
 ---
 
-## Background Knowledge Map: What Is Mathematical Optimization and What Does It Study?
+## Key ideas: What Is Mathematical Optimization and What Does It Study?
 
 In high school, minimizing $$f(x)$$ meant setting $$f'(x)=0$$ and checking signs. In the real world, $$f$$ can have **millions of variables**, sharp non-differentiable corners, thousands of **inequality constraints**, or **integer requirements** (you cannot dispatch 1.4 airplanes!).
 
@@ -166,7 +166,7 @@ For flows, max-flow min-cut is a duality theorem in combinatorial clothing.
 
 ---
 
-### Deep-Dive Explanation: A 4-Step Playbook—Plus Solving a Primal–Dual LP with Shadow Prices by Hand (Read Slowly)
+### Explanation: A 4-Step Playbook—Plus Solving a Primal–Dual LP with Shadow Prices by Hand
 
 Whenever you face an optimization problem in engineering or AI, follow four steps—and see how **duality certifies optimality** on a concrete 2-variable Linear Program:
 

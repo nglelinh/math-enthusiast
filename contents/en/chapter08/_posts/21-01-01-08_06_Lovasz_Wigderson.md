@@ -19,7 +19,7 @@ In **2021**, the **Abel Prize** was awarded jointly to **László Lovász** and 
 
 From the Lovász Local Lemma and LLL lattice reduction to Wigderson’s revolution in derandomization, zero-knowledge proofs, and expander graphs, these two careers moved discrete mathematics and theoretical computer science (TCS) straight into the center of modern mathematics—right next to [P vs NP]({{ site.baseurl }}/contents/en/chapter01/01_03_P_vs_NP/), even while that million-dollar problem remains open. Official materials: [abelprize.no](https://abelprize.no/).
 
-**Lesson arc:** Background Knowledge Map (discrete mathematics, complexity theory, hardness as a resource) → Lovász and the Local Lemma → Deep-Dive Explanation: comparing the Union Bound vs. the Lovász Local Lemma on $$10$$-SAT and computing graph spectral gaps by hand → Wigderson, derandomization, and expanders → Beside P vs NP and common confusions.
+**Lesson arc:** Key ideas (discrete mathematics, complexity theory, hardness as a resource) → Lovász and the Local Lemma → Explanation: comparing the Union Bound vs. the Lovász Local Lemma on $$10$$-SAT and computing graph spectral gaps by hand → Wigderson, derandomization, and expanders → Beside P vs NP and common confusions.
 
 ---
 
@@ -31,7 +31,7 @@ After this lecture you should be able to explain why discrete math/TCS earned an
 
 ---
 
-## Background Knowledge Map: What Are Discrete Mathematics and Computational Complexity Theory, and What Do They Study?
+## Key ideas: What Are Discrete Mathematics and Computational Complexity Theory, and What Do They Study?
 
 While calculus and differential geometry study the **continuous** world (smooth curves, flows, derivatives), the two fields of Lovász and Wigderson study the **discrete** world—with structural depth every bit as profound:
 
@@ -70,7 +70,7 @@ $$
 
 Union bounds collapse when $$m$$ is huge; full independence fails when events overlap. The local lemma thrives right in the realistic middle regime: **limited dependence**.
 
-### Deep-Dive Explanation: Union Bound vs. Lovász Local Lemma and Graph Spectral Gaps by Hand (Read Slowly)
+### Explanation: Union Bound vs. Lovász Local Lemma and Graph Spectral Gaps by Hand
 
 #### Example 1: Where the Union Bound collapses and the Local Lemma wins decisively
 Consider a massive **$$10$$-SAT** Boolean formula with $$m = 1{,}000{,}000$$ clauses, where each clause is the OR of $$k = 10$$ literals, and each clause shares variables with at most $$d = 300$$ other clauses. Assign every variable True/False independently with probability $$1/2$$.

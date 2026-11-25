@@ -13,7 +13,7 @@ Hãy tưởng tượng bạn là một phi hành gia lái tàu vũ trụ khám p
 
 Năm 1904, **Henri Poincaré** đặt ra câu hỏi đánh lừa bởi vẻ ngắn gọn đó vào thuở sơ khai của tôpô đại số. Suốt gần một thế kỷ, nó thách thức mọi thế hệ nhà tôpô và trở thành một trong bảy **Bài toán Thiên niên kỷ** trị giá một triệu đô la của Viện Clay. Thế rồi vào các năm 2002–2003, nhà toán học ẩn dật người Nga **Grigori Perelman** đăng tải ba bản thảo ngắn gọn lên arXiv, khép lại bài toán bằng cách hoàn thiện **dòng Ricci có phẫu thuật** theo chương trình của **Richard Hamilton** — cho hình học của vũ trụ tự "chảy" và làm phẳng giống như nhiệt khuếch tán qua kim loại! (Viện Clay trao giải năm 2010; Perelman từ chối cả giải thưởng triệu đô lẫn Huy chương Fields.)
 
-**Mạch bài học:** Bản đồ kiến thức nền (tôpô học, đa tạp 3 chiều, hình học Riemann & dòng Ricci) → Mặt cầu, vòng dây và nghịch lý chiếc bánh donut → Nghịch lý số chiều (vì sao chiều 5 giải trước chiều 3?) → Khung giải thích chậm: tự tay giải phương trình dòng Ricci trên mặt cầu $$S^3$$ và hình trụ $$S^2 \times \mathbb{R}$$ để thấy kỳ dị thắt cổ chai → Đóng góp của Perelman và Giả thuyết hình học hóa Thurston.
+**Mạch bài học:** Kiến thức cần nhớ (tôpô học, đa tạp 3 chiều, hình học Riemann & dòng Ricci) → Mặt cầu, vòng dây và nghịch lý chiếc bánh donut → Nghịch lý số chiều (vì sao chiều 5 giải trước chiều 3?) → Giải thích: tự tay giải phương trình dòng Ricci trên mặt cầu $$S^3$$ và hình trụ $$S^2 \times \mathbb{R}$$ để thấy kỳ dị thắt cổ chai → Đóng góp của Perelman và Giả thuyết hình học hóa Thurston.
 
 ---
 
@@ -32,7 +32,7 @@ Sau bài này, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Tôpô học, Đa tạp 3 chiều và Giải tích hình học (Dòng Ricci) là gì?
+## Kiến thức cần nhớ: Tôpô học, Đa tạp 3 chiều và Giải tích hình học (Dòng Ricci) là gì?
 
 Để người tốt nghiệp đại học không bị choáng ngợp bởi thuật ngữ "đa tạp", "đơn liên" hay "tenxơ Ricci", hãy nhìn qua ba trụ cột cốt lõi của bài toán:
 
@@ -72,7 +72,7 @@ Vì sao chiều 3 lại ngoan cố đến thế? Ở chiều $$\ge 5$$, không g
 
 ---
 
-## 3. Khung giải thích: tự tay giải phương trình Dòng Ricci trên mặt cầu $$S^3$$ và hình trụ $$S^2 \times \mathbb{R}$$ (nên đọc chậm)
+## 3. Giải thích: tự tay giải phương trình Dòng Ricci trên mặt cầu $$S^3$$ và hình trụ $$S^2 \times \mathbb{R}$$
 
 Phương trình dòng Ricci của Hamilton trông rất đáng sợ:
 

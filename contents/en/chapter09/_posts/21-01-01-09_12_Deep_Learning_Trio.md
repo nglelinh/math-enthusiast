@@ -25,7 +25,7 @@ After this lecture you should be able to write a layer map $$x\mapsto\sigma(Wx+b
 
 ---
 
-## Background Knowledge Map: What Are Deep Learning and Representation Learning?
+## Key ideas: What Are Deep Learning and Representation Learning?
 
 Strip away the "artificial brain" metaphor, and to a university graduate a deep neural network is the marriage of three familiar mathematical subjects: **Linear Algebra**, **Multivariable Calculus**, and **Stochastic Optimization**.
 
@@ -118,7 +118,7 @@ Slide $$K$$ across all four $$2 \times 2$$ windows of $$X$$ and sum elementwise 
 
 The resulting feature map is $$\begin{pmatrix} 0 & 20 \\ 0 & 20 \end{pmatrix}$$: using just **4 shared weights**, the filter automatically flags the vertical light–dark boundary wherever it appears.
 
-### Deep-Dive Explanation: Why "Depth + Nonlinearity + Weight Sharing" Sparked a Revolution (Read Slowly)
+### Explanation: Why "Depth + Nonlinearity + Weight Sharing" Sparked a Revolution
 
 1. **Nonlinearity saves depth from collapsing:** without a nonlinear activation (like ReLU in Part A), 100 stacked matrix multiplications collapse into a single linear matrix—depth buys nothing. ReLU folds space at every layer, letting the number of linear regions grow exponentially with depth.
 2. **Backprop turns the chain rule into linear-time accounting:** instead of perturbing each weight separately (millions of forward passes), the backward pass reuses cached activations $$a_1, z_1$$ to compute *every* gradient in one sweep.

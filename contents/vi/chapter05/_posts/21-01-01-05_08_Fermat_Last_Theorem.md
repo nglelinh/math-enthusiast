@@ -21,7 +21,7 @@ Dòng ghi chú bên lề ấy đã ám ảnh nhân loại suốt **358 năm**. H
 
 **Phương trình Diophantine → đường cong elliptic Frey → tính modular → mâu thuẫn.**
 
-**Mạch bài học:** Bản đồ kiến thức nền (lý thuyết số đại số, đường cong elliptic, dạng modular và Chương trình Langlands) → Từ bộ ba Pythagore đến bức tường bậc 3 → Vì sao phương pháp sơ cấp bế tắc → Khung giải thích chậm: tự tay đếm điểm trên đường cong elliptic modulo $$5$$ và giải phẫu chiếc gọng kìm Frey–Ribet–Wiles → Ghi công và ý nghĩa lịch sử.
+**Mạch bài học:** Kiến thức cần nhớ (lý thuyết số đại số, đường cong elliptic, dạng modular và Chương trình Langlands) → Từ bộ ba Pythagore đến bức tường bậc 3 → Vì sao phương pháp sơ cấp bế tắc → Giải thích: tự tay đếm điểm trên đường cong elliptic modulo $$5$$ và giải phẫu chiếc gọng kìm Frey–Ribet–Wiles → Ghi công và ý nghĩa lịch sử.
 
 ---
 
@@ -40,7 +40,7 @@ Sau bài này, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết số đại số, Đường cong elliptic và Chương trình Langlands là gì?
+## Kiến thức cần nhớ: Lý thuyết số đại số, Đường cong elliptic và Chương trình Langlands là gì?
 
 Vì sao một phương trình lớp 6 lại phải huy động đến toán học đỉnh cao cuối thế kỷ XX? Hãy nhìn lên bản đồ ba trụ cột giúp người tốt nghiệp đại học nắm trọn "vũ trụ" phía sau chứng minh của Wiles:
 
@@ -83,7 +83,7 @@ Phương trình thì đơn giản, nhưng việc chứng minh tập nghiệm r�
 
 ---
 
-## 3. Khung giải thích: tự tay đếm điểm đường cong elliptic modulo $$5$$ và giải phẫu bẫy Frey–Ribet–Wiles (nên đọc chậm)
+## 3. Giải thích: tự tay đếm điểm đường cong elliptic modulo $$5$$ và giải phẫu bẫy Frey–Ribet–Wiles
 
 Để cụm từ *"dấu vân tay số học của đường cong elliptic"* và *"hạ level"* không còn là hộp đen mơ hồ, hãy tự tay kiểm tra từng bước nhỏ sau:
 

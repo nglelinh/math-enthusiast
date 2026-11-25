@@ -36,7 +36,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Are Dynamical Systems, Renormalization & Cocycles?
+## Key ideas: What Are Dynamical Systems, Renormalization & Cocycles?
 
 If you met differential equations and linear algebra at university, you already hold the starting keys to Avila’s world.
 
@@ -117,7 +117,7 @@ In 2009 (*Annals of Mathematics*), **Artur Avila and Svetlana Jitomirskaya** sol
 
 ---
 
-### Deep-Dive Explanation: How Renormalization Unifies Avila’s Three Worlds (Read Slowly)
+### Explanation: How Renormalization Unifies Avila’s Three Worlds
 
 Why did the IMU call renormalization a **unifying principle** across Avila’s work? Follow the four-step logic connecting three seemingly separate fields:
 

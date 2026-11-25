@@ -17,7 +17,7 @@ This flagship lecture maps the mathematics under the hood of deep learning and t
 
 ---
 
-## Background Knowledge Map: What Is the Mathematics of AI and What Does It Study?
+## Key ideas: What Is the Mathematics of AI and What Does It Study?
 
 If you took linear algebra, multivariable calculus, and probability at university, you already hold the three main keys to the mathematics of AI. Rather than a single isolated branch, **Mathematics of AI** sits at the intersection of four core questions:
 
@@ -100,7 +100,7 @@ Backpropagation is the chain rule organized for computational graphs: automatic 
 
 ---
 
-### Deep-Dive Explanation: One Forward Pass, Loss, and Backprop Step by Hand (Read Slowly)
+### Explanation: One Forward Pass, Loss, and Backprop Step by Hand
 
 Backpropagation often feels like a black box inside PyTorch. In reality, it is just the multivariable chain rule organized cleanly on concrete numbers. Let us trace one complete training step by hand on a tiny 2-layer ReLU network with **input** $$x = \begin{pmatrix}1\\-2\end{pmatrix}$$, **target** $$y = 4$$, and activation $$\mathrm{ReLU}(z) = \max(0, z)$$.
 

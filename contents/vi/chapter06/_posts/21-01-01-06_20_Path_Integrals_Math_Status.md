@@ -19,7 +19,7 @@ $$
 
 ---
 
-## Bản đồ kiến thức nền: Tích phân hàm, Độ đo vô hạn chiều và Giải tích tiệm cận nghiên cứu những gì?
+## Kiến thức cần nhớ: Tích phân hàm, Độ đo vô hạn chiều và Giải tích tiệm cận nghiên cứu những gì?
 
 Khi "biến lấy tích phân" không còn là một điểm $$x \in \mathbb{R}^n$$ mà là **cả một đường cong liên tục** $$q: [0,T] \to \mathbb{R}^d$$, ta bước vào ba mảng toán học giao thoa với nhau:
 
@@ -51,7 +51,7 @@ Sau bài học, bạn có thể:
 
 Paul Dirac (thập niên 1930) nhận thấy biên độ chuyển trạng thái trong khoảng thời gian vô cùng ngắn $$\varepsilon$$ tỉ lệ với $$\exp\!\big(\tfrac{i}{\hbar}\varepsilon L(q, \dot{q})\big)$$, trong đó $$L$$ là hàm Lagrange cổ điển. Richard Feynman (1948) biến nhận xét ngắn ngủi đó thành một cách trình bày hoàn chỉnh của cơ học lượng tử: chia khoảng thời gian $$[t_i, t_f]$$ thành $$N$$ đoạn nhỏ $$\varepsilon = (t_f - t_i)/N$$, chèn phép lấy tích phân theo mọi vị trí trung gian $$q_1, q_2, \dots, q_{N-1}$$ (nối thành một đường gấp khúc), rồi cho $$N \to \infty$$. Khi cả hai phía đều được định nghĩa tốt, cách nhìn này dẫn lại đúng phương trình Schrödinger.
 
-### Khung giải thích: cắt lát thời gian và lấy tổng mọi đường đi bằng tay (nên đọc chậm)
+### Giải thích: cắt lát thời gian và lấy tổng mọi đường đi bằng tay
 
 Để cảm nhận tận tay tích phân đường không hề là "ảo thuật", hãy tự tính biên độ chuyển động của một hạt tự do (khối lượng $$m=1, \hbar=1$$) trong thời gian ảo (Euclid) đi từ $$q_0 = 0$$ tại $$\tau = 0$$ đến $$q_2 = x$$ tại $$\tau = 2\varepsilon$$, chỉ với **1 điểm trung gian** $$q_1 \in \mathbb{R}$$ (tức mọi đường gấp khúc 2 đoạn nối $$0 \to q_1 \to x$$):
 

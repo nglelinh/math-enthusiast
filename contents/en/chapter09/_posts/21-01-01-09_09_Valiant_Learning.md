@@ -25,7 +25,7 @@ After this lecture you should be able to explain the PAC learning slogan—retur
 
 ---
 
-## Background Knowledge Map: What Are Computational Learning Theory (PAC) and Counting Complexity (#P)?
+## Key ideas: What Are Computational Learning Theory (PAC) and Counting Complexity (#P)?
 
 Valiant's two most celebrated breakthroughs sit in seemingly distant corners yet orbit the exact same question: *where does the frontier of efficient computation lie?*
 
@@ -44,7 +44,7 @@ The power is in the **quantifiers**: for every target in the class, for every di
 
 PAC turned learning into something you can *prove theorems about*: which concept classes are efficiently learnable, which require exponential samples, which become hard under cryptographic assumptions, and how complexity of the hypothesis class governs sample size.
 
-### Deep-Dive Explanation: Understanding PAC Learning and Its Boundary with Deep Learning (Read Slowly)
+### Explanation: Understanding PAC Learning and Its Boundary with Deep Learning
 
 1. **Accept two unavoidable relaxations ($$\varepsilon, \delta$$):** because training data is a finite random draw, no learner can guarantee 0% error with 100% certainty; we promise error $$\le \varepsilon$$ with confidence $$\ge 1-\delta$$.
 2. **Separate two bottlenecks—samples (statistics) vs. runtime (algorithms):** finite VC dimension guarantees that *enough samples* make empirical risk minimization generalize, yet actually *finding* that empirical minimizer in polynomial time can still be NP-hard!

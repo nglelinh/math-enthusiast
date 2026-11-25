@@ -14,7 +14,7 @@ After touring more than thirty Fields Medal portraits—from exotic four-manifol
 
 This optional note bridges those three live engineering landings while keeping attribution crystal clear: **the Fields Medal work made the mathematical objects sharp; the computer-science systems make them cheap enough to run at scale.**
 
-**Lesson roadmap:** Background Knowledge Map (how pure mathematical objects turn into computational problems) → Hand-verifiable worked examples (a toy Module-LWE sample mod $$17$$ and the random $$3$$-SAT phase transition near $$\alpha_c \approx 4.26$$) → Deep-Dive Explanation (Read Slowly): three 2022–2026 CS deployments (Neural OT, NIST FIPS 203 ML-KEM, SAT & GraphGPS) → Boundaries between theorems and engineering approximations.
+**Lesson roadmap:** Key ideas (how pure mathematical objects turn into computational problems) → Hand-verifiable worked examples (a toy Module-LWE sample mod $$17$$ and the random $$3$$-SAT phase transition near $$\alpha_c \approx 4.26$$) → Explanation: three 2022–2026 CS deployments (Neural OT, NIST FIPS 203 ML-KEM, SAT & GraphGPS) → Boundaries between theorems and engineering approximations.
 
 ---
 
@@ -31,7 +31,7 @@ After this optional note you should be able to:
 
 ---
 
-## Background Knowledge Map: How Three Pure Mathematical Objects Become Computational Systems
+## Key ideas: How Three Pure Mathematical Objects Become Computational Systems
 
 ### 1. Optimal transport in deep learning
 In pure analysis (Figalli, Brenier, Caffarelli), one seeks a coupling $$\pi$$ minimizing $$\int c(x,y)\,d\pi$$ between two densities $$\mu, \nu$$ and asks when the optimizer is a smooth map $$T = \nabla\phi$$. In **machine learning**, we only have two unpaired datasets in tens of thousands of dimensions (say, photographs of faces and oil paintings). Instead of solving the Monge–Ampère PDE directly, practitioners train **neural networks** to parameterize the transport map or plan.
@@ -74,7 +74,7 @@ Generate $$m$$ random clauses of the form $$(x_i \lor \neg x_j \lor x_k)$$ over 
 
 ---
 
-## 2. Deep-Dive Explanation: Three 2022–2026 Computer-Science Landings (Read Slowly)
+## 2. Explanation: Three 2022–2026 Computer-Science Landings
 
 Examine three concrete 2022–2026 systems to see both the mathematical lineage and the attribution boundary:
 

@@ -19,7 +19,7 @@ In 1975, physicist C. N. Yang chatted with geometer Shiing-Shen Chern at Stony B
 
 Yet not every row across the physics–math bridge is a settled theorem. Some rows are completely rigorous (like quantum observables as self-adjoint operators on Hilbert space), while others predict experimental numbers to ten decimal places even though mathematics still cannot rigorously construct the underlying measure (like 4D Feynman path integrals or the million-dollar Yang–Mills mass gap). This studio trains the core Bridge craft: **one mechanism, two languages, honest status labels.**
 
-**Lesson roadmap:** Background Knowledge Map (two-way mathematical physics: rigorous foundations ↔ geometric inspiration) → Deep-Dive Explanation (Read Slowly): reading a $$2 \times 2$$ Hamiltonian matrix in both languages → Seed pairs table → Studio tasks & log.
+**Lesson roadmap:** Key ideas (two-way mathematical physics: rigorous foundations ↔ geometric inspiration) → Explanation: reading a $$2 \times 2$$ Hamiltonian matrix in both languages → Seed pairs table → Studio tasks & log.
 
 ---
 
@@ -37,7 +37,7 @@ After this studio you should be able to:
 
 ---
 
-## Background Knowledge Map: What Is Modern Mathematical Physics and What Does It Study?
+## Key ideas: What Is Modern Mathematical Physics and What Does It Study?
 
 Many university graduates assume "mathematical physics" just means using calculus to solve physics homework. In reality, modern **Mathematical Physics** is a dramatic two-way conversation resting on three pillars:
 
@@ -55,7 +55,7 @@ Since the 1980s (Edward Witten, Simon Donaldson, Nathan Seiberg…), traffic has
 
 ---
 
-### Deep-Dive Explanation (Read Slowly): Reading One Mechanism in Two Languages on a $$2 \times 2$$ Matrix
+### Explanation: Reading One Mechanism in Two Languages on a $$2 \times 2$$ Matrix
 
 To see the difference between copying jargon and understanding a *mechanism*, check this 2-state quantum system (qubit) with energy operator (Hamiltonian):
 

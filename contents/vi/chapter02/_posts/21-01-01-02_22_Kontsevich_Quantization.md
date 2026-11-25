@@ -20,7 +20,7 @@ categories:
 
 Vì Kontsevich (sinh năm 1964, giáo sư thường trực tại IHÉS) sau này còn nổi tiếng với hàng loạt chương trình lớn như **đối xứng gương đồng điều** (HMS), tích phân motivic hay hiện tượng vượt tường (*wall-crossing*), người đọc ngày nay rất dễ nhầm danh sách. Bài học này bám sát đúng **ba cột mốc của lời trao giải năm 1998**, đồng thời đặt đối xứng gương đồng điều đúng chỗ: một tầm nhìn lớn từ ICM 1994, không phải kết quả thứ ba của giải Fields 1998.
 
-**Mạch bài học:** Bản đồ kiến thức nền (đa tạp Poisson, không gian moduli $$\overline{\mathcal{M}}_{g,n}$$, bất biến nút Vassiliev) → Ví dụ cầm tay chỉ việc: tính tích sao Moyal cho $$q \star p$$ và $$q^2 \star p^2$$ → Giả thuyết Witten & Tích phân Kontsevich → Khung giải thích chậm: Định lý hình thức (Formality) và công thức đồ thị cho lượng tử hóa biến dạng → Đối xứng gương đồng điều (1994) & phân biệt với giải năm 1998.
+**Mạch bài học:** Kiến thức cần nhớ (đa tạp Poisson, không gian moduli $$\overline{\mathcal{M}}_{g,n}$$, bất biến nút Vassiliev) → Ví dụ làm từng bước: tính tích sao Moyal cho $$q \star p$$ và $$q^2 \star p^2$$ → Giả thuyết Witten & Tích phân Kontsevich → Giải thích: Định lý hình thức (Formality) và công thức đồ thị cho lượng tử hóa biến dạng → Đối xứng gương đồng điều (1994) & phân biệt với giải năm 1998.
 
 ---
 
@@ -41,7 +41,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lượng tử hóa biến dạng, Không gian moduli và Lý thuyết nút nghiên cứu gì?
+## Kiến thức cần nhớ: Lượng tử hóa biến dạng, Không gian moduli và Lý thuyết nút nghiên cứu gì?
 
 ### 1. Lượng tử hóa biến dạng (Deformation Quantization) là gì?
 Trong cơ học cổ điển, các đại lượng vật lý là hàm trơn $$f(q,p), g(q,p)$$ trên **không gian pha** với phép nhân giao hoán thông thường $$fg = gf$$ và một **móc Poisson** phản đối xứng $$\{f, g\}$$ thỏa đồng nhất thức Jacobi và quy tắc Leibniz (không gian trang bị móc như vậy gọi là **đa tạp Poisson**). Sang cơ học lượng tử, vị trí và động lượng không giao hoán nữa: $$[\hat{q}, \hat{p}] = i\hbar$$. **Lượng tử hóa biến dạng** đặt câu hỏi đại số: *liệu có thể biến dạng phép nhân giao hoán $$fg$$ thành một **tích sao** $$f \star g = fg + \hbar B_1(f,g) + \hbar^2 B_2(f,g) + \cdots$$ vẫn có tính **kết hợp**, sao cho $$f\star g - g\star f = i\hbar\{f,g\} + O(\hbar^2)$$ hay không?*
@@ -54,7 +54,7 @@ Một **nút** là vòng dây khép kín trong $$\mathbb{R}^3$$. **Vassiliev** p
 
 ---
 
-## 1. Ví dụ cầm tay chỉ việc: tự tính tích sao Moyal và số giao trên $$\overline{\mathcal{M}}_{g,n}$$
+## 1. Ví dụ làm từng bước: tự tính tích sao Moyal và số giao trên $$\overline{\mathcal{M}}_{g,n}$$
 
 ### Ví dụ 1: Tích sao Moyal trên mặt phẳng pha $$\mathbb{R}^2$$ với tọa độ $$(q, p)$$
 Trên $$\mathbb{R}^2$$ với móc Poisson chuẩn $$\{f, g\} = \frac{\partial f}{\partial q}\frac{\partial g}{\partial p} - \frac{\partial f}{\partial p}\frac{\partial g}{\partial q}$$ (đặc biệt $$\{q, p\} = 1$$), **tích sao Moyal** được viết gọn bằng toán tử vi phân:
@@ -93,7 +93,7 @@ Các số giao tautological trên $$\overline{\mathcal{M}}_{g,n}$$ được đ�
 
 ---
 
-## 3. Khung giải thích: Định lý hình thức (Formality) và lượng tử hóa mọi đa tạp Poisson (nên đọc chậm)
+## 3. Giải thích: Định lý hình thức (Formality) và lượng tử hóa mọi đa tạp Poisson
 
 Tại sao bài toán lượng tử hóa biến dạng cho đa tạp **Poisson tổng quát** lại đứng vững suốt 20 năm sau khi De Wilde–Lecomte (1983) và Fedosov (1994) đã giải xong cho đa tạp symplectic? Dưới đây là 4 bước đột phá của Kontsevich (bản thảo 1997, arXiv:q-alg/9709040; *Lett. Math. Phys.* 2003):
 

@@ -17,7 +17,7 @@ Bài này phác họa bản đồ các lớp độ phức tạp và ý tưởng 
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết độ phức tạp là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Lý thuyết độ phức tạp là gì và nghiên cứu những gì?
 
 Nếu khoa học máy tính ứng dụng hỏi *"làm sao viết chương trình chạy nhanh hơn?"*, thì **Lý thuyết Độ phức tạp Tính toán** (Computational Complexity Theory) hỏi câu hỏi ngược lại — và khó hơn nhiều: *"làm sao chứng minh rằng KHÔNG CÓ chương trình nào trên đời chạy nhanh hơn một ngưỡng nhất định?"*
 
@@ -81,7 +81,7 @@ $$A$$ quy dẫn Karp về $$B$$ nếu có hàm $$f$$ tính được trong thời
 
 ---
 
-### Khung giải thích: tự tay kiểm chứng 3-SAT và quy dẫn sang Tập độc lập (nên đọc chậm)
+### Giải thích: tự tay kiểm chứng 3-SAT và quy dẫn sang Tập độc lập
 
 Câu nói *"mọi bài toán trong NP đều quy dẫn được về bài toán khác bằng các mảnh ghép (gadget)"* nghe rất trừu tượng. Hãy tự tay dựng một phép quy dẫn thật từ bài toán logic **3-SAT** sang bài toán đồ thị **Tập độc lập** (*Independent Set* — tìm $$k$$ đỉnh đôi một không có cạnh nối).
 

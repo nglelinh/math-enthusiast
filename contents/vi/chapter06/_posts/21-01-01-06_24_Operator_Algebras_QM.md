@@ -15,7 +15,7 @@ Trong cơ học lượng tử cho một hạt hay một vài qubit, mọi thứ 
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết Đại số toán tử đứng trên ba trụ cột nào?
+## Kiến thức cần nhớ: Lý thuyết Đại số toán tử đứng trên ba trụ cột nào?
 
 Ở đại học, bạn đã quen với tập $$M_n(\mathbb{C})$$ các ma trận vuông $$n \times n$$: ta cộng được, nhân được (không giao hoán), lấy chuyển vị liên hợp $$A \mapsto A^*$$, và đo kích thước bằng chuẩn toán tử $$\|A\|$$. **Lý thuyết đại số toán tử** mở rộng giải tích ma trận sang vô hạn chiều qua ba trụ cột:
 
@@ -91,7 +91,7 @@ $$
 \omega(a) = \langle \pi_\omega(a)\Omega, \Omega \rangle.
 $$
 
-### Khung giải thích: tự tay chạy phép dựng GNS trên $$M_2(\mathbb{C})$$ (nên đọc chậm)
+### Giải thích: tự tay chạy phép dựng GNS trên $$M_2(\mathbb{C})$$
 
 Phép dựng GNS nghe rất trừu tượng, nhưng trên đại số ma trận $$2\times 2$$ là $$\mathcal{A} = M_2(\mathbb{C})$$, bạn có thể làm từng bước bằng tay trong 4 dòng:
 

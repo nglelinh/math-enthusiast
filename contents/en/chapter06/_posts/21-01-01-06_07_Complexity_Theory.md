@@ -17,7 +17,7 @@ This lecture maps the landscape of **P**, **NP**, NP-completeness, randomness, i
 
 ---
 
-## Background Knowledge Map: What Is Complexity Theory and What Does It Study?
+## Key ideas: What Is Complexity Theory and What Does It Study?
 
 Whereas practical computer science asks *“how do I write a faster program?”*, **Computational Complexity Theory** asks the far harder converse: *“how do we prove that NO program can solve this problem faster than a given bound?”* It stands on **four pillars**:
 
@@ -71,7 +71,7 @@ A language $$A$$ **reduces** to $$B$$ in polynomial time (Karp reduction) if the
 
 ---
 
-### Deep-Dive Explanation: Verifying 3-SAT and Reducing It to Independent Set by Hand (Read Slowly)
+### Explanation: Verifying 3-SAT and Reducing It to Independent Set by Hand
 
 Hearing that “every problem in NP reduces to another via local gadgets” can feel mysterious until you build a real reduction yourself. Let us reduce a concrete **3-SAT** formula to the graph problem **Independent Set** (finding $$k$$ vertices with no edges between them).
 

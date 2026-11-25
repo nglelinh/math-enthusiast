@@ -16,7 +16,7 @@ In the late nineteenth century, when most mathematicians still treated "infinity
 
 Popular-science riddles like *"Is infinity plus one bigger than infinity?"* or *"Are there half as many even numbers as integers?"* sound paradoxical only because one word—"infinity"—is doing four different jobs at once: potential infinity in calculus, cardinals for size, ordinals for order, and points at infinity in projective geometry. This studio puts Cantor's measuring stick directly in your hands: you will build explicit bijections, run the diagonal argument on paper, and dissolve famous paradoxes with exact definitions.
 
-**Lesson roadmap:** Background Knowledge Map (set theory, ZFC axioms & cardinals vs. ordinals) → Potential vs. actual infinity → Deep-Dive Explanation (Read Slowly): hand-checking Cantor's pairing function $$\pi(i,j)$$ and a $$5\times 5$$ binary diagonal table → Hilbert's Hotel & the Continuum Hypothesis → Studio experiments & log.
+**Lesson roadmap:** Key ideas (set theory, ZFC axioms & cardinals vs. ordinals) → Potential vs. actual infinity → Explanation: hand-checking Cantor's pairing function $$\pi(i,j)$$ and a $$5\times 5$$ binary diagonal table → Hilbert's Hotel & the Continuum Hypothesis → Studio experiments & log.
 
 ---
 
@@ -35,7 +35,7 @@ After this studio you should be able to:
 
 ---
 
-## Background Knowledge Map: What Are Set Theory and the Foundations of Mathematics?
+## Key ideas: What Are Set Theory and the Foundations of Mathematics?
 
 Every branch of university mathematics—analysis, linear algebra, probability—rests on a single basement floor: **Set Theory** and **Mathematical Logic**. This field is built on three major pillars:
 
@@ -81,7 +81,7 @@ A set is **countably infinite** if it is equinumerous with $$\mathbb{N}=\{0,1,2,
 
 **Cantor’s diagonal argument.** Suppose $$f:\mathbb{N}\to\{0,1\}^{\mathbb{N}}$$ listed all infinite binary sequences. Build $$s$$ with $$s_n=1-f(n)_n$$. Then $$s$$ differs from every listed sequence at its own index. Hence $$\{0,1\}^{\mathbb{N}}$$ (and $$\mathbb{R}$$) is **uncountable**.
 
-#### Deep-Dive Explanation (Read Slowly): Hand-Checking Cantor's Pairing Function and a $$5\times 5$$ Diagonal Table
+#### Explanation: Hand-Checking Cantor's Pairing Function and a $$5\times 5$$ Diagonal Table
 
 Make Cantor's arguments completely tangible with two quick hand checks:
 

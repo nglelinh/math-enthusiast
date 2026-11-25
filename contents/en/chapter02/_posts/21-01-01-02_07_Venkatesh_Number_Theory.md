@@ -40,7 +40,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Are the Fields Behind Venkatesh’s Work?
+## Key ideas: What Are the Fields Behind Venkatesh’s Work?
 
 If you graduated in engineering, computer science, or mathematics, you may have met linear algebra, differential equations, and Fourier transforms—yet never seen how they fuse into modern number theory. Venkatesh’s work sits at the intersection of three major disciplines.
 
@@ -181,7 +181,7 @@ Venkatesh’s breakthrough in **sparse equidistribution** showed that even when 
 
 ---
 
-### Deep-Dive Explanation: How Venkatesh Turns Number Theory into Dynamics (Read Slowly)
+### Explanation: How Venkatesh Turns Number Theory into Dynamics
 
 Why does a question about prime numbers or $$L$$-functions suddenly yield to matrix flows on $$\mathrm{SL}_n(\mathbb{R})/\mathrm{SL}_n(\mathbb{Z})$$? Follow the four-step engine below slowly:
 

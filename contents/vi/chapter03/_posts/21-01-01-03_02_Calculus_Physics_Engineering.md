@@ -36,7 +36,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Giải tích và giải tích vectơ là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Giải tích và giải tích vectơ là gì, nghiên cứu những gì?
 
 Khi rời khỏi phổ thông, nhiều người nhớ giải tích như một loạt bài tập tìm cực trị hàm bậc ba hay tính diện tích hình phẳng. Nhưng ở tầm đại học và trong khoa học tự nhiên, **giải tích (calculus / mathematical analysis)** là ngành toán học nghiên cứu **sự thay đổi liên tục** và **cách cộng dồn vô hạn những mảnh vô cùng nhỏ**.
 
@@ -228,7 +228,7 @@ chính là nghiệm của phương trình Laplace $$\Delta u = 0$$ (với giả 
 
 Các phần mềm mô phỏng cơ khí như ANSYS, Abaqus hay COMSOL hoạt động thế nào khi tính xem một cánh máy bay có bị gãy không? Câu trả lời là **Phương pháp phần tử hữu hạn (FEM)**.
 
-### Ví dụ cầm tay chỉ việc: Tự tay giải bài toán thanh đàn hồi 1D bằng FEM
+### Ví dụ làm từng bước: Tự tay giải bài toán thanh đàn hồi 1D bằng FEM
 
 Xét một thanh thép dài $$L = 2\text{ m}$$, độ cứng kéo $$EA = 10$$, gắn chặt tường ở đầu trái $$x=0$$ (tức $$u(0)=0$$) và chịu lực kéo $$F = 20\text{ N}$$ ở đầu phải $$x=2$$. Ta muốn tìm độ giãn $$u(x)$$ dọc theo thanh mà **chỉ dùng phép tính ma trận**:
 
@@ -255,7 +255,7 @@ Từ hàng 1: $$20u_1 - 10u_2 = 0 \implies u_2 = 2u_1$$. Thay vào hàng 2: $$-1
 
 Trong công nghiệp, thay vì 3 nút, phần mềm dùng 3 triệu nút tứ diện 3D — nhưng quy trình lắp ráp ma trận thưa $$KU=F$$ thì giống hệt ví dụ 4 bước trên!
 
-### Khung giải thích: Từ định luật vật lý liên tục đến phần mềm mô phỏng FEM (nên đọc chậm)
+### Giải thích: Từ định luật vật lý liên tục đến phần mềm mô phỏng FEM
 
 1. **Từ cân bằng lực đến PDE:** viết định luật bảo toàn trên một khối nhỏ rồi dùng định lý phân kỳ để thu được phương trình vi phân (như $$-EA u'' = f$$).
 2. **Chuyển sang dạng yếu (tích phân từng phần):** nhân PDE với một hàm thử $$v$$ rồi tích phân từng phần để hạ bậc đạo hàm từ bậc 2 xuống bậc 1 ($$\int EA u'v'\,dx = \int fv\,dx$$). Nhờ hạ bậc đạo hàm, các hàm đa thức gấp khúc từng mảnh trên lưới tam giác trở nên hoàn toàn hợp lệ!
@@ -287,7 +287,7 @@ Các phương pháp cùng họ: sai phân hữu hạn (lưới đều, dễ hìn
 
 Kỹ thuật hiện đại kết hợp cảm biến, mô hình giải tích và tối ưu hóa thành một vòng lặp khép kín: mô hình ODE/PDE → ước lượng trạng thái thực từ số liệu cảm biến (như bộ lọc Kalman) → tối ưu đầu vào hoặc cảnh báo bảo trì trước khi hỏng hóc. **Bản sao số (digital twin)** của một tua-bin gió hay một cây cầu lớn thực chất là một mô hình giải tích (hoặc mô hình thay thế rút gọn) được liên tục hiệu chỉnh bằng dữ liệu thật. Nó không phải phép màu tách rời khỏi PDE.
 
-Giới hạn thực tế: dòng rối (turbulence), tiếp xúc cơ học, sự lan truyền vết nứt, dòng nhiều pha và các hiện tượng nhiều thang đo vẫn là thách thức hàng đầu cho cả lý thuyết lẫn siêu máy tính. **Tính đặt chỉnh (well-posedness)** — nghiệm có tồn tại, duy nhất và thay đổi liên tục khi dữ liệu nhiễu nhẹ hay không — là một khái niệm giải tích có hậu quả kỹ thuật sống còn: với một bài toán không đặt chỉnh (như bài toán ngược tìm nguồn nhiệt từ đo đạc mờ nhiễu), chia lưới mịn hơn không những không giúp ích mà còn làm nhiễu nổ tung.
+Giới hạn thực tế: dòng rối (turbulence), tiếp xúc cơ học, sự lan truyền vết nứt, dòng nhiều pha và các hiện tượng nhiều thang đo vẫn là thách thức hàng đầu cho cả lý thuyết lẫn siêu máy tính. **Tính đặt chỉnh (well-posedness)** — nghiệm có tồn tại, duy nhất và thay đổi liên tục khi dữ liệu nhiễu nhẹ hay không — là một khái niệm giải tích có hậu quả kỹ thuật quan trọng: với một bài toán không đặt chỉnh (như bài toán ngược tìm nguồn nhiệt từ đo đạc mờ nhiễu), chia lưới mịn hơn không những không giúp ích mà còn làm nhiễu nổ tung.
 
 ---
 

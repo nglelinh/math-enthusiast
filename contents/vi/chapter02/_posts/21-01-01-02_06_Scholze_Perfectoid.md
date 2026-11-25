@@ -13,7 +13,7 @@ Trong toán học, có những giải thưởng lớn trao cho người chinh ph
 
 Từ lâu, các nhà hình học số học sống giữa hai thế giới gần giống nhau như anh em sinh đôi nhưng ngăn cách nhau bởi một bức tường kỳ lạ: thế giới **đặc số 0** (nơi các số nguyên thông thường và số $$p$$-adic sinh sống) và thế giới **đặc số $$p$$** (nơi ta làm toán theo modulo số nguyên tố $$p$$, nên mọi phép tính đều có một đối xứng thần kỳ gọi là *phép Frobenius*). Nhiều định lý lớn đã được chứng minh xong ở đặc số $$p$$ nhưng lại bế tắc hoàn toàn ở đặc số $$0$$. Khi mới 24 tuổi, trong bài báo mốc năm 2012, Scholze đã sáng tạo ra **không gian perfectoid** và một cỗ máy phiên dịch gọi là **phép nghiêng** (*tilting*), biến những hiện tượng từng bị coi là cơn ác mộng (như *phân nhánh vô hạn*) thành chính chiếc cầu nối thông suốt giữa hai thế giới.
 
-**Mạch bài học:** Bản đồ kiến thức nền (tính tay số $$5$$-adic, phép màu Frobenius ở đặc số $$p$$, vì sao phép nhớ tạo ra bức tường) → Đặc số hỗn hợp → Khung giải thích chậm 4 bước: trích căn bậc $$p$$, không gian perfectoid, phép nghiêng $$X \mapsto X^\flat$$ và đơn đạo trọng số → Tác động nền tảng & toán học cô đặc.
+**Mạch bài học:** Kiến thức cần nhớ (tính tay số $$5$$-adic, phép màu Frobenius ở đặc số $$p$$, vì sao phép nhớ tạo ra bức tường) → Đặc số hỗn hợp → Giải thích 4 bước: trích căn bậc $$p$$, không gian perfectoid, phép nghiêng $$X \mapsto X^\flat$$ và đơn đạo trọng số → Tác động nền tảng & toán học cô đặc.
 
 ---
 
@@ -33,7 +33,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Số $$p$$-adic, Đặc số $$p$$ và "Bức tường phép nhớ"
+## Kiến thức cần nhớ: Số $$p$$-adic, Đặc số $$p$$ và "Bức tường phép nhớ"
 
 ### 1. Số $$p$$-adic là gì? (Tính tay với $$p = 5$$)
 Trong giải tích thực, khoảng cách giữa $$a$$ và $$b$$ là $$\vert a - b\vert$$. Trong thế giới **$$5$$-adic**, hai số càng **gần nhau** nếu hiệu của chúng chia hết cho lũy thừa càng cao của $$5$$: viết $$n = 5^k \cdot m$$ (với $$5 \nmid m$$), ta định nghĩa chuẩn $$5$$-adic $$\vert n\vert_5 = 5^{-k}$$.
@@ -71,7 +71,7 @@ Chính sự chênh lệch do **phép nhớ** (tức bản chất của **đặc 
 
 ---
 
-## 1. Khung giải thích: Không gian Perfectoid và Phép nghiêng xóa "phép nhớ" như thế nào? (nên đọc chậm)
+## 1. Giải thích: Không gian Perfectoid và Phép nghiêng xóa "phép nhớ" như thế nào?
 
 Làm sao Peter Scholze bắc được cây cầu song ánh giữa hai thế giới vốn bị chia cắt bởi phép nhớ? Hãy đọc chậm chuỗi 4 bước thiên tài này:
 

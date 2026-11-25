@@ -15,7 +15,7 @@ For decades, the mathematics of phase transitions was trapped in a strange parad
 
 In 2022, **Hugo Duminil-Copin** received the **Fields Medal** for *"solving longstanding problems in the probabilistic theory of **phase transitions** in statistical physics, especially in dimensions **three** and **four**."* Together with collaborators, he proved **continuity** and **sharpness** of the phase transition for 3D Ising-type models; with **Michael Aizenman**, he proved **mean-field critical behavior** of the 4D Ising model and **triviality** of four-dimensional Euclidean scalar quantum field theory; and in 2D, he and collaborators classified continuity vs. discontinuity for dependent **Fortuin–Kasteleyn (FK)** percolation for all parameters, proved universality on isoradial graphs, and established **large-scale rotational invariance** as a step toward conformal invariance. Although Smirnov was his doctoral advisor, the 2022 medal is a sequel chapter in new dimensions, not a replay of 2010—and conformal invariance of the 3D Ising model remains open.
 
-**Lesson roadmap:** Background Knowledge Map (percolation, Ising, and FK random-cluster models) → Hand-verifiable worked examples (a 4-edge 2D percolation cell and a $$2\times 2$$ Ising square) → Why dimensions 3 and 4 resisted for decades → Deep-Dive Explanation (Read Slowly): OSSS sharpness, random-current continuity in 3D, and multiscale triviality in 4D → Honest attribution & boundaries with Smirnov (2010) and Werner (2006).
+**Lesson roadmap:** Key ideas (percolation, Ising, and FK random-cluster models) → Hand-verifiable worked examples (a 4-edge 2D percolation cell and a $$2\times 2$$ Ising square) → Why dimensions 3 and 4 resisted for decades → Explanation: OSSS sharpness, random-current continuity in 3D, and multiscale triviality in 4D → Honest attribution & boundaries with Smirnov (2010) and Werner (2006).
 
 ---
 
@@ -36,7 +36,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Does Lattice Statistical Mechanics Study?
+## Key ideas: What Does Lattice Statistical Mechanics Study?
 
 Probabilistic statistical mechanics asks one central question: *how do simple, purely local random rules on an infinite grid conspire to produce sudden global changes?* Three lattice models form the shared language of the field.
 
@@ -100,7 +100,7 @@ In **dimension 4**, the obstacle sits right at the geometry of quantum field the
 
 ---
 
-## 3. Deep-Dive Explanation: Conquering Dimensions 3 and 4 Without Exact Formulas (Read Slowly)
+## 3. Explanation: Conquering Dimensions 3 and 4 Without Exact Formulas
 
 Without an Onsager formula in 3D or 4D, Duminil-Copin and his collaborators forged a four-part probabilistic machine:
 

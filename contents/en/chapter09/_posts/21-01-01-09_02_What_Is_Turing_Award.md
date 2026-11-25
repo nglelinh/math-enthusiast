@@ -32,7 +32,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Is Computational Mathematics and What Do Turing Awards Study?
+## Key ideas: What Is Computational Mathematics and What Do Turing Awards Study?
 
 When a university graduate scans nearly sixty years of Turing Award winners, the list can look wildly eclectic: compiler builders, UNIX pioneers, relational database architects, and pure theorists proving theorems about expander graphs or prime numbers. What deeper thread unites them?
 
@@ -78,7 +78,7 @@ When you read Shafi Goldwasser and Silvio Micali's 2012 Turing citation (*"trans
   - To encrypt bit `1`, multiply by a fixed non-square $$z = 2$$: send $$c = 2r^2 \bmod 15$$ (choosing $$r=2 \implies c=8$$; choosing $$r=4 \implies c=2$$).
 - Result: encrypting `0` twice produces `4` the first time and `1` the second time! Anyone holding the secret factors $$p=3, q=5$$ checks whether $$c$$ is a square mod 3 and mod 5 in an instant, whereas an eavesdropper facing a 2048-bit modulus $$N$$ cannot distinguish encryptions of `0` from `1`. One crisp Turing citation just unpacked into a transparent mathematical engine.
 
-### Deep-Dive Explanation: A Four-Step Routine for Reading Any Turing Award (Read Slowly)
+### Explanation: A Four-Step Routine for Reading Any Turing Award
 
 1. **Underline the technical nouns in the citation:** strip away ceremonial praise to isolate the mathematical objects (Turing machines, reductions, probabilistic encryption, causal graphs, pseudorandom generators).
 2. **Locate the computational layer:** does the work live in *computability* (Turing), the *P vs NP frontier* (Cook–Karp), *efficiency inside P* (Knuth, Hopcroft–Tarjan), *security and interaction* (RSA, Goldwasser–Micali), or *learning and causality* (Valiant, Pearl)?

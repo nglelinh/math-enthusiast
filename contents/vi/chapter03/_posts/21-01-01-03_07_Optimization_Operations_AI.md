@@ -35,11 +35,11 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Tối ưu hóa toán học là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Tối ưu hóa toán học là gì và nghiên cứu những gì?
 
 Ở phổ thông, muốn tìm cực tiểu của một hàm số $$f(x)$$, ta cứ lấy đạo hàm, giải $$f'(x)=0$$ rồi lập bảng biến thiên. Nhưng ngoài đời thực, hàm mục tiêu có thể có **hàng triệu biến** (không giải nổi $$f'(x)=0$$ bằng tay), bị gãy khúc không có đạo hàm, bị kẹp giữa hàng nghìn **ràng buộc bất đẳng thức**, hoặc buộc các biến phải là **số nguyên** (chẳng hạn không thể điều động 1,4 chiếc máy bay!).
 
-**Tối ưu hóa toán học (mathematical optimization)** là ngành nghiên cứu cách thiết kế thuật toán tìm nghiệm tối ưu (hoặc đủ gần tối ưu) trong những điều kiện khắc nghiệt đó, đồng thời trả lời hai câu hỏi sống còn: *thuật toán có chạy nhanh không?* và *làm sao chứng minh được nghiệm tìm thấy thật sự là tốt nhất?*
+**Tối ưu hóa toán học (mathematical optimization)** là ngành nghiên cứu cách thiết kế thuật toán tìm nghiệm tối ưu (hoặc đủ gần tối ưu) trong những điều kiện khắc nghiệt đó, đồng thời trả lời hai câu hỏi quan trọng: *thuật toán có chạy nhanh không?* và *làm sao chứng minh được nghiệm tìm thấy thật sự là tốt nhất?*
 
 Ranh giới lớn nhất chia đôi thế giới tối ưu hóa không phải "tuyến tính hay phi tuyến", mà là **lồi hay không lồi** và **liên tục hay rời rạc**:
 - **Tối ưu lồi (LP, QP, bình phương tối thiểu, SVM):** bề mặt giống như một chiếc bát trơn tru chỉ có một đáy duy nhất → có thuật toán mạnh và có chứng nhận tối ưu toàn cục.
@@ -122,7 +122,7 @@ $$
 \min_x\, c^\top x \quad\text{s.t.}\quad Ax\le b,\quad x\ge 0.
 $$
 
-### Ví dụ cầm tay chỉ việc: Giải bài toán LP xưởng mộc và tự tay chứng nhận tối ưu bằng Đối ngẫu
+### Ví dụ làm từng bước: Giải bài toán LP xưởng mộc và tự tay chứng nhận tối ưu bằng Đối ngẫu
 
 Một xưởng mộc đóng $$x_1$$ chiếc bàn (lãi 400 nghìn/bàn) và $$x_2$$ chiếc ghế (lãi 300 nghìn/ghế), bị giới hạn bởi gỗ ($$2x_1 + x_2 \le 100$$) và giờ công ($$x_1 + 2x_2 \le 80$$), với $$x_1, x_2 \ge 0$$. Ta muốn tối đa hóa $$z = 400x_1 + 300x_2$$:
 
@@ -173,7 +173,7 @@ Một trong những ý tưởng đẹp nhất của toán học ứng dụng là
 
 Với bài toán luồng mạng, định lý luồng cực đại – lát cắt cực tiểu chính là đối ngẫu mạnh dưới lớp áo tổ hợp.
 
-### Khung giải thích: Quy trình 4 bước chọn đúng vũ khí cho một bài toán tối ưu (nên đọc chậm)
+### Giải thích: Quy trình 4 bước chọn đúng vũ khí cho một bài toán tối ưu
 
 1. **Dịch bài toán thực tế thành bộ ba $$(x, f, \mathcal{X})$$:** xác định biến quyết định liên tục hay rời rạc $$0/1$$, hàm mục tiêu cần tối tiểu/tối đại, và danh sách ràng buộc cứng.
 2. **Kiểm tra tính lồi của địa hình:** nếu cả $$f$$ và $$\mathcal{X}$$ đều lồi (LP, QP, bình phương tối thiểu, SVM), bạn có bảo đảm mọi cực tiểu địa phương đều là toàn cục và có chứng nhận đối ngẫu.

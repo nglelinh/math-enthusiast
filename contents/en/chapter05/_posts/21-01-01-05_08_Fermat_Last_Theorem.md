@@ -21,7 +21,7 @@ That marginal note haunted humanity for **358 years**. Thousands of flawed proof
 
 **Diophantine equation → Frey elliptic curve → modularity → contradiction.**
 
-**Lesson roadmap:** Background Knowledge Map (algebraic number theory, elliptic curves, modular forms & Langlands) → From Pythagorean triples to the cubic wall → Why elementary methods stalled → Deep-Dive Explanation (Read Slowly): hand-counting points on an elliptic curve modulo $$5$$ and dissecting the Frey–Ribet–Wiles trap → Credit and historical legacy.
+**Lesson roadmap:** Key ideas (algebraic number theory, elliptic curves, modular forms & Langlands) → From Pythagorean triples to the cubic wall → Why elementary methods stalled → Explanation: hand-counting points on an elliptic curve modulo $$5$$ and dissecting the Frey–Ribet–Wiles trap → Credit and historical legacy.
 
 ---
 
@@ -40,7 +40,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: Algebraic Number Theory, Elliptic Curves, and the Langlands Program
+## Key ideas: Algebraic Number Theory, Elliptic Curves, and the Langlands Program
 
 Why did a middle-school equation require late-twentieth-century machinery? Three foundational pillars explain the landscape behind Wiles’s proof:
 
@@ -81,7 +81,7 @@ Direct descent works for special exponents when unique factorization cooperates.
 
 ---
 
-## 3. Deep-Dive Explanation (Read Slowly): Hand-Counting Points Modulo $$5$$ and Springing the Frey–Ribet–Wiles Trap
+## 3. Explanation: Hand-Counting Points Modulo $$5$$ and Springing the Frey–Ribet–Wiles Trap
 
 To demystify "arithmetic fingerprints" and "level lowering," walk through three concrete steps by hand:
 

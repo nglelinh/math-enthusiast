@@ -19,7 +19,7 @@ In **2004** (only the second year of the Abel Prize), **Sir Michael Francis Atiy
 
 Not only did the Atiyah–Singer Index Theorem unify four classical pillars of geometry under one roof, it later became a glowing bridge connecting pure mathematics to quantum field theory, topological insulators, and string theory. Official materials: [abelprize.no](https://abelprize.no/).
 
-**Lesson arc:** Background Knowledge Map (differential topology & characteristic classes, elliptic operators, analytic vs. topological index) → Deep-Dive Explanation: verifying index invariance on a $$2\times 3$$ matrix, a Toeplitz shift on $$S^1$$, and Gauss–Bonnet on a sphere $$S^2_R$$ by hand → From combing a hairy ball to four classical special cases and bridges to physics.
+**Lesson arc:** Key ideas (differential topology & characteristic classes, elliptic operators, analytic vs. topological index) → Explanation: verifying index invariance on a $$2\times 3$$ matrix, a Toeplitz shift on $$S^1$$, and Gauss–Bonnet on a sphere $$S^2_R$$ by hand → From combing a hairy ball to four classical special cases and bridges to physics.
 
 ---
 
@@ -31,7 +31,7 @@ After this lecture you should be able to state the **Atiyah–Singer index theor
 
 ---
 
-## Background Knowledge Map: What Are Differential Topology, Elliptic Operators, and Index Theory, and What Do They Study?
+## Key ideas: What Are Differential Topology, Elliptic Operators, and Index Theory, and What Do They Study?
 
 The Atiyah–Singer Index Theorem stands at the crossroads of three major mathematical territories. Anchor each pillar before stepping into the formula:
 
@@ -44,7 +44,7 @@ Linear PDEs come in three famous flavors: wave (hyperbolic), heat (parabolic), a
 ### 3. Analytic Index vs. Topological Index
 For a linear operator $$D$$, the number of solutions $$\dim \ker D$$ can jump abruptly if you wiggle the coefficients. Yet the difference **$$\mathrm{ind}(D) = \dim \ker D - \dim \mathrm{coker}\, D$$** is rock-solid: whenever a new solution appears, a matching obstruction appears in $$\mathrm{coker}\, D$$ so the difference never budges! Because this integer is invariant under continuous deformations, it must be topological—and Atiyah–Singer gives its exact integral formula.
 
-### Deep-Dive Explanation: Three Hand-Checkable Calculations Decoding the Index Theorem (Read Slowly)
+### Explanation: Three Hand-Checkable Calculations Decoding the Index Theorem
 
 To feel with your own hands why $$\dim \ker - \dim \mathrm{coker}$$ stays invariant and equals a topological number, check three miniature models from linear algebra to curved surfaces:
 

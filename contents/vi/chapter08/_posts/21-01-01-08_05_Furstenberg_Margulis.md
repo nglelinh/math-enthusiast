@@ -21,7 +21,7 @@ Năm **2020**, **Giải Abel** được trao chung cho **Hillel Furstenberg** (�
 
 Việc trao chung giải thưởng cho hai sự nghiệp mang phong cách rất khác nhau gửi đi một thông điệp rõ ràng: xác suất và hệ động lực không còn đứng bên lề toán học ứng dụng, mà đã trở thành động cơ giải mã những bí mật sâu nhất của số học, tổ hợp và lý thuyết nhóm. Tài liệu chính thức: [abelprize.no](https://abelprize.no/).
 
-**Mạch bài học:** Bản đồ kiến thức nền (Hệ động lực, lý thuyết ergodic, nhóm Lie và không gian thuần nhất) → Lý thuyết ergodic trong một trang → Khung giải thích chậm: tính tay quỹ đạo vô tỉ và Giả thuyết Oppenheim → Furstenberg và tái hồi nhiều lần → Margulis, tính siêu cứng và expander → Những nhầm lẫn thường gặp.
+**Mạch bài học:** Kiến thức cần nhớ (Hệ động lực, lý thuyết ergodic, nhóm Lie và không gian thuần nhất) → Lý thuyết ergodic trong một trang → Giải thích: tính tay quỹ đạo vô tỉ và Giả thuyết Oppenheim → Furstenberg và tái hồi nhiều lần → Margulis, tính siêu cứng và expander → Những nhầm lẫn thường gặp.
 
 ---
 
@@ -33,7 +33,7 @@ Việc trao chung giải thưởng cho hai sự nghiệp mang phong cách rất 
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết Ergodic, hệ động lực và nhóm Lie là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Lý thuyết Ergodic, hệ động lực và nhóm Lie là gì và nghiên cứu những gì?
 
 Nếu bạn tốt nghiệp đại học và từng học xác suất hay phương trình vi phân, ba trụ cột dưới đây sẽ giúp bạn mở khóa toàn bộ thế giới của Furstenberg và Margulis mà không cần giáo trình cao học:
 
@@ -74,7 +74,7 @@ $$
 \lim_{N\to\infty}\frac{1}{N}\sum_{k=0}^{N-1} f(T^k x) = \int_X f\, d\mu.
 $$
 
-### Khung giải thích: Tự tay tính thử hai viên gạch nền — quỹ đạo vô tỉ và Giả thuyết Oppenheim (nên đọc chậm)
+### Giải thích: Tự tay tính thử hai viên gạch nền — quỹ đạo vô tỉ và Giả thuyết Oppenheim
 
 Để cảm nhận tận tay cách chuyển động "gõ cửa" lý thuyết số, bạn hãy thử hai phép tính ngắn bằng máy tính bỏ túi hoặc nhẩm tay dưới đây:
 

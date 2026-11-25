@@ -13,7 +13,7 @@ Hơn hai nghìn năm trăm năm trước, trường phái Pythagore ở Hy Lạp
 
 Tương truyền rằng khi Hippasus xứ Metapontum chứng minh được $$\sqrt{2}$$ không thể viết thành tỷ số của hai số nguyên nào, phát hiện "phi lý" (*alogon*) ấy đã gây ra cuộc khủng hoảng nền tảng đầu tiên của lịch sử toán học. Đến tận hôm nay, lập luận ấy vẫn là một trong những chứng minh nhập môn đẹp nhất từng được viết ra: chỉ vài dòng số học sơ cấp dựa trên **tính chẵn lẻ** đã đủ đánh sập hoàn toàn giả thiết "$$\sqrt{2}$$ là số hữu tỷ".
 
-**Mạch bài học:** Bản đồ kiến thức nền (tháp hệ thống số, định giá $$p$$-adic, xuống thang vô hạn) → Nghịch lý cây thước chung và dãy xấp xỉ Pell → Chứng minh cổ điển bằng tính chẵn lẻ → Khung giải thích chậm: tự tay kiểm tra ba cách chứng minh (đại số, định giá $$v_2$$, và xuống thang bằng hai hình vuông) → Mở rộng cho $$\sqrt{p}$$ và bài học về mở rộng hệ thống số.
+**Mạch bài học:** Kiến thức cần nhớ (tháp hệ thống số, định giá $$p$$-adic, xuống thang vô hạn) → Nghịch lý cây thước chung và dãy xấp xỉ Pell → Chứng minh cổ điển bằng tính chẵn lẻ → Giải thích: tự tay kiểm tra ba cách chứng minh (đại số, định giá $$v_2$$, và xuống thang bằng hai hình vuông) → Mở rộng cho $$\sqrt{p}$$ và bài học về mở rộng hệ thống số.
 
 ---
 
@@ -32,7 +32,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Hệ thống số, Định giá $$p$$-adic và Phương pháp xuống thang là gì?
+## Kiến thức cần nhớ: Hệ thống số, Định giá $$p$$-adic và Phương pháp xuống thang là gì?
 
 Để người tốt nghiệp đại học thấy tầm vóc thực sự của bài toán tưởng như "sơ cấp" này, hãy đặt nó lên ba trụ cột của **Lý thuyết số** và **Đại số**:
 
@@ -113,7 +113,7 @@ $$
 Một hình minh họa cho phương pháp xuống thang vô hạn: nếu a bình phương bằng hai lần b bình phương, thì đặt hai hình vuông cạnh b vào trong hình vuông cạnh a, phần chồng lên nhau và các phần còn trống sẽ cho ra những hình vuông có cạnh nguyên nhỏ hơn.
 
 
-## 4. Khung giải thích: tự tay kiểm tra ba góc nhìn — định giá $$v_2$$, xuống thang hình học và bài thử $$\sqrt{4}$$ (nên đọc chậm)
+## 4. Giải thích: tự tay kiểm tra ba góc nhìn — định giá $$v_2$$, xuống thang hình học và bài thử $$\sqrt{4}$$
 
 Để không chỉ thuộc lòng ba dòng chẵn lẻ mà nhìn xuyên thấu cấu trúc sâu bên dưới, hãy cầm bút kiểm tra ba phép tính nhỏ sau:
 

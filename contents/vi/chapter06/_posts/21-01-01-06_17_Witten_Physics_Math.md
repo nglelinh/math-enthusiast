@@ -16,7 +16,7 @@ Tháng 8 năm 1990, tại Đại hội Toán học Thế giới ở Kyoto, cả 
 
 ---
 
-## Bản đồ kiến thức nền: Vật lý toán kiểu Witten là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Vật lý toán kiểu Witten là gì và nghiên cứu những gì?
 
 Nếu bạn tốt nghiệp đại học với hành trang là giải tích nhiều biến, đại số tuyến tính, phương trình vi phân và chút cơ học lượng tử sơ cấp, bạn có thể thắc mắc: *vật lý toán hiện đại* — đặc biệt là phong cách của Witten — thực chất đang nối những nhánh toán học nào lại với nhau?
 
@@ -51,7 +51,7 @@ Lịch sử giao thoa giữa hình học và vật lý vốn đã rất dài: th
 
 Hãy lấy ví dụ nổi tiếng nhất dẫn tới Huy chương Fields 1990: năm 1984, nhà toán học Vaughan Jones bất ngờ tìm ra một đa thức mới (đa thức Jones) giúp phân biệt hai nút thắt trong không gian 3 chiều. Khi mới xuất hiện, công thức tổ hợp của đa thức Jones trông như một phép tính đại số thuần túy, khó thấy ý nghĩa hình học 3 chiều của nó ở đâu. Đến năm 1989, Witten chỉ ra rằng nếu ta xét lý thuyết trường lượng tử tô pô **Chern–Simons** trong không gian 3 chiều, rồi tính giá trị kỳ vọng của một "vòng Wilson" chạy dọc theo chính sợi dây thắt nút đó, kết quả thu được *chính là đa thức Jones* — đồng thời tự động mở rộng sang bất kỳ đa tạp 3 chiều cong nào!
 
-### Khung giải thích: làm sao một TQFT lại "đếm" được hình dáng không gian? (nên đọc chậm)
+### Giải thích: làm sao một TQFT lại "đếm" được hình dáng không gian?
 
 Để không cảm thấy hai chữ "TQFT" mơ hồ, hãy tự tay tính một **mô hình TQFT 2 chiều** hoàn chỉnh chỉ bằng đại số tuyến tính! Theo định lý phân loại Atiyah–Dijkgraaf, một TQFT 2 chiều tương đương hoàn toàn với một **đại số giao hoán Frobenius** $$(A, \theta)$$: không gian trạng thái trên một đường tròn là đại số $$A$$, phép ghép hai đường tròn thành một ("chiếc quần" — pair of pants) là phép nhân trong $$A$$, còn "nắp đậy" bán cầu là phiếm hàm vết $$\theta: A \to \mathbb{C}$$.
 

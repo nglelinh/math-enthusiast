@@ -15,7 +15,7 @@ More than a century and a half later, the **Riemann Hypothesis (RH)** stands as 
 
 This is the **Section 1 flagship** reading for the Math Enthusiast seminar: a careful, intuition-first tour of **what RH says**, **why zeros of a complex function control the primes**, **what evidence and partial theorems exist**, and **what mathematics blossomed around the question**.
 
-**Path through the essay:** Background Knowledge Map → primes and numerical counting → Euler product → analytic continuation (via geometric series & $$\eta(s)$$) → non-trivial zeros → RH → explicit formulas & wave harmonics → why it is hard → partial results & analogues.
+**Path through the essay:** Key ideas → primes and numerical counting → Euler product → analytic continuation (via geometric series & $$\eta(s)$$) → non-trivial zeros → RH → explicit formulas & wave harmonics → why it is hard → partial results & analogues.
 
 ---
 
@@ -36,7 +36,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: Complex Analysis and Analytic Number Theory
+## Key ideas: Complex Analysis and Analytic Number Theory
 
 A university graduate with real calculus, linear algebra, and probability naturally asks: *if prime numbers are completely discrete positive integers, why on earth do we bring complex numbers and calculus into the room?* The answer sits at the crossroads of three pillars:
 
@@ -125,7 +125,7 @@ $$
 
 When you multiply these parentheses out, how can you produce the term $$12^{-s}$$? Since $$12 = 2^2 \cdot 3$$ has a **unique prime factorization**, there is **exactly one way**: pick $$4^{-s} = (2^2)^{-s}$$ from the first factor, $$3^{-s}$$ from the second factor, and $$1$$ from every remaining factor! By the Fundamental Theorem of Arithmetic, every $$n^{-s}$$ appears once and only once. Thus **$$\zeta(s)$$ is a golden bridge between "all integers" and "all primes."**
 
-### Deep-Dive Explanation: Why Primes Talk to Zeros (Read Slowly)
+### Explanation: Why Primes Talk to Zeros
 
 Students often encounter two slogans that feel worlds apart: (A) "RH is about zeros of zeta," and (B) "RH is about primes." Here is the four-step chain linking them—no full explicit formula required:
 

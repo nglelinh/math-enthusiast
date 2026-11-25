@@ -18,7 +18,7 @@ In October 1852, young student Francis Guthrie was coloring a map of the countie
 
 Only in 1976 did Kenneth Appel and Wolfgang Haken finally settle the **Four Color Theorem**, and they did so in a way that sparked decades of philosophical debate: by enlisting a computer to verify thousands of configurations. In this studio, you will not re-run that massive search. Instead, you will **draw maps and convert them into dual graphs**, watch 3 colors fail by hand, walk through the crisp human-readable **five-color proof**, jump onto a donut (torus) where **seven** colors are needed, and articulate your own standard for what counts as a proof in the age of machines.
 
-**Lesson roadmap:** Background Knowledge Map (graph theory, surface topology & computer-assisted proofs) → Dual graphs & the five-color theorem → Deep-Dive Explanation (Read Slowly): hand-checking Euler's bound on $$K_4, K_5, K_7$$ and stepping through a Kempe-chain swap → Appel–Haken & Heawood numbers $$H(g)$$ → Studio experiments & log.
+**Lesson roadmap:** Key ideas (graph theory, surface topology & computer-assisted proofs) → Dual graphs & the five-color theorem → Explanation: hand-checking Euler's bound on $$K_4, K_5, K_7$$ and stepping through a Kempe-chain swap → Appel–Haken & Heawood numbers $$H(g)$$ → Studio experiments & log.
 
 ---
 
@@ -37,7 +37,7 @@ After this studio you should be able to:
 
 ---
 
-## Background Knowledge Map: What Are Graph Theory and Surface Topology?
+## Key ideas: What Are Graph Theory and Surface Topology?
 
 Behind the childhood pastime of coloring maps stand three pillars of modern mathematics and computer science:
 
@@ -67,7 +67,7 @@ The **Four Color Theorem (4CT):** every planar graph is 4-colorable; equivalentl
 
 From Euler’s formula for simple connected plane graphs, together with $$2e\ge 3f$$, one derives $$e\le 3v-6$$ for $$v\ge 3$$. Therefore the average degree satisfies $$2e/v<6$$, guaranteeing a vertex $$v$$ with $$\deg(v)\le 5$$.
 
-#### Deep-Dive Explanation (Read Slowly): Hand-Checking Euler's Bound on $$K_4, K_5, K_7$$ and Running a Kempe Chain
+#### Explanation: Hand-Checking Euler's Bound on $$K_4, K_5, K_7$$ and Running a Kempe Chain
 
 Walk through two short hand calculations that unlock the whole chapter:
 

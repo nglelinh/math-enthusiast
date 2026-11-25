@@ -19,7 +19,7 @@ Năm **2022**, **Dennis Parnell Sullivan** (Đại học Stony Brook; CUNY Gradu
 
 Ủy ban Abel gọi ông là "một nghệ sĩ bậc thầy thực thụ" (*true virtuoso*), người liên tục đi qua ranh giới giữa đại số, hình học, giải tích và động lực học để thay đổi diện mạo của tôpô. Hãy cùng theo dấu hành trình của bậc thầy ấy—từ lý thuyết phẫu thuật đa tạp đến định lý **không có miền lang thang** lừng danh—và so sánh sự nghiệp đa tài trọn đời này với những bản anh hùng ca về một định lý đơn lẻ như Perelman và Giả thuyết Poincaré. Tài liệu chính thức: [abelprize.no](https://abelprize.no/).
 
-**Mạch bài học:** Bản đồ kiến thức nền (Tôpô đại số, tôpô hình học và động lực phức) → Bốn cột mốc của Sullivan → Khung giải thích chậm: tự tay tính quỹ đạo $$f(z)=z^2-1$$ và cơ chế "đếm số chiều" chứng minh không có miền lang thang → Tập Julia và phân loại Fatou → So sánh với Perelman.
+**Mạch bài học:** Kiến thức cần nhớ (Tôpô đại số, tôpô hình học và động lực phức) → Bốn cột mốc của Sullivan → Giải thích: tự tay tính quỹ đạo $$f(z)=z^2-1$$ và cơ chế "đếm số chiều" chứng minh không có miền lang thang → Tập Julia và phân loại Fatou → So sánh với Perelman.
 
 ---
 
@@ -31,7 +31,7 @@ Sau bài này, bạn có thể đặt Sullivan vào ba mảng: tôpô đại s�
 
 ---
 
-## Bản đồ kiến thức nền: Tôpô đại số, tôpô hình học và động lực phức là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Tôpô đại số, tôpô hình học và động lực phức là gì và nghiên cứu những gì?
 
 Ba cụm từ trong lời trao giải của Sullivan nghe có vẻ rất chuyên sâu, nhưng trực giác cốt lõi của chúng đứng trên ba trụ cột rất gần gũi với người học toán đại học:
 
@@ -101,7 +101,7 @@ $$
 
 **Định lý Sullivan (1985):** Với mọi ánh xạ hữu tỉ $$f:\widehat{\mathbb{C}}\to\widehat{\mathbb{C}}$$ bậc $$d \ge 2$$, **không tồn tại miền lang thang**. Mọi thành phần Fatou sau hữu hạn bước đều phải rơi vào một chu kỳ tuần hoàn!
 
-### Khung giải thích: Tự tay tính quỹ đạo $$f(z)=z^2-1$$ và cơ chế "đếm số chiều" của Sullivan (nên đọc chậm)
+### Giải thích: Tự tay tính quỹ đạo $$f(z)=z^2-1$$ và cơ chế "đếm số chiều" của Sullivan
 
 #### Phần 1: Tự tay tính quỹ đạo của đa thức bậc 2 $$f(z) = z^2 - 1$$ (tập Julia "Vương cung thánh đường")
 Hãy thử vài điểm khởi đầu $$z_0$$ ngay bằng tay:

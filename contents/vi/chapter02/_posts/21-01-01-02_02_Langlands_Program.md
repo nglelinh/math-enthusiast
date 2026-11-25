@@ -15,7 +15,7 @@ Thế nhưng, trong suốt gần ba thập kỷ, rất nhiều định lý quan 
 
 Mãi đến cuối thập niên 2000, **Ngô Bảo Châu** (khi đó làm việc tại Université Paris-Sud) đã chọn một lối đi hoàn toàn khác: thay vì cố gắng tính một tích phân $$p$$-adic rối rắm, ông dịch toàn bộ đẳng thức giải tích đó sang ngôn ngữ của **hình học đại số**, biến những con số bí ẩn thành hình dạng của một họ không gian hình học gọi là **phân thớ Hitchin**. Bước ngoặt ấy đã chứng minh trọn vẹn Bổ đề Cơ bản, tháo gỡ nút thắt gần 30 năm và mang về cho ông **Huy chương Fields 2010**. Cần phân biệt rạch ròi ngay từ đầu: Ngô Bảo Châu không "sáng lập" chương trình Langlands, và chứng minh của ông cũng không khép lại toàn bộ chương trình; nhưng nó đã gỡ bỏ chữ *"giả sử"* khỏi hàng loạt định lý trụ cột của toán học hiện đại.
 
-**Mạch bài học:** Bản đồ kiến thức nền (hình học đại số, số $$p$$-adic, giải tích trên nhóm) → Tầm nhìn Langlands qua ví dụ số nhỏ → Công thức vết và bài toán nội soi bằng ma trận $$2\times 2$$ → Bổ đề Cơ bản → Khung giải thích chậm: từ tích phân đến phân thớ Hitchin và vết Frobenius → Laumon–Ngô đến Ngô (2010) → Hệ quả & phân biệt Langlands số học với Langlands hình học.
+**Mạch bài học:** Kiến thức cần nhớ (hình học đại số, số $$p$$-adic, giải tích trên nhóm) → Tầm nhìn Langlands qua ví dụ số nhỏ → Công thức vết và bài toán nội soi bằng ma trận $$2\times 2$$ → Bổ đề Cơ bản → Giải thích: từ tích phân đến phân thớ Hitchin và vết Frobenius → Laumon–Ngô đến Ngô (2010) → Hệ quả & phân biệt Langlands số học với Langlands hình học.
 
 ---
 
@@ -33,7 +33,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Hình học đại số, Số $$p$$-adic và Giải tích trên nhóm là gì?
+## Kiến thức cần nhớ: Hình học đại số, Số $$p$$-adic và Giải tích trên nhóm là gì?
 
 Trước khi bước vào câu chuyện của Langlands và Ngô Bảo Châu, hãy dừng lại ít phút để làm quen với ba lĩnh vực xuất hiện xuyên suốt bài học. Nếu bạn có nền tảng đại học về giải tích và đại số tuyến tính, cả ba đều có điểm xuất phát rất gần gũi:
 
@@ -80,7 +80,7 @@ thông qua các hệ **hàm $$L$$** tương thích với nhau.
 
 *Hình. Sơ đồ tương ứng Langlands, với hàm $$L$$ làm cầu nối.*
 
-### Hai ví dụ cầm tay chỉ việc để thấy "phép màu" Langlands
+### Hai ví dụ làm từng bước để thấy "phép màu" Langlands
 
 1. **Bậc 1 ($$\mathrm{GL}_1$$ — Luật tương hỗ bậc hai):** Hãy xét phương trình đa thức đơn giản $$x^2 + 1 = 0$$ và thử giải nó theo modulo từng số nguyên tố lẻ $$p$$:
    - Với $$p = 3$$: $$0^2+1=1,\ 1^2+1=2,\ 2^2+1=5\equiv 2 \pmod 3$$ → **vô nghiệm**.
@@ -181,7 +181,7 @@ Bổ đề Cơ bản không phải là câu chuyện của một người đơn 
 
 ## 4. Hình học xuất hiện: Phân thớ Hitchin và vết Frobenius
 
-### Khung giải thích: vì sao hình học lại "biết" giá trị của một tích phân? (nên đọc chậm)
+### Giải thích: vì sao hình học lại "biết" giá trị của một tích phân?
 
 Người đọc mới thường thắc mắc: *vế trái là một tích phân trên trường $$p$$-adic, làm sao hình học đại số lại chứng minh được hai tích phân bằng nhau mà không cần tính giá trị cụ thể của chúng?* Dưới đây là chuỗi lập luận 4 bước nối hai thế giới, kèm ví dụ trực quan ở từng bước:
 
@@ -223,7 +223,7 @@ Ta gắn mỗi ma trận $$A$$ với định thức của nó: $$h(A) = -\det(A)
 **Phân thớ Hitchin** của Ngô Bảo Châu là phiên bản toàn cục của ánh xạ "ma trận $$\mapsto$$ đa thức đặc trưng" này, nhưng thực hiện cho các phân thớ Higgs trên cả một đường cong đại số $$C$$. Thay vì nhìn vào một thớ Springer affine kỳ dị đứng trơ trọi (ứng với một tích phân quỹ đạo cố định), Ngô nhúng nó vào **cả một họ liên tục** các thớ nằm trên đáy Hitchin $$\mathcal{A}$$ — nơi hầu hết các thớ nằm ở vùng mở trơn đều là các không gian đẹp đẽ (đa tạp abel / mặt xuyến nhiều chiều) rất dễ tính toán!
 
 #### Bước 4: Định lý về giá (Support Theorem) — chìa khóa quyết định
-Một câu hỏi sống còn lập tức nảy ra: *khi ta đi từ vùng trơn tiến vào các điểm kỳ dị ở đáy, liệu có sinh ra thêm những thành phần đối đồng điều "ẩn" chỉ sống bám trên tập kỳ dị mà vùng trơn không nhìn thấy không?*
+Một câu hỏi quan trọng lập tức nảy ra: *khi ta đi từ vùng trơn tiến vào các điểm kỳ dị ở đáy, liệu có sinh ra thêm những thành phần đối đồng điều "ẩn" chỉ sống bám trên tập kỳ dị mà vùng trơn không nhìn thấy không?*
 
 Bằng cách khai thác cấu trúc đối xứng sâu sắc của phân thớ Hitchin (tác động của nhóm đối xứng trên các thớ) kết hợp với định lý phân tách của Beilinson–Bernstein–Deligne–Gabber, Ngô Bảo Châu chứng minh **Định lý về giá**: *không có bất kỳ thành phần đối đồng điều ẩn nào nằm lọt ra ngoài vùng trơn!* Mọi mảnh đối đồng điều trên toàn bộ phân thớ — kể cả tại những thớ kỳ dị nhất — đều được **xác định hoàn toàn bởi hành vi trên tập mở trơn**. Mà trên tập mở trơn, việc so sánh gói đối đồng điều giữa nhóm $$G$$ và nhóm nội soi $$H$$ lại trở nên trong sáng và trực tiếp. Từ đó, đẳng thức vết Frobenius — và kéo theo toàn bộ **Bổ đề Cơ bản** — lập tức được chứng minh!
 

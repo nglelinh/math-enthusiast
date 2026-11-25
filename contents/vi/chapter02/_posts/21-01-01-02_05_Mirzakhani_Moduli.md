@@ -13,7 +13,7 @@ Hãy hình dung một chiếc bàn bi-a hình đa giác kỳ lạ, và bạn đ�
 
 Năm 2014, **Maryam Mirzakhani** trở thành **người phụ nữ đầu tiên** trong lịch sử nhận **Huy chương Fields**, nhờ những đóng góp mang tính đột phá cho **động lực học và hình học** của **mặt Riemann** và **không gian mô-đun** của chúng. Thay vì coi không gian mô-đun như một khái niệm trừu tượng chỉ để định nghĩa, công trình của bà đã biến "vũ trụ của mọi hình dạng" thành một đối tượng vừa **tính toán được** (đo được thể tích, đếm được số đường cong khép kín) vừa **nghiên cứu được bằng hệ động lực** (theo dõi các dòng chuyển động và tính hỗn loạn đều khắp), bắc một cây cầu rực rỡ giữa hình học hyperbolic, lý thuyết Teichmüller và hệ động lực.
 
-**Mạch bài học:** Bản đồ kiến thức nền (hình học hyperbolic, không gian mô-đun qua ví dụ mặt xuyến & chiếc quần, lý thuyết ergodic) → Tọa độ Fenchel–Nielsen $$6g-6$$ → Đếm đường trắc địa đóng đơn → Khung giải thích chậm 4 bước: thể tích Weil–Petersson & công thức đệ quy Mirzakhani → Dòng động đất, bi-a đa giác & Định lý Cây đũa thần.
+**Mạch bài học:** Kiến thức cần nhớ (hình học hyperbolic, không gian mô-đun qua ví dụ mặt xuyến & chiếc quần, lý thuyết ergodic) → Tọa độ Fenchel–Nielsen $$6g-6$$ → Đếm đường trắc địa đóng đơn → Giải thích 4 bước: thể tích Weil–Petersson & công thức đệ quy Mirzakhani → Dòng động đất, bi-a đa giác & Định lý Cây đũa thần.
 
 ---
 
@@ -34,7 +34,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Hình học hyperbolic, Không gian mô-đun và Lý thuyết ergodic là gì?
+## Kiến thức cần nhớ: Hình học hyperbolic, Không gian mô-đun và Lý thuyết ergodic là gì?
 
 ### 1. Hình học hyperbolic (Hyperbolic Geometry) nghiên cứu gì?
 Trong hình học phẳng Euclid, tổng ba góc tam giác bằng $$180^\circ$$ (độ cong $$0$$). Trên mặt cầu, tam giác phồng ra nên tổng ba góc $$> 180^\circ$$ (độ cong $$+1$$). **Hình học hyperbolic** là thế giới thứ ba: mọi điểm đều uốn cong như yên ngựa (độ cong âm hằng $$-1$$), tổng ba góc tam giác luôn $$< 180^\circ$$, và diện tích tam giác tỉ lệ thuận với phần thiếu góc: $$\text{Diện tích} = \pi - (\alpha + \beta + \gamma)$$! Mô hình quen thuộc nhất là **nửa mặt phẳng trên** $$\mathbb{H} = \{x + iy : y > 0\}$$ với thước đo độ dài $$ds = \frac{\sqrt{dx^2 + dy^2}}{y}$$, nơi các đường thẳng nhất (**đường trắc địa**) là các tia thẳng đứng và các nửa đường tròn vuông góc với trục thực.
@@ -84,7 +84,7 @@ Số mũ $$6g-6$$ khớp tuyệt đối với số chiều thực của không g
 
 ---
 
-## 3. Khung giải thích: Vì sao đếm đường cong trên MỘT mặt lại đưa về thể tích trên KHÔNG GIAN MỌI MẶT? (nên đọc chậm)
+## 3. Giải thích: Vì sao đếm đường cong trên MỘT mặt lại đưa về thể tích trên KHÔNG GIAN MỌI MẶT?
 
 Làm thế nào Mirzakhani vừa tính được thể tích không gian mô-đun, vừa suy ra công thức đếm $$N_X(L) \sim c_X L^{6g-6}$$? Hãy theo dõi mạch 4 bước sau:
 

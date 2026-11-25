@@ -13,7 +13,7 @@ In London in 1852, a young graduate named **Francis Guthrie** was coloring a map
 
 Nobody guessed that this innocent crayon puzzle would torment mathematicians for **124 years**. In 1879, barrister and mathematician Alfred Kempe published an elegant proof and the world celebrated—until eleven years later, Percy Heawood uncovered a subtle fatal flaw hidden in Kempe’s color-swapping chains (the argument sufficed for **Five Colors**, not Four!). Only in 1976 did **Kenneth Appel** and **Wolfgang Haken** close the case by enlisting a computer to audit nearly two thousand local configurations—making the Four Color Theorem the first major theorem whose proof made **essential use of a computer**.
 
-**Lesson roadmap:** Background Knowledge Map (planar graphs, duality, Euler’s formula, formal verification in Coq) → Statement and the $$K_4/K_5$$ intuition trap → Minimal counterexamples and unavoidable sets → Deep-Dive Explanation (Read Slowly): deriving $$\sum (6 - \deg(v)) = 12$$ by hand, checking platonic solids, and tracing Kempe’s 5-color chain swap → Discharging and formal verification.
+**Lesson roadmap:** Key ideas (planar graphs, duality, Euler’s formula, formal verification in Coq) → Statement and the $$K_4/K_5$$ intuition trap → Minimal counterexamples and unavoidable sets → Explanation: deriving $$\sum (6 - \deg(v)) = 12$$ by hand, checking platonic solids, and tracing Kempe’s 5-color chain swap → Discharging and formal verification.
 
 ---
 
@@ -32,7 +32,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: Planar Graphs, Chromatic Number, and Computer-Assisted Proofs
+## Key ideas: Planar Graphs, Chromatic Number, and Computer-Assisted Proofs
 
 Before diving into discharging and reducibility, anchor the theorem in three pillars of university discrete mathematics and computer science:
 
@@ -80,7 +80,7 @@ If every configuration in an unavoidable set $$\mathcal{U}$$ is reducible, then 
 
 ---
 
-## 4. Deep-Dive Explanation (Read Slowly): Deriving the "Charge" Equation and Running a Kempe Chain by Hand
+## 4. Explanation: Deriving the "Charge" Equation and Running a Kempe Chain by Hand
 
 To see how *discharging* and *Kempe chains* actually work with pen and paper, verify three concrete steps:
 

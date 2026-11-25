@@ -12,14 +12,14 @@ lesson_type: required
 
 Nhúng một vòng dây đồng vào nước xà phòng rồi nhẹ nhàng nhấc lên: màng xà phòng lập tức căng ra thành một mặt cong mượt mà có diện tích nhỏ nhất có thể. Tự nhiên rất chuộng những trạng thái "cực tiểu hóa năng lượng" như thế. Nhưng điều gì xảy ra nếu ta thử kéo căng một màng năng lượng không phải trong không gian 3 chiều quen thuộc, mà là các **trường lực vật lý** sống trên một không gian cong 4 chiều? Năng lượng có thể không chịu trải đều êm ái, mà đột ngột dồn nén lại tại một điểm duy nhất—và từ điểm đó, một **"bong bóng" (bubble)** năng lượng tự tách ra như một giọt xà phòng nhỏ bứt khỏi màng lớn!
 
-Người đầu tiên chế ngự được những bong bóng kỳ dị ấy bằng những ước lượng giải tích sắc bén, đặt nền móng vững chắc cho cả một nhánh mới của toán học và vật lý toán, là **Karen Keskulla Uhlenbeck**. Năm **2019**, bà trở thành **nữ nhà toán học đầu tiên** nhận **Giải Abel**:
+Người đầu tiên chế ngự được những bong bóng kỳ dị ấy bằng những ước lượng giải tích sắc bén, đặt nền tảng cho cả một nhánh mới của toán học và vật lý toán, là **Karen Keskulla Uhlenbeck**. Năm **2019**, bà trở thành **nữ nhà toán học đầu tiên** nhận **Giải Abel**:
 
 > “for her pioneering achievements in geometric partial differential equations, gauge theory and integrable systems, and for the fundamental impact of her work on analysis, geometry and mathematical physics.”  
 > — [Citation của ủy ban Abel](https://abelprize.no/abel-prize-laureates/2019)
 
 Câu chuyện của Uhlenbeck là minh họa đẹp nhất cho "toán học hạ tầng": nếu thiếu những định lý về tính compact, bong bóng và kỳ dị khử được mà bà xây dựng, cả cuộc cách mạng tôpô 4 chiều của Simon Donaldson và mối lương duyên hiện đại giữa lý thuyết trường lượng tử với hình học đã không thể cất cánh. Tài liệu chính thức: [abelprize.no](https://abelprize.no/).
 
-**Mạch bài học:** Bản đồ kiến thức nền (Phân thớ, liên thông, độ cong, giải tích hình học) → Lý thuyết gauge và năng lượng Yang–Mills → Vì sao giải tích là nút thắt → Khung giải thích chậm: tính tay tính bất biến bảo giác và hiện tượng bong bóng năng lượng → Các định lý đột phá của Uhlenbeck → Không gian moduli và cố định gauge.
+**Mạch bài học:** Kiến thức cần nhớ (Phân thớ, liên thông, độ cong, giải tích hình học) → Lý thuyết gauge và năng lượng Yang–Mills → Vì sao giải tích là nút thắt → Giải thích: tính tay tính bất biến bảo giác và hiện tượng bong bóng năng lượng → Các định lý đột phá của Uhlenbeck → Không gian moduli và cố định gauge.
 
 ---
 
@@ -31,7 +31,7 @@ Sau bài này, bạn có thể giải thích các đối tượng gauge (liên t
 
 ---
 
-## Bản đồ kiến thức nền: Giải tích hình học và lý thuyết trường chuẩn (Gauge Theory) là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Giải tích hình học và lý thuyết trường chuẩn (Gauge Theory) là gì và nghiên cứu những gì?
 
 Khi nghe hai cụm từ **giải tích hình học (geometric analysis)** và **lý thuyết trường chuẩn (gauge theory)**, nhiều sinh viên đại học dễ nghĩ ngay đến các phương trình phức tạp trong vật lý hạt cơ bản. Thật ra, ý tưởng cốt lõi của chúng đứng trên ba trụ cột hình học vô cùng gần gũi:
 
@@ -76,7 +76,7 @@ Không gian của tất cả các liên thông—ngay cả sau khi đã gom nh�
 - Hoặc một phần năng lượng đột ngột **tập trung** vào một vài điểm cô lập (hoặc tập có chiều thấp hơn), khiến độ cong tại đó tăng vọt lên vô cực;  
 - Tại mỗi điểm tập trung ấy, nếu bạn dùng kính hiển vi phóng đại liên tục không gian xung quanh, một nghiệm Yang–Mills hoàn chỉnh trên mặt cầu $$S^4$$ (hay $$\mathbb{R}^4$$) sẽ hiện ra như một **"bong bóng" (bubble)** tách khỏi mặt nền.
 
-### Khung giải thích: Vì sao ở chiều tới hạn lại xuất hiện "bong bóng" năng lượng? (nên đọc chậm)
+### Giải thích: Vì sao ở chiều tới hạn lại xuất hiện "bong bóng" năng lượng?
 
 Tại sao hiện tượng bong bóng năng lượng của Yang–Mills lại đặc biệt bùng nổ ở đúng **chiều $$n = 4$$** (và với ánh xạ điều hòa ở đúng **chiều $$n = 2$$**)? Bạn có thể tự tay kiểm tra bằng hai phép tính giải tích năm nhất dưới đây!
 

@@ -38,7 +38,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: How Do Logic, Hodge Theory, and Number Theory Collide?
+## Key ideas: How Do Logic, Hodge Theory, and Number Theory Collide?
 
 Tsimerman’s Fields Medal is a textbook example of an unexpected mathematical bridge uniting three fields that rarely spoke to one another a generation ago.
 
@@ -99,7 +99,7 @@ A second pillar is **period maps**: given a family of algebraic varieties over a
 
 ---
 
-### Deep-Dive Explanation: How Tsimerman Turned O-Minimality into an Arithmetic Engine (Read Slowly)
+### Explanation: How Tsimerman Turned O-Minimality into an Arithmetic Engine
 
 How do you combine a theorem from mathematical logic (Pila–Wilkie) with number theory to prove André–Oort for $$\mathcal{A}_g$$ and Griffiths’ conjecture? Follow the four-step engine slowly:
 

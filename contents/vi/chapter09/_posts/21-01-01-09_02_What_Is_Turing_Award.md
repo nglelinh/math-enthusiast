@@ -29,7 +29,7 @@ Sau bài này bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Toán học tính toán là gì và các Giải Turing nghiên cứu những gì?
+## Kiến thức cần nhớ: Toán học tính toán là gì và các Giải Turing nghiên cứu những gì?
 
 Khi một người tốt nghiệp đại học nhìn vào danh sách Giải Turing gần 60 năm qua, họ thường thấy một bức tranh tưởng chừng rất phân mảnh: người làm trình biên dịch, người làm hệ điều hành UNIX, người làm cơ sở dữ liệu quan hệ, người lại chứng minh định lý về đồ thị giãn hay số nguyên tố. Điểm chung sâu xa của họ là gì?
 
@@ -63,7 +63,7 @@ Mở bất kỳ lời trích dẫn nào trên [amturing.acm.org](https://amturin
 
 Các động từ hay gặp là *mở ra*, *tiên phong*, *định hình*, *đặt nền tảng*. Giải Turing ghi nhận những thay đổi cả một lĩnh vực tính toán, chứ không chỉ một sản phẩm phần mềm.
 
-### Ví dụ cầm tay chỉ việc: "Giải phẫu" một lời trích dẫn Giải Turing thành phép tính cụ thể
+### Ví dụ làm từng bước: "Giải phẫu" một lời trích dẫn Giải Turing thành phép tính cụ thể
 
 Khi đọc trích dẫn Giải Turing 2012 của Shafi Goldwasser và Silvio Micali (*"transformative work that laid the complexity-theoretic foundations for the science of cryptography"*), đừng chỉ đọc lướt qua các tính từ khen ngợi. Hãy bóc tách đúng một ý tưởng cốt lõi bên trong — **mã hóa xác suất** — bằng phép tính số nhỏ modulo $$N = 3 \times 5 = 15$$:
 
@@ -74,7 +74,7 @@ Khi đọc trích dẫn Giải Turing 2012 của Shafi Goldwasser và Silvio Mic
   - Để mã hóa bit `1`, nhân thêm một số không phải bình phương $$z = 2$$: gửi $$c = 2r^2 \bmod 15$$ (với $$r=2 \implies c=8$$; với $$r=4 \implies c=2$$).
 - Kết quả: cùng gửi bit `0` hai lần nhưng bản mã lúc ra `4`, lúc ra `1`! Người biết thừa số $$p=3, q=5$$ kiểm tra bình phương modulo 3 và 5 trong chớp mắt, còn kẻ chỉ biết $$N$$ lớn hàng nghìn bit không thể phân biệt nổi bản mã của `0` và `1`. Từ một câu trích dẫn ngắn của Giải Turing, ta chạm thẳng vào một cơ chế toán học rõ mồn một!
 
-### Khung giải thích: Quy trình 4 bước đọc một Giải Turing bằng con mắt người làm toán–tin (nên đọc chậm)
+### Giải thích: Quy trình 4 bước đọc một Giải Turing bằng con mắt người làm toán–tin
 
 1. **Gạch chân các danh từ kỹ thuật trong lời trích dẫn:** tách khỏi lời khen xã giao để tìm đúng đối tượng toán học (máy Turing, phép quy dẫn, mã hóa xác suất, đồ thị nhân quả, bộ sinh giả ngẫu nhiên).
 2. **Xác định tầng câu hỏi mà công trình trả lời:** nó thuộc tầng *tính được* (Turing), tầng *ranh giới P vs NP* (Cook–Karp), tầng *tối ưu bên trong P* (Knuth, Hopcroft–Tarjan), tầng *bảo mật/tương tác* (RSA, Goldwasser–Micali), hay tầng *học & nhân quả* (Valiant, Pearl)?

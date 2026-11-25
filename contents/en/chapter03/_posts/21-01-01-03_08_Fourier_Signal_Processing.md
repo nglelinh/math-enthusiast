@@ -16,7 +16,7 @@ That “un-blending a smoothie back into separate fruits” magic is **Fourier A
 
 ---
 
-## Background Knowledge Map: What Is Fourier Analysis and What Does It Study?
+## Key ideas: What Is Fourier Analysis and What Does It Study?
 
 If linear algebra teaches you to rotate coordinate axes in 3D space so a shape looks simpler, **Fourier analysis (harmonic analysis)** does the exact same thing for **spaces of functions and signals**.
 
@@ -155,7 +155,7 @@ Modern compressed sensing weakens classical sampling under sparsity assumptions�
 
 ---
 
-### Deep-Dive Explanation: From Continuous Sound to MP3/5G—Plus a 4-Point DFT by Hand (Read Slowly)
+### Explanation: From Continuous Sound to MP3/5G—Plus a 4-Point DFT by Hand
 
 Every modern signal pipeline (MP3, JPEG, 5G OFDM, MRI) follows four steps—and you can watch the frequency-domain magic happen by hand on a 4-sample signal $$x = (2, 0, -2, 0)$$:
 

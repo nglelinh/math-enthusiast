@@ -17,7 +17,7 @@ Bài này thuộc nhánh Cầu nối Vật lý–Toán, đi qua bốn gương m�
 
 ---
 
-## Bản đồ kiến thức nền: Giải tích điều hòa và Các nguyên lý bất định đứng trên ba trụ cột nào?
+## Kiến thức cần nhớ: Giải tích điều hòa và Các nguyên lý bất định đứng trên ba trụ cột nào?
 
 Nếu bạn đã quen với biến đổi Fourier trong xử lý tín hiệu và bất đẳng thức Cauchy–Schwarz trong đại số tuyến tính, hãy nhìn qua ba trụ cột của họ định lý bất định:
 
@@ -177,7 +177,7 @@ $$
 
 trong đó $$H$$ là entropy Shannon của phân bố kết quả đo. Với một qubit đo theo cơ sở tính toán $$\{|0\rangle, |1\rangle\}$$ và cơ sở Hadamard $$\{|+\rangle, |-\rangle\}$$, mọi tích vô hướng đều có độ lớn $$c=1/\sqrt{2}$$, nên $$H(A) + H(B) \ge 1\text{ bit}$$!
 
-### Khung giải thích: tự tay so sánh cận Robertson và cận entropy Maassen–Uffink trên một qubit (nên đọc chậm)
+### Giải thích: tự tay so sánh cận Robertson và cận entropy Maassen–Uffink trên một qubit
 
 Hãy chọn một trạng thái qubit cụ thể: $$\psi = \begin{pmatrix} \sqrt{3}/2 \\ 1/2 \end{pmatrix}$$ (góc $$\theta = \pi/3$$ trên mặt cầu Bloch), và đo hai toán tử Pauli $$Z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$$ và $$X = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$$:
 

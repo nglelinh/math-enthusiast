@@ -30,7 +30,7 @@ Sau bài học, bạn có thể: phát biểu định nghĩa **học được th
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết học tính toán (PAC) và Độ phức tạp bài toán đếm (#P) là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Lý thuyết học tính toán (PAC) và Độ phức tạp bài toán đếm (#P) là gì, nghiên cứu những gì?
 
 Hai đóng góp nổi tiếng nhất của Valiant nằm ở hai mảng tưởng như xa nhau nhưng cùng xoay quanh một câu hỏi: *đâu là ranh giới của tính toán hiệu quả?*
 
@@ -64,7 +64,7 @@ Hai tham số này tách riêng hai nguồn bất định: sự ngẫu nhiên c�
 
 Mô hình PAC cổ điển thường giả sử **khả thực** (realizable): $$c\in\mathcal{C}$$. **PAC bất khả tri** (agnostic) nhắm đến giả thuyết tốt nhất trong lớp: đo rủi ro vượt so với $$\inf_{h\in\mathcal{H}} R(h)$$. Học máy trong thực tế gần với trường hợp bất khả tri hơn; các định lý về số mẫu và độ khó thay đổi tùy theo từng trường hợp. Xem bài [Lý thuyết học máy]({{ site.baseurl }}/contents/vi/chapter06/06_10_ML_Theory/).
 
-### Khung giải thích: Ba bước hiểu trọn mô hình học PAC và ranh giới với Deep Learning (nên đọc chậm)
+### Giải thích: Ba bước hiểu trọn mô hình học PAC và ranh giới với Deep Learning
 
 1. **Chấp nhận hai mức nới lỏng bắt buộc ($$\varepsilon, \delta$$):** vì dữ liệu chỉ là mẫu ngẫu nhiên hữu hạn, không bao giờ có thể cam kết sai số $$0\%$$ chắc chắn $$100\%$$; ta chỉ cam kết sai số $$\le \varepsilon$$ với độ tin cậy $$\ge 1-\delta$$.
 2. **Tách bạch hai cổ chai: số mẫu (thống kê) vs thời gian (thuật toán):** chiều VC hữu hạn bảo đảm *chỉ cần đủ mẫu* là ERM sẽ tổng quát hóa, nhưng tìm được nghiệm ERM trong thời gian đa thức lại là bài toán thuật toán có thể NP-khó!
@@ -115,7 +115,7 @@ Lớp **NP** hỏi: có *tồn tại* lời chứng (witness) không? Lớp **#P
 
 Hệ quả là nhiều bài toán "thống kê tổ hợp" (đếm cặp ghép, đếm số cách tô màu, hàm phân hoạch trong vật lý thống kê) đều khó về mặt đếm, ngay cả khi phiên bản quyết định nằm trong P. Ví dụ tiêu biểu nhất là **permanent**.
 
-### Ví dụ cầm tay chỉ việc: Tự tính Định thức vs Permanent cho ma trận $$3\times 3$$ (đếm ghép cặp hoàn hảo)
+### Ví dụ làm từng bước: Tự tính Định thức vs Permanent cho ma trận $$3\times 3$$ (đếm ghép cặp hoàn hảo)
 
 Xét 3 kỹ sư (hàng 1, 2, 3) và 3 dự án (cột 1, 2, 3), trong đó $$a_{ij} = 1$$ nếu kỹ sư $$i$$ làm được dự án $$j$$:
 

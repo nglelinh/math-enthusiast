@@ -15,7 +15,7 @@ Classical analysts objected immediately: under rigorous Lebesgue integration, an
 
 ---
 
-## Background Knowledge Map: What Is Distribution Theory and What Does It Study?
+## Key ideas: What Is Distribution Theory and What Does It Study?
 
 Classical calculus defines a function $$f$$ by specifying its **pointwise value** $$x \mapsto f(x)$$ at every individual point. That viewpoint breaks immediately for natural physical ideals: an instantaneous hammer strike (impulse), a point electron charge, or an abrupt on/off switch (jump discontinuity with no classical derivative at $$t = 0$$).
 
@@ -88,7 +88,7 @@ Integration by parts with vanishing boundary terms (compact support) motivates t
 
 ---
 
-### Deep-Dive Explanation: Differentiating a Jump Discontinuity by Hand in 3 Lines (Read Slowly)
+### Explanation: Differentiating a Jump Discontinuity by Hand in 3 Lines
 
 How does distribution theory rigorously prove the engineer’s favorite slogan that “the derivative of a step switch $$H(x)$$ is the Dirac delta $$\delta_0$$”? Follow the exact four-step rescue—and verify two derivatives by hand:
 

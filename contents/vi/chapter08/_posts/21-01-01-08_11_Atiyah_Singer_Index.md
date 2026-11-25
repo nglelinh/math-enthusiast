@@ -31,7 +31,7 @@ Sau bài này, bạn có thể phát biểu **định lý chỉ số Atiyah–Si
 
 ---
 
-## Bản đồ kiến thức nền: Tôpô vi phân, toán tử elliptic và lý thuyết chỉ số là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Tôpô vi phân, toán tử elliptic và lý thuyết chỉ số là gì và nghiên cứu những gì?
 
 Định lý chỉ số Atiyah–Singer đứng ngay tại ngã ba của ba nhánh lớn trong toán học đại học và sau đại học. Hãy nắm rõ từng trụ cột trước khi đi vào công thức:
 
@@ -44,7 +44,7 @@ Trong thế giới PDE tuyến tính, có ba họ quen thuộc: phương trình 
 ### 3. Chỉ số giải tích vs. Chỉ số tôpô — nghiên cứu gì?
 Với một toán tử tuyến tính $$D$$, số nghiệm $$\dim \ker D$$ đôi khi có thể nhảy bất ngờ nếu bạn hơi nhích các hệ số của phương trình. Nhưng hiệu **$$\mathrm{ind}(D) = \dim \ker D - \dim \mathrm{coker}\, D$$** lại cực kỳ **bền vững**: mỗi khi một nghiệm mới xuất hiện đột ngột, nó luôn kéo theo đúng một ràng buộc mới ở $$\mathrm{coker}\, D$$ để hiệu số không đổi! Vì là một số nguyên bất biến dưới biến dạng liên tục, chỉ số giải tích nhất định phải là một đại lượng tôpô—và Định lý Atiyah–Singer chỉ ra chính xác công thức tích phân tôpô đó.
 
-### Khung giải thích: Ba phép tính cầm tay chỉ việc giải mã Định lý chỉ số (nên đọc chậm)
+### Giải thích: Ba phép tính làm từng bước giải mã Định lý chỉ số
 
 Để cảm nhận tận tay vì sao hiệu $$\dim \ker - \dim \mathrm{coker}$$ lại bất biến và bằng đúng một đại lượng tôpô, ta kiểm tra ba mô hình nhỏ từ hữu hạn chiều đến vô hạn chiều và bề mặt cong:
 
@@ -123,7 +123,7 @@ $$
 \dim \ker A - \dim \mathrm{coker}\, A = m - n.
 $$
 
-Như ta vừa kiểm tra ở Phép tính 1 trong Khung giải thích, khi tham số ma trận thay đổi khiến hạng tụt giảm, $$\dim \ker A$$ và $$\dim \mathrm{coker}\, A$$ cùng nhảy lên một lượng như nhau để giữ nguyên hiệu $$m - n$$. Bước đột phá của toán học thế kỷ XX là đưa được nguyên lý đó sang **không gian vô hạn chiều** (như Phép tính 2 trên $$S^1$$ và các toán tử elliptic trên đa tạp $$M$$): ở vô hạn chiều ta không còn "$$\infty - \infty$$", mà các lớp đặc trưng của bó vector và đa tạp đứng ra đóng vai trò của $$m - n$$!
+Như ta vừa kiểm tra ở Phép tính 1 trong Giải thích, khi tham số ma trận thay đổi khiến hạng tụt giảm, $$\dim \ker A$$ và $$\dim \mathrm{coker}\, A$$ cùng nhảy lên một lượng như nhau để giữ nguyên hiệu $$m - n$$. Bước đột phá của toán học thế kỷ XX là đưa được nguyên lý đó sang **không gian vô hạn chiều** (như Phép tính 2 trên $$S^1$$ và các toán tử elliptic trên đa tạp $$M$$): ở vô hạn chiều ta không còn "$$\infty - \infty$$", mà các lớp đặc trưng của bó vector và đa tạp đứng ra đóng vai trò của $$m - n$$!
 
 ---
 

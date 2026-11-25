@@ -13,7 +13,7 @@ Picture a billiard table shaped like an exotic polygon, and imagine striking a f
 
 In 2014, **Maryam Mirzakhani** (1977–2017) became the **first woman** in history to receive the **Fields Medal**, honored for transforming how mathematicians measure, count, and run dynamical systems on **Riemann surfaces** and their moduli spaces. Rather than treating moduli space as an ethereal abstraction, Mirzakhani made this "universe of shapes" both **computable** (exact recursive formulas for its volumes and curve counts) and **dynamical** (ergodic flows and the celebrated *Magic Wand Theorem* with Alex Eskin), uniting hyperbolic geometry, Teichmüller theory, and ergodic dynamics.
 
-**Lesson roadmap:** Background Knowledge Map (hyperbolic geometry, moduli space via tori $$\mathbb{H}/\mathrm{SL}_2(\mathbb{Z})$$, ergodic theory) → Counting the $$6g-6$$ Fenchel–Nielsen coordinates by hand → Counting simple closed geodesics → Deep-Dive Explanation (Read Slowly): Weil–Petersson volumes, $$V_{1,1}(L)$$, and why counting on *one* surface integrates over *all* surfaces → Earthquake flow, billiards, and the Magic Wand Theorem.
+**Lesson roadmap:** Key ideas (hyperbolic geometry, moduli space via tori $$\mathbb{H}/\mathrm{SL}_2(\mathbb{Z})$$, ergodic theory) → Counting the $$6g-6$$ Fenchel–Nielsen coordinates by hand → Counting simple closed geodesics → Explanation: Weil–Petersson volumes, $$V_{1,1}(L)$$, and why counting on *one* surface integrates over *all* surfaces → Earthquake flow, billiards, and the Magic Wand Theorem.
 
 ---
 
@@ -33,7 +33,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: Hyperbolic Geometry, Moduli Space, and Ergodic Theory
+## Key ideas: Hyperbolic Geometry, Moduli Space, and Ergodic Theory
 
 ### 1. What Does Hyperbolic Geometry Study?
 In flat Euclidean geometry, a triangle's angles sum to $$180^\circ$$ (curvature $$0$$). On a sphere, triangles bulge outward so angles sum to $$> 180^\circ$$ (curvature $$+1$$). **Hyperbolic geometry** is the saddle-shaped third world: constant negative curvature $$-1$$, angles summing to $$< 180^\circ$$, and triangle area equal to the angle defect $$\pi - (\alpha + \beta + \gamma)$$! Its standard model is the **upper half-plane** $$\mathbb{H} = \{x + iy : y > 0\}$$ with length element $$ds = \frac{\sqrt{dx^2 + dy^2}}{y}$$, where "straight lines" (**geodesics**) are vertical rays and semicircles meeting the real axis at right angles. By the **Uniformization Theorem**, every closed surface with **two or more holes** (genus $$g \ge 2$$) naturally carries a hyperbolic metric!
@@ -73,7 +73,7 @@ The exponent $$6g - 6$$ matches the real dimension of moduli space! Even more re
 
 ---
 
-## 3. Deep-Dive Explanation: From Counting on One Surface to Volumes of Moduli Space (Read Slowly)
+## 3. Explanation: From Counting on One Surface to Volumes of Moduli Space
 
 #### Step 1: The Weil–Petersson Volume Form
 By Wolpert's theorem, the **Weil–Petersson (WP)** symplectic form in Fenchel–Nielsen coordinates is astonishingly simple:

@@ -35,7 +35,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: Why Do Discrete Counting and Smooth Geometry Need Each Other?
+## Key ideas: Why Do Discrete Counting and Smooth Geometry Need Each Other?
 
 At university, combinatorics (counting graphs, subsets, and colorings) and algebraic geometry (curved manifolds cut out by polynomials) are usually taught in completely different buildings. Modern mathematics thrives precisely where those two buildings connect.
 
@@ -103,7 +103,7 @@ Now compare that with the 3 edges $$\{e_1, e_2, e_3\}$$ of the triangle graph $$
 
 ---
 
-### Deep-Dive Explanation: How Huh Proved Log-Concavity Without Geometry (Read Slowly)
+### Explanation: How Huh Proved Log-Concavity Without Geometry
 
 Why did a 50-year-old counting conjecture suddenly surrender to complex algebraic geometry? Follow the four-step arc slowly:
 

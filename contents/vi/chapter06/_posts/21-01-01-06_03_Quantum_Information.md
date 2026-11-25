@@ -17,7 +17,7 @@ Chồng chập, vướng víu và phép đo hoàn toàn không phải phép thu�
 
 ---
 
-## Bản đồ kiến thức nền: Thông tin lượng tử là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Thông tin lượng tử là gì và nghiên cứu những gì?
 
 Nếu lý thuyết thông tin cổ điển của Shannon nghiên cứu cách nén, truyền và bảo vệ các chuỗi bit $$0/1$$ qua kênh nhiễu, thì **Khoa học Thông tin Lượng tử** (Quantum Information Science) đặt lại đúng những câu hỏi đó khi vật mang tin tuân theo định luật lượng tử. Bạn không cần học trước cơ học lượng tử vật lý để nắm trục xương sống toán học của ngành này — cốt lõi của nó đứng trên **bốn trụ cột**:
 
@@ -99,22 +99,44 @@ là ví dụ chuẩn. Thử kiểm tra nhanh bằng đại số: nếu $$\lvert\
 
 ---
 
-### Khung giải thích: tự tay dựng trạng thái Bell và vượt ngưỡng cổ điển CHSH (nên đọc chậm)
+### Giải thích: tự tay dựng trạng thái Bell và vượt ngưỡng cổ điển CHSH
 
-Để thấy "vướng víu lượng tử" không phải là câu chuyện siêu hình mà là phép nhân ma trận $$4	imes 4$$ rất cụ thể, hãy tự tay biến hai qubit độc lập $$\lvert 00angle$$ thành trạng thái vướng víu Bell $$\lvert \Phi^+angle$$, rồi kiểm tra tại sao nó phá vỡ giới hạn $$2$$ của mọi chiến lược cổ điển.
+Để thấy "vướng víu lượng tử" không phải là câu chuyện siêu hình mà là phép nhân ma trận $$4	imes 4$$ rất cụ thể, hãy tự tay biến hai qubit độc lập $$\lvert 00
+angle$$ thành trạng thái vướng víu Bell $$\lvert \Phi^+
+angle$$, rồi kiểm tra tại sao nó phá vỡ giới hạn $$2$$ của mọi chiến lược cổ điển.
 
-1. **Dựng mạch Bell bằng ma trận:** Trong cơ sở $$\{\lvert 00angle, \lvert 01angle, \lvert 10angle, \lvert 11angle\}$$, trạng thái đầu là $$\lvert 00angle = (1, 0, 0, 0)^	op$$.
-   - **Bước 1 — Cổng Hadamard lên qubit thứ nhất ($$H \otimes I$$):** biến $$\lvert 0angle \mapsto rac{\lvert 0angle + \lvert 1angle}{\sqrt{2}}$$ và giữ nguyên qubit thứ hai:
-     $$\lvert \psi_1angle = rac{1}{\sqrt{2}}(\lvert 00angle + \lvert 10angle) = rac{1}{\sqrt{2}}(1, 0, 1, 0)^	op.$$
+1. **Dựng mạch Bell bằng ma trận:** Trong cơ sở $$\{\lvert 00
+angle, \lvert 01
+angle, \lvert 10
+angle, \lvert 11
+angle\}$$, trạng thái đầu là $$\lvert 00
+angle = (1, 0, 0, 0)^	op$$.
+   - **Bước 1 — Cổng Hadamard lên qubit thứ nhất ($$H \otimes I$$):** biến $$\lvert 0
+angle \mapsto rac{\lvert 0
+angle + \lvert 1
+angle}{\sqrt{2}}$$ và giữ nguyên qubit thứ hai:
+     $$\lvert \psi_1
+angle = rac{1}{\sqrt{2}}(\lvert 00
+angle + \lvert 10
+angle) = rac{1}{\sqrt{2}}(1, 0, 1, 0)^	op.$$
      Lúc này hai qubit vẫn hoàn toàn tách rời (chưa vướng víu).
-   - **Bước 2 — Cổng CNOT (lật qubit 2 nếu qubit 1 bằng 1):** tác động lên $$\lvert 10angle \mapsto \lvert 11angle$$ và giữ nguyên $$\lvert 00angle$$:
-     $$\mathrm{CNOT}\,\lvert \psi_1angle = egin{pmatrix}1&0&0&0\0&1&0&0\0&0&0&1\0&0&1&0\end{pmatrix}rac{1}{\sqrt{2}}egin{pmatrix}1\0\1\0\end{pmatrix} = rac{1}{\sqrt{2}}egin{pmatrix}1\0\0\1\end{pmatrix} = rac{\lvert 00angle + \lvert 11angle}{\sqrt{2}} = \lvert \Phi^+angle.$$
+   - **Bước 2 — Cổng CNOT (lật qubit 2 nếu qubit 1 bằng 1):** tác động lên $$\lvert 10
+angle \mapsto \lvert 11
+angle$$ và giữ nguyên $$\lvert 00
+angle$$:
+     $$\mathrm{CNOT}\,\lvert \psi_1
+angle = egin{pmatrix}1&0&0&0\0&1&0&0\0&0&0&1\0&0&1&0\end{pmatrix}rac{1}{\sqrt{2}}egin{pmatrix}1\0\1\0\end{pmatrix} = rac{1}{\sqrt{2}}egin{pmatrix}1\0\0\1\end{pmatrix} = rac{\lvert 00
+angle + \lvert 11
+angle}{\sqrt{2}} = \lvert \Phi^+
+angle.$$
 
 2. **Kiểm tra bằng tay giới hạn CHSH $$2\sqrt{2} > 2$$:**
    - **Chiến lược cổ điển:** Alice chọn hai số định sẵn $$a_0, a_1 \in \{-1, +1\}$$ và Bob chọn $$b_0, b_1 \in \{-1, +1\}$$. Xét tổ hợp
      $$S = a_0 b_0 + a_0 b_1 + a_1 b_0 - a_1 b_1 = a_0(b_0 + b_1) + a_1(b_0 - b_1).$$
-     Vì $$b_0, b_1 \in \{\pm 1\}$$, một trong hai ngoặc $$(b_0 + b_1)$$ hoặc $$(b_0 - b_1)$$ bắt buộc bằng $$0$$, ngoặc còn lại bằng $$\pm 2$$. Do đó mọi chiến lược cổ điển (kể cả trộn ngẫu nhiên) luôn thỏa $$\lvert S vert \le 2$$.
-   - **Chiến lược lượng tử trên cặp $$\lvert \Phi^+angle$$:** Nếu Alice đo theo góc $$lpha$$ và Bob đo theo góc $$eta$$ (quy ước góc spin trên mặt phẳng Bloch), kỳ vọng tích hai kết quả đo bằng $$E(lpha, eta) = \cos(lpha - eta)$$. Chọn đúng bốn góc trong video trên: $$lpha_0 = 0^\circ,\ lpha_1 = 90^\circ,\ eta_0 = 45^\circ,\ eta_1 = -45^\circ$$:
+     Vì $$b_0, b_1 \in \{\pm 1\}$$, một trong hai ngoặc $$(b_0 + b_1)$$ hoặc $$(b_0 - b_1)$$ bắt buộc bằng $$0$$, ngoặc còn lại bằng $$\pm 2$$. Do đó mọi chiến lược cổ điển (kể cả trộn ngẫu nhiên) luôn thỏa $$\lvert S 
+vert \le 2$$.
+   - **Chiến lược lượng tử trên cặp $$\lvert \Phi^+
+angle$$:** Nếu Alice đo theo góc $$lpha$$ và Bob đo theo góc $$eta$$ (quy ước góc spin trên mặt phẳng Bloch), kỳ vọng tích hai kết quả đo bằng $$E(lpha, eta) = \cos(lpha - eta)$$. Chọn đúng bốn góc trong video trên: $$lpha_0 = 0^\circ,\ lpha_1 = 90^\circ,\ eta_0 = 45^\circ,\ eta_1 = -45^\circ$$:
      - $$E(0^\circ, 45^\circ) = \cos(-45^\circ) = rac{\sqrt{2}}{2}$$,
      - $$E(0^\circ, -45^\circ) = \cos(45^\circ) = rac{\sqrt{2}}{2}$$,
      - $$E(90^\circ, 45^\circ) = \cos(45^\circ) = rac{\sqrt{2}}{2}$$,

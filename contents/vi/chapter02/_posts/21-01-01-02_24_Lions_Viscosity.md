@@ -13,7 +13,7 @@ Hãy thử giải một phương trình vi phân cấp một trông đơn giản
 
 Câu hỏi tưởng chừng nhỏ bé đó đã châm ngòi cho một cuộc cách mạng trong giải tích phi tuyến cuối thế kỷ XX. Năm 1994 tại ICM Zürich, **Pierre-Louis Lions** nhận **Huy chương Fields** — như S. R. S. Varadhan trình bày trong diễn văn ICM, không phải cho một giả thuyết đơn lẻ mà cho cả một **chương trình nghiên cứu** trải rộng từ xác suất đến phương trình đạo hàm riêng phi tuyến, luôn nảy sinh từ bài toán ứng dụng. Trụ cột nổi tiếng nhất của chương trình đó là lý thuyết **nghiệm nhớt** (*viscosity solutions*) — do **Crandall–Lions** khởi xướng (1983), được **Evans**, **Ishii**, **Souganidis** mở rộng sang phương trình cấp hai phi tuyến hoàn toàn, và kết tinh trong bài *User's Guide* kinh điển của **Crandall–Ishii–Lions** (1992). Bên cạnh đó là hai trụ cột độc lập khác: lý thuyết **DiPerna–Lions** (phương trình Boltzmann và vận chuyển) và **nguyên lý tập trung–compact**. Bài học này cũng tách rõ hai ranh giới: Lions **không** giải bài toán Clay về Navier–Stokes không nén 3D, và **trò chơi trường trung bình** (Lasry–Lions, 2006) là ảnh hưởng rực rỡ *về sau*, không thuộc lời trao giải năm 1994.
 
-**Mạch bài học:** Bản đồ kiến thức nền (PDE phi tuyến hoàn toàn vs. nghiệm phân phối) → Ví dụ cầm tay chỉ việc: giải phương trình eikonal $$\vert u'(x)\vert = 1$$ bằng phép thử chạm đồ thị và giới hạn độ nhớt $$-\varepsilon u''$$ → Khung giải thích chậm: 4 bước từ định nghĩa hàm thử đến nguyên lý so sánh và tính ổn định → Hai trụ cột khác (DiPerna–Lions và tập trung–compact) → Những điều huy chương 1994 không khẳng định.
+**Mạch bài học:** Kiến thức cần nhớ (PDE phi tuyến hoàn toàn vs. nghiệm phân phối) → Ví dụ làm từng bước: giải phương trình eikonal $$\vert u'(x)\vert = 1$$ bằng phép thử chạm đồ thị và giới hạn độ nhớt $$-\varepsilon u''$$ → Giải thích: 4 bước từ định nghĩa hàm thử đến nguyên lý so sánh và tính ổn định → Hai trụ cột khác (DiPerna–Lions và tập trung–compact) → Những điều huy chương 1994 không khẳng định.
 
 ---
 
@@ -34,7 +34,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: PDE phi tuyến hoàn toàn và "nghiệm yếu không dùng tích phân từng phần" là gì?
+## Kiến thức cần nhớ: PDE phi tuyến hoàn toàn và "nghiệm yếu không dùng tích phân từng phần" là gì?
 
 ### 1. Vì sao tích phân từng phần bị vô hiệu hóa?
 Với PDE tuyến tính như phương trình Laplace $$-\Delta u = f$$, khi $$u$$ không khả vi cấp hai, ta nhân với hàm thử trơn $$\varphi$$ rồi tích phân từng phần để đá đạo hàm sang $$\varphi$$: $$\int \nabla u \cdot \nabla\varphi = \int f\varphi$$. Nhưng với **phương trình Hamilton–Jacobi** $$u_t + H(x, \nabla u) = 0$$ (trong điều khiển tối ưu, quang hình học) hay **PDE cấp hai phi tuyến hoàn toàn** $$F(x, u, \nabla u, D^2 u) = 0$$ (như phương trình Hamilton–Jacobi–Bellman hay Monge–Ampère $$\det D^2 u = f$$), đạo hàm của $$u$$ nằm lọt bên trong hàm phi tuyến — **tích phân từng phần hoàn toàn bất lực!**
@@ -44,7 +44,7 @@ Giả sử $$u$$ là hàm trơn $$C^2$$ và một hàm thử trơn $$\varphi$$ c
 
 ---
 
-## 1. Ví dụ cầm tay chỉ việc: giải phương trình eikonal $$\vert u'(x) \vert - 1 = 0$$ trên $$[-1, 1]$$
+## 1. Ví dụ làm từng bước: giải phương trình eikonal $$\vert u'(x) \vert - 1 = 0$$ trên $$[-1, 1]$$
 
 Hãy xét phương trình $$F(u') = \vert u'(x) \vert - 1 = 0$$ trên $$[-1, 1]$$ với $$u(-1) = u(1) = 0$$. Ta có hai ứng cử viên liên tục rõ ràng đều thỏa phương trình ở mọi $$x \neq 0$$:
 - **Cái lều ngửa lên:** $$u_1(x) = 1 - \vert x \vert$$ (đỉnh nhọn tại $$x = 0$$).
@@ -71,7 +71,7 @@ Hãy dùng định nghĩa **nghiệm nhớt** của Crandall–Lions kiểm tra 
 
 ---
 
-## 2. Khung giải thích: Cỗ máy nghiệm nhớt vận hành ra sao cho PDE cấp hai? (nên đọc chậm)
+## 2. Giải thích: Cỗ máy nghiệm nhớt vận hành ra sao cho PDE cấp hai?
 
 Sau bài báo nền tảng cho phương trình cấp một của **Crandall–Lions (1983)** và các mở rộng của **Evans**, **Ishii**, **Souganidis**, toàn bộ lý thuyết cho phương trình cấp hai phi tuyến hoàn toàn $$F(x, u, \nabla u, D^2 u) = 0$$ được hệ thống hóa trong bài *User's Guide* nổi tiếng của **Crandall–Ishii–Lions** (*Bull. Amer. Math. Soc.* 1992; [arXiv:math/9207212](https://arxiv.org/abs/math/9207212)) qua 4 bước:
 

@@ -18,7 +18,7 @@ Yet between knowing "an optimal transport plan exists" and actually *using* the 
 
 Let us state one ground rule upfront: **Figalli did not invent optimal transport.** Monge posed the map problem, Kantorovich relaxed it into a linear program over couplings, Brenier connected quadratic cost to convex potentials, Caffarelli built the first deep regularity theory, and Ambrosio and Villani turned OT into a common language. Figalli’s Fields-level breakthroughs—often jointly with **Guido De Philippis**—sit at the hardest analytic core of that language: proving **Sobolev $$W^{2,1}$$ regularity**, **partial regularity** (controlling the singular set without convexity or MTW assumptions), and **quantitative stability**, turning regularity theory into infrastructure for geometric inequalities, meteorology, and probability. This essay picks up where [Optimal Transport]({{ site.baseurl }}/contents/en/chapter06/06_09_Optimal_Transport/) leaves off, while keeping Figalli’s 2018 medal distinct from his advisor Villani’s 2010 kinetic-theory medal in [Villani / Landau–Boltzmann]({{ site.baseurl }}/contents/en/chapter02/02_29_Villani_Landau_Boltzmann/).
 
-**Lesson roadmap:** Background Knowledge Map (Monge–Kantorovich, Brenier, Monge–Ampère) → Hand-verifiable worked examples (moving 2 sand piles in 1D & tearing a 2D disk into two half-disks) → Deep-Dive Explanation (Read Slowly): from Caffarelli to $$W^{2,1}$$ and De Philippis–Figalli partial regularity → Three major applications (Wulff crystals, semigeostrophic fronts, random matrices) → Separating Figalli 2018 from Villani 2010.
+**Lesson roadmap:** Key ideas (Monge–Kantorovich, Brenier, Monge–Ampère) → Hand-verifiable worked examples (moving 2 sand piles in 1D & tearing a 2D disk into two half-disks) → Explanation: from Caffarelli to $$W^{2,1}$$ and De Philippis–Figalli partial regularity → Three major applications (Wulff crystals, semigeostrophic fronts, random matrices) → Separating Figalli 2018 from Villani 2010.
 
 ---
 
@@ -39,7 +39,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Do Optimal Transport and Monge–Ampère Study?
+## Key ideas: What Do Optimal Transport and Monge–Ampère Study?
 
 ### 1. Monge (1781) vs. Kantorovich (1942)
 Given a source mass distribution $$\mu$$, a target distribution $$\nu$$, and a cost $$c(x,y)$$ to move one unit of mass from $$x$$ to $$y$$:
@@ -88,7 +88,7 @@ This single experiment explains the arc from Caffarelli to Figalli:
 
 ---
 
-## 2. Deep-Dive Explanation: From Caffarelli to $$W^{2,1}$$ and Partial Regularity (Read Slowly)
+## 2. Explanation: From Caffarelli to $$W^{2,1}$$ and Partial Regularity
 
 Figalli trained under **Luigi Ambrosio** (Pisa) and **Cédric Villani** (ENS Lyon), completed his PhD in 2007, and joined ETH Zürich in 2016. His OT regularity breakthroughs with **Guido De Philippis** (and Kim, Loeper, and others) unfold in four clear steps:
 

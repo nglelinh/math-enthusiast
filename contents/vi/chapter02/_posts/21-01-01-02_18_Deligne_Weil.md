@@ -15,7 +15,7 @@ Phải mất đúng một phần tư thế kỷ, qua ba chặng tiếp sức l�
 
 Bước ngoặt đó mang về cho ông **Huy chương Fields 1978**, với ghi nhận của IMU rằng lời giải các giả thuyết Weil *"đã góp phần lớn vào việc thống nhất hình học đại số và lý thuyết số đại số."* Cần tách bạch ngay từ đầu: Huy chương Fields 1978 không có nghĩa một mình Deligne xây dựng đối đồng điều étale, càng không có nghĩa **các giả thuyết chuẩn** hay **giả thuyết Hodge** đã được giải. Còn **Giải Abel 2013** sau này là sự tôn vinh cho cả sự nghiệp đồ sộ của ông, tách biệt hoàn toàn với huy chương năm 1978.
 
-**Mạch bài học:** Bản đồ kiến thức nền (hình học đại số, đối đồng điều étale, phép Frobenius) → Ví dụ cầm tay đếm điểm trên $$\mathbb{F}_5$$ và $$\mathbb{F}_{25}$$ → Các giả thuyết Weil và ba chặng lịch sử → Khung giải thích chậm: từ đếm điểm đến tính thuần khiết của trị riêng Frobenius → *Weil II* và chặn Ramanujan–Petersson → Ghi nhận công lao & ranh giới với giả thuyết Riemann cổ điển.
+**Mạch bài học:** Kiến thức cần nhớ (hình học đại số, đối đồng điều étale, phép Frobenius) → Ví dụ cầm tay đếm điểm trên $$\mathbb{F}_5$$ và $$\mathbb{F}_{25}$$ → Các giả thuyết Weil và ba chặng lịch sử → Giải thích: từ đếm điểm đến tính thuần khiết của trị riêng Frobenius → *Weil II* và chặn Ramanujan–Petersson → Ghi nhận công lao & ranh giới với giả thuyết Riemann cổ điển.
 
 ---
 
@@ -36,7 +36,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Hình học đại số, Đối đồng điều étale và Phép Frobenius là gì?
+## Kiến thức cần nhớ: Hình học đại số, Đối đồng điều étale và Phép Frobenius là gì?
 
 Trước khi đi vào hàm zeta của Weil và chứng minh của Deligne, hãy dựng một bản đồ trực giác cho ba khái niệm trụ cột đứng sau bài học.
 
@@ -66,7 +66,7 @@ Vấn đề duy nhất: trên trường hữu hạn không có khái niệm "lâ
 
 ---
 
-## 1. Ví dụ cầm tay chỉ việc: đếm điểm trên $$\mathbb{F}_5$$ và thấy tận mắt hàm zeta
+## 1. Ví dụ làm từng bước: đếm điểm trên $$\mathbb{F}_5$$ và thấy tận mắt hàm zeta
 
 Trước khi phát biểu các giả thuyết Weil ở dạng tổng quát, hãy tự tay tính trên **hai ví dụ cụ thể** để thấy mọi ký hiệu trở nên sống động.
 
@@ -153,7 +153,7 @@ với $$P_i(T) \in \mathbb{Z}[T]$$, $$P_0(T) = 1 - T$$ và $$P_{2n}(T) = 1 - q^n
 
 ## 3. Chứng minh của Deligne: từ đếm điểm đến tính thuần khiết của trị riêng Frobenius
 
-### Khung giải thích: làm sao Deligne khóa chặt môđun của trị riêng Frobenius mà không cần giả thuyết chuẩn? (nên đọc chậm)
+### Giải thích: làm sao Deligne khóa chặt môđun của trị riêng Frobenius mà không cần giả thuyết chuẩn?
 
 Nếu đối đồng điều étale đã biến hàm zeta thành phân thức của các đa thức đặc trưng $$P_i(T) = \det\bigl(1 - T\,\mathrm{Frob} \mid H^i_{\mathrm{\acute{e}t}}(X_{\overline{k}}, \mathbb{Q}_\ell)\bigr)$$, tại sao việc chứng minh $$\vert \alpha_{i,j}\vert = q^{i/2}$$ lại khó đến mức cản bước cả trường phái Grothendieck suốt một thập kỷ? Dưới đây là 4 bước đột phá trong chứng minh *Weil I* (1974) của Deligne:
 

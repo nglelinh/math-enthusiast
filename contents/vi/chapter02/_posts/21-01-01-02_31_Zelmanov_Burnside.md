@@ -22,7 +22,7 @@ Năm 1990–1991, bằng một cú chuyển ngôn ngữ ngoạn mục từ lý t
 
 Trọn vẹn ý nghĩa của bài học này nằm ở chữ **hạn chế** (*restricted*): phân biệt rạch ròi ba bài toán Burnside, thấy rõ vì sao định lý khẳng định của Zelmanov hoàn toàn không mâu thuẫn với các nhóm vô hạn của Novikov–Adian, và hiểu cách đại số Lie cùng đại số Jordan giải bài toán về nhóm hữu hạn.
 
-**Mạch bài học:** Bản đồ kiến thức nền (ba bài toán Burnside, tuyến tính hóa nhóm thành đại số Lie, đại số Jordan) → Ví dụ tính tay cầm tay chỉ việc: chứng minh $$B(d, 2)$$ có cấp $$2^d$$ và khám phá nhóm $$B(2, 3)$$ cấp $$27$$ cùng đồng nhất thức Engel → Các phản ví dụ vô hạn (Golod–Shafarevich, Novikov–Adian, quái vật Tarski) → Khung giải thích chậm: 4 bước từ Hall–Higman và Kostrikin đến định lý Zelmanov (1990–1991) → Ranh giới định lý.
+**Mạch bài học:** Kiến thức cần nhớ (ba bài toán Burnside, tuyến tính hóa nhóm thành đại số Lie, đại số Jordan) → Ví dụ tính tay làm từng bước: chứng minh $$B(d, 2)$$ có cấp $$2^d$$ và khám phá nhóm $$B(2, 3)$$ cấp $$27$$ cùng đồng nhất thức Engel → Các phản ví dụ vô hạn (Golod–Shafarevich, Novikov–Adian, quái vật Tarski) → Giải thích: 4 bước từ Hall–Higman và Kostrikin đến định lý Zelmanov (1990–1991) → Ranh giới định lý.
 
 ---
 
@@ -42,7 +42,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Nhóm Burnside, Đại số Lie và Đại số Jordan nghiên cứu gì?
+## Kiến thức cần nhớ: Nhóm Burnside, Đại số Lie và Đại số Jordan nghiên cứu gì?
 
 ### 1. Ba bài toán Burnside — đừng bao giờ gộp chung
 - **Tổng quát (1902):** Mọi nhóm hữu hạn sinh tuần hoàn (mỗi $$x$$ có một cấp hữu hạn $$n_x$$ riêng) có hữu hạn không? $$\Rightarrow$$ **KHÔNG** (Golod–Shafarevich, 1964).
@@ -57,7 +57,7 @@ Bằng cách lấy dãy nhóm con giao hoán tử $$G = G_1 \supseteq G_2 \supse
 
 ---
 
-## 1. Ví dụ cầm tay chỉ việc: chứng minh $$B(d, 2)$$ cấp $$2^d$$ và khám phá $$B(2, 3)$$ cấp $$27$$
+## 1. Ví dụ làm từng bước: chứng minh $$B(d, 2)$$ cấp $$2^d$$ và khám phá $$B(2, 3)$$ cấp $$27$$
 
 ### Ví dụ 1: Số mũ $$n = 2$$ — hai dòng chứng minh $$B(d, 2)$$ hữu hạn!
 Giả sử mọi phần tử $$x$$ của nhóm $$G$$ đều thỏa $$x^2 = 1$$ (tức $$x = x^{-1}$$). Lấy hai phần tử bất kỳ $$a, b \in G$$:
@@ -96,7 +96,7 @@ Ví dụ nhỏ $$27$$ phần tử này hé lộ trọn vẹn chiến lược c�
 
 ---
 
-## 2. Khung giải thích: Con đường 4 bước từ Hall–Higman và Kostrikin đến định lý Zelmanov (nên đọc chậm)
+## 2. Giải thích: Con đường 4 bước từ Hall–Higman và Kostrikin đến định lý Zelmanov
 
 Như Walter Feit nhấn mạnh tại ICM 1994, bài toán Burnside hạn chế *"về bản chất là một bài toán về đại số Lie"*. Hãy theo dõi 4 bước chinh phục pháo đài 60 năm tuổi này:
 

@@ -19,7 +19,7 @@ Suốt hơn bốn thập niên, **Luis A. Caffarelli** (Đại học Texas tại
 
 Từ những bài toán biên tự do như băng tan và màng đàn hồi, phương trình hoàn toàn phi tuyến Monge–Ampère ở trái tim của vận chuyển tối ưu, cho đến định lý chính quy từng phần nổi tiếng **Caffarelli–Kohn–Nirenberg (CKN)** cho phương trình dòng chảy Navier–Stokes, sự nghiệp của Caffarelli đã dạy cho cả cộng đồng giải tích cách "đặt kính hiển vi" vào những nơi phương trình phi tuyến có nguy cơ gãy vỡ. Tài liệu chính thức: [abelprize.no](https://abelprize.no/).
 
-**Mạch bài học:** Bản đồ kiến thức nền (PDE phi tuyến, lý thuyết chính quy, bài toán biên tự do) → Biên tự do và bài toán chướng ngại → Khung giải thích chậm: tự tay giải bài toán chướng ngại 1D và thấy bước nhảy đạo hàm bậc hai → Phương trình Monge–Ampère → Định lý CKN cho Navier–Stokes.
+**Mạch bài học:** Kiến thức cần nhớ (PDE phi tuyến, lý thuyết chính quy, bài toán biên tự do) → Biên tự do và bài toán chướng ngại → Giải thích: tự tay giải bài toán chướng ngại 1D và thấy bước nhảy đạo hàm bậc hai → Phương trình Monge–Ampère → Định lý CKN cho Navier–Stokes.
 
 ---
 
@@ -31,7 +31,7 @@ Sau bài này, bạn có thể định nghĩa bài toán biên tự do và cho m
 
 ---
 
-## Bản đồ kiến thức nền: Phương trình đạo hàm riêng (PDE) phi tuyến và bài toán biên tự do là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Phương trình đạo hàm riêng (PDE) phi tuyến và bài toán biên tự do là gì và nghiên cứu những gì?
 
 Hầu hết sinh viên đại học đều từng gặp **phương trình đạo hàm riêng (PDE) tuyến tính** như phương trình nhiệt, phương trình sóng hay phương trình Laplace $$\Delta u = u_{xx} + u_{yy} = 0$$. Trong thế giới tuyến tính, mọi thứ rất "dễ bảo": tổng của hai nghiệm vẫn là nghiệm, và dữ liệu trơn thường cho nghiệm trơn. Thế nhưng thế giới thực hiếm khi tuyến tính, và ba trụ cột sau mở ra cánh cửa vào lý thuyết của Caffarelli:
 
@@ -50,7 +50,7 @@ Trong bài toán cổ điển (biên cố định), miền $$\Omega$$ được c
 
 Với PDE elliptic tuyến tính có hệ số trơn, một chiến thắng cổ điển của thế kỷ XX khẳng định nghiệm luôn trơn $$C^\infty$$. Thế nhưng khi bước sang **PDE phi tuyến**, dữ liệu trơn không còn bảo đảm nghiệm trơn. Nghiệm yếu có thể tồn tại trong không gian Sobolev nhưng chưa chắc khả vi cổ điển; mặt phân cách tự do có thể mọc ra những đỉnh nhọn hay góc gãy.
 
-**Lý thuyết chính quy** xây dựng các ước lượng định lượng và định lý cấu trúc để trả lời những câu hỏi sống còn: khi nào nghiệm là $$C^{1,\alpha}$$ hay $$C^\infty$$? Khi nào biên tự do là một siêu mặt trơn? Nếu kỳ dị thực sự xuất hiện, tập kỳ dị có kích thước (chiều Hausdorff) nhỏ đến đâu và giới hạn khi phóng đại tại đó rơi vào những hình mẫu nào?
+**Lý thuyết chính quy** xây dựng các ước lượng định lượng và định lý cấu trúc để trả lời những câu hỏi quan trọng: khi nào nghiệm là $$C^{1,\alpha}$$ hay $$C^\infty$$? Khi nào biên tự do là một siêu mặt trơn? Nếu kỳ dị thực sự xuất hiện, tập kỳ dị có kích thước (chiều Hausdorff) nhỏ đến đâu và giới hạn khi phóng đại tại đó rơi vào những hình mẫu nào?
 
 Sự nghiệp của Caffarelli là một chuẩn mực mẫu về nghệ thuật này trên cả ba mặt trận: bài toán biên tự do, PDE hoàn toàn phi tuyến và phương trình chất lỏng. Giải Abel 2023 tôn vinh cả một **chương trình phương pháp**: không phải một ước lượng may mắn, mà là một bộ công cụ hình học–giải tích dạy cả ngành cách phân biệt nơi nào biên tự do trơn tru và nơi nào nó buộc phải có kỳ dị.
 
@@ -76,7 +76,7 @@ Trước Caffarelli (thập niên 1970), người ta biết bài toán chướng
 
 ## 3. Bài toán chướng ngại như một mô hình
 
-### Khung giải thích: Tự tay giải bài toán chướng ngại 1D và nhìn thấy bước nhảy $$C^{1,1}$$ (nên đọc chậm)
+### Giải thích: Tự tay giải bài toán chướng ngại 1D và nhìn thấy bước nhảy $$C^{1,1}$$
 
 Để thấy tận mắt thế nào là "biên tự do là ẩn số" và vì sao độ trơn tối ưu của nghiệm chỉ đạt $$C^{1,1}$$ chứ không thể đạt $$C^2$$, hãy tự tay giải một bài toán chướng ngại 1 chiều hoàn toàn tường minh!
 

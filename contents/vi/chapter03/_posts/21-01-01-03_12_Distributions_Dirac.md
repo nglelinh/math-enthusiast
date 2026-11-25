@@ -34,7 +34,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết phân bố (Hàm suy rộng) là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Lý thuyết phân bố (Hàm suy rộng) là gì và nghiên cứu những gì?
 
 Trong giải tích cổ điển, ta định nghĩa một hàm số $$f$$ bằng cách chỉ rõ **giá trị của nó tại từng điểm riêng lẻ** $$x \mapsto f(x)$$. Cách nhìn này gặp bế tắc ngay lập tức với những đối tượng vật lý cực kỳ tự nhiên: một cú gõ búa tức thời (lực xung), một hạt electron coi như điện tích điểm, hay một công tắc bật tắt đột ngột (bước nhảy không có đạo hàm tại $$t=0$$).
 
@@ -89,7 +89,7 @@ $$
 \langle \partial_i T,\varphi\rangle = -\langle T,\partial_i \varphi\rangle.
 $$
 
-### Ví dụ cầm tay chỉ việc: Tự tính đạo hàm bậc 1 và bậc 2 của hàm gãy khúc $$\lvert x \rvert$$
+### Ví dụ làm từng bước: Tự tính đạo hàm bậc 1 và bậc 2 của hàm gãy khúc $$\lvert x \rvert$$
 
 Trong giải tích năm nhất, hàm $$f(x) = \lvert x \rvert$$ có góc nhọn chữ V tại $$x=0$$ nên không có đạo hàm cổ điển. Hãy dùng công thức phân bố để tính tay đạo hàm bậc 1 và bậc 2 cho mọi hàm thử $$\varphi \in C_c^\infty(\mathbb{R})$$:
 
@@ -113,7 +113,7 @@ $$
 $$
 Hệ quả tuyệt đẹp: hàm $$G(x) = -\frac{1}{2}\lvert x \rvert$$ chính là nghiệm cơ bản (hàm Green) của phương trình $$-u'' = \delta_0$$ trên trục số — một hàm gãy góc hoàn toàn hợp lệ theo nghĩa phân bố!
 
-### Khung giải thích: Lý thuyết phân bố "cứu" phép tính của Dirac theo 4 bước nào? (nên đọc chậm)
+### Giải thích: Lý thuyết phân bố "cứu" phép tính của Dirac theo 4 bước nào?
 
 1. **Đổi đối tượng từ "giá trị tại điểm" sang "phiếm hàm đo đạc":** thay vì vẽ đồ thị tại từng điểm $$x$$, ta xác định đối tượng $$T$$ qua kết quả tác động $$\langle T, \varphi\rangle$$ lên mọi hàm thử siêu trơn $$\varphi$$.
 2. **Chuyển đạo hàm sang hàm thử nhờ tích phân từng phần:** công thức $$\langle T', \varphi \rangle = -\langle T, \varphi' \rangle$$ làm cho mọi hàm gián đoạn ($$H$$), hàm gãy khúc ($$\lvert x \rvert$$) và xung $$\delta$$ đều khả vi vô hạn lần.

@@ -20,7 +20,7 @@ Tại ICM Berkeley năm 1986, **Simon Donaldson** nhận **Huy chương Fields**
 
 Để hiểu đúng kỳ tích năm 1986, cần đặt **ba mảnh ghép** cạnh nhau: (1) định lý phân loại tôpô đa tạp 4 chiều đơn liên của **Michael Freedman** (1982, cùng nhận Huy chương Fields tại ICM Berkeley 1986); (2) nền tảng giải tích về tính compact và "sủi bọt" của **Karen Uhlenbeck** (xem [Uhlenbeck / lý thuyết gauge]({{ site.baseurl }}/contents/vi/chapter08/08_04_Uhlenbeck_Gauge/)); và (3) định lý ràng buộc trơn chấn động của **Donaldson** (1983) từ không gian moduli instanton. Chính sự **va chạm trực diện** giữa sự tự do của thế giới tôpô (Freedman) và sự cứng rắn của thế giới trơn (Donaldson) đã đẻ ra những đa tạp 4 chiều không có cấu trúc trơn và các $$\mathbb{R}^4$$ lạ! Còn **lý thuyết Seiberg–Witten** (Witten, 1994) là cuộc cách mạng gauge đến sau 8 năm (xem bối cảnh [Vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/06_11_Mathematical_Physics/)), và bài toán phân loại mọi đa tạp 4 chiều trơn đến nay vẫn còn mở.
 
-**Mạch bài học:** Bản đồ kiến thức nền (tôpô vs. trơn ở chiều 4, dạng giao $$Q_X$$, phương trình tự đối ngẫu Yang–Mills) → Ví dụ ma trận cầm tay chỉ việc: dạng giao của $$\mathbb{CP}^2$$, $$S^2 \times S^2$$ và ma trận $$8\times 8$$ của lưới $$E_8$$ → Cú va chạm Freedman (1982) + Donaldson (1983) → Khung giải thích chậm: 4 bước dùng không gian moduli instanton 5 chiều để khóa chặt dạng giao $$Q_X$$ → Seiberg–Witten (1994) và những phát triển sau.
+**Mạch bài học:** Kiến thức cần nhớ (tôpô vs. trơn ở chiều 4, dạng giao $$Q_X$$, phương trình tự đối ngẫu Yang–Mills) → Ví dụ ma trận làm từng bước: dạng giao của $$\mathbb{CP}^2$$, $$S^2 \times S^2$$ và ma trận $$8\times 8$$ của lưới $$E_8$$ → Cú va chạm Freedman (1982) + Donaldson (1983) → Giải thích: 4 bước dùng không gian moduli instanton 5 chiều để khóa chặt dạng giao $$Q_X$$ → Seiberg–Witten (1994) và những phát triển sau.
 
 ---
 
@@ -41,7 +41,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Tôpô 4 chiều, Dạng giao và Lý thuyết trường chuẩn là gì?
+## Kiến thức cần nhớ: Tôpô 4 chiều, Dạng giao và Lý thuyết trường chuẩn là gì?
 
 ### 1. Tôpô vs. Trơn — và tại sao chiều 4 lại dị biệt?
 Một **đa tạp tôpô** chỉ cần các phép biến đổi liên tục (đồng phôi — nặn đất sét có góc nhọn); một **đa tạp trơn** đòi hỏi hệ tọa độ khả vi nhất quán ở mọi nơi (vi phôi).
@@ -61,7 +61,7 @@ Trên đa tạp 4 chiều trơn $$X$$ với phân thớ chính $$\mathrm{SU}(2)$
 
 ---
 
-## 1. Ví dụ ma trận cầm tay chỉ việc: $$\mathbb{CP}^2$$, $$S^2 \times S^2$$ và lưới $$E_8$$
+## 1. Ví dụ ma trận làm từng bước: $$\mathbb{CP}^2$$, $$S^2 \times S^2$$ và lưới $$E_8$$
 
 Hãy viết tường minh ma trận dạng giao $$Q_X$$ của ba ví dụ kinh điển để thấy ngay bản chất của định lý Donaldson:
 
@@ -103,7 +103,7 @@ Và khi đặt chính sự va chạm đó vào phần "đầu mở" của mặt 
 
 ---
 
-## 2. Khung giải thích: Làm sao phương trình Yang–Mills ép dạng giao phải chéo hóa? (nên đọc chậm)
+## 2. Giải thích: Làm sao phương trình Yang–Mills ép dạng giao phải chéo hóa?
 
 Tại sao một phương trình PDE vật lý hạt cơ bản ($$F_A^+ = 0$$) lại đọc được một ma trận nguyên trên $$H_2(X; \mathbb{Z})$$? Hãy theo dõi 4 bước kỳ diệu trong chứng minh năm 1983 của Donaldson:
 

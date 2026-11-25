@@ -32,7 +32,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Nguyên lý cục bộ – toàn cục và Đối đồng điều là gì?
+## Kiến thức cần nhớ: Nguyên lý cục bộ – toàn cục và Đối đồng điều là gì?
 
 Trong nhiều ngành toán học bậc cao — từ hình học vi phân, tôpô đại số đến vật lý lý thuyết (lý thuyết trường chuẩn — gauge theory) và thị giác máy tính (dựng hình 3D từ ảnh 2D) — có một câu hỏi lặp đi lặp lại không ngừng: **nếu ta ghép nhiều mảnh lời giải cục bộ hoàn toàn hợp lệ lại với nhau, liệu chúng có khớp thành một lời giải toàn cục không?**
 
@@ -54,7 +54,7 @@ Bản vẽ một hình lập phương là một cách sắp xếp các đường
 
 **Tam giác Penrose** (được Roger Penrose phổ biến năm 1958; nghệ sĩ Thụy Điển Oscar Reutersvärd đã vẽ từ năm 1934) gồm ba thanh dầm nối với nhau vuông góc theo một vòng tam giác. Lấy tay che hai góc, góc còn lại trông như một chỗ nối dầm vuông góc hoàn toàn hợp lệ. Nhưng khi đi hết một vòng, cả hình buộc ta phải hiểu các hướng "nhô ra khỏi trang giấy" và "lùi vào trong" một cách mâu thuẫn.
 
-### Ví dụ ma trận cầm tay chỉ việc: đại số tuyến tính "bắt quả tang" tam giác Penrose!
+### Ví dụ ma trận làm từng bước: đại số tuyến tính "bắt quả tang" tam giác Penrose!
 
 Giả sử tại ba góc $$A, B, C$$ ta muốn gán các giá trị chiều sâu (hoặc độ cao) $$h_A, h_B, h_C$$ sao cho đi dọc mỗi thanh dầm đều tiến thêm $$+1$$ đơn vị như hình vẽ gợi ý. Hệ phương trình viết dưới dạng ma trận $$D\mathbf{h} = \mathbf{b}$$:
 
@@ -100,7 +100,7 @@ làm mất một chiều. Nhiều vật thể khác nhau có cùng một cái b�
 
 Hãy xem hình bất khả như việc cố ghép các "bản đồ" 3 chiều cục bộ dọc theo những phần chồng nhau (các đoạn dầm, các mặt). Trên mỗi phần chồng, hai bản đồ liên hệ với nhau bằng một phép dời hình hoặc một phép dịch độ cao (như độ lệch $$+1$$ trên mỗi cạnh ở Mục 2). Đi quanh một vòng khép kín các phần chồng, hợp của các ánh xạ chuyển tiếp phải là ánh xạ đồng nhất (tổng độ dịch bằng $$0$$) nếu vật thể toàn cục tồn tại. Nếu hợp đó là một phép tịnh tiến chiều sâu khác 0, ta có **một cocycle không tầm thường**, và không có lát cắt (section) toàn cục nào.
 
-### Khung giải thích: vì sao hình bất khả là minh họa trực quan nhất của đối đồng điều (nên đọc chậm)
+### Giải thích: vì sao hình bất khả là minh họa trực quan nhất của đối đồng điều
 
 Để nối từ bức tranh Escher sang công cụ toán học bậc cao mà không bị ngợp thuật ngữ, hãy đi chậm qua 4 bước:
 

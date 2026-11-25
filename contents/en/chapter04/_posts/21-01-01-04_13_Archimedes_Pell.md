@@ -40,7 +40,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: Where Ancient Riddles Meet Algebraic Number Theory
+## Key ideas: Where Ancient Riddles Meet Algebraic Number Theory
 
 Pell’s equation looks like high-school algebra, yet it is the doorway to four towering branches of number theory:
 
@@ -228,7 +228,7 @@ Yet every integer square modulo 3 is either $$0^2 \equiv 0$$ or $$(\pm 1)^2 \equ
 
 ---
 
-### Deep-Dive Explanation: Why a Simple Quadratic Equation Hides 206,545-Digit Giants (Read Slowly)
+### Explanation: Why a Simple Quadratic Equation Hides 206,545-Digit Giants
 
 How can an equation with two variables and exponent 2 hide solutions bigger than the universe—yet remain 100% solvable by a mechanical algorithm? Trace the four-step engine slowly:
 

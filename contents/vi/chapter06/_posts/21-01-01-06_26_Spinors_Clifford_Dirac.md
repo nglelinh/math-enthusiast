@@ -15,7 +15,7 @@ Bí mật hình học của phép quay $$720^\circ$$ nằm ở **nhóm Spin**, *
 
 ---
 
-## Bản đồ kiến thức nền: Spinor, Đại số Clifford và Hình học spin đứng trên ba trụ cột nào?
+## Kiến thức cần nhớ: Spinor, Đại số Clifford và Hình học spin đứng trên ba trụ cột nào?
 
 Với hành trang đại số tuyến tính (ma trận quay $$3\times 3$$, số phức, ma trận Pauli) và phương trình vi phân bậc hai (phương trình sóng, toán tử Laplace), ta có thể nắm trọn ba trụ cột của bài này mà không cần phép màu nào:
 
@@ -74,7 +74,7 @@ $$
 \{\gamma^\mu,\gamma^\nu\} = \gamma^\mu\gamma^\nu + \gamma^\nu\gamma^\mu = 2\eta^{\mu\nu}.
 $$
 
-### Khung giải thích: tự tay "lấy căn bậc hai" của toán tử Laplace 3 chiều (nên đọc chậm)
+### Giải thích: tự tay "lấy căn bậc hai" của toán tử Laplace 3 chiều
 
 Làm sao một toán tử vi phân bậc nhất khi bình phương lên lại triệt tiêu sạch các đạo hàm hỗn hợp $$\partial_x\partial_y$$? Hãy tự tay kiểm tra trên $$\mathbb{R}^3$$ bằng ba **ma trận Pauli** $$2\times 2$$:
 

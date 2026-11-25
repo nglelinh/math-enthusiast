@@ -32,7 +32,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Hình học vi phân và hình học Riemann là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Hình học vi phân và hình học Riemann là gì, nghiên cứu những gì?
 
 Ở phổ thông, hình học Euclid diễn ra trên mặt giấy phẳng: tổng ba góc tam giác luôn bằng $$180^\circ$$ và hai đường thẳng song song không bao giờ cắt nhau. Nhưng mặt Trái Đất là hình cầu — nếu hai máy bay cùng xuất phát từ Xích Đạo bay thẳng về hướng Bắc (ban đầu song song nhau), chúng vẫn sẽ đâm sầm vào nhau tại Bắc Cực, và tổng ba góc một tam giác lớn trên địa cầu luôn **lớn hơn $$180^\circ$$**!
 
@@ -88,7 +88,7 @@ $$
 
 > **Vật chất cho không–thời gian biết phải cong như thế nào; không–thời gian cong cho vật chất biết phải chuyển động như thế nào.**
 
-### Khung giải thích: Từ nguyên lý tương đương đến quỹ đạo hành tinh và GPS (nên đọc chậm)
+### Giải thích: Từ nguyên lý tương đương đến quỹ đạo hành tinh và GPS
 
 1. **Nguyên lý tương đương xóa bỏ "lực hấp dẫn" cục bộ:** trong một khung rơi tự do đủ nhỏ, mọi vật chuyển động thẳng đều như trong không–thời gian phẳng Minkowski.
 2. **Lực thủy triều buộc không–thời gian phải cong toàn cục:** khi ghép nhiều khung rơi tự do ở các vị trí khác nhau quanh Trái Đất lại, chúng không thể khớp thành một mặt phẳng duy nhất → ta cần một **metric cong** $$g_{\mu\nu}(x)$$.
@@ -122,7 +122,7 @@ Vì hệ số $$\frac{8\pi G}{c^4} \approx 2 \times 10^{-43}\text{ s}^2/(\text{k
 
 ## 5. Từ hình học đến quan sát, mỗi hiện tượng một bước
 
-### Ví dụ cầm tay chỉ việc: Tự tính độ lệch đồng hồ GPS trực tiếp từ Metric Schwarzschild
+### Ví dụ làm từng bước: Tự tính độ lệch đồng hồ GPS trực tiếp từ Metric Schwarzschild
 
 Nghiệm chân không đối xứng cầu của phương trình Einstein bên ngoài Trái Đất (khối lượng $$M_\oplus \approx 6\times 10^{24}\text{ kg}$$) là **metric Schwarzschild**:
 

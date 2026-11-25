@@ -26,7 +26,7 @@ Pack: `research/video-research/geometric-langlands-sduality/`.
 
 ---
 
-## Background Knowledge Map: What Are Geometric Langlands and S-Duality?
+## Key ideas: What Are Geometric Langlands and S-Duality?
 
 Terms like “moduli stack $$\mathrm{Bun}_G(C)$$,” “Hecke eigensheaf,” and “$$\mathcal N=4$$ SYM” can look daunting at first glance, yet the entire lesson rests on **three clear intuitive pieces**:
 
@@ -99,7 +99,7 @@ For $$\mathcal N=4$$ super Yang–Mills in four dimensions, S-duality is especia
 
 ---
 
-### Deep-Dive Explanation: Checking S-Duality’s $$\tau \mapsto -1/\tau$$ Flip and Electric–Magnetic Spectrum by Hand (Read Slowly)
+### Explanation: Checking S-Duality’s $$\tau \mapsto -1/\tau$$ Flip and Electric–Magnetic Spectrum by Hand
 
 The slogan “S-duality turns strong coupling into weak coupling and swaps electric charges with magnetic monopoles” becomes completely transparent once you check two short complex-number identities by hand.
 

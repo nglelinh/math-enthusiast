@@ -16,7 +16,7 @@ Before stepping into sweeping dualities like AdS/CFT holography or Langlands dua
 
 ---
 
-## Background Knowledge Map: What Are Abstract Harmonic Analysis and Pontryagin Duality?
+## Key ideas: What Are Abstract Harmonic Analysis and Pontryagin Duality?
 
 If you have an undergraduate background in linear algebra, complex numbers, and basic calculus, you already have everything needed to grasp the three pillars behind Pontryagin duality:
 
@@ -99,7 +99,7 @@ $$
 | Convolution | Pointwise product |
 | Smoothness / decay | Decay / smoothness (tradeoffs) |
 
-### Deep-Dive Explanation: Why Does Convolution Turn into Pointwise Multiplication? (Read Slowly)
+### Explanation: Why Does Convolution Turn into Pointwise Multiplication?
 
 Let us verify the entire Pontryagin machine by hand on the smallest finite group with genuine complex characters: $$G = \mathbb{Z}/4\mathbb{Z} = \{0, 1, 2, 3\}$$ (addition modulo 4).
 

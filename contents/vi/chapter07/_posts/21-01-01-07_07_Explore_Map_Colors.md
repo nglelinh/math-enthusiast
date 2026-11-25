@@ -18,7 +18,7 @@ Tháng 10 năm 1852, chàng sinh viên trẻ Francis Guthrie ngồi tô màu b�
 
 Phải đến năm 1976, Kenneth Appel và Wolfgang Haken mới chốt hạ **Định lý bốn màu**, nhưng lại theo một cách chưa từng có tiền lệ: họ dùng máy tính kiểm tra hàng nghìn cấu hình, làm bùng nổ cuộc tranh luận triết học kéo dài hàng thập kỷ về việc *"thế nào mới được gọi là một chứng minh?"*. Trong bài thực hành này, bạn sẽ không chạy lại chương trình kiểm tra hàng nghìn trường hợp ấy. Thay vào đó, bạn sẽ **tự vẽ bản đồ, biến nó thành đồ thị đối ngẫu**, tận tay trải nghiệm vì sao 3 màu thất bại, tự tay giải chứng minh 5 màu gọn đẹp, bước sang mặt bánh rán (mặt xuyến) nơi cần tới 7 màu, và tự trả lời cho riêng mình câu hỏi về ranh giới của chứng minh toán học trong kỷ nguyên máy tính.
 
-**Mạch bài học:** Bản đồ kiến thức nền (lý thuyết đồ thị, tô pô bề mặt & chứng minh có máy tính hỗ trợ) → Đồ thị đối ngẫu & Định lý năm màu → Khung giải thích chậm: kiểm tra công thức Euler trên $$K_4, K_5, K_7$$ và chạy tay xích Kempe → Appel–Haken & số Heawood $$H(g)$$ → Thí nghiệm & nhật ký.
+**Mạch bài học:** Kiến thức cần nhớ (lý thuyết đồ thị, tô pô bề mặt & chứng minh có máy tính hỗ trợ) → Đồ thị đối ngẫu & Định lý năm màu → Giải thích: kiểm tra công thức Euler trên $$K_4, K_5, K_7$$ và chạy tay xích Kempe → Appel–Haken & số Heawood $$H(g)$$ → Thí nghiệm & nhật ký.
 
 ---
 
@@ -37,7 +37,7 @@ Sau bài này, bạn cần:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết đồ thị và Tô pô bề mặt là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Lý thuyết đồ thị và Tô pô bề mặt là gì, nghiên cứu những gì?
 
 Đằng sau trò chơi tô màu bản đồ là ba trụ cột toán học cực kỳ quen thuộc với sinh viên đại học ngành toán và khoa học máy tính:
 
@@ -69,7 +69,7 @@ Ta dựng **đồ thị đối ngẫu** $$G$$: mỗi nước là một đỉnh; 
 
 Với đồ thị phẳng đơn, liên thông, từ công thức Euler kết hợp với bất đẳng thức $$2e\ge 3f$$ (mỗi mặt có ít nhất 3 cạnh, mỗi cạnh giáp nhiều nhất 2 mặt), ta suy ra $$e\le 3v-6$$ khi $$v\ge 3$$. Do đó bậc trung bình $$2e/v<6$$, nên luôn có ít nhất một đỉnh $$v$$ với $$\deg(v)\le 5$$.
 
-#### Khung giải thích: Cầm tay kiểm tra chặn Euler trên $$K_4, K_5, K_7$$ và chạy từng bước xích Kempe (nên đọc chậm)
+#### Giải thích: Cầm tay kiểm tra chặn Euler trên $$K_4, K_5, K_7$$ và chạy từng bước xích Kempe
 
 Hãy tự kiểm tra hai phép tính ngắn gọn làm nền cho toàn bộ chương này:
 

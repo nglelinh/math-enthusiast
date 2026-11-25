@@ -17,7 +17,7 @@ This bridge map deepens §4 of the [mathematical physics hub]({{ site.baseurl }}
 
 ---
 
-## Background Knowledge Map: What Three Pillars Anchor Mathematical Statistical Mechanics?
+## Key ideas: What Three Pillars Anchor Mathematical Statistical Mechanics?
 
 If you know undergraduate probability (expectations, law of large numbers, and the softmax function in machine learning), three clear pillars unlock this entire field:
 
@@ -58,7 +58,7 @@ $$
 
 Free energy $$F=-\beta^{-1}\log Z$$ generates all of equilibrium thermodynamics: differentiating $$\log Z$$ with respect to $$\beta$$ gives $$\langle E\rangle = -\partial_\beta \log Z$$ and $$\operatorname{Var}(E) = \partial_\beta^2 \log Z$$ (proportional to heat capacity!). Probabilities $$p(s)\propto e^{-\beta E(s)}$$ are the **Boltzmann–Gibbs** weights.
 
-### Deep-Dive Explanation: Solving the 2-Spin Ising Model Completely by Hand (Read Slowly)
+### Explanation: Solving the 2-Spin Ising Model Completely by Hand
 
 To see how $$Z(\beta)$$ generates every macroscopic observable, solve a tiny 2-spin magnet $$\sigma_1, \sigma_2 \in \{+1, -1\}$$ with ferromagnetic energy $$E(\sigma_1, \sigma_2) = -J\sigma_1\sigma_2$$ ($$J > 0$$):
 

@@ -15,7 +15,7 @@ Dãy số nguyên tố càng đi xa càng thưa dần — ở vùng gần $$10^{
 
 Chính sự sắc bén và linh hoạt ấy đã mang về cho **James Maynard** tấm **Huy chương Fields 2022**.
 
-**Mạch bài học:** Bản đồ kiến thức nền (phương pháp sàng, kiểm tra tay chòm chấp nhận được, nguyên lý Dirichlet có trọng số) → Đột phá Zhang (2013) → Khung giải thích chậm 4 bước: trọng số sàng nhiều chiều của Maynard và bài toán cực trị trên đơn hình → Khoảng cách lớn, chữ số bị hạn chế & Duffin–Schaeffer → So sánh với Green–Tao.
+**Mạch bài học:** Kiến thức cần nhớ (phương pháp sàng, kiểm tra tay chòm chấp nhận được, nguyên lý Dirichlet có trọng số) → Đột phá Zhang (2013) → Giải thích 4 bước: trọng số sàng nhiều chiều của Maynard và bài toán cực trị trên đơn hình → Khoảng cách lớn, chữ số bị hạn chế & Duffin–Schaeffer → So sánh với Green–Tao.
 
 ---
 
@@ -35,7 +35,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết số giải tích và Phương pháp sàng (Sieve Theory)
+## Kiến thức cần nhớ: Lý thuyết số giải tích và Phương pháp sàng (Sieve Theory)
 
 ### 1. Lý thuyết số giải tích & Phương pháp sàng nghiên cứu gì?
 Vì không có công thức đóng sinh ra số nguyên tố thứ $$n$$, **lý thuyết số giải tích** dùng công cụ giải tích (tích phân, ước lượng tiệm cận, biến đổi Fourier) để nghiên cứu phân bố trung bình của số nguyên tố. Trong đó, **phương pháp sàng** (*sieve theory*) phát triển từ ý tưởng cổ điển của Eratosthenes (gạch bỏ bội của $$2, 3, 5, \dots$$).
@@ -76,7 +76,7 @@ Trước đó, Goldston–Pintz–Yıldırım (GPY, 2005) đã chứng minh khun
 
 ---
 
-## 2. Khung giải thích: Trọng số nhiều chiều của Maynard tạo nên bước nhảy vọt như thế nào? (nên đọc chậm)
+## 2. Giải thích: Trọng số nhiều chiều của Maynard tạo nên bước nhảy vọt như thế nào?
 
 Chỉ vài tháng sau Zhang, **James Maynard** (và độc lập là Terence Tao) đã khiến giới toán học sững sờ khi không cần đến phần chứng minh siêu khó về môđun trơn của Zhang mà chỉ dùng đúng **Định lý Bombieri–Vinogradov (1965)** đã có sẵn — vừa hạ chặn từ 70 triệu xuống 600 (rồi Polymath8 kéo xuống **246**), vừa chứng minh được tồn tại vô hạn khoảng ngắn chứa **$$m$$ số nguyên tố** với mọi $$m \ge 2$$! Hãy đọc chậm 4 bước cốt lõi:
 

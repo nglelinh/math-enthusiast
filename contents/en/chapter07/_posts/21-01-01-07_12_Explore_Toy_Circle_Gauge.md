@@ -19,7 +19,7 @@ Picture a bizarre electron-interference experiment proposed by Yakir Aharonov an
 
 Yet when physicists ran the experiment, **the interference fringes shifted unmistakably** as they dialed the current inside the shielded solenoid! Does an electron somehow "sense" a magnetic field from afar, in a region it never enters? What looks like spooky action at a distance actually has a remarkably clean geometric explanation. In this studio, you will not solve Yang–Mills. Using nothing more than a toy model on the circle $$S^1$$, calculus, and complex numbers, you will feel the chain **connection → parallel transport → holonomy** with your own hands—and see directly why **local $$F=0$$ everywhere along a path still allows a non-trivial global phase shift around a closed loop**.
 
-**Lesson roadmap:** Background Knowledge Map (differential geometry, connection–curvature–holonomy & punctured-plane topology) → Setting up the 1-form $$A = a\,d\theta$$ on $$\mathbb{R}^2\setminus\{0\}$$ → Deep-Dive Explanation: solving parallel transport by hand and checking large gauge invariance → Holonomy computation tasks & log.
+**Lesson roadmap:** Key ideas (differential geometry, connection–curvature–holonomy & punctured-plane topology) → Setting up the 1-form $$A = a\,d\theta$$ on $$\mathbb{R}^2\setminus\{0\}$$ → Explanation: solving parallel transport by hand and checking large gauge invariance → Holonomy computation tasks & log.
 
 ---
 
@@ -37,7 +37,7 @@ After this studio you should be able to:
 
 ---
 
-## Background Knowledge Map: What Are Differential Geometry and Gauge Theory, and What Do They Study?
+## Key ideas: What Are Differential Geometry and Gauge Theory, and What Do They Study?
 
 Words like "gauge theory," "connection," and "holonomy" can sound intimidating to a fresh graduate, as if they belong solely to high-energy physics. In reality, the core intuition rests on three surprisingly concrete ideas:
 
@@ -83,7 +83,7 @@ Whenever $$a \neq 0$$, this proves $$A$$ *cannot* be written as $$d\lambda$$ for
 
 ---
 
-### Deep-Dive Explanation (Read Slowly): Solving the Parallel Transport Equation by Hand and Checking Large Gauge Invariance
+### Explanation: Solving the Parallel Transport Equation by Hand and Checking Large Gauge Invariance
 
 To see that the holonomy formula $$U = \exp(iq\oint A)$$ does not drop out of thin air—it comes straight from a first-year differential equation—let's compute it step by step:
 

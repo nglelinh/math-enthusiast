@@ -13,7 +13,7 @@ More than two and a half millennia ago, the Pythagoreans of ancient Greece held 
 
 Legend says that when Hippasus of Metapontum exposed this "unspeakable" (*alogon*) secret, it triggered the first foundational crisis in mathematics. Even today, the proof remains one of the finest first arguments in all of mathematics: in just a handful of lines, pure **even-and-odd parity** splits the assumption of rationality wide open.
 
-**Lesson roadmap:** Background Knowledge Map (number-system tower, $$p$$-adic valuation, infinite descent) → The common-ruler paradox and Pell’s near-miss fractions → The classical lowest-terms proof → Deep-Dive Explanation (Read Slowly): hand-checking three perspectives ($$2$$-adic valuation $$v_2$$, geometric two-squares descent, and why $$\sqrt{4}$$ escapes) → Generalizing to $$\sqrt{p}$$ and extending number systems.
+**Lesson roadmap:** Key ideas (number-system tower, $$p$$-adic valuation, infinite descent) → The common-ruler paradox and Pell’s near-miss fractions → The classical lowest-terms proof → Explanation: hand-checking three perspectives ($$2$$-adic valuation $$v_2$$, geometric two-squares descent, and why $$\sqrt{4}$$ escapes) → Generalizing to $$\sqrt{p}$$ and extending number systems.
 
 ---
 
@@ -32,7 +32,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: Number Systems, $$p$$-adic Valuation, and Infinite Descent
+## Key ideas: Number Systems, $$p$$-adic Valuation, and Infinite Descent
 
 To see why such a brief proof sits beside Euclid and Gödel, place it on three pillars of **Number Theory** and **Algebra**:
 
@@ -103,7 +103,7 @@ Thus $$q^2$$ is even, so $$q$$ is even. Now $$2$$ divides both $$p$$ and $$q$$, 
 A picture of infinite descent: if a squared equals twice b squared, two squares of side b cover the square of side a, and the overlap and the gaps give smaller integer sides.
 
 
-## 4. Deep-Dive Explanation (Read Slowly): Three Hand-Verifiable Perspectives
+## 4. Explanation: Three Hand-Verifiable Perspectives
 
 To see past the three lines of algebra and feel the deeper structure, verify three concrete calculations by hand:
 

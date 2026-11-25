@@ -41,7 +41,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Fields Sit Behind Kakeya?
+## Key ideas: What Fields Sit Behind Kakeya?
 
 Why did a playful 1917 needle-turning puzzle turn into the foundation of a Fields Medal a century later? Three intertwined areas of modern analysis live inside Kakeya.
 
@@ -448,7 +448,7 @@ If Kakeya were false in a dimension, large parts of the tower would fail with it
 
 ---
 
-### Deep-Dive Explanation: From a Turning Needle to the 2025 Wang–Zahl Proof (Read Slowly)
+### Explanation: From a Turning Needle to the 2025 Wang–Zahl Proof
 
 How do you get from a 1917 geometry riddle to a 127-page breakthrough in 3D? Follow these four steps slowly.
 

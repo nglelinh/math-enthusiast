@@ -16,7 +16,7 @@ This is a **mini-profile** of Witten's method inside our **duality track**—not
 
 ---
 
-## Background Knowledge Map: What Does Witten-Style Mathematical Physics Study?
+## Key ideas: What Does Witten-Style Mathematical Physics Study?
 
 If you graduated with multivariable calculus, linear algebra, differential equations, and introductory quantum mechanics, you might wonder what modern *Witten-style mathematical physics* actually bridges:
 
@@ -51,7 +51,7 @@ Twentieth-century geometry already talked to physics (Einstein, gauge theory, in
 
 Consider the signature breakthrough behind the 1990 Fields Medal: in 1984, Vaughan Jones discovered a startling new knot polynomial (the Jones polynomial) via operator algebras, whose combinatorial formula seemed to have no obvious 3D geometric meaning. In 1989, Witten showed that if you run a 3D topological quantum field theory called **Chern–Simons theory** and evaluate the expectation value of a Wilson loop along the knot, you get *precisely the Jones polynomial*—and the definition automatically generalizes to knots inside any curved 3-manifold!
 
-### Deep-Dive Explanation: How Does a TQFT "Count" the Shape of Space? (Read Slowly)
+### Explanation: How Does a TQFT "Count" the Shape of Space?
 
 To make "TQFT" completely concrete, let us compute a full **2-dimensional TQFT** by hand using nothing more than linear algebra! By the Atiyah–Dijkgraaf classification theorem, a 2D TQFT is equivalent to a finite-dimensional commutative **Frobenius algebra** $$(A, \theta)$$: the state space on a circle is $$A$$, merging two circles into one ("a pair of pants") is multiplication in $$A$$, and capping off a circle with a hemisphere is a trace functional $$\theta: A \to \mathbb{C}$$.
 

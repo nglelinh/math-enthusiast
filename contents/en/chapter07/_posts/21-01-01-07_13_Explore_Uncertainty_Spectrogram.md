@@ -19,7 +19,7 @@ Listen closely to two everyday sounds: a crisp handclap and a long, steady note 
 
 Remarkably, that familiar acoustic trade-off is **the very same mathematical law** as Heisenberg's Uncertainty Principle in quantum mechanics. It has nothing to do with clumsy stopwatches or imperfect microscopes; it is an unbreakable constraint woven into waves and Hilbert spaces. In this studio, you will not prove Pauli–Weyl from scratch. Instead, with a few dozen lines of FFT code and a handful of $$2\times 2$$ matrix multiplications, you will **see** all three faces of uncertainty with your own eyes: a short pulse forces a wide spectrum, a spectrogram window length is a physical trade-off rather than a UI preference, and non-commuting Pauli operators $$X$$ and $$Z$$ refuse to be sharp together.
 
-**Lesson roadmap:** Background Knowledge Map (time–frequency analysis, mathematical quantum mechanics & Robertson's inequality) → Deep-Dive Explanation: computing $$\sigma_X\sigma_Z$$ by hand for real and complex qubits (hitting exact equality!) → FFT setup → Spectrogram, chirp & qubit experiments.
+**Lesson roadmap:** Key ideas (time–frequency analysis, mathematical quantum mechanics & Robertson's inequality) → Explanation: computing $$\sigma_X\sigma_Z$$ by hand for real and complex qubits (hitting exact equality!) → FFT setup → Spectrogram, chirp & qubit experiments.
 
 ---
 
@@ -37,7 +37,7 @@ After this studio you should be able to:
 
 ---
 
-## Background Knowledge Map: What Are Time–Frequency Analysis and Mathematical Quantum Mechanics, and What Do They Study?
+## Key ideas: What Are Time–Frequency Analysis and Mathematical Quantum Mechanics, and What Do They Study?
 
 Electrical engineers encounter uncertainty while designing audio filters, radar pulses, and image compression; physicists encounter it in atoms and qubits. Underneath both worlds sit three pillars sharing the same analytic core:
 
@@ -63,7 +63,7 @@ Even on a finite discrete signal (a DFT of length $$N$$), a vector with $$s$$ no
 
 ---
 
-### Deep-Dive Explanation (Read Slowly): Verifying Robertson's Inequality by Hand on Real and Complex Qubits
+### Explanation: Verifying Robertson's Inequality by Hand on Real and Complex Qubits
 
 Let's compute every single term by hand for the familiar Pauli matrices:
 $$

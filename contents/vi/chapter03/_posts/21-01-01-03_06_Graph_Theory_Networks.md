@@ -37,7 +37,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết đồ thị là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Lý thuyết đồ thị là gì và nghiên cứu những gì?
 
 Khác với hình học cổ điển vốn quan tâm đến độ dài, góc nhọn và tọa độ trong không gian liên tục, **lý thuyết đồ thị (graph theory)** nghiên cứu **tính kết nối thuần túy** giữa các đối tượng rời rạc. Một sơ đồ tàu điện ngầm đẹp không cần vẽ đúng tỉ lệ địa lý; điều hành khách cần biết chỉ là *ga nào nối với ga nào* và *đổi tuyến ở đâu*.
 
@@ -120,7 +120,7 @@ $$
 
 trong đó $$P$$ là ma trận chuyển xác suất và $$v$$ là vectơ teleport.
 
-### Ví dụ cầm tay chỉ việc: Tự tay tính PageRank cho mạng web 3 trang
+### Ví dụ làm từng bước: Tự tay tính PageRank cho mạng web 3 trang
 
 Xét một mạng web thu nhỏ chỉ có 3 trang $$A, B, C$$:
 - Trang $$A$$ trỏ sang $$B$$ và $$C$$ (mỗi liên kết nhận xác suất $$1/2$$).
@@ -147,7 +147,7 @@ P^\top \pi^{(1)} = \begin{pmatrix} 0{,}475 \\ 0{,}167 \\ 0{,}358 \end{pmatrix}
 $$
 Lặp tiếp vài chục vòng, vectơ hội tụ về điểm cố định $$\pi^* \approx (0{,}388,\ 0{,}215,\ 0{,}397)^\top$$. Chú ý điều thú vị: dù trang $$A$$ chỉ có **1** liên kết trỏ tới (ít hơn trang $$C$$ có 2 liên kết), $$A$$ vẫn có thứ hạng gần sát $$C$$ ($$0{,}388$$ so với $$0{,}397$$) và vượt xa $$B$$ ($$0{,}215$$) — bởi liên kết duy nhất trỏ tới $$A$$ lại đến từ chính trang quyền lực nhất $$C$$!
 
-### Khung giải thích: Vì sao đại số tuyến tính trên ma trận kề lại giải được bài toán mạng tỷ nút? (nên đọc chậm)
+### Giải thích: Vì sao đại số tuyến tính trên ma trận kề lại giải được bài toán mạng tỷ nút?
 
 1. **Đóng gói toàn bộ cấu trúc liên kết vào một ma trận thưa:** đồ thị web 10 tỷ trang có ma trận $$P$$ cỡ $$10^{10}\times 10^{10}$$, nhưng mỗi trang trung bình chỉ có vài chục liên kết → ma trận gần như toàn số 0.
 2. **Biến câu hỏi "trang nào quan trọng?" thành bài toán trạng thái cân bằng:** thay vì định nghĩa vòng tròn ("quan trọng là được trang quan trọng trỏ tới"), ta viết thành phương trình vectơ riêng $$\pi = \alpha P^\top\pi + (1-\alpha)v$$.

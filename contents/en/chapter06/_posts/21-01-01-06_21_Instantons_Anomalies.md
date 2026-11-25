@@ -15,7 +15,7 @@ Two stars rule this deeper layer: **instantons** (finite-action field configurat
 
 ---
 
-## Background Knowledge Map: What Do Gauge Topology, Instantons, and Index Theory Study?
+## Key ideas: What Do Gauge Topology, Instantons, and Index Theory Study?
 
 With undergraduate multivariable calculus, linear algebra, and differential equations, the three mathematical pillars behind this lesson are remarkably intuitive:
 
@@ -55,7 +55,7 @@ $$
 
 (up to standard normalizations). A completing-the-square inequality (the Bogomol'nyi bound) guarantees $$S_E[A] \ge \frac{8\pi^2}{g^2}|k|$$, with equality precisely for self-dual or anti-self-dual connections $$F = \pm \star F$$—called **instantons** (coined by Gerard 't Hooft because they are localized in both space and Euclidean time).
 
-### Deep-Dive Explanation: Finding a 1D Instanton and a Nonzero Index by Hand (Read Slowly)
+### Explanation: Finding a 1D Instanton and a Nonzero Index by Hand
 
 To experience both "completing the square for a topological lower bound" and "a nonzero index in infinite dimensions" without 4D geometry, verify these two pocket calculations by hand:
 

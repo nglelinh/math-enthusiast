@@ -17,7 +17,7 @@ Superposition, entanglement, and measurement are not science-fiction metaphors. 
 
 ---
 
-## Background Knowledge Map: What Is Quantum Information Science and What Does It Study?
+## Key ideas: What Is Quantum Information Science and What Does It Study?
 
 Where Shannon’s classical information theory asks how to compress, transmit, and protect strings of $$0/1$$ bits over noisy channels, **Quantum Information Science (QIS)** asks the exact same questions when the information carrier obeys quantum laws. You do not need a prior physics course in quantum mechanics to grasp its mathematical backbone—it stands on **four pillars**:
 
@@ -89,7 +89,7 @@ is the canonical example: measurement outcomes on the two parties are perfectly 
 
 ---
 
-### Deep-Dive Explanation: Building a Bell State and Breaking the CHSH Limit by Hand (Read Slowly)
+### Explanation: Building a Bell State and Breaking the CHSH Limit by Hand
 
 To see that “quantum entanglement” is concrete $$4\times 4$$ linear algebra rather than mysticism, let us turn two unentangled qubits $$\lvert 00\rangle$$ into the Bell state $$\lvert \Phi^+\rangle$$ by hand, then verify directly how it beats the classical CHSH bound of $$2$$.
 

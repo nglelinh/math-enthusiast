@@ -19,7 +19,7 @@ In 1917, Japanese mathematician Sōichi Kakeya posed a question that sounded lik
 
 Then Abram Besicovitch shattered that intuition: in the plane, there exist sets containing a unit segment in **every** direction whose **area (Lebesgue measure) is literally zero**! Stranger still, even with zero area, such a set is so intricately woven that it must retain **full Hausdorff dimension 2**. This studio invites you inside that paradox—not to reproduce the hundred-page Wang–Zahl (2025) proof, but to **draw, simulate, measure, fail, and rebuild** your definition of "small," while keeping conjecture, construction, numerical observation, and theorem strictly separated.
 
-**Lesson roadmap:** Background Knowledge Map (geometric measure theory, Hausdorff/Minkowski dimension, harmonic analysis & $$\delta$$-tubes) → Needle motion vs. Besicovitch sets → Deep-Dive Explanation (Read Slowly): hand-computing one Perron-tree cut-and-slide → Dimension vs. measure & status in dimensions 2, 3, and $$\ge 4$$ → Studio experiments & log.
+**Lesson roadmap:** Key ideas (geometric measure theory, Hausdorff/Minkowski dimension, harmonic analysis & $$\delta$$-tubes) → Needle motion vs. Besicovitch sets → Explanation: hand-computing one Perron-tree cut-and-slide → Dimension vs. measure & status in dimensions 2, 3, and $$\ge 4$$ → Studio experiments & log.
 
 ---
 
@@ -38,7 +38,7 @@ After this studio you should be able to:
 
 ---
 
-## Background Knowledge Map: What Are Geometric Measure Theory and Harmonic Analysis?
+## Key ideas: What Are Geometric Measure Theory and Harmonic Analysis?
 
 If you graduated in engineering, physics, or mathematics, you know how to measure length, area, and volume with Riemann or Lebesgue integrals. Yet when you meet razor-thin fractals like the Cantor set or a Besicovitch set, ordinary area simply outputs $$0$$ and shrugs. Three pillars of modern analysis step in where ordinary area stops:
 
@@ -76,7 +76,7 @@ These two problems are related but not identical. Continuous-motion needle sets 
 
 Segment length is fixed at $$1$$. What one can do is force massive **reuse of the same points** across many directions, and pass to a fractal limit of thinner neighborhoods. Besicovitch’s art is systematic reuse of space through iterated cutting and sliding.
 
-#### Deep-Dive Explanation (Read Slowly): Hand-Computing One Perron-Tree Cut-and-Slide
+#### Explanation: Hand-Computing One Perron-Tree Cut-and-Slide
 
 To convince yourself completely that cutting and sliding genuinely *shrinks area while losing zero directions*, check every coordinate of this elementary 2D calculation:
 

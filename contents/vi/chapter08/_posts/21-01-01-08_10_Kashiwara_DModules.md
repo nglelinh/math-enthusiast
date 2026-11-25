@@ -31,7 +31,7 @@ Sau bài này, bạn có thể giải thích $$D$$-module như ngôn ngữ đạ
 
 ---
 
-## Bản đồ kiến thức nền: Giải tích đại số, D-module và lý thuyết biểu diễn là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Giải tích đại số, D-module và lý thuyết biểu diễn là gì và nghiên cứu những gì?
 
 Ba cụm từ trong sự nghiệp của Kashiwara thường chỉ xuất hiện ở chương trình sau đại học, nhưng bản chất trực giác của chúng hoàn toàn có thể nắm bắt ngay từ kiến thức đại số tuyến tính và phương trình vi phân đại học:
 
@@ -45,7 +45,7 @@ Trong đại số tuyến tính, một hệ phương trình tuyến tính $$Ax =
 - **Crystal base (cơ sở tinh thể):** Ý tưởng thiên tài năm 1990 của Kashiwara là cho $$q \to 0$$ (như hạ nhiệt độ về không độ tuyệt đối để chất lỏng kết tinh thành tinh thể). Ở giới hạn $$q = 0$$, toàn bộ không gian biểu diễn phức tạp của nhóm lượng tử bỗng "đông cứng" thành một **đồ thị có hướng gắn nhãn** (**crystal graph**), biến những phép tính đại số nặng nề (như phân rã tích tensor) thành trò chơi đi theo mũi tên và ghép cặp dấu ngoặc cực kỳ gọn nhẹ.
 - **Tương ứng Riemann–Hilbert:** Là cuốn từ điển hai chiều nối **giải tích đại số** (các $$D$$-module holonomic có kỳ dị chính quy—tức hệ PDE tuyến tính) với **tôpô hình học** (các chùm perverse mã hóa cách nghiệm biến đổi khi đi vòng quanh điểm kỳ dị).
 
-### Khung giải thích: Tự tay tính đại số Weyl, đơn đạo của $$\sqrt{x}$$ và tích tensor tinh thể $$\mathfrak{sl}_2$$ (nên đọc chậm)
+### Giải thích: Tự tay tính đại số Weyl, đơn đạo của $$\sqrt{x}$$ và tích tensor tinh thể $$\mathfrak{sl}_2$$
 
 Để thấy cả hai trụ cột của Kashiwara đều chạm tay vào được mà không cần ngôn ngữ quá cao siêu, ta hãy làm hai phép tính nhỏ hoàn toàn bằng tay.
 
@@ -132,7 +132,7 @@ Riemann–Hilbert hiện đại nối dữ liệu giải tích của PDE với d
 
 ## 3. Triết lý Riemann–Hilbert (bản đồ sâu hơn)
 
-Bài toán Riemann–Hilbert cổ điển (bài toán thứ 21 của Hilbert) hỏi: nếu ta biết **đơn đạo (monodromy)**—tức cách nghiệm của một phương trình vi phân biến đổi khi ta đi một vòng tròn quanh các điểm kỳ dị—liệu ta có dựng lại được phương trình vi phân ban đầu không? Như ta vừa tự kiểm tra ở Khung giải thích với nghiệm $$u(x) = \sqrt{x}$$, khi $$x$$ đi một vòng quanh $$0$$, nghiệm bị nhân thêm $$-1$$ (tổng quát với $$x^\alpha$$ là $$e^{2\pi i \alpha}$$).
+Bài toán Riemann–Hilbert cổ điển (bài toán thứ 21 của Hilbert) hỏi: nếu ta biết **đơn đạo (monodromy)**—tức cách nghiệm của một phương trình vi phân biến đổi khi ta đi một vòng tròn quanh các điểm kỳ dị—liệu ta có dựng lại được phương trình vi phân ban đầu không? Như ta vừa tự kiểm tra ở Giải thích với nghiệm $$u(x) = \sqrt{x}$$, khi $$x$$ đi một vòng quanh $$0$$, nghiệm bị nhân thêm $$-1$$ (tổng quát với $$x^\alpha$$ là $$e^{2\pi i \alpha}$$).
 
 Kashiwara (và Mebkhout độc lập) đã nâng cấp bài toán cổ điển ấy lên số chiều bất kỳ dưới dạng một **cuốn từ điển tương đương giữa hai phạm trù**:
 
@@ -158,7 +158,7 @@ Năm 1990, Kashiwara tạo ra một ý tưởng làm ngỡ ngàng giới lý thu
 
 > Crystal là “cái bóng” của biểu diễn tại $$q=0$$, giữ trọn linh hồn tổ hợp của đối xứng.
 
-Ở Khung giải thích phía trên, ta đã thấy trực tiếp quy tắc nhân tensor của Kashiwara cho $$\mathfrak{sl}_2$$ phân rã $$B(1)\otimes B(1) = B(2)\oplus B(0)$$ chỉ bằng cách khử cặp `+-`. Với các đại số Lie lớn hơn như $$\mathfrak{sl}_n$$ (có $$n-1$$ màu mũi tên), cùng một quy tắc tổ hợp đó lập tức sinh ra quy tắc Littlewood–Richardson và các cấu trúc bảng Young mà không cần đụng tới một đa thức nào theo $$q$$!
+Ở Giải thích phía trên, ta đã thấy trực tiếp quy tắc nhân tensor của Kashiwara cho $$\mathfrak{sl}_2$$ phân rã $$B(1)\otimes B(1) = B(2)\oplus B(0)$$ chỉ bằng cách khử cặp `+-`. Với các đại số Lie lớn hơn như $$\mathfrak{sl}_n$$ (có $$n-1$$ màu mũi tên), cùng một quy tắc tổ hợp đó lập tức sinh ra quy tắc Littlewood–Richardson và các cấu trúc bảng Young mà không cần đụng tới một đa thức nào theo $$q$$!
 
 ---
 

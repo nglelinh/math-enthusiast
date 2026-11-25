@@ -32,7 +32,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Fields Sit Behind Yang–Mills?
+## Key ideas: What Fields Sit Behind Yang–Mills?
 
 Why does a particle-physics problem sit on a pure mathematics Millennium Prize list? Yang–Mills unites three profound mathematical worlds.
 
@@ -149,7 +149,7 @@ $$
 
 ---
 
-### Deep-Dive Explanation: From Wilson’s Lattice to the Clay Millennium Prize (Read Slowly)
+### Explanation: From Wilson’s Lattice to the Clay Millennium Prize
 
 How do mathematical physicists even *try* to build a 4D quantum Yang–Mills theory without relying on perturbation theory? Follow these four steps slowly.
 

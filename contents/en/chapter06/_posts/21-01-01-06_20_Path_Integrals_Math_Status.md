@@ -19,7 +19,7 @@ As a physical idea, the **path integral** is dazzling: when $$\hbar$$ is small, 
 
 ---
 
-## Background Knowledge Map: What Do Functional Integration, Infinite-Dimensional Measure Theory, and Asymptotics Study?
+## Key ideas: What Do Functional Integration, Infinite-Dimensional Measure Theory, and Asymptotics Study?
 
 When the variable of integration is no longer a point $$x \in \mathbb{R}^n$$ but an entire **continuous curve** $$q: [0,T] \to \mathbb{R}^d$$, three branches of analysis meet:
 
@@ -51,7 +51,7 @@ After this lecture you should be able to:
 
 Dirac (1930s) emphasized that short-time propagators relate to $$\exp(iS/\hbar)$$. Feynman (1948) turned the idea into a systematic formulation of quantum mechanics equivalent (under suitable conditions) to the Schrödinger picture: discretize time, integrate over intermediate positions, take a continuum limit.
 
-### Deep-Dive Explanation: Slicing Time and Summing Over Paths by Hand (Read Slowly)
+### Explanation: Slicing Time and Summing Over Paths by Hand
 
 To see that a path integral is not magic, let us compute the imaginary-time (Euclidean) propagator of a 1D free particle ($$m = 1, \hbar = 1$$) traveling from $$q_0 = 0$$ at $$\tau = 0$$ to $$q_2 = x$$ at $$\tau = 2\varepsilon$$ through **one intermediate point** $$q_1 \in \mathbb{R}$$ (summing over all two-segment polygonal paths $$0 \to q_1 \to x$$):
 

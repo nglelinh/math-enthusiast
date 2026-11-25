@@ -23,7 +23,7 @@ After this lecture you should be able to name five modern math–CS themes (priv
 
 ---
 
-## Background Knowledge Map: What Is the Modern Math–CS Frontier and What Does It Study?
+## Key ideas: What Is the Modern Math–CS Frontier and What Does It Study?
 
 Whereas twentieth-century computer science kept a visible fence between *theory* (proofs on a chalkboard) and *systems* (code running on metal), the twenty-first century has dissolved that fence into an electric **Math–CS borderland**. Planetary-scale deployment constantly invents brand-new mathematics, and fresh theorems reshape systems overnight:
 
@@ -84,7 +84,7 @@ Their ratio is $$\dfrac{0.75}{0.25} = 3 = e^{\ln 3}$$, so the protocol is rigoro
 
 **Calculation 3 — Grover's quantum speedup is quadratic, not an NP collapse.** Searching an unstructured database of $$N = 10^{12}$$ keys takes $$\sim N/2 = 5 \times 10^{11}$$ classical queries versus $$\dfrac{\pi}{4}\sqrt{N} \approx \mathbf{7.85 \times 10^5}$$ quantum queries—nearly a million-fold gain, yet for a 256-bit AES key ($$N = 2^{256}$$), $$\sqrt{N} = 2^{128}$$ remains physically unreachable!
 
-### Deep-Dive Explanation: How to Read the Math–CS Frontier Like a Researcher (Read Slowly)
+### Explanation: How to Read the Math–CS Frontier Like a Researcher
 
 1. **Identify the resource axis first:** polynomial vs. exponential (P vs NP), exponent inside P (fine-grained), privacy budget ($$\varepsilon$$-DP), quantum queries (BQP), or GPU-to-GPU bandwidth? Half of tech arguments vanish once both sides name the same resource.
 2. **Separate *conditional theorems* from *empirical demos*:** fine-grained complexity proves *"if SETH holds, no $$O(n^{1.99})$$ algorithm exists"*; an AI leaderboard says *"on this test set, our model scored 92%."* Both matter, with very different levels of certainty.

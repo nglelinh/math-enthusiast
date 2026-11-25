@@ -25,7 +25,7 @@ After this lecture you should be able to state Yao’s minimax principle in slog
 
 ---
 
-## Background Knowledge Map: What Are Communication Complexity and Yao's Minimax Principle?
+## Key ideas: What Are Communication Complexity and Yao's Minimax Principle?
 
 When mathematicians try to prove a problem is *hard* on ordinary Turing machines (like P vs NP), they often hit a wall because CPU steps are wildly tangled to analyze. **Communication Complexity**, introduced by Yao in 1979, made a brilliantly clean move: **grant Alice and Bob unlimited local computing power, and count only the bits they must exchange!**
 
@@ -71,7 +71,7 @@ More formally (for a finite set of deterministic algorithms and inputs, with cos
 
 This is von Neumann minimax applied to computational cost. The intellectual gift is not the game theory per se—it is the **method**: hard distributions become lower-bound tools.
 
-### Deep-Dive Explanation: How Yao's Minimax Principle Works in Four Steps (Read Slowly)
+### Explanation: How Yao's Minimax Principle Works in Four Steps
 
 1. **Frame the lower bound as a zero-sum game:** the designer picks an algorithm $$A \in \mathcal{A}$$, the adversary picks an input $$x \in \mathcal{X}$$, and the payoff (penalty) is the cost $$C(A, x)$$.
 2. **View a randomized algorithm as a mixed strategy:** instead of tracking messy internal coin flips, view any randomized algorithm $$R$$ as simply sampling a deterministic algorithm $$A$$ according to a distribution $$R$$.

@@ -14,7 +14,7 @@ Mỗi tháng Ba tại Oslo, khi tuyết mùa đông vẫn còn vương trên nh�
 
 Nhưng nếu chỉ đọc tên người đoạt giải rồi gật gù "người này chắc giỏi lắm", ta đã bỏ lỡ phần thú vị nhất. Câu hỏi thật sự là: **Giải Abel được sinh ra để tôn vinh kiểu toán học nào** mà Huy chương Fields hay các giải thưởng bài toán triệu đô chưa bao quát hết? Và làm thế nào để một người yêu toán đọc một lời trích dẫn (*citation*) ngắn ngủi của hội đồng như một tấm bản đồ dẫn thẳng vào thế giới nghiên cứu, chứ không phải như một mẩu tin vinh danh xã giao?
 
-**Mạch bài học:** Bản đồ hệ sinh thái toán học nghiên cứu → Vì sao cần Giải Abel → Cách đọc citation như người làm toán → Khung giải thích chậm: sức mạnh của "toán học hạ tầng" qua ví dụ ma trận tính tay → So sánh Abel, Fields và Clay Millennium → Những nhầm lẫn thường gặp.
+**Mạch bài học:** Bản đồ hệ sinh thái toán học nghiên cứu → Vì sao cần Giải Abel → Cách đọc citation như người làm toán → Giải thích: sức mạnh của "toán học hạ tầng" qua ví dụ ma trận tính tay → So sánh Abel, Fields và Clay Millennium → Những nhầm lẫn thường gặp.
 
 ---
 
@@ -26,7 +26,7 @@ Sau bài này, bạn có thể: mô tả vai trò thể chế của giải Abel 
 
 ---
 
-## Bản đồ kiến thức nền: Hệ sinh thái toán học nghiên cứu và "toán học hạ tầng" là gì?
+## Kiến thức cần nhớ: Hệ sinh thái toán học nghiên cứu và "toán học hạ tầng" là gì?
 
 Ở bậc phổ thông và những năm đầu đại học, ta thường hình dung toán học như một cuộc thi giải từng bài toán độc lập: cho đề bài, tìm lời giải, xong rồi chuyển sang bài tiếp theo. Thế nhưng ở tầng nghiên cứu hiện đại, toán học vận hành giống một **hệ sinh thái kiến trúc** gồm ba trụ cột bổ sung chặt chẽ cho nhau:
 
@@ -68,7 +68,7 @@ Mở bất kỳ lời trích dẫn (*citation*) nào trên [abelprize.no](https:
 
 Hãy để ý các động từ và tính từ lặp đi lặp lại: *mở ra*, *tiên phong*, *định hình*, *nền tảng*, *xây cầu*. Ngôn ngữ của Giải Abel là ngôn ngữ của **người thay đổi khí hậu cho cả một lĩnh vực**, chứ không chỉ là người cắm cờ trên một đỉnh núi.
 
-### Khung giải thích: "Toán học hạ tầng" mạnh đến mức nào? (nên đọc chậm)
+### Giải thích: "Toán học hạ tầng" mạnh đến mức nào?
 
 Nhiều sinh viên mới làm quen với Giải Abel hay hỏi: *tại sao tạo ra một "ngôn ngữ" hay một "góc nhìn" lại đáng giải thưởng ngang với việc giải một bài toán 350 tuổi?* Hãy tự tay kiểm chứng sức mạnh của một ý tưởng hạ tầng quen thuộc nhất bậc đại học — **chéo hóa ma trận (đại số tuyến tính trừu tượng)** — qua bài toán tính lũy thừa bậc 10 của ma trận đối xứng:
 

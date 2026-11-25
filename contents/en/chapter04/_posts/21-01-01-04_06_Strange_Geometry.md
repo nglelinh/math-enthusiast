@@ -32,7 +32,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: Why Topology Loves "Monsters"
+## Key ideas: Why Topology Loves "Monsters"
 
 In the nineteenth century, mathematicians called space-filling curves and nowhere-differentiable paths "monsters" and tried to banish them. By the twentieth century, they realized those monsters were actually lighthouses marking the exact boundaries of theorems across four pillars:
 
@@ -132,7 +132,7 @@ Compare the two flavors of geometric strangeness we have met:
 
 ---
 
-### Deep-Dive Explanation: Why "Pathological" Objects Are Actually Diagnostic Tools (Read Slowly)
+### Explanation: Why "Pathological" Objects Are Actually Diagnostic Tools
 
 Whenever a geometric object feels impossible, ask *which hidden assumption did it just expose?* Trace the four-step diagnostic pattern:
 

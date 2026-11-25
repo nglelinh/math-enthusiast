@@ -14,7 +14,7 @@ Tháng 12 năm 2020, nhà toán học đoạt Huy chương Fields **Peter Scholz
 
 Mười tám tháng sau, cộng đồng trợ lý chứng minh **Lean** trả lời bằng một dấu kiểm xanh tuyệt đối. Và chỉ hai năm sau đó (2024), những hệ thống AI kết hợp học sâu với suy diễn ký hiệu như **AlphaGeometry** và **AlphaProof** bắt đầu tự tìm ra lời giải cho các bài toán Olympic Toán học Quốc tế (IMO) rồi gửi trực tiếp cho Lean kiểm duyệt. Câu chuyện từ Euclid, Cantor, Gödel đến Định lý Bốn Màu đang bước sang một chương mới: nơi chứng minh không chỉ nằm trên bảng đen hay giấy in, mà trở thành **mã chương trình được kiểm toán ở cấp độ tiên đề**.
 
-**Mạch bài học:** Bản đồ kiến thức nền (chứng minh hình thức & Curry–Howard, lý thuyết phạm trù, nguyên lý de Bruijn) → Khung giải thích chậm: đọc một chứng minh thật trong Lean 4 và kiểm tra một phạm trù cụ thể bằng tay → Ba cột mốc 2022–2026 (Liquid Tensor Experiment, AlphaGeometry, AlphaProof) → Đối chiếu với giới hạn của Định lý Gödel.
+**Mạch bài học:** Kiến thức cần nhớ (chứng minh hình thức & Curry–Howard, lý thuyết phạm trù, nguyên lý de Bruijn) → Giải thích: đọc một chứng minh thật trong Lean 4 và kiểm tra một phạm trù cụ thể bằng tay → Ba cột mốc 2022–2026 (Liquid Tensor Experiment, AlphaGeometry, AlphaProof) → Đối chiếu với giới hạn của Định lý Gödel.
 
 ---
 
@@ -24,7 +24,7 @@ Sau bài tùy chọn này, bạn có thể mô tả ba hệ thống tính toán 
 
 ---
 
-## Bản đồ kiến thức nền: Chứng minh hình thức, Lý thuyết kiểu và Lý thuyết phạm trù là gì?
+## Kiến thức cần nhớ: Chứng minh hình thức, Lý thuyết kiểu và Lý thuyết phạm trù là gì?
 
 Khi đọc các tin tức về Lean, Liquid Tensor Experiment hay AlphaProof, người tốt nghiệp đại học thường gặp ba thuật ngữ nghe rất "hàn lâm". Dưới đây là trực giác rõ ràng cho cả ba trụ cột:
 
@@ -48,7 +48,7 @@ Các bài chứng minh trước đó, đặc biệt là [Euclid và vô hạn s�
 
 ---
 
-## Khung giải thích: tự tay đọc một chứng minh thật trong Lean 4 và kiểm tra một phạm trù (nên đọc chậm)
+## Giải thích: tự tay đọc một chứng minh thật trong Lean 4 và kiểm tra một phạm trù
 
 Để cảm nhận rõ "biến chứng minh thành chương trình" thực tế trông như thế nào, hãy đọc chậm hai ví dụ cầm tay dưới đây:
 

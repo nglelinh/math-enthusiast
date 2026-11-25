@@ -24,7 +24,7 @@ Phần tổng quan của chương, cùng ít nhất một trong các bài [Talag
 
 ---
 
-## Bản đồ kiến thức nền: Cầu nối từ toán học trọn đời đến học máy và tính toán hiện đại là gì?
+## Kiến thức cần nhớ: Cầu nối từ toán học trọn đời đến học máy và tính toán hiện đại là gì?
 
 Vì sao những định lý tưởng chừng xa xôi trên bảng đen lại tái xuất hiện trong phòng thí nghiệm AI và khoa học dữ liệu hiện đại? Có ba trụ cột kết nối trực tiếp:
 
@@ -37,7 +37,7 @@ Các bộ giải vật lý truyền thống chia lưới không–thời gian r�
 ### 3. Từ đồ thị expander đến Graph Transformer — nghiên cứu gì?
 Mạng nơ-ron đồ thị (GNN) cổ điển chỉ truyền tin giữa các nút láng giềng trực tiếp, nên thông tin ở hai đầu đồ thị khó gặp nhau (hiện tượng *over-squashing*—thắt cổ chai thông tin). Lý thuyết đồ thị hiện đại, phổ Laplacian và tính chất trộn nhanh của **expander** gợi ý cách bổ sung các đường nối toàn cục (như cơ chế *attention*) để thông tin lan tỏa nhanh mà không làm mất cấu trúc cục bộ.
 
-### Khung giải thích: Tự tay tính một cận PAC–Bayes bằng con số cụ thể (nên đọc chậm)
+### Giải thích: Tự tay tính một cận PAC–Bayes bằng con số cụ thể
 
 Trong lý thuyết học máy hiện đại (như bài tổng quan của Alquier, 2024), một cận PAC–Bayes điển hình cho rủi ro thật $$R(h)$$ (với xác suất ít nhất $$1 - \delta$$) có dạng:
 
@@ -84,7 +84,7 @@ $$
 \mathbb{E}_{h \sim Q}[R(h)] \;\le\; \mathbb{E}_{h \sim Q}[\hat R_S(h)] + \sqrt{\frac{\mathrm{KL}(Q \,\Vert\, P) + \ln(2\sqrt{n}/\delta)}{2n}}.
 $$
 
-Cơ chế đằng sau dấu căn thức và xác suất tin cậy $$1 - \delta$$ chính là các bất đẳng thức tập trung đuôi mũ (họ hàng của Hoeffding và Talagrand): ở chiều cao, các đại lượng trung bình thực nghiệm tập trung rất chặt quanh kỳ vọng, nhưng ta phải "trả phí độ phức tạp" qua phân kỳ $$\mathrm{KL}(Q \,\Vert\, P)$$. Như Kịch bản B trong Khung giải thích vừa cho thấy, phần lớn các cận PAC–Bayes ngây thơ cho mạng sâu hàng tỷ tham số hiện vẫn còn khá lỏng về mặt con số; đó là thách thức của bài toán áp dụng cho mạng phi tuyến sâu, chứ không phải bằng chứng rằng hiện tượng tập trung vô dụng.
+Cơ chế đằng sau dấu căn thức và xác suất tin cậy $$1 - \delta$$ chính là các bất đẳng thức tập trung đuôi mũ (họ hàng của Hoeffding và Talagrand): ở chiều cao, các đại lượng trung bình thực nghiệm tập trung rất chặt quanh kỳ vọng, nhưng ta phải "trả phí độ phức tạp" qua phân kỳ $$\mathrm{KL}(Q \,\Vert\, P)$$. Như Kịch bản B trong Giải thích vừa cho thấy, phần lớn các cận PAC–Bayes ngây thơ cho mạng sâu hàng tỷ tham số hiện vẫn còn khá lỏng về mặt con số; đó là thách thức của bài toán áp dụng cho mạng phi tuyến sâu, chứ không phải bằng chứng rằng hiện tượng tập trung vô dụng.
 
 ### 2. Bộ giải liên tục và vấn đề kỳ dị
 

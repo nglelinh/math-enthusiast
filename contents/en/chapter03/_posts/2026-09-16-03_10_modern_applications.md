@@ -16,7 +16,7 @@ This optional update places those four 2022–2026 landmarks directly on top of 
 
 ---
 
-## Background Knowledge Map: How Do 2022–2026 Breakthroughs Extend Classical Chapter 3 Math?
+## Key ideas: How Do 2022–2026 Breakthroughs Extend Classical Chapter 3 Math?
 
 What makes the 2022–2026 wave so illuminating is that it **never discards** Chapter 3’s mathematics—it upgrades either the *coordinate system* or the *underlying hard problem* by one level:
 
@@ -45,7 +45,7 @@ Chapter 3 already told the migration stories: modular arithmetic became a handsh
 
 A key-encapsulation mechanism produces a shared secret $$K$$ from public encapsulation. Classically, $$K$$ is protected by factoring or discrete log. After Shor, the hardness assumption moves. Graph learning, meanwhile, still needs a representation of a vertex $$v$$ that mixes *neighbors* with a *global* token mix. Fourier neural operators implement a learned kernel as a multiplier $$\widehat{K}(k)$$ in frequency space—the same dual picture as the Fourier lecture, now trained rather than designed.
 
-### Deep-Dive Explanation: Reading a 2022–2026 Applied Math Paper Without Getting Lost in Jargon (Read Slowly)
+### Explanation: Reading a 2022–2026 Applied Math Paper Without Getting Lost in Jargon
 
 Whenever a headline announces a dazzling new architecture or cryptographic standard, you can decode it in four calm steps—and check the mechanism on a concrete miniature calculation:
 

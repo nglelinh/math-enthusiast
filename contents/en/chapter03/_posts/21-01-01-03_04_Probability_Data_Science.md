@@ -16,7 +16,7 @@ What went wrong in all three stories? The real world is noisy, every sample is f
 
 ---
 
-## Background Knowledge Map: What Are Probability Theory and Mathematical Statistics?
+## Key ideas: What Are Probability Theory and Mathematical Statistics?
 
 Many students meet probability through dice and urns and mistake it for counting tricks. At the university and data-science level, **probability** and **statistics** are the two opposite directions across the exact same bridge:
 
@@ -184,7 +184,7 @@ is the algebraic heart of updating beliefs. Spam filters, medical diagnosis prot
 
 ---
 
-### Deep-Dive Explanation: From a Finite Data Table to a Real-World Decision—Checked by Hand (Read Slowly)
+### Explanation: From a Finite Data Table to a Real-World Decision—Checked by Hand
 
 Follow four disciplined steps whenever turning numbers into action—and verify the classic base-rate trap directly with Bayes’ rule:
 

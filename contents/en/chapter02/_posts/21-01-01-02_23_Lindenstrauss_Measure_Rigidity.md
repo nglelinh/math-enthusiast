@@ -18,7 +18,7 @@ Even more astonishingly, that question about chaotic dynamics unlocks two of the
 
 The medal honors his measure-classification theorems for **higher-rank diagonalizable actions** on homogeneous spaces, and two headline exports: proving that exceptions to **Littlewood’s conjecture** have **Hausdorff dimension zero** (with Manfred Einsiedler and Anatole Katok), and proving **arithmetic quantum unique ergodicity (QUE)** for Hecke–Maass forms on compact arithmetic hyperbolic surfaces. We place Lindenstrauss inside the landscape built by Furstenberg, Margulis, Ratner, Katok, Einsiedler, and Host–Kra—while staying honest about what remains open (full Littlewood’s conjecture and non-arithmetic QUE).
 
-**Lesson roadmap:** Background Knowledge Map (ergodic theory, homogeneous spaces of lattices, unipotent vs. higher-rank diagonal) → Hand-verifiable worked examples ($$\times 2$$ vs. $$\times 3$$ on the circle and translating Littlewood into a $$3\times 3$$ matrix orbit) → Deep-Dive Explanation (Read Slowly): 4 steps from EKL measure classification to Littlewood and arithmetic QUE → Landscape of contributors & comparison with Abel 2020.
+**Lesson roadmap:** Key ideas (ergodic theory, homogeneous spaces of lattices, unipotent vs. higher-rank diagonal) → Hand-verifiable worked examples ($$\times 2$$ vs. $$\times 3$$ on the circle and translating Littlewood into a $$3\times 3$$ matrix orbit) → Explanation: 4 steps from EKL measure classification to Littlewood and arithmetic QUE → Landscape of contributors & comparison with Abel 2020.
 
 ---
 
@@ -38,7 +38,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Do Ergodic Theory, Homogeneous Dynamics, and Measure Rigidity Study?
+## Key ideas: What Do Ergodic Theory, Homogeneous Dynamics, and Measure Rigidity Study?
 
 ### 1. Ergodic theory and measure rigidity
 Ergodic theory studies long-term statistical averages of a measure-preserving group action $$(X, \mu, H)$$. An invariant probability measure $$\mu$$ is **ergodic** if it cannot be split into two nontrivial invariant pieces—it is a statistical "atom" of the dynamics. **Measure rigidity** asks the deeper prior question: *which ergodic invariant measures can exist at all?*
@@ -90,7 +90,7 @@ Look at what just happened: if $$(\alpha, \beta)$$ is a **counterexample** to Li
 
 ---
 
-## 2. Deep-Dive Explanation: From Measure Rigidity to Littlewood and Arithmetic QUE (Read Slowly)
+## 2. Explanation: From Measure Rigidity to Littlewood and Arithmetic QUE
 
 How does classifying invariant measures on homogeneous spaces crack both Diophantine approximation and quantum chaos? Follow four steps:
 

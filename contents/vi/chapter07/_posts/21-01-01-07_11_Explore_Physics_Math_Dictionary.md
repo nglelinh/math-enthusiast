@@ -19,7 +19,7 @@ Năm 1975, nhà vật lý Dương Chấn Ninh (C. N. Yang) tình cờ trò chuy�
 
 Nhưng không phải dòng nào trong cây cầu vật lý–toán cũng đã là định lý hoàn chỉnh. Có những mục đã được chứng minh chặt chẽ (như cơ học lượng tử trên không gian Hilbert hay liên thông cổ điển), nhưng cũng có những mục mà vật lý tính ra kết quả khớp thực nghiệm đến 10 chữ số thập phân trong khi toán học vẫn chưa định nghĩa nổi độ đo (như tích phân đường Feynman ở 4 chiều hay bài toán khe khối lượng Yang–Mills trị giá một triệu đô la). Bài thực hành này mời bạn luyện tay nghề "phiên dịch song ngữ": **mô tả cùng một cơ chế bằng cả ngôn ngữ vật lý lẫn ngôn ngữ toán học**, đồng thời giữ sự trung thực tuyệt đối về mức độ chắc chắn của từng dòng.
 
-**Mạch bài học:** Bản đồ kiến thức nền (vật lý toán 2 chiều: nền tảng chặt chẽ ↔ nguồn cảm hứng hình học) → Khung giải thích chậm: đọc một cơ chế bằng hai thứ tiếng trên ma trận Hamilton $$2 \times 2$$ → Bảng cặp gợi ý Wu–Yang & QFT → Nhiệm vụ biên soạn từ điển & nhật ký.
+**Mạch bài học:** Kiến thức cần nhớ (vật lý toán 2 chiều: nền tảng chặt chẽ ↔ nguồn cảm hứng hình học) → Giải thích: đọc một cơ chế bằng hai thứ tiếng trên ma trận Hamilton $$2 \times 2$$ → Bảng cặp gợi ý Wu–Yang & QFT → Nhiệm vụ biên soạn từ điển & nhật ký.
 
 ---
 
@@ -37,7 +37,7 @@ Sau bài này, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Vật lý toán hiện đại là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Vật lý toán hiện đại là gì và nghiên cứu những gì?
 
 Nhiều người vừa tốt nghiệp đại học vẫn hiểu nhầm "vật lý toán" chỉ đơn thuần là dùng giải tích hay phương trình vi phân để giải các bài tập vật lý. Trên thực tế, **Vật lý toán (Mathematical Physics)** hiện đại là một cuộc đối thoại hai chiều đầy kịch tính, xoay quanh ba trục chính:
 
@@ -55,7 +55,7 @@ Từ thập niên 1980 (Edward Witten, Simon Donaldson, Nathan Seiberg…), dòn
 
 ---
 
-### Khung giải thích: Đọc một cơ chế bằng hai thứ tiếng trên ma trận $$2 \times 2$$ (nên đọc chậm)
+### Giải thích: Đọc một cơ chế bằng hai thứ tiếng trên ma trận $$2 \times 2$$
 
 Để thấy sự khác biệt giữa "chép từ khóa" và "hiểu cơ chế vật lý ↔ toán", hãy tự tay kiểm tra một hệ lượng tử 2 trạng thái (qubit) với toán tử năng lượng (Hamiltonian):
 
@@ -114,7 +114,7 @@ Cần **ít nhất 8 dòng**. Nếu nhóm bạn chọn liên quan đến lý thu
 
 ### Nhiệm vụ C: Mô tả cơ chế (15 phút)
 
-Viết một đoạn ngắn (không quá 120 chữ) giải thích **cơ chế**: vì sao vai trò vật lý này lại ứng với đối tượng toán học kia (tương tự ví dụ toán tử tự liên hợp ↔ giá trị đo thực ở mục Khung giải thích).
+Viết một đoạn ngắn (không quá 120 chữ) giải thích **cơ chế**: vì sao vai trò vật lý này lại ứng với đối tượng toán học kia (tương tự ví dụ toán tử tự liên hợp ↔ giá trị đo thực ở mục Giải thích).
 
 ### Nhiệm vụ D: Sửa một câu sai (15 phút)
 

@@ -17,7 +17,7 @@ Bài này đi dọc theo trục chính của ngành: đồ thị và ma trận �
 
 ---
 
-## Bản đồ kiến thức nền: Khoa học mạng là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Khoa học mạng là gì và nghiên cứu những gì?
 
 Nếu lý thuyết đồ thị cổ điển trong toán rời rạc thường xét các đồ thị nhỏ hoặc có cấu trúc đối xứng chặt chẽ, thì **Khoa học Mạng** (Network Science) lại đứng ở ngã tư của **lý thuyết đồ thị, xác suất, đại số tuyến tính và vật lý thống kê** để nghiên cứu các mạng có hàng nghìn đến hàng tỷ đỉnh. Ngành này xoay quanh bốn câu hỏi trung tâm:
 
@@ -105,7 +105,7 @@ Video dài khoảng 2 phút 03 giây (có thuyết minh tiếng Việt): ý tư�
 </div>
 <script src="{{ '/public/js/explainers/pagerank-explainer.js' | relative_url }}"></script>
 
-### Khung giải thích: tính tay phổ ma trận Laplacian trên đồ thị 4 đỉnh (nên đọc chậm)
+### Giải thích: tính tay phổ ma trận Laplacian trên đồ thị 4 đỉnh
 
 Khẩu hiệu "giá trị riêng thứ hai $$\lambda_2$$ của ma trận Laplacian $$L = D - A$$ phát hiện nút thắt cổ chai và chia cộng đồng" nghe khá trừu tượng cho tới khi bạn tự tay kiểm tra trên một đồ thị nhỏ có nghiệm đẹp tuyệt đối.
 

@@ -17,7 +17,7 @@ Từ lâu, sinh học vẫn nổi tiếng là thế giới ồn ào, nhiều t�
 
 ---
 
-## Bản đồ kiến thức nền: Sinh học toán học là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Sinh học toán học là gì và nghiên cứu những gì?
 
 Nếu vật lý cổ điển thường đi tìm *một* phương trình nền tảng đúng ở mọi nơi, thì **Sinh học Toán học** (Mathematical Biology) lại hoạt động giống như một xưởng chế tác bản đồ ở nhiều tỷ lệ khác nhau. Tùy vào câu hỏi sinh học bạn đang hỏi, ngôn ngữ toán học thay đổi hoàn toàn:
 
@@ -78,7 +78,7 @@ $$R_0$$ xuất hiện khi tuyến tính hóa tại điểm cân bằng không c�
 
 ---
 
-### Khung giải thích: tính tay đỉnh dịch SIR và ngưỡng miễn dịch cộng đồng (nên đọc chậm)
+### Giải thích: tính tay đỉnh dịch SIR và ngưỡng miễn dịch cộng đồng
 
 Nhiều người nghĩ hệ phương trình phi tuyến SIR chỉ có thể giải bằng mô phỏng máy tính. Thực ra, bằng một phép chia hai phương trình đơn giản của giải tích năm nhất, bạn có thể tính chính xác **đỉnh dịch cao bao nhiêu** mà không cần biết hàm theo thời gian $$I(t)$$!
 

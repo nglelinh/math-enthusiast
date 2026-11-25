@@ -19,7 +19,7 @@ In **2022**, **Dennis Parnell Sullivan** (Stony Brook University; CUNY Graduate 
 
 The committee praised him for repeatedly changing the landscape of topology, moving among algebraic, analytic, and geometric ideas “like a true virtuoso.” This lecture traces Sullivan’s arc across topology **and** dynamics—including his famous **no wandering domains** theorem—and contrasts a lifetime virtuoso career with single-theorem epics like Perelman’s proof of Poincaré via Ricci flow. Official materials: [abelprize.no](https://abelprize.no/).
 
-**Lesson arc:** Background Knowledge Map (algebraic topology, geometric topology, complex dynamics) → Four landmark themes → Deep-Dive Explanation: computing orbits of $$f(z) = z^2 - 1$$ by hand and Sullivan’s dimension-counting contradiction → Julia sets and Fatou classification → Comparing Sullivan and Perelman.
+**Lesson arc:** Key ideas (algebraic topology, geometric topology, complex dynamics) → Four landmark themes → Explanation: computing orbits of $$f(z) = z^2 - 1$$ by hand and Sullivan’s dimension-counting contradiction → Julia sets and Fatou classification → Comparing Sullivan and Perelman.
 
 ---
 
@@ -31,7 +31,7 @@ After this lecture you should be able to place Sullivan across algebraic topolog
 
 ---
 
-## Background Knowledge Map: What Are Algebraic Topology, Geometric Topology, and Complex Dynamics, and What Do They Study?
+## Key ideas: What Are Algebraic Topology, Geometric Topology, and Complex Dynamics, and What Do They Study?
 
 The three phrases in Sullivan’s citation sound specialized, yet their core intuition rests on three pillars accessible to any university graduate:
 
@@ -94,7 +94,7 @@ $$
 
 are all distinct—never cycling. Sullivan proved in 1985 that **no such wandering domains exist** for rational maps of degree $$d \ge 2$$: every Fatou component eventually lands in a periodic cycle.
 
-### Deep-Dive Explanation: Hand-Checking Orbits of $$f(z) = z^2 - 1$$ and Sullivan’s Dimension-Counting Proof (Read Slowly)
+### Explanation: Hand-Checking Orbits of $$f(z) = z^2 - 1$$ and Sullivan’s Dimension-Counting Proof
 
 #### Part 1: Compute orbits of $$f(z) = z^2 - 1$$ (the "Basilica" Julia set) by hand
 Try a few starting values $$z_0$$ directly:

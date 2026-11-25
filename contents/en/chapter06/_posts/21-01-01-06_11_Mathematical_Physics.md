@@ -17,7 +17,7 @@ This lecture maps the main territories of mathematical physics—continuum PDEs 
 
 ---
 
-## Background Knowledge Map: What Is Mathematical Physics and What Does It Study?
+## Key ideas: What Is Mathematical Physics and What Does It Study?
 
 Mathematical physics is **not** simply “theoretical physics with extra equations” or “applied PDE solving.” It is **pure mathematics driven by physical models**, held to full mathematical proof standards, standing on **four pillars**:
 
@@ -133,7 +133,7 @@ phase transitions as non-analyticities of free energy in the thermodynamic limit
 
 ---
 
-### Deep-Dive Explanation: Solving the 1D Heat Equation and a 2-Level Partition Function by Hand (Read Slowly)
+### Explanation: Solving the 1D Heat Equation and a 2-Level Partition Function by Hand
 
 Rather than getting lost in grand names (Navier–Stokes, Hilbert spaces, partition functions), let us work two tiny hand calculations that hit the exact heart of **PDE smoothing** and **statistical mechanics**.
 

@@ -30,7 +30,7 @@ After this optional note you should be able to:
 
 ---
 
-## Background Knowledge Map: How Pure Ideas Become Engineering Tools
+## Key ideas: How Pure Ideas Become Engineering Tools
 
 When a pure mathematical concept crosses into computer science and AI, three distinct mathematical disciplines act as the translation layer:
 
@@ -100,7 +100,7 @@ Chapter 4’s emergence lecture already taught the remedy: **name the observable
 
 ---
 
-### Deep-Dive Explanation: How Pure Math Ideas Turn Into Production Software (Read Slowly)
+### Explanation: How Pure Math Ideas Turn Into Production Software
 
 When you read a breathless tech headline claiming a "mathematical breakthrough in AI or geometry," run this four-step reality check slowly:
 

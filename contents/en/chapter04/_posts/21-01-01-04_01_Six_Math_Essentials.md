@@ -35,7 +35,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Are the Six Pillars and How Do They Power Modern Mathematics?
+## Key ideas: What Are the Six Pillars and How Do They Power Modern Mathematics?
 
 In university, we usually take Calculus, Linear Algebra, and Probability as separate exam courses. Tao's lens helps a university graduate snap those separate pieces back into a single unified picture: **each pillar is a distinct habit of abstraction** applied to the same physical and logical world:
 
@@ -154,7 +154,7 @@ Newton could solve the **two-body** problem under inverse-square gravity and rec
 
 ---
 
-### Deep-Dive Explanation: Why Curiosity-Driven Ideas Become a Pipeline to Technology (Read Slowly)
+### Explanation: Why Curiosity-Driven Ideas Become a Pipeline to Technology
 
 Why do ideas invented purely for play—complex numbers, curved space, 8-dimensional sphere packing—keep turning into essential tools of physics and engineering decades later? Follow Tao's four-step perspective:
 

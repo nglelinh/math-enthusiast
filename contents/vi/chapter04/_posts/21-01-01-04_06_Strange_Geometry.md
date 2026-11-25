@@ -32,7 +32,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Tôpô học và Lý thuyết độ đo hình học là gì và giữ vai trò gì?
+## Kiến thức cần nhớ: Tôpô học và Lý thuyết độ đo hình học là gì và giữ vai trò gì?
 
 Khi nói đến hình học, ta thường nghĩ ngay đến thước kẻ, góc vuông và công thức diện tích. **Tôpô học** gạt bỏ hết khoảng cách và độ cong, chỉ giữ lại những tính chất không đổi khi ta kéo giãn, uốn cong liên tục mà không xé rách hay dán thêm (ví dụ: số lỗ thủng, tính liên thông, tính định hướng). Đây là ngôn ngữ nền của hình học vi phân hiện đại, phân tích dữ liệu tôpô (TDA), vật lý chất rắn (vật liệu tôpô — giải Nobel Vật lý 2016) và lý thuyết nút trong sinh học phân tử (DNA).
 
@@ -47,7 +47,7 @@ Trong bài học này, người tốt nghiệp đại học sẽ gặp ba câu h
 
 Lấy một dải giấy hình chữ nhật, xoắn một đầu nửa vòng rồi dán hai đầu lại, ta được **dải Möbius**. Nếu tô màu dọc theo đường giữa, ta sẽ quay về điểm xuất phát sau khi đã đi qua cả hai "mặt" mà ban đầu ta tưởng là khác nhau. Dải Möbius chỉ có một mặt, và biên của nó chỉ gồm một đường cong khép kín. Thú vị hơn nữa: nếu bạn cắt dải Möbius theo đường cách mép $$1/3$$ bề rộng, kéo sẽ đi hết hai vòng rồi cho ra **hai vòng lồng vào nhau** — một vòng vẫn là dải Möbius nhỏ ở giữa và một vòng hai mặt dài gấp đôi!
 
-**Ví dụ tọa độ cầm tay chỉ việc — thấy rõ sự lật chiều trên dải Möbius:**
+**Ví dụ tọa độ làm từng bước — thấy rõ sự lật chiều trên dải Möbius:**
 Biểu diễn dải giấy là hình chữ nhật $$[0, 1] \times [-1, 1]$$ với quy tắc dán hai cạnh trái–phải đảo ngược:
 
 $$
@@ -87,7 +87,7 @@ $$
 \gamma:[0,1]\to[0,1]^2.
 $$
 
-**Ví dụ tính độ dài cầm tay chỉ việc cho đường cong Hilbert bậc $$n$$:**
+**Ví dụ tính độ dài làm từng bước cho đường cong Hilbert bậc $$n$$:**
 Chia hình vuông $$[0,1]^2$$ thành lưới $$2^n \times 2^n$$ gồm $$4^n$$ ô vuông nhỏ (tâm hai ô kề nhau cách nhau đúng $$2^{-n}$$). Đường cong Hilbert bậc $$n$$ nối tâm tất cả $$4^n$$ ô bằng đúng $$4^n - 1$$ đoạn thẳng nhỏ, nên tổng độ dài của nó là:
 
 $$
@@ -108,7 +108,7 @@ Vì sao điều này không phá vỡ khái niệm số chiều?
 - Số chiều tôpô của miền xác định vẫn là $$1$$; ảnh có số chiều tôpô $$2$$.
 - Các đường cong lấp đầy điển hình không khả vi tại bất kỳ điểm nào; việc dao động vô hạn là cái giá phải trả.
 
-### Khung giải thích: vì sao "hình học lạ" không hề mâu thuẫn với logic hay vật lý (nên đọc chậm)
+### Giải thích: vì sao "hình học lạ" không hề mâu thuẫn với logic hay vật lý
 
 Khi gặp chai Klein, đường Hilbert hay Banach–Tarski, rất dễ rơi vào hai thái cực: hoặc nghĩ "toán học bị lỗi", hoặc nghĩ "vũ trụ có phép màu". Hãy đi chậm qua 4 bước để đặt mọi đối tượng vào đúng chỗ:
 

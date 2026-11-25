@@ -15,7 +15,7 @@ The geometric engine behind that $$720^\circ$$ symmetry is the trio of **Spin gr
 
 ---
 
-## Background Knowledge Map: What Three Pillars Build Spinors, Clifford Algebras, and Spin Geometry?
+## Key ideas: What Three Pillars Build Spinors, Clifford Algebras, and Spin Geometry?
 
 With undergraduate linear algebra ($$3 \times 3$$ rotation matrices, complex numbers, Pauli matrices) and second-order PDEs (wave equation, Laplacian), you can grasp all three pillars without any mysticism:
 
@@ -74,7 +74,7 @@ $$
 \{\gamma^\mu,\gamma^\nu\} = \gamma^\mu\gamma^\nu + \gamma^\nu\gamma^\mu = 2\eta^{\mu\nu}.
 $$
 
-### Deep-Dive Explanation: Taking the "Square Root" of the 3D Laplacian by Hand (Read Slowly)
+### Explanation: Taking the "Square Root" of the 3D Laplacian by Hand
 
 How does squaring a first-order differential operator cleanly kill all mixed derivatives $$\partial_x\partial_y$$? Verify it by hand on $$\mathbb{R}^3$$ using the three $$2 \times 2$$ **Pauli matrices**:
 

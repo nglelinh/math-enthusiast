@@ -14,7 +14,7 @@ In November 2022, David Smith—a retired print technician in Yorkshire who enjo
 
 Faced with instruments this dazzling, it is tempting to fall into a subtle illusion: *can a computer now keep our research notebook for us?* The answer is **no**. On the contrary, the more powerful the machine, the sharper the human discipline must be: state a conjecture cleanly before pressing Run, record the exact scope of what was computed, and never let a finished finite computation masquerade as an infinite proof. Chapter 7 is a notebook, not a lecture hall—this companion shows how to bring 2022–2026 computational tools inside that studio habit.
 
-**Lesson roadmap:** Background Knowledge Map (SAT solvers & UNSAT certificates, neuro-symbolic AI & GPU verification) → Deep-Dive Explanation: hand-encoding 2-coloring of triangle $$K_3$$ as a SAT formula and proving UNSAT in 4 lines → Three modern instruments (2022–2026) → Studio log discipline.
+**Lesson roadmap:** Key ideas (SAT solvers & UNSAT certificates, neuro-symbolic AI & GPU verification) → Explanation: hand-encoding 2-coloring of triangle $$K_3$$ as a SAT formula and proving UNSAT in 4 lines → Three modern instruments (2022–2026) → Studio log discipline.
 
 ## Learning objectives
 
@@ -24,7 +24,7 @@ After this optional studio companion you should be able to:
 - Integrate machine output into a research notebook with scientific precision, keeping a crisp boundary between a *finite check*, an *UNSAT certificate*, and a *mathematical theorem*.
 - Recognize the inherent limits of each instrument so you never overclaim beyond what the computation actually established.
 
-## Background Knowledge Map: What Are Formal Proofs, SAT Solvers, and Computer-Assisted Mathematics?
+## Key ideas: What Are Formal Proofs, SAT Solvers, and Computer-Assisted Mathematics?
 
 When university students open Python or MATLAB, they usually picture the computer as a fast numerical calculator. In modern mathematics, however, computers also participate directly in **logic and proof** through three branches overlapping with computer science:
 
@@ -46,7 +46,7 @@ The studio overview and at least one of [iteration / Collatz]({{ site.baseurl }}
 
 ---
 
-### Deep-Dive Explanation (Read Slowly): Hand-Encoding Graph Coloring as a SAT Formula and Proving UNSAT
+### Explanation: Hand-Encoding Graph Coloring as a SAT Formula and Proving UNSAT
 
 To see how a combinatorial or tiling problem is fed into a SAT solver, let's encode the smallest possible example by hand: **can we color the 3 vertices of triangle $$K_3$$ (vertices $$1, 2, 3$$) using 2 colors (Red = `0`, Blue = `1`) so that no two adjacent vertices share a color?**
 

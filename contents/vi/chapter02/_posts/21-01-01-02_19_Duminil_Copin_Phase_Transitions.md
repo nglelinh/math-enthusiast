@@ -15,7 +15,7 @@ Trong suốt nhiều thập niên, toán học về chuyển pha mắc kẹt tro
 
 Năm 2022, **Hugo Duminil-Copin** nhận **Huy chương Fields** nhờ *"giải quyết những bài toán tồn tại lâu trong lý thuyết xác suất về **chuyển pha** trong vật lý thống kê, đặc biệt ở chiều **ba** và **bốn**."* Cùng các cộng sự, ông chứng minh **tính liên tục** và **tính sắc** của chuyển pha cho các mô hình kiểu Ising ba chiều; cùng **Michael Aizenman**, ông chứng minh mô hình Ising bốn chiều tuân theo **trường trung bình** và lý thuyết trường lượng tử vô hướng Euclid bốn chiều là **tầm thường** (*trivial*); và ở chiều hai, ông cùng cộng sự phân loại hoàn chỉnh chuyển pha liên tục/gián đoạn của mô hình cụm ngẫu nhiên **Fortuin–Kasteleyn (FK)**, chứng minh tính phổ quát trên đồ thị đẳng bán kính và **tính bất biến dưới phép quay** ở thang lớn. Dù là học trò tiến sĩ của Smirnov, huy chương năm 2022 không phải sự lặp lại của định lý năm 2010 — và tính bất biến bảo giác của mô hình Ising ba chiều hiện vẫn còn mở.
 
-**Mạch bài học:** Bản đồ kiến thức nền (mô hình thấm, Ising và cụm ngẫu nhiên FK) → Ví dụ cầm tay trên lưới thấm 2D nhỏ và mô hình Ising $$2\times 2$$ → Khung giải thích chậm: tính liên tục, tính sắc (OSSS) ở chiều 3 và tính tầm thường ở chiều 4 → Các định lý và cộng sự ở chiều 2, 3, 4 → Ranh giới với Smirnov (2010) và Werner (2006).
+**Mạch bài học:** Kiến thức cần nhớ (mô hình thấm, Ising và cụm ngẫu nhiên FK) → Ví dụ cầm tay trên lưới thấm 2D nhỏ và mô hình Ising $$2\times 2$$ → Giải thích: tính liên tục, tính sắc (OSSS) ở chiều 3 và tính tầm thường ở chiều 4 → Các định lý và cộng sự ở chiều 2, 3, 4 → Ranh giới với Smirnov (2010) và Werner (2006).
 
 ---
 
@@ -36,7 +36,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Vật lý thống kê trên lưới và lý thuyết chuyển pha nghiên cứu gì?
+## Kiến thức cần nhớ: Vật lý thống kê trên lưới và lý thuyết chuyển pha nghiên cứu gì?
 
 Vật lý thống kê xác suất đặt một câu hỏi trung tâm: *khi ta có vô hạn hạt tương tác cục bộ theo quy luật ngẫu nhiên đơn giản, làm sao lại xuất hiện những thay đổi đột ngột ở quy mô toàn cục?* Ba mô hình kinh điển dưới đây là ngôn ngữ chung của toàn ngành.
 
@@ -63,7 +63,7 @@ với $$k(\omega)$$ là số thành phần liên thông (cụm). Khi $$q = 1$$ t
 
 ---
 
-## 1. Ví dụ cầm tay chỉ việc: lưới thấm 2D nhỏ và hiệu ứng "bậc thang" khi phóng lớn lưới
+## 1. Ví dụ làm từng bước: lưới thấm 2D nhỏ và hiệu ứng "bậc thang" khi phóng lớn lưới
 
 Hãy tự tay tính trên một **mạng cầu nối 2D nhỏ nhất có thể** — hình chữ nhật gồm 2 đường song song (trên và dưới), mỗi đường có 2 cạnh nối tiếp, cộng thêm 1 cạnh cầu nối ở giữa (tổng cộng 5 cạnh, hay đơn giản hơn trước hết hãy xét khối 4 cạnh nối song song–nối tiếp: 2 nhánh song song, mỗi nhánh gồm 2 cạnh nối tiếp).
 
@@ -104,7 +104,7 @@ Còn ở **chiều bốn**, bài toán chạm thẳng vào lý thuyết trườn
 
 ---
 
-## 3. Khung giải thích: làm sao chứng minh chuyển pha ở chiều 3 và chiều 4 không cần công thức chính xác? (nên đọc chậm)
+## 3. Giải thích: làm sao chứng minh chuyển pha ở chiều 3 và chiều 4 không cần công thức chính xác?
 
 Khi không có lời giải dạng đóng như Onsager ở chiều 2, Duminil-Copin và các cộng sự đã dùng một chuỗi công cụ xác suất – hình học đầy bất ngờ:
 

@@ -17,7 +17,7 @@ This lecture maps four faces of the same law—the **Fourier form**, the **Heise
 
 ---
 
-## Background Knowledge Map: What Three Pillars Unify Uncertainty Principles?
+## Key ideas: What Three Pillars Unify Uncertainty Principles?
 
 With undergraduate Fourier transforms and the Cauchy–Schwarz inequality, three pillars reveal the entire landscape of uncertainty theorems:
 
@@ -175,7 +175,7 @@ $$
 
 where $$H$$ is Shannon entropy of the outcome distribution. Computational-basis versus Hadamard-basis measurements of a qubit have $$c=1/\sqrt{2}$$, so the two outcome entropies sum to at least one bit.
 
-### Deep-Dive Explanation: Comparing Robertson vs. Maassen–Uffink by Hand on a Qubit (Read Slowly)
+### Explanation: Comparing Robertson vs. Maassen–Uffink by Hand on a Qubit
 
 Pick a concrete qubit state $$\psi = \begin{pmatrix} \sqrt{3}/2 \\ 1/2 \end{pmatrix}$$ (angle $$\theta = \pi/3$$ on the Bloch sphere) and measure Pauli $$Z = \operatorname{diag}(1, -1)$$ and $$X = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$$:
 

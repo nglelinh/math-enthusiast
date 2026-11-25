@@ -15,7 +15,7 @@ In that sense, calculus does not live on exam sheets; it lives inside jet engine
 
 ---
 
-## Background Knowledge Map: What Are Calculus and Vector Calculus, and What Do They Study?
+## Key ideas: What Are Calculus and Vector Calculus, and What Do They Study?
 
 Leaving high school, many students remember calculus as a bag of tricks for finding maxima of cubics or areas under parabolas. At the university and engineering level, **calculus (mathematical analysis)** is the mathematics of **continuous change** and **reassembling infinitely many infinitesimal pieces**, built in three natural layers:
 
@@ -251,7 +251,7 @@ Related industrial cousins: finite difference methods (grid stencils for derivat
 
 ---
 
-### Deep-Dive Explanation: From a Continuous Physical Law to a $$2\times 2$$ Finite Element System by Hand (Read Slowly)
+### Explanation: From a Continuous Physical Law to a $$2\times 2$$ Finite Element System by Hand
 
 Engineering software like ANSYS or COMSOL feels magical until you watch how a continuous differential equation becomes a concrete matrix equation $$KU = F$$ in four steps—which we can check by hand on a tiny elastic rod of length $$L = 2$$ (with stiffness $$EA = 1$$), fixed at both ends $$u(0) = u(2) = 0$$ under a uniform load $$f(x) = 1$$.
 

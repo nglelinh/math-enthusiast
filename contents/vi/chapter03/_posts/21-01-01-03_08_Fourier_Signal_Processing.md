@@ -35,7 +35,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Giải tích Fourier (Giải tích điều hòa) là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Giải tích Fourier (Giải tích điều hòa) là gì và nghiên cứu những gì?
 
 Nếu đại số tuyến tính dạy ta cách xoay hệ trục tọa độ trong không gian 3D để nhìn một hình khối dễ hơn, thì **giải tích Fourier (Fourier analysis / harmonic analysis)** làm đúng việc đó cho **không gian các hàm số và tín hiệu**.
 
@@ -111,7 +111,7 @@ $$
 x_n=\frac1N\sum_{k=0}^{N-1}\hat x_k e^{2\pi i kn/N}.
 $$
 
-### Ví dụ cầm tay chỉ việc: Tự tay tính Biến đổi Fourier Rời rạc (DFT) 4 điểm bằng ma trận
+### Ví dụ làm từng bước: Tự tay tính Biến đổi Fourier Rời rạc (DFT) 4 điểm bằng ma trận
 
 Xét một tín hiệu rời rạc 4 mẫu $$x = (1,\ 0,\ -1,\ 0)^\top$$ (đúng là một chu kỳ sóng $$\cos(\pi n/2)$$!). Với $$N=4$$, căn bậc 4 của đơn vị là $$\omega = e^{-2\pi i/4} = -i$$. Ma trận DFT $$F_4$$ có phần tử $$(k,n)$$ bằng $$\omega^{kn}$$:
 
@@ -156,7 +156,7 @@ Nếu tính trực tiếp theo định nghĩa (nhân ma trận $$N\times N$$ v�
 - Tính DFT trực tiếp: $$N^2 \approx 1{,}1 \times 10^{12}$$ phép tính (hơn **1 nghìn tỷ** phép tính — không thể chạy thời gian thực trên điện thoại).
 - Tính bằng FFT: $$N\log_2 N \approx 2{,}1 \times 10^7$$ phép tính (chỉ **21 triệu** phép tính — **nhanh hơn 50.000 lần**, chạy xong trong vài mili-giây!).
 
-### Khung giải thích: Từ sóng âm thanh liên tục đến file MP3/JPEG và sóng 5G (nên đọc chậm)
+### Giải thích: Từ sóng âm thanh liên tục đến file MP3/JPEG và sóng 5G
 
 1. **Lấy mẫu đúng ngưỡng Nyquist:** chuyển tín hiệu liên tục thành dãy số rời rạc với tốc độ $$f_s > 2B$$ (ví dụ 44,1 kHz cho tai người 20 kHz) để không bị chồng phổ.
 2. **Đổi hệ tọa độ siêu tốc bằng FFT/DCT:** chiếu mảng dữ liệu từ miền thời gian/điểm ảnh sang miền tần số chỉ tốn $$O(N\log N)$$ phép tính.

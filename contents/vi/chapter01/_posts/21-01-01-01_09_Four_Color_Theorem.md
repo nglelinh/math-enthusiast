@@ -20,7 +20,7 @@ Lịch sử của **Định lý Bốn Màu (4CT)** đầy những cú ngoặt k�
 
 Khác với [giả thuyết Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) hay [Kakeya trong nhiều chiều]({{ site.baseurl }}/contents/vi/chapter01/01_08_Kakeya_Conjecture/), 4CT **đã được giải**. Nhưng chính cách giải ấy đã làm bùng nổ một cuộc tranh luận triết học lớn về bản chất của chứng minh toán học: *liệu một định lý mà không một con người nào có thể tự tay kiểm tra hết mọi bước trên giấy có thực sự là một chứng minh?* Các bản rút gọn sau đó (Robertson–Sanders–Seymour–Thomas, 1997) và bản hình thức hóa hoàn toàn bằng trợ lý chứng minh **Coq** của Georges Gonthier (2005) đã khép lại nghi ngờ về lỗi lập trình, đồng thời mở ra kỷ nguyên mới của chứng minh có máy tính hỗ trợ.
 
-**Mạch bài học:** Bản đồ kiến thức nền → bài toán tô bản đồ & đồ thị đối ngẫu (ví dụ $$K_4, K_5, K_7$$) → định lý năm màu & chuỗi Kempe → ví dụ kế toán phóng điện trên khối 20 mặt đều & khung giải thích 4 bước của chứng minh 4CT → kiểm chứng hình thức Coq → định lý Heawood.
+**Mạch bài học:** Kiến thức cần nhớ → bài toán tô bản đồ & đồ thị đối ngẫu (ví dụ $$K_4, K_5, K_7$$) → định lý năm màu & chuỗi Kempe → ví dụ kế toán phóng điện trên khối 20 mặt đều & khung giải thích 4 bước của chứng minh 4CT → kiểm chứng hình thức Coq → định lý Heawood.
 
 ---
 
@@ -42,7 +42,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết đồ thị, Tôpô bề mặt và Kiểm chứng hình thức là gì?
+## Kiến thức cần nhớ: Lý thuyết đồ thị, Tôpô bề mặt và Kiểm chứng hình thức là gì?
 
 Đằng sau câu hỏi tô bản đồ có ba trụ cột toán học và tin học cực kỳ hữu dụng mà bất kỳ người học đại học nào cũng nên biết:
 
@@ -88,7 +88,7 @@ Tô màu các miền tương đương hoàn toàn với tô màu các đỉnh sa
 
 **Dạng đồ thị của 4CT.** Mọi đồ thị phẳng hữu hạn $$G$$ đều thỏa mãn $$\chi(G)\le 4$$, trong đó **sắc số** $$\chi(G)$$ là số màu tối thiểu cần để tô hợp lệ các đỉnh.
 
-### Ví dụ cầm tay chỉ việc 1: Từ công thức Euler đến giới hạn cạnh trên mặt phẳng ($$K_4, K_5$$) và mặt xuyến ($$K_7$$)
+### Ví dụ làm từng bước 1: Từ công thức Euler đến giới hạn cạnh trên mặt phẳng ($$K_4, K_5$$) và mặt xuyến ($$K_7$$)
 
 Với đồ thị phẳng đơn liên thông có $$v \ge 3$$ đỉnh, mỗi mặt (kể cả mặt vô hạn bên ngoài) được bao bởi ít nhất 3 cạnh, và mỗi cạnh làm biên cho tối đa 2 mặt, nên $$3f \le 2e \implies f \le \frac{2}{3}e$$. Thay vào công thức Euler $$v - e + f = 2$$:
 
@@ -126,7 +126,7 @@ Tóm tắt dễ nhớ: **năm màu = quy nạp + công thức Euler + chuỗi Ke
 
 ## 4. Phản ví dụ nhỏ nhất và chiến lược của Appel–Haken
 
-### Ví dụ cầm tay chỉ việc 2: Thử phép kế toán "phóng điện" (Discharging) trên khối 20 mặt đều
+### Ví dụ làm từng bước 2: Thử phép kế toán "phóng điện" (Discharging) trên khối 20 mặt đều
 
 Với mọi đồ thị phẳng tam giác phân (mọi mặt đều là tam giác, $$3f = 2e$$), thay $$f = \frac{2}{3}e$$ vào $$v - e + f = 2$$ ta có $$6v - 2e = 12$$. Vì $$2e = \sum_{v} \deg(v)$$, ta thu được đẳng thức kế toán vàng:
 
@@ -140,7 +140,7 @@ Hãy kiểm tra ngay trên **khối 20 mặt đều (Icosahedron)**: có $$v = 1
 
 Bây giờ hãy tưởng tượng một phản ví dụ nhỏ nhất $$G$$ có hàng triệu đỉnh (bậc tối thiểu 5): đỉnh bậc 5 có điện tích $$+1$$ ("người giàu"), đỉnh bậc 6 hòa vốn ($$0$$), đỉnh bậc 7, 8, ... có điện tích $$-1, -2, \ldots$$ ("người nợ"). Khi ta áp dụng các quy tắc **chuyển điện tích cục bộ** từ đỉnh bậc 5 sang các hàng xóm bậc $$\ge 7$$, tổng điện tích toàn đồ thị **bảo toàn và vẫn bằng đúng $$+12 > 0$$**! Do đó *bắt buộc phải tồn tại ít nhất một đỉnh có điện tích cuối cùng dương* — và để điều đó xảy ra, lân cận của đỉnh ấy phải rơi vào một trong các cấu hình của danh sách hữu hạn $$\mathcal{U}$$!
 
-### Khung giải thích: Chuỗi logic 4 bước của chứng minh Định lý Bốn Màu (nên đọc chậm)
+### Giải thích: Chuỗi logic 4 bước của chứng minh Định lý Bốn Màu
 
 Nhiều người tưởng máy tính "thử tô vài tỷ bản đồ rồi kết luận 4CT đúng". Thực tế chứng minh 4CT là một lập luận phản chứng chặt chẽ gồm đúng 4 bước:
 

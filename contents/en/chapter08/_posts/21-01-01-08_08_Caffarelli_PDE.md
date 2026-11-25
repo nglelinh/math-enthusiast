@@ -19,7 +19,7 @@ For more than four decades, **Luis A. Caffarelli** (University of Texas at Austi
 
 From free-boundary problems like melting ice and elastic membranes, to the fully nonlinear Monge–Ampère equation at the heart of optimal transport, to the landmark **Caffarelli–Kohn–Nirenberg (CKN)** partial regularity theorem for Navier–Stokes fluid flow, Caffarelli taught the entire field how to place a microscope on the exact spots where nonlinear equations threaten to break down. Official materials: [abelprize.no](https://abelprize.no/).
 
-**Lesson arc:** Background Knowledge Map (nonlinear PDEs, regularity theory, free boundaries) → Free boundaries and the obstacle problem → Deep-Dive Explanation: solving the 1D obstacle problem by hand and watching the second derivative jump → The Monge–Ampère equation → CKN partial regularity for Navier–Stokes.
+**Lesson arc:** Key ideas (nonlinear PDEs, regularity theory, free boundaries) → Free boundaries and the obstacle problem → Explanation: solving the 1D obstacle problem by hand and watching the second derivative jump → The Monge–Ampère equation → CKN partial regularity for Navier–Stokes.
 
 ---
 
@@ -31,7 +31,7 @@ After this lecture you should be able to define a free-boundary problem and give
 
 ---
 
-## Background Knowledge Map: What Are Nonlinear PDEs, Regularity Theory, and Free-Boundary Problems, and What Do They Study?
+## Key ideas: What Are Nonlinear PDEs, Regularity Theory, and Free-Boundary Problems, and What Do They Study?
 
 Most undergraduates meet **linear PDEs** like the heat equation, wave equation, or Laplace’s equation $$\Delta u = u_{xx} + u_{yy} = 0$$. In the linear world, solutions are polite: sums of solutions remain solutions, and smooth data usually produce smooth answers. Nature, however, is rarely linear, and three pillars open the door to Caffarelli’s world:
 
@@ -82,7 +82,7 @@ Almost-optimal smoothness statements and classification of blow-up profiles beca
 
 The classical obstacle problem seeks the equilibrium of a membrane constrained to stay above an obstacle $$\varphi$$. Variationally, one minimizes Dirichlet energy among functions $$v\ge \varphi$$. The solution $$u$$ is harmonic (or solves a related elliptic equation) where it does not touch the obstacle, and the **coincidence set** $$\{u=\varphi\}$$ has a free boundary.
 
-### Deep-Dive Explanation: Solving the 1D Obstacle Problem by Hand and Seeing the $$C^{1,1}$$ Jump (Read Slowly)
+### Explanation: Solving the 1D Obstacle Problem by Hand and Seeing the $$C^{1,1}$$ Jump
 
 To see concretely what "an unknown free boundary" means—and why optimal regularity stops at $$C^{1,1}$$ rather than $$C^2$$—let us solve a 1D obstacle problem completely by hand!
 

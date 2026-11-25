@@ -20,7 +20,7 @@ For his achievements in symplectic geometry including new approaches to virtual 
 
 *Tạm dịch:* Cho các thành tựu trong hình học symplectic, gồm những cách tiếp cận mới cho chu trình cơ bản ảo, phạm trù Fukaya của một số đa tạp và việc đếm đường cong chỉnh hình, cùng những đóng góp cho các lĩnh vực khác của hình học và tôpô, gồm tác động nhóm trên đa tạp 3 chiều và lý thuyết nút.
 
-**Mạch bài học:** Bản đồ kiến thức nền (tính tay 2-dạng symplectic bằng ma trận $$J$$, chứng minh số chiều luôn chẵn, định lý con lạc đà Gromov) → Khung giải thích chậm 4 bước: đường cong chỉnh hình, mất tính hoành, tập bản đồ ẩn (*implicit atlas*) và phạm trù Fukaya → Tôpô chiều thấp → Slide ICM 2026 (Log Derived Regularity).
+**Mạch bài học:** Kiến thức cần nhớ (tính tay 2-dạng symplectic bằng ma trận $$J$$, chứng minh số chiều luôn chẵn, định lý con lạc đà Gromov) → Giải thích 4 bước: đường cong chỉnh hình, mất tính hoành, tập bản đồ ẩn (*implicit atlas*) và phạm trù Fukaya → Tôpô chiều thấp → Slide ICM 2026 (Log Derived Regularity).
 
 ---
 
@@ -40,7 +40,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Hình học symplectic và Không gian pha là gì?
+## Kiến thức cần nhớ: Hình học symplectic và Không gian pha là gì?
 
 ### 1. Dạng symplectic $$\omega$$ — Tính tay với ma trận $$2\times 2$$ và chứng minh số chiều luôn chẵn
 Trong cơ học cổ điển, trạng thái của một hạt chuyển động trên đường thẳng được mô tả bởi cặp $$(q, p)$$ (vị trí và động lượng) trên mặt phẳng pha $$\mathbb{R}^2$$. Trên mặt phẳng đó, ta có **2-dạng symplectic chuẩn** $$\omega = dq \wedge dp$$, viết dưới dạng ma trận đối xứng lệch:
@@ -77,7 +77,7 @@ Khi không gian moduli các đường cong chỉnh hình bị "trùng khít" ho�
 
 ---
 
-## 1. Khung giải thích: Chu trình cơ bản ảo và Phạm trù Fukaya hoạt động như thế nào? (nên đọc chậm)
+## 1. Giải thích: Chu trình cơ bản ảo và Phạm trù Fukaya hoạt động như thế nào?
 
 Tại sao đóng góp "xây nền móng" của John Pardon lại được IMU trao Huy chương Fields 2026? Hãy theo dõi mạch 4 bước dưới đây:
 

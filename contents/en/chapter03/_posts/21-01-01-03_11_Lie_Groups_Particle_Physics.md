@@ -15,7 +15,7 @@ That triumph revealed a profound truth: at the deepest level of physics, **symme
 
 ---
 
-## Background Knowledge Map: What Are Lie Groups and Representation Theory?
+## Key ideas: What Are Lie Groups and Representation Theory?
 
 When we hear “symmetry,” we often picture a snowflake or a square: rotate by $$90^\circ$$ and it matches itself—a **finite (discrete) symmetry group**. Yet a circle or a sphere can rotate smoothly by *any* continuous angle $$\theta \in [0, 2\pi)$$!
 
@@ -108,7 +108,7 @@ This is **representation theory applied at industrial scale**: once the group an
 
 ---
 
-### Deep-Dive Explanation: Computing a Lie Bracket by Hand and Counting the 12 Force Carriers (Read Slowly)
+### Explanation: Computing a Lie Bracket by Hand and Counting the 12 Force Carriers
 
 “Lie algebras encode non-commuting continuous symmetries” sounds abstract until you multiply two $$3\times 3$$ matrices yourself and watch the third axis pop out!
 

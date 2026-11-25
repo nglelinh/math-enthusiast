@@ -17,7 +17,7 @@ At ICM Berlin in 1998, **Curtis T. McMullen** received the **Fields Medal** with
 
 This essay walks from hands-on quadratic iteration to **Teichmüller space**, **Bers’s boundary**, **Kra’s Poincaré series operator**, and **hyperbolic 3-manifolds that fiber over the circle**. One boundary is essential from the start: McMullen built powerful renormalization and rigidity tools *inside* Thurston’s geometrization program, whereas the complete proof of full geometrization and the Poincaré conjecture belongs to [Grigori Perelman]({{ site.baseurl }}/contents/en/chapter02/02_03_Perelman_Poincare/).
 
-**Lesson roadmap:** Background Knowledge Map (holomorphic dynamics, Teichmüller space, Sullivan’s dictionary) → Hand-verifiable worked examples (iterating $$z^2 + c$$ at $$c = 0, -2, -1$$ & pinching a genus-2 surface into a maximal cusp) → Bers’s cusp density & Kra’s amenability theorem → Deep-Dive Explanation (Read Slowly): how renormalization unifies Mandelbrot rigidity with fibered 3-manifolds → Lineage to Mirzakhani and boundary with Perelman.
+**Lesson roadmap:** Key ideas (holomorphic dynamics, Teichmüller space, Sullivan’s dictionary) → Hand-verifiable worked examples (iterating $$z^2 + c$$ at $$c = 0, -2, -1$$ & pinching a genus-2 surface into a maximal cusp) → Bers’s cusp density & Kra’s amenability theorem → Explanation: how renormalization unifies Mandelbrot rigidity with fibered 3-manifolds → Lineage to Mirzakhani and boundary with Perelman.
 
 ---
 
@@ -37,7 +37,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Do Holomorphic Dynamics, Teichmüller Space, and Sullivan’s Dictionary Study?
+## Key ideas: What Do Holomorphic Dynamics, Teichmüller Space, and Sullivan’s Dictionary Study?
 
 ### 1. Holomorphic dynamics
 Take a rational map $$f: \widehat{\mathbb{C}} \to \widehat{\mathbb{C}}$$ (simplest case: $$f_c(z) = z^2 + c$$) and iterate $$z \mapsto f(z) \mapsto f^{\circ 2}(z) \mapsto \cdots$$. The Riemann sphere splits into two invariant pieces:
@@ -86,7 +86,7 @@ Because the fundamental group of a finite-type hyperbolic surface contains a fre
 
 ---
 
-## 3. Deep-Dive Explanation: How Renormalization Unifies Complex Dynamics and 3-Manifolds (Read Slowly)
+## 3. Explanation: How Renormalization Unifies Complex Dynamics and 3-Manifolds
 
 McMullen’s twin classics—*Complex Dynamics and Renormalization* (1994) and *Renormalization and 3-Manifolds Which Fiber over the Circle* (1996)—run the exact same 4-step argument in two dimensions and in three:
 

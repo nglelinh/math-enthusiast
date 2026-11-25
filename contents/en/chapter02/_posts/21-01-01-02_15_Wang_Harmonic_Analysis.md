@@ -45,7 +45,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Are Harmonic Analysis and Geometric Measure Theory?
+## Key ideas: What Are Harmonic Analysis and Geometric Measure Theory?
 
 Why did a playful puzzle about turning a needle become one of the central problems of twenty-first-century analysis? Because it lives at the exact meeting point of two major disciplines.
 
@@ -185,7 +185,7 @@ Primary source: *Volume estimates for unions of convex sets, and the Kakeya set 
 
 ---
 
-### Deep-Dive Explanation: Wang–Zahl’s Multiscale Self-Improvement Engine (Read Slowly)
+### Explanation: Wang–Zahl’s Multiscale Self-Improvement Engine
 
 Why did 3D Kakeya resist legends like Wolff, Bourgain, Katz, Tao, and Guth for decades, and how did Hong Wang and Joshua Zahl finally crack it in 2025? Follow the four-step architecture slowly:
 

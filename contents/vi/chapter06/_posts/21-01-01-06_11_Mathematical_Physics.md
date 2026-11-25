@@ -17,7 +17,7 @@ Bài này vẽ bản đồ những lãnh địa chính của vật lý toán h�
 
 ---
 
-## Bản đồ kiến thức nền: Vật lý toán học là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Vật lý toán học là gì và nghiên cứu những gì?
 
 Nhiều người hay nhầm **Vật lý Toán học** với "vật lý lý thuyết nhiều công thức" hay "toán ứng dụng giải PDE". Thực chất, Vật lý Toán học là **toán học thuần túy lấy nguồn cảm hứng và đối tượng trực tiếp từ vật lý**, tuân theo tiêu chuẩn chứng minh chặt chẽ của toán học. Bốn trụ cột lớn của ngành gồm:
 
@@ -133,7 +133,7 @@ Vật lý ngoài cân bằng (sinh entropy, định lý thăng giáng, giới h�
 
 ---
 
-### Khung giải thích: giải tay phương trình nhiệt và hàm phân hoạch 2 trạng thái (nên đọc chậm)
+### Giải thích: giải tay phương trình nhiệt và hàm phân hoạch 2 trạng thái
 
 Để không bị lạc giữa hàng loạt tên gọi lớn (Navier–Stokes, không gian Hilbert, hàm phân hoạch), hãy tự tay thực hiện hai phép tính mini nhưng chạm đúng tim của hai trụ cột vật lý toán: **PDE làm mịn** và **cơ học thống kê**.
 

@@ -13,7 +13,7 @@ Imagine piloting a spacecraft through a finite, closed three-dimensional univers
 
 In 1904, **Henri Poincaré** posed this deceptively brief question at the dawn of algebraic topology. For nearly a century it defied every generation of topologists and became one of the Clay Mathematics Institute’s seven million-dollar **Millennium Prize Problems**. Then, in 2002–2003, the reclusive Russian mathematician **Grigori Perelman** posted three compact preprints on arXiv that settled it by completing **Richard Hamilton’s Ricci flow with surgery**—literally letting the geometry of space melt and smooth itself like heat diffusing through metal. (Clay awarded the prize in 2010; Perelman declined both the million dollars and the Fields Medal.)
 
-**Lesson roadmap:** Background Knowledge Map (topology, 3-manifolds, Riemannian geometry & Ricci flow) → Spheres, loops, and the donut contrast → The dimension paradox (why dimension 5 fell 40 years before dimension 3) → Deep-Dive Explanation (Read Slowly): solving the Ricci flow ODE by hand on $$S^3$$ and the cylinder neck $$S^2 \times \mathbb{R}$$ → Perelman’s breakthroughs and Thurston geometrization.
+**Lesson roadmap:** Key ideas (topology, 3-manifolds, Riemannian geometry & Ricci flow) → Spheres, loops, and the donut contrast → The dimension paradox (why dimension 5 fell 40 years before dimension 3) → Explanation: solving the Ricci flow ODE by hand on $$S^3$$ and the cylinder neck $$S^2 \times \mathbb{R}$$ → Perelman’s breakthroughs and Thurston geometrization.
 
 ---
 
@@ -32,7 +32,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: Topology, 3-Manifolds, and Geometric Analysis (Ricci Flow)
+## Key ideas: Topology, 3-Manifolds, and Geometric Analysis (Ricci Flow)
 
 To keep terms like "manifold," "simply connected," and "Ricci tensor" grounded in university intuition, anchor the proof on three pillars:
 
@@ -72,7 +72,7 @@ William Thurston’s **geometrization conjecture** proposed a grand structure th
 
 ---
 
-## 3. Deep-Dive Explanation (Read Slowly): Solving Ricci Flow by Hand on $$S^3$$ and a Cylinder Neck $$S^2 \times \mathbb{R}$$
+## 3. Explanation: Solving Ricci Flow by Hand on $$S^3$$ and a Cylinder Neck $$S^2 \times \mathbb{R}$$
 
 Hamilton’s Ricci flow equation looks intimidating:
 

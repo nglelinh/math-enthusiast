@@ -17,7 +17,7 @@ The hardest virtue here is **honesty about scales**: a clean ODE may describe a 
 
 ---
 
-## Background Knowledge Map: What Is Mathematical Biology and What Does It Study?
+## Key ideas: What Is Mathematical Biology and What Does It Study?
 
 Whereas classical physics often searches for one universal equation valid everywhere, **Mathematical Biology** works like a cartographer’s workshop producing maps at different resolutions. Depending on the biological scale, the mathematics shifts completely:
 
@@ -79,7 +79,7 @@ Threshold quantities such as the basic reproduction number $$R_0$$ arise from li
 
 ---
 
-### Deep-Dive Explanation: Computing the SIR Epidemic Peak and Herd Immunity by Hand (Read Slowly)
+### Explanation: Computing the SIR Epidemic Peak and Herd Immunity by Hand
 
 People often assume the nonlinear SIR system can only be understood through computer simulation. In fact, one clever division from first-year calculus lets you calculate the **exact height of the epidemic peak** without ever solving for $$I(t)$$ as a function of time!
 

@@ -15,7 +15,7 @@ Câu trả lời là **không** — và định lý giải tích Fourier khẳng
 
 ---
 
-## Bản đồ kiến thức nền: Giải tích bán cổ điển, Hỗn loạn lượng tử và Bất định fractal đứng trên ba trụ cột nào?
+## Kiến thức cần nhớ: Giải tích bán cổ điển, Hỗn loạn lượng tử và Bất định fractal đứng trên ba trụ cột nào?
 
 Nếu bạn đã quen với biến đổi Fourier, phương trình sóng và hình ảnh tập Cantor từ toán đại học, ba trụ cột sau ghép thành toàn cảnh ngành toán học đằng sau FUP:
 
@@ -61,7 +61,7 @@ Bất đẳng thức Pauli–Weyl cổ điển cấm một hàm tập trung đ�
 
 **Ý chính của FUP (một chiều).** Nếu bạn cố dựng một hàm có khối lượng tập trung gần một tập kiểu Cantor, thì biến đổi Fourier của nó **không thể** cũng tập trung gần một tập kiểu Cantor. Cộng các sóng có tần số nằm trên một bụi fractal sẽ không thể tạo ra một đường bao khớp sạch vào các khoảng còn lại của fractal: các lỗ hổng tất yếu bị sóng "tràn vào" lấp đầy.
 
-### Khung giải thích: tự tay đo "năng lượng rò rỉ vào lỗ trống" trên tập Cantor rời rạc $$N = 9$$ (nên đọc chậm)
+### Giải thích: tự tay đo "năng lượng rò rỉ vào lỗ trống" trên tập Cantor rời rạc $$N = 9$$
 
 Để thấy FUP hoạt động bằng số cụ thể mà không cần tích phân phức tạp, hãy xét tập Cantor rời rạc thế hệ 2 trong $$N = 3^2 = 9$$ điểm $$\{0, 1, \dots, 8\}$$: bỏ phần ba giữa $$\{3,4,5\}$$ và bỏ điểm giữa của hai đoạn còn lại ($$1$$ và $$7$$), ta còn đúng 4 điểm $$X = \{0, 2, 6, 8\}$$ (tức tổng Minkowski $$\{0, 6\} + \{0, 2\}$$).
 
@@ -161,7 +161,7 @@ Mục tiêu mạnh hơn nữa là **tính ergodic duy nhất lượng tử** (qu
 | "FUP nói không hàm nào có thể có dạng fractal." | Sai | Nó ràng buộc một hàm **và** biến đổi Fourier của nó cùng một lúc. |
 | "Mọi fractal ở mọi số chiều đều tuân theo FUP." | Sai | Đường thẳng (và các tập chứa đường thẳng) là phản ví dụ nếu thiếu tính xốp theo đường thẳng. |
 | "Cohen đã giải quyết hỗn loạn lượng tử." | Phóng đại | Ông chứng minh một định lý Fourier được dùng trong một số lập luận về hỗn loạn lượng tử. QUE tổng quát vẫn còn mở. |
-| "Hạt cổ điển và sóng lượng tử bị giam trên cùng một tập." | Sai | Sự khác biệt đó chính là điểm mấu chốt khi áp dụng FUP. |
+| "Hạt cổ điển và sóng lượng tử bị giam trên cùng một tập." | Sai | Sự khác biệt đó chính là điểm chính khi áp dụng FUP. |
 | "Quanta đã chứng minh định lý." | Sai | Bài báo của Cohen trên *Annals* mới là chứng minh. Báo chí chỉ là bản đồ. |
 
 ---

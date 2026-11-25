@@ -18,7 +18,7 @@ For decades, famous equations like **KPZ** and **dynamical $$\Phi^4_3$$** hung i
 
 This medal honors the creation of a **new language**. By upgrading classical Taylor polynomials—adding abstract "noise monomials" built directly from white noise alongside $$1, x, x^2, \ldots$$—Hairer’s **regularity structures** let analysts multiply rough distributions algebraically, perform **renormalization** rigorously, and then "reconstruct" a genuine solution. Along the way, we place Hairer’s theory beside **Terry Lyons’s rough paths** and the independent **paracontrolled distributions** of Gubinelli–Imkeller–Perkowski, while keeping two boundaries crisp: this does not solve the Clay 3D Navier–Stokes problem, and Hairer’s physics PhD is biography, not the theorem.
 
-**Lesson roadmap:** Background Knowledge Map (distributions, white noise, singular SPDEs) → Hand-verifiable worked examples (why $$\delta_0^2$$ blows up & the regularity power-counting table for KPZ and $$\Phi^4_3$$) → Deep-Dive Explanation (Read Slowly): 4 steps from noise-tree Taylor expansions to reconstruction, renormalization, and Banach fixed points → Rough paths & paracontrolled distributions → Scope and limits of the medal.
+**Lesson roadmap:** Key ideas (distributions, white noise, singular SPDEs) → Hand-verifiable worked examples (why $$\delta_0^2$$ blows up & the regularity power-counting table for KPZ and $$\Phi^4_3$$) → Explanation: 4 steps from noise-tree Taylor expansions to reconstruction, renormalization, and Banach fixed points → Rough paths & paracontrolled distributions → Scope and limits of the medal.
 
 ---
 
@@ -38,7 +38,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Do Distributions, White Noise, and Singular SPDEs Study?
+## Key ideas: What Do Distributions, White Noise, and Singular SPDEs Study?
 
 ### 1. Distributions: free derivatives at the price of multiplication
 A step function jumping from $$0$$ to $$1$$ at $$x = 0$$ has no classical derivative. Laurent Schwartz’s **theory of distributions** defines generalized functions by testing against smooth functions $$\varphi$$: $$\langle u, \varphi \rangle = \int u(x)\varphi(x)\,dx$$. Integration by parts makes every distribution infinitely differentiable (the step function’s derivative is the Dirac delta $$\delta_0$$), but the price is steep: **two rough distributions cannot generally be multiplied**.
@@ -85,7 +85,7 @@ Those negative sums **$$-1-$$** and **$$-3/2-$$** show immediately why KPZ and $
 
 ---
 
-## 2. Deep-Dive Explanation: How Regularity Structures Tame Infinities (Read Slowly)
+## 2. Explanation: How Regularity Structures Tame Infinities
 
 Martin Hairer (born 1975 in Geneva, physics PhD 2001 under Jean-Pierre Eckmann) had already proved ergodicity of 2D stochastic Navier–Stokes with degenerate noise (with Jonathan Mattingly, *Annals*, 2006) and drew inspiration from **Terry Lyons’s rough paths**. After solving KPZ pathwise in 2013 (*Annals*), he unveiled the general framework in *A theory of regularity structures* (*Inventiones*, 2014; arXiv:1303.5113) in four clean steps:
 

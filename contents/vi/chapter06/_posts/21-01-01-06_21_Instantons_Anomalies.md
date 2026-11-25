@@ -15,7 +15,7 @@ Hai nhân vật chính của tầng sâu ấy là **instanton** (những cấu h
 
 ---
 
-## Bản đồ kiến thức nền: Tô pô trường chuẩn, Instanton và Lý thuyết chỉ số nghiên cứu những gì?
+## Kiến thức cần nhớ: Tô pô trường chuẩn, Instanton và Lý thuyết chỉ số nghiên cứu những gì?
 
 Với nền tảng toán đại học (giải tích nhiều biến, đại số tuyến tính và phương trình vi phân), ba mảng toán học đứng sau bài này đều có trực giác rất rõ ràng:
 
@@ -55,7 +55,7 @@ $$
 
 (tùy cách chuẩn hóa). Một bất đẳng thức sơ cấp kiểu hằng đẳng thức bình phương (chặn Bogomol'nyi) cho thấy tác dụng Yang–Mills luôn thỏa mãn $$S_E[A] \ge \frac{8\pi^2}{g^2}|k|$$, và dấu bằng xảy ra đúng khi độ cong thỏa điều kiện tự đối ngẫu (hoặc phản tự đối ngẫu) $$F = \pm \star F$$. Những liên thông đạt đúng chặn dưới tô pô của tác dụng ấy được gọi là **instanton** (tên gọi do Gerard 't Hooft đặt vì chúng định xứ cả trong không gian lẫn trong thời gian Euclid — xuất hiện như một "khoảnh khắc" chuyển pha ngắn ngủi).
 
-### Khung giải thích: tự tay tìm một instanton 1 chiều và một chỉ số khác 0 (nên đọc chậm)
+### Giải thích: tự tay tìm một instanton 1 chiều và một chỉ số khác 0
 
 Để nắm trọn hai ý tưởng "mẹo bình phương tạo chặn tô pô" và "chỉ số khác 0 ở vô hạn chiều" mà không cần hình học 4 chiều, hãy tự tính hai ví dụ bỏ túi sau:
 

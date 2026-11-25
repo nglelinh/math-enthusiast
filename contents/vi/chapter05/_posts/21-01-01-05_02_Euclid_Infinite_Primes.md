@@ -20,7 +20,7 @@ Bạn không cần tranh cãi dài dòng, cũng không cần lật hết từng 
 
 Cả hai chứng minh đều chỉ dài vài dòng, nhưng cả hai đều làm thay đổi tận gốc hiểu biết của nhân loại về số học và sự vô hạn. Nếu chỉ giữ lại một câu duy nhất từ bài này, hãy nhớ: *một chứng minh có thể rất ngắn mà vẫn xoay chuyển cả thế giới, khi phép dựng của nó thoát ra khỏi mọi danh sách được cho là đầy đủ.*
 
-**Mạch bài học:** Bản đồ kiến thức nền (lý thuyết số, lý thuyết tập hợp, phản chứng) → Phần I: Euclid và vô hạn số nguyên tố → Khung giải thích chậm: kiểm tra bằng tay cỗ máy Euclid và biến thể $$4k+3$$ → Phần II: Cantor và tập số thực không đếm được → So sánh hai phép dựng thoát ra → Viết một đoạn trình bày ý tưởng chứng minh.
+**Mạch bài học:** Kiến thức cần nhớ (lý thuyết số, lý thuyết tập hợp, phản chứng) → Phần I: Euclid và vô hạn số nguyên tố → Giải thích: kiểm tra bằng tay cỗ máy Euclid và biến thể $$4k+3$$ → Phần II: Cantor và tập số thực không đếm được → So sánh hai phép dựng thoát ra → Viết một đoạn trình bày ý tưởng chứng minh.
 
 ---
 
@@ -39,7 +39,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết số, Lý thuyết tập hợp và Nghệ thuật phản chứng là gì?
+## Kiến thức cần nhớ: Lý thuyết số, Lý thuyết tập hợp và Nghệ thuật phản chứng là gì?
 
 Trước khi đi vào từng dòng lập luận, hãy đặt hai định lý này lên bản đồ toán học đại học để thấy rõ mỗi định lý đại diện cho nhánh nào và chúng chia sẻ cùng vũ khí tư duy ra sao:
 
@@ -88,7 +88,7 @@ Vì $$N>1$$ nên $$N$$ có ít nhất một ước nguyên tố $$q$$. Mỗi $$p
 
 *Hình. Từ mọi danh sách hữu hạn, số $$N$$ dựng được buộc phải có một ước nguyên tố mới.*
 
-### Khung giải thích: kiểm tra bằng tay cỗ máy Euclid và mở rộng sang cấp số cộng (nên đọc chậm)
+### Giải thích: kiểm tra bằng tay cỗ máy Euclid và mở rộng sang cấp số cộng
 
 Để thấy rõ vì sao "dư 1" đánh sập mọi danh sách hữu hạn — và vì sao $$N$$ **không cần** phải là số nguyên tố — hãy cầm bút tính trực tiếp từng trường hợp:
 
@@ -169,7 +169,7 @@ liệt kê mọi số trong $$(0,1)$$ dưới dạng thập phân vô hạn. G�
 
 *Hình. Đổi các chữ số trên đường chéo; số mới khác mọi hàng.*
 
-### Ví dụ cầm tay chỉ việc với 4 số thực cụ thể
+### Ví dụ làm từng bước với 4 số thực cụ thể
 
 Giả sử ai đó đưa ra một danh sách mở đầu bằng bốn số thực quen thuộc trong $$(0,1)$$ (lấy từ $$\pi/10, e/10, \phi/10, \sqrt{2}/10$$):
 
@@ -206,7 +206,7 @@ Kiểm tra trực tiếp: $$d \neq r_1$$ (chữ số 1 là $$4 \neq 3$$), $$d \n
 
 - Không có nghĩa là "bạn không đếm được xa". Không đếm được nghĩa là *không tồn tại song ánh với $$\mathbb{N}$$*, không phải con người hết kiên nhẫn.  
 - Không chứng minh tập số thực là "cỡ vô hạn ngay sau đếm được". Có hay không một lực lượng trung gian là **giả thuyết continuum**, và nó độc lập với lý thuyết tập hợp chuẩn theo nghĩa kỹ thuật.  
-- Không đòi hỏi dựng $$d$$ bằng một công thức "tự nhiên" không phụ thuộc danh sách; phép dựng *phụ thuộc vào danh sách được đưa ra*, và đó chính là điểm mấu chốt.
+- Không đòi hỏi dựng $$d$$ bằng một công thức "tự nhiên" không phụ thuộc danh sách; phép dựng *phụ thuộc vào danh sách được đưa ra*, và đó chính là điểm chính.
 
 ### Những kết quả kế thừa ý tưởng
 

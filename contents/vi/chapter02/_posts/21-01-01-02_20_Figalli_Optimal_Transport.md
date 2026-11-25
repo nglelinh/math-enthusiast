@@ -20,7 +20,7 @@ Thế nhưng giữa việc biết "tồn tại một phương án vận chuyển
 
 Hãy đặt ngay một cột mốc trung thực: **Figalli không phát minh ra vận chuyển tối ưu.** Monge đặt bài toán, Kantorovich nới lỏng nó bằng quy hoạch tuyến tính, Brenier nối nó với hàm lồi, Caffarelli dựng nền móng đầu tiên cho lý thuyết chính quy, còn Ambrosio và Villani biến nó thành ngôn ngữ chung. Đóng góp mang tầm Fields của Figalli (đặc biệt cùng **Guido De Philippis**) nằm ở lõi giải tích khó nhất: chứng minh **tính chính quy Sobolev $$W^{2,1}$$**, **tính chính quy từng phần** (kiểm soát tập kỳ dị khi bỏ giả thiết lồi và điều kiện MTW), và **tính ổn định định lượng** — biến lý thuyết chính quy thành hạ tầng vững chắc cho bất đẳng thức hình học, khí tượng học và xác suất. Bài học này tiếp nối phần giới thiệu Monge–Kantorovich trong [Vận chuyển tối ưu]({{ site.baseurl }}/contents/vi/chapter06/06_09_Optimal_Transport/), đồng thời tách bạch huy chương 2018 của Figalli với huy chương 2010 của người thầy Villani trong [Villani / Landau–Boltzmann]({{ site.baseurl }}/contents/vi/chapter02/02_29_Villani_Landau_Boltzmann/).
 
-**Mạch bài học:** Bản đồ kiến thức nền (Monge–Kantorovich, Brenier, Monge–Ampère) → Ví dụ cầm tay chuyển 2 đống cát & thí nghiệm "xé rách đĩa tròn" → Khung giải thích chậm: từ Caffarelli đến $$W^{2,1}$$ và tính chính quy từng phần của De Philippis–Figalli → Ba ứng dụng lớn (tinh thể Wulff, khí quyển bán địa chuyển, ma trận ngẫu nhiên) → Phân biệt Figalli 2018 với Villani 2010.
+**Mạch bài học:** Kiến thức cần nhớ (Monge–Kantorovich, Brenier, Monge–Ampère) → Ví dụ cầm tay chuyển 2 đống cát & thí nghiệm "xé rách đĩa tròn" → Giải thích: từ Caffarelli đến $$W^{2,1}$$ và tính chính quy từng phần của De Philippis–Figalli → Ba ứng dụng lớn (tinh thể Wulff, khí quyển bán địa chuyển, ma trận ngẫu nhiên) → Phân biệt Figalli 2018 với Villani 2010.
 
 ---
 
@@ -32,7 +32,7 @@ Sau bài học, bạn có thể:
 - Tự tay giải bài toán vận chuyển tối ưu rời rạc 2 đống cát và hiểu trực giác "đường xé" khi miền đích không lồi.
 - Phát biểu định lý Brenier: với chi phí bình phương khoảng cách, ánh xạ tối ưu là gradient của một hàm thế lồi, thỏa phương trình **Monge–Ampère**.
 - Trình bày ba bước nhảy của Figalli và De Philippis: chính quy Sobolev $$W^{2,1}$$, chính quy từng phần (trơn ngoài tập đóng độ đo không), và tính ổn định định lượng.
-- Giải thích vì sao tính chính quy của ánh xạ là cầu nối sống còn cho bất đẳng thức đẳng chu không đẳng hướng (hình Wulff) và phương trình bán địa chuyển trong khí tượng học.
+- Giải thích vì sao tính chính quy của ánh xạ là cầu nối quan trọng cho bất đẳng thức đẳng chu không đẳng hướng (hình Wulff) và phương trình bán địa chuyển trong khí tượng học.
 - Phân biệt rõ **Figalli 2018 (OT và ứng dụng)** với **Villani 2010 (tắt dần Landau / phương trình Boltzmann)**.
 
 **Kiến thức cần có.** Bài toán Monge và Kantorovich cùng khái niệm đẩy tiến độ đo (push-forward) $$T_\#\mu=\nu$$, như trong bài OT ở Chương 6; hàm lồi và ma trận Hessian; biết rằng một PDE elliptic phi tuyến hoàn toàn (fully nonlinear) có thể có lý thuyết chính quy. Không cần học trước về phương trình Monge–Ampère.
@@ -41,7 +41,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Vận chuyển tối ưu và Phương trình Monge–Ampère nghiên cứu gì?
+## Kiến thức cần nhớ: Vận chuyển tối ưu và Phương trình Monge–Ampère nghiên cứu gì?
 
 ### 1. Bài toán Monge (1781) và sự nới lỏng của Kantorovich (1942)
 Cho phân bố khối lượng nguồn $$\mu$$ (ví dụ đất cần xúc), phân bố đích $$\nu$$ (hố cần lấp) và hàm chi phí $$c(x,y)$$ để chuyển 1 đơn vị khối lượng từ $$x$$ sang $$y$$.
@@ -68,7 +68,7 @@ Một hàm lồi $$\phi$$ luôn khả vi hầu khắp nơi, nhưng đạo hàm $
 
 ---
 
-## 1. Ví dụ cầm tay chỉ việc: bài toán chuyển 2 đống cát và thí nghiệm "xé rách đĩa tròn"
+## 1. Ví dụ làm từng bước: bài toán chuyển 2 đống cát và thí nghiệm "xé rách đĩa tròn"
 
 ### Ví dụ 1 (Rời rạc 1D): Chuyển 2 đống cát — tại sao ánh xạ tối ưu luôn "đơn điệu" (gradient hàm lồi)?
 Giả sử trên trục số ta có **2 đống cát** nặng bằng nhau (mỗi đống 1 tấn) đặt tại $$x_1 = 0$$ và $$x_2 = 1$$, cần chuyển sang **2 hố** đặt tại $$y_1 = 0$$ và $$y_2 = 3$$, với chi phí bình phương khoảng cách $$c(x,y) = (x - y)^2$$. Có hai phương án ánh xạ:
@@ -96,7 +96,7 @@ Thí nghiệm đơn giản ấy hé lộ toàn bộ bài toán của Caffarelli 
 
 ---
 
-## 2. Khung giải thích: từ Caffarelli đến $$W^{2,1}$$ và tính chính quy từng phần của De Philippis–Figalli (nên đọc chậm)
+## 2. Giải thích: từ Caffarelli đến $$W^{2,1}$$ và tính chính quy từng phần của De Philippis–Figalli
 
 Figalli học tiến sĩ với **Luigi Ambrosio** (Pisa) và **Cédric Villani** (ENS Lyon), bảo vệ năm 2007 và công tác tại ETH Zürich từ 2016. Những đột phá mang tầm Fields của ông cùng **Guido De Philippis** (và Kim, Loeper...) giải mã bài toán Monge–Ampère qua 4 bước mạch lạc:
 
@@ -104,7 +104,7 @@ Figalli học tiến sĩ với **Luigi Ambrosio** (Pisa) và **Cédric Villani**
 Trong phương trình Laplace $$\Delta\phi = \lambda_1 + \lambda_2 = 1$$, hai trị riêng của Hessian bị kìm giữ cùng nhau. Nhưng trong phương trình Monge–Ampère $$\det D^2\phi = \lambda_1 \lambda_2 = 1$$, một trị riêng có thể thu nhỏ về $$\varepsilon$$ trong khi trị riêng kia phình ra $$1/\varepsilon$$! Về hình học, các mặt mức của $$\phi$$ bị kéo dẹt thành những hình elip siêu dài (mất tính tròn đều). Chính sự suy biến này ngăn cản lý thuyết Calderón–Zygmund cổ điển áp dụng trực tiếp.
 
 #### Bước 2: Đột phá Sobolev $$W^{2,1}$$ (De Philippis–Figalli, *Inventiones*, 2013)
-Với nghiệm Alexandrov lồi của $$\det D^2\phi = f$$ ($$0 < c \le f \le C$$), ban đầu người ta chỉ biết ma trận Hessian $$D^2\phi$$ là một độ đo Radon (có thể chứa phần kỳ dị kiểu hàm delta). Bằng cách kết hợp **tính bất biến afin** của phương trình Monge–Ampère (dùng phép biến đổi tuyến tính để kéo tròn lại từng lát cắt bị dẹt) với các ước lượng độ đo hình học sắc bén, De Philippis và Figalli chứng minh phần kỳ dị không tồn tại: $$D^2\phi$$ là một hàm khả tích địa phương thực sự ($$\phi \in W^{2,1}_{\mathrm{loc}}$$, thậm chí $$D^2\phi \in L\log^k L$$)! Đây là ngưỡng sống còn giúp lấy đạo hàm $$T = \nabla\phi$$ theo nghĩa hàm thông thường và cho tính ổn định mạnh cấp hai.
+Với nghiệm Alexandrov lồi của $$\det D^2\phi = f$$ ($$0 < c \le f \le C$$), ban đầu người ta chỉ biết ma trận Hessian $$D^2\phi$$ là một độ đo Radon (có thể chứa phần kỳ dị kiểu hàm delta). Bằng cách kết hợp **tính bất biến afin** của phương trình Monge–Ampère (dùng phép biến đổi tuyến tính để kéo tròn lại từng lát cắt bị dẹt) với các ước lượng độ đo hình học sắc bén, De Philippis và Figalli chứng minh phần kỳ dị không tồn tại: $$D^2\phi$$ là một hàm khả tích địa phương thực sự ($$\phi \in W^{2,1}_{\mathrm{loc}}$$, thậm chí $$D^2\phi \in L\log^k L$$)! Đây là ngưỡng quan trọng giúp lấy đạo hàm $$T = \nabla\phi$$ theo nghĩa hàm thông thường và cho tính ổn định mạnh cấp hai.
 
 #### Bước 3: Tính chính quy từng phần — kiểm soát tập kỳ dị (De Philippis–Figalli, *IHÉS*, 2015)
 Khi bỏ điều kiện miền đích lồi và bỏ cả điều kiện cấu trúc Ma–Trudinger–Wang (MTW) cho chi phí tổng quát $$c(x,y)$$ (hoặc $$c = d^2/2$$ trên đa tạp Riemann bất kỳ), ánh xạ tối ưu chắc chắn có điểm kỳ dị. Trong *Partial regularity for optimal transport maps* (2015), De Philippis và Figalli chứng minh rằng ánh xạ tối ưu giữa hai mật độ trơn **luôn trơn $$C^\infty$$ bên ngoài một tập kỳ dị đóng $$\Sigma$$ có độ đo bằng không**! Nói cách khác, ánh xạ vận chuyển tối ưu là một phép vi phôi trơn trên một tập mở chiếm trọn 100% thể tích, chỉ trừ một tập "đường xé" mỏng có thể tích bằng $$0$$.

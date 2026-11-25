@@ -13,7 +13,7 @@ Hãy chọn một số nguyên dương bất kỳ. Nếu nó chẵn, hãy chia �
 
 Chào mừng bạn đến với **bài thực hành chính** của Chương 7. Nhiệm vụ của bạn **không phải** là chứng minh giả thuyết Collatz. Thay vào đó, bạn sẽ bước vào xưởng thực nghiệm với một câu hỏi mở lớn: *Điều gì xảy ra khi ta lặp đi lặp lại một quy tắc tất định đơn giản?* Bạn sẽ **thiết kế thí nghiệm**, **viết nhật ký nghiên cứu có ngày tháng**, và **báo cáo trung thực** tất cả những gì mình khám phá được — kể cả những giả thuyết bị bác bỏ, những lần tràn số hay lỗi mã nguồn, và những ranh giới mà máy tính mạnh nhất cũng không thể vượt qua.
 
-**Mạch bài học:** Bản đồ kiến thức nền (hệ động lực rời rạc, xung đột cộng–nhân & xác suất logarit) → Quy tắc Collatz & thời gian dừng → Khung giải thích chậm: tính tay độ trôi logarit $$\log(3/4)$$ và cây ngược Collatz → Kết quả Tao (2019) & kiểm tra GPU → Hồ sơ thí nghiệm, nhật ký & báo cáo.
+**Mạch bài học:** Kiến thức cần nhớ (hệ động lực rời rạc, xung đột cộng–nhân & xác suất logarit) → Quy tắc Collatz & thời gian dừng → Giải thích: tính tay độ trôi logarit $$\log(3/4)$$ và cây ngược Collatz → Kết quả Tao (2019) & kiểm tra GPU → Hồ sơ thí nghiệm, nhật ký & báo cáo.
 
 **Bài liên quan.** [Collatz (Chương 1)]({{ site.baseurl }}/contents/vi/chapter01/01_07_Collatz_Conjecture/) · [Hỗn độn]({{ site.baseurl }}/contents/vi/chapter04/04_05_Chaos/) · [Giả thuyết Riemann]({{ site.baseurl }}/contents/vi/chapter01/01_02_Riemann_Hypothesis/) (kiểm tra bằng máy tính khác với chứng minh).
 
@@ -33,7 +33,7 @@ Chào mừng bạn đến với **bài thực hành chính** của Chương 7. N
 
 ---
 
-## Bản đồ kiến thức nền: Hệ động lực rời rạc và Lý thuyết số thực nghiệm là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Hệ động lực rời rạc và Lý thuyết số thực nghiệm là gì, nghiên cứu những gì?
 
 Tại sao một phép toán chỉ dùng phép nhân 3, cộng 1 và chia 2 lại thách thức cả nền toán học hiện đại? Bởi vì nó nằm đúng giao điểm khó nhằn nhất giữa ba lĩnh vực:
 
@@ -83,7 +83,7 @@ Hãy ghi rõ định nghĩa bạn dùng trong mã nguồn và trong nhật ký.
 
 ### 1.3 Vì sao bài toán khó
 
-#### Khung giải thích: Tự tay tính độ trôi logarit $$\log(3/4)$$ và cấu trúc cây ngược (nên đọc chậm)
+#### Giải thích: Tự tay tính độ trôi logarit $$\log(3/4)$$ và cấu trúc cây ngược
 
 Tại sao hầu hết mọi quỹ đạo Collatz đều rơi về 1, nhưng con người vẫn chưa chứng minh được cho *mọi* $$n$$? Hãy tự kiểm tra hai phép tính ngắn sau:
 

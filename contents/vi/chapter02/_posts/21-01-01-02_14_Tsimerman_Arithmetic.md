@@ -18,7 +18,7 @@ For his contribution in the recasting of o-minimality as a fundamental method of
 
 *Tạm dịch:* Cho đóng góp trong việc đặt lại tính o-tối tiểu thành một phương pháp cơ bản của hình học số học và hình học đại số phức, và cho vai trò của ông trong việc chứng minh nhiều giả thuyết trung tâm, gồm giả thuyết Griffiths về tính đại số của ảnh các ánh xạ chu kỳ và giả thuyết André–Oort cho các đa tạp modular Siegel.
 
-**Mạch bài học:** Bản đồ kiến thức nền (tính tay "thuần" vs "hoang" qua $$\sin x$$, kiểm tra điểm CM trên lưới vuông $$\mathbb{Z}[i]$$ và đếm điểm hữu tỷ trên $$y = 2^x$$) → Đa tạp Shimura & giao không điển hình → Khung giải thích chậm 4 bước: Pila–Zannier, đột phá Tsimerman cho André–Oort và Giả thuyết Griffiths → So sánh các cầu nối số học–giải tích.
+**Mạch bài học:** Kiến thức cần nhớ (tính tay "thuần" vs "hoang" qua $$\sin x$$, kiểm tra điểm CM trên lưới vuông $$\mathbb{Z}[i]$$ và đếm điểm hữu tỷ trên $$y = 2^x$$) → Đa tạp Shimura & giao không điển hình → Giải thích 4 bước: Pila–Zannier, đột phá Tsimerman cho André–Oort và Giả thuyết Griffiths → So sánh các cầu nối số học–giải tích.
 
 ---
 
@@ -38,7 +38,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Tính o-tối tiểu, Điểm CM và Định lý Pila–Wilkie là gì?
+## Kiến thức cần nhớ: Tính o-tối tiểu, Điểm CM và Định lý Pila–Wilkie là gì?
 
 ### 1. Hình học "thuần" (o-tối tiểu) vs Hình học "hoang" — Ví dụ cầm tay với $$\sin(x)$$
 Một **cấu trúc o-tối tiểu** trên $$\mathbb{R}$$ là một hệ các tập hợp định nghĩa được (bằng phép toán logic từ các hàm cho phép) thỏa đúng một tiên đề cực kỳ giản dị: **mọi tập con 1 chiều của $$\mathbb{R}$$ định nghĩa được trong hệ đều chỉ gồm hữu hạn điểm và hữu hạn khoảng mở**!
@@ -69,7 +69,7 @@ Song song đó, **Giả thuyết Griffiths** hỏi về **ánh xạ chu kỳ** (
 
 ---
 
-## 2. Khung giải thích: O-minimality giải Giả thuyết André–Oort và Giả thuyết Griffiths như thế nào? (nên đọc chậm)
+## 2. Giải thích: O-minimality giải Giả thuyết André–Oort và Giả thuyết Griffiths như thế nào?
 
 Làm thế nào một định lý từ logic toán (Pila–Wilkie) lại chinh phục được cả hai giả thuyết trụ cột của hình học số học và lý thuyết Hodge? Hãy đi chậm qua mạch 4 bước dưới đây:
 

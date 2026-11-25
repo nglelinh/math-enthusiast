@@ -17,7 +17,7 @@ Bài này dẫn bạn qua các hiện tượng cốt lõi của thế giới cao
 
 ---
 
-## Bản đồ kiến thức nền: Hình học cao chiều là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Hình học cao chiều là gì và nghiên cứu những gì?
 
 Nếu hình học cổ điển của Euclid nghiên cứu tam giác, đường tròn và khối đa diện trong 2–3 chiều, thì **Hình học Cao chiều** (High-Dimensional Geometry / Geometric Functional Analysis) nghiên cứu hành vi của thể tích, khoảng cách, góc và hình lồi trong $$\mathbb{R}^n$$ khi $$n$$ rất lớn ($$n \to \infty$$). Ngành này gắn chặt với **Xác suất Cao chiều** và xoay quanh bốn trụ cột:
 
@@ -105,7 +105,7 @@ giữ mọi khoảng cách giữa các cặp điểm trong phạm vi $$1\pm\vare
 
 ---
 
-### Khung giải thích: nghịch lý quả cầu trung tâm "chọc thủng" hình lập phương (nên đọc chậm)
+### Giải thích: nghịch lý quả cầu trung tâm "chọc thủng" hình lập phương
 
 Để cảm nhận cú sốc thực sự của hình học cao chiều chỉ bằng định lý Pytago, hãy tự tay làm một thí nghiệm hình học nổi tiếng trong khối lập phương $$[-2, 2]^n$$ (cạnh dài $$4$$, khoảng cách từ tâm $$0$$ tới mỗi mặt tường đúng bằng $$2$$).
 

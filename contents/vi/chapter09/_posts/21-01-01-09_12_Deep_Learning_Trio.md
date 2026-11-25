@@ -37,7 +37,7 @@ Sau bài này, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Học sâu (Deep Learning) và Học biểu diễn là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Học sâu (Deep Learning) và Học biểu diễn là gì, nghiên cứu những gì?
 
 Khi tước bỏ ẩn dụ "bộ não nhân tạo", một mạng nơ-ron sâu dưới con mắt của người tốt nghiệp đại học thực chất là sự kết hợp của ba môn toán quen thuộc: **Đại số tuyến tính**, **Giải tích nhiều biến** và **Tối ưu hóa ngẫu nhiên**.
 
@@ -77,7 +77,7 @@ Các thuật toán SGD và Adam cập nhật $$\theta$$ bằng gradient ước l
 
 Đồ thị tính toán là một đồ thị có hướng. Mỗi nút có ma trận Jacobian cục bộ của riêng nó. Chế độ ngược của đạo hàm tự động (reverse-mode automatic differentiation) nhân các Jacobian này dọc theo chuỗi, đi từ hàm mất mát ngược về các tham số. Chi phí tính toán cùng bậc với một lượt tính xuôi, tức tỉ lệ với số cạnh của đồ thị. Đây là một **kỹ thuật tính đạo hàm tự động**, không phải phép màu tạo ra trí tuệ. Hinton cùng các đồng nghiệp đã phổ biến việc huấn luyện mạng nhiều lớp bằng cách này, còn phương pháp chế độ ngược có lịch sử rộng hơn nhiều, chẳng hạn trong lý thuyết điều khiển với phương pháp liên hợp (adjoint).
 
-### Ví dụ cầm tay chỉ việc: Chạy tay 1 bước lan truyền xuôi–ngược và 1 phép tích chập 2×2
+### Ví dụ làm từng bước: Chạy tay 1 bước lan truyền xuôi–ngược và 1 phép tích chập 2×2
 
 Để thấy rõ mạng nơ-ron không hề có "ma thuật", hãy tự tay thực hiện hai phép tính cốt lõi nhất của học sâu:
 
@@ -110,7 +110,7 @@ Trượt $$K$$ qua 4 vị trí $$2 \times 2$$ của ảnh $$X$$ rồi nhân từ
 
 Bản đồ đặc trưng thu được là $$\begin{pmatrix} 0 & 20 \\ 0 & 20 \end{pmatrix}$$: chỉ dùng **4 trọng số dùng chung**, bộ lọc đã tự động khoanh đúng ranh giới sáng–tối bất kể nó nằm ở hàng trên hay hàng dưới.
 
-### Khung giải thích: Vì sao "độ sâu + phi tuyến + chia sẻ trọng số" tạo nên cuộc cách mạng (nên đọc chậm)
+### Giải thích: Vì sao "độ sâu + phi tuyến + chia sẻ trọng số" tạo nên cuộc cách mạng
 
 Để hiểu trọn vẹn công lao của Bengio, Hinton và LeCun mà không rơi vào sùng bái công nghệ, hãy nối 4 mắt xích sau:
 
@@ -119,7 +119,7 @@ Bản đồ đặc trưng thu được là $$\begin{pmatrix} 0 & 20 \\ 0 & 20 \e
 3. **Bước 3 — Kiến trúc là hình học được mã hóa sẵn:** Không gian tất cả các hàm từ ảnh sang nhãn là quá rộng để dữ liệu lấp đầy. Tích chập (CNN) thu hẹp không gian tìm kiếm về các hàm bất biến tịnh tiến; cơ chế chú ý (Attention) mở ra kết nối toàn cục giữa các token — mỗi kiến trúc là một giả thuyết hình học về dữ liệu.
 4. **Bước 4 — Khoảng trống lý thuyết vẫn rộng mở:** Ta vừa thấy SGD giảm mất mát 1.100 lần trên mạng 2 tham số. Nhưng khi mạng có hàng trăm tỉ tham số và đủ sức ghi nhớ cả nhãn nhiễu, vì sao nó vẫn tổng quát hóa tốt trên dữ liệu mới? Đó là nơi thực nghiệm của giải Turing 2018 trao lại bài toán mở cho thế hệ nhà toán học tiếp theo.
 
-**Kiểm tra nhanh.** Trong Phần A, chuyện gì xảy ra nếu ta khởi tạo $$w_1 = -0{,}5$$ với $$x = 2$$? Khi đó $$z_1 = -1 < 0$$, nên $$\mathrm{ReLU}(z_1) = 0$$ và đạo hàm $$\mathrm{ReLU}'(z_1) = 0$$ — toàn bộ gradient theo $$w_1$$ bằng **0** (hiện tượng *dying ReLU*). Chỉ một dấu trừ trong khởi tạo cũng đủ làm nơ-ron "chết" hoàn toàn, giải thích vì sao khởi tạo trọng số (He/Xavier) và kết nối phần dư (ResNet) lại mang tính sống còn.
+**Kiểm tra nhanh.** Trong Phần A, chuyện gì xảy ra nếu ta khởi tạo $$w_1 = -0{,}5$$ với $$x = 2$$? Khi đó $$z_1 = -1 < 0$$, nên $$\mathrm{ReLU}(z_1) = 0$$ và đạo hàm $$\mathrm{ReLU}'(z_1) = 0$$ — toàn bộ gradient theo $$w_1$$ bằng **0** (hiện tượng *dying ReLU*). Chỉ một dấu trừ trong khởi tạo cũng đủ làm nơ-ron "chết" hoàn toàn, giải thích vì sao khởi tạo trọng số (He/Xavier) và kết nối phần dư (ResNet) lại mang tính quan trọng.
 
 ---
 

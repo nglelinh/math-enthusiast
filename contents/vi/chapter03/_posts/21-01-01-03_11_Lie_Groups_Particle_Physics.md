@@ -36,7 +36,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết nhóm Lie và lý thuyết biểu diễn là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Lý thuyết nhóm Lie và lý thuyết biểu diễn là gì, nghiên cứu những gì?
 
 Khi nhắc đến "đối xứng", ta thường nghĩ đến một bông tuyết hay hình vuông: xoay $$90^\circ$$ nó trùng khít chính nó — đó là **nhóm hữu hạn (đối xứng rời rạc)**. Nhưng một hình tròn hay quả cầu có thể xoay đi một góc **bất kỳ** $$\theta \in [0, 2\pi)$$ một cách mượt mà, liên tục không đứt quãng!
 
@@ -55,7 +55,7 @@ Cuối thế kỷ XIX, nhà toán học Na Uy Sophus Lie đã kết hợp hai ng
 - $$SO(3)$$: các ma trận quay $$3\times 3$$ trong không gian 3D.
 - $$SU(n)$$: các ma trận phức unita $$n\times n$$ ($$U^\dagger U = I$$) có định thức bằng 1.
 
-### Ví dụ cầm tay chỉ việc: Tự tính ma trận quay $$SO(2)$$, $$SO(3)$$ và kiểm chứng móc Lie $$[L_x, L_y] = L_z$$
+### Ví dụ làm từng bước: Tự tính ma trận quay $$SO(2)$$, $$SO(3)$$ và kiểm chứng móc Lie $$[L_x, L_y] = L_z$$
 
 1. **Từ Đại số Lie lên Nhóm Lie với phép quay 2D $$SO(2)$$:** xét ma trận sinh $$J = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$$. Ta tính các lũy thừa của $$J$$: $$J^2 = -I$$, $$J^3 = -J$$, $$J^4 = I$$ (giống hệt số phức $$i$$!). Thay vào chuỗi mũ ma trận $$\exp(\theta J) = \sum_{k=0}^\infty \frac{\theta^k}{k!}J^k$$:
 $$
@@ -94,7 +94,7 @@ gán cho mỗi phép đối xứng $$g\in G$$ một ma trận khả nghịch tá
 - **Biểu diễn bất khả quy (irreducible representation):** những khối không gian con không thể tách nhỏ hơn nữa dưới tác động của $$G$$ — trong vật lý hạt, đây chính là các **họ hạt cơ bản (multiplet)**.
 - **Tích tensor:** mô tả cách ghép nhiều hạt lại với nhau (chẳng hạn ghép 3 quark trong biểu diễn 3 chiều của $$SU(3)$$ cho ra phân rã $$\mathbf{3} \otimes \mathbf{3} \otimes \mathbf{3} = \mathbf{10} \oplus \mathbf{8} \oplus \mathbf{8} \oplus \mathbf{1}$$ — con số **10** đó chính là tam giác 10 hạt mà Gell-Mann dùng để tiên đoán hạt $$\Omega^-$$!).
 
-### Khung giải thích: Từ một phép đối xứng trừu tượng đến hạt cơ bản và lực tương tác (nên đọc chậm)
+### Giải thích: Từ một phép đối xứng trừu tượng đến hạt cơ bản và lực tương tác
 
 1. **Nhận diện nhóm đối xứng liên tục $$G$$:** tự nhiên bất biến dưới các phép quay không gian, tịnh tiến thời gian và các phép xoay pha nội tại ($$U(1), SU(2), SU(3)$$).
 2. **Nếu đối xứng là toàn cục → Định lý Noether sinh ra định luật bảo toàn:** mỗi chiều của đại số Lie cho ra một đại lượng bảo toàn (năng lượng, động lượng, điện tích), còn các **biểu diễn bất khả quy** phân loại các hạt thành những họ (multiplet) rõ ràng.

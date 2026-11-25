@@ -16,7 +16,7 @@ That rule is a **differential equation**. If calculus is the alphabet, different
 
 ---
 
-## Background Knowledge Map: What Is the Theory of Differential Equations?
+## Key ideas: What Is the Theory of Differential Equations?
 
 Solving an algebraic equation like $$x^2 - 5x + 6 = 0$$ yields a few numbers. Solving a **differential equation** means finding an **entire unknown function** $$x(t)$$ or field $$u(x,y,z,t)$$ describing a system’s whole evolution.
 
@@ -161,7 +161,7 @@ After discretization, one solves large linear or nonlinear algebraic systems—[
 
 ---
 
-### Deep-Dive Explanation: Why a Supercomputer Simulation Can Still Explode—Checked by Hand (Read Slowly)
+### Explanation: Why a Supercomputer Simulation Can Still Explode—Checked by Hand
 
 Even when your physical model is 100% right, choosing the wrong numerical step can ruin the answer. Verify this dramatically by hand on the simple stiff decay ODE $$y'(t) = -10 y(t)$$ with $$y(0) = 1$$ (whose exact solution $$y(t) = e^{-10t}$$ smoothly decays to $$0$$), using time step $$\Delta t = 0.25$$:
 

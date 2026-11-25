@@ -17,7 +17,7 @@ Bài này không giả vờ rằng lĩnh vực đã "đóng sổ". Thay vào đ�
 
 ---
 
-## Bản đồ kiến thức nền: Toán học của AI là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Toán học của AI là gì và nghiên cứu những gì?
 
 Nếu bạn từng học đại số tuyến tính, giải tích nhiều biến và xác suất thống kê ở đại học, bạn đã nắm trong tay đúng ba viên gạch nền của toán học AI. Ngành **Toán học của AI** (Mathematics of AI / Mathematical Foundations of Deep Learning) không phải một nhánh toán tách biệt, mà là nơi bốn câu hỏi lớn giao nhau:
 
@@ -104,7 +104,7 @@ Giải thích chặt chẽ khoảng cách giữa lý thuyết lồi cổ điển
 
 ---
 
-### Khung giải thích: chạy tay một bước lan truyền tiến và backpropagation (nên đọc chậm)
+### Giải thích: chạy tay một bước lan truyền tiến và backpropagation
 
 Nhiều người thấy backpropagation giống như một "hộp đen" trong PyTorch. Thực chất, nó chỉ là quy tắc đạo hàm hàm hợp (chain rule) trên từng con số cụ thể. Hãy tự kiểm tra toàn bộ vòng lặp học trên một mạng 2 lớp tí hon với **đầu vào** $$x = egin{pmatrix}1\-2\end{pmatrix}$$, **nhãn thật** $$y = 4$$, và hàm kích hoạt $$\mathrm{ReLU}(z) = \max(0, z)$$.
 

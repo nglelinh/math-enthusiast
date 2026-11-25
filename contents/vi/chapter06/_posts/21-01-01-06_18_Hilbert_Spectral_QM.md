@@ -15,7 +15,7 @@ Nếu cơ học cổ điển theo dõi một điểm chuyển động trong khô
 
 ---
 
-## Bản đồ kiến thức nền: Giải tích hàm, Không gian Hilbert và Lý thuyết phổ nghiên cứu những gì?
+## Kiến thức cần nhớ: Giải tích hàm, Không gian Hilbert và Lý thuyết phổ nghiên cứu những gì?
 
 Với nền tảng đại số tuyến tính (vectơ trong $$\mathbb{R}^3$$, tích vô hướng, trị riêng – vectơ riêng) và giải tích, bạn có thể nhìn rõ ba trụ cột toán học của cơ học lượng tử:
 
@@ -101,7 +101,7 @@ $$
 
 với $$\psi(0)$$ nằm trong miền thích hợp (hoặc mở rộng liên tục cho mọi vectơ trong $$\mathcal{H}$$ nhờ nhóm unita $$U(t)=e^{-itH/\hbar}$$). Bảo toàn tổng xác suất theo thời gian chính là tính unita: $$\|\psi(t)\|=\|\psi(0)\|$$. Về trực giác hình học, tiến hóa lượng tử của một hệ cô lập chỉ là một **phép quay đều trong không gian Hilbert phức** — độ dài vectơ trạng thái không bao giờ đổi, chỉ có pha tương đối giữa các thành phần riêng xoay với các tần số khác nhau $$e^{-iE_k t/\hbar}$$.
 
-### Khung giải thích: từ Hamiltonian đến xác suất đo tại thời điểm $$t$$ (nên đọc chậm)
+### Giải thích: từ Hamiltonian đến xác suất đo tại thời điểm $$t$$
 
 Hãy tự tay thực hiện trọn vẹn chu trình **định lý phổ → tiến hóa unita → quy tắc Born** trên một hệ 2 mức (qubit trong từ trường ngang) có Hamiltonian:
 

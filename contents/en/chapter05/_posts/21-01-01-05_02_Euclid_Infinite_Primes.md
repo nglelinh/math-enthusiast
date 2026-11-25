@@ -20,7 +20,7 @@ That is the story of two masterpieces separated by more than two millennia, plac
 
 Both proofs fit on half a page. Both reshaped what humanity knows about numbers and infinity. If you carry away only one sentence from this lecture, make it this: *a proof can be tiny and still world-changing when its construction escapes every allegedly complete inventory.*
 
-**Lesson roadmap:** Background Knowledge Map (number theory, set theory, escape constructions) → Part I: Euclid and infinitely many primes → Deep-Dive Explanation (Read Slowly): hand-checking Euclid’s machine through $$30031 = 59 \times 509$$ and primes of the form $$4k+3$$ → Part II: Cantor and uncountability of the reals → Side-by-side comparison → Writing a proof-idea narrative.
+**Lesson roadmap:** Key ideas (number theory, set theory, escape constructions) → Part I: Euclid and infinitely many primes → Explanation: hand-checking Euclid’s machine through $$30031 = 59 \times 509$$ and primes of the form $$4k+3$$ → Part II: Cantor and uncountability of the reals → Side-by-side comparison → Writing a proof-idea narrative.
 
 ---
 
@@ -39,7 +39,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: Number Theory, Set Theory, and Escape Constructions
+## Key ideas: Number Theory, Set Theory, and Escape Constructions
 
 Before walking through the proofs, let us place both theorems on the map of university mathematics so you can see what each field actually studies and why their proof strategies rhyme:
 
@@ -90,7 +90,7 @@ Therefore the list cannot be complete: there are infinitely many primes.
 
 *Figure. From any finite list of primes, build $$N$$ that demands a new prime factor.*
 
-### Deep-Dive Explanation (Read Slowly): Hand-Checking Euclid’s Machine and Primes of Form $$4k+3$$
+### Explanation: Hand-Checking Euclid’s Machine and Primes of Form $$4k+3$$
 
 To see why "remainder 1" destroys every finite list—and why $$N$$ itself **need not be prime**—check the arithmetic by hand:
 

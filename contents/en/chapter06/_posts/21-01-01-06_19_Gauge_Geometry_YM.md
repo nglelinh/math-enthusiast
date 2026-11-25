@@ -16,7 +16,7 @@ This is the **deep bridge essay** of the Physics–Math track: one geometric mec
 
 ---
 
-## Background Knowledge Map: What Do Differential Geometry, Principal Bundles, and Gauge Theory Study?
+## Key ideas: What Do Differential Geometry, Principal Bundles, and Gauge Theory Study?
 
 With multivariable calculus and matrices, you can picture all three pillars of **gauge geometry** through an everyday metaphor—currency exchange rates and parallel transport:
 
@@ -78,7 +78,7 @@ $$
 
 When $$G=U(1)$$, brackets vanish and one recovers linear Maxwell theory—two light beams pass straight through each other. For $$SU(2)$$ or $$SU(3)$$, the quadratic term makes the field equations **nonlinear**: gluons carry color charge and interact directly with themselves.
 
-### Deep-Dive Explanation: How Can a Constant Potential Create a Nonzero Field? (Read Slowly)
+### Explanation: How Can a Constant Potential Create a Nonzero Field?
 
 In abelian electromagnetism, a spatially constant potential $$\mathbf{A}$$ has zero derivatives, so the magnetic field $$\mathbf{B} = \nabla \times \mathbf{A} = 0$$ automatically. In **$$SU(2)$$ Yang–Mills theory**, noncommutativity changes everything! Verify this in three lines of $$2 \times 2$$ matrix multiplication:
 

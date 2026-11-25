@@ -16,7 +16,7 @@ From Netflix movie recommendations and smartphone face unlock to hundred-billion
 
 ---
 
-## Background Knowledge Map: What Is Linear Algebra and What Does It Study?
+## Key ideas: What Is Linear Algebra and What Does It Study?
 
 Many students first meet linear algebra as a mechanical course on determinants and Gaussian elimination, then forget it after finals. At its heart, **linear algebra** is the mathematics of **high-dimensional geometry** and **transformations that preserve straight lines** (linear maps), organized around **four pillars**:
 
@@ -93,7 +93,7 @@ The final layer often is linear (or softmax-linear) for classification: scores $
 
 ---
 
-### Deep-Dive Explanation: How Matrix Multiplication + ReLU Solves XOR by Hand (Read Slowly)
+### Explanation: How Matrix Multiplication + ReLU Solves XOR by Hand
 
 Why can a 2-layer neural network separate patterns that no single straight line can separate? Let us watch a concrete 2-layer ReLU network **untangle the classic XOR problem** by hand on the four corners of the unit square: $$(0,0):0,\ (1,1):0,\ (1,0):1,\ (0,1):1$$.
 

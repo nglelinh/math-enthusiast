@@ -36,7 +36,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Giải tích phức và Lý thuyết số giải tích là gì?
+## Kiến thức cần nhớ: Giải tích phức và Lý thuyết số giải tích là gì?
 
 Trước khi bước vào hàm $$\zeta(s)$$, một câu hỏi rất tự nhiên với người có nền tảng đại học (giải tích thực, đại số tuyến tính, xác suất) là: *tại sao muốn hiểu số nguyên tố — những số nguyên dương hoàn toàn rời rạc — ta lại phải lôi số phức và giải tích vào?* Câu trả lời nằm ở sự gặp gỡ của hai ngành toán học lớn:
 
@@ -124,7 +124,7 @@ Khi bạn nhân bung các ngoặc này ra, mỗi số hạng nhận được b�
 
 Nhờ Định lý cơ bản của Số học (mỗi số nguyên dương phân tích duy nhất thành tích các số nguyên tố), mọi $$n^{-s}$$ đều xuất hiện đúng một lần. Như vậy, **$$\zeta(s)$$ chính là cây cầu vàng nối thế giới dễ tính "tất cả các số nguyên" với thế giới bí ẩn "tất cả các số nguyên tố".**
 
-### Khung giải thích: vì sao số nguyên tố liên quan đến không điểm (nên đọc chậm)
+### Giải thích: vì sao số nguyên tố liên quan đến không điểm
 
 Người học thường gặp hai câu có vẻ không liên quan: (A) "RH nói về không điểm của hàm zeta" và (B) "RH nói về số nguyên tố". Dưới đây là chuỗi lập luận nối hai câu đó, không cần đến công thức tường minh đầy đủ.
 

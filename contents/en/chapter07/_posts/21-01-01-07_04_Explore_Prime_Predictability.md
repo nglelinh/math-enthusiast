@@ -16,7 +16,7 @@ Walk along the positive integers and strike a bell every time you land on a prim
 
 Now step far back. Suddenly the noise dissolves into an astonishingly smooth curve. The **Prime Number Theorem** nails their global density; the **Riemann Hypothesis** aims at the sharpest possible error term; **bounded gaps** (Zhang, Maynard) guarantee infinitely many close encounters; and **Green–Tao** uncovers evenly spaced arithmetic progressions of any finite length hiding inside them. So *"Are primes predictable?"* has no simple yes-or-no answer. This studio trains you to **separate phenomena into layers**, **run controlled experiments**, and never mistake a gorgeous plot up to $$10^8$$ for a proof valid to infinity.
 
-**Lesson roadmap:** Background Knowledge Map (analytic number theory, sieve methods & additive combinatorics) → Counting primes, gaps, twins & Green–Tao → Deep-Dive Explanation (Read Slowly): hand-checking all primes $$\le 100$$ and proving why a 6-prime AP must have step divisible by 30 → Layered status table → Studio experiments & log.
+**Lesson roadmap:** Key ideas (analytic number theory, sieve methods & additive combinatorics) → Counting primes, gaps, twins & Green–Tao → Explanation: hand-checking all primes $$\le 100$$ and proving why a 6-prime AP must have step divisible by 30 → Layered status table → Studio experiments & log.
 
 ---
 
@@ -35,7 +35,7 @@ After this studio you should be able to:
 
 ---
 
-## Background Knowledge Map: What Is Analytic Number Theory and What Does It Study?
+## Key ideas: What Is Analytic Number Theory and What Does It Study?
 
 Prime numbers belong to discrete arithmetic, so university graduates are often surprised that the deepest breakthroughs about primes use integrals, complex variables, and waves. That bridge is **Analytic Number Theory**, built on three main pillars:
 
@@ -87,7 +87,7 @@ $$
 
 with twin prime constant $$C_2 \approx 0.66016$$.
 
-#### Deep-Dive Explanation (Read Slowly): Hand-Checking Primes $$\le 100$$ and Proving the "Multiple of 30" Rule
+#### Explanation: Hand-Checking Primes $$\le 100$$ and Proving the "Multiple of 30" Rule
 
 Before running code up to $$10^6$$, spend two minutes with pencil and paper on $$[1, 100]$$ to see both randomness and rigid arithmetic rules side by side:
 

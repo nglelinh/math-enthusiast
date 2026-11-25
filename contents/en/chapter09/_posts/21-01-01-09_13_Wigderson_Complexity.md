@@ -23,7 +23,7 @@ After this lecture you should be able to explain why randomness is treated as a 
 
 ---
 
-## Background Knowledge Map: What Are Pseudorandomness Theory and Expander Graphs?
+## Key ideas: What Are Pseudorandomness Theory and Expander Graphs?
 
 When undergraduates code a randomized algorithm (like randomized Quicksort or testing a polynomial identity $$P(x_1,\dots,x_n) \equiv 0$$ at random points), `random()` feels like a free black box. In **Pseudorandomness & Derandomization Theory**, however, random bits are a **precious computational resource** to be budgeted just like CPU cycles or RAM.
 
@@ -97,7 +97,7 @@ $$
 
 Why do expanders mix so fast? Check the normalized walk matrix of $$K_4$$ ($$3$$-regular, $$W = \frac{1}{3}(J - I)$$): its eigenvalues are $$1, -\tfrac{1}{3}, -\tfrac{1}{3}, -\tfrac{1}{3}$$, giving spectral gap $$1 - \lambda = \tfrac{2}{3}$$. Distance from uniform shrinks as $$\lambda^t = (1/3)^t$$—after just $$t = 3$$ steps it is already $$(1/3)^3 \approx 3.7\%$$! Explicit constructions like the **zig-zag product** (Reingold–Vadhan–Wigderson) preserve a constant degree $$d$$ and spectral gap even on $$2^{100}$$ vertices.
 
-### Deep-Dive Explanation: Turning "Hardness" into "Pseudorandom Coins" (Read Slowly)
+### Explanation: Turning "Hardness" into "Pseudorandom Coins"
 
 1. **Flip the script on hard functions:** usually we dread functions that no small circuit can compute. Wigderson saw the upside: if a Boolean function $$f$$ is so hard that no polynomial-time test predicts $$f(x)$$ better than $$50\%$$, then $$f$$'s output looks **indistinguishable from a fair coin** to every efficient algorithm!
 2. **Stretch a tiny seed via a PRG:** the Nisan–Wigderson generator slices a short $$O(\log n)$$-bit seed $$s$$ into nearly disjoint subsets and feeds them into the hard function $$f$$ to emit $$n$$ pseudorandom bits.

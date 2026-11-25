@@ -35,7 +35,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Are Arithmetic Statistics and the Geometry of Numbers?
+## Key ideas: What Are Arithmetic Statistics and the Geometry of Numbers?
 
 Instead of trying to solve one Diophantine equation at a time (which can be impossible!), **arithmetic statistics** asks: *if you pick a number field or an elliptic curve "at random," what does a typical one look like?* Three classical ingredients power Bhargava’s factory.
 
@@ -137,7 +137,7 @@ Now order all elliptic curves $$y^2 = x^3 + Ax + B$$ by their naive height $$H(E
 
 ---
 
-### Deep-Dive Explanation: How Bhargava–Shankar Bounded Average Elliptic Ranks (Read Slowly)
+### Explanation: How Bhargava–Shankar Bounded Average Elliptic Ranks
 
 How did a $$2\times 2\times 2$$ cube for Gauss composition end up bounding the average rank of elliptic curves? Follow the four-step factory slowly:
 

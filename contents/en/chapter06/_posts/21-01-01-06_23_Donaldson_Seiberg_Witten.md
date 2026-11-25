@@ -15,7 +15,7 @@ This is a centerpiece of the Physics–Math Bridge: **physics-inspired geometry 
 
 ---
 
-## Background Knowledge Map: What Do Smooth 4-Manifold Topology and Donaldson–Seiberg–Witten Theory Study?
+## Key ideas: What Do Smooth 4-Manifold Topology and Donaldson–Seiberg–Witten Theory Study?
 
 With undergraduate linear algebra (symmetric matrices, quadratic forms) and multivariable calculus (smooth $$C^\infty$$ functions), three clear pillars explain why dimension 4 broke every rule:
 
@@ -49,7 +49,7 @@ After this lecture you should be able to:
 
 In dimensions $$\geq 5$$, there is enough room to pull intersecting 2D surfaces apart (the Whitney trick), so surgery theory organizes high-dimensional topology systematically. Dimension 3 has geometrization (Perelman). Dimension 4 is caught right in the middle: surfaces intersect in isolated points with no extra dimension to untangle them smoothly! The same smooth-vs-topological gap makes **knot sliceness** subtle: a knot can bound a topological disk in $$B^4$$ yet fail to bound a smooth one—see [Piccirillo and the Conway knot]({{ site.baseurl }}/contents/en/chapter06/06_28_Piccirillo_Conway_Knot/).
 
-### Deep-Dive Explanation: Checking the Freedman–Donaldson Shockwave by Hand via $$E_8$$ (Read Slowly)
+### Explanation: Checking the Freedman–Donaldson Shockwave by Hand via $$E_8$$
 
 You can verify the most famous collision in 4D topology using first-year linear algebra:
 

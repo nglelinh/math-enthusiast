@@ -17,7 +17,7 @@ Thế nhưng vào năm 1994, Peter Shor chỉ ra một vết nứt sâu trong n�
 
 ---
 
-## Bản đồ kiến thức nền: Mật mã hậu lượng tử là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Mật mã hậu lượng tử là gì và nghiên cứu những gì?
 
 Nếu bạn đã quen với đại số tuyến tính và số học cơ bản, bạn có thể nắm ngay bức tranh của **Mật mã Học Hiện Đại & Hậu Lượng Tử** (Modern & Post-Quantum Cryptography) qua **bốn câu hỏi cốt lõi**:
 
@@ -91,7 +91,7 @@ Nền tảng toán học gồm hình học số, đại số số (lattice modul
 
 ---
 
-### Khung giải thích: tự tay mã hóa và giải mã 1 bit bằng mật mã lưới LWE (nên đọc chậm)
+### Giải thích: tự tay mã hóa và giải mã 1 bit bằng mật mã lưới LWE
 
 Mật mã hậu lượng tử dựa trên LWE (*Learning With Errors*, nền tảng của chuẩn NIST ML-KEM) nghe có vẻ rất cao siêu, nhưng cơ chế lõi của nó chỉ dùng phép cộng, nhân số nguyên modulo $$q$$ và một chút nhiễu nhỏ. Hãy tự tay chạy trọn một phiên mã hóa – giải mã với mô-đun tí hon $$q = 17$$ (chú ý $$\lfloor q/2 \rfloor = 8$$).
 

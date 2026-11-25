@@ -15,7 +15,7 @@ For nearly a century, that question defeated generation after generation of topo
 
 What stunned the mathematical world was not just the result, but the *engine*: rather than cutting and pasting with pure topology, Perelman completed **Richard Hamilton's Ricci flow program**—letting a "geometric heat equation" iron out the space's curvature while performing surgical cuts whenever a thin neck threatened to pinch off. The breakthrough earned Perelman both the **2006 Fields Medal** and the million-dollar Clay Millennium Prize—and he **declined both**.
 
-**Lesson roadmap:** Background Knowledge Map (topology, differential geometry, Ricci curvature via sphere vs. torus) → Poincaré's question & Thurston's 8 geometries → Hand-verifiable Ricci flow on $$S^3$$ and the cylinder $$S^2 \times \mathbb{R}$$ → Deep-Dive Explanation (Read Slowly): blow-ups, $$\mathcal{W}$$-entropy, $$\kappa$$-noncollapsing, and surgery → Verification culture & exact theorems.
+**Lesson roadmap:** Key ideas (topology, differential geometry, Ricci curvature via sphere vs. torus) → Poincaré's question & Thurston's 8 geometries → Hand-verifiable Ricci flow on $$S^3$$ and the cylinder $$S^2 \times \mathbb{R}$$ → Explanation: blow-ups, $$\mathcal{W}$$-entropy, $$\kappa$$-noncollapsing, and surgery → Verification culture & exact theorems.
 
 ---
 
@@ -33,7 +33,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: 3D Topology, Differential Geometry, and Geometric Analysis
+## Key ideas: 3D Topology, Differential Geometry, and Geometric Analysis
 
 ### 1. What Does Topology Study? (Sphere $$S^2$$ vs. Torus $$T^2$$)
 Topology is rubber-sheet geometry: you may stretch, squeeze, and bend freely as long as you never tear or glue. Its core questions are classifying spaces up to continuous deformation (**homeomorphism**), capturing holes with algebraic invariants like the **fundamental group** $$\pi_1(M)$$, and studying knots and low-dimensional manifolds (with applications from DNA supercoiling to topological quantum matter).
@@ -113,7 +113,7 @@ Imagine a 3D **dumbbell** (two large spherical bells of radius $$R_0$$ joined by
 
 ---
 
-## 3. Deep-Dive Explanation: How Perelman Tamed Ricci Flow in Four Steps (Read Slowly)
+## 3. Explanation: How Perelman Tamed Ricci Flow in Four Steps
 
 ![Neck pinch and surgery cartoon]({{ site.baseurl }}/img/chapter_img/ricci_surgery_neck.svg)
 

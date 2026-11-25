@@ -16,7 +16,7 @@ Nearly three centuries later, strip away the physical skin of road maps, web hyp
 
 ---
 
-## Background Knowledge Map: What Is Graph Theory and What Does It Study?
+## Key ideas: What Is Graph Theory and What Does It Study?
 
 Unlike Euclidean geometry—which cares about lengths, angles, and continuous coordinates—**graph theory** studies **pure connectivity** among discrete objects. A great subway map ignores geographic scale; passengers only need to know *which station connects to which* and *where lines transfer*.
 
@@ -134,7 +134,7 @@ Variants power recommendation, academic citation metrics (with caveats), and nod
 
 ---
 
-### Deep-Dive Explanation: Why Sparse Linear Algebra Solves Billion-Node PageRank—Checked by Hand (Read Slowly)
+### Explanation: Why Sparse Linear Algebra Solves Billion-Node PageRank—Checked by Hand
 
 How can Google rank billions of webpages without ever inverting a billion-by-billion matrix? Walk through the four-step engine—and check one exact step on a 3-page mini-web:
 

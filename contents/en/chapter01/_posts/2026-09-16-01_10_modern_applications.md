@@ -30,7 +30,7 @@ The required essays in this chapter, especially [P vs NP]({{ site.baseurl }}/con
 
 ---
 
-## Background Knowledge Map: Where Do Great Problems Meet Modern CS?
+## Key ideas: Where Do Great Problems Meet Modern CS?
 
 Why do pure mathematical puzzles routinely spawn billion-dollar engineering tools long before the puzzles themselves are solved? Three branches of computer science sit at this bridge.
 
@@ -131,7 +131,7 @@ Suppose you have already verified every positive integer $$< N$$. To verify $$N$
 
 ---
 
-### Deep-Dive Explanation: Separating Computational Milestones from Mathematical Theorems (Read Slowly)
+### Explanation: Separating Computational Milestones from Mathematical Theorems
 
 Whenever you read a breathless headline like *“AI Solves Fluid Dynamics”* or *“Supercomputer Verifies Conjecture to $$10^{21}$$”*, run this four-step diagnostic check slowly.
 

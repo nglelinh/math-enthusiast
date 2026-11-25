@@ -15,7 +15,7 @@ Before 1915, Isaac Newton viewed gravity as an invisible force pulling instantan
 
 ---
 
-## Background Knowledge Map: What Are Differential Geometry and Riemannian Geometry?
+## Key ideas: What Are Differential Geometry and Riemannian Geometry?
 
 In school, Euclidean geometry lives on a flat sheet of paper: triangle angles always sum to $$180^\circ$$, and parallel lines never meet. Yet Earth’s surface is curved—two airplanes flying due north from the Equator start parallel and still collide at the North Pole, forming a spherical triangle whose angles sum to **more than $$180^\circ$$**!
 
@@ -101,7 +101,7 @@ In vacuum ($$T=0$$), one studies Ricci-flat metrics; Schwarzschild and Kerr blac
 
 ---
 
-### Deep-Dive Explanation: Measuring Intrinsic Curvature and the GPS Drift of 11 km/Day by Hand (Read Slowly)
+### Explanation: Measuring Intrinsic Curvature and the GPS Drift of 11 km/Day by Hand
 
 You do not need ten pages of tensor index gymnastics to verify how curved geometry produces concrete numbers—check both the spherical triangle excess and the GPS timing error right on scratch paper:
 

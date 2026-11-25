@@ -17,7 +17,7 @@ This lecture traces the arc from Monge’s maps to Kantorovich’s couplings, Wa
 
 ---
 
-## Background Knowledge Map: What Is Optimal Transport and What Does It Study?
+## Key ideas: What Is Optimal Transport and What Does It Study?
 
 If you learned statistics or information theory at university, you probably compared probability distributions using KL divergence or total variation. Yet those classical divergences compare densities only *point-by-point at the same coordinate*—making them blind to geometry: two identical hills sitting 1 cm apart or 100 km apart both yield KL $$= +\infty$$ as soon as their supports stop overlapping!
 
@@ -119,7 +119,7 @@ More general costs have $$c$$-concave potentials and complementary slackness str
 
 ---
 
-### Deep-Dive Explanation: Solving a $$2\times 2$$ Transport Problem and Checking Duality by Hand (Read Slowly)
+### Explanation: Solving a $$2\times 2$$ Transport Problem and Checking Duality by Hand
 
 To see primal mass transport and dual 1-Lipschitz pricing match down to the last decimal, let us solve a complete $$2\times 2$$ problem on the real line $$\mathbb{R}$$.
 

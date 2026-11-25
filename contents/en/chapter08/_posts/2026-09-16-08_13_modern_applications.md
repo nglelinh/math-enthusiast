@@ -12,7 +12,7 @@ lesson_type: optional
 
 Whenever an AI weather model forecasts a storm thousands of times faster than a classical supercomputer, or a graph neural network predicts the properties of a candidate drug molecule, few people notice the pure Abel-Prize mathematics pulsing underneath. In 2022–2026 computer science papers, those ideas wear brand-new engineering names: *PAC–Bayes bounds*, *Neural Operators*, and *Graph Transformers*. Yet peel back the terminology and you immediately recognize three lifetime mathematical pillars from this chapter: **concentration of measure** (Talagrand), **nonlinear PDE regularity** (Caffarelli), and **discrete graph / expander structure** (Lovász–Wigderson).
 
-**Lesson arc:** Background Knowledge Map (three direct bridges from Abel mathematics to modern AI/CS) → Deep-Dive Explanation: plugging real numbers into a PAC–Bayes generalization bound to see when it certifies accuracy and when it turns vacuous → Three 2022–2026 landings and an honest boundary between theory and engineering.
+**Lesson arc:** Key ideas (three direct bridges from Abel mathematics to modern AI/CS) → Explanation: plugging real numbers into a PAC–Bayes generalization bound to see when it certifies accuracy and when it turns vacuous → Three 2022–2026 landings and an honest boundary between theory and engineering.
 
 ## Learning objectives
 
@@ -24,7 +24,7 @@ The chapter overview and any one of [Talagrand]({{ site.baseurl }}/contents/en/c
 
 ---
 
-## Background Knowledge Map: How Do Lifetime Mathematical Ideas Bridge Into Modern Machine Learning and Computing?
+## Key ideas: How Do Lifetime Mathematical Ideas Bridge Into Modern Machine Learning and Computing?
 
 Why do theorems proved on chalkboards reappear inside modern AI labs? Three direct mathematical bridges explain the connection:
 
@@ -37,7 +37,7 @@ Classical physics solvers discretize space and time on fine meshes to solve Navi
 ### 3. From Expander Graphs to Graph Transformers
 Standard Graph Neural Networks (GNNs) pass messages only between immediate neighbors, so information from opposite ends of a graph gets pinched (*over-squashing*). Spectral graph theory and the fast-mixing geometry of **expander graphs** motivate adding global communication channels (like *attention*) so information mixes rapidly without erasing local graph structure.
 
-### Deep-Dive Explanation: Plugging Real Numbers Into a PAC–Bayes Bound by Hand (Read Slowly)
+### Explanation: Plugging Real Numbers Into a PAC–Bayes Bound by Hand
 
 In modern learning theory (surveyed by Alquier, 2024), a flagship PAC–Bayes bound guarantees that, with probability at least $$1 - \delta$$, the true expected risk satisfies:
 

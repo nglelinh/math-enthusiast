@@ -16,7 +16,7 @@ Dù không nằm trong danh sách triệu đô của Viện Clay, đây là mộ
 
 Thế nhưng bước nhảy cuối cùng — từ **246** xuống đúng **2** — vẫn đang chắn trước mặt nhân loại như một vách đá dựng đứng. Bài này sẽ giúp bạn phát biểu giả thuyết thật chuẩn xác, tự tay tính hệ số Hardy–Littlewood và kiểm tra bộ chấp nhận được, hiểu vì sao phương pháp sàng hiện đại bị kẹt ở "rào cản chẵn lẻ", và phân biệt rạch ròi giữa "khoảng cách bị chặn" đã được chứng minh với "sinh đôi" vẫn còn mở.
 
-**Mạch bài học:** Bản đồ kiến thức nền → phát biểu → ví dụ tính tay hằng số Hardy–Littlewood → rào cản chẵn lẻ của sàng → ví dụ bộ chấp nhận được & khung giải thích chậm Zhang–Maynard–Polymath → những gì còn mở & hiểu lầm thường gặp.
+**Mạch bài học:** Kiến thức cần nhớ → phát biểu → ví dụ tính tay hằng số Hardy–Littlewood → rào cản chẵn lẻ của sàng → ví dụ bộ chấp nhận được & khung giải thích chậm Zhang–Maynard–Polymath → những gì còn mở & hiểu lầm thường gặp.
 
 ---
 
@@ -38,7 +38,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết sàng và Lý thuyết số cộng tính là gì?
+## Kiến thức cần nhớ: Lý thuyết sàng và Lý thuyết số cộng tính là gì?
 
 Vì sao những câu hỏi trông cực kỳ đơn giản như số nguyên tố sinh đôi ($$p$$ và $$p+2$$) hay giả thuyết Goldbach (mọi số chẵn $$>2$$ là tổng hai số nguyên tố) lại khó hơn nhiều so với Định lý số nguyên tố? Hãy nhìn vào ba trụ cột đứng sau bài học:
 
@@ -83,7 +83,7 @@ Lưới đánh dấu 8 cặp số nguyên tố sinh đôi dưới 100. Biểu đ
 
 ## 2. Lập luận gần đúng: vì sao người ta tin
 
-### Ví dụ cầm tay chỉ việc 1: Tự tính hệ số Hardy–Littlewood từ xác suất đồng dư
+### Ví dụ làm từng bước 1: Tự tính hệ số Hardy–Littlewood từ xác suất đồng dư
 
 Theo Định lý số nguyên tố, quanh mốc $$n$$, xác suất "ngẫu nhiên" để một số là nguyên tố vào khoảng $$1/\log n$$. Nếu $$n$$ và $$n+2$$ hoàn toàn độc lập với nhau như hai lần tung xúc xắc, xác suất để *cả hai* cùng nguyên tố sẽ là $$1/(\log n)^2$$. Nhưng chúng **tương quan mạnh** theo từng số nguyên tố nhỏ $$p$$ — hãy tự tay tính tỷ số (xác suất thật) / (xác suất độc lập) cho $$p = 2, 3, 5$$:
 
@@ -137,7 +137,7 @@ Vì vậy, đỉnh cao mà sàng cổ điển chạm tới được là **địn
 
 Nếu không thể chứng minh ngay $$p_{n+1} - p_n = 2$$ xảy ra vô hạn lần, các nhà toán học đặt câu hỏi lùi lại một bước nhưng vẫn vô cùng táo bạo: *có tồn tại một con số hữu hạn $$H$$ nào đó — dù là một triệu hay một tỷ — sao cho $$p_{n+1} - p_n \le H$$ xảy ra vô hạn lần không?*
 
-### Ví dụ cầm tay chỉ việc 2: Kiểm tra "bộ chấp nhận được" bằng đồng dư nhỏ
+### Ví dụ làm từng bước 2: Kiểm tra "bộ chấp nhận được" bằng đồng dư nhỏ
 
 Thay vì chỉ nhìn đúng 2 vị trí $$(n, n+2)$$, hãy nhìn một "chùm" $$k$$ vị trí $$\{n+h_1, n+h_2, \ldots, n+h_k\}$$. Bộ độ dịch $$\mathcal{H} = \{h_1, \ldots, h_k\}$$ gọi là **chấp nhận được (admissible)** nếu với *mọi* số nguyên tố $$p$$, các giá trị $$h_i \pmod p$$ **không phủ kín** tất cả $$p$$ lớp dư $$\{0, 1, \ldots, p-1\}$$. Hãy kiểm tra bằng tay hai bộ có $$k = 3$$:
 
@@ -150,7 +150,7 @@ Thay vì chỉ nhìn đúng 2 vị trí $$(n, n+2)$$, hãy nhìn một "chùm" $
    - Với mọi $$p \ge 5$$: chỉ có 3 phần tử nên không bao giờ phủ kín nổi $$p \ge 5$$ lớp dư!
    - Kết luận: **CHẤP NHẬN ĐƯỢC!** Thử ngay với $$n \equiv 5 \pmod 6$$: $$n=5 \to (5,7,11)$$; $$n=11 \to (11,13,17)$$; $$n=17 \to (17,19,23)$$; $$n=101 \to (101,103,107)$$.
 
-### Khung giải thích: Làm sao Zhang và Maynard "lách" qua rào cản chẵn lẻ để đạt $$H = 246$$? (nên đọc chậm)
+### Giải thích: Làm sao Zhang và Maynard "lách" qua rào cản chẵn lẻ để đạt $$H = 246$$?
 
 Nếu phương pháp sàng bị khóa bởi rào cản chẵn lẻ, tại sao Zhang (2013) và Maynard (2013) vẫn chứng minh được có vô hạn cặp số nguyên tố cách nhau $$\le 246$$? Hãy theo dõi 4 bước sau:
 

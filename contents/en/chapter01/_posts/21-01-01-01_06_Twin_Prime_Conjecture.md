@@ -35,7 +35,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Fields Sit Behind Twin Primes?
+## Key ideas: What Fields Sit Behind Twin Primes?
 
 Why does a question a ten-year-old can understand require Fields-Medal-level machinery? Twin primes sit at the intersection of three major pillars of modern number theory.
 
@@ -199,7 +199,7 @@ To get the bound $$H = 246$$, Polymath8b constructed an admissible **50-tuple** 
 
 ---
 
-### Deep-Dive Explanation: How Zhang, Maynard, and Polymath8 Outflanked the Parity Barrier (Read Slowly)
+### Explanation: How Zhang, Maynard, and Polymath8 Outflanked the Parity Barrier
 
 How did mathematicians prove $$H = 246$$ when the parity barrier still blocks $$H = 2$$? Follow these four steps.
 

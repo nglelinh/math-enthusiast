@@ -32,7 +32,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Is High-Dimensional Geometry and Why Does It Matter?
+## Key ideas: What Is High-Dimensional Geometry and Why Does It Matter?
 
 At $$n=1,2,3$$, your eyes are trustworthy guides. At $$n=10$$, linear algebra still works effortlessly while visual intuition breaks down. At $$n=1000$$, probability and geometry merge. Four pillars carry the subject:
 
@@ -177,7 +177,7 @@ When a dataset of $$N$$ points lives in $$\mathbb{R}^n$$ with large $$n$$:
 
 ---
 
-### Deep-Dive Explanation: How Dimension Turns Geometry Inside Out (Read Slowly)
+### Explanation: How Dimension Turns Geometry Inside Out
 
 High-dimensional surprises feel like magic until you see they all stem from one engine—**independent coordinates compounding multiplicatively**. Walk through the four steps slowly:
 

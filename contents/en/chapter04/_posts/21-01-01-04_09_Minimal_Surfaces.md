@@ -32,7 +32,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: Where Calculus Meets Sculpture
+## Key ideas: Where Calculus Meets Sculpture
 
 Minimal surfaces sit at one of the richest intersections in all of mathematics, uniting four distinct traditions:
 
@@ -138,7 +138,7 @@ Now watch what happens in the **two-ring soap film experiment** (unit rings of r
 
 ---
 
-### Deep-Dive Explanation: Why a Curved Saddle Can Minimize Area (Read Slowly)
+### Explanation: Why a Curved Saddle Can Minimize Area
 
 At first glance, "curved" sounds like "longer/bigger," so how can a curved surface like a catenoid have minimal area? Walk through the four-step logic slowly:
 

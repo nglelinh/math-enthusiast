@@ -35,7 +35,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Are Provable Security and Interactive Proof Systems?
+## Key ideas: What Are Provable Security and Interactive Proof Systems?
 
 If you are used to classical mathematics—where a "proof" is a static text printed on paper, read top to bottom—the Goldwasser–Micali school radically expands what both **security** and **proof** mean:
 
@@ -112,7 +112,7 @@ Properties typically demanded of interactive proof systems:
 
 ZK protocols underwrite identification schemes, modern proof systems in blockchains, and privacy-preserving credentials—always with the caveat that **real deployments** need careful instantiation, trusted setup questions (in some SNARKs), and implementation security.
 
-### Deep-Dive Explanation: Three Pillars That Turn "Proof" into a Zero-Knowledge Protocol (Read Slowly)
+### Explanation: Three Pillars That Turn "Proof" into a Zero-Knowledge Protocol
 
 1. **Commit before the challenge (Commitment):** in each round, Peggy randomly permutes her 3 secret colors and locks each vertex's color inside a sealed box sent to Victor—so she cannot swap colors after seeing which edge Victor picks.
 2. **Catch cheaters with random edge checks (Soundness):** Victor picks a random edge $$(u,v)$$ out of $$\lvert E\rvert$$ edges and opens its two boxes. If Peggy is faking (the graph isn't 3-colorable), at least one edge must have matching colors, so she gets caught with probability at least $$1/\lvert E\rvert$$ per round; repeating $$20\lvert E\rvert$$ rounds shrinks her cheating odds below $$e^{-20} < 10^{-8}$$!

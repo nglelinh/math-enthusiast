@@ -19,7 +19,7 @@ The mathematician who turned that startling phenomenon into a razor-sharp toolki
 
 From **concentration of measure** and **generic chaining** to a complete, rigorous proof of Giorgio Parisi’s legendary **spin-glass** formula, Talagrand revealed that high-dimensional randomness is not lawless chaos—it obeys an extraordinarily disciplined geometry. Official materials: [abelprize.no](https://abelprize.no/).
 
-**Lesson arc:** Background Knowledge Map (high-dimensional geometry, functional analysis, generic chaining and spin glasses) → Concentration of measure → Deep-Dive Explanation: computing the 1000-dimensional orange peel, Gaussian norm concentration, and exponential tails vs. Chebyshev by hand → Applications in ML and random graphs → Spin glasses and the Parisi formula → Common confusions.
+**Lesson arc:** Key ideas (high-dimensional geometry, functional analysis, generic chaining and spin glasses) → Concentration of measure → Explanation: computing the 1000-dimensional orange peel, Gaussian norm concentration, and exponential tails vs. Chebyshev by hand → Applications in ML and random graphs → Spin glasses and the Parisi formula → Common confusions.
 
 ---
 
@@ -31,7 +31,7 @@ After this lecture you should be able to state concentration of measure for Lips
 
 ---
 
-## Background Knowledge Map: What Are High-Dimensional Probability and Functional Analysis, and What Do They Study?
+## Key ideas: What Are High-Dimensional Probability and Functional Analysis, and What Do They Study?
 
 Undergraduate probability lives mostly in 1 or 2 dimensions (a die roll, a 1D bell curve). Modern science—from billion-parameter neural networks and huge data matrices to statistical physics—lives in **thousands or millions of dimensions**. Three pillars unlock Talagrand’s world:
 
@@ -60,7 +60,7 @@ $$
 
 (up to conventional normalizations). Look closely at the right-hand side: **the dimension $$n$$ has vanished completely!** Whether you live in 10 dimensions or 10 million, a $$1$$-Lipschitz function’s fluctuations do not blow up with $$n$$.
 
-### Deep-Dive Explanation: The 1000-Dimensional Orange Peel and Why Exponential Tails Crush Chebyshev (Read Slowly)
+### Explanation: The 1000-Dimensional Orange Peel and Why Exponential Tails Crush Chebyshev
 
 To feel firsthand why high dimension locks randomness down so tightly, work through three quick calculations on paper:
 

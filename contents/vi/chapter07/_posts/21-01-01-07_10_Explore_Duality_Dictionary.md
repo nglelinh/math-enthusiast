@@ -19,7 +19,7 @@ Năm 1799, đoàn thám hiểm Pháp tìm thấy phiến đá Rosetta ở Ai C�
 
 Bạn không cần chứng minh tương ứng AdS/CFT hay giả thuyết đối xứng gương đồng điều (HMS) trong một buổi chiều. Thay vào đó, bài thực hành này mời bạn đóng vai một **nhà biên soạn từ điển**: chọn đúng một cặp đối ngẫu, vẽ ra bảng dịch song ngữ hai cột, gắn nhãn trung thực xem dòng nào đã là **định lý** vững chắc và dòng nào mới là **chương trình nghiên cứu** hay **từ điển vật lý**, và giữ một cuốn nhật ký ghi lại cả những lần dịch nhầm cần sửa.
 
-**Mạch bài học:** Bản đồ kiến thức nền (đối ngẫu tuyến tính, Fourier & các đại chương trình thế kỷ XXI) → Bảng tổng hợp các cặp đối ngẫu → Khung giải thích chậm: tự tay tính toán hai cặp đối ngẫu (ánh xạ chuyển vị $$f^*$$ và tích chập DFT cỡ $$n=4$$) → Nhiệm vụ biên soạn từ điển & nhật ký.
+**Mạch bài học:** Kiến thức cần nhớ (đối ngẫu tuyến tính, Fourier & các đại chương trình thế kỷ XXI) → Bảng tổng hợp các cặp đối ngẫu → Giải thích: tự tay tính toán hai cặp đối ngẫu (ánh xạ chuyển vị $$f^*$$ và tích chập DFT cỡ $$n=4$$) → Nhiệm vụ biên soạn từ điển & nhật ký.
 
 ---
 
@@ -37,7 +37,7 @@ Sau bài này, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Nguyên lý đối ngẫu trong Toán học và Vật lý lý thuyết là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Nguyên lý đối ngẫu trong Toán học và Vật lý lý thuyết là gì, nghiên cứu những gì?
 
 Nếu bạn đã từng học đại số tuyến tính hoặc xử lý tín hiệu ở đại học, bạn thực ra đã dùng đối ngẫu hằng ngày mà có thể chưa gọi tên nó. Ba tầng đối ngẫu dưới đây mở đường từ đại học lên thẳng biên giới nghiên cứu hiện đại:
 
@@ -74,7 +74,7 @@ Hãy xem một **ví dụ minh họa nhỏ** với cặp quen thuộc nhất —
 | Tích chập $$(f*g)(x)$$ | Tích từng điểm $$\hat f(\xi)\hat g(\xi)$$ | Định lý tích chập |
 | Xung hẹp (tập trung trong thời gian) | Phổ trải rộng (dàn trải trên tần số) | Định lý (Nguyên lý bất định) |
 
-#### Khung giải thích: Cầm tay kiểm chứng hai cặp đối ngẫu — Chuyển vị $$f^*$$ và DFT cỡ $$n=4$$ (nên đọc chậm)
+#### Giải thích: Cầm tay kiểm chứng hai cặp đối ngẫu — Chuyển vị $$f^*$$ và DFT cỡ $$n=4$$
 
 Để cảm nhận "dịch từ Phía A sang Phía B" không phải lời nói hoa mỹ mà là một đẳng thức tính tay được, hãy tự kiểm tra hai ví dụ kinh điển sau:
 

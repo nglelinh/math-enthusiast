@@ -15,7 +15,7 @@ This one-hour seminar map places NCG cleanly on the Physics–Math Bridge withou
 
 ---
 
-## Background Knowledge Map: What Three Pillars Build Noncommutative Geometry?
+## Key ideas: What Three Pillars Build Noncommutative Geometry?
 
 If you know ordinary function multiplication ($$fg = gf$$) and noncommutative matrix multiplication ($$AB \neq BA$$), NCG's "reverse dictionary" rests on three clear pillars:
 
@@ -76,7 +76,7 @@ A (unbounded) **spectral triple** $$(A, \mathcal{H}, D)$$ consists roughly of:
 - a self-adjoint operator $$D$$ (Dirac-type) with compact resolvent under hypotheses,  
 - compatibility conditions (bounded commutators $$[D,a]$$ for all $$a \in A$$).
 
-### Deep-Dive Explanation: Computing Distance by Hand in a 2-Point Spectral Triple (Read Slowly)
+### Explanation: Computing Distance by Hand in a 2-Point Spectral Triple
 
 Take a discrete space of just **two points** $$X = \{p_1, p_2\}$$—with zero curves connecting them! Let us compute the Connes distance between $$p_1$$ and $$p_2$$ using $$2 \times 2$$ matrices:
 

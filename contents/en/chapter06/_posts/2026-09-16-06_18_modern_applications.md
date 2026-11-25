@@ -16,7 +16,7 @@ Yet the closer you stand to a live frontier, the easier it is for headlines to b
 
 ---
 
-## Background Knowledge Map: Where Does 2022–2026 Frontier Math Live?
+## Key ideas: Where Does 2022–2026 Frontier Math Live?
 
 For a university graduate comfortable with calculus, linear algebra, probability, and differential equations, a natural first question is: *what connects language-model scaling, protein folding, fluid simulation, and post-quantum cryptography in a single lesson?*
 
@@ -46,7 +46,7 @@ Chapter 6 is the unfinished zone. The skill is literacy under uncertainty. Betwe
 
 Hoffmann et al. (2022) treat pretraining as an allocation problem: given a compute budget $$C$$, choose model size $$N$$ and token count $$D$$ to minimize loss. Their empirical fit suggested scaling $$N$$ and $$D$$ in tandem (the “Chinchilla” regularity). That is not a generalization theorem. It is a measurement about one training stack. AlphaFold 3, by contrast, is a single trained system whose diffusion module assembles atom clouds; its claims are benchmark numbers on PDB-like tasks, not a derivation of folding from first principles.
 
-### Deep-Dive Explanation: Optimizing the Chinchilla Compute Budget by Hand (Read Slowly)
+### Explanation: Optimizing the Chinchilla Compute Budget by Hand
 
 When people hear that “Chinchilla optimizes parameter count $$N$$ and training tokens $$D$$ under a fixed compute budget $$C$$,” it can sound like opaque supercomputer alchemy. In fact, the mathematical core is a single-variable constrained optimization problem from first-year calculus—and you can check every step on scratch paper.
 

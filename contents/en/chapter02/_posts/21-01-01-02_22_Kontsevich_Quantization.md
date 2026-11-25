@@ -18,7 +18,7 @@ In the early 1990s, theoretical physics kept tossing astonishing prophecies acro
 
 Because Kontsevich (born 1964, permanent professor at IHÉS) later launched monumental programs such as **homological mirror symmetry** (HMS), motivic integration, and wall-crossing, it is tempting to rewrite the 1998 list in hindsight. This essay stays faithful to the official triad—**Witten’s conjecture** on $$\overline{\mathcal{M}}_{g,n}$$, the **universal Vassiliev invariant**, and **formal deformation quantization** of Poisson manifolds—while placing homological mirror symmetry in its proper seat: a landmark 1994 ICM proposal, not the third bullet of the 1998 Fields Medal.
 
-**Lesson roadmap:** Background Knowledge Map (Poisson manifolds, moduli spaces $$\overline{\mathcal{M}}_{g,n}$$, Vassiliev knot invariants) → Hand-verifiable worked examples (Moyal star product on $$q \star p$$ and $$q^2 \star p^2$$, plus the first intersection numbers on $$\overline{\mathcal{M}}_{g,n}$$) → Witten’s conjecture & the Kontsevich integral → Deep-Dive Explanation (Read Slowly): Formality theorem and the upper-half-plane graph formula → Homological mirror symmetry (1994) & keeping the 1998 record clean.
+**Lesson roadmap:** Key ideas (Poisson manifolds, moduli spaces $$\overline{\mathcal{M}}_{g,n}$$, Vassiliev knot invariants) → Hand-verifiable worked examples (Moyal star product on $$q \star p$$ and $$q^2 \star p^2$$, plus the first intersection numbers on $$\overline{\mathcal{M}}_{g,n}$$) → Witten’s conjecture & the Kontsevich integral → Explanation: Formality theorem and the upper-half-plane graph formula → Homological mirror symmetry (1994) & keeping the 1998 record clean.
 
 ---
 
@@ -39,7 +39,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Do Deformation Quantization, Moduli Spaces, and Knot Theory Study?
+## Key ideas: What Do Deformation Quantization, Moduli Spaces, and Knot Theory Study?
 
 ### 1. Deformation quantization of Poisson manifolds
 In classical mechanics, observables are smooth functions $$f(q,p), g(q,p)$$ on phase space multiplied point-by-point ($$fg = gf$$), equipped with an antisymmetric **Poisson bracket** $$\{f, g\}$$ obeying the Jacobi identity and Leibniz rule (a **Poisson manifold**). In quantum mechanics, position and momentum no longer commute: $$[\hat{q}, \hat{p}] = i\hbar$$. **Deformation quantization** asks an algebraic question: *can we deform pointwise multiplication into an **associative** star product $$f \star g = fg + \hbar B_1(f,g) + \hbar^2 B_2(f,g) + \cdots$$ on $$C^\infty(M)[\![\hbar]\!]$$ such that $$f\star g - g\star f = i\hbar\{f,g\} + O(\hbar^2)$$?*
@@ -91,7 +91,7 @@ The tautological intersection numbers $$\langle\tau_{d_1}\cdots\tau_{d_n}\rangle
 
 ---
 
-## 3. Deep-Dive Explanation: The Formality Theorem and Poisson Quantization (Read Slowly)
+## 3. Explanation: The Formality Theorem and Poisson Quantization
 
 Why did deformation quantization of general **Poisson manifolds** remain open for 20 years after De Wilde–Lecomte (1983) and Fedosov (1994) solved the symplectic case? Here is Kontsevich’s 4-step breakthrough (1997 preprint arXiv:q-alg/9709040; *Lett. Math. Phys.* 2003):
 

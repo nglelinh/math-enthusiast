@@ -15,7 +15,7 @@ Yet for nearly three decades, many of the most important theorems in that progra
 
 In the late 2000s, **Ngô Bảo Châu** (then at Université Paris-Sud) took a radically different route: instead of computing the $$p$$-adic integral by hand, he translated the entire analytic identity into **algebraic geometry**, turning mysterious numbers into the shapes of geometric spaces called the **Hitchin fibration**. That leap proved the **Fundamental Lemma** in full generality, cleared a thirty-year bottleneck, and earned him the **2010 Fields Medal**. Let us be clear from the start: Ngô did not "found" the Langlands program, and his proof did not settle the entire program—but it removed the word *"conditional"* from an entire generation of landmark theorems.
 
-**Lesson roadmap:** Background Knowledge Map (algebraic geometry, $$p$$-adic numbers, harmonic analysis on matrix groups) → Langlands vision via small worked examples → The trace formula & endoscopy via $$2\times 2$$ matrices → The Fundamental Lemma → Deep-Dive Explanation (Read Slowly): from $$p$$-adic integrals to the Hitchin fibration and Frobenius traces → Laumon–Ngô to Ngô (2010) → Arithmetic vs. Geometric Langlands.
+**Lesson roadmap:** Key ideas (algebraic geometry, $$p$$-adic numbers, harmonic analysis on matrix groups) → Langlands vision via small worked examples → The trace formula & endoscopy via $$2\times 2$$ matrices → The Fundamental Lemma → Explanation: from $$p$$-adic integrals to the Hitchin fibration and Frobenius traces → Laumon–Ngô to Ngô (2010) → Arithmetic vs. Geometric Langlands.
 
 ---
 
@@ -33,7 +33,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: Algebraic Geometry, $$p$$-adic Numbers, and Analysis on Groups
+## Key ideas: Algebraic Geometry, $$p$$-adic Numbers, and Analysis on Groups
 
 ### 1. What Is Algebraic Geometry and What Does It Study?
 In high school and first-year calculus, you describe shapes by polynomial equations: $$x^2 + y^2 = 1$$ is a circle, $$y = x^2$$ is a parabola, $$x^2 + y^2 - z^2 = 1$$ is a one-sheeted hyperboloid. **Algebraic geometry** generalizes this idea to arbitrary systems of multivariate polynomials in any dimension—and crucially, over **any number system**, not only $$\mathbb{R}$$ or $$\mathbb{C}$$, but also **finite fields** $$\mathbb{F}_p = \{0, 1, \dots, p-1\}$$ (arithmetic modulo a prime $$p$$).
@@ -155,7 +155,7 @@ That local identity is the **Fundamental Lemma**—an equality at individual pri
 
 ---
 
-## 4. Deep-Dive Explanation: How Geometry "Knows" the Value of a $$p$$-adic Integral (Read Slowly)
+## 4. Explanation: How Geometry "Knows" the Value of a $$p$$-adic Integral
 
 How can algebraic geometry prove two $$p$$-adic integrals are equal without ever evaluating them? Follow these four steps slowly:
 

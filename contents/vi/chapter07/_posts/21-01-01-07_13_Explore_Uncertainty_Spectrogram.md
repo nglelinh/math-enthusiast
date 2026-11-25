@@ -19,7 +19,7 @@ Hãy lắng nghe hai âm thanh quen thuộc: một tiếng vỗ tay dứt khoát
 
 Sự đánh đổi tưởng chừng rất đời thường ấy hóa ra lại là **cùng một định luật toán học sâu xa** với Nguyên lý Bất định Heisenberg trong cơ học lượng tử! Không phải do đồng hồ hay kính hiển vi của ta kém tinh xảo, mà là một giới hạn bất khả xâm phạm của cấu trúc sóng và không gian Hilbert. Trong bài thực hành này, bạn không cần chứng minh bất đẳng thức Pauli–Weyl bằng tay. Thay vào đó, bằng vài chục dòng mã FFT và vài phép nhân ma trận $$2\times 2$$, bạn sẽ **tận mắt chứng kiến** cả ba gương mặt của nguyên lý bất định: xung càng hẹp thì phổ càng rộng; độ dài cửa sổ phổ đồ luôn ép ta phải đánh đổi giữa thời gian và tần số; và hai toán tử không giao hoán (ma trận Pauli $$X, Z$$) không bao giờ có thể cùng lúc sắc nét.
 
-**Mạch bài học:** Bản đồ kiến thức nền (giải tích thời gian–tần số, cơ học lượng tử toán học & bất đẳng thức Robertson) → Khung giải thích chậm: tự tay tính $$\sigma_X \sigma_Z$$ cho qubit thực và qubit phức (đạt dấu bằng!) → Chuẩn bị mã FFT → Các thí nghiệm phổ đồ, chirp & qubit.
+**Mạch bài học:** Kiến thức cần nhớ (giải tích thời gian–tần số, cơ học lượng tử toán học & bất đẳng thức Robertson) → Giải thích: tự tay tính $$\sigma_X \sigma_Z$$ cho qubit thực và qubit phức (đạt dấu bằng!) → Chuẩn bị mã FFT → Các thí nghiệm phổ đồ, chirp & qubit.
 
 ---
 
@@ -37,7 +37,7 @@ Sau bài này, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Giải tích thời gian–tần số và Cơ học lượng tử toán học là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Giải tích thời gian–tần số và Cơ học lượng tử toán học là gì, nghiên cứu những gì?
 
 Người học kỹ thuật điện tử gặp nguyên lý bất định trong thiết kế bộ lọc âm thanh, radar và nén ảnh; còn người học vật lý gặp nó ở hạt vi mô. Đứng sau cả hai lĩnh vực là ba trụ cột có chung một nền giải tích:
 
@@ -63,7 +63,7 @@ Ngay cả trên tín hiệu rời rạc hữu hạn (DFT cỡ $$N$$), một vect
 
 ---
 
-### Khung giải thích: Cầm tay kiểm chứng bất đẳng thức Robertson trên một qubit thực và phức (nên đọc chậm)
+### Giải thích: Cầm tay kiểm chứng bất đẳng thức Robertson trên một qubit thực và phức
 
 Hãy tự tay tính tất cả các số hạng cho hai ma trận Pauli quen thuộc:
 $$

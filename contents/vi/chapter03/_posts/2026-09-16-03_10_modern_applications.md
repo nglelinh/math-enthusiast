@@ -26,7 +26,7 @@ Các bài bắt buộc của chương, đặc biệt là [lý thuyết số → 
 
 ---
 
-## Bản đồ kiến thức nền: Bốn mũi nhọn 2022–2026 mở rộng toán học cổ điển như thế nào?
+## Kiến thức cần nhớ: Bốn mũi nhọn 2022–2026 mở rộng toán học cổ điển như thế nào?
 
 Điểm thú vị nhất của làn sóng công nghệ 2022–2026 là nó **không vứt bỏ** toán học Chương 3, mà nâng cấp *hệ tọa độ* hoặc *bài toán nền* thêm một tầng:
 
@@ -47,7 +47,7 @@ Về phía học trên đồ thị, biểu diễn của một đỉnh $$v$$ cầ
 
 Còn **Toán tử nơ-ron Fourier (FNO)** giữ nguyên định lý tích chập kinh điển — biến đổi tín hiệu sang miền tần số bằng FFT, nhân với một bộ lọc $$\widehat{K}(k)$$, rồi biến đổi ngược lại — điểm khác biệt duy nhất nhưng cực kỳ lợi hại là thay vì kỹ sư tự viết tay công thức lọc $$\widehat{K}(k)$$, mạng nơ-ron **tự học các hệ số $$\widehat{K}(k)$$ từ dữ liệu mô phỏng PDE**!
 
-### Khung giải thích: Cách đọc một công trình toán ứng dụng 2022–2026 mà không bị choáng ngợp bởi thuật ngữ (nên đọc chậm)
+### Giải thích: Cách đọc một công trình toán ứng dụng 2022–2026 mà không bị choáng ngợp bởi thuật ngữ
 
 1. **Gọi tên cấu trúc cổ điển bên dưới:** ML-KEM vẫn là đại số tuyến tính modulo $$q$$; GraphGPS vẫn là đồ thị cộng phép nhân ma trận; FNO vẫn là FFT/IFFT; Diffusion vẫn là giải số ODE/SDE.
 2. **Chỉ rõ đúng nút thắt được tháo gỡ:** thay phân tích thừa số bằng bài toán lưới LWE để chống Shor; thay attention $$O(N^2)$$ bằng tuyến tính $$O(N+E)$$ cho đồ thị lớn; thay giải PDE từ đầu bằng học toán tử $$\mathcal{G}$$ trên không gian hàm.
@@ -67,7 +67,7 @@ Ngày 13 tháng 8 năm 2024, Viện Tiêu chuẩn và Công nghệ Quốc gia M�
 - **ML-DSA** (Dilithium) là lược đồ chữ ký số dựa trên lưới module.
 - **SLH-DSA** (SPHINCS+) là lược đồ chữ ký dựa thuần trên hàm băm không cần lưu trạng thái — đóng vai trò phương án dự phòng an toàn tuyệt đối ngay cả khi toán học về lưới có bất ngờ.
 
-### Ví dụ cầm tay chỉ việc: Vì sao thêm một chút nhiễu $$\mathbf{e}$$ lại biến hệ phương trình tuyến tính thành khóa hậu lượng tử (LWE)?
+### Ví dụ làm từng bước: Vì sao thêm một chút nhiễu $$\mathbf{e}$$ lại biến hệ phương trình tuyến tính thành khóa hậu lượng tử (LWE)?
 
 Xét modulo $$q = 17$$, vectơ bí mật $$\mathbf{s} = (3,\ 5)^\top$$ và ma trận công khai:
 

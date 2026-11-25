@@ -9,7 +9,7 @@ categories:
 - chapter09
 ---
 
-Đầu thập niên 1970, khi bảng mạch điện tử bắt đầu chứa hàng nghìn linh kiện nối dây chằng chịt, các kỹ sư đau đầu trước một bài toán hình học–tổ hợp sống còn: *làm sao kiểm tra thật nhanh xem một sơ đồ mạch có vẽ được lên mặt phẳng mà không có hai sợi dây nào cắt nhau hay không?* Ai cũng biết định lý Kuratowski cấm $$K_5$$ và $$K_{3,3}$$, nhưng đi dò tìm các đồ thị con ấy tốn thời gian $$O(n^6)$$ — hoàn toàn vô dụng cho mạch thật. Thế rồi hai nhà khoa học **John E. Hopcroft** và **Robert E. Tarjan** xuất hiện và tung ra một phép màu thuật toán: chỉ cần **một lượt duyệt sâu (DFS)** khéo léo, ta kiểm tra được tính phẳng trong thời gian tuyến tính **$$O(n)$$** — nhanh gần bằng đúng thời gian đọc dữ liệu vào máy!
+Đầu thập niên 1970, khi bảng mạch điện tử bắt đầu chứa hàng nghìn linh kiện nối dây chằng chịt, các kỹ sư đau đầu trước một bài toán hình học–tổ hợp quan trọng: *làm sao kiểm tra thật nhanh xem một sơ đồ mạch có vẽ được lên mặt phẳng mà không có hai sợi dây nào cắt nhau hay không?* Ai cũng biết định lý Kuratowski cấm $$K_5$$ và $$K_{3,3}$$, nhưng đi dò tìm các đồ thị con ấy tốn thời gian $$O(n^6)$$ — hoàn toàn vô dụng cho mạch thật. Thế rồi hai nhà khoa học **John E. Hopcroft** và **Robert E. Tarjan** xuất hiện và tung ra một phép màu thuật toán: chỉ cần **một lượt duyệt sâu (DFS)** khéo léo, ta kiểm tra được tính phẳng trong thời gian tuyến tính **$$O(n)$$** — nhanh gần bằng đúng thời gian đọc dữ liệu vào máy!
 
 Nhận **Giải A.M. Turing năm 1986** với lời trích dẫn:
 
@@ -28,7 +28,7 @@ Sau bài, bạn có thể mô tả **DFS** như quy nạp trên cây đệ quy +
 
 ---
 
-## Bản đồ kiến thức nền: Thuật toán đồ thị và Phân tích khấu hao (Amortized Analysis) là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Thuật toán đồ thị và Phân tích khấu hao (Amortized Analysis) là gì, nghiên cứu những gì?
 
 Với sinh viên đại học ngành công nghệ, **duyệt theo chiều sâu (DFS)** thường chỉ là 10 dòng đệ quy để đi thăm hết các đỉnh. Nhưng trong tay các nhà lý thuyết đồ thị thuật toán (Algorithmic Graph Theory), DFS là một chiếc **máy chụp X-quang cấu trúc**: chỉ trong đúng một lượt đi qua mỗi đỉnh và mỗi cạnh một lần ($$O(n+m)$$), nó phơi bày toàn bộ chu trình, điểm yếu sinh tử (cầu, khớp) và các cụm phụ thuộc vòng tròn (SCC) của một mạng lưới triệu nút — thứ mà trình biên dịch, trình quản lý gói (như `npm`/`pip`) và hệ thống định tuyến mạng chạy mỗi giây.
 
@@ -76,7 +76,7 @@ Công thức không cần thuộc máy; cần thuộc **ý**: DFS + một vài s
 
 Đồ thị có hướng phân hoạch thành SCC: trong mỗi khối, mọi cặp đỉnh tới được nhau; đồ thị co các khối thành DAG. **Tarjan’s SCC algorithm** dùng một DFS, stack các đỉnh “đang mở”, và low-link để pop đúng một SCC khi root của component finish (đúng lúc $$\mathrm{low}[u] = d[u]$$). **Kosaraju**: hai DFS (một trên đồ thị ngược) cũng $$O(n+m)$$, dễ dạy hơn, hằng số khác.
 
-### Ví dụ cầm tay chỉ việc: Tự chạy thuật toán Tarjan tìm SCC trên đồ thị 4 đỉnh
+### Ví dụ làm từng bước: Tự chạy thuật toán Tarjan tìm SCC trên đồ thị 4 đỉnh
 
 Xét đồ thị có hướng 4 đỉnh $$\{1, 2, 3, 4\}$$ gồm 4 cung: $$1\to 2,\ 2\to 3,\ 3\to 1$$ (tạo vòng khép kín) và $$3\to 4$$ (ngõ cụt). Bắt đầu DFS từ đỉnh `1`:
 
@@ -89,7 +89,7 @@ Xét đồ thị có hướng 4 đỉnh $$\{1, 2, 3, 4\}$$ gồm 4 cung: $$1\to 
 
 Chỉ trong đúng **1 lượt duyệt** qua 4 đỉnh và 4 cung ($$O(n+m)$$), thuật toán tách gọn toàn bộ đồ thị thành 2 SCC và trả về luôn theo thứ tự topo ngược!
 
-### Khung giải thích: Vì sao Phân tích khấu hao chứng minh được Union–Find gần như $$O(1)$$? (nên đọc chậm)
+### Giải thích: Vì sao Phân tích khấu hao chứng minh được Union–Find gần như $$O(1)$$?
 
 1. **Tách chi phí từng bước khỏi chi phí cả chuỗi:** một lần `Find(x)` đi qua nhánh dài có thể tốn nhiều bước, nhưng chính lúc nó chạy qua, **nén đường dẫn (path compression)** gắn trực tiếp mọi nút trên đường đó vào gốc — làm cho *tất cả các lần gọi sau đó* trở nên siêu rẻ!
 2. **Dùng hàm thế năng $$\Phi$$ như một "tài khoản tiết kiệm":** định nghĩa chi phí khấu hao $$\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})$$. Thao tác rẻ làm tăng nhẹ $$\Phi$$ (gửi tiền tiết kiệm); thao tác nén đường dẫn đắt làm giảm mạnh $$\Phi$$ (rút tiền tiết kiệm ra bù).

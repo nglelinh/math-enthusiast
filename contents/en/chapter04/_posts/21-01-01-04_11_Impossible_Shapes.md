@@ -32,7 +32,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: Why an Optical Illusion Belongs in Algebraic Topology
+## Key ideas: Why an Optical Illusion Belongs in Algebraic Topology
 
 Impossible figures sit at the crossroads of four disciplines that all wrestle with the same question: *when can local data be stitched into a single global object?*
 
@@ -115,7 +115,7 @@ The **Necker cube** is *underdetermined*: two different 3D depth assignments pro
 
 ---
 
-### Deep-Dive Explanation: From a Pencil Sketch to Cohomology (Read Slowly)
+### Explanation: From a Pencil Sketch to Cohomology
 
 Why do mathematicians get excited about a drawing you can sketch on a napkin? Walk through the four-step translation slowly:
 

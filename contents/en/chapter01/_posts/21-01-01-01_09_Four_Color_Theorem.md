@@ -38,7 +38,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Fields Sit Behind the Four Color Theorem?
+## Key ideas: What Fields Sit Behind the Four Color Theorem?
 
 Why did an afternoon map-coloring puzzle spark a century of mathematics and launch formal proof verification? Three major disciplines meet inside 4CT.
 
@@ -182,7 +182,7 @@ Let’s test this by hand on two concrete examples:
 
 ---
 
-### Deep-Dive Explanation: How the Four Color Theorem Proof Actually Works (Read Slowly)
+### Explanation: How the Four Color Theorem Proof Actually Works
 
 To see why 4CT is neither “magic” nor “guessing with a supercomputer,” walk through the four-stage architecture of the Appel–Haken / RSST / Gonthier proof slowly.
 

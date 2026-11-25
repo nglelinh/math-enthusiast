@@ -15,7 +15,7 @@ Một nghịch lý sâu sắc hiện ra ngay lập tức: photon không có kh�
 
 Trong số các Bài toán Thiên niên kỷ của Viện Clay, nếu [Navier–Stokes]({{ site.baseurl }}/contents/vi/chapter01/01_05_Navier_Stokes/) đến từ dòng chảy của chất lỏng, thì **Bài toán tồn tại Yang–Mills và khe khối lượng** đến thẳng từ trái tim của vật lý hạt cơ bản. Các nhà vật lý dùng lý thuyết Yang–Mills hằng ngày — đó là bộ khung của Mô hình Chuẩn (tương tác điện từ, tương tác yếu và sắc động lực học lượng tử QCD), và các siêu máy tính mô phỏng trên lưới đều thấy rõ hiện tượng giam hãm quark lẫn khe khối lượng. Nhưng Viện Clay đòi hỏi **toán học ở mức định lý**: xây dựng chặt chẽ lý thuyết Yang–Mills lượng tử trên không–thời gian liên tục 4 chiều (không dựa vào xấp xỉ nhiễu loạn), và chứng minh phổ năng lượng của nó có một khe dương phía trên chân không.
 
-**Mạch bài học:** Bản đồ kiến thức nền (nhóm Lie, đối xứng chuẩn, phổ Hamiltonian) → Yang–Mills cổ điển & phép nhân ma trận $$SU(2)$$ cầm tay → lượng tử hóa & khe khối lượng → khung giải thích chậm 4 bước + ví dụ hàm $$e^{-1/g^2}$$ không nhiễu loạn → kết quả từng phần & tránh thổi phồng.
+**Mạch bài học:** Kiến thức cần nhớ (nhóm Lie, đối xứng chuẩn, phổ Hamiltonian) → Yang–Mills cổ điển & phép nhân ma trận $$SU(2)$$ cầm tay → lượng tử hóa & khe khối lượng → khung giải thích chậm 4 bước + ví dụ hàm $$e^{-1/g^2}$$ không nhiễu loạn → kết quả từng phần & tránh thổi phồng.
 
 ---
 
@@ -36,7 +36,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết trường chuẩn, Hình học vi phân và Lý thuyết trường lượng tử là gì?
+## Kiến thức cần nhớ: Lý thuyết trường chuẩn, Hình học vi phân và Lý thuyết trường lượng tử là gì?
 
 Cụm từ *Yang–Mills* nghe rất "vật lý cao siêu", nhưng cốt lõi toán học của nó lại nối thẳng với **đại số tuyến tính (ma trận và trị riêng)** cùng **giải tích** bạn đã học ở đại học qua ba trụ cột:
 
@@ -61,7 +61,7 @@ $$
 F = dA + A\wedge A, \qquad \text{hay theo thành phần: } F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu + [A_\mu, A_\nu].
 $$
 
-### Ví dụ cầm tay chỉ việc 1: Nhân hai ma trận $$2\times 2$$ của $$\mathfrak{su}(2)$$ để thấy nguồn gốc phi tuyến!
+### Ví dụ làm từng bước 1: Nhân hai ma trận $$2\times 2$$ của $$\mathfrak{su}(2)$$ để thấy nguồn gốc phi tuyến!
 
 Hãy tự tay tính giao hoán tử $$[A_1, A_2] = A_1 A_2 - A_2 A_1$$ cho hai ma trận cơ bản của đại số Lie $$\mathfrak{su}(2)$$ (các ma trận phản Hermitian, vết 0):
 
@@ -127,7 +127,7 @@ $$
 - Trong điện từ học (không có khe khối lượng, $$\Delta = 0$$), tương quan giảm chậm theo quy luật lũy thừa $$1/r$$ — đó là lý do lực Coulomb và ánh sáng truyền đi tầm xa vô tận.
 - Khi có khe khối lượng $$\Delta > 0$$, thừa số $$e^{-\Delta r}$$ dập tắt tương tác cực nhanh ở khoảng cách lớn hơn $$1/\Delta$$! Trong lý thuyết Yang–Mills thuần, điều đó có nghĩa các gluon không xuất hiện tự do như hạt không khối lượng, mà tự kết thành những trạng thái liên kết có khối lượng gọi là **glueball** (với khối lượng nhẹ nhất $$\ge \Delta$$). Hiện tượng giam hãm quark trong QCD đầy đủ còn phức tạp hơn; bài toán Clay về khe khối lượng cho trường chuẩn thuần là phần toán học "tinh khiết" nằm ngay lõi của hiện tượng này.
 
-### Ví dụ cầm tay chỉ việc 2: Vì sao khai triển Taylor (giản đồ Feynman) "mù tịt" trước khe khối lượng?
+### Ví dụ làm từng bước 2: Vì sao khai triển Taylor (giản đồ Feynman) "mù tịt" trước khe khối lượng?
 
 Vật lý học dự đoán khe khối lượng $$\Delta$$ phụ thuộc vào hằng số tương tác $$g$$ theo dạng hàm mũ ngược:
 
@@ -142,7 +142,7 @@ Hãy dùng giải tích năm nhất xét hàm mẫu $$f(g) = e^{-1/g^2}$$ (với
 
 Dù bạn tính tới một triệu bậc giản đồ Feynman (chuỗi lũy thừa theo $$g$$), kết quả vẫn ra số **0** tròn trĩnh — không bao giờ thấy được khe khối lượng dương $$e^{-c/g^2} > 0$$! Đó chính là lý do khe khối lượng là hiện tượng **thuần túy không nhiễu loạn**.
 
-### Khung giải thích: Từ lý thuyết lưới đến bài toán Thiên niên kỷ Clay (nên đọc chậm)
+### Giải thích: Từ lý thuyết lưới đến bài toán Thiên niên kỷ Clay
 
 #### Bước 1: Rời rạc hóa lên mạng lưới 4D (Wilson, 1974)
 Trên không gian liên tục, tích phân vô hạn chiều $$\int e^{-S[A]}\mathcal{D}A$$ vô nghĩa trực tiếp. Kenneth Wilson thay không–thời gian 4D bằng một mạng lưới ô vuông cạnh $$a > 0$$: khi đó số biến trở thành hữu hạn, tích phân trên nhóm Lie compact $$G$$ hoàn toàn chặt chẽ — thậm chí chứng minh được có khe khối lượng khi tương tác mạnh!

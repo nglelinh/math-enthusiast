@@ -14,7 +14,7 @@ Khi khép lại hành trình qua hơn 30 chân dung Huy chương Fields — từ
 
 Bài học tùy chọn này là nhịp cầu giúp bạn cầm nắm ba dòng chảy ứng dụng sống động đó — đồng thời giữ vững sự tỉnh táo ghi công: **toán học đoạt Huy chương Fields làm sáng tỏ cấu trúc và chứng minh định lý chặt chẽ; còn khoa học máy tính biến các cấu trúc ấy thành những hệ thống đủ nhanh, đủ rẻ để chạy trên dữ liệu thực.**
 
-**Mạch bài học:** Bản đồ kiến thức nền (từ đối tượng toán thuần túy sang bài toán tính toán) → Ví dụ số cầm tay chỉ việc cho cả ba ứng dụng (mẫu Module-LWE modulo 17, phương án OT rời rạc, ngưỡng 3-SAT) → Khung giải thích chậm: 3 bước chuyển dịch từ định lý Fields sang hệ thống 2022–2026 (Neural OT, NIST FIPS 203 ML-KEM, SAT & GraphGPS) → Diễn giải ranh giới giữa định lý và xấp xỉ kỹ thuật.
+**Mạch bài học:** Kiến thức cần nhớ (từ đối tượng toán thuần túy sang bài toán tính toán) → Ví dụ số làm từng bước cho cả ba ứng dụng (mẫu Module-LWE modulo 17, phương án OT rời rạc, ngưỡng 3-SAT) → Giải thích: 3 bước chuyển dịch từ định lý Fields sang hệ thống 2022–2026 (Neural OT, NIST FIPS 203 ML-KEM, SAT & GraphGPS) → Diễn giải ranh giới giữa định lý và xấp xỉ kỹ thuật.
 
 ---
 
@@ -31,7 +31,7 @@ Sau bài tùy chọn này, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Ba đối tượng toán thuần túy biến thành bài toán tính toán như thế nào?
+## Kiến thức cần nhớ: Ba đối tượng toán thuần túy biến thành bài toán tính toán như thế nào?
 
 ### 1. Vận chuyển tối ưu (Optimal Transport) trong Học sâu
 Trong giải tích thuần túy (Figalli, Brenier, Caffarelli), ta tìm phép ghép $$\pi$$ cực tiểu hóa $$\int c(x,y)\,d\pi$$ giữa hai mật độ $$\mu, \nu$$ và hỏi khi nào nghiệm là ánh xạ trơn $$T = \nabla\phi$$. Trong **học máy**, ta chỉ có hai tập mẫu dữ liệu rời rạc hàng chục nghìn chiều (ví dụ ảnh khuôn mặt và ảnh tranh vẽ, không ghép cặp sẵn), nên thay vì giải phương trình Monge–Ampère, ta dùng **mạng nơ-ron** tham số hóa trực tiếp ánh xạ hoặc phương án vận chuyển.
@@ -50,7 +50,7 @@ Giống như mô hình thấm có ngưỡng sắc $$p_c$$ (Smirnov, Duminil-Copi
 
 ---
 
-## 1. Ví dụ cầm tay chỉ việc: tính một mẫu LWE nhỏ theo modulo 17 và xem ngưỡng 3-SAT
+## 1. Ví dụ làm từng bước: tính một mẫu LWE nhỏ theo modulo 17 và xem ngưỡng 3-SAT
 
 ### Ví dụ 1: Cầm tay một mẫu mật mã lưới LWE với $$q = 17$$
 Giả sử số nguyên tố modulo là $$q = 17$$, ma trận công khai $$A$$ và vector bí mật $$s$$ là:
@@ -74,7 +74,7 @@ Cho $$n = 1000$$ biến Boolean và $$m$$ mệnh đề ngẫu nhiên dạng $$(x
 
 ---
 
-## 2. Khung giải thích: Ba ứng dụng khoa học máy tính 2022–2026 kế thừa ý tưởng Fields ra sao? (nên đọc chậm)
+## 2. Giải thích: Ba ứng dụng khoa học máy tính 2022–2026 kế thừa ý tưởng Fields ra sao?
 
 Hãy nhìn kỹ 3 công trình tiêu biểu giai đoạn 2022–2026 để thấy rõ cầu nối và ranh giới ghi công:
 

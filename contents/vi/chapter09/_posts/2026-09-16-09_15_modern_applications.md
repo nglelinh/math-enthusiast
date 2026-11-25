@@ -22,7 +22,7 @@ Sau bài tùy chọn này, bạn có thể:
 - Phân biệt rõ đâu là *quy luật thực nghiệm*, đâu là *kiểm chứng hình thức bằng kernel*, và đâu là *kiến trúc xấp xỉ nguyên lý nhân quả*.
 - Nối cả ba bước tiến hiện đại này về các nền tảng của Chương 9 (Valiant, bộ ba học sâu, Pearl và văn hóa kiểm chứng).
 
-## Bản đồ kiến thức nền: Quy luật mở rộng quy mô, Chứng minh hình thức bằng AI và Học máy nhân quả là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Quy luật mở rộng quy mô, Chứng minh hình thức bằng AI và Học máy nhân quả là gì, nghiên cứu những gì?
 
 Ba cập nhật trong bài đại diện cho ba câu hỏi toán–tin sắc bén nhất của giai đoạn 2022–2026:
 
@@ -38,7 +38,7 @@ Bài [Chủ đề hiện đại]({{ site.baseurl }}/contents/vi/chapter09/09_14_
 
 Hoffmann và cộng sự (2022) coi số phép tính (FLOPs) là một ngân sách cần chia giữa số tham số $$N$$ và số token $$D$$. AlphaProof coi việc tìm các bước chứng minh (tactic) trong Lean như một môi trường học tăng cường, trong đó phần thưởng là việc kernel của Lean chấp nhận chứng minh. Một Causal Transformer coi quỹ đạo $$(X_t,A_t,Y_t)$$ như một chuỗi và cố ước lượng kết quả phản thực nếu thực hiện một chuỗi hành động khác. Đây chính là ý của Pearl, “can thiệp $$\neq$$ điều kiện hóa”, nay được đưa vào một kiến trúc mạng.
 
-### Ví dụ cầm tay chỉ việc: Chia ngân sách FLOPs theo Chinchilla và ma trận che nhân quả 3×3
+### Ví dụ làm từng bước: Chia ngân sách FLOPs theo Chinchilla và ma trận che nhân quả 3×3
 
 Hãy tự tay thực hiện hai phép tính ngắn để thấy các thuật ngữ hiện đại 2022–2026 bám chặt vào đại số và tối ưu hóa sơ cấp như thế nào:
 
@@ -70,7 +70,7 @@ $$
 
 Dù điểm thô của tương lai $$S_{2,3} = 5$$ lớn áp đảo, mặt nạ nhân quả đã triệt tiêu hoàn toàn luồng thông tin ngược thời gian xuống đúng **0** — phần còn lại (triệt tiêu biến nhiễu từ quá khứ $$t=1, 2$$) được xử lý tiếp bởi hàm mất mát đối kháng để xấp xỉ phép can thiệp $$do(A_t)$$ của Pearl.
 
-### Khung giải thích: Vì sao giai đoạn 2022–2026 nối thẳng về di sản Giải Turing (nên đọc chậm)
+### Giải thích: Vì sao giai đoạn 2022–2026 nối thẳng về di sản Giải Turing
 
 Ba câu chuyện trên không phải ba mốt công nghệ rời rạc, mà là ba nhịp nối dài trực tiếp các ý tưởng nền tảng của Chương 9:
 

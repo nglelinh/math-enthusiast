@@ -22,7 +22,7 @@ Nên đọc sau bài [Vật lý toán]({{ site.baseurl }}/contents/vi/chapter06/
 
 ---
 
-## Bản đồ kiến thức nền: Nguyên lý đối ngẫu là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Nguyên lý đối ngẫu là gì và nghiên cứu những gì?
 
 Khác với giải tích hay đại số tuyến tính là một *ngành* cụ thể, **Nguyên lý Đối ngẫu** (Duality Principle) là một **kiến trúc tư duy xuyên ngành** trải khắp toán học và vật lý lý thuyết. Để một người tốt nghiệp đại học không bị choáng trước hàng chục cái tên (Pontryagin, Poincaré, Gelfand, Langlands, S/T, AdS/CFT), hãy gom chúng về **ba cấp độ tăng dần**:
 
@@ -170,7 +170,7 @@ Chất cách điện tôpô, anyon và việc khớp dị thường (anomaly mat
 
 ---
 
-### Khung giải thích: hai phép tính tay cho thấy sức mạnh của nguyên lý đối ngẫu (nên đọc chậm)
+### Giải thích: hai phép tính tay cho thấy sức mạnh của nguyên lý đối ngẫu
 
 Để đối ngẫu không chỉ là một triết lý trừu tượng, hãy tự tay thực hiện hai phép tính rất gọn — một của hình học, một của vật lý thống kê — nơi đối ngẫu giải bài toán chỉ trong vài dòng.
 

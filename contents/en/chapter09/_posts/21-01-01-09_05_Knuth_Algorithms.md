@@ -35,7 +35,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Is Analysis of Algorithms and What Does It Study?
+## Key ideas: What Is Analysis of Algorithms and What Does It Study?
 
 When you time a script on your laptop and see `0.2 seconds`, that number is entangled with your CPU, compiler, cache, and one specific test input. **Analysis of Algorithms** frees us from hardware accidents by turning runtime into a **mathematical function** $$T(n)$$ of input size $$n$$.
 
@@ -120,7 +120,7 @@ $$
 
 An exact fraction-for-fraction match! And since $$H_n \approx \ln n$$, we see immediately that Quicksort averages $$2n\ln n \approx 1.386\, n\log_2 n$$ comparisons—within 39% of the information-theoretic lower bound $$\log_2(n!)$$.
 
-### Deep-Dive Explanation: Knuth's Four-Step Method for Analyzing an Algorithm (Read Slowly)
+### Explanation: Knuth's Four-Step Method for Analyzing an Algorithm
 
 1. **Prove correctness via loop invariants:** before measuring speed, prove the algorithm always halts and returns the right answer on *every* valid input.
 2. **Pick a dominant operation and write the cost function $$T(n)$$:** translate loops and recursive calls into explicit sums or recurrence relations.

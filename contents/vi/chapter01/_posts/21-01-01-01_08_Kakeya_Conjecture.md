@@ -44,7 +44,7 @@ Nghịch lý kỳ dị ấy đã khai sinh ra một câu hỏi còn sâu hơn g�
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết độ đo hình học, Giải tích điều hòa và Hình học liên thuộc là gì?
+## Kiến thức cần nhớ: Lý thuyết độ đo hình học, Giải tích điều hòa và Hình học liên thuộc là gì?
 
 Tại sao một câu đố tưởng như giải trí về việc "xoay cây kim" lại nằm ở trung tâm của toán học hiện đại và gắn liền với Huy chương Fields 2026? Hãy nhìn vào ba trụ cột đứng phía sau bài toán:
 
@@ -145,7 +145,7 @@ Câu chuyện trực quan (đoạn thẳng đơn vị được xem như một **
 
 Besicovitch: trên mặt phẳng, tập có thể có độ đo bằng không. Nhưng **điểm và đường thẳng** đều có diện tích 0 mà rõ ràng không "cùng cỡ".
 
-### Ví dụ cầm tay chỉ việc 1: Tập Cantor — độ dài bằng 0 nhưng chiều lớn hơn 0!
+### Ví dụ làm từng bước 1: Tập Cantor — độ dài bằng 0 nhưng chiều lớn hơn 0!
 
 Trước khi bước vào tập Kakeya, hãy kiểm chứng hiện tượng "độ đo bằng 0 nhưng số chiều dương" bằng một phép tính 3 dòng trên **tập Cantor** $$C \subset [0, 1]$$:
 - **Bước 0:** Bắt đầu từ đoạn $$[0, 1]$$ dài $$1$$.
@@ -332,7 +332,7 @@ Các tác giả **không** khẳng định thể tích dương. Độ đo bằng
 
 ## 4. Vì sao 3 chiều khó: các ống bán kính $$\delta$$
 
-### Ví dụ cầm tay chỉ việc 2: Thử tính thể tích hợp các ống $$\delta$$-tube với $$\delta = 0{,}01$$ trong $$\mathbb{R}^3$$
+### Ví dụ làm từng bước 2: Thử tính thể tích hợp các ống $$\delta$$-tube với $$\delta = 0{,}01$$ trong $$\mathbb{R}^3$$
 
 Một đoạn thẳng toán học có độ dày bằng 0 nên rất khó áp dụng tích phân và thể tích. Để đưa bài toán về phạm vi giải tích, người ta "thổi phồng" mỗi đoạn thẳng đơn vị thành một **ống trụ ($$\delta$$-tube)** dài 1 và bán kính $$\delta$$ rất nhỏ. Hãy thay số cụ thể $$\delta = 0{,}01$$ trong $$\mathbb{R}^3$$:
 
@@ -355,7 +355,7 @@ Các ống chỉ có thể chồng lên nhau **rất nhiều** khi chúng buộc
 
 ## 5. Vì sao giải tích điều hòa quan tâm
 
-### Khung giải thích: Từ "cây kim xoay" đến "tháp giải tích điều hòa" và đột phá Wang–Zahl (nên đọc chậm)
+### Giải thích: Từ "cây kim xoay" đến "tháp giải tích điều hòa" và đột phá Wang–Zahl
 
 Vì sao chứng minh về những chiếc ống trong $$\mathbb{R}^3$$ lại làm rung chuyển cả ngành giải tích điều hòa? Hãy nối 4 mắt xích sau:
 

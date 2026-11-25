@@ -18,7 +18,7 @@ For decades, that dream had not a single rigorous proof for any concrete lattice
 
 Read the citation with precision: it names **two specific lattice models**, not every 2D critical model (even critical bond percolation on the square lattice remains open!). Smirnov’s discrete lattice theorems lock directly into the continuum **SLE** curve language of Oded Schramm and [Wendelin Werner]({{ site.baseurl }}/contents/en/chapter02/02_30_Werner_SLE/) (Fields 2006), and paved the way for his doctoral student [Hugo Duminil-Copin]({{ site.baseurl }}/contents/en/chapter02/02_19_Duminil_Copin_Phase_Transitions/) (Fields 2022).
 
-**Lesson roadmap:** Background Knowledge Map (conformal maps, site vs. bond percolation, discrete complex analysis) → Hand-verifiable worked examples (Hex board symmetry at $$p_c = 1/2$$ & Cardy–Carleson’s linear law on an equilateral triangle) → Deep-Dive Explanation (Read Slowly): 4 steps from color-switching to discrete Cauchy–Riemann, $$\mathrm{SLE}_6$$, and Ising fermions → What remains open (square-lattice bond percolation, self-avoiding walk).
+**Lesson roadmap:** Key ideas (conformal maps, site vs. bond percolation, discrete complex analysis) → Hand-verifiable worked examples (Hex board symmetry at $$p_c = 1/2$$ & Cardy–Carleson’s linear law on an equilateral triangle) → Explanation: 4 steps from color-switching to discrete Cauchy–Riemann, $$\mathrm{SLE}_6$$, and Ising fermions → What remains open (square-lattice bond percolation, self-avoiding walk).
 
 ---
 
@@ -38,7 +38,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Do Conformal Invariance and Discrete Complex Analysis Study?
+## Key ideas: What Do Conformal Invariance and Discrete Complex Analysis Study?
 
 ### 1. Conformal maps—angle-preserving geometry
 A holomorphic map $$f: \Omega_1 \to \Omega_2$$ with $$f'(z) \neq 0$$ is **conformal**: locally it only scales and rotates, never distorting angles. By the Riemann mapping theorem, every simply connected planar domain (square, disk, triangle, blob) maps conformally to any other. If a critical lattice model is **conformally invariant**, solving it on one simple shape (an equilateral triangle) immediately gives the exact answer on *every* planar domain!
@@ -77,7 +77,7 @@ Plug in concrete positions along $$AC$$:
 
 ---
 
-## 2. Deep-Dive Explanation: How Smirnov Proved Conformal Invariance for Percolation and Ising (Read Slowly)
+## 2. Explanation: How Smirnov Proved Conformal Invariance for Percolation and Ising
 
 Both of Smirnov’s Fields breakthroughs follow a crisp 4-step discrete-holomorphicity blueprint:
 

@@ -15,7 +15,7 @@ The irony of history was instantaneous: the very day before, at a quiet roundtab
 
 **Gödel’s incompleteness theorems** (1931) do not say "mathematics is broken" or "nothing can be proved." They state something far sharper: any consistent, effectively axiomatized formal system strong enough to express elementary arithmetic is **necessarily incomplete** (some true arithmetic statements can neither be proved nor refuted inside it), and such a system **cannot prove its own consistency** from within.
 
-**Lesson roadmap:** Background Knowledge Map (syntax vs. semantics, formal systems PA/ZFC, computability) → Formal theories and the two theorems → Deep-Dive Explanation (Read Slowly): hand-encoding and decoding Gödel numbers ($$270$$ and $$808\,500$$) → From the Liar Paradox to the self-referential Gödel sentence $$G$$ → The second theorem → Diagonal kinship with Cantor and Turing.
+**Lesson roadmap:** Key ideas (syntax vs. semantics, formal systems PA/ZFC, computability) → Formal theories and the two theorems → Explanation: hand-encoding and decoding Gödel numbers ($$270$$ and $$808\,500$$) → From the Liar Paradox to the self-referential Gödel sentence $$G$$ → The second theorem → Diagonal kinship with Cantor and Turing.
 
 ---
 
@@ -34,7 +34,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: Mathematical Logic, Formal Proofs, and Computability
+## Key ideas: Mathematical Logic, Formal Proofs, and Computability
 
 Many university graduates hear about Gödel’s theorems in philosophy essays yet feel hazy on the mechanics because three pillars of **Mathematical Logic** are rarely laid out side by side:
 
@@ -76,7 +76,7 @@ Under similar hypotheses, if $$T$$ is consistent then $$T$$ cannot prove $$\math
 
 ---
 
-## 3. Deep-Dive Explanation (Read Slowly): Hand-Encoding and Decoding Gödel Numbers
+## 3. Explanation: Hand-Encoding and Decoding Gödel Numbers
 
 Gödel’s first great breakthrough is the **arithmetization of syntax**: turning every symbol, every formula, and even an entire multi-line proof into a **single unique natural number**. To see there is zero mysticism involved, build a miniature code table and compute by hand:
 

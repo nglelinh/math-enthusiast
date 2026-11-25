@@ -17,7 +17,7 @@ Bài này trình bày hành trình từ bài toán Monge, bản nới lỏng c�
 
 ---
 
-## Bản đồ kiến thức nền: Vận chuyển tối ưu là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Vận chuyển tối ưu là gì và nghiên cứu những gì?
 
 Nếu bạn đã quen với xác suất và tối ưu hóa bậc đại học, có lẽ bạn từng dùng phân kỳ KL (Kullback–Leibler) hay sai số bình phương để so sánh hai phân phối xác suất. Nhưng các thước đo truyền thống chỉ so sánh chiều cao của hai đồ thị *tại cùng một tọa độ*, nên chúng hoàn toàn mù trước hình học không gian: hai ngọn đồi giống hệt nhau nằm cách nhau 1 cm hay 100 km đều cho cùng một giá trị KL bằng vô cùng nếu chúng không chồng lên nhau!
 
@@ -126,7 +126,7 @@ Với chi phí tổng quát hơn, ta có các thế $$c$$-lõm và cấu trúc �
 
 ---
 
-### Khung giải thích: tự tay giải bài toán vận chuyển $$2\times 2$$ và khớp đối ngẫu Kantorovich–Rubinstein (nên đọc chậm)
+### Giải thích: tự tay giải bài toán vận chuyển $$2\times 2$$ và khớp đối ngẫu Kantorovich–Rubinstein
 
 Để thấy công thức gốc (vận chuyển khối lượng) và công thức đối ngẫu (hàm 1-Lipschitz) khớp nhau từng con số, hãy giải trọn vẹn một bài toán $$2\times 2$$ trên trục số thực $$\mathbb{R}$$.
 

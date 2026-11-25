@@ -14,7 +14,7 @@ In December 2020, Fields medalist **Peter Scholze** posted an unusually candid b
 
 Eighteen months later, the **Lean** community answered with a solid green checkmark. Two years after that (2024), neuro-symbolic AI systems like **AlphaGeometry** and **AlphaProof** began discovering Olympiad proofs of their own and handing them straight to Lean’s kernel for audit. The arc from Euclid, Cantor, Gödel, and the Four Color Theorem has entered a new chapter: proofs are no longer just chalk on a board, but **axiom-checked computer programs**.
 
-**Lesson roadmap:** Background Knowledge Map (formal proofs & Curry–Howard, category theory, the de Bruijn criterion) → Deep-Dive Explanation (Read Slowly): reading a real Lean 4 proof and hand-checking a category → Three 2022–2026 landmarks (Liquid Tensor Experiment, AlphaGeometry, AlphaProof) → Living alongside Gödel’s limits.
+**Lesson roadmap:** Key ideas (formal proofs & Curry–Howard, category theory, the de Bruijn criterion) → Explanation: reading a real Lean 4 proof and hand-checking a category → Three 2022–2026 landmarks (Liquid Tensor Experiment, AlphaGeometry, AlphaProof) → Living alongside Gödel’s limits.
 
 ---
 
@@ -24,7 +24,7 @@ After this optional note you should be able to describe three 2022–2026 comput
 
 ---
 
-## Background Knowledge Map: Formal Proofs, Type Theory, and Category Theory
+## Key ideas: Formal Proofs, Type Theory, and Category Theory
 
 News stories about Lean, the Liquid Tensor Experiment, and AlphaProof throw around intimidating terms. Here is the clean university-level intuition behind all three pillars:
 
@@ -48,7 +48,7 @@ The proof essays, especially [Euclid / infinite primes]({{ site.baseurl }}/conte
 
 ---
 
-## Deep-Dive Explanation (Read Slowly): Reading a Real Lean 4 Proof and Checking a Category by Hand
+## Explanation: Reading a Real Lean 4 Proof and Checking a Category by Hand
 
 To make "proofs as programs" and "category theory" concrete, walk through two miniature hand-verifiable examples:
 

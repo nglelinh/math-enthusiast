@@ -19,7 +19,7 @@ Người đã biến trực giác kỳ diệu ấy thành một hệ thống b�
 
 Từ hiện tượng **tập trung của độ đo** (*concentration of measure*) và kỹ thuật **xâu chuỗi tổng quát (generic chaining)** đến việc chứng minh chặt chẽ công thức Parisi huyền thoại cho **spin glass**, Talagrand cho thấy thế giới ngẫu nhiên ở số chiều cao không hề hỗn loạn vô định—nó tuân theo một thứ hình học kỷ luật đến kinh ngạc. Tài liệu chính thức: [abelprize.no](https://abelprize.no/).
 
-**Mạch bài học:** Bản đồ kiến thức nền (Hình học chiều cao, giải tích hàm, generic chaining và spin glass) → Hiện tượng tập trung của độ đo → Khung giải thích chậm: tính tay "quả cam 1000 chiều" và chặn đuôi mũ vs. Chebyshev → Ứng dụng trong ML và đồ thị ngẫu nhiên → Spin glass và công thức Parisi → Những nhầm lẫn.
+**Mạch bài học:** Kiến thức cần nhớ (Hình học chiều cao, giải tích hàm, generic chaining và spin glass) → Hiện tượng tập trung của độ đo → Giải thích: tính tay "quả cam 1000 chiều" và chặn đuôi mũ vs. Chebyshev → Ứng dụng trong ML và đồ thị ngẫu nhiên → Spin glass và công thức Parisi → Những nhầm lẫn.
 
 ---
 
@@ -31,7 +31,7 @@ Sau bài này, bạn có thể phát biểu hiện tượng tập trung của đ
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết xác suất chiều cao và giải tích hàm là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Lý thuyết xác suất chiều cao và giải tích hàm là gì và nghiên cứu những gì?
 
 Trong xác suất bậc đại học, ta chủ yếu làm việc với 1 hoặc 2 biến ngẫu nhiên (một lần tung xúc xắc, một đường cong hình chuông 1D). Nhưng thế giới hiện đại—từ mạng nơ-ron hàng tỷ tham số, ma trận dữ liệu lớn đến vật lý thống kê—sống trong **không gian hàng nghìn đến hàng triệu chiều**. Ba trụ cột sau mở khóa thế giới của Talagrand:
 
@@ -60,7 +60,7 @@ $$
 
 Hãy dừng lại nhìn vế phải: **số chiều $$n$$ hoàn toàn biến mất!** Dù bạn ở không gian 10 chiều hay 10 triệu chiều, độ lệch của một hàm $$1$$-Lipschitz không hề phình to theo $$n$$.
 
-### Khung giải thích: Tự tay tính "quả cam 1000 chiều" và sức mạnh của đuôi mũ (nên đọc chậm)
+### Giải thích: Tự tay tính "quả cam 1000 chiều" và sức mạnh của đuôi mũ
 
 Để cảm nhận tận tay vì sao số chiều cao lại khóa chặt sự ngẫu nhiên, hãy làm ba phép tính nhanh trên giấy:
 
@@ -104,7 +104,7 @@ Khi một bài báo hiện đại về học máy, tổ hợp hay ma trận ng�
 
 ### Lý thuyết học và quá trình thực nghiệm
 
-Một câu hỏi sống còn của trí tuệ nhân tạo và thống kê là **tổng quát hóa**: sai số trên tập huấn luyện (rủi ro thực nghiệm) có thực sự gần với sai số ngoài đời thực (rủi ro thật) trên toàn bộ một họ mô hình $$\mathcal{F}$$ hay không? Quá trình thực nghiệm và bất đẳng thức tập trung của Talagrand (như bất đẳng thức Talagrand cho supremum của quá trình thực nghiệm) kiểm soát trực tiếp độ lệch đồng đều:
+Một câu hỏi quan trọng của trí tuệ nhân tạo và thống kê là **tổng quát hóa**: sai số trên tập huấn luyện (rủi ro thực nghiệm) có thực sự gần với sai số ngoài đời thực (rủi ro thật) trên toàn bộ một họ mô hình $$\mathcal{F}$$ hay không? Quá trình thực nghiệm và bất đẳng thức tập trung của Talagrand (như bất đẳng thức Talagrand cho supremum của quá trình thực nghiệm) kiểm soát trực tiếp độ lệch đồng đều:
 
 $$
 \sup_{f\in\mathcal{F}} \Big\lvert \frac{1}{n}\sum_{i=1}^n f(X_i) - \mathbb{E} f(X) \Big\rvert.

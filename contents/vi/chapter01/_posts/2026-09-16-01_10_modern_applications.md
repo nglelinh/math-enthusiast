@@ -24,7 +24,7 @@ Các bài bắt buộc của chương, đặc biệt là [P vs NP]({{ site.baseu
 
 ---
 
-## Bản đồ kiến thức nền: Ba trụ cột của Toán học tính toán & AI khoa học (2022–2026)
+## Kiến thức cần nhớ: Ba trụ cột của Toán học tính toán & AI khoa học (2022–2026)
 
 Để đọc các bài báo AI và khoa học máy tính hiện đại mà không bị choáng bởi những tiêu đề giật gân, hãy đặt chúng lên ba trụ cột rõ ràng sau:
 
@@ -63,7 +63,7 @@ giữa các không gian hàm, chứ không chứng minh rằng $$u$$ vẫn trơn
 
 Trong các kỳ SAT Competition từ 2022 đến 2024, các bộ giải CDCL vẫn đứng đầu trên những bộ bài kiểm tra công nghiệp và nhân tạo rất lớn (nhiều bài có hàng trăm nghìn biến và hàng triệu mệnh đề). Một bộ giải chạy xong một bài **không** có nghĩa bài đó thuộc lớp độ phức tạp $$\mathbf{P}$$, và một họ công thức khó giải **không** chứng minh $$\mathbf{P}\neq\mathbf{NP}$$.
 
-**Ví dụ cầm tay chỉ việc 1 — Chạy tay 1 vòng CDCL (Học mệnh đề xung đột):**
+**Ví dụ làm từng bước 1 — Chạy tay 1 vòng CDCL (Học mệnh đề xung đột):**
 Xét một phần nhỏ của công thức SAT gồm 3 mệnh đề:
 $$(1)\ (\neg x_1 \lor x_2), \qquad (2)\ (\neg x_1 \lor \neg x_2 \lor x_3), \qquad (3)\ (\neg x_1 \lor \neg x_3).$$
 1. Bộ giải thử gán quyết định $$x_1 = \text{Đúng}$$.
@@ -90,7 +90,7 @@ Trên bộ 30 bài hình học IMO, hệ thống giải được **25 bài**, ti
 
 Barina (2021) công bố một phép kiểm tra song song trên GPU cho thấy ánh xạ Collatz đi vào chu trình tầm thường với mọi giá trị ban đầu đến cỡ $$2^{68}$$ (tức gần $$3 \times 10^{20}$$), và các cải tiến kỹ thuật sau đó tiếp tục đẩy mốc này vượt qua $$2^{71}$$.
 
-**Ví dụ cầm tay chỉ việc 2 — Kỹ thuật sàng modulo $$2^3 = 8$$ loại ngay 75% số cần kiểm tra!**
+**Ví dụ làm từng bước 2 — Kỹ thuật sàng modulo $$2^3 = 8$$ loại ngay 75% số cần kiểm tra!**
 Giả sử bạn đã kiểm tra xong mọi số nhỏ hơn $$n$$ đều về 1; khi đó để kiểm tra $$n$$, bạn chỉ cần thấy quỹ đạo của $$n$$ rơi xuống **nhỏ hơn $$n$$** là dừng được ngay! Hãy xét cả 8 lớp chia dư modulo $$8$$:
 - $$n \equiv 0, 2, 4, 6 \pmod 8$$ (số chẵn): sau 1 bước ra $$n/2 < n$$ → **loại luôn 4 lớp!**
 - $$n = 8k + 1$$: $$8k+1 \to 24k+4 \to 12k+2 \to 6k+1 < 8k+1$$ → **loại luôn!**
@@ -102,7 +102,7 @@ Nhưng một đoạn đầu hữu hạn, dù dài đến đâu, vẫn chỉ là 
 
 ---
 
-### Khung giải thích: Vì sao kỳ tích tính toán (2022–2026) không tự động trở thành định lý? (nên đọc chậm)
+### Giải thích: Vì sao kỳ tích tính toán (2022–2026) không tự động trở thành định lý?
 
 Mỗi khi báo chí đưa tin *"AI đã giải quyết bài toán X"*, hãy dùng bộ lọc 4 bước sau để đặt kết quả về đúng vị trí:
 

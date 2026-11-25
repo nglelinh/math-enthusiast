@@ -15,7 +15,7 @@ How could an argument shorter than half a page provoke such a storm? Cantor aske
 
 If you remember one sentence from this lecture, let it be: *against any proposed complete list of reals, build a real that disagrees with the $$n$$th entry in the $$n$$th place.*
 
-**Lesson roadmap:** Background Knowledge Map (set theory, bijections, Cantor’s tower of infinities) → Countability and Hilbert’s Hotel → Cantor’s theorem and the diagonal construction → Deep-Dive Explanation (Read Slowly): hand-enumerating $$\mathbb{Q}^+$$, springing the $$0.1999\ldots$$ trap, and testing power sets on $$X = \{1,2,3\}$$ → Russell’s Barber Paradox → Descendants in logic and computer science.
+**Lesson roadmap:** Key ideas (set theory, bijections, Cantor’s tower of infinities) → Countability and Hilbert’s Hotel → Cantor’s theorem and the diagonal construction → Explanation: hand-enumerating $$\mathbb{Q}^+$$, springing the $$0.1999\ldots$$ trap, and testing power sets on $$X = \{1,2,3\}$$ → Russell’s Barber Paradox → Descendants in logic and computer science.
 
 ---
 
@@ -34,7 +34,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: Set Theory and Cantor’s Infinite Sets
+## Key ideas: Set Theory and Cantor’s Infinite Sets
 
 To anchor Cantor’s revolution in university-level intuition without drowning in axiomatic jargon, view **Set Theory** through three pillars:
 
@@ -136,7 +136,7 @@ The list was assumed to contain every element of $$(0,1)$$, yet $$d$$ is missing
 </div>
 <script src="{{ '/public/js/explainers/cantor-explainer.js' | relative_url }}"></script>
 
-## 4. Deep-Dive Explanation (Read Slowly): Three Hand-Verifiable Checks
+## 4. Explanation: Three Hand-Verifiable Checks
 
 To master diagonalization and avoid the classic pitfalls, verify three concrete miniature examples by hand:
 

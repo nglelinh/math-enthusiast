@@ -26,7 +26,7 @@ Câu chuyện bắt đầu năm 1917 từ một câu đố tưởng như để g
 
 *Tạm dịch:* Cho các công trình về giải tích điều hòa và lý thuyết độ đo hình học, gồm việc áp dụng kỹ thuật đa thang và kỹ thuật tách (decoupling) vào giả thuyết làm trơn địa phương cho phương trình sóng trên mặt phẳng, cùng những tiến bộ lớn về bài toán hạn chế Fourier, tập khoảng cách Falconer, tập Furstenberg trên mặt phẳng và bài toán Kakeya ba chiều.
 
-**Mạch bài học:** Bản đồ kiến thức nền (tính tay độ đo 0 vs chiều fractal trên tập Cantor, đếm ống $$\delta$$ trong 3D và bó sóng Fourier) → Bài toán chiếc kim & Tập Besicovitch → Giả thuyết Kakeya & hình ảnh sợi mì 3D → Khung giải thích chậm 4 bước về chứng minh Wang–Zahl (2025) → Các công trình khác trong lời trích dẫn IMU & ghi chú từ video chính.
+**Mạch bài học:** Kiến thức cần nhớ (tính tay độ đo 0 vs chiều fractal trên tập Cantor, đếm ống $$\delta$$ trong 3D và bó sóng Fourier) → Bài toán chiếc kim & Tập Besicovitch → Giả thuyết Kakeya & hình ảnh sợi mì 3D → Giải thích 4 bước về chứng minh Wang–Zahl (2025) → Các công trình khác trong lời trích dẫn IMU & ghi chú từ video chính.
 
 ---
 
@@ -44,7 +44,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Giải tích điều hòa và Lý thuyết độ đo hình học là gì?
+## Kiến thức cần nhớ: Giải tích điều hòa và Lý thuyết độ đo hình học là gì?
 
 ### 1. Lý thuyết độ đo hình học: Độ đo bằng 0 nhưng số chiều vẫn lớn! (Tính tay trên tập Cantor)
 Làm sao một tập hợp có thể tích bằng $$0$$ mà vẫn có số chiều đầy đủ? Hãy tự tính tay trên ví dụ fractal nổi tiếng nhất — **tập Cantor $$C \subset [0, 1]$$** (mỗi bước chia mỗi đoạn thành 3 phần bằng nhau rồi bỏ phần giữa):
@@ -100,7 +100,7 @@ Năm 1971, **Roy Davies** chứng minh trên mặt phẳng 2 chiều: dù diện
 
 ---
 
-## 2. Khung giải thích: Wang và Zahl giải Giả thuyết Kakeya 3 chiều bằng 4 bước như thế nào? (nên đọc chậm)
+## 2. Giải thích: Wang và Zahl giải Giả thuyết Kakeya 3 chiều bằng 4 bước như thế nào?
 
 Tại sao từ 2 chiều (Davies 1971) lên 3 chiều lại mất hơn nửa thế kỷ? Trên mặt phẳng, hai đường thẳng không song song *bắt buộc cắt nhau tại đúng một điểm*, nên chỉ cần bất đẳng thức Cauchy–Schwarz đơn giản là xong. Trong không gian 3 chiều, hàng triệu "sợi mì spaghetti" (ống $$\delta$$) có thể **chéo nhau không cắt**, bó chặt trong những tấm mỏng, hoặc xếp lên mặt cong hyperboloid một tầng (**regulus**)! Hãy đọc chậm 4 bước đột phá của **Hong Wang và Joshua Zahl** ([arXiv:2502.17655](https://arxiv.org/abs/2502.17655), 127 trang):
 

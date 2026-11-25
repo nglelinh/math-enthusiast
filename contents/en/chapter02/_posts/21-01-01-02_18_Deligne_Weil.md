@@ -15,7 +15,7 @@ Turning that vision into a theorem took a quarter-century and a three-stage rela
 
 That breakthrough earned him the **Fields Medal 1978**, with the IMU noting that his solution of the Weil conjectures *"did much to unify algebraic geometry and algebraic number theory."* Let us keep the record crisp from the start: the 1978 medal does not mean Deligne built étale cohomology single-handedly, nor that the **standard conjectures** or the **Hodge conjecture** were solved. And his later **Abel Prize 2013** recognized an entire lifetime of transformative work—distinct from the 1978 Fields Medal.
 
-**Lesson roadmap:** Background Knowledge Map (algebraic geometry, étale cohomology, Frobenius) → Hand-verifiable worked examples over $$\mathbb{F}_5$$ and $$\mathbb{F}_{25}$$ → The Weil conjectures and the three-stage relay → Deep-Dive Explanation (Read Slowly): how Deligne locks down Frobenius eigenvalues → *Weil II* and the Ramanujan–Petersson bound → Honest attribution & boundary with the classical Riemann hypothesis.
+**Lesson roadmap:** Key ideas (algebraic geometry, étale cohomology, Frobenius) → Hand-verifiable worked examples over $$\mathbb{F}_5$$ and $$\mathbb{F}_{25}$$ → The Weil conjectures and the three-stage relay → Explanation: how Deligne locks down Frobenius eigenvalues → *Weil II* and the Ramanujan–Petersson bound → Honest attribution & boundary with the classical Riemann hypothesis.
 
 ---
 
@@ -36,7 +36,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Are Algebraic Geometry, Étale Cohomology, and Frobenius?
+## Key ideas: What Are Algebraic Geometry, Étale Cohomology, and Frobenius?
 
 If you graduated in science or engineering without taking a graduate course in algebraic geometry, phrases like "$$\ell$$-adic étale cohomology" can sound intimidating. Underneath, three concrete ideas carry the whole story.
 
@@ -141,7 +141,7 @@ $$
 
 ---
 
-## 3. Deep-Dive Explanation: How Deligne Locks Down Frobenius Eigenvalues (Read Slowly)
+## 3. Explanation: How Deligne Locks Down Frobenius Eigenvalues
 
 Once étale cohomology turns $$P_i(T)$$ into $$\det\bigl(1 - T\,\mathrm{Frob} \mid H^i_{\mathrm{\acute{e}t}}(X_{\overline{k}}, \mathbb{Q}_\ell)\bigr)$$, why did proving $$\vert\alpha\vert = q^{i/2}$$ stop the Grothendieck school for a decade? Here is the 4-step architecture of Deligne’s *Weil I* (1974) and *Weil II* (1980):
 

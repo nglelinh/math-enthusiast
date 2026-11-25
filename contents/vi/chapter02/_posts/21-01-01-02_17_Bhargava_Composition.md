@@ -15,7 +15,7 @@ Rồi vào mùa hè năm 1998, một nghiên cứu sinh trẻ tuổi tại Princ
 
 Theo lời trích dẫn của IMU, giải thưởng dành cho việc *"phát triển những phương pháp mới mạnh mẽ trong hình học các số, và áp dụng chúng để đếm các vành hạng nhỏ và để chặn hạng trung bình của đường cong elliptic."* Cần nói rõ ngay từ đầu: Bhargava **không** chứng minh [giả thuyết Birch–Swinnerton-Dyer]({{ site.baseurl }}/contents/vi/chapter01/01_04_Birch_Swinnerton_Dyer/), nhưng các kết quả của ông về **nhóm Selmer** và hạng trung bình đã lần đầu tiên cho thấy hành vi thống kê của đa số đường cong elliptic khớp ngoạn mục với những gì BSD dự đoán.
 
-**Mạch bài học:** Bản đồ kiến thức nền (tính tay hoàn chỉnh **khối lập phương $$2\times 2\times 2$$ Bhargava** cho biệt thức $$-23$$, hình học các số và ví dụ hạng $$0/1$$ của đường cong elliptic) → Đếm vành hạng $$2, 3, 4, 5$$ → Khung giải thích chậm 4 bước: từ dạng bậc 4 nhị phân đến kích thước 2-Selmer $$= 3$$ và hạng trung bình bị chặn → Ghi nhận công lao & phân biệt với BSD.
+**Mạch bài học:** Kiến thức cần nhớ (tính tay hoàn chỉnh **khối lập phương $$2\times 2\times 2$$ Bhargava** cho biệt thức $$-23$$, hình học các số và ví dụ hạng $$0/1$$ của đường cong elliptic) → Đếm vành hạng $$2, 3, 4, 5$$ → Giải thích 4 bước: từ dạng bậc 4 nhị phân đến kích thước 2-Selmer $$= 3$$ và hạng trung bình bị chặn → Ghi nhận công lao & phân biệt với BSD.
 
 ---
 
@@ -34,7 +34,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Hình học các số, Khối lập phương Bhargava và Đường cong elliptic
+## Kiến thức cần nhớ: Hình học các số, Khối lập phương Bhargava và Đường cong elliptic
 
 ### 1. Tự tính tay Khối lập phương $$2\times 2\times 2$$ của Bhargava (Biệt thức $$D = -23$$!)
 Đặt 8 số nguyên lên 8 đỉnh của một khối lập phương $$2\times 2\times 2$$, viết dưới dạng cặp hai mặt trước–sau $$M_1$$ và $$M_2$$:
@@ -84,7 +84,7 @@ Từ bậc $$6$$ trở đi hiện vẫn là bài toán mở lớn vì không cò
 
 ---
 
-## 2. Khung giải thích: Bhargava và Shankar chặn "Hạng trung bình của đường cong elliptic" như thế nào? (nên đọc chậm)
+## 2. Giải thích: Bhargava và Shankar chặn "Hạng trung bình của đường cong elliptic" như thế nào?
 
 Làm sao từ các phép tham số hóa đa thức, **Manjul Bhargava và Arul Shankar** lại chặn được hạng trung bình của *tất cả* các đường cong elliptic trên $$\mathbb{Q}$$ (một kết quả mà ngay cả Giả thuyết Riemann mở rộng trước đó cũng chưa chứng minh được)? Hãy theo dõi mạch 4 bước:
 

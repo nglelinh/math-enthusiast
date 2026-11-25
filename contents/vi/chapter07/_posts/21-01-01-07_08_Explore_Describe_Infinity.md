@@ -16,7 +16,7 @@ Cuối thế kỷ XIX, trong lúc nhiều nhà toán học lừng danh vẫn coi
 
 Khi đọc sách báo phổ thông, ta hay bắt gặp những câu đố gây hoang mang như *"vô hạn cộng một có lớn hơn vô hạn không?"* hay *"số chẵn chỉ bằng một nửa số tự nhiên hay nhiều bằng nhau?"*. Sự bối rối không đến từ việc vô hạn "phi logic", mà từ việc người nói đã trộn lẫn nhiều khái niệm khác nhau dưới cùng một chữ "vô hạn": vô hạn tiềm năng trong giải tích, bản số (cardinal) đo kích thước, số thứ tự (ordinal) đo cách xếp hàng, hay điểm vô cực trong hình học xạ ảnh. Bài thực hành này mời bạn tự tay **cầm thước đo của Cantor**: dựng các song ánh tường minh, tự viết chứng minh đường chéo để thấy vì sao số thực không đếm được, và giải mã những nghịch lý nổi tiếng bằng chính định nghĩa chính xác.
 
-**Mạch bài học:** Bản đồ kiến thức nền (lý thuyết tập hợp, hệ tiên đề ZFC & bản số/số thứ tự) → Vô hạn tiềm năng vs. vô hạn thực → Khung giải thích chậm: tự tay kiểm tra song ánh cặp Cantor $$\pi(i,j)$$ và bảng đường chéo $$5\times 5$$ → Khách sạn Hilbert & Giả thuyết Continuum → Thí nghiệm & nhật ký.
+**Mạch bài học:** Kiến thức cần nhớ (lý thuyết tập hợp, hệ tiên đề ZFC & bản số/số thứ tự) → Vô hạn tiềm năng vs. vô hạn thực → Giải thích: tự tay kiểm tra song ánh cặp Cantor $$\pi(i,j)$$ và bảng đường chéo $$5\times 5$$ → Khách sạn Hilbert & Giả thuyết Continuum → Thí nghiệm & nhật ký.
 
 ---
 
@@ -35,7 +35,7 @@ Sau bài này, bạn cần:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết tập hợp và Nền tảng toán học là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Lý thuyết tập hợp và Nền tảng toán học là gì, nghiên cứu những gì?
 
 Mọi ngành toán học bạn từng học ở đại học — từ giải tích, đại số tuyến tính đến xác suất — đều đứng trên cùng một nền móng: **Lý thuyết tập hợp (Set Theory)** và **Logic toán / Nền tảng toán học (Foundations of Mathematics)**. Ngành này đứng trên ba trụ cột lớn:
 
@@ -81,7 +81,7 @@ Một tập là **vô hạn đếm được** nếu nó có cùng lực lượng
 
 **Phương pháp đường chéo Cantor.** Giả sử $$f:\mathbb{N}\to\{0,1\}^{\mathbb{N}}$$ liệt kê được mọi dãy nhị phân vô hạn. Dựng dãy $$s$$ với $$s_n=1-f(n)_n$$. Khi đó $$s$$ khác mọi dãy trong danh sách (khác dãy thứ $$n$$ ở vị trí thứ $$n$$). Vậy $$\{0,1\}^{\mathbb{N}}$$ (và do đó $$\mathbb{R}$$) **không đếm được**.
 
-#### Khung giải thích: Cầm tay kiểm tra song ánh cặp Cantor và bảng đường chéo $$5 \times 5$$ (nên đọc chậm)
+#### Giải thích: Cầm tay kiểm tra song ánh cặp Cantor và bảng đường chéo $$5 \times 5$$
 
 Để cảm nhận sự chặt chẽ của Cantor như một phép tính đại số chứ không phải chuyện huyền bí, hãy tự kiểm tra hai bảng số nhỏ sau:
 

@@ -13,7 +13,7 @@ Vào những buổi chiều Chủ nhật thế kỷ XVIII ở thành phố Köni
 
 Khi câu đố ấy được gửi đến **Leonhard Euler** ở St. Petersburg, ban đầu ông nghĩ đây chỉ là một trò tiêu khiển tầm thường không dính dáng gì đến toán học. Nhưng rồi Euler chợt nhận ra: ta chẳng cần đặt chân tới Königsberg, cũng chẳng cần biết cây cầu nào dài bao nhiêu mét hay dòng sông uốn lượn ra sao. Bằng cách **vứt bỏ toàn bộ hình học đo đạc** để chỉ giữ lại các chấm và đoạn nối, Euler không chỉ chứng minh câu đố là bất khả thi vào năm 1736, mà còn khai sinh ra cả một ngành toán học hoàn toàn mới: **lý thuyết đồ thị**.
 
-**Mạch bài học:** Bản đồ kiến thức nền (lý thuyết đồ thị, ma trận kề, bất biến và tôpô sơ khai) → Câu đố lịch sử & trò vẽ một nét → Lập mô hình đa đồ thị → Bậc đỉnh và bổ đề bắt tay → Khung giải thích chậm: tự tay tính ma trận kề $$4\times 4$$ của Königsberg, thêm 1 cây cầu và lắp ráp DNA bằng đồ thị de Bruijn → Điều kiện đủ và bài toán người đưa thư Trung Hoa.
+**Mạch bài học:** Kiến thức cần nhớ (lý thuyết đồ thị, ma trận kề, bất biến và tôpô sơ khai) → Câu đố lịch sử & trò vẽ một nét → Lập mô hình đa đồ thị → Bậc đỉnh và bổ đề bắt tay → Giải thích: tự tay tính ma trận kề $$4\times 4$$ của Königsberg, thêm 1 cây cầu và lắp ráp DNA bằng đồ thị de Bruijn → Điều kiện đủ và bài toán người đưa thư Trung Hoa.
 
 ---
 
@@ -32,7 +32,7 @@ Sau bài này, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết đồ thị, Ma trận kề và Tôpô sơ khai là gì?
+## Kiến thức cần nhớ: Lý thuyết đồ thị, Ma trận kề và Tôpô sơ khai là gì?
 
 Trước năm 1736, nhắc tới hình học là người ta nghĩ ngay đến độ dài, góc đo, diện tích và tọa độ của Euclid hay Descartes. Bài báo của Euler mở ra ba trụ cột tư duy mà mọi sinh viên đại học về khoa học, kỹ thuật hay kinh tế đều sẽ gặp lại:
 
@@ -107,7 +107,7 @@ Có thể nhớ theo Euler: *đếm số đỉnh bậc lẻ; nếu nhiều hơn 
 
 ---
 
-## 4. Khung giải thích: tự tay kiểm tra ma trận kề Königsberg, "xây thêm 1 cầu" và lắp ráp DNA (nên đọc chậm)
+## 4. Giải thích: tự tay kiểm tra ma trận kề Königsberg, "xây thêm 1 cầu" và lắp ráp DNA
 
 Để cảm nhận sức mạnh của việc đại số hóa đồ thị, hãy tự tay tính ba ví dụ cụ thể dưới đây:
 

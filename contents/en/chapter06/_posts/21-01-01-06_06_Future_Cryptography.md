@@ -17,7 +17,7 @@ In 1994, Peter Shor revealed a crack in the foundation: on a sufficiently large 
 
 ---
 
-## Background Knowledge Map: What Is Post-Quantum Cryptography and What Does It Study?
+## Key ideas: What Is Post-Quantum Cryptography and What Does It Study?
 
 With basic linear algebra and modular arithmetic, you can grasp the landscape of **Modern & Post-Quantum Cryptography** through **four pillars**:
 
@@ -85,7 +85,7 @@ Mathematical backbone includes geometry of numbers, algebraic number theory (mod
 
 ---
 
-### Deep-Dive Explanation: Encrypting and Decrypting One Bit with LWE by Hand (Read Slowly)
+### Explanation: Encrypting and Decrypting One Bit with LWE by Hand
 
 Lattice-based post-quantum cryptography (LWE—*Learning With Errors*, the core idea behind NIST’s ML-KEM standard) sounds intimidating, yet its engine is just modular arithmetic plus tiny random noise. Let us run a complete encryption–decryption cycle by hand modulo $$q = 17$$ (note $$\lfloor q/2 \rfloor = 8$$).
 

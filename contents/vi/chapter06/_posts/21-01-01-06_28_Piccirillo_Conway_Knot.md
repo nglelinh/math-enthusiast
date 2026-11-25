@@ -19,7 +19,7 @@ Bài này bóc tách câu chuyện truyền cảm hứng ấy thành đúng cấ
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết nút, Tính slice và Tô pô 4 chiều đứng trên ba trụ cột nào?
+## Kiến thức cần nhớ: Lý thuyết nút, Tính slice và Tô pô 4 chiều đứng trên ba trụ cột nào?
 
 Nếu bạn tốt nghiệp đại học và từng buộc dây giày, bạn có thể nắm ngay ba trụ cột toán học đằng sau định lý của Lisa Piccirillo:
 
@@ -83,7 +83,7 @@ Có nhiều nút slice khác nút tầm thường (chẳng hạn nối nút ba l
 
 **Vì sao $$\Delta=1$$ gây khó.** Các vật cản abel và hầu hết vật cản metabel đều triệt tiêu. Về tính slice tôpô, định lý đĩa của Freedman đã cho câu trả lời khẳng định cho mọi nút có $$\Delta = 1$$; câu hỏi duy nhất còn lại là về tính **trơn**.
 
-### Khung giải thích: tự tay tính đa thức Alexander–Conway và hiểu điểm mù $$\Delta = 1$$ (nên đọc chậm)
+### Giải thích: tự tay tính đa thức Alexander–Conway và hiểu điểm mù $$\Delta = 1$$
 
 Để tự tay chạm vào cách một bất biến nút phát hiện (hoặc bỏ sót!) nút không slice, hãy tính **đa thức Conway $$\nabla_K(z)$$** — phiên bản gọn gàng do chính John Conway tìm ra cho đa thức Alexander (với $$\Delta_K(t) = \nabla_K(t^{1/2} - t^{-1/2})$$). Đa thức này xác định hoàn toàn bằng đúng 3 quy tắc sơ cấp:
 - $$\nabla_{\text{vòng tròn}}(z) = 1$$;

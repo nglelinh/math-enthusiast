@@ -36,7 +36,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Is Birational Algebraic Geometry?
+## Key ideas: What Is Birational Algebraic Geometry?
 
 If your undergraduate background covered linear algebra and multivariable calculus, "algebraic geometry" can sound forbidding. At heart, its core ideas are vivid and geometric.
 
@@ -152,7 +152,7 @@ In 2010, **Birkar, Cascini, Hacon, and McKernan (BCHM)** proved a landmark theor
 
 ---
 
-### Deep-Dive Explanation: How Birkar Proved Boundedness of Fano Varieties (Read Slowly)
+### Explanation: How Birkar Proved Boundedness of Fano Varieties
 
 In dimension 1, there is only one Fano curve ($$\mathbb{P}^1$$). In dimension 2, there are 10 deformation families of smooth Fano (del Pezzo) surfaces. In dimension 3, Mori–Mukai classified smooth Fanos into 105 families. What about dimension $$n$$ when mild ($$\varepsilon$$-klt) singularities are allowed? Could wilder and wilder Fano varieties keep popping up with arbitrarily huge degrees and complexity?
 

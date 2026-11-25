@@ -15,7 +15,7 @@ Rồi vào một ngày tháng 3 năm 2016, **Maryna Viazovska** đăng lên arXi
 
 Điều kỳ diệu nhất của câu chuyện nằm ở cú chuyển ngôn ngữ: thay vì xếp thử vô số quả cầu trong không gian 8 chiều, Viazovska đã dùng **dạng modular** — một công cụ tưởng chỉ sống trong lý thuyết số — để thiết kế một **"hàm kỳ diệu"** trong giải tích Fourier, tự động loại bỏ mọi đối thủ xếp cầu khác chỉ bằng một bất đẳng thức!
 
-**Mạch bài học:** Bản đồ kiến thức nền (tính tay mật độ 2D và đếm đủ 240 vectơ của $$E_8$$, công thức tổng Poisson, dạng modular) → Các chiều đã biết & từ đạn đại bác đến mã 5G → Khung giải thích chậm 4 bước: chặn Cohn–Elkies và cách Viazovska thiết kế "hàm kỳ diệu" → Lưới Leech 24D & tính tối ưu phổ quát.
+**Mạch bài học:** Kiến thức cần nhớ (tính tay mật độ 2D và đếm đủ 240 vectơ của $$E_8$$, công thức tổng Poisson, dạng modular) → Các chiều đã biết & từ đạn đại bác đến mã 5G → Giải thích 4 bước: chặn Cohn–Elkies và cách Viazovska thiết kế "hàm kỳ diệu" → Lưới Leech 24D & tính tối ưu phổ quát.
 
 ---
 
@@ -33,7 +33,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Hình học rời rạc, Lưới $$E_8$$ và Giải tích Fourier
+## Kiến thức cần nhớ: Hình học rời rạc, Lưới $$E_8$$ và Giải tích Fourier
 
 ### 1. Xếp cầu và Mật độ — Tính tay từ 2 chiều lên 8 chiều!
 Xếp các quả cầu đồng nhất bán kính $$r$$ không chồng lên nhau trong $$\mathbb{R}^n$$. Với một **lưới** $$\Lambda$$, mỗi ô cơ sở có thể tích $$\operatorname{Vol}(\mathbb{R}^n/\Lambda)$$ chứa đúng một quả cầu, nên mật độ là $$\delta = \frac{\operatorname{Vol}(B_r)}{\operatorname{Vol}(\mathbb{R}^n/\Lambda)}$$.
@@ -111,7 +111,7 @@ Trong mặt phẳng, lưới ô vuông phủ khoảng 78,5 phần trăm còn cá
 
 ---
 
-## 3. Khung giải thích: Dạng modular đã "khóa chết" bài toán xếp cầu 8 chiều như thế nào? (nên đọc chậm)
+## 3. Giải thích: Dạng modular đã "khóa chết" bài toán xếp cầu 8 chiều như thế nào?
 
 Tại sao một chứng minh dài chỉ hơn 20 trang lại loại trừ được *vô hạn* mọi cách xếp cầu có thể trong 8 chiều? Hãy đọc chậm 4 bước cực kỳ trong sáng dưới đây:
 

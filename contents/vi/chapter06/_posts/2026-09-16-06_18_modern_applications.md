@@ -16,7 +16,7 @@ Nhưng càng đứng gần vùng biên giới, ranh giới giữa **định lý 
 
 ---
 
-## Bản đồ kiến thức nền: Toán ứng dụng biên giới 2022–2026 nằm ở đâu?
+## Kiến thức cần nhớ: Toán ứng dụng biên giới 2022–2026 nằm ở đâu?
 
 Với một người tốt nghiệp đại học quen với tối ưu hóa cổ điển, xác suất thống kê và phương trình vi phân, câu hỏi tự nhiên nhất là: *điều gì nối bốn mảng tưởng chừng rời rạc này — mô hình ngôn ngữ, gấp cuộn protein, mô phỏng chất lỏng, và mật mã học — lại với nhau trong cùng một bài học?*
 
@@ -50,7 +50,7 @@ Hoffmann và cộng sự (2022) nhìn việc huấn luyện trước (pretrainin
 
 Ngược lại, AlphaFold 3 là một hệ thống đã huấn luyện, trong đó mô-đun khuếch tán trực tiếp dựng lên tọa độ 3D của các nguyên tử. Những gì nó khẳng định là các con số đo được trên bộ dữ liệu kiểm tra dạng PDB, không phải suy ra cơ chế vật lý nhiệt động lực học của quá trình protein gấp cuộn từ các nguyên lý đầu tiên.
 
-### Khung giải thích: tối ưu ngân sách Chinchilla bằng giải tích một biến (nên đọc chậm)
+### Giải thích: tối ưu ngân sách Chinchilla bằng giải tích một biến
 
 Khi nghe nói "Chinchilla tối ưu hóa số tham số $$N$$ và số token dữ liệu $$D$$ dưới ngân sách tính toán cố định $$C$$", người đọc dễ tưởng đây là phép toán bí ẩn của siêu máy tính. Thực ra, phần lõi toán học chính là một bài toán cực trị có điều kiện ở giải tích năm nhất — và bạn có thể kiểm tra ngay bằng tay.
 

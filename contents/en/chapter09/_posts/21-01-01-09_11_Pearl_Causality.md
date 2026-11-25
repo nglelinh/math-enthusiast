@@ -23,7 +23,7 @@ After this lecture you should be able to distinguish association (conditioning) 
 
 ---
 
-## Background Knowledge Map: What Are Causal Inference and Probabilistic Graphical Models?
+## Key ideas: What Are Causal Inference and Probabilistic Graphical Models?
 
 Most data-science and machine-learning graduates are comfortable estimating conditional probabilities $$p(y \mid x)$$—for instance, *"given that a shopper bought diapers, what is the probability they buy beer?"* Yet the moment you step into decision-making—*"if we actively cut the price of drug $$X$$, how will recovery rate $$Y$$ change?"*—observational probability $$p(y \mid x)$$ breaks down, because **seeing $$X=x$$** (passive observation) is fundamentally different from **forcing $$X=x$$** (active intervention)!
 
@@ -114,7 +114,7 @@ The reversal vanishes: **Treatment A genuinely beats Treatment B by $$+5.32$$ pe
 
 And in two lines, here is **Rung 3 (Counterfactual)** on a linear SCM $$Y := 2X + U_Y$$ (study hours $$X$$, exam score $$Y$$, student aptitude $$U_Y$$): observing $$X'=1$$ and $$Y'=7$$ fixes $$U_Y = 7 - 2(1) = 5$$ (*abduction*), so *"had this exact student studied $$X=3$$ hours, their score would have been $$Y_{X=3} = 2(3) + 5 = 11$$."*
 
-### Deep-Dive Explanation: Why Intervention Is "Graph Surgery" (Read Slowly)
+### Explanation: Why Intervention Is "Graph Surgery"
 
 1. **Separate *seeing* from *doing*:** computing $$p(Y=1 \mid X=A)$$ filters for patients whom doctors *naturally chose* for A—which leaks information backward up $$Z \to X$$ that they mostly had large stones ($$75.1\%$$).
 2. **Sever all incoming arrows to $$X$$:** performing $$do(X=A)$$ (assigning A to a random patient) **deletes** the arrow $$Z \to X$$ from the graph. Stone size $$Z$$ no longer influences treatment, so $$Z$$'s distribution snaps back to the population mix $$p(Z) = (51\%, 49\%)$$.

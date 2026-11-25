@@ -18,7 +18,7 @@ At the 1986 ICM in Berkeley, **Simon Donaldson** received the **Fields Medal**, 
 
 To understand why 1986 was such a seismic event, place **three pieces** side by side: (1) **Michael Freedman’s** 1982 topological classification of simply connected four-manifolds (for which Freedman shared the 1986 Berkeley Fields stage, including the topological 4D Poincaré conjecture); (2) **Karen Uhlenbeck’s** analytic foundation of compactness, bubbling, and removable singularities for Yang–Mills fields (see [Uhlenbeck / gauge theory]({{ site.baseurl }}/contents/en/chapter08/08_04_Uhlenbeck_Gauge/)); and (3) **Donaldson’s** 1983 gauge-theoretic theorem placing a shocking iron vise on **smooth** intersection forms. It is the **head-on clash** between Freedman’s topological abundance and Donaldson’s smooth rigidity that spawns non-smoothable four-manifolds and exotic $$\mathbb{R}^4$$s. **Seiberg–Witten theory** (Witten, 1994) is a powerful later descendant (see the surrounding culture in [Mathematical physics]({{ site.baseurl }}/contents/en/chapter06/06_11_Mathematical_Physics/)), and the full classification of smooth four-manifolds remains open today.
 
-**Lesson roadmap:** Background Knowledge Map (topological vs. smooth in dimension 4, intersection forms $$Q_X$$, anti-self-dual Yang–Mills) → Hand-verifiable matrix examples: $$\mathbb{CP}^2$$, $$S^2 \times S^2$$, and the $$8 \times 8$$ Cartan matrix of $$E_8$$ → The Freedman (1982) vs. Donaldson (1983) clash → Deep-Dive Explanation (Read Slowly): 4 steps using a 5D instanton moduli space to force $$Q_X$$ to diagonalize → Seiberg–Witten (1994) and later descendants.
+**Lesson roadmap:** Key ideas (topological vs. smooth in dimension 4, intersection forms $$Q_X$$, anti-self-dual Yang–Mills) → Hand-verifiable matrix examples: $$\mathbb{CP}^2$$, $$S^2 \times S^2$$, and the $$8 \times 8$$ Cartan matrix of $$E_8$$ → The Freedman (1982) vs. Donaldson (1983) clash → Explanation: 4 steps using a 5D instanton moduli space to force $$Q_X$$ to diagonalize → Seiberg–Witten (1994) and later descendants.
 
 ---
 
@@ -39,7 +39,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: Four-Manifolds, Intersection Forms, and Gauge Theory
+## Key ideas: Four-Manifolds, Intersection Forms, and Gauge Theory
 
 ### 1. Topological vs. smooth—and why dimension 4 stands alone
 A **topological manifold** only requires continuous coordinates (homeomorphism—stretching clay with creases allowed); a **smooth manifold** requires compatible differentiable coordinates everywhere (diffeomorphism).
@@ -101,7 +101,7 @@ When you stage that exact same clash at the open ends of a smooth K3 surface (wh
 
 ---
 
-## 2. Deep-Dive Explanation: How Do the Yang–Mills Equations Force $$Q_X$$ to Diagonalize? (Read Slowly)
+## 2. Explanation: How Do the Yang–Mills Equations Force $$Q_X$$ to Diagonalize?
 
 Why should a particle-physics PDE ($$F_A^+ = 0$$) know anything about an integer matrix on $$H_2(X;\mathbb{Z})$$? Follow the four extraordinary steps of Donaldson’s 1983 proof:
 

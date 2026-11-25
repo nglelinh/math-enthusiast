@@ -35,7 +35,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết phương trình vi phân là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Lý thuyết phương trình vi phân là gì và nghiên cứu những gì?
 
 Khi giải một phương trình đại số như $$x^2 - 5x + 6 = 0$$, đáp án là vài con số cụ thể. Khi giải một **phương trình vi phân (differential equation)**, ẩn số là **cả một hàm số** $$x(t)$$ hoặc một trường $$u(x,y,z,t)$$ mô tả toàn bộ lịch sử tiến hóa của hệ thống.
 
@@ -129,7 +129,7 @@ Vì phần lớn phương trình thực tế không giải được bằng bút 
 - **Rời rạc hóa không gian cho PDE:** sai phân hữu hạn, thể tích hữu hạn, phần tử hữu hạn (FEM), phương pháp phổ — tất cả đưa về hệ đại số tuyến tính cỡ lớn ([Đại số tuyến tính]({{ site.baseurl }}/contents/vi/chapter03/03_03_Linear_Algebra_AI/)).
 - **Điều kiện ổn định CFL (Courant–Friedrichs–Lewy):** với phương trình sóng truyền tốc độ $$c$$ trên lưới không gian $$\Delta x$$ và bước thời gian $$\Delta t$$, sơ đồ hiện bắt buộc thỏa $$\frac{c\,\Delta t}{\Delta x} \le 1$$. Trực giác cực kỳ tự nhiên: *trong một nhịp đồng hồ $$\Delta t$$, sóng vật lý không được phép chạy vọt qua quá một ô lưới $$\Delta x$$*, nếu không thuật toán số sẽ "không kịp nhìn thấy" sóng và nghiệm lập tức nổ tung!
 
-### Ví dụ cầm tay chỉ việc: Vì sao Euler hiện bị "nổ" còn Euler ẩn lại sống sót?
+### Ví dụ làm từng bước: Vì sao Euler hiện bị "nổ" còn Euler ẩn lại sống sót?
 
 Xét phương trình phân rã cực đơn giản $$\dot{y} = -10y$$ với $$y(0) = 1$$ (nghiệm đúng là $$y(t) = e^{-10t}$$, luôn dương và giảm êm về $$0$$). Hãy thử mô phỏng bằng máy tính với bước thời gian $$\Delta t = 0{,}25$$:
 
@@ -144,7 +144,7 @@ y_0 = 1 \;\to\; y_1 \approx 0{,}286 \;\to\; y_2 \approx 0{,}082 \;\to\; y_3 \app
 $$
 Dù dùng đúng bước $$\Delta t = 0{,}25$$ lớn như nhau, Euler ẩn vẫn **ổn định tuyệt đối**, giữ nguyên tính dương và tắt về 0! Đó là lý do mọi phần mềm mô phỏng mạch điện và hóa học (các hệ cứng có thang thời gian chênh nhau $$10^6$$ lần) đều bắt buộc dùng bộ giải ẩn.
 
-### Khung giải thích: Tại sao một mô phỏng PDE trên siêu máy tính vẫn có thể sai? (nên đọc chậm)
+### Giải thích: Tại sao một mô phỏng PDE trên siêu máy tính vẫn có thể sai?
 
 1. **Sai tầng mô hình & loại phương trình:** chọn sai định luật vật lý hoặc nhầm điều kiện biên thì lời giải có hội tụ mượt đến mấy vẫn mô tả một thế giới không có thật.
 2. **Bỏ qua tính đặt chỉnh Hadamard:** với bài toán ngược không đặt chỉnh (như chạy ngược phương trình nhiệt), lưới càng mịn thì nhiễu đo đạc càng bị khuếch đại khủng khiếp nếu không có chính quy hóa.

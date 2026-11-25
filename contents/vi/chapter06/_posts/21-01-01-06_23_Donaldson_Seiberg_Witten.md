@@ -15,7 +15,7 @@ Năm 1982, khi vẫn còn là nghiên cứu sinh năm hai ở Oxford, Simon Dona
 
 ---
 
-## Bản đồ kiến thức nền: Tô pô vi phân 4 chiều và Lý thuyết Donaldson–Seiberg–Witten nghiên cứu những gì?
+## Kiến thức cần nhớ: Tô pô vi phân 4 chiều và Lý thuyết Donaldson–Seiberg–Witten nghiên cứu những gì?
 
 Với nền tảng đại số tuyến tính (dạng toàn phương, ma trận đối xứng) và giải tích nhiều biến (hàm khả vi trơn $$C^\infty$$), bạn có thể hiểu trọn vẹn ba trụ cột làm nên cuộc cách mạng tô pô 4 chiều:
 
@@ -51,7 +51,7 @@ Sau bài học, bạn có thể:
 
 Cũng chính khoảng cách giữa *trơn* và *tô pô* này làm cho câu hỏi **một nút có là nút lát (slice) hay không** trở nên cực kỳ tinh tế: một nút trong $$S^3$$ có thể là biên của một đĩa tô pô phẳng cục bộ trong quả cầu 4 chiều $$B^4$$, nhưng lại không bao giờ là biên của bất kỳ đĩa *trơn* nào. Xem câu chuyện nổi tiếng này trong bài [Piccirillo và nút Conway]({{ site.baseurl }}/contents/vi/chapter06/06_28_Piccirillo_Conway_Knot/).
 
-### Khung giải thích: tự tay kiểm tra cú sốc giữa Freedman và Donaldson qua dạng giao $$E_8$$ (nên đọc chậm)
+### Giải thích: tự tay kiểm tra cú sốc giữa Freedman và Donaldson qua dạng giao $$E_8$$
 
 Để thấy sức mạnh của định lý Donaldson chỉ bằng đại số tuyến tính năm nhất, hãy xem ví dụ kinh điển nhất lịch sử tô pô 4 chiều:
 

@@ -23,7 +23,7 @@ After this lecture you should be able to explain why Hopcroft–Tarjan represent
 
 ---
 
-## Background Knowledge Map: What Are Algorithmic Graph Theory and Amortized Analysis?
+## Key ideas: What Are Algorithmic Graph Theory and Amortized Analysis?
 
 To many computer science undergraduates, **depth-first search (DFS)** looks like ten lines of recursion for visiting nodes. In the hands of **Algorithmic Graph Theory**, however, DFS is a **structural X-ray machine**: in a single $$O(n+m)$$ pass touching each vertex and edge once, it exposes every cycle, single point of failure (bridges and articulation points), and mutually reachable cluster (strongly connected components) in a million-node network—work that compilers, package managers (`npm`/`pip`), and routers execute every second.
 
@@ -120,7 +120,7 @@ Efficient graph algorithms depend on **data structures** that support operations
 
 **Amortized analysis** is a mathematical culture: bound total cost of a sequence of operations, not each operation in isolation. Potential functions make the accounting resemble energy in physics—another place algorithms feel like pure math.
 
-### Deep-Dive Explanation: Why Amortized Analysis Proves Union–Find Is Nearly $$O(1)$$ (Read Slowly)
+### Explanation: Why Amortized Analysis Proves Union–Find Is Nearly $$O(1)$$
 
 1. **Separate single-step cost from sequence cost:** a single `Find(x)` climbing a deep branch may take many steps, yet while doing so, **path compression** rewires every node on that path straight to the root—making *every subsequent lookup* virtually free!
 2. **Treat a potential function $$\Phi$$ as a savings account:** define amortized cost $$\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})$$. Cheap operations slightly raise $$\Phi$$ (depositing savings); rare expensive compressions drop $$\Phi$$ sharply (withdrawing savings to cover the cost).

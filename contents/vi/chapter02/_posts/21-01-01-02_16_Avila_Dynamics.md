@@ -13,7 +13,7 @@ Hãy thử lấy một công thức bậc hai đơn giản hết mức: $$x_{n+1
 
 Câu trả lời của **Artur Avila** — người Brazil và người Mỹ Latinh đầu tiên nhận **Huy chương Fields (2014)** — nằm ở một "chiếc kính hiển vi đổi thang" đầy quyền năng gọi là **tái chuẩn hóa** (*renormalization*). Theo lời trích dẫn của IMU, giải thưởng ghi nhận *"những đóng góp sâu sắc cho lý thuyết hệ động lực, đã làm thay đổi diện mạo của lĩnh vực, lấy ý tưởng mạnh mẽ của tái chuẩn hóa làm nguyên lý thống nhất."* Avila không phát minh ra tái chuẩn hóa (trước ông đã có Wilson trong vật lý, Feigenbaum, Sullivan, và trường phái động lực một chiều ở Brazil–Pháp), nhưng ông đã biến nó thành ngôn ngữ chung để giải quyết hàng loạt bài toán nổi tiếng ở ba vùng đất khác nhau: ánh xạ một chiều, **toán tử Schrödinger tựa tuần hoàn** (bài toán *Ten Martini* cùng Svetlana Jitomirskaya), và **động lực Teichmüller** (cùng Forni, Viana…).
 
-**Mạch bài học:** Bản đồ kiến thức nền (tính tay ánh xạ logistic nhân đôi chu kỳ và viết ma trận cocycle $$2\times 2$$ cho toán tử almost Mathieu) → Lịch sử tái chuẩn hóa → Khung giải thích chậm 4 bước: tái chuẩn hóa thống nhất ánh xạ 1 chiều, bài toán Ten Martini và dòng Teichmüller → Ghi nhận công lao các cộng sự.
+**Mạch bài học:** Kiến thức cần nhớ (tính tay ánh xạ logistic nhân đôi chu kỳ và viết ma trận cocycle $$2\times 2$$ cho toán tử almost Mathieu) → Lịch sử tái chuẩn hóa → Giải thích 4 bước: tái chuẩn hóa thống nhất ánh xạ 1 chiều, bài toán Ten Martini và dòng Teichmüller → Ghi nhận công lao các cộng sự.
 
 ---
 
@@ -32,7 +32,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Hệ động lực, Tái chuẩn hóa và Cocycle ma trận $$2\times 2$$
+## Kiến thức cần nhớ: Hệ động lực, Tái chuẩn hóa và Cocycle ma trận $$2\times 2$$
 
 ### 1. Hệ động lực & Nhân đôi chu kỳ — Tự tính tay trên ánh xạ logistic $$f_r(x) = rx(1-x)$$
 Xét quy tắc lặp $$x_{n+1} = f_r(x_n) = r x_n (1 - x_n)$$ trên $$[0, 1]$$. Điểm cố định khác 0 thỏa $$x^* = rx^*(1-x^*) \implies x^* = 1 - \frac{1}{r}$$, và độ ổn định quyết định bởi đạo hàm $$f_r'(x^*) = r(1 - 2x^*) = 2 - r$$:
@@ -63,7 +63,7 @@ Cắt đoạn thẳng $$[0, 1]$$ thành $$m$$ đoạn con độ dài $$(\ell_1, 
 
 ---
 
-## 1. Khung giải thích: "Kính hiển vi tái chuẩn hóa" của Avila hoạt động qua 4 bước như thế nào? (nên đọc chậm)
+## 1. Giải thích: "Kính hiển vi tái chuẩn hóa" của Avila hoạt động qua 4 bước như thế nào?
 
 Tại sao cùng một ý tưởng tái chuẩn hóa lại mở khóa được cả ba thế giới tưởng rất khác nhau (ánh xạ 1D, phổ lượng tử và bi-a đa giác)? Hãy đi chậm qua 4 bước:
 

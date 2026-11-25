@@ -15,7 +15,7 @@ Bước ngoặt đến từ một nhân vật có hành trình không giống ai
 
 Bài khảo sát này làm hai việc: dựng **bản đồ 5 cây cầu** giữa tổ hợp hiện đại với hình học–giải tích, và đi sâu vào cú chuyển ngôn ngữ ngoạn mục của **June Huh** từ bài toán đếm sang lý thuyết Hodge và đa thức Lorentz.
 
-**Mạch bài học:** Bản đồ kiến thức nền (tính tay đa thức sắc số $$K_3, K_4$$, ví dụ matroid từ 3 vectơ trong $$\mathbb{R}^2$$) → Khung giải thích chậm 4 bước về đột phá của June Huh (Hodge tổ hợp & đa thức Lorentz) → 5 cây cầu lớn của tổ hợp–hình học hiện đại → Bản đồ nối các bài Fields trong Chương 2.
+**Mạch bài học:** Kiến thức cần nhớ (tính tay đa thức sắc số $$K_3, K_4$$, ví dụ matroid từ 3 vectơ trong $$\mathbb{R}^2$$) → Giải thích 4 bước về đột phá của June Huh (Hodge tổ hợp & đa thức Lorentz) → 5 cây cầu lớn của tổ hợp–hình học hiện đại → Bản đồ nối các bài Fields trong Chương 2.
 
 ---
 
@@ -32,7 +32,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Tổ hợp hiện đại, Matroid và Tính lõm loga là gì?
+## Kiến thức cần nhớ: Tổ hợp hiện đại, Matroid và Tính lõm loga là gì?
 
 ### 1. Tổ hợp hiện đại (Modern Combinatorics) nghiên cứu gì?
 Không chỉ là đếm tổ hợp–chỉnh hợp ở trường phổ thông, tổ hợp hiện đại nghiên cứu **quy luật cực trị và cấu trúc ẩn** trong các tập rời rạc khổng lồ: đồ thị, mạng lưới, cấu hình điểm–đường thẳng, tập số nguyên. Điểm đặc trưng của thế kỷ XXI là các bài toán thuần túy tổ hợp lại thường được giải bằng **hình học đại số, giải tích Fourier và lý thuyết phổ**.
@@ -62,7 +62,7 @@ Bây giờ nhìn lại 3 cạnh $$\{e_1, e_2, e_3\}$$ của tam giác $$K_3$$: t
 
 ---
 
-## 1. Khung giải thích: June Huh đã mang Lý thuyết Hodge vào Tổ hợp như thế nào? (nên đọc chậm)
+## 1. Giải thích: June Huh đã mang Lý thuyết Hodge vào Tổ hợp như thế nào?
 
 Làm thế nào một bất đẳng thức đếm như $$a_k^2 \ge a_{k-1} a_{k+1}$$ lại được giải bằng hình học đại số phức — thậm chí cho cả những matroid không hề có đa tạp hình học nào đi kèm? Hãy đọc chậm 4 bước của cuộc cách mạng này:
 

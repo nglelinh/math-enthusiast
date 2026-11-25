@@ -19,7 +19,7 @@ Năm 1917, nhà toán học Nhật Bản Sōichi Kakeya đặt ra một câu h�
 
 Thế rồi Abram Besicovitch xuất hiện và làm đảo lộn hoàn toàn trực giác ấy: trong mặt phẳng, tồn tại những tập hợp chứa đủ một đoạn thẳng dài 1 theo **mọi** hướng nhưng có **diện tích (độ đo Lebesgue) bằng đúng 0**! Cú sốc chưa dừng lại ở đó: dù diện tích bằng 0, một tập như vậy vẫn "rậm rạp" đến mức mang **số chiều Hausdorff bằng trọn vẹn 2**. Bài thực hành này mời bạn bước vào phòng thí nghiệm của nghịch lý ấy — không phải để chép lại chứng minh dài hơn một trăm trang của Wang–Zahl (2025), mà để tự tay **vẽ, lập mô phỏng, đo đạc, vấp ngã và chỉnh sửa lại** chính khái niệm "nhỏ" trong đầu mình, giữ kỷ luật phân biệt rạch ròi giữa giả thuyết, cách dựng, quan sát bằng số và định lý.
 
-**Mạch bài học:** Bản đồ kiến thức nền (GMT, số chiều Hausdorff/Minkowski, giải tích điều hòa & ống $$\delta$$) → Cây kim quay và tập Besicovitch → Khung giải thích chậm: tự tay tính diện tích cắt–trượt tam giác Perron → Số chiều khác độ đo và trạng thái chiều 2/3/$$\ge 4$$ → Thiết kế thí nghiệm & nhật ký.
+**Mạch bài học:** Kiến thức cần nhớ (GMT, số chiều Hausdorff/Minkowski, giải tích điều hòa & ống $$\delta$$) → Cây kim quay và tập Besicovitch → Giải thích: tự tay tính diện tích cắt–trượt tam giác Perron → Số chiều khác độ đo và trạng thái chiều 2/3/$$\ge 4$$ → Thiết kế thí nghiệm & nhật ký.
 
 ---
 
@@ -38,7 +38,7 @@ Sau bài thực hành, bạn cần:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết độ đo hình học và Giải tích điều hòa là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Lý thuyết độ đo hình học và Giải tích điều hòa là gì, nghiên cứu những gì?
 
 Nếu bạn vừa tốt nghiệp đại học ngành kỹ thuật hay khoa học tự nhiên, bạn đã quen đo độ dài, diện tích và thể tích bằng tích phân Riemann hoặc Lebesgue. Nhưng khi gặp những tập hợp mỏng tang như bụi Cantor hay tập Besicovitch, độ đo thông thường đều trả về con số $$0$$ bất lực. Đó là lúc ba trụ cột toán học đứng sau bài toán Kakeya bước lên sân khấu:
 
@@ -57,7 +57,7 @@ Tập Kakeya còn cực đoan hơn: diện tích bằng 0, nhưng số chiều H
 
 ### 2. Giải tích điều hòa (Harmonic Analysis) và cầu nối "ống $$\delta$$"
 
-Giải tích điều hòa phân tích sóng và hàm số nhiều biến thành chồng chập các sóng phẳng $$e^{2\pi i x \cdot \xi}$$ (biến đổi Fourier). Vì sao bài toán xoay cây kim lại là bài toán sống còn của giải tích điều hòa? Theo nguyên lý bất định, một gói sóng có tần số tập trung trong một đĩa nhỏ trên mặt cầu tần số sẽ tập trung năng lượng trong không gian dọc theo một **ống mỏng dài 1, bán kính $$\delta$$** (gọi là **$$\delta$$-tube**), định hướng theo phương truyền sóng. Khi nhiều gói sóng từ mọi hướng giao thoa với nhau (như trong bài toán hạn chế Fourier hay phương trình sóng), câu hỏi *"năng lượng sóng có thể cộng hưởng bất thường tại một điểm không?"* dịch thẳng sang câu hỏi hình học: *nếu xếp hàng loạt ống $$\delta$$ theo mọi hướng phân biệt, chúng có thể chồng lấn lên nhau chặt đến mức nào?*
+Giải tích điều hòa phân tích sóng và hàm số nhiều biến thành chồng chập các sóng phẳng $$e^{2\pi i x \cdot \xi}$$ (biến đổi Fourier). Vì sao bài toán xoay cây kim lại là bài toán quan trọng của giải tích điều hòa? Theo nguyên lý bất định, một gói sóng có tần số tập trung trong một đĩa nhỏ trên mặt cầu tần số sẽ tập trung năng lượng trong không gian dọc theo một **ống mỏng dài 1, bán kính $$\delta$$** (gọi là **$$\delta$$-tube**), định hướng theo phương truyền sóng. Khi nhiều gói sóng từ mọi hướng giao thoa với nhau (như trong bài toán hạn chế Fourier hay phương trình sóng), câu hỏi *"năng lượng sóng có thể cộng hưởng bất thường tại một điểm không?"* dịch thẳng sang câu hỏi hình học: *nếu xếp hàng loạt ống $$\delta$$ theo mọi hướng phân biệt, chúng có thể chồng lấn lên nhau chặt đến mức nào?*
 
 ### 3. Bức tranh lịch sử từ Besicovitch (1919) đến Wang–Zahl (2025)
 
@@ -79,7 +79,7 @@ Hai bài toán này liên quan nhưng không giống nhau. Có những vùng cho
 
 Độ dài mỗi đoạn luôn bằng 1. Nhưng ta có thể **dùng chung các điểm** cho nhiều hướng và lấy giới hạn kiểu fractal của các lân cận rất mỏng. Một hình chữ nhật dài 1, rộng $$\delta$$ có diện tích cỡ $$\delta$$. Khi $$\delta\to 0$$ diện tích tiến về 0, nhưng ta lại cần vô hạn hướng. Cái khéo của Besicovitch là dùng lại không gian bằng cách cắt và trượt lặp đi lặp lại.
 
-#### Khung giải thích: Tự tay tính một bước cắt–trượt cây Perron (nên đọc chậm)
+#### Giải thích: Tự tay tính một bước cắt–trượt cây Perron
 
 Để tin hoàn toàn rằng việc cắt và trượt thực sự *giảm diện tích mà không làm mất bất kỳ hướng nào*, hãy lấy giấy bút kiểm tra từng tọa độ của phép biến đổi đơn giản nhất:
 

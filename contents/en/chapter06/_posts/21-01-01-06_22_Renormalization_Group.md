@@ -15,7 +15,7 @@ The answer is one of the deepest ideas of twentieth-century mathematical physics
 
 ---
 
-## Background Knowledge Map: What Three Pillars Underlie the Renormalization Group?
+## Key ideas: What Three Pillars Underlie the Renormalization Group?
 
 If you have seen dynamical systems and probability as an undergraduate, you have already met the spirit of RG in disguise:
 
@@ -70,7 +70,7 @@ Wilson’s RG (critical phenomena, 1970s) proceeds roughly as:
 3. Rescale lengths so the lattice unit is restored.  
 4. Read the new effective couplings $$g'$$ as a map $$g\mapsto R(g)$$.  
 
-### Deep-Dive Explanation: Running an Exact RG Step by Hand on the 1D Ising Model (Read Slowly)
+### Explanation: Running an Exact RG Step by Hand on the 1D Ising Model
 
 Rather than talking abstractly about "blocking spins," let us compute the **exact** RG map $$K \mapsto K'$$ for a 1D chain of Ising spins $$\sigma_i \in \{+1, -1\}$$ with nearest-neighbor coupling $$K = \beta J > 0$$:
 

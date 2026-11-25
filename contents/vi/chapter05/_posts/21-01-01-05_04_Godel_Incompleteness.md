@@ -15,7 +15,7 @@ Tháng 9 năm 1930, tại thành phố Königsberg — chính quê hương của
 
 **Các định lý bất toàn của Gödel** (1931) không nói rằng "toán học bị hỏng" hay "không gì chứng minh được". Điều chúng khẳng định sắc bén hơn nhiều: mọi hệ tiên đề hình thức đủ mạnh để làm số học sơ cấp, có tập tiên đề cho được một cách hiệu quả, và nhất quán thì **luôn bất toàn** (tồn tại những mệnh đề mà hệ không chứng minh cũng không bác bỏ được), và hệ đó cũng **không thể tự chứng minh tính nhất quán của chính mình** bằng các công cụ bên trong nó.
 
-**Mạch bài học:** Bản đồ kiến thức nền (logic toán, cú pháp vs. ngữ nghĩa, hệ hình thức PA/ZFC) → Lý thuyết hình thức và phát biểu hai định lý → Khung giải thích chậm: tự tay mã hóa và giải mã số Gödel ($$270$$ và $$808\,500$$) → Từ Nghịch lý Kẻ Nói Dối đến câu tự quy chiếu $$G$$ → Định lý thứ hai → Họ hàng phương pháp đường chéo (Cantor, Turing, Gödel).
+**Mạch bài học:** Kiến thức cần nhớ (logic toán, cú pháp vs. ngữ nghĩa, hệ hình thức PA/ZFC) → Lý thuyết hình thức và phát biểu hai định lý → Giải thích: tự tay mã hóa và giải mã số Gödel ($$270$$ và $$808\,500$$) → Từ Nghịch lý Kẻ Nói Dối đến câu tự quy chiếu $$G$$ → Định lý thứ hai → Họ hàng phương pháp đường chéo (Cantor, Turing, Gödel).
 
 ---
 
@@ -34,7 +34,7 @@ Sau bài này, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Logic toán, Chứng minh hình thức và Tính tính toán được là gì?
+## Kiến thức cần nhớ: Logic toán, Chứng minh hình thức và Tính tính toán được là gì?
 
 Nhiều sinh viên tốt nghiệp đại học từng nghe về Định lý Gödel qua các bài viết phổ thông nhưng vẫn thấy mơ hồ vì thiếu ba trụ cột của **Logic toán (Mathematical Logic)**:
 
@@ -76,7 +76,7 @@ Dưới các giả thiết tương tự, nếu $$T$$ nhất quán thì $$T$$ kh�
 
 ---
 
-## 3. Khung giải thích: tự tay mã hóa công thức thành số Gödel (nên đọc chậm)
+## 3. Giải thích: tự tay mã hóa công thức thành số Gödel
 
 Ý tưởng lớn thứ nhất của Gödel là **số hóa cú pháp** (Gödel numbering): biến mọi ký hiệu, mọi công thức và thậm chí cả một bản chứng minh dài nhiều dòng thành **một con số tự nhiên duy nhất**. Để thấy rõ không hề có phép thuật nào ở đây, hãy tự tay lập một bảng mã mini và tính trực tiếp:
 

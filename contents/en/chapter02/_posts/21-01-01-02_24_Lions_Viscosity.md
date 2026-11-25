@@ -13,7 +13,7 @@ Try solving a first-order differential equation that looks like a freshman calcu
 
 That innocent puzzle sparked a revolution in late-twentieth-century nonlinear analysis. At ICM Zürich in 1994, **Pierre-Louis Lions** received the **Fields Medal**—not for one isolated conjecture, as S. R. S. Varadhan’s ICM lecture made clear, but for an extraordinary **portfolio** spanning probability and nonlinear PDE, consistently driven by real-world applications. Its flagship language is **viscosity solutions**—pioneered by **Crandall and Lions** (1983), widened by **Evans**, **Ishii**, and **Souganidis**, and codified for second-order fully nonlinear equations in the classic **Crandall–Ishii–Lions** *User’s Guide* (1992). Beside it stand two other towering pillars: **DiPerna–Lions** theory (Boltzmann and transport equations) and the **concentration-compactness principle**. We also keep two boundaries sharp: Lions did **not** solve the Clay 3D incompressible Navier–Stokes problem, and **mean field games** (Lasry–Lions, 2006) are a major *later* development, not part of the 1994 citation.
 
-**Lesson roadmap:** Background Knowledge Map (fully nonlinear PDEs vs. distributional solutions) → Hand-verifiable worked example: testing the eikonal tent $$\vert u'(x)\vert - 1 = 0$$ with touching test functions and the vanishing-viscosity limit $$-\varepsilon u''$$ → Deep-Dive Explanation (Read Slowly): 4 steps from test-function touching to the comparison principle and stability → Other pillars (DiPerna–Lions & concentration-compactness) → What the 1994 medal is not.
+**Lesson roadmap:** Key ideas (fully nonlinear PDEs vs. distributional solutions) → Hand-verifiable worked example: testing the eikonal tent $$\vert u'(x)\vert - 1 = 0$$ with touching test functions and the vanishing-viscosity limit $$-\varepsilon u''$$ → Explanation: 4 steps from test-function touching to the comparison principle and stability → Other pillars (DiPerna–Lions & concentration-compactness) → What the 1994 medal is not.
 
 ---
 
@@ -34,7 +34,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Are Fully Nonlinear PDEs and Maximum-Principle Weak Solutions?
+## Key ideas: What Are Fully Nonlinear PDEs and Maximum-Principle Weak Solutions?
 
 ### 1. Why integration by parts fails
 For a linear PDE like Laplace’s equation $$-\Delta u = f$$, if $$u$$ is not $$C^2$$ we multiply by a smooth test function $$\varphi$$ and integrate by parts: $$\int \nabla u \cdot \nabla\varphi = \int f\varphi$$. But in **Hamilton–Jacobi equations** $$u_t + H(x, \nabla u) = 0$$ (optimal control, geometric optics) or **fully nonlinear second-order PDEs** $$F(x, u, \nabla u, D^2 u) = 0$$ (Hamilton–Jacobi–Bellman, Monge–Ampère $$\det D^2 u = f$$), the derivatives of $$u$$ sit trapped inside nonlinear functions—**integration by parts is useless!**
@@ -68,7 +68,7 @@ Consider $$F(u') = \vert u'(x) \vert - 1 = 0$$ on $$[-1, 1]$$ with $$u(-1) = u(1
 
 ---
 
-## 2. Deep-Dive Explanation: How Viscosity Theory Works for Second-Order PDEs (Read Slowly)
+## 2. Explanation: How Viscosity Theory Works for Second-Order PDEs
 
 Following the 1983 Hamilton–Jacobi foundation (**Crandall–Lions**) and extensions by **Evans**, **Ishii**, and **Souganidis**, the second-order theory was organized in the famous **Crandall–Ishii–Lions** *User’s Guide* (*Bull. Amer. Math. Soc.* 1992; [arXiv:math/9207212](https://arxiv.org/abs/math/9207212)) in four steps:
 

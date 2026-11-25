@@ -30,7 +30,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Mật mã học chứng minh được và Hệ chứng minh tương tác là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Mật mã học chứng minh được và Hệ chứng minh tương tác là gì, nghiên cứu những gì?
 
 Nếu bạn đã quen với các định lý truyền thống trong toán học — nơi "chứng minh" là một văn bản tĩnh viết sẵn trên giấy, đọc từ trên xuống dưới — thì trường phái Goldwasser–Micali sẽ mở rộng hoàn toàn cách bạn hiểu về **an ninh** và **chứng minh**:
 
@@ -70,7 +70,7 @@ Số $$a$$ là **quadratic residue** modulo $$n$$ nếu $$\gcd(a,n)=1$$ và tồ
   Nếu $$b=0$$, $$c$$ là residue; nếu $$b=1$$, $$c$$ là non-residue (loại Jacobi $$+1$$). Nhờ có số ngẫu nhiên $$r$$ mới ở mỗi lần mã hóa, cùng một bit `0` sẽ sinh ra hàng loạt bản mã $$c$$ hoàn toàn khác nhau!
 - Giải bằng cửa sập $$p,q$$: kiểm tra residuality modulo $$p$$ và $$q$$ (hoặc tương đương).
 
-### Ví dụ cầm tay chỉ việc: Mã hóa xác suất và nhân đồng cấu XOR trên hệ mật Goldwasser–Micali ($$N = 15$$)
+### Ví dụ làm từng bước: Mã hóa xác suất và nhân đồng cấu XOR trên hệ mật Goldwasser–Micali ($$N = 15$$)
 
 Chọn $$p = 3,\ q = 5 \implies N = 15$$. Các số bình phương (thặng dư bậc hai) modulo $$3$$ chỉ có $$\{1\}$$; modulo $$5$$ chỉ có $$\{1, 4\}$$.
 1. **Chọn khóa công khai $$z = 2$$:** vì $$2 \not\equiv 1 \pmod 3$$ và $$2 \notin \{1,4\} \pmod 5$$, ta có ký hiệu Legendre $$(2/3)=-1,\ (2/5)=-1 \implies$$ ký hiệu Jacobi $$(2/15)=(-1)(-1)=+1$$. Vậy $$z=2$$ là phi thặng dư "ngụy trang" hoàn hảo!
@@ -95,7 +95,7 @@ Chọn $$p = 3,\ q = 5 \implies N = 15$$. Các số bình phương (thặng dư 
 2. **Soundness:** nếu statement sai, mọi prover gian (dù mạnh) bị từ chối với xác suất cao (hoặc knowledge soundness: có thể trích witness).  
 3. **Zero-knowledge:** verifier không học gì *ngoài* tính đúng của statement—formal qua **simulator**: mọi thứ verifier thấy có thể mô phỏng mà không cần witness.
 
-### Khung giải thích: Ba trụ cột biến "chứng minh" thành giao thức Zero-Knowledge (nên đọc chậm)
+### Giải thích: Ba trụ cột biến "chứng minh" thành giao thức Zero-Knowledge
 
 1. **Cam kết trước khi bị hỏi (Commitment):** ở mỗi vòng, người chứng minh (Peggy) xáo trộn ngẫu nhiên 3 màu bí mật của đồ thị rồi khóa màu từng đỉnh vào các hộp kín gửi cho Victor — nhờ vậy Peggy không thể đổi màu sau khi biết Victor hỏi cạnh nào.
 2. **Thách thức ngẫu nhiên để bẫy kẻ gian (Soundness):** Victor chọn ngẫu nhiên 1 cạnh $$(u,v)$$ trong $$\lvert E\rvert$$ cạnh và yêu cầu mở 2 hộp đầu mút. Nếu Peggy gian dối (đồ thị không tô được 3 màu), phải có ít nhất 1 cạnh cùng màu nên xác suất bị bắt mỗi vòng ít nhất $$1/\lvert E\rvert$$; lặp $$20\lvert E\rvert$$ vòng khiến xác suất lọt lưới giảm xuống $$e^{-20} < 10^{-8}$$!

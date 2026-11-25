@@ -30,7 +30,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết tính toán được (Computability Theory) là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Lý thuyết tính toán được (Computability Theory) là gì và nghiên cứu những gì?
 
 Khi lập trình, bạn có bao giờ tự hỏi: *Tại sao không ai viết nổi một công cụ kiểm tra mã nguồn (linter) có thể đảm bảo 100% rằng bất kỳ chương trình Python nào đưa vào sẽ không bao giờ bị treo vào vòng lặp vô hạn?* Câu trả lời không phải vì lập trình viên chưa đủ giỏi hay máy tính chưa đủ nhanh — mà là một **định luật bất khả thi** của **Lý thuyết tính toán được (Computability Theory / Recursion Theory)**.
 
@@ -55,7 +55,7 @@ Turing chọn hình ảnh máy với:
 
 Máy bắt đầu trên input hữu hạn, chạy theo bảng chuyển. Nó có thể **dừng** với output, hoặc **chạy mãi**. Một ngôn ngữ $$L\subseteq\{0,1\}^*$$ **quyết định được** nếu có máy luôn dừng và chấp nhận đúng các xâu thuộc $$L$$. Một hàm **tính được** nếu có máy, trên mọi input hợp lệ, dừng và in giá trị đúng.
 
-### Ví dụ cầm tay chỉ việc 1: Tự chạy một Máy Turing cộng 1 vào số nhị phân `1011` ($$11 \to 12$$)
+### Ví dụ làm từng bước 1: Tự chạy một Máy Turing cộng 1 vào số nhị phân `1011` ($$11 \to 12$$)
 
 Ta thiết kế một máy Turing chỉ có **3 trạng thái** (`TìmCuối`, `CộngNhớ`, `Dừng`) để cộng 1 vào bất kỳ số nhị phân nào:
 - Ở trạng thái `TìmCuối`: gặp `0` hoặc `1` thì giữ nguyên, dịch **Phải**; gặp ô trống `_` thì dịch **Trái** và đổi sang `CộngNhớ`.
@@ -93,7 +93,7 @@ Hệ quả triết học–toán: lớp hàm tính được **không** phụ thu
 **Định lý (Turing).** Không tồn tại máy Turing $$H$$ quyết định đúng bài toán dừng cho mọi cặp $$(\langle M\rangle, x)$$.
 </div>
 
-### Ví dụ cầm tay chỉ việc 2 & Khung giải thích: Mạch 4 bước chứng minh Bài toán Dừng bằng bảng đường chéo (nên đọc chậm)
+### Ví dụ làm từng bước 2 & Giải thích: Mạch 4 bước chứng minh Bài toán Dừng bằng bảng đường chéo
 
 Hãy tưởng tượng ta liệt kê tất cả các chương trình hợp lệ trên đời thành từng hàng $$M_1, M_2, M_3, \dots$$ và cho mỗi chương trình chạy thử với đầu vào là chính mã nguồn của các chương trình khác:
 

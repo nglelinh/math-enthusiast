@@ -38,7 +38,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Is Symplectic Topology?
+## Key ideas: What Is Symplectic Topology?
 
 If you met Euclidean geometry (lengths and angles) and differential topology (stretching rubber sheets), **symplectic geometry** sits dramatically right in between: far floppier than Riemannian geometry, yet astonishingly more rigid than pure volume-preserving topology.
 
@@ -122,7 +122,7 @@ In finite dimensions, you simply wiggle $$C_2$$ slightly to make the intersectio
 
 ---
 
-### Deep-Dive Explanation: Pardon’s Implicit Atlases & Virtual Fundamental Cycles (Read Slowly)
+### Explanation: Pardon’s Implicit Atlases & Virtual Fundamental Cycles
 
 For over twenty years, constructing rigorous virtual fundamental cycles in full generality was one of the most notoriously technical bottlenecks in symplectic geometry (with competing frameworks like Kuranishi structures and polyfolds). How did **John Pardon** transform this landscape? Follow the four-step arc slowly:
 

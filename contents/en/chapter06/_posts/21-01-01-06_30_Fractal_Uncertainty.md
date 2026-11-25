@@ -15,7 +15,7 @@ The answer is **no**—and the Fourier-analytic theorem that forces the wave to 
 
 ---
 
-## Background Knowledge Map: What Three Pillars Support the Fractal Uncertainty Principle?
+## Key ideas: What Three Pillars Support the Fractal Uncertainty Principle?
 
 With undergraduate Fourier transforms, wave equations, and the Cantor set, three pillars explain why FUP is one of the hottest tools in modern analysis:
 
@@ -61,7 +61,7 @@ Classical Pauli–Weyl forbids simultaneous concentration on two small intervals
 
 **FUP slogan (1D).** If you try to build a function whose mass lives near a Cantor-like set, its Fourier transform **cannot** also live near a Cantor-like set. Adding together waves whose frequencies sit on fractal dust will not produce another fractal-looking envelope—the holes fill in.
 
-### Deep-Dive Explanation: Measuring Fourier Leakage into Cantor Holes by Hand at $$N = 9$$ (Read Slowly)
+### Explanation: Measuring Fourier Leakage into Cantor Holes by Hand at $$N = 9$$
 
 To see FUP work with concrete numbers, take the 2nd-generation discrete Cantor set inside $$N = 3^2 = 9$$ points $$\{0, 1, \dots, 8\}$$: delete the middle third $$\{3, 4, 5\}$$ and the middle points $$1$$ and $$7$$ of the remaining thirds, leaving four points $$X = \{0, 2, 6, 8\} = \{0, 6\} + \{0, 2\}$$.
 

@@ -14,7 +14,7 @@ Every March in Oslo, while winter snow still lingers on Norwegian rooftops, the 
 
 If we only skim the winner’s name and nod, we miss the real story. The deeper question is: **what kind of mathematical achievement was the Abel Prize invented to recognize** that the Fields Medal and million-dollar problem bounties do not cover? And how can you read a two-line committee citation not as a press release, but as a working map into modern research?
 
-**Lesson arc:** The research-mathematics ecosystem (Background Knowledge Map) → Why the Abel Prize exists → Reading citations like a mathematician → Deep-Dive Explanation: why "infrastructure mathematics" is so powerful (via a hand-calculated matrix diagonalization) → Comparing Abel, Fields, and Clay Millennium → Common confusions.
+**Lesson arc:** The research-mathematics ecosystem (Key ideas) → Why the Abel Prize exists → Reading citations like a mathematician → Explanation: why "infrastructure mathematics" is so powerful (via a hand-calculated matrix diagonalization) → Comparing Abel, Fields, and Clay Millennium → Common confusions.
 
 ---
 
@@ -26,7 +26,7 @@ After this lecture you should be able to describe the Abel Prize’s institution
 
 ---
 
-## Background Knowledge Map: What Is the Research Mathematics Ecosystem and What Does "Mathematical Infrastructure" Mean?
+## Key ideas: What Is the Research Mathematics Ecosystem and What Does "Mathematical Infrastructure" Mean?
 
 In high school and early college, mathematics often feels like a solo sprint through isolated problems: read a prompt, find the answer, move on. At the research frontier, however, mathematics works like an **architectural ecosystem** resting on three interlocking pillars:
 
@@ -68,7 +68,7 @@ Open any Abel citation at [abelprize.no](https://abelprize.no/) and you will usu
 
 Notice the verbs: *opening*, *pioneering*, *shaping*, *foundational*, *seminal*. Abel language is about **changing the climate of a field**, not only planting a flag on a single peak.
 
-### Deep-Dive Explanation: How Powerful Is "Infrastructure Mathematics"? (Read Slowly)
+### Explanation: How Powerful Is "Infrastructure Mathematics"?
 
 Students meeting the Abel Prize for the first time often ask: *why is creating a new "language" or "framework" worth as much as solving a 350-year-old puzzle?* You can see the answer immediately through the most familiar piece of infrastructure from undergraduate math—**matrix diagonalization**—applied to computing the tenth power of a symmetric $$2 \times 2$$ matrix:
 

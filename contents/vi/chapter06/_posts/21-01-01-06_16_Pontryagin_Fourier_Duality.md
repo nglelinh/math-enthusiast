@@ -16,7 +16,7 @@ Trước khi bước vào những phép đối ngẫu siêu trừu tượng như
 
 ---
 
-## Bản đồ kiến thức nền: Giải tích điều hòa trừu tượng và Đối ngẫu Pontryagin là gì?
+## Kiến thức cần nhớ: Giải tích điều hòa trừu tượng và Đối ngẫu Pontryagin là gì?
 
 Trước khi đi vào định lý, hãy cùng đặt ba viên gạch nền mà một sinh viên vừa tốt nghiệp đại học (đã quen đại số tuyến tính, số phức và giải tích cơ bản) có thể nắm trọn ngay lập tức:
 
@@ -99,7 +99,7 @@ $$
 | Tích chập | Tích từng điểm |
 | Trơn / suy giảm nhanh | Suy giảm nhanh / trơn (hoán đổi cho nhau) |
 
-### Khung giải thích: vì sao tích chập khó lại biến thành phép nhân đơn giản? (nên đọc chậm)
+### Giải thích: vì sao tích chập khó lại biến thành phép nhân đơn giản?
 
 Hãy tự tay kiểm tra toàn bộ cơ chế đối ngẫu Pontryagin trên nhóm hữu hạn nhỏ nhất có số phức là $$G = \mathbb{Z}/4\mathbb{Z} = \{0, 1, 2, 3\}$$ (phép cộng modulo 4):
 

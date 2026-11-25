@@ -16,7 +16,7 @@ Hãy thử tưởng tượng bạn rải ngẫu nhiên các hạt đậu lên m�
 
 Toán học hiện đại còn đi xa hơn thế: giữa hai thái cực "trật tự tuyệt đối" và "hỗn loạn hoàn toàn" tồn tại một vùng đất cực kỳ thú vị mang tên **giả ngẫu nhiên (pseudorandomness)** — những đối tượng hoàn toàn tất định như tập số nguyên tố, nhưng lại vượt qua hàng loạt phép kiểm định thống kê giống hệt như thể chúng được tung đồng xu mà ra. Trong bài thực hành này, bạn sẽ bước vào phòng thí nghiệm mô phỏng để tự tay đo lường ranh giới giữa hai thái cực ấy: khi nào sự ngẫu nhiên phá hủy cấu trúc, khi nào mật độ buộc trật tự phải xuất hiện, và vì sao một câu khẩu hiệu như *"ngẫu nhiên tạo ra trật tự"* chỉ có ý nghĩa khi bạn chỉ rõ thang đo và phép kiểm định đi kèm.
 
-**Mạch bài học:** Bản đồ kiến thức nền (phương pháp xác suất Erdős, tổ hợp cộng tính & giả ngẫu nhiên) → Khi ngẫu nhiên phá vỡ cấu trúc và khi xác suất chứng minh tồn tại → Khung giải thích chậm: tính tay 3-AP trên $$\{1..10\}$$, tập cơ số 3 không có 3-AP và chặn Ramsey trên $$K_5$$ → Định lý Roth, Szemerédi & Green–Tao → Thí nghiệm & nhật ký.
+**Mạch bài học:** Kiến thức cần nhớ (phương pháp xác suất Erdős, tổ hợp cộng tính & giả ngẫu nhiên) → Khi ngẫu nhiên phá vỡ cấu trúc và khi xác suất chứng minh tồn tại → Giải thích: tính tay 3-AP trên $$\{1..10\}$$, tập cơ số 3 không có 3-AP và chặn Ramsey trên $$K_5$$ → Định lý Roth, Szemerédi & Green–Tao → Thí nghiệm & nhật ký.
 
 ---
 
@@ -35,7 +35,7 @@ Sau bài này, bạn cần:
 
 ---
 
-## Bản đồ kiến thức nền: Tổ hợp cộng tính và Phương pháp xác suất là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Tổ hợp cộng tính và Phương pháp xác suất là gì, nghiên cứu những gì?
 
 Người vừa tốt nghiệp đại học thường học xác suất như một công cụ thống kê để phân tích dữ liệu nhiễu, và học tổ hợp như nghệ thuật đếm chỉnh hợp, hoán vị. Nhưng trong toán học hiện đại, sự kết hợp giữa chúng đã khai sinh ra ba trụ cột sống động đứng sau bài học này:
 
@@ -76,7 +76,7 @@ Tương tự, đồ thị ngẫu nhiên $$G(n,1/2)$$ hầu chắc chắn không 
 
 **Phương pháp xác suất của Erdős:** để chứng minh có tồn tại một đối tượng có tính chất $$P$$, ta định nghĩa một đối tượng ngẫu nhiên và chứng minh $$\Pr[P]>0$$. Cách này có thể không chỉ ra cụ thể đối tượng đó, nhưng hoàn toàn chặt chẽ.
 
-#### Khung giải thích: Cầm tay kiểm tra hai phép màu — Tập không có 3-AP và Chặn Ramsey (nên đọc chậm)
+#### Giải thích: Cầm tay kiểm tra hai phép màu — Tập không có 3-AP và Chặn Ramsey
 
 Hãy tự tay làm hai phép tính ngắn để tận mắt thấy ranh giới giữa cấu trúc, ngẫu nhiên và phương pháp xác suất:
 

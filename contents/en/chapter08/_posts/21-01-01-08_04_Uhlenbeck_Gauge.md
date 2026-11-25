@@ -19,7 +19,7 @@ The mathematician who first tamed those singular bubbles with razor-sharp analyt
 
 Uhlenbeck’s career is the textbook portrait of mathematical infrastructure: without her theorems on compactness, bubbling, and removable singularities, Simon Donaldson’s revolution in four-manifold topology—and much of the modern dialogue between quantum field theory and geometry—could never have taken off. Official materials: [abelprize.no](https://abelprize.no/).
 
-**Lesson arc:** Background Knowledge Map (bundles, connections, curvature, geometric analysis) → Gauge theory and Yang–Mills energy → Why analysis is the bottleneck → Deep-Dive Explanation: verifying conformal scaling in 4D and computing a 2D energy bubble by hand → Uhlenbeck’s analytic breakthroughs → Gauge fixing and moduli spaces.
+**Lesson arc:** Key ideas (bundles, connections, curvature, geometric analysis) → Gauge theory and Yang–Mills energy → Why analysis is the bottleneck → Explanation: verifying conformal scaling in 4D and computing a 2D energy bubble by hand → Uhlenbeck’s analytic breakthroughs → Gauge fixing and moduli spaces.
 
 ---
 
@@ -31,7 +31,7 @@ After this lecture you should be able to explain gauge theory’s basic objects 
 
 ---
 
-## Background Knowledge Map: What Are Geometric Analysis and Gauge Theory, and What Do They Study?
+## Key ideas: What Are Geometric Analysis and Gauge Theory, and What Do They Study?
 
 Hearing **geometric analysis** and **gauge theory** together can make an undergraduate think immediately of dense particle-physics textbooks. At heart, however, they stand on three intuitive geometric pillars:
 
@@ -76,7 +76,7 @@ Infinite-dimensional spaces of connections modulo gauge transformations are not 
 - develop **concentrated energy** at points (or lower-dimensional sets);  
 - “bubble off” nontrivial solutions on model spaces such as $$S^4$$ or $$\mathbb{R}^4$$ after rescaling.
 
-### Deep-Dive Explanation: Why Do Energy "Bubbles" Appear at the Critical Dimension? (Read Slowly)
+### Explanation: Why Do Energy "Bubbles" Appear at the Critical Dimension?
 
 Why does bubbling hit Yang–Mills theory specifically in **dimension $$n = 4$$** (and harmonic maps specifically in **dimension $$n = 2$$**)? Two first-year calculus checks show the exact mechanism:
 

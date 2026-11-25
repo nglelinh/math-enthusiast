@@ -39,7 +39,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết số và mật mã học hiện đại là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Lý thuyết số và mật mã học hiện đại là gì, nghiên cứu những gì?
 
 Thoạt nhìn, **lý thuyết số (number theory)** nghe có vẻ sơ cấp vì nó chỉ nghiên cứu các số nguyên $$1, 2, 3, \dots$$ — thứ trẻ em tiểu học đã biết. Nhưng càng đi sâu, các nhà toán học càng phát hiện ra cấu trúc của số nguyên tố ẩn chứa những quy luật sâu thẳm bậc nhất của toàn bộ toán học. Ở tầm đại học, lý thuyết số không chỉ dừng ở phép chia hết mà còn gắn chặt với **đại số trừu tượng** (nhóm, vành, trường hữu hạn) và **hình học đại số** (đường cong elliptic).
 
@@ -105,7 +105,7 @@ Với số mũ $$e$$ có 2.048 bit, phương pháp này chỉ cần khoảng $$O
 5. Mã hóa thông điệp (đã đổi thành số $$m < n$$): $$c\equiv m^e\pmod n$$.  
 6. Giải mã: $$m\equiv c^d\pmod n$$.
 
-### Ví dụ cầm tay chỉ việc: Tự chạy trọn vẹn RSA từ sinh khóa đến giải mã
+### Ví dụ làm từng bước: Tự chạy trọn vẹn RSA từ sinh khóa đến giải mã
 
 Ta chọn hai số nguyên tố nhỏ $$p = 11,\ q = 13$$ để tính tay từng bước mà không bỏ qua phép chia dư nào:
 
@@ -126,7 +126,7 @@ $$
 $$
 Đúng y hệt thông điệp gốc $$m = 9$$!
 
-### Khung giải thích: Vì sao hai người lạ mặt có thể trao đổi bí mật giữa chốn đông người? (nên đọc chậm)
+### Giải thích: Vì sao hai người lạ mặt có thể trao đổi bí mật giữa chốn đông người?
 
 1. **Tạo sự bất đối xứng nhờ cấu trúc số học:** nhân hai số nguyên tố 1.024 bit ra tích $$n$$ chỉ mất chưa đầy 1 phần nghìn giây, nhưng tách ngược $$n$$ về $$p,q$$ đòi hỏi thời gian vượt tuổi vũ trụ trên máy tính cổ điển.
 2. **Dùng bí mật cửa sập để tính nghịch đảo số mũ:** chỉ người biết $$p,q$$ mới tính được $$\varphi(n)=(p-1)(q-1)$$, từ đó dùng thuật toán Euclid mở rộng tìm khóa giải mã $$d$$.

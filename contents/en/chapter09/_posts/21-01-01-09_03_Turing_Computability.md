@@ -33,7 +33,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Is Computability Theory and What Does It Study?
+## Key ideas: What Is Computability Theory and What Does It Study?
 
 Have you ever wondered while coding why nobody has built a static analyzer or linter that guarantees 100% of the time whether an arbitrary Python script will ever hang in an infinite loop? The obstacle isn't a shortage of clever engineers or faster CPUs—it is an **impossibility theorem** at the heart of **Computability Theory (Recursion Theory)**.
 
@@ -118,7 +118,7 @@ $$
 **Theorem (Turing).** $$\textsc{Halt}$$ is undecidable: no Turing machine $$H$$ correctly determines, for every pair $$\langle M,x\rangle$$, whether $$M$$ halts on $$x$$.
 </div>
 
-### Worked Example 2 & Deep-Dive Explanation: The Four-Step Diagonal Table Proof of the Halting Problem (Read Slowly)
+### Worked Example 2 & Explanation: The Four-Step Diagonal Table Proof of the Halting Problem
 
 Imagine listing every valid program in existence down the rows $$M_1, M_2, M_3, \dots$$ and running each program on the source code of every other program across the columns:
 

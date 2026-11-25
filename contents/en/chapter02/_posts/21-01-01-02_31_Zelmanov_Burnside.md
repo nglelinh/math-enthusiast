@@ -20,7 +20,7 @@ In 1990–1991, through a breathtaking translation from group theory into **Lie 
 
 That single adjective **restricted** is the entire pedagogical heart of this lesson: keeping three distinct Burnside problems from collapsing into one slogan, seeing why Zelmanov’s positive theorem lives peacefully beside the infinite groups of Novikov–Adian, and watching how Lie and Jordan algebras conquer a century-old problem about finite groups.
 
-**Lesson roadmap:** Background Knowledge Map (three Burnside problems, linearizing a group into a Lie algebra, Jordan algebras) → Hand-verifiable worked examples: proving $$\vert B(d,2)\vert = 2^d$$ in two lines and building $$B(2,3)$$ of order $$27$$ with its Engel-2 identity → Deep-Dive Explanation (Read Slowly): the 4-step path from Hall–Higman and Kostrikin to Zelmanov (1990–1991) → Summary table and why this won the 1994 Fields Medal.
+**Lesson roadmap:** Key ideas (three Burnside problems, linearizing a group into a Lie algebra, Jordan algebras) → Hand-verifiable worked examples: proving $$\vert B(d,2)\vert = 2^d$$ in two lines and building $$B(2,3)$$ of order $$27$$ with its Engel-2 identity → Explanation: the 4-step path from Hall–Higman and Kostrikin to Zelmanov (1990–1991) → Summary table and why this won the 1994 Fields Medal.
 
 ---
 
@@ -40,7 +40,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: Burnside Groups, Lie Algebras, and Jordan Algebras
+## Key ideas: Burnside Groups, Lie Algebras, and Jordan Algebras
 
 ### 1. Three Burnside problems—never conflate them
 - **General Burnside problem (1902):** Must every finitely generated periodic group (where each $$x$$ has its own finite order $$n_x$$) be finite? $$\Rightarrow$$ **NO** (Golod–Shafarevich, 1964).
@@ -94,7 +94,7 @@ This tiny 27-element matrix group exposes the entire strategy of the Russian alg
 
 ---
 
-## 2. Deep-Dive Explanation: The 4-Step Road from Hall–Higman and Kostrikin to Zelmanov (Read Slowly)
+## 2. Explanation: The 4-Step Road from Hall–Higman and Kostrikin to Zelmanov
 
 As Walter Feit noted in his 1994 ICM laudation, the restricted Burnside problem is *"to a large extent a problem in Lie algebras."* Here is how the 60-year-old fortress finally fell:
 

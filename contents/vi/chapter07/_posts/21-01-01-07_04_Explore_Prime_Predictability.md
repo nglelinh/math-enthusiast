@@ -16,7 +16,7 @@ Nếu bạn bước dọc theo trục số nguyên dương và gõ một tiếng
 
 Nhưng hãy lùi thật xa ra và nhìn toàn cảnh: sự hỗn loạn bỗng nhường chỗ cho một đường cong mượt mà đến kinh ngạc. **Định lý số nguyên tố** mô tả chính xác mật độ của chúng; **giả thuyết Riemann** nhắm tới độ chính xác gần như tuyệt đối của sai số; **định lý khoảng cách bị chặn** (Zhang, Maynard) khẳng định chúng không bao giờ thôi đứng sát nhau; còn **định lý Green–Tao** chứng minh bên trong dãy số tưởng chừng ngẫu hứng ấy ẩn chứa những cấp số cộng đều tăm tắp dài tùy ý. Câu hỏi *"Số nguyên tố có dự đoán được không?"* vì thế không có câu trả lời Có hay Không đơn giản. Trong bài thực hành này, bạn sẽ tự tay **chạy thí nghiệm trên số nguyên tố**, xây dựng một **bảng phân tầng hiện tượng**, và rèn thói quen tỉnh táo nhất của người làm số học: không bao giờ đánh đồng một đồ thị khớp đẹp đến $$10^8$$ với một định lý đúng cho tới vô cùng.
 
-**Mạch bài học:** Bản đồ kiến thức nền (lý thuyết số giải tích, sàng & tổ hợp cộng tính) → Đếm số nguyên tố, khoảng cách, cặp sinh đôi & Green–Tao → Khung giải thích chậm: tự tay kiểm tra số nguyên tố $$\le 100$$ và chứng minh công sai cấp số cộng chia hết cho 30 → Bảng phân tầng hiện tượng → Thí nghiệm & nhật ký.
+**Mạch bài học:** Kiến thức cần nhớ (lý thuyết số giải tích, sàng & tổ hợp cộng tính) → Đếm số nguyên tố, khoảng cách, cặp sinh đôi & Green–Tao → Giải thích: tự tay kiểm tra số nguyên tố $$\le 100$$ và chứng minh công sai cấp số cộng chia hết cho 30 → Bảng phân tầng hiện tượng → Thí nghiệm & nhật ký.
 
 ---
 
@@ -35,7 +35,7 @@ Sau bài thực hành, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết số giải tích là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Lý thuyết số giải tích là gì và nghiên cứu những gì?
 
 Khi nghe tới số nguyên tố, nhiều người nghĩ ngay tới đại số rời rạc hay phép chia hết ở bậc phổ thông. Vậy tại sao những đột phá lớn nhất về số nguyên tố lại gắn với tích phân, biến số phức và sóng? Câu trả lời nằm ở **Lý thuyết số giải tích (Analytic Number Theory)** — ngành toán dùng công cụ liên tục (giải tích phức, chuỗi, biến đổi Fourier, xác suất) để trả lời những câu hỏi rời rạc về số nguyên. Ngành này đứng trên ba trụ cột chính:
 
@@ -87,7 +87,7 @@ $$
 
 với hằng số số nguyên tố sinh đôi $$C_2\approx 0.66016$$.
 
-#### Khung giải thích: Cầm tay kiểm tra số nguyên tố $$\le 100$$ và quy luật chia hết của cấp số cộng (nên đọc chậm)
+#### Giải thích: Cầm tay kiểm tra số nguyên tố $$\le 100$$ và quy luật chia hết của cấp số cộng
 
 Trước khi viết mã cho $$X = 10^6$$, hãy dành 2 phút tự kiểm tra bằng tay trên đoạn $$[1, 100]$$ để thấy ngay hai hiện tượng cốt lõi:
 

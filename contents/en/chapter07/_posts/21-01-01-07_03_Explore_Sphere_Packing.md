@@ -19,7 +19,7 @@ In the late sixteenth century, explorer Sir Walter Raleigh asked his mathematica
 
 The real shock, however, lives in spaces our eyes cannot see: in 2016, Maryna Viazovska stunned the mathematical world by solving sphere packing in **dimension 8** (the $$E_8$$ lattice) in roughly twenty pages, and with coauthors settled **dimension 24** (the Leech lattice) the very next week—while dimensions 4, 5, 6, and 7 remain wide open! Your goal in this studio is not to construct Viazovska’s magic function. It is to **define density carefully**, **measure real packings**, **compare lattice matrices**, and see sharply where exact theorems stop and numerical bounds begin.
 
-**Lesson roadmap:** Background Knowledge Map (discrete geometry & lattices, Fourier/Poisson summation, modular forms) → Packing density → Deep-Dive Explanation (Read Slowly): hand-computing 2D lattice matrices and watching Poisson summation lock down density → Dimensions 3, 8, 24 & volume decay $$V_n \to 0$$ → Studio experiments & log.
+**Lesson roadmap:** Key ideas (discrete geometry & lattices, Fourier/Poisson summation, modular forms) → Packing density → Explanation: hand-computing 2D lattice matrices and watching Poisson summation lock down density → Dimensions 3, 8, 24 & volume decay $$V_n \to 0$$ → Studio experiments & log.
 
 ---
 
@@ -38,7 +38,7 @@ After this studio you should be able to:
 
 ---
 
-## Background Knowledge Map: What Are Discrete Geometry, Lattice Theory, and Fourier Bounds?
+## Key ideas: What Are Discrete Geometry, Lattice Theory, and Fourier Bounds?
 
 Stacking oranges sounds like carpentry, yet in $$\mathbb{R}^n$$ sphere packing sits at the crossroads of three deep mathematical and engineering disciplines:
 
@@ -84,7 +84,7 @@ where $$M$$ is the matrix whose columns are the basis vectors of $$\Lambda$$.
 
 ### 1.2 Two dimensions: square versus hexagon
 
-#### Deep-Dive Explanation (Read Slowly): Hand-Computing 2D Lattice Matrices and Poisson Bounds
+#### Explanation: Hand-Computing 2D Lattice Matrices and Poisson Bounds
 
 Let us check the exact formula $$\delta(\Lambda) = \frac{\operatorname{Vol}(B(0,r))}{\lvert\det M\rvert}$$ by hand for unit coins of radius $$r = 1$$ (so centers must stay at least $$2r = 2$$ apart):
 

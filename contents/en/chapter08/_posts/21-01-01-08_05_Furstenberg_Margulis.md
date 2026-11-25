@@ -21,7 +21,7 @@ In **2020**, the **Abel Prize** was awarded jointly to **Hillel Furstenberg** (H
 
 Pairing two very different mathematical styles in one Abel year sent an unmistakable message: probability and dynamics are not side appendices to applied math—they are central engines for solving deep problems in arithmetic, combinatorics, and group theory. Official materials: [abelprize.no](https://abelprize.no/).
 
-**Lesson arc:** Background Knowledge Map (dynamical systems, ergodic theory, Lie groups and homogeneous spaces) → Ergodic theory in one page → Deep-Dive Explanation: calculating an irrational rotation orbit and Oppenheim values by hand → Furstenberg and multiple recurrence → Margulis, superrigidity, and expanders → Common confusions.
+**Lesson arc:** Key ideas (dynamical systems, ergodic theory, Lie groups and homogeneous spaces) → Ergodic theory in one page → Explanation: calculating an irrational rotation orbit and Oppenheim values by hand → Furstenberg and multiple recurrence → Margulis, superrigidity, and expanders → Common confusions.
 
 ---
 
@@ -33,7 +33,7 @@ After this lecture you should be able to define ergodic theory as the study of a
 
 ---
 
-## Background Knowledge Map: What Are Ergodic Theory, Dynamical Systems, and Lie Groups, and What Do They Study?
+## Key ideas: What Are Ergodic Theory, Dynamical Systems, and Lie Groups, and What Do They Study?
 
 If you graduated in science or engineering and took probability or differential equations, three pillars unlock the entire world of Furstenberg and Margulis without requiring a graduate textbook:
 
@@ -76,7 +76,7 @@ $$
 
 for integrable observables $$f$$, for $$\mu$$-almost every $$x$$.
 
-### Deep-Dive Explanation: Two Hand-Checkable Calculations — Irrational Orbits and the Oppenheim Form (Read Slowly)
+### Explanation: Two Hand-Checkable Calculations — Irrational Orbits and the Oppenheim Form
 
 To feel firsthand how motion unlocks number theory, walk through two quick calculations you can check on a pocket calculator or by hand:
 

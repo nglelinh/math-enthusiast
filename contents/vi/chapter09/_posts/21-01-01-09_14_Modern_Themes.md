@@ -29,7 +29,7 @@ Sau bài này, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Vùng biên Toán–Khoa học máy tính hiện đại là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Vùng biên Toán–Khoa học máy tính hiện đại là gì và nghiên cứu những gì?
 
 Nếu khoa học máy tính thế kỷ XX có ranh giới khá rõ giữa *lý thuyết* (chứng minh trên bảng đen) và *hệ thống* (viết mã chạy trên máy thật), thì ở thế kỷ XXI ranh giới đó đang mờ dần và tạo ra **vùng biên Toán–CS** đầy sức sống. Áp lực từ thực tiễn triển khai ở quy mô tỉ người dùng liên tục sinh ra những bài toán toán học mới tinh, và ngược lại những định lý toán học mới lập tức định hình kiến trúc hệ thống:
 
@@ -68,7 +68,7 @@ Một vài hệ quả:
 
 Câu hỏi mở: các giả thuyết gốc đúng đến mức nào? Có những quan hệ đối ngẫu nào đẹp hơn không?
 
-### Ví dụ cầm tay chỉ việc: Ba phép tính ở vùng biên (Độ phức tạp chi tiết, Quyền riêng tư vi phân và Lượng tử)
+### Ví dụ làm từng bước: Ba phép tính ở vùng biên (Độ phức tạp chi tiết, Quyền riêng tư vi phân và Lượng tử)
 
 Để thấy các trục nghiên cứu thập niên 2020 không hề trừu tượng mà đo đếm được bằng những con số rất sắc, hãy tự tay thực hiện ba phép tính ngắn:
 
@@ -88,7 +88,7 @@ Tỉ số giữa hai xác suất là $$\dfrac{0{,}75}{0{,}25} = 3 = e^{\ln 3}$$,
 
 **Phép tính 3 — Lợi thế lượng tử của Grover là căn bậc hai, không phải xóa sổ NP.** Tìm một chìa khóa trong kho $$N = 10^{12}$$ khóa không cấu trúc: tìm cổ điển cần trung bình $$N/2 = 5 \times 10^{11}$$ truy vấn; thuật toán lượng tử Grover cần khoảng $$\dfrac{\pi}{4}\sqrt{N} \approx \mathbf{7{,}85 \times 10^5}$$ truy vấn — nhanh hơn gần một triệu lần, nhưng nếu $$N = 2^{256}$$ (khóa AES-256), $$\sqrt{N} = 2^{128}$$ vẫn là con số bất khả thi về vật lý!
 
-### Khung giải thích: Cách đọc bản đồ vùng biên Toán–CS như một nhà nghiên cứu (nên đọc chậm)
+### Giải thích: Cách đọc bản đồ vùng biên Toán–CS như một nhà nghiên cứu
 
 Để không bị lạc giữa hàng chục xu hướng công nghệ mới mỗi năm, hãy neo tư duy vào 4 nguyên tắc sau:
 

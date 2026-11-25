@@ -15,7 +15,7 @@ This is a **map essay** on the Physics–Math Bridge: enough structure to read d
 
 ---
 
-## Background Knowledge Map: What Three Pillars Define Operator Algebras?
+## Key ideas: What Three Pillars Define Operator Algebras?
 
 As an undergraduate, you already know $$M_n(\mathbb{C})$$—square $$n \times n$$ matrices with addition, noncommutative multiplication, conjugate transpose $$A \mapsto A^*$$, and operator norm $$\|A\|$$. **Operator algebra theory** extends matrix analysis to infinite dimensions along three pillars:
 
@@ -72,7 +72,7 @@ A **von Neumann algebra** is a *-algebra of bounded operators on a Hilbert space
 
 A **state** on a C*-algebra $$\mathcal{A}$$ is a positive normalized linear functional $$\omega$$ ($$\omega(a^*a)\ge 0,\ \omega(1)=1$$)—simply the expectation value of every observable $$a$$. The **GNS construction** builds a Hilbert space $$\mathcal{H}_\omega$$, a representation $$\pi_\omega$$, and a cyclic vector $$\Omega$$ such that $$\omega(a)=\langle \pi_\omega(a)\Omega,\Omega\rangle$$.
 
-### Deep-Dive Explanation: Running the GNS Construction by Hand on $$M_2(\mathbb{C})$$ (Read Slowly)
+### Explanation: Running the GNS Construction by Hand on $$M_2(\mathbb{C})$$
 
 GNS sounds abstract, yet on $$2 \times 2$$ matrices $$\mathcal{A} = M_2(\mathbb{C})$$ you can execute every single step by hand in four lines:
 

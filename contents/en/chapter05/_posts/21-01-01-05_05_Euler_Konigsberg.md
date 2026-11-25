@@ -13,7 +13,7 @@ On Sunday afternoons in eighteenth-century Königsberg (now Kaliningrad), citize
 
 When the puzzle reached **Leonhard Euler** in St. Petersburg, he initially brushed it off as a trivial pastime with little to do with mathematics. Then a sudden realization struck him: you do not need to visit Königsberg, measure a single bridge, or trace the curve of the river. By **throwing away all metric geometry** and keeping only dots and connecting lines, Euler not only proved the walk impossible in 1736—he founded **graph theory**.
 
-**Lesson roadmap:** Background Knowledge Map (graph theory, adjacency matrices, invariants and early topology) → The historical puzzle & the one-stroke envelope game → Multigraph modeling → Vertex degrees and parity → Deep-Dive Explanation (Read Slowly): hand-checking Königsberg’s $$4\times 4$$ adjacency matrix, adding one bridge, and assembling DNA with a de Bruijn graph → Sufficiency and the Chinese Postman Problem.
+**Lesson roadmap:** Key ideas (graph theory, adjacency matrices, invariants and early topology) → The historical puzzle & the one-stroke envelope game → Multigraph modeling → Vertex degrees and parity → Explanation: hand-checking Königsberg’s $$4\times 4$$ adjacency matrix, adding one bridge, and assembling DNA with a de Bruijn graph → Sufficiency and the Chinese Postman Problem.
 
 ---
 
@@ -32,7 +32,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: Graph Theory, Adjacency Matrices, and Early Topology
+## Key ideas: Graph Theory, Adjacency Matrices, and Early Topology
 
 Before 1736, "geometry" meant lengths, angles, areas, and coordinates. Euler’s short memoir opened three foundational pillars that every modern science, engineering, and economics graduate encounters:
 
@@ -99,7 +99,7 @@ In Königsberg’s standard model, all four vertices have odd degree (three of d
 
 ---
 
-## 4. Deep-Dive Explanation (Read Slowly): Hand-Checking Königsberg’s Matrix, Adding One Bridge, and Assembling DNA
+## 4. Explanation: Hand-Checking Königsberg’s Matrix, Adding One Bridge, and Assembling DNA
 
 To feel how graph theory turns spatial puzzles into crisp algebra and modern algorithms, work through three concrete checks by hand:
 

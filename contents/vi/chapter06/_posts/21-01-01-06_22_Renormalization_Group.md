@@ -15,7 +15,7 @@ Câu trả lời nằm ở một trong những ý tưởng sâu sắc nhất c�
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết Nhóm tái chuẩn hóa (RG) đứng trên ba trụ cột nào?
+## Kiến thức cần nhớ: Lý thuyết Nhóm tái chuẩn hóa (RG) đứng trên ba trụ cột nào?
 
 Nếu bạn đã học giải tích hệ động lực và xác suất ở đại học, bạn thực ra đã gặp tinh thần của RG từ trước:
 
@@ -70,7 +70,7 @@ RG theo Kenneth Wilson (cho hiện tượng tới hạn, thập niên 1970) bi�
 3. Co giãn lại độ dài để đơn vị mạng lưới trở về như cũ.  
 4. Đọc ra các hằng số hiệu dụng mới $$g'$$, xem như một ánh xạ $$g\mapsto R(g)$$.  
 
-### Khung giải thích: tự tay chạy một bước RG chính xác trên mô hình Ising 1 chiều (nên đọc chậm)
+### Giải thích: tự tay chạy một bước RG chính xác trên mô hình Ising 1 chiều
 
 Thay vì chỉ nghe nói về "gộp khối spin", hãy tự tay tính **chính xác** ánh xạ RG $$K \mapsto K'$$ cho chuỗi nam châm Ising 1 chiều (các spin $$\sigma_i \in \{+1, -1\}$$ xếp thành hàng ngang, tương tác láng giềng với hằng số $$K = \beta J > 0$$):
 

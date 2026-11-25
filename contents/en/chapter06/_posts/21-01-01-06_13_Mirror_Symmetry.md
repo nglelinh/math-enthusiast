@@ -18,7 +18,7 @@ Pack: `research/video-research/mirror-symmetry/`.
 
 ---
 
-## Background Knowledge Map: What Is Mirror Symmetry and What Does It Study?
+## Key ideas: What Is Mirror Symmetry and What Does It Study?
 
 To grasp what mirror symmetry actually links, separate two kinds of geometry usually taught in different rooms:
 
@@ -86,7 +86,7 @@ For Calabi–Yau threefolds, mirror symmetry classically swaps Hodge numbers in 
 
 ---
 
-### Deep-Dive Explanation: Checking Mirror Symmetry on a 2D Torus and the Hodge Diamond by Hand (Read Slowly)
+### Explanation: Checking Mirror Symmetry on a 2D Torus and the Hodge Diamond by Hand
 
 Six-real-dimensional Calabi–Yau threefolds are impossible to picture directly. Fortunately, a **complex 1-dimensional** Calabi–Yau manifold is completely familiar: a flat **2D torus** (an elliptic curve $$E$$), built by gluing opposite edges of a rectangle of dimensions $$L_1 \times L_2$$.
 

@@ -13,7 +13,7 @@ Pick any positive integer. If it is even, cut it in half; if it is odd, multiply
 
 Welcome to the **Chapter 7 flagship exploration studio**. Your job is **not** to prove the Collatz conjecture. Instead, you step into a live mathematical workshop with one wide-open question: *What happens when a simple deterministic rule is iterated forever?* You will **design controlled experiments**, **keep a dated research log**, and **report honestly** everything you discover—including killed hypotheses, off-by-one bugs, and the fundamental boundary no supercomputer can cross.
 
-**Lesson roadmap:** Background Knowledge Map (discrete dynamical systems, additive–multiplicative friction & logarithmic density) → The Collatz map & stopping times → Deep-Dive Explanation (Read Slowly): hand-computing the $$\log(3/4)$$ logarithmic drift and 6 layers of the inverse Collatz tree → Tao (2019) & GPU verification → Portfolio structure, experiments & log.
+**Lesson roadmap:** Key ideas (discrete dynamical systems, additive–multiplicative friction & logarithmic density) → The Collatz map & stopping times → Explanation: hand-computing the $$\log(3/4)$$ logarithmic drift and 6 layers of the inverse Collatz tree → Tao (2019) & GPU verification → Portfolio structure, experiments & log.
 
 **Companion problem page.** [Collatz conjecture (Ch.1)]({{ site.baseurl }}/contents/en/chapter01/01_07_Collatz_Conjecture/) · Related: [Chaos]({{ site.baseurl }}/contents/en/chapter04/04_05_Chaos/) · [RH]({{ site.baseurl }}/contents/en/chapter01/01_02_Riemann_Hypothesis/) (verification vs proof).
 
@@ -35,7 +35,7 @@ After this studio you should be able to:
 
 ---
 
-## Background Knowledge Map: What Are Discrete Dynamical Systems and Experimental Number Theory?
+## Key ideas: What Are Discrete Dynamical Systems and Experimental Number Theory?
 
 How can a rule built out of multiplying by 3, adding 1, and dividing by 2 stump all of modern mathematics? It sits right at the hardest intersection of three domains:
 
@@ -85,7 +85,7 @@ Common statistics (define carefully):
 
 ### 1.3 Why the problem is hard (studio-level)
 
-#### Deep-Dive Explanation (Read Slowly): Hand-Computing the $$\log(3/4)$$ Drift and the Inverse Collatz Tree
+#### Explanation: Hand-Computing the $$\log(3/4)$$ Drift and the Inverse Collatz Tree
 
 Two short calculations explain both why orbits *tend* to fall and why proving it for *every* $$n$$ is so elusive:
 

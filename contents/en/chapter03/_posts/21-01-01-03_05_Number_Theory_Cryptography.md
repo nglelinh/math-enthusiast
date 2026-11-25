@@ -16,7 +16,7 @@ Every time you see the HTTPS padlock in your browser, confirm a bank transfer, o
 
 ---
 
-## Background Knowledge Map: What Are Number Theory and Modern Cryptography?
+## Key ideas: What Are Number Theory and Modern Cryptography?
 
 At first glance, **number theory** sounds elementary because it studies the integers $$1, 2, 3, \dots$$ we learned as children. Yet prime numbers hide some of the deepest structures in all of mathematics, intertwining at the university level with **abstract algebra** (groups, rings, finite fields) and **algebraic geometry** (elliptic curves).
 
@@ -117,7 +117,7 @@ Powers of 5 modulo 23 visit every residue 1 to 22 in a scrambled order. Alice an
 <div class="mex-explainer" data-mex="dh" data-lang="en"></div>
 
 
-### Deep-Dive Explanation: Running a Complete Toy RSA Encryption & Decryption by Hand (Read Slowly)
+### Explanation: Running a Complete Toy RSA Encryption & Decryption by Hand
 
 How can two strangers who have never met exchange a secret in front of an entire crowded room? Let us run every single step of RSA by hand with tiny primes $$p = 5$$ and $$q = 11$$:
 

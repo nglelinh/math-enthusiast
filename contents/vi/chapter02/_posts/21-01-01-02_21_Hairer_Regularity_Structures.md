@@ -20,7 +20,7 @@ Suốt nhiều thập niên, những phương trình kinh điển như **KPZ** h
 
 Huy chương này trao cho một **ngôn ngữ mới**. Bằng cách mở rộng khai triển Taylor cổ điển — bổ sung vào danh sách đa thức $$1, x, x^2, \ldots$$ các "đơn thức trừu tượng" dựng từ chính nhiễu trắng — lý thuyết **cấu trúc chính quy** (*regularity structures*) của Hairer cho phép ta nhân các phân phối gồ ghề trong một không gian đại số, thực hiện **tái chuẩn hóa** chặt chẽ, rồi "tái dựng" thành nghiệm thật. Bài học này cũng đặt công trình của Hairer cạnh **đường thô** (*rough paths*) của Lyons và **phân phối paracontrol** của Gubinelli–Imkeller–Perkowski, đồng thời khẳng định rõ: đây không phải lời giải bài toán Navier–Stokes 3D của Viện Clay, và bằng tiến sĩ vật lý của Hairer chỉ là chi tiết tiểu sử.
 
-**Mạch bài học:** Bản đồ kiến thức nền (phân phối, nhiễu trắng, SPDE kỳ dị) → Ví dụ cầm tay chỉ việc: vì sao $$\delta_0^2$$ bùng nổ và bảng đếm bậc chính quy của KPZ, $$\Phi^4_3$$ → Khung giải thích chậm: 4 bước từ khai triển Taylor mở rộng đến tái dựng, tái chuẩn hóa và điểm bất động → Đường thô (Lyons) & Phân phối paracontrol (GIP) → Phạm vi định lý và những điều không khẳng định.
+**Mạch bài học:** Kiến thức cần nhớ (phân phối, nhiễu trắng, SPDE kỳ dị) → Ví dụ làm từng bước: vì sao $$\delta_0^2$$ bùng nổ và bảng đếm bậc chính quy của KPZ, $$\Phi^4_3$$ → Giải thích: 4 bước từ khai triển Taylor mở rộng đến tái dựng, tái chuẩn hóa và điểm bất động → Đường thô (Lyons) & Phân phối paracontrol (GIP) → Phạm vi định lý và những điều không khẳng định.
 
 ---
 
@@ -40,7 +40,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Phân phối, Nhiễu trắng và SPDE kỳ dị nghiên cứu gì?
+## Kiến thức cần nhớ: Phân phối, Nhiễu trắng và SPDE kỳ dị nghiên cứu gì?
 
 ### 1. Phân phối (Distributions) — lấy đạo hàm thoải mái, nhưng mất phép nhân
 Trong giải tích đại học, hàm bậc thang (nhảy từ $$0$$ lên $$1$$ tại $$x = 0$$) không có đạo hàm cổ điển. **Lý thuyết phân phối** của Laurent Schwartz định nghĩa hàm suy rộng qua tích phân với hàm thử trơn $$\varphi$$: $$\langle u, \varphi \rangle = \int u(x)\varphi(x)\,dx$$. Nhờ tích phân từng phần, mọi phân phối đều khả vi vô hạn lần (đạo hàm của hàm bậc thang là hàm delta Dirac $$\delta_0$$). Cái giá phải trả: **ta không thể nhân hai phân phối thô với nhau**.
@@ -57,7 +57,7 @@ Giải tích Itô cổ điển (thập niên 1940) giải được phương trì
 
 ---
 
-## 1. Ví dụ cầm tay chỉ việc: tại sao $$\delta_0^2$$ bùng nổ và bảng đếm bậc của KPZ, $$\Phi^4_3$$
+## 1. Ví dụ làm từng bước: tại sao $$\delta_0^2$$ bùng nổ và bảng đếm bậc của KPZ, $$\Phi^4_3$$
 
 ### Ví dụ 1: Tại sao không thể bình phương hàm delta $$\delta_0$$?
 Hãy xấp xỉ hàm delta Dirac $$\delta_0$$ bằng một cột hình chữ nhật rộng $$\varepsilon$$ và cao $$1/\varepsilon$$ quanh gốc $$0$$:
@@ -87,7 +87,7 @@ Nhìn vào bảng, ta thấy ngay con số **$$-1-$$** và **$$-3/2-$$** giải 
 
 ---
 
-## 2. Khung giải thích: Cấu trúc chính quy thuần hóa vô hạn như thế nào? (nên đọc chậm)
+## 2. Giải thích: Cấu trúc chính quy thuần hóa vô hạn như thế nào?
 
 Martin Hairer (sinh 1975 tại Geneva, tiến sĩ vật lý năm 2001 dưới sự hướng dẫn của Jean-Pierre Eckmann) trước đó đã nổi tiếng với định lý ergodic cho Navier–Stokes ngẫu nhiên 2D (cùng Jonathan Mattingly, *Annals*, 2006) và lấy cảm hứng sâu sắc từ **lý thuyết đường thô** (*rough paths*) của **Terry Lyons**. Sau bài giải KPZ năm 2013 (*Annals*), ông công bố bộ máy tổng quát *A theory of regularity structures* (*Inventiones*, 2014; arXiv:1303.5113) hoạt động qua 4 bước:
 

@@ -18,7 +18,7 @@ This optional **2022–2026 field report** sits right beside the [modern themes]
 
 After this optional update you should be able to add three concrete 2022–2026 artifacts—compute-optimal training, Lean-based olympiad agents, and causal sequence models—to the [modern themes]({{ site.baseurl }}/contents/en/chapter09/09_14_Modern_Themes/) compass, distinguish *empirical scaling regularities* from *kernel-checked formal proofs* and *causal-approximation architectures*, and link all three back to Chapter 9's Turing foundations.
 
-## Background Knowledge Map: Compute-Optimal Scaling, Formal AI Proofs, and Sequential Causal ML
+## Key ideas: Compute-Optimal Scaling, Formal AI Proofs, and Sequential Causal ML
 
 These three 2022–2026 milestones crystallize three of the sharpest math–CS questions of the decade:
 
@@ -66,7 +66,7 @@ $$
 
 Even though the raw future score $$S_{2,3} = 5$$ was huge, the causal mask zeroes out backward time leakage to **0**—leaving the adversarial balancing loss to tackle past confounding from days $$t = 1, 2$$ in the spirit of Pearl's $$do(A_t)$$.
 
-### Deep-Dive Explanation: How 2022–2026 Connects Directly Back to Turing Award Foundations (Read Slowly)
+### Explanation: How 2022–2026 Connects Directly Back to Turing Award Foundations
 
 1. **Constrained resource accounting (Knuth & Deep Learning Trio):** Chinchilla echoes computer science's oldest lesson—every computation has a budget. Modern scaling solves a constrained extremum along the iso-compute hyperbola $$6ND = C$$.
 2. **Separating *creative search* from *exact verification* (Cook–Karp & Formal Methods):** in NP, finding a witness is hard while checking it is easy. AlphaProof exploits that exact asymmetry: neural nets freely propose bold steps, while Lean's kernel enforces zero-error mathematical validity.

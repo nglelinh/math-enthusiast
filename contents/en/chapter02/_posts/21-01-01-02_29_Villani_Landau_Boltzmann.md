@@ -18,7 +18,7 @@ For more than sixty years, whether this collisionless "friction" survives once f
 
 Let us clear up one ubiquitous myth immediately: although Villani authored two landmark textbooks on **optimal transport**, the 2010 IMU citation is **not** about optimal transport (see [Optimal transport]({{ site.baseurl }}/contents/en/chapter06/06_09_Optimal_Transport/) and [Figalli]({{ site.baseurl }}/contents/en/chapter02/02_20_Figalli_Optimal_Transport/) for that wing of his career). The 2010 medal honors two kinetic PDE theorems: **nonlinear Landau damping** (with **Clément Mouhot**) for Vlasov–Poisson, and **quantitative convergence to equilibrium** for the inhomogeneous Boltzmann equation (with **Laurent Desvillettes**, alongside Villani’s **hypocoercivity** program). Meanwhile, his bestselling memoir *Théorème vivant* / *Birth of a Theorem* is literature about the collaboration with Mouhot, not a research article.
 
-**Lesson roadmap:** Background Knowledge Map (phase space, Vlasov vs. Boltzmann, phase mixing & hypocoercivity) → Hand-verifiable worked example: solving 1D free-transport phase mixing on a circle to watch density decay like $$e^{-t^2/2}$$ with zero collisions → Deep-Dive Explanation (Read Slowly): 4 steps taming plasma echoes (Mouhot–Villani) and inhomogeneous Boltzmann equilibration (Desvillettes–Villani) → Separating 2010 kinetic theory from optimal transport.
+**Lesson roadmap:** Key ideas (phase space, Vlasov vs. Boltzmann, phase mixing & hypocoercivity) → Hand-verifiable worked example: solving 1D free-transport phase mixing on a circle to watch density decay like $$e^{-t^2/2}$$ with zero collisions → Explanation: 4 steps taming plasma echoes (Mouhot–Villani) and inhomogeneous Boltzmann equilibration (Desvillettes–Villani) → Separating 2010 kinetic theory from optimal transport.
 
 ---
 
@@ -38,7 +38,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Do Kinetic Theory, Phase Mixing, and Hypocoercivity Study?
+## Key ideas: What Do Kinetic Theory, Phase Mixing, and Hypocoercivity Study?
 
 ### 1. Two extreme kinetic equations on phase space $$(x, v)$$
 Instead of tracking $$10^{23}$$ individual particles, **kinetic theory** evolves a phase-space density $$f(t,x,v) \ge 0$$ at position $$x$$ and velocity $$v$$, with macroscopic spatial density $$\rho(t,x) = \int f(t,x,v)\,dv$$:
@@ -89,7 +89,7 @@ The macroscopic density wave (and its electric field) decays **faster than expon
 
 ---
 
-## 2. Deep-Dive Explanation: From Nonlinear Landau Damping to Inhomogeneous Boltzmann (Read Slowly)
+## 2. Explanation: From Nonlinear Landau Damping to Inhomogeneous Boltzmann
 
 Why did nonlinear Landau damping stay open for 65 years, and why does inhomogeneous Boltzmann require hypocoercivity? Follow four steps:
 

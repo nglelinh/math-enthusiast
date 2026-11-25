@@ -13,7 +13,7 @@ Năm 1852 tại London, chàng sinh viên trẻ **Francis Guthrie** ngồi tô m
 
 Chẳng ai ngờ câu đố màu sắc ấy lại hành hạ giới toán học suốt **124 năm**. Năm 1879, luật sư kiêm nhà toán học Alfred Kempe công bố một lời giải thanh lịch và cả thế giới reo mừng — cho đến 11 năm sau, Percy Heawood phát hiện một lỗ hổng tinh vi giấu kín trong lập luận đổi màu chuỗi của Kempe (lập luận đó đủ chứng minh **Năm màu**, nhưng không đủ cho Bốn màu!). Phải đến năm 1976, **Kenneth Appel** và **Wolfgang Haken** mới khép lại bài toán bằng cách nhờ máy tính kiểm tra hàng nghìn cấu hình — tạo ra định lý lớn đầu tiên trong lịch sử mà chứng minh **cần đến máy tính một cách thiết yếu**.
 
-**Mạch bài học:** Bản đồ kiến thức nền (đồ thị phẳng, đối ngẫu, công thức Euler, chứng minh hình thức) → Phát biểu và bẫy trực giác $$K_4/K_5$$ → Phản ví dụ tối thiểu và tập không tránh được → Khung giải thích chậm: tự tay chứng minh $$\sum(6-\deg(v))=12$$, kiểm tra trên tứ diện/bát diện và chuỗi Kempe 5 màu → Discharging và kiểm chứng trong Coq.
+**Mạch bài học:** Kiến thức cần nhớ (đồ thị phẳng, đối ngẫu, công thức Euler, chứng minh hình thức) → Phát biểu và bẫy trực giác $$K_4/K_5$$ → Phản ví dụ tối thiểu và tập không tránh được → Giải thích: tự tay chứng minh $$\sum(6-\deg(v))=12$$, kiểm tra trên tứ diện/bát diện và chuỗi Kempe 5 màu → Discharging và kiểm chứng trong Coq.
 
 ---
 
@@ -32,9 +32,9 @@ Sau bài này, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Đồ thị phẳng, Sắc số và Chứng minh có máy tính hỗ trợ là gì?
+## Kiến thức cần nhớ: Đồ thị phẳng, Sắc số và Chứng minh có máy tính hỗ trợ là gì?
 
-Để người tốt nghiệp đại học nắm ngay bức tranh toàn cảnh trước khi bước vào kỹ thuật *discharging*, hãy xem ba trụ cột đứng sau Định lý Bốn Màu:
+Để người tốt nghiệp đại học nắm ngay tổng quan trước khi bước vào kỹ thuật *discharging*, hãy xem ba trụ cột đứng sau Định lý Bốn Màu:
 
 ### 1. Đồ thị phẳng (Planar Graph), Đối ngẫu và Công thức Euler
 Một đồ thị gọi là **phẳng** nếu vẽ được nó trên mặt giấy mà không có hai cạnh nào cắt chéo nhau. Mỗi bản đồ chính trị đều biến thành một đồ thị phẳng bằng phép **đối ngẫu (duality)**: đặt một đỉnh vào thủ đô mỗi nước và vẽ một cạnh nối hai nước có chung một đoạn biên giới. Khi đó, "tô màu bản đồ" trở thành "tô màu đỉnh đồ thị sao cho hai đỉnh kề nhau khác màu". Trái tim của mọi đồ thị phẳng liên thông là **công thức Euler**:
@@ -88,7 +88,7 @@ Nếu chứng minh được **mọi** cấu hình trong tập không tránh đư
 
 ---
 
-## 4. Khung giải thích: tự tay suy ra phương trình "điện tích" và chạy thử chuỗi Kempe (nên đọc chậm)
+## 4. Giải thích: tự tay suy ra phương trình "điện tích" và chạy thử chuỗi Kempe
 
 Để không thấy *discharging* hay *chuỗi Kempe* như những thuật ngữ trừu tượng, hãy cầm bút kiểm tra từng bước trên các khối hình cụ thể:
 

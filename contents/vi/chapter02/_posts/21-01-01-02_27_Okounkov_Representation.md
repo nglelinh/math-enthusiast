@@ -19,7 +19,7 @@ Người đã nhìn thấu và dựng nên những cây cầu nối liền ba l�
 
 Thông cáo báo chí của IMU năm 2006 thẳng thắn nhận xét công trình của Okounkov khó xếp vào một ngăn tủ truyền thống nào, bởi hai chủ đề xuyên suốt của ông là **tính ngẫu nhiên** và **lý thuyết biểu diễn cổ điển** (nhóm đối xứng, biểu đồ Young), được dùng để giải các bài toán trung tâm của hình học đại số đếm và cơ học thống kê. Bài học này sẽ đi từ một ví dụ cầm tay cho $$n = 3$$ trên nhóm đối xứng $$S_3$$ tới tinh thể nóng chảy, lý thuyết Gromov–Witten của Okounkov–Pandharipande và hàm phân hoạch instanton của Nekrasov–Okounkov — đồng thời giữ ranh giới chính xác: ông không phân loại mọi biểu diễn nhóm và không phát minh lý thuyết gauge.
 
-**Mạch bài học:** Bản đồ kiến thức nền (lý thuyết biểu diễn $$S_n$$, biểu đồ Young, không gian Fock) → Ví dụ cầm tay chỉ việc: tính trọn bộ độ đo Plancherel cho $$S_3$$ và chạy thuật toán Robinson–Schensted → Từ hình dạng giới hạn đến tinh thể nóng chảy và đường cong đại số → Khung giải thích chậm: 4 bước bắc cầu từ biểu đồ Young sang Gromov–Witten ($$\mathbb{P}^1$$) và instanton Seiberg–Witten → Quá trình Schur & những điều không khẳng định.
+**Mạch bài học:** Kiến thức cần nhớ (lý thuyết biểu diễn $$S_n$$, biểu đồ Young, không gian Fock) → Ví dụ làm từng bước: tính trọn bộ độ đo Plancherel cho $$S_3$$ và chạy thuật toán Robinson–Schensted → Từ hình dạng giới hạn đến tinh thể nóng chảy và đường cong đại số → Giải thích: 4 bước bắc cầu từ biểu đồ Young sang Gromov–Witten ($$\mathbb{P}^1$$) và instanton Seiberg–Witten → Quá trình Schur & những điều không khẳng định.
 
 ---
 
@@ -40,7 +40,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết biểu diễn $$S_n$$, Biểu đồ Young và Không gian Fock là gì?
+## Kiến thức cần nhớ: Lý thuyết biểu diễn $$S_n$$, Biểu đồ Young và Không gian Fock là gì?
 
 ### 1. Lý thuyết biểu diễn nhóm đối xứng $$S_n$$ nghiên cứu gì?
 **Lý thuyết biểu diễn** biến các nhóm đối xứng trừu tượng thành các ma trận vuông khả nghịch, rồi phân tích chúng thành những "nguyên tử" gọi là **biểu diễn bất khả quy**. Với nhóm đối xứng $$S_n$$ (gồm $$n!$$ hoán vị của $$n$$ phần tử), các biểu diễn bất khả quy tương ứng **1–1** với các **phân hoạch** $$\lambda = (\lambda_1 \ge \lambda_2 \ge \cdots)$$ của số $$n$$, vẽ trực quan thành **biểu đồ Young** gồm các hàng ô vuông xếp chồng.
@@ -59,7 +59,7 @@ Nếu coi mỗi biểu đồ Young $$\lambda$$ (ở mọi kích thước $$n \ge
 
 ---
 
-## 1. Ví dụ cầm tay chỉ việc: tính trọn bộ độ đo Plancherel cho $$S_3$$ và thuật toán Robinson–Schensted
+## 1. Ví dụ làm từng bước: tính trọn bộ độ đo Plancherel cho $$S_3$$ và thuật toán Robinson–Schensted
 
 Hãy thử với $$n = 3$$ (nhóm $$S_3$$ có $$3! = 6$$ hoán vị). Số $$3$$ có đúng **3 phân hoạch**:
 
@@ -88,7 +88,7 @@ Tiếp đó, **Kenyon–Okounkov** (và Sheffield) nghiên cứu **phân hoạch
 
 ---
 
-## 3. Khung giải thích: Ba cây cầu lớn của Okounkov vận hành như thế nào? (nên đọc chậm)
+## 3. Giải thích: Ba cây cầu lớn của Okounkov vận hành như thế nào?
 
 Làm sao cùng một bộ công cụ "biểu đồ Young + độ đo ngẫu nhiên" lại giải được bài toán ở cả hình học đếm lẫn vật lý lý thuyết 4 chiều? Hãy xem chuỗi 4 bước:
 

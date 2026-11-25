@@ -19,7 +19,7 @@ Năm **2021**, **Giải Abel** được trao chung cho **László Lovász** và 
 
 Từ bổ đề địa phương Lovász và thuật toán rút gọn mạng lưới LLL cho đến cuộc cách mạng khử ngẫu nhiên, chứng minh không tiết lộ thông tin (*zero-knowledge*) và đồ thị expander của Wigderson, hai sự nghiệp này đã kéo toán rời rạc và khoa học máy tính lý thuyết (TCS) vào đúng trung tâm của toán học hiện đại—ngay bên cạnh [P vs NP]({{ site.baseurl }}/contents/vi/chapter01/01_03_P_vs_NP/), dù bài toán triệu đô ấy vẫn còn đang mở. Tài liệu chính thức: [abelprize.no](https://abelprize.no/).
 
-**Mạch bài học:** Bản đồ kiến thức nền (Toán rời rạc, Lý thuyết độ phức tạp, Độ khó như tài nguyên) → Lovász và Bổ đề địa phương → Khung giải thích chậm: tính tay so sánh Union Bound với Bổ đề Lovász và khoảng cách phổ đồ thị → Wigderson, khử ngẫu nhiên và expander → Bên cạnh P vs NP và những nhầm lẫn.
+**Mạch bài học:** Kiến thức cần nhớ (Toán rời rạc, Lý thuyết độ phức tạp, Độ khó như tài nguyên) → Lovász và Bổ đề địa phương → Giải thích: tính tay so sánh Union Bound với Bổ đề Lovász và khoảng cách phổ đồ thị → Wigderson, khử ngẫu nhiên và expander → Bên cạnh P vs NP và những nhầm lẫn.
 
 ---
 
@@ -31,7 +31,7 @@ Sau bài này, bạn có thể giải thích vì sao toán rời rạc và TCS x
 
 ---
 
-## Bản đồ kiến thức nền: Toán rời rạc và Lý thuyết độ phức tạp tính toán là gì và nghiên cứu những gì?
+## Kiến thức cần nhớ: Toán rời rạc và Lý thuyết độ phức tạp tính toán là gì và nghiên cứu những gì?
 
 Nếu giải tích và hình học vi phân nghiên cứu thế giới **liên tục** (đường cong mượt, dòng chảy, đạo hàm), thì hai lĩnh vực của Lovász và Wigderson nghiên cứu thế giới **rời rạc**—nhưng ở tầng sâu cấu trúc không hề thua kém:
 
@@ -70,7 +70,7 @@ $$
 \mathbb{P}\Big(\bigcap_{i=1}^m A_i^c\Big) > 0.
 $$
 
-### Khung giải thích: Tự tay so sánh Union Bound với Bổ đề Lovász và khoảng cách phổ đồ thị (nên đọc chậm)
+### Giải thích: Tự tay so sánh Union Bound với Bổ đề Lovász và khoảng cách phổ đồ thị
 
 #### Ví dụ 1: Khi nào Union Bound sụp đổ mà Bổ đề Lovász thắng tuyệt đối?
 Xét một bài toán logic **$$10$$-SAT** khổng lồ gồm $$m = 1.000.000$$ mệnh đề, mỗi mệnh đề là phép HOẶC của $$k = 10$$ biến đúng/sai, và mỗi mệnh đề chỉ dùng chung biến với tối đa $$d = 300$$ mệnh đề khác. Ta gán Đúng/Sai ngẫu nhiên độc lập (xác suất $$1/2$$) cho từng biến.

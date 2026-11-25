@@ -32,7 +32,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Phép tính biến phân và Giải tích hình học là gì và giữ vai trò gì?
+## Kiến thức cần nhớ: Phép tính biến phân và Giải tích hình học là gì và giữ vai trò gì?
 
 Ở giải tích đại cương, để tìm điểm $$x$$ làm cực tiểu hàm số $$f(x)$$, ta giải phương trình đạo hàm $$f'(x) = 0$$. Nhưng nếu ẩn số không còn là một con số $$x$$, mà là **cả một đường cong** (như đường đi ngắn nhất giữa hai điểm) hay **cả một mặt cong $$S$$** (như màng xà phòng có diện tích nhỏ nhất căng trên khung dây), thì ta bước sang **Phép tính biến phân** (Calculus of Variations) và **Giải tích hình học**. Đây là ngôn ngữ lõi của cơ học cổ điển (nguyên lý tác dụng tối thiểu), thuyết tương đối rộng (chứng minh định lý khối lượng dương của Schoen–Yau), thiết kế kết cấu kiến trúc siêu nhẹ và xử lý lưới 3D trong đồ họa máy tính.
 
@@ -75,7 +75,7 @@ $$
 
 một phương trình đạo hàm riêng elliptic tựa tuyến tính (quasilinear). Nghiệm của nó là đồ thị có diện tích nhỏ nhất so với các đồ thị lân cận có cùng giá trị trên biên (với điều kiện phù hợp). Tính phi tuyến đến từ việc phần tử diện tích là $$\sqrt{1+u_x^2+u_y^2}\,dx\,dy$$.
 
-### Ví dụ tính toán cầm tay chỉ việc: tự tay kiểm tra $$H = 0$$ trên mặt Catenoid!
+### Ví dụ tính toán làm từng bước: tự tay kiểm tra $$H = 0$$ trên mặt Catenoid!
 
 Xét mặt tròn xoay **catenoid** sinh bởi đường dây xích $$r(z) = a\cosh(z/a)$$ (với $$a > 0$$ là bán kính thắt eo tại $$z = 0$$). Ta có:
 - Đạo hàm bậc nhất: $$r'(z) = \sinh(z/a)$$, suy ra $$\sqrt{1 + (r')^2} = \sqrt{1 + \sinh^2(z/a)} = \cosh(z/a)$$.
@@ -89,7 +89,7 @@ Tính trực tiếp hai độ cong chính của mặt tròn xoay tại độ cao
 
 Cộng hai kết quả lại: $$H = \frac{\kappa_1 + \kappa_2}{2} = 0$$ **triệt tiêu tuyệt đối tại mọi điểm $$z$$!** Hai độ uốn ngược chiều nhau vừa khít từng milimét ở khắp mặt catenoid.
 
-### Khung giải thích: từ màng xà phòng đến phương trình đạo hàm riêng $$H = 0$$ (nên đọc chậm)
+### Giải thích: từ màng xà phòng đến phương trình đạo hàm riêng $$H = 0$$
 
 Tại sao một câu hỏi hình học cực kỳ đơn giản ("diện tích nhỏ nhất") lại biến thành phương trình độ cong trung bình $$H = 0$$? Hãy đi chậm qua 4 bước:
 

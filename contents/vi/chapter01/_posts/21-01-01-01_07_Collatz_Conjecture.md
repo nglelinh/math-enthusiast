@@ -18,7 +18,7 @@ Nghe như một bài tập lớp 3, nhưng nó là chiếc bẫy khét tiếng n
 
 Trong khóa Math Enthusiast, Collatz đóng hai vai trò thú vị: ở trang Chương 1 này, nó là **ví dụ mẫu kinh điển về một bài toán mở sơ cấp**, giúp bạn phân biệt sắc nét giữa bằng chứng tính toán và chứng minh toán học; còn ở [bài thực hành Chương 7]({{ site.baseurl }}/contents/vi/chapter07/07_09_Explore_Iteration/), nó là sân chơi mặc định cho bài **A5**, nơi bạn làm thí nghiệm số học có phương pháp (chứ không phải đi "chứng minh Collatz trong hồ sơ học tập").
 
-**Mạch bài học:** Bản đồ kiến thức nền → quy tắc & ví dụ tính tay quỹ đạo $$N=7, 9$$ → thời gian dừng → kiểm tra so với chứng minh → phép tính kỳ vọng lực hút $$3/4$$ & chu trình âm $$-5$$ → ánh xạ Syracuse → khung giải thích chậm định lý Tao (2019) → vì sao khó & hiểu lầm thường gặp.
+**Mạch bài học:** Kiến thức cần nhớ → quy tắc & ví dụ tính tay quỹ đạo $$N=7, 9$$ → thời gian dừng → kiểm tra so với chứng minh → phép tính kỳ vọng lực hút $$3/4$$ & chu trình âm $$-5$$ → ánh xạ Syracuse → khung giải thích chậm định lý Tao (2019) → vì sao khó & hiểu lầm thường gặp.
 
 ---
 
@@ -41,7 +41,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Hệ động lực rời rạc, Lý thuyết Ergodic và Số học $$p$$-adic là gì?
+## Kiến thức cần nhớ: Hệ động lực rời rạc, Lý thuyết Ergodic và Số học $$p$$-adic là gì?
 
 Collatz phát biểu bằng số học tiểu học, nhưng muốn hiểu những kết quả nghiên cứu sâu nhất về nó, bạn cần nhìn thấy ba trụ cột toán học đứng phía sau:
 
@@ -111,7 +111,7 @@ Hai đại lượng cổ điển dùng để ghi chép:
 - **Thời gian dừng (stopping time)** của $$n$$: bước đầu tiên $$k$$ mà $$T^k(n) < n$$ (đo xem mất bao lâu dãy mới "chịu thấp hơn" điểm xuất phát).
 - **Thời gian dừng toàn phần (total stopping time)** của $$n$$: bước đầu tiên chạm $$1$$.
 
-### Ví dụ cầm tay chỉ việc 1: Tính chi tiết quỹ đạo và hai thời gian dừng cho $$n = 7$$ và $$n = 9$$
+### Ví dụ làm từng bước 1: Tính chi tiết quỹ đạo và hai thời gian dừng cho $$n = 7$$ và $$n = 9$$
 
 - **Với $$n = 7$$:**
   $$
@@ -168,7 +168,7 @@ Câu nói đúng khi thảo luận: *Collatz đã được kiểm tra đến m�
 
 ## 5. Lập luận gần đúng: vì sao kỳ vọng dãy đi xuống
 
-### Ví dụ cầm tay chỉ việc 2: Chứng minh trực giác lực hút $$3/4$$ và thử đổi sang số âm!
+### Ví dụ làm từng bước 2: Chứng minh trực giác lực hút $$3/4$$ và thử đổi sang số âm!
 
 1. **Tính kỳ vọng lực hút đi xuống:** Xuất phát từ một số lẻ $$N$$ lớn, giá trị $$3N+1$$ luôn là số chẵn nên chia hết cho $$2^1$$ (xác suất $$1$$); nếu các bit nhị phân hành xử như tung đồng xu ngẫu nhiên thì nó chia hết cho $$2^2 = 4$$ với xác suất $$1/2$$, cho $$2^3 = 8$$ với xác suất $$1/4$$, v.v. Do đó, số lần chia đôi trung bình ngay sau một bước lẻ là tổng chuỗi hình học:
    $$
@@ -249,7 +249,7 @@ với hầu hết $$N$$ theo mật độ logarit. Ví dụ minh họa: hầu h�
 
 Nguồn chuẩn: [arXiv:1909.03562](https://arxiv.org/abs/1909.03562), [blog Tao](https://terrytao.wordpress.com/2019/09/10/almost-all-collatz-orbits-attain-almost-bounded-values/); bài phổ thông: [Quanta](https://www.quantamagazine.org/mathematician-proves-huge-result-on-dangerous-problem-20191211/).
 
-### 7.2 Khung giải thích: Ý tưởng phía sau định lý "hầu hết" của Tao (2019) (nên đọc chậm)
+### 7.2 Giải thích: Ý tưởng phía sau định lý "hầu hết" của Tao (2019)
 
 Làm thế nào Terence Tao tiến gần đến Collatz hơn bất kỳ ai trong nhiều thập kỷ mà không bị mắc kẹt ở ngưỡng $$N^{0{,}7925}$$ cũ của Korec? Hãy đi chậm qua 4 bước:
 

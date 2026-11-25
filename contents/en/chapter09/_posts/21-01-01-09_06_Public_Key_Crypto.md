@@ -35,7 +35,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Are Public-Key Cryptography and Computational Number Theory?
+## Key ideas: What Are Public-Key Cryptography and Computational Number Theory?
 
 Behind the little padlock icon in your browser sits a striking reversal of mindset from **Computational Number Theory** and **Public-Key Cryptography**. Normally in computer science, a *hard* problem is an enemy to defeat. In cryptography, **computational asymmetry**—easy forward, brutally hard backward—becomes our most valuable raw material!
 
@@ -137,7 +137,7 @@ $$
    - $$13^{16} \equiv (-19)^2 = 361 = 6\times 55 + 31 \equiv 31 \pmod{55}$$.
    Multiply the four pieces: $$13^{27} \equiv 31 \cdot (-19) \cdot 4 \cdot 13$$. Pair them up: $$31\cdot 4 = 124 \equiv 14$$ and $$(-19)\cdot 13 = -247 = -5\times 55 + 28 \equiv 28$$. Finally, $$14 \cdot 28 = 392 = 7\times 55 + 7 \equiv 7 \pmod{55}$$ — **recovering the exact original message $$m = 7$$!**
 
-### Deep-Dive Explanation: Four Steps Turning Modular Arithmetic into Your HTTPS Padlock (Read Slowly)
+### Explanation: Four Steps Turning Modular Arithmetic into Your HTTPS Padlock
 
 1. **Authenticate the server with digital signatures:** your browser verifies the server's certificate (signed via RSA/ECDSA) to be certain you are talking to your real bank and not a man-in-the-middle imposter.
 2. **Negotiate a fresh session key via Diffie–Hellman / ECDHE:** both sides exchange public $$g^a, g^b$$ (on elliptic curves, increasingly hybridized with post-quantum ML-KEM) to derive a one-time shared secret $$K$$.

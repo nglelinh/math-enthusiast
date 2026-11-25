@@ -20,7 +20,7 @@ Suốt hơn 60 năm, câu hỏi liệu "ma sát không va chạm" kỳ lạ đó
 
 Cần tách bạch ngay từ đầu một hiểu lầm cực kỳ phổ biến: dù Villani nổi tiếng toàn cầu với hai bộ sách kinh điển về **vận chuyển tối ưu**, lời trao giải năm 2010 của IMU **không** nói về vận chuyển tối ưu (mảng đó nằm ở [Vận chuyển tối ưu]({{ site.baseurl }}/contents/vi/chapter06/06_09_Optimal_Transport/) và [Figalli]({{ site.baseurl }}/contents/vi/chapter02/02_20_Figalli_Optimal_Transport/)). Huy chương 2010 tôn vinh hai định lý về **phương trình động học**: **tắt dần Landau phi tuyến** (cùng **Clément Mouhot**) cho phương trình Vlasov–Poisson, và **tốc độ hội tụ về cân bằng** cho phương trình Boltzmann không thuần nhất (cùng **Laurent Desvillettes**, cùng chương trình **hypocoercivity**). Còn cuốn hồi ký bán chạy *Théorème vivant* (*Birth of a Theorem*) là văn chương kể lại quá trình chứng minh cùng Mouhot, không phải bài báo khoa học.
 
-**Mạch bài học:** Bản đồ kiến thức nền (không gian pha, Vlasov vs. Boltzmann, trộn pha và hypocoercivity) → Ví dụ tính tay cầm tay chỉ việc: trộn pha 1D trên vòng tròn làm mật độ tắt siêu hàm mũ $$e^{-t^2/2}$$ không cần va chạm → Khung giải thích chậm: 4 bước chinh phục tiếng vọng plasma (Mouhot–Villani) và cân bằng Boltzmann không thuần nhất (Desvillettes–Villani) → Ranh giới với vận chuyển tối ưu và những điều không khẳng định.
+**Mạch bài học:** Kiến thức cần nhớ (không gian pha, Vlasov vs. Boltzmann, trộn pha và hypocoercivity) → Ví dụ tính tay làm từng bước: trộn pha 1D trên vòng tròn làm mật độ tắt siêu hàm mũ $$e^{-t^2/2}$$ không cần va chạm → Giải thích: 4 bước chinh phục tiếng vọng plasma (Mouhot–Villani) và cân bằng Boltzmann không thuần nhất (Desvillettes–Villani) → Ranh giới với vận chuyển tối ưu và những điều không khẳng định.
 
 ---
 
@@ -40,7 +40,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết động học, Trộn pha và Hypocoercivity nghiên cứu gì?
+## Kiến thức cần nhớ: Lý thuyết động học, Trộn pha và Hypocoercivity nghiên cứu gì?
 
 ### 1. Hai phương trình ở hai thái cực trên không gian pha $$(x, v)$$
 Thay vì theo dõi từng hạt trong $$10^{23}$$ phân tử, **lý thuyết động học** theo dõi hàm mật độ $$f(t, x, v) \ge 0$$ tại vị trí $$x$$ và vận tốc $$v$$, với mật độ không gian quan sát được là $$\rho(t,x) = \int f(t,x,v)\,dv$$:
@@ -63,7 +63,7 @@ Trong phương trình Boltzmann, va chạm chỉ hãm sự hỗn loạn theo **v
 
 ---
 
-## 1. Ví dụ cầm tay chỉ việc: giải chính xác trộn pha 1D trên vòng tròn
+## 1. Ví dụ làm từng bước: giải chính xác trộn pha 1D trên vòng tròn
 
 Để thấy tận mắt vì sao một phương trình **thuận nghịch, không va chạm** lại làm dao động mật độ tắt siêu nhanh, hãy tắt tạm điện trường $$E = 0$$ và giải phương trình vận chuyển tự do 1D trên vòng tròn $$x \in [0, 2\pi)$$:
 
@@ -91,7 +91,7 @@ Hãy ngắm công thức đó: biên độ sóng mật độ (và kéo theo đi�
 
 ---
 
-## 2. Khung giải thích: Từ tắt dần Landau phi tuyến đến Boltzmann không thuần nhất (nên đọc chậm)
+## 2. Giải thích: Từ tắt dần Landau phi tuyến đến Boltzmann không thuần nhất
 
 Tại sao bài toán phi tuyến của Landau phải đợi 65 năm, và bài toán Boltzmann không thuần nhất lại cần đến hypocoercivity? Hãy đi chậm qua 4 bước:
 

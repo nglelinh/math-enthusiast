@@ -20,7 +20,7 @@ Hãy thử một trò chơi đơn giản trên vòng tròn $$[0, 1)$$: mỗi bư
 
 Huy chương tôn vinh các định lý phân loại độ đo bất biến cho **tác động chéo hóa được có hạng cao** trên không gian thuần nhất, cùng hai ứng dụng vang dội: chứng minh tập các ngoại lệ của **giả thuyết Littlewood** có **chiều Hausdorff bằng không** (cùng Manfred Einsiedler và Anatole Katok), và chứng minh **tính ergodic lượng tử duy nhất số học (QUE)** cho dạng Hecke–Maass trên các mặt hyperbolic số học compact. Bài học này đặt công trình của Lindenstrauss vào dòng chảy Furstenberg–Margulis–Ratner–Katok–Einsiedler–Host–Kra, đồng thời giữ ranh giới trung thực: giả thuyết Littlewood đầy đủ và QUE cho mặt hyperbolic không số học vẫn còn mở.
 
-**Mạch bài học:** Bản đồ kiến thức nền (lý thuyết ergodic, không gian thuần nhất các lưới, độ cứng độ đo) → Ví dụ cầm tay chỉ việc: $$\times 2$$ vs $$\times 3$$ trên vòng tròn và bài toán Littlewood dưới lăng kính lưới $$3\times 3$$ → Lũy đơn (Ratner) vs. Chéo hạng cao (EKL) → Khung giải thích chậm: 4 bước nối động lực học thuần nhất sang Littlewood và QUE số học → Ghi nhận công lao & phân biệt với Giải Abel 2020.
+**Mạch bài học:** Kiến thức cần nhớ (lý thuyết ergodic, không gian thuần nhất các lưới, độ cứng độ đo) → Ví dụ làm từng bước: $$\times 2$$ vs $$\times 3$$ trên vòng tròn và bài toán Littlewood dưới lăng kính lưới $$3\times 3$$ → Lũy đơn (Ratner) vs. Chéo hạng cao (EKL) → Giải thích: 4 bước nối động lực học thuần nhất sang Littlewood và QUE số học → Ghi nhận công lao & phân biệt với Giải Abel 2020.
 
 ---
 
@@ -40,7 +40,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết ergodic, Động lực học thuần nhất và Độ cứng độ đo là gì?
+## Kiến thức cần nhớ: Lý thuyết ergodic, Động lực học thuần nhất và Độ cứng độ đo là gì?
 
 ### 1. Lý thuyết ergodic nghiên cứu những câu hỏi nào?
 Lý thuyết ergodic nghiên cứu hành vi thống kê dài hạn của một hệ động lực bảo toàn độ đo $$(X, \mu, H)$$. Một độ đo xác suất $$\mu$$ gọi là **bất biến** nếu tác động của nhóm $$H$$ không làm thay đổi phân bố $$\mu$$, và gọi là **ergodic** nếu không thể tách $$X$$ thành hai mảnh bất biến độc lập đều có độ đo dương. Câu hỏi truyền thống là: *trung bình thời gian dọc theo quỹ đạo có hội tụ về trung bình không gian không?* Còn **độ cứng độ đo** hỏi sâu hơn một tầng: *tất cả những độ đo xác suất bất biến ergodic nào có thể tồn tại ngay từ đầu?*
@@ -59,7 +59,7 @@ Xét tập tất cả các lưới có thể tích đơn vị trong $$\mathbb{R}
 
 ---
 
-## 1. Ví dụ cầm tay chỉ việc: $$\times 2$$ vs. $$\times 3$$ trên vòng tròn và ma trận $$3\times 3$$ của Littlewood
+## 1. Ví dụ làm từng bước: $$\times 2$$ vs. $$\times 3$$ trên vòng tròn và ma trận $$3\times 3$$ của Littlewood
 
 ### Ví dụ 1: Tại sao một phép biến đổi thì "mềm", còn hai phép giao hoán lại "cứng"?
 Xét ánh xạ $$T_2(x) = 2x \bmod 1$$ trên vòng tròn $$[0, 1)$$.
@@ -99,7 +99,7 @@ Hãy nhìn điều kỳ diệu vừa hiện ra: nếu cặp $$(\alpha, \beta)$$ 
 
 ---
 
-## 2. Khung giải thích: từ Độ cứng độ đo đến Littlewood và QUE số học (nên đọc chậm)
+## 2. Giải thích: từ Độ cứng độ đo đến Littlewood và QUE số học
 
 Làm sao một định lý phân loại độ đo trên không gian thuần nhất lại bẻ khóa đồng thời cả bài toán xấp xỉ Diophantine (Littlewood) lẫn hỗn loạn lượng tử (QUE)? Hãy theo dõi mạch lập luận 4 bước:
 

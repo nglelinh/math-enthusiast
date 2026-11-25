@@ -30,7 +30,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Phân tích thuật toán và Toán học tổ hợp ứng dụng là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Phân tích thuật toán và Toán học tổ hợp ứng dụng là gì, nghiên cứu những gì?
 
 Khi bạn chạy thử một đoạn mã trên máy tính và bấm đồng hồ thấy nó mất 0.2 giây, con số đó phụ thuộc vào CPU, ngôn ngữ lập trình, bộ nhớ đệm và đúng một dữ liệu đầu vào cụ thể. **Phân tích thuật toán (Analysis of Algorithms)** giải phóng ta khỏi sự phụ thuộc đó bằng cách biến thời gian chạy thành một **hàm toán học** $$T(n)$$ theo kích thước đầu vào $$n$$.
 
@@ -80,7 +80,7 @@ Tìm kiếm tuyến tính trên mảng độ dài $$n$$: $$\Theta(n)$$ worst-cas
 
 Insertion sort: $$\Theta(n^2)$$ so sánh/di chuyển ở average và worst điển hình. Mergesort: $$\Theta(n\log n)$$ luôn, không gian phụ $$\Theta(n)$$. Heapsort: $$\Theta(n\log n)$$, tại chỗ hơn. Quicksort: $$\Theta(n\log n)$$ average với pivot tốt, $$\Theta(n^2)$$ worst nếu pivot ác—do đó có randomized pivot hoặc median-of-medians.
 
-### Ví dụ cầm tay chỉ việc: Tự tính số phép so sánh trung bình của Quicksort và kiểm chứng công thức Knuth
+### Ví dụ làm từng bước: Tự tính số phép so sánh trung bình của Quicksort và kiểm chứng công thức Knuth
 
 Gọi $$C_n$$ là số phép so sánh trung bình của Quicksort khi chọn ngẫu nhiên một phần tử chốt (pivot) trong mảng $$n$$ phần tử phân biệt (với $$C_0 = C_1 = 0$$). Bước phân hoạch tốn đúng $$n-1$$ phép so sánh và chia mảng thành hai mảng con cỡ $$k$$ và $$n-1-k$$ với xác suất đều $$1/n$$:
 
@@ -98,7 +98,7 @@ $$
 $$
 Khớp từng phân số một! Và vì $$H_n \approx \ln n$$, ta thấy ngay Quicksort trung bình chỉ tốn khoảng $$2n\ln n \approx 1{,}386\,n\log_2 n$$ phép so sánh — chỉ nhiều hơn chặn dưới lý thuyết $$\log_2(n!)$$ khoảng 39%!
 
-### Khung giải thích: Nghệ thuật phân tích thuật toán của Knuth gồm 4 bước nào? (nên đọc chậm)
+### Giải thích: Nghệ thuật phân tích thuật toán của Knuth gồm 4 bước nào?
 
 1. **Chứng minh tính đúng đắn bằng bất biến vòng lặp (loop invariant):** trước khi đếm tốc độ, phải chứng minh thuật toán luôn dừng và trả về đúng kết quả cho *mọi* đầu vào hợp lệ.
 2. **Chọn thao tác cơ bản và lập hàm chi phí $$T(n)$$:** dịch các vòng lặp hoặc lời gọi đệ quy thành tổng đại số hoặc hệ thức truy hồi.

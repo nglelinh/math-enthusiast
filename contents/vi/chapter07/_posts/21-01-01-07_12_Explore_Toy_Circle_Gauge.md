@@ -19,7 +19,7 @@ Hãy hình dung một thí nghiệm giao thoa điện tử kỳ lạ mà Yakir A
 
 Vậy mà thực nghiệm lại cho thấy **vân giao thoa dịch chuyển rõ rệt** mỗi khi ta vặn dòng điện bên trong ống dây! Chẳng lẽ hạt điện tử "cảm nhận từ xa" được từ trường ở nơi nó không hề đi qua? Bí ẩn tưởng như siêu nhiên đó thực ra lại có một lời giải hình học vô cùng trong sáng. Trong bài thực hành này, bạn sẽ không cần đụng tới phương trình Yang–Mills phức tạp. Chỉ bằng một mô hình "đồ chơi" trên đường tròn $$S^1$$ cùng giải tích số phức cơ bản, bạn sẽ tự tay tính chuỗi khái niệm **liên thông → vận chuyển song song → holonomy**, và tận mắt thấy vì sao **độ cong $$F=0$$ tại mọi điểm dọc đường đi vẫn không ngăn được pha lượng tử bị xoay sau một vòng khép kín**.
 
-**Mạch bài học:** Bản đồ kiến thức nền (hình học vi phân, liên thông–độ cong–holonomy & vai trò của tô pô lỗ thủng) → Thiết lập 1-dạng $$A = a\,d\theta$$ trên $$\mathbb{R}^2\setminus\{0\}$$ → Khung giải thích chậm: tự tay giải phương trình vận chuyển song song và kiểm tra biến đổi gauge lớn → Nhiệm vụ tính holonomy & nhật ký.
+**Mạch bài học:** Kiến thức cần nhớ (hình học vi phân, liên thông–độ cong–holonomy & vai trò của tô pô lỗ thủng) → Thiết lập 1-dạng $$A = a\,d\theta$$ trên $$\mathbb{R}^2\setminus\{0\}$$ → Giải thích: tự tay giải phương trình vận chuyển song song và kiểm tra biến đổi gauge lớn → Nhiệm vụ tính holonomy & nhật ký.
 
 ---
 
@@ -37,7 +37,7 @@ Sau bài này, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Hình học vi phân và Lý thuyết Gauge là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Hình học vi phân và Lý thuyết Gauge là gì, nghiên cứu những gì?
 
 Khi nghe cụm từ "lý thuyết gauge" hay "holonomy", nhiều người tốt nghiệp đại học dễ thấy choáng ngợp vì thuật ngữ nghe trừu tượng. Nhưng trực giác cốt lõi đứng sau nó dựa trên ba viên gạch cực kỳ gần gũi:
 
@@ -83,7 +83,7 @@ Nếu $$a \neq 0$$, điều này chứng tỏ $$A$$ *không thể* viết dướ
 
 ---
 
-### Khung giải thích: Cầm tay giải phương trình vận chuyển song song và kiểm tra biến đổi gauge (nên đọc chậm)
+### Giải thích: Cầm tay giải phương trình vận chuyển song song và kiểm tra biến đổi gauge
 
 Để thấy công thức holonomy $$U = \exp(iq \oint A)$$ không hề "rơi từ trên trời xuống" mà xuất phát trực tiếp từ phương trình vi phân năm nhất đại học, hãy tự tính từng bước:
 

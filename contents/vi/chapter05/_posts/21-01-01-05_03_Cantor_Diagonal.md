@@ -15,7 +15,7 @@ Vào cuối thế kỷ XIX, khi nhà toán học Đức **Georg Cantor** tuyên 
 
 Có thể nhớ toàn bộ tinh thần bài học bằng một câu: *với bất kỳ danh sách số thực nào được cho là đầy đủ, ta dựng một số thực khác phần tử thứ $$n$$ ở đúng vị trí thứ $$n$$.*
 
-**Mạch bài học:** Bản đồ kiến thức nền (lý thuyết tập hợp, song ánh, tháp vô hạn) → "Đếm được" và Khách sạn Hilbert → Định lý Cantor và phép dựng đường chéo → Khung giải thích chậm: tự tay liệt kê $$\mathbb{Q}$$, kiểm tra bẫy thập phân và tập lũy thừa $$X = \{1,2,3\}$$ → Nghịch lý anh thợ cạo Russell → Hệ quả trong logic và khoa học máy tính.
+**Mạch bài học:** Kiến thức cần nhớ (lý thuyết tập hợp, song ánh, tháp vô hạn) → "Đếm được" và Khách sạn Hilbert → Định lý Cantor và phép dựng đường chéo → Giải thích: tự tay liệt kê $$\mathbb{Q}$$, kiểm tra bẫy thập phân và tập lũy thừa $$X = \{1,2,3\}$$ → Nghịch lý anh thợ cạo Russell → Hệ quả trong logic và khoa học máy tính.
 
 ---
 
@@ -34,7 +34,7 @@ Sau bài này, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Lý thuyết tập hợp và Tập vô hạn Cantor là gì?
+## Kiến thức cần nhớ: Lý thuyết tập hợp và Tập vô hạn Cantor là gì?
 
 Để người tốt nghiệp đại học nắm chắc ngữ cảnh mà không bị ngợp bởi ký hiệu, hãy nhìn **Lý thuyết tập hợp (Set Theory)** qua ba trụ cột cốt lõi:
 
@@ -128,7 +128,7 @@ Số mới dựng được bắt đầu bằng $$d = 0.45454\ldots$$. Nó không
 </div>
 <script src="{{ '/public/js/explainers/cantor-explainer.js' | relative_url }}"></script>
 
-## 4. Khung giải thích: tự tay kiểm tra $$\mathbb{Q}$$ đếm được, bẫy thập phân và tập lũy thừa (nên đọc chậm)
+## 4. Giải thích: tự tay kiểm tra $$\mathbb{Q}$$ đếm được, bẫy thập phân và tập lũy thừa
 
 Để thực sự làm chủ lập luận đường chéo mà không rơi vào các ngộ nhận kinh điển, hãy tự tay kiểm tra ba ví dụ nhỏ sau:
 

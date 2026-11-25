@@ -30,7 +30,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Mật mã học khóa công khai và Lý thuyết số tính toán là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Mật mã học khóa công khai và Lý thuyết số tính toán là gì, nghiên cứu những gì?
 
 Đằng sau biểu tượng ổ khóa màu xanh trên thanh địa chỉ trình duyệt là một sự đảo ngược tư duy ngoạn mục của **Lý thuyết số tính toán (Computational Number Theory)** và **Mật mã học khóa công khai (Public-Key Cryptography)**. Thông thường trong khoa học máy tính, bài toán *khó* là kẻ thù cần tiêu diệt. Nhưng trong mật mã học, **sự bất đối xứng về độ phức tạp** — dễ làm theo chiều xuôi, cực khó làm theo chiều ngược — lại là nguồn tài nguyên quý giá nhất!
 
@@ -77,7 +77,7 @@ Kẻ nghe lén thấy $$g,g^a,g^b$$ (và $$p$$). **Bài toán log rời rạc (D
 5. Công khai $$(n,e)$$; bí mật $$d$$ (và $$p,q$$).  
 6. Mã (textbook): $$c \equiv m^e \pmod n$$. Giải: $$m \equiv c^d \pmod n$$.
 
-### Ví dụ cầm tay chỉ việc: Tự chạy tay RSA ($$n = 55$$) và kiểm chứng bằng bình phương liên tiếp
+### Ví dụ làm từng bước: Tự chạy tay RSA ($$n = 55$$) và kiểm chứng bằng bình phương liên tiếp
 
 Chọn $$p = 5,\ q = 11 \implies n = 55$$ và $$\varphi(55) = 4 \times 10 = 40$$.
 1. **Tìm khóa bí mật $$d$$ bằng Euclid mở rộng:** chọn $$e = 3$$ (vì $$\gcd(3,40)=1$$). Chia $$40$$ cho $$3$$:
@@ -96,7 +96,7 @@ $$
    - $$13^{16} \equiv (-19)^2 = 361 = 6\times 55 + 31 \equiv 31 \pmod{55}$$.
    Nhân bốn thành phần lại: $$13^{27} \equiv 31 \cdot (-19) \cdot 4 \cdot 13$$. Gom cặp: $$31\cdot 4 = 124 \equiv 14$$ và $$(-19)\cdot 13 = -247 = -5\times 55 + 28 \equiv 28$$. Cuối cùng $$14 \cdot 28 = 392 = 7\times 55 + 7 \equiv 7 \pmod{55}$$ — **trả về chính xác bản gốc $$m = 7$$!**
 
-### Khung giải thích: Bốn bước biến số học đồng dư thành ổ khóa HTTPS (nên đọc chậm)
+### Giải thích: Bốn bước biến số học đồng dư thành ổ khóa HTTPS
 
 1. **Dùng chữ ký số xác thực danh tính máy chủ:** trình duyệt kiểm tra chứng chỉ số (ký bằng RSA/ECDSA) để chắc chắn bạn đang nói chuyện với đúng ngân hàng thật chứ không phải kẻ giả mạo xen giữa (MITM).
 2. **Dùng Diffie–Hellman / ECDHE thỏa thuận khóa phiên:** hai bên trao đổi công khai $$g^a, g^b$$ (trên đường cong elliptic, hoặc kèm chuẩn hậu lượng tử ML-KEM) để cùng tính ra khóa bí mật chung $$K$$ chỉ dùng một lần cho phiên hiện tại.

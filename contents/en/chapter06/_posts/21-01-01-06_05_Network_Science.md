@@ -17,7 +17,7 @@ This lecture builds a clear ladder: graphs and matrices → random baselines →
 
 ---
 
-## Background Knowledge Map: What Is Network Science and What Does It Study?
+## Key ideas: What Is Network Science and What Does It Study?
 
 Classical graph theory often focuses on small or tightly structured graphs; **Network Science** sits at the crossroads of **graph theory, probability, linear algebra, and statistical physics** to study graphs with thousands to billions of nodes. It revolves around four central questions:
 
@@ -95,7 +95,7 @@ Once a graph is fixed, one studies processes *on* it.
 </div>
 <script src="{{ '/public/js/explainers/pagerank-explainer.js' | relative_url }}"></script>
 
-### Deep-Dive Explanation: Computing the Laplacian Spectrum by Hand on a 4-Node Graph (Read Slowly)
+### Explanation: Computing the Laplacian Spectrum by Hand on a 4-Node Graph
 
 The claim that “the second-smallest eigenvalue $$\lambda_2$$ of the graph Laplacian $$L = D - A$$ detects bottlenecks and splits communities” sounds abstract until you verify every eigenvalue by hand on a concrete 4-node graph with integer answers.
 

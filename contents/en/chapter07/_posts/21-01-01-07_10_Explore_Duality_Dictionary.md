@@ -19,7 +19,7 @@ In 1799, a French expedition in Egypt unearthed the Rosetta Stone. Because the e
 
 You do not need to prove AdS/CFT or Homological Mirror Symmetry in an afternoon. Instead, this studio invites you to work as a **lexicographer**: pick one dual pair, construct a clean two-column translation table, label honestly which rows are rock-solid **theorems** and which are **research programs** or **physics dictionaries**, and keep a log that records even the rows you had to revise.
 
-**Lesson roadmap:** Background Knowledge Map (linear duality, Fourier duality & 21st-century duality programs) → Sample dictionary & master pairs table → Deep-Dive Explanation (Read Slowly): hand-verifying two classic dualities (matrix transpose $$f^*$$ and size-4 DFT circular convolution) → Studio tasks & log.
+**Lesson roadmap:** Key ideas (linear duality, Fourier duality & 21st-century duality programs) → Sample dictionary & master pairs table → Explanation: hand-verifying two classic dualities (matrix transpose $$f^*$$ and size-4 DFT circular convolution) → Studio tasks & log.
 
 ---
 
@@ -37,7 +37,7 @@ After this studio you should be able to:
 
 ---
 
-## Background Knowledge Map: What Is Duality in Mathematics and Theoretical Physics?
+## Key ideas: What Is Duality in Mathematics and Theoretical Physics?
 
 If you took undergraduate linear algebra or signal processing, you have already used duality without necessarily calling it by name. Three escalating levels bridge undergrad math to frontier research:
 
@@ -74,7 +74,7 @@ Here is a compact model using **Fourier duality on $$\mathbb{R}$$**:
 | Convolution $$(f*g)(x)$$ | Pointwise product $$\hat f(\xi)\hat g(\xi)$$ | Convolution theorem |
 | Narrow pulse in time | Wide spread in frequency | Theorem (Uncertainty principle) |
 
-#### Deep-Dive Explanation (Read Slowly): Hand-Verifying Two Classic Dualities (Transpose $$f^*$$ and Size-4 DFT)
+#### Explanation: Hand-Verifying Two Classic Dualities (Transpose $$f^*$$ and Size-4 DFT)
 
 Verify by hand that "translating from Side A to Side B" produces exact, checkable numbers:
 

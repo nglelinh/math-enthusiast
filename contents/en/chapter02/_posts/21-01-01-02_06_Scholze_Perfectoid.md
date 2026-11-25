@@ -13,7 +13,7 @@ Some Fields Medals honor the climber who conquers a single legendary peak—a ce
 
 For decades, arithmetic geometers lived split between two twin worlds separated by a stubborn wall: **characteristic $$0$$** (where ordinary integers and $$p$$-adic numbers live) and **characteristic $$p$$** (where arithmetic happens modulo a prime $$p$$, unlocking a magical symmetry called the *Frobenius map*). Major theorems were already proved in characteristic $$p$$ yet remained completely stuck in characteristic $$0$$. At age 24, in his landmark 2012 paper, Scholze introduced **perfectoid spaces** and a translation engine called **tilting**, turning what had long been regarded as a nightmare (*infinite wild ramification*) into the very bridge linking the two worlds.
 
-**Lesson roadmap:** Background Knowledge Map (hand calculations in $$5$$-adic numbers, Frobenius magic in char $$3$$, why "carrying" builds the wall) → Deep-Dive Explanation (Read Slowly): adjoining $$p$$-power roots, tilting $$X \mapsto X^\flat$$, tilting equivalence, and weight-monodromy → Infrastructure impact & condensed mathematics.
+**Lesson roadmap:** Key ideas (hand calculations in $$5$$-adic numbers, Frobenius magic in char $$3$$, why "carrying" builds the wall) → Explanation: adjoining $$p$$-power roots, tilting $$X \mapsto X^\flat$$, tilting equivalence, and weight-monodromy → Infrastructure impact & condensed mathematics.
 
 ---
 
@@ -32,7 +32,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: $$p$$-adic Numbers, Characteristic $$p$$, and the "Carrying Wall"
+## Key ideas: $$p$$-adic Numbers, Characteristic $$p$$, and the "Carrying Wall"
 
 ### 1. What Are $$p$$-adic Numbers? (Calculate by Hand for $$p = 5$$)
 In the **$$5$$-adic** world, two integers are *close* if their difference is divisible by a high power of $$5$$: writing $$n = 5^k m$$ ($$5 \nmid m$$), define $$\vert n\vert_5 = 5^{-k}$$. Check two astonishing facts in the $$5$$-adic integers $$\mathbb{Z}_5$$:
@@ -62,7 +62,7 @@ That carrying discrepancy is the essence of **mixed characteristic** (generic fi
 
 ---
 
-## 1. Deep-Dive Explanation: How Perfectoid Spaces and Tilting Erase Carrying (Read Slowly)
+## 1. Explanation: How Perfectoid Spaces and Tilting Erase Carrying
 
 #### Step 1: Adjoin infinitely many $$p$$-power roots — become "Perfectoid"
 In characteristic $$p$$, a ring is **perfect** if Frobenius $$x \mapsto x^p$$ is bijective—meaning *every element has a $$p$$-th root* (e.g., completing $$\mathbb{F}_p((t^{1/p^\infty}))$$). In characteristic $$0$$, Scholze deliberately steps into **infinite wild ramification** by adjoining every $$p$$-power root of $$p$$:

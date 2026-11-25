@@ -22,7 +22,7 @@ $$
 
 Nơi thị giác dừng lại, **tọa độ, đại số tuyến tính và phép đếm** lại bước tiếp một cách nhẹ nhàng. Bài thực hành này mời bạn xây dựng "đôi mắt đại số" cho không gian bốn chiều và nhiều chiều hơn nữa: từ việc đếm đỉnh, cạnh, mặt của siêu lập phương (tesseract), chiếu và cắt lát nó xuống 3D/2D, cho tới chứng kiến cú sốc khi thể tích quả cầu đơn vị biến mất về 0 ở số chiều cao — điều làm đảo lộn toàn bộ trực giác hình học 3D của ta.
 
-**Mạch bài học:** Bản đồ kiến thức nền (hình học nhiều chiều, xác suất hình học & tập trung độ đo) → Siêu lập phương $$I^n$$, phép chiếu và lát cắt → Khung giải thích chậm: tính tay ma trận chiếu 4D→2D, vết cắt giả và nghịch lý quả cầu ở khe giữa → Thể tích quả cầu $$V_n \to 0$$ → Thí nghiệm & nhật ký.
+**Mạch bài học:** Kiến thức cần nhớ (hình học nhiều chiều, xác suất hình học & tập trung độ đo) → Siêu lập phương $$I^n$$, phép chiếu và lát cắt → Giải thích: tính tay ma trận chiếu 4D→2D, vết cắt giả và nghịch lý quả cầu ở khe giữa → Thể tích quả cầu $$V_n \to 0$$ → Thí nghiệm & nhật ký.
 
 ---
 
@@ -41,7 +41,7 @@ Sau bài thực hành, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Hình học nhiều chiều và Xác suất hình học là gì, nghiên cứu những gì?
+## Kiến thức cần nhớ: Hình học nhiều chiều và Xác suất hình học là gì, nghiên cứu những gì?
 
 Vì sao người vừa tốt nghiệp đại học ngành kỹ thuật, khoa học dữ liệu hay toán ứng dụng lại cần hiểu không gian 4 chiều, 100 chiều, hay 10.000 chiều khi ta sống trong thế giới 3D? Câu trả lời nằm ở ba trụ cột hiện đại:
 
@@ -89,7 +89,7 @@ Với $$n=4$$ (**tesseract**): 16 đỉnh, 32 cạnh, 24 mặt vuông, 8 ô lậ
 
 Một ánh xạ tuyến tính $$P:\mathbb{R}^4\to\mathbb{R}^3$$ (hoặc vào $$\mathbb{R}^2$$) biến tesseract thành một đa diện hoặc một hình phẳng. Mỗi cạnh trở thành một đoạn thẳng; những chỗ cắt nhau trên hình vẽ thường **không** phải là giao điểm thật trong không gian bốn chiều. Còn khi cắt tesseract bằng siêu phẳng ba chiều $$\{x_4=t\}$$ (hay siêu phẳng nghiêng $$x_1+x_2+x_3+x_4=t$$), ta thu được một chuỗi khối 3D biến hóa theo $$t$$.
 
-#### Khung giải thích: Cầm tay tính phép chiếu 4D→2D và nghịch lý quả cầu ở khe giữa (nên đọc chậm)
+#### Giải thích: Cầm tay tính phép chiếu 4D→2D và nghịch lý quả cầu ở khe giữa
 
 Để thấy không gian bốn chiều hoàn toàn "tính tay được" như đại số tuyến tính năm nhất, hãy tự kiểm tra hai phép tính ngắn sau:
 

@@ -19,7 +19,7 @@ More than thirty years later—after seven years of near-secret work in his Prin
 
 What makes the story truly remarkable sits in the second half of that citation: Wiles did not crack Fermat’s equation head-on with clever divisibility tricks. Instead, he sailed across a seemingly unrelated continent of mathematics—the world of **elliptic curves** and **modular forms**—and built machinery that reshaped modern number theory. Official materials live at [abelprize.no](https://abelprize.no/).
 
-**Lesson arc:** Background Knowledge Map (Diophantine equations, elliptic curves, modular forms) → The 350-year puzzle → The Frey curve → Modularity and a hand-checked "matching DNA" calculation → The 5-step contradiction skeleton → Galois representations and $$R = \mathbb{T}$$ → Real history and common confusions.
+**Lesson arc:** Key ideas (Diophantine equations, elliptic curves, modular forms) → The 350-year puzzle → The Frey curve → Modularity and a hand-checked "matching DNA" calculation → The 5-step contradiction skeleton → Galois representations and $$R = \mathbb{T}$$ → Real history and common confusions.
 
 ---
 
@@ -31,7 +31,7 @@ After this lecture you should be able to state FLT precisely for integers $$n\ge
 
 ---
 
-## Background Knowledge Map: What Are Number Theory, Elliptic Curves, and Modular Forms, and What Do They Study?
+## Key ideas: What Are Number Theory, Elliptic Curves, and Modular Forms, and What Do They Study?
 
 If you graduated in engineering or the natural sciences, calculus and linear algebra feel like home, while "elliptic curves" and "modular forms" can sound like objects from another planet. In reality, they rest on three clear, vivid pillars:
 
@@ -94,7 +94,7 @@ $$
 
 with strong transformation laws under a congruence subgroup $$\Gamma_0(N)$$ of $$\mathrm{SL}_2(\mathbb{Z})$$, where $$N$$ is the **level** of the modular form. Through that correspondence, the arithmetic of the curve is mirrored by the Fourier coefficients and $$L$$-function of the form.
 
-### Deep-Dive Explanation: Checking the "Matching DNA" Between an Elliptic Curve and a Modular Form by Hand (Read Slowly)
+### Explanation: Checking the "Matching DNA" Between an Elliptic Curve and a Modular Form by Hand
 
 To see that modularity is not an abstract fairy tale but an arithmetic identity you can **verify with pen and paper**, consider the famous level-$$11$$ elliptic curve:
 

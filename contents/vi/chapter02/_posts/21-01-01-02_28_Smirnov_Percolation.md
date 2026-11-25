@@ -20,7 +20,7 @@ Suốt nhiều thập niên, dự đoán đẹp như mơ ấy chưa có nổi m�
 
 Cần đọc lời trao giải thật tỉnh táo: IMU nêu chính xác **hai mô hình trên lưới**, không nói mọi mô hình phẳng tới hạn đều đã thành định lý (ngay cả mô hình thấm cạnh trên lưới vuông đến nay vẫn còn mở!). Công trình của Smirnov ghép khít với ngôn ngữ đường cong liên tục **SLE** của Oded Schramm và [Wendelin Werner]({{ site.baseurl }}/contents/vi/chapter02/02_30_Werner_SLE/) (Fields 2006), và mở đường cho các định lý chuyển pha chiều cao của học trò ông là [Hugo Duminil-Copin]({{ site.baseurl }}/contents/vi/chapter02/02_19_Duminil_Copin_Phase_Transitions/) (Fields 2022).
 
-**Mạch bài học:** Bản đồ kiến thức nền (ánh xạ bảo giác, thấm đỉnh vs. thấm cạnh, giải tích phức rời rạc) → Ví dụ cầm tay chỉ việc: đối xứng vàng–xanh trên lưới tổ ong nhỏ và công thức Cardy–Carleson trên tam giác đều → Khung giải thích chậm: 4 bước từ đẳng thức đổi màu đến Cauchy–Riemann rời rạc, SLE$$_6$$ và fermion Ising → Những gì vẫn còn mở (thấm cạnh lưới vuông, đường đi tự tránh).
+**Mạch bài học:** Kiến thức cần nhớ (ánh xạ bảo giác, thấm đỉnh vs. thấm cạnh, giải tích phức rời rạc) → Ví dụ làm từng bước: đối xứng vàng–xanh trên lưới tổ ong nhỏ và công thức Cardy–Carleson trên tam giác đều → Giải thích: 4 bước từ đẳng thức đổi màu đến Cauchy–Riemann rời rạc, SLE$$_6$$ và fermion Ising → Những gì vẫn còn mở (thấm cạnh lưới vuông, đường đi tự tránh).
 
 ---
 
@@ -40,7 +40,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Bất biến bảo giác và Giải tích phức rời rạc nghiên cứu gì?
+## Kiến thức cần nhớ: Bất biến bảo giác và Giải tích phức rời rạc nghiên cứu gì?
 
 ### 1. Ánh xạ bảo giác (Conformal Map) — phép biến hình giữ nguyên góc
 Một hàm chỉnh hình $$f: \Omega_1 \to \Omega_2$$ có $$f'(z) \neq 0$$ là **ánh xạ bảo giác**: cục bộ nó chỉ phóng to/thu nhỏ và xoay, không làm méo góc. Nhờ định lý ánh xạ Riemann, mọi miền đơn liên (hình vuông, hình tròn, tam giác, quả đậu...) đều biến đổi bảo giác được sang nhau. Một mô hình xác suất tới hạn có **tính bất biến bảo giác** nghĩa là nếu giải được nó trên một miền chuẩn (như tam giác đều), ta tự động biết ngay đáp số cho *mọi* hình dạng miền khác!
@@ -54,7 +54,7 @@ Muốn chứng minh một hàm xác suất $$F_\delta$$ trên lưới mịn cỡ
 
 ---
 
-## 1. Ví dụ cầm tay chỉ việc: đối xứng vàng–xanh trên lưới tổ ong và công thức Cardy–Carleson
+## 1. Ví dụ làm từng bước: đối xứng vàng–xanh trên lưới tổ ong và công thức Cardy–Carleson
 
 ### Ví dụ 1: Tại sao $$p_c = 1/2$$ trên bàn cờ tổ ong đối xứng (trò chơi Hex)?
 Xét một bàn cờ hình thoi gồm $$N \times N$$ ô lục giác (chính là trò chơi **Hex** nổi tiếng do Piet Hein và John Nash phát minh). Tô ngẫu nhiên mỗi ô màu vàng hoặc xanh với xác suất $$p = 1/2$$:
@@ -79,7 +79,7 @@ Thử cắm số cụ thể:
 
 ---
 
-## 2. Khung giải thích: Smirnov chứng minh bất biến bảo giác cho Thấm và Ising như thế nào? (nên đọc chậm)
+## 2. Giải thích: Smirnov chứng minh bất biến bảo giác cho Thấm và Ising như thế nào?
 
 Bức tranh chứng minh của Smirnov cho cả hai mô hình (thấm năm 2001 và Ising năm 2010) cùng đi theo một kiến trúc 4 bước thanh lịch:
 

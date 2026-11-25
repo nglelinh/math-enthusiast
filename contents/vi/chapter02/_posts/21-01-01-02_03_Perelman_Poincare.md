@@ -15,7 +15,7 @@ Suốt gần một thế kỷ, câu hỏi ấy đã đánh bại hết thế h�
 
 Điều khiến giới toán học chấn động không chỉ là kết quả, mà là *cách giải*: thay vì cố cắt ghép bằng các công cụ tô pô thuần túy, Perelman đã hoàn thiện chương trình **dòng Ricci** của Richard Hamilton — thả một "phương trình truyền nhiệt hình học" lên không gian để nó tự làm phẳng mình, rồi thực hiện những ca **phẫu thuật** chính xác khi không gian sắp đứt gãy. Thành tựu này mang về cho ông **Huy chương Fields 2006** và sau đó là Giải thưởng Thiên niên kỷ một triệu đô-la của Viện Clay — cả hai ông đều **từ chối nhận**.
 
-**Mạch bài học:** Bản đồ kiến thức nền (tô pô, hình học vi phân, độ cong qua ví dụ mặt cầu vs mặt xuyến) → Câu hỏi Poincaré & Hình học hóa Thurston → Dòng Ricci tính tay trên $$S^3$$ và cổ trụ $$S^2\times\mathbb{R}$$ → Khung giải thích chậm: phóng to, entropy $$\mathcal{W}$$, không suy biến $$\kappa$$ và phẫu thuật → Kiểm chứng cộng đồng & định lý chính xác.
+**Mạch bài học:** Kiến thức cần nhớ (tô pô, hình học vi phân, độ cong qua ví dụ mặt cầu vs mặt xuyến) → Câu hỏi Poincaré & Hình học hóa Thurston → Dòng Ricci tính tay trên $$S^3$$ và cổ trụ $$S^2\times\mathbb{R}$$ → Giải thích: phóng to, entropy $$\mathcal{W}$$, không suy biến $$\kappa$$ và phẫu thuật → Kiểm chứng cộng đồng & định lý chính xác.
 
 ---
 
@@ -34,7 +34,7 @@ Sau bài học, bạn có thể:
 
 ---
 
-## Bản đồ kiến thức nền: Tô pô 3 chiều, Hình học vi phân và Giải tích hình học là gì?
+## Kiến thức cần nhớ: Tô pô 3 chiều, Hình học vi phân và Giải tích hình học là gì?
 
 Để hiểu vì sao một bài toán về "hình dạng cao su" lại được giải bằng một phương trình đạo hàm riêng, hãy tách rõ ba lĩnh vực gặp nhau trong công trình của Hamilton và Perelman:
 
@@ -160,7 +160,7 @@ Hamilton chứng minh dòng Ricci luôn tồn tại trong thời gian ngắn, v�
 
 ---
 
-## 4. Khung giải thích: Perelman gỡ nút thắt dòng Ricci bằng 4 bước như thế nào? (nên đọc chậm)
+## 4. Giải thích: Perelman gỡ nút thắt dòng Ricci bằng 4 bước như thế nào?
 
 Để hiểu trọn vẹn đột phá của Perelman (2002–2003), hãy đi chậm qua 4 bước móc nối chặt chẽ với nhau:
 

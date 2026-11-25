@@ -17,7 +17,7 @@ The mathematician who saw—and engineered—the bridges connecting those three 
 
 As the IMU press essay candidly observed, Okounkov’s work refuses to sit in a single drawer: two recurring instincts—**randomness** and **classical representation theory** (symmetric groups and Young diagrams)—keep unlocking central problems in enumerative algebraic geometry and statistical mechanics. We start with a hands-on calculation for $$S_3$$, then walk across his three great bridges—melted crystals, Okounkov–Pandharipande Gromov–Witten theory, and Nekrasov–Okounkov instanton counting—while keeping credit sharp: he did not classify all representations of all groups, nor invent gauge theory.
 
-**Lesson roadmap:** Background Knowledge Map ($$S_n$$ representations, Young diagrams, Fock space) → Hand-verifiable worked example: computing the complete Plancherel distribution on $$S_3$$ and running Robinson–Schensted on $$(2,1,3)$$ → From BDJ to melted crystals and real algebraic curves → Deep-Dive Explanation (Read Slowly): 4 steps linking partitions to Gromov–Witten ($$\mathbb{P}^1$$), Seiberg–Witten instantons, and Schur processes → What Okounkov did not claim.
+**Lesson roadmap:** Key ideas ($$S_n$$ representations, Young diagrams, Fock space) → Hand-verifiable worked example: computing the complete Plancherel distribution on $$S_3$$ and running Robinson–Schensted on $$(2,1,3)$$ → From BDJ to melted crystals and real algebraic curves → Explanation: 4 steps linking partitions to Gromov–Witten ($$\mathbb{P}^1$$), Seiberg–Witten instantons, and Schur processes → What Okounkov did not claim.
 
 ---
 
@@ -38,7 +38,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Do $$S_n$$ Representations, Young Diagrams, and Fock Space Study?
+## Key ideas: What Do $$S_n$$ Representations, Young Diagrams, and Fock Space Study?
 
 ### 1. Representation theory of the symmetric group $$S_n$$
 **Representation theory** realizes abstract symmetry groups as invertible matrices and breaks them into indivisible "atoms" called **irreducible representations**. For the symmetric group $$S_n$$ (all $$n!$$ permutations), irreducible representations correspond **1–1** with **partitions** $$\lambda = (\lambda_1 \ge \lambda_2 \ge \cdots)$$ of $$n$$, drawn as **Young diagrams** (rows of stacked boxes).
@@ -86,7 +86,7 @@ Next, **Kenyon–Okounkov** (and Sheffield) analyzed **random 3D plane partition
 
 ---
 
-## 3. Deep-Dive Explanation: How Okounkov’s Three Bridges Compute Each Other’s Answers (Read Slowly)
+## 3. Explanation: How Okounkov’s Three Bridges Compute Each Other’s Answers
 
 Follow four steps to see how Young diagrams unlock enumerative geometry and 4D gauge theory:
 

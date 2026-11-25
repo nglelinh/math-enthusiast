@@ -40,7 +40,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: Algebraic Geometry, Arithmetic Geometry, and $$L$$-Functions
+## Key ideas: Algebraic Geometry, Arithmetic Geometry, and $$L$$-Functions
 
 To a university graduate trained in linear algebra and calculus, *algebraic geometry* and *arithmetic geometry* can sound intimidating—yet they rest on three approachable pillars:
 
@@ -135,7 +135,7 @@ $$
 L(E,s) = \prod_{p\ \text{bad}} L_p(E,s)^{-1} \cdot \prod_{p\ \text{good}} \frac{1}{1 - a_p p^{-s} + p^{1-2s}}.
 $$
 
-### Deep-Dive Explanation: Why Counting Points Mod $$p$$ Reveals Global Rational Points (Read Slowly)
+### Explanation: Why Counting Points Mod $$p$$ Reveals Global Rational Points
 
 How can finite mod-$$p$$ counts know the number of infinite-order rational generators over $$\mathbb{Q}$$? Follow these four steps:
 

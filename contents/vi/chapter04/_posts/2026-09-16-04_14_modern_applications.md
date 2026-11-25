@@ -20,7 +20,7 @@ Sau bài tùy chọn này, bạn liên hệ được ba chủ đề "đẹp" đ�
 
 Các bài bắt buộc về vẻ đẹp toán học, đặc biệt là [lát gạch]({{ site.baseurl }}/contents/vi/chapter04/04_10_Tilings/), [hỗn độn]({{ site.baseurl }}/contents/vi/chapter04/04_05_Chaos/) và động lực học, và [hiện tượng nảy sinh]({{ site.baseurl }}/contents/vi/chapter04/04_12_Emergence/). Bài tổng quan về Tao vẫn là bản đồ chính; bài này là một lối rẽ sang các ứng dụng gần đây.
 
-## Bản đồ kiến thức nền: Vẻ đẹp toán học đi vào phần mềm hiện đại như thế nào?
+## Kiến thức cần nhớ: Vẻ đẹp toán học đi vào phần mềm hiện đại như thế nào?
 
 Với người đã qua bậc đại học, khoảng cách giữa một định lý thuần túy và một sản phẩm công nghệ không nằm ở phép màu, mà nằm ở **khâu mô hình hóa, thuật toán hóa và đo đạc** — nơi ba nhánh toán học hiện đại gặp khoa học máy tính:
 - **Hình học rời rạc $$\to$$ Bộ giải SAT (Combinatorial Optimization):** Khi không gian cấu hình quá lớn để vẽ tay, các ràng buộc khớp cạnh của bài toán lát gạch được dịch thành công thức logic mệnh đề (Boolean satisfiability) để máy tính rà soát hàng triệu ứng viên — nhưng chứng minh toàn cục vẫn cần tư duy toán học chặt chẽ.
@@ -45,7 +45,7 @@ Smith, Myers, Kaplan và Goodman-Strauss (2023/2024) giới thiệu "hat", một
 
 Hãy hình dung quá trình "phá hủy" một bức ảnh đẹp $$x_0$$: ở mỗi bước nhỏ, bạn rắc thêm một chút nhiễu Gauss cho đến khi bức ảnh biến thành nhiễu tuyết trắng $$x_T$$ hoàn toàn vô nghĩa. Mô hình khuếch tán làm điều ngược lại: nó huấn luyện một mạng nơ-ron học **hàm score** $$\nabla_x \log p_t(x)$$ — về mặt hình học, đó là một *trường vectơ* chỉ về phía những bức ảnh có xác suất "trông như thật" cao hơn. Khi tạo ảnh mới, ta lấy một điểm nhiễu ngẫu nhiên rồi giải ngược phương trình vi phân theo trường vectơ đó.
 
-**Ví dụ tính toán cầm tay chỉ việc — hàm score 1 chiều kéo điểm nhiễu về dữ liệu thật:**
+**Ví dụ tính toán làm từng bước — hàm score 1 chiều kéo điểm nhiễu về dữ liệu thật:**
 Giả sử "tập dữ liệu thật" của ta chỉ gồm đúng hai điểm $$x = -1$$ và $$x = +1$$. Sau khi thêm nhiễu Gauss phương sai $$\sigma^2 = 1$$, mật độ xác suất là hỗn hợp hai đường cong hình chuông:
 $$p(x) = \frac{1}{2\sqrt{2\pi}}\left(e^{-(x-1)^2/2} + e^{-(x+1)^2/2}\right).$$
 Lấy đạo hàm của $$\log p(x)$$ (chính là hàm score!), ta rút gọn được công thức cực đẹp:
@@ -65,7 +65,7 @@ Mạng nơ-ron tạo ảnh hiện đại làm đúng công việc đó, chỉ th
 
 Wei và cộng sự (2022) liệt kê những nhiệm vụ mà mô hình ngôn ngữ lớn dường như nhảy vọt từ mức gần đoán mò lên độ chính xác dùng được khi quy mô tham số vượt ngưỡng. Schaeffer và cộng sự (2023) phản biện bằng một quan sát toán học cực kỳ sắc bén: nhiều "vách đá" đó thực ra là sản phẩm của **thước đo khắc nghiệt kiểu được ăn cả, ngã về không** (exact-match).
 
-**Ví dụ tính toán cầm tay chỉ việc — ảo giác vách đá từ hàm lũy thừa $$p^4$$:**
+**Ví dụ tính toán làm từng bước — ảo giác vách đá từ hàm lũy thừa $$p^4$$:**
 Giả sử mô hình làm bài toán cộng số có 4 chữ số, và xác suất đoán đúng từng chữ số độc lập $$p$$ tăng rất đều đặn theo kích thước mô hình. Nếu ta chấm theo kiểu *đúng cả 4 chữ số mới được 1 điểm*, điểm exact-match là $$p^4$$:
 
 | Xác suất đúng từng chữ số $$p$$ | Điểm mượt (trung bình chữ số) | Điểm exact-match $$p^4$$ |
@@ -77,7 +77,7 @@ Giả sử mô hình làm bài toán cộng số có 4 chữ số, và xác su�
 
 Độ chính xác từng chữ số tăng đều đặn, không có "chuyển pha" thần kỳ nào cả, nhưng qua hàm lũy thừa $$p^4$$ (hay nặng hơn là $$p^{10}$$), đồ thị bỗng xuất hiện một vách đá dựng đứng! Khi đổi sang thước đo mượt hơn (như xác suất log hoặc tỷ lệ đúng từng token), nhiều "vách đá" lập tức trở thành con dốc thoai thoải. Bài hiện tượng nảy sinh ở Chương 4 đã cảnh báo rằng hành vi tập thể cần một định nghĩa rõ ràng. Cặp bài báo 2022–2023 là cùng lời cảnh báo đó trong bối cảnh học máy: hãy nêu rõ thước đo trước khi nói đến chuyển pha.
 
-### Khung giải thích: từ định lý đẹp đến sản phẩm AI — 4 câu hỏi kiểm định (nên đọc chậm)
+### Giải thích: từ định lý đẹp đến sản phẩm AI — 4 câu hỏi kiểm định
 
 Khi đọc báo công nghệ ca ngợi một đột phá AI hay thuật toán mới gắn với toán học đẹp, hãy đi chậm qua 4 bước kiểm định:
 

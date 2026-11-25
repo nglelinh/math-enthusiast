@@ -45,7 +45,7 @@ After this lecture you should be able to:
 
 ---
 
-## Background Knowledge Map: What Is Analytic Sieve Theory?
+## Key ideas: What Is Analytic Sieve Theory?
 
 If you remember the Sieve of Eratosthenes from school—crossing out multiples of $$2$$, then $$3$$, then $$5$$—you have already met the ancestor of Maynard’s toolkit. Modern sieve theory turns that childhood algorithm into a precision analytic instrument.
 
@@ -129,7 +129,7 @@ Look at the logic—it is pure pigeonhole! If every $$n$$ in $$(N, 2N]$$ had at 
 
 ---
 
-### Deep-Dive Explanation: Why Maynard’s Multidimensional Sieve Succeeded (Read Slowly)
+### Explanation: Why Maynard’s Multidimensional Sieve Succeeded
 
 Why did the 2005 GPY sieve stall right at the $$\theta = \tfrac{1}{2}$$ wall, while Maynard’s 2013 sieve sailed effortlessly past it? Follow the four steps slowly:
 
