@@ -69,3 +69,7 @@ work/
 
 explainers/node_modules/
 manim/reels/media/
+
+# Manim reel render / TTS artifacts (do not commit)
+manim/reels/vo/
+manim/reels/.vo_cache/

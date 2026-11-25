@@ -167,6 +167,14 @@ Nếu tính trực tiếp theo định nghĩa (nhân ma trận $$N\times N$$ v�
 
 **Ví dụ trong viễn thông (Wi-Fi, 4G, 5G).** Kỹ thuật **OFDM** chia băng thông vô tuyến thành hàng trăm sóng mang con trực giao sát nhau. Thay vì phải lắp hàng trăm bộ dao động tương tự tốn kém, máy phát chỉ cần chạy một phép **IFFT** để ghép dữ liệu lên các sóng mang, và điện thoại của bạn chạy một phép **FFT** để tách dữ liệu ra ở đầu thu!
 
+### Video ngắn: Vẽ bông tuyết Koch bằng vòng tròn quay
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/koch-fourier-epicycles_vi.mp4"></video>
+</div>
+
+Video dài khoảng 2 phút 50 giây, có thuyết minh tiếng Việt. Ta lấy 4096 điểm cách đều dọc đường biên bông tuyết Koch bậc 4, dùng FFT để tìm các hệ số Fourier phức $$c_k$$, rồi giữ $$N$$ hệ số lớn nhất ($$N=1,5,20,100,500$$): mỗi hệ số là một vòng tròn bán kính $$\vert c_k\vert$$ quay $$k$$ vòng. Sai số được định nghĩa là khoảng cách trung bình giữa hai đường (tính hai chiều) chia cho bán kính trung bình, và giảm từ 8,93% xuống 0,07%. Cuối video, ta phóng to một đỉnh nhọn: một tổng hữu hạn luôn là đường cong trơn (bo tròn góc, có gợn kiểu Gibbs), nên thứ dựng lại là đa giác Koch bậc 4, không phải fractal thật.
+
 ---
 
 ## 5. Lấy mẫu và ý tưởng Nyquist

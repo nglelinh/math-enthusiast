@@ -61,3 +61,11 @@ Every scene asserts its numbers before drawing (e.g. twin counts 8/35/205/1224/8
 | `greentao.py` | `GreenTaoTheorem` | `greentao-theorem_{vi,en}.mp4` | `02_04_Green_Tao` |
 | `greentao_gowers.py` | `GreenTaoTransference` | `greentao-majorant-gowers_{vi,en}.mp4` | `02_04_Green_Tao` |
 | `greentao_cs.py` | `TaoCompressedSensing` | `tao-compressed-sensing_{vi,en}.mp4` | `02_04_Green_Tao` |
+
+## Batch 5: Fourier epicycles (vi has Gemini TTS voiceover, en silent)
+
+| scene file | class | slug | lesson |
+|---|---|---|---|
+| koch_fourier.py (math: koch_math.py, voice: koch_vo.py) | KochFourier | koch-fourier-epicycles | chapter03 03_08 Fourier Signal Processing (section 4) |
+
+Pipeline: `source ~/.config/gemini/tts.env && python koch_vo.py synth` -> `REEL_LANG=vi manim -qh koch_fourier.py KochFourier` (writes `vo/koch/starts_vi.json`) -> compress as above -> `python koch_vo.py mux <compressed.mp4> ../../public/videos/reels/koch-fourier-epicycles_vi.mp4`. English: `REEL_LANG=en`, compress only. No LaTeX needed (Unicode Text). `vo/` and `media/` are not to be committed.

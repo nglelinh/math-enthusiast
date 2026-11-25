@@ -135,6 +135,14 @@ Naive evaluation is $$O(N^2)$$. The **Fast Fourier Transform (FFT)** family comp
 
 **Communications sketch.** Orthogonal frequency-division multiplexing (OFDM)—the workhorse of Wi-Fi and modern cellular physical layers—sends data on many carefully spaced subcarriers that are orthogonal over a symbol period. At the receiver, an FFT separates the subcarriers. Again: industrial RF is Fourier analysis wearing standards documents.
 
+### Short video: Drawing the Koch snowflake with spinning circles
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/koch-fourier-epicycles_en.mp4"></video>
+</div>
+
+About 2 minutes 55 seconds. We sample 4096 evenly spaced points along the boundary of the level-4 Koch snowflake, use the FFT to get the complex Fourier coefficients $$c_k$$, and keep the $$N$$ largest ($$N=1,5,20,100,500$$): each coefficient is a circle of radius $$\vert c_k\vert$$ turning $$k$$ times per period. The error is the mean distance between the two curves (both directions) divided by the mean radius; it falls from 8.93% to 0.07%. At the end we zoom in on a sharp tip: a finite sum is always a smooth curve (rounded corners, Gibbs-like ripples), so what we rebuild is the level-4 Koch polygon, not the true fractal.
+
 ---
 
 ## 5. Sampling and the Nyquist idea
