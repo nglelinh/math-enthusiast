@@ -69,3 +69,9 @@ Every scene asserts its numbers before drawing (e.g. twin counts 8/35/205/1224/8
 | koch_fourier.py (math: koch_math.py, voice: koch_vo.py) | KochFourier | koch-fourier-epicycles | chapter03 03_08 Fourier Signal Processing (section 4) |
 
 Pipeline: `source ~/.config/gemini/tts.env && python koch_vo.py synth` -> `REEL_LANG=vi manim -qh koch_fourier.py KochFourier` (writes `vo/koch/starts_vi.json`) -> compress as above -> `python koch_vo.py mux <compressed.mp4> ../../public/videos/reels/koch-fourier-epicycles_vi.mp4`. English: `REEL_LANG=en`, compress only. No LaTeX needed (Unicode Text). `vo/` and `media/` are not to be committed.
+| `mirzakhani.py` | `MirzakhaniModuli` | `mirzakhani-moduli-geodesics_{vi,en}.mp4` | `02_05_Mirzakhani_Moduli` |
+| `mirzakhani_wp.py` | `MirzakhaniWPVolume` | `mirzakhani-wp-volume_{vi,en}.mp4` | `02_05_Mirzakhani_Moduli` |
+| `mirzakhani_magicwand.py` | `MirzakhaniMagicWand` | `mirzakhani-billiards-magicwand_{vi,en}.mp4` | `02_05_Mirzakhani_Moduli` |
+| `scholze.py` | `ScholzePerfectoid` | `scholze-perfectoid-overview_{vi,en}.mp4` | `02_06_Scholze_Perfectoid` |
+| `scholze_tilting.py` | `ScholzeTilting` | `scholze-tilting-bridge_{vi,en}.mp4` | `02_06_Scholze_Perfectoid` |
+| `scholze_impact.py` | `ScholzeImpact` | `scholze-weight-monodromy_{vi,en}.mp4` | `02_06_Scholze_Perfectoid` |

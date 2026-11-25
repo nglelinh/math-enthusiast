@@ -72,6 +72,15 @@ Tổng cộng: $$(3g - 3) + (3g - 3) = \mathbf{6g - 6}$$ tham số thực (**t�
 
 ---
 
+
+### Video ngắn 1: Mirzakhani & Không gian Mô-đun (Tổng quan)
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/mirzakhani-moduli-geodesics_vi.mp4"></video>
+</div>
+
+Video dài khoảng 2 phút 5 giây (có thuyết minh tiếng Việt giọng Algenib): không gian mô-đun qua ví dụ mặt xuyến, phép cắt thành chiếc quần cho 6g − 6 tọa độ Fenchel–Nielsen, tốc độ tăng đa thức bậc 6g − 6 của đường trắc địa đóng đơn và tỉ lệ 1/48 trên mặt hai lỗ.
+
 ## 2. Đếm các đường trắc địa đóng đơn
 
 Cố định một mặt hyperbolic $$X$$ có giống $$g\ge 2$$. Gọi $$N_X(L)$$ là số đường trắc địa đóng **đơn** có độ dài $$\le L$$. Nếu cho phép đường cong tự cắt, số đường tăng theo hàm mũ cực nhanh $$e^L / L$$ (định lý đường trắc địa nguyên tố, tương tự định lý số nguyên tố). Nhưng điều kiện *đơn* (không tự cắt) khiến đường cong cực kỳ "cứng", làm số lượng tăng theo hàm đa thức:
@@ -128,6 +137,15 @@ $$
 
 ---
 
+
+### Video ngắn 2: Thể tích Weil–Petersson & Công thức Đệ quy Mirzakhani
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/mirzakhani-wp-volume_vi.mp4"></video>
+</div>
+
+Video dài khoảng 1 phút 27 giây (có thuyết minh tiếng Việt giọng Algenib): dạng symplectic Weil–Petersson của Wolpert, công thức đệ quy với ví dụ mặt xuyến khoét một lỗ V(1,1)(L) = (L² + 4π²)/24, và phép đổi thứ tự tích phân suy ra bậc L^(6g−6).
+
 ## 4. Dòng động đất, Bi-a đa giác và Định lý "Cây đũa thần"
 
 Một **phép động đất** (Thurston) biến dạng mặt hyperbolic bằng cách cắt mặt dọc theo một họ đường cong (lá phân đo được), trượt hai mép lệch nhau như đường đứt gãy địa chất rồi dán lại. **Dòng động đất** biến phép trượt đó thành một hệ động lực trên không gian mô-đun, và Mirzakhani chứng minh nó mang tính **ergodic** (quỹ đạo điển hình trải đều khắp không gian theo độ đo).
@@ -137,6 +155,15 @@ Song song với đó, hãy quay lại **bàn bi-a đa giác** ở đầu bài: m
 Trong kiệt tác mệnh danh là **"Định lý Cây đũa thần"** (*Magic Wand Theorem*, 2013), **Alex Eskin và Maryam Mirzakhani** (cùng Amir Mohammadi) đã chứng minh rằng mọi bao đóng quỹ đạo và độ đo bất biến của tác động $$\mathrm{SL}_2(\mathbb{R})$$ đều cực kỳ đẹp và "cứng" (luôn là các đa tạp con affine) — hoàn toàn tương tự định lý Ratner kinh điển trên không gian thuần nhất, dù không gian mô-đun phức tạp hơn rất nhiều!
 
 ---
+
+
+### Video ngắn 3: Bi-a Đa giác, Dòng Động đất & Định lý Cây đũa thần
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/mirzakhani-billiards-magicwand_vi.mp4"></video>
+</div>
+
+Video dài khoảng 1 phút 10 giây (có thuyết minh tiếng Việt giọng Algenib): tính ergodic của dòng động đất Thurston, kỹ thuật trải phẳng bàn bi-a đa giác thành mặt phẳng dịch chuyển và Định lý Cây đũa thần của Eskin–Mirzakhani.
 
 ## 5. Vì sao công trình này quan trọng và bối cảnh con người
 

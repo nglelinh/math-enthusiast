@@ -61,6 +61,15 @@ Total: $$(3g - 3) + (3g - 3) = \mathbf{6g - 6}$$ real **Fenchel–Nielsen coordi
 
 ---
 
+
+### Short Video 1: Mirzakhani & Moduli Spaces (Overview)
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/mirzakhani-moduli-geodesics_en.mp4"></video>
+</div>
+
+Short visual overview (1 min 10 sec): moduli space via tori, pants decomposition into 6g − 6 Fenchel–Nielsen coordinates, polynomial growth L^(6g−6) of simple closed geodesics, and the exact 1/48 topological ratio on genus-2 surfaces.
+
 ## 2. Counting Simple Closed Geodesics
 
 On a fixed hyperbolic surface $$X$$ of genus $$g \ge 2$$, self-intersecting closed geodesics proliferate exponentially ($$\sim e^L/L$$). Restricting to **simple** (non-self-intersecting) closed geodesics makes them far more rigid, and Mirzakhani proved polynomial growth:
@@ -111,6 +120,15 @@ $$
 
 ---
 
+
+### Short Video 2: Weil–Petersson Volumes & Mirzakhani's Recursion
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/mirzakhani-wp-volume_en.mp4"></video>
+</div>
+
+Short visual walkthrough (43 sec): Wolpert's symplectic form, Mirzakhani's recursion illustrated by V(1,1)(L) = (L² + 4π²)/24, and swapping integrals to recover the L^(6g−6) growth law.
+
 ## 4. Flat Surfaces, Polygonal Billiards, and the "Magic Wand Theorem"
 
 Return to the polygonal billiard table from the opening: every time the ball bounces off an edge, *reflect the entire table* across that edge so the ball travels in a straight line! Gluing reflected copies together produces a **translation surface** (a flat surface with cone singularities). The matrix group $$\mathrm{SL}_2(\mathbb{R})$$ acts naturally on the space (strata) of translation surfaces by stretching and shearing.
@@ -120,6 +138,15 @@ In their landmark 2013 paper—dubbed the **"Magic Wand Theorem"**—**Alex Eski
 **Attribution note:** Mirzakhani was the first woman and first Iranian mathematician to win the Fields Medal (2014). Many major dynamical results are joint—especially with **Alex Eskin**; always check coauthorship for specific theorems.
 
 ---
+
+
+### Short Video 3: Polygonal Billiards, Earthquake Flow & the Magic Wand Theorem
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/mirzakhani-billiards-magicwand_en.mp4"></video>
+</div>
+
+Short visual vignette (44 sec): ergodicity of Thurston's earthquake flow, unfolding polygonal billiards into translation surfaces, and the Eskin–Mirzakhani Magic Wand Theorem.
 
 ## Common confusions
 

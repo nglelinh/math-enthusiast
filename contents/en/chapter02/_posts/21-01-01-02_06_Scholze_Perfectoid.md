@@ -34,7 +34,16 @@ After this lecture you should be able to:
 
 ## Key ideas: $$p$$-adic Numbers, Characteristic $$p$$, and the "Carrying Wall"
 
-### 1. What Are $$p$$-adic Numbers? (Calculate by Hand for $$p = 5$$)
+#
+### Short Video 1: Scholze's Perfectoid Spaces (Overview)
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/scholze-perfectoid-overview_en.mp4"></video>
+</div>
+
+Short visual overview (1 min 9 sec): 5-adic hand arithmetic, the Frobenius miracle in char p, the carrying wall in mixed characteristic, adjoining infinite p-power roots, and Scholze's foundational legacy.
+
+## 1. What Are $$p$$-adic Numbers? (Calculate by Hand for $$p = 5$$)
 In the **$$5$$-adic** world, two integers are *close* if their difference is divisible by a high power of $$5$$: writing $$n = 5^k m$$ ($$5 \nmid m$$), define $$\vert n\vert_5 = 5^{-k}$$. Check two astonishing facts in the $$5$$-adic integers $$\mathbb{Z}_5$$:
 - **Distance:** $$\vert 26 - 1\vert_5 = \vert 5^2\vert_5 = 1/25 = 0.04$$, and $$\vert 626 - 1\vert_5 = \vert 5^4\vert_5 = 1/625 = 0.0016$$—so $$626$$ sits right next to $$1$$!
 - **An infinite series converging to $$-1$$:** Consider $$S = 4 + 4\cdot 5 + 4\cdot 5^2 + 4\cdot 5^3 + \cdots$$ Over $$\mathbb{R}$$ it diverges, but in $$\mathbb{Z}_5$$ the $$k$$-th term has size $$5^{-k} \to 0$$, so it **converges**! Add $$1$$ to $$S$$ using grade-school base-5 carrying:
@@ -111,6 +120,15 @@ $$
 
 ---
 
+
+### Short Video 2: Tilting X ↦ X^♭ and Erasing Carries
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/scholze-tilting-bridge_en.mp4"></video>
+</div>
+
+Short visual walkthrough (42 sec): compatible p-power root sequences in K^♭, why p^m-th power limits shrink carry errors to 0, and the Tilting Equivalence for perfectoid spaces.
+
 ## 2. Infrastructure Impact and Condensed Mathematics
 
 Perfectoid geometry rewired modern $$p$$-adic arithmetic geometry: it fueled new comparison theorems in $$p$$-adic Hodge theory, **prismatic cohomology** (with Bhargav Bhatt), geometric **local Langlands** (the Fargues–Scholze program), and Shimura varieties.
@@ -124,6 +142,15 @@ Perfectoid geometry rewired modern $$p$$-adic arithmetic geometry: it fueled new
 **Sequel chapter — Condensed Mathematics:** After 2018, Scholze and **Dustin Clausen** developed *condensed mathematics* to unify topology, functional analysis, and homological algebra. Keep them distinct: Fields 2018 honors **perfectoid spaces and $$p$$-adic geometry**; condensed mathematics is a later foundational program.
 
 ---
+
+
+### Short Video 3: Weight-Monodromy, Prismatic Cohomology & Condensed Math
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/scholze-weight-monodromy_en.mp4"></video>
+</div>
+
+Short visual vignette (43 sec): tilting to apply Deligne's weight-monodromy theorem, prismatic cohomology (Bhatt–Scholze), geometric local Langlands (Fargues–Scholze), and condensed mathematics (Clausen–Scholze).
 
 ## Common confusions
 

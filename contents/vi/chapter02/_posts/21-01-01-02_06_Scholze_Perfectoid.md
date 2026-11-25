@@ -35,7 +35,16 @@ Sau bài học, bạn có thể:
 
 ## Kiến thức cần nhớ: Số $$p$$-adic, Đặc số $$p$$ và "Bức tường phép nhớ"
 
-### 1. Số $$p$$-adic là gì? (Tính tay với $$p = 5$$)
+#
+### Video ngắn 1: Không gian Perfectoid của Scholze (Tổng quan)
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/scholze-perfectoid-overview_vi.mp4"></video>
+</div>
+
+Video dài khoảng 2 phút 8 giây (có thuyết minh tiếng Việt giọng Algenib): số 5-adic tính tay, phép màu Frobenius ở đặc số p, bức tường "phép nhớ" trong đặc số hỗn hợp, gắn vô hạn căn bậc p để tạo trường perfectoid và tác động nền tảng của Peter Scholze.
+
+## 1. Số $$p$$-adic là gì? (Tính tay với $$p = 5$$)
 Trong giải tích thực, khoảng cách giữa $$a$$ và $$b$$ là $$\vert a - b\vert$$. Trong thế giới **$$5$$-adic**, hai số càng **gần nhau** nếu hiệu của chúng chia hết cho lũy thừa càng cao của $$5$$: viết $$n = 5^k \cdot m$$ (với $$5 \nmid m$$), ta định nghĩa chuẩn $$5$$-adic $$\vert n\vert_5 = 5^{-k}$$.
 
 Hãy tự kiểm tra hai phép tính gây kinh ngạc trong vành số nguyên $$5$$-adic $$\mathbb{Z}_5$$:
@@ -131,6 +140,15 @@ $$
 
 ---
 
+
+### Video ngắn 2: Phép nghiêng (Tilting) X ↦ X^♭ xóa phép nhớ như thế nào?
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/scholze-tilting-bridge_vi.mp4"></video>
+</div>
+
+Video dài khoảng 1 phút 24 giây (có thuyết minh tiếng Việt giọng Algenib): định nghĩa K^♭ qua dãy căn bậc p tương thích, phép cộng giới hạn lũy thừa p^m làm sai số nhớ co về 0 theo p^(−m), và Định lý Tương đương Nghiêng cho không gian perfectoid.
+
 ## 2. Tác động: không chỉ một định lý, mà là viết lại hạ tầng
 
 Ảnh hưởng của hình học perfectoid lan tỏa khắp hình học số học hiện đại:
@@ -142,6 +160,15 @@ $$
 **Nền tảng tiếp theo: Toán học cô đặc (*Condensed Mathematics*).** Sau Huy chương Fields 2018, Scholze cùng **Dustin Clausen** phát triển *toán học cô đặc* nhằm thống nhất giải tích hàm, tô pô và đại số ở tầng nền tảng. Cần phân biệt rạch ròi: Fields 2018 trao cho **không gian perfectoid và hình học $$p$$-adic**; toán học cô đặc là chương trình nối tiếp về sau.
 
 ---
+
+
+### Video ngắn 3: Đơn đạo Trọng số, Lăng trụ & Toán học Cô đặc
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/scholze-weight-monodromy_vi.mp4"></video>
+</div>
+
+Video dài khoảng 55 giây (có thuyết minh tiếng Việt giọng Algenib): ứng dụng chứng minh giả thuyết đơn đạo trọng số nhờ kết quả Deligne, đối đồng điều lăng trụ (Bhatt–Scholze), Langlands địa phương (Fargues–Scholze) và toán học cô đặc (Clausen–Scholze).
 
 ## 3. Vị trí trong Chương 2 và điều nghịch lý
 
