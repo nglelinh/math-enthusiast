@@ -197,6 +197,15 @@ $$
 
 tiếp theo là $$\rho_2 \approx \frac{1}{2} + 21.0220\,i$$, $$\rho_3 \approx \frac{1}{2} + 25.0109\,i$$, v.v. RH chỉ nói về họ không điểm bí ẩn này.
 
+
+### Video ngắn: Hàm Gamma, từ giai thừa đến các không điểm tầm thường của zeta
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/gamma-function-factorial_vi.mp4"></video>
+</div>
+
+Video dài khoảng 3 phút 35 giây, có thuyết minh tiếng Việt: các điểm giai thừa $$n!=\Gamma(n+1)$$ và đường cong trơn của Euler (1729); định nghĩa $$\Gamma(z)=\int_0^\infty t^{z-1}e^{-t}\,dt$$ và hệ thức $$\Gamma(x+1)=x\Gamma(x)$$; các cực tại $$0,-1,-2,\ldots$$; định lý Bohr–Mollerup (log Γ lồi thì Γ duy nhất); $$\Gamma(1/2)=\sqrt{\pi}$$; công thức phản xạ $$\Gamma(z)\Gamma(1-z)=\pi/\sin\pi z$$ (Γ không có không điểm); hàm xi $$\xi(s)=\tfrac12 s(s-1)\pi^{-s/2}\Gamma(s/2)\zeta(s)=\xi(1-s)$$, trong đó các cực của $$\Gamma(s/2)$$ tại $$-2,-4,-6,\ldots$$ buộc $$\zeta$$ triệt tiêu ở đó (không điểm tầm thường); và thể tích quả cầu đơn vị $$V_n=\pi^{n/2}/\Gamma(n/2+1)$$, lớn nhất ở $$n=5$$ trong các chiều nguyên ($$8\pi^2/15\approx 5.2638$$).
+
 ---
 
 ## 4. Phát biểu giả thuyết Riemann

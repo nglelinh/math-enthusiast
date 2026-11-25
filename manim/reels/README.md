@@ -69,9 +69,20 @@ Every scene asserts its numbers before drawing (e.g. twin counts 8/35/205/1224/8
 | koch_fourier.py (math: koch_math.py, voice: koch_vo.py) | KochFourier | koch-fourier-epicycles | chapter03 03_08 Fourier Signal Processing (section 4) |
 
 Pipeline: `source ~/.config/gemini/tts.env && python koch_vo.py synth` -> `REEL_LANG=vi manim -qh koch_fourier.py KochFourier` (writes `vo/koch/starts_vi.json`) -> compress as above -> `python koch_vo.py mux <compressed.mp4> ../../public/videos/reels/koch-fourier-epicycles_vi.mp4`. English: `REEL_LANG=en`, compress only. No LaTeX needed (Unicode Text). `vo/` and `media/` are not to be committed.
+<<<<<<< Updated upstream
 | `mirzakhani.py` | `MirzakhaniModuli` | `mirzakhani-moduli-geodesics_{vi,en}.mp4` | `02_05_Mirzakhani_Moduli` |
 | `mirzakhani_wp.py` | `MirzakhaniWPVolume` | `mirzakhani-wp-volume_{vi,en}.mp4` | `02_05_Mirzakhani_Moduli` |
 | `mirzakhani_magicwand.py` | `MirzakhaniMagicWand` | `mirzakhani-billiards-magicwand_{vi,en}.mp4` | `02_05_Mirzakhani_Moduli` |
 | `scholze.py` | `ScholzePerfectoid` | `scholze-perfectoid-overview_{vi,en}.mp4` | `02_06_Scholze_Perfectoid` |
 | `scholze_tilting.py` | `ScholzeTilting` | `scholze-tilting-bridge_{vi,en}.mp4` | `02_06_Scholze_Perfectoid` |
 | `scholze_impact.py` | `ScholzeImpact` | `scholze-weight-monodromy_{vi,en}.mp4` | `02_06_Scholze_Perfectoid` |
+=======
+
+## Batch 4: Gamma function (vi has Gemini TTS voiceover, en silent)
+
+| scene file | class | slug | lesson |
+|---|---|---|---|
+| gamma_reel.py (math: gamma_math.py, voice: gamma_vo.py) | GammaReel | gamma-function-factorial | chapter01 01_02 Riemann Hypothesis (end of section 3) |
+
+Same pipeline as Batch 3 (`python gamma_vo.py synth`, `REEL_LANG=vi manim -qh gamma_reel.py GammaReel`, compress, `python gamma_vo.py mux ...`). `gamma_math.py` needs `mpmath` and `scipy` (`pip install mpmath` in the manim venv) and asserts every number (Euler integral, recurrence, residues, Bohr–Mollerup counter-example, reflection formula, xi symmetry and trivial zeros, V5 = 8pi^2/15). Unicode text only, no LaTeX.
+>>>>>>> Stashed changes

@@ -195,6 +195,15 @@ $$
 
 RH is entirely about this family.
 
+
+### Short video: The Gamma function, from factorials to the trivial zeros of zeta
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/gamma-function-factorial_en.mp4"></video>
+</div>
+
+About 4 minutes (silent, with on-screen captions): the factorial points $$n!=\Gamma(n+1)$$ and Euler's smooth curve (1729); the definition $$\Gamma(z)=\int_0^\infty t^{z-1}e^{-t}\,dt$$ and $$\Gamma(x+1)=x\Gamma(x)$$; the poles at $$0,-1,-2,\ldots$$; the Bohr–Mollerup theorem ($$\log\Gamma$$ convex makes $$\Gamma$$ unique); $$\Gamma(1/2)=\sqrt{\pi}$$; the reflection formula $$\Gamma(z)\Gamma(1-z)=\pi/\sin\pi z$$ ($$\Gamma$$ has no zeros); the xi function $$\xi(s)=\tfrac12 s(s-1)\pi^{-s/2}\Gamma(s/2)\zeta(s)=\xi(1-s)$$, where the poles of $$\Gamma(s/2)$$ at $$-2,-4,-6,\ldots$$ force $$\zeta$$ to vanish there (the trivial zeros); and the unit-ball volume $$V_n=\pi^{n/2}/\Gamma(n/2+1)$$, largest at $$n=5$$ among integer dimensions ($$8\pi^2/15\approx 5.2638$$).
+
 ---
 
 ## 4. Statement of the Riemann Hypothesis
