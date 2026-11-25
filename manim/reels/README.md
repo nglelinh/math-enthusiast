@@ -58,3 +58,6 @@ Every scene asserts its numbers before drawing (e.g. twin counts 8/35/205/1224/8
 | perelman.py | PerelmanPoincare | perelman-poincare |
 | perelman_ricci.py | PerelmanRicciFlow | perelman-ricci-surgery |
 | perelman_entropy.py | PerelmanEntropyTools | perelman-entropy-kappa |
+| `greentao.py` | `GreenTaoTheorem` | `greentao-theorem_{vi,en}.mp4` | `02_04_Green_Tao` |
+| `greentao_gowers.py` | `GreenTaoTransference` | `greentao-majorant-gowers_{vi,en}.mp4` | `02_04_Green_Tao` |
+| `greentao_cs.py` | `TaoCompressedSensing` | `tao-compressed-sensing_{vi,en}.mp4` | `02_04_Green_Tao` |
