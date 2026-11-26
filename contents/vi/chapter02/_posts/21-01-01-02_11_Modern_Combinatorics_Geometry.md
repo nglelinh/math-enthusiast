@@ -92,6 +92,15 @@ $$
 
 ---
 
+
+### Video ngắn 1: Đa thức sắc số, Tính lõm loga & Lý thuyết Hodge Tổ hợp của June Huh
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/huh-chromatic-logconcave_vi.mp4"></video>
+</div>
+
+Video dài khoảng 1 phút 10 giây (có thuyết minh tiếng Việt): tính tay đa thức sắc số K₃ và K₄, bất đẳng thức a_k² ≥ a_{k−1}a_{k+1} và gói Hodge trên vành Chow của matroid không cần đa tạp.
+
 ## 2. Năm cây cầu lớn của Tổ hợp–Hình học Hiện đại
 
 Công trình của June Huh chỉ là một trong năm cây cầu lớn nối rời rạc với liên tục trong toán học ngày nay:
@@ -118,6 +127,15 @@ Một đồ thị mở rộng có hàng tỉ đỉnh, mỗi đỉnh chỉ nối 
 Tách mọi đồ thị dày đặc khổng lồ thành các khối gần như ngẫu nhiên (nền tảng tư duy cho phát hiện cộng đồng và mô hình khối ngẫu nhiên trong khoa học dữ liệu), cùng với bài toán cực trị hình học–Fourier như xếp cầu của [Viazovska]({{ site.baseurl }}/contents/vi/chapter02/02_08_Viazovska_Sphere_Packing/).
 
 ---
+
+
+### Video ngắn 2: Đa thức Lorentz & Năm cây cầu Tổ hợp–Hình học Hiện đại
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/huh-lorentzian-bridges_vi.mp4"></video>
+</div>
+
+Video dài khoảng 49 giây (có thuyết minh tiếng Việt): chữ ký Hessian (+, −, …, −) của đa thức Lorentz (Brändén–Huh, 2020) và 5 cây cầu nối tổ hợp rời rạc với hình học, phổ và giải tích.
 
 ## 3. Bản đồ nối các bài Fields trong Chương 2
 

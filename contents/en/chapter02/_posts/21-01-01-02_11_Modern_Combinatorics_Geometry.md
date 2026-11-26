@@ -131,6 +131,15 @@ $$
 
 ---
 
+
+### Short Video 1: Chromatic Polynomials, Log-Concavity & Combinatorial Hodge Theory
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/huh-chromatic-logconcave_en.mp4"></video>
+</div>
+
+Short visual overview (36 sec): hand-checking K₃ and K₄ chromatic coefficients, Read's conjecture, and Adiprasito–Huh–Katz's Hodge theory on matroid Chow rings.
+
 ## 2. Structure versus randomness: additive combinatorics
 
 Stepping back onto the broader Chapter 2 method map, **additive combinatorics** studies sumsets
@@ -181,6 +190,15 @@ The **polynomial method** proves combinatorial bounds by constructing a low-degr
 - **Combinatorial Nullstellensatz (Alon):** Extracts existence results directly from leading coefficients.
 
 ---
+
+
+### Short Video 2: Lorentzian Polynomials & Five Bridges of Modern Combinatorics
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/huh-lorentzian-bridges_en.mp4"></video>
+</div>
+
+Short visual walkthrough (33 sec): the Lorentzian Hessian signature (+, −, …, −) of Brändén–Huh (2020) and the five geometric bridges uniting modern combinatorics.
 
 ## 6. Packing, coloring, and other geometric peaks on the map
 

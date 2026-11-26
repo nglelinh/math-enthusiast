@@ -72,6 +72,15 @@ Toàn bộ MMP đặt mục tiêu chứng minh rằng **mọi** đa tạp đại
 
 ---
 
+
+### Video ngắn 1: Bảng tuần hoàn Hình học Đại số & Chương trình Mô hình Tối thiểu (MMP)
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/birkar-fano-mmp_vi.mp4"></video>
+</div>
+
+Video dài khoảng 1 phút 3 giây (có thuyết minh tiếng Việt): tương đương song hữu tỉ, phép nổ, 3 viên gạch Fano / Calabi–Yau / Kiểu tổng quát qua lớp chính tắc K_X, phép Flip và định lý BCHM.
+
 ## 1. Giải thích: Từ phép co chiều 2 đến Flip, BCHM và Đột phá của Birkar
 
 Tại sao việc nâng phân loại từ chiều 2 (Enriques–Kodaira) lên chiều 3 trở lên lại mất gần 40 năm và cần đến đột phá của Birkar? Hãy đọc chậm chuỗi 4 bước sau:
@@ -112,6 +121,15 @@ $$
 $$
 
 ---
+
+
+### Video ngắn 2: Giả thuyết BAB & Tính bị chặn của Đa tạp Fano
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/birkar-bab-complements_vi.mp4"></video>
+</div>
+
+Video dài khoảng 1 phút 10 giây (có thuyết minh tiếng Việt): ngưỡng kỳ dị ε-lc, chặn thể tích phản chính tắc, phần bù n-bị chặn và điều kiện ACC cho ngưỡng chính tắc log.
 
 ## 2. Ghi nhận công lao và so sánh chiều 2 với chiều cao
 

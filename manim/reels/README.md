@@ -96,3 +96,8 @@ Same pipeline as Batch 3 (`python gamma_vo.py synth`, `REEL_LANG=vi manim -qh ga
 | `maynard.py` | `MaynardOverview` | `maynard-bounded-gaps_{vi,en}.mp4` | `02_09_Maynard_Primes` |
 | `maynard_sieve.py` | `MaynardSieve` | `maynard-multidim-sieve_{vi,en}.mp4` | `02_09_Maynard_Primes` |
 | `maynard_digits.py` | `MaynardDigits` | `maynard-missing-digits_{vi,en}.mp4` | `02_09_Maynard_Primes` |
+| `birkar_mmp.py` | `BirkarMMP` | `birkar-fano-mmp_{vi,en}.mp4` | `02_10_Birkar_Algebraic_Geometry` |
+| `birkar_bab.py` | `BirkarBAB` | `birkar-bab-complements_{vi,en}.mp4` | `02_10_Birkar_Algebraic_Geometry` |
+| `huh_chromatic.py` | `HuhChromatic` | `huh-chromatic-logconcave_{vi,en}.mp4` | `02_11_Modern_Combinatorics_Geometry` |
+| `huh_lorentzian.py` | `HuhLorentzian` | `huh-lorentzian-bridges_{vi,en}.mp4` | `02_11_Modern_Combinatorics_Geometry` |
+| `deng_hilbert6.py` | `DengHilbert6` | `deng-hilbert6-boltzmann_{vi,en}.mp4` | `02_12_Deng_PDE` |

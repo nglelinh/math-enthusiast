@@ -138,6 +138,15 @@ In every dimension, **Fano varieties** ($$-K_X$$ ample) are the positively curve
 
 ---
 
+
+### Short Video 1: The Periodic Table of Varieties & the Minimal Model Program
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/birkar-fano-mmp_en.mp4"></video>
+</div>
+
+Short visual overview (37 sec): birational equivalence, blow-ups, the three building blocks (Fano, Calabi–Yau, General Type) via K_X, flips, and BCHM.
+
 ## 4. The Minimal Model Program: Contractions and Flips
 
 Start with a projective variety $$X$$ (more generally, a klt pair $$(X,\Delta)$$). The MMP runs a directed simplification:
@@ -183,6 +192,15 @@ $$
 $$
 
 ---
+
+
+### Short Video 2: The BAB Conjecture & Boundedness of Fano Varieties
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/birkar-bab-complements_en.mp4"></video>
+</div>
+
+Short visual walkthrough (34 sec): ε-lc singularity bounds, volume control, bounded n-complements, and ACC for log canonical thresholds.
 
 ## 5. Classification architecture—not a finished encyclopedia
 
