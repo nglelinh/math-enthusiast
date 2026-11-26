@@ -134,3 +134,11 @@ Same pipeline as Batch 3 (`python gamma_vo.py synth`, `REEL_LANG=vi manim -qh ga
 | `okounkov_bridges.py` | `OkounkovBridges` | `okounkov-fock-gw-instanton_vi.mp4` | `02_27_Okounkov_Representation` |
 | `smirnov_percolation.py` | `SmirnovPercolation` | `smirnov-cardy-percolation_vi.mp4` | `02_28_Smirnov_Percolation` |
 | `smirnov_ising.py` | `SmirnovIsing` | `smirnov-ising-fermion-sle_vi.mp4` | `02_28_Smirnov_Percolation` |
+| `villani_landau.py` | `VillaniLandau` | `villani-landau-damping_vi.mp4` | `02_29_Villani_Landau_Boltzmann` |
+| `villani_boltzmann.py` | `VillaniBoltzmann` | `villani-boltzmann-hypocoercivity_vi.mp4` | `02_29_Villani_Landau_Boltzmann` |
+| `werner_sle.py` | `WernerSLE` | `werner-loewner-sle_vi.mp4` | `02_30_Werner_SLE` |
+| `werner_brownian.py` | `WernerBrownian` | `werner-brownian-4-3_vi.mp4` | `02_30_Werner_SLE` |
+| `zelmanov_burnside.py` | `ZelmanovBurnside` | `zelmanov-three-burnside-problems_vi.mp4` | `02_31_Zelmanov_Burnside` |
+| `zelmanov_jordan.py` | `ZelmanovJordan` | `zelmanov-lie-jordan-proof_vi.mp4` | `02_31_Zelmanov_Burnside` |
+| `donaldson_intersection.py` | `DonaldsonIntersection` | `donaldson-intersection-form-e8_vi.mp4` | `02_32_Donaldson_Four_Manifolds` |
+| `donaldson_instanton.py` | `DonaldsonInstanton` | `donaldson-yang-mills-exotic-r4_vi.mp4` | `02_32_Donaldson_Four_Manifolds` |

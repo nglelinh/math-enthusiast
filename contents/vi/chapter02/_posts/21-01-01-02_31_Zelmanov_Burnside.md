@@ -96,6 +96,12 @@ Ví dụ nhỏ $$27$$ phần tử này hé lộ trọn vẹn chiến lược c�
 
 ---
 
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/zelmanov-three-burnside-problems_vi.mp4"></video>
+</div>
+
+Video dài khoảng 45 giây (có thuyết minh tiếng Việt): phân biệt ba bài toán Burnside, ví dụ $B(d,2)$ cấp $2^d$ và $B(2,3)$ cấp $27$ cùng đồng nhất thức Engel.
+
 ## 2. Giải thích: Con đường 4 bước từ Hall–Higman và Kostrikin đến định lý Zelmanov
 
 Như Walter Feit nhấn mạnh tại ICM 1994, bài toán Burnside hạn chế *"về bản chất là một bài toán về đại số Lie"*. Hãy theo dõi 4 bước chinh phục pháo đài 60 năm tuổi này:
@@ -126,6 +132,12 @@ L(G) \text{ lũy linh} \implies \vert G\vert \le C(d,n).
 $$
 
 ---
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/zelmanov-lie-jordan-proof_vi.mp4"></video>
+</div>
+
+Video dài khoảng 30 giây (có thuyết minh tiếng Việt): con đường 4 bước từ Hall–Higman, Kostrikin ($n=p$) đến đột phá đại số Jordan của Zelmanov ($n=p^k$, Fields 1994).
 
 ## 3. Bảng tổng hợp ba bài toán Burnside và vì sao là Huy chương Fields
 

@@ -91,6 +91,12 @@ Hãy ngắm công thức đó: biên độ sóng mật độ (và kéo theo đi�
 
 ---
 
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/villani-landau-damping_vi.mp4"></video>
+</div>
+
+Video dài khoảng 46 giây (có thuyết minh tiếng Việt): trộn pha 1D trên vòng tròn, tiếng vọng plasma và đột phá tắt dần Landau phi tuyến Mouhot–Villani (2011).
+
 ## 2. Giải thích: Từ tắt dần Landau phi tuyến đến Boltzmann không thuần nhất
 
 Tại sao bài toán phi tuyến của Landau phải đợi 65 năm, và bài toán Boltzmann không thuần nhất lại cần đến hypocoercivity? Hãy đi chậm qua 4 bước:
@@ -120,6 +126,12 @@ $$
 $$
 
 ---
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/villani-boltzmann-hypocoercivity_vi.mp4"></video>
+</div>
+
+Video dài khoảng 40 giây (có thuyết minh tiếng Việt): phương trình Boltzmann không thuần nhất, bẫy cân bằng địa phương, chương trình hypocoercivity và đọc đúng lời trao giải Fields 2010.
 
 ## 3. Vận chuyển tối ưu và vì sao là Huy chương Fields 2010
 

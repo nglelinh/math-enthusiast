@@ -103,6 +103,12 @@ Và khi đặt chính sự va chạm đó vào phần "đầu mở" của mặt 
 
 ---
 
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/donaldson-intersection-form-e8_vi.mp4"></video>
+</div>
+
+Video dài khoảng 37 giây (có thuyết minh tiếng Việt): dạng giao $Q_X$ ($\mathbb{CP}^2$, $S^2\times S^2$, lưới $E_8$) và cuộc va chạm giữa định lý Freedman (tôpô) với Donaldson (trơn).
+
 ## 2. Giải thích: Làm sao phương trình Yang–Mills ép dạng giao phải chéo hóa?
 
 Tại sao một phương trình PDE vật lý hạt cơ bản ($$F_A^+ = 0$$) lại đọc được một ma trận nguyên trên $$H_2(X; \mathbb{Z})$$? Hãy theo dõi 4 bước kỳ diệu trong chứng minh năm 1983 của Donaldson:
@@ -135,6 +141,12 @@ $$
 *(Về sau, năm 1990, Donaldson khai thác tiếp không gian moduli instanton bậc cao để tạo ra **đa thức Donaldson**, phân biệt được vô số cấu trúc trơn khác nhau trên cùng một đa tạp 4 chiều tôpô đóng.)*
 
 ---
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/donaldson-yang-mills-exotic-r4_vi.mp4"></video>
+</div>
+
+Video dài khoảng 39 giây (có thuyết minh tiếng Việt): không gian moduli instanton 5D, hiện tượng sủi bọt Uhlenbeck và vô hạn cấu trúc trơn ngoại lai trên $\mathbb{R}^4$.
 
 ## 3. Những phát triển về sau và vì sao là Huy chương Fields 1986
 
