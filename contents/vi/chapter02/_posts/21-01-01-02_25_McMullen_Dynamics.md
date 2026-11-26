@@ -78,6 +78,12 @@ Hãy cầm một mặt đóng giống $$g = 2$$ (chiếc bánh vòng 2 lỗ). Ta
 
 ---
 
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/mcmullen-mandelbrot-renorm_vi.mp4"></video>
+</div>
+
+Video dài khoảng 44 giây (có thuyết minh tiếng Việt): lặp $f_c(z)=z^2+c$ tại $c=0, -2, -1$, cơ chế tái chuẩn hóa sinh bản sao Mandelbrot tí hon và Từ điển Sullivan 2D–3D.
+
 ## 2. Giả thuyết hàm theta của Kra: tiêu chuẩn khả trung bình sắc bén
 
 Xét một phép phủ các mặt Riemann hyperbolic $$Y \to X$$ (ví dụ phủ phổ dụng $$\mathbb{D} \to X = \mathbb{D}/\Gamma$$). Nó cảm sinh phép nhúng $$\mathcal{T}(X) \hookrightarrow \mathcal{T}(Y)$$, và theo ngôn ngữ đối ngẫu, sinh ra **toán tử chuỗi Poincaré** $$\Theta$$ (lấy trung bình vi phân bậc hai chỉnh hình trên $$\mathbb{D}$$ theo nhóm $$\Gamma$$). Ta luôn có $$\|\Theta\| \le 1$$; **giả thuyết hàm theta của Irwin Kra** khẳng định $$\|\Theta\| < 1$$ (co chặt!) đối với mọi mặt kiểu hữu hạn.
@@ -121,6 +127,12 @@ $$
 $$
 
 ---
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/mcmullen-bers-kra-cusp_vi.mp4"></video>
+</div>
+
+Video dài khoảng 50 giây (có thuyết minh tiếng Việt): bóp thắt mặt giống $g=2$ thành điểm cusp trù mật trên biên Bers và tiêu chuẩn khả trung bình cho giả thuyết hàm theta Kra.
 
 ## 4. Dòng truyền thừa và vì sao là Huy chương Fields
 

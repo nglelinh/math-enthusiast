@@ -79,6 +79,12 @@ Thử cắm số cụ thể:
 
 ---
 
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/smirnov-cardy-percolation_vi.mp4"></video>
+</div>
+
+Video dài khoảng 44 giây (có thuyết minh tiếng Việt): đối xứng vàng–xanh trên lưới tổ ong ($p_c=1/2$) và chứng minh 6 trang cho công thức Cardy–Carleson trên tam giác đều.
+
 ## 2. Giải thích: Smirnov chứng minh bất biến bảo giác cho Thấm và Ising như thế nào?
 
 Bức tranh chứng minh của Smirnov cho cả hai mô hình (thấm năm 2001 và Ising năm 2010) cùng đi theo một kiến trúc 4 bước thanh lịch:
@@ -117,6 +123,12 @@ $$
 $$
 
 ---
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/smirnov-ising-fermion-sle_vi.mp4"></video>
+</div>
+
+Video dài khoảng 38 giây (có thuyết minh tiếng Việt): nối giới hạn thang đo tới $\mathrm{SLE}_6$, fermion chỉnh hình rời rạc cho mô hình Ising phẳng và các bài toán còn mở trên lưới vuông.
 
 ## 3. Những gì vẫn còn mở và vì sao được Fields 2010
 

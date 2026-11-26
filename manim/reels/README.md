@@ -126,3 +126,11 @@ Same pipeline as Batch 3 (`python gamma_vo.py synth`, `REEL_LANG=vi manim -qh ga
 | `lindenstrauss_que.py` | `LindenstraussQUE` | `lindenstrauss-arithmetic-que_vi.mp4` | `02_23_Lindenstrauss_Measure_Rigidity` |
 | `lions_viscosity.py` | `LionsViscosity` | `lions-viscosity-solutions_vi.mp4` | `02_24_Lions_Viscosity` |
 | `lions_boltzmann.py` | `LionsBoltzmann` | `lions-boltzmann-mfg_vi.mp4` | `02_24_Lions_Viscosity` |
+| `mcmullen_dynamics.py` | `McMullenDynamics` | `mcmullen-mandelbrot-renorm_vi.mp4` | `02_25_McMullen_Dynamics` |
+| `mcmullen_teichmuller.py` | `McMullenTeichmuller` | `mcmullen-bers-kra-cusp_vi.mp4` | `02_25_McMullen_Dynamics` |
+| `mori_hartshorne.py` | `MoriHartshorne` | `mori-hartshorne-bend-break_vi.mp4` | `02_26_Mori_MMP` |
+| `mori_mmp.py` | `MoriMMP` | `mori-3d-mmp-flip_vi.mp4` | `02_26_Mori_MMP` |
+| `okounkov_plancherel.py` | `OkounkovPlancherel` | `okounkov-plancherel-young_vi.mp4` | `02_27_Okounkov_Representation` |
+| `okounkov_bridges.py` | `OkounkovBridges` | `okounkov-fock-gw-instanton_vi.mp4` | `02_27_Okounkov_Representation` |
+| `smirnov_percolation.py` | `SmirnovPercolation` | `smirnov-cardy-percolation_vi.mp4` | `02_28_Smirnov_Percolation` |
+| `smirnov_ising.py` | `SmirnovIsing` | `smirnov-ising-fermion-sle_vi.mp4` | `02_28_Smirnov_Percolation` |

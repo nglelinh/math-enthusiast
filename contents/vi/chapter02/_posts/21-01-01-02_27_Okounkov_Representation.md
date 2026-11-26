@@ -80,6 +80,12 @@ Hình dạng bảng thu được là phân hoạch **$$(2, 1)$$**, với chiều
 
 ---
 
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/okounkov-plancherel-young_vi.mp4"></video>
+</div>
+
+Video dài khoảng 47 giây (có thuyết minh tiếng Việt): độ đo Plancherel trên phân hoạch $n=3$ ($S_3$), hình dạng giới hạn Vershik–Kerov và dao động Tracy–Widom.
+
 ## 2. Từ BDJ đến tinh thể nóng chảy và đường cong đại số
 
 Năm 1999, **Baik–Deift–Johansson (BDJ)** chứng minh rằng độ lệch của hàng đầu tiên $$\lambda_1$$ quanh $$2\sqrt{n}$$ (chia cho $$n^{1/6}$$) tuân theo phân phối **Tracy–Widom** của trị riêng lớn nhất trong ma trận ngẫu nhiên Hermite Gauss, và dự đoán điều này đúng đồng thời cho $$k$$ hàng đầu tiên. **Okounkov (2000)** chứng minh dự đoán đó bằng một cây cầu hình học hoàn toàn mới: cả mô-men của ma trận ngẫu nhiên lẫn mô-men của phân hoạch Plancherel đều đếm cùng một đối tượng — **các mặt ngẫu nhiên** (phủ phân nhánh của mặt cầu)! (Song song đó, **Borodin–Okounkov–Olshanski** và **Johansson** đưa ra các chứng minh khác qua quá trình điểm định thức.)
@@ -115,6 +121,12 @@ $$
 $$
 
 ---
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/okounkov-fock-gw-instanton_vi.mp4"></video>
+</div>
+
+Video dài khoảng 49 giây (có thuyết minh tiếng Việt): không gian Fock bắc cầu biểu đồ Young sang lý thuyết Gromov–Witten, cầu nối GW–DT (MNOP) và instanton Nekrasov–Okounkov.
 
 ## 4. Những điều Okounkov không làm và vì sao là Huy chương Fields
 
