@@ -69,6 +69,15 @@ Song song đó, **Giả thuyết Griffiths** hỏi về **ánh xạ chu kỳ** (
 
 ---
 
+
+### Video ngắn 1: Tính o-tối tiểu & Chiến lược Đếm điểm Pila–Wilkie
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/tsimerman-o-minimal_vi.mp4"></video>
+</div>
+
+Video dài khoảng 36 giây (có thuyết minh tiếng Việt): hình học ngoan ℝ_an,exp, định lý Pila–Wilkie và gọng kìm Galois vs Pila–Wilkie.
+
 ## 2. Giải thích: O-minimality giải Giả thuyết André–Oort và Giả thuyết Griffiths như thế nào?
 
 Làm thế nào một định lý từ logic toán (Pila–Wilkie) lại chinh phục được cả hai giả thuyết trụ cột của hình học số học và lý thuyết Hodge? Hãy đi chậm qua mạch 4 bước dưới đây:
@@ -98,6 +107,15 @@ $$
 $$
 
 ---
+
+
+### Video ngắn 2: Giải quyết Giả thuyết André–Oort & Giả thuyết Griffiths
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/tsimerman-andre-oort_vi.mp4"></video>
+</div>
+
+Video dài khoảng 37 giây (có thuyết minh tiếng Việt): điểm CM trên đa tạp Shimura A_g, cận dưới quỹ đạo Galois của Tsimerman (2018) và ánh xạ chu kỳ Bakker–Brunebarbe–Tsimerman.
 
 ## 3. Các giả thuyết được nêu tên & So sánh các cầu nối
 

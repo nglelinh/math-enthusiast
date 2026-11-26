@@ -102,3 +102,11 @@ Same pipeline as Batch 3 (`python gamma_vo.py synth`, `REEL_LANG=vi manim -qh ga
 | `huh_lorentzian.py` | `HuhLorentzian` | `huh-lorentzian-bridges_{vi,en}.mp4` | `02_11_Modern_Combinatorics_Geometry` |
 | `deng_hilbert6.py` | `DengHilbert6` | `deng-hilbert6-boltzmann_{vi,en}.mp4` | `02_12_Deng_PDE` |
 | `deng_wave_kinetic.py` | `DengWaveKinetic` | `deng-wave-kinetic_vi.mp4` | `02_12_Deng_PDE` |
+| `pardon_symplectic.py` | `PardonSymplectic` | `pardon-symplectic-vfc_vi.mp4` | `02_13_Pardon_Symplectic` |
+| `pardon_fukaya.py` | `PardonFukaya` | `pardon-fukaya-logderived_vi.mp4` | `02_13_Pardon_Symplectic` |
+| `tsimerman_o_minimal.py` | `TsimermanOMinimal` | `tsimerman-o-minimal_vi.mp4` | `02_14_Tsimerman_Arithmetic` |
+| `tsimerman_andre_oort.py` | `TsimermanAndreOort` | `tsimerman-andre-oort_vi.mp4` | `02_14_Tsimerman_Arithmetic` |
+| `wang_kakeya.py` | `WangKakeya` | `wang-kakeya-3d_vi.mp4` | `02_15_Wang_Harmonic_Analysis` |
+| `wang_restriction.py` | `WangRestriction` | `wang-fourier-restriction_vi.mp4` | `02_15_Wang_Harmonic_Analysis` |
+| `avila_renormalization.py` | `AvilaRenormalization` | `avila-renormalization-dynamics_vi.mp4` | `02_16_Avila_Dynamics` |
+| `avila_cocycles.py` | `AvilaCocycles` | `avila-cocycles-martini_vi.mp4` | `02_16_Avila_Dynamics` |

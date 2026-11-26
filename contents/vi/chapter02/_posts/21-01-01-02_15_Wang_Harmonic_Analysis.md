@@ -100,6 +100,15 @@ Năm 1971, **Roy Davies** chứng minh trên mặt phẳng 2 chiều: dù diện
 
 ---
 
+
+### Video ngắn 1: Bài toán Chiếc kim Kakeya & Đột phá 3 chiều (Wang–Zahl, 2025)
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/wang-kakeya-3d_vi.mp4"></video>
+</div>
+
+Video dài khoảng 34 giây (có thuyết minh tiếng Việt): tập Besicovitch diện tích 0, chiều Hausdorff dim_H(K) = 3 và bước ngoặt lịch sử sau hơn 50 năm.
+
 ## 2. Giải thích: Wang và Zahl giải Giả thuyết Kakeya 3 chiều bằng 4 bước như thế nào?
 
 Tại sao từ 2 chiều (Davies 1971) lên 3 chiều lại mất hơn nửa thế kỷ? Trên mặt phẳng, hai đường thẳng không song song *bắt buộc cắt nhau tại đúng một điểm*, nên chỉ cần bất đẳng thức Cauchy–Schwarz đơn giản là xong. Trong không gian 3 chiều, hàng triệu "sợi mì spaghetti" (ống $$\delta$$) có thể **chéo nhau không cắt**, bó chặt trong những tấm mỏng, hoặc xếp lên mặt cong hyperboloid một tầng (**regulus**)! Hãy đọc chậm 4 bước đột phá của **Hong Wang và Joshua Zahl** ([arXiv:2502.17655](https://arxiv.org/abs/2502.17655), 127 trang):
@@ -138,6 +147,15 @@ Mọi tập Kakeya $$K\subset\mathbb{R}^3$$ thỏa $$\dim_H(K) = \dim_M(K) = 3$$
 *Hình. Một số mốc từ Kakeya (1917) đến Huy chương Fields của Wang (2026).*
 
 ---
+
+
+### Video ngắn 2: Cấu trúc Hạt dính, Hạn chế Fourier & Bản đồ Bourgain–Stein
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/wang-fourier-restriction_vi.mp4"></video>
+</div>
+
+Video dài khoảng 32 giây (có thuyết minh tiếng Việt): quy nạp đa thang chặt cộng hưởng ống δ-mảnh, kỷ lục hạn chế Fourier ℝ³ và hệ sinh thái PDE tán sắc.
 
 ## 3. Cầu nối Giải tích điều hòa và các công trình khác trong lời trích dẫn IMU
 

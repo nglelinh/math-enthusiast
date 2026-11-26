@@ -107,6 +107,15 @@ $$
 
 ---
 
+
+### Video ngắn 1: Hình học Symplectic & Chu trình Cơ bản Ảo của John Pardon
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/pardon-symplectic-vfc_vi.mp4"></video>
+</div>
+
+Video dài khoảng 37 giây (có thuyết minh tiếng Việt): bảo toàn diện tích pha ω, định lý lạc đà Gromov, kỳ dị không gian mô đun đường cong J-chỉnh hình và chu trình cơ bản ảo.
+
 ## 2. Bài giảng Fields tại ICM 2026: Tính chính quy dẫn xuất loga (đang thực hiện)
 
 Tại **ICM 2026** (Philadelphia), bài giảng Fields của Pardon trình bày cả những công trình về không gian moduli vượt ra ngoài các mục chính trong lời trích dẫn ngắn của IMU. Một đoạn reel công khai cho thấy slide cuối cùng (19/19) có tiêu đề **Logarithmic derived regularity**.
@@ -155,6 +164,15 @@ Khi đó:
 | Lời giảng | Không có phụ đề; nội dung được viết lại từ chữ trên slide |
 
 ---
+
+
+### Video ngắn 2: Phạm trù Fukaya & Tính chính quy Dẫn xuất Loga
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/pardon-fukaya-logderived_vi.mp4"></video>
+</div>
+
+Video dài khoảng 36 giây (có thuyết minh tiếng Việt): đa tạp con Lagrangian, đĩa giả chỉnh hình đa giác, đa tạp có góc và cầu nối đối xứng gương đồng điều.
 
 ## Nhầm lẫn thường gặp
 

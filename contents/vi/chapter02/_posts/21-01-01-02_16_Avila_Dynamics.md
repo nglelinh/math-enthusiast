@@ -91,6 +91,15 @@ $$
 
 ---
 
+
+### Video ngắn 1: Kính hiển vi Tái chuẩn hóa trong Hệ động lực 1 chiều
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/avila-renormalization-dynamics_vi.mp4"></video>
+</div>
+
+Video dài khoảng 35 giây (có thuyết minh tiếng Việt): phân đôi Đều đặn vs Ngẫu nhiên cho ánh xạ đơn đỉnh và điểm bất động phổ quát Feigenbaum.
+
 ## 2. Ghi nhận công lao một cách trung thực
 
 Bản tin của IMU nhấn mạnh gần như toàn bộ công trình của Avila là thành quả hợp tác với khoảng 30 đồng tác giả:
@@ -107,6 +116,15 @@ Bản tin của IMU nhấn mạnh gần như toàn bộ công trình của Avila
 Avila lớn lên ở Rio de Janeiro, bảo vệ tiến sĩ tại **IMPA** năm 2001 dưới sự hướng dẫn của **Welington de Melo**, sau đó làm việc tại CNRS (Pháp) và Đại học Zurich.
 
 ---
+
+
+### Video ngắn 2: Cocycle SL(2, ℝ), Bài toán Mười ly Martini & Phổ Lyapunov
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/avila-cocycles-martini_vi.mp4"></video>
+</div>
+
+Video dài khoảng 37 giây (có thuyết minh tiếng Việt): phổ Cantor của toán tử Almost Mathieu, lý thuyết toàn cục phức hóa số mũ Lyapunov và tính trộn yếu Avila–Forni.
 
 ## Nhầm lẫn thường gặp
 
