@@ -84,6 +84,15 @@ Từ bậc $$6$$ trở đi hiện vẫn là bài toán mở lớn vì không cò
 
 ---
 
+
+### Video ngắn 1: Khối lập phương Bhargava & Luật Hợp thành Bậc cao
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/bhargava-cubes-composition_vi.mp4"></video>
+</div>
+
+Video dài khoảng 34 giây (có thuyết minh tiếng Việt): cắt khối lập phương 2×2×2 thành 3 dạng toàn phương, luật hợp thành cho vành bậc 3–5 và hình học các số.
+
 ## 2. Giải thích: Bhargava và Shankar chặn "Hạng trung bình của đường cong elliptic" như thế nào?
 
 Làm sao từ các phép tham số hóa đa thức, **Manjul Bhargava và Arul Shankar** lại chặn được hạng trung bình của *tất cả* các đường cong elliptic trên $$\mathbb{Q}$$ (một kết quả mà ngay cả Giả thuyết Riemann mở rộng trước đó cũng chưa chứng minh được)? Hãy theo dõi mạch 4 bước:
@@ -133,6 +142,15 @@ $$
 $$
 
 ---
+
+
+### Video ngắn 2: Chặn Hạng Trung bình Đường cong Elliptic (Bhargava–Shankar)
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/bhargava-elliptic-rank_vi.mp4"></video>
+</div>
+
+Video dài khoảng 34 giây (có thuyết minh tiếng Việt): đếm nhóm Selmer qua quỹ đạo dạng bậc 4, chặn trên 0,885 và ranh giới với giả thuyết BSD.
 
 ## 3. Ghi nhận công lao và phân biệt với Giả thuyết BSD
 

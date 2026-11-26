@@ -185,6 +185,15 @@ Báo cáo của Nicholas Katz tại ICM Helsinki (1978) vẫn là tài liệu ch
 
 ---
 
+
+### Video ngắn 1: Các Giả thuyết Weil & Chứng minh của Deligne (1974)
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/deligne-weil-conjectures_vi.mp4"></video>
+</div>
+
+Video dài khoảng 34 giây (có thuyết minh tiếng Việt): hàm zeta trên 𝔽_q, tính thuần khiết trị riêng Frobenius qua bút Lefschetz và hệ quả Ramanujan–Petersson.
+
 ## 4. Weil II, chặn Ramanujan–Petersson, và những gì vẫn còn mở
 
 **Những gì được khai thông.** Nhờ *Weil I* và *Weil II*, hàng loạt ước lượng sâu trong lý thuyết số giải tích (tổng mũ nhiều biến, tổng Kloosterman tổng quát, nhóm đơn đạo) trở thành các định lý hình học về trọng số. Đặc biệt nổi tiếng là lời giải cho **giả thuyết Ramanujan–Petersson**.
@@ -200,6 +209,15 @@ $$
 **Những gì chưa được chứng minh.** **Các giả thuyết chuẩn** của Grothendieck vẫn còn mở (trừ định lý Lefschetz mạnh trong đặc số dương mà Deligne suy ra ngược lại từ *Weil II*). **Giả thuyết Hodge** vẫn còn mở. Deligne xây dựng **cấu trúc Hodge hỗn hợp** (mang trực giác trọng số sang hình học phức) và định nghĩa **chu trình Hodge tuyệt đối** như những công cụ mạnh mẽ, không phải chứng minh giả thuyết Hodge.
 
 ---
+
+
+### Video ngắn 2: Đối đồng điều Étale, Weil II & Những Giả thuyết Chuẩn còn mở
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/deligne-etale-weil2_vi.mp4"></video>
+</div>
+
+Video dài khoảng 27 giây (có thuyết minh tiếng Việt): phủ étale, công thức vết Grothendieck–Lefschetz, bó ℓ-adic hỗn tạp và giả thuyết Chuẩn / Hodge.
 
 ## 5. Ghi nhận công lao một cách trung thực
 

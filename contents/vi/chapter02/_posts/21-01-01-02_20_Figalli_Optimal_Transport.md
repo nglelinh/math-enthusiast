@@ -128,6 +128,15 @@ $$
 
 ---
 
+
+### Video ngắn 1: Vận chuyển Tối ưu, Monge–Ampère & Chính quy W^{2,1}
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/figalli-monge-ampere_vi.mp4"></video>
+</div>
+
+Video dài khoảng 38 giây (có thuyết minh tiếng Việt): thí nghiệm xé rách đĩa tròn khi miền đích không lồi, định lý W^{2,1} De Philippis–Figalli và tập kỳ dị độ đo 0.
+
 ## 3. Ba ứng dụng lớn: bất đẳng thức tinh thể, khí quyển và xác suất
 
 1. **Bất đẳng thức đẳng chu không đẳng hướng định lượng (Hình Wulff).** Trong vật lý chất rắn, năng lượng bề mặt tinh thể phụ thuộc vào hướng mặt phẳng, nên hình cân bằng cực tiểu hóa chu vi không đẳng hướng là **hình Wulff** chứ không phải hình cầu. **Figalli–Maggi–Pratelli** (*Inventiones*, 2010) dùng ánh xạ Brenier để chứng minh dạng định lượng sắc: nếu chu vi không đẳng hướng của tập $$E$$ chỉ vượt chu vi hình Wulff một lượng nhỏ $$\delta$$, thì thể tích phần sai khác giữa $$E$$ và một phép tịnh tiến của hình Wulff bị chặn bởi $$C\sqrt{\delta}$$ (số mũ $$1/2$$ tối ưu).
@@ -148,6 +157,15 @@ Vì Figalli là học trò của Villani, hai huy chương rất hay bị gộp 
 Đọc thêm bài [Villani / Landau–Boltzmann]({{ site.baseurl }}/contents/vi/chapter02/02_29_Villani_Landau_Boltzmann/) để thấy rõ mảng phương trình động học của năm 2010.
 
 ---
+
+
+### Video ngắn 2: Ba Ứng dụng của Vận chuyển Tối ưu & So sánh Villani–Figalli
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/figalli-applications-transport_vi.mp4"></video>
+</div>
+
+Video dài khoảng 26 giây (có thuyết minh tiếng Việt): tinh thể Wulff, khí tượng học bán địa chuyển, ma trận ngẫu nhiên và dấu ấn PDE của Figalli.
 
 ## 5. Vì sao ông nhận Huy chương Fields
 

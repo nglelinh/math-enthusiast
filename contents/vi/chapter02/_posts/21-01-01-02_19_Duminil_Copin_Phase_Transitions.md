@@ -134,6 +134,15 @@ $$
 
 ---
 
+
+### Video ngắn 1: Chuyển pha Mô hình Ising 3D & Tính tầm thường 4D
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/duminil-ising-3d-4d_vi.mp4"></video>
+</div>
+
+Video dài khoảng 39 giây (có thuyết minh tiếng Việt): bất đẳng thức OSSS, biểu diễn dòng ngẫu nhiên cho Ising 3D và định lý tầm thường 4D (Aizenman–Duminil-Copin).
+
 ## 4. Ghi nhận công lao và những gì huy chương không khẳng định
 
 | Kết quả (tóm tắt) | Tác giả |
@@ -153,6 +162,15 @@ Duminil-Copin sinh năm 1985 tại Pháp, học tại ENS và Paris-Sud, làm lu
 **Đừng khẳng định:** đã chứng minh tính bất biến bảo giác đầy đủ cho mô hình Ising ba chiều; đã phân loại mọi mô hình trên lưới; đã giải xong lý thuyết trường lượng tử kiến thiết ở chiều ba; hay SLE được phát minh lại năm 2022.
 
 ---
+
+
+### Video ngắn 2: Thấm, Đường tự tránh Tổ ong √(2+√2) & Ngưỡng Sắc bén
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/duminil-percolation-saw_vi.mp4"></video>
+</div>
+
+Video dài khoảng 35 giây (có thuyết minh tiếng Việt): hằng số liên kết tổ ong √(2+√2), suy giảm hàm mũ dưới ngưỡng p_c và bài toán thấm 3D tại p_c.
 
 ## 5. Vì sao ông nhận Huy chương Fields
 

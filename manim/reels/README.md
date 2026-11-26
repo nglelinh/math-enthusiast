@@ -110,3 +110,11 @@ Same pipeline as Batch 3 (`python gamma_vo.py synth`, `REEL_LANG=vi manim -qh ga
 | `wang_restriction.py` | `WangRestriction` | `wang-fourier-restriction_vi.mp4` | `02_15_Wang_Harmonic_Analysis` |
 | `avila_renormalization.py` | `AvilaRenormalization` | `avila-renormalization-dynamics_vi.mp4` | `02_16_Avila_Dynamics` |
 | `avila_cocycles.py` | `AvilaCocycles` | `avila-cocycles-martini_vi.mp4` | `02_16_Avila_Dynamics` |
+| `bhargava_cubes.py` | `BhargavaCubes` | `bhargava-cubes-composition_vi.mp4` | `02_17_Bhargava_Composition` |
+| `bhargava_elliptic.py` | `BhargavaElliptic` | `bhargava-elliptic-rank_vi.mp4` | `02_17_Bhargava_Composition` |
+| `deligne_weil.py` | `DeligneWeil` | `deligne-weil-conjectures_vi.mp4` | `02_18_Deligne_Weil` |
+| `deligne_etale.py` | `DeligneEtale` | `deligne-etale-weil2_vi.mp4` | `02_18_Deligne_Weil` |
+| `duminil_ising.py` | `DuminilIsing` | `duminil-ising-3d-4d_vi.mp4` | `02_19_Duminil_Copin_Phase_Transitions` |
+| `duminil_percolation.py` | `DuminilPercolation` | `duminil-percolation-saw_vi.mp4` | `02_19_Duminil_Copin_Phase_Transitions` |
+| `figalli_monge_ampere.py` | `FigalliMongeAmpere` | `figalli-monge-ampere_vi.mp4` | `02_20_Figalli_Optimal_Transport` |
+| `figalli_applications.py` | `FigalliApplications` | `figalli-applications-transport_vi.mp4` | `02_20_Figalli_Optimal_Transport` |

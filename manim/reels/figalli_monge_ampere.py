@@ -1,0 +1,82 @@
+# -*- coding: utf-8 -*-
+from common_b import *
+import os, json, numpy as np
+
+BG = "#10121a"
+FG = WHITE
+MUTED = DIM
+ACCENT = SKY
+RED = PINK
+VIOLET = ORANGE
+GOLD = SUN
+
+def card(w, h, color=SKY):
+    return RoundedRectangle(width=w, height=h, corner_radius=0.22,
+                            fill_color=CARD, fill_opacity=0.92,
+                            stroke_color=color, stroke_width=2.5)
+
+def make_scene_header(tag, title):
+    t1 = fit(T(tag, 22, GOLD), 7.6)
+    t2 = fit(T(title, 34, WHITE), 7.8)
+    return VGroup(t1, t2).arrange(DOWN, buff=0.14).move_to([0, 6.2, 0])
+
+TX = {
+    "s1_tag": {"vi": "VẬN CHUYỂN TỐI ƯU", "en": "OPTIMAL TRANSPORT"},
+    "s1_t": {"vi": "Chuyển 2 đống cát & Thí nghiệm xé rách đĩa", "en": "Sand Piles & Tearing"},
+    "s1_c1": {"vi": "Ánh xạ tối ưu T = ∇φ là gradient hàm lồi φ\nthỏa phương trình phi tuyến det(D²φ) = f(x)/g(∇φ)!", "en": "Monge-Ampere equation"},
+    "s1_c2": {"vi": "Khi miền đích không lồi (hình quả tạ): ánh xạ\nbắt buộc XÉ RÁCH đĩa tròn → sinh tập kỳ dị!", "en": "Non-convex target tears the map"},
+    "s2_tag": {"vi": "DE PHILIPPIS–FIGALLI (2013)", "en": "DE PHILIPPIS–FIGALLI"},
+    "s2_t": {"vi": "Từ Caffarelli tới Chính quy từng phần W^{2,1}", "en": "W^{2,1} Regularity"},
+    "s2_c1": {"vi": "Nếu mật độ chỉ dương bị chặn (không trơn),\nD²φ vẫn khả tích W^{2,1}_loc — kỳ tích giải tích!", "en": "W^{2,1} Sobolev regularity"},
+    "s2_c2": {"vi": "Figalli chứng minh tập kỳ dị (vết rách) có\nđộ đo 0 — trơn HẦU KHẮP MỌI NƠI!", "en": "Smooth almost everywhere"},
+    "s3_tag": {"vi": "FIELDS MEDAL 2018", "en": "FIELDS 2018"},
+    "s3_t": {"vi": "Alessio Figalli — Cấu trúc vết rách tối ưu", "en": "Alessio Figalli"},
+    "s3_c1": {"vi": "Mô tả chi tiết hình học tập kỳ dị của ánh xạ\nvận chuyển tối ưu và bài toán biên tự do!", "en": "Free boundary & singularities"},
+}
+
+class FigalliMongeAmpere(Scene):
+    def construct(self):
+        self.camera.background_color = BG
+        vo_durs = json.load(open(os.environ["VO_DUR_JSON"])) if os.environ.get("VO_DUR_JSON") else {}
+        tl_path = os.environ.get("VO_TIMELINE_JSON")
+        timeline = []
+        def end_vo(sid, t0, fb):
+            dur = vo_durs.get(sid)
+            if dur is not None:
+                rem = dur - (self.time - t0) + 0.35
+                if rem > 0.05: self.wait(rem)
+            else:
+                self.wait(fb)
+
+        t0 = self.time; timeline.append(("s1", t0))
+        hdr = make_scene_header(tr(TX["s1_tag"]), tr(TX["s1_t"]))
+        self.play(FadeIn(hdr), run_time=0.7)
+        c1 = card(6.3, 1.9, ACCENT).move_to([0, 1.8, 0])
+        t1 = fit(T(tr(TX["s1_c1"]), 22, FG), 5.9).move_to(c1)
+        c2 = card(6.3, 1.9, RED).move_to([0, -1.0, 0])
+        t2 = fit(T(tr(TX["s1_c2"]), 22, RED), 5.9).move_to(c2)
+        self.play(FadeIn(c1, t1), run_time=0.9)
+        self.play(FadeIn(c2, t2), run_time=0.9)
+        end_vo("s1", t0, 7.0)
+        self.play(FadeOut(hdr, c1, t1, c2, t2), run_time=0.5)
+
+        t0 = self.time; timeline.append(("s2", t0))
+        hdr = make_scene_header(tr(TX["s2_tag"]), tr(TX["s2_t"]))
+        self.play(FadeIn(hdr), run_time=0.7)
+        c1 = card(6.3, 1.9, GOLD).move_to([0, 1.8, 0])
+        t1 = fit(T(tr(TX["s2_c1"]), 22, GOLD), 5.9).move_to(c1)
+        c2 = card(6.3, 1.9, MINT).move_to([0, -1.0, 0])
+        t2 = fit(T(tr(TX["s2_c2"]), 22, MINT), 5.9).move_to(c2)
+        self.play(FadeIn(c1, t1), run_time=0.9)
+        self.play(FadeIn(c2, t2), run_time=0.9)
+        end_vo("s2", t0, 7.0)
+        self.play(FadeOut(hdr, c1, t1, c2, t2), run_time=0.5)
+
+        t0 = self.time; timeline.append(("s3", t0))
+        hdr = make_scene_header(tr(TX["s3_tag"]), tr(TX["s3_t"]))
+        self.play(FadeIn(hdr), run_time=0.7)
+        c1 = card(6.3, 2.2, VIOLET).move_to([0, 0.5, 0])
+        t1 = fit(T(tr(TX["s3_c1"]), 23, FG), 5.9).move_to(c1)
+        self.play(FadeIn(c1, t1), run_time=1.0)
+        end_vo("s3", t0, 6.5)
+        if tl_path: json.dump({"timeline": timeline, "total": self.time}, open(tl_path, "w"), indent=2)
