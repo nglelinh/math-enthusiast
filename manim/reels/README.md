@@ -101,3 +101,4 @@ Same pipeline as Batch 3 (`python gamma_vo.py synth`, `REEL_LANG=vi manim -qh ga
 | `huh_chromatic.py` | `HuhChromatic` | `huh-chromatic-logconcave_{vi,en}.mp4` | `02_11_Modern_Combinatorics_Geometry` |
 | `huh_lorentzian.py` | `HuhLorentzian` | `huh-lorentzian-bridges_{vi,en}.mp4` | `02_11_Modern_Combinatorics_Geometry` |
 | `deng_hilbert6.py` | `DengHilbert6` | `deng-hilbert6-boltzmann_{vi,en}.mp4` | `02_12_Deng_PDE` |
+| `deng_wave_kinetic.py` | `DengWaveKinetic` | `deng-wave-kinetic_vi.mp4` | `02_12_Deng_PDE` |
