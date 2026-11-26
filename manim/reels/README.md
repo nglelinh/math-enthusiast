@@ -118,3 +118,11 @@ Same pipeline as Batch 3 (`python gamma_vo.py synth`, `REEL_LANG=vi manim -qh ga
 | `duminil_percolation.py` | `DuminilPercolation` | `duminil-percolation-saw_vi.mp4` | `02_19_Duminil_Copin_Phase_Transitions` |
 | `figalli_monge_ampere.py` | `FigalliMongeAmpere` | `figalli-monge-ampere_vi.mp4` | `02_20_Figalli_Optimal_Transport` |
 | `figalli_applications.py` | `FigalliApplications` | `figalli-applications-transport_vi.mp4` | `02_20_Figalli_Optimal_Transport` |
+| `hairer_spde.py` | `HairerSPDE` | `hairer-regularity-structures_vi.mp4` | `02_21_Hairer_Regularity_Structures` |
+| `hairer_paracontrol.py` | `HairerParacontrol` | `hairer-paracontrol-subcritical_vi.mp4` | `02_21_Hairer_Regularity_Structures` |
+| `kontsevich_witten.py` | `KontsevichWitten` | `kontsevich-witten-knots_vi.mp4` | `02_22_Kontsevich_Quantization` |
+| `kontsevich_formality.py` | `KontsevichFormality` | `kontsevich-formality-quantization_vi.mp4` | `02_22_Kontsevich_Quantization` |
+| `lindenstrauss_rigidity.py` | `LindenstraussRigidity` | `lindenstrauss-measure-rigidity_vi.mp4` | `02_23_Lindenstrauss_Measure_Rigidity` |
+| `lindenstrauss_que.py` | `LindenstraussQUE` | `lindenstrauss-arithmetic-que_vi.mp4` | `02_23_Lindenstrauss_Measure_Rigidity` |
+| `lions_viscosity.py` | `LionsViscosity` | `lions-viscosity-solutions_vi.mp4` | `02_24_Lions_Viscosity` |
+| `lions_boltzmann.py` | `LionsBoltzmann` | `lions-boltzmann-mfg_vi.mp4` | `02_24_Lions_Viscosity` |

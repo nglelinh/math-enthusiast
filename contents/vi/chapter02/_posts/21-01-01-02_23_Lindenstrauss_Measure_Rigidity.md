@@ -130,6 +130,12 @@ $$
 
 ---
 
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/lindenstrauss-measure-rigidity_vi.mp4"></video>
+</div>
+
+Video dài khoảng 44 giây (có thuyết minh tiếng Việt): tính cứng độ đo (measure rigidity) cho tác động chéo bậc cao và giả thuyết Littlewood.
+
 ## 3. Những người liên quan và vị trí trong lịch sử
 
 | Tên | Vai trò trong câu chuyện |
@@ -149,6 +155,12 @@ Elon Lindenstrauss (sinh 1970) bảo vệ tiến sĩ năm 1999 tại Đại họ
 **Vì sao là Huy chương Fields:** Văn bản IMU 2010 tôn vinh một **phương pháp mới đầy uy lực**: kết hợp entropy dương, bất biến hạng cao (hoặc đối xứng Hecke/adelic) và động lực học thuần nhất để chinh phục những câu hỏi cốt lõi của lý thuyết số — nối tiếp trực tiếp tinh thần Giải Abel 2020 trong [Chương 8]({{ site.baseurl }}/contents/vi/chapter08/).
 
 ---
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/lindenstrauss-arithmetic-que_vi.mp4"></video>
+</div>
+
+Video dài khoảng 47 giây (có thuyết minh tiếng Việt): cực hạn duy nhất lượng tử số học (Arithmetic QUE) trên mặt hyperbolic và phân bố đều hàm riêng Laplace.
 
 ## Nhầm lẫn phổ biến
 

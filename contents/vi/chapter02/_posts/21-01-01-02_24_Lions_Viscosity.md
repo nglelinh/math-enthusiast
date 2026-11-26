@@ -100,12 +100,24 @@ $$
 
 ---
 
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/lions-viscosity-solutions_vi.mp4"></video>
+</div>
+
+Video dài khoảng 53 giây (có thuyết minh tiếng Việt): nghiệm nhớt (viscosity solutions) cho phương trình Hamilton–Jacobi–Bellman và nguyên lý so sánh.
+
 ## 3. Hai trụ cột lớn khác trong chương trình của Lions (1994)
 
 1. **Lý thuyết DiPerna–Lions (1989) cho phương trình Boltzmann và phương trình vận chuyển.** Cùng **Ronald J. DiPerna**, Lions đưa ra khái niệm **nghiệm tái chuẩn hóa** (*renormalized solutions*) cho phương trình Boltzmann — tác động bằng hàm phi tuyến kiểu $$\ln(1+f)$$ kết hợp bổ đề compact trung bình vận tốc để chứng minh tồn tại toàn cục và ổn định yếu cho dữ kiện lớn (*Ann. of Math.* 1989). Song hành là lý thuyết **phương trình vận chuyển** với trường vận tốc thuộc lớp Sobolev $$W^{1,1}$$ (dù không đủ Lipschitz cho quỹ đạo cổ điển duy nhất, dòng Lagrange vẫn xác định hầu khắp nơi — sau này Ambrosio mở rộng sang BV). Đặt cạnh [bài về Yu Deng]({{ site.baseurl }}/contents/vi/chapter02/02_12_Deng_PDE/): DiPerna–Lions xử lý tính đặt đúng của *chính* phương trình Boltzmann, còn Deng–Hani–Ma suy dẫn phương trình Boltzmann từ hệ hạt cầu cứng.
 2. **Nguyên lý tập trung–compact (Concentration-Compactness, 1984–1985).** Khi cực tiểu hóa năng lượng trên không gian không compact $$\mathbb{R}^n$$ (như tìm hàm cực trị bất đẳng thức Sobolev hay bài toán kiểu Yamabe), một dãy cực tiểu hóa chỉ có thể mất tính compact theo đúng 3 cách: **tan biến** (trải loãng về 0), **tách đôi** (xé thành hai cục trôi xa nhau), hoặc **tập trung** (compact sau phép tịnh tiến/co giãn). Lions phân loại triệt để ba kịch bản này và đưa ra điều kiện năng lượng dưới cộng tính chặt để loại trừ kịch bản tách đôi, khôi phục tính tồn tại cực tiểu.
 
 ---
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/lions-boltzmann-mfg_vi.mp4"></video>
+</div>
+
+Video dài khoảng 45 giây (có thuyết minh tiếng Việt): nghiệm DiPerna–Lions cho phương trình Boltzmann và trò chơi trường trung bình (Mean Field Games).
 
 ## 4. Những điều huy chương 1994 không khẳng định và vì sao là Huy chương Fields
 

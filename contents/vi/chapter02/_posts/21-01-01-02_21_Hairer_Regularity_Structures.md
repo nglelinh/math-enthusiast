@@ -124,6 +124,12 @@ $$
 
 ---
 
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/hairer-regularity-structures_vi.mp4"></video>
+</div>
+
+Video dài khoảng 41 giây (có thuyết minh tiếng Việt): cấu trúc chính quy (regularity structures), cây hình thức và bài toán tái chuẩn hóa cho phương trình KPZ.
+
 ## 3. Phân phối paracontrol và Đường thô: những người anh em song hành
 
 Cần ghi công đầy đủ cho hai trụ cột song hành với cấu trúc chính quy:
@@ -131,6 +137,12 @@ Cần ghi công đầy đủ cho hai trụ cột song hành với cấu trúc ch
 - **Phân phối paracontrol (Paracontrolled Distributions) của Massimiliano Gubinelli, Peter Imkeller và Nicolas Perkowski** (*Forum of Mathematics, Pi*, 2015; arXiv:1210.2684): Phát triển độc lập cùng thời điểm theo tinh thần **giải tích Fourier** và tích *paraproduct* của Bony, xử lý gọn gàng các phương trình như KPZ và $$\Phi^4_3$$. Đây là một bộ công cụ độc lập song song, không phải hệ quả của cấu trúc chính quy.
 
 ---
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/hairer-paracontrol-subcritical_vi.mp4"></video>
+</div>
+
+Video dài khoảng 38 giây (có thuyết minh tiếng Việt): phân phối paracontrol, tính dưới tới hạn (subcriticality) và cầu nối giải tích SPDE.
 
 ## 4. Những điều huy chương không khẳng định và vì sao lý thuyết này quan trọng
 

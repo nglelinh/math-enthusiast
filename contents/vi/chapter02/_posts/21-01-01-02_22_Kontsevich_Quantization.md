@@ -93,6 +93,12 @@ Các số giao tautological trên $$\overline{\mathcal{M}}_{g,n}$$ được đ�
 
 ---
 
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/kontsevich-witten-knots_vi.mp4"></video>
+</div>
+
+Video dài khoảng 44 giây (có thuyết minh tiếng Việt): giả thuyết Witten về không gian mô-đun đường cong và bất biến nút thắt Kontsevich.
+
 ## 3. Giải thích: Định lý hình thức (Formality) và lượng tử hóa mọi đa tạp Poisson
 
 Tại sao bài toán lượng tử hóa biến dạng cho đa tạp **Poisson tổng quát** lại đứng vững suốt 20 năm sau khi De Wilde–Lecomte (1983) và Fedosov (1994) đã giải xong cho đa tạp symplectic? Dưới đây là 4 bước đột phá của Kontsevich (bản thảo 1997, arXiv:q-alg/9709040; *Lett. Math. Phys.* 2003):
@@ -130,6 +136,12 @@ $$
 *(Lưu ý chữ **"hình thức"**: kết quả làm việc trên chuỗi lũy thừa hình thức $$\mathbb{R}[\![\hbar]\!]$$, không khẳng định chuỗi hội tụ theo giá trị số thực của $$\hbar$$ hay xây dựng cơ học lượng tử trên không gian Hilbert cho mọi đa tạp Poisson.)*
 
 ---
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/kontsevich-formality-quantization_vi.mp4"></video>
+</div>
+
+Video dài khoảng 39 giây (có thuyết minh tiếng Việt): định lý hình thức $L_\infty$ và công thức tích sao lượng tử hóa biến dạng trên mọi đa tạp Poisson.
 
 ## 4. Các chương trình liên quan nhưng không phải kết quả thứ ba năm 1998
 
