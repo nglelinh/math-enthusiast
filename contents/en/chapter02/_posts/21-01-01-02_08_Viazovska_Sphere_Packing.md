@@ -258,6 +258,15 @@ The proof is analytic and exact—not a numerical optimization that almost match
 
 ---
 
+
+### Short Video 2: The E₈ Lattice and Viazovska's Modular Magic Function
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/viazovska-e8-magic-function_en.mp4"></video>
+</div>
+
+Short visual walkthrough (1 min 15 sec): the 240 shortest vectors of E₈, the Cohn–Elkies linear programming bound, double zeros, and Viazovska's ±1 Fourier eigenfunction construction via modular forms.
+
 ## 6. Dimension 24: collaboration
 
 Just one week after Viazovska’s 8D preprint appeared, **Henry Cohn, Abhinav Kumar, Stephen D. Miller, Danylo Radchenko, and Maryna Viazovska** adapted the modular-form construction to dimension 24, proving that the Leech lattice $$\Lambda_{24}$$ achieves the unique optimal sphere packing density $$\pi^{12}/12!$$ in $$\mathbb{R}^{24}$$.
@@ -278,6 +287,15 @@ The Cohn–Elkies / Viazovska circle of ideas quickly blossomed far beyond hard 
 - **Exact discrete geometry via harmonic analysis:** A new bridge showing modular forms can solve global geometric optimization problems.
 
 ---
+
+
+### Short Video 3: The 24D Leech Lattice & Universal Optimality
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/viazovska-leech-24d_en.mp4"></video>
+</div>
+
+Short visual walkthrough (54 sec): the Leech lattice Λ₂₄ with 196,560 kissing neighbors, optimal density π¹²/12!, universal optimality, and the map of solved dimensions (1, 2, 3, 8, 24).
 
 ## 8. Why it matters
 

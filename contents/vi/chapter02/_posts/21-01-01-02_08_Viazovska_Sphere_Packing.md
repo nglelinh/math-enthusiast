@@ -171,6 +171,23 @@ $$
 
 ---
 
+
+### Video ngắn 2: Lưới E₈ và Hàm kỳ diệu từ Dạng modular của Viazovska
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/viazovska-e8-magic-function_vi.mp4"></video>
+</div>
+
+Video dài khoảng 1 phút 31 giây (có thuyết minh tiếng Việt): cấu trúc lưới E₈ với 240 hàng xóm, chặn Cohn–Elkies qua tổng Poisson, không điểm kép và cách tách trị riêng Fourier ±1 bằng dạng modular.
+
+### Video ngắn 3: Lưới Leech 24 chiều & Tính tối ưu phổ quát
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/viazovska-leech-24d_vi.mp4"></video>
+</div>
+
+Video dài khoảng 57 giây (có thuyết minh tiếng Việt): lưới Leech Λ₂₄ với 196.560 hàng xóm, mật độ tối ưu π¹²/12!, tính tối ưu phổ quát và bức tranh các chiều đã giải được (1, 2, 3, 8, 24).
+
 ## 4. Ghi nhận công lao và điều nghịch lý
 
 - **Chiều 8:** Maryna Viazovska (một mình — bài báo mốc năm 2016, *Annals of Mathematics* 2017).

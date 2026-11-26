@@ -69,6 +69,15 @@ If you graduated in engineering, computer science, or mathematics, you may have 
 
 ---
 
+
+### Short Video 1: Homogeneous Dynamics & Number Theory (Overview)
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/venkatesh-dynamics-overview_en.mp4"></video>
+</div>
+
+Short visual overview (1 min 11 sec): the space of lattices SL₂(ℝ)/SL₂(ℤ), quantitative mixing, breaking the 1/4 convexity barrier for L-functions, and equidistribution on spheres.
+
 ## 1. Automorphic forms and arithmetic quotients
 
 Classical modular forms are holomorphic functions on the upper half-plane $$\mathbb{H}$$ with transformation laws under subgroups of $$\mathrm{SL}_2(\mathbb{Z})$$. They produce $$L$$-functions whose special values and analytic growth encode arithmetic (Fourier coefficients, point counts over finite fields, ranks of elliptic curves).
@@ -211,6 +220,15 @@ $$
 
 ---
 
+
+### Short Video 2: Breaking the Convexity Barrier via Quantitative Mixing
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/venkatesh-subconvexity-mixing_en.mp4"></video>
+</div>
+
+Short visual walkthrough (43 sec): Waldspurger's period formula, exponential mixing from spectral gaps, and the uniform Michel–Venkatesh (2010) subconvexity theorem.
+
 ## 5. Topology of locally symmetric spaces
 
 Locally symmetric spaces $$\Gamma\backslash G/K$$ are not only spectral arenas; they are topological manifolds (or orbifolds) with intricate cohomology. Key questions include:
@@ -222,6 +240,15 @@ Locally symmetric spaces $$\Gamma\backslash G/K$$ are not only spectral arenas; 
 Venkatesh (in solo work and with collaborators such as Calegari, Prasanna, and Bergeron) discovered surprising **derived Hecke algebra** actions and conjectured deep links between the cohomology of locally symmetric spaces, motivic cohomology, and special values of adjoint $$L$$-functions. The takeaway for learners: the very same arithmetic groups that produce modular forms also build manifolds whose topological holes carry arithmetic meaning.
 
 ---
+
+
+### Short Video 3: Arithmetic 3-Manifolds, Torsion Growth & Motivic Action
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/venkatesh-torsion-topology_en.mp4"></video>
+</div>
+
+Short visual walkthrough (40 sec): exponential torsion growth in arithmetic hyperbolic 3-manifolds and Venkatesh's conjectural action of motivic cohomology.
 
 ## 6. Synthesis as method
 

@@ -68,6 +68,15 @@ If you remember the Sieve of Eratosthenes from school—crossing out multiples o
 
 ---
 
+
+### Short Video 1: Bounded Gaps Between Primes (70 Million → 246)
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/maynard-bounded-gaps_en.mp4"></video>
+</div>
+
+Short visual overview (1 min 1 sec): from Yitang Zhang's 70,000,000 bound to Maynard's 600 and Polymath8b's 246, m-tuples of primes in bounded intervals, and the parity barrier.
+
 ## 1. Gaps between primes: typical, small, and large
 
 Let $$p_1=2,p_2=3,p_3=5,\ldots$$. By the Prime Number Theorem, the average gap $$g_n=p_{n+1}-p_n$$ up to $$x$$ satisfies
@@ -175,6 +184,15 @@ $$
 
 ---
 
+
+### Short Video 2: How the Maynard–Tao Multidimensional Sieve Breaks the 1D Bottleneck
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/maynard-multidim-sieve_en.mp4"></video>
+</div>
+
+Short visual walkthrough (40 sec): admissible tuples like (0, 2, 6), the GPY 1D bottleneck at level of distribution 1/2, and smooth k-variable weights on the simplex.
+
 ## 4. Not the twin prime conjecture
 
 The **twin prime conjecture** asserts infinitely many primes $$p$$ with $$p+2$$ also prime—gap **exactly** $$2$$ infinitely often. Bounded gaps assert only that some even gap $$\le 246$$ occurs infinitely often.
@@ -202,6 +220,15 @@ Maynard’s Fields Medal recognizes a sweeping body of work on the structure of 
 - **Duffin–Schaeffer conjecture (with Koukoulopoulos, 2019):** Settled an 80-year-old foundational conjecture in Diophantine approximation using graph-theoretic "GCD graphs" to measure overlap of rational approximations.
 
 ---
+
+
+### Short Video 3: Infinitely Many Primes Missing the Digit 7
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/maynard-missing-digits_en.mp4"></video>
+</div>
+
+Short visual walkthrough (36 sec): Maynard's 2019 theorem on primes with restricted decimal digits via Fourier analysis on digit expansions and the Hardy–Littlewood circle method.
 
 ## 6. Contrast with Green–Tao
 

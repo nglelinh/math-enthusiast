@@ -68,6 +68,15 @@ Khi $$D \to \infty$$ (với $$D \not\equiv 0, 4, 7 \pmod 8$$), các điểm $$\f
 
 ---
 
+
+### Video ngắn 1: Động lực học thuần nhất và Lý thuyết số (Tổng quan)
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/venkatesh-dynamics-overview_vi.mp4"></video>
+</div>
+
+Video dài khoảng 1 phút 51 giây (có thuyết minh tiếng Việt): trực quan hóa không gian lưới SL₂(ℝ)/SL₂(ℤ), dòng trắc địa trộn đều, phá vỡ bức tường lồi 1/4 của hàm L và phân bố đều trên mặt cầu.
+
 ## 1. Hai ngôn ngữ, một cấu trúc
 
 Công trình của Venkatesh (và các cộng sự) cho thấy nhiều câu hỏi kinh điển của lý thuyết số giải tích **chính là** các câu hỏi về phân bố đều, tính trộn (*mixing*) hay khe phổ trên các không gian thuần nhất $$G/\Gamma$$. Việc đếm điểm nguyên trên mặt cầu/hyperboloid, ước lượng giá trị dạng toàn phương hay tính mômen hàm $$L$$ đều chuyển được thành trung bình dọc theo quỹ đạo trên $$G/\Gamma$$.
@@ -106,6 +115,15 @@ $$
 
 ---
 
+
+### Video ngắn 2: Phá vỡ bức tường lồi bằng Tính trộn định lượng & Khe phổ
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/venkatesh-subconvexity-mixing_vi.mp4"></video>
+</div>
+
+Video dài khoảng 1 phút 4 giây (có thuyết minh tiếng Việt): công thức chu trình Waldspurger, tốc độ trộn hàm mũ e^(−κt) và định lý dưới lồi thống nhất Michel–Venkatesh (2010).
+
 ## 3. Tô pô của không gian đối xứng địa phương và Phần xoắn
 
 Không dừng ở động lực học thuần nhất, Venkatesh còn mở ra một hướng nghiên cứu cực kỳ sâu sắc nối **tô pô đại số** với **lý thuyết số**: nghiên cứu các **không gian đối xứng địa phương** $$\Gamma \backslash G / K$$ (ví dụ ở 2 chiều là mặt modular $$\mathrm{SL}_2(\mathbb{Z})\backslash \mathbb{H}$$, ở 3 chiều là các đa tạp hyperbolic số học như $$\mathrm{SL}_2(\mathbb{Z}[i])\backslash \mathbb{H}^3$$).
@@ -113,6 +131,15 @@ Không dừng ở động lực học thuần nhất, Venkatesh còn mở ra m�
 Trên đa tạp 3 chiều số học, nhóm đối đồng điều $$H^1(\Gamma \backslash \mathbb{H}^3, \mathbb{Z})$$ thường có rất ít phần tự do (tương ứng với dạng tự đẳng cấu cổ điển), nhưng lại chứa lượng khổng lồ **phần xoắn** (*torsion* — các phần tử thỏa $$n \cdot c = 0$$). Venkatesh (cùng Bergeron, Calegari, Prasanna…) đã phát hiện quy luật tăng trưởng của phần xoắn theo thể tích đa tạp và đề xuất hệ giả thuyết chấn động về **tác động của đối đồng điều motivic** lên đối đồng điều của đa tạp số học, giải thích vì sao cùng một biểu diễn Galois có thể xuất hiện lặp lại ở nhiều bậc đối đồng điều khác nhau!
 
 ---
+
+
+### Video ngắn 3: Tô pô của Đa tạp Số học 3 chiều & Phần xoắn
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/venkatesh-torsion-topology_vi.mp4"></video>
+</div>
+
+Video dài khoảng 52 giây (có thuyết minh tiếng Việt): sự bùng nổ theo hàm mũ của đối đồng điều xoắn trên đa tạp hyperbolic số học 3 chiều và tác động của đối đồng điều motivic.
 
 ## 4. Vị trí trong Chương 2 và điều nghịch lý
 

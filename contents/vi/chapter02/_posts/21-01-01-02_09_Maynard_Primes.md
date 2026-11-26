@@ -62,6 +62,15 @@ thì **bắt buộc tồn tại ít nhất một $$n \in [N, 2N)$$** sao cho tro
 
 ---
 
+
+### Video ngắn 1: Khoảng cách bị chặn giữa các Số nguyên tố (70 triệu → 246)
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/maynard-bounded-gaps_vi.mp4"></video>
+</div>
+
+Video dài khoảng 1 phút 9 giây (có thuyết minh tiếng Việt): hành trình từ Yitang Zhang (70 triệu) đến sàng đa chiều Maynard (600) và Polymath8b (246), cụm m số nguyên tố bất kỳ và rào cản chẵn lẻ.
+
 ## 1. Khoảng cách giữa các số nguyên tố và cột mốc Zhang (2013)
 
 Ký hiệu $$p_n$$ là số nguyên tố thứ $$n$$ và $$g_n = p_{n+1} - p_n$$. Theo Định lý số nguyên tố, khoảng cách trung bình quanh $$x$$ là $$\ln x \to \infty$$, nhưng trung bình lớn không hề cấm việc thỉnh thoảng hai số nguyên tố đứng cực sát nhau!
@@ -126,6 +135,15 @@ $$
 
 ---
 
+
+### Video ngắn 2: Sàng đa chiều Maynard–Tao vượt nút thắt GPY 1 chiều
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/maynard-multidim-sieve_vi.mp4"></video>
+</div>
+
+Video dài khoảng 55 giây (có thuyết minh tiếng Việt): chòm chấp nhận được (0, 2, 6), nút thắt phân bố 1/2 của sàng GPY 1 chiều và trọng số hàm trơn k biến trên đơn hình.
+
 ## 3. Không chỉ khoảng cách nhỏ: Khoảng cách lớn, Chữ số bị hạn chế và Duffin–Schaeffer
 
 Huy chương Fields 2022 ghi nhận hàng loạt đỉnh cao khác của Maynard:
@@ -145,6 +163,15 @@ Huy chương Fields 2022 ghi nhận hàng loạt đỉnh cao khác của Maynard
 **Giới hạn cần nhớ:** Do **rào cản chẵn lẻ** (*parity barrier*) cố hữu của phương pháp sàng — chiếc sàng khó phân biệt số nguyên tố (1 thừa số nguyên tố) với tích của hai số nguyên tố lớn (2 thừa số) — việc đi từ $$246$$ xuống $$2$$ (giả thuyết số nguyên tố sinh đôi) vẫn đòi hỏi những ý tưởng hoàn toàn mới.
 
 ---
+
+
+### Video ngắn 3: Vô hạn Số nguyên tố không chứa chữ số 7
+
+<div class="reel-video" style="text-align:center;margin:1.5rem 0;">
+<video controls playsinline preload="metadata" style="width:100%;max-width:360px;height:auto;aspect-ratio:9/16;border-radius:12px;background:#10121a;" src="{{ site.baseurl }}/public/videos/reels/maynard-missing-digits_vi.mp4"></video>
+</div>
+
+Video dài khoảng 1 phút 1 giây (có thuyết minh tiếng Việt): định lý Maynard (2019) về số nguyên tố thiếu chữ số trong hệ thập phân, phân tích Fourier trên chữ số và mở rộng phương pháp vòng tròn.
 
 ## Hiểu lầm thường gặp
 
